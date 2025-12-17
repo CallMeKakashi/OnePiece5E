@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-12-18T00:01:19.300+05:30","modified":"2025-12-18T01:21:52.497+05:30","cssclasses":""}
+{"publish":true,"created":"2025-12-18T00:01:19.300+05:30","modified":"2025-12-18T01:22:42.809+05:30","cssclasses":""}
 ---
 
 
@@ -12,7 +12,7 @@
 > How Many Units in Scale: `INPUT[number:scale_pixels_range]`  
 > Scale: `VIEW[1/({scale_pixels}/{scale_pixels_range})][math:mapCalc1]`
 
-[[World-Map.png]]
+![[World-Map.png]]
 
 ```leaflet  
 id: MapCalcExample ### Must be unique with no spaces  
