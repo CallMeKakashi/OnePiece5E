@@ -1,0 +1,634 @@
+---
+{"publish":true,"created":"2025-12-18T00:42:15.519+05:30","modified":"2025-12-18T00:42:34.993+05:30","cssclasses":""}
+---
+
+
+##### An unofficial 5e supplement for Eiichiro Oda's *One Piece*.
+By Joyful Gent and Bluebeary, inspired by u/Mr-Silvers
+
+
+- **[[source/Chapter 1 Races/Chapter 1 Races]]**
+	- **[[source/Chapter 1 Races/Augmented/Augmented]]**
+		- [[source/Chapter 1 Races/Augmented/Augmented Traits]]
+		- [[source/Chapter 1 Races/Augmented/Made to Order]]
+		- [[source/Chapter 1 Races/Augmented/Scientific Menagerie]]
+	- **[[source/Chapter 1 Races/Choosing a Race/Choosing a Race]]**
+	- **[[source/Chapter 1 Races/Dwarves/Dwarves]]**
+		- [[source/Chapter 1 Races/Dwarves/A Little Gullible]]
+		- [[source/Chapter 1 Races/Dwarves/Dwarven Traits]]
+		- [[source/Chapter 1 Races/Dwarves/Small But Deadly]]
+	- **[[source/Chapter 1 Races/Fishman/Fishman]]**
+		- [[source/Chapter 1 Races/Fishman/A history of strife]]
+		- [[source/Chapter 1 Races/Fishman/Champions of the Sea]]
+		- [[source/Chapter 1 Races/Fishman/Fishman Traits]]
+	- **[[source/Chapter 1 Races/Giants/Giants]]**
+		- [[source/Chapter 1 Races/Giants/Giant Traits]]
+		- [[source/Chapter 1 Races/Giants/Large And In Charge]]
+		- [[source/Chapter 1 Races/Giants/Sought Out Strength]]
+	- **[[source/Chapter 1 Races/Human/Human]]**
+		- [[source/Chapter 1 Races/Human/History of Conflict]]
+		- [[source/Chapter 1 Races/Human/Human Traits]]
+		- [[source/Chapter 1 Races/Human/Restless Hearts]]
+	- **[[source/Chapter 1 Races/Lunarians/Lunarians]]**
+		- [[source/Chapter 1 Races/Lunarians/Former Gods]]
+		- [[source/Chapter 1 Races/Lunarians/Hidden Visage]]
+		- [[source/Chapter 1 Races/Lunarians/Lunarian Traits]]
+	- **[[source/Chapter 1 Races/Merfolk/Merfolk]]**
+		- [[source/Chapter 1 Races/Merfolk/Deep Sea Monarchs]]
+		- [[source/Chapter 1 Races/Merfolk/Gregarious Helpers]]
+		- [[source/Chapter 1 Races/Merfolk/Merfolk Traits]]
+	- **[[source/Chapter 1 Races/Mink/Mink]]**
+		- [[source/Chapter 1 Races/Mink/Close-knit Community]]
+		- [[source/Chapter 1 Races/Mink/Mink Traits]]
+		- [[source/Chapter 1 Races/Mink/Moonlit Warriors]]
+	- **[[source/Chapter 1 Races/Sky Islander/Sky Islander]]**
+		- [[source/Chapter 1 Races/Sky Islander/Dials and Cloudscapes]]
+		- [[source/Chapter 1 Races/Sky Islander/Holy Vearth]]
+		- [[source/Chapter 1 Races/Sky Islander/Sky Islander Traits]]
+- **[[source/Chapter 2 Classes/Chapter 2 Classes]]**
+	- **[[source/Chapter 2 Classes/Ardent Soul/Ardent Soul]]**
+		- [[source/Chapter 2 Classes/Ardent Soul/Burning Passion]]
+		- [[source/Chapter 2 Classes/Ardent Soul/Caustic Spite]]
+		- [[source/Chapter 2 Classes/Ardent Soul/Cold Indifference]]
+		- [[source/Chapter 2 Classes/Ardent Soul/Fulminating Glee]]
+		- [[source/Chapter 2 Classes/Ardent Soul/Mindful Insight]]
+		- [[source/Chapter 2 Classes/Ardent Soul/Necrotic Mania]]
+		- [[source/Chapter 2 Classes/Ardent Soul/Radiant Superiority]]
+		- [[source/Chapter 2 Classes/Ardent Soul/Thundering Resolve]]
+		- [[source/Chapter 2 Classes/Ardent Soul/Venomous Duality]]
+	- **[[source/Chapter 2 Classes/Barbarian/Barbarian]]**
+	- **[[source/Chapter 2 Classes/Bard/Bard]]**
+	- **[[source/Chapter 2 Classes/Bard College/Bard College]]**
+		- [[source/Chapter 2 Classes/Bard College/College of Bewitchment]]
+		- [[source/Chapter 2 Classes/Bard College/College of Eloquence]]
+		- [[source/Chapter 2 Classes/Bard College/College of Legends]]
+		- [[source/Chapter 2 Classes/Bard College/College of Lore]]
+		- [[source/Chapter 2 Classes/Bard College/College of Swords]]
+		- [[source/Chapter 2 Classes/Bard College/College of The Idol]]
+	- **[[source/Chapter 2 Classes/Brawler/Brawler]]**
+	- **[[source/Chapter 2 Classes/Brawling Style/Brawling Style]]**
+		- [[source/Chapter 2 Classes/Brawling Style/Chromatic Commandment]]
+		- [[source/Chapter 2 Classes/Brawling Style/Daredevil]]
+		- [[source/Chapter 2 Classes/Brawling Style/Drunken Master]]
+		- [[source/Chapter 2 Classes/Brawling Style/Expressionist]]
+		- [[source/Chapter 2 Classes/Brawling Style/Fishman Karate]]
+		- [[source/Chapter 2 Classes/Brawling Style/Ninja]]
+		- [[source/Chapter 2 Classes/Brawling Style/Okama Kenpo]]
+		- [[source/Chapter 2 Classes/Brawling Style/Open Hand]]
+		- [[source/Chapter 2 Classes/Brawling Style/Private Eye]]
+		- [[source/Chapter 2 Classes/Brawling Style/Six Powers Master]]
+		- [[source/Chapter 2 Classes/Brawling Style/Sumo Wrestler]]
+		- [[source/Chapter 2 Classes/Brawling Style/Sword Sage]]
+		- [[source/Chapter 2 Classes/Brawling Style/Way of Mercy]]
+	- **[[source/Chapter 2 Classes/Class Features/Class Features]]**
+		- [[source/Chapter 2 Classes/Class Features/Ability Score Improvement]]
+		- [[source/Chapter 2 Classes/Class Features/Action Surge]]
+		- [[source/Chapter 2 Classes/Class Features/Animal Spirit]]
+		- [[source/Chapter 2 Classes/Class Features/Ardent Smite]]
+		- [[source/Chapter 2 Classes/Ardent Soul/Ardent Soul]]
+		- [[source/Chapter 2 Classes/Class Features/Aura of Courage]]
+		- [[source/Chapter 2 Classes/Class Features/Aura of Protection]]
+		- [[source/Chapter 2 Classes/Bard College/Bard College]]
+		- [[source/Chapter 2 Classes/Class Features/Bardic Inspiration]]
+		- [[source/Chapter 2 Classes/Class Features/Blindsense]]
+		- [[source/Chapter 2 Classes/Class Features/Brace for Impact]]
+		- [[source/Chapter 2 Classes/Brawling Style/Brawling Style]]
+		- [[source/Chapter 2 Classes/Class Features/Brawling]]
+		- [[source/Chapter 2 Classes/Class Features/Brutal Critical]]
+		- [[source/Chapter 2 Classes/Class Features/Channel Conviction]]
+		- [[source/Chapter 2 Classes/Class Features/Countercharm]]
+		- [[source/Chapter 2 Classes/Class Features/Creation Storage]]
+		- [[source/Chapter 2 Classes/Class Features/Creativity Spellcasting]]
+		- [[source/Chapter 2 Classes/Class Features/Creativity]]
+		- [[source/Chapter 2 Classes/Class Features/Cunning Action]]
+		- [[source/Chapter 2 Classes/Class Features/Danger Sense]]
+		- [[source/Chapter 2 Classes/Class Features/Deadly Mark]]
+		- [[source/Chapter 2 Classes/Class Features/Deflect Missiles]]
+		- [[source/Chapter 2 Classes/Class Features/Deft Explorer]]
+		- [[source/Chapter 2 Classes/Class Features/Devious Strike]]
+		- [[source/Chapter 2 Classes/Class Features/Diamond Soul]]
+		- [[source/Chapter 2 Classes/Class Features/Duplicitious Strike]]
+		- [[source/Chapter 2 Classes/Class Features/Eagle Eyes]]
+		- [[source/Chapter 2 Classes/Class Features/Elusive]]
+		- [[source/Chapter 2 Classes/Class Features/Endless Spirit]]
+		- [[source/Chapter 2 Classes/Class Features/Evasion]]
+		- [[source/Chapter 2 Classes/Class Features/Experimental Medicine]]
+		- [[source/Chapter 2 Classes/Class Features/Expertise]]
+		- [[source/Chapter 2 Classes/Class Features/Extended Release]]
+		- [[source/Chapter 2 Classes/Class Features/Extra Attack]]
+		- [[source/Chapter 2 Classes/Class Features/Fast Movement]]
+		- [[source/Chapter 2 Classes/Class Features/Favored Mark]]
+		- [[source/Chapter 2 Classes/Class Features/Feral Instinct]]
+		- [[source/Chapter 2 Classes/Class Features/Fighting Style]]
+		- [[source/Chapter 2 Classes/Class Features/Flash Of Genius]]
+		- [[source/Chapter 2 Classes/Class Features/Font of Inspiration]]
+		- [[source/Chapter 2 Classes/Class Features/Font of Vitality]]
+		- [[source/Chapter 2 Classes/Class Features/Harmonic Vitality]]
+		- [[source/Chapter 2 Classes/Class Features/High-Tech Development]]
+		- [[source/Chapter 2 Classes/Class Features/Immortal Will]]
+		- [[source/Chapter 2 Classes/Class Features/Improved Ardent Smite]]
+		- [[source/Chapter 2 Classes/Class Features/Indomitable Might]]
+		- [[source/Chapter 2 Classes/Class Features/Indomitable]]
+		- [[source/Chapter 2 Classes/Class Features/Jack of all Trades]]
+		- [[source/Chapter 2 Classes/Class Features/Killshot]]
+		- [[source/Chapter 2 Classes/Class Features/Lands Stride]]
+		- [[source/Chapter 2 Classes/Class Features/Limitless Inspiration]]
+		- [[source/Chapter 2 Classes/Class Features/Marksman Archetype]]
+		- [[source/Chapter 2 Classes/Class Features/Martial Archetype]]
+		- [[source/Chapter 2 Classes/Class Features/Master Craft Adept]]
+		- [[source/Chapter 2 Classes/Class Features/Mastercraft Master]]
+		- [[source/Chapter 2 Classes/Class Features/Mastercraft Novice]]
+		- [[source/Chapter 2 Classes/Class Features/Mastercraft Savant]]
+		- [[source/Chapter 2 Classes/Class Features/Medical Expertise]]
+		- [[source/Chapter 2 Classes/Class Features/Medical Specialization]]
+		- [[source/Chapter 2 Classes/Class Features/Miracle Worker]]
+		- [[source/Chapter 2 Classes/Class Features/Mods]]
+		- [[source/Chapter 2 Classes/Class Features/Musical Secrets]]
+		- [[source/Chapter 2 Classes/Class Features/Overheal]]
+		- [[source/Chapter 2 Classes/Class Features/Persistent Rage]]
+		- [[source/Chapter 2 Classes/Class Features/Primal Champion]]
+		- [[source/Chapter 2 Classes/Class Features/Primal Knowledge]]
+		- [[source/Chapter 2 Classes/Class Features/Primal Path]]
+		- [[source/Chapter 2 Classes/Class Features/Quick On The Draw]]
+		- [[source/Chapter 2 Classes/Class Features/Rage]]
+		- [[source/Chapter 2 Classes/Class Features/Rallying Presence]]
+		- [[source/Chapter 2 Classes/Class Features/Rapid Remedy]]
+		- [[source/Chapter 2 Classes/Class Features/Reckless Attack]]
+		- [[source/Chapter 2 Classes/Class Features/Relentless Rage]]
+		- [[source/Chapter 2 Classes/Class Features/Reliable Talent]]
+		- [[source/Chapter 2 Classes/Class Features/Roguish Archetype]]
+		- [[source/Chapter 2 Classes/Class Features/Saviour in Need]]
+		- [[source/Chapter 2 Classes/Class Features/Second Wind]]
+		- [[source/Chapter 2 Classes/Class Features/Secrets of Medicine]]
+		- [[source/Chapter 2 Classes/Class Features/Shake it Off]]
+		- [[source/Chapter 2 Classes/Class Features/Slippery Mind]]
+		- [[source/Chapter 2 Classes/Class Features/Sneak Attack]]
+		- [[source/Chapter 2 Classes/Class Features/Soul Of Artifice]]
+		- [[source/Chapter 2 Classes/Class Features/Specialist Path]]
+		- [[source/Chapter 2 Classes/Class Features/Spirit]]
+		- [[source/Chapter 2 Classes/Class Features/Steady Aim]]
+		- [[source/Chapter 2 Classes/Class Features/Stroke of Luck]]
+		- [[source/Chapter 2 Classes/Class Features/Stunning Strike]]
+		- [[source/Chapter 2 Classes/Class Features/The Right Tool]]
+		- [[source/Chapter 2 Classes/Class Features/Thieves Cant]]
+		- [[source/Chapter 2 Classes/Class Features/Timeless Body]]
+		- [[source/Chapter 2 Classes/Class Features/Tinkering]]
+		- [[source/Chapter 2 Classes/Class Features/Tool Expertise]]
+		- [[source/Chapter 2 Classes/Class Features/Unarmored Defense]]
+		- [[source/Chapter 2 Classes/Class Features/Unarmored Movement]]
+		- [[source/Chapter 2 Classes/Class Features/Uncanny Dodge]]
+		- [[source/Chapter 2 Classes/Class Features/Vigilant Gaze]]
+		- [[source/Chapter 2 Classes/Class Features/Volley]]
+	- **[[source/Chapter 2 Classes/Fighter/Fighter]]**
+	- **[[source/Chapter 2 Classes/Gadgeteer/Gadgeteer]]**
+	- **General Sub Sections**
+		- [[source/Chapter 2 Classes/General Sub Sections/Arcana Engineering]]
+		- [[source/Chapter 2 Classes/General Sub Sections/Spells Creations]]
+	- **[[source/Chapter 2 Classes/Marksman/Marksman]]**
+	- **[[source/Chapter 2 Classes/Class Features/Marksman Archetype]]**
+		- [[source/Chapter 2 Classes/Marksman Archetype/Beastmaster]]
+		- [[source/Chapter 2 Classes/Marksman Archetype/Bounty Hunter]]
+		- [[source/Chapter 2 Classes/Marksman Archetype/Guru]]
+		- [[source/Chapter 2 Classes/Marksman Archetype/Nighthawk]]
+		- [[source/Chapter 2 Classes/Marksman Archetype/Olympian]]
+		- [[source/Chapter 2 Classes/Marksman Archetype/Sniper]]
+		- [[source/Chapter 2 Classes/Marksman Archetype/Swarmkeeper]]
+	- **[[source/Chapter 2 Classes/Martial Archetypes/Martial Archetypes]]**
+		- [[source/Chapter 2 Classes/Martial Archetypes/Arms Dealer]]
+		- [[source/Chapter 2 Classes/Martial Archetypes/Banneret]]
+		- [[source/Chapter 2 Classes/Martial Archetypes/Battlemaster]]
+		- [[source/Chapter 2 Classes/Martial Archetypes/Blitzkrieg]]
+		- [[source/Chapter 2 Classes/Martial Archetypes/Brute]]
+		- [[source/Chapter 2 Classes/Martial Archetypes/Cavalier]]
+		- [[source/Chapter 2 Classes/Martial Archetypes/Champion]]
+		- [[source/Chapter 2 Classes/Martial Archetypes/Gadget Knight]]
+		- [[source/Chapter 2 Classes/Martial Archetypes/Gunslinger]]
+		- [[source/Chapter 2 Classes/Martial Archetypes/Master of None]]
+		- [[source/Chapter 2 Classes/Martial Archetypes/Samurai]]
+	- **[[source/Chapter 2 Classes/Medic/Medic]]**
+	- **[[source/Chapter 2 Classes/Class Features/Medical Specialization]]**
+		- [[source/Chapter 2 Classes/Medical Specialization/Amputator]]
+		- [[source/Chapter 2 Classes/Medical Specialization/Bio-Engineer]]
+		- [[source/Chapter 2 Classes/Medical Specialization/Chemist]]
+		- [[source/Chapter 2 Classes/Medical Specialization/Field Surgeon]]
+		- [[source/Chapter 2 Classes/Medical Specialization/Physician]]
+		- [[source/Chapter 2 Classes/Medical Specialization/Plaguewright]]
+	- **[[source/Chapter 2 Classes/Primal Paths/Primal Paths]]**
+		- [[source/Chapter 2 Classes/Primal Paths/Path of the Berserker]]
+		- [[source/Chapter 2 Classes/Primal Paths/Path of the Blade Master]]
+		- [[source/Chapter 2 Classes/Primal Paths/Path of the Cannoneer]]
+		- [[source/Chapter 2 Classes/Primal Paths/Path of the Channeler]]
+		- [[source/Chapter 2 Classes/Primal Paths/Path of the Forgemaster]]
+		- [[source/Chapter 2 Classes/Primal Paths/Path of the Pugilist]]
+		- [[source/Chapter 2 Classes/Primal Paths/Path of the Shattered Mind]]
+		- [[source/Chapter 2 Classes/Primal Paths/Path of the Spirit Speaker]]
+		- [[source/Chapter 2 Classes/Primal Paths/Path of the Storm Herald]]
+		- [[source/Chapter 2 Classes/Primal Paths/Path of the Totem Warrior]]
+	- **[[source/Chapter 2 Classes/Rogue/Rogue]]**
+	- **[[source/Chapter 2 Classes/Roguish Archetypes/Roguish Archetypes]]**
+		- [[source/Chapter 2 Classes/Roguish Archetypes/Assassin]]
+		- [[source/Chapter 2 Classes/Roguish Archetypes/Bruiser]]
+		- [[source/Chapter 2 Classes/Roguish Archetypes/Fencer]]
+		- [[source/Chapter 2 Classes/Roguish Archetypes/Gadget Trickster]]
+		- [[source/Chapter 2 Classes/Roguish Archetypes/Inquisitive]]
+		- [[source/Chapter 2 Classes/Roguish Archetypes/Ringmaster]]
+		- [[source/Chapter 2 Classes/Roguish Archetypes/Sawbones]]
+		- [[source/Chapter 2 Classes/Roguish Archetypes/Scout]]
+		- [[source/Chapter 2 Classes/Roguish Archetypes/Seeker]]
+		- [[source/Chapter 2 Classes/Roguish Archetypes/Swashbuckler]]
+		- [[source/Chapter 2 Classes/Roguish Archetypes/Thief]]
+		- [[source/Chapter 2 Classes/Roguish Archetypes/Wildcard]]
+	- **[[source/Chapter 2 Classes/Savant/Savant]]**
+	- **[[source/Chapter 2 Classes/Specialist Paths/Specialist Paths]]**
+		- [[source/Chapter 2 Classes/Specialist Paths/Alchemist]]
+		- [[source/Chapter 2 Classes/Specialist Paths/Armorer]]
+		- [[source/Chapter 2 Classes/Specialist Paths/Artillerist]]
+		- [[source/Chapter 2 Classes/Specialist Paths/Battle Smith]]
+		- [[source/Chapter 2 Classes/Specialist Paths/Elementalist]]
+		- [[source/Chapter 2 Classes/Specialist Paths/Safeguard]]
+- **[[source/Chapter 3 Character Origins/Chapter 3 Character Origins]]**
+	- **[[source/Chapter 3 Character Origins/Backgrounds/Backgrounds]]**
+		- [[source/Chapter 3 Character Origins/Backgrounds/Acrobat]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Archaeologist]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Artist]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Author]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Blacksmith]]
+		- [[source/Chapter 2 Classes/Marksman Archetype/Bounty Hunter]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Boxer]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Carpenter]]
+		- [[source/Chapter 3 Character Origins/Roles/Cook]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Detective]]
+		- [[source/Chapter 3 Character Origins/Roles/Doctor]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Drunkard]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Entertainer]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Faceless]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Farmer]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Fisherman]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Folk Hero]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Gambler]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Gladiator]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Glutton]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Hermit]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Jeweler]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Knight]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Leatherworker]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Librarian]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Lumberjack]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/MarineSoldier]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Mason]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Mercenary]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Merchant]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Miner]]
+		- [[source/Chapter 3 Character Origins/Roles/Navigator]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Noble]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Pirate]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Priest]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Revolutionary]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Sailor]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Scientist]]
+		- [[source/Chapter 3 Character Origins/Roles/Shipwright]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Slave]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Smuggler]]
+		- [[source/Chapter 2 Classes/Marksman Archetype/Sniper]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Swordsman]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Tailor]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Urchin]]
+		- [[source/Chapter 3 Character Origins/Backgrounds/Wanderer]]
+	- **[[source/Chapter 3 Character Origins/Dreams/Dreams]]**
+	- **[[source/Chapter 3 Character Origins/Roles/Roles]]**
+		- [[source/Chapter 3 Character Origins/Roles/Captain]]
+		- [[source/Chapter 3 Character Origins/Roles/Cook]]
+		- [[source/Chapter 3 Character Origins/Roles/Deckhand]]
+		- [[source/Chapter 3 Character Origins/Roles/Doctor]]
+		- [[source/Chapter 3 Character Origins/Roles/Helmsman]]
+		- [[source/Chapter 3 Character Origins/Roles/Master at Arms]]
+		- [[source/Chapter 3 Character Origins/Roles/Musician]]
+		- [[source/Chapter 3 Character Origins/Roles/Navigator]]
+		- [[source/Chapter 3 Character Origins/Roles/Scholar]]
+		- [[source/Chapter 3 Character Origins/Roles/Shipwright]]
+- **[[source/Chapter 4 Equipment Items/Chapter 4 Equipment Items]]**
+	- **[[source/Chapter 4 Equipment Items/Adventuring Gear/Adventuring Gear]]**
+	- **[[source/Chapter 4 Equipment Items/Armor and Shields/Armor and Shields]]**
+	- **[[source/Chapter 4 Equipment Items/Expenses/Expenses]]**
+		- [[source/Chapter 4 Equipment Items/Expenses/Food Drink and Lodging]]
+	- **[[source/Chapter 4 Equipment Items/Mounts and Vehicles/Mounts and Vehicles]]**
+		- [[source/Chapter 4 Equipment Items/Mounts and Vehicles/Cannons]]
+		- [[source/Chapter 4 Equipment Items/Mounts and Vehicles/Ships and Waterborne Vessels]]
+	- **[[source/Chapter 4 Equipment Items/Ship Building and Repair/Ship Building and Repair]]**
+		- [[source/Chapter 4 Equipment Items/Ship Building and Repair/Building a Ship]]
+		- [[source/Chapter 4 Equipment Items/Ship Building and Repair/Damage and Repairs]]
+		- [[source/Chapter 4 Equipment Items/Ship Building and Repair/Ship Rooms]]
+		- [[source/Chapter 4 Equipment Items/Ship Building and Repair/Upgrading your Ship]]
+	- **[[source/Chapter 4 Equipment Items/Tools/Tools]]**
+		- [[source/Chapter 4 Equipment Items/Tools/Transponder Snails]]
+	- **[[source/Chapter 4 Equipment Items/Wealth/Wealth]]**
+		- [[source/Chapter 4 Equipment Items/Wealth/Treasure and Loot]]
+	- **[[source/Chapter 8 Special Items/Weapons/Weapons]]**
+		- [[source/Chapter 4 Equipment Items/Weapons/Additional Melee Weapons]]
+		- [[source/Chapter 4 Equipment Items/Weapons/Additional Ranged Weapons]]
+- **[[source/Chapter 5 Customization/Chapter 5 Customization]]**
+	- **[[source/Chapter 5 Customization/Feats/Feats]]**
+	- **[[source/Chapter 5 Customization/Fighting Styles/Fighting Styles]]**
+		- [[source/Chapter 5 Customization/Fighting Styles/Blademaster Barbarian Styles]]
+		- [[source/Chapter 5 Customization/Fighting Styles/College Of Swords Bard Styles]]
+		- [[source/Chapter 5 Customization/Fighting Styles/Fighter Styles]]
+		- [[source/Chapter 5 Customization/Fighting Styles/Marksman Styles]]
+		- [[source/Chapter 5 Customization/Fighting Styles/Savant Styles]]
+		- [[source/Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles]]
+	- **[[source/Chapter 5 Customization/Haki/Haki]]**
+		- [[source/Chapter 5 Customization/Haki/Learning Haki]]
+		- [[source/Chapter 5 Customization/Haki/List of Haki Abilities]]
+	- **[[source/Chapter 5 Customization/Racial Feats/Racial Feats]]**
+- **Chapter 6 Devil Fruits**
+	- **[[source/Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit]]**
+	- **Example Logias**
+		- [[source/Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit]]
+	- **Example Paramecias**
+		- [[source/Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit]]
+		- [[source/Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit]]
+		- [[source/Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit]]
+	- **Example Zoans**
+		- [[source/Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit]]
+		- [[source/Chapter 6 Devil Fruits/Example Zoans/The Cat-Cat Fruit Model Saber-Toothed Tiger]]
+		- [[source/Chapter 6 Devil Fruits/Example Zoans/The Dog-Dog Fruit Model Werewolf]]
+	- **[[source/Chapter 6 Devil Fruits/Logia Type/Logia Type]]**
+	- **[[source/Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type]]**
+	- **[[source/Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits]]**
+	- **[[source/Chapter 6 Devil Fruits/Zoan Type/Zoan Type]]**
+- **[[source/Chapter 7 Additional Powers/Chapter 7 Additional Powers]]**
+	- **[[source/Chapter 7 Additional Powers/Ardent Zeal/Ardent Zeal]]**
+		- [[source/Chapter 7 Additional Powers/Ardent Zeal/Charismatic Atmosphere]]
+		- [[source/Chapter 7 Additional Powers/Ardent Zeal/Invincible Conviction]]
+		- [[source/Chapter 7 Additional Powers/Ardent Zeal/Powerful Passion]]
+	- **[[source/Chapter 7 Additional Powers/Armorless Guardian/Armorless Guardian]]**
+		- [[source/Chapter 7 Additional Powers/Armorless Guardian/Duck and Dodge]]
+	- **[[source/Chapter 7 Additional Powers/Battle Modes/Battle Modes]]**
+		- [[source/Chapter 7 Additional Powers/Battle Modes/Improved Steel Defender]]
+	- **[[source/Chapter 7 Additional Powers/Burn Baby Burn/Burn Baby Burn]]**
+		- [[source/Chapter 7 Additional Powers/Burn Baby Burn/Fire Fiend]]
+		- [[source/Chapter 7 Additional Powers/Burn Baby Burn/Fuel the Fire]]
+		- [[source/Chapter 7 Additional Powers/Burn Baby Burn/Fuel the Rampage]]
+		- [[source/Chapter 7 Additional Powers/Burn Baby Burn/Hellfire Halitosis]]
+		- [[source/Chapter 7 Additional Powers/Burn Baby Burn/Numbed Nerves]]
+		- [[source/Chapter 7 Additional Powers/Burn Baby Burn/Pain is Power]]
+		- [[source/Chapter 7 Additional Powers/Burn Baby Burn/Release The Beast]]
+	- **[[source/Chapter 7 Additional Powers/Cannonball Chucker/Cannonball Chucker]]**
+		- [[source/Chapter 7 Additional Powers/Cannonball Chucker/Strongarm]]
+	- **[[source/Chapter 7 Additional Powers/Charismatic Bastion/Charismatic Bastion]]**
+		- [[source/Chapter 7 Additional Powers/Charismatic Bastion/Charming Personality]]
+		- [[source/Chapter 7 Additional Powers/Charismatic Bastion/Inciting Inspiration]]
+	- **[[source/Chapter 7 Additional Powers/Cheater Cheater/Cheater Cheater]]**
+		- [[source/Chapter 7 Additional Powers/Cheater Cheater/A Lesson in Trickery]]
+	- **[[source/Chapter 7 Additional Powers/Destructive Wave/Destructive Wave]]**
+		- [[source/Chapter 7 Additional Powers/Destructive Wave/Area of Effect]]
+		- [[source/Chapter 7 Additional Powers/Destructive Wave/Area Strike]]
+	- **[[source/Chapter 7 Additional Powers/Dodge Roll/Dodge Roll]]**
+		- [[source/Chapter 7 Additional Powers/Dodge Roll/Defense Roll]]
+	- **[[source/Chapter 7 Additional Powers/Dragon Claw Fist/Dragon Claw Fist]]**
+		- [[source/Chapter 7 Additional Powers/Dragon Claw Fist/Dragon Breath]]
+		- [[source/Chapter 7 Additional Powers/Dragon Claw Fist/Dragon Claw]]
+		- [[source/Chapter 7 Additional Powers/Dragon Claw Fist/Dragon Grip]]
+		- [[source/Chapter 7 Additional Powers/Dragon Claw Fist/Dragon Talons]]
+		- [[source/Chapter 7 Additional Powers/Dragon Claw Fist/Dragons Dream]]
+	- **[[source/Chapter 7 Additional Powers/Eight Impacts Fist/Eight Impacts Fist]]**
+		- [[source/Chapter 7 Additional Powers/Eight Impacts Fist/Deep Impact]]
+		- [[source/Chapter 7 Additional Powers/Eight Impacts Fist/Eighth Impact]]
+		- [[source/Chapter 7 Additional Powers/Eight Impacts Fist/First Impacts]]
+		- [[source/Chapter 7 Additional Powers/Eight Impacts Fist/Thunderous Blows]]
+		- [[source/Chapter 7 Additional Powers/Eight Impacts Fist/Thunderstruck]]
+	- **[[source/Chapter 7 Additional Powers/Emphatic Observation/Emphatic Observation]]**
+		- [[source/Chapter 7 Additional Powers/Emphatic Observation/Emphasized Empathy]]
+	- **[[source/Chapter 7 Additional Powers/Fearsome Fortitude/Fearsome Fortitude]]**
+	- **[[source/Chapter 7 Additional Powers/Fishman Karate Adept/Fishman Karate Adept]]**
+		- [[source/Chapter 7 Additional Powers/Fishman Karate Adept/Aquatic Novice]]
+	- **[[source/Chapter 7 Additional Powers/Flowing Mind/Flowing Mind]]**
+		- [[source/Chapter 7 Additional Powers/Flowing Mind/Artful Mastery]]
+		- [[source/Chapter 7 Additional Powers/Flowing Mind/Back In The Fight]]
+		- [[source/Chapter 7 Additional Powers/Flowing Mind/Free Spirit]]
+	- **[[source/Chapter 7 Additional Powers/Fortune Telling/Fortune Telling]]**
+		- [[source/Chapter 7 Additional Powers/Fortune Telling/Unfolded Fortune]]
+	- **[[source/Chapter 7 Additional Powers/Foxfire Style/Foxfire Style]]**
+		- [[source/Chapter 7 Additional Powers/Foxfire Style/Eternal Flames]]
+		- [[source/Chapter 7 Additional Powers/Foxfire Style/Flame Render]]
+		- [[source/Chapter 7 Additional Powers/Foxfire Style/Foxfire Points]]
+		- [[source/Chapter 7 Additional Powers/Foxfire Style/Ignite]]
+		- [[source/Chapter 7 Additional Powers/Foxfire Style/Magma Blade]]
+	- **[[source/Chapter 7 Additional Powers/Full Body Armament/Full Body Armament]]**
+		- [[source/Chapter 7 Additional Powers/Full Body Armament/Full Body Armor]]
+	- **[[source/Chapter 7 Additional Powers/Geo-Fist/Geo-Fist]]**
+		- [[source/Chapter 7 Additional Powers/Geo-Fist/Battle Insurance Fist]]
+	- **[[source/Chapter 7 Additional Powers/Heart Strings/Heart Strings]]**
+		- [[source/Chapter 7 Additional Powers/Heart Strings/Song of Life and Death]]
+	- **[[source/Chapter 7 Additional Powers/Inspired Innovation/Inspired Innovation]]**
+	- **[[source/Chapter 7 Additional Powers/Iron Fury/Iron Fury]]**
+		- [[source/Chapter 7 Additional Powers/Iron Fury/Durable Rage]]
+		- [[source/Chapter 7 Additional Powers/Iron Fury/Furious Juggernaut]]
+	- **[[source/Chapter 7 Additional Powers/Kappa Style/Kappa Style]]**
+		- [[source/Chapter 7 Additional Powers/Kappa Style/Raging Charge]]
+		- [[source/Chapter 7 Additional Powers/Kappa Style/Rushing River]]
+	- **[[source/Chapter 7 Additional Powers/Leg Technique Way/Leg Technique Way]]**
+		- [[source/Chapter 7 Additional Powers/Leg Technique Way/Fancy Feet]]
+	- **[[source/Chapter 7 Additional Powers/Life Return/Life Return]]**
+		- [[source/Chapter 7 Additional Powers/Life Return/Flexible Body]]
+	- **[[source/Chapter 7 Additional Powers/Longshot/Longshot]]**
+		- [[source/Chapter 7 Additional Powers/Longshot/Mile Eye]]
+	- **[[source/Chapter 7 Additional Powers/Machiavellian Misfit/Machiavellian Misfit]]**
+		- [[source/Chapter 7 Additional Powers/Machiavellian Misfit/Evasive Maneuvers]]
+		- [[source/Chapter 7 Additional Powers/Machiavellian Misfit/Pinpoint Precision]]
+	- **[[source/Chapter 7 Additional Powers/Man Demon Tactics/Man Demon Tactics]]**
+		- [[source/Chapter 7 Additional Powers/Man Demon Tactics/Demon Leap]]
+		- [[source/Chapter 7 Additional Powers/Man Demon Tactics/Demon Strike]]
+		- [[source/Chapter 7 Additional Powers/Man Demon Tactics/Demon Wind]]
+		- [[source/Chapter 7 Additional Powers/Man Demon Tactics/Demonic Dance]]
+		- [[source/Chapter 7 Additional Powers/Man Demon Tactics/Destroy Defense]]
+		- [[source/Chapter 7 Additional Powers/Man Demon Tactics/Momentum Mori]]
+	- **[[source/Chapter 7 Additional Powers/Master of the Craft/Master of the Craft]]**
+		- [[source/Chapter 7 Additional Powers/Master of the Craft/Inventive Mind]]
+		- [[source/Chapter 7 Additional Powers/Master of the Craft/Masterful Modification]]
+	- **[[source/Chapter 7 Additional Powers/Merman Combat/Merman Combat]]**
+		- [[source/Chapter 7 Additional Powers/Merman Combat/Tides of War]]
+	- **[[source/Chapter 7 Additional Powers/Multiple Weapon Style/Multiple Weapon Style]]**
+		- [[source/Chapter 7 Additional Powers/Multiple Weapon Style/Additional Strike]]
+	- **[[source/Chapter 7 Additional Powers/Mutant Metamorphosis/Mutant Metamorphosis]]**
+		- [[source/Chapter 7 Additional Powers/Mutant Metamorphosis/Mutation Points]]
+	- **[[source/Chapter 7 Additional Powers/Newkama Kenpo/Newkama Kenpo]]**
+		- [[source/Chapter 7 Additional Powers/Newkama Kenpo/Awaken the Maiden]]
+		- [[source/Chapter 7 Additional Powers/Newkama Kenpo/Charming Spirit]]
+		- [[source/Chapter 7 Additional Powers/Newkama Kenpo/Death Wink]]
+		- [[source/Chapter 7 Additional Powers/Newkama Kenpo/Oh Come My Way]]
+		- [[source/Chapter 7 Additional Powers/Newkama Kenpo/Okama Queen]]
+		- [[source/Chapter 7 Additional Powers/Newkama Kenpo/Rolling Spa]]
+		- [[source/Chapter 7 Additional Powers/Newkama Kenpo/Waxing Fist]]
+	- **[[source/Chapter 7 Additional Powers/No Sword Style/No Sword Style]]**
+		- [[source/Chapter 7 Additional Powers/No Sword Style/Blade Hands]]
+	- **[[source/Chapter 7 Additional Powers/Observation Killing/Observation Killing]]**
+		- [[source/Chapter 7 Additional Powers/Observation Killing/Observation Obliteration]]
+	- **[[source/Chapter 7 Additional Powers/PhD/PhD]]**
+		- [[source/Chapter 7 Additional Powers/PhD/Medical Dissertation]]
+		- [[source/Chapter 7 Additional Powers/PhD/Medical Practice]]
+	- **[[source/Chapter 7 Additional Powers/Plan B/Plan B]]**
+		- [[source/Chapter 7 Additional Powers/Plan B/Obliterate]]
+	- **[[source/Chapter 7 Additional Powers/Powerful Laughter/Powerful Laughter]]**
+		- [[source/Chapter 7 Additional Powers/Powerful Laughter/Gleeful Bellows]]
+	- **[[source/Chapter 7 Additional Powers/Raging Singularity/Raging Singularity]]**
+		- [[source/Chapter 7 Additional Powers/Raging Singularity/Ferocious Aura]]
+	- **[[source/Chapter 7 Additional Powers/Ramen Kenpo/Ramen Kenpo]]**
+		- [[source/Chapter 7 Additional Powers/Ramen Kenpo/Formal Noodle Suit]]
+		- [[source/Chapter 7 Additional Powers/Ramen Kenpo/Noodle Strikes]]
+	- **[[source/Chapter 7 Additional Powers/Ricochet Rounds/Ricochet Rounds]]**
+		- [[source/Chapter 7 Additional Powers/Ricochet Rounds/Rebound Bound]]
+	- **[[source/Chapter 7 Additional Powers/Rope Action/Rope Action]]**
+		- [[source/Chapter 7 Additional Powers/Rope Action/Fiber Artisan]]
+		- [[source/Chapter 7 Additional Powers/Rope Action/Rope Combatant]]
+		- [[source/Chapter 7 Additional Powers/Rope Action/Spider Rope]]
+	- **[[source/Chapter 7 Additional Powers/Sharp Focus/Sharp Focus]]**
+		- [[source/Chapter 7 Additional Powers/Sharp Focus/Crackshot]]
+		- [[source/Chapter 7 Additional Powers/Sharp Focus/Hunters Eye]]
+		- [[source/Chapter 7 Additional Powers/Sharp Focus/Snipe and Strike]]
+	- **[[source/Chapter 7 Additional Powers/Six Powers Adept/Six Powers Adept]]**
+		- [[source/Chapter 7 Additional Powers/Six Powers Adept/Chosen Powers]]
+	- **[[source/Chapter 7 Additional Powers/Tough Customer/Tough Customer]]**
+		- [[source/Chapter 7 Additional Powers/Tough Customer/Active Combatant]]
+		- [[source/Chapter 7 Additional Powers/Tough Customer/Endless Vigor]]
+	- **[[source/Chapter 7 Additional Powers/Voice of All Things/Voice of All Things]]**
+		- [[source/Chapter 7 Additional Powers/Voice of All Things/Guidance of the World]]
+		- [[source/Chapter 7 Additional Powers/Voice of All Things/Silent Speech]]
+		- [[source/Chapter 7 Additional Powers/Voice of All Things/Universal Language]]
+	- **[[source/Chapter 7 Additional Powers/World Champion/World Champion]]**
+		- [[source/Chapter 7 Additional Powers/World Champion/Gimmick]]
+		- [[source/Chapter 7 Additional Powers/World Champion/Off the Ropes]]
+		- [[source/Chapter 7 Additional Powers/World Champion/Steel Chair]]
+- **[[source/Chapter 8 Special Items/Chapter 8 Special Items]]**
+	- **[[source/Chapter 8 Special Items/Appendix A/Appendix A]]**
+	- **[[source/Chapter 8 Special Items/Armor/Armor]]**
+		- [[source/Chapter 8 Special Items/Armor/Mechanical Shield Animated Shield]]
+		- [[source/Chapter 8 Special Items/Armor/Serpent Armor Serpent Scale]]
+	- **[[source/Chapter 8 Special Items/Chapter 1/Chapter 1]]**
+	- **[[source/Chapter 8 Special Items/Chapter 2/Chapter 2]]**
+	- **[[source/Chapter 8 Special Items/Chapter 3/Chapter 3]]**
+	- **[[source/Chapter 8 Special Items/Chapter 4/Chapter 4]]**
+	- **[[source/Chapter 8 Special Items/Chapter 5/Chapter 5]]**
+	- **[[source/Chapter 8 Special Items/Chapter 6/Chapter 6]]**
+	- **[[source/Chapter 8 Special Items/Chapter 7/Chapter 7]]**
+	- **[[source/Chapter 8 Special Items/Consumables/Consumables]]**
+		- [[source/Chapter 8 Special Items/Consumables/Adrenaline Injection Potion of Speed]]
+		- [[source/Chapter 8 Special Items/Consumables/Medkits Potions of Healing]]
+	- **[[source/Chapter 8 Special Items/Cover Page and Preface/Cover Page and Preface]]**
+	- **[[source/Chapter 8 Special Items/Crafting/Crafting]]**
+		- [[source/Chapter 8 Special Items/Crafting/Experience]]
+		- [[source/Chapter 8 Special Items/Crafting/Materials]]
+		- [[source/Chapter 8 Special Items/Crafting/Time]]
+		- [[source/Chapter 4 Equipment Items/Tools/Tools]]
+	- **[[source/Chapter 8 Special Items/Creation Lists/Creation Lists]]**
+		- [[source/Chapter 8 Special Items/Creation Lists/Bard Creations]]
+		- [[source/Chapter 8 Special Items/Creation Lists/Gadgeteer Creations]]
+		- [[source/Chapter 8 Special Items/Creation Lists/Marksman Creations]]
+		- [[source/Chapter 8 Special Items/Creation Lists/Medic Creations]]
+		- [[source/Chapter 8 Special Items/Creation Lists/Savant Creations]]
+	- **[[source/Chapter 8 Special Items/Creations Descriptions/Creations Descriptions]]**
+		- [[source/Chapter 8 Special Items/Creations Descriptions/1st Level]]
+		- [[source/Chapter 8 Special Items/Creations Descriptions/2nd Level]]
+		- [[source/Chapter 8 Special Items/Creations Descriptions/3rd Level]]
+		- [[source/Chapter 8 Special Items/Creations Descriptions/4th Level]]
+		- [[source/Chapter 8 Special Items/Creations Descriptions/5th Level]]
+		- [[source/Chapter 8 Special Items/Creations Descriptions/6th Level]]
+		- [[source/Chapter 8 Special Items/Creations Descriptions/7th Level]]
+		- [[source/Chapter 8 Special Items/Creations Descriptions/8th Level]]
+		- [[source/Chapter 8 Special Items/Creations Descriptions/9th Level]]
+		- [[source/Chapter 8 Special Items/Creations Descriptions/Bards - Stories to Shape the World]]
+		- [[source/Chapter 8 Special Items/Creations Descriptions/Gadgeteers - Brains over Brawn]]
+		- [[source/Chapter 8 Special Items/Creations Descriptions/Marksmen - Always Prepared]]
+		- [[source/Chapter 8 Special Items/Creations Descriptions/Medics - Miracle Workers]]
+		- [[source/Chapter 8 Special Items/Creations Descriptions/Savants - Power from Within]]
+		- [[source/Chapter 8 Special Items/Creations Descriptions/Tricks]]
+	- **General Sub Sections**
+		- [[source/Chapter 8 Special Items/General Sub Sections/Arched Horn]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Attack Cuisine]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Black Blades]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Bubble Coral]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Cursed Weapons]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Defiance Of The Red World]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Devil Fruit Objects]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Dials and Dial Equipment]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Distortion]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Drugs]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Jet Dial Bracers]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Kopesh]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Lucky Day]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Mountain Mist]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Oceans Mourning]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Orange Mile]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Pocket Hospital]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Raid Suit]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Ranked Weapons]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Seastone and Seastone Items]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Smiles]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Special Ammunition]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Special Books Non-Canon]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/The Faithful One]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/The Raging Drum]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/The Silver Seer]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Vivre Card]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Wapometal]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/White Weapons Non-Canon]]
+		- [[source/Chapter 8 Special Items/General Sub Sections/Wyverns Wrath]]
+	- **[[source/Chapter 8 Special Items/Making Devil Fruits/Making Devil Fruits]]**
+		- [[source/Chapter 8 Special Items/Making Devil Fruits/Approaching Awakening]]
+		- [[source/Chapter 8 Special Items/Making Devil Fruits/Devil Fruit Vulnerabilities]]
+		- [[source/Chapter 8 Special Items/Making Devil Fruits/Devil Fruits and the Environment]]
+		- [[source/Chapter 8 Special Items/Making Devil Fruits/Multiple Devil Fruit Rules]]
+	- **[[source/Chapter 8 Special Items/Overview/Overview]]**
+	- **[[source/Chapter 8 Special Items/Purchasing Goods/Purchasing Goods]]**
+		- [[source/Chapter 8 Special Items/Purchasing Goods/Availability of Goods]]
+		- [[source/Chapter 8 Special Items/Purchasing Goods/Prices of Goods]]
+	- **[[source/Chapter 8 Special Items/Rewards/Rewards]]**
+		- [[source/Chapter 8 Special Items/Rewards/Awarding Haki]]
+		- [[source/Chapter 8 Special Items/Rewards/Boons]]
+		- [[source/Chapter 8 Special Items/Rewards/Cursed Items]]
+		- [[source/Chapter 8 Special Items/Rewards/Magic Items]]
+		- [[source/Chapter 8 Special Items/Rewards/Reward Guide]]
+	- **[[source/Chapter 8 Special Items/Rings/Rings]]**
+		- [[source/Chapter 8 Special Items/Rings/Gadget Ring Ring of Spell Storing]]
+		- [[source/Chapter 8 Special Items/Rings/Rocket Ring Ring of Jumping]]
+	- **[[source/Chapter 8 Special Items/Scrolls/Scrolls]]**
+	- **[[source/Chapter 8 Special Items/Staff and Wands/Staff and Wands]]**
+		- [[source/Chapter 8 Special Items/Staff and Wands/Defender Field Staff of Defense]]
+		- [[source/Chapter 8 Special Items/Staff and Wands/Force Gun Wand of Magic Missiles]]
+	- **[[source/Chapter 8 Special Items/Suggested Rulings/Suggested Rulings]]**
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Ability Crafting]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Allied Space Occupancy]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Automatic Success in Skill Checks]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Boarding Combat]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Collision Damage]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Creations and Objects]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Critical Saving Throws]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Destroying Special Objects]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Hybrid Races]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Improved Help Action]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Lingering Injuries]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Making Custom Backgrounds]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Non-Lethal Damage]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Party Diversity]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Proficiency Reclaim]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Rolling Hit Points]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Shoving Grappling and Disarming]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Siege Against Constructs]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Skills and Tools]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Starting Rules]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Story-Classing]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Unreasonable Strength]]
+		- [[source/Chapter 8 Special Items/Suggested Rulings/Ursa Array Variant Standard Array]]
+	- **[[source/Chapter 8 Special Items/The Environment/The Environment]]**
+		- [[source/Chapter 8 Special Items/The Environment/Natural Obstacles]]
+		- [[source/Chapter 8 Special Items/The Environment/Travel Time]]
+	- **[[source/Chapter 8 Special Items/Weapons/Weapons]]**
+		- [[source/Chapter 8 Special Items/Weapons/Dead Mans Blade Gambler BladeDefender]]
+	- **[[source/Chapter 8 Special Items/Wondrous Items/Wondrous Items]]**
+		- [[source/Chapter 8 Special Items/Wondrous Items/Boots of Speed]]
+		- [[source/Chapter 8 Special Items/Wondrous Items/Bracers of Defense]]
+		- [[source/Chapter 8 Special Items/Wondrous Items/Night Vision Goggles Goggles of Night]]
+		- [[source/Chapter 8 Special Items/Wondrous Items/Prosthetic Limb]]
+- **General Sub Sections**
+	- [[source/General Sub Sections/Disclaimer]]
+	- [[source/General Sub Sections/Using This Guide]]
+
