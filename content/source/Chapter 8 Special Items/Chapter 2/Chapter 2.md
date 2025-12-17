@@ -1,0 +1,43 @@
+---
+{"publish":true,"created":"2025-12-18T00:42:12.761+05:30","modified":"2025-12-18T00:42:12.770+05:30","cssclasses":""}
+---
+
+
+## Chapter 2:
+
+* Zoro - [Young-street](https://www.deviantart.com/young-street)
+* One Piece // Kozuki Oden - [JohnnyAzad](https://www.deviantart.com/johnnyazad/art/One-Piece-Kozuki-Oden-948718260)
+* Commission of Price - [leeliyan](https://leeliyan.ju.mp/#portfolio)
+* Soul King Brook (ONE PIECE) - [Art-by-Evan](https://www.deviantart.com/art-by-evan)
+* One piece Komurasaki - [MitzukiMomiji](https://www.deviantart.com/mitzukimomiji/art/One-piece-Komurasaki-Hiyori-Kozuki-Chapter-1032-903784496)
+* Django and Kuro - [Zitsy](https://danbooru.donmai.us/posts/6284089)
+* Gear Second - [OH NIPS](https://www.artstation.com/ohnips)
+* Jinbei - [Ziizii](https://danbooru.donmai.us/posts/3695680)
+* Cipher Pol 9 - [sutaneko](https://danbooru.donmai.us/posts/5123886)
+* Soul on Fire - [Zenopic](https://www.deviantart.com/zenopic/art/Soul-on-Fire-645810528)
+* Franky - [Deyvidson](https://www.deviantart.com/deyvidson)
+* Commission of Irene - [leeliyan](https://leedotliyan.carrd.co/#tos)
+* Ryuuma - One Piece - [PedroCampello](https://www.deviantart.com/pedrocampello/art/Ryuuma-One-Piece-424241305)
+* Commission of Black Berry - [leeliyan](https://leeliyan.ju.mp/#portfolio)
+* Commission of Patrice - [leeliyan](https://leeliyan.ju.mp/#portfolio)
+* Benn Beckman - one piece - [Koshou-Sama](https://www.deviantart.com/koshou-sama/art/Benn-Beckman-one-piece-810409354)
+* Nami (New World) - [fpxzy111](https://www.deviantart.com/fpxzy111)
+* Commission of Indigo 2 - [leeliyan](https://leeliyan.ju.mp/#portfolio)
+* Usopp - [Evan Scale](https://www.artstation.com/evan_scale)
+* Concept Art - [Vladis Fender](https://www.artstation.com/artwork/oA8QJO)
+* Charlotte Perospero - [krone-art](https://krone-art.tumblr.com/post/166227632511/charlotte-perospero-i-started-out-with-the)
+* Tony Tony Chopper (One Piece) - [Vinrylgrave](https://www.zerochan.net/2336747)
+* Trafalgar Law [Carlos Semper](https://www.artstation.com/artwork/o0dBm)
+* Monster at Enies Lobby - [NinjaStarfish23](https://www.reddit.com/r/OnePiece/comments/10obf0l/monster_at_enies_lobby_fanart_by_me/)
+* Ceasar Clown - [Tsuyomaru](https://www.zerochan.net/1744956)
+* Smiley on Punk Hazard - Eiichiro Oda, Shueisha and Toei; hosted on [Imgur](https://imgur.com/just-finished-punk-hazard-arc-am-wondering-what-significance-of-caeser-s-monster-smiley-eating-smile-is-Kr4WYNr)
+* Trafalgar Law - [Chiko Mai](https://www.artstation.com/artwork/14E1O2)
+* Doc Q - [artofide](https://www.deviantart.com/artofide/art/Doc-Q-886548053)
+* Kuma - [Judoy](https://www.deviantart.com/judoy/art/Kuma-118847853)
+* Nico Robin - [r-trigger](https://www.pinterest.com/pin/225461525068198932/)
+* Sir Crocodile - One Piece - [koshou-sama](https://www.deviantart.com/koshou-sama/gallery)
+* スーツギルド - [sukehige](https://twitter.com/sukehige/status/1611923940141826054)
+* Corazon One Piece Practice - [christianamiel21](https://www.deviantart.com/christianamiel21/art/Corazon-One-Piece-Practice-591725605)
+* Sanji (New World) - [fpxzy111](https://www.deviantart.com/fpxzy111)
+* Kizaru - [wildragon](https://www.deviantart.com/wildragon/art/Kizaru-673926803)
+* Reiju - [Mad-AK](https://www.deviantart.com/mad-ak/art/Ali-Chan-781677971)
