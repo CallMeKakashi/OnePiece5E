@@ -1,0 +1,177 @@
+---
+{"publish":true,"created":"2025-12-18T00:42:13.178+05:30","modified":"2025-12-18T00:42:13.183+05:30","cssclasses":""}
+---
+
+
+### Marksman Creations
+
+##### Tricks (0 Level)
+- Acid Bolt
+- Acid Spray
+- Animal Eyes
+- Combust
+- Defending Ward
+- Detect Creation
+- Drag
+- Draw
+- Fire Bolt
+- Guidance
+- Ice Bolt
+- Light
+- Manipulate Earth
+- Mirrored Hand
+- Natural Arts
+- Poisonous Puff
+- Prestidigitation
+- Propel
+- Radiant Bolt
+- Shimmering Lights
+- Shocking Grasp
+- Spark Bolt
+- Stabilize
+- Temporary Trick
+- Thorn Lash
+- Venom Bolt
+- Wind Blast
+##### 1st Level
+- Advanced Weapon
+- Alacrity
+- Alarm (R)
+- Animal Friend
+- Beacon
+- Blazing Bullet
+- Boost
+- Color Spray
+- Construct Cannon
+- Countershock
+- Create or Destroy Water
+- Cure Wounds
+- Detect Poison and Disease (R)
+- Distort Value
+- Elemental Armor
+- Elemental Blast
+- Elemental Orb
+- Elemental Trap
+- Ensnare (R)
+- Ensnaring Smite
+- Entangle
+- Fairy Lights
+- Fear Factor
+- Feather Fall
+- Flashbang
+- Fog Cloud
+- Frigid Bullet
+- Grease
+- Grow Tree
+- Healing Word
+- Hunter’s Mark
+- Ice Dagger
+- Infectious Ray
+- Invisible Ink (R)
+- Missiles
+- Purify Food and Drink (R)
+- Radiant Blast
+- Retreat
+- Reverb
+- Shrapnel Shot
+- Silent Image
+- Sleep
+- Speak with Animals (R)
+- Stonesculpt
+- Superfood
+- Thunderwave
+- Toxic Trigger
+- Tremor
+- Vile Verdict
+- Zapping Arc
+- Zephyr Strike
+##### 2nd Level
+- Acid Arrow
+- Aid
+- Blindness/Deafness
+- Call Beast
+- Cloud of Daggers
+- Construct Boat
+- Construct Hut
+- Create Food and Water
+- Darkvision
+- Earth Grasp
+- Elemental Weapon
+- Enfeeblement
+- Find Mount
+- Gather Swarm
+- Grounding
+- Gust of Wind
+- Hold Person
+- Hymn of Healing
+- Lesser Restoration
+- Lightning Arrow
+- Lock
+- Misty Step
+- Pass Without A Trace
+- Protection From Elements
+- Protection From Poison
+- Repair Vessel
+- Rotting Shot
+- Sandstorm
+- Scorch
+- Shatter
+- Silence (R)
+- Skywrite (R)
+- Spawn Plant
+- Spike Growth
+- Spider Walk
+- Thunder Beat
+- Tiny Servant (R)
+- Unlock
+- Warding Wind
+- Web
+- Woebegone
+- Wristpocket (R)
+##### 3rd Level
+- Barrage
+- Blooming Jam
+- Blazing Stride
+- Clairvoyance
+- Deactivate Creation
+- Erupting Earth
+- Fireball
+- Hidden Trigger
+- Locate Creature
+- Ice Storm
+- Lightning Bolt
+- Mass Healing Word
+- Miniature Meteors
+- Move Earth
+- Plant Growth
+- Plant Transformation
+- Pulse Wave
+- Revivify
+- Sinister Shot
+- Speak With Plants
+- Stinking Cloud
+- Wall of Sand
+- Wind Wall
+##### 4th Level
+- Dark Tendrils
+- Dominate Beast
+- Freedom of Movement
+- Hideout
+- Hold Monster
+- Resilient Sphere
+- Stoneskin
+- Wall of Fire
+- Wall of Stone
+- Wall of Thorns
+##### 5th Level
+- Circle of Power
+- Cloudkill
+- Cone of Cold
+- Giant’s Hand
+- Greater Restoration
+- Illusionary Monster
+- Insect Plague
+- Sense Territory (R)
+- Swift Shots
+- Volley
+- Wrath of Nature

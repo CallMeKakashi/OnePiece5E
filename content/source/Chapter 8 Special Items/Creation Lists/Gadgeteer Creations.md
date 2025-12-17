@@ -1,0 +1,287 @@
+---
+{"publish":true,"created":"2025-12-18T00:42:13.151+05:30","modified":"2025-12-18T00:42:13.157+05:30","cssclasses":""}
+---
+
+
+### Gadgeteer Creations
+
+##### Tricks (0 Level)
+- Acid Bolt
+- Acid Spray
+- Bitter Blade
+- Blaring Blade
+- Burning Blade
+- Combust
+- Defending Ward
+- Detect Creation
+- Drag
+- Draw
+- Electric Surge
+- Fire Bolt
+- Flashpoint
+- Frost Ray
+- Galvanic Blade
+- Guidance
+- Ice Bolt
+- Light
+- Manipulate Earth
+- Mend
+- Mirrored Hand
+- Piercing Frost
+- Poisonous Puff
+- Polar Blade
+- Prestidigitation
+- Propel
+- Radiant Bolt
+- Shimmering Lights
+- Shocking Grasp
+- Sonic Boom
+- Spark Bolt
+- Stabilize
+- Sword Circle
+- Temporary Trick
+- Thunder Bolt
+- Venom Bolt
+- Water Flow
+- Whisper
+- Wind Blast
+##### 1st Level
+- Absorption
+- Acid Reflex
+- Advanced Weapon
+- Alarm (R)
+- Attract Metal
+- Bane
+- Beacon
+- Bless
+- Boost
+- Color Spray
+- Construct Cannon
+- Countershock
+- Create or Destroy Water
+- Create Servant (R)
+- Cure Wounds
+- Detect Poison and Disease (R)
+- Disguise
+- Elemental Armor
+- Elemental Blast
+- Elemental Orb
+- Ensnare (R)
+- Ensnaring Smite
+- Entangle
+- Fairy Lights
+- Fear Factor
+- Featherfall
+- Flashbang
+- Floating Shield
+- Fog Cloud
+- Frozen Over
+- Gadget Armor
+- Grease
+- Healing Word
+- Heroism
+- Ice Dagger
+- Identification
+- Invisible Ink (R)
+- Jump
+- Levitate
+- Missiles
+- Purify Food and Drink (R)
+- Radiant Blast
+- Retreat
+- Reverb
+- Sanctuary
+- Shield
+- Shrapnel Shot
+- Searing Smite
+- Silent Image
+- Skill Support
+- Sleep
+- Stonesculpt
+- Superfood
+- Thunderous Smite
+- Thunderwave
+- Tremor
+- Vengeful Flames
+- Zapping Arc
+##### 2nd Level
+- Acid Arrow
+- Aid
+- Air Shock
+- Ardent Blade
+- Alter Self
+- Blindness/Deafness
+- Blur
+- Branding Smite
+- Bubble Coating
+- Boat Burst (R)
+- Cloud of Daggers
+- Construct Boat
+- Construct Hut
+- Control Machine
+- Create Food and Water
+- Darkness
+- Darkvision
+- Dragon’s Breath
+- Earth Grasp
+- Elemental Weapon
+- Enfeeblement
+- Enhance Ability
+- Enlarge/Reduce
+- Flaming Sphere
+- Grounding
+- Gust of Wind
+- Heat Metal
+- Hold Person
+- Hymn of Healing
+- Ice Lock
+- Invisibility
+- Kinetic Jaunt
+- Lesser Restoration
+- Lightning Arrow
+- Lock
+- Mind Spike
+- Mirror Image
+- Misty Step
+- Phantasmal Force
+- Protection From Elements
+- Protection From Poison
+- Repair Vessel
+- Sandstorm
+- Scorch
+- Shatter
+- Silence (R)
+- Skywrite (R)
+- Spider Walk
+- Tiny Servant (R)
+- Tough Skin
+- Truth Zone
+- Unlock
+- Vortex Warp
+- Warding Wind
+- Web
+- Wristpocket (R)
+##### 3rd Level
+- Aura of Vitality
+- Ability Boost
+- Barrage
+- Blooming Jam
+- Blazing Stride
+- Call Lightning
+- Counter Creation
+- Create Construct
+- Deactivate Creation
+- Fireball
+- Fly
+- Grand Tower
+- Haste
+- Hidden Trigger
+- Hypnosis
+- Ice Storm
+- Intellect Fortress
+- Lightning Bolt
+- Major Image
+- Mass Healing Word
+- Miniature Meteors
+- Move Earth
+- Pulse Wave
+- Revivify
+- Slow
+- Spirit Dance
+- Stinking Cloud
+- Tidal Wave
+- Thunderstep
+- Transmute Rock
+- Wall of Sand
+- Wall of Water
+- Water Breathing (R)
+- Water Walk (R)
+- Wind Wall
+##### 4th Level
+- Ardent Shield
+- Control Water
+- Create Object
+- Dark Tendrils
+- Dimension Door
+- Elemental Bane
+- Freedom of Movement
+- Gravity Collapse
+- Greater Invisibility
+- Hideout
+- Hold Monster
+- Prime Ward
+- Resilient Sphere
+- Stoneskin
+- Stormy Sphere
+- Sunburn
+- Telekinesis
+- Vitriolic Sphere
+- Wall of Fire
+- Wall of Stone
+- Wall of Thorns
+- Watery Sphere
+##### 5th Level
+- Animate Objects
+- Blade Barrier
+- Circle of Power
+- Cloudkill
+- Cone of Cold
+- Control Winds (R)
+- Energy Surge
+- Far Step
+- Giant’s Hand
+- Greater Restoration
+- Illusionary Monster
+- Immolate
+- Mass Disguise
+- Mislead
+- Programmed Illusion
+- Purifying Flames
+- Steel Wind Strike
+- Wall of Force
+- Wall of Ice
+- Wall of Light
+- Wall of Lightning
+- Wall of Thunder
+##### 6th Level
+- Chain Lightning
+- Disintegrate
+- Fantasy Mirage (R)
+- Freezing Sphere
+- Gravity Fissure
+- Greater Floating Shield
+- Guardian Globe
+- Mind Prison
+- Mighty Fortress
+- Mind Blank
+- Project Image
+- Psychic Crush
+- Radical Beam
+- Rending Sword
+- Reverse Gravity
+- Scatter
+- Shooting Stars
+- Tornado
+- Trueseeing
+- Ward
+- Weather Forecast
+##### 7th Level
+- Charged Fireball
+- Firestorm
+- Force Cage
+- Magnificent Mansion
+- Prismatic Spray
+- Storm of Vengeance
+##### 8th Level
+- Anti-Creation Field
+- Dark Star
+- Earthquake
+- Incendiary Cloud
+- Sunburst
+- Tsunami
+##### 9th Level
+- Blade of Disaster
+- Meteor Swarm
+- Prismatic Wall
+- Time Ravage
+- Time Stop

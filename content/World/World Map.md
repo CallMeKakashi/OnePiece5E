@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-12-17T22:33:38.505+05:30","modified":"2025-12-17T23:01:06.960+05:30","cssclasses":""}
+{"publish":true,"created":"2025-12-18T00:01:19.300+05:30","modified":"2025-12-18T01:11:13.731+05:30","cssclasses":""}
 ---
 
 
@@ -11,8 +11,7 @@
 > How Many Pixels In Scale: `INPUT[number:scale_pixels]`  
 > How Many Units in Scale: `INPUT[number:scale_pixels_range]`  
 > Scale: `VIEW[1/({scale_pixels}/{scale_pixels_range})][math:mapCalc1]`
-
-
+<img src="../World-Map.png" height="550px" width="auto">
 
 ```leaflet  
 id: MapCalcExample ### Must be unique with no spaces  
@@ -29,5 +28,6 @@ zoomDelta: 0.5 ### Adjust how much the zoom changes when you zoom in or out.
 unit: mi ### The value displayed when measuring so you know what type of unit is being measure.  
 scale: 0.09328358208955223 ### Real units/px (resolution) of your map  
 recenter: false  
-darkmode: false ### marker
+darkmode: false ### markermarker: default,457.5687808424658,1962.928424573856,,,,
+
 ```

@@ -1,0 +1,212 @@
+---
+{"publish":true,"created":"2025-12-18T00:42:13.195+05:30","modified":"2025-12-18T00:42:13.199+05:30","cssclasses":""}
+---
+
+
+### Medic Creations
+
+##### Tricks (0 Level)
+- Acid Bolt
+- Acid Spray
+- Bitter Blade
+- Burning Blade
+- Chilling Necrosis
+- Combust
+- Defending Ward
+- Fire Bolt
+- Frost Ray
+- Guidance
+- Ice Bolt
+- Mend
+- Natural Arts
+- Necrotic Bolt
+- Piercing Frost
+- Poisonous Puff
+- Radiant Bolt
+- Sapping Stinger
+- Shocking Grasp
+- Stabilize
+- Thorn Lash
+- Venom Bolt
+- Water Flow
+##### 1st Level
+- Absorption
+- Acid Reflex
+- Alacrity
+- Bane
+- Bless
+- Boost
+- Cause Strife
+- Caustic Brew
+- Countershock
+- Create or Destroy Water
+- Cure Wounds
+- Detect Poison and Disease (R)
+- Elemental Blast
+- Elemental Orb
+- Enduring Spirit
+- Entangle
+- Fairy Lights
+- Fear Factor
+- Feather Fall
+- Fog Cloud
+- Frozen Over
+- Gadget Armor
+- Grease
+- Grow Tree
+- Healing Word
+- Heroism
+- Hideous Laughter
+- Ice Dagger
+- Infectious Ray
+- Inflict Wounds
+- Jump
+- Karma
+- Puppet
+- Purify Food and Drink (R)
+- Retreat
+- Searing Smite
+- Sleep
+- Superfood
+- Vile Verdict
+- Zephyr Strike
+##### 2nd Level
+- Acid Arrow
+- Aid
+- Ardent Blade
+- Alter Self
+- Blindness/Deafness
+- Bubble Coating
+- Boat Burst (R)
+- Calm Emotions
+- Create Food and Water
+- Darkness
+- Darkvision
+- Dragon’s Breath
+- Elemental Weapon
+- Enemies
+- Enfeeblement
+- Enhance Ability
+- Enlarge/Reduce
+- Fake Death (R)
+- Flaming Sphere
+- Gather Swarm
+- Gentle Repose (R)
+- Grounding
+- Hold Person
+- Hymn of Healing
+- Ice Lock
+- Instill Madness
+- Invisibility
+- Lesser Restoration
+- Pass Without A Trace
+- Protection From Elements
+- Protection From Poison
+- Scorch
+- Spawn Plant
+- Spider Walk
+- Tough Skin
+- Truth Zone
+- Warding Wind
+- Web
+##### 3rd Level
+- Ability Boost
+- Animate Dead
+- Aura of Vitality
+- Beacon of Hope
+- Beastial Transformation
+- Bestow Curse
+- Call Lightning
+- Catnap
+- Concoct Ooze
+- Conjure Elemental
+- Counter Creation
+- Deactivate Creation
+- Fear
+- Fireball
+- Fly
+- Haste
+- Intellect Fortress
+- Lightning Bolt
+- Mass Healing Word
+- Miniature Meteors
+- Plant Growth
+- Plant Transformation
+- Revivify
+- Slimy Transformation
+- Slow
+- Spirit Dance
+- Spirit Fury
+- Stinking Cloud
+- Water Breathing (R)
+##### 4th Level
+- Ardent Shield
+- Aura of Life
+- Blight
+- Charm Monster
+- Confusion
+- Dark Tendrils
+- Death Ward
+- Elemental Bane
+- Greater Invisibility
+- Hold Monster
+- Kill Radius
+- Lunacy
+- Polymorph
+- Prime Ward
+- Stoneskin
+- Vanquish
+- Vitriolic Sphere
+- Wall of Acid
+- Wall of Venom
+##### 5th Level
+- Animate Objects
+- Battle Transformation
+- Cloudkill
+- Cone of Cold
+- Contagion
+- Dominate Person
+- Giant's Hand
+- Greater Restoration
+- Immolate
+- Insect Plague
+- Life Steal
+- Mass Cure Wounds
+- Necrosis Surge
+- Raise Dead
+##### 6th Level
+- Disintegrate
+- Dominate Monster
+- Draconic Transformation
+- Embody Flames
+- Embody Frost
+- Embody Stone
+- Embody Winds
+- Feeble Body
+- Freezing Sphere
+- Harm
+- Heal
+- Hero’s Feast
+- Mind Blank
+- Petrify
+- Regenerate
+- Trueseeing
+##### 7th Level
+- Cause Death
+- Charged Fireball
+- Dry Bones
+- Foresight
+- Greater Heal
+- Pain
+##### 8th Level
+- Clone
+- Feeblemind
+- Incendiary Cloud
+- Stun
+##### 9th Level
+- Invulnerability
+- Mass Polymorph
+- Shapechange
+- Time Ravage
+- True Polymorph
+- Ultimate Heal

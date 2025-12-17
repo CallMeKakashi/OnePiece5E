@@ -1,0 +1,228 @@
+---
+{"publish":true,"created":"2025-12-18T00:42:13.108+05:30","modified":"2025-12-18T00:42:13.112+05:30","cssclasses":""}
+---
+
+
+### Bard Creations
+
+##### Tricks (0 Level)
+- Acid Bolt
+- Allure
+- Bitter Blade
+- Blaring Blade
+- Burning Blade
+- Combust
+- Death Wish
+- Draw
+- Electric Surge
+- Fire Bolt
+- Flashpoint
+- Galvanic Blade
+- Guidance
+- Ice Bolt
+- Light
+- Manipulate Earth
+- Mind Slash
+- Mirrored Hand
+- Necrotic Bolt
+- Polar Blade
+- Prestidigitation
+- Shimmering Lights
+- Show Off
+- Sonic Boom
+- Spark Bolt
+- Spiritual Blast
+- Sword Circle
+- Temporary Trick
+- Thunder Bolt
+- Upper Brass
+- Vicious Mockery
+- Whisper
+- Wind Blast
+##### 1st Level
+- Alacrity
+- Animal Friend
+- Bane
+- Bless
+- Boost
+- Cause Strife
+- Charm Person
+- Color Spray
+- Command
+- Countershock
+- Cure Wounds
+- Disguise
+- Distort Value
+- Discordant Tune
+- Elemental Orb
+- Enduring Spirit
+- Fairy Lights
+- Fear Factor
+- Feather Fall
+- Flashbang
+- Fog Cloud
+- Forced Empathy
+- Healing Word
+- Heroism
+- Hex
+- Hideous Laughter
+- Incidental Chorus
+- Inflict Wounds
+- Invisible Ink (R)
+- Levitate
+- Puppet
+- Radiant Blast
+- Retreat
+- Reverb
+- Sanctuary
+- Silent Image
+- Skill Support
+- Sleep
+- Speak with Animals (R)
+- Spiritual Servant (R)
+- Thunderous Smite
+- Thunderwave
+- Tremor
+- Twist Fate
+- Wrathful Smite
+- Zapping Arc
+##### 2nd Level
+- Aid
+- Air Shock
+- Antagonize
+- Blindness/Deafness
+- Call Beast
+- Calm Emotions
+- Cloud of Daggers
+- Darkness
+- Earth Grasp
+- Enemies
+- Enhance Ability
+- Enlarge/Reduce
+- Fake Death (R)
+- Grounding
+- Gust of Wind
+- Heat Metal
+- Hold Person
+- Hymn of Healing
+- Instill Madness
+- Invisibility
+- Kinetic Jaunt
+- Lesser Restoration
+- Mind Spike
+- Mind Thrust
+- Mirror Image
+- Misty Step
+- Nevermind
+- Phantasmal Force
+- Sandstorm
+- Shadow Blade
+- Shatter
+- Silence (R)
+- Skywrite (R)
+- Spray of Cards
+- Suggestion
+- Truth Zone
+- Warding Wind
+- Woebegone
+- Wristpocket (R)
+##### 3rd Level
+- Ability Boost
+- Aura of Vitality
+- Beacon of Hope
+- Bestow Curse
+- Catnap
+- Compulsion
+- Conjure Elemental
+- Erupting Earth
+- Fear
+- Fly
+- Haste
+- Hypnosis
+- Ice Storm
+- Major Image
+- Mass Healing Word
+- Remove Curse
+- Revivify
+- Slow
+- Spirit Dance
+- Spirit Fury
+- Summon Yokai
+- Water Walk (R)
+##### 4th Level
+- Aura of Life
+- Charm Monster
+- Confusion
+- Death Ward
+- Dominate Beast
+- Ego Whip
+- Freedom of Movement
+- Faithful Conviction
+- Gravity Collapse
+- Greater Invisibility
+- Hold Monster
+- Lunacy
+- Phantasmal Killer
+- Psychic Lance
+- Stoneskin
+- Stormy Sphere
+- Telekinesis
+- Vanquish
+##### 5th Level
+- Animate Objects
+- Circle of Power
+- Cone of Cold
+- Control Winds (R)
+- Dominate Person
+- Far Step
+- Giant’s Hand
+- Greater Restoration
+- Illusionary Monster
+- Mass Cure Wounds
+- Mass Disguise
+- Mislead
+- Programmed Illusion
+- Sense Territory (R)
+- Synaptic Static
+- Target Bullseye
+- Wall of Thunder
+##### 6th Level
+- Chain Lightning
+- Dominate Monster
+- Embody Flames
+- Embody Frost
+- Embody Stone
+- Embody Winds
+- Feeble Body
+- Fantasy Mirage (R)
+- Gravity Fissure
+- Heal
+- Hero’s Feast
+- Irresistible Dance
+- Mass Suggestion
+- Mind Prison
+- Mind Blank
+- Psychic Crush
+- Rending Sword
+- Reverse Gravity
+- Shooting Stars
+- Trueseeing
+- Ward
+##### 7th Level
+- Foresight
+- Firestorm
+- Greater Heal
+- Pain
+- Prismatic Spray
+##### 8th Level
+- Earthquake
+- Feeblemind
+- Glibness
+- Maddening Darkness
+- Stun
+##### 9th Level
+- Blade of Disaster
+- Prismatic Wall
+- Psychic Scream
+- Time Stop
+- Ultimate Heal
