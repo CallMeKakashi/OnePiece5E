@@ -45,12 +45,12 @@ FROM "Party NPC's"
 **Homebrew systems, rulings, and One Piece–specific mechanics**
 
 - [[Inspiration|Inspiration]]
-- [[Rules/Equipment|Equipment]] — shop tables, ships, gear (see also [[source/source|Source]] Chapter 4)
+- [[Rules/Equipment|Equipment]] — shop tables, ships, gear
+- [[Rules/Devil Fruits|Devil Fruits]] · [[Rules/Inventions|Inventions]] (see [[source/source|Source]] Ch. 4–6)
 
 ```dataview
 TABLE status
-FROM "Rules/Equipment"
-WHERE file.name != "Equipment"
+FROM "Rules/Equipment" OR "Rules/Devil Fruits" OR "Rules/Inventions"
 SORT file.name ASC
 ```
 

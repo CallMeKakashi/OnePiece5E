@@ -28,4 +28,4 @@ Mercenary organization (reformed after the Motley Crew prologue). Headquarters a
 
 - [[Blackhand]] — collusion at Spirit Cliff treasury raid
 - [[Spirit Cliff]]
-- Prologue Draft 1 remains in `Old Notes/.../Sixfolds/` (superseded by Draft 2 backstory)
+- Prologue Draft 1 (superseded): cited in `sources` on [[1476-01moon [Backstory] The Birth of the Motley Crew]]; not kept as a separate note

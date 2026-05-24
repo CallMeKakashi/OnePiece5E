@@ -45,7 +45,7 @@ In-world chronology on the One Piece calendar; notes in `Timeline/` (year subfol
 _Avoid_: Session order, episode order
 
 **Timeline entry**:
-A dated or sortable note in `Timeline/` with frontmatter `type: event | newspaper | backstory` and `status: draft | canon`. Evidence for table play stays in `Sessions/` and `Transcripts/`; Discord exports and `Old Notes/` are quarries cited in `sources`.
+A dated or sortable note in `Timeline/` with frontmatter `type: event | newspaper | backstory` and `status: draft | canon`. Evidence for table play stays in `Sessions/` and `Transcripts/`; Discord exports are quarries cited in `sources` (historical paths may reference the retired `Old Notes/` tree).
 _Avoid_: Treating timeline text as session canon without checking sources
 
 **Newspaper**:
@@ -55,10 +55,6 @@ _Avoid_: Session note, transcript, rules text
 **Source**:
 Imported One Piece D&D rules reference converted from PDFs; notes in `source/`.
 _Avoid_: World (fiction), Rules (homebrew only)
-
-**Old Notes**:
-Pre-restructure campaign archive in `Old Notes/`; canon-related material to merge into active folders over time.
-_Avoid_: Dead content, template cruft
 
 ## Relationships
 

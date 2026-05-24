@@ -1,3 +1,12 @@
+---
+type:
+  - outline
+publish: true
+status: draft
+sources:
+  - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Sidequests/Planned/Facade — Full Throttle Sidequest.md"
+---
+
 # SIDEQUEST: FACADE — FULL THROTTLE
 
 ---

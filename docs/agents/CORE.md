@@ -34,11 +34,7 @@ Do **not** create, edit, delete, rename, or move any file unless the user explic
 - `source/`
 - `Attachments/`
 
-### Tier 2 — campaign, lower priority
-
-- `Old Notes/` — canon-related archive; reorganization into Tier 1 folders is planned. Use when the user asks or when Tier 1 has no answer.
-
-### Tier 3 — Obsidian infrastructure (do not read unless asked)
+### Tier 2 — Obsidian infrastructure (do not read unless asked)
 
 - `Categories/`
 - `Clippings/`
@@ -60,7 +56,7 @@ Do not assume session numbers and episode numbers are 1:1. Match by title and us
 When reconstructing play, consider (in order of curation):
 
 1. Session notes in `Sessions/`
-2. Outlines (e.g. `Sessions/This session.md`)
+2. Outlines (e.g. `Sessions/Outlines/`, `Sessions/This session.md`)
 3. Transcripts in `Transcripts/` (large; load only when needed)
 
 For **in-world chronology** (dates, headlines, between-session world reactions), use `Timeline/` — not a substitute for session notes. Newspaper text is in-fiction; cite `Sessions/` or `Transcripts/` for what happened at the table.
@@ -81,7 +77,6 @@ Use Obsidian `[[wikilinks]]` when suggesting note titles. Prefer **Title Case** 
 
 ## Deferred work (do not start without approval)
 
-- Merging `Old Notes/` into active campaign folders
 - Linking Sessions ↔ Transcripts ↔ Outlines
 - Homebrew glossary terms in `CONTEXT.md`
 - Changing `_index.md` or Obsidian config
