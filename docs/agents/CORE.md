@@ -24,6 +24,7 @@ Do **not** create, edit, delete, rename, or move any file unless the user explic
 
 - `Sessions/`
 - `Transcripts/`
+- `Timeline/`
 - `World/`
 - `Characters/`
 - `Crew/`
@@ -61,6 +62,8 @@ When reconstructing play, consider (in order of curation):
 1. Session notes in `Sessions/`
 2. Outlines (e.g. `Sessions/This session.md`)
 3. Transcripts in `Transcripts/` (large; load only when needed)
+
+For **in-world chronology** (dates, headlines, between-session world reactions), use `Timeline/` — not a substitute for session notes. Newspaper text is in-fiction; cite `Sessions/` or `Transcripts/` for what happened at the table.
 
 Linking and organizing these is in progress — do not reorganize without approval.
 

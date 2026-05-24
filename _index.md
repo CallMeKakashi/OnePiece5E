@@ -57,6 +57,20 @@ LIST
 FROM "World"
 WHERE file.folder = "World"
 ```
+
+---
+
+## 📰 Newspapers
+
+**In-fiction headlines and editions** — curated from Discord `#world-lore` and related sources. Full chronology: [[Timeline/_index|Timeline]].
+
+```dataview
+TABLE in_world_label, publication, status
+FROM "Timeline"
+WHERE type = "newspaper"
+SORT file.name ASC
+```
+
 ---
 
 ## 📚 Source

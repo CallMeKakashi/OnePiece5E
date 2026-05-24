@@ -40,6 +40,18 @@ _Avoid_: Crew, Character
 Locations, regions, factions, and lore; notes in `World/`.
 _Avoid_: Source (rules text)
 
+**Timeline**:
+In-world chronology on the One Piece calendar; notes in `Timeline/` (year subfolders, sort key in filename). Hub: [[Timeline/_index]].
+_Avoid_: Session order, episode order
+
+**Timeline entry**:
+A dated or sortable note in `Timeline/` with frontmatter `type: event | newspaper | backstory` and `status: draft | canon`. Evidence for table play stays in `Sessions/` and `Transcripts/`; Discord exports and `Old Notes/` are quarries cited in `sources`.
+_Avoid_: Treating timeline text as session canon without checking sources
+
+**Newspaper**:
+An in-fiction press article (`type: newspaper` in `Timeline/`); headlines from the campaign world, often extracted from [[Discord/exports/world-lore]]. Listed on [[Timeline/_index]] and the campaign hub.
+_Avoid_: Session note, transcript, rules text
+
 **Source**:
 Imported One Piece D&D rules reference converted from PDFs; notes in `source/`.
 _Avoid_: World (fiction), Rules (homebrew only)
@@ -54,6 +66,8 @@ _Avoid_: Dead content, template cruft
 - A **Session** may have an **Outline**, a **Session** note, and one or more **Transcript** files.
 - **Character**, **Crew**, and **Party NPC** are disjoint people buckets.
 - **World** is in-fiction; **Source** is rules reference.
+- **Timeline** orders by in-world date (flexible precision), not session or episode number.
+- **Newspaper** notes live on the **Timeline**; promote `status` to `canon` after review.
 
 ## Flagged ambiguities
 
@@ -69,3 +83,7 @@ _Avoid_: Dead content, template cruft
 **DM**: Is Riff Sin on the crew?
 
 **Assistant**: Riff is in `Party NPC's/`, not `Crew/` — a temporary ally, not a permanent shipmate.
+
+**DM**: What did the Tribune say about G-55?
+
+**Assistant**: I'll read the `type: newspaper` note in `Timeline/` for that date. For what the party did at the table, I'll check `Sessions/` or `Transcripts/` — I won't treat the Herald as session evidence without a link.

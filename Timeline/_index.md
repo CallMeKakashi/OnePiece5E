@@ -4,7 +4,31 @@ In-world chronology for Blood & Brine. Dates use the One Piece calendar (flexibl
 
 **Canon status:** `draft` until reviewed. Sources link to [[Discord/exports/world-lore|world-lore export]] and other vault notes.
 
+## Newspapers
+
+In-fiction press (`type: newspaper`). Sorted by filename sort key.
+
+### 1478
+
+```dataview
+TABLE in_world_label, publication, status
+FROM "Timeline/1478"
+WHERE type = "newspaper"
+SORT file.name ASC
+```
+
+### Undated
+
+```dataview
+TABLE in_world_label, publication, status
+FROM "Timeline/Undated"
+WHERE type = "newspaper"
+SORT file.name ASC
+```
+
 ## 1478
+
+All timeline entries in 1478 (events, newspapers, backstory).
 
 ```dataview
 LIST
@@ -14,7 +38,7 @@ SORT file.name ASC
 
 ## Undated
 
-Herald articles without a stated in-world publication date (approximate narrative order in filenames).
+Entries without a pinned in-world start date (approximate narrative order in filenames).
 
 ```dataview
 LIST
