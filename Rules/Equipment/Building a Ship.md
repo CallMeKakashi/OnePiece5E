@@ -1,3 +1,13 @@
+---
+type:
+  - Rules
+publish: true
+status: draft
+sources:
+  - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Items/Building a Ship.md"
+related_source:
+  - "[[Building a Ship]]"
+---
 ### Building a Ship
 
 A shipwright does not need to bargain with others to get a ship up and running for their allies. All shipwrights know necessary to craft a seafaring vessel from scratch, what they need is the resources and manpower. To begin the construction of a ship, the crew must have at least one shipwright as part of their crew. However, other participants in the crafting process do not need to be shipwrights.

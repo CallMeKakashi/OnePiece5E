@@ -1,3 +1,14 @@
+---
+type:
+  - Rules
+publish: true
+status: draft
+sources:
+  - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Items/Shop - Equipment.md"
+related_source:
+  - "[[Armor and Shields]]"
+  - "[[Weapons]]"
+---
 ##### Armor
 
 | Armor           | Cost           | Armor Class (AC)          | Strength | Stealth      | Weight |

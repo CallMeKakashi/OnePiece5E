@@ -1,3 +1,14 @@
+---
+type:
+  - Rules
+publish: true
+status: draft
+sources:
+  - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Items/Upgrading your Ship.md"
+related_source:
+  - "[[Upgrading your Ship]]"
+  - "[[Ship Rooms]]"
+---
 Owning a ship is a mark of pride for any captain, however, to stand out on the seas one must make additions to it that help it stand out from the common ship.
 
 A skilled shipwright can upgrade an existing ship with all manners of additions and modifications. Upgrades require a creative mind and are typically not a service provided by most common shipwrights, including larger companies.

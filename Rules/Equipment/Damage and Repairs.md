@@ -1,3 +1,13 @@
+---
+type:
+  - Rules
+publish: true
+status: draft
+sources:
+  - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Items/Damage and Repairs.md"
+related_source:
+  - "[[Damage and Repairs]]"
+---
 Damage to a crew's ship on the seas is an eventuality. Rough seas will all tear away at your ship's hull and wear down the masts and sails. Mooring to repair and maintain your ship in between is imperative to keep it seaworthy.
 
 Whenever a ship suffers damage, its hit point maximum is reduced by a number equal to half the damage it suffered. Any crewmate can attempt to make repairs to restore lost hit points to a ship, but only a shipwright can restore lost maximum hit points. If a ship's hit point maximum is reduced below half its normal value, the ship is irreparably damaged and not even a shipwright can restore it to its original hit points maximum.

@@ -1,3 +1,13 @@
+---
+type:
+  - Rules
+publish: true
+status: draft
+sources:
+  - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Items/Mounts and Animals.md"
+related_source:
+  - "[[Mounts and Vehicles]]"
+---
 ##### Mounts and Animals
 
 |Item|Cost|Speed|

@@ -45,6 +45,14 @@ FROM "Party NPC's"
 **Homebrew systems, rulings, and One Piece–specific mechanics**
 
 - [[Inspiration|Inspiration]]
+- [[Rules/Equipment|Equipment]] — shop tables, ships, gear (see also [[source/source|Source]] Chapter 4)
+
+```dataview
+TABLE status
+FROM "Rules/Equipment"
+WHERE file.name != "Equipment"
+SORT file.name ASC
+```
 
 ---
 

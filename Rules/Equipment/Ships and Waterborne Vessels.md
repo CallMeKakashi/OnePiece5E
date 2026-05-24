@@ -1,3 +1,13 @@
+---
+type:
+  - Rules
+publish: true
+status: draft
+sources:
+  - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Items/Ships and Waterborne Vessels.md"
+related_source:
+  - "[[Ships and Waterborne Vessels]]"
+---
 No pirate crew worth their salt can even call themselves a crew unless they have a ship of their own. Whether it's a humble keelboat or a massive galleon, a crew's ship is their heart without which they cannot even leave the harbor behind. Most crews start humbly with a simple rowboat or keelboat, but to cross reverse mountain into the Grand Line, they must find the means to acquire a proper ship first and establish enough of a crew to sail it.
 
 **_Caravel._** Caravels are sailing ships distinguished by their lateen sails and 2 or more masts. Light and fast, caravels make for excellent expeditionary ships and can be manned by a small crew. In this setting, a caravel specifically refers to a smaller sailing vessel of its type.

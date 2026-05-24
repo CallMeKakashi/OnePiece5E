@@ -1,3 +1,13 @@
+---
+type:
+  - Rules
+publish: true
+status: draft
+sources:
+  - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Items/Canons.md"
+related_source:
+  - "[[Cannons]]"
+---
 
 In naval battles, cannons serve as the primary weapon of most all seafaring vessels. A cannon's destructive properties are measured by the pound rating of the ammunition it fires: The larger the pound rating, the more damage the cannon deals on a successful hit. However, cannons are heavy-duty equipment, and larger cannons typically can't be mounted on smaller vessels at all. Furthermore, the size of the vessel determines how many cannons can even fit on the ship to begin with, regardless of weight and size.
 

@@ -1,3 +1,13 @@
+---
+type:
+  - Rules
+publish: true
+status: draft
+sources:
+  - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Items/Shop - Misc.md"
+related_source:
+  - "[[Adventuring Gear]]"
+---
 | Item                         | Cost         | Weight |
 | ---------------------------- | ------------ | ------ |
 | Abacus                       | 20 000 beri  | 2 lb.  |

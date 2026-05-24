@@ -1,3 +1,13 @@
+---
+type:
+  - Rules
+publish: true
+status: draft
+sources:
+  - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Items/Tools.md"
+related_source:
+  - "[[Tools]]"
+---
 
 |Item|Cost|Weight|
 |---|---|---|

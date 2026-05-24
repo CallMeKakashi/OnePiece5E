@@ -1,3 +1,13 @@
+---
+type:
+  - Rules
+publish: true
+status: draft
+sources:
+  - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Items/Transponder Snails.md"
+related_source:
+  - "[[Transponder Snails]]"
+---
 
 Transponder snails are a unique genus of snails with the ability to communicate with each other through telepathy, capable of using electronic signals to reach across great distances. Coupled with their ability to perfectly mimic human speech and even expressions, they have been domesticated for use as phones across the world. These snails are also referred to as "den den mushi".
 

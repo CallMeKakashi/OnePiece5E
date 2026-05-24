@@ -1,3 +1,11 @@
+---
+type:
+  - Rules
+publish: true
+status: draft
+sources:
+  - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Items/Health Kits.md"
+---
 ### **Standard Healing Kit**
 - **Healing Effect:** A single use of a health kit restores **2d4 + 2 HP**.
 - **Application:** It takes **1 action** to apply the kit to yourself or another creature within reach.
