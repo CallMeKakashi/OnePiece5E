@@ -1,3 +1,9 @@
+---
+publish: true
+---
+
+# Frosthaven NPCs
+
 1. Eira Snowheart - Current Chief
 2. Bjorn Frostbeard - Old Chief - (imprisoned)
 3. Rurik Icebane - Shopkeeper at FrostHaven

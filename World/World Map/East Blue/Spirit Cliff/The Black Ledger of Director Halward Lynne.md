@@ -1,4 +1,5 @@
 ---
+publish: true
 status: draft
 sources:
   - "Old Notes/The Black Ledger of Director Halward Lynne.md"

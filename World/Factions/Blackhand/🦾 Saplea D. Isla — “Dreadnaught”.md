@@ -1,3 +1,12 @@
+---
+type:
+  - NPC
+publish: true
+---
+
+### Voice
+
+# Description
 
 **Pronunciation:** _sap-LEE-uh_  
 **Race:** Cat Mink (from mother’s side)  

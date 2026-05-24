@@ -1,4 +1,5 @@
 ---
+publish: true
 status: draft
 sources:
   - "World/World Map/Islands.md"

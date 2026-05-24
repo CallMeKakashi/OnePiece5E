@@ -1,3 +1,13 @@
+---
+type:
+  - NPC
+publish: true
+---
+
+### Voice
+
+# Description
+
 ## ⚔️ **Blackhand Cane – Weaponized Form**
 
 **Alias:** _"The Ghost of Virellis"_  

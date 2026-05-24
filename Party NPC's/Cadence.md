@@ -1,6 +1,7 @@
 ---
 type:
   - NPC
+publish: true
 ---
 ### Voice
 

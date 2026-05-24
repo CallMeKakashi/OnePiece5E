@@ -1,3 +1,13 @@
+---
+type:
+  - NPC
+publish: true
+---
+
+### Voice
+
+# Description
+
 # Mira the Unbreakable
 
 ### **Backstory**

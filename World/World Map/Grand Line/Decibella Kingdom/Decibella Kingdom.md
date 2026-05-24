@@ -4,6 +4,7 @@ map_width_x: 2048
 scale_pixels: 268
 scale_pixels_range: 25
 mapCalc1: 0
+publish: true
 ---
 
 ### The Law: "The Decibel Decree"

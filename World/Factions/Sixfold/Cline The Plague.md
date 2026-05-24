@@ -1,8 +1,15 @@
 ---
+type:
+  - NPC
+publish: true
 status: draft
 sources:
   - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Sixfolds/Cline The Plague.md"
 ---
+
+### Voice
+
+# Description
 
 ### **🧬 Real Name:** Cline Veil**
 

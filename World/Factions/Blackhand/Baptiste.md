@@ -1,4 +1,5 @@
 ---
+publish: true
 status: draft
 sources:
   - "Discord/exports/world-lore.md"

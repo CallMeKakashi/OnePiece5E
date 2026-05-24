@@ -7,6 +7,10 @@ sources:
   - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Party 2/Players/Shako.md"
 ---
 
+### Voice
+
+# Description
+
 # 🥊⚓ **Shako the Mantis Shrimp Fishman — Backstory**
 
 ## 🐚 **Origins & Family**

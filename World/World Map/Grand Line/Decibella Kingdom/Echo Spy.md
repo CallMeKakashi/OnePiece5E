@@ -1,6 +1,7 @@
 ---
 type:
   - NPC
+publish: true
 ---
 ### Voice 
 They talk in whispered tones ... always echoing each other

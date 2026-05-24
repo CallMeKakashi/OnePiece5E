@@ -1,6 +1,7 @@
 ---
 type:
   - NPC
+publish: true
 ---
 ### Voice
 Low grunts. Low voice behave like true soldiers.

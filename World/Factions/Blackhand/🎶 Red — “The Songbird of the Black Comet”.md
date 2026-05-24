@@ -1,3 +1,12 @@
+---
+type:
+  - NPC
+publish: true
+---
+
+### Voice
+
+# Description
 
 **Pronunciation:** _Red_ (nickname)  
 **Real Name:** Quill Clawson  

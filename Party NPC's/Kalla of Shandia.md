@@ -6,6 +6,11 @@ status: draft
 sources:
   - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Party 2/Players/Kalla of Shandia.md"
 ---
+
+### Voice
+
+# Description
+
 ### **Kalla of Shandia**
 
 **Race:** Skypiean  

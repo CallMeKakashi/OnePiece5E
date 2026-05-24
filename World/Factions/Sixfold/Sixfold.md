@@ -1,4 +1,5 @@
 ---
+publish: true
 status: draft
 sources:
   - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Sixfolds/"

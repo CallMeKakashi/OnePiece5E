@@ -1,3 +1,12 @@
+---
+type:
+  - NPC
+publish: true
+---
+
+### Voice
+
+# Description
 
 ### **Basic Information**
 

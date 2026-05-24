@@ -1,3 +1,13 @@
+---
+type:
+  - NPC
+publish: true
+---
+
+### Voice
+
+# Description
+
 **Race:** Human (Partially Mutated)  
 **Gender:** Male  
 **Age:** 18  
