@@ -9,3 +9,10 @@
 
 # Exclude macOS Finder (System Explorer) View States
 .DS_Store
+
+# Discord export script
+.env
+scripts/.venv/
+scripts/discord-channels.json
+__pycache__/
+*.pyc
