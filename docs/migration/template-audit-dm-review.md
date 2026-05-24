@@ -4,8 +4,8 @@ Generated during Tier 1 frontmatter pass (scope D). Do not auto-fix without conf
 
 | Note | Issue |
 |------|--------|
-| `Characters/B.O.B.md` | Empty file — PC stub or delete? |
-| `Characters/Malphas.md` | `type: Players` — confirm PC vs NPC/antagonist |
+| ~~`Characters/B.O.B.md`~~ | **Deleted** |
+| ~~`Characters/Malphas.md`~~ | **Moved** to `Party NPC's/Malphas.md`, `type: NPC` |
 | `Crew/Unnamed Party Member.md` | Empty file — fill or remove? |
 | `Characters/Baptiste` vs `World/Factions/Blackhand/Baptiste` | Same name, different people (disambiguated in prose) — OK |
 | `Timeline/Undated/[Backstory] Liz, Raid Kingdom, and Baptiste rescue` | No `in_world_start` — intentional undated? |

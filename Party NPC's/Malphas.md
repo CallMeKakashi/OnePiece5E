@@ -1,16 +1,15 @@
 ---
 type:
-  - Players
+  - NPC
 publish: true
 status: draft
 sources:
   - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Party 1/Malphas.md"
 ---
+
+### Voice
+
 # Description
-
-# Role
-
-# Personal Quests
 
 ## Backstory — Alice's POV (childhood)
 
