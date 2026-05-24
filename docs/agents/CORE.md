@@ -44,6 +44,10 @@ Do **not** create, edit, delete, rename, or move any file unless the user explic
 
 These folders support Obsidian workflows (templates, PKM). They are not primary campaign context.
 
+## Obsidian explorer
+
+The file explorer hides Tier 2 and tooling folders via CSS (**explorer only** — search and links unchanged). Template edits go through [[../obsidian-setup|obsidian-setup]] and [[../../Templates/_index|Templates/_index]]. Do not change `.obsidian/snippets/` or `appearance.json` without user approval and updating that doc.
+
 ## Session vs Episode
 
 - **Session** = table-play unit → `Sessions/`
@@ -79,4 +83,4 @@ Use Obsidian `[[wikilinks]]` when suggesting note titles. Prefer **Title Case** 
 
 - Linking Sessions ↔ Transcripts ↔ Outlines
 - Homebrew glossary terms in `CONTEXT.md`
-- Changing `_index.md` or Obsidian config
+- Changing `_index.md` beyond approved maintenance links, or Obsidian config not documented in [[../obsidian-setup|obsidian-setup]]

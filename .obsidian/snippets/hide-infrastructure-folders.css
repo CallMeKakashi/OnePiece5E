@@ -1,0 +1,77 @@
+/*
+  Blood & Brine — hide non-campaign folders from the file explorer only.
+  Targets legacy (.nav-folder-title) and modern (.tree-item-self) explorer DOM.
+*/
+
+/* --- Folders (Tier 2 + tooling) --- */
+.nav-folder-title[data-path="Categories"],
+.nav-folder-title[data-path="Clippings"],
+.nav-folder-title[data-path="References"],
+.nav-folder-title[data-path="Notes"],
+.nav-folder-title[data-path="Templates"],
+.nav-folder-title[data-path="docs"],
+.nav-folder-title[data-path="scripts"],
+.nav-folder-title[data-path="Discord"],
+.nav-folder-title[data-path="Daily"],
+.tree-item-self.nav-folder-title[data-path="Categories"],
+.tree-item-self.nav-folder-title[data-path="Clippings"],
+.tree-item-self.nav-folder-title[data-path="References"],
+.tree-item-self.nav-folder-title[data-path="Notes"],
+.tree-item-self.nav-folder-title[data-path="Templates"],
+.tree-item-self.nav-folder-title[data-path="docs"],
+.tree-item-self.nav-folder-title[data-path="scripts"],
+.tree-item-self.nav-folder-title[data-path="Discord"],
+.tree-item-self.nav-folder-title[data-path="Daily"],
+.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Categories"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Clippings"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="References"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Notes"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Templates"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="docs"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="scripts"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Discord"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Daily"]) {
+  display: none !important;
+}
+
+/* Legacy: hide folder contents sibling */
+.nav-folder-title[data-path="Categories"] + .nav-folder-children,
+.nav-folder-title[data-path="Clippings"] + .nav-folder-children,
+.nav-folder-title[data-path="References"] + .nav-folder-children,
+.nav-folder-title[data-path="Notes"] + .nav-folder-children,
+.nav-folder-title[data-path="Templates"] + .nav-folder-children,
+.nav-folder-title[data-path="docs"] + .nav-folder-children,
+.nav-folder-title[data-path="scripts"] + .nav-folder-children,
+.nav-folder-title[data-path="Discord"] + .nav-folder-children,
+.nav-folder-title[data-path="Daily"] + .nav-folder-children {
+  display: none !important;
+}
+
+/* Explorer Hider–style fallback (data-path on any descendant) */
+.nav-files-container .tree-item [data-path="Categories"],
+.nav-files-container .tree-item [data-path="Clippings"],
+.nav-files-container .tree-item [data-path="References"],
+.nav-files-container .tree-item [data-path="Notes"],
+.nav-files-container .tree-item [data-path="Templates"],
+.nav-files-container .tree-item [data-path="docs"],
+.nav-files-container .tree-item [data-path="scripts"],
+.nav-files-container .tree-item [data-path="Discord"],
+.nav-files-container .tree-item [data-path="Daily"] {
+  display: none !important;
+}
+
+/* --- Root files (agent instructions; keep CONTEXT.md) --- */
+.nav-file-title[data-path="AGENTS.md"],
+.nav-file-title[data-path="CLAUDE.md"],
+.nav-file-title[data-path="GEMINI.md"],
+.tree-item-self.nav-file-title[data-path="AGENTS.md"],
+.tree-item-self.nav-file-title[data-path="CLAUDE.md"],
+.tree-item-self.nav-file-title[data-path="GEMINI.md"],
+.nav-files-container .tree-item:has(> .tree-item-self.nav-file-title[data-path="AGENTS.md"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-file-title[data-path="CLAUDE.md"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-file-title[data-path="GEMINI.md"]),
+.nav-files-container .tree-item [data-path="AGENTS.md"],
+.nav-files-container .tree-item [data-path="CLAUDE.md"],
+.nav-files-container .tree-item [data-path="GEMINI.md"] {
+  display: none !important;
+}

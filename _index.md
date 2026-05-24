@@ -101,3 +101,10 @@ WHERE file.folder = "source"
 LIST
 FROM "Sessions"
 ```
+
+---
+
+## 🔧 Maintenance
+
+- [[Templates/_index|Edit templates]] — campaign templates (`Templates/` hidden in explorer)
+- [[docs/obsidian-setup|Obsidian setup]] — hidden folders, CSS snippet, bookmarks
