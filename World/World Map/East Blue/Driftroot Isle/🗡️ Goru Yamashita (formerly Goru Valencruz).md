@@ -186,4 +186,3 @@ Despite everything, he was in danger. And Goru couldn’t ignore that.
 He picked up his blade again. He would go to Greymire.
 
 Let the past finally reckon with the present.
-

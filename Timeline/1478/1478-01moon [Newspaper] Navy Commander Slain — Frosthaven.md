@@ -1,16 +1,19 @@
 ---
 type: newspaper
-in_world_start: unknown
+in_world_start: 1478-01moon
 in_world_end:
-precision: unknown
-in_world_label: undated (Frosthaven incident)
+precision: approximate
+in_world_label: "1st Moon, 1478 (approximate, Frosthaven incident)"
 publication: North Blue Herald
 edition: Special Edition
 status: draft
 sources:
   - "Discord/exports/world-lore.md"
+related_world:
+  - "[[Frosthaven]]"
 related_events:
-  - "[[unknown [Newspaper] Plasmoid Turns Frostwind to Ashes]]"
+  - "[[1477-03moon [Newspaper] Blackhand Shows True Colors — Ambercrest]]"
+  - "[[1478-02moon [Newspaper] Plasmoid Turns Frostwind to Ashes]]"
 ---
 
 # North Blue Herald — Navy Commander Slain on Frosthaven

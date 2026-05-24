@@ -10,7 +10,7 @@ status: draft
 sources:
   - "Discord/exports/world-lore.md"
 related_events:
-  - "[[unknown [Newspaper] Blackhand and Sixfold — Spirit Cliff]]"
+  - "[[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]"
 ---
 
 # Grand Line Tribune — 12th Moon, 1478 (Morning)

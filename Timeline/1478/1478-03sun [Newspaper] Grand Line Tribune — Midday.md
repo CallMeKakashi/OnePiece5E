@@ -11,7 +11,7 @@ sources:
   - "Discord/exports/world-lore.md"
 related_events:
   - "[[1478-12moon [Newspaper] Grand Line Tribune — Morning]]"
-  - "[[unknown [Newspaper] Plasmoid Turns Frostwind to Ashes]]"
+  - "[[1478-02moon [Newspaper] Plasmoid Turns Frostwind to Ashes]]"
 ---
 
 # Grand Line Tribune — 3rd Sun, 1478 (Midday)

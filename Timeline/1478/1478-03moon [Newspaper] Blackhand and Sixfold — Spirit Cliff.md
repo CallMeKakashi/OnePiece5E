@@ -1,16 +1,19 @@
 ---
 type: newspaper
-in_world_start: unknown
+in_world_start: 1478-03moon
 in_world_end:
-precision: unknown
-in_world_label: undated (Spirit Cliff; ties to Verrelies pardon)
+precision: approximate
+in_world_label: "3rd Moon, 1478 (approximate, Spirit Cliff; Verrelies pardon)"
 publication: East Blue Herald
 edition: Special Marine Dispatch
 status: draft
 sources:
   - "Discord/exports/world-lore.md"
+related_world:
+  - "[[Spirit Cliff]]"
 related_events:
-  - "[[unknown [Newspaper] Blackhand Shows True Colors — Ambercrest]]"
+  - "[[1478-02moon [Newspaper] Plasmoid Turns Frostwind to Ashes]]"
+  - "[[1478-03sun [Newspaper] Grand Line Tribune — Midday]]"
 ---
 
 # East Blue Herald — Blackhand & Sixfold Conspiracy Rocks Spirit Cliff

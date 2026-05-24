@@ -1,9 +1,9 @@
 ---
 type: newspaper
-in_world_start: unknown
+in_world_start: 1477-03moon
 in_world_end:
-precision: unknown
-in_world_label: undated (early Blackhand arcane)
+precision: approximate
+in_world_label: "3rd Moon, 1477 (approximate, early Blackhand arc)"
 publication: East Blue Herald
 edition: Special Edition
 status: draft
@@ -11,6 +11,8 @@ sources:
   - "Discord/exports/world-lore.md"
 related_world:
   - "[[Ambercrest]]"
+related_events:
+  - "[[1478-01moon [Newspaper] Navy Commander Slain — Frosthaven]]"
 ---
 
 # East Blue Herald — Blackhand Shows His True Colors

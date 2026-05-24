@@ -1,14 +1,29 @@
 %% Begin Waypoint %%
+- **Factions**
+	- **[[Blackhand]]**
+		- [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”]]
+		- [[🎶 Red — “The Songbird of the Black Comet”]]
+		- [[🦾 Saplea D. Isla — “Dreadnaught”]]
+		- [[Baptiste]]
+		- [[Blackhand (Cyber)]]
+		- [[Mira the Unbreakable]]
 - **[[World Map]]**
 	- **East Blue**
 		- **[[Ambercrest]]**
 			- [[Kirro King]]
+		- **[[Driftroot Isle]]**
+			- [[🗡️ Goru Yamashita (formerly Goru Valencruz)]]
+		- **[[Spirit Cliff]]**
 	- **Grand Line**
 		- **[[Decibella Kingdom]]**
 			- [[Baron Woofer]]
 			- [[Echo Spy]]
 			- [[Lady Soefra Anthem]]
 			- [[Mezzo Troop]]
+	- **North Blue**
+		- **[[Frosthaven]]**
+			- [[Frosthaven NPC's]]
+		- **[[Frostwind]]**
 	- **South Blue**
 		- **Juniper Islands**
 			- **West Town**

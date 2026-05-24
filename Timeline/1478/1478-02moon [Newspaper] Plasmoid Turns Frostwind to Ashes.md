@@ -1,16 +1,19 @@
 ---
 type: newspaper
-in_world_start: unknown
+in_world_start: 1478-02moon
 in_world_end:
-precision: unknown
-in_world_label: undated (after Frosthaven; before Spirit Cliff)
+precision: approximate
+in_world_label: "2nd Moon, 1478 (approximate, Frostwind attack)"
 publication: North Blue Herald
 edition: Special Edition
 status: draft
 sources:
   - "Discord/exports/world-lore.md"
+related_world:
+  - "[[Frostwind]]"
 related_events:
-  - "[[unknown [Newspaper] Navy Commander Slain — Frosthaven]]"
+  - "[[1478-01moon [Newspaper] Navy Commander Slain — Frosthaven]]"
+  - "[[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]"
 ---
 
 # North Blue Herald — Plasmoid Turns Frostwind to Ashes

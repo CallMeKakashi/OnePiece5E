@@ -8,6 +8,15 @@ In-world chronology for Blood & Brine. Dates use the One Piece calendar (flexibl
 
 In-fiction press (`type: newspaper`). Sorted by filename sort key.
 
+### 1477
+
+```dataview
+TABLE in_world_label, publication, status
+FROM "Timeline/1477"
+WHERE type = "newspaper"
+SORT file.name ASC
+```
+
 ### 1478
 
 ```dataview
@@ -23,6 +32,26 @@ SORT file.name ASC
 TABLE in_world_label, publication, status
 FROM "Timeline/Undated"
 WHERE type = "newspaper"
+SORT file.name ASC
+```
+
+## 1477
+
+All timeline entries in 1477.
+
+```dataview
+LIST
+FROM "Timeline/1477"
+SORT file.name ASC
+```
+
+## 1476
+
+All timeline entries in 1476.
+
+```dataview
+LIST
+FROM "Timeline/1476"
 SORT file.name ASC
 ```
 
