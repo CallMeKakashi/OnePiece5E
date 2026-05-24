@@ -9,9 +9,8 @@
 		- [[Baptiste]]
 		- [[Blackhand (Cyber)]]
 		- [[Mira the Unbreakable]]
-	- **[[Sixfold]]**
-		- [[Cline The Plague]]
 - **[[World Map]]**
+	- **[[Islands]]**
 	- **East Blue**
 		- **[[Ambercrest]]**
 			- [[Kirro King]]

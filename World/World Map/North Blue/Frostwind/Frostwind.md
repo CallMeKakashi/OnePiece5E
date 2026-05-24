@@ -1,7 +1,7 @@
 ---
 status: draft
 sources:
-  - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Islands.md"
+  - "World/World Map/Islands.md"
 ---
 
 # Frostwind
