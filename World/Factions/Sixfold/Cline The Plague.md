@@ -1,3 +1,9 @@
+---
+status: draft
+sources:
+  - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Sixfolds/Cline The Plague.md"
+---
+
 ### **🧬 Real Name:** Cline Veil**
 
 **Alias:** _The Plague_  
@@ -60,7 +66,7 @@ Creatures entering or starting turn inside must make DC 13 Con Save or suffer on
     
 - 2: -10 ft movement (fatigue)
     
-- 3: Hallucinate (can’t take reactions)
+- 3: Hallucinate (can't take reactions)
     
 
 **3. Symptom Shot (Ranged, 60 ft)**  

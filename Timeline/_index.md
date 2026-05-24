@@ -78,4 +78,4 @@ SORT file.name ASC
 ## Related
 
 - [[Discord/exports/world-lore]]
-- Old Notes date anchors (1476–1478): `Old Notes/One Piece DND - Blood and Brine/Campaign 2/Dates.md`
+- [[Dates]] — campaign year and historical anchors (1476–1478)

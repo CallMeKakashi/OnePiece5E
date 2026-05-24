@@ -1,5 +1,7 @@
 %% Begin Waypoint %%
 - **Factions**
+	- **[[Sixfold]]**
+		- [[Cline The Plague]]
 	- **[[Blackhand]]**
 		- [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”]]
 		- [[🎶 Red — “The Songbird of the Black Comet”]]
@@ -7,6 +9,8 @@
 		- [[Baptiste]]
 		- [[Blackhand (Cyber)]]
 		- [[Mira the Unbreakable]]
+	- **[[Sixfold]]**
+		- [[Cline The Plague]]
 - **[[World Map]]**
 	- **East Blue**
 		- **[[Ambercrest]]**

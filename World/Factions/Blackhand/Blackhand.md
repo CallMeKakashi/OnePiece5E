@@ -25,6 +25,7 @@ Pirate organization and associated **Blackhand unit** (field operatives). Leader
 
 ## Related
 
+- [[Sixfold]] — Spirit Cliff collusion
 - [[Spirit Cliff]] — treasury raid
 - [[Ambercrest]] — early East Blue incident
 - Misnamed archive: `Old Notes/.../Baptiste.md` (Liz/Linn + Cane prose — not this Baptiste)

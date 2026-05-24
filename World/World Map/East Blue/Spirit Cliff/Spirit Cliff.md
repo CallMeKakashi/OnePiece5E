@@ -11,3 +11,8 @@ East Blue island — World Government bank branch and Marine Base G-45.
 ## Timeline
 
 - [[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]
+
+## Related
+
+- [[Sixfold]]
+- [[Blackhand]]

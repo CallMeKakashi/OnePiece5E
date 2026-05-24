@@ -9,6 +9,8 @@ sources:
   - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Sixfolds/Prologue - The Birth of the Motley Crew Draft 2.md"
 related_events:
   - "[[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]"
+related_world:
+  - "[[Sixfold]]"
 ---
 
 # ⚓ **Prologue: The Birth of the Motley Crew**

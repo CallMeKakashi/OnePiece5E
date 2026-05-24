@@ -11,6 +11,8 @@ sources:
   - "Discord/exports/world-lore.md"
 related_world:
   - "[[Spirit Cliff]]"
+  - "[[Sixfold]]"
+  - "[[Blackhand]]"
 related_events:
   - "[[1478-02moon [Newspaper] Plasmoid Turns Frostwind to Ashes]]"
   - "[[1478-03sun [Newspaper] Grand Line Tribune — Midday]]"
