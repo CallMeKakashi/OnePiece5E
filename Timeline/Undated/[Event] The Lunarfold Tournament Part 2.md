@@ -13,6 +13,7 @@ related_world:
   - "[[Sixfold]]"
 related_events:
   - "[[Timeline/Undated/[Event] The Lunarfold Tournament Part 1]]"
+  - "[[Timeline/Undated/[Event] Sea of Nightmares]]"
 ---
 
 # The Lunarfold Tournament (Part 2)

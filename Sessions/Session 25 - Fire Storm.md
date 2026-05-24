@@ -19,5 +19,6 @@ sources:
 | Transcript | [[Episode 25 - Fire Storm]] |
 | Timeline | [[Timeline/Undated/[Event] Fire Storm]] |
 | Prior | [[Session 24 - The Friendly Baron]] |
+| Prep outline | [[Session 24 - Fire Storm]] |
 | Raw | `Transcripts/Episode 25 - Fire Storm.txt` |
 

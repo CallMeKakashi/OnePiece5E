@@ -1,3 +1,21 @@
+---
+type: session
+status: draft
+role: prep-outline
+episode: null
+prep_for:
+  - "[[Episode 14 - The Decibel Decree]]"
+  - "[[Episode 15 - Animal Within]]"
+  - "[[Episode 16 - Broken Promises]]"
+sources:
+  - "[[Session 14 - The Decibel Decree]]"
+---
+
+# Session 17 — Howling Thunder (DM prep)
+
+> **Not table play.** Outline for Soundless Five tower fights. **Recorded session:** [[Session 17 - Agony of Choas]] · [[Episode 17 - Agony of Choas]] · [[Timeline/Undated/[Event] Agony of Choas]].
+
+---
 
 **Party Level:** 4 → **5 (mid-session)**  
 **Intended Difficulty:** Deadly / Near-Fatal  

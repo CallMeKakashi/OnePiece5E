@@ -17,5 +17,6 @@ sources:
 | Transcript | [[Episode 24 - The Friendly Baron]] |
 | Timeline | [[Timeline/Undated/[Event] The Friendly Baron]] |
 | Prior | [[Session 23 - Choice for life]] |
-| Raw | `Transcripts/Episode 24 - The Friendly Baron.txt` |
+| Raw | `Transcripts/Episode  24 - The Friendly Baron.txt` |
+| Supplement | [[Session - 24.5]] |
 

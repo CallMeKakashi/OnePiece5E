@@ -17,5 +17,6 @@ sources:
 | Transcript | [[Episode 23 - Choice for life]] |
 | Timeline | [[Timeline/Undated/[Event] Choice for life]] |
 | Prior | [[Session 22 - The Missing Piece]] |
+| Prior | [[Session 22 - The Missing Piece]] |
 | Raw | `Transcripts/Episode 23 - Choice for life.txt` |
 

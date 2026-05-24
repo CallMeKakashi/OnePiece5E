@@ -17,6 +17,8 @@ related_world:
   - "[[Ben (Spider's Nest)]]"
   - "[[Chloe (Spider's Nest)]]"
 related_events:
+  - "[[Timeline/Undated/[Event] Shackles Broken]]"
+  - "[[Timeline/Undated/[Event] The Lunarfold Tournament Part 1]]"
   - "[[1478-09sun [Newspaper] Grand Line Tribune — Morning]]"
 ---
 

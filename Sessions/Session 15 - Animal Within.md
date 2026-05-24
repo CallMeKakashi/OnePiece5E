@@ -10,6 +10,15 @@ sources:
 
 > Curated prep/recap exists below. Transcript: [[Episode 15 - Animal Within]].
 
+## Links
+
+| Kind | Note |
+|------|------|
+| Transcript | [[Episode 15 - Animal Within]] |
+| Timeline | [[Timeline/Undated/[Event] Animal Within]] |
+| Prior | [[Session 14 - The Decibel Decree]] |
+| Raw | `Transcripts/Episode 15 - Animal Within.txt` |
+
 ---
 publish: true
 type:

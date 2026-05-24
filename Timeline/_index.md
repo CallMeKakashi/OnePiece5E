@@ -67,7 +67,11 @@ SORT file.name ASC
 
 ## Undated
 
-Entries without a pinned in-world start date (approximate narrative order in filenames).
+Entries without a pinned in-world start date. **Table play order** (episode/recording order) follows `related_events` chains and [[Dates#Session ↔ Episode (Campaign 2 play order)|Session ↔ Episode]] — not filename sort alone.
+
+### Campaign 2 play order (table)
+
+2 → 3 → 4 → 5 → 6 → 8 → 9 → 10 → 11 → 12 → 13 → 14 → 15 → 16 → 17 → 18 → 19 → 20 (P1+P2) → 21 → 22 → 23 → 24 → 25 · *(no Episode 7)*
 
 ```dataview
 LIST

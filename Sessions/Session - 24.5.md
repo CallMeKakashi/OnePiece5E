@@ -1,3 +1,25 @@
+---
+type: session
+status: draft
+role: interstitial-rp
+episode: 24
+sources:
+  - "[[Episode 24 - The Friendly Baron]]"
+---
+
+# Session 24.5 — Interstitial RP
+
+> **Not a broadcast episode.** Supplemental table/RP (Ace call, ship scenes) during [[Episode 24 - The Friendly Baron]] arc. See also [[Session 24 - The Friendly Baron]].
+
+## Links
+
+| Kind | Note |
+|------|------|
+| Transcript | [[Episode 24 - The Friendly Baron]] |
+| Timeline | [[Timeline/Undated/[Event] The Friendly Baron]] |
+
+---
+
 ## Ace
 “Jack. Make sure the line is clear and no one can hear you.”
 

@@ -1,3 +1,26 @@
+---
+type: session
+status: draft
+role: prep-outline
+episode: 25
+sources:
+  - "[[Episode 25 - Fire Storm]]"
+---
+
+# Session 24 — Fire Storm (prep outline)
+
+> **DM prep only** — outlines [[Episode 25 - Fire Storm]] table play. **Session index for recording:** [[Session 25 - Fire Storm]].
+
+## Links
+
+| Kind | Note |
+|------|------|
+| Transcript | [[Episode 25 - Fire Storm]] |
+| Timeline | [[Timeline/Undated/[Event] Fire Storm]] |
+| Played session | [[Session 25 - Fire Storm]] |
+
+---
+
 # 🎲 Session Outline: _Flames Over Valehart Waters_
 
 ## 🎬 ACT 1 — The Aftermath (Roma / Malphas POV)

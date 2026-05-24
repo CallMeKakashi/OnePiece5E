@@ -10,6 +10,15 @@ sources:
 
 > Curated prep/recap exists below. Transcript: [[Episode 16 - Broken Promises]].
 
+## Links
+
+| Kind | Note |
+|------|------|
+| Transcript | [[Episode 16 - Broken Promises]] |
+| Timeline | [[Timeline/Undated/[Event] Broken Promises]] |
+| Prior | [[Session 15 - Animal Within]] |
+| Prep (tower) | [[Session 17 - Howling Thunder]] |
+| Raw | `Transcripts/Episode 16 - Broken Promises.txt` |
 
 # BROADCAST TOWER — FIRST FLOOR
 

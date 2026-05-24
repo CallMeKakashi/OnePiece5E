@@ -10,6 +10,15 @@ sources:
 
 > Curated prep/recap exists below. Transcript: [[Episode 14 - The Decibel Decree]].
 
+## Links
+
+| Kind | Note |
+|------|------|
+| Transcript | [[Episode 14 - The Decibel Decree]] |
+| Timeline | [[Timeline/Undated/[Event] The Decibel Decree]] |
+| Prior | [[Session 13 - The Reaper (No DM Audio)]] |
+| Raw | `Transcripts/Episode 14 - The Decibel Decree.txt` |
+
 ---
 publish: true
 type:
