@@ -16,4 +16,5 @@ Blackhand unit member. **Devil Fruit user** — at Spirit Cliff, triggered catas
 ## Notes
 
 - Session references: `Sessions/Session - 24.5.md`, `Sessions/Session 16 - Broken Promises.md`
-- Full character sheet not yet migrated (do not confuse with `Old Notes/.../Baptiste.md`, which is Liz/Linn backstory prose)
+- Full character sheet not yet migrated
+- Do not confuse with **PC** `Characters/Baptiste` or composite prose [[Backstory] Liz, Raid Kingdom, and Baptiste rescue]] (Part 3 = PC origin; Parts 1–2 = Liz / Cane)

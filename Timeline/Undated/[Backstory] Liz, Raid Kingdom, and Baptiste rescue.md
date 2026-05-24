@@ -1,4 +1,23 @@
-### Part 1: Elizabeth Marrow
+---
+type: backstory
+status: draft
+sources:
+  - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Baptiste.md"
+related_world:
+  - "[[Sixfold]]"
+  - "[[Blackhand]]"
+---
+
+# Liz, Raid Kingdom, and Baptiste rescue
+
+> Misfiled as `Baptiste.md` in Old Notes. Composite prose (three arcs); split into separate notes later.
+
+## Related
+
+- Player character: `Characters/Baptiste` — Part 3 below
+- Blackhand unit member (different person): `World/Factions/Blackhand/Baptiste`
+
+## Elizabeth Marrow (Liz and Linn)
 
 Liz stuffed the last of her things into a worn leather bag, her fingers trembling but her resolve firm. The room smelled faintly of formaldehyde and dust — the stench of the mortuary that had become their home. A door slammed open.
 
@@ -30,7 +49,7 @@ And then she was gone.
 
 Linn stood there, clutching the bag, heart pounding. The smell of death lingered in the air, but for the first time, it was the silence that scared him more.
 
-### Part 2: Blackhand Cane
+## Blackhand Cane — Raid Kingdom
 
 The deck of the _Queen Anne's Revenge_ creaked under the weight of a restless sea and a crew restless for answers. Blackhand Cane stood with his back to the rail, one boot planted on a coil of rope, the salt spray tasting like iron on his lips. He listened as the murmurs rose and fell like gulls over the water.
 
@@ -68,7 +87,7 @@ As the _Queen Anne's Revenge_ set a course toward the island, Cane watched his c
 
 He spat into the ocean, the salt and the promise mixing. "If they think ta take what's ours, they'll find the sea full o' teeth. Set sail. Raid Kingdom's got a storm comin', an' we're the thunder."
 
-### Part 3: Baptiste
+## Baptiste — Germa rescue
 
 Another day of torture passed. They left him to recover from his wounds in a room that smelled of oil and old metal. He chanted the old mantra—half prayer, half plea—"Gods... if we..."—and the thought dissolved in the stale air when something rattled at the heavy steel-reinforced door.
 
