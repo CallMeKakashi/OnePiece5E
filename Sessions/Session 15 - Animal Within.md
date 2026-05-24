@@ -1,4 +1,16 @@
 ---
+type: session
+episode: 15
+status: draft
+sources:
+  - "[[Episode 15 - Animal Within]]"
+---
+
+# Session 15 — Animal Within
+
+> Curated prep/recap exists below. Transcript: [[Episode 15 - Animal Within]].
+
+---
 publish: true
 type:
   - Session

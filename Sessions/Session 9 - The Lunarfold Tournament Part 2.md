@@ -17,7 +17,7 @@ sources:
 | Transcript | [[Episode 9 - The Lunarfold Tournament Part 2]] |
 | Timeline | [[Timeline/Undated/[Event] The Lunarfold Tournament Part 2]] |
 | Prior | [[Session 8 - The Lunarfold Tournament Part 1]] |
-| Next (recording) | [[Episode 10 - Sea of Nightmares]] |
+| Next | [[Session 10 - Sea of Nightmares]] |
 | Raw | `Transcripts/Episode 9 - The Lunarfold Tournament Part 2.txt` |
 
 ## Cast (this episode)

@@ -1,0 +1,4214 @@
+---
+type: transcript
+episode: 24
+title: "The Friendly Baron"
+status: draft
+sources:
+  - "Transcripts/Episode  24 - The Friendly Baron.txt"
+  - "Transcripts/Episode  24 - The Friendly Baron.srt"
+---
+
+# Episode 24 — The Friendly Baron
+
+## Extracted
+
+> Filename has double space: `Episode  24 - The Friendly Baron.txt`
+
+### Summary
+
+- [[Baptiste]] dreams of ring entity **Aegir**.
+- Intercept [[🗡️ Goru Yamashita (formerly Goru Valencruz)|Goru Yamashita]]; Black Hand connection; mansion back channel.
+- **Cashian** Valehart hosts; Roma (human) rampage vs Marines; Bob resuscitates Roma.
+
+### People (links)
+
+| Role | Note |
+|------|------|
+| PCs | [[Malphas]], [[Roma]], [[Baptiste]] |
+| Allies | Goru Yamashita, Cashian, Jefferson |
+| Captive | [[Vorro]] (aboard ship) |
+
+### Open questions
+
+- Zim trial status after Goru/Cashian talk.
+
+---
+
+## Transcript
+
+Episode  24 - The Friendly Baron
+
+all right so according to the cake
+yeah
+we are going with the plan
+so I can begin
+whatever the plan was is there any last minute change
+I don't know there is a plan
+yeah I thought the plan was we can send Roma since he looks like a human with her
+and then you guys were going to meet up later
+but he's got also this guy in his house
+yeah
+to peace
+technically Bob can as well if he like wipes up
+but wipes up what you're going to walk into with an armor man
+but he was never on the island so they won't know who he is
+but he is going to look weird as a zombie walking around with people
+no not not bad the posters were still there
+if he wasn't on the island doesn't matter
+as long as like people know that one of you were on the island
+they're going to be looking out for everyone
+alright Baptiste call it what was the plan
+I'm not sure
+I mean yeah they would have their individual disguises
+Baptiste would have his
+Roma would have had
+he's the noble ship that was coming
+alright so I'm just assuming we're going with that
+okay so for that do you want to wait till nightfall
+or do you want to just go right now
+and just wait until you encounter them
+if you want to remember your film
+or at least you don't know exactly what they were saying
+to leave them
+or leave them
+okay
+let me see
+and then you said okay
+you can just go there and wait for now
+and see if they arrive anytime soon
+let me
+okay so Kate will turn the ship
+toward the direction where Malthus and Zim figured out the passage
+where they would come from
+and you would wait around
+near the open sea to see if any ships are traveling
+toward the island or near it at the earliest
+you're still pretty far away from the island
+and you've already taken down the two warships that were after you
+so there shouldn't be any problem for now
+okay so as you wait
+it just happens to take a while
+you don't really spot anything during the day
+but as you're waiting
+Baptiste can you give me a 1D20 just a plain 1D20
+yeah that's what I'm trying to figure out
+okay
+is that a good thing
+because it's not going to be the bad thing
+it's just going to be like something
+okay as everyone's waiting
+what is everyone doing during this time
+do you want to do something
+or do you just want to pass the time
+oh it's going to be a while
+you don't know right you're waiting
+that's what I'm saying
+I'll probably either be on lookout for the nobleship
+or if something pursuits is like old mario jets
+okay and the meantime you see Lin will be taking like a small lap in a corner
+because he didn't sleep last night
+and he was researching the compound
+that Vorohad
+Cade would just be like waiting around
+and making sure like no one spots
+you guys keeping the ship stable
+and all that
+Bob would what are you doing
+so if we're just waiting
+I'm just going to be cooking
+Bob
+at least next going
+dying
+checking upon my patient after the neurosurgery
+who what
+the tiger he is checking upon the tiger that's all
+okay
+Dragoos would be in his room or whoever's room he was in and then would be in hers
+Baptiste what are you doing in the meantime
+do we have any
+something we could cover up the sale
+because
+you want to cover up the flag
+yeah
+I mean you could take it down it's just a flag
+yeah
+yeah
+I'm looking for
+the normal path where it's like a pancreas yes
+I might be like a real flag
+but this white is very bad
+is it
+is that a key and stuff
+I don't know if Baptiste will take down the flag
+the whole point of piracy is like having that flag and just like
+showing everyone that we are pirates right
+but also Baptiste value secrecy
+yeah but I don't I don't feel like
+if let's say if this was black hands flag
+I don't think so
+I don't think so
+I don't think so
+I think he won't let's like keep the flag
+that's over and I guess he can leave it up
+I don't want to keep the flag so I'm just saying it's
+no no no
+it's just against the characters
+you know
+the sector
+I just be
+I just want to leave it up
+isn't he like a spy
+no but still he's he's part of like a pirate crew
+and there are like some things that you do just don't do on a pirate crew
+I'm
+Baptiste
+and has been watching over bro out this whole time
+and also rest
+okay
+while you wait and wait and wait and wait
+you eventually fall asleep Baptiste
+oh
+oh not again
+not right now
+as the ship rocks back and forth
+you fall into this deep slumber
+and the rhythm of the journey
+is just letting you into sleep
+the next time your eyes open
+you see below you
+the world stretching out
+small fragile cities
+like dozens of them
+just crumbled
+like they were never meant to be there
+mountains just split open
+the oceans just bashing against the rock
+off this island that you are on
+ahead of you through the
+thick smoke
+there's rising flames
+and figures begin to form
+you see five of them
+you don't see a lot of their features
+it's just some silhouettes that you can gather from that distance
+at the center
+stands a man clad in armor
+of golden sapphire
+radiant without shining
+his sword driven into the ground before him
+his hand rests
+calmly on its health
+and set within it a stone
+where tiny grains of golden dust
+just swirls around endlessly
+beside him stents of woman
+still and composed
+a closed third eye
+upon her forehead
+and even without opening it
+you can feel
+that she just sees straight through you
+to his left man descends
+from above landing in an
+uncontrolled
+manner like unnatural black wings folding behind him
+his hair stark white
+his eye is red
+looking
+at you piercing
+daggers through your eye
+further left
+a towering mink with the main
+of a line
+his body marked with ancient tattoos
+and on the other side
+of the woman stands a fisherman
+her form broad
+unmoving her presence
+heavy like crushing depths of the ocean
+they're all small compared
+to what you are
+they look very insignificant
+and yet something you can
+feel is wrong
+for the first time
+you get this feeling
+not you personally
+but whatever
+the moment that you're having right now
+in this dream, whatever you are
+this is the first time
+you feel resistance
+you feel afraid to
+take a step ahead
+the man at the center
+tightens
+his grip on the sword's health
+and the dust
+within the stone
+it's the most difficult
+to see the sword
+that is at the center of the sword
+then he raises the sword's points at you
+and his voice just reaches you
+without even his mouth's opening
+this is the end for you
+Agear
+that is the last word you hear
+before you hear
+a wave crash against
+the ship as you wake up
+what do you call me? Agear?
+yeah
+AEGAR
+oh
+um
+okay
+so
+I'm trying not to
+be too like
+um
+so I don't recognize any of these people
+no no no the way
+the way that they looked
+you can tell that they are not from
+this era
+of people like the way
+they were dressed in everything
+it was very medieval
+like their clothes and everything
+two for you
+when you're into the mix
+when the tattoos
+it would rather be like
+the
+the
+the the
+the Ming that you
+no but that's the different
+that's a different Ming
+this Ming that you saw was
+definitely way bigger
+than the one that you saw in the Ming
+do you recognize the name Agear
+because you have fought him
+multiple times
+is it the main in my head
+yes
+he called himself Agear
+and I think
+Malthus also knows that the ring is called the
+ring of Agear
+um
+all right as you wake up
+uh you see
+out the window
+that the sun has definitely gone down
+uh Malthus can you give me a perception
+sure
+uh
+there's a
+ring
+oh quick
+uh
+okay
+do you
+not have navigators too
+can you roll the navigators too
+instead
+that what I would assume to be like the
+um
+you know periscope through the periscope
+you can see you can add to any of that
+okay
+so about
+maybe
+five to six miles
+in front
+diagonally through the mast
+you see
+a ship
+going towards you
+and you see like the
+sales of the ship
+there's like two sales of the ship
+and on the
+top sale
+you see a black rose
+uh and like some
+thorns around it
+like kind of like a emblem
+and you also see like the
+ship is
+kind of like
+made through a different sort of
+what that your ship is from
+uh
+like made from
+and you definitely feel like this is the
+ship that you're waiting for
+uh
+you know
+you can get ready
+all right
+we're going to knock on the piece door
+we'll do that time in the past
+for a moment
+we're really focused
+shorter so
+uh
+then I'll open the door
+they're here in the ceiling
+it's time to be paired in
+we'll go
+gather
+what else
+we'll walk through the deck
+all right
+uh
+we're going to the kitchen now
+you don't know
+the good because the kitchen just
+you can maybe just call all of them
+on top of the deck
+calling
+or
+or
+but I feel like I don't go to
+room or directly
+it just
+when we come up
+yeah
+as you're like kind of making
+a ruckus around the deck
+Linus wakes up
+and
+oh
+yeah
+what time is
+all right
+some
+what are we doing
+who's going
+to be able to
+sit on top of the ship
+and who is
+staying back
+so
+I'm going to have Linus
+in
+cage
+cage
+cage
+your
+room will be
+making for the ship
+is ready to come in
+and
+we'll give it a moment
+or just
+we had any
+movement
+and I'm going to give her a
+dinner machine
+we ended up finding the dinner machine
+that um
+borough took
+right that was like
+already open the machine
+no it's a different radio one
+but you can tune it
+you'll be looking over
+borough in the time that we're
+going to make sure that he just
+you know
+well
+you are sure you don't need me
+there
+I mean
+I am kind of
+an expert in infiltration
+and
+you know
+anyway
+I will
+stay back
+whatever
+what I'm sure of is that we
+if borough wakes up
+on the ship
+and the cage is very well
+it's not going to be a good
+intake
+I suppose you are correct
+I will
+take
+look at borough
+just keep it
+high out for borough
+I know just ask
+a zim
+if she was
+a little trick
+with us
+if she wasn't
+a little trick
+with us
+if she wasn't
+a zim
+if she was
+a little trick
+if she wasn't
+a little trick
+with us
+if she wasn't
+a little trick
+with us
+if she wasn't
+a little trick
+with us
+if she wasn't
+a little trick
+with us
+if she wasn't
+a little trick
+with us
+anyway
+I'm going on my ship right now
+not a world
+okay
+so
+what?
+it's just like a price
+for you saving me
+so I thought I already did my job
+I told you
+how to infiltrate or
+find the ship
+and by the sounds of it
+we are
+through
+a year. You shut up. She shuts the door and that's it. Okay, so what's the idea? Because if you, if so how are you going to infiltrate the ship?
+How? Because realistically, Bob can swim if he wears like light armor. Um, Malthus can fly over. And the rest can't do.
+Yeah, yeah, Malthus can maybe cry Baptiste. Yeah. Yeah, there's no way I'm getting over there. Um, you can take, try and take the boat. The two had. No, no, no, I said that it was destroyed. No, my.
+Malthus is going to fly me in him up in the air, the, the, the, the, the, the dark. And we are going to win. Well, there's shit for me.
+And take command of it to steer it towards our ship so Roman Bob can board it.
+Okay.
+You know, but it's not going to be easy.
+It's going to be a role.
+Well, see, mouth is carry of me, Kate.
+That's what I'm saying.
+Like he would have to take it.
+It would have to be mouth is encade because neither one of you guys know how to use the ship.
+Seat.
+Get hit.
+But then someone has to take your ship to the.
+If you want to stay here, I think it's better if you just go and, you know, just like take
+care of the ones who are like sailing the ship or like cut the mass or whatever.
+So it's stationary.
+But again, you need, you need the ship intact.
+Just say you know, the ship intact.
+Your ship half, the other ship.
+It's not going to be able to train the local ship either.
+Yeah, if it looks out of swords or attack or something, it's going to be hard to, you
+know, convince people.
+Okay.
+So we'll do.
+I see the mouth is going to fly me in and up.
+Mending in the night and then we'll win on the ship and take out everybody on it.
+Steltly.
+So you go for a sky of a mountain.
+This is mine.
+Well, there's no reason to come to skies.
+I don't think.
+Yeah, there is no reason to, because you are like taking them down.
+Yeah, that's true.
+Also, are there any kind of like chain balls or something like that that like we can fire
+from our ships to take them to their.
+But what we don't have a cannon.
+You don't want to be firing anything after ship that going to cause.
+I just talk to them.
+Bigger question.
+Can we fly the like do we have like a plane white sail like flag like we can change it to
+like the surrender like need help flag like you can try to do that.
+You can do that.
+You can do that.
+No, no, again, we.
+What happened to you?
+Again, don't take down the flag.
+Just cover it with some kind of sex.
+Yeah.
+Yeah.
+Like I doubt they'd hope.
+But that's just it.
+Yeah, what they know what the pirate ship is like we just got the sale, bro.
+Like we just got our flag.
+They might not know what that is.
+We become a pretty notorious.
+Yeah.
+Okay, so just so you know, they will have gotten a warning from the island that you guys are on
+news or around the area.
+Yeah, but we were dead.
+We were just like fucking.
+Grandlight.
+No, no, yeah.
+Also.
+I was just saying you can just cover the flag with like another set of sales or something.
+Do you have a gun?
+No, I don't think I can.
+Is there like little gun big enough that someone could sit on top of the.
+It's a gun man.
+Yeah, again, you will need to repeat.
+We are not.
+The ship itself.
+Yeah, because it needs to remain intact.
+Yeah, so let's just go with you and mouth is doing the invitation.
+The best quarter.
+You just like all of them.
+Hey, can you help us for a second?
+Yeah, you can try doing that.
+It's a good move.
+All right, let's do it.
+You're going to be torn low key and.
+Thorac and roll, huh?
+Okay.
+Get help.
+Get help.
+All right, can you do a basic strength for me?
+Or you can you can change it with this time.
+I'm not sure if you can.
+That's only me.
+Yeah, that's.
+Okay, that's not bad.
+You can lift them.
+All right, that's how do you want to get carried?
+Like a maiden?
+I guess so.
+Yeah, because we went over this last week.
+Yeah, you're not a Pokemon.
+We get it.
+Okay, we get it.
+I'm going to turn you into Pokemon one, two, fully transformed for sure.
+All right.
+Okay, I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+Okay, I'm going to move your tokens in.
+You're in your folds.
+Roma, I'm going to move you here, but just assume you're not here.
+Just assume you're not dead.
+Okay, there you are.
+There you are.
+I'm going to move up the next to you.
+You can see the ship and everything, right?
+That ship is nice.
+It's a fucking royal vessel.
+You should just murder everything.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+It's up to you.
+Roma can pretend to be a.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+You both have a doubt.
+I guess they're going to the future.
+25.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+I'm going to go back to the other map.
+Do a stealth roll.
+Both of you.
+I'll say because you know where everyone is.
+You will have some sort of advantage from viewing angles.
+Is it darkness or dim light?
+It is very dark.
+The only way you can see is because of the lights on the ship.
+Baptiste.
+But you're on him.
+That's the thing.
+I'll take an average.
+I'll take an average.
+That's good enough.
+You should be able to drop in here.
+As you fly down and you land lightly on your feet.
+You can go taking down one of them.
+Attack roll.
+It's going to have to be higher than their health rate.
+Advantage.
+You are stealthed.
+Go ahead.
+What was the thing?
+It's not high enough.
+26 hits.
+10 hits.
+10 hits.
+10 hits.
+10 hits.
+Keep going.
+You immediately just go behind him and knock him out.
+This one's down.
+Second attack.
+Maybe you should do it.
+Yeah, that hurts.
+I need to come and kick somebody.
+No, he's down too.
+Can you give me a perception?
+Yes, but it.
+What's your passive?
+16.
+What's your passive?
+It doesn't matter.
+You both spot a small cylinder here.
+It has a substance going around it.
+It's just stationed there.
+That's what you see.
+It's just a small cylinder.
+Can I do an insight to see if I should pick it up?
+You can do it.
+I learned my lesson about touching things I said in.
+You get closer to it.
+There seems to be a remote receiver.
+Some kind of signal receiver attached to the cylinder at the back.
+Maybe don't touch it.
+I'm not going to touch it.
+Baptiste takes a step.
+Malphist turns around.
+Don't you get the chance to explode?
+Is this the landline?
+I would reach out for it.
+I should have touched it.
+Next group.
+Let's be ready for the next batch of soldiers.
+Prepare to open the door.
+As soon as you open the door, you'll have to make another stealth check.
+Make that.
+Oh, fuck off.
+Is it a normal roll?
+Normal.
+I'm going to open the door.
+I'm going to open the door.
+I'm going to open the door.
+I'm going to open the door.
+I'm going to open the door.
+It's an old door.
+As soon as you open the door,
+you see two gunshots right at your foot.
+As soon as that happens,
+all of the guards turn around.
+One of them goes,
+who's there?
+The guard is there.
+The guard is there.
+The guard is there.
+The guard is there.
+The guard is there.
+Sorry.
+When we've been close enough to hear the gunshot.
+You would be pretty much outside.
+The noise probably would not travel that far.
+I'm going around.
+I assume our ship doesn't have light zones.
+I didn't know if Cade would be slowly trying to get closer.
+Not that close that anyone can spot it.
+You guys can maybe send a signal so everyone can move in.
+Like some kind of shot in the air, like fire or something.
+A flying bird on the sky would probably be a good signal.
+Look at that.
+I think that's the first time I've heard about.
+I think that's the first time I've heard about.
+I think that's the first time I've heard about.
+I think that's the first time I've heard about.
+I think that's the first time I've heard about.
+I think that's the first time I've heard about.
+If they started the combat by attacking someone first, then they would be in surprise.
+But the door was old.
+Or maybe the sniper didn't shoot as soon as you entered and you saw it.
+It's still going past the perception.
+Okay, got lucky.
+I was really hoping the dog would just be lying for one of you.
+Alright, first is the guy over there.
+As soon as he fires the warning shots towards you guys, can you go back to your positions?
+Back to the door.
+What?
+The comment only starts as soon as the...
+No, no, no.
+As soon as you enter, I said it way before.
+Okay, as soon as you enter, the gunshots landed your feet, the guy from the top of the mast yells.
+I think this is it.
+Stop right there before anyone gets hurt.
+Or, you know, I can always...
+I mean, he's waiting for your reply.
+Either you just move in and hit one of them.
+If we got a little help us.
+Sorry.
+Well, I'm just supposed to take care of whoever's on the ship.
+Why are you here?
+Let's hear that first.
+Now that sounds like a threat.
+So I'm just going to shoot.
+He takes out like a rifle.
+Yeah.
+Well,
+Okay, can you do a persuasion for me?
+I'm just trying to make sure you are just here for the sale.
+You are telling the truth?
+We just need to go back to the island on ours.
+Okay, okay.
+He kind of lowers the gun, the rifle that he's taking out.
+He kind of lowers it.
+He looks to the right and he goes...
+Well, it's your call.
+You see the man starts to walk closer to you.
+And...
+He looks at the guards and just points at them and tells them to lure their weapons and everything.
+And he looks at the guy and he goes...
+He was trying to make a move.
+Shoot them.
+Mikey, sit.
+All right, gentlemen.
+Let's hear it.
+Why would you need my sales?
+Because ours are too inconspicuous to return to the island.
+Okay.
+I have a follow-up question.
+Is this you?
+And he takes out like a poster and it is you.
+You guys all this there?
+I'm gonna pose exactly like I am the picture.
+All right, I guess that answers the question.
+I'm not one to judge pirates by their bounties.
+But you, my good men have pissed off some higher ups in the Marines haven't you.
+They pissed the off first to be there.
+Oh, no, no.
+They'll be the track of the Marines in the beginning.
+Behind the man, you see like an old man kind of draped in like these black and like silver lined silk garb as he walks.
+All right, beside him goes my Lord Baron, we shouldn't be trusting these pirates.
+We can just take them out and and them over to the Marines.
+This is our duty as one of the aligning nations of the Marines.
+How about you?
+Let me handle this for now.
+How about you go in?
+Let me talk to them for a while.
+I'll handle this.
+I'll sort this out.
+But my just go.
+He points him to like the door or like the stairway here.
+And the guy starts to leave.
+And he goes, okay.
+Hey, Jack, just keep an eye out for anyone else.
+I'll talk to these gentlemen.
+All right, follow me.
+Now if you would please move off the way.
+He just walks straight past this door.
+And you can follow him in.
+You want to.
+That's where we.
+And you see the how and kind of starts to move back as well as he kind of like pushes against you.
+While he's walking.
+I don't fuck you.
+I was.
+I was only.
+Oh, he went behind.
+I don't know for some reason.
+Okay.
+He pushes you aside.
+The guy kind of sits down on these stairs.
+And he goes, well, sit.
+Let's have a talk.
+He looks at the two guards knocked out.
+I hope you didn't hurt them too bad.
+I would have to answer to that.
+All the crown.
+Good.
+Easy.
+So I like.
+Okay, he kind of fiddles with the like device here that you spotted.
+And he takes out like the remote thing and just picks it and puts it in his like one of the pockets on his coat.
+And he goes, well, I'll see it.
+I'm going to stop a reason that you want to get back to that.
+What what island are you heading to?
+I'm going to go to the same one you're probably going to as the baby suggested.
+So that's how you found out.
+I told them.
+I told them why would you advertise a noble going from their place.
+It's just crazy.
+It's actually insane.
+Anyway.
+Yeah, I am headed there.
+There's apparently there's some execution or hearing that I have to look to.
+Just all I seem to be doing these days.
+Mikey, come here.
+And the dog kind of like sits down as he like starts to like pet the dog.
+That is huge.
+You can handle that.
+Can I tell them close up now with this?
+Wait, what?
+Do you want to do an investigation?
+He called it Mikey.
+You can tell it from like the name.
+I mean, the camera.
+Anyways, what was that thing he just messed up?
+They're referring to the cylinder.
+What?
+The purple cylinder.
+Oh, it's in the center.
+It's between you was actually where you were sitting and he's sitting.
+Oh, this is we kind of got the warning that some pirates might intercept us.
+So I put down some preventative measures.
+You can call them.
+You want to see.
+Why not?
+Okay.
+All right, let me let me move.
+I think you should move a bit behind before I do this.
+He like puts the remote back on and he goes back and he kind of clicks something on the hill of his sword as this cylinder starts to like emerge.
+Some sort of like miss all throughout like the this section of the area just starts to fill with the miss coming out of that cylinder.
+And you see kind of a shape forming out of it.
+It's the kind of wearing like samurai armor and in its hands, there's like some uplaid forming.
+Has it like he puts like a hand in between and you just like see his hand go through in and out of the thing and goes well.
+Oh, there you go.
+This is something my grandfather was working on back in drift road.
+It's not perfect, but yeah.
+You can make two with it.
+And he turns like the cylinder off with like another switch on his health as the miss like starts to like just dissipate.
+Well anyway, yeah, where were we enough of horse play as you were asking the reason the.
+Frame trial, the tournament to overlook is the reason we're asking here.
+You see the person being put on trial. Well, let's just say we have a vested interest that they are not.
+Let's be put to execution.
+Okay, look either way, I don't want to be at this trial.
+The thing is I don't think I have the power that you think I have.
+I can't stop the trial.
+You don't understand.
+But it's recently you can get us on the island.
+Was it a original plan to intercept this ship that he was brought into?
+I don't think he's going to want to put his ship in that line of fire.
+That is correct assumption right.
+Well, no, I don't have a guy.
+That's just a plan.
+Yeah, that's not the same.
+Talk.
+I thought the plan was that we use their ship to return to the island and then wait because.
+Again, there's two ways you can go about it. You can go to the island and stay low.
+Because that's the only place that you can very they won't expect you to be.
+Right.
+If you're in full thread the island and when Drago's comes there, you go somehow rescue him.
+I don't know how that will work.
+Or you can just take a ship and go intercept like the war machines that are taking Drago's back here.
+How many war machines are there? Is it only one?
+It is said you don't know how many war ships are there.
+And especially large fleets.
+Especially large fleet with two captains.
+Yeah, so more than normal.
+Yes.
+So taking one ship to try to infiltrate that probably is the best idea.
+Probably not.
+It's up to you again.
+Rule infiltrate that.
+Okay.
+So you say that to him that you just want to get to the island.
+I noticed.
+See, I have met some pirates that are not as, you know, the normal pirates operate.
+But I don't know any of you.
+I've never heard of any of you.
+So I don't want to put my people at risk, especially when I am on a duty sent to create some sort of treaty between us and the Marines after the last.
+Whatever happened, you know, so I would.
+I am not really certain that this is possible.
+No.
+The thing you do know is that those people are still alive next to us.
+Yes, sure.
+But you did knock them out, right?
+You could have just come to me.
+And we could have discussed this like several people.
+Well, if you just landed on deck, you might have just gone shot like we did before when we opened the door.
+It is a normal thing to shoot at pirates or unknown people onboarding your ship.
+By the way, how the hell did you get up here?
+Don't worry about that.
+I mean, should I be worried you attack me technically?
+I see you aren't harmed.
+If I attack you, you wouldn't know you were.
+Why people me same thing?
+I'm sorry, I just have not introduced myself or my manners.
+My name is Gauriyama Shita and I'm the current unfortunate Baron of the Diffroopt Isle.
+And you are, I presume, Baptiste.
+Black, Dawn, Baptiste.
+Who the hell comes up with this, right?
+Well, my name is probably derived from the fact that I was with Black Hand, but indeed that is me.
+Black Hand.
+Do you know Fenderous Fulfild?
+Of course I do.
+Okay, you know, this makes it much easier.
+I Fenderous and the rest kind of helped me through some troubles back home.
+I don't have a way to connect to him, but if you say that you are affiliated with Black,
+he was.
+His travaux with you.
+Okay, so that settles it.
+I talked to him and maybe we can come to some sort of understanding.
+I like to keep him off slow once to help find that the person where you can to rescue his travaux brother.
+Okay, okay, and this does not sound.
+Great.
+Sorry, what did you say?
+Wasn't that top secret information that only you do about you?
+Did you say you just rescued the person that I'm about to go see the trial for already?
+No, I said the person were trying to rescue you.
+Okay, okay, I'm just making sure what I heard was correct.
+Okay, so, okay, bring your ship around.
+I can talk to travaux and then you can set the things straight.
+I think it's better if you go to where our ship is.
+It's in a more tactile way.
+I wouldn't see.
+I see meeting with a pirate ship with you.
+I wouldn't, but then again, okay, how about this?
+I go to your ship on one of my boats and we keep our ship on in transit because I don't want any of my
+buzzers to see what I'm about to do.
+I'll just say I just went and helped these people with something.
+Jack will be with me, right, Jack?
+I can't hear you.
+The guy at the top screen.
+Hey, look, I'm paying you well.
+The least you can do is protect me.
+That's what you're getting paid for, right?
+He kind of sighs and jumps down the mast, taking the rope.
+And, you know, it's going to be extra, right?
+I'm to think was I was supposed to protect you from getting from point A to point B.
+And now you're putting yourself actively in harm and against people who just said that they're from the black hand parts.
+I don't think it's such a good idea to just go with them without actually knowing who they are.
+It will be fine.
+What's the worst?
+We can handle them, the dog kind of snarls at both of you.
+What is that?
+All right.
+I'm going to get some one to prepare a ship and we can leave.
+How about that?
+This is turning out to be the worst jobs I've ever been at.
+That's saying something.
+He kind of goes up to this guy and he slaps him away and goes, "Hey, Bob, can you prepare a ship for us?"
+Yes, sorry, my lord. Right away.
+You don't need to call me a chorus fine man.
+Of course, my lord.
+He kind of shuffles in and heads out and starts to prepare like a boat.
+While this is happening, he wakes him up. Can you help that guy?
+He goes.
+After a while, the small boat is prepared and you can take him back to the ship.
+That's the plan.
+The dog and this guy is going to come with.
+Let's do it.
+One trip a later.
+20 minutes later.
+Now you're on the ship.
+It's still light.
+I'm just not going to turn it tonight because there's no lights on the ship.
+But just a zoom that there's.
+They're coming towards you.
+I'm going to see them arriving like a boat.
+Hey, Bob.
+Hey, Bob.
+I have my spear ready.
+We got people inbound.
+Come on now.
+Yeah, I have my spear ready.
+You ready?
+No, fuck that. Get that bone ready.
+Come on now.
+Oh, fuck.
+Okay, so do you have your smoke ready?
+I got my smoke ready. You got the bone ready.
+Oh, yeah.
+I hope you run.
+Well, you guys get on the fucking ship.
+Me and Bob are just going to be sitting at like the master.
+The whatever.
+Just fucking blazing both these sort of confident crew we have.
+All right, you arrive near like the ship.
+Like the ship as he kind of like just jump straight up on it from the.
+One of the guards that was traveling with the ship is going to stay back.
+On the ship as the dog also jumps on.
+And the last guy also jumps on.
+He's behind the guy.
+Is he?
+All right, everyone is on the ship.
+You see Roma and Bob just smoking at the top of the deck.
+And.
+I see.
+Yeah, we're just each going to hit pick one and just hit him in the face.
+All right, roll.
+If you're not doing damage, I'm just going to say you just.
+Just get him like it's just like a lot of fuck.
+That's how Rome was going to respond.
+Fuck you had us just waiting here.
+What did you expect was going to happen?
+We are guarding.
+We've been with our job.
+You want some pizza though?
+I'm going to make some pizza.
+I got to tell you that either good.
+We have guest overs.
+So just ask them if they ask them if they want some pizza.
+Just go.
+Are you guys going to compete there?
+We're going to get the pizza.
+We're going to get the pizza.
+Bob, get ready.
+I don't think he would be able to get up here.
+I mean, if Bob carries him up here, then sure.
+Yeah, I'm just going to sit down.
+Let me get it to his room.
+He's not in the best condition right now.
+He needs to rest.
+What happened?
+Welcome to the next house.
+I see.
+He did the portal opening thing again.
+All right.
+Okay.
+So you're going alone or baptism?
+Are you coming with?
+This guy also follows closely by the dog can't fit in the like the corridor.
+So it's going to just stay behind.
+It's just going to be like sad and a crown.
+Okay, Lou needs to make a wisdom save.
+Or he's probably hiding.
+He's probably hiding and hiding in the big battle wolf.
+Lou is kind of sorry.
+Can my favorite to tell you give Lou like advantage on his wisdom save?
+Because he has a big right next to him.
+Why?
+I don't understand why.
+Next to him, he has a big gun.
+The saber tooth would be in the bottom right?
+The below deck near.
+Got him in control.
+He probably like walked around guarding the place.
+Okay.
+So what is the saber tooth?
+What is the saber tooth doing?
+He is guarding the place like guarding the bull and what not.
+Okay.
+So if like Lou gets scared of like the big wolves like the wolf.
+But that's Lou.
+The loose thing right?
+It's not like the dog is intimidating Lou or something.
+He's just scared.
+Yeah.
+Yeah.
+All right.
+So Lou, kind of go in.
+I'm going to make a perception for this guy.
+Oh, for that guy.
+Oh, God.
+That's the perception for that guy.
+And I've been told out.
+I mean, he's gone.
+He doesn't see you.
+So I'm going to.
+Rome was going to use an animal hand to leave the try to pet that dog.
+Give it the good.
+God, that 20.
+I thought you were making pizza.
+Yeah.
+Nobody said that they wanted any.
+Okay.
+You can you can pet the dog.
+You can try to pet the dog.
+You went on him and handling just.
+Yeah.
+If it snarls, I mean, I'll be like, don't worry.
+I got something for you.
+And I'm going to make some pizza.
+Okay.
+There's almost still look like a dog.
+No, I'm.
+I look like you're just the guy.
+It's just a guy.
+God.
+Okay.
+As soon as you like try to come close to it, you see like it's tail.
+It starts to shift as like these spikes come out of it.
+And it's just wife said to you with it still.
+I'm going to pause.
+I'm like, oh, calm down puppy.
+Calm down.
+I got something for you.
+Okay.
+So I guess you're going to make pizza.
+Yep.
+I'm going to go make some treats for the dog and then pizza for everybody else.
+As you're walking past Baptiste, your door, they do spot some blood coming out of that door.
+Okay.
+Look at each other and not might be there.
+Okay.
+Okay.
+Okay.
+I'm going to do something.
+Okay.
+All right.
+Okay.
+This guy looks at Gorilla and he goes, I think we should do what we're here to do and get out
+this boat as soon as we can.
+Why?
+Just just just just just just keep mowing just keep mowing.
+He moves away.
+He gets in the room with you, Baptiste and Drago's is there just sitting and he looks at him and goes,
+is that start of the goal?
+How are you here?
+And Gorilla just starts talking about like why is he here, stuff like that and he looks at you, Baptiste and I guess you weren't lying after all.
+Okay.
+That was the one that she was taking me for, the liar here.
+I'm going to listen to my friend here and I'm going to get off the ship as soon as we can.
+Drago's if you need some medical help, I can take you on my ship and we can get something for you.
+And other than that, I'm going to have to think about it.
+I'm going to have to talk with my advisors because this is a big move.
+What exactly do you need?
+To get on the island.
+How many times do I have to say this?
+I know you want to get on the island, but how do you just want to go through my ship?
+That's it.
+Good.
+Okay, what happens to your ship?
+We have people that are going to be staying on it until we need to pick up.
+We need to move.
+All right.
+So you just want to get on the ship and that's that's my job.
+So get on the island and that's my job, correct?
+After that, we have no affiliation if you say that I helped you on the island.
+I would deny it.
+My people would deny it.
+Everyone here will deny it.
+Do you understand that part?
+Why I have to do that?
+We're always going to be good for our patient.
+So just because your friends, I'm going to extend the favor with some more help.
+We have a long distant family that we know on the island that's where we were going to stay.
+I can arrange some stay for you somewhere in some of their other properties.
+But you have to promise me you won't cause trouble.
+Oh, it's one of the judges.
+I know his name is Cachean.
+We used to play around when we were kids.
+It's not that.
+Oh, you know who they are then.
+Yes, we do.
+It's not sound to work.
+Okay, so our way in is the Backwater Channel to their manner.
+And I am supposed to arrive there in the next two hours.
+Maybe this.
+They would be.
+Yes, just going to have the work.
+Okay, first of all, I need to know a bit more details about whatever happened with Cachean before I take you there because he is a hot headed man.
+And you will not like me betraying him.
+But don't let him know that we're there.
+We'll find our way around once you get a private.
+You need to tell me the details.
+We.
+They have written.
+Roll the car through their house.
+Okay, so that's not that bad.
+Did you heard anyone?
+Not in their house.
+Not in their house is a weird specifier.
+I am starting to get more and more worried about what you guys or have been up to on that island.
+They attacked us first.
+You were driving a car in their house.
+But this is the other point.
+Well, we were tied on time.
+Okay.
+Can you tell me?
+Look, the trial I have to oversee is one of the trials that Cachean's father is the judge for.
+Can you tell me a bit more about this person?
+Look, I'm going to be honest.
+They gave me like a big fucking piece of paper to read.
+I didn't read that.
+Who would read that?
+I'm just here to make appearances and go away.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I'm going to be honest with you.
+I have no idea what you're up to.
+I'm just going to be like,
+Buzz it.
+A man named Jolvin.
+Who?
+Oh, the guy that they're talking about in the papers.
+No, no, no.
+Isn't that a week from now?
+Who was the lady named said?
+It was a lady for sure.
+I'm just going to shut her look with the beast.
+That's what I was going to get cancelled.
+Okay.
+And why is that?
+The mess you wrote the better.
+Starting to get a feeling,
+I should probably know a bit more
+before I walk myself into a dead trap.
+You're going to be walking through a dead trap
+while you're in this business.
+Okay.
+You need to understand something.
+I need to get there
+and talk to my cousin.
+Do you understand that?
+The only way in is that place.
+If I go there and you cause some trouble,
+then that's going to be on my island.
+And I'll have to take care of that.
+I understand that.
+That's the secret passage.
+How did you?
+Oh, because I found it.
+You have a mess with the mess I thought it was.
+It's very just the right place.
+What are we?
+Wait.
+In the passageway, there was two routes of thick.
+Yes.
+One meeting for that in order to be one being killed.
+If you get us to the area,
+you must find us smaller boats
+going inwards so you'll never...
+You must be disembarking to get us on your own.
+You have to be able to story.
+Okay.
+There will be people there.
+Right.
+To welcome us because that's how nobles do things apparently.
+Exactly.
+Don't be too focused on you.
+Don't resist.
+I mean, you can take the gamble,
+but I personally don't believe in gambles.
+Are you sure it's not something that I can talk?
+I'm good friends with passion.
+Talk out.
+How do you think you're going to talk to them out of...
+let's say,
+Zemist right here.
+Next room.
+Jack kind of looks at him and goes...
+Oh, God.
+Well, that's a fucking waste of time and money.
+Oh, my God.
+Okay.
+I just have...
+They would already know that the person in question is...
+not there, correct?
+So he would not survive.
+Okay.
+Let me have a word with passion.
+Do you have...
+linked to factual things that this person apparently did?
+Do you have the facts?
+Do you have her here?
+Look at this head.
+Next room.
+Perfect.
+I'll open the door.
+Yeah.
+Zemist, get out of here.
+As you open the door,
+she kind of stumbles in because, of course, she was listening.
+I need...
+Here she is.
+Oh, my God.
+I should not have trusted you.
+Hello, Your Majesty.
+This is the criminal that you were going to visit
+and to see the trials for.
+And the guy just like,
+"Size."
+All right.
+You can come with me.
+And I'm going to have a chat with Cachean.
+And you can tell your facts to Cachean.
+And then we can take it from there.
+I'm not that dumb about that.
+Just trust me.
+If you can trust me with this,
+you can trust Cachean with this.
+I know him.
+Okay.
+It's going to be fine.
+I probably wouldn't have eyes for really, really, really.
+They didn't look like he was in the very...
+I don't know if you have...
+If Trayvall's trust him, I think it's a bad shit.
+Well, it's not really a matter of whether...
+Trayvall's trust him.
+I'll look at him.
+And then I'll let him see...
+What's the deal with it, Rod?
+What the hell we're here anyway?
+He knows I'm here, right?
+Why not give this a try?
+All right.
+I'm just hiding to the deck then.
+And I'll take care of this.
+Can I talk to Trayvall's in private for a bit before we leave to our ship?
+Sure.
+All right.
+Jack, you can also leave.
+It's fine.
+The guy leaves and he follows you to the top deck mouth.
+He goes, "So, how many more Marines do you have on the ship?"
+There's none of your concern.
+Okay, just the one.
+Okay, great.
+He just walks away and takes like a dendin mushi and starts to call someone.
+While Trayvall's and Goro are having conversation, Linus would get out of that room and come up.
+He clearly heard people on board and he goes to Melphos.
+So, this went way better than I thought it would.
+I thought you were going to kill him.
+That's the one way to solve this problem.
+Voro's knocked out of trying a bunch of my drugs and he seems to be sleeping just fine.
+What's the dog of blood on the doors?
+Oh, I don't know.
+It was there before I went into that tea's room.
+Hey, honestly, I cut the fingers, I stitched them up.
+I did not make him bleed that much and I don't know what happens to his balls.
+I am not that kind of man.
+It was Roma.
+Oh, fuck, six.
+Oh, all right.
+Okay, Roma, right about that time you kind of bring in the pizzas and everything.
+It's all right.
+Come on now.
+This guy kind of turns around and he sees this man and he points his fingers at him and he pulls out one of his pistols and just shoots at Linus.
+Come on, come on, come on, come down, come down.
+Linus, like phases straight through it, the bullet will hit Bob.
+What he intentionally tried to suburb his.
+Yes, yes, he did.
+Bob, what are you doing?
+18 will not hit him.
+Yeah.
+No, I'm going to say like it just chinks, chinks, chinks off the armor.
+You turned around and you look at him.
+You want some balls, you want to get high, they chill out, man.
+What the hell are you doing over here?
+He looks at Linus and just says that.
+Oh, you're that kid.
+Okay, calm down.
+It was only a job.
+Nothing personal.
+Time out, time out.
+Hold on, hold on.
+Before we continue, who the fuck wants pizza?
+I'll take some.
+You shut the fuck up.
+You shut your mouth.
+You listen here.
+You eat this shit.
+I made it for y'all.
+It's delicious.
+And then y'all talk.
+I'm going to go feed your dog some snacks.
+He looks hungry.
+Is that okay?
+What's your dog's name?
+It's not my fucking dog.
+I'll go away.
+Okay, we'll go.
+There's a dog on our deck.
+I don't know his fucking name.
+Go away.
+How the hell do you make him go away?
+He looks at you, Melters.
+Tell him to eat it.
+No, I'm not going to lower the gun.
+We have a score to settle and I'm going to settle it right now.
+Hey, Linus just looks at you and he just shrugs.
+No, no, no.
+Can I go find Lou?
+Yeah, you can go find Lou.
+Yeah, I'm leaving this situation to give out the void.
+Okay.
+Anyone stopping this, anyone doing anything?
+No, this is going to let it happen.
+Why don't we talk about this?
+What the fuck are you shooting at for without anything?
+Just...
+He's vid you then.
+Okay, yeah, he's the dog.
+Goddamn it.
+And the guy that I'm protecting is currently allied to you,
+so I can't do anything.
+He holds her at his gun and just walks off.
+He tries to den in Mushi again, whatever he was doing.
+I know, he stole his toys.
+I don't know.
+Anyway, Roma, yeah, the food.
+Of course, I'll take some.
+All right, soon after a couple minutes later,
+Goro gets out
+and he goes,
+"Well, I heard...
+"Why Dravel's is here, so..."
+Oh, God.
+See, this is what happens when you owe too many favors.
+Okay.
+I'm going to probably regret this, but
+I will try to help you with saving
+Joven and Calibose.
+Long as I am not found out like who I am
+and everything's going to be fine.
+Mikey, you don't have to worry about
+that.
+I'll have to talk to him.
+Maybe a bit more at least.
+Some of the problems.
+Anyway, I'm going to take them with me on this boat
+and you guys can move your ship closer to mine
+and just get off.
+The boat can only hold lake for five people.
+We won't get off.
+I'm going to go play with the dog.
+I think you should stay clear of him.
+He doesn't look like strangers.
+Don't feed them.
+What are they made of?
+It's 100% vegan meat.
+It's a dog.
+What would it want to vegan meat?
+What the hell even is not?
+What are the hell is the vegan meat?
+Vegan meat.
+It's going to be like a black bean,
+sort of thing.
+Yeah, I don't think he's going to like it.
+Just forget about it.
+He's going to come with me.
+I'm going to go to the boat and get my dog.
+No, stay away from my dog.
+You carrying Lulu in your arm?
+Yeah, I'm carrying Lulu.
+I want to slowly approach other dogs just to get exposure to their feet.
+The other dog looks at Lulu and does not really have any...
+Anything to do, but he just comes close and snips the dog.
+He turns around and starts walking.
+Like he says, "My cake."
+Is this milk safe?
+Can you make another wisdom safe?
+Is it just his no-one of wisdom savers that every nutty...
+No, it's just a dog.
+He taps Jack on the shoulder and goes, "Well, let's go."
+You know, this was not our deal, right?
+I'm not getting involved in it.
+We can talk about it on the ship.
+Let's just go.
+And they get on the boat and they start leaving.
+And Zim looks over to about teeth and she goes, "I swear to God, if I die again, I'm gonna...
+I don't know what I'm gonna do."
+Well, I almost died.
+Then I...
+Oh, well.
+It doesn't look that great.
+She jumps on their ship as they start to roll away.
+And why is she going with them on the robot when they're coming?
+She needed her side of things, so he's just gonna talk it over.
+Yeah, I mean, you need to follow them, basically.
+Yeah.
+Oh, and for gate.
+Is that full of narrow roads?
+Okay.
+So, we're not keeping our distance anymore?
+No, just follow this.
+He runs to...
+And, looks to the port and takes out the anchor, he runs back, starts to move the ship as
+he instructs Bob and Roma to let the mast go.
+The ship turns, you start to move toward the other ship.
+He will call the other ship and tell them to, like, lower down the lanterns and whatever
+they have on there.
+So, they're not seen with you guys.
+And that's it.
+All right.
+So, I'm gonna say, like, 10-20 minutes later, what is the plan?
+Is he going... who's going on the ship who's staying behind?
+It's the same people, so pain and blindness.
+Cade, Drago's, Linus, and Vorov will stay back.
+Okay.
+That's someone I was wanting to stay by, but...
+You're taking Looner, probably not.
+You're gonna take your, say, to Tiger Bob?
+Probably not.
+Okay.
+Just so you know, I don't want to hear any of this bullshit about, I can just summon it.
+Okay?
+If you're not taking it, then you don't have it.
+Okay.
+Yes.
+Yes.
+Where are you going?
+On the other ship.
+With one of the whistles I got.
+So, that way, like...
+It can't swim.
+It's going to be in the water, because our ship can't go near the island.
+So, I think that's the only...
+I would say that you can get off the ship and go to the island,
+then you can maybe take the saber to the ship.
+But, just making sure, there's no actual magic in this world.
+Well, there is, but you know, not this kind.
+Just take the saber Bob.
+Hmm, now, right, I guess.
+But, you know, if this one dies as well, you're going to get me.
+Then, just leave it.
+Don't want it to die.
+I can't just make things appear.
+You know, if you kill something, then that's your fault.
+Yeah.
+Okay, I'll take it.
+It's better than not having it, yeah.
+No, go.
+So, as you, like, try to board the saber to on the ship,
+the guy turns around and goes, "What the hell is that?"
+Hey, buddy, give him a high five, and my saber to, like, get his paws off.
+Okay, you can't just make him do any.
+It's still a saber to take care of, man.
+I actually can, because it's like controlled.
+Oh, my God.
+It follows every, you're every command.
+I understand that, man.
+But it's still like, it's not going to work in the world.
+It doesn't make sense.
+I know it's magic, but.
+Yeah, to flavor that, didn't we say that, you know,
+had that whole new or surgery thing is like controlled by Bob,
+that whole cyber thing.
+But then just say, you know, it gets a ball or something.
+What is this high five, which is the product of your product?
+He's just following his every command.
+Okay, okay, so it's going to walk on two legs now.
+Is that it?
+No.
+You don't have to walk on two legs to give a high five.
+You can walk on three legs.
+I understand, but it doesn't understand what a high five is.
+Does it?
+Anyway, I'm just, I'm just in that picking.
+Yeah.
+So it just like puts out his pilot.
+I don't want whatever to stick him.
+Don't just make sure he doesn't eat anyone.
+Sure, no promises though, but sure.
+No, no, what do you mean no promise?
+Get the fuck off.
+Get him off.
+Okay, all of you will board.
+Linus will stay over.
+Lou is still going to stay for a while.
+Just the party then.
+Is the party.
+Zim is there.
+Do you want to send Zim back to your ship?
+Or do you want to keep her?
+Yeah, they're probably done talking.
+We need to send Zim to speak to Clashroom.
+Yeah, he's going to do that now.
+So we, once we do that, then we can decide on what to do next.
+Right?
+Okay.
+So you're on the other boat.
+He's having some like heated conversation in one of the inner chambers of the ship with his
+viseurs and he gets out, he smacks the door and goes, "Can I make me go crazy?"
+All right.
+So I have the contact with Cation and I have not told them anything.
+Let me talk to him first.
+And then you guys can decide in the meantime how you want to present this.
+The lady here has told me everything and by the sounds of it, she is guilty of infiltrating the Marine base.
+But I don't think it's worth killing her, you know, execution style.
+And I'm also guessing you don't want any prison time, yes.
+Yes, okay.
+I'm going to take the silent as a yes and, okay, and then Cation is a good liar.
+You can sort things out unless he decides to not do his usual thing and just decides to say, you know, handle it yourself.
+Which can go either way.
+Okay, he's going to talk to Cation and tell him everything and I'm going to roll a 1D20 and see where this goes.
+All right, that's not great.
+What's the persuasion at plus persuasion and not great.
+So, he did max. He turns around, he looks at you guys and goes, will I have good news and bad news.
+What's the bad one?
+The bad news is that he doesn't want to take the case.
+So, doing it the legal way is out of the way.
+So, I think it's best if the lady here goes back to your ship and stays there.
+The good news is he is letting you on the island and going to harbor you as long as you need until, you know, you can leave.
+So, whatever. I have made my point clear that I want to help Draivos and I will. And I've talked to Jack and he is willing to come as long as the doctor on your ship does not come with.
+Is that fine?
+And you see him here.
+Okay, great. So, it's going to be just the four of you, the fucking saber tooth and that's it then.
+He kind of like bows and signals them to get off to the other ship and she jumps on the other ship kind of stumbling.
+She looks back and she looks at you, but he goes, well, try not to die.
+I told you to not call me that. And she's going to storm off.
+You know, the guy looks at you, but he's the other guy.
+She really does not seem to be like calling, getting called magistates. Maybe you should stop.
+What?
+Where are you?
+Go, go, go.
+Just go.
+Okay.
+All right, then, we can sail to the island and hopefully cash and doesn't shoot you in the head. Let's go.
+Two hours later.
+I'm going to say two hours past and fortunately you haven't gotten into a scuffle.
+So you're all at good HP.
+All right.
+The ship turns around, the ship that you and the other guys are on turns around gets in the back channel through the blasted upon essentially stairway.
+The boards come down for go to land and you see cash and waiting at the bottom alone.
+No guards, nothing. Just him.
+I've never seen cash in a person. So he doesn't know. Yes, but you see, I read the long way.
+Yeah, let me bring.
+The only one that saw him.
+Yeah, and Roma, the Roma is kind of different now.
+Yeah, Roma saw him in the.
+Yeah, because he keeps bragging about it.
+Hey, remember that one time.
+Okay, go to kind of walks in front and just like shakes hands with him and he looks at all of you.
+He spots Roma and I saw you.
+What do you mean you saw me?
+Won't you the one who bought me my lunch?
+Did he recognize him?
+I'm human form.
+Oh, yeah, yeah, yeah. Now my sorry, sorry, sorry. I forgot. I forgot he was human.
+I said, okay, I'm going to do an inside just to see if he recognizes.
+Oh, he failed that.
+Yes, no clue.
+Okay, on first look, he's not really like looking for it, but on first look, he can't tell that if it's wrong or not.
+It looks at everyone. He spots you and Bob Baptiste and goes.
+And both of you had a good time running around my mansion into.
+I don't know if they can hear you, but it's definitely robotic.
+Yeah, it's very.
+No, it's perfect.
+Yeah, no, it's better.
+Anywho?
+I don't know if you're really running around.
+I'm the damage you cause on my mansion has been problematic to explain to my father.
+Anyhow, I've told the gods to stay away from now.
+And the mansion has been cleared.
+You can stay over for a bit.
+A week you said you needed gora.
+You have it.
+I'm more than that, and I'm going to tell the Marines that you are here.
+You understand.
+All right.
+I'm just going to point towards the signal that leads into the islands.
+You don't need to concern yourself with that.
+I mean, you don't tell me.
+I just go find out myself.
+All right.
+All of you follow in.
+You see like the house is like completely like the stairway that you ran from.
+All the walls are like scratched off inside the house.
+You see the broken doors that you ran through.
+And just like just made him across the board like a tire tracks through the floor.
+And like a school schedule marks on the wall that you like crashed into.
+And the house just seems to be like.
+Completely.
+You really need to keep your mouth shut.
+He goes.
+All right.
+All the upper rooms are empty.
+Gora will stay on the bottom floor with me.
+You can take up the upper rooms.
+Reconfin once Jefferson has a meal prepared.
+Goro if you will follow me.
+Jefferson the main butler.
+Oh shit.
+He takes a go into like a room on the lower level.
+And you guys can do whatever I guess.
+Jack and the wolf also will follow them.
+All right.
+You have gotten onto the island safely.
+And I don't know what you are.
+What the next steps are.
+You may do week I guess.
+I'm not going to go out of the bathroom.
+Go.
+Come on guys.
+Let's go.
+We need to stay low.
+Well, let's get the fuck out of here.
+No.
+Let's get out of this goddamn house.
+Okay.
+You want to find out where the channel leads.
+Okay.
+You can go down.
+But how will you go through the channel?
+Okay.
+Don't fuck off.
+I mean it's up to me.
+I guess I'll go along.
+It is still like a tunnel.
+If there's more like a lot of open space at all.
+There's not a lot of open space.
+It's just a tunnel going further into the.
+How guess I'll try to find out as long as I want to.
+Okay.
+Just so you know.
+You know he made he was on the island and he somehow made it back here without ever encountering you.
+Who?
+Caching.
+He was in Lexington.
+Oh yes.
+I go.
+Oh, I get it.
+I thought like the context clues were very clear.
+Like how he got there when I showed like made him appear there.
+But you can go and check it out.
+That's all you're going to find.
+You see just the back channel leading underground.
+You don't know if it's underground or not.
+But this tunnel essentially goes like underground through the passing the bridge up top.
+And towards the one of the like the lower dogs of Lexin period with the inner dogs taken by the judges and whatever.
+And you come back and maybe like two or three hours.
+In the meantime, what is everyone doing?
+You will have like a big.
+As in this major.
+And the.
+We're staying in the mansion where.
+Yeah.
+Where I will pretend to be a cook.
+Yes.
+I just want to make sure everybody knows this right?
+Like.
+Yeah.
+For you.
+Again, none of the workers are here except for the butler.
+The main butler.
+None of the workers are here.
+None of the people who usually stayed at the mansion are here.
+He sent them away.
+On the top floor.
+You see the main hall where all the like the workers used to stay.
+So there's like a bunch of beds and workstations for each of them.
+And it's a bit like a big, big room on the top floor on the second floor.
+And that is the room that you all are in.
+But what I'm saying though is I've talked to the butler.
+The main butler.
+Yes.
+Yes.
+I'm saying let's get the fuck out of here and go hide hide in the woods.
+Like.
+No.
+Fine.
+This is the best option we have right now.
+Then then going to hide in the woods.
+Yeah.
+Yes.
+Going to the island where I could shape shift back to who I am at any point.
+Well, at least for a while.
+I mean, it wouldn't be no good matter.
+Even if they found out who you are, what would it matter?
+We know the place to the church now from here on out on the shortest routes.
+Because we did it this spot before.
+Yeah, there aren't like there's like big mansions and open areas.
+There's nothing else. No, no, no, woods or anything.
+It's just a road leading.
+Reading state.
+The church.
+Right about the fact that me and Melkiss.
+I drove.
+Well, the stuff that you did.
+Yes, but you can go into city because you are guy now.
+Yeah, we don't know how long.
+Yeah, you don't know how far.
+That's not something Roma will care about.
+Yeah.
+100 percent correct.
+All right, fuck it.
+I'm sleeping.
+Okay.
+You're sitting.
+You're sitting.
+You're sitting.
+All right.
+Nice.
+Let's go.
+Okay.
+Okay.
+Reconnaissance.
+Roma and who just Roma along.
+Yeah, because he doesn't look like his post.
+He's just.
+He just.
+No, but they still post a barber.
+There are posters of Bob.
+Oh, yeah, never mind.
+Bob can disguise himself.
+He can't take the fucking.
+Just Roma.
+Okay.
+Roma will go.
+Bob, what are you doing?
+Prison right.
+Yeah.
+Roma, if for some reason you manage back into Lexa,
+I'm going to be.
+I don't know what I'm going to think.
+Mm-hmm.
+Bob.
+Bob.
+Bob.
+Bob.
+Bob.
+Oh, my.
+Wow.
+Yeah, I'm going to stay back.
+Because like, why do you go into the city and it is guys?
+Everyone's been looking at you.
+Okay.
+Roma wouldn't listen because Bob, he said so.
+He.
+Roma, you go to the front door.
+You see Jefferson.
+Kind of station and he's trying to clean up.
+Everything like that has been wrong.
+And he looks at you and goes.
+All right, sir.
+Where are you headed now?
+I'm going to go into town.
+I've got to get some supplies.
+Do you know where the nearest like shop is?
+He kind of looks at you up and down and goes.
+Quite the physique.
+If you don't mind me saying.
+Have you met before?
+I don't think so.
+What's your name is?
+My name's Jefferson Talley.
+Butler for this house.
+Wayleheart.
+Jefferson, you say.
+Yes.
+Jefferson.
+Did you always want to be a butler?
+Yes, I have been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+I've been part of the way the heart family for.
+the street. You're you're you're above the right. So, you don't make food. Correct.
+My bufler stu T's to do whatever's needed. So, I do.
+To serve. No, I do everything. Well, when I get back, will you you whip me up a good meal?
+Sure. I am preparing meal for supper and by the time you come back, I will be ready.
+So, one last question. This is going to be the final question.
+Yes. You guys got a brothel.
+Not talk about such matters here. Oh, so you guys got royal household.
+Well, then step outside with me real quick. I do not wish to continue this conversation with you.
+My good sir. Oh, and he takes you. You got a bar. Do you got a bar? I'm trying to be able to find some near the market.
+Okay, perfect. See you. Good riddance. He turns around.
+What has my master gotten in? What?
+I asked myself that question.
+All right, Roma, you last opened the door as you walked straight through.
+And you see like the broken metal gates that baptized and
+walked through when they drove the car and as you walk in, walk straight through the grounds,
+you see the door, you get out of it. No guards, nothing. Just complete darkness in the night.
+You're just walking by. By the way, you've also lost your dark side. So it's pretty dark.
+But you don't care. It's just like a normal day to you. You just walking straight to crossroads.
+Nothing out of sort appears on the crossroads. You do see a bunch of blood and you see like
+what happened here.
+And that's pretty much it. Like a abandoned carriage in the middle. No horses or nothing attached to it.
+And just a bunch of blood lying around at two spots, mainly. And you see like a bunch of
+those plattered around all throughout like the crossroads. But nothing off that much lake.
+No, nothing, no one seems to be there. You okay. So this is a big point. You are on the crossroads.
+What direction are you going to take? Left or right?
+But I have remembered. I don't know. That's what I'm asking. No, no, no.
+Jefferson just told you which direction you should go. I'm asking. Do you know which direction?
+Okay. Hold on. Actually, no, I'm going to 50 50 this shit. Yeah, yeah, yeah. That's going to be more fun.
+How do I how do I fit just roll 1d2? No, I'll put that 1d4. Odds are. Oh, even. Okay, yeah, I'm going left.
+Okay. You turn left. You remember he said left and you turn left.
+You start walking straight through. You see a bunch of Marines walk past you.
+I'm going to be like, hey, hey, Pippin, hold up, hold up. Hey, officer, what question for you?
+Yes. Hey, where's where's the nearest bar at? I'm trying to let my whistle.
+Well, there are some criminals right now. It's been a prison ring. I don't know if you've heard
+or not, we tried to make the announcements to every place we can get to. So the bars and everything
+are pretty much closed. The taverns are shut down. So, you know, no one causes too much trouble.
+But if you're looking for one, you might be able to find one in the town market near
+that way. He just points you in that direction. Okay, okay. And you said something about a prison break.
+Yeah, yeah, it was the weirdest thing. Someone just like opened all the central doors.
+That all the prisoners have. It's not funny, man.
+Okay, I'm going to keep going.
+You take care of yourself and you keep walking.
+Okay, Robock, can you give me a perception?
+Yes.
+Your fur is coming back.
+17. Okay.
+Roma, you feel someone's presence following you.
+Oh, hold on. Hold on. I can use something. This.
+Oh, did you see how it's being like somebody's watching me?
+Danger sense. Okay.
+I don't dodge away from the images. You have the kind of extra information.
+Just traps and spells. You can run for the kind of drawing definitely casted.
+Oh, you just have this advantage and they save second. That's fine.
+So whoever's following you, are you going to keep going?
+Just going to keep going.
+Oh, 100%.
+Okay.
+But if I can sense them, I'm going to be like trying to pay attention like.
+Okay, you keep walking.
+The presence keeps following you and right before like you see like the lights coming
+from the market and you see like the silhouette of like a big church
+near the like some far distance away.
+You like see a bunch of people just jump out from like the corner of your eye.
+And they have been waiting to ambush someone.
+There's like two people.
+One from behind, one from in front and they just take like these little like makeshift
+knives out of like broken wood or whatever and they just point at it and it goes.
+Oi, you dare.
+Got some balion. Yeah.
+Oh, I got belly on me. I'm waiting for that.
+I mean money.
+Don't mess.
+Oh, you shut your mouth now.
+There's two of you.
+How about?
+How about I'll give you five minutes.
+You're going to get a couple more.
+Okay.
+You don't see these pointy things.
+They go in and make the blood splurred out.
+Do you understand the situation you're in, boy?
+Oh, I understand.
+Holy well, what's going on?
+I understand.
+Holy well.
+But do you understand who I is?
+Huh?
+You're the fool.
+Gonna get robbed right now.
+So you think can I just have one of the dudes?
+Yeah, go ahead.
+For like, that's just what's melee?
+What's melee attack?
+Is it just strength?
+Melee?
+Non melee?
+Just doing an attack.
+I don't have it on me.
+No, what's the attack role?
+Yeah, just do any attack.
+Yeah, for hitting is the same.
+Just roll your skillet or whatever.
+Yeah, and then just
+and the damage would be one plus your strength modifier.
+Yeah.
+Or no, I think it's just strength modifier in most cases.
+Only most are the one that have,
+no, only most have the one that have a die.
+This may not expect.
+No, no, I think it's one plus, like, based one plus
+modifier thing.
+Let me check.
+Melee damage.
+Wait, let me just just drag and drop the fucking punch man.
+I'm earned.
+27.
+I don't know why you guys
+not have it, but you want.
+I'm going to drag an on strike
+in your thing and just use that then.
+Okay, there you go.
+On your sheet.
+This should be an option for a round shake.
+Yeah, it is plus six.
+Okay, 27 will hit.
+It's going to be four damage.
+Yeah, it shows four damage.
+So it's one plus whatever is modifiers.
+So four plus six will be 10 damage.
+I don't know.
+It's just four.
+It says it right there.
+On your sheet.
+Okay, four damage.
+So you just had but the guy.
+I'm going to make a strength save for him.
+Yeah, he's just going to fall right back.
+As he falls prone, the other guy will just try to stab you behind.
+You're back.
+I'm going to use my second attack
+to swing my pan and crack the other dude.
+Okay, swing your pan.
+Do the attack.
+That will hit.
+25, I think you roll the same one.
+Do the damage.
+Okay, this guy you straight up killed.
+He did.
+So the other dude that I knocked down.
+Yeah, he's going to just try to run.
+I'll be like, no, you don't.
+I'm going to try to grab his ass before he fucking.
+Okay, yeah, make a strength check just for a grapple.
+Normal strength.
+Straight.
+Why is why we're there we go.
+And let me click sit there.
+19.
+Okay, you grab him.
+As soon as you grab him, this couple has made some noise.
+So you see a bunch of lights coming toward you guys.
+And you see one of the Marines just runs up and he goes, what is this about?
+They they try to rob me.
+They try to rob me and I had it to fit myself.
+He turns around and he looks at the other guy who's like knocked down on the floor,
+just like blood, let's like spraying out of his head.
+As guys dead.
+Let me take a look.
+He takes out like a small notebook and he looks at like the guy lying down and he looks at that picture.
+He goes, yeah, that's him.
+All right.
+One less to worry about and you.
+He turns around the notebook and sees him.
+Yeah, that's him.
+All right.
+What the hell is this name?
+Who shank?
+Is that you?
+I look at it.
+No, that's not me.
+Not a wrong person.
+You all look the same.
+Edward Edward.
+That you.
+Yeah, that's me.
+He looks at you.
+Well, the job citizen, he will take over from here.
+I'm going to hand them.
+Hold on.
+Hold on.
+Give me one second.
+Sir, you tried to rob my ass.
+What were your plans?
+Well, take it.
+Rob, you ain't got out of this island.
+You don't get out of the island.
+Well, yeah, I'm fine.
+I'm going to work on the way.
+I'm going to look to see if there's any other guards.
+Is it just the just the one or is it just the two?
+There's like two Marines right?
+And there's nobody else like it's an empty street.
+Yeah, there seems to be anyone else.
+Guards, what are you, what's your plans with this man?
+Obviously, he's weak as hell.
+Like they tried to jump me.
+It's 2v1 situation here and he's weak.
+Like what's your plans with him?
+Well,
+we're supposed to take all the criminals back to the cells.
+What else?
+But he's worthless.
+He's worthless to you.
+Right.
+Do you mind if I-
+No, I'm just a Marines duty to opel justice and this person is there
+to pay for his crimes.
+So he will be coming with us.
+That is quite enough. You've done your job.
+Just hand him over to me.
+I still got him like gravel to me, right?
+Yeah, yeah, yeah.
+I'm a I'm a whisper so the other guys can't hear me.
+I'll be like listen to
+if I take care of these guys you owe me one, right?
+What the fuck?
+Right?
+Oh, yeah, yeah, yeah, yeah, yeah, of course, of course, just just take them down if you
+kind of move his tongue on his lips.
+I'm just gonna let you know you screw me.
+I will kill you.
+All right, so I'm gonna pretend to like start to give it, give him to the dude
+and then I'm gonna try to knock out the guards.
+All right, do a slide off.
+Yeah, do a slide off hand.
+Okay, bro, will you hear your back?
+No, because I have a plate.
+I've been thinking this.
+I've been thinking this.
+All right, did you?
+Yes, no, no, no, go ahead.
+Go ahead.
+Hey, hey, no one interferes.
+He feel like bug teams are gonna curse him out.
+Yeah, yeah.
+Oh, 100%.
+He doesn't care.
+Just see, invasion of us just feasibly judging you.
+So hard.
+Slide of hand, slide of hand.
+Hey, I have pretty good decks.
+Yeah, yeah, yeah, but it's good to go.
+Okay, as you try to take a swing at him, like not him, like knowing,
+can you make a role for the attack?
+Yeah.
+Yeah.
+Huh.
+Huh.
+Huh.
+See, 17 does cross the threshold.
+You still hit him, but the other Marine does see you, like,
+trying to attack.
+So he will get ready for two.
+Step back and shoot.
+So he, you hit him, do the damage.
+The first Marine that was in front of you.
+16, that will knock him out.
+Do you want to kill him or knock him out?
+No, I just want to knock him out.
+Okay, you hit the pan right in his head.
+He falls down.
+The other Marine will take a point to you and he will shoot.
+Okay.
+I don't know what the fuck.
+1D8.
+Sorry, 2D8.
+Plus.
+And then on top of that, it's going to be, oh, holy shit, that's max rolls.
+On top of that, it's going to be another,
+2D, max of 2D8, so 16, 16 plus 17.
+Oh, sorry.
+33, it takes 33 damage, Roma, because it shoots right through your neck.
+And it's going to be...
+Right through my neck.
+Yes.
+Critical hit.
+You take the damage, but your own feel like you're dying or something.
+All right.
+Next one.
+Okay.
+This guard since he did that.
+I'm going to recklessly swing twice.
+I'm going to kill this guard.
+Okay.
+Oh, the did manage.
+So.
+19, 28.
+That's a credit.
+Yeah.
+Roll, uh, roll whatever your head dies normally and then roll it.
+And then you don't need to roll actually.
+Uh, so this is the normal roll, right?
+Yeah.
+This is because I think it's 2D8 plus 3 plus 3 plus 2D6.
+Isn't the normal?
+I think it rolled credit.
+I did.
+I rolled credit.
+Yeah, I hit roll credit.
+Anyway, this will kill him anyway.
+It doesn't matter.
+Um, how do you want to kill him?
+I'm just going to fucking pull out,
+paying to the chest.
+Be like, you son of a bitch.
+As you just smacks,
+freighting his chest, the ribs,
+conflying out.
+He just flats on the ground on his back and you just keep smacking.
+And the other guy that you let go,
+he just looks at it and goes, oh my god, he's crazy.
+I'm going to be a huge smacking board again.
+I'm going to tell that dude who I, who I spared.
+I'm going to put that other guy's armor on right now.
+You hear me?
+He's just going to run.
+That's, I'm going to take my javelin and just fucking kill him then.
+Okay.
+You are running out of the javelin.
+Then did you change it because I think you should throw like a lot.
+Yeah, but then I went back and picked him up.
+Oh yeah, yeah, yeah, yeah, you did, you did.
+You did stock up by the, the,
+drift through, don't know what,
+decibel in random thing.
+Okay, that's fine.
+Night.
+It will head.
+I told you don't fuck with me.
+That's just sex.
+It's not going to kill him.
+It just one of the javelins just embeds in his leg as he starts to
+still like kind of run away.
+But even with the damage I did earlier, with the headbutt.
+Yeah, no, no.
+But he is like, he's like stumbling, he's like bleeding through his
+like, he's trying to still run away.
+Then I'm a, I'm going to throw another one at his ass.
+I mean, you can just chase him down.
+And how the fuck if he's that close to hell, yeah, let's go.
+Yeah.
+All right, what are you doing then?
+Just chasing him and,
+and then yeah, just chasing him, I'm going to fuck him down.
+I want me to take the javelin out his leg and just poke him again with it.
+Okay.
+Do you want to kill him?
+Yes, I told him if he fucks me.
+13 real ahead, he has no armor.
+I was like, if he fucks me, I'm going to kill him.
+I told him that.
+Yeah, as the, you take out the javelin, just stab him right through his chest.
+I told you, I told you not to fuck with me because I will kill you.
+I remember this while you're in purgatory.
+He dies.
+And how close will my to that broken down cart?
+We're pretty far away because that's where you met, like, you have to go all the way back.
+Okay.
+Like, it's basically halfway from here to there.
+To the mansion essentially.
+I'm halfway between from you currently.
+I'm going to frame it like the two guards died while fighting these two dudes that I just killed.
+Okay, can you roll and then pledge in for me?
+I had, I had this whole plan that this dude was going to side with me because I saved him.
+But then he killed it.
+One of the fucking Marines right from the brutally.
+Exactly. So I didn't think he was going to work the fuck as intelligence.
+There's intimidation, investigation.
+No, intelligence is the normal one.
+Oh my god.
+Oh no.
+So basically you align them in a way like one by one all of the bodies side by side.
+And you're like, that's a good job.
+And thank you moving.
+I did my middle of the road.
+I'm going to clean myself up and I'm going to keep a
+like you tie like a like a cloth around your neck just to like stop the bleeding or whatever and you keep moving.
+And while I'm walking I'm going to eat my little
+yeah, yeah, kill yourself.
+Just click on Gurmont and I think I'm going to show up.
+Have these bills of disturbance in the forest.
+All right, while this is happening, what is happening back at the house?
+Okay, I'm going to give you four training books.
+Why is it?
+I should be able to do it.
+Yeah, you can click it again.
+Okay.
+You have to roll the die.
+I think.
+Jesus Christ.
+Oh my god.
+So one.
+Okay, five HP.
+All right, Jefferson probably dropped off the books in your room.
+Anyone else?
+Want to do anything?
+In the meantime, that mouth is would be arriving back and you will be telling everyone like what?
+The actual channel led to.
+Yeah.
+Looks like we have our way in when they do get hidden.
+Let's probably be expected.
+Drop a.
+Expect us to come through.
+Like, guess.
+All right.
+Do we just wait a week now?
+Not a week.
+I said like two, three days later, I think.
+Yeah, but I think we just wait for that time.
+Yeah, but in the meantime, do you want like what's the actual plan?
+I don't I still have no idea.
+All right.
+So you can get as much information as you can use the central mom for that.
+I suppose.
+Yeah, but who?
+Maybe.
+What the fuck do we know?
+Obviously, I'm killing guards.
+You just heard that.
+That hurt.
+Causing more problems.
+Well, they didn't tell me what to do.
+They just said.
+To be fair.
+That is true.
+I would hope that you have like some sort of communication with him right on.
+It's something in motion or something.
+I think Roma has been emotional.
+Yeah, yeah.
+I had one.
+Yeah.
+Okay.
+So what are you guys doing?
+Then just waiting for Roma to come back?
+No, just mainly having, having making plans.
+Okay.
+I think we should go.
+Okay.
+So,
+number wise,
+we probably don't have the numbers to try to
+do a full bond assault to try to
+say, you know, dramas.
+Growing.
+So we need
+drove in.
+So we need something that
+every time you say the wrong one,
+I'm going to take off the fucking levels.
+Oh, yeah.
+Oh,
+where'd you go?
+I guess so.
+We're all out.
+We're more times.
+Unfortunately, they're not going to be in the story for that long.
+You know, but you guys are permanent.
+You're not going to be traveling with them all the time, right?
+That's what I mean.
+No, I thought you were about to kill them both.
+They just died.
+Yeah, yeah.
+Okay, go ahead.
+Sorry, sorry.
+I think we either
+do.
+We need a distraction.
+I feel.
+Maybe the best option is to just be your
+intercept the transport.
+You know, you didn't have a distraction back on the ship.
+The person that escaped.
+No, world.
+You can.
+That sounds like a bad idea waiting happened.
+Oh, yeah, an exchange.
+That also sounds like a bad idea.
+I'm just telling you right now,
+exchange is not a possibility.
+Yeah, these Marines are not to be trusted.
+We can instant transport or we can just
+at the execution sites for another church again.
+What's going to be easier attacking the ship or
+he's on it or waiting until they move him on the island?
+Yeah, well, we can't.
+Attacking the ship as they get into town, that's that's it.
+Because they like multiple more vessels.
+Well, you have to get them from next
+ability to this idea, right?
+Yeah, happy cross the bridge.
+Sorry, that is attacking the transport.
+Right around, right around this time you hear knock at the door.
+Passion will hurt.
+You need to have a word with you.
+Okay, he.
+He just says like, I need to have a word with you.
+Open the door.
+Do you want him to let him, you want to let him in?
+Or do you want to just talk at the door?
+I'm just hurting the door.
+Well, can I come inside my own house?
+Do you need to ask?
+You know, it's just like steps aside.
+You might not be aware of this, but you do have manners.
+He just walks in and he sits down at like a chair in the center,
+like folds his leg, furls his coat and goes.
+All right, so I don't want to get my cousin killed, so let's hear your plan.
+We're actually coming up with that right now.
+Great, I can stop you before you try to kill yourself.
+Well then.
+Well, we need to
+intercept the transport at some point before he gets the execution site.
+Whether that be while they're still in the ship or whether when they reach the island,
+that's what we're trying to decide.
+All right, so
+it's unfortunately I have seen my fascia of executions.
+Usually what happens is they take the prisoner from Leximperia
+through the bridge with a checkpoint.
+At every checkpoint they make sure the prisoners
+there.
+Once they pass through all the checkpoints, they get to no sold and execute.
+The sad prisoner.
+This case is especially different because instead of a single escort,
+they will be escorted by three warships as far as I've heard.
+So as he's being transported through the bridge, the two vessels that are guarding the main vessel
+would be flanking the bridge to make sure nothing goes on at the bridge.
+Once he gets through that checkpoint though, the ship will have less visibility.
+Do with that what you will.
+I just came up with an idea but it through quarters.
+Use that each checkpoint they check to make sure the prisoner is still there.
+Yes.
+And there is
+how he checkpoints again.
+The first checkpoint is at the docks of Leximperia.
+That is most likely where the prisoner will be
+unbordered essentially. They then take them to the lower bracement prison.
+Keep them there for a while.
+They essentially clear out the basement and move all the prisoners to another location
+because they don't want this high profile individual with any other prisoners.
+Once they do that, which at this point is pretty easy because the cells are empty.
+Once they do that, they will process the prisoner on the day of.
+So the second checkpoint would be out of Leximperia.
+Then third checkpoint would be at the bridge after they cross the bridge.
+And the fourth checkpoint will be when at the cathedral.
+How long would you say it takes from the third checkpoint to the cathedral?
+The process is very thorough and specific.
+Everyone has to check whether it is being fast tracked pretty much
+at the fastest pace it can.
+And I suppose it will take more than 30 or 40 minutes.
+I believe we either to
+a strike at the first checkpoint, so when he's in the cell
+or we go hope that a certain someone has recovered by the time he gets to the bridge
+so he can transport us in at the final point.
+And where is that certain someone?
+Currently on our ship.
+But
+Okay.
+So I'm guessing it's a devil fruit user.
+Regardless, I find it hard to believe you will get anywhere near that bridge.
+The two warships will be taking the flanks on that bridge that will make sure everything is secure.
+No vessels are around to pass during that time.
+Prison breaking is then.
+I would suggest
+the last incident, the guards and the Marines have taken much priority in securing the prison
+more than anything else.
+Lexi Imperia at this point is
+unbroken.
+Even re my father is not allowed to go through the bad channels.
+If that's what you were hoping for.
+So our best shall this little time we have from the tour to the
+the city of overlands, the transfer to the most lands.
+You can't try to ambush the vehicle during that time, but the escape needs to be quick.
+How many of you can swim?
+Gates.
+I'm.
+Gates I'm bomb guided.
+One.
+It looks at everyone.
+No sense.
+I don't know what's so special about these devils.
+So far you've got nothing.
+Can I hold a little bit for a few seconds?
+What if we send liners to get our wits?
+Uh, travals.
+Then liners get them inside and javals get them out.
+Well, we don't know if javals were covered enough.
+True.
+But maybe if you can do short distances,
+I can release like a bit out of sight.
+And we'll just stand on standby just in case anything happens.
+And to get them far away.
+You have forest car.
+We can be the distraction.
+They can be the actual infiltration.
+I think it's best to be here for now.
+But we need to be.
+You mind letting me know that plan?
+We're going to be here for a few seconds.
+Then do we leave one of us in?
+Or
+you know, then the other
+might just have to take the risk.
+You guys.
+Liners said he don't dump them up enough to where he's locked out.
+So hopefully it just lasts long enough.
+Maybe we'll ask him to make sure of it.
+If not, I can stay behind.
+It is my mess after all.
+Or you're the one that needs to be called the big distraction
+because you're the one that captured him.
+Okay.
+Baptists, do you have the mirror then in mushy on you?
+Oh, fuck.
+They know exactly what's going to happen.
+Okay.
+Great.
+Great.
+Okay.
+Mirror then then mushy will start to rank.
+If this does ring, I want to ask cash and to leave.
+Right.
+I want to hear the whole plan at Sapa.
+You understand me.
+Mount is going to tell them what we're saying.
+All right.
+I'll go there and tell the plan right now.
+Okay.
+So he's going to leave the room.
+And you take the call, I presume?
+Yep.
+Okay.
+At first, you hear nothing.
+It's Trey.
+Trey.
+Trey.
+Trey.
+What?
+In the hell where you thinking?
+It's Mirror's voice.
+I want to hear the case in Mirror.
+Each and every bone in your body, boy, you think you can just do these things without any authorization.
+And to hear this from one of our enemies, kind of sort of at this point,
+that does not reflect very well on me, Baptiste.
+In the peace.
+Yeah.
+Someone from the other family has told me that you have some marine or your ship.
+What the hell?
+Sorry, I'm dealing with the marine, but he hasn't been going that well.
+Don't get me.
+If you do not try to distract me,
+what the fuck are you doing with the world on the ship?
+You either kill him or let him go.
+Those are the only two options.
+So we do not keep marines on our ships.
+Killing a marine is a different thing.
+You've already done it.
+Apparently.
+I am.
+I am. It is that simple, Baptiste.
+It is not just you.
+You're putting in danger.
+It is.
+You are putting every one of us in danger.
+If the marines find out that you have him on board, they will come after all of us, not just you.
+Maybe you can take them.
+I can take them.
+But all of the other squads, they're out there in the open.
+Where is he right now?
+I'm lying. This is watching over.
+Oh my god.
+I told you time and time again.
+Do not get involved with the six folds.
+I told you this before.
+I told you this again.
+This is the third time I'm telling you this.
+You traveled with the six folds.
+I was like, it's fine.
+Fine. They will stay there for a while and leave.
+They left and now again.
+What the hell is up with you and these people?
+Okay.
+I have no time for this.
+It was funny when I did this shit.
+But I started to realize it's not as funny on the side that I'm on.
+Shut up. Don't try to change the subject.
+Where is Voro?
+Is he with you?
+Yes.
+Is he with you?
+He is not currently with me.
+Whoever he's with, drop him off.
+Drop him off.
+Get rid of him.
+That's all I want.
+He shouldn't be anywhere near you.
+Do you understand me?
+That's all I need you to say.
+You understand me?
+You hear like a loud thud on the other side.
+Lad, I need you to say you understand me.
+What are you doing?
+I'm just okay.
+Okay.
+Okay.
+So, what are you going to do?
+And I need this done now.
+I'm not going to wait another fucking week for you to figure out your shit.
+You understand?
+Now, get rid of him.
+You can't be done now because of...
+Well, oh my god.
+I'm sure I'm going to get a lot more complicated.
+Okay.
+So I'm assuming you're still going to rescue Drowman,
+which is, you know, not against it.
+But if you go there, get yourself killed.
+It's not going to help any of them.
+Not Drowman, not us,
+not your crew members.
+You understand that, right?
+So, let's hear it.
+What's your plan?
+We know they have checkpoints that they're...
+Every checkpoint they go through there,
+making sure that he's still there.
+The final checkpoint is right before they give the cathedral.
+It gives us some limited window, but
+we're hoping that with Drowman's
+travosses of the D,
+he can get minus N,
+in minus he can get them all out
+before they reach the cathedral.
+Meanwhile, the rest of us will have other members
+acting as a distraction.
+A two-faltable tech, if you will.
+What a warrior.
+You're just speaking about how to deal with him.
+Okay.
+If your plan does not depend on warrior,
+get rid of him now.
+Do you understand me?
+I don't want any more eyes on us
+than they already are.
+Okay?
+Once that goddamn marine is done with the funeral,
+he's going to come after us.
+You understand, right?
+Once Horus is after us, we can only run.
+There I have a question.
+You know what?
+I'm done with this.
+I have to get
+this shit under control.
+You talk to Thompson.
+Okay?
+He's going to figure this out.
+I'm too confused.
+If you have any questions,
+Tamir, you can say them right now
+before she hands over the.
+If we were to
+the notes probably good
+that we were part of
+Blackhands crew name only.
+Will that take keep off of you?
+Oh, everyone else?
+You lost your mind.
+You know what?
+You know what you want.
+She just turns off the dead.
+Oh.
+Trey?
+No, it's just off.
+It's just off.
+She just cuts it.
+I hate my mouth.
+All right, mouth as you come back
+into the room and
+Bobby heard all of that.
+So you bought with the room?
+Yeah.
+Okay.
+So what did Bob go?
+I didn't really like Bob was in the room.
+Um.
+I see gave me an order.
+Which was?
+Did it win a borrow?
+Where you're not going to do that, are you?
+I don't know.
+It's.
+She said the entire crew can be in danger.
+Even the smaller ones.
+But I feel that they are.
+Even if.
+We do get rid of him.
+They'll still be in danger.
+And she said to herself we can protect ourselves,
+but they can't.
+It's.
+It's not just you guys just soon.
+I was mirror, mirror has different
+squads.
+But that can also add like independent squads working outside.
+Yeah, no.
+It's.
+The.
+It might be best to get you lost
+the fairs with him in order before you get villains.
+For.
+For safety of everyone's.
+See that's a thing.
+No one's really safe.
+Even if we do.
+You're a bit of him.
+Okay, so thing is you want to get.
+Yeah, you want to get Linus and Dravo's here.
+Then who's going to look after Borough?
+That's the main issue, right?
+Yeah.
+Like, Malfa is just.
+He is.
+Taking a bomb waiting to go off.
+And I think you know those.
+All right.
+Let's go back to the ship before.
+All right.
+That's not that's a ship.
+Get the Bob's going to stay back.
+I don't know what Bob's doing.
+Bob, what are you doing?
+Eating dinner.
+Okay, he's eating dinner.
+So he's just going to stay.
+Yeah, he's just going to stay over and have his supper
+like he's supposed to.
+And you guys can go back.
+Let's switch to Roma and see what he's been doing.
+All right, Roma.
+What's up?
+Bob, I don't think there's any fighting.
+It's going to happen or anything.
+So if you want to leave, if you're like out of your time,
+then you can be.
+I think, man, I am just eating dinner and getting ready to sleep.
+So I guess I'll go.
+Yeah, yeah.
+I'll fill you in if anything changes.
+But you know, okay.
+Roma.
+I'm here.
+Yeah, yeah.
+Like what are you doing?
+Well, I was 10 told to go to town.
+And yeah, I'm going to go to town.
+Okay.
+You get away from the crime scene essentially and you get into the market.
+The market seems like very quiet.
+You do see some of the shops kind of open because the Marines have been like
+taking rounds and maybe looking into some supply and stuff like that.
+But most of the shops have been closed.
+What do you want to look for?
+I have no idea what I'm supposed to be looking for.
+I mean, you're out on a boat.
+You do whatever.
+Someone walk up and be like, Hey, is there a bar around the bar open?
+He's going to, he signals you.
+He signals you closer as if to like kind of whisper to you.
+What up?
+Right.
+Looking for some action.
+I
+No, I got action.
+I'm looking to get drunk.
+Or if you got a brothel, I'm looking to get, you know.
+Yeah, yeah, I get it.
+I get it.
+So Marines have been quite clear about the situation.
+So everything out here is shut down.
+But if you come with me, I'm gonna, I can't get you to the black market.
+And there you should be able to drink.
+Fuck.
+I do whatever you want.
+How does that sound?
+What's your name?
+What's your name?
+My name's Luca.
+Luca, you say.
+Yeah, yeah.
+You're my type of people.
+Let's get going.
+Don't get too much attention.
+You look at in trouble.
+I'm just looking for a place where I can, you know,
+lay my head down and, you know,
+yeah, yeah, yeah, yeah.
+Of course, I'm a little sticky.
+All right.
+Coming down this back alleyway.
+He uh, starts walking into this like alley.
+Are you following?
+Yep.
+Okay.
+He starts to lead you into like these like small,
+like alleys through like the some houses and whatever.
+And you keep going, keep going.
+And outside as soon as you like leave the stark alley,
+you see like the complete area is just like,
+lit with lights.
+And you see like drunk Marines kind of like stumbling through the main roads.
+And you see like these red lanterns everywhere,
+placed everywhere.
+And you see like a bunch of women standing on the balconies of these like buildings,
+just like waving to different people walking down the alley.
+Where and stuff like that.
+Yeah.
+Welcome.
+Welcome to the black market of nootold.
+People get hanged here.
+But these ladies will hang you and you'll like it.
+Oh, you're talking my language.
+How many can I have?
+I don't know, man.
+I don't run the brothels here.
+You're here.
+All I ask for some bellies to get some meat.
+How much you looking for?
+10,000 people do.
+10,000 no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+If I'm giving you 10,000 bellies, then you and me and three of the finest chicks
+are going to hit a room and we're going to enjoy some fun time.
+We're getting sticky, my friend, for 10,000 bellies.
+I'm not into men.
+Oh, you don't have to. That's why we're getting three females.
+I'd rather do it alone, my friend.
+I do not want to be in your presence while I...
+Yes.
+Yeah, you probably right.
+I'm probably going to give very animal lipstick if you know what I'm saying.
+Yeah, you look very viral. So about that 10,000 bellies now.
+All right, I'll take you to the best brothel.
+He takes you to this big kind of made up set as a palace,
+but it's not really. You can see the cardboard and everything.
+A piece is there and you see the loose news, the name plastered on top.
+Loosen to the best of establishment there is.
+You can head in there and have your fun.
+Okay. Okay.
+All right. Why is there cardboard?
+It's ain't no real brothel.
+It is real brothel. It's just, you know, it's just decoration.
+They tried to fuck this ain't gonna work.
+I'm gonna bust through this cardboard quicker than shit.
+I don't know. It's just decoration. The house is actually built with, you know, what the house is
+built for. Okay, okay. Well, follow me in. Let's have a beer.
+All right. Try it. Okay.
+Okay. He walks in with you and he like signals some of the ladies to get some thing to drink
+and like a shot or something and they get you to like a table and he sits with you as well.
+A friend, what do you think? She'll call the...
+Who's the head, Pimp? Who's the head, Pimp?
+She should be around here somewhere. Let me see if I can.
+How that, you know.
+Oi. Yeah, Oi. Yeah, yeah.
+You see like this old woman kind of walks up to you?
+Oh, well, you have there, sunny.
+Madam, I gave this partner 10,000 bellies.
+What's going to get me two of your finest ladies in a cask of alcohol? How much is that done,
+girls? Well, this is a fine establishment. The best there is in no soul. So, for you, lad,
+you look like a newcomer. I will give you a special discount and you tell your friends to stop
+by from time to time, yeah. I'd say do you want the top of the line or are you achieved?
+Well, on the top of the line in jelly car will cost you 200,000 bellies for one night.
+And that's with the alcohol. Oh, that's everything included.
+Oh, now how much to throw in one of your cheap ones? I want the top of the line and a cheap one.
+How much? You know, if you book a jelly car, you will have any amount.
+And jelly car doesn't like to have more than one dog. So, you don't have to leave
+her room to have that fun.
+I just want to make sure. I just want to make sure I'm here in this greek.
+If I book in joke, I could have another lady join us.
+No, no, no, no, no, no, no, and jelly car would have you have fun with you, which he will give
+you full service. But after that, you can have anyone you want.
+Okay, I'm just going to let you know. What do you mean by full service?
+Because I've been out to see for many many a days.
+Yelling sailors won't is all we do here.
+Perfect.
+Okay, let's do this. I'm going to give you a drink.
+200,000. I got 300,000. So let's go.
+Yeah, so give 10,000 to that guy. So that leaves you with. Oh, you already did.
+Okay. Yeah, 310,000. So then I go. There we go.
+Right. You hand over like this water of cash to the sole lady and she goes.
+And jelly cars on the top floor, you're a special guest. I will tell one of the
+one of the girls to take you to. And you boy, you brought, brought in someone good this time.
+Come, come on the house for you. She takes the other one to a different girl and she hands him
+over to her. And one of the other girls comes walks up to you and she goes, oh, did you book in
+jelly car? Oh, she's top of the line, you know. Yeah, yeah, we all respect her very much.
+So, um, do you like to have your fund in there?
+Oh, I'm hoping to tie her up and do some things.
+Oh, nice, nice. Well, book me sometime too.
+And name's Jingle.
+Jingle, I'm ready to mingle.
+Well, you can just book me by my name anytime. And she like points you to the room as she like
+takes her leave. Have fun. Don't get too bruised up.
+Oh, don't worry about me. I'm all, I'm all having a piece of fun. All right.
+Okay, you walk in and you just like immediately like this whiff of like just scent and perfume,
+like these sweet honey cherry blossoms melts like mix in to your senses as you step in to the room.
+And you just see like this giant like bed with flowers and everything decorated in the middle.
+Yep.
+All right, Angelica, I heard your mind for the night.
+Uh, through the curtain, you see like a silhouette of her body as she's walking through and she
+speaks to you and she goes, oh, do we have a new guest in our loose news?
+Yes, you do.
+All right, you guessed what should I call you?
+Oh, I'm so glad talking Bob is not here for this.
+I'll be orboros.
+Mr. Orboros.
+What brings you in to our establishment today?
+I'm trying to unload a package if you know what I'm saying.
+I'm trying to relax, get drunk with you, have have a good night with you, but I am going to leave you exhausted.
+Oh, I hope you are.
+She is like still like walking through the curtain, you see her silhouette moving back and forth
+and she tells you there should be some
+um, cuffs around do you see toes?
+I don't.
+Uh, they're on the like bed, there's like two cuffs.
+So how big is this woman?
+I need to know.
+This from the shadows, she doesn't look that big.
+Like probably around the same height as them or something.
+Okay.
+So I am going to go over to her.
+And and I'm just going to grab her and carry her to the bed.
+Okay, as you walk towards her, she goes, uh-uh-uh, not so fast.
+I do not like do things that way.
+You paid top dollar for me and I'm going to give you the full service that you deserve.
+Yeah, but Orbo just doesn't get tied up. I'm the animal.
+No, no, no, I'm not asking you to tie up.
+I'm asking you to put the cuffs on me.
+She like puts her hand in front, uh, from like the curtains and she asks you to make.
+Oh shit. Oh, you can't.
+Yeah, let's do this.
+I'm going one bottle swoop just snap the cuffs on her, grab the arm and just start licking.
+Oh, come on.
+Okay.
+So she goes, that tickles.
+Now just wait for me on the bed.
+So we get ready for you.
+Yeah.
+The scene in Bruce Almighty when he just fucking magically just rips the clothes off like.
+Yeah.
+That's what you don't see like that.
+You don't be like you just gonna see Robo just.
+And then just jump on the bed.
+Yeah.
+As you jump on the bed, you see like this beautiful woman come out of the curtains.
+And like this is the like the most beautiful like a human you've seen.
+Uh, it has Roma been like doing this a while.
+Has been has even to like more.
+Uh, brothels without this.
+Oh, but like this one is like out of this world.
+She doesn't even look real.
+As she starts to come closer and closer and closer to you.
+Um, okay.
+You see out of like as soon as she like opens the curtains,
+you see the full moon.
+Peering down at you.
+Roma, can you make me?
+What's them saying?
+Please.
+Oh, but I am going to mall this woman.
+Oh, we will see what we laughing.
+I love this.
+Come on.
+Oh, they're team.
+Okay, that's not good enough.
+Uh, you don't have a lot of good wisdom.
+Uh, okay, Roma, you see your hair on your body starts to grow back.
+And no starts to change.
+Your mouth starts to like get stretched out.
+Your claw starts to form.
+Uh, Roma, I will need you to make a lot of saves now.
+Okay.
+Uh, no, there's no, there's no.
+This is this is this is this.
+No, this is technically the first time you're transforming on a full moon.
+Oh, no.
+Yeah, I thought that was when I, uh,
+no, no, no, no, that wasn't the full moon.
+That that was the shot.
+Yeah, that's nowhere near.
+What did it happen?
+Okay, you're going to just let it happen.
+Oh,
+okay.
+I'm going to tell this woman.
+So once I start seeing the hair, I'm going to be like, um, you might want to leave.
+I got myself.
+No, no, again, you will lose control as soon as you see the moon.
+Oh, let's say less.
+Yeah.
+Oh, well, then fucking, I'm howling like a father fucking.
+So as you start to transform before this lady,
+you just turn into this from this human to list this, like beast that you just break through
+the bed.
+And at this point, your body is like so huge.
+You're breaking through the roof of this building.
+As you transform completely into the beast, you just shove the, uh,
+woman's aside as you just run through the balcony that was open towards the moon.
+And you just straight jump outside.
+Roma, you need to play a wild beast right now.
+Anything that comes to your, yeah,
+anything that you see in front of you,
+just think like a out of control so long, essentially.
+Oh, I'm sorry.
+Oh, I'm fucking shit up again.
+I'm talking air-definite fucking how the minute I get full fucking,
+like most of the transformation is complete.
+Like I am fucking shit up.
+Okay.
+So you are out into like the red light districts of this island.
+The howl is so loud that it can be heard from there to the mansion.
+That's east.
+You hear the howl.
+That's what I, what is your first move?
+What are you doing?
+Whatever closest next to me, I'm swiping at it like with my claws.
+Be it human, be it table, be it building.
+I don't give a fuck.
+Okay, you just jump from one on top of the like the tallest building and just howled.
+So right now you're just on top.
+Whatever you see in front of you
+would be like just like people walking left and right and they just see you
+and just starting to just bolt.
+You know, first person I'm seeing, I'm leaping at.
+I'm leaping fucking climbed.
+I'm not going to make you any like roles or anything you don't need to and do any of that.
+Anything you touch right now will just get instant be marked.
+So first person you see just slashes great out.
+Just like scratches all over his body.
+Just face completely ripped out on the ground.
+What's next?
+Was there somebody with him?
+No, no, again, everyone's running away.
+So you just, I'm just assuming what is happening right now is you how you just land.
+Just like this burst of just dust cloud and you're just ripping through one by one.
+Everything you see just smashing them into like buildings and again like scratching on like the buildings
+and it's everything that you see just destroying, ripping them apart, clawing, biting your way through.
+Soon as you like make your way through the district, you get back into the area that you came from
+which is like the main market area.
+But here it will be Marines.
+Every Marine would be like hearing like all the chaos that is happening and they will be like
+coming here to see what is happening.
+Okay, let me see.
+Oh yeah, it's like it's poster.
+Yeah.
+Okay, so what's happening?
+Baptiste and Malthus, I'm going to go to their POV right now.
+So we're probably on our way back to the tips when we hear that.
+Yeah, so you are not here, the only person that would hear it.
+No, I mean, I said this because this is when you were starting to leave.
+Oh, okay.
+Yeah, you hear it.
+Fuck.
+Hmm, Baptiste and Malthus.
+I wasn't saying anything.
+Is it the same?
+Do I recognize the howl from before?
+Uh, can you make a...
+Can you give us a transform?
+Can you make an insight?
+Both of us hurt our howl, right?
+Because you said I heard it too.
+Yes, yes.
+It's a very loud howl.
+Everyone would hear it.
+Maybe not everyone would think it's a problem.
+Yeah, yeah, you definitely recognize Baptiste that it's rumours howl.
+And you see the moon too, right?
+Yeah.
+Oh, God.
+Just one thing couldn't get any worse.
+Oh, you sent him outside, man.
+Well, we didn't know what the moon was.
+I mean, yeah, the full moon only appears like
+when the clouds clear up right.
+We didn't know what was right now.
+Baptiste was just tired and rumours like,
+yeah, just wanted to get rid of it.
+All right, what's the...
+You can go head back to the ship and leave everything to rumours.
+Yeah, but I'm not gonna go around.
+Well, I can't really get to him as fast as I usually sit because I don't have my wings.
+But...
+I can't sight you go.
+So...
+All right, you can draw my attention just saying.
+We're like, we are so far away from where you actually are.
+We just heard it.
+Yes.
+There's no way for us to draw your attention from where we are.
+Yeah.
+We'll have to get there.
+Um...
+Please?
+Do it for all get ruined down.
+I'll show you the moon in this state.
+Well, you can't reach me if I'm up in the air.
+And I'm sure the moon is worth it.
+Nice to meet you when I transform.
+Yeah.
+Make it quick.
+Well, that's what I'm saying.
+All right.
+Har, Roma.
+Oh, well, I guess that we're going out of like the canal like at the rocky area again at the
+fucking cave entrance.
+Not to the main entrance.
+Not to the main entrance.
+Yeah.
+Yeah.
+Oh, fucking go up.
+Lighting was striking.
+And I'll just zoom over to where the fuck Roma is.
+Okay.
+For the sake of like time, I'm going to say you talk to
+Guru.
+He gives you like a small boat.
+So, Baptiste, you can get back to your ship.
+But now, now he has to, he has to take you in the royal ship.
+Otherwise, he won't, the people won't let you in.
+You know what?
+He gives you permission to take the ship and to your ship.
+So, you take the main ship and go back to your ship.
+And the meantime, Malthus, Roma, you are surrounded by around like 10 to 20 Marines.
+Can you give me just like a natural weapons like three or four times?
+I'll just take an average here.
+Roma.
+Probably just like hiding the effort before going ahead.
+Right.
+To see what happens.
+17.
+22.
+Roll more.
+18.
+One more.
+I am murking these fucking dudes.
+Do you have a lecturer on your sheet?
+I do.
+So, just roll a lecturer.
+It's just damage.
+It is just straight damage, right?
+Nothing else.
+Yeah, it's poor.
+Okay.
+So, every head will have four.
+Can you roll just like one damage for me?
+Oh, yeah.
+Just normal?
+Five.
+For the...
+For the national country?
+10 plus 14 electoral.
+So, be 14 total.
+No, not 14, I'm four.
+Yeah.
+So, okay, yeah.
+So, 10 plus four.
+So, 14 will take out like each and every one of the Marines.
+So, I'm just saying like as you show up and land in like the middle of the marketplace,
+instead in front of the cathedral, all of these Marines like come up and surround you.
+One by one, you just go take their guns, take them out and just smash them with their own guns,
+claw them, grab like one of them and just tear them apart.
+You're just going through each one one by one.
+Malthus, you're seeing this from above.
+And soon enough, you see like around like 10 to 20 Marines just like dead.
+The center of the marketplace.
+And just going to zap Roma a bit to grab his attention.
+Okay, rolled for damage.
+You will take...
+What is this example?
+I know.
+This will miss.
+I'm immune to electricity.
+I don't think you're immune.
+I think you're...
+Let me check.
+I think you're resistant.
+It would be really weird if you were immune and I'm not.
+Or I have resistance.
+Whatever.
+It doesn't hit you anyway.
+But it will...
+Yeah, it does cause your attention to Roma.
+It's up to you now.
+What are you doing?
+He's flying above.
+So, yeah, you got...
+I just got merged by...
+You have 45, so you can just like leap straight in the air around like 35 feet.
+Oh no, let's see.
+Like, so I just merged all those dudes and just got struck by lightning.
+So I'm going to fucking hell in rage.
+Okay, rage.
+And then I am going to recklessly use my claws like to jump up at them.
+You know what I'm saying?
+How high are you, Alphas?
+Well, I have a speed of fucking 80, so maybe I'm 60.
+Okay.
+You're around 60. Roma, you will try to like jump.
+But essentially, you just like throw your claws in the air and just go straight down.
+You're going to take...
+We just die of Roma, but I have jumping.
+I mean, he's a wild beast.
+It's just like whatever, you know.
+Why is your HP 50, 44 only?
+Your base HP is 44?
+I have no idea.
+That's...
+I don't know.
+Oh my god.
+I don't think we updated this one to level 5, do we?
+Yeah, it's just level 4, damn it.
+Okay, it's fine.
+What do I do?
+What do I do?
+What do we do?
+I'll just add like 10 HP to whatever your HP goes.
+10.
+Right.
+I'm going to remove 0 and then I'm going to do 40.
+All right.
+Okay.
+So, I didn't get him at all and we're still in town correctly.
+Yes.
+So for my second attack, I'm going to take whatever I can and fucking just throw it at him.
+Like being a trash can, be it...
+Yeah, you like take like this fall on like a barrel and just chuck it at him.
+Just do any ranged attack, javelin or whatever.
+And I think in provides damages 1d4, right?
+He wouldn't have proficiency with improvise weapons, right?
+So it's not in...
+Oh yeah, yeah, yeah.
+Ah...
+So it's okay.
+I guess the plus 2 is just the 5 or plus 4?
+So 15 plus 4.
+It's 19, we'll still hit, but...
+Yeah, yeah.
+19 hits.
+Improvised weapon damage is...
+Oh, I forget.
+Check.
+Well, well, anyway, I'll just just swallow it away with the fucking firearm.
+Deflag missile, right?
+Improvised damage.
+Got one more.
+Yeah, you can strike it away.
+Yes.
+Okay.
+It's your turn.
+I'm just a goldfish.
+Yeah, shout out to him.
+Roma, I'll say goldmills.
+I can't, bro.
+Wow, they're in a war.
+All right.
+You know what?
+Fuck it.
+Well, you want some?
+Come get me.
+And I'm a zoofing.
+Okay.
+I'm going to the beach.
+You're going to the beach.
+I have a plan.
+All right.
+So you're just flying away.
+Roma, it's up to you if you want.
+Grabbing is a tension to maybe, like,
+come with me.
+Yeah, okay.
+That's what I'm...
+That's what I'm saying.
+You better just follow me.
+Yeah.
+Well, yeah.
+If you know it, like, you should probably be agitated
+because you're fucking caught.
+It needs an end.
+Oh, that's why, like, along the way.
+If you're just running, I'm going to try to be throwing shit at you.
+Left, right?
+Yeah.
+Yes.
+Let me see.
+And whatever's in my path from me to you is getting fucking
+murked.
+I'm just letting them...
+Yeah, thing is taking the best I can do.
+Well, I'm actually...
+For the first time, I'm going to use ignites.
+Nice.
+Just engage a gait hit.
+Okay.
+For bloodening resistance?
+Well, all three of them.
+Yeah, all three of them, whatever.
+Okay.
+So, to lure him in, you can't be at 60 feet.
+I'm just saying that because if he can't get to you,
+he will not even try.
+I'll come down to 40.
+Yeah, he still can't be at...
+Well, I can still be at...
+Well, I can still be at the front of him, so he's coming in.
+Okay, okay, I'll stop at 30.
+So, you're at 30.
+I'll say you can take the dodge action as you're like running from him.
+And...
+Yeah, well, also good dodge.
+So, Roma, you will make everything with normal instead of recklessly.
+Well, if you're reckless, it's normal, but normal use of this advantage.
+And if you don't...
+He's going to reckless, bro.
+He's going to reckless all the way.
+Yeah, that's...
+I'm recklessly everything.
+Yeah, so just normal.
+Try to hit him again.
+I'm going to give three rounds of you just chasing him down.
+So just do three times and we'll see if he hits him.
+Just natural weapons.
+Natural weapons.
+No, no, no, no.
+Well, it would probably be like one where he can reach me and then I go up to this way.
+This is...
+And...
+19.
+Yeah, I'm going to say all...
+All together because the distance to the beach would be like too much.
+So, I'll just say three times on that.
+That he can actually get a hit on you.
+Yeah, okay.
+19 will hit.
+14 will not hit it.
+And last and final one.
+That ain't it.
+This won't hit it.
+Okay, just roll for the 119.
+Add pure electoral.
+That's just four.
+It's just four.
+Yeah, just one...
+Is it 1D4 or just four?
+It's just four straight names.
+Okay, it's just four.
+Okay, so six plus four, you take 10,
+so six half of six is three.
+Three and then electoral.
+Which you are also resistant against.
+Yeah.
+So that's five, yeah.
+You just take five damage.
+It was four, it's like that.
+Total damage.
+Plus the four electros.
+Oh, but these sleep...
+We bored him to that.
+All right.
+As you swipe one of those times, can you make a dexave,
+melphous to see if you're staying in the air or not?
+Now 20, let's go.
+He swipes at you, you fall down,
+and he tries to swipe at you again as you're like falling down
+and you just maneuver yourself up again
+as you're kind of like goading him into falling you.
+This happens like a bunch of times.
+Romo, you're just like crashing into like bushes and whatnot.
+You're jumping on small like trees and trying to hit him.
+One of the times you kind of like swipe him a little bit.
+And as you're like walking through these like big giant gardens
+of these mansions, you jump on top of these mansions,
+just chair through the roof.
+And you keep following him again, again, your swipes miss.
+And you arrive at the beach.
+I have to get him into the ocean.
+Oh, okay.
+So he will instinctively not go into the ocean.
+But that bullsh*t, it just skips me.
+He's an animal but he does know it's like limitations, right?
+You can't just like make him jump off a roof.
+What does man can think staying over is never food.
+He's even still know as an animal, you still know what like what you should do, right?
+Just survival instincts. It's not even that.
+I think devil foods are very like,
+I feel like it is just like aggressively chasing me.
+I would just follow me over whatever.
+But again, it's like very different things.
+It's like basic survival instincts, not to jump in to sea.
+For like seasoned devil fruit user, I would say.
+Oh, it's still lucky, but you're saying.
+Okay.
+Okay.
+Roma, it's up to you.
+I'm not even making the decision for you.
+It's up to you.
+If you think the argument is sound,
+then you can jump in.
+I guess.
+Let's say mouthless.
+He jumps into the water.
+What that would follow.
+Like if he's, well, I would follow up with a certain point.
+Like if he's an ankle deep, yeah, I would charge in there,
+but if he's like way steep or whatever,
+like because no, like he can't go into the water.
+The thing is, mouthless is also not able to go into water.
+He's just like, I'm going over.
+I'm not going to go in.
+Yeah.
+So maybe the plan was to get you.
+Okay.
+Me hoping over the water and you into the water.
+So it's fucking going conscious.
+But you go unconscious, but he will just like sink.
+Maybe I'll go.
+Fucking just in time to go out.
+I think it's going to work.
+Because as soon as you touch the water,
+you're out of your transformation.
+Just dive straight in.
+Like predators would not.
+Yeah, exactly.
+Like it's like the animal instinct too.
+I'm not saying just saying it's like for the devil fruit.
+Yeah, yeah, you pissed him off,
+but like if you went into the water,
+they would just turn around and find something else to attack.
+Yeah.
+Like.
+Like your best bet would be like get a bucket of water.
+Yeah.
+I mean, it won't do anything.
+You have to be submerged.
+Like.
+Like or your best bet would be like find a cliff
+and have me charge at you stumble and knock myself out.
+Like.
+Not really any clifters.
+You can you cut up to a beach.
+Okay, go get that.
+Have me run into a tree.
+Got the beach.
+I have no one.
+Knock my ass out like.
+Well, that's okay.
+That these ones are just fucking knocked me out.
+I don't fuck clouds.
+So it comes these shit.
+Okay.
+Fuck cloud.
+As you like flap your wings near the sea water,
+the like the winds and everything is like swirling around the area at night
+and it's like forming sort of like a fog cloud around.
+The visibility is very down.
+But even through that, dark vision should help,
+but not like seeing through the dust and everything.
+But so how much does it bring it down 10 feet or what?
+Well.
+Note you fucking fog.
+No, you think that's just blind.
+You just blind?
+That's crazy.
+Have any obscures?
+Oh, okay, okay, okay.
+So it's like tick fog.
+So you can't even see like in front, but you can smell.
+But natural instincts, I would still have my ears like I think.
+I think where you are like.
+Uh, yeah, yeah.
+Just.
+I think perception wise for hitting,
+you will have to make a perception check every time.
+Well, see now.
+Perception check, then attack and then.
+This could play into your favor about me walking into the ocean.
+Like I wouldn't be able to tell.
+Yeah, because I can't see.
+I like where you're going with this.
+I like where you're going.
+All right.
+Uh, okay.
+What's the plan, Malthus?
+Uh, to, for the first, the sodium 10, a bit to, I don't know, he doesn't.
+There will actually be a sound in which way is ocean.
+And yes, see where we go from there.
+Well, I think.
+Oh, yeah, like, I can't.
+Yeah.
+But going constantly going around the cloud,
+four clouds, like hitting him and then.
+I guess when he finds an opening,
+he doesn't know which kind of then, which way I am.
+We just.
+Goes in a bit too far.
+Okay.
+I'll still make him do like perception check to make sure.
+Okay.
+Roma do a perception check.
+With advantage, you will have height and perception, I think.
+This.
+Yeah.
+Yeah, you can't really tell apart because of like all your senses being
+overloaded right now with the fog and everything.
+Can't really take which direction is which.
+So Malthus, where are you standing right now, flying or floating over near the water?
+Yeah, like a bit over the water.
+Like, okay, maybe I'm not really like high.
+I'm just like above water level.
+So maybe things like, hey, he's just standing on the floor.
+You need to understand you have to make like a good enough strength save to carry him back to shore.
+Do you have rope on me?
+No.
+Do you have one in your inventory?
+You can check.
+Thinking unless you have one, I don't think so.
+You have one.
+Yeah, him and rope 50 feet in explorers pack.
+Yes.
+Yeah, you do have rope.
+Cool.
+Yes.
+All right.
+So you got to get in the water.
+Yeah.
+So you're hovering above the water.
+You can't really tell Roma.
+You will take a swing, right?
+Oh, 100%.
+I'm just.
+Okay.
+I'm going to try to figure out where he is instinctively.
+And that was the perception check for.
+I thought that was just to figure out which direction he was.
+Yeah, it was it was like the perception check was good enough to tell okay,
+this direction he was, but it's not good enough to tell if there's water there or not.
+Yep.
+That's what I meant.
+So you jump straight in.
+And can you make an attack roll?
+Just to see if you hit mouth or not.
+Yeah.
+Just normally because he's still dodging.
+I'm assuming.
+17.
+17.
+Misses.
+Misses as you see, uh, uh, mouth is right in front of you.
+You take like your claw and try to like scratch him.
+He just steps back as you jump outside of this like fog.
+And you see your reflection on the sea floor and the moon shining the reflection back.
+And you just dive straight in.
+As soon as you touch the water, your form starts to dissipate and you go back to your
+furlough form.
+And you're starting to sink into the water.
+For the hemp and rope, you will have to do a roll to check if you last.
+So yeah.
+So I guess the next one.
+Just do normal.
+Yeah, yeah, just do normal decks.
+For mouth is for me.
+For mouth is you don't need to make a check.
+You're sinking buddy.
+17 is good enough to grab him.
+Now, I guess I'm just talking slowly fly back to the shore.
+Okay, you fly back to shore.
+Make another strength check to pull him out.
+Hey.
+First pull is you're trying to pull him, but you feel a resistance.
+So you get pulled back in a little bit.
+I told you I warned you I warned I tried to want you to pull time.
+I'm going to take an average for whatever rolls you have.
+Do another strength.
+You may try to make the situation better.
+To this is like now you're getting pulled in a bit more.
+Swing stance.
+No, I'm looking at spells.
+No, no swing stance. I'm not saying.
+What do you mean swing stance?
+Just rolls for swing stance.
+You might get something.
+There's not a lot that can help with that.
+We're all their features.
+Need to have this in like the chat display or whatever.
+I'm against any other creature they do so I disilline it.
+Okay.
+Yeah, see there's nothing like that.
+Thank you.
+Could have gotten something.
+You can bonus some on your damage or not.
+Where your attacks are made at this one.
+Your attack rolls.
+Oh, it's just for attack.
+I thought it would be.
+Here's the other thing.
+Okay.
+Yeah, I'm going to keep on going.
+Yes.
+Yeah, keep going.
+As long as you come up above a certain average,
+do it, but four is not helping then.
+Oh my god.
+Are you getting pulled in?
+Okay, keep going.
+Oh my god.
+You're going to die.
+Okay, keep going.
+I mean, it's pointless, but keep going.
+If you pull an add 20 out of your ass, then maybe.
+Yeah, no, it counts.
+Hey, it's another move.
+13.
+Okay.
+Keep going.
+Do you make five or no?
+One, two, three.
+Four.
+It's five.
+You're dead.
+It's five.
+Yeah.
+Okay, unfortunately, Melis, you are starting to get pulled back in.
+Do you want to let the rope go?
+But we didn't because last time we also had this question,
+and if we just get far enough to like get them on the shallow,
+then I can just lay there.
+Yeah, but I would.
+Did you get him to the shallow because he'd been
+specified.
+I thought it was just like submerging.
+Because again, he's pretty huge.
+If you're getting him to the shallow,
+he's not going to submerge completely.
+You'll get we.
+Oh, shit.
+Yes, so just let it go.
+I was then.
+Hey, no robot eyes.
+Fun.
+You can get help.
+It's not going to die immediately.
+You have 80 speed.
+Make use of the 80 speed.
+Look at who?
+Get whoever.
+I'll give you five turns.
+Between five turns, if you can get someone who can get Roma out.
+Or at least help you like.
+Yeah.
+Guess I'll go get Bob.
+Okay.
+You get Bob and I am hoping you tie the ropes to something.
+So you can always start like pulling.
+You get Bob.
+Let me.
+What the fuck is Bob?
+If it's nighttime, Bob is out of his armor.
+It won't matter.
+He can't carry Roma either way.
+Sorry with the advantage.
+So.
+Oh my god.
+Okay, finally, fucking 24.
+I'm going to say if both of you are pulling,
+you will be able to get out.
+But first of all, I need you to make
+some throws to make sure you get there in time.
+Just do initiative a couple of times.
+Okay. One more.
+You have five turns.
+So as long as you make it above a certain
+do another initiative.
+Oh, I can't because I'm putting combat.
+Oh, shit.
+I see.
+I will medly get better than you.
+I can't.
+Wait, I don't see you.
+Well, I'm on the fucking big ship.
+Oh, I didn't move anyone to this one again.
+I'm sorry.
+No, yeah.
+Okay, 14.
+Do one more.
+Okay, that should be good enough.
+Right, the average of 15 or something.
+Okay.
+All right.
+So you have Roma out.
+And he's passed out.
+So I think this is a good point that we can leave.
+And then we can reconvene with Babtees
+going back on the ship.
+And we can start from there.
+Cool.
+Babtees.
+I think it fell asleep.
+I generally think it fell asleep.
+That was rough.
+I actually expected like a fight,
+but hopefully it didn't come to that.
+Also, we need to figure out your fucking transformation.
+When I thought we leveled it up,
+but I guess we didn't.
+Did we not level up?
+We didn't.
+We didn't still level four.
+No, no, I don't think we can do it.
+Roma can you call him?
+These we can let him know that we're done.
+All right.
+Well, I did expect you to fight a little bit at the start,
+but I guess you didn't go your usual kill everyone strategy.
+That's good.
+And they didn't at least.
+I did.
+Yeah.
+I mean, yeah, but the different.
+I expected the Babtees to fucking kill everyone.
+Okay.
+I'll just call him.
+I'll be right back.
+Okay.
+Maybe I said the DC a bit too high,
+but I was expecting 23.
+I can't do 23.
+I didn't know that.
+I thought you had a better friend.
+I always say that you did.
+Yeah, but you made the decision.
+I said every time you made the decision to do this.
+Okay, I didn't make you do it.
+Easiest option.
+Oh, yeah, it is the easiest option.
+So it's going to be hard to fucking get it.
+Right.
+Okay, 19 if you get
+what are you doing?
+Of course, then.
+You have not 20.
+Yeah, yeah, I mean, I didn't have 20.
+Never.
+You already wasted your net 20 in the beginning of the fucking.
+Yeah, well, I'm fucking perception.
+Yeah.
+A fun perception is probably pointless.
+Atees.
+Yes, we're going to continue with your arrival on the ship
+to next session.
+Okay.
+Roma almost died, but it's fine.
+Yeah, remember,
+y'all doing the whole other thing, but I don't know.
+Yeah.
+All right.
+Okay.
+So, I'll see you guys next week then.
+All right.
+All right.
+Yeah, yeah.
+So it's I am knocked out on the beach.
+Is this a long rest or is it a short one?
+Yeah, you would wake up around like next day,
+like company 24 hours later.
+You would not wake up by then.
+Before the answer to one.
+I guess not really not really.
+He took the easy way out.
+Yeah, he made him jump into the water
+and almost kill himself.
+He killed himself.
+Yeah.
+With the rope.
+And a bob, yeah.
+Getting some like fast help from Bob.
+See, now, for these reasons, we have more people than one.
+I guess if Bob was video from the
+weather beginning, he actually, he might have died.
+Maybe it's a good thing he's not here.
+Yeah, he can't run away as fast as you can.
+All right.
+For next time.
+I got mouth is I'm going to talk to you personally about next time.
+Right.
+And then we can
+continue.
+Because I had like a certain thing that you need to go.
+And then
+you won't leave without telling about these, right?
+In any case, if you leave.
+Like, I'm, but he's going to be first.
+Yeah, but that he's not here.
+Because I would.
+Maybe right now.
+Romance and machine.
+You can, I guess, get in contact with him.
+Through that.
+I get the ship.
+Yeah, but not that fast.
+Right.
+He would have left.
+It would take him like a couple of hours to get to that ship.
+Yeah, yeah, I get it.
+But it's still going to be like two hours at max.
+You can bring it down to an hour, right?
+You can't like fly faster than you can fly faster than the ship, right?
+It's five miles per hour.
+Wait, is it?
+Yeah, it is five miles.
+I don't think it's five miles per hour.
+I think it's seconds.
+I don't know.
+Uh, anyhow, we can talk about this because.
+Well, I can take the fucking dead and wish that Roma has.
+Because there's like, yeah, yeah, yeah, yeah, yeah.
+Exactly.
+You can talk over, talk about the things on the land in which you can go flying in.
+Or you can go flying in.
+We can decide later.
+Yeah, I, but Malfoy, I need to see what say something to be a disperson,
+for at least.
+For whatever reason.
+Because it's cool.
+That's just because I just the way it is.
+That's fine.
+All right, I'll talk to Malfus and.
+Continue next session.
+Malfus, if you can come to VC for a second.
+All right, guys, all right.
+That was the best luck.
+Yeah, yeah.
+I'm going to see next week what happens next week.
+Going to be crazy.
+Well, Roma just slaughtered like the entire market.
+So yeah, so at least you don't have as many Marines to worry about.
+Right.
+It's a good thing.
+Or more.
+Oh, good.
+All right.
+Let's continue this personal chat.
+All right.
+Bye.
+Okay, they're gone.
+Oh.
+Okay.
+Okay, okay.
+Stay here.
+Stay here.
+Stay here.
+That's right.
+We've been flopping.
+Okay.
+So I don't call you leave.
+I leave.
+Yeah, yeah, okay.
+So I'm going to give you a bit background because your character is about to leave anyway.
+So it doesn't matter.
+Right.
+If you know or don't know.
+Right.
+So background on how Alice escaped and how Draver's got caught.
+So these two things apparently collide with each other.
+He saw you off.
+Yeah, he saw you off at
+whatever, like something.
+Yeah, Frost Bridge or whatever.
+Yeah, the big thing and then we went to like the small Marine days where he.
+Yeah, yeah, yeah.
+Where he got you like got distraction going so you can sneak into one of the ships and just leave.
+Yeah.
+So they're known like the Border Patrol essentially is like distracted by him.
+While he was being like taken into prison because he
+was caught intentionally.
+Because he knew a way to get out because they thought he didn't have devil fruit power.
+They didn't know who he was at that point.
+But as soon as he was taken into the temporary like kind of
+encampment, he saw your sister and you've already told him about your sister.
+So he would recognize her by like the features of Lunarion, right.
+So to help her escape, he went like full force.
+He just broke through everything, whatever.
+It's like a lot of details, but I'm not going to go over those.
+Essentially, he helped your sister escape.
+But in the whole process, he got caught.
+And some of the people who were there are going to be involved in whatever is going to happen.
+Next right. He got caught.
+And your sister went away, but she would have heard about this guy getting caught and executed.
+So she's still in the North and she is going to find a way to help this guy.
+She doesn't know him.
+She just knew that he helped her.
+So she's going to try to help.
+So what's going to happen is you're going to hear a marine intercept
+from one of Voro's radios, either on the car or the Denon Mushi.
+About the thing getting...
+Well, everything's at the ship, right?
+But this is probably called...
+And maybe I...
+But this will just say to me, like, hey.
+Yeah, that's why I was like...
+thinking about because you need to know that.
+So...
+The Denon Mushi, the radio Mushi is on Baptiste and he's already heading back there.
+So you don't have that.
+Okay, okay.
+I can do something like this.
+Because Cation would hear about this.
+Anyway, so he will inform you that the vessel got attacked.
+You first.
+Right?
+So you hear about it and you will hear something like...
+Oh, this and this thing was spotted and it took down one of the warships.
+Okay.
+And the others are still, like, struggling and trying to get away.
+The other warship that was, like, taken out,
+the person infiltrated on that warship, not knowing the drabos was not on that one.
+So the others are trying to get away while the thing that took down the other warship is still
+chasing them.
+You will get a full description of whatever chasing them.
+You will immediately recognize who it is and we will take it from here.
+Basically, all you did today was nothing.
+Because you have to go there anyway.
+How are you going to play, Elise?
+What?
+How are you going to play her?
+She is just going to be, like, kind of scared,
+but she's going to be determined to save...
+Yeah, probably.
+She's still brought up by a mother right, so as the new queen princess.
+Yeah, but again, she's not like the actual, like, leader right now.
+She was being trained.
+And she did wincee at Konkurshaki somewhere.
+She did.
+She did have Konkurshaki.
+That's how she took down the fucking ship.
+She was just not everyone out and just, like, took out a bunch of, like, the...
+with the fireball or something, just took out the cannons and that explode the area, like, before.
+So, one of the warships is down.
+I'm going to...
+What do you mean, how are you going to play, Alice?
+Like, just like...
+Oh, just like...
+No, just as a...
+I just push now these.
+Personality-wise, she...
+Yeah, like, seemed like the door was open.
+I didn't really talk about it either, right?
+So, my initial thought was...
+because the way that I wrote her was just, like, kind of childish.
+Yeah, but she has to grow up at this point.
+Yeah, the way I saw my childhood is, like, yeah,
+mostly just putting on a face to be the strong one and when she's alone at least...
+But when she's like, she's just going to full on collapse and, like,
+cry for two hours or something.
+Yeah, yeah, yeah.
+She's going to be, like, acting like all high and mighty, to be, like,
+run or you die.
+Essentially that...
+Yeah, she's just going to fucking get tired then.
+Yeah, but she's going to fight to her full strength until, like, she saves him.
+And then, after that, we can do the whole thing.
+Because...
+Okay, after that...
+Definitely, I would bring her to Babdyskus.
+He's going to want to be there as well, right?
+After that, she will tell you some things about
+what is happening with the...
+Like, why was she captured...
+Or, like, why was she kept in that facility in North Blue
+about, like, what they got out of the experiments that they did on her,
+stuff like that.
+So, for her, like, full arc to finish, you will have to live with her.
+Because she will ask you to help her chase down these people.
+Yeah, and you will not hesitate and you will have to ask now to use to go.
+Babdyskus will maybe try to get there, but then before that, Miro will have a call.
+And she will be like, "We need you here, right now.
+Things are getting worse and get travaux.
+You have driven.
+Get them back here as soon as possible."
+"I'll take a day to mush it with me and just say, like, whatever happens.
+Just call, I'll say some things."
+Yeah, yeah, yeah.
+Okay, for the next few sessions, can you also play
+Jack from now on? "I forgot to ask, but I was going to say, like, hey,
+if you just want to talk to yourself, I can just also just go to the room."
+Yeah, because I was kind of getting tired of, like, talking to myself for two or two minutes.
+"I forgot to play, but I can just jump in."
+Yeah, yeah, yeah.
+Okay, from the next session on, you can play Jack.
+I like the whole Jack section.
+I loved it. I did not like the interaction with Linus because I had to do both sides.
+I'm still calling a fucking shoot line.
+Is that fucking right?
+Yeah, yeah, yeah.
+Also, the call, like, to Ace, you would just say,
+"No, a lot of them just say, 'Til I found them' and she would know exactly who.
+Like,
+yeah, yeah.
+Because the last thing, I think, was that the other time.
+Ace wouldn't know, but yeah, yeah.
+Ace wouldn't know who or what the fuck I'm talking about, but as she said that,
+yeah, yeah, yeah.
+Even if they're exactly, no exactly what I mean.
+So yeah.
+All right.
+So we got everything figured out.
+So I'll, um,
+so next session is about to go down.
+Well, I guess we have a plan.
+So we have a plan, but I see the problem right now is how we get there.
+Right?
+On which ship?
+That's the biggest issue.
+It's just the gate from the transport from the ship,
+uh, those were from the last checkpoint to church, like on land.
+No, no, no, no, no.
+The attack is already happening.
+Oh, yeah.
+On the ships and they're on their way.
+Make the plans, execute plan.
+Plan goes fucking calm.
+Yeah, exactly.
+That's how it happens usually.
+Yeah, I guess so.
+On our ship then, because that this is already on there,
+I can just say I'm to sail there.
+Okay.
+All the problem is like this, just how the hell do you plan to get on there?
+Well, I can mean them all the way, right?
+Okay, but that's just you in that he's then.
+How the hell do you get to other people?
+That's the problem.
+The whole house.
+Going for the fucking two days.
+Okay.
+Um, Goro will take down his like,
+mast and everything.
+Replace the mast with your mast.
+He will give you your ship.
+So you can go.
+Yes.
+Yes.
+Well, because Baptiste, because he,
+Baptiste did take his like full ship, right?
+But you have to get there from there to there.
+You brought this upon yourself, kind of, right?
+I did.
+I did.
+But the logistics is like crazy.
+I didn't think.
+I mean, they would have like,
+vessels from from the real hard family too.
+It's fine.
+You can get there.
+It's not that big of a thing.
+But I'm going to go in front, right?
+And Roman.
+Yeah, you're going to, you're going to go in front in the time that you
+switched the sales and everything on the other ship.
+Yeah.
+I'm just going to give a say about these guys and go over there as well.
+Yeah.
+I'll meet Baptiste, help face on there and then eventually Roman,
+popular show up, I guess.
+Yeah.
+By the time you like, you have the mast and everything switched out and then you
+can go straight in.
+Oh, it's going to be fun.
+Baptiste is going to kill me.
+Well, but these are not.
+I was going to kill you.

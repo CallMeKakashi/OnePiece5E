@@ -1,3 +1,15 @@
+---
+type: session
+episode: 16
+status: draft
+sources:
+  - "[[Episode 16 - Broken Promises]]"
+---
+
+# Session 16 — Broken Promises
+
+> Curated prep/recap exists below. Transcript: [[Episode 16 - Broken Promises]].
+
 
 # BROADCAST TOWER — FIRST FLOOR
 

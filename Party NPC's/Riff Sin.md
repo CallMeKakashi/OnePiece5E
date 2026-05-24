@@ -2,6 +2,14 @@
 type:
   - NPC
 publish: true
+status: draft
+sources:
+  - "[[Episode 14 - The Decibel Decree]]"
+  - "[[Episode 15 - Animal Within]]"
+  - "[[Episode 16 - Broken Promises]]"
+  - "[[Episode 17 - Agony of Choas]]"
+  - "[[Episode 18 - Gentle Giant Pirates]]"
+  - "[[Episode 19 - The Walking Dead]]"
 ---
 ### Voice
 
@@ -31,5 +39,12 @@ Then came the last night.
 Cadence strapped her gear on in silence, Keera waiting at the tunnel mouth. Riff tried to joke, tried to play something light—but the notes wouldn’t come out right. Cadence squeezed his shoulder once before turning away.
 
 The sound of her footsteps leaving stayed with him longer than any song.
+
+## Episodes 14–19 (Malphas arc)
+
+- **Decibella rebellion** — leads [[Cadence]] cell; Soundless Five tower trials ([[Episode 14 - The Decibel Decree]]–[[Episode 16 - Broken Promises]]).
+- **Synth** — cousin; floor-1 duel; Wildsaid transform ([[Episode 15 - Animal Within]]).
+- Post-tower recovery and kingdom downtime ([[Episode 17 - Agony of Choas]]–[[Episode 18 - Gentle Giant Pirates]]).
+- Roma pitches recruiting Riff for the ship ([[Episode 19 - The Walking Dead]]).
 
 ![[Riff Sin - CharacterSheetComplete.pdf]]

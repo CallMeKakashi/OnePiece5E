@@ -8,6 +8,7 @@
 		- [[Blackhand (Cyber)]]
 		- [[Mira the Unbreakable]]
 	- **Marines**
+		- [[Commander Leon]]
 		- [[Delaroth]]
 		- [[Sir Can Veil]]
 		- [[Vorro]]

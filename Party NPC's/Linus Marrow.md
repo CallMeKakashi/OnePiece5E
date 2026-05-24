@@ -4,6 +4,10 @@ type:
 status: draft
 sources:
   - "[[Episode 2 - The Winged Ally]]"
+  - "[[Episode 21 - House of Justice]]"
+  - "[[Episode 22 - The Missing Piece]]"
+  - "[[Episode 23 - Choice for life]]"
+  - "[[Episode 25 - Fire Storm]]"
   - "Sessions/Linus' Notes.md"
 ---
 
@@ -22,6 +26,12 @@ Doctor traveling with the crew toward [[Spirit Cliff]]; tied to [[Sixfold]] (for
 - Examines **black ring** from [[Kirro King]] hideout; invites [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] to the Armada.
 - Hands paper directions to his hideout (near casino / Sixfold area).
 - Sent [[Veyl Corvine]] and [[Cerica Corvine]] to observe the crew at Spirit Cliff.
+
+## Episodes 21–25
+
+- Reunites with [[Roma]] in prison; phases into cells ([[Episode 21 - House of Justice]]).
+- Leads **Zim** rescue; sea-king bait; serum intel ([[Episode 22 - The Missing Piece]]–[[Episode 23 - Choice for life]]).
+- Identifies **Nikolai/Anton** mist at Fire Storm; [[Malphas]] abducted ([[Episode 25 - Fire Storm]]).
 
 ## Related
 

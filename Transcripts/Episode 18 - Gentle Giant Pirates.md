@@ -1,0 +1,663 @@
+---
+type: transcript
+episode: 18
+title: "Gentle Giant Pirates"
+status: draft
+sources:
+  - "Transcripts/Episode 18 - Gentle Giant Pirates.txt"
+  - "Transcripts/Episode 18 - Gentle Giant Pirates.srt"
+---
+
+# Episode 18 — Gentle Giant Pirates
+
+## Extracted
+
+> ~1 week downtime on Decibella; Gentle Giant / Black Hand arena setup.
+
+### Summary
+
+- Crew downtime: Malphas bell fragments, Roma saber-tooth pet, Riff kingdom aid.
+- Plan rescue **Droven** + execution prisoner; **Battle of Beast** arena vs Gentle Giant Pirates.
+
+### People (links)
+
+| Role | Note |
+|------|------|
+| PCs | [[Malphas]], [[Roma]], [[Baptiste]], [[Riff Sin]] |
+| Faction | Gentle Giant Pirates |
+
+### Open questions
+
+- Arena stakes and prisoner identity.
+
+---
+
+## Transcript
+
+Episode 18 - Gentle Giant Pirates
+
+us and a different, really different from the world. So he has been trying to get to know
+this body and stuff and trying to see what he can do with this because his mind is not the same
+as he was before. So he's trying to get some of his stuff that he had to work, but to make up with
+the things that he doesn't have, he's trying to get his strength back. So he's trying to learn
+martial combat from roba and some other stuff from Baptiste and Nautilus.
+Well he is severely depressed, but that's not new.
+So obviously I'm cooking some food and I guess now teaching Bob some things about some things
+with some combat, but also I'm going to say, go ahead, but I'm also going to try to teach those
+horses how to respond to those whistles I got in my pack.
+First match I knew the dog. So yeah, I'm teaching those horses how to respond to those whistles.
+Oh and I'm also playing with that pan that I got just messing with it.
+Yep. Yep.
+Mostly getting the shape ready to go again, start in a punn supplies and stuff.
+Get some, get some shotgun harder to repair the gillic of damage.
+And be in the medical for a bit.
+Getting Bob fixed up, getting Bob this fixed up.
+I like mine.
+I want the cheer, but I seem to be good with my stuff. I got a bomb, so yeah, that's good
+depression.
+They'll need to look at it. I would like to work on mine to like fit the character more.
+I've had a busy week so I know it's
+(ографmusic)
+Bro, I got a spice jar that will let me like conjure an air element.
+Yeah, like bro, do you know I could just top that spice on a little something you know, be Roma blazing.
+You know what I'm saying?
+Exactly.
+Oh, another thing is I forgot to mention it earlier because I actually got most of the stuff, but remember the mountain he probably did that in the week time.
+(Pause)
+I have a teaspoon of social butterfly.
+And...
+Do you have a social butterfly?
+Well...
+You got a grandma.
+He's been talking with people throughout the week.
+So he's been calling Mira in that conversation with Mary.
+He's just like asking about the troubles to join us.
+Then he's going to talk to Cala to see if he can get his bell fragment.
+Then he's going to be helping riff with like the Kingdom's management for the week.
+Soaking in the glory of helping get their freedom.
+(Pause)
+I'm just trying to see if they can combine and what happens when they ring if they're combined.
+(Pause)
+I don't know like before though when things have happened it's been because of the rings that have helped me. Well not the ring, the fragment.
+I would like to try to take off the rings while holding both fragments.
+I don't have a good arcana.
+Here's your chance. Roll that 20.
+You stole the net 20.
+(Pause)
+Okay.
+Did the animals come for the cake yet?
+(Pause)
+(Pause)
+(Pause)
+Oh.
+So a fairy.
+(Pause)
+That's a wawa.
+(Pause)
+Is that a two wawa?
+Is she being a wawa?
+(Pause)
+She got himself a little minishoving.
+(Pause)
+(Pause)
+He got...
+He got a fucking saber-to-tiger?
+That's dope.
+(Pause)
+(Pause)
+Yeah.
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+Yeah.
+It was dope.
+Wasn't it?
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+(Pause)
+>> I'm not sure though.
+>> So vacant.
+>> Realign--
+>> Yeah.
+>> All right, and I just want you to--
+I think this is going well.
+What kind of characters do you play?
+>> Bring down your mic if you want
+to pick up Friday.
+All right, this is usually about
+the date.
+>> First of all.
+>> So have you ever did a number
+of moon posts or something?
+So inspired.
+>> Gonna doπο,roller?
+You would do 02.
+Take me for a picture next door.
+>> It'll go like this,
+but I'm sure you're not sure.
+>> It is a one.
+>> It really does belong to me.
+>> Yeah, um, we can--
+[ Pause ]
+>> Yeah.
+So the way villains have their like hat
+and they're like stroking
+in that time when I had this dog constantly walking
+around with it.
+>> Yeah, Bob, the thing hates you.
+[ Pause ]
+>> That's it.
+>> What about the same as that?
+>> It's taking a year already.
+[ Pause ]
+>> And this is next here, this world.
+Oh.
+Oh, shit.
+[ Pause ]
+>> Animals love me.
+>> Oh, I'm fine with just the dog.
+Even though I would have preferred a blackstack.
+>> Well, I need to go talk to Ben or so.
+>> I'm going to be a cook at the end.
+>> And I'll jump at once.
+[ Laughs ]
+[ Pause ]
+[ Pause ]
+[ Pause ]
+[ Pause ]
+[ Pause ]
+[ Pause ]
+[ Pause ]
+>> I'm going to be cussing him out.
+>> Don't fucking talk to that.
+[ Pause ]
+>> I'm going to be like, what are you feeding first?
+And then I'm going to be like,
+okay, well, you better start seasoning the meat.
+It's a fucking saber, too, Tyke.
+[ Pause ]
+He is on our ship, sir.
+He will be on our ship.
+You're going to give him unseasoned meat.
+You're just going to give him raw meat.
+[ Pause ]
+Yeah, that's why they all left.
+That's why they all left.
+You better season that up.
+Treat him like he's your mother.
+[ Pause ]
+What the hell do you think you're doing?
+You almost sprinkled this.
+You got a massage in there.
+You just can't just rub it.
+You got a massage flavor in it.
+[ Pause ]
+What the hell?
+Massage.
+Not be goddamn stuff.
+[ Pause ]
+There we go.
+Yeah.
+Now you just sprinkle a little bit.
+You rub it in there and get in the groove.
+All right.
+Oh, it's certainly on thin and a kitchen.
+When the roll was selling, it was the meat.
+And it was just the...
+Now, how you going to prepare this?
+You're going to cook it.
+You're going to steam it.
+Like, what are you going to do?
+He's on our ships here.
+We don't give anybody just raw stuff.
+Every meal is a fine one.
+Get him right.
+You don't just throw it.
+Sir, how are you going to give this to him?
+I need to know.
+So if you're going to plate it up to him,
+you're going to have to see it.
+You're going to have to take one of these pans here.
+And I'm going to rub it.
+I'm going to throw it in my pan.
+Get it nice and hot.
+And then you're going to take your meat.
+You're going to put it on the pan.
+Two minutes aside.
+Two minutes aside.
+Yep.
+You're going to see the sides.
+And all sides.
+Two minutes.
+You know when it's done, when you pick it up,
+and you still see that juice flowing,
+but it's got a nice sear to it.
+It's going to be a nice brown to the top.
+So, yep.
+And then you go...
+And then you're going to take it to your plate.
+And you're going to do about a quarter of an inch slices.
+Nice, nicely really thin.
+And it should still be a little pink on the inside.
+So you know what's good.
+And it's going to have some juice.
+And then you're going to garnish it with a little rosemary,
+a little thyme.
+Make it look nice.
+That's how you go to serve it to him every time.
+[COUGH]
+Oh no.
+Who is the SSR?
+Oh my god.
+Who got the shape?
+[LAUGHS]
+Obviously I have a minus five.
+[COUGH]
+I see the meat.
+I'm going to be like...
+I'm going to be like, what the hell did you do to that?
+I gave you specific instructions.
+And now you're going to serve that to him.
+Oh sweet dear Lord, baby Jesus.
+Oh sweet dear Lord, baby Jesus.
+Oh my god, what did you do?
+Well we can't let it go the way.
+I gave you specific instructions.
+Two minutes aside.
+That side's burnt.
+That is definitely not two minutes.
+[COUGH]
+You better start practicing.
+You taking care of him.
+[COUGH]
+Well you got to give him that.
+We ain't got, we ain't gots.
+You think we just got supplies like this?
+Yeah, you uh, but watch your ass.
+Yes.
+Okay, I just want to.
+So putting it off there.
+Oh shit.
+It's almost like your two.
+It's just about that.
+I don't know.
+Is it all right now?
+Nice.
+Oh nothing, I was just saying let's just hope the sabre two
+minutes.
+You just be careful.
+That's it.
+It's fair about to leave soon.
+I think I'm just fixing the last things.
+Yeah, sir.
+Well, he is doing his normal like regular practices and stealth.
+He's not usually usually he's usually found in his like room,
+but now he is more on the outside.
+So I'm trying to practice trauma has been teaching him and so on.
+Yeah.
+Are you taking one of the horses?
+I want the wolf to attack that monkey because that monkey harassed me.
+Yeah.
+Oh, buddy, it's okay.
+I'll go ahead and leave.
+I'm moving.
+I'm moving.
+I'm going to get in the dirties look.
+I will bite the slap him.
+I'm going to get in the dirties.
+I'm going to get in the dirties.
+Thank you.
+I'm going to get in the dirties.
+I'm going to get in the dirties.
+So do I see finish here?
+You know, I'm going to get in the dirties.
+I'm going to get in the dirties.
+I can't hear exactly what they're saying.
+Let's do that.
+If you get in the dirties, I'm going to get in the dirties.
+I'm going to get in the dirties.
+I'm going to get in the dirties.
+I'm going to get in the dirties.
+I'll just head in.
+I'm going to get in the dirties.
+I just need it time.
+I'm going to get in the dirties.
+I'm going to get in the dirties.
+I'm going to get in the dirties.
+I'm going to get in the dirties.
+I'm going to get in the dirties.
+I want to speak to you about me taking dribbles with us.
+As you know, we have many things to accomplish.
+We just learned the other day.
+Someone that we are connected to.
+She's currently being held captive in this set for execution.
+Then we also have to go rescue the dribbles who is also captured, drove in,
+and then we still have issues to handle.
+Regarding the sixfold and other things and all of these.
+You do know Linus isn't particularly available, correctly correct.
+I understand.
+I'm going to get in the dirties.
+I did not mention the name.
+I feel we should be the ones to do the rescue.
+I hope it's solved.
+If someone from my crew isn't expecting you to get paid every time they do something.
+I hope you're doing well.
+Let me correct you on something.
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+I mean going after the sixfold is no easy feat, especially with the relations that they currently have with the crew.
+I'm not going to be able to do anything.
+I'm being very persuasive.
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+I'll say good.
+Are we in the lower deck of his ship?
+No, he's handed it to me right here.
+No confidence.
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+Hello, when will people learn not to challenge me?
+Who's handed it to me?
+Who's touching me?
+If you're part of Blackhams crew, you probably have been through a couple of things.
+I'll turn to the crew.
+How do you feel?
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+What do you mean?
+The second game will be a feast of...
+Monkey Dog Fight?
+I'm not going to be able to do anything.
+I'm not going to be able to do anything.
+Why don't we get faked right?
+I'm not going to be able to handle the second beat.
+Improvision is best.
+The second battle shall be the Battle of Beast.
+I'll turn to Cade.
+What contest should we have the...
+Let's do that.
+Let's do that.
+What arena is he talking about?
+Is there an arena in the kingdom that we can go to?
+I'll ask one of the guards.
+We can hold a contest of many feats and have fights.
+Let's do that.
+Let's go around the kingdom and tell them the people, the savers of the kingdom are going to be putting on a feat of their strength.
+I'll look over my shoulders to Pinterest.
+We'll see you soon.
+Let's go around the kingdom.
+We need to get ready for the battle.
+Let's go around the kingdom.
+Is there something I would know?
+I would never use the double fruit.
+Bob, if you were so frightened by a double fruit,
+I would never use the double fruit.
+I would never use the double fruit.
+I would never use the double fruit.
+I would never use the double fruit.
+The goal is to win.
+We need to get ready for the battle.
+We need to get ready for the battle.
+We need to get ready for the battle.
+We need to get ready for the battle.
+We need to get ready for the battle.
+We need to get ready for the battle.
+We need to get ready for the battle.
+We need to get ready for the battle.
+We need to get ready for the battle.
+We need to get ready for the battle.
+We need to get ready for the battle.
+We need to get ready for the battle.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+We have rested enough.
+How far is he from me?
+How far is he from me?
+How far is he from me?
+How far is he from me?
+How far is he from me?
+How far is he from me?
+How far is he from me?
+How far is he from me?
+How far is he from me?
+How far is he from me?
+How far is he from me?
+How far is he from me?
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The first one was 17, second one is 11.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+The pieces have been struck in the both more and more.
+Neither did I.
+I hope I did end.
+I hope I did end.
+I hope I did end.
+I hope I did end.
+I hope I did end.
+I hope I did end.
+I hope I did end.
+I hope I did end.
+I hope I did end.
+I hope I did end.
+I hope I did end.
+I hope I did end.
+I hope I did end.
+I hope I did end.

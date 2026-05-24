@@ -1,4 +1,16 @@
 ---
+type: session
+episode: 14
+status: draft
+sources:
+  - "[[Episode 14 - The Decibel Decree]]"
+---
+
+# Session 14 — The Decibel Decree
+
+> Curated prep/recap exists below. Transcript: [[Episode 14 - The Decibel Decree]].
+
+---
 publish: true
 type:
   - Session
