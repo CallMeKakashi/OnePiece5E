@@ -1,22 +1,22 @@
 %% Begin Waypoint %%
 - **Factions**
-	- **[[Sixfold]]**
-		- [[Cline The Plague]]
 	- **[[Blackhand]]**
 		- [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”]]
 		- [[🎶 Red — “The Songbird of the Black Comet”]]
 		- [[🦾 Saplea D. Isla — “Dreadnaught”]]
-		- [[Baptiste]]
+		- [[Baptiste (Blackhand unit)]]
 		- [[Blackhand (Cyber)]]
 		- [[Mira the Unbreakable]]
+	- **[[Sixfold]]**
+		- [[Cline The Plague]]
 - **[[World Map]]**
-	- **[[Islands]]**
 	- **East Blue**
 		- **[[Ambercrest]]**
 			- [[Kirro King]]
 		- **[[Driftroot Isle]]**
 			- [[🗡️ Goru Yamashita (formerly Goru Valencruz)]]
 		- **[[Spirit Cliff]]**
+			- [[The Black Ledger of Director Halward Lynne]]
 	- **Grand Line**
 		- **[[Decibella Kingdom]]**
 			- [[Baron Woofer]]
@@ -31,5 +31,6 @@
 		- **Juniper Islands**
 			- **West Town**
 			- **York Town**
+	- [[Islands]]
 
 %% End Waypoint %%

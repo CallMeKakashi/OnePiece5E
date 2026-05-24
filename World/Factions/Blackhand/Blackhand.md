@@ -15,7 +15,7 @@ Pirate organization and associated **Blackhand unit** (field operatives). Leader
 - [[🎶 Red — “The Songbird of the Black Comet”|Red]]
 - [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea D. Isla]]
 - [[Mira the Unbreakable]]
-- [[Baptiste]] — stub; full sheet TBD
+- [[Baptiste (Blackhand unit)]] — stub; full sheet TBD
 
 ## Timeline
 
@@ -29,4 +29,4 @@ Pirate organization and associated **Blackhand unit** (field operatives). Leader
 - [[Sixfold]] — Spirit Cliff collusion
 - [[Spirit Cliff]] — treasury raid
 - [[Ambercrest]] — early East Blue incident
-- Composite backstory (misfiled Old Notes `Baptiste.md`): [[Backstory] Liz, Raid Kingdom, and Baptiste rescue]]
+- Split backstory (Old Notes `Baptiste.md`): [[Backstory] Elizabeth Marrow — mortuary escape]], [[Backstory] Blackhand Cane — Raid Kingdom]]; PC arc in [[Characters/Baptiste]]

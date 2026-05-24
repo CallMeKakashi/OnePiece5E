@@ -8,7 +8,7 @@ sources:
 
 # Sixfold
 
-Mercenary organization (reformed after the Motley Crew prologue). Headquarters at **Magnolia** aboard the **Armada**. Leader: **Liz** (Paper Paper Fruit awakening).
+Mercenary organization (reformed after the Motley Crew prologue). Headquarters at **Magnolia** aboard the **Armada**. Leader: **Liz** (Paper Paper Fruit awakening). Origin: [[Backstory] Elizabeth Marrow — mortuary escape]].
 
 ## Members (migrated sheets)
 
