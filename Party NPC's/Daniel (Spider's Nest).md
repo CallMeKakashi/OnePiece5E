@@ -5,6 +5,7 @@ status: draft
 sources:
   - "[[Episode 6 - Hallow's End]]"
   - "[[Episode 8 - The Lunarfold Tournament Part 1]]"
+  - "[[Episode 9 - The Lunarfold Tournament Part 2]]"
   - "[[Sessions/Sidequests/Spider's Nest]]"
   - "[[1478-09sun [Newspaper] Grand Line Tribune — Morning]]"
 ---
@@ -21,6 +22,10 @@ sources:
 ## Episode 8
 
 - On ship during crew-ranking tournament; watches bracket fights with [[Chloe (Spider's Nest)]] (end of recording).
+
+## Episode 9
+
+- Bets on tournament; watches finals; [[Informant (Loguetown)]] held aboard — sets up betrayal in [[Episode 10 - Sea of Nightmares]].
 
 ## Related
 

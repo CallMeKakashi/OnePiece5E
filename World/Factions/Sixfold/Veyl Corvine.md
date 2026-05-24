@@ -5,6 +5,7 @@ status: draft
 sources:
   - "[[Episode 3 - Fated Encounter]]"
   - "[[Episode 8 - The Lunarfold Tournament Part 1]]"
+  - "[[Episode 9 - The Lunarfold Tournament Part 2]]"
   - "Discord/exports/downtime-actions.md"
 ---
 
@@ -28,6 +29,10 @@ Sixfold operative at [[Spirit Cliff]] (transcript: "Whale" / Wyll). Sibling of [
 ## Episode 8
 
 - Speed training with [[Baptiste]] during downtime; antigravity prank in tournament; Sixfold accepted as full crew before bracket.
+
+## Episode 9
+
+- Loses ranking bout to [[Baptiste]]; rough interrogation of [[Informant (Loguetown)]]; rank **3rd** on crew ladder.
 
 ## Related
 

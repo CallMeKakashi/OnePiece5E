@@ -4,6 +4,7 @@ type:
 status: draft
 sources:
   - "[[Episode 6 - Hallow's End]]"
+  - "[[Episode 9 - The Lunarfold Tournament Part 2]]"
   - "[[Sessions/Sidequests/Spider's Nest]]"
 ---
 
@@ -14,6 +15,10 @@ sources:
 ## Episode 6
 
 - Freed after party deal with Daniel; evacuated with [[Veyl Corvine]]'s help.
+
+## Episode 9
+
+- Recognizes [[Informant (Loguetown)]] during confrontation on deck ("This one").
 
 ## Related
 

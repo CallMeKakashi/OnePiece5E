@@ -5,6 +5,7 @@ status: draft
 sources:
   - "[[Episode 3 - Fated Encounter]]"
   - "[[Episode 8 - The Lunarfold Tournament Part 1]]"
+  - "[[Episode 9 - The Lunarfold Tournament Part 2]]"
   - "Discord/exports/downtime-actions.md"
 ---
 
@@ -27,6 +28,10 @@ Sixfold operative at [[Spirit Cliff]] (transcript: "Sarika"). Sibling of [[Veyl 
 ## Episode 8
 
 - Crew-ranking tournament: wins bout vs [[Roma]] (cap adjudicates); fights [[Malphas]] (pistol-hands / cannon); ~**3rd** place when Part 1 ends; avoids flying through Malphas in finale tease.
+
+## Episode 9
+
+- Tournament day 2; final crew rank **4th** (below [[Veyl Corvine]]); dismissive of rankings.
 
 ## Related
 
