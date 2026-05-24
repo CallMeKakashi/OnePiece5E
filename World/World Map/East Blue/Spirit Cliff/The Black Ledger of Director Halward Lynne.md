@@ -3,6 +3,7 @@ publish: true
 status: draft
 sources:
   - "Old Notes/The Black Ledger of Director Halward Lynne.md"
+  - "[[Episode 4 - Masquerade]]"
 related_world:
   - "[[Spirit Cliff]]"
   - "[[Sixfold]]"

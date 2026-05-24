@@ -15,6 +15,10 @@ East Blue island — World Government bank branch and Marine Base G-45.
 
 ## Related
 
+- [[Worgoman Bank]]
+- [[Lucien]]
 - [[The Black Ledger of Director Halward Lynne]]
+- [[Bramble]]
+- [[Vorro]]
 - [[Sixfold]]
 - [[Blackhand]]

@@ -8,6 +8,8 @@ sources:
 ---
 # 🕷 The Spider’s Nest – Full Roster with D&D 5e Stat Blocks
 
+Play notes: [[Episode 6 - Hallow's End]] · [[Daniel (Spider's Nest)]] · [[Ben (Spider's Nest)]] · [[Chloe (Spider's Nest)]] · [[Hallow]]
+
 ---
 
 ## 1. One-Arm Tyrant Silas (CR 16) – Captain

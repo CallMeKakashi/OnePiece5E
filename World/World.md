@@ -7,8 +7,14 @@
 		- [[Baptiste (Blackhand unit)]]
 		- [[Blackhand (Cyber)]]
 		- [[Mira the Unbreakable]]
+	- **Marines**
+		- [[Delaroth]]
+		- [[Sir Can Veil]]
+		- [[Vorro]]
 	- **[[Sixfold]]**
+		- [[Cerica Corvine]]
 		- [[Cline The Plague]]
+		- [[Veyl Corvine]]
 - **[[World Map]]**
 	- **East Blue**
 		- **[[Ambercrest]]**
@@ -16,7 +22,10 @@
 		- **[[Driftroot Isle]]**
 			- [[🗡️ Goru Yamashita (formerly Goru Valencruz)]]
 		- **[[Spirit Cliff]]**
+			- [[Bramble]]
+			- [[Lucien]]
 			- [[The Black Ledger of Director Halward Lynne]]
+			- [[Worgoman Bank]]
 	- **Grand Line**
 		- **[[Decibella Kingdom]]**
 			- [[Baron Woofer]]

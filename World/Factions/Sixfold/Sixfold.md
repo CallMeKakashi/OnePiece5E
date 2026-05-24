@@ -14,9 +14,9 @@ Mercenary organization (reformed after the Motley Crew prologue). Headquarters a
 
 - [[Cline The Plague]] — alias *The Plague*; Devil Fruit: Sick-Sick (Eki Eki no Mi)
 
-## Named in timeline / archive (sheets TBD)
+## Named in timeline / archive
 
-- **Veyl**, **Serica Corven** — operatives; Spirit Cliff incident
+- [[Veyl Corvine]], [[Cerica Corvine]] — operatives; Spirit Cliff (Episode 3)
 - **Vorro**, **Rias**, **Silas** — missing / antagonist arc (prologue)
 - **Dr. Linus Marrow** — former member (see party notes)
 
