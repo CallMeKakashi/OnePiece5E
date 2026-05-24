@@ -1,3 +1,33 @@
+---
+status: draft
+sources:
+  - "Old Notes/The Black Ledger of Director Halward Lynne.md"
+related_world:
+  - "[[Spirit Cliff]]"
+  - "[[Sixfold]]"
+  - "[[Blackhand]]"
+  - "[[Cline The Plague]]"
+  - "[[Driftroot Isle]]"
+related_events:
+  - "[[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]"
+---
+
+# The Black Ledger of Director Halward Lynne
+
+> **Name:** Ledger author **Halward Lynne** (H.L.). Herald/tables sometimes spell the branch director **Halwald** — treat as press variant unless retconned.
+
+## Related
+
+- [[Spirit Cliff]]
+- [[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]
+- [[Cline The Plague]]
+- [[Sixfold]]
+- [[Blackhand]]
+- [[Driftroot Isle]]
+- House Veriellies (TBD) · Germa Kingdom (TBD)
+
+---
+
 _(Written in dense, uniform handwriting; the ink is faded but unnervingly neat.)_
 
 ---

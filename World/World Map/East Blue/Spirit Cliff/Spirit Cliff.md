@@ -14,5 +14,6 @@ East Blue island — World Government bank branch and Marine Base G-45.
 
 ## Related
 
+- [[The Black Ledger of Director Halward Lynne]]
 - [[Sixfold]]
 - [[Blackhand]]
