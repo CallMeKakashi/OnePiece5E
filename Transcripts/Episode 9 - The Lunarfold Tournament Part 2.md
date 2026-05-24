@@ -17,7 +17,7 @@ sources:
 ### Summary
 
 - **Tournament day 2:** [[Malphas]] hides from [[Roma]] (cabinet); Roma KO's Malphas (skillet); [[Baptiste]] vs [[Veyl Corvine]] — Baptiste wins (wing slam through deck); **[[Malphas]] tournament champion** (final standing fight).
-- **Final rankings:** [[Baptiste]] → [[Malphas]] → [[Veyl Corvine]] → [[Cerica Corvine]] → [[Roma]] → [[Malphas]] last (**Bob** dead last in bracket).
+- **Final rankings:** [[Baptiste]] → [[Malphas]] → [[Veyl Corvine]] → [[Cerica Corvine]] → [[Roma]] → Bob last.
 - **Sea rescue:** woman ~20, black clothes, pulled from log — claims merchant capsized en route to **Loguetown**; reacts to **Vireth**; informant with **blank notebook**; caged on Spider's Nest ship.
 - **Journal trade:** party gives G-45 **journal**, blueprints, shipment ledgers for intel — Vireth last seen North Blue → South Blue near marine outpost; **[[Liz Marrow]]** named; journal later **blank** to readers (decoy / enchantment?).
 - **Interrogation:** Roma skillet threats; [[Veyl Corvine]] violence; detect thoughts — needs to "save After" (surface thought); released after accompaniment intel (besides Liz).
