@@ -1,7 +1,8 @@
 ---
-type:
-  - NPC
+type: actor
+faction: "[[Marines]]"
 status: draft
+publish: true
 sources:
   - "[[Episode 5 - Shackles Broken]]"
   - "[[Episode 21 - House of Justice]]"
@@ -11,9 +12,21 @@ sources:
   - "[[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]"
 ---
 
-# Vorro
+## Description
 
-**Marine Captain** at [[Spirit Cliff]] (G-45). Transcript speech-to-text: "Warro" / "Morrow."
+Transcript speech-to-text: "Warro" / "Morrow."
+
+## Role
+
+**Marine Captain** at [[Spirit Cliff]] (G-45), later promoted to **Commodore** on judiciary islands. Founding member of the [[Motley Crew]].
+
+## Personal Quests
+
+(To be developed from episode threads)
+
+## Backstory
+
+Founding member of the [[Motley Crew]], now serving in the [[Marines]].
 
 ## Episode 5
 
@@ -28,6 +41,7 @@ sources:
 
 ## Related
 
+- [[Motley Crew]]
 - [[Spirit Cliff]]
 - [[Worgoman Bank]]
 - [[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]

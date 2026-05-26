@@ -13,6 +13,7 @@
 .nav-folder-title[data-path="scripts"],
 .nav-folder-title[data-path="Discord"],
 .nav-folder-title[data-path="Daily"],
+.nav-folder-title[data-path="Attachments"],
 .tree-item-self.nav-folder-title[data-path="Categories"],
 .tree-item-self.nav-folder-title[data-path="Clippings"],
 .tree-item-self.nav-folder-title[data-path="References"],
@@ -22,6 +23,7 @@
 .tree-item-self.nav-folder-title[data-path="scripts"],
 .tree-item-self.nav-folder-title[data-path="Discord"],
 .tree-item-self.nav-folder-title[data-path="Daily"],
+.tree-item-self.nav-folder-title[data-path="Attachments"],
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Categories"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Clippings"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="References"]),
@@ -30,7 +32,8 @@
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="docs"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="scripts"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Discord"]),
-.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Daily"]) {
+.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Daily"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Attachments"]) {
   display: none !important;
 }
 
@@ -43,7 +46,8 @@
 .nav-folder-title[data-path="docs"] + .nav-folder-children,
 .nav-folder-title[data-path="scripts"] + .nav-folder-children,
 .nav-folder-title[data-path="Discord"] + .nav-folder-children,
-.nav-folder-title[data-path="Daily"] + .nav-folder-children {
+.nav-folder-title[data-path="Daily"] + .nav-folder-children,
+.nav-folder-title[data-path="Attachments"] + .nav-folder-children {
   display: none !important;
 }
 
@@ -56,7 +60,8 @@
 .nav-files-container .tree-item [data-path="docs"],
 .nav-files-container .tree-item [data-path="scripts"],
 .nav-files-container .tree-item [data-path="Discord"],
-.nav-files-container .tree-item [data-path="Daily"] {
+.nav-files-container .tree-item [data-path="Daily"],
+.nav-files-container .tree-item [data-path="Attachments"] {
   display: none !important;
 }
 

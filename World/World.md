@@ -1,21 +1,59 @@
 %% Begin Waypoint %%
 - **Factions**
 	- **[[Blackhand]]**
+		- **[[Gentle Giant Pirates]]**
+			- [[Kalla of Shandia]]
+			- [[Shako]]
+		- **[[Lunarfolds]]**
+			- [[Baptiste]]
+			- [[Cade Tigor Cooper]]
+			- [[Malphas]]
+			- [[Roma]]
+			- [[Zim]]
 		- [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”]]
 		- [[🎶 Red — “The Songbird of the Black Comet”]]
 		- [[🦾 Saplea D. Isla — “Dreadnaught”]]
 		- [[Baptiste (Blackhand unit)]]
 		- [[Blackhand (Cyber)]]
+		- [[Blackhand Cane]]
 		- [[Mira the Unbreakable]]
+		- [[Morley]]
+		- [[Renzo]]
+		- [[Tray]]
+	- **[[Decibella Revolutionary]]**
+		- [[Cadence]]
+		- [[Riff Sin]]
 	- **Marines**
 		- [[Commander Leon]]
 		- [[Delaroth]]
+		- [[Graff Bolt]]
 		- [[Sir Can Veil]]
 		- [[Vorro]]
+	- **[[Motley Crew]]**
+		- [[Aralia]]
+		- [[Astor]]
+		- [[Linus Marrow]]
+		- [[Pasha]]
+		- [[Rias]]
+		- [[Ronan]]
+	- **[[Mugen Industries]]**
+		- [[Hallow]]
 	- **[[Sixfold]]**
 		- [[Cerica Corvine]]
 		- [[Cline The Plague]]
+		- [[Liz]]
 		- [[Veyl Corvine]]
+	- **[[Soundless 5]]**
+		- [[Baron Woofer]]
+		- [[Echo Spy]]
+		- [[Lady Soefra Anthem]]
+		- [[Mezzo Troop]]
+		- [[Synth]]
+	- **[[Spider Nest Pirates]]**
+		- [[Ben]]
+		- [[Chloe]]
+		- [[Daniel]]
+		- [[Simon The One Armed Tyrant]]
 - **[[World Map]]**
 	- **East Blue**
 		- **[[Ambercrest]]**
@@ -29,10 +67,6 @@
 			- [[Worgoman Bank]]
 	- **Grand Line**
 		- **[[Decibella Kingdom]]**
-			- [[Baron Woofer]]
-			- [[Echo Spy]]
-			- [[Lady Soefra Anthem]]
-			- [[Mezzo Troop]]
 	- **North Blue**
 		- **[[Frosthaven]]**
 			- [[Frosthaven NPC's]]

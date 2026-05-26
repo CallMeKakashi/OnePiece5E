@@ -12,12 +12,13 @@ Mercenary organization (reformed after the Motley Crew prologue). Headquarters a
 
 ## Members (migrated sheets)
 
+- [[Liz]] — leader; Paper Paper Fruit awakening
 - [[Cline The Plague]] — alias *The Plague*; Devil Fruit: Sick-Sick (Eki Eki no Mi)
 
 ## Named in timeline / archive
 
 - [[Veyl Corvine]], [[Cerica Corvine]] — operatives; Spirit Cliff (Episode 3)
-- **Vorro**, **Rias**, **Silas** — missing / antagonist arc (prologue)
+- **Vorro**, **Rias**, [[Simon The One Armed Tyrant]] — missing / antagonist arc (prologue)
 - **Dr. Linus Marrow** — former member (see party notes)
 
 ## Timeline

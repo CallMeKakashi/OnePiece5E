@@ -1,14 +1,27 @@
 ---
-type:
-  - NPC
+type: actor
+faction: "[[Marines]]"
 status: draft
+publish: true
 sources:
   - "[[Episode 5 - Shackles Broken]]"
 ---
 
-# Sir Can Veil
+## Description
 
-Marine operative (transcript spelling) deployed to recover the **chest** during the [[Worgoman Bank]] crisis at [[Spirit Cliff]]. Knows the real objective is not the decoy book party threw.
+Marine operative (transcript spelling) deployed at [[Spirit Cliff]].
+
+## Role
+
+[[Marines]] operative. Sent to recover the **chest** during the [[Worgoman Bank]] crisis. Knows the real objective is not the decoy book party threw.
+
+## Personal Quests
+
+(To be developed)
+
+## Backstory
+
+(To be developed)
 
 ## Episode 5
 

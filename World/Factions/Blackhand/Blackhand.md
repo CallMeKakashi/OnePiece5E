@@ -7,15 +7,39 @@ sources:
 
 # Blackhand
 
-Pirate organization and associated **Blackhand unit** (field operatives). Leader: **Blackhand Cane** — see [[Blackhand (Cyber)]] for weaponized/cyborg form notes.
+Pirate organization led by **[[Blackhand Cane]]** — see [[Blackhand (Cyber)]] for his weaponized/cyborg form. Commands multiple fleets across the seas, each with its own commander.
 
-## Unit (moved from Old Notes)
+## Leadership
 
-- [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”|Fenris Wolfblood]]
-- [[🎶 Red — “The Songbird of the Black Comet”|Red]]
-- [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea D. Isla]]
-- [[Mira the Unbreakable]]
-- [[Baptiste (Blackhand unit)]] — stub; full sheet TBD
+- [[Blackhand Cane]] — captain
+- [[Renzo]] — right-hand man, hammerhead shark fishman
+- [[Morley]] — veteran crew member (deceased — killed protecting [[Ronan]])
+- [[Tray]] — crew member, part of Mira's inner circle
+
+## Blackhand Unit (field operatives)
+
+- [[⚔️ Fenris Wolfblood — "The Blood of Sun and Shadow"|Fenris Wolfblood]]
+- [[🎶 Red — "The Songbird of the Black Comet"|Red]]
+- [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea D. Isla]]
+- [[Mira the Unbreakable]] — 4th Fleet Commander
+- [[Baptiste (Blackhand unit)]] — Devil Fruit user; full sheet TBD
+
+## Lunarfolds (player crew unit)
+
+→ *Main article: [[Lunarfolds]]*
+
+- [[Roma]] — cook, wolf mink
+- [[Baptiste]] — Lunarian fighter
+- [[Cade Tigor Cooper]]
+- [[Malphas]] — Lunarian, Thunderbird Zoan
+- [[Zim]] — spy / informant
+
+## Gentle Giant Pirates (unit)
+
+→ *Main article: [[Gentle Giant Pirates]]*
+
+- [[Kalla of Shandia]] — scholar, Skypiean
+- [[Shako]] — mantis shrimp fishman, shipwright
 
 ## Timeline
 

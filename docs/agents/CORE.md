@@ -25,24 +25,21 @@ Do **not** create, edit, delete, rename, or move any file unless the user explic
 - `Sessions/`
 - `Transcripts/`
 - `Timeline/`
-- `World/`
-- `Characters/`
-- `Crew/`
-- `Party NPC's/`
+- `World/` (includes `World/Factions/` — all actor and faction pages)
 - `Journals/`
-- `Rules/`
-- `source/`
-- `Attachments/`
+- `Rules/` (homebrew only)
+- `source/` (One Piece D&D reference)
 
-### Tier 2 — Obsidian infrastructure (do not read unless asked)
+### Tier 2 — hidden in explorer (do not read unless asked)
 
 - `Categories/`
 - `Clippings/`
 - `References/`
 - `Notes/`
 - `Templates/`
+- `Attachments/`
 
-These folders support Obsidian workflows (templates, PKM). They are not primary campaign context.
+These folders support Obsidian workflows (templates, PKM, media). They are not primary campaign context.
 
 ## Obsidian explorer
 
@@ -67,13 +64,24 @@ For **in-world chronology** (dates, headlines, between-session world reactions),
 
 Linking and organizing these is in progress — do not reorganize without approval.
 
-## People buckets
+## Actors and factions
 
-| Folder | Who |
-|--------|-----|
-| `Characters/` | Player characters |
-| `Crew/` | Permanent ship NPCs |
-| `Party NPC's/` | Temporary allies |
+All named characters (PCs, crew, NPCs, antagonists) live under their faction in `World/Factions/`. Each faction has a folder containing a faction overview page and individual actor pages.
+
+| Faction | Path | Notes |
+|---------|------|-------|
+| Blackhand | `World/Factions/Blackhand/` | Parent pirate org with sub-units |
+| Lunarfolds | `World/Factions/Blackhand/Lunarfolds/` | Player party crew (Blackhand unit) |
+| Gentle Giant Pirates | `World/Factions/Blackhand/Gentle Giant Pirates/` | Blackhand unit |
+| Sixfold | `World/Factions/Sixfold/` | Mercenary organization |
+| Marines | `World/Factions/Marines/` | Naval military |
+| Motley Crew | `World/Factions/Motley Crew/` | Historical founding crew |
+| Decibella Revolutionary | `World/Factions/Decibella Revolutionary/` | Rebellion group |
+| Spider Nest Pirates | `World/Factions/Spider Nest Pirates/` | Pirate crew |
+| Soundless 5 | `World/Factions/Soundless 5/` | Decibella Kingdom enforcers |
+| Mugen Industries | `World/Factions/Mugen Industries/` | Industrial faction |
+
+Actor pages use the template: Description → Role → Personal Quests → Backstory.
 
 ## Wikilinks
 

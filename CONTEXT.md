@@ -1,6 +1,6 @@
 # Blood & Brine
 
-Obsidian vault for the **Blood & Brine** One Piece D&D campaign — sessions, world state, party, rules reference, and episode transcripts.
+Obsidian vault for the **Blood & Brine** One Piece D&D campaign — sessions, world state, factions, rules reference, and episode transcripts.
 
 ## Language
 
@@ -24,17 +24,13 @@ _Avoid_: Session note
 Pre-session prep document (e.g. `Sessions/This session.md`).
 _Avoid_: Recap, session note
 
-**Character**:
-A player character (PC); notes in `Characters/`.
-_Avoid_: Crew member, NPC
+**Actor**:
+Any named character in the campaign — PC, permanent crew, temporary ally, antagonist, or faction officer. Actor pages live under their faction in `World/Factions/`.
+_Avoid_: Character, NPC, Crew member (as folder-based categories)
 
-**Crew**:
-A permanent NPC who travels with the party; notes in `Crew/`.
-_Avoid_: Party NPC, Character
-
-**Party NPC**:
-A temporary ally, passenger, or short-term companion; notes in `Party NPC's/`.
-_Avoid_: Crew, Character
+**Faction**:
+A pirate crew, military branch, organization, or named group. Each faction has a folder under `World/Factions/` containing a faction overview page and actor pages for its members. Sub-units (e.g. Lunarfolds under Blackhand) nest as subfolders.
+_Avoid_: Treating actors as separate from factions
 
 **World**:
 Locations, regions, factions, and lore; notes in `World/`.
@@ -53,15 +49,36 @@ An in-fiction press article (`type: newspaper` in `Timeline/`); headlines from t
 _Avoid_: Session note, transcript, rules text
 
 **Source**:
-Imported One Piece D&D rules reference converted from PDFs; notes in `source/`.
+Imported One Piece D&D rules reference (DM Guide + Player's Guide) converted from PDFs; notes in `source/`.
 _Avoid_: World (fiction), Rules (homebrew only)
+
+**Rules**:
+Homebrew rules, homebrew items, and campaign-specific mechanics in `Rules/`. Not source-book content.
+_Avoid_: Source (imported reference material)
+
+## Factions
+
+All named characters live under their faction in `World/Factions/`. Current factions:
+
+| Faction | Location | Notes |
+|---------|----------|-------|
+| [[Blackhand]] | `World/Factions/Blackhand/` | Parent pirate organization; contains sub-units |
+| [[Lunarfolds]] | `World/Factions/Blackhand/Lunarfolds/` | Player party crew; Blackhand unit |
+| [[Gentle Giant Pirates]] | `World/Factions/Blackhand/Gentle Giant Pirates/` | Blackhand unit |
+| [[Sixfold]] | `World/Factions/Sixfold/` | Mercenary organization |
+| [[Marines]] | `World/Factions/Marines/` | Naval military |
+| [[Motley Crew]] | `World/Factions/Motley Crew/` | Historical founding crew |
+| [[Decibella Revolutionary]] | `World/Factions/Decibella Revolutionary/` | Rebellion group |
+| [[Spider Nest Pirates]] | `World/Factions/Spider Nest Pirates/` | Pirate crew |
+| [[Soundless 5]] | `World/Factions/Soundless 5/` | Decibella Kingdom enforcers |
+| [[Mugen Industries]] | `World/Factions/Mugen Industries/` | Industrial faction |
 
 ## Relationships
 
 - A **Session** and an **Episode** often describe the same play but are not always 1:1 (e.g. `Session - 24.5`, split Episode 20 parts).
 - A **Session** may have an **Outline**, a **Session** note, and one or more **Transcript** files.
-- **Character**, **Crew**, and **Party NPC** are disjoint people buckets.
-- **World** is in-fiction; **Source** is rules reference.
+- **Actors** belong to **Factions**; some actors have historical ties to multiple factions (e.g. Motley Crew founding members who joined Sixfold or Marines).
+- **World** is in-fiction; **Source** is rules reference; **Rules** is homebrew.
 - **Timeline** orders by in-world date (flexible precision), not session or episode number.
 - **Newspaper** notes live on the **Timeline**; promote `status` to `canon` after review.
 
@@ -76,9 +93,9 @@ _Avoid_: World (fiction), Rules (homebrew only)
 
 **Assistant**: I'll read `Sessions/This session.md` if it's for the upcoming play, or `Transcripts/Episode 28 …` for what actually happened at the table/recording. I won't assume Session 28 maps to Episode 28 without checking titles.
 
-**DM**: Is Riff Sin on the crew?
+**DM**: Where is Riff Sin's page?
 
-**Assistant**: Riff is in `Party NPC's/`, not `Crew/` — a temporary ally, not a permanent shipmate.
+**Assistant**: Riff Sin is under `World/Factions/Decibella Revolutionary/Riff Sin.md` — he's a member of the Decibella Revolutionary faction.
 
 **DM**: What did the Tribune say about G-55?
 

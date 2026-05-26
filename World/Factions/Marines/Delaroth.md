@@ -1,14 +1,27 @@
 ---
-type:
-  - NPC
+type: actor
+faction: "[[Marines]]"
 status: draft
+publish: true
 sources:
   - "[[Episode 5 - Shackles Broken]]"
 ---
 
-# Delaroth
+## Description
 
-Antagonist who directed **[[Sixfold]]** ([[Cerica Corvine]], [[Veyl Corvine]]) to intercept the crew at [[Spirit Cliff]] instead of leaving the matter to the Marines alone. Transcript variants: Delarot, Delrot.
+Transcript variants: Delarot, Delrot.
+
+## Role
+
+Antagonist who directed [[Sixfold]] ([[Cerica Corvine]], [[Veyl Corvine]]) to intercept the crew at [[Spirit Cliff]] instead of leaving the matter to the [[Marines]] alone.
+
+## Personal Quests
+
+(To be developed)
+
+## Backstory
+
+(To be developed)
 
 ## Episode 5
 

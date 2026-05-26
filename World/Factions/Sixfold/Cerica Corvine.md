@@ -1,7 +1,8 @@
 ---
-type:
-  - NPC
+type: actor
+faction: "[[Sixfold]]"
 status: draft
+publish: true
 sources:
   - "[[Episode 3 - Fated Encounter]]"
   - "[[Episode 8 - The Lunarfold Tournament Part 1]]"
@@ -9,9 +10,21 @@ sources:
   - "Discord/exports/downtime-actions.md"
 ---
 
-# Cerica Corvine
+## Description
 
 Sixfold operative at [[Spirit Cliff]] (transcript: "Sarika"). Sibling of [[Veyl Corvine]]. Hot-headed; hands can warp into pistols (transcript). Bounty **redacted** on local posters.
+
+## Role
+
+[[Sixfold]] operative. Founding member of the [[Motley Crew]]. Ranked **4th** on crew ladder after tournament.
+
+## Personal Quests
+
+(To be developed from episode threads)
+
+## Backstory
+
+Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative alongside sibling [[Veyl Corvine]].
 
 ## Episode 3
 
@@ -36,4 +49,5 @@ Sixfold operative at [[Spirit Cliff]] (transcript: "Sarika"). Sibling of [[Veyl 
 ## Related
 
 - [[Sixfold]]
+- [[Motley Crew]]
 - [[Veyl Corvine]]

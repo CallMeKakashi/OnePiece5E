@@ -21,10 +21,11 @@ How the vault file explorer is trimmed for campaign prep without breaking templa
 | `docs/`, `scripts/` | Agent / tooling |
 | `Discord/` | Export quarry — curated content lives in `Timeline/`, `World/` |
 | `Daily/` | Daily-notes plugin storage — open via command/calendar, not tree |
+| `Attachments/` | Images and PDFs — embedded via `![[]]`, no need to browse directly |
 
 ## Campaign-visible folders (Tier 1)
 
-`Sessions/`, `Transcripts/`, `Timeline/`, `World/`, `Characters/`, `Crew/`, `Party NPC's/`, `Journals/`, `Rules/`, `source/`, `Attachments/`
+`Sessions/`, `Transcripts/`, `Timeline/`, `World/`, `Journals/`, `Rules/`, `source/`
 
 ## Implementation files
 

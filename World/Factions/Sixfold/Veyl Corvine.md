@@ -1,7 +1,8 @@
 ---
-type:
-  - NPC
+type: actor
+faction: "[[Sixfold]]"
 status: draft
+publish: true
 sources:
   - "[[Episode 3 - Fated Encounter]]"
   - "[[Episode 8 - The Lunarfold Tournament Part 1]]"
@@ -9,9 +10,21 @@ sources:
   - "Discord/exports/downtime-actions.md"
 ---
 
-# Veyl Corvine
+## Description
 
-Sixfold operative at [[Spirit Cliff]] (transcript: "Whale" / Wyll). Sibling of [[Cerica Corvine]]. Bounty poster **redacted** in Episode 3; can phase through bodies and remove marines without killing.
+Sixfold operative at [[Spirit Cliff]] (transcript: "Whale" / Wyll). Sibling of [[Cerica Corvine]]. Can phase through bodies and remove marines without killing. Bounty poster **redacted** in Episode 3.
+
+## Role
+
+[[Sixfold]] operative. Founding member of the [[Motley Crew]]. Ranked **3rd** on crew ladder after tournament.
+
+## Personal Quests
+
+(To be developed from episode threads)
+
+## Backstory
+
+Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative. Sent by [[Linus Marrow]] to observe the crew at Spirit Cliff.
 
 ## Episode 3
 
@@ -37,5 +50,6 @@ Sixfold operative at [[Spirit Cliff]] (transcript: "Whale" / Wyll). Sibling of [
 ## Related
 
 - [[Sixfold]]
+- [[Motley Crew]]
 - [[Cerica Corvine]]
 - [[Linus Marrow]]
