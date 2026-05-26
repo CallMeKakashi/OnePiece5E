@@ -100,10 +100,14 @@
         "subclass": { "sources": ["subclasses"] },
         "feat": { "sources": ["class-features", "racial-features", "feats"] },
         "race": { "sources": ["races"] },
+        "background": { "sources": ["backgrounds"] },
         "equipment": { "sources": ["items"] },
+        "weapon": { "sources": ["items"] },
+        "tool": { "sources": ["items"] },
+        "consumable": { "sources": ["items"] },
+        "loot": { "sources": ["items"] },
         "spell": { "sources": ["creations"] }
       },
-      "background": { "sources": ["backgrounds"] },
       "sourceBooks": {
         "OP5e": {
           "label": "One Piece 5e",

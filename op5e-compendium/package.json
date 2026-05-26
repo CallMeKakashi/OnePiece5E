@@ -8,7 +8,10 @@
     "build": "npm run build:json && npm run build:db",
     "build:json": "tsx data/build.ts",
     "build:db": "tsx data/compile.ts",
-    "clean": "rimraf packs packs-src"
+    "package": "tsx data/package.ts",
+    "release": "npm run clean && npm run build && npm run package",
+    "serve": "npx -y http-server dist -p 8080 -c-1 --cors",
+    "clean": "rimraf packs packs-src dist"
   },
   "dependencies": {
     "@foundryvtt/foundryvtt-cli": "^3.0.0",

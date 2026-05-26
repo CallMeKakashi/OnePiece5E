@@ -19,6 +19,38 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 const PACKS_SRC = join(ROOT, "packs-src");
 
+// foundryvtt-cli compilePack hierarchy: items have embedded effects.
+// LevelDB stores them as separate keys with dot-joined paths.
+const EMBEDDED_COLLECTIONS: Record<string, string[]> = {
+  items: ["effects"],
+};
+
+function addLevelDBKeys(
+  doc: Record<string, unknown>,
+  collection: string,
+  sublevelPrefix = "",
+  idPrefix = "",
+): void {
+  const sublevel = [sublevelPrefix, collection].filter(Boolean).join(".");
+  const id = [idPrefix, doc._id as string].filter(Boolean).join(".");
+  doc._key = `!${sublevel}!${id}`;
+
+  for (const embedded of EMBEDDED_COLLECTIONS[collection] ?? []) {
+    const arr = doc[embedded];
+    if (!Array.isArray(arr)) continue;
+    for (const child of arr) {
+      if (child && typeof child === "object" && "_id" in child) {
+        addLevelDBKeys(
+          child as Record<string, unknown>,
+          embedded,
+          sublevel,
+          id,
+        );
+      }
+    }
+  }
+}
+
 interface PackConfig {
   name: string;
   srcDir: string;
@@ -90,6 +122,7 @@ async function buildPack(config: PackConfig): Promise<Stats> {
 
     const doc = result.data as Record<string, unknown>;
     const id = doc._id as string;
+    addLevelDBKeys(doc, "items");
     const filename = `${id}.json`;
     writeFileSync(
       join(outDir, filename),
