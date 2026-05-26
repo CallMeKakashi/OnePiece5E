@@ -34,6 +34,7 @@ const PACK_CONFIGS: PackConfig[] = [
   { name: "feats", srcDir: "feats", schema: featureItemSchema },
   { name: "items", srcDir: "items", schema: foundryItemBase },
   { name: "creations", srcDir: "creations", schema: foundryItemBase },
+  { name: "backgrounds", srcDir: "backgrounds", schema: foundryItemBase },
 ];
 
 interface Stats {

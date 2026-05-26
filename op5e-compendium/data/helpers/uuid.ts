@@ -8,7 +8,8 @@ export type PackName =
   | "racial-features"
   | "feats"
   | "items"
-  | "creations";
+  | "creations"
+  | "backgrounds";
 
 /**
  * Build a Foundry compendium UUID for a document in this module.

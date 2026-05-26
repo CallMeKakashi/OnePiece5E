@@ -70,6 +70,13 @@
       "path": "packs/creations",
       "type": "Item",
       "system": "dnd5e"
+    },
+    {
+      "name": "backgrounds",
+      "label": "OP5e Backgrounds & Roles",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
@@ -79,7 +86,7 @@
     },
     {
       "name": "One Piece 5e — Character Options",
-      "packs": ["races", "racial-features", "feats"]
+      "packs": ["races", "racial-features", "feats", "backgrounds"]
     },
     {
       "name": "One Piece 5e — Equipment & Creations",
@@ -96,6 +103,7 @@
         "equipment": { "sources": ["items"] },
         "spell": { "sources": ["creations"] }
       },
+      "background": { "sources": ["backgrounds"] },
       "sourceBooks": {
         "OP5e": {
           "label": "One Piece 5e",

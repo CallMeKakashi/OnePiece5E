@@ -1,8 +1,17 @@
 import type { FeatureItem } from "../../schemas/feature.js";
 
+// --- Additional Powers (Chapter 7) ---
+import { additionalPowerFeatures } from "./additional/index.js";
+
 // --- Fighter ---
 import { fighterFeatures } from "./fighter.js";
 import { fighterStyles } from "./fighter-styles.js";
+import { marksmanStyles } from "./marksman-styles.js";
+import { savantStyles } from "./savant-styles.js";
+import { barbarianStyles } from "./barbarian-styles.js";
+import { bardStyles } from "./bard-styles.js";
+import { brawlerStyles } from "./brawler-styles.js";
+import { hakiAbilities } from "./haki.js";
 import { championFeatures } from "../subclasses/fighter-champion.js";
 import { battlemasterFeatures } from "../subclasses/fighter-battlemaster.js";
 import { bruteFeatures } from "../subclasses/fighter-brute.js";
@@ -112,6 +121,13 @@ export const items: FeatureItem[] = [
   // Fighter
   ...fighterFeatures,
   ...fighterStyles,
+  ...marksmanStyles,
+  ...savantStyles,
+  ...barbarianStyles,
+  ...bardStyles,
+  ...brawlerStyles,
+  // Haki
+  ...hakiAbilities,
   ...championFeatures,
   ...battlemasterFeatures,
   ...bruteFeatures,
@@ -208,5 +224,7 @@ export const items: FeatureItem[] = [
   ...savantRadiantSuperiorityFeatures,
   ...savantThunderingResolveFeatures,
   ...savantVenomousDualityFeatures,
+  // Additional Powers (Chapter 7)
+  ...additionalPowerFeatures,
 ];
 export default items;
