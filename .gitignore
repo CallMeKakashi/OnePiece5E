@@ -18,9 +18,23 @@ __pycache__/
 *.pyc
 
 # Foundry module build artifacts (OP5e)
-op5e-*/node_modules/
-op5e-*/dist/
-op5e-*/packs/
-op5e-*/packs-src/
-op5e-*/tmpdist/
-op5e-*.zip
+op5e/node_modules/
+op5e/dist/
+op5e/packs/
+op5e/packs-src/
+op5e/tmpdist/
+op5e/*.zip
+op5e/dev/*/node_modules/
+op5e/dev/*/dist/
+# Legacy split modules (redirect READMEs only)
+op5e-compendium/node_modules/
+op5e-compendium/dist/
+op5e-compendium/packs/
+op5e-compendium/packs-src/
+op5e-compendium/*.zip
+op5e-character-creator/node_modules/
+op5e-character-creator/*.zip
+op5e-compendium-test/node_modules/
+op5e-compendium-test/dist/
+op5e-character-creator-test/node_modules/
+op5e-character-creator-test/dist/

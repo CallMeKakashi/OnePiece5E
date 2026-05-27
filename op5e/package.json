@@ -1,0 +1,31 @@
+{
+  "name": "op5e",
+  "version": "0.2.2",
+  "private": true,
+  "type": "module",
+  "description": "Unified One Piece 5e Foundry module (compendium, character creator, runtime hooks)",
+  "scripts": {
+    "build": "npm run build:json && npm run build:db",
+    "build:json": "node node_modules/tsx/dist/cli.mjs data/build.ts",
+    "build:db": "node node_modules/tsx/dist/cli.mjs data/compile.ts",
+    "package": "node node_modules/tsx/dist/cli.mjs scripts/package.mjs",
+    "release": "npm run clean && npm run build && npm run package",
+    "serve": "npx -y http-server dist -p 8080 -c-1 --cors",
+    "test": "node node_modules/vitest/vitest.mjs run",
+    "test:watch": "node node_modules/vitest/vitest.mjs",
+    "test:ci": "node node_modules/vitest/vitest.mjs run --reporter=default",
+    "clean": "node ./node_modules/rimraf/dist/esm/bin.mjs packs packs-src dist"
+  },
+  "dependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "rimraf": "^6.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^3.2.4",
+    "yazl": "^3.3.1"
+  }
+}

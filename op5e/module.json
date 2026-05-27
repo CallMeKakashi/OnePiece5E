@@ -1,0 +1,205 @@
+{
+  "id": "op5e",
+  "title": "One Piece 5e (Blood & Brine)",
+  "description": "Unified OP5e Foundry module: compendium packs, character creator wizard, critical-damage rules, and optional JB2A/Sequencer animations.",
+  "version": "0.2.2",
+  "manifest": "https://github.com/Blood-and-Brine/blood-brine/releases/latest/download/module.json",
+  "download": "https://github.com/Blood-and-Brine/blood-brine/releases/download/v0.2.2/op5e.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "system": ["dnd5e"],
+  "authors": [
+    {
+      "name": "Blood & Brine"
+    }
+  ],
+  "esmodules": [
+    "scripts/compendium.mjs",
+    "scripts/character-creator.mjs"
+  ],
+  "styles": ["styles/module.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "classes",
+      "label": "OP5e Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "subclasses",
+      "label": "OP5e Subclasses",
+      "path": "packs/subclasses",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "class-features",
+      "label": "OP5e Class Features",
+      "path": "packs/class-features",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "races",
+      "label": "OP5e Races",
+      "path": "packs/races",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "racial-features",
+      "label": "OP5e Racial Features",
+      "path": "packs/racial-features",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "feats",
+      "label": "OP5e Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "items",
+      "label": "OP5e Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "creations",
+      "label": "OP5e Creations",
+      "path": "packs/creations",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "backgrounds",
+      "label": "OP5e Backgrounds & Roles",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "One Piece 5e",
+      "packs": [
+        "classes",
+        "subclasses",
+        "class-features",
+        "races",
+        "racial-features",
+        "feats",
+        "backgrounds",
+        "items",
+        "creations"
+      ]
+    }
+  ],
+  "relationships": {
+    "recommends": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "reason": "Dependency for several automation/animation modules in the OP5e stack"
+      },
+      {
+        "id": "socketlib",
+        "type": "module",
+        "reason": "Socket helpers used by some automation/animation modules"
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "reason": "Automated active effects on compendium features"
+      },
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "reason": "Attack/damage workflows and animation hooks"
+      },
+      {
+        "id": "dnd5e-animations",
+        "type": "module",
+        "reason": "Animation database/routing for dnd5e actions (pairs with Sequencer/JB2A)"
+      },
+      {
+        "id": "autoanimations",
+        "type": "module",
+        "reason": "Automated Animations integration for midi-qol workflows"
+      },
+      {
+        "id": "psfx",
+        "type": "module",
+        "reason": "Optional particle/SFX effects used by animation stacks"
+      },
+      {
+        "id": "sequencer",
+        "type": "module",
+        "reason": "JB2A animation playback"
+      },
+      {
+        "id": "JB2A_DnD5e",
+        "type": "module",
+        "reason": "Free JB2A animation assets (Foundry module browser)"
+      }
+    ]
+  },
+  "flags": {
+    "dnd5e": {
+      "types": {
+        "class": {
+          "sources": ["classes"]
+        },
+        "subclass": {
+          "sources": ["subclasses"]
+        },
+        "feat": {
+          "sources": ["class-features", "racial-features", "feats"]
+        },
+        "race": {
+          "sources": ["races"]
+        },
+        "background": {
+          "sources": ["backgrounds"]
+        },
+        "equipment": {
+          "sources": ["items"]
+        },
+        "weapon": {
+          "sources": ["items"]
+        },
+        "tool": {
+          "sources": ["items"]
+        },
+        "consumable": {
+          "sources": ["items"]
+        },
+        "loot": {
+          "sources": ["items"]
+        },
+        "spell": {
+          "sources": ["creations"]
+        }
+      },
+      "sourceBooks": {
+        "OP5e": {
+          "label": "One Piece 5e",
+          "abbreviation": "OP5e"
+        }
+      }
+    }
+  }
+}
