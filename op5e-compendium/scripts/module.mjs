@@ -29,6 +29,9 @@ Hooks.on("dnd5e.preRollDamageV2", (_item, config) => {
       if (opts.isCritical !== true) return;
       opts.critical ??= {};
       if (opts.critical && typeof opts.critical === "object") {
+        // Force "max extra dice + normal roll" by ensuring the multiplier does not add extra dice.
+        // DamageRoll.configureDamage will still add a flat maximized bonus when powerfulCritical is enabled.
+        opts.critical.multiplier = 1;
         opts.critical.powerfulCritical = true;
       }
     };
