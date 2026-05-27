@@ -1,0 +1,14 @@
+{
+  "name": "op5e-compendium-test",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Foundry test harness for OP5e Compendium critical damage",
+  "scripts": {
+    "package": "node scripts/package.mjs",
+    "serve": "npx -y http-server dist -p 8084 -c-1 --cors"
+  },
+  "devDependencies": {
+    "yazl": "^3.3.1"
+  }
+}

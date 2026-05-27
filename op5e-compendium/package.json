@@ -1,6 +1,6 @@
 {
   "name": "op5e-compendium",
-  "version": "0.1.4",
+  "version": "0.1.9",
   "private": true,
   "type": "module",
   "description": "Build pipeline for One Piece 5e Foundry VTT compendium packs",
@@ -11,6 +11,7 @@
     "package": "tsx data/package.ts",
     "release": "npm run clean && npm run build && npm run package",
     "serve": "npx -y http-server dist -p 8080 -c-1 --cors",
+    "test": "node --test test/**/*.test.mjs",
     "clean": "rimraf packs packs-src dist"
   },
   "dependencies": {

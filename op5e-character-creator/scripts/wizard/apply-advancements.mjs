@@ -85,6 +85,7 @@ export async function applyStartingBeri(actor, sourceItems) {
   }
   if (total <= 0) return;
 
+  // system.currency.gp is the internal key; CONFIG labels it as Berries (ʙ).
   const currency = foundry.utils.deepClone(actor.system.currency ?? {});
   currency.gp = (Number(currency.gp) || 0) + total;
   await actor.update({ "system.currency": currency });

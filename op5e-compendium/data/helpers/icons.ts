@@ -730,52 +730,76 @@ function getRaceIcon(item: any): string {
   return RACE_ICONS[name] ?? pick(name, [...SOCIAL, ...SYMBOLS]);
 }
 
+// ─── Active Effect icon resolver ────────────────────────────────
+
+function getEffectIcon(effect: { name?: string }, parent: { img?: string; type?: string; system?: unknown }): string {
+  const name = (effect.name ?? "").toLowerCase();
+  const kw = matchKeyword(name);
+  if (kw) return kw;
+  if (parent.img && parent.img !== BAG) return parent.img;
+  if (parent.type === "feat") return getFeatureIcon(parent);
+  return pick(name, [...SYMBOLS, ...MELEE, ...SOCIAL]);
+}
+
+function assignEffectIcons(item: { effects?: unknown[]; img?: string; type?: string; system?: unknown }): void {
+  if (!Array.isArray(item.effects)) return;
+  for (const effect of item.effects) {
+    if (!effect || typeof effect !== "object") continue;
+    const e = effect as { img?: string; name?: string };
+    if (e.img && e.img !== BAG) continue;
+    e.img = getEffectIcon(e, item);
+  }
+}
+
 // ─── Main entry point ───────────────────────────────────────────
 
 export function assignIcon(item: any): void {
   if (!item || typeof item !== "object") return;
-  if (item.img && item.img !== BAG) return;
 
-  const type = item.type ?? "";
+  if (!item.img || item.img === BAG) {
+    const type = item.type ?? "";
 
-  switch (type) {
-    case "spell":
-      item.img = getSpellIcon(item);
-      break;
-    case "weapon":
-      item.img = getWeaponIcon(item);
-      break;
-    case "equipment":
-      item.img = getEquipmentIcon(item);
-      break;
-    case "tool":
-      item.img = getToolIcon(item);
-      break;
-    case "consumable":
-      item.img = getConsumableIcon(item);
-      break;
-    case "loot":
-      item.img = getLootIcon(item);
-      break;
-    case "feat":
-      item.img = getFeatureIcon(item);
-      break;
-    case "subclass":
-      item.img = getSubclassIcon(item);
-      break;
-    case "class":
-      item.img = pick(item.name ?? "", MELEE);
-      break;
-    case "race":
-      item.img = getRaceIcon(item);
-      break;
-    case "background":
-      item.img = getBackgroundIcon(item);
-      break;
-    default:
-      item.img = pick(item.name ?? "", [...MELEE, ...SYMBOLS, ...SOCIAL]);
-      break;
+    switch (type) {
+      case "spell":
+        item.img = getSpellIcon(item);
+        break;
+      case "weapon":
+        item.img = getWeaponIcon(item);
+        break;
+      case "equipment":
+        item.img = getEquipmentIcon(item);
+        break;
+      case "tool":
+        item.img = getToolIcon(item);
+        break;
+      case "consumable":
+        item.img = getConsumableIcon(item);
+        break;
+      case "loot":
+        item.img = getLootIcon(item);
+        break;
+      case "feat":
+        item.img = getFeatureIcon(item);
+        break;
+      case "subclass":
+        item.img = getSubclassIcon(item);
+        break;
+      case "class":
+        item.img = pick(item.name ?? "", MELEE);
+        break;
+      case "race":
+        item.img = getRaceIcon(item);
+        break;
+      case "background":
+        item.img = getBackgroundIcon(item);
+        break;
+      default:
+        item.img = pick(item.name ?? "", [...MELEE, ...SYMBOLS, ...SOCIAL]);
+        break;
+    }
   }
+
+  assignEffectIcons(item);
 }
 
 export function assignIcons<T>(items: T[]): T[] {

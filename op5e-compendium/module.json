@@ -2,20 +2,31 @@
   "id": "op5e-compendium",
   "title": "One Piece 5e Compendium",
   "description": "Compendium packs for the One Piece D&D 5e homebrew system, including classes, subclasses, features, races, feats, items, and creations.",
-  "version": "0.1.4",
+  "version": "0.1.9",
   "manifest": "http://localhost:8080/module.json",
   "download": "http://localhost:8080/op5e-compendium.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
   },
-  "system": ["dnd5e"],
+  "system": [
+    "dnd5e"
+  ],
   "authors": [
     {
       "name": "Blood & Brine"
     }
   ],
-  "esmodules": ["scripts/module.mjs"],
+  "esmodules": [
+    "scripts/module.mjs"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
   "packs": [
     {
       "name": "classes",
@@ -84,23 +95,79 @@
   "packFolders": [
     {
       "name": "One Piece 5e",
-      "packs": ["classes", "subclasses", "class-features", "races", "racial-features", "feats", "backgrounds", "items", "creations"]
+      "packs": [
+        "classes",
+        "subclasses",
+        "class-features",
+        "races",
+        "racial-features",
+        "feats",
+        "backgrounds",
+        "items",
+        "creations"
+      ]
     }
   ],
   "flags": {
     "dnd5e": {
       "types": {
-        "class": { "sources": ["classes"] },
-        "subclass": { "sources": ["subclasses"] },
-        "feat": { "sources": ["class-features", "racial-features", "feats"] },
-        "race": { "sources": ["races"] },
-        "background": { "sources": ["backgrounds"] },
-        "equipment": { "sources": ["items"] },
-        "weapon": { "sources": ["items"] },
-        "tool": { "sources": ["items"] },
-        "consumable": { "sources": ["items"] },
-        "loot": { "sources": ["items"] },
-        "spell": { "sources": ["creations"] }
+        "class": {
+          "sources": [
+            "classes"
+          ]
+        },
+        "subclass": {
+          "sources": [
+            "subclasses"
+          ]
+        },
+        "feat": {
+          "sources": [
+            "class-features",
+            "racial-features",
+            "feats"
+          ]
+        },
+        "race": {
+          "sources": [
+            "races"
+          ]
+        },
+        "background": {
+          "sources": [
+            "backgrounds"
+          ]
+        },
+        "equipment": {
+          "sources": [
+            "items"
+          ]
+        },
+        "weapon": {
+          "sources": [
+            "items"
+          ]
+        },
+        "tool": {
+          "sources": [
+            "items"
+          ]
+        },
+        "consumable": {
+          "sources": [
+            "items"
+          ]
+        },
+        "loot": {
+          "sources": [
+            "items"
+          ]
+        },
+        "spell": {
+          "sources": [
+            "creations"
+          ]
+        }
       },
       "sourceBooks": {
         "OP5e": {

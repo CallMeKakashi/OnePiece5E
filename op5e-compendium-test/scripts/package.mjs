@@ -1,26 +1,28 @@
 import {
-  cpSync,
   createWriteStream,
   existsSync,
+  mkdirSync,
   readFileSync,
   readdirSync,
   statSync,
+  writeFileSync,
 } from "node:fs";
-import { join, dirname } from "node:path";
+import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createRequire } from "node:module";
 
 const require = createRequire(import.meta.url);
-const yazl = require("yazl") as typeof import("yazl");
+const yazl = require("yazl");
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 const DIST = join(ROOT, "dist");
-const MODULE_ID = "op5e-compendium";
+const MODULE_ID = "op5e-compendium-test";
+const PORT = process.env.SERVE_PORT ?? "8084";
 
-const INCLUDE = ["module.json", "scripts", "lang", "packs"];
+const INCLUDE = ["module.json", "scripts"];
 
-function addDirectory(zip: InstanceType<typeof yazl.ZipFile>, dir: string, zipPrefix: string): number {
+function addDirectory(zip, dir, zipPrefix) {
   let count = 0;
   for (const entry of readdirSync(dir, { withFileTypes: true })) {
     const full = join(dir, entry.name);
@@ -35,16 +37,9 @@ function addDirectory(zip: InstanceType<typeof yazl.ZipFile>, dir: string, zipPr
   return count;
 }
 
-async function main(): Promise<void> {
-  console.log("=== OP5e Compendium — Package ===\n");
+async function main() {
+  console.log("=== OP5e Compendium Test — Package ===\n");
 
-  const packsDir = join(ROOT, "packs");
-  if (!existsSync(packsDir)) {
-    console.error("No packs/ directory. Run `npm run build` first.");
-    process.exit(1);
-  }
-
-  const { mkdirSync } = await import("node:fs");
   if (!existsSync(DIST)) mkdirSync(DIST, { recursive: true });
 
   const zip = new yazl.ZipFile();
@@ -71,39 +66,27 @@ async function main(): Promise<void> {
   zip.end();
 
   const zipPath = join(DIST, `${MODULE_ID}.zip`);
-  await new Promise<void>((resolve, reject) => {
+  await new Promise((resolve, reject) => {
     const out = createWriteStream(zipPath);
     out.on("close", resolve);
     out.on("error", reject);
     zip.outputStream.pipe(out);
   });
 
-  const sizeMb = (statSync(zipPath).size / 1024 / 1024).toFixed(2);
-  console.log(`\n✓ ${zipPath} (${sizeMb} MB, ${totalFiles} files)`);
+  const sizeKb = (statSync(zipPath).size / 1024).toFixed(1);
+  console.log(`\n✓ ${zipPath} (${sizeKb} KB, ${totalFiles} files)`);
 
-  const port = process.env.SERVE_PORT ?? "8080";
-  const baseUrl = `http://localhost:${port}`;
-
+  const baseUrl = `http://localhost:${PORT}`;
   const manifest = JSON.parse(readFileSync(join(ROOT, "module.json"), "utf8"));
   manifest.manifest = `${baseUrl}/module.json`;
   manifest.download = `${baseUrl}/${MODULE_ID}.zip`;
 
-  const { writeFileSync } = await import("node:fs");
-  writeFileSync(join(DIST, "module.json"), JSON.stringify(manifest, null, 2) + "\n");
-  console.log(`✓ dist/module.json (manifest URLs → ${baseUrl})`);
-
-  for (const dir of ["scripts", "lang", "packs"] as const) {
-    const src = join(ROOT, dir);
-    if (existsSync(src)) {
-      cpSync(src, join(DIST, dir), { recursive: true });
-      console.log(`✓ dist/${dir}/ synced`);
-    }
-  }
-  console.log(`\nTo install in Foundry, serve dist/ and use this manifest URL:`);
-  console.log(`  ${baseUrl}/module.json`);
+  writeFileSync(join(DIST, "module.json"), `${JSON.stringify(manifest, null, 2)}\n`);
+  console.log(`✓ dist/module.json (manifest → ${baseUrl}/module.json)`);
+  console.log(`\nServe: npm run serve  →  ${baseUrl}/module.json`);
 }
 
 main().catch((err) => {
-  console.error("Packaging failed:", err);
+  console.error(err);
   process.exit(1);
 });

@@ -1,0 +1,25 @@
+{
+  "id": "op5e-compendium-test",
+  "title": "OP5e Compendium — Test Harness",
+  "description": "Dev-only Foundry module that validates OP5e critical damage (1d6+6 crit must not become 2d6+6).",
+  "version": "0.1.0",
+  "manifest": "http://localhost:8084/module.json",
+  "download": "http://localhost:8084/op5e-compendium-test.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "system": ["dnd5e"],
+  "authors": [
+    {
+      "name": "Blood & Brine"
+    }
+  ],
+  "esmodules": ["scripts/module.mjs"],
+  "requires": [
+    {
+      "id": "op5e-compendium",
+      "type": "module"
+    }
+  ]
+}
