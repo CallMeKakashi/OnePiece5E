@@ -1,0 +1,25 @@
+{
+  "id": "foundry-module-update-notifier",
+  "title": "Module Update Notifier",
+  "description": "Notifies GMs (or all users) when installed Foundry modules have a newer version available on their manifest URL.",
+  "version": "1.0.0",
+  "manifest": "http://localhost:8082/module.json",
+  "download": "http://localhost:8082/foundry-module-update-notifier.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Blood & Brine"
+    }
+  ],
+  "esmodules": ["scripts/module.mjs"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}
