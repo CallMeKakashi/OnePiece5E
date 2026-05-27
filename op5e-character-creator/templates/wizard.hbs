@@ -1,0 +1,171 @@
+<section class="op5e-cc">
+  <header class="op5e-cc__header">
+    <h2>OP5e Character Creator</h2>
+    <div class="op5e-cc__meta">
+      <span>Step {{inc stepIndex}} / {{steps.length}}: {{step}}</span>
+      <span class="op5e-cc__meta-small">Draft: {{draft.id}}</span>
+    </div>
+  </header>
+
+  {{#if inferredPcLocked}}
+    <p class="op5e-cc__hint">You are not a GM, so this wizard will create a PC.</p>
+  {{else}}
+    <div class="op5e-cc__row">
+      <label>Type</label>
+      <select name="actorKind">
+        <option value="pc" {{#if (eq draft.actorKind "pc")}}selected{{/if}}>PC (Character)</option>
+        <option value="npc" {{#if (eq draft.actorKind "npc")}}selected{{/if}}>NPC</option>
+      </select>
+    </div>
+  {{/if}}
+
+  {{#if (eq step "name")}}
+    <div class="op5e-cc__row">
+      <label>Name</label>
+      <input name="name" type="text" value="{{draft.data.name}}" placeholder="Character name" />
+    </div>
+  {{/if}}
+
+  {{#if (eq step "images")}}
+    <div class="op5e-cc__row">
+      <label>Portrait image path</label>
+      <input name="portraitImg" type="text" value="{{draft.data.portraitImg}}" placeholder="e.g. icons/..." />
+    </div>
+    <div class="op5e-cc__row">
+      <label>Token image path</label>
+      <input name="tokenImg" type="text" value="{{draft.data.tokenImg}}" placeholder="e.g. icons/..." />
+    </div>
+    <p class="op5e-cc__hint">Tip: paste a Foundry file path. (File picker integration can be added later.)</p>
+  {{/if}}
+
+  {{#if (eq step "species")}}
+    <div class="op5e-cc__row">
+      <label>Species</label>
+      <select name="speciesId">
+        <option value="">— Choose —</option>
+        {{#each choices.species}}
+          <option value="{{_id}}" {{#if (eq _id ../draft.data.speciesId)}}selected{{/if}}>{{name}}</option>
+        {{/each}}
+      </select>
+    </div>
+  {{/if}}
+
+  {{#if (eq step "background")}}
+    <div class="op5e-cc__row">
+      <label>Background</label>
+      <select name="backgroundId">
+        <option value="">— Choose —</option>
+        {{#each choices.backgrounds}}
+          <option value="{{_id}}" {{#if (eq _id ../draft.data.backgroundId)}}selected{{/if}}>{{name}}</option>
+        {{/each}}
+      </select>
+    </div>
+  {{/if}}
+
+  {{#if (eq step "role")}}
+    <div class="op5e-cc__row">
+      <label>Role (Feat)</label>
+      <select name="roleFeatId">
+        <option value="">— Choose —</option>
+        {{#each choices.roles}}
+          <option value="{{_id}}" {{#if (eq _id ../draft.data.roleFeatId)}}selected{{/if}}>{{name}}</option>
+        {{/each}}
+      </select>
+    </div>
+    <p class="op5e-cc__hint">Roles are sourced as feats from the OP5e Backgrounds & Roles pack.</p>
+  {{/if}}
+
+  {{#if (eq step "class")}}
+    <div class="op5e-cc__row">
+      <label>Class</label>
+      <select name="classId">
+        <option value="">— Choose —</option>
+        {{#each choices.classes}}
+          <option value="{{_id}}" {{#if (eq _id ../draft.data.classId)}}selected{{/if}}>{{name}}</option>
+        {{/each}}
+      </select>
+    </div>
+  {{/if}}
+
+  {{#if (eq step "abilities")}}
+    <div class="op5e-cc__row">
+      <label>Method</label>
+      <select name="abilityMethod">
+        <option value="pointBuy" {{#if (eq draft.data.abilityMethod "pointBuy")}}selected{{/if}}>Point-buy (27)</option>
+        <option value="array" {{#if (eq draft.data.abilityMethod "array")}}selected{{/if}}>Standard array</option>
+        <option value="roll" {{#if (eq draft.data.abilityMethod "roll")}}selected{{/if}}>Roll</option>
+      </select>
+    </div>
+
+    <div class="op5e-cc__footer" style="padding: 0;">
+      <button type="button" data-action="useArray">Use Standard Array</button>
+      <button type="button" data-action="rollScores">Roll 4d6 Drop Lowest</button>
+    </div>
+
+    <div class="op5e-cc__grid">
+      {{#each draft.data.abilities}}
+        <div class="op5e-cc__cell">
+          <label>{{@key}}</label>
+          <input name="ability.{{@key}}" type="number" min="8" max="15" value="{{this}}" />
+        </div>
+      {{/each}}
+    </div>
+
+    <p class="op5e-cc__hint">
+      Point-buy: spent <strong>{{pointBuy.spent}}</strong> / {{pointBuy.total}}
+      {{#if pointBuy.valid}}(valid){{else}}(must equal 27){{/if}}
+    </p>
+  {{/if}}
+
+  {{#if (eq step "fork")}}
+    <div class="op5e-cc__row">
+      <label>OP5e fork</label>
+      <select name="forkKind">
+        <option value="additionalPower" {{#if (eq draft.data.fork.kind "additionalPower")}}selected{{/if}}>Additional Power now (stored as feat)</option>
+        <option value="devilFruitLater" {{#if (eq draft.data.fork.kind "devilFruitLater")}}selected{{/if}}>Devil Fruit later</option>
+      </select>
+    </div>
+
+    {{#if (eq draft.data.fork.kind "additionalPower")}}
+      <div class="op5e-cc__row">
+        <label>Additional Power (Feat)</label>
+        <select name="additionalPowerFeatId">
+          <option value="">— Choose —</option>
+          {{#each choices.additionalPowers}}
+            <option value="{{_id}}" {{#if (eq _id ../draft.data.fork.additionalPowerFeatId)}}selected{{/if}}>{{name}}</option>
+          {{/each}}
+        </select>
+      </div>
+      <p class="op5e-cc__hint">Additional Power is currently stored as a feat/feature item. Devil Fruits can be added later.</p>
+    {{/if}}
+  {{/if}}
+
+  {{#if (eq step "finish")}}
+    <div class="op5e-cc__summary">
+      <h3>Review</h3>
+      <ul>
+        <li><strong>Name:</strong> {{draft.data.name}}</li>
+        <li><strong>Species:</strong> {{draft.data.speciesId}}</li>
+        <li><strong>Background:</strong> {{draft.data.backgroundId}}</li>
+        <li><strong>Role feat:</strong> {{draft.data.roleFeatId}}</li>
+        <li><strong>Class:</strong> {{draft.data.classId}}</li>
+        <li><strong>Fork:</strong> {{draft.data.fork.kind}}</li>
+      </ul>
+      <p class="op5e-cc__hint">Click Finish to create the actor and import selected items. dnd5e will handle further advancement dialogs.</p>
+    </div>
+  {{/if}}
+
+  <footer class="op5e-cc__footer">
+    <button type="button" data-action="back" {{#if (eq stepIndex 0)}}disabled{{/if}}>Back</button>
+    <div class="op5e-cc__spacer"></div>
+    {{#if canReset}}
+      <button type="button" class="danger" data-action="reset">Reset & Restart</button>
+    {{/if}}
+    {{#if (eq step "finish")}}
+      <button type="button" class="primary" data-action="finish">Finish</button>
+    {{else}}
+      <button type="button" class="primary" data-action="next">Next</button>
+    {{/if}}
+  </footer>
+</section>
+

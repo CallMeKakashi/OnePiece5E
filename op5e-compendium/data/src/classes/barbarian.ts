@@ -3,6 +3,7 @@ import { compendiumUuid } from "../../helpers/uuid.js";
 import {
   createHitPoints,
   createItemGrant,
+  createItemChoiceRestricted,
   createScaleValue,
   createSubclass,
   createTrait,
@@ -33,6 +34,10 @@ function featureUuid(id: string): string {
   return compendiumUuid("class-features", id);
 }
 
+function hakiUuid(slug: string): string {
+  return compendiumUuid("class-features", generateId(`feature/haki/${slug}`));
+}
+
 export const barbarian: ClassItem = {
   _id: generateId(CLASS_ID),
   name: "Barbarian",
@@ -50,6 +55,16 @@ export const barbarian: ClassItem = {
     hitDiceUsed: 0,
     advancement: mergeAdvancements(
       createHitPoints(CLASS_ID),
+
+      // --- Haki progression scaffold (used by OP5e Haki feat tiers) ---
+      createScaleValue(CLASS_ID, "haki-tier", "number", {
+        1: { value: 0 },
+        8: { value: 1 },
+        10: { value: 2 },
+        12: { value: 3 },
+        14: { value: 4 },
+        16: { value: 5 },
+      }),
 
       // --- Proficiencies (level 1) ---
       createTrait(CLASS_ID, 1, {
@@ -141,6 +156,33 @@ export const barbarian: ClassItem = {
       createASI(CLASS_ID, 12),
       createASI(CLASS_ID, 16),
       createASI(CLASS_ID, 19),
+
+      // --- Haki feat choices (restricted pool) ---
+      createItemChoiceRestricted(CLASS_ID, 8, [
+        hakiUuid("armament-novice"),
+        hakiUuid("observation-novice"),
+        hakiUuid("conqueror-novice"),
+      ], { label: "Haki (Novice)" }),
+      createItemChoiceRestricted(CLASS_ID, 10, [
+        hakiUuid("armament-apprentice"),
+        hakiUuid("observation-apprentice"),
+        hakiUuid("conqueror-apprentice"),
+      ], { label: "Haki (Apprentice)" }),
+      createItemChoiceRestricted(CLASS_ID, 12, [
+        hakiUuid("armament-journeyman"),
+        hakiUuid("observation-journeyman"),
+        hakiUuid("conqueror-journeyman"),
+      ], { label: "Haki (Journeyman)" }),
+      createItemChoiceRestricted(CLASS_ID, 14, [
+        hakiUuid("armament-adept"),
+        hakiUuid("observation-adept"),
+        hakiUuid("conqueror-adept"),
+      ], { label: "Haki (Adept)" }),
+      createItemChoiceRestricted(CLASS_ID, 16, [
+        hakiUuid("armament-master"),
+        hakiUuid("observation-master"),
+        hakiUuid("conqueror-master"),
+      ], { label: "Haki (Master)" }),
 
       // --- Scale Values ---
       createScaleValue(CLASS_ID, "rages", "number", {

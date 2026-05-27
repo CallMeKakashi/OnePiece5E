@@ -1,0 +1,25 @@
+{
+  "id": "op5e-character-creator",
+  "title": "OP5e Character Creator",
+  "description": "Resumable world-side character creation wizard for the OP5e (One Piece 5e) compendium.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "system": ["dnd5e"],
+  "authors": [
+    {
+      "name": "Blood & Brine"
+    }
+  ],
+  "esmodules": ["scripts/module.mjs"],
+  "styles": ["styles/module.css"],
+  "requires": [
+    {
+      "id": "op5e-compendium",
+      "type": "module"
+    }
+  ]
+}
+

@@ -5,6 +5,7 @@ import { generateId } from "./id.js";
 export const ADVANCEMENT_TYPES = [
   "HitPoints",
   "ItemGrant",
+  "ItemChoice",
   "ScaleValue",
   "Subclass",
   "Trait",
@@ -29,6 +30,22 @@ export interface AdvancementEntry {
 export interface ItemGrantEntry {
   uuid: string;
   optional?: boolean;
+}
+
+export interface ItemChoiceRestriction {
+  type: string;
+  subtype: string;
+  level: string;
+  list: string[];
+}
+
+export interface ItemChoiceConfig {
+  allowDrops: boolean;
+  choices: Record<number, { count: number; replacement: boolean }>;
+  pool: { uuid: string }[];
+  restriction: ItemChoiceRestriction;
+  spell: unknown | null;
+  type: string;
 }
 
 export interface TraitConfig {
@@ -97,6 +114,66 @@ export function createItemGrant(
     value: {},
     level,
     title: label ?? "",
+    icon: "",
+    classRestriction: "",
+    hint: "",
+  };
+}
+
+/**
+ * ItemChoice advancement — offers a restricted choice from a pre-configured pool.
+ *
+ * dnd5e 5.1.10 expects advancement type "ItemChoice" with a configuration containing:
+ * - allowDrops (boolean)
+ * - type (allowed item type, e.g. "feat")
+ * - pool ([{ uuid }...])
+ * - choices ({ [level]: { count, replacement } })
+ * - restriction ({ type, subtype, level, list })
+ * - spell (null unless choosing spells)
+ */
+export function createItemChoiceRestricted(
+  classId: string,
+  level: number,
+  uuids: string[],
+  options: {
+    count?: number;
+    replacement?: boolean;
+    itemType?: string;
+    restrictionType?: string;
+    label?: string;
+  } = {},
+): AdvancementEntry {
+  const tag = options.label ?? `level-${level}`;
+  const id = generateId(`${classId}/advancement/item-choice/${tag}`);
+
+  const count = options.count ?? 1;
+  const replacement = options.replacement ?? false;
+  const itemType = options.itemType ?? "feat";
+  const restrictionType = options.restrictionType ?? itemType;
+
+  const configuration: ItemChoiceConfig = {
+    allowDrops: false,
+    choices: {
+      [level]: { count, replacement },
+    },
+    pool: uuids.map((uuid) => ({ uuid })),
+    restriction: {
+      type: restrictionType,
+      subtype: "",
+      level: "",
+      list: [],
+    },
+    spell: null,
+    type: itemType,
+  };
+
+  return {
+    _id: id,
+    type: "ItemChoice",
+    configuration,
+    value: { ability: "", added: {}, replaced: {} },
+    level,
+    title: options.label ?? "",
     icon: "",
     classRestriction: "",
     hint: "",

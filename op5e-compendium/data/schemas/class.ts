@@ -6,6 +6,7 @@ export const advancementEntrySchema = z.object({
   type: z.enum([
     "HitPoints",
     "ItemGrant",
+    "ItemChoice",
     "ScaleValue",
     "Subclass",
     "Trait",

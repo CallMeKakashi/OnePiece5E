@@ -1,0 +1,67 @@
+.op5e-cc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.op5e-cc__header h2 {
+  margin: 0;
+}
+
+.op5e-cc__meta {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.85;
+  font-size: 12px;
+}
+
+.op5e-cc__meta-small {
+  opacity: 0.75;
+}
+
+.op5e-cc__row {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.op5e-cc__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.op5e-cc__cell {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 8px;
+  align-items: center;
+}
+
+.op5e-cc__hint {
+  opacity: 0.85;
+  font-size: 12px;
+  margin: 0;
+}
+
+.op5e-cc__footer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.op5e-cc__spacer {
+  flex: 1;
+}
+
+.op5e-cc-launch {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+}
+
+button.danger {
+  border-color: #8a2b2b;
+}
+
