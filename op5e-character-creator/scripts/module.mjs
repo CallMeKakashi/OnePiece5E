@@ -24,7 +24,7 @@ Hooks.on("renderActorDirectory", (_app, html) => {
   const button = document.createElement("button");
   button.type = "button";
   button.classList.add("op5e-cc-launch");
-  button.innerHTML = `<i class="fas fa-hat-wizard"></i> OP5e Creator`;
+  button.innerHTML = `<i class="fas fa-hat-wizard"></i> Create OPC`;
   button.addEventListener("click", () => OP5eCharacterCreatorWizard.launch());
 
   const header = html[0]?.querySelector(".directory-header .header-actions");
