@@ -8,6 +8,14 @@ Hooks.once("init", () => {
   Handlebars.registerHelper("inc", (n) => Number(n ?? 0) + 1);
 });
 
+Hooks.once("ready", () => {
+  // Provide a stable API surface for macros and other modules.
+  game.op5eCharacterCreator = {
+    WizardApp: OP5eCharacterCreatorWizard,
+    launch: () => OP5eCharacterCreatorWizard.launch(),
+  };
+});
+
 Hooks.on("renderActorDirectory", (_app, html) => {
   // Simple launch point: a header button in the Actors sidebar.
   const canCreate = game.user?.isGM || game.user?.role >= CONST.USER_ROLES.PLAYER;
