@@ -1,6 +1,8 @@
 import { MODULE_ID, getAllDrafts, setAllDrafts } from "../settings.mjs";
 import { isValidPointBuy, totalCost } from "./pointBuy.mjs";
 
+const { HandlebarsApplicationMixin, ApplicationV2 } = foundry.applications.api;
+
 const OP5E_COMPENDIUM_ID = "op5e-compendium";
 
 const PACKS = {
@@ -56,7 +58,7 @@ function canActOnDraft(draft, user) {
   return draft.ownerUserId === user?.id;
 }
 
-export class OP5eCharacterCreatorWizard extends foundry.applications.api.ApplicationV2 {
+export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(ApplicationV2) {
   static DEFAULT_OPTIONS = {
     id: "op5e-character-creator",
     tag: "form",
