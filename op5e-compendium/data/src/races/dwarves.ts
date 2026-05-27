@@ -24,7 +24,7 @@ export const dwarves: RaceItem = {
   _id: generateId(RACE_ID),
   name: "Dwarves",
   type: "race",
-  img: "icons/tools/smithing/anvil-worn-steel-grey.webp",
+  img: "icons/svg/item-bag.svg",
   system: {
     description: {
       value: `<p>Dwarves are a tiny, elusive race known for their incredible agility and climbing ability. Despite their small stature, they are fierce combatants whose unarmed strikes pack surprising power. Their trusting nature can be a weakness, however, making them susceptible to deception.</p>`,

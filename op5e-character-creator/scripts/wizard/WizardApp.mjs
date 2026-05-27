@@ -1,4 +1,8 @@
 import { MODULE_ID, getAllDrafts, setAllDrafts } from "../settings.mjs";
+import {
+  applyStartingBeri,
+  importFromPackWithAdvancements,
+} from "./apply-advancements.mjs";
 import { isValidPointBuy, totalCost } from "./pointBuy.mjs";
 
 const { HandlebarsApplicationMixin, ApplicationV2 } = foundry.applications.api;
@@ -7,10 +11,13 @@ const OP5E_COMPENDIUM_ID = "op5e-compendium";
 
 const PACKS = {
   species: `${OP5E_COMPENDIUM_ID}.races`,
+  racialFeatures: `${OP5E_COMPENDIUM_ID}.racial-features`,
   backgroundsAndRoles: `${OP5E_COMPENDIUM_ID}.backgrounds`,
   classes: `${OP5E_COMPENDIUM_ID}.classes`,
   feats: `${OP5E_COMPENDIUM_ID}.feats`
 };
+
+const ROLE_NAME_PREFIX = "Role: ";
 
 const STEPS = [
   "name",
@@ -48,8 +55,54 @@ async function indexPack(packCollection) {
   return pack.getIndex({ fields: ["type", "name", "img", "system.identifier"] });
 }
 
+function mapIndexEntry(e) {
+  return { _id: e._id, name: e.name, img: e.img };
+}
+
 function filterIndexByType(index, type) {
-  return index.filter((e) => e.type === type).map((e) => ({ _id: e._id, name: e.name, img: e.img }));
+  return index.filter((e) => e.type === type).map(mapIndexEntry);
+}
+
+function isRoleEntry(entry) {
+  return entry.type === "background" && String(entry.name ?? "").startsWith(ROLE_NAME_PREFIX);
+}
+
+function isBackgroundEntry(entry) {
+  return entry.type === "background" && !isRoleEntry(entry);
+}
+
+function compendiumIdFromUuid(uuid) {
+  const parts = String(uuid ?? "").split(".");
+  return parts[parts.length - 1] ?? "";
+}
+
+async function racialFeatsForSpecies(speciesId, racialFeatIndex) {
+  if (!speciesId) return [];
+  const pack = game.packs.get(PACKS.species);
+  if (!pack) return [];
+  const doc = await pack.getDocument(speciesId);
+  if (!doc) return [];
+
+  const byId = new Map(racialFeatIndex.map((e) => [e._id, e]));
+  const seen = new Set();
+  const feats = [];
+
+  for (const adv of doc.system?.advancement ?? []) {
+    if (adv.type !== "ItemGrant") continue;
+    for (const item of adv.configuration?.items ?? []) {
+      const id = compendiumIdFromUuid(item.uuid);
+      if (!id || seen.has(id)) continue;
+      seen.add(id);
+      const entry = byId.get(id);
+      if (entry) feats.push(mapIndexEntry(entry));
+    }
+  }
+
+  return feats;
+}
+
+function getFilePickerClass() {
+  return foundry.applications?.apps?.FilePicker ?? globalThis.FilePicker;
 }
 
 function canActOnDraft(draft, user) {
@@ -61,15 +114,22 @@ function canActOnDraft(draft, user) {
 export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(ApplicationV2) {
   static DEFAULT_OPTIONS = {
     id: "op5e-character-creator",
-    tag: "form",
+    classes: ["op5e-character-creator"],
+    form: {
+      handler: OP5eCharacterCreatorWizard.#onSubmitForm,
+      submitOnChange: false,
+      closeOnSubmit: false
+    },
     window: {
       title: "OP5e Character Creator",
       resizable: true,
-      minimizable: true
+      minimizable: true,
+      contentTag: "form",
+      contentClasses: ["op5e-cc-form"]
     },
     position: {
       width: 520,
-      height: "auto"
+      height: 640
     },
     actions: {
       next: OP5eCharacterCreatorWizard.#onNext,
@@ -77,7 +137,8 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       reset: OP5eCharacterCreatorWizard.#onReset,
       finish: OP5eCharacterCreatorWizard.#onFinish,
       useArray: OP5eCharacterCreatorWizard.#onUseArray,
-      rollScores: OP5eCharacterCreatorWizard.#onRollScores
+      rollScores: OP5eCharacterCreatorWizard.#onRollScores,
+      browseImage: OP5eCharacterCreatorWizard.#onBrowseImage
     }
   };
 
@@ -167,18 +228,24 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
     const draft = await this.#getDraft();
 
     // Sources
-    const [speciesIndex, bgRoleIndex, classIndex, featIndex] = await Promise.all([
+    const [speciesIndex, bgRoleIndex, classIndex, featIndex, racialFeatIndex] = await Promise.all([
       indexPack(PACKS.species),
       indexPack(PACKS.backgroundsAndRoles),
       indexPack(PACKS.classes),
-      indexPack(PACKS.feats)
+      indexPack(PACKS.feats),
+      indexPack(PACKS.racialFeatures).catch(() => [])
     ]);
 
     const speciesChoices = filterIndexByType(speciesIndex, "race");
-    const backgroundChoices = filterIndexByType(bgRoleIndex, "background");
-    const roleChoices = filterIndexByType(bgRoleIndex, "feat");
+    const backgroundChoices = bgRoleIndex.filter(isBackgroundEntry).map(mapIndexEntry);
+    const roleChoices = bgRoleIndex.filter(isRoleEntry).map(mapIndexEntry);
     const classChoices = filterIndexByType(classIndex, "class");
     const additionalPowerChoices = filterIndexByType(featIndex, "feat");
+
+    const speciesRacialFeats =
+      draft.step === "species" && draft.data.speciesId
+        ? await racialFeatsForSpecies(draft.data.speciesId, racialFeatIndex)
+        : [];
 
     const stepIndex = Math.max(0, STEPS.indexOf(draft.step));
     const step = STEPS[stepIndex] ?? STEPS[0];
@@ -204,6 +271,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
         classes: classChoices,
         additionalPowers: additionalPowerChoices
       },
+      speciesRacialFeats,
       pointBuy: {
         spent: pbSpent,
         total: 27,
@@ -214,14 +282,99 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
   }
 
   _onRender(_context, _options) {
-    // Ensure defaults in DOM (radio/selected handling is easiest in template, but keep robust).
+    this.#bindImagePathPickers();
+    this.#bindChoiceRadios();
   }
 
-  async _onSubmit(event, _form, formData) {
+  #bindChoiceRadios() {
+    const form = this.form;
+    if (!form) return;
+
+    for (const name of ["speciesId", "roleFeatId"]) {
+      const radios = form.querySelectorAll(`input[type="radio"][name="${name}"]`);
+      for (const radio of radios) {
+        if (radio.dataset.op5eChoiceBound) continue;
+        radio.dataset.op5eChoiceBound = "1";
+        radio.addEventListener("change", async () => {
+          await this.#commitStepForm();
+          this.render(false);
+        });
+      }
+    }
+  }
+
+  #bindImagePathPickers() {
+    const form = this.form;
+    if (!form) return;
+
+    for (const field of ["portraitImg", "tokenImg"]) {
+      const input = form.querySelector(`input[name="${field}"]`);
+      if (!input || input.dataset.op5ePickerBound) continue;
+      input.dataset.op5ePickerBound = "1";
+      input.addEventListener("click", (event) => {
+        event.preventDefault();
+        OP5eCharacterCreatorWizard.#openImagePicker.call(this, field);
+      });
+    }
+  }
+
+  static #openImagePicker(field) {
+    const app = this;
+    const form = app.form;
+    const input = form?.querySelector(`input[name="${field}"]`);
+    const current = String(input?.value ?? "").trim();
+
+    const FilePickerClass = getFilePickerClass();
+    if (!FilePickerClass) {
+      ui.notifications?.error("File picker is unavailable in this Foundry version.");
+      return;
+    }
+
+    const picker = new FilePickerClass({
+      type: "image",
+      current: current || "icons/",
+      callback: async (path) => {
+        if (input) input.value = path;
+        await app.#saveDraft((draft) => {
+          if (field === "portraitImg") draft.data.portraitImg = path;
+          else if (field === "tokenImg") draft.data.tokenImg = path;
+          draft.touched[`data.${field}`] = true;
+        });
+        app.render(false);
+      }
+    });
+    picker.render(true);
+  }
+
+  static #onBrowseImage(_event, target) {
+    const field = target?.dataset?.field;
+    if (!field) return;
+    OP5eCharacterCreatorWizard.#openImagePicker.call(this, field);
+  }
+
+  #readFormData(form) {
+    const FormDataExtended =
+      foundry.applications?.data?.forms?.FormDataExtended ?? globalThis.FormDataExtended;
+    return new FormDataExtended(form);
+  }
+
+  async #commitStepForm() {
+    const form = this.form;
+    if (!form) {
+      throw new Error(
+        "Character Creator form element is missing. Framed ApplicationV2 apps must use window.contentTag: \"form\"."
+      );
+    }
+    const formData = this.#readFormData(form);
+    await OP5eCharacterCreatorWizard.#onSubmitForm.call(this, null, form, formData);
+  }
+
+  static async #onSubmitForm(event, _form, formData) {
     event?.preventDefault?.();
+    const app = this;
     const data = formData?.object ?? {};
 
-    await this.#saveDraft((draft) => {
+    await app.#saveDraft((draft) => {
       const step = draft.step;
 
       // Actor kind (GM can select; non-GM forced PC)
@@ -310,7 +463,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
 
   static async #onNext(_event, _target) {
     const app = this;
-    await app.submit();
+    await app.#commitStepForm();
     const draft = await app.#getDraft();
     const idx = Math.max(0, STEPS.indexOf(draft.step));
     const next = STEPS[Math.min(STEPS.length - 1, idx + 1)] ?? STEPS[0];
@@ -354,7 +507,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
 
   static async #onFinish(_event, _target) {
     const app = this;
-    await app.submit();
+    await app.#commitStepForm();
     const draft = await app.#getDraft();
 
     // Validate minimum required fields
@@ -397,27 +550,23 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
     const actor = await Actor.create(actorData, { renderSheet: true });
     if (!actor) return;
 
-    const toImport = [];
-    const importFrom = async (packKey, docId) => {
-      if (!docId) return;
-      const pack = game.packs.get(packKey);
-      if (!pack) return;
-      const doc = await pack.getDocument(docId);
-      if (!doc) return;
-      toImport.push(doc.toObject());
-    };
+    const importedItems = [];
+    const importOrder = [
+      [PACKS.species, draft.data.speciesId],
+      [PACKS.backgroundsAndRoles, draft.data.backgroundId],
+      [PACKS.backgroundsAndRoles, draft.data.roleFeatId],
+      [PACKS.classes, draft.data.classId],
+      ...(draft.data.fork?.kind === "additionalPower"
+        ? [[PACKS.feats, draft.data.fork.additionalPowerFeatId]]
+        : [])
+    ];
 
-    await importFrom(PACKS.species, draft.data.speciesId);
-    await importFrom(PACKS.backgroundsAndRoles, draft.data.backgroundId);
-    await importFrom(PACKS.backgroundsAndRoles, draft.data.roleFeatId);
-    await importFrom(PACKS.classes, draft.data.classId);
-    if (draft.data.fork?.kind === "additionalPower") {
-      await importFrom(PACKS.feats, draft.data.fork.additionalPowerFeatId);
+    for (const [packKey, docId] of importOrder) {
+      const doc = await importFromPackWithAdvancements(actor, packKey, docId);
+      if (doc) importedItems.push(doc);
     }
 
-    if (toImport.length) {
-      await actor.createEmbeddedDocuments("Item", toImport);
-    }
+    await applyStartingBeri(actor, importedItems);
 
     // Clear draft after successful creation (owner only)
     const isOwner = draft.ownerUserId === game.user?.id;
@@ -427,7 +576,9 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       await setAllDrafts(drafts);
     }
 
-    ui.notifications?.info("Actor created. Use dnd5e dialogs to advance as normal.");
+    ui.notifications?.info(
+      "Actor created with species, background, role, and class advancements applied."
+    );
     app.close();
   }
 

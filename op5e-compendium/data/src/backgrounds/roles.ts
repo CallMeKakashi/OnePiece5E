@@ -1,5 +1,6 @@
 import { generateId } from "../../helpers/id.js";
 import type { FoundryItem } from "../../schemas/common.js";
+import { roleEquipmentAdvancement } from "./equipment-grants.js";
 
 const STATS = {
   compendiumSource: null, duplicateSource: null,
@@ -9,6 +10,7 @@ const STATS = {
 const SRC = { book: "OP5e", page: "", custom: "", license: "" };
 
 function role(id: string, name: string, desc: string): FoundryItem {
+  const { advancement, startingBeri } = roleEquipmentAdvancement(id);
   return {
     _id: generateId(`role/${id}`),
     name: `Role: ${name}`,
@@ -17,10 +19,10 @@ function role(id: string, name: string, desc: string): FoundryItem {
     system: {
       description: { value: desc, chat: "" },
       source: SRC,
-      advancement: {},
+      advancement,
     },
     effects: [],
-    flags: {},
+    flags: { op5e: { startingBeri } },
     folder: null,
     sort: 0,
     ownership: { default: 0 },

@@ -27,7 +27,7 @@ export const skyIslander: RaceItem = {
   _id: generateId(RACE_ID),
   name: "Sky Islander",
   type: "race",
-  img: "icons/magic/nature/elemental-wind-tornado-green.webp",
+  img: "icons/svg/item-bag.svg",
   system: {
     description: {
       value: `<p>Sky Islanders inhabit the sky islands high above the Blue Sea. They are often religious and acclimated to high altitudes. Their expertise with dials and sky vehicles sets them apart from surface dwellers.</p>

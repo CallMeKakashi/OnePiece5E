@@ -28,7 +28,7 @@ export const augmented: RaceItem = {
   _id: generateId(RACE_ID),
   name: "Augmented",
   type: "race",
-  img: "icons/skills/trades/construction-stone-wall.webp",
+  img: "icons/svg/item-bag.svg",
   system: {
     description: {
       value: `<p>Augmented are beings whose bodies have been modified through technology, genetic experimentation, beast hybridization, or resurrection. They possess powerful builds and diverse abilities depending on the nature of their augmentation.</p>

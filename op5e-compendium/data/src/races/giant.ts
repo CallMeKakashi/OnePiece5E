@@ -28,7 +28,7 @@ export const giant: RaceItem = {
   _id: generateId(RACE_ID),
   name: "Giant",
   type: "race",
-  img: "icons/skills/melee/strike-hammer-destructive-orange.webp",
+  img: "icons/svg/item-bag.svg",
   system: {
     description: {
       value: `<p>Giants are immensely powerful beings that tower over all other races. Most giants are over 20 meters tall and possess incredible strength. Their size makes them formidable warriors but also marks them as a DM race due to scale challenges.</p>

@@ -1,4 +1,5 @@
 import type { RaceItem } from "../../schemas/race.js";
+import { assignIcons } from "../../helpers/icons.js";
 
 import { human } from "./human.js";
 import { fishman } from "./fishman.js";
@@ -10,7 +11,7 @@ import { merfolk } from "./merfolk.js";
 import { lunarian } from "./lunarian.js";
 import { augmented } from "./augmented.js";
 
-export const items: RaceItem[] = [
+export const items: RaceItem[] = assignIcons([
   human,
   fishman,
   mink,
@@ -20,5 +21,5 @@ export const items: RaceItem[] = [
   merfolk,
   lunarian,
   augmented,
-];
+]);
 export default items;

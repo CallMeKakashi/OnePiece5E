@@ -26,7 +26,7 @@ export const lunarian: RaceItem = {
   _id: generateId(RACE_ID),
   name: "Lunarian",
   type: "race",
-  img: "icons/magic/fire/projectile-meteor-burning-orange.webp",
+  img: "icons/svg/item-bag.svg",
   system: {
     description: {
       value: `<p>Lunarians are a near-extinct race once known as gods. They possess large black wings granting flight, can withstand any environment, and wield the power of flames. Their Flaming Duality allows them to shift between defensive and speed-focused forms.</p>`,

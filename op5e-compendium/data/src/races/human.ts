@@ -30,7 +30,7 @@ export const human: RaceItem = {
   _id: generateId(RACE_ID),
   name: "Human",
   type: "race",
-  img: "icons/skills/social/diplomacy-handshake-yellow.webp",
+  img: "icons/svg/item-bag.svg",
   system: {
     description: {
       value: `<p>Humans are the most common and widespread race, varying greatly in appearance and culture. They are adaptable, ambitious, and remarkably diverse, forming the majority of the world's population.</p>

@@ -27,7 +27,7 @@ export const fishman: RaceItem = {
   _id: generateId(RACE_ID),
   name: "Fishman",
   type: "race",
-  img: "icons/creatures/fish/fish-marlin-sword-green.webp",
+  img: "icons/svg/item-bag.svg",
   system: {
     description: {
       value: `<p>Fishmen are a powerful aquatic race with superior physical abilities. They can breathe underwater and communicate with sea creatures. Their diverse physiology ranges from shark-like predators to octopus-like multipods.</p>

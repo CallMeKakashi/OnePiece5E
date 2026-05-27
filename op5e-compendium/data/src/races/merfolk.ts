@@ -25,7 +25,7 @@ export const merfolk: RaceItem = {
   _id: generateId(RACE_ID),
   name: "Merfolk",
   type: "race",
-  img: "icons/magic/water/wave-water-blue.webp",
+  img: "icons/svg/item-bag.svg",
   system: {
     description: {
       value: `<p>Merfolk are a kindhearted aquatic race who dwell beneath the seas. Though slow on land, they are remarkably fast swimmers. Their pure souls grant them exceptional mental fortitude, and they can communicate with marine creatures of all kinds.</p>`,

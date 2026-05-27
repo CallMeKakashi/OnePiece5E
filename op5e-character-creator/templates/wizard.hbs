@@ -7,6 +7,7 @@
     </div>
   </header>
 
+  <div class="op5e-cc__scroll">
   {{#if inferredPcLocked}}
     <p class="op5e-cc__hint">You are not a GM, so this wizard will create a PC.</p>
   {{else}}
@@ -28,26 +29,54 @@
 
   {{#if (eq step "images")}}
     <div class="op5e-cc__row">
-      <label>Portrait image path</label>
-      <input name="portraitImg" type="text" value="{{draft.data.portraitImg}}" placeholder="e.g. icons/..." />
+      <label>Portrait image</label>
+      <div class="op5e-cc__file">
+        <input name="portraitImg" type="text" value="{{draft.data.portraitImg}}" placeholder="Click to browse or paste a path" title="Click to open file picker" />
+        <button type="button" data-action="browseImage" data-field="portraitImg">Browse</button>
+      </div>
     </div>
+    {{#if draft.data.portraitImg}}
+      <div class="op5e-cc__preview-row">
+        <img class="op5e-cc__preview" src="{{draft.data.portraitImg}}" alt="Portrait preview" />
+      </div>
+    {{/if}}
     <div class="op5e-cc__row">
-      <label>Token image path</label>
-      <input name="tokenImg" type="text" value="{{draft.data.tokenImg}}" placeholder="e.g. icons/..." />
+      <label>Token image</label>
+      <div class="op5e-cc__file">
+        <input name="tokenImg" type="text" value="{{draft.data.tokenImg}}" placeholder="Click to browse or paste a path" title="Click to open file picker" />
+        <button type="button" data-action="browseImage" data-field="tokenImg">Browse</button>
+      </div>
     </div>
-    <p class="op5e-cc__hint">Tip: paste a Foundry file path. (File picker integration can be added later.)</p>
+    {{#if draft.data.tokenImg}}
+      <div class="op5e-cc__preview-row">
+        <img class="op5e-cc__preview op5e-cc__preview--token" src="{{draft.data.tokenImg}}" alt="Token preview" />
+      </div>
+    {{/if}}
+    <p class="op5e-cc__hint">Click a path field or Browse to open Foundry's file picker.</p>
   {{/if}}
 
   {{#if (eq step "species")}}
-    <div class="op5e-cc__row">
-      <label>Species</label>
-      <select name="speciesId">
-        <option value="">— Choose —</option>
-        {{#each choices.species}}
-          <option value="{{_id}}" {{#if (eq _id ../draft.data.speciesId)}}selected{{/if}}>{{name}}</option>
-        {{/each}}
-      </select>
+    <p class="op5e-cc__hint">Choose a species. Granted racial features are listed below.</p>
+    <div class="op5e-cc__choices" role="radiogroup" aria-label="Species">
+      {{#each choices.species}}
+        <label class="op5e-cc__choice">
+          <input type="radio" name="speciesId" value="{{_id}}" {{#if (eq _id ../draft.data.speciesId)}}checked{{/if}} />
+          {{#if img}}<img class="op5e-cc__choice-img" src="{{img}}" alt="" width="48" height="48" />{{/if}}
+          <span class="op5e-cc__choice-label">{{name}}</span>
+        </label>
+      {{/each}}
     </div>
+    {{#if speciesRacialFeats.length}}
+      <h4 class="op5e-cc__subhead">Racial features</h4>
+      <ul class="op5e-cc__feat-list">
+        {{#each speciesRacialFeats}}
+          <li class="op5e-cc__feat">
+            {{#if img}}<img class="op5e-cc__feat-img" src="{{img}}" alt="" width="32" height="32" />{{/if}}
+            <span>{{name}}</span>
+          </li>
+        {{/each}}
+      </ul>
+    {{/if}}
   {{/if}}
 
   {{#if (eq step "background")}}
@@ -63,16 +92,16 @@
   {{/if}}
 
   {{#if (eq step "role")}}
-    <div class="op5e-cc__row">
-      <label>Role (Feat)</label>
-      <select name="roleFeatId">
-        <option value="">— Choose —</option>
-        {{#each choices.roles}}
-          <option value="{{_id}}" {{#if (eq _id ../draft.data.roleFeatId)}}selected{{/if}}>{{name}}</option>
-        {{/each}}
-      </select>
+    <p class="op5e-cc__hint">Choose a ship role from the OP5e Backgrounds &amp; Roles pack.</p>
+    <div class="op5e-cc__choices" role="radiogroup" aria-label="Role">
+      {{#each choices.roles}}
+        <label class="op5e-cc__choice">
+          <input type="radio" name="roleFeatId" value="{{_id}}" {{#if (eq _id ../draft.data.roleFeatId)}}checked{{/if}} />
+          {{#if img}}<img class="op5e-cc__choice-img" src="{{img}}" alt="" width="48" height="48" />{{/if}}
+          <span class="op5e-cc__choice-label">{{name}}</span>
+        </label>
+      {{/each}}
     </div>
-    <p class="op5e-cc__hint">Roles are sourced as feats from the OP5e Backgrounds & Roles pack.</p>
   {{/if}}
 
   {{#if (eq step "class")}}
@@ -151,9 +180,10 @@
         <li><strong>Class:</strong> {{draft.data.classId}}</li>
         <li><strong>Fork:</strong> {{draft.data.fork.kind}}</li>
       </ul>
-      <p class="op5e-cc__hint">Click Finish to create the actor and import selected items. dnd5e will handle further advancement dialogs.</p>
+      <p class="op5e-cc__hint">Click Finish to create the actor; advancements and starting equipment are applied automatically.</p>
     </div>
   {{/if}}
+  </div>
 
   <footer class="op5e-cc__footer">
     <button type="button" data-action="back" {{#if (eq stepIndex 0)}}disabled{{/if}}>Back</button>

@@ -1,5 +1,6 @@
 import { generateId } from "../../helpers/id.js";
 import type { FoundryItem } from "../../schemas/common.js";
+import { backgroundEquipmentAdvancement } from "./equipment-grants.js";
 
 const STATS = {
   compendiumSource: null, duplicateSource: null,
@@ -9,6 +10,7 @@ const STATS = {
 const SRC = { book: "OP5e", page: "", custom: "", license: "" };
 
 function bg(id: string, name: string, desc: string): FoundryItem {
+  const { advancement, startingBeri } = backgroundEquipmentAdvancement(id, desc);
   return {
     _id: generateId(`background/${id}`),
     name,
@@ -17,10 +19,10 @@ function bg(id: string, name: string, desc: string): FoundryItem {
     system: {
       description: { value: desc, chat: "" },
       source: SRC,
-      advancement: {},
+      advancement,
     },
     effects: [],
-    flags: {},
+    flags: { op5e: { startingBeri } },
     folder: null,
     sort: 0,
     ownership: { default: 0 },

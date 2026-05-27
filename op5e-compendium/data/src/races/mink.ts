@@ -25,7 +25,7 @@ export const mink: RaceItem = {
   _id: generateId(RACE_ID),
   name: "Mink",
   type: "race",
-  img: "icons/creatures/mammals/bear-grizzly-brown.webp",
+  img: "icons/svg/item-bag.svg",
   system: {
     description: {
       value: `<p>Minks are a race of humanoid animals who live on the back of Zunesha. They are natural-born warriors capable of generating electricity through their fur. Their animal heritage grants them enhanced speed and natural weapons.</p>

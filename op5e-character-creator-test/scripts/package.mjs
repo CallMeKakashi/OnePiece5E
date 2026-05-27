@@ -17,10 +17,10 @@ const yazl = require("yazl");
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 const DIST = join(ROOT, "dist");
-const MODULE_ID = "foundry-module-update-notifier";
-const PORT = process.env.SERVE_PORT ?? "8082";
+const MODULE_ID = "op5e-character-creator-test";
+const PORT = process.env.SERVE_PORT ?? "8083";
 
-const INCLUDE = ["module.json", "scripts", "lang"];
+const INCLUDE = ["module.json", "scripts"];
 
 function addDirectory(zip, dir, zipPrefix) {
   let count = 0;
@@ -38,7 +38,7 @@ function addDirectory(zip, dir, zipPrefix) {
 }
 
 async function main() {
-  console.log("=== Module Update Notifier — Package ===\n");
+  console.log("=== OP5e Character Creator Test — Package ===\n");
 
   if (!existsSync(DIST)) mkdirSync(DIST, { recursive: true });
 

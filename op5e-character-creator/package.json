@@ -1,0 +1,14 @@
+{
+  "name": "op5e-character-creator",
+  "version": "0.1.3",
+  "private": true,
+  "type": "module",
+  "description": "Resumable world-side character creation wizard for OP5e",
+  "scripts": {
+    "package": "node scripts/package.mjs",
+    "serve": "npx -y http-server . -p 8081 -c-1 --cors"
+  },
+  "devDependencies": {
+    "yazl": "^3.3.1"
+  }
+}
