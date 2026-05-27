@@ -3,6 +3,8 @@
   "title": "OP5e Character Creator",
   "description": "Resumable world-side character creation wizard for the OP5e (One Piece 5e) compendium.",
   "version": "0.1.0",
+  "manifest": "http://localhost:8081/module.json",
+  "download": "http://localhost:8081/op5e-character-creator.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
