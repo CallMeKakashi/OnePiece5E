@@ -6,9 +6,13 @@
   "description": "Foundry test harness for OP5e Character Creator wizard",
   "scripts": {
     "package": "node scripts/package.mjs",
-    "serve": "npx -y http-server dist -p 8083 -c-1 --cors"
+    "serve": "npx -y http-server dist -p 8083 -c-1 --cors",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ci": "vitest run --reporter=default"
   },
   "devDependencies": {
+    "vitest": "^3.2.4",
     "yazl": "^3.3.1"
   }
 }

@@ -16,3 +16,11 @@ scripts/.venv/
 scripts/discord-channels.json
 __pycache__/
 *.pyc
+
+# Foundry module build artifacts (OP5e)
+op5e-*/node_modules/
+op5e-*/dist/
+op5e-*/packs/
+op5e-*/packs-src/
+op5e-*/tmpdist/
+op5e-*.zip
