@@ -2,6 +2,30 @@ import { generateId } from "./id.js";
 
 // --- Public types ---
 
+export const ADVANCEMENT_TYPES = [
+  "HitPoints",
+  "ItemGrant",
+  "ScaleValue",
+  "Subclass",
+  "Trait",
+  "AbilityScoreImprovement",
+  "Size",
+] as const;
+
+export type AdvancementType = (typeof ADVANCEMENT_TYPES)[number];
+
+export interface AdvancementEntry {
+  _id: string;
+  type: AdvancementType;
+  configuration: Record<string, unknown>;
+  value: Record<string, unknown>;
+  level: number;
+  title: string;
+  icon: string;
+  classRestriction: string;
+  hint: string;
+}
+
 export interface ItemGrantEntry {
   uuid: string;
   optional?: boolean;
@@ -34,20 +58,18 @@ export interface ScaleValueEntry {
  * HitPoints advancement — determines HP gained on level-up.
  * Configured once at level 0; the hit die size comes from the class's hitDice field.
  */
-export function createHitPoints(classId: string): Record<string, unknown> {
+export function createHitPoints(classId: string): AdvancementEntry {
   const id = generateId(`${classId}/advancement/hit-points`);
   return {
-    [id]: {
-      _id: id,
-      type: "HitPoints",
-      configuration: {},
-      value: {},
-      level: 0,
-      title: "",
-      icon: "",
-      classRestriction: "",
-      hint: "",
-    },
+    _id: id,
+    type: "HitPoints",
+    configuration: {},
+    value: {},
+    level: 0,
+    title: "",
+    icon: "",
+    classRestriction: "",
+    hint: "",
   };
 }
 
@@ -60,26 +82,24 @@ export function createItemGrant(
   level: number,
   items: ItemGrantEntry[],
   label?: string,
-): Record<string, unknown> {
+): AdvancementEntry {
   const tag = label ?? `level-${level}`;
   const id = generateId(`${classId}/advancement/item-grant/${tag}`);
   return {
-    [id]: {
-      _id: id,
-      type: "ItemGrant",
-      configuration: {
-        items: items.map((i) => ({
-          uuid: i.uuid,
-          optional: i.optional ?? false,
-        })),
-      },
-      value: {},
-      level,
-      title: label ?? "",
-      icon: "",
-      classRestriction: "",
-      hint: "",
+    _id: id,
+    type: "ItemGrant",
+    configuration: {
+      items: items.map((i) => ({
+        uuid: i.uuid,
+        optional: i.optional ?? false,
+      })),
     },
+    value: {},
+    level,
+    title: label ?? "",
+    icon: "",
+    classRestriction: "",
+    hint: "",
   };
 }
 
@@ -92,24 +112,22 @@ export function createScaleValue(
   identifier: string,
   scaleType: string,
   values: Record<number, ScaleValueEntry>,
-): Record<string, unknown> {
+): AdvancementEntry {
   const id = generateId(`${classId}/advancement/scale-value/${identifier}`);
   return {
-    [id]: {
-      _id: id,
-      type: "ScaleValue",
-      configuration: {
-        identifier,
-        type: scaleType,
-        scale: values,
-      },
-      value: {},
-      level: 0,
-      title: "",
-      icon: "",
-      classRestriction: "",
-      hint: "",
+    _id: id,
+    type: "ScaleValue",
+    configuration: {
+      identifier,
+      type: scaleType,
+      scale: values,
     },
+    value: {},
+    level: 0,
+    title: "",
+    icon: "",
+    classRestriction: "",
+    hint: "",
   };
 }
 
@@ -119,20 +137,18 @@ export function createScaleValue(
 export function createSubclass(
   classId: string,
   level: number,
-): Record<string, unknown> {
+): AdvancementEntry {
   const id = generateId(`${classId}/advancement/subclass`);
   return {
-    [id]: {
-      _id: id,
-      type: "Subclass",
-      configuration: {},
-      value: {},
-      level,
-      title: "",
-      icon: "",
-      classRestriction: "",
-      hint: "",
-    },
+    _id: id,
+    type: "Subclass",
+    configuration: {},
+    value: {},
+    level,
+    title: "",
+    icon: "",
+    classRestriction: "",
+    hint: "",
   };
 }
 
@@ -144,27 +160,25 @@ export function createTrait(
   level: number,
   traits: TraitConfig,
   label?: string,
-): Record<string, unknown> {
+): AdvancementEntry {
   const tag = label ?? `${traits.mode}-${level}`;
   const id = generateId(`${classId}/advancement/trait/${tag}`);
   return {
-    [id]: {
-      _id: id,
-      type: "Trait",
-      configuration: {
-        mode: traits.mode,
-        grants: traits.grants,
-        choices: traits.choices ?? [],
-        allowReplacements: traits.allowReplacements ?? false,
-        hint: traits.hint ?? "",
-      },
-      value: {},
-      level,
-      title: label ?? "",
-      icon: "",
-      classRestriction: "",
-      hint: "",
+    _id: id,
+    type: "Trait",
+    configuration: {
+      mode: traits.mode,
+      grants: traits.grants,
+      choices: traits.choices ?? [],
+      allowReplacements: traits.allowReplacements ?? false,
+      hint: traits.hint ?? "",
     },
+    value: {},
+    level,
+    title: label ?? "",
+    icon: "",
+    classRestriction: "",
+    hint: "",
   };
 }
 
@@ -174,32 +188,51 @@ export function createTrait(
 export function createASI(
   classId: string,
   level: number,
-): Record<string, unknown> {
+): AdvancementEntry {
   const id = generateId(`${classId}/advancement/asi/${level}`);
   return {
-    [id]: {
-      _id: id,
-      type: "AbilityScoreImprovement",
-      configuration: {
-        points: 2,
-        fixed: {},
-        cap: 2,
-      },
-      value: {},
-      level,
-      title: "",
-      icon: "",
-      classRestriction: "",
-      hint: "",
+    _id: id,
+    type: "AbilityScoreImprovement",
+    configuration: {
+      points: 2,
+      fixed: {},
+      cap: 2,
     },
+    value: {},
+    level,
+    title: "",
+    icon: "",
+    classRestriction: "",
+    hint: "",
   };
 }
 
 /**
- * Merge multiple advancement records into a single object.
+ * Size advancement — sets available sizes for a race.
+ */
+export function createSize(
+  parentId: string,
+  sizes: string[],
+): AdvancementEntry {
+  const id = generateId(`${parentId}/advancement/size`);
+  return {
+    _id: id,
+    type: "Size",
+    configuration: { sizes },
+    value: {},
+    level: 0,
+    title: "",
+    icon: "",
+    classRestriction: "",
+    hint: "",
+  };
+}
+
+/**
+ * Collect advancement entries into a flat array (dnd5e 5.1.x format).
  */
 export function mergeAdvancements(
-  ...advancements: Record<string, unknown>[]
-): Record<string, unknown> {
-  return Object.assign({}, ...advancements);
+  ...advancements: AdvancementEntry[]
+): AdvancementEntry[] {
+  return advancements;
 }

@@ -26,7 +26,7 @@ const subclassSystemSchema = z.object({
   source: sourceSchema.default({}),
   identifier: z.string(),
   classIdentifier: z.string(),
-  advancement: z.record(z.string(), advancementEntrySchema),
+  advancement: z.array(advancementEntrySchema),
   spellcasting: z
     .object({
       progression: z

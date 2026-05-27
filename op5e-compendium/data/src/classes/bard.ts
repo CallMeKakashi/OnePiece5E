@@ -37,7 +37,7 @@ export const bard: ClassItem = {
   _id: generateId(CLASS_ID),
   name: "Bard",
   type: "class",
-  img: "icons/skills/trades/music-note-single-blue.webp",
+  img: "icons/skills/trades/music-notes-sound-blue.webp",
   system: {
     description: {
       value: `<p>An inspiring performer whose music and words channel creative power to aid allies, hinder foes, and reshape reality. Whether singing folk ballads in taverns or elaborate compositions on the high seas, bards use their gifts to hold audiences spellbound and turn the tide of battle.</p>`,

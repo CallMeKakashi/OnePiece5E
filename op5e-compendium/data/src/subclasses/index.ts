@@ -1,4 +1,5 @@
 import type { SubclassItem } from "../../schemas/subclass.js";
+import { assignIcons } from "../../helpers/icons.js";
 
 // --- Fighter subclasses (named exports) ---
 import { champion } from "./fighter-champion.js";
@@ -98,7 +99,7 @@ import { subclass as savantRadiantSuperiority } from "./savant-radiant-superiori
 import { subclass as savantThunderingResolve } from "./savant-thundering-resolve.js";
 import { subclass as savantVenomousDuality } from "./savant-venomous-duality.js";
 
-export const items: SubclassItem[] = [
+export const items: SubclassItem[] = assignIcons([
   // Fighter
   champion, battlemaster, brute, gunslinger, samurai,
   banneret, cavalier, gadgetKnight, masterOfNone, armsDealer, blitzkrieg,
@@ -131,5 +132,5 @@ export const items: SubclassItem[] = [
   savantBurningPassion, savantCausticSpite, savantColdIndifference,
   savantFulminatingGlee, savantMindfulInsight, savantNecroticMania,
   savantRadiantSuperiority, savantThunderingResolve, savantVenomousDuality,
-];
+]);
 export default items;

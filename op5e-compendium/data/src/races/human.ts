@@ -18,19 +18,19 @@ function feat(id: string) { return compendiumUuid("racial-features", id); }
 
 function sizeAdv(raceId: string, sizes: string[]) {
   const id = generateId(`${raceId}/advancement/size`);
-  return { [id]: { _id: id, type: "Size" as const, configuration: { sizes }, value: {}, level: 0, title: "", icon: "", hint: "" } };
+  return { _id: id, type: "Size" as const, configuration: { sizes }, value: {}, level: 0, title: "", icon: "", classRestriction: "", hint: "" };
 }
 
 function raceASI(raceId: string, points: number) {
   const id = generateId(`${raceId}/advancement/asi`);
-  return { [id]: { _id: id, type: "AbilityScoreImprovement" as const, configuration: { points, fixed: {}, cap: 2 }, value: {}, level: 0, title: "Ability Score Increase", icon: "", hint: "" } };
+  return { _id: id, type: "AbilityScoreImprovement" as const, configuration: { points, fixed: {}, cap: 2 }, value: {}, level: 0, title: "Ability Score Increase", icon: "", classRestriction: "", hint: "" };
 }
 
 export const human: RaceItem = {
   _id: generateId(RACE_ID),
   name: "Human",
   type: "race",
-  img: "icons/svg/item-bag.svg",
+  img: "icons/skills/social/diplomacy-handshake-yellow.webp",
   system: {
     description: {
       value: `<p>Humans are the most common and widespread race, varying greatly in appearance and culture. They are adaptable, ambitious, and remarkably diverse, forming the majority of the world's population.</p>

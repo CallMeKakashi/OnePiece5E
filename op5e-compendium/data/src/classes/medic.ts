@@ -30,7 +30,7 @@ export const medic: ClassItem = {
   _id: generateId(CLS),
   name: "Medic",
   type: "class",
-  img: "icons/svg/item-bag.svg",
+  img: "icons/magic/life/heart-cross-green.webp",
   system: {
     description: {
       value: `<p>A healer and scientist who uses medicinal creations, experimental medicine, and anatomical expertise to mend the wounded and harm the hostile. Medics are the lifeblood of any pirate crew, keeping their allies alive through the most dangerous encounters.</p>`,

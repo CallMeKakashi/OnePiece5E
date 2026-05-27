@@ -37,7 +37,7 @@ export const marksman: ClassItem = {
   _id: generateId(CLS),
   name: "Marksman",
   type: "class",
-  img: "icons/weapons/guns/gun-flintlock-gold.webp",
+  img: "icons/weapons/guns/gun-pistol-flintlock.webp",
   system: {
     description: {
       value: `<p>A peerless hunter and sharpshooter, the Marksman combines deadly precision with survival instincts honed through years of tracking prey across every terrain. Whether wielding a rifle, bow, or sling, Marksmen mark their targets and never miss.</p>`,

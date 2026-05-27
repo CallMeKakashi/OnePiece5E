@@ -1,4 +1,5 @@
 import type { FeatureItem } from "../../schemas/feature.js";
+import { assignIcons } from "../../helpers/icons.js";
 
 // --- Additional Powers (Chapter 7) ---
 import { additionalPowerFeatures } from "./additional/index.js";
@@ -117,7 +118,7 @@ import { features as savantRadiantSuperiorityFeatures } from "../subclasses/sava
 import { features as savantThunderingResolveFeatures } from "../subclasses/savant-thundering-resolve.js";
 import { features as savantVenomousDualityFeatures } from "../subclasses/savant-venomous-duality.js";
 
-export const items: FeatureItem[] = [
+export const items: FeatureItem[] = assignIcons([
   // Fighter
   ...fighterFeatures,
   ...fighterStyles,
@@ -226,5 +227,5 @@ export const items: FeatureItem[] = [
   ...savantVenomousDualityFeatures,
   // Additional Powers (Chapter 7)
   ...additionalPowerFeatures,
-];
+]);
 export default items;

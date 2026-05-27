@@ -31,7 +31,7 @@ export const savant: ClassItem = {
   _id: generateId(CLS),
   name: "Savant",
   type: "class",
-  img: "icons/svg/item-bag.svg",
+  img: "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
   system: {
     description: {
       value: `<p>A warrior driven by an ardent soul, the Savant channels elemental forces through sheer conviction and passion. Part combatant, part leader, the Savant inspires allies and smites foes with the raw power of their inner fire.</p>`,

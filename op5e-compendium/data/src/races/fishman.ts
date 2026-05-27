@@ -15,19 +15,19 @@ function feat(id: string) { return compendiumUuid("racial-features", id); }
 
 function sizeAdv(raceId: string, sizes: string[]) {
   const id = generateId(`${raceId}/advancement/size`);
-  return { [id]: { _id: id, type: "Size" as const, configuration: { sizes }, value: {}, level: 0, title: "", icon: "", hint: "" } };
+  return { _id: id, type: "Size" as const, configuration: { sizes }, value: {}, level: 0, title: "", icon: "", classRestriction: "", hint: "" };
 }
 
 function raceASI(raceId: string, points: number) {
   const id = generateId(`${raceId}/advancement/asi`);
-  return { [id]: { _id: id, type: "AbilityScoreImprovement" as const, configuration: { points, fixed: {}, cap: 2 }, value: {}, level: 0, title: "Ability Score Increase", icon: "", hint: "" } };
+  return { _id: id, type: "AbilityScoreImprovement" as const, configuration: { points, fixed: {}, cap: 2 }, value: {}, level: 0, title: "Ability Score Increase", icon: "", classRestriction: "", hint: "" };
 }
 
 export const fishman: RaceItem = {
   _id: generateId(RACE_ID),
   name: "Fishman",
   type: "race",
-  img: "icons/svg/item-bag.svg",
+  img: "icons/creatures/fish/fish-marlin-sword-green.webp",
   system: {
     description: {
       value: `<p>Fishmen are a powerful aquatic race with superior physical abilities. They can breathe underwater and communicate with sea creatures. Their diverse physiology ranges from shark-like predators to octopus-like multipods.</p>

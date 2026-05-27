@@ -1,4 +1,5 @@
 import type { FeatureItem } from "../../schemas/feature.js";
+import { assignIcons } from "../../helpers/icons.js";
 
 import { humanFeatures } from "./human.js";
 import { fishmanFeatures } from "./fishman.js";
@@ -10,7 +11,7 @@ import { merfolkFeatures } from "./merfolk.js";
 import { lunarianFeatures } from "./lunarian.js";
 import { augmentedFeatures } from "./augmented.js";
 
-export const items: FeatureItem[] = [
+export const items: FeatureItem[] = assignIcons([
   ...humanFeatures,
   ...fishmanFeatures,
   ...minkFeatures,
@@ -20,5 +21,5 @@ export const items: FeatureItem[] = [
   ...merfolkFeatures,
   ...lunarianFeatures,
   ...augmentedFeatures,
-];
+]);
 export default items;

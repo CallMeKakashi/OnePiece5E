@@ -82,15 +82,7 @@
   "packFolders": [
     {
       "name": "One Piece 5e",
-      "packs": ["classes", "subclasses", "class-features"]
-    },
-    {
-      "name": "One Piece 5e — Character Options",
-      "packs": ["races", "racial-features", "feats", "backgrounds"]
-    },
-    {
-      "name": "One Piece 5e — Equipment & Creations",
-      "packs": ["items", "creations"]
+      "packs": ["classes", "subclasses", "class-features", "races", "racial-features", "feats", "backgrounds", "items", "creations"]
     }
   ],
   "flags": {

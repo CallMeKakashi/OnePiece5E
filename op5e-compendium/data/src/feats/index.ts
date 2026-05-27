@@ -1,4 +1,5 @@
 import type { FeatureItem } from "../../schemas/feature.js";
+import { assignIcons } from "../../helpers/icons.js";
 
 import { generalACFeats } from "./general-a-c.js";
 import { generalDFFeats } from "./general-d-f.js";
@@ -8,7 +9,7 @@ import { generalNRFeats } from "./general-n-r.js";
 import { generalSWFeats } from "./general-s-w.js";
 import { racialFeats } from "./racial.js";
 
-export const items: FeatureItem[] = [
+export const items: FeatureItem[] = assignIcons([
   ...generalACFeats,
   ...generalDFFeats,
   ...generalGJFeats,
@@ -16,5 +17,5 @@ export const items: FeatureItem[] = [
   ...generalNRFeats,
   ...generalSWFeats,
   ...racialFeats,
-];
+]);
 export default items;

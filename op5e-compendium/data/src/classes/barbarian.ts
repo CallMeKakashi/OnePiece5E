@@ -37,7 +37,7 @@ export const barbarian: ClassItem = {
   _id: generateId(CLASS_ID),
   name: "Barbarian",
   type: "class",
-  img: "icons/skills/melee/hand-grip-sword-red.webp",
+  img: "icons/skills/melee/blood-slash-foam-red.webp",
   system: {
     description: {
       value: `<p>A fierce warrior of primitive background who can enter a battle rage. Barbarians are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea.</p>`,

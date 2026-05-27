@@ -13,19 +13,19 @@ function feat(id: string) { return compendiumUuid("racial-features", id); }
 
 function sizeAdv(raceId: string, sizes: string[]) {
   const id = generateId(`${raceId}/advancement/size`);
-  return { [id]: { _id: id, type: "Size" as const, configuration: { sizes }, value: {}, level: 0, title: "", icon: "", hint: "" } };
+  return { _id: id, type: "Size" as const, configuration: { sizes }, value: {}, level: 0, title: "", icon: "", classRestriction: "", hint: "" };
 }
 
 function raceASI(raceId: string, points: number) {
   const id = generateId(`${raceId}/advancement/asi`);
-  return { [id]: { _id: id, type: "AbilityScoreImprovement" as const, configuration: { points, fixed: {}, cap: 2 }, value: {}, level: 0, title: "Ability Score Increase", icon: "", hint: "" } };
+  return { _id: id, type: "AbilityScoreImprovement" as const, configuration: { points, fixed: {}, cap: 2 }, value: {}, level: 0, title: "Ability Score Increase", icon: "", classRestriction: "", hint: "" };
 }
 
 export const merfolk: RaceItem = {
   _id: generateId(RACE_ID),
   name: "Merfolk",
   type: "race",
-  img: "icons/svg/item-bag.svg",
+  img: "icons/magic/water/wave-water-blue.webp",
   system: {
     description: {
       value: `<p>Merfolk are a kindhearted aquatic race who dwell beneath the seas. Though slow on land, they are remarkably fast swimmers. Their pure souls grant them exceptional mental fortitude, and they can communicate with marine creatures of all kinds.</p>`,

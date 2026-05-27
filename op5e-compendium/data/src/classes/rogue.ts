@@ -57,7 +57,7 @@ export const rogue: ClassItem = {
   _id: generateId(CLASS_ID),
   name: "Rogue",
   type: "class",
-  img: "icons/svg/item-bag.svg",
+  img: "icons/weapons/daggers/dagger-serrated-black.webp",
   system: {
     description: {
       value: `<p>A scoundrel who uses stealth and trickery to overcome obstacles and enemies.</p>`,

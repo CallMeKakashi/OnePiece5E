@@ -44,7 +44,7 @@ const raceSystemSchema = z.object({
   description: descriptionSchema.default({}),
   source: sourceSchema.default({}),
   identifier: z.string(),
-  advancement: z.record(z.string(), advancementEntrySchema),
+  advancement: z.array(advancementEntrySchema),
   movement: movementSchema,
   type: creatureTypeSchema,
 });

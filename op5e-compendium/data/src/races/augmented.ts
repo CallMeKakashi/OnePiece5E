@@ -16,19 +16,19 @@ function feat(id: string) { return compendiumUuid("racial-features", id); }
 
 function sizeAdv(raceId: string, sizes: string[]) {
   const id = generateId(`${raceId}/advancement/size`);
-  return { [id]: { _id: id, type: "Size" as const, configuration: { sizes }, value: {}, level: 0, title: "", icon: "", hint: "" } };
+  return { _id: id, type: "Size" as const, configuration: { sizes }, value: {}, level: 0, title: "", icon: "", classRestriction: "", hint: "" };
 }
 
 function raceASI(raceId: string, points: number) {
   const id = generateId(`${raceId}/advancement/asi`);
-  return { [id]: { _id: id, type: "AbilityScoreImprovement" as const, configuration: { points, fixed: {}, cap: 2 }, value: {}, level: 0, title: "Ability Score Increase", icon: "", hint: "" } };
+  return { _id: id, type: "AbilityScoreImprovement" as const, configuration: { points, fixed: {}, cap: 2 }, value: {}, level: 0, title: "Ability Score Increase", icon: "", classRestriction: "", hint: "" };
 }
 
 export const augmented: RaceItem = {
   _id: generateId(RACE_ID),
   name: "Augmented",
   type: "race",
-  img: "icons/svg/item-bag.svg",
+  img: "icons/skills/trades/construction-stone-wall.webp",
   system: {
     description: {
       value: `<p>Augmented are beings whose bodies have been modified through technology, genetic experimentation, beast hybridization, or resurrection. They possess powerful builds and diverse abilities depending on the nature of their augmentation.</p>

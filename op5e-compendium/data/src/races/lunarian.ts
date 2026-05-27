@@ -14,19 +14,19 @@ function feat(id: string) { return compendiumUuid("racial-features", id); }
 
 function sizeAdv(raceId: string, sizes: string[]) {
   const id = generateId(`${raceId}/advancement/size`);
-  return { [id]: { _id: id, type: "Size" as const, configuration: { sizes }, value: {}, level: 0, title: "", icon: "", hint: "" } };
+  return { _id: id, type: "Size" as const, configuration: { sizes }, value: {}, level: 0, title: "", icon: "", classRestriction: "", hint: "" };
 }
 
 function raceASI(raceId: string, points: number) {
   const id = generateId(`${raceId}/advancement/asi`);
-  return { [id]: { _id: id, type: "AbilityScoreImprovement" as const, configuration: { points, fixed: {}, cap: 2 }, value: {}, level: 0, title: "Ability Score Increase", icon: "", hint: "" } };
+  return { _id: id, type: "AbilityScoreImprovement" as const, configuration: { points, fixed: {}, cap: 2 }, value: {}, level: 0, title: "Ability Score Increase", icon: "", classRestriction: "", hint: "" };
 }
 
 export const lunarian: RaceItem = {
   _id: generateId(RACE_ID),
   name: "Lunarian",
   type: "race",
-  img: "icons/svg/item-bag.svg",
+  img: "icons/magic/fire/projectile-meteor-burning-orange.webp",
   system: {
     description: {
       value: `<p>Lunarians are a near-extinct race once known as gods. They possess large black wings granting flight, can withstand any environment, and wield the power of flames. Their Flaming Duality allows them to shift between defensive and speed-focused forms.</p>`,

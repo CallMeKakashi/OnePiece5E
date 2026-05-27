@@ -35,7 +35,7 @@ export const gadgeteer: ClassItem = {
   _id: generateId(CLS),
   name: "Gadgeteer",
   type: "class",
-  img: "icons/svg/item-bag.svg",
+  img: "icons/tools/smithing/anvil.webp",
   system: {
     description: {
       value: `<p>A master of mechanical invention, the Gadgeteer uses intelligence and ingenuity to craft mastercraft items, deploy mods, and create wondrous devices. Gadgeteers channel their creativity through tools and tinkering, producing effects that rival the supernatural.</p>`,

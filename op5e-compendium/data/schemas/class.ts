@@ -30,7 +30,7 @@ const classSystemSchema = z.object({
   levels: z.number().int().default(1),
   hitDice: z.string().regex(/^d\d+$/),
   hitDiceUsed: z.number().int().default(0),
-  advancement: z.record(z.string(), advancementEntrySchema),
+  advancement: z.array(advancementEntrySchema),
   spellcasting: z
     .object({
       progression: z
