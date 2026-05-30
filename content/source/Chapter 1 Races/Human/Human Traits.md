@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:04.057+05:30","modified":"2025-12-18T00:42:04.061+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Human Traits
 

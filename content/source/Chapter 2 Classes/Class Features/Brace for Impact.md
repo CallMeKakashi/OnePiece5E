@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:05.181+05:30","modified":"2025-12-18T00:42:05.184+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Brace for Impact
 

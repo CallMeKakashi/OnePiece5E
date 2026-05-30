@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:05.671+05:30","modified":"2025-12-18T00:42:05.674+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Favored Mark
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:05.011+05:30","modified":"2025-12-18T00:42:05.013+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Ability Score Improvement
 

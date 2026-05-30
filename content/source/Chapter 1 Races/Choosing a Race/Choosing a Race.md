@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:03.796+05:30","modified":"2025-12-18T00:42:03.800+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Choosing a Race
 

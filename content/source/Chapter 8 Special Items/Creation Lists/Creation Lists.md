@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:13.125+05:30","modified":"2025-12-18T00:42:13.130+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Creation Lists
 

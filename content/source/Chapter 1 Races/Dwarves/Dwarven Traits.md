@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:03.835+05:30","modified":"2025-12-18T00:42:03.838+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Dwarven Traits
 

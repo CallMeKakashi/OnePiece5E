@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:13.834+05:30","modified":"2025-12-18T00:42:13.838+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Cursed Weapons
 

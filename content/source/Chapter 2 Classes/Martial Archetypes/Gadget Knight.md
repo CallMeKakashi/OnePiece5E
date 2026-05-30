@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:07.154+05:30","modified":"2025-12-18T00:42:07.160+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Gadget Knight
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:12.409+05:30","modified":"2025-12-18T00:42:12.412+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Snipe and Strike
 

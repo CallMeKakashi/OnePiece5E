@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:10.028+05:30","modified":"2025-12-18T00:42:10.033+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Paramecia Type
 

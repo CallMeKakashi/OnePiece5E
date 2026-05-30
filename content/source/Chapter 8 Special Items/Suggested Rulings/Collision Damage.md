@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:14.875+05:30","modified":"2025-12-18T00:42:14.879+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Collision Damage
 

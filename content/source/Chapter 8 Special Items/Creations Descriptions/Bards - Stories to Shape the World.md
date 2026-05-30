@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:13.592+05:30","modified":"2025-12-18T00:42:13.595+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Bards - Stories to Shape the World
 

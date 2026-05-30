@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:06.257+05:30","modified":"2025-12-18T00:42:06.261+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Quick On The Draw
 

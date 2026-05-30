@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:12.945+05:30","modified":"2025-12-18T00:42:12.948+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Consumables
 

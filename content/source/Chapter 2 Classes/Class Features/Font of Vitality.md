@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:05.757+05:30","modified":"2025-12-18T00:42:05.760+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Font of Vitality
 

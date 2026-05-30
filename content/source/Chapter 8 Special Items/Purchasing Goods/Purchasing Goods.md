@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:14.524+05:30","modified":"2025-12-18T00:42:14.529+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Purchasing Goods
 

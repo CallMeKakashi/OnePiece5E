@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:06.732+05:30","modified":"2025-12-18T00:42:06.735+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Uncanny Dodge
 

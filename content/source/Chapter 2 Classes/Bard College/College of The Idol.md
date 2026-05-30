@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:04.702+05:30","modified":"2025-12-18T00:42:04.704+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### College of The Idol
 

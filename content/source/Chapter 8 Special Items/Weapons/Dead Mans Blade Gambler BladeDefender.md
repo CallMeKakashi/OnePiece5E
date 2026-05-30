@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:15.338+05:30","modified":"2025-12-18T00:42:15.343+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Dead Man's Blade (Gambler Blade/Defender)
 

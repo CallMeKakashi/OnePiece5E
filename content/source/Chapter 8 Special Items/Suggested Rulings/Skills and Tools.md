@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:15.154+05:30","modified":"2025-12-18T00:42:15.157+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Skills and Tools
 

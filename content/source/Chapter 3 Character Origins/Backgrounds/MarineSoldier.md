@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:08.520+05:30","modified":"2025-12-18T00:42:08.524+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Marine/Soldier
 

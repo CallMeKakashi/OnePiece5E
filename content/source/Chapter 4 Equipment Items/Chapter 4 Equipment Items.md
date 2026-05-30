@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:09.201+05:30","modified":"2025-12-18T00:42:09.205+05:30","cssclasses":""}
+publish: true
 ---
-
 
 # Chapter 4: Equipment & Items
 

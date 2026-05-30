@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:05.775+05:30","modified":"2025-12-18T00:42:05.779+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Harmonic Vitality
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:13.511+05:30","modified":"2025-12-18T00:42:13.519+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### 7th Level
 

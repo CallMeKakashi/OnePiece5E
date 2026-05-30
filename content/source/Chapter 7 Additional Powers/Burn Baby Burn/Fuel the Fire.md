@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:10.275+05:30","modified":"2025-12-18T00:42:10.281+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Fuel the Fire
 

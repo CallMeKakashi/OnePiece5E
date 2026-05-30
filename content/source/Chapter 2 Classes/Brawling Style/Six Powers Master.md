@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:04.915+05:30","modified":"2025-12-18T00:42:04.919+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Six Powers Master
 

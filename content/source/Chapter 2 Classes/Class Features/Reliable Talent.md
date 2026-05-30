@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:06.360+05:30","modified":"2025-12-18T00:42:06.363+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Reliable Talent
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:15.016+05:30","modified":"2025-12-18T00:42:15.019+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Making Custom Backgrounds
 

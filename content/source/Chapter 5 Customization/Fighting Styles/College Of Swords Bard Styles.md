@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:09.630+05:30","modified":"2025-12-18T00:42:09.634+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### College Of Swords Bard Styles
 

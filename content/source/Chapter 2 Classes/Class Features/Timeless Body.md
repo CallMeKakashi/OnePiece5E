@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:06.641+05:30","modified":"2025-12-18T00:42:06.643+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Timeless Body
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:06.716+05:30","modified":"2025-12-18T00:42:06.718+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Unarmored Movement
 

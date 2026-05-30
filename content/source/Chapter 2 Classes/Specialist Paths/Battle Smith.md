@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:07.950+05:30","modified":"2025-12-18T00:42:07.954+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Battle Smith
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:14.487+05:30","modified":"2025-12-18T00:42:14.492+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Availability of Goods
 

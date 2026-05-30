@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:08.132+05:30","modified":"2025-12-18T00:42:08.137+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Bounty Hunter
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:09.965+05:30","modified":"2025-12-18T00:42:09.971+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### The Cat-Cat Fruit, Model: Saber-Toothed Tiger
 

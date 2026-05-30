@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:13.570+05:30","modified":"2025-12-18T00:42:13.579+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### 9th Level
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:09:13.151+05:30","modified":"2025-12-18T00:36:58.529+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Augmented
 

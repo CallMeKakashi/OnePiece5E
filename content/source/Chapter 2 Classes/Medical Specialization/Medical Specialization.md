@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:07.360+05:30","modified":"2025-12-18T00:42:07.364+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Medical Specialization
 

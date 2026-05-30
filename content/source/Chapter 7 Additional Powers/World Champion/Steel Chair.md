@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:12.626+05:30","modified":"2025-12-18T00:42:12.628+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Steel Chair
 

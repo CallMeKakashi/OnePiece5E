@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:14.285+05:30","modified":"2025-12-18T00:42:14.289+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### The Silver Seer
 

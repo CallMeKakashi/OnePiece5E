@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:13.428+05:30","modified":"2025-12-18T00:42:13.450+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### 5th Level
 

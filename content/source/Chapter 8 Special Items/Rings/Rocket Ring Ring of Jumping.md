@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:14.714+05:30","modified":"2025-12-18T00:42:14.717+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Rocket Ring (Ring of Jumping)
 

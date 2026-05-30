@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:15.084+05:30","modified":"2025-12-18T00:42:15.089+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Rolling Hit Points
 

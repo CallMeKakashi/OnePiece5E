@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:09.497+05:30","modified":"2025-12-18T00:42:09.502+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Additional Ranged Weapons
 

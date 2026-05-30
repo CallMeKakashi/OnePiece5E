@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:14.253+05:30","modified":"2025-12-18T00:42:14.254+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### The Faithful One
 

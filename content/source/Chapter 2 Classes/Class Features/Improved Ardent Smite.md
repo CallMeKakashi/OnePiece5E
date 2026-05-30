@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:05.826+05:30","modified":"2025-12-18T00:42:05.829+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Improved Ardent Smite
 

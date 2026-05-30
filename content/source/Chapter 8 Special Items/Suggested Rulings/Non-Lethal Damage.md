@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:15.033+05:30","modified":"2025-12-18T00:42:15.038+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Non-Lethal Damage
 

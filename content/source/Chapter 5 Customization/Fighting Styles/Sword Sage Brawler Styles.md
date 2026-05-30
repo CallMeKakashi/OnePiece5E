@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:09.725+05:30","modified":"2025-12-18T00:42:09.728+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Sword Sage Brawler Styles
 

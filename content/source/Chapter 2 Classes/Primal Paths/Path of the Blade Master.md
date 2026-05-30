@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:07.428+05:30","modified":"2025-12-18T00:42:07.434+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Path of the Blade Master
 

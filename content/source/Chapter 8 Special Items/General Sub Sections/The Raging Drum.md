@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:14.269+05:30","modified":"2025-12-18T00:42:14.273+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### The Raging Drum
 

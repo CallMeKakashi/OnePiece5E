@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:14.504+05:30","modified":"2025-12-18T00:42:14.511+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Prices of Goods
 

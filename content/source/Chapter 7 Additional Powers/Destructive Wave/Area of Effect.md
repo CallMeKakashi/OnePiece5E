@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:10.538+05:30","modified":"2025-12-18T00:42:10.543+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Area of Effect
 

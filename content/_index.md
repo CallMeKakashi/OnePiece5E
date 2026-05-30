@@ -1,67 +1,191 @@
 ---
-{"publish":true,"created":"2025-12-17T23:18:40.341+05:30","modified":"2025-12-18T00:35:00.377+05:30","cssclasses":""}
+publish: true
 ---
+# One Piece D&D Campaign
 
-# 🏴‍☠️ One Piece D&D Campaign
+Welcome to the master index for the campaign. This file acts as the central navigation hub for all factions, rules, world lore, and references.
 
-Welcome to the master index for the campaign. This file acts as the central navigation hub for all characters, rules, world lore, and references.
-
----
-
-## 📁 Characters
-
-**Player Characters and their personal arcs**
-
-- [[Characters/Baptiste\|Baptiste]]
-
+Agents: start with [[CONTEXT]] → [[docs/agents/CORE|docs/agents/CORE]] → this page.
 
 ---
 
-## 🧭 Crew
+## Factions
 
-**Permanent NPCs who travel with the party**
+**All named characters live under their faction in `World/Factions/`.**
 
-- [[Crew/Tigor Hunt\|Tigor Hunt]]
+### Lunarfolds (Player Party)
+
+**The player crew — a unit of the Blackhand pirates.**
+
+```dataview
+LIST
+FROM "World/Factions/Blackhand/Lunarfolds"
+```
+
+### Blackhand
+
+**Pirate organization and associated fleet units.**
+
+```dataview
+LIST
+FROM "World/Factions/Blackhand"
+WHERE file.folder = "World/Factions/Blackhand"
+```
+
+#### Gentle Giant Pirates
+
+```dataview
+LIST
+FROM "World/Factions/Blackhand/Gentle Giant Pirates"
+```
+
+### Sixfold
+
+**Mercenary organization led by Liz.**
+
+```dataview
+LIST
+FROM "World/Factions/Sixfold"
+```
+
+### Marines
+
+```dataview
+LIST
+FROM "World/Factions/Marines"
+```
+
+### Motley Crew
+
+**Historical founding crew — members splintered into other factions.**
+
+```dataview
+LIST
+FROM "World/Factions/Motley Crew"
+```
+
+### Decibella Revolutionary
+
+```dataview
+LIST
+FROM "World/Factions/Decibella Revolutionary"
+```
+
+### Spider Nest Pirates
+
+```dataview
+LIST
+FROM "World/Factions/Spider Nest Pirates"
+```
+
+### Soundless 5
+
+**Decibella Kingdom enforcers.**
+
+```dataview
+LIST
+FROM "World/Factions/Soundless 5"
+```
+
+### Mugen Industries
+
+```dataview
+LIST
+FROM "World/Factions/Mugen Industries"
+```
 
 ---
 
-## 🤝 Party NPCs
+## Rules
 
-**Temporary allies, passengers, and short-term companions**
+**Homebrew systems, rulings, and campaign-specific mechanics**
 
-- [[Party NPC's/Graff Newt]]
+- [[Inspiration|Inspiration]]
+- [[Rules/Devil Fruits|Devil Fruits]] · [[Rules/Inventions|Inventions]] (see [[source/source|Source]] Ch. 4–6)
 
----
-
-## 📜 Rules
-
-**Homebrew systems, rulings, and One Piece–specific mechanics**
-
-- [[Rules/Inspiration\|Inspiration]]
-
----
-
-## 🌍 World
-
-**Islands, regions, factions, and rumors**
-
-- [[World/World Map\|World Map]]
-	- [[World/Ambercrest/Ambercrest\|Ambercrest]]
-		- [[World/Ambercrest/Kirro King]]
+```dataview
+TABLE status
+FROM "Rules/Devil Fruits" OR "Rules/Inventions"
+SORT file.name ASC
+```
 
 ---
 
-## 📚 Source
+## World
 
-**Reference material converted from PDFs**
+**Islands, regions, and locations**
 
-- [[source/source\|source]]
-
+```dataview
+LIST
+FROM "World"
+WHERE file.folder = "World"
+```
 
 ---
 
-# 📖 Sessions
+## Timeline
+
+**In-world chronology** (events, newspapers, and backstory). Full index: [[Timeline/_index|Timeline]].
+
+---
+
+## Newspapers
+
+**In-fiction headlines and editions** — curated from Discord `#world-lore` and related sources. Full chronology: [[Timeline/_index|Timeline]].
+
+```dataview
+TABLE in_world_label, publication, status
+FROM "Timeline"
+WHERE type = "newspaper"
+SORT file.name ASC
+```
+
+---
+
+## Source
+
+**Reference material converted from PDFs (One Piece D&D DM Guide + Player's Guide)**
+
+```dataview
+LIST
+FROM "source"
+WHERE file.folder = "source"
+```
+
+---
+
+## Sessions
 
 **List of all Sessions so far**
 
-- [[Sessions/Session 1\|Session 1]]
+```dataview
+LIST
+FROM "Sessions"
+```
+
+---
+
+## Transcripts
+
+**Episode transcripts** (broadcast/recording unit). Session numbers may not match episode numbers; use titles for alignment. Browse the `Transcripts/` folder.
+
+---
+
+## Journals
+
+**In-character or between-session journal entries.**
+
+```dataview
+LIST
+FROM "Journals"
+SORT file.name ASC
+```
+
+---
+
+## Maintenance
+
+- [[Templates/_index|Edit templates]] — campaign templates (`Templates/` hidden in explorer)
+- [[docs/obsidian-setup|Obsidian setup]] — hidden folders, CSS snippet, bookmarks
+- [[CONTEXT]] — domain glossary (Actors, Factions, Session vs Episode)
+- [[docs/agents/CORE|docs/agents/CORE]] — agent operational rules (folder tiers, read-only default)

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:04.846+05:30","modified":"2025-12-18T00:42:04.850+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Ninja
 

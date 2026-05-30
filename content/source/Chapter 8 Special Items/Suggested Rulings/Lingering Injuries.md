@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:14.996+05:30","modified":"2025-12-18T00:42:15.003+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Lingering Injuries
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:13.543+05:30","modified":"2025-12-18T00:42:13.551+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### 8th Level
 

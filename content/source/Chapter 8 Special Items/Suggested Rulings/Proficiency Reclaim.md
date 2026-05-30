@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:15.067+05:30","modified":"2025-12-18T00:42:15.070+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Proficiency Reclaim
 

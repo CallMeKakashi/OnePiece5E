@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:05.049+05:30","modified":"2025-12-18T00:42:05.051+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Animal Spirit
 

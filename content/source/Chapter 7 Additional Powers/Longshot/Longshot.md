@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:11.450+05:30","modified":"2025-12-18T00:42:11.453+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Longshot
 

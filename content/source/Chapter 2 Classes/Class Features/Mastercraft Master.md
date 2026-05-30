@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:06.004+05:30","modified":"2025-12-18T00:42:06.006+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Mastercraft Master
 

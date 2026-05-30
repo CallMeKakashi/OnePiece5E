@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:14.429+05:30","modified":"2025-12-18T00:42:14.431+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Making Devil Fruits
 

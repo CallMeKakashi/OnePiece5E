@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:12.193+05:30","modified":"2025-12-18T00:42:12.198+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Formal Noodle Suit
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:04.978+05:30","modified":"2025-12-18T00:42:04.983+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Way of Mercy
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:07.005+05:30","modified":"2025-12-18T00:42:07.009+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Swarmkeeper
 

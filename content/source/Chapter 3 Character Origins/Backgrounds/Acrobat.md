@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:08.021+05:30","modified":"2025-12-18T00:42:08.025+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Acrobat
 

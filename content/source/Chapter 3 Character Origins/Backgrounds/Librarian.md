@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:08.485+05:30","modified":"2025-12-18T00:42:08.489+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Librarian
 

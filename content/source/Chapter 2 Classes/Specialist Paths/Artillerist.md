@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:07.924+05:30","modified":"2025-12-18T00:42:07.929+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Artillerist
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:08.922+05:30","modified":"2025-12-18T00:42:08.925+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Dreams
 

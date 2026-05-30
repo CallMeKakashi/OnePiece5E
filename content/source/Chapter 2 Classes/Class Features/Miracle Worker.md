@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:06.091+05:30","modified":"2025-12-18T00:42:06.094+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Miracle Worker
 

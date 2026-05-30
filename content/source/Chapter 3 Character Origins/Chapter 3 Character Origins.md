@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:08.904+05:30","modified":"2025-12-18T00:42:08.909+05:30","cssclasses":""}
+publish: true
 ---
-
 
 # Chapter 3: Character Origins
 

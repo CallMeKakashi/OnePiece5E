@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:05.915+05:30","modified":"2025-12-18T00:42:05.918+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Land's Stride
 

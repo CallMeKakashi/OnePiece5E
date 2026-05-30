@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:04.686+05:30","modified":"2025-12-18T00:42:04.690+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### College of Swords
 

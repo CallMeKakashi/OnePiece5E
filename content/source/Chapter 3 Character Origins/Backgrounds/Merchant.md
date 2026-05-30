@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:08.579+05:30","modified":"2025-12-18T00:42:08.584+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Merchant
 

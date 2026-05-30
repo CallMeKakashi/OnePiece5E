@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:12.039+05:30","modified":"2025-12-18T00:42:12.042+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Medical Dissertation
 

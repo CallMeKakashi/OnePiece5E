@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:04.524+05:30","modified":"2025-12-18T00:42:04.528+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Thundering Resolve
 

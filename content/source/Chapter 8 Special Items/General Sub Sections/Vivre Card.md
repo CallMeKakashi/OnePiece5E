@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:14.303+05:30","modified":"2025-12-18T00:42:14.307+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Vivre Card
 

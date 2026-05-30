@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:04.667+05:30","modified":"2025-12-18T00:42:04.671+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### College of Lore
 

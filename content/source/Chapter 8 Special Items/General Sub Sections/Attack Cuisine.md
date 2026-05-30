@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:13.775+05:30","modified":"2025-12-18T00:42:13.779+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Attack Cuisine
 

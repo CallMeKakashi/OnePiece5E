@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:06.699+05:30","modified":"2025-12-18T00:42:06.703+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Unarmored Defense
 

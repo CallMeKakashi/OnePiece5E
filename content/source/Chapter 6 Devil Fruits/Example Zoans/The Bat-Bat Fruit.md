@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:09.940+05:30","modified":"2025-12-18T00:42:09.945+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### The Bat-Bat Fruit
 

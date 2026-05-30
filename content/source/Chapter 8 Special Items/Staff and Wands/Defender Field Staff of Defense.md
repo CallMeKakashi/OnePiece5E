@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:14.749+05:30","modified":"2025-12-18T00:42:14.753+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Defender Field (Staff of Defense)
 

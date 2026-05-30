@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:05.229+05:30","modified":"2025-12-18T00:42:05.233+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Brutal Critical
 

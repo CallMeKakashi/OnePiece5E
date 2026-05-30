@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:09.547+05:30","modified":"2025-12-18T00:42:09.595+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Feats
 

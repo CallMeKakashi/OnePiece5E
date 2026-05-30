@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:07.300+05:30","modified":"2025-12-18T00:42:07.310+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Bio-Engineer
 

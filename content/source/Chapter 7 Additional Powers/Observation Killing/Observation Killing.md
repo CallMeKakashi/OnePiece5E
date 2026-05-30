@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:12.007+05:30","modified":"2025-12-18T00:42:12.009+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Observation Killing
 

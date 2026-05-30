@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:14.893+05:30","modified":"2025-12-18T00:42:14.896+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Creations and Objects
 

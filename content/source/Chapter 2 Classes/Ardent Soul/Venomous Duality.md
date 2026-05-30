@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:04.541+05:30","modified":"2025-12-18T00:42:04.545+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Venomous Duality
 

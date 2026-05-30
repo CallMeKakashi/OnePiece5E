@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:09.613+05:30","modified":"2025-12-18T00:42:09.617+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Blademaster Barbarian Styles
 

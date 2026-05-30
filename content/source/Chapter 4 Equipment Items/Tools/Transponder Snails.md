@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:09.422+05:30","modified":"2025-12-18T00:42:09.427+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Transponder Snails
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:15.130+05:30","modified":"2025-12-18T00:42:15.135+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Siege Against Constructs
 

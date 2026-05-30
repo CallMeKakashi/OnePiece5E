@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:11.200+05:30","modified":"2025-12-18T00:42:11.203+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Heart Strings
 

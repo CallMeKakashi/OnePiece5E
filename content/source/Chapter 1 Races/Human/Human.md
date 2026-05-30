@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:04.074+05:30","modified":"2025-12-18T00:42:04.079+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Human
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:15.501+05:30","modified":"2025-12-18T00:42:15.507+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Using This Guide
 

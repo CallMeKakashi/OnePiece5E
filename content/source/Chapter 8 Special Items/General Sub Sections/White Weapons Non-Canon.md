@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:14.348+05:30","modified":"2025-12-18T00:42:14.351+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### White Weapons (Non-Canon)
 

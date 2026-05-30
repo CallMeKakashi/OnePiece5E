@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:09.708+05:30","modified":"2025-12-18T00:42:09.713+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Savant Styles
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:04.180+05:30","modified":"2025-12-18T00:42:04.185+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Deep Sea Monarchs
 

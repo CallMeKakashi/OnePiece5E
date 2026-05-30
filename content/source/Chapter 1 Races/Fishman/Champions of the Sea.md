@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:03.908+05:30","modified":"2025-12-18T00:42:03.913+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Champions of the Sea
 

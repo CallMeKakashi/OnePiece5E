@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:11.288+05:30","modified":"2025-12-18T00:42:11.290+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Iron Fury
 

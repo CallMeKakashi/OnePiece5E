@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:09.123+05:30","modified":"2025-12-18T00:42:09.128+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Scholar
 

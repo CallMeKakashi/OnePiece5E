@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:10.860+05:30","modified":"2025-12-18T00:42:10.863+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Fearsome Fortitude
 

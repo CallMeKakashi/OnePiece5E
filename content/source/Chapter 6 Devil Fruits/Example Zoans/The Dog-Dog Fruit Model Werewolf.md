@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:09.983+05:30","modified":"2025-12-18T00:42:09.989+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### The Dog-Dog Fruit, Model: Werewolf
 

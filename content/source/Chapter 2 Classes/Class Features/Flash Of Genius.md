@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:05.725+05:30","modified":"2025-12-18T00:42:05.727+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Flash Of Genius
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:05.133+05:30","modified":"2025-12-18T00:42:05.135+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Bard College
 

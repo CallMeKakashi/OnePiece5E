@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:09.275+05:30","modified":"2025-12-18T00:42:09.277+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Mounts and Vehicles
 

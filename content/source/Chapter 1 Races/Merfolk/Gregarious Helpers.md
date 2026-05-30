@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:04.198+05:30","modified":"2025-12-18T00:42:04.201+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Gregarious Helpers
 

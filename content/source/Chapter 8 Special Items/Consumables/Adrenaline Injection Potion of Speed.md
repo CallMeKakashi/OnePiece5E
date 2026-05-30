@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:12.929+05:30","modified":"2025-12-18T00:42:12.931+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Adrenaline Injection (Potion of Speed)
 

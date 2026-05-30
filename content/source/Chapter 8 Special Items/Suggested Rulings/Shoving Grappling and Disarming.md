@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:15.108+05:30","modified":"2025-12-18T00:42:15.113+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Shoving, Grappling, and Disarming
 

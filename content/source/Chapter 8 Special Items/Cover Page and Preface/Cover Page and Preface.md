@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:12.992+05:30","modified":"2025-12-18T00:42:12.996+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Cover Page and Preface:
 

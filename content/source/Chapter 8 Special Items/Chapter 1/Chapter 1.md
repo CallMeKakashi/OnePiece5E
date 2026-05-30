@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:12.736+05:30","modified":"2025-12-18T00:42:12.745+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Chapter 1:
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:10.683+05:30","modified":"2025-12-18T00:42:10.685+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Dragon Grip
 

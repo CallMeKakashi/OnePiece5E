@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:11.364+05:30","modified":"2025-12-18T00:42:11.366+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Fancy Feet
 

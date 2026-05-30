@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:06.019+05:30","modified":"2025-12-18T00:42:06.023+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Mastercraft Novice
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:12.109+05:30","modified":"2025-12-18T00:42:12.112+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Plan B
 

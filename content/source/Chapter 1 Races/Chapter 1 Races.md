@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:03.779+05:30","modified":"2025-12-18T00:42:03.783+05:30","cssclasses":""}
+publish: true
 ---
-
 
 # Chapter 1: Races
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:14.833+05:30","modified":"2025-12-18T00:42:14.837+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Automatic Success in Skill Checks
 

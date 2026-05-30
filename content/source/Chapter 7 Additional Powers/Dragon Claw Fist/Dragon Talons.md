@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:10.698+05:30","modified":"2025-12-18T00:42:10.701+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Dragon Talons
 

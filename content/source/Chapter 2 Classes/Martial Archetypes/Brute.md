@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:07.103+05:30","modified":"2025-12-18T00:42:07.106+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Brute
 

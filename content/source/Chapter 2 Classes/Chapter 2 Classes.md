@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:04.995+05:30","modified":"2025-12-18T00:42:04.997+05:30","cssclasses":""}
+publish: true
 ---
-
 
 # Chapter 2: Classes
 

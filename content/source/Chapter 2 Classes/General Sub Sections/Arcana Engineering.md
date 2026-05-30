@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:06.819+05:30","modified":"2025-12-18T00:42:06.823+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Arcana = Engineering
 

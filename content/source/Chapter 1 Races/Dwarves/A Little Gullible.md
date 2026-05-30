@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:03.819+05:30","modified":"2025-12-18T00:42:03.821+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### A Little Gullible
 

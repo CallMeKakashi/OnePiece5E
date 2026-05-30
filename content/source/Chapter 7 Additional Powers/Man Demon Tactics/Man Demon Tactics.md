@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:11.632+05:30","modified":"2025-12-18T00:42:11.635+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ## Man Demon Tactics
 

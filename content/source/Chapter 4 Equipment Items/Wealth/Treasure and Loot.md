@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:09.445+05:30","modified":"2025-12-18T00:42:09.449+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Treasure and Loot
 

@@ -1,7 +1,6 @@
 ---
-{"publish":true,"created":"2025-12-18T00:42:12.160+05:30","modified":"2025-12-18T00:42:12.164+05:30","cssclasses":""}
+publish: true
 ---
-
 
 ### Ferocious Aura
 
