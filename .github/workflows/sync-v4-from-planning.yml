@@ -68,6 +68,7 @@ jobs:
           git push origin HEAD:v4
 
       - name: Deploy Quartz site to GitHub Pages
+        working-directory: planning
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh workflow run "Deploy Quartz site to GitHub Pages" --ref v4
