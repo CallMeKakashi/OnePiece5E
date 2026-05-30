@@ -9,8 +9,8 @@ status: draft
 
 Campaign items and tables (not Devil Fruits).
 
-```dataview
-LIST
-FROM "Rules/Inventions"
-SORT file.name ASC
-```
+- [[D20 “Morph Balls” Roll Table]]
+- [[Inventions]]
+- [[LunaFang Serum]]
+- [[Vivre Compass]]
+

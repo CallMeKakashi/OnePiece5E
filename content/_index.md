@@ -17,82 +17,104 @@ Agents: start with [[CONTEXT]] → [[docs/agents/CORE|docs/agents/CORE]] → thi
 
 **The player crew — a unit of the Blackhand pirates.**
 
-```dataview
-LIST
-FROM "World/Factions/Blackhand/Lunarfolds"
-```
+- [[Baptiste]]
+- [[Cade Tigor Cooper]]
+- [[Lunarfolds]]
+- [[Malphas]]
+- [[Roma]]
+- [[Zim]]
+
 
 ### Blackhand
 
 **Pirate organization and associated fleet units.**
 
-```dataview
-LIST
-FROM "World/Factions/Blackhand"
-WHERE file.folder = "World/Factions/Blackhand"
-```
+- [[Baptiste (Blackhand unit)]]
+- [[Blackhand]]
+- [[Blackhand (Cyber)]]
+- [[Blackhand Cane]]
+- [[Mira the Unbreakable]]
+- [[Morley]]
+- [[Renzo]]
+- [[Tray]]
+- [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”]]
+- [[🎶 Red — “The Songbird of the Black Comet”]]
+- [[🦾 Saplea D. Isla — “Dreadnaught”]]
+
 
 #### Gentle Giant Pirates
 
-```dataview
-LIST
-FROM "World/Factions/Blackhand/Gentle Giant Pirates"
-```
+- [[Gentle Giant Pirates]]
+- [[Kalla of Shandia]]
+- [[Shako]]
+
 
 ### Sixfold
 
 **Mercenary organization led by Liz.**
 
-```dataview
-LIST
-FROM "World/Factions/Sixfold"
-```
+- [[Cerica Corvine]]
+- [[Cline The Plague]]
+- [[Liz]]
+- [[Sixfold]]
+- [[Veyl Corvine]]
+
 
 ### Marines
 
-```dataview
-LIST
-FROM "World/Factions/Marines"
-```
+- [[Commander Leon]]
+- [[Delaroth]]
+- [[Graff Bolt]]
+- [[Sir Can Veil]]
+- [[Vorro]]
+
 
 ### Motley Crew
 
 **Historical founding crew — members splintered into other factions.**
 
-```dataview
-LIST
-FROM "World/Factions/Motley Crew"
-```
+- [[Aralia]]
+- [[Astor]]
+- [[Linus Marrow]]
+- [[Motley Crew]]
+- [[Pasha]]
+- [[Rias]]
+- [[Ronan]]
+
 
 ### Decibella Revolutionary
 
-```dataview
-LIST
-FROM "World/Factions/Decibella Revolutionary"
-```
+- [[Cadence]]
+- [[Decibella Revolutionary]]
+- [[Riff Sin]]
+
 
 ### Spider Nest Pirates
 
-```dataview
-LIST
-FROM "World/Factions/Spider Nest Pirates"
-```
+- [[Ben]]
+- [[Chloe]]
+- [[Daniel]]
+- [[Simon The One Armed Tyrant]]
+- [[Spider Nest Pirates]]
+
 
 ### Soundless 5
 
 **Decibella Kingdom enforcers.**
 
-```dataview
-LIST
-FROM "World/Factions/Soundless 5"
-```
+- [[Baron Woofer]]
+- [[Echo Spy]]
+- [[Lady Soefra Anthem]]
+- [[Mezzo Troop]]
+- [[Soundless 5]]
+- [[Synth]]
+
 
 ### Mugen Industries
 
-```dataview
-LIST
-FROM "World/Factions/Mugen Industries"
-```
+- [[Hallow]]
+- [[Mugen Industries]]
+
 
 ---
 
@@ -103,11 +125,17 @@ FROM "World/Factions/Mugen Industries"
 - [[Inspiration|Inspiration]]
 - [[Rules/Devil Fruits|Devil Fruits]] · [[Rules/Inventions|Inventions]] (see [[source/source|Source]] Ch. 4–6)
 
-```dataview
-TABLE status
-FROM "Rules/Devil Fruits" OR "Rules/Inventions"
-SORT file.name ASC
-```
+| Note | status |
+| --- | --- |
+| [[D20 “Morph Balls” Roll Table]] | draft |
+| [[Devil Fruits]] | draft |
+| [[Fusion Fusion Fruit]] | draft |
+| [[Inventions]] | draft |
+| [[LunaFang Serum]] | draft |
+| [[Soku Soku no Mi]] | draft |
+| [[Vivre Compass]] | draft |
+| [[Zaiko Zaiko No Mi]] | draft |
+
 
 ---
 
@@ -115,11 +143,8 @@ SORT file.name ASC
 
 **Islands, regions, and locations**
 
-```dataview
-LIST
-FROM "World"
-WHERE file.folder = "World"
-```
+<!-- dataview: no matching notes -->
+
 
 ---
 
@@ -133,12 +158,8 @@ WHERE file.folder = "World"
 
 **In-fiction headlines and editions** — curated from Discord `#world-lore` and related sources. Full chronology: [[Timeline/_index|Timeline]].
 
-```dataview
-TABLE in_world_label, publication, status
-FROM "Timeline"
-WHERE type = "newspaper"
-SORT file.name ASC
-```
+<!-- dataview: no matching notes -->
+
 
 ---
 
@@ -146,11 +167,8 @@ SORT file.name ASC
 
 **Reference material converted from PDFs (One Piece D&D DM Guide + Player's Guide)**
 
-```dataview
-LIST
-FROM "source"
-WHERE file.folder = "source"
-```
+- [[source]]
+
 
 ---
 
@@ -158,10 +176,26 @@ WHERE file.folder = "source"
 
 **List of all Sessions so far**
 
-```dataview
-LIST
-FROM "Sessions"
-```
+- [[Blood and Lumafang]]
+- [[Episode 5 - The Mistframe]]
+- [[Episode 6 - Read aloud]]
+- [[Episode 6 - Thorn in the path]]
+- [[Episode 6 Stats]]
+- [[Freefield Sidequest]]
+- [[Loot log party 3]]
+- [[Malphas and Baptiste]]
+- [[Rival Crew - Circus]]
+- [[Session 1 - A Chance Meeting]]
+- [[Session 2 - The 'M.A.D.S.' Encounter]]
+- [[Session 3 - The Carnival and the Collapse]]
+- [[Session 3 notes]]
+- [[Session 5 Cliffs and Crossroads]]
+- [[Session This]]
+- [[Spider's Nest]]
+- [[THE ISLAND THAT BREATHES]]
+- [[Whistling Isle — Storm-Teller's Debt]]
+- [[WIP - Session 4]]
+
 
 ---
 
@@ -175,11 +209,8 @@ FROM "Sessions"
 
 **In-character or between-session journal entries.**
 
-```dataview
-LIST
-FROM "Journals"
-SORT file.name ASC
-```
+<!-- dataview: no matching notes -->
+
 
 ---
 
