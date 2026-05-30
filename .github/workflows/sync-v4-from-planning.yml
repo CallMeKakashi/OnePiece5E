@@ -9,7 +9,8 @@
 # - Directories: Attachments, Rules, Sessions, Templates, Timeline, World, source
 # - Markdown requires frontmatter `publish: true`; non-markdown files are copied as-is
 #
-# After this workflow pushes `v4`, the existing `deploy.yaml` on `v4` rebuilds Pages.
+# Pushes from GITHUB_TOKEN do not trigger other workflows, so we dispatch deploy.yaml
+# on `v4` after each content sync (deploy.yaml must expose workflow_dispatch).
 # Dependabot targets `v4` npm/actions PRs only; this workflow touches `content/` only.
 
 name: Sync v4 from planning
@@ -22,6 +23,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: sync-v4-from-planning
@@ -64,3 +66,8 @@ jobs:
           git add content
           git commit -m "$COMMIT_MESSAGE"
           git push origin HEAD:v4
+
+      - name: Deploy Quartz site to GitHub Pages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run "Deploy Quartz site to GitHub Pages" --ref v4
