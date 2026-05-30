@@ -1,5 +1,6 @@
 import { generateId } from "../../helpers/id.js";
-import { createDAEEffect, overrideValue } from "../../helpers/effects.js";
+import { createDAEEffect, addBonus, overrideValue } from "../../helpers/effects.js";
+import { DAE_KEYS } from "../../schemas/common.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
 function classFeature(
@@ -69,6 +70,12 @@ export const unarmoredDefense = classFeature(
   "Unarmored Defense",
   1,
   `<p>Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</p>`,
+  {},
+  [
+    createDAEEffect("brawler/unarmored-defense", "Unarmored Defense", [
+      overrideValue(DAE_KEYS.AC_FORMULA, "10 + @abilities.dex.mod + @abilities.wis.mod"),
+    ]),
+  ],
 );
 
 export const spirit = classFeature(
@@ -95,6 +102,12 @@ export const unarmoredMovement = classFeature(
   `<p>Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain brawler levels, as shown in the Brawler table.</p>
 <p>Additionally, as a bonus action, you can take the Disengage or Dash action, and your jump distance is doubled for the turn.</p>
 <p>At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.</p>`,
+  {},
+  [
+    createDAEEffect("brawler/unarmored-movement", "Unarmored Movement", [
+      addBonus(DAE_KEYS.SPEED_WALK, "@scale.brawler.unarmored-movement"),
+    ]),
+  ],
 );
 
 export const deflectMissiles = classFeature(
@@ -105,6 +118,7 @@ export const deflectMissiles = classFeature(
 <p>If you reduce the damage to 0, you can catch it if you have a free hand. If you catch it in this way, you can spend 1 spirit point to make a ranged attack with the weapon or ammunition you caught, as part of the same reaction. You make this attack with proficiency, and the missile counts as a brawler weapon for the attack, which has a normal range of 20 feet and a long range of 60 feet. You do not have close range disadvantage with this attack.</p>`,
   {
     activation: { type: "reaction", cost: 1, condition: "Hit by a ranged attack" },
+    chatFlavor: "Damage reduced by 1d10 + DEX mod + @classes.brawler.levels",
   },
 );
 
@@ -115,6 +129,7 @@ export const braceForImpact = classFeature(
   `<p>Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your brawler level.</p>`,
   {
     activation: { type: "reaction", cost: 1, condition: "Falling" },
+    chatFlavor: "Fall damage reduced by 5 × @classes.brawler.levels",
   },
 );
 
@@ -124,6 +139,9 @@ export const extraAttack = classFeature(
   5,
   `<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
 <p>If you ready your action to make an attack, you can attack the same number of times you would if you had taken the attack action on your turn.</p>`,
+  {
+    chatFlavor: "Attack action attacks: 2",
+  },
 );
 
 export const stunningStrike = classFeature(
@@ -184,6 +202,15 @@ export const diamondSoul = classFeature(
   14,
   `<p>Beginning at 14th level, your hardened spirit grants you proficiency in all saving throws.</p>
 <p>Additionally, whenever you make a saving throw and fail, you can spend 1 spirit point to reroll it and take the second result.</p>`,
+  {},
+  [
+    createDAEEffect("brawler/diamond-soul", "Diamond Soul", [
+      addBonus("system.abilities.con.proficient", "1"),
+      addBonus("system.abilities.int.proficient", "1"),
+      addBonus("system.abilities.wis.proficient", "1"),
+      addBonus("system.abilities.cha.proficient", "1"),
+    ]),
+  ],
 );
 
 export const timelessBody = classFeature(

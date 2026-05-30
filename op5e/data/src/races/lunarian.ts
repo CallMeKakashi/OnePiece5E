@@ -10,7 +10,13 @@ import {
 
 const RACE_ID = "race/lunarian";
 
+/** Creations compendium IDs (stable across rebuilds). */
+const CREATION_FIRE_BOLT = "551fecdcb6675995";
+const CREATION_ELEMENTAL_ARMOR = "193d738602cc863d";
+const CREATION_FIREBALL = "f3290c49655cc7b6";
+
 function feat(id: string) { return compendiumUuid("racial-features", id); }
+function creation(id: string) { return compendiumUuid("creations", id); }
 
 function sizeAdv(raceId: string, sizes: string[]) {
   const id = generateId(`${raceId}/advancement/size`);
@@ -42,7 +48,14 @@ export const lunarian: RaceItem = {
         { uuid: feat(omniAdapted._id) },
         { uuid: feat(flamingDuality._id) },
         { uuid: feat(flameInvesture._id) },
+        { uuid: creation(CREATION_FIRE_BOLT) },
       ], "base-traits"),
+      createItemGrant(RACE_ID, 3, [
+        { uuid: creation(CREATION_ELEMENTAL_ARMOR) },
+      ], "flame-investure-l3"),
+      createItemGrant(RACE_ID, 5, [
+        { uuid: creation(CREATION_FIREBALL) },
+      ], "flame-investure-l5"),
       createItemGrant(RACE_ID, 5, [
         { uuid: feat(empoweredGodspeed._id) },
       ], "level-5"),

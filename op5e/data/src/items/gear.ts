@@ -211,6 +211,37 @@ export const gear: FoundryItem[] = [
   loot("whetstone", "Whetstone", 50, 1),
 
   // ═══════════════════════════════════════════
+  //  Background / role trinkets & kits
+  // ═══════════════════════════════════════════
+  equipment("boxing-gloves", "Boxing Gloves", 25000, 1,
+    "<p>Padded gloves used for training and prize fighting.</p>"),
+  loot("trophy", "Trophy", 5000, 1,
+    "<p>A memento from a past victory in the ring or arena.</p>"),
+  loot("memento", "Memento", 1000, 0,
+    "<p>A keepsake from your past. Savants can use a memento as an apparatus for creations.</p>"),
+  loot("magnifying-glass", "Magnifying Glass", 100000, 0),
+  loot("recipe-book", "Recipe Book", 50000, 3),
+  loot("wooden-trinket", "Wooden Trinket", 2500, 0),
+  loot("leather-vest", "Leather Vest", 100000, 2),
+  loot("leather-boots", "Leather Boots", 50000, 2),
+  loot("vestments", "Vestments", 50000, 4),
+  loot("stethoscope", "Stethoscope", 50000, 0),
+  loot("pirate-flag", "Pirate Flag", 25000, 1,
+    "<p>A jolly roger flag bearing your crew's emblem.</p>"),
+  consumable("bandages", "Bandages", 500, 0, "trinket"),
+  consumable("incense", "Incense (stick)", 100, 0, "trinket"),
+  loot("dungeoneers-pack", "Dungeoneer's Pack", 120000, 20,
+    "<p>Includes a backpack, crowbar, hammer, 10 pitons, 10 torches, tinderbox, 10 days of rations, waterskin, and 50 feet of hempen rope.</p>"),
+  loot("explorers-pack", "Explorer's Pack", 100000, 10,
+    "<p>Includes a backpack, bedroll, mess kit, tinderbox, 10 torches, 10 days of rations, waterskin, and 50 feet of hempen rope.</p>"),
+  loot("scholars-pack", "Scholar's Pack", 100000, 10,
+    "<p>Includes a backpack, a book of lore, a bottle of ink, an ink pen, 10 sheets of parchment, a small knife, and a pouch with 10 candles.</p>"),
+  loot("diplomats-pack", "Diplomat's Pack", 120000, 15,
+    "<p>Includes a chest, 2 map or scroll cases, a set of fine clothes, a bottle of ink, an ink pen, a lamp, 2 flasks of oil, 5 sheets of paper, a vial of perfume, sealing wax, and soap.</p>"),
+  loot("burglars-pack", "Burglar's Pack", 120000, 15,
+    "<p>Includes a backpack, a bag of 1,000 ball bearings, 10 feet of string, a bell, 5 candles, a crowbar, a hammer, 10 pitons, a hooded lantern, 2 flasks of oil, 5 days of rations, a tinderbox, and a waterskin.</p>"),
+
+  // ═══════════════════════════════════════════
   //  Transponder Snails
   // ═══════════════════════════════════════════
   loot("basic-transponder-snail", "Basic Transponder Snail", 1000000, 10,

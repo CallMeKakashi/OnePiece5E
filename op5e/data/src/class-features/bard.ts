@@ -77,6 +77,7 @@ export const bardicInspiration = classFeature(
     activation: { type: "bonus", cost: 1, condition: "" },
     range: { value: 60, long: null, units: "ft" },
     uses: { value: null, max: "1 + @abilities.cha.mod", per: "lr", recovery: "", prompt: true },
+    damage: { parts: [["@scale.bard.bardic-inspiration", ""]], versatile: "" },
   },
 );
 
@@ -102,6 +103,7 @@ export const harmonicVitality = classFeature(
 <p>You can use this feature a number of times equal to 1 + your Charisma modifier, regaining all uses at the end of a long rest.</p>`,
   {
     uses: { value: null, max: "1 + @abilities.cha.mod", per: "lr", recovery: "", prompt: true },
+    damage: { parts: [["@scale.bard.harmonic-vitality", "healing"]], versatile: "" },
   },
 );
 

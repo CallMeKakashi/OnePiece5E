@@ -10,19 +10,31 @@ const STATS = {
 const SRC = { book: "OP5e", page: "", custom: "", license: "" };
 
 function role(id: string, name: string, desc: string): FoundryItem {
-  const { advancement, startingBeri } = roleEquipmentAdvancement(id);
+  const { advancement, startingBeri, grantQuantities } = roleEquipmentAdvancement(id);
   return {
     _id: generateId(`role/${id}`),
     name: `Role: ${name}`,
-    type: "background",
+    type: "feat",
     img: "icons/svg/item-bag.svg",
     system: {
       description: { value: desc, chat: "" },
       source: SRC,
+      type: { value: "feat", subtype: "" },
+      requirements: "",
+      activation: { type: "", cost: null, condition: "" },
+      duration: { value: null, units: "" },
+      target: { value: null, width: null, units: "", type: "" },
+      range: { value: null, long: null, units: "" },
+      uses: { value: null, max: "", per: null, recovery: "", prompt: true },
+      actionType: "",
+      damage: { parts: [], versatile: "" },
+      save: { ability: "", dc: null, scaling: "spell" },
+      chatFlavor: "",
+      recharge: { value: null, charged: false },
       advancement,
     },
     effects: [],
-    flags: { op5e: { startingBeri } },
+    flags: { op5e: { shipRole: true, startingBeri, grantQuantities } },
     folder: null,
     sort: 0,
     ownership: { default: 0 },

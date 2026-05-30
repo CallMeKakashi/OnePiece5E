@@ -48,7 +48,7 @@ import { toughCustomerFeatures } from "./tough-customer.js";
 import { voiceOfAllThingsFeatures } from "./voice-of-all-things.js";
 import { worldChampionFeatures } from "./world-champion.js";
 
-export const additionalPowerFeatures: FeatureItem[] = [
+export const additionalPowerFeatures: FeatureItem[] = markAdditionalPowerFlags([
   ...ardentZealFeatures,
   ...armorlessGuardianFeatures,
   ...battleModesFeatures,
@@ -96,4 +96,35 @@ export const additionalPowerFeatures: FeatureItem[] = [
   ...toughCustomerFeatures,
   ...voiceOfAllThingsFeatures,
   ...worldChampionFeatures,
-];
+]);
+
+/** True tree root vs level-gated or chained sub-feature (47 roots, not 76). */
+function isAdditionalPowerSubFeature(requirements: string, featureNames: Set<string>): boolean {
+  const req = requirements.trim();
+  if (!req) return false;
+  if (featureNames.has(req)) return true;
+  // Level-gated subs: "Burn Baby, Burn 5", "Voice of All Things 10", etc.
+  for (const name of featureNames) {
+    if (req.startsWith(`${name} `) || req.startsWith(`${name},`)) return true;
+  }
+  return false;
+}
+
+function markAdditionalPowerFlags(features: FeatureItem[]): FeatureItem[] {
+  const names = new Set(features.map((f) => f.name));
+  return features.map((f) => {
+    const req = String(f.system?.requirements ?? "").trim();
+    const isSubFeature = isAdditionalPowerSubFeature(req, names);
+    return {
+      ...f,
+      flags: {
+        ...(f.flags ?? {}),
+        op5e: {
+          ...((f.flags as { op5e?: Record<string, unknown> })?.op5e ?? {}),
+          additionalPower: true,
+          ...(isSubFeature ? {} : { additionalPowerRoot: true }),
+        },
+      },
+    };
+  });
+}

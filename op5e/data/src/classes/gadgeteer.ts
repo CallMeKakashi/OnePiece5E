@@ -4,13 +4,18 @@ import { compendiumUuid } from "../../helpers/uuid.js";
 import {
   createHitPoints,
   createItemGrant,
-  createItemChoiceRestricted,
   createScaleValue,
   createSubclass,
   createTrait,
   createASI,
   mergeAdvancements,
 } from "../../helpers/advancement.js";
+import {
+  createHakiAdvancementChoices,
+  createHakiTierScaleValue,
+} from "../../helpers/haki-advancement.js";
+import { classStartingEquipmentAdvancement } from "./class-equipment-grants.js";
+import { ARTISAN_TOOL_TRAIT_POOL } from "./class-proficiency-pools.js";
 import {
   tinkering,
   mastercraftNovice,
@@ -32,9 +37,6 @@ function featureUuid(id: string): string {
   return compendiumUuid("class-features", id);
 }
 
-function hakiUuid(slug: string): string {
-  return compendiumUuid("class-features", generateId(`feature/haki/${slug}`));
-}
 
 export const gadgeteer: ClassItem = {
   _id: generateId(CLS),
@@ -53,37 +55,36 @@ export const gadgeteer: ClassItem = {
     hitDiceUsed: 0,
     advancement: mergeAdvancements(
       createHitPoints(CLS),
+      ...classStartingEquipmentAdvancement("gadgeteer"),
 
-      // --- Haki progression scaffold (used by OP5e Haki feat tiers) ---
-      createScaleValue(CLS, "haki-tier", "number", {
-        1: { value: 0 },
-        8: { value: 1 },
-        10: { value: 2 },
-        12: { value: 3 },
-        14: { value: 4 },
-        16: { value: 5 },
-      }),
+      // --- Haki progression (branching choices at 8/10/12/14/16) ---
+      createHakiTierScaleValue(CLS),
+
 
       // --- Proficiencies (level 1) ---
       createTrait(CLS, 1, {
         mode: "default",
-        grants: ["armor:lgt", "armor:med", "armor:shl"],
-        hint: "Light armor, medium armor, shields",
-      }, "armor"),
-      createTrait(CLS, 1, {
-        mode: "default",
         grants: ["weapon:sim"],
-        hint: "Simple weapons",
+        hint: "Daggers, darts, slings, quarterstaffs, blunderbuss, flintlocks, light crossbows",
       }, "weapons"),
       createTrait(CLS, 1, {
         mode: "default",
-        grants: ["tool:thief"],
-        hint: "Thieves' tools, tinker's tools",
+        grants: ["tool:tinker"],
+        hint: "Tinker's tools",
+      }, "tools-fixed"),
+      createTrait(CLS, 1, {
+        mode: "default",
+        grants: [],
+        choices: [{
+          count: 1,
+          pool: [...ARTISAN_TOOL_TRAIT_POOL],
+        }],
+        hint: "One additional artisan's tool of your choice",
       }, "tools"),
       createTrait(CLS, 1, {
         mode: "default",
-        grants: ["saves:con", "saves:int"],
-        hint: "Constitution, Intelligence",
+        grants: ["saves:int", "saves:wis"],
+        hint: "Intelligence, Wisdom",
       }, "saves"),
       createTrait(CLS, 1, {
         mode: "default",
@@ -91,11 +92,11 @@ export const gadgeteer: ClassItem = {
         choices: [{
           count: 2,
           pool: [
-            "skills:arc", "skills:his", "skills:inv",
-            "skills:med", "skills:nat", "skills:prc", "skills:slt",
+            "skills:arc", "skills:his", "skills:ins", "skills:inv",
+            "skills:med", "skills:rel",
           ],
         }],
-        hint: "Choose 2 skills",
+        hint: "Choose 2 from Engineering, History, Insight, Investigation, Medicine, Religion",
       }, "skills"),
 
       // --- Level 1: Tinkering, Mastercraft Novice ---
@@ -122,32 +123,8 @@ export const gadgeteer: ClassItem = {
       createASI(CLS, 16),
       createASI(CLS, 19),
 
-      // --- Haki feat choices (restricted pool) ---
-      createItemChoiceRestricted(CLS, 8, [
-        hakiUuid("armament-novice"),
-        hakiUuid("observation-novice"),
-        hakiUuid("conqueror-novice"),
-      ], { label: "Haki (Novice)" }),
-      createItemChoiceRestricted(CLS, 10, [
-        hakiUuid("armament-apprentice"),
-        hakiUuid("observation-apprentice"),
-        hakiUuid("conqueror-apprentice"),
-      ], { label: "Haki (Apprentice)" }),
-      createItemChoiceRestricted(CLS, 12, [
-        hakiUuid("armament-journeyman"),
-        hakiUuid("observation-journeyman"),
-        hakiUuid("conqueror-journeyman"),
-      ], { label: "Haki (Journeyman)" }),
-      createItemChoiceRestricted(CLS, 14, [
-        hakiUuid("armament-adept"),
-        hakiUuid("observation-adept"),
-        hakiUuid("conqueror-adept"),
-      ], { label: "Haki (Adept)" }),
-      createItemChoiceRestricted(CLS, 16, [
-        hakiUuid("armament-master"),
-        hakiUuid("observation-master"),
-        hakiUuid("conqueror-master"),
-      ], { label: "Haki (Master)" }),
+      // --- Haki feat choices (branching pool; filtered at runtime) ---
+      ...createHakiAdvancementChoices(CLS),
 
       // --- Level 6: Tool Expertise ---
       createItemGrant(CLS, 6, [

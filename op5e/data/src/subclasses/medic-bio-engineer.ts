@@ -69,6 +69,9 @@ export const experimentalAugmentations = feat(
 <li><strong>Tough Lineage</strong> — bonus HP equal to 2x level</li>
 </ul>
 <p>Additional augmentations are available at higher levels and for specific test subject types.</p>`,
+  {
+    uses: { value: null, max: "@prof", per: "lr", recovery: "", prompt: true },
+  },
 );
 
 export const phaseTwo = feat(

@@ -101,7 +101,10 @@ export const extraAttack = feat(
   "Extra Attack",
   `<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
 <p>The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.</p>`,
-  { requirements: "Fighter 5" },
+  {
+    requirements: "Fighter 5",
+    chatFlavor: "Attack action attacks: @scale.fighter.extra-attack",
+  },
 );
 
 export const indomitable = feat(

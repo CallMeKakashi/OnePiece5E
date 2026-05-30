@@ -58,6 +58,11 @@ export const deftExplorer1 = classFeature(
 <p><strong>Canny.</strong> Choose two of your skill proficiencies. You gain expertise with the chosen skills. In addition, thanks to your extensive wandering, you can no longer get lost by natural means.</p>
 <p><strong>Roving.</strong> Your walking speed increases by 10, and you gain a climbing speed and a swimming speed equal to your walking speed.</p>
 <p><strong>Tireless.</strong> As a bonus action, you can give yourself a number of temporary hit points equal to 1d10 + your level. You can use this ability a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest. In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.</p>`,
+  {
+    activation: { type: "bonus", cost: 1, condition: "Tireless option" },
+    uses: { value: null, max: "@prof", per: "sr", recovery: "", prompt: true },
+    damage: { parts: [["1d10 + @classes.marksman.levels", "temphp"]], versatile: "" },
+  },
 );
 
 export const deftExplorer6 = classFeature(
@@ -113,6 +118,12 @@ export const quickOnTheDraw = classFeature(
   3,
   `<p>Also at 3rd level, your speed and trigger finger is almost unmatched in combat. You have advantage on initiative rolls, and you can draw a weapon when you roll initiative.</p>
 <p>Additionally, you ignore the reload and loading properties of ranged weapons.</p>`,
+  {},
+  [
+    createDAEEffect("marksman/quick-on-the-draw", "Quick On The Draw", [
+      overrideValue("flags.dnd5e.initiativeAdv", "1"),
+    ]),
+  ],
 );
 
 export const extraAttack = classFeature(
@@ -121,6 +132,9 @@ export const extraAttack = classFeature(
   5,
   `<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
 <p>If you ready your action to make an attack, you can attack the same number of times you would if you had taken the attack action on your turn.</p>`,
+  {
+    chatFlavor: "Attack action attacks: 2",
+  },
 );
 
 export const landsStride = classFeature(
@@ -129,6 +143,9 @@ export const landsStride = classFeature(
   8,
   `<p>Starting at 8th level, your constant travels enable you to cross any hazard that comes your way at a quick pace. Your movement speed cannot be reduced or impeded by hazards or physical obstruction such as difficult terrain, climbing, swimming, etc. This does not extend to effects such as being grappled, restrained, and incapacitated.</p>
 <p>In addition, as a bonus action, you can take the Dash action.</p>`,
+  {
+    activation: { type: "bonus", cost: 1, condition: "Dash action" },
+  },
 );
 
 export const volley = classFeature(
@@ -156,7 +173,9 @@ export const vigilantGaze = classFeature(
   "Vigilant Gaze",
   14,
   `<p>Starting at 14th level, you can take the Search action as a bonus action on your turn. Additionally, you gain blindsight of 30 ft range.</p>`,
-  {},
+  {
+    activation: { type: "bonus", cost: 1, condition: "Search action" },
+  },
   [
     createDAEEffect("marksman/vigilant-gaze", "Vigilant Gaze", [
       overrideValue("system.attributes.senses.blindsight", "30"),

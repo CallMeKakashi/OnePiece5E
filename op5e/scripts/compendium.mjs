@@ -1,13 +1,13 @@
 import {
-  OP5E_CRITICAL_DAMAGE,
   applyOp5eCriticalDamage,
   looksLikeDamageRollConfig,
   patchCriticalConfig,
 } from "./crit-damage.mjs";
 import { initOp5eAnimations } from "./animations.mjs";
 import { MODULE_ID, MODULE_VERSION } from "./constants.mjs";
-
-export { MODULE_ID } from "./constants.mjs";
+import { registerOp5eFeatureHooks } from "./feature-hooks.mjs";
+import { registerOp5eHakiAdvancementHooks } from "./haki-advancement.mjs";
+import { registerOp5eEquipmentGrantHooks } from "./equipment-grant-advancement.mjs";
 
 const DEFAULT_CURRENCY_PER_WEIGHT = { imperial: 50, metric: 110 };
 const WEIGHTLESS_CURRENCY_PER_WEIGHT = { imperial: 1_000_000, metric: 1_000_000 };
@@ -223,6 +223,9 @@ Hooks.once("setup", () => {
   } else {
     console.warn(`${MODULE_ID} v${MODULE_VERSION} loaded, crit patch deferred (DamageRoll missing)`);
   }
+  registerOp5eFeatureHooks();
+  registerOp5eHakiAdvancementHooks();
+  registerOp5eEquipmentGrantHooks();
 });
 
 Hooks.once("ready", async () => {

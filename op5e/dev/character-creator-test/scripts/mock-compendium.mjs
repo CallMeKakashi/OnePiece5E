@@ -23,7 +23,13 @@ const PACK_ENTRIES = {
   ],
   [`${OP5E_COMPENDIUM_ID}.backgrounds`]: [
     { _id: "mock-bg-sailor", type: "background", name: "Sailor (mock)", img: "icons/svg/book.svg" },
-    { _id: "mock-role-captain", type: "background", name: "Role: Captain (mock)", img: "icons/svg/sword.svg" }
+    {
+      _id: "mock-role-captain",
+      type: "feat",
+      name: "Role: Captain (mock)",
+      img: "icons/svg/sword.svg",
+      flags: { op5e: { shipRole: true } }
+    }
   ],
   [`${OP5E_COMPENDIUM_ID}.racial-features`]: [
     { _id: "mock-rf-swift", type: "feat", name: "Swift (mock)", img: "icons/svg/upgrade.svg" }

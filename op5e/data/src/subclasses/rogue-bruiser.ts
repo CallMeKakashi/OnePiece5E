@@ -56,6 +56,7 @@ export const streetRules = feat(
 export const hardKnocks = feat(
   "feature/rogue/bruiser/hard-knocks", "Hard Knocks", 9,
   `<p>At 9th level, you gain the Extra Attack feature—you can attack twice instead of once whenever you take the Attack action on your turn. Additionally, when you use Uncanny Dodge, you reduce the damage by an amount equal to your Rogue level instead of halving it if that reduction would be greater.</p>`,
+  { chatFlavor: "Attack action attacks: 2" },
 );
 
 export const bullyBlitz = feat(

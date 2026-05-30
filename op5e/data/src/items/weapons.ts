@@ -108,9 +108,19 @@ export const weapons: FoundryItem[] = [
     { thr: true, ver: true },
     { base: "spear", range: [20, 60], ver: "1d8", desc: ADP_PS }),
 
+  wpn("sickle", "Sickle", "simpleM", 10000,
+    [["1d4", "slashing"]], 2,
+    { lgt: true },
+    { desc: "<p>A curved farming blade, light and easy to wield in close quarters.</p>" }),
+
   wpn("unarmed-strike", "Unarmed Strike", "simpleM", 0,
     [["1d4", "bludgeoning"]], 0,
     { lgt: true }),
+
+  wpn("brawler-unarmed-strike", "Brawler Unarmed Strike", "simpleM", 0,
+    [["@scale.brawler.brawling-die + @mod", "bludgeoning"]], 0,
+    { lgt: true },
+    { desc: `<p>Your Brawling training replaces the normal damage of your unarmed strikes. The damage die scales with your brawler level, as shown in the Brawling column of the Brawler table.</p>` }),
 
   // ═══════════════════════════════════════════
   //  Simple Ranged Weapons

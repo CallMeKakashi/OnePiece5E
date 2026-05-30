@@ -63,6 +63,39 @@ const saveSchema = z
   })
   .default({});
 
+const activityUsesRecoverySchema = z.object({
+  period: z.string(),
+  type: z.string(),
+  formula: z.string().optional(),
+});
+
+const activityUsesSchema = z.object({
+  spent: z.number().default(0),
+  max: z.string().default(""),
+  recovery: z.array(activityUsesRecoverySchema).default([]),
+});
+
+const activitySchema = z
+  .object({
+    _id: z.string(),
+    type: z.string(),
+    name: z.string().optional(),
+    sort: z.number().optional(),
+    activation: z.record(z.unknown()).optional(),
+    consumption: z.record(z.unknown()).optional(),
+    description: z.record(z.unknown()).optional(),
+    duration: z.record(z.unknown()).optional(),
+    effects: z.array(z.record(z.unknown())).optional(),
+    range: z.record(z.unknown()).optional(),
+    target: z.record(z.unknown()).optional(),
+    uses: activityUsesSchema.optional(),
+    roll: z.record(z.unknown()).optional(),
+    healing: z.record(z.unknown()).optional(),
+    damage: z.record(z.unknown()).optional(),
+    save: z.record(z.unknown()).optional(),
+  })
+  .passthrough();
+
 const featureSystemSchema = z.object({
   description: descriptionSchema.default({}),
   source: sourceSchema.default({}),
@@ -83,6 +116,7 @@ const featureSystemSchema = z.object({
       charged: z.boolean().default(false),
     })
     .default({}),
+  activities: z.record(activitySchema).default({}),
 });
 
 export type FeatureSystem = z.infer<typeof featureSystemSchema>;

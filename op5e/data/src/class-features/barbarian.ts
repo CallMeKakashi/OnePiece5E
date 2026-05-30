@@ -1,5 +1,6 @@
 import { generateId } from "../../helpers/id.js";
 import { createDAEEffect, addBonus, overrideValue } from "../../helpers/effects.js";
+import { DAE_KEYS } from "../../schemas/common.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
 function classFeature(
@@ -76,6 +77,12 @@ export const unarmoredDefense = classFeature(
   "Unarmored Defense",
   1,
   `<p>Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</p>`,
+  {},
+  [
+    createDAEEffect("barbarian/unarmored-defense", "Unarmored Defense", [
+      overrideValue(DAE_KEYS.AC_FORMULA, "10 + @abilities.dex.mod + @abilities.wis.mod"),
+    ]),
+  ],
 );
 
 export const recklessAttack = classFeature(
@@ -92,6 +99,15 @@ export const dangerSense = classFeature(
   `<p>At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, allowing you to react to any source of danger.</p>
 <p>You have advantage on Dexterity saving throws against effects that you can see, such as traps and creations. To gain this benefit, you can't be blinded, deafened, or incapacitated.</p>
 <p>In addition, while raging, if you see a creature within 5 ft of you get hit by an attack, you can use your reaction to become the target of that attack instead.</p>`,
+  {
+    activation: {
+      type: "reaction",
+      cost: 1,
+      condition: "While raging, creature within 5 ft hit by attack you can see",
+    },
+    chatFlavor:
+      "Dex saves vs visible effects: advantage when not blinded/deafened/incapacitated (OP5e module); visible source still GM call",
+  },
 );
 
 export const primalKnowledge3 = classFeature(
@@ -114,6 +130,9 @@ export const extraAttack = classFeature(
   5,
   `<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
 <p>If you ready your action to make an attack, you can attack the same number of times you would if you had taken the attack action on your turn.</p>`,
+  {
+    chatFlavor: "Attack action attacks: 2",
+  },
 );
 
 export const fastMovement = classFeature(
@@ -149,6 +168,9 @@ export const brutalCritical = classFeature(
   9,
   `<p>Beginning at 9th level, you can roll one additional set of weapon damage dice when determining the extra damage for a critical hit with a melee attack.</p>
 <p>This increases to two additional sets of damage dice at 13th level and three additional sets of damage dice at 17th level.</p>`,
+  {
+    chatFlavor: "Extra crit damage dice: @scale.barbarian.brutal-critical",
+  },
 );
 
 export const relentlessRage = classFeature(

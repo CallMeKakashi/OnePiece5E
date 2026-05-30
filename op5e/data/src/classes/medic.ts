@@ -4,13 +4,17 @@ import { compendiumUuid } from "../../helpers/uuid.js";
 import {
   createHitPoints,
   createItemGrant,
-  createItemChoiceRestricted,
   createScaleValue,
   createSubclass,
   createTrait,
   createASI,
   mergeAdvancements,
 } from "../../helpers/advancement.js";
+import {
+  createHakiAdvancementChoices,
+  createHakiTierScaleValue,
+} from "../../helpers/haki-advancement.js";
+import { classStartingEquipmentAdvancement } from "./class-equipment-grants.js";
 import {
   medicalExpertise,
   experimentalMedicine,
@@ -27,9 +31,6 @@ function featureUuid(id: string): string {
   return compendiumUuid("class-features", id);
 }
 
-function hakiUuid(slug: string): string {
-  return compendiumUuid("class-features", generateId(`feature/haki/${slug}`));
-}
 
 export const medic: ClassItem = {
   _id: generateId(CLS),
@@ -48,27 +49,22 @@ export const medic: ClassItem = {
     hitDiceUsed: 0,
     advancement: mergeAdvancements(
       createHitPoints(CLS),
+      ...classStartingEquipmentAdvancement("medic"),
 
-      // --- Haki progression scaffold (used by OP5e Haki feat tiers) ---
-      createScaleValue(CLS, "haki-tier", "number", {
-        1: { value: 0 },
-        8: { value: 1 },
-        10: { value: 2 },
-        12: { value: 3 },
-        14: { value: 4 },
-        16: { value: 5 },
-      }),
+      // --- Haki progression (branching choices at 8/10/12/14/16) ---
+      createHakiTierScaleValue(CLS),
+
 
       // --- Proficiencies (level 1) ---
       createTrait(CLS, 1, {
         mode: "default",
-        grants: ["armor:lgt"],
-        hint: "Light armor",
+        grants: ["armor:lgt", "armor:med", "armor:shl"],
+        hint: "Light armor, medium armor, shields",
       }, "armor"),
       createTrait(CLS, 1, {
         mode: "default",
         grants: ["weapon:sim"],
-        hint: "Simple weapons",
+        hint: "Daggers, slings, quarterstaffs, blunderbuss, flintlocks, light crossbows, sickle",
       }, "weapons"),
       createTrait(CLS, 1, {
         mode: "default",
@@ -86,11 +82,11 @@ export const medic: ClassItem = {
         choices: [{
           count: 2,
           pool: [
-            "skills:arc", "skills:his", "skills:ins",
-            "skills:med", "skills:nat", "skills:rel", "skills:sur",
+            "skills:ins", "skills:inv", "skills:med", "skills:nat",
+            "skills:prc", "skills:per", "skills:rel", "skills:sur",
           ],
         }],
-        hint: "Choose 2 skills",
+        hint: "Choose 2 from Insight, Investigation, Medicine, Nature, Perception, Persuasion, Religion, Survival",
       }, "skills"),
 
       // --- Level 1: Medical Expertise ---
@@ -111,32 +107,8 @@ export const medic: ClassItem = {
       createASI(CLS, 16),
       createASI(CLS, 19),
 
-      // --- Haki feat choices (restricted pool) ---
-      createItemChoiceRestricted(CLS, 8, [
-        hakiUuid("armament-novice"),
-        hakiUuid("observation-novice"),
-        hakiUuid("conqueror-novice"),
-      ], { label: "Haki (Novice)" }),
-      createItemChoiceRestricted(CLS, 10, [
-        hakiUuid("armament-apprentice"),
-        hakiUuid("observation-apprentice"),
-        hakiUuid("conqueror-apprentice"),
-      ], { label: "Haki (Apprentice)" }),
-      createItemChoiceRestricted(CLS, 12, [
-        hakiUuid("armament-journeyman"),
-        hakiUuid("observation-journeyman"),
-        hakiUuid("conqueror-journeyman"),
-      ], { label: "Haki (Journeyman)" }),
-      createItemChoiceRestricted(CLS, 14, [
-        hakiUuid("armament-adept"),
-        hakiUuid("observation-adept"),
-        hakiUuid("conqueror-adept"),
-      ], { label: "Haki (Adept)" }),
-      createItemChoiceRestricted(CLS, 16, [
-        hakiUuid("armament-master"),
-        hakiUuid("observation-master"),
-        hakiUuid("conqueror-master"),
-      ], { label: "Haki (Master)" }),
+      // --- Haki feat choices (branching pool; filtered at runtime) ---
+      ...createHakiAdvancementChoices(CLS),
 
       // --- Level 5: Rapid Remedy ---
       createItemGrant(CLS, 5, [

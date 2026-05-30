@@ -3,13 +3,17 @@ import { compendiumUuid } from "../../helpers/uuid.js";
 import {
   createHitPoints,
   createItemGrant,
-  createItemChoiceRestricted,
   createScaleValue,
   createSubclass,
   createTrait,
   createASI,
   mergeAdvancements,
 } from "../../helpers/advancement.js";
+import {
+  createHakiAdvancementChoices,
+  createHakiTierScaleValue,
+} from "../../helpers/haki-advancement.js";
+import { classStartingEquipmentAdvancement } from "./class-equipment-grants.js";
 import type { ClassItem } from "../../schemas/class.js";
 import {
   expertise1,
@@ -35,9 +39,6 @@ function featureUuid(id: string): string {
   return compendiumUuid("class-features", id);
 }
 
-function hakiUuid(slug: string): string {
-  return compendiumUuid("class-features", generateId(`feature/haki/${slug}`));
-}
 
 const sneakAttackScale = createScaleValue(
   CLASS_ID,
@@ -75,14 +76,8 @@ export const rogue: ClassItem = {
     hitDiceUsed: 0,
     advancement: mergeAdvancements(
       createHitPoints(CLASS_ID),
-      createScaleValue(CLASS_ID, "haki-tier", "number", {
-        1: { value: 0 },
-        8: { value: 1 },
-        10: { value: 2 },
-        12: { value: 3 },
-        14: { value: 4 },
-        16: { value: 5 },
-      }),
+      ...classStartingEquipmentAdvancement("rogue"),
+      createHakiTierScaleValue(CLASS_ID),
       createTrait(CLASS_ID, 1, {
         mode: "default",
         grants: ["armor:lgt"],
@@ -97,7 +92,7 @@ export const rogue: ClassItem = {
           "weapon:rapier",
           "weapon:shortsword",
         ],
-        hint: "Simple weapons, hand crossbows, longswords, rapiers, shortswords",
+        hint: "Simple weapons, hand crossbows, pistols, revolvers, cutlass, katana, longswords, rapiers, shortswords",
       }, "weapons"),
       createTrait(CLASS_ID, 1, {
         mode: "default",
@@ -128,10 +123,16 @@ export const rogue: ClassItem = {
             "skills:ste",
           ],
         }],
-        hint: "Choose 4 skills",
+        hint: "Choose 4 from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, Stealth",
       }, "skills"),
       sneakAttackScale,
       createSubclass(CLASS_ID, 3),
+      createTrait(CLASS_ID, 1, {
+        mode: "expertise",
+        grants: [],
+        choices: [{ count: 2, pool: [] }],
+        hint: "Choose two skill proficiencies, or one skill and thieves' tools",
+      }, "expertise-1"),
       createItemGrant(CLASS_ID, 1, [
         { uuid: featureUuid(expertise1._id) },
         { uuid: featureUuid(sneakAttack._id) },
@@ -150,6 +151,12 @@ export const rogue: ClassItem = {
       createItemGrant(CLASS_ID, 6, [
         { uuid: featureUuid(expertise6._id) },
       ]),
+      createTrait(CLASS_ID, 6, {
+        mode: "expertise",
+        grants: [],
+        choices: [{ count: 2, pool: [] }],
+        hint: "Choose two more skill proficiencies or thieves' tools",
+      }, "expertise-6"),
       createItemGrant(CLASS_ID, 7, [
         { uuid: featureUuid(evasion._id) },
       ]),
@@ -176,32 +183,8 @@ export const rogue: ClassItem = {
       createASI(CLASS_ID, 16),
       createASI(CLASS_ID, 19),
 
-      // --- Haki feat choices (restricted pool) ---
-      createItemChoiceRestricted(CLASS_ID, 8, [
-        hakiUuid("armament-novice"),
-        hakiUuid("observation-novice"),
-        hakiUuid("conqueror-novice"),
-      ], { label: "Haki (Novice)" }),
-      createItemChoiceRestricted(CLASS_ID, 10, [
-        hakiUuid("armament-apprentice"),
-        hakiUuid("observation-apprentice"),
-        hakiUuid("conqueror-apprentice"),
-      ], { label: "Haki (Apprentice)" }),
-      createItemChoiceRestricted(CLASS_ID, 12, [
-        hakiUuid("armament-journeyman"),
-        hakiUuid("observation-journeyman"),
-        hakiUuid("conqueror-journeyman"),
-      ], { label: "Haki (Journeyman)" }),
-      createItemChoiceRestricted(CLASS_ID, 14, [
-        hakiUuid("armament-adept"),
-        hakiUuid("observation-adept"),
-        hakiUuid("conqueror-adept"),
-      ], { label: "Haki (Adept)" }),
-      createItemChoiceRestricted(CLASS_ID, 16, [
-        hakiUuid("armament-master"),
-        hakiUuid("observation-master"),
-        hakiUuid("conqueror-master"),
-      ], { label: "Haki (Master)" }),
+      // --- Haki feat choices (branching pool; filtered at runtime) ---
+      ...createHakiAdvancementChoices(CLASS_ID),
     ) as any,
     spellcasting: { progression: "none", ability: "" },
     wealth: "4d4 * 10",

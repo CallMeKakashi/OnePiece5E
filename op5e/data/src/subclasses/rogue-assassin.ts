@@ -68,6 +68,9 @@ export const cloakAndDagger = feat(
 export const deadlyStrike = feat(
   "feature/rogue/assassin/deadly-strike", "Deadly Strike", 17,
   `<p>At 17th level, when you score a critical hit with your Sneak Attack, you double all the damage of the attack (including Sneak Attack dice).</p>`,
+  {
+    damage: { parts: [["@scale.rogue.sneak-attack", ""]], versatile: "" },
+  },
 );
 
 export const features: FeatureItem[] = [

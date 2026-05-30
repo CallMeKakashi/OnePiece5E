@@ -3,6 +3,7 @@ import {
   applyStartingBeri,
   importFromPackWithAdvancements,
 } from "./apply-advancements.mjs";
+import { isBackgroundEntry, isRoleEntry } from "./background-role.mjs";
 import { isValidPointBuy, totalCost } from "./pointBuy.mjs";
 
 const { HandlebarsApplicationMixin, ApplicationV2 } = foundry.applications.api;
@@ -14,10 +15,9 @@ const PACKS = {
   racialFeatures: `${OP5E_COMPENDIUM_ID}.racial-features`,
   backgroundsAndRoles: `${OP5E_COMPENDIUM_ID}.backgrounds`,
   classes: `${OP5E_COMPENDIUM_ID}.classes`,
+  classFeatures: `${OP5E_COMPENDIUM_ID}.class-features`,
   feats: `${OP5E_COMPENDIUM_ID}.feats`
 };
-
-const ROLE_NAME_PREFIX = "Role: ";
 
 const STEPS = [
   "name",
@@ -49,10 +49,10 @@ function normalizeAbilityKey(k) {
   return null;
 }
 
-async function indexPack(packCollection) {
+async function indexPack(packCollection, fields = ["type", "name", "img", "system.identifier"]) {
   const pack = game.packs.get(packCollection);
   if (!pack) throw new Error(`Missing compendium pack: ${packCollection}`);
-  return pack.getIndex({ fields: ["type", "name", "img", "system.identifier"] });
+  return pack.getIndex({ fields });
 }
 
 function mapIndexEntry(e) {
@@ -63,12 +63,39 @@ function filterIndexByType(index, type) {
   return index.filter((e) => e.type === type).map(mapIndexEntry);
 }
 
-function isRoleEntry(entry) {
-  return entry.type === "background" && String(entry.name ?? "").startsWith(ROLE_NAME_PREFIX);
+function filterAdditionalPowerRoots(index) {
+  return index
+    .filter((e) => e.type === "feat" && e.flags?.op5e?.additionalPowerRoot === true)
+    .map(mapIndexEntry);
 }
 
-function isBackgroundEntry(entry) {
-  return entry.type === "background" && !isRoleEntry(entry);
+async function importAdditionalPowerTree(actor, rootFeatId) {
+  const pack = game.packs.get(PACKS.classFeatures);
+  if (!pack || !rootFeatId) return [];
+
+  const rootDoc = await pack.getDocument(rootFeatId);
+  if (!rootDoc) return [];
+
+  const imported = [];
+  await importFromPackWithAdvancements(actor, PACKS.classFeatures, rootFeatId);
+  imported.push(rootDoc);
+
+  const index = await indexPack(PACKS.classFeatures, [
+    "type",
+    "name",
+    "system.requirements",
+    "flags.op5e"
+  ]);
+  const rootName = rootDoc.name;
+  for (const entry of index) {
+    if (entry._id === rootFeatId) continue;
+    if (entry.type !== "feat") continue;
+    if (String(entry.system?.requirements ?? "").trim() !== rootName) continue;
+    const subDoc = await importFromPackWithAdvancements(actor, PACKS.classFeatures, entry._id);
+    if (subDoc) imported.push(subDoc);
+  }
+
+  return imported;
 }
 
 function compendiumIdFromUuid(uuid) {
@@ -228,11 +255,11 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
     const draft = await this.#getDraft();
 
     // Sources
-    const [speciesIndex, bgRoleIndex, classIndex, featIndex, racialFeatIndex] = await Promise.all([
+    const [speciesIndex, bgRoleIndex, classIndex, classFeatureIndex, racialFeatIndex] = await Promise.all([
       indexPack(PACKS.species),
       indexPack(PACKS.backgroundsAndRoles),
       indexPack(PACKS.classes),
-      indexPack(PACKS.feats),
+      indexPack(PACKS.classFeatures, ["type", "name", "img", "flags.op5e"]),
       indexPack(PACKS.racialFeatures).catch(() => [])
     ]);
 
@@ -240,7 +267,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
     const backgroundChoices = bgRoleIndex.filter(isBackgroundEntry).map(mapIndexEntry);
     const roleChoices = bgRoleIndex.filter(isRoleEntry).map(mapIndexEntry);
     const classChoices = filterIndexByType(classIndex, "class");
-    const additionalPowerChoices = filterIndexByType(featIndex, "feat");
+    const additionalPowerChoices = filterAdditionalPowerRoots(classFeatureIndex);
 
     const speciesRacialFeats =
       draft.step === "species" && draft.data.speciesId
@@ -556,14 +583,19 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       [PACKS.backgroundsAndRoles, draft.data.backgroundId],
       [PACKS.backgroundsAndRoles, draft.data.roleFeatId],
       [PACKS.classes, draft.data.classId],
-      ...(draft.data.fork?.kind === "additionalPower"
-        ? [[PACKS.feats, draft.data.fork.additionalPowerFeatId]]
-        : [])
     ];
 
     for (const [packKey, docId] of importOrder) {
       const doc = await importFromPackWithAdvancements(actor, packKey, docId);
       if (doc) importedItems.push(doc);
+    }
+
+    if (draft.data.fork?.kind === "additionalPower" && draft.data.fork.additionalPowerFeatId) {
+      const powerItems = await importAdditionalPowerTree(
+        actor,
+        draft.data.fork.additionalPowerFeatId
+      );
+      importedItems.push(...powerItems);
     }
 
     await applyStartingBeri(actor, importedItems);

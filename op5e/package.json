@@ -1,6 +1,6 @@
 {
   "name": "op5e",
-  "version": "0.2.2",
+  "version": "0.2.6",
   "private": true,
   "type": "module",
   "description": "Unified One Piece 5e Foundry module (compendium, character creator, runtime hooks)",
@@ -11,6 +11,8 @@
     "package": "node node_modules/tsx/dist/cli.mjs scripts/package.mjs",
     "release": "npm run clean && npm run build && npm run package",
     "serve": "npx -y http-server dist -p 8080 -c-1 --cors",
+    "audit:characters": "node node_modules/tsx/dist/cli.mjs dev/character-sheet-audit/run-audit.ts",
+    "audit:characters:full": "node node_modules/tsx/dist/cli.mjs dev/character-sheet-audit/run-audit.ts --full",
     "test": "node node_modules/vitest/vitest.mjs run",
     "test:watch": "node node_modules/vitest/vitest.mjs",
     "test:ci": "node node_modules/vitest/vitest.mjs run --reporter=default",

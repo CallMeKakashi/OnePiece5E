@@ -10,7 +10,7 @@ const STATS = {
 const SRC = { book: "OP5e", page: "", custom: "", license: "" };
 
 function bg(id: string, name: string, desc: string): FoundryItem {
-  const { advancement, startingBeri } = backgroundEquipmentAdvancement(id, desc);
+  const { advancement, startingBeri, grantQuantities } = backgroundEquipmentAdvancement(id, desc);
   return {
     _id: generateId(`background/${id}`),
     name,
@@ -22,7 +22,7 @@ function bg(id: string, name: string, desc: string): FoundryItem {
       advancement,
     },
     effects: [],
-    flags: { op5e: { startingBeri } },
+    flags: { op5e: { startingBeri, grantQuantities } },
     folder: null,
     sort: 0,
     ownership: { default: 0 },

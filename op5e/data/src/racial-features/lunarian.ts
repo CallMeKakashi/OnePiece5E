@@ -1,4 +1,5 @@
 import { generateId } from "../../helpers/id.js";
+import { buildFlamingDualityActivities } from "../../helpers/activities.js";
 import { createDAEEffect, customChange, upgradeValue } from "../../helpers/effects.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -67,7 +68,7 @@ export const omniAdapted = rf(
   ])],
 );
 
-export const flamingDuality = rf(
+const flamingDualityBase = rf(
   "feature/race/lunarian/flaming-duality",
   "Flaming Duality",
   `<p>At 1st level, you can invoke the flames within. As a bonus action, you can gain access to one of two forms that you can switch between as a bonus action for one minute:</p>
@@ -85,6 +86,19 @@ export const flamingDuality = rf(
     uses: { value: null, max: "@prof", per: "lr", recovery: "", prompt: true },
   },
 );
+
+export const flamingDuality: FeatureItem = {
+  ...flamingDualityBase,
+  system: {
+    ...flamingDualityBase.system,
+    activities: buildFlamingDualityActivities({
+      name: flamingDualityBase.name,
+      type: flamingDualityBase.type,
+      effects: flamingDualityBase.effects,
+      system: flamingDualityBase.system,
+    }),
+  },
+};
 
 export const empoweredGodspeed = rf(
   "feature/race/lunarian/empowered-godspeed",
@@ -114,7 +128,12 @@ export const flameInvesture = rf(
 <p>If you have the Creativity feature, these creations are added to your creation lists, allowing you to use these creations with any creation slots you have.</p>
 <p>Your creative ability score for these creations is your Constitution score.</p>`,
   "Lunarian",
-  { uses: { value: null, max: "1", per: "lr", recovery: "", prompt: true } },
+  {
+    activation: { type: "action", cost: 1, condition: "" },
+    uses: { value: null, max: "1", per: "lr", recovery: "", prompt: true },
+    chatFlavor:
+      "Use: cast Fire Bolt (always), Elemental Armor (L3+, fire only), or Fireball (L5+, consumes 1/LR use on this trait). Creations are granted on your sheet (OP5e module).",
+  },
 );
 
 export const lunarianFeatures: FeatureItem[] = [

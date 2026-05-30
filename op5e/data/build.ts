@@ -12,8 +12,10 @@ import type { ZodType } from "zod";
 import { classItemSchema } from "./schemas/class.js";
 import { subclassItemSchema } from "./schemas/subclass.js";
 import { featureItemSchema } from "./schemas/feature.js";
+import type { FeatureItem } from "./schemas/feature.js";
 import { raceItemSchema } from "./schemas/race.js";
 import { foundryItemBase } from "./schemas/common.js";
+import { ensureFeatureActivities } from "./helpers/activities.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -73,7 +75,10 @@ interface Stats {
   pack: string;
   count: number;
   errors: number;
+  activitiesGenerated?: number;
 }
+
+const FEATURE_PACKS = new Set(["class-features", "feats", "racial-features"]);
 
 async function loadSourceItems(srcDir: string): Promise<unknown[]> {
   const fullDir = join(__dirname, "src", srcDir);
@@ -108,7 +113,11 @@ async function buildPack(config: PackConfig): Promise<Stats> {
     return stats;
   }
 
-  for (const raw of items) {
+  for (let raw of items) {
+    if (FEATURE_PACKS.has(config.name)) {
+      raw = ensureFeatureActivities(raw as FeatureItem);
+    }
+
     const result = config.schema.safeParse(raw);
     if (!result.success) {
       const label = (raw as Record<string, unknown>).name ?? "unknown";
@@ -129,6 +138,13 @@ async function buildPack(config: PackConfig): Promise<Stats> {
       JSON.stringify(doc, null, 2) + "\n",
     );
     stats.count++;
+
+    if (FEATURE_PACKS.has(config.name)) {
+      const activities = (doc.system as Record<string, unknown>).activities;
+      if (activities && typeof activities === "object" && Object.keys(activities).length > 0) {
+        stats.activitiesGenerated = (stats.activitiesGenerated ?? 0) + 1;
+      }
+    }
   }
 
   return stats;
@@ -151,20 +167,26 @@ async function main(): Promise<void> {
   console.log("\n=== Summary ===");
   let totalItems = 0;
   let totalErrors = 0;
+  let totalActivities = 0;
   for (const s of allStats) {
     if (s.count > 0 || s.errors > 0) {
       const status = s.errors > 0 ? "✗" : "✓";
-      console.log(`  ${status} ${s.pack}: ${s.count} items, ${s.errors} errors`);
+      const activityNote =
+        s.activitiesGenerated != null && s.activitiesGenerated > 0
+          ? `, ${s.activitiesGenerated} with activities`
+          : "";
+      console.log(`  ${status} ${s.pack}: ${s.count} items, ${s.errors} errors${activityNote}`);
     }
     totalItems += s.count;
     totalErrors += s.errors;
+    totalActivities += s.activitiesGenerated ?? 0;
   }
 
   if (totalItems === 0 && totalErrors === 0) {
     console.log("  (no source items found — add definitions to data/src/)");
   }
 
-  console.log(`\nTotal: ${totalItems} items, ${totalErrors} errors`);
+  console.log(`\nTotal: ${totalItems} items, ${totalErrors} errors, ${totalActivities} with activities`);
   if (totalErrors > 0) process.exit(1);
 }
 

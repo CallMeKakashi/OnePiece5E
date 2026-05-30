@@ -4,13 +4,17 @@ import { compendiumUuid } from "../../helpers/uuid.js";
 import {
   createHitPoints,
   createItemGrant,
-  createItemChoiceRestricted,
   createScaleValue,
   createSubclass,
   createTrait,
   createASI,
   mergeAdvancements,
 } from "../../helpers/advancement.js";
+import {
+  createHakiAdvancementChoices,
+  createHakiTierScaleValue,
+} from "../../helpers/haki-advancement.js";
+import { classStartingEquipmentAdvancement } from "./class-equipment-grants.js";
 
 const CLS = "class/fighter";
 
@@ -18,9 +22,6 @@ function fUuid(path: string): string {
   return compendiumUuid("class-features", generateId(path));
 }
 
-function hakiUuid(slug: string): string {
-  return compendiumUuid("class-features", generateId(`feature/haki/${slug}`));
-}
 
 export const fighter: ClassItem = {
   _id: generateId(CLS),
@@ -40,16 +41,11 @@ export const fighter: ClassItem = {
     hitDiceUsed: 0,
     advancement: mergeAdvancements(
       createHitPoints(CLS),
+      ...classStartingEquipmentAdvancement("fighter"),
 
-      // --- Haki progression scaffold (used by OP5e Haki feat tiers) ---
-      createScaleValue(CLS, "haki-tier", "number", {
-        1: { value: 0 },
-        8: { value: 1 },
-        10: { value: 2 },
-        12: { value: 3 },
-        14: { value: 4 },
-        16: { value: 5 },
-      }),
+      // --- Haki progression (branching choices at 8/10/12/14/16) ---
+      createHakiTierScaleValue(CLS),
+
 
       // --- Proficiencies (level 1) ---
       createTrait(
@@ -106,32 +102,8 @@ export const fighter: ClassItem = {
       createASI(CLS, 16),
       createASI(CLS, 19),
 
-      // --- Haki feat choices (restricted pool) ---
-      createItemChoiceRestricted(CLS, 8, [
-        hakiUuid("armament-novice"),
-        hakiUuid("observation-novice"),
-        hakiUuid("conqueror-novice"),
-      ], { label: "Haki (Novice)" }),
-      createItemChoiceRestricted(CLS, 10, [
-        hakiUuid("armament-apprentice"),
-        hakiUuid("observation-apprentice"),
-        hakiUuid("conqueror-apprentice"),
-      ], { label: "Haki (Apprentice)" }),
-      createItemChoiceRestricted(CLS, 12, [
-        hakiUuid("armament-journeyman"),
-        hakiUuid("observation-journeyman"),
-        hakiUuid("conqueror-journeyman"),
-      ], { label: "Haki (Journeyman)" }),
-      createItemChoiceRestricted(CLS, 14, [
-        hakiUuid("armament-adept"),
-        hakiUuid("observation-adept"),
-        hakiUuid("conqueror-adept"),
-      ], { label: "Haki (Adept)" }),
-      createItemChoiceRestricted(CLS, 16, [
-        hakiUuid("armament-master"),
-        hakiUuid("observation-master"),
-        hakiUuid("conqueror-master"),
-      ], { label: "Haki (Master)" }),
+      // --- Haki feat choices (branching pool; filtered at runtime) ---
+      ...createHakiAdvancementChoices(CLS),
 
       // --- Level 5: Extra Attack ---
       createItemGrant(CLS, 5, [

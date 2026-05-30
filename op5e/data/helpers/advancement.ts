@@ -30,6 +30,8 @@ export interface AdvancementEntry {
 export interface ItemGrantEntry {
   uuid: string;
   optional?: boolean;
+  /** Compendium builders may repeat entries; runtime grants one stack per entry. */
+  quantity?: number;
 }
 
 export interface ItemChoiceRestriction {
@@ -46,6 +48,8 @@ export interface ItemChoiceConfig {
   restriction: ItemChoiceRestriction;
   spell: unknown | null;
   type: string;
+  /** When true, op5e runtime filters pool by owned Haki branches. */
+  op5eHakiChoice?: boolean;
 }
 
 export interface TraitConfig {
@@ -94,6 +98,16 @@ export function createHitPoints(classId: string): AdvancementEntry {
  * ItemGrant advancement — grants features at a specific level.
  * Each item is referenced by compendium UUID.
  */
+function grantQuantitiesFromItems(items: ItemGrantEntry[]): Record<string, number> {
+  const quantities: Record<string, number> = {};
+  for (const item of items) {
+    const qty = item.quantity ?? 1;
+    if (qty <= 1) continue;
+    quantities[item.uuid] = qty;
+  }
+  return quantities;
+}
+
 export function createItemGrant(
   classId: string,
   level: number,
@@ -102,6 +116,7 @@ export function createItemGrant(
 ): AdvancementEntry {
   const tag = label ?? `level-${level}`;
   const id = generateId(`${classId}/advancement/item-grant/${tag}`);
+  const op5eGrantQuantities = grantQuantitiesFromItems(items);
   return {
     _id: id,
     type: "ItemGrant",
@@ -109,7 +124,9 @@ export function createItemGrant(
       items: items.map((i) => ({
         uuid: i.uuid,
         optional: i.optional ?? false,
+        ...(i.quantity && i.quantity > 1 ? { quantity: i.quantity } : {}),
       })),
+      ...(Object.keys(op5eGrantQuantities).length ? { op5eGrantQuantities } : {}),
     },
     value: {},
     level,

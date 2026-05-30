@@ -4,13 +4,17 @@ import { compendiumUuid } from "../../helpers/uuid.js";
 import {
   createHitPoints,
   createItemGrant,
-  createItemChoiceRestricted,
   createScaleValue,
   createSubclass,
   createTrait,
   createASI,
   mergeAdvancements,
 } from "../../helpers/advancement.js";
+import {
+  createHakiAdvancementChoices,
+  createHakiTierScaleValue,
+} from "../../helpers/haki-advancement.js";
+import { classStartingEquipmentAdvancement } from "./class-equipment-grants.js";
 import {
   deftExplorer1,
   deftExplorer6,
@@ -34,9 +38,6 @@ function featureUuid(id: string): string {
   return compendiumUuid("class-features", id);
 }
 
-function hakiUuid(slug: string): string {
-  return compendiumUuid("class-features", generateId(`feature/haki/${slug}`));
-}
 
 export const marksman: ClassItem = {
   _id: generateId(CLS),
@@ -55,16 +56,11 @@ export const marksman: ClassItem = {
     hitDiceUsed: 0,
     advancement: mergeAdvancements(
       createHitPoints(CLS),
+      ...classStartingEquipmentAdvancement("marksman"),
 
-      // --- Haki progression scaffold (used by OP5e Haki feat tiers) ---
-      createScaleValue(CLS, "haki-tier", "number", {
-        1: { value: 0 },
-        8: { value: 1 },
-        10: { value: 2 },
-        12: { value: 3 },
-        14: { value: 4 },
-        16: { value: 5 },
-      }),
+      // --- Haki progression (branching choices at 8/10/12/14/16) ---
+      createHakiTierScaleValue(CLS),
+
 
       // --- Proficiencies (level 1) ---
       createTrait(CLS, 1, {
@@ -75,8 +71,13 @@ export const marksman: ClassItem = {
       createTrait(CLS, 1, {
         mode: "default",
         grants: ["weapon:sim", "weapon:mar"],
-        hint: "Simple weapons, martial weapons",
+        hint: "Simple weapons, martial weapons, cannons",
       }, "weapons"),
+      createTrait(CLS, 1, {
+        mode: "default",
+        grants: ["tool:tinker", "tool:smith"],
+        hint: "Gunsmith's tools, tinker's tools",
+      }, "tools"),
       createTrait(CLS, 1, {
         mode: "default",
         grants: ["saves:str", "saves:dex"],
@@ -88,12 +89,11 @@ export const marksman: ClassItem = {
         choices: [{
           count: 3,
           pool: [
-            "skills:ani", "skills:ath", "skills:ins",
-            "skills:inv", "skills:nat", "skills:prc",
-            "skills:ste", "skills:sur",
+            "skills:acr", "skills:ath", "skills:ins", "skills:inv",
+            "skills:med", "skills:nat", "skills:prc", "skills:ste", "skills:sur",
           ],
         }],
-        hint: "Choose 3 skills",
+        hint: "Choose 3 from Acrobatics, Athletics, Insight, Investigation, Medicine, Nature, Perception, Stealth, Survival",
       }, "skills"),
 
       // --- Level 1: Deft Explorer + Favored Mark ---
@@ -162,32 +162,8 @@ export const marksman: ClassItem = {
       createASI(CLS, 16),
       createASI(CLS, 19),
 
-      // --- Haki feat choices (restricted pool) ---
-      createItemChoiceRestricted(CLS, 8, [
-        hakiUuid("armament-novice"),
-        hakiUuid("observation-novice"),
-        hakiUuid("conqueror-novice"),
-      ], { label: "Haki (Novice)" }),
-      createItemChoiceRestricted(CLS, 10, [
-        hakiUuid("armament-apprentice"),
-        hakiUuid("observation-apprentice"),
-        hakiUuid("conqueror-apprentice"),
-      ], { label: "Haki (Apprentice)" }),
-      createItemChoiceRestricted(CLS, 12, [
-        hakiUuid("armament-journeyman"),
-        hakiUuid("observation-journeyman"),
-        hakiUuid("conqueror-journeyman"),
-      ], { label: "Haki (Journeyman)" }),
-      createItemChoiceRestricted(CLS, 14, [
-        hakiUuid("armament-adept"),
-        hakiUuid("observation-adept"),
-        hakiUuid("conqueror-adept"),
-      ], { label: "Haki (Adept)" }),
-      createItemChoiceRestricted(CLS, 16, [
-        hakiUuid("armament-master"),
-        hakiUuid("observation-master"),
-        hakiUuid("conqueror-master"),
-      ], { label: "Haki (Master)" }),
+      // --- Haki feat choices (branching pool; filtered at runtime) ---
+      ...createHakiAdvancementChoices(CLS),
 
       // --- Scale Values ---
       createScaleValue(CLS, "favored-mark", "dice", {

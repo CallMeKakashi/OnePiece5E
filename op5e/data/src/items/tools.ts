@@ -71,6 +71,8 @@ export const tools: FoundryItem[] = [
     { base: "potter" }),
   tool("smiths-tools", "Smith's Tools", "art", 200000, 8, "int",
     { base: "smith" }),
+  tool("gunsmiths-tools", "Gunsmith's Tools", "art", 250000, 6, "int",
+    { base: "smith", desc: "<p>Tools for maintaining and repairing firearms, flintlocks, and other ranged weapons.</p>" }),
   tool("tinkers-tools", "Tinker's Tools", "art", 500000, 10, "int",
     { base: "tinker" }),
   tool("weavers-tools", "Weaver's Tools", "art", 10000, 5, "int",

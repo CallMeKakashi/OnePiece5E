@@ -1,12 +1,14 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { createDAEEffect, overrideValue } from "../../helpers/effects.js";
+import { DAE_KEYS } from "../../schemas/common.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
 const SC_ID = "subclass/medic/field-surgeon";
 
-function feat(idPath: string, name: string, level: number, description: string, extra: any = {}): FeatureItem {
+function feat(idPath: string, name: string, level: number, description: string, extra: any = {}, effects: any[] = []): FeatureItem {
   return {
     _id: generateId(idPath),
     name,
@@ -29,7 +31,7 @@ function feat(idPath: string, name: string, level: number, description: string, 
       recharge: { value: null, charged: false },
       ...extra,
     },
-    effects: [],
+    effects,
     flags: {},
     folder: null,
     sort: 0,
@@ -42,7 +44,22 @@ export const combatMedicine = feat(
   "feature/medic/field-surgeon/combat-medicine", "Combat Medicine", 2,
   `<p>Beginning at 2nd level, you can now use Experimental Medicine as a bonus action rather than an action and can swap between enhancements as a bonus action as well.</p>
 <p>Additionally, the temporary hit points you gain from Experimental Medicine now includes your Wisdom modifier.</p>
-<p>Furthermore, you gain a natural armor equal to 10 + your Wisdom Modifier + your Proficiency Bonus. This natural armor does not benefit from shields, and you cannot benefit from any worn armor.</p>`,
+<p>Furthermore, you gain a natural armor equal to 10 + your Wisdom Modifier + your Proficiency Bonus. This natural armor does not benefit from shields, and you cannot benefit from any worn armor.</p>
+<p><em>Field Surgeons: use this feature (not the base Experimental Medicine item) to administer EM in combat. Enhancement swap remains manual.</em></p>`,
+  {
+    activation: { type: "bonus", cost: 1, condition: "" },
+    target: { value: null, width: null, units: "", type: "self" },
+    range: { value: null, long: null, units: "self" },
+    uses: { value: 2, max: "2", per: "sr", recovery: "", prompt: true },
+    actionType: "heal",
+    damage: { parts: [["4 * @classes.medic.levels + @abilities.wis.mod", "temphp"]], versatile: "" },
+    chatFlavor: "Combat EM: bonus action; temp HP = 4×medic level + WIS mod (shares pool with Experimental Medicine)",
+  },
+  [
+    createDAEEffect("medic/field-surgeon/combat-medicine", "Combat Medicine", [
+      overrideValue(DAE_KEYS.AC_FORMULA, "10 + @abilities.wis.mod + @prof"),
+    ]),
+  ],
 );
 
 export const enhancedForms = feat(
@@ -59,6 +76,9 @@ export const fieldSurgeonExtraAttack = feat(
   "feature/medic/field-surgeon/extra-attack", "Extra Attack", 6,
   `<p>Beginning at 6th level, you can attack twice, instead of once, when you take the Attack action on your turn.</p>
 <p>If you ready your action to make an attack, you can attack the same number of times you would if you had taken the attack action on your turn.</p>`,
+  {
+    chatFlavor: "Attack action attacks: 2",
+  },
 );
 
 export const monstrousTransformation = feat(

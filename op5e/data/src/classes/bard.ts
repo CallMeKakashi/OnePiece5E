@@ -3,13 +3,18 @@ import { compendiumUuid } from "../../helpers/uuid.js";
 import {
   createHitPoints,
   createItemGrant,
-  createItemChoiceRestricted,
   createScaleValue,
   createSubclass,
   createTrait,
   createASI,
   mergeAdvancements,
 } from "../../helpers/advancement.js";
+import {
+  createHakiAdvancementChoices,
+  createHakiTierScaleValue,
+} from "../../helpers/haki-advancement.js";
+import { classStartingEquipmentAdvancement } from "./class-equipment-grants.js";
+import { MUSICAL_INSTRUMENT_TRAIT_POOL } from "./class-proficiency-pools.js";
 import type { ClassItem } from "../../schemas/class.js";
 import {
   creativitySpellcasting,
@@ -34,9 +39,6 @@ function featureUuid(id: string): string {
   return compendiumUuid("class-features", id);
 }
 
-function hakiUuid(slug: string): string {
-  return compendiumUuid("class-features", generateId(`feature/haki/${slug}`));
-}
 
 export const bard: ClassItem = {
   _id: generateId(CLASS_ID),
@@ -55,16 +57,11 @@ export const bard: ClassItem = {
     hitDiceUsed: 0,
     advancement: mergeAdvancements(
       createHitPoints(CLASS_ID),
+      ...classStartingEquipmentAdvancement("bard"),
 
-      // --- Haki progression scaffold (used by OP5e Haki feat tiers) ---
-      createScaleValue(CLASS_ID, "haki-tier", "number", {
-        1: { value: 0 },
-        8: { value: 1 },
-        10: { value: 2 },
-        12: { value: 3 },
-        14: { value: 4 },
-        16: { value: 5 },
-      }),
+      // --- Haki progression (branching choices at 8/10/12/14/16) ---
+      createHakiTierScaleValue(CLASS_ID),
+
 
       // --- Proficiencies (level 1) ---
       createTrait(CLASS_ID, 1, {
@@ -74,19 +71,21 @@ export const bard: ClassItem = {
       }, "armor"),
       createTrait(CLASS_ID, 1, {
         mode: "default",
-        grants: ["weapon:sim", "weapon:handcrossbow", "weapon:longsword", "weapon:rapier", "weapon:shortsword"],
-        hint: "Simple weapons, hand crossbows, longswords, rapiers, shortswords",
+        grants: [
+          "weapon:sim",
+          "weapon:handcrossbow",
+          "weapon:longsword",
+          "weapon:rapier",
+          "weapon:shortsword",
+        ],
+        hint: "Simple weapons, hand crossbows, pistols, cutlass, longswords, rapiers, shortswords",
       }, "weapons"),
       createTrait(CLASS_ID, 1, {
         mode: "default",
         grants: [],
         choices: [{
           count: 3,
-          pool: [
-            "tool:bagpipes", "tool:drum", "tool:dulcimer", "tool:flute",
-            "tool:lute", "tool:lyre", "tool:horn", "tool:panflute",
-            "tool:shawm", "tool:viol",
-          ],
+          pool: [...MUSICAL_INSTRUMENT_TRAIT_POOL],
         }],
         hint: "Three musical instruments of your choice",
       }, "tools"),
@@ -125,6 +124,12 @@ export const bard: ClassItem = {
 
       // --- Level 3: Subclass, Expertise ---
       createSubclass(CLASS_ID, 3),
+      createTrait(CLASS_ID, 3, {
+        mode: "expertise",
+        grants: [],
+        choices: [{ count: 2, pool: [] }],
+        hint: "Choose two skill proficiencies",
+      }, "expertise-3"),
       createItemGrant(CLASS_ID, 3, [
         { uuid: featureUuid(expertise3._id) },
       ]),
@@ -140,6 +145,12 @@ export const bard: ClassItem = {
       ]),
 
       // --- Level 10: Expertise, Musical Secrets, Font of Vitality ---
+      createTrait(CLASS_ID, 10, {
+        mode: "expertise",
+        grants: [],
+        choices: [{ count: 2, pool: [] }],
+        hint: "Choose two more skill proficiencies",
+      }, "expertise-10"),
       createItemGrant(CLASS_ID, 10, [
         { uuid: featureUuid(expertise10._id) },
         { uuid: featureUuid(musicalSecrets10._id) },
@@ -173,32 +184,8 @@ export const bard: ClassItem = {
       createASI(CLASS_ID, 16),
       createASI(CLASS_ID, 19),
 
-      // --- Haki feat choices (restricted pool) ---
-      createItemChoiceRestricted(CLASS_ID, 8, [
-        hakiUuid("armament-novice"),
-        hakiUuid("observation-novice"),
-        hakiUuid("conqueror-novice"),
-      ], { label: "Haki (Novice)" }),
-      createItemChoiceRestricted(CLASS_ID, 10, [
-        hakiUuid("armament-apprentice"),
-        hakiUuid("observation-apprentice"),
-        hakiUuid("conqueror-apprentice"),
-      ], { label: "Haki (Apprentice)" }),
-      createItemChoiceRestricted(CLASS_ID, 12, [
-        hakiUuid("armament-journeyman"),
-        hakiUuid("observation-journeyman"),
-        hakiUuid("conqueror-journeyman"),
-      ], { label: "Haki (Journeyman)" }),
-      createItemChoiceRestricted(CLASS_ID, 14, [
-        hakiUuid("armament-adept"),
-        hakiUuid("observation-adept"),
-        hakiUuid("conqueror-adept"),
-      ], { label: "Haki (Adept)" }),
-      createItemChoiceRestricted(CLASS_ID, 16, [
-        hakiUuid("armament-master"),
-        hakiUuid("observation-master"),
-        hakiUuid("conqueror-master"),
-      ], { label: "Haki (Master)" }),
+      // --- Haki feat choices (branching pool; filtered at runtime) ---
+      ...createHakiAdvancementChoices(CLASS_ID),
 
       // --- Scale Values ---
       createScaleValue(CLASS_ID, "bardic-inspiration", "dice", {
