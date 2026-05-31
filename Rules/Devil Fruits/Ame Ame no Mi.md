@@ -1,23 +1,45 @@
 ---
-type:
-  - Rules
+type: devil-fruit
+fruit_type: Paramecia
 publish: true
-status: draft
+status: canon
+owner: "[[Sora]]"
+rarity: unique
+attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
-owner: "[[Sora]]"
 related_source:
   - "[[Chapter 6 Devil Fruits]]"
 ---
 
-# Ame Ame no Mi (Rain-Rain Fruit)
+# Ame Ame no Mi
 
-**Current owner:** [[Sora]]
+*Paramecia, unique (consumed — replaces attunement)*
 
-## Image
+*Rain-Rain Fruit*
 
-![[Attachments/ame-ame-no-mi.png]]
+| | |
+| --- | --- |
+| **Owner** | [[Sora]] |
+| **Registry** | [[Rules/Devil Fruits]] |
 
-## Power
+![[Attachments/ame-ame-no-mi.png|Devil fruit]]
 
-Rain manipulation (campaign homebrew). Former PC fruit; owner now NPC [[Sora]] — no vault actor page yet.
+## Description
+
+Campaign-registered **Paramecia** devil fruit. Current eater: [[Sora]].
+
+## Properties
+
+Rain manipulation (campaign homebrew). Former PC fruit; owner now [[Sora]].
+
+## Drawbacks
+
+- **Ocean's Scorn** — the eater cannot swim; running water and seastone apply as in [[What Are Devil Fruits]].
+- **Haki** — armament haki can bypass many paramecia defenses where noted in session.
+
+## See also
+
+- [[Chapter 6 Devil Fruits]]
+- Owner: [[Sora]]
+- [[Sora]]

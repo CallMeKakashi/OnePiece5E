@@ -1,6 +1,7 @@
 /*
   Blood & Brine — hide non-campaign folders from the file explorer only.
   Targets legacy (.nav-folder-title) and modern (.tree-item-self) explorer DOM.
+  Campaign content (World, Rules, Sessions, etc.) stays visible.
 */
 
 /* --- Folders (Tier 2 + tooling) --- */
@@ -14,6 +15,8 @@
 .nav-folder-title[data-path="Discord"],
 .nav-folder-title[data-path="Daily"],
 .nav-folder-title[data-path="Attachments"],
+.nav-folder-title[data-path="Foundry"],
+.nav-folder-title[data-path="foundry-modules"],
 .nav-folder-title[data-path="op5e"],
 .nav-folder-title[data-path="op5e-compendium"],
 .tree-item-self.nav-folder-title[data-path="Categories"],
@@ -26,6 +29,8 @@
 .tree-item-self.nav-folder-title[data-path="Discord"],
 .tree-item-self.nav-folder-title[data-path="Daily"],
 .tree-item-self.nav-folder-title[data-path="Attachments"],
+.tree-item-self.nav-folder-title[data-path="Foundry"],
+.tree-item-self.nav-folder-title[data-path="foundry-modules"],
 .tree-item-self.nav-folder-title[data-path="op5e"],
 .tree-item-self.nav-folder-title[data-path="op5e-compendium"],
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Categories"]),
@@ -38,6 +43,8 @@
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Discord"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Daily"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Attachments"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Foundry"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="foundry-modules"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="op5e"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="op5e-compendium"]) {
   display: none !important;
@@ -54,6 +61,8 @@
 .nav-folder-title[data-path="Discord"] + .nav-folder-children,
 .nav-folder-title[data-path="Daily"] + .nav-folder-children,
 .nav-folder-title[data-path="Attachments"] + .nav-folder-children,
+.nav-folder-title[data-path="Foundry"] + .nav-folder-children,
+.nav-folder-title[data-path="foundry-modules"] + .nav-folder-children,
 .nav-folder-title[data-path="op5e"] + .nav-folder-children,
 .nav-folder-title[data-path="op5e-compendium"] + .nav-folder-children {
   display: none !important;
@@ -70,27 +79,37 @@
 .nav-files-container .tree-item [data-path="Discord"],
 .nav-files-container .tree-item [data-path="Daily"],
 .nav-files-container .tree-item [data-path="Attachments"],
+.nav-files-container .tree-item [data-path="Foundry"],
+.nav-files-container .tree-item [data-path="foundry-modules"],
 .nav-files-container .tree-item [data-path="op5e"],
 .nav-files-container .tree-item [data-path="op5e-compendium"] {
   display: none !important;
 }
 
-/* --- Root files (agent / domain glossary — not campaign browsing) --- */
+/* --- Root files (agent / tooling — not campaign browsing) --- */
 .nav-file-title[data-path="AGENTS.md"],
 .nav-file-title[data-path="CLAUDE.md"],
 .nav-file-title[data-path="GEMINI.md"],
 .nav-file-title[data-path="CONTEXT.md"],
+.nav-file-title[data-path="LICENSE"],
+.nav-file-title[data-path="Lunarfold Journey.json"],
 .tree-item-self.nav-file-title[data-path="AGENTS.md"],
 .tree-item-self.nav-file-title[data-path="CLAUDE.md"],
 .tree-item-self.nav-file-title[data-path="GEMINI.md"],
 .tree-item-self.nav-file-title[data-path="CONTEXT.md"],
+.tree-item-self.nav-file-title[data-path="LICENSE"],
+.tree-item-self.nav-file-title[data-path="Lunarfold Journey.json"],
 .nav-files-container .tree-item:has(> .tree-item-self.nav-file-title[data-path="AGENTS.md"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-file-title[data-path="CLAUDE.md"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-file-title[data-path="GEMINI.md"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-file-title[data-path="CONTEXT.md"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-file-title[data-path="LICENSE"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-file-title[data-path="Lunarfold Journey.json"]),
 .nav-files-container .tree-item [data-path="AGENTS.md"],
 .nav-files-container .tree-item [data-path="CLAUDE.md"],
 .nav-files-container .tree-item [data-path="GEMINI.md"],
-.nav-files-container .tree-item [data-path="CONTEXT.md"] {
+.nav-files-container .tree-item [data-path="CONTEXT.md"],
+.nav-files-container .tree-item [data-path="LICENSE"],
+.nav-files-container .tree-item [data-path="Lunarfold Journey.json"] {
   display: none !important;
 }

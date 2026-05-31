@@ -13,6 +13,8 @@ The ruling enforcers of [[Decibella Kingdom]] who impose and maintain an oppress
 - [[Lady Soefra Anthem]]
 - [[Echo Spy]]
 - [[Mezzo Troop]]
+- [[Chuckles]] · [[Giggles]] · [[Snickers]] · [[Wheeze]] — Circle of Clowns
+- [[Bass Tremor]] — [[Tremor]] faction (leadership ties to Soundless 5)
 
 ## Overview
 

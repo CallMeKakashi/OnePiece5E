@@ -17,6 +17,7 @@ from pathlib import Path
 SYNC_DIRS = (
     "Attachments",
     "Journals",
+    "Monster Manual",
     "Rules",
     "Sessions",
     "Sourcebook",

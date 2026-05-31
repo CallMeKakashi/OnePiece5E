@@ -1,24 +1,35 @@
 ---
-type:
-  - Rules
+type: devil-fruit
+fruit_type: Paramecia
 publish: true
-status: draft
+status: canon
+owner: "[[Linus Marrow]]"
+rarity: unique
+attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
-owner: "[[Linus Marrow]]"
 related_source:
   - "[[Chapter 6 Devil Fruits]]"
 ---
 
-# Phezu Phezu no Mi (Phase-Phase Fruit)
+# Phezu Phezu no Mi
 
-**Current owner:** [[Linus Marrow]]
+*Paramecia, unique (consumed — replaces attunement)*
 
-## Image
+*Phase-Phase Fruit*
 
-![[Attachments/phezu-phezu-no-mi.webp]]
+| | |
+| --- | --- |
+| **Owner** | [[Linus Marrow]] |
+| **Registry** | [[Rules/Devil Fruits]] |
 
-## Power
+![[Attachments/phezu-phezu-no-mi.webp|Devil fruit]]
+
+## Description
+
+Campaign-registered **Paramecia** devil fruit. Current eater: [[Linus Marrow]].
+
+## Properties
 
 Allows the user to **become intangible** and pass through solid matter (walls, floors, objects, or attacks). Can control tangibility selectively — phasing only parts of the body. When phasing, the user blurs slightly like a mirage (not full invisibility).
 
@@ -26,4 +37,15 @@ Allows the user to **become intangible** and pass through solid matter (walls, f
 
 **Utility:** Silent Passage, Underground Extraction (allies through walls), Object Extraction, Phase Lock (weapons into walls).
 
-**Weaknesses:** Haki bypasses phasing; seastone nullifies; continuous phasing drains stamina.
+## Drawbacks
+
+- **Ocean's Scorn** — the eater cannot swim; running water and seastone apply as in [[What Are Devil Fruits]].
+- **Haki** — armament haki bypasses phasing.
+- **Stamina** — continuous phasing drains the user.
+- **Seastone** — nullifies the fruit while in contact.
+
+## See also
+
+- [[Chapter 6 Devil Fruits]]
+- Owner: [[Linus Marrow]]
+- [[Linus Marrow]]

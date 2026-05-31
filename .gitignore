@@ -4,6 +4,8 @@
 .obsidian/workspace.json
 .obsidian/themes
 .obsidian/plugins
+!.obsidian/plugins/blood-brine-foundry-statblock/
+!.obsidian/plugins/blood-brine-foundry-statblock/**
 .obsidian/community-plugins.json
 .obsidian/core-plugins-migration.json
 
@@ -16,6 +18,13 @@ scripts/.venv/
 scripts/discord-channels.json
 __pycache__/
 *.pyc
+
+# Foundry JSON junctions (live on Pi; do not commit exports)
+Foundry/actors-json/
+Foundry/actors-live/
+Foundry/world-actors/
+Foundry/_actor-index.json
+Foundry/actor-registry.json
 
 # Foundry module build artifacts (OP5e)
 op5e/node_modules/

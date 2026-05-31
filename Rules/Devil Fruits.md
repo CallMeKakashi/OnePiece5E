@@ -7,9 +7,7 @@ status: draft
 
 # Devil Fruits (campaign)
 
-Campaign devil fruit registry — image, power, and current owner. Discord quarry: [[Discord/exports/devil-fruit-dex]]. Supplement rules: `Sourcebook/Chapter 6 Devil Fruits/`.
-
-Legacy Campaign 1: [[Fusion Fusion Fruit]] — Ronan; see `Characters/Archive/Campaign 1/` if present.
+Campaign devil fruit registry — image, power, and current owner. Template: [[Devil Fruit Template]]. System rules: [[Chapter 6 Devil Fruits]].
 
 ## Registry
 
@@ -20,8 +18,9 @@ Legacy Campaign 1: [[Fusion Fusion Fruit]] — Ronan; see `Characters/Archive/Ca
 - [[Ame Ame no Mi]] — Sora
 - [[Hai Hai no Mi]] — Malak Samum
 - [[Buki Buki no Mi]] — Serica Corven
-- [[Koru Koru no Mi]] — Daniel
-- [[Ink Ink no Mi]] — Rhum Guiseppi
+- [[Koru Koru no Mi]] — Daniel (Coal-Coal)
+- [[Ink Ink no Mi]] — Rhum Guiseppi (Ink-Ink)
+- [[Eki Eki no Mi]] — Cline The Plague
 - [[Suraimu Suraimu no Mi]] — Droven Calligos
 - [[Toneru Toneru no Mi]] — Dravos
 - [[Tori Tori no Mi — Model Raicho]] — Malphas
@@ -36,11 +35,6 @@ Legacy Campaign 1: [[Fusion Fusion Fruit]] — Ronan; see `Characters/Archive/Ca
 - [[Shire Shire no Mi]] — Rias Decibel
 - [[Dabu Dabu no Mi]] — Irik Fen
 - [[Fura Fura no Mi]] — Rhythm Echo
-- [[Eki Eki no Mi]] — Cline The Plague
 - [[Meshi Meshi no Mi]] — Blackhand Cane
-
-Also documented (pre-Discord sync): [[Zaiko Zaiko No Mi]]
-
-Legacy redirects: [[Sumi Sumi no Mi]], [[Sumi Sumi no Mi — Rhum Guiseppi]]
 
 Inventions (non-fruits): [[Rules/Inventions|Inventions folder]].

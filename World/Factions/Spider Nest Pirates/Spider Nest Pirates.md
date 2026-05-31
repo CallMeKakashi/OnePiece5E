@@ -9,6 +9,7 @@ Pirate crew connected to the [[Sessions/Sidequests/Spider's Nest]] sidequest.
 ## Members
 
 - [[Simon The One Armed Tyrant]] — captain (formerly known as Silas), founding member of [[Motley Crew]]
+- [[Zara Tideborn]]
 - [[Ben]] — "Iron-Fist Breaker," bruiser with mechanical arm
 - [[Chloe]] — "Eight-Legs Widow," wild card
 - [[Daniel]] — "No-Knees Phantom," navigator

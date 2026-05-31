@@ -13,6 +13,8 @@ sources:
   - "[[Episode 25 - Fire Storm]]"
   - "Discord/exports/character-art"
   - "Discord/exports/bounty-posters"
+foundry_actor_id: "HJKNBZ85j9EY3Qys"
+foundry_live_slug: "zim"
 ---
 ## Visuals
 
@@ -61,3 +63,21 @@ Trial island target during Episode 21; party splits ops to free Zim alongside **
 - [[Chloe (Spider's Nest)]]
 - [[1478-03sun [Newspaper] Grand Line Tribune — Midday]] (prisoner transport)
 - [[1478-12moon [Newspaper] Grand Line Tribune — Morning]] (Vireth / Liz)
+## Live sheet (Foundry)
+
+*Last synced: 2026-05-31 05:10 UTC*
+
+```statblock
+name: Zim
+size: medium
+type: humanoid
+alignment: 
+ac: 10
+hp: 10
+speed: 30 ft.
+stats: [10, 10, 10, 10, 10, 10]
+cr: 1
+traits:
+- name: Puzzle Box (19%)
+  desc: (See Foundry for activity details.)
+```

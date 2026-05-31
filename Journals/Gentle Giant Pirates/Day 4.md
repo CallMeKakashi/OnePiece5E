@@ -1,12 +1,37 @@
 ---
 publish: true
+type: journal
+crew: "[[Gentle Giant Pirates]]"
+in_world_day: Day 4
+location: "[[Driftroot Isle]] — bandit outpost"
 created: 2025-12-21
+status: canon
 tags:
-  - note
   - journal
+sources:
+related_sessions:
 ---
 
+# Day 4 — Akira recalled
 
-Departure of Akira Location: Bandit Outpost, Driftroot Isle Bandit Outpost 
+## Setting
 
-The crew is gathered at the bandit outpost, waiting for Nyx to wake up. The atmosphere is tense but filled with anticipation. Fenris: (addressing the crew) "Alright, everyone, we've got a situation on our hands. While we're waiting for this bastard to regain consciousness, we've received an urgent call." Akira: (perplexed) "A call? From whom?" Den Den Mushi Communication Fenris holds up the Den Den Mushi to his ear, and the voice of Mira(4th Fleet Commander, Blackhand Pirates) comes through with a sense of urgency. Mira (via Den Den Mushi): "Fenris, this is Mira. I need to speak with Akira immediately." Fenris: "Mira, what's the situation?" Mira: "It's urgent. Ol' man has gone missing, and we've lost contact with him. I need Akira's expertise on this matter." Fenris: (handing the Den Den Mushi to Akira) "Akira, it's for you." Akira's Response Akira takes the Den Den Mushi, listening intently. Akira: "Mira, I'm on it. I'll leave immediately to investigate. The crew will continue without me for now." Mira: "Thank you, Akira. Time is of the essence. Safe travels." Akira turns to the crew, offering a nod of appreciation. Akira: "Take care, everyone. I'll be back as soon as I can." With that, Akira sets off, leaving the rest of the crew to continue their journey.
+- **When:** While the crew waits for Nix to wake at the outpost
+- **Where:** Bandit outpost, [[Driftroot Isle]]
+- **Author:** Unnamed crew member (first person)
+
+## Entry
+
+The crew gathered at the bandit outpost, tense but restless, waiting for Nyx to wake. Fenris called us together—said we'd had an urgent call while we stood watch over our prisoner.
+
+A Den Den Mushi rang. **[[Mira the Unbreakable|Mira]]**—Fourth Fleet Commander, [[Blackhand]]—voice tight with urgency. The old man had gone missing; they'd lost contact. She needed **Akira** immediately. No debate in her tone.
+
+Akira took the shell, listened, and nodded once. "I'm on it. I'll leave now to investigate. The crew continues without me for now." He thanked us, shouldered his pack, and was gone before the dust settled.
+
+The camp felt smaller after. One less pair of eyes. One less laugh. We still had Nix in the cages, Dravos somewhere in the wind, and a sick child who needed us to keep moving.
+
+## Loose threads
+
+- Akira investigating the missing "old man" for [[Mira the Unbreakable|Mira]] / Blackhand
+- Nix still unconscious; crew short-handed at the outpost
+- [[Dravos]] search ongoing

@@ -5,8 +5,9 @@ status: draft
 publish: true
 sources:
   - "Discord/exports/devil-fruit-dex"
+foundry_template_json: "Foundry/actors-json/bartho.json"
+foundry_live_slug: "bartho"
 ---
-
 ## Description
 
 A towering figure — too big and too calm for the chaos around him. Scars trace map lines across his skin. He carries a blade that would dwarf most men, yet it looks small in his hands. He wears a hat and a brown coat that flaps like a cape, blackened fingers earning him the infamous title. A grin that never quite leaves his face. Candlelight dances along the metal rings in his coat and the iron of his jawline.
@@ -44,3 +45,8 @@ At some point, Cane was captured by Germa and turned into a living weapon — a 
 - [[Backstory] Blackhand Cane — Raid Kingdom]]
 - [[Mira the Unbreakable]] — 4th Fleet Commander, his protégé
 - [[Renzo]] — right-hand fishman
+## Build template (Foundry)
+
+> **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.
+
+Workshop JSON (import/build): `[[Foundry/actors-json/bartho.json]]`.

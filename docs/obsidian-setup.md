@@ -10,7 +10,8 @@ How the vault file explorer is trimmed for campaign prep without breaking templa
 | `Discord/`, `Daily/` | Hidden in explorer |
 | `Templates/` | Hidden; edit via [[Templates/_index]] |
 | Root agent files | `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, `CONTEXT.md` hidden |
-| Foundry modules | `op5e/`, `op5e-compendium/` hidden (not campaign lore) |
+| Foundry bridge | `Foundry/` hidden in explorer — see [[Foundry/_index]] |
+| Foundry modules | `op5e/`, `op5e-compendium/` hidden (VTT code, not campaign lore) |
 | Full vault ignore | **Not used** — avoids side effects on templating, sync, publish |
 
 ## Hidden folders
@@ -23,11 +24,12 @@ How the vault file explorer is trimmed for campaign prep without breaking templa
 | `Discord/` | Export quarry — channel registry at [[Discord/_index]]; curated content lives in `Timeline/`, `World/` |
 | `Daily/` | Daily-notes plugin storage — open via command/calendar, not tree |
 | `Attachments/` | Images and PDFs — embedded via `![[]]`, no need to browse directly |
+| `Foundry/` | VTT junctions + bridge docs — [[Foundry/_index]] via [[editor-hub]] |
 | `op5e/`, `op5e-compendium/` | Foundry VTT modules (separate from campaign notes) |
 
 ## Campaign-visible folders (Tier 1)
 
-`Sessions/`, `Transcripts/`, `Timeline/`, `World/`, `Journals/`, `Rules/`, `Sourcebook/`
+`Sessions/`, `Transcripts/`, `Timeline/`, `World/`, `Journals/`, `Monster Manual/`, `Rules/`, `Sourcebook/`
 
 ## GitHub Pages
 
@@ -48,6 +50,22 @@ Plugin paths (unchanged by hiding):
 | Templates | `.obsidian/templates.json` | folder `Templates` |
 | Daily notes | `.obsidian/daily-notes.json` | folder `Daily`, template `Templates/Daily Note Template` |
 | ZK prefixer | `.obsidian/zk-prefixer.json` | `Templates/Journal Template` |
+| **Fantasy Statblocks** | Community plugin `obsidian-5e-statblocks` | Renders ` ```statblock ` YAML fences |
+| **Blood & Brine Foundry Sync** | `.obsidian/plugins/blood-brine-foundry-statblock/data.json` | Per-note Python sync on open |
+
+### Fantasy Statblocks + Foundry Sync
+
+Notes with `foundry_actor_id` get **`## Live sheet (Foundry)`** with a ` ```statblock ` block from the live Foundry world DB.
+
+**Enable plugins manually** — `.obsidian/community-plugins.json` is **gitignored**.
+
+1. Enable **Fantasy Statblocks** — required for rendering.
+2. Enable **Blood & Brine Foundry Sync** — optional; syncs on note open.
+3. Reload Obsidian (**Ctrl+R**), open a linked note in **Live Preview**.
+
+Manual sync: `python scripts/sync_foundry_live_markdown.py` — details in [[Foundry/_index]] and [[editor-hub]].
+
+Workshop build templates (`foundry_template_json`) are separate; refresh with `python scripts/sync_foundry_statblocks.py`.
 
 ## One-time setup (you)
 

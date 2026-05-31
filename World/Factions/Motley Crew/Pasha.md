@@ -28,7 +28,7 @@ Founding member of the [[Motley Crew]].
 
 ## Backstory
 
-(To be developed)
+Escaped **Germa 66** after cruel experiments under **[[Dr Nikolai Tesla]]** ([[1476-01moon [Backstory] The Birth of the Motley Crew]]).
 
 ## Abilities
 

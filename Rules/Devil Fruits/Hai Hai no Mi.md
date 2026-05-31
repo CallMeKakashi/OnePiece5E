@@ -1,23 +1,45 @@
 ---
-type:
-  - Rules
+type: devil-fruit
+fruit_type: Paramecia
 publish: true
-status: draft
+status: canon
+owner: "[[Malak Samum]]"
+rarity: unique
+attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
-owner: "[[Malak Samum]]"
 related_source:
   - "[[Chapter 6 Devil Fruits]]"
 ---
 
-# Hai Hai no Mi (Ash-Ash Fruit)
+# Hai Hai no Mi
 
-**Current owner:** [[Malak Samum]]
+*Paramecia, unique (consumed — replaces attunement)*
 
-## Image
+*Ash-Ash Fruit*
 
-![[Attachments/hai-hai-no-mi.jpg]]
+| | |
+| --- | --- |
+| **Owner** | [[Malak Samum]] |
+| **Registry** | [[Rules/Devil Fruits]] |
 
-## Power
+![[Attachments/hai-hai-no-mi.jpg|Devil fruit]]
+
+## Description
+
+Campaign-registered **Paramecia** devil fruit. Current eater: [[Malak Samum]].
+
+## Properties
 
 Ash manipulation. Doctor of the Braveheart Pirates — no vault actor page yet.
+
+## Drawbacks
+
+- **Ocean's Scorn** — the eater cannot swim; running water and seastone apply as in [[What Are Devil Fruits]].
+- **Haki** — armament haki can bypass many paramecia defenses where noted in session.
+
+## See also
+
+- [[Chapter 6 Devil Fruits]]
+- Owner: [[Malak Samum]]
+- [[Malak Samum]]

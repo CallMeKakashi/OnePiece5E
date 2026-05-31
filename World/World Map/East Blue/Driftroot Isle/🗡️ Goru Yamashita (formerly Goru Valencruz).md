@@ -2,8 +2,10 @@
 type:
   - NPC
 publish: true
+foundry_template_json: "Foundry/actors-json/goru.json"
+foundry_actor_id: "osh9B0zbwvdhle2I"
+foundry_live_slug: "goru-yamashita"
 ---
-
 ### Voice
 
 # Description
@@ -200,3 +202,46 @@ Let the past finally reckon with the present.
 
 - Party intercepts his ship; allies via Black Hand contact; **Lex Imperia** back channel through Valehart mansion ([[Episode 24 - The Friendly Baron]]).
 - Joins **Fire Storm** escort battle vs Marines; asked party to spare **Commander Leon** ([[Episode 25 - Fire Storm]]).
+## Build template (Foundry)
+
+> **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.
+
+Workshop JSON (import/build): `[[Foundry/actors-json/goru.json]]`.
+
+## Disguises
+
+- **DevilMask** — bounty-poster identity used by [[Morrow]] (House Velencruz). Former standalone note merged here; see [[Velencruz/Morrow]].
+## Live sheet (Foundry)
+
+*Last synced: 2026-05-31 05:10 UTC*
+
+```statblock
+name: Goru Yamashita
+size: medium
+type: humanoid
+alignment: neutral
+ac: 16
+hp: 95
+speed: walk 40 ft.
+stats: [14, 18, 14, 12, 14, 13]
+cr: 5
+traits:
+- name: Master Swordsman
+  desc: Goru adds +2 to attack rolls with his odachi and deals an additional 1d6 damage once per turn.
+- name: MistFrame
+  desc: Goru carries a pressurized MistFrame. As a bonus action, he can create a lightly obscured area (15 ft radius) for 1 minute.
+- name: Summon Air Elemental (Recharge 5-6)
+  desc: Goru summons a small air elemental (use dust mephit stats or similar). Acts immediately after him.
+- name: Odachi Strike
+  desc: (See Foundry for activity details.)
+- name: "Form 1: Swift Draw"
+  desc: Goru makes a single attack with advantage. If it hits, deal an extra 2d6 damage.
+- name: "Form 2: Flowing Step"
+  desc: After attacking, Goru can move up to half his speed without provoking opportunity attacks.
+- name: "Form 3: Gale Slash"
+  desc: All creatures in a 10 ft line must make a DC 14 Dexterity save or take 3d6 slashing damage.
+- name: "Form 4: Mist Counter"
+  desc: As a reaction, when hit by an attack, reduce damage by 1d10 + 4 and teleport 10 ft.
+- name: "Form 5: Severing Horizon (Recharge 6)"
+  desc: "A devastating strike: +9 to hit, deals 4d10 + 4 slashing damage. On hit, target must succeed on DC 14 CON save or be stunned until end of next turn."
+```

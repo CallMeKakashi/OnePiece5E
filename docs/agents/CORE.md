@@ -28,6 +28,7 @@ Do **not** create, edit, delete, rename, or move any file unless the user explic
 - `World/` (includes `World/Factions/` — all actor and faction pages)
 - `Journals/`
 - `Rules/` (homebrew only)
+- `Monster Manual/` (campaign creatures & NPC stat blocks)
 - `Sourcebook/` (One Piece D&D reference)
 
 ### Tier 2 — hidden in explorer (do not read unless asked)

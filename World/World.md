@@ -4,9 +4,13 @@ publish: true
 
 %% Begin Waypoint %%
 - **Factions**
+	- **[[Aegir]]**
+		- [[Aegir (Control)]]
+		- [[Aegir (Dominian)]]
 	- **[[Blackhand]]**
 		- **[[Braveheart Pirates]]**
 			- [[Facade]]
+			- [[Homunculus Servant]]
 			- [[Ju Lee Caneheart]]
 			- [[Malak Samum]]
 			- [[Thompson Caneheart]]
@@ -18,7 +22,11 @@ publish: true
 			- [[B.O.B]]
 			- [[Baptiste]]
 			- [[Cade Tigor Cooper]]
+			- [[Jazmine]]
+			- [[Luu]]
 			- [[Malphas]]
+			- [[Merlin]]
+			- [[Pegasus]]
 			- [[Roma]]
 			- [[Zim]]
 		- [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”]]
@@ -36,9 +44,11 @@ publish: true
 	- **[[Decibella Revolutionary]]**
 		- [[Cadence]]
 		- [[Riff Sin]]
+		- [[Sloan]]
 	- **[[Guiseppi Family]]**
 		- [[Brandy Guiseppi]]
 		- [[Gin Guiseppi]]
+		- [[Midori]]
 		- [[Rhum Guiseppi]]
 		- [[Rum Guiseppi]]
 		- [[Tequila Guiseppi]]
@@ -50,6 +60,8 @@ publish: true
 		- [[Calder Voss]]
 		- [[Commander Leon]]
 		- [[Delaroth]]
+		- [[Dr Nikolai Tesla]]
+		- [[Drez Crown, Captain of G-45]]
 		- [[Graff Bolt]]
 		- [[Melina Celeste]]
 		- [[Obsidian]]
@@ -63,6 +75,21 @@ publish: true
 		- [[Ronan]]
 	- **[[Mugen Industries]]**
 		- [[Hallow]]
+		- [[RyeNera]]
+	- **[[Royal Flush Gang]]**
+		- [[Arno Capone]]
+		- [[King]]
+		- [[Matthew -The Jack- Burgess]]
+		- [[Queen]]
+	- **[[Sand Rats]]**
+		- [[Tariq Solen]]
+	- **[[Shadow Guild]]**
+		- [[Vesper]]
+	- **[[Sharkfin Pirates]]**
+		- [[Irik -Two-Tide- Fen]]
+		- [[Joe -Mitchblade- Mitch]]
+		- [[Rolan -Redwake- Marris]]
+		- [[Saeva -Longcast- Virell]]
 	- **[[Sixfold]]**
 		- [[Cline The Plague]]
 		- [[Liz]]
@@ -71,19 +98,33 @@ publish: true
 		- [[Vireth]]
 	- **[[Soundless 5]]**
 		- [[Baron Woofer]]
+		- [[Chuckles]]
 		- [[Echo Spy]]
+		- [[Giggles]]
 		- [[Lady Soefra Anthem]]
 		- [[Mezzo Troop]]
 		- [[Rhythm Echo]]
+		- [[Snickers]]
 		- [[Synth]]
+		- [[Wheeze]]
 	- **[[Spider Nest Pirates]]**
 		- [[Ben]]
 		- [[Chloe]]
 		- [[Daniel]]
 		- [[Simon The One Armed Tyrant]]
+		- [[Zara Tideborn]]
+	- **[[Tremor]]**
+		- [[Bass Tremor]]
 	- **Unaffiliated**
-		- [[DevilMask]]
+		- [[Kara -Many-Eyes- Kagemi]]
+		- [[Maro -Powderflash- Kel]]
 		- [[Sora]]
+	- **[[Unknown]]**
+		- [[Coda]]
+		- [[Luna Bass]]
+		- [[Luna Coda]]
+	- **[[Velencruz]]**
+		- [[Morrow]]
 - **[[World Map]]**
 	- **East Blue**
 		- **[[Ambercrest]]**

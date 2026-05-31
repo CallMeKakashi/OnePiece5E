@@ -20,7 +20,9 @@ Human laborer with a hammer. Cruel — worse than prior island disaster per [[Da
 
 ## Role
 
-Antagonist at the industrial **G-45** facility (transcript: "Hello"). Controls chimeras and a **remote** for the cogwork core. Operates under [[Mugen Industries]].
+- **G-45** industrial site — Antagonist at the cogwork facility (transcript speech-to-text: "Hello"). Controls chimeras and a **remote** for the cogwork core.
+- **Callisto** — **Station master** (quartermaster) at the Callisto research facility under **[[Mugen Industries]]** / **[[Dr Nikolai Tesla]]**'s amalgam program. **Status: dead** (Discord registry).
+- Field operator for Nikolai's chimera and fusion work; distinct from the named amalgams **[[RyeNera]]** and **[[Monster Manual/Aberrant Abomination|Aberrant Abomination]]**.
 
 ## Personal Quests
 
@@ -32,5 +34,7 @@ Antagonist at the industrial **G-45** facility (transcript: "Hello"). Controls c
 
 ## Related
 
+- [[Dr Nikolai Tesla]] · [[RyeNera]]
 - [[Sessions/Sidequests/Spider's Nest]]
 - [[Timeline/Undated/[Event] Hallow's End]]
+- [[Timeline/1478/1478-12moon [Newspaper] Grand Line Tribune — Morning|Callisto collapse press]]

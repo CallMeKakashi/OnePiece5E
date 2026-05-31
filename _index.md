@@ -122,6 +122,19 @@ FROM "World/Factions/Unaffiliated"
 
 ---
 
+## Monster Manual
+
+**Campaign creatures and NPC stat blocks** — live Foundry sheets via [[Monster Manual/_index|Monster Manual index]].
+
+```dataview
+LIST
+FROM "Monster Manual"
+WHERE file.name != "_index"
+SORT file.name ASC
+```
+
+---
+
 ## Rules
 
 **Homebrew systems, rulings, and campaign-specific mechanics**

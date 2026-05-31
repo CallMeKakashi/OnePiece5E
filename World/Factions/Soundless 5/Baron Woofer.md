@@ -3,8 +3,9 @@ type: actor
 faction: "[[Soundless 5]]"
 status: draft
 publish: true
+foundry_actor_id: "sHCdkGbm1ORvVKwi"
+foundry_live_slug: "woofer"
 ---
-
 ## Description
 
 8.5-foot tall, wearing massive **Speaker-Pauldron Armor**. He carries a two-handed hammer shaped like a Tuning Fork. Loud, low voice.
@@ -56,3 +57,18 @@ actions:
 ```
 
 ![[Woofer.png]]
+## Live sheet (Foundry)
+
+*Last synced: 2026-05-31 05:10 UTC*
+
+```statblock
+name: Woofer
+size: large
+type: humanoid
+alignment: 
+ac: 10
+hp: 10
+speed: 30 ft.
+stats: [10, 10, 10, 10, 10, 10]
+cr: 1
+```

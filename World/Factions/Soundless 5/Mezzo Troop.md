@@ -3,8 +3,9 @@ type: actor
 faction: "[[Soundless 5]]"
 status: draft
 publish: true
+foundry_actor_id: "SIHWjcxCPzzuxbYv"
+foundry_live_slug: "mezzo-troop"
 ---
-
 ## Description
 
 Low grunts. Low voice, behave like true soldiers.
@@ -54,3 +55,27 @@ actions:
 ```
 
 ![[Mezzo Troop.png]]
+## Live sheet (Foundry)
+
+*Last synced: 2026-05-31 05:10 UTC*
+
+```statblock
+name: Mezzo Troop
+size: medium
+type: humanoid
+alignment: 
+ac: 14
+hp: 10
+speed: walk 30 ft.
+stats: [13, 12, 12, 10, 11, 10]
+cr: 0.125
+skills:
+- Perception: +2
+traits:
+- name: Rubber Rifle
+  desc: "It's up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn't have such proficiency. During their downtime, characters can use the training rules in the Player's Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use."
+- name: Chain Shirt
+  desc: "Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers."
+- name: Shield
+  desc: A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.
+```

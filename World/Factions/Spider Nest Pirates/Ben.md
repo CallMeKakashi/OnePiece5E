@@ -7,6 +7,8 @@ sources:
   - "[[Episode 6 - Hallow's End]]"
   - "[[Sessions/Sidequests/Spider's Nest]]"
   - "Discord/exports/character-art"
+foundry_template_json: "Foundry/actors-json/mikey.json"
+foundry_live_slug: "mikey"
 ---
 ## Visuals
 
@@ -35,3 +37,8 @@ Muscle of the [[Spider Nest Pirates]]. Follows [[Daniel]] loyally.
 
 - [[Daniel]]
 - [[Chloe]]
+## Build template (Foundry)
+
+> **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.
+
+Workshop JSON (import/build): `[[Foundry/actors-json/mikey.json]]`.
