@@ -21,7 +21,7 @@ related_source:
 | | |
 | --- | --- |
 | **Owner** | [[Serica Corven]] |
-| **Registry** | [[Rules/Devil Fruits]] |
+| **Registry** | [[Devil Fruits]] |
 
 ![[Attachments/bukibukinomi.png|Devil fruit]]
 

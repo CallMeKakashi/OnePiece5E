@@ -19,7 +19,7 @@ related_source:
 | | |
 | --- | --- |
 | **Owner** | [[Roma]] |
-| **Registry** | [[Rules/Devil Fruits]] |
+| **Registry** | [[Devil Fruits]] |
 
 ![[Attachments/yukiyukinomi-yeti.png|Devil fruit]]
 

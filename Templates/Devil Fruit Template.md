@@ -19,7 +19,7 @@ related_source:
 | | |
 | --- | --- |
 | **Owner** | [[Owner]] |
-| **Registry** | [[Rules/Devil Fruits]] |
+| **Registry** | [[Devil Fruits]] |
 
 ![[Attachments/fruit-image.png|Devil fruit]]
 

@@ -19,7 +19,7 @@ related_source:
 | | |
 | --- | --- |
 | **Owner** | [[Jack S. Parrow]] |
-| **Registry** | [[Rules/Devil Fruits]] |
+| **Registry** | [[Devil Fruits]] |
 
 ![[Attachments/tori-tori-sparrow.png|Devil fruit]]
 

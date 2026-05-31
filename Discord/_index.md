@@ -16,14 +16,14 @@ Campaign Discord server channels exported to `Discord/exports/` for vault quarri
 | Channel | ID | Export | Purpose |
 |---------|-----|--------|---------|
 | `🎨│character-art` | `1453435491117432916` | [[Discord/exports/character-art|character-art]] | Player character art, tokens, and portrait references shared by the table |
-| `🍈│devil-fruit-dex` | `1382564751527251968` | [[Discord/exports/devil-fruit-dex|devil-fruit-dex]] | Campaign devil fruit registry — names, users, and notes; see [[Rules/Devil Fruits|Devil Fruits]] |
+| `🍈│devil-fruit-dex` | `1382564751527251968` | [[Discord/exports/devil-fruit-dex|devil-fruit-dex]] | Campaign devil fruit registry — names, users, and notes; see [[Devil Fruits|Devil Fruits]] |
 | `🧬│bounty-posters` | `1382564599877861389` | [[Discord/exports/bounty-posters|bounty-posters]] | Marine bounty poster images for PCs and known operatives; pairs with newspaper bounty updates in [[Discord/exports/world-lore|world-lore]] |
 
 **Last export:** 2026-05-31 — character-art (33 msgs), devil-fruit-dex (37 msgs), bounty-posters (18 msgs).
 
 ### Sync notes (2026-05-31)
 
-Thorough pass: portrait/bounty images in `Attachments/`; **25 actor pages** under `World/Factions/` with `## Visuals` (Discord `#character-art` / `#bounty-posters`). **24 campaign devil fruits** in [[Rules/Devil Fruits|Rules/Devil Fruits]] (image, power, current owner) from `#devil-fruit-dex`.
+Thorough pass: portrait/bounty images in `Attachments/`; **25 actor pages** under `World/Factions/` with `## Visuals` (Discord `#character-art` / `#bounty-posters`). **24 campaign devil fruits** in [[Devil Fruits|Devil Fruits]] (image, power, current owner) from `#devil-fruit-dex`.
 
 **Remaining ops:** Re-download expired CDN devil-fruit images from [[Discord/exports/devil-fruit-dex|devil-fruit-dex]] export links; sync portraits for actors marked *pending re-download* in `## Visuals`.
 

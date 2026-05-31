@@ -19,7 +19,7 @@ related_source:
 | | |
 | --- | --- |
 | **Owner** | [[Irik Fen]] |
-| **Registry** | [[Rules/Devil Fruits]] |
+| **Registry** | [[Devil Fruits]] |
 
 ![[Attachments/dabu-dabu-no-mi.png|Devil fruit]]
 

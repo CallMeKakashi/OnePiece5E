@@ -21,7 +21,7 @@ related_source:
 | | |
 | --- | --- |
 | **Owner** | [[Commander Leon]] |
-| **Registry** | [[Rules/Devil Fruits]] |
+| **Registry** | [[Devil Fruits]] |
 
 ![[Attachments/mera-mera-no-mi.png|Devil fruit]]
 

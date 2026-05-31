@@ -21,7 +21,7 @@ related_source:
 | | |
 | --- | --- |
 | **Owner** | [[Dravos]] |
-| **Registry** | [[Rules/Devil Fruits]] |
+| **Registry** | [[Devil Fruits]] |
 
 ![[Attachments/toneru-toneru-no-mi.png|Devil fruit]]
 

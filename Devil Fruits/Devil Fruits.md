@@ -1,13 +1,11 @@
 ---
-type:
-  - Rules
 publish: true
 status: draft
 ---
 
-# Devil Fruits (campaign)
+# Devil Fruits
 
-Campaign devil fruit registry — image, power, and current owner. Template: [[Devil Fruit Template]]. System rules: [[Chapter 6 Devil Fruits]].
+Campaign devil fruit registry — image, power, and current owner. Template: [[Devil Fruit Template]]. System rules: [[Chapter 6 Devil Fruits]]. Discord quarry: [[Discord/exports/devil-fruit-dex]].
 
 ## Registry
 
@@ -38,3 +36,10 @@ Campaign devil fruit registry — image, power, and current owner. Template: [[D
 - [[Meshi Meshi no Mi]] — Blackhand Cane
 
 Inventions (non-fruits): [[Rules/Inventions|Inventions folder]].
+
+```dataview
+TABLE owner, status
+FROM "Devil Fruits"
+WHERE file.name != "Devil Fruits"
+SORT file.name ASC
+```

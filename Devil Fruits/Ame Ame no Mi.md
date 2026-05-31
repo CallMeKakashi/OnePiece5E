@@ -21,7 +21,7 @@ related_source:
 | | |
 | --- | --- |
 | **Owner** | [[Sora]] |
-| **Registry** | [[Rules/Devil Fruits]] |
+| **Registry** | [[Devil Fruits]] |
 
 ![[Attachments/ame-ame-no-mi.png|Devil fruit]]
 

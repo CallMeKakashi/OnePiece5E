@@ -56,6 +56,10 @@ _Avoid_: World (fiction), Rules (homebrew only)
 Homebrew rules, homebrew items, and campaign-specific mechanics in `Rules/`. Not source-book content.
 _Avoid_: Source (imported reference material)
 
+**Devil Fruits**:
+Campaign devil fruit registry (image, power, current owner) in `Devil Fruits/`; hub [[Devil Fruits]]. System reference: `Sourcebook/Chapter 6 Devil Fruits/`.
+_Avoid_: Rules (folder is homebrew mechanics; fruits are their own registry)
+
 ## Factions
 
 All named characters live under their faction in `World/Factions/`. Current factions:

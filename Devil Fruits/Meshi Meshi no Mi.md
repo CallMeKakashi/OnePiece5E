@@ -19,7 +19,7 @@ related_source:
 | | |
 | --- | --- |
 | **Owner** | [[Blackhand Cane]] |
-| **Registry** | [[Rules/Devil Fruits]] |
+| **Registry** | [[Devil Fruits]] |
 
 ![[Attachments/meshi-meshi-no-mi.png|Devil fruit]]
 

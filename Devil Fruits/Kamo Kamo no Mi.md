@@ -21,7 +21,7 @@ related_source:
 | | |
 | --- | --- |
 | **Owner** | [[Vodka Guiseppi]] |
-| **Registry** | [[Rules/Devil Fruits]] |
+| **Registry** | [[Devil Fruits]] |
 
 ![[Attachments/kamo-kamo-no-mi.png|Devil fruit]]
 

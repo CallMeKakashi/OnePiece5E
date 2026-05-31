@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""One-shot sync: Discord exports → actor notes, Attachments/, Rules/Devil Fruits/."""
+"""One-shot sync: Discord exports → actor notes, Attachments/, Devil Fruits/."""
 
 from __future__ import annotations
 
@@ -261,7 +261,7 @@ DEVIL_FRUITS = [
 ]
 
 def create_fruit_note(fruit: dict) -> Path:
-    path = VAULT / "Rules" / "Devil Fruits" / fruit["file"]
+    path = VAULT / "Devil Fruits" / fruit["file"]
     if path.exists():
         return path
     download(fruit["image_url"], ATTACHMENTS / fruit["image_name"])
@@ -364,7 +364,7 @@ def main() -> None:
                 print(f"UPDATED fruit owner {fruit['actor_path']}")
 
     # Update Devil Fruits index
-    index_path = VAULT / "Rules" / "Devil Fruits.md"
+    index_path = VAULT / "Devil Fruits" / "Devil Fruits.md"
     index = index_path.read_text(encoding="utf-8")
     for fruit in DEVIL_FRUITS:
         link = fruit["fruit_link"]

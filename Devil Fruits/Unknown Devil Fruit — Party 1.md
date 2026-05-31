@@ -21,7 +21,7 @@ related_source:
 | | |
 | --- | --- |
 | **Owner** | Party 1 (unclaimed) |
-| **Registry** | [[Rules/Devil Fruits]] |
+| **Registry** | [[Devil Fruits]] |
 
 ![[Attachments/unknown-devil-fruit-puzzle-box.png|Devil fruit]]
 

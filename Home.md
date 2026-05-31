@@ -135,19 +135,25 @@ SORT file.name ASC
 
 ---
 
+## Devil Fruits
+
+**Campaign devil fruit registry** — image, power, and current owner. Index: [[Devil Fruits|Devil Fruits]].
+
+```dataview
+TABLE owner, status
+FROM "Devil Fruits"
+WHERE file.name != "Devil Fruits"
+SORT file.name ASC
+```
+
+---
+
 ## Rules
 
 **Homebrew systems, rulings, and campaign-specific mechanics**
 
 - [[Inspiration|Inspiration]]
-- [[Rules/Devil Fruits|Devil Fruits]] — campaign registry (image, power, owner)
 - [[Rules/Inventions|Inventions]] (see [[Sourcebook/Sourcebook|Sourcebook]] Ch. 4–6)
-
-```dataview
-TABLE owner, status
-FROM "Rules/Devil Fruits"
-SORT file.name ASC
-```
 
 ---
 

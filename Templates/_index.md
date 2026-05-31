@@ -11,7 +11,7 @@ Curated templates for Blood & Brine. The `Templates/` folder is hidden in the fi
 ## Rules & timeline
 
 - [[Rules Template]] — `Rules/`
-- [[Devil Fruit Template]] — `Rules/Devil Fruits/` (D&D-style item layout)
+- [[Devil Fruit Template]] — `Devil Fruits/` (D&D-style item layout)
 - [[Event Template]] — `Timeline/` events
 
 ## Plugin defaults

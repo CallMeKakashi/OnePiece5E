@@ -19,7 +19,7 @@ related_source:
 |              |                        |
 | ------------ | ---------------------- |
 | **Owner**    | [[Tray]]               |
-| **Registry** | [[Rules/Devil Fruits]] |
+| **Registry** | [[Devil Fruits]] |
 
 ![[Attachments/foji-foji-no-mi.png|Devil fruit]]
 
