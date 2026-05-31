@@ -221,34 +221,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Rules/Devil Fruits|Devil Fruits]] — campaign registry (image, power, owner)
 - [[Rules/Inventions|Inventions]] (see [[Sourcebook/index|Sourcebook]] Ch. 4–6)
 
-| Note | owner | status |
-| --- | --- | --- |
-| [[Ame Ame no Mi]] | [[Sora]] | canon |
-| [[Buki Buki no Mi]] | [[Serica Corven]] | canon |
-| [[Dabu Dabu no Mi]] | [[Irik Fen]] | canon |
-| [[Devil Fruits]] |  | draft |
-| [[Eki Eki no Mi]] | [[Cline The Plague]] | canon |
-| [[Foji Foji no Mi]] | [[Tray]] | canon |
-| [[Fura Fura no Mi]] | [[Rhythm Echo]] | canon |
-| [[Hai Hai no Mi]] | [[Malak Samum]] | canon |
-| [[Ink Ink no Mi]] | [[Rhum Guiseppi]] | canon |
-| [[Kamo Kamo no Mi]] | [[Vodka Guiseppi]] | canon |
-| [[Kaze Kaze no Mi]] | [[Mira the Unbreakable]] | canon |
-| [[Kobu Kobu no Mi]] | [[Gin Guiseppi]] | canon |
-| [[Koru Koru no Mi]] | [[Daniel]] | canon |
-| [[Mera Mera no Mi]] | [[Commander Leon]] | canon |
-| [[Meshi Meshi no Mi]] | [[Blackhand Cane]] | canon |
-| [[Peto Peto no Mi]] | [[Ju Lee Caneheart]] | canon |
-| [[Phezu Phezu no Mi]] | [[Linus Marrow]] | canon |
-| [[Shire Shire no Mi]] | [[Rias Decibel]] | canon |
-| [[Soku Soku no Mi]] | [[Veyl Corvine]] | canon |
-| [[Suraimu Suraimu no Mi]] | [[Droven Calligos]] | canon |
-| [[Toneru Toneru no Mi]] | [[Dravos]] | canon |
-| [[Tori Tori no Mi — Model Raicho]] | [[Malphas]] | canon |
-| [[Tori Tori no Mi — Model Sparrow]] | [[Jack S. Parrow]] | canon |
-| [[Uchu Uchu no Mi]] | [[Baptiste]] | canon |
-| [[Unknown Devil Fruit — Party 1]] | Party 1 (unclaimed) | canon |
-| [[Yuki Yuki no Mi — Model Yeti]] | [[Roma]] | canon |
+<!-- dataview: no matching notes -->
 
 
 ---
