@@ -10,6 +10,7 @@ Revolutionary group from [[Decibella Kingdom]] fighting against the [[Soundless 
 
 - [[Cadence]] — rebellion base leader
 - [[Riff Sin]] — musician and rebel fighter
+- [[Sloan]] — Decibella army
 
 ## Overview
 

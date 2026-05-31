@@ -5,9 +5,11 @@ type: index
 
 # Journals
 
-In-character or between-session journal entries.
+In-character or between-session journal entries. Template: [[Journal Template]].
 
-Only notes with `publish: true` appear on the public wiki.
+### By crew
+
+- [[Gentle Giant Pirates/_index|Gentle Giant Pirates]]
 
 - [[Day 2]]
 - [[Day 3]]

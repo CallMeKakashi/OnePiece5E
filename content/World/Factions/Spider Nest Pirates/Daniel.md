@@ -9,6 +9,8 @@ sources:
   - "[[Episode 9 - The Lunarfold Tournament Part 2]]"
   - "[[Sessions/Sidequests/Spider's Nest]]"
   - "[[1478-09sun [Newspaper] Grand Line Tribune — Morning]]"
+foundry_actor_id: "SKw8AaX9YtbHdRRd"
+foundry_live_slug: "daniel"
 ---
 ## Visuals
 
@@ -21,7 +23,7 @@ sources:
 
 ## Role
 
-Navigator of the [[Spider Nest Pirates]]. Survived after [[Simon The One Armed Tyrant]] fell; allied briefly with party to destroy [[Hallow]]'s facility and free [[Chloe]].
+Navigator of the [[Spider Nest Pirates]]. Survived after [[Simon The One Armed Tyrant]] fell; allied briefly with party to destroy [[Hallow]]'s facility and free [[Chloe]]. **Currently with the party** on the Juniper arc — fighting a pack of **[[Ashscale Basilisk|Ashscale Basilisks]]** alongside [[Matthew -The Jack- Burgess|Jack]] and [[B.O.B]] (latest session; transcript pending).
 
 Devil Fruit: [[Koru Koru no Mi]] (Coal-Coal).
 
@@ -47,3 +49,18 @@ Devil Fruit: [[Koru Koru no Mi]] (Coal-Coal).
 - [[Ben]]
 - [[Chloe]]
 - [[Hallow]]
+## Live sheet (Foundry)
+
+*Last synced: 2026-05-31 05:10 UTC*
+
+```statblock
+name: Daniel
+size: medium
+type: humanoid
+alignment: 
+ac: 10
+hp: 10
+speed: 30 ft.
+stats: [10, 10, 10, 10, 10, 10]
+cr: 1
+```

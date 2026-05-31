@@ -1,22 +1,42 @@
 ---
-type:
-  - Rules
+type: devil-fruit
+fruit_type: Paramecia
 publish: true
-status: draft
-sources:
+status: canon
 owner: "[[Tray]]"
+rarity: unique
+attunement: none
+sources:
 related_source:
   - "[[Chapter 6 Devil Fruits]]"
 ---
 
 # Fōji Fōji no Mi
 
-**Current owner:** [[Tray]]
+*Paramecia, unique (consumed — replaces attunement)*
 
-## Image
+|              |                        |
+| ------------ | ---------------------- |
+| **Owner**    | [[Tray]]               |
+| **Registry** | [[Rules/Devil Fruits]] |
 
-![[Attachments/foji-foji-no-mi.png]]
+![[Attachments/foji-foji-no-mi.png|Devil fruit]]
 
-## Power
+## Description
+
+Campaign-registered **Paramecia** devil fruit. Current eater: [[Tray]].
+
+## Properties
 
 Campaign homebrew fruit (Forge-related paramecia per naming). Braveheart / Blackhand deckhand Tray Caneheart.
+
+## Drawbacks
+
+- **Ocean's Scorn** — the eater cannot swim; running water and seastone apply as in [[What Are Devil Fruits]].
+- **Haki** — armament haki can bypass many paramecia defenses where noted in session.
+
+## See also
+
+- [[Chapter 6 Devil Fruits]]
+- Owner: [[Tray]]
+- [[Tray]]

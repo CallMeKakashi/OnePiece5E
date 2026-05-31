@@ -1,22 +1,44 @@
 ---
-type:
-  - Rules
+type: devil-fruit
+fruit_type: Paramecia
 publish: true
-status: draft
-sources:
+status: canon
 owner: "[[Droven Calligos]]"
+rarity: unique
+attunement: none
+sources:
 related_source:
   - "[[Chapter 6 Devil Fruits]]"
 ---
 
-# Suraimu Suraimu no Mi (Slime-Slime Fruit)
+# Suraimu Suraimu no Mi
 
-**Current owner:** [[Droven Calligos]]
+*Paramecia, unique (consumed — replaces attunement)*
 
-## Image
+*Slime-Slime Fruit*
 
-![[Attachments/suraimu-suraimu-no-mi.webp]]
+| | |
+| --- | --- |
+| **Owner** | [[Droven Calligos]] |
+| **Registry** | [[Rules/Devil Fruits]] |
 
-## Power
+![[Attachments/suraimu-suraimu-no-mi.webp|Devil fruit]]
+
+## Description
+
+Campaign-registered **Paramecia** devil fruit. Current eater: [[Droven Calligos]].
+
+## Properties
 
 Slime body manipulation. [[Droven Calligos]] — Blackhand 2nd Fleet.
+
+## Drawbacks
+
+- **Ocean's Scorn** — the eater cannot swim; running water and seastone apply as in [[What Are Devil Fruits]].
+- **Haki** — armament haki can bypass many paramecia defenses where noted in session.
+
+## See also
+
+- [[Chapter 6 Devil Fruits]]
+- Owner: [[Droven Calligos]]
+- [[Droven Calligos]]

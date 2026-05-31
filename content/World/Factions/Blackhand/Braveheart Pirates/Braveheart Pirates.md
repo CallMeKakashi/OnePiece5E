@@ -15,4 +15,5 @@ Blackhand **4th Fleet** sub-crew under **[[Mira the Unbreakable]]**.
 - [[Thompson Caneheart]] — vice captain ("Tempest")
 - [[Ju Lee Caneheart]] — mascot
 - [[Malak Samum]] — doctor
-- [[Facade]] — recent recruit
+- [[Facade]] — recent recruit (undead cyborg; AI **OHM**)
+- [[Homunculus Servant]] — OHM's light-spider drone extension

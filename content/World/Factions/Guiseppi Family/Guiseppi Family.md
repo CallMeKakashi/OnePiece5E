@@ -17,3 +17,4 @@ Crime family / pirate syndicate. Devil-fruit-heavy roster in .
 - [[Rhum Guiseppi]] — twin brother of Rum; [[Ink Ink no Mi]]
 - [[Gin Guiseppi]] — youngest brother; [[Kobu Kobu no Mi]]
 - [[Vodka Guiseppi]] — youngest daughter; [[Kamo Kamo no Mi]]
+- [[Midori]] — fishman associate (CragHammer)

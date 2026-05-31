@@ -1,22 +1,44 @@
 ---
-type:
-  - Rules
+type: devil-fruit
+fruit_type: Paramecia
 publish: true
-status: draft
+status: canon
+owner: "[[Veyl Corvine]]"
+rarity: unique
+attunement: none
 sources:
-owner: "[[Veyl Corven]]"
 related_source:
   - "[[Chapter 6 Devil Fruits]]"
 ---
 
-# Soku Soku no Mi (Speed-Speed Fruit)
+# Soku Soku no Mi
 
-**Current owner:** [[Veyl Corven]]
+*Paramecia, unique (consumed — replaces attunement)*
 
-## Image
+*Speed-Speed Fruit*
 
-![[Attachments/soku-soku-no-mi.png]]
+| | |
+| --- | --- |
+| **Owner** | [[Veyl Corvine]] |
+| **Registry** | [[Rules/Devil Fruits]] |
 
-## Power
+![[Attachments/soku-soku-no-mi.png|Devil fruit]]
+
+## Description
+
+Campaign-registered **Paramecia** devil fruit. Current eater: [[Veyl Corvine]].
+
+## Properties
 
 **Speed-Speed Fruit** — enhances the user's movement speed dramatically. Campaign user: [[Veyl Corven]] (Sixfold Page 6). Abilities at table to be expanded from session notes.
+
+## Drawbacks
+
+- **Ocean's Scorn** — the eater cannot swim; running water and seastone apply as in [[What Are Devil Fruits]].
+- **Haki** — armament haki can bypass many paramecia defenses where noted in session.
+
+## See also
+
+- [[Chapter 6 Devil Fruits]]
+- Owner: [[Veyl Corvine]]
+- [[Veyl Corvine]]

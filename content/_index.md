@@ -18,8 +18,12 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[B.O.B]]
 - [[Baptiste]]
 - [[Cade Tigor Cooper]]
+- [[Jazmine]]
 - [[Lunarfolds]]
+- [[Luu]]
 - [[Malphas]]
+- [[Merlin]]
+- [[Pegasus]]
 - [[Roma]]
 - [[Zim]]
 
@@ -68,6 +72,8 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Calder Voss]]
 - [[Commander Leon]]
 - [[Delaroth]]
+- [[Dr Nikolai Tesla]]
+- [[Drez Crown, Captain of G-45]]
 - [[Graff Bolt]]
 - [[Melina Celeste]]
 - [[Obsidian]]
@@ -92,6 +98,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Cadence]]
 - [[Decibella Revolutionary]]
 - [[Riff Sin]]
+- [[Sloan]]
 
 
 ### Spider Nest Pirates
@@ -101,6 +108,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Daniel]]
 - [[Simon The One Armed Tyrant]]
 - [[Spider Nest Pirates]]
+- [[Zara Tideborn]]
 
 
 ### Soundless 5
@@ -108,18 +116,23 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 **Decibella Kingdom enforcers.**
 
 - [[Baron Woofer]]
+- [[Chuckles]]
 - [[Echo Spy]]
+- [[Giggles]]
 - [[Lady Soefra Anthem]]
 - [[Mezzo Troop]]
 - [[Rhythm Echo]]
+- [[Snickers]]
 - [[Soundless 5]]
 - [[Synth]]
+- [[Wheeze]]
 
 
 ### Mugen Industries
 
 - [[Hallow]]
 - [[Mugen Industries]]
+- [[RyeNera]]
 
 
 ### High Roost Pirates
@@ -132,6 +145,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 - [[Braveheart Pirates]]
 - [[Facade]]
+- [[Homunculus Servant]]
 - [[Ju Lee Caneheart]]
 - [[Malak Samum]]
 - [[Thompson Caneheart]]
@@ -142,6 +156,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Brandy Guiseppi]]
 - [[Gin Guiseppi]]
 - [[Guiseppi Family]]
+- [[Midori]]
 - [[Rhum Guiseppi]]
 - [[Rum Guiseppi]]
 - [[Tequila Guiseppi]]
@@ -151,8 +166,49 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 ### Unaffiliated
 
-- [[DevilMask]]
+- [[Kara -Many-Eyes- Kagemi]]
+- [[Maro -Powderflash- Kel]]
 - [[Sora]]
+
+
+---
+
+## Monster Manual
+
+**Campaign creatures and NPC stat blocks** — live Foundry sheets via [[Monster Manual/_index|Monster Manual index]].
+
+- [[Aberrant Abomination]]
+- [[Ashscale Basilisk]]
+- [[Bandit]]
+- [[Berserker]]
+- [[Carrion Stalker]]
+- [[Carrion Vulture]]
+- [[Cave Render]]
+- [[Chicken]]
+- [[Crystalback Scorpion]]
+- [[FarmBull]]
+- [[FarmPig]]
+- [[Giant Boar]]
+- [[Giant Crab]]
+- [[Giant Crocodile]]
+- [[Guard]]
+- [[Hydra Goose]]
+- [[Lamprey Horror]]
+- [[Mafia Grunt]]
+- [[Panther]]
+- [[Pump-Up Pirate]]
+- [[Puppy]]
+- [[Ravine Scylla]]
+- [[Red Maw Beast]]
+- [[Riding Horse]]
+- [[River Serpent]]
+- [[Saber-Toothed Tiger]]
+- [[SeaBeast - Hermit Crab]]
+- [[Smiling Watcher]]
+- [[Stitched Horror]]
+- [[Swarm of Quippers]]
+- [[Titan Ape]]
+- [[Wendigo]]
 
 
 ---
@@ -167,36 +223,32 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 | Note | owner | status |
 | --- | --- | --- |
-| [[Ame Ame no Mi]] | [[Sora]] | draft |
-| [[Buki Buki no Mi]] | [[Serica Corven]] | draft |
-| [[Dabu Dabu no Mi]] | [[Irik Fen]] | draft |
+| [[Ame Ame no Mi]] | [[Sora]] | canon |
+| [[Buki Buki no Mi]] | [[Serica Corven]] | canon |
+| [[Dabu Dabu no Mi]] | [[Irik Fen]] | canon |
 | [[Devil Fruits]] |  | draft |
-| [[Eki Eki no Mi]] | [[Cline The Plague]] | draft |
-| [[Foji Foji no Mi]] | [[Tray]] | draft |
-| [[Fura Fura no Mi]] | [[Rhythm Echo]] | draft |
-| [[Fusion Fusion Fruit]] |  | draft |
-| [[Hai Hai no Mi]] | [[Malak Samum]] | draft |
-| [[Ink Ink no Mi]] | [[Rhum Guiseppi]] | draft |
-| [[Kamo Kamo no Mi]] | [[Vodka Guiseppi]] | draft |
-| [[Kaze Kaze no Mi]] | [[Mira the Unbreakable]] | draft |
-| [[Kobu Kobu no Mi]] | [[Gin Guiseppi]] | draft |
-| [[Koru Koru no Mi]] | [[Daniel]] | draft |
-| [[Mera Mera no Mi]] | [[Commander Leon]] | draft |
-| [[Meshi Meshi no Mi]] | [[Blackhand Cane]] | draft |
-| [[Peto Peto no Mi]] | [[Ju Lee Caneheart]] | draft |
-| [[Phezu Phezu no Mi]] | [[Linus Marrow]] | draft |
-| [[Shire Shire no Mi]] | [[Rias Decibel]] | draft |
-| [[Soku Soku no Mi]] | [[Veyl Corven]] | draft |
-| [[Sumi Sumi no Mi]] | [[Daniel]] | draft |
-| [[Sumi Sumi no Mi — Rhum Guiseppi]] | [[Rhum Guiseppi]] | draft |
-| [[Suraimu Suraimu no Mi]] | [[Droven Calligos]] | draft |
-| [[Toneru Toneru no Mi]] | [[Dravos]] | draft |
-| [[Tori Tori no Mi — Model Raicho]] | [[Malphas]] | draft |
-| [[Tori Tori no Mi — Model Sparrow]] | [[Jack S. Parrow]] | draft |
-| [[Uchu Uchu no Mi]] | [[Baptiste]] | draft |
-| [[Unknown Devil Fruit — Party 1]] | Party 1 (unclaimed) | draft |
-| [[Yuki Yuki no Mi — Model Yeti]] | [[Roma]] | draft |
-| [[Zaiko Zaiko No Mi]] |  | draft |
+| [[Eki Eki no Mi]] | [[Cline The Plague]] | canon |
+| [[Foji Foji no Mi]] | [[Tray]] | canon |
+| [[Fura Fura no Mi]] | [[Rhythm Echo]] | canon |
+| [[Hai Hai no Mi]] | [[Malak Samum]] | canon |
+| [[Ink Ink no Mi]] | [[Rhum Guiseppi]] | canon |
+| [[Kamo Kamo no Mi]] | [[Vodka Guiseppi]] | canon |
+| [[Kaze Kaze no Mi]] | [[Mira the Unbreakable]] | canon |
+| [[Kobu Kobu no Mi]] | [[Gin Guiseppi]] | canon |
+| [[Koru Koru no Mi]] | [[Daniel]] | canon |
+| [[Mera Mera no Mi]] | [[Commander Leon]] | canon |
+| [[Meshi Meshi no Mi]] | [[Blackhand Cane]] | canon |
+| [[Peto Peto no Mi]] | [[Ju Lee Caneheart]] | canon |
+| [[Phezu Phezu no Mi]] | [[Linus Marrow]] | canon |
+| [[Shire Shire no Mi]] | [[Rias Decibel]] | canon |
+| [[Soku Soku no Mi]] | [[Veyl Corvine]] | canon |
+| [[Suraimu Suraimu no Mi]] | [[Droven Calligos]] | canon |
+| [[Toneru Toneru no Mi]] | [[Dravos]] | canon |
+| [[Tori Tori no Mi — Model Raicho]] | [[Malphas]] | canon |
+| [[Tori Tori no Mi — Model Sparrow]] | [[Jack S. Parrow]] | canon |
+| [[Uchu Uchu no Mi]] | [[Baptiste]] | canon |
+| [[Unknown Devil Fruit — Party 1]] | Party 1 (unclaimed) | canon |
+| [[Yuki Yuki no Mi — Model Yeti]] | [[Roma]] | canon |
 
 
 ---

@@ -1,24 +1,44 @@
 ---
-type:
-  - Rules
+type: devil-fruit
+fruit_type: Paramecia
 publish: true
-status: draft
-sources:
+status: canon
 owner: "[[Daniel]]"
+rarity: unique
+attunement: none
+sources:
 related_source:
   - "[[Chapter 6 Devil Fruits]]"
 ---
 
-# Koru Koru no Mi (Coal-Coal Fruit)
+# Koru Koru no Mi
 
-**Current owner:** [[Daniel]]
+*Paramecia, unique (consumed — replaces attunement)*
 
-## Image
+*Coal-Coal Fruit*
 
-![[Attachments/sumi-sumi-no-mi.png]]
+| | |
+| --- | --- |
+| **Owner** | [[Daniel]] |
+| **Registry** | [[Rules/Devil Fruits]] |
 
-*Discord dex listed as Sumi Sumi; GM canon: **Coal-Coal** (charcoal manipulation) for Daniel — distinct from Rhum's Ink-Ink fruit.*
+![[Attachments/koru-koru-no-mi.png|Devil fruit]]
 
-## Power
+## Description
+
+Campaign-registered **Paramecia** devil fruit. Current eater: [[Daniel]].
+
+## Properties
 
 Charcoal and coal manipulation. **No-Knees Phantom** — [[Daniel]], navigator of the [[Spider Nest Pirates]].
+
+## Drawbacks
+
+- **Ocean's Scorn** — the eater cannot swim; running water and seastone apply as in [[What Are Devil Fruits]].
+- **Haki** — armament haki can bypass many paramecia defenses where noted in session.
+
+## See also
+
+- [[Chapter 6 Devil Fruits]]
+- Owner: [[Daniel]]
+- [[Daniel]]

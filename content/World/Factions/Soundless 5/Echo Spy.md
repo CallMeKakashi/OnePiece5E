@@ -3,8 +3,9 @@ type: actor
 faction: "[[Soundless 5]]"
 status: draft
 publish: true
+foundry_actor_id: "xFeAdsSBQrUvMAq4"
+foundry_live_slug: "echo-spy"
 ---
-
 ## Description
 
 They wear gray morph-suits and have tuning forks for weapons. They talk in whispered tones, always echoing each other.
@@ -75,3 +76,36 @@ actions:
 ```
 
 ![[Echo Spy.png]]
+## Live sheet (Foundry)
+
+*Last synced: 2026-05-31 05:10 UTC*
+
+```statblock
+name: Echo Spy
+size: medium
+type: humanoid
+alignment: 
+ac: 12
+hp: 32
+speed: walk 30 ft.
+stats: [10, 15, 10, 12, 14, 16]
+cr: 1
+skills:
+- Deception: +5
+- Insight: +4
+- Investigation: +5
+- Perception: +6
+- Sleight of Hand: +4
+- Stealth: +4
+traits:
+- name: Multiattack
+  desc: The spy makes two melee attacks.
+- name: Tuning Fork
+  desc: . .
+- name: Cunning Action
+  desc: On each of its turns, the spy can use a bonus action to take the dash, disengage, or hide action.
+- name: Sneak Attack
+  desc: "The spy deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the spy that isn't incapacitated and the spy doesn't have disadvantage on the attack roll."
+- name: Blowgun
+  desc: A primitive, but deadly, weapon favored by tribes and guerrila fighters. The darts fired from this gun can puncture and deliver lethal doses of venom.
+```

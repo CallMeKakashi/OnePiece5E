@@ -1,22 +1,44 @@
 ---
-type:
-  - Rules
+type: devil-fruit
+fruit_type: Paramecia
 publish: true
-status: draft
-sources:
+status: canon
 owner: "[[Dravos]]"
+rarity: unique
+attunement: none
+sources:
 related_source:
   - "[[Chapter 6 Devil Fruits]]"
 ---
 
-# Toneru Toneru no Mi (Teleport-Teleport Fruit)
+# Toneru Toneru no Mi
 
-**Current owner:** [[Dravos]]
+*Paramecia, unique (consumed — replaces attunement)*
 
-## Image
+*Teleport-Teleport Fruit*
 
-![[Attachments/toneru-toneru-no-mi.png]]
+| | |
+| --- | --- |
+| **Owner** | [[Dravos]] |
+| **Registry** | [[Rules/Devil Fruits]] |
 
-## Power
+![[Attachments/toneru-toneru-no-mi.png|Devil fruit]]
+
+## Description
+
+Campaign-registered **Paramecia** devil fruit. Current eater: [[Dravos]].
+
+## Properties
 
 Short-range teleportation. [[Dravos]] — [[Gentle Giant Pirates]] navigator.
+
+## Drawbacks
+
+- **Ocean's Scorn** — the eater cannot swim; running water and seastone apply as in [[What Are Devil Fruits]].
+- **Haki** — armament haki can bypass many paramecia defenses where noted in session.
+
+## See also
+
+- [[Chapter 6 Devil Fruits]]
+- Owner: [[Dravos]]
+- [[Dravos]]

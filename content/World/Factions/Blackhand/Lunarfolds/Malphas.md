@@ -5,6 +5,9 @@ status: draft
 publish: true
 sources:
   - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Party 1/Malphas.md"
+foundry_template_json: "Foundry/actors-json/sample-actor.json"
+foundry_actor_id: "yJDej6MMVAG0KKzl"
+foundry_live_slug: "malphas"
 ---
 ## Visuals
 
@@ -416,3 +419,150 @@ Baptiste nodded once—sharp, certain.
 Malphas took his hand.
 
 And fate shifted.
+## Build template (Foundry)
+
+> **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.
+
+Workshop JSON (import/build): `[[Foundry/actors-json/sample-actor.json]]`.
+## Live sheet (Foundry)
+
+*Last synced: 2026-05-31 05:10 UTC*
+
+```statblock
+name: Malphas
+size: medium
+type: humanoid
+alignment: Chaotic Neutral
+ac: 15
+hp: 80 (None)
+speed: 30 ft.
+stats: [12, 20, 14, 14, 16, 10]
+skills:
+- Acrobatics: +7
+- Athletics: +3
+- Insight: +5
+- Nature: +4
+- Perception: +5
+- Performance: +2
+- Stealth: +7
+- Survival: +5
+traits:
+- name: Brawler
+  desc: The BrawlerLevelProficiency BonusBrawlingSpirit PointsUnarmored MovementFeatures1st+21d6--Brawling, Unarmored Defense2nd+21d62+10 ft.Spirit, Unarmored Movement3rd+21d63+10 ft.Brawling Style, Deflect Missiles4th+21d64+10 ft.Ability Score Improvement, Brace for Impact5th+31d65+10 ft.Extra Attack, Stunning Strike6th+31d86+15 ft.Style Feature7th+31d87+15 ft.Evasion, Shake it Off8th+31d88+15 ft.Ability Score Improvement9th+41d89+15 ft.Unarmored Movement Improvement10th+41d810+2...
+- name: Unarmored Defense
+  desc: Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.
+- name: Brawling
+  desc: "At 1st Level, your experience in street fighting gives you mastery of combat styles that use unarmed strikes and brawler weapons, which are improvised weapons and any simple melee weapons⁠ that lacks the two-handed or heavy property.You gain the following benefits while you are unarmed or wielding only brawler weapons and you aren't wearing armor or wielding a shield:You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and brawl..."
+- name: Unarmed Strike
+  desc: Instead of using a weapon to make a melee attack, you can use a punch, kick, head-butt, or similar forceful blow. In game terms, this is an Unarmed Strike-a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.Whenever you use your Unarmed Strike, choose one of the following options for its effect.Damage. You make an attack roll against the target. Your bonus to the roll equals your Strength modifier plus your Proficienc...
+- name: Unarmored Movement
+  desc: Starting at 2nd Level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain brawler levels, as shown in the Brawler table. Additionally, as a bonus action, you can take the Disengage or Dash action, and your jump distance is doubled for the turn. At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.
+- name: Spirit
+  desc: "Starting at 2nd Level, your training allows you to draw upon an inner energy of willpower and grit. Your access to this energy is represented by a number of spirit points. Your brawler level determines the number of points you have, as shown in the Spirit Points column of the Brawler table.You can spend these points to fuel various spirit features. You start knowing three such features: Flurry of Blows, Patient Defense, and Deft Escape. You learn more spirit features as yo..."
+- name: Patient Defense
+  desc: You can spend 1 spirit point to take the Dodge action as a bonus action on your turn.
+- name: Flurry of Blows
+  desc: Immediately after you take the Attack action on your turn, you can spend 1 spirit point to make two unarmed strikes as a bonus action.
+- name: Deft escape
+  desc: While you are grappled, you can spend 1 spirit point to attempt to escape a grapple or restraints as a bonus action.
+- name: Brawling Style
+  desc: "At 3rd level, you settle on a specific brawling style to define your brawling: Daredevil, Fishman Karate, Ninja, Six Powers Master, Okama Kenpo, Sword Sage, Sumo Wrestler, Open Hand, Way of Mercy, Drunken Master, Chromatic Commandment, Private Eye, and Expressionist, all detailed at the end of the class description.Your fighting style grants you features at 3rd level and then again at 6th, 11th, and 17th level."
+- name: Deflect Missiles
+  desc: Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by any ranged attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your brawler level. If you reduce the damage to 0, you can catch it if you have a free hand. If you catch it in this way, you can spend 1 spirit point to make a ranged attack with the weapon or ammunition you caught, as part of the same reaction. You make th...
+- name: Way of the Drunken Master
+  desc: "DescriptionA master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfectionHit Die: d8Primary Ability: Dexterity & WisdomSaves: Strength & DexterityClass FeaturesLevel 3: Bonus ProficienciesWhen you choose this tradition at 3rd level, you gain proficiency in the skill if you don't already have it. Your martial arts technique mixes combat training with the precision of a dancer and the antics of a jester. You also gain proficiency w..."
+- name: Swinging Stance
+  desc: Also at 3rd level, you have sharpened your drunken stupors into a deadly and drunken combative state. As a bonus action, you can expend a spirit point to enter a Swinging Stance for 1 minute with concentration, as if you were concentrating on a creation. When you enter this state, and each time you start your turn while in this stance, roll a d8. This d8 determines a specific benefit you gain that lasts until the start of your next turn, the benefit is listed on the Swingi...
+- name: Wanderer
+  desc: "You are from a distant place, one so remote that few of the common folk in the blues realize that it exists, and chances are good that even if some people you meet have heard of your homeland, they know merely the name and perhaps a few outrageous stories. You have come to this part of the world for your own reasons, which you might or might not choose to share.Skill Proficiencies: 2 from Intimidation, Perception, Insight, and SurvivalTool Proficiencies: Gaming SetEquipmen..."
+- name: Mobile
+  desc: "You are exceptionally speedy and agile. You gain the following benefits: Your speed increases by 10 feet. When you use the Dash action, difficult terrain doesn't cost you extra movement on that turn. When you make a melee attack against a creature, you don't provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not."
+- name: Navigator
+  desc: "After the captain, the navigator might be the most important role to fill on a ship. While the captain decides where to take the ship, the navigator's task is to figure out how to get there.Being a navigator requires a level head and a quick wit, as understanding sea charts and weather conditions is entirely imperative to set the course of a ship. The most skilled navigators can tell what the weather will be like just from a breeze in the wind or a drop of a few degrees in..."
+- name: Weather Portent
+  desc: As a navigator, you have an almost supernatural ability to read the weather and the sea, sometimes predicting what it will be like with uncanny accuracy.You can always tell what the weather will be like within the next hour and always know which way is north as long as you can see the sky. Additionally, you and your crew cannot get lost as long as you have the stars or the sun to guide you.Additionally, your expertise in charting unknown waters makes you able to tell a rea...
+- name: "Navigator's Supplies"
+  desc: (See Foundry for activity details.)
+- name: "Navigator's Tools"
+  desc: "Ability: Wisdom Utilize: Plot a course (DC 10), or determine position by stargazing (DC 15) If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have Advantage on the check too."
+- name: "Cartographer's Tools"
+  desc: "Ability: Wisdom Utilize: Draft a map of a small area (DC 15) Craft: Map If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have Advantage on the check too."
+- name: Small Medkit
+  desc: This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.
+- name: Rations
+  desc: Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See “Malnutrition” for the risks of not eating.
+- name: "Explorer's Pack"
+  desc: A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.
+- name: Tinderbox
+  desc: This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.
+- name: Torch
+  desc: A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.
+- name: Bedroll
+  desc: Roll of cloth used by traveller to sleep in.
+- name: Rations
+  desc: Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.
+- name: Hempen Rope (50 ft.)
+  desc: Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.
+- name: Waterskin
+  desc: A leather hide sewn into an enclosed skin which can contain up to 4 pints of liquid. It weighs 5 pounds when full; a pint of water is approximately 1 pound.
+- name: Mess Kit
+  desc: This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.
+- name: Dart
+  desc: A small thrown implement crafted with a short wooden shaft and crossed feathres with a sharp wooden or metal tip. Darts can be thrown with sufficient force to puncture the skin.
+- name: Common Clothes
+  desc: Clothes worn by most commoners.
+- name: Ink
+  desc: Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.
+- name: Ink Pen
+  desc: Using Ink, an Ink Pen is used to write or draw.
+- name: Map
+  desc: If you consult an accurate Map, you gain a +5 bonus to Wisdom checks you make to find your way in the place represented on it.
+- name: Pouch Of Berries (50K)
+  desc: A pouch filled with 50,000 berries
+- name: Chess Set
+  desc: This item is a complete set of chess pieces and board. The board can also be used for variations of draughts and checkers. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.
+- name: Lunarians
+  desc: Lunarians are a race of humanoid creatures, set apart by the other races due to their dark brown skin, silvery-white hair, and a set of large, black, feathery wings that grant them flight. Additionally, they have the inherited ability of pyrokinesis, some of which can burn as hot as magma.While most of their history is unknown, it is confirmed that before the Celestial Dragons had made their home, Mary Geoise, on top of the Red Line, the Lunarians lived there. The Lunarian...
+- name: Omni-Adapted
+  desc: Lunarians can withstand any and all extreme weather without any debuffs, as well as any climates and altitudes. In addition, you are resistant to fire damage.
+- name: Flame Investure
+  desc: Lunarians are able to use flames in combat. You know the Fire Bolt trick. Starting at 3rd level, you can use Elemental Armor (fire only) with this trait. Starting at 5th level, you can use the Fireball creation. You cannot use the same creation again until you finish a long rest. If you have the Creativity feature, these creations are added to your creation lists, allowing you to use these creations with any creation slots you have.Your creative ability score for these cre...
+- name: Flaming Duality
+  desc: At 1st level, you can invoke the flames within. As a bonus action, you can gain access to one of two forms that you can switch from one to another as a bonus action for one minute. These forms are Ignited and Godspeed. In your Ignited form, flames erupt from your back and you gain resistance to bludgeoning, piercing, and slashing. In your Godspeed form, your movement speed increases by 10. You can use this feature a number of times equal to your proficiency bonus, regainin...
+- name: Fire Bolt
+  desc: "You hurl a mote of fire at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Fire damage. A flammable object hit by this spell starts burning if it isn't being worn or carried. Cantrip Upgrade. The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10)."
+- name: Charger
+  desc: "You can run down the enemy. You gain the following benefits:Increase Strenght, Dexterity or Constitution score by 1, to a maximum of 20.Your movement speed is increased by 10 feet.If you move at least 10 feet in a straight line towards your target immediately before hitting with an attack as part of the Attack Action on your turn, choose one of the following effects: Your attack gains 1d8 bonus to the damage roll, or your attack canpushthe target up to 10 feet, provided th..."
+- name: Brace for Impact
+  desc: Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your brawler level.
+- name: Alert
+  desc: "Always on the lookout for danger, you gain the following benefits:Increase your Dexterity or Wisdom score by 1, to a maximum of 20.You gain a +5 bonus to initiative.You can't be surprised while you are conscious.Other creatures don't gain advantage on attack rolls against you as a result of being unseen by you."
+- name: Dice
+  desc: "Ability: WisdomUtilize: Discern whether someone is cheating (DC 10), or win the game (DC 20)"
+- name: Playing Cards
+  desc: "Ability: WisdomUtilize: Discern whether someone is cheating (DC 10), or win the game (DC 20)"
+- name: "Devil Fruit: Zoan"
+  desc: All zoan type fruits grant the user the ability to shapeshift into the form of a specific animal, either as a full beast or a hybrid form of the beast and their original body.In beast form, a zoan type inherits all the strengths and weaknesses of the animal side, while in hybrid form they mix the power of their bestial side with the bipedal form of their human side. Most zoans give the user natural weapons, such as the horns of a bull. For the sake of simplicity, any zoan ...
+- name: Hybrid Form
+  desc: As a bonus action, you can expend a devil fruit usage to transform into your Hybrid Form, taking the shape that takes the best attributes of both your original body and the beast that now inhabits you. Your transformation lasts up to 10 minutes. This duration increases to 1 hour at 5th level, 8 hours at 10th level, 24 hours at 15th level, and unlimited at 20th level. This transformation ends early if you are killed, or if you end it as a free action.While in Hybrid Form, y...
+- name: Full Beast Form
+  desc: "As a bonus action, you can expend a devil fruit usage to transform into your Full Beast Form, taking the form of the wild beast that inhabited the fruit you consumed. Your transformation lasts up to 10 minutes. This duration increases to 1 hour at 5th level, 8 hours at 10th level, 24 hours at 15th level, and unlimited at 20th level.While in Full Beast Form, the following rules apply:Your game statistics are replaced by the statistics of the Full Beast Stat Block you gain f..."
+- name: Drunken Arts
+  desc: When you choose this tradition at 3rd level, your drunken state allows you to always be ready to avoid the full brunt, either by dulling your pain, or to move with chaotic ebb and flow. At the start of each of your turns, and if you have at least 1 hit point, you gain a number of temporary hit points equal to your Wisdom Modifier. This amount of temporary hit points doubles when you reach 6th level.
+- name: Extra Attack
+  desc: Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+- name: Stunning Strike
+  desc: Starting at 5th level, when you hit another creature with a melee weapon attack, you can spend 1 spirit point to attempt a stunning strike. The target must succeed on a Constitution saving throw against your Spirit DC or be stunned until the end of your next turn.
+- name: "Ashardalon's Stride"
+  desc: "The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your speed increases by 20 feet and moving doesn't provoke opportunity attacks. When you move within 5 feet of a creature or an object that isn't being worn or carried, it takes 1d6 fire damage from your trail of heat. A creature or object can take this damage only once during a turn. At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, in..."
+- name: Puzzle Box (19%)
+  desc: (See Foundry for activity details.)
+- name: Unarmored Movement
+  desc: Starting at 2nd Level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain brawler levels, as shown in the Brawler table. Additionally, as a bonus action, you can take the Disengage or Dash action, and your jump distance is doubled for the turn. At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.
+- name: Tipsy Balance
+  desc: "Starting at 6th level, you can move in sudden, swaying ways. You gain the following benefits.As an attack action, you can make a single melee attack against any number of creatures within melee range of you, with a separate attack roll for each target.When you're prone, you can stand up by spending 5 feet of movement, rather than half your speed.When a creature misses you with a melee attack roll, you can use your reaction to cause that attack to hit one creature of your c..."
+- name: Shake it Off
+  desc: At 7th level, you can use your action to regain hit points equal to three times your brawler level. You must finish a long rest before you can use this feature again.
+- name: Elemental Adept (Lightning)
+  desc: "Prerequisite: The ability to cast at least one spell When you gain this feat, you gain the following benefits: Spells you cast ignore resistance to lightning damage. In addition, when you roll damage for a spell you cast that deals lightning damage, you can treat any 1 on a damage die as a 2. You can select this feat multiple times. Each time you do so, you must choose a different damage type."
+```

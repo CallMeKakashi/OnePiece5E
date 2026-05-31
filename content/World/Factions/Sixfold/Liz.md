@@ -4,6 +4,8 @@ faction: "[[Sixfold]]"
 status: draft
 publish: true
 sources:
+foundry_template_json: "Foundry/actors-json/linn.json"
+foundry_live_slug: "linn"
 ---
 ## Visuals
 
@@ -32,3 +34,8 @@ Origin tied to [[Backstory] Elizabeth Marrow — mortuary escape]]. Founding mem
 - [[Sixfold]]
 - [[Motley Crew]]
 - [[Backstory] Elizabeth Marrow — mortuary escape]]
+## Build template (Foundry)
+
+> **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.
+
+Workshop JSON (import/build): `[[Foundry/actors-json/linn.json]]`.

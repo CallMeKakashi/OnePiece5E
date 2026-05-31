@@ -1,11 +1,50 @@
 ---
 publish: true
+type: journal
+crew: "[[Gentle Giant Pirates]]"
+in_world_day: Day 3
+location: "[[Driftroot Isle]] — bandit outpost, Driftwood outskirts"
 created: 2025-12-21
+status: canon
 tags:
-  - note
   - journal
+sources:
+related_sessions:
 ---
 
-Driftwood Outskirts, Day After Grey Mire Raid
+# Day 3 — After the Grey Mire raid
 
-We barely made it out of yesterday in one piece, and now the world’s already throwing more at us. As we were waking up, we heard something coming from far away, like the roar of a beast made of metal. It wasn't long before a fancy black...car? I think the other guys called it that... It was glossy like oil, and it pulled up just outside our perimeter. And out stepped the kind of man you just know is going to be a problem before he says a single word. He tossed out the bandit we let go yesterday. Bloodied, bruised, barely breathing. He looked like the bad end of someone's ill mannered message. Guess that man didn’t like that we let him walk away. He wore a black rose on his chest. The same flower flew from a tiny flag on top of the car. His name was Nix. The Nix. The same bastard we’d been hearing about. Said the dog with him was named Morrow—a big, cruel-looking thing with cold eyes. The kind of animal that doesn’t bark unless it plans to kill. Nix talked like his mouth had never tasted dirt. Pompous, smug, just like those rotten Skyfolk we met back near the White Sea. The kind that think the world belongs to them just because they were born above it. He wanted money for the bandits we killed yesterday. Had the nerve to ask for payment like we owed him for defending ourselves. Then he dragged Flint out and tried to kill him when he didn’t answer fast enough. Captain didn’t let that happen. The second Nix raised his cane for the killing blow, Fenris struck. Steel clashed. The fight started hard and fast. Two of his men died early. I threw a flash dial to blind all of them, Nix and Morrow included, hoping to buy us time. It worked, mostly. Though when I tried to throw Cain’s Arm, I missed. Maybe I should try using a crossbow or pistol next time... Can't expect to get lucky like that fight from yesterday. Captain got really hurt. Took hit after hit but stayed standing. Barely. Shako dropped. Twice. I swear it felt like we were seconds from all of us going down. No fancy speeches, no last-minute rescue. Just silence. But we pulled through. Another bandit fell. The last one must’ve realized who the real monster in the fight was, because he soon turned on Nix. Honestly? I wasn't surprised. He was brutal to us, his men, and even his dog. No loyalty in him—just control and pain. Makes me wonder how many people he’s hurt, and for how long. Nix tried to run. Classic noble, no spine what-so-ever. But fate had a better idea: he crashed the car straight into the cliffside. Me and the rogue bandit—Rob—pulled him out. Tied him up. Dragged him back to camp. That’s when Flint—the one we let go yesterday—finally spoke up. Turns out he’s not as broken as he looked. Said some things that made me think… maybe we were too quick to write him off. Maybe we shouldn’t have killed his friend yesterday. It’s hard, out here. Knowing who’s actually bad, and who’s just surviving in a world that doesn’t offer much else. We locked Nix and Morrow in the old gorilla cages. Seemed fitting. They were monsters in their own right. I hope Morrow’s less bitey when he wakes up, though I won’t hold my breath. We decided to let Flint and Rob stay. They helped move the car closer to camp, and neither of them made a move to stab us while our backs were turned. That's something. We searched the bodies and the car. Found about 6,000 berries, a few documents and books that might be useful, and one very fancy cane—Nix’s. The thing’s got symbols carved into it and doubles as a sword. I’m keeping it. It might come in handy later, and even if it doesn’t, it reminds me that even nobles bleed when you push hard enough. Took the black rose flag too. If any other nobles come snooping around, they might think twice seeing it in our possession. Right now, the camp’s quiet. Everyone’s recovering. I’m writing this from the same tree as last night, legs sore, eyes heavier than I’d like. Just listened back to the tone dial recording from the night before. Nothing happened, thankfully. But you can still hear the wind moving through the trees like it was holding its breath. Like the world knew something was coming.
+## Setting
+
+- **When:** Morning after Day 2; night watch with tone dial playback
+- **Where:** Camp outside Driftwood / bandit outpost perimeter
+- **Author:** Unnamed crew member (first person)
+
+## Entry
+
+We barely made it out of yesterday in one piece, and now the world's already throwing more at us.
+
+As we were waking up, we heard something from far away—like the roar of a beast made of metal. It wasn't long before a fancy black… car? I think the others called it that. Glossy like oil. It pulled up just outside our perimeter. Out stepped the kind of man you know will be trouble before he says a word.
+
+He tossed out the bandit we let go yesterday—bloodied, bruised, barely breathing. The bad end of someone's ill-mannered message. Guess that man didn't like that we let him walk. He wore a black rose on his chest; the same flower flew from a tiny flag on the car. His name was **Nix**. The Nix we'd been hearing about. The dog with him was **Morrow**—big, cruel-looking, cold eyes. The kind that doesn't bark unless it plans to kill.
+
+Nix talked like his mouth had never tasted dirt. Pompous, smug—like those rotten Skyfolk near the White Sea. He wanted money for the bandits we killed yesterday, as if we owed him for defending ourselves. Then he dragged Flint out and tried to kill him when he didn't answer fast enough. Captain didn't allow it. The second Nix raised his cane for the killing blow, Fenris struck. Steel clashed. The fight started hard and fast.
+
+Two of his men died early. I threw a flash dial to blind them—Nix and Morrow included—to buy time. It worked, mostly. When I tried to throw Cain's Arm, I missed. Maybe I should use a crossbow or pistol next time… can't expect luck like yesterday's fight every time.
+
+Captain got hurt—hit after hit but stayed standing, barely. Shako dropped. Twice. Felt like seconds from all of us going down. No speeches, no rescue. Just silence. Then we pulled through. Another bandit fell. The last one turned on Nix—I wasn't surprised. Brutal to us, his men, even his dog. No loyalty, only control and pain.
+
+Nix tried to run. Crashed the car straight into the cliffside. Rob and I pulled him out, tied him up, dragged him back to camp. Flint—the one we'd let go—finally spoke. Maybe we'd been too quick to write him off. Maybe we shouldn't have killed his friend yesterday. Out here it's hard knowing who's evil and who's just surviving.
+
+We locked Nix and Morrow in the old gorilla cages. Fitting. We let Flint and Rob stay; they helped move the car and didn't stab us in the back. That's something.
+
+We searched the bodies and the car: about 6,000 berries, documents and books, and Nix's fancy cane—symbols carved in, doubles as a sword. I'm keeping it. Took the black rose flag too. If nobles come snooping, they might think twice seeing it in our hands.
+
+Camp's quiet now. Everyone's recovering. I'm writing from the same tree as last night—legs sore, eyes heavier than I'd like. I played back the tone dial from last night. Nothing moved. Wind through the trees like the world was holding its breath. Like it knew something was coming.
+
+## Loose threads
+
+- Nix and Morrow caged; Flint and Rob staying with the crew
+- Nix's cane (kept) and black rose flag
+- Captain's injuries from the fight
+- Still hunting [[Dravos]]; child still needs medicine

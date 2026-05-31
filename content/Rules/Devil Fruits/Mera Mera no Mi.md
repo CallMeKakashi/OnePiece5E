@@ -1,22 +1,45 @@
 ---
-type:
-  - Rules
+type: devil-fruit
+fruit_type: Logia
 publish: true
-status: draft
-sources:
+status: canon
 owner: "[[Commander Leon]]"
+rarity: unique
+attunement: none
+sources:
 related_source:
   - "[[Chapter 6 Devil Fruits]]"
 ---
 
-# Mera Mera no Mi (Flame-Flame Fruit)
+# Mera Mera no Mi
 
-**Current owner:** [[Commander Leon]]
+*Logia, unique (consumed — replaces attunement)*
 
-## Image
+*Flame-Flame Fruit*
 
-![[Attachments/mera-mera-no-mi.png]]
+| | |
+| --- | --- |
+| **Owner** | [[Commander Leon]] |
+| **Registry** | [[Rules/Devil Fruits]] |
 
-## Power
+![[Attachments/mera-mera-no-mi.png|Devil fruit]]
+
+## Description
+
+Campaign-registered **Logia** devil fruit. Current eater: [[Commander Leon]].
+
+## Properties
 
 Logia flame generation and transformation.
+
+## Drawbacks
+
+- **Ocean's Scorn** — the eater cannot swim; running water and seastone apply as in [[What Are Devil Fruits]].
+- **Haki** — armament haki can bypass many paramecia defenses where noted in session.
+- **Elemental body** — logia intangibility unless struck with haki or countered by the element.
+
+## See also
+
+- [[Chapter 6 Devil Fruits]]
+- Owner: [[Commander Leon]]
+- [[Commander Leon]]

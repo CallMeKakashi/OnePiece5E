@@ -1,22 +1,44 @@
 ---
-type:
-  - Rules
+type: devil-fruit
+fruit_type: Zoan
 publish: true
-status: draft
-sources:
+status: canon
 owner: "[[Malphas]]"
+rarity: unique
+attunement: none
+sources:
 related_source:
   - "[[Chapter 6 Devil Fruits]]"
 ---
 
-# Tori Tori no Mi — Model: Raichō (Thunder Bird)
+# Tori Tori no Mi — Model: Raichō
 
-**Current owner:** [[Malphas]]
+*Zoan, unique (consumed — replaces attunement)*
 
-## Image
+*Thunder Bird*
 
-![[Attachments/toritorinomi-raicho.png]]
+| | |
+| --- | --- |
+| **Owner** | [[Malphas]] |
+| **Registry** | [[Rules/Devil Fruits]] |
 
-## Power
+![[Attachments/toritorinomi-raicho.png|Devil fruit]]
+
+## Description
+
+Campaign-registered **Zoan** devil fruit. Current eater: [[Malphas]].
+
+## Properties
 
 Zoan bird transformation — thunderbird (raichō) model.
+
+## Drawbacks
+
+- **Ocean's Scorn** — the eater cannot swim; running water and seastone apply as in [[What Are Devil Fruits]].
+- **Haki** — armament haki can bypass many paramecia defenses where noted in session.
+
+## See also
+
+- [[Chapter 6 Devil Fruits]]
+- Owner: [[Malphas]]
+- [[Malphas]]

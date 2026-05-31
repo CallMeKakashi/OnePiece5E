@@ -97,4 +97,4 @@ Further research into Vivre Card technology and its potential advancements may l
 ---
 
 ### Blueprints
-![[DALL·E 2025-03-21 12.25.20 - Detailed blueprint of a nautical compass named 'Vivre Compass,' designed in the style of a One Piece invention. The compass has no traditional cardina.webp]]
+![[Attachments/vivre-compass-blueprint.webp]]

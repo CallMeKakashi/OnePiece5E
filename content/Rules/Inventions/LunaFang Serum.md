@@ -10,7 +10,7 @@ sources:
 
 ### Development Process
 
-The development of the **Lunafang Serum** originated from clandestine biochemical research conducted by the Germa 66. Aiming to create enhanced combatants, the project relied heavily on unethical human experimentation. Among the subjects, one stood out—**Subject-0**, referred to as **Rei** in internal documentation. Rei, a Mink, exhibited remarkable resilience and adaptability, which intrigued the scientists and led to the further refinement of the serum.
+The development of the **Lunafang Serum** originated from clandestine biochemical research conducted by the Germa 66. On **Driftroot**, **Nyx Velencruz** and **[[Dr Nikolai Tesla]]** continued refinement in the **Old City** (overseen by a hired **[[Berserker]]** until a crazed **[[Saber-Toothed Tiger]]** test subject killed him). Aiming to create enhanced combatants, the project relied heavily on unethical human experimentation. Among the subjects, one stood out—**Subject-0**, referred to as **Rei** in internal documentation. Rei, a Mink, exhibited remarkable resilience and adaptability, which intrigued the scientists and led to the further refinement of the serum.
 
 The serum’s foundational premise involved harnessing dormant genetic traits and inducing temporary states of heightened physical power. The research team, under the command of key Germa scientists, employed chemical catalysts to manipulate the Mink's natural Sulong transformation.
 
@@ -70,4 +70,4 @@ The Lunafang Serum stands as a grim reminder of Germa 66’s willingness to purs
 Red Fangs stole the majority of working samples from a research facility. Additionally, Subject-0 has gone missing after a breakout caused by a strange awakening. He now goes by the name **Pasha** and is currently free unto the world.
 
 ### Blueprints
-![[DALL·E 2025-03-21 13.17.52 - A detailed blueprint of a fictional biochemical serum named 'Lunafang Serum,' displayed on aged parchment. The blueprint includes syringe sketches, ch.webp]]
+![[Attachments/lunafang-serum-blueprint.webp|Lunafang Serum blueprint]]
