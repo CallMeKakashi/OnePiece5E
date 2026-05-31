@@ -39,7 +39,7 @@ Multi-headed goose horror (session outline: "White Maw Hydra-Goose"). CR 5 contr
 - [[FarmBull]] · [[FarmPig]] — same West Town fight
 - [[Ashscale Basilisk]] · [[Carrion Vulture]] · [[Cave Render]] — other Juniper threats
 - [[Sessions/Session 25 - Juniper Islands]]
-- [[Monster Manual/index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 
 ## Live sheet (Foundry)
 

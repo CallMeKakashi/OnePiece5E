@@ -19,4 +19,4 @@ Campaign monster manual entry. Live stats: `python scripts/sync_foundry_live_mar
 
 ## Related
 
-- [[Monster Manual/index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]

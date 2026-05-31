@@ -38,7 +38,7 @@ Use as regional wilderness threats in Juniper ravine / beach encounters (CR 8).
 - [[Matthew -The Jack- Burgess]] · [[B.O.B]] · [[Daniel (Spider's Nest)]] — current / recent fight
 - [[Ravine Scylla]] — natural predator
 - [[Sessions/Session 25 - Juniper Islands]]
-- [[Monster Manual/index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:42 UTC*

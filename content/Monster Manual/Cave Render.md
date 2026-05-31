@@ -34,7 +34,7 @@ Found in an **abandoned mine** near **York Town** (Juniper Islands).
 - [[Smiling Watcher]] — evolved aberration line (CR 3; strategizes; same mine, slain by Jack + Thompson)
 - [[Thompson Caneheart]] · [[Matthew -The Jack- Burgess]]
 - [[Sessions/Session 25 - Juniper Islands]] · [[Sessions/Session 28]]
-- [[Monster Manual/index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:51 UTC*

@@ -31,3 +31,4 @@ Broadcast/recording units. Session numbers may not match episode numbers — ali
 - [[Episode 6 - Hallow's End]]
 - [[Episode 8 - The Lunarfold Tournament Part 1]]
 - [[Episode 9 - The Lunarfold Tournament Part 2]]
+- [[Transcripts]]

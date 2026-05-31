@@ -27,7 +27,7 @@ foundry_live_slug: "mafia-grunt"
 
 - [[Guiseppi Family]]
 - [[Rum Guiseppi]] — current boss
-- [[Monster Manual/index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:14 UTC*

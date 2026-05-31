@@ -33,7 +33,7 @@ Part of the Juniper **West Town** horror beat: survivors barricaded in the barn 
 - [[Simon The One Armed Tyrant]] · [[Zara Tideborn]] — cover-up killings
 - [[Matthew -The Jack- Burgess]] · [[Tray]] · [[Midori]]
 - [[Sessions/Session 25 - Juniper Islands]] · [[Sessions/Session 27]]
-- [[Monster Manual/index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:25 UTC*

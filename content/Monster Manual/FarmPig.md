@@ -34,7 +34,7 @@ Part of Nikolai's **Lunafang** pipeline on **Juniper**; Simon and Zara's cover-u
 - [[Simon The One Armed Tyrant]] · [[Zara Tideborn]]
 - [[Matthew -The Jack- Burgess]] · [[Tray]] · [[Midori]]
 - [[Sessions/Session 27]]
-- [[Monster Manual/index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:58 UTC*

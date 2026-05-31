@@ -34,7 +34,7 @@ When **human prey** is scarce, they hunt **[[Lamprey Horror|Lamprey Horrors]]** 
 - [[Lamprey Horror]] — alternate prey
 - [[Ashscale Basilisk]] · [[Ravine Scylla]] — same ravine, other sections
 - [[Baptiste]] · [[Tray]] · [[Cade Tigor Cooper]]
-- [[Monster Manual/index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 
 ## Live sheet (Foundry)
 

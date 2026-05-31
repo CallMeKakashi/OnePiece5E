@@ -26,7 +26,7 @@ foundry_live_slug: "panther"
 ## Related
 
 - [[Saber-Toothed Tiger]] — experimental big-cat counterpart in campaign lore
-- [[Monster Manual/index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:18 UTC*

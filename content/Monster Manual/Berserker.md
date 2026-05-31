@@ -33,7 +33,7 @@ Use the Berserker stat block (CR 2) for similar muscle; this note tracks the Vel
 - [[Dr Nikolai Tesla]] · [[LunaFang Serum]]
 - [[Saber-Toothed Tiger]] — killer (crazed test subject)
 - [[Driftroot Isle]]
-- [[Monster Manual/index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:42 UTC*

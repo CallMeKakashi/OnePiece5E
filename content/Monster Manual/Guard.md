@@ -25,7 +25,7 @@ foundry_live_slug: "guard"
 
 ## Related
 
-- [[Monster Manual/index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:09 UTC*

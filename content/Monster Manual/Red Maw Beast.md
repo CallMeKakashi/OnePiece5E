@@ -31,7 +31,7 @@ foundry_live_slug: "red-maw-beast"
 - [[Cave Render]] — parallel Nikolai distraction (York Town mine)
 - [[B.O.B]] · [[Roma]] · [[Tray]]
 - [[Dr Nikolai Tesla]] · [[Mugen Industries]]
-- [[Monster Manual/index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:30 UTC*

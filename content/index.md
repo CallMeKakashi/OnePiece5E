@@ -176,7 +176,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 ## Monster Manual
 
-**Campaign creatures and NPC stat blocks** — live Foundry sheets via [[Monster Manual/index|Monster Manual index]].
+**Campaign creatures and NPC stat blocks** — live Foundry sheets via [[Monster Manual|Monster Manual index]].
 
 - [[Aberrant Abomination]]
 - [[Ashscale Basilisk]]
@@ -196,6 +196,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Hydra Goose]]
 - [[Lamprey Horror]]
 - [[Mafia Grunt]]
+- [[Monster Manual]]
 - [[Panther]]
 - [[Pump-Up Pirate]]
 - [[Puppy]]
@@ -218,7 +219,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 - [[Inspiration|Inspiration]]
 - [[Rules/Devil Fruits|Devil Fruits]] — campaign registry (image, power, owner)
-- [[Rules/Inventions|Inventions]] (see [[Sourcebook/Sourcebook|Sourcebook]] Ch. 4–6)
+- [[Rules/Inventions|Inventions]] (see [[Sourcebook/index|Sourcebook]] Ch. 4–6)
 
 | Note | owner | status |
 | --- | --- | --- |
@@ -263,13 +264,13 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 ## Timeline
 
-**In-world chronology** (events, newspapers, and backstory). Full index: [[Timeline/index|Timeline]].
+**In-world chronology** (events, newspapers, and backstory). Full index: [[Timeline|Timeline]].
 
 ---
 
 ## Newspapers
 
-**In-fiction headlines and editions.** Full chronology: [[Timeline/index|Timeline]].
+**In-fiction headlines and editions.** Full chronology: [[Timeline|Timeline]].
 
 | Note | in_world_label | publication | status |
 | --- | --- | --- | --- |
@@ -357,10 +358,10 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 ## Transcripts
 
-**Episode transcripts** (broadcast/recording unit). Index: [[Transcripts/index|Transcripts]].
+**Episode transcripts** (broadcast/recording unit). Index: [[Transcripts|Transcripts]].
 
 ---
 
 ## Journals
 
-**In-character or between-session journal entries.** Index: [[Journals/index|Journals]].
+**In-character or between-session journal entries.** Index: [[Journals|Journals]].

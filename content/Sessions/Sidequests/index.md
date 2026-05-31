@@ -7,6 +7,7 @@ status: draft
 
 Modular adventure prep (not numbered table sessions).
 
+- [[index]]
 - [[Blood and Lumafang]]
 - [[Malphas and Baptiste]]
 - [[Rival Crew - Circus]]

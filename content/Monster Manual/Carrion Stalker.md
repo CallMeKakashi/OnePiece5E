@@ -32,7 +32,7 @@ Same **aberrant regeneration** line as the Abomination. Use as pack threats (CR 
 - [[Stitched Horror]] — human–pig rush bruiser in the same fight
 - [[B.O.B]] · [[Roma]] · [[Tray]]
 - [[Dr Nikolai Tesla]] · [[Mugen Industries]]
-- [[Monster Manual/index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:42 UTC*

@@ -32,7 +32,7 @@ Ecology tier above **[[Ravine Scylla|Ravine Scyllas]]** and **[[River Serpent|Ri
 - [[Ravine Scylla]] · [[Ashscale Basilisk]] · [[Lamprey Horror]] · [[Crystalback Scorpion]] · [[Carrion Vulture]] — Brook Town ravine ecology
 - [[Matthew -The Jack- Burgess]] · [[B.O.B]] · [[Daniel (Spider's Nest)]]
 - [[Sessions/Session 25 - Juniper Islands]] · [[Sessions/Session 28]]
-- [[Monster Manual/index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:43 UTC*
