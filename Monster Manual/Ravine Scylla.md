@@ -11,11 +11,13 @@ foundry_live_slug: "ravine-scylla"
 
 ![[Attachments/monsters/ravine-scylla.png|Portrait]]
 
+**Look:** **Ravine apex predator** — low quadruped with slate-blue hide, **silver segmented armor plates** along the back and limbs, star-shaped pink sensory nose, white cheek tufts, and long digging claws. Armored prowler built to hunt burrowing basilisks.
+
 *Exported once from Foundry actor `7438pFqu3nTifZQ8` (`Windows-sync/Mafia Arc/token_1 (6).png`). Stats sync separately; image is vault-local.*
 
 ## Role
 
-**Natural** apex predator of the giant ravine beneath **Brook Town** (**Juniper Islands**). Hunts **[[Ashscale Basilisk|Ashscale Basilisks]]**, which burrow to escape it. The **lightless cave wing** (vultures, lampreys, old bridges) is a separate subsection of the same ravine system.
+**Natural** apex predator of the giant ravine beneath **Brook Town** (**Juniper Islands**). Hunts **[[Ashscale Basilisk|Ashscale Basilisks]]**, which burrow to escape it. **Territorial overlap** with the rare **[[River Serpent|River Serpents]]** — scyllas have been **winning** that struggle; fewer serpents remain, mostly **hibernating** in deeper burrows. The **lightless cave wing** (vultures, lampreys, old bridges) is a separate subsection of the same ravine system.
 
 ## Appearances
 
@@ -25,9 +27,11 @@ foundry_live_slug: "ravine-scylla"
 ## Related
 
 - [[Ashscale Basilisk]] — primary prey
+- [[River Serpent]] — rival apex serpent (declining; hibernating)
+- [[Titan Ape]] — crazed bear-monster in the largest chamber (hibernating; party not met yet)
 - [[Matthew -The Jack- Burgess]] · [[B.O.B]] · [[Daniel (Spider's Nest)]]
 - [[Sessions/Session 25 - Juniper Islands]] · [[Sessions/Session 28]]
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:42 UTC*

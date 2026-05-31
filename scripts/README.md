@@ -19,7 +19,7 @@ Set `DISCORD_BOT_TOKEN` in `../.env`.
 
 | Channel | Channel ID | Export slug | Purpose |
 |---------|------------|-------------|---------|
-| `#world-lore` | `1382564722293080124` | `world-lore` | In-world headlines → [[Timeline/_index|Timeline]] newspapers |
+| `#world-lore` | `1382564722293080124` | `world-lore` | In-world headlines → [[Timeline|Timeline]] newspapers |
 | `#downtime-actions` | `1382564699228606474` | `downtime-actions` | Between-session character actions |
 | `🎨│character-art` | `1453435491117432916` | `character-art` | PC art, tokens, portrait references |
 | `🍈│devil-fruit-dex` | `1382564751527251968` | `devil-fruit-dex` | Campaign devil fruit registry |

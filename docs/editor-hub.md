@@ -1,6 +1,6 @@
 # Editor hub (vault maintenance)
 
-Campaign-facing navigation lives on [[_index]]. This page is for Obsidian setup, templates, Discord exports, and agent tooling — **not** published to GitHub Pages.
+Campaign-facing navigation lives on [[Home]]. This page is for Obsidian setup, templates, Discord exports, and agent tooling — **not** published to GitHub Pages.
 
 ## Templates
 

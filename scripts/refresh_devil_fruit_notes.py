@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh Rules/Devil Fruits/ notes: download images, apply D&D-style template."""
+"""Refresh Devil Fruits/ notes: download images, apply D&D-style template."""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ import urllib.request
 from pathlib import Path
 
 VAULT = Path(__file__).resolve().parents[1]
-FRUITS_DIR = VAULT / "Rules" / "Devil Fruits"
+FRUITS_DIR = VAULT / "Devil Fruits"
 ATTACHMENTS = VAULT / "Attachments"
 EXPORT = VAULT / "Discord" / "exports" / "devil-fruit-dex.md"
 
@@ -201,7 +201,7 @@ related_source:
 | | |
 | --- | --- |
 | **Owner** | {owner} |
-| **Registry** | [[Rules/Devil Fruits]] |
+| **Registry** | [[Devil Fruits]] |
 {img_block}
 ## Description
 

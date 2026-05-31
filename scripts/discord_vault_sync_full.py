@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Thorough Discord export sync: actors, Attachments/, Rules/Devil Fruits/."""
+"""Thorough Discord export sync: actors, Attachments/, Devil Fruits/."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ from pathlib import Path
 VAULT = Path(__file__).resolve().parent.parent
 ATTACHMENTS = VAULT / "Attachments"
 EXPORTS = VAULT / "Discord" / "exports"
-FRUITS_DIR = VAULT / "Rules" / "Devil Fruits"
+FRUITS_DIR = VAULT / "Devil Fruits"
 
 ACTOR_PATHS: dict[str, str] = {
     "baptiste": "World/Factions/Blackhand/Lunarfolds/Baptiste.md",
@@ -515,16 +515,14 @@ def upsert_fruit_note(fruit: dict) -> tuple[Path, bool]:
 
 
 def rebuild_devil_fruits_hub() -> None:
-    hub = VAULT / "Rules" / "Devil Fruits.md"
+    hub = VAULT / "Devil Fruits" / "Devil Fruits.md"
     lines = [
         "---",
-        "type:",
-        "  - Rules",
         "publish: true",
         "status: draft",
         "---",
         "",
-        "# Devil Fruits (campaign)",
+        "# Devil Fruits",
         "",
         "Campaign devil fruit registry — image, power, and current owner. Discord quarry: [[Discord/exports/devil-fruit-dex]]. Supplement rules: `source/Chapter 6 Devil Fruits/`.",
         "",

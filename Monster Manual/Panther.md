@@ -11,6 +11,8 @@ foundry_live_slug: "panther"
 
 ![[Attachments/monsters/panther.webp|Token]]
 
+**Look:** Stock **black panther** — sleek muscular big cat, low stalking pose, Forgotten Adventures token art; generic grassland/jungle ambush predator (not Lunafang-mutated).
+
 *Exported once from Foundry actor `iPHfCPpyeUGmR1VG` (`systems/dnd5e/tokens/beast/Panther.webp` — stock dnd5e bestiary token). Stats sync separately.*
 
 ## Role
@@ -24,7 +26,7 @@ foundry_live_slug: "panther"
 ## Related
 
 - [[Saber-Toothed Tiger]] — experimental big-cat counterpart in campaign lore
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:18 UTC*

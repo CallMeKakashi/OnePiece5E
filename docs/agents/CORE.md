@@ -8,7 +8,7 @@ On a cold start, read in this order:
 
 1. [`CONTEXT.md`](../../CONTEXT.md) — domain glossary
 2. This file — operational rules
-3. [`_index.md`](../../_index.md) — campaign navigation hub (Dataview)
+3. [`Home.md`](../../Home.md) — campaign navigation hub (Dataview)
 
 ## Vault path
 
@@ -28,6 +28,7 @@ Do **not** create, edit, delete, rename, or move any file unless the user explic
 - `World/` (includes `World/Factions/` — all actor and faction pages)
 - `Journals/`
 - `Rules/` (homebrew only)
+- `Devil Fruits/` (campaign devil fruit registry)
 - `Monster Manual/` (campaign creatures & NPC stat blocks)
 - `Sourcebook/` (One Piece D&D reference)
 
@@ -92,4 +93,4 @@ Use Obsidian `[[wikilinks]]` when suggesting note titles. Prefer **Title Case** 
 
 - Linking Sessions ↔ Transcripts ↔ Outlines
 - Homebrew glossary terms in `CONTEXT.md`
-- Changing `_index.md` beyond approved maintenance links, or Obsidian config not documented in [[../obsidian-setup|obsidian-setup]]
+- Changing `Home.md` beyond approved maintenance links, or Obsidian config not documented in [[../obsidian-setup|obsidian-setup]]

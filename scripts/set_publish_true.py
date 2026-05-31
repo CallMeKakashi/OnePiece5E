@@ -18,7 +18,7 @@ SYNC_DIRS = (
     "Transcripts",
     "World",
 )
-SYNC_FILES = ("_index.md",)
+SYNC_FILES = ("Home.md",)
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
 PUBLISH_LINE_RE = re.compile(r"^publish:\s*(true|false)\s*$", re.MULTILINE)
 

@@ -11,6 +11,8 @@ foundry_live_slug: "mafia-grunt"
 
 ![[Attachments/monsters/mafia-grunt.png|Token]]
 
+**Look:** **Guiseppi street muscle** — tan, bearded man in rolled white shirt, brown trousers, shoulder holster; fists ready, hard stare. Rough dock-or-tavern enforcer look (interchangeable family soldier).
+
 *Exported once from Foundry actor `qMhQXYWwtS6QlUq2` (`Windows-sync/Mafia Arc/token_1 (2).png`). Generic Guiseppi street muscle portrait — reuse for any unnamed family soldier.*
 
 ## Role
@@ -25,7 +27,7 @@ foundry_live_slug: "mafia-grunt"
 
 - [[Guiseppi Family]]
 - [[Rum Guiseppi]] — current boss
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:14 UTC*

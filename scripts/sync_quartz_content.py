@@ -25,7 +25,13 @@ SYNC_DIRS = (
     "Transcripts",
     "World",
 )
-SYNC_FILES = ("_index.md", "World-Map.png")
+SYNC_FILES = ("Home.md", "World-Map.png")
+
+# Obsidian uses _index.md for folder MOCs; Quartz expects index.md (see quartz/util/fileTrie.ts).
+INDEX_BASENAME = "_index.md"
+FOLDER_MOC_BASENAME = "index.md"  # output name on Quartz
+QUARTZ_INDEX_BASENAME = "index.md"
+HOME_BASENAME = "Home.md"
 
 PUBLISH_RE = re.compile(r"^publish:\s*true\s*$", re.MULTILINE)
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
@@ -295,6 +301,47 @@ def drop_public_sections(text: str) -> str:
     return "\n".join(out)
 
 
+def quartz_publish_relpath(relative: Path, sync_folder: str | None = None) -> Path:
+    """Map vault folder MOCs to Quartz `index.md` folder pages."""
+    if relative.name in (INDEX_BASENAME, HOME_BASENAME):
+        return relative.with_name(QUARTZ_INDEX_BASENAME)
+    if (
+        sync_folder
+        and relative.name == f"{sync_folder}.md"
+        and relative.suffix.lower() == ".md"
+    ):
+        return Path(QUARTZ_INDEX_BASENAME)
+    parent = relative.parent
+    if parent.parts and relative.stem == parent.name and relative.suffix.lower() == ".md":
+        return parent / QUARTZ_INDEX_BASENAME
+    return relative
+
+
+def rewrite_obsidian_index_links(text: str) -> str:
+    """Rewrite Obsidian MOC wikilinks to Quartz `index` slugs."""
+    text = re.sub(
+        r"\[\[([^|\]#]+)/_index(\|[^\]]+)?\]\]",
+        lambda m: f"[[{m.group(1)}/index{m.group(2) or ''}]]",
+        text,
+    )
+    text = re.sub(
+        r"\[\[([^|\]#]+)/\1(\|[^\]]+)?\]\]",
+        lambda m: f"[[{m.group(1)}/index{m.group(2) or ''}]]",
+        text,
+    )
+    text = re.sub(
+        r"\[\[_index(\|[^\]]+)?\]\]",
+        lambda m: f"[[index{m.group(1) or ''}]]",
+        text,
+    )
+    text = re.sub(
+        r"\[\[Home(\|[^\]]+)?\]\]",
+        lambda m: f"[[index{m.group(1) or ''}]]",
+        text,
+    )
+    return text
+
+
 def sanitize_frontmatter_block(fm: str) -> str:
     kept: list[str] = []
     for line in fm.splitlines():
@@ -315,6 +362,7 @@ def sanitize_for_publish(text: str) -> str:
     text = text.replace("[[source|", "[[Sourcebook|")
     text = text.replace('FROM "source"', 'FROM "Sourcebook"')
     text = text.replace("`source/", "`Sourcebook/")
+    text = rewrite_obsidian_index_links(text)
 
     match = FRONTMATTER_RE.match(text)
     if match:
@@ -344,7 +392,12 @@ def stage_content(planning_root: Path, staging_root: Path) -> None:
     for filename in SYNC_FILES:
         source = planning_root / filename
         if source.is_file():
-            write_staged(source, content_dir / filename)
+            dest_name = (
+                QUARTZ_INDEX_BASENAME
+                if filename in (INDEX_BASENAME, HOME_BASENAME)
+                else filename
+            )
+            write_staged(source, content_dir / dest_name)
 
     for directory in SYNC_DIRS:
         source_dir = planning_root / directory
@@ -356,7 +409,7 @@ def stage_content(planning_root: Path, staging_root: Path) -> None:
                 continue
 
             relative = source.relative_to(source_dir)
-            destination = content_dir / directory / relative
+            destination = content_dir / directory / quartz_publish_relpath(relative, directory)
             write_staged(source, destination)
 
 

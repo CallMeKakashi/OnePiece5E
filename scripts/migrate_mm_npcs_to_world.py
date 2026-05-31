@@ -43,12 +43,10 @@ KEEP = {
     "Riding Horse.md",
     "River Serpent.md",
     "Saber-Toothed Tiger.md",
-    "SeaBeast - Hermit Crab.md",
     "Smiling Watcher.md",
     "Stitched Horror.md",
     "Swarm of Quippers.md",
     "Titan Ape.md",
-    "Wendigo.md",
     "_index.md",
 }
 
@@ -476,7 +474,7 @@ def main() -> int:
     else:
         print("\nAll non-bestiary MM entries migrated.")
 
-    kept = sorted(p.name for p in MM.glob("*.md") if p.name != "_index.md")
+    kept = sorted(p.name for p in MM.glob("*.md") if p.name not in ("_index.md", "Monster Manual.md"))
     print(f"\nBestiary entries kept: {len(kept)}")
     return 0
 

@@ -11,6 +11,8 @@ foundry_live_slug: "ashscale-basilisk"
 
 ![[Attachments/monsters/ashscale-basilisk.png|Portrait]]
 
+**Look:** Oversized scorpion — dark teal-grey chitin with **red hourglass marks** down the segmented back; six small **yellow** eyes; heavy red-tipped pincers and a raised tail stinger. Reads as a giant ash-toned basilisk/scorpion hybrid built for burrowing ambushes.
+
 *Exported once from Foundry actor `NqTof1VIUi3bJVst` (`Windows-sync/Mafia Arc/token_3 (3).png`). Stats sync separately; image is vault-local.*
 
 ## Role
@@ -36,7 +38,7 @@ Use as regional wilderness threats in Juniper ravine / beach encounters (CR 8).
 - [[Matthew -The Jack- Burgess]] · [[B.O.B]] · [[Daniel (Spider's Nest)]] — current / recent fight
 - [[Ravine Scylla]] — natural predator
 - [[Sessions/Session 25 - Juniper Islands]]
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:42 UTC*

@@ -11,6 +11,8 @@ foundry_live_slug: "bandit"
 
 ![[Attachments/monsters/bandit.webp|Token]]
 
+**Look:** Stock human **highway robber** — rough travel clothes, light armor, club or crossbow at hand; generic thug you could swap into any road ambush without faction colors.
+
 *Exported once from Foundry actor `diBH6dpz61G1xwp1` (`systems/dnd5e/tokens/humanoid/Bandit.webp` — stock token). Stats sync separately; image is vault-local.*
 
 ## Role
@@ -23,7 +25,7 @@ foundry_live_slug: "bandit"
 
 ## Related
 
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:42 UTC*

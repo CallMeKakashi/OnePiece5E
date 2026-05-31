@@ -37,7 +37,7 @@ Locations, regions, factions, and lore; notes in `World/`.
 _Avoid_: Source (rules text)
 
 **Timeline**:
-In-world chronology on the One Piece calendar; notes in `Timeline/` (year subfolders, sort key in filename). Hub: [[Timeline/_index]].
+In-world chronology on the One Piece calendar; notes in `Timeline/` (year subfolders, sort key in filename). Hub: [[Timeline]].
 _Avoid_: Session order, episode order
 
 **Timeline entry**:
@@ -45,7 +45,7 @@ A dated or sortable note in `Timeline/` with frontmatter `type: event | newspape
 _Avoid_: Treating timeline text as session canon without checking sources
 
 **Newspaper**:
-An in-fiction press article (`type: newspaper` in `Timeline/`); headlines from the campaign world, often extracted from [[Discord/exports/world-lore]]. Listed on [[Timeline/_index]] and the campaign hub.
+An in-fiction press article (`type: newspaper` in `Timeline/`); headlines from the campaign world, often extracted from [[Discord/exports/world-lore]]. Listed on [[Timeline]] and the campaign hub.
 _Avoid_: Session note, transcript, rules text
 
 **Source**:
@@ -55,6 +55,10 @@ _Avoid_: World (fiction), Rules (homebrew only)
 **Rules**:
 Homebrew rules, homebrew items, and campaign-specific mechanics in `Rules/`. Not source-book content.
 _Avoid_: Source (imported reference material)
+
+**Devil Fruits**:
+Campaign devil fruit registry (image, power, current owner) in `Devil Fruits/`; hub [[Devil Fruits]]. System reference: `Sourcebook/Chapter 6 Devil Fruits/`.
+_Avoid_: Rules (folder is homebrew mechanics; fruits are their own registry)
 
 ## Factions
 
