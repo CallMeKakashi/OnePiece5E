@@ -100,6 +100,8 @@ def clean_html(text: Any, item_map: dict[str, str] | None = None) -> str:
         text,
     )
     text = re.sub(r"Reference\[[^\]]*\](?:\{[^}]*\})?", "", text)
+    text = re.sub(r"</p>\s*<p>", ". ", text, flags=re.I)
+    text = re.sub(r"<br\s*/?>", " ", text, flags=re.I)
     text = re.sub(r"<[^>]+>", "", text)
     text = text.replace("\u2019", "'").replace("\u2014", "-")
     text = re.sub(r"\bThe it makes\b", "It makes", text)
@@ -455,6 +457,46 @@ def resolve_creature_type(details: dict[str, Any]) -> str:
     return str(dtype) if dtype else "humanoid"
 
 
+def is_passive_feat(sys: dict[str, Any]) -> bool:
+    """True when a feat item has no attack/save/damage activities (traits only)."""
+    for act in (sys.get("activities") or {}).values():
+        if not isinstance(act, dict):
+            continue
+        if act.get("type") in ("attack", "save") or act.get("attack") or act.get("save"):
+            return False
+        if act.get("damage", {}).get("parts"):
+            return False
+    return True
+
+
+def enrich_save_in_desc(
+    desc: str, sys: dict[str, Any], data: dict[str, Any]
+) -> tuple[str, dict[str, Any] | None]:
+    """Inject ability + DC into generic 'a saving throw' text from save activities."""
+    for act in (sys.get("activities") or {}).values():
+        if not isinstance(act, dict) or not (
+            act.get("type") == "save" or act.get("save")
+        ):
+            continue
+        abilities = (act.get("save") or {}).get("ability") or []
+        if not abilities or not re.search(r"\ba saving throw\b", desc, re.I):
+            return desc, act
+        save_bits = format_save_activity(act, data)
+        dc_part = next((b for b in save_bits if b.startswith("DC")), None)
+        if not dc_part:
+            return desc, act
+        abil = str(abilities[0]).upper()
+        desc = re.sub(
+            r"\ba saving throw\b",
+            f"a {abil} saving throw ({dc_part})",
+            desc,
+            count=1,
+            flags=re.I,
+        )
+        return desc, act
+    return desc, None
+
+
 def format_items(
     items: list[Any], data: dict[str, Any]
 ) -> tuple[list[str], list[str], list[str]]:
@@ -488,6 +530,9 @@ def format_items(
         else:
             desc = clean_html(raw_val, item_map)
         desc = re.sub(r"^[\s.]+", "", desc).strip()
+        save_act: dict[str, Any] | None = None
+        if desc and re.search(r"\bsaving throw\b", desc, re.I):
+            desc, save_act = enrich_save_in_desc(desc, sys, data)
         if re.search(r"within\s+feet|DC\s*,", desc, re.I):
             desc = re.sub(
                 r"Wisdom Saving Throw:\s*DC\s*,.*?(?=Failure:|$)",
@@ -528,6 +573,21 @@ def format_items(
                 if formatted:
                     lines.append(f"Damage: {formatted}")
         activity_lines = format_activity_lines(sys, data)
+        if save_act:
+            save_bits = format_save_activity(save_act, data)
+            activity_lines = [
+                ln
+                for ln in activity_lines
+                if ln.strip() not in save_bits
+                and not re.match(r"^DC\s*\d+", ln.strip(), re.I)
+                and not re.match(r"^(WIS|DEX|STR|INT|CON|CHA)\s+save", ln.strip(), re.I)
+                and not ln.strip().lower().startswith("range:")
+            ]
+        if desc:
+            dl = desc.lower()
+            activity_lines = [
+                ln for ln in activity_lines if ln.strip().lower() not in dl
+            ]
         if desc and re.search(r"\bDC\s*\d+", desc, re.I):
             activity_lines = [
                 ln
@@ -558,6 +618,7 @@ def format_items(
                 ):
                     lines.append(wd)
         block = ". ".join(lines).strip()
+        block = re.sub(r"\.{2,}", ".", block)
         if block in (".", ". .", ""):
             block = ""
         if len(block) > 480:
@@ -570,7 +631,10 @@ def format_items(
         elif "bonus" in name.lower():
             bonus.append(entry)
         elif item_type in ("weapon", "feat", "spell"):
-            actions.append(entry)
+            if item_type == "feat" and is_passive_feat(sys):
+                traits.append(entry)
+            else:
+                actions.append(entry)
         else:
             traits.append(entry)
     return traits, actions, bonus
