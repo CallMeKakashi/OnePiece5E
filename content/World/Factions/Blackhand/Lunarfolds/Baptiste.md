@@ -8,6 +8,11 @@ sources:
   - "Timeline/Undated/[Backstory] Elizabeth Marrow — mortuary escape.md"
   - "Timeline/Undated/[Backstory] Blackhand Cane — Raid Kingdom.md"
 ---
+## Visuals
+
+![[Attachments/baptiste-portrait.png|Portrait]]
+![[Attachments/baptiste-bounty.png|Bounty poster]]
+
 
 ## Description
 
@@ -16,6 +21,8 @@ A young Lunarian man with black wings and burning eyes. His movements carry the 
 ## Role
 
 Lunarian fighter and member of the [[Lunarfolds]]. Sails under [[Blackhand Cane]]. Not the Blackhand **unit** member at Spirit Cliff — see [[Baptiste (Blackhand unit)]].
+
+Devil Fruit: [[Uchu Uchu no Mi]].
 
 ## Personal Quests
 

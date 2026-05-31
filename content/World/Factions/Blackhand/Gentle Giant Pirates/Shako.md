@@ -6,6 +6,10 @@ publish: true
 sources:
   - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Party 2/Players/Shako.md"
 ---
+## Visuals
+
+![[Attachments/shako-portrait.png|Portrait]]
+
 
 ## Description
 

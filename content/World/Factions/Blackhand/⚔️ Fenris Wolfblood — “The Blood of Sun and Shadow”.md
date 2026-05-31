@@ -2,24 +2,12 @@
 type:
   - NPC
 publish: true
+sources:
 ---
+## Visuals
 
-### Voice
+![[Attachments/fenris_wolfblood-portrait.png|Portrait]]
 
-# Description
-
-**Race:** Human (Partially Mutated)  
-**Gender:** Male  
-**Age:** 18  
-**Origin:** East Blue — _Bat-Eyed Brig_  
-**Affiliation:** Blackhand Pirates, 2nd Fleet (Commander Goro)  
-**Former Group:** The Shadow Gallery (Mercenary Crew)  
-**Role:** Medic / Blood Hunter / Life Domain Cleric  
-**Companion:** Vex, the Snow Monkey  
-**Current Rank:** Squad Leader  
-**Bounty:** TBD
-
----
 
 ## 🩸 Character Overview
 

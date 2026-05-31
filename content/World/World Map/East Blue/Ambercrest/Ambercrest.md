@@ -17,7 +17,6 @@ publish: true
 > Scale: `VIEW[1/({scale_pixels}/{scale_pixels_range})][math:mapCalc1]`
 
 
-
 ```leaflet  
 id: MapCalcExample ### Must be unique with no spaces  
 image: [[]] ### Link to the map image file. Do not add a ! in front of the image  

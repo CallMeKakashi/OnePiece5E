@@ -7,6 +7,10 @@ sources:
   - "[[Episode 25 - Fire Storm]]"
   - "[[Episode 23 - Choice for life]]"
 ---
+## Visuals
+
+![[Attachments/leon-portrait.png|Portrait]]
+
 
 ## Description
 
@@ -16,13 +20,15 @@ Marine **G-9** commander with burn-scar rapier. **Flame Logia** awakening mid-fi
 
 Commander in the [[Marines]] (G-9). Escort fleet duelist. [[🗡️ Goru Yamashita (formerly Goru Valencruz)|Goru]] asked party to spare him when possible.
 
+Devil Fruit: [[Mera Mera no Mi]].
+
 ## Personal Quests
 
 (To be developed)
 
 ## Backstory
 
-Named on [[Vorro]]'s routing papers (G-9 assignment).
+Named on [[Calder Voss]]'s routing papers (G-9 assignment).
 
 ## Episode 23
 
@@ -34,5 +40,5 @@ Named on [[Vorro]]'s routing papers (G-9 assignment).
 
 ## Related
 
-- [[Vorro]]
+- [[Calder Voss]]
 - [[1478-16sun [Newspaper] Grand Line Tribune — Evening]] (Lunarfold / prisoner transports)

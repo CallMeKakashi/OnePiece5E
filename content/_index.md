@@ -1,11 +1,9 @@
 ---
 publish: true
 ---
-# One Piece D&D Campaign
+# Blood & Brine — Campaign Wiki
 
-Welcome to the master index for the campaign. This file acts as the central navigation hub for all factions, rules, world lore, and references.
-
-Agents: start with [[CONTEXT]] → [[docs/agents/CORE|docs/agents/CORE]] → this page.
+One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules, and reference material.
 
 ---
 
@@ -17,6 +15,7 @@ Agents: start with [[CONTEXT]] → [[docs/agents/CORE|docs/agents/CORE]] → thi
 
 **The player crew — a unit of the Blackhand pirates.**
 
+- [[B.O.B]]
 - [[Baptiste]]
 - [[Cade Tigor Cooper]]
 - [[Lunarfolds]]
@@ -29,10 +28,12 @@ Agents: start with [[CONTEXT]] → [[docs/agents/CORE|docs/agents/CORE]] → thi
 
 **Pirate organization and associated fleet units.**
 
+- [[Alice]]
 - [[Baptiste (Blackhand unit)]]
 - [[Blackhand]]
 - [[Blackhand (Cyber)]]
 - [[Blackhand Cane]]
+- [[Droven Calligos]]
 - [[Mira the Unbreakable]]
 - [[Morley]]
 - [[Renzo]]
@@ -44,6 +45,7 @@ Agents: start with [[CONTEXT]] → [[docs/agents/CORE|docs/agents/CORE]] → thi
 
 #### Gentle Giant Pirates
 
+- [[Dravos]]
 - [[Gentle Giant Pirates]]
 - [[Kalla of Shandia]]
 - [[Shako]]
@@ -53,20 +55,23 @@ Agents: start with [[CONTEXT]] → [[docs/agents/CORE|docs/agents/CORE]] → thi
 
 **Mercenary organization led by Liz.**
 
-- [[Cerica Corvine]]
 - [[Cline The Plague]]
 - [[Liz]]
+- [[Serica Corven]]
 - [[Sixfold]]
-- [[Veyl Corvine]]
+- [[Veyl Corven]]
+- [[Vireth]]
 
 
 ### Marines
 
+- [[Calder Voss]]
 - [[Commander Leon]]
 - [[Delaroth]]
 - [[Graff Bolt]]
+- [[Melina Celeste]]
+- [[Obsidian]]
 - [[Sir Can Veil]]
-- [[Vorro]]
 
 
 ### Motley Crew
@@ -78,7 +83,7 @@ Agents: start with [[CONTEXT]] → [[docs/agents/CORE|docs/agents/CORE]] → thi
 - [[Linus Marrow]]
 - [[Motley Crew]]
 - [[Pasha]]
-- [[Rias]]
+- [[Rias Decibel]]
 - [[Ronan]]
 
 
@@ -106,6 +111,7 @@ Agents: start with [[CONTEXT]] → [[docs/agents/CORE|docs/agents/CORE]] → thi
 - [[Echo Spy]]
 - [[Lady Soefra Anthem]]
 - [[Mezzo Troop]]
+- [[Rhythm Echo]]
 - [[Soundless 5]]
 - [[Synth]]
 
@@ -116,6 +122,39 @@ Agents: start with [[CONTEXT]] → [[docs/agents/CORE|docs/agents/CORE]] → thi
 - [[Mugen Industries]]
 
 
+### High Roost Pirates
+
+- [[High Roost Pirates]]
+- [[Jack S. Parrow]]
+
+
+### Braveheart Pirates
+
+- [[Braveheart Pirates]]
+- [[Facade]]
+- [[Ju Lee Caneheart]]
+- [[Malak Samum]]
+- [[Thompson Caneheart]]
+
+
+### Guiseppi Family
+
+- [[Brandy Guiseppi]]
+- [[Gin Guiseppi]]
+- [[Guiseppi Family]]
+- [[Rhum Guiseppi]]
+- [[Rum Guiseppi]]
+- [[Tequila Guiseppi]]
+- [[Vodka Guiseppi]]
+- [[Whisky Guiseppi]]
+
+
+### Unaffiliated
+
+- [[DevilMask]]
+- [[Sora]]
+
+
 ---
 
 ## Rules
@@ -123,18 +162,41 @@ Agents: start with [[CONTEXT]] → [[docs/agents/CORE|docs/agents/CORE]] → thi
 **Homebrew systems, rulings, and campaign-specific mechanics**
 
 - [[Inspiration|Inspiration]]
-- [[Rules/Devil Fruits|Devil Fruits]] · [[Rules/Inventions|Inventions]] (see [[source/source|Source]] Ch. 4–6)
+- [[Rules/Devil Fruits|Devil Fruits]] — campaign registry (image, power, owner)
+- [[Rules/Inventions|Inventions]] (see [[Sourcebook/Sourcebook|Sourcebook]] Ch. 4–6)
 
-| Note | status |
-| --- | --- |
-| [[D20 “Morph Balls” Roll Table]] | draft |
-| [[Devil Fruits]] | draft |
-| [[Fusion Fusion Fruit]] | draft |
-| [[Inventions]] | draft |
-| [[LunaFang Serum]] | draft |
-| [[Soku Soku no Mi]] | draft |
-| [[Vivre Compass]] | draft |
-| [[Zaiko Zaiko No Mi]] | draft |
+| Note | owner | status |
+| --- | --- | --- |
+| [[Ame Ame no Mi]] | [[Sora]] | draft |
+| [[Buki Buki no Mi]] | [[Serica Corven]] | draft |
+| [[Dabu Dabu no Mi]] | [[Irik Fen]] | draft |
+| [[Devil Fruits]] |  | draft |
+| [[Eki Eki no Mi]] | [[Cline The Plague]] | draft |
+| [[Foji Foji no Mi]] | [[Tray]] | draft |
+| [[Fura Fura no Mi]] | [[Rhythm Echo]] | draft |
+| [[Fusion Fusion Fruit]] |  | draft |
+| [[Hai Hai no Mi]] | [[Malak Samum]] | draft |
+| [[Ink Ink no Mi]] | [[Rhum Guiseppi]] | draft |
+| [[Kamo Kamo no Mi]] | [[Vodka Guiseppi]] | draft |
+| [[Kaze Kaze no Mi]] | [[Mira the Unbreakable]] | draft |
+| [[Kobu Kobu no Mi]] | [[Gin Guiseppi]] | draft |
+| [[Koru Koru no Mi]] | [[Daniel]] | draft |
+| [[Mera Mera no Mi]] | [[Commander Leon]] | draft |
+| [[Meshi Meshi no Mi]] | [[Blackhand Cane]] | draft |
+| [[Peto Peto no Mi]] | [[Ju Lee Caneheart]] | draft |
+| [[Phezu Phezu no Mi]] | [[Linus Marrow]] | draft |
+| [[Shire Shire no Mi]] | [[Rias Decibel]] | draft |
+| [[Soku Soku no Mi]] | [[Veyl Corven]] | draft |
+| [[Sumi Sumi no Mi]] | [[Daniel]] | draft |
+| [[Sumi Sumi no Mi — Rhum Guiseppi]] | [[Rhum Guiseppi]] | draft |
+| [[Suraimu Suraimu no Mi]] | [[Droven Calligos]] | draft |
+| [[Toneru Toneru no Mi]] | [[Dravos]] | draft |
+| [[Tori Tori no Mi — Model Raicho]] | [[Malphas]] | draft |
+| [[Tori Tori no Mi — Model Sparrow]] | [[Jack S. Parrow]] | draft |
+| [[Uchu Uchu no Mi]] | [[Baptiste]] | draft |
+| [[Unknown Devil Fruit — Party 1]] | Party 1 (unclaimed) | draft |
+| [[Yuki Yuki no Mi — Model Yeti]] | [[Roma]] | draft |
+| [[Zaiko Zaiko No Mi]] |  | draft |
 
 
 ---
@@ -143,7 +205,7 @@ Agents: start with [[CONTEXT]] → [[docs/agents/CORE|docs/agents/CORE]] → thi
 
 **Islands, regions, and locations**
 
-<!-- dataview: no matching notes -->
+- [[World]]
 
 
 ---
@@ -156,43 +218,86 @@ Agents: start with [[CONTEXT]] → [[docs/agents/CORE|docs/agents/CORE]] → thi
 
 ## Newspapers
 
-**In-fiction headlines and editions** — curated from Discord `#world-lore` and related sources. Full chronology: [[Timeline/_index|Timeline]].
+**In-fiction headlines and editions.** Full chronology: [[Timeline/_index|Timeline]].
 
-<!-- dataview: no matching notes -->
+| Note | in_world_label | publication | status |
+| --- | --- | --- | --- |
+| [[1477-03moon [Newspaper] Blackhand Shows True Colors — Ambercrest]] | 3rd Moon, 1477 (approximate, early Blackhand arc) | East Blue Herald | draft |
+| [[1478-01moon [Newspaper] Navy Commander Slain — Frosthaven]] | 1st Moon, 1478 (approximate, Frosthaven incident) | North Blue Herald | draft |
+| [[1478-02moon [Newspaper] Plasmoid Turns Frostwind to Ashes]] | 2nd Moon, 1478 (approximate, Frostwind attack) | North Blue Herald | draft |
+| [[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]] | 3rd Moon, 1478 (approximate, Spirit Cliff; Verrelies pardon) | East Blue Herald | draft |
+| [[1478-03sun [Newspaper] Grand Line Tribune — Midday]] | 3rd Sun, 1478 | Grand Line Tribune | draft |
+| [[1478-09sun [Newspaper] Grand Line Tribune — Morning]] | 9th Sun, 1478 | Grand Line Tribune | draft |
+| [[1478-12moon [Newspaper] Grand Line Tribune — Morning]] | 12th Moon, 1478 | Grand Line Tribune | draft |
+| [[1478-16sun [Newspaper] Grand Line Tribune — Evening]] | 16th Sun, 1478 | Grand Line Tribune | draft |
 
 
 ---
 
-## Source
+## Sourcebook
 
-**Reference material converted from PDFs (One Piece D&D DM Guide + Player's Guide)**
+**One Piece D&D reference** (DM Guide + Player's Guide, converted from PDFs)
 
-- [[source]]
+- [[Sourcebook]]
 
 
 ---
 
 ## Sessions
 
-**List of all Sessions so far**
+**Table-play session notes**
 
+- [[_index]]
+- [[Aegir's Memories I]]
 - [[Blood and Lumafang]]
 - [[Episode 5 - The Mistframe]]
 - [[Episode 6 - Read aloud]]
 - [[Episode 6 - Thorn in the path]]
 - [[Episode 6 Stats]]
 - [[Freefield Sidequest]]
+- [[Linus’ Notes]]
 - [[Loot log party 3]]
 - [[Malphas and Baptiste]]
 - [[Rival Crew - Circus]]
+- [[Session - 24.5]]
 - [[Session 1 - A Chance Meeting]]
+- [[Session 10 - Sea of Nightmares]]
+- [[Session 11 - Welcome to the Jungle]]
+- [[Session 12 - Clown Tricks]]
+- [[Session 13 - The Reaper (No DM Audio)]]
+- [[Session 14 - The Decibel Decree]]
+- [[Session 15 - Animal Within]]
+- [[Session 16 - Broken Promises]]
+- [[Session 17 - Agony of Choas]]
+- [[Session 17 - Howling Thunder]]
+- [[Session 18 - Gentle Giant Pirates]]
+- [[Session 19 - The Walking Dead]]
 - [[Session 2 - The 'M.A.D.S.' Encounter]]
+- [[Session 2 - The Winged Ally]]
+- [[Session 20 - Price of Freedom Part 1]]
+- [[Session 20 - Price of Freedom Part 2]]
+- [[Session 21 - House of Justice]]
+- [[Session 22 - The Missing Piece]]
+- [[Session 23 - Choice for life]]
+- [[Session 24 - Fire Storm]]
+- [[Session 24 - The Friendly Baron]]
+- [[Session 25 - Fire Storm]]
+- [[Session 25 - Juniper Islands]]
+- [[Session 27]]
+- [[Session 28]]
+- [[Session 3 - Fated Encounter]]
 - [[Session 3 - The Carnival and the Collapse]]
 - [[Session 3 notes]]
+- [[Session 4 - Masquerade]]
+- [[Session 5 - Shackles Broken]]
 - [[Session 5 Cliffs and Crossroads]]
+- [[Session 6 - Hallow's End]]
+- [[Session 8 - The Lunarfold Tournament Part 1]]
+- [[Session 9 - The Lunarfold Tournament Part 2]]
 - [[Session This]]
 - [[Spider's Nest]]
 - [[THE ISLAND THAT BREATHES]]
+- [[This session]]
 - [[Whistling Isle — Storm-Teller's Debt]]
 - [[WIP - Session 4]]
 
@@ -201,22 +306,10 @@ Agents: start with [[CONTEXT]] → [[docs/agents/CORE|docs/agents/CORE]] → thi
 
 ## Transcripts
 
-**Episode transcripts** (broadcast/recording unit). Session numbers may not match episode numbers; use titles for alignment. Browse the `Transcripts/` folder.
+**Episode transcripts** (broadcast/recording unit). Index: [[Transcripts/_index|Transcripts]].
 
 ---
 
 ## Journals
 
-**In-character or between-session journal entries.**
-
-<!-- dataview: no matching notes -->
-
-
----
-
-## Maintenance
-
-- [[Templates/_index|Edit templates]] — campaign templates (`Templates/` hidden in explorer)
-- [[docs/obsidian-setup|Obsidian setup]] — hidden folders, CSS snippet, bookmarks
-- [[CONTEXT]] — domain glossary (Actors, Factions, Session vs Episode)
-- [[docs/agents/CORE|docs/agents/CORE]] — agent operational rules (folder tiers, read-only default)
+**In-character or between-session journal entries.** Index: [[Journals/_index|Journals]].

@@ -7,6 +7,10 @@ sources:
   - "[[Episode 6 - Hallow's End]]"
   - "[[Sessions/Sidequests/Spider's Nest]]"
 ---
+## Visuals
+
+![[Attachments/ben-portrait.png|Portrait]]
+
 
 ## Description
 

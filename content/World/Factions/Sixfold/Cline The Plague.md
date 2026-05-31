@@ -6,6 +6,10 @@ publish: true
 sources:
   - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Sixfolds/Cline The Plague.md"
 ---
+## Visuals
+
+![[Attachments/cline-portrait.png|Portrait]]
+
 
 ## Description
 
@@ -18,7 +22,7 @@ Also a founding member of the [[Motley Crew]].
 
 ## Role
 
-[[Sixfold]] operative. Devil Fruit user (Sick-Sick Fruit). CR 3 (XP 700).
+[[Sixfold]] operative. Devil Fruit: [[Eki Eki no Mi]] (Sick-Sick). CR 3 (XP 700).
 
 ## Personal Quests
 

@@ -1,0 +1,3489 @@
+---
+publish: true
+type: transcript
+episode: 21
+title: "House of Justice"
+status: draft
+sources:
+  - "Transcripts/Episode 21 - House of Justice.txt"
+  - "Transcripts/Episode 21 - House of Justice.srt"
+---
+
+# Episode 21 — House of Justice
+
+## Extracted
+
+> Lex Imperia / Newshold judiciary islands; Zim + Droven rescue arc.
+
+### Summary
+
+- **Freefield** → **Dravo** Thousand-Mile Tunnel (ship fall); twin islands Lex Imperia / Newshold.
+- Roma infiltrates **House Valehart** as chef; Malphas cathedral chaos; prison riot (~686 freed).
+- [[Linus Marrow]] returns; fight vs [[Calder Voss]] + G-45 armor Marine — cliffhanger.
+
+### People (links)
+
+| Role | Note |
+|------|------|
+| PCs | [[Malphas]], [[Roma]], [[Baptiste]], [[Cade Tigor Cooper]] |
+| Allies | [[Linus Marrow]], Dravo |
+| Antagonists | [[Calder Voss]], Marines, House Valehart |
+| Targets | Zim, Droven |
+
+### Open questions
+
+- Zim trial vs execution timing.
+
+---
+
+## Transcript
+
+Episode 21 - House of Justice
+
+But last time you guys stopped on the island of freefield to get some
+repairs for your ship as well as get a cage for the saber tooth as it's been chewing away
+the part where it was kept because it just made of wood so you have the cage done for the saber tooth and
+you have gotten the ship repaired you have
+50 million store credit for
+the
+Bramble and brothers ship ride company and
+You have departed from the island of freefield and you're on your way to the island that
+You were you had the
+logposts for that piece from the
+warland reserve shop
+As you're traveling it's the
+morning of
+What is everyone doing right now?
+Cooking okay
+office
+Probably just sitting outside
+Okay
+Nothing seems to be out of sword this morning
+Baptist you have not woken up yet the fight from
+Last night was really heavy on you you had some damage so you're still kind of sleeping it off
+as you sleep
+These memories
+leak into your
+dreams you see yourself in a
+place lit with
+torches all around you feel something carving
+near your leg like
+someone or something just carving pieces out of your body as
+That piece is taken away from you and fed to
+a sickly person right in front of you as that happens the dream kind of melds together and
+The other moment you see the same person is being
+Stabbed and their blood is being drawn upon you
+As the blood is getting absorbed by your body the dream then melds into a
+Final like
+Awakening inside of you which right now the moment that you're feeling
+The emotion that you're feeling is just hatred pile on top of more and more and more just suffering
+The people around you just keep dying dying over and over and the cycle of this
+People just taking it away from you and just bringing the head back to you is
+Never ending you feel
+Time just passed through you in the
+The sense of just dread
+As you open your eyes is the day that you are supposed to depart for north
+So
+You
+Did you hear any of that
+I did okay, okay, I was just making sure I rode here
+All right, he just like works up breaking out of the sweat
+And then he's like
+It's my hand
+I
+I thought what you before he still won't leave me alone
+Um as you wake up you
+Feel a knock at the door
+It's just like tap not not like at not they're not banging on the door
+Someone's really hesitant to maybe wake you up
+Who is it?
+You hear the person in front in front of the door say it's Tegore captain
+I like stuff a lot of bed and go open the door
+Okay, um, he's like well captain
+Dravel seems to be ready. He's just pacing a lot
+I don't know if he's worried or what's a deal and you should talk to him
+All right
+When we are ready
+I'll go talk to him. Oh, I'll inform everyone
+As soon as
+Tegore gets out of your site he wants to work like everyone else's chambers
+Malphys is already on the deck while the role-mysk is cooking in the kitchen
+you
+arrive at the deck and
+You just see Dravel's just walking back and forth back and forth
+Just walking nervously
+nervous
+Well
+See the last times I did this it didn't go and oh
+Well, I could have
+You know, imagine
+But no, no, I'm ready. I'm ready. This is this is the only way
+I'm ready whenever you guys are
+This
+If you can get us close we can handle the rest
+Right
+About that
+So do we just want to
+Had to the island or do we want to go somebody close by?
+Because I didn't really hear some any sort of plan
+Or destination
+Look they are planning to go back to spirit click right no
+Is spirit clipped out in the North?
+No, no, scriptures, but in the east you guys came from these
+The north of
+Malthus and Bob word
+The name of the two islands that you know off in the North
+You
+Lexi in period where like the final judgment of
+what you
+Think or them is going to be taken place and then you got new salt where
+Drowman's execution is casual
+And you don't know the layout of the place you just know you just heard the names
+You don't know where it is you don't know where what's it about
+If we can just get close to the island
+Which one I feel like
+Don't say the one that
+What's his name told us that they were heading to
+Yes, we do in first right?
+Lexi in period the judiciary island. Yeah, yeah, okay the one for
+Close okay by I don't want to be you know
+But I really do need to know how close
+If someone saw your ability
+Yes, what you wanted
+Well
+As
+There's your answer
+Okay, I'll try my best
+Just in case I would advise everyone to maybe hold on to something
+Everyone get below that
+As you do that
+As everyone turns away you see draves
+puts down his
+weapon
+Right beside him as
+He
+puts both of his hands together and
+As he spreads them apart you just hear this rumbling out of the seas
+You and you see this giant pipe coming out right in front of the ship
+It's way bigger than the ship. It keeps rising keeps rising keeps rising. You see the water
+Getting split apart. You see the fishes being thrown away from
+The pipe itself and as you see this pipe finally emerge out of the water you don't see an
+Edge to it you don't see an end to it you start to sail the ship right inside
+All right
+As Draveau's finally says
+Final technique a
+Thousand-mile tunnel
+As this huge channel appears near the end of it you just see darkness as you start to go
+deeper and deeper and deeper
+They're at one point there is no light in the tunnel even with your
+Eyes you don't see anything
+except for the splashing of water around the ship
+And I'm gonna roll on the table and see where the fuck you end up
+Oh, that's not good. That's not good six. Oh my god
+Well, it's in there
+It's not that it's the table for teleportation. It's just rough
+See
+Let's focus the mishaptid
+Okay, that's great. I don't see the mishaptid
+The team
+Yeah, let's look up the teleportation
+Okay
+Um
+As you
+Hear like the
+Water splashing around the ship
+After one point you just hear like a complete silence and nothing's
+Making a sound anymore as
+Immediately you just start free falling
+Everyone just start
+Banks up toward the top of the below deck
+Everyone can you guys make good?
+I think it's just damage actually
+Yeah, everyone takes 13 damage
+But now you're still free falling the ship is falling
+I'm gonna make a
+Like damage check for the ship
+And if it breaks it breaks I can't I can't do anything about that
+Ship
+What was the threshold
+I forgot what the threshold was I guess it doesn't matter
+You're gonna fall
+50 feet from the air into the water
+32 and it's not that bad
+We've seen it this the ship takes 30 damage
+You see like parts of the reinforcement that
+What's his name fucking?
+Bramble put
+Not wearing off so
+Probably the work that Bramble did kind of maybe saved you at this point, but
+Everyone seems to be okay. They've just hit themselves all over the place
+Especially in this time Dravo's had made his way
+Down to the below deck, but as you turn around you just see Dravo's completely passed out
+Get home to a bird
+Tegor looks at you and goes all right captain
+He's gonna take dravo's and put him in one of the beds
+All right
+As you
+Move out
+Into the above deck
+The fall doesn't seem to have caused a lot of damage the animals are kind of
+In a frenzy sort of but they also have seemed to calm down
+By the time you guys made it a bit away from where you first fell at
+As like the waves have carried you a bit further
+Right in front of you you see
+Two islands
+Separated by this underground sorry underwater waterfall
+But it's not like it's just the density of water is a bit different and between those two islands you see a giant bridge connecting these two islands
+You're pretty far away from the islands
+Yeah
+If you want to scope it out
+I
+Don't think so I don't think anyone would have any knowledge of the island currently
+Well, this what you see
+Two uns connected by bridge
+Nothing major from here
+It seemed like we were supposed to be headed
+No, I don't
+Do they look like Navy Island?
+Do you have
+You have a scope. Thank you probably doing like the navigator supply
+Yeah, okay, just roll for
+Perception I guess from far away you can only check where basic things
+Like big ass flags with Marie will see
+See if you can spot them right it depends like which angle you came in from okay
+You look around you do see on both of those islands you do see
+Marine flags like right in front of like a bunch of buildings
+Near the edge of those islands
+Between like the bridge connecting from one
+Doc of the island to other talk of the island you do see a bunch of warships
+Navy warships lined so no one gets passed
+Like in between that those bridges without getting checked
+As far as you can tell you also see a bunch of
+Warships lined up on the island on on your right
+But you don't really see a lot of warships on the left inside you do see a lot of
+maybe
+merchant boats small fisher boats and so on so forth near the dogs as you zoom in through your lenses
+So
+So the only zone left and Navy on the right mostly
+Or the way around
+Yeah, yeah mostly on the right you see Navy ships and on the left you see
+Just like civilian ships
+Well
+Why be best to talk on the right
+The right seems to be heavily occupied
+All right
+Tell me when he gets back to
+Navigate us in that direction
+Kate gets back up he does see where you want to go
+He's kind of hesitant in any looks at you as he gets do you think it's a good idea to
+Just go in the dock. Maybe we should
+Go around and find somewhere safe to dock the ship
+We do have the pirate flag
+And considering if we are where we are supposed to be on they be looking for us
+We did just add our
+Well, let's
+That's a good idea
+See if you can get us
+somewhat
+Kate is going to like turn away from the island
+As he like pulls up the masts from above and kind of closes in slowly moving drifting away
+On the light left inside of the island as he's like turning around
+And not like entering the island from the dock itself
+He takes you like the long way around the island toward the
+Other side to maybe see if there's a safer place to dock
+at
+as
+He like takes like a big loop around the island
+He spots one place he points it at he points it to you mouth as he goes
+Malfa, can you look in if that place seems safe to
+Maybe put a ship in he points to you to like a sort of like natural cave
+Built into the side of the island
+Is it I mean you can do perception check if there any threats or not
+If you're not sure we can go either way
+Yeah, as you look
+Toward that you do see like an entrance to
+Cave but it does not really look like
+Natural cave to you
+You see like a bunch of like artificial lights
+Plugged into the cave. Maybe it's a entrance meant for some other party or
+meant for some other trading routes. You're not sure
+Well, it was the only thing we have right now bed and leave it out in the open
+All right, you like give a agreeing nod to
+Kade as he like
+turns the
+Wheel around and starts to head into bad cave
+All right, that's me like check for him
+As you start to head in you do see like a bunch of like
+rocks or like boulders sticking out
+Toward the entrance of the cave so it's like very difficult
+Navigating into
+Where is he there we go
+Yeah, it's been rough for everyone
+Carpenters tool, okay, there's a ship right tools, but I guess I'll just do
+Normal wisdom for him
+See if you can navigate through
+Yeah, that should be good enough
+You see the ship
+like bump into
+Like the sides of these rocks, but you easily like kind of navigate through
+You see this back channel leading into an area which leads up
+Near like a place where you can
+Store the ship at and
+As you arrive at this junction kind of which leads
+Another way leading up toward the right side
+From where you entered and there's one place where you can just get off and
+Take some stairs that you can spot from the deck
+After you we can go deeper or you can get off here and
+Keep the ship here leave
+Maybe best we go on foot
+Yeah, let's talk it
+Okay, as you
+Talk the ship
+He lets the anchor down
+Tigora looks at you and he goes
+I think it's best kept in if I stay behind look up at the ship
+You're doing it
+You can improve as well
+What
+Take that over the tables, okay, okay, yeah
+Yeah, yeah
+Yeah, he seems to be in
+In a bad condition and I'm not sure what happened
+It I
+Think I might need a bit of backup. It would be good if someone could stay behind
+Maybe guard the ship with me
+Hey Bob you're saying
+No, Bob's like yeah, I'm saying goodbye
+All right, it's you three thing where you need to hang on the ship
+Yeah, as you guys
+Get off and start to
+Hold on hold on hey listen sons of bitches. I cooked breakfast for you
+You you made me make a mess with whatever the fuck you were doing out here. You're better be eating something
+You're better be eating something I gotta go clean a mess up in there. I don't know what the where the fuck are we?
+Was in their cooking nobody came in and told me what the fuck's going on?
+When when did y'all come into the kitchen right before everything happened
+He got probably came in but you were just cooking and then pay attention
+Exactly he nobody stopped me from what I was doing
+Y'all needed some food. I got food now y'all gonna eat this food right now
+I didn't just slave over it for like the last hour for y'all just not to eat the shit
+You go kind of looked at you and goes
+Maybe a good idea to
+You know stock up in case we can't find anything in case you guys can find it anywhere to
+Save please stay at
+All right, I guess what are we doing are we
+Taking a break and like getting ready
+Okay, everyone takes a plate and y'all start to eat rummoo. Do you want to roll something?
+Do you have anything to like
+Didn't you have something to like short rest or something?
+Thought you did yeah, yeah, I got the I could create those cookies after every short rest or hold on
+We all take your mod does something yeah
+So would you say back in cooking?
+Nothing
+That's pretty
+At the end of the short rest any creature who eats the food regains an extra one d8 hit point
+Okay, at the end of the short rest
+As part of the short rest I create four plus my proficiency bonus at the end of that short rest they get one d8 of hit points
+Okay, that you can use it at any point
+or
+Okay, okay, so everyone roll one d8 and add it to your HP
+Is it is it H.H.P.O. Temperature. It's probably a step pray
+Or do you just gain it back? Oh?
+Okay, I see I see it's like it's like in between short rest. Okay
+It's not worth it right now. Yeah, yeah
+So I got seven
+No, no, it's meant to be like oh you're just you just have been in a fight and then you take short rest to gain your HP and then you can get one d8 bonus if you
+Cook meal
+Yep, and it says with an hour work you when you finish a short rest are longer so I can cook another
+Some more treats
+Yeah, for the treats you can write them down like how many treats you have right now
+Oh, you are not at full HP for something
+Because we took the 13 from dropping oh
+I mean, sorry
+God, I forgot
+I mean you guys can do the short rest and get the things if you want to or
+You can just skip the short rest or something
+I guess you are like kind of waiting and eating so I guess you just take the short rest
+47 then I'll add 70 your HP Roma everyone else can also roll and add that to your HP
+Is it same for everyone or do they have to roll for them health?
+It says that they all have to roll like from what this says
+Hmm, it says they roll a 1 to 8
+All right, yeah, everyone will 1 to 8 add a 2 HP that you lost
+Is it normal or 10?
+Normal
+Did take 13 damage right?
+Ah
+Oh
+Put me at
+42 plus
+You're taking anything else other than like you and your basics of lies
+This is a show
+What happened
+Do you want to take anyone else?
+I mean you have the dog and everything
+Want to take me I would be if the dog wants to come with me because he doesn't usually so
+I
+Mean it's up to you. It's it's a very risky situation you want to get into. I don't know if you want to take the dog or not
+He makes experience all right
+Level up the dog the spirit will what the huh
+Yeah, he should be he should just jump on you as you're leaving
+Just kind of
+wants to leave the ship for a while I guess
+If you're coming with me if there's ever a moment
+The things get rough you gotta
+Run back to the nose
+No, we're the return to
+All right, he kind of looks back toward the ship and just starts to walk
+towards the stairs
+Okay, you guys had a meal
+Roma you have your supplies your snacks ready at any point to be distributed everyone got there
+Potions and supplies and everything
+Yeah, all right
+I don't really have a lot to break
+What I don't even I don't really have a lot but I got everything
+Uh, you have a small med kid right
+Yes
+Um
+If you want you can take some supplies from Bob if he has any
+That's fine we good
+All right, um roll for the puzzle box to
+Once
+No, that was not enough. I know we have ever finished this
+All right
+You
+Um exit out of the stairs you see the lining of the stairs kind of leaning up to this like big giant door
+um, and
+You start to hear like some voices from the other side of the door
+What are you doing
+I really listen to the voices um, who is in front
+Who is leading oh
+My head for just
+If I see Roma chart approach with us to sneak I will tell him to stop
+What
+I miss dad sir
+If
+Me and mouth is
+Go to like listening in if I see Roma trying to get close to the same I'm gonna tell him to stop
+All right
+Uh robot he tells you to stop
+That's okay. I'm a way for him to leave and then it's gonna be like Chris Farley
+Trying to be a stealthy
+Reckon into shit
+Um
+You and mouth has put your ear to the door to try to listen in as to what's happening
+um
+Can you guys roll for perception?
+Uh great
+Great
+Okay um
+mouth as you do here uh like faint voices
+Uh, but you hear one person saying
+Uh, you sure the food's ready
+I'll take it up to the um young master
+He might be leaving for work soon
+I guess all you hear oh my god
+Roma with your uh
+Here's
+Yeah
+He's like
+This is all you over here um baptist from your side you can't really hear anything you just see like a bunch of sorry here like a bunch of rumbling
+Uh people like running up in downstairs
+I stuff like that
+I
+How many people can you put out um
+All right if one of you can give me there's one key point
+I can tell you how many people
+What the fuck in here
+I would just focus on the food
+I mean you're I just said like the food part you hear but you're not really close to the door so you can't really hear anything else
+If you can't give me that then it's up to you
+Oh that only might there's at least two
+Um okay
+How so you're giving me your key point one key point
+No
+Okay, so sub to you
+It's at least two
+Well, we know there's at least two people
+Yeah, so what do you want to do?
+Let's see if we can find a way in
+I mean you're right option at the door
+What do you want to do? You just want to go in the Shilas quietly open yeah quietly open the door okay do a stealth roll for me
+Oh
+Nice um okay at this point only baptis has like correct open
+um the door slightly
+um baptis you could spot uh
+Someone dressed up as like in a butler
+Uh butler's dress like um suit and you can see him like directing some people toward
+Places and you see like a big giant table in front of him with like a bunch of
+Food and like documents and everything lined up and as he's giving away like tasks to the other
+Workers there
+Everyone's like dressed up in suits and everything blue and white kind of suit
+Oh
+From that um
+You can also see above
+Where the butler standing you see kind of like a small flag maybe like a family crest hanging hanging from the top
+And it's like um
+It's a flute with golden embroidered um
+Like stuff on it like gems and whatever
+Do I recognize the symbol? No you have no idea
+Excuse me please
+Well seems like something between you that's the only
+I'll just like remember myself around the realm
+Uh you want to get out of the door
+Yeah, okay
+You sneak out um right now everyone like the butler and everything are looking away from you you're kind of behind like
+staircase so the vision is like kind of obscuring but if you step out of the staircase you will be like in broad
+Like lighting in front of everyone and someone can spot you from there
+No from where I'm at I just I want to just listen in then to see if I hear anything then
+We're different um
+Okay, you want to close the door behind or you want to keep it open so my office can look as well
+Oh
+Well if my office chooses to bother that's your office
+Okay, you don't close the doors or just don't make any additional noise. That's all I'm asking
+Okay, uh you
+Huddled behind the
+Um staircase now that you can see like the whole room completely
+Um, you see like this is like the
+Kind of like the floor
+Ground floor of this whatever what seems to be because the ceiling is very high
+So it seems to be like someone's mansion or something and you see like the
+the carpets and the
+drapes and everything all of them are like blue with like silver linings
+around and
+All you can spot is just this emblem put everywhere around this hall
+um and the the main guy the butler
+Seems to be just guiding everyone toward their task
+And you just hear like a bunch of people running down the staircase that you're
+Close to and people running up the staircase that you're close to
+And yeah, that's that's about it. I mean nothing new. It's just you see here instructions
+Um, the butler is pointing out um
+Soon if you wait like around five to ten minutes
+You do hear someone shouting from from top as uh, they go
+Jeremy
+Where's my tea
+Uh, the butler turns around as he goes um
+Alice is bringing your tea to you sire not not your sister
+um and
+The voice kind of fades away as it's like uh towards the
+Top of the stairs that you are like hiding behind it kind of fades away and you hear someone rushing in as they
+Um, ask the butler in front of the door that where
+Everyone is and he seems to just shrug it off and he goes
+There are all in their rooms and the guy just sprints away
+Outside the mansion
+Nothing notable happens other than that
+And i like hear him
+Brinto why do i not hear anyone else nearby
+Um, not really
+Now try to like sneak up the stairs at this point
+No, then um you try to sneak up the stairs can you make another stealth check for me this time
+with disadvantage
+Welp
+Um as you try to go up at the stairs you put one foot on the um
+What do you call it the the the stairs and it kind of creaks the old butler that you spotted earlier just turns around and goes
+Right
+Who might you be and uh why are you inside um are mentioned
+Nothing the better question is who might you be
+No, no, no, I'm quite certain that the better question is who are you because I don't know you
+And this is not a spot for
+Stributors
+I'm just looking for food right having eaten it
+Another one of those beggars sir cash in brought you in then
+Well
+Okay
+He really needs to stop burying beggars inside the house
+Well, you just left so
+I'm going to ask nicely that you leave
+Otherwise we will have an escort throw you out
+What will it be?
+These get food first
+No, you cannot ormen like you don't deserve
+Our respect
+Earn for yourself
+Why don't you
+But he promised to be food well then ask him
+You should be at work right about now
+You should be able to find him I suppose that's where you met
+The best dangerous up there
+What do you mean this is the safest island in the north
+How is it dangerous
+The way you speaking up me now is the way they speak of me out there
+Yeah, well if you were worth assault then they wouldn't now get out
+And put but I am worth the salt I can prove it
+I could not care less now don't get in my way
+All right, we'll have to call the guards. I am asking nicely for the last time leave
+Okay
+He points you towards like the exit of the mansion as two of the other
+servants like kind of open up the door
+For you to leave as they give you like this side eye of this dust
+How many people can I see at this point?
+You can spot at least six to seven people on the above floor
+And on the ground floor you see three the one guy and two butlers that are opening the door for you and you spot other three on top of this
+They're all looking at me right now. They're all looking at you. Yeah
+And nobody sees mouth is just had hanging from a fucking open door like
+Okay, the door is like kind of in in the way of the staircase so you have to get out
+Like get out of the shadow of the staircase to everyone to see you
+It's kind of maybe like a hidden entrance to the house
+I'll do one of those slow walks
+That people do when they want someone to stop them as I go out the door
+Okay, you get do that no one's gonna stop you
+Looking back every so often
+I don't have time for your nonsense to get out
+No one's gonna pity you
+What you regret this yeah, yeah sure I am
+Can I do it inside one him really quickly? Sure
+I'm looking for you now
+You
+What's his HP?
+Uh, his HP should be about 20
+Oh
+Are we close enough to the kitchen where I would be able to smell the ingredients?
+Uh, you would be able to smell the food that's on the table but not not to the kitchen
+Okay, perfect so
+Gormon I can smell if there there's anything harmful
+In that food like it there's secretly poisoning the food
+Mm-hmm. So you want to check that?
+Yeah
+Now that that this food just looks to you like this tasteless mush like smells to you
+Like this tasteless mush and that's a it seems like some mobile crap
+Some alike
+As I'm walking out I just say that's your map and then just run off
+Okay
+All right, well, Melphus and Roma, are you doing it?
+That's a good question
+Hmm, as you run out of the mansion you see like this giant like
+Pathway leading to where like the outside
+With these large gates and the whole place is like surrounded by these big walls
+um
+You can start to head out you see a bunch of guards walking in and out
+As they look at you and he goes
+another one of those
+Stratular to the young lord bought in I suppose
+How can you do even I feel sorry for this one
+The funny thing is you dress normally
+All right, Melphus, what are you doing? You're still heading outside?
+I'll circle back once I get to a good distance
+Good distance from where because the this pathways just leading towards like the main gate and once you're outside the gate you can't really head back in
+Am I being washed this all time? Yeah, yeah, the guards are like all the well though
+Way around the place. It's heavily guarded. Whatever this place is
+Well
+While I'm walking out then I'll just go out the areas of like
+Get a feel of how many people and like see if I can figure out what this place is
+Um, you get outside and you just see like a bunch of like
+Sectored out like mansions all around this place like the whole pathways just filled with these
+Um, you can start moving away and soon enough you will find like a big
+um, open area that leads up to this like giant cathedral type building
+Um, and you just see a bunch of people like going in and out of that place
+In the center you just see a big fountain
+Uh, water fountain with like a bunch of like fairies and angels like
+um
+statues in between
+Um
+Our go to the cathedral
+Maybe I can get some information from there
+Okay, um, um, why is this is happening as you're walking into the to do what are you doing? Mouses and Roma
+Following
+He's in charge
+Uh, yeah, but how are you following?
+You go to the mentioned
+You didn't get any like comments from him, so
+So what I figured
+I don't know this is exactly what I'm I was trying to get out of you guys, but you didn't say anything so
+You know what just for the sake of
+brevity let's just say he has one and you have one
+Oh
+Oh, it gets all calling
+Hi
+You saw something on the other side
+Hey, kick me out
+Well
+If you guys can get in
+Do stuff but
+I'm following a new week
+There's like a theater all over here
+Hey, maybe I can get you a wait there
+But this place is heavily guarded
+I don't know exactly this place is but
+Whoever's running it must be quite the big shot
+You'll see if there's still no one somewhere else
+Um
+Hey, stay up there
+You do
+Uh, yeah, all right, Roma let's look around
+What are we doing?
+Finding another way out
+So when I head down the stairs again
+Yeah
+You can head down the stairs but the only place it leads up to is the ship
+And
+Where we came into the cave
+Can we maybe climb up there somewhere through the shores
+Yeah, yeah
+You can't climb up because it's a cave dug into the thing but you can fly up
+Well, yeah, but I'd like the address of the cave maybe you just
+Get up there
+So I'm going to the cave
+Yeah, yeah, you can head up there for how how is Roma giving to head up there
+Yeah, that's a problem. That's why it's like maybe I could climb
+No, there's no way you can like
+Get something to like get a leverage on additional stairs or anything or ladder
+So question for you
+That door
+The door both
+And that teeth walk through is that into the kitchen?
+No, no, no, it's again, it's against
+Against like a stairway it's not into the kitchen the main hall kind of has like a big giant table
+where like the
+Other coax and chefs put the food in front of the butler and the main butler to check and other work items to put on the table
+And then he
+Gives a way past for the day stuff like that then that the kitchen is pretty far away from wherever you were
+Okay, so
+He just walked
+Like that he's just walked through the building and they'll just walked out like yeah, okay
+They just thought it was someone someone else brought in like pick pick it pity on or something
+Promise something might be called Christmas fish is every else so yeah, yeah again. It's up to you
+Whatever you want to do
+And is that butler still right there
+Yeah, yeah, he's still giving away orders and he's taking like dendin moushi calls over the table
+So mouth is just flying up and around I'm gonna walk in and be like
+What's my order boss I'm supposed to be cooking something
+La di da la di da like okay, okay. What do you need what do you need cooked
+Like I was told to come here you had down or
+Well, right get my dendin moushi to Roma so if I find the piece we can still come
+Okay, you hand over you then moushi to Roma you have found a play a way out of the place but
+Roma I guess has to just go through this before I leave I'll just just state the Roma Roma just doing doing things to visit
+Uh, it's a polarer try to try to not kill yourself. Okay
+Uh, I'm asking
+Too much yeah too much
+It's a bare minimum man
+Um, uh, all right Roma
+You head up to the main bapler guy and he looks around and goes and who the hell are you supposed to be
+I'm your guys this new cook. I was just told to come and get some orders from you like
+I'm supposed to dice up something like I don't know. I was just told to come and talk to you
+Uh, I can rule the subject
+Well, hey be deceptive
+Deceptive
+Also the only make probably at this whole other nation. Yeah, I mean again, it's like they can hire people outside of the place but
+Yeah, but Roma just kind of starts out. Yeah
+But anyone would believe that he's a cook for sure
+Uh, he looks at you. We got up and down and he goes
+Right
+Okay, um, we've had some problems with our chef already
+um
+Right um, you can head that way he points you toward like the right quarter or leading out of the room
+He goes at that way and that's the kitchen
+Yes, sir what what what am I supposed to prepare they told they told me you were gonna tell me what
+Like who said these
+useless
+They put everything on me like I'm supposed to do their job
+You were the cook so cook whatever you feel is right
+Get whatever supplies you have in order and make it work
+And do not ask questions. Okay, so execute orders. What's your job? Ow
+I
+Like
+You just hired me. I just need to know what they like
+Like do they like a romic stuff that smells good stuff that tastes good
+You just gotta point me in the right direction. Okay, he points to you to like this rotisserie chicken that he has on the
+table and he goes
+It should look just like this but taste not like crap you understand that
+Yes, sir, so you want you want nice little lord whale heart is not a patient man
+Get to work
+Say less. I'll be I'll be bad. Okay. I
+Someone take this guy away from me
+Uh, I just told you I'm leaving five people okay
+You had it into like the kitchen
+What are you doing?
+There seems to be uh someone working in the kitchen at this point with a bunch of other people
+I'm gonna walk in and just be like you guys are doing this shit all wrong
+My fucking skillet on the fucking table and be like listen here. I heard the shit tastes like shit
+Uh, we are we are starting all over
+You see this
+Like man with like a giant mustache like the mustache is like
+So big that it leads up to his like stomach and he looks up at you and goes
+Hey
+I'm the new cook that they hired because your shit tastes like you cook
+I'm the cook of this place
+Not anymore. I heard your shit tastes like ass. They said they hired somebody new because you're bad
+So you big fella get to wash in dishes
+And I'm gonna point to like his sous chef next to him and be like you start chopping
+Uh
+Ingredients I need time. I need a regga know I need paprika. I need all that get it going
+So yeah, sir and the guy like kind of marches in takes a bunch of like carrots and starts to like chop them and
+The other people around the place also kind of like stiffen up and just walk uh right up to you and stand in a straight line and they kind of like
+Put out their arms and they kind of salute you and he goes sir on or sir
+All right, I'm just gonna go start
+Start down the line you you start preparing a nice little soup. It's gotta be flavorful, but simple you
+Start preparing dessert. I'm thinking I
+We're gonna do chocolate silk pie. You know how to make that doesn't matter figure it out get going and I'm just gonna start
+All of them like disperse and go into like each area
+And then I'm gonna slowly walk up
+To everybody the dude making the pie. I'm just gonna dip a finger in and then taste it and be like it's all wrong
+Start over
+More flavor make it with love son of bitch and I'm gonna go to the big man who's probably still just standing there like what the fuck's going on
+I'd be like I told you motherfucker get to wash in them dishes
+Sir yes, sir. He kind of confusing if you walk stores like this thing and starts to watch this is whether which are already washed
+Is like it just puts them back in
+Minute what the fuck is happening no you all answered to me. I'm your captain this guy needs to get out
+All of them kind of hesitate
+And then I'm gonna be what was the what was the lord's name again?
+whale heart
+That are you gonna be the one who tells long why you're gonna tell his cook to get out because your shit tastes like garbage
+Everyone just gets back to their work and this guy is just not listening you walks up to you. He goes
+Look big man. I'm not here to make trouble. All right
+I earned this position. I work tirelessly though for these fools for years
+And now I'm promoted at the head chef. I'm not gonna let you take that away from me
+I never heard about this new chef hiring anyway
+Don't realize they're getting replaced until it's too late
+Now like I said get to wash in dishes and I'm gonna take my frying pan
+And just smack it on the table
+Or we're gonna have some issues
+Oh, we have some issues all right. He takes like this butcher's knife and just smack it on the table as well
+As he just stirs right into you
+All right
+Is not a cookoff is definitely not a cookoff
+You want to settle this?
+Cookoff
+Let's go
+There are no time for a cookoff he takes his leg
+Butcher's knife and just slams right into you
+Oh, he like back in or front in
+front in later blade blade. He's not
+He's not fucking round
+Okay, all right, let me cut me
+Let me see if it is
+Oh
+It is 23
+Okay
+Or it slices you up
+Just like slightly from your side and it's up to you. What do you want to do?
+Oh, I'm taking my pan and going across his head all right, let's go ahead and we doing it
+We doing it twice if the first one doesn't knock him out there
+All right, let me
+Right
+Roma let's do this
+26 hits
+Is it all the damage?
+I think it's 18 critical, right?
+Yeah, 18 19 20 years it's 18 80 80 80
+19 20 I think pretty sure we
+10 it doesn't matter he's gonna knock out
+Yeah, you know I came out and I'm a knock I'm a knock him out and turn to everybody be like does anybody else have issues
+No, no center
+Everyone gets back to work
+And the guy just like immediately just slams on the table and goes down on the floor
+Hey
+Now I'm gonna go through and I'm gonna make sure everybody's flavorful
+Has flavor and is impactful
+Okay, let me roll
+40 10
+40 20 right
+Except for the first and last guy everyone seems to be cooking fine
+Hey the first and last guy
+I'm a point in about be like you to suck start over make it fast
+Yes, sir
+And they start over again in like 10 20 minutes
+Uh
+Yeah, it does seem serviceable
+Okay serviceable not good enough
+All right
+And this goes on for a while I'm gonna shift to the other people for now and we'll come back
+Oh the first one succeeds the second one just sucks
+It's the third dude
+Yeah
+All right, I'm gonna move back to
+Melvus Melvus you fly up uh around as you kind of fly up a bit above
+The the tree level you do spot like a bunch of mansions lying around in this uh like
+Shape uh like this complete like sector of this place seems to be like these mansions like big big mansions
+And you do spot the cathedral right in the center
+uh
+And as it divides to like other sectors of the place
+What do you know so walk that
+But you uh fly down into like this
+Kind of like a hidden area behind an alleyway near the cathedral and you start walking up toward it you spot
+Baptiste kind of like rarely going inside the cathedral and um yeah
+Baptiste you
+Immediately see a bunch of Marines walking around in the cathedral
+And you kind of see like a few people working on maybe a platform
+Uh in the middle of the cathedral
+You
+Is
+The
+Uh, it's basically like
+pretty like
+Pretty much normal. It's not normal in the sense like there's no people like praying or anything
+It's just
+Constructed like a cathedral and not much else
+Wait a minute
+Marines everywhere
+The cathedral built a platform
+Okay
+Uh, Melvus you quickly follow uh oh god
+Jesus Christ you have no clue you have no clue what's happening
+Melvus you quickly head inside and see Baptiste uh looking around kind of scratching his head like what the fuck is happening
+What you could talk what would you say
+I might have a clue what's going on but might finish
+You you understand immediately what the hell is happening
+Uh
+What
+Uh, you have you do have um
+What do you call for can you inside your clothes trying to like peek outside
+From your cloak
+Um
+I'll take a mountain hold him
+In the open
+It's the the dog
+Yeah, yeah, yeah, sure sure. Yeah, you hold them outside
+All right, Melvus you and Baptiste are
+The same place now
+I can't put my finger on what this place could be used for
+Oh
+congregation but
+If earlier god would tell us what it is
+What do you mean I thought you knew
+Uh, okay, essentially to you Melvus it looks like it's sort of an execution platform
+Yeah, see I was going there but I was like is it?
+Yeah
+And you look around the place and you see a bunch of uh
+Markings around the place like boards leading to like different paths of the island and so on so forth one of the boards points
+toward like the
+East east words and it says um
+What the fuck was the name of that?
+Lexi in period and one of the boards that Lee that points southwards um says like news hole docs
+They think they want to execute her
+Turns out we made it to the island wanted to
+Yeah
+Let's see if we can
+Let's try to look around see if they can get a layout the area
+It is like a public execution are like posters like execution of
+No, they don't advertise the execution. They already said whose execution is planned on the fucking paper
+Right
+In the papers it was mentioned that the execution of draves was
+scheduled to be on news hold
+Couple weeks from now so it's not now because it's still in construction the it's planned
+Wait drapes is also execution here and not just them
+Now zim is going to be taken to the judicial uh system and she's going to be charged
+That there's gonna be a whole process then her
+The like charges supposed to be is she going to be imprisoned she going to be executed the that's not decided yet
+We're on the wrong island
+So this is news hold then this is news hold and um
+Lexi imperia is uh the other island through the bridge that you saw that was heavily guarded
+Was that where all the ships are just the same island base please
+Yeah, there's like twin islands just separated from the from this why this like
+underground underground
+All right, I thought you were to like islands like a fucking distance away
+No, no, no, it's not that far. Why would there be a fucking bridge with these islands?
+I didn't know it was the other
+I get it I get it now I get it
+So it's basically Lexi imperia is placed there because most of the cases that come into the
+uh
+Like imperial uh judiciary system they just lead to news hold and news hold this name that because people get hanged here
+I get it yeah
+Everyone everything makes sense now with your 25 wisdom chair
+It's coming together
+The tall going together guys
+So fucking mouth is going to mind palace
+Didn't figure all the shit out
+Wait a minute
+All right, yeah, Battees got distracted by
+Moon it's just like yeah
+All right, uh while you guys have this realization that you're on the other island
+Uh
+Roma what is up
+It seems to be like a couple of to attend to 20 minutes have passed and everyone has
+Seems to figure out what they're cooking and everything looks good
+Up to your hands and so as everybody's cooking like I'm gonna dip into like a
+Sideroom and I'm gonna give mouth as a call
+And I'm gonna be like
+Whoever has
+I'm just gonna give whoever is holding the thing to come be like
+I'm waiting
+Rolling
+Well nobody nobody gonna
+Who's answering?
+I don't have a snail on me, so yeah, I was distracted
+From one
+Battees to have an ink on me call
+Probably Roma
+I'll answer it
+You just hear a blue bark but act at you
+Yeah
+You still like it
+Oh, I'm so I'm running the kitchen right now
+Got these motherfuckers working on
+Roma
+Battees, what do you mean?
+I'm running the kitchen, what's it we
+Got these motherfuckers working on them we make it a hot ass meal
+This is gonna be so good. What do you guys need me to do
+Like is this still bad or good do you need me to poison them?
+Well, we're on the wrong island
+So we just leave it like well you you remember that bridge
+Need to cross that well
+Here's the thing
+They're expecting we got the report and
+They're expecting us to attack
+And get them first
+I mean
+We saw the report that boy. I had a whole fleet just for the pants board expecting an attack
+And she is scheduled to be tried first
+If we were to get a trobin now we might face less resistance than
+closer to his execution
+Okay, question
+Um just little insight
+Whoever was in charge of this kitchen crew
+Said he was the captain of something. I have no idea second thing
+again
+What do you all need me to do I can
+Do you just need me to post up for keep pretending like I ain't got much time because I gotta get back and make sure these people ain't
+Fucking up this food my name's on the line
+Practice find out about the report. Have any of any information?
+What what
+So I'd find out anything maybe
+Okay, give me a call if you guys need me again
+Okay
+You know what
+What what did you say about these
+Good work Roma
+Okay, I like I said just let me know because I gotta I gotta crew full of people out there that are
+We are preparing a feast of some sort for
+Some Lord whale
+Name
+Lord whale heart
+I think it's some dude named Lord whale heart you ever heard of that
+The name familiar you said no no no
+Oh
+What what
+This
+Daryter and I'm on I'm on hang up the dinner. We'll she put it out there and I'm on walk out there
+And the scrawny is looking dude the scrawny is looking to probably the one who used to be used to be the
+Um the dude who cleans all the dishes. Yeah, yeah, the guy you put on dessert
+Like I put on dessert. Yeah, I'm gonna look at him and I'm gonna be like
+I'm gonna walk up to him and can speak the newest pimple like
+You know tasting everybody's food along the way and I'm gonna be like all right dude
+You fucking up to this dessert
+What is going on? Are you intimidated by this whale heart like what is going on big fella
+No
+You need to be you need to be but I need to know like what has you scared about this whale heart so damn bad
+Sir what's he doing Lord whale heart is a judge for Lexon period sir. He's he's about to be scheduled for his hearing tomorrow sir
+He needs his food sir
+Yes, sir judge
+Sir all of the people around this area are the judge that work for Lexon period all of their houses are guarded by Marines and
+they
+reside over the
+Lex Imperial Judicial System
+sir
+Perfect I need you I'm gonna give you a special mission
+So yes sir I'm gonna need you I'm gonna need you to go contact the head butler and tell him that we need
+To throw a big feast for all of the judges around okay. I'll take over your dessert while you do this
+But let let him know we need to invite all of the families all of the judges here and we need
+Big fellow a big
+Part tonight we have a big feast so I'm and I'm gonna turn around to every all the other cook
+So I'm gonna be like we are preparing a feast tonight for everyone. I need a
+Right as you say it
+You
+A hand right behind you and you see this butler kind of like pissed off the head butler that you saw earlier
+What exactly is happening here?
+We're preparing the food like you told me to feast it all your your head chef. There is no feast
+Do you understand me do your job
+And this stuff is to be figured out by people who are much
+More powerful than you you are a mere cook
+Do your job
+Bring the food up to the Lord
+I tell you to do whatever you
+Are paid to do if you do not comply you can leave we can found find another chef or whatever you call yourself
+I'm gonna take I'm gonna take a little spoonful of dessert and I'm gonna shove it in his mouth
+And pray that it is the best food he is okay. Can he roll work?
+All right, let me cook you ten soul if you fuck it up now it would be so funny. Yeah
+Why is it okay? It's not popping up there. Oh, it is my thing was just covering it. I'm sorry
+Come on. Oh
+Okay, that's right. Yeah, he takes like a bite. He kind of
+Tastes it. He thinks about he closes his eyes and he looks at you and goes
+Well, I guess you are worth your salt
+None the matter you take the food up to the Lord. He is getting late for his caravan
+I will think about this feast idea of yours. Maybe this will help
+What
+The reason I'm saying a feast
+Judge whale heart has the best chef on the island the best one and I want to show my
+skills
+To all of them and let him glow that he has the best chef around okay
+That is what I'm trying to say take the food up to the Lord and maybe put that idea in front of him and if he likes your food then
+He might be willing
+To let that happen neither
+In either case
+I don't think the feast is
+Going to happen anytime soon the judge is pretty busy with his daily task
+Okay, so I'm gonna start I'm gonna tell the scrawny little fuck to grab a tray
+And that I'm gonna be like
+I'm gonna start assembling his food
+And I guess I'll take it up there with the scrawny little doom
+All right
+You take like 10 to 20 minutes to start like garnishing the food and maybe like
+Setting it up nicely for like a little nobleman to eat or whatever right
+You said the plate up and you take the scrawny dude with the dessert in his hand and you take the rest of the food with your on a plate
+You knock in front of the door and you just hear yes come in
+I'm walking and I'm gonna I'm gonna lay the food down and I'm be like
+What would he be mister or would he be lord lord like
+I'm gonna be like lord whale heart. This is
+I am chef or boroughs here
+I'm head chef or boroughs. You're newly hired. This is my
+My palette of food that we have prepared for you today with me and my humble brew downstairs
+And here's a lovely French silk pie for dessert prepared by this j
+Gentlemen here and I'm gonna lay it out and I have one humble request of you lord whale heart
+The silence let me taste your food first and we will see to your request after
+Roll the coke suitenses once more for the dessert. It should be fine, but just for the main
+dish as you look or to him you see in front of you a guy with like
+You know the head pieces that the fucking
+Judges used to wear back in the day that head piece and a big mustache like white mustache leading up to his here
+ear no beard and with just like blue eyes and this like blue garb with silver lining
+Like a judges garb essentially as he takes his
+Like place on the dining table like large dining table into his his like large
+Like office room
+He sits and he starts to like take the fork and knife and starts to cut
+The pieces of what what do you have prepared and he just starts to take a bite as he takes the first bite he goes
+Oh quite exquisite. This is the first time I'm tasting something like this
+Or a Boris you say that is quite a
+um
+Extraordinary name I have never heard of such a name um where are you from young man
+From the mountain of zoo I was trained in the arts of culinary skills by the mugs there
+I see I see I've heard a lot about this a zole place
+I'm not always good, but you seem to be quite capable
+Now
+You there young one put the dish right in front of me. What is it?
+Yeah, the this grony dude kind of like shakes and puts the plate in front of him as he goes
+You just keep saying that
+He prepared you a lovely chocolate friend so pie with a nice fluffy moose center
+And garnished with whipped cream
+As you say that he puts like a spoon inside and he takes a small bite and he goes wow
+Quite exquisite is this your job young fellow you look said the
+But um like scrande do it kind of nods and goes
+And quite well done. I suppose all you lacked was a good leadership
+Um or a boroughs
+Uh, I am yes you mentioned something about
+Something yeah go ahead while I take a bite of this exquisite dish you made
+Uh, he takes another bite and so on as he's listening to you
+So I'm thinking you have an upcoming execution
+Or something going on because I saw the festivities getting ready
+So I'm thinking for everybody around
+And for you because like you're a lord you have the finest chef
+So I'm thinking we prepare a feast for all of the families. So that way you could show off to everybody
+How great your chef is compared to theirs
+Okay, and I'll prepare a giant feast of
+Different cuisines
+And you could show off to him and be like this is what I get to eat on the daily
+And you get to rub it into all the other families to let them know how exquisite your food is and how rare
+Like they get to have it and also celebrate whatever your guys is upcoming festivities is
+You think a killing of a man is a festivity
+Young man. I have no idea what's going on
+I have no idea it could be depending on the right man
+If he is a known criminal and you guys caught this guy and if he has a
+A very
+Bountiful reputations. So shall I say a very bountiful reputation
+Um, it could be something where you guys might want to celebrate because you guys got the criminal you know what I'm saying
+I have no idea what the man did. I have no idea who you guys are putting now
+I just arrived here because somebody hired me saying your shift was it
+inadequate
+So they brought me in knowing that I am right now
+Renon you say
+I see yes
+All right
+well
+Jefferson is
+quite
+capable hand learn I
+suppose he chose
+wisely
+Regarding the execution the execution of the fellow at news hole has no
+relation to the judiciary customs as the Marines
+Enforced their laws above ours and I've decided to go further with the execution of the man called Revos Caligos without
+due process
+I hold it in contempt of law and justice
+As justice was not served in that case although I am looking forward to my next case
+Which is going to be this young woman in called
+What was her name I blank on it
+I will go through her case tomorrow and as you can see I have my work cut out for me
+Or this young lady's sake I would prefer to not have these festivities as of now let's
+get this dark moon done
+And maybe we can think of holding
+Bank quite as you say
+So you want to
+So you're saying no
+No no feast until after the executions are done yes yes
+Quite so okay
+And secondly, so are you the judge of her case and Dravos's case or you just the judge of her case
+You're not listening young man. I said there was no due process for this dravos fellow do press
+Hey exactly
+Yes, okay, okay, that's on
+Well, you said you were there's no due process for dravos, but then you said you were the judge
+But I don't are you the only judge for her case
+Yes, yes as of now I am the only judge for okay that case itself
+Okay, so then I will start preparing your dinner
+We'll start to go ahead young man
+How can take you leave how do you feel about slow roasted pork
+That sounds quite exquisite
+Okay, that's all I need to know now if you don't mind you could you
+Take the food to my son as well
+He should be somewhere and
+He should be at the courts
+Yes, sir in Lex Impugia
+That's really prepare a caravan for your delivery
+I see that
+You are quite capable and I would like my son to taste the food that you have made as well
+Yes, sir
+Sorry
+I'm gonna leave now start preparing like preparing food to take to its own
+All right, peace we gonna walk out we're gonna start preparing food
+While I have the the young man there that like that scrawny dude
+I'm gonna tell him to start preparing food
+I'm going to tell all the other cooks in there take a 30 minute break go lay down when we come back
+We gonna get after it and I am gonna dip into that same
+Yes sir close the door behind me yeah
+I'm gonna dip dip into the closet and I'm gonna give
+uh
+Baptiste the call and let him know everything that dude just told me
+Baptiste as you wait around uh
+Let's see what you guys have been up to in the meantime and then we'll take the call
+All right you cut off your call with Roma
+What are you guys up to
+Once I realized it's the execution hall
+Mm-hmm, and I would have been said everything about trying to get drove in first and they probably expect us to do that first
+I would have started looking around for like any
+Clues as to where they might be holding someone or just try to sneak behind the garden dude
+The stealthy whisper of the god
+Okay
+All right, what are you doing melphous
+Yeah, also probably scouting the plate out of it like
+Maybe we say like hey, let's look around the island bit and be back here
+Okay
+You walk around melphous and then
+Nothing much really stands out to you except for like a couple of shops
+Close by to the cathedral
+Outside the cathedral within the cathedral like near where the stealth stage or the platform is being built
+You just see a bunch of marine presence
+Uh, and that's about it
+Um you walk around and you spot a couple of posters
+wanted posters
+And you do see uh your new posters on these pamphlet
+essentially like a board
+Okay, let me pull up your buttons
+Like I'm walking around and
+I see the poster and I just walk past on like wait a minute
+Wait a minute, that's me what the fuck
+Uh, of course you like right now
+the biggest like
+The centerpiece that you see is off obsidian for 600 million bellies
+But behind that under like the buried posters you do see the new boundaries for everyone
+You see blackboard black dawn baptized 130 million bellies
+You see
+Hexmarkina bob with 25,000 bellies
+um
+You see iinskillett rama with
+65 million bellies
+You see waiting fest malphys with 75 million bellies
+And and all the other six fold bounties are the same
+But you see a new bounty uh
+for uh red in his human form which is now 25 million bellies
+You don't recognize red
+But you
+But you would have heard about it from baptism drama
+Like someone with the name of
+um
+The crimson cacophony red
+Can i take the poster with me?
+Uh, I mean you can yeah you can
+Just roll for slide of hand
+It depends if you just rip him off or you're just like sneak and taking a bite
+I mean not like well everyone is watching me right
+Yeah, I mean they will definitely spot you
+Okay, you just go closer to the like wanted board as you rip apart like uh the poster for everyone else or just that one
+Well, I mean everyone can know about these
+Yeah
+All right and the least picture of our faces on here the bell right
+Yeah, yeah, yeah, you take off everyone everyone's bounty and you also take the poster for
+Obsidian as well because it's like right in front of everyone
+So you just take his poster down as well in the process
+Uh, yep. All right, you take it away
+Yes
+Okay, Baptiste as you're like moving around
+Where do you want to sneak in?
+What do you want to do Baptiste? Sorry
+You're still inside the cathedral right?
+Do I see a guard that's like by himself
+Uh, can you roll for?
+Can you just make me a 1D 20?
+Oh
+No
+All the guards are like pretty much grouped up together like in pairs of do and walking around the Marines might I add it
+They're not just guards in Marines
+And from where I can see there's only the platforms
+There's just a platform the the platform is being built like to
+uh, like pretty high up
+So like everyone can look at what's happening and the area around it has nothing. It's just empty cathedral nothing
+Else just people walking around
+And like looking at what's being done like you know, just standing around looking at the construction being done inside the cathedral
+The cathedral like it's completely like fully made
+I will throw on my mask and then walk up to the the Marines
+Okay, uh you walk up to the Marine and they put a hand in front and he goes that's
+Right, stay back
+And this should be about it the viewers need to stay behind this line
+neon lookers
+I know me or you are
+I've been sent to
+I've been
+It's investigate the more I heard
+The man that for execution has been putting up a bit of a struggle
+And well, that's why specialty he he he dealing with people struggle
+Uh, okay, can you roll for deception with this advantage?
+Oh, yeah
+To that's what it's called
+No, uh at this point he kind of
+Orchard's you and goes that's funny, buddy, because the prisoners still en route
+And there's been no trouble that we've heard of
+Now walk away and let your dreams be dreams fellow
+Uh like point my hand towards the space
+Mm-hmm
+You win your petty little dreams
+You know nothing of the people about you
+We'll see if you make it back home tonight
+Good luck with you
+We'll see if you even have a job
+You see the other guard kind of walking up there me
+Bro, that good dude's creepy stay away from him. Just come back here
+What the fuck is he saying that doesn't seem right? I don't believe in curses, but that's a curse, man
+You know
+Hmm
+They're still at their position to the religious not messing with you
+I'll just start laughing the night we hear
+All right
+Okay, uh right about this time you get the denim mushy call from broma
+And mouth as you run up to baptize and show them the posters
+You
+Don't you do that once doing some of the guards?
+Well, no, no, no, no, you're far away
+Probably
+Born and then I'll walk away from the guards
+Okay, you walk away you see Malfa's approach you you show the poster and at the same time the denim mushy starts running
+blah
+Blah
+Lunar folding corporate it. Who's calling
+Hey boss
+All right, you relay all that information to baptize
+Everything yeah, hey baptize. Uh, so I just talked to this lord
+Why do we learn whatever the hell is in the way art of what we're all
+So uh, hey
+They're drabos is supposed to get executed tonight
+Not tonight not tomorrow
+I thought I was supposed to be because no, it was supposed to be the court tomorrow was the
+Hearing for them supposedly and drabos was scheduled to be
+executed sometime during this week
+Our next week, okay, sometimes sometimes
+Sometime in the next couple weeks drabos is supposed to be
+Uh executed secondly
+Tomorrow there is a court hearing for zip. I don't know if that's
+Important or not, but the head judge is this lord whale heart
+Thirdly, I'm trying to get a feast where I could get all the judges in one area and you know
+Do my thing with them. You know what I'm saying
+But boss what do you do?
+Hello
+What do you need me to do boss
+Find
+He said that the judge
+For his own trial is the one that you call me
+That is correct
+Find a way to tag along with him to the trial
+Uh
+Um
+It's a public trial we can all attend it
+No
+Not publicly as part of
+You think he's gonna take his chef with him
+It's your job convincing to do so
+Okay, I mean I could say he might need some snacks
+Oh
+Only could just simply poison them later
+But also I'm supposed to go and deliver food to his son
+We're preparing the food right now
+And how did you get broken for that?
+Lord whale heart told me to go and do that
+We'll send you like to the board so much
+The whiskey test
+But what I'm asking now is uh this would be a good we're supposed to be meeting them
+At some lawyerly building you know
+I could slip a note in his food saying his dad needs them to meet him some place
+And you know
+You guys can
+Do your thing with him
+He was both the child ran with someone
+That's on you that whatever you guys do
+I'm not part of this
+But I can write this note real quick and you know
+Well, we deliver the food to slide it in there you know, I'm saying this
+You do that yes
+Okay, where do you want me to tell him to meet you
+And of the docs and of the docs
+Uh
+930
+Okay, and of the docs 930
+All right, so I'm a I'm gonna write up that note and then have it like tucked in my hand
+So when I grabbed the food I can just slide it in the packaging of the food
+And I'm like all right boss
+I'm gonna do this and I'm uh and then I gotta get to helping this dude
+If you want me to like poison this food that like knocks him out or makes it felt ill
+Like so midway through the trial he gets the shits
+If that is what you think is best luck
+What I just need to know because like this is something I'm preparing to do is didn't
+Okay
+Uh as you're talking about these just hangs it up and made away
+Uh our baptism relay all that information to mouthless
+Uh, what is everyone doing
+What's plan
+Well, we're preparing a
+Mm-hmm
+Go ahead and baptize at these
+No, we're deciding that's the wait for you to
+Uh heading back to where we're exactly
+Well, I told her I'm gonna leave the note for him to lead into the ship. So I'll be just heading back to the ship
+Uh your ship
+Yes, your ship which is
+Within the mansion
+Yep
+How do you how do you plan to go inside the mansion again
+What do you say that man's name was Sir Crescent
+Cash in
+Cash
+Let's actually find this Sir Crescent
+Malthus
+I can't go talk to those guards again because of
+Issues but
+Seems you can go find out something about a certain hatch
+All right, I mean you can meet up with Roma
+Because he's all over also leaving to like get the food to the
+Sun and you want to head back to
+Play
+All right, I'll just wish Roma Roma you have prepared like the food that you want to get you want to deliver to
+The Sun right
+So uh a cart is getting ready for you to take the food
+Uh right in front of the gate you see the cart and you see a bunch of guards right in front of the cart as they open the door and let you in
+Uh as you're going toward uh like through the cathedral like around it uh you see Malthus walking toward the
+Uh mansion
+I'm not pretend like I don't see him no good
+Uh Malthus you do see Roma very obviously looking at you
+And kind of gives you a slight nod
+Uh all right, uh Malthus you're walking
+Oh hey good I'm I'm gonna see him and I'm gonna pretend to look away like I'm gonna do the oh there he is
+Uh Malthus you're walking toward the gates of the mansion and you see the couple of guards standing behind the gate
+What do you want to do
+Yes
+What do I need to figure out again
+Uh about Sir Cation
+Uh uh
+Uh uh
+May I ask a question of youth
+Yeah you lost
+Uh well yes I told me to deliver a letter to Sir Cation
+and I need to have forgotten the direction
+Uh you the young lord has gotten himself into more trouble
+See look
+We don't allow people such as yourself inside the mansion you can find Sir Cation
+at his office and Lex Imperia
+Now off with you
+What what do you mean he's gotten in troubles
+Well what are you here for some more money what do you want to beg for
+Well my brother has taken me and he told me to deliver this
+Uh what what are you handing over
+Well no I do
+My first thing was I needed to deliver a letter but uh
+Who's like what do you want he's like what do you want
+No what what letter the letter is going to be handed over by the one right
+Well no but like trying to figure out anything
+Oh okay okay uh
+I don't have a letter
+So okay okay okay
+Whatever you need to hand him over just go to his offices
+Sure he'll be happy to take you in like the rest of them
+Which you'll have a map of the place perhaps
+You should see Sir Cation, Wellhart
+Pretty much everywhere written around where his offices are if you go to Lex Imperia the high court
+You should see where his office is not hard to point
+All right thank you for your time
+All right
+You and the guard like turns away and takes his position again
+I
+I'll walk back again and do the other you by your words yeah all right um
+Baptiste what are you doing in the meantime
+Just didn't around waiting right uh you see Malfa's approach you
+And he tells you all he heard from the guards
+Also Roma that didn't do a guard probably to deliver his footage
+Is this like passion and
+That's on the same person
+Well no was this a sunrise Sir Cation Wellhart
+And the other the the the Lord I Roma work for now
+You think we should go find this or a cast
+Uh okay Roma you yeah you can just give Roma a call you still in the
+Carriage
+No, no the two guards are accompanying and like the people driving
+Here as well
+Yeah, I mean in the carriage they might hear
+Who knows
+Like I'm saying like do you just follow it? I mean you can just follow it yeah
+Um
+Okay, Roma no I'm just going along in the carriages with with the scrawny
+Yeah, yeah with the scrawny guy in the carriage and the two guards
+The carriage kind of stops Roma you look outside and you see a bunch of marines
+uh
+Outside
+And they are looking for permission to enter inside and it's one of the guards just
+Uh like kind of yells at one of the marines as he says do you know who's carriage this is
+This is Sir
+Railhart Lord whale hearts carriage
+We have special permission to enter the premises at any point
+Just because you have been given priority to look over the security of the palace
+Does it mean you get to this merge the name of the Lord
+Justice do you understand the marine kind of
+pretend the knots and
+Points to the other marine to open the like um gates in front of him as the gates spread apart the cards starts running in
+um and
+The kind of come to a stop right in front of the doors of this like huge gigantic
+uh
+Like building and it's divided into like several several orders and
+You hear knock at the door and the guard essentially says though you will arrive
+You can go on foot from here. We'll be waiting at
+Here to get you back to the mansion
+Uh the scrawny dude exits takes like the
+Like backpack with the food and everything
+On his back and he starts to follow you
+Uh before he does that
+The backpack with the food, because I'm assuming like we tied the food up in like a
+Like a knot and something thing. I'm gonna like straight
+So I'm gonna I'm gonna grab the dudes by the backpack and I'm be like all right scrawny dude
+Like we are we are approaching
+The Lord's son. I need you on your back. That's behavior and I'm gonna kind of like give him a tap talk
+But secretly I am slipping that note into like
+One of the folds of the food. It's like
+When we lay the food out nobody's gonna see the lettering until like the son takes a cover off the food. You know what I'm saying
+Uh as you say that to him he goes
+It should be fine sir. So so cation is a kind gentleman
+We don't need to worry that much as he starts walking
+uh
+Keeps walking and you see like these large halls and then like uh these big
+offices like covered in marble and everything you see people running around from like place to place
+yelling and shouting and like arguing with each other as
+You see like lines of a lot of like people you see all sorts of people here like
+Marines you see
+Pirates even like people like tied up into
+handcuffs see prism stones every sort of person
+um is around here and
+Everyone's really like walking to one room other everyone's walking in the main corridor and
+You see like this big giant board of essentially like every lawyer's name that works at this place and like names of
+Where like a certain hearing is supposed to happen in which room and so on so forth
+um
+He the young kid he uh
+Looks around and goes i'm i'm very familiar very
+Sir cation's offices are you can just follow me you don't need to look around here
+Uh, just trying to get my bearings my surroundings so that way if I ever come here by myself. I know where i'm going
+Yes, yes, of course
+You see cation well veil heart. You don't really see or spot it anywhere near like the
+Top of the board you see one small corner just like has like written in like marker or something cation will heart
+Uh, and it points towards like the west wing of the building
+uh, you start walking toward the west wing
+As you start walking the crowd kind of gets
+larger and larger the line seems to get more and more busier
+Uh near the west edge and you see like most of the people just are just waiting to
+Uh, go into this one particular
+place as all of the
+rooms around this place seems to be pretty much empty
+Um, you start walking keep walking keep walking
+At one point you start to head outside the gate of the building itself into like this small
+little alleyway
+and you spot like a small like dingy
+broken up kind of
+put together a place and
+You just hear like one man just fly out the window of this place
+As he just lands right in front of you
+You
+Hello sir
+Fuck you
+He gets up the ma he like uh
+Pat himself of the dirt and everything that he is in and he goes
+It gets over the red days way of the heart
+I'm gonna I'm gonna rip you apart one day
+You turn around and uh keeps going
+And all you hear is just next
+Uh, and that's it
+You see just this line just heading inside a bunch of people
+standing in line to enter this room
+Uh, you see the scrawny guy kind of
+Goes in and he gets like a bit of pushback from the people who are already standing in the line
+As the people goes hey, yeah, don't cut in okay, we were here first
+Oh
+I'm just here to deliver food. I ain't doing anything
+We're just here to deliver food
+Oh for surveillance heart. Okay. Yeah, of course, of course go in
+Uh, you see some of the people in the line kind of like break up as you head inside and in this like dingy like kind of
+uh put together
+small
+room you see a bunch of like just
+stacks of papers lying around and this man who kind of resembles his father
+No mustache nothing no facial hair, uh, but his hair is like stark black
+Uh, with like pointy uh
+Things like heading outside like
+I don't know like the pointy hair essentially black pointy here
+blue eyes and again like a blue like tightly knit clothe um uh coat
+With like white shirt uh within
+Like a three-piece suit kind of as he's like writing something down for this like woman's
+Sitting in front of him as you see like this pieces of glass all over like the place as he flung that guy out
+Outside, I mean you don't know who flung the guy outside, but yeah the broken up pieces uh
+He's still writing it down something
+Uh and you enter the room
+I ain't gonna say shit. I'm just gonna follow the scrawny dude
+All right, the scrawny dude is just waiting is waiting for uh
+cash in to get his work done
+He keeps writing something and he goes there you are
+Uh, I will meet you tomorrow at the specified time on the schedule
+Thank you very much for stopping by
+next
+And he looks at you uh and goes right how much you'll be what's the name of the client
+Uh sir
+Sir whale heart
+We are I am the head chef of your father. He wanted us to come deliver food to you
+He banks the
+top of the
+His table and goes
+I told Jefferson
+Do never
+Then anything here
+This is a place of my work
+They do not
+Uh mess with my work
+Well, this is a Jefferson this is coming straight from your father
+I he wanted you to try what my father wanted you to do
+I only care
+That Jefferson
+Listen to my request
+Well, you you could take that up with him. I'm sorry
+Like right. I'm just doing that as ordered
+It's fine. You can
+I'm about to take a break either way
+He kind of heads outside and he goes
+Sorry people
+I do have to take a break
+Uh, I will meet you here in an hour or so
+I will be here to hear your requests
+Come back in an hour
+And we will continue as
+usual
+Uh, he like
+locks the door slice the door closes it and he sits down
+He goes
+Right
+What is your name?
+I haven't seen you before
+Are you talking to me sir?
+Yes, yes
+I'm head chef or borrows
+or borrows
+Gene
+Do you know this man?
+He looks at the scrondly dude
+Yes, yes, this is new head chef. He he told me how to cook and everything I used to wash dishes before
+I know what you used to do, Gene
+All right, or borrows have a seat
+Yeah, uh, Gene you can take a seat too
+Uh, he like takes out
+the
+lunch box
+You still have the piece of paper inside this
+Right it would have
+Yeah, it would have fallen out as soon as like as soon as
+The one dude opens his food like
+Oh, assuming like we put it in like some like chopper container thing
+Yeah, it's like pin inside the lid of that
+So once he listens the lid off of whatever it's going to fall down
+Okay, he
+Takes a part like the tied up lunch and he
+Takes the lid off as the piece of paper slid and outside
+He takes a look
+Okay, what does it say?
+Uh, it would have said like
+Son, I need to talk to you. Can you meet me at the end of the docs around
+I don't know 9 30. I don't know
+837 30 whatever time you want him to go and meet him at the docs
+Um, I this is uh, I need to talk to you son. It's urgent. Please meet me
+Lotty dot time
+Dad
+Or no, it's gonna say Lord
+Well, huh
+Yep, he looks at the known uh, who wrote it? You wrote it?
+It would have been me, but I'm gonna do it as nightly neatly as possible
+Yeah, he calls rights
+I don't
+I mean he can write. I don't think he can read or I think it's one of those things. Yeah, he can write he can't read
+I don't know how that works, but okay forever
+Uh, that's kind of now he looks at the piece of paper and he clearly sees the writing is not his father
+He looks at you. He looks at the page. He looks at you again. He looks at the page and he sighs and goes
+All right
+What do you want air what I don't want anything I was just here to bring you my delicious food
+Your dad said you need to try this. This is good his orders. You could even ask
+Scraughty man here. He was there. He he saw it all
+He like puts his hand in the
+Whatever food it is. He like tears it and like chucks it in his mouth as he's chewing goes
+Now see I would believe you, but this is clearly not my father's writing
+So I'm gonna ask this one more time
+What do you want?
+Like I said, I'm just here to deliver food and you can even ask
+Scraughty man here. I don't know what you're talking about. I was told to come deliver food
+We prepared the food. We prepared it for your delivery. I don't know what you're talking about
+He looks at this kind of he goes
+Jane how long have you known this man?
+We just met today sir
+All right
+Now see
+Would you get a fair share of
+Nair duels and what not um
+You
+Do not seem like a
+A bad person you taking good care of gene. I did not really like
+The other man and
+Gene seems to like you so I will give you this one last
+chance
+To come clearly and
+State your business
+Like I said, I was hired
+To be your guys's new chef because you can fool anyone you like but you can't fool me. I'm a lawyer
+I know when you're lying
+That's fine. All right
+Now
+I was hired because your last chef was trash
+He he didn't want to admit that his food
+Was garbage. I was hired now you could clearly tell that my food is a way better than his
+And
+We've been all for the last
+Three hours we prepared your father's lunch your father told me that
+We need to come bring you some food. I don't know why he said come bring some food
+Because if you told him never to bring you food it must be because my food is superior than the other chefs
+I'm just saying he told us to come bring your food. So that's what we did
+I don't know why you keep asking why we're here or what we're here. Take the lid of the lunch and he puts the lid back
+He puts arranges the like the
+layers of like the top or where ties it up. He slides it over to
+Gene and he tells Gene to pick it up. He takes the table right in front of him lifts it up
+Consider side gets up and he looks back at you and he's just going to kick you straight in your chest
+What the hell
+Oh that ain't doing on
+Yeah, he takes your straight in the chest and he just like you just completely absorb it and
+He looks back at you. He spends around and kicks you again
+Well first
+Okay, that one hits you the first one you kind of absorb like the impact
+But the second kick with the momentum and everything just sends you flying off
+the broken window essentially to the ground as he
+Kind of jumps out off the window and he goes
+I thought I said stop lying
+With at this point the the scrawny dude would have been like he's not lying
+Yeah, well as far as he knows he's not lying but he's not gonna speak up in front of cashier
+Why wouldn't he because he's not in his place
+Yeah
+Yeah, all right
+You want to get into combat
+Now I'm gonna be like what is your fucking problem dude like
+I'm literally doing what was ordered of me you could ask the scrawny dude. We came here under your father's order
+Do not care
+Well, who's order you're following I am asking for the truth and you're trying to dodge the truth
+Who wrote the letter the letter this letter he takes out the letter
+shows it to you
+And I'm gonna be like where the fuck did that come from
+You size again and he goes
+You know
+At this point I don't care just leave so I can get back to work
+Jane informed Jefferson to kick this person out or whatever position is given and
+I'll explain to him later on
+You're excused
+But you're telling me I'm losing my job for creating you a fine meal
+All because there's some letter in there that somebody wrote to you
+And you're gonna blame up
+Us
+scrawny dude was there when we prepared the food to package you
+Where the fuck did this letter come from he can attest that I didn't do anything to it
+You guys brought me here from my home
+I traveled all this way for you just to fire me
+Within 30 seconds of you following and me following in order to bring you food
+Every word that you've spoken so far has no meaning
+There's no base
+You understand if he did not witness you put that letter in that doesn't mean you didn't put it in
+I'm not a good would I have been able to put it in
+He's had the food the entire time since we packaged it. Oh my god. It's like I'm in a corner with a dumbass
+Leave me alone. I'm not going anywhere. Whatever your plan is. I don't not care
+Just go away. I have a busy dead in front of me
+Well, you can have a busy day, but I don't know what you're saying my plan. I'm literally here just to deliver food
+Get eight the food now I can go
+Yes, and I do not like your face and that's why they're kicking you out. That sounds good to you
+That's fine, but you're gonna have to pay for my
+For my ship to get back home now
+You guys brought me here to cook for you now you're gonna
+Send me away. I need a ship
+Talk this over with the efforts and I do not care
+Jesus
+walks inside as
+He sits down again
+And he just goes next and the line starts to
+Continue
+As Jean like runs up to you he goes uh, I'm sorry. I could speak up
+I was a bit scared that
+I'm sorry
+You're okay. You're okay. What is your name against her?
+Jean my name's Jane. Yeah
+Okay, Jean
+Do you like this island?
+Uh
+Kind of so cashians cool
+So her cash in is not cool. He just fired me for no reason. I mean
+You're kind of dodging his questions
+A bit how am I dodging the question? I literally told you what I'm here for I was hired uh
+BF chef came to be a chef. That's literally what I did
+Uh, like you weren't sorry, but I did not cure an opening for the chef. So uh, um, I just went along. Oh, okay. Oh, okay
+Because you currently had a chef they hired me because your other chef sucked
+Yeah, okay
+The card should be waiting for us in front of the door
+All right, okay, he gets up and starts to leave
+So we're gonna go out towards there and I'm gonna be like
+So this dude just gonna fire me and then expect me to go back to his fucking place
+like
+You you talk you talk to whoever you want to talk to uh, Jean
+If you if you ever want to meet up, I'll be at the local inn waiting on a ship to get the fuck out of here. I ain't going back to his place
+If you don't if you ever feel like all right your skills are being squandered. I'll be over there
+Uh, all right sir. I should be having heading back
+Goodbye him. He starts to run off to
+Is there is there anybody around us? Uh, I mean except for the people in the court. No, not really
+Okay, so I'm gonna go out to like wherever the thing is and I'm gonna start walking
+Like into the woods
+Or someplace away from people where nobody can hear
+Okay, and I'm gonna and I'm gonna give Baptiste another
+tingle I mean you can head inside like
+The toilets or whatever in the other place
+Well, because I don't want I don't know how loud a dendin moushy is so I don't want
+Okay, yeah, you head outside you find like a corner that's like a bit like bushy and like some
+Shrubbery around, you know
+I can hide inside and give him a call all right
+Barbelly
+Um, please
+Hello
+Abos that dude ain't coming he caught on
+Something something's going on. I'm just gonna let you know like he is very suspicious
+supposedly
+Like he caught on I got fired like lie to down this lie to down that but again that court has happened
+I met a lovely
+Exactly, I got a good look at
+Whatever I was supposed to go um, and I'm gonna give him a detailed description of like what I saw
+Hmm
+So that way he knows like where the area was like what it looked like
+Mm-hmm. I'd be like this is what I found this is what I saw
+This is I and I'm gonna give him a description of the dude's son so that way he has that
+And I'm gonna be like
+To make things clear
+You just lost our one in with the judge presiding over drove in case
+No, Drowvin has no
+They are going about this illegaly
+He will not have a case. He is literally just supposed to be put to death no trial no nothing
+I got fired from a judge who was proceeding over Zim's trial
+By by the dude's son
+So the dude might come back and hire me back because I told jean where I would be
+Roughly
+So since I created I created a fantastic meal he might be like you know what fuck my son
+I'm gonna need that chef back
+Yeah, god Roma okay good
+Good work
+I would hope everyone so far
+Uh Roma is the only one who has made it inside Lexin, puria
+What do you I'm just gonna be chilling at the end hoping this dude will come and grab me and find me or
+For chilling at the end you have to leave
+Lexin, puria and which means you have to go through the marine checkout
+Which means you're fucked what they would do
+What do you mean I'm fucked
+You're fucked
+You're literally just saying like
+They did not see you they should not see you in the carriage
+They did not check the carriage they did not do it
+That marine headquarters yeah
+Like Roma
+Now you have one more person to ask you
+My question is is they would they would have seen me walking in with jean
+I mean the marine
+I mean
+They didn't they didn't like like if
+The realistically the
+Like they won't remember right they don't remember every person who walks in and out
+You can try to tell them that yeah, you can try to tell them like you're you're working for whale heart or whatever
+But you can try I mean it's up to you
+Well
+But what I'm saying is is I would have already gotten in they wouldn't be really worried about somebody who's in
+Yeah, but like the checkup
+Checkup and then saying coming out
+I mean it's the same thing
+You're moving your hands going
+Made in suspect you before because you were with will heart
+Yeah
+But that's what I'm saying like they would have seen me get out of the carriage
+Like some of the guards should have seen me like because if I'm with whale heart
+They would have been like oh this dude just left this carriage
+So then like the guards at the gate wouldn't know that but I could say that
+I was with that and I could be like listen
+I just got fired from my job. I'm just trying to get out of here
+That no I can't you can try you can try again. You can always try
+I'm saying you follow this lake
+It's hard yeah, but not gonna be easy
+But what I'm saying is they wouldn't really worry about somebody trying to leave if they were already in
+It'd be more worried about somebody coming in
+I mean do you know it's just that like the
+Marines have taken over first specific purpose. They're looking for people
+and
+You know who they're looking for and they know they're who they're looking for they didn't see you the first time you entered
+Is she already on the rise of yeah essentially inside the play there are no guards but
+Coming in and out of the place there there are Marines
+Especially posted by world
+Yeah, but what I'm saying though is they wouldn't really be worried about somebody leaving the place
+Yeah, but they if they see a main matching the description of a known criminal they're
+Well fucking stop you
+That's what I'm saying oh, oh don't worry
+Don't worry. I had a I had a I was literally gonna take some
+Some of my threads
+Like the back of my shirt that's covering my coat and I was gonna put on like
+An eye patch and like so I'm not really matching the description, but I still okay, okay, okay
+Like it's fine
+Again, yeah, I'm fine with the dice without everything
+Yeah, like I was just gonna see what they were gonna do
+Like
+Yeah, I wouldn't even know where to start. Yeah, I mean it's up to you what you want to do. Baptiste you're still on call. It's up to you
+Yeah, exactly it'll be all what Baptiste would tell me what to do. Yeah
+Our
+If you get seen that you run the risk of getting caught
+So already been seen by several people
+What do you mean you were with other people that gave you a cover?
+People about where they keep the first
+Sorry, sorry, what are we doing?
+So I'm gonna go back
+So I'm gonna go back like I said I'm gonna make that disguise like I'm just gonna cover one eye make a weird little eye patch
+um
+And I'm gonna go get into the line where everybody's lining up to meet that dude because you said it was a super long line
+And I'm just going to be in I'm gonna go to the back of the line
+And I'm gonna just tap a random person in front of me and be like
+Excuse me. Do you know where what this line is for like and
+See what they say and then and I'm be like do you know if they
+Have visiting hours to the prisoners
+So that way because I believe my wife was captured. Ladi Dao this Ladi Dao that
+I believed she was captured and I just want to know if I can visit her like
+Like where they keep them type thing like
+And bullshit and I'll even roll deception and everything
+Um the guy looks at you and it just seems to be like some
+civilian and you look so pretty sure you go well this the sign goes up to
+The the only lawyer that seems to be useful for our kind and he's a good man
+And we just want him to represent us in our cases against the world government and you know
+Like police with a marine cruelty and so on and so forth in my case the Marines broke into my
+job because I didn't pay them the ransom that they wanted to so I want
+So cash in to represent me and the zoo the goddamn shit out of these Marines
+uh
+That makes we can try and get some
+reparations for my cause as for the
+What a prisoner you want to talk to a prisoner? Well
+But most prisoners are held at the basement of the
+Lexi Imperial high court building so you should talk to the
+I'm talking at the reception though they'll set you up
+I did hear like some new prisoners came in and they're especially kept at the
+worship their
+docked
+near the
+Darks of Lexi Imperial yeah
+Oh, well, my name is John
+John and I have a question for you said those are the new prisoners you say yet
+Yeah, there's some big shot prisoner. They've been
+They brought in like
+Yesterday
+Today morning. I'm not too sure but it's been in a bunch of rumors going around that it's
+some like
+Someone learned dangerous so they're keeping them in
+The worship itself
+Okay, that's all I needed to know because like I'm just trying to figure out where my wife is
+Yeah, you're right might be in the the basement area
+Okay, okay, I appreciate you and what what did you say your name is again? A John John
+All right, I'm gonna reach inside my pockets and I'm gonna like flick him like 10 bellies
+Oh, well, thank you very kindly, but we do not take any money for just helping a stranger out
+And there you go
+I appreciate you. I'm gonna try to go find my wife. You said the basement of the high court correct
+Yes, yes, this court if you go to the reception is they will be able to tell you
+You need to go to meet the your prisoner
+Okay, I appreciate you. Thank you so much. Yes, I walk off. I'm gonna go I'm gonna go find another
+alleyway or place and I'm gonna give that piece another
+All right
+All right, that piece
+All right, listen here motherfucker. You go you go
+Respect me
+Because I'm finding info for you. Okay, you ain't gonna answer like I'm annoying you time shit
+First things first most prisoners are kept in the basement of the high court
+So y'all need to get here if you guys are trying to get here secondly
+gentlemen said there's a bunch of new prisoners high value prisoners that are being kept on their
+warship they are not allowed to it to be in the high court okay
+It is
+prickly
+The local prisoners so either them is them and
+Whoever the hell we're looking for they're either on the warship or in the basement
+What do you need me to do boss
+It tight
+Whoa sit where the fuck am I gonna sit tight
+Where did you say this warship was they said at the dock where they docked the worship that's all they said
+He didn't tell me where it is so it's someplace on the island
+You know
+You know
+This will be a good time for somebody to use mirlin to go fly around for us
+Marley is not a thing anymore. We have one of
+Yeah, he doesn't have a fine family anymore. Yeah
+He doesn't have any orders and he has a horse
+We have one of two options
+One
+Return to the ship and we ambushed their warship with our ship
+Warships my might I add there were a lot of warships
+I'm not just saying there's one warship
+And we don't have weapons. Yeah
+Which you could have gotten you could have gotten a lot of weapons for 50 million belly
+We didn't have time
+I mean you could have I said it for weapons and everything you could just say whatever
+Or
+We
+Find way to get through the
+Check point
+Meet up with you and then
+We enter from land
+Either way we have to make our way to the warship
+Yeah
+So you literally want me sitting in an alley digging through trash
+Tell you all figure out what you want to do
+Hmm
+Let me do it inside check
+You said check on who
+What the situation okay
+Yeah, the situation right now is looking very fucked
+Okay, if joking I said what do you want to understand about the situation? What do you think? Do you
+One are of the 21 are best
+Get what get to Zim somehow
+Yes
+As often now
+Here are you're like realistically your options somehow find your way inside
+Lexi in period first of all you have to get to Lexi in here if you want to have any contact with them
+There's two ways to handling this either
+you
+maybe
+Like rescue her during her
+deposition or whatever like her case
+Wherever whenever the trial is you can try to rescue her maybe you can try to
+uh
+Rescue her in between that first of all the problem is getting inside
+You know what I can come
+Dravels
+Just done all this inside
+Yeah, the dravels is out of yeah, he's out in picture for now. I mean it's gonna take a while for him
+Recurver I have an idea he's been using his powers for like three weeks straight never three times straight back
+I know grab my tendon machine uh-huh
+In contact the
+Radio that I had with them
+Okay, okay, okay, that's a bulzy move
+Okay
+Okay
+All right
+Um, but these
+All right, fuck me
+All right you
+ring the radio machine and
+It's soon like just
+You hear static coming from the other line
+Uh, so it's open whatever you are saying is going to be heard by whoever's on the other land
+I know you're there. They're all around
+Highlands nothing up
+Still static coming through
+Yeah
+Every minute that you ignore me one of your precious lawmakers
+Well, let's just say things won't be going
+Move the event
+You want to touch my people
+I think it's only fair that some people in your end get touched as well
+I'll touch people that taste that's creepy
+All right, yeah continue continue
+Dingle like to mouth is to make a noise in the background
+Oh
+As you make that noise some guy like close by he goes you're given
+Oh just ignore
+You
+The you hear a click and on the other side you hear
+Little bird decided to show up after all
+Right then you think I want to do it this way
+With all the onlookers to word the colesto incident and with the armor malfunctions
+You have a lot of eyes on us go ahead get rid of these panties for all I cared will make my job easier
+Next week, it's gonna be draves and I'm gonna make sure along with
+Sorry, droven
+Along with droven your friend here also gets
+The same punishment no matter what I have to do to achieve that
+I will see you around baptize
+I'm sure we are destined to meet again
+Now that's not ruined this moment by contacting each other again
+I will not be picking it up next time
+And you hear a click and just static
+I
+I am truly
+Call them back
+That
+Be like you don't hang up on me I hang up on you
+If he also is looking to excuse them as well at st. Thomas droven
+I mean it's up to you what you want to do
+Do we still hang up on the execution again
+Next week next week and I mean it's
+We don't know the result of what is the decision of
+Them like what happens to her if she's going to be sent to prison is she's also scheduled for
+Yeah, but there's like other factors in this not up to him
+Yeah
+At this point that she's like you're saying it because he can't figure out anything so he just yells
+Yeah
+Everyone around kind of looks at you and goes
+You're right man
+As the same guy is the same guy is just walking around and just telling everyone you are right man
+Is this a crazy person there is nothing you really even asking a question
+This is gonna be really bad mouth this
+Yeah
+Don't follow me in what I'm about to do
+What do you mean?
+A man who just asked if I'm all right
+All right go ahead
+Roll for damage
+Did you leave him into the other first or just on the streets just in the middle of the fucking tutorial
+15 and 16 what do you want to do knock him out or kill him
+I'm just knocking him out
+Okay
+you
+Just in your frustration just look at him and just fucking punch him straight in the face
+He goes flying over to the other side of the cathedral and boom
+All the ice turn around look at you and just panic
+Panic and zoos and everyone starts running you hear the Marines kind of looking over and
+Like clocking their guns toward where the noise came from because of like the crash
+There's a bunch of dust right now in the air. So no one has like a clear view of what is happening
+What do you want to do?
+I'm not gonna walk through dust
+Oh
+And all the Marines are like closing in pointing their guns towards you. There you go
+I say fucking creepy dude
+Who's like a squirrel here now
+Man of rural with the hell are you supposed to be
+Whichever guard to set that I'm charging at him
+Okay, roll roll for damage. I'm sorry attack attack
+My god Jesus Christ it's gonna get you all killed
+Yep, okay rolls of damage
+You
+Yeah, you want to kill him?
+You just fly up to him like like dash up to him and just from smack his head in and
+You look at the other garden just save Warro and he like his gun at this point. It's just shaking as he goes
+Uh, I think we should call
+Gavin Warro and
+The other guy just takes a dent in motion and starts raining incessantly and on the other line you just hear
+what
+And he just says
+There's there's someone who wants to
+Talk to you
+Oh
+Okay, I'll be there
+um and
+Clicked it off and all the Marines at this point start gathering all the way around
+Right now at this point in the middle of the cathedral you just five Marines pointing their guns towards you
+Uh, you're just standing in between
+Yes
+Where where are they surrounding him is my question like at the gate like what I be
+You know he's in the cathedral you're very far away. Yeah
+Yeah
+Okay in the cathedral
+What's the cathedral made of
+It's like white stone limestone whatever
+It's pretty sturdy that it's like it's at all the length
+Are they closing in on me or are they just no no no no no no just around with the gun there they're pointing their guns at you they're far away
+Far away
+Yeah, you dashed into one of the dudes pretty far away how far are they?
+Maybe like 40 50 feet
+Why can you bring all
+No
+They're just pointing at you because you killed two people
+I didn't kill anyone
+Yeah, whatever mock them out as far as they're concerned he's dead
+That's surrounding me yeah, I would like to like
+Pain that I'm giving up so they all start closing in
+No
+The needle down I feel like you're kneeling down you're kneeling down are you sure
+Yeah, okay, you're kneeling down
+One of the dudes just walks in it's still keeping his
+Gun up and he takes out like these pair of cuffs behind him and this one this one
+Yeah, he started to walk up as he signals to everyone else like shoot
+As soon as you see any movement yeah
+Missles there's five of them yeah
+How close are they to each other
+Uh, I mean, it's pretty big cathedral. They're pretty spread apart so you don't like escape or something
+Okay, what let's use our characters as like a
+Okay, yeah, probably like 15 feet or something
+Like this
+Let's take this as like uh
+Yeah, it's like this it's like a star shape
+And the guy in front is approaching you
+Like this slowly okay, okay
+Okay, yeah, uh, he's gonna approach you it takes out a piece of cuff
+Uh, and he like puts the gun on his shoulder and starts to approach you. Yeah
+Um
+As he gets closer
+Mm-hmm how close I'm worth
+10 feet
+5 feet 10 feet yeah, okay, he's 10 feet close
+I am going to like turn my head back to look at these two
+Uh-huh
+Moda pal
+Yeah
+Place it on top of them
+All right, there's gonna be people running around as well. I mean, I guess they have cleared out
+But you might catch some people
+Yeah, okay, all right
+Uh, okay, Moda pal
+Uh, just your flame just engulfs this whole place
+And it starts to burn them
+Uh, all right, let me put everyone in combat
+All right, let me see
+They have their action ready by the way, so they're gonna shoot as soon as you pull something
+So I hope you survive this
+Miss
+Not 20
+deflect missiles count in this situation like some
+It would it would it would yeah
+Roll
+So 11 so that's two damage for the first one
+I mean, it's good. That's a good that you deflected the fucking that 20
+Uh
+40
+Seven there we go and then we got two fires and then two more
+Where are you at this point mouth is
+Are you away with the crowd
+Uh
+Five eleven so that's
+Uh, so that's four one more
+Okay, we're disappointed
+Yeah, yeah, they were
+Yeah, none none of the others hit all of the bullets just go
+Straight through you and the guy in front of you also panics and puts pulls out a gun and straits
+Shoot you like straight in the head, but again, it goes through straight through you
+Uh, one of them kind of nicks comes close to you and you grab it and just throw it away
+Uh, all right
+What what is happening it's your turn all of them will have their turn at the same time
+The two that got put in the model for hell they take 14 fire damage
+14 fire damage yeah, they're dead
+They burn right in front of everyone
+And at this point the crowd is like really in true panic everyone who was working on the thing they've
+platformed they've all run off everyone's left the cathedral and you just hear a bunch of panic going outside and
+Malthus as you're also leaving with the crowd as you keep an eye on the situation
+you see a lot of lot more Marines kind of like
+Walking in from like different parts of the place as the seat panic
+All right
+What are you doing about please?
+I'm sorry towards the front of me
+Okay
+Um punch
+Yeah, I mean you can roll damage, but he's gonna die the way
+Yeah, if you roll minimum, I think you're gonna yeah 15 is no yeah 15 is able to knock everyone out as long as you had
+Okay, you knock this one out
+Yeah, I'm talking about um
+Move oh
+No, that does not have
+The one more
+That hits
+Yeah
+There's one more left okay for that
+That was 20 feet to get there yeah, you can meet 20 feet more. I still have
+Yeah
+Let's just use three attacks
+Come on blurry
+Okay one more
+Well, two more two more right?
+No one more he uses one more he used the bonus yeah, yeah, look
+I need the plan
+I almost damage the right either on our strike do not not a fire on big
+Yeah, I think I would have to get back sandwich
+Um
+I mean it's a D it from a more deep I'm pretty sure
+Yeah
+Yeah, it's gonna hit it. Yep
+All right, you knock all of them out, but you also see
+From the entrance of the cathedral more Marines entering the place
+Which way is the entrance is it this way
+This way and like it's a very narrow entrance
+Maybe like five to six people can fit in only and all of them will like line up as the crowd is kind of
+pushing them as they're trying to leave
+So they will have a hard time this will consider as a difficult terrain I guess
+All right
+While that's happening I would like to run into the crowd
+Mm-hmm
+And then we're just gonna
+You
+Miss this step
+Boyd step
+Art essentially
+Okay, can you make a stealth check so
+Uh, no one notices you essentially
+He's disappeared again
+He's just appeared again
+He's gone to different dimensions
+Yeah, it's good. What the fuck is happening?
+28 yeah, you essentially like burst in
+flame at one point you punch the hell out of the guy in front of you dash punch the hell out of the other guy
+Dash punch the hell out of the other guy and just run in
+White step just
+Your body like completely melts in the dimension as the space between the wall and you closes up
+You appear right around the part where malphous was standing behind the guards and you appear right in front of him or behind him near
+Our malphous you want to kill this man?
+I was so close to going in
+I'm just getting in the crowd now
+All right, uh, you see the marines are like looking for
+whoever made the
+Thing and they're like trying to log down the cathedral the short doors kind of shut back
+Um and the people are still like running away and everything
+Uh Roma at this point on your end
+Uh, you uh over here like a bunch of people
+uh starting to panic and you hear like a blast coming from the direction of the cathedral that you were at and a bunch of marines are starting to mobilize and get into like
+The small ships around the bridge as they're trying to
+Had to do so
+And you see a different kind of armor you've seen the armor from spare clefs but the one that you spotted right now is a different sort of armor
+Oh shit
+And I'm only seeing like how many guards a lot of marines marines like a lot like normal uniform marines and then a different platoon of like
+Uh warship is just like
+Splitting away from the warships that you see like docked at one of the docks of the island and you see one of the
+ships just leave
+And that's it on the deck of the ship you spot that armor you form a farmer
+Okay
+And I'm just seeing
+All of these people running towards the dock what I have happened to see the dock the the you know the other island
+Yeah, go ahead
+What I happen to see any warships
+Yeah, one one of the warships again you at if you're near the bridge
+Uh, like near the entrance of the high court the the second island is essentially
+All just like mostly the high court and nothing much else except for like the mountains and everything around the
+island
+Near the edges you can spot like all the warships that are lined up to the island and the warships are pretty big
+So you can easily spot them from distance
+Moving in
+Okay
+so
+I'm gonna go back into that line of people
+Would they have still been standing there or they starting to freak out?
+Uh, I mean they
+Are like kind of like spread apart. They've bloke in the line itself and like looking onwards as to what is happening
+They're not really panicking because it's like pretty far away
+From where there are but yeah, they're just looking around and
+Okay, what do I still see that guy that I was talking to?
+Yeah, yeah, you see John
+Okay, so
+I'm gonna I'm gonna ask him to be like hey John
+I went I saw my wife
+um
+She she told me I would have to talk to the lawyer to see if I could get him to plead her case
+But I noticed she mentioned those warships that have those high value prisoners
+Do you see it around here so that way I know to avoid it because like I am not trying to
+upset anybody but like if I go ask questions like where they're
+um
+Where I could talk to the
+Other lawyer just to see if I can find one because you said there's only one but I just there's got to be another someplace
+I just don't want to piss anybody off. Do you know where anybody like that like where I could avoid like
+Hey, I just don't want to piss anybody off
+Yeah, I mean
+Well, there are a lot of warships day. We don't nearly
+uh, no one really knows where the prisoners are kept
+There's just a lot of warships. I'd say use day away from all of them. Yes
+Oh, but like is there one worship that has stayed put the entire time?
+And except for the one warship that's leaving all of the warships were pretty much here from the way get gone
+Okay
+That's all I needed to know
+I guess I'll just wait in line or I'll
+I'll go do something until the line gets smaller
+Well my friend and this line never gets smaller
+So the cashier is a famous line never gets smaller
+Uh, more people need to have these today
+All right then
+Okay, thank you so much. I mean if you stay in the line of course you're gonna get in first
+But you know if you come back in there basically they're gonna be the same line. That's what I'm saying
+I can save you a spot if you need that's fine now go
+Yeah, that'd be perfect that'd be perfect just save my spot. I'm just gonna go
+I'm gonna go talk to my wife again and tell her that's going to be a while
+It's all right
+So cashier move that you're free, you know
+Whatever your rice crime is and sure sir cashier can be a little bit
+All right, so
+I am going to
+The high court is there a lot of
+Guards there right now again inside the court you don't really see a lot of marine presence
+Outside the court is very heavily heavily guarded like all around
+So how where would I go to get to the
+The basement to like you go to the receptionist yeah in the center of the high court
+You must see like some sort of receptionist at the center
+Helping people like navigate where they need to go stuff like that
+Fuck
+Go up I need to figure out
+I need to go there and I'm just gonna talk to her and be like I'm here to talk to the prisoner about the petty theft that he happened to
+Have a supposedly occurred
+Okay, you can ask that but you will have to give her name
+Right
+Well, and then I'm gonna be like
+John sent me because
+He is currently talking trying to talk to the lawyer about rep
+Reparate reparations for the damages marines caused and he believes that she they are witness
+I don't know the exact person name him
+I just know his charge was petty theft
+Like I just need to talk to him I'm just gonna ask questions
+Be a bit more specific other than that have you have around a 2000
+Um the prisoners for the case of petty theft which one do you wish to meet?
+Um, whatever one that happened at john's shop
+Because John's shop, but do you know the name of the shop?
+No, I just the owner of his name was John and he said he's trying to get a hold of the lawyer
+I'm just trying to help john out like I didn't get a last name
+I just met him in line and he said that there was a criminal that happened to be at the shop at the time that these
+Marines caused damage to his shop
+So I was just gonna call I was just gonna come and ask
+Simple questions like if they saw anything if they happen to know which marine guards cost the damage
+Only allow them to meet their either their lawyers or family members
+So you can bring this john person and they can meet them themselves
+Okay, okay, I'll be right back. So I'm gonna go up to john
+I'm gonna go back to john and be like hey john
+You mentioned that you had a store that was damaged due to marines
+I thought
+I found out there may be some criminals that were in your shop at the time
+I just need you to come with me
+And tell this lady that there may have been criminals at the time that this happened that may be witnesses to the marines causing damage to your shop
+It looks okay. Can you roll a persuasion?
+Oh my god if this fails
+You're a persuasion
+Come on baby come on baby. Oh shit
+Nice
+Okay, he kind of looks confused, but he
+Maybe feels like okay, and there might be a chance someone to witness the thing and he goes
+Uh-oh all right all right. Hey back. Can you um, uh save the space for the two of us
+The guy in front of the line goes all right
+Very going to believe
+He's like no no, I'm going to visit one of the prisoners and he might have witnessed the
+Um, the the marines roughing up the place. This is this is and what was your name again?
+Or a boroughs. This is mr. Herbos. He's he's helping me
+Uh, you see the
+I'm kind of an institute and yeah
+I was just told that there may have been a criminal. That's why the guard
+So we're there at the shop to fuck something up
+It is he
+All right then let's go
+And I just I just overheard that
+Okay, so I'm uh he goes up to the receptionist he goes and I love that I
+I have to meet these two criminals two one one two
+I don't know I heard the right there might be some criminals who witnessed the uh the
+Trashing of my shop at Beckins Beach
+And I I want to get to
+They got a sort of a statement so I can show mr. Keshe and that um
+The this uh these people are the witness and she looks at the chart
+Um, I'm gonna roll a 120 to check if it actually goes for not it might be a coincidence, you know
+No, so that's good. Uh, she looks at the chart and she goes
+Huh, I do see two imprisonments from the Beckins Beach area um yeah now write this way if you take a left down there
+Uh, go left and then take a right um a third seller from there. Yeah
+Uh, I'll send a
+Yeah, you will find a guard accompany you within the place and uh just tell him the these two names
+um morose and
+genie
+morose and genie
+Okay, I appreciate you. I'm not sure which one of them witnessed your thing but you can talk to them in the witch book
+Here you go. These are your peices and she hands out like two paths you
+And let's go mr. Robos as he is now I'm gonna start following
+Uh, you see uh as you like had downstairs
+Uh in the basement you see a guard standing in front of like these
+Uh, sell doors essentially and he stops you and he goes
+passes
+Hello
+You we gonna show them the passes. Okay, you show them the passes. He takes a look at them looks at you and goes right then you're all good
+Open it up and you hear ching and the gate opens up and you are allowed to head inside
+What I
+What I have seen where this would have been where this would have happened like is there a control room like yeah
+There seems to be like the camera is like a dented moushi pointed upwards that are looking downward towards you
+Okay
+Yeah on the signal of the guard they open the thing and as soon as you enter you hear another ching and the door closes
+be like
+jail cell whatever
+And you see them him like kind of
+Going to the room
+That the criminals supposed to be what are you doing? Where what is your plan?
+I am looking for
+For like a control tower like if there is one
+In the cell it's just like always it's just always with like jail cells and that's it
+It's like oh again, it's all underground
+Yeah, there's gotta be a place that controls all the cells like yeah, but it's not necessarily at the same place right
+It will
+Typically it is like there's gotta be a master
+I'm probably but you you have to look around but
+What are you doing with John? You leaving John? Where is going away? I will avenge I will eventually like
+I'm gonna pretend to tie my shoe and then John will go to where he's supposed to go and I'm just gonna start looking around like
+Okay, uh you take a ride and you take a left and this like it's just like a labyrinth of just
+Cell, softer cells after cells after cells after cells and at the other end you do see like kind of like
+Light coming through one of the corridors and seems to lead outwards somewhere
+Is it just like a normal metal door? Is it like?
+Uh again, it's just it's just blinding light because like these always are pretty dark
+So you just see a blinding light you can't really look at like what exactly is going on there
+Okay, so I'm
+Uh
+I'm gonna go in there like just guys still on
+I'm gonna go in there and if I find somebody I'm gonna pretend like I got lost because I had to bend down in time
+I shoe and that's what it's gonna look like on the camera. Okay
+you
+head out and
+uh
+You just see a guard kind of like eating his
+um like lunch or something and
+Hi, are you here?
+You get lost or something he puts down his like uh food and he gets up
+He takes out like his beer and everything goes well off you go
+Go back where you came from
+Well, uh, what's through there like I'm just trying to get out like I was here with the buddy
+I lost him. I'm assuming I had a like time I shoe and I lost him he he kept going without me jackass. He is
+um
+Like I'm just trying to get out while I'm while I'm like talking to him
+I'm also like quickly scanning to see if like there's any cameras or anything in this room
+Can you do a quick perception?
+Yes, and I'm also looking to see if he's the only guard
+in here
+Perception
+Come on baby
+Oh, that's not bad
+um
+This seems like sort of like a break room for the guards or
+Or something like that
+But around the
+Room uh to you it doesn't really seem like any you don't spot any dendon moushies and this guard is the only one that you see in front of you
+But they could be more okay
+So again, I'm just trying to find the exit is it through there and I'm gonna like take a step
+Oh, it's a special prison escort you can go back where you came from
+What do you mean special like I'm not I'm just nosy like what do you mean special prison escort
+Like is it my enjoy on business fella who are you here to meet show me your pass
+And then I'm and then I'm gonna show them the pass, but I'm gonna I'm gonna turn around
+Like because he told me to leave like I'm just gonna hold the pass up and then put it down turn to leave and then turn around
+Be like hey, I didn't notice you were eating something do you want something that's a little bit better than that like
+And then pull out one of the pocket treats that I got
+It's gonna taste a lot of a lot better than that moush you're eating
+All right, let's give it a try add it over
+And he takes a bite
+Now I'm gonna walk over because like you said like even when I
+Did a quick turnaround. I'm still looking to see if there's cameras. Yeah, I want me to do another perception
+Like do it with the banish this and yeah
+Okay
+So like I'm just doing a quick
+Little look just making sure there's oh shit, but I
+Um you look around again this time you do spotted a door leading into this room
+On the right side and you do spot a camera on top of that corner
+Keep not camera you know then and moush just looking at you
+Okay, so then
+So no camera just a dendin moush that would
+No like just essentially like the dendin moush looks through and it displays on whatever like screen
+Yeah, there are camera dendin moush's yeah
+That's that's that's what I needed to know like if it was like one of that you just talked into like
+No, no, it's a camera
+Okay, so then I'm just gonna be like oh yeah, here you go dude like
+Go ahead and try this, but can you come out in the hallway and show me where I'm supposed to go
+He takes a bite and I'm
+That's very good. It's pretty I do have more of these I
+Yeah, I got a couple more but like
+Yeah, I just all right animal work figure out where the hell I'm supposed to go
+Well, whoa, whoa, whoa, I ain't just gonna give you I just gave you one so you could have it now
+You try to take me all of it from me
+You know, well, I'm escorting you out I'm helping you and you can repay this kindness by giving me some food
+Okay, okay, well
+All right come show me all right, man, you hand him thing he takes his like original like
+Food that he was eating I'm not gonna hand it to you yet. I'm gonna have him come out into the hallway with me
+We're like he takes like the half-bitten piece of like bread that he was eating and he just shoves it in like one of the
+baskets
+Like trash baskets near the door and goes all right, let's go
+And he walks outside the room behind you
+With his beer and everything
+And I'm gonna I'm gonna pretend to give him a biscuit
+And such like I'm gonna accidentally drop it like as
+How is that how are you doing? You're ruining this is very well good a five-second rule you grab it real quick
+As soon as he bends over pants mash back to the head uh a little bit advantage
+All right
+Yeah, and hits
+So a 20 hits so wouldn't that be critical?
+No, no, no, you have to roll a 20 anything great yeah
+I don't remember naturally 18 19 20 essentially
+11 let me see yeah that was exactly okay. Okay
+Yeah, go ahead
+So I'm gonna knock him out and then
+I'm going to try to take as much of his armor that will
+Fit probably nothing
+Probably not a lot but except for like the helmet essentially the hat
+Whatever the head
+What he's stripping him
+And I'm sure he should out of him and I'm okay he has to have like
+He has to have like keys to sell or something. Yeah, yeah, he has key so
+So I'm taking it I'm taking his idea. I'm taking everything that he has
+on him and I am
+Rowing him in a cell
+He's taking his virginity a okay, you open like an empty cell
+You know what can you roll the d20 for me?
+Yes, sir
+Just normal d20 normal 20. I want to see if you open an empty cell on
+Yeah, yeah, you should be able to open an empty cell you open an empty cell in your shabby man
+Lock the door and where you headed
+You're gonna laugh, but I'm gonna go back to that room
+Where he's just that okay, and
+I am just have a question in any of his gear is there a map that shows
+Where like certain certain
+Quarter doors are like jailhouse was the show where he troll is he won't need any
+He's like a worker, so he's probably pretty familiar with it
+But cuz like
+Yeah, cuz
+Most when he was in the break room he wasn't out of desk. Oh, it wasn't breaking. Oh, so he was a desk at the
+Cuz the only reason I say that is most security guards keep like a little map of the place
+Of like all the different cell areas because if there's 2000 cells
+Like you have like something
+Can you look into the lockers maybe
+That's what out that's yes roll for roll for investigation
+Perfect
+There's gotta be something someplace that's showing the map of this place
+investigation
+By the way, but he's there just wanted to ask all of this time. Did you have
+Lou on you?
+See I was gonna say something
+When I told mouth is not to get involved with what I was about to do I would yeah
+Yeah, you probably would have handed Lou over just so he doesn't get killed in the book and
+Full chat. Okay, I just want to make sure when I'm dashing around. Oh, you're
+Fucking wolf is having a panic attack
+Six now, I don't think you should be you would be able to find anything in his lockers or anything
+You don't you were not able to find his specific locker. He didn't he didn't have anything on himself
+There may be something on his his locker, but you don't know his name so you can't figure out which one exactly like
+Yeah, and then of the lockers that you open had any map
+Okay
+Is there the Denon mushy do I see wires coming from the ceiling running along?
+It's like mostly magic so there's no wires. I don't think in one piece
+You
+Damn
+This would be perfect if I had detect magic because then I can figure out where the fucking spells were coming from. Yeah
+I guess
+I don't know I'm gonna have to start randomly fucking walking
+I mean there you see two exits out of the room the one exit is
+Essentially where you knocked him out that exit and the other exit that I pointed out that he said it was
+like a special escort entrance for prisoners
+Okay, well, I'm gonna go back into that jail
+Oh, yeah, and every cage
+But the one that I threw that dude in I am unlocking it and
+Thing basically saying oh prisoners are free
+Saying to who the prisoners
+Yep, you're free to go
+Okay, so we're doing a jailbreak. Okay cool um
+You're also on top of that. I'm asking them where the master control room is
+Everyone that you free
+Essentially just shoves you away and just starts running to the exit
+They're not gonna look or wait for anyone or anyway. There's fucking riding is out
+uh, and
+They essentially like start to beat on the
+um
+door okay, let me see if
+Uh, did you unlock the door that uh, he was standing in front of
+John
+All right, you go up to John's door
+uh
+Can you make a one D20 to see if he recognizes you or not
+Basically this guy's check for this case
+Yeah, he definitely recognizes you it looks like you
+Mr. Burr so why are you dressed like that
+Sorry dude
+back of the head
+And he passes out immediately
+Uh, you unlock the door that he was talking to and you keep going keep going keep going and you lock all of the doors you
+Do not season first of all and the prisoners are starting to like
+uh
+put like the essentially like break down the main cell door as
+They're like overpower the guard and start to leave outside uh, and now we have a full-on riot on our hands
+Okay, I'm gonna move back to that piece before the situation gets out of trouble
+All right
+Matisse, Malthus, what is happening
+Well, first I'll burn a bit for the way i'm hitting with pushing him in the head
+Yeah
+All right
+Well
+Well, Vorro is on his way now now we just wait
+Uh
+Then
+Then
+Then I read that old school from before
+All right um you um
+As like everything everyone's panicking and everything happening you see like a bunch of marines
+Leave the cathedral as they like take out like big denim moushi like microphones as they start speaking into it
+And they bring out like a poster and it's you of course and they go
+Attention all civilians
+If you have seen this individual around you will have to report this to the marines
+There is a reward even for information
+What
+Nothing okay and uh they pull out more posters and essentially it's like everyone from your crew and they go
+Each one of these individuals is very dangerous and wanted all throughout the world
+Any information about them will get you rewarded
+And so on so forth like they're just spreading these uh posters and everything and
+All of the people are now where they'll still say scrap all acceptance yes
+Yes, the scrub but I guess it's whatever
+Yeah
+All right, so uh you're just waiting where are you waiting this is essential
+It's probably still close edge to the cathedral where we can still see something but
+out of sight
+All right, I'll say like near like a big uh like forced area
+Yeah, yeah, what was about to say that
+I mean, you could just jump you could just jump man. It's not like you're fucking
+useless
+Uh
+You should be able to like locate yourself like basically prone on one of the roofs near the cathedral and yeah
+should be able to
+Stay there
+um
+in about like
+uh
+few like 30 to 40 minutes you see a bunch of
+uh
+Like
+Marines like walking around the whole town
+They're searching for someone and essentially they like
+Some of the Marines rush in the center and talk to some other Marines as
+Some of them now leave and go to word the direction of like
+Imperia now start to move in there and a few Marines are still here looking
+Uh, and you hear like a big like caravan walking in the caravan kind of like mechanical car kind of situation
+It's like a carriage like self-driven carriage whatever with wheels and everything as it like rolls in
+Uh, you see you were stepping out of the caravan as he
+looks around and
+He brings in some of the Marines that were
+Uh in the place
+Uh and confronted you when everything and maybe looked at you as he's talking with them. He's looking around the the place
+Uh, he
+Kind of calls in
+Different set of armor that you've never seen before he kind of walks in behind him as he kind of whisper something into his ear
+As the armor now starts to like boost up and starts to fly up in the sky
+In the time that we were waiting can I have did a short rest?
+Uh, maybe 30 minutes yeah, sure
+Hmm
+Also take more shows that you'll be back at full. Yeah, sure
+I could probably use the six HP. Yeah, yeah, I did
+My one's back
+Uh as the armor starts to fly up you see more armored Marines start to show up
+Uh possibly from the
+Essentially like the the orange that you hear from
+Far away of the battleship
+That just landed on this island and you see a like
+range of Marines like first class Marines
+Recruits in the same armor that you faced before as they're like starting to circle like the whole island. They're starting to like
+trash the
+Surroundings and like the shops and everything they're shutting everything down kind of like putting everything in a curfew
+The day is kind of
+falling slowly
+And it's maybe like around two or three p.m
+Yeah
+Yes
+very much so
+I've already know we're pretty much surrounded by Marines
+You think?
+One thought in my head is the infiltrate
+His carriage
+Yeah, okay, I mean he's inside the carriage. He's waiting. He's just waiting for more intel
+He's sitting in the carriage right now. Yeah
+Is this carriage only people are around his carriage like you see like
+Like maybe like a battalion maybe like 12 or something people around in an arm maybe like close distance
+It's not that far away
+But they're just like looking and like
+You know in the middle like the right-in-front look at you real in the square in the town square essentially where all the shops are is there
+So it'd be difficult to try to enter his carriage unnoticed. Yeah
+Well at least one last fight
+Yeah, let's just throw it all away for for one girl
+Men
+Well, but this is also a driven I mean yeah, but drawing is in the future
+If you don't make it out of that and drawments fucked
+Yeah, this is also a driven. Yeah sure sure you can say that to convince yourself
+Oh, what I don't know what to do. You guys
+You put it in this situation
+Oh, I did
+You literally you guys had no plan whatsoever right
+Okay
+All right, what are you doing?
+Okay
+Um
+We haven't been spotted yet, right doesn't look like we'll be spotted if we stay where we are
+I mean the flying suit is now in the air so if you maybe move around you might spot you you don't know
+I'll pull out the dinner machine to contact Bolo
+Contact oh the same dinner mushi the radio okay
+Okay, you you can speak into it. It's not like it's a connection. It's just you know a radio you speak
+He hears
+Oh
+As soon as you say that you
+See him step outside of the thing as he like with his two fingers. It's like pointing it up and looking at it
+And his like other fist is just like you see him like actually getting pretty mad
+What's wrong
+Are you there
+He's still awaiting looking at the dinner mushi you can see him just waiting
+Oh
+He kind of face bombs and he goes
+clicks late the end of the mushi holds it close to his face and goes
+What I thought we decided not to talk to each other before
+We needed to rest
+Why you still scared little bird you face me add on
+Come on
+I think you're scared to face me
+That's funny because you're the one hiding away when I'm right here
+You can see me right
+And come on
+I can also see
+That you didn't come alone
+What's more becower's way than using numbers
+Yes, and I suppose you are here all by yourself
+Correct
+That's not I do have one other person hold the pissing content
+Let's just get over what do you want
+You're not getting her you know what I lie
+You're not getting him alive the only way out of this is you
+With me in a cell
+I can torture you forever
+Like the good old days
+I know you're obsessed with me, but I don't see you that way
+Oh you will you will wonder
+You stand
+What your position is in this world
+a worm and
+most like your kind
+Only useful to us
+Further
+our technology
+Our progress my comodores
+rules and ambitions
+Once I have you
+as well
+Be a good little boy
+And kill these Marines like you did the ones before for me
+They now come out
+You don't have a leverage at this point about these
+And I don't throw away my men for nothing
+The 9 million that you gave me really help you did go
+You mean the chunk change
+Haha, just because you have 130 million bounty don't think you're a hot shot
+You understand me little bird I can crush you with just my thumb
+If not see you try
+Send everyone else away
+Just you take of me as a fool do you
+I'm a man my word
+If you
+Have working for you in Lexington
+Is also going to get captured
+And all the prisoners that fled are going to be put down
+And the Lexington
+You have overstepped your bounds so much
+Let it bird you have no idea
+The higher ups are not happy
+But you meddling with the judiciary
+And we will use everyone in our power to crush you
+I only got authorized for bringing the low marine levels
+Now I'm bringing in someone else
+Through layers
+See how you get out of this alive
+At least you'll be going down with me
+Let's see about this one after all right
+Oh, I want you
+Impresent
+Once I figure out who that other one is
+He's going down with you
+The little bitch didn't say a thing about you should be
+Glad
+The only reasons she's alive is that she didn't
+Snitch
+It's not useful so I'll get rid of her
+And she acted like good bitch you know
+I thought I had a use for you
+No, I just thought of a new one
+I think you'll love it too
+When I take you down
+You're going to be my new little play thing
+I'm going to hang up
+As you hang up he gets frustrated
+He like throws the then the moushi down and just crushes the thing with his leg
+And he bangs on the
+Caravan and he looks at one of the Marines grabs him, pulls him up
+He yelled something at him and just throws him away as he gets inside
+And he just starts the
+Car or whatever the thing is and just like speeds it
+And just leaves
+Towards like the novel district or whatever like judge district that you came from
+I would like to try to follow
+Okay
+Can you roll stealthy?
+That was what are you doing?
+Also following
+On foot are in the air for you Melodies
+Uh, I mean jumping roofs from these deals
+Okay
+Old stealth both of you
+All right
+Okay, all right
+Okay, uh
+Baptiste you are light you are not that heavy and you are kind of agile
+So you are able to jump with the roofs just fine
+Malfa's you try to jump from the first roof that you can
+As you land on the other roof
+It just immediately collapses and you just falls straight down
+All of the Marines here the commotion and they start running toward you
+That's what you're doing
+I'm taking my dog and keep going
+Okay, yeah, fuck him
+All right
+Okay, okay, go ahead, go ahead
+Um, all right
+Yeah, so all guests
+Uh, essentially, it's just like a collapsed roof and you were like at the base of it
+But there's to like smoke and everything in the air
+The Marines are like kind of closing in that they're like enforcer rifles
+As they're moving in and just pointing in the shadows
+Is you see like all these like lasers coming through the smoke pointing towards you
+Uh, is there a window on the other side of like the
+You can just go straight up where the hole you fell down from
+Yeah, I'm going to it and going into full sprints
+Okay, uh, dash catch up at puppies
+Okay, yeah, I'll catch up with puppies at this point
+I mean they're going to see you that's not the point right
+Well, and yeah, move
+Either you hide
+You can take the action to hide yeah, all right, so 60 feet and then hide
+essentially
+Do stealth again
+Go again, I don't ask for much
+All right, yeah, uh as you like jump up essentially from the
+um
+From the like broken off roof the like wave of just
+Dust just goes through with the shockwave that you just lifted off as everyone like
+points their guns backwards and just looks at the roof you're just gone because you would like just
+Went up and straight towards Baptiste
+Uh, okay, you
+See mouth is like catch up to you Baptiste as you're trying to follow
+Uh, borrow
+All right time for a perception role
+Oh my god
+Okay, um
+Do you have any items that uh, let's you check for danger now, right?
+No
+I got eyes
+Uh, all right
+Oh, Belle, I see what
+Oh that bell that uh, collage gave you, right
+The bell oh, no, no, no, not that bell. Okay, never mind. It's not that
+The bell fragment yeah, you can just re-roll for that. It doesn't let you know like danger or whatever
+You can use it, but
+uh
+If you want to make them re-roll the perception check
+Then I can do that if you want to do that
+Okay, if something happens
+Yeah, yeah, I guess
+I'm just gonna take the best of the way
+Okay, okay
+I'm just selecting which one of you gets shot out of the air. Okay, it's Baptiste
+Um
+I'm what? What am I reading?
+Oh, you died. Oh, no, that's not that's not that's not the thing. It's just like I chose you and Malfus to pick one
+It's just the role of failure. The the prefixes don't really matter
+Well, that's one way
+All right, while Malfus joins us uh, Roma what is happening at your end
+So
+Free to everybody yes
+Um, what the fuck Baptiste died
+No, no, no, no, no
+It's just um
+I freed everybody. There's mass chaos. There's fucking riots
+so
+Well, I am gonna dip back to that area where he said special delivery
+Thanks
+Okay, okay, special like escort for prisoners. Yeah, okay. Yeah, go ahead
+Uh, I'm gonna use his keys to go through
+Okay, do you shut the door behind lock the door or do you just want to leave it open?
+I'm gonna leave it wide open. Okay, uh, you leave it wide open. You uh basically leave through you see a bunch of like prisoners that escape earlier
+Are trying to now go through this route as well. They just shove you away and just fucking move
+Upwards and downwards. There are two servers leading downwards in the one upwards
+I'm back. I'm back. All right. I am going to go
+Fuck what's happening? I have switched to Roma for a while. Let's
+Let's uh
+Even goes up down or odd goes down. Let's find out looks like we're going up
+All right, you start to head up the stairs. You see some of the prisoners kind of like run past you
+Uh, and get up
+Uh
+What you see outside of these chambers is basically an entrance to the
+um
+Essentially the courtroom
+Where like the process happens and you just see a bunch of like criminals running around with like
+Uh, the spears that they took from the guards and just like stab a bunch of like
+People that were around in the area and whatever and just like taking people hostages is there like kind of leaving
+Uh, the place and threatening the like the guards that are already there um and so on
+So then I'm gonna turn around and go downstairs
+Okay, uh, yeah, they're causing chaos
+Yeah, yeah
+In short walking down you see more prisoners kind of like leading you're still in guards uniform, right
+No, just just like the half ass helmet like oh, well, okay, but they should realize that I'm the one that let them out like yeah
+They probably saw you uh, okay, so the no one can mistake you okay
+So you go down downwards you go through the stairs now these stairs that you walk down from they're open ones
+So they're like around like the side of the building essentially dealing down to the dogs where like the warships are essentially docked
+Uh, so you can see yourself like walking towards these warships
+Okay
+So what what is what is your plan
+Here
+I'm gonna go down there and I'm gonna be like hey somehow the guards
+But all the prisoners got loose their causing chaos upstairs
+Like I'm gonna try to find somebody okay, uh, can you give me another disguise roll one do 20
+You know what I'm gonna make a list and check just in case
+No, you see strictly uh, he
+The guy that you approach essentially is like in this armor that you recognize from before on spare cliff
+Uh, and he turns back in new looks at you and he pulls out like his enforcer and he goes
+Stop right there
+Remove that helmet
+That's your name
+How close is the
+He's I mean you're literally approaching these maybe like five to ten feet away
+Why I need to make sure he's like within five feet
+He's not that close you can't reach him just like that yeah, you will have to move a bit and then
+Um, and there's only one dude around us
+Well near like the dogs you only see this one guy, but maybe the commotion will make more guards show up or something
+Deben's
+How you deal with them eventually okay
+So
+I'm going to he's within you said
+10 to 15 feet so I'm gonna have to
+I'm gonna take my helmet off
+Throw it at him and while I threw it at him run at him with the pan black
+Okay, uh you
+Start to walk closer with like taking the helmet off slowly take it off throw it at him. Can you make a roll attack roll any any attack
+With the advantage. Yeah, he's not expecting that so just
+Just like roll the skeleton with yeah
+Yeah, you know, that works a 17 will head
+You bump the helmet
+Uh onto his head he kind of gets like disoriented now you can hit him twice with the
+Advantage with the skillet yeah
+Oh shit
+Roll critical
+Oh
+See the damage is oh my god you rolled eight both times so it's gonna be
+Uh
+But what did we decide first one is always eight like one of them is a max damage ray
+It's one max one times roll so if you roll it should just roll normal damage and at the maximum
+Okay, so
+That's
+To uh
+I'm gonna say add six right so 11 and six is
+17 17 damage rolled another
+Well, this one's this was missing
+Uh the first one hits him right in the head as you see like the armor kind of like gets like
+bruised from
+The side as the color kind of like
+Gets off the armor like the blue paint kind of ropes off the armor and he turns around and looks at you and he goes
+Right then we're taking you win and he uh kind of like banks onto the war machine
+Uh
+All right, uh, I think it's a good time
+Yeah, it's gonna it's gonna use his action to just like call in reinforcements um
+Okay, let's shift to what was happening before um, okay
+Bad piece in mouth is you're still jumping roof to roof to roof to roof and uh
+Was the head 22 hits right let me see 24 24 hits right
+I'm teased
+I was spotted
+That was the perception for you
+Yeah
+Yeah, but you can't you like
+There was stealth from the people that were there
+From the above point he has advantage to look into
+What is happening
+What was your base roll?
+No, no you don't it's from the sky you don't see it you just feel like this laser like hit you with the back
+And it's 18 damage
+What was your base roll for stealth?
+19 19
+hero old
+A 17 I mean he's not gonna spot you, but then he's gonna spot malphous. It's gonna be the same thing
+I had a 26 or my
+You know the base the base you know what I'm gonna roll with advantage
+You know what sure
+What you want that my base was 18
+That's fine. That's fine. I'm gonna roll it again because I said with the advantage
+Uh
+There you go see now he's watching
+Okay, who are 120 plus oh
+I was looking at the wrong one. Okay, so his
+His was 17 I mean sure, but he's gonna be following Warren if you're following
+Laura he's gonna spot you that's what I'm saying
+What do you mean stealth how stealth are you in a open road at one point the fucking houses are ending. Okay, Jesus right
+We look like he's not he's not in the fucking space. He's not in space
+Uh
+All right, what what are you doing are you following? Voro or not?
+Yes, no good you're following. Voro and
+stealthily so you're not following a Voro he's fucking on a car man
+How far you could you follow stealthily
+We're months. Oh my god
+So how stealth works then
+Can be super fast and stealth
+We can I don't think so
+You can move full movement that's not what I'm asking. It's just like the speed
+I mean I know what they they stealthily attached themselves to his car
+But he left away before it's like if you if they arrived and attached themselves with the car beforehand and that would make sense
+That's what I wanted to do, but you said the car was surrounded by people and it wouldn't be possible. Yeah, I didn't
+Yeah, so
+Some things are not possible logistics
+Yeah
+I'm just saying
+No, you can't follow the car show how how that that's what I'm asking you were jumping roof from roof in the market
+Sure, but at one point this just like a straight road headed to the mansion. There's nothing you can hide inside right
+It's just empty lots
+I mean sure, but it's not gonna hide fucking mouthless
+Well, they're not we mouthless can be okay, that's mouthless is pro so you you're just saying fuck mouthless
+All right, I see what you're doing 24 hits your mouth, right
+Come on, I gotta move this alone. What is you just a you following world or not? That's that's what I'm asking
+And I'm gonna go ahead with whatever's happening
+Yes, we're following it
+Yeah, okay, you're following okay, he's gonna shoot you down
+From the sky who's taking the 80 damage. I chose that teased you have to take it
+I didn't choose that is it's a roll of faith man. I can't do it
+18
+Oh, I thought you said 80 like what the fuck now 18 18 Jesus Christ 18 is like a fucking new cool. What do you mean?
+Why
+I think a reaction
+Uh, using a spell slot
+A double for use okay, go ahead
+Which is your spell slot essentially?
+So I don't know why you said that yeah
+What's your reaction? What do you want to do with your okay shield? Uh, I mean you don't see it coming but sure you know why not
+How much is your AC now 24
+It's going to be three 24 was the attack or was 24? It's going ahead anywhere. It was yeah
+I mean I can send you a screenshot
+24 yeah one one D20 plus eight
+It's not missile
+It's just laser. I don't know if you can oh you know what sure why not roll
+But then you don't have to use shield don't use shield you can use this like
+Okay
+It's a talk
+If I get the max roll
+Uh-huh like that's not a max roll 13
+Uh, what was the damage 18? Okay, as the like laser like literally just
+Shoots you out of like in middle as you're jumping from the roof to the ground. It shoots you down
+Uh, and you try to block it. It just doesn't matter. It just fucking shoots you down and you take
+Uh five damage
+Where are you?
+Where are you? I don't see you okay there you are
+Uh
+49
+Malphus you see
+The laser kind of like drilling into malphus like a green laser just
+blasting him
+Out of the air and you see like this shadow approaching from the sky
+On the ground and
+Do you want to stay or you want to follow or
+Is it man's rule numbers right now like what
+soldier wise
+Is it more manageable if we were to fight now than before when all of them were like searching
+Well, no one's around except for that armor
+So just a stew
+Yeah, you two the armor guy
+And his carriage
+His carriage is very very far away he didn't spot you the armor spot you
+Ah
+How far which of these carriage was maybe like 60 feet
+Oh, it's not fall. Don't you say that like very far. Oh, it's just 60. Yeah
+What do you say about these? We're doing this
+Do it
+You want to stop world? What do you say do it explain?
+You can't read your mind man
+That's so I mean focus the armor we're just going to borrow
+Get borrow
+We're in this now
+Okay, uh, I'm assuming you're headed to vora and
+You
+Baptiste are going to face off against the armor guy
+Right yeah
+All right, uh Roma let's switch back to you now
+Uh, all right roba right now as soon as like the guard like kind of banged the
+Worship you see a bunch of like Marines with their like
+Inforce arrivals out and
+Uh against you
+This is this is where the minute he banged I am dipping like
+Running running away like fucking Johnny Depp in the fucking like
+You know the Miller group
+I'm running up to where for that chaos is happening upstairs with all of these fuckers probably behind me. Okay
+Uh, you can you can run
+Uh, but I'll have to do at least like one roll to check if he should see or not
+That's fine. Oh, and the 20 plus four
+10 all right, all right, uh, he
+No, that's me. That's me. That's me. I just selected his token. That's why
+Uh, so 10 who does not hit as he like shoot you through like the
+cage that's surrounding the
+Stairs that lead lead leads up to
+the main hallway
+the
+You run up
+I'm gonna check for something
+Okay
+You run up you head inside the people
+Uh, that were on the ship or worship and starting to now follow you up the roof
+Uh, up the stairs
+Uh, in line the boom boom, running up you enter in the like courtroom essentially and you see like still people like big chaos a lot of shit happening as you exit
+Uh, you just see here like open fire going from the Marines that
+We're following you and just just like put down everyone in the room
+Uh, what are you doing? You're still running?
+Oh, yeah, I'm running and being like Marines behind us
+Yo, man, what did he do? What the fuck?
+As uh, everyone you're just like shoving away it just gets shot down by the Marines
+Uh, and you're running you're running you're running and uh
+Immediately like the next
+Okay, my question is there's 2000 cells
+Mm-hmm. How many prisoners are in those cells? I mean, uh, let me check
+They're like they're riding
+They would have taken other guards guns
+The minute they saw people shooting they would have either a shot back
+Oh, hold you shit 1900 of those cells were
+With with criminals and again, they're not like actual criminals some of them might be innocent
+All right, so I'm gonna roll for
+1d 1000 what is that?
+So let's say like out of 80 in 1900 of them 600 were like just civilians uh, sorry 600 of them were like actual criminals
+And the rest were like just civilians
+So 600 of like actual criminal pirates and bandits and whatnot
+That are currently riding destroying yes, yes, like you get what I'm saying like yes
+So like they would have gotten guards guns the minute like 20 of them got shot
+There's at least like a hole because there's probably what 20 or 30 people again
+It's like it's it's a big place. It's not like everyone is at the place every time right so maybe
+10 of them is in one room maybe 10 of them somewhere else and so on. It's a big place
+They're pretty spent prayer to part what I'm
+Mm-hmm
+But what I'm saying though is I'm running towards like the exit where most of the prisoners would be running to
+So like I'm going
+Like the bridges are up
+The riots are going on the bridges are up. There's no way to get out
+So so you just made my job easier there's 686 hard and criminals
+But not harder the a gun to a head is is that it's it's a
+Shooting range essentially which is right in front of them
+But they what I'm saying though is they're causing like everybody's riding yeah trying to get free
+so like
+There couldn't have been that many guards for it's not the guards is the Marines with the armor and the guns
+It's not it's not like it's laser guns and it only have to reload they don't have to do anything just fucking shoot shoot shoot shoot shoot
+But you're telling me none of these like
+Didn't the other guards have guns or they just had spears
+They had spears and guns, but there were guards and normal Marines
+All the warship Marines are from Boros side that he brought in
+So these are different people
+That's what I'm saying like how many people are chasing you're telling me add a 686
+Priminals like even if there's like
+20 Marines like after you people it's still like it's pretty clear people with guns when
+But if they're gonna bet that's what I'm trying to say like
+In a prison in a prisoner right they're killing fucking everybody like the prisoners like they're like
+86 of them were were criminals. They're gonna be
+Yeah
+You mean like costages
+Yeah, they would have taken the hostages your tummy. I mean like it said it doesn't matter. They just shooting everyone down
+It's borrow he doesn't give a shit
+It's not not worth men
+He's just gonna chalk it up to you know criminals going wild and that's it
+No one knows what's happening
+So it's just once I did you run out. It's fine. You're safe, but everyone else is dying
+That's that's what I'm trying to figure out like yeah with these
+686 people be able to stand or go up against 30
+30 guards again like I'm saying it's not like the room that you entered in it's not like all 600 of them are in that same room right
+They're spread apart. They're on different places doing different things
+But these guards can just like yeah, these guards can just take over
+But what I'm saying is so far support also again these like 30 guards are
+Stationed here they can call in reinforcements. It's not just 30 you see as you arrive on the docs
+You've seen like a bunch of worships. It's not just that one
+But what I'm saying though like would these these 30
+Again, it depends it depends on what happens and how it happens right?
+I'm not saying that it's gonna go one way. I'm just saying that right now
+They just follow you they see everyone yeah, they see everyone in their way. They're just gonna shoot and move on and just keep following
+Exactly, I'm I'm fleeing like yeah, there's gotta be people that were working there
+They're running for their safety like and I'm just blending in like running away like yeah
+Writer
+Yeah, can you roll stealth for me?
+Oh
+Actually, I do oh shit
+Plus
+Oh my god Jesus
+Okay, as you're like running around
+The Marine that you first hit immediately spots you and he's gonna just take a shot at you
+Again
+Uh, no, no, no, no, the Marine that you were fighting at the doc. I want that look downstairs. Yeah, okay
+Are you stop
+19
+Okay
+As soon as like the bullets not the bullets the laser leaves
+The rifle and it's right in front of you. It just goes through you and you feel a hand on your shoulder
+and
+the next thing you see is just
+You dropping down in the floor as you see the the layers of the ground change change change change
+And you just drop down into the lower level essentially the basement in a room
+uh, like completely uh
+Like open like uh sell essentially
+And uh, I'm gonna leave it here and we'll figure out what the fuck happened
+Like
+Okay, perfect essentially
+What happened like from your perspective what you saw is the guy look at you is shout it
+Hey, you stop. He shot at you. You saw the laser, but it just went straight through you as you like start to
+Immediately go down and you see like the layers of the floor as you like going through the floor
+As you just drop down in one of the
+cells in the other place with like the door is a jar and you just felt a hand on your shoulder as that happened
+That's it. I'm gonna leave it there
+Okay, um
+Baptist uh
+And mouth is uh on your end
+Baptist you see the
+armor
+Land right in front of you this armor seems different from the other one. Let me see if I can find picture
+That's the other one we program
+What
+reprogramming reprogramming the armor what
+That was a whole thing for bot before oh
+Yeah
+Yeah
+Let me see because it took the flight upgrade
+Yeah
+marine armor
+Yeah, this armor that you see in front of him is like
+The visor inside of the wiser you see like glowing blue eyes on like the center of the helmet
+You see the symbols of marines on the shoulders of the armor you see the symbol of marines the chest piece is
+Completely white and in the center you see the symbol of marines and on the legs you see like the armor plates are way thicker
+Then before this armor guy looks very tall maybe like
+8 to 9 feet tall
+And he just lands right in front of you and just starts walking
+And he just stops
+Uh as you get up
+And mouth is you are chasing morrow what are you doing
+I'm going to land on the roof of the car. Okay. You land on the roof of the car. That's it. It's your all you're done
+Well for now
+He is going to maybe like punch through the roof
+Uh, let me see then
+120 plus
+Let's see if that hits
+16
+Okay, I'm gonna use his hockey point to add plus three to this 19
+What the fuck now probably to the switch
+Did it hit you think
+Uh, you see like this armored hand just fist like the black fist coming through
+The roof of the thing that you landed on just hits you square it in the chest as you fly up and land
+On the side of the road and you just
+Here like this kick that just throws the door of the vehicle like far away as
+Moral this is the first time you're seeing him steps out
+I knew you show up of course
+Now where is your captain
+So you will be bored
+And who might you be oh
+You're the navigator
+Come on get up
+Why do you raise that death?
+Yeah
+Oh you're the navigator
+I'm gonna enjoy beating you to shit and then throwing you in front of your captain
+Get up
+And I'm gonna leave all of this here and we're gonna continue next time. It's literally 12
+It's exactly 12 for me
+What this fuck was this session
+I don't know I asked that piece and Roma. I don't know what happened
+Um
+Hey look
+Yeah, should actually like real fast one one place is having like a fucking full on riot and the other place
+Just expose yourself like last time
+Good old days
+Oh, I didn't expose myself. I just made my mind. You basically did you basically said oh yeah, this is us
+Hey, call the boss
+Yeah
+The fuck is the worst supposed to think who here is
+Uh, honestly from like Roma's perspective. It's pretty pretty fine
+You're gonna meet someone that you haven't met in a long time and I
+I don't know if you guys figured out yet or not
+And Malfa doesn't know what you guys should
+Oh, maybe just forgot it's red or saffery. Yeah
+It's red or saffery
+Why would it be red or saffery? They don't have that power
+What power?
+The power that fucking lasers
+No
+You
+Do you guys remember or not? I don't I don't know if you remember
+That's what power you're being very big right now
+I'm not I'm not being very big like there's only one power that can let you like
+Pass through shit and you only know the one person that has that power
+Oh, yeah, I know that's what's your name
+Okay, six folds dude. Yeah, yeah with uh
+Yeah, yeah, yeah, you figured out through what
+Like
+The floor nobody's passing through the floor
+Oh shit. Oh Andy touch me. I got you
+Yeah, you felt the shoulder touch and then you pass through the floor
+How more clear do I have to be?
+I just I just figured out we're circling fucking whale were god damn. Yeah, I got you. Yeah
+What happened
+You you you don't know because it's from their like sixfold part or like
+Spiritclips is from Spiritclips essentially
+So you don't know but um basically they used to they used to be with us and then went away with uh
+Bestie senior no no no I know sir car will what
+You know sir again well
+It's not either siricus power. It's not it's not whales power
+It's not it's not sir again well that's your it's wine is that's here yeah
+That's what I've been trying to tell you
+Yeah
+So that means that means saplings should be here because you know I mean you have to figure it out
+If she's here
+So we'll pick it up
+Bob could actually be in this fight
+He sees the commotion and then get her let's do it. Yeah
+Always Bob going
+I mean he might hear the commotion
+Yeah, you might hear the commotion
+No, what's gonna happen is I told Lou if anything happens
+It's a perfect this yeah
+Go through dimension
+I'll just go through the mentions
+I am not sure if Lou's gonna make it back I mean he can he can stelt his way to the mansion or whatever sure
+We'll see we'll see I'll do some I'll do some rolls we'll see
+They're gonna suspect you dog
+I mean they don't have a dog in the house
+It's just a wild fox also it's like he's he's pretty small he can sneak by I'm pretty sure
+You kill my dog
+I'm not gonna kill you
+I'm not evil I'm not evil I didn't fucking kill Bob but do you think I'm gonna kill a dog
+Dog comes above Bob if you know
+I can't wait
+Yeah
+But these red ones get me killed
+Yeah, you I might kill you first
+Well, I'm sorry I have I have a backup character so yeah no no no no we're not doing that
+I spent a way too much time on you and your fucking sister to do you to get you killed all right
+But other than that whatever decisions you make I can't help with that
+I had planned for Linus to be
+at the
+Court anyway, I just I was waiting for a moment to bring him up, but I guess the moment came
+Escalated is yeah, I mean you would have eventually found Linus anyway regardless
+It's just cooler this way
+That's the one we're to do
+I mean it's fine. It's fine. It's I's up to you. I'm here to facilitate your craziness
+It's my job to figure it out
+As long as you make it out of this fight with the mean fucking guy
+Apparently alive
+And it's fine
+Hey, I'm gonna I'm gonna I'm gonna I'm gonna warn you
+You can't fight him alone
+I'm just gonna tell you straight up you can't fight him
+So Baptiste
+You gotta you gotta speed up your shit bro
+I
+Can't just get to Baptiste again. I mean yeah, you can just fucking fly over
+Yeah, that was big mouth is half has the 60 feet I know so only he could take the catch up to the carriage
+Yeah, no no no no, this helps if you can switch
+Yeah, you're like tap tap out. I'm going to that guy you fight him
+This is your target
+You won't but this wait a second. I'll go get him. I go get him. I just give you a sec
+No, you're not over here because we're all can't catch you we double-team this guy real quick and then just turn
+Oh, I'm not so sure everybody can catch you. I wouldn't say that
+He
+He has so room and
+I know I think he has legendary reactions to yeah
+He has legendary actions and reactions. I really fucked them with the legendary actions literally on the first fight
+I'm sorry, please
+I could no wish look melvin he has to fight will and Sarah's
+And then turn around and fight right after yeah, no rest
+Uh, that's pretty brutal
+I mean to be fair like these are like kind of the main characters of the campaign. So it fits
+The six falls and like one of the main antagonist
+essentially
+We're getting rid of your antagonist today. Oh, we'll see. I don't think you can but we'll see
+I don't think you two can I think Bob might have been able to he has a way too much dps
+That's why he can probably yeah
+Yeah, he's kind of like you know, I do
+I still do circle down single will
+This damage yeah, I mean you're more for like support and that stuff
+Well, they will figure it out
+Roman Linus is journey is going to be funny
+So we'll see what happens
+All right
+I'm gonna be funny a shit. I'm gonna be funny a shit
+We'll see the first interaction

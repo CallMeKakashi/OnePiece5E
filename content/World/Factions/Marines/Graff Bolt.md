@@ -3,7 +3,12 @@ type: actor
 faction: "[[Marines]]"
 status: draft
 publish: true
+sources:
 ---
+## Visuals
+
+![[Attachments/graff_boltt-portrait.png|Portrait]]
+
 
 ## Description
 

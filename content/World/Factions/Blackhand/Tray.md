@@ -3,7 +3,13 @@ type: actor
 faction: "[[Blackhand]]"
 status: draft
 publish: true
+sources:
 ---
+## Visuals
+
+![[Attachments/tray_caneheart-portrait.png|Portrait]]
+![[Attachments/tray-bounty.png|Bounty poster]]
+
 
 ## Description
 
@@ -12,6 +18,8 @@ One of the Blackhand pirates, loyal and dependable in the heat of the mission.
 ## Role
 
 [[Blackhand]] crew member. Part of [[Mira the Unbreakable]]'s inner circle — "the Fleet" — alongside **Thompson**, **Celine**, and **Katherine**.
+
+Devil Fruit: [[Foji Foji no Mi]].
 
 ## Personal Quests
 

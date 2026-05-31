@@ -16,6 +16,7 @@ The **Lunarfolds** are the player party's crew and a field unit of the [[Blackha
 - [[Cade Tigor Cooper]] — crew member
 - [[Malphas]] — Lunarian warrior, Thunderbird Zoan user
 - [[Zim]] — spy and informant
+- [[B.O.B]] — scholar ("Hex Machina")
 
 ## Related
 

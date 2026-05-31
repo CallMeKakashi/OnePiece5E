@@ -8,6 +8,10 @@ sources:
   - "[[Episode 9 - The Lunarfold Tournament Part 2]]"
   - "[[Sessions/Sidequests/Spider's Nest]]"
 ---
+## Visuals
+
+![[Attachments/chloe-portrait.png|Portrait]]
+
 
 ## Description
 
@@ -23,7 +27,7 @@ Member of the [[Spider Nest Pirates]]. [[Daniel]] risks everything to extract he
 
 ## Episode 6
 
-- Freed after party deal with Daniel; evacuated with [[Veyl Corvine]]'s help.
+- Freed after party deal with Daniel; evacuated with [[Veyl Corven]]'s help.
 
 ## Episode 9
 

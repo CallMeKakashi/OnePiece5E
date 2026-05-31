@@ -1,0 +1,5349 @@
+---
+publish: true
+type: transcript
+episode: 11
+title: "Welcome to the Jungle"
+status: draft
+sources:
+  - "Transcripts/Episode 11 - Welcome to the Jungle.txt"
+  - "Transcripts/Episode 11 - Welcome to the Jungle.srt"
+---
+
+# Episode 11 — Welcome to the Jungle
+
+## Extracted
+
+> STT: Whale/Serika → Sixfold; Pasha = nightmare lion-mink; Circle of Clouds = clown slave traders.
+
+### Summary
+
+- Resolves Ep 10 spider nightmares (Pasha-form); Daniel shares Liz/fusion lore; crew reaches dome **zoo island** (log pose drift).
+- **Circle of Clouds** clowns exposed as stranded slave traders; Roma starts fight on chained platform.
+- [[Malphas]] pursues escaped clown captain by speedboat — cliffhanger.
+
+### People (links)
+
+| Role | Note |
+|------|------|
+| PCs | [[Malphas]], [[Baptiste]], [[Roma]], [[B.O.B]], [[Veyl Corven]], [[Serica Corven]] |
+| Spider's Nest | [[Daniel (Spider's Nest)]], [[Chloe (Spider's Nest)]] |
+| Antagonists | Circle of Clouds (clown faction) |
+
+### Open questions
+
+- Recover clown ship and fix log pose?
+
+---
+
+## Transcript
+
+Episode 11 - Welcome to the Jungle
+
+Oh, good. You know, see I take the blame for everything that mad have you know you guys want this, okay?
+It's proof enough. Look at that. These messages. Oh, we will we want to find a slave trader. Let's curr
+me completely different. No, that's not different. Next island Rome is looking for a whorehouse after all these.
+Like I'm done.
+You know my intentions behind that message.
+I know what you all want. I love love. I love love. Where do we want it?
+No. All right. So last time you guys were
+broken up by a nightmare as Bob sacrifices himself to wake and realized that you were all so trapped
+in the nightmare. As you all get out of the nightmare, you also see that whale and cerica are in
+another nightmare of their own. As Baptiste puts on the ring, Bob using his detect magic figures out
+the ring has been causing the nightmares to maybe feel itself somehow. As Baptiste puts on the ring,
+he is immediately transported to the nightmare that whale and cerica are having.
+And as that happens, the rest of you figure that the nothing will actually move forward unless you
+all are sharing the nightmare as the ring has connected all four of you in a single nightmare.
+So as you all fall into cerica and whale's dream, you confront the very being whose property
+these rings are. And after a long hard fight, Bob dies again. It's a shame.
+Do you point in a finger and glue with that?
+Yeah. It's like all guy I've been all survived.
+But you guys resisted. You guys resisted the intention of the dude as he finally gives in and
+sits down to talk with you guys to decide then moving what he wants from you. As Baptiste
+rejects his offer to find his vessel, he just sends you back to reality. And now everyone's awake
+with whale and cerica out of the loop about the conversation with the being because they were killed
+before that happened. Same as Bob. And now we can continue.
+We need to wait the spiders.
+Do we have to know? It feels like someone ran me over with the freight truck.
+Damn. That girl music, Bob is groaning like hell.
+From what we've experienced when we go back in the dream,
+hot. Okay.
+Dude, I can't even talk. I can't even stand up.
+Dude, I don't know what happened, but every single time I get into the dream, I come out and I am all
+fucked up. I don't know if I... Oh, boy.
+Right. Well, I think we should go in and check in on the spiders.
+We'll start to go down and cerica follows. As all of you move downwards in the spider nest
+quarters, you see all three of them lying in a corner, groaning and like, you know,
+lying is the at them self struggling in the nightmare they're probably having.
+Whoa, dude, dude, dude. Country like...
+DM, can I remember and like, I just want to see. Do all of us have to go again?
+Pears are connected. So technically, cerica and whale can just go in.
+Pears, where am I with the pair?
+You're paired. All four of you were paired last time.
+All right, Baptiste, let's do this. Grab his hand and just fucking grab.
+Okay, cerica and whale will also grab the ring and grab the... Baptiste, you're essentially putting your hand on like
+bends like hand while everyone else is grabbing your ring. What are you doing, Bob and Melfus?
+Well, I'm also holding. Okay, you're also gonna hold everyone's holding hands, Bob, come on, join in.
+Bob is like the greatest existential practices I've ever seen.
+He's pretty sure he is fucked up. He's pretty sure he's...
+By the way, my speed is fast, so I can't even walk.
+It's up to you.
+Guys, you guys do know that I won't be able to help at all.
+Not that I usually help, but I won't be able to do shit, anything, okay?
+Bob, we're used to it. Let's go.
+Bob, we want to stay back, I can wait with you, darling.
+Yeah, but you guys already started doing this stuff, so yeah, Bob's gonna touch it.
+Okay, as you touch it,
+I should probably move all of this stuff to something that keeps the problem.
+Go ahead.
+Yeah, I have not added any of that in the sheets, but you can use it. Just tell me when you want to,
+and just roll manually from now, because I'm remaking everyone's sheets, so it's gonna be fine at one point.
+Yeah, what?
+Sorry?
+Sorry?
+That's usually either me or you.
+That's more mouth is about to hit and run.
+And I'll get it a better.
+All right, I'm gonna change the class and whatnot.
+No, no, no, that's not gonna happen for a while, let you know when it happens.
+Okay, as you guys are thrown in, you see Ben carrying Chloe as Daniel is just standing here
+and just looking up at something. You guys just hear everyone around you, just people
+in the town square just screaming and running away as the town itself just burns in complete
+channels. Kids, children, women, men just running away from whatever there is in front of them.
+And Daniel and both of them has not noticed you. I'm gonna move these six folds in first.
+Give me one second because I did not plan of them being here. That's why they're
+to concern to share yet.
+All right, both of them are around you about taste and while that is still happening,
+let me go to the soundboard. You hear like a low growl coming from the top of this building
+as a creature is just jumping from place to place as it lands on top of this fountain as a shockwave
+just goes through the whole area. And at this point, it would become visible to me and visible to you,
+guys, sorry. Yeah, visible to you guys as a lion mink is just standing in complete,
+so long form with red like glowing eyes and just blood splattered all over his body.
+I'll turn to the
+but look, this is the kingdom, this is the town square, but none of this happened. This is not how it
+happened. This is not how I remember it. They must have conjured something like this in their head
+because they weren't even conscious when all this went down. Well, not all this because
+the armies were fighting with each other and that's about it. None of us were here. We were in
+the castle fighting Cecil. They had to mix into this somehow. I guess this is it. Oh, I see
+where they hit us so much. You see at this point, Daniel, looks back and looks at you as he goes
+more of them. That is the way.
+He sees Wail and Serica and he sees you guys and he goes, oh, good, you're here. We need to stop this.
+This thing is going to kill us. It's going to kill everyone. Can you just get the people away?
+That's all you can do.
+Serica looks at it. It looks like Pasha, but it looks different for sure. He is one of us. Roma, what are you doing?
+You already fought this fight before once. Tomorrow you got to wake up. No, I can't. I can't leave Daniel.
+That's why none of your people are around. We've already done this before. Wake you up.
+As you're trying to wake them up, this thing will make its first roar.
+Each creature in 500 feet able to hear make a saving throw. What saving throw, bro?
+I don't know. It doesn't say. What?
+Each creature. Okay, so, wisdom saving throw, please.
+Yeah, yeah, removal points of exhaustion from yourself, please. Bob, you're going to dive in.
+Oh, fuck all.
+As the voice echoes, as the roar echoes, none of you seem to be able to withstand the immense pressure
+that you're feeling on yourself right now. So you're going to be frightened for one turn.
+Yes.
+Chloe succeeds, but she's unconscious.
+And all of you get into combat.
+I was starting to turn back to Erica.
+Is possible, number one, to battle in this battle?
+No, again, like I said, Pasha was with us.
+No, it doesn't matter. Whatever this thing is, it's definitely not Pasha. He would not do something
+like this. Just take it down and we can get out of here.
+It's a nightmare. It's bringing your worst fears come to life.
+Yeah. It's making my fear worse, so, fam.
+Sorry, what? I'd been here any of that.
+Yeah. Go ahead. I know some of the six old members died on this.
+No, no, no, one, only one died.
+Yeah, Aralia. Pasha is still alive, but he's he left for so he's at so. I think they told you that at some point.
+They have so many members as far as the teacher. Yeah, they did is it is. Well, it's six. They don't have any more than that.
+All right, let's get started. Who's first? Of course, it's about teased every time.
+Yeah. Oh, I didn't I didn't any of the fucking things to your shit, man. God damn it.
+The ring stuff whenever you want to use the ring stuff, just let me know.
+I didn't roll for the NPCs actually. Let me do that.
+Okay, it's it's it's fascist and first.
+Wait, what? Why is this help? Okay, it's fine. You know what? At this point, we're just going to run with that.
+All right, he's gonna.
+Multi-attack.
+And leap toward Ben and just bite one of his arms off.
+Roll to the. What was the attack roll? Why does the bite always?
+Yeah.
+There you go. And it just clean rips off one of the arms as he throws away Ben
+as Chloe just goes flying off on the other side. And that's going to be his turn.
+It's like his turn. Syracal will turn one off her. Sorry.
+He moved five feet close.
+Yeah. Oh shit.
+Hell yeah. You're frightened. Yeah, you can't do anything. I don't think Syracal can do anything either.
+All right, I'm gonna still try.
+She's gonna change one of her arms into a machine gun. And she's gonna shoot like five shots.
+Well, in one like 12 seconds, you can only shoot that many.
+Okay. One crits. One misses. One misses. One misses. One I think hits.
+Actually, no. Oh, three hits. One crits. Okay. Let me check his reactions. If he has any
+dozen, okay. We hit those 16 men or more. I can do that.
+Okay, damage. Normal. Crit. Normal.
+Why is it that the crit always rolls the lowest? All right.
+All right. That's Syracal's turn. It's Ben's turn. He is for right. Oh, I didn't do it with
+this advantage. Did I? Got him. You know, I'm gonna just go with that. Whatever.
+But then he's gonna just run into him and hit him with a breaker slam with this advantage.
+Oh, we can't move closer. Yeah. You got that.
+All right, Baptiste. You're turned.
+Well, since I can't really move closer.
+I have to bait those arms. All right.
+There you go. BC 12. Dexay from him.
+I believe he's gonna pass. He's going to pass.
+Yeah, that's zero damage. It passes. But that
+thing I get. I speak for my attacks with my arms.
+You're gonna go through my body. Yeah, so I can. Yeah.
+That's gonna miss. I think I can only do the one two.
+That's my turn. Is this turning back? It's your turn.
+So am I close to this guy?
+And you're so frightened. You can't move closer. You can't move closer. You can move closer.
+You can move away. I do need to disengage, right? Because I'm within five feet. No.
+I think you're, yeah, I think you're 15 or something. Yeah, 10.
+Quick question.
+Were we supposed to have long rested before the fight? Yes.
+Long rest. You're at 35 HP.
+GM, if we had long rested, then wouldn't my exhaustion levels decrease by one.
+So I wouldn't I have three inter-four? I'll just do it for you. There you go.
+Do it in the fight. You don't have it.
+No, I mean, in the real world, I have three, right? What?
+For, but we didn't long rest in the real world.
+It's for the.
+In the dream, you are in your peak physical form.
+Wait, so I, yeah, I ran away. I ran away.
+Okay. And I need to do this save again, right?
+At the end of my turn.
+No, it's just one, right? Roar is just the first wave hits you. That's it.
+Oh, okay. So wait, so I am just frightened for the rest of my life?
+No, for the third or the third. No, for this turn. That's it.
+Well, but in your case, you're frightened for the rest of your life.
+If you want to be frightened for the rest of your life.
+Oh, no, no, no, yeah. You have to make a saving throw at the end of each turn.
+Yeah, okay.
+Same for you, Baptiste.
+It's wisdom, right? Yes. Bob, you fail.
+Circus is going to burn her legendary resistance and kind of get unfitened.
+Ben, I'm going to do it again for him. Ben also fails. Baptiste, you succeed.
+And, uh, we, as well as turn. Well, can't really do much, but he can do.
+Dark Storm.
+Two, three, four, 24 is going to hit 25, okay? Crits. And that's it.
+Oh, sorry. Okay, he only does one. So he misses the first one.
+But the second one is going to head for 13. There you go. And I'm going to make a wisdom save.
+And he fails. All right, mouthless.
+14.
+14. 14. Well, head. Let's go ahead.
+Because he has not like wearing any clothes from chest up.
+Okay, it's going to do five lightning damage. What else you got?
+No, doesn't succeed. You're so frightened. Uh, Daniel is going to
+do nothing, but he's going to form a charcoal rod and just he's going to shoot those instead.
+Uh, I'm going to roll the damage for hard strike for that.
+It's going to hit.
+Okay, it's going to be Daniel's turn. I'm going to make a wisdom save.
+I think he's he doesn't succeed either. Clovis is unconscious.
+Romance, you're turned. It's right in front of you. This is the first
+make you've seen, uh, outside of like your hometown. The first time you've left your hometown ever since then.
+Red was not a man. Red had a fruit.
+Yeah, yeah. Yeah.
+Brother, brother, brother, come on now. Let's settle down. What the fuck is going on here?
+Uh, you trying to speak to him, but he just replies like in a roar.
+That's it. Just grumbles. I'm going to roar right back at him.
+All right.
+Oh, you son of a bitch.
+Yeah.
+Well, that's going to be yeah bonus rage and that's it. I think can you make a wisdom check?
+Is it a wisdom saving throw? Yes.
+Save, save, save. It's not going to be enough. Uh, after your turn,
+the roar, yeah. Oh, wait. So everyone is frightened? Yes.
+So how are we attacking this guy? Because you can't move closer. You can't move closer. You can't attack.
+Okay. All right.
+Prepare for this next round. Everyone that attacks him and still frightened, it has to be at disadvantage.
+Yes.
+Uh, he's going to.
+Leap towards Daniel. It doesn't really seem to care about any of you guys.
+And he's going to bite Daniel. Yeah. You have opportunity attacks if you want to do that.
+Same for you, Baptiste.
+With disadvantage, though. You're still frightened. Why?
+I saved my wisdom saves. Oh, yeah. Yeah. Yeah. It's over. I forgot.
+It's a fight anymore. Yeah.
+Wrong one. No. There we go.
+That's the mat one. All right. Cool. Both of you roll the mat one essentially.
+Uh, the ring essentially just jumps and just straight up just bites off one of Daniel's arms.
+Uh, the the the the the the as it just checks him away. Roll to the
+to the 10. Don't just.
+I need him right there.
+And plus six.
+Daniel's dead.
+Yeah, he's basically dead. Uh, you basically see like the beast just stare into him,
+ripping like his hand and just the mechanical legs that he has on him as those fall apart.
+It rolls again, and it's gonna be enough, it's turned.
+Circus turned.
+This time she's gonna warm up the machine,
+as she shoots another five times with disadvantage this time.
+Because I, oh, not advantage, disadvantage.
+Disadvantage.
+Disadvantage.
+Disadvantage.
+Disadvantage.
+Okay, one hits, two hits, but only two hits.
+Normal.
+Normal.
+As a machine gun goes off again,
+it will take 16 damage in total.
+You see, at this point, the blood just starts pouring out
+of this thing as it screams again.
+That's gonna be Circus turn.
+I'm gonna make a wisdom save.
+No, she used her resistance.
+She's fine.
+Oh, yeah, yeah, yeah, she did.
+Okay, I'm gonna move her around here.
+She's gonna flank her?
+Yeah.
+She's gonna flank the thing,
+as she like covers, like running pads,
+and it seems to be focused on the spider,
+more than you.
+She just shouts, just so out of him,
+he can put him down, he's bleeding.
+It's Ben's turn.
+Ben cannot move.
+That's gonna be his turn.
+Baptiste.
+Let him do his wisdom save.
+Oh, yeah, let me do that.
+Go Ben.
+Oh, never mind.
+Nope.
+This is only the money.
+One second.
+That's gonna hit.
+Forest damage, correct?
+Yeah, it's gonna hit and roll for damage.
+Oh, it did not calculate the damage right.
+One D6 plus 10, yeah?
+It didn't add my deck's modifier, I don't think.
+What's your deck's modifier?
+Four.
+So four, four, eight.
+Okay, there you go.
+That's my turn.
+All right.
+Bob, you see Baptiste just run in
+and just shower this beast with the spectral arms,
+as it pushes it forward.
+Bob, basically the main idea is we're not actually gonna,
+I mean, it's not for me.
+Nothing's gonna happen to almost anyone if they die, right?
+There's just gonna wake up.
+You don't know.
+That's for as far as you know.
+Ben here for two times.
+So we know that much, right?
+So yeah, since Daniel is almost dead,
+I'm just gonna yell out to everyone
+so that anyone the whole guy is just joking.
+If you die in this dream,
+you're gonna wake up.
+Wake everyone up the moment you drive, okay?
+And then I'm going to since I have nothing,
+I'll first be a little selfish for this term.
+And I mean that guy's not gonna attack me.
+Surely it's not gonna attack me.
+I'm tiny.
+Surely.
+Yeah.
+You still can't move closer to him.
+No, I don't want to.
+Yeah.
+This is right there.
+I'm just gonna give Baptist my,
+I'll use my bonus action to give Baptist my arcane defender.
+I just get the plus four to either I think.
+And I'm gonna just cast Miriam H to my soul.
+Cast it on me.
+You are not on four exhaustion.
+Okay, shut up.
+You are.
+Mom, it's like your brain new fighter.
+And a brand new day.
+Okay, we want to do just told the dead.
+Yeah, what do you say?
+Do you just want to do told the dead?
+No, I did Miriam H with my action on myself
+and I used my bonus action to give Baptist plus four AC.
+Just roll the spell.
+Do you not have it in your spells?
+What arcane defender?
+No, you didn't edit arcane.
+In the DM.
+Oh, okay.
+That's the C dialect.
+Yeah, yeah, yeah.
+So Baptist, your AC is now 20.
+Does that work like that?
+Just one turn for just one turn.
+Okay, just for one turn.
+Okay, cool, cool, cool.
+That's gonna be your turn, correct?
+Okay, way ahead at this point.
+Yeah, we didn't say, please.
+Way ahead at this point looks around.
+He doesn't really have his darts anymore.
+So he just looks around as he looks just terrified of what he's seeing.
+And he's just gonna make another wisdom save to check if he snaps out of it or not.
+He does.
+Does snap out of it and that's gonna be his turn.
+Malfus.
+Mm-hmm.
+I saved the people.
+Well, I can't have you show me up like that.
+He grabs both of his quick lace as he gets ready to fight.
+No, that's not gonna work.
+You did succeed the wisdom save.
+Now you can move freely.
+Daniel is injured.
+Let me see.
+Is there one for having no legs?
+I'm gonna say he's just unconscious at this point.
+Same with Chloe.
+She's unconscious, but they're not dead yet.
+I'm just making sure.
+Roman's your turn.
+Okay.
+It takes one person to fucking die.
+Well, die under what circumstance you don't know.
+I'm gonna take one of the javelin.
+That was an act 20.
+Oh, God.
+Yeah, do you shop the javelin?
+But it misses.
+And yeah, that's your turn.
+I think.
+I'm gonna take one of the javelin.
+I got to fucking whip it at this dude.
+And yeah, that's your turn, I think.
+Do you want to do something else?
+You can transform as a bonus as well.
+Yeah, but I still can't move forward.
+Yeah, that's fine, but at least you'll save a bonus.
+They're transforming.
+It will temporarily.
+Yeah, but he doesn't transform so.
+It's gonna be the things turned as it looks around.
+He's been still in conscious.
+So he's gonna just leap out of him.
+And he's gonna use its channel divinity to.
+Roman.
+To use a sacred weapon.
+You see on his arms, he has like a string of bead wrapped around.
+One of his arm is just gonna punch through that.
+It's just going to be an arm strike.
+Yes, you get bonus.
+Sorry, the thing.
+Normal.
+Normal.
+It's gonna miss one.
+He does get, what do you call it?
+Savage attacker.
+So he will try the one he failed.
+Again, that's gonna hit.
+I'm gonna roll damage.
+It's not gonna be a lot with the arm strike, but with the.
+He added channel divinity.
+Sacred weapon.
+As an action, you can imbue one weapon that you're holding with positive energy using a channel divinity for one minute.
+You can add your charisma, modify it to attack rolls.
+Made with that weapon, minimum bonus off.
+Plus one weapon amidst bright light, 25 radius.
+Yeah, that said, it doesn't have any damage advantages.
+So as it leaps forward, what are you doing about these?
+I'm going to make my.
+Go ahead.
+It's gonna hit.
+And circus is just gonna shoot her.
+She can shoot, she will transform one of her arms into a blade and she'll stab with that.
+I just realized.
+I was all those attacks with that banish last time and I didn't make a single moment.
+The 15 right.
+There you go.
+And for circus, it's gonna be nine more.
+There you go.
+As it moves forward.
+And this time we just rip into him.
+And what was it 12 and 15?
+Let me see if that will kill him.
+Yeah, this will kill him.
+Is it just a rip's ban from like center apart completely tearing him off?
+Nope, or a peep.
+All right, that's gonna be the things turn.
+It's circus turn.
+Saga looks at way and she goes.
+Hold off it for a few minutes.
+Okay, just hold it off at one point.
+I'm gonna do my can.
+I'm gonna prepare my cannon.
+As she prepares for the cannons, the shots to turn form both of her shoulders and do like a huge cannon.
+It's gonna be end of her turn.
+That's the least.
+I needed to move towards it.
+Oh, it's already happened.
+No one else can move forward because they're all frightened.
+I mean, we'll can we'll can move forward, but after you're.
+The captain is all those all.
+That hurts.
+That doesn't it.
+Where's this thing?
+I'm just.
+Okay, that's gonna.
+Yeah, as one of your actual arms just hits the beast like in his face.
+The other two just kind of misses as he just just crouches down and starts to leap toward you.
+It's gonna be end of your turn.
+Bob, what are you doing?
+Ben has died.
+Oh, okay.
+Yes, Roma and Malthus.
+You did say yeah, yeah, you still have it fucking marked it as.
+Let me remove that.
+Oh, my God.
+You can use your potent, by the way.
+Again, this is essentially every nightmare is a new area.
+So you can longer it's essentially.
+Okay, that's not gonna help anyone.
+Okay, so that's your arcane, whatever you're giving it to him.
+Yep.
+All right.
+Okay, will take position in front as he looks at Baptiste goes.
+Well, I'm gonna.
+Yeah, Baptiste, you will look at you.
+We will go.
+I'm gonna cover Serka.
+Just make sure he doesn't come near her.
+You know, yeah, as Roma is like kind of struggling to move towards because his animal instincts are just telling him to run away.
+He's gonna just grab him and throw him off.
+Let me see if I can do that athletics.
+Yeah, 13 is not gonna be enough.
+He tries to just ram you up, but he just cannot move you.
+Sorry, Roma, you have to.
+You have to stick.
+For a while.
+I have mouth is your turn.
+All right, let me do that.
+I'm gonna do the charge thing.
+I'm gonna be a team player to give Roma the health action.
+Okay.
+What do you say to him to make him not frightened anymore?
+Well, I was like, I'm just gonna.
+Okay, that's gonna and frightened you, Roma.
+It's gonna work out.
+Do you have anything else that's bonus health action is that said, I think Daniels unconscious.
+Roma is your turn.
+You still frightened.
+You have to make the thing with the saving throw and then we move on to his turn.
+Is it the end of your turn?
+Out of it.
+Okay, as you start to like feel the rage build up inside of you.
+A layer of moonlight just shines on you by the corner of your eye.
+And instead of transforming into your regular good old good old.
+Yeti your body just kind of rubs into like this glaring white fur as you transform into your
+new long form for the first time can you make a wisdom save with advantage with the plus two plus four.
+It's not gonna be enough.
+Roma, you don't feel like yourself.
+The beast inside of you just wants to tear everything apart.
+Yes, so whatever you can do to maximize your damage do that.
+17 fails.
+Wait, you don't have anything.
+God damn it. Why do you not have anything?
+Yes, hit it with the skillet skillet skillet.
+But would I have friends?
+Yes, everything everything you will hit it with everything you have.
+Oh, you want to you want to read all with the bell fragment baptist?
+Okay, Roma real one more with advantage.
+Yes, we gotta we gotta save you.
+No, it's not gonna work.
+Okay, fucking you hit you hit well, roll the damage.
+And can you also do your friends eat strike?
+Do it with it.
+Oh, yeah, reckless only goes for one, right?
+No, it does for both.
+Do it with advantage.
+Do you mean hell yeah, you want to kill it?
+Let's get ahead.
+Do the damage.
+As you try his farm just snap back take your skillet and just pound the wheel down.
+Otherwise, and this thing now avoids everyone and it's gonna rush you Roma.
+And it's gonna do an on strike with channel divinity.
+Improved divine smite there you go.
+Why?
+What the fuck did I do?
+Let me actually fix that.
+I should have 43 just baseball.
+Why the fuck is my dude so huge?
+I like it.
+Did I not?
+Okay, just appearance only I'll just do that for now.
+There you go.
+Yeah, and now you should be good.
+I had a 21 opportunity.
+Okay, do that.
+Do the damage.
+Say five.
+Okay.
+It's talents.
+No, like the number wise.
+No, no, 21.
+For Roma?
+No, no, did you not attack map taste?
+Oh, it's not out of your five feet range.
+Let me see.
+Let me see.
+Pasha hit you with a 21 and 23.
+That both of them.
+So the damage for this and both of them will be accompanied by improved divine smite.
+Just add the damage of that.
+Wait, what?
+It's 11 and 7 and
+it's 11 and 8.
+I'm going to do another two.
+And what's the where's the other damage rule?
+No, I rolled for malphysis thing.
+Damn it.
+Sorry.
+There you go.
+It's another eight.
+There you go.
+There's going to just shout duck and she's going to go.
+Bokey overdrive.
+Are ducks here?
+Uh.
+I'm going to roll eight to the 10.
+I'm going to make a next save.
+Oh, we failed critically.
+It's going to burn the legendary resistance.
+But it still takes 20.
+Fix amounts of damage.
+And you see like part of its body like from shoulder up with one arm is just God just blown apart.
+It's going to have this advantage next turn.
+Malthus as our baptists your turn.
+As I could just just just smokes just comes out of her hand as she just falls down.
+What are you doing?
+I'm a baptist.
+Good job.
+Eric will take a much earned rest.
+Get the swing.
+Okay, do the damage first.
+Oh, that's going to create.
+Okay, how do you want to kill it?
+I'm going to do it.
+So I was looking at either from or they're right now.
+So I just.
+Yeah, from my hand, the ass or arms.
+And the first punch.
+They like go into his body.
+And start vibrating.
+And there's just an explosion where the punches were that leaves a whole body.
+Yeah, as your punch just goes through stops right in front of.
+And then it's just like a low as like just void becomes leaks out of it and it just sucks off.
+Like the part that it was connecting with.
+And there's just like a giant dash in between of his body near the area where this like arm exploded.
+I just fall straight down on his face.
+So let me see what the damage was.
+21 and 15.
+That's going to be a three six.
+Yeah, that would have that would have killed them.
+All right, we're selling combat because robot is still out of it.
+Okay, that's your turn.
+Sorry about this, Roma.
+Go one more.
+That Chris.
+Hey, Roma, love it, personal, but why is it whenever I fight one of our teeth?
+Yeah.
+You said for me you did you did very well with me.
+You're next.
+As you.
+Yes, yes, it is.
+As you hit Roma, he just becomes more and more angry.
+I just glared back at you.
+Bob, it's your turn.
+What?
+Oh, did you do force?
+It says, oh, it says bludgeoning.
+That's why.
+Okay.
+I think the thing in it comes down.
+Yeah, yeah, yeah, yeah.
+10 more will will knock out Roma 10 more will knock out Roma out of his
+so long form.
+I'm going to put you back at forty one and Roma, you transform back as
+like the.
+It's like body muscles just grows back.
+Oh, let me fix your token.
+I don't know why it's so large.
+It's meant to be like that.
+No, no, it's not supposed to be like that.
+All right, there you go.
+Oh, would I still be angry?
+No, no, no, you're out of it.
+You just half a new puffing you're like, guys, I had a dream.
+I have a dream.
+What the fuck happens?
+And you see like the beast lying near you.
+Roma, it does kind of remind you of someone, but at this point,
+you don't know who.
+You took it down, Roma.
+I took it down.
+I couldn't move.
+You transformed and became a different person.
+You took him down.
+I became another person.
+What's your me?
+Roma, what's your me?
+God, how is it?
+I just went with grabs circa as he asks.
+You good?
+I know that puts a lot of pressure on your body.
+Just be careful.
+As he tries to walk up to Daniel and maybe we can up.
+No, you can't wake him up.
+You got to kill him.
+We don't know what happens when we win in these dreams.
+Our first, we were winning the Bob died in mocha.
+Our second in willing to get his dream.
+We all died.
+This is the first dream we've actually won.
+At least let me at least kill this kind of bitch.
+Come on.
+Come on, man.
+I'm walking away.
+I've got to say that's approval.
+I hope we can take up.
+You see, as Will tries to wake him up, he Daniel opens his eyes as he seals the whale.
+He just swarts his hand away as Will is trying to reach to him as a guy.
+That's not going to hit.
+Calm down.
+I'm fighting.
+My leg.
+What happened?
+I will point over to the monster.
+Wait.
+As he holds his head as it makes sense.
+He won't.
+What?
+Why am I back here?
+What the?
+This is all the nightmare.
+We've been sucked into someone's petty games.
+And this is just what you guys conjured up in your nightmare.
+Yeah, I wasn't.
+I wasn't conscious even.
+I didn't have these legs.
+Makes sense.
+It felt so real to me.
+As Daniel just comes to this realization, Roma, you hit, pull in the head.
+And all of you are going to wake up on the ship.
+Except for Baptiste.
+Baptiste.
+And as everyone disappears around you, the light from the surroundings dims as you feel
+an energy surround you.
+And you feel you see like an outline of the same being that you encountered the first time.
+Steps forward as it says, well, I was that.
+I noticed you did not use the rings to power.
+Or as that child, you fear the rings will affect you.
+I didn't use it in I want the rings power.
+That's not a serve.
+That's the purpose for me.
+Let's see.
+If you survive each night, building those rings.
+Right now you think you have power over me.
+So even you lose everything.
+You will realize that this is the only power you require.
+Forget your mortal shell.
+Just join and open.
+We'll see who obeys at the end of the day.
+You said it started to get darker, right?
+Yes.
+That is a burst of flame.
+It goes behind you.
+The figure puts a hand up above its face as it dissipates right in front of you and you wake up.
+Bob, you are not dead.
+So that's something.
+But immediately Bob, as you come out of the five, right?
+Not five.
+Not five.
+None of you actually died and you actually beat the nightmare.
+None of you get additional exhaustion.
+You should focus up on that first thing.
+We only have two levels of exhaustion.
+Also, Bob, as soon as you come out of that dream, you just fall flat on your face unconscious.
+Bob is not going to move.
+He has a speed of zero.
+He's there, guys.
+I know you're on four points still.
+Background NPC, okay?
+Bob, you can still move your own four points on five questions in a bit of move.
+Yeah.
+I think you can move half speed, but yeah.
+Yes.
+I think this, I think everyone needs a much earned rest.
+Everyone, the spiders and everyone can't come upstairs and they're like, what the hell is that?
+Oh, shit, I feel like someone ran me over.
+Chloe looks at Roma as she looks at him and goes, try to kill me in that dream, didn't you?
+Roma?
+I'm going to be like, bro, I don't even know what happened.
+I thought I was going Hulk mode for a second.
+I'm waking up like I'm coming to like what the fuck?
+I have my eyes on you.
+Okay.
+Now how about you go make us some food?
+Please, you can do well, just carry along to the next island.
+What the fuck happened?
+I don't know, I was unconscious.
+I'm moving.
+You're talking to Chloe, Chloe doesn't fucking know.
+She wasn't conscious the whole time.
+Oh, oh, yeah, Chloe, I'm sorry, but like the only way I knew how to get out the dreams of somebody had to die.
+So I had to get my hands up and get you just fucking mush my head in.
+I'm not going to buy that.
+She just walks off at this point as Daniel sits down and goes, look, well can we talk?
+He asks Will to sit down and talk.
+Both of them just run up to the roof, the, sorry, the crow's nest.
+And the rest of the crew just sits down.
+What?
+Would you like a maybe?
+Sure, why not?
+Bob is unconscious, just so everyone knows.
+He's just fucking teaposing on the ground.
+What?
+I'll pick Bob up and bring him to a bed somewhere.
+You can put him aside somewhere around here. Yeah, you're on.
+No days, it's been, you just, I think it's been like around 2 a.m. at this point in the night.
+So it started at 12.
+Because Malfa's waited for an hour, it should take like around an hour and you guys struggle and try to figure out everything what was happening.
+So that took another hour. So it's been only two hours since the nightmare scenario ended for you guys.
+So Sarah looks at Baptiste and Will as she heads down to below the action goes, okay, I just need some sleep in an actual bed. So I'm just going to head down.
+I just waves her off as both of them are now standing not really even like try to start a conversation just looking at each other waiting for each other to talk.
+Is this where you come to? That's your love.
+Daniel just gives you a look because look what do you want me to say that you were right? You sure you were right? Good, happy.
+What else do you want me to say?
+I wanted to say that maybe all this is unfounded because really we don't remember much. Me, Ben, we really don't remember much from that day.
+Silence promises that this is the way it happened. Now you say otherwise that you try to protect the people of her release. You try to protect sister release but I can't trust you on that.
+I need to talk to silence. If you did say that white did he say it?
+Well, looks at him as goes look you can believe what you want and I'm really sorry about your sister.
+He's definitely holding something back. He just doesn't want to say it.
+Well, I'll turn to him. This we can only move forward if we're telling the full story. Well, don't hold back.
+Just don't go insane on us. Okay, I'm going to tell you what happened with sister release.
+We were in the middle of the fight. It was the only way if there was some other way we could prevent anything else we would have done it. But to hold the explosion we had to make a decision.
+We had to use this power to fuse Liz and sister release. So the person who is Liz now is not a single person. They're two person.
+And she does not really remember or has any memory of a lease. She just has her powers of the barrier fruit. But.
+Yeah, that's all I can tell you look, I think we have a lead. We have finally have a lead to maybe undo his fusion.
+We just thought it was a dead end. I mean, Lynn left a long time ago to find some way to infuse Virat and Les.
+But the encounter with them tells me there is maybe hope. So look, you can just come with us and find Virat because last we heard of him.
+Sister Elise is with them or Liz is with them.
+Daniel just at this point is in shock and he doesn't really believe what he's hearing. So he just looks back puts his head against the crow's nest as he goes.
+Look, this is a lot taken. But I can't come with you. You have to understand I have to meet back with Silas. I have to explain why we.
+Helped you guys destroy the doctors. Island. If we don't, he just.
+It's just cause is just going to cause a lot of misunderstandings. Okay. So for now, I'm going to trust you on this.
+And maybe at some point we meet back up together and we figure this out.
+But right now I do have we do have to separate. I'm going to drop you off on the next island, get all the supplies that we need and head back to the base.
+Daniel. What? Just now.
+And things don't ever work out. You will always have a good.
+Okay, don't go on. Moshe on me. He just jumps off.
+As you walk away, he calls in Ben and he just starts to explain everything to Ben as Ben just stops midway as he.
+Just falls to his knees and thinks about what Daniel just told them.
+So we can just skip to the morning. If you guys want to do anything.
+I want to go to bag. What do you mean?
+Is there anything for me to do like sleep? Okay.
+Check your DMs.
+Okay, everyone is going to take a long rest, but it's only going to remove one level of exhaustion.
+So we sleep again.
+Yes, we do.
+We can't do that because it's only been one day.
+And two. She died. So she takes one, right? Everyone should be on one exhaustion.
+Except for Bob. Yeah. And except for.
+They didn't die. But Ben died. So he took two levels of exhaustion. But.
+He's like nobody even takes Bob to his room. I took you to your room. Yeah, he laid you.
+Everyone. We was going to stick up and sleep at the mast. As Sarika is going to sleep somewhere below deck.
+So we can skip to the morning. Let me move the spiders also into the map now.
+Everyone should be good except for Ben who will take one level of exhaustion.
+Daniel and Chloe. Let me move Chloe.
+Sarika is probably somewhere below. There you go. We can skip to the morning.
+Everyone is now awake. Let me know what everyone is doing.
+Okay. Roma is usually busy in.
+In the kitchen preparing back breakfast at this time.
+Veil still up there. You don't really see what he's up to.
+Sarika is still sleeping. Daniel is starting to turn the ship toward nearby Allen that he saw.
+A couple minutes ago. And his lock post seems to be pointing to that Allen anyway.
+So they're going to head there. Ben is just still sitting just thinking to himself Chloe.
+Carefree on the mast.
+Okay. Roma, you put out the food in front of the people.
+Come get the phone.
+Just getting. Just getting.
+I wrote pretty high on this one.
+This one might actually taste good. Yeah. Okay. Roma explain to me what you cooked.
+I got eggs. I got a little bit of. I don't even know what kind of meat it could be turkey.
+I know what did you find eggs?
+Probably they had they had it in the pantry most likely.
+He didn't do it.
+Yeah, I think it should be good.
+They probably would have stuck up on the island on cholesterol. It's only been like what four days.
+I got a little bit of sausage, a little bit of pepper tomorrow.
+So it's just like a little. Jump down as you hear like a rumbling below as Sarika just runs up with water.
+Stuff food and just shovels it in and we'll just pick some off a plate and goes to a side and says to Sarika.
+He's just talking as he's eating.
+Bob has still not woken up and you haven't heard anything come out from his chambers.
+Okay, Baptiste. Where are you doing? Okay, Malfus.
+Okay. Checking out Twitter first.
+Okay, what letter? The weather.
+Oh, the weather. Can you make a nature check?
+It should be below medicine.
+Yeah, to you, everything looks fine. No unforeseen weather changes to the way that you're headed.
+Nothing seems out of place.
+Yeah, you give one plate to Daniel as he just put sit in one hand as he eats it.
+And you put one beside Ben, but he's just not responding of this might just sitting quietly.
+I was like a couple of birds. Stand on his.
+He looks at you and then goes.
+Oh, I will. Oh, oil. Just leave it there.
+Chloe again jumps right down, takes a plate and just runs right up.
+All right.
+Bob has not woken up.
+Isn't that why you say.
+I was at 3HP at that point, by the way.
+I was not saving anyone. I was saving myself.
+All right. Any newskoots flying over?
+Who what?
+The papers.
+No, no, no, no newskoots. You don't see anything.
+Gonna jump down and grab the plate as well.
+Over to Daniel.
+I'll see you turn the island.
+Well, yeah, but this is the only place the lot poses fixed at.
+So we can just drop you guys off.
+Maybe you stop at Penn, leaf.
+What?
+What I would do.
+I have no idea. You know, the lock post takes you whatever it sets to.
+So hopefully it has supplies at the very least.
+I'm gonna be sad to see this girl.
+Well, I have a feeling this is probably not the last time we're gonna meet.
+I know. Like I said before, you'll join our crew of inch.
+How many times do I have to say this?
+I don't even know how to explain this.
+We're not gonna join your crew.
+We're a different crew.
+But you don't you understand about that?
+Well, the same thing.
+Looking them now.
+Yeah, well, we're not like them.
+We are actually loyal to the people we work for.
+So are we.
+Cool.
+Okay, do we want to skip time till we get to the island?
+How much time would pass?
+Since?
+Probably around 20, 30 minutes.
+You can see it.
+You can visually see it.
+So it's not gonna take that long.
+I'm gonna go get Bob.
+I'm gonna be like, does anybody know what that island is?
+A rock island?
+Yeah.
+All right, Malfus, you head down toward where Bob was.
+And as you touch him, he's very cold to the touch.
+As you turn him to a side and try to take a look at him, his eyes are just white, just a blank.
+He doesn't seem to be responding at all.
+Well, he's a child.
+What?
+So is there a pulse?
+Is there what?
+There is no pulse.
+But you do hear like a slight humming coming from his chest.
+Like a generator trying to run, but it's just out of you know, feel essentially.
+Well, I'm gonna shout for the list to come down.
+And Malfus, my boy was with me for such a long time and he's calling the team.
+I see what kind of anywhere.
+All right, you just see Malfus just took off like Bob's overcoat and his shirt pulled up.
+And you see at the center of the shirt there's like a glowing blue orb.
+But it's like, it's very dimming.
+The light is like kind of flickering off of it.
+What's going on?
+I'm just like Bob is going out of fuel.
+Malfus, hit him with your shock, charge.
+You can try it.
+I'm going to try to just start off.
+All right, can you roll with just just roll just I want to see what happens.
+Just to do extra damage.
+Just do attack.
+Oh my god.
+As like a jolt of electricity runs off of Malfus's fingers, you just see Bob's.
+You know, spasm as whole of his body just gets a jolt as he just falls down again.
+And nothing no response.
+I'm just.
+I mean, yeah, always like probably prone.
+So you would have advantage.
+I mean, that's not the point, even if you do it with advantage, it doesn't matter.
+It's not going to do anything.
+The jolt just runs off of his body's metal body.
+It does not do anything.
+Also, machine is Bob technique.
+Both fighters machine for use together.
+What?
+For the other part is Bob.
+I can be kind of as machine to turn on.
+He does run on a fuel like Frankie and the other counterparts.
+Machine stuck it by this bell.
+Yeah, I'm going to say that.
+I'm going to say he's not he's not a machine.
+He's a cyborg.
+I'm not saying anything.
+It also.
+It also says it might still be.
+And so who knows?
+No, no, no, no.
+It's a post a votes.
+I'm going to come down here because he's other like cyborgish type person and we don't have a real doctor on board.
+You shout to Daniel as he runs up and says just then just keep keep it straight.
+Okay, I'm going to be back.
+He runs down.
+He sees everyone gather down below as Sarika just with her mouth still stuffed with food comes down as well as goes.
+What are we?
+We were surrounding the tin man.
+Oh, just give him some food.
+We can he's passed out.
+He'll choke on it.
+She just goes up.
+As Daniel comes down.
+So what?
+Do you know how to get him jump started?
+Look, I'm not a fucking sign.
+How the hell am I supposed to know?
+I mean, you have cyborg parts.
+But they're just prosthetics. They're not really cyber or like there's no tech in that.
+It's just iron with some nerve endings here, but that's about it.
+Our doctor is around right now.
+Well, our doctor is in around right now as well.
+How's Dice?
+Oh, that sucks.
+Don't you have any ever told you what his fuel source is?
+No, probably.
+Can I turn this room?
+You can check his journal.
+Can you?
+I don't know how to read.
+Yeah, can you.
+Okay, you can give it to someone else.
+Okay, you to you, Malfa's everything in the book seems like writing sort of a madman.
+It's just about double fruit research stuff like that.
+You do see sections meant mentioning some compounds to be like add this to this.
+Add this to that and then this will create my power source.
+Because any of these on the ship.
+Well, you they're like chemical symbols.
+Would you know about those?
+Probably not.
+If there's something like how should I just go and do Daniel and show you to be kind of the end of these on the ship?
+Yeah, start finding calcium sulfur and magnesium carbonate.
+I can Bob can't say it.
+He's conscious.
+He then it looks at it because the fuck is I have no idea what these things are.
+Why don't you just start showing it into his core?
+Just try everything.
+I don't know.
+I'm just I'm leaving.
+You know, we're just going to.
+We're getting closer to the island and I don't want Ben to just run into the island.
+I'm going to go.
+He leaves and takes the helm again.
+Thanks for abandoning us.
+No one's abandoning you.
+It's your problem.
+Figure it out.
+He might know this shit.
+Who the fuck was that?
+Well, it comes down.
+You called me, Roma?
+Hey, you know this shit.
+Holds up journal.
+He just looks baffled and goes.
+Look, Roma, I don't know what opinions you have of me, but I'm not that smart.
+You're smarter than I am.
+What the fuck do we need?
+I don't know.
+Someone like Bob, but I guess.
+I say shock is little gym again.
+Try it.
+All right.
+Malthus, you're going to do it again.
+Okay.
+Normal again.
+Yeah, normal.
+Doesn't again.
+Doesn't matter.
+Okay.
+As it again.
+The shock again just runs through his body.
+He spasms a bit and then he folds down.
+And then he's even hooking for the rest of the.
+Well, looks at you guys.
+You guys are really something.
+What are you trying to kill the dude?
+Maybe he needs a system reset.
+Someone look for a buddy.
+I'm going to search his room for just random shit.
+Okay.
+You see a couple of miles.
+Yeah.
+And it's going to say different compounds on it.
+Is it just it's just letters?
+I'm just going to start pressing on to Bob to see if I can reset him.
+You could try that.
+Okay.
+One says in his three of one of the wilds.
+One said any edge CO3.
+One says CH4.
+One said CSCO3.
+And what says any CO?
+All of them match the book.
+But you know, you don't really see like any straightforward way of what the actual thing is.
+Perfect.
+I'm going to take all four files and dump them on Bob.
+Okay.
+What are you doing?
+Umpey mom and Bob like on his body.
+Okay.
+So near the core, you see a small button that opens up.
+And you can pour stuff into the core.
+What are you putting first?
+Okay.
+All four.
+Bob, can you make it that safe?
+What is Bob when you need him?
+You do not need to roll that says because you have a positive number of hit points and blah, blah, blah.
+Can you, can you make my hit one zero or something?
+Okay.
+Okay.
+Okay.
+As Roma is pouring down a bunch of miles into the reactor that you have at your core, the reactor just starts to malfunction at first.
+But as soon as the last while of NCO drops into your core, it reboots as you come back to consciousness.
+I see his eyes waking up.
+Yeah.
+I'm going to slap the shit out of him and be like, don't you ever do this again.
+And Bob, you now smell of ammonia baking soda, acidic acid, methane, ethanol, and salt.
+Yeah.
+Yeah, yeah, exactly.
+Bob immediately jumps up and like he has no collection of what happened.
+He just looks around, he smells himself and sees like all of his like chemical wells on himself and he said like what happened.
+I also bet that he's.
+Oh yeah, he's words like he's daughtering.
+You passed out, I found these four jars and I just put them in whatever shining on you.
+Like you didn't tell us anything about you, bro.
+What the fuck was that?
+Matt was holding my journal.
+Have you seen the sodium chloride over there?
+I can't read.
+What?
+I can't do an order.
+I can't read, but I just choose not to.
+There are labelled.
+There are labelled.
+I have the bios labelled.
+There's no more than in this fucking journal, Bob.
+Can I turn the bios that way I can read it right now?
+No, there is no like I put like names on the was it just chemical names.
+Exactly.
+There's an a.
+I'm not.
+Okay, Bob, like, I'll send post for a second and says.
+Yeah, I think that was on me.
+Yeah, you guys really saved my life.
+Thanks.
+As usual.
+And then, but people walk out.
+Anyway, we're almost there.
+Yeah, as this happens, Chloe just says, land.
+As the ship starts to slow down, you all get out.
+Bob, you're still kind of tired.
+So you slowly just walk out as you like wipe like some of the liquid that was sprayed on you.
+Everyone is going to walk out as well just runs up the mast.
+And you guys can now see the island much more clearly.
+It's all inside like this giant white dome covering almost all of the island.
+And the whole island is like in a shape of like semi circle.
+And the dome covers like the center of the island.
+You see a small dock near like 10, 20 meters from you as the ship starts to turn.
+And Daniel just asks Ben to drop the anchor.
+Daniel just sorry, Ben just grabs the anchor and throws it down as the ship completely stops.
+I'm going to grab that bowl of food and be like, Bob, free of heat.
+This is quick.
+Bob, you eat it and you immediately.
+Okay, you want to shower first and then eat it.
+Okay, just say no, there's just a bucket in a room.
+There's no like actual shower.
+Yeah, no mind.
+Okay, so you guys are at the island who's going to get off and make first contact to whatever's the hell these oldies.
+Shit, I am on a meal or how?
+Oh my god.
+He was in, he was in joking.
+I'm trying to remember.
+Well, it is very clear that there is nothing in this island except for a sign that just points you toward the entrance of the dome.
+The outlines of the island is just covered with the glass.
+Well, our ship ain't here, we might as well go to the next island back here.
+I'm on mask parade for this island.
+Oh, yeah, where's my ore of oros?
+You're mask parade on this island?
+Yep.
+All right, so you put on the mask and...
+Are you just disguising just disguise yourselves like what are you doing?
+We're giving it to the underworld stuff.
+Okay, you can't just decide that if I don't have anything planned.
+That's the devastating box.
+Okay, no.
+All right, I'm going to say you both put on these costumes, mouthfuls and Bob, you're very confused.
+So what is happening? You do regain all your edge, sorry, I'm going to do that.
+As you shove more of more salt into your core, you regain all your...
+It points in everything.
+Me remove and conscious from you.
+Uh-uh.
+Go, go.
+No, no, because you use your tokens.
+I'm going to transform you into your tokens instead of, you know, that...
+Mask-rate, there you go.
+Purines only go...
+And...
+Rome...
+Oh, I'm going to fucking...
+I don't know why you're so big, but I'm going to keep it that way.
+Fine, I'll try to put it on the ground.
+I get it.
+Yeah.
+Uh, you got it.
+All right, both of these weirdos put on these weird masks.
+They jump off the ship and we're really one good.
+All of you do, all of you follow because Daniel and Ben are going to leave.
+They say to Chloe, Chloe, keep a lookout if anyone comes through, just call me on my Den and Mushi.
+We're going to head off, maybe try to find some supplies.
+And you guys are okay, right?
+Uh, guys, what are you doing?
+I'm going to look at that, stand Roma and then putting on their whole mask and everything.
+I'll do like a stressing motion to Bob and then just leave off the ship.
+Okay, you...
+Okay, I can't memorize another name right now.
+Uh, uh, not yet.
+The newsgoos have not reported on neither has mouth is the...
+What looks like.
+Okay, sure.
+If you can plan it, may it for the next one.
+We'll see.
+But you have to gather these materials to make you know?
+Yeah, I was planning to like do the same thing because after the whole dream and everything,
+because Bob is still shown that they might find out about his whole ancestry and whatnot.
+All right, cool.
+Who's going to jump off the island?
+Who's going to stay on the ship?
+I'm going off.
+Okay, Roma, you're following?
+Oh, I am.
+And while I'm doing it, I'm going to be singing a little tune like "For how to crack you."
+All right, well in Terika, I was going to jump off as they say, "Well,
+for the time being, I think Daniel and Ben are going to be on the island.
+We should probably figure out a situation for a ship."
+So as far as we know, he was headed to the South Blue.
+You do have a lot post, right?
+Uh, Baptiste?
+Yes.
+So we have to spend some time on the island to get to the next one.
+So we might as well check it out.
+Okay, well in Terika, I'm going to follow you to Malfus.
+Bob, you're following, right?
+Yes.
+Okay.
+Yeah, I don't have any of those.
+Yeah, everyone gets off except for Chloe.
+Chloe just stays back to look out for the ship as all of you walk.
+All of you walk toward the entrance of the dome.
+You see it has kind of like a ticket collector area that has like a giant door entrance to the dome which is currently closed.
+On the collection area, you see a board with scratched off, basically like rotted away sign that kind of says like mixed words.
+These are the only things you can make out.
+Or the only thing you can make out.
+I'm just typing it.
+So Malfus, you're going to join because horror house here we go.
+No, I think we'll put this guy.
+The mouth is just these.
+No, no, no, you're quite about it.
+The stars are gone.
+Well, you can figure it out.
+There's spaces between the thing.
+I mean, probably word governments.
+And then Malfus, what are you saying?
+Just anime girls being made.
+That's not an island by the word moment.
+Yeah, okay.
+You get to the.
+You get to the door, like the ticket section.
+What do you want to do? It's closed right now. The shutters are closed.
+I'm going to be pounding on the the shutters.
+As you as you pound on the shutter, the shutter opens as you see a man in a bear costume.
+Open the shutter as he looks pretty excited to see new faces.
+I'm going to be a little bit more excited to see what he's doing.
+I'm going to be a little bit more excited to see what he's doing.
+I'm going to be a little bit more excited to see what he's doing.
+I'm going to be a little bit more excited to see what he's doing.
+I'm going to be a little bit more excited to see what he's doing.
+What's the horrors?
+I'm asking you guys got a warehouse. A bath, a bathhouse.
+We have a pita.
+You have a pond.
+I'm going to be a little bit more excited to see what he's doing.
+How much does he take it?
+Let me see. He takes out like an old decrepit like a ledger as he looks through it and he goes,
+one, one.
+There's a B word after this, but it says 1000 B.
+1000.
+Partick it.
+Yes.
+How about I make you a deal?
+I'll give you 100 bellies.
+I'm going to show him a little gold cord.
+What a 1000 of the bellies work.
+1000.
+It's a school year.
+He shows it to you. It's basically a bellie sign.
+That's not what the fuck it is.
+Exactly.
+So I'm going to show him one of these.
+I'm just going to hold up a bellie and be like, I'll give you.
+I'll give you.
+You will, Sarika.
+Daniel and the rest will pay for themselves.
+You will, Sarika, Baptiste, Malthus, Bob.
+1, 2, 3, 4, 5, 6, 6 people.
+So I'll give you, I'll give you 600 of these little square things.
+How does that sound?
+Now, you're trying to fool me.
+It says 6000.
+But you told me it's 1000 to, it's 1000 to visit zoo.
+Like, come on now.
+The Matthew method.
+I guess where this goes to the next island.
+Exactly. I guess you'll be out there 600.
+Well, we haven't had visitors in a long time.
+You know what? It's going to be better for morale.
+Sure. 600.
+Be things.
+Give me that.
+You give him the 600.
+He just throws it down in a corner and it gets out.
+He opens the door as like the shutters to the island open up.
+And I'm going to move you to the island now.
+And you are in. Let me change your shit back to what you were.
+Why are you upside down?
+Okay.
+Let me move you.
+It's warm.
+Wait, why isn't it just one?
+Okay, there you go.
+As you see the guy in front of you, he welcomes you in.
+As the six folds also follow right behind.
+There we go.
+The Daniel gives his money and enters separately.
+And he just says,
+Hey, bear dude, what's your name?
+He says, I am swore the bear.
+Nice to meet you guys.
+Who are the bears?
+Sorry.
+Yes, what did you need for me?
+Then goes, is there somewhere we can get supplies from anywhere?
+He points like toward this direction.
+There's a road that leads up to like a shop section of the reserve.
+And Daniel and Ben are going to move that way.
+Now he goes.
+Now, friends, what do you need?
+I'm going to be, I'm going to look at this dude straight in the face.
+And be like, do you know where there's a pallet?
+I'm sorry.
+Is that kind of a bird?
+No, it's like a religious person.
+Oh, you mean even one of those bald people.
+Where are these bald people?
+Well, I'm sorry to tell you this, but people don't exist.
+Sorry, that's one.
+That's one.
+You just said there was bald people.
+Now you said that they don't exist.
+That's one.
+Come and legends.
+They're in our religious texts.
+Well, they're just texts.
+We don't know what's religion is.
+Anyway, let me not.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+I'm not going to talk about that.
+What about postcards?
+What about postcards?
+For expression enough to express them in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Now, let's sum in the wild.
+Finally, at one of the important places that we have in our reserve,
+as you can see, we have meat chopped up, served on the plate.
+And here, behold, the epic senator,
+the striped tiger, silent hunter of the night,
+as you see nothing in front of you.
+He, again, shouts,
+as someone smoking a cigarette walks up in front,
+as he throws the cigarette into the pond,
+as he walks up, as he makes like a low growl.
+He says, you are lucky there's glass.
+There's no glass.
+Right.
+That's discipline, even in creativity, he holds his instincts,
+and checks.
+What does it show off?
+All right.
+This one looks most realistic.
+Yeah, it does, but it's still, you can see the collars of the shirt and everything.
+It's still a mask.
+And now, finally, for our final and last entry,
+these animals have been known to be found everywhere around the world.
+The most common yet so majestic.
+They're small, but do not be mistaken.
+They are very strong.
+At this point, Wieland Serka has just had to stop and just sat down in a corner.
+And he keeps going.
+I will go up to them.
+I'll join mouth this.
+Okay.
+Both of them run off.
+This guy does not even notice.
+And he moves forward.
+He keeps going.
+He keeps going.
+He's just looking back every few seconds to check everyone is still following him.
+Where's Bob?
+By the way, guys, where are you?
+I actually got lost.
+I've got lost.
+Bob's digging this.
+He's like, oh my god, look at all these animals.
+And finally, we have the majestic,
+more historic plan.
+I don't know why they call it that.
+They're commonly found.
+Anyway, the jewel of our research,
+the dynamo of the age of dreams,
+believed to be over 70 million minutes old,
+truly terrifying.
+Look at that stance.
+Oh, he's falling.
+Again, the cycle involves evolution continues,
+fascinating.
+They're balanced.
+You see a man, a man with a two X costume,
+but the letter half of the costume is supposed to be a two-wheel costume is the only one.
+And he goes.
+I can see out of this.
+There's no tutorial.
+Don't provoke him any further.
+Face him back.
+That's the tour.
+Wait, I swear there were some more of you.
+You want to meet a pay extra for this?
+Yes, of course.
+This is all common knowledge, yes?
+No.
+Here, come here.
+I'm going to go out.
+I'm going to go out.
+You can't even look.
+I need a favor from you guys.
+See, if we don't have any ships,
+so we can't leave the island.
+But we can do with the word of mouth.
+So when you go outside,
+tell the people that the animal reserve was very fun.
+Yes?
+This should suck.
+What is that?
+We don't know.
+I was written by my very, very, very grandfather.
+Okay.
+And it still works.
+It still works for what?
+A homie was smoking a cigarette.
+Damn it.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm going to fucking, let me just go.
+I'm just leaking up on the back door.
+Okay, okay.
+Can you roll the stealth?
+I'm good at those.
+I'm good at those.
+Dude, you have dick.
+You have dexterity.
+To be fair, he is kind of blind and that's sweet.
+So you sneak up behind him.
+What do you want to do?
+I'm just like whispering.
+Try to get his attention.
+What do you whisper?
+Every time he tries to like turn around,
+I'll keep Williams to stay behind him.
+All right.
+Don't scream.
+Come on.
+Come on.
+Come on.
+Come on.
+Why are you here?
+Is he?
+Didn't your mother have better plans for you?
+Mother did have better plans for me.
+But this is our life, though.
+What do you mean?
+This is our purpose, our divine purpose gifted by our God
+to entertain the people.
+Who are you entertaining?
+Because those people out there, they were not entertained.
+No, he just walks out.
+You have crushed his spirit.
+What else do you want from him?
+Are you here by choice?
+Are any of us here by choice are lords?
+Is this a cult?
+What is a cult?
+Okay.
+You are talking in a lot of.
+Is this guy even seen?
+Who are you talking to?
+Oh, all right.
+I thought that this was there, but I can't find Baptiste anywhere.
+Where is Baptiste?
+What the hell?
+All right.
+So what was the guy saying?
+No, Baptiste is talking to the fucking T-Rex guy in the corner.
+And he thinks he's a god because he had sea.
+Oh, I thought all this time, Roma was like...
+No, no, no, no, no, no, no.
+He left his divine purpose and ran away.
+He should rot in hell.
+Can I start up with this dude's bear costume?
+See if there's a zipper and pulled a zipper down?
+You see there's a small tail and you try to pull on it
+and he goes, "Hey, what's wrong with you?"
+Can you rip it off?
+Can you roll for damage?
+Just roll for strength.
+Bob, you're walking around, nothing.
+Like not on purpose, just like accidentally just rip it off.
+Yeah, he should be able to rip it off.
+As you rip it off, he goes...
+I'm going to make these costumes.
+He shuts his mouth and he just...
+It takes the girl or tails.
+No, it was a hell.
+I'm going to start bending it.
+Okay, you meant the thing he goes...
+He was saying "care-pite."
+The love...
+He was saying it to me.
+I'm sure.
+Who's the Lord again?
+They've never... they've not mentioned.
+Who's your Lord?
+Like what is his name?
+Who do you worship?
+Mr. Westerd, what do you mean?
+Don't you worship the Lord?
+At the end of the world worship the Lord.
+Is the world a government?
+What is this thing?
+Don't you know?
+The world government made the religion?
+No, the island.
+The island of happiness.
+We spread joy to the world.
+It is the purpose of this animal reserve.
+Hey, dude, this looks like a pretty amazing island.
+I want to know more about it.
+When did they build it?
+And how do you guys even come here?
+Are you on the devil's letters?
+Is it tasty?
+Does it taste like honey?
+Are you on the devil's letters?
+No, we don't mess with the devils.
+One, you never get to have to join the other side, the dark side?
+There was no dark side.
+The Lord perished all the devils.
+What Lord are you talking about?
+Can you show me?
+Yeah, show you what?
+I'm playing with you.
+You're talking to the Lord.
+Is it us?
+We talk to them all the time.
+Bro, you ain't making no sense.
+It's enough.
+I'm going to be like searching myself.
+I don't feel nothing.
+What do you mean?
+I'm going to start failing.
+I'm going to start failing.
+Oh, wow.
+I'm not interested.
+Bro, you said you said you was in here.
+So I'm just trying to see where's the end.
+He just ignores that question as he looks to Bob as he goes,
+"Do you want to know more about the world?
+Do you want to know more about the condition of the island?"
+Yes.
+This looks amazing.
+Look, our mask is for you to send more people in,
+because that's our divine purpose, the spread joy.
+I'm going to lift his tail to the plane to give him away.
+Hey, how did you guys come here?
+I'm going to try to come Roma down a bit,
+because I am thinking that what Maffa said
+they are pro -- I mean, I'm thinking of something like
+mine from before or something like that.
+Maffa were probably messing with their mind.
+I don't know, but Bob is trying to find out.
+So he's going to say, "How did you guys come here in this island?
+You guys don't have any ships."
+Well, do you see the long, long time ago,
+our main sisters were sent here by the world government itself
+to create a habitat for every kind of creature to exist and prosper.
+But there was one fatal mistake.
+And it was?
+Thank you for asking.
+It was -- they only sent one animal off a vine.
+So -- yeah, classic blender, no other -- I remember that.
+There's 20 years, all the animals in the reserve are it.
+But we were sent here to spread joy and happiness
+to the people that are going out to give him to this island.
+So we decided, "Thee will be the animal."
+And we wanted to mantle up. And soon enough,
+we populated the island with every sort of creature that existed,
+even the great Dino himself.
+Oh, oh, okay.
+I'm going to look at Roma and say, "Dude, I thought there was some mind-crown thing,
+but it's just a filler arc that DM doesn't have anything prepared
+and walk away."
+I'm going to be -- I'm going to take a look like a tape on one of the arms
+and be like, "Is your Lord in here?"
+[laughter]
+All right. As he goes.
+I'm sorry, what is?
+It's in you? All right. Well then, bro.
+I'm going to pull out one of the little axes from my bed.
+All right.
+You said it's in you. Let's get the carmen.
+All right.
+He said, "All right. All right, shit."
+No, he didn't say all right. I'm saying all right.
+What are you want to?
+Are you about to see what are you doing?
+I want to say one last thing to the guy in the store.
+He's assuming I'm God because he can't see me.
+Yeah.
+I relay you from your duties.
+Just take your costume and return to the world.
+I can't be talking to the world. We don't have the resources.
+We can't leave the island. How do we return to the world?
+There's your chef.
+It's here just for you.
+Yes. Yes.
+As he just runs off, as he sheds his costume,
+and you see just a man in his undies just running off.
+As Bore sees this, he goes,
+"I'm going to be right there. You're going to run."
+All right.
+Roma, do your stuff.
+No, I don't want to cut him.
+I just want to disgare him.
+You said it's inside you. Can you show me where?
+He points at his heart area.
+He goes, "The only reason it's in all of us, friend."
+So if I cut you, I'm going to find your Lord.
+How about that?
+I just want to know, because I want to see this person.
+But I don't want to harm you.
+I mean, you can try.
+Oh, look. If it needs my dad's for you to find Lord, then sure.
+I don't want to kill you.
+Is it a little captured?
+You got me confused.
+I'm going to be really worried about what it is.
+You don't know what it is.
+Why are you telling me he's inside you?
+Bro, I'm willing to cut you to see if he's inside me.
+You know what I'm going to want, friend.
+As long as you stick with it.
+I really want to cut him and then just start becoming like this.
+I really want to.
+You can do it.
+Do whatever you want.
+Alright, where's Bob?
+I'm trying to find a bird costume.
+I mean, you're not just doing Bob.
+I'm trying to find a bird costume to steal.
+I mean, you're not just doing to borrow.
+You don't see any costumes just lying around.
+Yeah, I'm trying to find where the shops are.
+I don't know.
+I don't know what the thing in this island is.
+Is there any kind of costume shop or something?
+The sixfolds band, right?
+I'm certain that the sixfold the spiders.
+Alright, Baptiste, what are you doing?
+I would like to go link up with now.
+But you had to word where Malfus was.
+Malfus, what are you doing?
+Up until this point.
+What have you been doing?
+Alright, I'm not going to move you to the tent yet.
+But at the entry of the tent, you see like it is outside of the dome.
+But the dome part of that tent is just cut out.
+There's a hole in the dome and the tent is in that area.
+It's covering the whole hole.
+Okay, I'm going into the tent.
+Okay, you walk into the tent and everyone else is going to go blind for a second.
+And I'm going to move Malfus to the tent actually.
+Sorry, what?
+We're in circle, we'll also not joining.
+Yeah, they will be joining, but they will be behind you.
+So we'll enter first and then they'll join you.
+Okay, if you want to do that, then we can just do it together.
+First Bob, Bob, where are you?
+I have no idea.
+The island is too big.
+I guess you're the last.
+I'm really too much with that.
+Okay, everyone is trying to find me.
+Okay, Bob is.
+Okay, well in circle are not there by the way.
+I don't know who I was chilling with, but yeah.
+Where is it?
+There we go.
+What's in the tent?
+Oh, it's not okay.
+It's not okay.
+He doesn't even know.
+There is no war in Boston saying.
+What is Boston saying?
+Oh, shit.
+Sorry.
+I'm going to move you back for a second.
+I did forget to do something.
+I know, bossing say.
+I'm just saying why does bossing has a different doing with whatever is happening right now?
+There is no scene.
+Oh, there is no scene.
+Goddamn it.
+Where is it?
+Where is the fucking map?
+I'm not there.
+I don't do anything.
+There you go.
+Okay, I'm going to move your tokens and let me check.
+If I made the map a bit too big, yeah, I did not.
+Definitely that's way too big.
+I'm just going to use this.
+I don't want a lot of space to run.
+Okay.
+Yes.
+Well, in Serka.
+Yes.
+You enter the tent mouth.
+All you see is just a rope line.
+A bunch of spotlights pointed toward the center.
+There's like a room around here, like a glass room that's looking over this whole area.
+You see a bunch of benches around for people to sit in and enjoy the show.
+You don't know what this thing is.
+You haven't encountered a place like this in your life before.
+As you do that, the whale in Serka are going to come behind you.
+I guess.
+Oh, it's a circus.
+That's weird.
+It's a weird place to have.
+I'm circus inside a zoo or an animal reserve.
+What the hell was up with that guy?
+No, I didn't.
+Okay.
+Something does not really end up here.
+At this point, I'm going to move the rest of the people in.
+Everyone's following.
+I'm just going to say your last man.
+I don't know.
+Okay.
+They were not on the map.
+They were already with the Memphis at that point.
+Let me see.
+Let me see.
+Now they go Baptist.
+I'm being counted between clothing and that dude.
+Dude.
+The one with the eyes that free.
+What?
+Oh.
+We'll see what happens next.
+Okay.
+Robert, you sniff.
+Yeah.
+You will sniff out where Baptist went and you'll follow.
+Bob, you'll send out Merlin to maybe look for them.
+You'll figure out how to get the web that way so you enter the tent as well.
+As you enter the tent, Memphis at this point is just looking around,
+same with Serkin.
+Well, the spotlights are still centered at the stage.
+You can try to investigate the place if you want to.
+I'm going to take a seat.
+Okay.
+Just now.
+Do you see?
+Do you have your tokens and the thing, right?
+Yeah.
+Everyone.
+Bob, you're the last one to enter and everyone else is just walking around trying to look.
+All right.
+What exactly are we here for, guys?
+I went, doesn't make any sense anymore.
+Yeah.
+You have me.
+It shouldn't matter.
+It should just wait for like a couple weeks and just leave.
+There's no boat.
+No, shouldn't we tell Daniel that you should wait for us before leaving?
+I thought that's where I thought Bob was going to the gift shop with them.
+Yo, dude, I'm over here.
+None of us know what what's going on.
+So, can anyone please please, please, make a no, no, they were at the shop, you know,
+shopping for supplies and stuff.
+Okay.
+So, since we have some time, can I just look around to find crates or stuff because this does not look like anyone's me.
+Anyone needs it.
+So, I just want to look for stuff to loot.
+What grade?
+What grade are you looking at?
+These crates?
+I thought they would be crates since they're like, are there anything in them?
+What crates?
+Oh, you mean these?
+Okay, okay.
+Yeah, you can look around in them.
+There mostly seems to be like red balls for juggling and just supplies as in like just ropes and knots and, you know, light things.
+Just basic supplies for the, you want to get up the ladder?
+Yeah.
+Okay.
+As you do that, can literally, can literally anyone make a investigation please.
+That's what I asked you.
+That's for investigation.
+I'll go long time ago, no, no, no.
+Okay, mouth is near this spot.
+You can see a bunch of figures like walking around in there as a bunch of smoked starts to come out into the room and fill the room.
+You're blinded for one turn and just after that, you see, let me actually actually blind you.
+You can't see anymore, right?
+Or can you?
+I can.
+You can't?
+I can't.
+Yes, I do.
+I see.
+I see.
+You're not supposed to see, you know.
+I turn on blindness.
+You don't need to do that.
+I was trying to make a dramatic entrance, but it's fine.
+You see, I don't have the tokens for these ready, so I'm just going to post them in chat.
+You see this person appear in the center of the ring.
+Welcome newcomers.
+You see a tall lean man with the patchwork of red and black around his face, white gloves, cracked porcelain, like half mask painted with like on the side where the mask is.
+It's a great painted with a grin.
+And he just bows as a gesture as he delights around him, just starts pointing to him, all the spotlights.
+And he goes finally, someone that maybe I can have a normal conversation with.
+And my name is Giggles D. Cloud.
+I am the captain of the circle of clouds.
+Our circus have unfortunately been stranded on this island.
+And we're just trying to fight our way out.
+Now, can you assist us in any of you?
+Anyway, whatsoever.
+Looks around.
+Just shrug.
+Well, we need to ship ourselves.
+Well, you see, I actually heard something about a ship.
+But I cannot retrieve it alone.
+I cannot step outside of this type without being bombarded by those crazy maniac outside.
+If you see them, they need some assholes.
+And I thought it was weird.
+What do you mean by bombarded?
+Like, say, is just can I give you what or I say, no, I thought they're just a limelow.
+But it's a long.
+As you should have just taken the tour.
+And I've taken the toll times.
+I don't even remember at this point, you're been stranded here for years.
+And as another figure just walks out of the room.
+He's followed by another one.
+And another one.
+All four walk out and that is your blocking the big one.
+He's trying to skirt his wear around you.
+Like slowly, slowly just move into the spotlight as they go, no, these are my brothers.
+And we've been stranded here for about a year or so.
+And we haven't been able to leave. They say there are no ships on this island.
+But that's not true. They just take all the ships.
+And they just throw it away.
+We just were able to find and scrounge something in the darkness.
+And we set up the tent to entertain people, but figured out no one comes here anymore.
+This is a sad, sad life for the circle of clouds.
+We need to leave friends.
+And if it's your help, you may be able to retrieve a ship that was last seen on the south side of the island.
+Dr. Bo.
+Where are we just came from?
+No, no, no. You enter through the north.
+Well, how do you how so what you require help?
+Oh, you see, in the night, it is very dangerous to be out.
+I would like your assistance as to in the night we leave out.
+For the outside world, we fight ourselves and we conquer the ship.
+And we leave this conversation.
+Yes.
+Just because we don't understand.
+We can't let them know that we're coming there. It's going to burn the ship down.
+How about we go now?
+Okay.
+Yeah, you can just leave us here. I don't trust you with that.
+Why not?
+Because we just met.
+But you're trusting us with your plan.
+Yes, but but we are company you to the place.
+We'll leave it down.
+We wait till night.
+No, they won't. They won't. They do this.
+Oh, we are fucking virtual.
+And they won't do it until like you raise from now.
+But if they see us coming, they will burn the thing down.
+They don't want anyone to leave this island.
+But they just don't know what it was.
+Why?
+One of their workers just ran out because he heard that he could leave.
+That there was a ship.
+No, no.
+Did you want to ship?
+Is there a look out on the ship?
+Yes.
+She's not.
+All right.
+Well, can she handle like 20, 40 people at once?
+I'll start running out.
+As you as you try to run run out, you see the one with like the bowling pins.
+He just throws one of them at you.
+He's around here now.
+He's moved around here.
+He throws one at you.
+I'm gonna roll one, the two, five.
+Okay.
+It weasus passed you as it hits the ground right in front of you.
+It goes.
+The guy in the weird like half-mask goes and says, "Look, you can't leave now.
+It's too late.
+They probably have the ship captured and taken away.
+Do you have any more allies?"
+I'll turn to Roma.
+You saw that, right?
+Oh, I did.
+I'm not.
+All right.
+All right.
+Do you want to run up to the guy with the...
+You know it.
+Which one are you going for?
+The one who just threw the fucking bowling pin.
+The one who just threw the bowling pin.
+Did you add random tokens here like...
+To see the locations.
+Okay.
+Let me...
+I did just not make the...
+Because I thought there would be more stuff you would do outside before getting the tent.
+It's fine.
+You said tent.
+I was like, "Let's go to the tent."
+I'm just going to add four commoners here.
+I'm going to make you some tokens real quick.
+All right.
+Who are you going to run up to?
+This is the guy who threw the pin at him.
+Which one?
+The one that threw it.
+Okay.
+He's that fucking up.
+I'm angry.
+I'm running at him with the fucking pain and I'm cracking his ass.
+Okay.
+Go ahead.
+21.
+Does it do the damage?
+As you bonk him to the side.
+Oh, he's not dead.
+I just say no.
+It's going to start a combat.
+Can you all get in the combat encounter?
+Okay.
+There you go.
+I'm going to roll for initiative.
+And...
+Did he...
+Did come out and...
+There you go.
+It's not that easy.
+I can just do it in like two seconds.
+It's fine.
+I'll do the rolls manually.
+Okay.
+There you go.
+Everyone's in the encounter.
+Yeah.
+Why is it...
+No, are you guys still in the combat on this and on the...
+That's weird.
+Hidden.
+Okay, I'm just going to fucking run with that.
+Let me remove this.
+These two.
+Move.
+Remove.
+Again.
+There we go.
+Okay, as soon as you hit one Roma.
+Bob, the researcher, and what are you doing?
+Ah.
+That guy just attacked him, right?
+Can I...
+If I do a random insect check to see actual hostile intention or something,
+does it cause my action?
+Which one?
+Like the one that threw the bowling pin at Baptist.
+Do an insect?
+Is this not going to be an action?
+Okay.
+I'm going to say we do bonus.
+Right bonus action it is.
+So what is an insect?
+Oh wow, I'm actually not good at insect.
+Oh, I should have fucking rolled for.
+Keep in mind.
+Exhaustion levels do apply in this fight.
+Yes.
+Oh, yeah.
+I'm going to have to do this advantage.
+Yes.
+Okay.
+You cannot sense anything.
+Basically, you don't have a wipe of what is where are they up to?
+Where is mouth?
+I'm at the other side.
+Never mind.
+I use the bonus action, right?
+Yes.
+Okay.
+So I am at re-exhaustion.
+I'm going to be selfish.
+I'm going to cast the mirror.
+Alright.
+Cast it.
+Cool.
+That's it.
+That's it.
+That's it.
+We're doing.
+You said this is the one that threw the pins, right?
+Yes.
+Actually.
+This one is carrying like two torches of fire.
+One is wearing like a gas mask.
+The one behind you here.
+I'll just enter myself in the technology.
+Which way did you come from this way?
+From the south.
+The south.
+Did you not leave his five foot?
+Yes.
+But you will have to leave.
+I guess you float up.
+Okay.
+That's fine.
+All the make-up.
+Next saver.
+Right.
+Four.
+Now one is getting to succeed.
+The one in front of you.
+That's your DC 12, right?
+That's fine.
+He's going to succeed.
+The one behind is going to fail.
+One more.
+This one, right?
+This one's also going to fail.
+Okay.
+The two that failed.
+They both take 12 damage.
+Okay.
+Then I will swing on the one in front of me.
+Okay.
+The main guy.
+The main guy.
+Yes.
+Oh, yeah.
+Does a 21 hit.
+Yes.
+Go.
+And that's my turn.
+Okay.
+Okay.
+Okay.
+16, right?
+As you write to punch Adam,
+he clicks like a button on his chest as his stomach just expands.
+And the punch basically gets like delayed.
+It still hits him, but it's going to do half damage instead.
+So,
+16, right?
+16 as eight.
+There you go.
+All right.
+That's your turn.
+Yeah.
+All right.
+The guy behind you who failed his save is going to
+do do do do do do do do do do do do do do do do do do.
+He's going to take out like one of a small like while.
+I was like quite as he just drops it down on the floor.
+As can you make a 14 con safe?
+That's the.
+Everyone 10 feet will make a save.
+Actually, let me.
+No, he's not anyone who he targets.
+Essentially, everyone except for you guys will be affected by it.
+10 feet.
+Yeah, it's only it's only affecting you as the ball touches the ground.
+It explodes and the fumes directly hits you and you just drop on the floor laughing.
+Just cackling to yourself.
+And the guy goes.
+And you.
+See you hear something as.
+You feel like some the the the area that you're standing on is moving.
+It's going to be his turn is a whale's turn.
+He looks at you.
+What the fuck are you doing?
+What are we telling these guys again?
+Who said killing.
+So what are you doing?
+What's the plan here?
+Please have fuck.
+What I'm doing in comparison to the.
+What why.
+Well, they just stopped you because they wanted to talk.
+Okay, she's just screw right.
+I'm going to head out.
+Let's see what's happening.
+He takes his dash and he's going to leave the tent.
+Yeah, what the fuck?
+What the fuck?
+You're in combat.
+No one can stop him.
+It's going to be well stirred.
+Rome.
+So what is the bio.
+Is this laughing gas.
+You have to make a con say every time.
+You're prone.
+Otherwise you remain prone.
+Sorry.
+Just rolling on the floor laughing.
+You're off.
+Yeah, that will hit.
+All right, that's the first one.
+That is going to hit.
+Wait, no, that's exactly.
+That's not going to hit one of the meds.
+Okay.
+Oh, oh, oh, oh.
+Check.
+Check.
+Oh, no.
+All right.
+It's going to be the big guy's turn.
+The big guy is going to look at you.
+He goes.
+And he's going to take his pens, both of his pens and just bam.
+20.
+Oh, wait, actually, I have to do it for the advantage, right?
+1 inch D20 advantage plus 20 advantage.
+That one's hitting two.
+19 plus 9.
+It's 28.
+I'm going to have to go slow, but then also have to go to be 14.
+14.
+So, it's going to be a little bit more difficult.
+It's twice as big.
+I don't understand every session, mouth gets bigger.
+I think I changed like the huge and large and all the sizes thing.
+That's why bugging out.
+It doesn't matter.
+It's going to hit.
+No, no, that's his AC.
+No, it's going to hit.
+That's going to hit.
+5.
+Oh, my God.
+He's shaking his boots.
+All right.
+It's off of the fucking line.
+Wait, what?
+Who's this?
+Oh, did I?
+No.
+What?
+I'm so confused.
+Why is it out of order?
+Oh, it's this guy.
+Let me see.
+After you, it was this guy.
+The ring leaders and she looks back at you.
+Baptiste.
+Well, let's ride.
+Just kill him and we'll take their ship ourselves.
+It's going to multi-attack.
+He's going to whip out like two whips.
+And he's going to hit you twice.
+Because you're flanked, you're going to do with this advantage.
+D20 does plus six.
+There we go.
+20 this plus six.
+14.
+15.
+Both of them miss.
+Yeah, they do.
+Nice.
+He tries to whip both of the chains that you ask.
+Do you want to use the devil fruit passive?
+Do you want to just dodge?
+The whole time he's trying to hit you.
+You're just rolling around.
+Nothing's happening.
+Okay.
+Next is going to be the guy right beside you.
+The one with the fire candles and stuff.
+He's going to do.
+Fill his mouth with a liquid and then he's just going to torch you.
+Again with advantage.
+Plus.
+There you go.
+Vantage.
+26 is going to hit.
+And that's it.
+Again, 26 which hits is going to be.
+Is it a fire damage?
+It is.
+But he's not in his flame mode.
+At least for now these rules are going to change.
+But for now it's going to do 25 damage.
+Hey, there we go.
+Good session guys.
+We're going to die.
+We're going to die.
+That is his turn.
+Next is Serka.
+She will say you know what had about enough of this shit.
+First that bastard wouldn't stop talking nonsense.
+And now that you go through this clown bullshit.
+He steps up here.
+She starts to prepare action.
+He's going to be able to disengage on his next action.
+Does he make his saving throw after I mean at the end of his turn?
+No, no, every start of the turn.
+If he gets out then he can do his action.
+Okay, then I don't need to get him out of there.
+I'll just give him with my bonus action.
+I'll give him my arc and defender plus four to his next saving throw.
+I'm trying to get to mouth first, but he's so far away.
+What do you want to do?
+I want to make you a dragon.
+Make yourself a dragon.
+Yeah.
+No, I don't want to go near the big.
+Okay, this is your business.
+You guys are fighting with them.
+Am I always keeping you alive?
+You didn't get one of us with AC things.
+I gave you the saving throw thing.
+You can take that and then disengage out of there.
+I'm not using a spell on you.
+Disengage.
+What you don't want is disengage.
+Also, why does Baptist still have 28?
+Didn't he get like 25 damage?
+Yeah.
+You're seeing the wrong one.
+This doesn't matter.
+The tokens that are on the map, they're mad.
+Okay.
+Yeah, it doesn't matter.
+I don't have anything to do with my action.
+I'll just dash.
+I'll just dash.
+Action.
+That's enough.
+Dash.
+Okay, that's my action.
+Okay, that's your turn.
+Baptiste is your turn.
+Consafe to start.
+Yes.
+Plus four through arcane defender.
+So yeah, you succeed anyway.
+Does that take action in the user?
+No, no, no, just to save to get up.
+And now you can do whatever you want.
+By the way, you are at ADHD and I can't heal you
+because you are in the animator.
+I mean, you could have ran in here.
+Yeah, you know, he chose not to.
+I'm not going there.
+All right.
+This is going to be fun.
+I don't have three options.
+Well, four options.
+Yeah, I'm going to go to the one behind me.
+Because one that didn't laugh in gas.
+Wait, let me not do it that way.
+One.
+Yeah, that hits.
+Oh, that does not hit.
+Oh my god.
+Okay, I forget how much damage you do.
+Yeah, that's going to damage him,
+but it doesn't really phase him that much.
+It just like he coughs like some blood out of the snow
+that he just like his fucking what the gas mask essentially.
+That's it.
+Give me one second to make sure I'm doing something right.
+There's no force or anything that I don't know.
+What?
+There's no like resistance in case you're trying to do that or force or whatever.
+Okay.
+There are ways you can get me from the game.
+Kick me from the what?
+Like kick like kick my character out because like it's not let me join back.
+Okay, last time it happened, I just had to restart the server.
+Yeah, last time it happened with me.
+Did you did your bonus or flurry blows?
+Okay, 17 more damage.
+Okay, let me go.
+For Roma.
+Did you know what I'm going to I'm going to restart.
+All right.
+Oh, also, this is back.
+You're just staying there with 8 HP.
+Yeah, well, there's nothing else I need to leave.
+If I move, yeah, they all get.
+Yeah, but you have wings, but wait, aren't you a mom?
+Can you continue to do the like disengage with your bonus action?
+Yeah, already use this bonus action.
+I'll never mind.
+The point that I didn't want to use on that.
+Okay, try an aroma.
+Hey, I can't.
+Perfect.
+I don't know why you know what I was.
+I was worried.
+I was with I was in a call with my friend and I was like, you know, I have to do something.
+Like prepare for the session, but then we were in a call or like, I don't know.
+I don't know if you were.
+And it would have been so much easier for me to have like the tokens ready before any of this began.
+But I guess I'm in my own creation.
+Hellhole.
+All right.
+The might turn.
+It's going to be the guy in front of the guy.
+Roma.
+He goes.
+Yeah, he's just going to say the same thing.
+Everybody.
+He hits you again.
+I thought that dude goes after me.
+The dude in front of me.
+Yeah, he is going to go after you.
+He's going to go after him.
+What do you mean?
+He's the one that should be the one on the right.
+It's the one behind me.
+Yes, the one.
+Oh, that one goes after you.
+I see.
+Last time.
+Oh, I see, I see, I see.
+Okay, okay, cool, cool, cool.
+Sorry.
+I forgot.
+Okay.
+He's going to throw another bottle from his pocket around the same area.
+He's going to throw it a bit far away.
+So he doesn't trap any of the others.
+And let me see.
+There you go.
+Actually, this will just cover the whole area.
+Does Greece have like 60 feet?
+There's no way.
+Oh, 10 foot.
+No, okay.
+I was looking at the wrong thing.
+There you go.
+It's going to be 10 foot.
+Okay.
+It's on you and Malfus in your general vicinity.
+He throws a bottle.
+And the floor will be covered with grease.
+And it's going to be his turn.
+It's Wales turn and will come back in and he's going to go.
+Guys, I think we're not fucking ship.
+And he cuts down the drapes off of like this area.
+As you see yourself sailing away from the island.
+I guess so.
+Can you find hours like how far are we from the island?
+I don't I can run to the island if you guys want me to.
+Do we have our stuff in the ship?
+We do need to retrieve the ship.
+I don't know what ship they were talking about though.
+It doesn't.
+They just mentioned the ship.
+We don't know.
+In the spider ship.
+Do you care?
+Did you kept anything?
+You don't really have anything that you need to keep there.
+Yeah, the plan was.
+He off the ship on the side of the anyway.
+So I think.
+Yeah.
+He's going to come back.
+He looks around.
+He goes.
+Well, I guess it goes nothing.
+He's going to.
+Bonus action dash.
+He's going to move toward this guy.
+And just puts his blades to use.
+Is it 60 feet?
+Fort Favio.
+It's under 60.
+Yeah.
+And he does quickly.
+One, two.
+Seventeen does hit.
+Twenty-five does hit.
+Normal.
+Eleven.
+Ten.
+Twenty-one.
+There you go.
+And he slices two of the blades right across him.
+The damage gets negated with again, like the balloon puffing up.
+And both of the strikes don't really do as much damage as they should have.
+Oh.
+There we go.
+There's going to be well-stained.
+Roma.
+Oh, you know what time it is.
+You want to fuck shit up?
+Yeah.
+Come on.
+Home movie.
+Go.
+There you go.
+There you go.
+Dude in front of me, he's going to get it.
+He's almost as big as you are in this form.
+Why do I not have any more bullets?
+Are you in or a burst?
+That's why I may be.
+Oh, God.
+Let me see this.
+Let me move you back in with the original token.
+And then we can do that.
+Transfer me.
+How much damage did you take?
+I was down 19.
+You were at 19.
+It doesn't matter.
+When you go back, we're going to change it anyway.
+All right.
+All right.
+Do transform.
+What do you want to do?
+Oh, you know.
+I'm on.
+You know, I haven't done this in a while for me.
+I'm on.
+Appearance only one.
+Oh, God damn it.
+I forgot.
+All right.
+Let me see.
+Let me see.
+I didn't wild shape.
+I did appearance only.
+That's why.
+Oh, there you go.
+Wild shape.
+Yeah.
+There you go.
+All right.
+All right.
+All right.
+All right.
+All right.
+All right.
+All right.
+All creatures in ten feet.
+Okay.
+Let me see.
+Ten feet is going to be three of them.
+So, whale has to make one.
+This guy has to make one of his choice.
+Oh, it does.
+It does.
+It does.
+It's okay.
+Well, anyways, succeeds.
+The guy in front of you, Baptiste, is going to
+have his speed halved for the next until the end of
+Rome is turned, actual.
+So it's going to end anyway.
+Next turn.
+Sorry.
+Next turn.
+Next turn.
+And if your next turn is going to be fixed.
+Let's see.
+Turn then.
+I think it's an action.
+Oh, that's a bonus action.
+You can't do that as a bonus action.
+You already use a bonus action to transform.
+So do something else.
+I thought that was the one that makes a line.
+Nice.
+So, it's going to make a line.
+Is it the step one?
+Yeah.
+Snowstorm.
+Yeah, they got.
+Runs up to 15 feet and on a kippaid scape.
+They can see leaving a burst of snow behind creatures within 5 feet of the
+departure point must succeed.
+No, no, no, no.
+Oh, so you can run in a straight line.
+This is the only person that's going to affect, but here is the DC 12 check.
+There's not going to take any damage.
+But you don't provoke any opportunity attacks.
+So you're just going to push him this way.
+Alright, that's it.
+The scene that we are turned.
+It's going to be this guy.
+The big guy is going to swing at you again.
+He didn't swing at you right now, right?
+Last time.
+Yeah, he only swung that hole.
+Oh.
+Seven.
+So, with this dude, that's next to Baptiste.
+Wouldn't he be hit with the 5 feet?
+13 plus seven.
+Does that hit?
+Baptiste would not be hit again.
+I think the snow stump is directed at one person, not multiple.
+Within 5 feet of your departure, it only affects the people behind you, not in front.
+I thought it just left like snow trails behind me.
+It does leave, but if you move 15 feet up, there's no one behind you.
+He would be affected, but at this point it's not behind you.
+20 hits, right?
+Let me do the damage.
+Actually, the role again is to check the other one hits or not.
+Why am I doing a range?
+I don't think I need to.
+Look at that.
+It is going to hit again.
+I'm going to go 5.
+There you go.
+16, 8, 24.
+12.
+There you go.
+Next, Malfus.
+Can I hit something?
+No.
+That does it.
+8, okay.
+You're going to run away.
+When you move out of Greece, can you make a...
+What do you call it?
+What do you make for Greece?
+Next stop.
+Just to see if you actually did make it there or not.
+It's going to be this guy's turn.
+This guy is going to look at you.
+Let me see if he has...
+He can do it at 15 feet.
+This fire is a range attack, right?
+Yes.
+No, this guy is attacking.
+No, no, no.
+15.
+The creature in the range.
+You're going to do a deck save.
+As he spins and just vortexed off, just flame goes around.
+You're going to take...
+14, yeah, that's going to save.
+You take half of this damage.
+19.
+10.
+No, no, just about this.
+The creature he targets.
+15 feet.
+I mean, it's technically a range.
+It says 15 feet.
+Radius.
+Okay, roll.
+I don't... does it work for spells?
+Range attack with the weapon or a piece of ammunition.
+It's not really a weapon.
+It just flames.
+Sure, you know what?
+I'm going to give it to you.
+11 will get you one point above damage negation.
+Do you want to throw it back or no?
+No.
+No.
+Okay, this guy's turned.
+The guy behind you is going to...
+That's right.
+The ring leader.
+Ring leader goes...
+Get your shit together.
+Get them.
+And then we can be rid of this fucking place.
+Multi-attack.
+He's going to...
+We'll put the cane again.
+That's you about to use.
+Plus...
+Is anyone?
+Is anyone?
+I said take the hit wheel.
+Well, you seem to be the one calling the shot.
+So he's going to focus on you.
+So this is the dude that's behind him, right?
+Yes, and it's going to be with advantage.
+Roll.
+It's going to hit.
+If they're not attacking me, the sentinel would pop, right?
+The attack of our shielding.
+Yes, you can do that.
+Yeah, this is the greatest fucking thing ever.
+16 wheelhead and 24 wheelhead.
+Yeah, it won't hit, then 24 wheelhead.
+10, right?
+10.
+Okay.
+He already uses his reaction this round, so not going to negate the damage.
+No, no, no, I'm talking about the guy you attacked.
+Okay, what was the fucking damage?
+There you go.
+I think you're down, right?
+Yeah, you don't.
+Well, it's slashing.
+So seven.
+Yeah, you do resist.
+You're on one HP.
+Okay, it's circus turn.
+She's been preparing her action.
+Who does she want to shoot at?
+The main ringleader, probably.
+She's going to shout at Roma as she goes.
+Every time.
+Every time.
+She goes like this.
+I keep forgetting the fucking cannon damage, 8010, alright?
+10, there you go.
+36.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+You haven't got to roll the TV.
+It's a special thing.
+It's a recharge thing.
+Recharges every round.
+You can't do it every round basically.
+It's a skill thing.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I'm going to make a DC save.
+I didn't add it.
+I didn't add it yet.
+I know.
+I was just seeing if you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+If you could do anything about it.
+Did you get bigger again?
+No, no, no.
+Oh, I just zoomed in.
+That's why I zoomed in.
+Yeah.
+Ninety minutes.
+Ninety minutes.
+Go.
+Do the Dimash.
+Do the Dimash.
+Let's go.
+I do it in 20 or my damage.
+I do it in 20 or my damage.
+I do it in 20 or my damage.
+I do it in 20 or my damage.
+I do it in 20 or my damage.
+I do it in 20 or my damage.
+I do it in 20 or my damage.
+I do it in 20 or my damage.
+I do it in 20 or my damage.
+I do it in 20 or my damage.
+I do it in 20 or my damage.
+I do it in 20 or my damage.
+I do it in 20 or my damage.
+Did you do the another damage?
+No, you.
+This first through the fight.
+That's the first one.
+That's the first one.
+Yeah.
+And yeah, and second through the...
+14 was going to hit your seed, right?
+Yes.
+All right.
+So the...
+So the first one.
+Yeah.
+And yeah, and second through the...
+14 was going to hit your seed, right?
+So the...
+Killing him, knocking him and conscious.
+Knock him out.
+Are you fly in?
+And essentially you just leap off, spin around,
+hit him with like two punches right in his chest,
+like a flying like Superman punch in the boat.
+Just strike him as he just falls straight down.
+I'm going to knock him out.
+There you go.
+Hmm.
+You really...
+You couldn't run around the other way?
+No.
+I have to do the clockwise circle.
+Yeah.
+I have to do the clockwise circle.
+Yeah.
+I have to do the clockwise circle.
+Yeah.
+After Rome.
+He did go then new, then this guy's turned.
+Okay. He is going to turn to you about teased again.
+And he's going to try to hit you.
+But he's also blinded.
+So it's going to be your...
+You're not even covered.
+So it's going to be disadvantaged.
+Yeah.
+Plus...
+Thanks.
+Go.
+Just not hit.
+And then plus six again.
+Again, the whips are going off.
+And it's not...
+What?
+Happening.
+Uh...
+No, I get that.
+Did I not do it with keep lowest?
+Yeah.
+I don't know what I didn't do.
+I'll do it just to do it again, actually.
+Yeah.
+He cannot touch you.
+And Roma, you also did not hit him.
+Back.
+I'll take it.
+The fire dude at this point.
+Which guy?
+This guy is dead.
+But the fire dude is not dead.
+Fire dude.
+Actually, let me see if he recharges this shit or not.
+Wait, mouth is...
+Did you kill or knock out?
+I knock out.
+Knock out.
+Just like I said, you're on the set of faith.
+Yeah, no, I knocked him out because he said like, "Don't kill him."
+Yeah.
+Uh...
+He doesn't recharge, so he's just going to hit you with...
+The...
+Fleaming...
+The most...
+The most...
+Uh...
+Notice it, because he's outside of the circle.
+Uh...
+You're the circle.
+And I'm obscured by the fog.
+Yeah.
+I can't really see him.
+I mean, you can't really run away.
+Yeah, you can't really run away from there.
+When he's going to hit, uh...
+Fleaming Fireball is going to come at you.
+I got a plus four from Bob, my AT, so that...
+Oh, that's it. That is 20, okay?
+Forget it.
+The Fireball goes straight through the fog cloud and just goes right past you.
+Um...
+It hits Bob a car for wall.
+Why are you after Bob?
+What did Bob ever do to you?
+Uh...
+Circus on cooldown.
+Circus on cooldown and Bob, it's your turn.
+I mean, you guys are going to take care of this.
+This is not an important fight.
+I'm just going to dash and try to catch Malphus.
+At this point, it's not even about casting a spell.
+I just want to play sex, so I'm going to dress.
+And, uh...
+What are you racing?
+That is also your racing 20 again.
+Bob, you have 30 minutes to drive.
+I have 60.
+No, with my dash, I have 60.
+I'm using my hatchet.
+Why are you going to dash?
+Why do you need to dash?
+He's going to use this key point.
+See, he doesn't care.
+You're going to be on the other side of the screen.
+I can beat him by Bob.
+I'm going to beat him more.
+Yeah, uh...
+That piece, your turn.
+We're still in the fog, right?
+You are in the fog, yes.
+You can move away.
+But this guy will get an opportunity to hack.
+You still want to hit him?
+Uh... the dozen hit?
+One more attempt.
+Oh, that president hit him.
+All right.
+It's my turn.
+All right.
+We move on, eh?
+Two.
+Who goes just after you?
+Oh, he...
+The died, the dead dude.
+It's Will's turn.
+It's going to go just fucking die already.
+Jesus Christ.
+Uh...
+Is going to miss the first one.
+Yeah, yeah, no.
+Uh...
+Yeah, I don't hear this.
+Expectly from you.
+You should have this fight.
+No, I didn't.
+Uh...
+I'm sorry, dude. I have to go with him.
+You did start the fight.
+No, you didn't.
+We were too much to check.
+You initiated the fight.
+Yeah, you did try to actually hit him.
+It's like someone throws a fucking knife toward you.
+You're like, you're tagged.
+All right.
+Rome was started to hide accidentally.
+Okay.
+And now you're putting it on Rome.
+Cool.
+Rome, are you here to hide?
+We want to do trying to make you know.
+I didn't turn anything.
+Yeah, yeah, yeah.
+All right, almost your turn.
+My turn?
+Oh, you know what I'm doing.
+Fuck you.
+Yeah.
+But the thought cloud would lift after he's down by the way.
+I don't know why I forgot to go about that.
+Like a mechanical thing.
+It's not a concentration thing.
+So the thought cloud will go down after a while.
+Uh, awesome.
+Okay, I moved it to other circles.
+I don't know.
+Well, the grease stuff is still there.
+Uh...
+I'm gonna just like a physical thing.
+It just doesn't fucking go away.
+Uh...
+This is just the range thing.
+I'm gonna just walk out there.
+Go.
+So the right...
+Right, let's rumble.
+Go ahead.
+I'm also gonna use the pan.
+The pan.
+Yeah.
+Most high attack.
+Uh...
+Where?
+Oh, I see, I see.
+Yeah, yeah, yeah.
+Your claws. Oh, that's gonna crit.
+Uh...
+And then one you can do another bonus action.
+Yeah, that's just normal attack, right?
+Yes.
+It's only the first effect.
+Get the damage.
+That means, so...
+The image...
+You're doing good.
+The advantage on the last one.
+He only gets advantage on the first one, right?
+No, I think you get an all the melee.
+Breakfast.
+Breakfast gets holo.
+Yeah, I think...
+No, no, it says when you make your first attack on your turn,
+you can decide to attack recklessly, yeah.
+Second one misses.
+The first one curates.
+Uh...
+It says doing so gives you advantage on melee weapons, uh...
+On this turn.
+So on this turn, you should have all advantage.
+You have to call it first, but you get advantage on the turn.
+I see, I see, I see.
+Yeah, yeah, go ahead, go do it another one.
+Do another roll just normally.
+I'm still not gonna hit it.
+Uh, give me a second, man.
+Alright.
+Six damage.
+Why? Why are my claws doing it?
+Uh...
+Six damage.
+Oh, it is, it is just one.
+What?
+When Roma transforms, where does his skillet go?
+On him.
+It just gets absorbed.
+No, it is on him.
+He can just pull it out of his leg, you know, hair, I guess.
+Okay.
+Yeah.
+Resume.
+You can use the skillet, I think, great.
+Do you have the skillet on you physically?
+No, no.
+No, you do.
+I see the skillet.
+The high run for the golden skillet.
+The skillet is on you, in the character sheet.
+Yeah.
+You can use it if you want to.
+Uh, it's gonna be six, right?
+Yep.
+Alright, you still have one bonus.
+What do you wanna do with that?
+Oh, I have a bonus, but...
+Yeah, because multi-attack is an action which lets you attack twice,
+and then you can do bonus.
+Second win.
+Heal.
+Yep.
+There you go.
+Uh...
+Wait, if you heal, I think your rage goes off, right?
+What?
+No, rage only goes off if you don't deal damage or get damage.
+No, yeah, he didn't get damaged.
+That's why he didn't mind off.
+He did do damage.
+He did do damage.
+Yes, true, true, true.
+Never mind.
+Ten you...
+Because it turned off automatic, I didn't turn it off.
+Why?
+Uh, because he's not actually damaging anyone,
+because I'm not applying the damage, I'm just driving down.
+That's why it happened.
+Alright.
+It's gonna be the guy's turn.
+And he's gonna try to first recharge, roll.
+1d6.
+Oh, no, he's not gonna recharge.
+So, he does with 6.
+Plus 6.
+12 doesn't hit.
+26 hits, right?
+Roll.
+Not damage, man.
+Where is it?
+Um...
+There you go.
+15.
+Half would be 17.
+17.
+Yeah, there you go.
+No, it's 16, right?
+I'm redering max.
+So it's 19.
+There you go.
+We're doing max.
+So it's 15 divided by 2 is 7.5.
+So it's gonna be 8.
+Yeah, that's what I'd...
+Uh,
+Malfus.
+Easy back or no?
+He's not back.
+Just do his turn at the end.
+I'm gonna say, prepare some action to do something.
+Flying, swing, swing, fly up.
+We'll do that when he's back.
+This guy's dead.
+This guy is going to
+make his move.
+Did you put Star Wars in the suggestion?
+Okay.
+Let me...
+Me?
+Uh, he's gonna whip at you again.
+That's taste.
+You still have the AC upgraded, right?
+Yeah.
+Roll.
+I feel like this is a triggering moment for that taste.
+Trying to be hit with a whip.
+Yeah.
+It's just like...
+20 plus 6.
+And yet, it doesn't hit.
+The pyro guy's turn.
+Roll 1D6.
+It doesn't recharge.
+He's gonna do the pyro attack though.
+1D20 plus...
+Where are they?
+Don't even know how to do it.
+I think it's not three.
+It's something else.
+But I don't think it's gonna...
+No, this is 22 hits.
+I've damaged, right?
+We don't know.
+I still haven't done flame on.
+Seven.
+It's...
+Arrange the attack, right?
+Yes.
+I just need...
+Well, many...
+He points, do you still have...
+Oh, you do have it, okay.
+He's using two points unless you're...
+Oh, yeah, yeah, yeah.
+You're deflecting.
+You're not defying.
+I forgot.
+Yeah, you have your damage.
+It's a...
+How do I...
+Okay, that's his turn.
+I'm saying you ask how much HP is Baptist in currently?
+1.
+He's been at 1 for 2 rounds.
+Yeah, 2 rounds.
+Yeah, 2 rounds.
+Saraka is going to...
+Convert one of her shoulders into a rocket launcher and she's gonna shoot.
+Right, I'm back.
+You can do an attack after this.
+20.
+She's gonna shoot at the same guy.
+I'm gonna make a...
+*makes a sound*
+*makes a sound*
+I'm gonna do a tech save.
+This...
+...4.
+*makes a sound*
+He succeeds.
+He takes only half the damage.
+2, 2.
+No, no.
+2, 2, 2.
+There you go.
+All right.
+What are you doing, Malfus?
+*makes a sound*
+*makes a sound*
+*makes a sound*
+*makes a sound*
+No, he was doing exactly what he said.
+*makes a sound*
+Even where exactly the position is.
+*makes a sound*
+You're gonna hit.
+Let's go.
+The match.
+And...
+Yay, 1 damage.
+So, 8 in total.
+Yeah, what about the other one?
+I already did.
+I already did.
+I already did the 8.
+Wait, what?
+No.
+The other attack.
+Oh, yes.
+Wait.
+Yeah, I'm gonna run back again and run from things so I can do the same thing.
+No, that is the damage.
+And roll a 1-8.
+Okay, you can't roll the 1-8.
+Sorry, sorry, sorry.
+Are you going back and you're...
+Okay, okay, okay.
+That's just like a flying bird just punching him over and over.
+13, uh, 13-0-14.
+Uh...
+Hmm...
+There you go.
+Okay.
+Are you going?
+For fuck's sake, man.
+*laughs*
+Alright, that's...
+Bob.
+Yeah, I think you can dash.
+But he has to use dash.
+Yes.
+Yes.
+I'm not gonna cast a spell to you guys got it.
+I'm not even doing anything in this fight.
+No, I think you can move...no, no, you can...
+You can move 30 and you can use your action.
+No, I don't want to use my action.
+You guys got it.
+Okay.
+I'm gonna have to knock it out.
+Alright, Baptiste, you're sharing while these guys are playing around. What are you doing?
+You're at 1 HP.
+Yeah.
+1 HP and a dream.
+Oh, 1 HP and a dream.
+17 hits.
+14, didn't it?
+Nope.
+Minimum damage.
+Minimum roll.
+I mean, damage is already by default 15.
+What do you mean by bad damage?
+Your lowest roll is 15.
+Yeah.
+15 is going to...
+Oh my god.
+Which I hate.
+Wasted my last key point.
+Yeah.
+Wasted damage 15, right?
+I was gonna inflate and bring it down to 8.
+Next is...
+The dude again.
+I'm gonna roll for...
+Oh, he's dead.
+Okay, next, no mind.
+I know what I'm gonna just throw.
+Wait, weren't we knocking them out?
+No, it's this one.
+It's this one.
+Oh, he's knocked out.
+Sorry.
+It's like all fucking all over the place.
+Let me...
+Buh, buh, buh.
+Yes, sorry.
+And...
+It's whale's turn.
+He is going to...
+Why?
+Do you not...
+Go down.
+Just go to sleep, buh, buh, buh, buh, buh.
+(laughs)
+Okay, he's dead.
+He's dead.
+Oh, that's it.
+Oh, sorry, sorry, sorry, sorry.
+I'll try again.
+The first one does not hit.
+The second one does hit, okay.
+Uh, the second one with the damage.
+That's gonna be 12.
+All right.
+Okay, there you go.
+Ramos, your turn.
+(clears throat)
+Okay.
+Perfect.
+Perfect.
+Rakeless attack.
+I'm gonna fuck up my claws again.
+Yeah, you can only multi-attack with the claws,
+but if you want to do normal action,
+you can do it with the f*ckin' thing.
+20.
+18.
+Uh, does head.
+16 for the back end.
+Wait, no.
+It doesn't hit.
+I think that's the AC.
+Yeah, that doesn't hit.
+Okay, so one damage for the first one.
+(laughs)
+What's 11 damage?
+Yep, that works.
+Okay, so then for my second attack, for the bonus action,
+can I use frenzy and just swipe at 'em, use frenzy,
+and then multi-attack and then swipe again twice?
+No, no, no, no. You can do multi-attack twice.
+You can just do frenzy and you hit with the melee weapon.
+No, you can only do frenzy when you hit with the melee weapon.
+You can't do frenzy.
+I don't think you can.
+Let me check, actually.
+I don't think you can do a bonus action on each of the turns after this one.
+When you use the rage and end, use the...
+Okay, yeah, you can use the skillet.
+Yep.
+All right.
+The advantage...
+The hand technically be...
+It's not really a melee weapon, it's unarmed.
+Yeah, it doesn't hit.
+All right, next is the guy in front of you is gonna roll 1D6.
+He doesn't recharge, he's gonna hit 1D20+6.
+With it, I manage, actually.
+Oh, 1D20+6.
+Because Romas and Reckless...
+Oh, he's the one being the...
+One hits, I'm gonna do...
+Well, you are only knocked back to your base farm, you're not dead.
+See, this is the amount of damage I have to do to...
+Fucking control to Lunarians, okay?
+Don't fucking blame me, blame them.
+Hi.
+Well...
+No, what wall?
+It's your fault.
+What do I mean?
+I'm not even dead.
+This is full proofing.
+Where is it?
+9 and 14.
+It's gonna knock you out.
+It's gonna be 14, 9, 23, 23, 24, 12.
+It's still a lot, not gonna knock you out of your...
+I think, you still have 7 HP.
+Why would he attack you?
+You're off the side for you.
+A valfus.
+Let me guess.
+Take a wild guess.
+No.
+I don't want to take a wild guess.
+You could have got plenty here.
+Yeah.
+I like to miss anyway.
+No, 10 doesn't hit.
+It's same thing.
+21 hits.
+You do the mosh.
+Yep.
+You see,
+Malfus, not in his zap those farms.
+Just fly up, bash him down.
+Fly up, bash him down.
+No, he's running.
+He's running.
+Just straight up.
+7, 8, 8, 8 works.
+Okay.
+They're still playing tag.
+This is literally a circus fight.
+This is literally a circus fight.
+We are doing circus shit out of here.
+They both are running at the end.
+That is over there.
+He's still running.
+He's still running.
+I don't know what the fuck you're doing.
+This guy is going to disengage.
+He's going to yank.
+Jump off.
+And he's going to...
+What? Yeah, yeah.
+Do your thing.
+I know.
+And you miss.
+Good job.
+Well, you tried.
+A C is 15.
+You want to hit your standing elf?
+Yeah.
+Hit, hit, hit.
+He's going to disengage.
+How much is this 10 feet?
+I cannot talk about any Arty.
+Yeah.
+He's going to run this way.
+And as he signals the boat...
+He's going to move the boat.
+As he looks at both of them and makes a hand gesture toward them.
+As he moves this way.
+It's going to be his turn.
+And then this guy is going to dash this way back into where they came from.
+This room.
+Where this is that 40 feet, right?
+He should be able to get in then.
+Yeah.
+He's going to be able to get here and then get inside.
+He's gone.
+And circus turn.
+So he's going to...
+Grappelhook.
+Grab him.
+Maybe.
+Let's contest strength.
+Oh my god.
+Come on.
+He succeeds.
+The Grappelhook goes towards him.
+He just walks it off.
+And it's going to be circus turn.
+Bob, what are you doing?
+Is this guy the ringleader?
+Yes.
+Okay, you're not going away.
+I'm enjoying the fight, but you're not going away.
+Come over here.
+Don't run away, dude.
+I'm going to come here and point at him.
+And I'm going to say, dude, where are you going?
+The circus is an over.
+Don't run away.
+And then I'm going to cast Vordex warp.
+And then he gets a two to his roll.
+So whatever he gets, that's a two.
+And he's going to be right over here.
+Back to where he came from.
+Okay, explain to me how your word I was.
+Warp works.
+The same way.
+I just showed the component that uses me.
+Is this...
+That I used to teleport myself.
+I throw it to him.
+You basically throw two orbs.
+And one touches him.
+One touches the same player as, as, like, he left.
+And then he's going to be right over here.
+And then he's going to be right over here.
+And then he's going to be right over here.
+And then he's going to be right over here.
+And then he's going to be right over here.
+And then he's going to be right over here.
+And then he's going to be right over here.
+And then he's going to be right over here.
+And then he's going to be right over here.
+And then he's going to be right over here.
+And then he's going to be right over here.
+And then he's going to be right over here.
+And then he's going to be right over here.
+And then he's going to be right over here.
+And then he's going to be right over here.
+And then he's going to be right over here.
+Yep.
+And the start of his turn.
+So he can...
+Malia is not going to be...
+Let's see.
+He's going to negate the first one, which is nine.
+That's going to be...
+Hmm.
+Was the damage for the second one?
+Yeah, that's going to kill him. What do you want to do?
+I'm knocking, wait, kill him?
+Yeah, knock him out, whatever.
+[laughs]
+Okay.
+As he's expanding his balloon from his chest,
+you punch him straight through,
+Pierce it, and just your punch just goes straight through the other end of the balloon,
+goes up right at his face, and he falls down.
+As...
+You little cock of his ear.
+[laughs]
+As well, goes well.
+It's only the big guy left, then.
+He's going to run up.
+Quick blade.
+Quick blade.
+Bank?
+He's not flanking.
+Veil does not understand what flanking means.
+[laughs]
+It's just you guys just keep talking about what flanking is.
+One does hit though.
+Veil, you need to met again, dude.
+What is met again?
+What the fuck are you saying?
+[laughs]
+Oh, you guys don't make any sense to me at all.
+Uh, or almost your turn.
+Oh, right.
+[laughs]
+I'm going to do the same thing I did last time.
+Right.
+Hit twice with the claw, and then use your skillet.
+[laughs]
+Yep.
+Move around so you get a flank advantage.
+Oh, like good.
+[laughs]
+I like that.
+I already get...oh, shit.
+Fuck no.
+I won't have to recklessly attack.
+So he won't get the advantage.
+Hell yeah.
+Multi-attack.
+Uh, you can regen his spells.
+[laughs]
+You can do that.
+That's going to hurt.
+You don't do a lot of damage.
+[laughs]
+With the claw.
+Uh, it's going to hit.
+Do the damage.
+One crit, one normal.
+Hit with the skillet.
+Hit with the skillet.
+[laughs]
+Damage.
+One crit, one normal.
+And then...
+Hit the other one.
+It's frenzy, right?
+I got a pop.
+And then kill it, attack.
+[laughs]
+[laughs]
+17, and then...yeah, that's going to hit too.
+Oh my god.
+Did he absolutely want the damage?
+Everyone is putting out...
+Jesus, 20...
+7.
+Hang on.
+Okay, 27.
+Bring some down too.
+Okay, there you go.
+Nice, he's just smashed him.
+Left and right.
+What are you doing, Malfus?
+Hmm.
+This guy's set up.
+Thank you guys.
+This guy's unconscious.
+He's unconscious now.
+Uh, but I'm not coming out.
+Good, that.
+And then I went out of there.
+He got away.
+You know, he is the one that got away.
+[laughs]
+He's...
+He went in this room.
+[laughs]
+[laughs]
+Malfus.
+All right.
+He's going that way.
+[laughs]
+Zup.
+Oh, come on.
+Now I have to take you again.
+I don't get over there, Bob.
+I'm chasing the other guy.
+Yeah, as you're chasing that guy,
+this guy's dead and it's that guy's churn who just left.
+And you feel yourself stopping.
+It's like the ship is now stopping.
+Uh, and...
+It's going to be circus churn.
+And she goes...
+All right, big guy, time to go to sleep.
+Uh,
+he's going to go point blank,
+blade arm.
+Just...
+Both arms right in his back.
+Uh, 1D 20
+X.
+I think at this point
+it will be flanking, right?
+No, no. You're flanking with the whale.
+[laughs]
+And she's going to come here.
+Bob, come in and get the final hit.
+[laughs]
+Yeah, this is the only time you will get it in the chance.
+Bob, let's not understand.
+21-19, it still hits.
+Oh, 2D 6-3.
+Oh, 2D 6-3.
+[laughs]
+Almost 2-3.
+Okay, then the boat blades just go straight into him
+and the dude just falls down.
+And you guys are out of compact.
+Yep.
+Oh, we ain't out of combat.
+Mm-hmm.
+Rome is going to hawk Bob down and tackle his ass.
+[laughs]
+Oh, he's not.
+Bob, you have path movements.
+You can't outrun him.
+Yeah, for the first time.
+Yeah.
+Yeah, bro, what were you moving so fast?
+It's actually level 3.
+No one--
+I thought we were out of the combat.
+No, but everyone--
+No, no.
+Everyone had what?
+One level of exhaustion at the word least.
+Bob had--
+Oh, wait.
+Oh, yeah, my speed was halved.
+What are they doing?
+Four-time movement speed.
+Oh, yeah.
+Why did you guys--
+You know what, never mind.
+That was the second battle.
+That's normal.
+You get two-some more success.
+I see.
+[laughs]
+All right, Roma do a strength check.
+[laughs]
+You can get out of it using acrobats or athletics.
+Bob--
+With this advantage, please.
+You're not even going to do any kind--
+No, Bob's not going to do any kind of saving throw.
+He's going to fail.
+Just accept his--
+Yeah.
+What are you doing again, dude?
+He's just trackling you down.
+You just--
+You see the guy--
+You just--
+You know, Bob, you know I--
+Yeah, you doubt.
+What are you doing, bro?
+What do you mean by that?
+You guys had it.
+What-- what are you--
+What do you guys want me to do?
+I'm literally going to put my foot on Bob's chest.
+Yeah.
+Yeah.
+I'm wearing a fight.
+You don't fight.
+I'm killing you.
+You're going to say, you really need to learn the difference between a fighter and a scholar.
+And then I'm going to snap my fingers and miss this step away.
+Okay.
+And then I'm just going to pop the transformation.
+Yeah, we do that for you.
+The guy-- what is he doing?
+They're all knocked out.
+Look.
+The one that got away.
+If you open the door inside this room, you see like a chain connecting two ships.
+And that chain is now broken.
+You're just stagnant in the open sea.
+Sounded by just water.
+Well, we have his captain and probably like a couple of his men knocked out.
+Yeah.
+Bob, I'm not at all.
+I don't think they have any allusions as to anyone.
+Can we see the dude still make the ship he's on?
+No.
+No, it's been a while.
+It's been like six seconds.
+No, it's been like not six seconds at the where least.
+I think you're just making sense of Mac.
+It's a safe room.
+No, I think everyone had a turn after him, right?
+No, no.
+And after him right after him.
+Okay.
+In that case, you should be able to see him.
+Yeah.
+Fucking going up.
+Okay.
+Easy.
+Let me check how far he could have traveled with the dingy boat.
+Yeah.
+Yeah.
+But that was his turn.
+That was his turn that he spent.
+Well, you actually dashed.
+No, but that was before.
+He actually dashed.
+He went in.
+But then I waited a whole round.
+No, then I waited a whole round.
+Then I told you, okay, you hear something.
+The ship's slowing down.
+So he's already disconnected.
+And now he shouldn't be far away.
+The way you know that Malthus moved right after him,
+because Malthus was attacking him and running away.
+The moment he ran out, the only person left was Big Dude and Malthus wasn't attacking.
+Yeah.
+It's not the point.
+He already left before Malthus got to that place.
+No.
+I have a recording.
+It's a one round difference.
+Yeah.
+So, like six seconds, he will not be a fuck down away.
+He's on a boat.
+A boat is faster than normal people.
+That's what I'm saying.
+I'm trying to figure out how distant, how much distance.
+Oh, my God.
+Yeah.
+I'm telling you.
+I'm telling you how much distance is between that.
+Let me talk.
+It's going to be, yeah, he's going to be a 60 feet away.
+That's easy.
+Yeah.
+Now, you can go with a soft one.
+You're forgetting you got one running.
+Well, I'm not.
+But Malthus can dash.
+I don't have half a movement speed.
+Yeah, he doesn't have half a movement speed.
+Why?
+Wait, aren't you at one exhaustion, too?
+Yeah, I'm not.
+What's the big exhaustion gives?
+Oh, yeah, yeah.
+That's the half.
+You're going to go ahead.
+So you were catching up to this ship?
+Yeah.
+Okay, you dash towards the ship.
+Now what?
+Well, you said 60, right?
+So I'm going to transform.
+Okay.
+You're transforming.
+That's your bonus action.
+Then you can do a dash.
+That's an action.
+So how much distance would that be?
+You in 20?
+My movement speed, like transforming, I think, is so...
+I don't know.
+Let me check.
+If it's right now, it's...
+Right now, it's 60, correct?
+Yeah, I should be 80.
+What the fuck?
+How is it 80?
+That's 480.
+Wait, what?
+No, I get that, but...
+Your transform is 10, though.
+Is it 20?
+Does it add 20 to your base speed?
+Whether that's stupid?
+Don't think it's only...
+It stops stupid, okay?
+No, but...
+Oh, it does say 80.
+Fied.
+Okay, you know what?
+Whatever.
+80, you get on the ship.
+What's your action?
+What are you doing?
+Talking to that guy out.
+You don't see the guy on the boat.
+Finding that dude.
+Okay, it's gonna be another action.
+So you're...
+Again, I just...
+I just want to make sure...
+None of you can catch up to the ship.
+Malphus has just bolted off.
+No, I'm just doing different rounds.
+I have 40 wide speeds, so I can't really hear it.
+Depending on...
+Well, it depends on fast.
+The boat is moving 5 miles per hour.
+That's 60 feet per round.
+Yeah, I can't catch around.
+Yeah.
+I can just turn it around.
+Turn it around from where the controls are not anywhere like on the deck of the ship.
+It's like a small...
+It's a different kind of boat.
+It's not like a regular boat.
+There's nothing on top.
+It's like a speed boat.
+You know, when you get down on that level and then you can control it.
+So you have to get down somehow.
+You don't see an opening.
+This is gonna take me a bit longer to catch up.
+You can't fly forever.
+That's what I'm saying.
+Are we...
+Is the circus platform already on a ship?
+No, okay.
+So this is just like a floating area that was attached to the edge of the island.
+Okay.
+So they established that there.
+They have a ship.
+They trap people here.
+They move along.
+Basically, this is like a slave-free route.
+They capture them here.
+They sell them off, and that's it.
+I was right, that's late.
+That's late.
+That's late.
+You were right to fight, but there was no...
+Okay, just because you were right.
+That's what you mean.
+That you were right to fight.
+There was no reason for you to start a fight.
+That's what I'll say.
+All right.
+We're gonna end the session here.
+So...
+Yeah, so basically, both of you are flying.
+Whale is also going to just run on the water and fly...
+Like run on the water with you as you're flying above them.
+Shit, I'm gonna tie up all of these.
+Yeah, you and Roma and Serka are tying up all these suits.
+So let's say we end it here, and I forget about the island that I worked so hard for,
+and move on to the next island.
+Yeah, but you're finally finding the thing.
+The lock pose will all...
+will be all fucked up.
+It wouldn't have calibrated.
+It won't point back to the island.
+We could have gone that far.
+Okay, I don't know how many rounds we've been for, but it was definitely more than 10.
+So 10 into... how much is it around?
+One minute?
+Sick.
+No, no, that's 10 rounds.
+That's one minute, right?
+You know, let's fucking dandy.
+Stupid.
+How is it 10 rounds?
+How is it just one minute?
+One minute, still like 50.
+60 into 10.
+There's gonna be a lot of distance though, right?
+600 feet?
+Yeah, you're pretty far away from the island.
+I mean, if you find a boat, you can go back, sure.
+I'm not the fucking boat.
+You're on the boat, but you have to investigate.
+You have to find out how to get in the boat and stuff like that.
+We'll do it next time.
+We have the captain tied up.
+You do have all the people tied up.
+So we'll find more information about what the fuck is happening.
+We're just seeing the boat containing mouthers just float away into the sunset.
+Yes.
+No, as two more people just run behind it and...
+Soon?
+I mean, Vale's gonna arrive there soon before Baptist.
+Unless you stop it.
+Oh, not the tosses fell.
+I mean, I just remembered that Baptist has one HP.
+And if even a bird picks him, that's gonna be one damage.
+And he's gonna fall in the ocean and he's gonna die, yes.
+So at least can I do one fell?
+Sure, right now.
+No, you won't do that.
+There's just heroes.
+Why didn't you do that during the fight?
+What the fuck was that?
+Do I need to do that?
+You were so good.
+You was at a 1 HP for most of the fight, by the way.
+I didn't want to do that.
+Because I didn't want to do that.
+You were doing great.
+Let's go, let's go, let's go.
+It was a statement, okay, because you were at 1 HP for 4 rounds.
+Curavoons?
+So basically you send your owl behind Baptist.
+And the owl just picks him up and then the neck and injects the cereal.
+There's Baptist.
+I can't believe you won't.
+Don't damage.
+It's so cool.
+I know it's kind of useless to ask, but it starts in wishes.
+If I did that, probably like in the very middle, the owl might have gotten targeted.
+But I could have brought you back the very next day in New York.
+It was not that much of a difference.
+And I wanted to catch Malphus.
+I really wanted to catch Malphus.
+It's a good question.
+So that's been a half-movie speech.
+That I forgot.
+Are you sure wishes?
+Yes.
+Shit.
+No, actually came in for a couple of hits.
+Hopefully I'll get the sheets ready for the next time.
+So we'll do that.
+How about this?
+Because I think we need to try the characters out before completely changing those.
+So thinking we do like a one-shot thing or like a side mission kind of thing on the ship while you're traveling between the islands.
+Okay.
+On what ship?
+On the spider's nest ship.
+We go back in time and we do like a sort of like side story thing, not like involved with the main campaign.
+So you guys get to try out your new character sheets.
+What is new actually?
+The race is going to change.
+Race features are going to change.
+And what else?
+Scholars are going to change.
+That was the book that you added my race from.
+So everything looks the same.
+I don't think it does.
+Because some of the stuff I have not automated before.
+It needs to be automated and you need to choose your sub races and with that you get some certain fees that are not in your character sheet at this point.
+So stuff like that.
+I already got that.
+I had chose augmented.
+So that was literally the same book.
+No, there's like a bunch of stuff, man.
+I'm going to be with you.
+It's not just that.
+You're picking up a damn.
+Yeah, the additional.
+Yeah, scholar has a bunch of stuff in it, which this the scholar that you have currently does not have.
+There's a bunch of stuff that I found.
+Oh, by the way, there was two kind of background or something because currently the scholar and cook or whatnot.
+That was our background.
+You have to pick a primary.
+You have to pick a pick a primary that will go in the background.
+So I'm hoping you're going with scholar and Roma will go with cook.
+And that he's going with boxer.
+Malph is you're going with navigator.
+Yeah.
+So that's fine.
+If you have a primary, you can have multiple roles, but there's always a primary.
+But, uh, can I have the houseman now?
+No, you can have multiple in like flavor wise.
+You can't have on it on character.
+Also, you can have.
+Okay, see, you can be the house.
+Yeah, you have to meet a houseman.
+You have to pray with the houseman.
+You can't just become a houseman with the best person over here to be the houseman.
+Okay.
+I can be like a hundred feet away from you guys and still give you self.
+Oh my god.
+You just want to stay away from the crew.
+Why are you here?
+No, I'm not.
+I'm not staying away from the crew per se.
+The crew is going near the enemy.
+I'm staying away from the enemy.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Yeah, I'm going to go to the house.
+Now, if you have better ideas for your transformation,
+like abilities, we can change that.
+Do we base it on the book, the Delphutes, or just what we have?
+I think it's going to be better if you base it on the book,
+just because it looks coherent.
+But in the book, there's not a lot about how
+devilish abilities.
+Yeah, there's tables on there that we just
+can copy the need to copy.
+Yeah, yeah, I guess we could do that.
+Just take a look.
+I'll try to finish some stuff.
+If I can get the whole thing migrated to Foundry by then,
+then we'll just do normal session with the current character
+sheets.
+Otherwise, we'll change it, run a short story site stuff
+in between, and then we can do regular sessions
+from the next week.
+If you're happy with that.
+So what are we doing for the next week now,
+because I can't be there?
+I'm fine with not--
+Oh, yeah, yeah, yeah, sorry.
+I forgot.
+Did you say that you were not going to be there or someone else?
+Yes.
+I know.
+Did you say--
+So what was the reason that I said next week?
+Yeah, yeah, yeah.
+I'm not going to be--
+for the next two next week.
+I'm going to be there next week.
+Unless you want to reschedule for another day,
+we could try that.
+No.
+I don't have anything.
+Let's go right now.
+You have a ship to chase.
+We can put characters here.
+Right now.
+Yeah, that's also true.
+What?
+I guess we could do that.
+Let's get the stars and wishes done.
+And then we can do the character sheet stuff.
+What about that?
+Gentlemen, I am going to say this 30th.
+I won't be here.
+Oh, also, that was also what I was going to say,
+because currently the exams are today over.
+So--
+So--
+And I'm on vacation.
+So if my classes are there, if I'm
+on university schedule, I can go 10 to 50 hours, no problem.
+Because you don't need to study what--
+[LAUGHS]
+No.
+When and I'm doing my vacation, I need--
+Bob, I need your parents number just in case you fail.
+I need to tell them it's not my fault.
+No.
+No.
+No.
+No, by the way, I can do three hours, no problem.
+But the more than three words, that's going to be a problem.
+That's fine, that's fine.
+This three weeks, so 16, 23, and 30.
+So--
+Look, as far as I know, 16th mouth is not going to be there.
+23rd, we're almost not going to be there.
+Sorry, I'm not going to be there.
+And 30th, we're almost not going to be there.
+So we could do something like this.
+I am planning to run--
+if you guys are not going to be here,
+I'm planning to run some one-shots for people in the server.
+So I can plan it for 16 and 30th.
+If you guys are not going to make it at all, otherwise--
+[INTERPOSING VOICES]
+Before the other guys session--
+[INTERPOSING VOICES]
+No, I'm asking--
+just want to make something clear.
+15th, if you want to run for 15th,
+can anyone do 15th?
+Same time, but you're not going to run for five hours.
+You will only run for three, because then I
+have to switch to the other party.
+Yeah, I have no problem doing--
+I have no problem with any of the dates.
+I can just do three hours.
+I actually can't do the 15th.
+All right, so that's canceled then.
+16th, who can be here on 16th?
+Baptiste, Roma, and Bob.
+I can, but for three hours.
+But if you're going to do like at morning for me,
+so at like in the evening or afternoon for you,
+then I can be for as long as you want.
+What time is it?
+That's too much complexity.
+What?
+No, see the problem is it's already early for Roma,
+and Baptiste, so I don't want to make it even earlier.
+I'm not talking about getting it earlier.
+No, if you're going to make it later for you guys.
+For you guys, your afternoon is my morning,
+so if you guys are going to do that in the afternoon,
+then it's going to be in the morning for me.
+I can be fully available for any amount of time.
+But the current schedule, I can be there only for three hours.
+Yeah, would they like savings is even earlier?
+Yeah, yeah, it's already fucking up schedules
+for the other crew.
+It's kind of fuck up every schedule all around the world,
+honestly.
+I don't know.
+It's fucking--
+For you guys, your daily savings.
+We don't do that here, so--
+We don't do that here either, man.
+I don't know what--
+Grace problem is.
+I don't know if that was fucking government.
+Yeah, I don't know.
+16th.
+16th.
+Who can be here?
+May.
+Roma?
+All right.
+So I can do a side mission for Roma and Baptiste on 16th.
+During the time that you've been traveling from Spiritcliffe
+to the reverse mountain, I could do that.
+If you guys want to, if you just want to skip and give it
+a rest for a week, we can also do that.
+But it'd be three weeks.
+Yeah.
+Yeah, see, I can't really help with 22nd or 23rd.
+I honestly, I'm going to say this.
+I'm going to be busy from Friday to Sunday and even Monday.
+So 21st to 24th, I'm just not here.
+Actually, if it's--
+I'm just sitting one week and that--
+Baptiste and Roma's side story and the 30th is
+Baptiste and Malphite's side story.
+Yeah, we could do that.
+But for Baptiste and Malphite's story,
+we'll move like two years before.
+When you guys first met, I will do that for the Baptiste.
+It works for me.
+Roma.
+The problem with the Bob and Roma's character
+is, do you guys probably don't know each other?
+You probably have not come in contact at any point.
+So it's hard to put you in a side quest situation.
+But Roma's not going to be there on 30.
+And Bob, you're just going to miss out on everything.
+Unless you sign up for the Pokemon one shot.
+If you want to do that, I can run it for you.
+On the 15th.
+Because I'm planning on the 15th.
+If we're still going to do our session on 16th,
+then I'm planning the one shot for 15th.
+So Bob, you could sign up for that.
+For the one shot or the session?
+For the one shot.
+For the Pokemon one shot.
+If you're interested.
+If not, then I don't know.
+I have no way of working anything out for you
+for 16, 20, 30 or 30.
+I'm on vacation.
+So I'm not that much of a problem.
+I'll do a chill out for some time.
+You know, Bob, Bob requires some rest.
+I feel like.
+You can think about it's actually--
+There has been a lot of--
+what do you mean by your action?
+You know what?
+You didn't have enough time.
+So you can sit down and write down all the notes
+in the world, all the journals and all you want.
+Yeah, yeah, I could do it.
+Yeah, that's a good idea actually.
+OK, so 16, 20, 30, 30, Bob, you're free.
+Do whatever.
+Live your life.
+But I need you back for the next week.
+If you don't show up, I'm going to show up at your house
+with a fucking gun, all right?
+Lake on American.
+Like a true American.
+Wait, next time.
+No, next.
+No, next.
+Roma?
+I'll take a look at it, Roma.
+Tomorrow, OK.
+Just send me anything that you feel is interesting.
+Just send me that.
+Also, look at the devil fruit table on the thing that I said.
+If it skills, according to that, then I'm fine.
+Yeah, I was saying--
+No, after--
+After 30 at the next week.
+What's the official--
+OK, so like--
+For you, it's going to be 7th.
+Yeah.
+All right.
+Just keep your eyes open if I put anything up for the one shot.
+I'm still planning.
+I don't know if I can do it for the 15.
+It depends.
+All right, anyone--
+fucking just let the fucking--
+what was I doing?
+Stars and wishes, please.
+[SIGHS]
+Roma's done.
+Who else?
+Hey, fellas.
+I got to go, by the way.
+Yeah, no, shizman.
+See you next week.
+No.
+Stars, this thing on 1HP.
+Yeah, yeah.
+People out there know--
+Yeah, that's kind of--
+You need to keep your head open.
+I was keeping you at 1HP for just that
+making you fucking rad, OK?
+I was making you looking awesome.
+That's awesome.
+[LAUGHTER]
+All right.
+But wishes-- let's find a new crewmate.
+He said they were slave traders.
+I want to find a new one.
+Oh, that's obvious.
+All right, all right.
+Wishes are more meant to be a feedback.
+You don't like something in the session.
+All right, you didn't enjoy it for some part of it.
+You could say, OK, we can make it better or something.
+You know that?
+Why would you take--
+OK, I'll be honest.
+At first, when you put us on an animal,
+we're third.
+I thought we were going to get our--
+OK.
+People in costume.
+Yeah.
+And I-- oh.
+[LAUGHTER]
+Maybe one of these attractions is actually
+going to have a real pet in here.
+Yeah.
+[INAUDIBLE]
+So excuse me.
+So you don't want the dinosaur?
+That's crazy.
+I would have-- the dinosaur in a heartbeat.
+[LAUGHTER]
+Technically, it gets the dinosaur.
+He's on-- he was on the ship.
+We don't know that.
+We don't know that.
+Maybe probably just outright killed him.
+A naked man running towards the ship.
+[LAUGHTER]
+I can't tell you.
+Go, we don't want it.
+Yeah.
+[INAUDIBLE]
+Yeah.
+And I got--
+[INAUDIBLE]
+I got attacked.
+I wanted to fight back.
+Yeah.
+[LAUGHTER]
+I thought, oh, maybe I fucked up.
+Maybe I was being too pushy.
+That's why you attacked.
+But no, you were just fucking crazy.
+[LAUGHTER]
+No sane person is going to attack someone.
+Mm-hmm.
+Oh, 30 people are about to just overrun someone you know.
+Yeah, yeah.
+I'm going to try to help.
+Maybe you could attack me.
+[LAUGHTER]
+I mean, to be honest, it kind of matches
+Baptist's personality.
+So that's probably what he would have done.
+All right.
+Anything else?
+Envishes or no?
+Other than the crewman.
+I call it these were slaves.
+Yeah.
+I mean, who were slaves?
+The animal, whatever people, they
+are not related to the slave trade at all.
+Just so you know.
+But slaves was called.
+Slaves was said.
+The slaves word was said.
+True.
+[LAUGHTER]
+All right, Malfus got any stars and wishes.
+No, it is on major shifts.
+Yeah, it was fucking enjoyable as well.
+OK, cool.
+I did--
+I keep loving these issues.
+What?
+Loving what?
+I keep loving the sessions too.
+Because last week, it was like, I had it there.
+But I have laugh during the sessions there.
+[LAUGHTER]
+All right.
+Zinos, sorry, a fucking buff.
+I keep--
+Yes.
+I mean, the star was definitely like the moment you said,
+how do you want to kill Silas?
+At the moment, you said that.
+I was thinking, wait, we beat him.
+I don't have to die.
+Silas?
+The whole star of my campaign.
+Oh, Pasha.
+Pasha, Pasha.
+Oh, yeah, yeah, yeah, yeah, yeah.
+Oh god.
+He's the swunger, yeah.
+Yeah.
+Dude, that was amazing.
+I mean, I told you it was with the six folds there,
+there was no way you would have lost.
+It's just unfair.
+[LAUGHTER]
+I mean, then you just brought out the 500 feet roar
+or something.
+I mean, yeah.
+He didn't get to do any of the following roars.
+He could do three roars.
+And every time it would get worse.
+And he just couldn't get to that.
+Because it was made a great step.
+I just thought 100 feet and I was like, yeah, that's
+the whole map.
+Yeah.
+I feel like it worked out the way it did.
+Mm-hmm.
+Yeah.
+Because--
+And for the wishes is pretty much--
+I was going to go for like, I couldn't do the 30th.
+But now, the sessions were pretty amazing.
+And basically, I mean, I'm normally more of a role player guy.
+And at first, I was getting a bit overwhelmed
+with the huge amount of like, combat.
+But now, the combat theme really fun.
+Mainly because I'm not dying.
+But yeah, the combat do really fun.
+But yeah, the role play moments are great as well.
+The whole--
+If you call it, that arc was pretty amazing.
+And the only thing I'm pissed about
+is that I couldn't get the bird mask or the car.
+I had to find another way to do it.
+Get that.
+Yeah.
+You could go back.
+You could always go back.
+You know, I don't want to go back.
+Mm-hmm.
+I might develop a new tank or something, I don't know.
+No, you know, by the time you get back,
+the island's going to explode.
+You know, I'm done with it.
+Mm-hmm.
+You put so much work into the island,
+we're going to go back.
+No, no, it's fun.
+It was fun.
+Just-- it was a zoo I saw before.
+And that was why he said it.
+Yeah, yeah.
+He joined the--
+Foundry.
+He joined Foundry.
+I was making the zoo in the morning.
+And I forgot to switch it back to like the ship.
+[LAUGHS]
+Malfus was just there looking at the fucking zoo.
+[INAUDIBLE]
+No, no, no.
+I found a map.
+And I just used that.
+But I did add the fucking walls and everything.
+I was fucking annoying.
+No, when I first saw that corner and saw it make--
+[LAUGHS]
+I was like, this is no way this is what's going on.
+I actually got lost in the whole island.
+Yeah, you know what?
+I have a lot of ideas that I scrapped for the DNA thing.
+I'm going to read some to you.
+This is not even the weirdest thing that I have.
+[LAUGHS]
+Weird.
+There was another cursed object that I was dealing with.
+I'm not going to say it because I might use it again.
+And then I have a list of the spider-ness parts.
+I have a list of six folds.
+I have-- you did hear--
+mirror talk about Giuseppe, right?
+You are Malfa.
+Someone heard Mira are Trey talk about Giuseppe.
+I don't remember.
+No, when you called--
+when Bob called Trey and when Trey picked up
+and Cali goes, Drowman and Trey were talking,
+he mentions something about Giuseppe.
+That's the reason--
+that's the reason Mira is in the South blue.
+Anyway, you'll find out about that later.
+And then I have the name of these guys.
+Boo-la-grigor, T-more, E-gor.
+Yeah.
+I still need to tell Bob about Drowman.
+What?
+That the reporter said Drowman got captured, I still--
+Yeah, yeah, yeah.
+Bob, did you know?
+I have a name of a character that's
+going to show up sometime later.
+That's the picture.
+When?
+Uh--
+We know the post.
+I have been--
+I keep forgetting this.
+I want to add the Orochumaru theme in one
+of the combat music, but I keep forgetting.
+And then I have some--
+Oh, yeah.
+And at the end of it, I have just one thing.
+People dress like animals.
+Like, OK, you know what?
+I'm going to go with--
+Yeah, that's what I went with.
+You need to have a list of potential characters
+we can recruit and just--
+We're all at ICD, which one sells that?
+Snake man.
+I don't really--
+because I had a plan for Zim, but she was going to show up,
+like--
+I don't know, a couple islands later.
+I'm going to be rolled in that, too.
+Yeah, but we had it at 20.
+Yeah, and I just didn't want to--
+and I didn't want to pull out a fucking half-ass character.
+So I just thought, OK, I know Zim.
+I know what your character is, or what your character
+arc is, and everything.
+So I just bought her out dead.
+Dad.
+What else?
+I wanted fucking made.
+Just a mermaid with no fucking personality whatsoever.
+Yeah, I see.
+Cool, cool, cool.
+I mean, I did finish your backstory about teas
+in the meantime.
+Two, two, two, two.
+We're going to get those characters she's done.
+Yeah, yeah, let me.
+Is Bob your done with your feedback?
+[INAUDIBLE]
+Yep, I just need a bird mask, that's all.
+OK, that's not a feedback, man.
+That's not helpful.
+[INAUDIBLE]
+But that's a way to--
+[INAUDIBLE]
+Yeah.
+All right.
+I'm just wishing to the genie--
+Or whatever there is.
+[INAUDIBLE]
+Be home.
+Play test.
+OK, what's your base stats?
+Not teased.
+But I'm not going to use the base stats.
+No.
+Keep row.
+Can we row for it?
+No.
+I don't remember what my base stats were.
+I can look at it.
+While you do it, those are your other time calling grab.
+First, CAB.
+All right.
+They go to background.
+And then we go to--
+I didn't add the background yet.
+That dammit.
+I don't want to do this if we don't have everything prepared
+anyway.
+Let me see if I--
+I think if I have Lennarian ready.
+No, this is not the correct Lennarian.
+Let me see.
+Configure Compendiums.
+Manage classes.
+And there you go.
+World.
+There we go.
+Oh.
+And done.
+And as your races were done, ground,
+I didn't add background yet, races, items, classes,
+done, submit.
+Yes.
+I mean, we could just add the background later on this fine.
+Malthus left?
+Where is he going to come back?
+Well, I think he said he'd come back.
+alright
+uh...
+Peace
+Peace
+There we go
+Background
+We go
+Don't slunch a background
+Don't you want
+Then we go
+Narin
+Next
+Go Brawler
+Next
+Go Manual
+Go Astiar
+Text
+Con
+And
+Viz
+Charisma
+I think it went
+Dex
+15
+Intelligence is eight
+I know intelligence is eight
+Charisma ten
+Strength twelve
+So that is 13
+14
+On
+I think
+Wisdom was 14
+Con 13
+Well, 13
+38, 14, 10
+That's right
+Okay
+Next
+For
+Loneurians, the restrictions were more inside
+I don't think we need to change anything
+That right now
+I don't think so
+There we go
+Oh my god, we have to select a background
+God damn it, 3-set
+Go
+Take
+I can't tell me the stats again
+Are you able to just drag the new Blinari and race to my character sheet?
+I'm not changing the existing one because
+If we can't get it done or like if we don't finalize it
+I don't want to change the existing one
+I'm just making a new one
+App, T, there we go
+Background, I'm just going to pick
+Acculate, I'm going to change the background later
+I'm using Loneurians
+Not one piece
+Races, there we go
+We have
+Roller classes
+Strength, Text, Con, Int
+Cruisement, Cruisement was 10
+Wisdom was 14
+8
+13 Con
+15 decks
+Dax and Postrand
+Next
+Next
+Safe for later
+We go here
+Next, next, next, next
+View
+Smith
+Alright, advancement for aller
+Strength, Decks
+Okay, skill proficiency, what did you have?
+This is for the Brawler
+Brawler Brawler
+Monk, skill proficiency essentially
+What you picked
+Acrobatics and Athletics I think
+Okay, simple, tool proficiency
+It was the Smiths tools
+Smiths tools, next, next, next
+Alright, three points, Loneurian
+Where do you want to put them?
+Two in decks
+One card
+Next
+Your Medium, next, common
+I'm not going to add after Flaming Duality, Firebolt
+Insight Religion
+Choose any two languages
+I'm going to say
+Where is it?
+D-D-D celestial
+Thief's Gantr
+Shelter of the Faithful
+Alright, we have this
+I collect, we can change later
+I'm going to move you to Brawler level 4 correct
+Okay, roll or average
+Health
+Roll, 10, nice, next, next
+Get Elementan Armor, roll again
+Yes
+Nine, bro, what the fuck
+Brawling style, the Flick Missiles
+Subclass, way of Astral Self
+Select, next, Awakened Astral Self
+Why did you get Awakened actually?
+I don't know
+I'm going to roll again 10, 10
+Okay, level 4, Ability Score Improvement or do you want to feed?
+It was an ASI, I believe, and then I did
+To do Intidates
+Alright, next, Race for Impact
+And there we go, Arms for Astral Self
+Do you do have Awakened Astral Self
+It's a level 17 feature, I don't know why you get it now
+It's fine, we can just leave it here
+Okay, so you have Resistance to Fireblood Shining Pairsting Sthlashing, non-magical
+Alright, Physical Bifaster
+These weapon properties will be fast, damage resistance for physical damage
+I don't know why I didn't do magica
+Damage Immunities, non-conditioning, non-vulnerabilities
+Water
+Damage Modification is non-armored, non-simple, common-slow-lessial-teeth-can't
+Everything looks fine to me
+Dark Club, when I'm trying, I can move the items on your own, I think, from your sheet
+Furious blows, instead of key you have Spirit now
+Step of the win, deflect missiles, same race for impact as the fall damage one
+Moment, arm-sophacial self
+Flaming Duality, as a bonus action, you can choose two forms
+When you click on Faming Duality, you will have the option for Inc-N-D-Farm or God Speed form
+They have different things, and they will auto-apply them
+So, gain resistance to Blood Shining Pairsting Sthlashing
+Do you already have like active effects?
+Because you shouldn't have active effects
+Let me turn these off
+So, whenever you want to activate any of the effects, you just go into the Effects tab and turn them on and off again
+Wait, wait
+It's here
+Always show effect I can now save
+Alright
+And let the fuck is happening, bro, disable
+Disable
+Which mask did I give?
+Red, do you remember?
+Hmm, the Blake Doctor one
+God, come on, man
+Tens
+Tens
+Tens
+Tens
+Alright, by default, you will have no like fire resistance, unless you're in like, what do you call it, the new one
+Flaming Duality, if you're in Ignited Form, then only you have fire resistance, otherwise you do not
+In God Speed form, you get 10 plus movement
+I'm going to adapt it, extreme weather, that's fine, elemental armor, you can use it once if you're not wearing any armor, predict your magical force of fire surrounds until 8 hours
+So your EC becomes 13 plus your Dex modifier
+So when you click it, it should automatically update your EC, if it doesn't then we'll see, I'll have to fix that
+Okay, you only need to change the boxers things you get, your knockouts, you already moved it, I guess
+I feel like there's no point doing it now, because I need to change the rest of the stuff too
+Once we add background, we don't need to add the knockouts right manually too, so
+It would work normally
+Let me put your new token in actually, let me see, demo activate
+Let's bring you here
+You have 47, you have more HP than 1L, that's crazy
+Oh, why didn't you have that plus my HP?
+Because he rolled instead of advantage, sorry, for good, average
+Yeah, he got 10, 10, 9 and 1 I think, average
+I'm not gonna take that risk, I know where I'm going to go
+Can I use my portance for my HP roll?
+No, I didn't say it worked in Galbara, I think, I'm pretty sure
+Porting is like, for skill checks, either way, so it's not gonna work on head die
+Alright, it's getting delayed for me guys, I'm gonna head out
+You can try, here's your character out
+In the meantime
+Are you guys interested in the Pokemon 1 shot?
+I don't know
+I might be there depending on the time
+But, if it's gonna happen this week, it's gonna be the same time as the other sessions time, the other cruise time
+No, no, no, the one shot is gonna be very small
+And I'm gonna be for 3 hours now
+More than 3 is gonna be more than 3 hours
+Maybe even just 2
+I'll see, look, what I'm saying is
+I'm gonna post it in the general and whoever signs up first is gonna be in the session
+Otherwise, I'm gonna say, how many of you guys are already in the campaign?
+You don't need to apply, that's what I'm saying, you're not interested
+Alright, anyway, gotta head out, bye bye

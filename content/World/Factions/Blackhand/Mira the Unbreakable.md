@@ -3,7 +3,13 @@ type: actor
 faction: "[[Blackhand]]"
 status: draft
 publish: true
+sources:
 ---
+## Visuals
+
+![[Attachments/mira-portrait.png|Portrait]]
+![[Attachments/mira-bounty.png|Bounty poster]]
+
 
 ## Description
 
@@ -19,9 +25,11 @@ Carries a kind, almost motherly smile, especially toward her family and crew —
 
 ## Role
 
-**4th Fleet Commander** of the [[Blackhand]]. Commands immense respect both within and beyond the crew.
+**4th Fleet Commander** of the [[Blackhand]]; captain of the [[Braveheart Pirates]]. Commands immense respect both within and beyond the crew.
 
 **Current Bounty:** 125,000,000 berries
+
+Devil Fruit: [[Kaze Kaze no Mi]].
 
 ## Personal Quests
 

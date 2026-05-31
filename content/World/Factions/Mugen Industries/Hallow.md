@@ -6,6 +6,10 @@ publish: true
 sources:
   - "[[Episode 6 - Hallow's End]]"
 ---
+## Visuals
+
+![[Attachments/hallow_gruff-portrait.png|Portrait]]
+
 
 ## Description
 

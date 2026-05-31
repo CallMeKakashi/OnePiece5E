@@ -1,0 +1,110 @@
+---
+publish: true
+---
+
+%% Begin Waypoint %%
+- **Factions**
+	- **[[Blackhand]]**
+		- **[[Braveheart Pirates]]**
+			- [[Facade]]
+			- [[Ju Lee Caneheart]]
+			- [[Malak Samum]]
+			- [[Thompson Caneheart]]
+		- **[[Gentle Giant Pirates]]**
+			- [[Dravos]]
+			- [[Kalla of Shandia]]
+			- [[Shako]]
+		- **[[Lunarfolds]]**
+			- [[B.O.B]]
+			- [[Baptiste]]
+			- [[Cade Tigor Cooper]]
+			- [[Malphas]]
+			- [[Roma]]
+			- [[Zim]]
+		- [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”]]
+		- [[🎶 Red — “The Songbird of the Black Comet”]]
+		- [[🦾 Saplea D. Isla — “Dreadnaught”]]
+		- [[Alice]]
+		- [[Baptiste (Blackhand unit)]]
+		- [[Blackhand (Cyber)]]
+		- [[Blackhand Cane]]
+		- [[Droven Calligos]]
+		- [[Mira the Unbreakable]]
+		- [[Morley]]
+		- [[Renzo]]
+		- [[Tray]]
+	- **[[Decibella Revolutionary]]**
+		- [[Cadence]]
+		- [[Riff Sin]]
+	- **[[Guiseppi Family]]**
+		- [[Brandy Guiseppi]]
+		- [[Gin Guiseppi]]
+		- [[Rhum Guiseppi]]
+		- [[Rum Guiseppi]]
+		- [[Tequila Guiseppi]]
+		- [[Vodka Guiseppi]]
+		- [[Whisky Guiseppi]]
+	- **[[High Roost Pirates]]**
+		- [[Jack S. Parrow]]
+	- **Marines**
+		- [[Calder Voss]]
+		- [[Commander Leon]]
+		- [[Delaroth]]
+		- [[Graff Bolt]]
+		- [[Melina Celeste]]
+		- [[Obsidian]]
+		- [[Sir Can Veil]]
+	- **[[Motley Crew]]**
+		- [[Aralia]]
+		- [[Astor]]
+		- [[Linus Marrow]]
+		- [[Pasha]]
+		- [[Rias Decibel]]
+		- [[Ronan]]
+	- **[[Mugen Industries]]**
+		- [[Hallow]]
+	- **[[Sixfold]]**
+		- [[Cline The Plague]]
+		- [[Liz]]
+		- [[Serica Corven]]
+		- [[Veyl Corven]]
+		- [[Vireth]]
+	- **[[Soundless 5]]**
+		- [[Baron Woofer]]
+		- [[Echo Spy]]
+		- [[Lady Soefra Anthem]]
+		- [[Mezzo Troop]]
+		- [[Rhythm Echo]]
+		- [[Synth]]
+	- **[[Spider Nest Pirates]]**
+		- [[Ben]]
+		- [[Chloe]]
+		- [[Daniel]]
+		- [[Simon The One Armed Tyrant]]
+	- **Unaffiliated**
+		- [[DevilMask]]
+		- [[Sora]]
+- **[[World Map]]**
+	- **East Blue**
+		- **[[Ambercrest]]**
+			- [[Kirro King]]
+		- **[[Driftroot Isle]]**
+			- [[🗡️ Goru Yamashita (formerly Goru Valencruz)]]
+		- **[[Spirit Cliff]]**
+			- [[Bramble]]
+			- [[Lucien]]
+			- [[The Black Ledger of Director Halward Lynne]]
+			- [[Worgoman Bank]]
+	- **Grand Line**
+		- **[[Decibella Kingdom]]**
+	- **North Blue**
+		- **[[Frosthaven]]**
+			- [[Frosthaven NPC's]]
+		- **[[Frostwind]]**
+	- **South Blue**
+		- **Juniper Islands**
+			- **West Town**
+			- **York Town**
+	- [[Islands]]
+
+%% End Waypoint %%

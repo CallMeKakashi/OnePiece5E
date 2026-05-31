@@ -3,7 +3,12 @@ type: actor
 faction: "[[Decibella Revolutionary]]"
 status: draft
 publish: true
+sources:
 ---
+## Visuals
+
+![[Attachments/cadence-bounty.png|Bounty poster]]
+
 
 ## Description
 

@@ -202,7 +202,6 @@ He attempts to manipulate Pasha, warning him that **Judge Vinsmoke** is displeas
 ---
 
 
-
 ### **Round 1: Barrel Ball**
 
 - **Objective:** Knock opponents down by throwing barrels.

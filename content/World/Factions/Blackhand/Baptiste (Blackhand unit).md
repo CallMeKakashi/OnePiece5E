@@ -4,7 +4,6 @@ faction: "[[Blackhand]]"
 status: draft
 publish: true
 sources:
-  - "Discord/exports/world-lore.md"
   - "Timeline/1478/1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff.md"
 ---
 

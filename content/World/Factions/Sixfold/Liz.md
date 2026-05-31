@@ -3,7 +3,13 @@ type: actor
 faction: "[[Sixfold]]"
 status: draft
 publish: true
+sources:
 ---
+## Visuals
+
+![[Attachments/liz-portrait.png|Portrait]]
+![[Attachments/liz-bounty.png|Bounty poster]]
+
 
 ## Description
 

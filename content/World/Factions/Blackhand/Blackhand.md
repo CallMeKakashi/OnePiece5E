@@ -33,6 +33,19 @@ Pirate organization led by **[[Blackhand Cane]]** — see [[Blackhand (Cyber)]] 
 - [[Cade Tigor Cooper]]
 - [[Malphas]] — Lunarian, Thunderbird Zoan
 - [[Zim]] — spy / informant
+- [[B.O.B]] — scholar
+
+## Braveheart Pirates (4th Fleet sub-crew)
+
+→ *Main article: [[Braveheart Pirates]]*
+
+- [[Mira the Unbreakable]] — captain / 4th Fleet commander
+- [[Tray]], [[Thompson Caneheart]], [[Ju Lee Caneheart]], [[Malak Samum]], [[Facade]]
+
+## Blackhand executives (other fleets)
+
+- [[Droven Calligos]] — 2nd Fleet right hand ("Remnant")
+- [[Alice]] — Malphas's sister (rescued in lore fiction)
 
 ## Gentle Giant Pirates (unit)
 

@@ -13,4 +13,3 @@ Campaign items and tables (not Devil Fruits).
 - [[Inventions]]
 - [[LunaFang Serum]]
 - [[Vivre Compass]]
-

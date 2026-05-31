@@ -6,6 +6,11 @@ publish: true
 sources:
   - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Party 1/Malphas.md"
 ---
+## Visuals
+
+![[Attachments/malphas-portrait.png|Portrait]]
+![[Attachments/malphas-bounty.png|Bounty poster]]
+
 
 ## Description
 
@@ -14,6 +19,8 @@ A Lunarian man with black wings and feathers that spark with barely-contained el
 ## Role
 
 Lunarian warrior and member of the [[Lunarfolds]]. Thunder Bird Zoan user. Sails under [[Blackhand Cane]] after being rescued by [[Baptiste]] at a black-market auction.
+
+Devil Fruit: [[Tori Tori no Mi — Model Raicho]].
 
 ## Personal Quests
 

@@ -6,6 +6,10 @@ publish: true
 sources:
   - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Party 2/Players/Kalla of Shandia.md"
 ---
+## Visuals
+
+![[Attachments/kalla-portrait.png|Portrait]]
+
 
 ## Description
 

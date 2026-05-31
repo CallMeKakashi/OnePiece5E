@@ -10,6 +10,10 @@ sources:
   - "[[Sessions/Sidequests/Spider's Nest]]"
   - "[[1478-09sun [Newspaper] Grand Line Tribune — Morning]]"
 ---
+## Visuals
+
+![[Attachments/daniel-portrait.png|Portrait]]
+
 
 ## Description
 
@@ -18,6 +22,8 @@ sources:
 ## Role
 
 Navigator of the [[Spider Nest Pirates]]. Survived after [[Simon The One Armed Tyrant]] fell; allied briefly with party to destroy [[Hallow]]'s facility and free [[Chloe]].
+
+Devil Fruit: [[Koru Koru no Mi]] (Coal-Coal).
 
 ## Personal Quests
 
