@@ -42,7 +42,7 @@ Use as a **solo boss-tier** aberration (CR 10) when Nikolai deploys his heaviest
 - [[Timeline/1478/1478-12moon [Newspaper] Grand Line Tribune — Morning|Callisto collapse press]] (facility context)
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 05:42 UTC*
+*Last synced: 2026-05-31 07:07 UTC*
 
 ```statblock
 name: Aberrant Abomination
@@ -55,12 +55,13 @@ speed: walk 30 ft.
 stats: [20, 10, 18, 5, 12, 6]
 cr: 10
 traits:
+- name: Aberrant Regeneration
+  desc: Regains 20 HP at the start of its turn
+actions:
 - name: Claw
   desc: "Melee Weapon Attack: +9 to hit. Hit: 2d8 +0 slashing"
 - name: Bite
   desc: "Melee Weapon Attack: +9 to hit. Hit: 3d10 +0 piercing"
-- name: Aberrant Regeneration
-  desc: Regains 20 HP at the start of its turn
 - name: Aura of Dread
   desc: Creatures within 10 ft must succeed DC 15 WIS save or be frightened until end of next turn.
 ```
