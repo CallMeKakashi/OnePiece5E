@@ -13,6 +13,8 @@ foundry_live_slug: "farmbull"
 
 ![[Attachments/monsters/farmbull.png|Portrait]]
 
+**Look:** Lunafang **mutated bull** — deep red-maroon hide, heavy muscle, grey calloused plates on forehead and shoulders; wrong **branching antlers** atop a bovine head; charging leap pose with cloven hooves. Reads as livestock turned into a bull–stag hybrid bruiser (**Bull of Zagresh**).
+
 *Exported once from Foundry actor `bzBYmX7vWYudV17N` (`Windows-sync/Mafia Arc/token_2 (3).png`). Stats sync separately; image is vault-local.*
 
 ## Role
@@ -31,7 +33,7 @@ The farm family hid in the **barn basement**; **[[Simon The One Armed Tyrant|Sim
 - [[Dr Nikolai Tesla]] · [[LunaFang Serum]]
 - [[Simon The One Armed Tyrant]] · [[Zara Tideborn]]
 - [[Matthew -The Jack- Burgess]] · [[Tray]] · [[Midori]]
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual/index|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:58 UTC*

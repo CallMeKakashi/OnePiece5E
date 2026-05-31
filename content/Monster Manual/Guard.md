@@ -11,6 +11,8 @@ foundry_live_slug: "guard"
 
 ![[Attachments/monsters/guard.webp|Token]]
 
+**Look:** Stock **town guard** — spear and shield, light armor, helmet; interchangeable watchman or marine filler for random encounters.
+
 *Exported once from Foundry actor `wtu91Hso7gbLR3ai` (`systems/dnd5e/tokens/humanoid/Guard.webp` — stock token). Other Foundry variants: `ASlnccsDE7c1MDdg`, Tenor Guard `dN9eH9SgnDWeNOI5`.*
 
 ## Role
@@ -23,7 +25,7 @@ foundry_live_slug: "guard"
 
 ## Related
 
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual/index|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:09 UTC*

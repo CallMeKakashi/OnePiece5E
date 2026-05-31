@@ -9,7 +9,7 @@ In-character or between-session journal entries. Template: [[Journal Template]].
 
 ### By crew
 
-- [[Gentle Giant Pirates/_index|Gentle Giant Pirates]]
+- [[Gentle Giant Pirates/index|Gentle Giant Pirates]]
 
 - [[Day 2]]
 - [[Day 3]]

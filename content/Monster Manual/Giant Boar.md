@@ -11,6 +11,8 @@ foundry_live_slug: "giant-boar"
 
 ![[Attachments/monsters/giant-boar.webp|Token]]
 
+**Look:** Stock **giant boar** — massive bristled hog with oversized tusks, brown hide, and a charging quadruped stance; generic wilderness boar (not the Lunafang farm mutate).
+
 *Exported once from Foundry actor `E10F2cpzhllbb5zm` (`systems/dnd5e/tokens/beast/GiantBoar.webp` — stock token). Stats sync separately.*
 
 ## Role
@@ -23,7 +25,7 @@ foundry_live_slug: "giant-boar"
 
 ## Related
 
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual/index|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:02 UTC*

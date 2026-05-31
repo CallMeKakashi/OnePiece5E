@@ -21,6 +21,7 @@ publish: true
 		- **[[Lunarfolds]]**
 			- [[B.O.B]]
 			- [[Baptiste]]
+			- [[Bessy Jr]]
 			- [[Cade Tigor Cooper]]
 			- [[Jazmine]]
 			- [[Luu]]
@@ -142,10 +143,6 @@ publish: true
 		- **[[Frosthaven]]**
 			- [[Frosthaven NPC's]]
 		- **[[Frostwind]]**
-	- **South Blue**
-		- **Juniper Islands**
-			- **West Town**
-			- **York Town**
 	- [[Islands]]
 
 %% End Waypoint %%

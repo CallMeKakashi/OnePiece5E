@@ -11,11 +11,13 @@ foundry_live_slug: "cave-render"
 
 ![[Attachments/monsters/cave-render.png|Portrait]]
 
+**Look:** Emaciated **cave cannibal** — pale grey skin stretched over ribs; **no eyes or nose**, only a huge vertical tooth-lined maw; belly torn open showing coiled viscera; long black claws; low hunting crouch. Passes for stranded caver until it moves.
+
 *Exported once from Foundry actor `NQiGWCArGHEH7Lux` (`Windows-sync/Mafia Arc/token_6 (1).png`). Stats sync separately; image is vault-local.*
 
 ## Role
 
-**[[Dr Nikolai Tesla]]** creation — humans **bred from birth** to live in darkness (**[[Wendigo]]**-inspired), **cannibalistic**. Cover story: look like ordinary people **stranded in a cave** until they *became* these things.
+**[[Dr Nikolai Tesla]]** creation — humans **bred from birth** to live in darkness ([wendigo](https://en.wikipedia.org/wiki/Wendigo)-inspired), **cannibalistic**. Cover story: look like ordinary people **stranded in a cave** until they *became* these things.
 
 Part of Nikolai's **distraction playbook** with the **crashed airship** and **[[Monster Manual/Aberrant Abomination|Aberrant Abomination]]** / **[[Carrion Stalker|Carrion Stalkers]]** — keep the party busy so covert work on the **island** goes unnoticed.
 
@@ -29,10 +31,10 @@ Found in an **abandoned mine** near **York Town** (Juniper Islands).
 
 - [[Dr Nikolai Tesla]] — creator; distraction ops
 - [[Monster Manual/Aberrant Abomination|Aberrant Abomination]] · [[Carrion Stalker]] — paired airship distraction
-- [[Wendigo]] — design inspiration
+- [[Smiling Watcher]] — evolved aberration line (CR 3; strategizes; same mine, slain by Jack + Thompson)
 - [[Thompson Caneheart]] · [[Matthew -The Jack- Burgess]]
 - [[Sessions/Session 25 - Juniper Islands]] · [[Sessions/Session 28]]
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual/index|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:51 UTC*

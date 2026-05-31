@@ -11,6 +11,8 @@ foundry_live_slug: "berserker"
 
 ![[Attachments/monsters/berserker.webp|Token]]
 
+**Look:** Stock **bare-chested brawler** — muscular human enforcer in furs/leather, greataxe or heavy weapon; reads as hired muscle rather than a disciplined soldier (fits Nyx's Driftroot overseer).
+
 *Exported once from Foundry actor `xDMuyLj9J452tlmS` (`systems/dnd5e/tokens/humanoid/Berserker.webp` — stock token). Stats sync separately; image is vault-local.*
 
 ## Role
@@ -31,7 +33,7 @@ Use the Berserker stat block (CR 2) for similar muscle; this note tracks the Vel
 - [[Dr Nikolai Tesla]] · [[LunaFang Serum]]
 - [[Saber-Toothed Tiger]] — killer (crazed test subject)
 - [[Driftroot Isle]]
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual/index|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:42 UTC*

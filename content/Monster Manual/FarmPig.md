@@ -13,6 +13,8 @@ foundry_live_slug: "farmpig"
 
 ![[Attachments/monsters/farmpig.png|Portrait]]
 
+**Look:** Lunafang **mutated pig** grown into a spined boar — shaggy dark-brown fur, small angry eyes, curling **ivory tusks**, and a ridge of **yellow bone horns** from snout along the spine (**Dire Thornboar** silhouette).
+
 *Exported once from Foundry actor `e5oRsFiw5cfVq8Nv` (`Windows-sync/Mafia Arc/token_4 (2).png`). Stats sync separately; image is vault-local.*
 
 ## Role
@@ -32,7 +34,7 @@ Part of Nikolai's **Lunafang** pipeline on **Juniper**; Simon and Zara's cover-u
 - [[Simon The One Armed Tyrant]] · [[Zara Tideborn]]
 - [[Matthew -The Jack- Burgess]] · [[Tray]] · [[Midori]]
 - [[Sessions/Session 27]]
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual/index|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:58 UTC*

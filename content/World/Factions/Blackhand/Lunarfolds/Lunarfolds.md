@@ -20,6 +20,7 @@ The **Lunarfolds** are the player party's crew and a field unit of the [[Blackha
 - [[Merlin]] · [[Luu]] — crew (Foundry-linked)
 - [[Jazmine]] — Roma's air elemental
 - [[Pegasus]] — B.O.B's mount
+- [[Bessy Jr]] — sea-beast hermit crab (Bessie / Bessy Jr.; crew companion for now)
 
 ## Related
 

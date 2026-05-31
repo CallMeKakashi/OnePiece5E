@@ -5,7 +5,7 @@ status: draft
 
 # Monster Manual
 
-Bestiary entries only. Named NPCs live under [[World/Factions/_index|World → Factions]].
+Bestiary entries only. Named NPCs live under [[World/Factions/index|World → Factions]].
 
 ## Creatures
 
@@ -37,10 +37,8 @@ Bestiary entries only. Named NPCs live under [[World/Factions/_index|World → F
 - [[Monster Manual/Riding Horse|Riding Horse]] — `zvPyMf70zmkqde20`
 - [[Monster Manual/River Serpent|River Serpent]] — `sSr9R6GengZ7gS3h`
 - [[Monster Manual/Saber-Toothed Tiger|Saber-Toothed Tiger]] — `toEYbRwp4lPuAJEv`
-- [[Monster Manual/SeaBeast - Hermit Crab|SeaBeast - Hermit Crab]] — `npWWYPqwqWkk6L7W`
 - [[Monster Manual/Smiling Watcher|Smiling Watcher]] — `iKjeiMthyELT7MBi`
 - [[Monster Manual/Stitched Horror|Stitched Horror]] — `tsQw96LDgD9Rm8MZ`
 - [[Monster Manual/Swarm of Quippers|Swarm of Quippers]] — `pcZNIR7tNoqOt3mq`
 - [[Monster Manual/Guard|Tenor Guard]] — `dN9eH9SgnDWeNOI5`
 - [[Monster Manual/Titan Ape|Titan Ape]] — `PvH9hvb6JLUkbX2U`
-- [[Monster Manual/Wendigo|Wendigo]] — `MsWhNHCD3QEhA4W8`

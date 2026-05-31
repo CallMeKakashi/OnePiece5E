@@ -17,6 +17,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 - [[B.O.B]]
 - [[Baptiste]]
+- [[Bessy Jr]]
 - [[Cade Tigor Cooper]]
 - [[Jazmine]]
 - [[Lunarfolds]]
@@ -175,7 +176,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 ## Monster Manual
 
-**Campaign creatures and NPC stat blocks** — live Foundry sheets via [[Monster Manual/_index|Monster Manual index]].
+**Campaign creatures and NPC stat blocks** — live Foundry sheets via [[Monster Manual/index|Monster Manual index]].
 
 - [[Aberrant Abomination]]
 - [[Ashscale Basilisk]]
@@ -203,12 +204,10 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Riding Horse]]
 - [[River Serpent]]
 - [[Saber-Toothed Tiger]]
-- [[SeaBeast - Hermit Crab]]
 - [[Smiling Watcher]]
 - [[Stitched Horror]]
 - [[Swarm of Quippers]]
 - [[Titan Ape]]
-- [[Wendigo]]
 
 
 ---
@@ -264,13 +263,13 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 ## Timeline
 
-**In-world chronology** (events, newspapers, and backstory). Full index: [[Timeline/_index|Timeline]].
+**In-world chronology** (events, newspapers, and backstory). Full index: [[Timeline/index|Timeline]].
 
 ---
 
 ## Newspapers
 
-**In-fiction headlines and editions.** Full chronology: [[Timeline/_index|Timeline]].
+**In-fiction headlines and editions.** Full chronology: [[Timeline/index|Timeline]].
 
 | Note | in_world_label | publication | status |
 | --- | --- | --- | --- |
@@ -299,7 +298,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 **Table-play session notes**
 
-- [[_index]]
+- [[index]]
 - [[Aegir's Memories I]]
 - [[Blood and Lumafang]]
 - [[Episode 5 - The Mistframe]]
@@ -358,10 +357,10 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 ## Transcripts
 
-**Episode transcripts** (broadcast/recording unit). Index: [[Transcripts/_index|Transcripts]].
+**Episode transcripts** (broadcast/recording unit). Index: [[Transcripts/index|Transcripts]].
 
 ---
 
 ## Journals
 
-**In-character or between-session journal entries.** Index: [[Journals/_index|Journals]].
+**In-character or between-session journal entries.** Index: [[Journals/index|Journals]].
