@@ -1,0 +1,43 @@
+---
+type: actor
+faction: "[[Motley Crew]]"
+status: draft
+publish: true
+sources:
+  - "Old Notes/One Piece DND - Blood and Brine/Campaign 1/Player Characters/Pasha.md"
+  - "Discord/exports/character-art"
+---
+## Visuals
+
+![[Attachments/pasha-portrait.png|Portrait]]
+
+*Discord quarry: [[Discord/exports/character-art]]*
+
+
+## Description
+
+Mink race. Capable of generating natural static electricity.
+
+## Role
+
+Founding member of the [[Motley Crew]].
+
+## Personal Quests
+
+(Unknown — to be developed)
+
+## Backstory
+
+Escaped **Germa 66** after cruel experiments under **[[Dr Nikolai Tesla]]** ([[1476-01moon [Backstory] The Birth of the Motley Crew]]).
+
+## Abilities
+
+### Animal Talk
+
+All animals in this world speak a uniform language. By tapping into the primal verse, Pasha is always under the effect of Speak with Animals spell and can communicate with all beasts.
+
+### Mink Electro
+
+_Prerequisite: Mink Race_
+
+Minks can use their natural static as an attack. If you chose a mink race you may learn the cantrip Shocking Grasp.

@@ -1,8 +1,14 @@
 ---
-categories: "[[People]]"
-type:
-  - "[[Actors]]"
+type: actor
+faction: "[[]]"
+status: draft
+publish: true
 ---
-## Movies
 
-![[Movies.base#Actor]]
+## Description
+
+## Role
+
+## Personal Quests
+
+## Backstory

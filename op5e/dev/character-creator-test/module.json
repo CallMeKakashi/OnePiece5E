@@ -1,0 +1,25 @@
+{
+  "id": "op5e-character-creator-test",
+  "title": "OP5e Character Creator — Test Harness",
+  "description": "Dev-only Foundry module that stubs compendium data and validates the OP5e Character Creator wizard (Next/submit flow).",
+  "version": "0.1.0",
+  "manifest": "http://localhost:8083/module.json",
+  "download": "http://localhost:8083/op5e-character-creator-test.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "system": ["dnd5e"],
+  "authors": [
+    {
+      "name": "Blood & Brine"
+    }
+  ],
+  "esmodules": ["scripts/module.mjs"],
+  "requires": [
+    {
+      "id": "op5e",
+      "type": "module"
+    }
+  ]
+}

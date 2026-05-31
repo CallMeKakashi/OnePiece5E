@@ -1,6 +1,30 @@
 ---
+publish: true
+type: journal
+author:
+crew:
+in_world_day:
+location:
 created: {{date}}
+status: draft
 tags:
-  - note
   - journal
+sources:
+related_sessions:
 ---
+
+# {{title}}
+
+## Setting
+
+- **When:** 
+- **Where:** 
+- **Author:** 
+
+## Entry
+
+
+
+## Loose threads
+
+- 
