@@ -43,12 +43,10 @@ KEEP = {
     "Riding Horse.md",
     "River Serpent.md",
     "Saber-Toothed Tiger.md",
-    "SeaBeast - Hermit Crab.md",
     "Smiling Watcher.md",
     "Stitched Horror.md",
     "Swarm of Quippers.md",
     "Titan Ape.md",
-    "Wendigo.md",
     "_index.md",
 }
 

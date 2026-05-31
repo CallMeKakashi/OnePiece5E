@@ -14,6 +14,8 @@ aliases:
 
 ![[Attachments/monsters/hydra-goose.png|Portrait]]
 
+**Look:** **White Maw Hydra-Goose** — three long feathered goose necks from one body; beaks split open to show **rows of teeth**; raw pink **flesh tears** on the necks where Lunafang mutation burst the skin. Farmyard bird turned shrieking multi-head horror.
+
 *Exported once from Foundry actor `DbtEaQsj7oUpJO4x` (`Windows-sync/Mafia Arc/token_1 (4).png`). Foundry actor name may still read "Chicken"; vault title is **Hydra Goose**. Stats sync separately.*
 
 ## Role

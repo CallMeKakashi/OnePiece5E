@@ -11,6 +11,8 @@ foundry_live_slug: "crystalback-scorpion"
 
 ![[Attachments/monsters/crystalback-scorpion.png|Portrait]]
 
+**Look:** Low-slung **crystal-armored scorpion** — indigo carapace with glowing **cyan hexagonal** plates on claws, shoulders, and tail blade; orange slit eyes and a toothy under-mouth. Built for ceiling ambushes in dark caves (matches **Crystal Burst** throwing spines).
+
 *Exported once from Foundry actor `Utpk8zEWkpHT7uGT` (`Windows-sync/Mafia Arc/token_2 (4).png`). Stats sync separately; image is vault-local.*
 
 ## Role

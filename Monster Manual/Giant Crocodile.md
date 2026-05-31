@@ -11,6 +11,8 @@ foundry_live_slug: "giant-crocodile"
 
 ![[Attachments/monsters/giant-crocodile.webp|Token]]
 
+**Look:** Stock **giant crocodile** — long armored snout, plated back, powerful tail; swamp or river apex predator at full size.
+
 *Exported once from Foundry actor `E2L8BhFVecDOvaSB` (`systems/dnd5e/tokens/beast/GiantCrocodile.webp` — stock token). Stats sync separately.*
 
 ## Role

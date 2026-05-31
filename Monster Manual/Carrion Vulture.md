@@ -11,6 +11,8 @@ foundry_live_slug: "carrion-vulture"
 
 ![[Attachments/monsters/carrion-vulture.png|Portrait]]
 
+**Look:** Large **vulture** with stylized purple wings, bald white head, hooked beak, and a wild crest of **spiky orange-red** feathers; sharp black talons. Cave-nester silhouette — reads almost anime-bird (South Bird energy) but still a carrion predator.
+
 *Exported once from Foundry actor `qPVTftQr3q7PPElq` (`Windows-sync/Mafia Arc/token_6 (3).png`). Stats sync separately; image is vault-local.*
 
 ## Role

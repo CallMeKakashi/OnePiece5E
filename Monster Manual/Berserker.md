@@ -11,6 +11,8 @@ foundry_live_slug: "berserker"
 
 ![[Attachments/monsters/berserker.webp|Token]]
 
+**Look:** Stock **bare-chested brawler** — muscular human enforcer in furs/leather, greataxe or heavy weapon; reads as hired muscle rather than a disciplined soldier (fits Nyx's Driftroot overseer).
+
 *Exported once from Foundry actor `xDMuyLj9J452tlmS` (`systems/dnd5e/tokens/humanoid/Berserker.webp` — stock token). Stats sync separately; image is vault-local.*
 
 ## Role

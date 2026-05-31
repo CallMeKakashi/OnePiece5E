@@ -11,6 +11,8 @@ foundry_live_slug: "giant-crab"
 
 ![[Attachments/monsters/giant-crab.webp|Token]]
 
+**Look:** Stock **giant crab** — broad shell, heavy claws, mottled coastal coloring; low wide silhouette for shore or shallow-water encounters.
+
 *Exported once from Foundry actor `GnSbCLwJw8Bxd1Ag` (`systems/dnd5e/tokens/beast/GiantCrab.webp` — stock token). Stats sync separately.*
 
 ## Role
