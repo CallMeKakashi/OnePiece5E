@@ -5,7 +5,7 @@
 # GitHub Pages branch; only its `content/` tree is replaced from `planning`.
 #
 # Publish rules (matches the manual 2026-05-30 sync):
-# - Root files: `_index.md` → `index.md`, `World-Map.png`
+# - Root files: `Home.md` → `index.md`, `World-Map.png`
 # - Directories: Attachments, Journals, Rules, Sessions, Sourcebook, Timeline, Transcripts, World
 # - Excluded (Obsidian-hidden / tooling): Templates, Discord, docs, scripts, op5e, CONTEXT.md, etc.
 # - Markdown is sanitized for publish (no Discord/agent links); see sync_quartz_content.py

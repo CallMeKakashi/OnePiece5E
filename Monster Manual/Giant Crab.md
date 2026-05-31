@@ -25,7 +25,7 @@ foundry_live_slug: "giant-crab"
 
 ## Related
 
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:06 UTC*

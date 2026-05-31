@@ -35,7 +35,7 @@ foundry_live_slug: "carrion-vulture"
 - [[Ashscale Basilisk]] · [[Ravine Scylla]] — same ravine, other sections
 - [[Baptiste]] · [[Cade Tigor Cooper]] · [[Tray]]
 - [[Sessions/Session 25 - Juniper Islands]]
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:47 UTC*

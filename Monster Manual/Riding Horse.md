@@ -30,7 +30,7 @@ foundry_live_slug: "riding-horse"
 - [[Lunarfolds]] · [[Baptiste]] · [[Roma]] · [[B.O.B]]
 - [[Pegasus]] — B.O.B's separate summoned mount (not this stat block)
 - [[Sessions/Session 14 - The Decibel Decree]] · [[Sessions/Session 23 - Choice for life]]
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:31 UTC*

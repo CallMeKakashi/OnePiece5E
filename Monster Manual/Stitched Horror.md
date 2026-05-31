@@ -33,7 +33,7 @@ Deployed from the **crashed airship** as part of Nikolai's **distraction** while
 - [[Cave Render]] — parallel Nikolai distraction (York Town mine)
 - [[B.O.B]] · [[Roma]] · [[Tray]]
 - [[Dr Nikolai Tesla]] · [[Mugen Industries]]
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:41 UTC*

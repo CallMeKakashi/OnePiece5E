@@ -33,7 +33,7 @@ foundry_live_slug: "swarm-of-quippers"
 - [[Malphas]] · [[Shako]] — players sent on the trial
 - [[Giant Crab]] — suction-crab encounter 2 in the same sidequest (separate stat)
 - [[Giant Boar]] — baby sea cow boss reskin in the same sidequest
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:42 UTC*

@@ -33,7 +33,7 @@ The farm family hid in the **barn basement**; **[[Simon The One Armed Tyrant|Sim
 - [[Dr Nikolai Tesla]] · [[LunaFang Serum]]
 - [[Simon The One Armed Tyrant]] · [[Zara Tideborn]]
 - [[Matthew -The Jack- Burgess]] · [[Tray]] · [[Midori]]
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:58 UTC*

@@ -10,6 +10,6 @@ Modular adventure prep (not numbered table sessions).
 ```dataview
 LIST
 FROM "Sessions/Sidequests"
-WHERE file.name != "_index"
+WHERE file.name != "Home"
 SORT file.name ASC
 ```

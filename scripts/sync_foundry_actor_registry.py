@@ -251,7 +251,7 @@ Campaign monster manual entry. Live stats: `python scripts/sync_foundry_live_mar
 
 ## Related
 
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 """
     path.write_text(body, encoding="utf-8")
     return path
@@ -313,7 +313,7 @@ def main() -> int:
         "",
         "# Monster Manual",
         "",
-        "Bestiary entries only. Named NPCs live under [[World/Factions/_index|World → Factions]].",
+        "Bestiary entries only. Named NPCs live under [[World/World|World → Factions]].",
         "",
         "## Creatures",
         "",
@@ -323,7 +323,7 @@ def main() -> int:
         note = e["vault"].replace(".md", "")
         lines.append(f"- [[{note}|{title}]] — `{e['id']}`")
 
-    (MONSTER_DIR / "_index.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (MONSTER_DIR / "Monster Manual.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     unlinked = [e for e in report if not e.get("vault")]
     print(

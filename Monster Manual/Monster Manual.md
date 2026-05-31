@@ -5,7 +5,7 @@ status: draft
 
 # Monster Manual
 
-Bestiary entries only. Named NPCs live under [[World/Factions/_index|World → Factions]].
+Bestiary entries only. Named NPCs live under [[World/World|World → Factions]].
 
 ## Creatures
 

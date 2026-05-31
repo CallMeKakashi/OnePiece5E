@@ -13,6 +13,7 @@ How the vault file explorer is trimmed for campaign prep without breaking templa
 | Foundry bridge | `Foundry/` hidden in explorer — see [[Foundry/_index]] |
 | Foundry modules | `op5e/`, `op5e-compendium/` hidden (VTT code, not campaign lore) |
 | Full vault ignore | **Not used** — avoids side effects on templating, sync, publish |
+| Folder MOCs (Tier 1) | **`{Folder}/{Folder}.md`** — e.g. `Monster Manual/Monster Manual.md`, `Home.md` at vault root. Avoid `_index.md` in campaign folders; Obsidian folder-note plugins show that filename as `_index` in the sidebar instead of the folder name. Tier-2 hubs (`Templates/_index`, etc.) stay hidden in explorer. |
 
 ## Hidden folders
 
@@ -40,7 +41,7 @@ Publishable content is synced to the Quartz `v4` branch via [[../scripts/sync_qu
 - **Snippet:** `.obsidian/snippets/hide-infrastructure-folders.css`
 - **Enabled in:** `.obsidian/appearance.json`
 - **Template hub:** [[Templates/_index]]
-- **Campaign hub:** [[_index]]
+- **Campaign hub:** [[Home]]
 - **Editor / tooling:** [[editor-hub]]
 
 Plugin paths (unchanged by hiding):
@@ -70,9 +71,26 @@ Workshop build templates (`foundry_template_json`) are separate; refresh with `p
 ## One-time setup (you)
 
 1. **Enable the snippet:** **Settings → Appearance → CSS snippets** → turn **on** `hide-infrastructure-folders` (reload the list if it does not appear).
-2. Reload Obsidian (Ctrl+R) or toggle the snippet off and on.
-3. Open [[Templates/_index]].
-4. **Bookmark** that note (right-click → Bookmark — or command palette → Bookmark).
+2. **ITS Theme + TTRPG look:** **Settings → Appearance → Themes** → select **ITS Theme** (vault default in `.obsidian/appearance.json`). Requires **Style Settings** plugin — **ITS Theme → Alternate Color Schemes → TTRPG** (vault default: **WOTC/Beyond**). Reload Obsidian (**Ctrl+R**) after changing theme.
+3. **Fantasy Statblocks:** With **obsidian-5e-statblocks**, enable **Style Settings → ITS Theme → 3rd Party Plugins → Disable ITS Styled Statblocks** (vault default on) so plugin statblocks render correctly.
+4. Reload Obsidian (Ctrl+R) or toggle the snippet off and on.
+5. Open [[Home]] (campaign hub) and [[Templates/_index]].
+6. **Bookmark** that note (right-click → Bookmark — or command palette → Bookmark).
+
+### ITS Theme not applying?
+
+- Confirm **Appearance → Themes** shows **ITS Theme** active (not Obsidian / Moonstone).
+- Confirm **Style Settings → ITS Theme → ITS Theme Class** is on, and **TTRPG** is not set to empty.
+- Community theme files live in `.obsidian/themes/ITS Theme/` (gitignored — reinstall via **Browse community themes** if the folder is missing).
+- **Ctrl+R** reload after theme or Style Settings changes.
+
+### Sidebar shows `_index` instead of folder names?
+
+Campaign folders used `_index.md` as the map-of-content file. Folder-note behavior (Waypoint / Folder Notes / similar) displays the **index filename** in the file tree, so you see four `_index` folders instead of **Monster Manual**, **Journals**, etc.
+
+**Fix (vault convention):** Tier-1 MOCs are now **`{Folder}/{Folder}.md`** plus root **`Home.md`**. Reload Obsidian (**Ctrl+R**). You should see **Home**, **Journals**, **Monster Manual**, **Rules**, **Sessions**, **Sourcebook**, **Timeline**, **Transcripts**, **World**.
+
+If a plugin still collapses folders into index notes, set **Waypoint → Folder Note Style → Folder Name Inside** (saved in `.obsidian/plugins/waypoint/data.json`).
 
 ### Snippet not working?
 

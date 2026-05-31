@@ -30,7 +30,7 @@ The family does not know about the crew except **[[Whisky Guiseppi]]**, who keep
 - [[Gin Guiseppi]] — captain; [[Kobu Kobu no Mi]] (pump / firepower)
 - [[Whisky Guiseppi]] — only sibling who knows about the crew
 - [[Guiseppi Family]] · [[Mafia Grunt]] — family muscle vs Gin's rogue sailors
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:21 UTC*

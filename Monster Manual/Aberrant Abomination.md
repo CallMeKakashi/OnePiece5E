@@ -38,7 +38,7 @@ Use as a **solo boss-tier** aberration (CR 10) when Nikolai deploys his heaviest
 - [[RyeNera]] — earlier two-human amalgam (prototype)
 - [[Mugen Industries]]
 - [[Hallow]] — Callisto facility; Nikolai's work also tied to that site
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 - [[Timeline/1478/1478-12moon [Newspaper] Grand Line Tribune — Morning|Callisto collapse press]] (facility context)
 ## Live sheet (Foundry)
 

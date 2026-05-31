@@ -30,7 +30,7 @@ Demon-faced, **bloodthirsty** predators with almost no **survival instinct** bey
 
 - [[Carrion Vulture]] · [[Crystalback Scorpion]] — predators
 - [[Ashscale Basilisk]] · [[Ravine Scylla]]
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 
 ## Live sheet (Foundry)
 

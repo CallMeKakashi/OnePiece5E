@@ -8,7 +8,7 @@ Campaign Discord server channels exported to `Discord/exports/` for vault quarri
 
 | Channel | ID | Export | Purpose |
 |---------|-----|--------|---------|
-| `#world-lore` | `1382564722293080124` | [[Discord/exports/world-lore|world-lore]] | In-world headlines and reactions to PC actions — quarry for [[Timeline/_index|Timeline]] newspapers |
+| `#world-lore` | `1382564722293080124` | [[Discord/exports/world-lore|world-lore]] | In-world headlines and reactions to PC actions — quarry for [[Timeline|Timeline]] newspapers |
 | `#downtime-actions` | `1382564699228606474` | [[Discord/exports/downtime-actions|downtime-actions]] | Between-session character actions and downtime narration |
 
 ## Campaign reference
@@ -31,5 +31,5 @@ Thorough pass: portrait/bounty images in `Attachments/`; **25 actor pages** unde
 
 ## Related
 
-- [[Timeline/_index|Timeline]] — newspapers often sourced from `#world-lore`
+- [[Timeline|Timeline]] — newspapers often sourced from `#world-lore`
 - [[docs/obsidian-setup|Obsidian setup]] — `Discord/` hidden in explorer (search and links still work)

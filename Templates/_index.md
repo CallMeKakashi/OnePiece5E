@@ -19,7 +19,7 @@ Curated templates for Blood & Brine. The `Templates/` folder is hidden in the fi
 These paths are set in `.obsidian/*.json`; hiding `Templates/` does not disable them.
 
 - [[Daily Note Template]] — Daily notes plugin → `Daily/`
-- [[Journal Template]] — `Journals/` (in-character logs; see [[Journals/_index]])
+- [[Journal Template]] — `Journals/` (in-character logs; see [[Journals]])
 
 ## Other templates
 

@@ -34,7 +34,7 @@ foundry_live_slug: "saber-toothed-tiger"
 - [[Berserker]] · [[Dr Nikolai Tesla]] · [[LunaFang Serum]] — Driftroot experimental cat (separate incident)
 - [[Panther]] — generic wild cat stat (unused)
 - [[Transcripts/Episode 18 - Gentle Giant Pirates]] · [[Sessions/Session 25]]
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:37 UTC*

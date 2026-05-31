@@ -34,7 +34,7 @@ Part of the **York Town abandoned mine** distraction (Juniper Islands) alongside
 - [[Thompson Caneheart]] · [[Matthew -The Jack- Burgess]] — slayers (both tiers)
 - [[Monster Manual/Aberrant Abomination|Aberrant Abomination]] · [[Carrion Stalker]] — parallel Nikolai distractions
 - [[Sessions/Session 25 - Juniper Islands]] · [[Sessions/Session 28]]
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:40 UTC*

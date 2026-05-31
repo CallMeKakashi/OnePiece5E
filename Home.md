@@ -124,12 +124,12 @@ FROM "World/Factions/Unaffiliated"
 
 ## Monster Manual
 
-**Campaign creatures and NPC stat blocks** — live Foundry sheets via [[Monster Manual/_index|Monster Manual index]].
+**Campaign creatures and NPC stat blocks** — live Foundry sheets via [[Monster Manual|Monster Manual index]].
 
 ```dataview
 LIST
 FROM "Monster Manual"
-WHERE file.name != "_index"
+WHERE file.name != "Home"
 SORT file.name ASC
 ```
 
@@ -165,13 +165,13 @@ WHERE file.folder = "World"
 
 ## Timeline
 
-**In-world chronology** (events, newspapers, and backstory). Full index: [[Timeline/_index|Timeline]].
+**In-world chronology** (events, newspapers, and backstory). Full index: [[Timeline|Timeline]].
 
 ---
 
 ## Newspapers
 
-**In-fiction headlines and editions.** Full chronology: [[Timeline/_index|Timeline]].
+**In-fiction headlines and editions.** Full chronology: [[Timeline|Timeline]].
 
 ```dataview
 TABLE in_world_label, publication, status
@@ -207,10 +207,10 @@ FROM "Sessions"
 
 ## Transcripts
 
-**Episode transcripts** (broadcast/recording unit). Index: [[Transcripts/_index|Transcripts]].
+**Episode transcripts** (broadcast/recording unit). Index: [[Transcripts|Transcripts]].
 
 ---
 
 ## Journals
 
-**In-character or between-session journal entries.** Index: [[Journals/_index|Journals]].
+**In-character or between-session journal entries.** Index: [[Journals|Journals]].

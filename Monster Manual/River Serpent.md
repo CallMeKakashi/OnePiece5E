@@ -33,7 +33,7 @@ foundry_live_slug: "river-serpent"
 - [[Ashscale Basilisk]] · [[Crystalback Scorpion]] · [[Lamprey Horror]] · [[Carrion Vulture]] — same ravine ecology (less intelligent prey/competition)
 - [[Matthew -The Jack- Burgess]] · [[B.O.B]] · [[Daniel (Spider's Nest)]]
 - [[Sessions/Session 25 - Juniper Islands]] · [[Sessions/Session 28]]
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:33 UTC*

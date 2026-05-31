@@ -31,7 +31,7 @@ foundry_live_slug: "ravine-scylla"
 - [[Titan Ape]] — crazed bear-monster in the largest chamber (hibernating; party not met yet)
 - [[Matthew -The Jack- Burgess]] · [[B.O.B]] · [[Daniel (Spider's Nest)]]
 - [[Sessions/Session 25 - Juniper Islands]] · [[Sessions/Session 28]]
-- [[Monster Manual/_index|Monster Manual]]
+- [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:42 UTC*
