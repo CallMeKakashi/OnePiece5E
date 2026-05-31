@@ -1,0 +1,151 @@
+---
+publish: true
+---
+
+%% Begin Waypoint %%
+- **Factions**
+	- **[[Aegir]]**
+		- [[Aegir (Control)]]
+		- [[Aegir (Dominian)]]
+	- **[[Blackhand]]**
+		- **[[Braveheart Pirates]]**
+			- [[Facade]]
+			- [[Homunculus Servant]]
+			- [[Ju Lee Caneheart]]
+			- [[Malak Samum]]
+			- [[Thompson Caneheart]]
+		- **[[Gentle Giant Pirates]]**
+			- [[Dravos]]
+			- [[Kalla of Shandia]]
+			- [[Shako]]
+		- **[[Lunarfolds]]**
+			- [[B.O.B]]
+			- [[Baptiste]]
+			- [[Cade Tigor Cooper]]
+			- [[Jazmine]]
+			- [[Luu]]
+			- [[Malphas]]
+			- [[Merlin]]
+			- [[Pegasus]]
+			- [[Roma]]
+			- [[Zim]]
+		- [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”]]
+		- [[🎶 Red — “The Songbird of the Black Comet”]]
+		- [[🦾 Saplea D. Isla — “Dreadnaught”]]
+		- [[Alice]]
+		- [[Baptiste (Blackhand unit)]]
+		- [[Blackhand (Cyber)]]
+		- [[Blackhand Cane]]
+		- [[Droven Calligos]]
+		- [[Mira the Unbreakable]]
+		- [[Morley]]
+		- [[Renzo]]
+		- [[Tray]]
+	- **[[Decibella Revolutionary]]**
+		- [[Cadence]]
+		- [[Riff Sin]]
+		- [[Sloan]]
+	- **[[Guiseppi Family]]**
+		- [[Brandy Guiseppi]]
+		- [[Gin Guiseppi]]
+		- [[Midori]]
+		- [[Rhum Guiseppi]]
+		- [[Rum Guiseppi]]
+		- [[Tequila Guiseppi]]
+		- [[Vodka Guiseppi]]
+		- [[Whisky Guiseppi]]
+	- **[[High Roost Pirates]]**
+		- [[Jack S. Parrow]]
+	- **Marines**
+		- [[Calder Voss]]
+		- [[Commander Leon]]
+		- [[Delaroth]]
+		- [[Dr Nikolai Tesla]]
+		- [[Drez Crown, Captain of G-45]]
+		- [[Graff Bolt]]
+		- [[Melina Celeste]]
+		- [[Obsidian]]
+		- [[Sir Can Veil]]
+	- **[[Motley Crew]]**
+		- [[Aralia]]
+		- [[Astor]]
+		- [[Linus Marrow]]
+		- [[Pasha]]
+		- [[Rias Decibel]]
+		- [[Ronan]]
+	- **[[Mugen Industries]]**
+		- [[Hallow]]
+		- [[RyeNera]]
+	- **[[Royal Flush Gang]]**
+		- [[Arno Capone]]
+		- [[King]]
+		- [[Matthew -The Jack- Burgess]]
+		- [[Queen]]
+	- **[[Sand Rats]]**
+		- [[Tariq Solen]]
+	- **[[Shadow Guild]]**
+		- [[Vesper]]
+	- **[[Sharkfin Pirates]]**
+		- [[Irik -Two-Tide- Fen]]
+		- [[Joe -Mitchblade- Mitch]]
+		- [[Rolan -Redwake- Marris]]
+		- [[Saeva -Longcast- Virell]]
+	- **[[Sixfold]]**
+		- [[Cline The Plague]]
+		- [[Liz]]
+		- [[Serica Corven]]
+		- [[Veyl Corven]]
+		- [[Vireth]]
+	- **[[Soundless 5]]**
+		- [[Baron Woofer]]
+		- [[Chuckles]]
+		- [[Echo Spy]]
+		- [[Giggles]]
+		- [[Lady Soefra Anthem]]
+		- [[Mezzo Troop]]
+		- [[Rhythm Echo]]
+		- [[Snickers]]
+		- [[Synth]]
+		- [[Wheeze]]
+	- **[[Spider Nest Pirates]]**
+		- [[Ben]]
+		- [[Chloe]]
+		- [[Daniel]]
+		- [[Simon The One Armed Tyrant]]
+		- [[Zara Tideborn]]
+	- **[[Tremor]]**
+		- [[Bass Tremor]]
+	- **Unaffiliated**
+		- [[Kara -Many-Eyes- Kagemi]]
+		- [[Maro -Powderflash- Kel]]
+		- [[Sora]]
+	- **[[Unknown]]**
+		- [[Coda]]
+		- [[Luna Bass]]
+		- [[Luna Coda]]
+	- **[[Velencruz]]**
+		- [[Morrow]]
+- **[[World Map]]**
+	- **East Blue**
+		- **[[Ambercrest]]**
+			- [[Kirro King]]
+		- **[[Driftroot Isle]]**
+			- [[🗡️ Goru Yamashita (formerly Goru Valencruz)]]
+		- **[[Spirit Cliff]]**
+			- [[Bramble]]
+			- [[Lucien]]
+			- [[The Black Ledger of Director Halward Lynne]]
+			- [[Worgoman Bank]]
+	- **Grand Line**
+		- **[[Decibella Kingdom]]**
+	- **North Blue**
+		- **[[Frosthaven]]**
+			- [[Frosthaven NPC's]]
+		- **[[Frostwind]]**
+	- **South Blue**
+		- **Juniper Islands**
+			- **West Town**
+			- **York Town**
+	- [[Islands]]
+
+%% End Waypoint %%

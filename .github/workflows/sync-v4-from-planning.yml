@@ -1,0 +1,76 @@
+# Sync publishable vault content from `planning` into the orphan `v4` Quartz branch.
+#
+# Strategy: content copy, not git merge.
+# `planning` and `v4` have unrelated histories (no merge-base). `v4` is the Quartz
+# GitHub Pages branch; only its `content/` tree is replaced from `planning`.
+#
+# Publish rules (matches the manual 2026-05-30 sync):
+# - Root files: `_index.md`, `World-Map.png`
+# - Directories: Attachments, Journals, Rules, Sessions, Sourcebook, Timeline, Transcripts, World
+# - Excluded (Obsidian-hidden / tooling): Templates, Discord, docs, scripts, op5e, CONTEXT.md, etc.
+# - Markdown is sanitized for publish (no Discord/agent links); see sync_quartz_content.py
+# - Markdown requires frontmatter `publish: true`; non-markdown files are copied as-is
+#
+# Pushes from GITHUB_TOKEN do not trigger other workflows, so we dispatch deploy.yaml
+# on `v4` after each content sync (deploy.yaml must expose workflow_dispatch).
+# Dependabot targets `v4` npm/actions PRs only; this workflow touches `content/` only.
+
+name: Sync v4 from planning
+
+on:
+  push:
+    branches:
+      - planning
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: sync-v4-from-planning
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    if: ${{ !contains(github.event.head_commit.message, '[skip v4 sync]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout planning
+        uses: actions/checkout@v4
+        with:
+          ref: planning
+          path: planning
+
+      - name: Checkout v4
+        uses: actions/checkout@v4
+        with:
+          ref: v4
+          path: v4
+          fetch-depth: 0
+
+      - name: Sync publishable content into v4/content
+        run: python3 planning/scripts/sync_quartz_content.py planning v4
+
+      - name: Commit and push v4
+        working-directory: v4
+        env:
+          COMMIT_MESSAGE: Sync Quartz content from planning for GitHub Pages.
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- content; then
+            echo "No content changes to publish on v4."
+            exit 0
+          fi
+
+          git add content
+          git commit -m "$COMMIT_MESSAGE"
+          git push origin HEAD:v4
+
+      - name: Deploy Quartz site to GitHub Pages
+        working-directory: planning
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run "Deploy Quartz site to GitHub Pages" --ref v4

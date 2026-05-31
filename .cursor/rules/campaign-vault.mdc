@@ -1,0 +1,19 @@
+---
+description: Blood & Brine campaign vault — read order, folder tiers, read-only default
+alwaysApply: true
+---
+
+# Blood & Brine campaign vault
+
+Read before acting:
+
+1. `CONTEXT.md` — domain glossary (Session vs Episode, Character vs Crew vs Party NPC)
+2. `docs/agents/CORE.md` — operational rules
+3. `_index.md` — campaign hub
+
+## Rules
+
+- **Read-only by default** — no create/edit/delete/rename/move without explicit user approval.
+- **Tier 1** (campaign-primary): `Sessions/`, `Transcripts/`, `Timeline/`, `World/`, `Characters/`, `Crew/`, `Party NPC's/`, `Journals/`, `Rules/`, `Sourcebook/`, `Attachments/`
+- **Tier 2** (ignore unless asked): `Categories/`, `Clippings/`, `References/`, `Notes/`, `Templates/`
+- Session numbers and episode numbers may diverge — match by title, not number alone.

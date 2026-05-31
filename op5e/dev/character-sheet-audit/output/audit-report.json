@@ -1,0 +1,559 @@
+{
+  "generatedAt": "2026-05-30T06:32:42.625Z",
+  "mode": "static-data-audit",
+  "note": "Phase 1 bar: ItemGrants, @scale, uses.max, granted weapons, attack activities. Phase 2 backlog: DAE passives (Unarmored Defense, Expertise, etc.). Phase 2b: tracked passive checklist (phase2bStatus). Does not execute Foundry AdvancementManager.",
+  "builds": [
+    {
+      "buildId": "fighter-champion-captain",
+      "pass": true,
+      "levels": {
+        "1": {
+          "pass": true,
+          "expectedItemCount": 8,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "5": {
+          "pass": true,
+          "expectedItemCount": 12,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "10": {
+          "pass": true,
+          "expectedItemCount": 15,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "15": {
+          "pass": true,
+          "expectedItemCount": 16,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "20": {
+          "pass": true,
+          "expectedItemCount": 17,
+          "brokenUuids": [],
+          "issues": []
+        }
+      },
+      "summary": {
+        "errors": 0,
+        "warnings": 0,
+        "textOnlyCount": 0
+      }
+    },
+    {
+      "buildId": "rogue-assassin-archaeologist-navigator",
+      "pass": true,
+      "levels": {
+        "1": {
+          "pass": true,
+          "expectedItemCount": 19,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "5": {
+          "pass": true,
+          "expectedItemCount": 25,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "10": {
+          "pass": true,
+          "expectedItemCount": 29,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "15": {
+          "pass": true,
+          "expectedItemCount": 34,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "20": {
+          "pass": true,
+          "expectedItemCount": 37,
+          "brokenUuids": [],
+          "issues": []
+        }
+      },
+      "summary": {
+        "errors": 0,
+        "warnings": 0,
+        "textOnlyCount": 0
+      }
+    },
+    {
+      "buildId": "barbarian-berserker-helmsman",
+      "pass": true,
+      "levels": {
+        "1": {
+          "pass": true,
+          "expectedItemCount": 8,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "5": {
+          "pass": true,
+          "expectedItemCount": 14,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "10": {
+          "pass": true,
+          "expectedItemCount": 20,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "15": {
+          "pass": true,
+          "expectedItemCount": 23,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "20": {
+          "pass": true,
+          "expectedItemCount": 25,
+          "brokenUuids": [],
+          "issues": []
+        }
+      },
+      "summary": {
+        "errors": 0,
+        "warnings": 0,
+        "textOnlyCount": 0
+      }
+    },
+    {
+      "buildId": "bard-lore-author-cook",
+      "pass": true,
+      "levels": {
+        "1": {
+          "pass": true,
+          "expectedItemCount": 9,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "5": {
+          "pass": true,
+          "expectedItemCount": 15,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "10": {
+          "pass": true,
+          "expectedItemCount": 21,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "15": {
+          "pass": true,
+          "expectedItemCount": 24,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "20": {
+          "pass": true,
+          "expectedItemCount": 26,
+          "brokenUuids": [],
+          "issues": []
+        }
+      },
+      "summary": {
+        "errors": 0,
+        "warnings": 0,
+        "textOnlyCount": 0
+      }
+    },
+    {
+      "buildId": "brawler-open-hand-acrobat",
+      "pass": true,
+      "levels": {
+        "1": {
+          "pass": true,
+          "expectedItemCount": 11,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "5": {
+          "pass": true,
+          "expectedItemCount": 18,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "10": {
+          "pass": true,
+          "expectedItemCount": 22,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "15": {
+          "pass": true,
+          "expectedItemCount": 26,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "20": {
+          "pass": true,
+          "expectedItemCount": 29,
+          "brokenUuids": [],
+          "issues": []
+        }
+      },
+      "summary": {
+        "errors": 0,
+        "warnings": 0,
+        "textOnlyCount": 0
+      }
+    },
+    {
+      "buildId": "marksman-sniper-master-at-arms",
+      "pass": true,
+      "levels": {
+        "1": {
+          "pass": true,
+          "expectedItemCount": 10,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "5": {
+          "pass": true,
+          "expectedItemCount": 17,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "10": {
+          "pass": true,
+          "expectedItemCount": 23,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "15": {
+          "pass": true,
+          "expectedItemCount": 26,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "20": {
+          "pass": true,
+          "expectedItemCount": 28,
+          "brokenUuids": [],
+          "issues": []
+        }
+      },
+      "summary": {
+        "errors": 0,
+        "warnings": 0,
+        "textOnlyCount": 0
+      }
+    },
+    {
+      "buildId": "gadgeteer-alchemist-scholar",
+      "pass": true,
+      "levels": {
+        "1": {
+          "pass": true,
+          "expectedItemCount": 12,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "5": {
+          "pass": true,
+          "expectedItemCount": 17,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "10": {
+          "pass": true,
+          "expectedItemCount": 21,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "15": {
+          "pass": true,
+          "expectedItemCount": 25,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "20": {
+          "pass": true,
+          "expectedItemCount": 27,
+          "brokenUuids": [],
+          "issues": []
+        }
+      },
+      "summary": {
+        "errors": 0,
+        "warnings": 0,
+        "textOnlyCount": 0
+      }
+    },
+    {
+      "buildId": "medic-bio-engineer-mutant",
+      "pass": true,
+      "levels": {
+        "1": {
+          "pass": true,
+          "expectedItemCount": 9,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "5": {
+          "pass": true,
+          "expectedItemCount": 13,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "10": {
+          "pass": true,
+          "expectedItemCount": 16,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "15": {
+          "pass": true,
+          "expectedItemCount": 17,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "20": {
+          "pass": true,
+          "expectedItemCount": 20,
+          "brokenUuids": [],
+          "issues": []
+        }
+      },
+      "summary": {
+        "errors": 0,
+        "warnings": 0,
+        "textOnlyCount": 0
+      }
+    },
+    {
+      "buildId": "savant-burning-six-powers",
+      "pass": true,
+      "levels": {
+        "1": {
+          "pass": true,
+          "expectedItemCount": 7,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "5": {
+          "pass": true,
+          "expectedItemCount": 11,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "10": {
+          "pass": true,
+          "expectedItemCount": 14,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "15": {
+          "pass": true,
+          "expectedItemCount": 17,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "20": {
+          "pass": true,
+          "expectedItemCount": 19,
+          "brokenUuids": [],
+          "issues": []
+        }
+      },
+      "summary": {
+        "errors": 0,
+        "warnings": 0,
+        "textOnlyCount": 0
+      }
+    },
+    {
+      "buildId": "npc-fighter-champion-minimal",
+      "pass": true,
+      "levels": {
+        "1": {
+          "pass": true,
+          "expectedItemCount": 5,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "5": {
+          "pass": true,
+          "expectedItemCount": 9,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "10": {
+          "pass": true,
+          "expectedItemCount": 12,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "15": {
+          "pass": true,
+          "expectedItemCount": 13,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "20": {
+          "pass": true,
+          "expectedItemCount": 14,
+          "brokenUuids": [],
+          "issues": []
+        }
+      },
+      "summary": {
+        "errors": 0,
+        "warnings": 0,
+        "textOnlyCount": 0
+      }
+    },
+    {
+      "buildId": "medic-field-surgeon-shipwright",
+      "pass": true,
+      "levels": {
+        "1": {
+          "pass": true,
+          "expectedItemCount": 7,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "5": {
+          "pass": true,
+          "expectedItemCount": 11,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "10": {
+          "pass": true,
+          "expectedItemCount": 15,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "15": {
+          "pass": true,
+          "expectedItemCount": 16,
+          "brokenUuids": [],
+          "issues": []
+        },
+        "20": {
+          "pass": true,
+          "expectedItemCount": 19,
+          "brokenUuids": [],
+          "issues": []
+        }
+      },
+      "summary": {
+        "errors": 0,
+        "warnings": 0,
+        "textOnlyCount": 0
+      }
+    }
+  ],
+  "masterGaps": [],
+  "phase2Backlog": [],
+  "phase2bStatus": {
+    "Diamond Soul": {
+      "status": "partial",
+      "wiring": "DAE addBonus on con/int/wis/cha save proficiency (str/dex from class L1)",
+      "reason": "Spirit-point save reroll on failure needs custom module — no stock DAE"
+    },
+    "Danger Sense": {
+      "status": "partial",
+      "wiring": "Reaction activation for rage redirect; chatFlavor documents conditional Dex-save advantage",
+      "reason": "Conditional Dex-save advantage vs visible effects — no stock DAE; apply manually"
+    },
+    "Combat Medicine": {
+      "status": "partial",
+      "wiring": "Natural armor DAE; bonus-action heal/temphp on Combat Medicine item (4×level + WIS); shares EM use pool",
+      "reason": "Enhancement swap + shared use sync with base EM item need custom module"
+    },
+    "Brutal Critical": {
+      "status": "wired",
+      "wiring": "chatFlavor references @scale.barbarian.brutal-critical (roll-time; informational on sheet)"
+    },
+    "Extra Attack": {
+      "status": "wired",
+      "wiring": "Fighter chatFlavor references @scale.fighter.extra-attack (Attack action rule; informational)"
+    },
+    "Expertise": {
+      "status": "wired",
+      "wiring": "Trait advancement mode: expertise on rogue/bard class"
+    },
+    "Unarmored Movement Improvement": {
+      "status": "deferred",
+      "reason": "Vertical-surface movement — no clean DAE; narrative only"
+    },
+    "Perfected Subject": {
+      "status": "deferred",
+      "reason": "Test Subject companion autonomy — requires companion actor module"
+    },
+    "Quick On The Draw": {
+      "status": "wired",
+      "wiring": "flags.dnd5e.initiativeAdv DAE"
+    }
+  },
+  "classScaleSummary": {
+    "fighter": {
+      "missing": [],
+      "unused": []
+    },
+    "rogue": {
+      "missing": [],
+      "unused": []
+    },
+    "barbarian": {
+      "missing": [],
+      "unused": []
+    },
+    "bard": {
+      "missing": [],
+      "unused": []
+    },
+    "brawler": {
+      "missing": [],
+      "unused": []
+    },
+    "marksman": {
+      "missing": [],
+      "unused": []
+    },
+    "gadgeteer": {
+      "missing": [],
+      "unused": [
+        "mods-active",
+        "mods-known",
+        "tricks-known"
+      ]
+    },
+    "medic": {
+      "missing": [],
+      "unused": [
+        "tricks-known"
+      ]
+    },
+    "savant": {
+      "missing": [],
+      "unused": []
+    }
+  },
+  "stats": {
+    "buildsPassed": 11,
+    "buildsFailed": 0,
+    "totalErrors": 0,
+    "totalWarnings": 0,
+    "phase1Errors": 0,
+    "phase1Warnings": 0,
+    "phase2Count": 0,
+    "phase2bWired": 4,
+    "phase2bPartial": 3,
+    "phase2bDeferred": 2,
+    "narrativeCount": 0,
+    "casterProgressionCount": 0
+  }
+}
