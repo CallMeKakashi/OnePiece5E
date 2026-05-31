@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 9
 title: "The Lunarfold Tournament Part 2"
@@ -12,15 +13,15 @@ sources:
 
 ## Extracted
 
-> Speech-to-text: Bob → [[Malphas]]; Roman/Roma/Robo → [[Roma]]; mouth/Malfiss/melphus → [[Malphas]]; veil/Will/Whale/wail → [[Veyl Corvine]]; Serika/cerca/circle/Cerebral/Sarika → [[Cerica Corvine]]; viris/Viris → **Vireth** (Sixfold; no vault stub yet); faster → unclear (old friend?).
+> Speech-to-text: Bob → [[Malphas]]; Roman/Roma/Robo → [[Roma]]; mouth/Malfiss/melphus → [[Malphas]]; veil/Will/Whale/wail → [[Veyl Corven]]; Serika/cerca/circle/Cerebral/Sarika → [[Serica Corven]]; viris/Viris → **Vireth** (Sixfold; no vault stub yet); faster → unclear (old friend?).
 
 ### Summary
 
-- **Tournament day 2:** [[Malphas]] hides from [[Roma]] (cabinet); Roma KO's Malphas (skillet); [[Baptiste]] vs [[Veyl Corvine]] — Baptiste wins (wing slam through deck); **[[Malphas]] tournament champion** (final standing fight).
-- **Final rankings:** [[Baptiste]] → [[Malphas]] → [[Veyl Corvine]] → [[Cerica Corvine]] → [[Roma]] → Bob last.
+- **Tournament day 2:** [[Malphas]] hides from [[Roma]] (cabinet); Roma KO's Malphas (skillet); [[Baptiste]] vs [[Veyl Corven]] — Baptiste wins (wing slam through deck); **[[Malphas]] tournament champion** (final standing fight).
+- **Final rankings:** [[Baptiste]] → [[Malphas]] → [[Veyl Corven]] → [[Serica Corven]] → [[Roma]] → Bob last.
 - **Sea rescue:** woman ~20, black clothes, pulled from log — claims merchant capsized en route to **Loguetown**; reacts to **Vireth**; informant with **blank notebook**; caged on Spider's Nest ship.
 - **Journal trade:** party gives G-45 **journal**, blueprints, shipment ledgers for intel — Vireth last seen North Blue → South Blue near marine outpost; **[[Liz Marrow]]** named; journal later **blank** to readers (decoy / enchantment?).
-- **Interrogation:** Roma skillet threats; [[Veyl Corvine]] violence; detect thoughts — needs to "save After" (surface thought); released after accompaniment intel (besides Liz).
+- **Interrogation:** Roma skillet threats; [[Veyl Corven]] violence; detect thoughts — needs to "save After" (surface thought); released after accompaniment intel (besides Liz).
 - **Meta:** DM teases **World Economy Journal** newspapers; [[Red]] / [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] side stories; next island restock → leads to [[Episode 10 - Sea of Nightmares]] (Daniel betrays).
 
 ### People (links)
@@ -28,7 +29,7 @@ sources:
 | Role | Note |
 |------|------|
 | PCs | [[Malphas]], [[Roma]], [[Baptiste]] |
-| Sixfold | [[Veyl Corvine]], [[Cerica Corvine]] |
+| Sixfold | [[Veyl Corven]], [[Serica Corven]] |
 | Spider's Nest | [[Daniel (Spider's Nest)]], [[Ben (Spider's Nest)]], [[Chloe (Spider's Nest)]] |
 | New | [[Informant (Loguetown)]] (name unclear in STT) |
 

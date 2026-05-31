@@ -6,7 +6,9 @@
 #
 # Publish rules (matches the manual 2026-05-30 sync):
 # - Root files: `_index.md`, `World-Map.png`
-# - Directories: Attachments, Rules, Sessions, Templates, Timeline, World, source
+# - Directories: Attachments, Journals, Rules, Sessions, Sourcebook, Timeline, Transcripts, World
+# - Excluded (Obsidian-hidden / tooling): Templates, Discord, docs, scripts, op5e, CONTEXT.md, etc.
+# - Markdown is sanitized for publish (no Discord/agent links); see sync_quartz_content.py
 # - Markdown requires frontmatter `publish: true`; non-markdown files are copied as-is
 #
 # Pushes from GITHUB_TOKEN do not trigger other workflows, so we dispatch deploy.yaml

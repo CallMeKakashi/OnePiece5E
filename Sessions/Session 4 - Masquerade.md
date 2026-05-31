@@ -1,4 +1,5 @@
 ---
+publish: true
 type: session
 episode: 4
 status: draft
@@ -23,4 +24,4 @@ sources:
 ## Cast (this episode)
 
 - [[🦾 Saplea D. Isla — "Dreadnaught"]] · [[Roma]] · [[Red]] · [[Baptiste]] · [[Linus Marrow]]
-- [[Lucien]] · [[Cerica Corvine]] · Director Halward ([[The Black Ledger of Director Halward Lynne]])
+- [[Lucien]] · [[Serica Corven]] · Director Halward ([[The Black Ledger of Director Halward Lynne]])

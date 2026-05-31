@@ -10,15 +10,28 @@ sources:
   - "[[Episode 23 - Choice for life]]"
   - "[[Episode 25 - Fire Storm]]"
   - "[[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]"
+  - "Discord/exports/character-art"
 ---
+## Visuals
+
+![[Attachments/calder_voss-portrait.png|Portrait]]
+
+*Discord quarry: [[Discord/exports/character-art]]*
+
+
+## Aliases
+
+- **Vorro** — Motley Crew-era name (founding crew period)
+- **Calder Voss** — Marine service name (G-45 captain, later commodore)
+- Transcript speech-to-text: "Warro" / "Morrow"
 
 ## Description
 
-Transcript speech-to-text: "Warro" / "Morrow."
+Marine officer who began as a founding member of the [[Motley Crew]] under the name **Vorro**.
 
 ## Role
 
-**Marine Captain** at [[Spirit Cliff]] (G-45), later promoted to **Commodore** on judiciary islands. Founding member of the [[Motley Crew]].
+**Marine Captain** at [[Spirit Cliff]] (G-45), later promoted to **Commodore** on judiciary islands.
 
 ## Personal Quests
 

@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 12
 title: "Clown Tricks"
@@ -16,7 +17,7 @@ sources:
 
 ### Summary
 
-- Continues clown-ship crisis: knock out waking captives; [[Veyl Corvine]] distracts **Bessie**; [[B.O.B]] animal-handling with handler.
+- Continues clown-ship crisis: knock out waking captives; [[Veyl Corven]] distracts **Bessie**; [[B.O.B]] animal-handling with handler.
 - [[Malphas]] off-screen on pursuit boat (from Ep 11).
 - Resolution unclear in STT — bridges Ep 13.
 
@@ -24,7 +25,7 @@ sources:
 
 | Role | Note |
 |------|------|
-| PCs | [[Baptiste]], [[Roma]], [[B.O.B]], [[Veyl Corvine]] |
+| PCs | [[Baptiste]], [[Roma]], [[B.O.B]], [[Veyl Corven]] |
 | NPCs | Bessie (crab), clown handler |
 
 ### Open questions

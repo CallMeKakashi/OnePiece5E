@@ -6,7 +6,14 @@ publish: true
 sources:
   - "[[Episode 6 - Hallow's End]]"
   - "[[Sessions/Sidequests/Spider's Nest]]"
+  - "Discord/exports/character-art"
 ---
+## Visuals
+
+![[Attachments/ben-portrait.png|Portrait]]
+
+*Discord quarry: [[Discord/exports/character-art]]*
+
 
 ## Description
 

@@ -1,4 +1,5 @@
 ---
+publish: true
 type: session
 episode: 20
 status: draft

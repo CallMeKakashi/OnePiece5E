@@ -1,4 +1,5 @@
 ---
+publish: true
 type: backstory
 in_world_start: 1476-01moon
 in_world_end:

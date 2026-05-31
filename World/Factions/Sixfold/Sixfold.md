@@ -17,8 +17,9 @@ Mercenary organization (reformed after the Motley Crew prologue). Headquarters a
 
 ## Named in timeline / archive
 
-- [[Veyl Corvine]], [[Cerica Corvine]] — operatives; Spirit Cliff (Episode 3)
-- **Vorro**, **Rias**, [[Simon The One Armed Tyrant]] — missing / antagonist arc (prologue)
+- [[Vireth]] — Page 1 ("Skyblade")
+- [[Veyl Corven]], [[Serica Corven]] — operatives; Spirit Cliff (Episode 3)
+- [[Calder Voss]] (Motley-era **Vorro**), [[Rias Decibel]], [[Simon The One Armed Tyrant]] — missing / antagonist arc (prologue)
 - **Dr. Linus Marrow** — former member (see party notes)
 
 ## Timeline

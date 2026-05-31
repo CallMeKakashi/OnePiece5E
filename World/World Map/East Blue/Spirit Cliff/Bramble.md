@@ -1,4 +1,5 @@
 ---
+publish: true
 type:
   - NPC
 status: draft

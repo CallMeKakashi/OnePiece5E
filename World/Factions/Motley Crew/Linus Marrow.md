@@ -10,7 +10,17 @@ sources:
   - "[[Episode 23 - Choice for life]]"
   - "[[Episode 25 - Fire Storm]]"
   - "Sessions/Linus' Notes.md"
+  - "Discord/exports/bounty-posters"
+  - "Discord/exports/character-art"
+  - "Discord/exports/devil-fruit-dex"
 ---
+## Visuals
+
+![[Attachments/linus_marrow-portrait.png|Portrait]]
+![[Attachments/linus-bounty.png|Bounty poster]]
+
+*Discord quarry: [[Discord/exports/character-art]], [[Discord/exports/bounty-posters]]*
+
 
 ## Description
 
@@ -18,7 +28,7 @@ Doctor with a phase ability (can pass through solid matter). Travels with the cr
 
 ## Role
 
-Doctor and founding member of the [[Motley Crew]]. Former [[Sixfold]] member. Sent [[Veyl Corvine]] and [[Cerica Corvine]] to observe the crew at Spirit Cliff.
+Doctor and founding member of the [[Motley Crew]]. Former [[Sixfold]] member. Sent [[Veyl Corven]] and [[Serica Corven]] to observe the crew at Spirit Cliff. Devil Fruit: [[Phezu Phezu no Mi]].
 
 ## Personal Quests
 
@@ -40,7 +50,7 @@ Former member of the [[Sixfold]]; tied to the organization's leadership through 
 
 - Examines **black ring** from [[Kirro King]] hideout; invites [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] to the Armada.
 - Hands paper directions to his hideout (near casino / Sixfold area).
-- Sent [[Veyl Corvine]] and [[Cerica Corvine]] to observe the crew at Spirit Cliff.
+- Sent [[Veyl Corven]] and [[Serica Corven]] to observe the crew at Spirit Cliff.
 
 ## Episodes 21–25
 

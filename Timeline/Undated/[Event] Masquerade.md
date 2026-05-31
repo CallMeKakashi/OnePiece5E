@@ -1,4 +1,5 @@
 ---
+publish: true
 type: event
 status: draft
 sources:
@@ -13,7 +14,7 @@ related_world:
   - "[[Baptiste]]"
   - "[[Linus Marrow]]"
   - "[[Lucien]]"
-  - "[[Cerica Corvine]]"
+  - "[[Serica Corven]]"
 related_events:
   - "[[Timeline/Undated/[Event] Fated Encounter]]"
   - "[[Timeline/Undated/[Event] Shackles Broken]]"

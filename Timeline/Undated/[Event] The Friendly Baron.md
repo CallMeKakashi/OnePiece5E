@@ -1,4 +1,5 @@
 ---
+publish: true
 type: event
 status: draft
 sources:
@@ -7,7 +8,7 @@ related_world:
   - "[[Malphas]]"
   - "[[Roma]]"
   - "[[Baptiste]]"
-  - "[[Vorro]]"
+  - "[[Calder Voss]]"
 related_events:
   - "[[Timeline/Undated/[Event] Choice for life]]"
   - "[[Timeline/Undated/[Event] Fire Storm]]"

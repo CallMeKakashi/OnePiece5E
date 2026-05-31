@@ -1,4 +1,5 @@
 ---
+publish: true
 type: event
 status: draft
 sources:
@@ -13,10 +14,10 @@ related_world:
   - "[[Baptiste]]"
   - "[[Linus Marrow]]"
   - "[[Bramble]]"
-  - "[[Cerica Corvine]]"
-  - "[[Veyl Corvine]]"
+  - "[[Serica Corven]]"
+  - "[[Veyl Corven]]"
   - "[[Sixfold]]"
-  - "[[Vorro]]"
+  - "[[Calder Voss]]"
   - "[[Delaroth]]"
 related_events:
   - "[[Timeline/Undated/[Event] Masquerade]]"
@@ -31,9 +32,9 @@ Midnight **[[Worgoman Bank]]** raid and street battle at [[Spirit Cliff]] (Episo
 
 1. **Infiltration** — guards distracted; [[Red]] + [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] enter with Halward's keys.
 2. **Chest** — Bramble's chest taken from director's cabin; party still unsure of contents.
-3. **Alarm** — marines converge; casino/rooftop fight with [[Cerica Corvine]]; [[Veyl Corvine]] present under [[Delaroth]]'s orders.
+3. **Alarm** — marines converge; casino/rooftop fight with [[Serica Corven]]; [[Veyl Corven]] present under [[Delaroth]]'s orders.
 4. **Escalation** — decoy book vs real ledger confusion; Sir Can Veil after the chest; [[Baptiste]] reveals wings and flees.
-5. **Cliffhanger** — [[Vorro]]'s forces vs party/Sixfold; chest dropped; ~midnight / full moon.
+5. **Cliffhanger** — [[Calder Voss]]'s forces vs party/Sixfold; chest dropped; ~midnight / full moon.
 
 ## Evidence
 

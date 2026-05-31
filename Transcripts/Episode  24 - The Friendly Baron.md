@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 24
 title: "The Friendly Baron"
@@ -26,7 +27,7 @@ sources:
 |------|------|
 | PCs | [[Malphas]], [[Roma]], [[Baptiste]] |
 | Allies | Goru Yamashita, Cashian, Jefferson |
-| Captive | [[Vorro]] (aboard ship) |
+| Captive | [[Calder Voss]] (aboard ship) |
 
 ### Open questions
 

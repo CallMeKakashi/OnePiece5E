@@ -1,4 +1,5 @@
 ---
+publish: true
 type: session
 episode: 5
 status: draft
@@ -23,4 +24,4 @@ sources:
 ## Cast (this episode)
 
 - [[🦾 Saplea D. Isla — "Dreadnaught"]] · [[Roma]] · [[Red]] · [[Baptiste]] · [[Linus Marrow]]
-- [[Cerica Corvine]] · [[Veyl Corvine]] · [[Vorro]] · [[Delaroth]]
+- [[Serica Corven]] · [[Veyl Corven]] · [[Calder Voss]] · [[Delaroth]]

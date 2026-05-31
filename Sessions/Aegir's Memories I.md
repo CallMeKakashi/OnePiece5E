@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 
 You take a nap while traveling to a position where you can stay close enough to intercept the vessel, the steady rhythm of the journey lulling you into sleep. You fall into a dream.
 

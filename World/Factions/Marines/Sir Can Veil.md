@@ -29,7 +29,7 @@ Marine operative (transcript spelling) deployed at [[Spirit Cliff]].
 
 ## Related
 
-- [[Vorro]]
+- [[Calder Voss]]
 - [[Delaroth]]
 - [[Worgoman Bank]]
 

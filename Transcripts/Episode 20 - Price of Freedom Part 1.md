@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 20
 title: "Price of Freedom Part 1"

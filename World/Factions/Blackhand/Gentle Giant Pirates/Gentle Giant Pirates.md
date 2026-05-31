@@ -13,6 +13,7 @@ The **Gentle Giant Pirates** are a unit of the [[Blackhand]] crew. A small but c
 
 - [[Kalla of Shandia]] — scholar, linguist, and puzzle-solver; Skypiean from the White Sea
 - [[Shako]] — mantis shrimp fishman, shipwright from CraggHammer Island
+- [[Dravos]] — navigator ("The Mole"); [[Toneru Toneru no Mi]]
 
 ## Related
 

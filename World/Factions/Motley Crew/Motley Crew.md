@@ -15,13 +15,13 @@ Historical pirate crew — the founding group from which several current faction
 - [[Ronan]] — fishman
 - [[Linus Marrow]] — doctor
 - [[Liz]] — current [[Sixfold]] leader
-- [[Veyl Corvine]] — now [[Sixfold]] operative
-- [[Cerica Corvine]] — now [[Sixfold]] operative
+- [[Veyl Corven]] — now [[Sixfold]] operative
+- [[Serica Corven]] — now [[Sixfold]] operative
 - [[Aralia]]
 - [[Cline The Plague]] — now [[Sixfold]]
-- [[Vorro]] — now [[Marines]]
+- [[Calder Voss]] — now [[Marines]]
 - [[Simon The One Armed Tyrant]] — now [[Spider Nest Pirates]] captain
-- [[Rias]]
+- [[Rias Decibel]]
 
 ## Related
 

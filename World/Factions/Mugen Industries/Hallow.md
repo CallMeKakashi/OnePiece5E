@@ -5,7 +5,14 @@ status: draft
 publish: true
 sources:
   - "[[Episode 6 - Hallow's End]]"
+  - "Discord/exports/character-art"
 ---
+## Visuals
+
+![[Attachments/hallow_gruff-portrait.png|Portrait]]
+
+*Discord quarry: [[Discord/exports/character-art]]*
+
 
 ## Description
 

@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 
 _[So this guy might be some kind of genius or something ‘cause I haven’t seen a more efficient encoded string of letters than this. But me being me, I did crack it. Might steal the encoding method for myself though… So for starters, the first few pages were kind of a logbook, almost like medical notes on a patient… Which makes sense once I read through. You’ve got yourself a certified prodigy in the field of medicine. Let me start from where things kind of get interesting… oh, you’d love this part.]_
 

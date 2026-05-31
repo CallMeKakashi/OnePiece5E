@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # Session Outline — Dual Perspective Structure
 
 ## Opening Structure

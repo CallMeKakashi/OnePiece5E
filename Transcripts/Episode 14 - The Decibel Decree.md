@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 14
 title: "The Decibel Decree"

@@ -9,7 +9,8 @@ How the vault file explorer is trimmed for campaign prep without breaking templa
 | Scope of hiding | **Explorer only** (CSS) — search, graph, backlinks, Quick switcher still see hidden paths |
 | `Discord/`, `Daily/` | Hidden in explorer |
 | `Templates/` | Hidden; edit via [[Templates/_index]] |
-| Root agent files | `AGENTS.md`, `CLAUDE.md`, `GEMINI.md` hidden; `CONTEXT.md` stays visible |
+| Root agent files | `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, `CONTEXT.md` hidden |
+| Foundry modules | `op5e/`, `op5e-compendium/` hidden (not campaign lore) |
 | Full vault ignore | **Not used** — avoids side effects on templating, sync, publish |
 
 ## Hidden folders
@@ -19,20 +20,26 @@ How the vault file explorer is trimmed for campaign prep without breaking templa
 | `Categories/`, `Clippings/`, `References/`, `Notes/` | Tier 2 PKM infrastructure ([[docs/agents/CORE]]) |
 | `Templates/` | Tier 2 — use [[Templates/_index]] instead |
 | `docs/`, `scripts/` | Agent / tooling |
-| `Discord/` | Export quarry — curated content lives in `Timeline/`, `World/` |
+| `Discord/` | Export quarry — channel registry at [[Discord/_index]]; curated content lives in `Timeline/`, `World/` |
 | `Daily/` | Daily-notes plugin storage — open via command/calendar, not tree |
 | `Attachments/` | Images and PDFs — embedded via `![[]]`, no need to browse directly |
+| `op5e/`, `op5e-compendium/` | Foundry VTT modules (separate from campaign notes) |
 
 ## Campaign-visible folders (Tier 1)
 
-`Sessions/`, `Transcripts/`, `Timeline/`, `World/`, `Journals/`, `Rules/`, `source/`
+`Sessions/`, `Transcripts/`, `Timeline/`, `World/`, `Journals/`, `Rules/`, `Sourcebook/`
+
+## GitHub Pages
+
+Publishable content is synced to the Quartz `v4` branch via [[../scripts/sync_quartz_content.py|sync_quartz_content.py]] (see `.github/workflows/sync-v4-from-planning.yml`). Editor-only links: [[editor-hub]].
 
 ## Implementation files
 
 - **Snippet:** `.obsidian/snippets/hide-infrastructure-folders.css`
 - **Enabled in:** `.obsidian/appearance.json`
 - **Template hub:** [[Templates/_index]]
-- **Campaign hub link:** [[_index#🔧 Maintenance]]
+- **Campaign hub:** [[_index]]
+- **Editor / tooling:** [[editor-hub]]
 
 Plugin paths (unchanged by hiding):
 

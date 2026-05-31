@@ -1,4 +1,5 @@
 ---
+publish: true
 type: event
 status: draft
 sources:
@@ -12,8 +13,8 @@ related_world:
   - "[[Red]]"
   - "[[Baptiste]]"
   - "[[Linus Marrow]]"
-  - "[[Veyl Corvine]]"
-  - "[[Cerica Corvine]]"
+  - "[[Veyl Corven]]"
+  - "[[Serica Corven]]"
   - "[[Sixfold]]"
   - "[[Kirro King]]"
 related_events:
@@ -31,7 +32,7 @@ Play events from **Episode 3**. Follows arrival at [[Spirit Cliff]] after [[Time
 2. **The deal** — Retrieve chest from [[Worgoman Bank]] director's cabin for a Grand Line ship; [[Linus Marrow]] studies Kirro **black ring**; Armada invite.
 3. **Prep** — Disguises; casino/poker plan to lift director's keys; marine armor as infiltration cover.
 4. **Market fight** — Marine scuffle; party loots gear and Den Den Mushi; bodies stashed.
-5. **Sixfold encounter** — [[Veyl Corvine]] and [[Cerica Corvine]] (redacted bounties); tense parley; Veyl removes nearby marines via ability.
+5. **Sixfold encounter** — [[Veyl Corven]] and [[Serica Corven]] (redacted bounties); tense parley; Veyl removes nearby marines via ability.
 6. **Next** — Bank heist execution deferred; return to Bramble.
 
 ## Evidence

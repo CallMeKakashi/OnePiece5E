@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 25
 title: "Fire Storm"
@@ -17,7 +18,7 @@ sources:
 ### Summary
 
 - Escort fleet battle: **Commander Leon** (Flame Logia); Lunarian **Alice** burns ships.
-- **Nikolai/Anton** mist abducts Alice + [[Malphas]]; [[Vorro]] escapes; **Droven** fate unresolved.
+- **Nikolai/Anton** mist abducts Alice + [[Malphas]]; [[Calder Voss]] escapes; **Droven** fate unresolved.
 
 ### People (links)
 

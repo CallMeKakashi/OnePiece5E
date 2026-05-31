@@ -8,15 +8,27 @@ sources:
   - "[[Episode 8 - The Lunarfold Tournament Part 1]]"
   - "[[Episode 9 - The Lunarfold Tournament Part 2]]"
   - "Discord/exports/downtime-actions.md"
+  - "Discord/exports/character-art"
+  - "Discord/exports/bounty-posters"
+  - "Discord/exports/devil-fruit-dex"
 ---
+## Visuals
+
+![[Attachments/serica-portrait.png|Portrait]]
+![[Attachments/serica-bounty.png|Bounty poster]]
+
+*Discord quarry: [[Discord/exports/character-art]], [[Discord/exports/bounty-posters]]*
+
 
 ## Description
 
-Sixfold operative at [[Spirit Cliff]] (transcript: "Sarika"). Sibling of [[Veyl Corvine]]. Hot-headed; hands can warp into pistols (transcript). Bounty **redacted** on local posters.
+Sixfold operative at [[Spirit Cliff]] (transcript: "Sarika"). Sibling of [[Veyl Corven]]. Hot-headed; hands can warp into pistols (transcript). Bounty **redacted** on local posters.
 
 ## Role
 
 [[Sixfold]] operative. Founding member of the [[Motley Crew]]. Ranked **4th** on crew ladder after tournament.
+
+Devil Fruit: [[Buki Buki no Mi]].
 
 ## Personal Quests
 
@@ -24,7 +36,7 @@ Sixfold operative at [[Spirit Cliff]] (transcript: "Sarika"). Sibling of [[Veyl 
 
 ## Backstory
 
-Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative alongside sibling [[Veyl Corvine]].
+Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative alongside sibling [[Veyl Corven]].
 
 ## Episode 3
 
@@ -36,7 +48,7 @@ Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative a
 
 ## Episode 6
 
-- Spider's Nest / G-45 facility: intimidates [[Daniel (Spider's Nest)]]; helps evacuate civilians with [[Veyl Corvine]]; island destruction aftermath.
+- Spider's Nest / G-45 facility: intimidates [[Daniel (Spider's Nest)]]; helps evacuate civilians with [[Veyl Corven]]; island destruction aftermath.
 
 ## Episode 8
 
@@ -44,10 +56,10 @@ Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative a
 
 ## Episode 9
 
-- Tournament day 2; final crew rank **4th** (below [[Veyl Corvine]]); dismissive of rankings.
+- Tournament day 2; final crew rank **4th** (below [[Veyl Corven]]); dismissive of rankings.
 
 ## Related
 
 - [[Sixfold]]
 - [[Motley Crew]]
-- [[Veyl Corvine]]
+- [[Veyl Corven]]

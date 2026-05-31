@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 15
 title: "Animal Within"

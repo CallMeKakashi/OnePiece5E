@@ -5,7 +5,14 @@ status: draft
 publish: true
 sources:
   - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Party 2/Players/Kalla of Shandia.md"
+  - "Discord/exports/character-art"
 ---
+## Visuals
+
+![[Attachments/kalla-portrait.png|Portrait]]
+
+*Discord quarry: [[Discord/exports/character-art]]*
+
 
 ## Description
 

@@ -1,4 +1,5 @@
 ---
+publish: true
 type: session
 status: draft
 role: prep-outline

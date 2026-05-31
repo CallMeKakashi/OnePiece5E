@@ -3,7 +3,17 @@ type: actor
 faction: "[[Sixfold]]"
 status: draft
 publish: true
+sources:
+  - "Discord/exports/character-art"
+  - "Discord/exports/bounty-posters"
 ---
+## Visuals
+
+![[Attachments/liz-portrait.png|Portrait]]
+![[Attachments/liz-bounty.png|Bounty poster]]
+
+*Discord quarry: [[Discord/exports/character-art]], [[Discord/exports/bounty-posters]]*
+
 
 ## Description
 

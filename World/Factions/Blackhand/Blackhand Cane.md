@@ -3,6 +3,8 @@ type: actor
 faction: "[[Blackhand]]"
 status: draft
 publish: true
+sources:
+  - "Discord/exports/devil-fruit-dex"
 ---
 
 ## Description
@@ -14,6 +16,8 @@ Speaks in a rolling, old-salt dialect. Asks people about their dreams. Patient, 
 ## Role
 
 Captain of the entire **Blackhand** pirate organization. Commands multiple fleets, each led by its own commander. His sword is called **Chiha**. Trained [[Mira the Unbreakable]] in Haki and the Six Styles (Rokushiki). A figure who "finds people the world tries to erase."
+
+Devil Fruit: [[Meshi Meshi no Mi]].
 
 ## Personal Quests
 

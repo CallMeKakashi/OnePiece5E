@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 L# Revised Session Outline — _Ashes Before the Storm_
 
 With Bob absent, the session becomes much tighter and character-focused around:

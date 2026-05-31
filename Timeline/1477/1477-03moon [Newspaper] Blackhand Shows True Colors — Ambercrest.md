@@ -1,4 +1,5 @@
 ---
+publish: true
 type: newspaper
 in_world_start: 1477-03moon
 in_world_end:

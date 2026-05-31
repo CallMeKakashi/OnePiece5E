@@ -1,10 +1,21 @@
+---
+publish: true
+---
+
 %% Begin Waypoint %%
 - **Factions**
 	- **[[Blackhand]]**
+		- **[[Braveheart Pirates]]**
+			- [[Facade]]
+			- [[Ju Lee Caneheart]]
+			- [[Malak Samum]]
+			- [[Thompson Caneheart]]
 		- **[[Gentle Giant Pirates]]**
+			- [[Dravos]]
 			- [[Kalla of Shandia]]
 			- [[Shako]]
 		- **[[Lunarfolds]]**
+			- [[B.O.B]]
 			- [[Baptiste]]
 			- [[Cade Tigor Cooper]]
 			- [[Malphas]]
@@ -13,9 +24,11 @@
 		- [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”]]
 		- [[🎶 Red — “The Songbird of the Black Comet”]]
 		- [[🦾 Saplea D. Isla — “Dreadnaught”]]
+		- [[Alice]]
 		- [[Baptiste (Blackhand unit)]]
 		- [[Blackhand (Cyber)]]
 		- [[Blackhand Cane]]
+		- [[Droven Calligos]]
 		- [[Mira the Unbreakable]]
 		- [[Morley]]
 		- [[Renzo]]
@@ -23,37 +36,54 @@
 	- **[[Decibella Revolutionary]]**
 		- [[Cadence]]
 		- [[Riff Sin]]
+	- **[[Guiseppi Family]]**
+		- [[Brandy Guiseppi]]
+		- [[Gin Guiseppi]]
+		- [[Rhum Guiseppi]]
+		- [[Rum Guiseppi]]
+		- [[Tequila Guiseppi]]
+		- [[Vodka Guiseppi]]
+		- [[Whisky Guiseppi]]
+	- **[[High Roost Pirates]]**
+		- [[Jack S. Parrow]]
 	- **Marines**
+		- [[Calder Voss]]
 		- [[Commander Leon]]
 		- [[Delaroth]]
 		- [[Graff Bolt]]
+		- [[Melina Celeste]]
+		- [[Obsidian]]
 		- [[Sir Can Veil]]
-		- [[Vorro]]
 	- **[[Motley Crew]]**
 		- [[Aralia]]
 		- [[Astor]]
 		- [[Linus Marrow]]
 		- [[Pasha]]
-		- [[Rias]]
+		- [[Rias Decibel]]
 		- [[Ronan]]
 	- **[[Mugen Industries]]**
 		- [[Hallow]]
 	- **[[Sixfold]]**
-		- [[Cerica Corvine]]
 		- [[Cline The Plague]]
 		- [[Liz]]
-		- [[Veyl Corvine]]
+		- [[Serica Corven]]
+		- [[Veyl Corven]]
+		- [[Vireth]]
 	- **[[Soundless 5]]**
 		- [[Baron Woofer]]
 		- [[Echo Spy]]
 		- [[Lady Soefra Anthem]]
 		- [[Mezzo Troop]]
+		- [[Rhythm Echo]]
 		- [[Synth]]
 	- **[[Spider Nest Pirates]]**
 		- [[Ben]]
 		- [[Chloe]]
 		- [[Daniel]]
 		- [[Simon The One Armed Tyrant]]
+	- **Unaffiliated**
+		- [[DevilMask]]
+		- [[Sora]]
 - **[[World Map]]**
 	- **East Blue**
 		- **[[Ambercrest]]**

@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 18
 title: "Gentle Giant Pirates"

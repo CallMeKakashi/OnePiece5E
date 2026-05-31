@@ -1,4 +1,5 @@
 ---
+publish: true
 type: backstory
 status: draft
 sources:

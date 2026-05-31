@@ -5,7 +5,14 @@ status: draft
 publish: true
 sources:
   - "Old Notes/One Piece DND - Blood and Brine/Campaign 1/Player Characters/Pasha.md"
+  - "Discord/exports/character-art"
 ---
+## Visuals
+
+![[Attachments/pasha-portrait.png|Portrait]]
+
+*Discord quarry: [[Discord/exports/character-art]]*
+
 
 ## Description
 

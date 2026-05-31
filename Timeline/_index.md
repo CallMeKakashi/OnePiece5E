@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # Timeline
 
 In-world chronology for Blood & Brine. Dates use the One Piece calendar (flexible precision: year, moon, sun).
@@ -81,5 +85,6 @@ SORT file.name ASC
 
 ## Related
 
-- [[Discord/exports/world-lore]]
+- [[Discord/_index|Discord channels]] — `#world-lore`, `🧬│bounty-posters`, and other export quarries
+- [[Discord/exports/world-lore|world-lore export]]
 - [[Dates]] — campaign year and historical anchors (1476–1478)

@@ -1,4 +1,5 @@
 ---
+publish: true
 type: session
 episode: 3
 status: draft
@@ -23,4 +24,4 @@ sources:
 ## Cast (this episode)
 
 - [[🦾 Saplea D. Isla — "Dreadnaught"]] · [[Roma]] · [[Red]] · [[Baptiste]] · [[Linus Marrow]]
-- [[Bramble]] · [[Veyl Corvine]] · [[Cerica Corvine]]
+- [[Bramble]] · [[Veyl Corven]] · [[Serica Corven]]

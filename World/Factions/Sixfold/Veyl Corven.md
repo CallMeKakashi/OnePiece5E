@@ -8,15 +8,27 @@ sources:
   - "[[Episode 8 - The Lunarfold Tournament Part 1]]"
   - "[[Episode 9 - The Lunarfold Tournament Part 2]]"
   - "Discord/exports/downtime-actions.md"
+  - "Discord/exports/character-art"
+  - "Discord/exports/bounty-posters"
+  - "Discord/exports/devil-fruit-dex"
 ---
+## Visuals
+
+![[Attachments/veyl-portrait.png|Portrait]]
+![[Attachments/veyl-bounty.png|Bounty poster]]
+
+*Discord quarry: [[Discord/exports/character-art]], [[Discord/exports/bounty-posters]]*
+
 
 ## Description
 
-Sixfold operative at [[Spirit Cliff]] (transcript: "Whale" / Wyll). Sibling of [[Cerica Corvine]]. Can phase through bodies and remove marines without killing. Bounty poster **redacted** in Episode 3.
+Sixfold operative at [[Spirit Cliff]] (transcript: "Whale" / Wyll). Sibling of [[Serica Corven]]. **Speed-Speed** user — extreme movement; carries allies and presses fights at high velocity. Early transcripts misheard phasing (that is [[Linus Marrow]]'s [[Phezu Phezu no Mi]]). Bounty poster **redacted** in Episode 3.
 
 ## Role
 
 [[Sixfold]] operative. Founding member of the [[Motley Crew]]. Ranked **3rd** on crew ladder after tournament.
+
+Devil Fruit: [[Soku Soku no Mi]].
 
 ## Personal Quests
 
@@ -37,7 +49,7 @@ Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative. 
 
 ## Episode 6
 
-- Carries [[Roma]] / [[Malphas]] via speed fruit; ring teleport; presses [[Daniel (Spider's Nest)]] on Silas; may hold bank journal.
+- Carries [[Roma]] / [[Malphas]] via [[Soku Soku no Mi]]; ring teleport; presses [[Daniel]] on Silas; may hold bank journal.
 
 ## Episode 8
 
@@ -51,5 +63,5 @@ Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative. 
 
 - [[Sixfold]]
 - [[Motley Crew]]
-- [[Cerica Corvine]]
+- [[Serica Corven]]
 - [[Linus Marrow]]

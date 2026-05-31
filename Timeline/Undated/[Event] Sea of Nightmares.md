@@ -1,4 +1,5 @@
 ---
+publish: true
 type: event
 status: draft
 sources:
@@ -8,8 +9,8 @@ related_world:
   - "[[Roma]]"
   - "[[Baptiste]]"
   - "[[B.O.B]]"
-  - "[[Veyl Corvine]]"
-  - "[[Cerica Corvine]]"
+  - "[[Veyl Corven]]"
+  - "[[Serica Corven]]"
   - "[[Daniel (Spider's Nest)]]"
   - "[[Ben (Spider's Nest)]]"
 related_events:
@@ -25,7 +26,7 @@ Post-tournament voyage: **[[Daniel (Spider's Nest)]]** betrays crew to Marines r
 
 1. **Dream cold open** — [[Malphas]] Lunarian outpost memory; ship struck mid-voyage.
 2. **Betrayal** — Daniel sides with Marine captain (Voro/Voss STT); Wonderland construct on deck.
-3. **Nightmares** — shared dreamscape; [[Veyl Corvine]] & [[Cerica Corvine]] trapped in ring nightmares; Daniel killed in-layer; Ben overboard.
+3. **Nightmares** — shared dreamscape; [[Veyl Corven]] & [[Serica Corven]] trapped in ring nightmares; Daniel killed in-layer; Ben overboard.
 4. **Rings** — [[B.O.B]] traces purple rings; patron demands [[Baptiste]] find vessel — refused; exhaustion / warlock-like slots.
 
 ## Evidence

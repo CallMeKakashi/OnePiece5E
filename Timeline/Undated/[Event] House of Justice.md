@@ -1,4 +1,5 @@
 ---
+publish: true
 type: event
 status: draft
 sources:
@@ -9,7 +10,7 @@ related_world:
   - "[[Baptiste]]"
   - "[[Cade Tigor Cooper]]"
   - "[[Linus Marrow]]"
-  - "[[Vorro]]"
+  - "[[Calder Voss]]"
 related_events:
   - "[[Timeline/Undated/[Event] Price of Freedom Part 2]]"
   - "[[Timeline/Undated/[Event] The Missing Piece]]"
@@ -17,13 +18,13 @@ related_events:
 
 # House of Justice
 
-**Lex Imperia / Newshold** judiciary islands; Roma infiltrates **House Valehart**; prison riot; [[Linus Marrow]] returns — fight vs [[Vorro]] (Episode 21).
+**Lex Imperia / Newshold** judiciary islands; Roma infiltrates **House Valehart**; prison riot; [[Linus Marrow]] returns — fight vs [[Calder Voss]] (Episode 21).
 
 ## Beats
 
 1. **Transit** — Freefield → Dravo Thousand-Mile Tunnel; twin islands Lex Imperia / Newshold.
 2. **Infiltration** — Roma as Valehart chef; Malphas cathedral chaos; ~686 prisoners freed.
-3. **Cliffhanger** — [[Linus Marrow]]; [[Vorro]] + G-45 armor Marine.
+3. **Cliffhanger** — [[Linus Marrow]]; [[Calder Voss]] + G-45 armor Marine.
 
 ## Evidence
 

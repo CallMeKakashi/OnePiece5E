@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 11
 title: "Welcome to the Jungle"
@@ -24,7 +25,7 @@ sources:
 
 | Role | Note |
 |------|------|
-| PCs | [[Malphas]], [[Baptiste]], [[Roma]], [[B.O.B]], [[Veyl Corvine]], [[Cerica Corvine]] |
+| PCs | [[Malphas]], [[Baptiste]], [[Roma]], [[B.O.B]], [[Veyl Corven]], [[Serica Corven]] |
 | Spider's Nest | [[Daniel (Spider's Nest)]], [[Chloe (Spider's Nest)]] |
 | Antagonists | Circle of Clouds (clown faction) |
 

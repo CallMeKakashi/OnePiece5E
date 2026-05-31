@@ -14,6 +14,8 @@
 .nav-folder-title[data-path="Discord"],
 .nav-folder-title[data-path="Daily"],
 .nav-folder-title[data-path="Attachments"],
+.nav-folder-title[data-path="op5e"],
+.nav-folder-title[data-path="op5e-compendium"],
 .tree-item-self.nav-folder-title[data-path="Categories"],
 .tree-item-self.nav-folder-title[data-path="Clippings"],
 .tree-item-self.nav-folder-title[data-path="References"],
@@ -24,6 +26,8 @@
 .tree-item-self.nav-folder-title[data-path="Discord"],
 .tree-item-self.nav-folder-title[data-path="Daily"],
 .tree-item-self.nav-folder-title[data-path="Attachments"],
+.tree-item-self.nav-folder-title[data-path="op5e"],
+.tree-item-self.nav-folder-title[data-path="op5e-compendium"],
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Categories"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Clippings"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="References"]),
@@ -33,7 +37,9 @@
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="scripts"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Discord"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Daily"]),
-.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Attachments"]) {
+.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="Attachments"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="op5e"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-folder-title[data-path="op5e-compendium"]) {
   display: none !important;
 }
 
@@ -47,7 +53,9 @@
 .nav-folder-title[data-path="scripts"] + .nav-folder-children,
 .nav-folder-title[data-path="Discord"] + .nav-folder-children,
 .nav-folder-title[data-path="Daily"] + .nav-folder-children,
-.nav-folder-title[data-path="Attachments"] + .nav-folder-children {
+.nav-folder-title[data-path="Attachments"] + .nav-folder-children,
+.nav-folder-title[data-path="op5e"] + .nav-folder-children,
+.nav-folder-title[data-path="op5e-compendium"] + .nav-folder-children {
   display: none !important;
 }
 
@@ -61,22 +69,28 @@
 .nav-files-container .tree-item [data-path="scripts"],
 .nav-files-container .tree-item [data-path="Discord"],
 .nav-files-container .tree-item [data-path="Daily"],
-.nav-files-container .tree-item [data-path="Attachments"] {
+.nav-files-container .tree-item [data-path="Attachments"],
+.nav-files-container .tree-item [data-path="op5e"],
+.nav-files-container .tree-item [data-path="op5e-compendium"] {
   display: none !important;
 }
 
-/* --- Root files (agent instructions; keep CONTEXT.md) --- */
+/* --- Root files (agent / domain glossary — not campaign browsing) --- */
 .nav-file-title[data-path="AGENTS.md"],
 .nav-file-title[data-path="CLAUDE.md"],
 .nav-file-title[data-path="GEMINI.md"],
+.nav-file-title[data-path="CONTEXT.md"],
 .tree-item-self.nav-file-title[data-path="AGENTS.md"],
 .tree-item-self.nav-file-title[data-path="CLAUDE.md"],
 .tree-item-self.nav-file-title[data-path="GEMINI.md"],
+.tree-item-self.nav-file-title[data-path="CONTEXT.md"],
 .nav-files-container .tree-item:has(> .tree-item-self.nav-file-title[data-path="AGENTS.md"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-file-title[data-path="CLAUDE.md"]),
 .nav-files-container .tree-item:has(> .tree-item-self.nav-file-title[data-path="GEMINI.md"]),
+.nav-files-container .tree-item:has(> .tree-item-self.nav-file-title[data-path="CONTEXT.md"]),
 .nav-files-container .tree-item [data-path="AGENTS.md"],
 .nav-files-container .tree-item [data-path="CLAUDE.md"],
-.nav-files-container .tree-item [data-path="GEMINI.md"] {
+.nav-files-container .tree-item [data-path="GEMINI.md"],
+.nav-files-container .tree-item [data-path="CONTEXT.md"] {
   display: none !important;
 }

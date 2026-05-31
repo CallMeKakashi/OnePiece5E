@@ -1,4 +1,5 @@
 ---
+publish: true
 type: event
 status: draft
 sources:

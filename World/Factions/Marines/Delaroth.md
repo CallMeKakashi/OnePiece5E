@@ -13,7 +13,7 @@ Transcript variants: Delarot, Delrot.
 
 ## Role
 
-Antagonist who directed [[Sixfold]] ([[Cerica Corvine]], [[Veyl Corvine]]) to intercept the crew at [[Spirit Cliff]] instead of leaving the matter to the [[Marines]] alone.
+Antagonist who directed [[Sixfold]] ([[Serica Corven]], [[Veyl Corven]]) to intercept the crew at [[Spirit Cliff]] instead of leaving the matter to the [[Marines]] alone.
 
 ## Personal Quests
 
@@ -31,5 +31,5 @@ Antagonist who directed [[Sixfold]] ([[Cerica Corvine]], [[Veyl Corvine]]) to in
 
 - [[Sixfold]]
 - [[Spirit Cliff]]
-- [[Veyl Corvine]]
-- [[Cerica Corvine]]
+- [[Veyl Corven]]
+- [[Serica Corven]]

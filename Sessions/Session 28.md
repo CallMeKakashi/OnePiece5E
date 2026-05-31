@@ -1,3 +1,7 @@
+---
+publish: true
+---
+
 # Session Outline – “The Light Beyond the Horizon”
 
 ## Opening Scene — Tremors in the Night

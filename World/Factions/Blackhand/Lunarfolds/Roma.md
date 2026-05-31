@@ -5,7 +5,17 @@ status: draft
 publish: true
 sources:
   - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Party 1/Roma.md"
+  - "Discord/exports/character-art"
+  - "Discord/exports/bounty-posters"
+  - "Discord/exports/devil-fruit-dex"
 ---
+## Visuals
+
+![[Attachments/roma-portrait.png|Portrait]]
+![[Attachments/roma-bounty.png|Bounty poster]]
+
+*Discord quarry: [[Discord/exports/character-art]], [[Discord/exports/bounty-posters]]*
+
 
 ## Description
 
@@ -13,7 +23,7 @@ A round white wolf mink. Energetic, restless, incapable of sitting still. Warm-h
 
 ## Role
 
-Cook of the [[Lunarfolds]]. Trained in the Warrior Recipes of Zou's Moonlight Path Temple under Master Tsubaki. Devil Fruit user — ate an ice-type fruit that grants frost powers he has yet to fully master.
+Cook of the [[Lunarfolds]]. Trained in the Warrior Recipes of Zou's Moonlight Path Temple under Master Tsubaki. Devil Fruit: [[Yuki Yuki no Mi — Model Yeti]]. Frost powers not yet fully mastered.
 
 ## Personal Quests
 

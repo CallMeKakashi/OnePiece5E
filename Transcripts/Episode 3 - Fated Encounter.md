@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 3
 title: "Fated Encounter"
@@ -11,7 +12,7 @@ sources:
 
 ## Extracted
 
-> Curated from transcript (speech-to-text). Names may be mistranscribed (Sarika → [[Cerica Corvine]], Whale/Wyll → [[Veyl Corvine]], Spirit clips → [[Spirit Cliff]], Worgoman → [[Worgoman Bank]]).
+> Curated from transcript (speech-to-text). Names may be mistranscribed (Sarika → [[Serica Corven]], Whale/Wyll → [[Veyl Corven]], Spirit clips → [[Spirit Cliff]], Worgoman → [[Worgoman Bank]]).
 
 ### Summary
 
@@ -20,7 +21,7 @@ sources:
 - **[[Linus Marrow]]** studies the **black ring** from [[Kirro King]]'s hideout; invites [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] to the **Armada** to discuss it.
 - Disguises from Bramble's workers (cloaks, masks); plan: casino / poker → keys → bank infiltration (bathroom stakeout, marine armor disguise).
 - **Marine altercation** in the market: scuffle with special-armor marines; knockouts; loot marine gear & Den Den Mushi.
-- Meet **[[Veyl Corvine]]** and **[[Cerica Corvine]]** (Sixfold siblings, redacted bounties); brief standoff; Veyl phases marines away; card-cheating job declined.
+- Meet **[[Veyl Corven]]** and **[[Serica Corven]]** (Sixfold siblings, redacted bounties); brief standoff; Veyl phases marines away; card-cheating job declined.
 - End: return toward Bramble's office; bank job setup for next session.
 
 ### People (links)
@@ -29,7 +30,7 @@ sources:
 |------|------|
 | Crew | [[🦾 Saplea D. Isla — "Dreadnaught"]], [[Roma]], [[Red]], [[Baptiste]], [[Linus Marrow]] |
 | Shipwright | [[Bramble]] |
-| Sixfold | [[Veyl Corvine]], [[Cerica Corvine]] |
+| Sixfold | [[Veyl Corven]], [[Serica Corven]] |
 | Bank target | Director (see [[The Black Ledger of Director Halward Lynne]]) |
 
 ### Loot & gear (no separate pages)

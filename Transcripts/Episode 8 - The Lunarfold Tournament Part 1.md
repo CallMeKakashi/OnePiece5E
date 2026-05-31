@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 8
 title: "The Lunarfold Tournament Part 1"
@@ -12,14 +13,14 @@ sources:
 
 ## Extracted
 
-> Speech-to-text: Bob → [[Malphas]]; Roman/Roma → [[Roma]]; mouth/Malfiss → [[Malphas]]; veil/Will/Whale → [[Veyl Corvine]]; circle/Serika/Sarah/Cerebral → [[Cerica Corvine]].
+> Speech-to-text: Bob → [[Malphas]]; Roman/Roma → [[Roma]]; mouth/Malfiss → [[Malphas]]; veil/Will/Whale → [[Veyl Corven]]; circle/Serika/Sarah/Cerebral → [[Serica Corven]].
 
 ### Summary
 
 - **~3 days downtime** on ship after G-45 / [[Sessions/Sidequests/Spider's Nest|Spider's Nest]] — crew processes trauma; journal clue still missing.
-- **Character beats:** [[Roma]] surveys crew goals (reputation, settle down); [[Malphas]] isolates in storeroom (devil-fruit research, combat survivability); [[Baptiste]] trains speed with [[Veyl Corvine]]; devil-fruit Q&A (Roma ate one — anger trigger; Baptiste denies eating one / puzzle-box thread).
-- **Sixfold folded in:** party treats [[Veyl Corvine]] + [[Cerica Corvine]] as crew; **ranking tournament** below captain — non-lethal rules, deck fights.
-- **Bracket (Part 1):** pranks ([[Veyl Corvine]] antigravity on [[Baptiste]]); [[Cerica Corvine]] vs [[Roma]] — cap calls winner **Cerica**; [[Malphas]] vs [[Baptiste]] extended duel (smoke/absorb mechanics); [[Malphas]] vs [[Cerica Corvine]] (pistol-hands / cannon tension) — session ends mid-bracket; **Cerica ~3rd**, [[Malphas]] leading; rematch teased → [[Episode 9 - The Lunarfold Tournament Part 2]].
+- **Character beats:** [[Roma]] surveys crew goals (reputation, settle down); [[Malphas]] isolates in storeroom (devil-fruit research, combat survivability); [[Baptiste]] trains speed with [[Veyl Corven]]; devil-fruit Q&A (Roma ate one — anger trigger; Baptiste denies eating one / puzzle-box thread).
+- **Sixfold folded in:** party treats [[Veyl Corven]] + [[Serica Corven]] as crew; **ranking tournament** below captain — non-lethal rules, deck fights.
+- **Bracket (Part 1):** pranks ([[Veyl Corven]] antigravity on [[Baptiste]]); [[Serica Corven]] vs [[Roma]] — cap calls winner **Serica**; [[Malphas]] vs [[Baptiste]] extended duel (smoke/absorb mechanics); [[Malphas]] vs [[Serica Corven]] (pistol-hands / cannon tension) — session ends mid-bracket; **Serica ~3rd**, [[Malphas]] leading; rematch teased → [[Episode 9 - The Lunarfold Tournament Part 2]].
 - Epilogue banter: [[Daniel (Spider's Nest)]] · [[Chloe (Spider's Nest)]] watch fights.
 
 ### People (links)
@@ -27,7 +28,7 @@ sources:
 | Role | Note |
 |------|------|
 | PCs | [[Malphas]], [[Roma]], [[Baptiste]] |
-| Sixfold | [[Veyl Corvine]], [[Cerica Corvine]] |
+| Sixfold | [[Veyl Corven]], [[Serica Corven]] |
 | Observers | [[Daniel (Spider's Nest)]], [[Ben (Spider's Nest)]], [[Chloe (Spider's Nest)]] |
 
 ### Open questions

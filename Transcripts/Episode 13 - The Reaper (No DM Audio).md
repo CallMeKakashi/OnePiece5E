@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 13
 title: "The Reaper (No DM Audio)"

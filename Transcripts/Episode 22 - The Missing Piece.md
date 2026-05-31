@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 22
 title: "The Missing Piece"
@@ -25,7 +26,7 @@ sources:
 | Role | Note |
 |------|------|
 | PCs | [[Malphas]], [[Roma]], [[Baptiste]], [[Linus Marrow]] |
-| Captive | [[Vorro]], Zim |
+| Captive | [[Calder Voss]], Zim |
 
 ### Open questions
 

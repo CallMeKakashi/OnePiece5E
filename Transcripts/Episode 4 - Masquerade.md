@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 4
 title: "Masquerade"
@@ -11,7 +12,7 @@ sources:
 
 ## Extracted
 
-> Speech-to-text names: Saplia/Satalia → [[🦾 Saplea D. Isla — "Dreadnaught"]]; Serika → [[Cerica Corvine]]; Lucius/Lucien → [[Lucien]]; Halward → [[The Black Ledger of Director Halward Lynne|Director Halward Lynne]].
+> Speech-to-text names: Saplia/Satalia → [[🦾 Saplea D. Isla — "Dreadnaught"]]; Serika → [[Serica Corven]]; Lucius/Lucien → [[Lucien]]; Halward → [[The Black Ledger of Director Halward Lynne|Director Halward Lynne]].
 
 ### Summary
 
@@ -27,7 +28,7 @@ sources:
 |------|------|
 | Crew | [[🦾 Saplea D. Isla — "Dreadnaught"]], [[Roma]], [[Red]], [[Baptiste]], [[Linus Marrow]] |
 | Disguises | Masquerade ([[Baptiste]]), Raven ([[Red]]), Oroboros ([[Roma]]) |
-| Sixfold | [[Cerica Corvine]] (house visit) |
+| Sixfold | [[Serica Corven]] (house visit) |
 | Casino | [[Lucien]], Director Halward ([[The Black Ledger of Director Halward Lynne]]) |
 
 ### Loot & gear

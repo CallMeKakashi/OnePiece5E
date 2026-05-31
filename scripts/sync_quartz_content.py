@@ -16,12 +16,13 @@ from pathlib import Path
 
 SYNC_DIRS = (
     "Attachments",
+    "Journals",
     "Rules",
     "Sessions",
-    "Templates",
+    "Sourcebook",
     "Timeline",
+    "Transcripts",
     "World",
-    "source",
 )
 SYNC_FILES = ("_index.md", "World-Map.png")
 
@@ -29,6 +30,17 @@ PUBLISH_RE = re.compile(r"^publish:\s*true\s*$", re.MULTILINE)
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
 DATAVIEW_BLOCK_RE = re.compile(r"```dataview\s*\n(.*?)```", re.DOTALL | re.IGNORECASE)
 FROM_PATHS_RE = re.compile(r'"([^"]+)"')
+WIKILINK_DISCORD_RE = re.compile(r"\[\[[^\]]*Discord/[^\]]*\]\]", re.IGNORECASE)
+AGENTS_LINE_RE = re.compile(
+    r"^Agents:.*\n(?:\n)?", re.MULTILINE | re.IGNORECASE
+)
+DISCORD_EDITOR_LINE_RE = re.compile(
+    r"^.*\bDiscord quarry\b.*\n"
+    r"|^.*\bpending re-download\b.*Discord.*\n"
+    r"|^.*\bsynced from \[\[Discord/.*\n",
+    re.MULTILINE | re.IGNORECASE,
+)
+PUBLIC_SECTIONS_DROP = frozenset({"discord", "maintenance"})
 
 
 @dataclass(frozen=True)
@@ -177,6 +189,12 @@ def passes_where(note: VaultNote, where: str | None) -> bool:
     if name_ne_match:
         return note.name != name_ne_match.group(1)
 
+    publish_match = re.fullmatch(r"publish\s*=\s*(true|false)", where, re.IGNORECASE)
+    if publish_match:
+        want = publish_match.group(1).lower() == "true"
+        got = note.frontmatter.get("publish") is True
+        return got == want
+
     print(f"warning: unsupported dataview WHERE: {where}", file=sys.stderr)
     return True
 
@@ -261,6 +279,52 @@ def expand_dataview(text: str, index: list[VaultNote]) -> str:
     return DATAVIEW_BLOCK_RE.sub(replace, text)
 
 
+def drop_public_sections(text: str) -> str:
+    """Remove ## Discord / ## Maintenance blocks from published markdown."""
+    lines = text.splitlines()
+    out: list[str] = []
+    skip = False
+    for line in lines:
+        if line.startswith("## "):
+            heading = line[3:].strip().lower()
+            skip = heading in PUBLIC_SECTIONS_DROP
+        if skip:
+            continue
+        out.append(line)
+    return "\n".join(out)
+
+
+def sanitize_frontmatter_block(fm: str) -> str:
+    kept: list[str] = []
+    for line in fm.splitlines():
+        stripped = line.strip()
+        if "Discord/" in line or stripped.lower().startswith("discord/"):
+            continue
+        kept.append(line)
+    return "\n".join(kept)
+
+
+def sanitize_for_publish(text: str) -> str:
+    """Strip editor-only paths and Discord provenance from staged markdown."""
+    text = AGENTS_LINE_RE.sub("", text)
+    text = drop_public_sections(text)
+    text = WIKILINK_DISCORD_RE.sub("", text)
+    text = DISCORD_EDITOR_LINE_RE.sub("", text)
+    text = text.replace("[[source/", "[[Sourcebook/")
+    text = text.replace("[[source|", "[[Sourcebook|")
+    text = text.replace('FROM "source"', 'FROM "Sourcebook"')
+    text = text.replace("`source/", "`Sourcebook/")
+
+    match = FRONTMATTER_RE.match(text)
+    if match:
+        cleaned_fm = sanitize_frontmatter_block(match.group(1))
+        text = f"---\n{cleaned_fm}\n---" + text[match.end() :]
+
+    # Collapse excessive blank lines from removals
+    text = re.sub(r"\n{4,}", "\n\n\n", text)
+    return text
+
+
 def stage_content(planning_root: Path, staging_root: Path) -> None:
     content_dir = staging_root / "content"
     content_dir.mkdir(parents=True, exist_ok=True)
@@ -270,9 +334,9 @@ def stage_content(planning_root: Path, staging_root: Path) -> None:
         destination.parent.mkdir(parents=True, exist_ok=True)
         if source.suffix.lower() == ".md":
             text = source.read_text(encoding="utf-8")
-            destination.write_text(
-                expand_dataview(text, vault_index), encoding="utf-8"
-            )
+            text = expand_dataview(text, vault_index)
+            text = sanitize_for_publish(text)
+            destination.write_text(text, encoding="utf-8")
         else:
             shutil.copy2(source, destination)
 

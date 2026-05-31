@@ -1,4 +1,5 @@
 ---
+publish: true
 type: event
 status: draft
 sources:
@@ -8,7 +9,7 @@ related_world:
   - "[[Roma]]"
   - "[[Baptiste]]"
   - "[[Linus Marrow]]"
-  - "[[Vorro]]"
+  - "[[Calder Voss]]"
 related_events:
   - "[[Timeline/Undated/[Event] The Friendly Baron]]"
 ---
@@ -21,7 +22,7 @@ Escort fleet battle: **Commander Leon** (Flame Logia); Lunarian **Alice** burns 
 
 1. **Fleet fight** — Commander Leon (Flame Logia); Alice burns escort ships.
 2. **Abduction** — Nikolai/Anton mist takes Alice + [[Malphas]].
-3. **Aftermath** — [[Vorro]] escapes; **Droven** fate unresolved.
+3. **Aftermath** — [[Calder Voss]] escapes; **Droven** fate unresolved.
 
 ## Evidence
 

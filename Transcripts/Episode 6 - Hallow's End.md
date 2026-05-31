@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 6
 title: "Hallow's End"
@@ -11,7 +12,7 @@ sources:
 
 ## Extracted
 
-> Speech-to-text: Hello → [[Hallow]]; Bob → [[Malphas]]; Serika/Sarika → [[Cerica Corvine]]; Whale → [[Veyl Corvine]]; Memphis → [[Malphas]].
+> Speech-to-text: Hello → [[Hallow]]; Bob → [[Malphas]]; Serika/Sarika → [[Serica Corven]]; Whale → [[Veyl Corven]]; Memphis → [[Malphas]].
 
 ### Summary
 
@@ -26,7 +27,7 @@ sources:
 | Role | Note |
 |------|------|
 | PCs (this ep) | [[Malphas]], [[Roma]], [[Baptiste]] |
-| Sixfold | [[Veyl Corvine]], [[Cerica Corvine]] |
+| Sixfold | [[Veyl Corven]], [[Serica Corven]] |
 | Spider's Nest | [[Daniel (Spider's Nest)]], [[Ben (Spider's Nest)]], [[Chloe (Spider's Nest)]] |
 | Antagonist | [[Hallow]] |
 | Dead/ref | Tyrant **Silas** (see [[Sessions/Sidequests/Spider's Nest]]) |

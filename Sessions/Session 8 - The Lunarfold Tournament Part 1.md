@@ -1,4 +1,5 @@
 ---
+publish: true
 type: session
 episode: 8
 status: draft
@@ -22,7 +23,7 @@ sources:
 
 ## Cast (this episode)
 
-- [[Malphas]] · [[Roma]] · [[Baptiste]] · [[Veyl Corvine]] · [[Cerica Corvine]]
+- [[Malphas]] · [[Roma]] · [[Baptiste]] · [[Veyl Corven]] · [[Serica Corven]]
 - [[Daniel (Spider's Nest)]] · [[Ben (Spider's Nest)]] · [[Chloe (Spider's Nest)]]
 
 ## Session ↔ episode note

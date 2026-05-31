@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 21
 title: "House of Justice"
@@ -18,7 +19,7 @@ sources:
 
 - **Freefield** → **Dravo** Thousand-Mile Tunnel (ship fall); twin islands Lex Imperia / Newshold.
 - Roma infiltrates **House Valehart** as chef; Malphas cathedral chaos; prison riot (~686 freed).
-- [[Linus Marrow]] returns; fight vs [[Vorro]] + G-45 armor Marine — cliffhanger.
+- [[Linus Marrow]] returns; fight vs [[Calder Voss]] + G-45 armor Marine — cliffhanger.
 
 ### People (links)
 
@@ -26,7 +27,7 @@ sources:
 |------|------|
 | PCs | [[Malphas]], [[Roma]], [[Baptiste]], [[Cade Tigor Cooper]] |
 | Allies | [[Linus Marrow]], Dravo |
-| Antagonists | [[Vorro]], Marines, House Valehart |
+| Antagonists | [[Calder Voss]], Marines, House Valehart |
 | Targets | Zim, Droven |
 
 ### Open questions

@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 17
 title: "Agony of Choas"

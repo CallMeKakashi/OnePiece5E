@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 16
 title: "Broken Promises"

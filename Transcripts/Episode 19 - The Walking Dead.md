@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 19
 title: "The Walking Dead"

@@ -7,7 +7,17 @@ sources:
   - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Baptiste.md"
   - "Timeline/Undated/[Backstory] Elizabeth Marrow — mortuary escape.md"
   - "Timeline/Undated/[Backstory] Blackhand Cane — Raid Kingdom.md"
+  - "Discord/exports/character-art"
+  - "Discord/exports/bounty-posters"
+  - "Discord/exports/devil-fruit-dex"
 ---
+## Visuals
+
+![[Attachments/baptiste-portrait.png|Portrait]]
+![[Attachments/baptiste-bounty.png|Bounty poster]]
+
+*Discord quarry: [[Discord/exports/character-art]], [[Discord/exports/bounty-posters]]*
+
 
 ## Description
 
@@ -16,6 +26,8 @@ A young Lunarian man with black wings and burning eyes. His movements carry the 
 ## Role
 
 Lunarian fighter and member of the [[Lunarfolds]]. Sails under [[Blackhand Cane]]. Not the Blackhand **unit** member at Spirit Cliff — see [[Baptiste (Blackhand unit)]].
+
+Devil Fruit: [[Uchu Uchu no Mi]].
 
 ## Personal Quests
 

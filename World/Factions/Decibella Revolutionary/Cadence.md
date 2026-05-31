@@ -3,7 +3,15 @@ type: actor
 faction: "[[Decibella Revolutionary]]"
 status: draft
 publish: true
+sources:
+  - "Discord/exports/bounty-posters"
 ---
+## Visuals
+
+![[Attachments/cadence-bounty.png|Bounty poster]]
+
+*Discord quarry: [[Discord/exports/bounty-posters]]*
+
 
 ## Description
 

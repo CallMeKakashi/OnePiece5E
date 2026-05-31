@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 10
 title: "Sea of Nightmares"
@@ -12,12 +13,12 @@ sources:
 
 ## Extracted
 
-> Speech-to-text: Bob/Malfus → [[Malphas]]; Veil → [[Veyl Corvine]]; Serika → [[Cerica Corvine]]; Voro/Voss = Marine captain.
+> Speech-to-text: Bob/Malfus → [[Malphas]]; Veil → [[Veyl Corven]]; Serika → [[Serica Corven]]; Voro/Voss = Marine captain.
 
 ### Summary
 
 - [[Malphas]] Lunarian dream (outpost attack) → wakes as ship hit; [[Daniel (Spider's Nest)]] betrays crew to Marines (Mugen / Lunarion research).
-- Deck fight: Wonderland construct, Daniel killed in nightmare layer, Ben overboard; [[Veyl Corvine]] & [[Cerica Corvine]] missing then trapped in ring nightmares.
+- Deck fight: Wonderland construct, Daniel killed in nightmare layer, Ben overboard; [[Veyl Corven]] & [[Serica Corven]] missing then trapped in ring nightmares.
 - Shared nightmare; [[B.O.B]] traces purple **cursed rings**; patron demands [[Baptiste]] find its vessel — refused; exhaustion / warlock-like ring slots.
 
 ### People (links)
@@ -26,12 +27,12 @@ sources:
 |------|------|
 | PCs | [[Malphas]], [[Baptiste]], [[Roma]], [[B.O.B]] |
 | Spider's Nest | [[Daniel (Spider's Nest)]], [[Chloe (Spider's Nest)]], [[Ben (Spider's Nest)]] |
-| Sixfold | [[Veyl Corvine]], [[Cerica Corvine]] |
+| Sixfold | [[Veyl Corven]], [[Serica Corven]] |
 | Antagonists | Marine captain (Voro/Voss STT), Wonderland |
 
 ### Open questions
 
-- Marine captain vs [[Vorro]] identity.
+- Marine captain vs [[Calder Voss]] identity.
 - Ring patron name and remaining ring set.
 
 ---

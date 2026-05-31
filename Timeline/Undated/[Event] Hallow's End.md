@@ -1,4 +1,5 @@
 ---
+publish: true
 type: event
 status: draft
 sources:
@@ -9,8 +10,8 @@ related_world:
   - "[[Malphas]]"
   - "[[Roma]]"
   - "[[Baptiste]]"
-  - "[[Veyl Corvine]]"
-  - "[[Cerica Corvine]]"
+  - "[[Veyl Corven]]"
+  - "[[Serica Corven]]"
   - "[[Sixfold]]"
   - "[[Hallow]]"
   - "[[Daniel (Spider's Nest)]]"

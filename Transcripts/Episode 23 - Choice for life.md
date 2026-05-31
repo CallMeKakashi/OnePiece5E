@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 23
 title: "Choice for life"
@@ -25,7 +26,7 @@ sources:
 | Role | Note |
 |------|------|
 | PCs | [[Malphas]], [[Roma]], [[Baptiste]], [[Linus Marrow]] |
-| Captive | [[Vorro]], Zim |
+| Captive | [[Calder Voss]], Zim |
 
 ### Open questions
 

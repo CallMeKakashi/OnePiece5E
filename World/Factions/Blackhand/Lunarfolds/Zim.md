@@ -11,7 +11,16 @@ sources:
   - "[[Episode 22 - The Missing Piece]]"
   - "[[Episode 23 - Choice for life]]"
   - "[[Episode 25 - Fire Storm]]"
+  - "Discord/exports/character-art"
+  - "Discord/exports/bounty-posters"
 ---
+## Visuals
+
+![[Attachments/zim-portrait.png|Portrait]]
+![[Attachments/zim-bounty.png|Bounty poster]]
+
+*Discord quarry: [[Discord/exports/character-art]], [[Discord/exports/bounty-posters]]*
+
 
 ## Description
 
@@ -32,11 +41,11 @@ Spy and informant for the [[Lunarfolds]]. [[Sixfold]]-associated operative. Prev
 
 Pulled from a log at sea and rescued by the crew en route to **Loguetown** (East Blue). Hostile at first; held in a cage aboard Spider's Nest vessel after the tournament. Traded a G-45 **journal**, island blueprints, and shipment ledgers for intel on **Vireth** (flying North Blue → South Blue) and **[[Liz Marrow]]** / Sixfold accompaniment. Her own notebook was shown **blank** — real intel never written down.
 
-Subjected to interrogation: [[Roma]] intimidation, [[Veyl Corvine]] rough questioning, [[Malphas]] Detect Thoughts (surface thought: must "save After"). Released after answering who accompanied Vireth besides Liz; the journal reads blank to the party afterward. [[Chloe (Spider's Nest)]] recognized her ("This one").
+Subjected to interrogation: [[Roma]] intimidation, [[Veyl Corven]] rough questioning, [[Malphas]] Detect Thoughts (surface thought: must "save After"). Released after answering who accompanied Vireth besides Liz; the journal reads blank to the party afterward. [[Chloe (Spider's Nest)]] recognized her ("This one").
 
 ### Episodes 21–25 — Rescue and Escape
 
-Trial island target during Episode 21; party splits ops to free Zim alongside **Droven** / Dravo. Rescued from **[[Vorro]]**'s seastone brig in Episode 22; admits spy role. Broken arm at time of rescue. Aboard **SSR Caravelle** during the naval chase and **Fire Storm** escort battle (Episodes 23–25).
+Trial island target during Episode 21; party splits ops to free Zim alongside **Droven** / Dravo. Rescued from **[[Calder Voss]]**'s seastone brig in Episode 22; admits spy role. Broken arm at time of rescue. Aboard **SSR Caravelle** during the naval chase and **Fire Storm** escort battle (Episodes 23–25).
 
 ## Open Questions
 
@@ -46,7 +55,7 @@ Trial island target during Episode 21; party splits ops to free Zim alongside **
 ## Related
 
 - [[Linus Marrow]]
-- [[Vorro]]
+- [[Calder Voss]]
 - [[Sixfold]]
 - [[Daniel (Spider's Nest)]]
 - [[Chloe (Spider's Nest)]]

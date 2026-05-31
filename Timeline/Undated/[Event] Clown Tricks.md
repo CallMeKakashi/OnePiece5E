@@ -1,4 +1,5 @@
 ---
+publish: true
 type: event
 status: draft
 sources:
@@ -7,7 +8,7 @@ related_world:
   - "[[Baptiste]]"
   - "[[Roma]]"
   - "[[B.O.B]]"
-  - "[[Veyl Corvine]]"
+  - "[[Veyl Corven]]"
 related_events:
   - "[[Timeline/Undated/[Event] Welcome to the Jungle]]"
   - "[[Timeline/Undated/[Event] The Reaper (No DM Audio)]]"
@@ -19,7 +20,7 @@ Clown-ship crisis continues: **Bessie** (giant crab vessel), captive handling, M
 
 ## Beats
 
-1. **Captives** — knock out waking prisoners; [[Veyl Corvine]] distracts Bessie.
+1. **Captives** — knock out waking prisoners; [[Veyl Corven]] distracts Bessie.
 2. **Handler** — [[B.O.B]] animal-handling with clown handler.
 3. **Pursuit** — [[Malphas]] still on Ep 11 speedboat (off-mic).
 4. **Bridge** — STT degrades; leads into Ep 13.

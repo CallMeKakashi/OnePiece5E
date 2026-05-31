@@ -1,4 +1,5 @@
 ---
+publish: true
 type: event
 status: draft
 sources:
@@ -8,7 +9,7 @@ related_world:
   - "[[Roma]]"
   - "[[Baptiste]]"
   - "[[Linus Marrow]]"
-  - "[[Vorro]]"
+  - "[[Calder Voss]]"
 related_events:
   - "[[Timeline/Undated/[Event] House of Justice]]"
   - "[[Timeline/Undated/[Event] Choice for life]]"

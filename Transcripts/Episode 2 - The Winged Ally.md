@@ -1,4 +1,5 @@
 ---
+publish: true
 type: transcript
 episode: 2
 title: "The Winged Ally"

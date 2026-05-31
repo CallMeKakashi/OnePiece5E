@@ -41,7 +41,7 @@ In-world chronology on the One Piece calendar; notes in `Timeline/` (year subfol
 _Avoid_: Session order, episode order
 
 **Timeline entry**:
-A dated or sortable note in `Timeline/` with frontmatter `type: event | newspaper | backstory` and `status: draft | canon`. Evidence for table play stays in `Sessions/` and `Transcripts/`; Discord exports are quarries cited in `sources` (historical paths may reference the retired `Old Notes/` tree).
+A dated or sortable note in `Timeline/` with frontmatter `type: event | newspaper | backstory` and `status: draft | canon`. Evidence for table play stays in `Sessions/` and `Transcripts/`; Discord exports are quarries cited in `sources` (channel registry: [[Discord/_index]]; historical paths may reference the retired `Old Notes/` tree).
 _Avoid_: Treating timeline text as session canon without checking sources
 
 **Newspaper**:
@@ -49,7 +49,7 @@ An in-fiction press article (`type: newspaper` in `Timeline/`); headlines from t
 _Avoid_: Session note, transcript, rules text
 
 **Source**:
-Imported One Piece D&D rules reference (DM Guide + Player's Guide) converted from PDFs; notes in `source/`.
+Imported One Piece D&D rules reference (DM Guide + Player's Guide) converted from PDFs; notes in `Sourcebook/`.
 _Avoid_: World (fiction), Rules (homebrew only)
 
 **Rules**:
@@ -72,6 +72,12 @@ All named characters live under their faction in `World/Factions/`. Current fact
 | [[Spider Nest Pirates]] | `World/Factions/Spider Nest Pirates/` | Pirate crew |
 | [[Soundless 5]] | `World/Factions/Soundless 5/` | Decibella Kingdom enforcers |
 | [[Mugen Industries]] | `World/Factions/Mugen Industries/` | Industrial faction |
+| [[High Roost Pirates]] | `World/Factions/High Roost Pirates/` | Pirate crew (Jack S. Parrow) |
+| [[Braveheart Pirates]] | `World/Factions/Blackhand/Braveheart Pirates/` | Blackhand 4th Fleet sub-crew (Mira) |
+| [[Guiseppi Family]] | `World/Factions/Guiseppi Family/` | Crime family / syndicate |
+| Unaffiliated | `World/Factions/Unaffiliated/` | Former PCs and unknown-affiliation actors |
+
+**Folder policy (2026-05-31):** Actors live under `World/Factions/` only — do not populate legacy `Characters/`, `Party NPC's/`, or `Crew/` folders.
 
 ## Relationships
 
