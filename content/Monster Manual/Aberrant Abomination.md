@@ -42,7 +42,7 @@ Use as a **solo boss-tier** aberration (CR 10) when Nikolai deploys his heaviest
 - [[Timeline/1478/1478-12moon [Newspaper] Grand Line Tribune — Morning|Callisto collapse press]] (facility context)
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 07:07 UTC*
+*Last synced: 2026-06-01 05:24 UTC*
 
 ```statblock
 name: Aberrant Abomination
