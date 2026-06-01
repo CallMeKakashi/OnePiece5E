@@ -9,7 +9,7 @@ foundry_live_slug: "guard"
 
 ## Visuals
 
-![[Attachments/monsters/guard.webp|Token]]
+![[Attachments/monsters/guard.webp|registry-image]]
 
 **Look:** Stock **town guard** — spear and shield, light armor, helmet; interchangeable watchman or marine filler for random encounters.
 

@@ -9,7 +9,7 @@ foundry_live_slug: "smiling-watcher"
 
 ## Visuals
 
-![[Attachments/monsters/smiling-watcher.png|Token]]
+![[Attachments/monsters/smiling-watcher.png|registry-image]]
 
 **Look:** **Evolved cave-line aberration** — tall, spindly humanoid with pale corded muscle-plate skin; **fixed wide toothy grin**; **no nose**; **horizontal slit "eyes"** pulsing faint red (reads as watching / planning, unlike eyeless **[[Cave Render]]**); deep vertical **chest fissure**; long wiry limbs and elongated claw fingers; often **theatrical upright pose** (arms spread, one leg crossed) — mockery, not a feral crouch.
 

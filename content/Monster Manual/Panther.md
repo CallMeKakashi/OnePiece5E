@@ -9,7 +9,7 @@ foundry_live_slug: "panther"
 
 ## Visuals
 
-![[Attachments/monsters/panther.webp|Token]]
+![[Attachments/monsters/panther.webp|registry-image]]
 
 **Look:** Stock **black panther** — sleek muscular big cat, low stalking pose, Forgotten Adventures token art; generic grassland/jungle ambush predator (not Lunafang-mutated).
 

@@ -9,7 +9,7 @@ foundry_live_slug: "swarm-of-quippers"
 
 ## Visuals
 
-![[Attachments/monsters/swarm-of-quippers.webp|Token]]
+![[Attachments/monsters/swarm-of-quippers.webp|registry-image]]
 
 **Look:** Stock **quipper swarm** — dense school of tiny piranha-like fish, silver flash and needle teeth when the mass surges; reads as one writhing medium token. In **Puff-Island** lung tunnels, reskin as **Sneezefish** (wall-embedded fish that inflate and blast air).
 

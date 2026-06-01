@@ -9,7 +9,7 @@ foundry_live_slug: "pump-up-pirate"
 
 ## Visuals
 
-![[Attachments/monsters/pump-up-pirate.png|Token]]
+![[Attachments/monsters/pump-up-pirate.png|registry-image]]
 
 **Look:** **Rookie pirate recruit** — bald, muscular man in dark suit jacket, black shirt, **red tie**, sunglasses, black gloves; small white shoulder emblem. Reads as Gin's clean-cut deck muscle, not mafia street wear (contrast **[[Mafia Grunt]]**).
 

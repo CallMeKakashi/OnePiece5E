@@ -9,7 +9,7 @@ foundry_live_slug: "titan-ape"
 
 ## Visuals
 
-![[Attachments/monsters/titan-ape.png|Token]]
+![[Attachments/monsters/titan-ape.png|registry-image]]
 
 **Look:** **Humongous crazed bear-monster** (vault name **Titan Ape**; reads as ursine, not gorilla) — shaggy **white fur** with **dark red** shoulder patches; small roaring head with **upcurved tusks**; belly and chest bear a **false face** (red “eyes” and a wide **grinning maw** of square white teeth) that makes the torso look like a second, laughing predator. Raised-arms silhouette — titan bulk in the **largest cave chamber**.
 

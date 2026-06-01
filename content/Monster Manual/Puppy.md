@@ -9,7 +9,7 @@ foundry_live_slug: "puppy"
 
 ## Visuals
 
-![[Attachments/monsters/puppy.png|Token]]
+![[Attachments/monsters/puppy.png|registry-image]]
 
 **Look:** Lunafang **mutated pet dog** — patchy dark fur over **exposed red muscle**; **three snarling jaws** on one head; dozens of small **glowing red eyes** on shoulders, flanks, and tail. Still dog-sized, but wrong — family pet turned into a Many-Eyes horror.
 

@@ -9,7 +9,7 @@ foundry_live_slug: "giant-crocodile"
 
 ## Visuals
 
-![[Attachments/monsters/giant-crocodile.webp|Token]]
+![[Attachments/monsters/giant-crocodile.webp|registry-image]]
 
 **Look:** Stock **giant crocodile** — long armored snout, plated back, powerful tail; swamp or river apex predator at full size.
 
