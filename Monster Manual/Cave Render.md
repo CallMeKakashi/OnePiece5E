@@ -9,7 +9,7 @@ foundry_live_slug: "cave-render"
 
 ## Visuals
 
-![[Attachments/monsters/cave-render.png|Portrait]]
+![[Attachments/monsters/cave-render.png|registry-image]]
 
 **Look:** Emaciated **cave cannibal** — pale grey skin stretched over ribs; **no eyes or nose**, only a huge vertical tooth-lined maw; belly torn open showing coiled viscera; long black claws; low hunting crouch. Passes for stranded caver until it moves.
 

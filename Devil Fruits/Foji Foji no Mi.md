@@ -21,7 +21,7 @@ related_source:
 | **Owner**    | [[Tray]]               |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/foji-foji-no-mi.png|Devil fruit]]
+![[Attachments/foji-foji-no-mi.png|registry-image]]
 
 ## Description
 

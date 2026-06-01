@@ -23,7 +23,7 @@ related_source:
 | **Owner** | [[Dravos]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/toneru-toneru-no-mi.png|Devil fruit]]
+![[Attachments/toneru-toneru-no-mi.png|registry-image]]
 
 ## Description
 

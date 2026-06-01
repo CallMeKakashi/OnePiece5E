@@ -165,7 +165,7 @@ def render_note(meta: dict, power: str, description: str = "") -> str:
 
     img_block = ""
     if image:
-        img_block = f"\n![[Attachments/{image}|Devil fruit]]\n"
+        img_block = f"\n![[Attachments/{image}|registry-image]]\n"
 
     desc = description or (
         f"Campaign-registered **{fruit_type}** devil fruit. "

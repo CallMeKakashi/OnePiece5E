@@ -23,7 +23,7 @@ related_source:
 | **Owner** | [[Linus Marrow]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/phezu-phezu-no-mi.webp|Devil fruit]]
+![[Attachments/phezu-phezu-no-mi.webp|registry-image]]
 
 ## Description
 

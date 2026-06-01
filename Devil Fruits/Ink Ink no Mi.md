@@ -23,7 +23,7 @@ related_source:
 | **Owner** | [[Rhum Guiseppi]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/ink-ink-no-mi.png|Devil fruit]]
+![[Attachments/ink-ink-no-mi.png|registry-image]]
 
 ## Description
 

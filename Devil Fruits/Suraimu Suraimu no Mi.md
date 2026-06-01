@@ -23,7 +23,7 @@ related_source:
 | **Owner** | [[Droven Calligos]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/suraimu-suraimu-no-mi.webp|Devil fruit]]
+![[Attachments/suraimu-suraimu-no-mi.webp|registry-image]]
 
 ## Description
 

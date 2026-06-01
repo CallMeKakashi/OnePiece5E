@@ -23,7 +23,7 @@ related_source:
 | **Owner** | [[Malak Samum]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/hai-hai-no-mi.jpg|Devil fruit]]
+![[Attachments/hai-hai-no-mi.jpg|registry-image]]
 
 ## Description
 

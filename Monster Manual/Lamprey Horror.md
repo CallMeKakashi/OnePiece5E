@@ -9,7 +9,7 @@ foundry_live_slug: "lamprey-horror"
 
 ## Visuals
 
-![[Attachments/monsters/lamprey-horror.png|Portrait]]
+![[Attachments/monsters/lamprey-horror.png|registry-image]]
 
 **Look:** **River-lamprey abomination** — broad catfish-like head, milky yellow eyes ringed with red markings, gaping tooth-lined mouth, long whisker barbels, spiked chin and torn dorsal fin. "Demon face" in the water — built to latch and drain blood.
 

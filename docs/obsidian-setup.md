@@ -38,7 +38,7 @@ Publishable content is synced to the Quartz `v4` branch via [[../scripts/sync_qu
 
 ## Implementation files
 
-- **Snippet:** `.obsidian/snippets/hide-infrastructure-folders.css`
+- **Snippets:** `.obsidian/snippets/hide-infrastructure-folders.css`, `.obsidian/snippets/registry-images.css` (Monster Manual / Devil Fruits images — right float, 200px)
 - **Enabled in:** `.obsidian/appearance.json`
 - **Template hub:** [[Templates/_index]]
 - **Campaign hub:** [[Home]]
@@ -70,7 +70,7 @@ Workshop build templates (`foundry_template_json`) are separate; refresh with `p
 
 ## One-time setup (you)
 
-1. **Enable the snippet:** **Settings → Appearance → CSS snippets** → turn **on** `hide-infrastructure-folders` (reload the list if it does not appear).
+1. **Enable snippets:** **Settings → Appearance → CSS snippets** → turn **on** `hide-infrastructure-folders` and `registry-images` (reload the list if they do not appear).
 2. **ITS Theme + TTRPG look:** **Settings → Appearance → Themes** → select **ITS Theme** (vault default in `.obsidian/appearance.json`). Requires **Style Settings** plugin — **ITS Theme → Alternate Color Schemes → TTRPG** (vault default: **WOTC/Beyond**). Reload Obsidian (**Ctrl+R**) after changing theme.
 3. **Fantasy Statblocks:** With **obsidian-5e-statblocks**, enable **Style Settings → ITS Theme → 3rd Party Plugins → Disable ITS Styled Statblocks** (vault default on) so plugin statblocks render correctly.
 4. Reload Obsidian (Ctrl+R) or toggle the snippet off and on.

@@ -23,7 +23,7 @@ related_source:
 | **Owner** | [[Daniel]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/koru-koru-no-mi.png|Devil fruit]]
+![[Attachments/koru-koru-no-mi.png|registry-image]]
 
 ## Description
 

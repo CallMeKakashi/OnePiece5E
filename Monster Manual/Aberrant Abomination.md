@@ -9,7 +9,7 @@ foundry_live_slug: "aberrant-abomination"
 
 ## Visuals
 
-![[Attachments/monsters/aberrant-abomination.png|Portrait]]
+![[Attachments/monsters/aberrant-abomination.png|registry-image]]
 
 **Look:** Hulking fusion horror — three lumpy humanoid heads on one torso, each with stringy black hair, milky sunken eyes, and a **vertical** split maw full of needle teeth; pale grey flesh studded with red sore-like pustules; long yellow tongue on the center head. Body-horror boss silhouette (Nikolai triple-creature amalgam).
 

@@ -12,7 +12,7 @@ aliases:
 
 ## Visuals
 
-![[Attachments/monsters/hydra-goose.png|Portrait]]
+![[Attachments/monsters/hydra-goose.png|registry-image]]
 
 **Look:** **White Maw Hydra-Goose** — three long feathered goose necks from one body; beaks split open to show **rows of teeth**; raw pink **flesh tears** on the necks where Lunafang mutation burst the skin. Farmyard bird turned shrieking multi-head horror.
 

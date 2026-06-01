@@ -23,7 +23,7 @@ related_source:
 | **Owner** | [[Gin Guiseppi]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/kobu-kobu-no-mi.png|Devil fruit]]
+![[Attachments/kobu-kobu-no-mi.png|registry-image]]
 
 ## Description
 

@@ -23,7 +23,7 @@ related_source:
 | **Owner** | [[Commander Leon]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/mera-mera-no-mi.png|Devil fruit]]
+![[Attachments/mera-mera-no-mi.png|registry-image]]
 
 ## Description
 

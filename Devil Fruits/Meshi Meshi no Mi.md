@@ -21,7 +21,7 @@ related_source:
 | **Owner** | [[Blackhand Cane]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/meshi-meshi-no-mi.png|Devil fruit]]
+![[Attachments/meshi-meshi-no-mi.png|registry-image]]
 
 ## Description
 

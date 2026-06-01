@@ -9,7 +9,7 @@ foundry_live_slug: "red-maw-beast"
 
 ## Visuals
 
-![[Attachments/monsters/red-maw-beast.png|Portrait]]
+![[Attachments/monsters/red-maw-beast.png|registry-image]]
 
 **Look:** **Bat–human fusion** — hunched pink-red raw flesh, no visible eyes; wide flat head with huge **screaming maw** of yellow teeth, bat-like pointed ears, and dark nostril slits; sparse wiry fur on shoulders; thick fleshy tail. Reads as a failed Nikolai amalgam still close enough to human DNA to hurt.
 

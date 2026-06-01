@@ -23,7 +23,7 @@ related_source:
 | **Owner** | [[Veyl Corvine]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/soku-soku-no-mi.png|Devil fruit]]
+![[Attachments/soku-soku-no-mi.png|registry-image]]
 
 ## Description
 

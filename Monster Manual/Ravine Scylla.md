@@ -9,7 +9,7 @@ foundry_live_slug: "ravine-scylla"
 
 ## Visuals
 
-![[Attachments/monsters/ravine-scylla.png|Portrait]]
+![[Attachments/monsters/ravine-scylla.png|registry-image]]
 
 **Look:** **Ravine apex predator** — low quadruped with slate-blue hide, **silver segmented armor plates** along the back and limbs, star-shaped pink sensory nose, white cheek tufts, and long digging claws. Armored prowler built to hunt burrowing basilisks.
 

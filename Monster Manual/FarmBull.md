@@ -11,7 +11,7 @@ foundry_live_slug: "farmbull"
 
 ## Visuals
 
-![[Attachments/monsters/farmbull.png|Portrait]]
+![[Attachments/monsters/farmbull.png|registry-image]]
 
 **Look:** Lunafang **mutated bull** — deep red-maroon hide, heavy muscle, grey calloused plates on forehead and shoulders; wrong **branching antlers** atop a bovine head; charging leap pose with cloven hooves. Reads as livestock turned into a bull–stag hybrid bruiser (**Bull of Zagresh**).
 

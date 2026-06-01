@@ -21,7 +21,7 @@ related_source:
 | **Owner** | [[Ju Lee Caneheart]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/peto-peto-no-mi.png|Devil fruit]]
+![[Attachments/peto-peto-no-mi.png|registry-image]]
 
 ## Description
 

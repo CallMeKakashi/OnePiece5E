@@ -23,7 +23,7 @@ related_source:
 | **Owner** | [[Rhythm Echo]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/fura-fura-no-mi.png|Devil fruit]]
+![[Attachments/fura-fura-no-mi.png|registry-image]]
 
 ## Description
 

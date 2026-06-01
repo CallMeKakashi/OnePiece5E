@@ -21,7 +21,7 @@ related_source:
 | **Owner** | [[Jack S. Parrow]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/tori-tori-sparrow.png|Devil fruit]]
+![[Attachments/tori-tori-sparrow.png|registry-image]]
 
 ## Description
 

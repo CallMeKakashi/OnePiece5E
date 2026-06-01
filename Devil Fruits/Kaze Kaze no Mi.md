@@ -23,7 +23,7 @@ related_source:
 | **Owner** | [[Mira the Unbreakable]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/kaze-kaze-no-mi.png|Devil fruit]]
+![[Attachments/kaze-kaze-no-mi.png|registry-image]]
 
 ## Description
 

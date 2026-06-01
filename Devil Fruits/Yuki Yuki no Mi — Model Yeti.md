@@ -21,7 +21,7 @@ related_source:
 | **Owner** | [[Roma]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/yukiyukinomi-yeti.png|Devil fruit]]
+![[Attachments/yukiyukinomi-yeti.png|registry-image]]
 
 ## Description
 

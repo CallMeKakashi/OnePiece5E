@@ -21,7 +21,7 @@ related_source:
 | **Owner** | [[Irik Fen]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/dabu-dabu-no-mi.png|Devil fruit]]
+![[Attachments/dabu-dabu-no-mi.png|registry-image]]
 
 ## Description
 

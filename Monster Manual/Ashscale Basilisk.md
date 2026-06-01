@@ -9,7 +9,7 @@ foundry_live_slug: "ashscale-basilisk"
 
 ## Visuals
 
-![[Attachments/monsters/ashscale-basilisk.png|Portrait]]
+![[Attachments/monsters/ashscale-basilisk.png|registry-image]]
 
 **Look:** Oversized scorpion — dark teal-grey chitin with **red hourglass marks** down the segmented back; six small **yellow** eyes; heavy red-tipped pincers and a raised tail stinger. Reads as a giant ash-toned basilisk/scorpion hybrid built for burrowing ambushes.
 

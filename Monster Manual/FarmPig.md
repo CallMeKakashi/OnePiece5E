@@ -11,7 +11,7 @@ foundry_live_slug: "farmpig"
 
 ## Visuals
 
-![[Attachments/monsters/farmpig.png|Portrait]]
+![[Attachments/monsters/farmpig.png|registry-image]]
 
 **Look:** Lunafang **mutated pig** grown into a spined boar — shaggy dark-brown fur, small angry eyes, curling **ivory tusks**, and a ridge of **yellow bone horns** from snout along the spine (**Dire Thornboar** silhouette).
 

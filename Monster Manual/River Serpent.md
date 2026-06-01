@@ -9,7 +9,7 @@ foundry_live_slug: "river-serpent"
 
 ## Visuals
 
-![[Attachments/monsters/river-serpent.png|Portrait]]
+![[Attachments/monsters/river-serpent.png|registry-image]]
 
 **Look:** **Massive hooded serpent** — slate-blue scales, cream banded underbelly, cobra-like hood ringed with **bone ribs ending in pale digging claws** (built to tear through cave walls); small **glowing yellow** eyes; chin barbels; white head spines. Large enough to **engulf a human** whole when it strikes. (Foundry token art is mislabeled "SCYLLA" — vault title is **River Serpent**, distinct from **[[Ravine Scylla]]**.)
 

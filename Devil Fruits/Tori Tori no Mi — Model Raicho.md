@@ -23,7 +23,7 @@ related_source:
 | **Owner** | [[Malphas]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/toritorinomi-raicho.png|Devil fruit]]
+![[Attachments/toritorinomi-raicho.png|registry-image]]
 
 ## Description
 

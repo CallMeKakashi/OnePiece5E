@@ -21,7 +21,7 @@ related_source:
 | **Owner** | [[Owner]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/fruit-image.png|Devil fruit]]
+![[Attachments/fruit-image.png|registry-image]]
 
 ## Description
 

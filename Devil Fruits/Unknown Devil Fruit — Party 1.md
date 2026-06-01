@@ -23,7 +23,7 @@ related_source:
 | **Owner** | Party 1 (unclaimed) |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/unknown-devil-fruit-puzzle-box.png|Devil fruit]]
+![[Attachments/unknown-devil-fruit-puzzle-box.png|registry-image]]
 
 ## Description
 

@@ -23,7 +23,7 @@ related_source:
 | **Owner** | [[Sora]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/ame-ame-no-mi.png|Devil fruit]]
+![[Attachments/ame-ame-no-mi.png|registry-image]]
 
 ## Description
 
@@ -40,6 +40,6 @@ Rain manipulation (campaign homebrew). Former PC fruit; owner now [[Sora]].
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Dev]]
 - Owner: [[Sora]]
 - [[Sora]]

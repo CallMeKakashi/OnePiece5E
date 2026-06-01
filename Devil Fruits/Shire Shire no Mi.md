@@ -21,7 +21,7 @@ related_source:
 | **Owner** | [[Rias Decibel]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/shire-shire-no-mi.png|Devil fruit]]
+![[Attachments/shire-shire-no-mi.png|registry-image]]
 
 ## Description
 

@@ -21,7 +21,7 @@ related_source:
 | **Owner** | [[Baptiste]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/uchu-uchu-no-mi.png|Devil fruit]]
+![[Attachments/uchu-uchu-no-mi.png|registry-image]]
 
 ## Description
 
