@@ -23,7 +23,7 @@ Soundless Five enforcer. Devil Fruit: [[Fura Fura no Mi]] (Float-Float).
 Workshop JSON (import/build): `[[Foundry/actors-json/rythm.json]]`.
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 05:10 UTC*
+*Last synced: 2026-06-01 07:19 UTC*
 
 ```statblock
 name: Rhythm Echo
@@ -42,13 +42,14 @@ skills:
 - Persuasion: +5
 traits:
 - name: Vertigo Field
-  desc: "Aura (20 ft). Creatures of Rhythm's choice must succeed on a DC 16 Constitution save or be affected by slow for 1 minute.The inner ear loses sync with reality. Muscles obey commands too late."
+  desc: "Aura (20 ft). Creatures of Rhythm's choice must succeed on a DC 16 Constitution save or be affected by slow for 1 minute. The inner ear loses sync with reality. Muscles obey commands too late."
 - name: Temporal Deflection
   desc: When Rhythm is hit by an attack, he imposes disadvantage on that attack roll.
-- name: Sonic Hammer
-  desc: A heavy resonant hammer that releases concussive sound on impact.
-- name: Pulse Slam
-  desc: A concussive ground impact. On a failed save, the target is knocked prone and stunned until the end of its next turn. Half damage on a success, no stun.
 - name: Mutation Trigger
   desc: When Rhythm is reduced below 40 HP, he automatically mutates into his next form.
+actions:
+- name: Sonic Hammer
+  desc: "A heavy resonant hammer that releases concussive sound on impact. Melee Weapon Attack: +5 to hit. Hit: 2d6 thunder"
+- name: Pulse Slam
+  desc: "A concussive ground impact. On a failed save, the target is knocked prone and stunned until the end of its next turn. Half damage on a success, no stun. DC 13. CON save. Damage: 4d8 thunder"
 ```

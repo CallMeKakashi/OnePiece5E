@@ -185,7 +185,6 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Carrion Stalker]]
 - [[Carrion Vulture]]
 - [[Cave Render]]
-- [[Chicken]]
 - [[Crystalback Scorpion]]
 - [[FarmBull]]
 - [[FarmPig]]
