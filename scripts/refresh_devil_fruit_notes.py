@@ -178,7 +178,7 @@ def render_note(meta: dict, power: str, description: str = "") -> str:
         drawbacks += "\n- **Elemental body** — logia intangibility unless struck with haki or countered by the element."
 
     owner_link = owner.strip("[]") if owner.startswith("[[") else owner
-    see_also = f"- [[Chapter 6 Devil Fruits]]\n- Owner: {owner}"
+    see_also = f"- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]\n- Owner: {owner}"
     if owner_link and not owner_link.startswith("Party"):
         see_also += f"\n- [[{owner_link}]]"
 
@@ -193,7 +193,7 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 {heading}

@@ -1,6 +1,6 @@
 ---
 type: devil-fruit
-fruit_type: Paramecia
+fruit_type: Logia
 publish: true
 status: canon
 owner: "[[Mira the Unbreakable]]"
@@ -9,12 +9,12 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Kaze Kaze no Mi
 
-*Paramecia, unique (consumed — replaces attunement)*
+*Logia, unique (consumed — replaces attunement)*
 
 *Wind-Wind Fruit*
 
@@ -27,11 +27,16 @@ related_source:
 
 ## Description
 
-Campaign-registered **Paramecia** devil fruit. Current eater: [[Mira the Unbreakable]].
+Campaign-registered **Logia** devil fruit. Current eater: [[Mira the Unbreakable]]. The full extent of her fruit is unknown; she is known to hold back in most fights.
 
-## Properties
+## Powers
 
-Wind manipulation. Blackhand 4th Fleet Commander.
+- **Air form** — Logia body of air; immune to non-Haki weapon damage unless struck with Haki or an appropriate counter.
+- **Air-infused strike** — Imbue unarmed blows with wind (bludgeoning plus thunder).
+- **Wind step** — Bonus action Dash; advantage on the next attack.
+- **Tempest throw** — Hurl a grappled foe up to 40 ft; heavy damage, prone, collision harm.
+- **Aerial domination** — Hover and fly; no opportunity attacks while airborne; can move through other creatures.
+- **Stable tornado** — Conjure a tornado at a chosen spot and keep it stable for a long time.
 
 ## Drawbacks
 
@@ -40,6 +45,6 @@ Wind manipulation. Blackhand 4th Fleet Commander.
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
 - Owner: [[Mira the Unbreakable]]
 - [[Mira the Unbreakable]]

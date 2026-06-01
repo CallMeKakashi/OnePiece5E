@@ -9,7 +9,7 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Koru Koru no Mi
@@ -29,9 +29,17 @@ related_source:
 
 Campaign-registered **Paramecia** devil fruit. Current eater: [[Daniel]].
 
-## Properties
+## Powers
 
-Charcoal and coal manipulation. **No-Knees Phantom** — [[Daniel]], navigator of the [[Spider Nest Pirates]].
+- **Coal-Coal: Ashplate** — Form a coal shell around the body; increases durability.
+- **Coal-Coal: Grit burst** — Launch coal projectiles from the arms.
+- **Coal-Coal: Mass mould** — Build coal structures; total mass cannot exceed his own body mass.
+
+## Upgraded abilities
+
+With enough training and experience, [[Daniel]]:
+
+- **Coal-Coal: Furnace stride** — Form coal legs that greatly increase speed and attack power.
 
 ## Drawbacks
 
@@ -40,6 +48,6 @@ Charcoal and coal manipulation. **No-Knees Phantom** — [[Daniel]], navigator o
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
 - Owner: [[Daniel]]
 - [[Daniel]]

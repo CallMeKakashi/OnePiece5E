@@ -9,7 +9,7 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Shire Shire no Mi
@@ -38,6 +38,6 @@ Campaign homebrew. Listed owner in dex: Rias Decibel (Motley Crew / Decibella Re
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
 - Owner: [[Rias Decibel]]
 - [[Rias Decibel]]

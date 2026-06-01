@@ -9,12 +9,14 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Fōji Fōji no Mi
 
 *Paramecia, unique (consumed — replaces attunement)*
+
+*Forge-Forge Fruit*
 
 |              |                        |
 | ------------ | ---------------------- |
@@ -25,11 +27,19 @@ related_source:
 
 ## Description
 
-Campaign-registered **Paramecia** devil fruit. Current eater: [[Tray]].
+Campaign-registered **Paramecia** devil fruit (**Forge-Forge**). Current eater: [[Tray]].
 
-## Properties
+## Powers
 
-Campaign homebrew fruit (Forge-related paramecia per naming). Braveheart / Blackhand deckhand Tray Caneheart.
+- **Forge Fists: Soft Hammer** — Strike to heal or harm; harm is weak and often inaccurate.
+- **Forge Fists: Full Mend** — When he heals, the target and whatever they are wearing are restored together.
+
+## Rage
+
+- **Forge Fists: Blind Furnace** — Uncontrollable rage; loses sense of friend or foe; uses the fruit at full extent.
+- **Forge Fists: Brand** — Fists burn like hot iron and cleave through anything in his path.
+- **Forge Fists: Fault Line** — Blows shock the ground and cause earthquakes.
+- **Forge Fists: Sunder** — At full rage, strikes can split buildings, the shoreline, or the sea itself.
 
 ## Drawbacks
 
@@ -38,6 +48,6 @@ Campaign homebrew fruit (Forge-related paramecia per naming). Braveheart / Black
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
 - Owner: [[Tray]]
 - [[Tray]]

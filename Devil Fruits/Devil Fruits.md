@@ -5,7 +5,7 @@ status: draft
 
 # Devil Fruits
 
-Campaign devil fruit registry — image, power, and current owner. Template: [[Devil Fruit Template]]. System rules: [[Chapter 6 Devil Fruits]]. Discord quarry: [[Discord/exports/devil-fruit-dex]].
+Campaign devil fruit registry — image, power, and current owner. Template: [[Devil Fruit Template]]. System rules: [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]. Discord quarry: [[Discord/exports/devil-fruit-dex]].
 
 ## Registry
 

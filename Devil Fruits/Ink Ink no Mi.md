@@ -9,29 +9,30 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Ink Ink no Mi
 
-*Paramecia, unique (consumed — replaces attunement)*
+*Logia, unique (consumed — replaces attunement)*
 
-*墨墨の実*
+*Ink-Ink Fruit*
 
-| | |
-| --- | --- |
-| **Owner** | [[Rhum Guiseppi]] |
-| **Registry** | [[Devil Fruits]] |
+|              |                   |
+| ------------ | ----------------- |
+| **Owner**    | [[Rhum Guiseppi]] |
+| **Registry** | [[Devil Fruits]]  |
 
 ![[Attachments/ink-ink-no-mi.png|registry-image]]
 
 ## Description
 
-Campaign-registered **Paramecia** devil fruit. Current eater: [[Rhum Guiseppi]].
+Campaign-registered **Logia** devil fruit (**Ink-Ink**). Current eater: [[Rhum Guiseppi]].
 
-## Properties
+## Powers
 
-Ink manipulation. [[Rhum Guiseppi]] of the [[Guiseppi Family]] — twin of [[Rum Guiseppi]]. Campaign registry name: **Ink-Ink** (distinct from Daniel's [[Koru Koru no Mi|Coal-Coal]] fruit).
+- **Ink spot** — Vanish into an ink spot as small as a dot.
+- **Free flow** — Move the spot where he chooses and step in or out of it.
 
 ## Drawbacks
 
@@ -40,6 +41,6 @@ Ink manipulation. [[Rhum Guiseppi]] of the [[Guiseppi Family]] — twin of [[Rum
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
 - Owner: [[Rhum Guiseppi]]
 - [[Rhum Guiseppi]]

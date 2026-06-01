@@ -55,7 +55,7 @@ Devil Fruit: [[Koru Koru no Mi]] (Coal-Coal).
 - [[Hallow]]
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 05:10 UTC*
+*Last synced: 2026-06-01 11:11 UTC*
 
 ```statblock
 name: Daniel

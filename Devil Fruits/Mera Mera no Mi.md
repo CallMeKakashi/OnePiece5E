@@ -9,7 +9,7 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Mera Mera no Mi
@@ -29,9 +29,12 @@ related_source:
 
 Campaign-registered **Logia** devil fruit. Current eater: [[Commander Leon]].
 
-## Properties
+## Powers
 
-Logia flame generation and transformation.
+- **Flame-Flame: Flame body** — Become flame (Logia); immune to non-Haki physical damage while transformed; resist fire; melee attacks can carry extra fire damage.
+- **Flame-Flame: Flame command** — Produce and shape fire as a Logia.
+- **Flame-Flame: Flame slash** — A melee strike laced with flame (piercing plus heavy fire).
+- **Flame-Flame: Fire burst** — Detonate fire in a 20 ft radius; Dexterity save for half.
 
 ## Drawbacks
 
@@ -41,6 +44,6 @@ Logia flame generation and transformation.
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
 - Owner: [[Commander Leon]]
 - [[Commander Leon]]

@@ -1,6 +1,6 @@
 ---
 type: devil-fruit
-fruit_type: Paramecia
+fruit_type: Logia
 publish: true
 status: canon
 owner: "[[Malak Samum]]"
@@ -9,12 +9,12 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Hai Hai no Mi
 
-*Paramecia, unique (consumed — replaces attunement)*
+*Logia, unique (consumed — replaces attunement)*
 
 *Ash-Ash Fruit*
 
@@ -27,11 +27,15 @@ related_source:
 
 ## Description
 
-Campaign-registered **Paramecia** devil fruit. Current eater: [[Malak Samum]].
+Campaign-registered **Logia** devil fruit. Current eater: [[Malak Samum]].
 
-## Properties
+## Powers
 
-Ash manipulation. Doctor of the Braveheart Pirates — no vault actor page yet.
+- **Palm Volley** — Fire ash arrows from the palms; shots can lodge in a target and deal fire damage until removed.
+- **Armory Limb** — Shape or transform the body into swords, lances, or other weapons by manipulating ash.
+- **Suffocation Veil** — Spread ash to choke enemies or filter and clear the surrounding air.
+- **Ash Walk** — Vanish and reappear in a short hop through ash.
+- **Phoenix Ashe** — Pool of healing dice; use a bonus action to touch an ally and restore hit points, or spend one die to end a disease or poison.
 
 ## Drawbacks
 
@@ -40,6 +44,6 @@ Ash manipulation. Doctor of the Braveheart Pirates — no vault actor page yet.
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
 - Owner: [[Malak Samum]]
 - [[Malak Samum]]

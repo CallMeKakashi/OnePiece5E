@@ -9,12 +9,14 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Peto Peto no Mi
 
 *Paramecia, unique (consumed — replaces attunement)*
+
+*Pet-Pet Fruit*
 
 | | |
 | --- | --- |
@@ -25,11 +27,14 @@ related_source:
 
 ## Description
 
-Campaign-registered **Paramecia** devil fruit. Current eater: [[Ju Lee Caneheart]].
+Campaign-registered **Paramecia** devil fruit (**Pet-Pet**). Current eater: [[Ju Lee Caneheart]].
 
-## Properties
+## Powers
 
-Campaign homebrew. Mascot of the Braveheart Pirates — no vault actor page yet.
+- **Pet-Pet: Tame** — Pet a beast in melee range; on a failed Wisdom save it is charmed indefinitely. Hostile beasts have advantage on the save unless restrained or subdued.
+- **Pet-Pet: Wordless speech** — Communicate with beasts without talking; they understand her and act on her wishes.
+- **Pet-Pet: Animal affinity** — Advantage on Animal Handling; non-hostile beasts do not attack her.
+- **Pet-Pet: Call my friends** — Once per day, summon 1d4 friendly beasts within 300 feet.
 
 ## Drawbacks
 
@@ -38,6 +43,6 @@ Campaign homebrew. Mascot of the Braveheart Pirates — no vault actor page yet.
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
 - Owner: [[Ju Lee Caneheart]]
 - [[Ju Lee Caneheart]]

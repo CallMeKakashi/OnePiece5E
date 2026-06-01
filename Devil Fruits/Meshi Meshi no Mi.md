@@ -9,12 +9,14 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Meshi Meshi no Mi
 
 *Paramecia, unique (consumed — replaces attunement)*
+
+*Conjure-Conjure Fruit*
 
 | | |
 | --- | --- |
@@ -25,11 +27,13 @@ related_source:
 
 ## Description
 
-Campaign-registered **Paramecia** devil fruit. Current eater: [[Blackhand Cane]].
+Campaign-registered **Paramecia** devil fruit (**Conjure-Conjure**). Current eater: [[Blackhand Cane]].
 
-## Properties
+## Powers
 
-Food/meal-related paramecia (campaign homebrew). Blackhand organization captain.
+- **Conjure-Conjure: Unlimited blades** — Conjure blades at will; no practical limit on how many he can manifest.
+- **Conjure-Conjure: One edge** — Every conjured blade carries the same lethal cutting edge as his true steel.
+- **Conjure-Conjure: Remote command** — Direct conjured blades to strike and move without holding them.
 
 ## Drawbacks
 
@@ -38,6 +42,6 @@ Food/meal-related paramecia (campaign homebrew). Blackhand organization captain.
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
 - Owner: [[Blackhand Cane]]
 - [[Blackhand Cane]]

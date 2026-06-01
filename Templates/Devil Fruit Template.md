@@ -9,7 +9,7 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Fruit name (English epithet)
@@ -38,5 +38,5 @@ What the eater can do — combat, utility, and signature techniques.
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]] — system rules
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]] — system rules
 - Owner actor page

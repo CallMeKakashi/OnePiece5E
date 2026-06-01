@@ -9,12 +9,14 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Dabu Dabu no Mi
 
 *Paramecia, unique (consumed — replaces attunement)*
+
+*Double-Double Fruit*
 
 | | |
 | --- | --- |
@@ -25,11 +27,14 @@ related_source:
 
 ## Description
 
-Campaign-registered **Paramecia** devil fruit. Current eater: [[Irik Fen]].
+Campaign-registered **Paramecia** devil fruit (**Double-Double**). Current eater: [[Irik Fen]] (Sharkfin Pirates navigator). Statblock: [[Irik -Two-Tide- Fen]].
 
-## Properties
+## Powers
 
-Campaign homebrew. SharkFin Pirates — no vault actor page yet.
+- **Double Up** — Conjure a duplicate of himself out of thin air.
+- **Flip** — Instantly swap places with the double at any time.
+- **Tandem** — On his turn, the double can take one move as a bonus action.
+- **Crosswire** — Swap the double’s position with any creature he can see; Irik stays put unless he uses Flip.
 
 ## Drawbacks
 
@@ -38,6 +43,6 @@ Campaign homebrew. SharkFin Pirates — no vault actor page yet.
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
 - Owner: [[Irik Fen]]
-- [[Irik Fen]]
+- [[Irik -Two-Tide- Fen]]
