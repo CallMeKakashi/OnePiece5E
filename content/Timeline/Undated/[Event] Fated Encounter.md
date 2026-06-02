@@ -8,7 +8,7 @@ related_world:
   - "[[Spirit Cliff]]"
   - "[[Worgoman Bank]]"
   - "[[Bramble]]"
-  - "[[🦾 Saplea D. Isla — \"Dreadnaught\"]]"
+  - "[[🦾 Saplea D. Isla — “Dreadnaught”]]"
   - "[[Roma]]"
   - "[[Red]]"
   - "[[Baptiste]]"
@@ -38,4 +38,4 @@ Play events from **Episode 3**. Follows arrival at [[Spirit Cliff]] after [[Time
 ## Evidence
 
 - [[Episode 3 - Fated Encounter]]
-- [[Session 3 - Fated Encounter]]
+- [[2025-07-06 — Fated Encounter]]

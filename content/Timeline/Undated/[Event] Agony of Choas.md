@@ -19,7 +19,7 @@ related_events:
 
 # Agony of Choas
 
-Roof **void entity** fight; **broadcast tower collapses**; shore recovery and Clind/Mira briefing (Episode 17). **≠** [[Session 17 - Howling Thunder]] (DM prep only).
+Roof **void entity** fight; **broadcast tower collapses**; shore recovery and Clind/Mira briefing (Episode 17). **≠** [[2026-05-24 — Howling Thunder (DM prep)]] (DM prep only).
 
 ## Beats
 
@@ -30,4 +30,4 @@ Roof **void entity** fight; **broadcast tower collapses**; shore recovery and Cl
 ## Evidence
 
 - [[Episode 17 - Agony of Choas]]
-- [[Session 17 - Agony of Choas]]
+- [[2026-01-11 — Agony of Choas]]

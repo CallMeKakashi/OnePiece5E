@@ -20,7 +20,7 @@ Pirate organization led by **[[Blackhand Cane]]** — see [[Blackhand (Cyber)]] 
 
 - [[⚔️ Fenris Wolfblood — "The Blood of Sun and Shadow"|Fenris Wolfblood]]
 - [[🎶 Red — "The Songbird of the Black Comet"|Red]]
-- [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea D. Isla]]
+- [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea D. Isla]]
 - [[Mira the Unbreakable]] — 4th Fleet Commander
 - [[Baptiste (Blackhand unit)]] — Devil Fruit user; full sheet TBD
 

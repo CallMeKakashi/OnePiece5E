@@ -13,7 +13,7 @@ sources:
 
 ## Extracted
 
-> Title STT: Chaos; **≠** [[Session 17 - Howling Thunder]] (prep for earlier tower fights).
+> Title STT: Chaos; **≠** [[2026-05-24 — Howling Thunder (DM prep)]] (prep for earlier tower fights).
 
 ### Summary
 

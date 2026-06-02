@@ -28,7 +28,7 @@ foundry_live_slug: "bandit"
 - [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 05:42 UTC*
+*Last synced: 2026-06-02 07:33 UTC*
 
 ```statblock
 name: Bandit
@@ -41,10 +41,11 @@ speed: walk 30 ft.
 stats: [11, 12, 12, 10, 10, 10]
 cr: 0.125
 traits:
-- name: Scimitar
-  desc: "Melee Weapon Attack: +3 to hit"
-- name: Light Crossbow
-  desc: "Ranged Weapon Attack: +3 to hit"
 - name: Leather Armor
-  desc: The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.
+  desc: AC 11
+actions:
+- name: Scimitar
+  desc: "Melee Weapon Attack: +3 to hit. Hit: 1d6 slashing"
+- name: Light Crossbow
+  desc: "Ranged Weapon Attack: +3 to hit. Hit: 1d8 piercing"
 ```

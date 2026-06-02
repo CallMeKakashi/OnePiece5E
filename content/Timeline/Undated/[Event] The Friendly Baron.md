@@ -23,9 +23,9 @@ Intercept **Goru Yamashita**; **Cashian Valehart** hosts; Roma (human) rampage v
 1. **Dream** — [[Baptiste]] and ring entity **Aegir**.
 2. **Goru** — Black Hand connection; mansion back channel.
 3. **Valehart** — Cashian hosts; Roma rampage vs Marines; [[B.O.B]] resuscitates Roma.
-4. **Supplement** — interstitial RP / Ace call may appear in [[Session - 24.5]] (not a separate episode).
+4. **Supplement** — interstitial RP / Ace call may appear in [[2026-03-22 — Interstitial RP]] (not a separate episode).
 
 ## Evidence
 
 - [[Episode 24 - The Friendly Baron]]
-- [[Session 24 - The Friendly Baron]]
+- [[2026-03-22 — The Friendly Baron]]

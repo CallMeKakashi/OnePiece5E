@@ -36,7 +36,7 @@ Use the Berserker stat block (CR 2) for similar muscle; this note tracks the Vel
 - [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 05:42 UTC*
+*Last synced: 2026-06-02 07:33 UTC*
 
 ```statblock
 name: Berserker
@@ -50,9 +50,10 @@ stats: [16, 12, 17, 9, 11, 9]
 cr: 2
 traits:
 - name: Hide Armor
-  desc: This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor.
+  desc: AC 12
 - name: Reckless
   desc: At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
+actions:
 - name: Greataxe
-  desc: ". .. Ranged Weapon Attack: +5 to hit"
+  desc: "Melee Weapon Attack: +5 to hit. Hit: 1d12 slashing"
 ```

@@ -29,4 +29,4 @@ related_events:
 ## Evidence
 
 - [[Episode 21 - House of Justice]]
-- [[Session 21 - House of Justice]]
+- [[2026-02-22 — House of Justice]]

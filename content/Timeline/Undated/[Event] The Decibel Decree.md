@@ -32,4 +32,4 @@ Arrival at silent capital **Decibella**; sound illegal; hideout **The Discord**;
 ## Evidence
 
 - [[Episode 14 - The Decibel Decree]]
-- [[Session 14 - The Decibel Decree]]
+- [[2025-12-21 — The Decibel Decree]]

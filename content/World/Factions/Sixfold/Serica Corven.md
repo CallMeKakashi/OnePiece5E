@@ -40,7 +40,7 @@ Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative a
 
 ## Episode 5
 
-- Fights crew at Spirit Cliff under [[Delaroth]]'s orders; rooftop combat vs [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]].
+- Fights crew at Spirit Cliff under [[Delaroth]]'s orders; rooftop combat vs [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]].
 
 ## Episode 6
 

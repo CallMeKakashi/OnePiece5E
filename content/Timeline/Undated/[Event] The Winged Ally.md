@@ -7,7 +7,7 @@ sources:
 related_world:
   - "[[Ambercrest]]"
   - "[[Spirit Cliff]]"
-  - "[[🦾 Saplea D. Isla — \"Dreadnaught\"]]"
+  - "[[🦾 Saplea D. Isla — “Dreadnaught”]]"
   - "[[Baptiste]]"
   - "[[Roma]]"
   - "[[Red]]"
@@ -27,13 +27,13 @@ Play events from **Episode 2** (recording). In-world date not pinned — see [[D
 
 ## Beats
 
-1. **Ambercrest docks** — party loots/supplies; [[Red]]'s meal incident with fish-man **Kira** ([[Kirro King]]); [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] upgrades armor.
+1. **Ambercrest docks** — party loots/supplies; [[Red]]'s meal incident with fish-man **Kira** ([[Kirro King]]); [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] upgrades armor.
 2. **Recruitment** — [[Baptiste]] (winged) joins the crew at the docks; Blackhand orders to make allies.
-3. **Voyage** — ~3 days southwest toward [[Spirit Cliff]]; [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] uses real voice, begins navigation training.
+3. **Voyage** — ~3 days southwest toward [[Spirit Cliff]]; [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] uses real voice, begins navigation training.
 4. **Sea King battle** — storm encounter; party survives; [[Roma]] lands killing blow.
 5. **Comm call** — [[Mira the Unbreakable|Mira]]: Marine base at Spirit Cliff, hide [[Baptiste]]'s wings; [[Linus Marrow|Linus]] warned re [[Sixfold]]; next stop **[[Bramble]]** for ship / Grand Line route.
 
 ## Evidence
 
 - Transcript: [[Episode 2 - The Winged Ally]]
-- Session index: [[Session 2 - The Winged Ally]]
+- Session index: [[2025-06-28 — The Winged Ally]]

@@ -40,13 +40,12 @@ Multi-headed goose horror (session outline: "White Maw Hydra-Goose"). CR 5 contr
 - [[Ashscale Basilisk]] · [[Carrion Vulture]] · [[Cave Render]] — other Juniper threats
 - [[Sessions/Session 25 - Juniper Islands]]
 - [[Monster Manual|Monster Manual]]
-
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 05:56 UTC*
+*Last synced: 2026-06-02 07:50 UTC*
 
 ```statblock
-name: Hydra Goose
+name: Chicken
 size: large
 type: humanoid
 alignment: unaligned
@@ -58,10 +57,11 @@ cr: 5
 traits:
 - name: Multiattack
   desc: The hydra-goose makes three Bite attacks, each from a different head.
-- name: Bite
-  desc: "Reach 10 ft. If two bites hit the same target in one turn, the target must succeed on a DC 15 STR save or be knocked prone.. Melee Weapon Attack: +7 to hit"
 - name: Shrieking Chorus (Recharge 5-6)
   desc: Creatures within 30 ft must make a DC 15 WIS save or become frightened until the end of their next turn.
 - name: Reactive Heads
   desc: The hydra-goose gains advantage on opportunity attacks and cannot be flanked.
+actions:
+- name: Bite
+  desc: "Reach 10 ft. If two bites hit the same target in one turn, the target must succeed on a DC 15 STR save or be knocked prone. Melee Weapon Attack: +7 to hit. Hit: 2d8+4 piercing"
 ```

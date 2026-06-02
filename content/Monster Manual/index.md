@@ -32,6 +32,7 @@ Bestiary entries only. Named NPCs live under [[World/index|World → Factions]].
 - [[Monster Manual/Puppy|Puppy]] — `P6brn0VeFovCu9DB`
 - [[Monster Manual/Ravine Scylla|Ravine Scylla]] — `7438pFqu3nTifZQ8`
 - [[Monster Manual/Red Maw Beast|Red Maw Beast]] — `uvt8MOTs42FkpUjW`
+- [[Monster Manual/Grinner|Grinner]] — `dxxlqQu3zsnOlp9E`
 - [[Monster Manual/Riding Horse|Riding Horse]] — `m3Bggi1x0UUyCSKB`
 - [[Monster Manual/Riding Horse|Riding Horse]] — `wUQHs7VLGmItA1fR`
 - [[Monster Manual/Riding Horse|Riding Horse]] — `zvPyMf70zmkqde20`

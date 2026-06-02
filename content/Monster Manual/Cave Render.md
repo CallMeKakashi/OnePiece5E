@@ -37,7 +37,7 @@ Found in an **abandoned mine** near **York Town** (Juniper Islands).
 - [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 05:51 UTC*
+*Last synced: 2026-06-02 07:29 UTC*
 
 ```statblock
 name: Cave Render
@@ -50,10 +50,11 @@ speed: walk 40 ft., climb 30 ft.
 stats: [12, 16, 12, 4, 12, 6]
 cr: 0.5
 traits:
-- name: Claw
-  desc: "Melee Weapon Attack: +5 to hit. Hit: 1d6 +3 slashing"
 - name: Pack Assault
   desc: Advantage on attack rolls if an ally is within 5 ft of the target.
 - name: Skulker
   desc: Can hide in dim light without needing full cover.
+actions:
+- name: Claw
+  desc: "Melee Weapon Attack: +5 to hit. Hit: 1d6 +3 slashing"
 ```

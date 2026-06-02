@@ -28,4 +28,4 @@ related_events:
 ## Evidence
 
 - [[Episode 18 - Gentle Giant Pirates]]
-- [[Session 18 - Gentle Giant Pirates]]
+- [[2026-02-01 — Gentle Giant Pirates]]

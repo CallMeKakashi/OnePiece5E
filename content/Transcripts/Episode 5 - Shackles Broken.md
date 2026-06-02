@@ -16,7 +16,7 @@ sources:
 
 ### Summary
 
-- Night **[[Worgoman Bank]]** infiltration (~9–10 p.m.): disguises, fountain distraction, [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] + [[Red]] enter with director keys.
+- Night **[[Worgoman Bank]]** infiltration (~9–10 p.m.): disguises, fountain distraction, [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] + [[Red]] enter with director keys.
 - [[Red]] retrieves **small chest** from director's cabin (contents not opened on-table); decoy **book** thrown during fight (not the [[The Black Ledger of Director Halward Lynne|ledger]]).
 - Marines alert; rooftop/casino battle — [[Serica Corven]] vs crew; [[Veyl Corven]] tries to de-escalate; [[Linus Marrow]] intervenes.
 - **[[Delaroth]]** sicced Sixfold on the party instead of Marines handling it alone; **Sir Can Veil** (marine) hunting the real target in the **chest**.
@@ -26,7 +26,7 @@ sources:
 
 | Role | Note |
 |------|------|
-| Crew | [[🦾 Saplea D. Isla — "Dreadnaught"]], [[Roma]], [[Red]], [[Baptiste]], [[Linus Marrow]] |
+| Crew | [[🦾 Saplea D. Isla — “Dreadnaught”]], [[Roma]], [[Red]], [[Baptiste]], [[Linus Marrow]] |
 | Shipwright job | [[Bramble]] (chest retrieval) |
 | Sixfold | [[Serica Corven]], [[Veyl Corven]] |
 | Marines | [[Calder Voss]] (captain), Sir Can Veil (operative) |

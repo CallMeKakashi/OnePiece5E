@@ -7,7 +7,7 @@ sources:
   - "[[1476-01moon [Backstory] The Birth of the Motley Crew]]"
   - "[[Timeline/Undated/[Backstory] Elizabeth Marrow — mortuary escape]]"
   - "[[Episode 25 - Fire Storm]]"
-  - "Sessions/Linus' Notes.md"
+  - "[[Linus — Notes]]"
   - "Sessions/Archive/Campaign 1/Session 3 notes.md"
 ---
 

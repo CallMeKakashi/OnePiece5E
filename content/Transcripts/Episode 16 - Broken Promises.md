@@ -13,7 +13,7 @@ sources:
 
 ## Extracted
 
-> Broadcast tower assault; see [[Session 16 - Broken Promises]] outline.
+> Broadcast tower assault; see [[2026-01-04 — Broken Promises]] outline.
 
 ### Summary
 

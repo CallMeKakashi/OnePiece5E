@@ -8,7 +8,7 @@ related_world:
   - "[[Spirit Cliff]]"
   - "[[Worgoman Bank]]"
   - "[[The Black Ledger of Director Halward Lynne]]"
-  - "[[🦾 Saplea D. Isla — \"Dreadnaught\"]]"
+  - "[[🦾 Saplea D. Isla — “Dreadnaught”]]"
   - "[[Roma]]"
   - "[[Red]]"
   - "[[Baptiste]]"
@@ -35,4 +35,4 @@ Casino phase of the [[Worgoman Bank]] job at [[Spirit Cliff]], following [[Timel
 ## Evidence
 
 - [[Episode 4 - Masquerade]]
-- [[Session 4 - Masquerade]]
+- [[2025-07-12 — Masquerade]]

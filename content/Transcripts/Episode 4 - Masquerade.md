@@ -12,11 +12,11 @@ sources:
 
 ## Extracted
 
-> Speech-to-text names: Saplia/Satalia → [[🦾 Saplea D. Isla — "Dreadnaught"]]; Serika → [[Serica Corven]]; Lucius/Lucien → [[Lucien]]; Halward → [[The Black Ledger of Director Halward Lynne|Director Halward Lynne]].
+> Speech-to-text names: Saplia/Satalia → [[🦾 Saplea D. Isla — “Dreadnaught”]]; Serika → [[Serica Corven]]; Lucius/Lucien → [[Lucien]]; Halward → [[The Black Ledger of Director Halward Lynne|Director Halward Lynne]].
 
 ### Summary
 
-- Prep: strip marine **trackers** from Den Den Mushi; [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] tinkers radios; party adopts **Masquerade** disguises ([[Baptiste]] masks; [[Red]] as **Raven**, [[Roma]] as **Oroboros** actor tokens).
+- Prep: strip marine **trackers** from Den Den Mushi; [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] tinkers radios; party adopts **Masquerade** disguises ([[Baptiste]] masks; [[Red]] as **Raven**, [[Roma]] as **Oroboros** actor tokens).
 - [[Linus Marrow]] / Lin studies **black ring** from [[Kirro King]] hideout; Armada lore (scriptures, Blackhand).
 - Casino **poker** run: [[Baptiste]] as Mr. Masquerade; [[Red]] invisible support; [[Roma]] drugged asleep early; ~**9.1M berries** won from director's chips.
 - [[Red]] in marine boots: director **Halward** lured to bathroom, knocked out; **keys** + notebook (bribery, laundering — matches [[The Black Ledger of Director Halward Lynne]]) taken; body hidden in stall.
@@ -26,7 +26,7 @@ sources:
 
 | Role | Note |
 |------|------|
-| Crew | [[🦾 Saplea D. Isla — "Dreadnaught"]], [[Roma]], [[Red]], [[Baptiste]], [[Linus Marrow]] |
+| Crew | [[🦾 Saplea D. Isla — “Dreadnaught”]], [[Roma]], [[Red]], [[Baptiste]], [[Linus Marrow]] |
 | Disguises | Masquerade ([[Baptiste]]), Raven ([[Red]]), Oroboros ([[Roma]]) |
 | Sixfold | [[Serica Corven]] (house visit) |
 | Casino | [[Lucien]], Director Halward ([[The Black Ledger of Director Halward Lynne]]) |

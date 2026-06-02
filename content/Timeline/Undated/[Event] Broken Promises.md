@@ -29,6 +29,6 @@ Multi-floor **Soundless Five** assault; roof fight begins; **third ring** on Mal
 ## Evidence
 
 - [[Episode 16 - Broken Promises]]
-- [[Session 16 - Broken Promises]]
+- [[2026-01-04 — Broken Promises]]
 
-> DM prep for tower structure: [[Session 17 - Howling Thunder]] (not a recording).
+> DM prep for tower structure: [[2026-05-24 — Howling Thunder (DM prep)]] (not a recording).

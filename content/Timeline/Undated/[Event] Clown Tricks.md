@@ -28,4 +28,4 @@ Clown-ship crisis continues: **Bessie** (giant crab vessel), captive handling, M
 ## Evidence
 
 - [[Episode 12 - Clown Tricks]]
-- [[Session 12 - Clown Tricks]]
+- [[2025-12-07 — Clown Tricks]]
