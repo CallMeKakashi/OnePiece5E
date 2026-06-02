@@ -20,7 +20,8 @@ from discord_vault_sync_full import ALL_FRUITS, PHEZU_POWER, SOKU_POWER  # noqa:
 FRUIT_TYPE: dict[str, str] = {
     "Yuki Yuki no Mi — Model Yeti.md": "Logia",
     "Mera Mera no Mi.md": "Logia",
-    "Tori Tori no Mi — Model Raicho.md": "Zoan",
+    "Suraimu Suraimu no Mi.md": "Logia",
+    "Tori Tori no Mi — Model Raicho.md": "Zoan (Mythical)",
     "Tori Tori no Mi — Model Sparrow.md": "Zoan",
     "Kamo Kamo no Mi.md": "Zoan",
     "Unknown Devil Fruit — Party 1.md": "Unknown",
