@@ -6,7 +6,16 @@ status: draft
 sources:
   - "Old Notes/One Piece DND - Blood and Brine/Devil Fruits/Inventions/D20 “Morph Balls” Roll Table.md"
 ---
-**Roll 1d20** – Results last for 1 minute unless otherwise stated. Add flavor as needed!
+### D20 “Morph Balls” Roll Table
+
+**Roll 1d20** — results last **1 minute** unless otherwise stated. Add flavor as needed.
+
+**Assumptions (table guidance):**
+
+- Your gear merges into the form (no dropped equipment unless the scene calls for it).
+- You can still speak, but your voice may be altered (squeaks, growls, etc.).
+- Your creature type stays the same unless you decide otherwise for a specific campaign edge case.
+- If a result implies movement you can’t normally do (climb/burrow/wall-walk), you gain that movement for the duration.
 
 | d20 | Animal Morph         | Notes                                                                                                                        |
 | --- | -------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -30,7 +39,8 @@ sources:
 | 18  | 🦍 Gorilla Mink      | +3 STR, can throw objects up to large size.                                                                                  |
 | 19  | 🐘 Elephant Mink     | Trunk slam (2d6), stomp (AOE within 5 ft), +2 CON.                                                                           |
 | 20  | 🐉 Mythic Beast Mink | GM’s choice of an epic beast: Lion-Turtle, Thunder Lion, Phoenix — full control to the GM. Strongest form, last resort tier. |
-On a **natural 1 or 20**, have a minor side effect:
+
+On a **natural 1** or **natural 20**, add a minor side effect:
 
 - **Nat 1**: The transformation goes wrong—exaggerated features or temporary debuff.
     

@@ -10,7 +10,9 @@ sources:
 
 ### Development Process
 
-The development of the **Lunafang Serum** originated from clandestine biochemical research conducted by the Germa 66. On **Driftroot**, **Nyx Velencruz** and **[[Dr Nikolai Tesla]]** continued refinement in the **Old City** (overseen by a hired **[[Berserker]]** until a crazed **[[Saber-Toothed Tiger]]** test subject killed him). Aiming to create enhanced combatants, the project relied heavily on unethical human experimentation. Among the subjects, one stood out—**Subject-0**, referred to as **Rei** in internal documentation. Rei, a Mink, exhibited remarkable resilience and adaptability, which intrigued the scientists and led to the further refinement of the serum.
+The **Lunafang Serum** originated as a clandestine weapons program within the **MADS Germa Division**—a secured R&D wing under **Judge Vinsmoke**. When Judge Vinsmoke abandoned the project to pursue artificial-human work, he divested the entire division to the **Marines**. Marine leadership showed little interest; however, **Commodore Briggs** saw the division as a lever for his parallel enterprise, **[[Mugen Industries]]**, and installed **[[Dr Nikolai Tesla]]** as the lead scientist and primary visionary.
+
+On **Driftroot**, **Nyx Velencruz** and **[[Dr Nikolai Tesla]]** continued refinement in the **Old City** (overseen by a hired **[[Berserker]]** until a crazed **[[Saber-Toothed Tiger]]** test subject killed him). Aiming to create enhanced combatants, the project relied heavily on unethical human experimentation. Among the subjects, one stood out—**Subject-0**, referred to as **Zero** in internal documentation. Zero, a Mink, exhibited remarkable resilience and adaptability, which intrigued the scientists and led to the further refinement of the serum.
 
 The serum’s foundational premise involved harnessing dormant genetic traits and inducing temporary states of heightened physical power. The research team, under the command of key Germa scientists, employed chemical catalysts to manipulate the Mink's natural Sulong transformation.
 
@@ -63,11 +65,23 @@ In emergency situations, subjects were injected directly into major muscle group
 
 ### Ethical Implications
 
-The Lunafang Serum stands as a grim reminder of Germa 66’s willingness to pursue power at any cost. Subject-0, **Rei**, endured extensive suffering under the guise of scientific advancement. While his resilience allowed him to survive, countless others perished in the name of progress.
+The Lunafang Serum stands as a grim reminder of Germa 66’s willingness to pursue power at any cost. Subject-0 (referred to as **Zero** in internal documentation) endured extensive suffering under the guise of scientific advancement. While his resilience allowed him to survive, countless others perished in the name of progress.
 
 ### Future Implications
 
-Red Fangs stole the majority of working samples from a research facility. Additionally, Subject-0 has gone missing after a breakout caused by a strange awakening. He now goes by the name **Pasha** and is currently free unto the world.
+Red Fangs stole the majority of working samples from a research facility. Additionally, Subject-0 has gone missing after a breakout caused by a strange awakening. He now goes by the name **[[Pasha]]** and is currently free unto the world.
+
+### Known Variants & Field Signatures
+
+- **P9 series (Prototype P9 — “Red Fangs Formula”)**
+  - Identified in **[[The Black Ledger of Director Halward Lynne]]**:
+    - “Subject Red Fangs” serum vials (P9 series) ordered under Germa’s R&D.
+    - Prototype P9 results: 48-hour survival, hypermutation, cardiac rupture.
+  - Field-reported effects/side effects (ledger notes): muscle tearing, mania, cardiac failure.
+
+- **Serum color tags (green/white/red...)**
+  - Mentioned in Driftroot reporting via **[[Episode 23 - Choice for life]]** (Baron Lazarus segment: “serum colors explained (green/white/red…)”).
+  - Exact mapping of each shade to a specific mutation/side effect is not yet pinned down in canon text.
 
 ### Blueprints
 ![[Attachments/lunafang-serum-blueprint.webp|Lunafang Serum blueprint]]

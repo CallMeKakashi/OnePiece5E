@@ -235,7 +235,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 | [[Peto Peto no Mi]] | [[Ju Lee Caneheart]] | canon |
 | [[Phezu Phezu no Mi]] | [[Linus Marrow]] | canon |
 | [[Shire Shire no Mi]] | [[Cadence]] | canon |
-| [[Soku Soku no Mi]] | [[Veyl Corvine]] | canon |
+| [[Soku Soku no Mi]] | [[Veyl Corven]] | canon |
 | [[Suraimu Suraimu no Mi]] | [[Droven Calligos]] | canon |
 | [[Toneru Toneru no Mi]] | [[Dravos]] | canon |
 | [[Tori Tori no Mi — Model Raicho]] | [[Malphas]] | canon |
