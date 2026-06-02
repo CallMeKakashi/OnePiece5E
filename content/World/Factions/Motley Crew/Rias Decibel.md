@@ -14,7 +14,7 @@ Founding member of the [[Motley Crew]]; full name **Rias Decibel**.
 
 Listed as missing / antagonist arc (prologue) in [[Sixfold]] records.
 
-Devil Fruit: [[Shire Shire no Mi]].
+Devil Fruit: [[Shire Shire no Mi]] (deceased; fruit with [[Cadence]]).
 
 ## Personal Quests
 
