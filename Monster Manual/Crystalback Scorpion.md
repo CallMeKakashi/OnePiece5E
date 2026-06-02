@@ -35,10 +35,9 @@ When **human prey** is scarce, they hunt **[[Lamprey Horror|Lamprey Horrors]]** 
 - [[Ashscale Basilisk]] · [[Ravine Scylla]] — same ravine, other sections
 - [[Baptiste]] · [[Tray]] · [[Cade Tigor Cooper]]
 - [[Monster Manual|Monster Manual]]
-
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 06:02 UTC*
+*Last synced: 2026-06-02 07:33 UTC*
 
 ```statblock
 name: Crystalback Scorpion
@@ -51,10 +50,11 @@ speed: walk 40 ft., climb 30 ft.
 stats: [20, 16, 19, 3, 12, 5]
 cr: 9
 traits:
-- name: Pincer
-  desc: "Melee Weapon Attack: +9 to hit"
-- name: Venom Sting
-  desc: "Melee Weapon Attack: +9 to hit. Hit: 4d8 poison"
 - name: Crystal Burst
   desc: Recharge 5-6. Explodes crystal growths in 15 ft radius. DC 16 DEX save or take 6d6 piercing damage.
+actions:
+- name: Pincer
+  desc: "Melee Weapon Attack: +9 to hit. Hit: 2d8+5 bludgeoning"
+- name: Venom Sting
+  desc: "Melee Weapon Attack: +9 to hit. Hit: 4d8 poison"
 ```

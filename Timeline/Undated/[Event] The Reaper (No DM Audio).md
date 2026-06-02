@@ -27,4 +27,4 @@ related_events:
 ## Evidence
 
 - [[Episode 13 - The Reaper (No DM Audio)]]
-- [[Session 13 - The Reaper (No DM Audio)]]
+- [[2025-12-14 — The Reaper (No DM Audio)]]

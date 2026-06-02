@@ -29,4 +29,4 @@ Naval chase; Commodore demands Vorro; **Baron Lazarus** on Driftroot teased (Epi
 ## Evidence
 
 - [[Episode 23 - Choice for life]]
-- [[Session 23 - Choice for life]]
+- [[2026-03-15 — Choice for life]]

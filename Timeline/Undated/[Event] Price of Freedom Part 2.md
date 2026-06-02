@@ -26,4 +26,4 @@ Foundry skirmish; **Eric** freed; level-up tease — leads toward judiciary isla
 ## Evidence
 
 - [[Episode 20 - Price of Freedom Part 2]]
-- [[Session 20 - Price of Freedom Part 2]]
+- [[2026-02-15 — Price of Freedom Part 2]]

@@ -28,4 +28,4 @@ Shipboard **crew-ranking tournament** after the G-45 facility (Episode 8). [[Six
 ## Evidence
 
 - [[Episode 8 - The Lunarfold Tournament Part 1]]
-- [[Session 8 - The Lunarfold Tournament Part 1]]
+- [[2025-10-18 — The Lunarfold Tournament Part 1]]

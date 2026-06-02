@@ -13,7 +13,7 @@ sources:
 
 ## Extracted
 
-> STT: Malfa → [[Malphas]]; Decibella = [[Decibella Kingdom]]; see also [[Session 14 - The Decibel Decree]] (prep/recap).
+> STT: Malfa → [[Malphas]]; Decibella = [[Decibella Kingdom]]; see also [[2025-12-21 — The Decibel Decree]] (prep/recap).
 
 ### Summary
 

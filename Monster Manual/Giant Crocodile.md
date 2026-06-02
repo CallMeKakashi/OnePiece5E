@@ -28,7 +28,7 @@ foundry_live_slug: "giant-crocodile"
 - [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 06:06 UTC*
+*Last synced: 2026-06-02 07:29 UTC*
 
 ```statblock
 name: Giant Crocodile
@@ -46,9 +46,10 @@ traits:
 - name: Hold Breath
   desc: The crocodile can hold its breath for 30 minutes.
 - name: Multiattack
-  desc: "The crocodile makes two attacks: one with its {bite} and one with its {tail}."
+  desc: "The crocodile makes two attacks: one with its Bite{bite} and one with its Tail{tail}."
+actions:
 - name: Bite
-  desc: "The target is (escape DC 16). Until this grapple ends, the target is restrained, and the crocodile can't bite another target.. Melee Weapon Attack: +8 to hit"
+  desc: "The target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the crocodile can't bite another target. Melee Weapon Attack: +8 to hit. Hit: 3d10 piercing"
 - name: Tail
-  desc: "If the target is a creature, it must succeed on a saving throw or be knocked .. Melee Weapon Attack: +8 to hit. DC 11. STR save"
+  desc: "If the target is a creature, it must succeed on a STR saving throw (DC 11) or be knocked prone. Melee Weapon Attack: +8 to hit. Hit: 2d8 bludgeoning"
 ```

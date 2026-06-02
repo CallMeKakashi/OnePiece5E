@@ -28,7 +28,7 @@ foundry_live_slug: "giant-boar"
 - [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 06:02 UTC*
+*Last synced: 2026-06-02 07:33 UTC*
 
 ```statblock
 name: Giant Boar
@@ -42,7 +42,8 @@ stats: [17, 10, 16, 2, 7, 5]
 cr: 2
 traits:
 - name: Bloodied Fury
-  desc: "While , the [[lookup @name lowercase]] has Advantage on attack rolls."
+  desc: While Bloodied, the it has Advantage on attack rolls.
+actions:
 - name: Gore
-  desc: "If the target is a [[lookup @target.affects.special activity=iBenqFiBu40bUxkH]] creature and the [[lookup @name lowercase]] moved 20+ feet straight toward it immediately before the hit, the target takes an extra damage and has the condition.. Melee Weapon Attack: +5 to hit. Melee Weapon Attack: +5 to hit. Hit: 2d6 piercing"
+  desc: "If the target is a creature and the it moved 20+ feet straight toward it immediately before the hit, the target takes an extra damage and has the Prone condition. Melee Weapon Attack: +5 to hit. Hit: 2d6 piercing"
 ```

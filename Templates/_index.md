@@ -26,3 +26,7 @@ These paths are set in `.obsidian/*.json`; hiding `Templates/` does not disable 
 Dozens of generic PKM templates (Book, Podcast, etc.) remain in `Templates/` but are not listed here. Open via Quick switcher if needed.
 
 See [[docs/obsidian-setup|Obsidian setup]] for explorer hiding and maintenance.
+
+## Sessions
+
+- [[Session Template]]

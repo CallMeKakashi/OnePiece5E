@@ -13,7 +13,7 @@ sources:
 
 ## Extracted
 
-> Mid-combat open; see [[Session 15 - Animal Within]] prep.
+> Mid-combat open; see [[2025-12-28 — Animal Within]] prep.
 
 ### Summary
 

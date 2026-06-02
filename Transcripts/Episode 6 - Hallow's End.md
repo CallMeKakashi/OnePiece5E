@@ -35,7 +35,7 @@ sources:
 ### Cross-arc notes
 
 - Dialogue references **G-45**, bank **journal**, and [[Bramble]]'s ship — may follow [[Timeline/Undated/[Event] Shackles Broken]] in-world while **episode numbers diverge** (see [[CONTEXT]]).
-- No [[🦾 Saplea D. Isla — "Dreadnaught"]] on mic; DM references Saplea gear/journal elsewhere.
+- No [[🦾 Saplea D. Isla — “Dreadnaught”]] on mic; DM references Saplea gear/journal elsewhere.
 
 ### Open questions
 

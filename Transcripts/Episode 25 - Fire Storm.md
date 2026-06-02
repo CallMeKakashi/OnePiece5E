@@ -13,7 +13,7 @@ sources:
 
 ## Extracted
 
-> **Episode 25** — related prep [[Session 24 - Fire Storm]] (session number diverges).
+> **Episode 25** — related prep [[2026-05-24 — Fire Storm (prep outline)]] (session number diverges).
 
 ### Summary
 

@@ -38,4 +38,4 @@ Industrial **G-45** facility assault and island destruction (Episode 6). Spider'
 ## Evidence
 
 - [[Episode 6 - Hallow's End]]
-- [[Session 6 - Hallow's End]]
+- [[2025-10-12 — Hallow's End]]

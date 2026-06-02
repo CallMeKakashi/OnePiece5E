@@ -9,7 +9,7 @@ sources:
   - "[[Episode 22 - The Missing Piece]]"
   - "[[Episode 23 - Choice for life]]"
   - "[[Episode 25 - Fire Storm]]"
-  - "Sessions/Linus' Notes.md"
+  - "[[Linus — Notes]]"
   - "Discord/exports/bounty-posters"
   - "Discord/exports/character-art"
   - "Discord/exports/devil-fruit-dex"
@@ -50,7 +50,7 @@ Former **Germa 66** understudy under **[[Dr Nikolai Tesla]]** (before Nikolai jo
 
 ## Episode 3
 
-- Examines **black ring** from [[Kirro King]] hideout; invites [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] to the Armada.
+- Examines **black ring** from [[Kirro King]] hideout; invites [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] to the Armada.
 - Hands paper directions to his hideout (near casino / Sixfold area).
 - Sent [[Veyl Corven]] and [[Serica Corven]] to observe the crew at Spirit Cliff.
 
@@ -64,7 +64,7 @@ Former **Germa 66** understudy under **[[Dr Nikolai Tesla]]** (before Nikolai jo
 
 - [[Dr Nikolai Tesla]]
 - [[Sixfold]]
-- [[🦾 Saplea D. Isla — "Dreadnaught"]]
+- [[🦾 Saplea D. Isla — “Dreadnaught”]]
 - [[Spirit Cliff]]
 ## Live sheet (Foundry)
 

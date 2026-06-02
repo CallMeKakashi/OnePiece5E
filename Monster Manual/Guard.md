@@ -28,7 +28,7 @@ foundry_live_slug: "guard"
 - [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 06:09 UTC*
+*Last synced: 2026-06-02 07:50 UTC*
 
 ```statblock
 name: Guard

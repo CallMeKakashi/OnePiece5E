@@ -22,7 +22,7 @@ sources:
 - **Sea rescue:** woman ~20, black clothes, pulled from log — claims merchant capsized en route to **Loguetown**; reacts to **Vireth**; informant with **blank notebook**; caged on Spider's Nest ship.
 - **Journal trade:** party gives G-45 **journal**, blueprints, shipment ledgers for intel — Vireth last seen North Blue → South Blue near marine outpost; **[[Liz Marrow]]** named; journal later **blank** to readers (decoy / enchantment?).
 - **Interrogation:** Roma skillet threats; [[Veyl Corven]] violence; detect thoughts — needs to "save After" (surface thought); released after accompaniment intel (besides Liz).
-- **Meta:** DM teases **World Economy Journal** newspapers; [[Red]] / [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] side stories; next island restock → leads to [[Episode 10 - Sea of Nightmares]] (Daniel betrays).
+- **Meta:** DM teases **World Economy Journal** newspapers; [[Red]] / [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] side stories; next island restock → leads to [[Episode 10 - Sea of Nightmares]] (Daniel betrays).
 
 ### People (links)
 

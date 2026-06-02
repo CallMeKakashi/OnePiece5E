@@ -12,13 +12,13 @@ sources:
 
 ## Extracted
 
-> Curated from transcript (speech-to-text). Names may be mistranscribed (e.g. Kira → [[Kirro King]], Lynn/Lin → [[Linus Marrow]], Sappelea → [[🦾 Saplea D. Isla — "Dreadnaught"]]).
+> Curated from transcript (speech-to-text). Names may be mistranscribed (e.g. Kira → [[Kirro King]], Lynn/Lin → [[Linus Marrow]], Sappelea → [[🦾 Saplea D. Isla — “Dreadnaught”]]).
 
 ### Summary
 
-- Morning on an **amber-tree dock settlement** (the "dogs"): loot from a tent (chain mail, bullets, leather), [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] integrates chain mail into the Dreadnaught suit; [[Red]] cooks (unbeknownst, crawfish/fish-man "Kira" in the meal).
+- Morning on an **amber-tree dock settlement** (the "dogs"): loot from a tent (chain mail, bullets, leather), [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] integrates chain mail into the Dreadnaught suit; [[Red]] cooks (unbeknownst, crawfish/fish-man "Kira" in the meal).
 - Party reunites with **[[Linus Marrow]]** at the inn; shops (wood carvings, marine surplus); recruit **[[Baptiste]]** — the **winged ally** — at the docks.
-- Sail **southwest ~3 days** toward **[[Spirit Cliff]]**; [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] drops her fake voice; begins learning navigation.
+- Sail **southwest ~3 days** toward **[[Spirit Cliff]]**; [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] drops her fake voice; begins learning navigation.
 - **Sea King** fight in a storm; [[Baptiste]] dive-bombs; [[Roma]] kills the beast; [[Linus Marrow|Linus]] cleans the gore (phase ability).
 - **Den Den Mushi** calls: **[[Mira the Unbreakable|Mira]]** warns about Marine base at Spirit Cliff, [[Baptiste]]'s wings, [[Linus Marrow|Linus]]/[[Sixfold]]; **[[Red]]** warned about Tusk's men near Spirit Cliff; route to **[[Bramble]]** for a Grand Line–capable ship (errands expected).
 
@@ -26,7 +26,7 @@ sources:
 
 | Role | Note |
 |------|------|
-| Captain / Dreadnaught | [[🦾 Saplea D. Isla — "Dreadnaught"]] |
+| Captain / Dreadnaught | [[🦾 Saplea D. Isla — “Dreadnaught”]] |
 | PC | [[Roma]], [[Red]], [[Baptiste]] |
 | Doctor / passenger | [[Linus Marrow]] |
 | Blackhand | [[Mira the Unbreakable]], (mentioned) Varyat, Trey |
@@ -37,7 +37,7 @@ sources:
 
 - Chain mail → integrated into Dreadnaught suit AC
 - 17 pellets, smitty tires, leather armors sold/traded
-- [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]]: jet dial (100k berries), captain wood carving
+- [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]]: jet dial (100k berries), captain wood carving
 - Marine shop: tone dials (recording, air, flame, light, heat, jet, water, milk), med kits, pistols, bows
 
 ### Open questions

@@ -42,7 +42,7 @@ Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative. 
 
 ## Episode 3
 
-- Marketplace altercation after party fights marines; parley with [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]]'s crew.
+- Marketplace altercation after party fights marines; parley with [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]]'s crew.
 - Sent by [[Linus Marrow]] to "test the waters"; declines helping with casino drink swap.
 
 ## Episode 5

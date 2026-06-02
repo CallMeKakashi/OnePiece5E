@@ -27,4 +27,4 @@ Depart Decibella; **Freefield** island cage prep; foundry crash (Episode 20 part
 ## Evidence
 
 - [[Episode 20 - Price of Freedom Part 1]]
-- [[Session 20 - Price of Freedom Part 1]]
+- [[2026-02-15 — Price of Freedom Part 1]]

@@ -9,7 +9,7 @@
 - **Exit:** Canon moved to Tier 1; cruft deleted with `sources:` on keepers.
 - **Phase order:** Low ambiguity first → Party/PC collisions last.
 - **Equipment:** `Rules/Equipment/` (prior commit `bf1349f`).
-- **Devil Fruits / inventions:** `Devil Fruits/`, `Rules/Inventions/`.
+- **Devil Fruits / inventions:** `Devil Fruits/`, `Homebrew Items/Inventions/`.
 - **Sessions prep:** Dedupe then `Sessions/Sidequests/`, `Sessions/Outlines/`; Campaign 1 → `Sessions/Archive/Campaign 1/`.
 - **Images:** `Attachments/`; stale canvas deleted.
 - **People:** Active PCs in `Characters/`; Party 2 → `Party NPC's/`; Campaign 1 → `Characters/Archive/Campaign 1/`; Malphas Alice chapter merged into `Characters/Malphas.md`.
@@ -21,7 +21,7 @@
 |----------------|-------------|
 | `Campaign 2/Items/` | `Rules/Equipment/` (earlier commit) |
 | `Devil Fruits/*.md` | `Devil Fruits/` |
-| `Devil Fruits/Inventions/` | `Rules/Inventions/` |
+| `Devil Fruits/Inventions/` | `Homebrew Items/Inventions/` |
 | `Untitled 1.md` | `Rules/Stat blocks/Wind-Taker Scout.md` |
 | Lumafang stat blocks | `Rules/Stat blocks/Blood and Lumafang Stat blocks.md` |
 | `Rustwing (Ship Stat Block).md` | `Rules/Equipment/` |

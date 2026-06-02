@@ -32,4 +32,4 @@ Post-tournament voyage: **[[Daniel (Spider's Nest)]]** betrays crew to Marines r
 ## Evidence
 
 - [[Episode 10 - Sea of Nightmares]]
-- [[Session 10 - Sea of Nightmares]]
+- [[2025-11-02 — Sea of Nightmares]]

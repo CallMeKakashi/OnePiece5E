@@ -27,6 +27,6 @@ Escort fleet battle: **Commander Leon** (Flame Logia); Lunarian **Alice** burns 
 ## Evidence
 
 - [[Episode 25 - Fire Storm]]
-- [[Session 25 - Fire Storm]]
+- [[2026-03-29 — Fire Storm]]
 
-> Prep outline (session number diverges): [[Session 24 - Fire Storm]].
+> Prep outline (session number diverges): [[2026-05-24 — Fire Storm (prep outline)]].

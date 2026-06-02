@@ -18,7 +18,7 @@ sources:
 
 - After [[Timeline/Undated/[Event] The Winged Ally|Episode 2]], party rests and sails into **[[Spirit Cliff]]** (Marine G-45 visible); docks at **Bramble & Brothers** shipyard (right-side docks).
 - **[[Bramble]]** offers a Grand Line ship in exchange for stealing a **small chest** from the **[[Worgoman Bank]]** branch director's cabin (blueprints provided; marine patrols; casino angle on director).
-- **[[Linus Marrow]]** studies the **black ring** from [[Kirro King]]'s hideout; invites [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] to the **Armada** to discuss it.
+- **[[Linus Marrow]]** studies the **black ring** from [[Kirro King]]'s hideout; invites [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] to the **Armada** to discuss it.
 - Disguises from Bramble's workers (cloaks, masks); plan: casino / poker → keys → bank infiltration (bathroom stakeout, marine armor disguise).
 - **Marine altercation** in the market: scuffle with special-armor marines; knockouts; loot marine gear & Den Den Mushi.
 - Meet **[[Veyl Corven]]** and **[[Serica Corven]]** (Sixfold siblings, redacted bounties); brief standoff; Veyl phases marines away; card-cheating job declined.
@@ -28,7 +28,7 @@ sources:
 
 | Role | Note |
 |------|------|
-| Crew | [[🦾 Saplea D. Isla — "Dreadnaught"]], [[Roma]], [[Red]], [[Baptiste]], [[Linus Marrow]] |
+| Crew | [[🦾 Saplea D. Isla — “Dreadnaught”]], [[Roma]], [[Red]], [[Baptiste]], [[Linus Marrow]] |
 | Shipwright | [[Bramble]] |
 | Sixfold | [[Veyl Corven]], [[Serica Corven]] |
 | Bank target | Director (see [[The Black Ledger of Director Halward Lynne]]) |
@@ -37,7 +37,7 @@ sources:
 
 - Black ring (Kirro hideout) → [[Linus Marrow]] examining
 - Marine armor sets, boots, Den Den Mushi (face-ID phone + radio), disguises
-- [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] may swap arcane armor infusion to captured marine suit (swords + gun tied to armor)
+- [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] may swap arcane armor infusion to captured marine suit (swords + gun tied to armor)
 
 ### Open questions
 

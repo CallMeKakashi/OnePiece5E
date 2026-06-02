@@ -8,7 +8,7 @@ related_world:
   - "[[Spirit Cliff]]"
   - "[[Worgoman Bank]]"
   - "[[The Black Ledger of Director Halward Lynne]]"
-  - "[[🦾 Saplea D. Isla — \"Dreadnaught\"]]"
+  - "[[🦾 Saplea D. Isla — “Dreadnaught”]]"
   - "[[Roma]]"
   - "[[Red]]"
   - "[[Baptiste]]"
@@ -30,7 +30,7 @@ Midnight **[[Worgoman Bank]]** raid and street battle at [[Spirit Cliff]] (Episo
 
 ## Beats
 
-1. **Infiltration** — guards distracted; [[Red]] + [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] enter with Halward's keys.
+1. **Infiltration** — guards distracted; [[Red]] + [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] enter with Halward's keys.
 2. **Chest** — Bramble's chest taken from director's cabin; party still unsure of contents.
 3. **Alarm** — marines converge; casino/rooftop fight with [[Serica Corven]]; [[Veyl Corven]] present under [[Delaroth]]'s orders.
 4. **Escalation** — decoy book vs real ledger confusion; Sir Can Veil after the chest; [[Baptiste]] reveals wings and flees.
@@ -39,4 +39,4 @@ Midnight **[[Worgoman Bank]]** raid and street battle at [[Spirit Cliff]] (Episo
 ## Evidence
 
 - [[Episode 5 - Shackles Broken]]
-- [[Session 5 - Shackles Broken]]
+- [[2025-07-19 — Shackles Broken]]

@@ -36,7 +36,7 @@ foundry_live_slug: "swarm-of-quippers"
 - [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 06:42 UTC*
+*Last synced: 2026-06-02 07:50 UTC*
 
 ```statblock
 name: Swarm of Quippers

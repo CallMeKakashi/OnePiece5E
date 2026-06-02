@@ -11,7 +11,7 @@ An old but burly hammerhead shark fishman. Despite his age, he carries himself w
 
 ## Role
 
-Right-hand man of [[Blackhand Cane]]. Serves as a senior operative in the [[Blackhand]] crew, handling recruitment, logistics, and front-line combat. Trained [[Ronan]] in Fishman Karate. Provided the ship referenced in [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea D. Isla]]'s logbook entry.
+Right-hand man of [[Blackhand Cane]]. Serves as a senior operative in the [[Blackhand]] crew, handling recruitment, logistics, and front-line combat. Trained [[Ronan]] in Fishman Karate. Provided the ship referenced in [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea D. Isla]]'s logbook entry.
 
 ## Personal Quests
 
