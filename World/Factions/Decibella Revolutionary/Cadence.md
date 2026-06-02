@@ -18,11 +18,13 @@ foundry_live_slug: "cadence"
 
 ## Description
 
-Can't speak because of the jaw-lock.
+Once forced into silence by the kingdom's iron jaw-lock. The lock came off when [[Rias Decibel]] was killed—she can speak again.
 
 ## Role
 
-Leader of the rebellion base within the [[Decibella Revolutionary]]. Stood beside [[Riff Sin]] during the resistance, steady and burning, their rhythm in sync even when words failed.
+Leader of the rebellion base within the [[Decibella Revolutionary]]. Stood beside [[Riff Sin]] during the resistance, steady and burning; in the early days their rhythm had to carry what words could not.
+
+Devil Fruit: [[Shire Shire no Mi]] (after the death of [[Rias Decibel]]).
 
 ## Personal Quests
 

@@ -9,7 +9,7 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Phezu Phezu no Mi
@@ -27,25 +27,31 @@ related_source:
 
 ## Description
 
-Campaign-registered **Paramecia** devil fruit. Current eater: [[Linus Marrow]].
+Campaign-registered **Paramecia** devil fruit (**Phase-Phase**). Current eater: [[Linus Marrow]].
 
-## Properties
+## Powers
 
-Allows the user to **become intangible** and pass through solid matter (walls, floors, objects, or attacks). Can control tangibility selectively — phasing only parts of the body. When phasing, the user blurs slightly like a mirage (not full invisibility).
+- **Phase-Phase: Contact requirement** — Must physically touch a creature to use any Phase-Phase technique; contact can be made with hands or surgical instruments.
+- **Ambient Style: Moonlight Sonata** — Strike with a surgeon's knife while channeling phase energy through the blade, destabilizing the target's internal structure.
+- **Ambient Style: Clair de Lune** — Phase energy through a touched creature to repair internal injuries; if the target is below half HP, healing becomes 4d8 + 4.
+- **Ambient Style: Flight of the Bumblebee** — Recharge 5–6. Rapid surgical strikes on a touched target; DC 15 Constitution save or 4d8 force damage; the user heals 2d8 HP.
+- **Ambient Style: Gymnopédie No.1** — Briefly phase and glide 15 feet to a space he can see.
+- **Ambient Style: Nocturne Op.9 No.2** — When taking damage from a creature he is touching, partially phase and reduce the damage by 1d10 + 3.
+- **Ambient Style: Requiem in D Minor** — Once per day. Drive a blade in and release phase resonance; DC 15 Constitution save or 6d8 force damage; may distribute half the damage dealt as healing among creatures he touches within the next round.
 
-**Combat:** Phantom Step (reposition through surfaces), Ghost Palm (phase hand through opponent), Phase Recoil (counter through attacks), Echo Phase (afterimage feints), Phase Cage (trap via partial solidification).
+## Awakened abilities
 
-**Utility:** Silent Passage, Underground Extraction (allies through walls), Object Extraction, Phase Lock (weapons into walls).
+[[Linus Marrow]] forced his fruit awake with enhancement drugs. He is the same age as his sister [[Liz]], but the strain has aged him far beyond her.
+
+- **Ambient Style: Isle of the Dead** — At catastrophic scale, phase half the island and everyone living on it together—their tie to the land the only anchor that could hold them through a massive explosion until the blast passed.
 
 ## Drawbacks
 
 - **Ocean's Scorn** — the eater cannot swim; running water and seastone apply as in [[What Are Devil Fruits]].
-- **Haki** — armament haki bypasses phasing.
-- **Stamina** — continuous phasing drains the user.
-- **Seastone** — nullifies the fruit while in contact.
+- **Haki** — armament haki can bypass many paramecia defenses where noted in session.
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
 - Owner: [[Linus Marrow]]
 - [[Linus Marrow]]

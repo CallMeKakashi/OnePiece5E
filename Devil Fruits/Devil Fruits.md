@@ -30,7 +30,7 @@ Campaign devil fruit registry — image, power, and current owner. Template: [[D
 - [[Kobu Kobu no Mi]] — Gin Guiseppi
 - [[Kamo Kamo no Mi]] — Vodka Guiseppi
 - [[Peto Peto no Mi]] — Ju Lee Caneheart
-- [[Shire Shire no Mi]] — Rias Decibel
+- [[Shire Shire no Mi]] — Cadence
 - [[Dabu Dabu no Mi]] — Irik Fen
 - [[Fura Fura no Mi]] — Rhythm Echo
 - [[Meshi Meshi no Mi]] — Blackhand Cane

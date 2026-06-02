@@ -1,9 +1,9 @@
 ---
 type: devil-fruit
-fruit_type: Paramecia
+fruit_type: Paramecia (Special)
 publish: true
 status: canon
-owner: "[[Rias Decibel]]"
+owner: "[[Cadence]]"
 rarity: unique
 attunement: none
 sources:
@@ -14,30 +14,36 @@ related_source:
 
 # Shire Shire no Mi
 
-*Paramecia, unique (consumed — replaces attunement)*
+*Paramecia (Special), unique (consumed — replaces attunement)*
+
+*Command-Command Fruit*
 
 | | |
 | --- | --- |
-| **Owner** | [[Rias Decibel]] |
+| **Owner** | [[Cadence]] |
 | **Registry** | [[Devil Fruits]] |
 
 ![[Attachments/shire-shire-no-mi.png|registry-image]]
 
 ## Description
 
-Campaign-registered **Paramecia** devil fruit. Current eater: [[Rias Decibel]].
+Campaign-registered **special Paramecia** devil fruit (**Command-Command**)—unusually powerful even among devil fruits. Current eater: [[Cadence]] (can speak again after [[Rias Decibel]]'s death lifted the kingdom's jaw-lock). Former eater: [[Rias Decibel]] (deceased).
 
-## Properties
+## Powers
 
-Campaign homebrew. Listed owner in dex: Rias Decibel (Motley Crew / Decibella Revolutionary ties).
+- **Command-Command: Fiat** — With a single spoken word, grant another person a power they do not naturally possess.
+- **Command-Command: Absolute imperative** — Command anyone to obey any instruction; unlike [[Peto Peto no Mi]], there is no beast limit and no gentle rapport—the order simply takes.
+- **Command-Command: Crushing mandate** — Those compelled by the fruit feel despair and hopelessness as obedience closes over them.
+- **Command-Command: Lingering order** — Commands and word-granted powers hold until obeyed or until the eater revokes them.
 
 ## Drawbacks
 
 - **Ocean's Scorn** — the eater cannot swim; running water and seastone apply as in [[What Are Devil Fruits]].
-- **Haki** — armament haki can bypass many paramecia defenses where noted in session.
+- **Haki** — armament or conqueror's haki can resist or break a command before obedience fully sets in.
 
 ## See also
 
 - [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
-- Owner: [[Rias Decibel]]
-- [[Rias Decibel]]
+- Owner: [[Cadence]]
+- [[Cadence]]
+- Former eater: [[Rias Decibel]]

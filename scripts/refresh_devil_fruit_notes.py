@@ -120,7 +120,7 @@ def build_registry() -> dict[str, dict]:
         if f in OWNER_FIXES:
             reg[f]["owner"] = OWNER_FIXES[f]
         if f == "Shire Shire no Mi.md":
-            reg[f]["owner"] = "[[Rias Decibel]]"
+            reg[f]["owner"] = "[[Cadence]]"
         if f == "Ame Ame no Mi.md":
             reg[f]["power"] = (
                 "Rain manipulation (campaign homebrew). Former PC fruit; owner [[Sora]]."
