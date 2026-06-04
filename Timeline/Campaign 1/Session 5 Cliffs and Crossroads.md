@@ -162,6 +162,6 @@ Could tie into the Marine Base or Casino if players want a more elaborate setup.
 
 ## Casino Pit Boss – Lucien “Black Chips” Delroth
 
-## Bank Director Halward Lynne
+## Bank Director Delaroth Halward
 
 ## Pirate Boss – “Crayfish” Kirro

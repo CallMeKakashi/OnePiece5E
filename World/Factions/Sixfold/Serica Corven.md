@@ -4,9 +4,9 @@ faction: "[[Sixfold]]"
 status: draft
 publish: true
 sources:
-  - "[[Episode 3 - Fated Encounter]]"
-  - "[[Episode 8 - The Lunarfold Tournament Part 1]]"
-  - "[[Episode 9 - The Lunarfold Tournament Part 2]]"
+  - "[[Episode 03 - Cliffside Gambit]]"
+  - "[[Episode 08 - The Lunarfold Tournament Part 1]]"
+  - "[[Episode 09 - The Lunarfold Tournament Part 2]]"
   - "Discord/exports/downtime-actions.md"
   - "Discord/exports/character-art"
   - "Discord/exports/bounty-posters"

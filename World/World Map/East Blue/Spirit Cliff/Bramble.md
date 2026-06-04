@@ -4,14 +4,14 @@ type:
   - NPC
 status: draft
 sources:
-  - "[[Episode 2 - The Winged Ally]]"
-  - "[[Episode 3 - Fated Encounter]]"
+  - "[[Episode 02 - Stormwings of Ambercrest]]"
+  - "[[Episode 03 - Cliffside Gambit]]"
   - "Sessions/Archive/Campaign 1/Session 5 Cliffs and Crossroads.md"
 ---
 
 # Bramble
 
-Shipwright at [[Spirit Cliff]] (**Bramble & Sons Shipyard** in prior play). [[Mira the Unbreakable|Mira]] tells [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] he may grant a Grand Line–capable vessel after errands — not easily.
+Shipwright at [[Spirit Cliff]] ([[Bramble & Brothers]] shipyard). [[Mira the Unbreakable|Mira]] tells [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] he may grant a Grand Line–capable vessel after errands — not easily.
 
 ## Related
 

@@ -3,7 +3,7 @@ publish: true
 status: draft
 sources:
   - "Old Notes/The Black Ledger of Director Halward Lynne.md"
-  - "[[Episode 4 - Masquerade]]"
+  - "[[Episode 04 - Masquerade of the Stolen Keys]]"
 related_world:
   - "[[Spirit Cliff]]"
   - "[[Sixfold]]"
@@ -16,11 +16,13 @@ related_events:
 
 # The Black Ledger of Director Halward Lynne
 
-> **Name:** Ledger author **Halward Lynne** (H.L.). Herald/tables sometimes spell the branch director **Halwald** — treat as press variant unless retconned.
+> **Name:** Ledger author **Delaroth Halward** (H.L.), publicly known as **Director Halward Lynne**. Herald/tables sometimes spell the branch director **Halwald** — treat as press variant unless retconned.
 
 ## Related
 
 - [[Spirit Cliff]]
+- [[Delaroth Halward|Director Halward Lynne]]
+- [[World Government Bank]]
 - [[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]
 - [[Cline The Plague]]
 - [[Sixfold]]

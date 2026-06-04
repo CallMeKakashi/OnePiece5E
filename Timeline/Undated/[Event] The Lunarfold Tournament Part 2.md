@@ -3,7 +3,7 @@ publish: true
 type: event
 status: draft
 sources:
-  - "[[Episode 9 - The Lunarfold Tournament Part 2]]"
+  - "[[Episode 09 - The Lunarfold Tournament Part 2]]"
 related_world:
   - "[[Malphas]]"
   - "[[Roma]]"
@@ -30,5 +30,5 @@ Day 2 of the crew-ranking tournament plus **informant rescue** (Episode 9).
 
 ## Evidence
 
-- [[Episode 9 - The Lunarfold Tournament Part 2]]
-- [[2025-10-26 — The Lunarfold Tournament Part 2]]
+- [[Episode 09 - The Lunarfold Tournament Part 2]]
+- [[Session 00009 — The Lunarfold Tournament Part 2]]

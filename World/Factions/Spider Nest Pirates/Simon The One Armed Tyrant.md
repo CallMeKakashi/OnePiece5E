@@ -21,6 +21,39 @@ Captain of the [[Spider Nest Pirates]]. Founding member of [[Motley Crew]].
 Originally known as Silas, he fell and was presumed lost. Reemerged as Simon The One Armed Tyrant, taking command of the [[Spider Nest Pirates]].
 
 **Juniper arc:** With [[Zara Tideborn]], killed the parents at the **West Town** farm during the **[[Hydra Goose]]** / Lunafang-fertilizer incident — cover-up while the family hid in the barn basement (children later rescued by the crew).
+
+## D&D 5e stat block (legacy)
+
+**Medium humanoid (human), lawful evil**  
+**Armor Class:** 18 (half plate)  
+**Hit Points:** 250 (20d8+160)  
+**Speed:** 30 ft.
+
+**STR 22 (+6), DEX 14 (+2), CON 18 (+4), INT 14 (+2), WIS 16 (+3), CHA 20 (+5)**
+
+**Saving Throws:** Str +11, Con +9, Cha +10  
+**Skills:** Intimidation +15, Athletics +11, Perception +8  
+**Senses:** passive Perception 18  
+**Languages:** Common, Thieves’ Cant  
+**Challenge:** 16 (15,000 XP)
+
+**Legendary Resistance (3/day).** If Silas fails a saving throw, he can choose to succeed instead.  
+**One-Armed Dominance.** Despite his missing arm, Silas wields a massive greatsword in one hand with no penalty. His strikes cleave with devastating force.  
+**Fear Aura.** Any hostile creature within 20 ft. of Silas must succeed on a DC 18 Wisdom saving throw or be frightened until the end of their next turn.
+
+**Actions**  
+**Multiattack.** Silas makes three attacks with his Tyrant’s Blade.  
+**Tyrant’s Blade.** _Melee Weapon Attack:_ +11 to hit, reach 5 ft., one target. _Hit:_ 20 (3d8+6) slashing damage.  
+**Domineering Shout (Recharge 5–6).** All enemies within 60 ft. must succeed on a DC 18 Wisdom saving throw or be stunned until the end of their next turn.
+
+**Legendary Actions (3/round)**
+
+- **Attack.** Silas makes one Tyrant’s Blade attack.
+    
+- **Move.** Silas moves up to half his speed without provoking opportunity attacks.
+    
+- **Intimidating Glare.** One creature within 30 ft. must make a DC 18 Wisdom saving throw or be frightened until the end of its next turn.
+    
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

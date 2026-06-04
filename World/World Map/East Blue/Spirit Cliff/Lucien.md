@@ -4,12 +4,12 @@ type:
   - NPC
 status: draft
 sources:
-  - "[[Episode 4 - Masquerade]]"
+  - "[[Episode 04 - Masquerade of the Stolen Keys]]"
 ---
 
 # Lucien
 
-Casino investor at [[Spirit Cliff]]; long-running partner of branch director **Halward** (see [[The Black Ledger of Director Halward Lynne]]). Knows the cover identity **Masquerade** ([[Baptiste]]).
+Casino investor at [[Spirit Cliff]]; long-running partner of branch director **[[Delaroth Halward|Halward]]** (see [[The Black Ledger of Director Halward Lynne]]). Knows the cover identity **Masquerade** ([[Baptiste]]).
 
 ## Episode 4
 
@@ -18,6 +18,6 @@ Casino investor at [[Spirit Cliff]]; long-running partner of branch director **H
 
 ## Related
 
-- [[Worgoman Bank]]
+- [[World Government Bank]]
 - [[Spirit Cliff]]
 - [[Baptiste]]

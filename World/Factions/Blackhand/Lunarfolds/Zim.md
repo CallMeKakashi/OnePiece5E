@@ -6,7 +6,7 @@ faction: "[[Lunarfolds]]"
 status: draft
 publish: true
 sources:
-  - "[[Episode 9 - The Lunarfold Tournament Part 2]]"
+  - "[[Episode 09 - The Lunarfold Tournament Part 2]]"
   - "[[Episode 21 - House of Justice]]"
   - "[[Episode 22 - The Missing Piece]]"
   - "[[Episode 23 - Choice for life]]"

@@ -4,7 +4,7 @@ faction: "[[Marines]]"
 status: draft
 publish: true
 sources:
-  - "[[Episode 5 - Shackles Broken]]"
+  - "[[Episode 05 - Midnight Chainbreak]]"
 foundry_template_json: "Foundry/actors-json/drez.json"
 foundry_live_slug: "drez"
 ---

@@ -30,4 +30,4 @@ Roof **void entity** fight; **broadcast tower collapses**; shore recovery and Cl
 ## Evidence
 
 - [[Episode 17 - Agony of Choas]]
-- [[2026-01-11 — Agony of Choas]]
+- [[Session 00017 — Agony of Choas]]

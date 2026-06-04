@@ -77,5 +77,5 @@ East Blue island west of [[Ambercrest]]. A fruit-farming island and **safe haven
 - [[Ambercrest]]
 - [[Spirit Cliff]]
 - [[Blackhand]]
-- [[2025-06-28 — The Winged Ally]]
+- [[Session 002 — Stormwings of Ambercrest]]
 

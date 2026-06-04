@@ -3,7 +3,7 @@ publish: true
 type: event
 status: draft
 sources:
-  - "[[Episode 6 - Hallow's End]]"
+  - "[[Episode 06 - Hallow's End]]"
 related_world:
   - "[[Spirit Cliff]]"
   - "[[Sessions/Sidequests/Spider's Nest]]"
@@ -37,5 +37,5 @@ Industrial **G-45** facility assault and island destruction (Episode 6). Spider'
 
 ## Evidence
 
-- [[Episode 6 - Hallow's End]]
-- [[2025-10-12 — Hallow's End]]
+- [[Episode 06 - Hallow's End]]
+- [[Session 00006 — Hallow's End]]

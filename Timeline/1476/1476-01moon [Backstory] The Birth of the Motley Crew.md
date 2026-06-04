@@ -93,7 +93,7 @@ Ronan pleads with Kirro to stop, but the fishman refuses. The fight ends in trag
 ## **The Princess of Virellis**
 
 Back in Magnolia's tavern, **The Slated Journey**, the crew witnesses Marines harassing a young woman. Astor intervenes, leading to a street brawl.  
-The woman reveals herself as **Aralia Cindross**, princess of the **Kingdom of Virellis**, now usurped by her younger brother. Her elder brother leads a resistance but lacks the strength to reclaim the throne. She seeks allies—true warriors.
+The woman reveals herself as **Aralia Cindross**, princess of the **[[Virellis Kingdom|Kingdom of Virellis]]**, now usurped by her younger brother. Her elder brother leads a resistance but lacks the strength to reclaim the throne. She seeks allies—true warriors.
 
 Moved by her plea, Astor convinces the others to help. Their decision will ripple through history.
 
@@ -104,7 +104,7 @@ Moved by her plea, Astor convinces the others to help. Their decision will rippl
 When Sixfold's leader returns, Linus's heart stops—it's his sister, **Liz**, long thought dead.  
 She reveals that she survived the Germa facility by fully awakening her **Paper Paper Fruit**, reconstructing her own body from the pages of her research. For years, she wandered without memories, until the incident at Port Orlin awakened fragments of her past.
 
-Their reunion is bittersweet. Liz confirms that **Vorro**, one of Sixfold's senior agents, was involved in the **pirate raid that destroyed Ronan's island**, and that his crew took several orphans—including Ronan's siblings—to **Virellis**. Vorro now serves under **Captain Briggs**, a Marine commanding the region's covert operations.
+Their reunion is bittersweet. Liz confirms that **Vorro**, one of Sixfold's senior agents, was involved in the **pirate raid that destroyed Ronan's island**, and that his crew took several orphans—including Ronan's siblings—to **[[Virellis Kingdom|Virellis]]**. Vorro now serves under **Captain Briggs**, a Marine commanding the region's covert operations.
 
 Determined to find his family, Ronan swears to follow Aralia's cause.
 

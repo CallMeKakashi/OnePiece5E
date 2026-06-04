@@ -6,6 +6,7 @@ publish: true
 - **Factions**
 	- **[[Aegir]]**
 	- **[[Blackhand]]**
+	- **[[Bramble & Brothers]]**
 	- **[[Circle of Clowns]]**
 	- **[[Decibella Revolutionary]]**
 	- **[[Guardians of Sol]]**
