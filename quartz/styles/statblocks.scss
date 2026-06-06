@@ -1,0 +1,106 @@
+.statblock.op5e-statblock {
+  --statblock-border: #922610;
+  --statblock-bg: #fdf1dc;
+  --statblock-text: #1f1f1f;
+  --statblock-muted: #5a3a2a;
+
+  max-width: 28rem;
+  margin: 1.5rem 0;
+  padding: 0.75rem 1rem 1rem;
+  border: 2px solid var(--statblock-border);
+  border-radius: 0.5rem;
+  background: var(--statblock-bg);
+  color: var(--statblock-text);
+  font-family: "Noto Sans", "Source Sans Pro", sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.statblock-header {
+  margin-bottom: 0.5rem;
+}
+
+.statblock-name {
+  margin: 0;
+  color: var(--statblock-border);
+  font-family: "Libre Baskerville", "Times New Roman", serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.statblock-subtitle {
+  margin: 0.15rem 0 0;
+  font-style: italic;
+  color: var(--statblock-muted);
+}
+
+.statblock-top {
+  margin-bottom: 0.5rem;
+}
+
+.statblock-property {
+  margin: 0.15rem 0;
+}
+
+.statblock-property strong {
+  color: var(--statblock-border);
+}
+
+.statblock-abilities {
+  width: 100%;
+  margin: 0.5rem 0;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.statblock-abilities th,
+.statblock-abilities td {
+  padding: 0.2rem 0.35rem;
+  border: 1px solid rgba(146, 38, 16, 0.35);
+}
+
+.statblock-abilities th {
+  color: var(--statblock-border);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+}
+
+.statblock-section {
+  margin-top: 0.75rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(146, 38, 16, 0.35);
+}
+
+.statblock-section h4 {
+  margin: 0 0 0.35rem;
+  color: var(--statblock-border);
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.statblock-feature {
+  margin: 0.25rem 0;
+}
+
+.statblock-feature strong {
+  color: var(--statblock-border);
+}
+
+.statblock-error {
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid #b00020;
+  border-radius: 0.35rem;
+  background: #fff0f0;
+  color: #7a0015;
+}
+
+:root[saved-theme="dark"] .statblock.op5e-statblock {
+  --statblock-border: #d86a4d;
+  --statblock-bg: #2a2118;
+  --statblock-text: #f2e8dc;
+  --statblock-muted: #d0b8a0;
+}
