@@ -388,7 +388,7 @@ export const level2: FoundryItem[] = [
         "recovery": "",
         "prompt": true
       },
-      "actionType": "msak",
+      "actionType": "save",
       "attack": {
         "bonus": "",
         "flat": false
@@ -403,7 +403,7 @@ export const level2: FoundryItem[] = [
         "versatile": ""
       },
       "save": {
-        "ability": "",
+        "ability": "wis",
         "dc": null,
         "scaling": "spell"
       },
@@ -2652,7 +2652,7 @@ export const level2: FoundryItem[] = [
         "recovery": "",
         "prompt": true
       },
-      "actionType": "rsak",
+      "actionType": "",
       "attack": {
         "bonus": "",
         "flat": false

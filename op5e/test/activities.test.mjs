@@ -14,6 +14,8 @@ import { secondWind } from "../data/src/class-features/fighter.js";
 import { rage } from "../data/src/class-features/barbarian.js";
 import { hakiAbilities } from "../data/src/class-features/haki.js";
 import { flamingDuality } from "../data/src/racial-features/lunarian.js";
+import { weapons } from "../data/src/items/weapons.js";
+import { tricks } from "../data/src/creations/tricks.js";
 
 describe("feature activities", () => {
   it("detects activatable legacy fields", () => {
@@ -43,6 +45,9 @@ describe("feature activities", () => {
     expect(activity.consumption).toMatchObject({
       targets: [{ type: "itemUses", value: "1" }],
     });
+    expect(activity.uses.recovery).toEqual([
+      { period: "shortRest", type: "recoverAll" },
+    ]);
     expect(activity.healing).toMatchObject({
       number: 1,
       denomination: 10,
@@ -56,6 +61,22 @@ describe("feature activities", () => {
     expect(activity.type).toBe("utility");
     expect(activity.activation).toMatchObject({ type: "bonus", value: 1 });
     expect(activity.duration).toMatchObject({ value: 1, units: "minute" });
+    expect(activity.uses.recovery).toEqual([
+      { period: "longRest", type: "recoverAll" },
+    ]);
+  });
+
+  it("carries weapon damage into attack activities", () => {
+    const cutlass = weapons.find((item) => item.name === "Cutlass");
+    expect(cutlass).toBeDefined();
+    const activities = buildActivities(cutlass);
+    const activity = activities[PRIMARY_ACTIVITY_ID];
+    expect(activity.type).toBe("attack");
+    expect(activity.damage.parts[0]).toMatchObject({
+      number: 1,
+      denomination: 8,
+      types: ["slashing"],
+    });
   });
 
   it("generates save activity for Conqueror's Haki", () => {
@@ -96,6 +117,21 @@ describe("feature activities", () => {
     expect(activities[FLAMING_DUALITY_GODSPEED_ACTIVITY_ID]).toMatchObject({
       type: "utility",
       name: "Godspeed Form",
+    });
+  });
+
+  it("keeps selectable damage and push modes as separate trick activities", () => {
+    const manipulateEarth = tricks.find((item) => item.name === "Manipulate Earth");
+    const waterFlow = tricks.find((item) => item.name === "Water Flow");
+    const windblast = tricks.find((item) => item.name === "Windblast");
+
+    expect(Object.values(manipulateEarth.system.activities)).toHaveLength(3);
+    expect(Object.values(waterFlow.system.activities)).toHaveLength(3);
+    expect(Object.values(windblast.system.activities)).toHaveLength(4);
+    expect(windblast.system.activities.windblastpush001).toMatchObject({
+      type: "save",
+      save: { ability: ["str"], dc: { calculation: "spellcasting" } },
+      damage: { onSave: "none", parts: [] },
     });
   });
 

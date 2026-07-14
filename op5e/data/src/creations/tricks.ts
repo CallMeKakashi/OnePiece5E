@@ -1,4 +1,5 @@
 import type { FoundryItem } from "../../../schemas/common.js";
+import { buildActivities } from "../../helpers/activities.js";
 
 export const tricks: FoundryItem[] = [
   {
@@ -706,7 +707,12 @@ export const tricks: FoundryItem[] = [
         "flat": false
       },
       "damage": {
-        "parts": [],
+        "parts": [
+          [
+            "@mod",
+            "fire"
+          ]
+        ],
         "versatile": ""
       },
       "save": {
@@ -2387,7 +2393,7 @@ export const tricks: FoundryItem[] = [
         "flat": false
       },
       "damage": {
-        "parts": [],
+        "parts": [["1d8", "bludgeoning"]],
         "versatile": ""
       },
       "save": {
@@ -5323,7 +5329,7 @@ export const tricks: FoundryItem[] = [
         "flat": false
       },
       "damage": {
-        "parts": [],
+        "parts": [["1d8", "bludgeoning"]],
         "versatile": ""
       },
       "save": {
@@ -5527,7 +5533,7 @@ export const tricks: FoundryItem[] = [
         "flat": false
       },
       "damage": {
-        "parts": [],
+        "parts": [["1d8", "bludgeoning"]],
         "versatile": ""
       },
       "save": {
@@ -5557,3 +5563,56 @@ export const tricks: FoundryItem[] = [
     }
   }
 ];
+
+function configureChoiceDamageActivities(
+  name: string,
+  ids: [string, string, string],
+  includePushSave = false,
+): void {
+  const item = tricks.find((candidate) => candidate.name === name);
+  if (!item) throw new Error(`Missing trick: ${name}`);
+
+  const source = {
+    name: item.name,
+    type: item.type,
+    effects: item.effects,
+    system: item.system as any,
+  };
+  const generated = buildActivities(source) as Record<string, any>;
+  const primary = generated.dnd5eactivity000;
+  const types = ["bludgeoning", "piercing", "slashing"];
+  const activities = Object.fromEntries(
+    types.map((type, index) => [
+      ids[index],
+      {
+        ...primary,
+        _id: ids[index],
+        name: `${name} (${type[0].toUpperCase()}${type.slice(1)})`,
+        damage: {
+          ...primary.damage,
+          parts: [{ ...primary.damage.parts[0], types: [type] }],
+        },
+      },
+    ]),
+  );
+
+  if (includePushSave) {
+    activities.windblastpush001 = {
+      ...primary,
+      _id: "windblastpush001",
+      type: "save",
+      name: "Windblast (Push)",
+      damage: { onSave: "none", parts: [] },
+      save: {
+        ability: ["str"],
+        dc: { calculation: "spellcasting", formula: "" },
+      },
+    };
+  }
+
+  (item.system as any).activities = activities;
+}
+
+configureChoiceDamageActivities("Manipulate Earth", ["manipearthblud001", "manipearthpier001", "maniearthslash01"]);
+configureChoiceDamageActivities("Water Flow", ["waterflowblud001", "waterflowpier001", "waterflowslash01"]);
+configureChoiceDamageActivities("Windblast", ["windblastblud001", "windblastpier001", "windblastslash01"], true);

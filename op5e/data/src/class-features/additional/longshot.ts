@@ -61,7 +61,6 @@ export const longshotFeatures: FeatureItem[] = [
     {
       requirements: "Longshot",
       activation: { type: "action", cost: 1, condition: "" },
-      actionType: "rwak",
       range: { value: 5280, long: null, units: "ft" },
     },
   ),

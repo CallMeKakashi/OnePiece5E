@@ -215,14 +215,24 @@ function inferSaveAbility(desc: string): string {
 function inferDamage(desc: string): [string, string][] {
   const parts: [string, string][] = [];
   const damagePattern = /(\d+d\d+(?:\s*\+\s*\d+)?)\s+(acid|bludgeoning|cold|fire|force|lightning|necrotic|piercing|poison|psychic|radiant|slashing|thunder)\s+damage/gi;
+  const choiceDamagePattern = /(\d+d\d+(?:\s*\+\s*\d+)?)\s+of\s+(?:your\s+)?choice\s+(acid|bludgeoning|cold|fire|force|lightning|necrotic|piercing|poison|psychic|radiant|slashing|thunder)/gi;
   let match;
   const seen = new Set<string>();
-  while ((match = damagePattern.exec(desc)) !== null) {
-    const key = `${match[1]}|${match[2]}`;
+  const addPart = (formula: string, type: string) => {
+    const key = `${formula}|${type}`;
     if (!seen.has(key)) {
       seen.add(key);
-      parts.push([match[1], match[2].toLowerCase()]);
+      parts.push([formula, type.toLowerCase()]);
     }
+  };
+
+  while ((match = damagePattern.exec(desc)) !== null) {
+    addPart(match[1], match[2]);
+  }
+  while ((match = choiceDamagePattern.exec(desc)) !== null) {
+    // Foundry's legacy damage field has one selected type; use the first legal
+    // choice as the default and preserve the full choice in the description.
+    addPart(match[1], match[2]);
   }
   return parts;
 }

@@ -68,7 +68,7 @@ export const level1: FoundryItem[] = [
         "recovery": "",
         "prompt": true
       },
-      "actionType": "msak",
+      "actionType": "",
       "attack": {
         "bonus": "",
         "flat": false
@@ -991,7 +991,7 @@ export const level1: FoundryItem[] = [
         "recovery": "",
         "prompt": true
       },
-      "actionType": "rsak",
+      "actionType": "",
       "attack": {
         "bonus": "",
         "flat": false
@@ -1817,7 +1817,7 @@ export const level1: FoundryItem[] = [
         "recovery": "",
         "prompt": true
       },
-      "actionType": "rsak",
+      "actionType": "",
       "attack": {
         "bonus": "",
         "flat": false
@@ -2745,7 +2745,7 @@ export const level1: FoundryItem[] = [
         "recovery": "",
         "prompt": true
       },
-      "actionType": "msak",
+      "actionType": "",
       "attack": {
         "bonus": "",
         "flat": false
@@ -2955,7 +2955,12 @@ export const level1: FoundryItem[] = [
         "flat": false
       },
       "damage": {
-        "parts": [],
+        "parts": [
+          [
+            "3d10",
+            ""
+          ]
+        ],
         "versatile": ""
       },
       "save": {
@@ -4510,7 +4515,12 @@ export const level1: FoundryItem[] = [
         "flat": false
       },
       "damage": {
-        "parts": [],
+        "parts": [
+          [
+            "3d10",
+            ""
+          ]
+        ],
         "versatile": ""
       },
       "save": {

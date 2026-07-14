@@ -1,4 +1,5 @@
 import type { FeatureItem, FeatureSystem } from "../schemas/feature.js";
+import type { FoundryItem } from "../schemas/common.js";
 
 /** Stable activity id used by dnd5e 5.1 migration (`staticID("dnd5eactivity")`). */
 export const PRIMARY_ACTIVITY_ID = "dnd5eactivity000";
@@ -104,6 +105,33 @@ function transformConsumption(source: ActivitySource) {
   };
 }
 
+function transformUses(source: ActivitySource) {
+  const uses = source.system.uses;
+  const period = uses?.per ?? "";
+  const recoveryMap: Record<string, string> = {
+    sr: "shortRest",
+    shortRest: "shortRest",
+    lr: "longRest",
+    longRest: "longRest",
+    day: "day",
+    daily: "day",
+  };
+  const mapped = recoveryMap[period];
+
+  return {
+    spent: 0,
+    max: "",
+    recovery: mapped
+      ? [
+          {
+            period: mapped,
+            type: "recoverAll",
+          },
+        ]
+      : [],
+  };
+}
+
 function transformDuration(source: ActivitySource) {
   const duration = source.system.duration ?? { value: null, units: "" };
   return {
@@ -200,7 +228,7 @@ function buildBaseActivity(source: ActivitySource, type: ActivityType, id: strin
     effects: transformEffects(source),
     range: transformRange(source),
     target: transformTarget(source),
-    uses: { spent: 0, max: "", recovery: [] as unknown[] },
+    uses: transformUses(source),
   };
 }
 
@@ -237,6 +265,15 @@ function buildTypeFields(source: ActivitySource, type: ActivityType) {
     return {
       damage: {
         critical: { allow: false, bonus: "" },
+        parts: sys.damage?.parts?.map((part) => transformDamagePart(part)) ?? [],
+      },
+    };
+  }
+
+  if (type === "attack") {
+    return {
+      damage: {
+        critical: { allow: true, bonus: "" },
         parts: sys.damage?.parts?.map((part) => transformDamagePart(part)) ?? [],
       },
     };
@@ -344,4 +381,42 @@ export function countActivatableFeatures(items: FeatureItem[]): {
   }
 
   return { total: items.length, withActivities, generated };
+}
+
+type ActivatableSystem = {
+  activation?: FeatureSystem["activation"];
+  uses?: FeatureSystem["uses"];
+  actionType?: string;
+  damage?: FeatureSystem["damage"];
+  save?: FeatureSystem["save"];
+  target?: FeatureSystem["target"];
+  range?: FeatureSystem["range"];
+  description?: FeatureSystem["description"];
+  source?: FeatureSystem["source"];
+  chatFlavor?: string;
+  activities?: Record<string, unknown>;
+};
+
+/** Build a minimal dnd5e 5.1 activity for any item that has usable action fields. */
+export function ensureItemActivities<T extends FoundryItem>(item: T): T {
+  const system = item.system as ActivatableSystem;
+  if (!system) return item;
+  if (system.activities && Object.keys(system.activities).length > 0) return item;
+  if (!system.activation?.type && !system.uses?.max && !system.actionType && !system.damage?.parts?.length && !system.save?.ability) {
+    return item;
+  }
+
+  const source: ActivitySource = {
+    name: item.name,
+    type: item.type,
+    system: system as FeatureSystem,
+  };
+
+  return {
+    ...item,
+    system: {
+      ...system,
+      activities: buildActivities(source),
+    },
+  };
 }

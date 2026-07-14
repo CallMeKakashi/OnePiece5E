@@ -317,6 +317,49 @@ export const weapons: FoundryItem[] = [
     { amm: true, hvy: true, two: true, spc: true },
     { range: [20, 60],
       desc: `<p>Known for causing vast damage in close proximity. Fires several bullets in the form of shells that blast holes in any surface.</p><p><strong>Special.</strong> Attacks with this weapon don't have disadvantage within close range. Ranged attacks against creatures within the short range deal an extra 1d4 piercing damage.</p>${reload(2)}` }),
+
+  // ═══════════════════════════════════════════
+  //  Ship Weapons
+  // ═══════════════════════════════════════════
+  wpn("swivel-gun", "Swivel Gun", "martialR", 100000,
+    [["2d8", "bludgeoning"]], 0,
+    { amm: true, spc: true },
+    { range: [120, 480], desc: "<p>A light cannon that can be effectively manned by a single creature. Clean and reload: 1 bonus action. Available on all ships.</p>" }),
+
+  wpn("8-pounder", "8-pounder", "martialR", 1000000,
+    [["2d10", "bludgeoning"]], 0,
+    { amm: true, spc: true },
+    { range: [200, 800], desc: "<p>A ship cannon. Clean and reload: 1 action. Siege weapon. Available on caravels, carracks, galleons, galleys, and sloops.</p>" }),
+
+  wpn("12-pounder", "12-pounder", "martialR", 3000000,
+    [["3d10", "bludgeoning"]], 0,
+    { amm: true, spc: true },
+    { range: [200, 800], desc: "<p>A ship cannon. Clean and reload: 1 action. Siege weapon. Available on caravels, carracks, galleons, and galleys.</p>" }),
+
+  wpn("18-pounder", "18-pounder", "martialR", 7000000,
+    [["4d10", "bludgeoning"]], 0,
+    { amm: true, spc: true },
+    { range: [250, 1000], desc: "<p>A heavy ship cannon. Clean and reload: 2 actions. Siege weapon. Available on caravels, carracks, galleons, and galleys.</p>" }),
+
+  wpn("24-pounder", "24-pounder", "martialR", 12000000,
+    [["6d10", "bludgeoning"]], 0,
+    { amm: true, spc: true },
+    { range: [250, 1000], desc: "<p>A heavy ship cannon. Clean and reload: 2 actions. Siege weapon. Available on carracks, galleons, and galleys.</p>" }),
+
+  wpn("36-pounder", "36-pounder", "martialR", 20000000,
+    [["8d10", "bludgeoning"]], 0,
+    { amm: true, spc: true },
+    { range: [250, 1000], desc: "<p>A large ship cannon. Clean and reload: 2 actions. Siege weapon. Available on carracks and galleons.</p>" }),
+
+  wpn("42-pounder", "42-pounder", "martialR", 30000000,
+    [["10d10", "bludgeoning"]], 0,
+    { amm: true, spc: true },
+    { range: [300, 1200], desc: "<p>A massive ship cannon. Clean and reload: 2 actions. Siege weapon. Available on carracks and galleons.</p>" }),
+
+  wpn("64-pounder", "64-pounder", "martialR", 40000000,
+    [["15d10", "bludgeoning"]], 0,
+    { amm: true, spc: true },
+    { range: [300, 1200], desc: "<p>The largest listed ship cannon. Clean and reload: 3 actions. Siege weapon. Available on galleons only.</p>" }),
 ];
 
 export default weapons;

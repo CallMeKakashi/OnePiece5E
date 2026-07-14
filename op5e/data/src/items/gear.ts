@@ -128,6 +128,8 @@ export const gear: FoundryItem[] = [
     "<p>A set of dials from the sky islands that serves as an apparatus for gadgeteers to create fantastic effects.</p>"),
   equipment("experimental-device", "Experimental Device", 150000, 3,
     "<p>An experimental rod with sprockets and gyri attached. Functions as a gadgeteer apparatus for creating fantastic effects.</p>"),
+  equipment("apparatus", "Apparatus", 0, 0,
+    "<p>A mechanism or item that allows gadgeteers to create fantastic effects, such as sky island dials or an experimental rod with sprockets and gyri attached.</p>"),
 
   // ═══════════════════════════════════════════
   //  Adventuring Gear
@@ -196,6 +198,8 @@ export const gear: FoundryItem[] = [
   loot("scales-merchants", "Scales, Merchant's", 50000, 3),
   loot("sea-charts-local", "Sea Charts, Local", 10000, 0,
     "<p>Maps the nearby island as well as water depth and land elevations. While a navigator has sea charts at hand, all navigation checks have advantage within the charted area.</p>"),
+  loot("sea-charts", "Sea Charts", 10000, 0,
+    "<p>Sea charts map nearby islands, water depth, and land elevations. While a navigator has sea charts at hand, navigation checks have advantage within the charted area.</p>"),
   loot("sealing-wax", "Sealing Wax", 2500, 0),
   loot("shovel", "Shovel", 20000, 5),
   loot("signal-whistle", "Signal Whistle", 250, 0),
@@ -256,6 +260,8 @@ export const gear: FoundryItem[] = [
     "<p>Can receive, project, and broadcast what a cameko subspecies sees onto a bigger video screen. Can broadcast frequencies between two relatively close locations.</p>"),
   loot("surveillance-transponder-snail", "Surveillance Transponder Snail", 2500000, 8,
     "<p>Adult form of the cameko transponder snail. Too big to move by hand; placed strategically to survey an area. Multiple surveillance snails can broadcast to a single proko for an effective surveillance network.</p>"),
+  loot("transponder-snails", "Transponder Snails", 0, 0,
+    "<p>Transponder snails, also known as den den mushi, are domesticated communication creatures used as phones, cameras, projectors, surveillance devices, and signal interceptors across the world.</p>"),
 
   // ═══════════════════════════════════════════
   //  Cannon Shot
@@ -270,6 +276,8 @@ export const gear: FoundryItem[] = [
     "<p>Deals fire damage with a 20-foot radius sphere spread from the impact point.</p>"),
   ammo("flame-dial-ammo", "Flame Dial", 100000, 0,
     "<p>Deals fire damage in a line (10 feet wide) extending from the muzzle to the cannon's normal range.</p>"),
+  loot("cannons", "Cannons", 0, 0,
+    "<p>Cannons are the primary weapons of seafaring vessels. Their pound rating determines damage, range, clean/reload time, ship availability, and whether they count as siege weapons.</p>"),
 
   // ═══════════════════════════════════════════
   //  Mounts and Animals
@@ -315,6 +323,36 @@ export const gear: FoundryItem[] = [
     "<p>Resembles a water scooter, using a breath dial as an engine. Speed 60 ft. By far the fastest of the three sky vehicle types.</p>"),
   loot("waver-jet-dial", "Waver, Jet Dial", 50000000, 80,
     "<p>Resembles a water scooter, using a rare jet dial as an engine. Speed 80 ft.</p>"),
+  loot("sky-vehicles", "Sky Vehicles", 0, 0,
+    "<p>Dial-powered vehicles used on sky islands in place of common watercraft. The most common forms are surfers, shooters, and wavers.</p>"),
+  loot("surfers", "Surfers", 0, 2,
+    "<p>Sky vehicles resembling surfboards, fitted with breath or jet dials for propulsion. They are the middle ground between shooters and wavers.</p>"),
+  loot("shooters", "Shooters", 0, 1,
+    "<p>Skate-like sky vehicles attached to feet or footwear. Breath or jet dials let the wearer travel over water and clouds with practice.</p>"),
+  loot("wavers", "Wavers", 0, 80,
+    "<p>Large sky vehicles resembling water scooters. They use breath dials or rare jet dials as engines and are the fastest common sky vehicle type.</p>"),
+
+  // ═══════════════════════════════════════════
+  //  Waterborne Vehicles
+  // ═══════════════════════════════════════════
+  loot("ships-and-waterborne-vessels", "Ships and Waterborne Vessels", 0, 0,
+    "<p>Waterborne vessels are the heart of a pirate crew. The listed vessels range from humble rowboats and keelboats to fleet flagships such as galleons.</p>"),
+  loot("caravel", "Caravel", 100000000, 0,
+    "<p>A light, fast sailing ship distinguished by lateen sails and two or more masts. Speed 5 mph; crew 30; passengers 20; cargo 100 tons.</p>"),
+  loot("carrack", "Carrack", 250000000, 0,
+    "<p>A caravel-built warship with three to four masts and mixed lateen and square-rigged sails. Speed 4 mph; crew 40; passengers 60; cargo 200 tons.</p>"),
+  loot("galleon", "Galleon", 400000000, 0,
+    "<p>A large multi-decked sailing ship, often used as a fleet flagship. Speed 4.5 mph; crew 60; passengers 90; cargo 300 tons.</p>"),
+  loot("galley", "Galley", 300000000, 0,
+    "<p>A long vessel relying on sails and a sizable rowing crew. Speed 4 mph; crew 80; passengers 40; cargo 150 tons.</p>"),
+  loot("keelboat", "Keelboat", 30000000, 0,
+    "<p>A small sailing vessel that can be sailed or rowed by a small crew. Speed 3 mph; crew 3; passengers 4; cargo 0.5 tons.</p>"),
+  loot("longship", "Longship", 100000000, 0,
+    "<p>A rowing-and-sail vessel suited for quick troop movement and surprise strikes. Speed 5 mph; crew 40; passengers 100; cargo 10 tons.</p>"),
+  loot("rowboat", "Rowboat", 500000, 100,
+    "<p>A humble boat used to ferry passengers or navigate lakes and rivers. Speed 1.5 mph; crew 2; passengers 2.</p>"),
+  loot("sloop", "Sloop", 50000000, 0,
+    "<p>A small, nimble sailing vessel with a single mast and fore-and-aft-rigged sails. Speed 4 mph; crew 10; passengers 10; cargo 25 tons.</p>"),
 ];
 
 export default gear;
