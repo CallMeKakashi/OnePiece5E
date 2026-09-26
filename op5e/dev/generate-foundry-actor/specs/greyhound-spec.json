@@ -1,0 +1,28 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "name": "Greyhound",
+  "raceIdentifier": "mink",
+  "classIdentifier": "brawler",
+  "subclassIdentifier": "open-hand",
+  "level": 18,
+  "cr": 16,
+  "backgroundSlug": "Pirate",
+  "roleSlug": "Role: Captain",
+  "powerFork": "neither",
+  "additionalPowerSlug": "",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "abilities": { "str": 24, "dex": 16, "con": 26, "int": 6, "wis": 20, "cha": 8 },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "choices": [
+    { "stepId": "0aaed0da7a5b68a6", "level": 1, "source": "class", "slugs": ["skills:ath", "skills:itm"] },
+    { "stepId": "5443012e7dca93f1", "level": 8, "source": "class", "uuids": ["Compendium.op5e.class-features.409ca29b4a12db94"] },
+    { "stepId": "6451841020984141", "level": 10, "source": "class", "uuids": ["Compendium.op5e.class-features.882fa5d6cef02212"] },
+    { "stepId": "fc4c8dadf141aaaa", "level": 12, "source": "class", "uuids": ["Compendium.op5e.class-features.16bc2636849312ce"] },
+    { "stepId": "a466c921c3e1ce60", "level": 14, "source": "class", "uuids": ["Compendium.op5e.class-features.c04321ae3bf3215f"] },
+    { "stepId": "4425308f10e408b9", "level": 16, "source": "class", "uuids": ["Compendium.op5e.class-features.96dcda2a40ae256f"] }
+  ]
+}

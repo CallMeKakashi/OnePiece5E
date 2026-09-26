@@ -3,6 +3,7 @@ import subclasses from "../../data/src/subclasses/index.ts";
 import classFeatures from "../../data/src/class-features/index.ts";
 import backgrounds from "../../data/src/backgrounds/index.ts";
 import items from "../../data/src/items/index.ts";
+import races from "../../data/src/races/index.ts";
 import { compendiumUuid } from "../../data/helpers/uuid.ts";
 import {
   type IssuePhase,
@@ -151,6 +152,7 @@ export interface CompendiumIndex {
   features: AnyDoc[];
   backgrounds: AnyDoc[];
   items: AnyDoc[];
+  races: AnyDoc[];
 }
 
 export function buildCompendiumIndex(): CompendiumIndex {
@@ -170,6 +172,7 @@ export function buildCompendiumIndex(): CompendiumIndex {
   register("class-features", classFeatures as AnyDoc[]);
   register("backgrounds", backgrounds as AnyDoc[]);
   register("items", items as AnyDoc[]);
+  register("races", races as AnyDoc[]);
 
   return {
     byUuid,
@@ -179,7 +182,30 @@ export function buildCompendiumIndex(): CompendiumIndex {
     features: classFeatures as AnyDoc[],
     backgrounds: backgrounds as AnyDoc[],
     items: items as AnyDoc[],
+    races: races as AnyDoc[],
   };
+}
+
+let _index: CompendiumIndex | null = null;
+
+/** Singleton compendium index for actor-gen and audit tooling. */
+export function getCompendiumIndex(): CompendiumIndex {
+  if (!_index) _index = buildCompendiumIndex();
+  return _index;
+}
+
+export function findByUuid(uuid: string, index: CompendiumIndex = getCompendiumIndex()): AnyDoc | undefined {
+  return index.byUuid.get(uuid);
+}
+
+export function findRace(identifier: string, index: CompendiumIndex = getCompendiumIndex()): AnyDoc | undefined {
+  return index.races.find(
+    (r) => String(r.system?.identifier ?? "").toLowerCase() === identifier.toLowerCase(),
+  );
+}
+
+export function findItemByName(name: string, index: CompendiumIndex = getCompendiumIndex()): AnyDoc | undefined {
+  return index.items.find((i) => String(i.name ?? "") === name);
 }
 
 function getAdvancements(doc: AnyDoc): AnyDoc[] {

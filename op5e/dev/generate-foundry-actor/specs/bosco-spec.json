@@ -1,0 +1,27 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "name": "Bosco",
+  "raceIdentifier": "human",
+  "classIdentifier": "brawler",
+  "subclassIdentifier": "sumo-wrestler",
+  "level": 10,
+  "cr": 10,
+  "backgroundSlug": "Glutton",
+  "roleSlug": "Role: Master at Arms",
+  "powerFork": "fork",
+  "additionalPowerSlug": "cannonball-chucker",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "abilities": { "str": 20, "dex": 12, "con": 24, "int": 8, "wis": 18, "cha": 10 },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "choices": [
+    { "stepId": "bdbeb7672f52cde8", "level": 0, "source": "role", "uuids": ["Compendium.op5e.items.69b040710b4ce0a2"] },
+    { "stepId": "072b095fdf6d6261", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.e5e7d26cd0404bee"] },
+    { "stepId": "0aaed0da7a5b68a6", "level": 1, "source": "class", "slugs": ["skills:ath", "skills:itm"] },
+    { "stepId": "5443012e7dca93f1", "level": 8, "source": "class", "uuids": ["Compendium.op5e.class-features.16bc2636849312ce"] },
+    { "stepId": "6451841020984141", "level": 10, "source": "class", "uuids": ["Compendium.op5e.class-features.c04321ae3bf3215f"] }
+  ]
+}

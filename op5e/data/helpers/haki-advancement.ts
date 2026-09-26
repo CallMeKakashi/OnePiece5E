@@ -49,6 +49,24 @@ export function allHakiUuids(): string[] {
   return allHakiSlugs().map(hakiUuid);
 }
 
+/** JSON manifest for Foundry runtime adapter (haki-advancement-lib.mjs). */
+export function exportHakiManifest(moduleId = "op5e") {
+  const featIds = Object.fromEntries(
+    allHakiSlugs().map((slug) => [slug, generateId(`feature/haki/${slug}`)]),
+  ) as Record<string, string>;
+  const slugToUuid = Object.fromEntries(
+    allHakiSlugs().map((slug) => [slug, hakiUuid(slug)]),
+  ) as Record<string, string>;
+  return {
+    moduleId,
+    branches: [...HAKI_BRANCHES],
+    tiers: [...HAKI_TIERS],
+    choiceLevels: [...HAKI_CHOICE_LEVELS],
+    featIds,
+    slugToUuid,
+  };
+}
+
 /**
  * Compute the valid Haki feat slugs for the next choice.
  * - Unstarted branch → Novice
