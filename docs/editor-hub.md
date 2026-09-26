@@ -63,4 +63,4 @@ Discord setup: [[scripts/README]] (export script only).
 ## Agents
 
 - [[CONTEXT]] — domain glossary (Session vs Episode, actors, factions)
-- [[docs/agents/CORE|Agent core instructions]]
+- [[CLAUDE|Agent core instructions]]

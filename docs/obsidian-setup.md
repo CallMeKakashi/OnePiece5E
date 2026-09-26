@@ -19,7 +19,7 @@ How the vault file explorer is trimmed for campaign prep without breaking templa
 
 | Folder | Reason |
 |--------|--------|
-| `Categories/`, `Clippings/`, `References/`, `Notes/` | Tier 2 PKM infrastructure ([[docs/agents/CORE]]) |
+| `Categories/`, `Clippings/`, `References/`, `Notes/` | Tier 2 PKM infrastructure ([[CLAUDE|CLAUDE.md]]) |
 | `Templates/` | Tier 2 — use [[Templates/_index]] instead |
 | `docs/`, `scripts/` | Agent / tooling |
 | `Discord/` | Export quarry — channel registry at [[Discord/_index]]; curated content lives in `Timeline/`, `World/` |
@@ -106,4 +106,4 @@ If a plugin still collapses folders into index notes, set **Waypoint → Folder 
 
 ## Changing this setup
 
-Do not edit the snippet or `appearance.json` without updating this doc. Agents: see [[docs/agents/CORE]] (Obsidian explorer section).
+Do not edit the snippet or `appearance.json` without updating this doc. Agents: see [[CLAUDE|CLAUDE.md]] (Obsidian explorer section).

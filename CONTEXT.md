@@ -60,6 +60,30 @@ _Avoid_: Source (imported reference material)
 Campaign devil fruit registry (image, power, current owner) in `Devil Fruits/`; hub [[Devil Fruits]]. System reference: `Sourcebook/Chapter 6 Devil Fruits/`.
 _Avoid_: Rules (folder is homebrew mechanics; fruits are their own registry)
 
+**op5e**:
+The standalone FoundryVTT module for One Piece 5e (compendium, character creator, runtime hooks) in `op5e/`; a separate software project from the campaign vault with its own TypeScript build, tests, and release pipeline.
+_Avoid_: Source (op5e is compiled software; Sourcebook is imported reference text), treating it as just "the compendium"
+
+**Sync scripts**:
+Python automation in `scripts/` bridging the vault to Discord, Foundry, and the published wiki. A mix of recurring sync jobs (Discord export, Foundry actor/statblock sync, Quartz publish) and one-time migrations — check the specific script before assuming either.
+_Avoid_: Confusing with `op5e/scripts/` (op5e's own build scripts — same folder name, different project)
+
+**Quartz**:
+The static site generator that builds the published GitHub Pages wiki from vault content, run on the `v4` branch.
+_Avoid_: Crediting "Obsidian plugins" for the published site — those are for local authoring only
+
+**planning branch / v4 branch**:
+`planning` is the live working branch for this vault (content + tooling). `v4` is an orphan branch — unrelated git history — holding only the Quartz `content/` tree, synced from `planning` by content-copy, not merge.
+_Avoid_: Treating `v4` as mergeable with `planning`
+
+**Foundry (live)**:
+Current FoundryVTT game-server state — actual PC/NPC stats as played at the table. Bridged into the vault via the `Foundry/world-actors` junction. See [[Foundry/_index|Foundry/_index]].
+_Avoid_: Foundry (workshop)
+
+**Foundry (workshop)**:
+Draft/import actor JSON used to build or template characters; does not necessarily reflect current in-game state. Bridged via the `Foundry/actors-json` junction.
+_Avoid_: Foundry (live), treating workshop JSON as current stats
+
 ## Factions
 
 All named characters live under their faction in `World/Factions/`. Current factions:
@@ -96,6 +120,8 @@ All named characters live under their faction in `World/Factions/`. Current fact
 
 - "Session" in conversation may mean the table event or the file in `Sessions/` — default to the table-play unit unless context is about files.
 - "Episode" in filenames always means the recording/transcript naming scheme.
+- "scripts/" exists at both the vault root and inside `op5e/scripts/` — same name, unrelated projects. Confirm which one before running or editing anything.
+- "Foundry" alone is ambiguous between the live game state and the workshop/import templates — always qualify as Foundry (live) or Foundry (workshop).
 
 ## Example dialogue
 

@@ -1,0 +1,6 @@
+---
+name: generate-foundry-actor
+description: Interactive workflow to build Blood & Brine OP5e Foundry actor JSON from compendium data. Use when the user invokes /generate-foundry-actor, asks to generate Foundry JSON for an NPC/PC/Actor, build a workshop actor template, or create a compendium-backed character sheet.
+---
+
+Read and follow `.cursor/skills/generate-foundry-actor/SKILL.md` exactly.
