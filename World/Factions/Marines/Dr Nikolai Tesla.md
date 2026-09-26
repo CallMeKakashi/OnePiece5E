@@ -8,13 +8,12 @@ sources:
   - "[[Timeline/Undated/[Backstory] Elizabeth Marrow — mortuary escape]]"
   - "[[Episode 25 - Fire Storm]]"
   - "[[Linus — Notes]]"
-  - "Sessions/Archive/Campaign 1/Session 3 notes.md"
   - "Discord/exports/character-art"
 ---
 
 ## Aliases
 
-- **Dr. Nikolai Vasiliev** — Germa-era name (archive / Campaign 1 notes)
+- **Dr. Nikolai Vasiliev** — Germa-era name
 - **The Doctor** — Callisto amalgam projects ([[Discord/exports/character-art]])
 - **Nikolai / Anton** — mist-form antagonist at Fire Storm ([[Linus Marrow]] identification)
 
@@ -38,7 +37,7 @@ Nikolai fled or departed Germa when the kingdom fell, carrying the memory of a *
 ## Episode threads
 
 - **Distraction operations** — **Airship crash:** **[[Monster Manual/Aberrant Abomination|Aberrant Abomination]]** + **[[Carrion Stalker|Carrion Stalkers]]** (killed by [[B.O.B]], [[Roma]], [[Tray]]). **York Town mine:** **[[Cave Render|Cave Renders]]** (bred cannibals; killed by [[Thompson Caneheart]], [[Matthew -The Jack- Burgess|Jack]]). Meant to draw the party while island work goes unnoticed (sessions/transcripts pending).
-- Campaign 1: threatening Den Den Mushi contact; bounty hunters sent for Pasha ([[Sessions/Archive/Campaign 1/Session 3 notes]]).
+- Threatening Den Den Mushi contact; bounty hunters sent for Pasha.
 - **Fire Storm** — Mist form abducts [[Alice]] and [[Malphas]]; [[Calder Voss]] escapes ([[Episode 25 - Fire Storm]]).
 - **Callisto** — Research facility destroyed; survivors blame Blackhand; Mugen / Briggs spin ([[Timeline/1478/1478-12moon [Newspaper] Grand Line Tribune — Morning]]).
 
