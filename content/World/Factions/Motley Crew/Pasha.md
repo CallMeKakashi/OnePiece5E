@@ -4,7 +4,6 @@ faction: "[[Motley Crew]]"
 status: draft
 publish: true
 sources:
-  - "Old Notes/One Piece DND - Blood and Brine/Campaign 1/Player Characters/Pasha.md"
 ---
 ## Visuals
 

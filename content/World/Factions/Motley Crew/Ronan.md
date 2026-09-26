@@ -3,9 +3,6 @@ type: actor
 faction: "[[Motley Crew]]"
 status: draft
 publish: true
-sources:
-  - "Old Notes/One Piece DND - Blood and Brine/Campaign 1/Player Characters/Ronan/Backstory 1.md"
-  - "Old Notes/One Piece DND - Blood and Brine/Campaign 1/Player Characters/Ronan/Skills.md"
 ---
 
 ## Description

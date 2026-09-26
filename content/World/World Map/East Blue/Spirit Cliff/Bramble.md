@@ -6,7 +6,6 @@ status: draft
 sources:
   - "[[Episode 02 - Stormwings of Ambercrest]]"
   - "[[Episode 03 - Cliffside Gambit]]"
-  - "Sessions/Archive/Campaign 1/Session 5 Cliffs and Crossroads.md"
 ---
 
 # Bramble
