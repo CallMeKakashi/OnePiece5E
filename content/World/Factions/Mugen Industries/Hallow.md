@@ -4,7 +4,7 @@ faction: "[[Mugen Industries]]"
 status: draft
 publish: true
 sources:
-  - "[[Episode 6 - Hallow's End]]"
+  - "[[Episode 06 - Hallow's End]]"
 ---
 ## Visuals
 

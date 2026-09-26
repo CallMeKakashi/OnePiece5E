@@ -4,7 +4,7 @@ type:
 publish: true
 status: draft
 sources:
-  - "[[Episode 2 - The Winged Ally]]"
+  - "[[Episode 02 - Stormwings of Ambercrest]]"
 ---
 ### Voice
 

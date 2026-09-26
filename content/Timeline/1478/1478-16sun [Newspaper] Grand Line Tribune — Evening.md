@@ -4,7 +4,7 @@ type: newspaper
 in_world_start: 1478-16sun
 in_world_end:
 precision: approximate
-in_world_label: "16th Sun, 1478"
+in_world_label: 16th Sun, 1478
 publication: Grand Line Tribune
 edition: Evening Edition
 status: draft

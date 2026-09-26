@@ -4,9 +4,9 @@ faction: "[[Sixfold]]"
 status: draft
 publish: true
 sources:
-  - "[[Episode 3 - Fated Encounter]]"
-  - "[[Episode 8 - The Lunarfold Tournament Part 1]]"
-  - "[[Episode 9 - The Lunarfold Tournament Part 2]]"
+  - "[[Episode 03 - Cliffside Gambit]]"
+  - "[[Episode 08 - The Lunarfold Tournament Part 1]]"
+  - "[[Episode 09 - The Lunarfold Tournament Part 2]]"
 foundry_actor_id: "HBJfkvORL4zL93zR"
 foundry_live_slug: "veyl-corven"
 ---

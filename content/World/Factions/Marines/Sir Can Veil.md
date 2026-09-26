@@ -4,7 +4,7 @@ faction: "[[Marines]]"
 status: draft
 publish: true
 sources:
-  - "[[Episode 5 - Shackles Broken]]"
+  - "[[Episode 05 - Midnight Chainbreak]]"
 ---
 
 ## Description
@@ -13,7 +13,7 @@ Marine operative (transcript spelling) deployed at [[Spirit Cliff]].
 
 ## Role
 
-[[Marines]] operative. Sent to recover the **chest** during the [[Worgoman Bank]] crisis. Knows the real objective is not the decoy book party threw.
+[[Marines]] operative. Sent to recover the **chest** during the [[World Government Bank]] crisis. Knows the real objective is not the decoy book party threw.
 
 ## Personal Quests
 
@@ -31,6 +31,6 @@ Marine operative (transcript spelling) deployed at [[Spirit Cliff]].
 
 - [[Calder Voss]]
 - [[Delaroth]]
-- [[Worgoman Bank]]
+- [[World Government Bank]]
 
 > **Note:** Distinct from [[Cline The Plague]] (Cline Veil, Sixfold) unless table confirms alias.

@@ -37,7 +37,7 @@ Part of Nikolai's **Lunafang** pipeline on **Juniper**; Simon and Zara's cover-u
 - [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 05:58 UTC*
+*Last synced: 2026-06-19 18:09 UTC*
 
 ```statblock
 name: FarmPig
@@ -50,10 +50,11 @@ speed: walk 40 ft.
 stats: [20, 10, 18, 2, 12, 5]
 cr: 4
 traits:
-- name: Tusks
-  desc: "If the target is prone, this attack deals an extra 2d6 damage.. Melee Weapon Attack: +7 to hit"
 - name: Spine Burst (Recharge 6)
   desc: Creatures within 15 ft must make a DC 15 DEX save or take 4d6 piercing damage, half on success.
 - name: Relentless
   desc: When reduced to 0 HP, the boar drops to 1 HP instead once per day.
+actions:
+- name: Tusks
+  desc: "If the target is prone, this attack deals an extra 2d6 damage. Melee Weapon Attack: +7 to hit. Hit: 2d10+5 slashing"
 ```

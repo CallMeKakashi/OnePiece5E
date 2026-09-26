@@ -12,7 +12,7 @@ sources:
 related_world:
   - "[[Frosthaven]]"
 related_events:
-  - "[[1477-03moon [Newspaper] Blackhand Shows True Colors — Ambercrest]]"
+  - "[[1478-03moon [Newspaper] Blackhand Shows True Colors — Ambercrest]]"
   - "[[1478-02moon [Newspaper] Plasmoid Turns Frostwind to Ashes]]"
 ---
 

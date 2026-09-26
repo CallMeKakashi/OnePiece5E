@@ -20,7 +20,7 @@ Grotesque **two-human amalgam** — Nikolai's earlier fusion prototype before th
 - Prototype in Nikolai's quest to replicate the **perfect being** he saw at **Virellis** before leaving **Germa 66**.
 - Weaker than the Aberrant Abomination (two subjects vs three).
 - **Status: dead** (Discord character registry).
-- Linked to **[[Hallow]]**, station master / quartermaster at Callisto, and the facility's cogwork / chimera program ([[Episode 6 - Hallow's End]] parallel site **G-45**).
+- Linked to **[[Hallow]]**, station master / quartermaster at Callisto, and the facility's cogwork / chimera program ([[Episode 06 - Hallow's End]] parallel site **G-45**).
 
 ## Backstory
 

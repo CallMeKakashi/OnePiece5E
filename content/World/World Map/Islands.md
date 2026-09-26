@@ -40,4 +40,4 @@ Also in World Map (not in Old Notes list): [[Decibella Kingdom]]
 
 ## New World
 
-1. Virellis Kingdom (TBD)
+1. [[Virellis Kingdom]] (TBD)

@@ -56,7 +56,7 @@ Pirate organization led by **[[Blackhand Cane]]** — see [[Blackhand (Cyber)]] 
 
 ## Timeline
 
-- [[1477-03moon [Newspaper] Blackhand Shows True Colors — Ambercrest]]
+- [[1478-03moon [Newspaper] Blackhand Shows True Colors — Ambercrest]]
 - [[1478-01moon [Newspaper] Navy Commander Slain — Frosthaven]]
 - [[1478-02moon [Newspaper] Plasmoid Turns Frostwind to Ashes]]
 - [[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]

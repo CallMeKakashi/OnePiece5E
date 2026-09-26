@@ -3,7 +3,7 @@ publish: true
 type: event
 status: draft
 sources:
-  - "[[Episode 2 - The Winged Ally]]"
+  - "[[Episode 02 - Stormwings of Ambercrest]]"
 related_world:
   - "[[Ambercrest]]"
   - "[[Spirit Cliff]]"
@@ -35,5 +35,5 @@ Play events from **Episode 2** (recording). In-world date not pinned — see [[D
 
 ## Evidence
 
-- Transcript: [[Episode 2 - The Winged Ally]]
-- Session index: [[2025-06-28 — The Winged Ally]]
+- Transcript: [[Episode 02 - Stormwings of Ambercrest]]
+- Session index: [[Session 002 — Stormwings of Ambercrest]]

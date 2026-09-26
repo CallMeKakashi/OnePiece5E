@@ -14,9 +14,7 @@ In-fiction press (`type: newspaper`). Sorted by filename sort key.
 
 ### 1477
 
-| Note | in_world_label | publication | status |
-| --- | --- | --- | --- |
-| [[1477-03moon [Newspaper] Blackhand Shows True Colors — Ambercrest]] | 3rd Moon, 1477 (approximate, early Blackhand arc) | East Blue Herald | draft |
+<!-- dataview: no matching notes -->
 
 
 ### 1478
@@ -26,10 +24,12 @@ In-fiction press (`type: newspaper`). Sorted by filename sort key.
 | [[1478-01moon [Newspaper] Navy Commander Slain — Frosthaven]] | 1st Moon, 1478 (approximate, Frosthaven incident) | North Blue Herald | draft |
 | [[1478-02moon [Newspaper] Plasmoid Turns Frostwind to Ashes]] | 2nd Moon, 1478 (approximate, Frostwind attack) | North Blue Herald | draft |
 | [[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]] | 3rd Moon, 1478 (approximate, Spirit Cliff; Verrelies pardon) | East Blue Herald | draft |
+| [[1478-03moon [Newspaper] Blackhand Shows True Colors — Ambercrest]] | 3rd Moon, 1478 (approximate, early Blackhand arc) | East Blue Herald | draft |
 | [[1478-03sun [Newspaper] Grand Line Tribune — Midday]] | 3rd Sun, 1478 | Grand Line Tribune | draft |
 | [[1478-09sun [Newspaper] Grand Line Tribune — Morning]] | 9th Sun, 1478 | Grand Line Tribune | draft |
 | [[1478-12moon [Newspaper] Grand Line Tribune — Morning]] | 12th Moon, 1478 | Grand Line Tribune | draft |
 | [[1478-16sun [Newspaper] Grand Line Tribune — Evening]] | 16th Sun, 1478 | Grand Line Tribune | draft |
+| [[1478-22moon [Newspaper] Grand Line Tribune — Morning]] | 22nd Moon, 1478 | Grand Line Tribune | draft |
 
 
 ### Undated
@@ -41,7 +41,7 @@ In-fiction press (`type: newspaper`). Sorted by filename sort key.
 
 All timeline entries in 1477.
 
-- [[1477-03moon [Newspaper] Blackhand Shows True Colors — Ambercrest]]
+<!-- dataview: no matching notes -->
 
 
 ## 1476
@@ -58,10 +58,12 @@ All timeline entries in 1478 (events, newspapers, backstory).
 - [[1478-01moon [Newspaper] Navy Commander Slain — Frosthaven]]
 - [[1478-02moon [Newspaper] Plasmoid Turns Frostwind to Ashes]]
 - [[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]
+- [[1478-03moon [Newspaper] Blackhand Shows True Colors — Ambercrest]]
 - [[1478-03sun [Newspaper] Grand Line Tribune — Midday]]
 - [[1478-09sun [Newspaper] Grand Line Tribune — Morning]]
 - [[1478-12moon [Newspaper] Grand Line Tribune — Morning]]
 - [[1478-16sun [Newspaper] Grand Line Tribune — Evening]]
+- [[1478-22moon [Newspaper] Grand Line Tribune — Morning]]
 
 
 ## Undated

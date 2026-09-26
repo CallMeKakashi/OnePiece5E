@@ -4,7 +4,7 @@ faction: "[[Spider Nest Pirates]]"
 status: draft
 publish: true
 sources:
-  - "[[Episode 6 - Hallow's End]]"
+  - "[[Episode 06 - Hallow's End]]"
   - "[[Sessions/Sidequests/Spider's Nest]]"
 foundry_template_json: "Foundry/actors-json/mikey.json"
 foundry_live_slug: "mikey"
@@ -34,6 +34,25 @@ Muscle of the [[Spider Nest Pirates]]. Follows [[Daniel]] loyally.
 
 - [[Daniel]]
 - [[Chloe]]
+
+## D&D 5e stat block
+
+**Medium humanoid, neutral evil**  
+**Armor Class:** 16 (armored prosthetic)  
+**Hit Points:** 95 (10d10+40)  
+**Speed:** 30 ft.
+
+**STR 20 (+5), DEX 10 (+0), CON 18 (+4), INT 8 (-1), WIS 10 (+0), CHA 10 (+0)**
+
+**Challenge:** 7 (2,900 XP)
+
+**Iron Arm.** Ben’s mechanical arm counts as a magical weapon.  
+**Relentless.** If reduced to 0 HP, he can make a DC 15 Con save to drop to 1 HP instead (1/day).
+
+**Actions**  
+**Multiattack.** Ben makes two Iron Fist attacks.  
+**Iron Fist.** _Melee Weapon Attack:_ +9 to hit, reach 5 ft., one target. _Hit:_ 16 (2d10+5) bludgeoning damage.  
+**Breaker Slam (Recharge 5–6).** Ben slams his fist down in a shockwave. Each creature within 10 ft. must make a DC 16 Strength save or take 22 (4d10) bludgeoning damage and be knocked prone.
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

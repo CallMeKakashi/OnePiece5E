@@ -110,6 +110,10 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Ben]]
 - [[Chloe]]
 - [[Daniel]]
+- [[Jahera]]
+- [[Luka]]
+- [[Maya]]
+- [[Sarah]]
 - [[Simon The One Armed Tyrant]]
 - [[Spider Nest Pirates]]
 - [[Zara Tideborn]]
@@ -285,14 +289,15 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 | Note | in_world_label | publication | status |
 | --- | --- | --- | --- |
-| [[1477-03moon [Newspaper] Blackhand Shows True Colors — Ambercrest]] | 3rd Moon, 1477 (approximate, early Blackhand arc) | East Blue Herald | draft |
 | [[1478-01moon [Newspaper] Navy Commander Slain — Frosthaven]] | 1st Moon, 1478 (approximate, Frosthaven incident) | North Blue Herald | draft |
 | [[1478-02moon [Newspaper] Plasmoid Turns Frostwind to Ashes]] | 2nd Moon, 1478 (approximate, Frostwind attack) | North Blue Herald | draft |
 | [[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]] | 3rd Moon, 1478 (approximate, Spirit Cliff; Verrelies pardon) | East Blue Herald | draft |
+| [[1478-03moon [Newspaper] Blackhand Shows True Colors — Ambercrest]] | 3rd Moon, 1478 (approximate, early Blackhand arc) | East Blue Herald | draft |
 | [[1478-03sun [Newspaper] Grand Line Tribune — Midday]] | 3rd Sun, 1478 | Grand Line Tribune | draft |
 | [[1478-09sun [Newspaper] Grand Line Tribune — Morning]] | 9th Sun, 1478 | Grand Line Tribune | draft |
 | [[1478-12moon [Newspaper] Grand Line Tribune — Morning]] | 12th Moon, 1478 | Grand Line Tribune | draft |
 | [[1478-16sun [Newspaper] Grand Line Tribune — Evening]] | 16th Sun, 1478 | Grand Line Tribune | draft |
+| [[1478-22moon [Newspaper] Grand Line Tribune — Morning]] | 22nd Moon, 1478 | Grand Line Tribune | draft |
 
 
 ---

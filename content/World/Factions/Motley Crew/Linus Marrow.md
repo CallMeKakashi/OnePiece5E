@@ -4,7 +4,7 @@ faction: "[[Motley Crew]]"
 status: draft
 publish: true
 sources:
-  - "[[Episode 2 - The Winged Ally]]"
+  - "[[Episode 02 - Stormwings of Ambercrest]]"
   - "[[Episode 21 - House of Justice]]"
   - "[[Episode 22 - The Missing Piece]]"
   - "[[Episode 23 - Choice for life]]"
@@ -45,7 +45,7 @@ Former **Germa 66** understudy under **[[Dr Nikolai Tesla]]** (before Nikolai jo
 
 ## Episode 3
 
-- Examines **black ring** from [[Kirro King]] hideout; invites [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] to the Armada.
+- Examines the [[Rings of Aegir|black ring]] from [[Kirro King]] hideout; invites [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] to the [[Armada]].
 - Hands paper directions to his hideout (near casino / Sixfold area).
 - Sent [[Veyl Corven]] and [[Serica Corven]] to observe the crew at Spirit Cliff.
 
