@@ -1,17 +1,17 @@
 ---
 discord_channel_id: 1382564722293080124
 discord_channel_name: 🗺️│world-lore
-export_slug: channel-1382564722293080124
-exported_at: 2026-05-24T11:15:20.866061+00:00
+export_slug: world-lore
+exported_at: 2026-09-26T06:00:56.796485+00:00
 source: discord
 status: draft
 ---
 
 # Discord export: 🗺️│world-lore
 
-Discord lore channel 1
+In-world headlines and reactions to PC actions — quarry for Timeline newspapers.
 
-- Messages exported: 48
+- Messages exported: 77
 - Channel ID: `1382564722293080124`
 
 ---
@@ -529,7 +529,7 @@ The Grand Line Tribune — Delivering the Truth Across the Four Seas.
 Photo illustration - Taken by a surveilling den den mushi outside of the Shadows base just before the attack.
 
 **Attachments:**
-- [photo_illustration.png](https://cdn.discordapp.com/attachments/1382564722293080124/1482243523985281135/photo_illustration.png?ex=6a13d8da&is=6a12875a&hm=732adb3500acad18d05061067d3413938849c3119049d2d699284769a7b7110c&)
+- [photo_illustration.png](https://cdn.discordapp.com/attachments/1382564722293080124/1482243523985281135/photo_illustration.png?ex=6ab8a45a&is=6ab752da&hm=681391ab5dc85d194fae394bd8160917da2d02969e032543a46c8bd6534e8612&)
 
 ---
 ### 2026-03-26 04:15 UTC — Not Kakashi
@@ -1539,6 +1539,633 @@ Delivering the Truth Across the Four Seas.*
 
 
 **Attachments:**
-- [Beast_Sketch.png](https://cdn.discordapp.com/attachments/1382564722293080124/1504543807595872275/Beast_Sketch.png?ex=6a13e55c&is=6a1293dc&hm=0ed907e16dc9c78da99595d262f389eb3132bb90e10fc0287cc0c581d45d57a0&)
+- [Beast_Sketch.png](https://cdn.discordapp.com/attachments/1382564722293080124/1504543807595872275/Beast_Sketch.png?ex=6ab8b0dc&is=6ab75f5c&hm=f1430534a3db75760af61bcef1adf6f496dbc2af4f445d3ddd1dce2268a01d8a&)
+
+---
+### 2026-06-19 15:21 UTC — Not Kakashi
+
+***TIME SKIP***
+
+The collapse of the ravine had nearly claimed the lives of everyone involved.
+
+Buried beneath tons of rock and earth after the battle with the monstrous titan ape, the surviving members of the crew found themselves trapped with little hope of escape. By some miracle, Jack managed to survive the his fall in the ocean. Making his way back to shore, he sought help from nearby fishermen who quickly relayed word of the disaster to the Guisseppi Family.
+
+As the wounded were recovered, Jack recounted everything that had happened within the ravine, including the involvement of a mysterious group known only as the Spider Nest Pirates.
+
+The rescue effort was successful, but not without cost.
+
+Most of the crew arrived at Linus's clinic barely clinging to life. Their injuries were so severe that many remained unconscious for nearly three weeks while Linus and his staff worked tirelessly to keep them alive.
+
+During those three weeks, the situation across the island changed dramatically.
+
+---
+### 2026-06-19 15:21 UTC — Not Kakashi
+
+The Capone Family had arrived.
+
+Almost immediately after the incident in the ravine, Capone forces made landfall on the shores of West Town. Their assault was swift, overwhelming, and clearly planned long before they ever arrived.
+
+The attack on Lorenzo Capone had provided exactly what they needed.
+
+The negotiations had never truly been about peace. They had been designed to force the Royal Flush Gang into a position where war became unavoidable. Had they declared war without sufficient cause, many of their allies would have refused to support them. Instead, circumstances had handed the Capones the justification they needed.
+
+Within minutes of their arrival, West Town fell.
+
+As news spread across the seas, The King and The Queen immediately altered their course and returned to the island before completing their journey to the West Blue. The Ace arrived couple weeks later, joining the growing number of powerful figures gathering as the conflict escalated.
+
+---
+### 2026-06-19 15:21 UTC — Not Kakashi
+
+The Guisseppi Family now found themselves cornered.
+
+One by one, their ports and territories fell under Capone control until only York Town remained under their protection.
+
+Escape was no longer an option.
+
+The Capones made their intentions abundantly clear from the moment they arrived.
+
+They demanded the heads of every remaining member of the Guisseppi bloodline.
+
+In return, they promised to leave the people of the island untouched.
+
+Furthermore, they publicly declared that any territory already under their control would not be harmed or destroyed unless retaliation was attempted against them.
+
+Whether this promise was genuine or not remained to be seen, but it had created uncertainty among the island's population and placed immense pressure upon the already struggling Guisseppi Family.
+
+---
+### 2026-06-19 15:21 UTC — Not Kakashi
+
+While the island descended further into chaos, efforts continued to gather intelligence on Capone-controlled territory.
+
+Several attempts failed.
+
+Eventually, however, one person succeeded.
+
+Sato (Zim).
+
+Disguised as a woman who had supposedly been enslaved by the Guisseppi Family and was now seeking refuge under Capone protection, Sato managed to infiltrate occupied territory and gather valuable information.
+
+Unable to maintain her act any longer, Sato revealed her identity when she heard the news of the crew's near death encounter. She spent days at the clinic waiting for the them to get better and decided to infiltrate the Capone stronghold in West Town. The current leader of the Capone Family was known to be a rather kind to slaves.
+
+Rum's reaction was far from welcoming.
+
+His anger was obvious.
+
+His distrust remained.
+
+Yet despite everything that had happened, he understood a painful reality.
+
+The Guisseppi Family could not afford to lose another ally.
+
+Not now.
+
+Not when Mira was the only person keeping the Capone Family from pressing directly into York Town. And Zim had Mira's protection.
+
+So for the time being, old grievances were set aside.
+
+The island had larger problems.
+
+And the storm gathering on the horizon was growing stronger with every passing day.
+
+---
+### 2026-06-19 15:21 UTC — Not Kakashi
+
+Three weeks after the collapse of the ravine, the surviving members of the crew finally began to awaken.
+
+The world they returned to was not the same one they had left behind.
+
+The island stood on the brink of war.
+
+Threads that seemed unrelated were slowly beginning to weave together into something much larger.
+
+Something far more dangerous than anyone had yet realized.
+
+---
+### 2026-06-19 15:21 UTC — Not Kakashi
+
+<@&1382565436012367934>
+
+---
+### 2026-07-26 17:41 UTC — Not Kakashi
+
+<@&1382565436012367934> 
+
+There once was a spider's nest tucked beneath the roots of a great old tree.
+
+It was not the biggest nest, nor the prettiest, but to the little spiders who lived there, it was home.
+
+An old caretaker watched over them. Every morning she mended torn strands, every evening she tucked the smallest spiders into silk blankets, and every night she reminded them,
+
+"A web is not strong because of one strand. It is strong because every strand holds another."
+
+---
+### 2026-07-26 17:41 UTC — Not Kakashi
+
+There were nine little spiders.
+
+The oldest was fierce. He climbed the highest branches, fought the hardest battles, and always placed himself between danger and his brothers and sisters.
+
+The second oldest was frightened of almost everything. Storms made him shake. Strange noises made him hide. Yet whenever one of the younger spiders was scared, he wrapped himself around them until they felt safe.
+
+The third was a brave little sister whose courage was greater than her size.
+
+Another spider was clever and calm, always solving problems before anyone else noticed them.
+
+One shone brighter than sunshine itself, making everyone smile even on the darkest mornings.
+
+One was larger than all the others, yet cried whenever another creature was hurt.
+
+One loved colorful petals and shiny things, weaving beauty into every corner of the nest.
+
+One rarely spoke, choosing instead to watch the world with quiet determination.
+
+The youngest never stopped climbing. Every branch was an adventure, every breeze a race.
+
+The nest was small.
+
+Their meals were simple.
+
+But every strand held another.
+
+And that was enough.
+
+---
+
+Then one day...
+
+The ground began to tremble.
+
+Great boots marched into the forest.
+
+The giants demanded more food from the woodland creatures than they could possibly give.
+
+The oldest brother climbed down from the nest.
+
+He stood before the giants.
+
+He knew he could not win.
+
+But someone had to stand.
+
+An old owl the oldest brother looked upto rushed after him, begging him to stop.
+
+The giants answered with laughter.
+
+And before anyone could move...
+
+One careless step crushed the old owl.
+
+Silence spread through the forest.
+
+---
+### 2026-07-26 17:41 UTC — Not Kakashi
+
+The oldest brother stared at the broken web...
+
+...and the owl who had always perched on that branch.
+
+He blamed only himself.
+
+"If I had been stronger..."
+
+"I would have saved him."
+
+That night, without waking anyone, he climbed to the highest branch.
+
+He left behind only a promise.
+
+"I'll become strong enough that no giant can ever threaten our home again."
+
+Then he disappeared beyond the trees.
+
+---
+### 2026-07-26 17:48 UTC — Stijn *(edited)*
+
+Oldest: 
+Second: Simon
+Third: Zara
+Fourth: 
+Fifth: 
+Sixth: Ben
+Seventh:
+Eight: Daniel
+Ninth: Cloe
+
+---
+### 2026-08-07 12:45 UTC — Not Kakashi
+
+<@&1382565436012367934> 
+Somewhere in the South Blue
+Underground Arms Market
+
+Grunt: Oi, Boss! Got a visitor.
+
+Leader: Hm?
+
+Grunt: Says he's Number One from the Shadows Guild.
+
+Leader: ...Heh. Send him in.
+
+(The warehouse doors open. A man in a soaked crimson coat walks inside. Mud sticks to his boots as he surveys the room. Weapons. Crates. Guards. Finally... a group of restrained tribesmen in the corner.)
+
+Leader: Don't mind them. Bunch of idiots wandered into the swamp looking for some god. Followed us all the way back. Thought we'd lead 'em to him.
+
+(The Man in Red says nothing.)
+
+Leader: Anyway... heard you're looking for passage back home.
+
+(He kicks open a crate.)
+
+Leader: Figured I'd sweeten the deal.
+
+Marine salvage.
+
+Brand new.
+
+(He picks up a silver pistol and tosses it to the Man in Red.)
+
+Leader: Take one. Souvenir.
+
+Man in Red:...
+
+I suppose I could.
+
+A colleague might appreciate it.
+
+Plans have changed I want to go somewhere else first.
+
+Leader: Colleague?
+
+(He laughs.)
+
+Guess nobody told you.
+
+The Sixfolds paid your guild a visit.
+
+(The Man in Red stops moving.)
+
+One of your main bases.
+
+Nobody died...
+
+...if the rumors are true.
+
+But most of 'em won't be hunting anyone ever again.
+
+(Silence.)
+
+Leader: Shame, really.
+
+(Rain drips from the brim of the Man in Red's coat.)
+
+...
+
+...
+
+Man in Red: ...
+
+...Heh.
+
+...
+
+Heh...
+
+...
+
+HAHAHAHAHAHAHAHAHAHA!!
+
+(The laughter echoes through the warehouse. Several guards instinctively step back.)
+
+Leader: ...
+
+What's so damn funny?
+
+(The Man in Red slowly lowers his coat, revealing two massive blades connected by a chain.)
+
+(Every weapon in the warehouse is drawn.)
+
+Man in Red: ...
+
+(He raises the pistol.)
+
+BANG.
+
+(The Leader collapses.)
+
+"Months of preparation..."
+
+(He looks down at the corpse.)
+
+"...and now there's no satisfaction left to be had."
+
+Man in Red: ...
+
+That was disappointing.
+
+(The pistol drops to the floor.)
+
+(He draws one blade and points it toward the nearest smuggler.)
+
+---
+### 2026-08-07 12:46 UTC — Not Kakashi
+
+Tell me...
+
+Have you ever killed someone?
+
+Smuggler: W-What—
+
+(His body splits cleanly in half.)
+
+Another Smuggler: GET HIM!!
+
+(Gunfire erupts.)
+
+Man in Red: ...
+
+Let's not rush things.
+
+(He hurls the second blade. The chain snaps taut as it crashes into the generator.)
+
+CLANG.
+
+(Darkness.)
+
+(Silence.)
+
+Then—
+
+A scream.
+
+Gunfire erupts toward it.
+
+For a split second each muzzle flash illuminates the room.
+
+The Man in Red appears somewhere different every time.
+
+One flash—
+
+A body falls.
+
+Another—
+
+A severed arm.
+
+Another—
+
+A chain whipping through the darkness.
+
+Another—
+
+Nothing.
+
+Only blood.
+
+The shooting becomes wild.
+
+Men begin hitting each other.
+
+Some run.
+
+Some beg.
+
+The screams slowly fade.
+
+Then...
+
+Nothing.
+
+(A lantern topples. Flames spread through spilled fuel.)
+
+BOOM.
+
+(The warehouse wall explodes outward. Rain pours through the opening.)
+
+(The Man in Red walks toward the exit.)
+
+Young Tribesman: Wait!
+
+(The others grab him.)
+
+Tribesman Elder: Don't!
+
+He's no savior.
+
+He's a devil.
+
+(The Man in Red stops.)
+
+(Lightning reveals his white mask, now painted red with blood.)
+
+Man in Red:
+
+They're right.
+
+I'm not your savior.
+
+(He notices the Marine pistol lying in the rubble.)
+
+...
+
+Broken.
+
+That's unfortunate.
+
+(He walks toward the tribesmen.)
+
+So...
+
+This god you're searching for.
+
+Would he enjoy dancing with monsters?
+
+(He places the edge of his blade beneath the young man's chin.)
+
+Young Tribesman: I...
+
+I would rather not answer.
+
+(Silence.)
+
+(The Man in Red chuckles.)
+
+Man in Red:
+
+Good.
+
+Fear means you're still thinking.
+
+(He cuts the chains.)
+
+I need sailors.
+
+I'm bound for the Juniper Islands.
+
+Get me there...
+
+...and the ship is yours.
+
+(The tribesmen stare at him.)
+
+Man in Red:
+
+You'd best decide quickly.
+
+I don't stay patient for long.
+
+(He turns and disappears into the rain.)
+
+---
+### 2026-08-15 14:40 UTC — Not Kakashi *(edited)*
+
+<@&1382565436012367934> 
+
+Mira's Journey Part 1
+
+In the war-torn country of Vruvia.
+During the Unity War.
+
+The first thing she remembers smelling was rotten flesh, she walked without food or water in the desert for miles. A monstrous shadow loomed in-front her small and thin frame. The only thing left with her was the dagger left to her by her mother. She notices the symbol of the blue devils and she raises her small arms to stab the monstrous man. The dagger pierces his skin, Eulisis leans down and the expression on the man's was not of anger or pain but of defeat. The two found themselves all alone on this island of misery. Eulisis reached down to her placed a gentle hand on her shoulder forcing a smile.
+
+"Well aren't you a fiery one? Say kid you want something to eat?" He pulled out a solid dried out piece of bread from his bag around his waist.
+
+"What do you plan to do with her" Another voice made her jump while she thought of reaching for the food.
+
+A man walked from the dunes behind. She still held on to the dagger as that was the only memory of her mother unwilling to let it go. The man loosened his hand, the daggered slipped out of his flesh and she went tumbling down on the dunes bumping into Horus. His face nearly not as warm as the man before. He ignores her walking away.
+
+"Look at this place Horus. This once used to be a nation with lush forests, green fields and quiet bogs. We have caused this. I will not let this child suffer because of our sins." Eulisis walks by the man approaching her once again.
+
+---
+### 2026-08-15 14:40 UTC — Not Kakashi
+
+A girl of just 5 years of age can only understand a few of these words. But she was now in the right mind she was taken aback by the behavior of the bearded giant. But she had been tasked to do one thing survive. She lets out a scream running to Eulisis, her tiny figure making it only up to his calves she starts stabbing his foot repeatedly. Eulisis did not resist, she was surprised the strength she was able to muster but it didn't move the man. He did not drop the forced smile, he only leaned down and tried to give her the piece of bread.
+
+"You think your pity will help the girl. Don't be so naive even if you saved her. She will hate you all her life." Horus objected.
+
+"So is her right, my friend. I will take her with me even if that goes against our orders. I will not murder children in the name of Justice." Eulisis whispered in an attempt to not spook the girl.
+
+The girl became increasing tired of stabbing the man over and over, she stopped clutched her dagger and closed her eyes as tears poured down her face.
+
+Eulisis reached to the tears and stopped himself. He had no right to comfort her all he could do is wait, wait for her to reach out. Both sat in front of each other for a few minutes , she reached out to the piece of bread. He let go as he watched her engulf the bread he handed her his water pouch, she drank it all in go aswell.
+
+---
+### 2026-08-15 14:40 UTC — Not Kakashi
+
+After she was done she looked down at his bleeding feet. She paused a moment, she turned and started tearing away at what rag was covering her. She made an attempt to tie the rag around his leg but to no avail. A drop of water splashes on her red messy head. As she looks up to see the man crying
+
+"Forgive me... child ... but I don't deserve your kindness." each word slow and broken.
+
+He holds the tiny bloodied hands in his palm and asks.
+
+"Tell me, what is your name kid?"
+
+A moment's hesitation. She remembered her name because those were the last word her mother ever spoke to her.
+
+The child's eyes met the man still weeping. "Mira... my moder kalled me Mira."
+
+Horus walked up to Eulisis as he put his hands on his shoulder standing beside him.
+
+"You are a fool Eulisis."
+
+---
+### 2026-08-22 04:54 UTC — Not Kakashi
+
+Mira's Journey Part 2
+
+**Attachments:**
+- [message.txt](https://cdn.discordapp.com/attachments/1382564722293080124/1540584996325298226/message.txt?ex=6ab8a195&is=6ab75015&hm=7c2626c51c512625ee93e2b682639e6e337f4bdf009608c7bf0be95ebd2d4d54&)
+
+---
+### 2026-08-22 04:54 UTC — Not Kakashi
+
+<@&1382565436012367934>
+
+---
+### 2026-08-28 05:05 UTC — Not Kakashi
+
+World Map so far <@&1382565436012367934>
+
+**Attachments:**
+- [World_Map_-_2-compressed.png](https://cdn.discordapp.com/attachments/1382564722293080124/1542761991800754256/World_Map_-_2-compressed.png?ex=6ab8a411&is=6ab75291&hm=71a645e11d95e726c70e6e9f44962e7822249ad6603b81e7a18d867b13414abc&)
+
+---
+### 2026-08-28 05:11 UTC — Not Kakashi
+
+| Marker / Color        | Meaning                                                 |
+| --------------------- | ------------------------------------------------------- |
+| ⚫ **Black**           | **Baptiste and Crew's Path**                            |
+| 🟡 **Yellow**         | **Malphas and Bob's Path**                              |
+| 🔴 **Red Gradient**   | **Lunarian Village**                                    |
+| 🟢 **Green**          | **Bob's Birthplace**                                    |
+| 🔵 **Navy Blue**      | **Marine Islands**                                      |
+| 🟦 **Pipe**           | **Dravos Teleport**                                     |
+| 🏭 **Factory**        | **Mugen Facility**                                      |
+| 🏴‍☠️ **Pirate Flag** | **Presence of different pirate groups — enemy or ally** |
+
+---
+### 2026-08-31 18:42 UTC — Not Kakashi
+
+*(no text content)*
+
+---
+### 2026-08-31 18:42 UTC — Not Kakashi
+
+*(no text content)*
+
+---
+### 2026-09-17 11:13 UTC — Stijn
+
+It was a regular night in the Royal Flush Casino. The sound of slot machines were mixed with the cheers of people grabbing their chips from a winning and the cries of frustrating losses. But upstairs, at the high table were some of the heads of the families in the west gathered for a meeting disguised as a game of poker. The ones present were, King, Queen, Jack, Nerolo Donatelli, Lorenzo Capone and Cedro Moulan. Ace was appointed as the dealer since they all saw her as a neutral player. Here it was not about the money, no. It was about favours, deals being made about trades. Who would get what part of the income and what information they heard on neighbouring gangs that were getting too big for their part of the islands.
+
+It went on for a few hours until commotion was heard on the main floor. It wasn’t a fight, it was more of a sudden wave of silence mixed with whispers. Wanting to know what was happening, King asked Jack to go have a look. He sighed and folded his hand, “Not like it was a good one.” he thought to himself. Coming down he asked a bouncer what was happening, “High roller at table 4” he replied. Jack went over to the table to greet the man, and ask what he was here for. When clearing through the crowd gathered he saw not just any man, it was admiral Graff Bolt, Well former admiral. It was on the front page of the papers this morning. 'Bolt coming out of retirement to train a nobody Seaman Recruit.’ Jack walked up to him and there he was, just sitting there with cards in hand. No coat, no status, just an older guy seemingly wanting to gamble some money. Beside him was the girl holding a scabbarded blade close to her chest. There was a look on her face of confusion and irritation, asking Graff what the purpose of this visit was. He just ignored her and went back to the came. Jack approached him and tapped him on the shoulder. “Alright buddy I might be best if you follow me for a bit.” Taking the two upstairs Jack shouted to the crowd to calm down and continue enjoying their evening.
+
+---
+### 2026-09-17 11:13 UTC — Stijn
+
+When he took them to the main office, he told them to wait there for a moment before he went back to the high table where the meeting was seemingly concluded and the bosses were getting ready to leave. “King, there is someone in the office I think you should want to talk to,” Jack said. They went to the office, when the door closed, King unleashed a wave of his conqueror's haki which Graff countered with his own. It was a tense few seconds when the two gentlemen erupted in laughter and hugged. “It seems you haven’t lost your touch, sit down my friend.” King said. He asked what he could do for him and he explained what his reason for visiting was because he wanted someone to help train the girl for a bit, introducing her as Melina Celeste. Jack noticed that she was surprisingly still standing,  after the clash, albeit with wobbly knees. Queen came into the room with some drinks and greeted Graff friendly as well. King told Jack to show Melina a room that she could sleep in, as it seems that the duo would stay here for a bit.
+
+The next morning the group went to a nearby empty warehouse. Kink created a house of cards where Melina was instructed to unsheath the blade and train her will to wield it. She was scared about the effects but Graff confronted her that the cards would be able to take any erupting waves. The first time she tried to unsheath it, she fainted immediately. Graff walked in the house to close the blade again. They waited an hour and tried again. This time she was able to stay conscious before fainting. They decided to call it for today. The next morning she sparred against Jack with the sheathed blade. It was sloppy at best he thought, far from the wave of blades Joker threw at him. But when he watched it later from another angle there was something in her form that had him looking at it differently. “So you see it too,” Graff said to him. “There is something with that girl that I think will do great deeds. She might even become better than me at wielding my blade.” Two weeks went by and she managed to stay conscious for a few minutes with just getting a bloody nose and being able to close it herself. After that Graff said his goodbyes to the gang since received a tip about a slave trade in the South Blue that he wanted to take care off.
+
+---
+### 2026-09-17 12:29 UTC — Xenos
+
+
+**Attachments:**
+- [ShortStory_BOB.txt](https://cdn.discordapp.com/attachments/1382564722293080124/1550121489297309836/ShortStory_BOB.txt?ex=6ab86362&is=6ab711e2&hm=e820dd90f96ddaa8b2fadfa024bb9d4629de4988d2669bcb838e89b0ec09aa3b&)
+
+---
+### 2026-09-19 13:30 UTC — Not Kakashi
+
+Grand Line Tribune — 22nd Moon, 1478 (Evening)
+
+**Attachments:**
+- [message.txt](https://cdn.discordapp.com/attachments/1382564722293080124/1550861585298497556/message.txt?ex=6ab871a7&is=6ab72027&hm=7fc945ba30ce9d203d6f940bd1f0e890bbb28703cc0ac2d3222fa25e1661ccbf&)
+
+---
+### 2026-09-19 13:30 UTC — Not Kakashi
+
+<@&1382565436012367934>
+
+---
+### 2026-09-25 00:58 UTC — THE OLD MAN | NORSENORM
+
+
+**Attachments:**
+- [Roma_and_the_Lion_He_Forgot_take_2.txt](https://cdn.discordapp.com/attachments/1382564722293080124/1552846680234401862/Roma_and_the_Lion_He_Forgot_take_2.txt?ex=6ab86a2b&is=6ab718ab&hm=825799f7a6277185c79c43d7adc008a9ec906e5e7ab4891e97f546411a5bb8c9&)
+
+---
+### 2026-09-26 05:49 UTC — Not Kakashi
+
+https://callmekakashi.github.io/OnePiece5E/
+
+**Embed:**
+- Title: index
+- Description: Blood & Brine — Campaign Wiki One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules, and reference material.
+- URL: https://callmekakashi.github.io/OnePiece5E/
+
+---
+### 2026-09-26 05:49 UTC — Not Kakashi
+
+*(no text content)*
 
 ---
