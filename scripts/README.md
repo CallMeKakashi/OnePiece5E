@@ -41,4 +41,4 @@ python discord_reconcile.py --since HEAD~1
 
 Writes `Discord/reconcile.md`: only messages new since the given revision, each with a checkbox and the vault notes its names match. It never edits notes. Review it and update notes by hand, then commit the exports so the next run starts from them.
 
-Do **not** use `discord_vault_sync.py` / `discord_vault_sync_full.py`: they overwrite curated notes from hardcoded, stale data.
+The old `discord_vault_sync*.py` scripts were removed: they overwrote curated notes from hardcoded, stale data (see git history).
