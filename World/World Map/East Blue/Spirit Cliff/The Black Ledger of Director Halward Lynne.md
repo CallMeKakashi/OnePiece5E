@@ -18,6 +18,10 @@ related_events:
 
 > **Name:** Ledger author **Delaroth Halward** (H.L.), publicly known as **Director Halward Lynne**. Herald/tables sometimes spell the branch director **Halwald** — treat as press variant unless retconned.
 
+## Status
+
+Lost: it was aboard the crew's first ship when that ship sailed off from [[Callisto]] ([[Session 00008 — The Lunarfold Tournament Part 1|Episode 8]]; DM, 2026-10-01).
+
 ## Related
 
 - [[Spirit Cliff]]

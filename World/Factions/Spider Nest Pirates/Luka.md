@@ -5,15 +5,22 @@ status: draft
 publish: true
 sources:
   - "[[Episode 06 - Hallow's End]]"
-  - "[[Sessions/Sidequests/Spider's Nest]]"
+  - "[[Session 005.5 — Callisto]]"
+  - "Discord/exports/character-art"
 ---
+## Visuals
+
+![[Attachments/luka-portrait.jpg|Portrait]]
+
+*Posted as "Luka The Maniac" (character-art, 2026-09-19). Discord quarry: [[Discord/exports/character-art]]*
+
 ## Description
 
-**Long-Arm Reaper Luka** — strategist of the [[Spider Nest Pirates]].
+**Luka The Maniac** (legacy roster: "Long-Arm Reaper Luka") — strategist of the [[Spider Nest Pirates]]. Tall and lean with silver-white hair in a high ponytail, a mechanical right arm, and a cigarette.
 
 ## Role
 
-Strategist.
+Strategist. Discord caption: "???? | ??? of the Spider's Nest Pirates | Status - Alive" (identity masked; 2026-09-21).
 
 ## D&D 5e stat block
 

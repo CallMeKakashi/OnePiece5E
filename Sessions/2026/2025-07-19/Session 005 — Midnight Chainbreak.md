@@ -57,10 +57,12 @@ sources: [
 ## Open threads
 
 - **What’s in the chest?**: **Resolved** — the chest contained the **deed to Bramble’s shipwright company** on [[Spirit Cliff]].
-- **Why Sixfold were sicced on the crew**: Delaroth’s involvement is explicit, but terms/pressure remain unclear.
-- **Marine escalation**: Calder Voss has eyes on the crew; how this changes bounties/Spirit Cliff politics depends on fallout.
+- **Why Sixfold were sicced on the crew**: **Resolved** — Sixfold turned and **joined the Blackhand unit**, driving back Vorro's forces; their pardon is void and full bounties were restored ([[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]). They travel with the crew afterwards ([[Timeline/Undated/[Event] Interlude — Red Departs and Reverse Mountain]]).
+- **Marine escalation**: **Resolved → ongoing** — the crew escaped into the mist; Baptiste's Devil Fruit wrecked the Mugen **G-45 Enforcer Armors**, so the Marines dropped Mugen contracts; [[Calder Voss|Vorro]] vowed to hunt Blackhand and Sixfold down ([[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]).
 - **Halward’s leverage**: **Clarified** — Halward was pressuring the town by taking inhabitants hostage, since many locals had deeds tied up with him at the bank.
-- **Deeds burned**: immediate consequences across Spirit Cliff’s merchants and factions; follow through in [[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]].
+- **Deeds burned**: **Resolved** — [[Delaroth Halward|Halward]] was detained for debt-based coercion ([[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]).
+- **The dropped chest (cliffhanger)**: **Resolved** — the crew recovered Bramble's chest (DM, 2026-10-01).
+- **Baptiste's flight (cliffhanger)**: **Resolved** — the crew regrouped the next morning at an abandoned warehouse ([[Timeline/Undated/[Event] Interlude — Red Departs and Reverse Mountain]]).
 
 ## Loot & changes
 

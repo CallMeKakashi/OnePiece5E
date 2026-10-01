@@ -3,8 +3,12 @@ type: actor
 faction: "[[Blackhand]]"
 status: draft
 publish: true
+aliases:
+  - Eulisis
+  - Eulisis Cane
 sources:
   - "Discord/exports/devil-fruit-dex"
+  - "Discord/exports/world-lore"
 foundry_template_json: "Foundry/actors-json/bartho.json"
 foundry_live_slug: "bartho"
 ---
@@ -27,7 +31,7 @@ Devil Fruit: [[Meshi Meshi no Mi]].
 
 ## Backstory
 
-Blackhand Cane built his pirate organization around the principle of rescuing the discarded and the enslaved. He rescued [[Mira the Unbreakable]] from a slave ship when she was 10 years old. He later led a raid on a Germa facility to free [[Baptiste]] and others — arriving with his crew ([[Renzo]], [[Morley]], [[Tray]], and more), cutting through marines with his massive blade while his Fishmen crewmates held the line with Fishman Jujutsu and Fishman Karate.
+Blackhand Cane built his pirate organization around the principle of rescuing the discarded and the enslaved. Born **Eulisis**; once a Marine ("blue devil") in the Unity War, where in war-torn [[Vruvia]] he took in five-year-old [[Mira the Unbreakable|Mira]] against orders, with [[Horus]] beside him ([[[Backstory] Mira — Journey Part 1]]). He rescued [[Mira the Unbreakable]] from a slave ship when she was 10 years old. *(Two accounts of how Mira came to him — reconcile later.)* He later led a raid on a Germa facility to free [[Baptiste]] and others — arriving with his crew ([[Renzo]], [[Morley]], [[Tray]], and more), cutting through marines with his massive blade while his Fishmen crewmates held the line with Fishman Jujutsu and Fishman Karate.
 
 He recruited [[Roma]] after tasting his cooking aboard a luxury cruise ship, grinning at the wolf mink's spirit and inviting him to join the crew. He took in [[Kalla of Shandia]] after finding the scholar stranded on a beast-filled island, offering him a year's contract as a translator in exchange for passage and pay. He had [[Renzo]] recruit [[Shako]] from the underground fighting pits, paying off the promoter Boro to free him.
 
@@ -42,7 +46,7 @@ At some point, Cane was captured by Germa and turned into a living weapon — a 
 ## Related
 
 - [[Blackhand (Cyber)]] — weaponized cyborg form
-- [[Backstory] Blackhand Cane — Raid Kingdom]]
+- [[[Backstory] Blackhand Cane — Raid Kingdom]]
 - [[Mira the Unbreakable]] — 4th Fleet Commander, his protégé
 - [[Renzo]] — right-hand fishman
 ## Build template (Foundry)

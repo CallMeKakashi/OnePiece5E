@@ -34,6 +34,7 @@ Campaign devil fruit registry — image, power, and current owner. Template: [[D
 - [[Dabu Dabu no Mi]] — Irik Fen
 - [[Fura Fura no Mi]] — Rhythm Echo
 - [[Meshi Meshi no Mi]] — Blackhand Cane
+- [[Yokai Yokai no Mi]] — Simon Tideborn
 
 Inventions (non-fruits): [[Rules/Inventions|Inventions folder]].
 

@@ -5,7 +5,7 @@ status: draft
 publish: true
 sources:
   - "[[Episode 06 - Hallow's End]]"
-  - "[[Sessions/Sidequests/Spider's Nest]]"
+  - "[[Session 005.5 — Callisto]]"
   - "Discord/exports/character-art"
 foundry_template_json: "Foundry/actors-json/mikey.json"
 foundry_live_slug: "mikey"
@@ -29,9 +29,11 @@ Muscle of the [[Spider Nest Pirates]]. Follows [[Daniel]] loyally.
 
 ## Backstory
 
+In [[Timeline/Undated/[Backstory] Spider Nest — The Nine Little Spiders|the spider fairy tale]], Ben is the **sixth** of nine sibling spiders; [[Simon The One Armed Tyrant|Simon]] is second, [[Zara Tideborn|Zara]] third.
+
 ## Episode 6
 
-- Crashes through roof into Cogwork Core; repeatedly wakes despite restraints; fights [[Hallow]] with party.
+- Crashes through roof into Cogwork Core; repeatedly wakes despite restraints; fights alongside the party in the graveyard and lands the killing blow on [[RyeNera]].
 
 ## Related
 

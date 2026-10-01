@@ -19,14 +19,14 @@ related_events:
 
 # The Lunarfold Tournament (Part 2)
 
-Day 2 of the crew-ranking tournament plus **informant rescue** (Episode 9).
+Day 2 of the crew-ranking tournament plus the rescue of [[Zim]] (Episode 9).
 
 ## Beats
 
-1. **Bracket finals** — [[Roma]] defeats [[Malphas]]; [[Baptiste]] defeats [[Veyl Corven]]; [[Malphas]] last standing in championship bout.
+1. **Bouts** — [[Roma]] beats [[B.O.B]]; [[Malphas]] beats [[Veyl Corven]]; [[Baptiste]] beats Malphas.
 2. **Rankings set** — Baptiste · Malphas · Veyl · Serica · Roma · Bob (last).
-3. **Rescue** — [[Informant (Loguetown)]] pulled from sea; caged; trades G-45 documents for Vireth / Sixfold intel.
-4. **Journal** — party hands over journal + ledgers; later appears **blank** to crew; informant released with accompaniment answer.
+3. **Rescue** — [[Zim]] pulled from the sea and held in the brig; trades intel on [[Vireth]] (North Blue → South Blue, with [[Liz]]) for [[Hallow]]'s journal, the island blueprints and the shipment ledgers.
+4. **Reveal** — Vireth is [[Astor]] and [[Ronan]] fused; Zim seeks a Marine device that permanently removes a devil fruit's power. She leaves for Loguetown with Veyl's radio.
 
 ## Evidence
 

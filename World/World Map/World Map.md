@@ -36,3 +36,22 @@ recenter: false
 darkmode: false ### markermarker: default,457.5687808424658,1962.928424573856,,,,
 
 ```
+
+## World Map so far (Discord, 2026-08-28)
+
+Posted in world-lore by Not Kakashi ("World Map so far"), with the legend below (05:11 UTC).
+
+![[Attachments/world-map-2.png|World Map so far]]
+
+| Marker / Color        | Meaning                                                 |
+| --------------------- | ------------------------------------------------------- |
+| ⚫ **Black**           | **Baptiste and Crew's Path**                            |
+| 🟡 **Yellow**         | **Malphas and Bob's Path**                              |
+| 🔴 **Red Gradient**   | **Lunarian Village**                                    |
+| 🟢 **Green**          | **Bob's Birthplace**                                    |
+| 🔵 **Navy Blue**      | **Marine Islands**                                      |
+| 🟦 **Pipe**           | **Dravos Teleport**                                     |
+| 🏭 **Factory**        | **Mugen Facility**                                      |
+| 🏴‍☠️ **Pirate Flag** | **Presence of different pirate groups — enemy or ally** |
+
+*Source: [[Discord/exports/world-lore]] (2026-08-28 05:05 and 05:11 posts).*

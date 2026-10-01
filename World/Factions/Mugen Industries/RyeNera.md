@@ -20,12 +20,13 @@ Grotesque **two-human amalgam** — Nikolai's earlier fusion prototype before th
 
 - Prototype in Nikolai's quest to replicate the **perfect being** he saw at **Virellis** before leaving **Germa 66**.
 - Weaker than the Aberrant Abomination (two subjects vs three).
-- **Status: dead** (Discord character registry).
-- Linked to **[[Hallow]]**, station master / quartermaster at Callisto, and the facility's cogwork / chimera program ([[Episode 06 - Hallow's End]] parallel site **G-45**).
+- **Status: dead.** Killed by [[Ben]] in the Callisto graveyard ([[Episode 06 - Hallow's End]]).
+- Fused from **Rye** and **Nera**, a married couple who were [[Hallow]]'s best friends. A burnt photo of a young Hallow between them was found in his workshop (transcript: "Rai and Mirra").
+- In Episode 6 Hallow calls it **"Near"** (Nera) and sets it loose. It **kills Hallow** by crushing his head, heals through tendrils in the ground, and raises zombies from the graves. Its tendrils and fibre layer were harvested for [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]].
 
 ## Backstory
 
-RyeNera was part of the Callisto founding-era experiments. Survivors of the facility collapse blamed pirate sabotage; Mugen and **Commodore Briggs** used the disaster for political cover ([[Timeline/1478/1478-12moon [Newspaper] Grand Line Tribune — Morning]]).
+RyeNera was part of the founding-era experiments on [[Callisto]]. Survivors of the facility collapse blamed pirate sabotage; Mugen and **Commodore Briggs** used the disaster for political cover ([[Timeline/1478/1478-12moon [Newspaper] Grand Line Tribune — Morning]]).
 
 ## Related
 

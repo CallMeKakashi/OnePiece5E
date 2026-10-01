@@ -31,7 +31,7 @@ foundry_live_slug: "river-serpent"
 - [[Ravine Scylla]] — territorial rival; scyllas now dominate more of the caves
 - [[Titan Ape]] — humongous bear-monster in the largest chamber (hibernating; unencountered)
 - [[Ashscale Basilisk]] · [[Crystalback Scorpion]] · [[Lamprey Horror]] · [[Carrion Vulture]] — same ravine ecology (less intelligent prey/competition)
-- [[Matthew -The Jack- Burgess]] · [[B.O.B]] · [[Daniel (Spider's Nest)]]
+- [[Matthew -The Jack- Burgess]] · [[B.O.B]] · [[Daniel]]
 - [[Sessions/Session 25 - Juniper Islands]] · [[Sessions/Session 28]]
 - [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)

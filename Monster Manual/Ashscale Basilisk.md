@@ -29,13 +29,13 @@ Use as regional wilderness threats in Juniper ravine / beach encounters (CR 8).
 
 ## Appearances
 
-- **Latest session (transcript pending)** — **Pack fight in progress / just played:** [[Matthew -The Jack- Burgess|Jack]], [[B.O.B]], and [[Daniel (Spider's Nest)|Daniel]] (with the party) vs multiple Ashscale Basilisks beneath Brook Town / the Juniper ravine. Outcome TBD when notes land.
+- **Latest session (transcript pending)** — **Pack fight in progress / just played:** [[Matthew -The Jack- Burgess|Jack]], [[B.O.B]], and [[Daniel]] (with the party) vs multiple Ashscale Basilisks beneath Brook Town / the Juniper ravine. Outcome TBD when notes land.
 - **[[Sessions/Session 28|Session 28]]** — Jack on Juniper split-focus arc (outline; link transcript when filed).
 - **[[Sessions/Session 25 - Juniper Islands|Juniper Islands prep]]** — region reference.
 
 ## Related
 
-- [[Matthew -The Jack- Burgess]] · [[B.O.B]] · [[Daniel (Spider's Nest)]] — current / recent fight
+- [[Matthew -The Jack- Burgess]] · [[B.O.B]] · [[Daniel]] — current / recent fight
 - [[Ravine Scylla]] — natural predator
 - [[Sessions/Session 25 - Juniper Islands]]
 - [[Monster Manual|Monster Manual]]

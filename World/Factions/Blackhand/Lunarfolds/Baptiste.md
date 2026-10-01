@@ -17,6 +17,9 @@ foundry_live_slug: "baptiste"
 
 ![[Attachments/baptiste-portrait.png|Portrait]]
 ![[Attachments/baptiste-bounty.png|Bounty poster]]
+![[Attachments/baptiste-bounty-2.png|Bounty poster]]
+![[Attachments/baptiste-bounty-3.png|Bounty poster]]
+![[Attachments/baptiste-bounty-4.png|Bounty poster]]
 
 *Discord quarry: [[Discord/exports/character-art]], [[Discord/exports/bounty-posters]]*
 
@@ -33,6 +36,8 @@ Devil Fruit: [[Uchu Uchu no Mi]].
 
 **Latest session:** Brook Town ravine caves — slew **[[Carrion Vulture|Carrion Vultures]]** and **[[Crystalback Scorpion|Crystalback Scorpions]]** with [[Cade Tigor Cooper]] and [[Tray]] (transcript pending).
 
+**Ravine collapse:** Buried when the ravine collapsed; unconscious for nearly three weeks at [[Linus Marrow|Linus]]'s clinic ([[Timeline/Undated/[Event] Capone Invasion — Time Skip|Capone Invasion — Time Skip]]).
+
 ## Personal Quests
 
 - Freedom — the single word that defines his dream
@@ -40,7 +45,7 @@ Devil Fruit: [[Uchu Uchu no Mi]].
 
 ## Backstory
 
-Prior arcs: [[Backstory] Elizabeth Marrow — mortuary escape]], [[Backstory] Blackhand Cane — Raid Kingdom]].
+Prior arcs: [[[Backstory] Elizabeth Marrow — mortuary escape]], [[[Backstory] Blackhand Cane — Raid Kingdom]].
 
 ### The Germa Facility
 
@@ -123,6 +128,19 @@ Cane turned back, his grin softer now, and leaned down so that his voice cut thr
 Baptiste felt the question like a hand on his chest. He thought of the girl with emerald eyes, the red-haired savior pinned under stone, the small mercies that had kept him human through months of cruelties.
 
 He looked up at the man whose smile had not faltered even in the teeth of battle. The word rose from somewhere small and stubborn inside him: "Freedom."
+## Episode 8
+
+- As acting captain, declares the [[Lunarfolds]] officially a crew and calls the ranking tournament; referees it himself. Asks each crewmate their goals. His own: a place where his people, long hunted, can settle, and to restore their reputation ([[Session 00008 — The Lunarfold Tournament Part 1|Episode 8]]).
+
+## Episode 9
+
+- Acting captain while [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] is away. Spots and rescues [[Zim]]; trades Hallow's journal and ledgers for intel; [[Zim]] knows of "the Baptiste who was there about eight years ago". Learns of two Lunarian sightings. Agrees to owe [[Daniel]] a job. Beats [[Malphas]] in two rounds to stay at the top of the ranking ([[Session 00009 — The Lunarfold Tournament Part 2|Episode 9]]).
+
+## Episode 10
+
+- With [[B.O.B]], first to break out of the crew's shared nightmare. **Puts on both [[Rings of Aegir]]** to reach [[Veyl Corven|Veyl]] and [[Serica Corven|Serica]]'s nightmare; they latch onto his ring finger and pinky. In the throne-room nightmare the rings' patron claims him ("I am your patron") and demands he find its vessel and revive it; he refuses, and it vows to haunt him until he gives in ([[Session 00010 — Sea of Nightmares|Episode 10]]).
+- **Ring powers** (magic item, not a respec): Wisdom-based warlock casting with 8 ring slots (Eldritch Blast, Hex, Hellish Rebuke, Darkness, Mirror Image), Agonizing Blast, Devil's Sight. Each long rest: DC 13 Wisdom save or nightmare visions and a level of exhaustion; three failures in a row shift him to evil.
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

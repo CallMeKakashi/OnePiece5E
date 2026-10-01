@@ -5,7 +5,7 @@ status: draft
 publish: true
 sources:
   - "[[Episode 06 - Hallow's End]]"
-  - "[[Sessions/Sidequests/Spider's Nest]]"
+  - "[[Session 005.5 — Callisto]]"
 ---
 ## Description
 

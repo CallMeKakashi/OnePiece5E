@@ -16,6 +16,8 @@ foundry_live_slug: "roma-hybrid"
 
 ![[Attachments/roma-portrait.png|Portrait]]
 ![[Attachments/roma-bounty.png|Bounty poster]]
+![[Attachments/roma-bounty-2.png|Bounty poster]]
+![[Attachments/roma-bounty-3.png|Bounty poster]]
 
 *Discord quarry: [[Discord/exports/character-art]], [[Discord/exports/bounty-posters]]*
 
@@ -27,6 +29,8 @@ A round white wolf mink. Energetic, restless, incapable of sitting still. Warm-h
 ## Role
 
 Cook of the [[Lunarfolds]]. Trained in the Warrior Recipes of Zou's Moonlight Path Temple under Master Tsubaki. Devil Fruit: [[Yuki Yuki no Mi — Model Yeti]]. Frost powers not yet fully mastered.
+
+**Ravine collapse:** Buried when the ravine collapsed; unconscious for nearly three weeks at [[Linus Marrow|Linus]]'s clinic ([[Timeline/Undated/[Event] Capone Invasion — Time Skip|Capone Invasion — Time Skip]]).
 
 ## Personal Quests
 
@@ -341,6 +345,18 @@ In that moment, Roma knew.
 **His future with this crew would be unlike anything he'd ever seen.
 A life of chaos, flavor, warmth…
 and belonging.**
+### The Lion He Forgot
+
+About a year before the present, travelling alone through Wano, Roma meets the Lion Mink [[Pasha]] — the isolated child he barely remembered from Zou. They share a fire and an adventure in abandoned ruins against a giant armored lizard, and become real friends; on their last night Pasha uses his glowing markings to erase himself from Roma's memory and heads back to Zou. Roma wakes remembering a Lion Mink but not who he was, with a pouch of Zou spices beside him. Full text: [[[Backstory] Roma — The Lion He Forgot]].
+
+## Episode 8
+
+- Cooks nonstop through the downtime until he collapses (woken with ice water by [[B.O.B]]). Says he ate his fruit while taste-testing it; it triggers when he gets angry. Loses his tournament bout to [[Serica Corven]] on the captain's ruling ([[Session 00008 — The Lunarfold Tournament Part 1|Episode 8]]).
+
+## Episode 9
+
+- Beats [[B.O.B]] for 5th place; agrees to let Bob run some tests. Smashes into the brig, knocks [[Zim]] out and dangles her over the sea until [[Veyl Corven]] intervenes ([[Session 00009 — The Lunarfold Tournament Part 2|Episode 9]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

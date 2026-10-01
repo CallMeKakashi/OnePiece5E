@@ -34,6 +34,8 @@ In-world date anchors (approximate unless a timeline entry pins finer precision)
 | 2 | [[Episode 03 - Cliffside Gambit]] | [[Session 003 — Cliffside Gambit]] | high | |
 | 3 | [[Episode 04 - Masquerade of the Stolen Keys]] | [[Session 004 — Masquerade of the Stolen Keys]] | high | |
 | 4 | [[Episode 05 - Midnight Chainbreak]] | [[Session 005 — Midnight Chainbreak]] | high | |
+| 4a | — (Discord #downtime-actions, 2025-09-13) | [[Timeline/Undated/[Event] Interlude — Red Departs and Reverse Mountain]] | high | Interlude write-up, not a session |
+| 4b | — (unrecorded) | [[Session 005.5 — Callisto]] | medium | DM account only; see [[Timeline/Undated/[Event] Callisto — Hallow's Trap]] |
 | 5 | [[Episode 06 - Hallow's End]] | [[Session 00006 — Hallow's End]] | high | **Ep 6 ≠ Session 14** (Decibel Decree) |
 | 6 | [[Episode 08 - The Lunarfold Tournament Part 1]] | [[Session 00008 — The Lunarfold Tournament Part 1]] | high | **No Episode 7** |
 | 7 | [[Episode 09 - The Lunarfold Tournament Part 2]] | [[Session 00009 — The Lunarfold Tournament Part 2]] | high | |

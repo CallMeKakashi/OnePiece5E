@@ -8,7 +8,7 @@ related_world:
   - "[[Sixfold]]"
 related_events:
   - "[[1476-01moon [Backstory] The Birth of the Motley Crew]]"
-  - "[[Backstory] Blackhand Cane — Raid Kingdom]]"
+  - "[[[Backstory] Blackhand Cane — Raid Kingdom]]"
 ---
 
 # Elizabeth Marrow — mortuary escape
@@ -48,4 +48,4 @@ Linn stood there, clutching the bag, heart pounding. The smell of death lingered
 ## See also
 
 - PC origin (same import, different arc): [[Characters/Baptiste]]
-- [[Backstory] Blackhand Cane — Raid Kingdom]]
+- [[[Backstory] Blackhand Cane — Raid Kingdom]]

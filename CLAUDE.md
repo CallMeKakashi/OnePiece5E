@@ -1,10 +1,10 @@
 # Claude Code — Blood & Brine
 
-Obsidian vault for the **Blood & Brine** One Piece D&D campaign, plus two loosely-related sub-projects sharing this repo: the `op5e/` FoundryVTT module and `scripts/` sync automation. See [CONTEXT.md](./CONTEXT.md) for the domain glossary across all three.
+Obsidian vault for the **Blood & Brine** One Piece D&D campaign, plus two loosely-related sub-projects sharing this repo: the `op5e/` FoundryVTT module and `scripts/` sync automation. See [CONTEXT-MAP.md](./CONTEXT-MAP.md) for the three contexts and their glossaries.
 
 ## Read order
 
-1. [CONTEXT.md](./CONTEXT.md) — domain glossary
+1. [CONTEXT-MAP.md](./CONTEXT-MAP.md) — context map, then the glossary for your context ([vault](./CONTEXT.md), [op5e](./op5e/CONTEXT.md), [scripts](./scripts/CONTEXT.md))
 2. This file — operational rules
 3. [Home.md](./Home.md) — campaign navigation hub (Dataview)
 
@@ -98,6 +98,20 @@ Actor pages use the template: Description → Role → Personal Quests → Backs
 ## Wikilinks
 
 Use Obsidian `[[wikilinks]]` when suggesting note titles. Prefer **Title Case** filenames consistent with existing notes.
+
+## Agent skills
+
+### Issue tracker
+
+GitHub Issues on `CallMeKakashi/OnePiece5E` via `gh`; external PRs are not a triage surface. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default vocabulary (`needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`). See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Multi-context — `CONTEXT-MAP.md` at the root points to the vault, op5e and scripts glossaries. See `docs/agents/domain.md`.
 
 ## Danger zones
 

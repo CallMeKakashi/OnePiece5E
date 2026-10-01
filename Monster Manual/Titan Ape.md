@@ -30,7 +30,7 @@ Ecology tier above **[[Ravine Scylla|Ravine Scyllas]]** and **[[River Serpent|Ri
 
 - [[River Serpent]] — fellow deep-cave apex; also hibernating; party has not met either yet
 - [[Ravine Scylla]] · [[Ashscale Basilisk]] · [[Lamprey Horror]] · [[Crystalback Scorpion]] · [[Carrion Vulture]] — Brook Town ravine ecology
-- [[Matthew -The Jack- Burgess]] · [[B.O.B]] · [[Daniel (Spider's Nest)]]
+- [[Matthew -The Jack- Burgess]] · [[B.O.B]] · [[Daniel]]
 - [[Sessions/Session 25 - Juniper Islands]] · [[Sessions/Session 28]]
 - [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)

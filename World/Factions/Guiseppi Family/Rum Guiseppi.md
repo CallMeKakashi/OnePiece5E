@@ -5,12 +5,15 @@ status: draft
 publish: true
 sources:
   - "Discord/exports/character-art"
+  - "Discord/exports/world-lore"
 foundry_actor_id: "vFPhYmc2H63FgLE5"
 foundry_live_slug: "rum"
 ---
 ## Role
 
 Current boss of the [[Guiseppi Family]].
+
+During the Capone invasion he openly distrusted [[Zim]] ("Sato"), but set old grievances aside because the family could not afford to lose another ally while [[Mira the Unbreakable|Mira]] held York Town ([[Timeline/Undated/[Event] Capone Invasion — Time Skip]]).
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

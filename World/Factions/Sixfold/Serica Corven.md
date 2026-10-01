@@ -50,15 +50,19 @@ Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative a
 
 ## Episode 6
 
-- Spider's Nest / G-45 facility: intimidates [[Daniel (Spider's Nest)]]; helps evacuate civilians with [[Veyl Corven]]; island destruction aftermath.
+- [[Callisto]] facility: intimidates [[Daniel]]; helps evacuate civilians with [[Veyl Corven]]; island destruction aftermath.
 
 ## Episode 8
 
-- Crew-ranking tournament: wins bout vs [[Roma]] (cap adjudicates); fights [[Malphas]] (pistol-hands / cannon); ~**3rd** place when Part 1 ends; avoids flying through Malphas in finale tease.
+- Scrubs the deck for all three days of downtime. Tournament: beats [[Roma]] on captain [[Baptiste]]'s ruling (cannon ready); loses to [[Malphas]], who stays out of her reach in the air; guaranteed **3rd** ([[Session 00008 — The Lunarfold Tournament Part 1|Episode 8]]).
 
 ## Episode 9
 
-- Tournament day 2; final crew rank **4th** (below [[Veyl Corven]]); dismissive of rankings.
+- Final crew rank **4th**; tells Baptiste she went easy on him and doesn't care about rankings. Bangs on [[Zim]]'s cell at night, accusing her over something involving "him"; later calms Veyl down ("we've tried everything… it never works") ([[Session 00009 — The Lunarfold Tournament Part 2|Episode 9]]).
+
+## Episode 10
+
+- Trapped with [[Veyl Corven|Veyl]] in a ring nightmare of the [[Virellis Kingdom|Virellis]] throne room: one arm torn off, despairing ("He killed [[Vireth]]"). [[B.O.B|Bob]] rouses her to fight; she fires a rocket-launcher arm at the patron and is killed by its Circle of Death. On waking: "We killed him… it wasn't the king. It was the king's youngest son that took over" ([[Session 00010 — Sea of Nightmares|Episode 10]]).
 
 ## Related
 

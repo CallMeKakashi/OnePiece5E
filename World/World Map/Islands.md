@@ -28,9 +28,9 @@ Geography index for Blood & Brine. Interactive map: [[World Map]].
 
 _Old Notes listed "Grand Blue"; vault uses Grand Line._
 
-1. Callisto (TBD)
+1. [[Callisto]]: Mugen Industries facility island (destroyed and sunk in Episode 6)
 	1. Harpoon Cay harbour (TBD)
-	2. The Core (TBD)
+	2. The Core ("Divine Furnace") (TBD)
 	3. Factory 1 (TBD)
 	4. Factory 2 (TBD)
 	5. Factory 5 (TBD)
@@ -41,3 +41,7 @@ Also in World Map (not in Old Notes list): [[Decibella Kingdom]]
 ## New World
 
 1. [[Virellis Kingdom]] (TBD)
+
+## Sea not yet stated
+
+1. [[Vruvia]] — former rebel nation destroyed in the Unity War; birthplace of [[Mira the Unbreakable|Mira]]

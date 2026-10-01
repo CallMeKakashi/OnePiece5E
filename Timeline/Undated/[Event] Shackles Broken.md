@@ -22,6 +22,7 @@ related_world:
 related_events:
   - "[[Timeline/Undated/[Event] Masquerade]]"
   - "[[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]"
+  - "[[Timeline/Undated/[Event] Interlude — Red Departs and Reverse Mountain]]"
 ---
 
 # Shackles Broken

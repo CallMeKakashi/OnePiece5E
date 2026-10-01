@@ -28,7 +28,7 @@ aliases:
 | Role | Note |
 |------|------|
 | PCs | [[Malphas]], [[Baptiste]], [[Roma]], [[B.O.B]], [[Veyl Corven]], [[Serica Corven]] |
-| Spider's Nest | [[Daniel (Spider's Nest)]], [[Chloe (Spider's Nest)]] |
+| Spider's Nest | [[Daniel]], [[Chloe]] |
 | Antagonists | Circle of Clouds (clown faction) |
 
 ### Open questions

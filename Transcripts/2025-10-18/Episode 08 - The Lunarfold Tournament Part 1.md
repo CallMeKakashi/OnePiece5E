@@ -19,11 +19,11 @@ aliases:
 
 ### Summary
 
-- **~3 days downtime** on ship after G-45 / [[Sessions/Sidequests/Spider's Nest|Spider's Nest]] — crew processes trauma; journal clue still missing.
+- **~3 days downtime** on ship after G-45 / [[Session 005.5 — Callisto|Spider’s Nest]] — crew processes trauma; journal clue still missing.
 - **Character beats:** [[Roma]] surveys crew goals (reputation, settle down); [[Malphas]] isolates in storeroom (devil-fruit research, combat survivability); [[Baptiste]] trains speed with [[Veyl Corven]]; devil-fruit Q&A (Roma ate one — anger trigger; Baptiste denies eating one / puzzle-box thread).
 - **Sixfold folded in:** party treats [[Veyl Corven]] + [[Serica Corven]] as crew; **ranking tournament** below captain — non-lethal rules, deck fights.
 - **Bracket (Part 1):** pranks ([[Veyl Corven]] antigravity on [[Baptiste]]); [[Serica Corven]] vs [[Roma]] — cap calls winner **Serica**; [[Malphas]] vs [[Baptiste]] extended duel (smoke/absorb mechanics); [[Malphas]] vs [[Serica Corven]] (pistol-hands / cannon tension) — session ends mid-bracket; **Serica ~3rd**, [[Malphas]] leading; rematch teased → [[Episode 09 - The Lunarfold Tournament Part 2]].
-- Epilogue banter: [[Daniel (Spider's Nest)]] · [[Chloe (Spider's Nest)]] watch fights.
+- Epilogue banter: [[Daniel]] · [[Chloe]] watch fights.
 
 ### People (links)
 
@@ -31,7 +31,7 @@ aliases:
 |------|------|
 | PCs | [[Malphas]], [[Roma]], [[Baptiste]] |
 | Sixfold | [[Veyl Corven]], [[Serica Corven]] |
-| Observers | [[Daniel (Spider's Nest)]], [[Ben (Spider's Nest)]], [[Chloe (Spider's Nest)]] |
+| Observers | [[Daniel]], [[Ben]], [[Chloe]] |
 
 ### Open questions
 
