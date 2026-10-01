@@ -3,22 +3,35 @@ type: actor
 faction: "[[Spider Nest Pirates]]"
 status: draft
 publish: true
+sources:
 foundry_actor_id: "ooiaUFcLW8VFCzXl"
 foundry_live_slug: "zara-tideborn"
 ---
 # Zara Tideborn
 
+## Visuals
+
+![[Attachments/zara-portrait.jpg|Portrait]]
+![[Attachments/zara-yokai-enhanced.png|Yokai-enhanced Zara]]
+
+
 ## Description
 
-*(Details TBD)*
+Blonde, horned brawler whose body is marked with constellation-like lines; surgically implanted secondary arms (see live sheet). In her yokai-enhanced form the extra arms and a tiger-striped tail manifest as spectral, gold-clawed smoke with tiger heads at the shoulders.
 
 ## Role
 
-[[Spider Nest Pirates]] officer. **Juniper arc:** With [[Simon The One Armed Tyrant|Simon]], killed the West Town farm parents during the **[[Hydra Goose]]** incident to conceal **[[LunaFang Serum|Lunafang]]**-laced fertilizer ([[Dr Nikolai Tesla]]'s spread).
+First Mate of the Spider's Nest ([[Spider Nest Pirates]]); shares the surname Tideborn with captain [[Simon The One Armed Tyrant|Simon]]. Status: Alive (character-art, 2026-07-27). **Juniper arc:** With [[Simon The One Armed Tyrant|Simon]], killed the West Town farm parents during the **[[Hydra Goose]]** incident to conceal **[[LunaFang Serum|Lunafang]]**-laced fertilizer ([[Dr Nikolai Tesla]]'s spread).
+
+## Backstory
+
+In [[Timeline/Undated/[Backstory] Spider Nest — The Nine Little Spiders|the spider fairy tale]], Zara is the **third** spider — "a brave little sister whose courage was greater than her size."
 
 ## Related
 
 - [[Spider Nest Pirates]]
+- [[Simon The One Armed Tyrant]]
+- [[Yokai]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

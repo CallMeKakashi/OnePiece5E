@@ -7,7 +7,7 @@ sources:
 
 # Spirit Cliff
 
-East Blue island — World Government bank branch and Marine Base G-45.
+East Blue island: a World Government bank branch and **Marine Base G-45**, commanded by [[Commodore Briggs]]. Captains [[Calder Voss]] and [[Drez Crown, Captain of G-45|Drez Crown]] serve in the unit. Mugen's **G-45 Enforcer Armors** are named for the unit. The Mugen facility destroyed in Episode 6 was on [[Callisto]], not here. [[Malphas]]'s sister [[Alice]] was held at, or passed through, G-45.
 
 ## Timeline
 
@@ -21,5 +21,6 @@ East Blue island — World Government bank branch and Marine Base G-45.
 - [[Delaroth Halward|Director Halward Lynne]]
 - [[Bramble]]
 - [[Calder Voss]]
+- [[Commodore Briggs]]
 - [[Sixfold]]
 - [[Blackhand]]

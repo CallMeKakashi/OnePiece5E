@@ -19,6 +19,10 @@ Mascot of the [[Braveheart Pirates]].
 ## Role
 
 Mascot. Devil Fruit: [[Peto Peto no Mi]].
+
+## Backstory
+
+Saved as a baby from a raid by Shu, who named her; freed with Shu and [[Tray]] by [[Mira the Unbreakable|Mira]], who took them home to Blackwater — see [[[Backstory] Mira — Journey Part 2]].
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

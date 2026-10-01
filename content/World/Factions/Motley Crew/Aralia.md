@@ -17,6 +17,10 @@ Founding member of the [[Motley Crew]].
 
 (Unknown)
 
+## Fate (Episode 9)
+
+Dead. Her death broke the memories of the fused [[Astor]] and [[Ronan]] ([[Vireth]]) ([[Session 00009 — The Lunarfold Tournament Part 2|Episode 9]]).
+
 ## Backstory
 
 (To be developed)

@@ -6,7 +6,7 @@ publish: true
 sources:
   - "[[Episode 06 - Hallow's End]]"
   - "[[Episode 09 - The Lunarfold Tournament Part 2]]"
-  - "[[Sessions/Sidequests/Spider's Nest]]"
+  - "[[Session 005.5 — Callisto]]"
 ---
 ## Visuals
 
@@ -25,9 +25,11 @@ Member of the [[Spider Nest Pirates]]. [[Daniel]] risks everything to extract he
 
 ## Backstory
 
+In [[Timeline/Undated/[Backstory] Spider Nest — The Nine Little Spiders|the spider fairy tale]], Chloe is the **ninth (youngest)** of nine sibling spiders; [[Simon The One Armed Tyrant|Simon]] is second, [[Zara Tideborn|Zara]] third.
+
 ## Episode 6
 
-- Freed after party deal with Daniel; evacuated with [[Veyl Corven]]'s help.
+- Freed after party deal with Daniel; carried along by [[Veyl Corven]] while he evacuates [[Callisto]].
 
 ## Episode 9
 

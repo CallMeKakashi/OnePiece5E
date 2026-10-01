@@ -27,13 +27,13 @@ Current leader of the [[Sixfold]]. Headquarters at **Magnolia** aboard the **Arm
 
 ## Backstory
 
-Origin tied to [[Backstory] Elizabeth Marrow — mortuary escape]]. Founding member of the [[Motley Crew]] who went on to lead the [[Sixfold]]. Referenced in Informant's episode 9 intel (flying North Blue → South Blue with Vireth).
+Origin tied to [[[Backstory] Elizabeth Marrow — mortuary escape]]. Founding member of the [[Motley Crew]] who went on to lead the [[Sixfold]]. Referenced in Informant's episode 9 intel (flying North Blue → South Blue with Vireth).
 
 ## Related
 
 - [[Sixfold]]
 - [[Motley Crew]]
-- [[Backstory] Elizabeth Marrow — mortuary escape]]
+- [[[Backstory] Elizabeth Marrow — mortuary escape]]
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

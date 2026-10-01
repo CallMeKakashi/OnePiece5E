@@ -45,15 +45,19 @@ Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative. 
 
 ## Episode 6
 
-- Carries [[Roma]] / [[Malphas]] via [[Soku Soku no Mi]]; ring teleport; presses [[Daniel]] on Silas; may hold bank journal.
+- Carries [[Roma]] / [[Malphas]] via [[Soku Soku no Mi]]. His ring box flares in the Core, but nobody is teleported. Presses [[Daniel]] about Silas, evacuates Callisto's workers, and joins the [[Lunarfolds]] "for the time being".
 
 ## Episode 8
 
-- Speed training with [[Baptiste]] during downtime; antigravity prank in tournament; Sixfold accepted as full crew before bracket.
+- Speed training with [[Baptiste]] (and [[Malphas]]) during downtime; counted as full crew for the tournament. Beats [[B.O.B]] in bout 1, reaching him behind the mast with a **Rokushiki** technique after Bob levitates him; promises to tell Bob everything about it ([[Session 00008 — The Lunarfold Tournament Part 1|Episode 8]]).
 
 ## Episode 9
 
-- Loses ranking bout to [[Baptiste]]; rough interrogation of [[Informant (Loguetown)]]; rank **3rd** on crew ladder.
+- Finds Bob in the cupboard and tells him "the old man" ([[Blackhand Cane]]) is missing. Loses the 1st/2nd bout to [[Malphas]]; rank **3rd**. Recognises [[Zim]] and asks about [[Astor]]; stops Roma dangling her over the sea and falls out with [[Baptiste]] ("maybe I was wrong about you"). Pins Zim the next morning until Serica calms him; explains Liz's paper IDs; gives Zim his radio ([[Session 00009 — The Lunarfold Tournament Part 2|Episode 9]]).
+
+## Episode 10
+
+- The two [[Rings of Aegir]] were kept in his blue box. Trapped with [[Serica Corven|Serica]] in the Virellis throne-room nightmare, held by the neck by the patron and broken by despair until [[Malphas]] shocks him back; asks Malphas to take Serica away if they all die. Killed in the dream by Circle of Death; wakes gasping ("my worst nightmare coming to life") ([[Session 00010 — Sea of Nightmares|Episode 10]]).
 
 ## Related
 

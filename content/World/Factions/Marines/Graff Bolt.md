@@ -24,4 +24,4 @@ Retired Admiral of the [[Marines]].
 
 ## Backstory
 
-(To be developed)
+- **Royal Flush Casino** — Newly out of retirement to train Seaman Recruit [[Melina Celeste]], he turned up gambling at the Royal Flush Casino. Old friend of [[King]]: the two traded Conqueror's Haki, then embraced. Asked King to help train Melina to wield his blade; after two weeks he left on a tip about a slave trade in the South Blue ([[Timeline/Undated/[Event] The Royal Flush Casino Meeting]]).

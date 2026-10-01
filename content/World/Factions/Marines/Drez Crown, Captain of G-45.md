@@ -14,11 +14,12 @@ foundry_live_slug: "drez-crown-captain-of-g-45"
 
 ## Role
 
-*(Details TBD)*
+**Marine Captain** in the **G-45** unit (the Marine base at [[Spirit Cliff]]) under [[Commodore Briggs]], alongside Captain [[Calder Voss]] (DM, 2026-09-26). The Tribune credits "Captain Drez Crown of G-4.5" with saving numerous Marine lives during the Lunarfold ambush ([[1478-16sun [Newspaper] Grand Line Tribune — Evening]]).
 
 ## Related
 
 - [[Marines]]
+- [[Commodore Briggs]]
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

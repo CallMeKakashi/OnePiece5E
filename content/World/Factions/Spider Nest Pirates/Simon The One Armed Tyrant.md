@@ -3,26 +3,40 @@ type: actor
 faction: "[[Spider Nest Pirates]]"
 status: draft
 publish: true
+sources:
 foundry_actor_id: "OrimoklGnDXWNHud"
 foundry_live_slug: "simon-tideborn"
 ---
+## Visuals
+
+![[Attachments/simon-portrait.jpg|Portrait]]
+
+
 ## Description
 
-Formerly known as Silas.
+**Simon Tideborn**, the current **Tyrant** of the Spider's Nest. He took the title ("The One Armed Tyrant") after killing the previous Tyrant, **Silas** (DM, 2026-09-26). Older vault notes called Simon "formerly known as Silas"; that was wrong. Wears round glasses and carries prayer beads; his left arm is a stump.
 
 ## Role
 
-Captain of the [[Spider Nest Pirates]]. Founding member of [[Motley Crew]].
+Captain of the Spider's Nest ([[Spider Nest Pirates]]). Founding member of [[Motley Crew]]. Status: Alive (character-art, 2026-07-27).
+
+Devil Fruit: [[Yokai Yokai no Mi]] — commands the [[Yokai]].
 
 ## Personal Quests
 
 ## Backstory
 
-Originally known as Silas, he fell and was presumed lost. Reemerged as Simon The One Armed Tyrant, taking command of the [[Spider Nest Pirates]].
+**Silas**, the old Tyrant of the Spider's Nest, is dead, killed by "our boss" Simon ([[Daniel]] to [[Veyl Corven]], [[Episode 06 - Hallow's End]] ~00:14). Simon inherited the Tyrant moniker and took command of the [[Spider Nest Pirates]].
 
 **Juniper arc:** With [[Zara Tideborn]], killed the parents at the **West Town** farm during the **[[Hydra Goose]]** / Lunafang-fertilizer incident — cover-up while the family hid in the barn basement (children later rescued by the crew).
 
+**Nine little spiders:** In [[Timeline/Undated/[Backstory] Spider Nest — The Nine Little Spiders|the spider fairy tale]], Simon is the **second** spider — the frightened one who wrapped himself around the younger ones. [[Zara Tideborn]] is third. Fuller telling: [[[Backstory] Simon — The Spider's Nest]].
+
+**Planned (DM prep, [[Session 19-09-26]] — not yet confirmed at the table):** Appears on the party's deck, gives them a four-month warning before Virellis Kingdom "will be wiped off the map" (final stage of Red Ring), pins a bounty poster of Red to the mast, and leaves on a massive black-sailed ship in the clouds (art matches the *Aracna Zero* — see [[Spider Nest Pirates#Ships]]).
+
 ## D&D 5e stat block (legacy)
+
+> The legacy block is written for **Silas** ("One-Arm Tyrant Silas"), the previous Tyrant. Whether it should apply to Simon is TBD.
 
 **Medium humanoid (human), lawful evil**  
 **Armor Class:** 18 (half plate)  

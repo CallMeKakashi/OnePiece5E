@@ -167,6 +167,8 @@ Red blacks out — memory fractured ever since.
 - Appears carefree, but flashes of memory haunt him.
     
 - His connection to Tusk and Jack will reemerge mid-campaign.
+
+- **Departure** ([[Timeline/Undated/[Event] Interlude — Red Departs and Reverse Mountain]]): after an encounter with his past at [[Spirit Cliff]], [[Jack S. Parrow]] helps him get his memories back. He admits he is no Mink but a Zoan user of the **Parrot-Parrot Fruit**, and leaves with [[Baptiste]]'s blessing to settle unfinished business with his old crew.
     
 
 ---

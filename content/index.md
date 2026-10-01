@@ -73,11 +73,15 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Calder Voss]]
 - [[Captain Reddan Korr]]
 - [[Commander Leon]]
+- [[Commodore Briggs]]
 - [[Delaroth]]
 - [[Dr Nikolai Tesla]]
 - [[Drez Crown, Captain of G-45]]
 - [[Graff Bolt]]
+- [[Heathcliff]]
+- [[Horus]]
 - [[Marine Ensign (Armor Mk III)]]
+- [[Marines]]
 - [[Melina Celeste]]
 - [[Obsidian]]
 - [[Petty Officer Marine]]
@@ -107,15 +111,24 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 ### Spider Nest Pirates
 
+- [[Aburasen]]
 - [[Ben]]
+- [[Byakkōmaru]]
 - [[Chloe]]
 - [[Daniel]]
 - [[Jahera]]
+- [[Kagemegan]]
+- [[Kurohime]]
+- [[Kyōkan]]
 - [[Luka]]
+- [[Maria]]
 - [[Maya]]
 - [[Sarah]]
+- [[Senju Gaki]]
+- [[Shirō Hone-Oni]]
 - [[Simon The One Armed Tyrant]]
 - [[Spider Nest Pirates]]
+- [[Yokai]]
 - [[Zara Tideborn]]
 
 
@@ -254,6 +267,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 | [[Tori Tori no Mi — Model Sparrow]] | [[Jack S. Parrow]] | canon |
 | [[Uchu Uchu no Mi]] | [[Baptiste]] | canon |
 | [[Unknown Devil Fruit — Party 1]] | Party 1 (unclaimed) | canon |
+| [[Yokai Yokai no Mi]] | [[Simon The One Armed Tyrant]] | canon |
 | [[Yuki Yuki no Mi — Model Yeti]] | [[Roma]] | canon |
 
 
@@ -297,7 +311,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 | [[1478-09sun [Newspaper] Grand Line Tribune — Morning]] | 9th Sun, 1478 | Grand Line Tribune | draft |
 | [[1478-12moon [Newspaper] Grand Line Tribune — Morning]] | 12th Moon, 1478 | Grand Line Tribune | draft |
 | [[1478-16sun [Newspaper] Grand Line Tribune — Evening]] | 16th Sun, 1478 | Grand Line Tribune | draft |
-| [[1478-22moon [Newspaper] Grand Line Tribune — Morning]] | 22nd Moon, 1478 | Grand Line Tribune | draft |
+| [[1478-22moon [Newspaper] Grand Line Tribune — Evening]] | 22nd Moon, 1478 | Grand Line Tribune | draft |
 
 
 ---

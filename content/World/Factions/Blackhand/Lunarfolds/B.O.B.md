@@ -11,7 +11,12 @@ foundry_live_slug: "b-o-b-old"
 ---
 ## Visuals
 
-*Portrait/bounty pending re-download —  (`BOB.png`, `SPOILER_DeathKnight_BOB.png`), *
+![[Attachments/bob-bounty.png|Bounty poster]]
+![[Attachments/bob-bounty-2.png|Bounty poster]]
+
+*"Death Knight B.O.B." — ฿101,000,000 (bounty-posters, 2026-09-19; Common and Very Rare card variants).*
+
+*Portrait pending re-download —  (`BOB.png`, `SPOILER_DeathKnight_BOB.png`); bounty quarry: *
 
 ## Description
 
@@ -21,9 +26,29 @@ foundry_live_slug: "b-o-b-old"
 
 [[Lunarfolds]] PC — scholar.
 
-**Latest session:** Pack fight vs **[[Ashscale Basilisk|Ashscale Basilisks]]** (Brook Town ravine) with [[Matthew -The Jack- Burgess|Jack]] and [[Daniel (Spider's Nest)|Daniel]] — transcript pending.
+**Latest session:** Pack fight vs **[[Ashscale Basilisk|Ashscale Basilisks]]** (Brook Town ravine) with [[Matthew -The Jack- Burgess|Jack]] and [[Daniel]] — transcript pending.
 
 **Prior:** Airship crash — slew **[[Monster Manual/Aberrant Abomination|Aberrant Abomination]]** and **[[Carrion Stalker|Carrion Stalkers]]** with [[Roma]] and [[Tray]] (transcript pending).
+
+**Ravine collapse:** Buried when the ravine collapsed; unconscious for nearly three weeks at [[Linus Marrow|Linus]]'s clinic ([[Timeline/Undated/[Event] Capone Invasion — Time Skip|Capone Invasion — Time Skip]]).
+
+## Backstory
+
+- **Laissez Faire and the Son of the Sea** — A drunk killer on Basilisk Point dies saving the scholar Elara and her baby; Bob, raised by Elara, rescues [[Ronan]] from the shore, and protecting him from bounty hunters costs Bob an arm and a leg and fuses an experimental core into his chest. Ronan is sent away with a promise to meet again at sea. Full text: [[[Backstory] B.O.B. — Laissez Faire and the Son of the Sea]].
+- **The Compression Cannon** — Bob and Ronan save a misfiring Scholars' Guild cannon with a steel-plate ramp and pistons. Full text: [[[Backstory] B.O.B. — The Compression Cannon]].
+
+## Episode 8
+
+- Spends the downtime in a storeroom, studying the crew's fighting styles; on the mission to find the missing Second Fleet commander, Goro ([[Timeline/Undated/[Event] Interlude — Queen Anne's Revenge and Frosthaven]]). Questions the crew about devil fruits. Loses tournament bout 1 to [[Veyl Corven]], who promises to explain Rokushiki. Takes [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]]'s puzzle box (at least 100 days to solve) ([[Session 00008 — The Lunarfold Tournament Part 1|Episode 8]]).
+
+## Episode 9
+
+- Reveals he was **Blackhand's interrogator**: the one behind the suspect reading their thoughts. Loses to [[Roma]] (last place) after a deal that Roma will allow some devil-fruit tests. Revives and later reads [[Zim]] with Detect Thoughts, drawing out the [[Vireth]] fusion secret. Quietly keeps one sea-prism cuff. Puzzle box at about 9%. His [[Ronan]] is half of Vireth, which Bob hasn't connected ([[Session 00009 — The Lunarfold Tournament Part 2|Episode 9]]).
+
+## Episode 10
+
+- In the crew's shared nightmare he sees his mother (Elara) hanged from a Marine mast; [[Calder Voss|Voss]] says her last word was "Basilisk". Bob reveals he **changed his name and identity** so nothing he did would reach his family. He drags Voss into the sea, and as he goes under notices his mother has no wrinkles — the tell that breaks the dream ([[Session 00010 — Sea of Nightmares|Episode 10]]).
+- Awake, traces the purple energy threads to the [[Rings of Aegir]] with Detect Magic, and casts Identify ("connect the strings"); works out how the nightmares trap and release dreamers. Killed by the patron's Circle of Death in the throne-room nightmare and remembers none of the patron's talk. **Exhaustion 4** — one more death and he dies.
 
 ## Related
 

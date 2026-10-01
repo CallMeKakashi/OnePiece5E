@@ -9,7 +9,7 @@ related_world:
   - "[[Roma]]"
   - "[[Baptiste]]"
   - "[[B.O.B]]"
-  - "[[Daniel (Spider's Nest)]]"
+  - "[[Daniel]]"
 related_events:
   - "[[Timeline/Undated/[Event] Sea of Nightmares]]"
   - "[[Timeline/Undated/[Event] Clown Tricks]]"

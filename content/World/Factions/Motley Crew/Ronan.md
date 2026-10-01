@@ -18,7 +18,13 @@ Founding member of the [[Motley Crew]]. Fighter and martial artist; Devil Fruit 
 - **Short-Term:** Gather enough money to escape the island with all the children and Sister Elira, freeing them from Marine extortion.
 - **Long-Term:** Travel to Fishman Island to meet Morley's family and apologize for not being able to save him, and tell them about the life he led when he left for the seas.
 
+## Fate (Episode 9)
+
+Found a fusion fruit in the North Blue about four years ago and fused with [[Astor]] into [[Vireth]]; they couldn't separate after an explosion. [[B.O.B]], who rescued Ronan in his backstory, hasn't connected this yet ([[Session 00009 — The Lunarfold Tournament Part 2|Episode 9]]).
+
 ## Backstory
+
+Bob's tellings: [[[Backstory] B.O.B. — Laissez Faire and the Son of the Sea]] · [[[Backstory] B.O.B. — The Compression Cannon]].
 
 ### Scene 1: The Training
 

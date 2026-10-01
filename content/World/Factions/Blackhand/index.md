@@ -66,4 +66,4 @@ Pirate organization led by **[[Blackhand Cane]]** — see [[Blackhand (Cyber)]] 
 - [[Sixfold]] — Spirit Cliff collusion
 - [[Spirit Cliff]] — treasury raid
 - [[Ambercrest]] — early East Blue incident
-- Split backstory (Old Notes `Baptiste.md`): [[Backstory] Elizabeth Marrow — mortuary escape]], [[Backstory] Blackhand Cane — Raid Kingdom]]; PC arc in [[Characters/Baptiste]]
+- Split backstory (Old Notes `Baptiste.md`): [[[Backstory] Elizabeth Marrow — mortuary escape]], [[[Backstory] Blackhand Cane — Raid Kingdom]]; PC arc in [[Characters/Baptiste]]

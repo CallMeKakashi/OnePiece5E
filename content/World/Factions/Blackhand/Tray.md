@@ -18,6 +18,8 @@ foundry_live_slug: "tray"
 
 One of the Blackhand pirates, loyal and dependable in the heat of the mission.
 
+**Epithet:** "Tray the Wiper" per the ravine downtime — a name he hates (it sounds like he wipes butts). He has repeatedly petitioned Marine Command, even posing as officers from different Marine branches, to change it to "Viper"; his bounty poster reads **Tray the Viper — ฿50,000,000**.
+
 ## Role
 
 [[Blackhand]] crew member. Part of [[Mira the Unbreakable]]'s inner circle — "the Fleet" — alongside **Thompson**, **Celine**, and **Katherine**.
@@ -28,6 +30,8 @@ Devil Fruit: [[Foji Foji no Mi]].
 
 **Prior:** Slew **[[Hydra Goose]]** on West Town farm with [[Matthew -The Jack- Burgess|Jack]] and [[Midori]] (transcript pending).
 
+**Ravine awakening (downtime):** Trapped after a ravine collapse, he refused to abandon his downed crewmates to hunting Sandvipers. Knocked out, he rose changed — white eyes, hair loose, molten-red fists — killed both vipers and then an entire troop of Titan Apes, leaving the cavern "more holes than rock." See [[Timeline/Undated/[Event] Tray — The Ravine Awakening]].
+
 ## Personal Quests
 
 - Standing with Mira and the Fleet through whatever comes
@@ -37,6 +41,8 @@ Devil Fruit: [[Foji Foji no Mi]].
 Tray is one of [[Mira the Unbreakable]]'s closest allies. He was part of the group that helped Mira escape **CP0** torture — the tight-knit circle she calls "the Fleet" (Tray, Thompson, Celine, and Katherine). To them, Mira is nothing short of a god: the one who showed them a better life far from the slums of an unnamed island deep within the New World.
 
 Tray was also present during the raid on the Germa facility where [[Baptiste]] was rescued, fighting alongside [[Blackhand Cane]], [[Renzo]], [[Morley]], and others.
+
+As a boy, Tray was freed from a raider ship by Mira along with his cousin Shu and the baby Ju Lee, becoming part of her first crew — see [[[Backstory] Mira — Journey Part 2]].
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

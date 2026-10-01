@@ -9,7 +9,7 @@ sources:
 
 ## Description
 
-Blackhand unit member and Devil Fruit user. Do not confuse with **PC** [[Characters/Baptiste]] — backstory arcs: [[Backstory] Elizabeth Marrow — mortuary escape]], [[Backstory] Blackhand Cane — Raid Kingdom]].
+Blackhand unit member and Devil Fruit user. Do not confuse with **PC** [[Characters/Baptiste]] — backstory arcs: [[[Backstory] Elizabeth Marrow — mortuary escape]], [[[Backstory] Blackhand Cane — Raid Kingdom]].
 
 ## Role
 

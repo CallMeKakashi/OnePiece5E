@@ -19,7 +19,7 @@ aliases:
 
 ### Summary
 
-- [[Malphas]] Lunarian dream (outpost attack) → wakes as ship hit; [[Daniel (Spider's Nest)]] betrays crew to Marines (Mugen / Lunarion research).
+- [[Malphas]] Lunarian dream (outpost attack) → wakes as ship hit; [[Daniel]] betrays crew to Marines (Mugen / Lunarion research).
 - Deck fight: Wonderland construct, Daniel killed in nightmare layer, Ben overboard; [[Veyl Corven]] & [[Serica Corven]] missing then trapped in ring nightmares.
 - Shared nightmare; [[B.O.B]] traces purple **cursed rings**; patron demands [[Baptiste]] find its vessel — refused; exhaustion / warlock-like ring slots.
 
@@ -28,7 +28,7 @@ aliases:
 | Role | Note |
 |------|------|
 | PCs | [[Malphas]], [[Baptiste]], [[Roma]], [[B.O.B]] |
-| Spider's Nest | [[Daniel (Spider's Nest)]], [[Chloe (Spider's Nest)]], [[Ben (Spider's Nest)]] |
+| Spider's Nest | [[Daniel]], [[Chloe]], [[Ben]] |
 | Sixfold | [[Veyl Corven]], [[Serica Corven]] |
 | Antagonists | Marine captain (Voro/Voss STT), Wonderland |
 

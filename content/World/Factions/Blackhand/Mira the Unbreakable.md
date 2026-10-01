@@ -41,6 +41,11 @@ Devil Fruit: [[Kaze Kaze no Mi]].
 
 ## Backstory
 
+### Mira's Journey (player-posted stories)
+
+- **Part 1** — As a starving five-year-old in war-torn [[Vruvia]] during the Unity War, Mira stabs a Marine named Eulisis ([[Blackhand Cane]]); he feeds her and resolves to take her with him against orders, over his comrade [[Horus]]'s objections. Full text: [[[Backstory] Mira — Journey Part 1]].
+- **Part 2** — As a young woman, Mira descends on a raider ship, frees the boy Shu, his cousin [[Tray]] and a rescued baby (named Ju Lee), takes them as her first crew and flies them home to Blackwater. Full text: [[[Backstory] Mira — Journey Part 2]].
+
 Mira was rescued at the age of **10** by [[Blackhand Cane]] from a slave ship en route to Mariejois. Even as a child, her spirit was unyielding — she was a fighter through and through.
 
 She sailed alongside Blackhand for **20 years**, learning the true essence of **Haki** directly from him and mastering **Fishman Karate** under [[Renzo]], the 3rd Fleet Commander. Over time, her unwavering spirit and raw power earned her the epithet **"Mira the Unbreakable."**
@@ -48,6 +53,8 @@ She sailed alongside Blackhand for **20 years**, learning the true essence of **
 It is said she once withstood **two weeks of torture at the hands of CP0**, yet never revealed a single word that would endanger Blackhand or her crew. She eventually broke out on her own, aided by her closest allies — the "Fleet": **[[Tray]]**, **Thompson**, **Celine**, and **Katherine**.
 
 To them — and to many others — Mira is nothing short of a god, the one who showed them a better life, far away from the slums of an unnamed island deep within the New World.
+
+During the [[Timeline/Undated/[Event] Capone Invasion — Time Skip|Capone invasion]] of the Juniper Islands, Mira alone keeps the [[Capone Family|Capones]] out of York Town, and [[Zim]] is under her protection.
 
 ## Abilities
 

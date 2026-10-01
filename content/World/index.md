@@ -7,8 +7,10 @@ publish: true
 	- **[[Aegir]]**
 	- **[[Blackhand]]**
 	- **[[Bramble & Brothers]]**
+	- **[[Capone Family]]**
 	- **[[Circle of Clowns]]**
 	- **[[Decibella Revolutionary]]**
+	- **[[Donatelli Family]]**
 	- **[[Guardians of Sol]]**
 	- **[[Guiseppi Family]]**
 	- **[[High Roost Pirates]]**
@@ -20,14 +22,19 @@ publish: true
 		- [[Dr Nikolai Tesla]]
 		- [[Drez Crown, Captain of G-45]]
 		- [[Graff Bolt]]
+		- [[Heathcliff]]
+		- [[Horus]]
 		- [[Marine Ensign (Armor Mk III)]]
 		- [[Melina Celeste]]
 		- [[Obsidian]]
 		- [[Petty Officer Marine]]
 		- [[Sir Can Veil]]
+	- **[[Marlon Family]]**
 	- **[[Motley Crew]]**
+	- **[[Moulan Family]]**
 	- **[[Mugen Industries]]**
 	- **[[Royal Flush Gang]]**
+	- **[[Russo Family]]**
 	- **[[Sand Rats]]**
 	- **[[Shadow Guild]]**
 	- **[[Sharkfin Pirates]]**

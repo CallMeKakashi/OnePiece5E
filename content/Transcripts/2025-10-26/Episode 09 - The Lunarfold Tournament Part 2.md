@@ -32,7 +32,7 @@ aliases:
 |------|------|
 | PCs | [[Malphas]], [[Roma]], [[Baptiste]] |
 | Sixfold | [[Veyl Corven]], [[Serica Corven]] |
-| Spider's Nest | [[Daniel (Spider's Nest)]], [[Ben (Spider's Nest)]], [[Chloe (Spider's Nest)]] |
+| Spider's Nest | [[Daniel]], [[Ben]], [[Chloe]] |
 | New | [[Informant (Loguetown)]] (name unclear in STT) |
 
 ### Open questions

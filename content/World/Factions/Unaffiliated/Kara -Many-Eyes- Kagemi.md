@@ -3,18 +3,23 @@ type: actor
 faction: "Unaffiliated"
 status: draft
 publish: true
+sources:
 foundry_actor_id: "ySfk9pyVcosxQuHD"
 foundry_live_slug: "kara-many-eyes-kagemi"
 ---
 # Kara "Many-Eyes" Kagemi
 
+## Visuals
+
+![[Attachments/kara-portrait.png|Portrait]]
+
+
 ## Description
 
-*(Details TBD)*
+**Snow Leopard Mink.** Status: Alive.
 
 ## Role
 
-*(Details TBD)*
 
 ## Related
 

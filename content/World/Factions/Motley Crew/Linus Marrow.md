@@ -3,6 +3,8 @@ type: actor
 faction: "[[Motley Crew]]"
 status: draft
 publish: true
+aliases:
+  - "Linn"
 sources:
   - "[[Episode 02 - Stormwings of Ambercrest]]"
   - "[[Episode 21 - House of Justice]]"
@@ -36,6 +38,10 @@ Doctor and founding member of the [[Motley Crew]]. Former [[Sixfold]] member. Se
 ## Backstory
 
 Former **Germa 66** understudy under **[[Dr Nikolai Tesla]]** (before Nikolai joined Briggs / Mugen). Former member of the [[Sixfold]]; tied to the organization's leadership through [[Mira the Unbreakable|Mira]]. Now traveling with the crew as their doctor, ordered by Mira to stay away from Sixfold business at [[Spirit Cliff]].
+
+His own telling of the founding crew: [[[Backstory] Linus — The Motley Crew]].
+
+After the ravine collapse, the rescued crew recover for nearly three weeks at his clinic on the Juniper Islands ([[Timeline/Undated/[Event] Capone Invasion — Time Skip|Capone Invasion — Time Skip]]).
 
 ## Episode 2
 

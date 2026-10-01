@@ -157,6 +157,11 @@ publish: true
 
 ## 📔 Campaign Notes
 
+### After Spirit Cliff
+
+- **Interlude** ([[Timeline/Undated/[Event] Interlude — Red Departs and Reverse Mountain]]): her condition is stabilizing at the Armada, though she is still frail. "Linn" ([[Linus Marrow]]) reveals he once knew her father and has the contacts to take her back to her home island for answers.
+- **[[Episode 06 - Hallow's End]]**: [[Roma]] harvests two tendrils and the fibre layer of the amalgam [[RyeNera]], whose regenerative properties are meant to help heal her or reinforce the Dreadnaught frame (DM, 2026-09-26; transcript "Sathlia").
+
 ### 🪶 Saplea’s Logbook — Entry #375 (Setting Sail for Ambercrest)
 
 - Ship: modest but sturdy vessel provided by **Renzo.**

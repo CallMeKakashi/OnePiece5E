@@ -26,6 +26,8 @@ Founding member of the [[Motley Crew]].
 
 Escaped **Germa 66** after cruel experiments under **[[Dr Nikolai Tesla]]** ([[1476-01moon [Backstory] The Birth of the Motley Crew]]).
 
+About a year before the present, met [[Roma]] again in Wano — see [[[Backstory] Roma — The Lion He Forgot]].
+
 ## Abilities
 
 ### Animal Talk

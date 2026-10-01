@@ -30,9 +30,9 @@ aliases:
 |------|------|
 | PCs (this ep) | [[Malphas]], [[Roma]], [[Baptiste]] |
 | Sixfold | [[Veyl Corven]], [[Serica Corven]] |
-| Spider's Nest | [[Daniel (Spider's Nest)]], [[Ben (Spider's Nest)]], [[Chloe (Spider's Nest)]] |
+| Spider's Nest | [[Daniel]], [[Ben]], [[Chloe]] |
 | Antagonist | [[Hallow]] |
-| Dead/ref | Tyrant **Silas** (see [[Sessions/Sidequests/Spider's Nest]]) |
+| Dead/ref | Tyrant **Silas** (see [[Session 005.5 — Callisto]]) |
 
 ### Cross-arc notes
 

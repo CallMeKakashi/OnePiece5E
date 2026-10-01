@@ -27,7 +27,8 @@ Devil Fruit: [[Tori Tori no Mi — Model Raicho]].
 
 ## Personal Quests
 
-- Find his sister **Alice**, taken during the attack on their Lunarian village
+- Find his sister **[[Alice]]**, taken during the attack on their Lunarian village
+  - **Lead (Episode 6):** she was held at, or passed through, **G-45**, the Marine base at [[Spirit Cliff]] under [[Commodore Briggs]] ([[Episode 06 - Hallow's End]] ~00:51; DM, 2026-09-26)
 - Uncover who ordered the raid — figures in white coats bearing the symbol of Libra
 
 ## Backstory
@@ -419,6 +420,19 @@ Baptiste nodded once—sharp, certain.
 Malphas took his hand.
 
 And fate shifted.
+## Episode 8
+
+- Downtime: meditates, trains with [[Veyl Corven]], and practises channelling lightning into his legs. Goal: find [[Alice]], then free the others who were captured. Beats [[Serica Corven]] in the tournament from the air ([[Session 00008 — The Lunarfold Tournament Part 1|Episode 8]]).
+
+## Episode 9
+
+- Beats [[Veyl Corven]] (wing-slam through the deck), then loses the captain's bout to [[Baptiste]]; ranks **2nd**. Learns from [[Zim]] of a white-haired, red-eyed flyer seen at the Marine post [[Droven Calligos]] attacked — his [[Alice]] lead ([[Session 00009 — The Lunarfold Tournament Part 2|Episode 9]]).
+
+## Episode 10
+
+- **Memory-dream**: as a child he brings lunch to his father at a lookout tower, his sister cheering; his father spars with him and teaches him the Lunarian knack of resisting blunt hits ("remember that feeling, son"). Outposts had been falling; the memory ends in fire and cannons as he flees carrying his sister, and a Marine's spear breaks against him ([[Session 00010 — Sea of Nightmares|Episode 10]]).
+- In the crew's shared nightmare, "Project Wonderland" wears his sister's stitched face; he holds back every time he sees it. In the throne-room nightmare he shocks Veyl out of despair ("I won't let yours be taken the same as mine").
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

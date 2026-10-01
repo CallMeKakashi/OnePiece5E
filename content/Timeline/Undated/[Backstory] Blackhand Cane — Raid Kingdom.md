@@ -8,7 +8,7 @@ related_world:
   - "[[Blackhand]]"
   - "[[Mira the Unbreakable]]"
 related_events:
-  - "[[Backstory] Elizabeth Marrow — mortuary escape]]"
+  - "[[[Backstory] Elizabeth Marrow — mortuary escape]]"
 ---
 
 # Blackhand Cane — Raid Kingdom
@@ -54,4 +54,4 @@ He spat into the ocean, the salt and the promise mixing. "If they think ta take 
 ## See also
 
 - [[Characters/Baptiste]] — Germa rescue / recruitment (following arc)
-- [[Backstory] Elizabeth Marrow — mortuary escape]]
+- [[[Backstory] Elizabeth Marrow — mortuary escape]]

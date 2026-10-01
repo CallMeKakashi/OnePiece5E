@@ -22,7 +22,7 @@ foundry_live_slug: "tigor"
 
 Helmsman of the [[Lunarfolds]], sailing under the [[Blackhand]] banner.
 
-**Latest session:** Brook Town ravine caves — slew **[[Carrion Vulture|Carrion Vultures]]** and **[[Crystalback Scorpion|Crystalback Scorpions]]** with [[Baptiste]] and [[Tray]] (transcript pending). *(Also on the **[[Ashscale Basilisk|Ashscale Basilisk]]** pack fight with [[Matthew -The Jack- Burgess|Jack]] and [[B.O.B]] / [[Daniel (Spider's Nest)|Daniel]] — same Juniper arc.)*
+**Latest session:** Brook Town ravine caves — slew **[[Carrion Vulture|Carrion Vultures]]** and **[[Crystalback Scorpion|Crystalback Scorpions]]** with [[Baptiste]] and [[Tray]] (transcript pending). *(Also on the **[[Ashscale Basilisk|Ashscale Basilisk]]** pack fight with [[Matthew -The Jack- Burgess|Jack]] and [[B.O.B]] / [[Daniel]] — same Juniper arc.)*
 
 ## Personal Quests
 

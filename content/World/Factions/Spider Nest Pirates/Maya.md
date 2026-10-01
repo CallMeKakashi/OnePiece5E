@@ -5,15 +5,20 @@ status: draft
 publish: true
 sources:
   - "[[Episode 06 - Hallow's End]]"
-  - "[[Sessions/Sidequests/Spider's Nest]]"
+  - "[[Session 005.5 — Callisto]]"
 ---
+## Visuals
+
+![[Attachments/maya-portrait.jpg|Portrait]]
+
+
 ## Description
 
-**Third-Hand Trickster Maya** — saboteur of the [[Spider Nest Pirates]].
+**Maya The Insidious** (legacy roster: "Third-Hand Trickster Maya") — saboteur of the [[Spider Nest Pirates]]. Tall, long reddish-orange hair with straight bangs, blue eyes, round glasses, long white double-breasted coat.
 
 ## Role
 
-Saboteur.
+Saboteur. Discord caption: "???? | ??? of the Spider's Nest Pirates | Status - Alive" (identity masked; 2026-09-21).
 
 ## D&D 5e stat block
 

@@ -29,7 +29,7 @@ In-fiction press (`type: newspaper`). Sorted by filename sort key.
 | [[1478-09sun [Newspaper] Grand Line Tribune — Morning]] | 9th Sun, 1478 | Grand Line Tribune | draft |
 | [[1478-12moon [Newspaper] Grand Line Tribune — Morning]] | 12th Moon, 1478 | Grand Line Tribune | draft |
 | [[1478-16sun [Newspaper] Grand Line Tribune — Evening]] | 16th Sun, 1478 | Grand Line Tribune | draft |
-| [[1478-22moon [Newspaper] Grand Line Tribune — Morning]] | 22nd Moon, 1478 | Grand Line Tribune | draft |
+| [[1478-22moon [Newspaper] Grand Line Tribune — Evening]] | 22nd Moon, 1478 | Grand Line Tribune | draft |
 
 
 ### Undated
@@ -63,7 +63,7 @@ All timeline entries in 1478 (events, newspapers, backstory).
 - [[1478-09sun [Newspaper] Grand Line Tribune — Morning]]
 - [[1478-12moon [Newspaper] Grand Line Tribune — Morning]]
 - [[1478-16sun [Newspaper] Grand Line Tribune — Evening]]
-- [[1478-22moon [Newspaper] Grand Line Tribune — Morning]]
+- [[1478-22moon [Newspaper] Grand Line Tribune — Evening]]
 
 
 ## Undated
@@ -74,11 +74,22 @@ Entries without a pinned in-world start date. **Table play order** (episode/reco
 
 2 → 3 → 4 → 5 → 6 → 8 → 9 → 10 → 11 → 12 → 13 → 14 → 15 → 16 → 17 → 18 → 19 → 20 (P1+P2) → 21 → 22 → 23 → 24 → 25 · *(no Episode 7)*
 
+- [[[Backstory] B.O.B. — Laissez Faire and the Son of the Sea]]
+- [[[Backstory] B.O.B. — The Compression Cannon]]
 - [[[Backstory] Blackhand Cane — Raid Kingdom]]
 - [[[Backstory] Elizabeth Marrow — mortuary escape]]
+- [[[Backstory] Joker — Man in Red]]
+- [[[Backstory] Linus — The Motley Crew]]
+- [[[Backstory] Mira — Journey Part 1]]
+- [[[Backstory] Mira — Journey Part 2]]
+- [[[Backstory] Roma — The Lion He Forgot]]
+- [[[Backstory] Simon — The Spider's Nest]]
+- [[[Backstory] Spider Nest — The Nine Little Spiders]]
 - [[[Event] Agony of Choas]]
 - [[[Event] Animal Within]]
 - [[[Event] Broken Promises]]
+- [[[Event] Callisto — Hallow's Trap]]
+- [[[Event] Capone Invasion — Time Skip]]
 - [[[Event] Choice for life]]
 - [[[Event] Clown Tricks]]
 - [[[Event] Fated Encounter]]
@@ -86,6 +97,8 @@ Entries without a pinned in-world start date. **Table play order** (episode/reco
 - [[[Event] Gentle Giant Pirates]]
 - [[[Event] Hallow's End]]
 - [[[Event] House of Justice]]
+- [[[Event] Interlude — Queen Anne's Revenge and Frosthaven]]
+- [[[Event] Interlude — Red Departs and Reverse Mountain]]
 - [[[Event] Masquerade]]
 - [[[Event] Price of Freedom Part 1]]
 - [[[Event] Price of Freedom Part 2]]
@@ -97,8 +110,10 @@ Entries without a pinned in-world start date. **Table play order** (episode/reco
 - [[[Event] The Lunarfold Tournament Part 2]]
 - [[[Event] The Missing Piece]]
 - [[[Event] The Reaper (No DM Audio)]]
+- [[[Event] The Royal Flush Casino Meeting]]
 - [[[Event] The Walking Dead]]
 - [[[Event] The Winged Ally]]
+- [[[Event] Tray — The Ravine Awakening]]
 - [[[Event] Welcome to the Jungle]]
 
 

@@ -14,6 +14,8 @@ foundry_live_slug: "rhum"
 ## Role
 
 Twin brother of [[Rum Guiseppi]]. Devil Fruit: [[Ink Ink no Mi]].
+
+As a Guiseppi, among those whose heads the [[Capone Family]] demanded during the invasion ([[Timeline/Undated/[Event] Capone Invasion — Time Skip]]).
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*
