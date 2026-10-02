@@ -9,7 +9,12 @@ foundry_live_slug: "rashid-al-saffar"
 ---
 # Rashid al-Saffar
 
-Foundry actor export — no campaign biography note yet. Link from [[Rules/Stat blocks]] or faction hub when placed in-world.
+Mayor of [[Freefield]] and owner of a chili plantation that fronts a slave trade. Lawful evil. Killed by the [[Sharkfin Pirates]] in [[Session 020 — Price of Freedom Part 2|Episode 20]].
+
+## Episode 20
+
+- Offers to give the crew the money for [[Bramble]]'s ship repairs if they protect his plantation from pirates and bandits. Offers them captives "to pass the time", which is how the crew learns he is a slave trader ([[Session 020 — Price of Freedom Part 1|Part 1]]).
+- Killed by [[Joe -Mitchblade- Mitch|Joe Mitch]]'s Sharkfins, who loot his house. The loot bag later pays for the repairs ([[Session 020 — Price of Freedom Part 2|Part 2]]).
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

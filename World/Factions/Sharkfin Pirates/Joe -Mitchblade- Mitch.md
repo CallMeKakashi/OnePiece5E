@@ -14,7 +14,11 @@ foundry_live_slug: "joe-mitchblade-mitch"
 
 ## Role
 
-*(Details TBD)*
+Captain of the [[Sharkfin Pirates]]. Killed by the crew on [[Freefield]].
+
+## Episode 20
+
+- Arrives at Freefield with his crew, kills Mayor [[Rashid al-Saffar]] and loots his house. Killed in the fight with the crew and [[Khael Dhamar]]; his crew is left scattered, and [[Eric]] is let go ([[Session 020 — Price of Freedom Part 2|Part 2]]).
 
 ## Related
 

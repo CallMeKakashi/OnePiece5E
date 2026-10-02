@@ -16,13 +16,14 @@ related_events:
 
 # Price of Freedom (Part 1)
 
-Depart Decibella; **Freefield** island cage prep; foundry crash (Episode 20 part 1).
+The crew leaves Decibella and puts in at [[Freefield]] for repairs and supplies (Episode 20 part 1).
 
 ## Beats
 
-1. **Departure** — flag prep with [[Shako]]; metal cage for saber-tooth.
-2. **Noble cover** — pose as Lunar house; ~1M berry negotiation with mayor/craftsman.
-3. **Foundry** — crash — combat continues in Part 2.
+1. **Departure** — the crew raises its own flag and leaves a spare with [[Riff Sin]].
+2. **Freefield** — repairs and cage materials; the crew poses as nobles of a forgotten Lunar house.
+3. **The offer** — [[Bramble]] quotes the repair price; Mayor [[Rashid al-Saffar]] offers to pay if the crew guards his plantation.
+4. **The truth** — captives reveal Rashid is a slave trader; the crew meets [[Khael Dhamar]]'s raiders and the fighting starts.
 
 ## Evidence
 

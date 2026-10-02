@@ -8,7 +8,7 @@ publish: false
 
 A cross-session ledger of unresolved plot threads. Each session note keeps its own `## Open threads` section; this note rolls them up. Update it after every session grill.
 
-Last updated: after the [[Session 019 — The Walking Dead|Session 19]] grill (2026-10-02).
+Last updated: after the [[Session 020 — Price of Freedom Part 1|Session 20]] grill (2026-10-02).
 
 ## Live
 
@@ -76,6 +76,8 @@ Last updated: after the [[Session 019 — The Walking Dead|Session 19]] grill (2
 | **Sephra escaped**: the trail Roma and Bob followed ended at open sea | [[Session 019 — The Walking Dead\|S19]] | [[Session 019 — The Walking Dead\|S19]] | Loose |
 | **Facade's creator**: Facade cannot recall the name of whoever mended him after the blowup; Bob does not recognise it | [[Session 019 — The Walking Dead\|S19]] | [[Session 019 — The Walking Dead\|S19]] | Unrevealed |
 | **Bell fragments**: Baptiste and [[Kalla of Shandia\|Kalla]] each hold a piece of a broken bell (reroll one failed save per long rest). Held together they resonate with the rings, which stay on | [[Session 018 — Gentle Giant Pirates\|S18]] | [[Session 018 — Gentle Giant Pirates\|S18]] | Unrevealed: where the bell came from and what it does with the rings |
+| **Sand Rats**: [[Khael Dhamar]]'s network frees slaves smuggled out of Alabasta, raiding the chili plantations on [[Freefield]]. He took Rashid's captives away; his lost wife and daughter are his driving hook | [[Session 020 — Price of Freedom Part 1\|S20]] | [[Session 020 — Price of Freedom Part 2\|S20]] | Ongoing — see [[Sand Rats]] |
+| **Sharkfin Pirates scattered**: Captain [[Joe -Mitchblade- Mitch\|Joe Mitch]] and the teleporter dead, a pistol user knocked out, [[Eric]] let go | [[Session 020 — Price of Freedom Part 2\|S20]] | [[Session 020 — Price of Freedom Part 2\|S20]] | Loose |
 
 ## Needs checking
 
@@ -114,4 +116,5 @@ None at the moment.
 | Baptiste's Aegir takeover at the tower: Baptiste won in the inner dominion, Aegir contained in the rings | [[Session 016 — Broken Promises\|S16]] | [[Session 017 — Agony of Choas\|S17]] |
 | Who the 'Brave Heart' helpers are: the Gentle Giant Pirates (Fenris) plus Malak on loan from Mira | [[Session 016 — Broken Promises\|S16]] | [[Session 017 — Agony of Choas\|S17]] |
 | Bob's fuel core | [[Session 011 — Welcome to the Jungle\|S11]] | [[Session 016 — Broken Promises\|S16]] (Bob died and returned as a Necrotic Savant, treated as a resurrection) |
+| Freefield repairs: [[Rashid al-Saffar]] offered to pay [[Bramble]]'s quote for guarding his plantation; he was killed, and the loot from his house paid for the repairs | [[Session 020 — Price of Freedom Part 1\|S20]] | [[Session 020 — Price of Freedom Part 2\|S20]] |
 | Davy Back Fight for Dravos: the crew won 3-0 (Bob over Shako, Roma over [[Malak Samum]], the Battle of Beasts, Baptiste over Fenris) | [[Session 018 — Gentle Giant Pirates\|S18]] | [[Session 019 — The Walking Dead\|S19]] |
