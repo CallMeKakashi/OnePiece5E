@@ -109,6 +109,10 @@ foundry_live_slug: "b-o-b-old"
 
 - Checks on the sabre-toothed tiger after its surgery. Waits with Roma and smokes on the crew's ship, takes Jack's bullet on his armour when Jack fires at Linus, and hears Mira's call. Out of his armour at night, helps Malphas haul the drowning Roma out of the sea. Tells Cade he feels useless in the quiet after the night ([[Session 024 — The Friendly Baron|Episode 24]], [[Session 024.5 — Interstitial RP|24.5]]).
 
+## Episode 25
+
+- Resuscitates Roma at the mansion. In the fleet fight he coats his halberd in dark blood (dim light becomes darkness), cuts down a Marine, goes down to Leon's flame slashes, and is revived with the green vial. His saber-tooth dies; he keeps the whistles ([[Session 025 — Fire Storm|Episode 25]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

@@ -85,6 +85,10 @@ After the ravine collapse, the rescued crew recover for nearly three weeks at hi
 - Leads **Zim** rescue (confirmed S22: with Roma); sea-king bait (unverified); serum intel ([[Episode 22 - The Missing Piece]]–[[Episode 23 - Choice for life]]).
 - Identifies **Nikolai/Anton** mist at Fire Storm; [[Malphas]] abducted (unverified: Ep 25 is not yet grilled) ([[Episode 25 - Fire Storm]]).
 
+## Episode 25
+
+- Identifies the vials (green heals, white reverts, blue speed, red frenzy, black unknown) and extends Dravos's pipe range. Enters the warship through the pipe and is knocked out by an unknown wolf-beast; Dravos pulls him to safety. Heals the crew afterwards, then recognises Nikolai ("Anton") as the voice behind the drone ([[Session 025 — Fire Storm|Episode 25]]).
+
 ## Related
 
 - [[Dr Nikolai Tesla]]

@@ -348,6 +348,10 @@ traits:
 
 - Turns the ship toward the channel and waits, then follows Goru's ship through the dark with lanterns lowered. Stays aboard as the crew's helmsman while the party goes ashore. In 24.5 Bob confides in him below deck ([[Session 024 — The Friendly Baron|Episode 24]], [[Session 024.5 — Interstitial RP|24.5]]).
 
+## Episode 25
+
+- Answers Malphas's radio, turns the ship toward the fight and keeps the ship out of it. One of two people (with Malphas) who resist Alice's Conqueror's Haki ([[Session 025 — Fire Storm|Episode 25]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

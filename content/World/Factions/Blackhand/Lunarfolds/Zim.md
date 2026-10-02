@@ -81,6 +81,10 @@ After several others failed, she infiltrated [[Capone Family]]-occupied territor
 
 - Overhears Goru and Baptiste in the next room and is exposed as the criminal Goru is travelling to oversee. Goru takes her side to Cassian, who refuses her case, and she goes back to the crew's ship; Goru tells her "try not to die" and she storms off, objecting to the way he addresses her. In 24.5 she asks Roma about growing up on Zou ([[Session 024 — The Friendly Baron|Episode 24]], [[Session 024.5 — Interstitial RP|24.5]]).
 
+## Episode 25
+
+- Stays below deck and helps Tigor steer. Reluctantly takes the wolf Luca (Lou) from Roma to mind during the fight. Knocked out by Alice's Haki with the rest ([[Session 025 — Fire Storm|Episode 25]]).
+
 ## Open Questions
 
 - Who is her Marine correspondent in Loguetown, and where is the device?

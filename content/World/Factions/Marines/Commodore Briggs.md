@@ -39,6 +39,10 @@ Marine **Commodore** in command of the **G-45** unit, the Marine base at [[Spiri
 
 - Calls Voss's den den mushi in an altered voice, demands the crew hand over Voss and vows to collect his corpse. His aide reports they have reached Decibella, where the new king is waiting. Baptiste refuses and threatens him, and Briggs sends the Lex Imperia warships after the crew ([[Session 023 — Choice for life|Episode 23]]).
 
+## Episode 25
+
+- Takes Baptiste's den den mushi call in a distorted voice and warns that anything done to Voss will be returned tenfold. Baptiste answers that the Marines struck first and he will return Voss; the line stays open on static ([[Session 025 — Fire Storm|Episode 25]]).
+
 ## Related
 
 - [[Marines]] · [[Mugen Industries]] · [[Dr Nikolai Tesla]]

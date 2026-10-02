@@ -40,6 +40,10 @@ Nikolai fled or departed Germa when the kingdom fell, carrying the memory of a *
 - **Fire Storm** — Mist form abducts [[Alice]] and [[Malphas]]; [[Calder Voss]] escapes ([[Episode 25 - Fire Storm]]).
 - **Callisto** — Research facility destroyed; survivors blame Blackhand; Mugen / Briggs spin ([[Timeline/1478/1478-12moon [Newspaper] Grand Line Tribune — Morning]]).
 
+## Episode 25
+
+- Linus identifies the drone's voice as Nikolai, his old teacher, calling himself "Anton" and now controlling mist. A drone and mist take [[Alice]], [[Malphas]] and [[Calder Voss]] off the crew's ship. Droven says the same mist took the old man and his captain; Linus knows where Nikolai's house is (north of East Blue) ([[Session 025 — Fire Storm|Episode 25]]).
+
 ## Related
 
 - [[Mugen Industries]] · [[Hallow]] · [[RyeNera]]

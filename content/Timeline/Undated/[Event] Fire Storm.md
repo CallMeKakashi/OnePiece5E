@@ -16,13 +16,16 @@ related_events:
 
 # Fire Storm
 
-Escort fleet battle: **Commander Leon** (Flame Logia); Lunarian **Alice** burns ships; Nikolai/Anton abduct Alice + Malphas (Episode 25).
+Escort fleet battle: **Commander Leon** (Flame Logia); Lunarian **Alice** burns ships and ends the fight with Conqueror's Haki; Nikolai/Anton's mist takes Alice, Malphas and Voss (Episode 25).
 
 ## Beats
 
-1. **Fleet fight** — Commander Leon (Flame Logia); Alice burns escort ships.
-2. **Abduction** — Nikolai/Anton mist takes Alice + [[Malphas]].
-3. **Aftermath** — [[Calder Voss]] escapes; **Droven** fate unresolved.
+1. **Morning after** — Aegir speaks through the rings; the Marines' distress call loops; Baptiste calls the Commodore about Voss.
+2. **Fleet fight** — the crew boards the middle warship through Dravos's pipe; Commander Leon ignites as a Flame Logia and the saber-tooth dies.
+3. **Rescue of Droven (off-session)** — [[Linus Marrow]] and [[Dravos]] reach the flooding lower deck, an unknown chained wolf-beast ("RED… ON…") knocks Linus out, and [[Droven Calligos]] frees himself and hurls it into the water.
+4. **Alice's burst** — Alice (Malphas's sister) knocks out the whole ship; the Marines carry Leon away.
+5. **Aftermath** — Linus heals the crew; Droven punches Baptiste.
+6. **Abduction** — Nikolai/Anton's drone and mist take Alice, [[Malphas]] and [[Calder Voss]] (the hull section next to Voss's cell is torn away).
 
 ## Evidence
 

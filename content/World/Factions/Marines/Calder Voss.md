@@ -72,6 +72,10 @@ Founding member of the [[Motley Crew]], now serving in the [[Marines]].
 - Captured Ep 22 (confirmed in S22: stripped, papers taken, burned with candle wax by [[Baptiste]]; "branded" (unverified: not from a grilled session)) ([[Episode 22 - The Missing Piece]]–[[Episode 23 - Choice for life]]).
 - **Escapes** during [[Episode 25 - Fire Storm]] mist attack. (unverified: not from a grilled session).
 
+## Episode 25
+
+- Baptiste threatens the Commodore over the den den mushi about Voss. During the mist raid the hull section by his cell is torn away and Voss is taken ([[Session 025 — Fire Storm|Episode 25]]).
+
 ## Related
 
 - [[Motley Crew]]
