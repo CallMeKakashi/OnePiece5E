@@ -14,6 +14,10 @@ foundry_live_slug: "whisky"
 ## Role
 
 Oldest daughter.
+## Episode 26
+
+- The older sister. Overhears Baptiste invite Gin to train and says he is busy with his own little crew of pirates, exposing Gin's secret ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

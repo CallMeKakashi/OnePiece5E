@@ -352,6 +352,10 @@ traits:
 
 - Answers Malphas's radio, turns the ship toward the fight and keeps the ship out of it. One of two people (with Malphas) who resist Alice's Conqueror's Haki ([[Session 025 — Fire Storm|Episode 25]]).
 
+## Episode 26
+
+- Steers the crew's ship through the waterfall cave, then takes Mira's ship as helm at Baptiste's introduction. Fights Mira with Jack in the training ring (vampire claws scratch her) and goes down to her palm ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

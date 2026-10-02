@@ -43,6 +43,10 @@ Tray is one of [[Mira the Unbreakable]]'s closest allies. He was part of the gro
 Tray was also present during the raid on the Germa facility where [[Baptiste]] was rescued, fighting alongside [[Blackhand Cane]], [[Renzo]], [[Morley]], and others.
 
 As a boy, Tray was freed from a raider ship by Mira along with his cousin Shu and the baby Ju Lee, becoming part of her first crew — see [[[Backstory] Mira — Journey Part 2]].
+## Episode 26
+
+- Inside Crunch's mouth, covered in slime, when the crew sails into the waterfall cave; Baptiste's old friend. Hides behind Jack when Mira arrives. His fruit (the heal-anything fist) heals the party between Mira's beatings. Pulls Julie's hand off Roma and is kicked across the room for it ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

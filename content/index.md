@@ -178,6 +178,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Facade]]
 - [[Homunculus Servant]]
 - [[Ju Lee Caneheart]]
+- [[Julie]]
 - [[Malak Samum]]
 - [[Thompson Caneheart]]
 

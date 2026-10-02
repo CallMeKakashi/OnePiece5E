@@ -31,4 +31,5 @@ Broadcast/recording units. Session numbers may not match episode numbers — ali
 - [[Episode 23 - Choice for life]]
 - [[Episode 24 - The Friendly Baron]]
 - [[Episode 25 - Fire Storm]]
+- [[Episode 26 - Daliance of Hearts]]
 - [[Transcripts]]

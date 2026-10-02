@@ -28,6 +28,10 @@ Vice captain. Related: [[Tray]], [[Ju Lee Caneheart]], [[Blackhand Cane]] family
 
 - Calls Baptiste on the den den mushi: Mira is furious, someone on the Guissepi side tried to kill Lorenzo Capone and ruined her weeks of work, and the crews cannot reach one another. Begs Baptiste to come as fast as he can. Mira is heard ordering Thompson into the ring ([[Session 024.5 — Interstitial RP|24.5]]).
 
+## Episode 26
+
+- Greets Roma and Bob ("call me Tom"), warns them about Julie, and tells Jack he does not trust the Royal Flush Gang. He called the crew in and briefs them on the feud (Lorenzo Capone's coma). Stays on the ship with Julie when the party goes to train ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

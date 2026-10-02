@@ -14,6 +14,10 @@ foundry_live_slug: "vodka"
 ## Role
 
 Youngest daughter. Devil Fruit: [[Kamo Kamo no Mi]].
+## Episode 26
+
+- The silent woman who appears beside Baptiste at the table. Rum sends her to join the training in case Mira needs anything; she watches from a pillar and passes out in the Haki test ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

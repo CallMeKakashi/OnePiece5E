@@ -228,6 +228,10 @@ Under [[Blackhand Cane]], Baptiste goes undercover for four years as **Haruki**,
 
 - Aegir speaks in the rings ("I have recovered enough") and Linus says the rings are worsening. Baptiste threatens the Commodore over the den den mushi about Voss, boards Leon's warship first, and drinks the black vial mid-fight (Large, wings back, Con 20, temporary). Droven punches him afterwards and wants nothing to do with him. Nikolai's mist takes Voss from his cabin hold ([[Session 025 — Fire Storm|Episode 25]]).
 
+## Episode 26
+
+- Splits from Linus and Zim, reunites with Tray, and is hugged by Mira. Asks Mira and Rum about Bramble. Meets the Giuseppes with Jack. Loses to Mira first (unconscious by round two) and is the only one left standing after her Haki test; she says he may have potential in Conqueror's ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

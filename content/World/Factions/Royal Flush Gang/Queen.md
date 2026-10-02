@@ -23,6 +23,10 @@ Financier and spy of the [[Royal Flush Gang]]. Led talks with [[Arno Capone]] an
 - **Royal Flush Casino** — At the family heads' poker-table meeting; greeted [[Graff Bolt]] warmly ([[Timeline/Undated/[Event] The Royal Flush Casino Meeting]]).
 - **Time skip** — Returned to the Juniper Islands with [[King]] when the Capones invaded ([[Timeline/Undated/[Event] Capone Invasion — Time Skip]]).
 
+## Episode 26
+
+- Tells Jack she asked Mira to take him in. Hears his report about Linus and says they have no time to chase him and don't want the Giuseppes' eyes on them. Leaves by sub ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Related
 
 - [[Royal Flush Gang]] · [[King]] · [[The Ace]] · [[The Joker]] · [[Matthew -The Jack- Burgess]]
