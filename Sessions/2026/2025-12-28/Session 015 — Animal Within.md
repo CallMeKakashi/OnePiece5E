@@ -8,7 +8,8 @@ episode: [
 ]
 sources: [
    "[[Episode 15 - Animal Within]]",
-   "[[Session 014 — The Decibel Decree]]"
+   "[[Session 014 — The Decibel Decree]]",
+   "[[Session 016 — Broken Promises]]"
 ]
 aliases:
   - 2025-12-28 — Animal Within
@@ -17,10 +18,10 @@ aliases:
 
 ## TL;DR
 
-- The Soundless Five’s tower trials shift into brutal 1v1s (and 2v1s), showcasing Wildsaid/transform and dial-tech threats.
-- Cade and Riff fight **Synth**; Baptiste fights **Bass**; Malphas fights **Rhythm** — multiple PCs go down.
-- Mysterious PVC-pipe healers intervene mid-arc, preventing outright deaths and escalating the “what is really happening in this tower?” question.
-- Roma and B.O.B’s next fights are teased as the session cliffhangs into the next phase.
+- In the tower trials, [[Cade Tigor Cooper|Cade]] and [[Riff Sin]] beat his cousin [[Synth]], who injects a "6/6" serum and turns into a feral llama-beast; [[Dravos]] arrives through PVC pipes and heals Cade, and Synth is finally shot dead.
+- [[Malphas]] fights [[Bass Tremor]] (armored hammer-and-shield leader of [[Tremor]]) and is hammered down.
+- [[Baptiste]] fights [[Coda]], the new leader of the [[Soundless 5]], who imitates techniques he has personally seen (Horus's void, Blackhand's black blade), takes about 84 damage, and stabs Baptiste through the heart.
+- Both fights end unresolved; the rescues are deferred to the next session. [[Roma]] and [[B.O.B]]'s fights are teased.
 
 ## Cast
 
@@ -30,31 +31,54 @@ aliases:
 - [[Riff Sin]]
 - [[Baptiste]]
 - [[Malphas]]
-- [[Roma]]
-- [[B.O.B]]
+- [[Roma]] and [[B.O.B]] (present; their fights are not played)
 
-### Antagonists (Soundless Five)
+### Opponents and allies
 
-- Bass
-- Rhythm
-- Synth
-TODO: confirm whether Treble/Coda appear on-screen this session or remain off-stage.
+- [[Synth]] ([[Soundless 5]], Riff's cousin): killed
+- [[Bass Tremor]] ([[Tremor]]): fights Malphas
+- [[Coda]] ([[Soundless 5]] leader): fights Baptiste
+- [[Dravos]]: heals and aids Cade
+- Not seen: Rhythm and Treble (the prep's pairings were wrong)
 
 ## Where/When
 
 - **Location**: [[Decibella Kingdom]] — inside the broadcast tower trial floors (Soundless Five gauntlet).
-- **In-world date**: TODO: if a specific Decibella calendar date exists in `Timeline/`, link it here; otherwise keep it relative to arrival in [[Session 014 — The Decibel Decree]].
+- **In-world date**: immediately after [[Session 014 — The Decibel Decree]] (same day, tower trials).
 
 ## Actual play outcomes
 
-> Curated prep/recap exists below. Transcript: [[Episode 15 - Animal Within]].
+> What happened comes from the transcript ([[Episode 15 - Animal Within]]), grilled with the DM on 2026-10-02. The prep below is not canon. The tower trials are 1v1 fights, with the PCs in separate rooms.
 
-- **Tower fights advanced**:
-  - [[Cade Tigor Cooper]] + [[Riff Sin]] vs Synth (Wildsaid llama transform per extracted summary).
-  - [[Baptiste]] vs Bass.
-  - [[Malphas]] vs Rhythm.
-- **Downed PCs + intervention**: Baptiste and Malphas go down; “PVC-pipe healers” intervene (mysterious faction/tech).
-- **Next beats queued**: Roma/B.O.B fights teased as upcoming.
+### Cade and Riff vs Synth
+
+1. Synth fights from a ring of floating metal rods: Cloud of Daggers, Shatter, and cage-like rods that close the exit. Cade wild-shapes in a mask and claws him; Riff's guitar and rubber shotgun add heat metal, Thunderwave and bardic inspiration. Synth wears earbuds against Riff's sound.
+2. Riff knocks Synth out with a rubber shot to the face, takes the key from his neck and spares him, since he is family. Cade stands over him.
+3. Within minutes Synth wakes and stabs himself in the neck with a vial marked "6/6" that forms an infinity symbol. He decays into a feral, llama-shaped Wildsaid beast with glowing yellow eyes and green liquid on his face. This is a serum similar to the chimera serum from earlier.
+4. The beast fills the arena with a lightning field between the rods (Hunger of Hadar-style damage). Riff and Cade both go down.
+5. [[Dravos]] arrives through a PVC pipe (his Toneru Toneru no Mi), pulls Cade out, and heals him with a vial in the neck. He says "the captain said you're supposed to help". Dravos holds the beast with PVC bindings, then waves Cade and Riff on with a thumbs-up.
+6. Riff's rubber shot tears Synth apart (his skin breaks down), and he reverts to a wrinkled corpse in Cade's arms. Cade lays him down and closes his eyes. Riff had already climbed the ladder with the key and does not see the body.
+
+### Malphas vs Bass
+
+1. A room of stone statues in armor. [[Bass Tremor]], in heavy armor with a hammer and shield, asks "are you the one who killed my brother?" His brother is [[Baron Woofer]]. Malphas says Baptiste did. Bass bears no ill will toward someone doing his duty and fights anyway as leader of House Tremor.
+2. Malphas lands a hit that pierces the shield; Bass drops the shield and sprints with sonic acceleration, using Shatter (upcast), Magic Weapon, Shield of Faith and divine smite. Malphas's lightning disrupts the armor's red glow for a round. His thunder clouds and booming blade are not enough.
+3. Bass slams him with the hammer and smite; Malphas is knocked out (about 44 damage short of death). The fight stops there.
+
+### Baptiste vs Coda
+
+1. [[Coda]], the leader of the [[Soundless 5]], says the role was passed on to him. He shows Unity War footage (chunks of the battlefield erased) and says the Emperor's power given to him is mimicry. He fires a void-erase attack from a ring of his fingers that deletes a circle of the back wall. This is [[Horus]]'s technique (Devour Devour Fruit); Coda copies only what he has personally seen.
+2. Baptiste opens with God's Speed and a punch. Coda opens the shutters on the old bells ("every rebellion started with destroying the bell… we erased their memories") and casts Hideous Laughter. He pulls a rapier from a pocket-space, then a black-covered blade, the Blackhand technique, which misses and cuts half the tower so it starts to collapse.
+3. Coda goes invisible, voices him off the ledge (Baptiste resists), and punches a hole through Baptiste's liver with a Phantasmal-Killer-style attack. Baptiste hastes himself and, with an inspiration die, converges all his spectral arms into one fist; about 84 damage total throws Coda into the back wall. The "Conqueror's Haki" is flavor only here; Armament adds +3.
+4. The fight pauses while the table runs the others. When it resumes, Coda is still up; as Baptiste, with a hole in his body, reaches for the key, Coda grabs his wrist and stabs him through the heart with a dagger. He raises a second dagger at his head as the session ends.
+
+### Rescues deferred
+
+Cade and Riff's fight ends with Dravos's help. The Malphas and Baptiste rescues are deferred and were redone next session; they are not canon in S15. Roma and B.O.B's fights are teased for next session.
+
+### Table notes (not canon)
+
+The session ends with a long argument about the promised mid-combat level-up, the 1v1 format and the NPC rules. The DM offered a flashback-style restoration for future boss fights. A hypothetical serum-animal roll (stag for Baptiste, chicken or hedgehog for Malphas) was discussed but not played. The Roma and B.O.B fights follow next session, and a tournament arc is foreshadowed.
 ## Links
 
 | Kind | Note |
@@ -62,7 +86,29 @@ TODO: confirm whether Treble/Coda appear on-screen this session or remain off-st
 | Transcript | [[Episode 15 - Animal Within]] |
 | Timeline | [[Timeline/Undated/[Event] Animal Within]] |
 | Prior | [[Session 014 — The Decibel Decree]] |
+| Next | [[Session 016 — Broken Promises]] |
 | Raw | `Transcripts/2025-12-28/Episode 15 - Animal Within.txt` |
+
+## Open threads
+
+- **Coda's mimicry**: copies only techniques he has personally seen (Horus's void, Blackhand's black blade, the Emperor's gift). Fruit unconfirmed (prep guessed Mimo Mimo no Mi). Did he witness the Unity War? Imitations can fail (the black blade missed). See [[Coda]].
+- **The "6/6" serum**: Synth's infinity-symbol vial, similar to the earlier chimera serum. Update ([[Session 016 — Broken Promises|S16]]): the Soundless Five are tied to Mugen Industries, which owned Callisto. See [[Synth]].
+- **Dravos and "the captain"**: Dravos says "the captain said you're supposed to help". Resolved ([[Session 016 — Broken Promises|S16]]): Blackhand hired him, and he now works with Fenris, a Blackhand fleet captain with his own unit. See [[Dravos]].
+- **The bells**: the Emperor's side erased the rebels' memories after destroying their bells. Coda displays the rusted bells.
+- **Unity War footage**: Horus's void power and Blackhand's black blade seen in the Emperor's records. Ties to the open Marine-version thread.
+- **Bass's grudge**: his brother [[Baron Woofer]] was killed by Baptiste; Bass fights Malphas out of duty. Resolved ([[Session 016 — Broken Promises|S16]]): Malphas beats Bass.
+- **Malphas and Baptiste downed**: rescues deferred to the next session. Resolved ([[Session 016 — Broken Promises|S16]]): Malphas wins his fight; Baptiste beats Coda with his own flames after refusing Aegir's deal.
+- **Roma and B.O.B fights**: teased, not played. Resolved ([[Session 016 — Broken Promises|S16]]): Bob dies to Rhythm and returns as a Necrotic Savant; Roma kills Treble in uncontrolled Sulong.
+
+## Loot & changes
+
+- Cade healed by Dravos's vial (about 20 HP and 11 temp HP).
+- Riff holds the tower key taken from Synth. Synth is dead.
+- Table: no mid-combat level-up granted; the DM considers a flashback-style restoration for future boss fights.
+
+## Prep (before play)
+
+The prep paired Baptiste with Bass and Malphas with Rhythm; play had Malphas vs Bass and Baptiste vs Coda, and Rhythm never appeared.
 
 #### 🦹‍♂️ DM Prep: The Soundless Five (Enemy Profiles)
 
@@ -309,16 +355,3 @@ Reactions (The Core Mechanic):
 
 - He relies on seeing the target. Blindness or Darkness shuts down his ability to learn new moves (though he keeps his Pre-loaded ones).
 
-## Open threads
-
- - **PVC-pipe healers**: who/what are they (tech, faction, medical staff), and what do they want from the party?
- - **Tower rules**: what are the explicit win/lose conditions for each floor, and what happens to combatants who “fail”?
- - **Soundless Five roster**: confirm which of Bass/Rhythm/Synth/Treble/Coda actually appear during this session’s fights.
-
-## Loot & changes
-
-TODO: record any mechanical changes from the tower fights (injuries, conditions, captured items, dial-tech, rewards for wins).
-
-## Prep (before play)
-
-(Prep section already exists above.) TODO: if there was specific prep separate from the stat blocks/tactics, add a short bullet list here.

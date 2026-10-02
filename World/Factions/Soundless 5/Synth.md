@@ -20,7 +20,13 @@ One of the [[Soundless 5]], the enforcers of silence in [[Decibella Kingdom]].
 
 ## Backstory
 
-Riff Sin's cousin. Was named one of the Soundless Five in the Emperor's Hall ceremony when both were young. Dueled Riff on floor 1 during the tower trials; achieved a Wildsaid transform ([[Episode 15 - Animal Within]]).
+Riff Sin's cousin. Was named one of the Soundless Five in the Emperor's Hall ceremony when both were young. Dueled Riff and Cade on the first tower floor.
+
+## Episode 15
+
+- Fights [[Riff Sin]] and [[Cade Tigor Cooper|Cade]] from a ring of floating metal rods (Cloud of Daggers, Shatter, a cage of rods, a lightning field). Knocked out by a rubber shot; Riff spares him and takes the key from his neck.
+- Wakes within minutes and stabs himself with a vial marked "6/6" (an infinity symbol). He rots into a llama-shaped feral beast with yellow eyes and green liquid on his face. The serum resembles the earlier chimera serum.
+- Downs both fighters; [[Dravos]] helps Cade. A second rubber shot tears him apart and he dies, reverted to a wrinkled body ([[Session 015 — Animal Within|Episode 15]]).
 ## Live sheet (Foundry)
 
 *Last synced: 2026-06-01 07:19 UTC*

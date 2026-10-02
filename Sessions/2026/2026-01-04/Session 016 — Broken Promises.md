@@ -18,13 +18,85 @@ aliases:
 
 ## TL;DR
 
+- Riff's shotgun forces a House Anthem healer ([[Lady Soefra Anthem]]) to heal the whole crew; she and her mute twin ([[Sephra Anthem]]) escape with the guards. [[Cadence]] goes back to the hideout.
+- The tower trials resolve in four rooms. [[Rhythm Echo]] kills [[B.O.B]] and [[Facade]] kills Rhythm. [[Treble]] injects [[Roma]], who goes berserk and kills her. [[Malphas]] unlocks his second Thunderbird form and beats [[Bass Tremor]]. [[Baptiste]] refuses [[Aegir]]'s deal and beats [[Coda]] with his own flames.
+- Roma's uncontrolled Sulong then attacks Baptiste, who knocks him out in two rounds. Bob is revived as a Necrotic Savant (Ardent Soul, Necrotic Mania).
+- [[Riff Sin]] opens the control-room gate with the five keys and tries to pull a cable. The Emperor ([[Rias Decibel|Rias]]) wakes and says "Hold". A third ring fuses onto Baptiste's hand and the session ends on the cliffhanger.
+
 ## Cast
+
+### PCs
+
+- [[Baptiste]], [[Malphas]], [[Roma]], [[B.O.B]], [[Cade Tigor Cooper|Cade]] (stays with Riff on floor 1)
+
+### Allies and NPCs
+
+- [[Riff Sin]], [[Cadence]], [[Dravos]] (the Mole), [[Facade]], [[Malak Samum]] ("Malik", [[Braveheart Pirates]], sent by [[Mira the Unbreakable|Mira]])
+
+### Opponents
+
+- [[Soundless 5]]: [[Rhythm Echo]], [[Treble]], [[Bass Tremor]], [[Coda]]
+- [[Lady Soefra Anthem]] and [[Sephra Anthem]] (opening scene only)
+- The Emperor ([[Rias Decibel|Rias]])
 
 ## Where/When
 
+- **Location**: [[Decibella Kingdom]], the broadcast tower: the trial floors, then the control room.
+- **In-world date**: continues straight on from [[Session 015 — Animal Within]].
+
 ## Actual play outcomes
 
-> Curated prep/recap exists below. Transcript: [[Episode 16 - Broken Promises]].
+> What happened comes from the transcript ([[Episode 16 - Broken Promises]]), grilled with the DM on 2026-10-02. The prep below is not canon.
+
+### Opening: the healer
+
+1. The crew bargains with [[Lady Soefra Anthem]] for healing. Riff puts his shotgun to her head and she heals everyone with a high note (a full recovery). Her twin [[Sephra Anthem]] cannot speak (Riff crushed her throat). The guards back down at her word.
+2. The twins escape and the guards follow them; Tigor fails to grapple one. Riff lets them go, sends [[Cadence]] to the hideout and joins the crew.
+3. Baptiste takes a call on a den den mushi near the tower gate and pockets it. The content is not in the transcript.
+4. Riff takes the first floor; Cade stays behind to help him. The rest climb. Roma and Malphas prepare spells.
+
+### Floor 2: B.O.B vs Rhythm
+
+1. [[Rhythm Echo]] shifts the room's axis around one target (gravity flips, walls become floors) and uses sonic hammer blades, Shatter and a humming that slows thought. B.O.B's chromatic orbs (acid, poison) barely register; levitate flips the room on him.
+2. B.O.B swaps in a spare core and reaches level 5, but Rhythm injects himself with a 6/6 serum and becomes a hybrid beast. B.O.B fails three death saves.
+3. [[Facade]] arrives with a spider homunculus welded to B.O.B's core to stabilise him, and kills Rhythm. Repair will take 8 to 10 hours, so Facade carries B.O.B to the ship. The floor key goes to the crew.
+4. Bob later returns as a Necrotic Savant ([[Sourcebook/Chapter 2 Classes/Ardent Soul/Ardent Soul|Ardent Soul]] with the [[Sourcebook/Chapter 2 Classes/Ardent Soul/Necrotic Mania|Necrotic Mania]] subclass), treated as a resurrection.
+
+### Floor 3: Roma vs Treble
+
+1. An indoor jungle hung with mutilated bodies of transformed humans (Roma thought they were minks). [[Treble]] snipes from the dark, wears resonating neck-medals and hides at will.
+2. Roma rages with his frying pan and chases her; she injects him with a serum. He falls into a dream of Chiru and his Sulong is triggered. Roma cannot control it.
+3. Beast Roma kills Treble, tearing her in half, and puts her key in his hat.
+
+### Floor 4: Malphas vs Bass
+
+1. Malphas levels to 5 and unlocks his second Thunderbird form (feathers, wings, lightning). He beats [[Bass Tremor]], who turns into a rhino hybrid after a 6/6 serum.
+2. Malphas collapses from exhaustion afterward.
+
+### Floor 5: Baptiste vs Coda
+
+1. [[Coda]] stabs Baptiste with a dagger. [[Aegir]]'s voice offers help in exchange for being taken to his vessel; Baptiste refuses.
+2. Baptiste's flames fuse into his void arms on their own. He levels up (Mote of Hell replaces Fireball) and hastes himself.
+3. Coda injects 6/6 and becomes a hyena hybrid, and mimics Blackhand's black blade (it passes through Baptiste because Coda doesn't know Haki). Baptiste pummels him, then kills him with a head slam, Coda sighing in relief.
+
+### Roma vs Baptiste
+
+On the third floor, beast Roma attacks Baptiste, who hastes and knocks him out in two rounds. Malphas arrives a few minutes later to find Baptiste carrying Roma. Roma wakes at the top with no memory.
+
+### Dravos and Malik
+
+1. [[Dravos]] (the Mole) makes PVC pipes to reach the floors. He introduces himself to Roma and shifts the weight of Roma's skillet with his devil fruit. Blackhand hired him, and he now works with Fenris, a Blackhand captain with his own unit.
+2. [[Malak Samum]] ("Malik") of the [[Braveheart Pirates]] warns the crew about "Rias", a pirate the Brave Hearts wanted. He leaves a transponder and says the crew's ship is safe on the shore.
+
+### The Emperor
+
+1. Riff opens the gate with the five keys. In the control room, a half-bodied man hangs in cables with a black orb in his chest. The Blackhand pirates all knew a bounty on him.
+2. Riff tries to pull a cable and the Emperor wakes and says "Hold". The Voice Voice Fruit freezes the crew, and the crew make wisdom saves while he asks who they work for. Roma answers "Lunarfold till we die".
+3. Baptiste's void-sight sees a ring inside the orb. The Emperor orders him to come, and Baptiste walks over. Aegir's voice offers to take the ring, and Baptiste's hand starts pulling the core out. The crew's strength checks fail and the third ring fuses onto Baptiste's hand. The session ends there.
+
+### Table notes (not canon)
+
+Foundry caused many token and music problems, and the DM ran the fights in separate voice channels. The party is level 5 after this session.
 
 ## Links
 
@@ -35,6 +107,29 @@ aliases:
 | Prior | [[Session 015 — Animal Within]] |
 | Prep (tower) | [[2026-05-24 — Howling Thunder (DM prep)]] |
 | Raw | `Transcripts/2026-01-04/Episode 16 - Broken Promises.txt` |
+| Next | [[Session 017 — Agony of Choas]] |
+
+## Open threads
+
+- **The Emperor is awake**: Rias woke when Riff pulled a cable, and the broadcast never ran. Unresolved cliffhanger. See [[Rias Decibel]], [[Voice Voice Fruit]].
+- **Rings of Aegir**: a third ring is on Baptiste. Where are the other two?
+- **Baptiste's den den mushi call**: content unrevealed.
+- **Anthem twins**: alive and loose with the guards (the S14 note said they died; corrected).
+- **Brave Heart contact**: Malak's transponder and Mira's warning about Rias.
+- **Roma's Sulong**: triggered by Treble's serum and uncontrolled.
+- **Mugen Industries**: the Soundless Five's 6/6 serum links them to Mugen, which owned Callisto.
+- **Fenris and Dravos**: Dravos works with Fenris; "the captain" of S15.
+- **Resolved**: the crew's ship on Decibella (safe on the shore, per Malak).
+
+## Loot & changes
+
+- Party level 5. Baptiste swaps Fireball for Mote of Hell; Malphas unlocks Thunderbird form 2; Bob is replaced by a Necrotic Savant ([[Sourcebook/Chapter 2 Classes/Ardent Soul/Ardent Soul|Ardent Soul]], [[Sourcebook/Chapter 2 Classes/Ardent Soul/Necrotic Mania|Necrotic Mania]]).
+- Baptiste: three rings of Aegir, a Brave Heart transponder, the den den mushi. He still has no wings (lost earlier, at W.G.A.R.).
+- All five tower keys collected; Treble's key came from Roma's hat.
+
+## Prep (before play)
+
+The prep paired Rhythm and Treble with different fighters and ran the tower as a scripted gauntlet. Play followed the floors above.
 
 # BROADCAST TOWER — FIRST FLOOR
 

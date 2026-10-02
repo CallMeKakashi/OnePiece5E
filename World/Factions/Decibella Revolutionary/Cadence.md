@@ -39,6 +39,10 @@ Ran wild with [[Riff Sin]] in the slums of [[Decibella Kingdom]], making music i
 - Went to the Upper City with [[Vera]] to sabotage the backup generator and was captured by [[Lady Soefra Anthem|Soefra]], who tortures her with sound in the Opera House. She had the **Override Disc** embedded in her arm, pried it out, and passed out from the pain; [[Riff Sin]] holds it. Sephra pulls her through a window to take her hostage, but the crew rescues her ([[Session 014 — The Decibel Decree|Episode 14]]).
 - Soefra was jealous of Cadence's singing talent as a child and had her masked earlier than usual; this is why Riff rebels.
 
+## Episode 16
+
+- Sent by [[Riff Sin]] to the hideout to make sure everyone is safe ([[Session 016 — Broken Promises|Episode 16]]).
+
 ![[Cadence - CharacterSheetComplete.pdf]]
 ## Build template (Foundry)
 

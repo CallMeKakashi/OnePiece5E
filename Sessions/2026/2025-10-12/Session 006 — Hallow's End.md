@@ -78,7 +78,7 @@ aliases:
 
 ## Open threads
 
-- **Klabautermann ship**: where did their first ship go, and who was its old crew? Found at W.G.A.R. in [[Session 013 — The Reaper (No DM Audio)|S13]] and sailed to the next island (DM, 2026-10-02). "Klabautermann" is the ghost aboard, not the ship's name; the ship is later named *Haruki's Moon*. Old crew still open.
+- **Klabautermann ship**: where did their first ship go, and who was its old crew? Found at W.G.A.R. in [[Session 013 — The Reaper|S13]] and sailed to the next island (DM, 2026-10-02). "Klabautermann" is the ghost aboard, not the ship's name; the ship is later named *Haruki's Moon*. Old crew still open.
 - **Alice at G-45**: [[Alice]] was held at, or passed through, **G-45**, the Marine base at [[Spirit Cliff]] under [[Commodore Briggs]].
 - **[REDACTED]**: Daniel has to report to someone about the Doctor. Who?
 - **Ring handover**: [[Linus Marrow|Linus]] held Kirro's black ring in [[Session 003 — Cliffside Gambit|S3]]–[[Session 004 — Masquerade of the Stolen Keys|S4]]; by now it is in Veyl's box. He passed it to Veyl off-screen (unrecorded; DM, 2026-10-02).

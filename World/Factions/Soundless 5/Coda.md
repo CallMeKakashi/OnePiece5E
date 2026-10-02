@@ -1,6 +1,6 @@
 ---
 type: actor
-faction: "[[Unknown]]"
+faction: "[[Soundless 5]]"
 status: draft
 publish: true
 foundry_actor_id: "TlGLB1hkQhVMNMWH"
@@ -10,11 +10,22 @@ foundry_live_slug: "coda"
 
 ## Description
 
-*(Lore TBD — distinct from [[Luna Coda]].)*
+Leader of the [[Soundless 5]]; the role "was passed on to him". Distinct from [[Luna Coda]].
+
+## Episode 15
+
+- Fights [[Baptiste]] at the top of the tower. The Emperor gave him the power of mimicry: he imitates techniques he has personally seen. Shows Unity War footage of [[Horus]]'s Devour Devour power erasing the battlefield, and fires a void attack from a ring of his fingers that deletes part of the wall. Pulls a rapier and a black-covered blade from a pocket-space (the Blackhand technique); the black blade misses and cuts half the tower.
+- Opens the rusted bells ("we erased their memories") and casts Hideous Laughter, a command to walk off the ledge, and a hole-punching attack. Mocks the commoners as worms.
+- Takes about 84 damage from Baptiste's fist; later stabs Baptiste through the heart ([[Session 015 — Animal Within|Episode 15]]). The prep guessed Mimo Mimo no Mi; the fruit is not confirmed.
+
+## Episode 16
+
+- Stabs [[Baptiste]] through the heart, then faces his void arms after Baptiste's flames fuse on their own. Injects a 6/6 serum and becomes a hyena hybrid. His mimicked Blackhand black blade passes through Baptiste because Coda does not know Haki.
+- Pummelled, he gives up and looks relieved as Baptiste slams his head into the floor and kills him. ([[Session 016 — Broken Promises|Episode 16]]).
 
 ## Related
 
-- [[Unknown]]
+- [[Soundless 5]]
 - [[Luna Coda]]
 ## Live sheet (Foundry)
 

@@ -15,6 +15,7 @@ Campaign devil fruit registry — image, power, and current owner. Template: [[D
 - [[Uchu Uchu no Mi]] — Baptiste
 - [[Ame Ame no Mi]] — Sora
 - [[Voice Voice Fruit]] — Emperor of Decibella
+- [[Devour Devour Fruit]] — Horus
 - [[Hai Hai no Mi]] — Malak Samum
 - [[Buki Buki no Mi]] — Serica Corven
 - [[Koru Koru no Mi]] — Daniel (Coal-Coal)

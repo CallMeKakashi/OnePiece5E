@@ -36,7 +36,7 @@ aliases:
 
 - [[Giggles D. Cloud]] — captain of the Circle of Clowns (dies)
 - [[Bubbles D. Clown]] — Bessie Jr's handler; the crew call him **Bessie Senior**
-- [[Bessy Jr.|Bessie Jr]] — Giant Crab Sea King
+- [[Bessy Jr|Bessie Jr]] — Giant Crab Sea King
 - Slave-trade contact on the den den mushi (name unknown)
 
 ## Where/When
@@ -62,7 +62,7 @@ aliases:
 | Transcript | [[Episode 12 - Clown Tricks]] |
 | Timeline | [[Timeline/Undated/[Event] Clown Tricks]] |
 | Prior | [[Session 011 — Welcome to the Jungle]] |
-| Next | [[Session 013 — The Reaper (No DM Audio)]] |
+| Next | [[Session 013 — The Reaper]] |
 | Raw | `Transcripts/2025-12-07/Episode 12 - Clown Tricks.txt` |
 
 ## Open threads
@@ -70,8 +70,8 @@ aliases:
 Cross-session ledger: [[Open Threads]].
 
 - **The slave-trade contact**: unnamed, believes the clowns are bringing slaves and the ship to South Blue. What happens when nobody shows, or if the crew goes?
-- **Bessie Jr and Bubbles**: now travelling with the crew. Resolved in [[Session 013 — The Reaper (No DM Audio)|S13]]: [[Graff Bolt]] and [[Melina Celeste]] asked for them, the crew refused and was knocked out, and the pair now wait at the beach.
-- **The Spider's Nest left W.G.A.R.** without the crew: where, and did they report to [[Simon The One Armed Tyrant|Simon]]? ([[Session 013 — The Reaper (No DM Audio)|S13]]: they fought off [[Kyle Bloodfin]] and [[Esper Grimrose]] and left before Graff arrived.)
+- **Bessie Jr and Bubbles**: now travelling with the crew. Resolved in [[Session 013 — The Reaper|S13]]: [[Graff Bolt]] and [[Melina Celeste]] asked for them, the crew refused and was knocked out, and the pair now wait at the beach.
+- **The Spider's Nest left W.G.A.R.** without the crew: where, and did they report to [[Simon The One Armed Tyrant|Simon]]? ([[Session 013 — The Reaper|S13]]: they fought off [[Kyle Bloodfin]] and [[Esper Grimrose]] and left before Graff arrived.)
 - **Clowns' ship and loot**: the den den mushi and ship's fate are not recorded.
 
 ## Loot & changes

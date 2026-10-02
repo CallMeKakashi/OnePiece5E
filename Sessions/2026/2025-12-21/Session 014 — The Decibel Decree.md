@@ -3,13 +3,12 @@ type: session
 date_played: 2025-12-21
 session_order: 14
 sidestory: false
-episode: [
-   "[[Episode 14 - The Decibel Decree]]"
-]
-sources: [
-   "[[Episode 14 - The Decibel Decree]]",
-   "[[Session 013 — The Reaper (No DM Audio)]]"
-]
+episode:
+  - "[[Episode 14 - The Decibel Decree]]"
+sources:
+  - "[[Episode 14 - The Decibel Decree]]"
+  - "[[Session 013 — The Reaper]]"
+  - "[[Session 015 — Animal Within]]"
 aliases:
   - 2025-12-21 — The Decibel Decree
 ---
@@ -28,7 +27,7 @@ On the silent island of [[Decibella Kingdom]], [[Baptiste]]'s first (unconscious
 
 ## Where/When
 
-[[Decibella Kingdom]]: the shattered north gate, the slums, the Discord hideout, the Channel (ventilation shaft), the Gilded District, the Royal Opera House, and the Broadcast Tower (outside). Immediately after [[Session 013 — The Reaper (No DM Audio)|S13]]; the crew sailed from W.G.A.R. along a log pose stolen from a W.G.A.R. merchant and stopped at the island for animals for [[Bugor]]'s reserve.
+[[Decibella Kingdom]]: the shattered north gate, the slums, the Discord hideout, the Channel (ventilation shaft), the Gilded District, the Royal Opera House, and the Broadcast Tower (outside). Immediately after [[Session 013 — The Reaper|S13]]; the crew sailed from W.G.A.R. along a log pose stolen from a W.G.A.R. merchant and stopped at the island for animals for [[Bugor]]'s reserve.
 
 ## Actual play outcomes
 
@@ -41,7 +40,7 @@ On the silent island of [[Decibella Kingdom]], [[Baptiste]]'s first (unconscious
 5. **Baron Woofer.** House Tremor raids the hideout; Woofer and Mezzo troopers drop through the roof. The crew kills Woofer (Baptiste ruptures his speaker armor) and most troopers; Riff and Tigor evacuate the commoners through a tunnel. One trooper is interrogated by Roma (with Riff's water and slaps) and gives up that Cadence is in the Opera House with the lady. The hideout is destroyed.
 6. **The Channel.** A vertical ventilation shaft, climbed on ladders, with a sound-pressure shockwave from the Emperor's hourly recorded announcement (Con save, 2d6 thunder). Baptiste falls on Roma; Bob grapples him. All survive.
 7. **Gilded District.** Gold, marble, cone-collared nobles shouting. A noble taunts Riff ("did your family kick you out?"). Riff passes the crew off as his silent servants. They climb into the Opera House backstage, knock out guards, and open a locked door (Bob's finger lockpick).
-8. **The twins.** Cadence is tied to a brass pipe. [[Lady Soefra Anthem]] attacks with sonic notes (shatter, vertigo, a 15-thunder shockwave, damage to Malphas's ear). She and her twin [[Sephra Anthem]] hit with charm-like song; Baptiste is charmed (her singing brings back a memory of the mermaid, **a secret the party does not know**, see below). Roma is hit down to 2 HP. A hand pulls Cadence through a window; one twin takes her hostage. The party kills Soefra and Sephra, rescues Cadence, and Riff takes the Override Disc Cadence had embedded in her arm (she pried it out and passed out).
+8. **The twins.** Cadence is tied to a brass pipe. [[Lady Soefra Anthem]] attacks with sonic notes (shatter, vertigo, a 15-thunder shockwave, damage to Malphas's ear). She and her twin [[Sephra Anthem]] hit with charm-like song; Baptiste is charmed (her singing brings back a memory of the mermaid, **a secret the party does not know**, see below). Roma is hit down to 2 HP. A hand pulls Cadence through a window; one twin takes her hostage. The party downs the twins, who survive, rescues Cadence, and Riff takes the Override Disc Cadence had embedded in her arm (she pried it out and passed out).
 9. **The tower.** The Emperor's tower lights go red. Coda, in a white coat with a conductor's baton, and the other Soundless Five stand on the balcony and tell the crew to leave. Bob, with Baptiste's nod and everyone's inspiration spent, shoots *Toll the Dead* at the Liberty Bell (500 years old); it falls but two of the five slice it into four pieces. Coda challenges them to a keycard game: five golden keycards, one on each of the Soundless Five, to open the Control Room. The Emperor "is stirring"; if he wakes fully they will bow. The crew takes a long rest (they were effectively invited in).
 
 ### Mermaid (secret, party unaware)
@@ -62,8 +61,32 @@ The Emperor holds the **Voice Voice Fruit** (Special Paramecia), taken by killin
 |------|------|
 | Transcript | [[Episode 14 - The Decibel Decree]] |
 | Timeline | [[Timeline/Undated/[Event] The Decibel Decree]] |
-| Prior | [[Session 013 — The Reaper (No DM Audio)]] |
+| Prior | [[Session 013 — The Reaper]] |
+| Next | [[Session 015 — Animal Within]] |
 | Raw | `Transcripts/2025-12-21/Episode 14 - The Decibel Decree.txt` |
+
+## Open threads
+
+- **Vera (an [[Omen Sisters|Omen sister]])**: purpose on Decibella unknown; resembles Kira from a Baptiste/Kalla side mission; lied about ships to Riff; left after being freed by the crew. See [[Vera]]. Ledger.
+- **[[Mira the Unbreakable|Mira]]**: Baptiste learns to control his Conqueror's Haki by training with her (later session); closes when that session is grilled.
+- **Soundless Five keycards**: five figures, one card each; only Coda named. The rest are filled in at the tower sessions. Update ([[Session 015 — Animal Within|S15]]): Synth, Bass (House Tremor) and Coda fight; Synth is dead. Update ([[Session 016 — Broken Promises|S16]]): Rhythm, Treble, Bass and Coda are dead or beaten, so all five are resolved.
+- **Override Disc**: held by [[Riff Sin]].
+- **The mermaid / Babylon**: Baptiste-only secret; later mermaid mentions (S17, S19, S24.5) unconfirmed until those are grilled.
+- **Emperor stirring**: if he wakes fully, the crew "bows." Voice Voice Fruit. Update ([[Session 016 — Broken Promises|S16]]): he wakes when Riff pulls a cable and says "Hold"; the crew freezes.
+- **Sloan's council** vs Riff: the commoners distrust the crew and House Sin.
+
+Resolved this session: Soefra/Cadence history, the Opera House hostage, Cadence rescued, Woofer dead. (The twins survive and reappear in [[Session 016 — Broken Promises|S16]].)
+
+## Loot & changes
+
+- Four whistles or bells from the Echo spies and troopers; fish-shaped "pump-up" chips.
+- No baton, collars or dial in canon. Malphas's ear damage was temporary.
+- Baptiste: first sign of Conqueror's Haki. Everyone except Baptiste has inspiration and spends it on the bell shot.
+- Level-ups are triggered by the next session's 1v1 fights (Roma goes fighter for Action Surge).
+
+## Prep (before play)
+
+The DM's original session prep is preserved below.
 
 #  The Sound of Silence
 
@@ -574,26 +597,3 @@ Actions:
 Reactions:
 
 - Skirmisher: When a creature ends its turn within 5 feet of the scout, the scout can move up to half its speed. This movement doesn’t provoke opportunity attacks. (Perfect for jumping between Opera House balconies).
-
-## Open threads
-
-- **Vera (an [[Omen Sisters|Omen sister]])**: purpose on Decibella unknown; resembles Kira from a Baptiste/Kalla side mission; lied about ships to Riff; left after being freed by the crew. See [[Vera]]. Ledger.
-- **[[Mira the Unbreakable|Mira]]**: Baptiste learns to control his Conqueror's Haki by training with her (later session); closes when that session is grilled.
-- **Soundless Five keycards**: five figures, one card each; only Coda named. The rest are filled in at the tower sessions.
-- **Override Disc**: held by [[Riff Sin]].
-- **The mermaid / Babylon**: Baptiste-only secret; later mermaid mentions (S17, S19, S24.5) unconfirmed until those are grilled.
-- **Emperor stirring**: if he wakes fully, the crew "bows." Voice Voice Fruit.
-- **Sloan's council** vs Riff: the commoners distrust the crew and House Sin.
-
-Resolved this session: Soefra/Cadence history, the Opera House hostage, Cadence rescued, Woofer dead.
-
-## Loot & changes
-
-- Four whistles or bells from the Echo spies and troopers; fish-shaped "pump-up" chips.
-- No baton, collars or dial in canon. Malphas's ear damage was temporary.
-- Baptiste: first sign of Conqueror's Haki. Everyone except Baptiste has inspiration and spends it on the bell shot.
-- Level-ups are triggered by the next session's 1v1 fights (Roma goes fighter for Action Surge).
-
-## Prep (before play)
-
-(See the prep above, preserved from the DM's original session file.)

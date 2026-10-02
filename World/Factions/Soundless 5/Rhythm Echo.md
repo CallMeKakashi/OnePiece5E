@@ -12,11 +12,15 @@ foundry_live_slug: "rhythm-echo"
 ---
 ## Description
 
-**Rhythm Echo** — No. 3 of the [[Soundless 5]]. Dual-wields daggers; extra attacks on beat (see [[Sessions/Session 15 - Animal Within]]).
+**Rhythm Echo** — No. 3 of the [[Soundless 5]]. Dual-wields daggers per the prep; in play he shifts a room's axis around one target and fights with sonic hammer blades (see [[Session 015 — Animal Within]]).
 
 ## Role
 
 Soundless Five enforcer. Devil Fruit: [[Fura Fura no Mi]] (Float-Float).
+## Episode 16
+
+- Fights [[B.O.B]] on floor 2. His ability shifts the room's axis around one target (gravity flips); he uses sonic hammer blades, Shatter and a slowing hum. Injects a 6/6 serum and becomes a beast. [[Facade]] kills him ([[Session 016 — Broken Promises|Episode 16]]).
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

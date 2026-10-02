@@ -28,4 +28,4 @@ related_events:
 ## Evidence
 
 - [[Episode 13 - The Reaper (No DM Audio)]]
-- [[Session 013 — The Reaper (No DM Audio)]]
+- [[Session 013 — The Reaper]]

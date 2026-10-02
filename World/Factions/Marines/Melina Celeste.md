@@ -28,4 +28,4 @@ Marine lieutenant. Status unknown after Graff Bolt's death (newspaper threads).
 
 ## Episode 13
 
-- With [[Graff Bolt]] at [[W.G.A.R.]], asks the crew to stand down and hand over the clown and crab while they track slave-trader rumours. Already knows the Unity War story Graff tells [[Baptiste]], and doesn't react. Splits from the party with Graff to follow the slave-trader trail to the South Blue ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
+- With [[Graff Bolt]] at [[W.G.A.R.]], asks the crew to stand down and hand over the clown and crab while they track slave-trader rumours. Already knows the Unity War story Graff tells [[Baptiste]], and doesn't react. Splits from the party with Graff to follow the slave-trader trail to the South Blue ([[Session 013 — The Reaper|Episode 13]]).

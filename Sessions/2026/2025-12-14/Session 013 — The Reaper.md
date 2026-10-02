@@ -13,7 +13,7 @@ sources: [
 aliases:
   - 2025-12-14 — The Reaper (No DM Audio)
 ---
-# Session 013 — The Reaper (No DM Audio)
+# Session 013 — The Reaper
 
 ## TL;DR
 
@@ -31,7 +31,7 @@ aliases:
 ### Allies
 
 - [[Veyl Corven]] (Sixfold) · [[Serica Corven]] (Sixfold) — leave partway through.
-- [[Bubbles D. Clown]] ("Bessie Senior") and [[Bessy Jr.|Bessie Jr]] — wait at the beach.
+- [[Bubbles D. Clown]] ("Bessie Senior") and [[Bessy Jr|Bessie Jr]] — wait at the beach.
 - [[Cade Tigor Cooper|Tigor]] — new helmsman (joins).
 
 ### Other actors
@@ -45,7 +45,7 @@ aliases:
 ## Where/When
 
 - **Location**: at sea on the way to [[W.G.A.R.]], then the island itself (the beach and the worker settlement).
-- **In-world date**: directly after [[Session 012 — Clown Tricks|Session 12]]; the crew still has [[Bessy Jr.|Bessie Jr]] and Bubbles.
+- **In-world date**: directly after [[Session 012 — Clown Tricks|Session 12]]; the crew still has [[Bessy Jr|Bessie Jr]] and Bubbles.
 
 ## Actual play outcomes
 

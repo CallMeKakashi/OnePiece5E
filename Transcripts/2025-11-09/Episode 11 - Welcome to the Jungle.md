@@ -5,8 +5,8 @@ episode: 11
 title: "Welcome to the Jungle"
 status: draft
 sources:
-  - "Transcripts/2025-12-22/Episode 11 - Welcome to the Jungle.txt"
-  - "Transcripts/2025-12-22/Episode 11 - Welcome to the Jungle.srt"
+  - "Transcripts/2025-11-09/Episode 11 - Welcome to the Jungle.txt"
+  - "Transcripts/2025-11-09/Episode 11 - Welcome to the Jungle.srt"
 aliases:
   - Episode 11 - Welcome to the Jungle
 ---

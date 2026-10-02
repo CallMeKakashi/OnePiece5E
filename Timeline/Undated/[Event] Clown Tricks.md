@@ -12,7 +12,7 @@ related_world:
   - "[[Veyl Corven]]"
   - "[[Giggles D. Cloud]]"
   - "[[Bubbles D. Clown]]"
-  - "[[Bessy Jr.]]"
+  - "[[Bessy Jr]]"
 related_events:
   - "[[Timeline/Undated/[Event] Welcome to the Jungle]]"
   - "[[Timeline/Undated/[Event] The Reaper (No DM Audio)]]"
@@ -20,7 +20,7 @@ related_events:
 
 # Clown Tricks
 
-The crew finishes the [[Circle of Clowns]] aboard their ship, wins over the Sea King [[Bessy Jr.|Bessie Jr]]'s handler, and bluffs a slave-trade contact (Episode 12).
+The crew finishes the [[Circle of Clowns]] aboard their ship, wins over the Sea King [[Bessy Jr|Bessie Jr]]'s handler, and bluffs a slave-trade contact (Episode 12).
 
 ## Beats
 

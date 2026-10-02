@@ -34,6 +34,10 @@ Vice Admiral; campaigned against the [[Blackhand]] Pirates ("try to set foot in 
 - **Krake's Maw** — Raided Grinjaw's pirate contest and crushed the future [[Motley Crew]] until [[Veyl Corven|Veyl]] and [[Serica Corven|Serica]] got them out ([[1476-01moon [Backstory] The Birth of the Motley Crew]]; [[[Backstory] Linus — The Motley Crew]]).
 - **Campaign 1** — Ambushed and easily defeated the crew at Craw Island ([[Session 3 - The Carnival and the Collapse]]).
 
+## Episode 15
+
+- Shown in the Emperor's Unity War footage: chunks of the battlefield vanish where he fights. His Devour Devour Fruit devours any space between his fists. [[Coda]] imitates the technique from having seen it ([[Session 015 — Animal Within|Episode 15]]).
+
 ## Related
 
 - [[Marines]] · [[Graff Bolt]] · [[Commander Leon]] · [[Blackhand Cane]] · [[Mira the Unbreakable]]

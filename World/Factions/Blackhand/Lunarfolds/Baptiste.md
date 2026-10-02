@@ -180,16 +180,26 @@ Under [[Blackhand Cane]], Baptiste goes undercover for four years as **Haruki**,
 
 ## Episode 12
 
-- Casts levitate on [[Roma]] so he can hit the crab Sea King [[Bessy Jr.|Bessie Jr]] from above the water while she grapples at the crew. After the fight, **impersonates [[Bubbles D. Clown|Bubbles]]** on the clowns' den den mushi to a slave-trade contact (name unknown), asking a reward for bringing the ship back intact with the "captured crew" — the clowns were already dead ([[Session 012 — Clown Tricks|Episode 12]]).
+- Casts levitate on [[Roma]] so he can hit the crab Sea King [[Bessy Jr|Bessie Jr]] from above the water while she grapples at the crew. After the fight, **impersonates [[Bubbles D. Clown|Bubbles]]** on the clowns' den den mushi to a slave-trade contact (name unknown), asking a reward for bringing the ship back intact with the "captured crew" — the clowns were already dead ([[Session 012 — Clown Tricks|Episode 12]]).
 
 ## Episode 13
 
-- Target, with [[Malphas]], of [[Esper Grimrose]]'s revenge: the crew killed her brother's Reaper unit in the past, and now [[Kyle Bloodfin]] dies in the Scorpion Unit's attack. Refuses to hand over the clown and crab to [[Graff Bolt]] and [[Melina Celeste]] and is knocked out with the crew by Graff's Conqueror's Haki. Afterwards Graff tells him the Marine-side story of the Unity War (Blackhand, [[Horus]] and Stella Celeste). ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
+- Target, with [[Malphas]], of [[Esper Grimrose]]'s revenge: the crew killed her brother's Reaper unit in the past, and now [[Kyle Bloodfin]] dies in the Scorpion Unit's attack. Refuses to hand over the clown and crab to [[Graff Bolt]] and [[Melina Celeste]] and is knocked out with the crew by Graff's Conqueror's Haki. Afterwards Graff tells him the Marine-side story of the Unity War (Blackhand, [[Horus]] and Stella Celeste). ([[Session 013 — The Reaper|Episode 13]]).
 
 ## Episode 14
 
 - Rebuffed at Decibella's capital gate while posing as a noble, he blasts through it on horseback with his **first, unconscious Conqueror's Haki**: three guards collapse without a touch, the world "turns gray," and he gets a splitting headache. He later learns control from [[Mira the Unbreakable|Mira]] (later session).
 - Kills Echo spies, helps kill [[Baron Woofer]] (bursts his speaker armor), and with [[Malphas]] clears the Opera House guards. [[Lady Soefra Anthem|Soefra]]'s voice charms him; it recalls the mermaid from [[Timeline/Undated/[Event] Babylon|Babylon]] ("she was dead, why is she here"), but he snaps out of it on a 20 before attacking [[Riff Sin]]. Kills Soefra and [[Sephra Anthem|Sephra]] and rescues [[Cadence]]. Approves [[B.O.B]]'s shot at the Liberty Bell ([[Session 014 — The Decibel Decree|Episode 14]]).
+
+## Episode 15
+
+- Fights [[Coda]]. Hit by Hideous Laughter, a command to walk off the ledge (resists) and a Phantasmal-Killer-style hole through his liver. Hastes himself and merges his spectral arms into one fist for about 84 damage, throwing Coda into the wall. The Conqueror's aura is flavor only. Coda grabs his wrist as he reaches for the key and stabs him through the heart; a second dagger is raised at his head as the session ends. The rescue is deferred ([[Session 015 — Animal Within|Episode 15]]).
+
+## Episode 16
+
+- Takes a call on a den den mushi at the tower gate and pockets it (content unknown). Receives a transponder from [[Malak Samum]].
+- Stabbed through the chest by [[Coda]], he hears [[Aegir]] offer help for a ride to his vessel and refuses. His flames fuse into his void arms on their own; he levels to 5 (Mote of Hell replaces Fireball) and kills Coda after a serum transformation.
+- Knocks out the berserk [[Roma]] in two rounds and carries him up. In the control room he resists, then walks toward the Emperor; a third ring of Aegir fuses onto his hand ([[Session 016 — Broken Promises|Episode 16]]). His wings have been gone since W.G.A.R.
 
 ## Live sheet (Foundry)
 

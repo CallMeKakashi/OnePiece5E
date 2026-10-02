@@ -11,6 +11,7 @@ Industrial/corporate faction behind the [[Callisto]] facility, chimeras, cogwork
 - [[Hallow]]: Callisto station master (deceased, killed by [[RyeNera]])
 - [[Dr Nikolai Tesla]]: "the Doctor", lead scientist (patronage of [[Commodore Briggs]] and the Marine G-45 unit; Germa exile)
 - [[RyeNera]] — two-human amalgam prototype (deceased)
+- Linked, not members: the [[Soundless 5]] of [[Decibella Kingdom]] (6/6 serum; DM-confirmed, [[Session 016 — Broken Promises|Episode 16]])
 
 ## Overview
 
@@ -19,3 +20,8 @@ Mugen Industries ran the industrial and research facility on **[[Callisto]]**: c
 The Marines halted Mugen contracts after the G-45 Enforcer Armors malfunctioned at Spirit Cliff ([[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]).
 
 Owned and run in the background by **[[Commodore Briggs]]** (G-45; the Tribune also prints it as "G-4.5"), who funds Nikolai's experiments including **[[RyeNera]]** and the stronger **[[Monster Manual/Aberrant Abomination|Aberrant Abomination]]** line toward a recreated "perfect being" from Virellis.
+
+## Episode 16
+
+- The DM confirmed the [[Soundless 5]] were involved with Mugen Industries, which owned Callisto. Their 6/6 serum vials match the green fluid from Hallow's lab ([[Session 016 — Broken Promises|Episode 16]]).
+

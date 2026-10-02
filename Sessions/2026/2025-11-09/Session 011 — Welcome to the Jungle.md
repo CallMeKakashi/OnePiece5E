@@ -1,6 +1,6 @@
 ---
 type: session
-date_played: 2025-12-22
+date_played: 2025-11-09
 session_order: 11
 sidestory: false
 episode: [
@@ -11,7 +11,7 @@ sources: [
    "[[Session 010 — Sea of Nightmares]]"
 ]
 aliases:
-  - 2025-12-22 — Welcome to the Jungle
+  - 2025-11-09 — Welcome to the Jungle
 ---
 # Session 011 — Welcome to the Jungle
 
@@ -82,7 +82,7 @@ aliases:
 | Transcript | [[Episode 11 - Welcome to the Jungle]] |
 | Timeline | [[Timeline/Undated/[Event] Welcome to the Jungle]] |
 | Prior | [[Session 010 — Sea of Nightmares]] |
-| Raw | `Transcripts/2025-12-22/Episode 11 - Welcome to the Jungle.txt` |
+| Raw | `Transcripts/2025-11-09/Episode 11 - Welcome to the Jungle.txt` |
 
 ## Open threads
 

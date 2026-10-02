@@ -42,7 +42,7 @@ In-world date anchors (approximate unless a timeline entry pins finer precision)
 | 8 | [[Episode 10 - Sea of Nightmares]] | [[Session 010 — Sea of Nightmares]] | high | |
 | 9 | [[Episode 11 - Welcome to the Jungle]] | [[Session 011 — Welcome to the Jungle]] | high | |
 | 10 | [[Episode 12 - Clown Tricks]] | [[Session 012 — Clown Tricks]] | high | |
-| 11 | [[Episode 13 - The Reaper (No DM Audio)]] | [[Session 013 — The Reaper (No DM Audio)]] | high | No DM track |
+| 11 | [[Episode 13 - The Reaper (No DM Audio)]] | [[Session 013 — The Reaper]] | high | No DM track |
 | 12 | [[Episode 14 - The Decibel Decree]] | [[Session 014 — The Decibel Decree]] | high | |
 | 13 | [[Episode 15 - Animal Within]] | [[Session 015 — Animal Within]] | high | |
 | 14 | [[Episode 16 - Broken Promises]] | [[Session 016 — Broken Promises]] | high | |

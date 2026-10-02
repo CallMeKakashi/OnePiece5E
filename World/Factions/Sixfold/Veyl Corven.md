@@ -76,11 +76,11 @@ Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative. 
 
 ## Episode 12
 
-- Having rammed the clowns' speedboat at the end of Session 11, uses his speed-boosting fruit to catch back up to [[Bessy Jr.|Bessie Jr]] and spends the fight distracting the crab so the crew can work on the handler ([[Session 012 — Clown Tricks|Episode 12]]).
+- Having rammed the clowns' speedboat at the end of Session 11, uses his speed-boosting fruit to catch back up to [[Bessy Jr|Bessie Jr]] and spends the fight distracting the crab so the crew can work on the handler ([[Session 012 — Clown Tricks|Episode 12]]).
 
 ## Episode 13
 
-- After the Scorpion Unit ([[Kyle Bloodfin]] and [[Esper Grimrose]]) attacks the crew and Kyle is killed, stops the party from killing Esper and takes responsibility for her. Next morning, reading the news of [[Vireth]]'s attack on a South Blue Marine base, he takes it as a beacon for the Sixfold ("I'm here, come to me"); he and [[Serica Corven|Serica]] take the Scorpion Unit's ship and Esper and leave through the Calm Belt. The crew finds them gone when they wake ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
+- After the Scorpion Unit ([[Kyle Bloodfin]] and [[Esper Grimrose]]) attacks the crew and Kyle is killed, stops the party from killing Esper and takes responsibility for her. Next morning, reading the news of [[Vireth]]'s attack on a South Blue Marine base, he takes it as a beacon for the Sixfold ("I'm here, come to me"); he and [[Serica Corven|Serica]] take the Scorpion Unit's ship and Esper and leave through the Calm Belt. The crew finds them gone when they wake ([[Session 013 — The Reaper|Episode 13]]).
 
 ## Related
 

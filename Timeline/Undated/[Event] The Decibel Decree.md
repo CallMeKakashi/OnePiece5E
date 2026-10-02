@@ -29,7 +29,7 @@ Arrival at silent capital **Decibella**; sound illegal; hideout **The Discord**;
 3. **Slums** — House Echo spies ambush the crew; [[Riff Sin]] leads them to the Discord hideout and [[Vera]]'s name comes up; [[Sloan]] and the commoners.
 4. **Woofer** — House Tremor raids the hideout; [[Baron Woofer]] is killed, the hideout is lost.
 5. **Channel** — the crew climbs the ventilation shaft under the Emperor's hourly broadcast.
-6. **Opera House** — [[Lady Soefra Anthem|Soefra]] and [[Sephra Anthem|Sephra]] torture [[Cadence]]; Baptiste is charmed (memory of the mermaid, see [[Timeline/Undated/[Event] Babylon]]); both twins die and Cadence is rescued. Riff takes the Override Disc.
+6. **Opera House** — [[Lady Soefra Anthem|Soefra]] and [[Sephra Anthem|Sephra]] torture [[Cadence]]; Baptiste is charmed (memory of the mermaid, see [[Timeline/Undated/[Event] Babylon]]); both twins survive and Cadence is rescued. Riff takes the Override Disc.
 7. **Liberty Bell** — [[B.O.B]] topples the bell; the [[Soundless 5]] slice it apart and offer the keycard game inside the Broadcast Tower. Long rest.
 
 ## Evidence
