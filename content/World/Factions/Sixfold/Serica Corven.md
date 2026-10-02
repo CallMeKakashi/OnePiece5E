@@ -68,7 +68,7 @@ Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative a
 
 ## Episode 13
 
-- Leaves with [[Veyl Corven|Veyl]] after reading of [[Vireth]]'s Marine base attack, on the Scorpion Unit's ship, taking the captured [[Esper Grimrose]] with them through the Calm Belt to the South Blue ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
+- Leaves with [[Veyl Corven|Veyl]] after reading of [[Vireth]]'s Marine base attack, on the Scorpion Unit's ship, taking the captured [[Esper Grimrose]] with them through the Calm Belt to the South Blue ([[Session 013 — The Reaper|Episode 13]]).
 
 ## Related
 

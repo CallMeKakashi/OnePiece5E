@@ -448,15 +448,24 @@ And fate shifted.
 
 ## Episode 12
 
-- Already aboard the clowns' ship at the start of the session, knocking out clowns as they wake. Takes part in the fight against [[Bessy Jr.|Bessie Jr]] and the questioning of [[Giggles D. Cloud]] ([[Session 012 — Clown Tricks|Episode 12]]).
+- Already aboard the clowns' ship at the start of the session, knocking out clowns as they wake. Takes part in the fight against [[Bessy Jr|Bessie Jr]] and the questioning of [[Giggles D. Cloud]] ([[Session 012 — Clown Tricks|Episode 12]]).
 
 ## Episode 13
 
-- With [[Baptiste]], a target of [[Esper Grimrose]]'s revenge for killing her brother's Reaper unit. Knocked out with the crew by [[Graff Bolt]]'s Conqueror's Haki; later goes aboard to look around ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
+- With [[Baptiste]], a target of [[Esper Grimrose]]'s revenge for killing her brother's Reaper unit. Knocked out with the crew by [[Graff Bolt]]'s Conqueror's Haki; later goes aboard to look around ([[Session 013 — The Reaper|Episode 13]]).
 
 ## Episode 14
 
 - Hears the faint sounds in Decibella's alleys and spots House Echo's spies on the roofs; opens the slum fight and kills one spy with his own tuning fork. Transforms (Wildsaid hybrid) and shatters Woofer's armor with a stomp. Fights with Baptiste in the Opera House (the twins' note leaves a ringing ear, temporary only), and helps kill [[Lady Soefra Anthem|Soefra]] and [[Sephra Anthem|Sephra]]. Casts armor of Agathys on himself ([[Session 014 — The Decibel Decree|Episode 14]]).
+
+## Episode 15
+
+- Fights [[Bass Tremor]] one-on-one in a room of stone armor statues. Told Bass he was not the one who killed his brother ([[Baron Woofer]]; Baptiste did). Pierces Bass's shield with a punch, then dodges Shatter and Bass's sonic sprint, and uses lightning and thunder clouds. Hammered down by a smite and knocked out about 44 damage short of death; the rescue is deferred to the next session ([[Session 015 — Animal Within|Episode 15]]).
+
+## Episode 16
+
+- Beats [[Bass Tremor]] on floor 4 after Bass takes a 6/6 serum and becomes a rhino hybrid. Levels to Brawler 5 and unlocks his second Thunderbird form (feathers, wings, lightning calling). Collapses from exhaustion.
+- Follows [[Dravos]]'s PVC pipes with [[Malak Samum]] and sees [[Facade]] working on [[B.O.B]]. Arrives later to find [[Baptiste]] carrying Roma ([[Session 016 — Broken Promises|Episode 16]]).
 
 ## Build template (Foundry)
 

@@ -18,6 +18,11 @@ Doctor of the [[Braveheart Pirates]].
 ## Role
 
 Doctor. Devil Fruit: [[Hai Hai no Mi]]. Status: headed to South Blue (Discord character-art).
+## Episode 16
+
+- Called "Malik" in play. Sent by [[Mira the Unbreakable|Mira]] to warn the crew about Rias, a pirate the Brave Hearts hunted and thought dead, now ruler of Decibella. Gives Baptiste a transponder and offers to send [[Facade]] if needed.
+- Says three Brave Hearts came inside; the rest guard the crew's ship on the shore ([[Session 016 — Broken Promises|Episode 16]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

@@ -12,7 +12,7 @@ Guild whose top operative is known as **Number One**.
 
 - **Sixfold raid** — The [[Sixfold]] hit one of the guild's main bases. Rumor says nobody died, "but most of 'em won't be hunting anyone ever again." Number One learned of it at a South Blue arms market ([[[Backstory] Joker — Man in Red]]).
 
-- **Open season on Blackhand** — After [[Blackhand Cane]]'s disappearance the guild declared open season on all [[Blackhand]] crew. The two-person **Scorpion Unit** ([[Kyle Bloodfin]], [[Esper Grimrose]]) hunts the Lunarfold crew; Kyle is killed and Esper captured ([[Session 013 — The Reaper (No DM Audio)|Session 13]]).
+- **Open season on Blackhand** — After [[Blackhand Cane]]'s disappearance the guild declared open season on all [[Blackhand]] crew. The two-person **Scorpion Unit** ([[Kyle Bloodfin]], [[Esper Grimrose]]) hunts the Lunarfold crew; Kyle is killed and Esper captured ([[Session 013 — The Reaper|Session 13]]).
 
 ## Units
 

@@ -33,7 +33,9 @@ publish: true
 		- [[Bugor]]
 		- [[Kara -Many-Eyes- Kagemi]]
 		- [[Maro -Powderflash- Kel]]
+		- [[Omen Sisters]]
 		- [[Sora]]
+		- [[Vera]]
 	- **[[Underground Fighting Champions]]**
 	- **[[Unknown]]**
 	- **[[Velencruz]]**

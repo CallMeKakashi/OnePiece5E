@@ -23,7 +23,7 @@ Restart the animal reserve. Gets his brother off the island.
 
 ## Episode 13
 
-- Asks the crew to take his younger brother Tigor with them: Tigor always wanted to sail, is wasting his potential on the island, and is a skilled helmsman. In return, the crew will bring back animals for the reserve ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
+- Asks the crew to take his younger brother Tigor with them: Tigor always wanted to sail, is wasting his potential on the island, and is a skilled helmsman. In return, the crew will bring back animals for the reserve ([[Session 013 — The Reaper|Episode 13]]).
 
 ## Related
 

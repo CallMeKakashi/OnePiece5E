@@ -142,6 +142,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 - [[Baron Woofer]]
 - [[Chuckles]]
+- [[Coda]]
 - [[Echo Spy]]
 - [[Giggles]]
 - [[Lady Soefra Anthem]]
@@ -151,6 +152,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Snickers]]
 - [[Soundless 5]]
 - [[Synth]]
+- [[Treble]]
 - [[Wheeze]]
 
 
@@ -257,6 +259,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 | [[Ame Ame no Mi]] | [[Sora]] | canon |
 | [[Buki Buki no Mi]] | [[Serica Corven]] | canon |
 | [[Dabu Dabu no Mi]] | [[Irik Fen]] | canon |
+| [[Devour Devour Fruit]] | [[Horus]] | draft |
 | [[Eki Eki no Mi]] | [[Cline The Plague]] | canon |
 | [[Foji Foji no Mi]] | [[Tray]] | canon |
 | [[Fura Fura no Mi]] | [[Rhythm Echo]] | canon |

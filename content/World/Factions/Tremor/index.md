@@ -11,3 +11,4 @@ Faction tied to [[Soundless 5]] leadership.
 ## Members
 
 - [[Bass Tremor]]
+- [[Baron Woofer]] — Bass's brother (dead)

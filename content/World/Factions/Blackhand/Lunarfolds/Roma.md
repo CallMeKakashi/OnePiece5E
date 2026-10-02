@@ -382,15 +382,21 @@ About a year before the present, travelling alone through Wano, Roma meets the L
 
 ## Episode 12
 
-- Levitated by [[Baptiste]] above the water to strike at the crab Sea King [[Bessy Jr.|Bessie Jr]]. Provides the food and treats the crew uses to win over Bessie and her handler ([[Session 012 — Clown Tricks|Episode 12]]).
+- Levitated by [[Baptiste]] above the water to strike at the crab Sea King [[Bessy Jr|Bessie Jr]]. Provides the food and treats the crew uses to win over Bessie and her handler ([[Session 012 — Clown Tricks|Episode 12]]).
 
 ## Episode 13
 
-- Grabbed by [[Kyle Bloodfin]], who holds his jaw over Roma's neck until someone tackles Kyle and they fall into the water. Knocked out with the crew by [[Graff Bolt]]'s Conqueror's Haki ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
+- Grabbed by [[Kyle Bloodfin]], who holds his jaw over Roma's neck until someone tackles Kyle and they fall into the water. Knocked out with the crew by [[Graff Bolt]]'s Conqueror's Haki ([[Session 013 — The Reaper|Episode 13]]).
 
 ## Episode 14
 
 - Throws a guard into the lake (a tentacle takes him); fights the Echo spies and Woofer's troopers; interrogates a captured trooper (learns Cadence is in the Opera House). Buffed by [[Riff Sin]]'s riff; dropped to 2 HP by [[Lady Soefra Anthem|Soefra]]'s note, then healed by little critters that crawl through his fur. Plans to take fighter for Action Surge at the next level-up ([[Session 014 — The Decibel Decree|Episode 14]]).
+
+## Episode 16
+
+- Fights [[Treble]] in her indoor jungle of hung bodies (Roma thought they were minks). Shot through the shoulder, he rages with the skillet and eats his treats, but she keeps hiding. She injects him with a serum and he falls into a dream of chasing Chiru. His Sulong is triggered and he cannot control it.
+- As a beast he kills Treble, tearing her in half, and puts her key in his hat. He then attacks [[Baptiste]], who knocks him out in two rounds. He wakes at the top with no memory.
+- Levels to 5 (Fighter). Meets [[Dravos]], who shifts the weight of his skillet. Answers the Emperor's question "Lunarfold till we die" ([[Session 016 — Broken Promises|Episode 16]]).
 
 ## Live sheet (Foundry)
 

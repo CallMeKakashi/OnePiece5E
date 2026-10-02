@@ -17,3 +17,7 @@ Blackhand **4th Fleet** sub-crew under **[[Mira the Unbreakable]]**.
 - [[Malak Samum]] — doctor
 - [[Facade]] — recent recruit (undead cyborg; AI **OHM**)
 - [[Homunculus Servant]] — OHM's light-spider drone extension
+
+## Episode 16
+
+- [[Malak Samum]] and [[Facade]] are on [[Decibella Kingdom]] (three Brave Hearts inside, the rest guard the crew's ship). Mira sends Malak to warn the crew about Rias and leaves Baptiste a transponder ([[Session 016 — Broken Promises|Episode 16]]).

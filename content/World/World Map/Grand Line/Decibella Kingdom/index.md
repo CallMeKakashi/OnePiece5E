@@ -71,6 +71,21 @@ The Nobles (The Fortissimo) are divided into four houses. Three are loyal and po
 
 - Current Status: They live in the slums (The Mute District) but are the only ones there making noise. They are chaotic, punk-rock aesthetic, and desperate.
 
+### The Broadcast Tower (Episode 15)
+
+The tower trials are 1v1 fights on separate floors. A Soundless Five member holds a key on each floor. Known rooms: the metal-rod arena where [[Synth]] fought [[Riff Sin]] and Cade; a hall of stone armor statues where [[Bass Tremor]] fought [[Malphas]]; and the leader's top room with rusted bells behind shutters, where [[Coda]] fought [[Baptiste]]. Half of the top room collapses after Coda's black-blade slash ([[Session 015 — Animal Within|Episode 15]]).
+
+In [[Session 016 — Broken Promises|Episode 16]] the trials continue: floor 2 is a room whose axis shifts around one target ([[Rhythm Echo]] vs [[B.O.B]]); floor 3 is an indoor jungle hung with mutilated bodies ([[Treble]] vs [[Roma]]); floor 4 is where [[Bass Tremor]] meets [[Malphas]]; floor 5 is where [[Coda]] fights [[Baptiste]]. The first floor is a blast door and spiral stair. The control room sits behind a gate opened with five keys; inside the Emperor ([[Rias Decibel]]) hangs in cables with a black orb in his chest.
+
+### Places seen
+
+- **Mute District / slums**: House Sin and the rebel hideout (lost to House Tremor in S14); the tunnels where evacuees shelter.
+- **Royal Opera House (Upper City)**: where [[Lady Soefra Anthem]] and [[Sephra Anthem]] held [[Cadence]] ([[Session 014 — The Decibel Decree|S14]]).
+- **Liberty Bell**: 500 years old; toppled by Bob in S14 and sliced into four by the Soundless Five.
+- **Noble's District**: seen from the hole in floor 3's wall, with buildings torn apart by Roma's howl ([[Session 016 — Broken Promises|S16]]).
+- **Shore**: where the crew's ship is moored, guarded by the Brave Hearts.
+
+
 > [!NOTE]- Quick Calculator  
 > Map Height in Pixels: `INPUT[number:1347]`  
 > Map Width in Pixels: `INPUT[number:2048]`  

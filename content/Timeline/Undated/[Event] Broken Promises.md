@@ -18,13 +18,14 @@ related_events:
 
 # Broken Promises
 
-Multi-floor **Soundless Five** assault; roof fight begins; **third ring** on Malphas (Episode 16).
+Multi-floor **Soundless Five** assault; the Emperor wakes; a **third ring** fuses onto Baptiste (Episode 16).
 
 ## Beats
 
-1. **Gauntlet** — Malphas vs Rhythm; Roma Sulong vs Treble; Baptiste vs rhino-mutant.
-2. **Upper floors** — floor 5 **Emperor** comatose.
-3. **Rings** — third ring on [[Malphas]] — cliffhanger into Ep 17.
+1. **Healer** — Riff's shotgun makes the Anthem healer heal the crew; the twins escape.
+2. **Gauntlet** — Bob vs Rhythm (Bob dies; Facade kills Rhythm); Roma vs Treble (serum, uncontrolled Sulong, Treble killed); Malphas vs Bass; Baptiste vs Coda (Baptiste refuses Aegir and wins). Roma then attacks Baptiste.
+3. **Control room** — Riff opens the gate with five keys and tries to pull a cable; the Emperor wakes and says "Hold".
+4. **Rings** — a third ring fuses onto [[Baptiste]] — cliffhanger into Ep 17.
 
 ## Evidence
 

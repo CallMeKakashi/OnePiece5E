@@ -65,15 +65,21 @@ foundry_live_slug: "b-o-b-old"
 
 ## Episode 12
 
-- Tries to calm [[Bessy Jr.|Bessie Jr]] with treats, then uses Animal Handling on the handler instead. Promises [[Bubbles D. Clown|Bubbles]] and the crab freedom and good treatment ("we can treat you nicely"), and turns the handler against the Circle of Clowns. Bonds with them afterwards (rock-paper-scissors, names) and asks Bubbles to take the crew back to W.G.A.R. ([[Session 012 — Clown Tricks|Episode 12]]).
+- Tries to calm [[Bessy Jr|Bessie Jr]] with treats, then uses Animal Handling on the handler instead. Promises [[Bubbles D. Clown|Bubbles]] and the crab freedom and good treatment ("we can treat you nicely"), and turns the handler against the Circle of Clowns. Bonds with them afterwards (rock-paper-scissors, names) and asks Bubbles to take the crew back to W.G.A.R. ([[Session 012 — Clown Tricks|Episode 12]]).
 
 ## Episode 13
 
-- With the crew at the standoff with [[Graff Bolt]] and [[Melina Celeste]]; knocked out by Graff's Conqueror's Haki ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
+- With the crew at the standoff with [[Graff Bolt]] and [[Melina Celeste]]; knocked out by Graff's Conqueror's Haki ([[Session 013 — The Reaper|Episode 13]]).
 
 ## Episode 14
 
 - Guides the crew to the Decibella rebels via Merlin's eyes; casts comprehend languages to read the elder [[Sloan]]'s hand-signs. Shoots Toll the Dead at the Liberty Bell with Baptiste's nod, toppling it; the [[Soundless 5]] cut it in four ([[Session 014 — The Decibel Decree|Episode 14]]).
+
+## Episode 16
+
+- Fights [[Rhythm Echo]] one on one on floor 2. Chromatic orb (acid, poison), levitate and Misty Step barely hurt him; Rhythm's axis-shifting room throws him around. Levels to 5 and swaps in a spare core.
+- Rhythm injects a 6/6 serum and becomes a beast; Bob fails three death saves. [[Facade]] stabilises his core with a spider homunculus and kills Rhythm, then carries him to the ship (repair takes 8 to 10 hours).
+- Returns as a Necrotic Savant ([[Sourcebook/Chapter 2 Classes/Ardent Soul/Ardent Soul|Ardent Soul]] with the [[Sourcebook/Chapter 2 Classes/Ardent Soul/Necrotic Mania|Necrotic Mania]] subclass), treated as a resurrection ([[Session 016 — Broken Promises|Episode 16]]).
 
 ## Related
 

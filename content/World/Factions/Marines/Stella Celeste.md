@@ -20,7 +20,7 @@ None (deceased).
 
 ## Backstory
 
-- **Unity War**: the Marine version has three Marine heroes, Blackhand (Eulisis), [[Horus]] and Stella. One was punished for failing to stop another from murdering the third; Stella was killed and Horus was punished ([[Session 013 — The Reaper (No DM Audio)|Session 13]], told to [[Baptiste]] by [[Graff Bolt]]). Linus implies the Marine version is not the full truth.
+- **Unity War**: the Marine version has three Marine heroes, Blackhand (Eulisis), [[Horus]] and Stella. One was punished for failing to stop another from murdering the third; Stella was killed and Horus was punished ([[Session 013 — The Reaper|Session 13]], told to [[Baptiste]] by [[Graff Bolt]]). Linus implies the Marine version is not the full truth.
 - Her son [[Astor]] is the son of "the same Marine"; Astor does not know ([[Timeline/Undated/[Backstory] Linus — The Motley Crew]]).
 
 ## Related

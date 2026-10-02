@@ -24,7 +24,7 @@ Hunt the Lunarfolds. Killed before he finished the job.
 
 ## Episode 13
 
-- Arrives with [[Esper Grimrose|Esper]] on the crew's ship as they sail toward [[W.G.A.R.]] and attacks. Grabs [[Roma]], holding his jaw over Roma's neck; someone tackles him and they fall in the water. Killed in the fight, by one of the crew (not recorded which). Esper watches him die ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
+- Arrives with [[Esper Grimrose|Esper]] on the crew's ship as they sail toward [[W.G.A.R.]] and attacks. Grabs [[Roma]], holding his jaw over Roma's neck; someone tackles him and they fall in the water. Killed in the fight, by one of the crew (not recorded which). Esper watches him die ([[Session 013 — The Reaper|Episode 13]]).
 - Before the crew arrived, he and Esper had wrecked W.G.A.R. looking for the Lunarfolds, until the [[Spider Nest Pirates|Spider's Nest]] drove them off.
 
 ## Related
