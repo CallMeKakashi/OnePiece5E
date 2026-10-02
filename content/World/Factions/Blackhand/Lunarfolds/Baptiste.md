@@ -220,6 +220,10 @@ Under [[Blackhand Cane]], Baptiste goes undercover for four years as **Haruki**,
 
 - Refuses Briggs's demand on the den den mushi, and the crew flees Noosehold's warships. Jumps onto the pursuing warship, dodges Marine volleys, is caught in the exploding cannon (down to 3 HP) and drowns; Roma hauls him out. Brands the Blackhand mark on Voss's chest with flames, then batters him with force until he passes out, and hangs him from a steel beam. Licks the green serum (11), feels a bad omen, and keeps the vial. Backs Zim's plan to ambush a noble ship in the channel ([[Session 023 — Choice for life|Episode 23]]).
 
+## Episode 24
+
+- Dreams of Aegir's defeat (five figures, "this is the end for you, Aegir"). Is flown onto the noble ship by Malphas, knocks out two guards, and persuades Goru Yamashita to help rather than fight. Is told on den den mushi by Mira to kill or release Voss, keep clear of the Sixfold and talk to Thompson, and lies that Voss is not with him. Takes Goru's ship back to the crew's ship after Roma's rampage. Unknown to him, Ace's file on him (Gambino/Haruki, aliases Masquerade, Oroboros, Raven) reaches Jack ([[Session 024 — The Friendly Baron|Episode 24]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

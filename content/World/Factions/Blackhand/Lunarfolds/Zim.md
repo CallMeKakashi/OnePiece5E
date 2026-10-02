@@ -77,6 +77,10 @@ After several others failed, she infiltrated [[Capone Family]]-occupied territor
 
 - Furious that Voss is aboard and says she was always going to be killed. Flown above the clouds by Malphas, she points out the channel nobles use between islands and proposes ambushing a ship there. Asks about her magic book, which is still missing ([[Session 023 — Choice for life|Episode 23]]).
 
+## Episode 24
+
+- Overhears Goru and Baptiste in the next room and is exposed as the criminal Goru is travelling to oversee. Goru takes her side to Cassian, who refuses her case, and she goes back to the crew's ship; Goru tells her "try not to die" and she storms off, objecting to the way he addresses her. In 24.5 she asks Roma about growing up on Zou ([[Session 024 — The Friendly Baron|Episode 24]], [[Session 024.5 — Interstitial RP|24.5]]).
+
 ## Open Questions
 
 - Who is her Marine correspondent in Loguetown, and where is the device?

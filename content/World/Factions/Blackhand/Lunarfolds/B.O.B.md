@@ -105,6 +105,10 @@ foundry_live_slug: "b-o-b-old"
 
 - Fires a swivel gun and necrotic bolt at the Marines, and moves ability scores into Dex with his new item to wear splint armor. Pulled from the sea by Roma and Linus, then knocked out by a cannonball after shielding the ship. His mount, Pegasus, is a find-mount made over by Bob; Linus sets up a lab in his room ([[Session 023 — Choice for life|Episode 23]]).
 
+## Episode 24
+
+- Checks on the sabre-toothed tiger after its surgery. Waits with Roma and smokes on the crew's ship, takes Jack's bullet on his armour when Jack fires at Linus, and hears Mira's call. Out of his armour at night, helps Malphas haul the drowning Roma out of the sea. Tells Cade he feels useless in the quiet after the night ([[Session 024 — The Friendly Baron|Episode 24]], [[Session 024.5 — Interstitial RP|24.5]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

@@ -10,7 +10,7 @@ related_world:
   - "[[Baptiste]]"
   - "[[Veyl Corven]]"
   - "[[Serica Corven]]"
-  - "[[Informant (Loguetown)]]"
+  - "[[Zim]]"
   - "[[Sixfold]]"
 related_events:
   - "[[Timeline/Undated/[Event] The Lunarfold Tournament Part 1]]"

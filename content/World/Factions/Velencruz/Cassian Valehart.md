@@ -3,13 +3,29 @@ type: actor
 faction: "[[Unaffiliated]]"
 status: draft
 publish: true
+sources:
+  - "[[Episode 21 - House of Justice]]"
+  - "[[Episode 22 - The Missing Piece]]"
 foundry_template_json: "Foundry/actors-json/Cassian_Valehart.json"
 foundry_actor_id: "MqilDzEChn3Ipwjb"
 foundry_live_slug: "cassian-valehart"
 ---
 # Cassian Valehart
 
-Foundry actor export — no campaign biography note yet. Link from [[Rules/Stat blocks]] or faction hub when placed in-world.
+Lawyer at the high court on [[Lex Imperia]], son of [[Judge Valehart]], and a fighter whose flute turns into a long baton, *Requiem of Clause* (the Valehart crest). Black spiked hair, blue eyes, three-piece suit; his dingy office has a permanent line of petitioners. Called "the only lawyer useful for our kind" by locals. He is related to the [[Velencruz]] family (how is not yet revealed; the DM will reveal it in later sessions).
+
+## Episode 21
+
+- Reads [[Roma]]'s forged note, sees it is not his father's writing, kicks Roma through his window, and has Jean see him out ([[Session 021 — House of Justice|Episode 21]]).
+
+## Episode 22
+
+- Jumps onto Voss's car as Baptiste drives it back into the Valehart mansion and down the stairs, stabs a wheel with his baton and clashes with [[B.O.B]]'s shield. Bob shoves him off, and he stays on Noosehold when the car reaches the dock ([[Session 022 — The Missing Piece|Episode 22]]).
+
+## Episode 24
+
+- Goru's cousin. Goru calls him with Zim's story; he refuses to take the case, but agrees to harbour the crew for a week. Waits alone at the bottom of the back-channel stairs, sends his guards and staff away, and shakes Goru's hand. Recognises Roma (the man who bought his lunch) and fails to see the human form is wrong. Tells the crew the mansion damage was hard to explain to his father, and says he will not tell the Marines. Sits in on the rescue planning and explains the checkpoints and the three-warship escort. Follows Goru's ship out afterwards ([[Session 024 — The Friendly Baron|Episode 24]], [[Session 024.5 — Interstitial RP|24.5]]).
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

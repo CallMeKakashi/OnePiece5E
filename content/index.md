@@ -199,6 +199,8 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 - [[Bore]]
 - [[Bugor]]
+- [[Jean]]
+- [[Judge Valehart]]
 - [[Kara -Many-Eyes- Kagemi]]
 - [[Maro -Powderflash- Kel]]
 - [[Omen Sisters]]

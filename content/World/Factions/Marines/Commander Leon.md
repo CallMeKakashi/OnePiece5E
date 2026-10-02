@@ -41,6 +41,10 @@ Named on [[Calder Voss]]'s routing papers (G-9 assignment).
 
 - Phase 1 Haki duelist; Phase 2 logia; defeated after prolonged naval battle (exact fate open).
 
+## Episode 22
+
+- Named on Voss's routing paper as Commander of G-9, one of two captains escorting Droven to Noosehold ([[Session 022 — The Missing Piece|Episode 22]]).
+
 ## Related
 
 - [[Calder Voss]]

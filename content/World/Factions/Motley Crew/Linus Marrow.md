@@ -75,6 +75,10 @@ After the ravine collapse, the rescued crew recover for nearly three weeks at hi
 
 - Tosses Voss's tracker into the sea, lays sea king bait that ends the chase, and pulls Bob out of the water. Works all night on the serums, and finds that the white 033 turns a mutant human (Roma). Out of supplies, needs organs from a smaller sea king. Warns Baptiste not to keep Voss aboard ([[Session 023 — Choice for life|Episode 23]]).
 
+## Episode 24
+
+- Researches the Marine compound through the night and sleeps on deck while the crew waits. When Jack recognises him and shoots, the bullet passes through him. Jack's gang lost money to him in a World Government bank raid. In the 24.5 scenes he checks Roma, Bob and the others, tells Jack he never explained the time he took from his crew and asks what it cost, apologises to Baptiste for hitting him, and says he and Dravos will leave at the next island to find his captain ([[Session 024 — The Friendly Baron|Episode 24]], [[Session 024.5 — Interstitial RP|24.5]]).
+
 ## Episodes 21–25
 
 - Reunites with [[Roma]] in prison; phases into cells ([[Episode 21 - House of Justice]]).

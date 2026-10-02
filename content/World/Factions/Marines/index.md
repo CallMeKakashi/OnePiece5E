@@ -10,7 +10,7 @@ Naval military of the World Government. The campaign's main Marine presence is t
 ## G-45 (Spirit Cliff)
 
 - [[Commodore Briggs]] — commander of G-45; owns [[Mugen Industries]]
-- [[Calder Voss]] — captain (Motley-era alias **Vorro**), later commodore
+- [[Calder Voss]] — captain (Motley-era alias **Vorro**), later commodore (unverified; no grilled session gives his rank)
 - [[Drez Crown, Captain of G-45]] — captain
 - [[Dr Nikolai Tesla]] — experimenter under Briggs's command
 

@@ -71,9 +71,22 @@ Feared by enemies, revered by her allies — her legend stretches across seas.
 
 - Calls the ship by Den Den Mushi: warns of the Marine base at [[Spirit Cliff]], to hide [[Baptiste]]'s wings, of [[Linus Marrow|Linus]]'s ties to [[Sixfold]], and that Red's past may catch up (Tusk's men near Spirit Cliff). Points the crew toward [[Bramble]] for a Grand Line–capable ship ([[Session 002 — Stormwings of Ambercrest|Episode 2]]).
 
+## Episode 17
+
+- Speaks to the bedridden Baptiste only by den den mushi. Says the old man's disappearance has stranded Blackhand-flag islands and the unit cannot unify now; tells him to form his own crew, and that fleets mean nothing. Calls Rias a personal grudge. She sent the Gentle Giants as backup and lent [[Malak Samum]] ([[Session 017 — Agony of Choas|Episode 17]]).
+
+## Episode 18
+
+- Baptiste calls her by den den mushi to ask who can help with what lies ahead; nothing new is promised beyond [[Malak Samum]] ([[Session 018 — Gentle Giant Pirates|Episode 18]]).
+
 ## Episode 19
 
 - Baptiste calls her about Dravos; she gives him free rein ([[Session 019 — The Walking Dead|Episode 19]]).
+
+## Episode 24
+
+- Calls Baptiste furious that someone from the other family told her the crew holds a Marine. Orders him to kill or release Voss, to keep clear of the Sixfold, and to talk to Thompson, warning that the Marines will come after every Blackhand crew. Hangs up on his question about being "Blackhand in name only" ([[Session 024 — The Friendly Baron|Episode 24]]).
+- In 24.5 she is heard sparring Tray in the background while Thompson begs Baptiste for help ([[Session 024.5 — Interstitial RP|24.5]]).
 
 ## Build template (Foundry)
 

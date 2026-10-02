@@ -200,6 +200,10 @@ Red blacks out — memory fractured ever since.
 
 ---
 
+## Episode 5
+
+- Gets into the bank with Saplea using Halward's keys and secures Bramble's chest from the director's cabin without opening it ([[Session 005 — Midnight Chainbreak|Episode 5]]).
+
 ## 🧠 Meta Notes (Mechanics)
 
 - **System:** DnD 5e

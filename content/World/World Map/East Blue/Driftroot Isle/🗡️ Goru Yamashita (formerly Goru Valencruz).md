@@ -200,7 +200,8 @@ Let the past finally reckon with the present.
 
 ## Episodes 24–25 (table)
 
-- Party intercepts his ship; allies via Black Hand contact; **Lex Imperia** back channel through Valehart mansion ([[Episode 24 - The Friendly Baron]]).
+- Baptiste and Malphas board his ship at night. He agrees to help the crew rather than hand them over: he knows [[Fenris]] and says Blackhand helped him back home, so he will land them on Lex Imperia and deny any link. His mist-samurai cylinder is a device his grandfather built. Hired escort Jack and his spiked dog Mikey travel with him. He learns [[Dravos]] is aboard and promises to help save him, learns Zim is the criminal whose trial he is to oversee, and calls his cousin [[Cassian Valehart]] with everything. Cassian refuses the case but will hide the crew at the Valehart mansion. Goru lends Baptiste his ship, and Cassian follows his ship out to make sure he leaves alive ([[Session 024 — The Friendly Baron|Episode 24]], [[Session 024.5 — Interstitial RP|24.5]]).
+- Mikey the dog is [[Morrow]], the family dog renamed after Laziel's experiments (DM, 2026-10-02).
 - Joins **Fire Storm** escort battle vs Marines; asked party to spare **Commander Leon** ([[Episode 25 - Fire Storm]]).
 ## Build template (Foundry)
 

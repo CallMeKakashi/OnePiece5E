@@ -62,6 +62,10 @@ Founding member of the [[Motley Crew]], now serving in the [[Marines]].
 
 - His den den mushi rings. [[Commodore Briggs]] demands him back. Baptiste brands the Blackhand mark on his chest with flames. Roma's sheet prank and Baptiste's force strikes mutilate him; he is hung from a steel beam in Baptiste's room ([[Session 023 — Choice for life|Episode 23]]).
 
+## Episode 24
+
+- Still aboard. Goru learns of him ("how many Marines?") and Mira orders Baptiste to kill or release him. Baptiste lies to Mira that Voss is not with him. The crew calls him "Voro" ([[Session 024 — The Friendly Baron|Episode 24]]).
+
 ## Episodes 21–25 (Lex Imperia)
 
 - **Commodore** rank on judiciary islands; G-45 armored Marine under his command ([[Episode 21 - House of Justice]]). (unverified: not from a grilled session): the S21/S22 grills give no rank.
