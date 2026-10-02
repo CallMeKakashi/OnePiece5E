@@ -22,6 +22,10 @@ The **Gentle Giant Pirates** are a unit of the [[Blackhand]] crew. A small but c
 
 - Mira sends the unit as backup to Decibella. They patch up the Lunarfolds after the tower and brief Baptiste on Droven and Cline D. Davis. They stay with their own mission (Cline) while the Lunarfolds head north ([[Session 017 — Agony of Choas|Episode 17]]).
 
+## Episode 18
+
+- Fenris refuses to give up Dravos for free and proposes a Davy Back Fight (best of three, no devil fruits) with Dravos as the stake. Facade loses Game 1 to Bob ([[Session 018 — Gentle Giant Pirates|Episode 18]]).
+
 ## Related
 
 - [[Blackhand]] — parent organization

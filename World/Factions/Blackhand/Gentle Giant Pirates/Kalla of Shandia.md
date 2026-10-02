@@ -78,6 +78,10 @@ With Garanth gone, the anti-peace faction among the Shandians grows stronger, pu
 
 - Scholar of the Gentle Giants. Attunes Roma's skillet, draws Baptiste's flag design from Malphas's sketch, and goes into Decibella's village for cloth and paint ([[Session 017 — Agony of Choas|Episode 17]]).
 
+## Episode 18
+
+- Holds a piece of the broken bell he and Baptiste each took on an earlier mission together (reroll one failed save per long rest); Baptiste holds both to test them against the rings ([[Session 018 — Gentle Giant Pirates|Episode 18]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

@@ -52,6 +52,10 @@ Helmsman of the [[Lunarfolds]], sailing under the [[Blackhand]] banner.
 
 - Fights Aegir's possessed body with Riff and Malphas, stabilises Roma, and carries the unconscious crew to the shore on his own, bleeding and with cracked ribs. Fenris tells Baptiste to ease up on him; Baptiste thanks him ([[Session 017 — Agony of Choas|Episode 17]]).
 
+## Episode 18
+
+- Asked what contests the crew should hold for the Davy Back Fight. The animals Riff gave the crew are for his reserve at W.G.A.R. ([[Session 018 — Gentle Giant Pirates|Episode 18]]).
+
 ## Backstory
 
 *(Details TBD)*

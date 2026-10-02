@@ -34,6 +34,10 @@ Navigator. Devil Fruit: [[Toneru Toneru no Mi]].
 - Introduces himself to Roma as Dravos the Mole and shifts the weight of Roma's skillet with his devil fruit. He makes PVC pipes to move the crew between floors.
 - Hired originally by Blackhand; now works with [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”|Fenris]], another Blackhand fleet captain who leads his own unit. "The captain" of [[Session 015 — Animal Within|Episode 15]] is Fenris ([[Session 016 — Broken Promises|Episode 16]]).
 
+## Episode 18
+
+- The stake in the Davy Back Fight: Baptiste wants him as guide to Zim, and Fenris will not let him go because finding Cline is hard. A freelancer, not crew, so he is the only thing wagered ([[Session 018 — Gentle Giant Pirates|Episode 18]]).
+
 ## Episode 17
 
 - Walls the possessed Baptiste in a 100 ft PVC pipe wall with Wall of Pipes, then runs to get help. Afterwards drums on barrels at the shore feast; Fenris counts him as crew though he was hired ([[Session 017 — Agony of Choas|Episode 17]]).

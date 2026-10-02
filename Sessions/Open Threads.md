@@ -8,7 +8,7 @@ publish: false
 
 A cross-session ledger of unresolved plot threads. Each session note keeps its own `## Open threads` section; this note rolls them up. Update it after every session grill.
 
-Last updated: after the [[Session 017 — Agony of Choas|Session 17]] grill (2026-10-02).
+Last updated: after the [[Session 018 — Gentle Giant Pirates|Session 18]] grill (2026-10-02).
 
 ## Live
 
@@ -23,7 +23,7 @@ Last updated: after the [[Session 017 — Agony of Choas|Session 17]] grill (202
 | **Anthem twins**: [[Lady Soefra Anthem]] and [[Sephra Anthem]] survived (S14 note corrected). Soefra healed the crew under Riff's shotgun; the twins escaped with the guards. Sephra's throat was crushed by Riff | [[Session 014 — The Decibel Decree\|S14]] | [[Session 016 — Broken Promises\|S16]] | Loose, hostile to Riff — see [[Lady Soefra Anthem]] |
 | **Brave Heart contact**: [[Malak Samum]] (Brave Hearts, sent by [[Mira the Unbreakable\|Mira]]) warned the crew about Rias and left Baptiste a transponder; [[Facade]] is Malak's ally and can be sent in. S17: Malak is on loan from Mira's crew to the Gentle Giants, and Facade has joined that unit | [[Session 016 — Broken Promises\|S16]] | [[Session 017 — Agony of Choas\|S17]] | Ongoing |
 | **Baptiste's den den mushi call**: he took a call at the tower gate and pocketed the mushi; the crew did not hear it | [[Session 016 — Broken Promises\|S16]] | [[Session 016 — Broken Promises\|S16]] | Unrevealed (S17 adds Mira and Voss calls) |
-| **Dravos and Fenris**: Dravos was hired by Blackhand and now works with Fenris, a Blackhand fleet captain with his own unit | [[Session 015 — Animal Within\|S15]] | [[Session 016 — Broken Promises\|S16]] | Ongoing — Fenris leads the Gentle Giant Pirates (S17); see [[Dravos]] |
+| **Dravos and Fenris**: Dravos was hired by Blackhand and now works with Fenris, a Blackhand fleet captain with his own unit | [[Session 015 — Animal Within\|S15]] | [[Session 018 — Gentle Giant Pirates\|S18]] (Baptiste wants him as guide to Zim; Fenris keeps him, so the Davy Back Fight is for him) | Ongoing — Fenris leads the Gentle Giant Pirates (S17); see [[Dravos]] |
 | **Vera ([[Omen Sisters]])**: appeared briefly to Baptiste, resembles Kira from the Baptiste/Kalla side mission; sent the crew to Riff, lied to him about ships, then left. Purpose on Decibella unknown | [[Session 014 — The Decibel Decree\|S14]] | S14 | Unrevealed — see [[Vera]] |
 | **Baptiste's Conqueror's Haki**: first unconscious burst at the Decibella gate; he learns control by training with [[Mira the Unbreakable\|Mira]] in a later session | [[Session 014 — The Decibel Decree\|S14]] | [[Session 015 — Animal Within\|S15]] (flavor only in the Coda fight) | Changed later (DM, 2026-10-02); closes when that session is grilled |
 | **The mermaid / Babylon**: Baptiste's secret four-year Gambino job as Haruki; Soefra's voice recalls it; the party doesn't know. Later mermaid mentions (S17, S19, S24.5) unconfirmed | [[Session 014 — The Decibel Decree\|S14]] | S14 | Secret — see [[Timeline/Undated/[Event] Babylon]] |
@@ -36,7 +36,7 @@ Last updated: after the [[Session 017 — Agony of Choas|Session 17]] grill (202
 | **The slave-trader trail in the South Blue**: [[Graff Bolt]] and [[Melina Celeste]] follow it; the crew is expected to meet them there | [[Session 013 — The Reaper\|S13]] | S13 | Ongoing |
 | **Unity War, Marine version**: Graff told Baptiste about Blackhand, Horus and Stella Celeste (Stella allegedly killed by Blackhand; Horus punished for failing to stop it). Melina already knew | [[Session 013 — The Reaper\|S13]] | [[Session 015 — Animal Within\|S15]] (the Emperor's footage shows [[Horus]]'s Devour Devour power; Coda imitates it) | The true account is still open |
 | **Reaper unit**: the past crew Baptiste and Malphas killed; Esper's brother was in it | [[Session 013 — The Reaper\|S13]] | S13 | Unrevealed |
-| **W.G.A.R. reserve restart**: [[Bugor]] needs animals; [[Cade Tigor Cooper\|Tigor]] joined the crew as helmsman to collect them | [[Session 013 — The Reaper\|S13]] | S13 | Ongoing |
+| **W.G.A.R. reserve restart**: [[Bugor]] needs animals; [[Cade Tigor Cooper\|Tigor]] joined the crew as helmsman to collect them | [[Session 013 — The Reaper\|S13]] | [[Session 018 — Gentle Giant Pirates\|S18]] (Riff's gift of a sabre-toothed tiger, wolf, dog and horses, kept by Roma for the reserve) | Ongoing |
 | **Slave-trade contact**: unnamed contact on the clowns' den den mushi; told Baptiste (posing as Bubbles) to bring the "slaves" to South Blue and expects a delivery | [[Session 012 — Clown Tricks\|S12]] | S12 | Ongoing |
 | **Bessie Jr and Bubbles D. Clown ("Bessie Senior")**: Sea King crab and handler with the crew; Graff and Melina asked for them, the crew refused and was knocked out; the pair wait at the beach | [[Session 012 — Clown Tricks\|S12]] | [[Session 013 — The Reaper\|S13]] | Ongoing — see [[Bessy Jr]] |
 | **Spider's Nest left W.G.A.R.**: Daniel, Ben and Chloe gone before the crew returned; they fought off Kyle and Esper first and left before Graff arrived | [[Session 012 — Clown Tricks\|S12]] | [[Session 013 — The Reaper\|S13]] | Ongoing, ties to Simon's reaction |
@@ -71,7 +71,9 @@ Last updated: after the [[Session 017 — Agony of Choas|Session 17]] grill (202
 | **Cline D. Davis**: Fenris's other target (Linus's payment to the Sixfold); the Gentle Giants hunt him while the Lunarfolds go north | [[Session 017 — Agony of Choas\|S17]] | [[Session 017 — Agony of Choas\|S17]] | Ongoing |
 | **North Blue convergence**: Zim, Droven and an Alice sighting all point north; the Lunarfolds and the Gentle Giants split here | [[Session 017 — Agony of Choas\|S17]] | [[Session 017 — Agony of Choas\|S17]] | Ongoing |
 | **Bob's memory fragments**: a mechanical spider at his core, an ash cloud, a hand taking an arm and a leg; the core is now fused and unremovable | [[Session 017 — Agony of Choas\|S17]] | [[Session 017 — Agony of Choas\|S17]] | Unrevealed |
-| **Fleet question**: Baptiste asked Mira for permission to form a fleet; she says fleets mean nothing, form your own crew. Blackhand-flag islands are collapsing without the old man | [[Session 017 — Agony of Choas\|S17]] | [[Session 017 — Agony of Choas\|S17]] | Ongoing |
+| **Fleet question**: Baptiste asked Mira for permission to form a fleet; she says fleets mean nothing, form your own crew. Blackhand-flag islands are collapsing without the old man | [[Session 017 — Agony of Choas\|S17]] | [[Session 018 — Gentle Giant Pirates\|S18]] (he calls Mira again for help; nothing beyond Malak) | Ongoing |
+| **Davy Back Fight for Dravos**: best of three, no devil fruits, Dravos the only stake. Game 1: Bob beat Facade. Game 2 is the Battle of Beasts | [[Session 018 — Gentle Giant Pirates\|S18]] | [[Session 018 — Gentle Giant Pirates\|S18]] | Live; continues in [[Session 019 — The Walking Dead\|S19]] (S19 not yet grilled) |
+| **Bell fragments**: Baptiste and [[Kalla of Shandia\|Kalla]] each hold a piece of a broken bell (reroll one failed save per long rest). Held together they resonate with the rings, which stay on | [[Session 018 — Gentle Giant Pirates\|S18]] | [[Session 018 — Gentle Giant Pirates\|S18]] | Unrevealed: where the bell came from and what it does with the rings |
 
 ## Needs checking
 

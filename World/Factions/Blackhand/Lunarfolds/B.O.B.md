@@ -91,6 +91,10 @@ foundry_live_slug: "b-o-b-old"
 
 - [[Lunarfolds]]
 - [[Baptiste]]
+## Episode 18
+
+- Downtime in his rebuilt Necrotic Savant body: severely depressed, but out of his room more, training martial combat with Roma and with Baptiste and Nautilus. Wins Game 1 of the Davy Back Fight against Facade ([[Session 018 — Gentle Giant Pirates|Episode 18]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

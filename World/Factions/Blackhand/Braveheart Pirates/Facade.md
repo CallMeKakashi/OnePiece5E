@@ -35,6 +35,10 @@ Crew member (**[[Malak Samum]]** secured the unit as "Operation: Facade"). Statu
 
 - Now a new member of the Gentle Giant Pirates with Malak. Keeps watch on the crew's ship, takes Bob's notebook to Fenris to work on his core ([[Session 017 — Agony of Choas|Episode 17]]).
 
+## Episode 18
+
+- Fights Bob in Game 1 of the Davy Back Fight and loses ([[Session 018 — Gentle Giant Pirates|Episode 18]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*
