@@ -72,6 +72,10 @@ The sound of her footsteps leaving stayed with him longer than any song.
 
 - Baptiste tells him to help the people but let them decide, rather than turn to the World Government. Roma tries to smuggle him aboard in a wine barrel; Baptiste stops it unless the surviving twin is found, and Riff stays on Decibella ([[Session 019 — The Walking Dead|Episode 19]]).
 
+## Episode 20
+
+- Gets a spare flag from the crew as they sail out of Decibella ([[Session 020 — Price of Freedom Part 1|Episode 20]]).
+
 ## Episodes 14–19 (Malphas arc)
 
 - **Decibella rebellion** — leads [[Cadence]] cell; Soundless Five tower trials ([[Episode 14 - The Decibel Decree]]–[[Episode 16 - Broken Promises]]).

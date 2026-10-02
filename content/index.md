@@ -202,6 +202,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Kara -Many-Eyes- Kagemi]]
 - [[Maro -Powderflash- Kel]]
 - [[Omen Sisters]]
+- [[Rashid al-Saffar]]
 - [[Sora]]
 - [[Vera]]
 

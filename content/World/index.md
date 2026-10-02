@@ -34,6 +34,7 @@ publish: true
 		- [[Kara -Many-Eyes- Kagemi]]
 		- [[Maro -Powderflash- Kel]]
 		- [[Omen Sisters]]
+		- [[Rashid al-Saffar]]
 		- [[Sora]]
 		- [[Vera]]
 	- **[[Underground Fighting Champions]]**
