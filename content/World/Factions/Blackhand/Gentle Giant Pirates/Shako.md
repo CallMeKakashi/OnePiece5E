@@ -80,6 +80,10 @@ Now, this timid yet monstrously strong mantis shrimp fishman sails the seas, shi
 
 - First mate to Fenris. Repairs the crew's ship on the beach (it drifts away whenever the mast is pulled, so he suspects it has a mind of its own). Spars Malphas through the night. Tells Malphas about carved initials on the helm and urges him to look into who the old crew were ([[Session 017 — Agony of Choas|Episode 17]]).
 
+## Episode 19
+
+- Fights Bob in the Davy Back Fight. Bob's Shield, Divine Smite and toxic vomit put him down ([[Session 019 — The Walking Dead|Episode 19]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

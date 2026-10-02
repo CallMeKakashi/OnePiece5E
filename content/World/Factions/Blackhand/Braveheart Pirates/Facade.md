@@ -38,6 +38,10 @@ Crew member (**[[Malak Samum]]** secured the unit as "Operation: Facade"). Statu
 
 - Fights Bob in Game 1 of the Davy Back Fight and loses ([[Session 018 — Gentle Giant Pirates|Episode 18]]).
 
+## Episode 19
+
+- Talks to Bob afterwards but cannot remember the name of the person who mended him after the blowup. They part as "brothers from different mothers" ([[Session 019 — The Walking Dead|Episode 19]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

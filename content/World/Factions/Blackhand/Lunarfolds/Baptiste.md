@@ -204,6 +204,10 @@ Under [[Blackhand Cane]], Baptiste goes undercover for four years as **Haruki**,
 
 - Second week of downtime. Calls Mira for help with what is ahead; nothing offered beyond Malak. Holds his bell fragment and Kalla's together and tries to take off the three rings; the fragments resonate with the rings, which stay on. Asks Fenris for Dravos as guide to Zim, and accepts a Davy Back Fight for him (best of three, no devil fruits) ([[Session 018 — Gentle Giant Pirates|Episode 18]]).
 
+## Episode 19
+
+- Knocks out [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”|Fenris]] in round 1 of the Davy Back Fight (Haste, a clone, the astral arm, Stunning Strike, his elemental domain) and tells him to get stronger before going after Cline. With Malphas he finds [[Dravos]] in the forest, calls Mira (free rein), learns Dravos's brother is [[Droven Calligos|Droven]], and gets Dravos to work with the crew for now. Tells [[Riff Sin]] to let the people decide, and stops Roma taking Riff in a barrel unless the surviving twin is found ([[Session 019 — The Walking Dead|Episode 19]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

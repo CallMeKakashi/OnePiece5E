@@ -331,3 +331,7 @@ traits:
 ## Episode 18
 
 - Baptiste asks him for [[Dravos]] to guide the crew to Zim. He refuses to give him up free (finding Cline is hard, and the Gentle Giants have no reason to fight the Sixfold, with Linus unavailable) and proposes a Davy Back Fight: best of three, no devil fruits, Dravos the only stake ([[Session 018 — Gentle Giant Pirates|Episode 18]]).
+
+## Episode 19
+
+- Loses the Davy Back Fight 3-0 and is knocked out by Baptiste in round 1. Baptiste tells him to get stronger before going after Cline, since the Sixfold are dangerous ([[Session 019 — The Walking Dead|Episode 19]]).

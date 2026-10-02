@@ -93,6 +93,10 @@ foundry_live_slug: "b-o-b-old"
 
 - Downtime in his rebuilt Necrotic Savant body: severely depressed, but out of his room more, training martial combat with Roma and with Baptiste and Nautilus. Wins Game 1 of the Davy Back Fight against Facade ([[Session 018 — Gentle Giant Pirates|Episode 18]]).
 
+## Episode 19
+
+- Beats [[Shako]] in the Davy Back Fight using Shield, Divine Smite and the Cursed Bloodstone (a bong, advantage on initiative), vomiting toxic blood in his face, then passes out. Later talks to [[Facade]], who cannot remember who mended him; they part as "brothers from different mothers". Chases the twin's trail with Detect Magic and jumps off a cliff, then spends the night getting high with the panthers ([[Session 019 — The Walking Dead|Episode 19]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*
