@@ -32,7 +32,7 @@ ACTOR_MAP: dict[str, str] = {
     "julee": "World/Factions/Blackhand/Braveheart Pirates/Ju Lee Caneheart.md",
     "treble": "World/Factions/Decibella Revolutionary/Cadence.md",
     "treble-anthem": "World/Factions/Soundless 5/Lady Soefra Anthem.md",
-    "drez": "World/Factions/Marines/Delaroth.md",
+    "drez": "World/Factions/Marines/Drez Crown, Captain of G-45.md",
     "linn": "World/Factions/Sixfold/Liz.md",
     "bartho": "World/Factions/Blackhand/Blackhand Cane.md",
     "crunch": "World/Factions/Unaffiliated/DevilMask.md",
