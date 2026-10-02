@@ -24,10 +24,13 @@ Arrival at silent capital **Decibella**; sound illegal; hideout **The Discord**;
 
 ## Beats
 
-1. **Island** — after [[Graff Newt]]; log pose from WG merchant; eerie quiet capital.
-2. **Law** — sound treated as crime; tentacle lake incident; [[Baptiste]] Haki-like burst.
-3. **Discord** — meet [[Riff Sin]]; [[Cadence]] captured.
-4. **Liberty Bell** — [[B.O.B]] rings bell; Soundless Five offer tower trials — session ends entering broadcast tower.
+1. **Island** — after [[Graff Bolt]]; log pose from a W.G.A.R. merchant; eerie quiet capital. A [[Lake Tentacle]] takes a thrown guard.
+2. **Gate** — [[Baptiste]]'s first unconscious Conqueror's Haki flattens three gate guards; megaphones announce "deploying House Tremor."
+3. **Slums** — House Echo spies ambush the crew; [[Riff Sin]] leads them to the Discord hideout and [[Vera]]'s name comes up; [[Sloan]] and the commoners.
+4. **Woofer** — House Tremor raids the hideout; [[Baron Woofer]] is killed, the hideout is lost.
+5. **Channel** — the crew climbs the ventilation shaft under the Emperor's hourly broadcast.
+6. **Opera House** — [[Lady Soefra Anthem|Soefra]] and [[Sephra Anthem|Sephra]] torture [[Cadence]]; Baptiste is charmed (memory of the mermaid, see [[Timeline/Undated/[Event] Babylon]]); both twins die and Cadence is rescued. Riff takes the Override Disc.
+7. **Liberty Bell** — [[B.O.B]] topples the bell; the [[Soundless 5]] slice it apart and offer the keycard game inside the Broadcast Tower. Long rest.
 
 ## Evidence
 

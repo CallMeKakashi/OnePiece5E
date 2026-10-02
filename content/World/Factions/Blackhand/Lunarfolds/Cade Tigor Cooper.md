@@ -32,6 +32,10 @@ Helmsman of the [[Lunarfolds]], sailing under the [[Blackhand]] banner.
 
 - Worker on [[W.G.A.R.]] (the tiger-costumed one) and the younger brother of [[Bugor]], the bear who runs the island. Joins the crew as helmsman: Bugor asks them to take him because he always wanted to sail, is wasting his potential there and is a skilled helmsman, and because the reserve needs animals to restart. Tigor reluctantly agrees ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
 
+## Episode 14
+
+- First time seeing the crew fight. Evacuates the commoners and the elder [[Sloan]] when [[Baron Woofer]] raids the hideout; treats Malphas and Bob with a med kit in the Opera House ([[Session 014 — The Decibel Decree|Episode 14]]).
+
 ## Backstory
 
 *(Details TBD)*

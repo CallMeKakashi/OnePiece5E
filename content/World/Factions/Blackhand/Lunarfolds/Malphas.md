@@ -454,6 +454,10 @@ And fate shifted.
 
 - With [[Baptiste]], a target of [[Esper Grimrose]]'s revenge for killing her brother's Reaper unit. Knocked out with the crew by [[Graff Bolt]]'s Conqueror's Haki; later goes aboard to look around ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
 
+## Episode 14
+
+- Hears the faint sounds in Decibella's alleys and spots House Echo's spies on the roofs; opens the slum fight and kills one spy with his own tuning fork. Transforms (Wildsaid hybrid) and shatters Woofer's armor with a stomp. Fights with Baptiste in the Opera House (the twins' note leaves a ringing ear, temporary only), and helps kill [[Lady Soefra Anthem|Soefra]] and [[Sephra Anthem|Sephra]]. Casts armor of Agathys on himself ([[Session 014 — The Decibel Decree|Episode 14]]).
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

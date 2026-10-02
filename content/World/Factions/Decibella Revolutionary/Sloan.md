@@ -16,6 +16,10 @@ foundry_live_slug: "sloan"
 
 *(Details TBD)*
 
+## Episode 14
+
+- "Sloan Sick," the older masked commoner elder, signs with chalkboards. Angry that [[Riff Sin]] brought strangers in ("the council will decide"); leads the commoners out through the tunnel when the hideout is raided ([[Session 014 — The Decibel Decree|Episode 14]]).
+
 ## Related
 
 - [[Decibella Revolutionary]]

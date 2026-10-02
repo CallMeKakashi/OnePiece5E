@@ -147,6 +147,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Lady Soefra Anthem]]
 - [[Mezzo Troop]]
 - [[Rhythm Echo]]
+- [[Sephra Anthem]]
 - [[Snickers]]
 - [[Soundless 5]]
 - [[Synth]]
@@ -198,7 +199,9 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Bugor]]
 - [[Kara -Many-Eyes- Kagemi]]
 - [[Maro -Powderflash- Kel]]
+- [[Omen Sisters]]
 - [[Sora]]
+- [[Vera]]
 
 
 ---
@@ -223,6 +226,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Grinner]]
 - [[Guard]]
 - [[Hydra Goose]]
+- [[Lake Tentacle]]
 - [[Lamprey Horror]]
 - [[Lumafang-Dosed Fighter]]
 - [[Mafia Grunt]]
@@ -274,6 +278,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 | [[Tori Tori no Mi — Model Sparrow]] | [[Jack S. Parrow]] | canon |
 | [[Uchu Uchu no Mi]] | [[Baptiste]] | canon |
 | [[Unknown Devil Fruit — Party 1]] | Party 1 (unclaimed) | canon |
+| [[Voice Voice Fruit]] | Emperor of Decibella (name TBD) | draft |
 | [[Yokai Yokai no Mi]] | [[Simon The One Armed Tyrant]] | canon |
 | [[Yuki Yuki no Mi — Model Yeti]] | [[Roma]] | canon |
 

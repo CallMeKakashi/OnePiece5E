@@ -18,6 +18,12 @@ One of the [[Soundless 5]], the enforcers of silence in [[Decibella Kingdom]].
 ## Personal Quests
 
 ## Backstory
+
+Twin sister of [[Sephra Anthem]]. Was jealous of [[Cadence]]'s childhood singing talent and had her masked earlier than other Decibellans.
+
+## Episode 14
+
+- Tortures [[Cadence]] in the Royal Opera House; her sonic notes (shatter, vertigo, a 15-thunder shockwave) and charm hurt the crew, injuring Malphas's ear (temporary) and dropping Roma to 2 HP. Charms Baptiste, who resists; Baptiste kills her ([[Session 014 — The Decibel Decree|Episode 14]]).
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.
