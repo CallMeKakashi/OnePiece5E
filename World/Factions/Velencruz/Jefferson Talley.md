@@ -13,3 +13,7 @@ Head butler of the Valehart household on [[Lex Imperia]], and the only staff mem
 ## Episode 24
 
 - Is cleaning up the damage when [[Roma]] goes out, tells him which fork to take at the crossroads towards the market, and is annoyed by Roma's questions about brothels, asking him to step outside. Prepares supper for the crew and brings them books ([[Session 024 — The Friendly Baron|Episode 24]]).
+
+## Episode 25
+
+- Tells the muddy crew to respect the mahogany floor, collects the able-bodied for Lord Valehart, and sees Roma and Bob off on the Valehart merchant ship, silently reminding Roma to return the chef's outfit intact ([[Session 025 — Fire Storm|Episode 25]]).

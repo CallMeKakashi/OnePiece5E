@@ -229,6 +229,10 @@ Under [[Blackhand Cane]], Baptiste goes undercover for four years as **Haruki**,
 
 - Dreams of Aegir's defeat (five figures, "this is the end for you, Aegir"). Is flown onto the noble ship by Malphas, knocks out two guards, and persuades Goru Yamashita to help rather than fight. Is told on den den mushi by Mira to kill or release Voss, keep clear of the Sixfold and talk to Thompson, and lies that Voss is not with him. Takes Goru's ship back to the crew's ship after Roma's rampage. Unknown to him, Ace's file on him (Gambino/Haruki, aliases Masquerade, Oroboros, Raven) reaches Jack ([[Session 024 — The Friendly Baron|Episode 24]]).
 
+## Episode 25
+
+- Aegir speaks in the rings ("I have recovered enough") and Linus says the rings are worsening. Baptiste threatens the Commodore over the den den mushi about Voss, boards Leon's warship first, and drinks the black vial mid-fight (Large, wings back, Con 20, temporary). Droven punches him afterwards and wants nothing to do with him. Nikolai's mist takes Voss from his cabin hold ([[Session 025 — Fire Storm|Episode 25]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

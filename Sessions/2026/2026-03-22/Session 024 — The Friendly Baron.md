@@ -65,9 +65,9 @@ Off the nobles' channel, then aboard the noble ship and the crew's ship at night
 
 Cross-session ledger: [[Open Threads]].
 
-- **The five figures in Baptiste's dream**: Aegir's memory of his defeat. Who they were is unrevealed.
+- **The five figures in Baptiste's dream**: Aegir's memory of his defeat. Who they were is unrevealed. In [[Session 025 — Fire Storm|S25]] Aegir speaks again through the rings.
 - **Cassian and Goru hide the crew**: a week at the Valehart mansion, with the Marines not told. Cassian refused to take Zim's case.
-- **Rescue plan**: three warships, four checkpoints, nothing settled.
+- **Rescue plan**: three warships, four checkpoints, nothing settled. Resolved in [[Session 025 — Fire Storm|S25]]: the Marines sped up the transport and Linus and Dravos freed Droven during the fleet fight.
 - **Mira's order**: kill or release Voss, keep clear of the Sixfold. Baptiste lied to her about where Voss is.
 - **Roma's human form**: the white serum did not stop the full moon, and he killed civilians and 10 to 20 Marines as a beast.
 - **Jack**: a Royal Flush Gang gunman on Ace's orders to ally with the Lunarfolds.

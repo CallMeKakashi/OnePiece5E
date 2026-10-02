@@ -47,6 +47,10 @@ Named on [[Calder Voss]]'s routing papers (G-9 assignment).
 
 - Named on Voss's routing paper as Commander of G-9, one of two captains escorting Droven to Noosehold ([[Session 022 — The Missing Piece|Episode 22]]).
 
+## Episode 25
+
+- Stands on the mast and offers the crew a peaceful retreat in G-9's name, then fights with air-slash Tempest Kicks and Haki. Ignites as a Flame Logia (burn scars and right eye aflame, rain stops) and kills the saber-tooth. Falls to Alice's Conqueror's Haki, and Marines carry him away alive ([[Session 025 — Fire Storm|Episode 25]]).
+
 ## Related
 
 - [[Calder Voss]]

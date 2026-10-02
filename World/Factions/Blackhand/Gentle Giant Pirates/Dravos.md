@@ -67,6 +67,10 @@ Navigator. Devil Fruit: [[Toneru Toneru no Mi]].
 
 - Rests in a room aboard. Goru finds him there, knows him, and promises to help save him. In the 24.5 scenes he says he and Linus will leave the crew at the next island: "a big brother's job to protect his younger brother" ([[Session 024 — The Friendly Baron|Episode 24]], [[Session 024.5 — Interstitial RP|24.5]]).
 
+## Episode 25
+
+- Opens the pipe to the middle warship (the edge of his range) and, off-session, drills into the flooding lower deck and frees his brother [[Droven Calligos|Droven]], calling himself "Ser Dravos the Mole, the great knight of Driftroot". Brings Linus and Droven out through another pipe and later calms Droven when he punches Baptiste ([[Session 025 — Fire Storm|Episode 25]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

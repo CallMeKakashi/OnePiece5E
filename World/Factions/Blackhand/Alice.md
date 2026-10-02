@@ -35,6 +35,10 @@ foundry_live_slug: "alice"
 
 - Malphas's sister is expected near the North Blue convergence: sightings point there along with Zim and Droven. Malphas recognises a name on a message piece Riff hands him ([[Session 017 — Agony of Choas|Episode 17]]).
 
+## Episode 25
+
+- The flying figure that burned the Marine warship, there to help Droven. Reunites with [[Malphas]] on the sinking ship and recognises him in his hybrid form. Jack's shots hit her (6, then 56). Her Conqueror's Haki knocks out the whole ship but Malphas and Tigor. Aboard the crew's ship she says she has a lead on "that code guy" and warns of "the doctor", then is taken with Malphas by Nikolai's mist ([[Session 025 — Fire Storm|Episode 25]]).
+
 ## Related
 
 - [[Malphas]]

@@ -48,6 +48,10 @@ Player character of the [[Royal Flush Gang]]. Grounded, observant, and suspiciou
 - A hired gunman of the Royal Flush Gang (West Blue), employed by Goru Yamashita as an escort. Fires warning shots from the mast when Baptiste and Malphas board, then recognises [[Linus Marrow]] as the one who stole money from his gang's World Government bank raid and shoots at him. The bullet passes through Linus. He holsters it because his client is allied to the crew, and warns Goru it is a bad idea to go with them. Comes only if Linus does not ([[Session 024 — The Friendly Baron|Episode 24]]).
 - In 24.5 [[The Ace]] (a woman) tells him the family war is a gang war, that the Ravens were paid for the escort mission, to watch "the Spectre", and to ally with the Lunarfold Pirates as a man on the inside. She gives him a file on the crew, including Baptiste's four-year Gambino job as Haruki and his aliases (Masquerade, Oroboros, Raven) ([[Session 024.5 — Interstitial RP|24.5]]).
 
+## Episode 25
+
+- Boards with Goru as his escort and fires from range all fight under the table rule that natural 1s hit allies; one critical goes through Roma's leg, and his marked shots hit Alice. Refuses Linus's healing and guards Goru afterwards ([[Session 025 — Fire Storm|Episode 25]]).
+
 ## Related
 
 - [[Royal Flush Gang]]

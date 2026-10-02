@@ -26,6 +26,10 @@ Lawyer at the high court on [[Lex Imperia]], son of [[Judge Valehart]], and a fi
 
 - Goru's cousin. Goru calls him with Zim's story; he refuses to take the case, but agrees to harbour the crew for a week. Waits alone at the bottom of the back-channel stairs, sends his guards and staff away, and shakes Goru's hand. Recognises Roma (the man who bought his lunch) and fails to see the human form is wrong. Tells the crew the mansion damage was hard to explain to his father, and says he will not tell the Marines. Sits in on the rescue planning and explains the checkpoints and the three-warship escort. Follows Goru's ship out afterwards ([[Session 024 — The Friendly Baron|Episode 24]], [[Session 024.5 — Interstitial RP|24.5]]).
 
+## Episode 25
+
+- Hears the distress call with Goru, tells Jefferson to prepare a ship at once and says he wants the crew out of his mansion as soon as possible ([[Session 025 — Fire Storm|Episode 25]]).
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.
