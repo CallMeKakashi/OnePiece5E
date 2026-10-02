@@ -8,7 +8,7 @@ episode: []
 sources: [
    "DM account (unrecorded)",
    "[[Session 005 — Midnight Chainbreak]]",
-   "[[Session 00006 — Hallow's End]]"
+   "[[Session 006 — Hallow's End]]"
 ]
 aliases:
   - "Session 5.5 — Callisto"
@@ -46,9 +46,9 @@ aliases:
 ## Where/When
 
 - **Location**: [[Callisto]] (Grand Line). The Mugen Industries facility: factories, the garbage chute and trash compactors, the corridors, and the Core (the "Divine Furnace").
-- **In-world date**: TBD. This comes before the Callisto collapse reported in [[1478-12moon [Newspaper] Grand Line Tribune — Morning]].
+- **In-world date**: 1478, after the [[Timeline/Undated/[Event] Interlude — Red Departs and Reverse Mountain|Reverse Mountain interlude]] and immediately before [[Session 006 — Hallow's End|Hallow's End]]; exact date TBD. This comes before the Callisto collapse reported in [[1478-12moon [Newspaper] Grand Line Tribune — Morning]].
 
-## Outcomes
+## Actual play outcomes
 
 - **Reunion**: the two parties come together on Callisto. [[Baptiste]] and [[Roma]] arrive via Reverse Mountain with Veyl and Serica; [[Malphas]] and [[B.O.B]] stow away on a Germa merchant ship to Harpoon Cay.
 - **Hallow's lure**: Hallow, a lineman, points them to a large building and claims there is a clue about Vireth there.
@@ -60,8 +60,8 @@ aliases:
 
 ## Open threads
 
-- **Vireth clue**: was there ever a real lead on Vireth, or only the bait? ("find Vireth… start going after the list", [[Timeline/Undated/[Event] Interlude — Red Departs and Reverse Mountain|interlude]]) **Update**: [[Session 00009 — The Lunarfold Tournament Part 2|Episode 9]] — Zim places Vireth in the North Blue heading south with Liz, and reveals he is Astor and Ronan fused.
-- **Spider grudge**: why do the Spiders blame Sixfold? This is answered in part in [[Session 00006 — Hallow's End]] (the ring disaster).
+- **Vireth clue**: was there ever a real lead on Vireth, or only the bait? ("find Vireth… start going after the list", [[Timeline/Undated/[Event] Interlude — Red Departs and Reverse Mountain|interlude]]) **Update**: [[Session 009 — The Lunarfold Tournament Part 2|Episode 9]] — Zim places Vireth in the North Blue heading south with Liz, and reveals he is Astor and Ronan fused.
+- **Spider grudge**: why do the Spiders blame Sixfold? This is answered in part in [[Session 006 — Hallow's End]] (the ring disaster).
 
 ## Loot & changes
 
@@ -77,5 +77,5 @@ aliases:
 |------|------|
 | Timeline | [[Timeline/Undated/[Event] Callisto — Hallow's Trap]] |
 | Prior | [[Session 005 — Midnight Chainbreak]] · [[Timeline/Undated/[Event] Interlude — Red Departs and Reverse Mountain]] |
-| Next | [[Session 00006 — Hallow's End]] |
+| Next | [[Session 006 — Hallow's End]] |
 | Raw | None (unrecorded) |

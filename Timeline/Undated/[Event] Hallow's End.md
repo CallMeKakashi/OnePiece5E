@@ -44,4 +44,4 @@ Destruction of [[Mugen Industries]]' facility on [[Callisto]] (Episode 6). Conti
 ## Evidence
 
 - [[Episode 06 - Hallow's End]]
-- [[Session 00006 — Hallow's End]]
+- [[Session 006 — Hallow's End]]

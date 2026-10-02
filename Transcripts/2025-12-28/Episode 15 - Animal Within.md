@@ -15,7 +15,7 @@ aliases:
 
 ## Extracted
 
-> Mid-combat open; see [[Session 00015 — Animal Within]] prep.
+> Mid-combat open; see [[Session 015 — Animal Within]] prep.
 
 ### Summary
 

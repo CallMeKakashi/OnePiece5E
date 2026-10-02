@@ -13,7 +13,7 @@ sources: [
 aliases:
   - 2026-02-22 — House of Justice
 ---
-# Session 21 — House of Justice
+# Session 021 — House of Justice
 
 ## TL;DR
 

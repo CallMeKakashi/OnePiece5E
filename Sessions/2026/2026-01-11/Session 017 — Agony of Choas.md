@@ -9,12 +9,12 @@ episode: [
 sources: [
    "[[Episode 17 - Agony of Choas]]",
    "[[2026-05-24 — Howling Thunder (DM prep)]]",
-   "[[Session 00016 — Broken Promises]]"
+   "[[Session 016 — Broken Promises]]"
 ]
 aliases:
   - 2026-01-11 — Agony of Choas
 ---
-# Session 17 — Agony of Choas
+# Session 017 — Agony of Choas
 
 ## TL;DR
 
@@ -34,7 +34,7 @@ aliases:
 |------|------|
 | Transcript | [[Episode 17 - Agony of Choas]] |
 | Timeline | [[Timeline/Undated/[Event] Agony of Choas]] |
-| Prior | [[Session 00016 — Broken Promises]] |
+| Prior | [[Session 016 — Broken Promises]] |
 | Raw | `Transcripts/2026-01-11/Episode 17 - Agony of Choas.txt` |
 
 ## Open threads

@@ -14,21 +14,7 @@ publish: true
 	- **[[Guardians of Sol]]**
 	- **[[Guiseppi Family]]**
 	- **[[High Roost Pirates]]**
-	- **Marines**
-		- [[Calder Voss]]
-		- [[Captain Reddan Korr]]
-		- [[Commander Leon]]
-		- [[Delaroth]]
-		- [[Dr Nikolai Tesla]]
-		- [[Drez Crown, Captain of G-45]]
-		- [[Graff Bolt]]
-		- [[Heathcliff]]
-		- [[Horus]]
-		- [[Marine Ensign (Armor Mk III)]]
-		- [[Melina Celeste]]
-		- [[Obsidian]]
-		- [[Petty Officer Marine]]
-		- [[Sir Can Veil]]
+	- **[[Marines]]**
 	- **[[Marlon Family]]**
 	- **[[Motley Crew]]**
 	- **[[Moulan Family]]**
@@ -43,6 +29,8 @@ publish: true
 	- **[[Spider Nest Pirates]]**
 	- **[[Tremor]]**
 	- **Unaffiliated**
+		- [[Bore]]
+		- [[Bugor]]
 		- [[Kara -Many-Eyes- Kagemi]]
 		- [[Maro -Powderflash- Kel]]
 		- [[Sora]]

@@ -33,6 +33,15 @@ Current leader of the [[Sixfold]]. Headquarters at **Magnolia** aboard the **Arm
 
 Origin tied to [[[Backstory] Elizabeth Marrow — mortuary escape]]. Founding member of the [[Motley Crew]] who went on to lead the [[Sixfold]]. Referenced in Informant's episode 9 intel (flying North Blue → South Blue with Vireth).
 
+## Episode 9
+
+- Veyl explains her Paper-Paper powers: Sixfold ID cards let Liz track and briefly talk to each member, and anything folded from her paper works like the real thing. Veyl's spare Liz pages are on the lost ship.
+- Zim reports she is with [[Vireth]] (the Marines wanted to know whether another Sixfold was with him) ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]).
+
+## Episode 11
+
+- [[Veyl Corven|Veyl]] tells [[Daniel]] that during the fight at Virellis she and Sister Elise were **fused with [[Vireth]]'s power** to hold an explosion. Liz now has only the barrier fruit and no memory of Elise ([[Session 011 — Welcome to the Jungle|Episode 11]]).
+
 ## Related
 
 - [[Sixfold]]

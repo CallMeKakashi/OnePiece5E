@@ -8,13 +8,13 @@ episode: [
 ]
 sources: [
    "[[Episode 24 - The Friendly Baron]]",
-   "[[Session 00023 — Choice for life]]",
-   "[[Session 00024.5 — Interstitial RP]]",
+   "[[Session 023 — Choice for life]]",
+   "[[Session 024.5 — Interstitial RP]]",
 ]
 aliases:
   - 2026-03-22 — The Friendly Baron
 ---
-# Session 24 — The Friendly Baron
+# Session 024 — The Friendly Baron
 
 ## TL;DR
 
@@ -32,9 +32,9 @@ aliases:
 |------|------|
 | Transcript | [[Episode 24 - The Friendly Baron]] |
 | Timeline | [[Timeline/Undated/[Event] The Friendly Baron]] |
-| Prior | [[Session 00023 — Choice for life]] |
+| Prior | [[Session 023 — Choice for life]] |
 | Raw | `Transcripts/2026-03-22/Episode 24 - The Friendly Baron.txt` |
-| Supplement | [[Session 00024.5 — Interstitial RP]] |
+| Supplement | [[Session 024.5 — Interstitial RP]] |
 
 ## Open threads
 

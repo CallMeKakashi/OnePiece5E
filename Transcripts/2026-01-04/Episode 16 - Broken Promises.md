@@ -15,7 +15,7 @@ aliases:
 
 ## Extracted
 
-> Broadcast tower assault; see [[Session 00016 — Broken Promises]] outline.
+> Broadcast tower assault; see [[Session 016 — Broken Promises]] outline.
 
 ### Summary
 

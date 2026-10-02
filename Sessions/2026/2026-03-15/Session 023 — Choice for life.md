@@ -8,12 +8,12 @@ episode: [
 ]
 sources: [
    "[[Episode 23 - Choice for life]]",
-   "[[Session 00022 — The Missing Piece]]"
+   "[[Session 022 — The Missing Piece]]"
 ]
 aliases:
   - 2026-03-15 — Choice for life
 ---
-# Session 23 — Choice for life
+# Session 023 — Choice for life
 
 ## TL;DR
 
@@ -31,8 +31,8 @@ aliases:
 |------|------|
 | Transcript | [[Episode 23 - Choice for life]] |
 | Timeline | [[Timeline/Undated/[Event] Choice for life]] |
-| Prior | [[Session 00022 — The Missing Piece]] |
-| Prior | [[Session 00022 — The Missing Piece]] |
+| Prior | [[Session 022 — The Missing Piece]] |
+| Prior | [[Session 022 — The Missing Piece]] |
 | Raw | `Transcripts/2026-03-15/Episode 23 - Choice for life.txt` |
 
 ## Open threads

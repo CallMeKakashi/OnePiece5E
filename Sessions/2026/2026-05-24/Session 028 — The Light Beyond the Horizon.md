@@ -8,7 +8,7 @@ sources: []
 aliases:
   - 2026-05-24 — The Light Beyond the Horizon
 ---
-# Session 28 — The Light Beyond the Horizon
+# Session 028 — The Light Beyond the Horizon
 
 ## TL;DR
 

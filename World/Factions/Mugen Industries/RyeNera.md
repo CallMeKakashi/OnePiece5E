@@ -28,6 +28,10 @@ Grotesque **two-human amalgam** — Nikolai's earlier fusion prototype before th
 
 RyeNera was part of the founding-era experiments on [[Callisto]]. Survivors of the facility collapse blamed pirate sabotage; Mugen and **Commodore Briggs** used the disaster for political cover ([[Timeline/1478/1478-12moon [Newspaper] Grand Line Tribune — Morning]]).
 
+## Episode 6
+
+- Dropped out of a tree by [[Hallow]] in the graveyard; crushes his head. Heals and raises zombies from the graves, until [[Roma]] cuts off a healing tendril and [[Ben]] kills it ([[Session 006 — Hallow's End|Episode 6]]).
+
 ## Related
 
 - [[Dr Nikolai Tesla]]

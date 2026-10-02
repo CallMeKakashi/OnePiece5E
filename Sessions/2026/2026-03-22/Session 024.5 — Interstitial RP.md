@@ -8,12 +8,12 @@ episode: [
 ]
 sources: [
    "[[Episode 24 - The Friendly Baron]]",
-   "[[Session 00024 — The Friendly Baron]]"
+   "[[Session 024 — The Friendly Baron]]"
 ]
 aliases:
   - 2026-03-22 — Interstitial RP
 ---
-# Session 24.5 — Interstitial RP
+# Session 024.5 — Interstitial RP
 
 ## TL;DR
 
@@ -23,7 +23,7 @@ aliases:
 
 ## Actual play outcomes
 
-> **Not a broadcast episode.** Supplemental table/RP (Ace call, ship scenes) during [[Episode 24 - The Friendly Baron]] arc. See also [[Session 00024 — The Friendly Baron]].
+> **Not a broadcast episode.** Supplemental table/RP (Ace call, ship scenes) during [[Episode 24 - The Friendly Baron]] arc. See also [[Session 024 — The Friendly Baron]].
 
 ## Links
 

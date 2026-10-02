@@ -49,6 +49,10 @@ Founding member of the [[Motley Crew]], now serving in the [[Marines]].
 - Commands response to the **[[World Government Bank]]** raid; first-class marines under his orders.
 - Opposed by colliding [[Sixfold]] and Blackhand-linked crew; clash unresolved at session end.
 
+## Episode 10
+
+- **Nightmare only**: in the crew's shared ring nightmare he arrives with G-45 armours "in the name of [[Commodore Briggs]]", wanting the two Lunarians alive for Mugen research, and unleashes **Project Wonderland** (see [[Alice]]). He taunts [[B.O.B|Bob]] that his mother's last word was "Basilisk"; Bob warps him into the sea and drags him under ([[Session 010 — Sea of Nightmares|Episode 10]]).
+
 ## Episodes 21–25 (Lex Imperia)
 
 - **Commodore** rank on judiciary islands; G-45 armored Marine under his command ([[Episode 21 - House of Justice]]).

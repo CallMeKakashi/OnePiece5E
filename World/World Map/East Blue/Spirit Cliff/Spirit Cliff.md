@@ -17,8 +17,8 @@ East Blue island: a World Government bank branch and **Marine Base G-45**, comma
 
 - [[World Government Bank]]
 - [[Lucien]]
-- [[The Black Ledger of Director Halward Lynne]]
-- [[Delaroth Halward|Director Halward Lynne]]
+- [[The Black Ledger of Director Delroth Halward]]
+- [[Delroth Halward|Director Delroth Halward]]
 - [[Bramble]]
 - [[Calder Voss]]
 - [[Commodore Briggs]]

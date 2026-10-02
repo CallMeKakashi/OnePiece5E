@@ -29,4 +29,4 @@ Resolves Ep 10 spider nightmares; crew reaches dome **zoo island**; **Circle of 
 ## Evidence
 
 - [[Episode 11 - Welcome to the Jungle]]
-- [[Session 00011 — Welcome to the Jungle]]
+- [[Session 011 — Welcome to the Jungle]]

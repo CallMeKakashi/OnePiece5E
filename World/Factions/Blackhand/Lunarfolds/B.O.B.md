@@ -39,18 +39,39 @@ foundry_live_slug: "b-o-b-old"
 - **Laissez Faire and the Son of the Sea** — A drunk killer on Basilisk Point dies saving the scholar Elara and her baby; Bob, raised by Elara, rescues [[Ronan]] from the shore, and protecting him from bounty hunters costs Bob an arm and a leg and fuses an experimental core into his chest. Ronan is sent away with a promise to meet again at sea. Full text: [[[Backstory] B.O.B. — Laissez Faire and the Son of the Sea]].
 - **The Compression Cannon** — Bob and Ronan save a misfiring Scholars' Guild cannon with a steel-plate ramp and pistons. Full text: [[[Backstory] B.O.B. — The Compression Cannon]].
 
+## Session 005.5
+
+- Stows away with [[Malphas]] on a Germa merchant ship to Harpoon Cay, then joins the party on [[Callisto]] ([[Session 005.5 — Callisto]]).
+
+## Episode 6
+
+- Fails his CON save when [[Veyl Corven]]'s Speed Fruit carries the party out of the Core, and throws up. Takes Fey Touched (Misty Step, Silvery Barbs) at level 4; takes the targeting goggles (+1 to ranged spell attacks) and a glowing blue energy orb that could be slotted into his core ([[Session 006 — Hallow's End|Episode 6]]).
+
 ## Episode 8
 
-- Spends the downtime in a storeroom, studying the crew's fighting styles; on the mission to find the missing Second Fleet commander, Goro ([[Timeline/Undated/[Event] Interlude — Queen Anne's Revenge and Frosthaven]]). Questions the crew about devil fruits. Loses tournament bout 1 to [[Veyl Corven]], who promises to explain Rokushiki. Takes [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]]'s puzzle box (at least 100 days to solve) ([[Session 00008 — The Lunarfold Tournament Part 1|Episode 8]]).
+- Spends the downtime in a storeroom, studying the crew's fighting styles; on the mission to find the missing Second Fleet commander, Goro ([[Timeline/Undated/[Event] Interlude — Queen Anne's Revenge and Frosthaven]]). Questions the crew about devil fruits. Loses tournament bout 1 to [[Veyl Corven]], who promises to explain Rokushiki. Takes [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]]'s puzzle box (at least 100 days to solve) ([[Session 008 — The Lunarfold Tournament Part 1|Episode 8]]).
 
 ## Episode 9
 
-- Reveals he was **Blackhand's interrogator**: the one behind the suspect reading their thoughts. Loses to [[Roma]] (last place) after a deal that Roma will allow some devil-fruit tests. Revives and later reads [[Zim]] with Detect Thoughts, drawing out the [[Vireth]] fusion secret. Quietly keeps one sea-prism cuff. Puzzle box at about 9%. His [[Ronan]] is half of Vireth, which Bob hasn't connected ([[Session 00009 — The Lunarfold Tournament Part 2|Episode 9]]).
+- Reveals he was **Blackhand's interrogator**: the one behind the suspect reading their thoughts. Loses to [[Roma]] (last place) after a deal that Roma will allow some devil-fruit tests. Revives and later reads [[Zim]] with Detect Thoughts, drawing out the [[Vireth]] fusion secret. Quietly keeps one sea-prism cuff. Puzzle box at about 9%. His [[Ronan]] is half of Vireth, which Bob hasn't connected ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]).
 
 ## Episode 10
 
-- In the crew's shared nightmare he sees his mother (Elara) hanged from a Marine mast; [[Calder Voss|Voss]] says her last word was "Basilisk". Bob reveals he **changed his name and identity** so nothing he did would reach his family. He drags Voss into the sea, and as he goes under notices his mother has no wrinkles — the tell that breaks the dream ([[Session 00010 — Sea of Nightmares|Episode 10]]).
+- In the crew's shared nightmare he sees his mother (Elara) hanged from a Marine mast; [[Calder Voss|Voss]] says her last word was "Basilisk". Bob reveals he **changed his name and identity** so nothing he did would reach his family. He drags Voss into the sea, and as he goes under notices his mother has no wrinkles — the tell that breaks the dream ([[Session 010 — Sea of Nightmares|Episode 10]]).
 - Awake, traces the purple energy threads to the [[Rings of Aegir]] with Detect Magic, and casts Identify ("connect the strings"); works out how the nightmares trap and release dreamers. Killed by the patron's Circle of Death in the throne-room nightmare and remembers none of the patron's talk. **Exhaustion 4** — one more death and he dies.
+
+## Episode 11
+
+- Wakes from the Spider's Nest nightmare, then **crashes**: found cold, no pulse, a dim blue orb in his chest. [[Malphas]]'s shock does nothing; [[Roma]] pours four chemical jars from Bob's journal (ammonia, baking soda, acetic acid, methane, ethanol and salt) into his core and he reboots, remembering nothing. His fuel core runs on **salt** and he can crash again without it. Exhaustion still 4.
+- At [[W.G.A.R.]] he rips off [[Bore]]'s tail costume ([[Session 011 — Welcome to the Jungle|Episode 11]]).
+
+## Episode 12
+
+- Tries to calm [[Bessy Jr.|Bessie Jr]] with treats, then uses Animal Handling on the handler instead. Promises [[Bubbles D. Clown|Bubbles]] and the crab freedom and good treatment ("we can treat you nicely"), and turns the handler against the Circle of Clowns. Bonds with them afterwards (rock-paper-scissors, names) and asks Bubbles to take the crew back to W.G.A.R. ([[Session 012 — Clown Tricks|Episode 12]]).
+
+## Episode 13
+
+- With the crew at the standoff with [[Graff Bolt]] and [[Melina Celeste]]; knocked out by Graff's Conqueror's Haki ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
 
 ## Related
 

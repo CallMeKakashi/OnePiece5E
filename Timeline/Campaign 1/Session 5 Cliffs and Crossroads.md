@@ -160,8 +160,8 @@ Could lead to a full-on heist or clever con. Or a deal with a shady underworld b
 
 Could tie into the Marine Base or Casino if players want a more elaborate setup. A clean getaway here is nearly impossible.
 
-## Casino Pit Boss – Lucien “Black Chips” Delroth
+## Casino Pit Boss – Lucien “Black Chips”
 
-## Bank Director Delaroth Halward
+## Bank Director Delroth Halward
 
 ## Pirate Boss – “Crayfish” Kirro

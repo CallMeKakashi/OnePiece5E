@@ -60,6 +60,14 @@ After the ravine collapse, the rescued crew recover for nearly three weeks at hi
 - Hands paper directions to his hideout (near casino / Sixfold area).
 - Sent [[Veyl Corven]] and [[Serica Corven]] to observe the crew at Spirit Cliff.
 
+## Episode 4
+
+- Examines the [[Rings of Aegir|black ring]] from [[Kirro King]]'s hideout; shares partial lore (scriptures, a Blackhand contact) and raises questions about Kirro's missing ship and crew ([[Session 004 — Masquerade of the Stolen Keys|Episode 4]]).
+
+## Episode 5
+
+- Steps into the street/rooftop clash at [[Spirit Cliff]] and burns the deed cache in the [[World Government Bank]], changing what everyone is fighting for ([[Session 005 — Midnight Chainbreak|Episode 5]]).
+
 ## Episodes 21–25
 
 - Reunites with [[Roma]] in prison; phases into cells ([[Episode 21 - House of Justice]]).

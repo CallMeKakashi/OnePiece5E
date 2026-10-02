@@ -17,7 +17,7 @@ sources: [
 
 ## TL;DR
 
-- On the docks at [[Ambercrest]], the crew loots a tent; [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] integrates chain mail into the Dreadnaught suit while [[Red]]’s breakfast reveals a grim detail about “Kirro” ([[Kirro King]]).
+- On the docks at [[Ambercrest]], the crew loots a tent; [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] integrates chain mail into the Dreadnaught suit while [[🎶 Red — “The Songbird of the Black Comet”|Red]]’s breakfast reveals a grim detail about “Kirro” ([[Kirro King]]).
 - The party reunites with [[Linus Marrow]] and recruits [[Baptiste]] at the docks — the “winged ally.”
 - They set sail **southwest (~3 days)** toward [[Spirit Cliff]]; Saplea drops the fake voice and starts learning navigation.
 - A storm-driven **Sea King** encounter nearly wrecks the ship; [[Roma]] lands the finishing blow.
@@ -29,7 +29,7 @@ sources: [
 
 - [[🦾 Saplea D. Isla — “Dreadnaught”]] (captain / Dreadnaught suit)
 - [[Roma]]
-- [[Red]]
+- [[🎶 Red — “The Songbird of the Black Comet”|Red]]
 
 ### Major NPCs
 
@@ -66,9 +66,9 @@ sources: [
 ## Open threads
 
 - **Spirit Cliff approach**: **Resolved** — the approach was stealthy, but things escalated.
-- **Baptiste’s wings secrecy**: **Resolved / consequences ongoing** — [[Baptiste]] revealed himself to prevent a life-and-death situation; [[Calder Voss]] and Vorro now know he is a **Lunarian**.
-- **Red’s past**: **Updated / ongoing** — after Spirit Cliff, [[Red]] split from the party when [[Jack S. Parrow]] (a former crewmate under Tusk) helped trigger/recover Red’s memories. No further updates yet besides the newspaper headline.
-- **[[Linus Marrow]] and [[Sixfold]]**: **Updated / resolved for now** — after Spirit Cliff, [[Linus Marrow|Linus]] split off to take care of [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]].
+- **Baptiste’s wings secrecy**: **Resolved / consequences ongoing** — [[Baptiste]] revealed himself to prevent a life-and-death situation; [[Calder Voss]] (Vorro) and his Marines now know he is a **Lunarian**.
+- **Red’s past**: **Updated / ongoing** — after Spirit Cliff, [[🎶 Red — “The Songbird of the Black Comet”|Red]] split from the party when [[Jack S. Parrow]] (a former crewmate under Tusk) helped trigger/recover Red’s memories. No further updates yet besides the newspaper headline.
+- **[[Linus Marrow]] and [[Sixfold]]**: **Updated / resolved for now** — after Spirit Cliff, [[Linus Marrow|Linus]] split off to take care of [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]].
 - **Ship problem**: **Resolved** — the crew met [[Bramble]] and completed a job for him; in return, Bramble provided them a **new ship**.
 - **In-world dating**: Anchored approximately to `[[1478-03moon [Newspaper] Blackhand Shows True Colors — Ambercrest]]` (session is the day before).
 
@@ -88,3 +88,7 @@ sources: [
 - **Notable “changes”**:
   - Linus uses his phasing ability to remove Sea King remains/blood from the deck (ship state reset).
   - Dial purchases end at **jet + heat** (no other dials bought).
+
+## Prep (before play)
+
+No prep notes found.

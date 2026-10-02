@@ -19,7 +19,7 @@ sources: [
 
 ## TL;DR
 
-The crew executes the **casino phase** of the [[World Government Bank]] job at [[Spirit Cliff]]: they de-track Den Den Mushi/radios, go in disguised, win big, and successfully **poison and rob Branch Director Halward Lynne**—leaving with **~9.1M berries**, his **keys**, and momentum to attempt the **bank raid** next session.
+The crew executes the **casino phase** of the [[World Government Bank]] job at [[Spirit Cliff]]: they de-track Den Den Mushi/radios, go in disguised, win big, and successfully **poison and rob Branch Director Delroth Halward**—leaving with **~9.1M berries**, his **keys**, and momentum to attempt the **bank raid** next session.
 
 ## Cast
 
@@ -27,7 +27,7 @@ The crew executes the **casino phase** of the [[World Government Bank]] job at [
 
 - [[🦾 Saplea D. Isla — “Dreadnaught”]]
 - [[Roma]]
-- [[Red]]
+- [[🎶 Red — “The Songbird of the Black Comet”|Red]]
 
 ### Allies / party NPCs
 
@@ -38,7 +38,7 @@ The crew executes the **casino phase** of the [[World Government Bank]] job at [
 
 - [[Lucien]] (casino investor/owner; “Lucius” in parts of transcript)
 - [[Serica Corven]] ([[Sixfold]])
-- Branch director [[Delaroth Halward|Director Halward Lynne]]
+- Branch director [[Delroth Halward|Director Delroth Halward]]
 
 ## Where/When
 
@@ -51,7 +51,7 @@ The crew executes the **casino phase** of the [[World Government Bank]] job at [
 - **Disguises locked in**: aliases established for the operation (Masquerade / Raven / Oroboros) with masks and token “transforms” for the heist.
 - **Ring thread advanced**: [[Linus Marrow]] examines the [[Rings of Aegir|black ring]] from [[Kirro King]]’s hideout; shares partial lore (scriptures, Blackhand contact) and raises questions about Kirro’s missing ship/crew.
 - **Casino run succeeds**: [[Baptiste]] runs the tables and gets invited to a private poker game with director Halward; winnings consolidate to **~9,100,000 berries**.
-- **Keys lifted**: [[Red]] (in marine boots/guise) ambushes Halward in the bathroom after he drinks the swapped wine; steals **keys** and glimpses a small notebook tied to Halward’s corruption.
+- **Keys lifted**: [[🎶 Red — “The Songbird of the Black Comet”|Red]] (in marine boots/guise) ambushes Halward in the bathroom after he drinks the swapped wine; steals **keys** and glimpses a small notebook tied to Halward’s corruption.
 - **Exit without a fight**: marines get suspicious but don’t fully connect the dots before the crew leaves; the plan pivots to “hit the bank immediately” next session.
 
 ## Links
@@ -70,13 +70,13 @@ The crew executes the **casino phase** of the [[World Government Bank]] job at [
 - **What’s in Bramble’s chest**: **Resolved** — the chest contained the **deed for Bramble’s shop** on Spirit Cliff; Halward was increasing the interest on it, so Bramble wanted it gone.
 - **Rings of Aegir / scriptures**: **Ongoing** — who made the rings, what the “entities” are, and what happened to Kirro’s ship/crew.
 - **Sixfold entanglement**: **Updated** — the crew is on **good terms** with [[Sixfold]] at this point. Sixfold are familiar with the ring from a prior encounter in the **[[Virellis Kingdom|Virellis kingdom]]** (New World).
-- **Ship purchase math**: **Ongoing** — take is ~9.1M toward a ~20M ship quote (per table talk); the crew still needs a plan to cover the gap.
+- **Ship purchase math**: **Resolved** — at this point the take is ~9.1M toward a ~20M ship quote (per table talk), but in the end the **chest job paid for the ship**: [[Bramble]] gave the crew a new ship for completing it ([[Session 002 — Stormwings of Ambercrest|Session 2]]; DM, 2026-10-02).
 
 ## Loot & changes
 
 - **Berries**: ~**9,100,000** (casino winnings consolidated from the tables/private game).
 - **Director’s keys**: taken from Halward (critical for next-step bank access).
-- **Intel**: partial view of Halward’s “black ledger” themes (bribery, laundering, devil fruit trades, forged loans). See [[World/World Map/East Blue/Spirit Cliff/The Black Ledger of Director Halward Lynne|The Black Ledger of Director Halward Lynne]].
+- **Intel**: partial view of Halward’s “black ledger” themes (bribery, laundering, devil fruit trades, forged loans). See [[World/World Map/East Blue/Spirit Cliff/The Black Ledger of Director Delroth Halward|The Black Ledger of Director Delroth Halward]].
 - **Gear state**:
   - Marine armor pieces redistributed across the party (boots notably used for the bathroom ambush cover).
   - Den Den Mushi / radio setups altered to reduce tracking risk.
@@ -86,7 +86,7 @@ The crew executes the **casino phase** of the [[World Government Bank]] job at [
 - **Goal**: get close to Branch Director Halward via the casino, swap the drugged wine, and steal keys without triggering a full marine response.
 - **Disguises / roles**:
   - [[Baptiste]] as “Masquerade” (face of the operation; private poker invite)
-  - [[Red]] as bathroom intercept (marine-guise cover)
+  - [[🎶 Red — “The Songbird of the Black Comet”|Red]] as bathroom intercept (marine-guise cover)
   - [[Roma]] as floor distraction/pressure (Roma gets knocked out early by the wine gag)
   - [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] as comms/tech support and contingency
 

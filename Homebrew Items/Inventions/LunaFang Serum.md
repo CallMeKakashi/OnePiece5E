@@ -74,7 +74,7 @@ Red Fangs stole the majority of working samples from a research facility. Additi
 ### Known Variants & Field Signatures
 
 - **P9 series (Prototype P9 — “Red Fangs Formula”)**
-  - Identified in **[[The Black Ledger of Director Halward Lynne]]**:
+  - Identified in **[[The Black Ledger of Director Delroth Halward]]**:
     - “Subject Red Fangs” serum vials (P9 series) ordered under Germa’s R&D.
     - Prototype P9 results: 48-hour survival, hypermutation, cardiac rupture.
   - Field-reported effects/side effects (ledger notes): muscle tearing, mania, cardiac failure.

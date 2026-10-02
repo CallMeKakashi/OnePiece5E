@@ -20,7 +20,7 @@ Founding member of the [[Motley Crew]]. Fighter and martial artist; Devil Fruit 
 
 ## Fate (Episode 9)
 
-Found a fusion fruit in the North Blue about four years ago and fused with [[Astor]] into [[Vireth]]; they couldn't separate after an explosion. [[B.O.B]], who rescued Ronan in his backstory, hasn't connected this yet ([[Session 00009 — The Lunarfold Tournament Part 2|Episode 9]]).
+Found a fusion fruit in the North Blue about four years ago and fused with [[Astor]] into [[Vireth]]; they couldn't separate after an explosion. [[B.O.B]], who rescued Ronan in his backstory, hasn't connected this yet ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]).
 
 ## Backstory
 

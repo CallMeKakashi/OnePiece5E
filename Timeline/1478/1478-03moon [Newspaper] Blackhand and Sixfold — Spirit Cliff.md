@@ -14,7 +14,7 @@ related_world:
   - "[[Spirit Cliff]]"
   - "[[Sixfold]]"
   - "[[Blackhand]]"
-  - "[[The Black Ledger of Director Halward Lynne]]"
+  - "[[The Black Ledger of Director Delroth Halward]]"
 related_events:
   - "[[1478-02moon [Newspaper] Plasmoid Turns Frostwind to Ashes]]"
   - "[[1478-03sun [Newspaper] Grand Line Tribune — Midday]]"
@@ -30,7 +30,7 @@ related_events:
 
 The tranquil island of Spirit Cliff has been shaken to its core following a violent plot orchestrated by the **Blackhand unit**—a faction of the dreaded Blackhand Pirates—now confirmed to be colluding with the infamous mercenary group **Sixfold.**
 
-The criminals infiltrated a casino, assaulting respected branch director **[[Delaroth Halward|Halwald]]** with poisoned drink and stealing classified keys to the **World Government Bank.** Using these keys, they launched a coordinated midnight raid on the Treasury Branch, spreading terror through the district.
+The criminals infiltrated a casino, assaulting respected branch director **[[Delroth Halward|Halwald]]** with poisoned drink and stealing classified keys to the **World Government Bank.** Using these keys, they launched a coordinated midnight raid on the Treasury Branch, spreading terror through the district.
 
 As the heist unfolded, Sixfold agents **Veyl** and **Serica**—long pardoned for their so-called "service" in **Verrelies**—emerged not to defend the people, but to shield these pirates. Witnesses report that the Sixfold burned valuable government documents inside the bank vault, destroying records critical to maintaining the island's lawful financial order. **Dr. Linus Marrow** a former member of the Sixfold was also identified to be present on the scene.
 
@@ -54,7 +54,7 @@ Despite overwhelming odds and sabotage from within, Captain Vorro stood resolute
 
 "The people are deceived. Acts of charity mean nothing when weighed against piracy. These are criminals, plain and simple — and they will be treated as such. These outlaws will not escape justice. The Blackhand Pirates and Sixfold are enemies of the people, and I will dedicate my strength to hunting them down until every last one is put in chains."
 
-In the aftermath, Branch Director **[[Delaroth Halward|Halwald]]** has been detained for his alleged connections to debt-based coercion. However, Marine sources stress that his corruption in no way justifies the pirates' actions. Instead, it highlights how easily lawless forces like the Blackhand unit exploit weak links to destabilize order.
+In the aftermath, Branch Director **[[Delroth Halward|Halwald]]** has been detained for his alleged connections to debt-based coercion. However, Marine sources stress that his corruption in no way justifies the pirates' actions. Instead, it highlights how easily lawless forces like the Blackhand unit exploit weak links to destabilize order.
 
 With the Blackhand unit fleeing into the mist and the Sixfold betraying their pardon, Marine Intelligence has restored full bounties on all conspirators. The message from Marineford is clear: **piracy, treachery, and collusion will never be tolerated.**
 

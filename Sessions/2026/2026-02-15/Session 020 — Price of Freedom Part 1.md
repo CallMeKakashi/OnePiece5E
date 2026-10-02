@@ -8,12 +8,12 @@ episode: [
 ]
 sources: [
    "[[Episode 20 - Price of Freedom Part 1]]",
-   "[[Session 00019 — The Walking Dead]]"
+   "[[Session 019 — The Walking Dead]]"
 ]
 aliases:
   - 2026-02-15 — Price of Freedom Part 1
 ---
-# Session 20 — Price of Freedom Part 1
+# Session 020 — Price of Freedom Part 1
 
 ## TL;DR
 
@@ -31,7 +31,7 @@ aliases:
 |------|------|
 | Transcript | [[Episode 20 - Price of Freedom Part 1]] |
 | Timeline | [[Timeline/Undated/[Event] Price of Freedom Part 1]] |
-| Prior | [[Session 00019 — The Walking Dead]] |
+| Prior | [[Session 019 — The Walking Dead]] |
 | Raw | `Transcripts/2026-02-15/Episode 20 - Price of Freedom Part 1.txt` |
 
 ## Open threads

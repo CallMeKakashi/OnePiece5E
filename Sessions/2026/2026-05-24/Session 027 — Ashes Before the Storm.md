@@ -8,7 +8,7 @@ sources: []
 aliases:
   - 2026-05-24 — Ashes Before the Storm
 ---
-# Session 27 — Ashes Before the Storm
+# Session 027 — Ashes Before the Storm
 
 ## TL;DR
 

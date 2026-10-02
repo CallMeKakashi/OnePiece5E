@@ -28,4 +28,4 @@ related_events:
 ## Evidence
 
 - [[Episode 18 - Gentle Giant Pirates]]
-- [[Session 00018 — Gentle Giant Pirates]]
+- [[Session 018 — Gentle Giant Pirates]]

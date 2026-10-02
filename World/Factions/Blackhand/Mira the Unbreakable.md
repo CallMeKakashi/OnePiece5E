@@ -72,6 +72,10 @@ During the [[Timeline/Undated/[Event] Capone Invasion — Time Skip|Capone invas
 Feared by enemies, revered by her allies — her legend stretches across seas.
 
 > "I will hold my family in my arms and crush my enemies under my fists. That's what it means to be unbreakable."
+## Episode 2
+
+- Calls the ship by Den Den Mushi: warns of the Marine base at [[Spirit Cliff]], to hide [[Baptiste]]'s wings, of [[Linus Marrow|Linus]]'s ties to [[Sixfold]], and that Red's past may catch up (Tusk's men near Spirit Cliff). Points the crew toward [[Bramble]] for a Grand Line–capable ship ([[Session 002 — Stormwings of Ambercrest|Episode 2]]).
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

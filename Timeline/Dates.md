@@ -36,25 +36,25 @@ In-world date anchors (approximate unless a timeline entry pins finer precision)
 | 4 | [[Episode 05 - Midnight Chainbreak]] | [[Session 005 — Midnight Chainbreak]] | high | |
 | 4a | — (Discord #downtime-actions, 2025-09-13) | [[Timeline/Undated/[Event] Interlude — Red Departs and Reverse Mountain]] | high | Interlude write-up, not a session |
 | 4b | — (unrecorded) | [[Session 005.5 — Callisto]] | medium | DM account only; see [[Timeline/Undated/[Event] Callisto — Hallow's Trap]] |
-| 5 | [[Episode 06 - Hallow's End]] | [[Session 00006 — Hallow's End]] | high | **Ep 6 ≠ Session 14** (Decibel Decree) |
-| 6 | [[Episode 08 - The Lunarfold Tournament Part 1]] | [[Session 00008 — The Lunarfold Tournament Part 1]] | high | **No Episode 7** |
-| 7 | [[Episode 09 - The Lunarfold Tournament Part 2]] | [[Session 00009 — The Lunarfold Tournament Part 2]] | high | |
-| 8 | [[Episode 10 - Sea of Nightmares]] | [[Session 00010 — Sea of Nightmares]] | high | |
-| 9 | [[Episode 11 - Welcome to the Jungle]] | [[Session 00011 — Welcome to the Jungle]] | high | |
-| 10 | [[Episode 12 - Clown Tricks]] | [[Session 00012 — Clown Tricks]] | high | |
-| 11 | [[Episode 13 - The Reaper (No DM Audio)]] | [[Session 00013 — The Reaper (No DM Audio)]] | high | No DM track |
-| 12 | [[Episode 14 - The Decibel Decree]] | [[Session 00014 — The Decibel Decree]] | high | |
-| 13 | [[Episode 15 - Animal Within]] | [[Session 00015 — Animal Within]] | high | |
-| 14 | [[Episode 16 - Broken Promises]] | [[Session 00016 — Broken Promises]] | high | |
-| 15 | [[Episode 17 - Agony of Choas]] | [[Session 00017 — Agony of Choas]] | high | [[2026-05-24 — Howling Thunder (DM prep)]] = prep only |
-| 16 | [[Episode 18 - Gentle Giant Pirates]] | [[Session 00018 — Gentle Giant Pirates]] | high | |
-| 17 | [[Episode 19 - The Walking Dead]] | [[Session 00019 — The Walking Dead]] | high | |
-| 18 | [[Episode 20 - Price of Freedom Part 1]] | [[Session 00020 — Price of Freedom Part 1]] | high | |
-| 19 | [[Episode 20 - Price of Freedom Part 2]] | [[Session 00020 — Price of Freedom Part 2]] | high | |
-| 20 | [[Episode 21 - House of Justice]] | [[Session 00021 — House of Justice]] | high | |
-| 21 | [[Episode 22 - The Missing Piece]] | [[Session 00022 — The Missing Piece]] | high | |
-| 22 | [[Episode 23 - Choice for life]] | [[Session 00023 — Choice for life]] | high | |
-| 23 | [[Episode 24 - The Friendly Baron]] | [[Session 00024 — The Friendly Baron]] | high | + [[Session 00024.5 — Interstitial RP]] interstitial |
-| 24 | [[Episode 25 - Fire Storm]] | [[Session 00025 — Fire Storm]] | high | Prep: [[2026-05-24 — Fire Storm (prep outline)]] |
+| 5 | [[Episode 06 - Hallow's End]] | [[Session 006 — Hallow's End]] | high | **Ep 6 ≠ Session 14** (Decibel Decree) |
+| 6 | [[Episode 08 - The Lunarfold Tournament Part 1]] | [[Session 008 — The Lunarfold Tournament Part 1]] | high | **No Episode 7** |
+| 7 | [[Episode 09 - The Lunarfold Tournament Part 2]] | [[Session 009 — The Lunarfold Tournament Part 2]] | high | |
+| 8 | [[Episode 10 - Sea of Nightmares]] | [[Session 010 — Sea of Nightmares]] | high | |
+| 9 | [[Episode 11 - Welcome to the Jungle]] | [[Session 011 — Welcome to the Jungle]] | high | |
+| 10 | [[Episode 12 - Clown Tricks]] | [[Session 012 — Clown Tricks]] | high | |
+| 11 | [[Episode 13 - The Reaper (No DM Audio)]] | [[Session 013 — The Reaper (No DM Audio)]] | high | No DM track |
+| 12 | [[Episode 14 - The Decibel Decree]] | [[Session 014 — The Decibel Decree]] | high | |
+| 13 | [[Episode 15 - Animal Within]] | [[Session 015 — Animal Within]] | high | |
+| 14 | [[Episode 16 - Broken Promises]] | [[Session 016 — Broken Promises]] | high | |
+| 15 | [[Episode 17 - Agony of Choas]] | [[Session 017 — Agony of Choas]] | high | [[2026-05-24 — Howling Thunder (DM prep)]] = prep only |
+| 16 | [[Episode 18 - Gentle Giant Pirates]] | [[Session 018 — Gentle Giant Pirates]] | high | |
+| 17 | [[Episode 19 - The Walking Dead]] | [[Session 019 — The Walking Dead]] | high | |
+| 18 | [[Episode 20 - Price of Freedom Part 1]] | [[Session 020 — Price of Freedom Part 1]] | high | |
+| 19 | [[Episode 20 - Price of Freedom Part 2]] | [[Session 020 — Price of Freedom Part 2]] | high | |
+| 20 | [[Episode 21 - House of Justice]] | [[Session 021 — House of Justice]] | high | |
+| 21 | [[Episode 22 - The Missing Piece]] | [[Session 022 — The Missing Piece]] | high | |
+| 22 | [[Episode 23 - Choice for life]] | [[Session 023 — Choice for life]] | high | |
+| 23 | [[Episode 24 - The Friendly Baron]] | [[Session 024 — The Friendly Baron]] | high | + [[Session 024.5 — Interstitial RP]] interstitial |
+| 24 | [[Episode 25 - Fire Storm]] | [[Session 025 — Fire Storm]] | high | Prep: [[2026-05-24 — Fire Storm (prep outline)]] |
 
-**Unmapped / future:** [[Session 00025 — Juniper Islands]] (prep, no episode yet); [[2026-05-24 — Session Structure]]; [[2026-05-24 — Session Outline – “The Light Beyond the Horizon”]].
+**Unmapped / future:** [[Session 025 — Juniper Islands]] (prep, no episode yet); [[2026-05-24 — Session Structure]]; [[2026-05-24 — Session Outline – “The Light Beyond the Horizon”]].

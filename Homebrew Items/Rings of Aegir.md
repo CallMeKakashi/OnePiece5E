@@ -27,10 +27,10 @@ Black ring(s) recovered from [[Kirro King]]’s hideout and carried into the [[S
 ## The set (Episode 10)
 
 - There are **five** rings (DM, 2026-10-01). Two are now worn by [[Baptiste]] (ring finger and pinky): **Kirro's black ring**, which Baptiste carried, and **the ring [[Malphas]] and [[B.O.B]] brought from the North Blue** (taken by [[Droven Calligos]] from Kanto's chest in [[Timeline/Undated/[Event] Interlude — Red Departs and Reverse Mountain]]). They were kept together in [[Veyl Corven]]'s blue box, where they joined end to end like an infinity symbol.
-- In [[Session 00010 — Sea of Nightmares|Episode 10]] they glowed purple and fed shared nightmares to everyone aboard. Bob's theory: the rings feed on emotions, objects or memories; a dreamer wakes only by willingly dying in the dream or by someone breaking the cycle. Identify returned the whisper "connect the strings".
+- In [[Session 010 — Sea of Nightmares|Episode 10]] they glowed purple and fed shared nightmares to everyone aboard. Bob's theory: the rings feed on emotions, objects or memories; a dreamer wakes only by willingly dying in the dream or by someone breaking the cycle. Identify returned the whisper "connect the strings".
 - Once worn they latch on and can't be pulled off. Their **patron** claims the wearer: "I became your patron as soon as you put those rings on." It wants its **vessel** found, itself revived, and the rest of the rings gathered.
 - *DM note*: the patron is **Aegir** (the party learns the name later). It once possessed **Cecil Cindross** of [[Virellis Kingdom|Virellis]] through a single ring.
-- Wearer effects: see [[Baptiste]] and [[Session 00010 — Sea of Nightmares#Loot & changes]].
+- Wearer effects: see [[Baptiste]] and [[Session 010 — Sea of Nightmares#Loot & changes]].
 
 ## Open questions
 

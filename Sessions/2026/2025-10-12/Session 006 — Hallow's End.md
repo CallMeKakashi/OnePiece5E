@@ -8,11 +8,11 @@ episode:
 sources:
   - "[[Episode 06 - Hallow's End]]"
   - "[[Session 005.5 — Callisto]]"
-  - "[[Session 00008 — The Lunarfold Tournament Part 1]]"
+  - "[[Session 008 — The Lunarfold Tournament Part 1]]"
 aliases:
   - 2025-10-12 — Hallow's End
 ---
-# Session 6 — Hallow's End
+# Session 006 — Hallow's End
 
 ## TL;DR
 
@@ -47,9 +47,9 @@ aliases:
 ## Where/When
 
 - **Location**: [[Callisto]] (Grand Line). The Cogwork Core ("Divine Furnace"), then Hallow's workshop, then the graveyard, then Hallow's office and the docks, then the Spiders' ship at sea.
-- **In-world date**: TBD. The collapse is reported in [[1478-12moon [Newspaper] Grand Line Tribune — Morning]].
+- **In-world date**: 1478, straight after [[Session 005.5 — Callisto]]; exact date TBD. The collapse is reported in [[1478-12moon [Newspaper] Grand Line Tribune — Morning]].
 
-## Outcomes
+## Actual play outcomes
 
 - **Deal with Daniel (00:03–00:10)**: Roma skillets Ben unconscious again. Daniel agrees to help destroy the facility in exchange for freedom for himself, Ben and Chloe.
 - **Interrogation (00:10–00:15)**: Serica and Veyl question Daniel. The original spiders are "six feet under", and **Silas**, the old Tyrant, was killed by "our boss" ([[Simon The One Armed Tyrant|Simon]]).
@@ -74,16 +74,17 @@ aliases:
 - **Passage (02:52–03:02)**: at the other dock, Roma persuades Daniel to take them north to the next island. The crew is named the **Lunarfolds** (part of [[Blackhand]]), and Veyl says that "for the time being" Sixfold are part of the crew.
 - **Level 4 (03:02–03:35)**: Roma takes Berserker. B.O.B. takes Fey Touched (Misty Step, Silvery Barbs).
 - **Island destroyed (03:36)**: once they're safely at sea, Roma presses the red button. The core collapses inward and Callisto sinks completely.
-- **Post-session OOC**: they plan the crew ranking bracket, which is played in [[Session 00008 — The Lunarfold Tournament Part 1]]. From about 03:38 to 03:55 the audio is unusable.
+- **Post-session OOC**: they plan the crew ranking bracket, which is played in [[Session 008 — The Lunarfold Tournament Part 1]]. From about 03:38 to 03:55 the audio is unusable.
 
 ## Open threads
 
-- **Klabautermann ship**: where did their first ship go, and who was its old crew?
+- **Klabautermann ship**: where did their first ship go, and who was its old crew? Found at W.G.A.R. in [[Session 013 — The Reaper (No DM Audio)|S13]] and sailed to the next island (DM, 2026-10-02). "Klabautermann" is the ghost aboard, not the ship's name; the ship is later named *Haruki's Moon*. Old crew still open.
 - **Alice at G-45**: [[Alice]] was held at, or passed through, **G-45**, the Marine base at [[Spirit Cliff]] under [[Commodore Briggs]].
 - **[REDACTED]**: Daniel has to report to someone about the Doctor. Who?
-- **Ring flare**: what set off the rings, and how is that tied to the earlier island's destruction? **Update**: the box holds two [[Rings of Aegir]] (Kirro's and the North Blue ring); in [[Session 00010 — Sea of Nightmares|Episode 10]] they feed shared nightmares, and Baptiste now wears them.
+- **Ring handover**: [[Linus Marrow|Linus]] held Kirro's black ring in [[Session 003 — Cliffside Gambit|S3]]–[[Session 004 — Masquerade of the Stolen Keys|S4]]; by now it is in Veyl's box. He passed it to Veyl off-screen (unrecorded; DM, 2026-10-02).
+- **Ring flare**: what set off the rings, and how is that tied to the earlier island's destruction? **Update**: the box holds two [[Rings of Aegir]] (Kirro's and the North Blue ring); in [[Session 010 — Sea of Nightmares|Episode 10]] they feed shared nightmares, and Baptiste now wears them.
 - **Divine Furnace elsewhere**: Hallow's journal says this may be happening in other places. [[Dr Nikolai Tesla]] and [[Mugen Industries]] are still operating.
-- **Bank journal**: **Confirmed** — it is [[The Black Ledger of Director Halward Lynne|Halward's ledger]], lost aboard the first ship ([[Session 00008 — The Lunarfold Tournament Part 1|Episode 8]]; DM, 2026-10-01).
+- **Bank journal**: **Confirmed** — it is [[The Black Ledger of Director Delroth Halward|Halward's ledger]], lost aboard the first ship ([[Session 008 — The Lunarfold Tournament Part 1|Episode 8]]; DM, 2026-10-01).
 
 ## Loot & changes
 
@@ -100,7 +101,7 @@ aliases:
 - **Hallow's office records**: shift timings, costs, and receipts to gravediggers, which show he fed the machine corpses instead of living people. Roma keeps them for a reporter.
 - **2 RyeNera tendrils and amalgam fibre layer** (Roma): intended for [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]], to heal her or for the Dreadnaught frame
 - **Level-up** to 4
-- **Lost**: the ship and anything aboard it (probably including the bank journal)
+- **Lost**: the ship and anything aboard it, including the bank journal ([[The Black Ledger of Director Delroth Halward|Halward's ledger]])
 
 ## Prep (before play)
 
@@ -113,5 +114,5 @@ aliases:
 | Transcript | [[Episode 06 - Hallow's End]] |
 | Timeline | [[Timeline/Undated/[Event] Hallow's End]] |
 | Prior | [[Session 005.5 — Callisto]] |
-| Next | [[Session 00008 — The Lunarfold Tournament Part 1]] |
+| Next | [[Session 008 — The Lunarfold Tournament Part 1]] |
 | Raw | `Transcripts/2025-10-12/Episode 06 - Hallow's End.txt` |

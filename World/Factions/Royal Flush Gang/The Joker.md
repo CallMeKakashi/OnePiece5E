@@ -9,7 +9,7 @@ aliases:
 sources:
   - "Discord/exports/character-art"
   - "Discord/exports/world-lore"
-  - "Sessions/2026/2026-03-22/Session 00024.5 — Interstitial RP"
+  - "Sessions/2026/2026-03-22/Session 024.5 — Interstitial RP"
   - "Timeline/Undated/[Backstory] Joker — Man in Red"
 ---
 ## Visuals

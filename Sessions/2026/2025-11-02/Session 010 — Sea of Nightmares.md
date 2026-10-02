@@ -8,12 +8,12 @@ episode: [
 ]
 sources: [
    "[[Episode 10 - Sea of Nightmares]]",
-   "[[Session 00009 — The Lunarfold Tournament Part 2]]"
+   "[[Session 009 — The Lunarfold Tournament Part 2]]"
 ]
 aliases:
   - 2025-11-02 — Sea of Nightmares
 ---
-# Session 10 — Sea of Nightmares
+# Session 010 — Sea of Nightmares
 
 ## TL;DR
 
@@ -25,7 +25,7 @@ aliases:
 
 ### PCs (this session)
 
-- [[Baptiste]] (acting captain)
+- [[Baptiste]] (captain)
 - [[Malphas]]
 - [[Roma]]
 - [[B.O.B]]
@@ -41,12 +41,12 @@ aliases:
 
 ### In the nightmares only
 
-- [[Calder Voss]] (Voro) and G-45 Marines · "Project Wonderland" (wearing [[Alice]]'s face) · visions of [[🎶 Red — “The Songbird of the Black Comet”|Red]] and Bob's mother · the patron
+- [[Calder Voss]] and G-45 Marines · "Project Wonderland" (wearing [[Alice]]'s face) · visions of [[🎶 Red — “The Songbird of the Black Comet”|Red]] and Bob's mother · the patron
 
 ## Where/When
 
-- **Location**: at sea aboard the Spider's Nest ship, the night after [[Session 00009 — The Lunarfold Tournament Part 2|Session 9]]. Midnight, full moon.
-- **In-world date**: TODO: anchor in `Timeline/`.
+- **Location**: at sea aboard the Spider's Nest ship, the night after [[Session 009 — The Lunarfold Tournament Part 2|Session 9]]. Midnight, full moon.
+- **In-world date**: 1478, about **six days after** [[Timeline/Undated/[Event] Hallow's End]] (the night after [[Session 009 — The Lunarfold Tournament Part 2|S9]]). Inferred from S8's three days of downtime plus S9's two days; no exact date.
 
 ## Actual play outcomes
 
@@ -59,7 +59,7 @@ aliases:
 ### Nightmare 2 — the crew's shared ambush
 
 - An explosion rocks the ship. Over a den den mushi a Marine ship demands surrender; [[Daniel]] says he called them in and traps Baptiste, Malphas and Bob in bars.
-- [[Calder Voss|Voss]] (Voro) arrives with the G-45 armours "in the name of [[Commodore Briggs]]", wanting the two Lunarians alive for Mugen research, and unleashes **Project Wonderland**: a winged armour that, when Roma tears its helmet off, wears Malphas's sister's face with the eyes and mouth stitched shut. Veyl and Serica are missing.
+- [[Calder Voss|Voss]] arrives with the G-45 armours "in the name of [[Commodore Briggs]]", wanting the two Lunarians alive for Mugen research, and unleashes **Project Wonderland**: a winged armour that, when Roma tears its helmet off, wears Malphas's sister's face with the eyes and mouth stitched shut. Veyl and Serica are missing.
 - Two bodies hang from the Marine ship's mast: [[🎶 Red — “The Songbird of the Black Comet”|Red]] and **Bob's mother**. Voss taunts Bob that her last word was "Basilisk". Bob reveals he changed his name and identity so that nothing he did would reach his family.
 - The fight: Roma kills Daniel by dropping on him from Baptiste's grip; Ben drowns; Baptiste and Roma kill or throw off the Marines; Bob warps Voss into the sea, then drags him under.
 - **The tells**: no smoke from the cannons, no birds or animals, no wind; Bob's mother has no wrinkles, though she should have aged. Bob and Baptiste snap out of it first and pull the others out.
@@ -90,17 +90,18 @@ aliases:
 |------|------|
 | Transcript | [[Episode 10 - Sea of Nightmares]] |
 | Timeline | [[Timeline/Undated/[Event] Sea of Nightmares]] |
-| Prior | [[Session 00009 — The Lunarfold Tournament Part 2]] |
+| Prior | [[Session 009 — The Lunarfold Tournament Part 2]] |
+| Raw | `Transcripts/2025-11-02/Episode 10 - Sea of Nightmares.txt` |
 
 ## Open threads
 
 Cross-session ledger: [[Open Threads]].
 
-- **Spider's Nest still trapped** in their own shared nightmare.
+- ~~**Spider's Nest still trapped** in their own shared nightmare.~~ Resolved in [[Session 011 — Welcome to the Jungle|Session 11]] (the crew won the nightmare).
 - **The patron**: wants its vessel found and itself revived; "find the rest" of the five rings.
 - **Baptiste's nightly saves**: DC 13 Wisdom each long rest; three failures in a row shift him to evil.
 - **Bob's real name and identity**, and his mother's "Basilisk".
-- **Vireth "killed"** in the throne-room memory: what happened at Virellis?
+- **Vireth "killed"** in the throne-room memory: resolved (DM, 2026-10-02). It was a shared nightmare of Veyl and Serica's, which the crew entered to rescue them; Vireth was never killed there.
 
 ## Loot & changes
 
@@ -110,4 +111,4 @@ Cross-session ledger: [[Open Threads]].
 
 ## Prep (before play)
 
-TODO: capture what you prepped vs improvised for the nightmare mechanics and the ring/patron reveals.
+No prep notes found.

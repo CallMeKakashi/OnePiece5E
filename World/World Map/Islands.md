@@ -44,4 +44,5 @@ Also in World Map (not in Old Notes list): [[Decibella Kingdom]]
 
 ## Sea not yet stated
 
+1. [[W.G.A.R.]] — World Government Animal Reserve; semicircle island under a white dome
 1. [[Vruvia]] — former rebel nation destroyed in the Unity War; birthplace of [[Mira the Unbreakable|Mira]]

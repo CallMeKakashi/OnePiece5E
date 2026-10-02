@@ -8,12 +8,12 @@ episode: [
 ]
 sources: [
    "[[Episode 22 - The Missing Piece]]",
-   "[[Session 00021 — House of Justice]]"
+   "[[Session 021 — House of Justice]]"
 ]
 aliases:
   - 2026-03-08 — The Missing Piece
 ---
-# Session 22 — The Missing Piece
+# Session 022 — The Missing Piece
 
 ## TL;DR
 
@@ -31,8 +31,8 @@ aliases:
 |------|------|
 | Transcript | [[Episode 22 - The Missing Piece]] |
 | Timeline | [[Timeline/Undated/[Event] The Missing Piece]] |
-| Prior | [[Session 00021 — House of Justice]] |
-| Prior | [[Session 00021 — House of Justice]] |
+| Prior | [[Session 021 — House of Justice]] |
+| Prior | [[Session 021 — House of Justice]] |
 | Raw | `Transcripts/2026-03-08/Episode 22 - The Missing Piece.txt` |
 
 ## Open threads

@@ -15,7 +15,7 @@ aliases:
 
 ## Extracted
 
-> STT: Malfa → [[Malphas]]; Decibella = [[Decibella Kingdom]]; see also [[Session 00014 — The Decibel Decree]] (prep/recap).
+> STT: Malfa → [[Malphas]]; Decibella = [[Decibella Kingdom]]; see also [[Session 014 — The Decibel Decree]] (prep/recap).
 
 ### Summary
 

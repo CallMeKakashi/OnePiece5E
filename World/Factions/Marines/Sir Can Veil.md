@@ -30,7 +30,7 @@ Marine operative (transcript spelling) deployed at [[Spirit Cliff]].
 ## Related
 
 - [[Calder Voss]]
-- [[Delaroth]]
+- [[Delroth Halward]]
 - [[World Government Bank]]
 
 > **Note:** Distinct from [[Cline The Plague]] (Cline Veil, Sixfold) unless table confirms alias.

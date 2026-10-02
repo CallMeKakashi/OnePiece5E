@@ -18,7 +18,7 @@ sources: [
 
 ## TL;DR
 
-- The crew arrives at [[Spirit Cliff]] (Marine presence visible: **G-4.5**) and meets [[Bramble]] at [[Bramble & Brothers]], who offers a **Grand Line–capable ship** for a job: steal a **small chest** from the [[World Government Bank]] director’s cabin.
+- The crew arrives at [[Spirit Cliff]] (Marine presence visible: **G-45**) and meets [[Bramble]] at [[Bramble & Brothers]], who offers a **Grand Line–capable ship** for a job: steal a **small chest** from the [[World Government Bank]] director’s cabin.
 - The party builds a heist plan around the **casino** (director is a regular): win through early tables to reach poker, get the director drunk, and lift his keys; Bramble provides **blueprints** and his workers supply **disguises**.
 - [[Linus Marrow]] begins examining the [[Rings of Aegir|black ring]] recovered from [[Kirro King]]’s hideout and invites [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] to [[Armada|the Armada]] to discuss it.
 - A market run turns violent when marines recognize Saplea’s bounty; the crew wins a quick scuffle, stashes bodies, and loots **marine gear** plus a **Den Den Mushi** “info phone” and radio.
@@ -30,7 +30,7 @@ sources: [
 
 - [[🦾 Saplea D. Isla — “Dreadnaught”]] (captain / Dreadnaught suit)
 - [[Roma]]
-- [[Red]]
+- [[🎶 Red — “The Songbird of the Black Comet”|Red]]
 
 ### Major NPCs
 
@@ -39,7 +39,7 @@ sources: [
 - [[Bramble]] (shipwright; job-giver)
 - [[Veyl Corven]] ([[Sixfold]] operative; “Whale/Wyll” in transcript)
 - [[Serica Corven]] ([[Sixfold]] operative; “Sarika” in transcript)
-- Branch director **Halward** ([[Delaroth Halward|Director Halward Lynne]]) (target of the key-theft plan; not met on-table this session)
+- Branch director **Halward** ([[Delroth Halward|Director Delroth Halward]]) (target of the key-theft plan; not met on-table this session)
 
 ## Where/When
 
@@ -69,7 +69,7 @@ sources: [
 ## Open threads
 
 - **World Government Bank chest heist**: **Resolved (later)** — the crew executes the bank job in following episodes; see [[Timeline/Undated/[Event] Shackles Broken]] and `[[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]` for fallout.
-- **What’s in Bramble’s chest**: **Ongoing** — the chest is the job’s true objective; contents were not revealed in this session. **Update**: Bramble’s chest contained the **deed for his shop in Spirit Cliff**; he wanted it gone, and [[Delaroth Halward|Halward]] later **increases the interest** pressure tied to it.
+- **What’s in Bramble’s chest**: **Ongoing** — the chest is the job’s true objective; contents were not revealed in this session. **Update**: Bramble’s chest contained the **deed for his shop in Spirit Cliff**; he wanted it gone, and [[Delroth Halward|Halward]] later **increases the interest** pressure tied to it.
 - **Rings of Aegir (black ring)**: **Ongoing** — [[Linus Marrow]] is actively researching; Saplea has an open invitation to the [[Armada|Armada]] for details.
 - **Sixfold relationship**: **Ongoing** — the crew is on **good terms** with [[Veyl Corven]] and [[Serica Corven]]. **Ring familiarity** traces back to the **[[Virellis Kingdom|Virellis kingdom]] (New World)** thread.
 
@@ -83,3 +83,8 @@ sources: [
   - Saplea considers swapping arcane armor infusion onto captured marine armor for the heist.
   - The crew now has disguises suitable for moving around [[Spirit Cliff]] with less attention.
 
+
+
+## Prep (before play)
+
+No prep notes found.

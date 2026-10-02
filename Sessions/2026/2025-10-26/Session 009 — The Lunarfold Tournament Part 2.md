@@ -8,17 +8,17 @@ episode: [
 ]
 sources: [
    "[[Episode 09 - The Lunarfold Tournament Part 2]]",
-   "[[Session 00008 — The Lunarfold Tournament Part 1]]",
-   "[[Session 00010 — Sea of Nightmares]]"
+   "[[Session 008 — The Lunarfold Tournament Part 1]]",
+   "[[Session 010 — Sea of Nightmares]]"
 ]
 aliases:
   - 2025-10-26 — The Lunarfold Tournament Part 2
 ---
-# Session 9 — The Lunarfold Tournament Part 2
+# Session 009 — The Lunarfold Tournament Part 2
 
 ## TL;DR
 
-- The ranking tournament ends: [[Roma]] beats [[B.O.B|Bob]], [[Malphas]] beats [[Veyl Corven|Veyl]], and acting captain [[Baptiste]] beats Malphas in two rounds. Final order: **Baptiste · Malphas · Veyl · Serica · Roma · Bob**.
+- The ranking tournament ends: [[Roma]] beats [[B.O.B|Bob]], [[Malphas]] beats [[Veyl Corven|Veyl]], and captain [[Baptiste]] beats Malphas in two rounds. Final order: **Baptiste · Malphas · Veyl · Serica · Roma · Bob**.
 - The crew fishes **[[Zim]]**, an informant who works with Marines, off a log at sea. A rough night in the brig ends in an information trade.
 - Bob reads Zim's mind and the big reveal comes out: **[[Vireth]] is [[Astor]] and [[Ronan]] fused** by a devil fruit, and Zim is hunting a Marine device that could undo it. She leaves for Loguetown with Veyl's radio.
 
@@ -26,7 +26,7 @@ aliases:
 
 ### PCs (this session)
 
-- [[Baptiste]] (acting captain; [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] still technically holds the post)
+- [[Baptiste]] (captain; [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] is away)
 - [[Malphas]]
 - [[Roma]]
 - [[B.O.B]]
@@ -46,8 +46,8 @@ aliases:
 
 ## Where/When
 
-- **Location**: at sea in the Grand Line aboard the Spider's Nest ship, the day after [[Session 00008 — The Lunarfold Tournament Part 1|Part 1]] and the following night and morning.
-- **In-world date**: TODO: anchor in `Timeline/`.
+- **Location**: at sea in the Grand Line aboard the Spider's Nest ship, the day after [[Session 008 — The Lunarfold Tournament Part 1|Part 1]] and the following night and morning.
+- **In-world date**: 1478, roughly **five to six days after** [[Timeline/Undated/[Event] Hallow's End]] (Callisto collapse, reported in [[1478-12moon [Newspaper] Grand Line Tribune — Morning]]): three days of downtime, tournament day 1 ([[Session 008 — The Lunarfold Tournament Part 1|S8]]), then this session's day, night and morning. Inferred; no exact date.
 
 ## Actual play outcomes
 
@@ -90,12 +90,13 @@ aliases:
 |------|------|
 | Transcript | [[Episode 09 - The Lunarfold Tournament Part 2]] |
 | Timeline | [[Timeline/Undated/[Event] The Lunarfold Tournament Part 2]] |
-| Prior | [[Session 00008 — The Lunarfold Tournament Part 1]] |
-| Next | [[Session 00010 — Sea of Nightmares]] |
+| Prior | [[Session 008 — The Lunarfold Tournament Part 1]] |
+| Next | [[Session 010 — Sea of Nightmares]] |
+| Raw | `Transcripts/2025-10-26/Episode 09 - The Lunarfold Tournament Part 2.txt` |
 
 ## Session ↔ episode note
 
-Completes the ranking tournament from [[Session 00008 — The Lunarfold Tournament Part 1]]. At the end the DM says Zim wasn't meant to appear yet, and that [[🎶 Red — “The Songbird of the Black Comet”|Red]] and Saplea are now NPCs with their own side stories: Saplea is unconscious and Linn is trying something. News now comes from the worldwide **World Economy News**, not the East Blue Herald.
+Completes the ranking tournament from [[Session 008 — The Lunarfold Tournament Part 1]]. At the end the DM says Zim wasn't meant to appear yet, and that [[🎶 Red — “The Songbird of the Black Comet”|Red]] and Saplea are now NPCs with their own side stories: Saplea is unconscious and "Linn" ([[Linus Marrow]]) is trying something. News now comes from the worldwide **World Economy News**, not the East Blue Herald.
 
 ## Open threads
 
@@ -106,7 +107,7 @@ Cross-session ledger: [[Open Threads]].
 - **Alice lead**: the white-haired, red-eyed flyer seen at the North Blue Marine post Droven attacked.
 - **Serica vs Zim**: what is Serica accusing her of?
 - **Daniel's favour**: Baptiste owes him a job (not against the Sixfold or Blackhand).
-- **Veyl–Baptiste rift** over how Zim was treated.
+- **Veyl–Baptiste rift** over how Zim was treated: partly healed by S13. They are on good terms, but Veyl still thinks Baptiste is unnecessarily cruel (DM, 2026-10-02).
 - **Blackhand Cane missing.**
 - **Bob and Ronan**: Bob's Ronan is half of Vireth, and Bob hasn't made the connection.
 
@@ -118,4 +119,4 @@ Cross-session ledger: [[Open Threads]].
 
 ## Prep (before play)
 
-TODO: capture what you prepped for “tournament day 2” and the Loguetown informant hook.
+No prep notes found.

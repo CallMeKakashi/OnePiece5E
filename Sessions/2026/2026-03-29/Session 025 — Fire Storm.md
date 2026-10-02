@@ -9,13 +9,13 @@ episode: [
 sources: [
    "[[Episode 25 - Fire Storm]]",
    "[[2026-05-24 — Fire Storm (prep outline)]]",
-   "[[Session 00024 — The Friendly Baron]]"
+   "[[Session 024 — The Friendly Baron]]"
 ]
 aliases:
   - 2026-03-29 — Fire Storm
   - 2026-05-24 — Fire Storm (prep outline)
 ---
-# Session 25 — Fire Storm
+# Session 025 — Fire Storm
 
 ## TL;DR
 
@@ -41,7 +41,7 @@ aliases:
 |------|------|
 | Transcript | [[Episode 25 - Fire Storm]] |
 | Timeline | [[Timeline/Undated/[Event] Fire Storm]] |
-| Prior | [[Session 00024 — The Friendly Baron]] |
+| Prior | [[Session 024 — The Friendly Baron]] |
 | Prep outline | [[2026-05-24 — Fire Storm (prep outline)]] |
 | Raw | `Transcripts/2026-03-29/Episode 25 - Fire Storm.txt` |
 

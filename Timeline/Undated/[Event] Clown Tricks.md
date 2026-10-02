@@ -8,7 +8,11 @@ related_world:
   - "[[Baptiste]]"
   - "[[Roma]]"
   - "[[B.O.B]]"
+  - "[[Malphas]]"
   - "[[Veyl Corven]]"
+  - "[[Giggles D. Cloud]]"
+  - "[[Bubbles D. Clown]]"
+  - "[[Bessy Jr.]]"
 related_events:
   - "[[Timeline/Undated/[Event] Welcome to the Jungle]]"
   - "[[Timeline/Undated/[Event] The Reaper (No DM Audio)]]"
@@ -16,16 +20,18 @@ related_events:
 
 # Clown Tricks
 
-Clown-ship crisis continues: **Bessie** (giant crab vessel), captive handling, Malphas off-screen on pursuit boat (Episode 12).
+The crew finishes the [[Circle of Clowns]] aboard their ship, wins over the Sea King [[Bessy Jr.|Bessie Jr]]'s handler, and bluffs a slave-trade contact (Episode 12).
 
 ## Beats
 
-1. **Captives** — knock out waking prisoners; [[Veyl Corven]] distracts Bessie.
-2. **Handler** — [[B.O.B]] animal-handling with clown handler.
-3. **Pursuit** — [[Malphas]] still on Ep 11 speedboat (off-mic).
-4. **Bridge** — STT degrades; leads into Ep 13.
+1. **Clowns subdued** — knocked out as they wake; every clown but the captain dies in combat. [[Malphas]] already aboard, [[Veyl Corven]] back at the crab.
+2. **Bessie Jr** — the crab Sea King reaches for the crew; Veyl distracts her, [[Baptiste]] levitates [[Roma]] above the water.
+3. **Handler** — [[B.O.B]] wins over [[Bubbles D. Clown]] ("Bessie Senior") with promises of freedom and good treatment.
+4. **Giggles** — questioned, then killed by the crew.
+5. **The call** — a slave-trade contact answers the den den mushi; Baptiste impersonates Bubbles asking for a reward. Told to bring the slaves to South Blue.
+6. **Rest and return** — long rest on Bessie Jr's back mid-ocean, then back to W.G.A.R., where the Spider's Nest has already left.
 
 ## Evidence
 
 - [[Episode 12 - Clown Tricks]]
-- [[Session 00012 — Clown Tricks]]
+- [[Session 012 — Clown Tricks]]

@@ -8,12 +8,12 @@ episode: [
 ]
 sources: [
    "[[Episode 19 - The Walking Dead]]",
-   "[[Session 00018 — Gentle Giant Pirates]]"
+   "[[Session 018 — Gentle Giant Pirates]]"
 ]
 aliases:
   - 2026-02-08 — The Walking Dead
 ---
-# Session 19 — The Walking Dead
+# Session 019 — The Walking Dead
 
 ## TL;DR
 
@@ -31,7 +31,7 @@ aliases:
 |------|------|
 | Transcript | [[Episode 19 - The Walking Dead]] |
 | Timeline | [[Timeline/Undated/[Event] The Walking Dead]] |
-| Prior | [[Session 00018 — Gentle Giant Pirates]] |
+| Prior | [[Session 018 — Gentle Giant Pirates]] |
 | Raw | `Transcripts/2026-02-08/Episode 19 - The Walking Dead.txt` |
 
 ## Open threads

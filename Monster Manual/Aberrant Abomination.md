@@ -17,7 +17,7 @@ foundry_live_slug: "aberrant-abomination"
 
 ## Role
 
-**Dr. Nikolai Tesla**'s most successful forced fusion to date: a **three-creature amalgam** (stronger than his two-subject prototype **[[RyeNera]]**). Built under **[[Mugen Industries]]** patronage after Nikolai left **Germa 66** and joined **Commodore Briggs**'s **G-4.5** command, where Mugen operates in the background.
+**Dr. Nikolai Tesla**'s most successful forced fusion to date: a **three-creature amalgam** (stronger than his two-subject prototype **[[RyeNera]]**). Built under **[[Mugen Industries]]** patronage after Nikolai left **Germa 66** and joined **Commodore Briggs**'s **G-45** command, where Mugen operates in the background.
 
 Nikolai's obsession is replicating what he witnessed at **Virellis** just before Germa's fall — the creation of the **perfect being**. The Aberrant Abomination is a late-stage step in that line of work, not a field-stable soldier.
 

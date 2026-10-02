@@ -37,6 +37,10 @@ Devil Fruit: [[Koru Koru no Mi]] (Coal-Coal).
 
 In [[Timeline/Undated/[Backstory] Spider Nest — The Nine Little Spiders|the spider fairy tale]], Daniel is the **eighth** of nine sibling spiders; [[Simon The One Armed Tyrant|Simon]] is second, [[Zara Tideborn|Zara]] third.
 
+## Session 005.5
+
+- Fights the party with [[Chloe]] after they fall down the garbage chute; beaten and tied up ([[Session 005.5 — Callisto]]).
+
 ## Episode 6
 
 - Turned on party to escape with Chloe, then negotiated to help destroy the core.
@@ -49,11 +53,16 @@ In [[Timeline/Undated/[Backstory] Spider Nest — The Nine Little Spiders|the sp
 
 ## Episode 9
 
-- Shoots the rope tying Roma to the mast in bout 4; bets 20,000 berries on [[Malphas]]. Lends the brig and key for [[Zim]]; lets her take a lifeboat in exchange for [[Baptiste]] owing him a job (not against the Sixfold or Blackhand). Says the Spider's Nest came for Veyl and Serica, not the crew ([[Session 00009 — The Lunarfold Tournament Part 2|Episode 9]]).
+- Shoots the rope tying Roma to the mast in bout 4; bets 20,000 berries on [[Malphas]]. Lends the brig and key for [[Zim]]; lets her take a lifeboat in exchange for [[Baptiste]] owing him a job (not against the Sixfold or Blackhand). Says the Spider's Nest came for Veyl and Serica, not the crew ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]).
 
 ## Episode 10
 
-- **Nightmare only**: in the crew's shared ring nightmare he calls in the Marines, traps the Lunarians in bars and is killed when [[Roma]] drops on him. None of this happened. In reality he, [[Chloe]] and [[Ben]] are trapped in their own shared nightmare at the end of the episode ([[Session 00010 — Sea of Nightmares|Episode 10]]).
+- **Nightmare only**: in the crew's shared ring nightmare he calls in the Marines, traps the Lunarians in bars and is killed when [[Roma]] drops on him. None of this happened. In reality he, [[Chloe]] and [[Ben]] are trapped in their own shared nightmare at the end of the episode ([[Session 010 — Sea of Nightmares|Episode 10]]).
+
+## Episode 11
+
+- In the Spider's Nest nightmare (a burning Virellis town square) a lion-mink that looks like [[Pasha]] bites off his arm and his prosthetic legs fall apart. He realises it is a nightmare and [[Roma]] wakes everyone by hitting him.
+- [[Veyl Corven|Veyl]] tells him in the crow's nest that [[Liz]] and Sister Elise were fused with [[Vireth]]'s power. Shocked, he refuses to join them: he has to report to [[Simon The One Armed Tyrant|Simon]] and explain why they helped destroy the Doctor's island. He will drop the crew at the next island and head back. At [[W.G.A.R.]] he goes to the shops with [[Ben]] ([[Session 011 — Welcome to the Jungle|Episode 11]]).
 
 ## Related
 

@@ -8,12 +8,12 @@ episode: [
 ]
 sources: [
    "[[Episode 14 - The Decibel Decree]]",
-   "[[Session 00013 — The Reaper (No DM Audio)]]"
+   "[[Session 013 — The Reaper (No DM Audio)]]"
 ]
 aliases:
   - 2025-12-21 — The Decibel Decree
 ---
-# Session 14 — The Decibel Decree
+# Session 014 — The Decibel Decree
 
 ## TL;DR
 
@@ -31,7 +31,7 @@ aliases:
 |------|------|
 | Transcript | [[Episode 14 - The Decibel Decree]] |
 | Timeline | [[Timeline/Undated/[Event] The Decibel Decree]] |
-| Prior | [[Session 00013 — The Reaper (No DM Audio)]] |
+| Prior | [[Session 013 — The Reaper (No DM Audio)]] |
 | Raw | `Transcripts/2025-12-21/Episode 14 - The Decibel Decree.txt` |
 
 #  The Sound of Silence

@@ -9,7 +9,7 @@ sources:
 
 # Lucien
 
-Casino investor at [[Spirit Cliff]]; long-running partner of branch director **[[Delaroth Halward|Halward]]** (see [[The Black Ledger of Director Halward Lynne]]). Knows the cover identity **Masquerade** ([[Baptiste]]).
+Casino investor at [[Spirit Cliff]]; long-running partner of branch director **[[Delroth Halward|Halward]]** (see [[The Black Ledger of Director Delroth Halward]]). Knows the cover identity **Masquerade** ([[Baptiste]]).
 
 ## Episode 4
 

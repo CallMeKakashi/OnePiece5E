@@ -8,13 +8,13 @@ episode: [
 ]
 sources: [
    "[[Episode 16 - Broken Promises]]",
-   "[[Session 00015 — Animal Within]]",
+   "[[Session 015 — Animal Within]]",
    "[[2026-05-24 — Howling Thunder (DM prep)]]"
 ]
 aliases:
   - 2026-01-04 — Broken Promises
 ---
-# Session 16 — Broken Promises
+# Session 016 — Broken Promises
 
 ## TL;DR
 
@@ -32,7 +32,7 @@ aliases:
 |------|------|
 | Transcript | [[Episode 16 - Broken Promises]] |
 | Timeline | [[Timeline/Undated/[Event] Broken Promises]] |
-| Prior | [[Session 00015 — Animal Within]] |
+| Prior | [[Session 015 — Animal Within]] |
 | Prep (tower) | [[2026-05-24 — Howling Thunder (DM prep)]] |
 | Raw | `Transcripts/2026-01-04/Episode 16 - Broken Promises.txt` |
 

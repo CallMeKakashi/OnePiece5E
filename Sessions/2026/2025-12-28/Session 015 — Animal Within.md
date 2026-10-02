@@ -8,12 +8,12 @@ episode: [
 ]
 sources: [
    "[[Episode 15 - Animal Within]]",
-   "[[Session 00014 — The Decibel Decree]]"
+   "[[Session 014 — The Decibel Decree]]"
 ]
 aliases:
   - 2025-12-28 — Animal Within
 ---
-# Session 15 — Animal Within
+# Session 015 — Animal Within
 
 ## TL;DR
 
@@ -43,7 +43,7 @@ TODO: confirm whether Treble/Coda appear on-screen this session or remain off-st
 ## Where/When
 
 - **Location**: [[Decibella Kingdom]] — inside the broadcast tower trial floors (Soundless Five gauntlet).
-- **In-world date**: TODO: if a specific Decibella calendar date exists in `Timeline/`, link it here; otherwise keep it relative to arrival in [[Session 00014 — The Decibel Decree]].
+- **In-world date**: TODO: if a specific Decibella calendar date exists in `Timeline/`, link it here; otherwise keep it relative to arrival in [[Session 014 — The Decibel Decree]].
 
 ## Actual play outcomes
 
@@ -61,7 +61,7 @@ TODO: confirm whether Treble/Coda appear on-screen this session or remain off-st
 |------|------|
 | Transcript | [[Episode 15 - Animal Within]] |
 | Timeline | [[Timeline/Undated/[Event] Animal Within]] |
-| Prior | [[Session 00014 — The Decibel Decree]] |
+| Prior | [[Session 014 — The Decibel Decree]] |
 | Raw | `Transcripts/2025-12-28/Episode 15 - Animal Within.txt` |
 
 #### 🦹‍♂️ DM Prep: The Soundless Five (Enemy Profiles)

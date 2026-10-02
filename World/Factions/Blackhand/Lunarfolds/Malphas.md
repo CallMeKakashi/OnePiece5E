@@ -425,18 +425,39 @@ Baptiste nodded once—sharp, certain.
 Malphas took his hand.
 
 And fate shifted.
+
+## Session 005.5
+
+- Stows away with [[B.O.B]] on a Germa merchant ship to Harpoon Cay, then joins the party on [[Callisto]]; falls down the garbage chute and fights [[Daniel]] and [[Chloe]] ([[Session 005.5 — Callisto]]).
+
+## Episode 6
+
+- Carried to the workshop door by [[Veyl Corven]]'s Speed Fruit. Asks Hallow's journal about his sister and is pointed to **G-45**. Takes 8 vials of conductive dust (+1d4 lightning damage) ([[Session 006 — Hallow's End|Episode 6]]).
+
 ## Episode 8
 
-- Downtime: meditates, trains with [[Veyl Corven]], and practises channelling lightning into his legs. Goal: find [[Alice]], then free the others who were captured. Beats [[Serica Corven]] in the tournament from the air ([[Session 00008 — The Lunarfold Tournament Part 1|Episode 8]]).
+- Downtime: meditates, trains with [[Veyl Corven]], and practises channelling lightning into his legs. Goal: find [[Alice]], then free the others who were captured. Beats [[Serica Corven]] in the tournament from the air ([[Session 008 — The Lunarfold Tournament Part 1|Episode 8]]).
 
 ## Episode 9
 
-- Beats [[Veyl Corven]] (wing-slam through the deck), then loses the captain's bout to [[Baptiste]]; ranks **2nd**. Learns from [[Zim]] of a white-haired, red-eyed flyer seen at the Marine post [[Droven Calligos]] attacked — his [[Alice]] lead ([[Session 00009 — The Lunarfold Tournament Part 2|Episode 9]]).
+- Beats [[Veyl Corven]] (wing-slam through the deck), then loses the captain's bout to [[Baptiste]]; ranks **2nd**. Learns from [[Zim]] of a white-haired, red-eyed flyer seen at the Marine post [[Droven Calligos]] attacked — his [[Alice]] lead ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]).
 
 ## Episode 10
 
-- **Memory-dream**: as a child he brings lunch to his father at a lookout tower, his sister cheering; his father spars with him and teaches him the Lunarian knack of resisting blunt hits ("remember that feeling, son"). Outposts had been falling; the memory ends in fire and cannons as he flees carrying his sister, and a Marine's spear breaks against him ([[Session 00010 — Sea of Nightmares|Episode 10]]).
+- **Memory-dream**: as a child he brings lunch to his father at a lookout tower, his sister cheering; his father spars with him and teaches him the Lunarian knack of resisting blunt hits ("remember that feeling, son"). Outposts had been falling; the memory ends in fire and cannons as he flees carrying his sister, and a Marine's spear breaks against him ([[Session 010 — Sea of Nightmares|Episode 10]]).
 - In the crew's shared nightmare, "Project Wonderland" wears his sister's stitched face; he holds back every time he sees it. In the throne-room nightmare he shocks Veyl out of despair ("I won't let yours be taken the same as mine").
+
+## Episode 11
+
+- Shocks [[B.O.B|Bob]] when he crashes, to no effect. At the [[Circle of Clowns]] fight, chases the clown captain's speedboat toward the Calm Belt while [[Veyl Corven|Veyl]] rams it ([[Session 011 — Welcome to the Jungle|Episode 11]]).
+
+## Episode 12
+
+- Already aboard the clowns' ship at the start of the session, knocking out clowns as they wake. Takes part in the fight against [[Bessy Jr.|Bessie Jr]] and the questioning of [[Giggles D. Cloud]] ([[Session 012 — Clown Tricks|Episode 12]]).
+
+## Episode 13
+
+- With [[Baptiste]], a target of [[Esper Grimrose]]'s revenge for killing her brother's Reaper unit. Knocked out with the crew by [[Graff Bolt]]'s Conqueror's Haki; later goes aboard to look around ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
 
 ## Build template (Foundry)
 
