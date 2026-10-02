@@ -53,11 +53,23 @@ Founding member of the [[Motley Crew]], now serving in the [[Marines]].
 
 - **Nightmare only**: in the crew's shared ring nightmare he arrives with G-45 armours "in the name of [[Commodore Briggs]]", wanting the two Lunarians alive for Mugen research, and unleashes **Project Wonderland** (see [[Alice]]). He taunts [[B.O.B|Bob]] that his mother's last word was "Basilisk"; Bob warps him into the sea and drags him under ([[Session 010 — Sea of Nightmares|Episode 10]]).
 
+## Episode 21
+
+- Answers the crew's radio calls with threats: Zim lives only because she did not snitch, Droven and she will die next week, and he is bringing in someone else. Drives to the judges' quarter in a carriage while armors fly overhead. Punches Malphas off his carriage and promises to beat the navigator before throwing him at his captain ([[Session 021 — House of Justice|Episode 21]]).
+
+## Episode 22
+
+- Beaten outside the Valehart mansion with his white G-45 armor; Baptiste spares him. Smiles and says he will be back. Carries serums (033, 11, 44, 99), Mugen site papers (Io, Europa, Ganymede, Callisto) and Droven's escort route. Held captive aboard the crew's ship; Baptiste burns him with candle wax and Linus starts an interrogation ([[Session 022 — The Missing Piece|Episode 22]]).
+
+## Episode 23
+
+- His den den mushi rings. [[Commodore Briggs]] demands him back. Baptiste brands the Blackhand mark on his chest with flames. Roma's sheet prank and Baptiste's force strikes mutilate him; he is hung from a steel beam in Baptiste's room ([[Session 023 — Choice for life|Episode 23]]).
+
 ## Episodes 21–25 (Lex Imperia)
 
-- **Commodore** rank on judiciary islands; G-45 armored Marine under his command ([[Episode 21 - House of Justice]]).
-- Captured Ep 22; stripped, branded by [[Baptiste]]; routing papers taken ([[Episode 22 - The Missing Piece]]–[[Episode 23 - Choice for life]]).
-- **Escapes** during [[Episode 25 - Fire Storm]] mist attack.
+- **Commodore** rank on judiciary islands; G-45 armored Marine under his command ([[Episode 21 - House of Justice]]). (unverified: not from a grilled session): the S21/S22 grills give no rank.
+- Captured Ep 22 (confirmed in S22: stripped, papers taken, burned with candle wax by [[Baptiste]]; "branded" (unverified: not from a grilled session)) ([[Episode 22 - The Missing Piece]]–[[Episode 23 - Choice for life]]).
+- **Escapes** during [[Episode 25 - Fire Storm]] mist attack. (unverified: not from a grilled session).
 
 ## Related
 

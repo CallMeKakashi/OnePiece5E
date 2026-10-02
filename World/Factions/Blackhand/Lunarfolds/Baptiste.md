@@ -213,6 +213,18 @@ Under [[Blackhand Cane]], Baptiste goes undercover for four years as **Haruki**,
 
 - Knocks out [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”|Fenris]] in round 1 of the Davy Back Fight (Haste, a clone, the astral arm, Stunning Strike, his elemental domain) and tells him to get stronger before going after Cline. With Malphas he finds [[Dravos]] in the forest, calls Mira (free rein), learns Dravos's brother is [[Droven Calligos|Droven]], and gets Dravos to work with the crew for now. Tells [[Riff Sin]] to let the people decide, and stops Roma taking Riff in a barrel unless the surviving twin is found ([[Session 019 — The Walking Dead|Episode 19]]).
 
+## Episode 21
+
+- Dreams of his body being cut up to feed a sick person and of blood drawn onto himself. Fails to blend into a judge's mansion and is thrown out. On Noosehold he spots wanted posters, tries to bluff a Marine, and forms the plan to reach Zim first. Goaded by Voss on the radio, he punches a man in the cathedral, burns two Marines to death, knocks three out and white-steps away. Voss and a flying armor chase him over rooftops; a laser downs him and a new white armor lands before him ([[Session 021 — House of Justice|Episode 21]]).
+
+## Episode 22
+
+- Fights Voss and a white G-45 armor outside the Valehart mansion, ends up low on HP, and knocks Voss out instead of killing him. Drives Voss's car through the mansion to the ship, ties Voss up in his room and pours candle wax on him. Tells Malphas he will support whatever he decides, and tells Zim the crew came for her ([[Session 022 — The Missing Piece|Episode 22]]).
+
+## Episode 23
+
+- Refuses Briggs's demand on the den den mushi, and the crew flees Noosehold's warships. Jumps onto the pursuing warship, dodges Marine volleys, is caught in the exploding cannon (down to 3 HP) and drowns; Roma hauls him out. Brands the Blackhand mark on Voss's chest with flames, then batters him with force until he passes out, and hangs him from a steel beam. Licks the green serum (11), feels a bad omen, and keeps the vial. Backs Zim's plan to ambush a noble ship in the channel ([[Session 023 — Choice for life|Episode 23]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

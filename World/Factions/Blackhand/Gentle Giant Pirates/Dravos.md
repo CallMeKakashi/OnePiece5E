@@ -51,6 +51,18 @@ Navigator. Devil Fruit: [[Toneru Toneru no Mi]].
 - [[Gentle Giant Pirates]]
 - [[Droven Calligos]]
 - [[Linus Marrow]]
+## Episode 21
+
+- Uses a Thousand-Mile Tunnel to carry the crew north; a mishap leaves the ship in free fall and he passes out. Stays unconscious in the ship's cave dock while Tigor watches him. His brother Droven's execution is set for next week ([[Session 021 — House of Justice|Episode 21]]).
+
+## Episode 22
+
+- Still recovering aboard; Linus says Droven's ship docks on Noosehold in three days ([[Session 022 — The Missing Piece|Episode 22]]).
+
+## Episode 23
+
+- Awake and exhausted, powers unusable for about a week, teleport range only 120 ft, and warships are seastone-guarded. Anxious about his brother Droven's timeline ([[Session 023 — Choice for life|Episode 23]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

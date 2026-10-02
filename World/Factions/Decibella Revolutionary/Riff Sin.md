@@ -76,6 +76,10 @@ The sound of her footsteps leaving stayed with him longer than any song.
 
 - Gets a spare flag from the crew as they sail out of Decibella ([[Session 020 — Price of Freedom Part 1|Episode 20]]).
 
+## Episode 23
+
+- Not on screen. Briggs, at Decibella, learns that the crew holds Voss and is tied to Riff; Riff's fate and his choice stay open ([[Session 023 — Choice for life|Episode 23]]).
+
 ## Episodes 14–19 (Malphas arc)
 
 - **Decibella rebellion** — leads [[Cadence]] cell; Soundless Five tower trials ([[Episode 14 - The Decibel Decree]]–[[Episode 16 - Broken Promises]]).

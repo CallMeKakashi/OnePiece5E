@@ -99,6 +99,14 @@ foundry_live_slug: "b-o-b-old"
 
 - Beats [[Shako]] in the Davy Back Fight using Shield, Divine Smite and the Cursed Bloodstone (a bong, advantage on initiative), vomiting toxic blood in his face, then passes out. Later talks to [[Facade]], who cannot remember who mended him; they part as "brothers from different mothers". Chases the twin's trail with Detect Magic and jumps off a cliff, then spends the night getting high with the panthers ([[Session 019 — The Walking Dead|Episode 19]]).
 
+## Episode 22
+
+- Leaves the ship to find the captain, is arrested posing as a doctor in the Valehart mansion and driven off cuffed. Freed in the Voss fight, drops to 0 and is revived, then helps drive the car off and hold back [[Cassian Valehart]]. Takes pieces of the white armor ([[Session 022 — The Missing Piece|Episode 22]]).
+
+## Episode 23
+
+- Fires a swivel gun and necrotic bolt at the Marines, and moves ability scores into Dex with his new item to wear splint armor. Pulled from the sea by Roma and Linus, then knocked out by a cannonball after shielding the ship. His mount, Pegasus, is a find-mount made over by Bob; Linus sets up a lab in his room ([[Session 023 — Choice for life|Episode 23]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

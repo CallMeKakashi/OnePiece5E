@@ -68,11 +68,23 @@ After the ravine collapse, the rescued crew recover for nearly three weeks at hi
 
 - Steps into the street/rooftop clash at [[Spirit Cliff]] and burns the deed cache in the [[World Government Bank]], changing what everyone is fighting for ([[Session 005 — Midnight Chainbreak|Episode 5]]).
 
+## Episode 21
+
+- Phases Roma down through the floor of the high-court docks into an open cell as an armor's laser passes through them ([[Session 021 — House of Justice|Episode 21]]).
+
+## Episode 22
+
+- Tells Roma he found Nikolai's lab and that Saplea, one of Nikolai's subjects, is being kept alive; she is with Pasha at Zou. Finds Zim, finds the key at the last moment, steals a boat, then takes up an interrogation of Voss aboard the ship ([[Session 022 — The Missing Piece|Episode 22]]).
+
+## Episode 23
+
+- Tosses Voss's tracker into the sea, lays sea king bait that ends the chase, and pulls Bob out of the water. Works all night on the serums, and finds that the white 033 turns a mutant human (Roma). Out of supplies, needs organs from a smaller sea king. Warns Baptiste not to keep Voss aboard ([[Session 023 — Choice for life|Episode 23]]).
+
 ## Episodes 21–25
 
 - Reunites with [[Roma]] in prison; phases into cells ([[Episode 21 - House of Justice]]).
-- Leads **Zim** rescue; sea-king bait; serum intel ([[Episode 22 - The Missing Piece]]–[[Episode 23 - Choice for life]]).
-- Identifies **Nikolai/Anton** mist at Fire Storm; [[Malphas]] abducted ([[Episode 25 - Fire Storm]]).
+- Leads **Zim** rescue (confirmed S22: with Roma); sea-king bait (unverified); serum intel ([[Episode 22 - The Missing Piece]]–[[Episode 23 - Choice for life]]).
+- Identifies **Nikolai/Anton** mist at Fire Storm; [[Malphas]] abducted (unverified: Ep 25 is not yet grilled) ([[Episode 25 - Fire Storm]]).
 
 ## Related
 
