@@ -9,7 +9,7 @@ foundry_live_slug: "stitched-horror"
 
 ## Visuals
 
-![[Attachments/monsters/stitched-horror.png|Token]]
+![[Attachments/monsters/stitched-horror.png|registry-image]]
 
 **Look:** **Man–pig patchwork bruiser** — emaciated pale pink-grey humanoid frame with **porcine snout**, small sunken eyes, upright pig ears, and jagged teeth; coarse dark **bristle mane** down the spine; crude **cross-stitches** and seam lines (X on the back, neck/jaw sutures) where flesh was sewn together. Low **rush crouch** — hyperviolent charger, not a skulker.
 

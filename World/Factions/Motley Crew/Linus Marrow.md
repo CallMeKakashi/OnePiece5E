@@ -3,13 +3,15 @@ type: actor
 faction: "[[Motley Crew]]"
 status: draft
 publish: true
+aliases:
+  - "Linn"
 sources:
-  - "[[Episode 2 - The Winged Ally]]"
+  - "[[Episode 02 - Stormwings of Ambercrest]]"
   - "[[Episode 21 - House of Justice]]"
   - "[[Episode 22 - The Missing Piece]]"
   - "[[Episode 23 - Choice for life]]"
   - "[[Episode 25 - Fire Storm]]"
-  - "Sessions/Linus' Notes.md"
+  - "[[Linus — Notes]]"
   - "Discord/exports/bounty-posters"
   - "Discord/exports/character-art"
   - "Discord/exports/devil-fruit-dex"
@@ -42,6 +44,10 @@ Doctor and founding member of the [[Motley Crew]]. Former [[Sixfold]] member. Se
 
 Former **Germa 66** understudy under **[[Dr Nikolai Tesla]]** (before Nikolai joined Briggs / Mugen). Former member of the [[Sixfold]]; tied to the organization's leadership through [[Mira the Unbreakable|Mira]]. Now traveling with the crew as their doctor, ordered by Mira to stay away from Sixfold business at [[Spirit Cliff]].
 
+His own telling of the founding crew: [[[Backstory] Linus — The Motley Crew]].
+
+After the ravine collapse, the rescued crew recover for nearly three weeks at his clinic on the Juniper Islands ([[Timeline/Undated/[Event] Capone Invasion — Time Skip|Capone Invasion — Time Skip]]).
+
 ## Episode 2
 
 - Met at the inn on [[Ambercrest]]; boards the ship.
@@ -50,9 +56,17 @@ Former **Germa 66** understudy under **[[Dr Nikolai Tesla]]** (before Nikolai jo
 
 ## Episode 3
 
-- Examines **black ring** from [[Kirro King]] hideout; invites [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea]] to the Armada.
+- Examines the [[Rings of Aegir|black ring]] from [[Kirro King]] hideout; invites [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] to the [[Armada]].
 - Hands paper directions to his hideout (near casino / Sixfold area).
 - Sent [[Veyl Corven]] and [[Serica Corven]] to observe the crew at Spirit Cliff.
+
+## Episode 4
+
+- Examines the [[Rings of Aegir|black ring]] from [[Kirro King]]'s hideout; shares partial lore (scriptures, a Blackhand contact) and raises questions about Kirro's missing ship and crew ([[Session 004 — Masquerade of the Stolen Keys|Episode 4]]).
+
+## Episode 5
+
+- Steps into the street/rooftop clash at [[Spirit Cliff]] and burns the deed cache in the [[World Government Bank]], changing what everyone is fighting for ([[Session 005 — Midnight Chainbreak|Episode 5]]).
 
 ## Episodes 21–25
 
@@ -64,7 +78,7 @@ Former **Germa 66** understudy under **[[Dr Nikolai Tesla]]** (before Nikolai jo
 
 - [[Dr Nikolai Tesla]]
 - [[Sixfold]]
-- [[🦾 Saplea D. Isla — "Dreadnaught"]]
+- [[🦾 Saplea D. Isla — “Dreadnaught”]]
 - [[Spirit Cliff]]
 ## Live sheet (Foundry)
 

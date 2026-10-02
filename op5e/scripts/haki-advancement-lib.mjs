@@ -1,48 +1,20 @@
-import { MODULE_ID } from "./constants.mjs";
+import manifest from "../data/generated/haki-manifest.json" with { type: "json" };
 
 /** @typedef {"armament"|"observation"|"conqueror"} HakiBranch */
 /** @typedef {"novice"|"apprentice"|"journeyman"|"adept"|"master"} HakiTier */
 
-export const HAKI_BRANCHES = Object.freeze(["armament", "observation", "conqueror"]);
-export const HAKI_TIERS = Object.freeze([
-  "novice",
-  "apprentice",
-  "journeyman",
-  "adept",
-  "master",
-]);
+export const HAKI_BRANCHES = Object.freeze([...manifest.branches]);
+export const HAKI_TIERS = Object.freeze([...manifest.tiers]);
+export const HAKI_CHOICE_LEVELS = Object.freeze([...manifest.choiceLevels]);
 
-/** Stable compendium item IDs (`generateId("feature/haki/<slug>")`). */
-export const HAKI_FEAT_IDS = Object.freeze({
-  "armament-novice": "16bc2636849312ce",
-  "armament-apprentice": "c04321ae3bf3215f",
-  "armament-journeyman": "46bb0c4613daad05",
-  "armament-adept": "6b2a722fa61c9cfd",
-  "armament-master": "0b0bd55e123f5a50",
-  "observation-novice": "96dcda2a40ae256f",
-  "observation-apprentice": "7395019d993a1891",
-  "observation-journeyman": "2ce8a781717e7925",
-  "observation-adept": "f615a9813a58ebab",
-  "observation-master": "fd4062b1dd6625f7",
-  "conqueror-novice": "409ca29b4a12db94",
-  "conqueror-apprentice": "882fa5d6cef02212",
-  "conqueror-journeyman": "691d3f9d84866b56",
-  "conqueror-adept": "1eb133f6e6c5d1e4",
-  "conqueror-master": "3162d3653418d74f",
-});
+/** Stable compendium item IDs — generated from op5e/data/helpers/haki-advancement.ts */
+export const HAKI_FEAT_IDS = Object.freeze({ ...manifest.featIds });
 
 const HAKI_ID_TO_SLUG = Object.freeze(
   Object.fromEntries(Object.entries(HAKI_FEAT_IDS).map(([slug, id]) => [id, slug])),
 );
 
-const HAKI_SLUG_TO_UUID = Object.freeze(
-  Object.fromEntries(
-    Object.entries(HAKI_FEAT_IDS).map(([slug, id]) => [
-      slug,
-      `Compendium.${MODULE_ID}.class-features.${id}`,
-    ]),
-  ),
-);
+const HAKI_SLUG_TO_UUID = Object.freeze({ ...manifest.slugToUuid });
 
 /**
  * @param {string} branch
@@ -107,7 +79,7 @@ export function hakiSlugFromItem(item) {
 
   const source = item.flags?.dnd5e?.sourceId ?? item._stats?.compendiumSource;
   if (typeof source === "string") {
-    const match = source.match(/class-features\.([a-f0-9]{16})/i);
+    const match = source.match(/([a-f0-9]{16})$/i);
     if (match) return hakiSlugFromItemId(match[1]);
   }
 
@@ -155,7 +127,7 @@ export function isHakiItemChoiceConfig(config) {
  */
 export function hakiSlugFromUuid(uuid) {
   if (typeof uuid !== "string") return null;
-  const match = uuid.match(/class-features\.([a-f0-9]{16})/i);
+  const match = uuid.match(/([a-f0-9]{16})$/i);
   if (!match) return null;
   return hakiSlugFromItemId(match[1]);
 }

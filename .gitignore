@@ -35,3 +35,10 @@ op5e/tmpdist/
 op5e/*.zip
 op5e/dev/*/node_modules/
 op5e/dev/*/dist/
+
+# Graphify knowledge-graph output (regenerable; two contexts, see CLAUDE.md)
+graphify-out/
+op5e/graphify-out/
+
+# Archived agent chat threads (local only)
+Agent Threads/

@@ -9,29 +9,30 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Fura Fura no Mi
 
 *Paramecia, unique (consumed — replaces attunement)*
 
-*Float-Float Fruit*
+*Dizzy-Dizzy Fruit*
 
 | | |
 | --- | --- |
 | **Owner** | [[Rhythm Echo]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/fura-fura-no-mi.png|Devil fruit]]
+![[Attachments/fura-fura-no-mi.png|registry-image]]
 
 ## Description
 
-Campaign-registered **Paramecia** devil fruit. Current eater: [[Rhythm Echo]].
+Campaign-registered **Paramecia** devil fruit (**Dizzy-Dizzy**, not float). Current eater: [[Rhythm Echo]].
 
-## Properties
+## Powers
 
-Gravity nullification / floating. [[Soundless 5]] No. 3 — [[Rhythm Echo]].
+- **Vertigo Field** — Aura (20 ft). Creatures he chooses must succeed on a DC 16 Constitution save or be affected by *slow* for 1 minute.
+- **Temporal Deflection** — Reaction when he is hit by an attack: impose disadvantage on that attack roll.
 
 ## Drawbacks
 
@@ -40,6 +41,6 @@ Gravity nullification / floating. [[Soundless 5]] No. 3 — [[Rhythm Echo]].
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
 - Owner: [[Rhythm Echo]]
 - [[Rhythm Echo]]

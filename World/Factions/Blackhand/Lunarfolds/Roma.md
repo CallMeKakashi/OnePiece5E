@@ -16,6 +16,8 @@ foundry_live_slug: "roma-hybrid"
 
 ![[Attachments/roma-portrait.png|Portrait]]
 ![[Attachments/roma-bounty.png|Bounty poster]]
+![[Attachments/roma-bounty-2.png|Bounty poster]]
+![[Attachments/roma-bounty-3.png|Bounty poster]]
 
 *Discord quarry: [[Discord/exports/character-art]], [[Discord/exports/bounty-posters]]*
 
@@ -27,6 +29,8 @@ A round white wolf mink. Energetic, restless, incapable of sitting still. Warm-h
 ## Role
 
 Cook of the [[Lunarfolds]]. Trained in the Warrior Recipes of Zou's Moonlight Path Temple under Master Tsubaki. Devil Fruit: [[Yuki Yuki no Mi — Model Yeti]]. Frost powers not yet fully mastered.
+
+**Ravine collapse:** Buried when the ravine collapsed; unconscious for nearly three weeks at [[Linus Marrow|Linus]]'s clinic ([[Timeline/Undated/[Event] Capone Invasion — Time Skip|Capone Invasion — Time Skip]]).
 
 ## Personal Quests
 
@@ -341,6 +345,64 @@ In that moment, Roma knew.
 **His future with this crew would be unlike anything he'd ever seen.
 A life of chaos, flavor, warmth…
 and belonging.**
+### The Lion He Forgot
+
+About a year before the present, travelling alone through Wano, Roma meets the Lion Mink [[Pasha]] — the isolated child he barely remembered from Zou. They share a fire and an adventure in abandoned ruins against a giant armored lizard, and become real friends; on their last night Pasha uses his glowing markings to erase himself from Roma's memory and heads back to Zou. Roma wakes remembering a Lion Mink but not who he was, with a pouch of Zou spices beside him. Full text: [[[Backstory] Roma — The Lion He Forgot]].
+
+## Episode 2
+
+- Lands the finishing blow on the storm-driven Sea King. Buys a Heat dial (50,000 berries, "for boiling water") ([[Session 002 — Stormwings of Ambercrest|Episode 2]]).
+
+## Episode 5
+
+- Runs the fountain distraction outside the [[World Government Bank]] while the entry team goes in ([[Session 005 — Midnight Chainbreak|Episode 5]]).
+
+## Session 005.5
+
+- Arrives on [[Callisto]] via Reverse Mountain with [[Baptiste]], [[Veyl Corven]] and [[Serica Corven]] ([[Session 005.5 — Callisto]]).
+
+## Episode 6
+
+- Skillets [[Ben]] unconscious again, and persuades [[Daniel]] to take the crew north on the Spiders' ship.
+- Grabs Hallow's remote and cuts off a healing tendril of [[RyeNera]]; keeps two tendrils and the fibre layer for [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]], and Hallow's office records for a reporter.
+- Takes Berserker at level 4. Presses the red button once they are safely at sea: the core collapses and [[Callisto]] sinks ([[Session 006 — Hallow's End|Episode 6]]).
+
+## Episode 8
+
+- Cooks nonstop through the downtime until he collapses (woken with ice water by [[B.O.B]]). Says he ate his fruit while taste-testing it; it triggers when he gets angry. Loses his tournament bout to [[Serica Corven]] on the captain's ruling ([[Session 008 — The Lunarfold Tournament Part 1|Episode 8]]).
+
+## Episode 9
+
+- Beats [[B.O.B]] for 5th place; agrees to let Bob run some tests. Smashes into the brig, knocks [[Zim]] out and dangles her over the sea until [[Veyl Corven]] intervenes ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]).
+
+## Episode 10
+
+- In the crew's shared nightmare he rips the helmet off "Project Wonderland", revealing [[Malphas]]'s sister's stitched face, and kills [[Daniel]] by dropping on him from [[Baptiste]]'s grip. Wakes exhausted with the rest of the crew (1 level) and gains 1 Inspiration, usable as a spontaneous haki trigger ([[Session 010 — Sea of Nightmares|Episode 10]]).
+
+## Episode 11
+
+- In the [[Spider Nest Pirates|Spider's Nest]] nightmare (a burning [[Virellis Kingdom|Virellis]] town square), a red-eyed lion-mink that looks like [[Pasha]] attacks; Roma, in a **Sulong form** triggered by the moon, kills it. It reminds him of someone he can't place. He wakes everyone by hitting Daniel.
+- The Sulong form carries over to the waking world: he can't control it yet and it triggers only on a full moon, unlocked by being near Pasha's nightmare form.
+- Revives [[B.O.B|Bob]] by pouring four chemical jars from Bob's journal into his core. At [[W.G.A.R.]] he haggles the entry fee from 6,000 to 600 berries, threatens to cut [[Bore]] open to find "the Lord", and starts the fight with the [[Circle of Clowns]] after a clown throws a bowling pin at Baptiste ([[Session 011 — Welcome to the Jungle|Episode 11]]).
+
+## Episode 12
+
+- Levitated by [[Baptiste]] above the water to strike at the crab Sea King [[Bessy Jr|Bessie Jr]]. Provides the food and treats the crew uses to win over Bessie and her handler ([[Session 012 — Clown Tricks|Episode 12]]).
+
+## Episode 13
+
+- Grabbed by [[Kyle Bloodfin]], who holds his jaw over Roma's neck until someone tackles Kyle and they fall into the water. Knocked out with the crew by [[Graff Bolt]]'s Conqueror's Haki ([[Session 013 — The Reaper|Episode 13]]).
+
+## Episode 14
+
+- Throws a guard into the lake (a tentacle takes him); fights the Echo spies and Woofer's troopers; interrogates a captured trooper (learns Cadence is in the Opera House). Buffed by [[Riff Sin]]'s riff; dropped to 2 HP by [[Lady Soefra Anthem|Soefra]]'s note, then healed by little critters that crawl through his fur. Plans to take fighter for Action Surge at the next level-up ([[Session 014 — The Decibel Decree|Episode 14]]).
+
+## Episode 16
+
+- Fights [[Treble]] in her indoor jungle of hung bodies (Roma thought they were minks). Shot through the shoulder, he rages with the skillet and eats his treats, but she keeps hiding. She injects him with a serum and he falls into a dream of chasing Chiru. His Sulong is triggered and he cannot control it.
+- As a beast he kills Treble, tearing her in half, and puts her key in his hat. He then attacks [[Baptiste]], who knocks him out in two rounds. He wakes at the top with no memory.
+- Levels to 5 (Fighter). Meets [[Dravos]], who shifts the weight of his skillet. Answers the Emperor's question "Lunarfold till we die" ([[Session 016 — Broken Promises|Episode 16]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

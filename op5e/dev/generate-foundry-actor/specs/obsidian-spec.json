@@ -1,0 +1,33 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "name": "Obsidian",
+  "raceIdentifier": "human",
+  "classIdentifier": "fighter",
+  "subclassIdentifier": "brute",
+  "level": 20,
+  "cr": 20,
+  "backgroundSlug": "Marine/Soldier",
+  "roleSlug": "Role: Captain",
+  "powerFork": "neither",
+  "additionalPowerSlug": "",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "abilities": { "str": 24, "dex": 12, "con": 22, "int": 8, "wis": 14, "cha": 18 },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "choices": [
+    { "stepId": "eb306fec5586f736", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.c45cecd9577b5d02"] },
+    { "stepId": "f544e265c28b18a4", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.dc36d05562c8841d"] },
+    { "stepId": "9e222e3fcad6d5fc", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.0ddafe26a36d8c1f"] },
+    { "stepId": "9b9a22d4a2455ce0", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.d4ab115668d21de8"] },
+    { "stepId": "c9e9e11ed7760d01", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.7842a68fdf0a1f76"] },
+    { "stepId": "372486d10f05d82d", "level": 1, "source": "class", "slugs": ["skills:ath", "skills:itm"] },
+    { "stepId": "fe5e0d06c9698941", "level": 8, "source": "class", "uuids": ["Compendium.op5e.class-features.409ca29b4a12db94"] },
+    { "stepId": "0594b1876fbe72db", "level": 10, "source": "class", "uuids": ["Compendium.op5e.class-features.882fa5d6cef02212"] },
+    { "stepId": "06cc944251342d49", "level": 12, "source": "class", "uuids": ["Compendium.op5e.class-features.691d3f9d84866b56"] },
+    { "stepId": "35219ab255b7c85b", "level": 14, "source": "class", "uuids": ["Compendium.op5e.class-features.1eb133f6e6c5d1e4"] },
+    { "stepId": "3b745db39f8f3555", "level": 16, "source": "class", "uuids": ["Compendium.op5e.class-features.3162d3653418d74f"] }
+  ]
+}

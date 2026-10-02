@@ -1,0 +1,30 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "name": "Zenzara",
+  "raceIdentifier": "human",
+  "classIdentifier": "medic",
+  "subclassIdentifier": "chemist",
+  "level": 14,
+  "cr": 11,
+  "backgroundSlug": "Scientist",
+  "roleSlug": "Role: Doctor",
+  "powerFork": "neither",
+  "additionalPowerSlug": "",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "abilities": { "str": 8, "dex": 12, "con": 18, "int": 12, "wis": 10, "cha": 20 },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "choices": [
+    { "stepId": "cd0f04e84e36ae3b", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.626f152717a27ccf"] },
+    { "stepId": "c3a3c10997add011", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.0ea5adada6166183"] },
+    { "stepId": "31d9bbb75b94e373", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.f172913dae160eb3"] },
+    { "stepId": "dcce839677e416e6", "level": 1, "source": "class", "slugs": ["skills:med", "skills:inv"] },
+    { "stepId": "51ec3eb33ac8e76c", "level": 8, "source": "class", "uuids": ["Compendium.op5e.class-features.96dcda2a40ae256f"] },
+    { "stepId": "a897588d2b0be83e", "level": 10, "source": "class", "uuids": ["Compendium.op5e.class-features.7395019d993a1891"] },
+    { "stepId": "927dfbf776853951", "level": 12, "source": "class", "uuids": ["Compendium.op5e.class-features.2ce8a781717e7925"] },
+    { "stepId": "9a2e2439ce88d7b3", "level": 14, "source": "class", "uuids": ["Compendium.op5e.class-features.f615a9813a58ebab"] }
+  ]
+}

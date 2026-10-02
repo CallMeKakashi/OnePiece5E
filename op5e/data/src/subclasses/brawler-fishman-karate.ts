@@ -63,6 +63,7 @@ export const waterShot = feat(
   {
     actionType: "rwak",
     range: { value: 60, long: null, units: "ft" },
+    damage: { parts: [["@scale.brawler.brawling-die + @mod", "bludgeoning"]], versatile: "" },
   },
 );
 

@@ -1,0 +1,30 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "name": "Nerolo Donatelli",
+  "raceIdentifier": "human",
+  "classIdentifier": "savant",
+  "subclassIdentifier": "cold-indifference",
+  "level": 13,
+  "cr": 10,
+  "backgroundSlug": "Noble",
+  "roleSlug": "Role: Captain",
+  "powerFork": "fork",
+  "additionalPowerSlug": "powerful-laughter",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "abilities": { "str": 10, "dex": 16, "con": 22, "int": 10, "wis": 14, "cha": 20 },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "choices": [
+    { "stepId": "fbdf0c9c247c5a84", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.9c5132ad9c9d881f"] },
+    { "stepId": "16d7e65ad4c47e6b", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.7842a68fdf0a1f76"] },
+    { "stepId": "7135d7bfa8bdfaba", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.ce715368a9f9538a"] },
+    { "stepId": "fae1623618546457", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.42c76b2a6b6bc431"] },
+    { "stepId": "c5ab7e98a81a70cd", "level": 1, "source": "class", "slugs": ["skills:per", "skills:ins"] },
+    { "stepId": "89cfa656ce361f22", "level": 8, "source": "class", "uuids": ["Compendium.op5e.class-features.96dcda2a40ae256f"] },
+    { "stepId": "aa51d3e3ac30e398", "level": 10, "source": "class", "uuids": ["Compendium.op5e.class-features.16bc2636849312ce"] },
+    { "stepId": "5aadbe6b61ac5dfe", "level": 12, "source": "class", "uuids": ["Compendium.op5e.class-features.c04321ae3bf3215f"] }
+  ]
+}

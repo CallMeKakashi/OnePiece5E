@@ -15,7 +15,7 @@ import { featureItemSchema } from "./schemas/feature.js";
 import type { FeatureItem } from "./schemas/feature.js";
 import { raceItemSchema } from "./schemas/race.js";
 import { foundryItemBase } from "./schemas/common.js";
-import { ensureFeatureActivities } from "./helpers/activities.js";
+import { ensureFeatureActivities, ensureItemActivities } from "./helpers/activities.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -116,6 +116,8 @@ async function buildPack(config: PackConfig): Promise<Stats> {
   for (let raw of items) {
     if (FEATURE_PACKS.has(config.name)) {
       raw = ensureFeatureActivities(raw as FeatureItem);
+    } else {
+      raw = ensureItemActivities(raw as never);
     }
 
     const result = config.schema.safeParse(raw);

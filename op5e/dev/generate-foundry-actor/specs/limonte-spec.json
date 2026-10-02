@@ -1,0 +1,31 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "name": "Limonte Russo",
+  "raceIdentifier": "human",
+  "classIdentifier": "marksman",
+  "subclassIdentifier": "bounty-hunter",
+  "level": 12,
+  "cr": 10,
+  "backgroundSlug": "Gambler",
+  "roleSlug": "Role: Master at Arms",
+  "powerFork": "neither",
+  "additionalPowerSlug": "",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "abilities": { "str": 12, "dex": 20, "con": 26, "int": 12, "wis": 14, "cha": 16 },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "choices": [
+    { "stepId": "bdbeb7672f52cde8", "level": 0, "source": "role", "uuids": ["Compendium.op5e.items.b38dba05ae0dcaec"] },
+    { "stepId": "bc03aaf1b8afd5c0", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.69b040710b4ce0a2"] },
+    { "stepId": "a893e6768294bd5c", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.9c5132ad9c9d881f"] },
+    { "stepId": "bdb4984473ad6c5a", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.7842a68fdf0a1f76"] },
+    { "stepId": "465ccc3ad4943b3d", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.d9c7acb32b8b5670"] },
+    { "stepId": "e89c136d8823dbe9", "level": 1, "source": "class", "slugs": ["skills:ins", "skills:prc"] },
+    { "stepId": "88aa245a9b5cd988", "level": 8, "source": "class", "uuids": ["Compendium.op5e.class-features.96dcda2a40ae256f"] },
+    { "stepId": "b0da9eb94ff1eed0", "level": 10, "source": "class", "uuids": ["Compendium.op5e.class-features.7395019d993a1891"] },
+    { "stepId": "baa48c1a86644208", "level": 12, "source": "class", "uuids": ["Compendium.op5e.class-features.2ce8a781717e7925"] }
+  ]
+}

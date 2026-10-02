@@ -9,7 +9,7 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Ame Ame no Mi
@@ -23,15 +23,17 @@ related_source:
 | **Owner** | [[Sora]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/ame-ame-no-mi.png|Devil fruit]]
+![[Attachments/ame-ame-no-mi.png|registry-image]]
 
 ## Description
 
 Campaign-registered **Paramecia** devil fruit. Current eater: [[Sora]].
 
-## Properties
+## Powers
 
-Rain manipulation (campaign homebrew). Former PC fruit; owner now [[Sora]].
+- **Water bullet** — Shape pressurized water into a shot or hurled mass to strike enemies.
+- **Healing rain** — Splash greenish rain onto wounds to heal allies.
+- **Rain control** — Move and throw ambient water or rainfall (not always shaped as bullets).
 
 ## Drawbacks
 
@@ -40,6 +42,6 @@ Rain manipulation (campaign homebrew). Former PC fruit; owner now [[Sora]].
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
 - Owner: [[Sora]]
 - [[Sora]]

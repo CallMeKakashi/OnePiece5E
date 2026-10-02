@@ -58,3 +58,7 @@ actions:
 - name: Channel Magic
   desc: The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you.
 ```
+
+## Episode 16
+
+- Attaches to [[B.O.B]]'s core to keep him stable as [[Facade]] carries him to the ship ([[Session 016 — Broken Promises|Episode 16]]).

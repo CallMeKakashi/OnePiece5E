@@ -1,0 +1,115 @@
+name = "polish-session-note"
+description = 'Complete and polish a single Blood & Brine session note using its linked transcript and vault sources. Fills all standardized sections (TL;DR, Cast, Where/When, Actual play outcomes, Open threads, Loot & changes), resolves wikilinks, closes threads settled by later sessions, and surfaces at most 5 questions for the user. Use when the user says /polish-session-note, "polish session", "complete session notes", or names a specific session to write up. One session at a time only — never batch.'
+developer_instructions = """
+# polish-session-note
+
+Single-session note completion for Blood & Brine. One session per invocation.
+
+## Before you start
+
+Read in order:
+1. `CONTEXT.md` — domain glossary (Actor, wikilink conventions, STT noise awareness)
+2. `AGENTS.md` — folder tiers, read-only default, Session vs Episode
+
+Default mode is **read-only**. Do not write anything until you confirm the session with the user and they approve edits.
+
+## Step 1 — Identify the target session
+
+If the user named one, locate it under `Sessions/2026/<date>/Session *.md`.
+
+If they didn't, find the next incomplete session:
+- Incomplete = body is mostly empty, has `TODO:` markers, or is missing two or more standardized sections.
+- Start from Session 16 — Broken Promises (2026-01-04) and work forward; sessions 2–15 were already processed.
+- Present the candidate to the user and confirm before proceeding.
+
+## Step 2 — Gather sources
+
+From the session note's frontmatter `episode` and `sources` fields:
+
+1. Read the linked `Transcripts/<date>/Episode N - Title.md` first — this is the primary source.
+2. If the `.md` transcript is thin, fall back to the `.txt` file in the same folder.
+3. Read any linked `Timeline/` event pages.
+4. Skim the previous and next session notes for thread continuity (open → resolved).
+
+Do not load `.srt` files unless the `.md` and `.txt` are both missing or corrupt.
+
+## Step 3 — Fill the standardized sections
+
+Write or rewrite these sections in order. Keep what's already good; only touch what's missing or wrong.
+
+### TL;DR
+3–6 bullets. Each bullet = one concrete story beat (location → action → consequence). No vague summaries.
+
+### Cast
+Two sub-lists:
+- **PCs** — player characters present, wikilinked to their Actor pages under `World/Factions/`.
+- **Major NPCs** — named NPCs with meaningful screen time, wikilinked. Add a one-phrase role hint in parentheses.
+
+### Where/When
+- **Location**: named place with wikilink, plus sub-location if relevant.
+- **In-world date**: anchor to a `Timeline/` newspaper or event if one exists. If not derivable, write `TODO: in-world date` — do not invent.
+- **Travel**: include if the session involves movement between locations.
+
+### Actual play outcomes
+Concrete state changes only — what is different in the world after this session vs before. Use sub-bullets per category (crew composition, gear, route/plan, conflicts, info revealed). Do not repeat TL;DR.
+
+### Open threads
+List threads opened this session. For each thread also present in prior notes, update its status:
+- **Ongoing** — not resolved yet.
+- **Resolved** — cite the session or note that closed it.
+- **Updated** — partially advanced; still open.
+
+Close threads that are clearly settled by later vault evidence. Don't close threads speculatively.
+
+### Loot & changes
+- Sub-list by category: items looted, items purchased/traded, money gained/spent, notable state changes (ship, crew, abilities).
+- Use exact berry amounts from transcript where stated. Mark uncertain amounts as `~`.
+
+### Links table
+Preserve or add a markdown table:
+```
+| Kind | Note |
+|------|------|
+| Transcript | [[Episode N - Title]] |
+| Timeline | [[...]] |
+| Raw | `Transcripts/<date>/Episode N - Title.txt` |
+| Prev | [[Session N-1 — Title]] |
+| Next | [[Session N+1 — Title]] |
+```
+
+### Prep (before play)
+Keep existing prep text verbatim. If none exists, leave the section header with no content (do not invent prep).
+
+## Step 4 — Wikilink rules
+
+- Link every named Actor, location, faction, and devil fruit on first mention per section.
+- STT noise: treat garbled proper nouns as the closest existing vault note. Document your guess in a TODO if uncertain.
+- Saplea's canonical link uses curly/typographic apostrophes: `[[🦾 Saplea D. Isla — "Dreadnaught"]]`.
+- Do not create new notes. If an entity has no note, link it anyway — the broken link is fine.
+- Bank/institution names: match the existing vault note title exactly (e.g. `[[Worgoman Bank]]`).
+
+## Step 5 — Report and questions
+
+After writing, report:
+1. **Sections filled** — list what was added or updated.
+2. **TODOs remaining** — list each inline `TODO:` and why the sources don't answer it.
+3. **Questions for user** — at most 5, concrete and specific (not "anything else?"). Prioritize: in-world date, ambiguous entity names, unresolved threads, and loot amounts.
+
+Do not commit. Do not touch `Sessions.md` unless a session title was wrong and the user approves the fix.
+
+## Incomplete sessions (as of 2026-08-18)
+
+Starting from the last batch run, these still need work (in order):
+
+1. Session 16 — Broken Promises (2026-01-04)
+2. Session 17 — Agony of Chaos (2026-01-11)
+3. Session 18 — Gentle Giant Pirates (2026-02-01)
+4. Session 19 — The Walking Dead (2026-02-08)
+5. Session 20 — Price of Freedom Part 1 (2026-02-15)
+6. Session 20 — Price of Freedom Part 2 (2026-02-15)
+7. Session 21 — House of Justice (2026-02-22)
+8. Session 22 — The Missing Piece (2026-03-08)
+9. Session 23 — Choice for life (2026-03-15)
+10. Session 24 — The Friendly Baron (2026-03-22)
+11. Session 24.5 — Interstitial RP (2026-03-22)
+12. Session 25 — Fire Storm (2026-03-29) — transcript linked, notes stub only"""

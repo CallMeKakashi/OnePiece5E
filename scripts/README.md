@@ -31,3 +31,14 @@ Set `DISCORD_BOT_TOKEN` in `../.env`.
 python discord_export.py
 python discord_export.py --channels 1382564722293080124 1453435491117432916
 ```
+
+## Reconcile (after export)
+
+```powershell
+python discord_reconcile.py            # new messages vs last commit
+python discord_reconcile.py --since HEAD~1
+```
+
+Writes `Discord/reconcile.md`: only messages new since the given revision, each with a checkbox and the vault notes its names match. It never edits notes. Review it and update notes by hand, then commit the exports so the next run starts from them.
+
+The old `discord_vault_sync*.py` scripts were removed: they overwrote curated notes from hardcoded, stale data (see git history).

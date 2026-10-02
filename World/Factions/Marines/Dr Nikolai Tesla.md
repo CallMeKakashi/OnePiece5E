@@ -7,14 +7,13 @@ sources:
   - "[[1476-01moon [Backstory] The Birth of the Motley Crew]]"
   - "[[Timeline/Undated/[Backstory] Elizabeth Marrow — mortuary escape]]"
   - "[[Episode 25 - Fire Storm]]"
-  - "Sessions/Linus' Notes.md"
-  - "Sessions/Archive/Campaign 1/Session 3 notes.md"
+  - "[[Linus — Notes]]"
   - "Discord/exports/character-art"
 ---
 
 ## Aliases
 
-- **Dr. Nikolai Vasiliev** — Germa-era name (archive / Campaign 1 notes)
+- **Dr. Nikolai Vasiliev** — Germa-era name
 - **The Doctor** — Callisto amalgam projects ([[Discord/exports/character-art]])
 - **Nikolai / Anton** — mist-form antagonist at Fire Storm ([[Linus Marrow]] identification)
 
@@ -26,7 +25,7 @@ Gaunt Germa-trained scientist: pale, sharp features, slicked-back white hair, he
 
 - **Germa 66** — Former lead experimenter; **[[Linus Marrow]]** worked under him; ran cruel trials on minks including **[[Pasha]]** ([[1476-01moon [Backstory] The Birth of the Motley Crew]]).
 - After Germa's fall — worked alone; on **Driftroot**, partnered with **Nyx Velencruz** to refine **[[LunaFang Serum]]** (hireling **[[Berserker]]** oversaw trials until a crazed **[[Saber-Toothed Tiger]]** killed him in the **Old City**).
-- Later joined **Commodore Briggs**'s **G-4.5** marine command.
+- Later joined **Commodore Briggs**'s **G-45** marine command.
 - **[[Mugen Industries]]** — Builds and tests whatever Briggs allows under the Mugen banner (G-45 / Callisto facilities, enforcer armour, amalgams).
 - Creates **[[RyeNera]]** (two-human fusion) and stronger **[[Monster Manual/Aberrant Abomination|Aberrant Abomination]]** (three-creature fusion) in pursuit of his Virellis ideal.
 - **Lunafang distribution** — Faulty fertilizer on **West Town** farms (e.g. **[[Hydra Goose]]** mutation); spreading the drug across the Blues for unknown ends.
@@ -38,7 +37,7 @@ Nikolai fled or departed Germa when the kingdom fell, carrying the memory of a *
 ## Episode threads
 
 - **Distraction operations** — **Airship crash:** **[[Monster Manual/Aberrant Abomination|Aberrant Abomination]]** + **[[Carrion Stalker|Carrion Stalkers]]** (killed by [[B.O.B]], [[Roma]], [[Tray]]). **York Town mine:** **[[Cave Render|Cave Renders]]** (bred cannibals; killed by [[Thompson Caneheart]], [[Matthew -The Jack- Burgess|Jack]]). Meant to draw the party while island work goes unnoticed (sessions/transcripts pending).
-- Campaign 1: threatening Den Den Mushi contact; bounty hunters sent for Pasha ([[Sessions/Archive/Campaign 1/Session 3 notes]]).
+- Threatening Den Den Mushi contact; bounty hunters sent for Pasha.
 - **Fire Storm** — Mist form abducts [[Alice]] and [[Malphas]]; [[Calder Voss]] escapes ([[Episode 25 - Fire Storm]]).
 - **Callisto** — Research facility destroyed; survivors blame Blackhand; Mugen / Briggs spin ([[Timeline/1478/1478-12moon [Newspaper] Grand Line Tribune — Morning]]).
 

@@ -2,17 +2,19 @@
 type: actor
 aliases:
   - "Informant (Loguetown)"
+  - "Sato"
 faction: "[[Lunarfolds]]"
 status: draft
 publish: true
 sources:
-  - "[[Episode 9 - The Lunarfold Tournament Part 2]]"
+  - "[[Episode 09 - The Lunarfold Tournament Part 2]]"
   - "[[Episode 21 - House of Justice]]"
   - "[[Episode 22 - The Missing Piece]]"
   - "[[Episode 23 - Choice for life]]"
   - "[[Episode 25 - Fire Storm]]"
   - "Discord/exports/character-art"
   - "Discord/exports/bounty-posters"
+  - "Discord/exports/world-lore"
 foundry_actor_id: "HJKNBZ85j9EY3Qys"
 foundry_live_slug: "zim"
 ---
@@ -26,7 +28,7 @@ foundry_live_slug: "zim"
 
 ## Description
 
-Non-human (~20s) — not a devil fruit user per her own claim. True name and species remain uncertain (transcript STT rendered her name as "them"; table joke "Galelia?"). Marine-adjacent informant who works for pirates "sometimes." Carries a notebook that appears blank — real intel not written down.
+Woman (~20) in black clothes, from **Loguetown**. Informant who "mostly deals with Marines" but has no allegiance to them, and works for pirates "sometimes". Carries a notebook that reads blank; it was given to her by [[Astor]], and its pages fold into working objects (see [[Liz]]'s paper).
 
 ## Role
 
@@ -34,33 +36,48 @@ Spy and informant for the [[Lunarfolds]]. [[Sixfold]]-associated operative. Prev
 
 ## Personal Quests
 
-- Must "save After" (surface thought detected by [[Malphas]] via Detect Thoughts)
+- Save [[Astor]]: she believes he is effectively dead, but a Marine-held **device that permanently removes a devil fruit's power** could undo the fusion that made [[Vireth]] ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]])
 - Survival and information brokering across factional lines
 
 ## Backstory
 
 ### Episode 9 — Loguetown Informant
 
-Pulled from a log at sea and rescued by the crew en route to **Loguetown** (East Blue). Hostile at first; held in a cage aboard Spider's Nest vessel after the tournament. Traded a G-45 **journal**, island blueprints, and shipment ledgers for intel on **Vireth** (flying North Blue → South Blue) and **[[Liz Marrow]]** / Sixfold accompaniment. Her own notebook was shown **blank** — real intel never written down.
+Pulled from a log at sea by [[Baptiste]] and revived by [[B.O.B|Bob]]'s owl. Trying to get home to Loguetown; had been following [[Vireth]] for about two weeks at a Marine's request. Held in the Spider's Nest brig; her bag has a sea-prism latch and holds a Loguetown name and address and two sets of sea-prism cuffs.
 
-Subjected to interrogation: [[Roma]] intimidation, [[Veyl Corven]] rough questioning, [[Malphas]] Detect Thoughts (surface thought: must "save After"). Released after answering who accompanied Vireth besides Liz; the journal reads blank to the party afterward. [[Chloe (Spider's Nest)]] recognized her ("This one").
+Traded intel for [[Hallow]]'s journal, the island blueprints and the shipment ledgers: Vireth was last seen in the North Blue flying towards the South Blue, with [[Liz]]; two Lunarian sightings, one an escape from a North Blue Marine post; and a white-haired, red-eyed flyer seen at the post Droven attacked (an [[Alice]] lead for [[Malphas]]).
+
+Knocked out and dangled over the sea by [[Roma]] until [[Veyl Corven]] stopped it. The next morning Bob read her thoughts with Detect Thoughts and she gave up her secret: Vireth is [[Astor]] and [[Ronan]] fused, and she is after the device that could save Astor. Left in one of [[Daniel]]'s lifeboats with Veyl's radio, propelled by origami jets folded from her notebook; Bob kept one of her cuffs ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]).
 
 ### Episodes 21–25 — Rescue and Escape
 
 Trial island target during Episode 21; party splits ops to free Zim alongside **Droven** / Dravo. Rescued from **[[Calder Voss]]**'s seastone brig in Episode 22; admits spy role. Broken arm at time of rescue. Aboard **SSR Caravelle** during the naval chase and **Fire Storm** escort battle (Episodes 23–25).
 
+### Time skip — "Sato"
+
+After several others failed, she infiltrated [[Capone Family]]-occupied territory disguised as Sato, a woman supposedly fleeing Guiseppi enslavement, and gathered intel. Dropped the act on hearing of the crew's near death, waited at [[Linus Marrow|Linus]]'s clinic, and resolved to infiltrate the Capone stronghold in West Town. [[Rum Guiseppi|Rum]] distrusts her but tolerates her: she has [[Mira the Unbreakable|Mira]]'s protection ([[Timeline/Undated/[Event] Capone Invasion — Time Skip]]).
+
+## Episode 9
+
+- Spotted on a log at sea by Baptiste's natural-20 look-out roll; revived by Bob's owl with Cure Wounds. Reacts sharply to Vireth's name; says she has followed him about two weeks on a Marine's request. Veyl recognises her and asks about [[Astor]]; she knows him.
+- Locked in the brig with Daniel's key; her bag has a sea-prism latch and her notebook is blank (confirmed by Bob's Detect Magic and Investigation).
+- Trades intel for [[Hallow]]'s journal, the island blueprints and the shipment ledgers: Vireth went towards the South Blue with [[Liz]]; two Lunarian sightings; she confirms Baptiste works for Blackhand and asks what he really is.
+- Baptiste pulls her into the cell wall with a black hole; at night Serica accuses her over something to do with "him"; Roma knocks her out and dangles her over the sea; Veyl cuts her free ("we don't torture people").
+- Next morning, under Bob's Detect Thoughts, she reveals Vireth is Astor and [[Ronan]] fused, and that a Marine-held device could undo it; tells Malphas of a white-haired, red-eyed flyer seen when Droven attacked a North Blue Marine post.
+- Leaves for Loguetown in Daniel's lifeboat with Veyl's radio, boosted by origami jet engines folded from her notebook; Bob keeps one of her sea-prism cuffs ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]).
+
 ## Open Questions
 
-- True name and species (Lunarian sightings discussed)
-- Link to Episode 10 marine ambush / Daniel betrayal
+- Who is her Marine correspondent in Loguetown, and where is the device?
+- What is [[Serica Corven]] accusing her of?
 
 ## Related
 
 - [[Linus Marrow]]
 - [[Calder Voss]]
 - [[Sixfold]]
-- [[Daniel (Spider's Nest)]]
-- [[Chloe (Spider's Nest)]]
+- [[Daniel]]
+- [[Chloe]]
 - [[1478-03sun [Newspaper] Grand Line Tribune — Midday]] (prisoner transport)
 - [[1478-12moon [Newspaper] Grand Line Tribune — Morning]] (Vireth / Liz)
 ## Live sheet (Foundry)

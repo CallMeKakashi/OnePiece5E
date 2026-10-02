@@ -322,3 +322,7 @@ traits:
 - name: Transformation
   desc: (See Foundry for activity details.)
 ```
+
+## Episode 16
+
+- [[Dravos]] works with Fenris, another captain in Blackhand's fleet who leads his own unit. Fenris is probably "the captain" in [[Session 015 — Animal Within|Episode 15]] ([[Session 016 — Broken Promises|Episode 16]]).

@@ -11,7 +11,7 @@ foundry_live_slug: "farmbull"
 
 ## Visuals
 
-![[Attachments/monsters/farmbull.png|Portrait]]
+![[Attachments/monsters/farmbull.png|registry-image]]
 
 **Look:** Lunafang **mutated bull** — deep red-maroon hide, heavy muscle, grey calloused plates on forehead and shoulders; wrong **branching antlers** atop a bovine head; charging leap pose with cloven hooves. Reads as livestock turned into a bull–stag hybrid bruiser (**Bull of Zagresh**).
 
@@ -36,7 +36,7 @@ The farm family hid in the **barn basement**; **[[Simon The One Armed Tyrant|Sim
 - [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 05:58 UTC*
+*Last synced: 2026-06-06 13:10 UTC*
 
 ```statblock
 name: FarmBull
@@ -49,12 +49,13 @@ speed: walk 50 ft.
 stats: [22, 12, 19, 4, 13, 8]
 cr: 6
 traits:
-- name: Gore
-  desc: "If the Bull moved at least 20 ft straight toward the target, the attack deals an extra 2d8 damage and the target must succeed on a DC 16 STR save or be knocked prone.. Melee Weapon Attack: +9 to hit"
-- name: Hoof Slam
-  desc: "Melee Weapon Attack: +9 to hit"
 - name: Unstoppable Momentum
   desc: The Bull ignores difficult terrain and cannot be forcibly moved while charging.
 - name: Blood Frenzy
   desc: The Bull has advantage on attacks against creatures below half HP.
+actions:
+- name: Gore
+  desc: "If the Bull moved at least 20 ft straight toward the target, the attack deals an extra 2d8 damage and the target must succeed on a DC 16 STR save or be knocked prone. Melee Weapon Attack: +9 to hit. Hit: 2d12+6 piercing"
+- name: Hoof Slam
+  desc: "Melee Weapon Attack: +9 to hit. Hit: 2d6+6 bludgeoning"
 ```

@@ -12,7 +12,7 @@ tags:
 sources:
   - "[[Timeline/Undated/[Event] Gentle Giant Pirates]]"
 related_sessions:
-  - "[[Session 18 - Gentle Giant Pirates]]"
+  - "[[2026-02-01 — Gentle Giant Pirates]]"
 ---
 
 # Days 6–7 — Driftroot to South Blue

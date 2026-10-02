@@ -4,7 +4,7 @@ faction: "[[Marines]]"
 status: draft
 publish: true
 sources:
-  - "[[Episode 5 - Shackles Broken]]"
+  - "[[Episode 05 - Midnight Chainbreak]]"
   - "[[Episode 21 - House of Justice]]"
   - "[[Episode 22 - The Missing Piece]]"
   - "[[Episode 23 - Choice for life]]"
@@ -46,8 +46,12 @@ Founding member of the [[Motley Crew]], now serving in the [[Marines]].
 
 ## Episode 5
 
-- Commands response to the **[[Worgoman Bank]]** raid; first-class marines under his orders.
+- Commands response to the **[[World Government Bank]]** raid; first-class marines under his orders.
 - Opposed by colliding [[Sixfold]] and Blackhand-linked crew; clash unresolved at session end.
+
+## Episode 10
+
+- **Nightmare only**: in the crew's shared ring nightmare he arrives with G-45 armours "in the name of [[Commodore Briggs]]", wanting the two Lunarians alive for Mugen research, and unleashes **Project Wonderland** (see [[Alice]]). He taunts [[B.O.B|Bob]] that his mother's last word was "Basilisk"; Bob warps him into the sea and drags him under ([[Session 010 — Sea of Nightmares|Episode 10]]).
 
 ## Episodes 21–25 (Lex Imperia)
 
@@ -59,7 +63,7 @@ Founding member of the [[Motley Crew]], now serving in the [[Marines]].
 
 - [[Motley Crew]]
 - [[Spirit Cliff]]
-- [[Worgoman Bank]]
+- [[World Government Bank]]
 - [[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]
 ## Build template (Foundry)
 

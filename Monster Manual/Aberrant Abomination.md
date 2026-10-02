@@ -9,7 +9,7 @@ foundry_live_slug: "aberrant-abomination"
 
 ## Visuals
 
-![[Attachments/monsters/aberrant-abomination.png|Portrait]]
+![[Attachments/monsters/aberrant-abomination.png|registry-image]]
 
 **Look:** Hulking fusion horror — three lumpy humanoid heads on one torso, each with stringy black hair, milky sunken eyes, and a **vertical** split maw full of needle teeth; pale grey flesh studded with red sore-like pustules; long yellow tongue on the center head. Body-horror boss silhouette (Nikolai triple-creature amalgam).
 
@@ -17,7 +17,7 @@ foundry_live_slug: "aberrant-abomination"
 
 ## Role
 
-**Dr. Nikolai Tesla**'s most successful forced fusion to date: a **three-creature amalgam** (stronger than his two-subject prototype **[[RyeNera]]**). Built under **[[Mugen Industries]]** patronage after Nikolai left **Germa 66** and joined **Commodore Briggs**'s **G-4.5** command, where Mugen operates in the background.
+**Dr. Nikolai Tesla**'s most successful forced fusion to date: a **three-creature amalgam** (stronger than his two-subject prototype **[[RyeNera]]**). Built under **[[Mugen Industries]]** patronage after Nikolai left **Germa 66** and joined **Commodore Briggs**'s **G-45** command, where Mugen operates in the background.
 
 Nikolai's obsession is replicating what he witnessed at **Virellis** just before Germa's fall — the creation of the **perfect being**. The Aberrant Abomination is a late-stage step in that line of work, not a field-stable soldier.
 
@@ -42,7 +42,7 @@ Use as a **solo boss-tier** aberration (CR 10) when Nikolai deploys his heaviest
 - [[Timeline/1478/1478-12moon [Newspaper] Grand Line Tribune — Morning|Callisto collapse press]] (facility context)
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 07:07 UTC*
+*Last synced: 2026-06-01 05:24 UTC*
 
 ```statblock
 name: Aberrant Abomination

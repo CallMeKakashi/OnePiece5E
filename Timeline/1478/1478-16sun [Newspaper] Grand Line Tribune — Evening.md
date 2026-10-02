@@ -4,12 +4,11 @@ type: newspaper
 in_world_start: 1478-16sun
 in_world_end:
 precision: approximate
-in_world_label: "16th Sun, 1478"
+in_world_label: 16th Sun, 1478
 publication: Grand Line Tribune
 edition: Evening Edition
 status: draft
 sources:
-  - "Discord/exports/world-lore.md"
 related_events:
   - "[[1478-09sun [Newspaper] Grand Line Tribune — Morning]]"
   - "[[1478-03sun [Newspaper] Grand Line Tribune — Midday]]"
@@ -32,7 +31,7 @@ The first incident occurred at Noosehold and Lex Imperia, where reports confirm 
 
 During the chaos that followed, prison systems throughout Lex Imperia were breached, resulting in mass civilian casualties and widespread panic across the island.
 
-Captain Calder Voss of Marine Unit G-4.5 was taken hostage during the incident before later being rescued by Marine forces. Officials confirm he remains under intensive medical care due to severe injuries sustained during the attack.
+Captain Calder Voss of Marine Unit G-45 was taken hostage during the incident before later being rescued by Marine forces. Officials confirm he remains under intensive medical care due to severe injuries sustained during the attack.
 
 Before Marines could fully recover from the disaster, a second assault occurred days later within the Royal Navy Channels leading toward Lex Imperia.
 
@@ -44,7 +43,7 @@ Surviving Marines describe an overwhelming aerial assault involving multiple fly
 
 The confrontation also resulted in the shocking defeat of rising Marine rookie Commander Leon of G-9, whose reputation had rapidly grown in recent months. Commander Leon is currently recovering from extensive injuries.
 
-Marine officials additionally credited Captain Drez Crown of G-4.5 for saving numerous Marine lives during the ambush.
+Marine officials additionally credited Captain Drez Crown of G-45 for saving numerous Marine lives during the ambush.
 
 In direct response to the escalating threat posed by the Lunarfold Pirates, Commodore Briggs has officially approved the long-rumored **Arms Initiative** in partnership with Mugen Industries, signaling a major military escalation within the region.
 

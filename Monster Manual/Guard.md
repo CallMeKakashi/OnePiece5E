@@ -9,7 +9,7 @@ foundry_live_slug: "guard"
 
 ## Visuals
 
-![[Attachments/monsters/guard.webp|Token]]
+![[Attachments/monsters/guard.webp|registry-image]]
 
 **Look:** Stock **town guard** — spear and shield, light armor, helmet; interchangeable watchman or marine filler for random encounters.
 
@@ -28,7 +28,7 @@ foundry_live_slug: "guard"
 - [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)
 
-*Last synced: 2026-05-31 06:09 UTC*
+*Last synced: 2026-06-02 07:50 UTC*
 
 ```statblock
 name: Guard

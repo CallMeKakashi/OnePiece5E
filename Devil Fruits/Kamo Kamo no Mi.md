@@ -9,29 +9,29 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Kamo Kamo no Mi
 
-*Zoan, unique (consumed — replaces attunement)*
+*Paramecia, unique (consumed — replaces attunement)*
 
-*Duck-Duck Fruit*
+*Camouflage-Camouflage Fruit*
 
 | | |
 | --- | --- |
 | **Owner** | [[Vodka Guiseppi]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/kamo-kamo-no-mi.png|Devil fruit]]
+![[Attachments/kamo-kamo-no-mi.png|registry-image]]
 
 ## Description
 
-Campaign-registered **Zoan** devil fruit. Current eater: [[Vodka Guiseppi]].
+Campaign-registered **Paramecia** devil fruit (**Camouflage-Camouflage**). Current eater: [[Vodka Guiseppi]].
 
-## Properties
+## Powers
 
-Partial duck transformation. Guiseppi Family — no vault actor page yet.
+- **Unseen** — Camouflage into her surroundings and become fully invisible at will.
 
 ## Drawbacks
 
@@ -40,6 +40,6 @@ Partial duck transformation. Guiseppi Family — no vault actor page yet.
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
 - Owner: [[Vodka Guiseppi]]
 - [[Vodka Guiseppi]]

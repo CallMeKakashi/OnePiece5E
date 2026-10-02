@@ -26,6 +26,8 @@ SYNC_DIRS = (
     "World",
 )
 SYNC_FILES = ("Home.md", "World-Map.png")
+# Vault-relative paths (file or folder) never published, even with `publish: true`.
+EXCLUDED_PATHS = ("Timeline/Campaign 1", "Timeline/Campaign 1.md")
 
 # Obsidian uses _index.md for folder MOCs; Quartz expects index.md (see quartz/util/fileTrie.ts).
 INDEX_BASENAME = "_index.md"
@@ -409,6 +411,9 @@ def stage_content(planning_root: Path, staging_root: Path) -> None:
                 continue
 
             relative = source.relative_to(source_dir)
+            vault_path = f"{directory}/{relative.as_posix()}"
+            if any(vault_path == p or vault_path.startswith(p + "/") for p in EXCLUDED_PATHS):
+                continue
             destination = content_dir / directory / quartz_publish_relpath(relative, directory)
             write_staged(source, destination)
 

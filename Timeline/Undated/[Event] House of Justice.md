@@ -29,4 +29,4 @@ related_events:
 ## Evidence
 
 - [[Episode 21 - House of Justice]]
-- [[Session 21 - House of Justice]]
+- [[Session 021 — House of Justice]]

@@ -9,7 +9,7 @@ foundry_live_slug: "saber-toothed-tiger"
 
 ## Visuals
 
-![[Attachments/monsters/saber-toothed-tiger.webp|Token]]
+![[Attachments/monsters/saber-toothed-tiger.webp|registry-image]]
 
 **Look:** Stock **saber-toothed tiger** — massive prehistoric cat, long upper fangs, striped or tawny big-cat coat, low hunting stance; generic mount/companion or wild predator token.
 

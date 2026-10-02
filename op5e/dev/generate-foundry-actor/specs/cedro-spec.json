@@ -1,0 +1,31 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "name": "Cedro Moulan",
+  "raceIdentifier": "human",
+  "classIdentifier": "rogue",
+  "subclassIdentifier": "ringmaster",
+  "level": 12,
+  "cr": 8,
+  "backgroundSlug": "Noble",
+  "roleSlug": "Role: Captain",
+  "powerFork": "fork",
+  "additionalPowerSlug": "machiavellian-misfit",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "abilities": { "str": 10, "dex": 18, "con": 26, "int": 12, "wis": 10, "cha": 18 },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "choices": [
+    { "stepId": "fbeb73bc78d6767e", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.42c76b2a6b6bc431"] },
+    { "stepId": "75cd78494e511e6d", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.49490f8652cfc663"] },
+    { "stepId": "0f87656404bdc6cf", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.c3394ea8a586da09"] },
+    { "stepId": "3a45815647a71bd3", "level": 1, "source": "class", "slugs": ["skills:dec", "skills:ins", "skills:itm", "skills:per"] },
+    { "stepId": "616fe9df8c9a6381", "level": 1, "source": "class", "slugs": ["skills:dec", "skills:per"] },
+    { "stepId": "5012b0b012ca9554", "level": 6, "source": "class", "slugs": ["skills:ins", "skills:itm"] },
+    { "stepId": "3fcae5622854d423", "level": 8, "source": "class", "uuids": ["Compendium.op5e.class-features.96dcda2a40ae256f"] },
+    { "stepId": "82b026d8dcf4d455", "level": 10, "source": "class", "uuids": ["Compendium.op5e.class-features.7395019d993a1891"] },
+    { "stepId": "894d994b114ac510", "level": 12, "source": "class", "uuids": ["Compendium.op5e.class-features.16bc2636849312ce"] }
+  ]
+}

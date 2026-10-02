@@ -1,0 +1,29 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "name": "Gin Guiseppi",
+  "raceIdentifier": "human",
+  "classIdentifier": "fighter",
+  "subclassIdentifier": "banneret",
+  "level": 11,
+  "cr": 11,
+  "backgroundSlug": "Knight",
+  "roleSlug": "Role: Master at Arms",
+  "powerFork": "neither",
+  "additionalPowerSlug": "",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "abilities": { "str": 20, "dex": 14, "con": 26, "int": 10, "wis": 12, "cha": 16 },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "choices": [
+    { "stepId": "bdbeb7672f52cde8", "level": 0, "source": "role", "uuids": ["Compendium.op5e.items.cfe63f1f15529820"] },
+    { "stepId": "eb306fec5586f736", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.c45cecd9577b5d02"] },
+    { "stepId": "f544e265c28b18a4", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.cfe63f1f15529820"] },
+    { "stepId": "9e222e3fcad6d5fc", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.0ddafe26a36d8c1f"] },
+    { "stepId": "9b9a22d4a2455ce0", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.d4ab115668d21de8"] },
+    { "stepId": "c9e9e11ed7760d01", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.7842a68fdf0a1f76"] },
+    { "stepId": "372486d10f05d82d", "level": 1, "source": "class", "slugs": ["skills:ath", "skills:ins"] }
+  ]
+}

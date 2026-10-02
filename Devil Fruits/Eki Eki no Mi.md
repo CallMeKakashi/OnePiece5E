@@ -9,7 +9,7 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Eki Eki no Mi
@@ -25,11 +25,14 @@ related_source:
 
 ## Description
 
-Campaign-registered **Paramecia** devil fruit. Current eater: [[Cline The Plague]].
+Campaign-registered **Paramecia** devil fruit (**Sick-Sick**). Current eater: [[Cline The Plague]].
 
-## Properties
+## Powers
 
-Disease and sickness manipulation — toxic aura, infectious touch, sick fog. See [[Cline The Plague]] stat block for table abilities.
+- **Grunge Style: "Man in the Box"** — Emits poisonous radiation with little control; the dose worsened as he grew older.
+- **Grunge Style: "Black Hole Sun"** — When pushed to his limit, detonates a small nuclear burst from his body; a barrier keeps him and everything within about 5 meters shielded from the blast.
+- **Grunge Style: "Rusty Cage"** — Uses the paper bands on his body to throw, yank, or strike; hits shed a bit of radiation.
+- **Containment belts** — Paper belts worn around the body; replaced from time to time to help hold the radiation in.
 
 ## Drawbacks
 
@@ -38,6 +41,6 @@ Disease and sickness manipulation — toxic aura, infectious touch, sick fog. Se
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
 - Owner: [[Cline The Plague]]
 - [[Cline The Plague]]

@@ -46,6 +46,20 @@ Cadence strapped her gear on in silence, Keera waiting at the tunnel mouth. Riff
 
 The sound of her footsteps leaving stayed with him longer than any song.
 
+## Episode 14
+
+- Meets the crew in the slums after they fight Echo spies; his guitar riffs buff allies and flip into a rubber-round rifle. Leads them into the Discord hideout, explains Decibella's houses and the Decibel Decree, and curses [[Vera]] ("I shouldn't have trusted her"). His house is now called House Sin, for causing the last rebellion; his family abandoned him. Only cares about [[Cadence]] ("my only friend"). Helps kill [[Baron Woofer]], leads the crew up the Channel and passes them off as silent servants. Knocked out by the charmed Baptiste, then keeps the Override Disc Cadence pried from her arm ([[Session 014 — The Decibel Decree|Episode 14]]).
+- Turned against the king because [[Lady Soefra Anthem|Soefra]], jealous of Cadence's singing, masked her early.
+
+## Episode 15
+
+- Fights his cousin [[Synth]] with [[Cade Tigor Cooper|Cade]]: Thunderwave, heat metal on Cade's claws, bardic inspiration and a rubber shotgun. Knocks Synth out with a rubber shot to the face and spares him, taking the tower key. Downed by Synth's feral form. Leaves with the key before the end and does not see Synth die ([[Session 015 — Animal Within|Episode 15]]).
+
+## Episode 16
+
+- Forces [[Lady Soefra Anthem]] to heal the crew with a shotgun to her head, lets the twins escape, and sends [[Cadence]] to the hideout. Takes the first floor with Cade.
+- Opens the control-room gate with the five keys and tries to pull a cable; the Emperor wakes and freezes the crew with "Hold" ([[Session 016 — Broken Promises|Episode 16]]).
+
 ## Episodes 14–19 (Malphas arc)
 
 - **Decibella rebellion** — leads [[Cadence]] cell; Soundless Five tower trials ([[Episode 14 - The Decibel Decree]]–[[Episode 16 - Broken Promises]]).

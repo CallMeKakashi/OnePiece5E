@@ -28,4 +28,4 @@ Arena continuation from Ep 18; night hunt for escaped **singer twin** (Cadence's
 ## Evidence
 
 - [[Episode 19 - The Walking Dead]]
-- [[Session 19 - The Walking Dead]]
+- [[Session 019 — The Walking Dead]]

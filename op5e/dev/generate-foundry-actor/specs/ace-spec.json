@@ -1,0 +1,30 @@
+{
+  "buildPath": "class-based",
+  "name": "Ace",
+  "actorKind": "npc",
+  "cr": 5,
+  "level": 5,
+  "raceIdentifier": "human",
+  "classIdentifier": "rogue",
+  "subclassCustom": "5e-mastermind",
+  "img": "D:/foundry-pi/Foundry/foundrydata/Data/Windows-sync/Character Art/Royal Flush Gang/token_1 (1).png",
+  "tokenImg": "D:/foundry-pi/Foundry/foundrydata/Data/Windows-sync/Character Art/Royal Flush Gang/token_1 (1).png",
+  "abilities": { "str": 10, "dex": 18, "con": 14, "int": 16, "wis": 12, "cha": 10 },
+  "backgroundSlug": "Librarian",
+  "roleSlug": "scholar",
+  "devilFruit": { "slug": "smart-smart", "type": "paramecia" },
+  "startingHaki": ["observation-novice"],
+  "skills": {
+    "acr": 1, "ath": 1, "slt": 1, "ste": 2,
+    "his": 1, "arc": 1, "ins": 1, "inv": 1
+  },
+  "tools": {
+    "tth": 2, "dis": 1, "frg": 1, "cal": 1
+  },
+  "equipment": {
+    "shortsword": "Shortsword",
+    "pistol": "Pistol",
+    "pack": "Burglar's Pack"
+  },
+  "biography": "<p>Ace — Rogue (Mastermind), Scholar/Librarian, Smart Smart no Mi user.</p>"
+}

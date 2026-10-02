@@ -8,9 +8,21 @@ const STATS = {
 };
 const SRC = { book: "OP5e", page: "", custom: "", license: "" };
 
+type ItemActionOptions = {
+  activation?: { type: string; cost: number | null; condition?: string };
+  uses?: { value: number | null; max: string; per: string | null; recovery?: string; prompt?: boolean };
+  actionType?: string;
+  damage?: { parts: [string, string][]; versatile?: string };
+  save?: { ability: string; dc?: number | null; scaling?: string };
+  target?: { value: number | string | null; width?: number | null; units: string; type: string };
+  range?: { value: number | null; long?: number | null; units: string };
+  duration?: { value: number | string | null; units: string };
+};
+
 function magicEquip(
   id: string, name: string, rarity: string, desc: string,
   subtype = "trinket", attunement = false,
+  action: ItemActionOptions = {},
 ): FoundryItem {
   return {
     _id: generateId(`items/magic/${id}`),
@@ -23,6 +35,7 @@ function magicEquip(
       rarity,
       type: { value: subtype },
       attunement: attunement ? "required" : "",
+      ...action,
     },
     effects: [],
     flags: {},
@@ -36,6 +49,7 @@ function magicEquip(
 function magicWeapon(
   id: string, name: string, rarity: string, desc: string,
   attunement = false,
+  action: ItemActionOptions = {},
 ): FoundryItem {
   return {
     _id: generateId(`items/magic/${id}`),
@@ -47,6 +61,7 @@ function magicWeapon(
       source: SRC,
       rarity,
       attunement: attunement ? "required" : "",
+      ...action,
     },
     effects: [],
     flags: {},
@@ -60,6 +75,7 @@ function magicWeapon(
 function consumableItem(
   id: string, name: string, rarity: string, desc: string,
   subtype = "potion",
+  action: ItemActionOptions = {},
 ): FoundryItem {
   return {
     _id: generateId(`items/magic/${id}`),
@@ -71,6 +87,7 @@ function consumableItem(
       source: SRC,
       rarity,
       type: { value: subtype },
+      ...action,
     },
     effects: [],
     flags: {},
@@ -103,6 +120,40 @@ function lootItem(
   } as unknown as FoundryItem;
 }
 
+function devilFruitItem(
+  id: string, name: string, desc: string,
+): FoundryItem {
+  return lootItem(
+    `devil-fruit-${id}`,
+    name,
+    "legendary",
+    `<p><strong>Devil Fruit.</strong> ${desc}</p>`,
+  );
+}
+
+function oneUse(action: Partial<ItemActionOptions> = {}): ItemActionOptions {
+  return {
+    activation: { type: "action", cost: 1 },
+    uses: { value: 1, max: "1", per: null, recovery: "", prompt: true },
+    ...action,
+  };
+}
+
+function charges(max: string, per: string, action: Partial<ItemActionOptions> = {}): ItemActionOptions {
+  return {
+    activation: { type: "action", cost: 1 },
+    uses: { value: Number(max), max, per, recovery: "", prompt: true },
+    ...action,
+  };
+}
+
+function healingUse(formula: string): ItemActionOptions {
+  return oneUse({
+    actionType: "heal",
+    damage: { parts: [[formula, "healing"]] },
+  });
+}
+
 export const magicItems: FoundryItem[] = [
   // ═══════════════════════════════════
   // ARMOR
@@ -111,6 +162,11 @@ export const magicItems: FoundryItem[] = [
     `<p>This set of armor has been crafted from the remains of a rare species of snake whose scales were tough as steel, but as light as leather.</p>
 <p>This armor acts like a set of scale mail. However, you may add your full Dexterity modifier to your AC instead of just 2. In addition, it doesn't grant disadvantage on Stealth checks.</p>`,
     "medium"),
+
+  magicEquip("mechanical-shield", "Mechanical Shield (Animated Shield)", "very rare",
+    `<p>A mechanical shield that can deploy and defend without occupying the user's hand, inspired by an animated shield.</p>
+<p>While activated, the shield grants its protective benefit as if wielded, leaving the user's hand free. Use the item text at the table for exact activation timing and duration.</p>`,
+    "shield", true),
 
   magicEquip("raid-suit", "Raid Suit", "rare",
     `<p>Raid Suits are a special type of armor used by the Germa to enhance their soldiers. While wearing this armor, you gain the following benefits:</p>
@@ -160,12 +216,12 @@ export const magicItems: FoundryItem[] = [
     `<p>A small, handheld device in the shape of a heart with a plus sign, loaded with the ability to manufacture chemicals. When wielded by a Medic, it allows them to form chemicals into fast acting medicine.</p>
 <p>The device has 10 charges. While holding it, you can use an action to expend charges to use the following creations (using your creativity save DC): Cure Wounds (1 charge per level, up to 4th), Lesser Restoration (2 charges), or Mass Cure Wounds (5 charges).</p>
 <p>The device regains all expended charges daily at dawn.</p>`,
-    "trinket", true),
+    "trinket", true, charges("10", "day")),
 
   magicEquip("bubble-coral", "Bubble Coral", "uncommon",
     `<p>Bubble Corals allow the user to push water and produce air for humans to breathe in underwater areas.</p>
 <p>As an action, you can create a 30 ft radius sphere of air within a water-logged area, pushing all water out while not affecting creatures. The bubble can be popped if it takes over 30 damage.</p>`,
-    "trinket"),
+    "trinket", false, { activation: { type: "action", cost: 1 }, target: { value: 30, units: "ft", type: "radius" } }),
 
   // ═══════════════════════════════════
   // RINGS
@@ -175,6 +231,11 @@ export const magicItems: FoundryItem[] = [
 <p>While wearing this ring, you can use the Jump creation from it as a bonus action at will, but can target only yourself.</p>`,
     "trinket", true),
 
+  magicEquip("gadget-ring", "Gadget Ring (Ring of Spell Storing)", "rare",
+    `<p>A ring or compact gadget capable of storing creation-like effects for later use, inspired by a ring of spell storing.</p>
+<p>Use this as the sourcebook's OP5e reflavor for a spell-storing ring. Stored creations and discharge rules should be configured per the table's chosen stored effects.</p>`,
+    "trinket", true),
+
   // ═══════════════════════════════════
   // STAFF AND WANDS
   // ═══════════════════════════════════
@@ -182,14 +243,14 @@ export const magicItems: FoundryItem[] = [
     `<p>This small, handheld gadget allows the user to unleash a barrage of bullets made out of pure force.</p>
 <p>This gun has 7 charges. While holding it, you can use an action to expend 1 or more charges to use the Missiles creation. For 1 charge, you cast the 1st-level version. You can increase the creation slot level by one for each additional charge.</p>
 <p>The gun regains 1d6 + 1 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the gun becomes unsalvageable.</p>`,
-    "trinket"),
+    "trinket", false, charges("7", "day")),
 
   magicEquip("defender-field", "Defender Field (Staff of Defense)", "uncommon",
     `<p>This small, handheld gadget emanates a constant field of protection around the user.</p>
 <p>While holding the gadget, you have a +1 bonus to AC.</p>
 <p>The gadget has 10 charges. With the gadget in hand, you can use your action to use: Gadget Armor (1 charge) or Shield (2 charges). No components required.</p>
 <p>The gadget regains 1d6 + 4 expended charges each day at dawn. If you expend the last charge, roll a d20. On a 1, the gadget becomes unsalvageable.</p>`,
-    "trinket", true),
+    "trinket", true, charges("10", "day")),
 
   magicEquip("the-raging-drum", "The Raging Drum", "very rare",
     `<p>A small, portable drum bound with some kind of red hide. Wielded by talented bards, it has seen some of the most devastating wars.</p>
@@ -200,7 +261,7 @@ export const magicItems: FoundryItem[] = [
 <li><strong>Commanding Beat (1 charge):</strong> Use an action to use the Command creation using your Creativity DC.</li>
 <li><strong>Broken Battle Bridge (3 charges):</strong> Use an action to use the Fear creation using your Creativity DC.</li>
 </ul>`,
-    "trinket", true),
+    "trinket", true, charges("7", "day")),
 
   magicEquip("the-silver-seer", "The Silver Seer", "legendary",
     `<p>Forged during the Void Century, the Silver Seer is a sentient shield with an intelligence of 16, wisdom of 18, and charisma of 22. It is Chaotic Good. It has expertise in all Wisdom and Charisma skill checks.</p>
@@ -303,6 +364,9 @@ export const magicItems: FoundryItem[] = [
 <p>Functions like a Tipped Seastone weapon, but with a +3 modifier.</p>`,
     true),
 
+  lootItem("seastone-and-seastone-items", "Seastone and Seastone Items", "legendary",
+    `<p>Reference entry for seastone equipment. Specific seastone armor, weapons, and handcuffs are available as individual compendium items.</p>`),
+
   magicEquip("seastone-handcuffs", "Seastone Handcuffs", "very rare",
     `<p>Seastone handcuffs are manacles that cannot take damage or be broken unless the creature has the Color of Armament Master haki ability.</p>
 <p>While bound, the creature suffers the waist-deep weakness of Ocean's Scorn, ending when freed. A creature can attempt a CON save (DC 20) at the end of their turns, but only in combat.</p>`,
@@ -311,63 +375,87 @@ export const magicItems: FoundryItem[] = [
   // ═══════════════════════════════════
   // SPECIAL AMMUNITION
   // ═══════════════════════════════════
+  lootItem("special-ammunition", "Special Ammunition", "uncommon",
+    `<p>Reference entry for the sourcebook's special ammunition category. Specific ammunition types are available as individual consumable items.</p>`),
+
   consumableItem("acid-ammo", "Acid Ammo", "uncommon",
-    `<p>A single piece of ammunition with an internal chamber filled with acid. This is a +1 ammo that deals an additional 1d12 acid damage on hit.</p>`, "ammo"),
+    `<p>A single piece of ammunition with an internal chamber filled with acid. This is a +1 ammo that deals an additional 1d12 acid damage on hit.</p>`, "ammo",
+    oneUse({ actionType: "damage", damage: { parts: [["1d12", "acid"]] } })),
 
   consumableItem("boxing-ammo", "Boxing Ammo", "uncommon",
-    `<p>A single piece of ammunition that knocks back the enemy on contact. This is a +1 ammo, and the target must make a STR save (DC = 8 + Mental Ability Score Modifier + Proficiency). On failure, the creature is knocked prone or knocked back 10 ft.</p>`, "ammo"),
+    `<p>A single piece of ammunition that knocks back the enemy on contact. This is a +1 ammo, and the target must make a STR save (DC = 8 + Mental Ability Score Modifier + Proficiency). On failure, the creature is knocked prone or knocked back 10 ft.</p>`, "ammo",
+    oneUse({ actionType: "save", save: { ability: "str", scaling: "spell" } })),
 
   consumableItem("cold-ammo", "Cold Ammo", "uncommon",
-    `<p>A single piece of ammunition that freezes the enemy. This is a +1 ammo dealing an additional 1d6 cold damage. The target must make a CON save (DC = 8 + Mental Ability Mod + Prof). On failure, speed is reduced by 10 ft and disadvantage on ability checks or attack rolls for 1 minute (save each turn).</p>`, "ammo"),
+    `<p>A single piece of ammunition that freezes the enemy. This is a +1 ammo dealing an additional 1d6 cold damage. The target must make a CON save (DC = 8 + Mental Ability Mod + Prof). On failure, speed is reduced by 10 ft and disadvantage on ability checks or attack rolls for 1 minute (save each turn).</p>`, "ammo",
+    oneUse({ actionType: "save", damage: { parts: [["1d6", "cold"]] }, save: { ability: "con", scaling: "spell" }, duration: { value: 1, units: "minute" } })),
 
   consumableItem("shock-ammo", "Shock Ammo", "uncommon",
-    `<p>A single piece of ammunition that shocks the enemy. This is a +1 ammo dealing an additional 1d6 lightning damage. CON save or be stunned for 1 minute (save each turn).</p>`, "ammo"),
+    `<p>A single piece of ammunition that shocks the enemy. This is a +1 ammo dealing an additional 1d6 lightning damage. CON save or be stunned for 1 minute (save each turn).</p>`, "ammo",
+    oneUse({ actionType: "save", damage: { parts: [["1d6", "lightning"]] }, save: { ability: "con", scaling: "spell" }, duration: { value: 1, units: "minute" } })),
 
   consumableItem("incendiary-ammo", "Incendiary Ammo", "uncommon",
-    `<p>A single piece of ammunition that burns the enemy. This is a +1 ammo dealing an additional 1d6 fire damage. CON save or ignite for 1 minute, taking 1d6 fire at the end of each turn unless an action is used to extinguish.</p>`, "ammo"),
+    `<p>A single piece of ammunition that burns the enemy. This is a +1 ammo dealing an additional 1d6 fire damage. CON save or ignite for 1 minute, taking 1d6 fire at the end of each turn unless an action is used to extinguish.</p>`, "ammo",
+    oneUse({ actionType: "save", damage: { parts: [["1d6", "fire"]] }, save: { ability: "con", scaling: "spell" }, duration: { value: 1, units: "minute" } })),
 
   consumableItem("ensnarement-ammo", "Ensnarement Ammo", "uncommon",
-    `<p>A single piece of ammunition that ensnares the target. This is a +1 ammo. STR save or the creature becomes restrained. The creature can use their action to repeat the save each turn.</p>`, "ammo"),
+    `<p>A single piece of ammunition that ensnares the target. This is a +1 ammo. STR save or the creature becomes restrained. The creature can use their action to repeat the save each turn.</p>`, "ammo",
+    oneUse({ actionType: "save", save: { ability: "str", scaling: "spell" } })),
 
   consumableItem("shrapnel-ammo", "Shrapnel Ammo", "uncommon",
-    `<p>A single piece of ammunition that explodes into metal shards. This is a +1 ammo. The target and all creatures within 10 ft must make a DEX save. On failure, 3d6 piercing damage. On success, half damage.</p>`, "ammo"),
+    `<p>A single piece of ammunition that explodes into metal shards. This is a +1 ammo. The target and all creatures within 10 ft must make a DEX save. On failure, 3d6 piercing damage. On success, half damage.</p>`, "ammo",
+    oneUse({ actionType: "save", damage: { parts: [["3d6", "piercing"]] }, save: { ability: "dex", scaling: "spell" }, target: { value: 10, units: "ft", type: "radius" } })),
 
   consumableItem("thunder-ammo", "Thunder Ammo", "uncommon",
-    `<p>A single piece of ammunition emitting a thunderous shockwave. This is a +1 ammo (damage type becomes thunder). CON save: on failure, additional 2d6 thunder damage and deafened for 1 minute (save each turn). On success, half damage.</p>`, "ammo"),
+    `<p>A single piece of ammunition emitting a thunderous shockwave. This is a +1 ammo (damage type becomes thunder). CON save: on failure, additional 2d6 thunder damage and deafened for 1 minute (save each turn). On success, half damage.</p>`, "ammo",
+    oneUse({ actionType: "save", damage: { parts: [["2d6", "thunder"]] }, save: { ability: "con", scaling: "spell" }, duration: { value: 1, units: "minute" } })),
 
   consumableItem("tranquilization-ammo", "Tranquilization Ammo", "rare",
-    `<p>A single piece of ammunition laced with a tranquilizer. This is a +1 ammo. CON save or the creature falls asleep (as Sleep), awakening on taking damage or if immune to charmed.</p>`, "ammo"),
+    `<p>A single piece of ammunition laced with a tranquilizer. This is a +1 ammo. CON save or the creature falls asleep (as Sleep), awakening on taking damage or if immune to charmed.</p>`, "ammo",
+    oneUse({ actionType: "save", save: { ability: "con", scaling: "spell" } })),
 
   consumableItem("invisible-ammo", "Invisible Ammo", "rare",
-    `<p>A single piece of invisible ammunition. This is a +1 ammo. Attack rolls made with this are made with advantage, unless the target has another means to see (like blindsight).</p>`, "ammo"),
+    `<p>A single piece of invisible ammunition. This is a +1 ammo. Attack rolls made with this are made with advantage, unless the target has another means to see (like blindsight).</p>`, "ammo",
+    oneUse()),
 
   consumableItem("torpedo-ammo", "Torpedo Ammo", "uncommon",
-    `<p>A single piece of ammunition shaped like a torpedo. This is a +1 ammo that can be used normally when fired underwater.</p>`, "ammo"),
+    `<p>A single piece of ammunition shaped like a torpedo. This is a +1 ammo that can be used normally when fired underwater.</p>`, "ammo",
+    oneUse()),
 
   consumableItem("flash-ammo", "Flash Ammo", "uncommon",
-    `<p>A single piece of extremely radioactive, glowing ammunition. This is a +1 ammo dealing an additional 1d6 radiant damage. CON save or be blinded for 1 minute (save each turn).</p>`, "ammo"),
+    `<p>A single piece of extremely radioactive, glowing ammunition. This is a +1 ammo dealing an additional 1d6 radiant damage. CON save or be blinded for 1 minute (save each turn).</p>`, "ammo",
+    oneUse({ actionType: "save", damage: { parts: [["1d6", "radiant"]] }, save: { ability: "con", scaling: "spell" }, duration: { value: 1, units: "minute" } })),
 
   consumableItem("homing-ammo", "Homing Ammo", "rare",
-    `<p>A single piece of ammunition that homes in on the target. This is a +1 ammo. When this ammo misses, it rerolls, and if it misses again, it rerolls a third and final time. Ignores invisibility disadvantage.</p>`, "ammo"),
+    `<p>A single piece of ammunition that homes in on the target. This is a +1 ammo. When this ammo misses, it rerolls, and if it misses again, it rerolls a third and final time. Ignores invisibility disadvantage.</p>`, "ammo",
+    oneUse()),
 
   // ═══════════════════════════════════
   // CONSUMABLES
   // ═══════════════════════════════════
   consumableItem("adrenaline-injection", "Adrenaline Injection (Potion of Speed)", "very rare",
     `<p>A syringe containing chemicals that place the body into a state of heightened speed.</p>
-<p>When you use this injection, you gain the effect of the Haste creation for 1 minute (no concentration required).</p>`, "potion"),
+<p>When you use this injection, you gain the effect of the Haste creation for 1 minute (no concentration required).</p>`, "potion",
+    oneUse({ duration: { value: 1, units: "minute" } })),
 
   consumableItem("medkit-common", "Small Medkit", "common",
-    `<p>A very useful tool for combat and treating wounds. When you use a medkit, the target regains 2d4 + 2 hit points.</p>`, "potion"),
+    `<p>A very useful tool for combat and treating wounds. When you use a medkit, the target regains 2d4 + 2 hit points.</p>`, "potion",
+    healingUse("2d4 + 2")),
 
   consumableItem("medkit-uncommon", "Medkit (Uncommon)", "uncommon",
-    `<p>A higher-quality medkit. When used, the target regains 4d4 + 4 hit points.</p>`, "potion"),
+    `<p>A higher-quality medkit. When used, the target regains 4d4 + 4 hit points.</p>`, "potion",
+    healingUse("4d4 + 4")),
 
   consumableItem("medkit-rare", "Medkit (Rare)", "rare",
-    `<p>A superior medkit. When used, the target regains 8d4 + 8 hit points.</p>`, "potion"),
+    `<p>A superior medkit. When used, the target regains 8d4 + 8 hit points.</p>`, "potion",
+    healingUse("8d4 + 8")),
 
   consumableItem("medkit-very-rare", "Medkit (Very Rare)", "very rare",
-    `<p>The finest medkit available. When used, the target regains 10d4 + 20 hit points.</p>`, "potion"),
+    `<p>The finest medkit available. When used, the target regains 10d4 + 20 hit points.</p>`, "potion",
+    healingUse("10d4 + 20")),
+
+  lootItem("medkits", "Medkits (Potions of Healing)", "common",
+    `<p>Medkits are OP5e's nonmagical reflavor of potions of healing. Specific medkit entries are available as Small Medkit, Medkit (Uncommon), Medkit (Rare), and Medkit (Very Rare).</p>`),
 
   // ─── Drugs ───
   consumableItem("energy-steroids", "Energy Steroids", "rare",
@@ -375,7 +463,11 @@ export const magicItems: FoundryItem[] = [
 <ul>
 <li>All physical ability scores increase by 2 for 10 minutes. Taking multiple resets the duration and increases by another 2, to a maximum of 30.</li>
 <li>Once the duration wears off, the user gains 5 levels of exhaustion and has their natural life reduced by 2^(number of steroids taken) years.</li>
-</ul>`, "potion"),
+</ul>`, "potion",
+    oneUse({ duration: { value: 10, units: "minute" } })),
+
+  lootItem("drugs", "Drugs", "rare",
+    `<p>Reference entry for the sourcebook's special drug category. The concrete compendium drug entry is Energy Steroids.</p>`),
 
   // ─── Smiles ───
   consumableItem("smile-fruit", "SMILE Fruit", "rare",
@@ -386,9 +478,13 @@ export const magicItems: FoundryItem[] = [
 <li><strong>Enhanced Speed:</strong> Speed enhancement from the animal (e.g., owl wings grant 30 ft fly)</li>
 <li><strong>Extra Head:</strong> Some manifest an actual sapient animal head with its own action</li>
 <li><strong>Ability Score Increase:</strong> Increases an ability score by 2</li>
-</ul>`, "potion"),
+</ul>`, "potion",
+    oneUse()),
 
   // ─── Attack Cuisine ───
+  lootItem("attack-cuisine", "Attack Cuisine", "common",
+    `<p>Reference entry for the sourcebook's special cuisine category. Specific attack cuisine consumables are available as individual items.</p>`),
+
   consumableItem("sea-pork-offal", "Sea Pork Offal", "common",
     `<p>A pork offal rich in protein and growth hormones. When consumed, restores 2d4 + Chef's Tools Modifier + Proficiency hit points. Costs 350,000 Berries to make. Requires Cook's Utensils proficiency.</p>`, "potion"),
 
@@ -415,20 +511,27 @@ export const magicItems: FoundryItem[] = [
   // ═══════════════════════════════════
   // DIALS AND DIAL EQUIPMENT
   // ═══════════════════════════════════
+  lootItem("dials-and-dial-equipment", "Dials and Dial Equipment", "common",
+    `<p>Reference entry for dials and dial-powered gear. Specific dials and dial weapons are available as individual compendium items.</p>`),
+
   magicEquip("axe-dial", "Axe Dial", "uncommon",
-    `<p>Launches an X-shaped blade of wind when activated. Counts as a one-handed, simple ranged weapon (30/120 ft). Deals 2d6 + Dexterity slashing damage.</p>`, "trinket"),
+    `<p>Launches an X-shaped blade of wind when activated. Counts as a one-handed, simple ranged weapon (30/120 ft). Deals 2d6 + Dexterity slashing damage.</p>`, "trinket", false,
+    { activation: { type: "action", cost: 1 }, actionType: "rwak", damage: { parts: [["2d6", "slashing"]] }, range: { value: 30, long: 120, units: "ft" } }),
 
   magicEquip("ball-dial", "Ball Dial", "uncommon",
     `<p>Produces ball clouds&mdash;sturdy spheres (5 ft radius) that can be walked on and last 1 hour in sky island atmosphere. They are hollow and can store things like traps.</p>`, "trinket"),
 
   magicEquip("breath-dial", "Breath Dial", "common",
-    `<p>Stores gases and wind. Cast the Wind Blast trick using WIS, INT, or CHA. Can be used to propel ships and sky vehicles.</p>`, "trinket"),
+    `<p>Stores gases and wind. Cast the Wind Blast trick using WIS, INT, or CHA. Can be used to propel ships and sky vehicles.</p>`, "trinket", false,
+    { activation: { type: "action", cost: 1 } }),
 
   magicEquip("flame-dial", "Flame Dial", "uncommon",
-    `<p>Unleashes fire. Cast the Fire Bolt trick using WIS, INT, or CHA.</p>`, "trinket"),
+    `<p>Unleashes fire. Cast the Fire Bolt trick using WIS, INT, or CHA.</p>`, "trinket", false,
+    { activation: { type: "action", cost: 1 }, actionType: "rsak", damage: { parts: [["1d10", "fire"]] } }),
 
   magicEquip("flash-dial", "Flash Dial", "uncommon",
-    `<p>Stores and releases light as a flash. Cast Blindness/Deafness (Blindness only) using WIS, INT, or CHA. Has 3 charges, regaining them at the end of a long rest.</p>`, "trinket"),
+    `<p>Stores and releases light as a flash. Cast Blindness/Deafness (Blindness only) using WIS, INT, or CHA. Has 3 charges, regaining them at the end of a long rest.</p>`, "trinket", false,
+    charges("3", "lr", { actionType: "save", save: { ability: "con", scaling: "spell" } })),
 
   magicEquip("flavor-dial", "Flavor Dial", "common",
     `<p>Flavor food, store smells, and store gases. Cast the Prestidigitation trick using WIS, INT, or CHA.</p>`, "trinket"),
@@ -438,13 +541,16 @@ export const magicItems: FoundryItem[] = [
 
   magicEquip("impact-dial", "Impact Dial", "rare",
     `<p>As a reaction to being hit by a weapon attack (bludgeoning, piercing, or slashing), absorb the impact taking no damage. Can store 1 attack at a time.</p>
-<p>As an action, release the impact as an unarmed strike dealing the absorbed damage as force. However, you take half that damage. Can take 3 hits before losing uses (repair with a DC 16 dial kit check during a long rest). On a 1 when using last charge, destroyed.</p>`, "trinket"),
+<p>As an action, release the impact as an unarmed strike dealing the absorbed damage as force. However, you take half that damage. Can take 3 hits before losing uses (repair with a DC 16 dial kit check during a long rest). On a 1 when using last charge, destroyed.</p>`,
+    "trinket", false, charges("3", "lr")),
 
   magicEquip("reject-dial", "Reject Dial", "very rare",
-    `<p>Functions like an Impact Dial, but released damage is doubled and the user gains 2 levels of exhaustion per use. Repair DC 22. Same destruction rules apply.</p>`, "trinket"),
+    `<p>Functions like an Impact Dial, but released damage is doubled and the user gains 2 levels of exhaustion per use. Repair DC 22. Same destruction rules apply.</p>`, "trinket", false,
+    charges("3", "lr")),
 
   magicEquip("jet-dial", "Jet Dial", "rare",
-    `<p>Nearly extinct. A more powerful Breath Dial. Cast Gust of Wind using WIS, INT, or CHA. Has 3 charges, regaining them at long rest. Can be placed on weapons making them +1 and raising damage dice by 1.</p>`, "trinket"),
+    `<p>Nearly extinct. A more powerful Breath Dial. Cast Gust of Wind using WIS, INT, or CHA. Has 3 charges, regaining them at long rest. Can be placed on weapons making them +1 and raising damage dice by 1.</p>`, "trinket", false,
+    charges("3", "lr")),
 
   magicEquip("lamp-dial", "Lamp Dial", "common",
     `<p>Steadily produces light like a lamp. Use the Light trick.</p>`, "trinket"),
@@ -453,7 +559,8 @@ export const magicItems: FoundryItem[] = [
     `<p>Creates sea clouds. As an action, create a 10 ft &times; 10 ft &times; 10 ft area of sea clouds that can be used for skating with dial vehicles.</p>`, "trinket"),
 
   magicEquip("eisen-dial", "Eisen Dial", "rare",
-    `<p>Produces iron clouds, hard as iron but limited to forming walls. Cast Wall of Stone using WIS, INT, or CHA. Has 3 uses, regaining them after a long rest.</p>`, "trinket"),
+    `<p>Produces iron clouds, hard as iron but limited to forming walls. Cast Wall of Stone using WIS, INT, or CHA. Has 3 uses, regaining them after a long rest.</p>`, "trinket", false,
+    charges("3", "lr")),
 
   magicEquip("tone-dial", "Tone Dial", "common",
     `<p>Records and stores up to 1 hour of sound. Activate or stop as a free action.</p>`, "trinket"),
@@ -462,23 +569,27 @@ export const magicItems: FoundryItem[] = [
     `<p>Stores light&mdash;the sky island equivalent of cameras. Records up to 300 images. Can be modified for video and paired with a Tone Dial for audio. Activate as a free action.</p>`, "trinket"),
 
   magicEquip("water-dial", "Water Dial", "uncommon",
-    `<p>Stores water. Cast Create/Destroy Water using WIS, INT, or CHA. Has 3 uses, regaining them after a long rest.</p>`, "trinket"),
+    `<p>Stores water. Cast Create/Destroy Water using WIS, INT, or CHA. Has 3 uses, regaining them after a long rest.</p>`, "trinket", false,
+    charges("3", "lr")),
 
   magicEquip("thunder-dial", "Thunder Dial", "rare",
-    `<p>Produces and stores electricity. Cast Shocking Grasp using WIS, INT, or CHA.</p>`, "trinket"),
+    `<p>Produces and stores electricity. Cast Shocking Grasp using WIS, INT, or CHA.</p>`, "trinket", false,
+    { activation: { type: "action", cost: 1 }, actionType: "msak", damage: { parts: [["1d8", "lightning"]] } }),
 
   // ─── Dial Weapons ───
   magicWeapon("burn-bazooka", "Burn Bazooka", "rare",
     `<p>A special weapon utilizing flame dials to create a flamethrower and portable swivel gun.</p>
-<p>Can be used as a swivel gun, or as an action, use the Elemental Blast creation (fire only) using WIS, INT, or CHA. Has 3 uses, regaining them at long rest.</p>`),
+<p>Can be used as a swivel gun, or as an action, use the Elemental Blast creation (fire only) using WIS, INT, or CHA. Has 3 uses, regaining them at long rest.</p>`,
+    false, charges("3", "lr", { actionType: "save", damage: { parts: [["3d6", "fire"]] }, save: { ability: "dex", scaling: "spell" } })),
 
   magicWeapon("burn-blade", "Burn Blade", "rare",
-    `<p>A blade of fire created using flame and breath dials. Cast the Ardent Blade creation (fire damage) using WIS, INT, or CHA. Has 3 uses, regaining them at long rest.</p>`),
+    `<p>A blade of fire created using flame and breath dials. Cast the Ardent Blade creation (fire damage) using WIS, INT, or CHA. Has 3 uses, regaining them at long rest.</p>`,
+    false, charges("3", "lr", { actionType: "msak", damage: { parts: [["1d8", "fire"]] } })),
 
   magicWeapon("eisen-whip", "Eisen Whip", "very rare",
     `<p>A rare and powerful weapon enabling a wide variety of weapon shapes and defensive capabilities.</p>
 <p>As a bonus action, change shape to any melee weapon. It is a +1 weapon with a 60 ft range that can travel around corners. Cast the Shield creation using WIS, INT, or CHA (3 uses, recharging on long rest).</p>`,
-    true),
+    true, charges("3", "lr", { activation: { type: "bonus", cost: 1 }, range: { value: 60, units: "ft" } })),
 
   magicWeapon("flash-gun", "Flash Gun", "uncommon",
     `<p>Fires a bright flash from a flash dial while also firing a gun.</p>
@@ -486,10 +597,12 @@ export const magicItems: FoundryItem[] = [
 
   magicWeapon("heat-javelin", "Heat Javelin", "uncommon",
     `<p>A javelin enhanced with a heat dial.</p>
-<p>This weapon is a +1 lance. As a bonus action, heat it up to deal an extra 2d6 fire damage (toggle off as bonus action).</p>`),
+<p>This weapon is a +1 lance. As a bonus action, heat it up to deal an extra 2d6 fire damage (toggle off as bonus action).</p>`,
+    false, { activation: { type: "bonus", cost: 1 }, actionType: "damage", damage: { parts: [["2d6", "fire"]] } }),
 
   consumableItem("milky-arrows", "Milky Arrows", "uncommon",
-    `<p>Arrows with embedded milky dials. When fired, they create a 5 ft wide path of sea clouds equal to the weapon's range. The clouds can be sailed on and last 1 hour (less outside sky island atmosphere).</p>`, "ammo"),
+    `<p>Arrows with embedded milky dials. When fired, they create a 5 ft wide path of sea clouds equal to the weapon's range. The clouds can be sailed on and last 1 hour (less outside sky island atmosphere).</p>`, "ammo",
+    oneUse({ duration: { value: 1, units: "hour" } })),
 
   // ═══════════════════════════════════
   // MISCELLANEOUS SPECIAL ITEMS
@@ -527,6 +640,22 @@ export const magicItems: FoundryItem[] = [
 <li><strong>Great Grade:</strong> +3 to attack and damage rolls</li>
 <li><strong>Supreme Grade:</strong> +3 to attack and damage rolls, with an additional ability; most black blades fall here</li>
 </ul>`),
+
+  // ─── Example Devil Fruits ───
+  devilFruitItem("bat-bat", "The Bat-Bat Fruit",
+    `A Zoan-type fruit that lets the user transform into a bat or bat-hybrid. Its sourcebook progression grants Fruit Uses, Bat-Bat DC, Devil Fruit Attack, ability checks, Hybrid Form, Full Beast Form, Enhanced Form, Endless Forms, and an awakened transformation.`),
+
+  devilFruitItem("cloud-cloud", "The Cloud-Cloud Fruit",
+    `A Logia-type fruit that lets the user conjure, manipulate, and become clouds. Its sourcebook progression focuses on weather control, cloud movement, lightning and cold affinity, elemental transformation, and awakened environmental transformation.`),
+
+  devilFruitItem("dice-dice", "The Dice-Dice Fruit",
+    `A special Paramecia-type fruit that creates dice which grant random Devil Fruit powers when rolled. Its sourcebook progression expands duration, allows multiple dice, unlocks higher-level borrowed fruit benefits, and can awaken to grant rolled powers to other creatures.`),
+
+  devilFruitItem("glug-glug", "The Glug-Glug Fruit",
+    `A Paramecia-type fruit that conjures and manipulates alcohol. Its sourcebook progression covers alcohol attacks, poison immunity, lasting effects, stronger alcohol control, concurrent effects, freeform minor uses, and an awakened alcohol environment.`),
+
+  devilFruitItem("swap-swap", "The Swap-Swap Fruit",
+    `A Paramecia-type fruit that assigns touched objects or creatures and swaps their positions. Its sourcebook progression increases size limits, supports combat and utility swaps, and awakens into assignment transfer through contact.`),
 
   // ─── Crafting Materials ───
   lootItem("crafting-materials-guide", "Crafting Materials Guide", "common",

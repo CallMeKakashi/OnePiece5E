@@ -11,8 +11,8 @@ related_world:
   - "[[B.O.B]]"
   - "[[Veyl Corven]]"
   - "[[Serica Corven]]"
-  - "[[Daniel (Spider's Nest)]]"
-  - "[[Ben (Spider's Nest)]]"
+  - "[[Daniel]]"
+  - "[[Ben]]"
 related_events:
   - "[[Timeline/Undated/[Event] The Lunarfold Tournament Part 2]]"
   - "[[Timeline/Undated/[Event] Welcome to the Jungle]]"
@@ -20,16 +20,16 @@ related_events:
 
 # Sea of Nightmares
 
-Post-tournament voyage: **[[Daniel (Spider's Nest)]]** betrays crew to Marines researching Mugen / Lunarion; nightmare-layer combat and **cursed rings** (Episode 10).
+The two [[Rings of Aegir]] aboard the Spider's Nest ship trap everyone in **shared nightmares** (Episode 10). Most of the episode is dream; only the midnight waking scenes are real.
 
 ## Beats
 
-1. **Dream cold open** — [[Malphas]] Lunarian outpost memory; ship struck mid-voyage.
-2. **Betrayal** — Daniel sides with Marine captain (Voro/Voss STT); Wonderland construct on deck.
-3. **Nightmares** — shared dreamscape; [[Veyl Corven]] & [[Serica Corven]] trapped in ring nightmares; Daniel killed in-layer; Ben overboard.
-4. **Rings** — [[B.O.B]] traces purple rings; patron demands [[Baptiste]] find vessel — refused; exhaustion / warlock-like slots.
+1. **Malphas's memory** (dream) — Lunarian childhood: his father's training, the outposts falling, fleeing with his sister.
+2. **The crew's nightmare** — a Marine ambush: [[Daniel]] "betrays" them to [[Calder Voss|Voss]], "Project Wonderland" wears [[Alice]]'s face, Red and Bob's mother hang from the mast. [[B.O.B]] spots the tells and he and [[Baptiste]] break out.
+3. **Real: the rings** — at midnight Bob traces the energy to the two rings in [[Veyl Corven|Veyl]]'s box; Baptiste puts them on and they latch. "Connect the strings."
+4. **Throne-room nightmare** — Veyl and [[Serica Corven|Serica]]'s memory of [[Virellis Kingdom|Virellis]]; the patron (Aegir, as Cecil Cindross) demands Baptiste find its vessel. He refuses. Veyl and Serica wake; the Spider's Nest crew remain trapped.
 
 ## Evidence
 
 - [[Episode 10 - Sea of Nightmares]]
-- [[Session 10 - Sea of Nightmares]]
+- [[Session 010 — Sea of Nightmares]]

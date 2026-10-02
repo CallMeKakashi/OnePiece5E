@@ -9,7 +9,7 @@ foundry_live_slug: "river-serpent"
 
 ## Visuals
 
-![[Attachments/monsters/river-serpent.png|Portrait]]
+![[Attachments/monsters/river-serpent.png|registry-image]]
 
 **Look:** **Massive hooded serpent** — slate-blue scales, cream banded underbelly, cobra-like hood ringed with **bone ribs ending in pale digging claws** (built to tear through cave walls); small **glowing yellow** eyes; chin barbels; white head spines. Large enough to **engulf a human** whole when it strikes. (Foundry token art is mislabeled "SCYLLA" — vault title is **River Serpent**, distinct from **[[Ravine Scylla]]**.)
 
@@ -31,7 +31,7 @@ foundry_live_slug: "river-serpent"
 - [[Ravine Scylla]] — territorial rival; scyllas now dominate more of the caves
 - [[Titan Ape]] — humongous bear-monster in the largest chamber (hibernating; unencountered)
 - [[Ashscale Basilisk]] · [[Crystalback Scorpion]] · [[Lamprey Horror]] · [[Carrion Vulture]] — same ravine ecology (less intelligent prey/competition)
-- [[Matthew -The Jack- Burgess]] · [[B.O.B]] · [[Daniel (Spider's Nest)]]
+- [[Matthew -The Jack- Burgess]] · [[B.O.B]] · [[Daniel]]
 - [[Sessions/Session 25 - Juniper Islands]] · [[Sessions/Session 28]]
 - [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)

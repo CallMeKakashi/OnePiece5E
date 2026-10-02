@@ -7,12 +7,20 @@ sources:
   - "Sessions/Session 27"
   - "Sessions/Session 28"
   - "Discord/exports/character-art"
+  - "Discord/exports/world-lore"
 foundry_actor_id: "ERC3MwSibOfG9PC3"
 foundry_live_slug: "matthew-the-jack-burgess"
 ---
 ## Visuals
 
 *Portrait pending — [[Discord/exports/character-art]]*
+
+![[Attachments/jack-bounty.png|Bounty poster]]
+![[Attachments/jack-bounty-2.png|Bounty poster]]
+![[Attachments/jack-bounty-3.png|Bounty poster]]
+![[Attachments/jack-bounty-4.png|Bounty poster]]
+
+*"Diamond Jack" bounty posters (Discord, 2026-09-19).*
 
 ## Description
 
@@ -22,7 +30,7 @@ foundry_live_slug: "matthew-the-jack-burgess"
 
 Player character of the [[Royal Flush Gang]]. Grounded, observant, and suspicious — often the investigation and underworld angle when the main crew splits up.
 
-**Latest session:** Fighting a pack of **[[Ashscale Basilisk|Ashscale Basilisks]]** in the Brook Town ravine with [[B.O.B]] and [[Daniel (Spider's Nest)|Daniel]] (transcript pending).
+**Latest session:** Fighting a pack of **[[Ashscale Basilisk|Ashscale Basilisks]]** in the Brook Town ravine with [[B.O.B]] and [[Daniel]] (transcript pending).
 
 **Prior:** Slew **[[Cave Render|Cave Renders]]** in the York Town abandoned mine with [[Thompson Caneheart]]; slew **[[Hydra Goose]]** on West Town farm with [[Tray]] and [[Midori]] (transcript pending).
 
@@ -32,12 +40,13 @@ Player character of the [[Royal Flush Gang]]. Grounded, observant, and suspiciou
 
 ## Backstory
 
-(To be developed.)
+- **Royal Flush Casino** — Sat in on the West Blue family heads' poker-table meeting; brought [[Graff Bolt]] and [[Melina Celeste]] up to [[King]] and later sparred Melina, spotting her potential. Has faced [[The Joker]]'s "wave of blades" ([[Timeline/Undated/[Event] The Royal Flush Casino Meeting]]).
+- **Time skip** — Survived his fall into the ocean after the ravine collapse and raised the alarm with the [[Guiseppi Family]], reporting the [[Spider Nest Pirates]]' involvement ([[Timeline/Undated/[Event] Capone Invasion — Time Skip]]).
 
 ## Related
 
 - [[Royal Flush Gang]]
-- [[King]] · [[Queen]]
+- [[King]] · [[Queen]] · [[The Ace]] (handler) · [[The Joker]]
 - [[Midori]] — uneasy partnership during [[Sessions/Session 27|Session 27]]–[[Sessions/Session 28|28]]
 - [[Linus Marrow]]
 ## Live sheet (Foundry)

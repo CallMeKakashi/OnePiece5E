@@ -9,7 +9,7 @@ foundry_live_slug: "ravine-scylla"
 
 ## Visuals
 
-![[Attachments/monsters/ravine-scylla.png|Portrait]]
+![[Attachments/monsters/ravine-scylla.png|registry-image]]
 
 **Look:** **Ravine apex predator** — low quadruped with slate-blue hide, **silver segmented armor plates** along the back and limbs, star-shaped pink sensory nose, white cheek tufts, and long digging claws. Armored prowler built to hunt burrowing basilisks.
 
@@ -29,7 +29,7 @@ foundry_live_slug: "ravine-scylla"
 - [[Ashscale Basilisk]] — primary prey
 - [[River Serpent]] — rival apex serpent (declining; hibernating)
 - [[Titan Ape]] — crazed bear-monster in the largest chamber (hibernating; party not met yet)
-- [[Matthew -The Jack- Burgess]] · [[B.O.B]] · [[Daniel (Spider's Nest)]]
+- [[Matthew -The Jack- Burgess]] · [[B.O.B]] · [[Daniel]]
 - [[Sessions/Session 25 - Juniper Islands]] · [[Sessions/Session 28]]
 - [[Monster Manual|Monster Manual]]
 ## Live sheet (Foundry)

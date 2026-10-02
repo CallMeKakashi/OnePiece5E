@@ -10,13 +10,15 @@ sources:
 ## Visuals
 
 ![[Attachments/cline-portrait.png|Portrait]]
+![[Attachments/Cline 1.png|Portrait (2026-09-06)]]
 
 *Discord quarry: [[Discord/exports/character-art]]*
 
 
 ## Description
 
-**Real Name:** Cline Veil
+**Full name (Discord character art):** Cline D. Davis — posted as "Cline D. 'Plague' Davis | Page 4 of the Sixfolds" (2025-12-24) and "Cline D. Davis | The Plague | Member of the Sixfolds | Status - Still Alive" (2026-09-06)
+**Real Name (older vault note):** Cline Veil — conflicts with the Discord name above
 **Alias:** _The Plague_
 **Race:** Human
 **Alignment:** Chaotic Neutral
@@ -26,6 +28,8 @@ Also a founding member of the [[Motley Crew]].
 ## Role
 
 [[Sixfold]] operative. Devil Fruit: [[Eki Eki no Mi]] (Sick-Sick). CR 3 (XP 700).
+
+**Current status (1478):** Named by the Grand Line Tribune as the primary suspect in the kidnapping of **Commodore Briggs**' daughter; Briggs offers 1,000,000,000 berries for her safe return ([[1478-22moon [Newspaper] Grand Line Tribune — Evening]]). **Planned (DM prep, [[Session 06-09-26]], [[Session 19-09-26]] — not yet confirmed at the table):** hidden below deck on the party's ship with a child, [[Luna]], whose identity he has not told [[Linus Marrow|Linus]]; his radiation keeps others at a distance.
 
 ## Personal Quests
 

@@ -1,0 +1,26 @@
+/*
+ * Monster Manual & Devil Fruits — right-floated registry images (alt: registry-image).
+ * Enable in Settings → Appearance → CSS snippets.
+ */
+
+img[alt="registry-image"],
+.internal-embed.image-embed[alt="registry-image"] {
+  float: right;
+  width: 200px;
+  max-width: 200px;
+  margin: 0 0 1em 1em;
+  display: block;
+}
+
+img[alt="registry-image"] {
+  height: auto;
+  object-fit: contain;
+}
+
+.internal-embed.image-embed[alt="registry-image"] img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}

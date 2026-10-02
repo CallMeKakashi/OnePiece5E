@@ -26,11 +26,27 @@ foundry_live_slug: "tigor"
 
 Helmsman of the [[Lunarfolds]], sailing under the [[Blackhand]] banner.
 
-**Latest session:** Brook Town ravine caves — slew **[[Carrion Vulture|Carrion Vultures]]** and **[[Crystalback Scorpion|Crystalback Scorpions]]** with [[Baptiste]] and [[Tray]] (transcript pending). *(Also on the **[[Ashscale Basilisk|Ashscale Basilisk]]** pack fight with [[Matthew -The Jack- Burgess|Jack]] and [[B.O.B]] / [[Daniel (Spider's Nest)|Daniel]] — same Juniper arc.)*
+**Latest session:** Brook Town ravine caves — slew **[[Carrion Vulture|Carrion Vultures]]** and **[[Crystalback Scorpion|Crystalback Scorpions]]** with [[Baptiste]] and [[Tray]] (transcript pending). *(Also on the **[[Ashscale Basilisk|Ashscale Basilisk]]** pack fight with [[Matthew -The Jack- Burgess|Jack]] and [[B.O.B]] / [[Daniel]] — same Juniper arc.)*
 
 ## Personal Quests
 
 *(Details TBD)*
+
+## Episode 13
+
+- Worker on [[W.G.A.R.]] (the tiger-costumed one) and the younger brother of [[Bugor]], the bear who runs the island. Joins the crew as helmsman: Bugor asks them to take him because he always wanted to sail, is wasting his potential there and is a skilled helmsman, and because the reserve needs animals to restart. Tigor reluctantly agrees ([[Session 013 — The Reaper|Episode 13]]).
+
+## Episode 14
+
+- First time seeing the crew fight. Evacuates the commoners and the elder [[Sloan]] when [[Baron Woofer]] raids the hideout; treats Malphas and Bob with a med kit in the Opera House ([[Session 014 — The Decibel Decree|Episode 14]]).
+
+## Episode 15
+
+- Fights [[Synth]] with [[Riff Sin]]: wild-shapes in his mask, claws him with heated metal, and is wrapped in a dagger cage and then the lightning field. After Synth injects the 6/6 serum and goes feral, Cade is downed twice; [[Dravos]] pulls him out through a PVC pipe and heals him. Cade lays Synth's body down and closes his eyes ([[Session 015 — Animal Within|Episode 15]]).
+
+## Episode 16
+
+- Stays on floor 1 to help [[Riff Sin]]. Fails to grapple one of the Anthem twins as they flee ([[Session 016 — Broken Promises|Episode 16]]).
 
 ## Backstory
 

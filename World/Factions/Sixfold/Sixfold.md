@@ -8,7 +8,7 @@ sources:
 
 # Sixfold
 
-Mercenary organization (reformed after the Motley Crew prologue). Headquarters at **Magnolia** aboard the **Armada**. Leader: **Liz** (Paper Paper Fruit awakening). Origin: [[Backstory] Elizabeth Marrow — mortuary escape]].
+Mercenary organization (reformed after the Motley Crew prologue). Headquarters at **Magnolia** aboard the **Armada**. Leader: **Liz** (Paper Paper Fruit awakening). Origin: [[[Backstory] Elizabeth Marrow — mortuary escape]].
 
 ## Members (migrated sheets)
 
@@ -26,6 +26,7 @@ Mercenary organization (reformed after the Motley Crew prologue). Headquarters a
 
 - [[1476-01moon [Backstory] The Birth of the Motley Crew]]
 - [[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]
+- Undated: raided one of the [[Shadow Guild]]'s main bases — reportedly no deaths, but most of its hunters crippled; news of it reached the guild's Number One, [[The Joker]] ([[[Backstory] Joker — Man in Red]])
 
 ## Related
 

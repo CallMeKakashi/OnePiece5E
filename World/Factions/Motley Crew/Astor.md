@@ -3,8 +3,6 @@ type: actor
 faction: "[[Motley Crew]]"
 status: draft
 publish: true
-sources:
-  - "Old Notes/One Piece DND - Blood and Brine/Campaign 1/Player Characters/Astor.md"
 ---
 
 ## Description
@@ -18,6 +16,10 @@ Founding member of the [[Motley Crew]]. Mentored by [[Blackhand|Blackhand Cane]]
 ## Personal Quests
 
 (Unknown — to be developed)
+
+## Fate (Episode 9)
+
+Fused with [[Ronan]] into [[Vireth]] by Ronan's fusion fruit; locked together since an explosion. [[Zim]] believes he is effectively dead but could be saved, and carries a notebook he gave her ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]).
 
 ## Backstory
 

@@ -5,25 +5,51 @@ publish: true
 ## Medic
 
 ##### The Medic
-| Level | Proficiency Bonus | Features | Tricks Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
-|:---:|:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1st | +2 | Creativity, Medical Expertise | 3 | 2 | — | — | — | — | — | — | — | — |
-| 2nd | +2 | Experimental Medicine, Medical Specialization | 3 | 3 | — | — | — | — | — | — | — | — |
-| 3rd | +2 | ─ | 3 | 4 | 2 | — | — | — | — | — | — | — |
-| 4th | +2 | Ability Score Improvement | 4 | 4 | 3 | — | — | — | — | — | — | — |
-| 5th | +3 | Rapid Remedy | 4 | 4 | 3 | 2 | — | — | — | — | — | — |
-| 6th | +3 | Specialization Feature | 4 | 4 | 3 | 3 | — | — | — | — | — | — |
-| 7th | +3 | Extended Release | 4 | 4 | 3 | 3 | 1 | — | — | — | — | — |
-| 8th | +3 | Ability Score Improvement | 4 | 4 | 3 | 3 | 2 | — | — | — | — | — |
-| 9th | +4 | ─ | 4 | 4 | 3 | 3 | 3 | 1 | — | — | — | — |
-| 10th | +4 | Specialization Feature, Rapid Remedy Improvement | 5 | 4 | 3 | 3 | 3 | 2 | — | — | — | — |
-| 11th | +4 | ─ | 5 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
-| 12th | +4 | Ability Score Improvement | 5 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
-| 13th | +5 | ─ | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
-| 14th | +5 | Specialization Feature | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
-| 15th | +5 | ─ | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
-| 16th | +5 | Ability Score Improvement | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
-| 17th | +6 | ─ | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |
-| 18th | +6 | Overheal, Secrets of Medicine | 5 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |
-| 19th | +6 | Ability Score Improvement | 5 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
-| 20th | +6 | Miracle Worker | 5 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |
+
+Proficiency
+Level Bonus Features
+1st +2 Creativity, Medical Expertise
+2nd +2 Experimental Medicine, Medical Specialization
+3rd +2 ─
+4th +2 Ability Score Improvement
+5th +3 Rapid Remedy
+6th +3 Specialization Feature
+7th +3 Extended Release
+8th +3 Ability Score Improvement
+9th +4 ─
+10th +4 Specialization Feature, Rapid Remedy
+Improvement
+11th +4 ─
+12th +4 Ability Score Improvement
+13th +5 ─
+14th +5 Specialization Feature
+15th +5 ─
+16th +5 Ability Score Improvement
+17th +6 ─
+18th +6 Overheal, Secrets of Medicine
+19th +6 Ability Score Improvement
+20th +6 Miracle Worker
+Tricks
+Known 1st 2nd 3rd 4th 5th 6th 7th 8th 9th
+3 2 — — — — — — — —
+3 3 — — — — — — — —
+3 4 2 — — — — — — —
+4 4 3 — — — — — — —
+4 4 3 2 — — — — — —
+4 4 3 3 — — — — — —
+4 4 3 3 1 — — — — —
+4 4 3 3 2 — — — — —
+4 4 3 3 3 1 — — — —
+5 4 3 3 3 2 — — — —
+5 4 3 3 3 2 1 — — —
+5 4 3 3 3 2 1 — — —
+5 4 3 3 3 2 1 1 — —
+5 4 3 3 3 2 1 1 — —
+5 4 3 3 3 2 1 1 1 —
+5 4 3 3 3 2 1 1 1 —
+5 4 3 3 3 2 1 1 1 1
+5 4 3 3 3 3 1 1 1 1
+5 4 3 3 3 3 2 1 1 1
+5 4 3 3 3 3 2 2 1 1
+
+<!-- Page 97 -->

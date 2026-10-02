@@ -9,7 +9,7 @@ foundry_live_slug: "carrion-stalker"
 
 ## Visuals
 
-![[Attachments/monsters/carrion-stalker.png|Portrait]]
+![[Attachments/monsters/carrion-stalker.png|registry-image]]
 
 **Look:** Mutated **owl-hybrid** — barn-owl face with black sunken eyes and hooked beak on a **plucked**, vein-visible humanoid torso; sparse black feather tufts on head and wings; long taloned bird legs. Reads as a once-human Nikolai experiment gone feral.
 

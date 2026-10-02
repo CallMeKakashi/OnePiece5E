@@ -22,6 +22,7 @@ Bestiary entries only. Named NPCs live under [[World/World|World → Factions]].
 - [[Monster Manual/FarmPig|FarmPig]] — `e5oRsFiw5cfVq8Nv`
 - [[Monster Manual/Giant Boar|Giant Boar]] — `E10F2cpzhllbb5zm`
 - [[Monster Manual/Giant Crab|Giant Crab]] — `GnSbCLwJw8Bxd1Ag`
+- [[Monster Manual/Lake Tentacle|Lake Tentacle]] — one-off, no stats yet
 - [[Monster Manual/Giant Crocodile|Giant Crocodile]] — `E2L8BhFVecDOvaSB`
 - [[Monster Manual/Guard|Guard]] — `ASlnccsDE7c1MDdg`
 - [[Monster Manual/Guard|Guard]] — `wtu91Hso7gbLR3ai`
@@ -32,6 +33,7 @@ Bestiary entries only. Named NPCs live under [[World/World|World → Factions]].
 - [[Monster Manual/Puppy|Puppy]] — `P6brn0VeFovCu9DB`
 - [[Monster Manual/Ravine Scylla|Ravine Scylla]] — `7438pFqu3nTifZQ8`
 - [[Monster Manual/Red Maw Beast|Red Maw Beast]] — `uvt8MOTs42FkpUjW`
+- [[Monster Manual/Grinner|Grinner]] — `dxxlqQu3zsnOlp9E`
 - [[Monster Manual/Riding Horse|Riding Horse]] — `m3Bggi1x0UUyCSKB`
 - [[Monster Manual/Riding Horse|Riding Horse]] — `wUQHs7VLGmItA1fR`
 - [[Monster Manual/Riding Horse|Riding Horse]] — `zvPyMf70zmkqde20`

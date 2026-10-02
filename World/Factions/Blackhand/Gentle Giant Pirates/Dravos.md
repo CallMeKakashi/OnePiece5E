@@ -25,6 +25,15 @@ foundry_live_slug: "dravos"
 
 Navigator. Devil Fruit: [[Toneru Toneru no Mi]].
 
+## Episode 15
+
+- Appears in the Decibella tower through PVC pipes (his Toneru Toneru no Mi) and pulls [[Cade Tigor Cooper|Cade]] out of Synth's feral attack. Heals Cade with a vial in the neck and says "the captain said you're supposed to help". Holds the beast with PVC bindings and shows a thumbs-up when Cade and [[Riff Sin]] finish him. Offers to stay in the shadows ([[Session 015 — Animal Within|Episode 15]]).
+
+## Episode 16
+
+- Introduces himself to Roma as Dravos the Mole and shifts the weight of Roma's skillet with his devil fruit. He makes PVC pipes to move the crew between floors.
+- Hired originally by Blackhand; now works with [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”|Fenris]], another Blackhand fleet captain who leads his own unit. "The captain" of [[Session 015 — Animal Within|Episode 15]] is Fenris ([[Session 016 — Broken Promises|Episode 16]]).
+
 ## Related
 
 - [[Gentle Giant Pirates]]

@@ -17,6 +17,9 @@ foundry_live_slug: "baptiste"
 
 ![[Attachments/baptiste-portrait.png|Portrait]]
 ![[Attachments/baptiste-bounty.png|Bounty poster]]
+![[Attachments/baptiste-bounty-2.png|Bounty poster]]
+![[Attachments/baptiste-bounty-3.png|Bounty poster]]
+![[Attachments/baptiste-bounty-4.png|Bounty poster]]
 
 *Discord quarry: [[Discord/exports/character-art]], [[Discord/exports/bounty-posters]]*
 
@@ -33,6 +36,8 @@ Devil Fruit: [[Uchu Uchu no Mi]].
 
 **Latest session:** Brook Town ravine caves — slew **[[Carrion Vulture|Carrion Vultures]]** and **[[Crystalback Scorpion|Crystalback Scorpions]]** with [[Cade Tigor Cooper]] and [[Tray]] (transcript pending).
 
+**Ravine collapse:** Buried when the ravine collapsed; unconscious for nearly three weeks at [[Linus Marrow|Linus]]'s clinic ([[Timeline/Undated/[Event] Capone Invasion — Time Skip|Capone Invasion — Time Skip]]).
+
 ## Personal Quests
 
 - Freedom — the single word that defines his dream
@@ -40,7 +45,7 @@ Devil Fruit: [[Uchu Uchu no Mi]].
 
 ## Backstory
 
-Prior arcs: [[Backstory] Elizabeth Marrow — mortuary escape]], [[Backstory] Blackhand Cane — Raid Kingdom]].
+Prior arcs: [[[Backstory] Elizabeth Marrow — mortuary escape]], [[[Backstory] Blackhand Cane — Raid Kingdom]].
 
 ### The Germa Facility
 
@@ -123,6 +128,79 @@ Cane turned back, his grin softer now, and leaned down so that his voice cut thr
 Baptiste felt the question like a hand on his chest. He thought of the girl with emerald eyes, the red-haired savior pinned under stone, the small mercies that had kept him human through months of cruelties.
 
 He looked up at the man whose smile had not faltered even in the teeth of battle. The word rose from somewhere small and stubborn inside him: "Freedom."
+
+### Babylon (the Gambino job)
+
+> **Party does not know this.** Full beats in [[Timeline/Undated/[Event] Babylon]].
+
+Under [[Blackhand Cane]], Baptiste goes undercover for four years as **Haruki**, an enforcer for the Gambino Family, a slave-trading mafia, after watching masked men drag a boy from his home. The family keeps a caged mermaid whose song charms its guests; it fails on Haruki, and he taps two fingers to his heart ("I'm awake"). He asks only for time with the singer; she tells him of the cages, the drugs, and a child she freed, and says she once wished to dance at a masquerade ball. When he finally frees her, the Gambino siblings spring a trap. She sings a deadly song, collapses the estate, and walks into the fire, pressing a small heirloom into his hand ("if you find one of my kind… tell them"). The papers call it **BABYLON**; Haruki is named a terrorist and she "The Wailing Siren." Blackhand finds him days later: "You survived. That's different." Haruki is burned; **Masquerade** is born.
+
+## Episode 2
+
+- Recruited at the [[Ambercrest]] docks as the "winged ally"; joins the crew under "orders" to make allies. [[Mira the Unbreakable|Mira]] warns that his wings must stay hidden from the Marines at [[Spirit Cliff]] ([[Session 002 — Stormwings of Ambercrest|Episode 2]]).
+
+## Episode 3
+
+- Crew ally at [[Spirit Cliff]] with his wings kept undercover while the crew plans the [[World Government Bank]] heist ([[Session 003 — Cliffside Gambit|Episode 3]]).
+
+## Episode 4
+
+- Plays the "Masquerade" persona, the face of the casino operation. Runs the tables, gets invited to a private poker game with Director [[Delroth Halward]], and the winnings consolidate to about 9,100,000 berries ([[Session 004 — Masquerade of the Stolen Keys|Episode 4]]).
+
+## Episode 5
+
+- Cliffhanger: reveals wings and takes off as the chest hits the ground; his Devil Fruit later wrecks the Mugen G-45 Enforcer Armors ([[Session 005 — Midnight Chainbreak|Episode 5]]).
+
+## Session 005.5
+
+- Arrives on [[Callisto]] via Reverse Mountain with [[Roma]], [[Veyl Corven]] and [[Serica Corven]] ([[Session 005.5 — Callisto]]).
+
+## Episode 6
+
+- As captain, reads [[Hallow]]'s journal in the workshop; takes the journal, the burnt photo, Hallow's office key and ฿200,000.
+- His black hole pulls Hallow prone in the graveyard. The crew is named the [[Lunarfolds]] ([[Session 006 — Hallow's End|Episode 6]]).
+
+## Episode 8
+
+- As captain, declares the [[Lunarfolds]] officially a crew and calls the ranking tournament; referees it himself. Asks each crewmate their goals. His own: a place where his people, long hunted, can settle, and to restore their reputation ([[Session 008 — The Lunarfold Tournament Part 1|Episode 8]]).
+
+## Episode 9
+
+- Captain while [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] is away. Spots and rescues [[Zim]]; trades Hallow's journal and ledgers for intel; [[Zim]] knows of "the Baptiste who was there about eight years ago". Learns of two Lunarian sightings. Agrees to owe [[Daniel]] a job. Beats [[Malphas]] in two rounds to stay at the top of the ranking ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]).
+
+## Episode 10
+
+- With [[B.O.B]], first to break out of the crew's shared nightmare. **Puts on both [[Rings of Aegir]]** to reach [[Veyl Corven|Veyl]] and [[Serica Corven|Serica]]'s nightmare; they latch onto his ring finger and pinky. In the throne-room nightmare the rings' patron claims him ("I am your patron") and demands he find its vessel and revive it; he refuses, and it vows to haunt him until he gives in ([[Session 010 — Sea of Nightmares|Episode 10]]).
+- **Ring powers** (magic item, not a respec): Wisdom-based warlock casting with 8 ring slots (Eldritch Blast, Hex, Hellish Rebuke, Darkness, Mirror Image), Agonizing Blast, Devil's Sight. Each long rest: DC 13 Wisdom save or nightmare visions and a level of exhaustion; three failures in a row shift him to evil.
+
+## Episode 11
+
+- Touches the rings so the crew, [[Veyl Corven|Veyl]] and [[Serica Corven|Serica]] enter the [[Spider Nest Pirates|Spider's Nest]] nightmare. Afterwards he alone stays behind with the patron ([[Rings of Aegir|Aegir]]), which says he did not use the rings' power and that he will "lose everything" and obey. It was a one-off bluff to control him and does not change his nightly saves.
+- At [[W.G.A.R.]] he frees a staffer ("Do you want to know more about the world?") who runs off, and is the target of the bowling pin that starts the fight with the [[Circle of Clowns]] ([[Session 011 — Welcome to the Jungle|Episode 11]]).
+
+## Episode 12
+
+- Casts levitate on [[Roma]] so he can hit the crab Sea King [[Bessy Jr|Bessie Jr]] from above the water while she grapples at the crew. After the fight, **impersonates [[Bubbles D. Clown|Bubbles]]** on the clowns' den den mushi to a slave-trade contact (name unknown), asking a reward for bringing the ship back intact with the "captured crew" — the clowns were already dead ([[Session 012 — Clown Tricks|Episode 12]]).
+
+## Episode 13
+
+- Target, with [[Malphas]], of [[Esper Grimrose]]'s revenge: the crew killed her brother's Reaper unit in the past, and now [[Kyle Bloodfin]] dies in the Scorpion Unit's attack. Refuses to hand over the clown and crab to [[Graff Bolt]] and [[Melina Celeste]] and is knocked out with the crew by Graff's Conqueror's Haki. Afterwards Graff tells him the Marine-side story of the Unity War (Blackhand, [[Horus]] and Stella Celeste). ([[Session 013 — The Reaper|Episode 13]]).
+
+## Episode 14
+
+- Rebuffed at Decibella's capital gate while posing as a noble, he blasts through it on horseback with his **first, unconscious Conqueror's Haki**: three guards collapse without a touch, the world "turns gray," and he gets a splitting headache. He later learns control from [[Mira the Unbreakable|Mira]] (later session).
+- Kills Echo spies, helps kill [[Baron Woofer]] (bursts his speaker armor), and with [[Malphas]] clears the Opera House guards. [[Lady Soefra Anthem|Soefra]]'s voice charms him; it recalls the mermaid from [[Timeline/Undated/[Event] Babylon|Babylon]] ("she was dead, why is she here"), but he snaps out of it on a 20 before attacking [[Riff Sin]]. Kills Soefra and [[Sephra Anthem|Sephra]] and rescues [[Cadence]]. Approves [[B.O.B]]'s shot at the Liberty Bell ([[Session 014 — The Decibel Decree|Episode 14]]).
+
+## Episode 15
+
+- Fights [[Coda]]. Hit by Hideous Laughter, a command to walk off the ledge (resists) and a Phantasmal-Killer-style hole through his liver. Hastes himself and merges his spectral arms into one fist for about 84 damage, throwing Coda into the wall. The Conqueror's aura is flavor only. Coda grabs his wrist as he reaches for the key and stabs him through the heart; a second dagger is raised at his head as the session ends. The rescue is deferred ([[Session 015 — Animal Within|Episode 15]]).
+
+## Episode 16
+
+- Takes a call on a den den mushi at the tower gate and pockets it (content unknown). Receives a transponder from [[Malak Samum]].
+- Stabbed through the chest by [[Coda]], he hears [[Aegir]] offer help for a ride to his vessel and refuses. His flames fuse into his void arms on their own; he levels to 5 (Mote of Hell replaces Fireball) and kills Coda after a serum transformation.
+- Knocks out the berserk [[Roma]] in two rounds and carries him up. In the control room he resists, then walks toward the Emperor; a third ring of Aegir fuses onto his hand ([[Session 016 — Broken Promises|Episode 16]]). His wings have been gone since W.G.A.R.
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

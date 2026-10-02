@@ -4,20 +4,25 @@ publish: true
 
 ## Class Features
 
-As a savant, you gain the following class features
-#### Hit Points
-- **Hit Dice:** 1d10 per savant level
-- **Hit Points at 1st Level:** 10 + your Constitution modifier
-- **Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per savant level after 1st
-#### Proficiencies
-- **Armor:** All armor, shields
-- **Weapons:** Simple weapons, martial weapons
-- **Tools:** None
-- **Saving Throws:** Wisdom, Charisma
-- **Skills:** Choose two from Athletics, Acrobatics, Insight, Intimidation, Persuasion, and Performance
-#### Equipment
-You start with the following equipment, in addition to the equipment granted by your role:
-- *(a)* a martial weapon and a shield or *(b)* two martial weapons
-- *(a)* chainmail or *(b)* a heavy longcoat
-- *(a)* a dungeoneer's pack or *(b)* an explorer's pack
-- five javelins, a dagger, and a memento
+As a barbarian, you gain the following class features
+##### Hit Points
+
+Hit Dice: 1d12 per barbarian level
+Hit Points at 1st Level: 12 + your Constitution modifier
+Hit Points at Higher Levels: 1d12 (or 7) + your Constitution
+modifier per barbarian level after 1st
+##### Proficiencies
+
+Armor: Light armor, medium armor, shields
+Weapons: Simple weapons, martial weapons
+Tools: none
+Saving Throws: Strength, Constitution
+Skills: Choose two from Animal Handling, Athletics,
+Intimidation, Nature, Perception, and Survival
+##### Equipment
+
+You start with the following equipment, in addition to the
+equipment granted by your role:
+(a) a greataxe or (b) any martial melee weapon
+(a) two handaxes or (b) any simple weapon
+An explorer's pack and four javelins

@@ -9,7 +9,7 @@ foundry_live_slug: "mafia-grunt"
 
 ## Visuals
 
-![[Attachments/monsters/mafia-grunt.png|Token]]
+![[Attachments/monsters/mafia-grunt.png|registry-image]]
 
 **Look:** **Guiseppi street muscle** — tan, bearded man in rolled white shirt, brown trousers, shoulder holster; fists ready, hard stare. Rough dock-or-tavern enforcer look (interchangeable family soldier).
 

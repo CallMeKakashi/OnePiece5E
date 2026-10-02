@@ -9,29 +9,30 @@ attunement: none
 sources:
   - "Discord/exports/devil-fruit-dex"
 related_source:
-  - "[[Chapter 6 Devil Fruits]]"
+  - "[[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]"
 ---
 
 # Kobu Kobu no Mi
 
 *Paramecia, unique (consumed — replaces attunement)*
 
-*Fist-Fist Fruit*
+*Pump-Pump Fruit*
 
 | | |
 | --- | --- |
 | **Owner** | [[Gin Guiseppi]] |
 | **Registry** | [[Devil Fruits]] |
 
-![[Attachments/kobu-kobu-no-mi.png|Devil fruit]]
+![[Attachments/kobu-kobu-no-mi.png|registry-image]]
 
 ## Description
 
-Campaign-registered **Paramecia** devil fruit. Current eater: [[Gin Guiseppi]].
+Campaign-registered **Paramecia** devil fruit (**Pump-Pump**). Current eater: [[Gin Guiseppi]].
 
-## Properties
+## Powers
 
-Motivational fist enhancement (canon-style). Guiseppi Family — no vault actor pages yet.
+- **Pump up** — Inflate and strengthen any part of his body at will, shifting which stats apply as if he had pumped that limb.
+- **Body limit** — He can double a pump only up to what his body can hold; beyond that risks tearing himself apart.
 
 ## Drawbacks
 
@@ -40,6 +41,6 @@ Motivational fist enhancement (canon-style). Guiseppi Family — no vault actor 
 
 ## See also
 
-- [[Chapter 6 Devil Fruits]]
+- [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]
 - Owner: [[Gin Guiseppi]]
 - [[Gin Guiseppi]]

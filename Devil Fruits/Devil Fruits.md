@@ -5,7 +5,7 @@ status: draft
 
 # Devil Fruits
 
-Campaign devil fruit registry — image, power, and current owner. Template: [[Devil Fruit Template]]. System rules: [[Chapter 6 Devil Fruits]]. Discord quarry: [[Discord/exports/devil-fruit-dex]].
+Campaign devil fruit registry — image, power, and current owner. Template: [[Devil Fruit Template]]. System rules: [[Sourcebook/Chapter 6 Devil Fruits/Chapter 6 Devil Fruits|Chapter 6 Devil Fruits]]. Discord quarry: [[Discord/exports/devil-fruit-dex]].
 
 ## Registry
 
@@ -14,6 +14,8 @@ Campaign devil fruit registry — image, power, and current owner. Template: [[D
 - [[Yuki Yuki no Mi — Model Yeti]] — Roma
 - [[Uchu Uchu no Mi]] — Baptiste
 - [[Ame Ame no Mi]] — Sora
+- [[Voice Voice Fruit]] — Emperor of Decibella
+- [[Devour Devour Fruit]] — Horus
 - [[Hai Hai no Mi]] — Malak Samum
 - [[Buki Buki no Mi]] — Serica Corven
 - [[Koru Koru no Mi]] — Daniel (Coal-Coal)
@@ -30,10 +32,11 @@ Campaign devil fruit registry — image, power, and current owner. Template: [[D
 - [[Kobu Kobu no Mi]] — Gin Guiseppi
 - [[Kamo Kamo no Mi]] — Vodka Guiseppi
 - [[Peto Peto no Mi]] — Ju Lee Caneheart
-- [[Shire Shire no Mi]] — Rias Decibel
+- [[Shire Shire no Mi]] — Cadence
 - [[Dabu Dabu no Mi]] — Irik Fen
 - [[Fura Fura no Mi]] — Rhythm Echo
 - [[Meshi Meshi no Mi]] — Blackhand Cane
+- [[Yokai Yokai no Mi]] — Simon Tideborn
 
 Inventions (non-fruits): [[Rules/Inventions|Inventions folder]].
 

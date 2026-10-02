@@ -1,0 +1,30 @@
+# Graphify "vault" context — curated campaign content only.
+# op5e/ is its own separate graphify context (see op5e/graphify-out/), not merged here.
+# Archives, tooling, and binaries excluded from the vault knowledge graph.
+
+.agents/
+.claude/
+.cursor/
+.git/
+.github/
+.obsidian/
+Agent Threads/
+Attachments/
+Backstories/
+Categories/
+Clippings/
+Daily/
+Discord/
+docs/
+Foundry/
+Handouts/
+Homebrew Items/
+Notes/
+op5e/
+References/
+scripts/
+Templates/
+Transcripts/
+World-Map.png
+test.json
+Lunarfold Journey.json

@@ -12,4 +12,4 @@ Placeholder faction until lore is settled.
 
 - [[Luna Bass]]
 - [[Luna Coda]]
-- [[Coda]]
+- [[Luna]] — child travelling with [[Cline The Plague|Cline]]

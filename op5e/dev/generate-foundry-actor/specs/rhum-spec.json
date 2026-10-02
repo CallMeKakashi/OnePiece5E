@@ -1,0 +1,28 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "name": "Rhum Guiseppi",
+  "raceIdentifier": "human",
+  "classIdentifier": "savant",
+  "subclassIdentifier": "caustic-spite",
+  "level": 15,
+  "cr": 12,
+  "backgroundSlug": "Faceless",
+  "roleSlug": "Role: Master at Arms",
+  "powerFork": "neither",
+  "additionalPowerSlug": "",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "abilities": { "str": 8, "dex": 14, "con": 22, "int": 12, "wis": 12, "cha": 20 },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "choices": [
+    { "stepId": "bdbeb7672f52cde8", "level": 0, "source": "role", "uuids": ["Compendium.op5e.items.69b040710b4ce0a2"] },
+    { "stepId": "fbdf0c9c247c5a84", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.9c5132ad9c9d881f"] },
+    { "stepId": "16d7e65ad4c47e6b", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.7842a68fdf0a1f76"] },
+    { "stepId": "7135d7bfa8bdfaba", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.42c76b2a6b6bc431"] },
+    { "stepId": "fae1623618546457", "level": 1, "source": "class", "uuids": ["Compendium.op5e.items.0ddafe26a36d8c1f"] },
+    { "stepId": "c5ab7e98a81a70cd", "level": 1, "source": "class", "slugs": ["skills:ins", "skills:itm"] }
+  ]
+}

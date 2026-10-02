@@ -9,7 +9,7 @@ foundry_live_slug: "giant-crab"
 
 ## Visuals
 
-![[Attachments/monsters/giant-crab.webp|Token]]
+![[Attachments/monsters/giant-crab.webp|registry-image]]
 
 **Look:** Stock **giant crab** — broad shell, heavy claws, mottled coastal coloring; low wide silhouette for shore or shallow-water encounters.
 

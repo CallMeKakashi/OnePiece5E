@@ -32,7 +32,8 @@ Devil Fruit: [[Tori Tori no Mi — Model Raicho]].
 
 ## Personal Quests
 
-- Find his sister **Alice**, taken during the attack on their Lunarian village
+- Find his sister **[[Alice]]**, taken during the attack on their Lunarian village
+  - **Lead (Episode 6):** she was held at, or passed through, **G-45**, the Marine base at [[Spirit Cliff]] under [[Commodore Briggs]] ([[Episode 06 - Hallow's End]] ~00:51; DM, 2026-09-26)
 - Uncover who ordered the raid — figures in white coats bearing the symbol of Libra
 
 ## Backstory
@@ -424,6 +425,53 @@ Baptiste nodded once—sharp, certain.
 Malphas took his hand.
 
 And fate shifted.
+
+## Session 005.5
+
+- Stows away with [[B.O.B]] on a Germa merchant ship to Harpoon Cay, then joins the party on [[Callisto]]; falls down the garbage chute and fights [[Daniel]] and [[Chloe]] ([[Session 005.5 — Callisto]]).
+
+## Episode 6
+
+- Carried to the workshop door by [[Veyl Corven]]'s Speed Fruit. Asks Hallow's journal about his sister and is pointed to **G-45**. Takes 8 vials of conductive dust (+1d4 lightning damage) ([[Session 006 — Hallow's End|Episode 6]]).
+
+## Episode 8
+
+- Downtime: meditates, trains with [[Veyl Corven]], and practises channelling lightning into his legs. Goal: find [[Alice]], then free the others who were captured. Beats [[Serica Corven]] in the tournament from the air ([[Session 008 — The Lunarfold Tournament Part 1|Episode 8]]).
+
+## Episode 9
+
+- Beats [[Veyl Corven]] (wing-slam through the deck), then loses the captain's bout to [[Baptiste]]; ranks **2nd**. Learns from [[Zim]] of a white-haired, red-eyed flyer seen at the Marine post [[Droven Calligos]] attacked — his [[Alice]] lead ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]).
+
+## Episode 10
+
+- **Memory-dream**: as a child he brings lunch to his father at a lookout tower, his sister cheering; his father spars with him and teaches him the Lunarian knack of resisting blunt hits ("remember that feeling, son"). Outposts had been falling; the memory ends in fire and cannons as he flees carrying his sister, and a Marine's spear breaks against him ([[Session 010 — Sea of Nightmares|Episode 10]]).
+- In the crew's shared nightmare, "Project Wonderland" wears his sister's stitched face; he holds back every time he sees it. In the throne-room nightmare he shocks Veyl out of despair ("I won't let yours be taken the same as mine").
+
+## Episode 11
+
+- Shocks [[B.O.B|Bob]] when he crashes, to no effect. At the [[Circle of Clowns]] fight, chases the clown captain's speedboat toward the Calm Belt while [[Veyl Corven|Veyl]] rams it ([[Session 011 — Welcome to the Jungle|Episode 11]]).
+
+## Episode 12
+
+- Already aboard the clowns' ship at the start of the session, knocking out clowns as they wake. Takes part in the fight against [[Bessy Jr|Bessie Jr]] and the questioning of [[Giggles D. Cloud]] ([[Session 012 — Clown Tricks|Episode 12]]).
+
+## Episode 13
+
+- With [[Baptiste]], a target of [[Esper Grimrose]]'s revenge for killing her brother's Reaper unit. Knocked out with the crew by [[Graff Bolt]]'s Conqueror's Haki; later goes aboard to look around ([[Session 013 — The Reaper|Episode 13]]).
+
+## Episode 14
+
+- Hears the faint sounds in Decibella's alleys and spots House Echo's spies on the roofs; opens the slum fight and kills one spy with his own tuning fork. Transforms (Wildsaid hybrid) and shatters Woofer's armor with a stomp. Fights with Baptiste in the Opera House (the twins' note leaves a ringing ear, temporary only), and helps kill [[Lady Soefra Anthem|Soefra]] and [[Sephra Anthem|Sephra]]. Casts armor of Agathys on himself ([[Session 014 — The Decibel Decree|Episode 14]]).
+
+## Episode 15
+
+- Fights [[Bass Tremor]] one-on-one in a room of stone armor statues. Told Bass he was not the one who killed his brother ([[Baron Woofer]]; Baptiste did). Pierces Bass's shield with a punch, then dodges Shatter and Bass's sonic sprint, and uses lightning and thunder clouds. Hammered down by a smite and knocked out about 44 damage short of death; the rescue is deferred to the next session ([[Session 015 — Animal Within|Episode 15]]).
+
+## Episode 16
+
+- Beats [[Bass Tremor]] on floor 4 after Bass takes a 6/6 serum and becomes a rhino hybrid. Levels to Brawler 5 and unlocks his second Thunderbird form (feathers, wings, lightning calling). Collapses from exhaustion.
+- Follows [[Dravos]]'s PVC pipes with [[Malak Samum]] and sees [[Facade]] working on [[B.O.B]]. Arrives later to find [[Baptiste]] carrying Roma ([[Session 016 — Broken Promises|Episode 16]]).
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

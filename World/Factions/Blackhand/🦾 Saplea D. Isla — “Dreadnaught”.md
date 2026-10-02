@@ -157,6 +157,15 @@ publish: true
 
 ## 📔 Campaign Notes
 
+### Episode 5
+
+- Gets into the [[World Government Bank]] at [[Spirit Cliff]] with [[🎶 Red — “The Songbird of the Black Comet”|Red]] using Halward's stolen keys ([[Session 005 — Midnight Chainbreak|Episode 5]]).
+
+### After Spirit Cliff
+
+- **Interlude** ([[Timeline/Undated/[Event] Interlude — Red Departs and Reverse Mountain]]): her condition is stabilizing at the Armada, though she is still frail. "Linn" ([[Linus Marrow]]) reveals he once knew her father and has the contacts to take her back to her home island for answers.
+- **[[Episode 06 - Hallow's End]]**: [[Roma]] harvests two tendrils and the fibre layer of the amalgam [[RyeNera]], whose regenerative properties are meant to help heal her or reinforce the Dreadnaught frame (DM, 2026-09-26; transcript "Sathlia").
+
 ### 🪶 Saplea’s Logbook — Entry #375 (Setting Sail for Ambercrest)
 
 - Ship: modest but sturdy vessel provided by **Renzo.**
@@ -186,6 +195,20 @@ publish: true
     
 - Grand Line Log Pose
     
+
+---
+
+## Episode 2
+
+- Integrates looted chain mail into the Dreadnaught suit (AC increase per table ruling). Buys a Jet dial (100,000 berries; expended while testing) and a captain wood carving (20,000 berries). Drops the fake voice and starts learning navigation on the way to [[Spirit Cliff]] ([[Session 002 — Stormwings of Ambercrest|Episode 2]]).
+
+## Episode 3
+
+- Meets [[Bramble]] at [[Bramble & Brothers]]; the crew takes his job (steal a small chest from the [[World Government Bank]] director's cabin) for a Grand Line–capable ship. Marines recognize her bounty in the market, sparking a scuffle. [[Linus Marrow]] invites her to the [[Armada]] to discuss the [[Rings of Aegir|black ring]] ([[Session 003 — Cliffside Gambit|Episode 3]]).
+
+## Episode 4
+
+- Runs comms/tech support for the casino heist; the crew de-tracks the captured Den Den Mushi and radios ([[Session 004 — Masquerade of the Stolen Keys|Episode 4]]).
 
 ---
 

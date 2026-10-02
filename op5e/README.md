@@ -1,6 +1,6 @@
 # One Piece 5e — Foundry Module (`op5e`)
 
-Unified Foundry VTT v13 module for the **Blood & Brine** One Piece 5e homebrew: compendium packs, character creator wizard, OP5e critical-damage rules, and optional JB2A/Sequencer animations.
+Unified Foundry VTT v13 module for the **Blood & Brine** One Piece 5e homebrew: compendium packs, character creator wizard, and optional JB2A/Sequencer animations.
 
 Replaces the separate **`op5e-compendium`** and **`op5e-character-creator`** modules (module id is now **`op5e`**).
 
@@ -66,7 +66,7 @@ npm run serve
 npm test
 ```
 
-Foundry-only dev harnesses (crit damage UI test, wizard mock compendium) live under [`dev/`](./dev/).
+Foundry-only dev harnesses (wizard mock compendium, module checks) live under [`dev/`](./dev/).
 
 ## Layout
 
@@ -74,7 +74,7 @@ Foundry-only dev harnesses (crit damage UI test, wizard mock compendium) live un
 op5e/
 ├── module.json
 ├── scripts/
-│   ├── compendium.mjs      # Berries, crit damage, dnd5e hooks
+│   ├── compendium.mjs      # Berries and dnd5e hooks
 │   ├── character-creator.mjs
 │   ├── animations.mjs      # Sequencer + Midi-QoL (optional)
 │   └── wizard/

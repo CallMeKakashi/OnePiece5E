@@ -10,11 +10,20 @@ foundry_live_slug: "bass-tremor"
 
 ## Description
 
-*(Details TBD)*
+Heavily armored leader of House [[Tremor]]; fights with a warhammer and shield. Brother of [[Baron Woofer]].
 
 ## Role
 
-*(Details TBD)*
+Leader of House Tremor, the Emperor's enforcers, and one of the figures in the tower trials.
+
+## Episode 15
+
+- Fights [[Malphas]] in a room of stone armor statues. Asks "are you the one who killed my brother?" Malphas says no; Bass says he bears no ill will toward anyone doing their duty and fights anyway.
+- Fights with Shatter, Magic Weapon, Shield of Faith and divine smite, and a speed burst. Drops his shield after Malphas pierces it, then knocks Malphas out with the hammer ([[Session 015 — Animal Within|Episode 15]]).
+
+## Episode 16
+
+- Fights [[Malphas]] again on floor 4. Takes a 6/6 serum and becomes a rhino hybrid, with Fear and a ramming charge. Beaten by Malphas's lightning punches ([[Session 016 — Broken Promises|Episode 16]]).
 
 ## Related
 

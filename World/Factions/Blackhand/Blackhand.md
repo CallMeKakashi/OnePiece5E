@@ -1,6 +1,8 @@
 ---
 publish: true
 status: draft
+aliases:
+  - Blackhand Pirates
 sources:
   - "Old Notes/One Piece DND - Blood and Brine/Campaign 2/Blackhand Faction/"
 ---
@@ -18,9 +20,9 @@ Pirate organization led by **[[Blackhand Cane]]** — see [[Blackhand (Cyber)]] 
 
 ## Blackhand Unit (field operatives)
 
-- [[⚔️ Fenris Wolfblood — "The Blood of Sun and Shadow"|Fenris Wolfblood]]
-- [[🎶 Red — "The Songbird of the Black Comet"|Red]]
-- [[🦾 Saplea D. Isla — "Dreadnaught"|Saplea D. Isla]]
+- [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”|Fenris Wolfblood]]
+- [[🎶 Red — “The Songbird of the Black Comet”|Red]]
+- [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea D. Isla]]
 - [[Mira the Unbreakable]] — 4th Fleet Commander
 - [[Baptiste (Blackhand unit)]] — Devil Fruit user; full sheet TBD
 
@@ -56,7 +58,7 @@ Pirate organization led by **[[Blackhand Cane]]** — see [[Blackhand (Cyber)]] 
 
 ## Timeline
 
-- [[1477-03moon [Newspaper] Blackhand Shows True Colors — Ambercrest]]
+- [[1478-03moon [Newspaper] Blackhand Shows True Colors — Ambercrest]]
 - [[1478-01moon [Newspaper] Navy Commander Slain — Frosthaven]]
 - [[1478-02moon [Newspaper] Plasmoid Turns Frostwind to Ashes]]
 - [[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]
@@ -66,4 +68,4 @@ Pirate organization led by **[[Blackhand Cane]]** — see [[Blackhand (Cyber)]] 
 - [[Sixfold]] — Spirit Cliff collusion
 - [[Spirit Cliff]] — treasury raid
 - [[Ambercrest]] — early East Blue incident
-- Split backstory (Old Notes `Baptiste.md`): [[Backstory] Elizabeth Marrow — mortuary escape]], [[Backstory] Blackhand Cane — Raid Kingdom]]; PC arc in [[Characters/Baptiste]]
+- Split backstory (Old Notes `Baptiste.md`): [[[Backstory] Elizabeth Marrow — mortuary escape]], [[[Backstory] Blackhand Cane — Raid Kingdom]]; PC arc in [[Characters/Baptiste]]

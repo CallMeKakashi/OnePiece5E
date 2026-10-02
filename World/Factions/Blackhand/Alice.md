@@ -23,11 +23,18 @@ foundry_live_slug: "alice"
 
 ## Lore
 
-**Project Wonderland** was a nightmare scenario conjured by the ring for this character (Discord character-art note: nightmare version conjured by Malphas psyche). Distinct from the living Alice rescued in lore posts.
+**Project Wonderland** was a nightmare scenario conjured by the ring for this character (Discord character-art note: nightmare version conjured by Malphas psyche). Distinct from the living Alice rescued in lore posts. It appeared in the crew's shared nightmare in [[Session 010 — Sea of Nightmares|Episode 10]]: a winged G-45 armour under [[Calder Voss|Voss]]'s command which, when [[Roma]] tore its helmet off, wore Alice's face with the eyes and mouth stitched shut.
+
+## Leads
+
+- **G-45** ([[Episode 06 - Hallow's End]], ~00:51): when [[Malphas]] asks about his sister, the answer points to G-45, the Marine base at [[Spirit Cliff]] under [[Commodore Briggs]]. She was held at, or passed through, G-45 (DM, 2026-09-26).
+
+- **White-haired, red-eyed flyer** ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]): [[Zim]] reports that when [[Droven Calligos]] attacked a North Blue Marine post, someone saw another flying devil fruit user with white hair and red eyes. [[Malphas]] believes it was Alice (a lead, not confirmed).
 
 ## Related
 
 - [[Malphas]]
+- [[Commodore Briggs]]
 - [[Droven Calligos]]
 ## Build template (Foundry)
 

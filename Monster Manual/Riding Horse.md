@@ -9,7 +9,7 @@ foundry_live_slug: "riding-horse"
 
 ## Visuals
 
-![[Attachments/monsters/riding-horse.webp|Token]]
+![[Attachments/monsters/riding-horse.webp|registry-image]]
 
 **Look:** Stock **riding horse** — brown bay coat, saddle-ready build, strong legs built for road travel; generic mount token (not **[[Pegasus]]**, B.O.B's summoned steed).
 

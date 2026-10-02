@@ -9,7 +9,7 @@ related_world:
   - "[[Roma]]"
   - "[[Baptiste]]"
   - "[[B.O.B]]"
-  - "[[Daniel (Spider's Nest)]]"
+  - "[[Daniel]]"
 related_events:
   - "[[Timeline/Undated/[Event] Sea of Nightmares]]"
   - "[[Timeline/Undated/[Event] Clown Tricks]]"
@@ -29,4 +29,4 @@ Resolves Ep 10 spider nightmares; crew reaches dome **zoo island**; **Circle of 
 ## Evidence
 
 - [[Episode 11 - Welcome to the Jungle]]
-- [[Session 11 - Welcome to the Jungle]]
+- [[Session 011 — Welcome to the Jungle]]
