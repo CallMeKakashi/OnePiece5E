@@ -74,7 +74,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Captain Reddan Korr]]
 - [[Commander Leon]]
 - [[Commodore Briggs]]
-- [[Delaroth]]
+- [[Delroth Halward]]
 - [[Dr Nikolai Tesla]]
 - [[Drez Crown, Captain of G-45]]
 - [[Graff Bolt]]
