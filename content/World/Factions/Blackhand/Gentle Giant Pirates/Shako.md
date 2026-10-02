@@ -76,6 +76,10 @@ Renzo even paid off Boro... Boro was not happy but he also couldn't refuse Renzo
 With tears in his eyes and a trembling, but determined heart, Shako left CraggHammer and Yobatsuru behind. For the first time, he could build, travel, and fight as he chose — no longer just a battered fighter for someone else's profit.
 
 Now, this timid yet monstrously strong mantis shrimp fishman sails the seas, ship tools at his side, fists that could shatter steel ready if needed.
+## Episode 17
+
+- First mate to Fenris. Repairs the crew's ship on the beach (it drifts away whenever the mast is pulled, so he suspects it has a mind of its own). Spars Malphas through the night. Tells Malphas about carved initials on the helm and urges him to look into who the old crew were ([[Session 017 — Agony of Choas|Episode 17]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

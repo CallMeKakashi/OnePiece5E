@@ -60,6 +60,10 @@ The sound of her footsteps leaving stayed with him longer than any song.
 - Forces [[Lady Soefra Anthem]] to heal the crew with a shotgun to her head, lets the twins escape, and sends [[Cadence]] to the hideout. Takes the first floor with Cade.
 - Opens the control-room gate with the five keys and tries to pull a cable; the Emperor wakes and freezes the crew with "Hold" ([[Session 016 — Broken Promises|Episode 16]]).
 
+## Episode 17
+
+- Fights Aegir in Baptiste's body with Tigor and Malphas (combat inspiration for Roma). Stabilises Roma with a medkit, carries the group out of the collapsing tower, then returns to his people. Visits the ship in aristocrat's clothes with Cadence: gives Malphas a lightning bracelet, Roma a seasoning jar, Bob a luck stone, Baptiste a mermaid-grove gem, and opens the armory. Promises Decibella's help ([[Session 017 — Agony of Choas|Episode 17]]).
+
 ## Episodes 14–19 (Malphas arc)
 
 - **Decibella rebellion** — leads [[Cadence]] cell; Soundless Five tower trials ([[Episode 14 - The Decibel Decree]]–[[Episode 16 - Broken Promises]]).

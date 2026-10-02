@@ -40,6 +40,10 @@ Ran wild with [[Riff Sin]] in the slums of [[Decibella Kingdom]], making music i
 
 - Sent by [[Riff Sin]] to the hideout to make sure everyone is safe ([[Session 016 — Broken Promises|Episode 16]]).
 
+## Episode 17
+
+- Speaks aloud for the first time ("thank you") to Malphas, then writes that Riff has not stopped smiling since the crew came ([[Session 017 — Agony of Choas|Episode 17]]).
+
 ![[Cadence - CharacterSheetComplete.pdf]]
 ## Build template (Foundry)
 

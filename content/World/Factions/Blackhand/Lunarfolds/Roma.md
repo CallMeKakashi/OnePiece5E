@@ -398,6 +398,10 @@ About a year before the present, travelling alone through Wano, Roma meets the L
 - As a beast he kills Treble, tearing her in half, and puts her key in his hat. He then attacks [[Baptiste]], who knocks him out in two rounds. He wakes at the top with no memory.
 - Levels to 5 (Fighter). Meets [[Dravos]], who shifts the weight of his skillet. Answers the Emperor's question "Lunarfold till we die" ([[Session 016 — Broken Promises|Episode 16]]).
 
+## Episode 17
+
+- Hit by a void blast from Aegir in Baptiste's body, dropped to 0 and out of hybrid form; stabilised by Riff. Rages back in and fights with heated skillet. Wakes with three days of hunger and cooks for the crew; Kala attunes his skillet; he is given a seasoning jar. Sulong still not under his control ([[Session 017 — Agony of Choas|Episode 17]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

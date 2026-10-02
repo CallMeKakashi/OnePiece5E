@@ -71,6 +71,10 @@ Kalla considered for a moment.
 ---
 
 With Garanth gone, the anti-peace faction among the Shandians grows stronger, pushing for all-out war. But Kalla carries the weight of a lost history, a vanished grandfather, and a thousand riddles waiting to be solved. Somewhere in the Blue Sea lies the truth — and he'll find it, even if he has to read the world itself.
+## Episode 17
+
+- Scholar of the Gentle Giants. Attunes Roma's skillet, draws Baptiste's flag design from Malphas's sketch, and goes into Decibella's village for cloth and paint ([[Session 017 — Agony of Choas|Episode 17]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

@@ -61,6 +61,10 @@ After several others failed, she infiltrated [[Capone Family]]-occupied territor
 - Next morning, under Bob's Detect Thoughts, she reveals Vireth is Astor and [[Ronan]] fused, and that a Marine-held device could undo it; tells Malphas of a white-haired, red-eyed flyer seen when Droven attacked a North Blue Marine post.
 - Leaves for Loguetown in Daniel's lifeboat with Veyl's radio, boosted by origami jet engines folded from her notebook; Bob keeps one of her sea-prism cuffs ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]).
 
+## Episode 17
+
+- [[Calder Voss]] reveals by radio that Zim infiltrated G-45 at Spirit Cliff, hunting the device that disables devil fruits, and was caught. A North Blue hearing, then execution; the crew heads north ([[Session 017 — Agony of Choas|Episode 17]]).
+
 ## Open Questions
 
 - Who is her Marine correspondent in Loguetown, and where is the device?
