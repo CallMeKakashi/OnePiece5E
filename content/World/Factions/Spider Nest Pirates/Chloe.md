@@ -27,6 +27,10 @@ Member of the [[Spider Nest Pirates]]. [[Daniel]] risks everything to extract he
 
 In [[Timeline/Undated/[Backstory] Spider Nest — The Nine Little Spiders|the spider fairy tale]], Chloe is the **ninth (youngest)** of nine sibling spiders; [[Simon The One Armed Tyrant|Simon]] is second, [[Zara Tideborn|Zara]] third.
 
+## Session 005.5
+
+- Fights the party with [[Daniel]] after they fall down the garbage chute; beaten and tied up ([[Session 005.5 — Callisto]]).
+
 ## Episode 6
 
 - Freed after party deal with Daniel; carried along by [[Veyl Corven]] while he evacuates [[Callisto]].
@@ -34,6 +38,10 @@ In [[Timeline/Undated/[Backstory] Spider Nest — The Nine Little Spiders|the sp
 ## Episode 9
 
 - Recognizes [[Informant (Loguetown)]] during confrontation on deck ("This one").
+
+## Episode 11
+
+- Present in the Spider's Nest nightmare with [[Daniel]] and [[Ben]]. At [[W.G.A.R.]] she stays aboard ship ([[Session 011 — Welcome to the Jungle|Episode 11]]).
 
 ## Related
 

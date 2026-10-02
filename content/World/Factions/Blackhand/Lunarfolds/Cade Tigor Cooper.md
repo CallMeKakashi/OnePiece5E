@@ -28,6 +28,10 @@ Helmsman of the [[Lunarfolds]], sailing under the [[Blackhand]] banner.
 
 *(Details TBD)*
 
+## Episode 13
+
+- Worker on [[W.G.A.R.]] (the tiger-costumed one) and the younger brother of [[Bugor]], the bear who runs the island. Joins the crew as helmsman: Bugor asks them to take him because he always wanted to sail, is wasting his potential there and is a skilled helmsman, and because the reserve needs animals to restart. Tigor reluctantly agrees ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
+
 ## Backstory
 
 *(Details TBD)*

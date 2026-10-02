@@ -28,4 +28,4 @@ Shipboard **crew-ranking tournament** after [[Callisto]] (Episode 8). [[Sixfold]
 ## Evidence
 
 - [[Episode 08 - The Lunarfold Tournament Part 1]]
-- [[Session 00008 — The Lunarfold Tournament Part 1]]
+- [[Session 008 — The Lunarfold Tournament Part 1]]

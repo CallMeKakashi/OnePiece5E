@@ -29,7 +29,7 @@ related_world:
 
 - Known: Aralia Cindross is/was a princess; the kingdom was usurped by her younger brother (1476 era).
 - **Current ruler**: **Micheal Cindross**.
-- **Usurping younger brother**: **Cecil Cindross**. Possessed through a single [[Rings of Aegir|Ring of Aegir]] by the rings' patron (*DM note*: Aegir). The [[Sixfold]] believe they killed him; Serica: "the king just had that ring and then he started acting differently… it wasn't the king, it was the king's youngest son that took over." His throne room replayed as [[Veyl Corven|Veyl]] and [[Serica Corven|Serica]]'s nightmare in [[Session 00010 — Sea of Nightmares|Episode 10]].
+- **Usurping younger brother**: **Cecil Cindross**. Possessed through a single [[Rings of Aegir|Ring of Aegir]] by the rings' patron (*DM note*: Aegir). The [[Sixfold]] believe they killed him; Serica: "the king just had that ring and then he started acting differently… it wasn't the king, it was the king's youngest son that took over." His throne room replayed as [[Veyl Corven|Veyl]] and [[Serica Corven|Serica]]'s nightmare in [[Session 010 — Sea of Nightmares|Episode 10]].
 - **Resistance leader (elder brother)**: **Micheal Cindross**.
 
 ## Culture

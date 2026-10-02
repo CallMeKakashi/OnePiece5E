@@ -26,7 +26,7 @@ Grand Line industrial island run by **[[Mugen Industries]]**. [[Hallow]] was sta
 ## Events
 
 - [[Timeline/Undated/[Event] Callisto — Hallow's Trap]] ([[Session 005.5 — Callisto]], unrecorded)
-- [[Timeline/Undated/[Event] Hallow's End]] ([[Session 00006 — Hallow's End]])
+- [[Timeline/Undated/[Event] Hallow's End]] ([[Session 006 — Hallow's End]])
 - [[1478-12moon [Newspaper] Grand Line Tribune — Morning]]: Callisto collapse press; survivors report a Blackhand unit on the island
 
 ## Related

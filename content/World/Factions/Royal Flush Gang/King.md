@@ -4,7 +4,7 @@ faction: "[[Royal Flush Gang]]"
 status: draft
 publish: true
 sources:
-  - "Sessions/2026/2026-03-22/Session 00024.5 — Interstitial RP"
+  - "Sessions/2026/2026-03-22/Session 024.5 — Interstitial RP"
 foundry_actor_id: "KT5Fk6duXyWBdmN1"
 foundry_live_slug: "king"
 ---
@@ -16,7 +16,7 @@ foundry_live_slug: "king"
 
 ## Role
 
-Leader of the [[Royal Flush Gang]]. Conqueror's Haki user; can build a house of cards strong enough to absorb a cursed blade's eruptions. Tried to warn the [[Capone Family]] against hasty decisions ([[Sessions/2026/2026-03-22/Session 00024.5 — Interstitial RP|Session 24.5]]).
+Leader of the [[Royal Flush Gang]]. Conqueror's Haki user; can build a house of cards strong enough to absorb a cursed blade's eruptions. Tried to warn the [[Capone Family]] against hasty decisions ([[Sessions/2026/2026-03-22/Session 024.5 — Interstitial RP|Session 24.5]]).
 
 ## Backstory
 

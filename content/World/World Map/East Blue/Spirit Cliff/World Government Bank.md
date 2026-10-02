@@ -20,12 +20,12 @@ World Government facility and bank branch on [[Spirit Cliff]]. The **branch dire
 
 ## Staff & leadership
 
-- **Branch director**: [[Delaroth Halward|Director Halward Lynne]]
+- **Branch director**: [[Delroth Halward|Director Delroth Halward]]
 
 ## Facilities
 
 - **Director’s cabin**: target location for the chest theft during the Spirit Cliff arc.
-- **Records/ledger access**: see [[The Black Ledger of Director Halward Lynne]].
+- **Records/ledger access**: see [[The Black Ledger of Director Delroth Halward]].
 
 ## Episode 3–4
 
@@ -33,12 +33,12 @@ World Government facility and bank branch on [[Spirit Cliff]]. The **branch dire
 
 ## Episode 5
 
-- Night raid: [[Red]] retrieves chest from director's cabin; marine/Sixfold battle at bank and casino — see [[Timeline/Undated/[Event] Shackles Broken]].
+- Night raid: [[🎶 Red — “The Songbird of the Black Comet”|Red]] retrieves chest from director's cabin; marine/Sixfold battle at bank and casino — see [[Timeline/Undated/[Event] Shackles Broken]].
 
 ## Related
 
-- [[The Black Ledger of Director Halward Lynne]]
-- [[Delaroth Halward|Director Halward Lynne]]
+- [[The Black Ledger of Director Delroth Halward]]
+- [[Delroth Halward|Director Delroth Halward]]
 - [[Bramble]]
 - [[Spirit Cliff]]
 - [[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]

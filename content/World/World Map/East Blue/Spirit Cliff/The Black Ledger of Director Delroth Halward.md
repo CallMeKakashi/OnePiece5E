@@ -1,6 +1,8 @@
 ---
 publish: true
 status: draft
+aliases:
+  - The Black Ledger of Director Halward Lynne
 sources:
   - "Old Notes/The Black Ledger of Director Halward Lynne.md"
   - "[[Episode 04 - Masquerade of the Stolen Keys]]"
@@ -14,18 +16,18 @@ related_events:
   - "[[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]"
 ---
 
-# The Black Ledger of Director Halward Lynne
+# The Black Ledger of Director Delroth Halward
 
-> **Name:** Ledger author **Delaroth Halward** (H.L.), publicly known as **Director Halward Lynne**. Herald/tables sometimes spell the branch director **Halwald** — treat as press variant unless retconned.
+> **Name:** Ledger author **[[Delroth Halward|Director Delroth Halward]]**. Older notes call him Halward Lynne (the "H.L." / "Director Lynne" in the pages below); the Herald spells it **Halwald**.
 
 ## Status
 
-Lost: it was aboard the crew's first ship when that ship sailed off from [[Callisto]] ([[Session 00008 — The Lunarfold Tournament Part 1|Episode 8]]; DM, 2026-10-01).
+Lost: it was aboard the crew's first ship when that ship sailed off from [[Callisto]] ([[Session 008 — The Lunarfold Tournament Part 1|Episode 8]]; DM, 2026-10-01).
 
 ## Related
 
 - [[Spirit Cliff]]
-- [[Delaroth Halward|Director Halward Lynne]]
+- [[Delroth Halward|Director Delroth Halward]]
 - [[World Government Bank]]
 - [[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]
 - [[Cline The Plague]]

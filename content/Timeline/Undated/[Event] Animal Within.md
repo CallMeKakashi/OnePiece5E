@@ -28,4 +28,4 @@ Broadcast-tower **1v1 gauntlet** opens: Soundless Five fights on upper floors (E
 ## Evidence
 
 - [[Episode 15 - Animal Within]]
-- [[Session 00015 — Animal Within]]
+- [[Session 015 — Animal Within]]

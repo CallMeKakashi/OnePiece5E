@@ -19,7 +19,7 @@ Founding member of the [[Motley Crew]]. Mentored by [[Blackhand|Blackhand Cane]]
 
 ## Fate (Episode 9)
 
-Fused with [[Ronan]] into [[Vireth]] by Ronan's fusion fruit; locked together since an explosion. [[Zim]] believes he is effectively dead but could be saved, and carries a notebook he gave her ([[Session 00009 — The Lunarfold Tournament Part 2|Episode 9]]).
+Fused with [[Ronan]] into [[Vireth]] by Ronan's fusion fruit; locked together since an explosion. [[Zim]] believes he is effectively dead but could be saved, and carries a notebook he gave her ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]).
 
 ## Backstory
 

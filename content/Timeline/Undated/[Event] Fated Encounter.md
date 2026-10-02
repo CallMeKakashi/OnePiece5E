@@ -10,7 +10,7 @@ related_world:
   - "[[Bramble]]"
   - "[[🦾 Saplea D. Isla — “Dreadnaught”]]"
   - "[[Roma]]"
-  - "[[Red]]"
+  - "[[🎶 Red — “The Songbird of the Black Comet”|Red]]"
   - "[[Baptiste]]"
   - "[[Linus Marrow]]"
   - "[[Veyl Corven]]"

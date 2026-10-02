@@ -28,4 +28,4 @@ Defeat **Vorro** + armored Marine; rescue **Zim**; Roma white serum → temporar
 ## Evidence
 
 - [[Episode 22 - The Missing Piece]]
-- [[Session 00022 — The Missing Piece]]
+- [[Session 022 — The Missing Piece]]

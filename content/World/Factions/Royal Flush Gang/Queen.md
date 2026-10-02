@@ -4,7 +4,7 @@ faction: "[[Royal Flush Gang]]"
 status: draft
 publish: true
 sources:
-  - "Sessions/2026/2026-03-22/Session 00024.5 — Interstitial RP"
+  - "Sessions/2026/2026-03-22/Session 024.5 — Interstitial RP"
 foundry_actor_id: "KaS7iceaRRvUYoSq"
 foundry_live_slug: "queen"
 ---
@@ -16,7 +16,7 @@ foundry_live_slug: "queen"
 
 ## Role
 
-Financier and spy of the [[Royal Flush Gang]]. Led talks with [[Arno Capone]] and [[Mira the Unbreakable|Mira]] on Juniper Island after the hit on [[Lorenzo Capone]], urging respect for Lorenzo's wish for peace (world-lore, 2026-04-12). Sent [[Matthew -The Jack- Burgess|Jack]] the warning "Keep an eye on the Spectre" via [[The Ace]] ([[Sessions/2026/2026-03-22/Session 00024.5 — Interstitial RP|Session 24.5]]).
+Financier and spy of the [[Royal Flush Gang]]. Led talks with [[Arno Capone]] and [[Mira the Unbreakable|Mira]] on Juniper Island after the hit on [[Lorenzo Capone]], urging respect for Lorenzo's wish for peace (world-lore, 2026-04-12). Sent [[Matthew -The Jack- Burgess|Jack]] the warning "Keep an eye on the Spectre" via [[The Ace]] ([[Sessions/2026/2026-03-22/Session 024.5 — Interstitial RP|Session 24.5]]).
 
 ## Backstory
 

@@ -24,7 +24,7 @@ Gaunt Germa-trained scientist: pale, sharp features, slicked-back white hair, he
 
 - **Germa 66** — Former lead experimenter; **[[Linus Marrow]]** worked under him; ran cruel trials on minks including **[[Pasha]]** ([[1476-01moon [Backstory] The Birth of the Motley Crew]]).
 - After Germa's fall — worked alone; on **Driftroot**, partnered with **Nyx Velencruz** to refine **[[LunaFang Serum]]** (hireling **[[Berserker]]** oversaw trials until a crazed **[[Saber-Toothed Tiger]]** killed him in the **Old City**).
-- Later joined **Commodore Briggs**'s **G-4.5** marine command.
+- Later joined **Commodore Briggs**'s **G-45** marine command.
 - **[[Mugen Industries]]** — Builds and tests whatever Briggs allows under the Mugen banner (G-45 / Callisto facilities, enforcer armour, amalgams).
 - Creates **[[RyeNera]]** (two-human fusion) and stronger **[[Monster Manual/Aberrant Abomination|Aberrant Abomination]]** (three-creature fusion) in pursuit of his Virellis ideal.
 - **Lunafang distribution** — Faulty fertilizer on **West Town** farms (e.g. **[[Hydra Goose]]** mutation); spreading the drug across the Blues for unknown ends.

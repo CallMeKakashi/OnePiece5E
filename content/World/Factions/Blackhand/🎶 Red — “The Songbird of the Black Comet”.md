@@ -171,6 +171,8 @@ Red blacks out — memory fractured ever since.
 - **Departure** ([[Timeline/Undated/[Event] Interlude — Red Departs and Reverse Mountain]]): after an encounter with his past at [[Spirit Cliff]], [[Jack S. Parrow]] helps him get his memories back. He admits he is no Mink but a Zoan user of the **Parrot-Parrot Fruit**, and leaves with [[Baptiste]]'s blessing to settle unfinished business with his old crew.
     
 
+- **Episode 5** ([[Session 005 — Midnight Chainbreak|Episode 5]]): gets into the [[World Government Bank]] with [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] using Halward's stolen keys and secures **Bramble's chest** from the director's cabin without opening it.
+
 ---
 
 ## 🧩 Key NPC Connections
@@ -181,6 +183,20 @@ Red blacks out — memory fractured ever since.
 |**Jack Sparrow**|Bird-faced pirate, Red’s closest friend|Presumed alive; now a dock worker|
 |**Blackhand Cane**|Captain of Red’s second crew|Missing|
 |**Saplea D. Isla**|Fellow Mink; wary ally|Travels with Red currently|
+
+---
+
+## Episode 2
+
+- His breakfast reveals a grim detail about [[Kirro King|Kirro]]. Buys studded leather armor at a marine surplus shop. [[Mira the Unbreakable|Mira]] warns him that "Tusk's men" operate near [[Spirit Cliff]] ([[Session 002 — Stormwings of Ambercrest|Episode 2]]).
+
+## Episode 3
+
+- In the market fight with marines, the crew knocks them out and stashes the bodies. First tense meeting with [[Veyl Corven]] and [[Serica Corven]] ([[Session 003 — Cliffside Gambit|Episode 3]]).
+
+## Episode 4
+
+- In marine boots and guise, ambushes Director [[Delroth Halward]] in the bathroom after he drinks the swapped wine; steals his keys and glimpses a small notebook tied to Halward's corruption ([[Session 004 — Masquerade of the Stolen Keys|Episode 4]]).
 
 ---
 

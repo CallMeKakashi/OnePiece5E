@@ -41,7 +41,11 @@ Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative. 
 
 ## Episode 5
 
-- Present during bank crisis; tries to reason with crew; conflict with [[Delaroth]]'s agenda vs party survival.
+- Present during bank crisis; tries to reason with crew; conflict with [[Delroth Halward]]'s agenda vs party survival.
+
+## Session 005.5
+
+- Meets the party on [[Callisto]] with [[Serica Corven]]; cut off in the Spider ambush and fights [[Ben]], then crashes into the Core from above with him beaten ([[Session 005.5 — Callisto]]).
 
 ## Episode 6
 
@@ -49,15 +53,28 @@ Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative. 
 
 ## Episode 8
 
-- Speed training with [[Baptiste]] (and [[Malphas]]) during downtime; counted as full crew for the tournament. Beats [[B.O.B]] in bout 1, reaching him behind the mast with a **Rokushiki** technique after Bob levitates him; promises to tell Bob everything about it ([[Session 00008 — The Lunarfold Tournament Part 1|Episode 8]]).
+- Speed training with [[Baptiste]] (and [[Malphas]]) during downtime; counted as full crew for the tournament. Beats [[B.O.B]] in bout 1, reaching him behind the mast with a **Rokushiki** technique after Bob levitates him; promises to tell Bob everything about it ([[Session 008 — The Lunarfold Tournament Part 1|Episode 8]]).
 
 ## Episode 9
 
-- Finds Bob in the cupboard and tells him "the old man" ([[Blackhand Cane]]) is missing. Loses the 1st/2nd bout to [[Malphas]]; rank **3rd**. Recognises [[Zim]] and asks about [[Astor]]; stops Roma dangling her over the sea and falls out with [[Baptiste]] ("maybe I was wrong about you"). Pins Zim the next morning until Serica calms him; explains Liz's paper IDs; gives Zim his radio ([[Session 00009 — The Lunarfold Tournament Part 2|Episode 9]]).
+- Finds Bob in the cupboard and tells him "the old man" ([[Blackhand Cane]]) is missing. Loses the 1st/2nd bout to [[Malphas]]; rank **3rd**. Recognises [[Zim]] and asks about [[Astor]]; stops Roma dangling her over the sea and falls out with [[Baptiste]] ("maybe I was wrong about you"). Pins Zim the next morning until Serica calms him; explains Liz's paper IDs; gives Zim his radio ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]).
 
 ## Episode 10
 
-- The two [[Rings of Aegir]] were kept in his blue box. Trapped with [[Serica Corven|Serica]] in the Virellis throne-room nightmare, held by the neck by the patron and broken by despair until [[Malphas]] shocks him back; asks Malphas to take Serica away if they all die. Killed in the dream by Circle of Death; wakes gasping ("my worst nightmare coming to life") ([[Session 00010 — Sea of Nightmares|Episode 10]]).
+- The two [[Rings of Aegir]] were kept in his blue box. Trapped with [[Serica Corven|Serica]] in the Virellis throne-room nightmare, held by the neck by the patron and broken by despair until [[Malphas]] shocks him back; asks Malphas to take Serica away if they all die. Killed in the dream by Circle of Death; wakes gasping ("my worst nightmare coming to life") ([[Session 010 — Sea of Nightmares|Episode 10]]).
+
+## Episode 11
+
+- Joins the crew in the Spider's Nest nightmare. Talks with [[Daniel]] in the crow's nest: during the fight at Virellis they had to **fuse [[Liz]] and Sister Elise** with [[Vireth]]'s power to hold an explosion. Liz now has only the barrier fruit and no memory of Elise; his lead to undo it is to find Vireth. Daniel refuses to join them.
+- At [[W.G.A.R.]] he cuts the clowns' drapes so the Spider's Nest ship sails away, then uses his thunderclap to run on the water and collides with the clown captain's speedboat before it reaches the Calm Belt ([[Session 011 — Welcome to the Jungle|Episode 11]]).
+
+## Episode 12
+
+- Having rammed the clowns' speedboat at the end of Session 11, uses his speed-boosting fruit to catch back up to [[Bessy Jr.|Bessie Jr]] and spends the fight distracting the crab so the crew can work on the handler ([[Session 012 — Clown Tricks|Episode 12]]).
+
+## Episode 13
+
+- After the Scorpion Unit ([[Kyle Bloodfin]] and [[Esper Grimrose]]) attacks the crew and Kyle is killed, stops the party from killing Esper and takes responsibility for her. Next morning, reading the news of [[Vireth]]'s attack on a South Blue Marine base, he takes it as a beacon for the Sixfold ("I'm here, come to me"); he and [[Serica Corven|Serica]] take the Scorpion Unit's ship and Esper and leave through the Calm Belt. The crew finds them gone when they wake ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
 
 ## Related
 

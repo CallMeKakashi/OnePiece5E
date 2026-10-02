@@ -42,7 +42,7 @@ Lady Anthem and her companions are believed to be hiding on an undisclosed islan
 
 Marine forces are already mobilizing to assess the situation.
 
-Commodore Briggs of the G-4.5 unit has personally taken command of the investigation. Officials are particularly concerned that the coup could disrupt the former king's negotiations to bring Decibella into the World Government.
+Commodore Briggs of the G-45 unit has personally taken command of the investigation. Officials are particularly concerned that the coup could disrupt the former king's negotiations to bring Decibella into the World Government.
 
 In light of the incident, new bounty increases for members of the Lunarfold Pirates have been issued. Updated posters accompany this edition.
 

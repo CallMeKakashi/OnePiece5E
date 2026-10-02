@@ -32,4 +32,4 @@ The two [[Rings of Aegir]] aboard the Spider's Nest ship trap everyone in **shar
 ## Evidence
 
 - [[Episode 10 - Sea of Nightmares]]
-- [[Session 00010 — Sea of Nightmares]]
+- [[Session 010 — Sea of Nightmares]]

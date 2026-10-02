@@ -10,7 +10,7 @@ related_world:
   - "[[🦾 Saplea D. Isla — “Dreadnaught”]]"
   - "[[Baptiste]]"
   - "[[Roma]]"
-  - "[[Red]]"
+  - "[[🎶 Red — “The Songbird of the Black Comet”|Red]]"
   - "[[Linus Marrow]]"
   - "[[Mira the Unbreakable]]"
   - "[[Sixfold]]"
@@ -27,7 +27,7 @@ Play events from **Episode 2** (recording). In-world date not pinned — see [[D
 
 ## Beats
 
-1. **Ambercrest docks** — party loots/supplies; [[Red]]'s meal incident with fish-man **Kira** ([[Kirro King]]); [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] upgrades armor.
+1. **Ambercrest docks** — party loots/supplies; [[🎶 Red — “The Songbird of the Black Comet”|Red]]'s meal incident with fish-man **Kira** ([[Kirro King]]); [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] upgrades armor.
 2. **Recruitment** — [[Baptiste]] (winged) joins the crew at the docks; Blackhand orders to make allies.
 3. **Voyage** — ~3 days southwest toward [[Spirit Cliff]]; [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]] uses real voice, begins navigation training.
 4. **Sea King battle** — storm encounter; party survives; [[Roma]] lands killing blow.

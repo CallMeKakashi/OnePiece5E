@@ -36,11 +36,15 @@ Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative a
 
 ## Episode 3
 
-- Argues with Veyl in marketplace; curious about [[Red]]'s abilities after marine fight.
+- Argues with Veyl in marketplace; curious about [[🎶 Red — “The Songbird of the Black Comet”|Red]]'s abilities after marine fight.
 
 ## Episode 5
 
-- Fights crew at Spirit Cliff under [[Delaroth]]'s orders; rooftop combat vs [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]].
+- Fights crew at Spirit Cliff under [[Delroth Halward]]'s orders; rooftop combat vs [[🦾 Saplea D. Isla — “Dreadnaught”|Saplea]].
+
+## Session 005.5
+
+- Meets the party on [[Callisto]] with [[Veyl Corven]]; cut off in the Spider ambush and fights [[Ben]], then crashes into the Core from above with him beaten ([[Session 005.5 — Callisto]]).
 
 ## Episode 6
 
@@ -48,15 +52,23 @@ Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative a
 
 ## Episode 8
 
-- Scrubs the deck for all three days of downtime. Tournament: beats [[Roma]] on captain [[Baptiste]]'s ruling (cannon ready); loses to [[Malphas]], who stays out of her reach in the air; guaranteed **3rd** ([[Session 00008 — The Lunarfold Tournament Part 1|Episode 8]]).
+- Scrubs the deck for all three days of downtime. Tournament: beats [[Roma]] on captain [[Baptiste]]'s ruling (cannon ready); loses to [[Malphas]], who stays out of her reach in the air; guaranteed **3rd** ([[Session 008 — The Lunarfold Tournament Part 1|Episode 8]]).
 
 ## Episode 9
 
-- Final crew rank **4th**; tells Baptiste she went easy on him and doesn't care about rankings. Bangs on [[Zim]]'s cell at night, accusing her over something involving "him"; later calms Veyl down ("we've tried everything… it never works") ([[Session 00009 — The Lunarfold Tournament Part 2|Episode 9]]).
+- Final crew rank **4th**; tells Baptiste she went easy on him and doesn't care about rankings. Bangs on [[Zim]]'s cell at night, accusing her over something involving "him"; later calms Veyl down ("we've tried everything… it never works") ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]).
 
 ## Episode 10
 
-- Trapped with [[Veyl Corven|Veyl]] in a ring nightmare of the [[Virellis Kingdom|Virellis]] throne room: one arm torn off, despairing ("He killed [[Vireth]]"). [[B.O.B|Bob]] rouses her to fight; she fires a rocket-launcher arm at the patron and is killed by its Circle of Death. On waking: "We killed him… it wasn't the king. It was the king's youngest son that took over" ([[Session 00010 — Sea of Nightmares|Episode 10]]).
+- Trapped with [[Veyl Corven|Veyl]] in a ring nightmare of the [[Virellis Kingdom|Virellis]] throne room: one arm torn off, despairing ("He killed [[Vireth]]"). [[B.O.B|Bob]] rouses her to fight; she fires a rocket-launcher arm at the patron and is killed by its Circle of Death. On waking: "We killed him… it wasn't the king. It was the king's youngest son that took over" ([[Session 010 — Sea of Nightmares|Episode 10]]).
+
+## Episode 11
+
+- Joins the crew in the [[Spider Nest Pirates|Spider's Nest]] nightmare, a burning [[Virellis Kingdom|Virellis]] town square, and wakes with everyone else. Travels on to [[W.G.A.R.]] with the party ([[Session 011 — Welcome to the Jungle|Episode 11]]).
+
+## Episode 13
+
+- Leaves with [[Veyl Corven|Veyl]] after reading of [[Vireth]]'s Marine base attack, on the Scorpion Unit's ship, taking the captured [[Esper Grimrose]] with them through the Calm Belt to the South Blue ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
 
 ## Related
 

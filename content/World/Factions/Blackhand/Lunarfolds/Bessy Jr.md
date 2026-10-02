@@ -5,7 +5,9 @@ status: draft
 publish: true
 aliases:
   - Bessie
+  - Bessie Jr
   - Bessy
+  - Bessy Jr.
   - SeaBeast - Hermit Crab
 sources:
 foundry_actor_id: "npWWYPqwqWkk6L7W"
@@ -31,7 +33,7 @@ foundry_live_slug: "seabeast-hermit-crab"
 
 **Rescue:** **[[Midori]]** pulled **Bessy Jr.** from the **South Blue island** where ex-Admiral **[[Graff Bolt]]** was slain breaking up a covert slave ring ([[1478-03sun [Newspaper] Grand Line Tribune — Midday]]). Discord also lists the crab as **Midori's Friend** (Sea King-class companion).
 
-**Prior table thread:** Ep 12–13 STT names the same class of beast **Bessie** — giant crab **vessel** bonded to a clown slave; Marines tried to press her for **Calm Belt** transit ([[Episode 12 - Clown Tricks]] · [[Episode 13 - The Reaper (No DM Audio)]]). **[[B.O.B]]** animal-handling with the clown handler. Whether that is the same individual is **unfiled**.
+**Table play:** In [[Session 012 — Clown Tricks|Session 12]] she is the **Giant Crab Sea King** that carries the [[Circle of Clowns]]' ship, controlled by her handler [[Bubbles D. Clown]] (the crew's nickname for him: **Bessie Senior**). She goes hostile once the clowns are knocked out; [[Veyl Corven]] distracts her, [[Baptiste]] levitates [[Roma]] over the water, and [[B.O.B]] wins Bubbles over with promises of freedom and good treatment. The crew then takes a long rest on her back and rides her back toward W.G.A.R. In [[Session 013 — The Reaper (No DM Audio)|Session 13]], [[Graff Bolt]] and [[Melina Celeste]] ask the crew to hand her and Bubbles over; the crew refuses and is knocked out. She and Bubbles wait at the beach near W.G.A.R. until Graff and Melina are ready to leave, while the crew stays to deal with the old ship. This is the same individual as the Discord "Bessy Jr." entry above.
 
 ## Related
 

@@ -26,6 +26,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Merlin]]
 - [[Pegasus]]
 - [[Roma]]
+- [[The First Ship]]
 - [[Zim]]
 
 
@@ -61,6 +62,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 **Mercenary organization led by Liz.**
 
 - [[Cline The Plague]]
+- [[Elise]]
 - [[Liz]]
 - [[Serica Corven]]
 - [[Sixfold]]
@@ -77,6 +79,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Delroth Halward]]
 - [[Dr Nikolai Tesla]]
 - [[Drez Crown, Captain of G-45]]
+- [[Goro]]
 - [[Graff Bolt]]
 - [[Heathcliff]]
 - [[Horus]]
@@ -86,6 +89,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 - [[Obsidian]]
 - [[Petty Officer Marine]]
 - [[Sir Can Veil]]
+- [[Stella Celeste]]
 
 
 ### Motley Crew
@@ -162,6 +166,7 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 - [[High Roost Pirates]]
 - [[Jack S. Parrow]]
+- [[Tusk]]
 
 
 ### Braveheart Pirates
@@ -189,6 +194,8 @@ One Piece D&D campaign encyclopedia: factions, world, timeline, sessions, rules,
 
 ### Unaffiliated
 
+- [[Bore]]
+- [[Bugor]]
 - [[Kara -Many-Eyes- Kagemi]]
 - [[Maro -Powderflash- Kel]]
 - [[Sora]]

@@ -19,7 +19,7 @@ Naval military of the World Government. The campaign's main Marine presence is t
 - [[Horus]] — Vice Admiral "The Maw" (earlier: Commodore)
 - [[Captain Reddan Korr]]
 - [[Commander Leon]]
-- [[Delaroth]]
+- [[Delroth Halward]]
 - [[Graff Bolt]]
 - [[Heathcliff]]
 - [[Melina Celeste]]

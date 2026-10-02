@@ -28,9 +28,21 @@ Muscle of the [[Spider Nest Pirates]]. Follows [[Daniel]] loyally.
 
 In [[Timeline/Undated/[Backstory] Spider Nest — The Nine Little Spiders|the spider fairy tale]], Ben is the **sixth** of nine sibling spiders; [[Simon The One Armed Tyrant|Simon]] is second, [[Zara Tideborn|Zara]] third.
 
+## Session 005.5
+
+- Part of the Spider ambush on [[Callisto]]; fights [[Veyl Corven]] and [[Serica Corven]] and is beaten ([[Session 005.5 — Callisto]]).
+
 ## Episode 6
 
 - Crashes through roof into Cogwork Core; repeatedly wakes despite restraints; fights alongside the party in the graveyard and lands the killing blow on [[RyeNera]].
+
+## Episode 10
+
+- Drowns in the crew's shared ring nightmare; none of it happened ([[Session 010 — Sea of Nightmares|Episode 10]]).
+
+## Episode 11
+
+- Dies in the Spider's Nest nightmare when the lion-mink attacks, and takes an extra level of exhaustion. At [[W.G.A.R.]] he goes to the shops with [[Daniel]] ([[Session 011 — Welcome to the Jungle|Episode 11]]).
 
 ## Related
 

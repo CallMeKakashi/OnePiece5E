@@ -28,6 +28,11 @@ Escaped **Germa 66** after cruel experiments under **[[Dr Nikolai Tesla]]** ([[1
 
 About a year before the present, met [[Roma]] again in Wano — see [[[Backstory] Roma — The Lion He Forgot]].
 
+## Episode 11
+
+- **Nightmare only**: a red-eyed, blood-spattered lion-mink looking like Pasha attacks the crew in the [[Spider Nest Pirates|Spider's Nest]] nightmare. Its roar forces Wisdom saves (frightened); it bites off [[Daniel]]'s arm and Ben dies. [[Roma]], in a Sulong form triggered by the moon, kills it, and it reminds him of someone he can't place.
+- The real Pasha is alive and has left [[Sixfold]]; only one Sixfold member died at Virellis ([[Session 011 — Welcome to the Jungle|Episode 11]]).
+
 ## Abilities
 
 ### Animal Talk

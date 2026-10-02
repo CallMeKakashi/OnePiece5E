@@ -31,4 +31,4 @@ Day 2 of the crew-ranking tournament plus the rescue of [[Zim]] (Episode 9).
 ## Evidence
 
 - [[Episode 09 - The Lunarfold Tournament Part 2]]
-- [[Session 00009 — The Lunarfold Tournament Part 2]]
+- [[Session 009 — The Lunarfold Tournament Part 2]]
