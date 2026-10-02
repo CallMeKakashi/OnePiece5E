@@ -411,6 +411,10 @@ About a year before the present, travelling alone through Wano, Roma meets the L
 
 - Downtime: cooks, teaches the horses to answer his whistles, and looks after the animals Riff gave the crew (sabre-toothed tiger, wolf, dog), bound for Tigor's W.G.A.R. reserve. Coaches a crewmate on cooking the tiger's meat. Trains Bob in martial combat ([[Session 018 — Gentle Giant Pirates|Episode 18]]).
 
+## Episode 19
+
+- Wins his Davy Back Fight bout against [[Malak Samum]] (called Malik) after a natural 20 on initiative and raging. Tries to take [[Riff Sin]] along in a wine barrel; Baptiste makes it conditional on finding the surviving twin. Follows her trail with Bob to a cliff and out to sea, loses it, and spends the night getting high with the panthers ([[Session 019 — The Walking Dead|Episode 19]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

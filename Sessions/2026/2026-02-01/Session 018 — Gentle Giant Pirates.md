@@ -61,7 +61,7 @@ aliases:
 
 Cross-session ledger: [[Open Threads]].
 
-- **Davy Back Fight**: Dravos is the stake; the crew won Game 1 (Bob over Facade). The Battle of Beasts and the deciding game continue in S19.
+- **Davy Back Fight**: Dravos is the stake; the crew won Game 1 (Bob over Facade). Resolved in [[Session 019 — The Walking Dead|S19]]: the crew won 3-0.
 - **Dravos**: Baptiste wants him as guide to Zim; Fenris keeps him because finding Cline is hard.
 - **Bell fragments**: Baptiste and Kalla each hold a piece of a broken bell; held together they resonate with the rings. The rings stay on. Origin of the bell is unexplained.
 - **W.G.A.R. reserve**: the tiger, wolf, dog and horses from Riff are for Tigor's home reserve.

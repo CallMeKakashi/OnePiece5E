@@ -76,6 +76,10 @@ Feared by enemies, revered by her allies — her legend stretches across seas.
 
 - Calls the ship by Den Den Mushi: warns of the Marine base at [[Spirit Cliff]], to hide [[Baptiste]]'s wings, of [[Linus Marrow|Linus]]'s ties to [[Sixfold]], and that Red's past may catch up (Tusk's men near Spirit Cliff). Points the crew toward [[Bramble]] for a Grand Line–capable ship ([[Session 002 — Stormwings of Ambercrest|Episode 2]]).
 
+## Episode 19
+
+- Baptiste calls her about Dravos; she gives him free rein ([[Session 019 — The Walking Dead|Episode 19]]).
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

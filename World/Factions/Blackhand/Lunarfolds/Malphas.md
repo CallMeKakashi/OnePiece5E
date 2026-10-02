@@ -476,6 +476,10 @@ And fate shifted.
 
 - Fights Aegir in Baptiste's body above the tower; his electric flurry stops it. Carries Baptiste out before the collapse, falls exhausted onto a roof. Spars Shako through the night; asks Riff for a sketch-based flag and speaks to Mira about Alice ([[Session 017 — Agony of Choas|Episode 17]]).
 
+## Episode 19
+
+- Finds [[Dravos]] in the forest with Baptiste. Does not join the twin hunt. Touches the ship's helm and tells its spirit they will let it go eventually, but for now it should stay ([[Session 019 — The Walking Dead|Episode 19]]).
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

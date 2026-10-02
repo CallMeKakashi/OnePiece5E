@@ -68,6 +68,10 @@ The sound of her footsteps leaving stayed with him longer than any song.
 
 - Runs the kingdom himself; Baptiste only gives advice. Gives the crew the sabre-toothed tiger, wolf, dog and horses, for Tigor's W.G.A.R. reserve. His shotgun is repaired ([[Session 018 — Gentle Giant Pirates|Episode 18]]).
 
+## Episode 19
+
+- Baptiste tells him to help the people but let them decide, rather than turn to the World Government. Roma tries to smuggle him aboard in a wine barrel; Baptiste stops it unless the surviving twin is found, and Riff stays on Decibella ([[Session 019 — The Walking Dead|Episode 19]]).
+
 ## Episodes 14–19 (Malphas arc)
 
 - **Decibella rebellion** — leads [[Cadence]] cell; Soundless Five tower trials ([[Episode 14 - The Decibel Decree]]–[[Episode 16 - Broken Promises]]).

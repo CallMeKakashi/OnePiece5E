@@ -27,6 +27,10 @@ Blackhand 2nd Fleet executive. Devil Fruit: [[Suraimu Suraimu no Mi]]. Status: c
 
 - Captured by the Marines while rescuing [[Alice]]. [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”|Fenris]] wants him back, having heard from Mira; he is the only clue to Goro's missing Second Fleet ([[Session 017 — Agony of Choas|Episode 17]]).
 
+## Episode 19
+
+- Revealed as [[Dravos]]'s brother; the Marines hold him and his execution is in two weeks ([[Session 019 — The Walking Dead|Episode 19]]).
+
 ## Related
 
 - [[Blackhand]]

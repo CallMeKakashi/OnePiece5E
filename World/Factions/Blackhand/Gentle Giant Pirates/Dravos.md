@@ -42,6 +42,10 @@ Navigator. Devil Fruit: [[Toneru Toneru no Mi]].
 
 - Walls the possessed Baptiste in a 100 ft PVC pipe wall with Wall of Pipes, then runs to get help. Afterwards drums on barrels at the shore feast; Fenris counts him as crew though he was hired ([[Session 017 — Agony of Choas|Episode 17]]).
 
+## Episode 19
+
+- The crew wins the Davy Back Fight 3-0. Baptiste and Malphas find him in the forest, where he does not want to fight. Baptiste tells him his brother [[Droven Calligos|Droven]] is alive and held by the Marines, and Dravos agrees to work with the crew for now ([[Session 019 — The Walking Dead|Episode 19]]).
+
 ## Related
 
 - [[Gentle Giant Pirates]]

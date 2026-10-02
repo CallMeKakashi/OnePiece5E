@@ -29,6 +29,10 @@ Doctor. Devil Fruit: [[Hai Hai no Mi]]. Status: headed to South Blue (Discord ch
 
 - A member of Mira's crew on loan to the Gentle Giant Pirates. Examines Bob in the blood cocoon and tells him he has no heartbeat and the core keeps him alive ([[Session 017 — Agony of Choas|Episode 17]]).
 
+## Episode 19
+
+- Fights [[Roma]] in the Davy Back Fight for [[Dravos]]. He heals 40 but loses to Roma's rage ([[Session 019 — The Walking Dead|Episode 19]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*
