@@ -8,6 +8,8 @@ This repo holds three loosely-related contexts sharing one git history. Read the
 | op5e | [op5e/CONTEXT.md](./op5e/CONTEXT.md) | Standalone FoundryVTT module (TypeScript) |
 | Sync scripts | [scripts/CONTEXT.md](./scripts/CONTEXT.md) | Python automation: Discord export, Foundry sync, Quartz publish |
 
+Each context has two files: `CONTEXT.md` (terms) and `CLAUDE.md` (rules and danger zones): [root](./CLAUDE.md), [op5e/CLAUDE.md](./op5e/CLAUDE.md), [scripts/CLAUDE.md](./scripts/CLAUDE.md). Prior agent conversations and handoffs are archived in `Agent Threads/`. Knowledge graphs are separate per context (`graphify-out/` at the root for the vault, `op5e/graphify-out/` for op5e); never merge them.
+
 ## How they touch
 
 - **Sync scripts** read the **vault** and publish it (Quartz → `v4` branch) and reconcile it against Discord and Foundry.

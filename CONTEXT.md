@@ -9,7 +9,7 @@ This repository; all material serves the live tabletop campaign.
 _Avoid_: PKM vault, general notes repo
 
 **Session**:
-A table-play unit; curated notes live in `Sessions/`.
+A table-play unit. Its note lives in `Sessions/2026/<date>/` and is the record only once grilled; its `## Prep (before play)` section is the DM's plan, never fact.
 _Avoid_: Episode (when you mean the table session)
 
 **Episode**:
@@ -17,12 +17,19 @@ A broadcast or recording unit; raw transcripts live in `Transcripts/` as `Episod
 _Avoid_: Session (when you mean the stream/recording)
 
 **Transcript**:
-Raw episode text (`.txt` or `.srt`) in `Transcripts/`; a campaign knowledge source alongside session notes and outlines.
+Raw episode text (`.txt` or `.srt`) in `Transcripts/`; the only evidence of what happened at the table, together with the DM's answers at the grill. Often looped STT garbage with no speaker names.
 _Avoid_: Session note
 
 **Outline**:
-Pre-session prep document (e.g. `Sessions/This session.md`).
+Pre-session prep document (e.g. `Sessions/This session.md`), including loose prep files (`Session DD-MM-26.md`, `Sesison Prep*`). Never evidence of what happened.
 _Avoid_: Recap, session note
+
+**Grill**:
+The one-question-at-a-time process in which the DM and an agent turn a transcript into a grilled session note, then update the ledger, older sessions' threads and World pages. Steps in [CLAUDE.md](./CLAUDE.md).
+_Avoid_: Polish (the older single-pass write-up)
+
+**Open Threads ledger**:
+`Sessions/Open Threads.md`; cross-session table of unresolved plot threads (Live / Needs checking / Resolved), updated after every grill.
 
 **Actor**:
 Any named character in the campaign — PC, permanent crew, temporary ally, antagonist, or faction officer. Actor pages live under their faction in `World/Factions/`.
@@ -99,14 +106,14 @@ All named characters live under their faction in `World/Factions/`. Current fact
 
 ## Example dialogue
 
-**DM**: For Session 28, check the outline and the Episode 28 transcript — the session note isn't written yet.
+**DM**: What happened in Session 17?
 
-**Assistant**: I'll read `Sessions/This session.md` if it's for the upcoming play, or `Transcripts/Episode 28 …` for what actually happened at the table/recording. I won't assume Session 28 maps to Episode 28 without checking titles.
+**Assistant**: I'll read `Transcripts/2026-01-11/Episode 17 - Agony of Choas.txt` and the grilled note's `## Actual play outcomes`. I won't use `## Prep (before play)` as fact, since the prep described fights that were played differently.
 
 **DM**: Where is Riff Sin's page?
 
-**Assistant**: Riff Sin is under `World/Factions/Decibella Revolutionary/Riff Sin.md` — he's a member of the Decibella Revolutionary faction.
+**Assistant**: Under `World/Factions/Decibella Revolutionary/Riff Sin.md`. I'd search `World/` first, because actors sometimes sit in a different faction folder than expected.
 
 **DM**: What did the Tribune say about G-55?
 
-**Assistant**: I'll read the `type: newspaper` note in `Timeline/` for that date. For what the party did at the table, I'll check `Sessions/` or `Transcripts/` — I won't treat the Herald as session evidence without a link.
+**Assistant**: I'll read the `type: newspaper` note in `Timeline/` for that date. For what the party did, I'll use transcripts and grilled notes. I won't treat the Tribune as session evidence without a link.

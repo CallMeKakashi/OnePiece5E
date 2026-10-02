@@ -24,10 +24,6 @@ Know which context a task is in before touching files — see **Danger zones** b
 
 `f:/Documents/GitHub/blood&brine/`
 
-## Default mode: read-only
-
-Do **not** create, edit, delete, rename, or move any file unless the user explicitly approves that action.
-
 ## Folder tiers (vault)
 
 ### Tier 1 — campaign-primary (search/read by default)
@@ -66,32 +62,17 @@ Do not assume session numbers and episode numbers are 1:1. Match by title and us
 
 ## Knowledge sources for "what happened"
 
-When reconstructing play, consider (in order of curation):
+What happened at the table comes only from these, in this order:
 
-1. Session notes in `Sessions/`
-2. Outlines (e.g. `Sessions/Outlines/`, `Sessions/This session.md`)
-3. Transcripts in `Transcripts/` (large; load only when needed)
+1. **Transcripts** in `Transcripts/` (large; load only when needed), plus the DM's answers at the grill.
+2. **Grilled session notes** (`Sessions/2026/<date>/Session NNN — …md`): `## Actual play outcomes` is the record. `## Prep (before play)` is the DM's plan, never fact.
+3. **Outlines and loose prep files** (`Session DD-MM-26.md`, `Sesison Prep*`, `Sessions/Outlines/`, `Sessions/This session.md`) are pure prep. Link them as "planned", never state them as canon.
 
-For **in-world chronology** (dates, headlines, between-session world reactions), use `Timeline/` — not a substitute for session notes. Newspaper text is in-fiction; cite `Sessions/` or `Transcripts/` for what happened at the table.
-
-Linking and organizing these is in progress — do not reorganize without approval.
+For **in-world chronology** (dates, headlines, between-session world reactions), use `Timeline/`. It is not session evidence, and newspaper text is in-fiction.
 
 ## Actors and factions
 
-All named characters (PCs, crew, NPCs, antagonists) live under their faction in `World/Factions/`. Each faction has a folder containing a faction overview page and individual actor pages.
-
-| Faction | Path | Notes |
-|---------|------|-------|
-| Blackhand | `World/Factions/Blackhand/` | Parent pirate org with sub-units |
-| Lunarfolds | `World/Factions/Blackhand/Lunarfolds/` | Player party crew (Blackhand unit) |
-| Gentle Giant Pirates | `World/Factions/Blackhand/Gentle Giant Pirates/` | Blackhand unit |
-| Sixfold | `World/Factions/Sixfold/` | Mercenary organization |
-| Marines | `World/Factions/Marines/` | Naval military |
-| Motley Crew | `World/Factions/Motley Crew/` | Historical founding crew |
-| Decibella Revolutionary | `World/Factions/Decibella Revolutionary/` | Rebellion group |
-| Spider Nest Pirates | `World/Factions/Spider Nest Pirates/` | Pirate crew |
-| Soundless 5 | `World/Factions/Soundless 5/` | Decibella Kingdom enforcers |
-| Mugen Industries | `World/Factions/Mugen Industries/` | Industrial faction |
+All named characters (PCs, crew, NPCs, antagonists) live under their faction in `World/Factions/`. The faction list and paths are in [CONTEXT.md](./CONTEXT.md#factions) (single source; do not duplicate it here). Actors sometimes sit in a different faction folder than expected (e.g. Fenris under `Blackhand/`, Facade and Malak Samum under `Braveheart Pirates/`), so search `World/` for an existing page before creating one.
 
 Actor pages use the template: Description → Role → Personal Quests → Backstory.
 
@@ -115,15 +96,11 @@ Multi-context — `CONTEXT-MAP.md` at the root points to the vault, op5e and scr
 
 ## Danger zones
 
-Real incidents from prior Codex/Cursor sessions (see [Agent Threads/](./Agent%20Threads/)) — read before working across the vault/op5e/scripts boundary:
+Real incidents from prior Codex/Cursor sessions (see [Agent Threads/](./Agent%20Threads/)). Context-specific ones live next to the code: [op5e/CLAUDE.md](./op5e/CLAUDE.md) and [scripts/CLAUDE.md](./scripts/CLAUDE.md). Read them before working across the vault/op5e/scripts boundary. Cross-cutting ones:
 
-- **Foundry workshop vs. live are two different actor stores.** `Foundry/actors-json` (junction → workshop `foundry-json`, build/import templates, **not** current) vs. `Foundry/world-actors` (junction → the live Foundry LevelDB world, **is** current at the table). See [Foundry/_index.md](./Foundry/_index.md). Never treat workshop JSON as reflecting current PC/NPC state.
-- **Vault sync scripts can drop or corrupt existing note content.** `scripts/discord_vault_sync_full.py` has previously dropped portraits and corrupted a note mid-run. After running any `scripts/sync_*.py`, diff the affected notes before trusting the result.
-- **Broad pattern edits in `op5e/` can silently touch unrelated entries.** A content-based regex patch aimed at 3 named tricks also blanked unrelated compendium entries. Patch by exact name/context, never by broad pattern, and run `npm test` in `op5e/` after.
-- **The `&` in this repo's path (`blood&brine`) breaks shell invocations on Windows** when a script runs with `shell: true` and a non-absolute interpreter path — cmd.exe treats `&` as a command separator and silently truncates the path. Prefer `shell: false` / absolute paths in any new script or plugin invocation.
-- **`planning` and `v4` are unrelated git histories.** `v4` is the Quartz/GitHub Pages branch, kept in sync by content-copy (`scripts/sync_quartz_content.py`), not merge. Never `git merge`, fast-forward, or reset between them — it would destroy one side's history. A separate `v4` worktree may exist elsewhere on disk; don't assume the current checkout is the only one.
-- **Stale duplicate folders can look live.** A `DND/` folder (713 files, a full stale vault duplicate) sat in the repo since the initial commit, wasn't hidden by explorer CSS, and was mistaken for reintroduced content. If a folder's purpose is unclear, check `git log --follow` and ask before assuming it's authoritative.
-- **op5e's test suite has a hidden dependency on the vault.** Its actor-export fixtures write into the vault's `Foundry/actors-json/`; tests fail if that folder/junction doesn't exist in the current checkout. Don't assume `op5e/` is fully self-contained.
+- **Foundry workshop vs. live are two different actor stores.** `Foundry/actors-json` (junction to workshop `foundry-json`, build/import templates, **not** current) vs. `Foundry/world-actors` (junction to the live Foundry LevelDB world, **is** current at the table). See [Foundry/_index.md](./Foundry/_index.md). Never treat workshop JSON as current PC/NPC state.
+- **Stale duplicate folders can look live.** A `DND/` folder (a full stale vault duplicate) once sat in the repo and was mistaken for reintroduced content. If a folder's purpose is unclear, check `git log --follow` and ask before assuming it's authoritative.
+- **Do not merge `planning` and `v4`** (unrelated histories); details in [scripts/CLAUDE.md](./scripts/CLAUDE.md).
 
 ## Graphify knowledge graphs
 
@@ -138,7 +115,7 @@ Query either with `graphify query "<question>"` / `graphify explain "<node>"` / 
 
 ## Deferred work (do not start without approval)
 
-- Linking Sessions ↔ Transcripts ↔ Outlines
+- Linking loose prep files/outlines to their session notes (grilled notes already link their transcripts)
 - Homebrew glossary terms in `CONTEXT.md`
 - Changing `Home.md` beyond approved maintenance links, or Obsidian config not documented in [obsidian-setup](./docs/obsidian-setup.md)
 
@@ -154,13 +131,18 @@ Read relevant threads when the user asks about prior work or continuation of a t
 
 ## Skills
 
-### polish-session-note
+### Grill workflow
 
-Trigger: user says `/polish-session-note`, "polish session", "complete session notes", or names a specific session to write up. One session per invocation only.
+Trigger: user says "grill", "next session grilling", or names a session to write up. One session per grill.
 
-Full instructions: [`.claude/agents/polish-session-note.md`](./.claude/agents/polish-session-note.md)
+1. Read the full transcript in `Transcripts/<date>/` (often looped STT garbage; read in chunks). Never use the session note's prep as evidence.
+2. Grill the DM one question at a time, each with a recommended answer. Do not write until the DM says go.
+3. Fill the session note: TL;DR, Cast, Where/When, Actual play outcomes, Open threads, Loot & changes. Keep `## Prep (before play)`.
+4. Update `Sessions/Open Threads.md` (rows plus the "Last updated" line) and back-update older sessions' `## Open threads` lines that this session settles or changes.
+5. Search `World/` for an existing page before creating one (actors can sit under a different faction folder than expected). Add an `## Episode N` section to every actor or location that acted, and create pages for new NPCs and places.
+6. Save any handoff in `Agent Threads/` as `claude-<date>-grill-session-NN-handoff.md`, not the OS temp folder.
 
-Incomplete sessions (as of 2026-08-18): Sessions 16–25 plus 24.5. Sessions 2–15 were completed in a prior Cursor run.
+Older tool: `/polish-session-note` ([`.claude/agents/polish-session-note.md`](./.claude/agents/polish-session-note.md)) remains available for one-off write-ups.
 
 ### generate-foundry-actor
 
