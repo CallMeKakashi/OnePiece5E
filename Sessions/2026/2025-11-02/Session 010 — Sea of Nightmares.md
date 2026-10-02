@@ -98,7 +98,7 @@ aliases:
 Cross-session ledger: [[Open Threads]].
 
 - ~~**Spider's Nest still trapped** in their own shared nightmare.~~ Resolved in [[Session 011 — Welcome to the Jungle|Session 11]] (the crew won the nightmare).
-- **The patron**: wants its vessel found and itself revived; "find the rest" of the five rings.
+- **The patron**: wants its vessel found and itself revived; "find the rest" of the five rings. Update ([[Session 017 — Agony of Choas|S17]]): Aegir took Baptiste's body and lost to him in an inner dominion; contained in the rings for now.
 - **Baptiste's nightly saves**: DC 13 Wisdom each long rest; three failures in a row shift him to evil.
 - **Bob's real name and identity**, and his mother's "Basilisk".
 - **Vireth "killed"** in the throne-room memory: resolved (DM, 2026-10-02). It was a shared nightmare of Veyl and Serica's, which the crew entered to rescue them; Vireth was never killed there.

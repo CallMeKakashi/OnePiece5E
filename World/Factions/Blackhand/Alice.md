@@ -31,6 +31,10 @@ foundry_live_slug: "alice"
 
 - **White-haired, red-eyed flyer** ([[Session 009 — The Lunarfold Tournament Part 2|Episode 9]]): [[Zim]] reports that when [[Droven Calligos]] attacked a North Blue Marine post, someone saw another flying devil fruit user with white hair and red eyes. [[Malphas]] believes it was Alice (a lead, not confirmed).
 
+## Episode 17
+
+- Malphas's sister is expected near the North Blue convergence: sightings point there along with Zim and Droven. Malphas recognises a name on a message piece Riff hands him ([[Session 017 — Agony of Choas|Episode 17]]).
+
 ## Related
 
 - [[Malphas]]

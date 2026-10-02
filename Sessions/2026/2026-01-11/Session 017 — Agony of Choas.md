@@ -18,15 +18,37 @@ aliases:
 
 ## TL;DR
 
+- Baptiste's burst of power in the Decibella tower let [[Aegir]] take his body while he fought the entity in an inner dominion. [[Roma]] goes down to a void blast, [[Dravos]] walls the possessed body in with PVC pipes, and [[Malphas]], [[Cade Tigor Cooper|Tigor]] and [[Riff Sin]] fight it until Malphas's electric punches end it. Aegir is contained "for now".
+- The tower collapses, and Tigor carries the unconscious crew to the shore, where the [[Gentle Giant Pirates]] ([[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”|Fenris]]'s unit) patch everyone up.
+- Over the next days: Bob is rebuilt, Baptiste is bedridden and cannot walk, Riff and [[Cadence]] visit with gifts, and the crew learns of Zim's capture at G-45. Mira speaks to Baptiste only by den den mushi. The crew heads for the North Blue while Fenris keeps hunting Cline D. Davis.
+
 ## Cast
+
+- PCs: [[Baptiste]], [[Malphas]], [[Roma]], [[B.O.B]], [[Cade Tigor Cooper|Tigor]]
+- Gentle Giant Pirates: [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”|Fenris]] (captain), [[Shako]] (first mate), [[Kalla of Shandia|Kalla]] (scholar), [[Facade]] (new member), [[Malak Samum]] (loaned from [[Mira the Unbreakable|Mira]]'s crew), [[Dravos]] (hired, counted as crew), Vex (Fenris's monkey)
+- Decibella: [[Riff Sin]], [[Cadence]], [[Sloan]] (offscreen)
+- Offscreen/voices: [[Aegir]], [[Mira the Unbreakable|Mira]] (den den mushi), [[Calder Voss]] (radio)
 
 ## Where/When
 
+[[Decibella Kingdom]]: the Broadcast Tower and the Noble District, then the shore and the village where the crew's ship is beached and the Gentle Giants' fishing boat is moored. Directly after [[Session 016 — Broken Promises|S16]]. Roughly a week of bed rest and recovery, then a banquet planned and a further week of downtime for training.
+
 ## Actual play outcomes
 
-> Index only — curated recap not written yet.
+> What happened comes from the transcript ([[Episode 17 - Agony of Choas]]), grilled with the DM on 2026-10-02. The recording is partly looped; the prep below is not canon. [[2026-05-24 — Howling Thunder (DM prep)]] is DM prep for the tower fights, not this recording.
 
-> **Note:** [[2026-05-24 — Howling Thunder (DM prep)]] is DM prep for tower fights (Ep 15–16 territory), not this recording.
+1. **Baptiste vs Aegir (the inner dominion).** When a burst of power surged through Baptiste, [[Aegir]] took over his physical body while Baptiste fought him inside a domain Aegir holds: a void-bodied foe who reconstructs, wields a shadow blade, casts Fireball (a purple and green copy of Baptiste's flames) and says "you've given me the gift of freedom". Baptiste, wingless, trades blows (Haste, element/domain form, flurries) and finally tears him apart. Aegir fades promising to return: "You think you have control? We'll see for how long."
+2. **The fight outside.** With Aegir in Baptiste's body, Roma is hit by a black-void blast, dropped to 0 and out of hybrid form. [[Dravos]] seals the thing in a 100 ft PVC pipe wall, then runs to fetch reinforcements. [[Cade Tigor Cooper|Tigor]] and [[Riff Sin]] stabilise Roma (medkit) and fly or climb to the top; Malphas flies up to about 110 ft; the body grapples him and punches with astral fists, and Malphas shoves it off the wall to the ground. Roma rages back in, Riff gives combat inspiration, and the group floors the body. Then Aegir uses Earthquake and Heat Metal on Roma's skillet. Malphas's electric flurry (Thunderbird form) lands three punches; the body shocks, collapses and Baptiste is back. Crystals form, the black spreads across his face and returns into the rings.
+3. **Collapse.** The tower begins to fall. Riff, Tigor and Roma take the stairs (Roma rolls down them with the others balancing on him); Malphas flies Baptiste up and out, then falls onto a rooftop exhausted. The building collapses onto the Opera House. Riff returns to his people and says he will meet the crew at the ship; the jaw locks should now be off.
+4. **Tigor carries the crew.** Exhausted, with bleeding feet and cracked ribs, Tigor ties the unconscious Roma onto a horse (Roma's whistle brings back the two horses from the gate), finds Malphas where he fell, and carries the crew to the ship. The wrecked noble district beyond the tower shows claw marks and toppled buildings, which is Roma's rampage in S16.
+5. **The Gentle Giants arrive.** The crew wakes bandaged on its beached ship (the sea drifted it onto the sand; [[Shako]] says it floated away whenever they removed the mast). Shako carried or helped, and [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”|Fenris]] tends Baptiste and Tigor. Baptiste is paralysed from the waist down and hemorrhaging; Fenris says the wings cannot be recovered. Malphas meets the whole crew over a shared meal: [[Roma]] cooks (badly, then well), Fenris and Roma cook together, Vex the monkey steals Roma's hat, Dravos bangs barrels, and Shako spars Malphas through the night.
+6. **Bob's return.** Bob spends three days in a blood cocoon, rebuilt into a mostly human body with the core fused into his chest and not removable. [[Malak Samum]] (called Malik) examines him: no heartbeat, the core keeps him alive. Class and alignment change: Necrotic Savant, chaotic neutral. His memory fragments: a mechanical spider at his core, an ash cloud, a huge hand removing an arm and a leg, a red cocoon. His mother's "Basilisk" is not mentioned.
+7. **Briefing from Fenris.** Mira sent the Gentle Giants as backup after the Rias bounty news. Fenris wants (a) [[Droven Calligos|Droven]] back, Goro's right hand, captured by the Marines (Mira told him), as the only clue to Goro's missing Second Fleet; and (b) Cline D. Davis, whom Linus's payment named. The decision is left to Baptiste.
+8. **Riff and Cadence.** Riff, now dressed as an aristocrat, tells Malphas that the rebels pushed the guards back and the jaw locks went off with the tower. [[Sloan]] is busy. Unnatural damage in the noble district is unexplained to him. Riff hands Malphas a torn message piece (a name Malphas recognises and says nothing about) and opens the armory. [[Cadence]] speaks aloud for the first time ("thank you") and writes that Baptiste has not stopped smiling since the crew arrived.
+9. **Armory and gifts.** See Loot below. Items are rolled on a d20 and a d9 against a table; Baptiste's Talisman of the Sphere is rejected and rerolled.
+10. **Calls.** Baptiste calls Mira on the den den mushi; she says the old man's disappearance has left Blackhand-flag islands stranded and the unit cannot unify now, tells Baptiste to form his own crew, and says Rias was a personal grudge. Baptiste asks for permission to form a fleet; she says fleets mean nothing. Later at night a radio call comes from [[Calder Voss]]: Zim was caught infiltrating G-45 at Spirit Cliff while hunting the device that disables all devil fruit in its vicinity; she faces a hearing in the North Blue and then execution; he wants Baptiste to watch and says he will be waiting.
+11. **Decision.** The crew heads for the North Blue, where Zim, Droven and (by sighting) Alice are all expected to be. Fenris's Gentle Giants keep hunting Cline D. Davis; this is where the two units split. Mira has never appeared in person.
+12. **Downtime.** A banquet, then a week of training or proficiency work. Bob's puzzle box check makes it more likely to be solved but does not solve it. Roma is training with a skillet attunement under Kalla.
 
 ## Links
 
@@ -39,7 +61,30 @@ aliases:
 
 ## Open threads
 
+Cross-session ledger: [[Open Threads]].
+
+- **Aegir contained**: he took Baptiste's body after a burst of power, was beaten in the inner dominion, and vowed to return; he is only pushed back into the three rings. Baptiste cannot walk and has no wings. See [[Aegir]].
+- **Zim at G-45**: Zim split from the party to find the device that disables all devil fruit nearby, infiltrated G-45 at Spirit Cliff and was caught; [[Calder Voss]] says a North Blue hearing then execution, and wants Baptiste to watch.
+- **Droven**: captured by the Marines while rescuing [[Alice]]; Fenris wants him back (Mira told him). See [[Droven Calligos]].
+- **North Blue convergence**: Zim, Droven and an Alice sighting all point north; the Lunarfolds go there.
+- **Cline D. Davis**: Fenris's Gentle Giants keep hunting him; this is where the two units split. Mira has only ever been a den den mushi voice.
+- **Bob's memory fragments**: a mechanical spider at his core, an ash cloud, a huge hand removing his arm and leg. Unexplained.
+- **Puzzle box**: Bob's Int checks raised the chance of solving it; it is not solved.
+- **Roma's Sulong**: still uncontrolled, full-moon only (wisdom save).
+- **A "sister" escaped** (audio unclear): in Baptiste's room Riff reports news about someone's sister escaping; this is likely [[Vera]], but not confirmed.
+- **Riff's Decibella**: rebuilding; jaw locks off; Sloan and the council busy; Riff promises the kingdom's help.
+- **Baptiste's mermaid dream** ("a happy memory"): the Babylon thread, still secret from the party.
+- **Gentle Giant Pirates / Mira's fleet**: Mira refuses to unify the units for now; Baptiste asked for permission to form a fleet and was told fleets mean nothing, to just form his own crew.
+
 ## Loot & changes
+
+- **Roma**: javelins and hook-gauntlets from the armory; a seasoning jar from Riff (reflavored incense item); a rare item rolled at the armory (a conjure-elemental item, flavored to work only on what he cooks); his cast iron skillet is being attuned by Kalla.
+- **Malphas**: armor and a halberd from the armory; a rare item rolled at the armory. A bracelet from Riff with a red-and-blue gem: lightning and thunder resistance and a thunderwave bolt.
+- **Bob**: a luck stone ("bong") from Riff (advantage on one ability check once); machine parts (for Find Familiar); a rare item roll.
+- **Baptiste**: a blue gem from a mermaid grove, a gift from Riff; a Talisman of the Sphere was rolled and rejected, then rerolled; a wheelchair.
+- **Tigor**: a gift of animals from Riff, arriving after the training week; his brother's reserve animals.
+- **Level-ups** and training proficiencies are tied to the next sessions' downtime.
+- **Class**: Bob now Necrotic Savant, chaotic neutral.
 
 ## Prep (before play)
 

@@ -83,6 +83,10 @@ foundry_live_slug: "b-o-b-old"
 - Rhythm injects a 6/6 serum and becomes a beast; Bob fails three death saves. [[Facade]] stabilises his core with a spider homunculus and kills Rhythm, then carries him to the ship (repair takes 8 to 10 hours).
 - Returns as a Necrotic Savant ([[Sourcebook/Chapter 2 Classes/Ardent Soul/Ardent Soul|Ardent Soul]] with the [[Sourcebook/Chapter 2 Classes/Ardent Soul/Necrotic Mania|Necrotic Mania]] subclass), treated as a resurrection ([[Session 016 — Broken Promises|Episode 16]]).
 
+## Episode 17
+
+- Rebuilt in a blood cocoon over three days into a mostly human body with the core fused into his chest. [[Malak Samum]] says he has no heartbeat. Necrotic Savant, chaotic neutral. Memory fragments: a mechanical spider at the core, an ash cloud, a huge hand taking an arm and leg. Receives a luck stone from Riff and machine parts; the puzzle box is closer to solved ([[Session 017 — Agony of Choas|Episode 17]]).
+
 ## Related
 
 - [[Lunarfolds]]

@@ -201,6 +201,10 @@ Under [[Blackhand Cane]], Baptiste goes undercover for four years as **Haruki**,
 - Stabbed through the chest by [[Coda]], he hears [[Aegir]] offer help for a ride to his vessel and refuses. His flames fuse into his void arms on their own; he levels to 5 (Mote of Hell replaces Fireball) and kills Coda after a serum transformation.
 - Knocks out the berserk [[Roma]] in two rounds and carries him up. In the control room he resists, then walks toward the Emperor; a third ring of Aegir fuses onto his hand ([[Session 016 — Broken Promises|Episode 16]]). His wings have been gone since W.G.A.R.
 
+## Episode 17
+
+- A burst of power lets [[Aegir]] take his body; he fights Aegir in an inner dominion and wins, as Malphas's punches stop the body outside. Collapses; wings gone, crystals and black spread back into the rings. Fenris treats him: paralysed from the waist down, hemorrhaging, wings unrecoverable. Dreams of the mermaid ([[Timeline/Undated/[Event] Babylon]]). Calls Mira and gets Voss over the radio about Zim ([[Session 017 — Agony of Choas|Episode 17]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

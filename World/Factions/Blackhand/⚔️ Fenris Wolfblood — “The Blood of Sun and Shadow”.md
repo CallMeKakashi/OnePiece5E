@@ -326,3 +326,7 @@ traits:
 ## Episode 16
 
 - [[Dravos]] works with Fenris, another captain in Blackhand's fleet who leads his own unit. Fenris is probably "the captain" in [[Session 015 — Animal Within|Episode 15]] ([[Session 016 — Broken Promises|Episode 16]]).
+
+## Episode 17
+
+- Captain of the [[Gentle Giant Pirates]]. Treats Baptiste and Tigor on the beached ship, takes Mira's side (she sent him as backup), and briefs Baptiste: he wants [[Droven Calligos|Droven]] back (Mira told him he was captured) and keeps searching for Cline D. Davis, Linus's other payment. Cooks with Roma; tells Baptiste to go easy on Tigor ([[Session 017 — Agony of Choas|Episode 17]]).

@@ -48,6 +48,10 @@ Helmsman of the [[Lunarfolds]], sailing under the [[Blackhand]] banner.
 
 - Stays on floor 1 to help [[Riff Sin]]. Fails to grapple one of the Anthem twins as they flee ([[Session 016 — Broken Promises|Episode 16]]).
 
+## Episode 17
+
+- Fights Aegir's possessed body with Riff and Malphas, stabilises Roma, and carries the unconscious crew to the shore on his own, bleeding and with cracked ribs. Fenris tells Baptiste to ease up on him; Baptiste thanks him ([[Session 017 — Agony of Choas|Episode 17]]).
+
 ## Backstory
 
 *(Details TBD)*

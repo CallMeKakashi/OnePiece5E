@@ -70,7 +70,7 @@ sources: [
 
 - **World Government Bank chest heist**: **Resolved (later)** — the crew executes the bank job in following episodes; see [[Timeline/Undated/[Event] Shackles Broken]] and `[[1478-03moon [Newspaper] Blackhand and Sixfold — Spirit Cliff]]` for fallout.
 - **What’s in Bramble’s chest**: **Ongoing** — the chest is the job’s true objective; contents were not revealed in this session. **Update**: Bramble’s chest contained the **deed for his shop in Spirit Cliff**; he wanted it gone, and [[Delroth Halward|Halward]] later **increases the interest** pressure tied to it.
-- **Rings of Aegir (black ring)**: **Ongoing** — [[Linus Marrow]] is actively researching; Saplea has an open invitation to the [[Armada|Armada]] for details.
+- **Rings of Aegir (black ring)**: **Ongoing** — [[Linus Marrow]] is actively researching; Saplea has an open invitation to the [[Armada|Armada]] for details. Update ([[Session 017 — Agony of Choas|S17]]): Aegir took Baptiste's body via the rings, was beaten and is contained for now; the other two rings are still unaccounted for.
 - **Sixfold relationship**: **Ongoing** — the crew is on **good terms** with [[Veyl Corven]] and [[Serica Corven]]. **Ring familiarity** traces back to the **[[Virellis Kingdom|Virellis kingdom]] (New World)** thread.
 
 ## Loot & changes

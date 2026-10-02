@@ -25,6 +25,10 @@ Doctor. Devil Fruit: [[Hai Hai no Mi]]. Status: headed to South Blue (Discord ch
 - Called "Malik" in play. Sent by [[Mira the Unbreakable|Mira]] to warn the crew about Rias, a pirate the Brave Hearts hunted and thought dead, now ruler of Decibella. Gives Baptiste a transponder and offers to send [[Facade]] if needed.
 - Says three Brave Hearts came inside; the rest guard the crew's ship on the shore ([[Session 016 — Broken Promises|Episode 16]]).
 
+## Episode 17
+
+- A member of Mira's crew on loan to the Gentle Giant Pirates. Examines Bob in the blood cocoon and tells him he has no heartbeat and the core keeps him alive ([[Session 017 — Agony of Choas|Episode 17]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

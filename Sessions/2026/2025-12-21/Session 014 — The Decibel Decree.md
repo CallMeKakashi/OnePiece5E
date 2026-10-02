@@ -71,7 +71,7 @@ The Emperor holds the **Voice Voice Fruit** (Special Paramecia), taken by killin
 - **[[Mira the Unbreakable|Mira]]**: Baptiste learns to control his Conqueror's Haki by training with her (later session); closes when that session is grilled.
 - **Soundless Five keycards**: five figures, one card each; only Coda named. The rest are filled in at the tower sessions. Update ([[Session 015 — Animal Within|S15]]): Synth, Bass (House Tremor) and Coda fight; Synth is dead. Update ([[Session 016 — Broken Promises|S16]]): Rhythm, Treble, Bass and Coda are dead or beaten, so all five are resolved.
 - **Override Disc**: held by [[Riff Sin]].
-- **The mermaid / Babylon**: Baptiste-only secret; later mermaid mentions (S17, S19, S24.5) unconfirmed until those are grilled.
+- **The mermaid / Babylon**: Baptiste-only secret; later mermaid mentions (S17, S19, S24.5) unconfirmed until those are grilled. Update ([[Session 017 — Agony of Choas|S17]]): Baptiste dreams of the mermaid as a happy memory; the party still doesn't know.
 - **Emperor stirring**: if he wakes fully, the crew "bows." Voice Voice Fruit. Update ([[Session 016 — Broken Promises|S16]]): he wakes when Riff pulls a cable and says "Hold"; the crew freezes.
 - **Sloan's council** vs Riff: the commoners distrust the crew and House Sin.
 

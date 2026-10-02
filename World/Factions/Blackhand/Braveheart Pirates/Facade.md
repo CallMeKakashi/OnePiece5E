@@ -31,6 +31,10 @@ Crew member (**[[Malak Samum]]** secured the unit as "Operation: Facade"). Statu
 - Rescued by [[Malak Samum]] from bandits; [[Baptiste]] does not know him.
 - Kills [[Rhythm Echo]] on floor 2 and keeps [[B.O.B]] alive with his spider homunculus. Carries Bob to the crew's ship for 8 to 10 hours of repairs ([[Session 016 — Broken Promises|Episode 16]]).
 
+## Episode 17
+
+- Now a new member of the Gentle Giant Pirates with Malak. Keeps watch on the crew's ship, takes Bob's notebook to Fenris to work on his core ([[Session 017 — Agony of Choas|Episode 17]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

@@ -102,9 +102,9 @@ Completes the ranking tournament from [[Session 008 — The Lunarfold Tournament
 
 Cross-session ledger: [[Open Threads]].
 
-- **The device**: a Marine-held device that permanently removes a devil fruit's power; Zim is asking her Loguetown contact where it is.
+- **The device**: a Marine-held device that permanently removes a devil fruit's power; Zim is asking her Loguetown contact where it is. Update ([[Session 017 — Agony of Choas|S17]]): Zim infiltrated G-45 (Spirit Cliff) for it and was caught; Voss plans a hearing then execution.
 - **Vireth heading south**, probably after Cline.
-- **Alice lead**: the white-haired, red-eyed flyer seen at the North Blue Marine post Droven attacked.
+- **Alice lead**: the white-haired, red-eyed flyer seen at the North Blue Marine post Droven attacked. Update ([[Session 017 — Agony of Choas|S17]]): Droven was captured while rescuing Alice; sightings point to the North Blue.
 - **Serica vs Zim**: what is Serica accusing her of?
 - **Daniel's favour**: Baptiste owes him a job (not against the Sixfold or Blackhand).
 - **Veyl–Baptiste rift** over how Zim was treated: partly healed by S13. They are on good terms, but Veyl still thinks Baptiste is unnecessarily cruel (DM, 2026-10-02).

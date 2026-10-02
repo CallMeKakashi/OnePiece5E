@@ -472,6 +472,10 @@ And fate shifted.
 - Beats [[Bass Tremor]] on floor 4 after Bass takes a 6/6 serum and becomes a rhino hybrid. Levels to Brawler 5 and unlocks his second Thunderbird form (feathers, wings, lightning calling). Collapses from exhaustion.
 - Follows [[Dravos]]'s PVC pipes with [[Malak Samum]] and sees [[Facade]] working on [[B.O.B]]. Arrives later to find [[Baptiste]] carrying Roma ([[Session 016 — Broken Promises|Episode 16]]).
 
+## Episode 17
+
+- Fights Aegir in Baptiste's body above the tower; his electric flurry stops it. Carries Baptiste out before the collapse, falls exhausted onto a roof. Spars Shako through the night; asks Riff for a sketch-based flag and speaks to Mira about Alice ([[Session 017 — Agony of Choas|Episode 17]]).
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.
