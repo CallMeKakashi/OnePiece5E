@@ -47,3 +47,8 @@ All animals in this world speak a uniform language. By tapping into the primal v
 _Prerequisite: Mink Race_
 
 Minks can use their natural static as an attack. If you chose a mink race you may learn the cantrip Shocking Grasp.
+
+## Episode 22
+
+- Linus says Pasha, a former Sixfold friend now at Zou, is looking after Saplea ([[Session 022 — The Missing Piece|Episode 22]]).
+

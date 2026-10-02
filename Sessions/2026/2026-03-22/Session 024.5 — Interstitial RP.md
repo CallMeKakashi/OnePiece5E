@@ -17,9 +17,15 @@ aliases:
 
 ## TL;DR
 
+- Canon interstitial scenes after [[Session 024 — The Friendly Baron|Session 24]], played outside the recorded episode (DM, 2026-10-02): Ace (a woman) briefs Jack and tells him to ally with the Lunarfolds, Thompson calls Baptiste for help, and Linus announces he and Dravos will leave at the next island.
+
 ## Cast
 
+- [[Matthew -The Jack- Burgess|Jack]], [[The Ace]], [[Thompson Caneheart]], [[Mira the Unbreakable|Mira]] (heard), [[Linus Marrow]], [[Dravos]], [[Roma]], [[Zim]], [[B.O.B]], [[Cade Tigor Cooper|Tigor]], [[🗡️ Goru Yamashita (formerly Goru Valencruz)|Goru]], [[Cassian Valehart]]
+
 ## Where/When
+
+Aboard the crew's ship and the Valehart mansion, straight after [[Session 024 — The Friendly Baron|Session 24]].
 
 ## Actual play outcomes
 

@@ -114,7 +114,7 @@ Foundry caused many token and music problems, and the DM ran the fights in separ
 - **The Emperor is awake**: Rias woke when Riff pulled a cable, and the broadcast never ran. Unresolved cliffhanger. See [[Rias Decibel]], [[Voice Voice Fruit]].
 - **Rings of Aegir**: a third ring is on Baptiste. Where are the other two? Update ([[Session 017 — Agony of Choas|S17]]): a burst of power lets Aegir take Baptiste's body; Baptiste beats him in an inner dominion and Aegir is contained in the rings for now.
 - **Baptiste's den den mushi call**: content unrevealed. Update ([[Session 017 — Agony of Choas|S17]]): still not revealed in play; S17 adds calls from Mira and Voss.
-- **Anthem twins**: alive and loose with the guards (the S14 note said they died; corrected).
+- **Anthem twins**: alive and loose with the guards.
 - **Brave Heart contact**: Malak's transponder and Mira's warning about Rias. Update ([[Session 017 — Agony of Choas|S17]]): Malak turns out to be on loan from Mira's crew to the Gentle Giant Pirates, whom Mira sent as backup.
 - **Roma's Sulong**: triggered by Treble's serum and uncontrolled. Update ([[Session 017 — Agony of Choas|S17]]): still uncontrolled and full-moon only.
 - **Mugen Industries**: the Soundless Five's 6/6 serum links them to Mugen, which owned Callisto.

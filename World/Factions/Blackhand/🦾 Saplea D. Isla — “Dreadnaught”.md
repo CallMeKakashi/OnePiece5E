@@ -157,10 +157,6 @@ publish: true
 
 ## 📔 Campaign Notes
 
-### Episode 5
-
-- Gets into the [[World Government Bank]] at [[Spirit Cliff]] with [[🎶 Red — “The Songbird of the Black Comet”|Red]] using Halward's stolen keys ([[Session 005 — Midnight Chainbreak|Episode 5]]).
-
 ### After Spirit Cliff
 
 - **Interlude** ([[Timeline/Undated/[Event] Interlude — Red Departs and Reverse Mountain]]): her condition is stabilizing at the Armada, though she is still frail. "Linn" ([[Linus Marrow]]) reveals he once knew her father and has the contacts to take her back to her home island for answers.
@@ -210,7 +206,15 @@ publish: true
 
 - Runs comms/tech support for the casino heist; the crew de-tracks the captured Den Den Mushi and radios ([[Session 004 — Masquerade of the Stolen Keys|Episode 4]]).
 
+## Episode 5
+
+- Gets into the [[World Government Bank]] at [[Spirit Cliff]] with [[🎶 Red — “The Songbird of the Black Comet”|Red]] using Halward's stolen keys ([[Session 005 — Midnight Chainbreak|Episode 5]]).
+
 ---
+
+## Episode 22
+
+- Linus says Saplea was one of Nikolai Tesla's subjects; he found a way to prolong her life, and Pasha is looking after her at Zou ([[Session 022 — The Missing Piece|Episode 22]]).
 
 ## 🧠 Meta Notes (Game Mechanics)
 

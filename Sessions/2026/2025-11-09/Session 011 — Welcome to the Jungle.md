@@ -89,7 +89,7 @@ aliases:
 Cross-session ledger: [[Open Threads]].
 
 - ~~**Clown captain**~~ — resolved in [[Session 012 — Clown Tricks|Session 12]]: Giggles D. Cloud was brought back, questioned and killed by the crew; the other clowns died in combat. A slave-trade contact on the den den mushi remains.
-- **W.G.A.R. and the "Lord"**: the island's cult-like staff and their "Lord inside us" are unexplained.
+- ~~**W.G.A.R. and the "Lord"**~~ — resolved in [[Session 013 — The Reaper|Session 13]]: there is no Lord; the staff were playing up their characters for visitors.
 - **Roma and Pasha**: the nightmare Pasha reminds Roma of someone from his backstory he doesn't remember. Unrevealed.
 - **Roma's Sulong form**: uncontrolled, full-moon only. Update ([[Session 017 — Agony of Choas|S17]]): still uncontrolled.
 - **Liz and Elise**: fused with Vireth's power; Liz keeps only the barrier fruit. Veyl's lead to undo it is to find Vireth.

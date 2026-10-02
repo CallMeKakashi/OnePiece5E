@@ -36,8 +36,8 @@ aliases:
 
 > What happened comes from the transcript ([[Episode 19 - The Walking Dead]]), grilled with the DM on 2026-10-02. The prep below is not canon.
 
-1. **The Davy Back Fight finishes (crew 3-0).** All four contests below were part of it; no devil fruit powers.
-   - **Bob vs Shako.** Bob uses Shield repeatedly, Divine Smite, and the Cursed Bloodstone (a bong, for advantage on initiative). He vomits toxic blood in Shako's face. Shako goes down and Bob wins, then passes out.
+1. **The Davy Back Fight finishes (crew 3-0 in a best of five; Game 1, Bob over Facade, was in [[Session 018 — Gentle Giant Pirates|S18]]).** The bouts below finish it; no devil fruit powers.
+   - **Bob vs Shako.** Bob uses Shield repeatedly, Divine Smite, and the Cursed Bloodstone (the luck stone "bong" Riff gave him in S17; advantage on initiative). He vomits toxic blood in Shako's face. Shako goes down and Bob wins, then passes out.
    - **Roma vs Malak Samum** (called Malik). Roma rolls a natural 20 on initiative and rages. Malak heals 40 but Roma wins.
    - **Battle of Beasts.** The crew's animal wins the race; Fenris's monkey passes out. Roma accuses the other side of cheating with a banana.
    - **Baptiste vs Fenris.** Baptiste uses Haste, a clone, his astral arm, Stunning Strike and his elemental domain. The first punch that lands knocks Fenris out in round 1.
@@ -66,7 +66,7 @@ aliases:
 Cross-session ledger: [[Open Threads]].
 
 - **Dravos**: works with the crew for now, to reach Droven in the North Blue.
-- **Droven**: held by the Marines; his execution is in two weeks.
+- **Droven**: held by the Marines; his execution is in two weeks. In [[Session 021 — House of Justice|S21]] the Marines are building his gallows on Noosehold and Voss says it is next week.
 - **Sephra**: escaped; the trail ended at sea, so she is still loose.
 - **Riff**: stays on Decibella; Roma's attempt to take him is closed unless the twin is found.
 - **Facade's creator**: Facade cannot recall the name of whoever mended him after the blowup.

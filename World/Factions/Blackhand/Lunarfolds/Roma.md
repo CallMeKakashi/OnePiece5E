@@ -431,6 +431,10 @@ About a year before the present, travelling alone through Wano, Roma meets the L
 
 - Summons an air elemental in the kitchen, and its whirlwind flings Marines off the warship's bow. Pulls the drowning Baptiste and Bob out of the sea. Cooks the dead horses, then drinks the white serum (033) and becomes fully human, losing his Yeti form. Ties a sheet to Voss and the door handle as a prank. Mimes taking the green serum ([[Session 023 — Choice for life|Episode 23]]).
 
+## Episode 24
+
+- Waits on the crew's ship with Bob (pizza ready) while Baptiste and Malphas board the noble ship, and treats the dog Mikey's snarl with food. Goes into Noosehold alone, kills two robbers and two Marines (taking a 33-damage neck shot) and frames the scene. Pays 200,000 Beli for the courtesan Angelica at the Lunes brothel, goes Sulong under the full moon despite the white serum, and kills 10 to 20 Marines and an unknown number of civilians. Chases Malphas to the beach, jumps into the sea, drops the form and nearly drowns before Malphas and Bob pull him out ([[Session 024 — The Friendly Baron|Episode 24]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

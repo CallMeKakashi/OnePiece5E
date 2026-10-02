@@ -140,7 +140,8 @@ Trigger: user says "grill", "next session grilling", or names a session to write
 3. Fill the session note: TL;DR, Cast, Where/When, Actual play outcomes, Open threads, Loot & changes. Keep `## Prep (before play)`.
 4. Update `Sessions/Open Threads.md` (rows plus the "Last updated" line) and back-update older sessions' `## Open threads` lines that this session settles or changes.
 5. Search `World/` for an existing page before creating one (actors can sit under a different faction folder than expected). Add an `## Episode N` section to every actor or location that acted, and create pages for new NPCs and places.
-6. Save any handoff in `Agent Threads/` as `claude-<date>-grill-session-NN-handoff.md`, not the OS temp folder.
+6. Update `Sessions/Kill Count.md` (per-PC kill totals, a row per kill, and the "Needs DM confirmation" list). Ask which PC killed whom when the transcript does not say; knock-outs and nightmare-only deaths do not count.
+7. Save any handoff in `Agent Threads/` as `claude-<date>-grill-session-NN-handoff.md`, not the OS temp folder.
 
 Older tool: `/polish-session-note` ([`.claude/agents/polish-session-note.md`](./.claude/agents/polish-session-note.md)) remains available for one-off write-ups.
 

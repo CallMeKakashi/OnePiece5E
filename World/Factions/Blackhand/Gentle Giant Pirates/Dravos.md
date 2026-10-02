@@ -63,6 +63,10 @@ Navigator. Devil Fruit: [[Toneru Toneru no Mi]].
 
 - Awake and exhausted, powers unusable for about a week, teleport range only 120 ft, and warships are seastone-guarded. Anxious about his brother Droven's timeline ([[Session 023 — Choice for life|Episode 23]]).
 
+## Episode 24
+
+- Rests in a room aboard. Goru finds him there, knows him, and promises to help save him. In the 24.5 scenes he says he and Linus will leave the crew at the next island: "a big brother's job to protect his younger brother" ([[Session 024 — The Friendly Baron|Episode 24]], [[Session 024.5 — Interstitial RP|24.5]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

@@ -77,7 +77,7 @@ aliases:
   - **Vireth is not one person.** [[Ronan]] found a fusion fruit in the North Blue about four years ago and used it to fuse with Astor. After an explosion they couldn't separate, and when [[Aralia]] died "it broke something in them". Vireth has mixed memories and doesn't know he is two people; the Sixfold play along. [[Linus Marrow|Linus]] has worked on this for years.
 - Veyl explains [[Liz]]'s Paper-Paper powers: the Sixfold ID cards let Liz track and briefly talk to each member, and anything folded from her paper works like the real thing. The Sixfold always work in pairs ("Lin" isn't really a member). Liz is with Vireth. Vireth told Veyl and Serica to stay at [[Spirit Cliff]]; they left anyway to find him, gather the crew again, and clean up what has resurfaced (the Spiders, Callisto). There are "two more locations". Veyl's spare Liz pages are on the lost ship.
 - Zim's last word on Vireth: the Marines only saw two Sixfold on his ship, so he hasn't found **[[Cline The Plague|Cline]]** yet. She guesses he is heading south after Cline.
-- Before she leaves, Malphas asks about the Lunarian. When Droven ("Jorvan") Calligos attacked a North Blue Marine post, someone saw **another flying devil fruit user with white hair and red eyes**. Droven has since been captured. Malphas: "someone of importance to me."
+- Before she leaves, Malphas asks about the Lunarian. When Droven Calligos attacked a North Blue Marine post, someone saw **another flying devil fruit user with white hair and red eyes**. Droven has since been captured. Malphas: "someone of importance to me."
 - **Departure**: Veyl gives Zim his radio (the crew keep the other end). Bob quietly keeps one of her two sea-prism cuffs. Daniel lets her take one of his lifeboats; in return Baptiste agrees to owe Daniel a job, as long as it isn't against the Sixfold or Blackhand. Zim folds pages from her notebook (the one Astor gave her) into origami jet engines and boosts away towards the East Blue.
 
 ### Captain's bout (that night)
@@ -115,6 +115,7 @@ Cross-session ledger: [[Open Threads]].
 
 - Bob keeps one sea-prism cuff (Zim doesn't notice).
 - Veyl's radio goes with Zim.
+- Zim trades intel for [[Hallow]]'s journal, the island blueprints and the shipment ledgers, and leaves in Daniel's lifeboat.
 - Puzzle box at about 9%.
 
 ## Prep (before play)

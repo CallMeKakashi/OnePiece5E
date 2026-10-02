@@ -64,7 +64,7 @@ aliases:
 Cross-session ledger: [[Open Threads]].
 
 - **Aegir contained**: he took Baptiste's body after a burst of power, was beaten in the inner dominion, and vowed to return; he is only pushed back into the three rings. Baptiste cannot walk and has no wings. See [[Aegir]].
-- **Zim at G-45**: Zim split from the party to find the device that disables all devil fruit nearby, infiltrated G-45 at Spirit Cliff and was caught; [[Calder Voss]] says a North Blue hearing then execution, and wants Baptiste to watch.
+- **Zim at G-45**: Zim split from the party to find the device that disables all devil fruit nearby, infiltrated G-45 at Spirit Cliff and was caught; [[Calder Voss]] says a North Blue hearing then execution, and wants Baptiste to watch. In [[Session 021 — House of Justice|S21]] her hearing is tomorrow on Lex Imperia before Judge Valehart.
 - **Droven**: captured by the Marines while rescuing [[Alice]]; Fenris wants him back (Mira told him). See [[Droven Calligos]].
 - **North Blue convergence**: Zim, Droven and an Alice sighting all point north; the Lunarfolds go there.
 - **Cline D. Davis**: Fenris's Gentle Giants keep hunting him; this is where the two units split. Mira has only ever been a den den mushi voice.
@@ -80,7 +80,7 @@ Cross-session ledger: [[Open Threads]].
 
 - **Roma**: javelins and hook-gauntlets from the armory; a seasoning jar from Riff (reflavored incense item); a rare item rolled at the armory (a conjure-elemental item, flavored to work only on what he cooks); his cast iron skillet is being attuned by Kalla.
 - **Malphas**: armor and a halberd from the armory; a rare item rolled at the armory. A bracelet from Riff with a red-and-blue gem: lightning and thunder resistance and a thunderwave bolt.
-- **Bob**: a luck stone ("bong") from Riff (advantage on one ability check once); machine parts (for Find Familiar); a rare item roll.
+- **Bob**: a luck stone ("bong") from Riff (advantage on one ability check once; the Cursed Bloodstone of [[Session 019 — The Walking Dead|S19]]); machine parts (for Find Familiar); a rare item roll.
 - **Baptiste**: a blue gem from a mermaid grove, a gift from Riff; a Talisman of the Sphere was rolled and rejected, then rerolled; a wheelchair.
 - **Tigor**: a gift of animals from Riff, arriving after the training week; his brother's reserve animals.
 - **Level-ups** and training proficiencies are tied to the next sessions' downtime.

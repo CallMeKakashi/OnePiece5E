@@ -497,6 +497,10 @@ Workshop JSON (import/build): `[[Foundry/actors-json/sample-actor.json]]`.
 
 - Calls lightning on the warship's big-cannon crew, setting off the cannon. Uses gust of wind to speed the ship, fires firebolts at boarders and throws the last boarder overboard with his void-form arms. Flies Zim up above the clouds to scout the noble channel and picks the ambush site ([[Session 023 — Choice for life|Episode 23]]).
 
+## Episode 24
+
+- Spots the noble ship's sails through the periscope, then flies Baptiste across at night. Scouts the back channel under the bridge. Hears Roma's howl, zaps him to draw him off the market, and lures him to the beach in a fog, then hovers over the water so Roma jumps in and drops the form. Ropes Roma, is pulled back toward the water, and flies off to fetch Bob to haul him out ([[Session 024 — The Friendly Baron|Episode 24]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

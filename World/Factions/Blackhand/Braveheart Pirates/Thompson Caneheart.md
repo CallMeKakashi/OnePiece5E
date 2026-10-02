@@ -25,6 +25,11 @@ foundry_live_slug: "thompson"
 Vice captain. Related: [[Tray]], [[Ju Lee Caneheart]], [[Blackhand Cane]] family name.
 
 **Table play:** Slew **[[Cave Render|Cave Renders]]** in the York Town abandoned mine with [[Matthew -The Jack- Burgess|Jack]] (Nikolai distraction; transcript pending).
+
+## Episode 24 (24.5)
+
+- Calls Baptiste on the den den mushi: Mira is furious, someone on the Guissepi side tried to kill Lorenzo Capone and ruined her weeks of work, and the crews cannot reach one another. Begs Baptiste to come as fast as he can. Mira is heard ordering Thompson into the ring ([[Session 024.5 — Interstitial RP|24.5]]).
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

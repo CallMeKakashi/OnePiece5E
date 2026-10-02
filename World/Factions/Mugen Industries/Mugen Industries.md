@@ -25,3 +25,7 @@ Owned and run in the background by **[[Commodore Briggs]]** (G-45; the Tribune a
 
 - The DM confirmed the [[Soundless 5]] were involved with Mugen Industries, which owned Callisto. Their 6/6 serum vials match the green fluid from Hallow's lab ([[Session 016 — Broken Promises|Episode 16]]).
 
+## Episode 22
+
+- Voss's papers list Mugen sites: Io (south), Europa (west), Ganymede (New World), and Callisto, being rebuilt. His case holds four serums: white 033, green 11, red 44, black 99 ([[Session 022 — The Missing Piece|Episode 22]]).
+

@@ -31,6 +31,8 @@ publish: true
 	- **Unaffiliated**
 		- [[Bore]]
 		- [[Bugor]]
+		- [[Jean]]
+		- [[Judge Valehart]]
 		- [[Kara -Many-Eyes- Kagemi]]
 		- [[Maro -Powderflash- Kel]]
 		- [[Omen Sisters]]

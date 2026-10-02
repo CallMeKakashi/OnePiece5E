@@ -23,7 +23,7 @@ Twin sister of [[Sephra Anthem]]. Was jealous of [[Cadence]]'s childhood singing
 
 ## Episode 14
 
-- Tortures [[Cadence]] in the Royal Opera House; her sonic notes (shatter, vertigo, a 15-thunder shockwave) and charm hurt the crew, injuring Malphas's ear (temporary) and dropping Roma to 2 HP. Charms Baptiste, who resists; Baptiste resists and downs her; the DM corrected that she was not killed ([[Session 014 — The Decibel Decree|Episode 14]]).
+- Tortures [[Cadence]] in the Royal Opera House; her sonic notes (shatter, vertigo, a 15-thunder shockwave) and charm hurt the crew, injuring Malphas's ear (temporary) and dropping Roma to 2 HP. Charms Baptiste; the crew downs her and her twin, and the DM corrected that neither was killed ([[Session 014 — The Decibel Decree|Episode 14]]).
 
 ## Episode 16
 

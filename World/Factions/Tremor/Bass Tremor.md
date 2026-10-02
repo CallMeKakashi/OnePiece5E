@@ -18,7 +18,7 @@ Leader of House Tremor, the Emperor's enforcers, and one of the figures in the t
 
 ## Episode 15
 
-- Fights [[Malphas]] in a room of stone armor statues. Asks "are you the one who killed my brother?" Malphas says no; Bass says he bears no ill will toward anyone doing their duty and fights anyway.
+- Fights [[Malphas]] in a room of stone armor statues. Asks "are you the one who killed my brother?" Malphas says Baptiste did; Bass says he bears no ill will toward anyone doing their duty and fights anyway.
 - Fights with Shatter, Magic Weapon, Shield of Faith and divine smite, and a speed burst. Drops his shield after Malphas pierces it, then knocks Malphas out with the hammer ([[Session 015 — Animal Within|Episode 15]]).
 
 ## Episode 16

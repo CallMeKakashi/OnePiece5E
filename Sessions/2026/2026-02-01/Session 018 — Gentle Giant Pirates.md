@@ -19,7 +19,7 @@ aliases:
 
 - A second week of downtime on Decibella: Bob trains in his rebuilt Necrotic Savant body, Roma looks after the animals Riff gave the crew (bound for [[Cade Tigor Cooper|Tigor]]'s W.G.A.R. reserve), and [[Baptiste]] tests his bell fragment with [[Kalla of Shandia|Kalla]]'s.
 - Baptiste asks [[⚔️ Fenris Wolfblood — “The Blood of Sun and Shadow”|Fenris]] for [[Dravos]] to guide the crew to Zim. Fenris will not give him up for free (finding Cline is hard and the Gentle Giants have no reason to fight the Sixfold) and proposes a Davy Back Fight with Dravos as the stake.
-- Best of three, no devil fruit powers. Game 1: [[B.O.B]] beats [[Facade]]. Game 2, the Battle of Beasts, is next. The contest continues in [[Session 019 — The Walking Dead|S19]].
+- Best of five, no devil fruit powers. Game 1: [[B.O.B]] beats [[Facade]]. Game 2, the Battle of Beasts, is next. The contest continues in [[Session 019 — The Walking Dead|S19]].
 
 ## Cast
 
@@ -43,7 +43,7 @@ aliases:
 2. **Mira.** Baptiste calls Mira on the den den mushi (no one else on the line) and asks who can help with what is ahead. Nothing new is promised beyond [[Malak Samum]].
 3. **The bell fragments.** Baptiste and [[Kalla of Shandia|Kalla]] each took a piece of a broken bell on an earlier mission together (a magic item: reroll one failed saving throw per long rest). Baptiste asks Kalla for his fragment, then tries to take off the three [[Rings of Aegir]] while holding both. A natural 20 on Arcana shows the fragments resonate with the rings and the bells, but the rings stay on.
 4. **The ask.** Baptiste tells Fenris the crew has things to do: Zim is held for execution, [[Droven Calligos|Droven]] is a captive, and the Sixfold are still unfinished. He wants Dravos to lead the crew to Zim. Fenris points out [[Linus Marrow|Linus]] is not available, that Dravos expects pay, and that fighting the Sixfold is no easy matter; the Gentle Giants have no reason to do it. Finding [[Cline The Plague|Cline]] is hard, so he will not simply let Dravos go. He proposes a **Davy Back Fight** with Dravos as the stake. Dravos is a freelancer, not crew, so nothing else is wagered.
-5. **The contest.** A best of three; no devil fruit powers are allowed. Fenris names the games; the second is the **Battle of Beasts**. [[Cade Tigor Cooper|Tigor]] is asked what contests the crew should hold, the party finds an arena in the kingdom, and the people of Decibella are told the saviours of the kingdom will put on a show.
+5. **The contest.** A best of five; no devil fruit powers are allowed. Fenris names the games; the second is the **Battle of Beasts**. [[Cade Tigor Cooper|Tigor]] is asked what contests the crew should hold, the party finds an arena in the kingdom, and the people of Decibella are told the saviours of the kingdom will put on a show.
 6. **Game 1.** [[B.O.B]] fights [[Facade]] and wins.
 7. **End of session.** Game 2 (the Battle of Beasts) is next; the rest is in [[Session 019 — The Walking Dead|S19]].
 

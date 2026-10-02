@@ -58,15 +58,15 @@ At sea off [[Noosehold]] and [[Lex Imperia]], straight after [[Session 022 — T
 Cross-session ledger: [[Open Threads]].
 
 - **Riff and Decibella**: Briggs learned the crew holds Voss and has ties to Riff; Riff's fate and choice are left open.
-- **Ambush on the noble channel**: the crew is anchored and waiting for Baron Lazarus's ship. Details next session.
-- **New Baron Lazarus**: second son of the Velmont/Vellant house of Driftroot, due at the 100th trial on Lex Imperia; his name does not match the old baron's, as Zim notes.
+- **Ambush on the noble channel**: resolved in [[Session 024 — The Friendly Baron|S24]]: the noble ship is Goru Yamashita's, and he agrees to help the crew.
+- **New Baron Lazarus**: resolved in [[Session 024 — The Friendly Baron|S24]]: he is Goru Yamashita (born Lazarus Valencruz), Baron of Driftroot, due at the trial on Lex Imperia.
 - **Zim's hearing and book**: her hearing was due that afternoon; her magic book is still missing.
 - **Voss**: held aboard, branded and mutilated; Briggs wants him back.
-- **Roma's human form**: duration and whether the Yeti power returns are unresolved. The white serum is spent; Baptiste holds the green 11 vial.
+- **Roma's human form**: in [[Session 024 — The Friendly Baron|S24]] the full moon forces Sulong anyway; whether the Yeti form returns is still unresolved. The white serum is spent; Baptiste holds the green 11 vial.
 - **Linus**: out of supplies; needs sea king organs.
 - **Dravos**: "about a week" is unclear (his brother's timeline or his own recovery).
 - **Ship**: about 300/600 HP, irreparable; needs real money (the 10-million Reinforced Keel would also fix HP).
-- **Mira**: not told about the captive. The next newspaper is due in four or five days.
+- **Mira**: not told about the captive by the crew, but she learns of it from the other family; in [[Session 024 — The Friendly Baron|S24]] she orders Baptiste to kill or release Voss. The next newspaper is due in four or five days.
 - **Bob**: away for a few weeks of sessions.
 
 ## Loot & changes

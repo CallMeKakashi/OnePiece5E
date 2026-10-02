@@ -92,6 +92,8 @@ The crew executes the **casino phase** of the [[World Government Bank]] job at [
 
 ## Questions (targeted)
 
+> DM prep answers, not play records; they are unverified against the transcript.
+
 1. The casino is not canonically named; keep it generic as “the casino.”
 2. The crew **kept Halward’s notes**.
 3. Halward’s one-to-one Den Den Mushi was **not taken** (remains with Halward).

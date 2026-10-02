@@ -363,6 +363,10 @@ traits:
 
 - Takes the helm as the Lex Imperia warships chase the ship, calms the panicking horses and later the sabre-toothed tiger, and keeps the ship moving until the sea king stops the chase. Patches holes with Bob afterwards ([[Session 023 — Choice for life|Episode 23]]).
 
+## Episode 24
+
+- Turns the ship toward the channel and waits, then follows Goru's ship through the dark with lanterns lowered. Stays aboard as the crew's helmsman while the party goes ashore. In 24.5 Bob confides in him below deck ([[Session 024 — The Friendly Baron|Episode 24]], [[Session 024.5 — Interstitial RP|24.5]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

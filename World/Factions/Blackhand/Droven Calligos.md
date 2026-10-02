@@ -29,7 +29,7 @@ Blackhand 2nd Fleet executive. Devil Fruit: [[Suraimu Suraimu no Mi]]. Status: c
 
 ## Episode 19
 
-- Revealed as [[Dravos]]'s brother; the Marines hold him and his execution is in two weeks ([[Session 019 — The Walking Dead|Episode 19]]).
+- Revealed as [[Dravos]]'s brother; the Marines hold him and his execution is in two weeks ([[Session 019 — The Walking Dead|Episode 19]]). Later: Voss says "next week" and Linus says his escort ship docks on Noosehold in three days ([[Session 021 — House of Justice|Episode 21]], [[Session 022 — The Missing Piece|Episode 22]]).
 
 ## Related
 
