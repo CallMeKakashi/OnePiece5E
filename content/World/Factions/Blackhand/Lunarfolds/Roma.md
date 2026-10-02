@@ -402,6 +402,10 @@ About a year before the present, travelling alone through Wano, Roma meets the L
 
 - Hit by a void blast from Aegir in Baptiste's body, dropped to 0 and out of hybrid form; stabilised by Riff. Rages back in and fights with heated skillet. Wakes with three days of hunger and cooks for the crew; Kala attunes his skillet; he is given a seasoning jar. Sulong still not under his control ([[Session 017 — Agony of Choas|Episode 17]]).
 
+## Episode 18
+
+- Downtime: cooks, teaches the horses to answer his whistles, and looks after the animals Riff gave the crew (sabre-toothed tiger, wolf, dog), bound for Tigor's W.G.A.R. reserve. Coaches a crewmate on cooking the tiger's meat. Trains Bob in martial combat ([[Session 018 — Gentle Giant Pirates|Episode 18]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

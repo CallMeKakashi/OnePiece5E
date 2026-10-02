@@ -327,3 +327,7 @@ traits:
 ## Episode 17
 
 - Captain of the [[Gentle Giant Pirates]]. Treats Baptiste and Tigor on the beached ship, takes Mira's side (she sent him as backup), and briefs Baptiste: he wants [[Droven Calligos|Droven]] back (Mira told him he was captured) and keeps searching for Cline D. Davis, Linus's other payment. Cooks with Roma; tells Baptiste to go easy on Tigor ([[Session 017 — Agony of Choas|Episode 17]]).
+
+## Episode 18
+
+- Baptiste asks him for [[Dravos]] to guide the crew to Zim. He refuses to give him up free (finding Cline is hard, and the Gentle Giants have no reason to fight the Sixfold, with Linus unavailable) and proposes a Davy Back Fight: best of three, no devil fruits, Dravos the only stake ([[Session 018 — Gentle Giant Pirates|Episode 18]]).

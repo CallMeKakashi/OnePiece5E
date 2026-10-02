@@ -200,6 +200,10 @@ Under [[Blackhand Cane]], Baptiste goes undercover for four years as **Haruki**,
 
 - A burst of power lets [[Aegir]] take his body; he fights Aegir in an inner dominion and wins, as Malphas's punches stop the body outside. Collapses; wings gone, crystals and black spread back into the rings. Fenris treats him: paralysed from the waist down, hemorrhaging, wings unrecoverable. Dreams of the mermaid ([[Timeline/Undated/[Event] Babylon]]). Calls Mira and gets Voss over the radio about Zim ([[Session 017 — Agony of Choas|Episode 17]]).
 
+## Episode 18
+
+- Second week of downtime. Calls Mira for help with what is ahead; nothing offered beyond Malak. Holds his bell fragment and Kalla's together and tries to take off the three rings; the fragments resonate with the rings, which stay on. Asks Fenris for Dravos as guide to Zim, and accepts a Davy Back Fight for him (best of three, no devil fruits) ([[Session 018 — Gentle Giant Pirates|Episode 18]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*
