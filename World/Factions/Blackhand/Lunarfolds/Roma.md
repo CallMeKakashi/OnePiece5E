@@ -393,6 +393,10 @@ About a year before the present, travelling alone through Wano, Roma meets the L
 
 - Grabbed by [[Kyle Bloodfin]], who holds his jaw over Roma's neck until someone tackles Kyle and they fall into the water. Knocked out with the crew by [[Graff Bolt]]'s Conqueror's Haki ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
 
+## Episode 14
+
+- Throws a guard into the lake (a tentacle takes him); fights the Echo spies and Woofer's troopers; interrogates a captured trooper (learns Cadence is in the Opera House). Buffed by [[Riff Sin]]'s riff; dropped to 2 HP by [[Lady Soefra Anthem|Soefra]]'s note, then healed by little critters that crawl through his fur. Plans to take fighter for Action Surge at the next level-up ([[Session 014 — The Decibel Decree|Episode 14]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

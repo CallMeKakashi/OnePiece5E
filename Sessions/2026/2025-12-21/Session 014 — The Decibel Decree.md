@@ -17,13 +17,44 @@ aliases:
 
 ## TL;DR
 
+On the silent island of [[Decibella Kingdom]], [[Baptiste]]'s first (unconscious) Conqueror's Haki flattens the capital gate guards. The crew fights [[Echo Spy|House Echo spies]] in the slums, meets [[Riff Sin]] and the commoner rebels, kills [[Baron Woofer]] when the Discord hideout is raided, climbs "the Channel" to the noble district, and rescues [[Cadence]] from the twin sisters [[Lady Soefra Anthem|Soefra]] and [[Sephra Anthem|Sephra]] in the Opera House. [[B.O.B]] topples the Liberty Bell; the [[Soundless 5]] shrug it off and challenge the crew to a keycard game inside the Broadcast Tower. Session ends with a long rest before the tower.
+
 ## Cast
+
+- PCs: [[Baptiste]], [[Malphas]], [[Roma]], [[B.O.B]], [[Cade Tigor Cooper|Tigor]]
+- Allies: [[Riff Sin]], [[Cadence]] (unconscious), [[Sloan]] (elder, "Sloan Sick")
+- Enemies: Echo spies, [[Mezzo Troop|Mezzo troopers]], [[Baron Woofer]], [[Lady Soefra Anthem]], [[Sephra Anthem]], [[Soundless 5]] (Coda and four unnamed)
+- Cameo: [[Vera]] (one of the [[Omen Sisters]]), referred to, not present
 
 ## Where/When
 
+[[Decibella Kingdom]]: the shattered north gate, the slums, the Discord hideout, the Channel (ventilation shaft), the Gilded District, the Royal Opera House, and the Broadcast Tower (outside). Immediately after [[Session 013 — The Reaper (No DM Audio)|S13]]; the crew sailed from W.G.A.R. along a log pose stolen from a W.G.A.R. merchant and stopped at the island for animals for [[Bugor]]'s reserve.
+
 ## Actual play outcomes
 
-> Curated prep/recap exists below. Transcript: [[Episode 14 - The Decibel Decree]].
+> What happened comes from the transcript ([[Episode 14 - The Decibel Decree]]), grilled with the DM on 2026-10-02. The prep below is not canon.
+
+1. **The gate.** Baptiste, posing as a noble, is rebuffed by the guards, runs back, and blasts through the gate on horseback. His fist only touches the gate; a wave of Haki knocks out two guards and sends one flying. The world "turned gray," his will "crushed theirs," and he gets a splitting headache. He had felt it before but never used it. This is the first, unconscious sign of Conqueror's Haki. The megaphones announce "decibel spike detected at North Gate, deploying House Tremor."
+2. **Silent capital.** Commoners wear steel jaw-locks and avoid the crew. The horse is left tied; Roma had earlier thrown a guard into a lake where a translucent tentacle took him (a one-off Grand Line creature, see [[Lake Tentacle]]).
+3. **Echo spies.** Four or five Echo spies ambush them in the slums ("broke the gate… gate… gate"). Malphas, Baptiste and Roma kill or knock out most; one flees; Roma tracks him. Spies carry whistles (subwoofer-like) and bite poison pills when captured. A red-haired guitarist, [[Riff Sin]], arrives, boosts Roma with a riff, and leads the crew into a hidden house; the crew takes the whistles and bells.
+4. **The Discord.** Riff learns the crew was sent by [[Vera]] ("Kira" is a slip for Vera); he curses her. Their hideout is a bunker of commoners and rebels under elder [[Sloan]]. Riff explains Decibella's houses (Echo spies, Tremor soldiers, Anthem elites, the disgraced House Sin) and the **Decibel Decree**: the Emperor can make anyone who hears him obey. The rebellion is five years old, the decree older. The plan: [[Cadence]] and Vera went to the Upper City to change the jaw-lock frequency at the Broadcast Tower; Cadence was captured. Vera's claim that she got ships for the commoners' evacuation was a lie to keep Riff cooperating.
+5. **Baron Woofer.** House Tremor raids the hideout; Woofer and Mezzo troopers drop through the roof. The crew kills Woofer (Baptiste ruptures his speaker armor) and most troopers; Riff and Tigor evacuate the commoners through a tunnel. One trooper is interrogated by Roma (with Riff's water and slaps) and gives up that Cadence is in the Opera House with the lady. The hideout is destroyed.
+6. **The Channel.** A vertical ventilation shaft, climbed on ladders, with a sound-pressure shockwave from the Emperor's hourly recorded announcement (Con save, 2d6 thunder). Baptiste falls on Roma; Bob grapples him. All survive.
+7. **Gilded District.** Gold, marble, cone-collared nobles shouting. A noble taunts Riff ("did your family kick you out?"). Riff passes the crew off as his silent servants. They climb into the Opera House backstage, knock out guards, and open a locked door (Bob's finger lockpick).
+8. **The twins.** Cadence is tied to a brass pipe. [[Lady Soefra Anthem]] attacks with sonic notes (shatter, vertigo, a 15-thunder shockwave, damage to Malphas's ear). She and her twin [[Sephra Anthem]] hit with charm-like song; Baptiste is charmed (her singing brings back a memory of the mermaid, **a secret the party does not know**, see below). Roma is hit down to 2 HP. A hand pulls Cadence through a window; one twin takes her hostage. The party kills Soefra and Sephra, rescues Cadence, and Riff takes the Override Disc Cadence had embedded in her arm (she pried it out and passed out).
+9. **The tower.** The Emperor's tower lights go red. Coda, in a white coat with a conductor's baton, and the other Soundless Five stand on the balcony and tell the crew to leave. Bob, with Baptiste's nod and everyone's inspiration spent, shoots *Toll the Dead* at the Liberty Bell (500 years old); it falls but two of the five slice it into four pieces. Coda challenges them to a keycard game: five golden keycards, one on each of the Soundless Five, to open the Control Room. The Emperor "is stirring"; if he wakes fully they will bow. The crew takes a long rest (they were effectively invited in).
+
+### Mermaid (secret, party unaware)
+
+Soefra's voice triggers Baptiste's memory of the mermaid he met on the Gambino job, the story of **BABYLON** (see [[Baptiste]] backstory and [[Timeline/Undated/[Event] Babylon]]). The party doesn't know.
+
+### Soefra and Cadence
+
+Soefra was jealous of Cadence's childhood singing talent and had her masked earlier than usual in Decibella. That is why Riff turned against the king.
+
+### The Emperor
+
+The Emperor holds the **Voice Voice Fruit** (Special Paramecia), taken by killing the commoner who ate it before him.
 
 ## Links
 
@@ -546,6 +577,23 @@ Reactions:
 
 ## Open threads
 
+- **Vera (an [[Omen Sisters|Omen sister]])**: purpose on Decibella unknown; resembles Kira from a Baptiste/Kalla side mission; lied about ships to Riff; left after being freed by the crew. See [[Vera]]. Ledger.
+- **[[Mira the Unbreakable|Mira]]**: Baptiste learns to control his Conqueror's Haki by training with her (later session); closes when that session is grilled.
+- **Soundless Five keycards**: five figures, one card each; only Coda named. The rest are filled in at the tower sessions.
+- **Override Disc**: held by [[Riff Sin]].
+- **The mermaid / Babylon**: Baptiste-only secret; later mermaid mentions (S17, S19, S24.5) unconfirmed until those are grilled.
+- **Emperor stirring**: if he wakes fully, the crew "bows." Voice Voice Fruit.
+- **Sloan's council** vs Riff: the commoners distrust the crew and House Sin.
+
+Resolved this session: Soefra/Cadence history, the Opera House hostage, Cadence rescued, Woofer dead.
+
 ## Loot & changes
 
+- Four whistles or bells from the Echo spies and troopers; fish-shaped "pump-up" chips.
+- No baton, collars or dial in canon. Malphas's ear damage was temporary.
+- Baptiste: first sign of Conqueror's Haki. Everyone except Baptiste has inspiration and spends it on the bell shot.
+- Level-ups are triggered by the next session's 1v1 fights (Roma goes fighter for Action Surge).
+
 ## Prep (before play)
+
+(See the prep above, preserved from the DM's original session file.)

@@ -10,7 +10,7 @@ The ruling enforcers of [[Decibella Kingdom]] who impose and maintain an oppress
 
 - [[Synth]] — Riff Sin's cousin
 - [[Baron Woofer]]
-- [[Lady Soefra Anthem]]
+- [[Lady Soefra Anthem]] · [[Sephra Anthem]] — twins
 - [[Echo Spy]]
 - [[Mezzo Troop]]
 - [[Chuckles]] · [[Giggles]] · [[Snickers]] · [[Wheeze]] — Circle of Clowns

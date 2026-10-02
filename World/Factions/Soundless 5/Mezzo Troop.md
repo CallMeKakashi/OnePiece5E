@@ -16,6 +16,10 @@ One of the [[Soundless 5]], the enforcers of silence in [[Decibella Kingdom]].
 
 ## Personal Quests
 
+## Episode 14
+
+- Foot soldiers of House Tremor at the capital gate and the hideout raid, firing rubber rifles; one captured trooper reveals [[Cadence]] is in the Opera House ([[Session 014 — The Decibel Decree|Episode 14]]).
+
 ## Backstory
 
 ```statblock

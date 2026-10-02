@@ -8,7 +8,7 @@ publish: false
 
 A cross-session ledger of unresolved plot threads. Each session note keeps its own `## Open threads` section; this note rolls them up. Update it after every session grill.
 
-Last updated: after the [[Session 013 — The Reaper (No DM Audio)|Session 13]] grill (2026-10-02).
+Last updated: after the [[Session 014 — The Decibel Decree|Session 14]] grill (2026-10-02).
 
 ## Live
 
@@ -16,6 +16,13 @@ Last updated: after the [[Session 013 — The Reaper (No DM Audio)|Session 13]] 
 
 | Thread | Opened | Last touched | Status |
 |--------|--------|--------------|--------|
+| **Decibella tower and the Soundless Five**: five figures (only Coda named), five golden keycards needed for the Control Room; the Emperor is "stirring" and will make the crew bow if he wakes fully; crew rested before entering. Override Disc held by [[Riff Sin]] | [[Session 014 — The Decibel Decree\|S14]] | S14 | Ongoing — see [[Soundless 5]] |
+| **Voice Voice Fruit / the Emperor**: Special Paramecia that compels obedience from anyone who hears him; taken by killing the commoner who held it before | [[Session 014 — The Decibel Decree\|S14]] | S14 | Ongoing — see [[Voice Voice Fruit]] |
+| **Vera ([[Omen Sisters]])**: appeared briefly to Baptiste, resembles Kira from the Baptiste/Kalla side mission; sent the crew to Riff, lied to him about ships, then left. Purpose on Decibella unknown | [[Session 014 — The Decibel Decree\|S14]] | S14 | Unrevealed — see [[Vera]] |
+| **Baptiste's Conqueror's Haki**: first unconscious burst at the Decibella gate; he learns control by training with [[Mira the Unbreakable\|Mira]] in a later session | [[Session 014 — The Decibel Decree\|S14]] | S14 | Changed later (DM, 2026-10-02); closes when that session is grilled |
+| **The mermaid / Babylon**: Baptiste's secret four-year Gambino job as Haruki; Soefra's voice recalls it; the party doesn't know. Later mermaid mentions (S17, S19, S24.5) unconfirmed | [[Session 014 — The Decibel Decree\|S14]] | S14 | Secret — see [[Timeline/Undated/[Event] Babylon]] |
+| **Crew's ship on Decibella**: Riff assumes House Tremor took it; Bob never confirmed (Merlin out of range) | [[Session 014 — The Decibel Decree\|S14]] | S14 | Unconfirmed |
+| **Riff and the rebellion's future**: Cadence rescued, hideout lost; evacuees safe in the tunnels; elder [[Sloan]] and the council distrust the crew | [[Session 014 — The Decibel Decree\|S14]] | S14 | Ongoing |
 | **Rings of Aegir**: a set of five; two now on Baptiste. Where are the other three, and what happened to Kirro's ship and crew? | [[Session 003 — Cliffside Gambit\|S3]] | [[Session 010 — Sea of Nightmares\|S10]] | Ongoing — the players learn the rest in a later session (DM, 2026-10-02); closes when that session is grilled. See [[Rings of Aegir]] |
 | **The patron**: wants its vessel found and itself revived; vows to haunt Baptiste until he gives in (*DM: Aegir*) | [[Session 010 — Sea of Nightmares\|S10]] | [[Session 011 — Welcome to the Jungle\|S11]] (a one-off bluff to control Baptiste; no rule change) | Ongoing |
 | **Baptiste's nightly saves**: DC 13 Wisdom each long rest; three failures in a row shift him to evil | [[Session 010 — Sea of Nightmares\|S10]] | S10 | Changed (DM, 2026-10-02): the nightmares did not return; instead Aegir takes things from Baptiste by mood (his wings, his memories, and so on). Detail when the later sessions are grilled |
@@ -65,6 +72,9 @@ None at the moment.
 
 | Thread | Opened | Resolved |
 |--------|--------|----------|
+| Cadence captured at the Opera House: rescued after the party killed the twins [[Lady Soefra Anthem\|Soefra]] and [[Sephra Anthem\|Sephra]] | [[Session 014 — The Decibel Decree\|S14]] | S14 grill |
+| Why Soefra hates Cadence: jealous of her singing, masked her early; also why Riff rebels | [[Session 014 — The Decibel Decree\|S14]] | S14 grill |
+| Translucent lake tentacle: a one-off Grand Line creature ([[Lake Tentacle]]) | [[Session 014 — The Decibel Decree\|S14]] | S14 grill |
 | Ship purchase math (~9.1M toward a ~20M quote): the chest job paid for the ship | [[Session 004 — Masquerade of the Stolen Keys\|S4]] | DM, 2026-10-02 |
 | What's in Bramble's chest (deed to his shipwright company) | S3 | [[Session 004 — Masquerade of the Stolen Keys\|S4]]–[[Session 005 — Midnight Chainbreak\|S5]] |
 | World Government Bank raid | S3 | S5 |

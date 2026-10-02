@@ -16,6 +16,10 @@ One of the [[Soundless 5]], the enforcers of silence in [[Decibella Kingdom]].
 
 ## Personal Quests
 
+## Episode 14
+
+- Ambush the crew in Decibella's slums ("you broke the gate… gate"); carry whistles, bells and blowguns; bite poison pills when captured ([[Session 014 — The Decibel Decree|Episode 14]]).
+
 ## Backstory
 
 ```statblock

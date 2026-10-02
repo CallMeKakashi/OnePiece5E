@@ -14,6 +14,7 @@ Campaign devil fruit registry — image, power, and current owner. Template: [[D
 - [[Yuki Yuki no Mi — Model Yeti]] — Roma
 - [[Uchu Uchu no Mi]] — Baptiste
 - [[Ame Ame no Mi]] — Sora
+- [[Voice Voice Fruit]] — Emperor of Decibella
 - [[Hai Hai no Mi]] — Malak Samum
 - [[Buki Buki no Mi]] — Serica Corven
 - [[Koru Koru no Mi]] — Daniel (Coal-Coal)

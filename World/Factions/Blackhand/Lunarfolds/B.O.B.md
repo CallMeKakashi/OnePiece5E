@@ -73,6 +73,10 @@ foundry_live_slug: "b-o-b-old"
 
 - With the crew at the standoff with [[Graff Bolt]] and [[Melina Celeste]]; knocked out by Graff's Conqueror's Haki ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
 
+## Episode 14
+
+- Guides the crew to the Decibella rebels via Merlin's eyes; casts comprehend languages to read the elder [[Sloan]]'s hand-signs. Shoots Toll the Dead at the Liberty Bell with Baptiste's nod, toppling it; the [[Soundless 5]] cut it in four ([[Session 014 — The Decibel Decree|Episode 14]]).
+
 ## Related
 
 - [[Lunarfolds]]

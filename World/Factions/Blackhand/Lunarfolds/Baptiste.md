@@ -129,6 +129,12 @@ Baptiste felt the question like a hand on his chest. He thought of the girl with
 
 He looked up at the man whose smile had not faltered even in the teeth of battle. The word rose from somewhere small and stubborn inside him: "Freedom."
 
+### Babylon (the Gambino job)
+
+> **Party does not know this.** Full beats in [[Timeline/Undated/[Event] Babylon]].
+
+Under [[Blackhand Cane]], Baptiste goes undercover for four years as **Haruki**, an enforcer for the Gambino Family, a slave-trading mafia, after watching masked men drag a boy from his home. The family keeps a caged mermaid whose song charms its guests; it fails on Haruki, and he taps two fingers to his heart ("I'm awake"). He asks only for time with the singer; she tells him of the cages, the drugs, and a child she freed, and says she once wished to dance at a masquerade ball. When he finally frees her, the Gambino siblings spring a trap. She sings a deadly song, collapses the estate, and walks into the fire, pressing a small heirloom into his hand ("if you find one of my kind… tell them"). The papers call it **BABYLON**; Haruki is named a terrorist and she "The Wailing Siren." Blackhand finds him days later: "You survived. That's different." Haruki is burned; **Masquerade** is born.
+
 ## Episode 2
 
 - Recruited at the [[Ambercrest]] docks as the "winged ally"; joins the crew under "orders" to make allies. [[Mira the Unbreakable|Mira]] warns that his wings must stay hidden from the Marines at [[Spirit Cliff]] ([[Session 002 — Stormwings of Ambercrest|Episode 2]]).
@@ -179,6 +185,11 @@ He looked up at the man whose smile had not faltered even in the teeth of battle
 ## Episode 13
 
 - Target, with [[Malphas]], of [[Esper Grimrose]]'s revenge: the crew killed her brother's Reaper unit in the past, and now [[Kyle Bloodfin]] dies in the Scorpion Unit's attack. Refuses to hand over the clown and crab to [[Graff Bolt]] and [[Melina Celeste]] and is knocked out with the crew by Graff's Conqueror's Haki. Afterwards Graff tells him the Marine-side story of the Unity War (Blackhand, [[Horus]] and Stella Celeste). ([[Session 013 — The Reaper (No DM Audio)|Episode 13]]).
+
+## Episode 14
+
+- Rebuffed at Decibella's capital gate while posing as a noble, he blasts through it on horseback with his **first, unconscious Conqueror's Haki**: three guards collapse without a touch, the world "turns gray," and he gets a splitting headache. He later learns control from [[Mira the Unbreakable|Mira]] (later session).
+- Kills Echo spies, helps kill [[Baron Woofer]] (bursts his speaker armor), and with [[Malphas]] clears the Opera House guards. [[Lady Soefra Anthem|Soefra]]'s voice charms him; it recalls the mermaid from [[Timeline/Undated/[Event] Babylon|Babylon]] ("she was dead, why is she here"), but he snaps out of it on a 20 before attacking [[Riff Sin]]. Kills Soefra and [[Sephra Anthem|Sephra]] and rescues [[Cadence]]. Approves [[B.O.B]]'s shot at the Liberty Bell ([[Session 014 — The Decibel Decree|Episode 14]]).
 
 ## Live sheet (Foundry)
 

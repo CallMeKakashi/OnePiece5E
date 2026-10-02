@@ -16,6 +16,10 @@ One of the [[Soundless 5]], the enforcers of silence in [[Decibella Kingdom]].
 
 ## Personal Quests
 
+## Episode 14
+
+- Leads House Tremor's raid on the Discord hideout with [[Mezzo Troop|Mezzo troopers]]; killed by Baptiste, who bursts his speaker armor ([[Session 014 — The Decibel Decree|Episode 14]]).
+
 ## Backstory
 
 ```statblock

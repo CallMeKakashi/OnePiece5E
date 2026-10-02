@@ -46,6 +46,11 @@ Cadence strapped her gear on in silence, Keera waiting at the tunnel mouth. Riff
 
 The sound of her footsteps leaving stayed with him longer than any song.
 
+## Episode 14
+
+- Meets the crew in the slums after they fight Echo spies; his guitar riffs buff allies and flip into a rubber-round rifle. Leads them into the Discord hideout, explains Decibella's houses and the Decibel Decree, and curses [[Vera]] ("I shouldn't have trusted her"). His house is now called House Sin, for causing the last rebellion; his family abandoned him. Only cares about [[Cadence]] ("my only friend"). Helps kill [[Baron Woofer]], leads the crew up the Channel and passes them off as silent servants. Knocked out by the charmed Baptiste, then keeps the Override Disc Cadence pried from her arm ([[Session 014 — The Decibel Decree|Episode 14]]).
+- Turned against the king because [[Lady Soefra Anthem|Soefra]], jealous of Cadence's singing, masked her early.
+
 ## Episodes 14–19 (Malphas arc)
 
 - **Decibella rebellion** — leads [[Cadence]] cell; Soundless Five tower trials ([[Episode 14 - The Decibel Decree]]–[[Episode 16 - Broken Promises]]).
