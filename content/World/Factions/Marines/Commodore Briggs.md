@@ -35,6 +35,10 @@ Marine **Commodore** in command of the **G-45** unit, the Marine base at [[Spiri
 - A "rookie named Briggs" killed [[Morley]] in a clash with the Marines ([[Timeline/Undated/[Backstory] Linus — The Motley Crew]]). The Morley note says Marine Captain Briggs shot him and Lieutenant Voss finished him.
 - [[Linus Marrow]]'s notes: Briggs "came out of nowhere and his first official rank was Captain". He owns Mugen and is connected to Calder Voss ([[Linus — Notes]]).
 
+## Episode 23
+
+- Calls Voss's den den mushi in an altered voice, demands the crew hand over Voss and vows to collect his corpse. His aide reports they have reached Decibella, where the new king is waiting. Baptiste refuses and threatens him, and Briggs sends the Lex Imperia warships after the crew ([[Session 023 — Choice for life|Episode 23]]).
+
 ## Related
 
 - [[Marines]] · [[Mugen Industries]] · [[Dr Nikolai Tesla]]

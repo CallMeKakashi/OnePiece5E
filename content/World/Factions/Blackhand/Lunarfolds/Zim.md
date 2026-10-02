@@ -27,7 +27,7 @@ Woman (~20) in black clothes, from **Loguetown**. Informant who "mostly deals wi
 
 ## Role
 
-Spy and informant for the [[Lunarfolds]]. [[Sixfold]]-associated operative. Previously held by Marines on **Lex Imperia / Newshold**.
+Spy and informant for the [[Lunarfolds]]. [[Sixfold]]-associated operative. Previously held by Marines on **Noosehold** (freed in [[Session 022 — The Missing Piece|Episode 22]]).
 
 ## Personal Quests
 
@@ -46,7 +46,7 @@ Knocked out and dangled over the sea by [[Roma]] until [[Veyl Corven]] stopped i
 
 ### Episodes 21–25 — Rescue and Escape
 
-Trial island target during Episode 21; party splits ops to free Zim alongside **Droven** / Dravo. Rescued from **[[Calder Voss]]**'s seastone brig in Episode 22; admits spy role. Broken arm at time of rescue. Aboard **SSR Caravelle** during the naval chase and **Fire Storm** escort battle (Episodes 23–25).
+Trial island target during Episode 21; party splits ops to free Zim alongside **Droven** (the Marines' prisoner; his brother is [[Dravos]]). Rescued from **[[Calder Voss]]**'s seastone brig in Episode 22; admits spy role. Broken arm at time of rescue (S22 grill: broken hand, broken nose and cut wrists; the rest of this block is unverified). Aboard **SSR Caravelle** during the naval chase and **Fire Storm** escort battle (Episodes 23–25).
 
 ### Time skip — "Sato"
 
@@ -65,10 +65,23 @@ After several others failed, she infiltrated [[Capone Family]]-occupied territor
 
 - [[Calder Voss]] reveals by radio that Zim infiltrated G-45 at Spirit Cliff, hunting the device that disables devil fruits, and was caught. A North Blue hearing, then execution; the crew heads north ([[Session 017 — Agony of Choas|Episode 17]]).
 
+## Episode 21
+
+- Judge Valehart will hear her case tomorrow on Lex Imperia; Voss says she lives because she did not snitch. Her cell (high-court basement or a warship at the docks) is unknown ([[Session 021 — House of Justice|Episode 21]]).
+
+## Episode 22
+
+- Found tortured in a seastone cell on Voss's warship (broken nose, cut wrists, black eye); freed by Roma and Linus. Aboard the ship she is bandaged, one hand broken. Despairs that she is useless and her friends are gone; Baptiste says the crew came for her ([[Session 022 — The Missing Piece|Episode 22]]).
+
+## Episode 23
+
+- Furious that Voss is aboard and says she was always going to be killed. Flown above the clouds by Malphas, she points out the channel nobles use between islands and proposes ambushing a ship there. Asks about her magic book, which is still missing ([[Session 023 — Choice for life|Episode 23]]).
+
 ## Open Questions
 
 - Who is her Marine correspondent in Loguetown, and where is the device?
 - What is [[Serica Corven]] accusing her of?
+- Who was the one friend she says she has lost ([[Session 022 — The Missing Piece|Episode 22]])?
 
 ## Related
 

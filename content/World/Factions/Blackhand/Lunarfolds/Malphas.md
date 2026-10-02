@@ -480,6 +480,18 @@ And fate shifted.
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.
 
 Workshop JSON (import/build): `[[Foundry/actors-json/sample-actor.json]]`.
+## Episode 21
+
+- Scouts Noosehold with Baptiste and works out it is an execution island. Tears down the wanted posters, finds Cassian's office address from a guard, and takes a laser hit (18 damage) while chasing Voss's carriage. Falls through a roof, lands on the carriage and is punched off by Voss, who calls him the navigator ([[Session 021 — House of Justice|Episode 21]]).
+
+## Episode 22
+
+- Smashes the white armor into the ground, heals Bob and Baptiste with Lay on Hands, and cuts down Marine gunners as the ship leaves. Afterwards tells Baptiste he may stay in the North, unsure about hearing more of Alice ([[Session 022 — The Missing Piece|Episode 22]]).
+
+## Episode 23
+
+- Calls lightning on the warship's big-cannon crew, setting off the cannon. Uses gust of wind to speed the ship, fires firebolts at boarders and throws the last boarder overboard with his void-form arms. Flies Zim up above the clouds to scout the noble channel and picks the ambush site ([[Session 023 — Choice for life|Episode 23]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

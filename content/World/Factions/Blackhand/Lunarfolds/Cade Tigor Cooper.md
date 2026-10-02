@@ -332,6 +332,18 @@ traits:
 - name: Bite
   desc: [[/attack extended]]. [[/damage extended]].
 ```
+## Episode 21
+
+- Steers the ship around Noosehold to a cave dock and stays behind to guard it and Dravos ([[Session 021 — House of Justice|Episode 21]]).
+
+## Episode 22
+
+- Sends Bob ashore while Lou limps back, lowers the ramp for Voss's car and sails the ship out under cannon fire (560/600 HP) ([[Session 022 — The Missing Piece|Episode 22]]).
+
+## Episode 23
+
+- Takes the helm as the Lex Imperia warships chase the ship, calms the panicking horses and later the sabre-toothed tiger, and keeps the ship moving until the sea king stops the chase. Patches holes with Bob afterwards ([[Session 023 — Choice for life|Episode 23]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

@@ -348,6 +348,10 @@ About a year before the present, travelling alone through Wano, Roma meets the L
 
 - Lands the finishing blow on the storm-driven Sea King. Buys a Heat dial (50,000 berries, "for boiling water") ([[Session 002 — Stormwings of Ambercrest|Episode 2]]).
 
+## Episode 3
+
+- With the crew in the Spirit Cliff market, knocks out the special-armor marines and stashes the bodies; the crew loots marine armor, an info-phone Den Den Mushi and a radio ([[Session 003 — Cliffside Gambit|Episode 3]]).
+
 ## Episode 5
 
 - Runs the fountain distraction outside the [[World Government Bank]] while the entry team goes in ([[Session 005 — Midnight Chainbreak|Episode 5]]).
@@ -409,6 +413,18 @@ About a year before the present, travelling alone through Wano, Roma meets the L
 ## Episode 19
 
 - Wins his Davy Back Fight bout against [[Malak Samum]] (called Malik) after a natural 20 on initiative and raging. Tries to take [[Riff Sin]] along in a wine barrel; Baptiste makes it conditional on finding the surviving twin. Follows her trail with Bob to a cliff and out to sea, loses it, and spends the night getting high with the panthers ([[Session 019 — The Walking Dead|Episode 19]]).
+
+## Episode 21
+
+- Cooks the crew breakfast, then bluffs his way into Judge Valehart's kitchen as a chef, takes it over and wins the judge over. Learns Zim's hearing is tomorrow and Droven's execution is near. His forged note to the judge's son Cassian fails and he is fired. Frees every prisoner in the high-court basement, causing a riot the Marines answer with gunfire. Chased by an armor, he is shot at on the docks and pulled through the floor by Linus ([[Session 021 — House of Justice|Episode 21]]).
+
+## Episode 22
+
+- Reunited with Linus in the cells. Finds Zim on Voss's warship and punches out the seastone cell door. Takes Voss's four serums. Cooks the crew a meal afterwards, then walks in on Baptiste and Voss ([[Session 022 — The Missing Piece|Episode 22]]).
+
+## Episode 23
+
+- Summons an air elemental in the kitchen, and its whirlwind flings Marines off the warship's bow. Pulls the drowning Baptiste and Bob out of the sea. Cooks the dead horses, then drinks the white serum (033) and becomes fully human, losing his Yeti form. Ties a sheet to Voss and the door handle as a prank. Mimes taking the green serum ([[Session 023 — Choice for life|Episode 23]]).
 
 ## Live sheet (Foundry)
 
