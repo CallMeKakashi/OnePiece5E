@@ -52,6 +52,10 @@ Player character of the [[Royal Flush Gang]]. Grounded, observant, and suspiciou
 
 - Boards with Goru as his escort and fires from range all fight under the table rule that natural 1s hit allies; one critical goes through Roma's leg, and his marked shots hit Alice. Refuses Linus's healing and guards Goru afterwards ([[Session 025 — Fire Storm|Episode 25]]).
 
+## Episode 26
+
+- Meets [[King]] and [[Queen]] on Mira's ship and tells Queen that Linus drank the money away and is on the island. Arno asks who called backup. Thompson warns him and he answers that he keeps his deals. Follows Baptiste and Mira to the Giuseppes, bows to Rum. At training he lands the first hits on Mira (9 each from two shots) and is knocked out ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Related
 
 - [[Royal Flush Gang]]

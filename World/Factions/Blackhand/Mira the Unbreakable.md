@@ -93,6 +93,11 @@ Feared by enemies, revered by her allies — her legend stretches across seas.
 - Calls Baptiste furious that someone from the other family told her the crew holds a Marine. Orders him to kill or release Voss, to keep clear of the Sixfold, and to talk to Thompson, warning that the Marines will come after every Blackhand crew. Hangs up on his question about being "Blackhand in name only" ([[Session 024 — The Friendly Baron|Episode 24]]).
 - In 24.5 she is heard sparring Tray in the background while Thompson begs Baptiste for help ([[Session 024.5 — Interstitial RP|24.5]]).
 
+## Episode 26
+
+- Lands from the sky in the waterfall cave, hugs Baptiste ("one of us") and takes the crew to Yorktown. A Blackhand fleet commander with a wind Logia, fishman kung fu with Haki, and the Black Hand flag on her ship. Her spy unit has gone silent and she sent Akira to North Blue without word back.
+- Introduces the crew to the Giuseppes and trains the party at the training grounds, beating Baptiste, Bob, Roma, Jack and Cade in turn. Her Conqueror's Haki drops all but Baptiste, and she says he may have potential in it. Orders them to train without Devil Fruit powers ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

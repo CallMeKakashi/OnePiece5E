@@ -115,6 +115,10 @@ foundry_live_slug: "b-o-b-old"
 
 - Resuscitates Roma at the mansion. In the fleet fight he coats his halberd in dark blood (dim light becomes darkness), cuts down a Marine, goes down to Leon's flame slashes, and is revived with the green vial. His saber-tooth dies; he keeps the whistles ([[Session 025 — Fire Storm|Episode 25]]).
 
+## Episode 26
+
+- Holds out longest against Mira (1 HP after a throw) and breathes toxic fumes on her as a hex. Goes unconscious to Mira, is healed by Tray, and avoids Julie ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

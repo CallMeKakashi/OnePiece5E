@@ -8,7 +8,7 @@ publish: false
 
 Running count of kills by the party, updated after every session grill (from [[Session 023 — Choice for life|Session 23]] on). A kill is an NPC or creature that died because of a specific PC's action in play. Knock-outs, NPC-on-NPC deaths and nightmare-only deaths do not count. Jack joins the table when he arrives.
 
-Last updated: after the [[Session 025 — Fire Storm|Session 25]] grill (2026-10-02). Sessions 26 onward have not been grilled yet.
+Last updated: after the [[Session 026 — Daliance of Hearts|Session 26]] grill (2026-10-02). Sessions 27 onward have not been grilled yet.
 
 ## Totals (confirmed)
 
@@ -56,5 +56,5 @@ Last updated: after the [[Session 025 — Fire Storm|Session 25]] grill (2026-10
 ## Not counted
 
 - **Nightmare only:** S10 (Roma on Daniel, Marines; Bob on Voss), S11 (Roma on nightmare Pasha).
-- **No PC kills:** S3, S4, S5, S6, S8, S9, S15, S17 (Aegir contained, not killed), S18, S19, S22 (Voss spared, the white armor wrecked), S23 (no confirmed counts; see "Needs DM confirmation"), S24 for Baptiste, Malphas and Bob (two guards knocked out). Jack has not arrived at the table yet.
+- **No PC kills:** S3, S4, S5, S6, S8, S9, S15, S17 (Aegir contained, not killed), S18, S19, S22 (Voss spared, the white armor wrecked), S26 (training fights only), S23 (no confirmed counts; see "Needs DM confirmation"), S24 for Baptiste, Malphas and Bob (two guards knocked out). Jack has not arrived at the table yet.
 - **Credited to others:** Facade killed Rhythm (S16); Riff shot Synth (S15); Ben killed RyeNera (S6).

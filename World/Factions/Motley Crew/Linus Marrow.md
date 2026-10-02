@@ -94,6 +94,10 @@ After the ravine collapse, the rescued crew recover for nearly three weeks at hi
 
 - Identifies the vials (green heals, white reverts, blue speed, red frenzy, black unknown) and extends Dravos's pipe range. Enters the warship through the pipe and is knocked out by an unknown wolf-beast; Dravos pulls him to safety. Heals the crew afterwards, then recognises Nikolai ("Anton") as the voice behind the drone ([[Session 025 — Fire Storm|Episode 25]]).
 
+## Episode 26
+
+- With Zim, tells Baptiste they should separate, takes the spare boat to scout the island and avoid Mira ("I am kind of scared of her"). Jack reports to Queen that he drank the money away and is on the island ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Related
 
 - [[Dr Nikolai Tesla]]

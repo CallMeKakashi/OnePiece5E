@@ -90,6 +90,10 @@ After several others failed, she infiltrated [[Capone Family]]-occupied territor
 
 - Stays below deck and helps Tigor steer. Reluctantly takes the wolf Luca (Lou) from Roma to mind during the fight. Knocked out by Alice's Haki with the rest ([[Session 025 — Fire Storm|Episode 25]]).
 
+## Episode 26
+
+- Leaves with Linus in the spare boat to scout the island, and says goodbye to Baptiste ("this is it, huh") ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Open Questions
 
 - Who is her Marine correspondent in Loguetown, and where is the device?

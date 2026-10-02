@@ -19,6 +19,10 @@ foundry_live_slug: "rhum"
 Twin brother of [[Rum Guiseppi]]. Devil Fruit: [[Ink Ink no Mi]].
 
 As a Guiseppi, among those whose heads the [[Capone Family]] demanded during the invasion ([[Timeline/Undated/[Event] Capone Invasion — Time Skip]]).
+## Episode 26
+
+- Rum's twin brother. Leaves ink marks on the floor as he walks into the meeting room, and sits across from Baptiste, answering his wink with an intense look ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

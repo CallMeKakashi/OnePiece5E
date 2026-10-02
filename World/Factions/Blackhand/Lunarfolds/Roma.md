@@ -439,6 +439,10 @@ About a year before the present, travelling alone through Wano, Roma meets the L
 
 - Wakes choking at the Valehart mansion with Bob resuscitating him; wears a chef's outfit and must return it intact. On the escort warship he goes hybrid and rages, smashes a fleeing Marine's head with his skillet, and is dropped to 1 HP, then through the leg by Jack's critical bullet (33). Leon's flame slashes drop him and Bob; Linus heals them afterwards ([[Session 025 — Fire Storm|Episode 25]]).
 
+## Episode 26
+
+- Cooks for Crunch, gets a toy kaiju from Julie, and is compelled by her head-pat after failing the Wisdom save. Stunned and floored by Mira in the training fight, and brought back by Tray ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

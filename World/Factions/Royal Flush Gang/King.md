@@ -24,6 +24,10 @@ Leader of the [[Royal Flush Gang]]. Conqueror's Haki user; can build a house of 
 - **Royal Flush Casino** — Hosted the West Blue family heads' poker-table meeting; clashed Conqueror's Haki with old friend [[Graff Bolt]], then trained [[Melina Celeste]] inside his house of cards ([[Timeline/Undated/[Event] The Royal Flush Casino Meeting]]).
 - **Time skip** — Turned back with [[Queen]] before reaching the West Blue when the Capones invaded the Juniper Islands ([[Timeline/Undated/[Event] Capone Invasion — Time Skip]]).
 
+## Episode 26
+
+- Warns Jack he will wish he had stayed back, then leaves by sub with Queen and Arno ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Related
 
 - [[Royal Flush Gang]] · [[Queen]] · [[The Ace]] · [[The Joker]] · [[Matthew -The Jack- Burgess]]

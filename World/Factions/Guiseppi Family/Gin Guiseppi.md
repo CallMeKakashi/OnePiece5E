@@ -16,6 +16,10 @@ foundry_live_slug: "gin"
 ## Role
 
 Youngest brother. Devil Fruit: [[Kobu Kobu no Mi]].
+## Episode 26
+
+- The youngest Giuseppe. Bumps into Baptiste outside the Risky Choice ("I'm walking here") until Mira tells him to leave it alone. Turns down Baptiste's invitation to train, and when Whiskey says he is busy with his own little crew of pirates, he snaps that it was told to her in confidence ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

@@ -15,6 +15,10 @@ foundry_live_slug: "brandy"
 ## Role
 
 Second older sister.
+## Episode 26
+
+- Rum's younger sister, seated at his right. Nods to Baptiste and Jack when Rum introduces the family ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

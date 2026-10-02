@@ -25,6 +25,10 @@ foundry_live_slug: "arno-capone"
 
 Negotiator of the [[Capone Family]]; part of the West Blue assault party. Sat at the Juniper Island negotiating table with [[Queen]] and [[Mira the Unbreakable|Mira]], where he insisted the [[Guiseppi Family]] denied involvement in the hit on [[Lorenzo Capone]] until Queen sent him out (world-lore, 2026-04-12).
 
+## Episode 26
+
+- A suit seen around the casino, he meets Jack on Mira's ship: "You called for backup? When?" and complains the newcomers strengthen the other side. Sits tight at Queen's urging, then leaves by sub ([[Session 026 — Daliance of Hearts|Episode 26]]).
+
 ## Related
 
 - [[Capone Family]]
