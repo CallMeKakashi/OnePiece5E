@@ -40,7 +40,7 @@ const clean = new Map<string, string[]>();
 }
 export const unmatchedNames: Record<string, string[]> = {};
 // spelling variants between the supplied lists and compendium names
-const ALIAS: Record<string, string> = { combust: "combustion", "wind blast": "windblast", featherfall: "feather fall", thunderstep: "thunder step" };
+const ALIAS: Record<string, string> = { combust: "combustion", "wind blast": "windblast", featherfall: "feather fall", thunderstep: "thunder step", "mind prison": "mental prison" };
 const fromClean = (id: string) => {
   const ids = new Set<string>();
   for (const n of clean.get(id) ?? []) {

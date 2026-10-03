@@ -81,6 +81,7 @@ const pageSetup = () => {
     for (const a of acts) {
       const r = { type: a.type, name: a.name };
       if (item.system.uses?.spent) await item.update({ "system.uses.spent": 0 });   // each activity gets a fresh use
+      if (actor.system.spells) await actor.update({ "system.spells": Object.fromEntries(Object.entries(actor.system.spells).filter(([, v]) => v?.max).map(([k, v]) => [k, { value: v.max }])) });   // each option is its own cast
       const fxCount = () => actor.effects.size + (game.user.targets.first()?.actor?.effects.size ?? 0) + actor.items.reduce((n, i) => n + i.effects.size * 0, 0);
       const fx0 = fxCount();
       const msgs = game.messages.size, qty = item.system.quantity, spent = item.system.uses?.spent;

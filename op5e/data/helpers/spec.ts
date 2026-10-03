@@ -5,7 +5,8 @@ import { transformDamagePart } from "./activities.js";
 // Hand-written automation specs -> dnd5e 5.1 activities + effects. One spec per compendium item, keyed "pack/Name".
 // Each activity is one "button": a save, an attack, a damage roll, a heal or a utility with effects.
 
-export type Dmg = [formula: string, types: string | string[]];
+/** [formula, damage type(s), optional per-slot-level increase such as "1d8"] */
+export type Dmg = [formula: string, types: string | string[], upcast?: string];
 export interface EffectSpec {
   name: string; changes?: EffectChangeInput[]; statuses?: string[]; seconds?: number; rounds?: number; transfer?: boolean;
   /** true: applies to the targets of the activity (failed save / hit); false: to the user */
@@ -37,10 +38,12 @@ export interface Spec { /** replaces the description with clearer per-option HTM
 
 const id16 = (path: string) => generateId(`act/${path}`);
 const types = (t: string | string[]) => (Array.isArray(t) ? t : [t]);
-const part = (d: Dmg) => ({ ...transformDamagePart([d[0], types(d[1])[0]]), types: types(d[1]) });
+const part = (d: Dmg) => { const p = { ...transformDamagePart([d[0], types(d[1])[0]]), types: types(d[1]) }; if (d[2]) p.scaling = { mode: d[2].endsWith("/2") ? "half" : "whole", number: null, formula: d[2].replace(/\/2$/, "") }; return p; };
 const DC_DEFAULT = "8 + @prof + max(@abilities.str.mod, @abilities.dex.mod, @abilities.con.mod, @abilities.int.mod, @abilities.wis.mod, @abilities.cha.mod)";
 
-export function buildFromSpec(key: string, spec: Spec) {
+export interface SpecDefaults { activation?: string; range?: number | null; rangeUnits?: string; durationValue?: string; durationUnits?: string; concentration?: boolean; spell?: boolean }
+
+export function buildFromSpec(key: string, spec: Spec, defaults: SpecDefaults = {}) {
   const effects: ReturnType<typeof createDAEEffect>[] = [];
   const effectId = (e: EffectSpec, ai: number) => {
     const ex = effects.find((x) => x.name === e.name);
@@ -53,12 +56,14 @@ export function buildFromSpec(key: string, spec: Spec) {
     const id = id16(`${key}/${i}`);
     const act: Record<string, unknown> = {
       _id: id, type: a.type, name: a.name, sort: i,
-      activation: { type: a.activation ?? "action", value: a.activation === "minute" ? 1 : 1, condition: a.reactionWhen ?? "", override: false },
-      consumption: { targets: a.consumeUse ? [{ type: "itemUses", target: "", value: "1", scaling: { mode: "", formula: "" } }] : [], scaling: { allowed: false, max: "" }, spellSlot: false },
+      activation: { type: a.activation ?? defaults.activation ?? "action", value: 1, condition: a.reactionWhen ?? "", override: false },
+      consumption: { targets: a.consumeUse ? [{ type: "itemUses", target: "", value: "1", scaling: { mode: "", formula: "" } }] : [], scaling: { allowed: !!defaults.spell && (a.damage?.some((d) => d[2]) ?? false), max: "" }, spellSlot: !!defaults.spell && !a.consumeUse },
       description: { chatFlavor: a.note ?? "" },
-      duration: { concentration: a.duration?.concentration ?? false, value: a.duration && a.duration.units !== "inst" ? String(a.duration.value) : "", units: a.duration?.units ?? "inst", special: "", override: !!a.duration },
+      duration: a.duration
+        ? { concentration: a.duration.concentration ?? defaults.concentration ?? false, value: a.duration.units !== "inst" ? String(a.duration.value) : "", units: a.duration.units, special: "", override: true }
+        : { concentration: defaults.concentration ?? false, value: defaults.durationValue ?? "", units: defaults.durationUnits ?? "inst", special: "", override: false },
       effects: (a.effects ?? []).map((e) => ({ _id: effectId(e, i), onSave: false })),
-      range: { value: a.range ?? null, units: a.rangeUnits ?? (a.range ? "ft" : ""), special: "", override: false },
+      range: { value: a.range ?? defaults.range ?? null, units: a.rangeUnits ?? (a.range ? "ft" : (defaults.rangeUnits ?? "")), special: "", override: a.range !== undefined },
       target: {
         template: a.area ? { count: "1", contiguous: false, type: a.area.type, size: String(a.area.size), width: "", height: "", units: "ft" } : { count: "", contiguous: false, type: "", size: "", width: "", height: "", units: "" },
         // a buff whose effects are all for the user targets "self"; otherwise effects land on whoever is targeted
@@ -90,8 +95,13 @@ export function buildFromSpec(key: string, spec: Spec) {
 }
 
 /** Applies a spec to a built document: replaces its activities, appends effects, optionally sets uses. */
-export function applySpec<T extends { name: string; system: Record<string, unknown>; effects?: unknown[] }>(doc: T, spec: Spec, key: string): T {
-  const built = buildFromSpec(key, spec);
+export function applySpec<T extends { name: string; type?: string; system: Record<string, unknown>; effects?: unknown[] }>(doc: T, spec: Spec, key: string): T {
+  const sys0 = doc.system as { activation?: { type?: string }; range?: { value?: number | null; units?: string }; duration?: { value?: string | number | null; units?: string }; components?: { concentration?: boolean } };
+  const built = buildFromSpec(key, spec, {
+    spell: doc.type === "spell" || (doc as { type?: string }).type === "spell", activation: sys0.activation?.type || undefined,
+    range: sys0.range?.value ?? null, rangeUnits: sys0.range?.units ?? "", durationValue: sys0.duration?.value != null ? String(sys0.duration.value) : "",
+    durationUnits: sys0.duration?.units || "inst", concentration: !!sys0.components?.concentration,
+  });
   const system = { ...doc.system, activities: built.activities } as Record<string, unknown>;
   if (spec.descriptionHtml) system.description = { ...(system.description as object), value: spec.descriptionHtml };
   if (spec.uses) system.uses = { ...(system.uses as object), max: spec.uses.max, per: spec.uses.per ?? null, value: null, recovery: "", prompt: true };
