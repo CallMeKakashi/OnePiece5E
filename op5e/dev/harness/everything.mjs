@@ -86,6 +86,25 @@ const pageSetup = () => {
       const fx0 = fxCount();
       const msgs = game.messages.size, qty = item.system.quantity, spent = item.system.uses?.spent;
       try {
+        if (a.type === "summon") {
+          // placing a token needs a canvas: verify every profile resolves and that the activity's bonuses evaluate on the summoned actor
+          if (!a.profiles?.length) throw new Error("no summon profiles");
+          for (const p of a.profiles) {
+            const doc = await fromUuid(p.uuid);
+            if (!doc) throw new Error(`profile "${p.name}" does not resolve (${p.uuid})`);
+            if (doc.name !== p.name) throw new Error(`profile "${p.name}" points at "${doc.name}"`);
+            const [sa] = await Actor.create([{ ...doc.toObject(), _id: undefined }], { keepId: false });
+            try {
+              const ch = await a.getChanges(sa, p, {});
+              const hp = (ch.actorChanges ?? ch.actorUpdates ?? ch)["system.attributes.hp.max"] ?? sa.system.attributes.hp.max;
+              if (!Number.isFinite(Number(hp)) && hp !== undefined) throw new Error(`profile "${p.name}": hp bonus did not evaluate`);
+              if (!sa.items.some((i) => i.system.activities?.size)) r.warns = [...(r.warns ?? []), `${p.name}: no usable actions`];
+            } finally { await sa.delete().catch(() => {}); }
+          }
+          r.message = true; r.summon = a.profiles.length;
+          out.activities.push(r);
+          continue;
+        }
         await Promise.race([H.executeActivity(item, a.id), new Promise((_, j) => setTimeout(() => j(new Error("TIMEOUT")), 10000))]);
         await new Promise((res) => setTimeout(res, 150));
         r.message = game.messages.size > msgs;

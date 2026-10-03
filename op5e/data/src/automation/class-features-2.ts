@@ -74,6 +74,7 @@ export const classFeatureSpecs2: Record<string, Spec> = {
   "class-features/Mechanical Cannon": {
     activities: [
       { name: "Create Cannon", type: "utility", activation: "action", range: 5, note: "Using woodcarver's tools or smith's tools, create a Small or Tiny cannon (AC 18, hit points = 5 x your gadgeteer level, immune to poison and psychic) on a horizontal surface within 5 feet. Once per long rest unless you expend a creation slot." },
+      { name: "Summon Cannon", type: "summon", summon: { profiles: ["Mechanical Cannon"], hp: "5 * (@classes.gadgeteer.levels - 1)" } },
       { name: "Elemental Culverin", type: "save", activation: "bonus", area: { type: "cone", size: 15 }, targets: { type: "creature" },
         save: { ability: "dex", dc: INT_DC, onSave: "half" }, damage: [["3d8", ["fire", "cold", "lightning", "acid", "thunder", "poison"]]], note: "The cannon exhales energy in an adjacent 15-foot cone." },
       { name: "Force Ballista", type: "attack", activation: "bonus", range: 120, attack: { type: "ranged", ability: "int" }, damage: [["3d8", "force"]], note: "Ranged creation attack from the cannon. On a hit the target is also pushed up to 5 feet." },
