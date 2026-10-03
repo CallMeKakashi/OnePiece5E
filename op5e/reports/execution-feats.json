@@ -2357,7 +2357,9 @@
     "ste": 0,
     "sur": 0
    },
-   "tools": {},
+   "tools": {
+    "dial": 1
+   },
    "armor": [],
    "init": "",
    "hpMax": 11,
@@ -3115,7 +3117,9 @@
     "ste": 0,
     "sur": 0
    },
-   "tools": {},
+   "tools": {
+    "fishing": 1
+   },
    "armor": [],
    "init": "",
    "hpMax": 11,
@@ -6703,7 +6707,9 @@
     "ste": 0,
     "sur": 0
    },
-   "tools": {},
+   "tools": {
+    "appraiser": 1
+   },
    "armor": [],
    "init": "",
    "hpMax": 11,

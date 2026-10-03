@@ -489,13 +489,14 @@
  {
   "pack": "backgrounds",
   "name": "Swordsman",
-  "steps": 2,
+  "steps": 3,
   "issues": [],
   "granted": [
    "Small Medkit",
    "Rations (1 day)",
    "Memento",
-   "Whetstone"
+   "Whetstone",
+   "Rapier Mastery"
   ],
   "base": {
    "size": "med",
@@ -515,7 +516,7 @@
    "hpMax": 10,
    "saves": "",
    "skills": 2,
-   "features": 2,
+   "features": 3,
    "size": "med",
    "walk": 0,
    "swim": 0,
@@ -687,7 +688,7 @@
  {
   "pack": "backgrounds",
   "name": "Slave",
-  "steps": 3,
+  "steps": 4,
   "issues": [],
   "granted": [
    "Small Medkit",
@@ -1139,7 +1140,7 @@
  {
   "pack": "backgrounds",
   "name": "Fisherman",
-  "steps": 4,
+  "steps": 6,
   "issues": [],
   "granted": [
    "Small Medkit",
@@ -1336,7 +1337,7 @@
  {
   "pack": "backgrounds",
   "name": "Role: Captain",
-  "steps": 2,
+  "steps": 3,
   "issues": [],
   "granted": [
    "Clothes, Common",
@@ -2270,13 +2271,14 @@
  {
   "pack": "backgrounds",
   "name": "Sniper",
-  "steps": 2,
+  "steps": 3,
   "issues": [],
   "granted": [
    "Small Medkit",
    "Rations (1 day)",
    "Spyglass",
-   "Memento"
+   "Memento",
+   "Bow Mastery"
   ],
   "base": {
    "size": "med",
@@ -2296,7 +2298,7 @@
    "hpMax": 10,
    "saves": "",
    "skills": 2,
-   "features": 2,
+   "features": 3,
    "size": "med",
    "walk": 0,
    "swim": 0,
@@ -3206,7 +3208,7 @@
  {
   "pack": "backgrounds",
   "name": "Scientist",
-  "steps": 4,
+  "steps": 5,
   "issues": [],
   "granted": [
    "Small Medkit",

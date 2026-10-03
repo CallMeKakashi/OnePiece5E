@@ -1,4 +1,5 @@
 import { initOp5eAnimations } from "./animations.mjs";
+import { applyOp5eCriticalDamage, looksLikeDamageRollConfig } from "./crit-damage.mjs";
 import { MODULE_ID, MODULE_VERSION } from "./constants.mjs";
 import { registerOp5eFeatureHooks } from "./feature-hooks.mjs";
 import { registerOp5eHakiAdvancementHooks } from "./haki-advancement.mjs";
@@ -77,6 +78,15 @@ Hooks.on("settingChange", (moduleId, key, value) => {
     applyBerriesEncumbrance(value);
   }
 });
+/** OP5e criticals keep one set of dice plus max dice (no doubling); see crit-damage.mjs. */
+function onPreRollDamage(rollConfig, _dialog, _message, source) {
+  try {
+    if (looksLikeDamageRollConfig(rollConfig)) applyOp5eCriticalDamage(rollConfig, source);
+  } catch (err) {
+    console.error(`${MODULE_ID} | crit damage override failed (${source})`, err);
+  }
+}
+
 Hooks.on("dnd5e.preRollDamageV2", (rollConfig, dialog, message) => {
   onPreRollDamage(rollConfig, dialog, message, "dnd5e.preRollDamageV2");
 });

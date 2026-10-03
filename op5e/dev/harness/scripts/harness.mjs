@@ -62,8 +62,19 @@ const H = {
     H.assert(act, `activity ${key} not on ${item.name}`);
     return act.use({ create: { measuredTemplate: false } }, { configure }, { create: true });
   },
-  async rollAttack(item, key = "attack") { const a = H.findActivity(item, key); return a.rollAttack({}, { configure: false }, {}); },
-  async rollDamage(item, key = "attack", opts = {}) { const a = H.findActivity(item, key); return a.rollDamage(opts, { configure: false }, {}); },
+  // With Midi-QOL active the roll flow belongs to its workflow: use the activity and read the rolls it posts.
+  midiActive: () => !!game.modules.get("midi-qol")?.active,
+  async _viaMidi(item, key, kind) {
+    const before = game.messages.size;
+    await H.executeActivity(item, key);
+    for (let i = 0; i < 30 && game.messages.size === before; i++) await new Promise((r) => setTimeout(r, 100));
+    await new Promise((r) => setTimeout(r, 1200));
+    const rolls = game.messages.contents.slice(before).flatMap((m) => m.rolls);
+    const isDamage = (r) => r instanceof CONFIG.Dice.DamageRoll;
+    return rolls.filter((r) => (kind === "damage" ? isDamage(r) : !isDamage(r)));
+  },
+  async rollAttack(item, key = "attack") { const a = H.findActivity(item, key); return H.midiActive() ? H._viaMidi(item, key, "attack") : a.rollAttack({}, { configure: false }, {}); },
+  async rollDamage(item, key = "attack", opts = {}) { const a = H.findActivity(item, key); return H.midiActive() ? H._viaMidi(item, key, "damage") : a.rollDamage(opts, { configure: false }, {}); },
   rollSave: (actor, ability, opts = {}) => actor.rollSavingThrow({ ability, ...opts }, { configure: false }, {}),
 
   getActorData: (a) => a.toObject(),
