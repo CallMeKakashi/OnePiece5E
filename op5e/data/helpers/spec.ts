@@ -23,6 +23,8 @@ export interface ActSpec {
   save?: { ability: string | string[]; dc?: string; onSave?: "half" | "none" | "full" };
   attack?: { type: "melee" | "ranged"; bonus?: string; ability?: string };
   damage?: Dmg[];
+  /** weapon attacks: also roll the item's own base damage */
+  includeBase?: boolean;
   healing?: { formula: string; type?: "healing" | "temp" };
   duration?: { value: number; units: "round" | "minute" | "hour" | "day" | "inst" | "turn"; concentration?: boolean };
   effects?: EffectSpec[];
@@ -72,7 +74,7 @@ export function buildFromSpec(key: string, spec: Spec) {
       act.damage = { onSave: a.save!.onSave ?? "half", parts: (a.damage ?? []).map(part) };
     } else if (a.type === "attack") {
       act.attack = { ability: a.attack?.ability ?? "", bonus: a.attack?.bonus ?? "", critical: { threshold: null }, flat: false, type: { value: a.attack?.type ?? "melee", classification: "weapon" } };
-      act.damage = { critical: { allow: true, bonus: "" }, parts: (a.damage ?? []).map(part) };
+      act.damage = { critical: { allow: true, bonus: "" }, includeBase: a.includeBase ?? false, parts: (a.damage ?? []).map(part) };
     } else if (a.type === "damage") {
       act.damage = { critical: { allow: false, bonus: "" }, parts: (a.damage ?? []).map(part) };
     } else if (a.type === "heal") {
