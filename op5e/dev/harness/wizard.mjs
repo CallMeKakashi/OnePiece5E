@@ -7,7 +7,7 @@
 // Role, devil fruit and Haki are class advancement choices (picked by the auto-advancer), not wizard steps.
 // Usage: node dev/harness/wizard.mjs [Class ...]    env LEVELS=1,5,12 to override.   Writes reports/execution-wizard.json (test world only).
 import { writeFileSync } from "node:fs";
-import { withFoundry } from "./drive.mjs";
+import { withFoundry, postToGM } from "./drive.mjs";
 import { BUILT } from "./advance-lib.mjs";
 
 const only = process.argv.slice(2);
@@ -79,6 +79,7 @@ try {
     for (const p of plan) {
       const r = await page.evaluate(`(${run.toString()})(${JSON.stringify(p)})`).catch((e) => ({ cls: p.cls, level: p.level, fails: [`harness: ${String(e.message).slice(0, 160)}`], notes: [] }));
       results.push(r);
+      await postToGM(page, `<p>${r.fails.length ? "❌" : "✅"} <b>Create OPC</b> ${r.cls} level ${r.level}${r.fails.length ? ` — ${r.fails.slice(0, 2).join(" | ")}` : " ok"}</p>`);
       console.log(`${r.fails.length ? "FAIL" : "ok  "} ${r.cls} L${r.level}${r.setup ? ` (${r.setup.species}/${r.setup.background}${r.setup.sub ? `/${r.setup.sub}` : ""})` : ""}${r.row ? ` hp ${r.row.hp} haki ${r.haki}` : ""}${r.fails.length ? `: ${r.fails.slice(0, 3).join(" | ")}` : ""}`);
     }
   });

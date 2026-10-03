@@ -2,7 +2,7 @@
 // Builds throw-away actors with chosen ability scores / proficiencies / race / creations and asks the real built feats whether the actor qualifies.
 // Usage: node dev/harness/prereq.mjs      Writes reports/execution-prereq.json (test world only).
 import { writeFileSync } from "node:fs";
-import { withFoundry } from "./drive.mjs";
+import { withFoundry, postToGM } from "./drive.mjs";
 import { BUILT, pageLib } from "./advance-lib.mjs";
 
 const cases = [
@@ -102,6 +102,7 @@ try {
     Object.assign(results, r);
     console.log(`wrapper installed: ${r.wrapped}, setting registered: ${r.setting}`);
     for (const x of r.results) if (!x.pass) console.log(`FAIL ${x.feat}: ${x.label} -> ${JSON.stringify(x.got)}`);
+    await postToGM(page, `<p>${r.results.every((x) => x.pass) ? "✅" : "❌"} <b>Prerequisites</b>: ${r.results.filter((x) => x.pass).length}/${r.results.length} cases pass</p>`);
     console.log(`== prerequisites: ${r.results.filter((x) => x.pass).length}/${r.results.length} pass`);
   });
 } catch (e) { console.log(e.code ?? e.stack); process.exit(2); }

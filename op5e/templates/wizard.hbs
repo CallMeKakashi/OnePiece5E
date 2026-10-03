@@ -91,29 +91,47 @@
     </div>
   {{/if}}
 
-  {{#if (eq step "role")}}
-    <p class="op5e-cc__hint">Choose a ship role from the OP5e Backgrounds &amp; Roles pack.</p>
-    <div class="op5e-cc__choices" role="radiogroup" aria-label="Role">
-      {{#each choices.roles}}
-        <label class="op5e-cc__choice">
-          <input type="radio" name="roleFeatId" value="{{_id}}" {{#if (eq _id ../draft.data.roleFeatId)}}checked{{/if}} />
-          {{#if img}}<img class="op5e-cc__choice-img" src="{{img}}" alt="" width="48" height="48" />{{/if}}
-          <span class="op5e-cc__choice-label">{{name}}</span>
-        </label>
-      {{/each}}
-    </div>
-  {{/if}}
-
   {{#if (eq step "class")}}
+    {{#each classBlocks}}
+      <fieldset class="op5e-cc__class">
+        <legend>{{#if (eq n 1)}}Class{{else}}Second class — Optional (DM approval){{/if}}</legend>
+        <div class="op5e-cc__row">
+          <label>Class</label>
+          <select name="{{idKey}}">
+            <option value="">— {{#if (eq n 1)}}Choose{{else}}None{{/if}} —</option>
+            {{#each ../choices.classes}}
+              <option value="{{_id}}" {{#if (eq _id (lookup ../../draft.data ../idKey))}}selected{{/if}}>{{name}}</option>
+            {{/each}}
+          </select>
+        </div>
+        <div class="op5e-cc__row">
+          <label>Level</label>
+          <input name="{{lvKey}}" type="number" min="1" max="20" value="{{level}}" />
+        </div>
+        <div class="op5e-cc__row">
+          <label>Subclass</label>
+          <select name="{{subKey}}" {{#unless subclassEnabled}}disabled{{/unless}}>
+            <option value="">— {{#if subclassEnabled}}Choose{{else}}{{#if subclassLevel}}unlocks at level {{subclassLevel}}{{else}}pick a class first{{/if}}{{/if}} —</option>
+            {{#each subclasses}}
+              <option value="{{_id}}" {{#if selected}}selected{{/if}}>{{name}}</option>
+            {{/each}}
+          </select>
+        </div>
+      </fieldset>
+    {{/each}}
+    <p class="op5e-cc__hint">Total level: <strong>{{totalLevel}}</strong> / 20. The book has no multiclass rules; a second class needs DM approval. The character is created at level 1, then levelled one level at a time.</p>
     <div class="op5e-cc__row">
-      <label>Class</label>
-      <select name="classId">
-        <option value="">— Choose —</option>
-        {{#each choices.classes}}
-          <option value="{{_id}}" {{#if (eq _id ../draft.data.classId)}}selected{{/if}}>{{name}}</option>
-        {{/each}}
+      <label>Hit points per level</label>
+      <select name="hpMode">
+        <option value="avg" {{#if (eq draft.data.hpMode "avg")}}selected{{/if}}>Average (default)</option>
+        <option value="roll" {{#if (eq draft.data.hpMode "roll")}}selected{{/if}}>Roll, never below average</option>
       </select>
     </div>
+    <div class="op5e-cc__row">
+      <label>Auto-apply default choices (testing)</label>
+      <input type="checkbox" name="autoApply" {{#if draft.data.autoApply}}checked{{/if}} />
+    </div>
+    <p class="op5e-cc__hint">Rolled hit points apply to automatic application only; the manual level-up dialog offers its own Roll button.</p>
   {{/if}}
 
   {{#if (eq step "abilities")}}
@@ -122,12 +140,14 @@
       <select name="abilityMethod">
         <option value="pointBuy" {{#if (eq draft.data.abilityMethod "pointBuy")}}selected{{/if}}>Point-buy (27)</option>
         <option value="array" {{#if (eq draft.data.abilityMethod "array")}}selected{{/if}}>Standard array</option>
+        <option value="ursa" {{#if (eq draft.data.abilityMethod "ursa")}}selected{{/if}}>Ursa Array (variant: 16, 16, 14, 12, 12, 8)</option>
         <option value="roll" {{#if (eq draft.data.abilityMethod "roll")}}selected{{/if}}>Roll</option>
       </select>
     </div>
 
     <div class="op5e-cc__footer" style="padding: 0;">
       <button type="button" data-action="useArray">Use Standard Array</button>
+      <button type="button" data-action="useUrsa">Use Ursa Array</button>
       <button type="button" data-action="rollScores">Roll 4d6 Drop Lowest</button>
     </div>
 
@@ -135,38 +155,19 @@
       {{#each draft.data.abilities}}
         <div class="op5e-cc__cell">
           <label>{{@key}}</label>
-          <input name="ability.{{@key}}" type="number" min="8" max="15" value="{{this}}" />
+          <input name="ability.{{@key}}" type="number" min="{{abilityMin}}" max="{{abilityMax}}" value="{{this}}" />
         </div>
       {{/each}}
     </div>
 
     <p class="op5e-cc__hint">
-      Point-buy: spent <strong>{{pointBuy.spent}}</strong> / {{pointBuy.total}}
-      {{#if pointBuy.valid}}(valid){{else}}(must equal 27){{/if}}
+      {{#if (eq draft.data.abilityMethod "ursa")}}
+        Ursa Array: assign exactly 16, 16, 14, 12, 12, 8 {{#if abilitiesOk}}(valid){{else}}(not yet a permutation){{/if}}. Racial and feat bonuses come on top.
+      {{else}}
+        Point-buy: spent <strong>{{pointBuy.spent}}</strong> / {{pointBuy.total}}
+        {{#if pointBuy.valid}}(valid){{else}}(must equal 27){{/if}}
+      {{/if}}
     </p>
-  {{/if}}
-
-  {{#if (eq step "fork")}}
-    <div class="op5e-cc__row">
-      <label>OP5e fork</label>
-      <select name="forkKind">
-        <option value="additionalPower" {{#if (eq draft.data.fork.kind "additionalPower")}}selected{{/if}}>Additional Power now (stored as feat)</option>
-        <option value="devilFruitLater" {{#if (eq draft.data.fork.kind "devilFruitLater")}}selected{{/if}}>Devil Fruit later</option>
-      </select>
-    </div>
-
-    {{#if (eq draft.data.fork.kind "additionalPower")}}
-      <div class="op5e-cc__row">
-        <label>Additional Power (Feat)</label>
-        <select name="additionalPowerFeatId">
-          <option value="">— Choose —</option>
-          {{#each choices.additionalPowers}}
-            <option value="{{_id}}" {{#if (eq _id ../draft.data.fork.additionalPowerFeatId)}}selected{{/if}}>{{name}}</option>
-          {{/each}}
-        </select>
-      </div>
-      <p class="op5e-cc__hint">Additional Power is currently stored as a feat/feature item. Devil Fruits can be added later.</p>
-    {{/if}}
   {{/if}}
 
   {{#if (eq step "finish")}}
@@ -176,9 +177,9 @@
         <li><strong>Name:</strong> {{draft.data.name}}</li>
         <li><strong>Species:</strong> {{draft.data.speciesId}}</li>
         <li><strong>Background:</strong> {{draft.data.backgroundId}}</li>
-        <li><strong>Role feat:</strong> {{draft.data.roleFeatId}}</li>
-        <li><strong>Class:</strong> {{draft.data.classId}}</li>
-        <li><strong>Fork:</strong> {{draft.data.fork.kind}}</li>
+        <li><strong>Class:</strong> {{draft.data.classId}} (level {{draft.data.level}})</li>
+        {{#if draft.data.classId2}}<li><strong>Second class:</strong> {{draft.data.classId2}} (level {{draft.data.level2}})</li>{{/if}}
+        <li><strong>Total level:</strong> {{totalLevel}}</li>
       </ul>
       <p class="op5e-cc__hint">Click Finish to create the actor; advancements and starting equipment are applied automatically.</p>
     </div>

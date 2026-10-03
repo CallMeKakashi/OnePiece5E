@@ -264,7 +264,8 @@ export function createTrait(
       mode: traits.mode,
       grants: traits.grants,
       choices: traits.choices ?? [],
-      allowReplacements: traits.allowReplacements ?? false,
+      // book ruling "Proficiency Reclaim": a proficiency you already have may be swapped for another of the same type (not for expertise)
+      allowReplacements: traits.allowReplacements ?? traits.mode !== "expertise",
       hint: traits.hint ?? "",
     },
     value: {},

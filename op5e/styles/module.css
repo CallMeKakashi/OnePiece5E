@@ -131,6 +131,18 @@
   line-height: 1.2;
 }
 
+.op5e-cc__class {
+  margin: 0 0 8px;
+  padding: 4px 8px;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  border-radius: 4px;
+}
+
+.op5e-cc__class legend {
+  font-size: 12px;
+  font-weight: 600;
+}
+
 .op5e-cc__subhead {
   margin: 8px 0 4px;
   font-size: 13px;

@@ -6,14 +6,14 @@
 //  - every owned feature's uses.max evaluates (formulas follow the new level) and every activity is present.
 // Usage: node dev/harness/levelup.mjs [Class ...]      Writes reports/execution-levelup.json (test world only).
 import { writeFileSync } from "node:fs";
-import { withFoundry } from "./drive.mjs";
+import { withFoundry, postToGM } from "./drive.mjs";
 import { BUILT, pageLib } from "./advance-lib.mjs";
 
 const only = process.argv.slice(2);
 const classes = Object.values(BUILT.classes).filter((c) => !only.length || only.includes(c.name));
 const subsByClass = {};
 for (const s of Object.values(BUILT.subclasses)) (subsByClass[s.system.classIdentifier] ??= []).push(s);
-const plan = classes.flatMap((c) => (subsByClass[c.system.identifier] ?? [null]).map((s) => ({ cls: c.name, clsId: c._id, sub: s?.name ?? null, subId: s?._id ?? null })));
+const plan = classes.flatMap((c) => (subsByClass[c.system.identifier] ?? [null]).map((s) => ({ cls: c.name, clsId: c._id, sub: s?.name ?? null, subId: s?._id ?? null, heavy: process.env.HEAVY === "1" })));
 
 const run = async (p) => {
   const AM = dnd5e.applications.advancement.AdvancementManager;
@@ -21,7 +21,7 @@ const run = async (p) => {
   const out = { cls: p.cls, sub: p.sub, levels: [], fails: [] };
   const note = (m) => out.fails.push(m);
   const cls = by("classes", p.clsId), sub = p.subId ? by("subclasses", p.subId) : null;
-  let actor = await Actor.create({ name: `[LU] ${p.cls}${p.sub ? ` / ${p.sub}` : ""}`, type: "character", system: { abilities: Object.fromEntries(["str", "dex", "con", "int", "wis", "cha"].map((k) => [k, { value: 14 }])), skills: { slt: { value: 1 }, rel: { value: 1 }, sur: { value: 1 }, ste: { value: 1 } } } });
+  let actor = await Actor.create({ name: `[LU] ${p.cls}${p.sub ? ` / ${p.sub}` : ""}`, type: "character", system: { abilities: Object.fromEntries(["str", "dex", "con", "int", "wis", "cha"].map((k) => [k, { value: 14 }])), skills: Object.fromEntries((p.heavy ? ["acr", "ani", "arc", "ath", "dec", "his", "ins", "itm", "inv", "med", "nat", "prc"] : ["slt", "rel", "sur", "ste"]).map((k) => [k, { value: 1 }])) } });   // HEAVY=1: skills already taken by background/role, so class skill pools are mostly used up
   // a real character arrives with background proficiencies; expertise features (Bard level 10) need skills to pick from
   const persist = async (clone) => { const d = clone.toObject(); delete d._id; delete d._stats; d.name = actor.name; const n = await Actor.create(d, { keepId: false }); await actor.delete(); actor = n; };
   try {
@@ -85,6 +85,7 @@ try {
     for (const p of plan) {
       const r = await page.evaluate(`(${run.toString()})(${JSON.stringify(p)})`).catch((e) => ({ cls: p.cls, sub: p.sub, levels: [], fails: [`harness: ${String(e.message).slice(0, 160)}`] }));
       results.push(r);
+      await postToGM(page, `<p>${r.fails.length ? "❌" : "✅"} <b>Level-up</b> ${r.cls}${r.sub ? ` / ${r.sub}` : ""}: ${r.levels.length + 1} levels${r.fails.length ? ` — ${r.fails.slice(0, 2).join(" | ")}` : " ok"}</p>`);
       console.log(`${r.fails.length ? "FAIL" : "ok  "} ${r.cls}${r.sub ? ` / ${r.sub}` : ""}: ${r.levels.length} levels${r.fails.length ? `, ${r.fails.length} issues: ${r.fails.slice(0, 3).join(" | ")}` : ""}`);
     }
   });

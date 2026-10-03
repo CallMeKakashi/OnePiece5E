@@ -11,6 +11,8 @@ export interface EffectSpec {
   name: string; changes?: EffectChangeInput[]; statuses?: string[]; seconds?: number; rounds?: number; transfer?: boolean;
   /** true: applies to the targets of the activity (failed save / hit); false: to the user */
   onTargets?: boolean; flags?: Record<string, unknown>;
+  /** passive effect that starts switched off: for rules dnd5e cannot evaluate itself (e.g. "while wearing no armor") the player toggles it */
+  disabled?: boolean;
 }
 export interface ActSpec {
   name: string;
@@ -50,7 +52,7 @@ export function buildFromSpec(key: string, spec: Spec, defaults: SpecDefaults = 
   const effectId = (e: EffectSpec, ai: number) => {
     const ex = effects.find((x) => x.name === e.name);
     if (ex) return ex._id;
-    const fx = createDAEEffect(`${key}/${e.name}`, e.name, e.changes ?? [], { transfer: e.transfer ?? false, statuses: e.statuses, durationSeconds: e.seconds, durationRounds: e.rounds, flags: e.flags });
+    const fx = createDAEEffect(`${key}/${e.name}`, e.name, e.changes ?? [], { transfer: e.transfer ?? false, statuses: e.statuses, durationSeconds: e.seconds, durationRounds: e.rounds, flags: e.flags, disabled: e.disabled });
     effects.push(fx); return fx._id; void ai;
   };
   const activities: Record<string, unknown> = {};

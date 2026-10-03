@@ -1,0 +1,575 @@
+[
+ {
+  "cls": "Marksman",
+  "level": 1,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Augmented",
+   "background": "Swordsman",
+   "subLevel": 3,
+   "sub": null
+  },
+  "haki": 0,
+  "row": {
+   "hp": 12,
+   "total": 73,
+   "items": 40,
+   "subclass": null
+  }
+ },
+ {
+  "cls": "Marksman",
+  "level": 5,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Augmented",
+   "background": "Swordsman",
+   "subLevel": 3,
+   "sub": "Swarmkeeper"
+  },
+  "haki": 0,
+  "row": {
+   "hp": 44,
+   "total": 75,
+   "items": 47,
+   "subclass": "Swarmkeeper"
+  }
+ },
+ {
+  "cls": "Marksman",
+  "level": 12,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Augmented",
+   "background": "Swordsman",
+   "subLevel": 3,
+   "sub": "Swarmkeeper"
+  },
+  "haki": 3,
+  "row": {
+   "hp": 100,
+   "total": 79,
+   "items": 57,
+   "subclass": "Swarmkeeper"
+  }
+ },
+ {
+  "cls": "Medic",
+  "level": 1,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Fishman",
+   "background": "Pirate",
+   "subLevel": 2,
+   "sub": null
+  },
+  "haki": 0,
+  "row": {
+   "hp": 11,
+   "total": 74,
+   "items": 30,
+   "subclass": null
+  }
+ },
+ {
+  "cls": "Medic",
+  "level": 5,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Fishman",
+   "background": "Pirate",
+   "subLevel": 2,
+   "sub": "Chemist"
+  },
+  "haki": 0,
+  "row": {
+   "hp": 43,
+   "total": 76,
+   "items": 40,
+   "subclass": "Chemist"
+  }
+ },
+ {
+  "cls": "Medic",
+  "level": 12,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Fishman",
+   "background": "Pirate",
+   "subLevel": 2,
+   "sub": "Chemist"
+  },
+  "haki": 3,
+  "row": {
+   "hp": 99,
+   "total": 80,
+   "items": 50,
+   "subclass": "Chemist"
+  }
+ },
+ {
+  "cls": "Savant",
+  "level": 1,
+  "fails": [
+   "note: L1 skills: trait choice 1/2"
+  ],
+  "notes": [
+   "L1 skills: trait choice 1/2"
+  ],
+  "setup": {
+   "species": "Lunarian",
+   "background": "Urchin",
+   "subLevel": 1,
+   "sub": "Necrotic Mania"
+  },
+  "haki": 0,
+  "row": {
+   "hp": 12,
+   "total": 74,
+   "items": 30,
+   "subclass": "Necrotic Mania"
+  }
+ },
+ {
+  "cls": "Savant",
+  "level": 5,
+  "fails": [
+   "note: L1 skills: trait choice 1/2"
+  ],
+  "notes": [
+   "L1 skills: trait choice 1/2"
+  ],
+  "setup": {
+   "species": "Lunarian",
+   "background": "Urchin",
+   "subLevel": 1,
+   "sub": "Necrotic Mania"
+  },
+  "haki": 0,
+  "row": {
+   "hp": 44,
+   "total": 76,
+   "items": 42,
+   "subclass": "Necrotic Mania"
+  }
+ },
+ {
+  "cls": "Savant",
+  "level": 12,
+  "fails": [
+   "note: L1 skills: trait choice 1/2"
+  ],
+  "notes": [
+   "L1 skills: trait choice 1/2"
+  ],
+  "setup": {
+   "species": "Lunarian",
+   "background": "Urchin",
+   "subLevel": 1,
+   "sub": "Necrotic Mania"
+  },
+  "haki": 3,
+  "row": {
+   "hp": 112,
+   "total": 80,
+   "items": 52,
+   "subclass": "Necrotic Mania"
+  }
+ },
+ {
+  "cls": "Fighter",
+  "level": 1,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Augmented",
+   "background": "Swordsman",
+   "subLevel": 3,
+   "sub": null
+  },
+  "haki": 0,
+  "row": {
+   "hp": 12,
+   "total": 73,
+   "items": 37,
+   "subclass": null
+  }
+ },
+ {
+  "cls": "Fighter",
+  "level": 5,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Augmented",
+   "background": "Swordsman",
+   "subLevel": 3,
+   "sub": "Brute"
+  },
+  "haki": 0,
+  "row": {
+   "hp": 44,
+   "total": 75,
+   "items": 41,
+   "subclass": "Brute"
+  }
+ },
+ {
+  "cls": "Fighter",
+  "level": 12,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Augmented",
+   "background": "Swordsman",
+   "subLevel": 3,
+   "sub": "Brute"
+  },
+  "haki": 3,
+  "row": {
+   "hp": 112,
+   "total": 81,
+   "items": 47,
+   "subclass": "Brute"
+  }
+ },
+ {
+  "cls": "Bard",
+  "level": 1,
+  "fails": [
+   "note: L1 skills: trait choice 1/2"
+  ],
+  "notes": [
+   "L1 skills: trait choice 1/2"
+  ],
+  "setup": {
+   "species": "Fishman",
+   "background": "Pirate",
+   "subLevel": 3,
+   "sub": null
+  },
+  "haki": 0,
+  "row": {
+   "hp": 11,
+   "total": 74,
+   "items": 29,
+   "subclass": null
+  }
+ },
+ {
+  "cls": "Bard",
+  "level": 5,
+  "fails": [
+   "note: L1 skills: trait choice 1/2"
+  ],
+  "notes": [
+   "L1 skills: trait choice 1/2"
+  ],
+  "setup": {
+   "species": "Fishman",
+   "background": "Pirate",
+   "subLevel": 3,
+   "sub": "College of Lore"
+  },
+  "haki": 0,
+  "row": {
+   "hp": 43,
+   "total": 76,
+   "items": 36,
+   "subclass": "College of Lore"
+  }
+ },
+ {
+  "cls": "Bard",
+  "level": 12,
+  "fails": [
+   "note: L1 skills: trait choice 1/2"
+  ],
+  "notes": [
+   "L1 skills: trait choice 1/2"
+  ],
+  "setup": {
+   "species": "Fishman",
+   "background": "Pirate",
+   "subLevel": 3,
+   "sub": "College of Lore"
+  },
+  "haki": 3,
+  "row": {
+   "hp": 99,
+   "total": 80,
+   "items": 45,
+   "subclass": "College of Lore"
+  }
+ },
+ {
+  "cls": "Gadgeteer",
+  "level": 1,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Lunarian",
+   "background": "Urchin",
+   "subLevel": 3,
+   "sub": null
+  },
+  "haki": 0,
+  "row": {
+   "hp": 10,
+   "total": 74,
+   "items": 30,
+   "subclass": null
+  }
+ },
+ {
+  "cls": "Gadgeteer",
+  "level": 5,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Lunarian",
+   "background": "Urchin",
+   "subLevel": 3,
+   "sub": "Safeguard"
+  },
+  "haki": 0,
+  "row": {
+   "hp": 38,
+   "total": 76,
+   "items": 47,
+   "subclass": "Safeguard"
+  }
+ },
+ {
+  "cls": "Gadgeteer",
+  "level": 12,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Lunarian",
+   "background": "Urchin",
+   "subLevel": 3,
+   "sub": "Safeguard"
+  },
+  "haki": 3,
+  "row": {
+   "hp": 99,
+   "total": 80,
+   "items": 63,
+   "subclass": "Safeguard"
+  }
+ },
+ {
+  "cls": "Brawler",
+  "level": 1,
+  "fails": [
+   "note: L1 skills: trait choice 1/2"
+  ],
+  "notes": [
+   "L1 skills: trait choice 1/2"
+  ],
+  "setup": {
+   "species": "Augmented",
+   "background": "Swordsman",
+   "subLevel": 3,
+   "sub": null
+  },
+  "haki": 0,
+  "row": {
+   "hp": 10,
+   "total": 73,
+   "items": 36,
+   "subclass": null
+  }
+ },
+ {
+  "cls": "Brawler",
+  "level": 5,
+  "fails": [
+   "note: L1 skills: trait choice 1/2"
+  ],
+  "notes": [
+   "L1 skills: trait choice 1/2"
+  ],
+  "setup": {
+   "species": "Augmented",
+   "background": "Swordsman",
+   "subLevel": 3,
+   "sub": "Okama Kenpo"
+  },
+  "haki": 0,
+  "row": {
+   "hp": 38,
+   "total": 75,
+   "items": 45,
+   "subclass": "Okama Kenpo"
+  }
+ },
+ {
+  "cls": "Brawler",
+  "level": 12,
+  "fails": [
+   "note: L1 skills: trait choice 1/2"
+  ],
+  "notes": [
+   "L1 skills: trait choice 1/2"
+  ],
+  "setup": {
+   "species": "Augmented",
+   "background": "Swordsman",
+   "subLevel": 3,
+   "sub": "Okama Kenpo"
+  },
+  "haki": 3,
+  "row": {
+   "hp": 99,
+   "total": 81,
+   "items": 53,
+   "subclass": "Okama Kenpo"
+  }
+ },
+ {
+  "cls": "Rogue",
+  "level": 1,
+  "fails": [
+   "note: L1 skills: trait choice 1/2"
+  ],
+  "notes": [
+   "L1 skills: trait choice 1/2"
+  ],
+  "setup": {
+   "species": "Fishman",
+   "background": "Pirate",
+   "subLevel": 3,
+   "sub": null
+  },
+  "haki": 0,
+  "row": {
+   "hp": 11,
+   "total": 74,
+   "items": 32,
+   "subclass": null
+  }
+ },
+ {
+  "cls": "Rogue",
+  "level": 5,
+  "fails": [
+   "note: L1 skills: trait choice 1/2"
+  ],
+  "notes": [
+   "L1 skills: trait choice 1/2"
+  ],
+  "setup": {
+   "species": "Fishman",
+   "background": "Pirate",
+   "subLevel": 3,
+   "sub": "Thief"
+  },
+  "haki": 0,
+  "row": {
+   "hp": 43,
+   "total": 76,
+   "items": 39,
+   "subclass": "Thief"
+  }
+ },
+ {
+  "cls": "Rogue",
+  "level": 12,
+  "fails": [
+   "note: L1 skills: trait choice 1/2"
+  ],
+  "notes": [
+   "L1 skills: trait choice 1/2"
+  ],
+  "setup": {
+   "species": "Fishman",
+   "background": "Pirate",
+   "subLevel": 3,
+   "sub": "Thief"
+  },
+  "haki": 3,
+  "row": {
+   "hp": 111,
+   "total": 82,
+   "items": 47,
+   "subclass": "Thief"
+  }
+ },
+ {
+  "cls": "Barbarian",
+  "level": 1,
+  "fails": [
+   "note: L1 skills: trait choice 1/2"
+  ],
+  "notes": [
+   "L1 skills: trait choice 1/2"
+  ],
+  "setup": {
+   "species": "Lunarian",
+   "background": "Urchin",
+   "subLevel": 3,
+   "sub": null
+  },
+  "haki": 0,
+  "row": {
+   "hp": 14,
+   "total": 74,
+   "items": 27,
+   "subclass": null
+  }
+ },
+ {
+  "cls": "Barbarian",
+  "level": 5,
+  "fails": [
+   "note: L1 skills: trait choice 1/2"
+  ],
+  "notes": [
+   "L1 skills: trait choice 1/2"
+  ],
+  "setup": {
+   "species": "Lunarian",
+   "background": "Urchin",
+   "subLevel": 3,
+   "sub": "Path of the Totem Warrior"
+  },
+  "haki": 0,
+  "row": {
+   "hp": 50,
+   "total": 76,
+   "items": 38,
+   "subclass": "Path of the Totem Warrior"
+  }
+ },
+ {
+  "cls": "Barbarian",
+  "level": 12,
+  "fails": [
+   "note: L1 skills: trait choice 1/2"
+  ],
+  "notes": [
+   "L1 skills: trait choice 1/2"
+  ],
+  "setup": {
+   "species": "Lunarian",
+   "background": "Urchin",
+   "subLevel": 3,
+   "sub": "Path of the Totem Warrior"
+  },
+  "haki": 3,
+  "row": {
+   "hp": 125,
+   "total": 80,
+   "items": 48,
+   "subclass": "Path of the Totem Warrior"
+  }
+ }
+]

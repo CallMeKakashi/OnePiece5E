@@ -166,7 +166,8 @@ export const shipGearSpecs: Record<string, Spec> = {
   },
   "items/Bracers of Defense": {
     activities: [],
-    extraEffects: [{ name: "Bracers of Defense (no armor, no shield)", transfer: true, changes: [{ key: "system.attributes.ac.bonus", mode: 2, value: "2" }] }],
+    // book: +2 AC "if you are wearing no armor and using no shield": dnd5e can't test that, so the effect starts off — switch it on while that holds
+    extraEffects: [{ name: "Bracers of Defense (turn on only while wearing no armor and no shield)", transfer: true, disabled: true, changes: [{ key: "system.attributes.ac.bonus", mode: 2, value: "2" }] }],
   },
   "items/Jet Dial Bracers": {
     activities: [{ name: "Shove (Jet Dial)", type: "utility", activation: "action", note: "Advantage on shove attempts; you can shove a creature two sizes larger than yourself." }],

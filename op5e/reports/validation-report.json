@@ -1,11 +1,11 @@
 {
  "summary": {
-  "documents": 2057,
-  "links": 2990,
+  "documents": 2297,
+  "links": 4080,
   "errors": 0,
-  "warnings": 154,
+  "warnings": 142,
   "byMessage": {
-   "warn: attack activity has no attack block (dnd5e defaults apply)": 116,
+   "warn: attack activity has no attack block (dnd5e defaults apply)": 104,
    "warn: 3 docs share this name": 11,
    "warn: 4 docs share this name": 4,
    "warn: 5 docs share this name": 3,
@@ -31,12 +31,6 @@
   {
    "level": "warn",
    "pack": "creations",
-   "name": "Wall of Venom [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
    "name": "Shocking Grasp [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
@@ -49,19 +43,7 @@
   {
    "level": "warn",
    "pack": "creations",
-   "name": "Animate Objects [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
    "name": "Warding Wind [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Animate Dead [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
@@ -127,19 +109,7 @@
   {
    "level": "warn",
    "pack": "creations",
-   "name": "Wall of Light [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
    "name": "Fire Bolt [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Wrath of Nature [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
@@ -176,12 +146,6 @@
    "level": "warn",
    "pack": "creations",
    "name": "Elemental Orb [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Wall of Water [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
@@ -277,18 +241,6 @@
   {
    "level": "warn",
    "pack": "creations",
-   "name": "Wrathful Smite [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Upper Brass [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
    "name": "Spiritual Blast [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
@@ -355,12 +307,6 @@
   {
    "level": "warn",
    "pack": "items",
-   "name": "12-pounder [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "items",
    "name": "Glaive [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
@@ -380,18 +326,6 @@
    "level": "warn",
    "pack": "items",
    "name": "Greatclub [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "items",
-   "name": "Swivel Gun [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "items",
-   "name": "18-pounder [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
@@ -451,6 +385,18 @@
   {
    "level": "warn",
    "pack": "items",
+   "name": "Orange Mile [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Arched Horn [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
    "name": "Sling [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
@@ -493,12 +439,6 @@
   {
    "level": "warn",
    "pack": "items",
-   "name": "42-pounder [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "items",
    "name": "Trident [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
@@ -506,18 +446,6 @@
    "level": "warn",
    "pack": "items",
    "name": "Shortbow [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "items",
-   "name": "64-pounder [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "items",
-   "name": "24-pounder [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
@@ -577,12 +505,6 @@
   {
    "level": "warn",
    "pack": "items",
-   "name": "8-pounder [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "items",
    "name": "Manacles [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
@@ -596,6 +518,12 @@
    "level": "warn",
    "pack": "items",
    "name": "Longsword [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Ocean's Mourning [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
@@ -649,7 +577,7 @@
   {
    "level": "warn",
    "pack": "items",
-   "name": "36-pounder [dnd5eactivity000]",
+   "name": "Mountain Mist [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {

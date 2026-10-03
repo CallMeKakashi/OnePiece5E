@@ -53,8 +53,8 @@ export function applySpecialGear(items: FoundryItem[]): FoundryItem[] {
   weapon(by("Arched Horn"), "Sickle", 1);
   weapon(by("Orange Mile"), "Glaive", 1);
   weapon(by("Distortion"), "Rapier", 2);
-  // the book calls Ocean's Mourning a cutlass but writes "+2 Sickle"; the cutlass is used here
-  weapon(by("Ocean's Mourning"), "Cutlass", 2);
+  // the book calls Ocean's Mourning a cutlass but statts it "+2 Sickle"; the owner confirmed it is a sickle
+  weapon(by("Ocean's Mourning"), "Sickle", 2);
   weapon(by("Mountain Mist"), "Katana", 3, [["3d4", "slashing"]]);
   weapon(by("The Faithful One"), "Dagger", 3);
   weapon(by("Lucky Day"), "Longsword", 3);

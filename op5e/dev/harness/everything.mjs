@@ -6,7 +6,7 @@
 //  - ship weapons            -> a Galleon
 // Usage: node dev/harness/everything.mjs [pack ...]      -> reports/execution-everything.json
 import { writeFileSync, readFileSync, existsSync } from "node:fs";
-import { withFoundry } from "./drive.mjs";
+import { withFoundry, postToGM } from "./drive.mjs";
 import { BUILT, pageLib } from "./advance-lib.mjs";
 
 const only = process.argv.slice(2);
@@ -148,7 +148,7 @@ const pageSetup = () => {
     out.hp = hpBefore !== undefined ? [hpBefore, actor.system.attributes.hp.value] : null;
     await actor.items.get(item.id)?.delete().catch(() => {});
     await target.delete().catch(() => {});
-    await game.messages.documentClass.deleteDocuments(game.messages.contents.map((m) => m.id)).catch(() => {});
+    await game.messages.documentClass.deleteDocuments(game.messages.contents.filter((m) => !m.flags?.op5eTestLog).map((m) => m.id)).catch(() => {});
     return out;
   };
   globalThis.__cleanActors = async () => { cache.clear(); await H.cleanup(); };
@@ -196,6 +196,7 @@ try {
       }
       console.log(`== ${pack}: ${results[pack].length} docs, ${results[pack].filter((r) => r.fails.length).length} fail, ${results[pack].filter((r) => r.warns?.length).length} warn`);
       writeFileSync(OUT, JSON.stringify(results, null, 1));
+      await postToGM(page, `<p>${results[pack].some((r) => r.fails.length) ? "❌" : "✅"} <b>Sweep</b> ${pack}: ${results[pack].length} documents, ${results[pack].filter((r) => r.fails.length).length} failed, ${results[pack].filter((r) => r.warns?.length).length} warnings</p>`);
     }
   });
 } catch (e) { console.log(e.code ?? e.stack); process.exit(2); }

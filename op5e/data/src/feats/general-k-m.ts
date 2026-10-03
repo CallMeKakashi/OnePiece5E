@@ -82,7 +82,7 @@ export const lanceMaster: FeatureItem = makeFeat({
 export const lightArmorMaster: FeatureItem = makeFeat({
   name: "Light Armor Master",
   slug: "light-armor-master",
-  prerequisites: "3",
+  prerequisites: "Proficiency with light armor, Dexterity of 13",   // the extraction had left just "3"; Feats.md line 1117
   description: "<p>You know how best to use the thin armor that protects</p><p>you.</p><ul><li>Increase your Dexterity score by 1, to a maximum of 20.</li><li>Your speed increases by 5 feet while wearing light or no armor.</li><li>While wearing light armor, you gain a +1 bonus to your armor class whenever you are at least 20 feet from where you started your turn. This bonus lasts until the start of your next turn.</li></ul>",
 });
 

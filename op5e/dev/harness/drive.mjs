@@ -10,6 +10,14 @@ export async function foundryStatus() {
   try { return await (await fetch(`${BASE}/api/status`)).json(); } catch { return null; }
 }
 
+/** Whisper a test result to the real Gamemaster(s) so a run is visible in the GM's chat (not just in the terminal log). */
+export async function postToGM(page, html) {
+  await page.evaluate(async (html) => {
+    const gms = game.users.filter((u) => u.isGM && u.name !== "Automation").map((u) => u.id);
+    await ChatMessage.create({ speaker: { alias: "OP5e Test Run" }, content: html, whisper: gms.length ? gms : [game.user.id], flags: { op5eTestLog: true } });
+  }, html).catch(() => {});
+}
+
 export async function withFoundry(fn, { headless = true, extraModules = [] } = {}) {
   const st = await foundryStatus();
   if (!st?.active) { const e = new Error("FOUNDRY_UNAVAILABLE"); e.code = "FOUNDRY_UNAVAILABLE"; throw e; }

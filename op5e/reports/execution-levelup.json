@@ -1,0 +1,12537 @@
+[
+ {
+  "cls": "Marksman",
+  "sub": "Swarmkeeper",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 6,
+    "new": [
+     "Creativity",
+     "Fighting Style"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 9,
+    "new": [
+     "Quick On The Draw",
+     "Swarmkeeper Creations",
+     "Swarming Cluster"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 10,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 52,
+    "features": 11,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 60,
+    "features": 12,
+    "new": [
+     "Swarming Tides"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 14,
+    "new": [
+     "Land's Stride",
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 15,
+    "new": [
+     "Volley"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 18,
+    "new": [
+     "Eagle Eyes",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 19,
+    "new": [
+     "Overwhelming Cluster"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 112,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 121,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 130,
+    "features": 22,
+    "new": [
+     "Vigilant Gaze",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 139,
+    "features": 23,
+    "new": [
+     "Reliable Hive"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 164,
+    "features": 24,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 174,
+    "features": 24,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 184,
+    "features": 25,
+    "new": [
+     "Deadly Mark"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 194,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 204,
+    "features": 26,
+    "new": [
+     "Killshot"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Marksman",
+  "sub": "Bounty Hunter",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 6,
+    "new": [
+     "Creativity",
+     "Fighting Style"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 10,
+    "new": [
+     "Quick On The Draw",
+     "Bounty Hunter Creations",
+     "Additional Fighting Style",
+     "Huntsmen's Tactics"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 10,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 11,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 52,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 60,
+    "features": 13,
+    "new": [
+     "Defensive Champion"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 15,
+    "new": [
+     "Land's Stride",
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 16,
+    "new": [
+     "Volley"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 19,
+    "new": [
+     "Eagle Eyes",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 19,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 112,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 121,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 130,
+    "features": 22,
+    "new": [
+     "Vigilant Gaze",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 139,
+    "features": 23,
+    "new": [
+     "Master-at-Arms"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 164,
+    "features": 24,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 174,
+    "features": 24,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 184,
+    "features": 25,
+    "new": [
+     "Deadly Mark"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 194,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 204,
+    "features": 26,
+    "new": [
+     "Killshot"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Marksman",
+  "sub": "Olympian",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 6,
+    "new": [
+     "Creativity",
+     "Fighting Style"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 10,
+    "new": [
+     "Quick On The Draw",
+     "Olympian Creations",
+     "Herculean Strength",
+     "Free Throw"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 10,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 11,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 52,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 60,
+    "features": 13,
+    "new": [
+     "Walking Salvo"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 15,
+    "new": [
+     "Land's Stride",
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 16,
+    "new": [
+     "Volley"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 19,
+    "new": [
+     "Eagle Eyes",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 20,
+    "new": [
+     "Masterful Technique"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 112,
+    "features": 21,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 121,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 130,
+    "features": 23,
+    "new": [
+     "Vigilant Gaze",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 139,
+    "features": 24,
+    "new": [
+     "Unlimited Strikes"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 164,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 174,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 184,
+    "features": 26,
+    "new": [
+     "Deadly Mark"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 194,
+    "features": 26,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 204,
+    "features": 27,
+    "new": [
+     "Killshot"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Marksman",
+  "sub": "Sniper",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 6,
+    "new": [
+     "Creativity",
+     "Fighting Style"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 10,
+    "new": [
+     "Quick On The Draw",
+     "Sniper Creations",
+     "Careful Aim",
+     "Exploding Shot"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 10,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 11,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 52,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 60,
+    "features": 13,
+    "new": [
+     "Crackshot"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 15,
+    "new": [
+     "Land's Stride",
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 16,
+    "new": [
+     "Volley"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 19,
+    "new": [
+     "Eagle Eyes",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 20,
+    "new": [
+     "Creative Arsenal"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 112,
+    "features": 21,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 121,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 130,
+    "features": 23,
+    "new": [
+     "Vigilant Gaze",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 139,
+    "features": 24,
+    "new": [
+     "Unerring Aim"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 164,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 174,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 184,
+    "features": 26,
+    "new": [
+     "Deadly Mark"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 194,
+    "features": 26,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 204,
+    "features": 27,
+    "new": [
+     "Killshot"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Marksman",
+  "sub": "Guru",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 6,
+    "new": [
+     "Creativity",
+     "Fighting Style"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 10,
+    "new": [
+     "Quick On The Draw",
+     "Guru Creations",
+     "Nature's Way",
+     "Mending Mark"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 10,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 11,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 52,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 60,
+    "features": 13,
+    "new": [
+     "Practiced Knowledge"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 15,
+    "new": [
+     "Land's Stride",
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 16,
+    "new": [
+     "Volley"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 19,
+    "new": [
+     "Eagle Eyes",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 20,
+    "new": [
+     "Restoring Volley"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 112,
+    "features": 21,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 121,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 130,
+    "features": 23,
+    "new": [
+     "Vigilant Gaze",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 139,
+    "features": 24,
+    "new": [
+     "True Mastery"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 164,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 174,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 184,
+    "features": 26,
+    "new": [
+     "Deadly Mark"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 194,
+    "features": 26,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 204,
+    "features": 27,
+    "new": [
+     "Killshot"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Marksman",
+  "sub": "Nighthawk",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 6,
+    "new": [
+     "Creativity",
+     "Fighting Style"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 10,
+    "new": [
+     "Quick On The Draw",
+     "Nighthawk Creations",
+     "Dreaded Ambush",
+     "Dark One"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 10,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 11,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 52,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 60,
+    "features": 13,
+    "new": [
+     "Honed Senses"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 15,
+    "new": [
+     "Land's Stride",
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 16,
+    "new": [
+     "Volley"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 19,
+    "new": [
+     "Eagle Eyes",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 20,
+    "new": [
+     "Sureshot"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 112,
+    "features": 21,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 121,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 130,
+    "features": 23,
+    "new": [
+     "Vigilant Gaze",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 139,
+    "features": 24,
+    "new": [
+     "Slippery Devil"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 164,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 174,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 184,
+    "features": 26,
+    "new": [
+     "Deadly Mark"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 194,
+    "features": 26,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 204,
+    "features": 27,
+    "new": [
+     "Killshot"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Marksman",
+  "sub": "Beastmaster",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 6,
+    "new": [
+     "Creativity",
+     "Fighting Style"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 10,
+    "new": [
+     "Quick On The Draw",
+     "Beastmaster Creations",
+     "Bestial Companion",
+     "Natural Attunement"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 10,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 11,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 52,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 60,
+    "features": 13,
+    "new": [
+     "Exceptional Training"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 15,
+    "new": [
+     "Land's Stride",
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 16,
+    "new": [
+     "Volley"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 19,
+    "new": [
+     "Eagle Eyes",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 20,
+    "new": [
+     "Bestial Fury"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 112,
+    "features": 21,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 121,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 130,
+    "features": 23,
+    "new": [
+     "Vigilant Gaze",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 139,
+    "features": 24,
+    "new": [
+     "Enrage"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 164,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 174,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 184,
+    "features": 26,
+    "new": [
+     "Deadly Mark"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 194,
+    "features": 26,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 204,
+    "features": 27,
+    "new": [
+     "Killshot"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Medic",
+  "sub": "Chemist",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Experimental Medicine",
+     "Experimental Ooze"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 6,
+    "new": []
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 6,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 7,
+    "new": [
+     "Rapid Remedy"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 8,
+    "new": [
+     "Chemical Reactions"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 9,
+    "new": [
+     "Extended Release"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 10,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 10,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 12,
+    "new": [
+     "Color of Armament Apprentice",
+     "Enhanced Formula"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 13,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 15,
+    "new": [
+     "Color of Armament Adept",
+     "Perfected Mixture"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 15,
+    "new": []
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 16,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 16,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 18,
+    "new": [
+     "Overheal",
+     "Secrets of Medicine"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 18,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 19,
+    "new": [
+     "Miracle Worker"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Medic",
+  "sub": "Bio-Engineer",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 7,
+    "new": [
+     "Experimental Medicine",
+     "Test Subject",
+     "Experimental Augmentations"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 7,
+    "new": []
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 7,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 8,
+    "new": [
+     "Rapid Remedy"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 9,
+    "new": [
+     "Phase Two"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 10,
+    "new": [
+     "Extended Release"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 11,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 11,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 13,
+    "new": [
+     "Color of Armament Apprentice",
+     "Mutant Method"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 14,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 16,
+    "new": [
+     "Color of Armament Adept",
+     "Perfected Subject"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 16,
+    "new": []
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 17,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 17,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 19,
+    "new": [
+     "Overheal",
+     "Secrets of Medicine"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 19,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 20,
+    "new": [
+     "Miracle Worker"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Medic",
+  "sub": "Amputator",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 7,
+    "new": [
+     "Experimental Medicine",
+     "Incision Initiator",
+     "Surgical Precision"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 7,
+    "new": []
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 7,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 8,
+    "new": [
+     "Rapid Remedy"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 9,
+    "new": [
+     "Invasive Laceration"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 10,
+    "new": [
+     "Extended Release"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 11,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 11,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 13,
+    "new": [
+     "Color of Armament Apprentice",
+     "Anatomical Study"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 14,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 16,
+    "new": [
+     "Color of Armament Adept",
+     "Doctor Death"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 16,
+    "new": []
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 17,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 17,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 19,
+    "new": [
+     "Overheal",
+     "Secrets of Medicine"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 19,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 20,
+    "new": [
+     "Miracle Worker"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Medic",
+  "sub": "Field Surgeon",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 7,
+    "new": [
+     "Experimental Medicine",
+     "Combat Medicine",
+     "Enhanced Forms"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 7,
+    "new": []
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 7,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 8,
+    "new": [
+     "Rapid Remedy"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 10,
+    "new": [
+     "Extra Attack",
+     "Monstrous Transformation"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 11,
+    "new": [
+     "Extended Release"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 12,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 14,
+    "new": [
+     "Color of Armament Apprentice",
+     "Contained Rampage"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 15,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 15,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 17,
+    "new": [
+     "Color of Armament Adept",
+     "Greater Enhancements"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 17,
+    "new": []
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 18,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 18,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 20,
+    "new": [
+     "Overheal",
+     "Secrets of Medicine"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 21,
+    "new": [
+     "Miracle Worker"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Medic",
+  "sub": "Physician",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Experimental Medicine",
+     "Healer's Touch"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 6,
+    "new": []
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 6,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 7,
+    "new": [
+     "Rapid Remedy"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 8,
+    "new": [
+     "Experimental Application"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 9,
+    "new": [
+     "Extended Release"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 10,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 10,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 12,
+    "new": [
+     "Color of Armament Apprentice",
+     "Developed Immunity"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 13,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 15,
+    "new": [
+     "Color of Armament Adept",
+     "Master Practitioner"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 15,
+    "new": []
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 16,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 16,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 18,
+    "new": [
+     "Overheal",
+     "Secrets of Medicine"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 18,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 19,
+    "new": [
+     "Miracle Worker"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Medic",
+  "sub": "Plaguewright",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 7,
+    "new": [
+     "Experimental Medicine",
+     "Infection Radius",
+     "Endemic Surge"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 7,
+    "new": []
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 7,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 8,
+    "new": [
+     "Rapid Remedy"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 9,
+    "new": [
+     "Zero Patients"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 10,
+    "new": [
+     "Extended Release"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 11,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 11,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 13,
+    "new": [
+     "Color of Armament Apprentice",
+     "Pandemic Amplification"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 14,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 16,
+    "new": [
+     "Color of Armament Adept",
+     "Viral Immunity"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 16,
+    "new": []
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 17,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 17,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 19,
+    "new": [
+     "Overheal",
+     "Secrets of Medicine"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 19,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 20,
+    "new": [
+     "Miracle Worker"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Savant",
+  "sub": "Necrotic Mania",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 7,
+    "new": [
+     "Creativity",
+     "Fighting Style",
+     "Ardent Smite"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 8,
+    "new": [
+     "Channel Conviction: Necrotic Mania"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 9,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 52,
+    "features": 10,
+    "new": [
+     "Aura of Protection"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 60,
+    "features": 11,
+    "new": [
+     "Aura of Cruelty"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 12,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 14,
+    "new": [
+     "Aura of Courage",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 15,
+    "new": [
+     "Improved Ardent Smite"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 112,
+    "features": 16,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 121,
+    "features": 16,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 130,
+    "features": 18,
+    "new": [
+     "Saviour in Need",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 139,
+    "features": 19,
+    "new": [
+     "Merciless Fiend"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 164,
+    "features": 20,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 174,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 184,
+    "features": 21,
+    "new": [
+     "Aura Improvements"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 194,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 204,
+    "features": 22,
+    "new": [
+     "Creature of Scorn"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Savant",
+  "sub": "Thundering Resolve",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 7,
+    "new": [
+     "Creativity",
+     "Fighting Style",
+     "Ardent Smite"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 8,
+    "new": [
+     "Channel Conviction: Thundering Resolve"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 9,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 52,
+    "features": 10,
+    "new": [
+     "Aura of Protection"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 60,
+    "features": 11,
+    "new": [
+     "Aura of Tenacity"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 12,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 14,
+    "new": [
+     "Aura of Courage",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 15,
+    "new": [
+     "Improved Ardent Smite"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 112,
+    "features": 16,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 121,
+    "features": 16,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 130,
+    "features": 18,
+    "new": [
+     "Saviour in Need",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 139,
+    "features": 19,
+    "new": [
+     "Tenacious Defenses"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 164,
+    "features": 20,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 174,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 184,
+    "features": 21,
+    "new": [
+     "Aura Improvements"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 194,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 204,
+    "features": 22,
+    "new": [
+     "Icon of Strength"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Savant",
+  "sub": "Caustic Spite",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 7,
+    "new": [
+     "Creativity",
+     "Fighting Style",
+     "Ardent Smite"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 8,
+    "new": [
+     "Channel Conviction: Caustic Spite"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 9,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 52,
+    "features": 10,
+    "new": [
+     "Aura of Protection"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 60,
+    "features": 11,
+    "new": [
+     "Aura of Spite"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 12,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 14,
+    "new": [
+     "Aura of Courage",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 15,
+    "new": [
+     "Improved Ardent Smite"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 112,
+    "features": 16,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 121,
+    "features": 16,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 130,
+    "features": 18,
+    "new": [
+     "Saviour in Need",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 139,
+    "features": 19,
+    "new": [
+     "Corrosive Defenses"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 164,
+    "features": 20,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 174,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 184,
+    "features": 21,
+    "new": [
+     "Aura Improvements"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 194,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 204,
+    "features": 22,
+    "new": [
+     "Spiteful Destroyer"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Savant",
+  "sub": "Cold Indifference",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 7,
+    "new": [
+     "Creativity",
+     "Fighting Style",
+     "Ardent Smite"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 8,
+    "new": [
+     "Channel Conviction: Cold Indifference"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 9,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 52,
+    "features": 10,
+    "new": [
+     "Aura of Protection"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 60,
+    "features": 11,
+    "new": [
+     "Aura of Winter"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 12,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 14,
+    "new": [
+     "Aura of Courage",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 15,
+    "new": [
+     "Improved Ardent Smite"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 112,
+    "features": 16,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 121,
+    "features": 16,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 130,
+    "features": 18,
+    "new": [
+     "Saviour in Need",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 139,
+    "features": 19,
+    "new": [
+     "Bitter Chill"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 164,
+    "features": 20,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 174,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 184,
+    "features": 21,
+    "new": [
+     "Aura Improvements"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 194,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 204,
+    "features": 22,
+    "new": [
+     "Diamond Dust"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Savant",
+  "sub": "Radiant Superiority",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 7,
+    "new": [
+     "Creativity",
+     "Fighting Style",
+     "Ardent Smite"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 8,
+    "new": [
+     "Channel Conviction: Radiant Superiority"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 9,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 52,
+    "features": 10,
+    "new": [
+     "Aura of Protection"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 60,
+    "features": 11,
+    "new": [
+     "Aura of Elegance"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 12,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 14,
+    "new": [
+     "Aura of Courage",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 15,
+    "new": [
+     "Improved Ardent Smite"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 112,
+    "features": 16,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 121,
+    "features": 16,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 130,
+    "features": 18,
+    "new": [
+     "Saviour in Need",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 139,
+    "features": 19,
+    "new": [
+     "Blinding Flare"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 164,
+    "features": 20,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 174,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 184,
+    "features": 21,
+    "new": [
+     "Aura Improvements"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 194,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 204,
+    "features": 22,
+    "new": [
+     "Absolute Authority"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Savant",
+  "sub": "Venomous Duality",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 7,
+    "new": [
+     "Creativity",
+     "Fighting Style",
+     "Ardent Smite"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 8,
+    "new": [
+     "Channel Conviction: Venomous Duality"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 9,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 52,
+    "features": 10,
+    "new": [
+     "Aura of Protection"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 60,
+    "features": 11,
+    "new": [
+     "Toxic Aura"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 12,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 14,
+    "new": [
+     "Aura of Courage",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 15,
+    "new": [
+     "Improved Ardent Smite"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 112,
+    "features": 16,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 121,
+    "features": 16,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 130,
+    "features": 18,
+    "new": [
+     "Saviour in Need",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 139,
+    "features": 19,
+    "new": [
+     "Transmutating Anodyne"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 164,
+    "features": 20,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 174,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 184,
+    "features": 21,
+    "new": [
+     "Aura Improvements"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 194,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 204,
+    "features": 22,
+    "new": [
+     "Cloak of Miasma"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Savant",
+  "sub": "Burning Passion",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 7,
+    "new": [
+     "Creativity",
+     "Fighting Style",
+     "Ardent Smite"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 8,
+    "new": [
+     "Channel Conviction: Burning Passion"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 9,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 52,
+    "features": 10,
+    "new": [
+     "Aura of Protection"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 60,
+    "features": 11,
+    "new": [
+     "Aura of Devotion"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 12,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 14,
+    "new": [
+     "Aura of Courage",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 15,
+    "new": [
+     "Improved Ardent Smite"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 112,
+    "features": 16,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 121,
+    "features": 16,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 130,
+    "features": 18,
+    "new": [
+     "Saviour in Need",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 139,
+    "features": 19,
+    "new": [
+     "Heroic Rush"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 164,
+    "features": 20,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 174,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 184,
+    "features": 21,
+    "new": [
+     "Aura Improvements"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 194,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 204,
+    "features": 22,
+    "new": [
+     "Dashing Saviour"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Savant",
+  "sub": "Fulminating Glee",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 7,
+    "new": [
+     "Creativity",
+     "Fighting Style",
+     "Ardent Smite"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 8,
+    "new": [
+     "Channel Conviction: Fulminating Glee"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 9,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 52,
+    "features": 10,
+    "new": [
+     "Aura of Protection"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 60,
+    "features": 11,
+    "new": [
+     "Aura of Freedom"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 12,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 14,
+    "new": [
+     "Aura of Courage",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 15,
+    "new": [
+     "Improved Ardent Smite"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 112,
+    "features": 16,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 121,
+    "features": 16,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 130,
+    "features": 18,
+    "new": [
+     "Saviour in Need",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 139,
+    "features": 19,
+    "new": [
+     "Lightning Reflexes"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 164,
+    "features": 20,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 174,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 184,
+    "features": 21,
+    "new": [
+     "Aura Improvements"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 194,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 204,
+    "features": 22,
+    "new": [
+     "Rider of Storms"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Savant",
+  "sub": "Mindful Insight",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 7,
+    "new": [
+     "Creativity",
+     "Fighting Style",
+     "Ardent Smite"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 8,
+    "new": [
+     "Channel Conviction: Mindful Insight"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 9,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 52,
+    "features": 10,
+    "new": [
+     "Aura of Protection"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 60,
+    "features": 11,
+    "new": [
+     "Aura of Warding"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 12,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 14,
+    "new": [
+     "Aura of Courage",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 15,
+    "new": [
+     "Improved Ardent Smite"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 112,
+    "features": 16,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 121,
+    "features": 16,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 130,
+    "features": 18,
+    "new": [
+     "Saviour in Need",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 139,
+    "features": 19,
+    "new": [
+     "Exposing Smite"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 164,
+    "features": 20,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 174,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 184,
+    "features": 21,
+    "new": [
+     "Aura Improvements"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 194,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 204,
+    "features": 22,
+    "new": [
+     "Fateweaver"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Fighter",
+  "sub": "Brute",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 5,
+    "new": [
+     "Action Surge"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 6,
+    "new": [
+     "Brute Force"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 6,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 7,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 58,
+    "features": 7,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 67,
+    "features": 8,
+    "new": [
+     "Unstoppable Durability"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 9,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 10,
+    "new": [
+     "Indomitable"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 12,
+    "new": [
+     "Color of Armament Apprentice",
+     "Third Wind"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 124,
+    "features": 13,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 134,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 144,
+    "features": 14,
+    "new": [
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 154,
+    "features": 15,
+    "new": [
+     "Devastating Critical"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 180,
+    "features": 16,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 191,
+    "features": 16,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 202,
+    "features": 17,
+    "new": [
+     "Survivor"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 213,
+    "features": 17,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 224,
+    "features": 17,
+    "new": []
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Fighter",
+  "sub": "Master of None",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 5,
+    "new": [
+     "Action Surge"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 8,
+    "new": [
+     "Improvised Weaponry",
+     "Breakdown",
+     "Jury-Rigging"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 9,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 58,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 67,
+    "features": 10,
+    "new": [
+     "Wreck Resistance"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 11,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 12,
+    "new": [
+     "Indomitable"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 14,
+    "new": [
+     "Color of Armament Apprentice",
+     "In and Out"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 124,
+    "features": 15,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 134,
+    "features": 15,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 144,
+    "features": 16,
+    "new": [
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 154,
+    "features": 17,
+    "new": [
+     "Rush Rampage"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 180,
+    "features": 18,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 191,
+    "features": 18,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 202,
+    "features": 19,
+    "new": [
+     "Smash and Crash"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 213,
+    "features": 19,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 224,
+    "features": 19,
+    "new": []
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Fighter",
+  "sub": "Samurai",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 5,
+    "new": [
+     "Action Surge"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 6,
+    "new": [
+     "Fighting Stances"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 6,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 7,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 58,
+    "features": 7,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 67,
+    "features": 8,
+    "new": [
+     "Elegant Courtier"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 9,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 10,
+    "new": [
+     "Indomitable"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 12,
+    "new": [
+     "Color of Armament Apprentice",
+     "Tireless Spirit"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 12,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 124,
+    "features": 13,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 134,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 144,
+    "features": 14,
+    "new": [
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 154,
+    "features": 15,
+    "new": [
+     "Stance Improvements"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 180,
+    "features": 16,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 191,
+    "features": 16,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 202,
+    "features": 17,
+    "new": [
+     "Undying Devotion"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 213,
+    "features": 17,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 224,
+    "features": 17,
+    "new": []
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Fighter",
+  "sub": "Champion",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 5,
+    "new": [
+     "Action Surge"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 7,
+    "new": [
+     "Combat Expert",
+     "Physical Superiority"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 7,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 8,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 58,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 67,
+    "features": 9,
+    "new": [
+     "Signature Fighting Style"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 10,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 11,
+    "new": [
+     "Indomitable"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 13,
+    "new": [
+     "Color of Armament Apprentice",
+     "Combat Master"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 124,
+    "features": 14,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 134,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 144,
+    "features": 15,
+    "new": [
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 154,
+    "features": 16,
+    "new": [
+     "Perfected Fighting Styles"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 180,
+    "features": 17,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 191,
+    "features": 17,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 202,
+    "features": 18,
+    "new": [
+     "Invulnerable"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 213,
+    "features": 18,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 224,
+    "features": 18,
+    "new": []
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Fighter",
+  "sub": "Blitzkrieg",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 5,
+    "new": [
+     "Action Surge"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 7,
+    "new": [
+     "Afterimage",
+     "Rapid Action"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 7,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 8,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 58,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 67,
+    "features": 9,
+    "new": [
+     "Blink of an Eye"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 10,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 11,
+    "new": [
+     "Indomitable"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 13,
+    "new": [
+     "Color of Armament Apprentice",
+     "Supersonic"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 124,
+    "features": 14,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 134,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 144,
+    "features": 15,
+    "new": [
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 154,
+    "features": 16,
+    "new": [
+     "Flashpoint"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 180,
+    "features": 17,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 191,
+    "features": 17,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 202,
+    "features": 18,
+    "new": [
+     "Infinitesimal Instant"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 213,
+    "features": 18,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 224,
+    "features": 18,
+    "new": []
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Fighter",
+  "sub": "Gunslinger",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 5,
+    "new": [
+     "Action Surge"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 10,
+    "new": [
+     "Firearm Proficiency",
+     "Trick Shots",
+     "Gunsmith",
+     "Covering Fire",
+     "Dazing Shot"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 10,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 11,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 58,
+    "features": 11,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 67,
+    "features": 13,
+    "new": [
+     "Bullet Time",
+     "Deadeye Shot"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 14,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 15,
+    "new": [
+     "Indomitable"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 18,
+    "new": [
+     "Color of Armament Apprentice",
+     "Sharp-Sighted",
+     "Deflecting Shot"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 18,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 124,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 134,
+    "features": 19,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 144,
+    "features": 20,
+    "new": [
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 154,
+    "features": 22,
+    "new": [
+     "Vicious Intent",
+     "Disarming Shot"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 180,
+    "features": 23,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 191,
+    "features": 23,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 202,
+    "features": 26,
+    "new": [
+     "Distinguished Shot",
+     "Hemorrhaging Critical",
+     "Exhausting Shot"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 213,
+    "features": 26,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 224,
+    "features": 26,
+    "new": []
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Fighter",
+  "sub": "Cavalier",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 5,
+    "new": [
+     "Action Surge"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 7,
+    "new": [
+     "Saddle-Born",
+     "Make Your Mark"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 7,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 8,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 58,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 67,
+    "features": 9,
+    "new": [
+     "Warding Master"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 10,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 11,
+    "new": [
+     "Indomitable"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 13,
+    "new": [
+     "Color of Armament Apprentice",
+     "Hold the Line"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 124,
+    "features": 14,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 134,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 144,
+    "features": 15,
+    "new": [
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 154,
+    "features": 16,
+    "new": [
+     "Ferocious Charger"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 180,
+    "features": 17,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 191,
+    "features": 17,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 202,
+    "features": 18,
+    "new": [
+     "Vigilant Defender"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 213,
+    "features": 18,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 224,
+    "features": 18,
+    "new": []
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Fighter",
+  "sub": "Banneret",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 5,
+    "new": [
+     "Action Surge"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 7,
+    "new": [
+     "Honorable Beacon",
+     "Commander in Chief"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 7,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 8,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 58,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 67,
+    "features": 9,
+    "new": [
+     "Brave and Bold"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 10,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 11,
+    "new": [
+     "Indomitable"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 13,
+    "new": [
+     "Color of Armament Apprentice",
+     "Empowered Authority"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 124,
+    "features": 14,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 134,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 144,
+    "features": 15,
+    "new": [
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 154,
+    "features": 16,
+    "new": [
+     "Heroic Surge"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 180,
+    "features": 17,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 191,
+    "features": 17,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 202,
+    "features": 18,
+    "new": [
+     "Invincible Dominion"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 213,
+    "features": 18,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 224,
+    "features": 18,
+    "new": []
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Fighter",
+  "sub": "Arms Dealer",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 5,
+    "new": [
+     "Action Surge"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 10,
+    "new": [
+     "Engineering",
+     "Engineering Proficiency",
+     "Advanced Arsenal",
+     "Stasis Ammo",
+     "Hypnotic Ammo"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 10,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 11,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 58,
+    "features": 11,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 67,
+    "features": 14,
+    "new": [
+     "Rebounding Shots",
+     "Mastercrafted Shots",
+     "Elemental Ammo"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 16,
+    "new": [
+     "Indomitable"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 19,
+    "new": [
+     "Color of Armament Apprentice",
+     "Advanced Armory",
+     "Exploding Ammo"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 19,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 124,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 134,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 144,
+    "features": 21,
+    "new": [
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 154,
+    "features": 23,
+    "new": [
+     "Constant Shots",
+     "Feeble Ammo"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 180,
+    "features": 24,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 191,
+    "features": 24,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 202,
+    "features": 26,
+    "new": [
+     "Improved Advanced Arsenal",
+     "Grasping Ammo"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 213,
+    "features": 26,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 224,
+    "features": 26,
+    "new": []
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Fighter",
+  "sub": "Battlemaster",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 5,
+    "new": [
+     "Action Surge"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 10,
+    "new": [
+     "Superior Combatant",
+     "Student of War",
+     "Ambush",
+     "Bait and Switch",
+     "Brace"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 10,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 11,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 58,
+    "features": 11,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 67,
+    "features": 14,
+    "new": [
+     "Advanced Combat Tactics",
+     "Commander's Strike",
+     "Commanding Presence"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 16,
+    "new": [
+     "Indomitable"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 20,
+    "new": [
+     "Color of Armament Apprentice",
+     "Improved Superior Combatant",
+     "Disarming Attack",
+     "Distracting Strike"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 124,
+    "features": 21,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 134,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 144,
+    "features": 22,
+    "new": [
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 154,
+    "features": 25,
+    "new": [
+     "Relentless Combatant",
+     "Evasive Footwork",
+     "Feinting Attack"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 180,
+    "features": 26,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 191,
+    "features": 26,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 202,
+    "features": 27,
+    "new": [
+     "Signature Strike"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 213,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 224,
+    "features": 27,
+    "new": []
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Fighter",
+  "sub": "Gadget Knight",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 20,
+    "features": 5,
+    "new": [
+     "Action Surge"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 28,
+    "features": 7,
+    "new": [
+     "Gadgeteer Spellcasting",
+     "War Mechanic"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 36,
+    "features": 7,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 44,
+    "features": 8,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 58,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 7,
+    "hp": 67,
+    "features": 9,
+    "new": [
+     "Creative Combatant"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 76,
+    "features": 10,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 85,
+    "features": 11,
+    "new": [
+     "Indomitable"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 94,
+    "features": 13,
+    "new": [
+     "Color of Armament Apprentice",
+     "Recharging Surge"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 103,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 124,
+    "features": 14,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 134,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 144,
+    "features": 15,
+    "new": [
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 154,
+    "features": 16,
+    "new": [
+     "Improved Creative Combatant"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 180,
+    "features": 17,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 191,
+    "features": 17,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 202,
+    "features": 18,
+    "new": [
+     "Master of War"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 213,
+    "features": 18,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 224,
+    "features": 18,
+    "new": []
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Bard",
+  "sub": "College of Lore",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Jack of All Trades",
+     "Harmonic Vitality"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Expertise",
+     "Bonus Proficiencies",
+     "Cutting Words"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 10,
+    "new": [
+     "Font of Inspiration"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Countercharm",
+     "Additional Musical Secrets",
+     "Customized Creativity"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 14,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 18,
+    "new": [
+     "Musical Secrets",
+     "Font of Vitality",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 20,
+    "new": [
+     "Countercharm Improvement"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 23,
+    "new": [
+     "Color of Armament Adept",
+     "Peerless Understanding"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 23,
+    "new": []
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 24,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 24,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 26,
+    "new": [
+     "Limitless Inspiration"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Bard",
+  "sub": "College of Legends",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Jack of All Trades",
+     "Harmonic Vitality"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Expertise",
+     "Alluring Warrior",
+     "Legendary Flourish"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 10,
+    "new": [
+     "Font of Inspiration"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Countercharm",
+     "Battle Musician",
+     "Band Together"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 14,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 18,
+    "new": [
+     "Musical Secrets",
+     "Font of Vitality",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 20,
+    "new": [
+     "Countercharm Improvement"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 23,
+    "new": [
+     "Color of Armament Adept",
+     "Rallying Encore"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 23,
+    "new": []
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 24,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 24,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 26,
+    "new": [
+     "Limitless Inspiration"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Bard",
+  "sub": "College of Bewitchment",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Jack of All Trades",
+     "Harmonic Vitality"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Expertise",
+     "Hypnotic Focus",
+     "Mesmerizing Words"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 10,
+    "new": [
+     "Font of Inspiration"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Countercharm",
+     "Wide Enchantment",
+     "Potent Creativity"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 14,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 18,
+    "new": [
+     "Musical Secrets",
+     "Font of Vitality",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 20,
+    "new": [
+     "Countercharm Improvement"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 23,
+    "new": [
+     "Color of Armament Adept",
+     "Hypnotic Mastery"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 23,
+    "new": []
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 24,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 24,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 26,
+    "new": [
+     "Limitless Inspiration"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Bard",
+  "sub": "College of The Idol",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Jack of All Trades",
+     "Harmonic Vitality"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Expertise",
+     "Encourage Entourage",
+     "Star of the Show"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 10,
+    "new": [
+     "Font of Inspiration"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Countercharm",
+     "Expanded Influence",
+     "Invincible Icon"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 14,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 18,
+    "new": [
+     "Musical Secrets",
+     "Font of Vitality",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 20,
+    "new": [
+     "Countercharm Improvement"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 23,
+    "new": [
+     "Color of Armament Adept",
+     "Set the Stage"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 23,
+    "new": []
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 24,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 24,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 26,
+    "new": [
+     "Limitless Inspiration"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Bard",
+  "sub": "College of Eloquence",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Jack of All Trades",
+     "Harmonic Vitality"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Expertise",
+     "Silver Tongue",
+     "Moot Words"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 10,
+    "new": [
+     "Font of Inspiration"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Countercharm",
+     "Dependable Inspiration",
+     "Universal Speech"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 14,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 18,
+    "new": [
+     "Musical Secrets",
+     "Font of Vitality",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 20,
+    "new": [
+     "Countercharm Improvement"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 23,
+    "new": [
+     "Color of Armament Adept",
+     "Infectious Inspiration"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 23,
+    "new": []
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 24,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 24,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 26,
+    "new": [
+     "Limitless Inspiration"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Bard",
+  "sub": "College of Swords",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Jack of All Trades",
+     "Harmonic Vitality"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 10,
+    "new": [
+     "Expertise",
+     "Bonus Proficiencies",
+     "Fighting Style",
+     "Ordnance Requiem"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 10,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 11,
+    "new": [
+     "Font of Inspiration"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 14,
+    "new": [
+     "Countercharm",
+     "Cut Time",
+     "Carving Inspiration"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 15,
+    "new": []
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 19,
+    "new": [
+     "Musical Secrets",
+     "Font of Vitality",
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 19,
+    "new": []
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 21,
+    "new": [
+     "Countercharm Improvement"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 24,
+    "new": [
+     "Color of Armament Adept",
+     "Crescendo's Cadence"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 24,
+    "new": []
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 26,
+    "new": []
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 26,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 27,
+    "new": [
+     "Limitless Inspiration"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Gadgeteer",
+  "sub": "Safeguard",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 10,
+    "new": [
+     "Mods",
+     "Armor of Mechanical Strength",
+     "Burst Boots",
+     "Enhanced Creative Focus",
+     "Enhanced Defenses"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 13,
+    "new": [
+     "The Right Tool",
+     "Applied Aegis",
+     "Fortification Zone"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 14,
+    "new": [
+     "Immovable Object"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 17,
+    "new": [
+     "Tool Expertise",
+     "Enhanced Weapon",
+     "Propulsion Armor"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 18,
+    "new": [
+     "Flash of Genius"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 19,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 20,
+    "new": [
+     "Dauntless Design"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 24,
+    "new": [
+     "Mastercraft Adept",
+     "Color of Armament Apprentice",
+     "Awareness Visor",
+     "Replicate Mastercraft Item"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 26,
+    "new": [
+     "Creation Storage",
+     "High-Tech Development"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 27,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 31,
+    "new": [
+     "Mastercraft Savant",
+     "Color of Armament Adept",
+     "Focusing Suit",
+     "Repeating Magazine"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 32,
+    "new": [
+     "Ultimate Aegis"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 33,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 33,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 36,
+    "new": [
+     "Mastercraft Master",
+     "Glowing Weapon",
+     "Repulsion Shield"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 36,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 37,
+    "new": [
+     "Soul of Artifice"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Gadgeteer",
+  "sub": "Alchemist",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 10,
+    "new": [
+     "Mods",
+     "Armor of Mechanical Strength",
+     "Burst Boots",
+     "Enhanced Creative Focus",
+     "Enhanced Defenses"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 13,
+    "new": [
+     "The Right Tool",
+     "Periodic Proficiency",
+     "Chemical Cocktail"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 14,
+    "new": [
+     "Alchemical Savant"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 17,
+    "new": [
+     "Tool Expertise",
+     "Enhanced Weapon",
+     "Propulsion Armor"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 18,
+    "new": [
+     "Flash of Genius"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 19,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 20,
+    "new": [
+     "Restorative Agents"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 24,
+    "new": [
+     "Mastercraft Adept",
+     "Color of Armament Apprentice",
+     "Awareness Visor",
+     "Replicate Mastercraft Item"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 26,
+    "new": [
+     "Creation Storage",
+     "High-Tech Development"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 27,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 31,
+    "new": [
+     "Mastercraft Savant",
+     "Color of Armament Adept",
+     "Focusing Suit",
+     "Repeating Magazine"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 32,
+    "new": [
+     "Chemical Mastery"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 33,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 33,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 36,
+    "new": [
+     "Mastercraft Master",
+     "Glowing Weapon",
+     "Repulsion Shield"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 36,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 37,
+    "new": [
+     "Soul of Artifice"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Gadgeteer",
+  "sub": "Elementalist",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 10,
+    "new": [
+     "Mods",
+     "Armor of Mechanical Strength",
+     "Burst Boots",
+     "Enhanced Creative Focus",
+     "Enhanced Defenses"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 13,
+    "new": [
+     "The Right Tool",
+     "Gadget Weapon",
+     "Creation Recovery"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 14,
+    "new": [
+     "Battle Gadgeteer"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 17,
+    "new": [
+     "Tool Expertise",
+     "Enhanced Weapon",
+     "Propulsion Armor"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 18,
+    "new": [
+     "Flash of Genius"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 19,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 20,
+    "new": [
+     "Elemental Empowerment"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 24,
+    "new": [
+     "Mastercraft Adept",
+     "Color of Armament Apprentice",
+     "Awareness Visor",
+     "Replicate Mastercraft Item"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 26,
+    "new": [
+     "Creation Storage",
+     "High-Tech Development"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 27,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 31,
+    "new": [
+     "Mastercraft Savant",
+     "Color of Armament Adept",
+     "Focusing Suit",
+     "Repeating Magazine"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 32,
+    "new": [
+     "Up To Eleven"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 33,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 33,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 36,
+    "new": [
+     "Mastercraft Master",
+     "Glowing Weapon",
+     "Repulsion Shield"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 36,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 37,
+    "new": [
+     "Soul of Artifice"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Gadgeteer",
+  "sub": "Artillerist",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 10,
+    "new": [
+     "Mods",
+     "Armor of Mechanical Strength",
+     "Burst Boots",
+     "Enhanced Creative Focus",
+     "Enhanced Defenses"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 13,
+    "new": [
+     "The Right Tool",
+     "Tool Proficiencies",
+     "Mechanical Cannon"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 14,
+    "new": [
+     "Mechanical Firearm"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 17,
+    "new": [
+     "Tool Expertise",
+     "Enhanced Weapon",
+     "Propulsion Armor"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 18,
+    "new": [
+     "Flash of Genius"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 19,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 20,
+    "new": [
+     "Explosive Cannon"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 24,
+    "new": [
+     "Mastercraft Adept",
+     "Color of Armament Apprentice",
+     "Awareness Visor",
+     "Replicate Mastercraft Item"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 26,
+    "new": [
+     "Creation Storage",
+     "High-Tech Development"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 27,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 31,
+    "new": [
+     "Mastercraft Savant",
+     "Color of Armament Adept",
+     "Focusing Suit",
+     "Repeating Magazine"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 32,
+    "new": [
+     "Fortified Position"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 33,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 33,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 36,
+    "new": [
+     "Mastercraft Master",
+     "Glowing Weapon",
+     "Repulsion Shield"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 36,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 37,
+    "new": [
+     "Soul of Artifice"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Gadgeteer",
+  "sub": "Battle Smith",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 10,
+    "new": [
+     "Mods",
+     "Armor of Mechanical Strength",
+     "Burst Boots",
+     "Enhanced Creative Focus",
+     "Enhanced Defenses"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 14,
+    "new": [
+     "The Right Tool",
+     "Tool Proficiencies",
+     "Battle Ready",
+     "Iron Defender"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 15,
+    "new": [
+     "United Front"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 18,
+    "new": [
+     "Tool Expertise",
+     "Enhanced Weapon",
+     "Propulsion Armor"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 19,
+    "new": [
+     "Flash of Genius"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 20,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 21,
+    "new": [
+     "Power Jolt"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 25,
+    "new": [
+     "Mastercraft Adept",
+     "Color of Armament Apprentice",
+     "Awareness Visor",
+     "Replicate Mastercraft Item"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 27,
+    "new": [
+     "Creation Storage",
+     "High-Tech Development"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 28,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 28,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 32,
+    "new": [
+     "Mastercraft Savant",
+     "Color of Armament Adept",
+     "Focusing Suit",
+     "Repeating Magazine"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 33,
+    "new": [
+     "Improved Defender"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 34,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 34,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 37,
+    "new": [
+     "Mastercraft Master",
+     "Glowing Weapon",
+     "Repulsion Shield"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 37,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 38,
+    "new": [
+     "Soul of Artifice"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Gadgeteer",
+  "sub": "Armorer",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 10,
+    "new": [
+     "Mods",
+     "Armor of Mechanical Strength",
+     "Burst Boots",
+     "Enhanced Creative Focus",
+     "Enhanced Defenses"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 14,
+    "new": [
+     "The Right Tool",
+     "Tools of Trade",
+     "Mechanical Armor",
+     "Armor Models"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 14,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 15,
+    "new": [
+     "Extra Attack"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 18,
+    "new": [
+     "Tool Expertise",
+     "Enhanced Weapon",
+     "Propulsion Armor"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 19,
+    "new": [
+     "Flash of Genius"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 20,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 21,
+    "new": [
+     "Armor Modifications"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 25,
+    "new": [
+     "Mastercraft Adept",
+     "Color of Armament Apprentice",
+     "Awareness Visor",
+     "Replicate Mastercraft Item"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 27,
+    "new": [
+     "Creation Storage",
+     "High-Tech Development"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 99,
+    "features": 28,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 107,
+    "features": 28,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 115,
+    "features": 32,
+    "new": [
+     "Mastercraft Savant",
+     "Color of Armament Adept",
+     "Focusing Suit",
+     "Repeating Magazine"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 123,
+    "features": 33,
+    "new": [
+     "Perfected Armor"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 34,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 34,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 37,
+    "new": [
+     "Mastercraft Master",
+     "Glowing Weapon",
+     "Repulsion Shield"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 174,
+    "features": 37,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 183,
+    "features": 38,
+    "new": [
+     "Soul of Artifice"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Brawler",
+  "sub": "Okama Kenpo",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Spirit",
+     "Unarmored Movement"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Deflect Missiles",
+     "Okama Way",
+     "Swan Dance"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 10,
+    "new": [
+     "Brace for Impact"
+    ]
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 12,
+    "new": [
+     "Extra Attack",
+     "Stunning Strike"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Aesthetic Weaponry"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 15,
+    "new": [
+     "Evasion",
+     "Shake it Off"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 16,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 17,
+    "new": [
+     "Unarmored Movement Improvement"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 18,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 19,
+    "new": [
+     "Elegant Combination"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 21,
+    "new": [
+     "Animal Spirit"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Diamond Soul",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Timeless Body"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Grand Finale"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Immortal Will"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Endless Spirit"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Brawler",
+  "sub": "Fishman Karate",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Spirit",
+     "Unarmored Movement"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 10,
+    "new": [
+     "Deflect Missiles",
+     "Aquatic Brawler",
+     "Brick Fist",
+     "Water Shot"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 11,
+    "new": [
+     "Brace for Impact"
+    ]
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 13,
+    "new": [
+     "Extra Attack",
+     "Stunning Strike"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 14,
+    "new": [
+     "Palm Block"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 16,
+    "new": [
+     "Evasion",
+     "Shake it Off"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 17,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 18,
+    "new": [
+     "Unarmored Movement Improvement"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 19,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 20,
+    "new": [
+     "Water Heart"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 21,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 22,
+    "new": [
+     "Animal Spirit"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 24,
+    "new": [
+     "Diamond Soul",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 25,
+    "new": [
+     "Timeless Body"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 26,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 27,
+    "new": [
+     "Vagabond Drill"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 28,
+    "new": [
+     "Immortal Will"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 28,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 29,
+    "new": [
+     "Endless Spirit"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Brawler",
+  "sub": "Six Powers Master",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Spirit",
+     "Unarmored Movement"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 8,
+    "new": [
+     "Deflect Missiles",
+     "Six Techniques"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": [
+     "Brace for Impact"
+    ]
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 11,
+    "new": [
+     "Extra Attack",
+     "Stunning Strike"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 12,
+    "new": [
+     "Six Techniques (Remaining)"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 14,
+    "new": [
+     "Evasion",
+     "Shake it Off"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 16,
+    "new": [
+     "Unarmored Movement Improvement"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 17,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": [
+     "Enhanced Technique"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 20,
+    "new": [
+     "Animal Spirit"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 22,
+    "new": [
+     "Diamond Soul",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 23,
+    "new": [
+     "Timeless Body"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 24,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 25,
+    "new": [
+     "Six King Gun"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 26,
+    "new": [
+     "Immortal Will"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 26,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 27,
+    "new": [
+     "Endless Spirit"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Brawler",
+  "sub": "Sword Sage",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Spirit",
+     "Unarmored Movement"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Deflect Missiles",
+     "Combat Mastery",
+     "Fighting Style"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 10,
+    "new": [
+     "Brace for Impact"
+    ]
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 12,
+    "new": [
+     "Extra Attack",
+     "Stunning Strike"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 14,
+    "new": [
+     "Sage Strikes",
+     "Spirit Strike"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 16,
+    "new": [
+     "Evasion",
+     "Shake it Off"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 17,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 18,
+    "new": [
+     "Unarmored Movement Improvement"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 19,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 20,
+    "new": [
+     "Perfected Form"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 21,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 22,
+    "new": [
+     "Animal Spirit"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 24,
+    "new": [
+     "Diamond Soul",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 25,
+    "new": [
+     "Timeless Body"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 26,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 27,
+    "new": [
+     "Spirit Warrior"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 28,
+    "new": [
+     "Immortal Will"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 28,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 29,
+    "new": [
+     "Endless Spirit"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Brawler",
+  "sub": "Ninja",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Spirit",
+     "Unarmored Movement"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Deflect Missiles",
+     "Bonus Proficiencies",
+     "Ninja Arts"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 10,
+    "new": [
+     "Brace for Impact"
+    ]
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 12,
+    "new": [
+     "Extra Attack",
+     "Stunning Strike"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Vanishing Step"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 15,
+    "new": [
+     "Evasion",
+     "Shake it Off"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 16,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 17,
+    "new": [
+     "Unarmored Movement Improvement"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 18,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 19,
+    "new": [
+     "Paralysis Jutsu"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 21,
+    "new": [
+     "Animal Spirit"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Diamond Soul",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Timeless Body"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Reclaimed Spirit"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Immortal Will"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Endless Spirit"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Brawler",
+  "sub": "Drunken Master",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Spirit",
+     "Unarmored Movement"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Deflect Missiles",
+     "Drunken Arts",
+     "Swinging Stance"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 10,
+    "new": [
+     "Brace for Impact"
+    ]
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 12,
+    "new": [
+     "Extra Attack",
+     "Stunning Strike"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Tipsy Balance"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 15,
+    "new": [
+     "Evasion",
+     "Shake it Off"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 16,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 17,
+    "new": [
+     "Unarmored Movement Improvement"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 18,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 19,
+    "new": [
+     "Hardy Resolution"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 21,
+    "new": [
+     "Animal Spirit"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Diamond Soul",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Timeless Body"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Liquor Lord"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Immortal Will"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Endless Spirit"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Brawler",
+  "sub": "Way of Mercy",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Spirit",
+     "Unarmored Movement"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 10,
+    "new": [
+     "Deflect Missiles",
+     "Medical Mercy",
+     "Hand of Healing",
+     "Hand of Harm"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 11,
+    "new": [
+     "Brace for Impact"
+    ]
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 13,
+    "new": [
+     "Extra Attack",
+     "Stunning Strike"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 14,
+    "new": [
+     "Physician's Mercy"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 16,
+    "new": [
+     "Evasion",
+     "Shake it Off"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 17,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 18,
+    "new": [
+     "Unarmored Movement Improvement"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 19,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 20,
+    "new": [
+     "Gracious Mercy"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 21,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 22,
+    "new": [
+     "Animal Spirit"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 24,
+    "new": [
+     "Diamond Soul",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 25,
+    "new": [
+     "Timeless Body"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 26,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 27,
+    "new": [
+     "Ultimate Mercy"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 28,
+    "new": [
+     "Immortal Will"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 28,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 29,
+    "new": [
+     "Endless Spirit"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Brawler",
+  "sub": "Expressionist",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Spirit",
+     "Unarmored Movement"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Deflect Missiles",
+     "Creativity",
+     "Spiritual Gimmicks"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 10,
+    "new": [
+     "Brace for Impact"
+    ]
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 12,
+    "new": [
+     "Extra Attack",
+     "Stunning Strike"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Potent Expression"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 15,
+    "new": [
+     "Evasion",
+     "Shake it Off"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 16,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 17,
+    "new": [
+     "Unarmored Movement Improvement"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 18,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 19,
+    "new": [
+     "Flexible Spirit"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 21,
+    "new": [
+     "Animal Spirit"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Diamond Soul",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Timeless Body"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Signature Creations"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Immortal Will"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Endless Spirit"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Brawler",
+  "sub": "Open Hand",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Spirit",
+     "Unarmored Movement"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 8,
+    "new": [
+     "Deflect Missiles",
+     "Palm Strikes"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": [
+     "Brace for Impact"
+    ]
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 11,
+    "new": [
+     "Extra Attack",
+     "Stunning Strike"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 12,
+    "new": [
+     "Purity of the Body"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 14,
+    "new": [
+     "Evasion",
+     "Shake it Off"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 16,
+    "new": [
+     "Unarmored Movement Improvement"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 17,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": [
+     "Tranquility"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 20,
+    "new": [
+     "Animal Spirit"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 22,
+    "new": [
+     "Diamond Soul",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 23,
+    "new": [
+     "Timeless Body"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 24,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 25,
+    "new": [
+     "The Open Hand"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 26,
+    "new": [
+     "Immortal Will"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 26,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 27,
+    "new": [
+     "Endless Spirit"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Brawler",
+  "sub": "Private Eye",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Spirit",
+     "Unarmored Movement"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Deflect Missiles",
+     "Well Versed Scholar",
+     "Analytical Strike"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 10,
+    "new": [
+     "Brace for Impact"
+    ]
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 12,
+    "new": [
+     "Extra Attack",
+     "Stunning Strike"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Reactive Spirit"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 15,
+    "new": [
+     "Evasion",
+     "Shake it Off"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 16,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 17,
+    "new": [
+     "Unarmored Movement Improvement"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 18,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 19,
+    "new": [
+     "Achilles Heel"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 21,
+    "new": [
+     "Animal Spirit"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Diamond Soul",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Timeless Body"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Prime Operative"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Immortal Will"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Endless Spirit"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Brawler",
+  "sub": "Sumo Wrestler",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Spirit",
+     "Unarmored Movement"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Deflect Missiles",
+     "Sumo Stance",
+     "Mountain Stance"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 10,
+    "new": [
+     "Brace for Impact"
+    ]
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 12,
+    "new": [
+     "Extra Attack",
+     "Stunning Strike"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Surface Pressure"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 15,
+    "new": [
+     "Evasion",
+     "Shake it Off"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 16,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 17,
+    "new": [
+     "Unarmored Movement Improvement"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 18,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 19,
+    "new": [
+     "Savage Slam"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 21,
+    "new": [
+     "Animal Spirit"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Diamond Soul",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Timeless Body"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Unstoppable Titan"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Immortal Will"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Endless Spirit"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Brawler",
+  "sub": "Daredevil",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Spirit",
+     "Unarmored Movement"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Deflect Missiles",
+     "Power Strike",
+     "Rampaging Vigor"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 10,
+    "new": [
+     "Brace for Impact"
+    ]
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 12,
+    "new": [
+     "Extra Attack",
+     "Stunning Strike"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Tough As Nails"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 15,
+    "new": [
+     "Evasion",
+     "Shake it Off"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 16,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 17,
+    "new": [
+     "Unarmored Movement Improvement"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 18,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 19,
+    "new": [
+     "Insurmountable Spirit"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 21,
+    "new": [
+     "Animal Spirit"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Diamond Soul",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Timeless Body"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Finishing Blow"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Immortal Will"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Endless Spirit"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Brawler",
+  "sub": "Chromatic Commandment",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Spirit",
+     "Unarmored Movement"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 8,
+    "new": [
+     "Deflect Missiles",
+     "Spirit Fist"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": [
+     "Brace for Impact"
+    ]
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 11,
+    "new": [
+     "Extra Attack",
+     "Stunning Strike"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 12,
+    "new": [
+     "Spirit Unleashed"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 14,
+    "new": [
+     "Evasion",
+     "Shake it Off"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 16,
+    "new": [
+     "Unarmored Movement Improvement"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 17,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": [
+     "Chromatic Aura"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 20,
+    "new": [
+     "Animal Spirit"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 22,
+    "new": [
+     "Diamond Soul",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 23,
+    "new": [
+     "Timeless Body"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 24,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 25,
+    "new": [
+     "Ascendant Aspect"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 26,
+    "new": [
+     "Immortal Will"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 26,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 27,
+    "new": [
+     "Endless Spirit"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Rogue",
+  "sub": "Thief",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Cunning Action"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Steady Aim",
+     "Fast Hands",
+     "Second-story Work"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 11,
+    "new": [
+     "Devious Strike",
+     "Uncanny Dodge"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Out Of Sight"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 14,
+    "new": [
+     "Evasion"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 16,
+    "new": [
+     "Supreme Sneak"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 17,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": [
+     "Reliable Talent"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 20,
+    "new": [
+     "Outfoxing Action"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Duplicitious Strike",
+     "Blindsense",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Slippery Mind"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Thief's Reflexes"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Elusive"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Stroke of Luck"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Rogue",
+  "sub": "Seeker",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Cunning Action"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Steady Aim",
+     "Well Read",
+     "Keen Strikes"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 11,
+    "new": [
+     "Devious Strike",
+     "Uncanny Dodge"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Seek Vulnerability"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 14,
+    "new": [
+     "Evasion"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 16,
+    "new": [
+     "Rational Mind"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 17,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": [
+     "Reliable Talent"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 20,
+    "new": [
+     "Mindful Evasion"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Duplicitious Strike",
+     "Blindsense",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Slippery Mind"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Unmatched Erudition"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Elusive"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Stroke of Luck"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Rogue",
+  "sub": "Scout",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Cunning Action"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Steady Aim",
+     "Skirmisher",
+     "Survivalist"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 11,
+    "new": [
+     "Devious Strike",
+     "Uncanny Dodge"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Keen Combatant"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 14,
+    "new": [
+     "Evasion"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 16,
+    "new": [
+     "Superior Hunter"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 17,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": [
+     "Reliable Talent"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 20,
+    "new": [
+     "Ambush Master"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Duplicitious Strike",
+     "Blindsense",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Slippery Mind"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Sudden Strike"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Elusive"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Stroke of Luck"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Rogue",
+  "sub": "Swashbuckler",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Cunning Action"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Steady Aim",
+     "Fancy Footwork",
+     "Rakish Audacity"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 11,
+    "new": [
+     "Devious Strike",
+     "Uncanny Dodge"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Slippery Devil"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 14,
+    "new": [
+     "Evasion"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 16,
+    "new": [
+     "Panache"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 17,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": [
+     "Reliable Talent"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 20,
+    "new": [
+     "Elegant Maneuver"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Duplicitious Strike",
+     "Blindsense",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Slippery Mind"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Master Duelist"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Elusive"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Stroke of Luck"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Rogue",
+  "sub": "Bruiser",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Cunning Action"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Steady Aim",
+     "Hired Thug",
+     "Armed and Dangerous"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 11,
+    "new": [
+     "Devious Strike",
+     "Uncanny Dodge"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Street Rules"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 14,
+    "new": [
+     "Evasion"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 16,
+    "new": [
+     "Hard Knocks"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 17,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": [
+     "Reliable Talent"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 20,
+    "new": [
+     "Bully Blitz"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Duplicitious Strike",
+     "Blindsense",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Slippery Mind"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Tough Customer"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Elusive"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Stroke of Luck"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Rogue",
+  "sub": "Sawbones",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Cunning Action"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Steady Aim",
+     "Medically Trained",
+     "Patchwork"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 11,
+    "new": [
+     "Devious Strike",
+     "Uncanny Dodge"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Twisted Surgery"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 14,
+    "new": [
+     "Evasion"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 16,
+    "new": [
+     "Miracle Worker"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 17,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": [
+     "Reliable Talent"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 20,
+    "new": [
+     "Check-up"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Duplicitious Strike",
+     "Blindsense",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Slippery Mind"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Surgeon of Death"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Elusive"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Stroke of Luck"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Rogue",
+  "sub": "Ringmaster",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Cunning Action"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Steady Aim",
+     "Grand Showman",
+     "Opening Act"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 11,
+    "new": [
+     "Devious Strike",
+     "Uncanny Dodge"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Circus Tricks"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 14,
+    "new": [
+     "Evasion"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 16,
+    "new": [
+     "Master Director"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 17,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": [
+     "Reliable Talent"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 20,
+    "new": [
+     "Denouement"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Duplicitious Strike",
+     "Blindsense",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Slippery Mind"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Serious Spectacle"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Elusive"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Stroke of Luck"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Rogue",
+  "sub": "Wildcard",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Cunning Action"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Steady Aim",
+     "Master Dealer",
+     "Risky Gambit"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 11,
+    "new": [
+     "Devious Strike",
+     "Uncanny Dodge"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Willy-Nilly"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 14,
+    "new": [
+     "Evasion"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 16,
+    "new": [
+     "Pokerface"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 17,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": [
+     "Reliable Talent"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 20,
+    "new": [
+     "Double Down"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Duplicitious Strike",
+     "Blindsense",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Slippery Mind"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Fate's Design"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Elusive"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Stroke of Luck"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Rogue",
+  "sub": "Gadget Trickster",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Cunning Action"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 10,
+    "new": [
+     "Steady Aim",
+     "Gadget Spellcasting",
+     "Gadget Legerdemain",
+     "Stupefying Creation"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 10,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 12,
+    "new": [
+     "Devious Strike",
+     "Uncanny Dodge"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 14,
+    "new": [
+     "Crafty One"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 15,
+    "new": [
+     "Evasion"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 16,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 17,
+    "new": [
+     "Creative Ambush"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 18,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 19,
+    "new": [
+     "Reliable Talent"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 21,
+    "new": [
+     "Versatile Trickster"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 24,
+    "new": [
+     "Duplicitious Strike",
+     "Blindsense",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 25,
+    "new": [
+     "Slippery Mind"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 26,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 27,
+    "new": [
+     "Technique Thief"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 28,
+    "new": [
+     "Elusive"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 28,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 29,
+    "new": [
+     "Stroke of Luck"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Rogue",
+  "sub": "Inquisitive",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Cunning Action"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Steady Aim",
+     "Decipher Deceit",
+     "Observe Opponent"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 11,
+    "new": [
+     "Devious Strike",
+     "Uncanny Dodge"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Interrogation Tactics"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 14,
+    "new": [
+     "Evasion"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 16,
+    "new": [
+     "Keen Eyes"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 17,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": [
+     "Reliable Talent"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 20,
+    "new": [
+     "Astute Eye"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Duplicitious Strike",
+     "Blindsense",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Slippery Mind"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Eye For Weakness"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Elusive"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Stroke of Luck"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Rogue",
+  "sub": "Assassin",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Cunning Action"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Steady Aim",
+     "Killer's Toolkit",
+     "Assassinate"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 11,
+    "new": [
+     "Devious Strike",
+     "Uncanny Dodge"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Cutthroat Tactics"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 14,
+    "new": [
+     "Evasion"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 16,
+    "new": [
+     "Opportunist"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 17,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": [
+     "Reliable Talent"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 20,
+    "new": [
+     "Cloak-and-Dagger"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Duplicitious Strike",
+     "Blindsense",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Slippery Mind"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Deadly Strike"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Elusive"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Stroke of Luck"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Rogue",
+  "sub": "Fencer",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 17,
+    "features": 6,
+    "new": [
+     "Cunning Action"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 24,
+    "features": 9,
+    "new": [
+     "Steady Aim",
+     "En Garde",
+     "Dueling Defense"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 31,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 38,
+    "features": 11,
+    "new": [
+     "Devious Strike",
+     "Uncanny Dodge"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 45,
+    "features": 13,
+    "new": [
+     "Master Bladework"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 52,
+    "features": 14,
+    "new": [
+     "Evasion"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 67,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 75,
+    "features": 16,
+    "new": [
+     "Agile Reflexes"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 83,
+    "features": 17,
+    "new": [
+     "Color of Armament Apprentice"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 91,
+    "features": 18,
+    "new": [
+     "Reliable Talent"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 111,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 120,
+    "features": 20,
+    "new": [
+     "Martial Metre"
+    ]
+   },
+   {
+    "level": 14,
+    "hp": 129,
+    "features": 23,
+    "new": [
+     "Duplicitious Strike",
+     "Blindsense",
+     "Color of Armament Adept"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 138,
+    "features": 24,
+    "new": [
+     "Slippery Mind"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 147,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 156,
+    "features": 26,
+    "new": [
+     "Weapon Weave"
+    ]
+   },
+   {
+    "level": 18,
+    "hp": 165,
+    "features": 27,
+    "new": [
+     "Elusive"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 193,
+    "features": 27,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 203,
+    "features": 28,
+    "new": [
+     "Stroke of Luck"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Barbarian",
+  "sub": "Path of the Totem Warrior",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 23,
+    "features": 6,
+    "new": [
+     "Reckless Attack",
+     "Danger Sense"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 32,
+    "features": 9,
+    "new": [
+     "Primal Knowledge",
+     "Beast Speech",
+     "Primal Totem"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 41,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 50,
+    "features": 11,
+    "new": [
+     "Extra Attack",
+     "Fast Movement"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 59,
+    "features": 12,
+    "new": [
+     "Ancient Aspect"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 68,
+    "features": 14,
+    "new": [
+     "Feral Instinct"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 85,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 95,
+    "features": 16,
+    "new": [
+     "Brutal Critical"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 105,
+    "features": 18,
+    "new": [
+     "Color of Armament Apprentice",
+     "Voracious Velocity"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 115,
+    "features": 19,
+    "new": [
+     "Relentless Rage"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 125,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 135,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 145,
+    "features": 22,
+    "new": [
+     "Color of Armament Adept",
+     "Totem Attuned"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 155,
+    "features": 23,
+    "new": [
+     "Persistent Rage"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 181,
+    "features": 24,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 192,
+    "features": 24,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 203,
+    "features": 25,
+    "new": [
+     "Indomitable Might"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 214,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 265,
+    "features": 26,
+    "new": [
+     "Primal Champion"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Barbarian",
+  "sub": "Path of the Blade Master",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 23,
+    "features": 6,
+    "new": [
+     "Reckless Attack",
+     "Danger Sense"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 32,
+    "features": 13,
+    "new": [
+     "Primal Knowledge",
+     "Fighting Style",
+     "Masterful Hew",
+     "Cleaving Hew",
+     "Crushing Hew",
+     "Savage Hew",
+     "Sprinting Hew"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 41,
+    "features": 13,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 50,
+    "features": 15,
+    "new": [
+     "Extra Attack",
+     "Fast Movement"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 59,
+    "features": 17,
+    "new": [
+     "Steel Rending",
+     "Tempered Rage"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 68,
+    "features": 19,
+    "new": [
+     "Feral Instinct"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 85,
+    "features": 20,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 95,
+    "features": 21,
+    "new": [
+     "Brutal Critical"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 105,
+    "features": 23,
+    "new": [
+     "Color of Armament Apprentice",
+     "Proof of Mettle"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 115,
+    "features": 24,
+    "new": [
+     "Relentless Rage"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 125,
+    "features": 25,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 135,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 145,
+    "features": 27,
+    "new": [
+     "Color of Armament Adept",
+     "Inexorable Prowess"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 155,
+    "features": 28,
+    "new": [
+     "Persistent Rage"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 181,
+    "features": 29,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 192,
+    "features": 29,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 203,
+    "features": 30,
+    "new": [
+     "Indomitable Might"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 214,
+    "features": 30,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 265,
+    "features": 31,
+    "new": [
+     "Primal Champion"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Barbarian",
+  "sub": "Path of the Pugilist",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 23,
+    "features": 6,
+    "new": [
+     "Reckless Attack",
+     "Danger Sense"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 32,
+    "features": 9,
+    "new": [
+     "Primal Knowledge",
+     "Fists of Fury",
+     "Rough and Tumble"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 41,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 50,
+    "features": 11,
+    "new": [
+     "Extra Attack",
+     "Fast Movement"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 59,
+    "features": 13,
+    "new": [
+     "Intercepting Strike",
+     "Audacious Fury"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 68,
+    "features": 15,
+    "new": [
+     "Feral Instinct"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 85,
+    "features": 16,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 95,
+    "features": 17,
+    "new": [
+     "Brutal Critical"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 105,
+    "features": 19,
+    "new": [
+     "Color of Armament Apprentice",
+     "Ready to Rumble"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 115,
+    "features": 20,
+    "new": [
+     "Relentless Rage"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 125,
+    "features": 21,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 135,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 145,
+    "features": 23,
+    "new": [
+     "Color of Armament Adept",
+     "Death Defying"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 155,
+    "features": 24,
+    "new": [
+     "Persistent Rage"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 181,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 192,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 203,
+    "features": 26,
+    "new": [
+     "Indomitable Might"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 214,
+    "features": 26,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 265,
+    "features": 27,
+    "new": [
+     "Primal Champion"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Barbarian",
+  "sub": "Path of the Cannoneer",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 23,
+    "features": 6,
+    "new": [
+     "Reckless Attack",
+     "Danger Sense"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 32,
+    "features": 8,
+    "new": [
+     "Primal Knowledge",
+     "Boomstick"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 41,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 50,
+    "features": 10,
+    "new": [
+     "Extra Attack",
+     "Fast Movement"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 59,
+    "features": 11,
+    "new": [
+     "Crazed Bravado"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 68,
+    "features": 13,
+    "new": [
+     "Feral Instinct"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 85,
+    "features": 14,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 95,
+    "features": 15,
+    "new": [
+     "Brutal Critical"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 105,
+    "features": 17,
+    "new": [
+     "Color of Armament Apprentice",
+     "Pack Mule"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 115,
+    "features": 18,
+    "new": [
+     "Relentless Rage"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 125,
+    "features": 19,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 135,
+    "features": 19,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 145,
+    "features": 21,
+    "new": [
+     "Color of Armament Adept",
+     "Blastback"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 155,
+    "features": 22,
+    "new": [
+     "Persistent Rage"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 181,
+    "features": 23,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 192,
+    "features": 23,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 203,
+    "features": 24,
+    "new": [
+     "Indomitable Might"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 214,
+    "features": 24,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 265,
+    "features": 25,
+    "new": [
+     "Primal Champion"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Barbarian",
+  "sub": "Path of the Channeler",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 23,
+    "features": 6,
+    "new": [
+     "Reckless Attack",
+     "Danger Sense"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 32,
+    "features": 9,
+    "new": [
+     "Primal Knowledge",
+     "Channel Destruction",
+     "Gigantic Might"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 41,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 50,
+    "features": 11,
+    "new": [
+     "Extra Attack",
+     "Fast Movement"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 59,
+    "features": 12,
+    "new": [
+     "Move Mountains"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 68,
+    "features": 14,
+    "new": [
+     "Feral Instinct"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 85,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 95,
+    "features": 16,
+    "new": [
+     "Brutal Critical"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 105,
+    "features": 18,
+    "new": [
+     "Color of Armament Apprentice",
+     "Titan Monger"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 115,
+    "features": 19,
+    "new": [
+     "Relentless Rage"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 125,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 135,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 145,
+    "features": 22,
+    "new": [
+     "Color of Armament Adept",
+     "Colossal Channeler"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 155,
+    "features": 23,
+    "new": [
+     "Persistent Rage"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 181,
+    "features": 24,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 192,
+    "features": 24,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 203,
+    "features": 25,
+    "new": [
+     "Indomitable Might"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 214,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 265,
+    "features": 26,
+    "new": [
+     "Primal Champion"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Barbarian",
+  "sub": "Path of the Berserker",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 23,
+    "features": 6,
+    "new": [
+     "Reckless Attack",
+     "Danger Sense"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 32,
+    "features": 8,
+    "new": [
+     "Primal Knowledge",
+     "Fighting Frenzy"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 41,
+    "features": 8,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 50,
+    "features": 10,
+    "new": [
+     "Extra Attack",
+     "Fast Movement"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 59,
+    "features": 12,
+    "new": [
+     "Mindless Rage",
+     "Reckless Severity"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 68,
+    "features": 14,
+    "new": [
+     "Feral Instinct"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 85,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 95,
+    "features": 16,
+    "new": [
+     "Brutal Critical"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 105,
+    "features": 18,
+    "new": [
+     "Color of Armament Apprentice",
+     "Intimidating Glare"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 115,
+    "features": 19,
+    "new": [
+     "Relentless Rage"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 125,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 135,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 145,
+    "features": 22,
+    "new": [
+     "Color of Armament Adept",
+     "Retaliation"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 155,
+    "features": 23,
+    "new": [
+     "Persistent Rage"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 181,
+    "features": 24,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 192,
+    "features": 24,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 203,
+    "features": 25,
+    "new": [
+     "Indomitable Might"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 214,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 265,
+    "features": 26,
+    "new": [
+     "Primal Champion"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Barbarian",
+  "sub": "Path of the Storm Herald",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 23,
+    "features": 6,
+    "new": [
+     "Reckless Attack",
+     "Danger Sense"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 32,
+    "features": 11,
+    "new": [
+     "Primal Knowledge",
+     "Raging Storm",
+     "Raging Storm: Firestorm",
+     "Raging Storm: Thunderstorm",
+     "Raging Storm: Snowstorm"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 41,
+    "features": 11,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 50,
+    "features": 13,
+    "new": [
+     "Extra Attack",
+     "Fast Movement"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 59,
+    "features": 17,
+    "new": [
+     "Stormy Soul",
+     "Stormy Soul: Firestorm",
+     "Stormy Soul: Thunderstorm",
+     "Stormy Soul: Snowstorm"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 68,
+    "features": 19,
+    "new": [
+     "Feral Instinct"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 85,
+    "features": 20,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 95,
+    "features": 21,
+    "new": [
+     "Brutal Critical"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 105,
+    "features": 23,
+    "new": [
+     "Color of Armament Apprentice",
+     "Shielding Storm"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 115,
+    "features": 24,
+    "new": [
+     "Relentless Rage"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 125,
+    "features": 25,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 135,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 145,
+    "features": 30,
+    "new": [
+     "Color of Armament Adept",
+     "Fury of the Storm",
+     "Fury of the Storm: Firestorm",
+     "Fury of the Storm: Thunderstorm",
+     "Fury of the Storm: Snowstorm"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 155,
+    "features": 31,
+    "new": [
+     "Persistent Rage"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 181,
+    "features": 32,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 192,
+    "features": 32,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 203,
+    "features": 33,
+    "new": [
+     "Indomitable Might"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 214,
+    "features": 33,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 265,
+    "features": 34,
+    "new": [
+     "Primal Champion"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Barbarian",
+  "sub": "Path of the Spirit Speaker",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 23,
+    "features": 6,
+    "new": [
+     "Reckless Attack",
+     "Danger Sense"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 32,
+    "features": 9,
+    "new": [
+     "Primal Knowledge",
+     "Archaic Oracle",
+     "Guardian Avatar"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 41,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 50,
+    "features": 11,
+    "new": [
+     "Extra Attack",
+     "Fast Movement"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 59,
+    "features": 12,
+    "new": [
+     "Expanding Epiphany"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 68,
+    "features": 14,
+    "new": [
+     "Feral Instinct"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 85,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 95,
+    "features": 16,
+    "new": [
+     "Brutal Critical"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 105,
+    "features": 18,
+    "new": [
+     "Color of Armament Apprentice",
+     "Vengeful Spirits"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 115,
+    "features": 19,
+    "new": [
+     "Relentless Rage"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 125,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 135,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 145,
+    "features": 22,
+    "new": [
+     "Color of Armament Adept",
+     "Clairvoyant Nexus"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 155,
+    "features": 23,
+    "new": [
+     "Persistent Rage"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 181,
+    "features": 24,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 192,
+    "features": 24,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 203,
+    "features": 25,
+    "new": [
+     "Indomitable Might"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 214,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 265,
+    "features": 26,
+    "new": [
+     "Primal Champion"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Barbarian",
+  "sub": "Path of the Shattered Mind",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 23,
+    "features": 6,
+    "new": [
+     "Reckless Attack",
+     "Danger Sense"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 32,
+    "features": 9,
+    "new": [
+     "Primal Knowledge",
+     "Creativity (Spellcasting)",
+     "Shattered Duality"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 41,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 50,
+    "features": 11,
+    "new": [
+     "Extra Attack",
+     "Fast Movement"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 59,
+    "features": 12,
+    "new": [
+     "Reckless Brilliance"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 68,
+    "features": 14,
+    "new": [
+     "Feral Instinct"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 85,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 95,
+    "features": 16,
+    "new": [
+     "Brutal Critical"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 105,
+    "features": 18,
+    "new": [
+     "Color of Armament Apprentice",
+     "Brutal Flair"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 115,
+    "features": 19,
+    "new": [
+     "Relentless Rage"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 125,
+    "features": 20,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 135,
+    "features": 20,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 145,
+    "features": 22,
+    "new": [
+     "Color of Armament Adept",
+     "True Mind"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 155,
+    "features": 23,
+    "new": [
+     "Persistent Rage"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 181,
+    "features": 24,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 192,
+    "features": 24,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 203,
+    "features": 25,
+    "new": [
+     "Indomitable Might"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 214,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 265,
+    "features": 26,
+    "new": [
+     "Primal Champion"
+    ]
+   }
+  ],
+  "fails": []
+ },
+ {
+  "cls": "Barbarian",
+  "sub": "Path of the Forgemaster",
+  "levels": [
+   {
+    "level": 2,
+    "hp": 23,
+    "features": 6,
+    "new": [
+     "Reckless Attack",
+     "Danger Sense"
+    ]
+   },
+   {
+    "level": 3,
+    "hp": 32,
+    "features": 9,
+    "new": [
+     "Primal Knowledge",
+     "Armored Artisan",
+     "Forgemaster's Armor"
+    ]
+   },
+   {
+    "level": 4,
+    "hp": 41,
+    "features": 9,
+    "new": []
+   },
+   {
+    "level": 5,
+    "hp": 50,
+    "features": 11,
+    "new": [
+     "Extra Attack",
+     "Fast Movement"
+    ]
+   },
+   {
+    "level": 6,
+    "hp": 59,
+    "features": 12,
+    "new": [
+     "Unrelenting Fortress"
+    ]
+   },
+   {
+    "level": 7,
+    "hp": 68,
+    "features": 14,
+    "new": [
+     "Feral Instinct"
+    ]
+   },
+   {
+    "level": 8,
+    "hp": 85,
+    "features": 15,
+    "new": [
+     "Color of Armament Novice"
+    ]
+   },
+   {
+    "level": 9,
+    "hp": 95,
+    "features": 16,
+    "new": [
+     "Brutal Critical"
+    ]
+   },
+   {
+    "level": 10,
+    "hp": 105,
+    "features": 19,
+    "new": [
+     "Color of Armament Apprentice",
+     "Hostile Charge",
+     "Iron Retribution"
+    ]
+   },
+   {
+    "level": 11,
+    "hp": 115,
+    "features": 20,
+    "new": [
+     "Relentless Rage"
+    ]
+   },
+   {
+    "level": 12,
+    "hp": 125,
+    "features": 21,
+    "new": [
+     "Color of Armament Journeyman"
+    ]
+   },
+   {
+    "level": 13,
+    "hp": 135,
+    "features": 21,
+    "new": []
+   },
+   {
+    "level": 14,
+    "hp": 145,
+    "features": 23,
+    "new": [
+     "Color of Armament Adept",
+     "Forged in Fire"
+    ]
+   },
+   {
+    "level": 15,
+    "hp": 155,
+    "features": 24,
+    "new": [
+     "Persistent Rage"
+    ]
+   },
+   {
+    "level": 16,
+    "hp": 181,
+    "features": 25,
+    "new": [
+     "Color of Armament Master"
+    ]
+   },
+   {
+    "level": 17,
+    "hp": 192,
+    "features": 25,
+    "new": []
+   },
+   {
+    "level": 18,
+    "hp": 203,
+    "features": 26,
+    "new": [
+     "Indomitable Might"
+    ]
+   },
+   {
+    "level": 19,
+    "hp": 214,
+    "features": 26,
+    "new": []
+   },
+   {
+    "level": 20,
+    "hp": 265,
+    "features": 27,
+    "new": [
+     "Primal Champion"
+    ]
+   }
+  ],
+  "fails": []
+ }
+]

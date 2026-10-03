@@ -1,0 +1,305 @@
+{
+ "rows": [],
+ "results": [
+  {
+   "feat": "Skulker",
+   "label": "Dex 12 fails Dexterity 13",
+   "pass": true,
+   "got": [
+    "Dexterity 13 or higher"
+   ]
+  },
+  {
+   "feat": "Skulker",
+   "label": "Dex 13 qualifies",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Flying Strikes",
+   "label": "Str 8 / Dex 8 fails Str or Dex 13",
+   "pass": true,
+   "got": [
+    "Strength or Dexterity 13 or higher"
+   ]
+  },
+  {
+   "feat": "Flying Strikes",
+   "label": "Str 14 satisfies the 'or'",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Inspiring Leader",
+   "label": "Cha 12 fails",
+   "pass": true,
+   "got": [
+    "Charisma 13 or higher"
+   ]
+  },
+  {
+   "feat": "Inspiring Leader",
+   "label": "Cha 13 qualifies",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Cannon Master",
+   "label": "Dex ok but no cannon proficiency",
+   "pass": true,
+   "got": [
+    "weapon proficiency: cannons"
+   ]
+  },
+  {
+   "feat": "Cannon Master",
+   "label": "Dex 13 + cannon proficiency",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Heavily Armored",
+   "label": "no medium armor proficiency",
+   "pass": true,
+   "got": [
+    "armor proficiency: medium"
+   ]
+  },
+  {
+   "feat": "Heavily Armored",
+   "label": "medium armor proficiency",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Heavy Armor Master",
+   "label": "light and medium only",
+   "pass": true,
+   "got": [
+    "armor proficiency: heavy"
+   ]
+  },
+  {
+   "feat": "Heavy Armor Master",
+   "label": "heavy armor proficiency",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Rapier Mastery",
+   "label": "no rapier proficiency",
+   "pass": true,
+   "got": [
+    "weapon proficiency: rapiers"
+   ]
+  },
+  {
+   "feat": "Rapier Mastery",
+   "label": "martial category covers the rapier",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Rapier Mastery",
+   "label": "rapier proficiency by name",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Rapier Mastery",
+   "label": "simple only does not cover the rapier",
+   "pass": true,
+   "got": [
+    "weapon proficiency: rapiers"
+   ]
+  },
+  {
+   "feat": "Axe Mastery",
+   "label": "any one of the listed axes is enough",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Fighting Initiate",
+   "label": "martial weapon proficiency",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Fighting Initiate",
+   "label": "simple is not martial",
+   "pass": true,
+   "got": [
+    "weapon proficiency: martial weapon"
+   ]
+  },
+  {
+   "feat": "Sea Sovereignty",
+   "label": "Merfolk only",
+   "pass": true,
+   "got": [
+    "Merfolk race"
+   ]
+  },
+  {
+   "feat": "Sea Sovereignty",
+   "label": "Merfolk qualifies",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Ominous Toxin",
+   "label": "Fishman or Merfolk",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Electro Expert",
+   "label": "Mink qualifies",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Electro Expert",
+   "label": "Human is not a Mink",
+   "pass": true,
+   "got": [
+    "Mink race"
+   ]
+  },
+  {
+   "feat": "Iron-Willed",
+   "label": "Human qualifies (sub-type left for the DM)",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Iron-Willed",
+   "label": "Mink is not Human",
+   "pass": true,
+   "got": [
+    "Human race"
+   ]
+  },
+  {
+   "feat": "Hulking Monolith",
+   "label": "Str 17, not Dwarf/Giant",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Hulking Monolith",
+   "label": "Giants are excluded",
+   "pass": true,
+   "got": [
+    "not a Giant"
+   ]
+  },
+  {
+   "feat": "Hulking Monolith",
+   "label": "Str 14 fails 17",
+   "pass": true,
+   "got": [
+    "Strength 17 or higher"
+   ]
+  },
+  {
+   "feat": "Heightened Innovation",
+   "label": "no creations",
+   "pass": true,
+   "got": [
+    "the ability to use creations"
+   ]
+  },
+  {
+   "feat": "Heightened Innovation",
+   "label": "knows a creation",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Serpent’s Pact",
+   "label": "Human + Animal Handling",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Serpent’s Pact",
+   "label": "needs Animal Handling proficiency",
+   "pass": true,
+   "got": [
+    "skill proficiency: animal handling"
+   ]
+  },
+  {
+   "feat": "Dead Man’s Grip",
+   "label": "Augmented with Str 16",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Dead Man’s Grip",
+   "label": "Str 14 fails 16",
+   "pass": true,
+   "got": [
+    "Strength 16 or higher"
+   ]
+  },
+  {
+   "feat": "Short Blade Master",
+   "label": "dagger",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Short Blade Master",
+   "label": "shortsword",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Short Blade Master",
+   "label": "neither",
+   "pass": true,
+   "got": [
+    "weapon proficiency: dagger or shortsword"
+   ]
+  },
+  {
+   "feat": "Light Armor Master",
+   "label": "requirement '3' is a source data error: not enforced",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Alert",
+   "label": "no prerequisites",
+   "pass": true,
+   "got": true
+  },
+  {
+   "feat": "Color of Armament Novice",
+   "label": "level 5 fails, level 8 qualifies",
+   "pass": true,
+   "got": {
+    "low": [
+     "level 8"
+    ],
+    "high": true
+   }
+  },
+  {
+   "feat": "Skulker",
+   "label": "modes: warn=true, off=true, enforce=blocked",
+   "pass": true,
+   "got": {
+    "warn": true,
+    "off": true,
+    "enforce": "blocked"
+   }
+  }
+ ],
+ "notes": [],
+ "wrapped": true,
+ "setting": true
+}
