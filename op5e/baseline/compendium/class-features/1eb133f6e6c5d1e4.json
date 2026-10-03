@@ -1,0 +1,84 @@
+{
+  "_id": "1eb133f6e6c5d1e4",
+  "name": "Conqueror's Haki Adept",
+  "type": "feat",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your will over others can overpower your weaker foes, ensuring that the riff raff won't get away, and that your authority remains absolute.</p>\n<p><strong>Overpowering Presence.</strong> Your overwhelming soul completely overtakes any fodder in your wake. Weaker creatures knocked out by your Overwhelming Presence no longer awaken at a source of damage or if a creature uses their action to shake them awake, but will awaken after 1 hour unless their HP is 0.</p>\n<p><strong>Ultimate Authority.</strong> At any time of day, you reign supreme over your enemies and their special abilities. Your uses for your Crushing Will feature are now regained at the end of a short or long rest, instead of only a long rest.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Special, 14th level, Conqueror's Haki Journeyman",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1eb133f6e6c5d1e4"
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "d49069d3b3e1fe3e",
+  "name": "Hammer, Sledge",
+  "type": "loot",
+  "img": "icons/weapons/hammers/hammer-war-spiked.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 10,
+      "units": "lb"
+    },
+    "price": {
+      "value": 20000,
+      "denomination": "gp"
+    },
+    "rarity": "common"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d49069d3b3e1fe3e"
+}

@@ -1,0 +1,160 @@
+{
+  "_id": "709c949b4f0d5983",
+  "name": "Role: Musician",
+  "type": "feat",
+  "img": "icons/skills/trades/music-notes-sound-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A role that is often understated is that of the musician. Musicians keep their crew happy with performance, song, and dance. They lift the tired spirits and weary bodies of their crewmates after gruesome fights or violent storms.</p>\n<p><strong>Skill Proficiencies:</strong> Performance, choose two from Acrobatics, Animal Handling, Deception, History, or Persuasion</p>\n<p><strong>Tool Proficiencies:</strong> One instrument of your choice</p>\n<p><strong>Equipment:</strong> Common clothes, a costume, an instrument of your choice, and a pouch containing 50,000 beri</p>\n<h4>Feature: Entertainer's Routine</h4>\n<p>You can always find a place to perform in towns and settlements, and you and your crew can stay for free as long as you perform every night. At the start of each dawn, select a friendly creature that can see and hear you; that creature gains a temporary point of Inspiration lasting until the end of the day.</p>\n<h4>Feature: Bonus Feat</h4>\n<p>You gain a bonus feat of your choice. Some potential options: Diplomat, Elemental Attack, Musician, Performer, Remarkable Recovery, Silver Tongue.</p>\n<h4>Dream</h4>\n<table><tr><th>d6</th><th>Dream</th></tr>\n<tr><td>1</td><td>I left my sweetheart behind as I took to the seas. One day I will return with a treasure in my hands.</td></tr>\n<tr><td>2</td><td>I wish to record the epic adventures of my crew and immortalize them through song.</td></tr>\n<tr><td>3</td><td>Somewhere in the world, there is beauty unlike any other. I wish to lay my own eyes upon it.</td></tr>\n<tr><td>4</td><td>Notes on a great performance are scattered around the world. I want to collect and recreate them.</td></tr>\n<tr><td>5</td><td>I wish to bring the joy of laughter and song to all corners of the world.</td></tr>\n<tr><td>6</td><td>I fell in love with someone who set off to sea, and now I follow their trail hoping for reunion.</td></tr></table>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "advancement": [
+      {
+        "_id": "2adf81654cb92973",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.96345ec3afda41a5",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "77c2d151717378f8",
+        "type": "ItemChoice",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.op5e.items.872da87be9c89b49"
+            },
+            {
+              "uuid": "Compendium.op5e.items.41eb319da91c2dc5"
+            },
+            {
+              "uuid": "Compendium.op5e.items.ec191dfba374c93a"
+            },
+            {
+              "uuid": "Compendium.op5e.items.9ac9dc3c79fccdb6"
+            },
+            {
+              "uuid": "Compendium.op5e.items.866441bbcc0d415c"
+            },
+            {
+              "uuid": "Compendium.op5e.items.2ae52957dd56057e"
+            }
+          ],
+          "restriction": {
+            "type": "tool",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null,
+          "type": "tool"
+        },
+        "value": {
+          "ability": "",
+          "added": {},
+          "replaced": {}
+        },
+        "level": 0,
+        "title": "Instrument",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "shipRole": true,
+      "startingBeri": 50000,
+      "grantQuantities": {}
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!709c949b4f0d5983"
+}

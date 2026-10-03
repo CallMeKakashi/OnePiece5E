@@ -1,0 +1,120 @@
+{
+  "_id": "776616c4db46071e",
+  "name": "Drunken Master",
+  "type": "subclass",
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Often seen as unassuming drunkards, the Drunken Masters are a force to be reckoned with. Due to their drunken stance, they can move unpredictably, and strike with deadly fury, all the while their opponent is both beaten and baffled.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "drunken-master",
+    "classIdentifier": "brawler",
+    "advancement": [
+      {
+        "_id": "43d1cac80ff88a8e",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.4f429683e2a2eda7",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.4e9de9f2f4145ebf",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "5726ae8d622b9272",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.092e8f88494b9b5c",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "d73f859979e889d2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.956de33013f184f7",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "c7fc5b1db05eeafc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.5f9726375eb305f3",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!776616c4db46071e"
+}

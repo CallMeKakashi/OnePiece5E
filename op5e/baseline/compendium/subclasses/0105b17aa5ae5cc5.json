@@ -1,0 +1,106 @@
+{
+  "_id": "0105b17aa5ae5cc5",
+  "name": "College of Lore",
+  "type": "subclass",
+  "img": "icons/sundries/books/book-tooled-gold-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Bards of the college of lore know something about most things. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "lore",
+    "classIdentifier": "bard",
+    "advancement": [
+      {
+        "_id": "ef67184ae7ad4274",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.2c8d9e0263ce33fb",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.a051c624548d1f5b",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "5218255b7f75aef5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.29f52f4fafbe0e08",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.da0b94b1e7cfc3f8",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "906fd8d2a7fe5b43",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.b794a9cd0336f6fe",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0105b17aa5ae5cc5"
+}

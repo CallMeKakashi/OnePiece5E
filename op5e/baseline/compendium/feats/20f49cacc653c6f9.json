@@ -1,0 +1,84 @@
+{
+  "_id": "20f49cacc653c6f9",
+  "name": "Shotgun Master",
+  "type": "feat",
+  "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+  "system": {
+    "description": {
+      "value": "<p>The powerful blast of the shotgun is under your control and whim, allowing you to blast apart anyone who comes your way. You gain the following benefits while wielding a shotgun:</p><ul><li>You gain a +1 bonus to attack rolls you make with shotguns.</li><li>The bonus damage from your shotgun when attacking a creature within normal range increases from 1d4 to 1d6.</li><li>The normal and long ranges of your shotgun increases to (40/120).</li><li>In place of an attack with your shotgun, you can instead produce a 5ft cube at a point you can see within the normal range of your shotgun. Any creature caught in this cube must make a Dexterity saving throw, DC = 8 + your Dexterity modifier + your Proficiency Bonus. On a failure, the creature takes the damage from your shotgun, as if you had hit it with the weapon attack. On a success, the creature takes no damage.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Proficiency with a shotgun",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!20f49cacc653c6f9"
+}

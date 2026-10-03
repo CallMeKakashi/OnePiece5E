@@ -1,0 +1,89 @@
+{
+  "_id": "e2df983f5240e35b",
+  "name": "Priest",
+  "type": "background",
+  "img": "icons/magic/holy/chalice-glowing-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have spent your life in the service of a temple. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Insight, Religion, Persuasion, and History</p>\n<p><strong>Equipment:</strong> 150,000 Berries; Small Medkits &times;3; Rations &times;5, a prayer book, 5 sticks of incense, and vestments</p>\n<h4>Feature: Knowledge of Faith</h4>\n<p>Your faith and training as a priest have given you a greater understanding of religion. You gain your choice of the Religious Feat or the Insightful Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "acf0e97eed07b8a3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 3
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.446fb0a3ad5f8527",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.52ab23fb2e153a19",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.820345c7b83fd5aa",
+              "optional": false,
+              "quantity": 5
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 3,
+            "Compendium.op5e.items.73f0fa2559f88979": 5,
+            "Compendium.op5e.items.820345c7b83fd5aa": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 150000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 3,
+        "Compendium.op5e.items.73f0fa2559f88979": 5,
+        "Compendium.op5e.items.820345c7b83fd5aa": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e2df983f5240e35b"
+}

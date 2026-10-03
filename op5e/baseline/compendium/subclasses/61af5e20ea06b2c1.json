@@ -1,0 +1,138 @@
+{
+  "_id": "61af5e20ea06b2c1",
+  "name": "Swashbuckler",
+  "type": "subclass",
+  "img": "icons/skills/melee/blade-tip-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>You focus your training on the art of the blade, relying on speed, elegance, and charm in equal parts. While some warriors are brutes clad in heavy armor, your method of fighting looks almost like a performance.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "swashbuckler",
+    "classIdentifier": "rogue",
+    "advancement": [
+      {
+        "_id": "e4d545d5abb20cde",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.9b7e47b28ddca0b9",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.8c16cbb091da64a9",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "69cbad559da18254",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.3e5f536ffd2853ae",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "d53dd5abb6d47b48",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.7565406c2e3c6c12",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 9,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "6c6128faa9f11371",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.cdf052f5ebda63e9",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 13,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "f10f0725cf66c1ef",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.47aed38b64ec468a",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!61af5e20ea06b2c1"
+}

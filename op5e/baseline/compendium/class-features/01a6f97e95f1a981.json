@@ -1,0 +1,89 @@
+{
+  "_id": "01a6f97e95f1a981",
+  "name": "Geo-Fist",
+  "type": "feat",
+  "img": "icons/skills/trades/construction-mason-bricklayer-red.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Prerequisite: Decades of building up power</em></p>\n<p>Masters of this style have honed their bodies to be able to store the energy and strength they had from youth to reuse later on in life, allowing them to access a form that goes beyond human limits.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Decades of building up power",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "additionalPower": true,
+      "additionalPowerRoot": true
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!01a6f97e95f1a981"
+}

@@ -1,0 +1,125 @@
+{
+  "_id": "96c43e856623354b",
+  "name": "Role: Doctor",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A pirate's life is a rough life filled with danger. Most crews cannot make it far without a doctor. A doctor's duties speak for themselves, tasked with looking after their crewmates' health.</p>\n<p><strong>Skill Proficiencies:</strong> Medicine, choose one from Insight, Nature, Perception, Sleight of Hand, or Survival</p>\n<p><strong>Tool Proficiencies:</strong> Alchemist's Supplies, Herbalism Kit</p>\n<p><strong>Equipment:</strong> Common clothes, a herbalism kit, a stethoscope, an encyclopedia on medicinal herbs, and a pouch containing 50,000 beri</p>\n<h4>Feature: Routine Care</h4>\n<p>The time and money to craft medicines and poisons are both halved. While present on a ship, you prevent diseases from spreading among the crew. You can immediately tell what common injuries and ailments a person is suffering from. If the injury is something you've never seen, you know where you could go to research it and find a cure.</p>\n<h4>Feature: Bonus Feat</h4>\n<p>You gain a bonus feat of your choice. Some potential options: Battle Creator, Caring, First Aid, Master Alchemist, Naturalist, Skilled.</p>\n<h4>Dream</h4>\n<table><tr><th>d6</th><th>Dream</th></tr>\n<tr><td>1</td><td>An incurable disease is ravaging my homeland, and I aim to find a cure before it's too late.</td></tr>\n<tr><td>2</td><td>I wish to create a miracle drug that can cure any illness or sickness.</td></tr>\n<tr><td>3</td><td>I want to write my own encyclopedia on rare medical herbs and plants all over the world.</td></tr>\n<tr><td>4</td><td>A doctor once gave their lives to save mine. I pursue my craft to make them proud.</td></tr>\n<tr><td>5</td><td>I want to create a hospital that can take care of any patient, no matter the illness.</td></tr>\n<tr><td>6</td><td>Honestly, I'm good if I can just keep my crew of idiots alive until we reach the next island.</td></tr></table>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "advancement": [
+      {
+        "_id": "0a01d0fc88bb5df0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.0ebbbbc450198575",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.1ac5beb803881e21",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.0ea5adada6166183",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.b51e6ba10d48cc3f",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.446fb0a3ad5f8527",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "shipRole": true,
+      "startingBeri": 50000,
+      "grantQuantities": {}
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!96c43e856623354b"
+}

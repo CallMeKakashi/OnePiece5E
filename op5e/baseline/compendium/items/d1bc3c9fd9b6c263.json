@@ -1,0 +1,38 @@
+{
+  "_id": "d1bc3c9fd9b6c263",
+  "name": "Ocean's Mourning",
+  "type": "weapon",
+  "img": "icons/magic/water/projectile-ice-faceted-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A Skillful Grade cutlass whose blade is tipped with seastone. The metal is sea blue and decorated with ornate ivory.</p>\n<p>This weapon is a +2 Sickle. This blade ignores devil fruit resistances and immunities.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "rare",
+    "attunement": "required"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d1bc3c9fd9b6c263"
+}

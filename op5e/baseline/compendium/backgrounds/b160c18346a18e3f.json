@@ -1,0 +1,123 @@
+{
+  "_id": "b160c18346a18e3f",
+  "name": "Role: Cook",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-sword-gray.webp",
+  "system": {
+    "description": {
+      "value": "<p>The cook is tasked with providing good food and drink to the crew, looking after the pantry and making sure food lasts from island to island. Only a cook can create the kind of food that makes a pirate's heart sing with courage and vigor.</p>\n<p><strong>Skill Proficiencies:</strong> Choose two from History, Nature, Persuasion, Performance, Sleight of Hand, or Survival</p>\n<p><strong>Tool Proficiencies:</strong> Cook's Utensils</p>\n<p><strong>Equipment:</strong> Common clothes, cook's utensils, a knife kit (3 chef knives usable as daggers), and a pouch containing 50,000 beri</p>\n<h4>Feature: Kitchen Artisan</h4>\n<p>While on a ship, you and your crew require only half as many rations and half as much water. The time and cost to craft food items is cut in half. You can learn \"attack cuisine\" recipes.</p>\n<h4>Feature: Bonus Feat</h4>\n<p>You gain a bonus feat of your choice. Some potential options: Alert, Charger, Creativity Adept, Gourmand, Observant, Skilled.</p>\n<h4>Dream</h4>\n<table><tr><th>d6</th><th>Dream</th></tr>\n<tr><td>1</td><td>There's a mythical sea called the \"All Blue\" where fish from all oceans swim. I want to find it.</td></tr>\n<tr><td>2</td><td>I want to create the perfect dish.</td></tr>\n<tr><td>3</td><td>I wish to master all 99 recipes of the so-called \"Attack Cuisine\".</td></tr>\n<tr><td>4</td><td>There are so many strange creatures. I want to cook a meal with every ingredient possible.</td></tr>\n<tr><td>5</td><td>I want to create my own restaurant that serves food that can't be found anywhere else.</td></tr>\n<tr><td>6</td><td>There is a single, mythical ingredient that no one has mastered. I will be the first.</td></tr></table>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "advancement": [
+      {
+        "_id": "66e8cb3f4d9739e3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.0ebbbbc450198575",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.2266c1e83f216c5e",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.626f152717a27ccf",
+              "optional": false,
+              "quantity": 3
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.626f152717a27ccf": 3
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "shipRole": true,
+      "startingBeri": 50000,
+      "grantQuantities": {
+        "Compendium.op5e.items.626f152717a27ccf": 3
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b160c18346a18e3f"
+}

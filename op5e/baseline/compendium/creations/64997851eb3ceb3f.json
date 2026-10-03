@@ -1,0 +1,172 @@
+{
+  "_id": "64997851eb3ceb3f",
+  "name": "Anti-Creation Field",
+  "type": "spell",
+  "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A 10-foot-radius invisible sphere of EMP surrounds you. This area is divorced from the creation that suffuses the abilities of other creations and creation like effects. Within the sphere, creations can’t be used, summoned creatures disappear, and even certain creation/mastercraft items become disfunctional, lacking their main special properties.\nUntil the creation ends, the sphere moves with you, centered on you.\nCreations and similar effects, are suppressed in the sphere and can’t protrude into it. A slot expended to use a suppressed creation is consumed. While an effect is suppressed, it doesn’t function, but the time it spends suppressed counts against its duration.\n<strong>Targeted Effects:</strong> Creations and similar Effects, such as Missiles and Charm Person, that target a creature or an object in the Sphere have no Effect on that target.\n<strong>Areas of Effect:</strong> The area of another creation or similar Effect, such as Fireball, can't extend into the Sphere. If the Sphere overlaps an area of creativity, the part of the area that is covered by the Sphere is suppressed. For example, the flames created by a Wall of Fire are suppressed within the Sphere, creating a gap in the wall if the overlap is large enough.\n<strong>Creations:</strong> Any active creation or similar Effect on a creature or an object in the Sphere is suppressed while the creature or object is in it.\n<strong>Mastercraft Items:</strong> The Properties and powers of certain items are suppressed in the Sphere. A weapon's Properties and powers are suppressed if it is used against a target in the Sphere or wielded by an attacker in the Sphere. If a weapon or piece of ammunition fully leaves the Sphere (For example, if you fire a Mastercraft Arrow or throw a mastercraft spear at a target outside the sphere), the creative bonus of the item ceases to be suppressed as soon as it exits.\n<strong>Deactivate Creation.</strong> Creations and similar effects such as Deactivate Creation have no effect on the sphere. Likewise, the spheres created by different antimagic field creations don’t nullify each other.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "level": 8,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "A pinch of powdered iron or iron fillings",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "formula": "",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "name": "Anti-Creation Field",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "1",
+          "units": "hour",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": null,
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!64997851eb3ceb3f"
+}

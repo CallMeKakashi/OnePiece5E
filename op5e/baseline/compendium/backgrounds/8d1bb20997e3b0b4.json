@@ -1,0 +1,86 @@
+{
+  "_id": "8d1bb20997e3b0b4",
+  "name": "Jeweler",
+  "type": "background",
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You hail from a prestigious lineage of accomplished jewelers, artisans, and gemcrafters. Your mastery of precious metals and stones distinguishes you.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Investigation, Perception, Sleight of Hand, Deception</p>\n<p><strong>Tool Proficiencies:</strong> Jeweler's tools and Glassblower's Tools</p>\n<p><strong>Equipment:</strong> 150,000 Berries; Small Medkits &times;3; Rations &times;5, Jeweler's kit and Glassblowing tools, a magnifying glass, jewelry worth 150,000 Berries</p>\n<h4>Feature: Crystal Crafter</h4>\n<p>You know how to work with gems and glass. You gain your choice of the Master Glassblower Feat or the Master Jeweler Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "f104e51ba3df101c",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 3
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.dc75088f6dbec03f",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.44547be783a0b21d",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.2c408a140ef3c934",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 3,
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 150000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 3,
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8d1bb20997e3b0b4"
+}

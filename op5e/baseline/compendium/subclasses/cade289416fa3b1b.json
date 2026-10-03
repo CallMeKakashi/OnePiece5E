@@ -1,0 +1,124 @@
+{
+  "_id": "cade289416fa3b1b",
+  "name": "Nighthawk",
+  "type": "subclass",
+  "img": "icons/magic/unholy/beam-ringed-impact-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Nighthawks are marksmen who prefer to never be seen. Like a nocturnal carnivore, they stalk from within the shadows, able to navigate the void as if it was day, or perhaps they hide within plain sight. Their steady minds and swift speed enable them to attack and defend with lethal efficiency.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "nighthawk",
+    "classIdentifier": "marksman",
+    "advancement": [
+      {
+        "_id": "980a6343fa35411f",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.335a7076abbc0c83",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.2a2cb98bb13b02c9",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.29241ffb818f33a2",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "0b6b3a76e12767ac",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.e62c425db42f411f",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "bed4cebc963b1d23",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.cec7fa1041558e78",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "c6a4d0d1b1ff3006",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.1a034aa225d5f767",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!cade289416fa3b1b"
+}

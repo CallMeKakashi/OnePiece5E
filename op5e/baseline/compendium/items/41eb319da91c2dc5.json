@@ -1,0 +1,53 @@
+{
+  "_id": "41eb319da91c2dc5",
+  "name": "Guitar",
+  "type": "tool",
+  "img": "icons/tools/smithing/anvil.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "price": {
+      "value": 350000,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "ability": "cha",
+    "chatFlavor": "",
+    "proficient": 0,
+    "type": {
+      "value": "music",
+      "baseItem": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!41eb319da91c2dc5"
+}

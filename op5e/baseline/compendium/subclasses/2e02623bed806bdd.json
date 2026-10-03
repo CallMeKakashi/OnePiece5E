@@ -1,0 +1,120 @@
+{
+  "_id": "2e02623bed806bdd",
+  "name": "Bio-Engineer",
+  "type": "subclass",
+  "img": "icons/tools/smithing/anvil.webp",
+  "system": {
+    "description": {
+      "value": "<p>The Bio-Engineer is a medic that toys with life, playing god. Performing experiments and tests that result in the creation of a whole new being, their test subject, a companion through each phase of experimentation.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "bio-engineer",
+    "classIdentifier": "medic",
+    "advancement": [
+      {
+        "_id": "41f5b3e1165e364f",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.861b442b9a358587",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.b4516f39ffcd265e",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "d7580da8d7ac1b9c",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.fd3bf1c5e260f758",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "197ee234aeeb2c61",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.1f0888dcedcc3fb7",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "b269467b666f0612",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.1dea35e43740d09b",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2e02623bed806bdd"
+}

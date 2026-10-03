@@ -1,0 +1,138 @@
+{
+  "_id": "6f5d7b47ff4a01d7",
+  "name": "Gunslinger",
+  "type": "subclass",
+  "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+  "system": {
+    "description": {
+      "value": "<p>Most warriors and combat specialists spend their years perfecting the classic arts of swordplay, archery, or pole arm tactics. Whether through necessity or extraordinary talent, the Gunslinger instead masters the use of firearms and cannons.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "gunslinger",
+    "classIdentifier": "fighter",
+    "advancement": [
+      {
+        "_id": "6e43bb089f1dc5c4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.78d773ad914c4ccb",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.5b211033e499e693",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "4a47f5884350eb12",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.57574e5dc5182fdd",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "d39e7732c53d9fcf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.4ad901210a2baf16",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "24f43bf7c8621f5f",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.9967a31486623556",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "95ec292c884c8ade",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.95bf2ebab5f8d77d",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6f5d7b47ff4a01d7"
+}

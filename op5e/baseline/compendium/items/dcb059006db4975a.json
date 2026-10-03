@@ -1,0 +1,53 @@
+{
+  "_id": "dcb059006db4975a",
+  "name": "Poisoner's Kit",
+  "type": "tool",
+  "img": "icons/magic/nature/leaf-glow-green.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "price": {
+      "value": 500000,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "ability": "int",
+    "chatFlavor": "",
+    "proficient": 0,
+    "type": {
+      "value": "art",
+      "baseItem": "pois"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!dcb059006db4975a"
+}

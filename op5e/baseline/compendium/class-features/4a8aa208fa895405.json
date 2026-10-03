@@ -1,0 +1,84 @@
+{
+  "_id": "4a8aa208fa895405",
+  "name": "Fighting Stances",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-slashes-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 3rd level, as a bonus action you can enter one of four fighting stances. Each stance lasts until you use a bonus action to switch stances, become incapacitated, or choose to end it (no action required). When you enter a stance, you gain temporary hit points equal to your fighter level.</p>\n<ul>\n<li><strong>Earth Stance.</strong> You are rooted and immovable. You have advantage on saving throws against being knocked prone or moved against your will, and your melee weapon attacks deal an additional 1d4 damage.</li>\n<li><strong>Fire Stance.</strong> Your attacks burn with intensity. When you hit a creature with a weapon attack, the target takes an additional 1d6 fire damage.</li>\n<li><strong>Water Stance.</strong> You flow like water around your opponents. Your movement doesn't provoke opportunity attacks, and when a creature misses you with a melee attack, you can use your reaction to move 5 feet without provoking opportunity attacks.</li>\n<li><strong>Wind Stance.</strong> You move with the speed of the wind. Your walking speed increases by 10 feet, and you can take the Dash or Disengage action as a bonus action.</li>\n</ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Samurai 3",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4a8aa208fa895405"
+}

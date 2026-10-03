@@ -1,0 +1,84 @@
+{
+  "_id": "4eea1b8aa9ac99ab",
+  "name": "Longsword Master",
+  "type": "feat",
+  "img": "icons/weapons/swords/sword-guard.webp",
+  "system": {
+    "description": {
+      "value": "<p>You master the art of greatswords and longswords, able to utilize their long blade to its maximum potential. You gain the following benefits while wielding a longsword or greatsword:</p><ul><li>You gain a +1 bonus to attack rolls you make with longswords and greatswords.</li><li>Longswords and greatswords you wield have the reach property.</li><li>When you reduce a creature to 0 hit points with a longsword or a greatsword, and have left over damage, you can choose to inflict the remaining damage to another creature within the reach of your longsword or greatsword.</li><li>When a creature hits you with an attack, when you are wielding a longsword or greatsword, you gain a +1 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4eea1b8aa9ac99ab"
+}

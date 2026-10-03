@@ -1,0 +1,84 @@
+{
+  "_id": "58124b4e545e58a0",
+  "name": "Creativity",
+  "type": "feat",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, you augment your martial prowess with the ability to use creations (spells). You prepare and cast gadgeteer creations using Wisdom as your creative ability.</p>\n<p><strong>Creation save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>\n<p><strong>Creation Attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>\n<p>You know three tricks (cantrips) from the gadgeteer creation list. You learn additional tricks at higher levels. You prepare a number of creations equal to your Wisdom modifier + half your Expressionist level (rounded down, minimum 1). You regain all expended creation slots when you finish a long rest.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Brawler (Expressionist) 3",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!58124b4e545e58a0"
+}

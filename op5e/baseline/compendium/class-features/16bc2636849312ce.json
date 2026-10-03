@@ -1,0 +1,167 @@
+{
+  "_id": "16bc2636849312ce",
+  "name": "Color of Armament Novice",
+  "type": "feat",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Through grueling challenges and training, you've unlocked the hidden potential sleeping deep within you, transforming your will into tangible force. You have access to the basic form of Armament Haki.</p>\n<p><strong>Armor of Resolve.</strong> Your will suffuses your body, rendering weak threats completely inconsequential. When you take damage from any source that is less than or equal to 5, you ignore that damage. This damage threshold is calculated before any damage reduction and resistance.</p>\n<p>In addition, if you have the Ocean's Scorn feature, and you are affected by the knee deep weakness, you can ignore those effects, except being unable to activate your devil fruit.</p>\n<p><strong>Enhancement.</strong> Your will enhances your strikes, making your fists, bullets, blades, and other weapons much more dense, allowing you to smash through all that comes your way. Your attacks and creations can now overcome resistances and immunities to unimbued damage types as they are now haki imbued.</p>\n<p>Additionally, you have a pool of Attack Points equal to your level that replenishes when you take a short or long rest. When you deal damage with an attack, creation, or other damaging ability, you can expend an Attack Point to add half your proficiency bonus (rounded down) to the damage roll. You can expend up to a number of Attack Points on a single damage roll to a maximum equal to your proficiency bonus.</p>\n<p>If you have Affinity towards Armament Haki, you may add your full proficiency bonus rather than half.</p>\n<p><strong>Fortified Defense.</strong> Your tenacious spirit empowers you when you take a defensive stance. When you use the Dodge action, you additionally gain advantage on a saving throw of your choice (in addition to Dexterity) until the start of your next turn.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "8th level",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "@details.level",
+      "per": "sr",
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "name": "Color of Armament Novice",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": null,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": [
+            {
+              "period": "shortRest",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!16bc2636849312ce"
+}

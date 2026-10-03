@@ -1,0 +1,61 @@
+{
+  "_id": "c62b59c4f8509357",
+  "name": "Artist",
+  "type": "background",
+  "img": "icons/skills/social/trading-justice-scale-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>Artists are sought-after and respected individuals all over the world. For their talent to place life and emotion into things such as clay, stone, paint, and other media; artists are loved by all for their creations.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Sleight of Hand, History, and Performance</p>\n<p><strong>Tool Proficiencies:</strong> Painter's Supplies</p>\n<p><strong>Equipment:</strong> 100,000 Berries; 1 artwork you purchased somewhere; Painter's Supplies</p>\n<h4>Feature: Visionary Painter</h4>\n<p>Your reputation and the skills you have gained through your career as an artist inspire all. You gain your choice of the Master Painter Feat or the Adept Inspiration Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "fcc3996fb5ab5746",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.a9d155147acc4b8a",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 100000,
+      "grantQuantities": {}
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c62b59c4f8509357"
+}

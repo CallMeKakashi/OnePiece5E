@@ -1,0 +1,53 @@
+{
+  "_id": "c0b3677582d5480a",
+  "name": "Thieves' Tools",
+  "type": "tool",
+  "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "price": {
+      "value": 250000,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "ability": "dex",
+    "chatFlavor": "",
+    "proficient": 0,
+    "type": {
+      "value": "art",
+      "baseItem": "thief"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c0b3677582d5480a"
+}

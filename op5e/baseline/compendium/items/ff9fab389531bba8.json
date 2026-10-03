@@ -1,0 +1,41 @@
+{
+  "_id": "ff9fab389531bba8",
+  "name": "Serpent Armor (Serpent Scale)",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>This set of armor has been crafted from the remains of a rare species of snake whose scales were tough as steel, but as light as leather.</p>\n<p>This armor acts like a set of scale mail. However, you may add your full Dexterity modifier to your AC instead of just 2. In addition, it doesn't grant disadvantage on Stealth checks.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "uncommon",
+    "type": {
+      "value": "medium"
+    },
+    "attunement": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ff9fab389531bba8"
+}

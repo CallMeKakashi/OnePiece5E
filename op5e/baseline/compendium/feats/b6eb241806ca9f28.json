@@ -1,0 +1,84 @@
+{
+  "_id": "b6eb241806ca9f28",
+  "name": "Handgun Master",
+  "type": "feat",
+  "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+  "system": {
+    "description": {
+      "value": "<p>Light and fast, you have trained extensively with handguns, allowing you to make the most of their functions in combat. You gain the following benefits while wielding a flintlock, pistol, or revolver:</p><ul><li>You gain a +1 bonus to attack rolls you make with flintlocks, pistols, and revolvers.</li><li>The damage dice of these weapons increases by 1 size (1d6=>1d8=>1d10=>1d12)</li><li>Any flintlock, pistol, or revolver you wield counts as light if it wasn’t already, and you do not need a free hand to reload these weapons.</li><li>You can draw and stow any flintlock, pistol, or revolver as part of making an attack with them.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b6eb241806ca9f28"
+}

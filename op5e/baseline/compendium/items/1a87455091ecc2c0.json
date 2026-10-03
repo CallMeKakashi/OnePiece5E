@@ -1,0 +1,41 @@
+{
+  "_id": "1a87455091ecc2c0",
+  "name": "Vision Dial",
+  "type": "equipment",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Stores light&mdash;the sky island equivalent of cameras. Records up to 300 images. Can be modified for video and paired with a Tone Dial for audio. Activate as a free action.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "common",
+    "type": {
+      "value": "trinket"
+    },
+    "attunement": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1a87455091ecc2c0"
+}

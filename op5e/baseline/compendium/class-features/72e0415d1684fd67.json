@@ -1,0 +1,117 @@
+{
+  "_id": "72e0415d1684fd67",
+  "name": "Developed Immunity",
+  "type": "feat",
+  "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Beginning at 10th level, you become immune to all poisons and diseases. Additionally, your hit point maximum can no longer be reduced, and your hit point maximum is increased by your level, and by 1 each level thereafter.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Medic (Physician) 10",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [
+    {
+      "_id": "a2f96cb7136b65f2",
+      "name": "Developed Immunity",
+      "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 5,
+          "value": "poisoned",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "combat": null
+      },
+      "origin": null,
+      "transfer": true,
+      "flags": {
+        "dae": {
+          "transfer": true,
+          "stackable": "noneName"
+        }
+      },
+      "statuses": [],
+      "tint": null,
+      "_key": "!items.effects!72e0415d1684fd67.a2f96cb7136b65f2"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!72e0415d1684fd67"
+}

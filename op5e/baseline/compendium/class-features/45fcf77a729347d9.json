@@ -1,0 +1,89 @@
+{
+  "_id": "45fcf77a729347d9",
+  "name": "Ardent Zeal",
+  "type": "feat",
+  "img": "icons/magic/holy/chalice-glowing-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Prerequisite: 10th level minimum, Savant class.</em></p>\n<p>As a savant, your charm and spirit brings forth a powerful aura to act in the defense of your friends, and the ability to strike your foes down with an elemental force. Through training and your unyielding presence, your passion and conviction become an unstoppable weapon.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Savant 10",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "additionalPower": true,
+      "additionalPowerRoot": true
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!45fcf77a729347d9"
+}

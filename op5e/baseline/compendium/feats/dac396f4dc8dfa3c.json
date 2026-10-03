@@ -1,0 +1,84 @@
+{
+  "_id": "dac396f4dc8dfa3c",
+  "name": "Shandian Mobility",
+  "type": "feat",
+  "img": "icons/skills/melee/hand-grip-sword-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Being a Shandian has allowed you to make the most of your environment, maneuvering and escaping any unfavorable situation. You gain the following benefits:</p><ul><li>Increase your Strength, Dexterity, or Constitution score by 1, up to a maximum of 20.</li><li>Your movement speed is increased by 5ft, and your jump height is doubled.</li><li>You gain proficiency in either Acrobatics or Athletics. If you are already proficient, you gain expertise.</li><li>You have advantage on any Athletics or Acrobatics skill check to escape a grapple.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Shandian Sky Islander race",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!dac396f4dc8dfa3c"
+}

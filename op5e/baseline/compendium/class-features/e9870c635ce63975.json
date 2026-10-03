@@ -1,0 +1,84 @@
+{
+  "_id": "e9870c635ce63975",
+  "name": "Willy-Nilly",
+  "type": "feat",
+  "img": "icons/weapons/daggers/dagger-glowing-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 6th level, you gain the following additional Devious Strike options:</p><ul><li><strong>Wild Card (Cost: 2d6).</strong> Roll a d6. On 1–2, the target is frightened until end of your next turn. On 3–4, the target is charmed by you until end of your next turn. On 5–6, the target takes an additional 2d6 force damage.</li><li><strong>Loaded Dice (Cost: 1d6).</strong> The next ability check you make before the end of your next turn is made with advantage.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Rogue (Wildcard) 6",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e9870c635ce63975"
+}

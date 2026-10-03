@@ -1,0 +1,84 @@
+{
+  "_id": "95bf2ebab5f8d77d",
+  "name": "Distinguished Shot",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-blade-blood-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 18th level, your mastery with firearms reaches legendary status. When you score a critical hit with a firearm, the attack deals an additional die of damage. Additionally, when you roll damage for a critical hit with a firearm, the target suffers a hemorrhaging wound, taking damage equal to your Dexterity modifier at the start of each of its turns for 1 minute. A creature can use its action to stanch the bleeding with a successful DC 15 Medicine check, or the wound can be healed with any magical healing.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Gunslinger 18",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!95bf2ebab5f8d77d"
+}

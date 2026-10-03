@@ -1,0 +1,116 @@
+{
+  "_id": "c8f14ffe2d6537c1",
+  "name": "Physician",
+  "type": "subclass",
+  "img": "icons/magic/light/explosion-star-glow-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Physicians focus primarily on their job as the ship's doctor, and specialize in using their medicine to aid allies and heal their wounds over fighting on the frontlines themselves.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "physician",
+    "classIdentifier": "medic",
+    "advancement": [
+      {
+        "_id": "80c1b2218c214035",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.535989669ab1dad6",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "73a8fccf297295ba",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.cef4d60303c2ee2c",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "9a4935e5be413837",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.72e0415d1684fd67",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "f5d726f584ad7f91",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.7b72f1b1a99b646d",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c8f14ffe2d6537c1"
+}

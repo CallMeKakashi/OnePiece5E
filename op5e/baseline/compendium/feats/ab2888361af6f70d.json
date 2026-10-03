@@ -1,0 +1,84 @@
+{
+  "_id": "ab2888361af6f70d",
+  "name": "Flail Mastery",
+  "type": "feat",
+  "img": "icons/weapons/hammers/hammer-war-spiked.webp",
+  "system": {
+    "description": {
+      "value": "<p>The flail is a tricky weapon to use, but you have spent countless hours mastering it. You gain the following benefits:</p><ul><li>You gain a +1 bonus to attack rolls you make with a flail.</li><li>Flails you wield have the reach property.</li><li>When you hit a creature with a flail, and a creature is adjacent to your target, you can choose to sweep, dealing bludgeoning damage equal to the modifier of the ability score used for your flail damage rolls.</li><li>When you successfully hit a creature with a flail, you can use your bonus action to attempt to knock that creature down. The creature must be no more than 1 size larger than you. The creature makes a Strength saving throw (DC equal to 8 + your proficiency bonus + your Ability Score Modifier used for making attack and damage rolls with your flail). On a success, nothing happens, but on a failure, they are knocked prone. Mounted creatures knocked prone in this way become dismounted.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Proficiency with flails",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ab2888361af6f70d"
+}

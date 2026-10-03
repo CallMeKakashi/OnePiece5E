@@ -1,0 +1,124 @@
+{
+  "_id": "3dfac45a97e67f2b",
+  "name": "Path of the Blade Master",
+  "type": "subclass",
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>The rage of a blade master is not the mad screams of a berserker or the primal howls of a totem warrior, but a silent, merciless and deadly intent that suffuses their blades like an aura. Blade masters draw on their rage like other barbarians, but they wield it like another blade rather than give in to it, unleashing the full power of their fury without losing sight of their goal.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "blade-master",
+    "classIdentifier": "barbarian",
+    "advancement": [
+      {
+        "_id": "6cb96b3f1fbe69a2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.aee160d383120d25",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.4d0ae102fb493b7e",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "cb4fc0cdaab73df9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.e6d86f5c94940beb",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.9b3d9286fb3f2dc3",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "9e6e901d997115c3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.64374dbfc68e58d8",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "eb449a3685c0748d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.08372afdb3ad45bc",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3dfac45a97e67f2b"
+}

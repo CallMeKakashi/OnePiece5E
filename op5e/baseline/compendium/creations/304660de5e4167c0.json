@@ -1,0 +1,173 @@
+{
+  "_id": "304660de5e4167c0",
+  "name": "Animate Dead",
+  "type": "spell",
+  "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>This creation creates an undead servant. Choose a corpse of a Medium or Small humanoid or beast within range. Your creation imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes an undead of your choice, either Hulking, Rotten, or Skeletal. The statistics for each are detailed at the bottom of this creation's description.\nOn each of your turns, you can use a bonus action to mentally command any creature you made with this creature if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.\nThe creature is under your control for 24 hours, after which it stops obeying any command you’ve given it. To maintain the control of the creature for another 24 hours, you must cast this creation on the creature again before the current 24-hour period ends. You can only have one active Animated Undead, unless you have a feature that says otherwise.\nIf the Spare the Dying trick is used on the Animated Undead for 10 minutes, it regains 2d6 hit points.\n> ## Animated Undead\n><em>Medium or small undead</em>\n>\n> - <strong>Armor Class</strong> 12 + the level of the creation\n> - <strong>Hit Points</strong> 40 (Hulking only) or 30 (Rotten only) or 20 (Skeletal only) + 10 for each level over 3rd\n> - <strong>Speed</strong> 20 (Hulking only) or 30 (Rotten only) or 40 (Skeletal only)ft.\n>\n>|STR|DEX|CON|INT|WIS|CHA|\n>|:---:|:---:|:---:|:---:|:---:|:---:|\n>|14 (+2)|14 (+2)|14 (+2)|4 (-3)|10 (+0)|8 (-1)|\n>\n> - <strong>Damage Immunities</strong> necrotic, poison\n> - <strong>Condition Immunities</strong> exhaustion, frightened, paralyzed, poisoned\n> - <strong>Senses</strong> darkvision 60 ft., passive Perception 10\n> - <strong>Languages</strong> understands the language you speak\n>\n> <em><strong>Hulking Strength. (Hulking Only)</strong></em> The creature's Strength score is equal to your creativity ability score (unless it was already higher). The Animated Undead has advantage on all Strength saving throws and checks. Additionally, it's attacks have the Siege property.\n>\n> <em><strong>Rotten Aura. (Rotten Only)</strong></em> The creature's Constitution score is equal to your creativity ability score (unless it was already higher). Any creature, other than you, that starts its turn within 5 feet of the Animated Undead must succeed on a Constitution saving throw against your creation save DC or be poisoned until the start of its next turn.\n>\n> <em><strong>Skeletal Construct. (Skeletal Only)(Your creativity ability modifier/day)</strong></em> The creature's Dexterity score is equal to your creativity ability score (unless it was already higher). The Animated Undead, as a bonus action, can repair itself with spare bones. It regains 2d8 + your creativity ability hit points.\n>\n> <em><strong>Undead Fortitude.</strong></em> If damage reduces the Animated Undead to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is from a critical hit. On a success, the undead drops to 1 hit point instead.\n> ### Actions\n> <em><strong>Multiattack.</strong></em> The Animated Undead makes a number of attacks equal to half this creation’s level (rounded down).\n>\n> <em><strong>Fatal Fist (Hulking only).</strong></em> <em>Melee Weapon Attack:</em> +your creation attack modifier to hit, reach 5ft., one target. <em>Hit</em> (1d10 + 3 + the creation's level) bludgeoning damage, and the creature must succeed on a Strength saving throw against your creation save DC or be knocked prone or back 10ft.\n>\n> <em><strong>Putrid Claw (Rotting only).</strong></em> <em>Melee Weapon Attack:</em> +your creation attack modifier to hit, reach 5ft., one target. <em>Hit</em> 5 (2d4 + 3 + the creation's level) slashing damage, and the creature must succeed on a Constitution saving throw against your creation save DC or be unable to regain hit points until the end of its next turn.\n>\n> <em><strong>Bone Spear.</strong></em> <em>Melee or Ranged Weapon Attack:</em> +your creation attack modifier to hit to hit, reach 5ft/range 150 ft., one target. <em>Hit</em> 5 (1d6 + 3 + the creation's level) piercing damage, and the creature must succeed on a Dexterity saving throw against your creation save DC or have their speed reduced by 10ft until the end of their next turn.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "level": 3,
+    "school": "nec",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a corpse",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "rsak",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "formula": "",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "attack",
+        "name": "Animate Dead",
+        "sort": 0,
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": 10,
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "critical": {
+            "allow": true,
+            "bonus": ""
+          },
+          "parts": []
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!304660de5e4167c0"
+}

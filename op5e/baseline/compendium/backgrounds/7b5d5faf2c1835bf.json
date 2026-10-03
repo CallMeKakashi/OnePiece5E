@@ -1,0 +1,78 @@
+{
+  "_id": "7b5d5faf2c1835bf",
+  "name": "Wanderer",
+  "type": "background",
+  "img": "icons/magic/air/wind-tornado-funnel-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are from a distant place, one so remote that few realize it exists. You have come to this part of the world for your own reasons.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Intimidation, Perception, Insight, and Survival</p>\n<p><strong>Tool Proficiencies:</strong> Gaming Set</p>\n<p><strong>Equipment:</strong> 50,000 Berries; Small Medkits &times;3; Rations &times;5; Gaming Set</p>\n<h4>Feature: Acquired Trait</h4>\n<p>Having wandered from the far corners of the world, you have picked up a unique skill. You gain a feat of your choice.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "73f0af21a8970966",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 3
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.500eb27fecee5857",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 3,
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 50000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 3,
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7b5d5faf2c1835bf"
+}

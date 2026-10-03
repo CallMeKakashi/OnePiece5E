@@ -1,0 +1,172 @@
+{
+  "_id": "17b3f209fa85d7c9",
+  "name": "Deactivate Creation",
+  "type": "spell",
+  "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Choose one creature, object, or creation effect within range. Any creation of 3rd level or lower on the target ends. For each creation of 4th level or higher on the target, make an ability check using your creative ability. The DC equals 10 + the creation’s level. On a successful check, the creation ends.</p><p><strong>At Higher Levels.</strong> When you use this creation using a slot of 4th level or higher, you automatically end the effects of a creation on the target if the creation's level is equal to or less than the level of the creation slot you used. > ## Created Construct >*Medium or large (Mount only) construct* > > - **Armor Class** 13 + the level of the creation (natural armor) > - **Hit Points** 40 + 15 for each creation level above 3rd > - **Speed** 30ft.; 60ft. (Mount only); 30ft. climb (Turret only) > >|STR|DEX|CON|INT|WIS|CHA| >|:---:|:---:|:---:|:---:|:---:|:---:| >|18 (+4)|12 (+1)|18 (+4)|14 (+2)|12 (+1)|6 (-2)| > > - **Damage Resistances** bludgeoning, piercing, and slashing (Juggernaut only) > - **Damage Immunities** poison > - **Condition Immunities** charmed, exhaustion, frightened, incapacitated, paralyzed, petrified, poisoned > - **Senses** darkvision 60 ft., passive Perception 11 > - **Languages** Understands the languages you speak > > ***Unstoppable (Juggernaut only).*** Any critical hit against the construct becomes a normal hit, and the construct has advantage on all Strength checks and saving throws. > > ***Search and Destroy (Turret only).*** The construct has advantage on all Wisdom (Perception) checks, and can take the Search action as a bonus action. > > ***Locked In (Mount only).*** While both you and your construct are still at least 1 hit point, you cannot be dismounted from your construct against your will. Additionally, your construct ignores difficult terrain. > ### Actions > ***Multiattack.*** The construct makes a number of attacks equal to half this creation’s level (rounded down). > > ***Grand Strike (Juggernaut only).*** *Melee Weapon Attack:* +your creation attack modifier to hit, reach 5ft., one target. *Hit* 1d12 + 4 + the creation’s level bludgeoning, piercing, or slashing (your choice) damage. This attack scores critical hits on rolls of 19-20. > > ***Sharp Shot (Turret only).*** *Ranged Weapon Attack:* +your creation attack modifier to hit, range 120ft., one target. *Hit* 1d8 + 4 + the creation’s level force, radiant, or lightning (your choice) damage. This attack ignores half cover. > > ***Crash (Mount only).*** *Melee Weapon Attack:* +your creation attack modifier to hit, reach 5ft., one target. *Hit* 1d10 + 4 + the creation’s level bludgeoning, piercing, or thunder (your choice) damage. If the construct moves 10 feet in a straight line before making this attack, the target must make a Strength saving throw against your creation save DC, being knocked prone on a failure.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "level": 3,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": false,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "formula": "",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "name": "Deactivate Creation",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": 60,
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!17b3f209fa85d7c9"
+}

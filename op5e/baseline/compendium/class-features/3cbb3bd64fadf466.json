@@ -1,0 +1,84 @@
+{
+  "_id": "3cbb3bd64fadf466",
+  "name": "Creativity (Spellcasting)",
+  "type": "feat",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your creations are part of your vast repertoire, magic that you can tune to different situations.</p>\n<p><strong>Tricks (Cantrips).</strong> You know a number of tricks from the bard creation list. You learn additional bard tricks of your choice at higher levels, as shown in the Tricks Known column of the Bard table.</p>\n<p><strong>Creation Slots.</strong> The Bard table shows how many creation slots you have to use your bard creations of 1st level and higher. To use one of these creations, you must expend a slot of the creation's level or higher. You regain all expended creation slots when you finish a long rest.</p>\n<p><strong>Creations Known.</strong> You know a number of bard creations of your choice shown in the Bard table. Each of these creations must be of a level for which you have creation slots. Whenever you gain a level in this class, you can replace one bard creation you know with another from the bard creation list.</p>\n<p><strong>Creative Ability (Spellcasting Ability).</strong> Charisma is your creative ability for your bard creations. You use your Charisma whenever a creation refers to your creative ability.</p>\n<p><strong>Creation save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>\n<p><strong>Creation Attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>\n<p><strong>Routine Usage (Ritual Casting).</strong> You can use any bard creation you know as a routine if that creation has the routine tag.</p>\n<p><strong>Apparatus (Spellcasting Focus).</strong> You can use a musical instrument as an apparatus for your bard creations.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Bard 1",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3cbb3bd64fadf466"
+}

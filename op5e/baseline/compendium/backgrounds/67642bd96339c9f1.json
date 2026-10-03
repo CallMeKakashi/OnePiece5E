@@ -1,0 +1,79 @@
+{
+  "_id": "67642bd96339c9f1",
+  "name": "Noble",
+  "type": "background",
+  "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>You understand wealth, power, and privilege. You carry a noble title, and your family owns the land, collects taxes, and wields significant political influence.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from History, Persuasion, Deception, and Insight</p>\n<p><strong>Tool Proficiencies:</strong> Gaming Set</p>\n<p><strong>Equipment:</strong> 250,000 Berries; Small Medkits &times;1; Rations &times;10; a scroll of pedigree; Gaming Set</p>\n<h4>Feature: Noble's Charm</h4>\n<p>Your status combined with your experience in many events has made you able to seamlessly merge or manipulate socially. You gain your choice of the Diplomat Feat or the Silver Tongue Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "46072a2ecf7eef49",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 10
+            },
+            {
+              "uuid": "Compendium.op5e.items.500eb27fecee5857",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.446fb0a3ad5f8527",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.73f0fa2559f88979": 10
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 250000,
+      "grantQuantities": {
+        "Compendium.op5e.items.73f0fa2559f88979": 10
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!67642bd96339c9f1"
+}

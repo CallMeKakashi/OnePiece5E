@@ -1,0 +1,29 @@
+{
+ "documents": 1973,
+ "activities": 870,
+ "effects": 55,
+ "byType": {
+  "background": 46,
+  "feat": 1041,
+  "class": 9,
+  "spell": 426,
+  "tool": 40,
+  "loot": 150,
+  "equipment": 53,
+  "weapon": 74,
+  "consumable": 45,
+  "race": 9,
+  "subclass": 80
+ },
+ "byPack": {
+  "backgrounds": 56,
+  "class-features": 746,
+  "classes": 9,
+  "creations": 426,
+  "feats": 201,
+  "items": 362,
+  "races": 9,
+  "racial-features": 84,
+  "subclasses": 80
+ }
+}

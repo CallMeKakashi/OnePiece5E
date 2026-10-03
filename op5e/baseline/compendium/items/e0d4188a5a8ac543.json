@@ -1,0 +1,49 @@
+{
+  "_id": "e0d4188a5a8ac543",
+  "name": "Grapeshot",
+  "type": "consumable",
+  "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+  "system": {
+    "description": {
+      "value": "<p>Deals piercing damage in a 30-foot cone from the muzzle of the cannon.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 15000,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "type": {
+      "value": "ammo"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e0d4188a5a8ac543"
+}

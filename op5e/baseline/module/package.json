@@ -1,0 +1,40 @@
+{
+  "name": "op5e",
+  "version": "0.2.7",
+  "private": true,
+  "type": "module",
+  "description": "Unified One Piece 5e Foundry module (compendium, character creator, runtime hooks)",
+  "scripts": {
+    "build": "npm run build:json && npm run build:db",
+    "build:json": "node node_modules/tsx/dist/cli.mjs data/build.ts",
+    "build:haki-manifest": "node node_modules/tsx/dist/cli.mjs dev/generate-foundry-actor/write-haki-manifest.ts",
+    "build:db": "node node_modules/tsx/dist/cli.mjs data/compile.ts",
+    "package": "node node_modules/tsx/dist/cli.mjs scripts/package.mjs",
+    "release": "npm run clean && npm run build && npm run package",
+    "serve": "npx -y http-server dist -p 8080 -c-1 --cors",
+    "audit:characters": "node node_modules/tsx/dist/cli.mjs dev/character-sheet-audit/run-audit.ts",
+    "audit:characters:full": "node node_modules/tsx/dist/cli.mjs dev/character-sheet-audit/run-audit.ts --full",
+    "audit:sourcebook": "node node_modules/tsx/dist/cli.mjs scripts/audit-compendium-sourcebook.ts",
+    "audit:automation": "node node_modules/tsx/dist/cli.mjs scripts/audit-compendium-automation.ts",
+    "actor:catalog": "node node_modules/tsx/dist/cli.mjs dev/generate-foundry-actor/list-catalog.ts",
+    "actor:choices": "node node_modules/tsx/dist/cli.mjs dev/generate-foundry-actor/list-choices.ts",
+    "actor:build": "node node_modules/tsx/dist/cli.mjs dev/generate-foundry-actor/build-from-spec.ts",
+    "actor:validate": "node node_modules/tsx/dist/cli.mjs dev/generate-foundry-actor/validate-actor.ts",
+    "test": "node node_modules/vitest/vitest.mjs run",
+    "test:watch": "node node_modules/vitest/vitest.mjs",
+    "test:ci": "node node_modules/vitest/vitest.mjs run --reporter=default",
+    "clean": "node ./node_modules/rimraf/dist/esm/bin.mjs packs packs-src dist"
+  },
+  "dependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "rimraf": "^6.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^3.2.4",
+    "yazl": "^3.3.1"
+  }
+}

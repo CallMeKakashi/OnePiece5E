@@ -1,0 +1,53 @@
+{
+  "_id": "42725d22e07c0d90",
+  "name": "Disguise Kit",
+  "type": "tool",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "price": {
+      "value": 250000,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "ability": "cha",
+    "chatFlavor": "",
+    "proficient": 0,
+    "type": {
+      "value": "art",
+      "baseItem": "disg"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!42725d22e07c0d90"
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "2c551cf73d883673",
+  "name": "Mighty Bull Roast",
+  "type": "consumable",
+  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>A roast filled with powerful proteins and hormones. When consumed, your Strength score is replaced for 1 hour based on potency:</p>\n<table>\n<tr><th>Potency</th><th>STR Score</th><th>Cost</th><th>Min Level</th></tr>\n<tr><td>Common</td><td>21</td><td>100 GP</td><td>3rd</td></tr>\n<tr><td>Uncommon</td><td>23</td><td>500 GP</td><td>3rd</td></tr>\n<tr><td>Potent</td><td>25</td><td>5,000 GP</td><td>6th</td></tr>\n<tr><td>Very Potent</td><td>27</td><td>50,000 GP</td><td>11th</td></tr>\n<tr><td>Legendary</td><td>29</td><td>500,000 GP</td><td>17th</td></tr>\n</table>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "rare",
+    "type": {
+      "value": "potion"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2c551cf73d883673"
+}

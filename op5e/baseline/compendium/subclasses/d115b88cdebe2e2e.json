@@ -1,0 +1,142 @@
+{
+  "_id": "d115b88cdebe2e2e",
+  "name": "Arms Dealer",
+  "type": "subclass",
+  "img": "icons/skills/melee/strike-blade-blood-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>The Arms Dealer is a fighter who specializes in engineering advanced weapons and ammunition. Through tinkering and craftsmanship, these fighters create devastating ranged options that turn the tide of battle.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "arms-dealer",
+    "classIdentifier": "fighter",
+    "advancement": [
+      {
+        "_id": "e09a54aece049c79",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.ec24ce0748fa7e6f",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.374d4916725ae9a8",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "814f03a848193043",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.97c1577b41474441",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.6171999fa3975212",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "b25195a384c2b28e",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.e96da85292b2c9c6",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "45a4219b49beae15",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.a00776d5e41c1654",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "10a1443db97ce9c6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.2d7d87d34c688bc9",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d115b88cdebe2e2e"
+}

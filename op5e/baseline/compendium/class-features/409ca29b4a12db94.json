@@ -1,0 +1,174 @@
+{
+  "_id": "409ca29b4a12db94",
+  "name": "Conqueror's Haki Novice",
+  "type": "feat",
+  "img": "icons/magic/water/projectile-ice-faceted-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are one of the rare few who can wield conqueror's haki, making you one destined for great things.</p>\n<p><strong>Overwhelming Presence.</strong> As a bonus action, you can project your willpower in a massive surge that knocks out any lesser creatures instantly. Each creature of your choice within a radius equal to half your proficiency bonus (rounded down) x 10 must succeed on a Wisdom saving throw or get knocked unconscious for 1 minute, but wakes up if it takes damage, or if another creature uses its action to shake them awake. The DC is calculated as 8 + your proficiency bonus + your highest ability score modifier.</p>\n<p>If you possess affinity towards Conqueror's Haki, the radius is instead calculated with your full proficiency bonus x 10.</p>\n<p>The DM can designate that certain creatures that are several times weaker than the user automatically fail this saving throw, such as fodder characters, normal animals, etc. A good rule of thumb would be creatures whose proficiency bonus is at least one or two points below the Conqueror's Haki user's proficiency bonus (minimum of 2).</p>\n<p>As a reaction when another creature uses Overwhelming Presence, you can choose to clash with them using your own. If you choose to do so, the radius of both you and your target's Overwhelming Presence doubles, and creatures forced to make a saving throw do so at a disadvantage. Any allies that you have within either radius, you can choose to automatically succeed.</p>\n<p>This ability has 3 uses, all of which you regain at the end of a long rest.</p>\n<p><strong>Subjugate Foe.</strong> You can focus your projected will towards a single target, forcing them back, or forcing them to kneel and grovel. Once per turn, in place of a Shove attack, you may target a creature you can see within a 60 ft range. You can force that creature to make a Wisdom saving throw, using your Overwhelming Presence DC. On a failure, the creature takes 1d6 force damage and is either knocked prone or shoved backwards 10ft (your choice). On a success, it takes half as much damage.</p>\n<p><strong>Unshakeable Will.</strong> Your will persists even in your darkest of hours, shielding you from being held back from fear. You are immune to the frightened condition.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Special, 8th level",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 3,
+      "max": "3",
+      "per": "lr",
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "save",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "name": "Conqueror's Haki Novice",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": null,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": [
+            {
+              "period": "longRest",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!409ca29b4a12db94"
+}

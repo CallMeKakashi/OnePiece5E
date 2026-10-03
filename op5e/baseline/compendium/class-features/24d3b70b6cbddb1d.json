@@ -1,0 +1,84 @@
+{
+  "_id": "24d3b70b6cbddb1d",
+  "name": "Reckless Brilliance",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-slashes-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 6th level, your intelligence and strength shine through your respective forms.</p>\n<p><strong>Mad Genius.</strong> While you are not raging:</p>\n<ul>\n<li>Your Reckless Attack feature now works on attack rolls made with creations.</li>\n<li>You have advantage on all Intelligence saving throws.</li>\n</ul>\n<p><strong>Bound Hulk.</strong> While you are raging:</p>\n<ul>\n<li>You gain resistance to acid, poison, or necrotic damage (choose when you enter your rage).</li>\n</ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Barbarian (Shattered Mind) 6",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!24d3b70b6cbddb1d"
+}

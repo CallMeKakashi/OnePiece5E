@@ -1,0 +1,78 @@
+{
+  "_id": "c17156d8f0447cf2",
+  "name": "Sailor",
+  "type": "background",
+  "img": "icons/magic/water/wave-water-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You sailed on a seagoing vessel for years. In that time, you faced mighty storms, monsters of the deep, and those who wanted to sink your craft. Your first love is the distant line of the horizon.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Athletics, Perception, Nature, and Insight</p>\n<p><strong>Tool Proficiencies:</strong> Water Vehicles</p>\n<p><strong>Equipment:</strong> 100,000 Berries; Small Medkits &times;2; Rations &times;5; Hempen Rope 50ft</p>\n<h4>Feature: Sea Man</h4>\n<p>Your life on ports and boats has made you accustomed to the very waters that swallow the world. You gain your choice of the Observant Feat or the Free Diver Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "00f8c0d24dc04a4a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 2
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.d4aa754c8f52e4b9",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 2,
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 100000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 2,
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c17156d8f0447cf2"
+}

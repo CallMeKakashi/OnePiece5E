@@ -1,0 +1,84 @@
+{
+  "_id": "6b3f0c4106aef017",
+  "name": "Fighting Style",
+  "type": "feat",
+  "img": "icons/skills/melee/swords-parry-block-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>\n<ul>\n<li><strong>Archery.</strong> You gain a +2 bonus to attack rolls you make with ranged weapons.</li>\n<li><strong>Blindfighting.</strong> You have blindsight with a range of 10 feet.</li>\n<li><strong>Defense.</strong> While you are wearing armor, you gain a +1 bonus to AC.</li>\n<li><strong>Dueling.</strong> When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</li>\n<li><strong>Superior Technique.</strong> You learn one maneuver of your choice and gain one superiority die (d6).</li>\n<li><strong>Great Weapon Fighting.</strong> When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property.</li>\n<li><strong>Two-Weapon Fighting.</strong> When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack. You can also make opportunity attacks with your off-hand weapon.</li>\n<li><strong>Interception.</strong> When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus.</li>\n<li><strong>Unarmed Fighting.</strong> Your unarmed strikes deal 1d6 bludgeoning damage (1d8 if both hands are free). At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature grappled by you.</li>\n<li><strong>Thrown Weapon Fighting.</strong> You can draw a weapon that has the thrown property as part of the attack you make with the weapon. You gain a +2 bonus to damage rolls with thrown weapons.</li>\n<li><strong>Melee Shooter.</strong> You gain a +1 bonus to attack and damage rolls with ranged weapons. Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.</li>\n<li><strong>Versatile Fighting.</strong> While wielding a versatile weapon in one hand, you gain a +1 bonus to attack rolls. While wielding it in two hands, you gain a +1 bonus to AC.</li>\n<li><strong>Protection.</strong> When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to force the attacker to reroll the attack roll, using the lower result. You must be wielding a shield.</li>\n</ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Fighter 1",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6b3f0c4106aef017"
+}

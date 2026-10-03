@@ -1,0 +1,106 @@
+{
+  "_id": "6ab816a54c7a04ad",
+  "name": "College of The Idol",
+  "type": "subclass",
+  "img": "icons/magic/light/explosion-star-glow-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Bards of the college of the idol harbor more ambition in their pursuit of their performance. These bards are most often regarded as superstars, and world-renowned idols, dazzling and capturing the hearts and minds of the audience all around the world.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "idol",
+    "classIdentifier": "bard",
+    "advancement": [
+      {
+        "_id": "c53666f3ba165955",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.ee9e9760d0894c20",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.7a751c50952abf45",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "29d71c4e6278d66d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.f2810262a3f84e6f",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.e9714cab058b0c44",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "c31a727ff242f98d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.dfd0feb95268fb2b",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6ab816a54c7a04ad"
+}

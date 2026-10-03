@@ -1,0 +1,167 @@
+{
+  "_id": "c04321ae3bf3215f",
+  "name": "Color of Armament Apprentice",
+  "type": "feat",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your specialization gives you the ability to coat yourself in a black sheen that protects you from harm. You gain the following benefits.</p>\n<p><strong>Hardening.</strong> At 10th level, your haki suffuses your very being, reinforcing you against any damage. You gain a pool of Armor points equal to three times your level. Whenever you take damage, you can use this ability to reduce the damage by a number of points that you choose (no reaction required).</p>\n<p>Whenever you are forced to make a saving throw, you can use this ability to expend 5 of your Armor points to reroll the saving throw, taking the highest result. You can use this feature 3 times, regaining all uses at the end of a short or long rest. If you have affinity towards armament haki, you additionally reduce the damage from the saving throw (if any) by 5 points.</p>\n<p>Your pool of Armor Points replenishes when you take a long rest, or half as much on a short rest.</p>\n<p>In addition, if you have used this feature while under the effects of Ocean's Scorn, and you are affected by the waist deep weakness, you can ignore those effects, except being unable to activate your devil fruit until the end of your next turn.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "10th level, Color of Armament Novice",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "@details.level * 3",
+      "per": "lr",
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "name": "Color of Armament Apprentice",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": null,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": [
+            {
+              "period": "longRest",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c04321ae3bf3215f"
+}

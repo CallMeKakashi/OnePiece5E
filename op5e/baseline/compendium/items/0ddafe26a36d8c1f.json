@@ -1,0 +1,58 @@
+{
+  "_id": "0ddafe26a36d8c1f",
+  "name": "Shield",
+  "type": "equipment",
+  "img": "icons/equipment/shield/heater-steel-grey.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "price": {
+      "value": 100000,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "equipped": false,
+    "identified": true,
+    "armor": {
+      "value": 2
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": null,
+    "type": {
+      "value": "shield",
+      "baseItem": "shield"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0ddafe26a36d8c1f"
+}

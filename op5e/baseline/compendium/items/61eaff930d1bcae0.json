@@ -1,0 +1,38 @@
+{
+  "_id": "61eaff930d1bcae0",
+  "name": "Arched Horn",
+  "type": "weapon",
+  "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>A Grade sickle with a glossy, dark brown blade. It is jagged, yet razor sharp.</p>\n<p>This weapon is a +1 Sickle.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "uncommon",
+    "attunement": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!61eaff930d1bcae0"
+}

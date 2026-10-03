@@ -1,0 +1,120 @@
+{
+  "_id": "52fa1e7092e7c05d",
+  "name": "Ninja",
+  "type": "subclass",
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "system": {
+    "description": {
+      "value": "<p>Ninjas are the legendary shadow warriors of Wano. Officially known as the Oniwabanshu, they are the eyes and ears of Wano's shogun. Renowned for their stealth and tricks.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "ninja",
+    "classIdentifier": "brawler",
+    "advancement": [
+      {
+        "_id": "4aaf1d05f5e2f31a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.0dd14feb0384c222",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.f98a7a762a7779ab",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "f58ba5ae05928adb",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.044b58b1066b2d2e",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "979f2993cea61903",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.b92857c208606e52",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "4a4fe5dcc1bb4c21",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.92d7f74d156ea978",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!52fa1e7092e7c05d"
+}

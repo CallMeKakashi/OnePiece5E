@@ -1,0 +1,84 @@
+{
+  "_id": "9fc6b19917bda16e",
+  "name": "Infinitesimal Instant",
+  "type": "feat",
+  "img": "icons/skills/melee/blade-tip-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 18th level, you can compress your actions into a single imperceptible instant. Once per long rest, as an action, you can take three additional turns in a row. During these turns, time appears to stop for all other creatures — you can move and take actions as normal, but you cannot affect other creatures or objects that are being worn or carried by them. Spells and effects that are already active continue but don't progress.</p>\n<p>When the effect ends, everything you did during those turns happens simultaneously from the perspective of other creatures. Any attacks you positioned resolve at that moment, and affected creatures make saving throws as appropriate.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Blitzkrieg 18",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!9fc6b19917bda16e"
+}

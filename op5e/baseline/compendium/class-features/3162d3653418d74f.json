@@ -1,0 +1,167 @@
+{
+  "_id": "3162d3653418d74f",
+  "name": "Conqueror's Haki Master",
+  "type": "feat",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your will is nothing short of godly, as even the very skies bend to your mighty blows, the heavens themselves are torn asunder. May mercy be on your enemies.</p>\n<p><strong>Kingdom Come.</strong> You become capable of imbuing your strikes with Conqueror's haki, transforming you into a true king among kings. You gain the following benefits:</p>\n<ul>\n<li>There is now an invisible destructive force around your attacks, granting your attacks a damage spread of 10ft, using your Overwhelming Presence DC. Creatures of your choice within the range of the damage spread are immune to this.</li>\n<li>Your melee attacks have an additional 5ft reach.</li>\n<li>All your attacks and creations deal an additional 2d6 force damage.</li>\n</ul>\n<p><strong>Ascendant Resilience.</strong> You gain three Legendary Resistances, all of which you regain at the end of a long rest.</p>\n<p><strong>Conquer Foe.</strong> Your conquering spirit reaches farther. You can now use your Subjugate Foe ability against creatures within 1 mile that you can see. In addition, if a creature fails the saving throw of your Subjugate Foe ability by 5 or more, they instead suffer disadvantage on all attack rolls, ability checks, and saving throws until the end of their next turn.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Special, 16th level, Conqueror's Haki Adept, Conqueror's Haki Affinity",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 3,
+      "max": "3",
+      "per": "lr",
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "name": "Conqueror's Haki Master",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": null,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": [
+            {
+              "period": "longRest",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3162d3653418d74f"
+}

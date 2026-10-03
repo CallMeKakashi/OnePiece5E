@@ -1,0 +1,46 @@
+{
+  "_id": "acadf37712b0ba53",
+  "name": "Wavers",
+  "type": "loot",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Large sky vehicles resembling water scooters. They use breath dials or rare jet dials as engines and are the fastest common sky vehicle type.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 80,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "common"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!acadf37712b0ba53"
+}

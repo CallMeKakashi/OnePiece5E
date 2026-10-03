@@ -1,0 +1,120 @@
+{
+  "_id": "12185c33ce815839",
+  "name": "Okama Kenpo",
+  "type": "subclass",
+  "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Okama Kenpo is a kick-focused martial art inspired by dance routines, such as ballet, developed by the inhabitants of the Kamabakka kingdom. While most of its practitioners are okama, that is not a requirement to master it.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "okama-kenpo",
+    "classIdentifier": "brawler",
+    "advancement": [
+      {
+        "_id": "8478023d376b1680",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.05ff41b78a8517b7",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.f3ab6ff5091c4695",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "3962e9b322d17324",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.3d28f2a47bec33ff",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "a5ad3b162aaef285",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.f60cc3de209ef08a",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "755af4c2859d32be",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.285cc76bd7ad7ece",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!12185c33ce815839"
+}

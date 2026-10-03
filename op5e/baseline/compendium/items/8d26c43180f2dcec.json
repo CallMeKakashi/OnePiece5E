@@ -1,0 +1,41 @@
+{
+  "_id": "8d26c43180f2dcec",
+  "name": "Mechanical Shield (Animated Shield)",
+  "type": "equipment",
+  "img": "icons/equipment/shield/heater-steel-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>A mechanical shield that can deploy and defend without occupying the user's hand, inspired by an animated shield.</p>\n<p>While activated, the shield grants its protective benefit as if wielded, leaving the user's hand free. Use the item text at the table for exact activation timing and duration.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "very rare",
+    "type": {
+      "value": "shield"
+    },
+    "attunement": "required"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8d26c43180f2dcec"
+}

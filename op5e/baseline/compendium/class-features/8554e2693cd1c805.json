@@ -1,0 +1,84 @@
+{
+  "_id": "8554e2693cd1c805",
+  "name": "Hypnotic Focus",
+  "type": "feat",
+  "img": "icons/skills/social/wave-halt-stop.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, instead of using an instrument as a focus for enrapturing your audience, you can instead utilize a particular object that you have had practice with, be it a set of painter's tools, or a special chakram on a string.</p>\n<p>As part of a long rest, you can spend an hour practicing with an object of small or lesser size, transforming it into your hypnotic focus. This object remains as your hypnotic focus until you practice with another object for 1 hour over the course of a long rest.</p>\n<p>While holding your Hypnotic Focus, whenever one of your Bardic Inspiration dice are rolled, you may roll twice and choose which one takes effect.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Bard (Bewitchment) 3",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8554e2693cd1c805"
+}

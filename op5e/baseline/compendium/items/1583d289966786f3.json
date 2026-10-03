@@ -1,0 +1,46 @@
+{
+  "_id": "1583d289966786f3",
+  "name": "Black Transponder Snail",
+  "type": "loot",
+  "img": "icons/skills/social/trading-justice-scale-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>A subspecies that remains small for life, small enough to be fitted to one's wrist. Picks up and eavesdrops on other transponder snails, allowing the user to listen in on conversations. Typically only used by marines.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "price": {
+      "value": 50000000,
+      "denomination": "gp"
+    },
+    "rarity": "common"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1583d289966786f3"
+}

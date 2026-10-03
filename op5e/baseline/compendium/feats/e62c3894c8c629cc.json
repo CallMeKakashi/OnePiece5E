@@ -1,0 +1,84 @@
+{
+  "_id": "e62c3894c8c629cc",
+  "name": "Storyteller",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your experiences in life have rendered you skilled at spinning tales, both real and fictional. You gain the following benefits:</p><ul><li>Increase your Charisma score by 1, to a maximum of 20.</li><li>You can spend 10 minutes recalling a fantastic tale and relaying it to your companions. When you do so, roll on the Tale Archetypes table to determine the recalled tale. You can tell the tale to up to six friendly creatures of your choice (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. A chosen creature gains the tale’s effect and can use it once before it finishes a long rest. A creature can’t gain an effect from this feat again until it has finished a long rest.</li></ul><p><strong>Tale Archetypes</strong></p><table><thead><tr><th>d6</th><th>Recalled Tale</th></tr></thead><tbody><tr><td>1</td><td><strong><em>Overcoming the Monster.</em></strong> The creature can add your Charisma modifier to an attack roll or a damage roll.</td></tr><tr><td>2</td><td><strong><em>Rags to Riches.</em></strong> When the creature regains hit points, it can regain an additional amount equal to your Charisma modifier.</td></tr><tr><td>3</td><td><strong><em>The Quest.</em></strong> The creature gains temporary hit points equal to your level + double your Charisma modifier.</td></tr><tr><td>4</td><td><strong><em>Voyage and Return.</em></strong> When the creature moves, it can increase its speed by a number of feet equal to your Charisma modifier times 5 for one turn.</td></tr><tr><td>5</td><td><strong><em>Comedy or Tragedy.</em></strong> When the creature fails an ability check or attack roll, it can add your Charisma modifier to the roll, potentially changing the result.</td></tr><tr><td>6</td><td><strong><em>Rebirth.</em></strong> The creature can add your Charisma modifier to a saving throw.</td></tr></tbody></table>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e62c3894c8c629cc"
+}

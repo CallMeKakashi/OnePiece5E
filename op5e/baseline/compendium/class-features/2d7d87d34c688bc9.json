@@ -1,0 +1,84 @@
+{
+  "_id": "2d7d87d34c688bc9",
+  "name": "Improved Advanced Arsenal",
+  "type": "feat",
+  "img": "icons/skills/melee/swords-parry-block-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 18th level, your special ammunition reaches its ultimate form. You gain two additional ammunition types:</p>\n<ul>\n<li><strong>Railgun Round.</strong> The attack targets every creature in a 5-foot wide, 60-foot long line. Each creature must make a Dexterity saving throw. On a failure, a creature takes 4d10 force damage; on a success, half damage.</li>\n<li><strong>Gravity Round.</strong> On hit, the target and every creature within 15 feet must succeed on a Strength saving throw or be pulled to the center of the effect and knocked prone. Affected creatures take 3d8 force damage.</li>\n</ul>\n<p>Additionally, all your existing special ammunition damage dice increase by one die size.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Arms Dealer 18",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2d7d87d34c688bc9"
+}

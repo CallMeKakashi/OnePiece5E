@@ -1,0 +1,78 @@
+{
+  "_id": "95b87d073479fc91",
+  "name": "Mercenary",
+  "type": "background",
+  "img": "icons/skills/melee/hand-grip-sword-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>As a mercenary, your services were for hire to anyone who could afford them. You are a soldier of fortune, fighting for coin.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Intimidation, Perception, Survival, and Nature</p>\n<p><strong>Tool Proficiencies:</strong> Gaming Set</p>\n<p><strong>Equipment:</strong> 100,000 Berries; Small Medkits &times;3; Rations &times;10; Gaming Set</p>\n<h4>Feature: Battle Born</h4>\n<p>Throughout your many battles, you have developed a certain fighting style that you excel in. You gain your choice of the Martial Adept Feat or the Fighting Initiate Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "7a9316e3e2485e54",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 3
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 10
+            },
+            {
+              "uuid": "Compendium.op5e.items.500eb27fecee5857",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 3,
+            "Compendium.op5e.items.73f0fa2559f88979": 10
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 100000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 3,
+        "Compendium.op5e.items.73f0fa2559f88979": 10
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!95b87d073479fc91"
+}

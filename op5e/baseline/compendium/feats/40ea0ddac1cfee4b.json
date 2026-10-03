@@ -1,0 +1,84 @@
+{
+  "_id": "40ea0ddac1cfee4b",
+  "name": "Sea Sovereignty",
+  "type": "feat",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Merfolk are the monarchs of the sea, able to swim faster than any other fish, as well as communicate with various sea creatures. You, however, have mastered both of the advantages of your race. You gain the following benefits:</p><ul><li>Increase your Intelligence, Wisdom, or Charisma score by 1, up to a maximum of 20.</li><li>Your swimming speed increases by 10ft.</li><li>You can use the Animal Friend creation, using whichever ability score you increased with this feat, at will, but only against Beasts that have a natural swimming speed.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Merfolk race",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!40ea0ddac1cfee4b"
+}

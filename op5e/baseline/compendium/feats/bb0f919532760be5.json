@@ -1,0 +1,84 @@
+{
+  "_id": "bb0f919532760be5",
+  "name": "Ursa Major",
+  "type": "feat",
+  "img": "icons/skills/social/trading-justice-scale-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are a powerful, unstoppable machine of nature. With a powerful build and the ability to climb and swim, none can hope to escape you. You gain the following benefits:</p><ul><li>Increase your Strength or Constitution score by 1, up to a maximum of 20.</li><li>You have advantage on Wisdom (Perception) checks that rely on smell.</li><li>You gain proficiency in Strength (Athletics) checks. If you are already proficient, you instead gain expertise.</li><li>You gain a swim and climb speed equal to your movement speed.</li><li>You count as one size larger when determining your carrying capacity and the weight you can push, drag, lift, and for grapple and shove attempts.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Mink race, as any bear mink",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!bb0f919532760be5"
+}

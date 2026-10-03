@@ -1,0 +1,84 @@
+{
+  "_id": "598b0f0a21a7cf2c",
+  "name": "Afterimage",
+  "type": "feat",
+  "img": "icons/magic/time/arrows-circling-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 3rd level, you can move so fast you leave behind an afterimage of yourself. As a bonus action, you can create an afterimage in your space. The afterimage is a translucent copy of you that lasts until the start of your next turn, until you dismiss it (no action required), or until you create a new one.</p>\n<p>While your afterimage exists, you gain the following benefits:</p>\n<ul>\n<li>When you take the Attack action, you can make one of your attacks originate from the afterimage's space instead of your own.</li>\n<li>As part of your movement, you can swap positions with your afterimage, teleporting to its location while it appears in yours. This doesn't provoke opportunity attacks.</li>\n<li>When a creature targets you with an attack, you can use your reaction to swap with your afterimage. The attack targets the afterimage instead and automatically destroys it.</li>\n</ul>\n<p>You can create afterimages a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Blitzkrieg 3",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!598b0f0a21a7cf2c"
+}

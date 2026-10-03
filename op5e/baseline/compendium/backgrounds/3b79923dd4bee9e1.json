@@ -1,0 +1,102 @@
+{
+  "_id": "3b79923dd4bee9e1",
+  "name": "Archaeologist",
+  "type": "background",
+  "img": "icons/sundries/documents/document-sealed-brown-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>An archaeologist learns about the long-lost and fallen cultures of the past by studying their remains&mdash;their bones, ruins, surviving masterworks, and tombs. Those who practice archaeology travel to the far corners of the world to root through crumbled cities and lost dungeons.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from History, Survival, Perception, and Insight</p>\n<p><strong>Tool Proficiencies:</strong> Cartographer's tools or Navigator's tools</p>\n<p><strong>Equipment:</strong> 150,000 Berries; 3 Small Medkits; Rations &times;5, a bullseye lantern, a miner's pick, traveler's clothes, a shovel, a two-person tent; Cartographer's or Navigator's tools</p>\n<h4>Feature: Ancient Explorer</h4>\n<p>Your experience in dig sites has given you a great insight into the history of the world. You gain your choice of the Historian Feat or the Rogue Adept Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "b5a7bf539d341446",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 3
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.88e87369e14fa028",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.b492ec2db1276f34",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.24ba8fe952e06a39",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.1db99b391a315958",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.784137b63bed009b",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.8ef419160c0c89f6",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.0ebbbbc450198575",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 3,
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 150000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 3,
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3b79923dd4bee9e1"
+}

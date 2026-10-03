@@ -1,0 +1,138 @@
+{
+  "_id": "fc14961942853ad0",
+  "name": "Fencer",
+  "type": "subclass",
+  "img": "icons/weapons/daggers/dagger-curved-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>The Fencer is a master of elegant swordplay, relying on precision, agility, and intellect to outmaneuver opponents in melee combat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "fencer",
+    "classIdentifier": "rogue",
+    "advancement": [
+      {
+        "_id": "746d575b374c87d8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.b87b69f14a521ec8",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.46807cf343243147",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "4642f274320b4966",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.8b0214196c833a20",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "3f314003c3bfc336",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.bb29484bfc111107",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 9,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "38c424a6e6739d6b",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.70691bcbf32a5f56",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 13,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "9efbca394191bd70",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.3c32e7ca580236fb",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!fc14961942853ad0"
+}

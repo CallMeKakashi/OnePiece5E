@@ -1,0 +1,1067 @@
+{
+  "_id": "3574506a8d38bda4",
+  "name": "Savant",
+  "type": "class",
+  "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>A warrior driven by an ardent soul, the Savant channels elemental forces through sheer conviction and passion. Part combatant, part leader, the Savant inspires allies and smites foes with the raw power of their inner fire.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "savant",
+    "levels": 1,
+    "hitDice": "d10",
+    "hitDiceUsed": 0,
+    "advancement": [
+      {
+        "_id": "5fa4993ed4118883",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "2665ee40a66319af",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.80e9eff013f66f5f",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.626f152717a27ccf",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.4372a9a4cb728c92",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.80e9eff013f66f5f": 5
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "fbdf0c9c247c5a84",
+        "type": "ItemChoice",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.op5e.items.c45cecd9577b5d02"
+            },
+            {
+              "uuid": "Compendium.op5e.items.9c5132ad9c9d881f"
+            }
+          ],
+          "restriction": {
+            "type": "equipment",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null,
+          "type": "equipment"
+        },
+        "value": {
+          "ability": "",
+          "added": {},
+          "replaced": {}
+        },
+        "level": 1,
+        "title": "Starting Armor",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "16d7e65ad4c47e6b",
+        "type": "ItemChoice",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.op5e.items.ee5faab83188d4f8"
+            },
+            {
+              "uuid": "Compendium.op5e.items.7842a68fdf0a1f76"
+            }
+          ],
+          "restriction": {
+            "type": "loot",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null,
+          "type": "loot"
+        },
+        "value": {
+          "ability": "",
+          "added": {},
+          "replaced": {}
+        },
+        "level": 1,
+        "title": "Adventuring Pack",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "7135d7bfa8bdfaba",
+        "type": "ItemChoice",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.op5e.items.cfe63f1f15529820"
+            },
+            {
+              "uuid": "Compendium.op5e.items.b38dba05ae0dcaec"
+            },
+            {
+              "uuid": "Compendium.op5e.items.5ee880d792c5270d"
+            },
+            {
+              "uuid": "Compendium.op5e.items.dc36d05562c8841d"
+            },
+            {
+              "uuid": "Compendium.op5e.items.7f004335825faf6c"
+            },
+            {
+              "uuid": "Compendium.op5e.items.ca6876472e160551"
+            },
+            {
+              "uuid": "Compendium.op5e.items.69b040710b4ce0a2"
+            },
+            {
+              "uuid": "Compendium.op5e.items.49490f8652cfc663"
+            },
+            {
+              "uuid": "Compendium.op5e.items.42c76b2a6b6bc431"
+            },
+            {
+              "uuid": "Compendium.op5e.items.ce715368a9f9538a"
+            },
+            {
+              "uuid": "Compendium.op5e.items.f440c4c4f919a241"
+            },
+            {
+              "uuid": "Compendium.op5e.items.25245c51c6fb84c0"
+            }
+          ],
+          "restriction": {
+            "type": "weapon",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null,
+          "type": "weapon"
+        },
+        "value": {
+          "ability": "",
+          "added": {},
+          "replaced": {}
+        },
+        "level": 1,
+        "title": "Martial Weapon",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "fae1623618546457",
+        "type": "ItemChoice",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.op5e.items.0ddafe26a36d8c1f"
+            },
+            {
+              "uuid": "Compendium.op5e.items.cfe63f1f15529820"
+            },
+            {
+              "uuid": "Compendium.op5e.items.b38dba05ae0dcaec"
+            },
+            {
+              "uuid": "Compendium.op5e.items.5ee880d792c5270d"
+            },
+            {
+              "uuid": "Compendium.op5e.items.dc36d05562c8841d"
+            },
+            {
+              "uuid": "Compendium.op5e.items.7f004335825faf6c"
+            },
+            {
+              "uuid": "Compendium.op5e.items.ca6876472e160551"
+            },
+            {
+              "uuid": "Compendium.op5e.items.69b040710b4ce0a2"
+            },
+            {
+              "uuid": "Compendium.op5e.items.49490f8652cfc663"
+            },
+            {
+              "uuid": "Compendium.op5e.items.42c76b2a6b6bc431"
+            },
+            {
+              "uuid": "Compendium.op5e.items.ce715368a9f9538a"
+            },
+            {
+              "uuid": "Compendium.op5e.items.f440c4c4f919a241"
+            },
+            {
+              "uuid": "Compendium.op5e.items.25245c51c6fb84c0"
+            }
+          ],
+          "restriction": {
+            "type": "equipment",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null,
+          "type": "equipment"
+        },
+        "value": {
+          "ability": "",
+          "added": {},
+          "replaced": {}
+        },
+        "level": 1,
+        "title": "Second Weapon or Shield",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "696bf598baadc193",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "haki-tier",
+          "type": "number",
+          "scale": {
+            "1": {
+              "value": 0
+            },
+            "8": {
+              "value": 1
+            },
+            "10": {
+              "value": 2
+            },
+            "12": {
+              "value": 3
+            },
+            "14": {
+              "value": 4
+            },
+            "16": {
+              "value": 5
+            }
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "f3ec16ac7700c36d",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "armor:hvy",
+            "armor:shl"
+          ],
+          "choices": [],
+          "allowReplacements": false,
+          "hint": "All armor, shields"
+        },
+        "value": {},
+        "level": 1,
+        "title": "armor",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "9a176a42d7b347dd",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "grants": [
+            "weapon:sim",
+            "weapon:mar"
+          ],
+          "choices": [],
+          "allowReplacements": false,
+          "hint": "Simple weapons, martial weapons"
+        },
+        "value": {},
+        "level": 1,
+        "title": "weapons",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "78f17aa7be0b935a",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "grants": [
+            "saves:wis",
+            "saves:cha"
+          ],
+          "choices": [],
+          "allowReplacements": false,
+          "hint": "Wisdom, Charisma"
+        },
+        "value": {},
+        "level": 1,
+        "title": "saves",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "c5ab7e98a81a70cd",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:ath",
+                "skills:acr",
+                "skills:ins",
+                "skills:itm",
+                "skills:per",
+                "skills:prf"
+              ]
+            }
+          ],
+          "allowReplacements": false,
+          "hint": "Choose 2 from Athletics, Acrobatics, Insight, Intimidation, Persuasion, Performance"
+        },
+        "value": {},
+        "level": 1,
+        "title": "skills",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "c7eab508dcb2db72",
+        "type": "Subclass",
+        "configuration": {},
+        "value": {},
+        "level": 1,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "cba27f42f6020c54",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.fe17f945511f1476",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 1,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "270d59f839e29e09",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.48e00c3315f03b93",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.1713b35300c6cb87",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "1132a4bcc2cc9163",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {},
+          "cap": 2
+        },
+        "value": {},
+        "level": 4,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "47fa353fc2acb297",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {},
+          "cap": 2
+        },
+        "value": {},
+        "level": 8,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "033697fcf8fb359c",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {},
+          "cap": 2
+        },
+        "value": {},
+        "level": 12,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "fdd149cf8f1093a2",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {},
+          "cap": 2
+        },
+        "value": {},
+        "level": 16,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "c9bc4f7b66791d66",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 2,
+          "fixed": {},
+          "cap": 2
+        },
+        "value": {},
+        "level": 19,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "89cfa656ce361f22",
+        "type": "ItemChoice",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "8": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.op5e.class-features.16bc2636849312ce"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.c04321ae3bf3215f"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.46bb0c4613daad05"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.6b2a722fa61c9cfd"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.0b0bd55e123f5a50"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.96dcda2a40ae256f"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.7395019d993a1891"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.2ce8a781717e7925"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.f615a9813a58ebab"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.fd4062b1dd6625f7"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.409ca29b4a12db94"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.882fa5d6cef02212"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.691d3f9d84866b56"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.1eb133f6e6c5d1e4"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.3162d3653418d74f"
+            }
+          ],
+          "restriction": {
+            "type": "feat",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null,
+          "type": "feat",
+          "op5eHakiChoice": true
+        },
+        "value": {
+          "ability": "",
+          "added": {},
+          "replaced": {}
+        },
+        "level": 8,
+        "title": "Haki (Novice)",
+        "icon": "",
+        "classRestriction": "",
+        "hint": "Choose one Haki feat. Upgrade a branch you have started, or begin a new branch at Novice."
+      },
+      {
+        "_id": "aa51d3e3ac30e398",
+        "type": "ItemChoice",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "10": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.op5e.class-features.16bc2636849312ce"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.c04321ae3bf3215f"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.46bb0c4613daad05"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.6b2a722fa61c9cfd"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.0b0bd55e123f5a50"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.96dcda2a40ae256f"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.7395019d993a1891"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.2ce8a781717e7925"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.f615a9813a58ebab"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.fd4062b1dd6625f7"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.409ca29b4a12db94"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.882fa5d6cef02212"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.691d3f9d84866b56"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.1eb133f6e6c5d1e4"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.3162d3653418d74f"
+            }
+          ],
+          "restriction": {
+            "type": "feat",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null,
+          "type": "feat",
+          "op5eHakiChoice": true
+        },
+        "value": {
+          "ability": "",
+          "added": {},
+          "replaced": {}
+        },
+        "level": 10,
+        "title": "Haki (Apprentice)",
+        "icon": "",
+        "classRestriction": "",
+        "hint": "Choose one Haki feat. Upgrade a branch you have started, or begin a new branch at Novice."
+      },
+      {
+        "_id": "5aadbe6b61ac5dfe",
+        "type": "ItemChoice",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "12": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.op5e.class-features.16bc2636849312ce"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.c04321ae3bf3215f"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.46bb0c4613daad05"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.6b2a722fa61c9cfd"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.0b0bd55e123f5a50"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.96dcda2a40ae256f"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.7395019d993a1891"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.2ce8a781717e7925"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.f615a9813a58ebab"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.fd4062b1dd6625f7"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.409ca29b4a12db94"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.882fa5d6cef02212"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.691d3f9d84866b56"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.1eb133f6e6c5d1e4"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.3162d3653418d74f"
+            }
+          ],
+          "restriction": {
+            "type": "feat",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null,
+          "type": "feat",
+          "op5eHakiChoice": true
+        },
+        "value": {
+          "ability": "",
+          "added": {},
+          "replaced": {}
+        },
+        "level": 12,
+        "title": "Haki (Journeyman)",
+        "icon": "",
+        "classRestriction": "",
+        "hint": "Choose one Haki feat. Upgrade a branch you have started, or begin a new branch at Novice."
+      },
+      {
+        "_id": "0449ee0cee417428",
+        "type": "ItemChoice",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "14": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.op5e.class-features.16bc2636849312ce"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.c04321ae3bf3215f"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.46bb0c4613daad05"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.6b2a722fa61c9cfd"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.0b0bd55e123f5a50"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.96dcda2a40ae256f"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.7395019d993a1891"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.2ce8a781717e7925"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.f615a9813a58ebab"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.fd4062b1dd6625f7"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.409ca29b4a12db94"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.882fa5d6cef02212"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.691d3f9d84866b56"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.1eb133f6e6c5d1e4"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.3162d3653418d74f"
+            }
+          ],
+          "restriction": {
+            "type": "feat",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null,
+          "type": "feat",
+          "op5eHakiChoice": true
+        },
+        "value": {
+          "ability": "",
+          "added": {},
+          "replaced": {}
+        },
+        "level": 14,
+        "title": "Haki (Adept)",
+        "icon": "",
+        "classRestriction": "",
+        "hint": "Choose one Haki feat. Upgrade a branch you have started, or begin a new branch at Novice."
+      },
+      {
+        "_id": "79ed4aa05be20a32",
+        "type": "ItemChoice",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "16": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.op5e.class-features.16bc2636849312ce"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.c04321ae3bf3215f"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.46bb0c4613daad05"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.6b2a722fa61c9cfd"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.0b0bd55e123f5a50"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.96dcda2a40ae256f"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.7395019d993a1891"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.2ce8a781717e7925"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.f615a9813a58ebab"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.fd4062b1dd6625f7"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.409ca29b4a12db94"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.882fa5d6cef02212"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.691d3f9d84866b56"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.1eb133f6e6c5d1e4"
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.3162d3653418d74f"
+            }
+          ],
+          "restriction": {
+            "type": "feat",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null,
+          "type": "feat",
+          "op5eHakiChoice": true
+        },
+        "value": {
+          "ability": "",
+          "added": {},
+          "replaced": {}
+        },
+        "level": 16,
+        "title": "Haki (Master)",
+        "icon": "",
+        "classRestriction": "",
+        "hint": "Choose one Haki feat. Upgrade a branch you have started, or begin a new branch at Novice."
+      },
+      {
+        "_id": "f60ef5905ce9bf14",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.5ca02c8fb329c9ef",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "d186c52eec2d5112",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.91a9d87c82ec490c",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "193c8384a019a00b",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.906f023ff95b0659",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "57be8f6cb0661ebd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.5eab4317a4fbf310",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "25c161d771871ec8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.bd39a5bed1380aa1",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "4009185667f04ebd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.8b53b1a11ee7ad60",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "half",
+      "ability": "cha"
+    },
+    "wealth": ""
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "grantQuantities": {
+        "Compendium.op5e.items.80e9eff013f66f5f": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3574506a8d38bda4"
+}

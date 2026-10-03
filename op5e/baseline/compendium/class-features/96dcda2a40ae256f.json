@@ -1,0 +1,167 @@
+{
+  "_id": "96dcda2a40ae256f",
+  "name": "Color of Observation Novice",
+  "type": "feat",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Through grueling challenges and training, you've unlocked the hidden potential sleeping deep within you. You have access to the basic form of Observation Haki, granting you the ability to sense the auras of living creatures.</p>\n<p><strong>Sense Presence.</strong> At 8th level, you become far more observant, gaining a +5 bonus to your passive Perception score. In place of the Search Action, you can instead focus and become aware of any living creature within 60 feet of you that isn't hidden, and a hidden creature must immediately make a Dexterity (Stealth) check against your passive perception or be spotted. You instantly learn the size of the creature but do not learn of its exact location unless you can see it.</p>\n<p><strong>Focusing.</strong> You have a pool of Observation Points equal to your level that replenishes when you take a short or long rest. When you make an attack roll or force a target to make a saving throw, you can expend an Observation Point to add half your proficiency bonus (rounded down) to the attack roll or DC. You can only expend one Observation point per attack roll or DC.</p>\n<p>If you have Affinity towards Observation Haki, you may add your full proficiency bonus rather than half.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "8th level",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "@details.level",
+      "per": "sr",
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "name": "Color of Observation Novice",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": null,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": [
+            {
+              "period": "shortRest",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!96dcda2a40ae256f"
+}

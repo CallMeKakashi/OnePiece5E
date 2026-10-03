@@ -1,0 +1,78 @@
+{
+  "_id": "d4eecb5dbf8acedb",
+  "name": "Doctor",
+  "type": "background",
+  "img": "icons/magic/life/heart-cross-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>As the world is full of deadly diseases, there are doctors ready to combat such ailments. Doctors also perform invasive procedures to save lives, like conducting surgeries or helping induce birth.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Medicine, Investigation, Nature</p>\n<p><strong>Tool Proficiencies:</strong> Herbalism Kit</p>\n<p><strong>Equipment:</strong> 50,000 Berries; Small Medkits &times;5; Rations &times;10; Healer's Kit</p>\n<h4>Feature: Medical Master</h4>\n<p>You have mastered the art of medicine. You gain your choice of the First Aid Feat or the Master Alchemist Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "3f91dfd246b56b1e",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 10
+            },
+            {
+              "uuid": "Compendium.op5e.items.7eec9339b6f9a57f",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 5,
+            "Compendium.op5e.items.73f0fa2559f88979": 10
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 50000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 5,
+        "Compendium.op5e.items.73f0fa2559f88979": 10
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d4eecb5dbf8acedb"
+}

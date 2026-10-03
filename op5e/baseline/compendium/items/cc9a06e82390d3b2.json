@@ -1,0 +1,41 @@
+{
+  "_id": "cc9a06e82390d3b2",
+  "name": "Prosthetic Limb",
+  "type": "equipment",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Limbs are lost all the time at sea, especially in large-scale naval battles. Luckily, science has enabled those who have lost their limbs to regain their previous function.</p>\n<p>This item replaces a lost limb&mdash;a hand, arm, foot, leg, or similar. While attached, it functions identically to the part it replaces. You can detach or reattach it as an action, and it can't be removed against your will. It detaches if you die.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "common",
+    "type": {
+      "value": "trinket"
+    },
+    "attunement": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!cc9a06e82390d3b2"
+}

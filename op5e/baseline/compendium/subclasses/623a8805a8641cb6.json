@@ -1,0 +1,120 @@
+{
+  "_id": "623a8805a8641cb6",
+  "name": "Artillerist",
+  "type": "subclass",
+  "img": "icons/magic/lightning/bolt-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>An Artillerist specializes in using their gadgets and creations to hurl energy, projectiles, and explosions on a battlefield. This destructive power is valued by armies in the wars on many islands.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "artillerist",
+    "classIdentifier": "gadgeteer",
+    "advancement": [
+      {
+        "_id": "29635a56127c341a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.a1744c738080405b",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.87630688c2a4a3ef",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "0fe47e7097802983",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.0b000bd152d5d4ff",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "70e2d6c7bc087d32",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.32d99aa85953b7ce",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 9,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "da1ec8383c3a3755",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.2ed6ff11b6cdd9dc",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!623a8805a8641cb6"
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "1a659c1e86f9d0db",
+  "name": "Bracers of Defense",
+  "type": "equipment",
+  "img": "icons/equipment/hand/glove-tooled-leather-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>This set of bracers is likely made from the durable hide of a giant beast. While wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "rare",
+    "type": {
+      "value": "trinket"
+    },
+    "attunement": "required"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1a659c1e86f9d0db"
+}

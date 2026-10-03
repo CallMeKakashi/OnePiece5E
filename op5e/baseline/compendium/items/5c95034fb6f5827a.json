@@ -1,0 +1,41 @@
+{
+  "_id": "5c95034fb6f5827a",
+  "name": "Rocket Ring (Ring of Jumping)",
+  "type": "equipment",
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>This ring holds within it a small rocket engine that can generate enough lift to launch the wearer into the air at will.</p>\n<p>While wearing this ring, you can use the Jump creation from it as a bonus action at will, but can target only yourself.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "uncommon",
+    "type": {
+      "value": "trinket"
+    },
+    "attunement": "required"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5c95034fb6f5827a"
+}

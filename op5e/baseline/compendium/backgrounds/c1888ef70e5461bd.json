@@ -1,0 +1,135 @@
+{
+  "_id": "c1888ef70e5461bd",
+  "name": "Role: Navigator",
+  "type": "feat",
+  "img": "icons/skills/melee/blade-tip-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>After the captain, the navigator might be the most important role on a ship. While the captain decides where to take the ship, the navigator figures out how to get there. Being a navigator requires a level head and a quick wit.</p>\n<p><strong>Skill Proficiencies:</strong> Survival, choose one from Athletics, History, Religion, Perception, or Nature</p>\n<p><strong>Tool Proficiencies:</strong> Cartographer's tools, Navigator's tools</p>\n<p><strong>Equipment:</strong> Common clothes, cartographer's tools, navigator's tools, 5 blank sea charts, inkwell, quill, and a pouch containing 50,000 beri</p>\n<h4>Feature: Weather Portent</h4>\n<p>You can always tell what the weather will be like within the next hour and always know which way is north as long as you can see the sky. You and your crew cannot get lost as long as you have the stars or the sun to guide you. You can tell a real map or sea chart from a fake one at a glance. You don't need to make a Navigator's tools check when sailing under normal conditions.</p>\n<h4>Feature: Bonus Feat</h4>\n<p>You gain a bonus feat of your choice. Some potential options: Creativity Adept, Elemental Adept, Heightened Innovation, Keen Mind, Rogue Adept, Skill Expert.</p>\n<h4>Dream</h4>\n<table><tr><th>d6</th><th>Dream</th></tr>\n<tr><td>1</td><td>I wish to draw a map of the entire world.</td></tr>\n<tr><td>2</td><td>There is a passage in the Grand Line said to be impossible to chart, and I aim to prove that wrong.</td></tr>\n<tr><td>3</td><td>A legendary storm sweeps across the seas every 100 years. I aim to be the first one to conquer it.</td></tr>\n<tr><td>4</td><td>A stranger gifted me a map of an ancient treasure, and I will not rest until I've found it.</td></tr>\n<tr><td>5</td><td>I inherited an incomplete map of the New World and promised to finish what my predecessor started.</td></tr>\n<tr><td>6</td><td>I wish to chart a trade route from the depths of Fishman Island to the most distant sky islands.</td></tr></table>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "advancement": [
+      {
+        "_id": "1ea1fc9e00049aa4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.0ebbbbc450198575",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.88e87369e14fa028",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.b492ec2db1276f34",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.4ddcd473bf275fab",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.0426b0b32ed83daf",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.dfad18e0476efbb4",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.4ddcd473bf275fab": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "shipRole": true,
+      "startingBeri": 50000,
+      "grantQuantities": {
+        "Compendium.op5e.items.4ddcd473bf275fab": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c1888ef70e5461bd"
+}

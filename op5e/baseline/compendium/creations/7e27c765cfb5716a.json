@@ -1,0 +1,172 @@
+{
+  "_id": "7e27c765cfb5716a",
+  "name": "Gather Swarm",
+  "type": "spell",
+  "img": "icons/magic/nature/plant-sproutdirt-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>You call forth a medium swarm of tiny beasts to come to your aid. It manifests in an unoccupied space that you can see within range. This swarm uses the Gathered Swarm stat block. When you use this creation, choose a group of animals: Rodents, Winged, Insects, or Fish. The swarm is made of beasts that resemble animals of the chosen group, which determines certain traits in its stat block. For example, a swarm of Rodents could be made of rats, Winged can be made up of ravens or bats, or a swarm of Insects could be made up of spiders or mantises. The swarm disappears when it drops to 0 hit points or when the creation ends.\nThe swarm is an ally to you and your companions. In combat, the creature shares your initiative count. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 3rd level or higher, use the higher level where the creation’s level appears in the stat block. > ## Gathered Swarm >*Medium (Large when upcasted to 5th level) swarm of tiny beasts* > > - **Armor Class** 10 or 11 (Insect only) + the level of the creation (natural armor) > - **Hit Points** 40 + 10 for each creation level above 2nd > - **Speed** 20 ft. or 30 ft (Rodents only), climb 20 ft., fly 50 ft. (Winged only), swim 40 ft. (Fish only) > >|STR|DEX|CON|INT|WIS|CHA| >|:---:|:---:|:---:|:---:|:---:|:---:| >|6 (-2)|18 (+4)|12 (+1)|4 (-3)|12 (+1)|4 (-3)| > > - **Damage Resistances** bludgeoning, piercing, and slashing > - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned > - **Senses** darkvision 60 ft., passive Perception 11 > - **Languages** Understands the language you speak > > ** Swarm.** The Gathered Swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny beast. The swarm can’t regain hit points or gain temporary hit points. > > **Blood Frenzy (Fish Only).** The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points. In addition, the swarm can breathe only underwater. > ### Actions > ***Multiattack.*** The beast makes two attacks, or three if used with a 5th level creation slot. The Gathered Swarm loses one of these attacks when they have half or less their total hit points. > >***Poison Stingers (Insects Only).*** *Melee Weapon Attack:* +your creation attack modifier to hit, reach 5ft., one target. *Hit* 2d4 + 4 + the creation’s level piercing or slashing damage (swarm's choice). Once per turn, when the swarm hits a creature with this attack, the target must make a Constitution saving throw against your creation save DC. On a failure, the target is poisoned until the end of their next turn. > >***Sick Bites (Rodents Only).*** *Melee Weapon Attack:* +your creation attack modifier to hit, reach 5ft., one target. *Hit* 2d4 + 4 + the creation’s level piercing or slashing damage (beast's choice). Once per turn, when the swarm hits a creature with this attack, the target must make a Constitution saving throw against your creation save DC. On a failure, the target becomes diseased for 1 hour. While diseased, the target takes a -1 penalty to all attack rolls and ability checks. > >***Bites and Claws (Winged Only).*** *Melee Weapon Attack:* +your creation attack modifier to hit, reach 5ft., one target. *Hit* 2d6 + 4 + the creation’s level piercing or slashing damage (beast's choice). Once per turn, when the swarm hits a creature with this attack, the target must make a Constitution saving throw against your creation save DC. On a failure, the target’s movement speed is reduced to 10ft, unless it were already lower. > >***Swarming Jaws (Fish Only).*** *Melee Weapon Attack:* +your creation attack modifier to hit, reach 5ft., one target. *Hit* 2d6 + 4 + the creation’s level piercing or slashing damage (beast's choice).</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "level": 2,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "a fistful of flowers",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 90,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "formula": "",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "name": "Gather Swarm",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "1",
+          "units": "hour",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": 90,
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7e27c765cfb5716a"
+}

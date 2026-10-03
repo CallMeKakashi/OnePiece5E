@@ -1,0 +1,84 @@
+{
+  "_id": "515c3a6bb4592bb0",
+  "name": "Brutal Flair",
+  "type": "feat",
+  "img": "icons/magic/air/wind-tornado-funnel-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Beginning at 10th level, your two minds continue to develop their own skills and personalities.</p>\n<p><strong>Mind Matter.</strong> While you are not raging, when you hit with a critical hit with a creation attack, the creation counts as if it were cast one level higher. For tricks, additional damage die. The same applies against a creature who critically fails on a saving throw from your creations. This increases to two levels higher at 13th level, and three levels higher at 17th level.</p>\n<p><strong>Painless Insanity.</strong> While you are raging, critical hits made against you count as normal hits.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Barbarian (Shattered Mind) 10",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!515c3a6bb4592bb0"
+}

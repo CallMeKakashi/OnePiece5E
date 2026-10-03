@@ -1,0 +1,46 @@
+{
+  "_id": "c3f80894fb8b30a7",
+  "name": "Surveillance Transponder Snail",
+  "type": "loot",
+  "img": "icons/weapons/polearms/spear-flared-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Adult form of the cameko transponder snail. Too big to move by hand; placed strategically to survey an area. Multiple surveillance snails can broadcast to a single proko for an effective surveillance network.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 8,
+      "units": "lb"
+    },
+    "price": {
+      "value": 2500000,
+      "denomination": "gp"
+    },
+    "rarity": "common"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c3f80894fb8b30a7"
+}

@@ -1,0 +1,79 @@
+{
+  "_id": "0c7f5f0473e11a2e",
+  "name": "Gambler",
+  "type": "background",
+  "img": "icons/skills/social/trading-justice-scale-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>All you need to make a lot of gold is a little gold. Whether you're a good gambler or a bad one rarely matters, because no one can divine the whims of Lady Luck. Sometimes you're up, sometimes you're down.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Deception, Insight, Perception, and Persuasion</p>\n<p><strong>Tool Proficiencies:</strong> Gaming set</p>\n<p><strong>Equipment:</strong> 150,000 Berries; Small Medkits &times;1; Rations &times;5, one gaming set, a lucky charm</p>\n<h4>Feature: Gambler's Fallacy</h4>\n<p>When you are down on your luck, and the odds are against you, you manage to pull through with random chance. You gain your choice of the Lucky Feat or the Master of Games Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "1bf21c634ef1774e",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.500eb27fecee5857",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.4372a9a4cb728c92",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 150000,
+      "grantQuantities": {
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0c7f5f0473e11a2e"
+}

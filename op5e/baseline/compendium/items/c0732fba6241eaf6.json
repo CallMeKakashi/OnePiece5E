@@ -1,0 +1,41 @@
+{
+  "_id": "c0732fba6241eaf6",
+  "name": "Heat Dial",
+  "type": "equipment",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Produces pure heat energy. If attached to a weapon, it deals fire damage instead of normal and becomes a +1 mastercraft weapon (doesn't stack with existing +1).</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "uncommon",
+    "type": {
+      "value": "trinket"
+    },
+    "attunement": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c0732fba6241eaf6"
+}

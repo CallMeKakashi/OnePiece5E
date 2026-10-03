@@ -1,0 +1,114 @@
+{
+  "_id": "c66e2e938c2c2b65",
+  "name": "Dwarves",
+  "type": "race",
+  "img": "icons/tools/smithing/anvil.webp",
+  "system": {
+    "description": {
+      "value": "<p>Dwarves are a tiny, elusive race known for their incredible agility and climbing ability. Despite their small stature, they are fierce combatants whose unarmed strikes pack surprising power. Their trusting nature can be a weakness, however, making them susceptible to deception.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "dwarves",
+    "advancement": [
+      {
+        "_id": "5380a01ecd7a6912",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "tiny"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "a2e3385fbc85b8d4",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 3,
+          "fixed": {},
+          "cap": 2
+        },
+        "value": {},
+        "level": 0,
+        "title": "Ability Score Increase",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "e3c96f59f0682476",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.c215229a7de7592b",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.f07e5e4ccb7acd91",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.a048a8591388ade2",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.8285e9909c0eb83d",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.49afab68fb7edde2",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "base-traits",
+        "icon": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "walk": 30,
+      "swim": 0,
+      "fly": 0,
+      "climb": 30,
+      "burrow": 0,
+      "hover": false,
+      "units": "ft"
+    },
+    "type": {
+      "value": "humanoid",
+      "subtype": "",
+      "custom": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c66e2e938c2c2b65"
+}

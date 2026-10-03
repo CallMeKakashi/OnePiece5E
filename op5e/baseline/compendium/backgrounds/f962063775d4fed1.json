@@ -1,0 +1,82 @@
+{
+  "_id": "f962063775d4fed1",
+  "name": "Smuggler",
+  "type": "background",
+  "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>On a rickety barge, you carried a hundred longswords in fish barrels right past the dock master's oblivious lackeys. In your more charitable times, you have transported innocents out of war zones.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Athletics, Acrobatics, Deception, Sleight of Hand</p>\n<p><strong>Tool Proficiencies:</strong> Vehicles (water)</p>\n<p><strong>Equipment:</strong> 150,000 Berries; Small Medkits &times;3; Rations &times;5, a fancy leather vest, leather boots</p>\n<h4>Feature: Adept Theft</h4>\n<p>Your experience in smuggling illicit goods has made you a master of sleight of hand. You gain your choice of the Quick Fingers Feat or the Master Appraiser Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "3f3753682ee49cea",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 3
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.5af74b527b57f7c0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.f9b684ec10f57f17",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 3,
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 150000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 3,
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f962063775d4fed1"
+}

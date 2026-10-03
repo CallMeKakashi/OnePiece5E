@@ -1,0 +1,78 @@
+{
+  "_id": "ff3105811982eef7",
+  "name": "Scientist",
+  "type": "background",
+  "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You live to unravel the mysteries of the world and use those secrets to revolutionize your field of study. Be it mechanical mastery or medical miracles, your ingenuity knows no bounds.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Engineering, Medicine, History, Investigation</p>\n<p><strong>Tool Proficiencies:</strong> Your choice of 2 tool kits</p>\n<p><strong>Equipment:</strong> 100,000 Berries; Small Medkits &times;2; Rations &times;5, 2 tool kits of your choice, a binder full of notes</p>\n<h4>Feature: Incredible Ingenuity</h4>\n<p>Your well of scientific knowledge has born fruit in the form of personal creations. You gain your choice of the Creativity Adept Feat or the Customized Creativity Adept Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "7e0a94428975a257",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 2
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.446fb0a3ad5f8527",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 2,
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 100000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 2,
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ff3105811982eef7"
+}

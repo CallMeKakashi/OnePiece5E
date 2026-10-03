@@ -1,0 +1,53 @@
+{
+  "_id": "1ac5beb803881e21",
+  "name": "Herbalism Kit",
+  "type": "tool",
+  "img": "icons/magic/nature/leaf-glow-green.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "price": {
+      "value": 50000,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "ability": "wis",
+    "chatFlavor": "",
+    "proficient": 0,
+    "type": {
+      "value": "art",
+      "baseItem": "herb"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1ac5beb803881e21"
+}

@@ -1,0 +1,202 @@
+{
+  "_id": "827add10cdff9685",
+  "name": "Beastial Transformation",
+  "type": "spell",
+  "img": "icons/creatures/mammals/wolf-howl-moon-gray.webp",
+  "system": {
+    "description": {
+      "value": "<p><ul>You take on the physical attributes of a wild beast. You gain 20 temporary hits points and two of the following abilities of your choice for the duration:\n<em> <strong>Natural Weapons.</strong> You grow a set of natural weapons that you are proficient with that deal 1d10 of your choice of bludgeoning, piercing, or slashing damage. You can use your creativity ability modifier instead of your Strength or Dexterity for making attack and damage rolls with these natural weapons.\n</em> <strong>Thick Hide.</strong> You gain a +1 bonus to your AC and Saving Throws.\n<em> <strong>Amphibious.</strong> You can breathe both air and water, and you gain a swimming speed equal to your walking speed.\n</em> <strong>Hoofed.</strong> You ignore difficult terrain, and your movement speed increases by 10 feet.\n<em> <strong>Climbing.</strong> You gain a climbing speed equal to your walking speed.\n</em> <strong>Flight.</strong> You gain a flying speed equal to your walking speed.\n<em> <strong>Sharp Eyes.</strong> You gain Darkvision of 60 feet, and have advantage on Wisdom (Perception) checks.\n</em> <strong>Camouflage.</strong> You have advantage on Dexterity (Stealth) checks, and can attempt to hide in plain sight.</p><p><li><strong>Venom.</strong> When you hit a creature with a weapon attack, you can cause the attack to be laced with venom. The target must make a Constitution saving throw. On a failure, the creature takes 1d12 poison damage, and becomes poisoned until the end of their next turn.</li></ul></p><p><strong>At Higher Levels.</strong> When you use this creation using a creation slot of 4th level or higher, you increase the temporary hit points gained by 10 and select an additional ability for each level above 3rd.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "level": 3,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "a finger bone",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "10",
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "save",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d12",
+          "poison"
+        ]
+      ],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "formula": "",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "name": "Beastial Transformation",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "10",
+          "units": "minute",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": null,
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 12,
+              "bonus": "",
+              "types": [
+                "poison"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!827add10cdff9685"
+}

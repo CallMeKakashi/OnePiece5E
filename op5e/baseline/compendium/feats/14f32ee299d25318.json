@@ -1,0 +1,84 @@
+{
+  "_id": "14f32ee299d25318",
+  "name": "Mammal of Action",
+  "type": "feat",
+  "img": "icons/skills/melee/blade-tip-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are a semiaquatic, egg-laying mammal of action. You’ve got more than just mad skills, you got a beaver tail and a bill. You gain the following benefits:</p><ul><li>Increase your Wisdom or Constitution score by 1, up to a maximum of 20.</li><li>You gain blindsight of 10ft.</li><li>You gain a swim speed equal to your movement speed.</li><li>Once per turn, when you hit a creature with your natural weapon, you can choose to envenom it. The target creature must make a Constitution Saving Throw, DC 8 + Your Constitution modifier + Your Proficiency Bonus. On a failed save, the creature becomes poisoned for one minute, repeating the saving throw at the end of each of their turns, ending the effect on a success.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Mink race, as a platypus mink",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!14f32ee299d25318"
+}

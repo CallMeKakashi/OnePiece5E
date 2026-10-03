@@ -1,0 +1,46 @@
+{
+  "_id": "43c9d7b2a5861945",
+  "name": "Preservation Box",
+  "type": "loot",
+  "img": "icons/sundries/documents/document-sealed-brown-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>A massive iron box filled with ice or other coolants, tightly insulated from the elements. Keeps fresh produce or medicine from spoiling on long trips, allowing crews to enjoy better and healthier food and medical treatment.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 35,
+      "units": "lb"
+    },
+    "price": {
+      "value": 1000000,
+      "denomination": "gp"
+    },
+    "rarity": "common"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!43c9d7b2a5861945"
+}

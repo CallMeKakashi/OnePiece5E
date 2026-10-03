@@ -1,0 +1,84 @@
+{
+  "_id": "08e41d51dc296c81",
+  "name": "Defensive Champion",
+  "type": "feat",
+  "img": "icons/skills/ranged/arrow-strike-glowing-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 7th level, you excel at defending yourself from danger when hunting down various games. You gain the ability to choose one of the defensive techniques listed below. At 15th level, you can choose an additional defensive technique.</p>\n<ul>\n<li><strong>Multiattack Defense.</strong> When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</li>\n<li><strong>Uncanny Dodge.</strong> When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</li>\n<li><strong>Evasion.</strong> When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed, and only half damage if you fail.</li>\n</ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Marksman (Bounty Hunter) 7",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!08e41d51dc296c81"
+}

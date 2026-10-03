@@ -1,0 +1,152 @@
+{
+  "_id": "9010b05fe5c283bb",
+  "name": "Experimental Ooze",
+  "type": "feat",
+  "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level, you've redesigned the formula for your Experimental Medicine, allowing you to create a form of life from it instead of empowering yourself. As an action, you expend one use of Experimental Medicine to summon an Experimental Ooze instead of gaining any enhancements.</p>\n<p>When you summon the ooze, choose one damage type from the table below. Your ooze will gain abilities specific to that option:</p>\n<ul>\n<li><strong>Acid.</strong> When the ooze deals damage with its Pseudopod attack, it regains hit points equal to half the damage dealt.</li>\n<li><strong>Cold.</strong> When the ooze hits a creature with its Pseudopod attack, the target becomes grappled (escape DC equal to your creation save DC).</li>\n<li><strong>Fire.</strong> Any creature that hits the ooze with a melee attack within 5ft takes 1d8 fire damage.</li>\n<li><strong>Poison.</strong> When the ooze hits a creature, it must make a Constitution saving throw or become poisoned until the end of their next turn.</li>\n<li><strong>Lightning.</strong> The ooze's movement speed increases by 20ft and doesn't provoke opportunity attacks.</li>\n</ul>\n<p>The ooze manifests for 1 hour, until it is reduced to 0 hit points, until you use this feature again, until you die, or if you dismiss it.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Medic (Chemist) 2",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "name": "Experimental Ooze",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": null,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!9010b05fe5c283bb"
+}

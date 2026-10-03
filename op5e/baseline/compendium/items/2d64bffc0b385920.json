@@ -1,0 +1,38 @@
+{
+  "_id": "2d64bffc0b385920",
+  "name": "Lucky Day",
+  "type": "weapon",
+  "img": "icons/skills/social/trading-justice-scale-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>A Great Grade Longsword with a Gaelic design and a clover-shaped pommel. It is a +3 Longsword.</p>\n<p>This sword was fed the Human-Human Fruit Model Leprechaun, allowing it to transform into a Leprechaun and a Leprechaun-Sword hybrid. The sword is sentient and counts as a Small Humanoid. It is proficient in Stealth, and its unarmed strikes deal the same damage as its blade.</p>\n<p>As a bonus action, the sword can create lucky clovers that can be used to reroll attack rolls, skill checks, and saving throws (like the Lucky feat), limited by Devil Fruit Uses remaining.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "legendary",
+    "attunement": "required"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2d64bffc0b385920"
+}

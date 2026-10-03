@@ -1,0 +1,37 @@
+{
+  "_id": "6fa97ed6f7d30645",
+  "name": "Seastone and Seastone Items",
+  "type": "loot",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Reference entry for seastone equipment. Specific seastone armor, weapons, and handcuffs are available as individual compendium items.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "legendary"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6fa97ed6f7d30645"
+}

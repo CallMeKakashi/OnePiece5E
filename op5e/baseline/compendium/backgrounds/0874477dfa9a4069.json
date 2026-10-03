@@ -1,0 +1,82 @@
+{
+  "_id": "0874477dfa9a4069",
+  "name": "Folk Hero",
+  "type": "background",
+  "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>You come from a humble social rank, but you are destined for so much more. Already the people of your home island regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Animal Handling, Survival, Persuasion, Nature</p>\n<p><strong>Tool Proficiencies:</strong> One type of Artisan's Tools, Vehicles (land)</p>\n<p><strong>Equipment:</strong> 100,000 Berries; Small Medkits &times;3; Rations &times;5, Artisan's tools (one of your choice), a shovel, an iron pot</p>\n<h4>Feature: Inner Strength</h4>\n<p>For the sake of the common folk and your destiny, you call upon your physical fortitude. You gain your choice of the Unmatched Strength Feat or the Underdog Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "5dc1418c44b7674a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 3
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.784137b63bed009b",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.cd8a51ef50d4dff9",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 3,
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 100000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 3,
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0874477dfa9a4069"
+}

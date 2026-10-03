@@ -1,0 +1,84 @@
+{
+  "_id": "8d61e82c1671e24c",
+  "name": "Beary Blue",
+  "type": "feat",
+  "img": "icons/skills/melee/swords-parry-block-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Through despair, you worry about the worst to come, but that same worry is your strength, allowing you to succeed when you least expect it. You gain 3 negativity dice and you regain all spent negativity dice when you finish a short or long rest. If you critically fail, you regain 1 negativity die. Your negativity dice are d6s. You can roll only one negativity die per turn, and a blue die is spent when you roll it.</p><p>You can use negativity dice in any of the following ways:</p><ul><li>When you fail a saving throw, you can spend one of your negativity dice to roll it and add it to the total, potentially turning it into a success.</li><li>When you would roll a death save you can spend one of your negativity dice to roll it and add it to the total, potentially turning it into a success. If the result becomes 20 or higher due to the roll of the negativity die, you return to 1 hit point.</li><li>When you make a skill or tool check, you can spend one of your negativity dice to roll it and add it to the total.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8d61e82c1671e24c"
+}

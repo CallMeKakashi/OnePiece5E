@@ -1,0 +1,84 @@
+{
+  "_id": "d4e6cf8cd5b48eef",
+  "name": "Made For War",
+  "type": "feat",
+  "img": "icons/skills/social/wave-halt-stop.webp",
+  "system": {
+    "description": {
+      "value": "<p>Genetically enhanced purely for the purpose of battle, you find yourself physically tougher and better able to unleash even more powerful strikes. You gain the following benefits:</p><ul><li>Increase your Strength, Dexterity, or Constitution score by 1, up to a maximum of 20.</li><li>Your hit point maximum increases by an amount equal to your level, and it increases by 1 every time you gain a level.</li><li>When you use your Spark of War feature, you gain an additional effect based on the damage type you had chosen when you created the character. If the effect forces the target to make a saving throw, the DC equals 8 + your Proficiency Bonus + Constitution modifier.</li></ul><p><strong>Acid.</strong> All of the damage from the initial source becomes acid, and the damage ignores resistance to acid damage.</p><p><strong>Cold.</strong> The target’s movement speed is reduced by 10 feet until the end of their next turn.</p><p><strong>Fire.</strong> The target takes an additional 3 fire damage.</p><p><strong>Lightning.</strong> The target has a penalty on the next attack roll they make equal to your proficiency bonus.</p><p><strong>Poison.</strong> The target must make a Constitution saving throw, becoming poisoned until the end of their next turn on a failure.</p><p><strong>Thunder.</strong> The target must make a Strength saving throw, becoming pushed backwards 10ft or knocked prone on a failure.</p><p><strong>Necrotic.</strong> The target must make a Constitution saving throw, becoming weakened on a failure. While weakened, all the target's damage rolls are reduced by a number equal to your proficiency bonus, until the end of their next turn.</p><p><strong>Radiant.</strong> The target must make a Dexterity saving throw, becoming highlighted on a failure. While highlighted, all attack rolls against them are made at advantage until the end of their next turn.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Artificial Human Augmented race",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d4e6cf8cd5b48eef"
+}

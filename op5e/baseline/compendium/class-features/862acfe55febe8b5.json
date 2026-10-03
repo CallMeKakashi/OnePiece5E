@@ -1,0 +1,84 @@
+{
+  "_id": "862acfe55febe8b5",
+  "name": "Creativity",
+  "type": "feat",
+  "img": "icons/skills/ranged/arrow-strike-glowing-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level, your passionate soul finally stirs enough to awaken the power slumbering within. You learn to prepare and use creations (spells) from the marksman creation list using Wisdom as your creative ability.</p>\n<p><strong>Creation save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>\n<p><strong>Creation Attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>\n<p>You prepare a number of creations equal to your Wisdom modifier + half your marksman level (rounded down, minimum 1). You regain all expended creation slots when you finish a long rest.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Marksman 2",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!862acfe55febe8b5"
+}

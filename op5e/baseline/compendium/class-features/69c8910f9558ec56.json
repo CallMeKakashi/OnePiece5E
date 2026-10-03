@@ -1,0 +1,88 @@
+{
+  "_id": "69c8910f9558ec56",
+  "name": "Fuel the Rampage",
+  "type": "feat",
+  "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 15th level, your crimson, unstoppable rampage is all consuming. When your hit points are at or below half your hit point maximum, you enter a rampage. This rampage lasts for 1 minute, until your hit points reach 0, or until your hit points rise above half your hit point maximum. While you are in the rampage, you gain the following benefits:</p>\n<ul>\n<li>When you roll fire damage, you can reroll the result once per turn.</li>\n<li>You can use Fuel the Fire without expending a use, once per turn.</li>\n<li>When you use your Hellfire Halitosis feature, the range increases to a 30ft cone.</li>\n<li>When you use Pain's Power feature, increase the fire damage dealt and taken by 1d6, and the damage you reduce is instead reduced by double your Constitution modifier.</li>\n<li>You can make an attack against a creature that is not currently on fire, as a bonus action.</li>\n</ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Burn Baby, Burn 15",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "additionalPower": true
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!69c8910f9558ec56"
+}

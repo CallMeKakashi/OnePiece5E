@@ -1,0 +1,37 @@
+{
+  "_id": "b0a232042dd71ed1",
+  "name": "Medkits (Potions of Healing)",
+  "type": "loot",
+  "img": "icons/magic/holy/chalice-glowing-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>Medkits are OP5e's nonmagical reflavor of potions of healing. Specific medkit entries are available as Small Medkit, Medkit (Uncommon), Medkit (Rare), and Medkit (Very Rare).</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "common"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b0a232042dd71ed1"
+}

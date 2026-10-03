@@ -1,0 +1,75 @@
+{
+  "_id": "394d02e745bb8287",
+  "name": "Shipwright",
+  "type": "background",
+  "img": "icons/skills/trades/construction-mason-bricklayer-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have sailed into war on the decks of great ships, patching their hulls with soup bowls and prayers. Since childhood, you have loved the water and have been captivated by the many vessels that travel on it.</p>\n<p><strong>Skill Proficiencies:</strong> 3 from Perception, Persuasion, Intimidation, Investigation, and Deception</p>\n<p><strong>Tool Proficiencies:</strong> Carpenter's Tools, Water Vehicles</p>\n<p><strong>Equipment:</strong> 100,000 Berries; Small Medkit; Rations &times;5; A blank Book and Pen; Carpenter's Tools</p>\n<h4>Feature: Ship Savant</h4>\n<p>You are a master at piloting and building ships. You gain your choice of the Vehicle Master Feat or the Brawny Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "5a39f019baf95467",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.1f3d9e48eb967ab9",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 100000,
+      "grantQuantities": {
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!394d02e745bb8287"
+}

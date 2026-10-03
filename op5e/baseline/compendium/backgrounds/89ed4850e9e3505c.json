@@ -1,0 +1,82 @@
+{
+  "_id": "89ed4850e9e3505c",
+  "name": "Acrobat",
+  "type": "background",
+  "img": "icons/skills/melee/swords-parry-block-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Flying and flipping through the sky, your moves have long captivated all who bear witness to your performance as you complete seemingly impossible movements. An acrobat is typically a free spirit, as now even gravity is able to tether them for long, often always on the move.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Acrobatics, Athletics, Performance, Perception, Persuasion</p>\n<p><strong>Tool Proficiencies:</strong> Disguise kit</p>\n<p><strong>Equipment:</strong> 150,000 Berries; Small Medkits &times;3; Rations &times;5, a set of colorful clothing, a disguise kit</p>\n<h4>Feature: Entertaining Tumble</h4>\n<p>Your dexterity and flexibility is nothing short of extraordinary. You gain your choice of the Acrobat Feat or the Graceful Dexterity Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "1c408299919d6816",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 3
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.42725d22e07c0d90",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.96345ec3afda41a5",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 3,
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 150000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 3,
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!89ed4850e9e3505c"
+}

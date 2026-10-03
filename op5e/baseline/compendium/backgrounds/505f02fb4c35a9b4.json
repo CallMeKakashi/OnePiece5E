@@ -1,0 +1,79 @@
+{
+  "_id": "505f02fb4c35a9b4",
+  "name": "Farmer",
+  "type": "background",
+  "img": "icons/magic/nature/leaf-glow-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>You were what most common folk are&mdash;a farmer. You produced resources from the land in return for food, shelter, clothing, and protection. Farmers are hearty, enduring folk who work long hours under the sun.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Animal Handling, Nature, Persuasion, and Insight</p>\n<p><strong>Tool Proficiencies:</strong> Herbalism Kit</p>\n<p><strong>Equipment:</strong> 50,000 Berries; Shovel; Rations &times;10; 1 Small Medkit; Herbalism Kit</p>\n<h4>Feature: Down On The Farm</h4>\n<p>You have ample practice in treating animals and crops. You gain your choice of the Critter Friend Feat or the Naturalist Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "4fa67ee49722ae05",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 10
+            },
+            {
+              "uuid": "Compendium.op5e.items.1ac5beb803881e21",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.784137b63bed009b",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.73f0fa2559f88979": 10
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 50000,
+      "grantQuantities": {
+        "Compendium.op5e.items.73f0fa2559f88979": 10
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!505f02fb4c35a9b4"
+}

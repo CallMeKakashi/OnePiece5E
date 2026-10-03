@@ -1,0 +1,37 @@
+{
+  "_id": "5af7f02dc5664b58",
+  "name": "Black Blade",
+  "type": "loot",
+  "img": "icons/sundries/books/book-tooled-gold-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Black Blades are weapons wielded by some of the greatest swordsmen, infused with years of potent armament haki. They are virtually indestructible. Black Blades deal an extra +2 damage by default. While made with haki, they are not haki-imbued and do not bypass resistances and immunities.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "very rare"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5af7f02dc5664b58"
+}

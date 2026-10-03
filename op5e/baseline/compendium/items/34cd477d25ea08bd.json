@@ -1,0 +1,38 @@
+{
+  "_id": "34cd477d25ea08bd",
+  "name": "Defiance of the Red World",
+  "type": "weapon",
+  "img": "icons/skills/melee/hand-grip-sword-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>An award for defeating Warlord of the Sea, Red World, who used the Smith-Smith Fruit to transform his dying body into a sniper rifle.</p>\n<h4>Dormant</h4>\n<ul><li>Rifle dealing 2d8 piercing + 1d6 necrotic damage</li>\n<li>+1 to attack and damage rolls</li>\n<li>Ignores reload (produces bone bullets)</li></ul>\n<h4>Wakened</h4>\n<ul><li>2d10 piercing + 1d8 necrotic damage</li>\n<li>+2 to attack and damage rolls</li>\n<li>Bonus action: mark a creature for 1 hour (concentration). The marked creature has disadvantage on ability checks and saving throws of a chosen ability score. Uses equal proficiency bonus, recharging on long rest.</li></ul>\n<h4>Exalted</h4>\n<ul><li>2d12 piercing + 1d10 necrotic damage</li>\n<li>+3 to attack and damage rolls</li>\n<li>Cannot be disarmed; extends/retracts from the user's body</li>\n<li>The wielder regains hit points equal to the necrotic damage dealt</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "legendary",
+    "attunement": "required"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!34cd477d25ea08bd"
+}

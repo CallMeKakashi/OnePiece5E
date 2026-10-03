@@ -1,0 +1,84 @@
+{
+  "_id": "7849213878325226",
+  "name": "Hammer Mastery",
+  "type": "feat",
+  "img": "icons/weapons/hammers/hammer-war-spiked.webp",
+  "system": {
+    "description": {
+      "value": "<p>You master the club, greatclub, mace, warhammer, light hammer, and maul. You gain the following benefits when using any of them:</p><ul><li>You gain a +1 bonus to attack rolls you make with the weapon.</li><li>Whenever you have advantage on a melee attack roll you make with the weapons and hit, you can choose to knock the target prone if the lower of the two d20 rolls would also hit the target.</li><li>Whenever you have disadvantage on a melee attack roll you make with the weapons, the target takes bludgeoning damage equal to your Strength modifier (minimum of 0) if the attack misses but the higher of the two d20 rolls would have hit.</li><li>Any weapon attacks made with these weapons gain the Siege Property.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7849213878325226"
+}

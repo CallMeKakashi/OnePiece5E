@@ -1,0 +1,84 @@
+{
+  "_id": "cf8559fc05b2db3c",
+  "name": "Undead Resolve",
+  "type": "feat",
+  "img": "icons/magic/fire/projectile-smoke-swirl-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Given that you were already revived once, it is considerably easier to revive you again. You gain the following benefits:</p><ul><li>Increase your Wisdom or Constitution score by 1, up to a maximum of 20.</li><li>When any creation or feature that will restore you to life is used on you, and it costs material components, that cost is ignored.</li><li>You gain resistance to necrotic damage, and when you take necrotic damage, you gain 5 temporary hit points.</li><li>If damage reduces you to 0 hit points, you can make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is from a critical hit. On a success, you drop to 1 hit point instead.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Revived Augmented race",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!cf8559fc05b2db3c"
+}

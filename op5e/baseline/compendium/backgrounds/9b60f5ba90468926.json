@@ -1,0 +1,129 @@
+{
+  "_id": "9b60f5ba90468926",
+  "name": "Role: Scholar",
+  "type": "feat",
+  "img": "icons/sundries/books/book-tooled-gold-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Scholars are purveyors of knowledge and intrepid explorers of the forgotten past. Scholars that board pirate ships typically pursue knowledge the world government doesn't want found: the secrets of the Void Century and ancient poneglyphs.</p>\n<p><strong>Skill Proficiencies:</strong> History, choose one from Insight, Investigation, Nature, Religion, or Stealth</p>\n<p><strong>Tool Proficiencies:</strong> Disguise kit, Forgery kit</p>\n<p><strong>Equipment:</strong> Common clothes, a leatherbound journal, inkwell, quill, and a pouch containing 100,000 beri</p>\n<h4>Feature: Pursuer of Secrets</h4>\n<p>You can read and write in poneglyphs. When you attempt to recall common information about an area you know the true name of, you automatically succeed. If you don't know a specific piece of information, you instead know where you could learn it.</p>\n<h4>Feature: Bonus Feat</h4>\n<p>You gain a bonus feat of your choice. Some potential options: Historian, Investigator, Keen Mind, Observant, Skilled, Skill Expert.</p>\n<h4>Dream</h4>\n<table><tr><th>d6</th><th>Dream</th></tr>\n<tr><td>1</td><td>It's my duty to unravel the true history behind the Void Century.</td></tr>\n<tr><td>2</td><td>I was gifted an ancient text that will lead to a great discovery.</td></tr>\n<tr><td>3</td><td>The secrets of the past will unravel the world government, and that's what I wish for.</td></tr>\n<tr><td>4</td><td>I wish to find and control the ancient weapons: Pluton, Poseidon, and Uranus.</td></tr>\n<tr><td>5</td><td>I am working on a chronicle of the world's history, and I need to learn everything.</td></tr>\n<tr><td>6</td><td>The knowledge of the poneglyphs must be preserved.</td></tr></table>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "advancement": [
+      {
+        "_id": "9c23a31cd439c19b",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.0ebbbbc450198575",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.446fb0a3ad5f8527",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.0426b0b32ed83daf",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.dfad18e0476efbb4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.42725d22e07c0d90",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.66a48199a86c536c",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "shipRole": true,
+      "startingBeri": 100000,
+      "grantQuantities": {}
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!9b60f5ba90468926"
+}

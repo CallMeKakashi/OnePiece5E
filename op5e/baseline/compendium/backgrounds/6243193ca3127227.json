@@ -1,0 +1,75 @@
+{
+  "_id": "6243193ca3127227",
+  "name": "Lumberjack",
+  "type": "background",
+  "img": "icons/weapons/axes/axe-broad-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>Woodcutter, Lumberjack, Woodsman&mdash;whatever title they go by the profession is the same; to cut and chop wood. They live among the trees and forest critters, learning the best ways to do what they love.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Athletics, Nature, Survival, and Intimidation</p>\n<p><strong>Weapon Proficiencies:</strong> Battleaxes, Handaxes, Greataxes</p>\n<p><strong>Equipment:</strong> 50,000 Berries; 1 handaxe; 5 Rations; 1 Medkit</p>\n<h4>Feature: Tree Feller</h4>\n<p>You are an expert at finding the weak points in any wooden surface. You gain your choice of the Axe Mastery Feat or the Savage Attacker Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "737b75fe505603c8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.b65c55e59ab7497e",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 50000,
+      "grantQuantities": {
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6243193ca3127227"
+}

@@ -1,0 +1,75 @@
+{
+  "_id": "55bf40d068996691",
+  "name": "Revolutionary",
+  "type": "background",
+  "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are or were a rebel, a person who wants to destroy the government. You quickly learned battle, survival, and leadership skills in the riots and battles of your unstable homeland.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Survival, Insight, Persuasion, and History</p>\n<p><strong>Tool Proficiencies:</strong> Disguise Kit or Thieves' Tools</p>\n<p><strong>Equipment:</strong> 50,000 Berries; Hempen Rope 50ft; Rations &times;5; a symbol of your revolution; Disguise or Thieves' Tools</p>\n<h4>Feature: Lead The Charge</h4>\n<p>Your neverending crusade has taught you how to get people riled up and ready to charge. You gain your choice of the Inspiring Leader Feat or the Unyielding Charisma Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "24434dc812326802",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.c0b3677582d5480a",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.d4aa754c8f52e4b9",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 50000,
+      "grantQuantities": {
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!55bf40d068996691"
+}

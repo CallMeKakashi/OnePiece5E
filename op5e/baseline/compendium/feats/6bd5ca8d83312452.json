@@ -1,0 +1,84 @@
+{
+  "_id": "6bd5ca8d83312452",
+  "name": "Lance Master",
+  "type": "feat",
+  "img": "icons/weapons/polearms/spear-flared-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>The lance is an unwieldy weapon for most, but you have mastered the use of it. You gain the following benefits:</p><ul><li>You gain a +1 bonus to attack rolls you make with lances.</li><li>Whenever you have advantage on a melee attack roll you make with a lance and hit, you can knock the target prone if the lower of the two d20 rolls would also hit the target.</li><li>You don't have disadvantage when attacking a creature within 5ft of you with attacks made with a lance.</li><li>If you move at least 20 feet in a straight line immediately before making an attack with a lance, you either gain a +5 bonus to the attack's damage roll or push the target up to 10 feet away from you on your first lance attack this turn.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Proficiency with a lance",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6bd5ca8d83312452"
+}

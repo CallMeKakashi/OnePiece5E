@@ -1,0 +1,120 @@
+{
+  "_id": "502a7c771e5bb001",
+  "name": "Alchemist",
+  "type": "subclass",
+  "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>An Alchemist is an expert at combining reagents to produce chemical effects. Alchemists use their creations to give life and to leech it away. Its versatility has long been valued during times of war and peace.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "alchemist",
+    "classIdentifier": "gadgeteer",
+    "advancement": [
+      {
+        "_id": "333b1f1bf67526da",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.54e00ff0ed85e15f",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.dbbc7576777affde",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "244d993d9e2d2db5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.e24e885697686c93",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "38c3642f3e34fac8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.56f4756a111e9794",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 9,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "2515ac425edf9f9b",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.f9e72783500433d0",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!502a7c771e5bb001"
+}

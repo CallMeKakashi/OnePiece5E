@@ -1,0 +1,46 @@
+{
+  "_id": "289e4a552425428f",
+  "name": "Waver, Breath Dial",
+  "type": "loot",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Resembles a water scooter, using a breath dial as an engine. Speed 60 ft. By far the fastest of the three sky vehicle types.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 80,
+      "units": "lb"
+    },
+    "price": {
+      "value": 1000000,
+      "denomination": "gp"
+    },
+    "rarity": "common"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!289e4a552425428f"
+}

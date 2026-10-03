@@ -1,0 +1,46 @@
+{
+  "_id": "14e1a81ff43b2844",
+  "name": "Galleon",
+  "type": "loot",
+  "img": "icons/sundries/books/book-tooled-gold-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>A large multi-decked sailing ship, often used as a fleet flagship. Speed 4.5 mph; crew 60; passengers 90; cargo 300 tons.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400000000,
+      "denomination": "gp"
+    },
+    "rarity": "common"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!14e1a81ff43b2844"
+}

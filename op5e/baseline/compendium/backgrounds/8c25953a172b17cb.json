@@ -1,0 +1,75 @@
+{
+  "_id": "8c25953a172b17cb",
+  "name": "Drunkard",
+  "type": "background",
+  "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are known throughout the land for your uncanny ability to consume alcohol and still maintain a certain level of coherence. Whether you're a tavern regular or a wandering imbiber, your reputation precedes you.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Athletics, Persuasion, Performance, and Intimidation</p>\n<p><strong>Tool Proficiencies:</strong> Brewer's Supplies</p>\n<p><strong>Equipment:</strong> 150,000 Berries; a flask of strong alcohol; Brewer's Supplies; 5 empty glass bottles</p>\n<h4>Feature: Big Drinker</h4>\n<p>You are familiar with the rough and tumble nature of taverns and bars. You gain your choice of the Tavern Brawler Feat or the Drunkard Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "f9094d3bff739fa6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.974c77272bae25b7",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.20b9709b92d79400",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.dc555bc41d925508",
+              "optional": false,
+              "quantity": 5
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.dc555bc41d925508": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 150000,
+      "grantQuantities": {
+        "Compendium.op5e.items.dc555bc41d925508": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8c25953a172b17cb"
+}

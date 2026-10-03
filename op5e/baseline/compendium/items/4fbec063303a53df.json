@@ -1,0 +1,37 @@
+{
+  "_id": "4fbec063303a53df",
+  "name": "Cursed Weapon (Template)",
+  "type": "loot",
+  "img": "icons/sundries/books/book-tooled-gold-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>All weapons that are expertly crafted house their own \"personality.\" Most swordsmen that wield these weapons have the impression that they are cursed, as they are not skilled enough to fit the strong personality. In D&amp;D terms, they provide an initial debuff, but if overcome through repeated usage, that debuff becomes an ability of the sword.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "rare"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4fbec063303a53df"
+}

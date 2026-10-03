@@ -1,0 +1,40 @@
+{
+  "_id": "bdacf9625ea5106a",
+  "name": "Silver Tongue Sarsaparilla",
+  "type": "consumable",
+  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>A gleaming alcoholic drink. For 1 hour after drinking, you gain a bonus to Charisma-based skills equal to the Chef's Tools Modifier. Costs 800,000 Berries.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "uncommon",
+    "type": {
+      "value": "potion"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!bdacf9625ea5106a"
+}

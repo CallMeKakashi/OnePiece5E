@@ -1,0 +1,37 @@
+{
+  "_id": "851b32eba8760a98",
+  "name": "Wapometal",
+  "type": "loot",
+  "img": "icons/sundries/books/book-tooled-gold-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Wapometal is a shape-retaining metal made using the Munch-Munch Fruit. Any object or weapon made from it cannot be permanently destroyed unless annihilated. At the start of each day, it repairs itself to its former glory.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "rare"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!851b32eba8760a98"
+}

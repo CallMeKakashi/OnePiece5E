@@ -1,0 +1,84 @@
+{
+  "_id": "a0e95f1739bd1142",
+  "name": "Adept Inspiration",
+  "type": "feat",
+  "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Inspiration is your weapon, use it to strike the flames in the hearts of your allies so they may charge toward glory alongside you. You gain the following benefits:</p><ul><li>You gain proficiency in one musical instrument of your choice.</li><li>You gain 2 uses of Bardic Inspiration as defined in the bard class. The Bardic Inspiration die is a d6 (These dice are added to any Bardic Inspiration dice you have from another source, so for example if you are a Bard with d10s, these dice become d10s as well). You regain these uses when you finish a long rest, or on a short rest if you possess the Font of Inspiration feature.</li><li>Choose one skill in which you are already proficient. Your proficiency bonus is doubled for any ability check you make that uses the chosen proficiency.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Charisma 13 or higher",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a0e95f1739bd1142"
+}

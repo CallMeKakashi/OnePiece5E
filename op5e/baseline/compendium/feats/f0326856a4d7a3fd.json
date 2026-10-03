@@ -1,0 +1,84 @@
+{
+  "_id": "f0326856a4d7a3fd",
+  "name": "Sling Master",
+  "type": "feat",
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have mastered slings. You gain the following benefits:</p><ul><li>You gain a +1 bonus to attack rolls you make with slings.</li><li>When you wield a sling, its damage die is increased by one tier (i.e. 1d4 -> 1d6). In addition, the sling’s normal range increases from 30 feet to 60 feet, and its long range increases from 120 feet to 180 feet.</li><li>When you score a critical hit with a sling, you deal extra damage equal to your proficiency bonus. In addition, your target must succeed on a Constitution saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier) or become stunned until the end of its next turn.</li><li>You don't have close-range disadvantage when using slings.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Proficiency with a sling",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f0326856a4d7a3fd"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "2bee39de4f50becb",
+  "name": "Chain Shot",
+  "type": "consumable",
+  "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+  "system": {
+    "description": {
+      "value": "<p>Deals bludgeoning damage in a line (5 feet wide) extending from the muzzle to the cannon's normal range.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 15000,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "type": {
+      "value": "ammo"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2bee39de4f50becb"
+}

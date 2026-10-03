@@ -1,0 +1,172 @@
+{
+  "_id": "6e34ab00bd77ce48",
+  "name": "Concoct Ooze",
+  "type": "spell",
+  "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You create an ooze to aid you. It manifests in an unoccupied space that you can see within range. This creation uses the Concocted Ooze stat block. When you use this creation, choose a color: Green, Black, or Purple. The color determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the creation ends.\nThe creature is an ally to you and your companions. In combat, the creature shares your initiative count. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 4th level or higher, use the higher level wherever the creation’s level appears in the stat block. > ## Concocted Ooze >*Medium ooze* > > - **Armor Class** 9 + the level of the creation (natural armor) > - **Hit Points** 40 + 15 for each creation level above 3rd > - **Speed** 20ft., 20ft. climb > >|STR|DEX|CON|INT|WIS|CHA| >|:---:|:---:|:---:|:---:|:---:|:---:| >|18 (+4)|8 (-1)|18 (+4)|6 (-2)|8 (-1)|6 (-2)| > > - **Damage Resistances** slashing (Black only) > - **Damage Immunities** poison, acid, necrotic > - **Condition Immunities** blinded, charmed, deafened, exhaustion, frightened, prone, grappled, poisoned > - **Senses** Blindsight 60 ft. (blind beyond this radius), Passive Perception 9 > - **Languages** Understands the languages you speak > > ***Ooze Form.*** The ooze can move through a space as narrow as 1 inch wide without squeezing. In addition, a creature that touches the ooze or hits it with a melee attack takes 4 (1d8) damage. If the ooze is Green, the creature takes poison. If it is Black, the creature takes acid. If it is Purple, the creature takes necrotic. > > ***Green Focus (Green only).*** When the ooze has at least 1 hit point, any damaging or healing creation, that the creature concentrating on the creation that created the ooze, deals or heals an extra 1d4 for one roll of damage or healing if the target is within 30ft of the ooze. > > ***Black Bits (Black only).*** When the ooze is of Medium or larger size, and is subjected to slashing damage, it can use its reaction to split apart into two new oozes if it has at least 10 hit points. Each new ooze has hit points equal to half the original ooze's, rounded down. New oozes are one size smaller than the original ooze. > > ***Purple Absorption (Purple only).*** When the ooze deals damage to a creature, it absorbs its mass, regaining a number of hit points equal to the damage it dealt. > ### Actions > ***Multiattack.*** The ooze makes a number of attacks equal to half this creation’s level (rounded down). > > ***Pseudopod.*** *Melee Weapon Attack:* +your creation attack modifier to hit, reach 5ft., one target. *Hit* 3d4 + 4 + the creation’s level damage. The damage type is poison (Green), acid (Black), or necrotic (Purple). > ## Conjured Elemental >*Medium elemental* > > - **Armor Class** 12 + the level of the creation (natural armor) > - **Hit Points** 40 + 10 for each creation level above 3rd > - **Speed** 40 ft.; burrow 40 ft. (Earth only); fly 40 ft. (hover) (Air only); swim 40 ft. (Water only) > >|STR|DEX|CON|INT|WIS|CHA| >|:---:|:---:|:---:|:---:|:---:|:---:| >|18 (+4)|16 (+3)|18 (+4)|6 (-2)|12 (+1)|6 (-2)| > > - **Damage Resistances** acid and cold (Water only); lightning and thunder (Air only); bludgeoning, piercing and slashing (Earth only) > - **Damage Immunities** poison; fire (Fire only) > - **Condition Immunities** exhaustion, frightened, paralyzed, petrified, poisoned, unconscious; grappled, prone (Air, Fire, and Water only) > - **Senses** darkvision 60 ft., passive Perception 11 > - **Languages** Understands the languages you speak > > ***Amorphous Form (Air, Fire, and Water Only).*** The elemental can move through a space as narrow as 1 inch wide without squeezing. > > ### Actions > ***Multiattack.*** The elemental makes a number of attacks equal to half this spell’s level (rounded down). > > ***Flame Touch (Fire only).*** Melee Weapon Attack: +your creation attack modifier to hit, reach 5 ft., one target. Hit: 1d10 + 4 + the creation’s level fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action, or bonus action to douse the fire, the target takes 1d10 fire damage at the start of each of its turns. > > ***Rock Crush (Earth only).*** Melee Weapon Attack: +your creation attack modifier to hit, reach 5 ft., one target. Hit: 1d12 + 4 + the creation’s level bludgeoning, piercing, or slashing damage (your's choice). If the target is a creature of Large or smaller size, the elemental can choose to push it back 5 feet. > > ***Air Strike (Air only).*** Ranged Creation Attack: +your creation attack modifier to hit, range 120 ft., one target. Hit: 1d10 + 4 + the creation’s level bludgeoning, piercing, or slashing damage (your's choice). > > ***Water Whip (Water only).*** Melee Weapon Attack: +your creation attack modifier to hit, reach 30 ft., one target. Hit: 1d10 + 4 + the creation’s level bludgeoning, piercing, or slashing damage (your's choice). If the target is a creature of Large or smaller size, the elemental can choose to pull the creature 10 feet towards itself.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "level": 3,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "a vial of acid",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 90,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "formula": "",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "name": "Concoct Ooze",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "1",
+          "units": "hour",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": 90,
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6e34ab00bd77ce48"
+}

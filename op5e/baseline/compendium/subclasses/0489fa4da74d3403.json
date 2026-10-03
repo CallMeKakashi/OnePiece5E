@@ -1,0 +1,106 @@
+{
+  "_id": "0489fa4da74d3403",
+  "name": "College of Legends",
+  "type": "subclass",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Bards belonging to the college of legends are drawn to powerful personalities, intent on recording the life of extraordinary individuals and immortalizing them through song and music. These daring bards believe that a single powerful will can change the course of history and dedicate themselves to seeing their muse's ambition come true.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "legends",
+    "classIdentifier": "bard",
+    "advancement": [
+      {
+        "_id": "ece5701901c57e8f",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.b90a9f6422d91d1d",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.919ba88ea37a00cb",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "d6aeaac5ca404abe",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.e1fc0a956a2ccbfd",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.4ae473a316ccd1a6",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "195de61413264171",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.f570a938320a3e09",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0489fa4da74d3403"
+}

@@ -1,0 +1,170 @@
+{
+  "_id": "3e4395572148e718",
+  "name": "Sky Islander",
+  "type": "race",
+  "img": "icons/magic/air/wind-tornado-funnel-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Sky Islanders inhabit the sky islands high above the Blue Sea. They are often religious and acclimated to high altitudes. Their expertise with dials and sky vehicles sets them apart from surface dwellers.</p>\n<p><strong>Subraces:</strong> Birkan, Shandian, Skypiean.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "sky-islander",
+    "advancement": [
+      {
+        "_id": "ea5b6c41539c9086",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "sm",
+            "med"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "6d1198274ad147f8",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 3,
+          "fixed": {},
+          "cap": 2
+        },
+        "value": {},
+        "level": 0,
+        "title": "Ability Score Increase",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "9a1988dc8f07f589",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.407bd2f45b7a3137",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.9f99b89c7251eabe",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.58a5526f0be368c1",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "base-traits",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "cca6fe3e84b30787",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.89b59b26c5567189",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.d1fe43407e1a5867",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "birkan",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "86808c6596f5cb54",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.eee564a0f4ed1415",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.9c1a07411b038afe",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "shandian",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "cd64c5056639f966",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.a0c772a1de62a0ea",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.c5012b29a5d9bd16",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "skypiean",
+        "icon": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "walk": 35,
+      "swim": 0,
+      "fly": 0,
+      "climb": 0,
+      "burrow": 0,
+      "hover": false,
+      "units": "ft"
+    },
+    "type": {
+      "value": "humanoid",
+      "subtype": "",
+      "custom": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3e4395572148e718"
+}

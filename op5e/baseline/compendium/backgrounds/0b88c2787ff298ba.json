@@ -1,0 +1,71 @@
+{
+  "_id": "0b88c2787ff298ba",
+  "name": "Slave",
+  "type": "background",
+  "img": "icons/magic/control/debuff-chains-ropes-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>For some significant portion of your life, you have been someone else's property. How did you become a slave? Are you a slave or a freeman? What were the conditions of your slavery?</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Performance, Survival, Insight, and Stealth</p>\n<p><strong>Tool Proficiencies:</strong> 1 tool of your choosing</p>\n<p><strong>Equipment:</strong> 1,000 Berries; Small Medkit; Rations &times;2; 1 tool of your choosing</p>\n<h4>Feature: Tough Customer</h4>\n<p>Your years of manual labor and sacrifice have granted you an unbelievable amount of endurance. You gain your choice of the Tough Feat or the Durable Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "47c7d35378b7f3a2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 2
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.73f0fa2559f88979": 2
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 1000,
+      "grantQuantities": {
+        "Compendium.op5e.items.73f0fa2559f88979": 2
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0b88c2787ff298ba"
+}

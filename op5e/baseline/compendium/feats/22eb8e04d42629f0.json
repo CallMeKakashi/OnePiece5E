@@ -1,0 +1,84 @@
+{
+  "_id": "22eb8e04d42629f0",
+  "name": "Knack Of The Nurse",
+  "type": "feat",
+  "img": "icons/skills/melee/blood-slash-foam-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have a real knack for healing wounds, granting you the following benefits:</p><ul><li>Whenever you make a Wisdom (Medicine) or an Intelligence (Religion) check, you can roll a d4 and add the number rolled to the total ability check.</li><li>When you use a creation that restores hit points, you can add 1d4 to the amount of hit points restored. You can use this feature a number of times equal to your proficiency bonus per short or long rest.</li><li>You know the Stabilize trick. You can use the Cure Wounds creation without expending a creation slot once per long rest. You can also use these creations with any creation slots you have, and are added to any creation list you have. Your creative ability for these creations is your choice of Intelligence, Wisdom, or Charisma (choose which when you gain this feat).</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!22eb8e04d42629f0"
+}

@@ -1,0 +1,117 @@
+{
+  "_id": "154d303ba140a9d5",
+  "name": "Role: Deckhand",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-sword-gray.webp",
+  "system": {
+    "description": {
+      "value": "<p>A deckhand's role is much less defined, but when push comes to shove they can prove to be the most valuable member of a crew. Deckhands are jack-of-all-trades that add versatility and utility by helping out with other roles.</p>\n<p><strong>Skill Proficiencies:</strong> Choose two from Animal Handling, Deception, Engineering, Investigation, Perception, or Sleight of Hand</p>\n<p><strong>Tool Proficiencies:</strong> One artisan's tool kit of your choice</p>\n<p><strong>Equipment:</strong> Common clothes, a hammer, a spyglass, and a pouch containing 50,000 beri</p>\n<h4>Feature: All Hands on Deck</h4>\n<p>You specialize in performing menial tasks aboard the ship such as taking inventory, swabbing the deck, manning the cannons, or acting lookout. You can always find your way around any ship. When you assist a creature in the crafting process, you halve the time and cost.</p>\n<h4>Feature: Bonus Feat</h4>\n<p>You gain a bonus feat of your choice. Some potential options: Creativity Adept, Fighting Initiate, Mobile, Beary Blue, Perceptive, Underdog.</p>\n<h4>Dream</h4>\n<table><tr><th>d6</th><th>Dream</th></tr>\n<tr><td>1</td><td>I will do everything in my power to make sure my captain becomes king/queen of the pirates.</td></tr>\n<tr><td>2</td><td>One day, I want to be a legend sung about in songs of heroes.</td></tr>\n<tr><td>3</td><td>I want to have the adventure of a lifetime!</td></tr>\n<tr><td>4</td><td>I made a promise to a childhood friend to brave the seas, and I will keep that promise.</td></tr>\n<tr><td>5</td><td>No one believed me when I said I would sail around the world, and I aim to prove them wrong.</td></tr>\n<tr><td>6</td><td>There's a mythical island in the New World that I want to see with my own eyes.</td></tr></table>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "advancement": [
+      {
+        "_id": "53b238e4fcff4876",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.0ebbbbc450198575",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.639c40e89a6abe5e",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.047b413d026b18a1",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "shipRole": true,
+      "startingBeri": 50000,
+      "grantQuantities": {}
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!154d303ba140a9d5"
+}

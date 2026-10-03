@@ -1,0 +1,84 @@
+{
+  "_id": "638a543e216f08e2",
+  "name": "Reliable Hive",
+  "type": "feat",
+  "img": "icons/skills/ranged/arrows-flying-salvo-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 15th level, your hive has perfected the ability to work together in tandem with you as their master.</p>\n<p>You learn the Telekinesis creation; however, instead of magical force, your swarm is the thing lifting things. This creation does not count towards the maximum number of creations you know.</p>\n<p>You can use the Telekinesis creation at will, but only when targeting objects that aren't being worn or carried.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Marksman (Swarmkeeper) 15",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!638a543e216f08e2"
+}

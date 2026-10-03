@@ -1,0 +1,84 @@
+{
+  "_id": "68b94447f872188e",
+  "name": "Enhanced Technique",
+  "type": "feat",
+  "img": "icons/skills/melee/swords-parry-block-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 11th level, you choose two of the six techniques you've mastered to make your specialties. The chosen technique grows stronger as shown below:</p>\n<ul>\n<li><strong>Moon Walk.</strong> You can now use your full movement speed when flying. While flying this way, opportunity attacks against you are made at disadvantage.</li>\n<li><strong>Iron Body.</strong> You can now use any of your movement and still retain the benefits. Your unarmed strikes also harden, allowing you to add half your proficiency bonus (rounded down) to your attack and damage rolls.</li>\n<li><strong>Finger Pistol.</strong> You now score a critical hit on a roll of 19 or 20 with unarmed strikes, and Finger Pistol can now work with any weapon that you wield and are proficient in.</li>\n<li><strong>Tempest Kick.</strong> The range increases to 120 and ignores any resistance to slashing damage. The attack now deals double damage to objects and structures.</li>\n<li><strong>Shave.</strong> The teleport distance increases to 30 feet, and you have advantage on the first attack roll you make after teleporting.</li>\n<li><strong>Paper Art.</strong> You can spend a spirit point to make the AC bonus persist until the start of your next turn, not only against the triggering attack.</li>\n</ul>\n<p>When you reach 17th level, you gain the remaining four enhanced techniques you didn't choose at 11th level.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Brawler (Six Powers Master) 11",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!68b94447f872188e"
+}

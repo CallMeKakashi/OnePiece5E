@@ -1,0 +1,196 @@
+{
+  "_id": "3a461db28fb7ad08",
+  "name": "Plant Transformation",
+  "type": "spell",
+  "img": "icons/magic/nature/plant-sproutdirt-green.webp",
+  "system": {
+    "description": {
+      "value": "<p><ul>You take on the physical attributes of a plant. You gain 30 temporary hits points and two of the following abilities of your choice for the duration:\n<em> <strong>Thick Bark.</strong> You gain a +1 bonus to your armor class.\n</em> <strong>Green Tongue.</strong> You can speak to all plants. You don’t get any special ability to control them.\n<em> <strong>Roots.</strong> Thick roots allow you to be locked to the ground. You have advantage on saving throws and ability checks to avoid getting knocked prone or moved against your will while on solid ground, and the ground within a 15 ft radius around you counts as difficult terrain for all creatures of your choice.\n</em> <strong>Large Trunk.</strong> Your size increases by one size category. Your attacks gain the Siege property.\n<em> <strong>Vines.</strong> Your reach becomes 20 feet. You have advantage on grapple checks, and if you successfully grapple a creature, they become restrained while they are grappled.\n</em> <strong>Thorns.</strong> Any creature that touches you or hits you with a melee attack takes 1d8 piercing damage. At the start of your turn, any creature that you are grappling, or grappling you, takes 1d8 piercing.\n<em> <strong>Spore Aura.</strong> Any creature that starts its turn, or enters a square within 5ft of you must succeed a Constitution saving throw, or be poisoned until the start of its next turn.\n</em> <strong>Slam.</strong> Your melee weapon attacks deal an extra 1d8 damage.</p><p><li><strong>Regrowth.</strong> When you regain hit points, you regain an additional number equal to your creative ability score.</li></ul></p><p><strong>At Higher Levels.</strong> When you use this creation using a creation slot of 4th level or higher, you increase the temporary hit points gained by 10 and select an additional ability for each level above 3rd.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "level": 3,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "a handful of seeds",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "10",
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "msak",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8",
+          "piercing"
+        ]
+      ],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "formula": "",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "attack",
+        "name": "Plant Transformation",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "10",
+          "units": "minute",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": null,
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "critical": {
+            "allow": true,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "piercing"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3a461db28fb7ad08"
+}

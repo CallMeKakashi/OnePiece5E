@@ -1,0 +1,84 @@
+{
+  "_id": "2f6cd976e5725c37",
+  "name": "Flying Strikes",
+  "type": "feat",
+  "img": "icons/magic/air/wind-tornado-funnel-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>You've honed your skill with weapons of all kinds, able to shape shockwaves of destruction as projectiles out of thin air.</p><ul><li>Increase your Strength or Dexterity by 1, to a maximum of 20.</li><li>You gain a special ranged weapon attack you can make in place of any regular weapon attack on your turn (including unarmed strikes). You must be wielding the melee weapon to use this attack option. You are proficient with it, and add the modifier of the ability score you increased with this feat to the attack and damage roll (You must use the same ability for both rolls). Its damage type and damage die are the same as the weapon you are wielding, and it has a normal range of 30 feet and a long range of 120 feet.</li><li>Certain abilities from your race, class, and the weapon you are wielding that modify the attack or damage roll can be applied to this, including Fighting Styles, Barbarian Rage Damage and Reckless Attack, Rogue Sneak attack, any bonus to attack and hit, and more. Does not include secondary effects such as Stunning Strike.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Strength or Dexterity 13 or higher",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2f6cd976e5725c37"
+}

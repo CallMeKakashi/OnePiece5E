@@ -1,0 +1,38 @@
+{
+  "_id": "636e0add85150cac",
+  "name": "Flash Gun",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+  "system": {
+    "description": {
+      "value": "<p>Fires a bright flash from a flash dial while also firing a gun.</p>\n<p>This +1 gun fires its first bullet each turn with advantage against an enemy that sees the flash. Enemies with non-visual sight are unaffected.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "uncommon",
+    "attunement": ""
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!636e0add85150cac"
+}

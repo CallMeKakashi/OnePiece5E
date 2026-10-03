@@ -1,0 +1,84 @@
+{
+  "_id": "1305abd6c0c0d96f",
+  "name": "War Mechanic",
+  "type": "feat",
+  "img": "icons/tools/smithing/anvil.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, you learn to augment your weapons and armor with mechanical enhancements. During a long rest, you can augment one weapon or one suit of armor you are proficient with. You can have only one augmented item at a time; augmenting a new item ends the previous augmentation.</p>\n<ul>\n<li><strong>Weapon Augment.</strong> The weapon gains a +1 bonus to attack and damage rolls, and you can use your Intelligence modifier instead of Strength or Dexterity for attack and damage rolls with it.</li>\n<li><strong>Armor Augment.</strong> The armor gains a +1 bonus to AC, and you can don or doff it as an action.</li>\n</ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Gadget Knight 3",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1305abd6c0c0d96f"
+}

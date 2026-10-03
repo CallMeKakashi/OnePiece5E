@@ -1,0 +1,41 @@
+{
+  "_id": "16a160bbe0a61f95",
+  "name": "Seastone Armor",
+  "type": "equipment",
+  "img": "icons/equipment/head/helm-barbute-steel-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>Seastone armor is +3 armor. When the wearer is grappling a devil fruit user, the target must make a Constitution Saving Throw (DC 20) both when grappled and at the end of each of their turns while grappled.</p>\n<p>If the wearer is a devil fruit user, they are also subject to the Constitution Saving Throw at the end of each of their turns.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "legendary",
+    "type": {
+      "value": "heavy"
+    },
+    "attunement": "required"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!16a160bbe0a61f95"
+}

@@ -1,0 +1,179 @@
+{
+  "_id": "3aeb0e51898adf5c",
+  "name": "Hidden Trigger",
+  "type": "spell",
+  "img": "icons/magic/holy/barrier-shield-winged-cross.webp",
+  "system": {
+    "description": {
+      "value": "<p>When you use this creation, you set a trigger that either harms other creatures, either upon a surface (such as a table or a section of floor or wall) or within an object that can be closed (such as a book, a scroll, or a treasure chest) to conceal the trigger.\nIf you choose a surface, the trigger can cover an area of the surface no larger than 10 feet in diameter. If you choose an object, that object must remain in its place; if the object is moved more than 10 feet from where you used this creation, the trigger is broken, and the creation ends without being triggered.\nThe trigger is nearly invisible and requires a successful Intelligence (Investigation) check against your creation save DC to be found. You decide what triggers the creation when you use it. For triggers inscribed on a surface, the most typical triggers include touching or standing on the trigger, removing another object covering the trigger, approaching within a certain distance of the trigger, or manipulating the object on which the trigger is inscribed.\nFor triggers placed within an object, the most common include opening that object, approaching within a certain distance of the object, or seeing the trigger. Once a trigger is activated, this creation ends. You can further refine the trigger so the creation activates only under certain circumstances or according to physical characteristics (such as height or weight), creature kind, etc.\nYou can also set conditions for creatures that don’t trigger the creation, such as those who say a certain password.\nWhen you place the trigger, choose explosives or creative triggers.\n<strong>Explosive Trigger.</strong> When activated, the creation erupts in a 20-foot-radius sphere centered on the trigger. The sphere spreads around corners. Each creature in the area must make a Dexterity saving throw. A creature takes 5d8 acid, cold, fire, lightning, or thunder damage on a failed saving throw (your choice when you create the trigger), or half as much damage on a successful one.\n<strong>Creative Trigger.</strong> You can store a prepared creation of 3rd level or lower in the trigger by using it as part of creating the trigger. The creation must target a single creature or an area. The creation being stored has no immediate effect when use in this way. When the trigger is activated, the stored creation is used. If the creation has a target, it targets the creature that activated the trigger. If the creation affects an area, the area is centered on that creature. If the creation summons hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the creation requires concentration, it lasts until the end of its full duration.</p><p><strong>At Higher Levels.</strong> When you use this this creation with a creation slot of 4th level or higher, the damage of an explosive trigger increases by 1d8 for each slot level above 3rd. If you create a creative trigger, you can store any creation of up to the same level as the slot you use for the Hidden Trigger.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "level": 3,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a pinch of powder worth at least 2,000,000 Berries, which the creation consumes",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "activation": {
+      "type": "hour",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "save",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "formula": "",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "name": "Hidden Trigger",
+        "sort": 0,
+        "activation": {
+          "type": "hour",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": null,
+          "units": "touch",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3aeb0e51898adf5c"
+}

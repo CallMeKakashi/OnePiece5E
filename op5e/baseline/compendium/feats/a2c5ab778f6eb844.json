@@ -1,0 +1,84 @@
+{
+  "_id": "a2c5ab778f6eb844",
+  "name": "Whip Master",
+  "type": "feat",
+  "img": "icons/magic/control/debuff-chains-ropes-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A whip in your hands becomes a deadly weapon. You gain the following benefits:</p><ul><li>You gain a +1 bonus to attack rolls you make with whips.</li><li>Whips you wield gain an extra 5ft reach, this stacks with their reach property, giving you a reach of 15ft.</li><li>The damage die of whips you wield increases by one size (1d4 => 1d6).</li><li>When you score a critical hit against a creature that is no more than one size larger than you, you can force that target to make a Strength saving throw (DC = 8 + your proficiency bonus + your Strength or Dexterity modifier). On a failure, the target becomes grappled. While grappled in this way, the creature is restrained.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Proficiency with whips",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a2c5ab778f6eb844"
+}

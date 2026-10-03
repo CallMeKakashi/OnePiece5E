@@ -1,0 +1,78 @@
+{
+  "_id": "4633dded4a563a7c",
+  "name": "Marine/Soldier",
+  "type": "background",
+  "img": "icons/equipment/shield/heater-steel-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>War has been your life for as long as you care to remember. You might have been part of a standing national army, a mercenary company, or perhaps a member of the Navy under the World Government, sailing the seas to combat pirates.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Athletics, Persuasion, Perception, Engineering, Acrobatics</p>\n<p><strong>Tool Proficiencies:</strong> Water Vehicles</p>\n<p><strong>Equipment:</strong> 100,000 Berries; 2 Medkits; Rations &times;5; Leather Armor/Navy Uniform</p>\n<h4>Feature: Military Training</h4>\n<p>You gain your choice of the Light Armor Master or Medium Armor Master feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "f1fb9b3da8922475",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 2
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.d59aed0b6f8ac8f1",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 2,
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 100000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 2,
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4633dded4a563a7c"
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "ea9f7f90c2655b3a",
+  "name": "Mountain Mist",
+  "type": "weapon",
+  "img": "icons/skills/melee/hand-grip-sword-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>A Great Grade katana with a gray blade and green, rose thorn-like guard and handle.</p>\n<p>This blade is a +3 katana. It deals 3d4 slashing instead of 2d4 slashing.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "very rare",
+    "attunement": "required"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ea9f7f90c2655b3a"
+}

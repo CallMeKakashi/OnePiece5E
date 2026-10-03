@@ -1,0 +1,119 @@
+{
+  "_id": "3a330530cb301851",
+  "name": "Bounty Hunter",
+  "type": "subclass",
+  "img": "icons/skills/ranged/target-bullseye-arrow-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Bounty hunters are marksmen who thrive in the thick of the fight rather than in the backlines. Equally skilled with ranged and melee weapons, they weave seamlessly between them in a neverending dance of steel and bullets.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "bounty-hunter",
+    "classIdentifier": "marksman",
+    "advancement": [
+      {
+        "_id": "2b4e9bf741d57f73",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.a5714cc1b45f6754",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.573c847466bee1ec",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.6706a7b797fe054c",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "c74333893b112cb7",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.08e41d51dc296c81",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "baea91c2ae2295b0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": []
+        },
+        "value": {},
+        "level": 11,
+        "title": "level-11-improvements",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "763daad1121b2f54",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.3f365b294c5c580b",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3a330530cb301851"
+}

@@ -1,0 +1,90 @@
+{
+  "_id": "9ba44adca5159d24",
+  "name": "Tailor",
+  "type": "background",
+  "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are a master of the delicate art of fashion and clothcraft. Whether creating garments for nobles or designing practical attire for adventurers, your skill with needle and thread is unmatched.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Insight, Perception, Sleight of Hand, Persuasion</p>\n<p><strong>Tool Proficiencies:</strong> Weaver's tools and Cobbler's Tools</p>\n<p><strong>Equipment:</strong> 150,000 Berries; Small Medkits &times;3; Rations &times;5, Weaver's kit and Cobbler's tools, 3 sets of fine clothes and leather shoes</p>\n<h4>Feature: Clothing Savant</h4>\n<p>You know how to work with clothing and shoes. You gain your choice of the Master Weaver Feat or the Master Cobbler Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "3dd3b048f0e8c551",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 3
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.d87b14108040ff8a",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.c1c776ecd32998ad",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.96345ec3afda41a5",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.f9b684ec10f57f17",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 3,
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 150000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 3,
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!9ba44adca5159d24"
+}

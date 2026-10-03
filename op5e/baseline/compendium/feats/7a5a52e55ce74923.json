@@ -1,0 +1,84 @@
+{
+  "_id": "7a5a52e55ce74923",
+  "name": "Serpent’s Pact",
+  "type": "feat",
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Having spent years on the shores of Amazon Lily, you have grown accustomed to the presence of snakes, even to the point of being able to call upon them from any location. You gain the following benefits:</p><ul><li>Increase your Dexterity or Strength score by 1, up to a maximum of 20.</li><li>You learn the Call Beast creation and can use it as a ritual using your Wisdom modifier. If you already have the Creativity feature, this creation is added to that creation list and you can use that creativity modifier for this creation. The creation doesn’t count against your number of creations known. This creation can only be used to summon a land beast, which gains the traits of the Snake Weapon from the Book of Beasts (linked on page 4 of this book) in addition to its normal traits.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Kuja, proficiency Wisdom (Animal Handling) checks",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7a5a52e55ce74923"
+}

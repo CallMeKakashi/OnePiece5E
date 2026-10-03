@@ -1,0 +1,117 @@
+{
+  "_id": "4f0c7ad1d4a81581",
+  "name": "Role: Captain",
+  "type": "feat",
+  "img": "icons/magic/symbols/star-rising-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Perhaps the most important role to fill on a ship is the captain. As a captain, you set the course of the ship and spearhead your crew into the adventure ahead. Your most valuable power isn't your strength in combat, but rather your ability to inspire and lead others.</p>\n<p><strong>Skill Proficiencies:</strong> Persuasion, choose two from Acrobatics, Animal Handling, Athletics, Insight, Intimidation</p>\n<p><strong>Tool Proficiencies:</strong> One set of tools of your choice</p>\n<p><strong>Equipment:</strong> Common clothes, a pirate flag featuring your jolly roger, a spyglass, and a pouch containing 100,000 beri</p>\n<h4>Feature: Force of Personality</h4>\n<p>You have an unmistakable presence that is felt by all around you. People and creatures you meet are more likely to be amenable and forthcoming. When you make a Charisma (Persuasion) check, the check cannot have disadvantage, nor be reduced in any way.</p>\n<p>You have the potential to unlock the mythical power of Conqueror's Haki and can be awarded Conqueror's Haki when you reach certain character levels.</p>\n<h4>Feature: Bonus Feat</h4>\n<p>You gain a bonus feat of your choice. Some potential options: Alert, Brave, Brawny, Inspiring Leader, Joyful, Tough.</p>\n<h4>Dream</h4>\n<p>A captain's dream is extremely important for the crew. Choose a dream from the table below or create your own with the help of your DM.</p>\n<table><tr><th>d6</th><th>Dream</th></tr>\n<tr><td>1</td><td>I want to be the king/queen of the pirates.</td></tr>\n<tr><td>2</td><td>A pirate captain saved my life once and inspired me to take up the mantle myself until I can surpass them.</td></tr>\n<tr><td>3</td><td>I want to create a pirate paradise where people can live a life of absolute freedom.</td></tr>\n<tr><td>4</td><td>The world government is a scourge on the free world and must be torn down from its thrones.</td></tr>\n<tr><td>5</td><td>I want to create a better world for everyone, free from aristocracy and oppression.</td></tr>\n<tr><td>6</td><td>I will create the greatest armada that the world has ever seen.</td></tr></table>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "advancement": [
+      {
+        "_id": "ae4204290efa96d9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.0ebbbbc450198575",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.0cbaa59c00fc6ce7",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.047b413d026b18a1",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "shipRole": true,
+      "startingBeri": 100000,
+      "grantQuantities": {}
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4f0c7ad1d4a81581"
+}

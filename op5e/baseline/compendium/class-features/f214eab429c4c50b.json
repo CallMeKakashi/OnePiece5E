@@ -1,0 +1,84 @@
+{
+  "_id": "f214eab429c4c50b",
+  "name": "Gadget Weapon",
+  "type": "feat",
+  "img": "icons/tools/smithing/anvil.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, you create a gadgeteer weapon that acts as a container for your creations. Over the course of 1 hour, you can use your tinker's tools to modify one simple or martial weapon into a specialist weapon. You are proficient in the use of your gadgeteer weapon, and it gains the following benefits:</p>\n<ul>\n<li>You can use your Intelligence score, rather than Strength or Dexterity, for the attack and damage rolls with the specialist weapon.</li>\n<li>The specialist weapon counts as an apparatus for your gadgeteer creations.</li>\n<li>The damage type becomes your choice of acid, cold, fire, lightning, poison, thunder, or the weapon's original damage. You can change the weapon's damage type when you finish a short or long rest.</li>\n<li>If the weapon normally requires ammunition to be used, it now produces its own ammunition.</li>\n<li>If the weapon has the thrown property, it returns to your hand after being thrown.</li>\n</ul>\n<p>You can only have one gadget weapon at any time. If you create a new gadget weapon, the old one immediately ceases to function and becomes a normal weapon again.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Gadgeteer (Elementalist) 3",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f214eab429c4c50b"
+}

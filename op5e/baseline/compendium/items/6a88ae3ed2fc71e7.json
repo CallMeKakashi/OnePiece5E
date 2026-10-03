@@ -1,0 +1,40 @@
+{
+  "_id": "6a88ae3ed2fc71e7",
+  "name": "Charcoal Burner Coffee",
+  "type": "consumable",
+  "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A silky smooth drink of coffee. For 1 hour after drinking, you gain 10 + Chef's Tools Modifier + Proficiency temporary hit points. For the same duration, you are under the effect of the Bless creation (no concentration). Costs 500,000 Berries.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "uncommon",
+    "type": {
+      "value": "potion"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6a88ae3ed2fc71e7"
+}

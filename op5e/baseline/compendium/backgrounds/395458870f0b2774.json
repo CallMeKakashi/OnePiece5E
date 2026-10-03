@@ -1,0 +1,94 @@
+{
+  "_id": "395458870f0b2774",
+  "name": "Carpenter",
+  "type": "background",
+  "img": "icons/skills/trades/construction-mason-bricklayer-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>You were a skilled craftsman, experienced in the shaping and building of wooden structures. Carpentry is a well respected and honest trade, and carpenters take pride in their craft.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Athletics, Acrobatics, Survival, History</p>\n<p><strong>Tool Proficiencies:</strong> Woodcarver's and Carpenter's tools</p>\n<p><strong>Equipment:</strong> 150,000 Berries; Small Medkits &times;3; Rations &times;5, your choice of Woodcarver's or Carpenter's Tools, a wooden trinket, several blueprints</p>\n<h4>Feature: Wood Artisan</h4>\n<p>You know how to work with wood. You gain your choice of the Master Carpenter Feat or the Master Woodcarver Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "447e121edb2f4bf4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 3
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.1f3d9e48eb967ab9",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.004bb26f67521d97",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.446fb0a3ad5f8527",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.4372a9a4cb728c92",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.91e0531ac1b4a851",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 3,
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 150000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 3,
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!395458870f0b2774"
+}

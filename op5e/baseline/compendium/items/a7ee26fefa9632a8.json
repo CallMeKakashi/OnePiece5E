@@ -1,0 +1,41 @@
+{
+  "_id": "a7ee26fefa9632a8",
+  "name": "The Silver Seer",
+  "type": "equipment",
+  "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
+  "system": {
+    "description": {
+      "value": "<p>Forged during the Void Century, the Silver Seer is a sentient shield with an intelligence of 16, wisdom of 18, and charisma of 22. It is Chaotic Good. It has expertise in all Wisdom and Charisma skill checks.</p>\n<p>A creature with Charisma less than 18 that attempts to don it must make a CHA save (DC 18) or take 3d10 psychic damage and become blinded for 1 minute. On success, half damage.</p>\n<h4>Stirring</h4>\n<p>+1 shield. When rolling initiative or Perception checks, make a CHA save (DC 18). Fail: disadvantage for 1 hour. Success: advantage for 1 hour. You learn the Protection Fighting Style.</p>\n<h4>Wakened</h4>\n<p>+2 shield. Advantage on initiative and Perception by default. At dawn, the shield picks a random ability score; on saves with that score, make a CHA save (DC 18). Fail: auto-fail the save. Success: half damage on fail, no damage on success. Protection Fighting Style grants shield AC to protected creatures.</p>\n<h4>Ascendant</h4>\n<p>+3 shield. You choose the ability score. No CHA save needed. Half damage on fail, none on success. This effect extends to allies within 10 ft.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "legendary",
+    "type": {
+      "value": "trinket"
+    },
+    "attunement": "required"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a7ee26fefa9632a8"
+}

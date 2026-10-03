@@ -1,0 +1,152 @@
+{
+  "_id": "c6cf160808f912de",
+  "name": "Forgemaster's Armor",
+  "type": "feat",
+  "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>Starting when you choose this path at 3rd level, you gain the ability to transform a set of light or medium armor into your Forgemaster's Armor over the course of a long rest. The chosen armor remains as your Forgemaster's Armor until you die, or until you use this ability to make another suit of armor.</p>\n<p>When you create this armor, choose a damage type from the following list: bludgeoning, piercing, slashing, fire, lightning, thunder, acid, or cold.</p>\n<p>While you are wearing your Forgemaster's Armor, you gain the following benefits:</p>\n<ul>\n<li>You gain a +1 bonus to your AC.</li>\n<li>You can use a bonus action to make one melee weapon attack with your armor against a target within 5 feet of you. If the attack hits, the armor deals 1d6 damage of the type you chose. You use your Strength modifier for the attack and damage rolls.</li>\n<li>When you grapple a creature, the target takes 1d6 damage of the chosen type if your grapple check succeeds.</li>\n</ul>\n<p>The damage die of both the bonus action attack and grapple abilities increases to 1d8 at 6th level, 1d10 at 10th level, and 1d12 at 14th level.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Barbarian (Forgemaster) 3",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": "While wearing Forgemaster's Armor"
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "name": "Forgemaster's Armor",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": "While wearing Forgemaster's Armor",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": null,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c6cf160808f912de"
+}

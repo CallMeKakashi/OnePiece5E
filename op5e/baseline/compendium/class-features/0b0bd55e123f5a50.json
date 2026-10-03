@@ -1,0 +1,84 @@
+{
+  "_id": "0b0bd55e123f5a50",
+  "name": "Color of Armament Master",
+  "type": "feat",
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your haki no longer merely hardens your strikes, but now flows into the enemy and objects, destroying them from within, without even making contact.</p>\n<p><strong>Flow.</strong> You learn about the flow of haki, allowing it to flourish like a flurry of blossoming petals. Your pool of Attack points increases from equal to your level to twice your level.</p>\n<p><strong>Internal Destruction.</strong> Your haki flows outwards from your strikes, increasing the reach of your melee attacks by 5ft, and the ranges of your ranged attacks double. In addition, when you hit an object with a haki-imbued attack, it deals maximum damage on the damage dice to the target.</p>\n<p><strong>Unbreaking.</strong> Your haki constantly emits a barrier that protects you from inconsequential sources of damage. Your damage threshold increases from 10 to a number equal to your level.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "16th level, Color of Armament Adept",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0b0bd55e123f5a50"
+}

@@ -1,0 +1,84 @@
+{
+  "_id": "5d696866eba591ac",
+  "name": "Heightened Innovation",
+  "type": "feat",
+  "img": "icons/skills/social/wave-halt-stop.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have learned techniques to enhance your attacks with certain kinds of creations, gaining the following benefits:</p><ul><li>When you use a creation that requires you to make an attack roll, the creation’s range is doubled.</li><li>Your ranged creation attacks ignore half cover and three-quarters cover.</li><li>Your ranged creation attacks ignore close range disadvantage.</li><li>You learn one trick that requires an attack roll. Choose the trick from the bard, medic, savant, or gadgeteer spell list. Your creative ability for these creations depends on the class you chose: Charisma for bard, Intelligence for gadgeteer, Wisdom for medic, Charisma for savant, and Wisdom for Marksman.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "The ability to use at least one creation",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5d696866eba591ac"
+}

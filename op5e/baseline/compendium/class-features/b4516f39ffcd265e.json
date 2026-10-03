@@ -1,0 +1,167 @@
+{
+  "_id": "b4516f39ffcd265e",
+  "name": "Experimental Augmentations",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Also at 2nd level, you can further customize your Test Subject with a number of upgrades equal to your Proficiency Bonus. You can change these Experimental Augmentations at the end of a long rest. Available augmentations include:</p>\n<ul>\n<li><strong>Amphibious Lineage</strong> — swimming speed and water breathing</li>\n<li><strong>Brainy Lineage</strong> — +2 INT, speech, proficiencies</li>\n<li><strong>Camouflage Lineage</strong> — Hide as bonus action, Stealth proficiency/expertise</li>\n<li><strong>Carnivorous Lineage</strong> — bonus damage vs. wounded targets</li>\n<li><strong>Clawed Lineage</strong> (Amalgamation) — 1d10 melee, climbing speed, pounce</li>\n<li><strong>Conduit Lineage</strong> — creations originate from Test Subject</li>\n<li><strong>Corrosive Lineage</strong> — acid resistance, new attacks</li>\n<li><strong>Devil Fruit Lineage</strong> — shares Devil Fruit abilities</li>\n<li><strong>Echoing Lineage</strong> — 30ft blindsight</li>\n<li><strong>Evasive Lineage</strong> — Evasion trait</li>\n<li><strong>Giant Lineage</strong> — size increase, Siege property</li>\n<li><strong>Hydra Lineage</strong> (Amalgamation) — multiple heads, advantage on Perception</li>\n<li><strong>Nimble Lineage</strong> — +10ft speed, disadvantage on opportunity attacks</li>\n<li><strong>Pack Lineage</strong> (Amalgamation) — pack tactics</li>\n<li><strong>Relentless Lineage</strong> — drop to 1 HP instead of 0</li>\n<li><strong>Reviving Lineage</strong> — bonus healing equal to WIS mod</li>\n<li><strong>Shelled Lineage</strong> — +1 AC</li>\n<li><strong>Tough Lineage</strong> — bonus HP equal to 2x level</li>\n</ul>\n<p>Additional augmentations are available at higher levels and for specific test subject types.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Medic (Bio-Engineer) 2",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "@prof",
+      "per": "lr",
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "name": "Experimental Augmentations",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": null,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": [
+            {
+              "period": "longRest",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b4516f39ffcd265e"
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "b7a201610a000f52",
+  "name": "Vivre Card",
+  "type": "loot",
+  "img": "icons/sundries/documents/document-sealed-brown-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>A piece of paper made from a clipping of a person's fingernail. Completely waterproof and fireproof but can be torn.</p>\n<p>The torn pieces point to and move towards each other no matter where they are in the world, allowing one to always tell the direction of the other person. It does not indicate distance or obstacles.</p>\n<p>The life force of the owner is reflected on the paper. If weakening, the card begins to burn away. It vanishes if they die.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "uncommon"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b7a201610a000f52"
+}

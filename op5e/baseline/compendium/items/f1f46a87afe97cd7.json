@@ -1,0 +1,58 @@
+{
+  "_id": "f1f46a87afe97cd7",
+  "name": "Scale Mail",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 45,
+      "units": "lb"
+    },
+    "price": {
+      "value": 500000,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "equipped": false,
+    "identified": true,
+    "armor": {
+      "value": 14
+    },
+    "strength": 0,
+    "stealth": true,
+    "proficient": null,
+    "type": {
+      "value": "medium",
+      "baseItem": "scalemail"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f1f46a87afe97cd7"
+}

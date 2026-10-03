@@ -1,0 +1,38 @@
+{
+  "_id": "36b5c5a6a9f1781b",
+  "name": "Wyvern's Wrath",
+  "type": "weapon",
+  "img": "icons/skills/melee/strike-sword-gray.webp",
+  "system": {
+    "description": {
+      "value": "<p>A Supreme Grade Greatsword with a scale-like pattern across its blade and a green handle with a claw motif.</p>\n<p>This is a +3 Greatsword dealing 2d8 slashing instead of 2d6, and is cursed.</p>\n<p><strong>Curse:</strong> At the start of each of the wielder's turns, they take 1d8 psychic damage.</p>\n<p><strong>Curse Overcome:</strong> The weapon deals an extra 1d8 psychic damage instead.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "legendary",
+    "attunement": "required"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!36b5c5a6a9f1781b"
+}

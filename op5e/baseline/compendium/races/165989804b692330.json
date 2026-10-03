@@ -1,0 +1,174 @@
+{
+  "_id": "165989804b692330",
+  "name": "Fishman",
+  "type": "race",
+  "img": "icons/creatures/fish/fish-marlin-swordfight-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Fishmen are a powerful aquatic race with superior physical abilities. They can breathe underwater and communicate with sea creatures. Their diverse physiology ranges from shark-like predators to octopus-like multipods.</p>\n<p><strong>Subraces:</strong> Sharptooth, Stronghide, Multipod.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "fishman",
+    "advancement": [
+      {
+        "_id": "1b25db72f32a156b",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "sm",
+            "med"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "3f0657e57d784167",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 3,
+          "fixed": {},
+          "cap": 2
+        },
+        "value": {},
+        "level": 0,
+        "title": "Ability Score Increase",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "fd80847331bf1875",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.dc5f28298e1a5ec2",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.8c80cfeb0235f381",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.62fb2ada42836bb1",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.6c75d20a88f58b37",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "base-traits",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "ddc2b9328ff99f29",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.bf54bcd8dc456d94",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.5bd81798d3dd906e",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "sharptooth",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "2734c2cb47f5042d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.6d2007305bd053ef",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.522f56b766f9fd5d",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "stronghide",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "d7f49ee6281835ca",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.013e34e0c507ea7f",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.07ae46d8e64a45cc",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "multipod",
+        "icon": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "walk": 30,
+      "swim": 30,
+      "fly": 0,
+      "climb": 0,
+      "burrow": 0,
+      "hover": false,
+      "units": "ft"
+    },
+    "type": {
+      "value": "humanoid",
+      "subtype": "",
+      "custom": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!165989804b692330"
+}

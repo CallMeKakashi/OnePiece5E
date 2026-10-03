@@ -1,0 +1,37 @@
+{
+  "_id": "a0986ca21559e13a",
+  "name": "The Swap-Swap Fruit",
+  "type": "loot",
+  "img": "icons/sundries/documents/document-sealed-brown-red.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Devil Fruit.</strong> A Paramecia-type fruit that assigns touched objects or creatures and swaps their positions. Its sourcebook progression increases size limits, supports combat and utility swaps, and awakens into assignment transfer through contact.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "legendary"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a0986ca21559e13a"
+}

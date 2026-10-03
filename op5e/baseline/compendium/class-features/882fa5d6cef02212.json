@@ -1,0 +1,159 @@
+{
+  "_id": "882fa5d6cef02212",
+  "name": "Conqueror's Haki Apprentice",
+  "type": "feat",
+  "img": "icons/magic/water/wave-water-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your dominating will can make even the mightiest of beasts bow down to you, and put a stop to even the most powerful devil fruit abilities enforcing your place as a conqueror.</p>\n<p><strong>Domination.</strong> As an action, you can target a beast you can see within the range of your Overwhelming Presence feature, forcing it to make a Wisdom saving throw against your Overwhelming Presence DC. The DM can choose to have the beast automatically fail this saving throw.</p>\n<p>On a failure, the beast becomes charmed by you for 1 hour with concentration, as if you were concentrating on a creation. If you maintain this concentration for its full duration of an hour, the beast you targeted becomes friendly to you and your allies, but you no longer have any direct control over it unless you use this feature again.</p>\n<p>While the beast is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. If it is not issued a command, it will try its best to defend itself.</p>\n<p>You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.</p>\n<p>Each time the target takes damage, it makes a new Wisdom saving throw against the DC, ending the effect on a successful save.</p>\n<p><strong>Crushing Will.</strong> As a reaction to a creature that you can see activating a devil fruit ability within the range of your Overwhelming Presence, you can attempt to enforce your will over them, preventing the ability from taking place. As part of the reaction, you make an ability check using your highest ability score. The DC equals 8 + the target's proficiency bonus + the target's highest ability modifier. On a success, the creature's ability fails and has no effect. On a failure, the ability activates as normal. If the target's level is less than or equal to your proficiency bonus, you automatically succeed the check.</p>\n<p>If the transformation of a zoan devil fruit is suppressed, the creature is unable to transform for 1 minute. At the end of each of the creature's turns, they can make a Wisdom saving throw against your Overwhelming Presence DC, ending the effect on a successful save.</p>\n<p>You have a number of uses of this ability equal to half your proficiency bonus (rounded down). If you possess affinity with Conqueror's Haki, you instead have uses equal to your full proficiency bonus.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Special, 10th level, Conqueror's Haki Novice",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "save",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "name": "Conqueror's Haki Apprentice",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": null,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!882fa5d6cef02212"
+}

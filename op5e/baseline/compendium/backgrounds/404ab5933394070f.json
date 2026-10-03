@@ -1,0 +1,79 @@
+{
+  "_id": "404ab5933394070f",
+  "name": "Fisherman",
+  "type": "background",
+  "img": "icons/creatures/fish/fish-marlin-swordfight-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have spent your life aboard fishing vessels or combing the shallows for the bounty of the ocean. You soon fell in love with the sea, the art of fishing, and the promise of the eternal horizon.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from History, Nature, Survival, and Insight</p>\n<p><strong>Tool Proficiencies:</strong> Fishing Tackle</p>\n<p><strong>Equipment:</strong> 100,000 Berries; Small Medkits &times;1; Rations &times;5, Fishing tackle, and a net</p>\n<h4>Feature: Harvest the Water</h4>\n<p>You are an expert of hunting down and capturing fish. You gain your choice of the Master Fisherman Feat or the Spear Mastery Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "035e7507e0a41178",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.87ac511a05f11a57",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.4b187cfbaca6d97b",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 100000,
+      "grantQuantities": {
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!404ab5933394070f"
+}

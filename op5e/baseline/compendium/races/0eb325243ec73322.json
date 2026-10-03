@@ -1,0 +1,199 @@
+{
+  "_id": "0eb325243ec73322",
+  "name": "Augmented",
+  "type": "race",
+  "img": "icons/skills/trades/construction-mason-bricklayer-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Augmented are beings whose bodies have been modified through technology, genetic experimentation, beast hybridization, or resurrection. They possess powerful builds and diverse abilities depending on the nature of their augmentation.</p>\n<p><strong>Subraces:</strong> Cyborg, Chimera, Artificial Human, Revived.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "augmented",
+    "advancement": [
+      {
+        "_id": "fa74f15321eebf05",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "sm",
+            "med"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "ffeb95a56942e6c9",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 3,
+          "fixed": {},
+          "cap": 2
+        },
+        "value": {},
+        "level": 0,
+        "title": "Ability Score Increase",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "7f333929cc7c9405",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.3a8c3178dd1e6e54",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "base-traits",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "78695b5e44eb9e92",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.04629f83555edcfd",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.5925861be77f750c",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.1e331d998a5a965a",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "cyborg",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "bbb27eaa2b01da30",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.d179d8e5905ebb9e",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.fd16268dda865281",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.ec5f04a8f5f4befa",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "chimera",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "ff09c2f9ff8bb3fb",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.0cd388fb95e4e39f",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.cb5382c4e50747af",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.6f29e25a71693f6c",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "artificial-human",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "c364d1888dd6dc29",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.b3f3ce8dd83bf755",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.e67c8ace165772ad",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.a939ef06d627857e",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "revived",
+        "icon": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "walk": 30,
+      "swim": 0,
+      "fly": 0,
+      "climb": 0,
+      "burrow": 0,
+      "hover": false,
+      "units": "ft"
+    },
+    "type": {
+      "value": "humanoid",
+      "subtype": "",
+      "custom": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0eb325243ec73322"
+}

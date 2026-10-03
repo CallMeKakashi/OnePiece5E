@@ -1,0 +1,38 @@
+{
+  "_id": "1c7d3ae46fae6a64",
+  "name": "Kopesh",
+  "type": "weapon",
+  "img": "icons/skills/melee/strike-blade-blood-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>A Supreme Grade scimitar that has become a black blade. It shines as if brand new, yet black as night. The handle and guard are golden and decorated with eye-like patterns.</p>\n<p>This is a +3 Scimitar with a +2 bonus to damage rolls, effectively unbreakable, dealing 2d6 slashing instead of 1d6 slashing.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "legendary",
+    "attunement": "required"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1c7d3ae46fae6a64"
+}

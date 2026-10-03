@@ -1,0 +1,83 @@
+{
+  "_id": "07dc4501581fe997",
+  "name": "Urchin",
+  "type": "background",
+  "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or provide for you, so you learned to provide for yourself. You've survived despite all odds.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Sleight of Hand, Stealth, Acrobatics, Athletics</p>\n<p><strong>Tool Proficiencies:</strong> Disguise kit, Thieves' tools</p>\n<p><strong>Equipment:</strong> 100,000 Berries; Small Medkits &times;1; Rations &times;5, Disguise kit, Thieves' tools, 1 Dagger</p>\n<h4>Feature: Sneaky Devil</h4>\n<p>Living on the streets has granted you insight into how to hide even in the most unlikely locations. You gain your choice of the Skulker Feat or the Silver Tongue Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "e9aa93380befaec4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.42725d22e07c0d90",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.c0b3677582d5480a",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.626f152717a27ccf",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 100000,
+      "grantQuantities": {
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!07dc4501581fe997"
+}

@@ -1,0 +1,88 @@
+{
+  "_id": "232ec51f47d67411",
+  "name": "Silent Speech",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-sword-gray.webp",
+  "system": {
+    "description": {
+      "value": "<p>Beginning at 10th level, you begin to speak the voice of all things, allowing you to breach any barrier such as species, physical barriers, and even consciousness.</p>\n<p>You can speak telepathically to any creature within 60 feet of you. Your telepathic utterances are understood by any creature. Your communication doesn't give the creature the ability to respond to you telepathically. This feature fails if you are incapacitated.</p>\n<p>At 15th level, your speech reaches farther than ever. Your range of this ability increases to 120ft, and you can now use this feature even when you are incapacitated.</p>\n<p>At 20th level, your range with this ability becomes 1 mile.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Voice of All Things 10",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "additionalPower": true
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!232ec51f47d67411"
+}

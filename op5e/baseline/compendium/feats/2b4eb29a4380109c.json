@@ -1,0 +1,84 @@
+{
+  "_id": "2b4eb29a4380109c",
+  "name": "Master Weaver",
+  "type": "feat",
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have been trained to use Weaver’s tools, gaining the following benefits:</p><ul><li>Increase your Wisdom or Intelligence score by 1, to a maximum of 20.</li><li>You gain proficiency in Weavers tools, or expertise if you were already proficient.</li><li>You can temporarily enhance an outfit, making the wearing have more of a presence. You touch an outfit over the course of a short or long rest. Until the creature’s next rest, or until you use this feature on another set of clothes, the wearer has advantage on your choice of Charisma (Persuasion), Charisma (Intimidation), Charisma (Performance), or Charisma (Deception) checks.</li><li>The amount of time and cost it takes to make and mend clothes is halved.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2b4eb29a4380109c"
+}

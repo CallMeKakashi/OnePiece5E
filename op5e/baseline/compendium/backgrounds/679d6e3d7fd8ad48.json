@@ -1,0 +1,79 @@
+{
+  "_id": "679d6e3d7fd8ad48",
+  "name": "Entertainer",
+  "type": "background",
+  "img": "icons/skills/trades/music-notes-sound-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir hearts, your music raises spirits, and your dance steps captivate.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Acrobatics, Performance, and Sleight of Hand</p>\n<p><strong>Tool Proficiencies:</strong> Disguise Kit or Gaming Set</p>\n<p><strong>Equipment:</strong> 150,000 Berries; Disguise Kit or Gaming Set; 1 Medkit; Rations &times;5</p>\n<h4>Feature: Lead Performer</h4>\n<p>You always know how to captivate the audience, stealing the show. You gain your choice of the Performer Feat or the Musician Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "50cf10bafdcbd49f",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.42725d22e07c0d90",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.500eb27fecee5857",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 150000,
+      "grantQuantities": {
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!679d6e3d7fd8ad48"
+}

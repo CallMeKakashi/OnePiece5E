@@ -1,0 +1,157 @@
+{
+  "_id": "a63313e2bf3870d2",
+  "name": "Role: Master at Arms",
+  "type": "feat",
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>In situations dealing with combat it is the most tactical and experienced warrior on board, the master at arms, who takes action. The primary duties involve leading the crew in combat, hunting down foes, or boarding enemy ships.</p>\n<p><strong>Skill Proficiencies:</strong> Choose three from Athletics, History, Insight, Intimidation, Persuasion, or Survival</p>\n<p><strong>Tool Proficiencies:</strong> None</p>\n<p><strong>Equipment:</strong> Common clothes, a simple or martial weapon of your choice, and a pouch containing 100,000 beri</p>\n<h4>Feature: Perfected Practice</h4>\n<p>You process information unlike others. Where others feel stress and falter, you thrive. When learning a new combat-related skill, the time it would take is reduced. You display overwhelming confidence that gives others pause; you can usually get away with minor offenses in settlements.</p>\n<h4>Feature: Bonus Feat</h4>\n<p>You gain a bonus feat of your choice. Some potential options: Dual Wielder, Lucky, Menacing, Observant, Sentinel, Tough.</p>\n<h4>Dream</h4>\n<table><tr><th>d6</th><th>Dream</th></tr>\n<tr><td>1</td><td>My captain's dream is my dream, it will come true!</td></tr>\n<tr><td>2</td><td>I will be the strongest fighter in the world!</td></tr>\n<tr><td>3</td><td>I have a rival that I wasn't strong enough to defeat. I must grow stronger.</td></tr>\n<tr><td>4</td><td>I seek to master the art of fighting for someone who cannot do so anymore.</td></tr>\n<tr><td>5</td><td>I have learned of a secret technique no one has ever mastered. I will be the first.</td></tr>\n<tr><td>6</td><td>Seeing my crew make it to the end of Grand Line is all I care about.</td></tr></table>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "advancement": [
+      {
+        "_id": "dd53c154b1f7ac8d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.0ebbbbc450198575",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "bdbeb7672f52cde8",
+        "type": "ItemChoice",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.op5e.items.cfe63f1f15529820"
+            },
+            {
+              "uuid": "Compendium.op5e.items.b38dba05ae0dcaec"
+            },
+            {
+              "uuid": "Compendium.op5e.items.5ee880d792c5270d"
+            },
+            {
+              "uuid": "Compendium.op5e.items.dc36d05562c8841d"
+            },
+            {
+              "uuid": "Compendium.op5e.items.69b040710b4ce0a2"
+            }
+          ],
+          "restriction": {
+            "type": "weapon",
+            "subtype": "",
+            "level": "",
+            "list": []
+          },
+          "spell": null,
+          "type": "weapon"
+        },
+        "value": {
+          "ability": "",
+          "added": {},
+          "replaced": {}
+        },
+        "level": 0,
+        "title": "Starting Weapon",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "shipRole": true,
+      "startingBeri": 100000,
+      "grantQuantities": {}
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a63313e2bf3870d2"
+}

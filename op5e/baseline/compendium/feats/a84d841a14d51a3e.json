@@ -1,0 +1,84 @@
+{
+  "_id": "a84d841a14d51a3e",
+  "name": "Spirit Adept",
+  "type": "feat",
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have connected with your inner spirit, and have manifested it into greater control of your physical self. You gain the following benefits:</p><ul><li>Choose one of the Spirit Abilities from the brawler class. You gain 2 Spirit points (which are added to any Spirit points you have from another source). You regain any of these spent Spirit points when completing a short rest. Whenever you reach a level that grants the Ability Score Improvement feature, you can replace one of these Spirit Ability options with another one from the brawler class.</li><li>Your damage dice for your unarmed strike increases by one size, 1d4 => 1d6, 1d10 => 1d12. The maximum damage dice you can have for an unarmed strike is 1d12.</li><li>Your movement speed increases by 5ft.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!a84d841a14d51a3e"
+}

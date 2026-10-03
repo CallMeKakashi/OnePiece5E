@@ -1,0 +1,41 @@
+{
+  "_id": "2ae8a7017a20d037",
+  "name": "Jet Dial Bracers",
+  "type": "equipment",
+  "img": "icons/equipment/hand/glove-tooled-leather-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>This set of bracers has within it two Jet Dials hidden within the elbows of the wearer. These bracers increase the power of the wearer's attacks utilizing the force of the near extinct Jet Dial.</p>\n<p>While wearing these bracers, any weapon attack or unarmed strike counts as a +2 weapon and deals an extra 1d6 damage.</p>\n<p>Additionally, you have advantage on shove attempts and can shove a creature that is two sizes larger than yourself.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "very rare",
+    "type": {
+      "value": "trinket"
+    },
+    "attunement": "required"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2ae8a7017a20d037"
+}

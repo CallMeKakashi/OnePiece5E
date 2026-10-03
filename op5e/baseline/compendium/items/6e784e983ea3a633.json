@@ -1,0 +1,53 @@
+{
+  "_id": "6e784e983ea3a633",
+  "name": "Lyre",
+  "type": "tool",
+  "img": "icons/skills/trades/music-notes-sound-blue.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "price": {
+      "value": 300000,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "ability": "cha",
+    "chatFlavor": "",
+    "proficient": 0,
+    "type": {
+      "value": "music",
+      "baseItem": "lyre"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6e784e983ea3a633"
+}

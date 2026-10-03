@@ -1,0 +1,117 @@
+{
+  "_id": "7db2820a524830ad",
+  "name": "Role: Shipwright",
+  "type": "feat",
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Sailing the Grand Line without a ship built by a skilled shipwright is to invite disaster. Shipwrights are responsible for building and maintaining the vessel upon which the crew sails.</p>\n<p><strong>Skill Proficiencies:</strong> Engineering, choose one from Athletics, History, Investigation, Perception, or Sleight of Hand</p>\n<p><strong>Tool Proficiencies:</strong> Carpenter's tools, 2 artisan's tool sets of your choice</p>\n<p><strong>Equipment:</strong> Common clothes, blueprints, carpenter's tools, and a pouch containing 50,000 beri</p>\n<h4>Feature: Craft Vessel</h4>\n<p>Given the necessary materials, you can construct ships from scratch. You can repair a ship that has a reduced hit point maximum, and when you repair a ship it regains twice as many hit points. The time and cost to craft items made from wood and metal is cut in half.</p>\n<h4>Feature: Bonus Feat</h4>\n<p>You gain a bonus feat of your choice. Some potential options: Adept Modifier, Battle Creator, Brawny, Creativity Adept, Engineer, Free Diver.</p>\n<h4>Dream</h4>\n<table><tr><th>d6</th><th>Dream</th></tr>\n<tr><td>1</td><td>I wish to build a ship that can sail to the ends of the world and back again.</td></tr>\n<tr><td>2</td><td>The ship of my dreams can fight off 10 galleons without a scratch in the hull.</td></tr>\n<tr><td>3</td><td>I dream of revolutionizing the history of shipwrights.</td></tr>\n<tr><td>4</td><td>Any ship can sail on water. I wish to build a ship that can sail the skies!</td></tr>\n<tr><td>5</td><td>My mentor created a work of art but died before seeing it realized. I swore to make their dream reality.</td></tr>\n<tr><td>6</td><td>There exists a storm that no ship has conquered, and I intend to build the ship that could.</td></tr></table>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "advancement": [
+      {
+        "_id": "9f41c51ba98de0a6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.0ebbbbc450198575",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.446fb0a3ad5f8527",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.1f3d9e48eb967ab9",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "shipRole": true,
+      "startingBeri": 50000,
+      "grantQuantities": {}
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7db2820a524830ad"
+}

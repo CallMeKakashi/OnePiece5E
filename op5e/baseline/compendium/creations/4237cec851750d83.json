@@ -1,0 +1,196 @@
+{
+  "_id": "4237cec851750d83",
+  "name": "Transmute Rock",
+  "type": "spell",
+  "img": "icons/skills/trades/construction-mason-bricklayer-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>You choose an area of stone or mud that you can see that fits within a 40-foot cube and that is within range, and choose one of the following effects.\n<strong>Transmute Rock to Mud.</strong>\nRock of any sort in the area becomes an equal volume of thick and flowing mud that remains for the creation’s duration.\nIf you use this creation on an area of ground, it becomes muddy enough that creatures can sink into it. Each foot that a creature moves through the mud costs 4 feet of movement, and any creature on the ground when you use the creation must make a Strength saving throw. A creature must also make this save the first time it enters the area on a turn or ends its turn there. On a failed save, a creature sinks into the mud and is restrained, though it can use an action to end the restrained condition on itself by pulling itself free of the mud.\nIf you use this creation on a ceiling, the mud falls. Any creature under the mud when it falls must make a Dexterity saving throw. A creature takes 4d8 bludgeoning damage on a failed save, or half as much damage on a successful one.\n<strong>Transmute Mud to Rock.</strong>\nMud or quicksand in the area no more than 10 feet deep transforms into soft stone for the creation’s duration. Any creature in the mud when it transforms must make a Dexterity saving throw. On a failed save, a creature becomes restrained by the rock. The restrained creature can use an action to try to break free by succeeding on a Strength check (DC 20) or by dealing 25 damage to the rock around it. On a successful save, a creature is shunted safely to the surface to an unoccupied space.\n> ## Summoned Yokai\n><em>Medium monstrosity</em>\n>\n> - <strong>Armor Class</strong> 12 + the level of the creation (natural armor)\n> - <strong>Hit Points</strong> 40 + 15 for each level of the creation above 3rd\n> - <strong>Speed</strong> 40ft.\n>\n>|STR|DEX|CON|INT|WIS|CHA|\n>|:---:|:---:|:---:|:---:|:---:|:---:|\n>|14 (+2)|16 (+3)|16 (+3)|4 (-3)|10 (+0)|16 (+3)|\n>\n> - <strong>Damage Immunities</strong> necrotic, force\n> - <strong>Condition Immunities</strong> frightened\n> - <strong>Senses</strong> darkvision 120 ft., passive Perception 10\n> - <strong>Languages</strong> understands the languages you speak\n>\n> <em><strong>Terror Frenzy (Fury only).</strong></em> If the Summoned Yokai hits a creature that is frightened by it with an attack, that attack is a critical hit.\n>\n> <em><strong>Weight of Sorrow (Despair only).</strong></em> Any creature, other than you, that starts its turn within 5 feet of the spirit has its speed reduced by 20 until the start of that creature’s next turn.\n>\n> <em><strong>Shadow Stealth (Fear only).</strong></em> While in dim light or darkness, the Summoned Yokai becomes invisibile until the end of its next turn, or until it makes an attack.\n> ### Actions\n> <em><strong>Multiattack.</strong></em> The Summoned Yokai makes a number of attacks equal to half this creation’s level (rounded down).\n>\n> <em><strong>Murderous Maul (Fury only).</strong></em> <em>Melee Weapon Attack:</em> +your spell attack modifier to hit, reach 5ft., one target. <em>Hit</em> (1d12 + 3 + the creation’s level) psychic damage.\n>\n> <em><strong>Hopeless Haymaker (Despair only).</strong></em> <em>Melee Weapon Attack:</em> +your spell attack modifier to hit, reach 5ft., one target. <em>Hit</em> (1d10 + 3 + the creation’s level) force damage.\n>\n> <em><strong>Dead End Bolt (Fear only).</strong></em> <em>Ranged Creation Attack:</em> +your spell attack modifier to hit, range 120ft., one target. <em>Hit</em> 5 (1d10 + 3 + the creation’s level) necrotic damage.\n>\n> <em><strong>Dreadful Scream (1/Day).</strong></em> The Summoned Yokai screams. Each creature within 30 feet of it must succeed on a Wisdom saving throw against your creation save DC or be frightened of the Summoned Yokai for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "level": 3,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "clay and water",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 120,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "rsak",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [
+        [
+          "4d8",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "formula": "",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "attack",
+        "name": "Transmute Rock",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": 120,
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "damage": {
+          "critical": {
+            "allow": true,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 4,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "bludgeoning"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4237cec851750d83"
+}

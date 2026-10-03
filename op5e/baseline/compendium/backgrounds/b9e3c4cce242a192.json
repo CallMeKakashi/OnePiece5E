@@ -1,0 +1,75 @@
+{
+  "_id": "b9e3c4cce242a192",
+  "name": "Author",
+  "type": "background",
+  "img": "icons/sundries/books/book-tooled-gold-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Most of the world's history and culture are inked into the pages of tomes. Those who write these tomes can influence the way people think and feel, how events are remembered, and how the future may be looked out. You are one of these people, a writer.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Performance, Persuasion, Deception, Engineering, Insight, and History</p>\n<p><strong>Tool Proficiencies:</strong> Calligrapher's Supplies and one musical instrument of your choice</p>\n<p><strong>Equipment:</strong> 150,000 Berries; 1 log book of your journey; 10 Rations; Calligrapher's Supplies</p>\n<h4>Feature: Story Weaver</h4>\n<p>You have written many tales to inform and astonish, allowing you to inspire the audience. You gain your choice of the Storyteller Feat or the Master Calligrapher Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "4987c0a54de81a06",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 10
+            },
+            {
+              "uuid": "Compendium.op5e.items.6f4b655fdf8c31e0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.446fb0a3ad5f8527",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.73f0fa2559f88979": 10
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 150000,
+      "grantQuantities": {
+        "Compendium.op5e.items.73f0fa2559f88979": 10
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b9e3c4cce242a192"
+}

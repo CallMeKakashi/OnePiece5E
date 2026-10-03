@@ -1,0 +1,84 @@
+{
+  "_id": "00bbbfcdd2933a46",
+  "name": "Caring",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-sword-gray.webp",
+  "system": {
+    "description": {
+      "value": "<p>It is your duty and pleasure to help those in need. You gain 3 care dice and you regain all spent care dice when you finish a short or long rest. If you see one of your allies get hit by a critical hit, you regain 1 care die. Your care dice are d6s. You can roll only one care die per turn, and a care die is spent when you roll it.</p><p>You can use care dice in any of the following ways:</p><ul><li>When you restore hit points to a creature, you can roll a care die and add the result to the total hit points regained.</li><li>When you restore hit points to a creature, you can give the creature an amount of temporary hit points equal to your level.</li><li>When you make a Charisma (Persuasion) check, spend one care die and add the roll to your check.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!00bbbfcdd2933a46"
+}

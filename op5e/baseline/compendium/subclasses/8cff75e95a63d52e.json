@@ -1,0 +1,106 @@
+{
+  "_id": "8cff75e95a63d52e",
+  "name": "College of Eloquence",
+  "type": "subclass",
+  "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Bards of the college of eloquence are masters of speech, their silver tongues granting them the ability to talk their way out of almost any situation, whether to persuade the guard to look the other way or by discouraging the enemy. Most members tend to be politicians, poets, and writers seeking inspiration and adventure upon the high seas.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "eloquence",
+    "classIdentifier": "bard",
+    "advancement": [
+      {
+        "_id": "ec50358afc352f70",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.cd0188fa18676ac3",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.8d21f3fcba9ddbe4",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "0dc934bd2e0c1dc9",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.41e38b0e0caccf67",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.6942edd9ce42b37c",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "e8c014b31e8994f7",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.20c194b3f00a165d",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8cff75e95a63d52e"
+}

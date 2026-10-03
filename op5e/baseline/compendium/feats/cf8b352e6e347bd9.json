@@ -1,0 +1,84 @@
+{
+  "_id": "cf8b352e6e347bd9",
+  "name": "Lengthy Heritage",
+  "type": "feat",
+  "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Despite the feuds between Long Arms and Long Legs, your miraculous birth proves that some semblance of peace is possible. Both with powerful arms and swift legs, you are a marvel of physical ability, and a long, prideful heritage. You gain the following benefits:</p><ul><li>Increase your Dexterity or Strength score by 1, up to a maximum of 20.</li><li>You gain proficiency in Strength (Athletics) or Dexterity (Acrobatics) checks. If you were already proficient in one of these skills, you instead gain expertise in that respective skill.</li><li>If your base race is a Long Arm, you gain the Tall Stride trait of the Long Leg Race. If your base race is a Long Leg, you gain the Long Limbs trait of the Long Arm Race.</li><li>If you miss with an attack roll or fail an ability check or a saving throw, you can draw on your bonds of and pride to gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses after you finish a long rest.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Long Arm or Long Leg Human race, and that your parents were either one Long Leg and one Long Arm, or both were Long Limbed humans",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!cf8b352e6e347bd9"
+}

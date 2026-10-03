@@ -1,0 +1,75 @@
+{
+  "_id": "357f9c0ca5592291",
+  "name": "Navigator",
+  "type": "background",
+  "img": "icons/sundries/documents/document-sealed-brown-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>You guided sea vessels for many years, studying the way of weather and waves. Your keen senses have granted you one of the most sought skills in the world.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Perception, Investigation, Survival, and Nature</p>\n<p><strong>Tool Proficiencies:</strong> Cartographer's Tools or Navigator's Tools, Water Vehicles</p>\n<p><strong>Equipment:</strong> A map of the surrounding area within 100 nautical miles; Rations &times;10; Cartographer's or Navigator's tools</p>\n<h4>Feature: Keen Eye</h4>\n<p>Your training has given you a keen eye for even the slightest of changes. You gain your choice of the Observant Feat or the Master Navigator Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "6280ae5db90c075e",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 10
+            },
+            {
+              "uuid": "Compendium.op5e.items.88e87369e14fa028",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.b492ec2db1276f34",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.73f0fa2559f88979": 10
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 0,
+      "grantQuantities": {
+        "Compendium.op5e.items.73f0fa2559f88979": 10
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!357f9c0ca5592291"
+}

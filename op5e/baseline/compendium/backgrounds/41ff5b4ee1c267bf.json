@@ -1,0 +1,117 @@
+{
+  "_id": "41ff5b4ee1c267bf",
+  "name": "Role: Helmsman",
+  "type": "feat",
+  "img": "icons/skills/social/wave-halt-stop.webp",
+  "system": {
+    "description": {
+      "value": "<p>The helmsman is responsible for steering the ship through the storm. While the navigator charts the course and the shipwright keeps the vessel in shape, the helmsman braves the ocean waves from behind the wheel. Helmsmen are steadfast and typically possess great physical strength.</p>\n<p><strong>Skill Proficiencies:</strong> Choose three from Athletics, Engineering, Insight, Intimidation, Sleight of Hand, or Survival</p>\n<p><strong>Tool Proficiencies:</strong> Vehicles (Water)</p>\n<p><strong>Equipment:</strong> Common clothes, a warm coat, a lucky charm, and a pouch containing 100,000 beri</p>\n<h4>Feature: Ocean Tamer</h4>\n<p>When you commandeer a ship from the helm, you instantly learn all of the ship's statistics, including its current and maximum hit points, and whether its current hit point maximum has been reduced. You can use any Ability Score for any check made to steer and control any ship you choose to helm. You gain a swim speed equal to your walking speed if you don't already have one.</p>\n<h4>Feature: Bonus Feat</h4>\n<p>You gain a bonus feat of your choice. Some potential options: Brawny, Menacing, Practiced Wisdom, Sentinel, Survivalist, Tough.</p>\n<h4>Dream</h4>\n<table><tr><th>d6</th><th>Dream</th></tr>\n<tr><td>1</td><td>One day, I will stand at the helm of a ship as it sails around the world.</td></tr>\n<tr><td>2</td><td>I wish to master myself as I master the ship I command.</td></tr>\n<tr><td>3</td><td>There is a legendary storm that no one has sailed through before. I will be the first.</td></tr>\n<tr><td>4</td><td>I won't settle for a single ship, I want to sail all manners of ships!</td></tr>\n<tr><td>5</td><td>I've heard legends of a ship that can sail the skies to the moon and back. I want to sail it.</td></tr>\n<tr><td>6</td><td>There's a ship known to revolt against its crews. I will find it and tame it.</td></tr></table>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "advancement": [
+      {
+        "_id": "5a950bbc35d448a3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.0ebbbbc450198575",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.fa2cceb0e20e59e5",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.4372a9a4cb728c92",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "shipRole": true,
+      "startingBeri": 100000,
+      "grantQuantities": {}
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!41ff5b4ee1c267bf"
+}

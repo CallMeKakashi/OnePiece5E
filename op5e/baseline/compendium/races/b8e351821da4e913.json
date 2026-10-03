@@ -1,0 +1,203 @@
+{
+  "_id": "b8e351821da4e913",
+  "name": "Giant",
+  "type": "race",
+  "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Giants are immensely powerful beings that tower over all other races. Most giants are over 20 meters tall and possess incredible strength. Their size makes them formidable warriors but also marks them as a DM race due to scale challenges.</p>\n<p><strong>Subraces:</strong> Standard Giant, Ancient Giant, Wotan, Ice Giant.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "giant",
+    "advancement": [
+      {
+        "_id": "c3ce287abd3695b4",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "huge",
+            "grg"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "242e0036b4e7561a",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 4,
+          "fixed": {},
+          "cap": 2
+        },
+        "value": {},
+        "level": 0,
+        "title": "Ability Score Increase",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "784b8e2d75a7d7b4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.dfacf9af77a3211b",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "base-traits",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "424464f503c24e04",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.76f2086a34dd15da",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.55366d45b131354c",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.14e46830d756be19",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "standard-giant",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "d9123db240c5c7b2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.a3394f29b59066f4",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.411dfba6d862370a",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.c74202030112bea5",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.5d66e31d8e8e2c63",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "ancient-giant",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "2940c7fb68740b67",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.e0c7b681c37a5677",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.e015e1b8e7c01706",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.ed2bbfd011ac6341",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "wotan",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "1a844428c70f5a4d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.1eb7a69542b57377",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.5f09a3a6691c0366",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.993a27b3282cc1c5",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "ice-giant",
+        "icon": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "walk": 40,
+      "swim": 0,
+      "fly": 0,
+      "climb": 0,
+      "burrow": 0,
+      "hover": false,
+      "units": "ft"
+    },
+    "type": {
+      "value": "humanoid",
+      "subtype": "",
+      "custom": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b8e351821da4e913"
+}

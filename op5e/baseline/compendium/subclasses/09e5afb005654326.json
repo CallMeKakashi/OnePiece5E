@@ -1,0 +1,178 @@
+{
+  "_id": "09e5afb005654326",
+  "name": "Brute",
+  "type": "subclass",
+  "img": "icons/weapons/swords/sword-guard.webp",
+  "system": {
+    "description": {
+      "value": "<p>Brutes are simple warriors who rely on mighty attacks and their own durability to overcome their enemies. Some brutes combine this physical might with tactical cunning. Others just hit things until those things stop hitting back.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "brute",
+    "classIdentifier": "fighter",
+    "advancement": [
+      {
+        "_id": "35a6b0bba07c09a3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.d2ccb9d858d4c9ad",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "30d5b69514c645f4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.8631dcc2b72075a7",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "7b21728a82b1f131",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.086deb8e9fc1c257",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "5c007362e8acfac6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.9c9ce2eabbc5cd71",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "3744dea05e477cbe",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.bab9a82700d24a9e",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "c24d416fbd9efee4",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "brute-force",
+          "type": "dice",
+          "scale": {
+            "3": {
+              "number": 1,
+              "die": {
+                "number": 1,
+                "faces": 4
+              }
+            },
+            "10": {
+              "number": 1,
+              "die": {
+                "number": 1,
+                "faces": 6
+              }
+            },
+            "16": {
+              "number": 1,
+              "die": {
+                "number": 1,
+                "faces": 8
+              }
+            },
+            "20": {
+              "number": 1,
+              "die": {
+                "number": 1,
+                "faces": 10
+              }
+            }
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!09e5afb005654326"
+}

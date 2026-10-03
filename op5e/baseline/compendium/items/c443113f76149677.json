@@ -1,0 +1,49 @@
+{
+  "_id": "c443113f76149677",
+  "name": "Flame Dial",
+  "type": "consumable",
+  "img": "icons/skills/ranged/arrows-flying-triple-gray.webp",
+  "system": {
+    "description": {
+      "value": "<p>Deals fire damage in a line (10 feet wide) extending from the muzzle to the cannon's normal range.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 100000,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "type": {
+      "value": "ammo"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!c443113f76149677"
+}

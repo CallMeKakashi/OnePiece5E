@@ -1,0 +1,167 @@
+{
+  "_id": "da0b94b1e7cfc3f8",
+  "name": "Customized Creativity",
+  "type": "feat",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Also at 6th level, you gain the ability to alter your creations thanks to your mastery of knowledge from all over the world. You gain two of the following Customized Creativity options of your choice. You gain another one at 10th and 14th level.</p>\n<p>You can use this feature a number of times equal to your proficiency bonus, and each option only takes a single use. You regain all uses of this ability at the end of a long rest.</p>\n<ul>\n<li><strong>Failsafe.</strong> When you use a creation that forces other creatures to make a saving throw, you can protect some of those creatures. Choose a number up to your creativity modifier (minimum of one). A chosen creature automatically succeeds on its saving throw, and takes no damage if it would normally take half on a success.</li>\n<li><strong>Extended Range.</strong> When you use a creation that has a range of 5 feet or greater, you can double the range. When the range is touch, you can make it 30 feet instead.</li>\n<li><strong>Quick Creation.</strong> When you use a creation with a creation time of 1 action, you can change it to 1 bonus action for this usage.</li>\n<li><strong>Silenced.</strong> When you use a creation, you can use it without any somatic or verbal components.</li>\n<li><strong>Alternative Effects.</strong> When you use a creation that deals acid, cold, fire, lightning, poison, or thunder damage, you can change that damage type to one of the other listed types.</li>\n<li><strong>Double Trouble.</strong> When you use a creation that targets only one creature and doesn't have a range of self, you can target a second creature in range with the same creation.</li>\n</ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Bard (Lore) 6",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "@prof",
+      "per": "lr",
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "name": "Customized Creativity",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": null,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": [
+            {
+              "period": "longRest",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!da0b94b1e7cfc3f8"
+}

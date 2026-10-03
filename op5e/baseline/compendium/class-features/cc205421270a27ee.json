@@ -1,0 +1,84 @@
+{
+  "_id": "cc205421270a27ee",
+  "name": "Pack Mule",
+  "type": "feat",
+  "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 10th level, lugging a massive cannon around has granted you immense physical strength. You gain the following benefits:</p>\n<ul>\n<li>Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength (Athletics) checks made to push, pull, lift, or break objects.</li>\n<li>While raging, you cannot be knocked prone or moved against your will.</li>\n<li>You have advantage on Constitution saving throws.</li>\n</ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Barbarian (Cannoneer) 10",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!cc205421270a27ee"
+}

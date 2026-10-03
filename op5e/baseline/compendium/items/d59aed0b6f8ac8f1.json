@@ -1,0 +1,58 @@
+{
+  "_id": "d59aed0b6f8ac8f1",
+  "name": "Navy Uniform",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>The navy standard uniform is made from durable cloth capable of surviving the harsh seas, though not directly designed for close-quarters combat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "price": {
+      "value": 100000,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "equipped": false,
+    "identified": true,
+    "armor": {
+      "value": 11
+    },
+    "strength": 0,
+    "stealth": false,
+    "proficient": null,
+    "type": {
+      "value": "light",
+      "baseItem": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d59aed0b6f8ac8f1"
+}

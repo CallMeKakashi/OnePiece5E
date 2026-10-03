@@ -1,0 +1,82 @@
+{
+  "_id": "05dfdcb615b7a567",
+  "name": "Swordsman",
+  "type": "background",
+  "img": "icons/weapons/swords/sword-guard.webp",
+  "system": {
+    "description": {
+      "value": "<p>For years, you have studied the blade. Where most simply wield a sword in combat, you wield your blade as an artist, ready to make your mark on the world.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Athletics, Acrobatics, History, Perception</p>\n<p><strong>Weapon Proficiencies:</strong> 2 simple or martial melee weapons (piercing or slashing)</p>\n<p><strong>Equipment:</strong> 150,000 Berries; Small Medkits &times;3; Rations &times;5, a whetstone, a memento from a person from your past</p>\n<h4>Feature: Blade Mastery</h4>\n<p>As each swordsman is unique, so is their blade. You gain your choice of a weapon mastery feat with a simple or martial melee weapon that deals piercing or slashing damage.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "95dbc20f7945e7fe",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 3
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.4372a9a4cb728c92",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.cf3224f489d732c0",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 3,
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 150000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 3,
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!05dfdcb615b7a567"
+}

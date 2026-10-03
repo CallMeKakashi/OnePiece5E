@@ -1,0 +1,78 @@
+{
+  "_id": "fe16bcd567e28e3e",
+  "name": "Bounty Hunter",
+  "type": "background",
+  "img": "icons/skills/ranged/target-bullseye-arrow-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>There are many groups and organizations out there in the blues. Often mistaken for simple travelers, Bounty Hunters make their living hunting down those who have built up a bad reputation, their main motivation is to hunt down that sweet bounty of berries.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Intimidation, Perception, Insight, and Survival</p>\n<p><strong>Tool Proficiencies:</strong> Thieves' Tools</p>\n<p><strong>Equipment:</strong> 100,000 Berries; 3 Small Medkits; 5 Rations, Thieves' Tools</p>\n<h4>Feature: Skilled Hunter</h4>\n<p>Your many years of hunting down wanted men have given you an insight into the many clues and trails people leave behind. You gain your choice of the Knack of the Hunter Feat or the Fighting Initiate Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "23a683c2de7a79b1",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 3
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.c0b3677582d5480a",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 3,
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 100000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 3,
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!fe16bcd567e28e3e"
+}

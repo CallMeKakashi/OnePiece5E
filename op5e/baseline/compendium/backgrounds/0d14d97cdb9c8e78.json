@@ -1,0 +1,82 @@
+{
+  "_id": "0d14d97cdb9c8e78",
+  "name": "Mason",
+  "type": "background",
+  "img": "icons/skills/trades/construction-mason-bricklayer-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are a skilled artisan, a master in the craft of stonemasonry. Your expertise lies in shaping and crafting stone to create enduring structures.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Athletics, History, Sleight of Hand, Persuasion</p>\n<p><strong>Tool Proficiencies:</strong> Mason's tools and Potter's Tools</p>\n<p><strong>Equipment:</strong> 150,000 Berries; Small Medkits &times;3; Rations &times;5, Mason's or Potter's tools, a hammer and chisel</p>\n<h4>Feature: Stonemaster</h4>\n<p>You know how to work with stone and clay. You gain your choice of the Master Mason Feat or the Master Potter Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "b392c1c6efe7407f",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 3
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.2405635faf929ef0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.639c40e89a6abe5e",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 3,
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 150000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 3,
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0d14d97cdb9c8e78"
+}

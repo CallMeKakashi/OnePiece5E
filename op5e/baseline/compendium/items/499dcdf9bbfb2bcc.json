@@ -1,0 +1,37 @@
+{
+  "_id": "499dcdf9bbfb2bcc",
+  "name": "Devil Fruit Object",
+  "type": "loot",
+  "img": "icons/skills/social/trading-justice-scale-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>By some miracle of science, someone discovered the ability to feed objects zoan-type devil fruits. The object gains the ability scores of the animal, intelligence, and autonomy. It can use its bonus action to transform. As objects, they do not need to breathe, but still get weakened by seastone and water.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "legendary"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!499dcdf9bbfb2bcc"
+}

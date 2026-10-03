@@ -1,0 +1,145 @@
+{
+  "_id": "bdeea00d5878c605",
+  "name": "Mink",
+  "type": "race",
+  "img": "icons/creatures/mammals/wolf-howl-moon-gray.webp",
+  "system": {
+    "description": {
+      "value": "<p>Minks are a race of humanoid animals who live on the back of Zunesha. They are natural-born warriors capable of generating electricity through their fur. Their animal heritage grants them enhanced speed and natural weapons.</p>\n<p><strong>Subraces:</strong> Diurnal, Nocturnal.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "mink",
+    "advancement": [
+      {
+        "_id": "d0742b5d3045280d",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "sm",
+            "med"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "3a5a286294205494",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 3,
+          "fixed": {},
+          "cap": 2
+        },
+        "value": {},
+        "level": 0,
+        "title": "Ability Score Increase",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "54fd672cf2e57367",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.3a2c66594c5258a3",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.7b194fd48c31ccd0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.01240054944454ff",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.c4df5568b1f3e69b",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "base-traits",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "dd81791542351c7d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.f580c0772b60a2c2",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "diurnal",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "9168326c87e61a4d",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.911ffbe6796675c3",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "nocturnal",
+        "icon": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "walk": 35,
+      "swim": 0,
+      "fly": 0,
+      "climb": 0,
+      "burrow": 0,
+      "hover": false,
+      "units": "ft"
+    },
+    "type": {
+      "value": "humanoid",
+      "subtype": "",
+      "custom": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!bdeea00d5878c605"
+}

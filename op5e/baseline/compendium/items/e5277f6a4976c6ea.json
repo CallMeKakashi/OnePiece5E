@@ -1,0 +1,58 @@
+{
+  "_id": "e5277f6a4976c6ea",
+  "name": "Splint Armor",
+  "type": "equipment",
+  "img": "icons/equipment/head/helm-barbute-steel-grey.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 60,
+      "units": "lb"
+    },
+    "price": {
+      "value": 2000000,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "equipped": false,
+    "identified": true,
+    "armor": {
+      "value": 17
+    },
+    "strength": 15,
+    "stealth": true,
+    "proficient": null,
+    "type": {
+      "value": "heavy",
+      "baseItem": "splint"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e5277f6a4976c6ea"
+}

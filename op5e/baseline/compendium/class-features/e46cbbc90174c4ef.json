@@ -1,0 +1,84 @@
+{
+  "_id": "e46cbbc90174c4ef",
+  "name": "Spiritual Gimmicks",
+  "type": "feat",
+  "img": "icons/skills/melee/blood-slash-foam-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 3rd level, you gain proficiency in Intelligence (Engineering) checks and Tinker's Tools, or expertise if you already have proficiency. Any brawler weapon or Tinker's Tool you wield can count as a creative focus for your creations.</p>\n<p>Your creative spirit allows you to modify your creations in the following ways:</p>\n<ul>\n<li>Use a creation with a casting time of one action as a bonus action by spending spirit points equal to its level (1 for tricks).</li>\n<li>Double the range of a creation (or change touch to 30 ft) for 1 spirit point.</li>\n<li>Use a creation without verbal or somatic components for 1 spirit point.</li>\n<li>Target a second creature with a single-target creation for spirit points equal to its level (1 for tricks).</li>\n<li>Protect creatures of your choice (up to Wisdom modifier) from your area creation's full force for 1 spirit point; they auto-succeed on the save and take no damage on half-damage saves.</li>\n</ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Brawler (Expressionist) 3",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!e46cbbc90174c4ef"
+}

@@ -1,0 +1,84 @@
+{
+  "_id": "191303a0b7a9e007",
+  "name": "Greater Enhancements",
+  "type": "feat",
+  "img": "icons/magic/holy/chalice-glowing-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 14th level, you've mastered the formula for your Experimental Medicine, enhancing the effects of it even further:</p>\n<ul>\n<li><strong>Hulking Strength.</strong> The damage die of your unarmed strikes and melee weapon attacks increases to 1d12, and you now have advantage on all Strength checks and saving throws.</li>\n<li><strong>Nimble Dexterity.</strong> Your speed doubles and creatures cannot make opportunity attacks against you.</li>\n<li><strong>Resilient Constitution.</strong> You gain immunity to the paralyzed, stunned, and poisoned conditions, and resistance to poison and necrotic damage.</li>\n</ul>\n<p>Additionally, you can now use creations in your Monstrous Transformation as you have mastered the transformation completely.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Medic (Field Surgeon) 14",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!191303a0b7a9e007"
+}

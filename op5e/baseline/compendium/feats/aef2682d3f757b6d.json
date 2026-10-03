@@ -1,0 +1,84 @@
+{
+  "_id": "aef2682d3f757b6d",
+  "name": "Rifle Master",
+  "type": "feat",
+  "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+  "system": {
+    "description": {
+      "value": "<p>Accurate and far-reaching, the rifle is a weapon that requires precision and discipline to wield, and experience to truly make it formidable. You gain the following benefits while wielding a musket or rifle:</p><ul><li>You gain a +1 bonus to attack rolls you make with muskets and rifles.</li><li>When you roll the weapon damage die with muskets or rifles, the minimum damage you can roll on the die equals your proficiency bonus.</li><li>Being prone doesn't impose disadvantage on your attack rolls with ranged weapons.</li><li>Your ranged weapon attacks don't have disadvantage against targets that are prone</li><li>Both the short and long ranges of these weapons are increased by 60 ft.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!aef2682d3f757b6d"
+}

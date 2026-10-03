@@ -1,0 +1,84 @@
+{
+  "_id": "91a0be6e1d93fd30",
+  "name": "Ominous Toxin",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Born as a particular type of poisonous fishman, you have been granted the ability to secrete a deadly toxin. You gain the following benefits:</p><ul><li>Increase your Constitution score by 1, up to a maximum of 20.</li><li>You have advantage on saving throws against poisons and effects that would leave you poisoned. You have resistance against poison damage.</li><li>Once per turn, you can apply poison to any bludgeoning, piercing, or slashing weapon as part of an attack. The target must succeed on a Constitution saving throw, DC 8 + Proficiency Bonus + Your Constitution Modifier, or take 2d4 poison damage, taking half damage on a success.</li><li>Any creature that that starts its turn in direct contact with your skin, via grappling or otherwise, must succeed on a Constitution saving throw against the same DC as your poison, or become poisoned for 1 minute, repeating the saving throw at the end of each of their turns, ending the effect on a success. A creature that succeeds this saving throw is immune to this effect for the next hour.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Fishman or Merfolk race",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!91a0be6e1d93fd30"
+}

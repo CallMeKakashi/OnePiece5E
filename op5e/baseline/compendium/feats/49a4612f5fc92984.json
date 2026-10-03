@@ -1,0 +1,84 @@
+{
+  "_id": "49a4612f5fc92984",
+  "name": "Knack Of The Burglar",
+  "type": "feat",
+  "img": "icons/skills/melee/blade-tip-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have a real knack for avoiding detection, granting you the following benefits:</p><ul><li>Whenever you make a Dexterity (Sleight of Hand) or a Dexterity (Stealth) check, you can roll a d4 and add the number rolled to the total ability check.</li><li>If you fail a Dexterity (Sleight of Hand) or a Dexterity (Stealth) check, you can reroll, and you must choose the new roll. You regain this ability once per short or long rest.</li><li>You know the Temporary Trick trick. You can use the Fog Cloud creation without expending a creation slot once per long rest. You can also use these creations with any creation slots you have, and are added to any creation list you have. Your creative ability for these creations is your choice of Intelligence, Wisdom, or Charisma (choose which when you gain this feat).</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!49a4612f5fc92984"
+}

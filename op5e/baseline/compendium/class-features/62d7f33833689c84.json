@@ -1,0 +1,89 @@
+{
+  "_id": "62d7f33833689c84",
+  "name": "Voice of All Things",
+  "type": "feat",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Prerequisites: Special</em></p>\n<p>The voice of all things is a mysterious ability that only a few individuals ever have the opportunity to unlock. The voice of all things is an ability that centers around understanding the world around you, the thoughts, desires, and goals of beasts, people, and even notable objects, all of these things speak out to those who have the gift.</p>\n<p>This is not to be confused with being able to speak the language of beasts and such, as there is no audible speech. Only an unintelligible noise that is imperceptible to nearly all. The same goes for written text, only being able to sense its significance, though it is believed that through training, a person can hope to reach true understanding. Few can awaken this ability, and even among the Three-Eyed Tribe, who allegedly possess the ability innately, must train to use it.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Special",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "additionalPower": true,
+      "additionalPowerRoot": true
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!62d7f33833689c84"
+}

@@ -1,0 +1,84 @@
+{
+  "_id": "f390a22d14340647",
+  "name": "Creative Combatant",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 7th level, you can replace one of your attacks when you take the Attack action with a trick from your gadgeteer repertoire. You can use one of the following tricks:</p>\n<ul>\n<li><strong>Flash Bomb.</strong> Each creature in a 10-foot radius must succeed on a Constitution saving throw against your spell save DC or be blinded until the end of your next turn.</li>\n<li><strong>Grapple Hook.</strong> You fire a grapple hook at a point you can see within 30 feet. You can pull yourself to that point, or pull a Large or smaller creature within range 15 feet toward you (Strength saving throw negates).</li>\n<li><strong>Smoke Screen.</strong> You create a 15-foot cube of smoke centered on a point within 30 feet. The area is heavily obscured until the start of your next turn.</li>\n</ul>\n<p>You can use tricks a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a short or long rest.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Gadget Knight 7",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f390a22d14340647"
+}

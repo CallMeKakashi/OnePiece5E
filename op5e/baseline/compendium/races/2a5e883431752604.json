@@ -1,0 +1,200 @@
+{
+  "_id": "2a5e883431752604",
+  "name": "Lunarian",
+  "type": "race",
+  "img": "icons/magic/fire/projectile-meteor-salvo-heavy-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Lunarians are a near-extinct race once known as gods. They possess large black wings granting flight, can withstand any environment, and wield the power of flames. Their Flaming Duality allows them to shift between defensive and speed-focused forms.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "lunarian",
+    "advancement": [
+      {
+        "_id": "7be90807e8e8ed18",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "sm",
+            "med"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "0e929ae69f413132",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 3,
+          "fixed": {},
+          "cap": 2
+        },
+        "value": {},
+        "level": 0,
+        "title": "Ability Score Increase",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "471bb8e07a06a85b",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.894c7a5849116011",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.81df5d5694fecfdc",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.f51d0f14bf62d7ea",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.97867d580dfe76fd",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.creations.551fecdcb6675995",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "base-traits",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "76d573353aa55464",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.creations.193d738602cc863d",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "flame-investure-l3",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "1488e867a0219dbc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.creations.f3290c49655cc7b6",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 5,
+        "title": "flame-investure-l5",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "05b9234bf239adac",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.3cef3179acaba8c1",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 5,
+        "title": "level-5",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "dd3187516209309a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.fc22ba1ba345c43c",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 10,
+        "title": "level-10",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "7daa1c79db242c2b",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.e8f1c5d3149ade51",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 15,
+        "title": "level-15",
+        "icon": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "walk": 30,
+      "swim": 0,
+      "fly": 30,
+      "climb": 0,
+      "burrow": 0,
+      "hover": false,
+      "units": "ft"
+    },
+    "type": {
+      "value": "humanoid",
+      "subtype": "",
+      "custom": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2a5e883431752604"
+}

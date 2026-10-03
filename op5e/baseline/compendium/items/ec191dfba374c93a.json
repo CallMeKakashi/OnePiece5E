@@ -1,0 +1,53 @@
+{
+  "_id": "ec191dfba374c93a",
+  "name": "Drum",
+  "type": "tool",
+  "img": "icons/skills/trades/music-notes-sound-blue.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "price": {
+      "value": 60000,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "ability": "cha",
+    "chatFlavor": "",
+    "proficient": 0,
+    "type": {
+      "value": "music",
+      "baseItem": "drum"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ec191dfba374c93a"
+}

@@ -1,0 +1,172 @@
+{
+  "_id": "5b6cd4fbbd0a43af",
+  "name": "Find Mount",
+  "type": "spell",
+  "img": "icons/magic/nature/leaf-glow-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>You find an unusually intelligent, strong, and loyal mount. Appearing in an unoccupied space within range. The mount has the form of a Large beast, and uses the statistics of the Loyal Mount statblock shown at the end of this creation's description.\nYour Loyal Mount serves you as a mount, both in combat and out, and you have an instinctive bond with it that allows you to fight as a seamless unit.\nWhen the Loyal Mount drops to 0 hit points, it disappears. You can also dismiss your Loyal Mount at any time as an action, causing it to disappear. In either case, use this creation again calls the same Loyal Mount, restored to its hit point maximum.\nWhile your Loyal Mount is within 1 mile of you, you can communicate with it telepathically.\nYou can’t have more than one Loyal Mount from this creation at a time. As an action, you can release the Loyal Mount from its service at any time, causing it to disappear.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 3rd level or higher, the creature's abilities improve as shown on the statblock. > ## Loyal Mount >*Large beast, neutral* > > - **Armor Class** 13 + the level of the creation > - **Hit Points** 20 + ten times the level of the creation > - **Speed** (30 + ten times the level of the creation)ft. > >|STR|DEX|CON|INT|WIS|CHA| >|:---:|:---:|:---:|:---:|:---:|:---:| >|18 (+4)|12 (+1)|14 (+2)|8 (-1)|14 (+2)|10 (+0)| > > > - **Senses** Darkvision 60 ft., passive Perception 12 > - **Languages** Understands one of the languages you speak > > ***Charge.*** If the Loyal Mount moves at least 20 ft. straight toward a creature and then hits it with a Slam attack on the same turn, that target must succeed on a Strength saving throw against your creation DC or be knocked prone. If the target is prone, the Loyal Mount can make another attack with its Slam attack against it as a bonus action. > > ### Actions > ***Slam.*** *Melee Weapon Attack:* +your creation attack modifier to hit, reach 10 ft., one target. *Hit:* (2d6 + 2 + the level of the creation) bludgeoning, piercing, or slashing (your choice).</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "level": 2,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "activation": {
+      "type": "minute",
+      "cost": 10,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "formula": "",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "name": "Find Mount",
+        "sort": 0,
+        "activation": {
+          "type": "minute",
+          "value": 10,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": 30,
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5b6cd4fbbd0a43af"
+}

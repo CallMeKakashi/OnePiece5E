@@ -1,0 +1,82 @@
+{
+  "_id": "86f39e81f60b9f57",
+  "name": "Miner",
+  "type": "background",
+  "img": "icons/weapons/hammers/hammer-war-spiked.webp",
+  "system": {
+    "description": {
+      "value": "<p>Mining is dirty and dangerous, but it's a job that must be done. You are one of these workers, breaking rocks in search of Mother Earth's greatest treasures deep down in dank quarries.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Athletics, Investigation, Intimidation, Perception, and Survival</p>\n<p><strong>Tool Proficiencies:</strong> Mason's Tools</p>\n<p><strong>Weapon Proficiencies:</strong> War picks</p>\n<p><strong>Equipment:</strong> 100,000 Berries; Bandages &times;3; Rations &times;5; Pickaxe; Mason's Tools</p>\n<h4>Feature: Cave Eyes</h4>\n<p>Your experience deep down in the caves has made you more used to dark environments. You gain your choice of the Perceptive Feat or the Warpick Master Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "d0091ec50ef37a5e",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.64be9197716cd2dc",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.1db99b391a315958",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.443e8cf26f917eda",
+              "optional": false,
+              "quantity": 3
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.73f0fa2559f88979": 5,
+            "Compendium.op5e.items.443e8cf26f917eda": 3
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 100000,
+      "grantQuantities": {
+        "Compendium.op5e.items.73f0fa2559f88979": 5,
+        "Compendium.op5e.items.443e8cf26f917eda": 3
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!86f39e81f60b9f57"
+}

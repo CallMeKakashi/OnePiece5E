@@ -1,0 +1,106 @@
+{
+  "_id": "12341f04d5f89b4a",
+  "name": "College of Bewitchment",
+  "type": "subclass",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Bards of the college of bewitchment are often labeled as practitioners of witchcraft, voo-doo, or some other supernatural gift. However, this is far from the case. Instead, their art influences the minds of all who experience it, causing them to believe the impossible to be possible.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "bewitchment",
+    "classIdentifier": "bard",
+    "advancement": [
+      {
+        "_id": "b458e01f33d687ac",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.8554e2693cd1c805",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.e94a76f7dee61f88",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "e9019a82ca32901f",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.a3f246f69fa5dd51",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.f568909b59cd8e8c",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "26652995230055dd",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.93da27e622062514",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!12341f04d5f89b4a"
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "d004eef4bb0dae3f",
+  "name": "Crafting Materials Guide",
+  "type": "loot",
+  "img": "icons/tools/smithing/anvil.webp",
+  "system": {
+    "description": {
+      "value": "<p>Crafting special items requires materials. The cost varies by rarity:</p>\n<table>\n<tr><th>Rarity</th><th>Berry Cost</th></tr>\n<tr><td>Common</td><td>1 Million Berries</td></tr>\n<tr><td>Uncommon</td><td>5 Million Berries</td></tr>\n<tr><td>Rare</td><td>50 Million Berries</td></tr>\n<tr><td>Very Rare</td><td>500 Million Berries</td></tr>\n<tr><td>Legendary</td><td>5 Billion Berries</td></tr>\n</table>\n<p>Some items may substitute valuable materials in place of Berry cost. Certain roles and classes can halve crafting time and cost.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "common"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!d004eef4bb0dae3f"
+}

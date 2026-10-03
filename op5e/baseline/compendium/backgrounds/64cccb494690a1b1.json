@@ -1,0 +1,74 @@
+{
+  "_id": "64cccb494690a1b1",
+  "name": "Knight",
+  "type": "background",
+  "img": "icons/equipment/shield/heater-steel-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>You belong to an order of knights who have sworn oaths to achieve a certain goal. The <em>One Piece</em> world has a wide variety of knightly orders, all with a similar outlook concerning their actions and responsibilities.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Persuasion, Athletics, Religion, History</p>\n<p><strong>Tool Proficiencies:</strong> 1 set of Artisan's tools of your choice</p>\n<p><strong>Equipment:</strong> 200,000 Berries; Small Medkits &times;3; Rations &times;5, Artisan's tools, a seal denoting your rank, a banner denoting your faction</p>\n<h4>Feature: Knightly Training</h4>\n<p>As a knight, you have mastered using heavy armor for the ultimate defense. You gain your choice of the Heavy Armor Master Feat or the Shield Master Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "33fb8bb17a02fd36",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 3
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 3,
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 200000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 3,
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!64cccb494690a1b1"
+}

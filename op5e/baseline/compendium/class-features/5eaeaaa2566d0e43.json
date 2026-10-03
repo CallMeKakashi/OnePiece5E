@@ -1,0 +1,84 @@
+{
+  "_id": "5eaeaaa2566d0e43",
+  "name": "Six Techniques",
+  "type": "feat",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Beginning at 3rd level, you've mastered a few of the signature techniques of Rokushiki. Choose three of the following techniques. You gain the benefits of the chosen techniques immediately.</p>\n<ul>\n<li><strong>Moon Walk.</strong> As a bonus action, you can spend 1 spirit point to grant yourself a flight speed equal to half walking speed for one minute.</li>\n<li><strong>Iron Body.</strong> As a reaction to taking damage, you can halve it. Afterwards, your movement speed becomes 0 until the end of your next turn.</li>\n<li><strong>Finger Pistol.</strong> As part of making an unarmed strike, you can make the attack deal piercing damage, and you increase the size of the damage dice roll (e.g. 1d6 becomes 1d8, 1d10 becomes 1d12).</li>\n<li><strong>Tempest Kick.</strong> In place of an unarmed strike, you can instead make a ranged attack with a range of 60 feet. You are proficient with it, and you add your Dexterity to its attack and damage rolls. Its damage is slashing, and its damage die matches the Brawling column of the Brawler table.</li>\n<li><strong>Shave.</strong> As a bonus action on your turn you can teleport 15 ft. Alternatively, you can use a reaction when a creature targets you with an attack to spend 1 spirit point to impose disadvantage on the attack and then teleport 15 ft. You cannot use this feature if your movement speed is 0.</li>\n<li><strong>Paper Art.</strong> As a reaction when a creature hits you with an attack, you can add your proficiency bonus to your AC against the triggering attack, potentially causing the attack to miss.</li>\n</ul>\n<p>When you reach 6th level in this class, you gain the remaining 3 techniques you didn't choose at 3rd level.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Brawler (Six Powers Master) 3",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5eaeaaa2566d0e43"
+}

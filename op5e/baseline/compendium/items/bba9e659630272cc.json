@@ -1,0 +1,38 @@
+{
+  "_id": "bba9e659630272cc",
+  "name": "Dead Man's Blade (Gambler Blade/Defender)",
+  "type": "weapon",
+  "img": "icons/skills/melee/blood-slash-foam-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>This melee weapon was once wielded by Captain Bill of the Wild Pirates. It bestowed bountiful luck in combat, but not without cost.</p>\n<p>When you make your first attack using this weapon, you can choose a mastercraft bonus of +1 to +3. This sword gains that bonus to attack and damage rolls. However, for each point of bonus, you take a corresponding penalty (&minus;1 to &minus;3) to your AC until the start of your next turn.</p>\n<h4>Curse Overcome</h4>\n<p>You gain a +3 bonus to attack and damage rolls. The first time you attack on each of your turns, you can transfer some or all of the sword's bonus to your AC, instead of using the bonus on attacks. The adjusted bonuses remain until the start of your next turn.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "very rare",
+    "attunement": "required"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!bba9e659630272cc"
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "447fed6a06c98c82",
+  "name": "Path of the Pugilist",
+  "type": "subclass",
+  "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
+  "system": {
+    "description": {
+      "value": "<p>Most barbarians seek out the most brutal weapon they can find to wield in battle. Those that follow the path of the pugilist have concluded that their own muscles are the deadliest weapon of all. Perhaps the craziest of all barbarians, these pugilists rush into battle with neither weapon nor armor, their rage more like euphoric laughter than a roaring howl as they revel in the battle ahead.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "pugilist",
+    "classIdentifier": "barbarian",
+    "advancement": [
+      {
+        "_id": "9326a183fc9d4a37",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.5d5592c5e36e48a1",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.275cab4fc6dcb1e5",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "ff3640b31bab55de",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.3956389f93afa244",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.f8e70632aefade6a",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "ebb6f8f8cdc2f227",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.d05b6cbac7ef4e9b",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "199e26279fb981b2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.ab9d33281aaf2700",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!447fed6a06c98c82"
+}

@@ -1,0 +1,123 @@
+{
+  "_id": "7395019d993a1891",
+  "name": "Color of Observation Apprentice",
+  "type": "feat",
+  "img": "icons/magic/water/projectile-ice-faceted-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your Observation Haki grows to allow you to sense the souls of creatures around you, understanding their intent as well as their overall strength.</p>\n<p><strong>Sense Soul.</strong> At 10th level, you gain a permanent +1 to your AC and Saving Throws as long as you are conscious. In place of the Search action, you can learn certain information about a creature's capabilities. The DM tells you about the creature regarding a number of the following characteristics of your choice equal to your proficiency bonus:</p>\n<ul>\n<li>Strength Score</li>\n<li>Dexterity Score</li>\n<li>Constitution Score</li>\n<li>Intelligence Score</li>\n<li>Wisdom Score</li>\n<li>Charisma Score</li>\n<li>Armor Class</li>\n<li>Current hit points</li>\n<li>If it has Legendary Actions</li>\n<li>If it has Haki</li>\n</ul>\n<p>Once you have used this feature on a creature, you cannot target that creature again until you finish a long rest.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "10th level, Color of Observation Novice",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [
+    {
+      "_id": "069d7faf016079ce",
+      "name": "Sense Soul",
+      "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "combat": null
+      },
+      "origin": null,
+      "transfer": true,
+      "flags": {
+        "dae": {
+          "transfer": true,
+          "stackable": "noneName"
+        }
+      },
+      "statuses": [],
+      "tint": null,
+      "_key": "!items.effects!7395019d993a1891.069d7faf016079ce"
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7395019d993a1891"
+}

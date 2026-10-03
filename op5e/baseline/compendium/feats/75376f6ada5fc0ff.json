@@ -1,0 +1,84 @@
+{
+  "_id": "75376f6ada5fc0ff",
+  "name": "Spear Mastery",
+  "type": "feat",
+  "img": "icons/weapons/polearms/spear-flared-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have mastered the use of long, poking sticks, rewarding you for the time you have taken to master it. You gain the following benefits:</p><ul><li>You gain a +1 bonus to attack rolls you make with a spear, javelin, pike, trident, or glaive.</li><li>When you use a spear, javelin, pike, trident, or glaive, its damage die increases by one damage dice size (1d6 => 1d8, 1d10 = > 1d12). In the case of the spear, both the one-handed and two-handed damage die increases in size by one.</li><li>On your turn, you can choose to take a forward stance by expending half of your movement speed. When you take this stance, your reach with spears, javelins, pikes, tridents, and glaives increases by 5ft.</li><li>On your turn, you can choose to take a wide stance by expending half of your movement speed. When you take this stance, the next creature you hit with a melee weapon attack using a spear, javelin, pike, trident, or glaive must make a Strength saving throw, DC = 8 + your proficiency + your Strength or Dexterity modifier. On a failure, the target is knocked prone or disarmed of an object they are holding (your choice).</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Proficiency with spears, javelins, pikes, tridents, or glaives",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!75376f6ada5fc0ff"
+}

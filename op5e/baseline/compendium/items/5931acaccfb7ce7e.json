@@ -1,0 +1,37 @@
+{
+  "_id": "5931acaccfb7ce7e",
+  "name": "Special Book (Non-Canon)",
+  "type": "loot",
+  "img": "icons/sundries/books/book-tooled-gold-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>Created using the awakened powers of the Book-Book Fruit. Holds the knowledge of others within books that can be absorbed once read. Can store proficiency and expertise in skills, weapons, armor, tools, languages, feats, and additional abilities.</p>\n<p>Once a book is read by one creature, it loses its ability and turns to dust.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "very rare"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5931acaccfb7ce7e"
+}

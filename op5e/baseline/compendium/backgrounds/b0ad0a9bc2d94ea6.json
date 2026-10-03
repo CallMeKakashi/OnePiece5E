@@ -1,0 +1,82 @@
+{
+  "_id": "b0ad0a9bc2d94ea6",
+  "name": "Faceless",
+  "type": "background",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Being who you are, you could never be a hero. Whether due to your class, your people, your family, or your sins, something about you prevents you from effectively pursuing the path you've chosen. You've left your old face behind, taking on a new persona.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Deception, Intimidation, Persuasion, Performance</p>\n<p><strong>Tool Proficiencies:</strong> Disguise Kit</p>\n<p><strong>Equipment:</strong> 100,000 Berries; Small Medkits &times;3; Rations &times;5, Disguise Kit, and a costume</p>\n<h4>Feature: Stay Away</h4>\n<p>Your years of hiding your true identity and nature have granted you the ability to always keep yourself away. You gain your choice of the Rogue Adept Feat or the Master of Disguise Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "e7a269a41e698306",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 3
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 5
+            },
+            {
+              "uuid": "Compendium.op5e.items.42725d22e07c0d90",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.items.96345ec3afda41a5",
+              "optional": false
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 3,
+            "Compendium.op5e.items.73f0fa2559f88979": 5
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 100000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 3,
+        "Compendium.op5e.items.73f0fa2559f88979": 5
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!b0ad0a9bc2d94ea6"
+}

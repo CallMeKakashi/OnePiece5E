@@ -1,0 +1,172 @@
+{
+  "_id": "5b4cb114b7e05ec2",
+  "name": "Create Servant (R)",
+  "type": "spell",
+  "img": "icons/tools/smithing/anvil.webp",
+  "system": {
+    "description": {
+      "value": "<p>You create a tiny mechanical servant to aid you. It appears in an unoccupied space within range. This creation uses the Created Servant stat block, which uses your proficiency bonus (PB) in several places. The appearance of the servant can be that of any non-humanoid creature, or toy. For example, its appearance could be a cat or a racing car. You can't have more than one Created Servant at a time, and using this creation again destroys the current Created Servant.\nThe Created Servant is friendly to you and your companions. In combat, it shares your initiative. It obeys your verbal commands (no action required by you), otherwise it will take the Dodge action and use its movement to avoid danger.\nWhen the Created Servant drops to 0 hit points, it becomes inactive until you can spend 10 minutes with your material components, after which it is restored with all its hit points, which can also be restored when you finish a long rest. A creature using the Mend trick on the Created Servant will also restore 2d6 of its hit points.\nAs an action, you can temporarily deactivate your Servant, rendering it inactive. When temporarily deactivated, you can use an action to reactivate the Servant, becoming active again. While it is deactivated this way, you can spend an action to change its appearance, as long as the Created Servant is within range. This can be done while repairing it with your tinker's tools. Whenever the Created Servant is rendered inactive, its speed becomes 0, it'll ignore any verbal commands and it drops in its space anything it was wearing or carrying, but can still perceive the world around it.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 2nd level or higher, use the higher level where the creation’s level appears in the stat block. > ## Created Servant >*Tiny construct* > > - **Armor Class** 13 + PB (natural armor) > - **Hit Points** 1 + creativity ability modifier + (4 x your level) > - **Speed** 40 ft., climb 40 ft. > >|STR|DEX|CON|INT|WIS|CHA| >|:---:|:---:|:---:|:---:|:---:|:---:| >|8 (-1)|16 (+3)|12 (+1)|14 (+2)|12 (+1)|10 (0)| > > > - **Skills** Perception +1 plus PB x 2, Proficiency in 3 skills of your choice, in which you are proficient in (chosen when you use this creation) > - **Damage Immunities** poison > - **Condition Immunities** charmed, exhaustion, frightened, poisoned > - **Senses** darkvision 120 ft., passive Perception 11 + (PB x 2) > - **Languages** Understands the languages you speak > > > **Construct Nature.** The Created Servant doesn't require air, food, water or sleep, creations cannot put it to sleep, and is immune to diseases. > > **Channel Creations.** When you use a creation that has a range other than self, the Created Servant can deliver the creation as if it had used the creation while it is within 120 feet of you. If the creation requires an attack roll, you use your attack modifier for the roll. > > **Evasive.** When the Created Servant is forced to make a saving throw to take only half damage from an effect, it instead takes no damage on a successful save, and only takes half damage on a failed save. > > **Tracking.** The Created Servant knows the general direction of your position and will immediately seek you out to the best of its ability if the two of you are separated. Likewise, you know the general direction of the Created Servant's position, however you don't know the distance or obstacles that might be in the way. > ### Actions > ***Bash.*** *Melee Weapon Attack:* your creation attack modifier to hit, reach 5ft., one target. *Hit* (1d4 + PB) Force damage.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "level": 1,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": true,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a set of Tinker’s tools",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "activation": {
+      "type": "minute",
+      "cost": 10,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 10,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "formula": "",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "name": "Create Servant (R)",
+        "sort": 0,
+        "activation": {
+          "type": "minute",
+          "value": 10,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": 10,
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5b4cb114b7e05ec2"
+}

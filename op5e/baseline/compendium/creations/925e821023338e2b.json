@@ -1,0 +1,172 @@
+{
+  "_id": "925e821023338e2b",
+  "name": "Spawn Plant",
+  "type": "spell",
+  "img": "icons/magic/nature/plant-sproutdirt-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>You create a plant to aid you. It manifests in an unoccupied space that you can see within range. This creation uses the Spawned Plant stat block. When you use this creation, choose a plant: Tree, Flower, Fungus, Vine. The type determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the creation ends.\nThe creature is an ally to you and your companions. In combat, the creature shares your initiative count. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 3rd level or higher, use the higher level wherever the creation’s level appears in the stat block. > ## Spawned Plant >*Medium or Large (Tree only) plant* > > - **Armor Class** 13 (Tree only) or 12 + the level of the creation (natural armor) > - **Hit Points** 30 + 15 for each creation level above 2nd > - **Speed** 30ft., 30ft. climb (Vines only) > >|STR|DEX|CON|INT|WIS|CHA| >|:---:|:---:|:---:|:---:|:---:|:---:| >|16 (+3)|14 (+2)|18 (+4)|6 (-2)|14 (+2)|6 (-2)| > > - **Damage Resistances** bludgeoning and piercing (Tree only) > - **Condition Immunities** blinded, deafened, exhaustion > - **Senses** Blindsight 60 ft. (blind beyond this radius), Passive Perception 12 > - **Languages** Understands the languages you speak > > ***False Appearance.*** While the plant remains motionless, it is indistinguishable from other plants of its kind. > > ***Enduring Bark (Tree only).*** When the plant has at least 1 hit point at the start of each of its turns, it gains a number of temporary hit points equal to twice the level of the creation + your creative ability modifier. > > ***Thorny Stem (Flower only).*** Any creature that touches or hits the plant with a melee attack suffers 1d8 piercing damage. > > ***Fungal Burst (Fungus only).*** When the plant's hit points are reduced to 0, it explodes with deadly fungal spores. Each creature within 10ft of the plant must make a Constitution saving throw against your creation save DC. On a failure, they take 2d6 thunder and 2d6 poison, and become poisoned for 1 minute, repeating the saving throw at the end of each of their turns. On a success, a creature only takes half damage. > > ***Lush Tendrils (Vine only).*** The plant has a number of vines equal to the level of the creation. Each tendril can be attacked (AC same as plant; 10 hit points; immunity to poison and psychic damage). Destroying a tendril deals no damage to the plant, but it doesn't grow them back. A tendril can also be broken if a creature takes an action and succeeds on a Strength check against it your creation save DC. > ### Actions > ***Multiattack.*** The plant makes a number of attacks equal to half this creation’s level (rounded down). > > ***Big Branch (Tree only).*** *Melee Weapon Attack:* +your creation attack modifier to hit, reach 10ft., one target. *Hit* 1d12 + 3 + the creation’s level damage. The damage type is bludgeoning, piercing, or slashing (your choice). This attack has the Siege property. > > ***Flying Thorns (Flower only).*** *Ranged Weapon Attack:* +your creation attack modifier to hit, range 60ft., one target. *Hit* 1d8 + 3 + the creation’s level piercing damage. > > ***Violent Fungus (Fungus only).*** *Melee Weapon Attack:* +your creation attack modifier to hit, reach 5ft., one target. *Hit* 1d10 + 3 + the creation’s level poison or thunder damage (your choice). Any creature hit by this attack cannot gain temporary hit points until the end of their next turn. > > ***Lashing Vines (Vines only).*** *Melee Weapon Attack:* +your creation attack modifier to hit, reach 30ft., one target. *Hit* 1d10 + 3 + the creation’s level bludgeoning or slashing damage (your choice). Any creature hit by this attack is grappled. While grappled, the creature is restrained. The plant can only grapple as many targets as it has vines.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "level": 2,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "a seed",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 90,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "formula": "",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "name": "Spawn Plant",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "1",
+          "units": "hour",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": 90,
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!925e821023338e2b"
+}

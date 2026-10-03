@@ -1,0 +1,84 @@
+{
+  "_id": "ca8b6032ff654ab6",
+  "name": "Boomstick",
+  "type": "feat",
+  "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, you've trained your body to withstand the recoil of smaller cannons. You gain proficiency with cannons and improvised weapons, and can now wield the swivel gun as a weapon, treating it as a ranged improvised weapon with the heavy and two-handed properties. While wielded in your hands, it has a range 60/240. While wielding a swivel gun in this way, you can choose to not have damage spread, as you assert firm control over your aim.</p>\n<p>You are proficient with all cannons and use your Strength modifier for the attack and damage rolls.</p>\n<p>Additionally, you benefit from Reckless Attack when making ranged attacks with swivel guns, and can add your bonus Rage damage to these attacks. Later when you gain your Brutal Critical feature, it applies to ranged attacks with swivel guns as well.</p>\n<p>You can also use the bulk of the cannon to strike at enemies in melee range. In this instance, the swivel gun acts as an improvised weapon that deals 2d6 bludgeoning damage on hit and has the heavy and two-handed properties.</p>\n<p>The massive bulk of the cannon makes it unwieldy to use. You have disadvantage on all ranged attack rolls with the swivel gun while you're not raging and wielding it as a ranged improvised weapon.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Barbarian (Cannoneer) 3",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ca8b6032ff654ab6"
+}

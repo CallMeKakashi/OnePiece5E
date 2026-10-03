@@ -1,0 +1,74 @@
+{
+  "_id": "073e406c903b31fd",
+  "name": "Pirate",
+  "type": "background",
+  "img": "icons/weapons/swords/scimitar-guard-gold.webp",
+  "system": {
+    "description": {
+      "value": "<p>You spent your youth under the sway of a dread pirate, a ruthless cutthroat who taught you how to survive in a world of sharks and savages. You've indulged in larceny on the high seas and sent more than one deserving soul to a briny grave.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Athletics, Intimidation, Perception, and Deception</p>\n<p><strong>Tool Proficiencies:</strong> Water Vehicles</p>\n<p><strong>Equipment:</strong> 100,000 Berries; 2 Small Medkits; Rations &times;10</p>\n<h4>Feature: Never Ending Battles</h4>\n<p>Your life has been on dangerous waters, making you always prepared for the worst. You gain your choice of the Alert Feat or the Free Diver Feat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "c57fb5582abe58d7",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.items.fea9efceda26a524",
+              "optional": false,
+              "quantity": 2
+            },
+            {
+              "uuid": "Compendium.op5e.items.73f0fa2559f88979",
+              "optional": false,
+              "quantity": 10
+            }
+          ],
+          "op5eGrantQuantities": {
+            "Compendium.op5e.items.fea9efceda26a524": 2,
+            "Compendium.op5e.items.73f0fa2559f88979": 10
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "starting-equipment",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "startingBeri": 100000,
+      "grantQuantities": {
+        "Compendium.op5e.items.fea9efceda26a524": 2,
+        "Compendium.op5e.items.73f0fa2559f88979": 10
+      }
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!073e406c903b31fd"
+}

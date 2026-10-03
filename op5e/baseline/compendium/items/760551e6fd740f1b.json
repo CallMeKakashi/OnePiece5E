@@ -1,0 +1,41 @@
+{
+  "_id": "760551e6fd740f1b",
+  "name": "Raid Suit",
+  "type": "equipment",
+  "img": "icons/equipment/head/helm-barbute-steel-grey.webp",
+  "system": {
+    "description": {
+      "value": "<p>Raid Suits are a special type of armor used by the Germa to enhance their soldiers. While wearing this armor, you gain the following benefits:</p>\n<ul>\n<li>+2 bonus to AC</li>\n<li>10 ft increase to movement speed</li>\n<li>Additional abilities such as being able to use a creation</li>\n<li>No Stealth disadvantage from heavy armor</li>\n<li>The gloves of the suit count as simple weapons, each a +2 that deals 1d6 damage</li>\n</ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "rarity": "rare",
+    "type": {
+      "value": "heavy"
+    },
+    "attunement": "required"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!760551e6fd740f1b"
+}

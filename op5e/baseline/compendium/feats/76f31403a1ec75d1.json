@@ -1,0 +1,84 @@
+{
+  "_id": "76f31403a1ec75d1",
+  "name": "Sightless Perspective",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>Losing sight in the literal sense can be a daunting task to overcome, be it not being born with it, or losing your eyes in a deadly encounter. Luckily you are particularly crafty, able to adapt to your other senses to fight against any and all unseen danger. You gain the following benefits:</p><ul><li>Increase your Wisdom score by 1, up to a maximum of 20.</li><li>You gain your choice of either blindsight or tremorsense of 30ft. This radius increases by an additional 10ft for each Observation Haki ability you possess.</li><li>Ranged attacks don’t have advantage against you due to you being blind. However, they can still have advantage for other reasons.</li><li>Any ability that you have that requires you to see a target within range functions as long as that target is within your blindsight/tremorsense.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "You are permanently blind, if you later regain your sight, you will lose this feat over the course of 3 months, of which it will be replaced with the Observant feat",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!76f31403a1ec75d1"
+}

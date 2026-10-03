@@ -1,0 +1,84 @@
+{
+  "_id": "35b1abd64227b1a9",
+  "name": "Physical Superiority",
+  "type": "feat",
+  "img": "icons/skills/melee/swords-parry-block-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, choose one of the following ability scores: Strength, Dexterity, or Constitution. You gain bonuses related to that ability score, reflecting your focus on physical excellence.</p>\n<ul>\n<li><strong>Strength.</strong> You gain a bonus to melee damage rolls and Strength checks equal to half your proficiency bonus (rounded up).</li>\n<li><strong>Dexterity.</strong> You gain a bonus to AC and Dexterity checks equal to half your proficiency bonus (rounded up).</li>\n<li><strong>Constitution.</strong> You gain bonus hit points per level equal to half your proficiency bonus (rounded up), and a bonus to Constitution checks.</li>\n</ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Champion 3",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!35b1abd64227b1a9"
+}

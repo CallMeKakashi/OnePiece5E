@@ -1,0 +1,152 @@
+{
+  "_id": "fa1719bd69f3ed95",
+  "name": "Elemental Attack",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>You've learned how to infuse elemental energy into your attacks, such as harnessing friction to ignite your weapon, building static electricity to shock your foes, gathering vapor in the air to douse enemies in chilling water, or coating your weapon in corrosive acid or baleful poison. You gain the following benefits:</p><ul><li>Increase your Strength or Dexterity score by 1, to a maximum of 20.</li><li>As a bonus action on your turn, you can cause the next weapon attack you make before the end of your turn to deal additional damage equal to 1d8 + your proficiency bonus. This damage is your choice of acid, cold, fire, lightning, or poison damage. You choose which damage type when you gain this feat, and your choice cannot be changed later.</li></ul><p>You can gain this feat multiple times, choosing a different damage type each time you gain it.</p><p>If you choose acid damage, the attack corrodes soluble material that isn't being worn or carried. If you choose cold damage, the attack puts out any open, non-created flame within 5 feet of your target. If you choose fire damage, the attack ignites flammable material that isn't being worn or carried. If you choose lightning damage, the attack creates a strong gust that clears any fog or smoke in a 5-foot cube occupied by you or the target. If you choose poison damage, all tiny non-created plants within 5 feet of the target immediately wilt and die.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Proficiency with a martial weapon",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "utility",
+        "name": "Elemental Attack",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": null,
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": null,
+          "units": "",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!fa1719bd69f3ed95"
+}

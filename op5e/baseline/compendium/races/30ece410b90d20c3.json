@@ -1,0 +1,229 @@
+{
+  "_id": "30ece410b90d20c3",
+  "name": "Human",
+  "type": "race",
+  "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Humans are the most common and widespread race, varying greatly in appearance and culture. They are adaptable, ambitious, and remarkably diverse, forming the majority of the world's population.</p>\n<p><strong>Subraces:</strong> Standard Human, Kuja, Long-arm, Long-leg, Snakeneck, Three-eye.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "human",
+    "advancement": [
+      {
+        "_id": "0e2b63ebdde9d6bb",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "sm",
+            "med"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "56a80f3bb491978f",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 3,
+          "fixed": {},
+          "cap": 2
+        },
+        "value": {},
+        "level": 0,
+        "title": "Ability Score Increase",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "63ec1fef84842702",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.59aeb0b9491b85ce",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "base-traits",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "5629f9dd3f398b67",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.63e141c83dbabf24",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.02ccef8aec0668c3",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "standard-human",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "46c273fe133d3744",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.95211ca6a3728796",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.cb417b62c7a54cd5",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "kuja",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "0334159e71c53289",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.83142357c51eaa73",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.833772b262c8d693",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "long-arm",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "d70d1dae351f1425",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.0a6249c376c87240",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.170b6070f609f5d6",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "snakeneck",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "a4a69f047037ead3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.ab0c95231f7e7781",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.939c191a60d9e456",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "long-leg",
+        "icon": "",
+        "hint": ""
+      },
+      {
+        "_id": "c1c4f95b6115cdc0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.racial-features.13dde7d9bc69d9fe",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.e6b6dc87b129e148",
+              "optional": true
+            },
+            {
+              "uuid": "Compendium.op5e.racial-features.00cefd4267ae4c1c",
+              "optional": true
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "three-eye",
+        "icon": "",
+        "hint": ""
+      }
+    ],
+    "movement": {
+      "walk": 30,
+      "swim": 0,
+      "fly": 0,
+      "climb": 0,
+      "burrow": 0,
+      "hover": false,
+      "units": "ft"
+    },
+    "type": {
+      "value": "humanoid",
+      "subtype": "",
+      "custom": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!30ece410b90d20c3"
+}

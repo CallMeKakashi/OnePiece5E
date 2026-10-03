@@ -1,0 +1,84 @@
+{
+  "_id": "374d4916725ae9a8",
+  "name": "Advanced Arsenal",
+  "type": "feat",
+  "img": "icons/skills/melee/hand-grip-sword-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, you learn to craft special ammunition. During a short or long rest, you can create a number of special ammo types equal to your Intelligence modifier (minimum of 1). The ammunition lasts until your next rest. Choose from the following types:</p>\n<ul>\n<li><strong>Explosive Round.</strong> On hit, each creature within 5 feet of the target (including the target) must make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier) or take 1d8 fire damage.</li>\n<li><strong>Piercing Round.</strong> The attack ignores half cover and three-quarters cover. On hit, the target takes an additional 1d6 piercing damage.</li>\n<li><strong>Concussive Round.</strong> On hit, the target must succeed on a Constitution saving throw or be stunned until the end of its next turn.</li>\n<li><strong>Smoke Round.</strong> On hit, the round creates a 10-foot radius sphere of smoke centered on the target, heavily obscuring the area for 1 minute.</li>\n</ul>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Arms Dealer 3",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "actionType": "",
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    },
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!374d4916725ae9a8"
+}

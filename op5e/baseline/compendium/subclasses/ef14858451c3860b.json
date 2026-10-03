@@ -1,0 +1,152 @@
+{
+  "_id": "ef14858451c3860b",
+  "name": "Plaguewright",
+  "type": "subclass",
+  "img": "icons/magic/unholy/orb-smoking-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Medics that follow this path see diseases and the dying not as disasters, but as tools for their own purposes. \"As above, so below.\" No truer words could describe the existence of plaguewrights.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "OP5e",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "plaguewright",
+    "classIdentifier": "medic",
+    "advancement": [
+      {
+        "_id": "bbec149f910cb8c4",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.12e26195b7527bf4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.op5e.class-features.4ec65a1ccc3f5168",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "a207b056dbe30baf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.f0d67f8120b083bb",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "a3af12aab8f4b0d3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.b0d828fd66c38870",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "eef1b4754851a98e",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.op5e.class-features.4f40a8f464412e6a",
+              "optional": false
+            }
+          ]
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      },
+      {
+        "_id": "311e4494f4b0ea3c",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "infection-radius-die",
+          "type": "dice",
+          "scale": {
+            "2": {
+              "number": 1,
+              "faces": 6
+            },
+            "6": {
+              "number": 1,
+              "faces": 8
+            },
+            "10": {
+              "number": 1,
+              "faces": 10
+            },
+            "14": {
+              "number": 1,
+              "faces": 12
+            }
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "classRestriction": "",
+        "hint": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ef14858451c3860b"
+}
