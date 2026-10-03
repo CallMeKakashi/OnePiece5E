@@ -1,0 +1,895 @@
+[
+ {
+  "name": "Plate Armor",
+  "type": "equipment",
+  "fails": [],
+  "detail": {
+   "base": 12,
+   "ac": 18,
+   "want": 18,
+   "t": "heavy"
+  },
+  "pass": true
+ },
+ {
+  "name": "Burn Blade",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d8 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Lance",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d12 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Shield",
+  "type": "equipment",
+  "fails": [],
+  "detail": {
+   "base": 12,
+   "ac": 14,
+   "want": 14,
+   "t": "shield"
+  },
+  "pass": true
+ },
+ {
+  "name": "Whip",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d4 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Seastone Weapon (Tipped)",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "",
+   "parts": 0
+  },
+  "pass": true
+ },
+ {
+  "name": "Kopesh",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "",
+   "parts": 0
+  },
+  "pass": true
+ },
+ {
+  "name": "12-pounder",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "3d10 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Glaive",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d10 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Battleaxe",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d8 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Maul",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "2d6 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Studded Leather Armor",
+  "type": "equipment",
+  "fails": [],
+  "detail": {
+   "base": 12,
+   "ac": 14,
+   "want": 14,
+   "t": "light"
+  },
+  "pass": true
+ },
+ {
+  "name": "Greatclub",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d8 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Lucky Day",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "",
+   "parts": 0
+  },
+  "pass": true
+ },
+ {
+  "name": "Eisen Whip",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "activity": "utility"
+  },
+  "pass": true
+ },
+ {
+  "name": "Swivel Gun",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "2d8 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Defiance of the Red World",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "",
+   "parts": 0
+  },
+  "pass": true
+ },
+ {
+  "name": "18-pounder",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "4d10 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Wyvern's Wrath",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "",
+   "parts": 0
+  },
+  "pass": true
+ },
+ {
+  "name": "Rapier",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d8 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Unarmed Strike",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d4 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Shortsword",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d6 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Net",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "",
+   "parts": 0
+  },
+  "pass": true
+ },
+ {
+  "name": "Dart",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d4 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Pike",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d10 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Odachi",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "3d4 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Halberd",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d10 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Katana",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "2d4 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Orange Mile",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "",
+   "parts": 0
+  },
+  "pass": true
+ },
+ {
+  "name": "Arched Horn",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "",
+   "parts": 0
+  },
+  "pass": true
+ },
+ {
+  "name": "Sling",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d4 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Club",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d4 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Dagger",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d4 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Flash Gun",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "",
+   "parts": 0
+  },
+  "pass": true
+ },
+ {
+  "name": "Quarterstaff",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d6 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Sickle",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d4 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Leather Armor",
+  "type": "equipment",
+  "fails": [],
+  "detail": {
+   "base": 12,
+   "ac": 13,
+   "want": 13,
+   "t": "light"
+  },
+  "pass": true
+ },
+ {
+  "name": "Distortion",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "",
+   "parts": 0
+  },
+  "pass": true
+ },
+ {
+  "name": "Hide Armor",
+  "type": "equipment",
+  "fails": [],
+  "detail": {
+   "base": 12,
+   "ac": 14,
+   "want": 14,
+   "t": "medium"
+  },
+  "pass": true
+ },
+ {
+  "name": "Greataxe",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d12 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Javelin",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d6 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Chain Shirt",
+  "type": "equipment",
+  "fails": [],
+  "detail": {
+   "base": 12,
+   "ac": 15,
+   "want": 15,
+   "t": "medium"
+  },
+  "pass": true
+ },
+ {
+  "name": "42-pounder",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "10d10 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Heavy Longcoat",
+  "type": "equipment",
+  "fails": [],
+  "detail": {
+   "base": 12,
+   "ac": 16,
+   "want": 16,
+   "t": "medium"
+  },
+  "pass": true
+ },
+ {
+  "name": "Shotgun",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "2d4 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Trident",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d6 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Shortbow",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d6 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "64-pounder",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "15d10 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Burn Bazooka",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "activity": "save"
+  },
+  "pass": true
+ },
+ {
+  "name": "24-pounder",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "6d10 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Cutlass",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d8 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Blowgun",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d4 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Handaxe",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d6 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Rifle",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d12 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Musket",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d10 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Dead Man's Blade (Gambler Blade/Defender)",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "",
+   "parts": 0
+  },
+  "pass": true
+ },
+ {
+  "name": "Crossbow, Light",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d8 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Crossbow, Hand",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d6 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Heat Javelin",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "activity": "damage"
+  },
+  "pass": true
+ },
+ {
+  "name": "Chain Mail",
+  "type": "equipment",
+  "fails": [],
+  "detail": {
+   "base": 12,
+   "ac": 16,
+   "want": 16,
+   "t": "heavy"
+  },
+  "pass": true
+ },
+ {
+  "name": "Mace",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d6 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "8-pounder",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "2d10 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Manacles",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "",
+   "parts": 0
+  },
+  "pass": true
+ },
+ {
+  "name": "Scimitar",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d6 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Longsword",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d8 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Ocean's Mourning",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "",
+   "parts": 0
+  },
+  "pass": true
+ },
+ {
+  "name": "Longbow",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d8 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Navy Uniform",
+  "type": "equipment",
+  "fails": [],
+  "detail": {
+   "base": 12,
+   "ac": 13,
+   "want": 13,
+   "t": "light"
+  },
+  "pass": true
+ },
+ {
+  "name": "Light Hammer",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d4 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Pistol",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d8 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Greatsword",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "2d6 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Light Longcoat",
+  "type": "equipment",
+  "fails": [],
+  "detail": {
+   "base": 12,
+   "ac": 14,
+   "want": 14,
+   "t": "light"
+  },
+  "pass": true
+ },
+ {
+  "name": "Splint Armor",
+  "type": "equipment",
+  "fails": [],
+  "detail": {
+   "base": 12,
+   "ac": 17,
+   "want": 17,
+   "t": "heavy"
+  },
+  "pass": true
+ },
+ {
+  "name": "Revolver",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d10 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Flintlock",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d6 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Crossbow, Heavy",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d10 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Breastplate",
+  "type": "equipment",
+  "fails": [],
+  "detail": {
+   "base": 12,
+   "ac": 17,
+   "want": 17,
+   "t": "medium"
+  },
+  "pass": true
+ },
+ {
+  "name": "Brawler Unarmed Strike",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "0 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "36-pounder",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "8d10 + 2",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Mountain Mist",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "",
+   "parts": 0
+  },
+  "pass": true
+ },
+ {
+  "name": "Spear",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d6 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "War Pick",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d8 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Scale Mail",
+  "type": "equipment",
+  "fails": [],
+  "detail": {
+   "base": 12,
+   "ac": 16,
+   "want": 16,
+   "t": "medium"
+  },
+  "pass": true
+ },
+ {
+  "name": "Flail",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d8 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Warhammer",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "1d8 + 3",
+   "parts": 2
+  },
+  "pass": true
+ },
+ {
+  "name": "Seastone Weapon (Full)",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "",
+   "parts": 0
+  },
+  "pass": true
+ },
+ {
+  "name": "The Faithful One",
+  "type": "weapon",
+  "fails": [],
+  "detail": {
+   "formula": "",
+   "parts": 0
+  },
+  "pass": true
+ }
+]

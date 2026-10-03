@@ -157,7 +157,7 @@ export const feralInstinct = classFeature(
   {},
   [
     createDAEEffect("barbarian/feral-instinct", "Feral Instinct", [
-      overrideValue("flags.dnd5e.initiativeAdv", "1"),
+      overrideValue("system.attributes.init.roll.mode", "1"),
     ]),
   ],
 );

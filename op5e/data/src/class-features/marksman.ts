@@ -121,7 +121,7 @@ export const quickOnTheDraw = classFeature(
   {},
   [
     createDAEEffect("marksman/quick-on-the-draw", "Quick On The Draw", [
-      overrideValue("flags.dnd5e.initiativeAdv", "1"),
+      overrideValue("system.attributes.init.roll.mode", "1"),
     ]),
   ],
 );

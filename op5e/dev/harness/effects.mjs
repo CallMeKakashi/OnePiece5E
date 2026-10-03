@@ -14,7 +14,7 @@ const probe = async ({ pack, d }) => {
     return v instanceof Set ? [...v].sort().join(",") : typeof v === "object" ? JSON.stringify(v) : v;
   };
   const watch = (c) => {
-    const extra = { "system.attributes.ac.formula": ["system.attributes.ac.value", "system.attributes.ac.calc"], "system.attributes.hp.bonuses.level": ["system.attributes.hp.max"] }[c.key] ?? [];
+    const extra = { "system.attributes.ac.formula": ["system.attributes.ac.value", "system.attributes.ac.calc"], "system.attributes.hp.bonuses.level": ["system.attributes.hp.max"], "flags.dnd5e.initiativeAdv": ["system.attributes.init.roll.mode"] }[c.key] ?? [];
     return [c.key, ...extra];
   };
   const keys = [...new Set(d.effects.flatMap((e) => e.changes.flatMap(watch)))];

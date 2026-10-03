@@ -1,0 +1,1295 @@
+[
+ {
+  "pack": "class-features",
+  "name": "Fighting Style: Archery",
+  "changes": [
+   {
+    "effect": "Archery",
+    "key": "system.bonuses.rwak.attack",
+    "mode": 2,
+    "value": "2",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "2",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Primal Champion",
+  "changes": [
+   {
+    "effect": "Primal Champion",
+    "key": "system.abilities.str.value",
+    "mode": 2,
+    "value": "4",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 14,
+    "after": 18,
+    "ok": true
+   },
+   {
+    "effect": "Primal Champion",
+    "key": "system.abilities.con.value",
+    "mode": 2,
+    "value": "4",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 14,
+    "after": 18,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Fighting Style: Defense",
+  "changes": [
+   {
+    "effect": "Defense",
+    "key": "system.attributes.ac.bonus",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 1,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Diamond Soul",
+  "changes": [
+   {
+    "effect": "Diamond Soul",
+    "key": "system.abilities.con.proficient",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 1,
+    "ok": true
+   },
+   {
+    "effect": "Diamond Soul",
+    "key": "system.abilities.int.proficient",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 1,
+    "ok": true
+   },
+   {
+    "effect": "Diamond Soul",
+    "key": "system.abilities.wis.proficient",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 1,
+    "ok": true
+   },
+   {
+    "effect": "Diamond Soul",
+    "key": "system.abilities.cha.proficient",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 1,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Quick On The Draw",
+  "changes": [
+   {
+    "effect": "Quick On The Draw",
+    "key": "system.attributes.init.roll.mode",
+    "mode": 5,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 1,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Fast Movement",
+  "changes": [
+   {
+    "effect": "Fast Movement",
+    "key": "system.attributes.movement.walk",
+    "mode": 2,
+    "value": "10",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 10,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Blindsense",
+  "changes": [
+   {
+    "effect": "Blindsense",
+    "key": "system.attributes.senses.blindsight",
+    "mode": 5,
+    "value": "30",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 30,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Color of Observation Journeyman",
+  "changes": [
+   {
+    "effect": "Fixation",
+    "key": "system.attributes.ac.bonus",
+    "mode": 2,
+    "value": "2",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 2,
+    "ok": true
+   },
+   {
+    "effect": "Fixation",
+    "key": "system.bonuses.abilities.save",
+    "mode": 2,
+    "value": "2",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "2",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Jack of All Trades",
+  "changes": [
+   {
+    "effect": "Jack of All Trades",
+    "key": "flags.dnd5e.jackOfAllTrades",
+    "mode": 5,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "after": true,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Fighting Style: Dueling",
+  "changes": [
+   {
+    "effect": "Dueling",
+    "key": "system.bonuses.mwak.damage",
+    "mode": 2,
+    "value": "2",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "2",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Fighting Style: Dueling",
+  "changes": [
+   {
+    "effect": "Dueling",
+    "key": "system.bonuses.mwak.damage",
+    "mode": 2,
+    "value": "2",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "2",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Dueling Defense",
+  "changes": [
+   {
+    "effect": "Dueling Defense",
+    "key": "system.attributes.ac.formula",
+    "mode": 5,
+    "value": "10 + @abilities.int.mod + @abilities.dex.mod",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "after": "10 + @abilities.int.mod + @abilities.dex.mod",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Fighting Style: Defense",
+  "changes": [
+   {
+    "effect": "Defense",
+    "key": "system.attributes.ac.bonus",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 1,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Unarmored Defense",
+  "changes": [
+   {
+    "effect": "Unarmored Defense",
+    "key": "system.attributes.ac.formula",
+    "mode": 5,
+    "value": "10 + @abilities.dex.mod + @abilities.wis.mod",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "after": "10 + @abilities.dex.mod + @abilities.wis.mod",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Fighting Style: Melee Shooter",
+  "changes": [
+   {
+    "effect": "Melee Shooter",
+    "key": "system.bonuses.rwak.attack",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "1",
+    "ok": true
+   },
+   {
+    "effect": "Melee Shooter",
+    "key": "system.bonuses.rwak.damage",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "1",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Evasion",
+  "changes": [
+   {
+    "effect": "Evasion",
+    "key": "flags.dnd5e.evasion",
+    "mode": 5,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "after": 1,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Feral Instinct",
+  "changes": [
+   {
+    "effect": "Feral Instinct",
+    "key": "system.attributes.init.roll.mode",
+    "mode": 5,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 1,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Unarmored Defense",
+  "changes": [
+   {
+    "effect": "Unarmored Defense",
+    "key": "system.attributes.ac.formula",
+    "mode": 5,
+    "value": "10 + @abilities.dex.mod + @abilities.wis.mod",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "after": "10 + @abilities.dex.mod + @abilities.wis.mod",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Fighting Style: Archery",
+  "changes": [
+   {
+    "effect": "Archery",
+    "key": "system.bonuses.rwak.attack",
+    "mode": 2,
+    "value": "2",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "2",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Reliable Talent",
+  "changes": [
+   {
+    "effect": "Reliable Talent",
+    "key": "flags.dnd5e.reliableTalent",
+    "mode": 5,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "after": true,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Slippery Mind",
+  "changes": [
+   {
+    "effect": "Slippery Mind",
+    "key": "system.abilities.wis.proficient",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 1,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Developed Immunity",
+  "changes": [
+   {
+    "effect": "Developed Immunity",
+    "key": "system.traits.ci.value",
+    "mode": 5,
+    "value": "poisoned",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "poisoned",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Color of Observation Apprentice",
+  "changes": [
+   {
+    "effect": "Sense Soul",
+    "key": "system.attributes.ac.bonus",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 1,
+    "ok": true
+   },
+   {
+    "effect": "Sense Soul",
+    "key": "system.bonuses.abilities.save",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "1",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Fighting Style: Melee Shooter",
+  "changes": [
+   {
+    "effect": "Melee Shooter",
+    "key": "system.bonuses.rwak.attack",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "1",
+    "ok": true
+   },
+   {
+    "effect": "Melee Shooter",
+    "key": "system.bonuses.rwak.damage",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "1",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Fighting Style: Defense",
+  "changes": [
+   {
+    "effect": "Defense",
+    "key": "system.attributes.ac.bonus",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 1,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Evasion",
+  "changes": [
+   {
+    "effect": "Evasion",
+    "key": "flags.dnd5e.evasion",
+    "mode": 5,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "after": 1,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Elusive",
+  "changes": [
+   {
+    "effect": "Elusive",
+    "key": "flags.dnd5e.elusive",
+    "mode": 5,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "after": 1,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Fighting Style: Melee Shooter",
+  "changes": [
+   {
+    "effect": "Melee Shooter",
+    "key": "system.bonuses.rwak.attack",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "1",
+    "ok": true
+   },
+   {
+    "effect": "Melee Shooter",
+    "key": "system.bonuses.rwak.damage",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "1",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Fighting Style: Dueling",
+  "changes": [
+   {
+    "effect": "Dueling",
+    "key": "system.bonuses.mwak.damage",
+    "mode": 2,
+    "value": "2",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "2",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Fighting Style: Agile Defense",
+  "changes": [
+   {
+    "effect": "Agile Defense",
+    "key": "system.attributes.ac.bonus",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 1,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Fighting Style: Dueling",
+  "changes": [
+   {
+    "effect": "Dueling",
+    "key": "system.bonuses.mwak.damage",
+    "mode": 2,
+    "value": "2",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "2",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Combat Medicine",
+  "changes": [
+   {
+    "effect": "Combat Medicine",
+    "key": "system.attributes.ac.formula",
+    "mode": 5,
+    "value": "10 + @abilities.wis.mod + @prof",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "after": "10 + @abilities.wis.mod + @prof",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Duck and Dodge",
+  "changes": [
+   {
+    "effect": "Duck and Dodge",
+    "key": "system.attributes.ac.bonus",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 1,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Fighting Style: Dueling",
+  "changes": [
+   {
+    "effect": "Dueling",
+    "key": "system.bonuses.mwak.damage",
+    "mode": 2,
+    "value": "2",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "2",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Unarmored Movement",
+  "changes": [
+   {
+    "effect": "Unarmored Movement",
+    "key": "system.attributes.movement.walk",
+    "mode": 2,
+    "value": "@scale.brawler.unarmored-movement",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 0,
+    "ok": false
+   }
+  ],
+  "pass": false,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Vigilant Gaze",
+  "changes": [
+   {
+    "effect": "Vigilant Gaze",
+    "key": "system.attributes.senses.blindsight",
+    "mode": 5,
+    "value": "30",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 30,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Color of Observation Adept",
+  "changes": [
+   {
+    "effect": "Sense Shape",
+    "key": "system.attributes.ac.bonus",
+    "mode": 2,
+    "value": "3",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 3,
+    "ok": true
+   },
+   {
+    "effect": "Sense Shape",
+    "key": "system.bonuses.abilities.save",
+    "mode": 2,
+    "value": "3",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "3",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "class-features",
+  "name": "Fighting Style: Archery",
+  "changes": [
+   {
+    "effect": "Archery",
+    "key": "system.bonuses.rwak.attack",
+    "mode": 2,
+    "value": "2",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "2",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Alert",
+  "changes": [
+   {
+    "effect": "Initiative Bonus",
+    "key": "system.attributes.init.bonus",
+    "mode": 2,
+    "value": "5",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "5",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Observant",
+  "changes": [
+   {
+    "effect": "Passive Bonus",
+    "key": "system.skills.prc.bonuses.passive",
+    "mode": 2,
+    "value": "5",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "5",
+    "ok": true
+   },
+   {
+    "effect": "Passive Bonus",
+    "key": "system.skills.inv.bonuses.passive",
+    "mode": 2,
+    "value": "5",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "5",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Tough",
+  "changes": [
+   {
+    "effect": "Tough",
+    "key": "system.attributes.hp.bonuses.level",
+    "mode": 2,
+    "value": "2",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "after": "2",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Mechanical Improvements",
+  "changes": [
+   {
+    "effect": "Mechanical Improvements",
+    "key": "system.traits.dr.value",
+    "mode": 0,
+    "value": "poison",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "poison",
+    "ok": true
+   },
+   {
+    "effect": "Mechanical Improvements",
+    "key": "system.attributes.senses.darkvision",
+    "mode": 4,
+    "value": "60",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 60,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Darkvision",
+  "changes": [
+   {
+    "effect": "Darkvision",
+    "key": "system.attributes.senses.darkvision",
+    "mode": 4,
+    "value": "60",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 60,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Aquatic Adaption",
+  "changes": [
+   {
+    "effect": "Aquatic Adaption",
+    "key": "system.traits.dr.value",
+    "mode": 0,
+    "value": "cold",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "cold",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Strong Body",
+  "changes": [
+   {
+    "effect": "Strong Body",
+    "key": "system.attributes.hp.bonuses.level",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "after": "1",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Integrated Armor",
+  "changes": [
+   {
+    "effect": "Integrated Armor",
+    "key": "system.attributes.ac.bonus",
+    "mode": 2,
+    "value": "1",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 1,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Frost Born",
+  "changes": [
+   {
+    "effect": "Frost Born",
+    "key": "system.traits.dr.value",
+    "mode": 0,
+    "value": "cold",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "cold",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Omni-Adapted",
+  "changes": [
+   {
+    "effect": "Omni-Adapted",
+    "key": "system.traits.dr.value",
+    "mode": 0,
+    "value": "fire",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "fire",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Darkvision",
+  "changes": [
+   {
+    "effect": "Darkvision",
+    "key": "system.attributes.senses.darkvision",
+    "mode": 4,
+    "value": "60",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 60,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Darkvision",
+  "changes": [
+   {
+    "effect": "Darkvision",
+    "key": "system.attributes.senses.darkvision",
+    "mode": 4,
+    "value": "60",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 60,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Darkvision",
+  "changes": [
+   {
+    "effect": "Darkvision",
+    "key": "system.attributes.senses.darkvision",
+    "mode": 4,
+    "value": "60",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 60,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Darkvision",
+  "changes": [
+   {
+    "effect": "Darkvision",
+    "key": "system.attributes.senses.darkvision",
+    "mode": 4,
+    "value": "60",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 60,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Grave Fortitude",
+  "changes": [
+   {
+    "effect": "Grave Fortitude",
+    "key": "system.traits.dr.value",
+    "mode": 0,
+    "value": "poison",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "poison",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Tall Stride",
+  "changes": [
+   {
+    "effect": "Tall Stride",
+    "key": "system.attributes.movement.walk",
+    "mode": 2,
+    "value": "5",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 5,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Darkvision",
+  "changes": [
+   {
+    "effect": "Darkvision",
+    "key": "system.attributes.senses.darkvision",
+    "mode": 4,
+    "value": "60",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 60,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Aquatic Adaption",
+  "changes": [
+   {
+    "effect": "Aquatic Adaption",
+    "key": "system.traits.dr.value",
+    "mode": 0,
+    "value": "cold",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": "",
+    "after": "cold",
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Darkvision",
+  "changes": [
+   {
+    "effect": "Darkvision",
+    "key": "system.attributes.senses.darkvision",
+    "mode": 4,
+    "value": "60",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 60,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ },
+ {
+  "pack": "racial-features",
+  "name": "Darkvision",
+  "changes": [
+   {
+    "effect": "Darkvision",
+    "key": "system.attributes.senses.darkvision",
+    "mode": 4,
+    "value": "60",
+    "applied": true,
+    "disabled": false,
+    "transfer": true,
+    "before": 0,
+    "after": 60,
+    "ok": true
+   }
+  ],
+  "pass": true,
+  "consoleErrors": []
+ }
+]
