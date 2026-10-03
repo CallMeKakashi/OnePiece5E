@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { creationGrants } from "../../helpers/creation-grants.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -98,6 +99,7 @@ export const subclass: SubclassItem = {
     identifier: "necrotic-mania",
     classIdentifier: "savant",
     advancement: mergeAdvancements(
+      ...creationGrants(SC_ID, [[2,["Hex","Karma"]],[5,["Woebegone","Enfeeblement"]],[9,["Fear","Animate Dead"]],[13,["Blight","Kill Radius"]],[17,["Life Steal","Necrosis Surge"]]], "Ardent Creations"),
       createItemGrant(SC_ID, 1, [{ uuid: fUuid(scornfulSoul) }]),
       createItemGrant(SC_ID, 3, [{ uuid: fUuid(channelConvictionNecrotic) }]),
       createItemGrant(SC_ID, 7, [{ uuid: fUuid(auraOfCruelty) }]),

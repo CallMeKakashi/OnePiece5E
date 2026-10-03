@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { creationGrants } from "../../helpers/creation-grants.js";
 import { createDAEEffect, overrideValue } from "../../helpers/effects.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
@@ -97,6 +98,7 @@ export const subclass: SubclassItem = {
     identifier: "physician",
     classIdentifier: "medic",
     advancement: mergeAdvancements(
+      ...creationGrants(SC_ID, [[2,["Bless","Cure Wounds"]],[3,["Enhance Ability","Lesser Restoration"]],[5,["Aura of Vitality","Revivify"]],[7,["Aura of Life","Death Ward"]],[9,["Greater Restoration","Mass Cure Wounds"]]], "Physician Creations"),
       createItemGrant(SC_ID, 2, [{ uuid: fUuid(healersTouch) }]),
       createItemGrant(SC_ID, 6, [{ uuid: fUuid(experimentalApplication) }]),
       createItemGrant(SC_ID, 10, [{ uuid: fUuid(developedImmunity) }]),

@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { creationGrants } from "../../helpers/creation-grants.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -98,6 +99,7 @@ export const subclass: SubclassItem = {
     identifier: "mindful-insight",
     classIdentifier: "savant",
     advancement: mergeAdvancements(
+      ...creationGrants(SC_ID, [[2,["Discordant Tune","Identification"]],[5,["Augury","Truth Zone"]],[9,["Clairvoyance","Sending"]],[13,["Divination","Locate Creature"]],[17,["Scrying","Legend Lore"]]], "Ardent Creations"),
       createItemGrant(SC_ID, 1, [{ uuid: fUuid(psychicSoul) }]),
       createItemGrant(SC_ID, 3, [{ uuid: fUuid(channelConvictionMindful) }]),
       createItemGrant(SC_ID, 7, [{ uuid: fUuid(auraOfWarding) }]),

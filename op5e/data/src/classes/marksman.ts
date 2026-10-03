@@ -172,6 +172,11 @@ export const marksman: ClassItem = {
         14: { number: 1, faces: 10 } as any,
         20: { number: 1, faces: 12 } as any,
       }),
+      createScaleValue(CLS, "tricks-known", "number", {
+        2: { value: 3 },
+        10: { value: 4 },
+        14: { value: 5 },
+      }),
     ) as any,
     spellcasting: { progression: "half", ability: "wis" },
     wealth: "",

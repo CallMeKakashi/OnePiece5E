@@ -18,6 +18,7 @@ import { raceItemSchema } from "./schemas/race.js";
 import { foundryItemBase, foundryActorBase, foundryJournalBase } from "./schemas/common.js";
 import { ensureFeatureActivities, ensureItemActivities } from "./helpers/activities.js";
 import { applySpec } from "./helpers/spec.js";
+import { parsePrereq } from "./helpers/prereq.js";
 import { AUTOMATION } from "./src/automation/index.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -78,6 +79,7 @@ const PACK_CONFIGS: PackConfig[] = [
   { name: "backgrounds", srcDir: "backgrounds", schema: foundryItemBase },
   { name: "devil-fruits", srcDir: "devil-fruits", schema: foundryItemBase },
   { name: "spell-lists", srcDir: "spell-lists", schema: foundryJournalBase, collection: "journal" },
+  { name: "reference", srcDir: "reference", schema: foundryJournalBase, collection: "journal" },
   { name: "monsters", srcDir: "actors", schema: foundryActorBase, collection: "actors" },
   { name: "summons", srcDir: "summons", schema: foundryActorBase, collection: "actors" },
   { name: "ships", srcDir: "ships", schema: foundryActorBase, collection: "actors" },
@@ -139,6 +141,17 @@ async function buildPack(config: PackConfig): Promise<Stats> {
     const specKey = `${config.name}/${(raw as { name: string }).name}`;
     if (AUTOMATION[specKey] && config.collection !== "actors" && config.collection !== "journal") {
       raw = applySpec(raw as never, AUTOMATION[specKey], specKey) as never;
+    }
+
+    // book prerequisites (ability scores, proficiencies, race...) as data for scripts/prerequisites.mjs
+    if (config.name === "feats" || config.name === "class-features") {
+      const pr = parsePrereq((raw as { system?: { requirements?: string } }).system?.requirements);
+      // class-feature requirements are mostly "Class (Subclass) N" gating that the advancement already enforces: keep only checkable ones
+      const checkable = !!(pr && (pr.abilities || pr.proficiencies || pr.races || pr.notRaces || pr.creation || pr.level));
+      if (pr && (config.name === "feats" || checkable)) {
+        const r = raw as { flags?: Record<string, Record<string, unknown>> };
+        r.flags = { ...(r.flags ?? {}), op5e: { ...(r.flags?.op5e ?? {}), prereq: pr } };
+      }
     }
 
     const result = config.schema.safeParse(raw);

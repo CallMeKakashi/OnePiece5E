@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { creationGrants } from "../../helpers/creation-grants.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -103,6 +104,7 @@ export const subclass: SubclassItem = {
     identifier: "radiant-superiority",
     classIdentifier: "savant",
     advancement: mergeAdvancements(
+      ...creationGrants(SC_ID, [[2,["Fairy Lights","Beacon"]],[5,["Branding Smite","Grounding"]],[9,["Crusader's Aura","Blinding Smite"]],[13,["Sickening Radiance","Sunburn"]],[17,["Gamma Knife","Wall of Light"]]], "Ardent Creations"),
       createItemGrant(SC_ID, 1, [{ uuid: fUuid(shiningSoul) }]),
       createItemGrant(SC_ID, 3, [{ uuid: fUuid(channelConvictionRadiant) }]),
       createItemGrant(SC_ID, 7, [{ uuid: fUuid(auraOfElegance) }]),

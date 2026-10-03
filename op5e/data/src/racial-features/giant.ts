@@ -1,5 +1,5 @@
 import { generateId } from "../../helpers/id.js";
-import { createDAEEffect, customChange, upgradeValue } from "../../helpers/effects.js";
+import { createDAEEffect, customChange, upgradeValue, overrideValue } from "../../helpers/effects.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
 function rf(
@@ -93,6 +93,11 @@ export const thickSkin = rf(
   "Thick Skin",
   `<p>Your Armor Class is equal to 14 + your Constitution modifier.</p>`,
   "Giant (Ancient)",
+  {},
+  [createDAEEffect("race/giant/ancient/thick-skin", "Thick Skin", [
+    overrideValue("system.attributes.ac.calc", "custom"),
+    overrideValue("system.attributes.ac.formula", "14 + @abilities.con.mod"),
+  ])],
 );
 
 export const fearFactor = rf(
@@ -118,9 +123,26 @@ export const titanicStrength = rf(
   "Titanic Strength",
   `<p>At no point does your strength falter. Whenever you make a Strength check, you can treat the dice roll as a 10, and add additional modifiers.</p>`,
   "Giant (Ancient)",
+  {},
+  [createDAEEffect("race/giant/ancient/titanic-strength", "Titanic Strength", [
+    upgradeValue("system.abilities.str.check.roll.min", 10),
+  ])],
 );
 
 // ── Wotan ──
+
+export const wotanSizeSpeed = rf(
+  "feature/race/giant/wotan/size-speed",
+  "Size and Speed",
+  `<p>Due to not being a full blooded giant, your size is Huge, rather than Gargantuan. You have a movement speed of 35 feet and a swimming speed of 35 feet.</p>`,
+  "Giant (Wotan)",
+  {},
+  [createDAEEffect("race/giant/wotan/size-speed", "Size and Speed", [
+    overrideValue("system.traits.size", "huge"),
+    overrideValue("system.attributes.movement.walk", 35),
+    overrideValue("system.attributes.movement.swim", 35),
+  ])],
+);
 
 export const wotanDarkvision = rf(
   "feature/race/giant/wotan/darkvision",
@@ -148,6 +170,17 @@ export const wotanSpeechOfTheSea = rf(
 );
 
 // ── Ice Giant ──
+
+export const iceGiantSpeed = rf(
+  "feature/race/giant/ice-giant/speed",
+  "Speed",
+  `<p>You have a movement speed of 60 feet.</p>`,
+  "Giant (Ice Giant)",
+  {},
+  [createDAEEffect("race/giant/ice-giant/speed", "Speed", [
+    overrideValue("system.attributes.movement.walk", 60),
+  ])],
+);
 
 export const dexterous = rf(
   "feature/race/giant/ice-giant/dexterous",
@@ -182,6 +215,6 @@ export const giantFeatures: FeatureItem[] = [
   giantSlam,
   giantNaturalAthlete, warriorsMight, giantsEndurance,
   thickSkin, fearFactor, ancientNaturalWeapons, titanicStrength,
-  wotanDarkvision, wotanAquaticAdaptation, wotanSpeechOfTheSea,
-  dexterous, frostBorn, iceGiantDarkvision,
+  wotanSizeSpeed, wotanDarkvision, wotanAquaticAdaptation, wotanSpeechOfTheSea,
+  iceGiantSpeed, dexterous, frostBorn, iceGiantDarkvision,
 ];

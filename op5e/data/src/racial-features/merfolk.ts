@@ -1,4 +1,6 @@
 import { generateId } from "../../helpers/id.js";
+import { createItemGrant } from "../../helpers/advancement.js";
+import { compendiumUuid } from "../../helpers/uuid.js";
 import { createDAEEffect, customChange, upgradeValue } from "../../helpers/effects.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -78,7 +80,9 @@ export const callForAid = rf(
   {
     activation: { type: "action", cost: 1, condition: "" },
     uses: { value: null, max: "1", per: "lr", recovery: "", prompt: true },
-  },
+    // Call Beast creation (16d4e1fe14d059b8)
+    advancement: [createItemGrant("feature/race/merfolk/call-for-aid", 0, [{ uuid: compendiumUuid("creations", "16d4e1fe14d059b8") }], "call-beast")],
+  } as never,
 );
 
 export const merfolkDarkvision = rf(

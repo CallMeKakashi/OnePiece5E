@@ -9,6 +9,7 @@ import { generalNRFeats } from "./general-n-r.js";
 import { generalSWFeats } from "./general-s-w.js";
 import { racialFeats } from "./racial.js";
 
+import { sourcebookRuleFeats } from "./sourcebook-rules.js";
 export const items: FeatureItem[] = assignIcons([
   ...generalACFeats,
   ...generalDFFeats,
@@ -17,5 +18,6 @@ export const items: FeatureItem[] = assignIcons([
   ...generalNRFeats,
   ...generalSWFeats,
   ...racialFeats,
+  ...sourcebookRuleFeats,
 ]);
 export default items;

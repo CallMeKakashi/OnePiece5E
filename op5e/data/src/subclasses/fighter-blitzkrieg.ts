@@ -61,27 +61,27 @@ const afterimage = feat(
 
 const rapidAction = feat(
   "rapid-action", "Rapid Action",
-  `<p>At 7th level, your speed allows you to strike from impossible angles. When you make an attack that originates from your afterimage's space, you can make one additional weapon attack from the afterimage's space as part of the same Attack action.</p>
-<p>Additionally, your movement speed increases by 10 feet.</p>`,
-  "Blitzkrieg 7",
+  `<p>Also at 3rd level, you can utilize your Afterimage's speed to enhance your combative potential.</p>
+<p>Whenever you take the Attack action, you can make one additional melee attack from the Afterimage's position. You can use this feature a number of times equal to 1 + your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>
+<p>In addition, you can make your Afterimage throw itself in front of an attack directed at another creature that you can see. Before the attack roll is made, you can use your reaction to teleport the Afterimage to an unoccupied space within 5 feet of the targeted creature. The attack roll that triggered the reaction is instead made against your Afterimage.</p>`,
+  "Blitzkrieg 3",
 );
 
 const blinkOfAnEye = feat(
   "blink-of-an-eye", "Blink of an Eye",
-  `<p>Starting at 10th level, each time you make an attack as part of the Attack action, you can teleport up to 10 feet before or after the attack. This teleportation doesn't provoke opportunity attacks and doesn't require your afterimage to be active.</p>
-<p>Additionally, your walking speed increases by an additional 10 feet (total of +20 feet from Blitzkrieg features).</p>`,
-  "Blitzkrieg 10",
+  `<p>Beginning at 7th level, you strike in a blink of an eye. When you use the Attack action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.</p>`,
+  "Blitzkrieg 7",
 );
 
 const supersonic = feat(
   "supersonic", "Supersonic",
-  `<p>At 15th level, your movement becomes almost impossible to track. You gain the following benefits:</p>
+  `<p>At 10th level, your enhanced speed improves, causing you to move regardless of the obstacles. You gain the following benefits while your Afterimage is active:</p>
 <ul>
-<li>Opportunity attacks against you have disadvantage.</li>
-<li>You can take the Dodge action as a bonus action.</li>
-<li>When you use your Afterimage reaction to swap with your afterimage, the attacking creature must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier) or be stunned until the end of its next turn as it loses track of you.</li>
+<li>Your movement speed increases by 10 feet.</li>
+<li>Your Afterimage can now be summoned 45 feet from you and is destroyed if it goes beyond 45 feet from you instead of 30 feet.</li>
+<li>When you make a Dexterity saving throw, you can use your reaction to have your Afterimage take the brunt by destroying it. You take no damage from the effect on a successful save, or half as much on a failed save.</li>
 </ul>`,
-  "Blitzkrieg 15",
+  "Blitzkrieg 10",
 );
 
 const flashpoint = feat(
@@ -113,15 +113,15 @@ export const blitzkrieg: SubclassItem = {
     advancement: mergeAdvancements(
       createItemGrant(SUB, 3, [
         { uuid: fUuid(`${F}/afterimage`) },
-      ]),
-      createItemGrant(SUB, 7, [
         { uuid: fUuid(`${F}/rapid-action`) },
       ]),
-      createItemGrant(SUB, 10, [
+      createItemGrant(SUB, 7, [
         { uuid: fUuid(`${F}/blink-of-an-eye`) },
       ]),
-      createItemGrant(SUB, 15, [
+      createItemGrant(SUB, 10, [
         { uuid: fUuid(`${F}/supersonic`) },
+      ]),
+      createItemGrant(SUB, 15, [
         { uuid: fUuid(`${F}/flashpoint`) },
       ]),
       createItemGrant(SUB, 18, [

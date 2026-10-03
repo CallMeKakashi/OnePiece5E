@@ -12,6 +12,7 @@ import { savantStyles } from "./savant-styles.js";
 import { barbarianStyles } from "./barbarian-styles.js";
 import { bardStyles } from "./bard-styles.js";
 import { brawlerStyles } from "./brawler-styles.js";
+import { classContentFeatures } from "./class-content.js";
 import { hakiAbilities } from "./haki.js";
 import { championFeatures } from "../subclasses/fighter-champion.js";
 import { battlemasterFeatures } from "../subclasses/fighter-battlemaster.js";
@@ -225,6 +226,8 @@ export const items: FeatureItem[] = assignIcons([
   ...savantRadiantSuperiorityFeatures,
   ...savantThunderingResolveFeatures,
   ...savantVenomousDualityFeatures,
+  // Maneuvers, trick shots, ammo, mods
+  ...classContentFeatures,
   // Additional Powers (Chapter 7)
   ...additionalPowerFeatures,
 ]);

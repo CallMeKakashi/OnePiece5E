@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { creationGrants } from "../../helpers/creation-grants.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -110,6 +111,7 @@ export const subclass: SubclassItem = {
     identifier: "battle-smith",
     classIdentifier: "gadgeteer",
     advancement: mergeAdvancements(
+      ...creationGrants(SC_ID, [[3,["Shield","Heroism"]],[5,["Branding Smite","Aid"]],[9,["Aura of Vitality","Haste"]],[13,["Polymorph","Aura of Life"]],[17,["Banishing Smite","Mass Cure Wounds"]]], "Battle Smith Creations"),
       createItemGrant(SC_ID, 3, [{ uuid: fUuid(battleSmithToolProficiency) }, { uuid: fUuid(battleReady) }, { uuid: fUuid(ironDefender) }]),
       createItemGrant(SC_ID, 5, [{ uuid: fUuid(unitedFront) }]),
       createItemGrant(SC_ID, 9, [{ uuid: fUuid(powerJolt) }]),

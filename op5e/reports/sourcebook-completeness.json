@@ -1,0 +1,5296 @@
+{
+  "files": 706,
+  "titles": 2636,
+  "matched": 1531,
+  "perTop": {
+    "Appendix A Creations": {
+      "titles": 487,
+      "matched": 430
+    },
+    "Appendix B Running The Game": {
+      "titles": 106,
+      "matched": 0
+    },
+    "Chapter 1 Races": {
+      "titles": 64,
+      "matched": 7
+    },
+    "Chapter 2 Classes": {
+      "titles": 943,
+      "matched": 613
+    },
+    "Chapter 3 Character Origins": {
+      "titles": 368,
+      "matched": 52
+    },
+    "Chapter 4 Equipment and Items": {
+      "titles": 36,
+      "matched": 4
+    },
+    "Chapter 5 Customization": {
+      "titles": 283,
+      "matched": 216
+    },
+    "Chapter 6 Devil Fruits": {
+      "titles": 87,
+      "matched": 6
+    },
+    "Chapter 7 Additional Powers": {
+      "titles": 144,
+      "matched": 142
+    },
+    "Chapter 8 Special Items": {
+      "titles": 97,
+      "matched": 61
+    },
+    "Credits": {
+      "titles": 14,
+      "matched": 0
+    },
+    "General Sub Sections": {
+      "titles": 6,
+      "matched": 0
+    },
+    "Sourcebook.md": {
+      "titles": 1,
+      "matched": 0
+    }
+  },
+  "unmatched": [
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Animated Undead/Animated Undead.md",
+      "title": "Animated Undead"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Appendix A Creations.md",
+      "title": "Appendix A Creations"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Called Beast/Called Beast.md",
+      "title": "Called Beast"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Concocted Ooze/Concocted Ooze.md",
+      "title": "Concocted Ooze"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Conjured Elemental/Conjured Elemental.md",
+      "title": "Conjured Elemental"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Created Construct/Created Construct.md",
+      "title": "Created Construct"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Created Servant/2nd Level.md",
+      "title": "2nd Level"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Created Servant/Actions.md",
+      "title": "Elemental Trap Effects"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creation Lists/Bard Creations Charm Person.md",
+      "title": "Bard Creations Charm Person"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creation Lists/Bard Creations Charm Person.md",
+      "title": "Tricks (0 Level)"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creation Lists/Creation Lists.md",
+      "title": "Creation Lists"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creation Lists/Creations 2.md",
+      "title": "Creations 2"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creation Lists/Creations 2.md",
+      "title": "Creations"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creation Lists/Creations 2.md",
+      "title": "Tricks (0 Level) Feather Fall"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creation Lists/Creations.md",
+      "title": "Creations"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creation Lists/Creations.md",
+      "title": "Tricks (0 Level)"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creation Lists/Greater Restoration Gadgeteer.md",
+      "title": "Greater Restoration Gadgeteer"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creation Lists/Marksman Entangle.md",
+      "title": "Marksman Entangle"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creation Lists/Medic Creations.md",
+      "title": "Tricks (0 Level)"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creation Lists/Savant Creations Lesser Restoration.md",
+      "title": "Savant Creations Lesser Restoration"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creations Descriptions/1st Level.md",
+      "title": "1st Level"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creations Descriptions/Bards - Stories to Shape the World.md",
+      "title": "Bards - Stories to Shape the World"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creations Descriptions/Creations Descriptions.md",
+      "title": "Creations Descriptions"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creations Descriptions/Gadgeteers - Brains over Brawn.md",
+      "title": "Gadgeteers - Brains over Brawn"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creations Descriptions/Marksmen - Always Prepared.md",
+      "title": "Marksmen - Always Prepared"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creations Descriptions/Medics - Miracle Workers.md",
+      "title": "Medics - Miracle Workers"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creations Descriptions/Savants - Power from Within.md",
+      "title": "Savants - Power from Within"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Creations Descriptions/Tricks.md",
+      "title": "Tricks"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Gathered Swarm/Gathered Swarm.md",
+      "title": "Gathered Swarm"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Spawned Plant/Spawned Plant.md",
+      "title": "Spawned Plant"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Summoned Yokai/4th Level.md",
+      "title": "4th Level"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Summoned Yokai/4th Level.md",
+      "title": "Confusion Behavior Table"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Summoned Yokai/4th Level.md",
+      "title": "Create Object Table"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Summoned Yokai/5th Level.md",
+      "title": "5th Level"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Summoned Yokai/5th Level.md",
+      "title": "Animated Object Statistics"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Summoned Yokai/6th Level.md",
+      "title": "6th Level"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Summoned Yokai/6th Level.md",
+      "title": "Precipitation"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Summoned Yokai/6th Level.md",
+      "title": "Temperature"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Summoned Yokai/6th Level.md",
+      "title": "Wind"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Summoned Yokai/7th Level.md",
+      "title": "7th Level"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Summoned Yokai/7th Level.md",
+      "title": "Storm of Vengeance After Round 1"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Summoned Yokai/8th Level.md",
+      "title": "8th Level"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Summoned Yokai/9th Level.md",
+      "title": "9th Level"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Summoned Yokai/9th Level.md",
+      "title": "Prismatic Wall Table"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Summoned Yokai/Summoned Yokai.md",
+      "title": "Summoned Yokai"
+    },
+    {
+      "top": "Appendix A Creations",
+      "file": "Appendix A Creations/Tiny Servant/3rd Level.md",
+      "title": "3rd Level"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Appendix B Running The Game.md",
+      "title": "Appendix B Running The Game"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Crafting/Crafting.md",
+      "title": "Crafting"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Crafting/Experience.md",
+      "title": "Experience"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Crafting/Experience.md",
+      "title": "Crafting Classes"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Crafting/Experience.md",
+      "title": "Crafting Roles and Backgrounds"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Crafting/Experience.md",
+      "title": "Permanent Haki-Imbuement"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Crafting/Materials.md",
+      "title": "Materials"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Crafting/Materials.md",
+      "title": "Crafting Cost"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Crafting/Time.md",
+      "title": "Time"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Crafting/Time.md",
+      "title": "Crafting Time"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Crafting/Tools.md",
+      "title": "Tools"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Making Devil Fruits/Approaching Awakening.md",
+      "title": "Approaching Awakening"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Making Devil Fruits/Approaching Awakening.md",
+      "title": "Awakening Attempt"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Making Devil Fruits/Devil Fruit Vulnerabilities.md",
+      "title": "Devil Fruit Vulnerabilities"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Making Devil Fruits/Devil Fruits and the Environment.md",
+      "title": "Devil Fruits and the Environment"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Making Devil Fruits/Devil Fruits and the Environment.md",
+      "title": "Devil Fruit Users in Liquids"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Making Devil Fruits/Devil Fruits and the Environment.md",
+      "title": "Devil Fruit Users and Seastone"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Making Devil Fruits/Devil Fruits and the Environment.md",
+      "title": "Reincarnation"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Making Devil Fruits/Making Devil Fruits.md",
+      "title": "Making Devil Fruits"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Making Devil Fruits/Multiple Devil Fruit Rules.md",
+      "title": "Multiple Devil Fruit Rules"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Availability of Goods.md",
+      "title": "Availability of Goods"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Prices of Goods"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Weapons and Ammo"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Ranked Weapons"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Special Ammo"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Ranked Items and Size"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Armor and Shields"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Special Armor"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Special Shields"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Consumables"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Apparatuses and Spell Scrolls"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Apparatuses"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Creation Scrolls"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Devil Fruits"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Devil Fruit Costs"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Misc"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Beast Costs"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
+      "title": "Slave Costs"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Purchasing Goods/Purchasing Goods.md",
+      "title": "Purchasing Goods"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Awarding Haki.md",
+      "title": "Awarding Haki"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Boons.md",
+      "title": "Boons"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Boons.md",
+      "title": "Boon of Super Sonic Speed"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Boons.md",
+      "title": "Boon of Enhanced Size"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Boons.md",
+      "title": "Boon of the Tale Weaver"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Boons.md",
+      "title": "Boon of One Thousand Blows"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Boons.md",
+      "title": "Boon of the Tactician"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Boons.md",
+      "title": "Boon of Ultimate Armor"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Boons.md",
+      "title": "Boon of the Expert Hunter"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Boons.md",
+      "title": "Boon of Advanced Chemistry"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Boons.md",
+      "title": "Boon of Deadly Duelist"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Boons.md",
+      "title": "Boon of Endless Conviction"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Boons.md",
+      "title": "Boon of the Restless Heart"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Boons.md",
+      "title": "Boon of Electro Mastery"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Boons.md",
+      "title": "Boon of the Barrage"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Cursed Items.md",
+      "title": "Cursed Items"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Magic Items.md",
+      "title": "Magic Items"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Magic Items.md",
+      "title": "\"Magic\" Items"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Magic Items.md",
+      "title": "Running Staged Magic Items"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Magic Items.md",
+      "title": "Dormant"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Magic Items.md",
+      "title": "Wakened"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Magic Items.md",
+      "title": "Exalted"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Reward Guide.md",
+      "title": "Reward Guide"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Reward Guide.md",
+      "title": "Rewards Guide"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Reward Guide.md",
+      "title": "Tiers of Play"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Rewards/Rewards.md",
+      "title": "Rewards"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Ability Crafting.md",
+      "title": "Ability Crafting"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Allied Space Occupancy.md",
+      "title": "Allied Space Occupancy"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Automatic Success in Skill Checks.md",
+      "title": "Automatic Success in Skill Checks"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Boarding Combat.md",
+      "title": "Boarding Combat"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Boarding Combat.md",
+      "title": "Crossing Ships"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Boarding Combat.md",
+      "title": "Ship Movement in Combat"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Boarding Combat.md",
+      "title": "Attacking The Ship"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Collision Damage.md",
+      "title": "Collision Damage"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Creations and Objects.md",
+      "title": "Creations and Objects"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Cri.md",
+      "title": "Cri"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Destroying Special Objects.md",
+      "title": "Destroying Special Objects"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Hybrid Races.md",
+      "title": "Hybrid Races"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Improved Help Action.md",
+      "title": "Improved Help Action"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Lingering Injuries.md",
+      "title": "Lingering Injuries"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Lingering Injuries.md",
+      "title": "Moderate Lingering Injuries"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Lingering Injuries.md",
+      "title": "Severe Lingering Injuries"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Making Custom Backgrounds.md",
+      "title": "Making Custom Backgrounds"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Non-Lethal Damage.md",
+      "title": "Non-Lethal Damage"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Par.md",
+      "title": "Par"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Proficiency Reclaim.md",
+      "title": "Proficiency Reclaim"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Rolling Hit Points.md",
+      "title": "Rolling Hit Points"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Shoving, Grappling, and Disarming.md",
+      "title": "Shoving, Grappling, and Disarming"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Siege Against Constructs.md",
+      "title": "Siege Against Constructs"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Skills and Tools.md",
+      "title": "Skills and Tools"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Sta.md",
+      "title": "Sta"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Story-Classing.md",
+      "title": "Story-Classing"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Story-Classing.md",
+      "title": "Joyful's One Piece DMing Experience"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Suggested Rulings.md",
+      "title": "Suggested Rulings"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Unreasonable Strength.md",
+      "title": "Unreasonable Strength"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/Suggested Rulings/Ursa Array (Variant Standard Array).md",
+      "title": "Ursa Array (Variant Standard Array)"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/The Environment/Natural Obstacles.md",
+      "title": "Natural Obstacles"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/The Environment/Natural Obstacles.md",
+      "title": "Whirlpools"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/The Environment/Natural Obstacles.md",
+      "title": "Tidal Waves"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/The Environment/Natural Obstacles.md",
+      "title": "Storms"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/The Environment/Natural Obstacles.md",
+      "title": "Reverse Mountain"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/The Environment/Natural Obstacles.md",
+      "title": "Magma"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/The Environment/Natural Obstacles.md",
+      "title": "Downtime Sessions"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/The Environment/The Environment.md",
+      "title": "The Environment"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/The Environment/Travel Time.md",
+      "title": "Travel Time"
+    },
+    {
+      "top": "Appendix B Running The Game",
+      "file": "Appendix B Running The Game/The Environment/Travel Time.md",
+      "title": "Travel By Sea"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Augmented/Augmented Traits.md",
+      "title": "Augmented Traits"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Augmented/Augmented Traits.md",
+      "title": "Cyborg"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Augmented/Augmented Traits.md",
+      "title": "Chimera"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Augmented/Augmented Traits.md",
+      "title": "Note for Players: Flying Races"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Augmented/Augmented Traits.md",
+      "title": "Artificial Human"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Augmented/Augmented Traits.md",
+      "title": "Revived"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Augmented/Made to Order.md",
+      "title": "Made to Order"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Augmented/Scientific Menagerie.md",
+      "title": "Scientific Menagerie"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Chapter 1 Races.md",
+      "title": "Chapter 1 Races"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Choosing a Race/Choosing a Race.md",
+      "title": "Choosing a Race"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Dwarves/A Little Gullible.md",
+      "title": "A Little Gullible"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Dwarves/Dwarven Traits.md",
+      "title": "Dwarven Traits"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Dwarves/Dwarven Traits.md",
+      "title": "DM's Note"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Dwarves/Small, But Deadly.md",
+      "title": "Small, But Deadly"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Fishman/A history of strife.md",
+      "title": "A history of strife"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Fishman/Champions of the Sea.md",
+      "title": "Champions of the Sea"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Fishman/Fishman Traits.md",
+      "title": "Fishman Traits"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Fishman/Fishman Traits.md",
+      "title": "Sharptooth"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Fishman/Fishman Traits.md",
+      "title": "Stronghide"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Fishman/Fishman Traits.md",
+      "title": "Multipod"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Giants/Giant Traits.md",
+      "title": "Giant Traits"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Giants/Giant Traits.md",
+      "title": "Optional Rule: Damage Spread"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Giants/Giant Traits.md",
+      "title": "Standard Giant"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Giants/Giant Traits.md",
+      "title": "Ancient Giant"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Giants/Giant Traits.md",
+      "title": "Wotan"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Giants/Giant Traits.md",
+      "title": "Ice Giant"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Giants/Giants.md",
+      "title": "Giants"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Giants/Large And In Charge.md",
+      "title": "Large And In Charge"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Giants/Sought Out Strength.md",
+      "title": "Sought Out Strength"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Human/History of Conflict.md",
+      "title": "History of Conflict"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Human/Human Traits.md",
+      "title": "Human Traits"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Human/Human Traits.md",
+      "title": "Standard Human"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Human/Human Traits.md",
+      "title": "Kuja Tribe"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Human/Human Traits.md",
+      "title": "Long-arm Tribe"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Human/Human Traits.md",
+      "title": "Snakeneck Tribe"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Human/Human Traits.md",
+      "title": "Long-leg Tribe"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Human/Human Traits.md",
+      "title": "Three-eye Tribe"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Human/Restless Hearts.md",
+      "title": "Restless Hearts"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Lunarians/Former Gods.md",
+      "title": "Former Gods"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Lunarians/Hidden Visage.md",
+      "title": "Hidden Visage"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Lunarians/Hidden Visage.md",
+      "title": "DM's Note"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Lunarians/Lunarian Traits.md",
+      "title": "Lunarian Traits"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Lunarians/Lunarians.md",
+      "title": "Lunarians"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Merfolk/Deep Sea Monarchs.md",
+      "title": "Deep Sea Monarchs"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Merfolk/Gregarious Helpers.md",
+      "title": "Gregarious Helpers"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Merfolk/Merfolk Traits.md",
+      "title": "Merfolk Traits"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Mink/Close-knit Community.md",
+      "title": "Close-knit Community"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Mink/Mink Traits.md",
+      "title": "Mink Traits"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Mink/Mink Traits.md",
+      "title": "Diurnal"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Mink/Mink Traits.md",
+      "title": "Nocturnal"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Mink/Moonlit Warriors.md",
+      "title": "Moonlit Warriors"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Sky Islander/Dials and Cloudscapes.md",
+      "title": "Dials and Cloudscapes"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Sky Islander/Holy Vearth.md",
+      "title": "Holy Vearth"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Sky Islander/Sky Islander Traits.md",
+      "title": "Sky Islander Traits"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Sky Islander/Sky Islander Traits.md",
+      "title": "Birkan"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Sky Islander/Sky Islander Traits.md",
+      "title": "Shandian"
+    },
+    {
+      "top": "Chapter 1 Races",
+      "file": "Chapter 1 Races/Sky Islander/Sky Islander Traits.md",
+      "title": "Skypiean"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Amalgamation/Amalgamation.md",
+      "title": "Amalgamation"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Arcana = Engineering.md",
+      "title": "Arcana = Engineering"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Ardent Soul.md",
+      "title": "Ardent Soul"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Burning Passion.md",
+      "title": "Ardent Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Burning Passion.md",
+      "title": "Channel Conviction"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Caustic Spite.md",
+      "title": "Ardent Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Caustic Spite.md",
+      "title": "Channel Conviction"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Cold Indifference.md",
+      "title": "Ardent Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Cold Indifference.md",
+      "title": "Channel Conviction"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Fulminating Glee.md",
+      "title": "Ardent Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Fulminating Glee.md",
+      "title": "Channel Conviction"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Mindful Insight.md",
+      "title": "Ardent Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Mindful Insight.md",
+      "title": "Channel Conviction"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Necrotic Mania.md",
+      "title": "Ardent Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Necrotic Mania.md",
+      "title": "Channel Conviction"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Radiant Superiority.md",
+      "title": "Ardent Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Radiant Superiority.md",
+      "title": "Channel Conviction"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Thundering Resolve.md",
+      "title": "Ardent Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Thundering Resolve.md",
+      "title": "Channel Conviction"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Venomous Duality.md",
+      "title": "Ardent Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Ardent Soul/Venomous Duality.md",
+      "title": "Channel Conviction"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Barbarian/Barbarian.md",
+      "title": "The Barbarian"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Bard/Bard.md",
+      "title": "The Bard"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Bard College/Bard College.md",
+      "title": "Bard College"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Bard College/College of Legends.md",
+      "title": "Legendary Floursih"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Beast of the Air/Beast of the Air.md",
+      "title": "Beast of the Air"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Beast of the Land/Beast of the Land.md",
+      "title": "Beast of the Land"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Beast of the Sea/Beast of the Sea.md",
+      "title": "Beast of the Sea"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Brawler/Brawler.md",
+      "title": "The Brawler"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Brawling Style/Brawling Style.md",
+      "title": "Brawling Style"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Brawling Style/Expressionist.md",
+      "title": "Tricks (Cantrips)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Brawling Style/Expressionist.md",
+      "title": "Preparing and Using Creations (Preparing"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Brawling Style/Expressionist.md",
+      "title": "and Casting Spells)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Brawling Style/Expressionist.md",
+      "title": "Creative Ability (Spellcasting Ability)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Chapter 2 Classes.md",
+      "title": "Chapter 2 Classes"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ability Score Improvement 2.md",
+      "title": "Ability Score Improvement 2"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ability Score Improvement 2.md",
+      "title": "Ability Score Improvement"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ability Score Improvement 3.md",
+      "title": "Ability Score Improvement 3"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ability Score Improvement 3.md",
+      "title": "Ability Score Improvement"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ability Score Improvement 4.md",
+      "title": "Ability Score Improvement 4"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ability Score Improvement 4.md",
+      "title": "Ability Score Improvement"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ability Score Improvement 5.md",
+      "title": "Ability Score Improvement 5"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ability Score Improvement 5.md",
+      "title": "Ability Score Improvement"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ability Score Improvement 6.md",
+      "title": "Ability Score Improvement 6"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ability Score Improvement 6.md",
+      "title": "Ability Score Improvement"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ability Score Improvement 7.md",
+      "title": "Ability Score Improvement 7"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ability Score Improvement 7.md",
+      "title": "Ability Score Improvement"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ability Score Improvement 8.md",
+      "title": "Ability Score Improvement 8"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ability Score Improvement 8.md",
+      "title": "Ability Score Improvement"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ability Score Improvement.md",
+      "title": "Ability Score Improvement"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ardent Smite.md",
+      "title": "Ardent Soul Element"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Ardent Soul.md",
+      "title": "Ardent Soul"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Bard College.md",
+      "title": "Bard College"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Brawling Style.md",
+      "title": "Brawling Style"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Channel Conviction.md",
+      "title": "Channel Conviction"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features 2.md",
+      "title": "Class Features 2"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features 2.md",
+      "title": "Class Features"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features 3.md",
+      "title": "Class Features 3"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features 3.md",
+      "title": "Class Features"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features 4.md",
+      "title": "Class Features 4"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features 4.md",
+      "title": "Class Features"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features 5.md",
+      "title": "Class Features 5"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features 5.md",
+      "title": "Class Features"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features 6.md",
+      "title": "Class Features 6"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features 6.md",
+      "title": "Class Features"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features 7.md",
+      "title": "Class Features 7"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features 7.md",
+      "title": "Class Features"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features 8.md",
+      "title": "Class Features 8"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features 8.md",
+      "title": "Class Features"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features 9.md",
+      "title": "Class Features 9"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features 9.md",
+      "title": "Class Features"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Class Features.md",
+      "title": "Class Features"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity (Spellcasting) 2.md",
+      "title": "Creativity (Spellcasting) 2"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity (Spellcasting) 2.md",
+      "title": "Tricks (Cantrips)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity (Spellcasting) 2.md",
+      "title": "Preparing and Using Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity (Spellcasting) 2.md",
+      "title": "Creative Ability (Spellcasting Ability)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity (Spellcasting) 2.md",
+      "title": "Routine Usage (Ritual Casting)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity (Spellcasting) 3.md",
+      "title": "Creativity (Spellcasting) 3"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity (Spellcasting) 3.md",
+      "title": "Tricks (Cantrips)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity (Spellcasting) 3.md",
+      "title": "Preparing and Using Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity (Spellcasting) 3.md",
+      "title": "Creative Ability (Spellcasting Ability)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity (Spellcasting) 3.md",
+      "title": "Routine Usage (Ritual Casting)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity (Spellcasting).md",
+      "title": "Tricks (Cantrips)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity (Spellcasting).md",
+      "title": "Creation Slots (Spell Slots)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity (Spellcasting).md",
+      "title": "Preparing and Using Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity (Spellcasting).md",
+      "title": "Creative Ability (Spellcasting Ability)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity (Spellcasting).md",
+      "title": "Routine Usage (Ritual Casting)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity 2.md",
+      "title": "Creativity 2"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity 2.md",
+      "title": "Preparing and Using Creations (Spell"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity 2.md",
+      "title": "Slots)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity 2.md",
+      "title": "Creative Ability (Spellcasting Ability)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity.md",
+      "title": "Tricks (Cantrips)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity.md",
+      "title": "Creation Slots (Spell Slots)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity.md",
+      "title": "Preparing and Using Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Creativity.md",
+      "title": "Creative Ability (Spellcasting Ability)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Deft Explorer.md",
+      "title": "Canny"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Deft Explorer.md",
+      "title": "Roving"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Deft Explorer.md",
+      "title": "Tireless"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Evasion 2.md",
+      "title": "Evasion 2"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Expertise 2.md",
+      "title": "Expertise 2"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Extra Attack 2.md",
+      "title": "Extra Attack 2"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Extra Attack 3.md",
+      "title": "Extra Attack 3"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Extra Attack 4.md",
+      "title": "Extra Attack 4"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Extra Attack 5.md",
+      "title": "Extra Attack 5"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Fighting Style 2.md",
+      "title": "Fighting Style 2"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Fighting Style 3.md",
+      "title": "Fighting Style 3"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Marksman Archetype.md",
+      "title": "Marksman Archetype"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Martial Archetype.md",
+      "title": "Martial Archetype"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Medical Specialization.md",
+      "title": "Medical Specialization"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Mods.md",
+      "title": "Mods Known"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Mods.md",
+      "title": "Modifiying an Item"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Mods.md",
+      "title": "List Of Mods"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Mods.md",
+      "title": "Armor Of Mechanical Strength"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Mods.md",
+      "title": "Burst Boots"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Mods.md",
+      "title": "Enhanced Creative Focus"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Mods.md",
+      "title": "Enhanced Defenses"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Mods.md",
+      "title": "Enhanced Weapon"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Mods.md",
+      "title": "Propulsion Armor"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Mods.md",
+      "title": "Awareness Visor"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Primal Path.md",
+      "title": "Primal Path"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Roguish Archetype.md",
+      "title": "Roguish Archetype"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Spirit.md",
+      "title": "Flurry of Blows"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Spirit.md",
+      "title": "Patient Defense"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Spirit.md",
+      "title": "Deft Escape"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Class Features/Unarmored Defense 2.md",
+      "title": "Unarmored Defense 2"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Amphibious Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Brainy Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Camouflage Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Carnivorous Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Clawed Lineage (Amalgamation Only)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Conduit Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Corrosive Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Devil Fruit Lineage (Ocean's Scorn"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "feature)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Echoing Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Evasive Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Face-Stealing Lineage (Clone Only)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Failsafe Lineage (Clone Only, 14th level)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Flaming Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Frozen Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Fungal Lineage (Flora Only)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Giant Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Hydra Lineage (Amalgamation Only)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Invisible Lineage (7th level)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Nimble Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Omni-Lineage (7th level)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Pack Lineage (Amalgamation Only)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Relentless Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Reviving Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Shelled Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Sparking Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Spiny Lineage (Flora Only)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Subterranean Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Thunderous Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Tough Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Venomous Lineage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Viney Lineage (Flora Only)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Clone/Actions.md",
+      "title": "Winged Lineage (7th level)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Experimental Ooze/Actions.md",
+      "title": "Experimental Ooze Type"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Experimental Ooze/Amputator.md",
+      "title": "Amputator Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Experimental Ooze/Bio-Engineer.md",
+      "title": "Test Subjects"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Experimental Ooze/Plaguewright.md",
+      "title": "Plaguewright Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Fighter/Fighter.md",
+      "title": "The Fighter"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Flora/Flora.md",
+      "title": "Flora"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Gadgeteer/Gadgeteer.md",
+      "title": "The Gadgeteer"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Iron Defender/Alchemist.md",
+      "title": "Alchemist Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Iron Defender/Alchemist.md",
+      "title": "Chemical Cocktails"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Iron Defender/Elementalist.md",
+      "title": "Elementalist Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Iron Defender/Reactions.md",
+      "title": "Reactions"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Iron Defender/Safeguard.md",
+      "title": "Safeguard Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Marksman/Marksman.md",
+      "title": "The Marksman"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Marksman Archetype/Beastmaster.md",
+      "title": "Bestial Companions"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Marksman Archetype/Marksman Archetype.md",
+      "title": "Marksman Archetype"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
+      "title": "Engineering"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
+      "title": "Stasis Ammo"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
+      "title": "Hypnotic Ammo"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
+      "title": "Elemental Ammo"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
+      "title": "Exploding Ammo"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
+      "title": "Feeble Ammo"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
+      "title": "Grasping Ammo"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
+      "title": "Piercing Ammo"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
+      "title": "Shadow Ammo"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
+      "title": "Warp Ammo (7th level)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Ambush"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Bait and Switch"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Brace"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Commander's Strike"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Commanding Presence"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Disarming Attack"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Distracting Strike"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Evasive Footwork"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Feinting Attack"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Goading Attack"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Grappling Strike"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Lunging Attack"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Maneuvering Attack"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Pushing Attack"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Parry"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Menacing Attack"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Precision Attack"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Quick Toss"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Rally"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Riposte"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Sweeping Attack"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Tactical Assessment"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
+      "title": "Trip Attack"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Cavalier.md",
+      "title": "Bonus Proficiency"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Champion.md",
+      "title": "Strength"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Champion.md",
+      "title": "Constitution"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Champion.md",
+      "title": "Dexterity"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gadget Knight.md",
+      "title": "Tricks (Cantrips)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gadget Knight.md",
+      "title": "Preparing and Using Creations (Preparing"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gadget Knight.md",
+      "title": "and Casting Spells)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gadget Knight.md",
+      "title": "Creative Ability (Spellcasting Ability)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
+      "title": "Gunsmith"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
+      "title": "Covering Fire"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
+      "title": "Dazing Shot"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
+      "title": "Deadeye Shot"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
+      "title": "Deflecting Shot (7th level)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
+      "title": "Disarming Shot"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
+      "title": "Exhausting Shot"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
+      "title": "Forceful Shot"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
+      "title": "Piercing Shot"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
+      "title": "Run and Gun"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
+      "title": "Violent Shot"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
+      "title": "Warning Shot"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
+      "title": "Wringing Shot"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
+      "title": "Hemorrhaging Critical"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Martial Archetypes.md",
+      "title": "Martial Archetypes"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Master of None.md",
+      "title": "Adapt and Overcome"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Master of None.md",
+      "title": "Improv Damage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Samurai.md",
+      "title": "Bonus Proficiency"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Martial Archetypes/Samurai.md",
+      "title": "Fighting Stance"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Ability Score Improvement.md",
+      "title": "Ability Score Improvement"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Mechanical Servant"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Focusing Suit"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Repeating Magazine"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Glowing Weapon"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Repulsion Shield"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Resistant Armor"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Loyal Weapon"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Creation Refueling Ring"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Replicate Mastercraft Item"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Reinforced Steel"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Extended Barrel"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Heavy Artillery"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Wrought Warden"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Omega Operative"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Chemistry Menagerie"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Versatile Elements"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
+      "title": "Airborne Aegis"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Master Craft Adept.md",
+      "title": "Master Craft Adept"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Mechanical Servant.md",
+      "title": "Mechanical Servant"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Mechanical Servant/Specialist Path.md",
+      "title": "Specialist Path"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Medic/Medic.md",
+      "title": "The Medic"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Medical Specialization/Chemist.md",
+      "title": "Chemist Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Medical Specialization/Chemist.md",
+      "title": "Experimental Ooze Type"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Medical Specialization/Medical Specialization.md",
+      "title": "Medical Specialization"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Medical Specialization/Physician.md",
+      "title": "Physician Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Primal Paths/Path of the Blade Master.md",
+      "title": "Cleaving Hew"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Primal Paths/Path of the Blade Master.md",
+      "title": "Crushing Hew"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Primal Paths/Path of the Blade Master.md",
+      "title": "Savage Hew"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Primal Paths/Path of the Blade Master.md",
+      "title": "Sprinting Hew"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Primal Paths/Path of the Shattered Mind.md",
+      "title": "Shattered Mind"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Primal Paths/Path of the Shattered Mind.md",
+      "title": "Tricks (Cantrips)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Primal Paths/Path of the Shattered Mind.md",
+      "title": "Preparing and Using Creations (Preparing"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Primal Paths/Path of the Shattered Mind.md",
+      "title": "and Casting Spells)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Primal Paths/Path of the Shattered Mind.md",
+      "title": "Creative Ability (Spellcasting Ability)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Primal Paths/Path of the Storm Herald.md",
+      "title": "Thunderstorm"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Primal Paths/Path of the Storm Herald.md",
+      "title": "Snowstorm"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Primal Paths/Primal Paths.md",
+      "title": "Primal Paths"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Rogue/Rogue.md",
+      "title": "The Rogue"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Roguish Archetypes/Gadget Trickster.md",
+      "title": "Tricks (Cantrips)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Roguish Archetypes/Gadget Trickster.md",
+      "title": "Preparing and Using Creations (Preparing"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Roguish Archetypes/Gadget Trickster.md",
+      "title": "and Casting Spells)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Roguish Archetypes/Gadget Trickster.md",
+      "title": "Creative Ability (Spellcasting Ability)"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Roguish Archetypes/Inquisitive.md",
+      "title": "Depcipher Deceit"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Roguish Archetypes/Roguish Archetypes.md",
+      "title": "Roguish Archetypes"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Roguish Archetypes/Wildcard.md",
+      "title": "Volatile Damage"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Savant/Savant.md",
+      "title": "The Savant"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Specialist Paths/Armorer.md",
+      "title": "Armorer Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Specialist Paths/Armorer.md",
+      "title": "Guardian"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Specialist Paths/Armorer.md",
+      "title": "Infiltrator."
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Specialist Paths/Armorer.md",
+      "title": "Infiltrator"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Specialist Paths/Artillerist.md",
+      "title": "Artillerist Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Specialist Paths/Artillerist.md",
+      "title": "Mechanical Cannons"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Specialist Paths/Battle Smith.md",
+      "title": "Battle Smith Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Specialist Paths/Specialist Paths.md",
+      "title": "Specialist Paths"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Spells = Creations.md",
+      "title": "Spells = Creations"
+    },
+    {
+      "top": "Chapter 2 Classes",
+      "file": "Chapter 2 Classes/Spells = Creations.md",
+      "title": "Classes"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Acrobat.md",
+      "title": "Feature: Entertaining Tumble"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Acrobat.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Acrobat.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Acrobat.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Acrobat.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Acrobat.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Archaeologist.md",
+      "title": "Feature: Ancient Explorer"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Archaeologist.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Archaeologist.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Archaeologist.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Archaeologist.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Archaeologist.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Archaeologist.md",
+      "title": "Offical 5e Backgrounds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Artist.md",
+      "title": "Feature: Visionary Painter"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Artist.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Artist.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Artist.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Artist.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Artist.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Author.md",
+      "title": "Feature: Story Weaver"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Author.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Author.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Author.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Author.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Author.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Backgrounds.md",
+      "title": "Backgrounds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Blacksmith.md",
+      "title": "Feature: Mastercrafter"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Blacksmith.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Blacksmith.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Blacksmith.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Blacksmith.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Blacksmith.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Bounty Hunter.md",
+      "title": "Feature: Skilled Hunter"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Bounty Hunter.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Bounty Hunter.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Bounty Hunter.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Bounty Hunter.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Bounty Hunter.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Boxer.md",
+      "title": "Feature: Knockout!"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Boxer.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Boxer.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Boxer.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Boxer.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Boxer.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Carpenter.md",
+      "title": "Feature: Wood Artisan"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Carpenter.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Carpenter.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Carpenter.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Carpenter.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Carpenter.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Cook.md",
+      "title": "Feature: Culinary Expert"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Cook.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Cook.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Cook.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Cook.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Cook.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Detective.md",
+      "title": "Feature: Astute Observation"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Detective.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Detective.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Detective.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Detective.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Detective.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Doctor.md",
+      "title": "Feature: Medical Master"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Doctor.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Doctor.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Doctor.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Doctor.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Doctor.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Drunkard.md",
+      "title": "Feature: Big Drinker"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Drunkard.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Drunkard.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Drunkard.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Drunkard.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Drunkard.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Entertainer.md",
+      "title": "Feature: Lead Performer"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Entertainer.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Entertainer.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Entertainer.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Entertainer.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Entertainer.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Faceless.md",
+      "title": "Feature: Stay Away"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Faceless.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Faceless.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Faceless.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Faceless.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Faceless.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Farmer.md",
+      "title": "Feature: Down On The Farm"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Farmer.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Farmer.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Farmer.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Farmer.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Farmer.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Fisherman.md",
+      "title": "Feature: Harvest the Water"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Fisherman.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Fisherman.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Fisherman.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Fisherman.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Fisherman.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Folk Hero.md",
+      "title": "Feature: Inner Strength"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Folk Hero.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Folk Hero.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Folk Hero.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Folk Hero.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Folk Hero.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Gambler.md",
+      "title": "Feature: Gambler's Fallacy"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Gambler.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Gambler.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Gambler.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Gambler.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Gambler.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Gladiator.md",
+      "title": "Feature: Experienced Brawler"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Gladiator.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Gladiator.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Gladiator.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Gladiator.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Gladiator.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Glutton.md",
+      "title": "Feature: Big Appetite"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Glutton.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Glutton.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Glutton.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Glutton.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Glutton.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Hermit.md",
+      "title": "Feature: Secluded Study"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Hermit.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Hermit.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Hermit.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Hermit.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Hermit.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Jeweler.md",
+      "title": "Feature: Crystal Crafter"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Jeweler.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Jeweler.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Jeweler.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Jeweler.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Jeweler.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Knight.md",
+      "title": "Feature: Knightly Training"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Knight.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Knight.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Knight.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Knight.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Knight.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Leatherworker.md",
+      "title": "Feature: Skinning and Tanning"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Leatherworker.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Leatherworker.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Leatherworker.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Leatherworker.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Leatherworker.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Librarian.md",
+      "title": "Feature: Well Read"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Librarian.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Librarian.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Librarian.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Librarian.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Librarian.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Lumberjack.md",
+      "title": "Feature: Tree Feller"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Lumberjack.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Lumberjack.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Lumberjack.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Lumberjack.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Lumberjack.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/MarineSoldier.md",
+      "title": "MarineSoldier"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/MarineSoldier.md",
+      "title": "Feature: Military Training"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/MarineSoldier.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/MarineSoldier.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/MarineSoldier.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/MarineSoldier.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/MarineSoldier.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Mason.md",
+      "title": "Feature: Stonemaster"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Mason.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Mason.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Mason.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Mason.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Mason.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Mercenary.md",
+      "title": "Feature: Battle Born"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Mercenary.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Mercenary.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Mercenary.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Mercenary.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Mercenary.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Merchant.md",
+      "title": "Feature: Hornswoggling"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Merchant.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Merchant.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Merchant.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Merchant.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Merchant.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Miner.md",
+      "title": "Feature: Cave Eyes"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Miner.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Miner.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Miner.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Miner.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Miner.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Navigator.md",
+      "title": "Feature: Keen Eye"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Navigator.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Navigator.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Navigator.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Navigator.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Navigator.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Noble.md",
+      "title": "Feature: Noble's Charm"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Noble.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Noble.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Noble.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Noble.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Noble.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Pirate.md",
+      "title": "Feature: Never Ending Battles"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Pirate.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Pirate.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Pirate.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Pirate.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Pirate.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Priest.md",
+      "title": "Feature: Knowledge of Faith"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Priest.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Priest.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Priest.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Priest.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Priest.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Revolutionary.md",
+      "title": "Feature: Lead The Charge"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Revolutionary.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Revolutionary.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Revolutionary.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Revolutionary.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Revolutionary.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Sailor.md",
+      "title": "Feature: Sea Man"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Sailor.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Sailor.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Sailor.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Sailor.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Sailor.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Scientist.md",
+      "title": "Feature: Incredible Ingenuity"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Scientist.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Scientist.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Scientist.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Scientist.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Scientist.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Shipwright.md",
+      "title": "Feature: Ship Savant"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Shipwright.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Shipwright.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Shipwright.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Shipwright.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Shipwright.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Slave.md",
+      "title": "Feature: Tough Customer"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Slave.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Slave.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Slave.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Slave.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Slave.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Smuggler.md",
+      "title": "Feature: Adept Theft"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Smuggler.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Smuggler.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Smuggler.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Smuggler.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Smuggler.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Sniper.md",
+      "title": "Feature: Master Sniper"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Sniper.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Sniper.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Sniper.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Sniper.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Sniper.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Swordsman.md",
+      "title": "Feature: Blade Mastery"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Swordsman.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Swordsman.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Swordsman.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Swordsman.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Swordsman.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Tailor.md",
+      "title": "Feature: Clothing Savant"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Tailor.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Tailor.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Tailor.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Tailor.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Tailor.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Urchin.md",
+      "title": "Feature: Sneaky Devil"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Urchin.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Urchin.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Urchin.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Urchin.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Urchin.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Wanderer.md",
+      "title": "Feature: Acquired Trait"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Wanderer.md",
+      "title": "Suggested Characteristics"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Wanderer.md",
+      "title": "Personality Traits"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Wanderer.md",
+      "title": "Ideals"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Wanderer.md",
+      "title": "Bonds"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Backgrounds/Wanderer.md",
+      "title": "Flaws"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Chapter 3 Character Origins.md",
+      "title": "Chapter 3 Character Origins"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Dreams/Dreams.md",
+      "title": "Dreams"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Captain.md",
+      "title": "Captain"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Captain.md",
+      "title": "Feature: Force of Personality"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Captain.md",
+      "title": "Feature: Bonus Feat"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Captain.md",
+      "title": "Dream"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Cook.md",
+      "title": "Feature: Kitchen Artisan"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Cook.md",
+      "title": "Feature: Bonus Feat"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Cook.md",
+      "title": "Dream"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Deckhand.md",
+      "title": "Deckhand"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Deckhand.md",
+      "title": "Feature: All Hands on Deck"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Deckhand.md",
+      "title": "Feature: Bonus Feat"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Deckhand.md",
+      "title": "Dream"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Doctor.md",
+      "title": "Feature: Routine Care"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Doctor.md",
+      "title": "Feature: Bonus Feat"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Doctor.md",
+      "title": "Dream"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Helmsman.md",
+      "title": "Helmsman"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Helmsman.md",
+      "title": "Ocean Tamer"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Helmsman.md",
+      "title": "Feature: Bonus Feat"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Helmsman.md",
+      "title": "Dream"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Master at Arms.md",
+      "title": "Feature: Perfected Practice"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Master at Arms.md",
+      "title": "Feature: Bonus Feat"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Master at Arms.md",
+      "title": "Dream"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Musician.md",
+      "title": "Entertainer's Routine"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Musician.md",
+      "title": "Feature: Bonus Feat"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Musician.md",
+      "title": "Dream"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Navigator.md",
+      "title": "Feature: Weather Portent"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Navigator.md",
+      "title": "Feature: Bonus Feat"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Navigator.md",
+      "title": "Dream"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Roles.md",
+      "title": "Roles"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Scholar.md",
+      "title": "Scholar"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Scholar.md",
+      "title": "Feature: Pursuer of Secrets"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Scholar.md",
+      "title": "Feature: Bonus Feat"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Scholar.md",
+      "title": "Dream"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Shipwright.md",
+      "title": "Feature: Craft Vessel"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Shipwright.md",
+      "title": "Feature: Bonus Feat"
+    },
+    {
+      "top": "Chapter 3 Character Origins",
+      "file": "Chapter 3 Character Origins/Roles/Shipwright.md",
+      "title": "Dream"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Adventuring Gear/Adventuring Gear.md",
+      "title": "Adventuring Gear"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Armor and Shields/Armor and Shields.md",
+      "title": "Armor and Shields"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Chapter 4 Equipment and Items.md",
+      "title": "Chapter 4 Equipment and Items"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Expenses/Expenses.md",
+      "title": "Expenses"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Expenses/Expenses.md",
+      "title": "Lifestyle Expenses"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Expenses/Food, Drink, and Lodging.md",
+      "title": "Food, Drink, and Lodging"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Mounts and Vehicles/Cannons.md",
+      "title": "Cannon Shot"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Mounts and Vehicles/Cannons.md",
+      "title": "Mounts and Animals"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Mounts and Vehicles/Cannons.md",
+      "title": "Tack, Harness, and Drawn Vehicles"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Mounts and Vehicles/Cannons.md",
+      "title": "Dial Vehicles (Sky)"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Mounts and Vehicles/Mounts and Vehicles.md",
+      "title": "Mounts and Vehicles"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Mounts and Vehicles/Ships and Waterborne Vessels.md",
+      "title": "Waterborne Vehicles"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Ship Building and Repair/Building a Ship.md",
+      "title": "Building a Ship"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Ship Building and Repair/Building a Ship.md",
+      "title": "Crafting Time"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Ship Building and Repair/Building a Ship.md",
+      "title": "Crafting Process"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Ship Building and Repair/Damage and Repairs.md",
+      "title": "Damage and Repairs"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Ship Building and Repair/Ship Building and Repair.md",
+      "title": "Ship Building and Repair"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Ship Building and Repair/Ship Rooms.md",
+      "title": "Ship Rooms"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Ship Building and Repair/Ship Rooms.md",
+      "title": "Optional Rule: Custom Rooms"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Ship Building and Repair/Ship Rooms.md",
+      "title": "Armor"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Ship Building and Repair/Upgrading your Ship.md",
+      "title": "Upgrading your Ship"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Ship Building and Repair/Upgrading your Ship.md",
+      "title": "Ship Upgrades"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Ship Building and Repair/Upgrading your Ship.md",
+      "title": "Ship Rooms"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Tools/Tools.md",
+      "title": "Tools"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Wealth/Treasure and Loot.md",
+      "title": "Treasure and Loot"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Wealth/Wealth.md",
+      "title": "Wealth"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Wealth/Wealth.md",
+      "title": "Beri Exchange Rate"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Weapons/Additional Melee Weapons.md",
+      "title": "Additional Melee Weapons"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Weapons/Additional Ranged Weapons.md",
+      "title": "Additional Ranged Weapons"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Weapons/Weapons.md",
+      "title": "Weapons"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Weapons/Weapons.md",
+      "title": "Simple Weapons"
+    },
+    {
+      "top": "Chapter 4 Equipment and Items",
+      "file": "Chapter 4 Equipment and Items/Weapons/Weapons.md",
+      "title": "Martial Weapons"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Chapter 5 Customization.md",
+      "title": "Chapter 5 Customization"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Feats/Feats.md",
+      "title": "Feats"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Feats/Feats.md",
+      "title": "Tale Archetypes"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Blademaster Barbarian Styles.md",
+      "title": "Blademaster Barbarian Styles"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Blademaster Barbarian Styles.md",
+      "title": "Dueling"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Blademaster Barbarian Styles.md",
+      "title": "Great Weapon Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Blademaster Barbarian Styles.md",
+      "title": "Two-Weapon Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Blademaster Barbarian Styles.md",
+      "title": "Versatile Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/College Of Swords Bard Styles.md",
+      "title": "College Of Swords Bard Styles"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/College Of Swords Bard Styles.md",
+      "title": "Dueling"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/College Of Swords Bard Styles.md",
+      "title": "Great Weapon Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/College Of Swords Bard Styles.md",
+      "title": "Two-Weapon Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/College Of Swords Bard Styles.md",
+      "title": "Versatile Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/College Of Swords Bard Styles.md",
+      "title": "Thrown Weapon Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Fighter Styles.md",
+      "title": "Fighter Styles"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Fighter Styles.md",
+      "title": "Archery"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Fighter Styles.md",
+      "title": "Blindfighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Fighter Styles.md",
+      "title": "Defense"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Fighter Styles.md",
+      "title": "Dueling"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Fighter Styles.md",
+      "title": "Superior Technique"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Fighter Styles.md",
+      "title": "Great Weapon Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Fighter Styles.md",
+      "title": "Two-Weapon Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Fighter Styles.md",
+      "title": "Interception"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Fighter Styles.md",
+      "title": "Unarmed Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Fighter Styles.md",
+      "title": "Thrown Weapon Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Fighter Styles.md",
+      "title": "Melee Shooter"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Fighter Styles.md",
+      "title": "Versatile Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Fighter Styles.md",
+      "title": "Protection"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Fighting Styles.md",
+      "title": "Fighting Styles"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Marksman Styles.md",
+      "title": "Marksman Styles"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Marksman Styles.md",
+      "title": "Archery"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Marksman Styles.md",
+      "title": "Blindfighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Marksman Styles.md",
+      "title": "Defense"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Marksman Styles.md",
+      "title": "Tonic Tactician"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Marksman Styles.md",
+      "title": "Two-Weapon Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Marksman Styles.md",
+      "title": "Gunslinging"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Marksman Styles.md",
+      "title": "Melee Shooter"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Marksman Styles.md",
+      "title": "Interception"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Marksman Styles.md",
+      "title": "Thrown Weapon Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Marksman Styles.md",
+      "title": "Unarmed Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Savant Styles.md",
+      "title": "Savant Styles"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Savant Styles.md",
+      "title": "Defense"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Savant Styles.md",
+      "title": "Dueling"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Savant Styles.md",
+      "title": "Great Weapon Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Savant Styles.md",
+      "title": "Protection"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Savant Styles.md",
+      "title": "Tonic Tactician"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Savant Styles.md",
+      "title": "Two-Weapon Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Savant Styles.md",
+      "title": "Unarmed Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Savant Styles.md",
+      "title": "Versatile Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md",
+      "title": "Sword Sage Brawler Styles"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md",
+      "title": "Archery"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md",
+      "title": "Blindfighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md",
+      "title": "Agile Defense"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md",
+      "title": "Wrestling"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md",
+      "title": "Dueling"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md",
+      "title": "Great Weapon Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md",
+      "title": "Two-Weapon Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md",
+      "title": "Interception"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md",
+      "title": "Thrown Weapon Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md",
+      "title": "Melee Shooter"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md",
+      "title": "Versatile Fighting"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Haki/Haki.md",
+      "title": "Haki"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Haki/Learning Haki.md",
+      "title": "Learning Haki"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Haki/List of Haki Abilities.md",
+      "title": "List of Haki Abilities"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Haki/List of Haki Abilities.md",
+      "title": "Clarification: Rage VS Armament"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Haki/List of Haki Abilities.md",
+      "title": "Haki Affinity"
+    },
+    {
+      "top": "Chapter 5 Customization",
+      "file": "Chapter 5 Customization/Racial Feats/Racial Feats.md",
+      "title": "Racial Feats"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Chapter 6 Devil Fruits.md",
+      "title": "Chapter 6 Devil Fruits"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit.md",
+      "title": "Creating A Devil Fruit"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit.md",
+      "title": "Devil Fruit Uses"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit.md",
+      "title": "Devil Fruit Ability Check, DC, and"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit.md",
+      "title": "Attack"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Logias/Example Logias.md",
+      "title": "Example Logias"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit.md",
+      "title": "Logia Type Devil Fruit"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit.md",
+      "title": "Using this fruit"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit.md",
+      "title": "Elemental Domain"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit.md",
+      "title": "Improved Elemental Domain"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit.md",
+      "title": "Awakening"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/Example Paramecias.md",
+      "title": "Example Paramecias"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md",
+      "title": "Dice-Dice Fruit"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md",
+      "title": "Using this fruit"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md",
+      "title": "Extended Duration"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md",
+      "title": "Double Dice"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md",
+      "title": "Taken Odds"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md",
+      "title": "Triple Threat"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md",
+      "title": "Awakening"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md",
+      "title": "DM's Note"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md",
+      "title": "Glug-Glug Fruit"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md",
+      "title": "Using this fruit"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md",
+      "title": "Lasting Buzz"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md",
+      "title": "Potent Alcohol"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md",
+      "title": "Double Shots"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md",
+      "title": "Hot Shot"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md",
+      "title": "Awakening"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md",
+      "title": "Devil Fruit Party Ratio"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md",
+      "title": "Swap-Swap Fruit"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md",
+      "title": "Using this fruit"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md",
+      "title": "Size Limit Increase"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md",
+      "title": "Size Limit Break"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md",
+      "title": "Awakening"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Zoans/Example Zoans.md",
+      "title": "Example Zoans"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md",
+      "title": "Bat-Bat Fruit"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md",
+      "title": "Using This Fruit"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md",
+      "title": "Hybrid Form"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md",
+      "title": "Enhanced Form"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md",
+      "title": "Endless Forms"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md",
+      "title": "Awakening"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Bat/Great Bat.md",
+      "title": "Great Bat"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Bat/The Cat-Cat Fruit, Model Saber- Toothed Tiger.md",
+      "title": "The Cat-Cat Fruit, Model Saber- Toothed Tiger"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Bat/The Cat-Cat Fruit, Model Saber- Toothed Tiger.md",
+      "title": "Cat-Cat Fruit, Model: Saber-Toothed Tiger"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Bat/The Cat-Cat Fruit, Model Saber- Toothed Tiger.md",
+      "title": "Using This Fruit"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Saber-Tooth/Great Saber-Tooth.md",
+      "title": "Great Saber-Tooth"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Saber-Tooth/Great Saber-Tooth.md",
+      "title": "Hybrid Form"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Saber-Tooth/Great Saber-Tooth.md",
+      "title": "Enhanced Form"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Saber-Tooth/Great Saber-Tooth.md",
+      "title": "Endless Forms"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Saber-Tooth/Great Saber-Tooth.md",
+      "title": "Awakening"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md",
+      "title": "The Dog-Dog Fruit, Model Werewolf"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md",
+      "title": "Dog-Dog Fruit, Model: Werewolf"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md",
+      "title": "Using This Fruit"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md",
+      "title": "Hybrid Form"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md",
+      "title": "Enhanced Form"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md",
+      "title": "Endless Forms"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md",
+      "title": "Awakening"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Great Werewolf/Great Werewolf.md",
+      "title": "Great Werewolf"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Logia Type/Logia Type.md",
+      "title": "Logia Type"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Logia Type/Logia Type.md",
+      "title": "Logia Type Devil Fruit"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Logia Type/Logia Type.md",
+      "title": "Elemental Domain"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Logia Type/Logia Type.md",
+      "title": "Improved Elemental Domain"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md",
+      "title": "Paramecia Type"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md",
+      "title": "Paramecia Type Devil Fruit"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md",
+      "title": "Why So Empty?"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md",
+      "title": "Fruit Uses"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md",
+      "title": "Improved Usage"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md",
+      "title": "Special Paramecias"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits.md",
+      "title": "What Are Devil Fruits"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits.md",
+      "title": "What Are Devil Fruits?"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits.md",
+      "title": "Feature: Ocean's Scorn"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits.md",
+      "title": "Feature: Awakening"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md",
+      "title": "Zoan Type"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md",
+      "title": "Zoan Fruit"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md",
+      "title": "Ability Score Increase"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md",
+      "title": "Hybrid Form"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md",
+      "title": "Transforming for Roleplay"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md",
+      "title": "Full Beast Form"
+    },
+    {
+      "top": "Chapter 6 Devil Fruits",
+      "file": "Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md",
+      "title": "Endless Forms"
+    },
+    {
+      "top": "Chapter 7 Additional Powers",
+      "file": "Chapter 7 Additional Powers/Chapter 7 Additional Powers.md",
+      "title": "Chapter 7 Additional Powers"
+    },
+    {
+      "top": "Chapter 7 Additional Powers",
+      "file": "Chapter 7 Additional Powers/Inspired Innovation/Inspired Innovation.md",
+      "title": "Inspired Innovation Creations"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Armor/Armor.md",
+      "title": "Armor"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Black Blades.md",
+      "title": "Black Blades"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Chapter 8 Special Items.md",
+      "title": "Chapter 8 Special Items"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Consumables/Consumables.md",
+      "title": "Consumables"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Cursed Weapons.md",
+      "title": "Cursed Weapons"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Defiance Of The Red World.md",
+      "title": "Dormant"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Defiance Of The Red World.md",
+      "title": "Wakened"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Defiance Of The Red World.md",
+      "title": "Exalted"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Devil Fruit Objects.md",
+      "title": "Devil Fruit Objects"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Dials and Dial Equipment.md",
+      "title": "Ball Dials"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Dials and Dial Equipment.md",
+      "title": "Breath Dials"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Dials and Dial Equipment.md",
+      "title": "Flame Dials"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Dials and Dial Equipment.md",
+      "title": "Flash Dials"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Dials and Dial Equipment.md",
+      "title": "Flavor Dials"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Dials and Dial Equipment.md",
+      "title": "Heat Dials"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Dials and Dial Equipment.md",
+      "title": "Impact Dials"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Dials and Dial Equipment.md",
+      "title": "Reject Dials"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Dials and Dial Equipment.md",
+      "title": "Jet Dials"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Dials and Dial Equipment.md",
+      "title": "Lamp Dials"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Dials and Dial Equipment.md",
+      "title": "Milky Dials"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Dials and Dial Equipment.md",
+      "title": "Eisen Dials"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Dials and Dial Equipment.md",
+      "title": "Tone Dials"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Dials and Dial Equipment.md",
+      "title": "Vision Dials"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Dials and Dial Equipment.md",
+      "title": "Water Dials"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Dials and Dial Equipment.md",
+      "title": "Thunder Dials"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Ranked Weapons.md",
+      "title": "Ranked Weapons"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Rings/Rings.md",
+      "title": "Rings"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Smiles.md",
+      "title": "Smiles"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Special Books (Non-Canon).md",
+      "title": "Special Books (Non-Canon)"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Staff and Wands/Staff and Wands.md",
+      "title": "Staff and Wands"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/The Silver Seer.md",
+      "title": "Stirring"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/The Silver Seer.md",
+      "title": "Wakened"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/The Silver Seer.md",
+      "title": "Ascendant"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Weapons/Weapons.md",
+      "title": "Weapons"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/White Weapons (Non-Canon).md",
+      "title": "White Weapons (Non-Canon)"
+    },
+    {
+      "top": "Chapter 8 Special Items",
+      "file": "Chapter 8 Special Items/Wondrous Items/Wondrous Items.md",
+      "title": "Wondrous Items"
+    },
+    {
+      "top": "Credits",
+      "file": "Credits/Appendix A/Appendix A.md",
+      "title": "Appendix A"
+    },
+    {
+      "top": "Credits",
+      "file": "Credits/Chapter/Chapter 2.md",
+      "title": "Chapter 2"
+    },
+    {
+      "top": "Credits",
+      "file": "Credits/Chapter/Chapter 2.md",
+      "title": "Chapter"
+    },
+    {
+      "top": "Credits",
+      "file": "Credits/Chapter/Chapter.md",
+      "title": "Chapter"
+    },
+    {
+      "top": "Credits",
+      "file": "Credits/Chapter 1/Chapter 1.md",
+      "title": "Chapter 1"
+    },
+    {
+      "top": "Credits",
+      "file": "Credits/Chapter 2/Chapter 2.md",
+      "title": "Chapter 2"
+    },
+    {
+      "top": "Credits",
+      "file": "Credits/Chapter 5/Chapter 5.md",
+      "title": "Chapter 5"
+    },
+    {
+      "top": "Credits",
+      "file": "Credits/Chapter 6/Chapter 6.md",
+      "title": "Chapter 6"
+    },
+    {
+      "top": "Credits",
+      "file": "Credits/Cover Page and Cipher Pol 9 - sutaneko/Cover Page and Cipher Pol 9 - sutaneko.md",
+      "title": "Cover Page and Cipher Pol 9 - sutaneko"
+    },
+    {
+      "top": "Credits",
+      "file": "Credits/Hazard - Eiichiro Chapter 7/Hazard - Eiichiro Chapter 7.md",
+      "title": "Hazard - Eiichiro Chapter 7"
+    },
+    {
+      "top": "Credits",
+      "file": "Credits/Preface Franky - Deyvidson/Preface Franky - Deyvidson.md",
+      "title": "Preface Franky - Deyvidson"
+    },
+    {
+      "top": "General Sub Sections",
+      "file": "General Sub Sections/Disclaimer.md",
+      "title": "Disclaimer"
+    },
+    {
+      "top": "General Sub Sections",
+      "file": "General Sub Sections/Disclaimer.md",
+      "title": "Eiichiro Oda's One Piece."
+    },
+    {
+      "top": "General Sub Sections",
+      "file": "General Sub Sections/General Sub Sections.md",
+      "title": "General Sub Sections"
+    },
+    {
+      "top": "General Sub Sections",
+      "file": "General Sub Sections/General Sub Sections.md",
+      "title": "An unofficial 5e supplement for"
+    },
+    {
+      "top": "General Sub Sections",
+      "file": "General Sub Sections/Using This Guide.md",
+      "title": "Using This Guide"
+    },
+    {
+      "top": "General Sub Sections",
+      "file": "General Sub Sections/Using This Guide.md",
+      "title": "Recommendation: Higher Power Play"
+    },
+    {
+      "top": "Sourcebook.md",
+      "file": "Sourcebook.md",
+      "title": "Sourcebook"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { creationGrants } from "../../helpers/creation-grants.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -99,6 +100,7 @@ export const subclass: SubclassItem = {
     identifier: "fulminating-glee",
     classIdentifier: "savant",
     advancement: mergeAdvancements(
+      ...creationGrants(SC_ID, [[2,["Twist Fate","Zapping Arc"]],[5,["Blur","Misty Step"]],[9,["Lightning Arrow","Lightning Bolt"]],[13,["Freedom of Movement","Storm Sphere"]],[17,["Far Step","Steel Wind Strike"]]], "Ardent Creations"),
       createItemGrant(SC_ID, 1, [{ uuid: fUuid(sparkingSoul) }]),
       createItemGrant(SC_ID, 3, [{ uuid: fUuid(channelConvictionGlee) }]),
       createItemGrant(SC_ID, 7, [{ uuid: fUuid(auraOfFreedom) }]),

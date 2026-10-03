@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { creationGrants } from "../../helpers/creation-grants.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -98,6 +99,7 @@ export const subclass: SubclassItem = {
     identifier: "thundering-resolve",
     classIdentifier: "savant",
     advancement: mergeAdvancements(
+      ...creationGrants(SC_ID, [[2,["Thunderous Smite","Thunderwave"]],[5,["Shatter","Earth Grasp"]],[9,["Erupting Earth","Thunder Step"]],[13,["Staggering Smite","Stoneskin"]],[17,["Energy Surge","Wall of Stone"]]], "Ardent Creations"),
       createItemGrant(SC_ID, 1, [{ uuid: fUuid(echoingSoul) }]),
       createItemGrant(SC_ID, 3, [{ uuid: fUuid(channelConvictionThunder) }]),
       createItemGrant(SC_ID, 7, [{ uuid: fUuid(auraOfTenacity) }]),

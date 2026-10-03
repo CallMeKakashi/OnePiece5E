@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { creationGrants } from "../../helpers/creation-grants.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -100,6 +101,7 @@ export const subclass: SubclassItem = {
     identifier: "burning-passion",
     classIdentifier: "savant",
     advancement: mergeAdvancements(
+      ...creationGrants(SC_ID, [[2,["Searing Smite","Vengeful Flames"]],[5,["Flaming Sphere","Heat Metal"]],[9,["Beacon of Hope","Fireball"]],[13,["Death Ward","Wall of Fire"]],[17,["Purifying Flames","Mass Cure Wounds"]]], "Ardent Creations"),
       createItemGrant(SC_ID, 1, [{ uuid: fUuid(fierySoul) }]),
       createItemGrant(SC_ID, 3, [{ uuid: fUuid(channelConvictionBurning) }]),
       createItemGrant(SC_ID, 7, [{ uuid: fUuid(auraOfDevotion) }]),

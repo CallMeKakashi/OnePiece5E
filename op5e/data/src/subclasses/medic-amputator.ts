@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { creationGrants } from "../../helpers/creation-grants.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -105,6 +106,7 @@ export const subclass: SubclassItem = {
     identifier: "amputator",
     classIdentifier: "medic",
     advancement: mergeAdvancements(
+      ...creationGrants(SC_ID, [[2,["Shield","Zephyr Strike"]],[3,["Elemental Weapon","Ardent Blade"]],[5,["Spirit Dance","Revivify"]],[7,["Staggering Smite","Death Ward"]],[9,["Gamma Knife","Steel Wind Strike"]]], "Amputator Creations"),
       createItemGrant(SC_ID, 2, [{ uuid: fUuid(incisionInitiator) }, { uuid: fUuid(surgicalPrecision) }]),
       createItemGrant(SC_ID, 6, [{ uuid: fUuid(invasiveLaceration) }]),
       createItemGrant(SC_ID, 10, [{ uuid: fUuid(anatomicalStudy) }]),

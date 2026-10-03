@@ -1,4 +1,5 @@
 import { generateId } from "../../helpers/id.js";
+import { createDAEEffect, upgradeValue } from "../../helpers/effects.js";
 import type { FoundryItem } from "../../schemas/common.js";
 import { roleEquipmentAdvancement } from "./equipment-grants.js";
 import { backgroundOriginAdvancement } from "./origin-advancement.js";
@@ -10,7 +11,7 @@ const STATS = {
 };
 const SRC = { book: "OP5e", page: "", custom: "", license: "" };
 
-function role(id: string, name: string, desc: string): FoundryItem {
+function role(id: string, name: string, desc: string, effects: unknown[] = []): FoundryItem {
   const { advancement: equipment, startingBeri, grantQuantities } = roleEquipmentAdvancement(id);
   const advancement = [...equipment, ...backgroundOriginAdvancement(`role/${id}`, desc, (m) => console.warn(`  ⚠ ${m}`))];
   return {
@@ -35,7 +36,7 @@ function role(id: string, name: string, desc: string): FoundryItem {
       recharge: { value: null, charged: false },
       advancement,
     },
-    effects: [],
+    effects,
     flags: { op5e: { shipRole: true, startingBeri, grantQuantities } },
     folder: null,
     sort: 0,
@@ -99,7 +100,9 @@ export const roles: FoundryItem[] = [
 <tr><td>3</td><td>There is a legendary storm that no one has sailed through before. I will be the first.</td></tr>
 <tr><td>4</td><td>I won't settle for a single ship, I want to sail all manners of ships!</td></tr>
 <tr><td>5</td><td>I've heard legends of a ship that can sail the skies to the moon and back. I want to sail it.</td></tr>
-<tr><td>6</td><td>There's a ship known to revolt against its crews. I will find it and tame it.</td></tr></table>`),
+<tr><td>6</td><td>There's a ship known to revolt against its crews. I will find it and tame it.</td></tr></table>`, [
+    createDAEEffect("role/helmsman/ocean-tamer", "Ocean Tamer: Swim Speed", [upgradeValue("system.attributes.movement.swim", "@attributes.movement.walk")]),
+  ]),
 
   // ─── Cook (Role) ───
   role("cook", "Cook", `<p>The cook is tasked with providing good food and drink to the crew, looking after the pantry and making sure food lasts from island to island. Only a cook can create the kind of food that makes a pirate's heart sing with courage and vigor.</p>

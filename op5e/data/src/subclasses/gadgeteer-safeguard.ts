@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { creationGrants } from "../../helpers/creation-grants.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -99,6 +100,7 @@ export const subclass: SubclassItem = {
     identifier: "safeguard",
     classIdentifier: "gadgeteer",
     advancement: mergeAdvancements(
+      ...creationGrants(SC_ID, [[3,["Shield","Floating Shield"]],[5,["Blur","Earth Grasp"]],[9,["Grand Tower","Spirit Dance"]],[13,["Death Ward","Stoneskin"]],[17,["Giant's Hand","Wall of Force"]]], "Safeguard Creations"),
       createItemGrant(SC_ID, 3, [{ uuid: fUuid(appliedAegis) }, { uuid: fUuid(fortificationZone) }]),
       createItemGrant(SC_ID, 5, [{ uuid: fUuid(immovableObject) }]),
       createItemGrant(SC_ID, 9, [{ uuid: fUuid(dauntlessDesign) }]),

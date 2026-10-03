@@ -1,8 +1,10 @@
 import { registerSettings } from "./settings.mjs";
+import { registerPrerequisites } from "./prerequisites.mjs";
 import { OP5eCharacterCreatorWizard } from "./wizard/WizardApp.mjs";
 
 Hooks.once("init", () => {
   registerSettings();
+  registerPrerequisites();
 
   Handlebars.registerHelper("eq", (a, b) => a === b);
   Handlebars.registerHelper("inc", (n) => Number(n ?? 0) + 1);

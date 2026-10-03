@@ -1,0 +1,474 @@
+{
+  "stats": {
+    "class-features": {
+      "docs": 749,
+      "withActivities": 205,
+      "flagged": 6
+    },
+    "racial-features": {
+      "docs": 84,
+      "withActivities": 21,
+      "flagged": 1
+    },
+    "feats": {
+      "docs": 201,
+      "withActivities": 87,
+      "flagged": 0
+    },
+    "items": {
+      "docs": 364,
+      "withActivities": 97,
+      "flagged": 3
+    },
+    "creations": {
+      "docs": 427,
+      "withActivities": 427,
+      "flagged": 27
+    },
+    "backgrounds": {
+      "docs": 56,
+      "withActivities": 0,
+      "flagged": 0
+    }
+  },
+  "byKind": {
+    "described-damage-missing": 7,
+    "save-missing": 6,
+    "dice-not-in-text": 6,
+    "save-ability-not-in-text": 9,
+    "text-save-not-automated": 20,
+    "healing-missing": 4
+  },
+  "findings": [
+    {
+      "pack": "class-features",
+      "name": "Conqueror's Haki Master",
+      "issues": [
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 2d6 force; no activity deals force"
+        }
+      ]
+    },
+    {
+      "pack": "class-features",
+      "name": "Experimental Medicine",
+      "issues": [
+        {
+          "kind": "save-missing",
+          "detail": "text has con save; no save activity"
+        }
+      ]
+    },
+    {
+      "pack": "class-features",
+      "name": "Endemic Surge",
+      "issues": [
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 1d6 necrotic; no activity deals necrotic"
+        }
+      ]
+    },
+    {
+      "pack": "class-features",
+      "name": "Experimental Ooze",
+      "issues": [
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 1d8 fire; no activity deals fire"
+        }
+      ]
+    },
+    {
+      "pack": "class-features",
+      "name": "Area Strike",
+      "issues": [
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 2d6 slashing; no activity deals slashing"
+        }
+      ]
+    },
+    {
+      "pack": "class-features",
+      "name": "Channel Conviction: Caustic Spite",
+      "issues": [
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 1d8 acid; no activity deals acid"
+        }
+      ]
+    },
+    {
+      "pack": "racial-features",
+      "name": "Minor Haki",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 1d4; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "items",
+      "name": "Burn Bazooka",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 3d6; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "items",
+      "name": "Thunder Dial",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 1d8; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "items",
+      "name": "Flame Dial",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 1d10; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Levitate",
+      "issues": [
+        {
+          "kind": "save-ability-not-in-text",
+          "detail": "activity saves str; text mentions con"
+        },
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions con save; activities save str"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Hero's Feast",
+      "issues": [
+        {
+          "kind": "save-ability-not-in-text",
+          "detail": "activity saves str; text mentions wis"
+        },
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions wis save; activities save str"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Battle Transformation",
+      "issues": [
+        {
+          "kind": "save-missing",
+          "detail": "text has con save; no save activity"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Plant Transformation",
+      "issues": [
+        {
+          "kind": "healing-missing",
+          "detail": "text grants hit points but no heal activity"
+        },
+        {
+          "kind": "save-missing",
+          "detail": "text has con save; no save activity"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Banishing Smite",
+      "issues": [
+        {
+          "kind": "save-missing",
+          "detail": "text has wis save; no save activity"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Transmute Rock",
+      "issues": [
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions wis save; activities save str, dex"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Fairy Lights",
+      "issues": [
+        {
+          "kind": "save-ability-not-in-text",
+          "detail": "activity saves str; text mentions dex"
+        },
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions dex save; activities save str"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Haste",
+      "issues": [
+        {
+          "kind": "save-ability-not-in-text",
+          "detail": "activity saves str; text mentions dex"
+        },
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions dex save; activities save str"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Enlarge/Reduce",
+      "issues": [
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions str save; activities save con"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Karma",
+      "issues": [
+        {
+          "kind": "healing-missing",
+          "detail": "text grants hit points but no heal activity"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Concoct Ooze",
+      "issues": [
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 1d10 fire; no activity deals fire"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Chilling Necrosis",
+      "issues": [
+        {
+          "kind": "healing-missing",
+          "detail": "text grants hit points but no heal activity"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Bane",
+      "issues": [
+        {
+          "kind": "save-ability-not-in-text",
+          "detail": "activity saves str; text mentions cha"
+        },
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions cha save; activities save str"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Slow",
+      "issues": [
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions dex save; activities save wis"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Spawn Plant",
+      "issues": [
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 1d8 piercing; no activity deals piercing"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Prismatic Spray",
+      "issues": [
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions con save; activities save dex"
+        },
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions wis save; activities save dex"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Firestorm",
+      "issues": [
+        {
+          "kind": "save-ability-not-in-text",
+          "detail": "activity saves str; text mentions dex"
+        },
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions dex save; activities save str"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Prismatic Wall",
+      "issues": [
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions wis save; activities save con, dex"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Gadget Armor",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 3d10; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Intellect Fortress",
+      "issues": [
+        {
+          "kind": "save-ability-not-in-text",
+          "detail": "activity saves str; text mentions cha"
+        },
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions cha save; activities save str"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Irresistible Dance",
+      "issues": [
+        {
+          "kind": "save-ability-not-in-text",
+          "detail": "activity saves str; text mentions dex, wis"
+        },
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions dex save; activities save str"
+        },
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions wis save; activities save str"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Toxic Trigger",
+      "issues": [
+        {
+          "kind": "save-missing",
+          "detail": "text has con save; no save activity"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Contagion",
+      "issues": [
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions wis save; activities save con"
+        },
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions str save; activities save con"
+        },
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions int save; activities save con"
+        },
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions dex save; activities save con"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Frigid Bullet",
+      "issues": [
+        {
+          "kind": "save-missing",
+          "detail": "text has con save; no save activity"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Beacon of Hope",
+      "issues": [
+        {
+          "kind": "save-ability-not-in-text",
+          "detail": "activity saves str; text mentions wis"
+        },
+        {
+          "kind": "text-save-not-automated",
+          "detail": "text mentions wis save; activities save str"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Life Steal",
+      "issues": [
+        {
+          "kind": "healing-missing",
+          "detail": "text grants hit points but no heal activity"
+        }
+      ]
+    },
+    {
+      "pack": "creations",
+      "name": "Elemental Trap",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 3d10; text has 3d8, 1d8"
+        }
+      ]
+    }
+  ]
+}

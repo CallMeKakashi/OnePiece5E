@@ -2,7 +2,8 @@ import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
-import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { createItemGrant, createItemChoiceRestricted, createScaleValue, mergeAdvancements } from "../../helpers/advancement.js";
+import { shotUuids, gunsmithDef, hemorrhagingDef, uuidOf } from "../class-features/class-content.js";
 
 const SUB = "subclass/fighter/gunslinger";
 const F = "feature/fighter/gunslinger";
@@ -102,6 +103,13 @@ export const gunslinger: SubclassItem = {
         { uuid: fUuid(`${F}/firearm-proficiency`) },
         { uuid: fUuid(`${F}/trick-shots`) },
       ]),
+      createItemGrant(SUB, 3, [{ uuid: uuidOf(gunsmithDef) }], "gunsmith"),
+      createItemGrant(SUB, 18, [{ uuid: uuidOf(hemorrhagingDef) }], "hemorrhaging-critical"),
+      createItemChoiceRestricted(SUB, 3, shotUuids, { count: 2, replacement: true, label: "Trick Shots (level 3)" }),
+      createItemChoiceRestricted(SUB, 7, shotUuids, { count: 1, replacement: true, label: "Trick Shots (level 7)" }),
+      createItemChoiceRestricted(SUB, 10, shotUuids, { count: 1, replacement: true, label: "Trick Shots (level 10)" }),
+      createItemChoiceRestricted(SUB, 15, shotUuids, { count: 1, replacement: true, label: "Trick Shots (level 15)" }),
+      createItemChoiceRestricted(SUB, 18, shotUuids, { count: 1, replacement: true, label: "Trick Shots (level 18)" }),
       createItemGrant(SUB, 7, [
         { uuid: fUuid(`${F}/bullet-time`) },
       ]),

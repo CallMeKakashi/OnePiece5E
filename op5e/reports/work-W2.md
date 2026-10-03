@@ -1,0 +1,4 @@
+# W2 summary
+Done: level fixes (Blitzkrieg, Master of None, Gadget Trickster Stupefying Creation 3); creationGrants wired in 19 subclasses (Savant x9, Gadgeteer/Specialist x6, Medic x4; build throws on missing creation names, build 0 errors); Cavalier/Samurai Bonus Proficiency Trait choice at 3; tricks-known ScaleValue for Bard and Marksman; Gadgeteer progression "artificer" (verified vs book table: all 20 levels match 5e artificer slots); Blade Master Hew options as separate features; Storm Herald storms split into 9 option features (granted alongside parents).
+Not done: Spirit Speaker has no option lists in book (nothing to split); Hew/Storm are granted as plain features, not ItemChoice; no full scan of all 80 subclasses for other level mismatches beyond the triage list; "Storm Sphere" alias to "Stormy Sphere" used.
+Build: Total 2285 items, 0 errors.

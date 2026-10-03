@@ -6,8 +6,8 @@ import {
   giantSlam,
   giantNaturalAthlete, warriorsMight, giantsEndurance,
   thickSkin, fearFactor, ancientNaturalWeapons, titanicStrength,
-  wotanDarkvision, wotanAquaticAdaptation, wotanSpeechOfTheSea,
-  dexterous, frostBorn, iceGiantDarkvision,
+  wotanSizeSpeed, wotanDarkvision, wotanAquaticAdaptation, wotanSpeechOfTheSea,
+  iceGiantSpeed, dexterous, frostBorn, iceGiantDarkvision,
 } from "../racial-features/giant.js";
 
 const RACE_ID = "race/giant";
@@ -32,7 +32,9 @@ export const giant: RaceItem = {
   system: {
     description: {
       value: `<p>Giants are immensely powerful beings that tower over all other races. Most giants are over 20 meters tall and possess incredible strength. Their size makes them formidable warriors but also marks them as a DM race due to scale challenges.</p>
-<p><strong>Subraces:</strong> Standard Giant, Ancient Giant, Wotan, Ice Giant.</p>`,
+<p><strong>Subraces:</strong> Standard Giant, Ancient Giant, Wotan, Ice Giant.</p>
+<h4>Optional Rule: Damage Spread</h4>
+<p>Much like a cannon, a giant's fist or weapon would not only damage to a single target, but also the creatures and objects around it that cannot dodge. This damage spread DC may be calculated the same way cannons are, but alternative rulings (such as based of the strength modifier) may be used. Due to this ruling and the size of the race, giants are a DM race and may not be used that often in any games.</p>`,
       chat: "",
     },
     source: { book: "OP5e", page: "", custom: "", license: "" },
@@ -55,11 +57,13 @@ export const giant: RaceItem = {
         { uuid: feat(titanicStrength._id), optional: true },
       ], "ancient-giant"),
       createItemGrant(RACE_ID, 0, [
+        { uuid: feat(wotanSizeSpeed._id), optional: true },
         { uuid: feat(wotanDarkvision._id), optional: true },
         { uuid: feat(wotanAquaticAdaptation._id), optional: true },
         { uuid: feat(wotanSpeechOfTheSea._id), optional: true },
       ], "wotan"),
       createItemGrant(RACE_ID, 0, [
+        { uuid: feat(iceGiantSpeed._id), optional: true },
         { uuid: feat(dexterous._id), optional: true },
         { uuid: feat(frostBorn._id), optional: true },
         { uuid: feat(iceGiantDarkvision._id), optional: true },

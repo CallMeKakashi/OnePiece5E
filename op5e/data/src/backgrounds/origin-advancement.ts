@@ -36,6 +36,11 @@ const genericTool = (p: string): { count: number; pool: string[] } | null => {
 // Weapon feats by the weapon each one covers (from the feat text): ranged simple/martial weapons, and melee ones dealing piercing or slashing.
 const RANGED_WEAPON_FEATS = ["Bow Mastery", "Dart Master", "Handgun Master", "Rifle Master", "Shotgun Master", "Sling Master"];
 const MELEE_PIERCING_SLASHING_FEATS = ["Rapier Mastery", "Longsword Master", "Katana Master", "Axe Mastery", "Scimitar Master", "Short Blade Master", "Spear Mastery", "Warpick Mastery", "Whip Master", "Cutlass Mastery", "Lance Master", "Polearm Master"];
+// Weapon proficiency keys (dnd5e baseItem ids). Guns/cutlass/katana/odachi have no baseItem in this pack, so they cannot be keyed.
+const WEAPON_KEY: Record<string, string> = { battleaxes: "weapon:mar:battleaxe", handaxes: "weapon:sim:handaxe", greataxes: "weapon:mar:greataxe", "war picks": "weapon:mar:warpick" };
+const RANGED_WEAPON_KEYS = ["weapon:sim:lightcrossbow", "weapon:sim:dart", "weapon:sim:shortbow", "weapon:sim:sling", "weapon:mar:blowgun", "weapon:mar:handcrossbow", "weapon:mar:heavycrossbow", "weapon:mar:longbow"];
+const MELEE_PS_WEAPON_KEYS = ["dagger", "handaxe", "javelin", "spear", "sickle"].map((w) => `weapon:sim:${w}`)
+  .concat(["battleaxe", "glaive", "greataxe", "halberd", "lance", "longsword", "pike", "rapier", "scimitar", "shortsword", "trident", "warpick", "whip"].map((w) => `weapon:mar:${w}`));
 const ALIAS: Record<string, string> = { "warpick master": "warpick mastery" };
 const strip = (html: string) => html.replace(/<[^>]+>/g, " ").replace(/&[a-z]+;/g, " ").replace(/\s+/g, " ").trim();
 const names = (s: string) => s.split(/,|\band\b|\bor\b/i).map((x) => x.trim().toLowerCase().replace(/\.$/, "")).filter(Boolean);
@@ -77,6 +82,40 @@ export function backgroundOriginAdvancement(backgroundId: string, desc: string, 
     }
     if (ok) out.push(createTrait(id, 0, { mode: "default", grants, choices, hint: toolText }, "tools"));
     else log(`${backgroundId}: tools left as text "${toolText}"`);
+  }
+
+  // weapon proficiencies: fixed list, or "2 simple or martial ranged / melee (piercing or slashing) weapons of your choice"
+  const weaponText = strip(desc.match(/Weapon Proficiencies:<\/strong>\s*([^<]*)/)?.[1] ?? "").replace(/\.$/, "");
+  if (weaponText) {
+    const fixed = names(weaponText).map((n) => WEAPON_KEY[n]);
+    if (fixed.every(Boolean)) out.push(createTrait(id, 0, { mode: "default", grants: fixed, hint: weaponText }, "weapons"));
+    else if (/^2 .*ranged/i.test(weaponText)) out.push(createTrait(id, 0, { mode: "default", grants: [], choices: [{ count: 2, pool: RANGED_WEAPON_KEYS }], hint: weaponText }, "weapons"));
+    else if (/^2 .*melee/i.test(weaponText)) out.push(createTrait(id, 0, { mode: "default", grants: [], choices: [{ count: 2, pool: MELEE_PS_WEAPON_KEYS }], hint: weaponText }, "weapons"));
+    else log(`${backgroundId}: weapon proficiencies left as text "${weaponText}"`);
+  }
+
+  // "You gain a feat of your choice" (Wanderer): any feat, offered from the whole feats pack and open to drops
+  if (/<h4>Feature:[^<]*<\/h4>\s*<p>[^<]*You gain a feat of your choice/i.test(desc)) {
+    const adv = createItemChoiceRestricted(id, 0, feats.map((f) => compendiumUuid("feats", f._id)), { count: 1, label: "feat" });
+    (adv.configuration as any).allowDrops = true;
+    out.push(adv);
+  }
+
+  // role "Feature: Bonus Feat": any feat; the book's suggested options are the pool, drops stay open
+  const bonus = strip(desc.match(/<h4>Feature: Bonus Feat<\/h4>\s*<p>([^<]*)/)?.[1] ?? "");
+  if (bonus) {
+    const wanted = (bonus.match(/options:\s*(.+?)\.?$/i)?.[1] ?? "").split(/,/).map((n) => n.trim().toLowerCase()).filter(Boolean);
+    const uuids = wanted.map((n) => feats.find((f) => f.name.toLowerCase() === n)).filter(Boolean).map((f) => compendiumUuid("feats", f!._id));
+    if (uuids.length !== wanted.length) log(`${backgroundId}: bonus feat suggestions not all resolved (${uuids.length}/${wanted.length})`);
+    const adv = createItemChoiceRestricted(id, 0, uuids, { count: 1, label: "bonus-feat" });
+    (adv.configuration as any).allowDrops = true;
+    out.push(adv);
+  }
+
+  // Blacksmith Mastercrafter: second option is the Master Smith feat (the first option is text-only)
+  if (backgroundId === "blacksmith") {
+    const ms = feats.find((f) => f.name === "Master Smith");
+    if (ms) out.push(createItemChoiceRestricted(id, 0, [compendiumUuid("feats", ms._id)], { count: 1, label: "mastercrafter-feat" }));
   }
 
   // feat: "choice of the X Feat or the Y Feat" -> ItemChoice over those feats in the feats pack

@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { creationGrants } from "../../helpers/creation-grants.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -95,6 +96,7 @@ export const subclass: SubclassItem = {
     identifier: "elementalist",
     classIdentifier: "gadgeteer",
     advancement: mergeAdvancements(
+      ...creationGrants(SC_ID, [[3,["Fog Cloud","Advanced Weapon"]],[5,["Scorch","Mirror Image"]],[9,["Lightning Bolt","Fireball"]],[13,["Stormy Sphere","Ardent Shield"]],[17,["Cloudkill","Cone of Cold"]]], "Elementalist Creations"),
       createItemGrant(SC_ID, 3, [{ uuid: fUuid(gadgetWeapon) }, { uuid: fUuid(creationRecovery) }]),
       createItemGrant(SC_ID, 5, [{ uuid: fUuid(battleGadgeteer) }]),
       createItemGrant(SC_ID, 9, [{ uuid: fUuid(elementalEmpowerment) }]),

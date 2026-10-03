@@ -1,0 +1,1092 @@
+# Sourcebook completeness
+
+Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 1047.
+
+| section | titles | matched |
+|---|---:|---:|
+| Appendix A Creations | 487 | 430 |
+| Appendix B Running The Game | 106 | 0 |
+| Chapter 1 Races | 64 | 7 |
+| Chapter 2 Classes | 943 | 613 |
+| Chapter 3 Character Origins | 368 | 52 |
+| Chapter 4 Equipment and Items | 36 | 4 |
+| Chapter 5 Customization | 283 | 216 |
+| Chapter 6 Devil Fruits | 87 | 6 |
+| Chapter 7 Additional Powers | 144 | 142 |
+| Chapter 8 Special Items | 97 | 61 |
+| Credits | 14 | 0 |
+| General Sub Sections | 6 | 0 |
+| Sourcebook.md | 1 | 0 |
+
+## Appendix A Creations (46 unmatched)
+- Animated Undead  _(Appendix A Creations/Animated Undead/Animated Undead.md)_
+- Appendix A Creations  _(Appendix A Creations/Appendix A Creations.md)_
+- Called Beast  _(Appendix A Creations/Called Beast/Called Beast.md)_
+- Concocted Ooze  _(Appendix A Creations/Concocted Ooze/Concocted Ooze.md)_
+- Conjured Elemental  _(Appendix A Creations/Conjured Elemental/Conjured Elemental.md)_
+- Created Construct  _(Appendix A Creations/Created Construct/Created Construct.md)_
+- 2nd Level  _(Appendix A Creations/Created Servant/2nd Level.md)_
+- Elemental Trap Effects  _(Appendix A Creations/Created Servant/Actions.md)_
+- Bard Creations Charm Person  _(Appendix A Creations/Creation Lists/Bard Creations Charm Person.md)_
+- Tricks (0 Level)  _(Appendix A Creations/Creation Lists/Bard Creations Charm Person.md)_
+- Creation Lists  _(Appendix A Creations/Creation Lists/Creation Lists.md)_
+- Creations 2  _(Appendix A Creations/Creation Lists/Creations 2.md)_
+- Creations  _(Appendix A Creations/Creation Lists/Creations 2.md)_
+- Tricks (0 Level) Feather Fall  _(Appendix A Creations/Creation Lists/Creations 2.md)_
+- Creations  _(Appendix A Creations/Creation Lists/Creations.md)_
+- Tricks (0 Level)  _(Appendix A Creations/Creation Lists/Creations.md)_
+- Greater Restoration Gadgeteer  _(Appendix A Creations/Creation Lists/Greater Restoration Gadgeteer.md)_
+- Marksman Entangle  _(Appendix A Creations/Creation Lists/Marksman Entangle.md)_
+- Tricks (0 Level)  _(Appendix A Creations/Creation Lists/Medic Creations.md)_
+- Savant Creations Lesser Restoration  _(Appendix A Creations/Creation Lists/Savant Creations Lesser Restoration.md)_
+- 1st Level  _(Appendix A Creations/Creations Descriptions/1st Level.md)_
+- Bards - Stories to Shape the World  _(Appendix A Creations/Creations Descriptions/Bards - Stories to Shape the World.md)_
+- Creations Descriptions  _(Appendix A Creations/Creations Descriptions/Creations Descriptions.md)_
+- Gadgeteers - Brains over Brawn  _(Appendix A Creations/Creations Descriptions/Gadgeteers - Brains over Brawn.md)_
+- Marksmen - Always Prepared  _(Appendix A Creations/Creations Descriptions/Marksmen - Always Prepared.md)_
+- Medics - Miracle Workers  _(Appendix A Creations/Creations Descriptions/Medics - Miracle Workers.md)_
+- Savants - Power from Within  _(Appendix A Creations/Creations Descriptions/Savants - Power from Within.md)_
+- Tricks  _(Appendix A Creations/Creations Descriptions/Tricks.md)_
+- Gathered Swarm  _(Appendix A Creations/Gathered Swarm/Gathered Swarm.md)_
+- Spawned Plant  _(Appendix A Creations/Spawned Plant/Spawned Plant.md)_
+- 4th Level  _(Appendix A Creations/Summoned Yokai/4th Level.md)_
+- Confusion Behavior Table  _(Appendix A Creations/Summoned Yokai/4th Level.md)_
+- Create Object Table  _(Appendix A Creations/Summoned Yokai/4th Level.md)_
+- 5th Level  _(Appendix A Creations/Summoned Yokai/5th Level.md)_
+- Animated Object Statistics  _(Appendix A Creations/Summoned Yokai/5th Level.md)_
+- 6th Level  _(Appendix A Creations/Summoned Yokai/6th Level.md)_
+- Precipitation  _(Appendix A Creations/Summoned Yokai/6th Level.md)_
+- Temperature  _(Appendix A Creations/Summoned Yokai/6th Level.md)_
+- Wind  _(Appendix A Creations/Summoned Yokai/6th Level.md)_
+- 7th Level  _(Appendix A Creations/Summoned Yokai/7th Level.md)_
+- Storm of Vengeance After Round 1  _(Appendix A Creations/Summoned Yokai/7th Level.md)_
+- 8th Level  _(Appendix A Creations/Summoned Yokai/8th Level.md)_
+- 9th Level  _(Appendix A Creations/Summoned Yokai/9th Level.md)_
+- Prismatic Wall Table  _(Appendix A Creations/Summoned Yokai/9th Level.md)_
+- Summoned Yokai  _(Appendix A Creations/Summoned Yokai/Summoned Yokai.md)_
+- 3rd Level  _(Appendix A Creations/Tiny Servant/3rd Level.md)_
+
+## Appendix B Running The Game (105 unmatched)
+- Appendix B Running The Game  _(Appendix B Running The Game/Appendix B Running The Game.md)_
+- Crafting  _(Appendix B Running The Game/Crafting/Crafting.md)_
+- Experience  _(Appendix B Running The Game/Crafting/Experience.md)_
+- Crafting Classes  _(Appendix B Running The Game/Crafting/Experience.md)_
+- Crafting Roles and Backgrounds  _(Appendix B Running The Game/Crafting/Experience.md)_
+- Permanent Haki-Imbuement  _(Appendix B Running The Game/Crafting/Experience.md)_
+- Materials  _(Appendix B Running The Game/Crafting/Materials.md)_
+- Crafting Cost  _(Appendix B Running The Game/Crafting/Materials.md)_
+- Time  _(Appendix B Running The Game/Crafting/Time.md)_
+- Crafting Time  _(Appendix B Running The Game/Crafting/Time.md)_
+- Tools  _(Appendix B Running The Game/Crafting/Tools.md)_
+- Approaching Awakening  _(Appendix B Running The Game/Making Devil Fruits/Approaching Awakening.md)_
+- Awakening Attempt  _(Appendix B Running The Game/Making Devil Fruits/Approaching Awakening.md)_
+- Devil Fruit Vulnerabilities  _(Appendix B Running The Game/Making Devil Fruits/Devil Fruit Vulnerabilities.md)_
+- Devil Fruits and the Environment  _(Appendix B Running The Game/Making Devil Fruits/Devil Fruits and the Environment.md)_
+- Devil Fruit Users in Liquids  _(Appendix B Running The Game/Making Devil Fruits/Devil Fruits and the Environment.md)_
+- Devil Fruit Users and Seastone  _(Appendix B Running The Game/Making Devil Fruits/Devil Fruits and the Environment.md)_
+- Reincarnation  _(Appendix B Running The Game/Making Devil Fruits/Devil Fruits and the Environment.md)_
+- Making Devil Fruits  _(Appendix B Running The Game/Making Devil Fruits/Making Devil Fruits.md)_
+- Multiple Devil Fruit Rules  _(Appendix B Running The Game/Making Devil Fruits/Multiple Devil Fruit Rules.md)_
+- Availability of Goods  _(Appendix B Running The Game/Purchasing Goods/Availability of Goods.md)_
+- Prices of Goods  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Weapons and Ammo  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Ranked Weapons  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Special Ammo  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Ranked Items and Size  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Armor and Shields  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Special Armor  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Special Shields  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Consumables  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Apparatuses and Spell Scrolls  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Apparatuses  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Creation Scrolls  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Devil Fruits  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Devil Fruit Costs  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Misc  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Beast Costs  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Slave Costs  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
+- Purchasing Goods  _(Appendix B Running The Game/Purchasing Goods/Purchasing Goods.md)_
+- Awarding Haki  _(Appendix B Running The Game/Rewards/Awarding Haki.md)_
+- Boons  _(Appendix B Running The Game/Rewards/Boons.md)_
+- Boon of Super Sonic Speed  _(Appendix B Running The Game/Rewards/Boons.md)_
+- Boon of Enhanced Size  _(Appendix B Running The Game/Rewards/Boons.md)_
+- Boon of the Tale Weaver  _(Appendix B Running The Game/Rewards/Boons.md)_
+- Boon of One Thousand Blows  _(Appendix B Running The Game/Rewards/Boons.md)_
+- Boon of the Tactician  _(Appendix B Running The Game/Rewards/Boons.md)_
+- Boon of Ultimate Armor  _(Appendix B Running The Game/Rewards/Boons.md)_
+- Boon of the Expert Hunter  _(Appendix B Running The Game/Rewards/Boons.md)_
+- Boon of Advanced Chemistry  _(Appendix B Running The Game/Rewards/Boons.md)_
+- Boon of Deadly Duelist  _(Appendix B Running The Game/Rewards/Boons.md)_
+- Boon of Endless Conviction  _(Appendix B Running The Game/Rewards/Boons.md)_
+- Boon of the Restless Heart  _(Appendix B Running The Game/Rewards/Boons.md)_
+- Boon of Electro Mastery  _(Appendix B Running The Game/Rewards/Boons.md)_
+- Boon of the Barrage  _(Appendix B Running The Game/Rewards/Boons.md)_
+- Cursed Items  _(Appendix B Running The Game/Rewards/Cursed Items.md)_
+- Magic Items  _(Appendix B Running The Game/Rewards/Magic Items.md)_
+- "Magic" Items  _(Appendix B Running The Game/Rewards/Magic Items.md)_
+- Running Staged Magic Items  _(Appendix B Running The Game/Rewards/Magic Items.md)_
+- Dormant  _(Appendix B Running The Game/Rewards/Magic Items.md)_
+- Wakened  _(Appendix B Running The Game/Rewards/Magic Items.md)_
+- Exalted  _(Appendix B Running The Game/Rewards/Magic Items.md)_
+- Reward Guide  _(Appendix B Running The Game/Rewards/Reward Guide.md)_
+- Rewards Guide  _(Appendix B Running The Game/Rewards/Reward Guide.md)_
+- Tiers of Play  _(Appendix B Running The Game/Rewards/Reward Guide.md)_
+- Rewards  _(Appendix B Running The Game/Rewards/Rewards.md)_
+- Ability Crafting  _(Appendix B Running The Game/Suggested Rulings/Ability Crafting.md)_
+- Allied Space Occupancy  _(Appendix B Running The Game/Suggested Rulings/Allied Space Occupancy.md)_
+- Automatic Success in Skill Checks  _(Appendix B Running The Game/Suggested Rulings/Automatic Success in Skill Checks.md)_
+- Boarding Combat  _(Appendix B Running The Game/Suggested Rulings/Boarding Combat.md)_
+- Crossing Ships  _(Appendix B Running The Game/Suggested Rulings/Boarding Combat.md)_
+- Ship Movement in Combat  _(Appendix B Running The Game/Suggested Rulings/Boarding Combat.md)_
+- Attacking The Ship  _(Appendix B Running The Game/Suggested Rulings/Boarding Combat.md)_
+- Collision Damage  _(Appendix B Running The Game/Suggested Rulings/Collision Damage.md)_
+- Creations and Objects  _(Appendix B Running The Game/Suggested Rulings/Creations and Objects.md)_
+- Cri  _(Appendix B Running The Game/Suggested Rulings/Cri.md)_
+- Destroying Special Objects  _(Appendix B Running The Game/Suggested Rulings/Destroying Special Objects.md)_
+- Hybrid Races  _(Appendix B Running The Game/Suggested Rulings/Hybrid Races.md)_
+- Improved Help Action  _(Appendix B Running The Game/Suggested Rulings/Improved Help Action.md)_
+- Lingering Injuries  _(Appendix B Running The Game/Suggested Rulings/Lingering Injuries.md)_
+- Moderate Lingering Injuries  _(Appendix B Running The Game/Suggested Rulings/Lingering Injuries.md)_
+- Severe Lingering Injuries  _(Appendix B Running The Game/Suggested Rulings/Lingering Injuries.md)_
+- Making Custom Backgrounds  _(Appendix B Running The Game/Suggested Rulings/Making Custom Backgrounds.md)_
+- Non-Lethal Damage  _(Appendix B Running The Game/Suggested Rulings/Non-Lethal Damage.md)_
+- Par  _(Appendix B Running The Game/Suggested Rulings/Par.md)_
+- Proficiency Reclaim  _(Appendix B Running The Game/Suggested Rulings/Proficiency Reclaim.md)_
+- Rolling Hit Points  _(Appendix B Running The Game/Suggested Rulings/Rolling Hit Points.md)_
+- Shoving, Grappling, and Disarming  _(Appendix B Running The Game/Suggested Rulings/Shoving, Grappling, and Disarming.md)_
+- Siege Against Constructs  _(Appendix B Running The Game/Suggested Rulings/Siege Against Constructs.md)_
+- Skills and Tools  _(Appendix B Running The Game/Suggested Rulings/Skills and Tools.md)_
+- Sta  _(Appendix B Running The Game/Suggested Rulings/Sta.md)_
+- Story-Classing  _(Appendix B Running The Game/Suggested Rulings/Story-Classing.md)_
+- Joyful's One Piece DMing Experience  _(Appendix B Running The Game/Suggested Rulings/Story-Classing.md)_
+- Suggested Rulings  _(Appendix B Running The Game/Suggested Rulings/Suggested Rulings.md)_
+- Unreasonable Strength  _(Appendix B Running The Game/Suggested Rulings/Unreasonable Strength.md)_
+- Ursa Array (Variant Standard Array)  _(Appendix B Running The Game/Suggested Rulings/Ursa Array (Variant Standard Array).md)_
+- Natural Obstacles  _(Appendix B Running The Game/The Environment/Natural Obstacles.md)_
+- Whirlpools  _(Appendix B Running The Game/The Environment/Natural Obstacles.md)_
+- Tidal Waves  _(Appendix B Running The Game/The Environment/Natural Obstacles.md)_
+- Storms  _(Appendix B Running The Game/The Environment/Natural Obstacles.md)_
+- Reverse Mountain  _(Appendix B Running The Game/The Environment/Natural Obstacles.md)_
+- Magma  _(Appendix B Running The Game/The Environment/Natural Obstacles.md)_
+- Downtime Sessions  _(Appendix B Running The Game/The Environment/Natural Obstacles.md)_
+- The Environment  _(Appendix B Running The Game/The Environment/The Environment.md)_
+- Travel Time  _(Appendix B Running The Game/The Environment/Travel Time.md)_
+- Travel By Sea  _(Appendix B Running The Game/The Environment/Travel Time.md)_
+
+## Chapter 1 Races (57 unmatched)
+- Augmented Traits  _(Chapter 1 Races/Augmented/Augmented Traits.md)_
+- Cyborg  _(Chapter 1 Races/Augmented/Augmented Traits.md)_
+- Chimera  _(Chapter 1 Races/Augmented/Augmented Traits.md)_
+- Note for Players: Flying Races  _(Chapter 1 Races/Augmented/Augmented Traits.md)_
+- Artificial Human  _(Chapter 1 Races/Augmented/Augmented Traits.md)_
+- Revived  _(Chapter 1 Races/Augmented/Augmented Traits.md)_
+- Made to Order  _(Chapter 1 Races/Augmented/Made to Order.md)_
+- Scientific Menagerie  _(Chapter 1 Races/Augmented/Scientific Menagerie.md)_
+- Chapter 1 Races  _(Chapter 1 Races/Chapter 1 Races.md)_
+- Choosing a Race  _(Chapter 1 Races/Choosing a Race/Choosing a Race.md)_
+- A Little Gullible  _(Chapter 1 Races/Dwarves/A Little Gullible.md)_
+- Dwarven Traits  _(Chapter 1 Races/Dwarves/Dwarven Traits.md)_
+- DM's Note  _(Chapter 1 Races/Dwarves/Dwarven Traits.md)_
+- Small, But Deadly  _(Chapter 1 Races/Dwarves/Small, But Deadly.md)_
+- A history of strife  _(Chapter 1 Races/Fishman/A history of strife.md)_
+- Champions of the Sea  _(Chapter 1 Races/Fishman/Champions of the Sea.md)_
+- Fishman Traits  _(Chapter 1 Races/Fishman/Fishman Traits.md)_
+- Sharptooth  _(Chapter 1 Races/Fishman/Fishman Traits.md)_
+- Stronghide  _(Chapter 1 Races/Fishman/Fishman Traits.md)_
+- Multipod  _(Chapter 1 Races/Fishman/Fishman Traits.md)_
+- Giant Traits  _(Chapter 1 Races/Giants/Giant Traits.md)_
+- Optional Rule: Damage Spread  _(Chapter 1 Races/Giants/Giant Traits.md)_
+- Standard Giant  _(Chapter 1 Races/Giants/Giant Traits.md)_
+- Ancient Giant  _(Chapter 1 Races/Giants/Giant Traits.md)_
+- Wotan  _(Chapter 1 Races/Giants/Giant Traits.md)_
+- Ice Giant  _(Chapter 1 Races/Giants/Giant Traits.md)_
+- Giants  _(Chapter 1 Races/Giants/Giants.md)_
+- Large And In Charge  _(Chapter 1 Races/Giants/Large And In Charge.md)_
+- Sought Out Strength  _(Chapter 1 Races/Giants/Sought Out Strength.md)_
+- History of Conflict  _(Chapter 1 Races/Human/History of Conflict.md)_
+- Human Traits  _(Chapter 1 Races/Human/Human Traits.md)_
+- Standard Human  _(Chapter 1 Races/Human/Human Traits.md)_
+- Kuja Tribe  _(Chapter 1 Races/Human/Human Traits.md)_
+- Long-arm Tribe  _(Chapter 1 Races/Human/Human Traits.md)_
+- Snakeneck Tribe  _(Chapter 1 Races/Human/Human Traits.md)_
+- Long-leg Tribe  _(Chapter 1 Races/Human/Human Traits.md)_
+- Three-eye Tribe  _(Chapter 1 Races/Human/Human Traits.md)_
+- Restless Hearts  _(Chapter 1 Races/Human/Restless Hearts.md)_
+- Former Gods  _(Chapter 1 Races/Lunarians/Former Gods.md)_
+- Hidden Visage  _(Chapter 1 Races/Lunarians/Hidden Visage.md)_
+- DM's Note  _(Chapter 1 Races/Lunarians/Hidden Visage.md)_
+- Lunarian Traits  _(Chapter 1 Races/Lunarians/Lunarian Traits.md)_
+- Lunarians  _(Chapter 1 Races/Lunarians/Lunarians.md)_
+- Deep Sea Monarchs  _(Chapter 1 Races/Merfolk/Deep Sea Monarchs.md)_
+- Gregarious Helpers  _(Chapter 1 Races/Merfolk/Gregarious Helpers.md)_
+- Merfolk Traits  _(Chapter 1 Races/Merfolk/Merfolk Traits.md)_
+- Close-knit Community  _(Chapter 1 Races/Mink/Close-knit Community.md)_
+- Mink Traits  _(Chapter 1 Races/Mink/Mink Traits.md)_
+- Diurnal  _(Chapter 1 Races/Mink/Mink Traits.md)_
+- Nocturnal  _(Chapter 1 Races/Mink/Mink Traits.md)_
+- Moonlit Warriors  _(Chapter 1 Races/Mink/Moonlit Warriors.md)_
+- Dials and Cloudscapes  _(Chapter 1 Races/Sky Islander/Dials and Cloudscapes.md)_
+- Holy Vearth  _(Chapter 1 Races/Sky Islander/Holy Vearth.md)_
+- Sky Islander Traits  _(Chapter 1 Races/Sky Islander/Sky Islander Traits.md)_
+- Birkan  _(Chapter 1 Races/Sky Islander/Sky Islander Traits.md)_
+- Shandian  _(Chapter 1 Races/Sky Islander/Sky Islander Traits.md)_
+- Skypiean  _(Chapter 1 Races/Sky Islander/Sky Islander Traits.md)_
+
+## Chapter 2 Classes (290 unmatched)
+- Amalgamation  _(Chapter 2 Classes/Amalgamation/Amalgamation.md)_
+- Arcana = Engineering  _(Chapter 2 Classes/Arcana = Engineering.md)_
+- Ardent Soul  _(Chapter 2 Classes/Ardent Soul/Ardent Soul.md)_
+- Ardent Creations  _(Chapter 2 Classes/Ardent Soul/Burning Passion.md)_
+- Channel Conviction  _(Chapter 2 Classes/Ardent Soul/Burning Passion.md)_
+- Ardent Creations  _(Chapter 2 Classes/Ardent Soul/Caustic Spite.md)_
+- Channel Conviction  _(Chapter 2 Classes/Ardent Soul/Caustic Spite.md)_
+- Ardent Creations  _(Chapter 2 Classes/Ardent Soul/Cold Indifference.md)_
+- Channel Conviction  _(Chapter 2 Classes/Ardent Soul/Cold Indifference.md)_
+- Ardent Creations  _(Chapter 2 Classes/Ardent Soul/Fulminating Glee.md)_
+- Channel Conviction  _(Chapter 2 Classes/Ardent Soul/Fulminating Glee.md)_
+- Ardent Creations  _(Chapter 2 Classes/Ardent Soul/Mindful Insight.md)_
+- Channel Conviction  _(Chapter 2 Classes/Ardent Soul/Mindful Insight.md)_
+- Ardent Creations  _(Chapter 2 Classes/Ardent Soul/Necrotic Mania.md)_
+- Channel Conviction  _(Chapter 2 Classes/Ardent Soul/Necrotic Mania.md)_
+- Ardent Creations  _(Chapter 2 Classes/Ardent Soul/Radiant Superiority.md)_
+- Channel Conviction  _(Chapter 2 Classes/Ardent Soul/Radiant Superiority.md)_
+- Ardent Creations  _(Chapter 2 Classes/Ardent Soul/Thundering Resolve.md)_
+- Channel Conviction  _(Chapter 2 Classes/Ardent Soul/Thundering Resolve.md)_
+- Ardent Creations  _(Chapter 2 Classes/Ardent Soul/Venomous Duality.md)_
+- Channel Conviction  _(Chapter 2 Classes/Ardent Soul/Venomous Duality.md)_
+- The Barbarian  _(Chapter 2 Classes/Barbarian/Barbarian.md)_
+- The Bard  _(Chapter 2 Classes/Bard/Bard.md)_
+- Bard College  _(Chapter 2 Classes/Bard College/Bard College.md)_
+- Legendary Floursih  _(Chapter 2 Classes/Bard College/College of Legends.md)_
+- Beast of the Air  _(Chapter 2 Classes/Beast of the Air/Beast of the Air.md)_
+- Beast of the Land  _(Chapter 2 Classes/Beast of the Land/Beast of the Land.md)_
+- Beast of the Sea  _(Chapter 2 Classes/Beast of the Sea/Beast of the Sea.md)_
+- The Brawler  _(Chapter 2 Classes/Brawler/Brawler.md)_
+- Brawling Style  _(Chapter 2 Classes/Brawling Style/Brawling Style.md)_
+- Tricks (Cantrips)  _(Chapter 2 Classes/Brawling Style/Expressionist.md)_
+- Preparing and Using Creations (Preparing  _(Chapter 2 Classes/Brawling Style/Expressionist.md)_
+- and Casting Spells)  _(Chapter 2 Classes/Brawling Style/Expressionist.md)_
+- Creative Ability (Spellcasting Ability)  _(Chapter 2 Classes/Brawling Style/Expressionist.md)_
+- Chapter 2 Classes  _(Chapter 2 Classes/Chapter 2 Classes.md)_
+- Ability Score Improvement 2  _(Chapter 2 Classes/Class Features/Ability Score Improvement 2.md)_
+- Ability Score Improvement  _(Chapter 2 Classes/Class Features/Ability Score Improvement 2.md)_
+- Ability Score Improvement 3  _(Chapter 2 Classes/Class Features/Ability Score Improvement 3.md)_
+- Ability Score Improvement  _(Chapter 2 Classes/Class Features/Ability Score Improvement 3.md)_
+- Ability Score Improvement 4  _(Chapter 2 Classes/Class Features/Ability Score Improvement 4.md)_
+- Ability Score Improvement  _(Chapter 2 Classes/Class Features/Ability Score Improvement 4.md)_
+- Ability Score Improvement 5  _(Chapter 2 Classes/Class Features/Ability Score Improvement 5.md)_
+- Ability Score Improvement  _(Chapter 2 Classes/Class Features/Ability Score Improvement 5.md)_
+- Ability Score Improvement 6  _(Chapter 2 Classes/Class Features/Ability Score Improvement 6.md)_
+- Ability Score Improvement  _(Chapter 2 Classes/Class Features/Ability Score Improvement 6.md)_
+- Ability Score Improvement 7  _(Chapter 2 Classes/Class Features/Ability Score Improvement 7.md)_
+- Ability Score Improvement  _(Chapter 2 Classes/Class Features/Ability Score Improvement 7.md)_
+- Ability Score Improvement 8  _(Chapter 2 Classes/Class Features/Ability Score Improvement 8.md)_
+- Ability Score Improvement  _(Chapter 2 Classes/Class Features/Ability Score Improvement 8.md)_
+- Ability Score Improvement  _(Chapter 2 Classes/Class Features/Ability Score Improvement.md)_
+- Ardent Soul Element  _(Chapter 2 Classes/Class Features/Ardent Smite.md)_
+- Ardent Soul  _(Chapter 2 Classes/Class Features/Ardent Soul.md)_
+- Bard College  _(Chapter 2 Classes/Class Features/Bard College.md)_
+- Brawling Style  _(Chapter 2 Classes/Class Features/Brawling Style.md)_
+- Channel Conviction  _(Chapter 2 Classes/Class Features/Channel Conviction.md)_
+- Class Features 2  _(Chapter 2 Classes/Class Features/Class Features 2.md)_
+- Class Features  _(Chapter 2 Classes/Class Features/Class Features 2.md)_
+- Class Features 3  _(Chapter 2 Classes/Class Features/Class Features 3.md)_
+- Class Features  _(Chapter 2 Classes/Class Features/Class Features 3.md)_
+- Class Features 4  _(Chapter 2 Classes/Class Features/Class Features 4.md)_
+- Class Features  _(Chapter 2 Classes/Class Features/Class Features 4.md)_
+- Class Features 5  _(Chapter 2 Classes/Class Features/Class Features 5.md)_
+- Class Features  _(Chapter 2 Classes/Class Features/Class Features 5.md)_
+- Class Features 6  _(Chapter 2 Classes/Class Features/Class Features 6.md)_
+- Class Features  _(Chapter 2 Classes/Class Features/Class Features 6.md)_
+- Class Features 7  _(Chapter 2 Classes/Class Features/Class Features 7.md)_
+- Class Features  _(Chapter 2 Classes/Class Features/Class Features 7.md)_
+- Class Features 8  _(Chapter 2 Classes/Class Features/Class Features 8.md)_
+- Class Features  _(Chapter 2 Classes/Class Features/Class Features 8.md)_
+- Class Features 9  _(Chapter 2 Classes/Class Features/Class Features 9.md)_
+- Class Features  _(Chapter 2 Classes/Class Features/Class Features 9.md)_
+- Class Features  _(Chapter 2 Classes/Class Features/Class Features.md)_
+- Creativity (Spellcasting) 2  _(Chapter 2 Classes/Class Features/Creativity (Spellcasting) 2.md)_
+- Tricks (Cantrips)  _(Chapter 2 Classes/Class Features/Creativity (Spellcasting) 2.md)_
+- Preparing and Using Creations  _(Chapter 2 Classes/Class Features/Creativity (Spellcasting) 2.md)_
+- Creative Ability (Spellcasting Ability)  _(Chapter 2 Classes/Class Features/Creativity (Spellcasting) 2.md)_
+- Routine Usage (Ritual Casting)  _(Chapter 2 Classes/Class Features/Creativity (Spellcasting) 2.md)_
+- Creativity (Spellcasting) 3  _(Chapter 2 Classes/Class Features/Creativity (Spellcasting) 3.md)_
+- Tricks (Cantrips)  _(Chapter 2 Classes/Class Features/Creativity (Spellcasting) 3.md)_
+- Preparing and Using Creations  _(Chapter 2 Classes/Class Features/Creativity (Spellcasting) 3.md)_
+- Creative Ability (Spellcasting Ability)  _(Chapter 2 Classes/Class Features/Creativity (Spellcasting) 3.md)_
+- Routine Usage (Ritual Casting)  _(Chapter 2 Classes/Class Features/Creativity (Spellcasting) 3.md)_
+- Tricks (Cantrips)  _(Chapter 2 Classes/Class Features/Creativity (Spellcasting).md)_
+- Creation Slots (Spell Slots)  _(Chapter 2 Classes/Class Features/Creativity (Spellcasting).md)_
+- Preparing and Using Creations  _(Chapter 2 Classes/Class Features/Creativity (Spellcasting).md)_
+- Creative Ability (Spellcasting Ability)  _(Chapter 2 Classes/Class Features/Creativity (Spellcasting).md)_
+- Routine Usage (Ritual Casting)  _(Chapter 2 Classes/Class Features/Creativity (Spellcasting).md)_
+- Creativity 2  _(Chapter 2 Classes/Class Features/Creativity 2.md)_
+- Preparing and Using Creations (Spell  _(Chapter 2 Classes/Class Features/Creativity 2.md)_
+- Slots)  _(Chapter 2 Classes/Class Features/Creativity 2.md)_
+- Creative Ability (Spellcasting Ability)  _(Chapter 2 Classes/Class Features/Creativity 2.md)_
+- Tricks (Cantrips)  _(Chapter 2 Classes/Class Features/Creativity.md)_
+- Creation Slots (Spell Slots)  _(Chapter 2 Classes/Class Features/Creativity.md)_
+- Preparing and Using Creations  _(Chapter 2 Classes/Class Features/Creativity.md)_
+- Creative Ability (Spellcasting Ability)  _(Chapter 2 Classes/Class Features/Creativity.md)_
+- Canny  _(Chapter 2 Classes/Class Features/Deft Explorer.md)_
+- Roving  _(Chapter 2 Classes/Class Features/Deft Explorer.md)_
+- Tireless  _(Chapter 2 Classes/Class Features/Deft Explorer.md)_
+- Evasion 2  _(Chapter 2 Classes/Class Features/Evasion 2.md)_
+- Expertise 2  _(Chapter 2 Classes/Class Features/Expertise 2.md)_
+- Extra Attack 2  _(Chapter 2 Classes/Class Features/Extra Attack 2.md)_
+- Extra Attack 3  _(Chapter 2 Classes/Class Features/Extra Attack 3.md)_
+- Extra Attack 4  _(Chapter 2 Classes/Class Features/Extra Attack 4.md)_
+- Extra Attack 5  _(Chapter 2 Classes/Class Features/Extra Attack 5.md)_
+- Fighting Style 2  _(Chapter 2 Classes/Class Features/Fighting Style 2.md)_
+- Fighting Style 3  _(Chapter 2 Classes/Class Features/Fighting Style 3.md)_
+- Marksman Archetype  _(Chapter 2 Classes/Class Features/Marksman Archetype.md)_
+- Martial Archetype  _(Chapter 2 Classes/Class Features/Martial Archetype.md)_
+- Medical Specialization  _(Chapter 2 Classes/Class Features/Medical Specialization.md)_
+- Mods Known  _(Chapter 2 Classes/Class Features/Mods.md)_
+- Modifiying an Item  _(Chapter 2 Classes/Class Features/Mods.md)_
+- List Of Mods  _(Chapter 2 Classes/Class Features/Mods.md)_
+- Armor Of Mechanical Strength  _(Chapter 2 Classes/Class Features/Mods.md)_
+- Burst Boots  _(Chapter 2 Classes/Class Features/Mods.md)_
+- Enhanced Creative Focus  _(Chapter 2 Classes/Class Features/Mods.md)_
+- Enhanced Defenses  _(Chapter 2 Classes/Class Features/Mods.md)_
+- Enhanced Weapon  _(Chapter 2 Classes/Class Features/Mods.md)_
+- Propulsion Armor  _(Chapter 2 Classes/Class Features/Mods.md)_
+- Awareness Visor  _(Chapter 2 Classes/Class Features/Mods.md)_
+- Primal Path  _(Chapter 2 Classes/Class Features/Primal Path.md)_
+- Roguish Archetype  _(Chapter 2 Classes/Class Features/Roguish Archetype.md)_
+- Flurry of Blows  _(Chapter 2 Classes/Class Features/Spirit.md)_
+- Patient Defense  _(Chapter 2 Classes/Class Features/Spirit.md)_
+- Deft Escape  _(Chapter 2 Classes/Class Features/Spirit.md)_
+- Unarmored Defense 2  _(Chapter 2 Classes/Class Features/Unarmored Defense 2.md)_
+- Amphibious Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Brainy Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Camouflage Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Carnivorous Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Clawed Lineage (Amalgamation Only)  _(Chapter 2 Classes/Clone/Actions.md)_
+- Conduit Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Corrosive Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Devil Fruit Lineage (Ocean's Scorn  _(Chapter 2 Classes/Clone/Actions.md)_
+- feature)  _(Chapter 2 Classes/Clone/Actions.md)_
+- Echoing Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Evasive Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Face-Stealing Lineage (Clone Only)  _(Chapter 2 Classes/Clone/Actions.md)_
+- Failsafe Lineage (Clone Only, 14th level)  _(Chapter 2 Classes/Clone/Actions.md)_
+- Flaming Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Frozen Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Fungal Lineage (Flora Only)  _(Chapter 2 Classes/Clone/Actions.md)_
+- Giant Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Hydra Lineage (Amalgamation Only)  _(Chapter 2 Classes/Clone/Actions.md)_
+- Invisible Lineage (7th level)  _(Chapter 2 Classes/Clone/Actions.md)_
+- Nimble Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Omni-Lineage (7th level)  _(Chapter 2 Classes/Clone/Actions.md)_
+- Pack Lineage (Amalgamation Only)  _(Chapter 2 Classes/Clone/Actions.md)_
+- Relentless Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Reviving Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Shelled Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Sparking Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Spiny Lineage (Flora Only)  _(Chapter 2 Classes/Clone/Actions.md)_
+- Subterranean Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Thunderous Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Tough Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Venomous Lineage  _(Chapter 2 Classes/Clone/Actions.md)_
+- Viney Lineage (Flora Only)  _(Chapter 2 Classes/Clone/Actions.md)_
+- Winged Lineage (7th level)  _(Chapter 2 Classes/Clone/Actions.md)_
+- Experimental Ooze Type  _(Chapter 2 Classes/Experimental Ooze/Actions.md)_
+- Amputator Creations  _(Chapter 2 Classes/Experimental Ooze/Amputator.md)_
+- Test Subjects  _(Chapter 2 Classes/Experimental Ooze/Bio-Engineer.md)_
+- Plaguewright Creations  _(Chapter 2 Classes/Experimental Ooze/Plaguewright.md)_
+- The Fighter  _(Chapter 2 Classes/Fighter/Fighter.md)_
+- Flora  _(Chapter 2 Classes/Flora/Flora.md)_
+- The Gadgeteer  _(Chapter 2 Classes/Gadgeteer/Gadgeteer.md)_
+- Alchemist Creations  _(Chapter 2 Classes/Iron Defender/Alchemist.md)_
+- Chemical Cocktails  _(Chapter 2 Classes/Iron Defender/Alchemist.md)_
+- Elementalist Creations  _(Chapter 2 Classes/Iron Defender/Elementalist.md)_
+- Reactions  _(Chapter 2 Classes/Iron Defender/Reactions.md)_
+- Safeguard Creations  _(Chapter 2 Classes/Iron Defender/Safeguard.md)_
+- The Marksman  _(Chapter 2 Classes/Marksman/Marksman.md)_
+- Bestial Companions  _(Chapter 2 Classes/Marksman Archetype/Beastmaster.md)_
+- Marksman Archetype  _(Chapter 2 Classes/Marksman Archetype/Marksman Archetype.md)_
+- Engineering  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
+- Stasis Ammo  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
+- Hypnotic Ammo  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
+- Elemental Ammo  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
+- Exploding Ammo  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
+- Feeble Ammo  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
+- Grasping Ammo  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
+- Piercing Ammo  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
+- Shadow Ammo  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
+- Warp Ammo (7th level)  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
+- Ambush  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Bait and Switch  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Brace  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Commander's Strike  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Commanding Presence  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Disarming Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Distracting Strike  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Evasive Footwork  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Feinting Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Goading Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Grappling Strike  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Lunging Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Maneuvering Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Pushing Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Parry  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Menacing Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Precision Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Quick Toss  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Rally  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Riposte  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Sweeping Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Tactical Assessment  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Trip Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
+- Bonus Proficiency  _(Chapter 2 Classes/Martial Archetypes/Cavalier.md)_
+- Strength  _(Chapter 2 Classes/Martial Archetypes/Champion.md)_
+- Constitution  _(Chapter 2 Classes/Martial Archetypes/Champion.md)_
+- Dexterity  _(Chapter 2 Classes/Martial Archetypes/Champion.md)_
+- Tricks (Cantrips)  _(Chapter 2 Classes/Martial Archetypes/Gadget Knight.md)_
+- Preparing and Using Creations (Preparing  _(Chapter 2 Classes/Martial Archetypes/Gadget Knight.md)_
+- and Casting Spells)  _(Chapter 2 Classes/Martial Archetypes/Gadget Knight.md)_
+- Creative Ability (Spellcasting Ability)  _(Chapter 2 Classes/Martial Archetypes/Gadget Knight.md)_
+- Gunsmith  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
+- Covering Fire  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
+- Dazing Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
+- Deadeye Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
+- Deflecting Shot (7th level)  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
+- Disarming Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
+- Exhausting Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
+- Forceful Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
+- Piercing Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
+- Run and Gun  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
+- Violent Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
+- Warning Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
+- Wringing Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
+- Hemorrhaging Critical  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
+- Martial Archetypes  _(Chapter 2 Classes/Martial Archetypes/Martial Archetypes.md)_
+- Adapt and Overcome  _(Chapter 2 Classes/Martial Archetypes/Master of None.md)_
+- Improv Damage  _(Chapter 2 Classes/Martial Archetypes/Master of None.md)_
+- Bonus Proficiency  _(Chapter 2 Classes/Martial Archetypes/Samurai.md)_
+- Fighting Stance  _(Chapter 2 Classes/Martial Archetypes/Samurai.md)_
+- Ability Score Improvement  _(Chapter 2 Classes/Mechanical Servant/Ability Score Improvement.md)_
+- Mechanical Servant  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Focusing Suit  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Repeating Magazine  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Glowing Weapon  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Repulsion Shield  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Resistant Armor  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Loyal Weapon  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Creation Refueling Ring  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Replicate Mastercraft Item  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Reinforced Steel  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Extended Barrel  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Heavy Artillery  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Wrought Warden  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Omega Operative  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Chemistry Menagerie  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Versatile Elements  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Airborne Aegis  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
+- Master Craft Adept  _(Chapter 2 Classes/Mechanical Servant/Master Craft Adept.md)_
+- Mechanical Servant  _(Chapter 2 Classes/Mechanical Servant/Mechanical Servant.md)_
+- Specialist Path  _(Chapter 2 Classes/Mechanical Servant/Specialist Path.md)_
+- The Medic  _(Chapter 2 Classes/Medic/Medic.md)_
+- Chemist Creations  _(Chapter 2 Classes/Medical Specialization/Chemist.md)_
+- Experimental Ooze Type  _(Chapter 2 Classes/Medical Specialization/Chemist.md)_
+- Medical Specialization  _(Chapter 2 Classes/Medical Specialization/Medical Specialization.md)_
+- Physician Creations  _(Chapter 2 Classes/Medical Specialization/Physician.md)_
+- Cleaving Hew  _(Chapter 2 Classes/Primal Paths/Path of the Blade Master.md)_
+- Crushing Hew  _(Chapter 2 Classes/Primal Paths/Path of the Blade Master.md)_
+- Savage Hew  _(Chapter 2 Classes/Primal Paths/Path of the Blade Master.md)_
+- Sprinting Hew  _(Chapter 2 Classes/Primal Paths/Path of the Blade Master.md)_
+- Shattered Mind  _(Chapter 2 Classes/Primal Paths/Path of the Shattered Mind.md)_
+- Tricks (Cantrips)  _(Chapter 2 Classes/Primal Paths/Path of the Shattered Mind.md)_
+- Preparing and Using Creations (Preparing  _(Chapter 2 Classes/Primal Paths/Path of the Shattered Mind.md)_
+- and Casting Spells)  _(Chapter 2 Classes/Primal Paths/Path of the Shattered Mind.md)_
+- Creative Ability (Spellcasting Ability)  _(Chapter 2 Classes/Primal Paths/Path of the Shattered Mind.md)_
+- Thunderstorm  _(Chapter 2 Classes/Primal Paths/Path of the Storm Herald.md)_
+- Snowstorm  _(Chapter 2 Classes/Primal Paths/Path of the Storm Herald.md)_
+- Primal Paths  _(Chapter 2 Classes/Primal Paths/Primal Paths.md)_
+- The Rogue  _(Chapter 2 Classes/Rogue/Rogue.md)_
+- Tricks (Cantrips)  _(Chapter 2 Classes/Roguish Archetypes/Gadget Trickster.md)_
+- Preparing and Using Creations (Preparing  _(Chapter 2 Classes/Roguish Archetypes/Gadget Trickster.md)_
+- and Casting Spells)  _(Chapter 2 Classes/Roguish Archetypes/Gadget Trickster.md)_
+- Creative Ability (Spellcasting Ability)  _(Chapter 2 Classes/Roguish Archetypes/Gadget Trickster.md)_
+- Depcipher Deceit  _(Chapter 2 Classes/Roguish Archetypes/Inquisitive.md)_
+- Roguish Archetypes  _(Chapter 2 Classes/Roguish Archetypes/Roguish Archetypes.md)_
+- Volatile Damage  _(Chapter 2 Classes/Roguish Archetypes/Wildcard.md)_
+- The Savant  _(Chapter 2 Classes/Savant/Savant.md)_
+- Armorer Creations  _(Chapter 2 Classes/Specialist Paths/Armorer.md)_
+- Guardian  _(Chapter 2 Classes/Specialist Paths/Armorer.md)_
+- Infiltrator.  _(Chapter 2 Classes/Specialist Paths/Armorer.md)_
+- Infiltrator  _(Chapter 2 Classes/Specialist Paths/Armorer.md)_
+- Artillerist Creations  _(Chapter 2 Classes/Specialist Paths/Artillerist.md)_
+- Mechanical Cannons  _(Chapter 2 Classes/Specialist Paths/Artillerist.md)_
+- Battle Smith Creations  _(Chapter 2 Classes/Specialist Paths/Battle Smith.md)_
+- Specialist Paths  _(Chapter 2 Classes/Specialist Paths/Specialist Paths.md)_
+- Spells = Creations  _(Chapter 2 Classes/Spells = Creations.md)_
+- Classes  _(Chapter 2 Classes/Spells = Creations.md)_
+
+## Chapter 3 Character Origins (316 unmatched)
+- Feature: Entertaining Tumble  _(Chapter 3 Character Origins/Backgrounds/Acrobat.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Acrobat.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Acrobat.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Acrobat.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Acrobat.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Acrobat.md)_
+- Feature: Ancient Explorer  _(Chapter 3 Character Origins/Backgrounds/Archaeologist.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Archaeologist.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Archaeologist.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Archaeologist.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Archaeologist.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Archaeologist.md)_
+- Offical 5e Backgrounds  _(Chapter 3 Character Origins/Backgrounds/Archaeologist.md)_
+- Feature: Visionary Painter  _(Chapter 3 Character Origins/Backgrounds/Artist.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Artist.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Artist.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Artist.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Artist.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Artist.md)_
+- Feature: Story Weaver  _(Chapter 3 Character Origins/Backgrounds/Author.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Author.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Author.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Author.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Author.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Author.md)_
+- Backgrounds  _(Chapter 3 Character Origins/Backgrounds/Backgrounds.md)_
+- Feature: Mastercrafter  _(Chapter 3 Character Origins/Backgrounds/Blacksmith.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Blacksmith.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Blacksmith.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Blacksmith.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Blacksmith.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Blacksmith.md)_
+- Feature: Skilled Hunter  _(Chapter 3 Character Origins/Backgrounds/Bounty Hunter.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Bounty Hunter.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Bounty Hunter.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Bounty Hunter.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Bounty Hunter.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Bounty Hunter.md)_
+- Feature: Knockout!  _(Chapter 3 Character Origins/Backgrounds/Boxer.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Boxer.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Boxer.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Boxer.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Boxer.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Boxer.md)_
+- Feature: Wood Artisan  _(Chapter 3 Character Origins/Backgrounds/Carpenter.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Carpenter.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Carpenter.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Carpenter.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Carpenter.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Carpenter.md)_
+- Feature: Culinary Expert  _(Chapter 3 Character Origins/Backgrounds/Cook.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Cook.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Cook.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Cook.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Cook.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Cook.md)_
+- Feature: Astute Observation  _(Chapter 3 Character Origins/Backgrounds/Detective.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Detective.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Detective.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Detective.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Detective.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Detective.md)_
+- Feature: Medical Master  _(Chapter 3 Character Origins/Backgrounds/Doctor.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Doctor.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Doctor.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Doctor.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Doctor.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Doctor.md)_
+- Feature: Big Drinker  _(Chapter 3 Character Origins/Backgrounds/Drunkard.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Drunkard.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Drunkard.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Drunkard.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Drunkard.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Drunkard.md)_
+- Feature: Lead Performer  _(Chapter 3 Character Origins/Backgrounds/Entertainer.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Entertainer.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Entertainer.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Entertainer.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Entertainer.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Entertainer.md)_
+- Feature: Stay Away  _(Chapter 3 Character Origins/Backgrounds/Faceless.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Faceless.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Faceless.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Faceless.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Faceless.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Faceless.md)_
+- Feature: Down On The Farm  _(Chapter 3 Character Origins/Backgrounds/Farmer.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Farmer.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Farmer.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Farmer.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Farmer.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Farmer.md)_
+- Feature: Harvest the Water  _(Chapter 3 Character Origins/Backgrounds/Fisherman.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Fisherman.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Fisherman.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Fisherman.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Fisherman.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Fisherman.md)_
+- Feature: Inner Strength  _(Chapter 3 Character Origins/Backgrounds/Folk Hero.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Folk Hero.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Folk Hero.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Folk Hero.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Folk Hero.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Folk Hero.md)_
+- Feature: Gambler's Fallacy  _(Chapter 3 Character Origins/Backgrounds/Gambler.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Gambler.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Gambler.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Gambler.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Gambler.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Gambler.md)_
+- Feature: Experienced Brawler  _(Chapter 3 Character Origins/Backgrounds/Gladiator.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Gladiator.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Gladiator.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Gladiator.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Gladiator.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Gladiator.md)_
+- Feature: Big Appetite  _(Chapter 3 Character Origins/Backgrounds/Glutton.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Glutton.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Glutton.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Glutton.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Glutton.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Glutton.md)_
+- Feature: Secluded Study  _(Chapter 3 Character Origins/Backgrounds/Hermit.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Hermit.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Hermit.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Hermit.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Hermit.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Hermit.md)_
+- Feature: Crystal Crafter  _(Chapter 3 Character Origins/Backgrounds/Jeweler.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Jeweler.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Jeweler.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Jeweler.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Jeweler.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Jeweler.md)_
+- Feature: Knightly Training  _(Chapter 3 Character Origins/Backgrounds/Knight.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Knight.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Knight.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Knight.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Knight.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Knight.md)_
+- Feature: Skinning and Tanning  _(Chapter 3 Character Origins/Backgrounds/Leatherworker.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Leatherworker.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Leatherworker.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Leatherworker.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Leatherworker.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Leatherworker.md)_
+- Feature: Well Read  _(Chapter 3 Character Origins/Backgrounds/Librarian.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Librarian.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Librarian.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Librarian.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Librarian.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Librarian.md)_
+- Feature: Tree Feller  _(Chapter 3 Character Origins/Backgrounds/Lumberjack.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Lumberjack.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Lumberjack.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Lumberjack.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Lumberjack.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Lumberjack.md)_
+- MarineSoldier  _(Chapter 3 Character Origins/Backgrounds/MarineSoldier.md)_
+- Feature: Military Training  _(Chapter 3 Character Origins/Backgrounds/MarineSoldier.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/MarineSoldier.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/MarineSoldier.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/MarineSoldier.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/MarineSoldier.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/MarineSoldier.md)_
+- Feature: Stonemaster  _(Chapter 3 Character Origins/Backgrounds/Mason.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Mason.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Mason.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Mason.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Mason.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Mason.md)_
+- Feature: Battle Born  _(Chapter 3 Character Origins/Backgrounds/Mercenary.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Mercenary.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Mercenary.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Mercenary.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Mercenary.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Mercenary.md)_
+- Feature: Hornswoggling  _(Chapter 3 Character Origins/Backgrounds/Merchant.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Merchant.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Merchant.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Merchant.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Merchant.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Merchant.md)_
+- Feature: Cave Eyes  _(Chapter 3 Character Origins/Backgrounds/Miner.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Miner.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Miner.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Miner.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Miner.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Miner.md)_
+- Feature: Keen Eye  _(Chapter 3 Character Origins/Backgrounds/Navigator.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Navigator.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Navigator.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Navigator.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Navigator.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Navigator.md)_
+- Feature: Noble's Charm  _(Chapter 3 Character Origins/Backgrounds/Noble.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Noble.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Noble.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Noble.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Noble.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Noble.md)_
+- Feature: Never Ending Battles  _(Chapter 3 Character Origins/Backgrounds/Pirate.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Pirate.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Pirate.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Pirate.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Pirate.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Pirate.md)_
+- Feature: Knowledge of Faith  _(Chapter 3 Character Origins/Backgrounds/Priest.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Priest.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Priest.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Priest.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Priest.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Priest.md)_
+- Feature: Lead The Charge  _(Chapter 3 Character Origins/Backgrounds/Revolutionary.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Revolutionary.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Revolutionary.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Revolutionary.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Revolutionary.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Revolutionary.md)_
+- Feature: Sea Man  _(Chapter 3 Character Origins/Backgrounds/Sailor.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Sailor.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Sailor.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Sailor.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Sailor.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Sailor.md)_
+- Feature: Incredible Ingenuity  _(Chapter 3 Character Origins/Backgrounds/Scientist.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Scientist.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Scientist.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Scientist.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Scientist.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Scientist.md)_
+- Feature: Ship Savant  _(Chapter 3 Character Origins/Backgrounds/Shipwright.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Shipwright.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Shipwright.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Shipwright.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Shipwright.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Shipwright.md)_
+- Feature: Tough Customer  _(Chapter 3 Character Origins/Backgrounds/Slave.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Slave.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Slave.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Slave.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Slave.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Slave.md)_
+- Feature: Adept Theft  _(Chapter 3 Character Origins/Backgrounds/Smuggler.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Smuggler.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Smuggler.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Smuggler.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Smuggler.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Smuggler.md)_
+- Feature: Master Sniper  _(Chapter 3 Character Origins/Backgrounds/Sniper.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Sniper.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Sniper.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Sniper.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Sniper.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Sniper.md)_
+- Feature: Blade Mastery  _(Chapter 3 Character Origins/Backgrounds/Swordsman.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Swordsman.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Swordsman.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Swordsman.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Swordsman.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Swordsman.md)_
+- Feature: Clothing Savant  _(Chapter 3 Character Origins/Backgrounds/Tailor.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Tailor.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Tailor.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Tailor.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Tailor.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Tailor.md)_
+- Feature: Sneaky Devil  _(Chapter 3 Character Origins/Backgrounds/Urchin.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Urchin.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Urchin.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Urchin.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Urchin.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Urchin.md)_
+- Feature: Acquired Trait  _(Chapter 3 Character Origins/Backgrounds/Wanderer.md)_
+- Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Wanderer.md)_
+- Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Wanderer.md)_
+- Ideals  _(Chapter 3 Character Origins/Backgrounds/Wanderer.md)_
+- Bonds  _(Chapter 3 Character Origins/Backgrounds/Wanderer.md)_
+- Flaws  _(Chapter 3 Character Origins/Backgrounds/Wanderer.md)_
+- Chapter 3 Character Origins  _(Chapter 3 Character Origins/Chapter 3 Character Origins.md)_
+- Dreams  _(Chapter 3 Character Origins/Dreams/Dreams.md)_
+- Captain  _(Chapter 3 Character Origins/Roles/Captain.md)_
+- Feature: Force of Personality  _(Chapter 3 Character Origins/Roles/Captain.md)_
+- Feature: Bonus Feat  _(Chapter 3 Character Origins/Roles/Captain.md)_
+- Dream  _(Chapter 3 Character Origins/Roles/Captain.md)_
+- Feature: Kitchen Artisan  _(Chapter 3 Character Origins/Roles/Cook.md)_
+- Feature: Bonus Feat  _(Chapter 3 Character Origins/Roles/Cook.md)_
+- Dream  _(Chapter 3 Character Origins/Roles/Cook.md)_
+- Deckhand  _(Chapter 3 Character Origins/Roles/Deckhand.md)_
+- Feature: All Hands on Deck  _(Chapter 3 Character Origins/Roles/Deckhand.md)_
+- Feature: Bonus Feat  _(Chapter 3 Character Origins/Roles/Deckhand.md)_
+- Dream  _(Chapter 3 Character Origins/Roles/Deckhand.md)_
+- Feature: Routine Care  _(Chapter 3 Character Origins/Roles/Doctor.md)_
+- Feature: Bonus Feat  _(Chapter 3 Character Origins/Roles/Doctor.md)_
+- Dream  _(Chapter 3 Character Origins/Roles/Doctor.md)_
+- Helmsman  _(Chapter 3 Character Origins/Roles/Helmsman.md)_
+- Ocean Tamer  _(Chapter 3 Character Origins/Roles/Helmsman.md)_
+- Feature: Bonus Feat  _(Chapter 3 Character Origins/Roles/Helmsman.md)_
+- Dream  _(Chapter 3 Character Origins/Roles/Helmsman.md)_
+- Feature: Perfected Practice  _(Chapter 3 Character Origins/Roles/Master at Arms.md)_
+- Feature: Bonus Feat  _(Chapter 3 Character Origins/Roles/Master at Arms.md)_
+- Dream  _(Chapter 3 Character Origins/Roles/Master at Arms.md)_
+- Entertainer's Routine  _(Chapter 3 Character Origins/Roles/Musician.md)_
+- Feature: Bonus Feat  _(Chapter 3 Character Origins/Roles/Musician.md)_
+- Dream  _(Chapter 3 Character Origins/Roles/Musician.md)_
+- Feature: Weather Portent  _(Chapter 3 Character Origins/Roles/Navigator.md)_
+- Feature: Bonus Feat  _(Chapter 3 Character Origins/Roles/Navigator.md)_
+- Dream  _(Chapter 3 Character Origins/Roles/Navigator.md)_
+- Roles  _(Chapter 3 Character Origins/Roles/Roles.md)_
+- Scholar  _(Chapter 3 Character Origins/Roles/Scholar.md)_
+- Feature: Pursuer of Secrets  _(Chapter 3 Character Origins/Roles/Scholar.md)_
+- Feature: Bonus Feat  _(Chapter 3 Character Origins/Roles/Scholar.md)_
+- Dream  _(Chapter 3 Character Origins/Roles/Scholar.md)_
+- Feature: Craft Vessel  _(Chapter 3 Character Origins/Roles/Shipwright.md)_
+- Feature: Bonus Feat  _(Chapter 3 Character Origins/Roles/Shipwright.md)_
+- Dream  _(Chapter 3 Character Origins/Roles/Shipwright.md)_
+
+## Chapter 4 Equipment and Items (32 unmatched)
+- Adventuring Gear  _(Chapter 4 Equipment and Items/Adventuring Gear/Adventuring Gear.md)_
+- Armor and Shields  _(Chapter 4 Equipment and Items/Armor and Shields/Armor and Shields.md)_
+- Chapter 4 Equipment and Items  _(Chapter 4 Equipment and Items/Chapter 4 Equipment and Items.md)_
+- Expenses  _(Chapter 4 Equipment and Items/Expenses/Expenses.md)_
+- Lifestyle Expenses  _(Chapter 4 Equipment and Items/Expenses/Expenses.md)_
+- Food, Drink, and Lodging  _(Chapter 4 Equipment and Items/Expenses/Food, Drink, and Lodging.md)_
+- Cannon Shot  _(Chapter 4 Equipment and Items/Mounts and Vehicles/Cannons.md)_
+- Mounts and Animals  _(Chapter 4 Equipment and Items/Mounts and Vehicles/Cannons.md)_
+- Tack, Harness, and Drawn Vehicles  _(Chapter 4 Equipment and Items/Mounts and Vehicles/Cannons.md)_
+- Dial Vehicles (Sky)  _(Chapter 4 Equipment and Items/Mounts and Vehicles/Cannons.md)_
+- Mounts and Vehicles  _(Chapter 4 Equipment and Items/Mounts and Vehicles/Mounts and Vehicles.md)_
+- Waterborne Vehicles  _(Chapter 4 Equipment and Items/Mounts and Vehicles/Ships and Waterborne Vessels.md)_
+- Building a Ship  _(Chapter 4 Equipment and Items/Ship Building and Repair/Building a Ship.md)_
+- Crafting Time  _(Chapter 4 Equipment and Items/Ship Building and Repair/Building a Ship.md)_
+- Crafting Process  _(Chapter 4 Equipment and Items/Ship Building and Repair/Building a Ship.md)_
+- Damage and Repairs  _(Chapter 4 Equipment and Items/Ship Building and Repair/Damage and Repairs.md)_
+- Ship Building and Repair  _(Chapter 4 Equipment and Items/Ship Building and Repair/Ship Building and Repair.md)_
+- Ship Rooms  _(Chapter 4 Equipment and Items/Ship Building and Repair/Ship Rooms.md)_
+- Optional Rule: Custom Rooms  _(Chapter 4 Equipment and Items/Ship Building and Repair/Ship Rooms.md)_
+- Armor  _(Chapter 4 Equipment and Items/Ship Building and Repair/Ship Rooms.md)_
+- Upgrading your Ship  _(Chapter 4 Equipment and Items/Ship Building and Repair/Upgrading your Ship.md)_
+- Ship Upgrades  _(Chapter 4 Equipment and Items/Ship Building and Repair/Upgrading your Ship.md)_
+- Ship Rooms  _(Chapter 4 Equipment and Items/Ship Building and Repair/Upgrading your Ship.md)_
+- Tools  _(Chapter 4 Equipment and Items/Tools/Tools.md)_
+- Treasure and Loot  _(Chapter 4 Equipment and Items/Wealth/Treasure and Loot.md)_
+- Wealth  _(Chapter 4 Equipment and Items/Wealth/Wealth.md)_
+- Beri Exchange Rate  _(Chapter 4 Equipment and Items/Wealth/Wealth.md)_
+- Additional Melee Weapons  _(Chapter 4 Equipment and Items/Weapons/Additional Melee Weapons.md)_
+- Additional Ranged Weapons  _(Chapter 4 Equipment and Items/Weapons/Additional Ranged Weapons.md)_
+- Weapons  _(Chapter 4 Equipment and Items/Weapons/Weapons.md)_
+- Simple Weapons  _(Chapter 4 Equipment and Items/Weapons/Weapons.md)_
+- Martial Weapons  _(Chapter 4 Equipment and Items/Weapons/Weapons.md)_
+
+## Chapter 5 Customization (67 unmatched)
+- Chapter 5 Customization  _(Chapter 5 Customization/Chapter 5 Customization.md)_
+- Feats  _(Chapter 5 Customization/Feats/Feats.md)_
+- Tale Archetypes  _(Chapter 5 Customization/Feats/Feats.md)_
+- Blademaster Barbarian Styles  _(Chapter 5 Customization/Fighting Styles/Blademaster Barbarian Styles.md)_
+- Dueling  _(Chapter 5 Customization/Fighting Styles/Blademaster Barbarian Styles.md)_
+- Great Weapon Fighting  _(Chapter 5 Customization/Fighting Styles/Blademaster Barbarian Styles.md)_
+- Two-Weapon Fighting  _(Chapter 5 Customization/Fighting Styles/Blademaster Barbarian Styles.md)_
+- Versatile Fighting  _(Chapter 5 Customization/Fighting Styles/Blademaster Barbarian Styles.md)_
+- College Of Swords Bard Styles  _(Chapter 5 Customization/Fighting Styles/College Of Swords Bard Styles.md)_
+- Dueling  _(Chapter 5 Customization/Fighting Styles/College Of Swords Bard Styles.md)_
+- Great Weapon Fighting  _(Chapter 5 Customization/Fighting Styles/College Of Swords Bard Styles.md)_
+- Two-Weapon Fighting  _(Chapter 5 Customization/Fighting Styles/College Of Swords Bard Styles.md)_
+- Versatile Fighting  _(Chapter 5 Customization/Fighting Styles/College Of Swords Bard Styles.md)_
+- Thrown Weapon Fighting  _(Chapter 5 Customization/Fighting Styles/College Of Swords Bard Styles.md)_
+- Fighter Styles  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
+- Archery  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
+- Blindfighting  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
+- Defense  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
+- Dueling  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
+- Superior Technique  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
+- Great Weapon Fighting  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
+- Two-Weapon Fighting  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
+- Interception  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
+- Unarmed Fighting  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
+- Thrown Weapon Fighting  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
+- Melee Shooter  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
+- Versatile Fighting  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
+- Protection  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
+- Fighting Styles  _(Chapter 5 Customization/Fighting Styles/Fighting Styles.md)_
+- Marksman Styles  _(Chapter 5 Customization/Fighting Styles/Marksman Styles.md)_
+- Archery  _(Chapter 5 Customization/Fighting Styles/Marksman Styles.md)_
+- Blindfighting  _(Chapter 5 Customization/Fighting Styles/Marksman Styles.md)_
+- Defense  _(Chapter 5 Customization/Fighting Styles/Marksman Styles.md)_
+- Tonic Tactician  _(Chapter 5 Customization/Fighting Styles/Marksman Styles.md)_
+- Two-Weapon Fighting  _(Chapter 5 Customization/Fighting Styles/Marksman Styles.md)_
+- Gunslinging  _(Chapter 5 Customization/Fighting Styles/Marksman Styles.md)_
+- Melee Shooter  _(Chapter 5 Customization/Fighting Styles/Marksman Styles.md)_
+- Interception  _(Chapter 5 Customization/Fighting Styles/Marksman Styles.md)_
+- Thrown Weapon Fighting  _(Chapter 5 Customization/Fighting Styles/Marksman Styles.md)_
+- Unarmed Fighting  _(Chapter 5 Customization/Fighting Styles/Marksman Styles.md)_
+- Savant Styles  _(Chapter 5 Customization/Fighting Styles/Savant Styles.md)_
+- Defense  _(Chapter 5 Customization/Fighting Styles/Savant Styles.md)_
+- Dueling  _(Chapter 5 Customization/Fighting Styles/Savant Styles.md)_
+- Great Weapon Fighting  _(Chapter 5 Customization/Fighting Styles/Savant Styles.md)_
+- Protection  _(Chapter 5 Customization/Fighting Styles/Savant Styles.md)_
+- Tonic Tactician  _(Chapter 5 Customization/Fighting Styles/Savant Styles.md)_
+- Two-Weapon Fighting  _(Chapter 5 Customization/Fighting Styles/Savant Styles.md)_
+- Unarmed Fighting  _(Chapter 5 Customization/Fighting Styles/Savant Styles.md)_
+- Versatile Fighting  _(Chapter 5 Customization/Fighting Styles/Savant Styles.md)_
+- Sword Sage Brawler Styles  _(Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md)_
+- Archery  _(Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md)_
+- Blindfighting  _(Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md)_
+- Agile Defense  _(Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md)_
+- Wrestling  _(Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md)_
+- Dueling  _(Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md)_
+- Great Weapon Fighting  _(Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md)_
+- Two-Weapon Fighting  _(Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md)_
+- Interception  _(Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md)_
+- Thrown Weapon Fighting  _(Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md)_
+- Melee Shooter  _(Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md)_
+- Versatile Fighting  _(Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md)_
+- Haki  _(Chapter 5 Customization/Haki/Haki.md)_
+- Learning Haki  _(Chapter 5 Customization/Haki/Learning Haki.md)_
+- List of Haki Abilities  _(Chapter 5 Customization/Haki/List of Haki Abilities.md)_
+- Clarification: Rage VS Armament  _(Chapter 5 Customization/Haki/List of Haki Abilities.md)_
+- Haki Affinity  _(Chapter 5 Customization/Haki/List of Haki Abilities.md)_
+- Racial Feats  _(Chapter 5 Customization/Racial Feats/Racial Feats.md)_
+
+## Chapter 6 Devil Fruits (78 unmatched)
+- Chapter 6 Devil Fruits  _(Chapter 6 Devil Fruits/Chapter 6 Devil Fruits.md)_
+- Creating A Devil Fruit  _(Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit.md)_
+- Devil Fruit Uses  _(Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit.md)_
+- Devil Fruit Ability Check, DC, and  _(Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit.md)_
+- Attack  _(Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit.md)_
+- Example Logias  _(Chapter 6 Devil Fruits/Example Logias/Example Logias.md)_
+- Logia Type Devil Fruit  _(Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit.md)_
+- Using this fruit  _(Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit.md)_
+- Elemental Domain  _(Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit.md)_
+- Improved Elemental Domain  _(Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit.md)_
+- Awakening  _(Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit.md)_
+- Example Paramecias  _(Chapter 6 Devil Fruits/Example Paramecias/Example Paramecias.md)_
+- Dice-Dice Fruit  _(Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md)_
+- Using this fruit  _(Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md)_
+- Extended Duration  _(Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md)_
+- Double Dice  _(Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md)_
+- Taken Odds  _(Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md)_
+- Triple Threat  _(Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md)_
+- Awakening  _(Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md)_
+- DM's Note  _(Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md)_
+- Glug-Glug Fruit  _(Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md)_
+- Using this fruit  _(Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md)_
+- Lasting Buzz  _(Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md)_
+- Potent Alcohol  _(Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md)_
+- Double Shots  _(Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md)_
+- Hot Shot  _(Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md)_
+- Awakening  _(Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md)_
+- Devil Fruit Party Ratio  _(Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md)_
+- Swap-Swap Fruit  _(Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md)_
+- Using this fruit  _(Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md)_
+- Size Limit Increase  _(Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md)_
+- Size Limit Break  _(Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md)_
+- Awakening  _(Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md)_
+- Example Zoans  _(Chapter 6 Devil Fruits/Example Zoans/Example Zoans.md)_
+- Bat-Bat Fruit  _(Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md)_
+- Using This Fruit  _(Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md)_
+- Hybrid Form  _(Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md)_
+- Enhanced Form  _(Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md)_
+- Endless Forms  _(Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md)_
+- Awakening  _(Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md)_
+- Great Bat  _(Chapter 6 Devil Fruits/Great Bat/Great Bat.md)_
+- The Cat-Cat Fruit, Model Saber- Toothed Tiger  _(Chapter 6 Devil Fruits/Great Bat/The Cat-Cat Fruit, Model Saber- Toothed Tiger.md)_
+- Cat-Cat Fruit, Model: Saber-Toothed Tiger  _(Chapter 6 Devil Fruits/Great Bat/The Cat-Cat Fruit, Model Saber- Toothed Tiger.md)_
+- Using This Fruit  _(Chapter 6 Devil Fruits/Great Bat/The Cat-Cat Fruit, Model Saber- Toothed Tiger.md)_
+- Great Saber-Tooth  _(Chapter 6 Devil Fruits/Great Saber-Tooth/Great Saber-Tooth.md)_
+- Hybrid Form  _(Chapter 6 Devil Fruits/Great Saber-Tooth/Great Saber-Tooth.md)_
+- Enhanced Form  _(Chapter 6 Devil Fruits/Great Saber-Tooth/Great Saber-Tooth.md)_
+- Endless Forms  _(Chapter 6 Devil Fruits/Great Saber-Tooth/Great Saber-Tooth.md)_
+- Awakening  _(Chapter 6 Devil Fruits/Great Saber-Tooth/Great Saber-Tooth.md)_
+- The Dog-Dog Fruit, Model Werewolf  _(Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md)_
+- Dog-Dog Fruit, Model: Werewolf  _(Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md)_
+- Using This Fruit  _(Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md)_
+- Hybrid Form  _(Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md)_
+- Enhanced Form  _(Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md)_
+- Endless Forms  _(Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md)_
+- Awakening  _(Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md)_
+- Great Werewolf  _(Chapter 6 Devil Fruits/Great Werewolf/Great Werewolf.md)_
+- Logia Type  _(Chapter 6 Devil Fruits/Logia Type/Logia Type.md)_
+- Logia Type Devil Fruit  _(Chapter 6 Devil Fruits/Logia Type/Logia Type.md)_
+- Elemental Domain  _(Chapter 6 Devil Fruits/Logia Type/Logia Type.md)_
+- Improved Elemental Domain  _(Chapter 6 Devil Fruits/Logia Type/Logia Type.md)_
+- Paramecia Type  _(Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md)_
+- Paramecia Type Devil Fruit  _(Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md)_
+- Why So Empty?  _(Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md)_
+- Fruit Uses  _(Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md)_
+- Improved Usage  _(Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md)_
+- Special Paramecias  _(Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md)_
+- What Are Devil Fruits  _(Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits.md)_
+- What Are Devil Fruits?  _(Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits.md)_
+- Feature: Ocean's Scorn  _(Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits.md)_
+- Feature: Awakening  _(Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits.md)_
+- Zoan Type  _(Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md)_
+- Zoan Fruit  _(Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md)_
+- Ability Score Increase  _(Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md)_
+- Hybrid Form  _(Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md)_
+- Transforming for Roleplay  _(Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md)_
+- Full Beast Form  _(Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md)_
+- Endless Forms  _(Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md)_
+
+## Chapter 7 Additional Powers (2 unmatched)
+- Chapter 7 Additional Powers  _(Chapter 7 Additional Powers/Chapter 7 Additional Powers.md)_
+- Inspired Innovation Creations  _(Chapter 7 Additional Powers/Inspired Innovation/Inspired Innovation.md)_
+
+## Chapter 8 Special Items (36 unmatched)
+- Armor  _(Chapter 8 Special Items/Armor/Armor.md)_
+- Black Blades  _(Chapter 8 Special Items/Black Blades.md)_
+- Chapter 8 Special Items  _(Chapter 8 Special Items/Chapter 8 Special Items.md)_
+- Consumables  _(Chapter 8 Special Items/Consumables/Consumables.md)_
+- Cursed Weapons  _(Chapter 8 Special Items/Cursed Weapons.md)_
+- Dormant  _(Chapter 8 Special Items/Defiance Of The Red World.md)_
+- Wakened  _(Chapter 8 Special Items/Defiance Of The Red World.md)_
+- Exalted  _(Chapter 8 Special Items/Defiance Of The Red World.md)_
+- Devil Fruit Objects  _(Chapter 8 Special Items/Devil Fruit Objects.md)_
+- Ball Dials  _(Chapter 8 Special Items/Dials and Dial Equipment.md)_
+- Breath Dials  _(Chapter 8 Special Items/Dials and Dial Equipment.md)_
+- Flame Dials  _(Chapter 8 Special Items/Dials and Dial Equipment.md)_
+- Flash Dials  _(Chapter 8 Special Items/Dials and Dial Equipment.md)_
+- Flavor Dials  _(Chapter 8 Special Items/Dials and Dial Equipment.md)_
+- Heat Dials  _(Chapter 8 Special Items/Dials and Dial Equipment.md)_
+- Impact Dials  _(Chapter 8 Special Items/Dials and Dial Equipment.md)_
+- Reject Dials  _(Chapter 8 Special Items/Dials and Dial Equipment.md)_
+- Jet Dials  _(Chapter 8 Special Items/Dials and Dial Equipment.md)_
+- Lamp Dials  _(Chapter 8 Special Items/Dials and Dial Equipment.md)_
+- Milky Dials  _(Chapter 8 Special Items/Dials and Dial Equipment.md)_
+- Eisen Dials  _(Chapter 8 Special Items/Dials and Dial Equipment.md)_
+- Tone Dials  _(Chapter 8 Special Items/Dials and Dial Equipment.md)_
+- Vision Dials  _(Chapter 8 Special Items/Dials and Dial Equipment.md)_
+- Water Dials  _(Chapter 8 Special Items/Dials and Dial Equipment.md)_
+- Thunder Dials  _(Chapter 8 Special Items/Dials and Dial Equipment.md)_
+- Ranked Weapons  _(Chapter 8 Special Items/Ranked Weapons.md)_
+- Rings  _(Chapter 8 Special Items/Rings/Rings.md)_
+- Smiles  _(Chapter 8 Special Items/Smiles.md)_
+- Special Books (Non-Canon)  _(Chapter 8 Special Items/Special Books (Non-Canon).md)_
+- Staff and Wands  _(Chapter 8 Special Items/Staff and Wands/Staff and Wands.md)_
+- Stirring  _(Chapter 8 Special Items/The Silver Seer.md)_
+- Wakened  _(Chapter 8 Special Items/The Silver Seer.md)_
+- Ascendant  _(Chapter 8 Special Items/The Silver Seer.md)_
+- Weapons  _(Chapter 8 Special Items/Weapons/Weapons.md)_
+- White Weapons (Non-Canon)  _(Chapter 8 Special Items/White Weapons (Non-Canon).md)_
+- Wondrous Items  _(Chapter 8 Special Items/Wondrous Items/Wondrous Items.md)_
+
+## Credits (11 unmatched)
+- Appendix A  _(Credits/Appendix A/Appendix A.md)_
+- Chapter 2  _(Credits/Chapter/Chapter 2.md)_
+- Chapter  _(Credits/Chapter/Chapter 2.md)_
+- Chapter  _(Credits/Chapter/Chapter.md)_
+- Chapter 1  _(Credits/Chapter 1/Chapter 1.md)_
+- Chapter 2  _(Credits/Chapter 2/Chapter 2.md)_
+- Chapter 5  _(Credits/Chapter 5/Chapter 5.md)_
+- Chapter 6  _(Credits/Chapter 6/Chapter 6.md)_
+- Cover Page and Cipher Pol 9 - sutaneko  _(Credits/Cover Page and Cipher Pol 9 - sutaneko/Cover Page and Cipher Pol 9 - sutaneko.md)_
+- Hazard - Eiichiro Chapter 7  _(Credits/Hazard - Eiichiro Chapter 7/Hazard - Eiichiro Chapter 7.md)_
+- Preface Franky - Deyvidson  _(Credits/Preface Franky - Deyvidson/Preface Franky - Deyvidson.md)_
+
+## General Sub Sections (6 unmatched)
+- Disclaimer  _(General Sub Sections/Disclaimer.md)_
+- Eiichiro Oda's One Piece.  _(General Sub Sections/Disclaimer.md)_
+- General Sub Sections  _(General Sub Sections/General Sub Sections.md)_
+- An unofficial 5e supplement for  _(General Sub Sections/General Sub Sections.md)_
+- Using This Guide  _(General Sub Sections/Using This Guide.md)_
+- Recommendation: Higher Power Play  _(General Sub Sections/Using This Guide.md)_
+
+## Sourcebook.md (1 unmatched)
+- Sourcebook  _(Sourcebook.md)_

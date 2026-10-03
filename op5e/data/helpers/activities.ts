@@ -232,6 +232,13 @@ function buildBaseActivity(source: ActivitySource, type: ActivityType, id: strin
   };
 }
 
+const SAVE_ABILITY: Record<string, string> = { strength: "str", dexterity: "dex", constitution: "con", intelligence: "int", wisdom: "wis", charisma: "cha" };
+/** First "<Ability> saving throw" in the item's own text; a baseline save with no authored ability used to default to Strength. */
+function saveAbilityFromText(html?: string): string | undefined {
+  const m = String(html ?? "").replace(/<[^>]+>/g, " ").match(/(strength|dexterity|constitution|intelligence|wisdom|charisma)s+sav(?:e|ing)/i);
+  return m ? SAVE_ABILITY[m[1].toLowerCase()] : undefined;
+}
+
 function buildTypeFields(source: ActivitySource, type: ActivityType) {
   const sys = source.system;
 
@@ -252,7 +259,7 @@ function buildTypeFields(source: ActivitySource, type: ActivityType) {
         parts: sys.damage?.parts?.map((part) => transformDamagePart(part)) ?? [],
       },
       save: {
-        ability: [sys.save?.ability || "str"],
+        ability: [sys.save?.ability || saveAbilityFromText((sys as { description?: { value?: string } }).description?.value) || "str"],
         dc: {
           calculation,
           formula: sys.save?.dc != null ? String(sys.save.dc) : "",

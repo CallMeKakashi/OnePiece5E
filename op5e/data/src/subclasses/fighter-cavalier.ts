@@ -2,7 +2,7 @@ import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
-import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { createItemGrant, createTrait, mergeAdvancements } from "../../helpers/advancement.js";
 
 const SUB = "subclass/fighter/cavalier";
 const F = "feature/fighter/cavalier";
@@ -98,6 +98,7 @@ export const cavalier: SubclassItem = {
     identifier: "cavalier",
     classIdentifier: "fighter",
     advancement: mergeAdvancements(
+      createTrait(SUB, 3, { mode: "default", grants: [], choices: [{ count: 1, pool: ["skills:ani","skills:his","skills:ins","skills:prf","skills:per"] }] }, "bonus-proficiency"),
       createItemGrant(SUB, 3, [
         { uuid: fUuid(`${F}/saddle-born`) },
         { uuid: fUuid(`${F}/make-your-mark`) },

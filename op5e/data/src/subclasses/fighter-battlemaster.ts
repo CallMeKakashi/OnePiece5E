@@ -2,7 +2,8 @@ import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
-import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { createItemGrant, createItemChoiceRestricted, createScaleValue, mergeAdvancements } from "../../helpers/advancement.js";
+import { maneuverUuids } from "../class-features/class-content.js";
 
 const SUB = "subclass/fighter/battlemaster";
 const F = "feature/fighter/battlemaster";
@@ -106,6 +107,13 @@ export const battlemaster: SubclassItem = {
         { uuid: fUuid(`${F}/superior-combatant`) },
         { uuid: fUuid(`${F}/student-of-war`) },
       ]),
+      createItemChoiceRestricted(SUB, 3, maneuverUuids, { count: 3, replacement: true, label: "Maneuvers (level 3)" }),
+      createItemChoiceRestricted(SUB, 7, maneuverUuids, { count: 2, replacement: true, label: "Maneuvers (level 7)" }),
+      createItemChoiceRestricted(SUB, 10, maneuverUuids, { count: 2, replacement: true, label: "Maneuvers (level 10)" }),
+      createItemChoiceRestricted(SUB, 15, maneuverUuids, { count: 2, replacement: true, label: "Maneuvers (level 15)" }),
+      createScaleValue(SUB, "superiority-die", "dice", { 3: { number: 1, faces: 8 }, 10: { number: 1, faces: 10 }, 18: { number: 1, faces: 12 } }),
+      createScaleValue(SUB, "superiority-dice", "number", { 3: { value: 4 }, 7: { value: 5 }, 15: { value: 6 } }),
+      createScaleValue(SUB, "maneuvers-known", "number", { 3: { value: 3 }, 7: { value: 5 }, 10: { value: 7 }, 15: { value: 9 } }),
       createItemGrant(SUB, 7, [
         { uuid: fUuid(`${F}/advanced-combat-tactics`) },
       ]),

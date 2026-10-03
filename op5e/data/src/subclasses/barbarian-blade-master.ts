@@ -48,12 +48,35 @@ export const masterfulHew = feat(
   "feature/barbarian/blade-master/masterful-hew", "Masterful Hew", 3,
   `<p>Also at 3rd level, you learn special techniques that leverage your mastery of martial combat mixed with your primal strength. Once per turn when you hit with a weapon attack, you can perform a special attack called a hew, choosing from the list below.</p>
 <p>At 10th level, each of the hew options improve as per their description.</p>
-<ul>
-<li><strong>Cleaving Hew.</strong> Each other creature within 5 feet of the target suffers damage equal to your Strength modifier. The damage is the same type as the weapon used. If you are raging, you add your rage damage bonus. At 10th level while raging, the range increases to 10 ft.</li>
-<li><strong>Crushing Hew.</strong> You can make a grapple or shove attack as part of the same attack. If raging, you count as one size larger. At 10th level while raging, a successful grapple or shove deals your rage damage modifier.</li>
-<li><strong>Savage Hew.</strong> Roll damage twice and choose the higher number. If raging, double your rage damage bonus. At 10th level while raging, add half your level (rounded down) to the damage roll.</li>
-<li><strong>Sprinting Hew.</strong> Move up to half your speed before or after the attack. If raging, this movement doesn't provoke opportunity attacks. At 10th level while raging, move up to your full speed instead.</li>
-</ul>`,
+<p>The hews are Cleaving Hew, Crushing Hew, Savage Hew and Sprinting Hew; each is its own feature.</p>`,
+);
+
+export const cleavingHew = feat(
+  "feature/barbarian/blade-master/cleaving-hew", "Cleaving Hew", 3,
+  `<p>Each other creature other than yourself within 5 feet of it suffers damage equal to your Strength modifier. The damage is the same type as the weapon used for the attack. If you are raging when you perform this hew, you add your rage damage bonus to this damage.</p>
+<p>At 10th level, while raging, the range of the cleave increases to each creature within 10 ft, other than yourself.</p>`,
+  { activation: { type: "special", cost: null, condition: "Once per turn, when you hit with a weapon attack (Masterful Hew)" } },
+);
+
+export const crushingHew = feat(
+  "feature/barbarian/blade-master/crushing-hew", "Crushing Hew", 3,
+  `<p>You can additionally make a grapple or shove attack against it as part of the same attack. If you are raging when you perform this hew, you count as one size larger for the purpose of this grapple or shove.</p>
+<p>At 10th level, while raging, when you successfully grapple or shove a creature with this hew, you deal your rage damage modifier to the creature.</p>`,
+  { activation: { type: "special", cost: null, condition: "Once per turn, when you hit with a weapon attack (Masterful Hew)" } },
+);
+
+export const savageHew = feat(
+  "feature/barbarian/blade-master/savage-hew", "Savage Hew", 3,
+  `<p>You can roll damage for the attack twice and choose the higher number. If you were raging when you perform this hew, you double your rage damage bonus to this attack.</p>
+<p>At 10th level, while raging, you gain a bonus to the damage roll of the attack equal to half your level (rounded down).</p>`,
+  { activation: { type: "special", cost: null, condition: "Once per turn, when you hit with a weapon attack (Masterful Hew)" } },
+);
+
+export const sprintingHew = feat(
+  "feature/barbarian/blade-master/sprinting-hew", "Sprinting Hew", 3,
+  `<p>You can move up to half your speed, either before or after making the attack. If you were raging when you perform this hew, your movement does not provoke opportunity attacks.</p>
+<p>At 10th level, while raging, you can move up to your full movement speed instead of up to half.</p>`,
+  { activation: { type: "special", cost: null, condition: "Once per turn, when you hit with a weapon attack (Masterful Hew)" } },
 );
 
 export const steelRending = feat(
@@ -84,7 +107,7 @@ export const inexorableProwess = feat(
 );
 
 export const features: FeatureItem[] = [
-  fightingStyle, masterfulHew, steelRending, temperedRage, proofOfMettle, inexorableProwess,
+  fightingStyle, masterfulHew, cleavingHew, crushingHew, savageHew, sprintingHew, steelRending, temperedRage, proofOfMettle, inexorableProwess,
 ];
 
 function fUuid(f: FeatureItem): string {
@@ -102,7 +125,7 @@ export const subclass: SubclassItem = {
     identifier: "blade-master",
     classIdentifier: "barbarian",
     advancement: mergeAdvancements(
-      createItemGrant(SC_ID, 3, [{ uuid: fUuid(fightingStyle) }, { uuid: fUuid(masterfulHew) }]),
+      createItemGrant(SC_ID, 3, [{ uuid: fUuid(fightingStyle) }, { uuid: fUuid(masterfulHew) }, { uuid: fUuid(cleavingHew) }, { uuid: fUuid(crushingHew) }, { uuid: fUuid(savageHew) }, { uuid: fUuid(sprintingHew) }]),
       createItemGrant(SC_ID, 6, [{ uuid: fUuid(steelRending) }, { uuid: fUuid(temperedRage) }]),
       createItemGrant(SC_ID, 10, [{ uuid: fUuid(proofOfMettle) }]),
       createItemGrant(SC_ID, 14, [{ uuid: fUuid(inexorableProwess) }]),

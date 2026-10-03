@@ -49,8 +49,8 @@ export const gadgetLegerdemain = feat(
 );
 
 export const stupefyingCreation = feat(
-  "feature/rogue/gadget-trickster/stupefying-creation", "Stupefying Creation", 6,
-  `<p>At 6th level, when you make a spell attack, you can apply your Sneak Attack damage if you have advantage on the attack roll or if another enemy of the target is within 5 feet of it.</p>`,
+  "feature/rogue/gadget-trickster/stupefying-creation", "Stupefying Creation", 3,
+  `<p>Also at 3rd level, whenever you successfully hit a creature with a creation that uses an attack roll and deals damage, you can add your sneak attack to that one damage roll of that creation. All other requirements for sneak attack still apply.</p>`,
 );
 
 export const craftyOne = feat(
@@ -94,8 +94,8 @@ export const subclass: SubclassItem = {
     identifier: "gadget-trickster",
     classIdentifier: "rogue",
     advancement: mergeAdvancements(
-      createItemGrant(SC_ID, 3, [{ uuid: fUuid(gadgetSpellcasting) }, { uuid: fUuid(gadgetLegerdemain) }]),
-      createItemGrant(SC_ID, 6, [{ uuid: fUuid(stupefyingCreation) }, { uuid: fUuid(craftyOne) }]),
+      createItemGrant(SC_ID, 3, [{ uuid: fUuid(gadgetSpellcasting) }, { uuid: fUuid(gadgetLegerdemain) }, { uuid: fUuid(stupefyingCreation) }]),
+      createItemGrant(SC_ID, 6, [{ uuid: fUuid(craftyOne) }]),
       createItemGrant(SC_ID, 9, [{ uuid: fUuid(creativeAmbush) }]),
       createItemGrant(SC_ID, 13, [{ uuid: fUuid(versatileTrickster) }]),
       createItemGrant(SC_ID, 17, [{ uuid: fUuid(techniqueThief) }]),

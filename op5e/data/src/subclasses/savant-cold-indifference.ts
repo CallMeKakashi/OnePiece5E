@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { creationGrants } from "../../helpers/creation-grants.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -98,6 +99,7 @@ export const subclass: SubclassItem = {
     identifier: "cold-indifference",
     classIdentifier: "savant",
     advancement: mergeAdvancements(
+      ...creationGrants(SC_ID, [[2,["Cause Strife","Ice Dagger"]],[5,["Hold Person","Ice Lock"]],[9,["Ice Storm","Slow"]],[13,["Control Water","Hold Monster"]],[17,["Cone of Cold","Wall of Ice"]]], "Ardent Creations"),
       createItemGrant(SC_ID, 1, [{ uuid: fUuid(frozenSoul) }]),
       createItemGrant(SC_ID, 3, [{ uuid: fUuid(channelConvictionCold) }]),
       createItemGrant(SC_ID, 7, [{ uuid: fUuid(auraOfWinter) }]),

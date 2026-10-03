@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { creationGrants } from "../../helpers/creation-grants.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -101,6 +102,7 @@ export const subclass: SubclassItem = {
     identifier: "chemist",
     classIdentifier: "medic",
     advancement: mergeAdvancements(
+      ...creationGrants(SC_ID, [[2,["Bane","Caustic Brew"]],[3,["Alter Self","Acid Arrow"]],[5,["Fireball","Stinking Cloud"]],[7,["Vitriolic Sphere","Wall of Fire"]],[9,["Cloudkill","Contagion"]]], "Chemist Creations"),
       createItemGrant(SC_ID, 2, [{ uuid: fUuid(experimentalOoze) }]),
       createItemGrant(SC_ID, 6, [{ uuid: fUuid(chemicalReactions) }]),
       createItemGrant(SC_ID, 10, [{ uuid: fUuid(enhancedFormula) }]),

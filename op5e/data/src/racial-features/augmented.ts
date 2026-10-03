@@ -1,5 +1,5 @@
 import { generateId } from "../../helpers/id.js";
-import { createDAEEffect, addBonus, customChange, upgradeValue } from "../../helpers/effects.js";
+import { createDAEEffect, addBonus, customChange, upgradeValue, overrideValue } from "../../helpers/effects.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
 function rf(
@@ -102,8 +102,17 @@ export const beastBody = rf(
 <li>A flying speed of 30 feet.</li>
 <li>A swimming speed of 30 feet and the ability to breathe underwater.</li>
 <li>A climbing speed of 30 feet and a burrow speed of 10 feet.</li>
-</ul>`,
+</ul>
+<p>Enable the matching effect on this feature (all three start disabled).</p>`,
   "Augmented (Chimera)",
+  {},
+  [
+    createDAEEffect("race/augmented/chimera/beast-body/fly", "Beast Body: Flying 30 ft", [upgradeValue("system.attributes.movement.fly", 30)], { disabled: true }),
+    createDAEEffect("race/augmented/chimera/beast-body/swim", "Beast Body: Swimming 30 ft (breathe underwater)", [upgradeValue("system.attributes.movement.swim", 30)], { disabled: true }),
+    createDAEEffect("race/augmented/chimera/beast-body/climb-burrow", "Beast Body: Climbing 30 ft, Burrow 10 ft", [
+      upgradeValue("system.attributes.movement.climb", 30), upgradeValue("system.attributes.movement.burrow", 10),
+    ], { disabled: true }),
+  ],
 );
 
 export const chimeraDarkvision = rf(

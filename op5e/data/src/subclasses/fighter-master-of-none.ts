@@ -73,19 +73,30 @@ const breakdown = feat(
 
 const juryRigging = feat(
   "jury-rigging", "Jury-Rigging",
-  `<p>At 7th level, when you hit a creature with an improvised weapon, you can apply one of the following debuff effects instead of dealing extra damage (the target must succeed on a Strength or Dexterity saving throw, DC = 8 + your proficiency bonus + your Strength or Dexterity modifier):</p>
+  `<p>Also at 3rd level, you can make the most of your improvised weapons. Once per turn, when you use your Breakdown feature, you can trigger an additional effect. At 7th level, two effects trigger. At 15th level, three effects trigger.</p>
+<p>You can use this feature a number of times equal to 1 + your Constitution modifier, regaining all uses on a short or long rest.</p>
+<p>When you gain this feature, and at 7th and 15th level, you choose one of the effects below, making that the effect that triggers.</p>
 <ul>
-<li><strong>Entangle.</strong> The target's speed is reduced by 10 feet until the end of its next turn.</li>
-<li><strong>Disorient.</strong> The target has disadvantage on its next attack roll before the end of its next turn.</li>
-<li><strong>Blind.</strong> The target is blinded until the end of its next turn.</li>
-</ul>`,
-  "Master of None 7",
+<li>All creatures, excluding yourself, within 5 feet of the target must succeed on a Dexterity saving throw or take 1d(Improv Damage Dice Size) piercing damage.</li>
+<li>The target's movement speed is reduced to 0 until the start of your next turn.</li>
+<li>The target must succeed on a Wisdom saving throw or be unable to take the Attack action on its next turn.</li>
+<li>The target is unable to speak for the next minute.</li>
+<li>The target cannot regain hit points until the start of your next turn.</li>
+<li>The target must succeed on a Constitution saving throw or become stunned until the start of your next turn.</li>
+<li>The target must succeed on a Strength saving throw or be knocked back 10 feet, or knocked prone.</li>
+<li>The target must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn.</li>
+<li>The target must succeed on a Constitution saving throw or be blinded until the start of your next turn.</li>
+<li>The target's Armor Class is reduced by 2 until the start of your next turn.</li>
+</ul>
+<p>If any of these effects requires the target to make a saving throw, the DC is equal to 8 + your Constitution modifier + your proficiency bonus.</p>`,
+  "Master of None 3",
 );
 
 const wreckResistance = feat(
   "wreck-resistance", "Wreck Resistance",
-  `<p>At 10th level, your experience with breaking things gives you insight into durability. You gain resistance to bludgeoning damage. Additionally, your improvised weapon attacks ignore resistance to bludgeoning, piercing, and slashing damage.</p>`,
-  "Master of None 10",
+  `<p>Starting at 7th level, when you make an attack with an improvised weapon, you can ignore any resistance to bludgeoning, piercing, or slashing.</p>
+<p>In addition, when you obtain an improvised weapon, instead of adding one weapon property to it, you can add two weapon properties.</p>`,
+  "Master of None 7",
 );
 
 const inAndOut = feat(
@@ -124,12 +135,12 @@ export const masterOfNone: SubclassItem = {
       createItemGrant(SUB, 3, [
         { uuid: fUuid(`${F}/improvised-weaponry`) },
         { uuid: fUuid(`${F}/breakdown`) },
-      ]),
-      createItemGrant(SUB, 7, [
         { uuid: fUuid(`${F}/jury-rigging`) },
       ]),
-      createItemGrant(SUB, 10, [
+      createItemGrant(SUB, 7, [
         { uuid: fUuid(`${F}/wreck-resistance`) },
+      ]),
+      createItemGrant(SUB, 10, [
         { uuid: fUuid(`${F}/in-and-out`) },
       ]),
       createItemGrant(SUB, 15, [

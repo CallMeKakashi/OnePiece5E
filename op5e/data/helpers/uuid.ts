@@ -14,7 +14,8 @@ export type PackName =
   | "monsters"
   | "ships"
   | "ship-weapons"
-  | "spell-lists";
+  | "spell-lists"
+  | "reference";
 
 /**
  * Build a Foundry compendium UUID for a document in this module.

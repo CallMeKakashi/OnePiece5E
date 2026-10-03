@@ -131,6 +131,13 @@
       "system": "dnd5e"
     },
     {
+      "name": "reference",
+      "label": "OP5e Reference",
+      "path": "packs/reference",
+      "type": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
       "name": "ship-weapons",
       "label": "OP5e Ship Weapons",
       "path": "packs/ship-weapons",
@@ -152,6 +159,7 @@
         "items",
         "creations",
         "spell-lists",
+        "reference",
         "devil-fruits",
         "monsters",
         "summons",

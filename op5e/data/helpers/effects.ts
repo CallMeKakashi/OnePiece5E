@@ -29,6 +29,19 @@ export interface CreateEffectOptions {
  * on a Foundry Item.  The `idPath` is fed to `generateId` so the effect
  * `_id` is deterministic across rebuilds.
  */
+// Core Foundry icons (all exist in public/icons/svg). Effects need an image or the sheet shows a broken one.
+const STATUS_ICON: Record<string, string> = {
+  blinded: "blind", charmed: "heal", deafened: "deaf", frightened: "terror", invisible: "invisible", paralyzed: "paralysis", poisoned: "poison",
+  prone: "falling", restrained: "net", stunned: "daze", unconscious: "unconscious", incapacitated: "daze", petrified: "statue", grappled: "net",
+  sleep: "sleep", silenced: "silenced", burning: "fire", dead: "skull", exhaustion: "degen", bleeding: "blood", deflect: "shield",
+};
+function effectIcon(statuses: string[] | undefined, changes: EffectChangeInput[]): string {
+  for (const s of statuses ?? []) if (STATUS_ICON[s]) return `icons/svg/${STATUS_ICON[s]}.svg`;
+  if (changes.some((c) => /disadvantage/i.test(c.key))) return "icons/svg/downgrade.svg";
+  if (changes.some((c) => /advantage|bonuses|\.dr\.|\.di\./i.test(c.key))) return "icons/svg/upgrade.svg";
+  return "icons/svg/aura.svg";
+}
+
 export function createDAEEffect(
   idPath: string,
   name: string,
@@ -39,7 +52,7 @@ export function createDAEEffect(
   return {
     _id: id,
     name,
-    img: options.img ?? "",
+    img: options.img ?? effectIcon(options.statuses, changes),
     changes: changes.map((c) => ({
       key: c.key,
       mode: c.mode,

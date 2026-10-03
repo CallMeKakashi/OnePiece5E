@@ -1,4 +1,6 @@
 import { generateId } from "../../helpers/id.js";
+import { createTrait, createItemGrant } from "../../helpers/advancement.js";
+import { compendiumUuid } from "../../helpers/uuid.js";
 import { createDAEEffect, addBonus } from "../../helpers/effects.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -62,6 +64,7 @@ export const resourcefulness = rf(
   "Resourcefulness",
   `<p>You gain proficiency with one skill or one simple or martial weapon of your choice.</p>`,
   "Human (Standard)",
+  { advancement: [createTrait("feature/race/human/standard/resourcefulness", 0, { mode: "default", grants: [], choices: [{ count: 1, pool: ["skills:*", "weapon:sim:*", "weapon:mar:*"] }], hint: "one skill or one simple or martial weapon" }, "proficiency")] } as never,
 );
 
 export const strongWill = rf(
@@ -79,6 +82,8 @@ export const amazonianBond = rf(
   "Amazonian Bond",
   `<p>You can use the Animal Friend creation at will, however only when targeting beasts that are snakes. If you have the creativity feature, this creation is added to your creation list.</p>`,
   "Human (Kuja)",
+  // Animal Friend creation (6f4b24d65c1aaf59); "snakes only, at will" stays in the text
+  { advancement: [createItemGrant("feature/race/human/kuja/amazonian-bond", 0, [{ uuid: compendiumUuid("creations", "6f4b24d65c1aaf59") }], "animal-friend")] } as never,
 );
 
 export const minorHaki = rf(

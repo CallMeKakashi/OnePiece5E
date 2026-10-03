@@ -4,6 +4,7 @@ import { compendiumUuid } from "../../helpers/uuid.js";
 import {
   createHitPoints,
   createItemGrant,
+  createItemChoiceRestricted,
   createScaleValue,
   createSubclass,
   createTrait,
@@ -14,6 +15,7 @@ import {
   createHakiAdvancementChoices,
   createHakiTierScaleValue,
 } from "../../helpers/haki-advancement.js";
+import { modUuids } from "../class-features/class-content.js";
 import { classStartingEquipmentAdvancement } from "./class-equipment-grants.js";
 import { ARTISAN_TOOL_TRAIT_POOL } from "./class-proficiency-pools.js";
 import {
@@ -112,6 +114,12 @@ export const gadgeteer: ClassItem = {
         { uuid: featureUuid(mods._id) },
       ]),
 
+      createItemChoiceRestricted(CLS, 2, modUuids, { count: 4, replacement: true, label: "Mods (level 2)" }),
+      createItemChoiceRestricted(CLS, 6, modUuids, { count: 2, replacement: true, label: "Mods (level 6)" }),
+      createItemChoiceRestricted(CLS, 10, modUuids, { count: 2, replacement: true, label: "Mods (level 10)" }),
+      createItemChoiceRestricted(CLS, 14, modUuids, { count: 2, replacement: true, label: "Mods (level 14)" }),
+      createItemChoiceRestricted(CLS, 18, modUuids, { count: 2, replacement: true, label: "Mods (level 18)" }),
+
       // --- Level 3: Specialist Path, The Right Tool ---
       createSubclass(CLS, 3),
       createItemGrant(CLS, 3, [
@@ -185,7 +193,7 @@ export const gadgeteer: ClassItem = {
         14: { value: 5 },
       }),
     ) as any,
-    spellcasting: { progression: "half", ability: "int" },
+    spellcasting: { progression: "artificer", ability: "int" },
     wealth: "",
   },
   effects: [],

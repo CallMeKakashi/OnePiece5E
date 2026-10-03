@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { creationGrants } from "../../helpers/creation-grants.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -103,6 +104,7 @@ export const subclass: SubclassItem = {
     identifier: "venomous-duality",
     classIdentifier: "savant",
     advancement: mergeAdvancements(
+      ...creationGrants(SC_ID, [[2,["Cure Wounds","Infectious Ray"]],[5,["Lesser Restoration","Enfeeblement"]],[9,["Aura of Vitality","Revivify"]],[13,["Aura of Life","Blight"]],[17,["Cloudkill","Mass Cure Wounds"]]], "Ardent Creations"),
       createItemGrant(SC_ID, 1, [{ uuid: fUuid(miasmicSoul) }]),
       createItemGrant(SC_ID, 3, [{ uuid: fUuid(channelConvictionVenomous) }]),
       createItemGrant(SC_ID, 7, [{ uuid: fUuid(toxicAura) }]),

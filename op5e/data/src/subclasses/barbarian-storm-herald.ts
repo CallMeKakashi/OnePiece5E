@@ -43,11 +43,7 @@ export const ragingStorm = feat(
   `<p>At 3rd level, you emanate a stormy, violent aura while you rage. The aura extends 10 feet from you in every direction, but not through total cover.</p>
 <p>Your aura has an effect that activates when you enter your rage, and you can activate the effect again on each of your turns as a bonus action. If your aura's effects require a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.</p>
 <p>Whenever you finish a long rest, choose firestorm, thunderstorm, or blizzard. Your aura's effect depends on that chosen storm, as detailed below.</p>
-<ul>
-<li><strong>Firestorm.</strong> When this effect is activated, all creatures in your aura other than you take 1d6 fire damage. The damage increases to 2d6 at 5th level, 3d6 at 11th level, and 4d6 at 17th level.</li>
-<li><strong>Thunderstorm.</strong> When this effect is activated, you can choose one other creature you can see in your aura. The target must make a Dexterity saving throw. The target takes 1d12 lightning or thunder damage (your choice) on a failed save, or half as much on a successful one. The damage increases to 2d12 at 5th level, 3d12 at 11th level, and 4d12 at 17th level.</li>
-<li><strong>Snowstorm.</strong> When this effect is activated, you and each other creature of your choice in your aura gain 1d6 temporary hit points. The temporary hit points increase to 2d6 at 5th level, 3d6 at 11th level, and 4d6 at 17th level.</li>
-</ul>`,
+<p>Each storm is its own feature: Firestorm, Thunderstorm and Snowstorm.</p>`,
   {
     activation: { type: "bonus", cost: 1, condition: "While raging" },
     target: { value: 10, width: null, units: "ft", type: "radius" },
@@ -58,11 +54,7 @@ export const ragingStorm = feat(
 export const stormySoul = feat(
   "feature/barbarian/storm-herald/stormy-soul", "Stormy Soul", 6,
   `<p>At 6th level, the storm grants you benefits even when your aura isn't active. The benefits are based on the storm type you chose for your Raging Storm.</p>
-<ul>
-<li><strong>Firestorm.</strong> You gain resistance to fire damage, and you don't suffer the effects of extreme heat. Moreover, as an action, you can touch a flammable object that isn't being worn or carried by anyone else and set it on fire.</li>
-<li><strong>Thunderstorm.</strong> You gain resistance to lightning and thunder damage. Moreover, as an action, you can summon wind, rainfall and the faint sounds of thunder in the distance within a 10 ft radius.</li>
-<li><strong>Snowstorm.</strong> You gain resistance to cold damage, and you don't suffer the effects of extreme cold. Moreover, as an action, you can freeze and shape water in a 5-foot cube into ice sculptures, which melt after 1 minute.</li>
-</ul>`,
+<p>Each storm is its own feature: Firestorm, Thunderstorm and Snowstorm.</p>`,
 );
 
 export const shieldingStorm = feat(
@@ -73,15 +65,56 @@ export const shieldingStorm = feat(
 export const furyOfTheStorm = feat(
   "feature/barbarian/storm-herald/fury-of-the-storm", "Fury of the Storm", 14,
   `<p>At 14th level, the power of the storm you channel grows mightier, lashing out at your foes. The effect is based on the storm type you chose for your Raging Storm.</p>
-<ul>
-<li><strong>Firestorm.</strong> Immediately after a creature in your aura hits you with an attack, you can use your reaction to force that creature to make a Dexterity saving throw. On a failed save, the creature takes fire damage equal to your barbarian level, or half as much damage on a successful one.</li>
-<li><strong>Thunderstorm.</strong> When you hit a creature in your aura with an attack, once per turn, you can force that creature to make a Strength saving throw. On a failed save, the creature takes lightning or thunder damage equal to half your barbarian level and is knocked prone, or half as much damage and not knocked prone on a successful one.</li>
-<li><strong>Snowstorm.</strong> Whenever the effect of your Storm Aura is activated, you can choose one creature you can see in the aura. That creature must succeed on a Constitution saving throw. On a failed save, the creature takes cold damage equal to half your barbarian level and its speed is reduced to 0 until the start of your next turn, or half as much damage and its speed is not reduced on a successful one.</li>
-</ul>`,
+<p>Each storm is its own feature: Firestorm, Thunderstorm and Snowstorm.</p>`,
+);
+
+export const ragingStormFirestorm = feat(
+  "feature/barbarian/storm-herald/raging-storm-firestorm", "Raging Storm: Firestorm", 3,
+  `<p>When this effect is activated, all creatures in your aura other than you take 1d6 fire damage. The damage increases to 2d6 at 5th level, 3d6 at 11th level, and 4d6 at 17th level.</p>`,
+);
+
+export const ragingStormThunderstorm = feat(
+  "feature/barbarian/storm-herald/raging-storm-thunderstorm", "Raging Storm: Thunderstorm", 3,
+  `<p>When this effect is activated, you can choose one other creature you can see in your aura. The target must make a Dexterity saving throw. The target takes 1d12 lightning or thunder damage (your choice) on a failed save, or half as much on a successful one. The damage increases to 2d12 at 5th level, 3d12 at 11th level, and 4d12 at 17th level.</p>`,
+);
+
+export const ragingStormSnowstorm = feat(
+  "feature/barbarian/storm-herald/raging-storm-snowstorm", "Raging Storm: Snowstorm", 3,
+  `<p>When this effect is activated, you and each other creature of your choice in your aura gain 1d6 temporary hit points. The temporary hit points increase to 2d6 at 5th level, 3d6 at 11th level, and 4d6 at 17th level.</p>`,
+);
+
+export const stormySoulFirestorm = feat(
+  "feature/barbarian/storm-herald/stormy-soul-firestorm", "Stormy Soul: Firestorm", 6,
+  `<p>You gain resistance to fire damage, and you don't suffer the effects of extreme heat. Moreover, as an action, you can touch a flammable object that isn't being worn or carried by anyone else and set it on fire.</p>`,
+);
+
+export const stormySoulThunderstorm = feat(
+  "feature/barbarian/storm-herald/stormy-soul-thunderstorm", "Stormy Soul: Thunderstorm", 6,
+  `<p>You gain resistance to lightning and thunder damage. Moreover, as an action, you can summon wind, rainfall and the faint sounds of thunder in the distance within a 10 ft radius.</p>`,
+);
+
+export const stormySoulSnowstorm = feat(
+  "feature/barbarian/storm-herald/stormy-soul-snowstorm", "Stormy Soul: Snowstorm", 6,
+  `<p>You gain resistance to cold damage, and you don't suffer the effects of extreme cold. Moreover, as an action, you can freeze and shape water in a 5-foot cube into ice sculptures, which melt after 1 minute.</p>`,
+);
+
+export const furyOfTheStormFirestorm = feat(
+  "feature/barbarian/storm-herald/fury-of-the-storm-firestorm", "Fury of the Storm: Firestorm", 14,
+  `<p>Immediately after a creature in your aura hits you with an attack, you can use your reaction to force that creature to make a Dexterity saving throw. On a failed save, the creature takes fire damage equal to your barbarian level, or half as much damage on a successful one.</p>`,
+);
+
+export const furyOfTheStormThunderstorm = feat(
+  "feature/barbarian/storm-herald/fury-of-the-storm-thunderstorm", "Fury of the Storm: Thunderstorm", 14,
+  `<p>When you hit a creature in your aura with an attack, once per turn, you can force that creature to make a Strength saving throw. On a failed save, the creature takes lightning or thunder damage equal to half your barbarian level and is knocked prone, or half as much damage and not knocked prone on a successful one.</p>`,
+);
+
+export const furyOfTheStormSnowstorm = feat(
+  "feature/barbarian/storm-herald/fury-of-the-storm-snowstorm", "Fury of the Storm: Snowstorm", 14,
+  `<p>Whenever the effect of your Storm Aura is activated, you can choose one creature you can see in the aura. That creature must succeed on a Constitution saving throw. On a failed save, the creature takes cold damage equal to half your barbarian level and its speed is reduced to 0 until the start of your next turn, or half as much damage and its speed is not reduced on a successful one.</p>`,
 );
 
 export const features: FeatureItem[] = [
-  ragingStorm, stormySoul, shieldingStorm, furyOfTheStorm,
+  ragingStorm, stormySoul, shieldingStorm, furyOfTheStorm, ragingStormFirestorm, ragingStormThunderstorm, ragingStormSnowstorm, stormySoulFirestorm, stormySoulThunderstorm, stormySoulSnowstorm, furyOfTheStormFirestorm, furyOfTheStormThunderstorm, furyOfTheStormSnowstorm,
 ];
 
 function fUuid(f: FeatureItem): string {
@@ -99,10 +132,10 @@ export const subclass: SubclassItem = {
     identifier: "storm-herald",
     classIdentifier: "barbarian",
     advancement: mergeAdvancements(
-      createItemGrant(SC_ID, 3, [{ uuid: fUuid(ragingStorm) }]),
-      createItemGrant(SC_ID, 6, [{ uuid: fUuid(stormySoul) }]),
+      createItemGrant(SC_ID, 3, [{ uuid: fUuid(ragingStorm) }, { uuid: fUuid(ragingStormFirestorm) }, { uuid: fUuid(ragingStormThunderstorm) }, { uuid: fUuid(ragingStormSnowstorm) }]),
+      createItemGrant(SC_ID, 6, [{ uuid: fUuid(stormySoul) }, { uuid: fUuid(stormySoulFirestorm) }, { uuid: fUuid(stormySoulThunderstorm) }, { uuid: fUuid(stormySoulSnowstorm) }]),
       createItemGrant(SC_ID, 10, [{ uuid: fUuid(shieldingStorm) }]),
-      createItemGrant(SC_ID, 14, [{ uuid: fUuid(furyOfTheStorm) }]),
+      createItemGrant(SC_ID, 14, [{ uuid: fUuid(furyOfTheStorm) }, { uuid: fUuid(furyOfTheStormFirestorm) }, { uuid: fUuid(furyOfTheStormThunderstorm) }, { uuid: fUuid(furyOfTheStormSnowstorm) }]),
     ) as any,
     spellcasting: { progression: "none", ability: "" },
   },

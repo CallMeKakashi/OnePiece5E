@@ -146,10 +146,14 @@ const GEAR_BY_PATTERN: GearPattern[] = [
   { pattern: /inkwell|ink\s*pen/i, entry: itemGear("ink-pen") },
   { pattern: /blueprints/i, entry: itemGear("book") },
   { pattern: /recipe\s*book|catalog\s*of\s*various\s*recipes/i, entry: itemGear("recipe-book") },
-  { pattern: /log\s*book|notebook|binder\s*full|devil\s*fruit\s*encyclopedia|encyclopedia|prayer\s*book|leatherbound\s*journal|scroll\s*of\s*pedigree/i, entry: itemGear("book") },
+  { pattern: /devil\s*fruit\s*encyclopedia/i, entry: itemGear("devil-fruit-encyclopedia") },
+  { pattern: /artwork/i, entry: itemGear("artwork") },
+  { pattern: /jewelry/i, entry: itemGear("jewelry-150000") },
+  { pattern: /\bmap of\b/i, entry: itemGear("area-map") },
+  { pattern: /log\s*book|notebook|binder\s*full|(?<!devil\s*fruit\s*)encyclopedia|prayer\s*book|leatherbound\s*journal|scroll\s*of\s*pedigree/i, entry: itemGear("book") },
   { pattern: /boxing\s*gloves/i, entry: itemGear("boxing-gloves") },
   { pattern: /trophy/i, entry: itemGear("trophy") },
-  { pattern: /memento|lucky\s*charm|trinket|charm/i, entry: itemGear("memento") },
+  { pattern: /memento|trinket/i, entry: itemGear("memento") },
   { pattern: /magnifying\s*glass/i, entry: itemGear("magnifying-glass") },
   { pattern: /fishing\s*tackle/i, entry: itemGear("fishing-tackle") },
   { pattern: /\bnet\b/i, entry: itemWeapon("net") },
@@ -164,7 +168,9 @@ const GEAR_BY_PATTERN: GearPattern[] = [
   { pattern: /vestments/i, entry: itemGear("vestments") },
   { pattern: /stethoscope/i, entry: itemGear("stethoscope") },
   { pattern: /pirate\s*flag|jolly\s*roger/i, entry: itemGear("pirate-flag") },
-  { pattern: /warm\s*coat|\bblanket\b/i, entry: itemGear("blanket") },
+  { pattern: /warm\s*coat/i, entry: itemGear("warm-coat") },
+  { pattern: /lucky\s*charm/i, entry: itemGear("lucky-charm") },
+  { pattern: /\bblanket\b/i, entry: itemGear("blanket") },
   { pattern: /wooden\s*trinket/i, entry: itemGear("wooden-trinket") },
   {
     pattern: /empty\s*glass\s*bottles?/i,
@@ -179,6 +185,23 @@ const GEAR_BY_PATTERN: GearPattern[] = [
     entry: (line) => repeat(itemGear("bandages"), parseCountedTerm(line, "bandage", "bandages")),
   },
 ];
+
+const MASTER_AT_ARMS_WEAPONS = [
+  "club", "dagger", "greatclub", "handaxe", "javelin", "light-hammer", "mace", "quarterstaff", "spear", "sickle",
+  "musket", "crossbow-light", "dart", "flintlock", "shortbow", "sling",
+  "battleaxe", "cutlass", "flail", "glaive", "greataxe", "greatsword", "halberd", "katana", "lance", "longsword", "maul", "odachi", "pike", "rapier", "scimitar", "shortsword", "trident", "war-pick", "warhammer", "whip",
+  "blowgun", "crossbow-hand", "crossbow-heavy", "longbow", "net", "pistol", "revolver", "rifle", "shotgun",
+];
+
+/** Backgrounds whose Equipment line says "X or Y": the alternatives become an ItemChoice instead of both being granted. */
+const BACKGROUND_EQUIPMENT_CHOICES: Record<string, { label: string; slugs: string[] }> = {
+  detective: { label: "Kit", slugs: ["forgery-kit", "disguise-kit"] },
+  revolutionary: { label: "Kit", slugs: ["disguise-kit", "thieves-tools"] },
+  librarian: { label: "Kit", slugs: ["calligraphers-supplies", "forgery-kit"] },
+  navigator: { label: "Tools", slugs: ["cartographers-tools", "navigators-tools"] },
+  archaeologist: { label: "Tools", slugs: ["cartographers-tools", "navigators-tools"] },
+  gambler: { label: "Kit", slugs: ["disguise-kit", "playing-card-set"] },
+};
 
 /** Ship roles — explicit kits from OP5e role descriptions. */
 const ROLE_EQUIPMENT: Record<string, StartingEquipmentPack & {
@@ -201,7 +224,7 @@ const ROLE_EQUIPMENT: Record<string, StartingEquipmentPack & {
   },
   helmsman: {
     beri: 100_000,
-    grants: [itemGear("clothes-common"), itemGear("blanket"), itemGear("memento")],
+    grants: [itemGear("clothes-common"), itemGear("warm-coat"), itemGear("lucky-charm")],
   },
   cook: {
     beri: 50_000,
@@ -258,13 +281,8 @@ const ROLE_EQUIPMENT: Record<string, StartingEquipmentPack & {
     choices: [{
       label: "Starting Weapon",
       itemType: "weapon",
-      uuids: [
-        itemWeapon("longsword").uuid,
-        itemWeapon("cutlass").uuid,
-        itemWeapon("katana").uuid,
-        itemWeapon("greatsword").uuid,
-        itemWeapon("quarterstaff").uuid,
-      ],
+      // book: "a simple or martial weapon of your choice" (unarmed strikes and ship guns excluded)
+      uuids: MASTER_AT_ARMS_WEAPONS.map((w) => itemWeapon(w).uuid),
     }],
   },
   deckhand: {
@@ -352,8 +370,14 @@ export function backgroundEquipmentAdvancement(backgroundId: string, desc: strin
   grantQuantities: Record<string, number>;
 } {
   const pack = parseBackgroundEquipment(desc);
+  const alt = BACKGROUND_EQUIPMENT_CHOICES[backgroundId];
+  const altUuids = alt ? alt.slugs.map((s) => itemTool(s).uuid) : [];
+  if (alt) pack.grants = pack.grants.filter((g) => !altUuids.includes(g.uuid));
   return {
-    advancement: equipmentAdvancement(`background/${backgroundId}`, pack),
+    advancement: [
+      ...equipmentAdvancement(`background/${backgroundId}`, pack),
+      ...(alt ? [createItemChoiceRestricted(`background/${backgroundId}`, 0, altUuids, { count: 1, label: alt.label, itemType: "tool", restrictionType: "tool" })] : []),
+    ],
     startingBeri: pack.beri,
     grantQuantities: grantQuantitiesMap(pack.grants),
   };

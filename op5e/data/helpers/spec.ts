@@ -34,7 +34,7 @@ export interface ActSpec {
   /** extra resource consumed, e.g. a spell slot */
   note?: string;
   /** summon: names of premade actors in the summons pack; bonuses are item-roll-data formulas */
-  summon?: { profiles: string[]; ac?: string; hp?: string; attackDamage?: string; saveDamage?: string; healing?: string };
+  summon?: { profiles: string[]; ac?: string; hp?: string; attackDamage?: string; saveDamage?: string; healing?: string; fixed?: boolean };
 }
 export interface Spec { /** replaces the description with clearer per-option HTML */ descriptionHtml?: string; activities: ActSpec[]; uses?: { max: string; per?: "sr" | "lr" | "day" | "round" | null }; extraEffects?: EffectSpec[] }
 
@@ -91,7 +91,7 @@ export function buildFromSpec(key: string, spec: Spec, defaults: SpecDefaults = 
       const sm = a.summon!;
       act.bonuses = { ac: sm.ac ?? "", hd: "", hp: sm.hp ?? "", attackDamage: sm.attackDamage ?? "", saveDamage: sm.saveDamage ?? "", healing: sm.healing ?? "" };
       act.creatureSizes = []; act.creatureTypes = [];
-      act.match = { ability: "", attacks: true, proficiency: false, saves: true };
+      act.match = { ability: "", attacks: !sm.fixed, proficiency: false, saves: !sm.fixed };
       act.profiles = sm.profiles.map((n) => ({ _id: generateId(`profile/${key}/${n}`).slice(0, 16), count: "1", cr: "", level: { min: null, max: null }, name: n, types: [], uuid: `Compendium.op5e.summons.Actor.${generateId(`monster/${n}`)}` }));
       act.summon = { identifier: "", mode: "", prompt: true };
     } else {

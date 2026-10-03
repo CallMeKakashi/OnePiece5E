@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { creationGrants } from "../../helpers/creation-grants.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -98,6 +99,7 @@ export const subclass: SubclassItem = {
     identifier: "caustic-spite",
     classIdentifier: "savant",
     advancement: mergeAdvancements(
+      ...creationGrants(SC_ID, [[2,["Bane","Caustic Brew"]],[5,["Blindness/Deafness","Acid Arrow"]],[9,["Concoct Ooze","Fear"]],[13,["Vitriolic Sphere","Watery Sphere"]],[17,["Dominate Person","Cloudkill"]]], "Ardent Creations"),
       createItemGrant(SC_ID, 1, [{ uuid: fUuid(corrosiveSoul) }]),
       createItemGrant(SC_ID, 3, [{ uuid: fUuid(channelConvictionCaustic) }]),
       createItemGrant(SC_ID, 7, [{ uuid: fUuid(auraOfSpite) }]),

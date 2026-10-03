@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, createScaleValue, mergeAdvancements } from "../../helpers/advancement.js";
+import { creationGrants } from "../../helpers/creation-grants.js";
 import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
@@ -101,6 +102,7 @@ export const subclass: SubclassItem = {
     identifier: "plaguewright",
     classIdentifier: "medic",
     advancement: mergeAdvancements(
+      ...creationGrants(SC_ID, [[2,["Infectious Ray","Hex"]],[3,["Blindness/Deafness","Gentle Repose"]],[5,["Animate Dead","Bestow Curse"]],[7,["Blight","Confusion"]],[9,["Contagion","Life Steal"]]], "Plaguewright Creations"),
       createItemGrant(SC_ID, 2, [{ uuid: fUuid(infectionRadius) }, { uuid: fUuid(endemicSurge) }]),
       createItemGrant(SC_ID, 6, [{ uuid: fUuid(zeroPatients) }]),
       createItemGrant(SC_ID, 10, [{ uuid: fUuid(pandemicAmplification) }]),

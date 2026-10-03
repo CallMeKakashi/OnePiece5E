@@ -200,6 +200,11 @@ export const bard: ClassItem = {
         10: { number: 1, faces: 10 } as any,
         15: { number: 1, faces: 12 } as any,
       }),
+      createScaleValue(CLASS_ID, "tricks-known", "number", {
+        1: { value: 3 },
+        4: { value: 4 },
+        10: { value: 5 },
+      }),
     ) as any,
     spellcasting: { progression: "full", ability: "cha" },
     wealth: "",

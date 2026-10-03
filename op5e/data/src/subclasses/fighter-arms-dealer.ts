@@ -2,7 +2,8 @@ import type { SubclassItem } from "../../schemas/subclass.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
-import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
+import { createItemGrant, createItemChoiceRestricted, createScaleValue, mergeAdvancements } from "../../helpers/advancement.js";
+import { ammoUuids, engineeringDef, uuidOf } from "../class-features/class-content.js";
 
 const SUB = "subclass/fighter/arms-dealer";
 const F = "feature/fighter/arms-dealer";
@@ -119,6 +120,12 @@ export const armsDealer: SubclassItem = {
         { uuid: fUuid(`${F}/engineering-proficiency`) },
         { uuid: fUuid(`${F}/advanced-arsenal`) },
       ]),
+      createItemGrant(SUB, 3, [{ uuid: uuidOf(engineeringDef) }], "engineering"),
+      createItemChoiceRestricted(SUB, 3, ammoUuids, { count: 2, replacement: true, label: "Advanced Arsenal (level 3)" }),
+      createItemChoiceRestricted(SUB, 7, ammoUuids, { count: 1, replacement: true, label: "Advanced Arsenal (level 7)" }),
+      createItemChoiceRestricted(SUB, 10, ammoUuids, { count: 1, replacement: true, label: "Advanced Arsenal (level 10)" }),
+      createItemChoiceRestricted(SUB, 15, ammoUuids, { count: 1, replacement: true, label: "Advanced Arsenal (level 15)" }),
+      createItemChoiceRestricted(SUB, 18, ammoUuids, { count: 1, replacement: true, label: "Advanced Arsenal (level 18)" }),
       createItemGrant(SUB, 7, [
         { uuid: fUuid(`${F}/rebounding-shots`) },
         { uuid: fUuid(`${F}/mastercrafted-shots`) },
