@@ -8,7 +8,7 @@ import { BUILT, pageLib } from "./advance-lib.mjs";
 const OLD = JSON.parse(readFileSync("reports/campaign-pcs-raw.json", "utf8"));
 const SPECS = [
   { old: 'Matthew "The Jack" Burgess', name: "Matthew \"The Jack\" Burgess", race: "Human", background: "Gambler", classes: [{ name: "Fighter", levels: 10, sub: "Gunslinger" }], note: "old Gunslinger/High Roller -> Fighter (Gunslinger)" },
-  { old: "Baptiste", name: "Baptiste", race: "Lunarian", background: "Boxer", classes: [{ name: "Brawler", levels: 10, sub: "Open Hand" }], note: "old 'Way of the Astral Self' has no op5e subclass -> Open Hand (CONFIRM)" },
+  { old: "Baptiste", name: "Baptiste", race: "Lunarian", background: "Boxer", classes: [{ name: "Brawler", levels: 10, sub: "Chromatic Commandment" }], note: "old Way of the Astral Self -> Chromatic Commandment (DM confirmed)" },
   { old: "Malphas", name: "Malphas", race: "Lunarian", background: "Wanderer", classes: [{ name: "Brawler", levels: 8, sub: "Drunken Master" }] },
   { old: "Thunderbird Form 1", name: "Thunderbird (Form 1)", race: "Lunarian", background: "Wanderer", classes: [{ name: "Brawler", levels: 4, sub: "Drunken Master" }] },
   { old: "Thunderbird Form 2", name: "Thunderbird (Form 2)", race: "Lunarian", background: "Wanderer", classes: [{ name: "Brawler", levels: 8, sub: "Drunken Master" }] },
