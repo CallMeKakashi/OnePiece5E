@@ -97,6 +97,20 @@
       "path": "packs/monsters",
       "type": "Actor",
       "system": "dnd5e"
+    },
+    {
+      "name": "ships",
+      "label": "OP5e Ships",
+      "path": "packs/ships",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "ship-weapons",
+      "label": "OP5e Ship Weapons",
+      "path": "packs/ship-weapons",
+      "type": "Item",
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
