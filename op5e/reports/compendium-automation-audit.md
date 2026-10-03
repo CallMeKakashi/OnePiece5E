@@ -2,10 +2,10 @@
 
 Generated from every source pack after applying generated dnd5e activities.
 
-Total compendium items: 1973
+Total compendium items: 1974
 Automation-ready items: 718
 Needs automation: 118
-Reference-only items: 1137
+Reference-only items: 1138
 
 ## Pack Summary
 
@@ -16,7 +16,7 @@ Reference-only items: 1137
 | classes | 9 | 0 | 0 | 9 |
 | creations | 426 | 344 | 82 | 0 |
 | feats | 201 | 81 | 6 | 114 |
-| items | 362 | 97 | 0 | 265 |
+| items | 363 | 97 | 0 | 266 |
 | races | 9 | 0 | 0 | 9 |
 | racial-features | 84 | 21 | 0 | 63 |
 | subclasses | 80 | 0 | 0 | 80 |

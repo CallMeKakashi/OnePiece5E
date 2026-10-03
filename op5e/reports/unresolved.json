@@ -1,0 +1,117 @@
+[
+ {
+  "name": "Soku Soku no Mi",
+  "pack": "devil-fruits",
+  "problem": "source gives prose powers with no dice/DCs/durations; no mechanics invented",
+  "automation": "blocked",
+  "names": [
+   "Soku Soku no Mi",
+   "Suraimu Suraimu no Mi",
+   "Ink Ink no Mi",
+   "Shire Shire no Mi",
+   "Tori Tori no Mi — Model Sparrow",
+   "Foji Foji no Mi",
+   "Mera Mera no Mi",
+   "Meshi Meshi no Mi",
+   "Kaze Kaze no Mi",
+   "Buki Buki no Mi",
+   "Kobu Kobu no Mi",
+   "Hai Hai no Mi",
+   "Peto Peto no Mi",
+   "Devour Devour Fruit",
+   "Tori Tori no Mi — Model Raicho",
+   "Koru Koru no Mi",
+   "Unknown Devil Fruit — Party 1",
+   "Toneru Toneru no Mi",
+   "Ame Ame no Mi",
+   "Dabu Dabu no Mi",
+   "Uchu Uchu no Mi",
+   "Fura Fura no Mi",
+   "Yokai Yokai no Mi",
+   "Eki Eki no Mi",
+   "Kamo Kamo no Mi",
+   "Yuki Yuki no Mi — Model Yeti",
+   "Phezu Phezu no Mi",
+   "Voice Voice Fruit"
+  ]
+ },
+ {
+  "name": "Keelboat",
+  "pack": "ships",
+  "problem": "AC/HP/slots aligned to ship by table row order (source table has no row names)",
+  "automation": "blocked",
+  "names": [
+   "Keelboat",
+   "Rowboat",
+   "Carrack",
+   "Galleon",
+   "Galley",
+   "Caravel",
+   "Longship",
+   "Sloop"
+  ]
+ },
+ {
+  "name": "Ship stat rows",
+  "pack": "ships",
+  "problem": "AC/HP/slots table in Cannons.md has no row names; aligned to ship table by order (8 rows = 8 ships, values plausible)",
+  "automation": "generated, needs confirmation",
+  "names": [
+   "Ship stat rows"
+  ]
+ },
+ {
+  "name": "Cannon availability rows",
+  "pack": "ship-weapons",
+  "problem": "Clean and Reload / Ship Availability table has no row names; aligned to cannon table by order",
+  "automation": "generated, needs confirmation",
+  "names": [
+   "Cannon availability rows"
+  ]
+ },
+ {
+  "name": "Ship speed units",
+  "pack": "ships",
+  "problem": "Speeds are mph; stored as movement.swim with units mi. Foundry has no native mph unit",
+  "automation": "generated",
+  "names": [
+   "Ship speed units"
+  ]
+ },
+ {
+  "name": "Lute",
+  "pack": "items",
+  "problem": "Named in Bard starting equipment but absent from the Tools table; price/weight taken from 5e SRD (35 gp x10000)",
+  "automation": "generated, needs confirmation",
+  "names": [
+   "Lute"
+  ]
+ },
+ {
+  "name": "Ship Rooms / Upgrades",
+  "pack": "-",
+  "problem": "Source text is column-scrambled (PDF extraction); room effects cannot be reconstructed reliably",
+  "automation": "blocked",
+  "names": [
+   "Ship Rooms / Upgrades"
+  ]
+ },
+ {
+  "name": "Creation creature sheets (Appendix A Actions)",
+  "pack": "-",
+  "problem": "Stat lines scale with the creator's level and creation attack/save DC; need a scaling design decision",
+  "automation": "not generated",
+  "names": [
+   "Creation creature sheets (Appendix A Actions)"
+  ]
+ },
+ {
+  "name": "midi-qol / chris-premades",
+  "pack": "-",
+  "problem": "Installed versions require dnd5e >= 5.2 but the world runs 5.1.10, so Midi/CPR behaviour could not be tested",
+  "automation": "untested",
+  "names": [
+   "midi-qol / chris-premades"
+  ]
+ }
+]

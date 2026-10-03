@@ -1,0 +1,16 @@
+{
+ "baseline": 1973,
+ "preserved": 1971,
+ "changed": [
+  {
+   "name": "Manipulate Earth",
+   "why": "activity ids manipearthblud001,manipearthpier001 not present (re-keyed)"
+  },
+  {
+   "name": "Flaming Duality",
+   "why": "activity ids op5efdualityign,op5efdualitygod not present (re-keyed)"
+  }
+ ],
+ "regressed": [],
+ "added": 74
+}

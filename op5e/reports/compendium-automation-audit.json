@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T08:17:01.780Z",
+  "generatedAt": "2026-10-03T08:53:59.957Z",
   "rows": [
     {
       "pack": "backgrounds",
@@ -31855,6 +31855,23 @@
       "pack": "items",
       "name": "Lucky Day",
       "type": "weapon",
+      "status": "reference",
+      "activityCount": 0,
+      "activityTypes": [],
+      "hasConsumption": false,
+      "hasUses": false,
+      "hasRecovery": false,
+      "hasEffects": false,
+      "hasMidiOrDae": false,
+      "hasDamageOrSaveOrHealing": false,
+      "sourceDamageDice": [],
+      "sourceSaveAbilities": [],
+      "notes": []
+    },
+    {
+      "pack": "items",
+      "name": "Lute",
+      "type": "tool",
       "status": "reference",
       "activityCount": 0,
       "activityTypes": [],

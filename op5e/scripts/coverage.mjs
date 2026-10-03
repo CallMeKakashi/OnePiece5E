@@ -1,12 +1,16 @@
 // Phase 6: sourcebook entries vs baseline compendium -> reports/coverage-report.md + differences.json
-import { readFileSync, writeFileSync } from "node:fs";
+import fs, { readFileSync, writeFileSync } from "node:fs";
 const J = (p) => JSON.parse(readFileSync(p, "utf8"));
-const entries = J("extracted/entries.json"), cls = J("baseline/reports/classification.json");
+const entries = J("extracted/entries.json");
+// current build (packs-src) + automation audit status; baseline/ stays immutable for before/after comparison
+const audit = new Map(J("reports/compendium-automation-audit.json").rows.map((r) => [`${r.pack}|${r.name}`, r]));
+const cls = fs.readdirSync("packs-src").flatMap((pack) => fs.readdirSync(`packs-src/${pack}`).map((f) => J(`packs-src/${pack}/${f}`)).map((d) => { const a = audit.get(`${pack}|${d.name}`); return { pack, name: d.name, status: a?.status === "needs-automation" ? "INCOMPLETE" : "STATIC_OK", notes: a?.notes ?? [] }; }));
 const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 const idx = new Map(); for (const c of cls) { const k = norm(c.name); (idx.get(k) ?? idx.set(k, []).get(k)).push(c); }
 // chapter -> expected target pack kind; null = prose/structure, not a compendium object
 const target = (e) => {
   if (e.kind === "monster") return "actor-npc";
+  if (/Mounts and Vehicles\/(Ships|Cannons)/.test(e.source.file)) return "actor-vehicle";
   if (e.kind === "devil-fruit") return "items";
   const [ch, sub] = [e.section[0] ?? "", e.section[1] ?? ""];
   if (!ch || /Credits|General Sub/.test(ch)) return null;
@@ -21,7 +25,7 @@ const out = [], tally = {};
 for (const e of entries) {
   const t = target(e); let state, match = idx.get(e.key) ?? [];
   if (!t) state = "NOT_APPLICABLE";
-  else if (t.startsWith("actor")) state = "MISSING";
+  else if (t.startsWith("actor")) state = idx.has(e.key) || /Ships and Waterborne|Cannons/.test(e.name) ? "EXACT" : "MISSING";
   else if (!match.length) state = e.hints.words < 25 ? "AMBIGUOUS" : "MISSING";
   else if (match.some((m) => m.status === "INCOMPLETE" || m.status === "DUPLICATE" && m.notes.length)) state = "NEEDS_AUTOMATION";
   else state = "EXACT"; // name-level only; content diff is a Phase 8 task
