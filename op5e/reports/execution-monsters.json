@@ -1,0 +1,205 @@
+[
+ {
+  "name": "FarmBull",
+  "checks": [
+   "Gore:attack ok",
+   "Hoof Slam:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Stitched Horror",
+  "checks": [
+   "Slam:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Titan Ape",
+  "checks": [
+   "Slam:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Bandit",
+  "checks": [
+   "Scimitar:attack ok",
+   "Light Crossbow:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Chicken",
+  "checks": [
+   "Bite:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Smiling Watcher",
+  "checks": [
+   "Claw:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "River Serpent",
+  "checks": [
+   "Bite:attack ok",
+   "Tail Slam:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Lamprey Horror",
+  "checks": [
+   "Latch Bite:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Saber-Toothed Tiger",
+  "checks": [
+   "Bite:attack ok",
+   "Claw:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Mafia Grunt",
+  "checks": [
+   "Dagger:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Grinner",
+  "checks": [
+   "Claw:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Ravine Scylla",
+  "checks": [],
+  "pass": true
+ },
+ {
+  "name": "Giant Crocodile",
+  "checks": [
+   "Bite:attack ok",
+   "Tail:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Puppy",
+  "checks": [
+   "Bite:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Pump-Up Pirate",
+  "checks": [
+   "Dagger:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Carrion Stalker",
+  "checks": [],
+  "pass": true
+ },
+ {
+  "name": "Red Maw Beast",
+  "checks": [
+   "Bite:attack ok",
+   "Claw:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Aberrant Abomination",
+  "checks": [
+   "Claw:attack ok",
+   "Bite:attack ok",
+   "Aura of Dread:save ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Giant Crab",
+  "checks": [],
+  "pass": true
+ },
+ {
+  "name": "Swarm of Quippers",
+  "checks": [
+   "Bites:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Cave Render",
+  "checks": [
+   "Claw:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Riding Horse",
+  "checks": [
+   "Hooves:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Panther",
+  "checks": [
+   "Bite:attack ok",
+   "Claw:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "FarmPig",
+  "checks": [
+   "Tusks:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Crystalback Scorpion",
+  "checks": [
+   "Pincer:attack ok",
+   "Venom Sting:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Berserker",
+  "checks": [
+   "Greataxe:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Carrion Vulture",
+  "checks": [],
+  "pass": true
+ },
+ {
+  "name": "Giant Boar",
+  "checks": [
+   "Gore:attack ok"
+  ],
+  "pass": true
+ },
+ {
+  "name": "Ashscale Basilisk",
+  "checks": [],
+  "pass": true
+ }
+]

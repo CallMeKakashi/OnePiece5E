@@ -4,11 +4,12 @@ import { writeFileSync, mkdirSync } from "node:fs";
 import { withFoundry } from "./drive.mjs";
 const packs = process.argv.slice(2).length ? process.argv.slice(2) : ["class-features", "feats", "racial-features", "items", "creations"];
 const out = {};
+const ONLY = process.env.ONLY ? new Set(process.env.ONLY.split("|")) : null; // names to re-run
 try {
   await withFoundry(async (page, { evaluate }) => {
     page.setDefaultTimeout(120000);
     for (const pack of packs) {
-      const ids = await evaluate((p) => game.packs.get(`op5e.${p}`).index.map((i) => i._id), pack);
+      const ids = await evaluate(({ p, only }) => game.packs.get(`op5e.${p}`).index.filter((i) => !only || only.includes(i.name)).map((i) => i._id), { p: pack, only: ONLY ? [...ONLY] : null });
       out[pack] = [];
       for (let i = 0; i < ids.length; i += 10) {
         const rows = await evaluate(async ({ pack, ids }) => {

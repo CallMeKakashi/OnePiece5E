@@ -15,7 +15,7 @@ for (const [root, kind] of [["Sourcebook", "sourcebook"], ["Monster Manual", "mo
     const parts = rel.split("/"), name = parts.at(-1).replace(/\.md$/, "");
     const heading = body.match(/^#+\s+(.+)$/m)?.[1]?.trim() ?? name;
     const meta = fm ? (() => { try { return YAML.parse(fm[1]) ?? {}; } catch { return {}; } })() : {};
-    const e = { name, key: norm(name), kind, meta, source: { book: "SOURCEBOOK", file: rel, heading }, section: parts.slice(1, -1), links: [...new Set([...body.matchAll(/\[\[([^\]|#]+)/g)].map((m) => m[1].trim()))],
+    const e = { name, key: norm(name), kind, meta, source: { book: "SOURCEBOOK", file: rel, heading, pageMarkers: [...body.matchAll(/<!-- Page (\d+) -->/g)].map((m) => Number(m[1])) }, section: parts.slice(1, -1), links: [...new Set([...body.matchAll(/\[\[([^\]|#]+)/g)].map((m) => m[1].trim()))],
       hints: { dice: dice(body), saves: saves(body), usesPerRest: /(short|long) rest/i.test(body), words: body.split(/\s+/).length }, body };
     entries.push(e);
     const sb = body.match(/```statblock\n([\s\S]*?)```/);

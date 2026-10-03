@@ -60,7 +60,7 @@ const H = {
   async executeActivity(item, key, { configure = false } = {}) {
     const act = H.findActivity(item, key);
     H.assert(act, `activity ${key} not on ${item.name}`);
-    return act.use({}, { configure }, { create: true });
+    return act.use({ create: { measuredTemplate: false } }, { configure }, { create: true });
   },
   async rollAttack(item, key = "attack") { const a = H.findActivity(item, key); return a.rollAttack({}, { configure: false }, {}); },
   async rollDamage(item, key = "attack", opts = {}) { const a = H.findActivity(item, key); return a.rollDamage(opts, { configure: false }, {}); },

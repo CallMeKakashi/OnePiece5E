@@ -1,0 +1,36 @@
+{
+ "items": [
+  {
+   "id": "364b23dd64422c73",
+   "name": "Shrapnel Ammo",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "save",
+     "msgs": 519,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "56344ca728be9ebe",
+   "name": "Bubble Coral",
+   "type": "equipment",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 520,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  }
+ ]
+}
