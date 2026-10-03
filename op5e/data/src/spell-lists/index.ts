@@ -52,8 +52,8 @@ const fromClean = (id: string) => {
 };
 
 const LISTS = [
-  { identifier: "bard", name: "Bard Creations", file: "Bard Creations Charm Person.md", clean: false },
-  { identifier: "savant", name: "Savant Creations", file: "Savant Creations Lesser Restoration.md", clean: false },
+  { identifier: "bard", name: "Bard Creations", file: "Bard Creations Charm Person.md", clean: true },
+  { identifier: "savant", name: "Savant Creations", file: "Savant Creations Lesser Restoration.md", clean: true },
   { identifier: "medic", name: "Medic Creations", file: "", clean: true },
   { identifier: "gadgeteer", name: "Gadgeteer Creations", file: "", clean: true },
   { identifier: "marksman", name: "Marksman Creations", file: "", clean: true },
@@ -69,7 +69,7 @@ export default spellListData.map((l) => {
   const entryId = generateId(`spell-list/${l.identifier}`), pageId = generateId(`spell-list/${l.identifier}/page`);
   return {
     _id: entryId, name: l.name, folder: null, sort: 0, ownership: { default: 0 },
-    flags: { op5e: { spellListPage: compendiumUuid("spell-lists" as never, entryId).replace(/^Compendium\.op5e\.spell-lists\./, `Compendium.op5e.spell-lists.JournalEntry.`) + `.JournalEntryPage.${pageId}`, source: l.file, automation: "NEEDS_REVIEW", note: "extracted from scrambled two-column PDF text by name matching; may be incomplete (Bard has no 6th-8th level creations)" } },
+    flags: { op5e: { spellListPage: compendiumUuid("spell-lists" as never, entryId).replace(/^Compendium\.op5e\.spell-lists\./, `Compendium.op5e.spell-lists.JournalEntry.`) + `.JournalEntryPage.${pageId}`, source: l.file, automation: "NEEDS_REVIEW", note: "extracted from scrambled two-column PDF text by name matching;" } },
     pages: [{
       _id: pageId, name: l.name, type: "spells", sort: 0, flags: {},
       system: { type: "class", identifier: l.identifier, grouping: "level", description: { value: "<p><em>Auto-extracted from the sourcebook's two-column PDF text; may be incomplete. Verify against the printed list.</em></p>" }, spells: l.creationIds.map((id) => compendiumUuid("creations", id)), unlinkedSpells: [] },
