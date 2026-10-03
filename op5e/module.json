@@ -9,7 +9,9 @@
     "minimum": "13",
     "verified": "13"
   },
-  "system": ["dnd5e"],
+  "system": [
+    "dnd5e"
+  ],
   "authors": [
     {
       "name": "Blood & Brine"
@@ -19,7 +21,9 @@
     "scripts/compendium.mjs",
     "scripts/character-creator.mjs"
   ],
-  "styles": ["styles/module.css"],
+  "styles": [
+    "styles/module.css"
+  ],
   "languages": [
     {
       "lang": "en",
@@ -106,6 +110,13 @@
       "system": "dnd5e"
     },
     {
+      "name": "spell-lists",
+      "label": "OP5e Spell Lists",
+      "path": "packs/spell-lists",
+      "type": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
       "name": "ship-weapons",
       "label": "OP5e Ship Weapons",
       "path": "packs/ship-weapons",
@@ -125,7 +136,12 @@
         "feats",
         "backgrounds",
         "items",
-        "creations"
+        "creations",
+        "spell-lists",
+        "devil-fruits",
+        "monsters",
+        "ships",
+        "ship-weapons"
       ]
     }
   ],
@@ -182,37 +198,61 @@
     "dnd5e": {
       "types": {
         "class": {
-          "sources": ["classes"]
+          "sources": [
+            "classes"
+          ]
         },
         "subclass": {
-          "sources": ["subclasses"]
+          "sources": [
+            "subclasses"
+          ]
         },
         "feat": {
-          "sources": ["class-features", "racial-features", "feats"]
+          "sources": [
+            "class-features",
+            "racial-features",
+            "feats"
+          ]
         },
         "race": {
-          "sources": ["races"]
+          "sources": [
+            "races"
+          ]
         },
         "background": {
-          "sources": ["backgrounds"]
+          "sources": [
+            "backgrounds"
+          ]
         },
         "equipment": {
-          "sources": ["items"]
+          "sources": [
+            "items"
+          ]
         },
         "weapon": {
-          "sources": ["items"]
+          "sources": [
+            "items"
+          ]
         },
         "tool": {
-          "sources": ["items"]
+          "sources": [
+            "items"
+          ]
         },
         "consumable": {
-          "sources": ["items"]
+          "sources": [
+            "items"
+          ]
         },
         "loot": {
-          "sources": ["items"]
+          "sources": [
+            "items"
+          ]
         },
         "spell": {
-          "sources": ["creations"]
+          "sources": [
+            "creations"
+          ]
         }
       },
       "sourceBooks": {
@@ -220,7 +260,12 @@
           "label": "One Piece 5e",
           "abbreviation": "OP5e"
         }
-      }
+      },
+      "spellLists": [
+        "Compendium.op5e.spell-lists.JournalEntry.5640a385afddd232.JournalEntryPage.d5714f5fb7086da4",
+        "Compendium.op5e.spell-lists.JournalEntry.e236b1951e7b9300.JournalEntryPage.a6957e2e4e4a3b61",
+        "Compendium.op5e.spell-lists.JournalEntry.e5e9e0de2b1e20a5.JournalEntryPage.c150e017b3ec0884"
+      ]
     }
   }
 }

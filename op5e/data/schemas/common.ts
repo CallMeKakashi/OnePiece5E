@@ -161,3 +161,14 @@ export const foundryActorBase = z
     flags: z.record(z.unknown()).default({}),
   })
   .passthrough();
+
+// --- Base Foundry JournalEntry document (pages kept as-is) ---
+
+export const foundryJournalBase = z
+  .object({
+    _id: foundryId,
+    name: z.string(),
+    pages: z.array(z.object({ _id: foundryId, name: z.string(), type: z.string() }).passthrough()).default([]),
+    flags: z.record(z.unknown()).default({}),
+  })
+  .passthrough();

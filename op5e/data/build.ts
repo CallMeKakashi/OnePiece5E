@@ -2,6 +2,7 @@ import {
   existsSync,
   mkdirSync,
   readdirSync,
+  readFileSync,
   writeFileSync,
   rmSync,
 } from "node:fs";
@@ -14,7 +15,7 @@ import { subclassItemSchema } from "./schemas/subclass.js";
 import { featureItemSchema } from "./schemas/feature.js";
 import type { FeatureItem } from "./schemas/feature.js";
 import { raceItemSchema } from "./schemas/race.js";
-import { foundryItemBase, foundryActorBase } from "./schemas/common.js";
+import { foundryItemBase, foundryActorBase, foundryJournalBase } from "./schemas/common.js";
 import { ensureFeatureActivities, ensureItemActivities } from "./helpers/activities.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -25,6 +26,7 @@ const PACKS_SRC = join(ROOT, "packs-src");
 // LevelDB stores them as separate keys with dot-joined paths.
 const EMBEDDED_COLLECTIONS: Record<string, string[]> = {
   actors: ["items", "effects"],
+  journal: ["pages"],
   items: ["effects"],
 };
 
@@ -59,7 +61,7 @@ interface PackConfig {
   srcDir: string;
   schema: ZodType;
   /** Document collection; defaults to items. */
-  collection?: "items" | "actors";
+  collection?: "items" | "actors" | "journal";
 }
 
 const PACK_CONFIGS: PackConfig[] = [
@@ -73,6 +75,7 @@ const PACK_CONFIGS: PackConfig[] = [
   { name: "creations", srcDir: "creations", schema: foundryItemBase },
   { name: "backgrounds", srcDir: "backgrounds", schema: foundryItemBase },
   { name: "devil-fruits", srcDir: "devil-fruits", schema: foundryItemBase },
+  { name: "spell-lists", srcDir: "spell-lists", schema: foundryJournalBase, collection: "journal" },
   { name: "monsters", srcDir: "actors", schema: foundryActorBase, collection: "actors" },
   { name: "ships", srcDir: "ships", schema: foundryActorBase, collection: "actors" },
   { name: "ship-weapons", srcDir: "ship-weapons", schema: foundryItemBase },
@@ -121,7 +124,7 @@ async function buildPack(config: PackConfig): Promise<Stats> {
   }
 
   for (let raw of items) {
-    if (config.collection === "actors") {
+    if (config.collection === "actors" || config.collection === "journal") {
       // actors carry their own embedded items/activities (see helpers/actor.ts)
     } else if (FEATURE_PACKS.has(config.name)) {
       raw = ensureFeatureActivities(raw as FeatureItem);
@@ -161,6 +164,20 @@ async function buildPack(config: PackConfig): Promise<Stats> {
   return stats;
 }
 
+/** dnd5e registers class spell lists from module flags.dnd5e.spellLists (journal page UUIDs); keep module.json in step with the build. */
+function syncSpellListFlags(): void {
+  const dir = join(PACKS_SRC, "spell-lists");
+  if (!existsSync(dir)) return;
+  const uuids = readdirSync(dir).filter((f) => f.endsWith(".json")).sort().flatMap((f) => {
+    const d = JSON.parse(readFileSync(join(dir, f), "utf8"));
+    return (d.pages ?? []).map((p: { _id: string }) => `Compendium.op5e.spell-lists.JournalEntry.${d._id}.JournalEntryPage.${p._id}`);
+  });
+  const path = join(ROOT, "module.json");
+  const manifest = JSON.parse(readFileSync(path, "utf8"));
+  manifest.flags.dnd5e.spellLists = uuids;
+  writeFileSync(path, JSON.stringify(manifest, null, 2) + "\n");
+}
+
 async function main(): Promise<void> {
   console.log("=== OP5e Compendium — JSON Build ===\n");
 
@@ -197,6 +214,7 @@ async function main(): Promise<void> {
     console.log("  (no source items found — add definitions to data/src/)");
   }
 
+  syncSpellListFlags();
   console.log(`\nTotal: ${totalItems} items, ${totalErrors} errors, ${totalActivities} with activities`);
   if (totalErrors > 0) process.exit(1);
 }
