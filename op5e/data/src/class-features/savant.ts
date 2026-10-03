@@ -1,4 +1,5 @@
 import { generateId } from "../../helpers/id.js";
+import { sourcebookHtml } from "../../helpers/sourcebook.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
 function classFeature(
@@ -130,7 +131,15 @@ export const auraImprovements = classFeature(
   `<p>At 18th level, the range of your Aura of Protection, Aura of Courage, and any Ardent Soul aura increases to 30 feet.</p>`,
 );
 
+export const creativitySavant = classFeature(
+  "feature/savant/creativity",
+  "Creativity",
+  2,
+  sourcebookHtml("Chapter 2 Classes/Class Features/Creativity 2.md"),
+);
+
 export const savantClassFeatures: FeatureItem[] = [
+  creativitySavant,
   rallyingPresence,
   fightingStyleSavant,
   ardentSmite,

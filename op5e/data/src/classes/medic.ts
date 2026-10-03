@@ -23,6 +23,7 @@ import {
   overheal,
   secretsOfMedicine,
   miracleWorker,
+  creativityMedic,
 } from "../class-features/medic.js";
 
 const CLS = "class/medic";
@@ -91,6 +92,7 @@ export const medic: ClassItem = {
 
       // --- Level 1: Medical Expertise ---
       createItemGrant(CLS, 1, [
+        { uuid: featureUuid(creativityMedic._id) },
         { uuid: featureUuid(medicalExpertise._id) },
       ]),
 

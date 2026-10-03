@@ -1,4 +1,5 @@
 import { generateId } from "../../helpers/id.js";
+import { sourcebookHtml } from "../../helpers/sourcebook.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
 function classFeature(
@@ -177,7 +178,15 @@ export const soulOfArtifice = classFeature(
   },
 );
 
+export const creativityGadgeteer = classFeature(
+  "feature/gadgeteer/creativity",
+  "Creativity (Spellcasting)",
+  1,
+  sourcebookHtml("Chapter 2 Classes/Class Features/Creativity (Spellcasting) 2.md"),
+);
+
 export const gadgeteerClassFeatures: FeatureItem[] = [
+  creativityGadgeteer,
   tinkering,
   mastercraftNovice,
   mods,

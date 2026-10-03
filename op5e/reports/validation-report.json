@@ -1,16 +1,16 @@
 {
  "summary": {
-  "documents": 2047,
+  "documents": 2050,
   "links": 1957,
   "errors": 0,
   "warnings": 179,
   "byMessage": {
    "warn: attack activity has no attack block (dnd5e defaults apply)": 142,
-   "warn: 3 docs share this name": 10,
-   "warn: 2 docs share this name": 17,
+   "warn: 3 docs share this name": 11,
+   "warn: 4 docs share this name": 4,
    "warn: 5 docs share this name": 3,
    "warn: 7 docs share this name": 1,
-   "warn: 4 docs share this name": 3,
+   "warn: 2 docs share this name": 15,
    "warn: 6 docs share this name": 2,
    "warn: 8 docs share this name": 1
   }
@@ -878,7 +878,7 @@
    "level": "warn",
    "pack": "class-features",
    "name": "Creativity (Spellcasting)",
-   "msg": "2 docs share this name"
+   "msg": "4 docs share this name"
   },
   {
    "level": "warn",
@@ -1016,7 +1016,7 @@
    "level": "warn",
    "pack": "class-features",
    "name": "Creativity",
-   "msg": "2 docs share this name"
+   "msg": "3 docs share this name"
   },
   {
    "level": "warn",

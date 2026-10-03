@@ -25,6 +25,7 @@ import {
   improvedArdentSmite,
   saviourInNeed,
   auraImprovements,
+  creativitySavant,
 } from "../class-features/savant.js";
 
 const CLS = "class/savant";
@@ -94,6 +95,7 @@ export const savant: ClassItem = {
 
       // --- Level 2: Creativity, Fighting Style, Ardent Smite ---
       createItemGrant(CLS, 2, [
+        { uuid: featureUuid(creativitySavant._id) },
         { uuid: featureUuid(fightingStyleSavant._id) },
         { uuid: featureUuid(ardentSmite._id) },
       ]),

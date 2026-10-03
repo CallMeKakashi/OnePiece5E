@@ -29,6 +29,7 @@ import {
   mastercraftSavant,
   mastercraftMaster,
   soulOfArtifice,
+  creativityGadgeteer,
 } from "../class-features/gadgeteer.js";
 
 const CLS = "class/gadgeteer";
@@ -102,6 +103,7 @@ export const gadgeteer: ClassItem = {
       // --- Level 1: Tinkering, Mastercraft Novice ---
       createItemGrant(CLS, 1, [
         { uuid: featureUuid(tinkering._id) },
+        { uuid: featureUuid(creativityGadgeteer._id) },
         { uuid: featureUuid(mastercraftNovice._id) },
       ]),
 

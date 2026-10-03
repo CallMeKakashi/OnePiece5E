@@ -1,4 +1,5 @@
 import { generateId } from "../../helpers/id.js";
+import { sourcebookHtml } from "../../helpers/sourcebook.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
 function classFeature(
@@ -119,7 +120,15 @@ export const miracleWorker = classFeature(
 <p>Additionally, you no longer require verbal or somatic components for any medic creations you use and only require material components if they have a listed cost or are consumed upon use.</p>`,
 );
 
+export const creativityMedic = classFeature(
+  "feature/medic/creativity",
+  "Creativity (Spellcasting)",
+  1,
+  sourcebookHtml("Chapter 2 Classes/Class Features/Creativity (Spellcasting) 3.md"),
+);
+
 export const medicClassFeatures: FeatureItem[] = [
+  creativityMedic,
   medicalExpertise,
   experimentalMedicine,
   rapidRemedy,

@@ -1,0 +1,386 @@
+[
+ {
+  "class": "Medic",
+  "subclass": null,
+  "level": 20,
+  "issues": [],
+  "granted": 19,
+  "grantedList": [
+   {
+    "level": 1,
+    "name": "Creativity (Spellcasting)",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Medical Expertise",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Flintlock",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Firearms Bullets (20)",
+    "type": "consumable"
+   },
+   {
+    "level": 1,
+    "name": "Leather Armor",
+    "type": "equipment"
+   },
+   {
+    "level": 1,
+    "name": "Scholar's Pack",
+    "type": "loot"
+   },
+   {
+    "level": 1,
+    "name": "Alchemist's Supplies",
+    "type": "tool"
+   },
+   {
+    "level": 1,
+    "name": "Sickle",
+    "type": "weapon"
+   },
+   {
+    "level": 2,
+    "name": "Experimental Medicine",
+    "type": "feat"
+   },
+   {
+    "level": 5,
+    "name": "Rapid Remedy",
+    "type": "feat"
+   },
+   {
+    "level": 7,
+    "name": "Extended Release",
+    "type": "feat"
+   },
+   {
+    "level": 8,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 10,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 12,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 14,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 16,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 18,
+    "name": "Overheal",
+    "type": "feat"
+   },
+   {
+    "level": 18,
+    "name": "Secrets of Medicine",
+    "type": "feat"
+   },
+   {
+    "level": 20,
+    "name": "Miracle Worker",
+    "type": "feat"
+   }
+  ],
+  "classLevels": 20,
+  "hpMax": 183,
+  "hitDice": 20,
+  "saves": "int,wis",
+  "skills": 2,
+  "features": 13,
+  "scale": 2,
+  "badFormulas": [],
+  "consoleErrors": []
+ },
+ {
+  "class": "Savant",
+  "subclass": null,
+  "level": 20,
+  "issues": [],
+  "granted": 22,
+  "grantedList": [
+   {
+    "level": 1,
+    "name": "Rallying Presence",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Javelin",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Dagger",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Memento",
+    "type": "loot"
+   },
+   {
+    "level": 1,
+    "name": "Dungeoneer's Pack",
+    "type": "loot"
+   },
+   {
+    "level": 1,
+    "name": "Longsword",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Shield",
+    "type": "equipment"
+   },
+   {
+    "level": 1,
+    "name": "Chain Mail",
+    "type": "equipment"
+   },
+   {
+    "level": 2,
+    "name": "Creativity",
+    "type": "feat"
+   },
+   {
+    "level": 2,
+    "name": "Fighting Style",
+    "type": "feat"
+   },
+   {
+    "level": 2,
+    "name": "Ardent Smite",
+    "type": "feat"
+   },
+   {
+    "level": 5,
+    "name": "Extra Attack",
+    "type": "feat"
+   },
+   {
+    "level": 6,
+    "name": "Aura of Protection",
+    "type": "feat"
+   },
+   {
+    "level": 8,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 10,
+    "name": "Aura of Courage",
+    "type": "feat"
+   },
+   {
+    "level": 10,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 11,
+    "name": "Improved Ardent Smite",
+    "type": "feat"
+   },
+   {
+    "level": 12,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 14,
+    "name": "Saviour in Need",
+    "type": "feat"
+   },
+   {
+    "level": 14,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 16,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 18,
+    "name": "Aura Improvements",
+    "type": "feat"
+   }
+  ],
+  "classLevels": 20,
+  "hpMax": 204,
+  "hitDice": 20,
+  "saves": "wis,cha",
+  "skills": 2,
+  "features": 15,
+  "scale": 1,
+  "badFormulas": [],
+  "consoleErrors": []
+ },
+ {
+  "class": "Gadgeteer",
+  "subclass": null,
+  "level": 20,
+  "issues": [],
+  "granted": 25,
+  "grantedList": [
+   {
+    "level": 1,
+    "name": "Tinkering",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Creativity (Spellcasting)",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Mastercraft Novice",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Dagger",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Book",
+    "type": "loot"
+   },
+   {
+    "level": 1,
+    "name": "Backpack",
+    "type": "loot"
+   },
+   {
+    "level": 1,
+    "name": "Tinker's Tools",
+    "type": "tool"
+   },
+   {
+    "level": 1,
+    "name": "Firearms Bullets (20)",
+    "type": "consumable"
+   },
+   {
+    "level": 1,
+    "name": "Scholar's Pack",
+    "type": "loot"
+   },
+   {
+    "level": 1,
+    "name": "Shotgun",
+    "type": "weapon"
+   },
+   {
+    "level": 2,
+    "name": "Mods",
+    "type": "feat"
+   },
+   {
+    "level": 3,
+    "name": "The Right Tool",
+    "type": "feat"
+   },
+   {
+    "level": 6,
+    "name": "Tool Expertise",
+    "type": "feat"
+   },
+   {
+    "level": 7,
+    "name": "Flash of Genius",
+    "type": "feat"
+   },
+   {
+    "level": 8,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 10,
+    "name": "Mastercraft Adept",
+    "type": "feat"
+   },
+   {
+    "level": 10,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 11,
+    "name": "Creation Storage",
+    "type": "feat"
+   },
+   {
+    "level": 11,
+    "name": "High-Tech Development",
+    "type": "feat"
+   },
+   {
+    "level": 12,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 14,
+    "name": "Mastercraft Savant",
+    "type": "feat"
+   },
+   {
+    "level": 14,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 16,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 18,
+    "name": "Mastercraft Master",
+    "type": "feat"
+   },
+   {
+    "level": 20,
+    "name": "Soul of Artifice",
+    "type": "feat"
+   }
+  ],
+  "classLevels": 20,
+  "hpMax": 183,
+  "hitDice": 20,
+  "saves": "int,wis",
+  "skills": 2,
+  "features": 18,
+  "scale": 4,
+  "badFormulas": [],
+  "consoleErrors": []
+ }
+]
