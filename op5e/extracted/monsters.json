@@ -1,0 +1,1264 @@
+[
+ {
+  "name": "Aberrant Abomination",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Aberrant Abomination.md",
+   "heading": "Aberrant Abomination"
+  },
+  "statblock": {
+   "name": "Aberrant Abomination",
+   "size": "large",
+   "type": "monstrosity",
+   "alignment": "Chaotic Evil",
+   "ac": 16,
+   "hp": 210,
+   "speed": "walk 30 ft.",
+   "stats": [
+    20,
+    10,
+    18,
+    5,
+    12,
+    6
+   ],
+   "cr": 10,
+   "traits": [
+    {
+     "name": "Aberrant Regeneration",
+     "desc": "Regains 20 HP at the start of its turn"
+    }
+   ],
+   "actions": [
+    {
+     "name": "Claw",
+     "desc": "Melee Weapon Attack: +9 to hit. Hit: 2d8 +0 slashing"
+    },
+    {
+     "name": "Bite",
+     "desc": "Melee Weapon Attack: +9 to hit. Hit: 3d10 +0 piercing"
+    },
+    {
+     "name": "Aura of Dread",
+     "desc": "Creatures within 10 ft must succeed DC 15 WIS save or be frightened until end of next turn."
+    }
+   ]
+  }
+ },
+ {
+  "name": "Ashscale Basilisk",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Ashscale Basilisk.md",
+   "heading": "Ashscale Basilisk"
+  },
+  "statblock": {
+   "name": "Ashscale Basilisk",
+   "size": "medium",
+   "type": "monstrosity",
+   "alignment": null,
+   "ac": 17,
+   "hp": 175,
+   "speed": "walk 30 ft., climb 30 ft.",
+   "stats": [
+    19,
+    14,
+    18,
+    5,
+    13,
+    8
+   ],
+   "cr": 8,
+   "traits": [
+    {
+     "name": "Bite",
+     "desc": "Melee Weapon Attack: +7 to hit. Hit: 2d8 poison"
+    },
+    {
+     "name": "Constrict",
+     "desc": "Grappled target takes 2d8 bludgeoning damage at start of turn."
+    },
+    {
+     "name": "Dread Hiss",
+     "desc": "DC 15 WIS save or frightened for 1 minute."
+    }
+   ]
+  }
+ },
+ {
+  "name": "Bandit",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Bandit.md",
+   "heading": "Bandit"
+  },
+  "statblock": {
+   "name": "Bandit",
+   "size": "medium",
+   "type": "humanoid",
+   "alignment": "Any Non-Lawful",
+   "ac": 12,
+   "hp": 11,
+   "speed": "walk 30 ft.",
+   "stats": [
+    11,
+    12,
+    12,
+    10,
+    10,
+    10
+   ],
+   "cr": 0.125,
+   "traits": [
+    {
+     "name": "Leather Armor",
+     "desc": "AC 11"
+    }
+   ],
+   "actions": [
+    {
+     "name": "Scimitar",
+     "desc": "Melee Weapon Attack: +3 to hit. Hit: 1d6 slashing"
+    },
+    {
+     "name": "Light Crossbow",
+     "desc": "Ranged Weapon Attack: +3 to hit. Hit: 1d8 piercing"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Berserker",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Berserker.md",
+   "heading": "Berserker"
+  },
+  "statblock": {
+   "name": "Berserker",
+   "size": "medium",
+   "type": "humanoid",
+   "alignment": "Any Chaotic",
+   "ac": 13,
+   "hp": 67,
+   "speed": "walk 30 ft.",
+   "stats": [
+    16,
+    12,
+    17,
+    9,
+    11,
+    9
+   ],
+   "cr": 2,
+   "traits": [
+    {
+     "name": "Hide Armor",
+     "desc": "AC 12"
+    },
+    {
+     "name": "Reckless",
+     "desc": "At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Greataxe",
+     "desc": "Melee Weapon Attack: +5 to hit. Hit: 1d12 slashing"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Carrion Stalker",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Carrion Stalker.md",
+   "heading": "Carrion Stalker"
+  },
+  "statblock": {
+   "name": "Carrion Stalker",
+   "size": "medium",
+   "type": "monstrosity",
+   "alignment": "Unaligned",
+   "ac": 14,
+   "hp": 85,
+   "speed": "walk 40 ft., fly 40 ft.",
+   "stats": [
+    14,
+    18,
+    14,
+    6,
+    12,
+    6
+   ],
+   "cr": 4,
+   "traits": [
+    {
+     "name": "Claw",
+     "desc": "Melee Weapon Attack: +6 to hit. Hit: 1d8 @mod slashing. Ranged Weapon Attack: +4 to hit"
+    },
+    {
+     "name": "Dive Strike",
+     "desc": "If it moves 20 ft straight, deals extra 2d6 damage.. Ranged Weapon Attack: +4 to hit. Hit: 2d6. Hit: 1d8+2"
+    },
+    {
+     "name": "Aberrant Regeneration",
+     "desc": "Regains 10 HP."
+    }
+   ]
+  }
+ },
+ {
+  "name": "Carrion Vulture",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Carrion Vulture.md",
+   "heading": "Carrion Vulture"
+  },
+  "statblock": {
+   "name": "Carrion Vulture",
+   "size": "medium",
+   "type": "beast",
+   "alignment": null,
+   "ac": 15,
+   "hp": 95,
+   "speed": "walk 10 ft., fly 70 ft.",
+   "stats": [
+    16,
+    18,
+    15,
+    4,
+    14,
+    6
+   ],
+   "cr": 5,
+   "traits": [
+    {
+     "name": "Talons",
+     "desc": "Melee Weapon Attack: +6 to hit"
+    },
+    {
+     "name": "Corpse Screech",
+     "desc": "DC 14 WIS save or frightened until end of next turn."
+    }
+   ]
+  }
+ },
+ {
+  "name": "Cave Render",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Cave Render.md",
+   "heading": "Cave Render"
+  },
+  "statblock": {
+   "name": "Cave Render",
+   "size": "medium",
+   "type": "monstrosity",
+   "alignment": "Unaligned",
+   "ac": 13,
+   "hp": 18,
+   "speed": "walk 40 ft., climb 30 ft.",
+   "stats": [
+    12,
+    16,
+    12,
+    4,
+    12,
+    6
+   ],
+   "cr": 0.5,
+   "traits": [
+    {
+     "name": "Pack Assault",
+     "desc": "Advantage on attack rolls if an ally is within 5 ft of the target."
+    },
+    {
+     "name": "Skulker",
+     "desc": "Can hide in dim light without needing full cover."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Claw",
+     "desc": "Melee Weapon Attack: +5 to hit. Hit: 1d6 +3 slashing"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Crystalback Scorpion",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Crystalback Scorpion.md",
+   "heading": "Crystalback Scorpion"
+  },
+  "statblock": {
+   "name": "Crystalback Scorpion",
+   "size": "medium",
+   "type": "monstrosity",
+   "alignment": null,
+   "ac": 19,
+   "hp": 185,
+   "speed": "walk 40 ft., climb 30 ft.",
+   "stats": [
+    20,
+    16,
+    19,
+    3,
+    12,
+    5
+   ],
+   "cr": 9,
+   "traits": [
+    {
+     "name": "Crystal Burst",
+     "desc": "Recharge 5-6. Explodes crystal growths in 15 ft radius. DC 16 DEX save or take 6d6 piercing damage."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Pincer",
+     "desc": "Melee Weapon Attack: +9 to hit. Hit: 2d8+5 bludgeoning"
+    },
+    {
+     "name": "Venom Sting",
+     "desc": "Melee Weapon Attack: +9 to hit. Hit: 4d8 poison"
+    }
+   ]
+  }
+ },
+ {
+  "name": "FarmBull",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/FarmBull.md",
+   "heading": "FarmBull"
+  },
+  "statblock": {
+   "name": "FarmBull",
+   "size": "large",
+   "type": "humanoid",
+   "alignment": "chaotic evil",
+   "ac": 16,
+   "hp": 115,
+   "speed": "walk 50 ft.",
+   "stats": [
+    22,
+    12,
+    19,
+    4,
+    13,
+    8
+   ],
+   "cr": 6,
+   "traits": [
+    {
+     "name": "Unstoppable Momentum",
+     "desc": "The Bull ignores difficult terrain and cannot be forcibly moved while charging."
+    },
+    {
+     "name": "Blood Frenzy",
+     "desc": "The Bull has advantage on attacks against creatures below half HP."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Gore",
+     "desc": "If the Bull moved at least 20 ft straight toward the target, the attack deals an extra 2d8 damage and the target must succeed on a DC 16 STR save or be knocked prone. Melee Weapon Attack: +9 to hit. Hit: 2d12+6 piercing"
+    },
+    {
+     "name": "Hoof Slam",
+     "desc": "Melee Weapon Attack: +9 to hit. Hit: 2d6+6 bludgeoning"
+    }
+   ]
+  }
+ },
+ {
+  "name": "FarmPig",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/FarmPig.md",
+   "heading": "FarmPig"
+  },
+  "statblock": {
+   "name": "FarmPig",
+   "size": "large",
+   "type": "humanoid",
+   "alignment": "unaligned",
+   "ac": 17,
+   "hp": 76,
+   "speed": "walk 40 ft.",
+   "stats": [
+    20,
+    10,
+    18,
+    2,
+    12,
+    5
+   ],
+   "cr": 4,
+   "traits": [
+    {
+     "name": "Spine Burst (Recharge 6)",
+     "desc": "Creatures within 15 ft must make a DC 15 DEX save or take 4d6 piercing damage, half on success."
+    },
+    {
+     "name": "Relentless",
+     "desc": "When reduced to 0 HP, the boar drops to 1 HP instead once per day."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Tusks",
+     "desc": "If the target is prone, this attack deals an extra 2d6 damage. Melee Weapon Attack: +7 to hit. Hit: 2d10+5 slashing"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Giant Boar",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Giant Boar.md",
+   "heading": "Giant Boar"
+  },
+  "statblock": {
+   "name": "Giant Boar",
+   "size": "large",
+   "type": "beast",
+   "alignment": "Unaligned",
+   "ac": 10,
+   "hp": 42,
+   "speed": "walk 40 ft.",
+   "stats": [
+    17,
+    10,
+    16,
+    2,
+    7,
+    5
+   ],
+   "cr": 2,
+   "traits": [
+    {
+     "name": "Bloodied Fury",
+     "desc": "While Bloodied, the it has Advantage on attack rolls."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Gore",
+     "desc": "If the target is a creature and the it moved 20+ feet straight toward it immediately before the hit, the target takes an extra damage and has the Prone condition. Melee Weapon Attack: +5 to hit. Hit: 2d6 piercing"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Giant Crab",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Giant Crab.md",
+   "heading": "Giant Crab"
+  },
+  "statblock": {
+   "name": "Giant Crab",
+   "size": "medium",
+   "type": "beast",
+   "alignment": "Unaligned",
+   "ac": 15,
+   "hp": 13,
+   "speed": "walk 30 ft., swim 30 ft.",
+   "stats": [
+    13,
+    15,
+    11,
+    1,
+    9,
+    3
+   ],
+   "cr": 0.125,
+   "skills": [
+    {
+     "Stealth": 4
+    }
+   ],
+   "traits": [
+    {
+     "name": "Amphibious",
+     "desc": "The crab can breathe air and water."
+    },
+    {
+     "name": "Claw",
+     "desc": "The target is (escape DC 11). The crab has two claws, each of which can grapple only one target.. Melee Weapon Attack: +3 to hit"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Giant Crocodile",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Giant Crocodile.md",
+   "heading": "Giant Crocodile"
+  },
+  "statblock": {
+   "name": "Giant Crocodile",
+   "size": "huge",
+   "type": "beast",
+   "alignment": "Unaligned",
+   "ac": 14,
+   "hp": 85,
+   "speed": "walk 30 ft., swim 50 ft.",
+   "stats": [
+    21,
+    9,
+    17,
+    2,
+    10,
+    7
+   ],
+   "cr": 5,
+   "skills": [
+    {
+     "Stealth": 3
+    }
+   ],
+   "traits": [
+    {
+     "name": "Hold Breath",
+     "desc": "The crocodile can hold its breath for 30 minutes."
+    },
+    {
+     "name": "Multiattack",
+     "desc": "The crocodile makes two attacks: one with its Bite{bite} and one with its Tail{tail}."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Bite",
+     "desc": "The target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the crocodile can't bite another target. Melee Weapon Attack: +8 to hit. Hit: 3d10 piercing"
+    },
+    {
+     "name": "Tail",
+     "desc": "If the target is a creature, it must succeed on a STR saving throw (DC 11) or be knocked prone. Melee Weapon Attack: +8 to hit. Hit: 2d8 bludgeoning"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Grinner",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Grinner.md",
+   "heading": "Grinner"
+  },
+  "statblock": {
+   "name": "Grinner",
+   "size": "medium",
+   "type": "aberration",
+   "alignment": "Chaotic Evil",
+   "ac": 13,
+   "hp": 70,
+   "speed": "walk 30 ft.",
+   "stats": [
+    12,
+    16,
+    14,
+    8,
+    12,
+    14
+   ],
+   "cr": 3,
+   "traits": [
+    {
+     "name": "Aberrant Regeneration",
+     "desc": "The Grinner regains 10 HP at the start of its turn."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Claw",
+     "desc": "Melee Weapon Attack: +5 to hit. Hit: 1d8 +3 slashing"
+    },
+    {
+     "name": "Mind Screech (Recharge 5-6)",
+     "desc": "All creatures within 15 ft must succeed on a DC 13 Wisdom saving throw or be stunned until the end of their next turn."
+    },
+    {
+     "name": "Unsettling Smile",
+     "desc": "Enemies within 10 ft have disadvantage on their first attack each turn (DC 13 Wisdom save negates)."
+    }
+   ]
+  }
+ },
+ {
+  "name": "Hydra Goose",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Hydra Goose.md",
+   "heading": "Hydra Goose"
+  },
+  "statblock": {
+   "name": "Chicken",
+   "size": "large",
+   "type": "humanoid",
+   "alignment": "unaligned",
+   "ac": 15,
+   "hp": 92,
+   "speed": "walk 40 ft., swim 20 ft.",
+   "stats": [
+    18,
+    14,
+    17,
+    3,
+    12,
+    7
+   ],
+   "cr": 5,
+   "traits": [
+    {
+     "name": "Multiattack",
+     "desc": "The hydra-goose makes three Bite attacks, each from a different head."
+    },
+    {
+     "name": "Shrieking Chorus (Recharge 5-6)",
+     "desc": "Creatures within 30 ft must make a DC 15 WIS save or become frightened until the end of their next turn."
+    },
+    {
+     "name": "Reactive Heads",
+     "desc": "The hydra-goose gains advantage on opportunity attacks and cannot be flanked."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Bite",
+     "desc": "Reach 10 ft. If two bites hit the same target in one turn, the target must succeed on a DC 15 STR save or be knocked prone. Melee Weapon Attack: +7 to hit. Hit: 2d8+4 piercing"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Lamprey Horror",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Lamprey Horror.md",
+   "heading": "Lamprey Horror"
+  },
+  "statblock": {
+   "name": "Lamprey Horror",
+   "size": "medium",
+   "type": "aberration",
+   "alignment": null,
+   "ac": 16,
+   "hp": 120,
+   "speed": "swim 50 ft.",
+   "stats": [
+    18,
+    17,
+    17,
+    2,
+    10,
+    3
+   ],
+   "cr": 6,
+   "actions": [
+    {
+     "name": "Latch Bite",
+     "desc": "Melee Weapon Attack: +7 to hit. Hit: 2d8+4 piercing"
+    },
+    {
+     "name": "Blood Drain",
+     "desc": "Grappled creature takes 3d6 necrotic damage at start of turn."
+    }
+   ]
+  }
+ },
+ {
+  "name": "Mafia Grunt",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Mafia Grunt.md",
+   "heading": "Mafia Grunt"
+  },
+  "statblock": {
+   "name": "Mafia Grunt",
+   "size": "medium",
+   "type": "humanoid",
+   "alignment": "Neutral",
+   "ac": 14,
+   "hp": 33,
+   "speed": "walk 30 ft.",
+   "stats": [
+    10,
+    16,
+    12,
+    8,
+    12,
+    14
+   ],
+   "cr": 1,
+   "traits": [
+    {
+     "name": "Leather Armor",
+     "desc": "AC 11"
+    }
+   ],
+   "actions": [
+    {
+     "name": "Dagger",
+     "desc": "Melee or Ranged Weapon Attack: +5 to hit. Hit: 1d4 piercing. Range: 20/60 ft."
+    },
+    {
+     "name": "Multiattack",
+     "desc": "It makes two Dagger attacks. It can replace one attack with a use of Enthralling Panache."
+    },
+    {
+     "name": "Enthralling Panache",
+     "desc": "Wisdom Saving Throw: DC 12. One creature within 30 ft. Failure: The target has the Charmed condition until the start of its next turn."
+    }
+   ]
+  }
+ },
+ {
+  "name": "Panther",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Panther.md",
+   "heading": "Panther"
+  },
+  "statblock": {
+   "name": "Panther",
+   "size": "medium",
+   "type": "beast",
+   "alignment": "Unaligned",
+   "ac": 12,
+   "hp": 13,
+   "speed": "walk 50 ft., climb 40 ft.",
+   "stats": [
+    14,
+    15,
+    10,
+    3,
+    14,
+    7
+   ],
+   "cr": 0.25,
+   "skills": [
+    {
+     "Perception": 4
+    },
+    {
+     "Stealth": 6
+    }
+   ],
+   "traits": [
+    {
+     "name": "Keen Smell",
+     "desc": "The panther has advantage on Wisdom (Perception) checks that rely on smell."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Pounce",
+     "desc": "If the panther moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a STR saving throw (DC 12) or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action."
+    },
+    {
+     "name": "Bite",
+     "desc": "Melee Weapon Attack: +4 to hit. Hit: 1d6 piercing"
+    },
+    {
+     "name": "Claw",
+     "desc": "Melee Weapon Attack: +4 to hit. Hit: 1d4 slashing"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Pump-Up Pirate",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Pump-Up Pirate.md",
+   "heading": "Pump-Up Pirate"
+  },
+  "statblock": {
+   "name": "Pump-Up Pirate",
+   "size": "medium",
+   "type": "humanoid",
+   "alignment": "Neutral",
+   "ac": 14,
+   "hp": 33,
+   "speed": "walk 30 ft.",
+   "stats": [
+    10,
+    16,
+    12,
+    8,
+    12,
+    14
+   ],
+   "cr": 1,
+   "traits": [
+    {
+     "name": "Leather Armor",
+     "desc": "AC 11"
+    },
+    {
+     "name": "Multiattack",
+     "desc": "It makes two Dagger attacks. It can replace one attack with a use of Enthralling Panache."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Dagger",
+     "desc": "Melee or Ranged Weapon Attack: +5 to hit. Hit: 1d4 piercing. Range: 20/60 ft."
+    },
+    {
+     "name": "Enthralling Panache",
+     "desc": "Wisdom Saving Throw: DC 12. One creature within 30 ft. Failure: The target has the Charmed condition until the start of its next turn."
+    }
+   ]
+  }
+ },
+ {
+  "name": "Puppy",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Puppy.md",
+   "heading": "Puppy"
+  },
+  "statblock": {
+   "name": "Puppy",
+   "size": "medium",
+   "type": "humanoid",
+   "alignment": "unaligned",
+   "ac": 14,
+   "hp": 45,
+   "speed": "walk 50 ft., climb 20 ft.",
+   "stats": [
+    16,
+    17,
+    14,
+    5,
+    14,
+    6
+   ],
+   "cr": 3,
+   "traits": [
+    {
+     "name": "Pack Tactics",
+     "desc": "The wolf has advantage on attack rolls against a creature if at least one ally is within 5 ft of the creature."
+    },
+    {
+     "name": "Many Eyes",
+     "desc": "The wolf has advantage on Perception checks and cannot be surprised."
+    },
+    {
+     "name": "Rend Flesh",
+     "desc": "A prone target hit by the wolf takes an extra 1d8 slashing damage."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Bite",
+     "desc": "Target must succeed on a DC 13 STR save or fall prone. Melee Weapon Attack: +5 to hit. Hit: 2d6+3 piercing"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Ravine Scylla",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Ravine Scylla.md",
+   "heading": "Ravine Scylla"
+  },
+  "statblock": {
+   "name": "Ravine Scylla",
+   "size": "large",
+   "type": "monstrosity",
+   "alignment": "unaligned",
+   "ac": 18,
+   "hp": 210,
+   "speed": "walk 40 ft., climb 40 ft., swim 30 ft.",
+   "stats": [
+    22,
+    14,
+    20,
+    4,
+    14,
+    6
+   ],
+   "cr": 10,
+   "traits": [
+    {
+     "name": "Multiattack",
+     "desc": "The Ravine Scylla makes three claw attacks."
+    },
+    {
+     "name": "Claw",
+     "desc": "Melee Weapon Attack: +10 to hit"
+    },
+    {
+     "name": "Tunnel Charge",
+     "desc": "Moves 20 ft in a straight line and forces DC 17 STR save or target is knocked prone."
+    }
+   ]
+  }
+ },
+ {
+  "name": "Red Maw Beast",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Red Maw Beast.md",
+   "heading": "Red Maw Beast"
+  },
+  "statblock": {
+   "name": "Red Maw Beast",
+   "size": "medium",
+   "type": "monstrosity",
+   "alignment": "Unaligned",
+   "ac": 13,
+   "hp": 105,
+   "speed": "walk 40 ft.",
+   "stats": [
+    18,
+    14,
+    16,
+    4,
+    10,
+    6
+   ],
+   "cr": 5,
+   "traits": [
+    {
+     "name": "Blood Frenzy",
+     "desc": "Advantage on attacks against creatures below half HP."
+    },
+    {
+     "name": "Aberrant Regeneration",
+     "desc": "Regains 10 HP ."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Bite",
+     "desc": "Melee Weapon Attack: +7 to hit. Hit: 2d12 +2 piercing. Melee Weapon Attack: +7 to hit. Hit: 2d12 piercing"
+    },
+    {
+     "name": "Claw",
+     "desc": "Melee Weapon Attack: +7 to hit. Hit: 2d8 +2 slashing. Melee Weapon Attack: +7 to hit. Hit: 2d8 slashing"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Riding Horse",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Riding Horse.md",
+   "heading": "Riding Horse"
+  },
+  "statblock": {
+   "name": "Riding Horse",
+   "size": "large",
+   "type": "beast",
+   "alignment": "Unaligned",
+   "ac": 10,
+   "hp": 13,
+   "speed": "walk 60 ft.",
+   "stats": [
+    16,
+    10,
+    12,
+    2,
+    11,
+    7
+   ],
+   "cr": 0.25,
+   "actions": [
+    {
+     "name": "Hooves",
+     "desc": "Melee Weapon Attack: +5 to hit. Hit: 2d4 bludgeoning"
+    }
+   ]
+  }
+ },
+ {
+  "name": "River Serpent",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/River Serpent.md",
+   "heading": "River Serpent"
+  },
+  "statblock": {
+   "name": "River Serpent",
+   "size": "large",
+   "type": "dragon",
+   "alignment": null,
+   "ac": 18,
+   "hp": 195,
+   "speed": "swim 60 ft.",
+   "stats": [
+    21,
+    18,
+    18,
+    6,
+    14,
+    7
+   ],
+   "cr": 9,
+   "traits": [
+    {
+     "name": "Whirlpool Rush",
+     "desc": "All creatures within 20 ft make DC 16 STR save or pulled prone into water."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Bite",
+     "desc": "Melee Weapon Attack: +9 to hit. Hit: 3d10+5 piercing"
+    },
+    {
+     "name": "Tail Slam",
+     "desc": "Melee Weapon Attack: +9 to hit. Hit: 2d10+5 bludgeoning"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Saber-Toothed Tiger",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Saber-Toothed Tiger.md",
+   "heading": "Saber-Toothed Tiger"
+  },
+  "statblock": {
+   "name": "Saber-Toothed Tiger",
+   "size": "large",
+   "type": "beast",
+   "alignment": "Unaligned",
+   "ac": 12,
+   "hp": 52,
+   "speed": "walk 40 ft.",
+   "stats": [
+    18,
+    14,
+    15,
+    3,
+    12,
+    8
+   ],
+   "cr": 2,
+   "skills": [
+    {
+     "Perception": 3
+    },
+    {
+     "Stealth": 6
+    }
+   ],
+   "traits": [
+    {
+     "name": "Keen Smell",
+     "desc": "The tiger has advantage on Wisdom (Perception) checks that rely on smell."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Pounce",
+     "desc": "If the tiger moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a STR saving throw (DC 11) or be knocked prone. If the target is prone, the lion can make one bite attack against it as a bonus action."
+    },
+    {
+     "name": "Bite",
+     "desc": "Melee Weapon Attack: +6 to hit"
+    },
+    {
+     "name": "Claw",
+     "desc": "Melee Weapon Attack: +6 to hit"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Smiling Watcher",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Smiling Watcher.md",
+   "heading": "Smiling Watcher"
+  },
+  "statblock": {
+   "name": "Smiling Watcher",
+   "size": "medium",
+   "type": "aberration",
+   "alignment": "Chaotic Evil",
+   "ac": 14,
+   "hp": 60,
+   "speed": "walk 30 ft.",
+   "stats": [
+    10,
+    14,
+    14,
+    10,
+    14,
+    16
+   ],
+   "cr": 3,
+   "traits": [
+    {
+     "name": "Unseen Presence",
+     "desc": "Invisible in darkness beyond 20 ft."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Claw",
+     "desc": "Melee Weapon Attack: +4 to hit. Hit: 1d8 +2 slashing"
+    },
+    {
+     "name": "Mind Glitch",
+     "desc": "DC 14 Wisdom save or be frightened until end of next turn."
+    },
+    {
+     "name": "Snatch (Recharge 5-6)",
+     "desc": "Grapple (escape DC 14). If target is restrained, teleport 20 ft into darkness."
+    }
+   ]
+  }
+ },
+ {
+  "name": "Stitched Horror",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Stitched Horror.md",
+   "heading": "Stitched Horror"
+  },
+  "statblock": {
+   "name": "Stitched Horror",
+   "size": "medium",
+   "type": "monstrosity",
+   "alignment": "Unaligned",
+   "ac": 15,
+   "hp": 120,
+   "speed": "walk 30 ft.",
+   "stats": [
+    18,
+    8,
+    18,
+    5,
+    10,
+    5
+   ],
+   "cr": 5,
+   "damage_resistances": "piercing, slashing",
+   "traits": [
+    {
+     "name": "Patchwork Flesh",
+     "desc": "Resistance to non-magical slashing and piercing damage."
+    },
+    {
+     "name": "Aberrant Regeneration",
+     "desc": "Regains 10"
+    }
+   ],
+   "actions": [
+    {
+     "name": "Slam",
+     "desc": "Melee Weapon Attack: +7 to hit. Hit: 2d10 -1 bludgeoning. Melee Weapon Attack: +7 to hit. Hit: 2d10 bludgeoning"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Swarm of Quippers",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Swarm of Quippers.md",
+   "heading": "Swarm of Quippers"
+  },
+  "statblock": {
+   "name": "Swarm of Quippers",
+   "size": "medium",
+   "type": "beast",
+   "alignment": "Unaligned",
+   "ac": 13,
+   "hp": 28,
+   "speed": "swim 40 ft.",
+   "stats": [
+    13,
+    16,
+    9,
+    1,
+    7,
+    2
+   ],
+   "cr": 1,
+   "senses": "darkvision 60 ft.",
+   "damage_resistances": "bludgeoning, piercing, slashing",
+   "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+   "traits": [
+    {
+     "name": "Blood Frenzy",
+     "desc": "The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+    },
+    {
+     "name": "Swarm",
+     "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny quipper. The swarm can't regain hit points or gain temporary hit points."
+    },
+    {
+     "name": "Water Breathing",
+     "desc": "The swarm can breathe only underwater."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Bites",
+     "desc": "Melee Weapon Attack: , 0 ft., one creature in the swarm's space. Hit: damage, or damage if the swarm has half of its hit points or fewer. Melee Weapon Attack: +2 to hit. Hit: 4d6 piercing. Versatile: 2d6"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Titan Ape",
+  "source": {
+   "book": "SOURCEBOOK",
+   "file": "Monster Manual/Titan Ape.md",
+   "heading": "Titan Ape"
+  },
+  "statblock": {
+   "name": "Titan Ape",
+   "size": "large",
+   "type": "giant beast",
+   "alignment": null,
+   "ac": 18,
+   "hp": 310,
+   "speed": "walk 50 ft., climb 40 ft.",
+   "stats": [
+    26,
+    12,
+    24,
+    5,
+    14,
+    10
+   ],
+   "cr": 13,
+   "traits": [
+    {
+     "name": "Multiattack",
+     "desc": "Makes two slam attacks."
+    },
+    {
+     "name": "Groundquake",
+     "desc": "Recharge 5-6. DC 18 DEX save or creatures fall prone and take 4d10 bludgeoning."
+    }
+   ],
+   "actions": [
+    {
+     "name": "Slam",
+     "desc": "Melee Weapon Attack: +13 to hit. Hit: 3d12+8 bludgeoning"
+    }
+   ]
+  }
+ }
+]
