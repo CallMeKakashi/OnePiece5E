@@ -81,6 +81,8 @@ const pageSetup = () => {
     for (const a of acts) {
       const r = { type: a.type, name: a.name };
       if (item.system.uses?.spent) await item.update({ "system.uses.spent": 0 });   // each activity gets a fresh use
+      const fxCount = () => actor.effects.size + (game.user.targets.first()?.actor?.effects.size ?? 0) + actor.items.reduce((n, i) => n + i.effects.size * 0, 0);
+      const fx0 = fxCount();
       const msgs = game.messages.size, qty = item.system.quantity, spent = item.system.uses?.spent;
       try {
         await Promise.race([H.executeActivity(item, a.id), new Promise((_, j) => setTimeout(() => j(new Error("TIMEOUT")), 10000))]);
@@ -105,6 +107,17 @@ const pageSetup = () => {
         // consumption: items that spend uses or quantity should show it
         const itemAfter = actor.items.get(item.id);
         r.consumed = !itemAfter || itemAfter.system.quantity !== qty || itemAfter.system.uses?.spent !== spent;
+        // every effect an activity references must exist on the item and actually take hold when applied (as the chat card button does)
+        for (const ref of a.effects ?? []) {
+          const eff = item.effects.get(ref._id ?? ref.id);
+          if (!eff) { r.problem = r.problem ?? `activity references missing effect ${ref._id ?? ref.id}`; continue; }
+          const holder = a.target?.affects?.type === "self" || !game.user.targets.first() ? actor : game.user.targets.first().actor;
+          const [applied] = await holder.createEmbeddedDocuments("ActiveEffect", [{ ...eff.toObject(), transfer: false, disabled: false }]);
+          const live = holder.appliedEffects.some((x) => x.id === applied.id);
+          const statusOk = !eff.statuses.size || [...eff.statuses].every((st) => holder.statuses.has(st));
+          if (!live || !statusOk) r.problem = r.problem ?? `effect "${eff.name}" did not take hold (live=${live}, statuses=${statusOk})`;
+          await applied.delete().catch(() => {});
+        }
       } catch (e) { r.problem = String(e.message).slice(0, 140); }
       if (r.problem) r.uses = JSON.stringify({ item: item.system.uses?.toObject?.() ?? item.system.uses, act: a.uses?.toObject?.() ?? null, src: item.system._source.uses, consumption: a.consumption?.targets?.map((t) => t.toObject?.() ?? t) });
       if (r.problem) out.fails.push(`${a.type} "${a.name}": ${r.problem}`);

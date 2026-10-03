@@ -31,7 +31,7 @@ export interface ActSpec {
   /** extra resource consumed, e.g. a spell slot */
   note?: string;
 }
-export interface Spec { activities: ActSpec[]; uses?: { max: string; per?: "sr" | "lr" | "day" | "round" | null }; extraEffects?: EffectSpec[] }
+export interface Spec { /** replaces the description with clearer per-option HTML */ descriptionHtml?: string; activities: ActSpec[]; uses?: { max: string; per?: "sr" | "lr" | "day" | "round" | null }; extraEffects?: EffectSpec[] }
 
 const id16 = (path: string) => generateId(`act/${path}`);
 const types = (t: string | string[]) => (Array.isArray(t) ? t : [t]);
@@ -59,7 +59,11 @@ export function buildFromSpec(key: string, spec: Spec) {
       range: { value: a.range ?? null, units: a.rangeUnits ?? (a.range ? "ft" : ""), special: "", override: false },
       target: {
         template: a.area ? { count: "1", contiguous: false, type: a.area.type, size: String(a.area.size), width: "", height: "", units: "ft" } : { count: "", contiguous: false, type: "", size: "", width: "", height: "", units: "" },
-        affects: { count: String(a.targets?.count ?? ""), type: a.targets?.type ?? "", choice: false, special: "" }, prompt: true, override: !!(a.area || a.targets),
+        // a buff whose effects are all for the user targets "self"; otherwise effects land on whoever is targeted
+        affects: (() => {
+          const selfOnly = !a.targets && !a.area && !!a.effects?.length && a.effects.every((e) => !e.onTargets);
+          return { count: String(a.targets?.count ?? (selfOnly ? "1" : "")), type: a.targets?.type ?? (selfOnly ? "self" : ""), choice: false, special: "" };
+        })(), prompt: true, override: !!(a.area || a.targets || (a.effects?.length && a.effects.every((e) => !e.onTargets))),
       },
       uses: { spent: 0, max: "", recovery: [] },
     };
@@ -87,6 +91,7 @@ export function buildFromSpec(key: string, spec: Spec) {
 export function applySpec<T extends { name: string; system: Record<string, unknown>; effects?: unknown[] }>(doc: T, spec: Spec, key: string): T {
   const built = buildFromSpec(key, spec);
   const system = { ...doc.system, activities: built.activities } as Record<string, unknown>;
+  if (spec.descriptionHtml) system.description = { ...(system.description as object), value: spec.descriptionHtml };
   if (spec.uses) system.uses = { ...(system.uses as object), max: spec.uses.max, per: spec.uses.per ?? null, value: null, recovery: "", prompt: true };
   return { ...doc, system, effects: [...(doc.effects ?? []), ...built.effects] };
 }

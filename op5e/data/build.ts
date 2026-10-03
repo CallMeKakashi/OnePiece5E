@@ -17,6 +17,8 @@ import type { FeatureItem } from "./schemas/feature.js";
 import { raceItemSchema } from "./schemas/race.js";
 import { foundryItemBase, foundryActorBase, foundryJournalBase } from "./schemas/common.js";
 import { ensureFeatureActivities, ensureItemActivities } from "./helpers/activities.js";
+import { applySpec } from "./helpers/spec.js";
+import { AUTOMATION } from "./src/automation/index.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -130,6 +132,12 @@ async function buildPack(config: PackConfig): Promise<Stats> {
       raw = ensureFeatureActivities(raw as FeatureItem);
     } else {
       raw = ensureItemActivities(raw as never);
+    }
+
+    // hand-written automation (data/src/automation) replaces generated activities for the items it names
+    const specKey = `${config.name}/${(raw as { name: string }).name}`;
+    if (AUTOMATION[specKey] && config.collection !== "actors" && config.collection !== "journal") {
+      raw = applySpec(raw as never, AUTOMATION[specKey], specKey) as never;
     }
 
     const result = config.schema.safeParse(raw);

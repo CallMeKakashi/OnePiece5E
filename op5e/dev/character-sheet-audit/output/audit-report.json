@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T08:51:47.431Z",
+  "generatedAt": "2026-10-03T12:30:37.019Z",
   "mode": "static-data-audit",
   "note": "Phase 1 bar: ItemGrants, @scale, uses.max, granted weapons, attack activities. Phase 2 backlog: DAE passives (Unarmored Defense, Expertise, etc.). Phase 2b: tracked passive checklist (phase2bStatus). Does not execute Foundry AdvancementManager.",
   "builds": [
@@ -255,31 +255,31 @@
       "levels": {
         "1": {
           "pass": true,
-          "expectedItemCount": 12,
+          "expectedItemCount": 13,
           "brokenUuids": [],
           "issues": []
         },
         "5": {
           "pass": true,
-          "expectedItemCount": 17,
+          "expectedItemCount": 18,
           "brokenUuids": [],
           "issues": []
         },
         "10": {
           "pass": true,
-          "expectedItemCount": 21,
+          "expectedItemCount": 22,
           "brokenUuids": [],
           "issues": []
         },
         "15": {
           "pass": true,
-          "expectedItemCount": 25,
+          "expectedItemCount": 26,
           "brokenUuids": [],
           "issues": []
         },
         "20": {
           "pass": true,
-          "expectedItemCount": 27,
+          "expectedItemCount": 28,
           "brokenUuids": [],
           "issues": []
         }
@@ -296,31 +296,31 @@
       "levels": {
         "1": {
           "pass": true,
-          "expectedItemCount": 9,
+          "expectedItemCount": 10,
           "brokenUuids": [],
           "issues": []
         },
         "5": {
           "pass": true,
-          "expectedItemCount": 13,
+          "expectedItemCount": 14,
           "brokenUuids": [],
           "issues": []
         },
         "10": {
           "pass": true,
-          "expectedItemCount": 16,
+          "expectedItemCount": 17,
           "brokenUuids": [],
           "issues": []
         },
         "15": {
           "pass": true,
-          "expectedItemCount": 17,
+          "expectedItemCount": 18,
           "brokenUuids": [],
           "issues": []
         },
         "20": {
           "pass": true,
-          "expectedItemCount": 20,
+          "expectedItemCount": 21,
           "brokenUuids": [],
           "issues": []
         }
@@ -343,25 +343,25 @@
         },
         "5": {
           "pass": true,
-          "expectedItemCount": 11,
+          "expectedItemCount": 12,
           "brokenUuids": [],
           "issues": []
         },
         "10": {
           "pass": true,
-          "expectedItemCount": 14,
+          "expectedItemCount": 15,
           "brokenUuids": [],
           "issues": []
         },
         "15": {
           "pass": true,
-          "expectedItemCount": 17,
+          "expectedItemCount": 18,
           "brokenUuids": [],
           "issues": []
         },
         "20": {
           "pass": true,
-          "expectedItemCount": 19,
+          "expectedItemCount": 20,
           "brokenUuids": [],
           "issues": []
         }
@@ -419,31 +419,31 @@
       "levels": {
         "1": {
           "pass": true,
-          "expectedItemCount": 7,
+          "expectedItemCount": 8,
           "brokenUuids": [],
           "issues": []
         },
         "5": {
           "pass": true,
-          "expectedItemCount": 11,
+          "expectedItemCount": 12,
           "brokenUuids": [],
           "issues": []
         },
         "10": {
           "pass": true,
-          "expectedItemCount": 15,
+          "expectedItemCount": 16,
           "brokenUuids": [],
           "issues": []
         },
         "15": {
           "pass": true,
-          "expectedItemCount": 16,
+          "expectedItemCount": 17,
           "brokenUuids": [],
           "issues": []
         },
         "20": {
           "pass": true,
-          "expectedItemCount": 19,
+          "expectedItemCount": 20,
           "brokenUuids": [],
           "issues": []
         }
