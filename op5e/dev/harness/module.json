@@ -1,0 +1,10 @@
+{
+  "id": "op5e-harness",
+  "title": "OP5e Automation Test Harness",
+  "description": "Dev-only: exposes game.op5eHarness for automated compendium tests. Only ever enable in the test world.",
+  "version": "0.1.0",
+  "compatibility": { "minimum": "13", "verified": "13" },
+  "system": ["dnd5e"],
+  "esmodules": ["scripts/harness.mjs"],
+  "relationships": { "requires": [{ "id": "op5e", "type": "module" }] }
+}

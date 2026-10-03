@@ -1,0 +1,3409 @@
+{
+ "items": [
+  {
+   "id": "004bb26f67521d97",
+   "name": "Woodcarver's Tools",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "009da690002ad027",
+   "name": "Dials and Dial Equipment",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "0229a1f0b1c9d292",
+   "name": "Case or Quiver, Ammunition",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "0426b0b32ed83daf",
+   "name": "Ink (1 ounce bottle)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "047b413d026b18a1",
+   "name": "Spyglass",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "0523880d32d54138",
+   "name": "Cannons",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "05e2b76371270bd3",
+   "name": "Plate Armor",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "062116f968f1ff6e",
+   "name": "Sloop",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "072c37ba2e518a5f",
+   "name": "Soap",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "0772fe79be9ba0a1",
+   "name": "Burn Blade",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 22,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "07e3db180a6bf2fd",
+   "name": "Lance",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 23,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "08ed7e32f0958958",
+   "name": "Vial",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "0ac5eea076f9bc1b",
+   "name": "Donkey or Mule",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "0af2f4526953729f",
+   "name": "Antitoxin (vial)",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "0be55cbafbd8bc05",
+   "name": "Tone Dial",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "0cbaa59c00fc6ce7",
+   "name": "Pirate Flag",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "0ddafe26a36d8c1f",
+   "name": "Shield",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "0ea5adada6166183",
+   "name": "Alchemist's Supplies",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "0ebbbbc450198575",
+   "name": "Clothes, Common",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "0fcea716fd5d0dba",
+   "name": "Bucket",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "103eae602a427b6b",
+   "name": "Gunsmith's Tools",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "11f2f182f55e8281",
+   "name": "Whip",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 24,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "14e1a81ff43b2844",
+   "name": "Galleon",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "1583d289966786f3",
+   "name": "Black Transponder Snail",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "16a160bbe0a61f95",
+   "name": "Seastone Armor",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "17553f9f5ffe8f1f",
+   "name": "Dial Set",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "17af3c857d80261e",
+   "name": "Axe Dial",
+   "type": "equipment",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 25,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "191889a9a736b615",
+   "name": "Seastone Weapon (Tipped)",
+   "type": "weapon",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "199ef5f7e44228a0",
+   "name": "Caravel",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "1a659c1e86f9d0db",
+   "name": "Bracers of Defense",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "1a87455091ecc2c0",
+   "name": "Vision Dial",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "1ac5beb803881e21",
+   "name": "Herbalism Kit",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "1c7d3ae46fae6a64",
+   "name": "Kopesh",
+   "type": "weapon",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "1d4a29d57d8e2739",
+   "name": "Abacus",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "1db99b391a315958",
+   "name": "Pick, Miner's",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "1f3d9e48eb967ab9",
+   "name": "Carpenter's Tools",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "200c839aafb2e050",
+   "name": "Homing Ammo",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 26,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "20b9709b92d79400",
+   "name": "Flask or Tankard",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "213b0588c34c9688",
+   "name": "Backpack",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "225fb77099569c17",
+   "name": "12-pounder",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 27,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "2266c1e83f216c5e",
+   "name": "Cook's Utensils",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "227afeafc10157eb",
+   "name": "Horse, Draft",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "2286ef7b906dcebb",
+   "name": "Saddlebags",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "2323c71a4d334861",
+   "name": "Energy Steroids",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 28,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "234786f0a10a05d5",
+   "name": "Glaive",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 29,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "2405635faf929ef0",
+   "name": "Potter's Tools",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "2478f629d5dadcab",
+   "name": "Bell",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "24ba8fe952e06a39",
+   "name": "Lantern",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "25245c51c6fb84c0",
+   "name": "Battleaxe",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 30,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "25c39534c2ef641e",
+   "name": "Cameko Transponder Snail",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "26fd79b697795837",
+   "name": "Sack",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "274dc853d301927d",
+   "name": "Maul",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 31,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "27694a9e8c79f8b8",
+   "name": "Attack Cuisine",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "28319dee993435d9",
+   "name": "Rope, Silken (50 feet)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "2860aea734cf5ca2",
+   "name": "Medkit (Uncommon)",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "heal",
+     "msgs": 32,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "289e4a552425428f",
+   "name": "Waver, Breath Dial",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "295bc4ff46adb314",
+   "name": "Studded Leather Armor",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "2982eb2686d0b8e1",
+   "name": "Board, Breath Dial",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "29b63e8a8bd7c7b4",
+   "name": "Greatclub",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 33,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "2ae52957dd56057e",
+   "name": "Trumpet",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "2ae8a7017a20d037",
+   "name": "Jet Dial Bracers",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "2bbe487a14ba65f3",
+   "name": "Hourglass",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "2bee16df2fa578c5",
+   "name": "Shooters",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "2bee39de4f50becb",
+   "name": "Chain Shot",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "2c101374ebe32745",
+   "name": "Crossbow Bolts (20)",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "2c408a140ef3c934",
+   "name": "Magnifying Glass",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "2c551cf73d883673",
+   "name": "Mighty Bull Roast",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "2d006d677eeb3c36",
+   "name": "Jet Dial",
+   "type": "equipment",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 34,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "2d64bffc0b385920",
+   "name": "Lucky Day",
+   "type": "weapon",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "2fc8dce86c3ae06f",
+   "name": "Milky Arrows",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 35,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "30c79830268ec044",
+   "name": "Eisen Whip",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 36,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "32c6c9f2c09b562f",
+   "name": "Swivel Gun",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 37,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "340ecd7e0b138f5e",
+   "name": "Hunting Trap",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "3439863ceb53d8cf",
+   "name": "Acid Ammo",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "damage",
+     "msgs": 38,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "34cd477d25ea08bd",
+   "name": "Defiance of the Red World",
+   "type": "weapon",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "354b1c8504b3da32",
+   "name": "Milky Dial",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "356b01775e028eb9",
+   "name": "18-pounder",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 39,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "35ea33ae87b22c00",
+   "name": "Block and Tackle",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "364b23dd64422c73",
+   "name": "Shrapnel Ammo",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "save",
+     "pass": false,
+     "error": "TIMEOUT",
+     "consoleErrors": []
+    }
+   ],
+   "status": "FAIL"
+  },
+  {
+   "id": "36b5c5a6a9f1781b",
+   "name": "Wyvern's Wrath",
+   "type": "weapon",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "36e1d08532badcae",
+   "name": "Piton",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "3945d63dd7806abf",
+   "name": "The Raging Drum",
+   "type": "equipment",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 41,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "3a2f3c0a71c01e24",
+   "name": "Incendiary Ammo",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "save",
+     "msgs": 42,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "3a72c776056998a6",
+   "name": "Rowboat",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "3d736ebadf9fb241",
+   "name": "Tinker's Tools",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "3da6206e9267a298",
+   "name": "Proko Transponder Snail",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "3dcb0c7682a45ce6",
+   "name": "Warhorse",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "3e19129427d4c4ae",
+   "name": "Wagon",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "414a0ee934e34abb",
+   "name": "Horn",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "41eb319da91c2dc5",
+   "name": "Guitar",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "42725d22e07c0d90",
+   "name": "Disguise Kit",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "427ad7d2c97ee2bf",
+   "name": "Flavor Dial",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "42c76b2a6b6bc431",
+   "name": "Rapier",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 43,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "4372a9a4cb728c92",
+   "name": "Memento",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "43c9d7b2a5861945",
+   "name": "Preservation Box",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "44168fb016d04bdd",
+   "name": "Apparatus",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "443e8cf26f917eda",
+   "name": "Bandages",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "44547be783a0b21d",
+   "name": "Glassblower's Tools",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "446fb0a3ad5f8527",
+   "name": "Book",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "4564d546e2fbed65",
+   "name": "Special Ammunition",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "45ad3cf4238bb47e",
+   "name": "Pocket Hospital",
+   "type": "equipment",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 44,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "46ab0abc52f0acdc",
+   "name": "Paper (one sheet)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "47616500828cd506",
+   "name": "Shock Ammo",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "save",
+     "msgs": 45,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "48f208655a68b224",
+   "name": "Unarmed Strike",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 46,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "49490f8652cfc663",
+   "name": "Shortsword",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 47,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "497880a900ca5a03",
+   "name": "Horse, Sea",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "499dcdf9bbfb2bcc",
+   "name": "Devil Fruit Object",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "4b187cfbaca6d97b",
+   "name": "Net",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 48,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "4b1fb277266e87f4",
+   "name": "Pony",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "4be6e4a9094897c6",
+   "name": "Leatherworker's Tools",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "4c334489ae90eeaa",
+   "name": "Boots of Speed",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "4c5bafc61c22e857",
+   "name": "Chain (10 feet)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "4ddcd473bf275fab",
+   "name": "Sea Charts, Local",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "4deb404418ab20ad",
+   "name": "Candle",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "4ec108f14ac8a7bf",
+   "name": "Chalk",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "4eea09bcebb51235",
+   "name": "Parchment (one sheet)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "4fbec063303a53df",
+   "name": "Cursed Weapon (Template)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "500eb27fecee5857",
+   "name": "Playing Card Set",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "5080f46fe6233051",
+   "name": "Flash Ammo",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "save",
+     "msgs": 49,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "51cea99f76f34193",
+   "name": "Arrows (20)",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "52631c2813e9e711",
+   "name": "Surfers",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "5294354dfe6b05ab",
+   "name": "Tranquilization Ammo",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "save",
+     "msgs": 50,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "52ab23fb2e153a19",
+   "name": "Vestments",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "52f07ce68a91688f",
+   "name": "King Crab Casserole",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "53bd326ef67f0b83",
+   "name": "Dart",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 51,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "540c3f5eb84be423",
+   "name": "Pike",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 52,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "555b856ada1ea72d",
+   "name": "Odachi",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 53,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "56344ca728be9ebe",
+   "name": "Bubble Coral",
+   "type": "equipment",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "pass": false,
+     "error": "TIMEOUT",
+     "consoleErrors": []
+    }
+   ],
+   "status": "FAIL"
+  },
+  {
+   "id": "58714380f8de93c4",
+   "name": "Eisen Dial",
+   "type": "equipment",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 55,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "5872b0514bf58774",
+   "name": "Round Shot",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "5894b8cd4d8227e1",
+   "name": "Halberd",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 56,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "58bfd213c7ca112c",
+   "name": "Tinderbox",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "58d8b9ee667097bf",
+   "name": "Horse, Riding",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "5931acaccfb7ce7e",
+   "name": "Special Book (Non-Canon)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "5af3c299447208fd",
+   "name": "Grappling Hook",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "5af74b527b57f7c0",
+   "name": "Leather Vest",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "5af7f02dc5664b58",
+   "name": "Black Blade",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "5c95034fb6f5827a",
+   "name": "Rocket Ring (Ring of Jumping)",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "5ee880d792c5270d",
+   "name": "Katana",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 57,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "5ffdf5330234a572",
+   "name": "Firearms Bullets (20)",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "6052a90a26343c20",
+   "name": "Acid (vial)",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "60d5cea394c080f5",
+   "name": "Orange Mile",
+   "type": "weapon",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "61ae2641cc724249",
+   "name": "Basic Transponder Snail",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "61eaff930d1bcae0",
+   "name": "Arched Horn",
+   "type": "weapon",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "61ebb4aef31f0c89",
+   "name": "Sling",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 58,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "61ed60d4cd4e0cc1",
+   "name": "Club",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 59,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "626f152717a27ccf",
+   "name": "Dagger",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 60,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "6354c6bd946770ed",
+   "name": "Ball Bearings (bag of 1,000)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "636e0add85150cac",
+   "name": "Flash Gun",
+   "type": "weapon",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "639c40e89a6abe5e",
+   "name": "Hammer",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "64be9197716cd2dc",
+   "name": "Mason's Tools",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "6541b1d4dc3ddcd1",
+   "name": "Sealing Wax",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "666675aa67c217fb",
+   "name": "Bit and Bridle",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "66a48199a86c536c",
+   "name": "Forgery Kit",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "6706f49ff3fd8f2d",
+   "name": "Barding",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "682661afb30bf028",
+   "name": "Transponder Snails",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "69226cd743007c7d",
+   "name": "Duck, Giant",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "69b040710b4ce0a2",
+   "name": "Quarterstaff",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 61,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "69de944e76170932",
+   "name": "Cart",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "69f617f5dbcbd149",
+   "name": "Exploding Shell",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "6a88ae3ed2fc71e7",
+   "name": "Charcoal Burner Coffee",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "6aa02552b36b2df2",
+   "name": "Sickle",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 62,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "6c7066dda7af86d1",
+   "name": "Sled",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "6cca0269fe755e3e",
+   "name": "Sling Bullets (20)",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "6e1a35242e6efc12",
+   "name": "Perfume (vial)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "6e784e983ea3a633",
+   "name": "Lyre",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "6e80e31d1f0179c6",
+   "name": "Thunder Ammo",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "save",
+     "msgs": 63,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "6f4b655fdf8c31e0",
+   "name": "Calligrapher's Supplies",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "6fa97ed6f7d30645",
+   "name": "Seastone and Seastone Items",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "6fb97a33491e4599",
+   "name": "Tambourine",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "7113ef83d92dc116",
+   "name": "Basket, Woven",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "72283aea083281db",
+   "name": "Oil (flask)",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "722fba4bbad273b7",
+   "name": "Leather Armor",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "73f0fa2559f88979",
+   "name": "Rations (1 day)",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "74144224ea1bf57b",
+   "name": "Distortion",
+   "type": "weapon",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "74b45aaa742025eb",
+   "name": "Sea Charts",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "760551e6fd740f1b",
+   "name": "Raid Suit",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "760fa36163316c7c",
+   "name": "Keelboat",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "76355660cd578ab0",
+   "name": "Elephant",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "784137b63bed009b",
+   "name": "Shovel",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "7842a68fdf0a1f76",
+   "name": "Explorer's Pack",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "793c525d98234dfa",
+   "name": "Hide Armor",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "7b4a835e543fed9c",
+   "name": "Torpedo Ammo",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 64,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "7dfd42635f3d97ce",
+   "name": "Signal Whistle",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "7e6f1987c755b359",
+   "name": "Shooters, Breath Dial",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "7eec9339b6f9a57f",
+   "name": "Healer's Kit",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 65,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "7f004335825faf6c",
+   "name": "Greataxe",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 66,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "80e9eff013f66f5f",
+   "name": "Javelin",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 67,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "81ebea9f2f662801",
+   "name": "Caltrops (bag of 20)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "820345c7b83fd5aa",
+   "name": "Incense (stick)",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "8271cba81f4a24b1",
+   "name": "Ball Dial",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "83ae6cb4e95a8542",
+   "name": "Ships and Waterborne Vessels",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "84e888c609294d62",
+   "name": "Chain Shirt",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "851b32eba8760a98",
+   "name": "Wapometal",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "866441bbcc0d415c",
+   "name": "Shamisen",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "872da87be9c89b49",
+   "name": "Flute",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "87811071570e2997",
+   "name": "Chess Set",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "87ac511a05f11a57",
+   "name": "Fishing Tackle",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "884d75a4d835b838",
+   "name": "Bag of Inventions",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "88e87369e14fa028",
+   "name": "Cartographer's Tools",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "8a8d285e8f43c95d",
+   "name": "Recipe Book",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "8b07596c58a22499",
+   "name": "Chest, with Lock",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "8b5c7f6aa64f9719",
+   "name": "Force Gun (Wand of Magic Missiles)",
+   "type": "equipment",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 68,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "8be031b132a05d49",
+   "name": "42-pounder",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 69,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "8c282b46919eeddf",
+   "name": "Barrel",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "8d26c43180f2dcec",
+   "name": "Mechanical Shield (Animated Shield)",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "8d6cf2d473d8696b",
+   "name": "Sea Pork Offal",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "8ef419160c0c89f6",
+   "name": "Tent, Two-person",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "8fc551429c7038d8",
+   "name": "Galley",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "91e0531ac1b4a851",
+   "name": "Wooden Trinket",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "92a0fc7e9c621a5a",
+   "name": "Clothes, Fine",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "92edb5bb323ff34b",
+   "name": "Bagpipes",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "934f989367a7dbf1",
+   "name": "Seastone Handcuffs",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "9634252cacdf3a9d",
+   "name": "Experimental Device",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "96345ec3afda41a5",
+   "name": "Clothes, Costume",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "974c77272bae25b7",
+   "name": "Brewer's Supplies",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "998f5a9f314b2bc3",
+   "name": "Pole (10-foot)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "9ac9dc3c79fccdb6",
+   "name": "Viol",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "9b8852d6b8419315",
+   "name": "Feed (per day)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "9c5132ad9c9d881f",
+   "name": "Heavy Longcoat",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "9c922d5308335d73",
+   "name": "Shotgun",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 70,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "9d3a451fd00e0a2e",
+   "name": "Log Pose",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "9ec2234cefb7cc7a",
+   "name": "Boxing Ammo",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "save",
+     "msgs": 71,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "a07baf999f140d2c",
+   "name": "Trident",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 72,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "a0986ca21559e13a",
+   "name": "The Swap-Swap Fruit",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "a0a9177b1193f20f",
+   "name": "Pouch",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "a142f1258192a4a9",
+   "name": "Ladder (10-foot)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "a3ea55fbeccdea62",
+   "name": "Defender Field (Staff of Defense)",
+   "type": "equipment",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 73,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "a42fd7d495768d49",
+   "name": "Crowbar",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "a586e9bf60053f77",
+   "name": "Shortbow",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 74,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "a58a4874a9b654c0",
+   "name": "Stabling (per day)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "a6cf8b04fd6a3d7a",
+   "name": "64-pounder",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 75,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "a75542fadc62fade",
+   "name": "Diplomat's Pack",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "a7ee26fefa9632a8",
+   "name": "The Silver Seer",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "a8f57f3bae827226",
+   "name": "Burn Bazooka",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "save",
+     "msgs": 76,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "a9d155147acc4b8a",
+   "name": "Painter's Supplies",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "ab7dfaee5005be87",
+   "name": "Climber's Kit",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "abdef65ccd722576",
+   "name": "Blowgun Needles (50)",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "ac18744618a6a54a",
+   "name": "Reject Dial",
+   "type": "equipment",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 77,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "acadf37712b0ba53",
+   "name": "Wavers",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "acbf62f6b04a486f",
+   "name": "Lock",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "ace918d9b1d89e71",
+   "name": "Smith's Tools",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "ad7c6e980810e1c4",
+   "name": "24-pounder",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 78,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "afd7e253c5e71897",
+   "name": "Waver, Jet Dial",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "b0a232042dd71ed1",
+   "name": "Medkits (Potions of Healing)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "b1fdd5f9c2a32b87",
+   "name": "Thunder Dial",
+   "type": "equipment",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 79,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "b209349269d0534a",
+   "name": "Mess Kit",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "b3763a7373f7aa3a",
+   "name": "Chariot",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "b38dba05ae0dcaec",
+   "name": "Cutlass",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 80,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "b3a88b80d018f711",
+   "name": "Shooters, Jet Dial",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "b492ec2db1276f34",
+   "name": "Navigator's Tools",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "b51e6ba10d48cc3f",
+   "name": "Stethoscope",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "b6247b9325c6d851",
+   "name": "Blowgun",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 81,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "b65c55e59ab7497e",
+   "name": "Handaxe",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 82,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "b68c8db5c5b64d00",
+   "name": "Camel",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "b6d8217bb351198c",
+   "name": "Rifle",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 83,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "b712b07eb297addb",
+   "name": "Horned Transponder Snail",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "b7a201610a000f52",
+   "name": "Vivre Card",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "b8aa1ab8453234a6",
+   "name": "Trophy",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "b9fbe7d3663c6c73",
+   "name": "Musket",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 84,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "bba9e659630272cc",
+   "name": "Dead Man's Blade (Gambler Blade/Defender)",
+   "type": "weapon",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "bbfdfcc267925a44",
+   "name": "Night Vision Goggles (Goggles of Night)",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "bdacf9625ea5106a",
+   "name": "Silver Tongue Sarsaparilla",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "bf6bcc1cf0c30ebf",
+   "name": "Crossbow, Light",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 85,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "c0732fba6241eaf6",
+   "name": "Heat Dial",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "c088a320d7c9d79f",
+   "name": "Crossbow, Hand",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 86,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "c08c915352d97070",
+   "name": "Heat Javelin",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "damage",
+     "msgs": 87,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "c0b3677582d5480a",
+   "name": "Thieves' Tools",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "c1c776ecd32998ad",
+   "name": "Cobbler's Tools",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "c3394ea8a586da09",
+   "name": "Burglar's Pack",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "c3f80894fb8b30a7",
+   "name": "Surveillance Transponder Snail",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "c443113f76149677",
+   "name": "Flame Dial",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "c45cecd9577b5d02",
+   "name": "Chain Mail",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "c5ba6ce11c9253a4",
+   "name": "Spikes, Iron (10)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "c5f5ddce7d111224",
+   "name": "Dulcimer",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "c6787ed3b80ddf0e",
+   "name": "Medkit (Rare)",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "heal",
+     "msgs": 88,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "c757528bd767c5fb",
+   "name": "Breath Dial",
+   "type": "equipment",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 89,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "c9c4c215c31e3d1b",
+   "name": "Drugs",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "ca6876472e160551",
+   "name": "Mace",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 90,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "ca6f7d7aa81c7313",
+   "name": "The Bat-Bat Fruit",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "cb721f77a413b65b",
+   "name": "Waterskin",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "cc020c5418635a9e",
+   "name": "The Dice-Dice Fruit",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "cc638ecd18573004",
+   "name": "Water Dial",
+   "type": "equipment",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 91,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "cc9a06e82390d3b2",
+   "name": "Prosthetic Limb",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "ccdaec09fc8c47f7",
+   "name": "Impact Dial",
+   "type": "equipment",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 92,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "cd0e7a37f732e457",
+   "name": "8-pounder",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 93,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "cd32f8f46af3dcfb",
+   "name": "Invisible Ammo",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 94,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "cd8a51ef50d4dff9",
+   "name": "Pot, Iron",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "cdda63e27ddc72e6",
+   "name": "Ranked Weapon (Template)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "ce241119f70ad1d3",
+   "name": "Manacles",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 95,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "ce715368a9f9538a",
+   "name": "Scimitar",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 96,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "cf3224f489d732c0",
+   "name": "Whetstone",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "cfe63f1f15529820",
+   "name": "Longsword",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 97,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "d004eef4bb0dae3f",
+   "name": "Crafting Materials Guide",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "d040dee1df147747",
+   "name": "Carrack",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "d1bc3c9fd9b6c263",
+   "name": "Ocean's Mourning",
+   "type": "weapon",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "d2456cac571d9c2a",
+   "name": "The Cloud-Cloud Fruit",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "d49069d3b3e1fe3e",
+   "name": "Hammer, Sledge",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "d4aa754c8f52e4b9",
+   "name": "Rope, Hempen (50 feet)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "d4ab115668d21de8",
+   "name": "Longbow",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 98,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "d59aed0b6f8ac8f1",
+   "name": "Navy Uniform",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "d59b089c86bb3ce6",
+   "name": "Adrenaline Injection (Potion of Speed)",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 99,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "d6114889b2160490",
+   "name": "Light Hammer",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 100,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "d6139b74a95a47b1",
+   "name": "Scrolls (Creation Scrolls)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "d87b14108040ff8a",
+   "name": "Weaver's Tools",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "d9c7acb32b8b5670",
+   "name": "Pistol",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 101,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "db56e98a912a7dc1",
+   "name": "Scales, Merchant's",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "dc36d05562c8841d",
+   "name": "Greatsword",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 102,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "dc555bc41d925508",
+   "name": "Bottle, Glass",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "dc75088f6dbec03f",
+   "name": "Jeweler's Tools",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "dcb059006db4975a",
+   "name": "Poisoner's Kit",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "dda89784d8f82fe2",
+   "name": "Ram, Portable",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "ddf5db1a844d3ca9",
+   "name": "Carriage",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "df75cb11f0029ff4",
+   "name": "Appraiser's Tools",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "dfad18e0476efbb4",
+   "name": "Ink Pen",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "e0d4188a5a8ac543",
+   "name": "Grapeshot",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "e17e0125e217be7c",
+   "name": "Medkit (Very Rare)",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "heal",
+     "msgs": 103,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "e2365be8f9cc5f00",
+   "name": "Light Longcoat",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "e3b4421708a7defc",
+   "name": "Lamp",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "e50070883e2c3aa4",
+   "name": "Ensnarement Ammo",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "save",
+     "msgs": 104,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "e5277f6a4976c6ea",
+   "name": "Splint Armor",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "e57befaa3a4f68a9",
+   "name": "Revolver",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 105,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "e5e7d26cd0404bee",
+   "name": "Flintlock",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 106,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "e5f90b076d3fde14",
+   "name": "Crossbow, Heavy",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 107,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "e6449cfc65809a71",
+   "name": "Breastplate",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "e6fbc22dce2c0347",
+   "name": "Signet Ring",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "e74509695a5f3ebe",
+   "name": "Brawler Unarmed Strike",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 108,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "e8af8f0b1c49544e",
+   "name": "36-pounder",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 109,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "ea3632279866bc1c",
+   "name": "Mirror, Steel",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "ea9f7f90c2655b3a",
+   "name": "Mountain Mist",
+   "type": "weapon",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "eb313eda6139d344",
+   "name": "Flash Dial",
+   "type": "equipment",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "save",
+     "msgs": 110,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "ec191dfba374c93a",
+   "name": "Drum",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "eccee0becc9e6792",
+   "name": "Dice Set",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "ecfb28effd3b08ec",
+   "name": "Boxing Gloves",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "ed6094815fc48eaa",
+   "name": "Sky Vehicles",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "ee2a414c5e697817",
+   "name": "Cold Ammo",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "save",
+     "msgs": 111,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "ee4355e183906bca",
+   "name": "Flame Dial",
+   "type": "equipment",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 112,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "ee5faab83188d4f8",
+   "name": "Dungeoneer's Pack",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "efd068aafa5ac063",
+   "name": "Spear",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 113,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "f043e87a14823aff",
+   "name": "War Pick",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 114,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "f172913dae160eb3",
+   "name": "Scholar's Pack",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "f19eade3a473644b",
+   "name": "Torch",
+   "type": "consumable",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "f1f46a87afe97cd7",
+   "name": "Scale Mail",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "f21aa513c07eeca2",
+   "name": "Lamp Dial",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "f271ccec8c5c7c39",
+   "name": "Flail",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 115,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "f39fdb1e0f2bc42a",
+   "name": "SMILE Fruit",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "utility",
+     "msgs": 116,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "f440c4c4f919a241",
+   "name": "Warhammer",
+   "type": "weapon",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "attack",
+     "msgs": 117,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "f51479108afe5fbf",
+   "name": "Seastone Weapon (Full)",
+   "type": "weapon",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "f5ea3ce169acc12e",
+   "name": "Gadget Ring (Ring of Spell Storing)",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "f736bb2fb47ed74f",
+   "name": "The Faithful One",
+   "type": "weapon",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "f7d84f16127a79b3",
+   "name": "Bedroll",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "f8425819973c77cd",
+   "name": "Board, Jet Dial",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "f85f6bbba94775c0",
+   "name": "The Glug-Glug Fruit",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "f8bee38483cc5382",
+   "name": "Longship",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "f98d08250482cf07",
+   "name": "White Weapon (Non-Canon)",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "f9b684ec10f57f17",
+   "name": "Leather Boots",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "fa2cceb0e20e59e5",
+   "name": "Blanket",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "fa9e0814639c9c8d",
+   "name": "Saddle",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "fb24d51356cb6401",
+   "name": "Dial Kit",
+   "type": "tool",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "fba279df4a31e264",
+   "name": "Jug or Pitcher",
+   "type": "loot",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  },
+  {
+   "id": "fea9efceda26a524",
+   "name": "Small Medkit",
+   "type": "consumable",
+   "activities": [
+    {
+     "id": "dnd5eactivity000",
+     "type": "heal",
+     "msgs": 118,
+     "targetHpDelta": 0,
+     "pass": true,
+     "consoleErrors": []
+    }
+   ],
+   "status": "PASS"
+  },
+  {
+   "id": "ff9fab389531bba8",
+   "name": "Serpent Armor (Serpent Scale)",
+   "type": "equipment",
+   "activities": [],
+   "status": "NO_ACTIVITY"
+  }
+ ]
+}
