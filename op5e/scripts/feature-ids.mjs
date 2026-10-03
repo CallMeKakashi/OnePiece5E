@@ -19,8 +19,8 @@ export const OP5E_FEATURE_IDS = Object.freeze({
 
 /** Flaming Duality activity ids (must match `data/helpers/activities.ts`). */
 export const OP5E_FLAMING_DUALITY_ACTIVITY_IDS = Object.freeze({
-  ignited: "op5efdualityign",
-  godspeed: "op5efdualitygod",
+  ignited: "op5efdualityign0",
+  godspeed: "op5efdualitygod0",
 });
 
 /** Stable creation item IDs in the creations compendium. */

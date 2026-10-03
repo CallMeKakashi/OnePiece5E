@@ -5,8 +5,8 @@ import type { FoundryItem } from "../schemas/common.js";
 export const PRIMARY_ACTIVITY_ID = "dnd5eactivity000";
 
 /** Must match `OP5E_FLAMING_DUALITY_ACTIVITY_IDS` in scripts/feature-ids.mjs. */
-export const FLAMING_DUALITY_IGNITED_ACTIVITY_ID = "op5efdualityign";
-export const FLAMING_DUALITY_GODSPEED_ACTIVITY_ID = "op5efdualitygod";
+export const FLAMING_DUALITY_IGNITED_ACTIVITY_ID = "op5efdualityign0";
+export const FLAMING_DUALITY_GODSPEED_ACTIVITY_ID = "op5efdualitygod0";
 
 type ActivityType = "utility" | "heal" | "save" | "damage" | "attack" | "check";
 

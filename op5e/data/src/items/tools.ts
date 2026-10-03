@@ -116,6 +116,8 @@ export const tools: FoundryItem[] = [
   tool("flute", "Flute", "music", 20000, 1, "cha",
     { base: "flute" }),
   tool("guitar", "Guitar", "music", 350000, 3, "cha"),
+  tool("lute", "Lute", "music", 350000, 2, "cha",
+    { base: "lute", desc: "<p>Price and weight follow the 5e SRD; the sourcebook names the lute in Bard starting equipment but lists no price.</p>" }),
   tool("lyre", "Lyre", "music", 300000, 2, "cha",
     { base: "lyre" }),
   tool("horn", "Horn", "music", 30000, 2, "cha",

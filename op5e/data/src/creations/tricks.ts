@@ -5613,6 +5613,6 @@ function configureChoiceDamageActivities(
   (item.system as any).activities = activities;
 }
 
-configureChoiceDamageActivities("Manipulate Earth", ["manipearthblud001", "manipearthpier001", "maniearthslash01"]);
+configureChoiceDamageActivities("Manipulate Earth", ["manipearthblud01", "manipearthpier01", "maniearthslash01"]);
 configureChoiceDamageActivities("Water Flow", ["waterflowblud001", "waterflowpier001", "waterflowslash01"]);
 configureChoiceDamageActivities("Windblast", ["windblastblud001", "windblastpier001", "windblastslash01"], true);

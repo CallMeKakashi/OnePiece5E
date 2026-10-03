@@ -1,0 +1,1094 @@
+{
+ "summary": {
+  "documents": 2045,
+  "links": 1957,
+  "errors": 0,
+  "warnings": 179,
+  "byMessage": {
+   "warn: attack activity has no attack block (dnd5e defaults apply)": 142,
+   "warn: 3 docs share this name": 10,
+   "warn: 2 docs share this name": 17,
+   "warn: 5 docs share this name": 3,
+   "warn: 7 docs share this name": 1,
+   "warn: 4 docs share this name": 3,
+   "warn: 6 docs share this name": 2,
+   "warn: 8 docs share this name": 1
+  }
+ },
+ "issues": [
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Death Wink [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Water Shot [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Thorn Lash [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Wall of Venom [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Control Winds (R) [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Storm of Vengeance [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Instill Madness [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Ensnaring Smite [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Shocking Grasp [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Staggering Smite [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Ice Dagger [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Inflict Wounds [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Animate Objects [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Stormy Sphere [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Lightning Arrow [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Warding Wind [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Animate Dead [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Ardent Shield [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Scorch [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Galvanic Blade [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Frost Ray [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Zapping Arc [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Plant Transformation [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Banishing Smite [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Spark Bolt [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Blaring Blade [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Shooting Stars [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Transmute Rock [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Acid Bolt [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Feeble Body [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Polar Blade [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Wall of Light [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Thunderous Smite [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Fire Bolt [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Wrath of Nature [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Shrapnel Shot [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Branding Smite [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Chilling Necrosis [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Mental Prison [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Thunder Bolt [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Sinister Shot [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Bitter Blade [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Ice Bolt [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Infectious Ray [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Elemental Orb [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Wall of Water [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Manipulate Earth [manipearthblud01]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Manipulate Earth [manipearthpier01]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Manipulate Earth [maniearthslash01]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Radiant Blast [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Radiant Bolt [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Water Flow [waterflowblud001]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Water Flow [waterflowpier001]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Water Flow [waterflowslash01]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Venom Bolt [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Acid Arrow [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Slimy Transformation [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Windblast [windblastblud001]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Windblast [windblastpier001]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Windblast [windblastslash01]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Thunder Beat [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Searing Smite [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Necrotic Bolt [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Rotting Shot [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Embody Winds [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Wrathful Smite [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Upper Brass [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Spiritual Blast [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Blinding Smite [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Giant's Hand [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Steel Wind Strike [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Toxic Trigger [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Contagion [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Blade of Disaster [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Frigid Bullet [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Burning Blade [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Rending Sword [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Burn Blade [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Lance [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Whip [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Axe Dial [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "12-pounder [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Glaive [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Battleaxe [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Maul [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Greatclub [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Swivel Gun [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "18-pounder [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Rapier [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Unarmed Strike [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Shortsword [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Net [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Dart [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Pike [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Odachi [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Halberd [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Katana [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Sling [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Club [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Dagger [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Quarterstaff [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Sickle [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Greataxe [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Javelin [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "42-pounder [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Shotgun [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Trident [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Shortbow [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "64-pounder [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "24-pounder [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Thunder Dial [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Cutlass [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Blowgun [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Handaxe [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Rifle [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Musket [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Crossbow, Light [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Crossbow, Hand [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Mace [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "8-pounder [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Manacles [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Scimitar [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Longsword [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Longbow [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Light Hammer [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Pistol [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Greatsword [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Revolver [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Flintlock [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Crossbow, Heavy [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Brawler Unarmed Strike [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "36-pounder [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Flame Dial [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Spear [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "War Pick [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Flail [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Warhammer [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "racial-features",
+   "name": "Natural Weapons [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "racial-features",
+   "name": "Natural Weapons [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "racial-features",
+   "name": "Natural Weapons [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "racial-features",
+   "name": "Giant Slam [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "racial-features",
+   "name": "Natural Weapons [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Fighting Style: Archery",
+   "msg": "3 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Creativity (Spellcasting)",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Fighting Style: Versatile Fighting",
+   "msg": "5 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Extra Attack",
+   "msg": "7 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Deft Explorer",
+   "msg": "3 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Expertise",
+   "msg": "4 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Musical Secrets",
+   "msg": "3 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Bonus Proficiencies",
+   "msg": "3 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Fighting Style: Unarmed Fighting",
+   "msg": "3 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Fighting Style: Defense",
+   "msg": "3 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Slippery Devil",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Primal Knowledge",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Tool Proficiencies",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Fighting Style: Great Weapon Fighting",
+   "msg": "5 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Fighting Style",
+   "msg": "6 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Fighting Style: Tonic Tactician",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Fighting Style: Thrown Weapon Fighting",
+   "msg": "4 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Crackshot",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Fighting Style: Two-Weapon Fighting",
+   "msg": "6 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Fighting Style: Dueling",
+   "msg": "5 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Fighting Style: Interception",
+   "msg": "3 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Unarmored Defense",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Fighting Style: Melee Shooter",
+   "msg": "3 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Evasion",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Creativity",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Tough Customer",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Miracle Worker",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Fighting Style: Protection",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "class-features",
+   "name": "Fighting Style: Blindfighting",
+   "msg": "3 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Flame Dial",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "racial-features",
+   "name": "Darkvision",
+   "msg": "8 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "racial-features",
+   "name": "Powerful Build",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "racial-features",
+   "name": "Aquatic Adaption",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "racial-features",
+   "name": "Natural Weapons",
+   "msg": "4 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "racial-features",
+   "name": "Speech of the Sea",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "racial-features",
+   "name": "Natural Athlete",
+   "msg": "2 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "racial-features",
+   "name": "Bonus Proficiencies",
+   "msg": "3 docs share this name"
+  }
+ ]
+}
