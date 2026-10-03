@@ -9,7 +9,7 @@ import creations from "../creations/index.js";
 // The vault files are two-column PDF text; membership is recovered by matching known creation names (longest first),
 // since every creation already carries its own level. Only files the source labels by class are used.
 const DIR = join(dirname(fileURLToPath(import.meta.url)), "../../../../Sourcebook/Appendix A Creations/Creation Lists");
-const words = (s: string) => s.toLowerCase().replace(/[’']/g, "").replace(/[^a-z0-9]+/g, " ").trim().split(" ").filter(Boolean);
+const words = (s: string) => s.toLowerCase().replace(/\(r\)/g, " ").replace(/[’']/g, "").replace(/[^a-z0-9]+/g, " ").trim().split(" ").filter(Boolean);
 
 const byName = new Map<string, string>();
 for (const c of creations) byName.set(words(c.name).join(" "), c._id);
@@ -29,14 +29,38 @@ export function matchNames(text: string): string[] {
   return [...hits];
 }
 
+// Authoritative clean lists supplied by the DM (class-lists.txt): exact name match, unmatched names are reported.
+const clean = new Map<string, string[]>();
+{
+  let cur = "";
+  for (const line of readFileSync(join(dirname(fileURLToPath(import.meta.url)), "class-lists.txt"), "utf8").split(/\r?\n/)) {
+    const h = line.match(/^(\w+) Creations$/);
+    if (h) { cur = h[1].toLowerCase(); clean.set(cur, []); } else if (line.startsWith("* ")) clean.get(cur)!.push(line.slice(2).replace(/\(R\)/, "").trim());
+  }
+}
+export const unmatchedNames: Record<string, string[]> = {};
+// spelling variants between the supplied lists and compendium names
+const ALIAS: Record<string, string> = { combust: "combustion", "wind blast": "windblast", featherfall: "feather fall", thunderstep: "thunder step" };
+const fromClean = (id: string) => {
+  const ids = new Set<string>();
+  for (const n of clean.get(id) ?? []) {
+    const key = words(n).join(" ");
+    const hit = byName.get(ALIAS[key] ?? key);
+    if (hit) ids.add(hit); else (unmatchedNames[id] ??= []).push(n);
+  }
+  return [...ids];
+};
+
 const LISTS = [
-  { identifier: "bard", name: "Bard Creations", file: "Bard Creations Charm Person.md" },
-  { identifier: "medic", name: "Medic Creations", file: "Medic Creations.md" },
-  { identifier: "savant", name: "Savant Creations", file: "Savant Creations Lesser Restoration.md" },
-  // gadgeteer / marksman: "Creations.md" and "Creations 2.md" are unlabelled fragments; assignment is ambiguous (see unresolved.json)
+  { identifier: "bard", name: "Bard Creations", file: "Bard Creations Charm Person.md", clean: false },
+  { identifier: "savant", name: "Savant Creations", file: "Savant Creations Lesser Restoration.md", clean: false },
+  { identifier: "medic", name: "Medic Creations", file: "", clean: true },
+  { identifier: "gadgeteer", name: "Gadgeteer Creations", file: "", clean: true },
+  { identifier: "marksman", name: "Marksman Creations", file: "", clean: true },
 ];
 
 export const spellListData = LISTS.map((l) => {
+  if (l.clean) return { ...l, creationIds: fromClean(l.identifier) };
   const raw = readFileSync(join(DIR, l.file), "utf8").replace(/^---[\s\S]*?---\s*/, "").replace(/^#+ .*$/gm, " ").replace(/<!--.*?-->/g, " ");
   return { ...l, creationIds: matchNames(raw) };
 });

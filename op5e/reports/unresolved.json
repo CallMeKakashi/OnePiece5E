@@ -52,11 +52,13 @@
   ]
  },
  {
-  "name": "Savant Creations",
+  "name": "Marksman Creations",
   "pack": "spell-lists",
   "problem": "extracted from scrambled two-column PDF text by name matching; may be incomplete (Bard has no 6th-8th level creations)",
   "automation": "blocked",
   "names": [
+   "Marksman Creations",
+   "Gadgeteer Creations",
    "Savant Creations",
    "Bard Creations",
    "Medic Creations"
@@ -117,12 +119,21 @@
   ]
  },
  {
-  "name": "Gadgeteer and Marksman creation lists",
-  "pack": "spell-lists",
-  "problem": "Creations.md and Creations 2.md are unlabelled two-column PDF fragments; cannot tell which class each belongs to. Bard list also looks incomplete (no 6th-8th level)",
-  "automation": "blocked",
+  "name": "Creations missing from the compendium",
+  "pack": "creations",
+  "problem": "Vitriolic Sphere (Medic, Gadgeteer lists) and Mind Prison (Gadgeteer list) have no description anywhere in the sourcebook text, so they could not be built",
+  "automation": "missing",
   "names": [
-   "Gadgeteer and Marksman creation lists"
+   "Creations missing from the compendium"
+  ]
+ },
+ {
+  "name": "Bard and Savant creation lists",
+  "pack": "spell-lists",
+  "problem": "Still extracted from scrambled PDF text (Bard has no 6th-8th level creations); Gadgeteer, Marksman and Medic now use the clean lists you supplied",
+  "automation": "needs clean list",
+  "names": [
+   "Bard and Savant creation lists"
   ]
  },
  {
