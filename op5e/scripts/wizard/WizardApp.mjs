@@ -1,23 +1,23 @@
 import { MODULE_ID, getAllDrafts, setAllDrafts } from "../settings.mjs";
-import {
-  applyStartingBeri,
-  importFromPackWithAdvancements,
-} from "./apply-advancements.mjs";
 import { isBackgroundEntry, isRoleEntry } from "./background-role.mjs";
+import {
+  ABILITY_METHODS,
+  PACKS,
+  URSA_ARRAY,
+  abilitiesValid,
+  additionalPowerRootsWithStatus,
+  classInfo,
+  createFromDraft,
+  defaultAbilities,
+  defaultData,
+  indexPack,
+  totalLevels,
+  withDefaults
+} from "./create.mjs";
 import { isValidPointBuy, totalCost } from "./pointBuy.mjs";
+import { HAKI_BRANCHES, HAKI_CHOICE_LEVELS } from "../haki-advancement-lib.mjs";
 
 const { HandlebarsApplicationMixin, ApplicationV2 } = foundry.applications.api;
-
-const OP5E_COMPENDIUM_ID = "op5e";
-
-const PACKS = {
-  species: `${OP5E_COMPENDIUM_ID}.races`,
-  racialFeatures: `${OP5E_COMPENDIUM_ID}.racial-features`,
-  backgroundsAndRoles: `${OP5E_COMPENDIUM_ID}.backgrounds`,
-  classes: `${OP5E_COMPENDIUM_ID}.classes`,
-  classFeatures: `${OP5E_COMPENDIUM_ID}.class-features`,
-  feats: `${OP5E_COMPENDIUM_ID}.feats`
-};
 
 const STEPS = [
   "name",
@@ -26,10 +26,19 @@ const STEPS = [
   "background",
   "role",
   "class",
+  "haki",
   "abilities",
   "fork",
   "finish"
 ];
+
+/** The haki step only exists once a class reaches the first Haki choice level. */
+function stepsFor(draft) {
+  const data = draft?.data ?? {};
+  const top = Math.max(Number(data.level) || 1, data.classId2 ? Number(data.level2) || 1 : 0);
+  const showHaki = top >= Math.min(...HAKI_CHOICE_LEVELS);
+  return STEPS.filter((s) => s !== "haki" || showHaki);
+}
 
 function nowIso() {
   return new Date().toISOString();
@@ -39,20 +48,10 @@ function randomId() {
   return foundry.utils.randomID();
 }
 
-function defaultAbilities() {
-  return { str: 8, dex: 8, con: 8, int: 8, wis: 8, cha: 8 };
-}
-
 function normalizeAbilityKey(k) {
   const key = String(k ?? "").toLowerCase();
   if (["str", "dex", "con", "int", "wis", "cha"].includes(key)) return key;
   return null;
-}
-
-async function indexPack(packCollection, fields = ["type", "name", "img", "system.identifier"]) {
-  const pack = game.packs.get(packCollection);
-  if (!pack) throw new Error(`Missing compendium pack: ${packCollection}`);
-  return pack.getIndex({ fields });
 }
 
 function mapIndexEntry(e) {
@@ -67,35 +66,6 @@ function filterAdditionalPowerRoots(index) {
   return index
     .filter((e) => e.type === "feat" && e.flags?.op5e?.additionalPowerRoot === true)
     .map(mapIndexEntry);
-}
-
-async function importAdditionalPowerTree(actor, rootFeatId) {
-  const pack = game.packs.get(PACKS.classFeatures);
-  if (!pack || !rootFeatId) return [];
-
-  const rootDoc = await pack.getDocument(rootFeatId);
-  if (!rootDoc) return [];
-
-  const imported = [];
-  await importFromPackWithAdvancements(actor, PACKS.classFeatures, rootFeatId);
-  imported.push(rootDoc);
-
-  const index = await indexPack(PACKS.classFeatures, [
-    "type",
-    "name",
-    "system.requirements",
-    "flags.op5e"
-  ]);
-  const rootName = rootDoc.name;
-  for (const entry of index) {
-    if (entry._id === rootFeatId) continue;
-    if (entry.type !== "feat") continue;
-    if (String(entry.system?.requirements ?? "").trim() !== rootName) continue;
-    const subDoc = await importFromPackWithAdvancements(actor, PACKS.classFeatures, entry._id);
-    if (subDoc) imported.push(subDoc);
-  }
-
-  return imported;
 }
 
 function compendiumIdFromUuid(uuid) {
@@ -164,6 +134,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       reset: OP5eCharacterCreatorWizard.#onReset,
       finish: OP5eCharacterCreatorWizard.#onFinish,
       useArray: OP5eCharacterCreatorWizard.#onUseArray,
+      useUrsa: OP5eCharacterCreatorWizard.#onUseUrsa,
       rollScores: OP5eCharacterCreatorWizard.#onRollScores,
       browseImage: OP5eCharacterCreatorWizard.#onBrowseImage
     }
@@ -199,21 +170,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       updatedAt: nowIso(),
       actorKind: inferredKind,
       step: STEPS[0],
-      data: {
-        name: "",
-        portraitImg: "",
-        tokenImg: "",
-        speciesId: "",
-        backgroundId: "",
-        roleFeatId: "",
-        classId: "",
-        abilities: defaultAbilities(),
-        abilityMethod: "pointBuy", // roll|array|pointBuy
-        fork: {
-          kind: "additionalPower", // devilFruitLater|additionalPower
-          additionalPowerFeatId: ""
-        }
-      },
+      data: defaultData(),
       touched: {}
     };
 
@@ -235,6 +192,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
     const drafts = getAllDrafts();
     const draft = drafts[this.draftId];
     if (!canActOnDraft(draft, game.user)) throw new Error("Draft not accessible.");
+    draft.data = withDefaults(draft.data);
     this.#cached = draft;
     return draft;
   }
@@ -243,6 +201,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
     const drafts = getAllDrafts();
     const draft = drafts[this.draftId];
     if (!canActOnDraft(draft, game.user)) throw new Error("Draft not accessible.");
+    draft.data = withDefaults(draft.data);
     mutator(draft);
     draft.updatedAt = nowIso();
     drafts[this.draftId] = draft;
@@ -274,8 +233,45 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
         ? await racialFeatsForSpecies(draft.data.speciesId, racialFeatIndex)
         : [];
 
-    const stepIndex = Math.max(0, STEPS.indexOf(draft.step));
-    const step = STEPS[stepIndex] ?? STEPS[0];
+    const visible = stepsFor(draft);
+    const stepIndex = Math.max(0, visible.indexOf(draft.step));
+    const step = visible[stepIndex] ?? visible[0];
+
+    // Class step: subclass options and the level at which the class asks for one.
+    const classBlocks = [];
+    for (const [n, idKey, lvKey, subKey] of [
+      [1, "classId", "level", "subclassId"],
+      [2, "classId2", "level2", "subclassId2"]
+    ]) {
+      const info = await classInfo(draft.data[idKey]);
+      const level = Math.min(20, Math.max(1, Number(draft.data[lvKey]) || 1));
+      classBlocks.push({
+        n,
+        idKey,
+        lvKey,
+        subKey,
+        level,
+        subclassLevel: info?.subclassLevel ?? null,
+        subclasses: (info?.subclasses ?? []).map((s) => ({ ...s, selected: s._id === draft.data[subKey] })),
+        subclassEnabled: !!info?.subclassLevel && level >= info.subclassLevel
+      });
+    }
+
+    const hakiLevels = HAKI_CHOICE_LEVELS.filter(
+      (l) => l <= Math.max(Number(draft.data.level) || 1, draft.data.classId2 ? Number(draft.data.level2) || 1 : 0)
+    ).map((l) => ({
+      level: l,
+      branches: HAKI_BRANCHES.map((b) => ({ id: b, selected: draft.data.haki?.[l] === b }))
+    }));
+
+    let additionalPowers = additionalPowerChoices;
+    if (step === "fork" && draft.data.fork.kind === "additionalPower") {
+      additionalPowers = (await additionalPowerRootsWithStatus(draft.data, additionalPowerChoices)).map((r) => ({
+        ...r,
+        disabled: r.unmet.length > 0,
+        reason: r.unmet.join("; ")
+      }));
+    }
 
     const abilities = draft.data.abilities ?? defaultAbilities();
     const pbSpent = totalCost(abilities);
@@ -288,7 +284,12 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       draft,
       step,
       stepIndex,
-      steps: STEPS,
+      steps: visible,
+      classBlocks,
+      hakiLevels,
+      totalLevel: totalLevels(draft.data),
+      abilityMax: draft.data.abilityMethod === "pointBuy" ? 15 : 20,
+      abilityMin: draft.data.abilityMethod === "pointBuy" ? 8 : 3,
       isGM: !!game.user?.isGM,
       inferredPcLocked: !game.user?.isGM,
       choices: {
@@ -296,7 +297,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
         backgrounds: backgroundChoices,
         roles: roleChoices,
         classes: classChoices,
-        additionalPowers: additionalPowerChoices
+        additionalPowers
       },
       speciesRacialFeats,
       pointBuy: {
@@ -304,6 +305,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
         total: 27,
         valid: pbValid
       },
+      abilitiesOk: abilitiesValid(draft.data.abilityMethod, abilities),
       canReset
     };
   }
@@ -317,16 +319,24 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
     const form = this.form;
     if (!form) return;
 
-    for (const name of ["speciesId", "roleFeatId"]) {
-      const radios = form.querySelectorAll(`input[type="radio"][name="${name}"]`);
-      for (const radio of radios) {
-        if (radio.dataset.op5eChoiceBound) continue;
-        radio.dataset.op5eChoiceBound = "1";
-        radio.addEventListener("change", async () => {
-          await this.#commitStepForm();
-          this.render(false);
-        });
-      }
+    // Radios and the class/level/method selects change what the step shows, so re-render after saving.
+    const selector = [
+      'input[type="radio"][name="speciesId"]',
+      'input[type="radio"][name="roleFeatId"]',
+      'select[name="classId"]',
+      'select[name="classId2"]',
+      'input[name="level"]',
+      'input[name="level2"]',
+      'select[name="forkKind"]',
+      'select[name="abilityMethod"]'
+    ].join(",");
+    for (const el of form.querySelectorAll(selector)) {
+      if (el.dataset.op5eChoiceBound) continue;
+      el.dataset.op5eChoiceBound = "1";
+      el.addEventListener("change", async () => {
+        await this.#commitStepForm();
+        this.render(false);
+      });
     }
   }
 
@@ -445,13 +455,34 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       }
 
       if (step === "class") {
+        const clamp = (v) => Math.min(20, Math.max(1, Math.floor(Number(v)) || 1));
         draft.data.classId = String(data.classId ?? "").trim();
+        draft.data.level = clamp(data.level);
+        draft.data.subclassId = String(data.subclassId ?? "").trim();
+        draft.data.classId2 = String(data.classId2 ?? "").trim();
+        draft.data.level2 = draft.data.classId2 ? clamp(data.level2) : 1;
+        draft.data.subclassId2 = String(data.subclassId2 ?? "").trim();
+        // total level <= 20; the optional class gives way
+        if (draft.data.classId2) draft.data.level2 = Math.min(draft.data.level2, Math.max(1, 20 - draft.data.level));
+        if (draft.data.classId2 && draft.data.classId2 === draft.data.classId) draft.data.classId2 = "";
+        draft.data.hpMode = data.hpMode === "roll" ? "roll" : "avg";
+        draft.data.autoApply = data.autoApply === true || data.autoApply === "true" || data.autoApply === "on";
         draft.touched["data.classId"] = true;
+      }
+
+      if (step === "haki") {
+        const haki = {};
+        for (const [k, v] of Object.entries(data)) {
+          if (!k.startsWith("haki.") || !v) continue;
+          haki[Number(k.split(".")[1])] = String(v);
+        }
+        draft.data.haki = haki;
+        draft.touched["data.haki"] = true;
       }
 
       if (step === "abilities") {
         const method = String(data.abilityMethod ?? "").trim();
-        if (["roll", "array", "pointBuy"].includes(method)) {
+        if (ABILITY_METHODS.includes(method)) {
           draft.data.abilityMethod = method;
           draft.touched["data.abilityMethod"] = true;
         }
@@ -482,8 +513,9 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
   static async #onBack(_event, _target) {
     const app = this;
     const draft = await app.#getDraft();
-    const idx = Math.max(0, STEPS.indexOf(draft.step));
-    const prev = STEPS[Math.max(0, idx - 1)] ?? STEPS[0];
+    const visible = stepsFor(draft);
+    const idx = Math.max(0, visible.indexOf(draft.step));
+    const prev = visible[Math.max(0, idx - 1)] ?? visible[0];
     await app.#saveDraft((d) => (d.step = prev));
     app.render(true);
   }
@@ -492,8 +524,9 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
     const app = this;
     await app.#commitStepForm();
     const draft = await app.#getDraft();
-    const idx = Math.max(0, STEPS.indexOf(draft.step));
-    const next = STEPS[Math.min(STEPS.length - 1, idx + 1)] ?? STEPS[0];
+    const visible = stepsFor(draft);
+    const idx = Math.max(0, visible.indexOf(draft.step));
+    const next = visible[Math.min(visible.length - 1, idx + 1)] ?? visible[0];
     await app.#saveDraft((d) => (d.step = next));
     app.render(true);
   }
@@ -513,18 +546,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       yes: async () => {
         await app.#saveDraft((d) => {
           d.step = STEPS[0];
-          d.data = {
-            name: "",
-            portraitImg: "",
-            tokenImg: "",
-            speciesId: "",
-            backgroundId: "",
-            roleFeatId: "",
-            classId: "",
-            abilities: defaultAbilities(),
-            abilityMethod: "pointBuy",
-            fork: { kind: "additionalPower", additionalPowerFeatId: "" }
-          };
+          d.data = defaultData();
           d.touched = {};
         });
         app.render(true);
@@ -537,68 +559,16 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
     await app.#commitStepForm();
     const draft = await app.#getDraft();
 
-    // Validate minimum required fields
-    if (!draft.data.name) {
-      ui.notifications?.error("Name is required.");
+    // Validation, creation, level-up and the Additional Power prerequisite refusal live in createFromDraft.
+    const notes = [];
+    try {
+      await createFromDraft(draft, { auto: draft.data.autoApply, hpMode: draft.data.hpMode, notes });
+    } catch (e) {
+      console.error("op5e | character creation failed", e);
+      if (!e?.notified) ui.notifications?.error(`Character creation failed: ${e?.message ?? e}`);
       return;
     }
-
-    if (draft.data.abilityMethod === "pointBuy" && !isValidPointBuy(draft.data.abilities)) {
-      ui.notifications?.error("Point-buy must spend exactly 27 points.");
-      return;
-    }
-
-    const actorType = draft.actorKind === "npc" ? "npc" : "character";
-    const actorName = draft.data.name;
-
-    const actorData = {
-      name: actorName,
-      type: actorType,
-      img: draft.data.portraitImg || undefined,
-      system: {
-        abilities: {
-          str: { value: Number(draft.data.abilities?.str ?? 8) },
-          dex: { value: Number(draft.data.abilities?.dex ?? 8) },
-          con: { value: Number(draft.data.abilities?.con ?? 8) },
-          int: { value: Number(draft.data.abilities?.int ?? 8) },
-          wis: { value: Number(draft.data.abilities?.wis ?? 8) },
-          cha: { value: Number(draft.data.abilities?.cha ?? 8) }
-        }
-      }
-    };
-
-    // Token texture (best-effort; schema differs slightly across dnd5e versions)
-    if (draft.data.tokenImg) {
-      actorData.prototypeToken = {
-        texture: { src: draft.data.tokenImg }
-      };
-    }
-
-    const actor = await Actor.create(actorData, { renderSheet: true });
-    if (!actor) return;
-
-    const importedItems = [];
-    const importOrder = [
-      [PACKS.species, draft.data.speciesId],
-      [PACKS.backgroundsAndRoles, draft.data.backgroundId],
-      [PACKS.backgroundsAndRoles, draft.data.roleFeatId],
-      [PACKS.classes, draft.data.classId],
-    ];
-
-    for (const [packKey, docId] of importOrder) {
-      const doc = await importFromPackWithAdvancements(actor, packKey, docId);
-      if (doc) importedItems.push(doc);
-    }
-
-    if (draft.data.fork?.kind === "additionalPower" && draft.data.fork.additionalPowerFeatId) {
-      const powerItems = await importAdditionalPowerTree(
-        actor,
-        draft.data.fork.additionalPowerFeatId
-      );
-      importedItems.push(...powerItems);
-    }
-
-    await applyStartingBeri(actor, importedItems);
+    if (notes.length) console.warn("op5e | character creator notes", notes);
 
     // Clear draft after successful creation (owner only)
     const isOwner = draft.ownerUserId === game.user?.id;
@@ -609,9 +579,22 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
     }
 
     ui.notifications?.info(
-      "Actor created with species, background, role, and class advancements applied."
+      "Actor created with species, background, role, and class advancements applied (levelled to target)."
     );
     app.close();
+  }
+
+  static async #onUseUrsa(_event, _target) {
+    const app = this;
+    const [str, dex, con, int, wis, cha] = URSA_ARRAY; // 16,16,14,12,12,8; the player reassigns freely
+    await app.#saveDraft((d) => {
+      d.step = "abilities";
+      d.data.abilityMethod = "ursa";
+      d.data.abilities = { str, dex, con, int, wis, cha };
+      d.touched["data.abilityMethod"] = true;
+      d.touched["data.abilities"] = true;
+    });
+    app.render(true);
   }
 
   static async #onUseArray(_event, _target) {

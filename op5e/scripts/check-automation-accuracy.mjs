@@ -55,6 +55,8 @@ for (const pack of PACKS) {
 
     // 2) typed damage described in the text with no matching activity damage
     const actTypes = new Set(acts.flatMap((a) => [...(a.damage?.parts ?? []), ...(a.healing ? [a.healing] : [])].flatMap((p) => p.types ?? [])));
+    // damage delivered by effects (e.g. "+2d6[force]" bonuses) counts too
+    for (const e of d.effects ?? []) for (const c of e.changes ?? []) for (const m of String(c.value ?? "").matchAll(/\[(\w+)\]/g)) actTypes.add(m[1].toLowerCase());
     const hasHealing = acts.some((a) => a.type === "heal" || a.healing);
     for (const m of text.matchAll(/\b(\d+d\d+)(?:\s*[+-]\s*[\w@. ]{1,25}?)?\s+(acid|bludgeoning|cold|fire|force|lightning|necrotic|piercing|poison|psychic|radiant|slashing|thunder)\s+damage/gi)) {
       const t = m[2].toLowerCase();

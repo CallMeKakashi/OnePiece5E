@@ -1,29 +1,29 @@
 {
   "stats": {
     "class-features": {
-      "docs": 749,
-      "withActivities": 205,
-      "flagged": 6
+      "docs": 833,
+      "withActivities": 278,
+      "flagged": 3
     },
     "racial-features": {
-      "docs": 84,
+      "docs": 86,
       "withActivities": 21,
       "flagged": 1
     },
     "feats": {
-      "docs": 201,
-      "withActivities": 87,
+      "docs": 228,
+      "withActivities": 90,
       "flagged": 0
     },
     "items": {
-      "docs": 364,
-      "withActivities": 97,
-      "flagged": 3
+      "docs": 426,
+      "withActivities": 124,
+      "flagged": 14
     },
     "creations": {
       "docs": 427,
       "withActivities": 427,
-      "flagged": 27
+      "flagged": 19
     },
     "backgrounds": {
       "docs": 56,
@@ -32,24 +32,13 @@
     }
   },
   "byKind": {
-    "described-damage-missing": 7,
     "save-missing": 6,
-    "dice-not-in-text": 6,
-    "save-ability-not-in-text": 9,
-    "text-save-not-automated": 20,
-    "healing-missing": 4
+    "described-damage-missing": 6,
+    "dice-not-in-text": 14,
+    "healing-missing": 5,
+    "text-save-not-automated": 11
   },
   "findings": [
-    {
-      "pack": "class-features",
-      "name": "Conqueror's Haki Master",
-      "issues": [
-        {
-          "kind": "described-damage-missing",
-          "detail": "text: 2d6 force; no activity deals force"
-        }
-      ]
-    },
     {
       "pack": "class-features",
       "name": "Experimental Medicine",
@@ -57,16 +46,6 @@
         {
           "kind": "save-missing",
           "detail": "text has con save; no save activity"
-        }
-      ]
-    },
-    {
-      "pack": "class-features",
-      "name": "Endemic Surge",
-      "issues": [
-        {
-          "kind": "described-damage-missing",
-          "detail": "text: 1d6 necrotic; no activity deals necrotic"
         }
       ]
     },
@@ -91,22 +70,92 @@
       ]
     },
     {
-      "pack": "class-features",
-      "name": "Channel Conviction: Caustic Spite",
-      "issues": [
-        {
-          "kind": "described-damage-missing",
-          "detail": "text: 1d8 acid; no activity deals acid"
-        }
-      ]
-    },
-    {
       "pack": "racial-features",
       "name": "Minor Haki",
       "issues": [
         {
           "kind": "dice-not-in-text",
           "detail": "activities roll 1d4; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "items",
+      "name": "12-pounder",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 3d10; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "items",
+      "name": "Swivel Gun",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 2d8; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "items",
+      "name": "Defiance of the Red World",
+      "issues": [
+        {
+          "kind": "healing-missing",
+          "detail": "text grants hit points but no heal activity"
+        }
+      ]
+    },
+    {
+      "pack": "items",
+      "name": "18-pounder",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 4d10; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "items",
+      "name": "The Silver Seer (Wakened)",
+      "issues": [
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 3d10 psychic; no activity deals psychic"
+        }
+      ]
+    },
+    {
+      "pack": "items",
+      "name": "The Silver Seer (Ascendant)",
+      "issues": [
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 3d10 psychic; no activity deals psychic"
+        }
+      ]
+    },
+    {
+      "pack": "items",
+      "name": "42-pounder",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 10d10; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "items",
+      "name": "64-pounder",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 15d10; text has no dice"
         }
       ]
     },
@@ -122,6 +171,16 @@
     },
     {
       "pack": "items",
+      "name": "24-pounder",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 6d10; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "items",
       "name": "Thunder Dial",
       "issues": [
         {
@@ -132,39 +191,31 @@
     },
     {
       "pack": "items",
+      "name": "8-pounder",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 2d10; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "items",
+      "name": "36-pounder",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 8d10; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "items",
       "name": "Flame Dial",
       "issues": [
         {
           "kind": "dice-not-in-text",
           "detail": "activities roll 1d10; text has no dice"
-        }
-      ]
-    },
-    {
-      "pack": "creations",
-      "name": "Levitate",
-      "issues": [
-        {
-          "kind": "save-ability-not-in-text",
-          "detail": "activity saves str; text mentions con"
-        },
-        {
-          "kind": "text-save-not-automated",
-          "detail": "text mentions con save; activities save str"
-        }
-      ]
-    },
-    {
-      "pack": "creations",
-      "name": "Hero's Feast",
-      "issues": [
-        {
-          "kind": "save-ability-not-in-text",
-          "detail": "activity saves str; text mentions wis"
-        },
-        {
-          "kind": "text-save-not-automated",
-          "detail": "text mentions wis save; activities save str"
         }
       ]
     },
@@ -214,34 +265,6 @@
     },
     {
       "pack": "creations",
-      "name": "Fairy Lights",
-      "issues": [
-        {
-          "kind": "save-ability-not-in-text",
-          "detail": "activity saves str; text mentions dex"
-        },
-        {
-          "kind": "text-save-not-automated",
-          "detail": "text mentions dex save; activities save str"
-        }
-      ]
-    },
-    {
-      "pack": "creations",
-      "name": "Haste",
-      "issues": [
-        {
-          "kind": "save-ability-not-in-text",
-          "detail": "activity saves str; text mentions dex"
-        },
-        {
-          "kind": "text-save-not-automated",
-          "detail": "text mentions dex save; activities save str"
-        }
-      ]
-    },
-    {
-      "pack": "creations",
       "name": "Enlarge/Reduce",
       "issues": [
         {
@@ -282,20 +305,6 @@
     },
     {
       "pack": "creations",
-      "name": "Bane",
-      "issues": [
-        {
-          "kind": "save-ability-not-in-text",
-          "detail": "activity saves str; text mentions cha"
-        },
-        {
-          "kind": "text-save-not-automated",
-          "detail": "text mentions cha save; activities save str"
-        }
-      ]
-    },
-    {
-      "pack": "creations",
       "name": "Slow",
       "issues": [
         {
@@ -330,20 +339,6 @@
     },
     {
       "pack": "creations",
-      "name": "Firestorm",
-      "issues": [
-        {
-          "kind": "save-ability-not-in-text",
-          "detail": "activity saves str; text mentions dex"
-        },
-        {
-          "kind": "text-save-not-automated",
-          "detail": "text mentions dex save; activities save str"
-        }
-      ]
-    },
-    {
-      "pack": "creations",
       "name": "Prismatic Wall",
       "issues": [
         {
@@ -364,33 +359,11 @@
     },
     {
       "pack": "creations",
-      "name": "Intellect Fortress",
-      "issues": [
-        {
-          "kind": "save-ability-not-in-text",
-          "detail": "activity saves str; text mentions cha"
-        },
-        {
-          "kind": "text-save-not-automated",
-          "detail": "text mentions cha save; activities save str"
-        }
-      ]
-    },
-    {
-      "pack": "creations",
       "name": "Irresistible Dance",
       "issues": [
         {
-          "kind": "save-ability-not-in-text",
-          "detail": "activity saves str; text mentions dex, wis"
-        },
-        {
           "kind": "text-save-not-automated",
-          "detail": "text mentions dex save; activities save str"
-        },
-        {
-          "kind": "text-save-not-automated",
-          "detail": "text mentions wis save; activities save str"
+          "detail": "text mentions wis save; activities save dex"
         }
       ]
     },
@@ -433,20 +406,6 @@
         {
           "kind": "save-missing",
           "detail": "text has con save; no save activity"
-        }
-      ]
-    },
-    {
-      "pack": "creations",
-      "name": "Beacon of Hope",
-      "issues": [
-        {
-          "kind": "save-ability-not-in-text",
-          "detail": "activity saves str; text mentions wis"
-        },
-        {
-          "kind": "text-save-not-automated",
-          "detail": "text mentions wis save; activities save str"
         }
       ]
     },

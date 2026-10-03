@@ -235,8 +235,16 @@ function buildBaseActivity(source: ActivitySource, type: ActivityType, id: strin
 const SAVE_ABILITY: Record<string, string> = { strength: "str", dexterity: "dex", constitution: "con", intelligence: "int", wisdom: "wis", charisma: "cha" };
 /** First "<Ability> saving throw" in the item's own text; a baseline save with no authored ability used to default to Strength. */
 function saveAbilityFromText(html?: string): string | undefined {
-  const m = String(html ?? "").replace(/<[^>]+>/g, " ").match(/(strength|dexterity|constitution|intelligence|wisdom|charisma)s+sav(?:e|ing)/i);
+  const m = String(html ?? "").replace(/<[^>]+>/g, " ").match(/\b(strength|dexterity|constitution|intelligence|wisdom|charisma)\s+sav(?:e|ing)/i);
   return m ? SAVE_ABILITY[m[1].toLowerCase()] : undefined;
+}
+
+/** The source extraction defaulted many saves to "str"; when the text names a different ability and never a Strength save, trust the text. */
+function resolveSaveAbility(authored: string | undefined, html?: string): string {
+  const fromText = saveAbilityFromText(html);
+  const mentionsStr = /\bstrength\s+sav(?:e|ing)/i.test(String(html ?? "").replace(/<[^>]+>/g, " "));
+  if (authored && !(authored === "str" && fromText && !mentionsStr)) return authored;
+  return fromText || authored || "str";
 }
 
 function buildTypeFields(source: ActivitySource, type: ActivityType) {
@@ -259,7 +267,7 @@ function buildTypeFields(source: ActivitySource, type: ActivityType) {
         parts: sys.damage?.parts?.map((part) => transformDamagePart(part)) ?? [],
       },
       save: {
-        ability: [sys.save?.ability || saveAbilityFromText((sys as { description?: { value?: string } }).description?.value) || "str"],
+        ability: [resolveSaveAbility(sys.save?.ability, (sys as { description?: { value?: string } }).description?.value)],
         dc: {
           calculation,
           formula: sys.save?.dc != null ? String(sys.save.dc) : "",

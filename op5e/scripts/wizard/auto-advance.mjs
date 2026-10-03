@@ -1,0 +1,162 @@
+/**
+ * Headless ("auto-apply default choices") driver for dnd5e AdvancementManager, used by the wizard's testing option
+ * and game.op5eCharacterCreator.createFromDraft(draft, {auto:true}). The player-facing path never uses this: it renders
+ * the manager UI exactly like Foundry's own Level Up. Ported from dev/harness/advance-lib.mjs (__op5eRun) and extended with
+ * subclass, Haki preselection, hit-point mode and prerequisite-aware feat picks.
+ */
+import { unmetPrerequisites } from "../prerequisites.mjs";
+import {
+  collectOwnedHakiSlugs,
+  collectPriorHakiSlugsForChoiceLevel,
+  filterHakiPoolForAdvancementStep,
+  getAvailableHakiUuids,
+  hakiSlugFromUuid,
+  isHakiItemChoiceConfig,
+} from "../haki-advancement-lib.mjs";
+
+const ABILITIES = ["str", "dex", "con", "int", "wis", "cha"];
+
+function chosenSet(adv) {
+  return new Set(Object.values(adv.value?.added ?? {}).flatMap((o) => Object.values(o)));
+}
+
+/** Value to apply for one advancement step, or null to skip it. ctx: {subUuid, haki, hpMode, note} */
+async function pick(manager, flow, adv, ctx) {
+  const clone = manager.clone;
+  const lvl = flow.level;
+  switch (adv.constructor.typeName) {
+    case "ItemChoice": {
+      const count = adv.configuration.choices[lvl]?.count ?? 0;
+      const have = chosenSet(adv);
+      let pool = adv.configuration.pool ?? [];
+      const out = {};
+      if (isHakiItemChoiceConfig(adv.configuration)) {
+        const owned = new Set([...collectOwnedHakiSlugs(clone), ...collectPriorHakiSlugsForChoiceLevel(manager, lvl)]);
+        const valid = getAvailableHakiUuids(owned);
+        pool = filterHakiPoolForAdvancementStep(pool, manager, lvl).filter((e) => valid.has(e.uuid));
+        const want = ctx.haki?.[lvl];
+        const preferred = want ? pool.filter((e) => hakiSlugFromUuid(e.uuid)?.startsWith(`${want}-`)) : [];
+        pool = [...preferred, ...pool.filter((e) => !preferred.includes(e))];
+      }
+      for (const p of pool) {
+        if (Object.keys(out).length >= count) break;
+        if (have.has(p.uuid)) continue;
+        const doc = await fromUuid(p.uuid);
+        if (!doc) continue;
+        if (doc.type === "feat" && unmetPrerequisites(doc, clone, { level: clone.system.details?.level }).length) continue;
+        out[p.uuid] = true;
+      }
+      if (Object.keys(out).length < count) ctx.note(`L${lvl} ${adv.title}: only ${Object.keys(out).length}/${count} choices available`);
+      return out;
+    }
+    case "ItemGrant":
+      return Object.fromEntries(adv.configuration.items.map((i) => [i.uuid, true]));
+    case "Trait": {
+      const chosen = [];
+      for (const grp of adv.configuration.choices) {
+        const avail = await adv.availableChoices(new Set(chosen));
+        const leaves = [];
+        const walk = (n) => {
+          for (const [k, v] of Object.entries(n ?? {})) {
+            if (v?.children) walk(v.children);
+            else if (!v?.disabled) leaves.push(k);
+          }
+        };
+        const sets = avail?.choices ?? avail;
+        walk(sets?.choices ?? sets);
+        const take = leaves.filter((k) => !chosen.includes(k) && ![...adv.configuration.grants].includes(k)).slice(0, grp.count);
+        if (take.length < grp.count) ctx.note(`L${lvl} ${adv.title}: trait choice ${take.length}/${grp.count}`);
+        chosen.push(...take);
+      }
+      return { chosen: [...adv.configuration.grants, ...chosen] };
+    }
+    case "AbilityScoreImprovement": {
+      const c = adv.configuration;
+      const a = {};
+      let left = c.points;
+      const order = [...ABILITIES].sort((x, y) => (clone.system.abilities[y]?.value ?? 0) - (clone.system.abilities[x]?.value ?? 0));
+      for (const k of order) {
+        if (left <= 0) break;
+        if (c.locked?.has?.(k)) continue;
+        const give = Math.min(left, c.cap ?? left, 20 - (clone.system.abilities[k]?.value ?? 0));
+        if (give > 0) { a[k] = give; left -= give; }
+      }
+      return { type: "asi", assignments: a };
+    }
+    case "Subclass":
+      return ctx.subUuid ? { uuid: ctx.subUuid } : null;
+    case "HitPoints": {
+      if (lvl === 1 && clone.itemTypes.class.length <= 1) return { [lvl]: "max" };
+      if (ctx.hpMode === "roll") {
+        // Book ruling "Rolling Hit Points": roll, but a roll below the average may be replaced by the average.
+        const die = adv.hitDieValue;
+        const roll = await new Roll(`1d${die}`).evaluate();
+        return { [lvl]: Math.max(roll.total, die / 2 + 1) };
+      }
+      return { [lvl]: "avg" };
+    }
+    default:
+      return flow.getAutomaticApplicationValue();
+  }
+}
+
+/** Applies every step of the manager on its clone. ctx: {level, subUuid, haki, hpMode, note} */
+export async function applyAllSteps(manager, ctx) {
+  const AM = dnd5e.applications.advancement.AdvancementManager;
+  const clone = manager.clone;
+  let guard = 0;
+  for (let i = 0; i < manager.steps.length; i++) {
+    if (++guard > 3000) { ctx.note("step guard hit"); break; }
+    const step = manager.steps[i];
+    try {
+      if (step.flow && step.type === "forward") {
+        const adv = step.flow.advancement;
+        let d = step.flow.getAutomaticApplicationValue();
+        if (d === false) d = await pick(manager, step.flow, adv, ctx);
+        if (d === null) { /* nothing requested (e.g. subclass not due) */ }
+        else if (d === false || d === undefined) ctx.note(`L${step.flow.level} ${adv.title}: nothing to apply`);
+        else {
+          const before = new Set(clone.items.map((x) => x.id));
+          await adv.apply(step.flow.level, d);
+          for (const it of clone.items) {
+            if (before.has(it.id) || !it.hasAdvancement) continue;
+            const cls = clone.items.find((x) => x.type === "class");
+            const extra = [];
+            for (let l = 0; l <= ctx.level; l++) extra.push(...AM.flowsForLevel(it, l));
+            manager.steps.splice(i + 1, 0, ...extra.map((flow) => ({ type: "forward", flow, synthetic: true, class: { item: cls, level: Math.max(flow.level, 1) } })));
+          }
+        }
+      }
+      if (step.class && !step.synthetic) step.class.item.updateSource({ "system.levels": step.class.level });
+      clone.reset();
+    } catch (e) {
+      ctx.note(`step ${i} ${step.flow?.advancement?.title ?? ""}: ${String(e.message).slice(0, 140)}`);
+    }
+  }
+  clone.reset();
+}
+
+/** Writes the manager's clone back onto the real actor (what the manager's own Complete button does, without the UI). */
+export async function commitManager(manager) {
+  const actor = manager.actor;
+  const clone = manager.clone;
+  clone.reset();
+  const src = clone.toObject();
+  const cur = actor.toObject();
+  const sysDiff = foundry.utils.diffObject(cur.system, src.system);
+  if (!foundry.utils.isEmpty(sysDiff)) await actor.update({ system: sysDiff }, { isAdvancement: true });
+
+  const have = new Set(actor.items.map((i) => i.id));
+  const toCreate = clone.items.filter((i) => !have.has(i.id)).map((i) => i.toObject());
+  const toDelete = actor.items.filter((i) => !clone.items.has(i.id)).map((i) => i.id);
+  const toUpdate = [];
+  for (const ci of clone.items) {
+    const ai = actor.items.get(ci.id);
+    if (!ai) continue;
+    const diff = foundry.utils.diffObject(ai.toObject(), ci.toObject());
+    if (!foundry.utils.isEmpty(diff)) toUpdate.push({ ...diff, _id: ci.id });
+  }
+  if (toCreate.length) await actor.createEmbeddedDocuments("Item", toCreate, { keepId: true, isAdvancement: true });
+  if (toUpdate.length) await actor.updateEmbeddedDocuments("Item", toUpdate, { isAdvancement: true });
+  if (toDelete.length) await actor.deleteEmbeddedDocuments("Item", toDelete, { isAdvancement: true });
+}

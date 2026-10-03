@@ -4,6 +4,7 @@ import {
   filterHakiPoolForAdvancementStep,
   getAvailableHakiUuids,
   hakiSlugFromItem,
+  hakiSlugFromUuid,
   isHakiItemChoiceConfig,
 } from "./haki-advancement-lib.mjs";
 
@@ -11,6 +12,12 @@ const ORIGINAL_POOL_KEY = Symbol.for(`${MODULE_ID}.hakiOriginalPool`);
 
 /** @type {object|null} */
 let activeAdvancementManager = null;
+
+/** Character-creator preselection: choice level -> branch. Narrows the pool to that branch's next tier when it is valid. */
+let hakiPreselection = {};
+export function setHakiPreselection(byLevel) {
+  hakiPreselection = byLevel ?? {};
+}
 
 /**
  * @param {object} manager dnd5e AdvancementManager
@@ -29,6 +36,12 @@ function filterCurrentHakiStepPool(manager) {
     manager,
     step.advancement.level,
   );
+
+  const want = hakiPreselection[step.advancement.level];
+  if (want) {
+    const narrowed = config.pool.filter((e) => hakiSlugFromUuid(e.uuid)?.startsWith(`${want}-`));
+    if (narrowed.length) config.pool = narrowed;
+  }
 }
 
 /**

@@ -21,13 +21,15 @@ const run = async (p) => {
   const out = { cls: p.cls, sub: p.sub, levels: [], fails: [] };
   const note = (m) => out.fails.push(m);
   const cls = by("classes", p.clsId), sub = p.subId ? by("subclasses", p.subId) : null;
-  let actor = await Actor.create({ name: `[LU] ${p.cls}${p.sub ? ` / ${p.sub}` : ""}`, type: "character", system: { abilities: Object.fromEntries(["str", "dex", "con", "int", "wis", "cha"].map((k) => [k, { value: 14 }])) } });
+  let actor = await Actor.create({ name: `[LU] ${p.cls}${p.sub ? ` / ${p.sub}` : ""}`, type: "character", system: { abilities: Object.fromEntries(["str", "dex", "con", "int", "wis", "cha"].map((k) => [k, { value: 14 }])), skills: { slt: { value: 1 }, rel: { value: 1 }, sur: { value: 1 }, ste: { value: 1 } } } });
+  // a real character arrives with background proficiencies; expertise features (Bard level 10) need skills to pick from
   const persist = async (clone) => { const d = clone.toObject(); delete d._id; delete d._stats; d.name = actor.name; const n = await Actor.create(d, { keepId: false }); await actor.delete(); actor = n; };
   try {
     // level 1
     const data = cls.toObject(); data.system.levels = 1;
     let mgr = AM.forNewItem(actor, data, { automaticApplication: true });
-    await __op5eRun(mgr, { level: 1, sub: null, note, granted: [] }); mgr.clone.reset(); await persist(mgr.clone);
+    const subLevel = Array.from(cls.system.advancement ?? []).find((a) => a.type === "Subclass")?.level;   // some classes (Savant) choose it at level 1
+    await __op5eRun(mgr, { level: 1, sub: subLevel === 1 ? sub : null, note, granted: [] }); mgr.clone.reset(); await persist(mgr.clone);
     let prevHp = actor.system.attributes.hp.max, prevFeats = new Set(actor.items.filter((i) => i.type === "feat").map((i) => i.name));
     for (let lvl = 2; lvl <= 20; lvl++) {
       const c = actor.items.find((i) => i.type === "class");

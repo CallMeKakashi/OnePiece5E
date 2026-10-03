@@ -1,5 +1,6 @@
 import { registerSettings } from "./settings.mjs";
-import { registerPrerequisites } from "./prerequisites.mjs";
+import { registerPrerequisites, unmetPrerequisites } from "./prerequisites.mjs";
+import { buildProspectiveActor, createFromDraft } from "./wizard/create.mjs";
 import { OP5eCharacterCreatorWizard } from "./wizard/WizardApp.mjs";
 
 Hooks.once("init", () => {
@@ -15,6 +16,10 @@ Hooks.once("ready", () => {
   game.op5eCharacterCreator = {
     WizardApp: OP5eCharacterCreatorWizard,
     launch: () => OP5eCharacterCreatorWizard.launch(),
+    /** createFromDraft(draft, {auto, hpMode, notes}) — headless-capable; see wizard/create.mjs. */
+    createFromDraft: (draft, opts) => createFromDraft(draft, opts),
+    unmetPrerequisites,
+    buildProspectiveActor,
   };
 });
 
