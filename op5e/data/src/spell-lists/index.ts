@@ -45,7 +45,7 @@ export default spellListData.map((l) => {
   const entryId = generateId(`spell-list/${l.identifier}`), pageId = generateId(`spell-list/${l.identifier}/page`);
   return {
     _id: entryId, name: l.name, folder: null, sort: 0, ownership: { default: 0 },
-    flags: { op5e: { spellListPage: compendiumUuid("spell-lists" as never, entryId).replace(/^Compendium\.op5e\.spell-lists\./, `Compendium.op5e.spell-lists.JournalEntry.`) + `.JournalEntryPage.${pageId}`, source: l.file, automation: "NEEDS_REVIEW" } },
+    flags: { op5e: { spellListPage: compendiumUuid("spell-lists" as never, entryId).replace(/^Compendium\.op5e\.spell-lists\./, `Compendium.op5e.spell-lists.JournalEntry.`) + `.JournalEntryPage.${pageId}`, source: l.file, automation: "NEEDS_REVIEW", note: "extracted from scrambled two-column PDF text by name matching; may be incomplete (Bard has no 6th-8th level creations)" } },
     pages: [{
       _id: pageId, name: l.name, type: "spells", sort: 0, flags: {},
       system: { type: "class", identifier: l.identifier, grouping: "level", description: { value: "<p><em>Auto-extracted from the sourcebook's two-column PDF text; may be incomplete. Verify against the printed list.</em></p>" }, spells: l.creationIds.map((id) => compendiumUuid("creations", id)), unlinkedSpells: [] },

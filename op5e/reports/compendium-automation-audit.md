@@ -2,17 +2,17 @@
 
 Generated from every source pack after applying generated dnd5e activities.
 
-Total compendium items: 1974
+Total compendium items: 1977
 Automation-ready items: 718
 Needs automation: 118
-Reference-only items: 1138
+Reference-only items: 1141
 
 ## Pack Summary
 
 | Pack | Total | Ready | Needs Automation | Reference |
 |---|---:|---:|---:|---:|
 | backgrounds | 56 | 0 | 0 | 56 |
-| class-features | 746 | 175 | 30 | 541 |
+| class-features | 749 | 175 | 30 | 544 |
 | classes | 9 | 0 | 0 | 9 |
 | creations | 426 | 344 | 82 | 0 |
 | feats | 201 | 81 | 6 | 114 |

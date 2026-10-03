@@ -26,13 +26,13 @@ const toolKey = (raw: string): string | null => {
 
 export interface FeatAutomation { advancement: AdvancementEntry[]; effects: ReturnType<typeof createDAEEffect>[] }
 
-export function featAutomation(featId: string, descHtml: string, log: (m: string) => void = () => {}): FeatAutomation {
+export function featAutomation(featId: string, descHtml: string, log: (m: string) => void = () => {}, opts: { proficienciesOnly?: boolean } = {}): FeatAutomation {
   const text = strip(descHtml);
   const advancement: AdvancementEntry[] = [], effects: FeatAutomation["effects"] = [];
   const path = `feat/${featId}`;
 
   // 1. Ability score increase: "Increase your A (or B, or C) score by 1"
-  const asi = text.match(/Increase (?:your|one) ([^.]*?) scores? (?:of your choice )?by (\d+)/i);
+  const asi = opts.proficienciesOnly ? null : text.match(/Increase (?:your|one) ([^.]*?) scores? (?:of your choice )?by (\d+)/i);
   if (asi) {
     const named = [...asi[1].matchAll(/Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma/gi)].map((m) => ABILITIES[m[0].toLowerCase()]);
     const amount = Number(asi[2]);
@@ -54,8 +54,11 @@ export function featAutomation(featId: string, descHtml: string, log: (m: string
   // 2. Proficiencies (unconditional, explicitly named)
   const grants: string[] = [], choicePools: { count: number; pool: string[] }[] = [];
   let mode: "default" | "upgrade" = "default";
-  for (const m of text.matchAll(/You gain proficiency (?:in|with) ([^.]*)\./gi)) {
-    const phrase = m[1].replace(/, or expertise if you were already proficient/i, "").trim();
+  for (const m of text.matchAll(/You (?:gain|have) proficiency (?:in|with) ([^.]*)\.|You are proficient (?:in|with) ([^.]*)\./gi)) {
+    const phrase = (m[1] ?? m[2]).replace(/, or expertise if you were already proficient/i, "").trim();
+    // plain skill lists: "the Deception and Insight skills", "Acrobatics and Stealth"
+    const names = phrase.replace(/^the /i, "").replace(/ skills?$/i, "").split(/,\s*(?:and\s+)?|\s+and\s+/i).map((n) => n.trim().toLowerCase().replace(/\s+checks$/, "").replace(/^[a-z]+ \(([a-z ]+)\)$/, "$1"));
+    if (names.length > 1 && names.every((n) => SKILLS[n])) { grants.push(...names.map((n) => `skills:${SKILLS[n]}`)); continue; }
     // "or expertise if already proficient" stays manual: dnd5e upgrade mode grants expertise outright for tools the actor lacks
     let hit = phrase.match(/^the ([A-Za-z ]+) skill$/i)?.[1];
     if (hit && SKILLS[hit.toLowerCase()]) { grants.push(`skills:${SKILLS[hit.toLowerCase()]}`); continue; }
@@ -68,6 +71,15 @@ export function featAutomation(featId: string, descHtml: string, log: (m: string
     if (n) {
       const pool = [...(/skill/i.test(phrase) ? ["skills:*"] : []), ...(/tool/i.test(phrase) ? ["tool:*"] : [])];
       choicePools.push({ count: NUM[n[1].toLowerCase()], pool }); continue;
+    }
+    const fromList = phrase.match(/^(one|two|three|\d) of the following skills(?: of your choice)?:\s*(.+)$/i);
+    if (fromList) {
+      const pool = fromList[2].split(/,\s*(?:or\s+|and\s+)?|\s+or\s+/i).map((n) => SKILLS[n.trim().toLowerCase()]).filter(Boolean).map((k) => `skills:${k}`);
+      if (pool.length >= NUM[fromList[1].toLowerCase()]) { choicePools.push({ count: NUM[fromList[1].toLowerCase()], pool }); continue; }
+    }
+    const skillAndTool = phrase.match(/^([A-Za-z ]+?) and one tool of your choice$/i);
+    if (skillAndTool && SKILLS[skillAndTool[1].toLowerCase()]) {
+      grants.push(`skills:${SKILLS[skillAndTool[1].toLowerCase()]}`); choicePools.push({ count: 1, pool: ["tool:*"] }); continue;
     }
     if (/^all Vehicles/i.test(phrase)) { grants.push("tool:land", "tool:water", "tool:air"); continue; }
     const tool = toolKey(phrase);

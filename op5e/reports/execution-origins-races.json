@@ -45,9 +45,9 @@
    "climb": 0,
    "darkvision": 60,
    "abilities": {
-    "str": 11,
+    "str": 13,
     "dex": 10,
-    "con": 11,
+    "con": 10,
     "int": 10,
     "wis": 10,
     "cha": 10
@@ -60,7 +60,7 @@
  {
   "pack": "races",
   "name": "Fishman",
-  "steps": 6,
+  "steps": 9,
   "issues": [],
   "granted": [
    "Aquatic Adaption",
@@ -91,7 +91,7 @@
    "classLevels": 1,
    "hpMax": 11,
    "saves": "",
-   "skills": 0,
+   "skills": 3,
    "features": 12,
    "size": "sm",
    "walk": 30,
@@ -100,9 +100,9 @@
    "climb": 0,
    "darkvision": 60,
    "abilities": {
-    "str": 11,
+    "str": 13,
     "dex": 10,
-    "con": 11,
+    "con": 10,
     "int": 10,
     "wis": 10,
     "cha": 10
@@ -150,9 +150,9 @@
    "climb": 0,
    "darkvision": 60,
    "abilities": {
-    "str": 11,
+    "str": 13,
     "dex": 10,
-    "con": 11,
+    "con": 10,
     "int": 10,
     "wis": 10,
     "cha": 10
@@ -165,7 +165,7 @@
  {
   "pack": "races",
   "name": "Human",
-  "steps": 9,
+  "steps": 11,
   "issues": [],
   "granted": [
    "Human Determination",
@@ -200,7 +200,7 @@
    "classLevels": 1,
    "hpMax": 10,
    "saves": "",
-   "skills": 0,
+   "skills": 3,
    "features": 16,
    "size": "sm",
    "walk": 35,
@@ -209,9 +209,9 @@
    "climb": 0,
    "darkvision": 0,
    "abilities": {
-    "str": 11,
+    "str": 13,
     "dex": 10,
-    "con": 11,
+    "con": 10,
     "int": 10,
     "wis": 10,
     "cha": 10
@@ -224,7 +224,7 @@
  {
   "pack": "races",
   "name": "Sky Islander",
-  "steps": 6,
+  "steps": 9,
   "issues": [],
   "granted": [
    "Aircraft Expertise",
@@ -254,7 +254,7 @@
    "classLevels": 1,
    "hpMax": 10,
    "saves": "",
-   "skills": 0,
+   "skills": 3,
    "features": 11,
    "size": "sm",
    "walk": 35,
@@ -263,9 +263,9 @@
    "climb": 0,
    "darkvision": 0,
    "abilities": {
-    "str": 11,
+    "str": 13,
     "dex": 10,
-    "con": 11,
+    "con": 10,
     "int": 10,
     "wis": 10,
     "cha": 10
@@ -278,7 +278,7 @@
  {
   "pack": "races",
   "name": "Giant",
-  "steps": 7,
+  "steps": 9,
   "issues": [],
   "granted": [
    "Thick Skin",
@@ -313,7 +313,7 @@
    "classLevels": 1,
    "hpMax": 10,
    "saves": "",
-   "skills": 0,
+   "skills": 3,
    "features": 16,
    "size": "huge",
    "walk": 40,
@@ -322,9 +322,9 @@
    "climb": 0,
    "darkvision": 60,
    "abilities": {
-    "str": 11,
+    "str": 14,
     "dex": 10,
-    "con": 11,
+    "con": 10,
     "int": 10,
     "wis": 10,
     "cha": 10
@@ -337,7 +337,7 @@
  {
   "pack": "races",
   "name": "Mink",
-  "steps": 5,
+  "steps": 7,
   "issues": [],
   "granted": [
    "Darkvision",
@@ -364,7 +364,7 @@
    "classLevels": 1,
    "hpMax": 10,
    "saves": "",
-   "skills": 0,
+   "skills": 4,
    "features": 8,
    "size": "sm",
    "walk": 35,
@@ -373,9 +373,9 @@
    "climb": 0,
    "darkvision": 60,
    "abilities": {
-    "str": 11,
+    "str": 13,
     "dex": 10,
-    "con": 11,
+    "con": 10,
     "int": 10,
     "wis": 10,
     "cha": 10
@@ -388,7 +388,7 @@
  {
   "pack": "races",
   "name": "Dwarves",
-  "steps": 3,
+  "steps": 4,
   "issues": [],
   "granted": [
    "Quick-Footed",
@@ -414,7 +414,7 @@
    "classLevels": 1,
    "hpMax": 10,
    "saves": "",
-   "skills": 0,
+   "skills": 2,
    "features": 7,
    "size": "tiny",
    "walk": 30,
@@ -423,9 +423,9 @@
    "climb": 30,
    "darkvision": 0,
    "abilities": {
-    "str": 11,
+    "str": 13,
     "dex": 10,
-    "con": 11,
+    "con": 10,
     "int": 10,
     "wis": 10,
     "cha": 10
@@ -474,9 +474,9 @@
    "climb": 0,
    "darkvision": 60,
    "abilities": {
-    "str": 11,
+    "str": 13,
     "dex": 10,
-    "con": 11,
+    "con": 10,
     "int": 10,
     "wis": 10,
     "cha": 10

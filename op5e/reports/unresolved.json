@@ -52,6 +52,17 @@
   ]
  },
  {
+  "name": "Savant Creations",
+  "pack": "spell-lists",
+  "problem": "extracted from scrambled two-column PDF text by name matching; may be incomplete (Bard has no 6th-8th level creations)",
+  "automation": "blocked",
+  "names": [
+   "Savant Creations",
+   "Bard Creations",
+   "Medic Creations"
+  ]
+ },
+ {
   "name": "Ship stat rows",
   "pack": "ships",
   "problem": "AC/HP/slots table in Cannons.md has no row names; aligned to ship table by order (8 rows = 8 ships, values plausible)",
@@ -103,6 +114,69 @@
   "automation": "not generated",
   "names": [
    "Creation creature sheets (Appendix A Actions)"
+  ]
+ },
+ {
+  "name": "Gadgeteer and Marksman creation lists",
+  "pack": "spell-lists",
+  "problem": "Creations.md and Creations 2.md are unlabelled two-column PDF fragments; cannot tell which class each belongs to. Bard list also looks incomplete (no 6th-8th level)",
+  "automation": "blocked",
+  "names": [
+   "Gadgeteer and Marksman creation lists"
+  ]
+ },
+ {
+  "name": "Backgrounds: unmapped tools / feats",
+  "pack": "backgrounds",
+  "problem": "Fisherman (Fishing Tackle), Scientist and Slave (generic tool phrases) tool proficiencies, and Swordsman/Sniper \"weapon mastery feat\" choices are left as text",
+  "automation": "partial",
+  "names": [
+   "Backgrounds: unmapped tools / feats"
+  ]
+ },
+ {
+  "name": "Feats: conditional or choice-heavy wording",
+  "pack": "feats",
+  "problem": "Only unconditional sentences are wired (ability increase, named skill/tool/save proficiency, +5 initiative, Tough HP, passive bonuses). Expertise-if-already-proficient, speed/AC/resistance with conditions, and weapon/firearm proficiencies stay manual",
+  "automation": "partial",
+  "names": [
+   "Feats: conditional or choice-heavy wording"
+  ]
+ },
+ {
+  "name": "Multi-option class features",
+  "pack": "class-features",
+  "problem": "30 features (Channel Conviction options, Area Strike, Six King Gun, ...) describe several conditional options that one activity cannot represent",
+  "automation": "manual",
+  "names": [
+   "Multi-option class features"
+  ]
+ },
+ {
+  "name": "Creations without single damage roll",
+  "pack": "creations",
+  "problem": "64 of 82 flagged creations are summons, buffs or multi-effect spells; only 18 have an unambiguous save or attack with one damage expression",
+  "automation": "partial",
+  "names": [
+   "Creations without single damage roll"
+  ]
+ },
+ {
+  "name": "Racial traits: choice-heavy wording",
+  "pack": "racial-features",
+  "problem": "Resourcefulness (one skill or weapon) and Aircraft Expertise (dial kits, expertise with sky vehicles) stay text; named skill proficiencies in the other traits are wired",
+  "automation": "partial",
+  "names": [
+   "Racial traits: choice-heavy wording"
+  ]
+ },
+ {
+  "name": "Armor stats",
+  "pack": "items",
+  "problem": "Sourcebook gives no armor table; armor values follow 5e SRD and could not be checked against the book",
+  "automation": "unverified",
+  "names": [
+   "Armor stats"
   ]
  },
  {

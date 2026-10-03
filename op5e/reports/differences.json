@@ -142,9 +142,11 @@
  {
   "name": "Medic Creations",
   "target": "creations",
-  "state": "MISSING",
+  "state": "EXACT",
   "file": "Sourcebook/Appendix A Creations/Creation Lists/Medic Creations.md",
-  "matches": []
+  "matches": [
+   "spell-lists:STATIC_OK"
+  ]
  },
  {
   "name": "Savant Creations Lesser Restoration",
@@ -1618,6 +1620,8 @@
   "file": "Sourcebook/Chapter 2 Classes/Class Features/Creativity (Spellcasting).md",
   "matches": [
    "class-features:STATIC_OK",
+   "class-features:STATIC_OK",
+   "class-features:STATIC_OK",
    "class-features:STATIC_OK"
   ]
  },
@@ -1634,6 +1638,7 @@
   "state": "EXACT",
   "file": "Sourcebook/Chapter 2 Classes/Class Features/Creativity.md",
   "matches": [
+   "class-features:STATIC_OK",
    "class-features:STATIC_OK",
    "class-features:STATIC_OK"
   ]
@@ -6284,9 +6289,11 @@
  {
   "name": "Soku Soku no Mi",
   "target": "items",
-  "state": "MISSING",
+  "state": "EXACT",
   "file": "Devil Fruits/Soku Soku no Mi.md",
-  "matches": []
+  "matches": [
+   "devil-fruits:STATIC_OK"
+  ]
  },
  {
   "name": "Suraimu Suraimu no Mi",
@@ -6336,9 +6343,11 @@
  {
   "name": "Unknown Devil Fruit — Party 1",
   "target": "items",
-  "state": "MISSING",
+  "state": "EXACT",
   "file": "Devil Fruits/Unknown Devil Fruit — Party 1.md",
-  "matches": []
+  "matches": [
+   "devil-fruits:STATIC_OK"
+  ]
  },
  {
   "name": "Voice Voice Fruit",

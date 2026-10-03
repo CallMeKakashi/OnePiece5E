@@ -19,6 +19,8 @@
     "sweep": "node dev/harness/sweep.mjs",
     "deploy:foundry": "node scripts/deploy-foundry.mjs",
     "validate": "node scripts/validate-packs.mjs",
+    "gates": "npm run build && npm run validate && node scripts/regression.mjs && npm test",
+    "test:foundry": "node dev/harness/ids.mjs && node dev/harness/monsters.mjs && node dev/harness/ships.mjs && node dev/harness/feats.mjs && node dev/harness/effects.mjs && node dev/harness/items.mjs && node dev/harness/spell-lists.mjs && node dev/harness/origins.mjs && node dev/harness/classes.mjs --level=20 && node dev/harness/classes.mjs --subclasses --level=20",
     "audit:sourcebook": "node node_modules/tsx/dist/cli.mjs scripts/audit-compendium-sourcebook.ts",
     "audit:automation": "node node_modules/tsx/dist/cli.mjs scripts/audit-compendium-automation.ts",
     "actor:catalog": "node node_modules/tsx/dist/cli.mjs dev/generate-foundry-actor/list-catalog.ts",
