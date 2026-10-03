@@ -51,6 +51,15 @@ describe("background text -> advancement", () => {
     expect(r[0].configuration.grants).toEqual(["skills:per"]);
     expect(r[0].configuration.choices[0].count).toBe(2);
   });
+  it("maps homebrew tools, generic tool phrases and weapon-mastery feat pools", () => {
+    const tools = (t) => backgroundOriginAdvancement("t", `<p><strong>Tool Proficiencies:</strong> ${t}</p>`).find((a) => a.title === "tools").configuration;
+    expect(tools("Fishing Tackle").grants).toEqual(["tool:fishing"]);
+    expect(tools("Your choice of 2 tool kits").choices[0]).toMatchObject({ count: 2 });
+    expect(tools("1 tool of your choosing").choices[0].pool).toContain("tool:thief");
+    const feat = (t) => backgroundOriginAdvancement("t", `<h4>Feature: X</h4><p>You gain your choice of ${t}.</p>`).find((a) => a.type === "ItemChoice");
+    expect(Object.keys(feat("a weapon mastery feat with a simple or martial ranged weapon").configuration.pool)).toHaveLength(6);
+    expect(feat("a weapon mastery feat with a simple or martial melee weapon that deals piercing or slashing damage").configuration.pool).toHaveLength(12);
+  });
   it("uses dnd5e tool keys, never invented prefixes", () => {
     const a = backgroundOriginAdvancement("z", "<p><strong>Tool Proficiencies:</strong> Disguise kit, Gaming set</p>");
     const keys = [...a[0].configuration.grants, ...a[0].configuration.choices.flatMap((c) => c.pool)];

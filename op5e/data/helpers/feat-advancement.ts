@@ -13,13 +13,13 @@ const TOOL_STEM: Record<string, string> = {
   alchemist: "alchemist", brewer: "brewer", calligrapher: "calligrapher", carpenter: "carpenter", cartographer: "cartographer",
   cobbler: "cobbler", cook: "cook", glassblower: "glassblower", jeweler: "jeweler", leatherworker: "leatherworker", mason: "mason",
   painter: "painter", potter: "potter", smith: "smith", tinker: "tinker", weaver: "weaver", woodcarver: "woodcarver",
-  disguise: "disg", forgery: "forg", herbalism: "herb", navigator: "navg", poisoner: "pois", thieves: "thief",
+  disguise: "disg", dial: "dial", fishing: "fishing", appraiser: "appraiser", forgery: "forg", herbalism: "herb", navigator: "navg", poisoner: "pois", thieves: "thief",
 };
 const NUM: Record<string, number> = { one: 1, two: 2, three: 3, "1": 1, "2": 2, "3": 3 };
 
 const strip = (html: string) => html.replace(/<[^>]+>/g, " ").replace(/&[a-z]+;/g, " ").replace(/\s+/g, " ").trim();
 const toolKey = (raw: string): string | null => {
-  const stem = raw.toLowerCase().replace(/[’'`]/g, "").replace(/\s+(tools?|supplies|utensils|kit)$/, "").replace(/s$/, "").trim();
+  const stem = raw.toLowerCase().replace(/[’'`]/g, "").replace(/\s+(tools?|supplies|utensils|kit|tackle)$/, "").replace(/s$/, "").trim();
   const hit = TOOL_STEM[stem] ?? TOOL_STEM[stem.replace(/s$/, "")];
   return hit ? `tool:${hit}` : null;
 };

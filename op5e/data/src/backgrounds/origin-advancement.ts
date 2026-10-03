@@ -11,7 +11,7 @@ const SKILL: Record<string, string> = {
 };
 const NUM: Record<string, number> = { one: 1, two: 2, three: 3, four: 4, "1": 1, "2": 2, "3": 3, "4": 4 };
 const TOOL: Record<string, string> = {
-  "disguise kit": "tool:disg", "thieves' tools": "tool:thief", "herbalism kit": "tool:herb", "forgery kit": "tool:forg",
+  "disguise kit": "tool:disg", "fishing tackle": "tool:fishing", "dial kit": "tool:dial", "appraiser's tools": "tool:appraiser", "thieves' tools": "tool:thief", "herbalism kit": "tool:herb", "forgery kit": "tool:forg",
   "poisoner's kit": "tool:pois", "navigator's tools": "tool:navg",
   "alchemist's supplies": "tool:alchemist", "brewer's supplies": "tool:brewer", "calligrapher's supplies": "tool:calligrapher",
   "carpenter's tools": "tool:carpenter", "cartographer's tools": "tool:cartographer", "cobbler's tools": "tool:cobbler",
@@ -27,8 +27,15 @@ const genericTool = (p: string): { count: number; pool: string[] } | null => {
   if (/gaming set/.test(t) && !/ or /.test(t)) return { count: n, pool: ["tool:game:*"] };
   if (/musical instrument|^one instrument/.test(t)) return { count: n, pool: ["tool:music:*"] };
   if (/artisan/.test(t)) return { count: n, pool: ["tool:art:*"] };
+  // "2 tool kits": the kits in this setting (dial, disguise, forgery, herbalism, poisoner's)
+  if (/tool kits?/.test(t)) return { count: n, pool: ["tool:dial", "tool:disg", "tool:forg", "tool:herb", "tool:pois"] };
+  // "1 tool of your choosing": any tool proficiency
+  if (/\btool of your choos|set of tools of your choice/.test(t)) return { count: n, pool: ["tool:art:*", "tool:game:*", "tool:music:*", "tool:dial", "tool:disg", "tool:forg", "tool:herb", "tool:navg", "tool:pois", "tool:thief", "tool:appraiser", "tool:fishing"] };
   return null;
 };
+// Weapon feats by the weapon each one covers (from the feat text): ranged simple/martial weapons, and melee ones dealing piercing or slashing.
+const RANGED_WEAPON_FEATS = ["Bow Mastery", "Dart Master", "Handgun Master", "Rifle Master", "Shotgun Master", "Sling Master"];
+const MELEE_PIERCING_SLASHING_FEATS = ["Rapier Mastery", "Longsword Master", "Katana Master", "Axe Mastery", "Scimitar Master", "Short Blade Master", "Spear Mastery", "Warpick Mastery", "Whip Master", "Cutlass Mastery", "Lance Master", "Polearm Master"];
 const ALIAS: Record<string, string> = { "warpick master": "warpick mastery" };
 const strip = (html: string) => html.replace(/<[^>]+>/g, " ").replace(/&[a-z]+;/g, " ").replace(/\s+/g, " ").trim();
 const names = (s: string) => s.split(/,|\band\b|\bor\b/i).map((x) => x.trim().toLowerCase().replace(/\.$/, "")).filter(Boolean);
@@ -58,7 +65,7 @@ export function backgroundOriginAdvancement(backgroundId: string, desc: string, 
   const toolText = strip(desc.match(/Tool Proficiencies:<\/strong>\s*([^<]*)/)?.[1] ?? "").replace(/\.$/, "")
     .replace(/Woodcarver's and Carpenter's tools/i, "Woodcarver's tools, Carpenter's tools")
     .replace(/Calligrapher's Supplies and one musical instrument of your choice/i, "Calligrapher's Supplies, one musical instrument");
-  if (toolText) {
+  if (toolText && !/^none$/i.test(toolText)) {
     const parts = toolText.split(/,|\band\b/i).map((p) => p.trim()).filter(Boolean);
     const grants: string[] = [], choices: { count: number; pool: string[] }[] = []; let ok = true;
     for (const p of parts) {
@@ -75,7 +82,13 @@ export function backgroundOriginAdvancement(backgroundId: string, desc: string, 
   // feat: "choice of the X Feat or the Y Feat" -> ItemChoice over those feats in the feats pack
   const featText = strip(desc.match(/<h4>Feature:[^<]*<\/h4>\s*<p>([^<]*)/)?.[1] ?? "");
   const m = featText.match(/choice of (?:a |an |the )?(.+?)(?:\.|$)/i);
-  if (m && /feat/i.test(m[1])) {
+  // "a weapon mastery feat with a ... weapon": pool of the matching weapon feats (weapon types per each feat's own text)
+  if (m && /weapon mastery feat/i.test(m[1])) {
+    const names = /ranged/i.test(m[1]) ? RANGED_WEAPON_FEATS : /melee/i.test(m[1]) && /piercing or slashing/i.test(m[1]) ? MELEE_PIERCING_SLASHING_FEATS : [];
+    const uuids = names.map((n) => feats.find((f) => f.name === n)).filter(Boolean).map((f) => compendiumUuid("feats", f!._id));
+    if (uuids.length === names.length && uuids.length) out.push(createItemChoiceRestricted(id, 0, uuids, { count: 1, label: "feat" }));
+    else log(`${backgroundId}: weapon mastery feat pool not resolved`);
+  } else if (m && /feat/i.test(m[1])) {
     const wanted = m[1].split(/\s+or\s+|,/i).map((n) => n.replace(/^(?:the\s+)/i, "").replace(/\s*feat$/i, "").trim().toLowerCase()).map((n) => ALIAS[n] ?? n).filter(Boolean);
     const uuids = wanted.map((n) => feats.find((f) => f.name.toLowerCase() === n || f.name.toLowerCase() === `${n} feat`)).filter(Boolean)
       .map((f) => compendiumUuid("feats", f!._id));

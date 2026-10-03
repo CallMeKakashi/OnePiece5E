@@ -46,6 +46,14 @@ Hooks.once("init", () => {
     applyBerriesEncumbrance(true);
   }
 
+  // Homebrew tools: register as dnd5e tool ids so "tool:dial" etc. are valid proficiency keys.
+  CONFIG.DND5E.tools ??= {};
+  Object.assign(CONFIG.DND5E.tools, {
+    dial: { ability: "int", id: "Compendium.op5e.items.Item.fb24d51356cb6401" },
+    appraiser: { ability: "int", id: "Compendium.op5e.items.Item.df75cb11f0029ff4" },
+    fishing: { ability: "wis", id: "Compendium.op5e.items.Item.859c52e5b4fa8cef" },
+  });
+
   CONFIG.DND5E.sourceBooks ??= {};
   CONFIG.DND5E.sourceBooks.OP5e = {
     label: "One Piece 5e",

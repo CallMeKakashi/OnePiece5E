@@ -43,8 +43,10 @@ export const tools: FoundryItem[] = [
   // ═══ Artisan's Tools ═══
   tool("alchemists-supplies", "Alchemist's Supplies", "art", 500000, 8, "int",
     { base: "alchemist" }),
+  tool("fishing-tackle", "Fishing Tackle", "art", 10000, 4, "wis",
+    { base: "fishing", desc: "<p>Rods, line, hooks, lures, nets and a tackle box. Price and weight follow the 5e SRD; the sourcebook names fishing tackle (Fisherman background, Master Fisherman feat) but lists no price.</p>" }),
   tool("appraisers-tools", "Appraiser's Tools", "art", 500000, 4, "int",
-    { desc: "<p>A tool kit consisting of a magnifying glass, reference material, a small hammer, and scales. Useful for establishing the proper value of bounty and loot found on your travels.</p>" }),
+    { base: "appraiser", desc: "<p>A tool kit consisting of a magnifying glass, reference material, a small hammer, and scales. Useful for establishing the proper value of bounty and loot found on your travels.</p>" }),
   tool("brewers-supplies", "Brewer's Supplies", "art", 200000, 9, "int",
     { base: "brewer" }),
   tool("calligraphers-supplies", "Calligrapher's Supplies", "art", 100000, 5, "int",
@@ -82,7 +84,7 @@ export const tools: FoundryItem[] = [
 
   // ═══ OP5e Custom Artisan's Tools ═══
   tool("dial-kit", "Dial Kit", "art", 500000, 4, "int",
-    { desc: "<p>Contains everything a tinkerer needs to repair and prepare dials. With a dial kit, you can repair cracked dials, identify different types of dials and their uses, and repair broken skyborne vehicles.</p>" }),
+    { base: "dial", desc: "<p>Contains everything a tinkerer needs to repair and prepare dials. With a dial kit, you can repair cracked dials, identify different types of dials and their uses, and repair broken skyborne vehicles.</p>" }),
 
   // ═══ Kits ═══
   tool("disguise-kit", "Disguise Kit", "art", 250000, 3, "cha",

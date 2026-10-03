@@ -1,16 +1,16 @@
 {
  "summary": {
-  "documents": 2055,
-  "links": 2968,
+  "documents": 2056,
+  "links": 2986,
   "errors": 0,
-  "warnings": 179,
+  "warnings": 180,
   "byMessage": {
    "warn: attack activity has no attack block (dnd5e defaults apply)": 142,
    "warn: 3 docs share this name": 11,
    "warn: 4 docs share this name": 4,
    "warn: 5 docs share this name": 3,
    "warn: 7 docs share this name": 1,
-   "warn: 2 docs share this name": 15,
+   "warn: 2 docs share this name": 16,
    "warn: 6 docs share this name": 2,
    "warn: 8 docs share this name": 1
   }
@@ -1041,6 +1041,12 @@
    "pack": "class-features",
    "name": "Fighting Style: Blindfighting",
    "msg": "3 docs share this name"
+  },
+  {
+   "level": "warn",
+   "pack": "items",
+   "name": "Fishing Tackle",
+   "msg": "2 docs share this name"
   },
   {
    "level": "warn",
