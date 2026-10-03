@@ -25,6 +25,17 @@
 - Active Effects changing derived data: 57/58
 - Weapons and armor (AC and damage dice asserted): 87/87
 
+## Every document added to an actor and used (built packs)
+- class-features: 749/749 work (231 activities used)
+- racial-features: 84/84 work (22 activities used)
+- feats: 201/201 work (87 activities used)
+- items: 363/363 work (152 activities used)
+- creations: 426/426 work (433 activities used)
+- backgrounds: 56/56 work (0 activities used)
+- devil-fruits: 28/28 work (0 activities used)
+- ship-weapons: 8/8 work (16 activities used)
+- Class and subclass features were used on a persisted level-20 actor of their class so @scale values resolve; creations on a level-20 Medic with slots; ship weapons on a Galleon
+
 ## Regression vs baseline
 - Baseline documents: 1973; preserved identical: 1971; changed: 2 (Manipulate Earth, Flaming Duality); regressed: 0; added: 82
 

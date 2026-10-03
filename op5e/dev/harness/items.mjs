@@ -8,7 +8,7 @@ const items = Object.values(BUILT.items).filter((d) => d.type === "weapon" || (d
 const probe = async ({ id }) => {
   const H = game.op5eHarness;
   const src = await fromUuid(`Compendium.op5e.items.${id}`);
-  const actor = await H.createActor({ name: "Gear", abilities: { str: 16, dex: 14, con: 12, int: 10, wis: 10, cha: 10 } });
+  const actor = await H.createActor({ name: "Gear", abilities: { str: 16, dex: 18, con: 12, int: 10, wis: 10, cha: 10 } });
   const out = { name: src.name, type: src.type, fails: [] };
   const item = await H.giveItem(actor, src.toObject());
   if (src.type === "equipment") {

@@ -27,7 +27,7 @@ function armor(
       rarity: "common",
       equipped: false,
       identified: true,
-      armor: { value: ac },
+      armor: armorType === "medium" ? { value: ac, dex: 2 } : { value: ac },
       strength: opts.str ?? 0,
       stealth: opts.stealth ?? false,
       proficient: null,

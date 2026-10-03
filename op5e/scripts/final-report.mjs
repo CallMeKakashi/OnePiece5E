@@ -13,6 +13,7 @@ const e2e = {
   classes: J("reports/execution-classes.json", []), subclasses: J("reports/execution-classes-subclasses.json", []),
   races: J("reports/execution-origins-races.json", []), backgrounds: J("reports/execution-origins-backgrounds.json", []),
   feats: J("reports/execution-feats.json", []), effects: J("reports/execution-effects.json", []), gear: J("reports/execution-gear.json", []),
+  everything: J("reports/execution-everything.json", {}),
 };
 // Bard L10 Expertise is a test-character limit (only 3 class skills, 2 already expert), not a content problem
 const benign = (i) => /expertise-\d+: trait choice/.test(i);
@@ -76,6 +77,10 @@ ${Object.entries(cov).map(([k, v]) => `- ${k}: ${v}`).join("\n")}
 - Feats with advancement/effects, value-asserted: ${e2e.feats.filter((r) => r.pass).length}/${e2e.feats.length}
 - Active Effects changing derived data: ${e2e.effects.filter((r) => r.pass).length}/${e2e.effects.length}
 - Weapons and armor (AC and damage dice asserted): ${e2e.gear.filter((r) => r.pass).length}/${e2e.gear.length}
+
+## Every document added to an actor and used (built packs)
+${Object.entries(e2e.everything).map(([p, rows]) => `- ${p}: ${rows.length - rows.filter((r) => r.fails.length).length}/${rows.length} work (${rows.reduce((n, r) => n + r.activities.length, 0)} activities used)`).join("\n")}
+- Class and subclass features were used on a persisted level-20 actor of their class so @scale values resolve; creations on a level-20 Medic with slots; ship weapons on a Galleon
 
 ## Regression vs baseline
 - Baseline documents: ${reg?.baseline}; preserved identical: ${reg?.preserved}; changed: ${reg?.changed.length} (${reg?.changed.map((c) => c.name).join(", ")}); regressed: ${reg?.regressed.length}; added: ${reg?.added}
