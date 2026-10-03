@@ -1,7 +1,7 @@
 [
  {
   "name": "Matthew \"The Jack\" Burgess",
-  "id": "7Nh69OnXwEJLLY0a",
+  "id": "CV5VXQdjitBVpB85",
   "race": "Human",
   "background": "Gambler",
   "classes": [
@@ -28,29 +28,31 @@
    "Lucky"
   ],
   "skillsProf": 11,
-  "gearAdded": 10,
+  "gearAdded": 16,
+  "gearStd": [
+   "Playing Cards",
+   "Common Clothes",
+   "Rations",
+   "Costume",
+   "Hempen Rope (50 ft.)",
+   "Rations",
+   "Pan Flute"
+  ],
   "gearMissing": [
    "Buzz blade",
    "Serum 33 (With Ace)",
    "The Prospector",
-   "Playing Cards",
    "Cheaters’ Games",
    "Serum 22 (With Ace)",
    "Black goo",
    "Plasma Cannon",
    "Green vile (With Ace)",
-   "Common Clothes",
-   "Rations",
    "Seastone-arm",
    "Ornate Cane",
    "Lemonte's black glasses",
-   "Costume",
-   "Hempen Rope (50 ft.)",
    "Luck Charm (Coin of Easy Living)",
-   "Rations",
    "Plasma Bolt",
-   "Sharkrazor Mantle",
-   "Pan Flute"
+   "Sharkrazor Mantle"
   ],
   "issues": [
    "L0 skills: trait choice 1/2 pool={} avail=Object:choices,label sets=SelectChoices:skills pool=skills:dec|skills:ins|skills:prc|skills:per"
@@ -61,15 +63,78 @@
   "note": "old Gunslinger/High Roller -> Fighter (Gunslinger)"
  },
  {
+  "name": "Matthew \"The Jack\" Burgess (Marksman)",
+  "id": "U0ra3IFHcB13Pgd2",
+  "race": "Human",
+  "background": "Gambler",
+  "classes": [
+   "Marksman 10"
+  ],
+  "subs": [
+   "Sniper"
+  ],
+  "level": 10,
+  "hp": 74,
+  "ac": 16,
+  "prof": 4,
+  "abilities": {
+   "str": 9,
+   "dex": 20,
+   "con": 12,
+   "int": 14,
+   "wis": 17,
+   "cha": 20
+  },
+  "features": 33,
+  "feats": [
+   "Alert",
+   "Lucky"
+  ],
+  "skillsProf": 11,
+  "gearAdded": 16,
+  "gearStd": [
+   "Playing Cards",
+   "Common Clothes",
+   "Rations",
+   "Costume",
+   "Hempen Rope (50 ft.)",
+   "Rations",
+   "Pan Flute"
+  ],
+  "gearMissing": [
+   "Buzz blade",
+   "Serum 33 (With Ace)",
+   "The Prospector",
+   "Cheaters’ Games",
+   "Serum 22 (With Ace)",
+   "Black goo",
+   "Plasma Cannon",
+   "Green vile (With Ace)",
+   "Seastone-arm",
+   "Ornate Cane",
+   "Lemonte's black glasses",
+   "Luck Charm (Coin of Easy Living)",
+   "Plasma Bolt",
+   "Sharkrazor Mantle"
+  ],
+  "issues": [
+   "L0 skills: trait choice 1/2 pool={} avail=Object:choices,label sets=SelectChoices:skills pool=skills:dec|skills:ins|skills:prc|skills:per"
+  ],
+  "log": [
+   "feats matched: Alert; no op5e equivalent: Archery, Marksman's Luck, Haki, Close Combat Artillerist, Mobile Combatant, Blind Fighting, Prone Defense, Color of Observation Novice"
+  ],
+  "note": "alternate build: Marksman (Sniper) instead of Fighter (Gunslinger)"
+ },
+ {
   "name": "Baptiste",
-  "id": "vYawJkCj4Ex0m2L8",
+  "id": "Ib5mSjDqfgmCApW0",
   "race": "Lunarian",
   "background": "Boxer",
   "classes": [
    "Brawler 10"
   ],
   "subs": [
-   "Open Hand"
+   "Chromatic Commandment"
   ],
   "level": 10,
   "hp": 73,
@@ -88,29 +153,31 @@
    "Unarmed Master"
   ],
   "skillsProf": 8,
-  "gearAdded": 8,
-  "gearMissing": [
-   "Unarmed Strike (Astral)",
+  "gearAdded": 11,
+  "gearStd": [
+   "Unarmed Strike",
    "Hempen Rope (50 ft.)",
+   "Rations",
+   "Common Clothes",
+   "Common Clothes"
+  ],
+  "gearMissing": [
    "Gold Coin (Mafia Brand)",
    "Bell Fragment",
    "Knuckles",
    "A bent berry coin",
-   "Rations",
-   "Common Clothes",
    "Blood Fury Tattoo",
-   "Common Clothes",
    "Arms of the Astral Self"
   ],
   "issues": [],
   "log": [
    "feats matched: none; no op5e equivalent: Haki"
   ],
-  "note": "old 'Way of the Astral Self' has no op5e subclass -> Open Hand (CONFIRM)"
+  "note": "old Way of the Astral Self -> Chromatic Commandment (DM confirmed)"
  },
  {
   "name": "Malphas",
-  "id": "hgiej1jKeGNwwo4u",
+  "id": "wa4KberDnYHkbWF6",
   "race": "Lunarian",
   "background": "Wanderer",
   "classes": [
@@ -137,17 +204,19 @@
    "Alert"
   ],
   "skillsProf": 10,
-  "gearAdded": 11,
-  "gearMissing": [
+  "gearAdded": 18,
+  "gearStd": [
    "Ink",
    "Common Clothes",
    "Hempen Rope (50 ft.)",
    "Rations",
-   "Puzzle Box (19%)",
    "Dice",
    "Rations",
    "Playing Cards",
    "Map"
+  ],
+  "gearMissing": [
+   "Puzzle Box (19%)"
   ],
   "issues": [],
   "log": [
@@ -156,7 +225,7 @@
  },
  {
   "name": "Thunderbird (Form 1)",
-  "id": "oO21XvBlwL7fMZHL",
+  "id": "aKD4ltpSuuc9JUWt",
   "race": "Lunarian",
   "background": "Wanderer",
   "classes": [
@@ -182,8 +251,8 @@
    "Mobile"
   ],
   "skillsProf": 9,
-  "gearAdded": 11,
-  "gearMissing": [
+  "gearAdded": 18,
+  "gearStd": [
    "Ink",
    "Common Clothes",
    "Hempen Rope (50 ft.)",
@@ -193,6 +262,7 @@
    "Playing Cards",
    "Map"
   ],
+  "gearMissing": [],
   "issues": [],
   "log": [
    "feats matched: Mobile, Alert, Charger; no op5e equivalent: -"
@@ -200,7 +270,7 @@
  },
  {
   "name": "Thunderbird (Form 2)",
-  "id": "P5qB52QRKtDwXncm",
+  "id": "A3yZBZ2XF7gsh4fm",
   "race": "Lunarian",
   "background": "Wanderer",
   "classes": [
@@ -227,8 +297,8 @@
    "Alert"
   ],
   "skillsProf": 9,
-  "gearAdded": 11,
-  "gearMissing": [
+  "gearAdded": 18,
+  "gearStd": [
    "Ink",
    "Common Clothes",
    "Hempen Rope (50 ft.)",
@@ -238,6 +308,7 @@
    "Playing Cards",
    "Map"
   ],
+  "gearMissing": [],
   "issues": [],
   "log": [
    "feats matched: Mobile, Alert, Charger; no op5e equivalent: -"
@@ -245,7 +316,7 @@
  },
  {
   "name": "B.O.B",
-  "id": "3YmTMvmuofUYuwAV",
+  "id": "0oMoijh4fs4foSuF",
   "race": "Augmented",
   "background": "Scientist",
   "classes": [
@@ -273,12 +344,14 @@
    "Creativity Adept"
   ],
   "skillsProf": 7,
-  "gearAdded": 8,
+  "gearAdded": 10,
+  "gearStd": [
+   "Rations",
+   "Hempen Rope (50 ft.)"
+  ],
   "gearMissing": [
    "Armor of Sorrow",
-   "Rations",
    "Ray Of Twilight",
-   "Hempen Rope (50 ft.)",
    "Twilight",
    "Gold Coin (Mafia Brand)",
    "Járnglófar"
@@ -291,7 +364,7 @@
  },
  {
   "name": "Roma",
-  "id": "MWVIlYUlguUy7L2S",
+  "id": "BkJJhei1QHjSS4hf",
   "race": "Mink",
   "background": "Cook",
   "classes": [
@@ -320,16 +393,18 @@
    "Sentinel"
   ],
   "skillsProf": 12,
-  "gearAdded": 5,
+  "gearAdded": 8,
+  "gearStd": [
+   "Common Clothes",
+   "Hempen Rope (50 ft.)",
+   "Rations"
+  ],
   "gearMissing": [
    "Magical Drinking Horn",
    "Health Snacks",
    "Death Scales",
-   "Common Clothes",
-   "Hempen Rope (50 ft.)",
    "Rolling Pin - Kura3™",
-   "Death Chalace",
-   "Rations"
+   "Death Chalace"
   ],
   "issues": [],
   "log": [
@@ -338,7 +413,7 @@
  },
  {
   "name": "Hybrid",
-  "id": "rtLa9xOYbUcpUXdY",
+  "id": "liLKmZVD5HdfY8E4",
   "race": "Mink",
   "background": "Cook",
   "classes": [
@@ -367,13 +442,15 @@
    "Sentinel"
   ],
   "skillsProf": 12,
-  "gearAdded": 5,
-  "gearMissing": [
-   "Rolling Pin - Kura3™ (Cold)",
-   "Health Snacks",
+  "gearAdded": 8,
+  "gearStd": [
    "Common Clothes",
    "Hempen Rope (50 ft.)",
    "Rations"
+  ],
+  "gearMissing": [
+   "Rolling Pin - Kura3™ (Cold)",
+   "Health Snacks"
   ],
   "issues": [],
   "log": [
@@ -382,7 +459,7 @@
  },
  {
   "name": "Sulong",
-  "id": "9UH6gKFn3vOPfFZ1",
+  "id": "s9VceOxiMfLnXpRU",
   "race": "Mink",
   "background": "Cook",
   "classes": [
@@ -411,12 +488,14 @@
    "Sentinel"
   ],
   "skillsProf": 12,
-  "gearAdded": 5,
-  "gearMissing": [
-   "Health Snacks",
+  "gearAdded": 8,
+  "gearStd": [
    "Common Clothes",
    "Hempen Rope (50 ft.)",
-   "Rations",
+   "Rations"
+  ],
+  "gearMissing": [
+   "Health Snacks",
    "Rolling Pin - Kura3™ (Cold + Lightning)"
   ],
   "issues": [],

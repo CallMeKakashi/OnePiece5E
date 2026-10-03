@@ -1,11 +1,11 @@
 {
  "summary": {
-  "documents": 2058,
+  "documents": 2057,
   "links": 2990,
   "errors": 0,
-  "warnings": 180,
+  "warnings": 154,
   "byMessage": {
-   "warn: attack activity has no attack block (dnd5e defaults apply)": 142,
+   "warn: attack activity has no attack block (dnd5e defaults apply)": 116,
    "warn: 3 docs share this name": 11,
    "warn: 4 docs share this name": 4,
    "warn: 5 docs share this name": 3,
@@ -16,12 +16,6 @@
   }
  },
  "issues": [
-  {
-   "level": "warn",
-   "pack": "class-features",
-   "name": "Death Wink [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
   {
    "level": "warn",
    "pack": "class-features",
@@ -43,43 +37,7 @@
   {
    "level": "warn",
    "pack": "creations",
-   "name": "Control Winds (R) [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Storm of Vengeance [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Instill Madness [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Ensnaring Smite [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
    "name": "Shocking Grasp [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Staggering Smite [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Ice Dagger [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
@@ -97,18 +55,6 @@
   {
    "level": "warn",
    "pack": "creations",
-   "name": "Stormy Sphere [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Lightning Arrow [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
    "name": "Warding Wind [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
@@ -116,12 +62,6 @@
    "level": "warn",
    "pack": "creations",
    "name": "Animate Dead [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Ardent Shield [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
@@ -181,37 +121,13 @@
   {
    "level": "warn",
    "pack": "creations",
-   "name": "Transmute Rock [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
    "name": "Acid Bolt [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
    "level": "warn",
    "pack": "creations",
-   "name": "Feeble Body [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Polar Blade [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
    "name": "Wall of Light [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Thunderous Smite [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
@@ -229,12 +145,6 @@
   {
    "level": "warn",
    "pack": "creations",
-   "name": "Shrapnel Shot [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
    "name": "Branding Smite [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
@@ -247,19 +157,7 @@
   {
    "level": "warn",
    "pack": "creations",
-   "name": "Mental Prison [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
    "name": "Thunder Bolt [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Sinister Shot [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
@@ -272,12 +170,6 @@
    "level": "warn",
    "pack": "creations",
    "name": "Ice Bolt [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Infectious Ray [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
@@ -379,31 +271,7 @@
   {
    "level": "warn",
    "pack": "creations",
-   "name": "Thunder Beat [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Searing Smite [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
    "name": "Necrotic Bolt [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Rotting Shot [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Embody Winds [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
@@ -427,12 +295,6 @@
   {
    "level": "warn",
    "pack": "creations",
-   "name": "Blinding Smite [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
    "name": "Giant's Hand [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
@@ -451,12 +313,6 @@
   {
    "level": "warn",
    "pack": "creations",
-   "name": "Contagion [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
    "name": "Blade of Disaster [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
@@ -464,12 +320,6 @@
    "level": "warn",
    "pack": "creations",
    "name": "Frigid Bullet [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Burning Blade [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
@@ -644,12 +494,6 @@
    "level": "warn",
    "pack": "items",
    "name": "42-pounder [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "items",
-   "name": "Shotgun [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T09:34:52.501Z",
+  "generatedAt": "2026-10-03T13:08:22.952Z",
   "rows": [
     {
       "pack": "backgrounds",
@@ -20969,6 +20969,30 @@
     },
     {
       "pack": "creations",
+      "name": "Mind Prison",
+      "type": "spell",
+      "status": "ready",
+      "activityCount": 1,
+      "activityTypes": [
+        "save"
+      ],
+      "hasConsumption": false,
+      "hasUses": false,
+      "hasRecovery": false,
+      "hasEffects": false,
+      "hasMidiOrDae": false,
+      "hasDamageOrSaveOrHealing": true,
+      "sourceDamageDice": [
+        "5d10",
+        "10d10"
+      ],
+      "sourceSaveAbilities": [
+        "int"
+      ],
+      "notes": []
+    },
+    {
+      "pack": "creations",
       "name": "Mind Slash",
       "type": "spell",
       "status": "ready",
@@ -23428,6 +23452,30 @@
       ],
       "sourceSaveAbilities": [
         "con"
+      ],
+      "notes": []
+    },
+    {
+      "pack": "creations",
+      "name": "Vitriolic Sphere",
+      "type": "spell",
+      "status": "ready",
+      "activityCount": 1,
+      "activityTypes": [
+        "save"
+      ],
+      "hasConsumption": false,
+      "hasUses": false,
+      "hasRecovery": false,
+      "hasEffects": false,
+      "hasMidiOrDae": false,
+      "hasDamageOrSaveOrHealing": true,
+      "sourceDamageDice": [
+        "10d4",
+        "5d4"
+      ],
+      "sourceSaveAbilities": [
+        "dex"
       ],
       "notes": []
     },
@@ -27631,6 +27679,29 @@
     },
     {
       "pack": "items",
+      "name": "Shotgun",
+      "type": "weapon",
+      "status": "needs-automation",
+      "activityCount": 1,
+      "activityTypes": [
+        "attack"
+      ],
+      "hasConsumption": false,
+      "hasUses": false,
+      "hasRecovery": false,
+      "hasEffects": false,
+      "hasMidiOrDae": false,
+      "hasDamageOrSaveOrHealing": true,
+      "sourceDamageDice": [
+        "1d4"
+      ],
+      "sourceSaveAbilities": [],
+      "notes": [
+        "source damage (1d4) is not on an activity"
+      ]
+    },
+    {
+      "pack": "items",
       "name": "12-pounder",
       "type": "weapon",
       "status": "ready",
@@ -29122,27 +29193,6 @@
       "hasMidiOrDae": false,
       "hasDamageOrSaveOrHealing": true,
       "sourceDamageDice": [],
-      "sourceSaveAbilities": [],
-      "notes": []
-    },
-    {
-      "pack": "items",
-      "name": "Shotgun",
-      "type": "weapon",
-      "status": "ready",
-      "activityCount": 1,
-      "activityTypes": [
-        "attack"
-      ],
-      "hasConsumption": false,
-      "hasUses": false,
-      "hasRecovery": false,
-      "hasEffects": false,
-      "hasMidiOrDae": false,
-      "hasDamageOrSaveOrHealing": true,
-      "sourceDamageDice": [
-        "1d4"
-      ],
       "sourceSaveAbilities": [],
       "notes": []
     },
@@ -31069,6 +31119,23 @@
       "pack": "items",
       "name": "Fishing Tackle",
       "type": "loot",
+      "status": "reference",
+      "activityCount": 0,
+      "activityTypes": [],
+      "hasConsumption": false,
+      "hasUses": false,
+      "hasRecovery": false,
+      "hasEffects": false,
+      "hasMidiOrDae": false,
+      "hasDamageOrSaveOrHealing": false,
+      "sourceDamageDice": [],
+      "sourceSaveAbilities": [],
+      "notes": []
+    },
+    {
+      "pack": "items",
+      "name": "Fishing Tackle",
+      "type": "tool",
       "status": "reference",
       "activityCount": 0,
       "activityTypes": [],

@@ -8,6 +8,7 @@ import { BUILT, pageLib } from "./advance-lib.mjs";
 const OLD = JSON.parse(readFileSync("reports/campaign-pcs-raw.json", "utf8"));
 const SPECS = [
   { old: 'Matthew "The Jack" Burgess', name: "Matthew \"The Jack\" Burgess", race: "Human", background: "Gambler", classes: [{ name: "Fighter", levels: 10, sub: "Gunslinger" }], note: "old Gunslinger/High Roller -> Fighter (Gunslinger)" },
+  { old: 'Matthew "The Jack" Burgess', name: 'Matthew "The Jack" Burgess (Marksman)', race: "Human", background: "Gambler", classes: [{ name: "Marksman", levels: 10, sub: "Sniper" }], note: "alternate build: Marksman (Sniper) instead of Fighter (Gunslinger)" },
   { old: "Baptiste", name: "Baptiste", race: "Lunarian", background: "Boxer", classes: [{ name: "Brawler", levels: 10, sub: "Chromatic Commandment" }], note: "old Way of the Astral Self -> Chromatic Commandment (DM confirmed)" },
   { old: "Malphas", name: "Malphas", race: "Lunarian", background: "Wanderer", classes: [{ name: "Brawler", levels: 8, sub: "Drunken Master" }] },
   { old: "Thunderbird Form 1", name: "Thunderbird (Form 1)", race: "Lunarian", background: "Wanderer", classes: [{ name: "Brawler", levels: 4, sub: "Drunken Master" }] },
@@ -68,13 +69,23 @@ const build = async (spec) => {
   const upd = { "system.abilities": Object.fromEntries(Object.entries(spec.abilities).map(([k, v]) => [k, { value: v }])) };
   for (const [k, v] of Object.entries(spec.skills)) upd[`system.skills.${k}.value`] = v;
   await actor.update(upd);
-  const gearAdded = [], gearMissing = [];
+  const gearAdded = [], gearMissing = [], gearStd = [];
   for (const g of spec.gear) {
     const it = by("items", g.name) ?? __op5eBuilt("items").find((d) => d.name.toLowerCase() === g.name.toLowerCase());
-    if (!it) { gearMissing.push(g.name); continue; }
-    if (actor.items.some((i) => i.name === it.name)) continue;
-    const d = it.toObject(); delete d._id; d.system.quantity = g.qty; if ("equipped" in d.system) d.system.equipped = g.equipped;
-    await actor.createEmbeddedDocuments("Item", [d], { keepId: false }); gearAdded.push(it.name);
+    let it2 = it;
+    if (!it2) {   // standard DMG/PHB item from the dnd5e compendiums (exact name, or the name before a "(...)" qualifier)
+      const norm = (n) => n.toLowerCase().replace(/[’']/g, "'").replace(/\s*\(.*\)\s*$/, "").trim();
+      const want = norm(g.name);
+      for (const pk of ["dnd5e.items", "dnd5e.equipment24", "dnd5e.tradegoods"]) {
+        const ent = game.packs.get(pk)?.index.contents.find((e) => norm(e.name) === want && ["weapon", "equipment", "consumable", "tool", "loot", "container"].includes(e.type));
+        if (ent) { it2 = await fromUuid(ent.uuid); break; }
+      }
+      if (it2) gearStd.push(it2.name);
+    }
+    if (!it2) { gearMissing.push(g.name); continue; }
+    if (actor.items.some((i) => i.name === it2.name)) continue;
+    const d = it2.toObject(); delete d._id; d.system.quantity = g.qty; if ("equipped" in d.system) d.system.equipped = g.equipped;
+    await actor.createEmbeddedDocuments("Item", [d], { keepId: false }); gearAdded.push(it2.name);
   }
   actor.reset();
   const s = actor.system, classes = actor.items.filter((i) => i.type === "class").map((c) => `${c.name} ${c.system.levels}`), subs = actor.items.filter((i) => i.type === "subclass").map((c) => c.name);
@@ -82,7 +93,7 @@ const build = async (spec) => {
     name: actor.name, id: actor.id, race: actor.items.find((i) => i.type === "race")?.name, background: actor.items.find((i) => i.type === "background")?.name,
     classes, subs, level: s.details.level, hp: s.attributes.hp.max, ac: s.attributes.ac.value, prof: s.attributes.prof, abilities: Object.fromEntries(Object.entries(s.abilities).map(([k, v]) => [k, v.value])),
     features: actor.items.filter((i) => i.type === "feat").length, feats: actor.items.filter((i) => i.type === "feat" && i.system.type?.value === "feat").map((i) => i.name),
-    skillsProf: Object.entries(s.skills).filter(([, v]) => v.value).length, gearAdded: gearAdded.length, gearMissing, issues, log,
+    skillsProf: Object.entries(s.skills).filter(([, v]) => v.value).length, gearAdded: gearAdded.length, gearStd, gearMissing, issues, log,
   };
 };
 

@@ -2,10 +2,10 @@
 
 Generated from every source pack after applying generated dnd5e activities.
 
-Total compendium items: 1977
-Automation-ready items: 718
-Needs automation: 118
-Reference-only items: 1141
+Total compendium items: 1980
+Automation-ready items: 719
+Needs automation: 119
+Reference-only items: 1142
 
 ## Pack Summary
 
@@ -14,9 +14,9 @@ Reference-only items: 1141
 | backgrounds | 56 | 0 | 0 | 56 |
 | class-features | 749 | 175 | 30 | 544 |
 | classes | 9 | 0 | 0 | 9 |
-| creations | 426 | 344 | 82 | 0 |
+| creations | 428 | 346 | 82 | 0 |
 | feats | 201 | 81 | 6 | 114 |
-| items | 363 | 97 | 0 | 266 |
+| items | 364 | 96 | 1 | 267 |
 | races | 9 | 0 | 0 | 9 |
 | racial-features | 84 | 21 | 0 | 63 |
 | subclasses | 80 | 0 | 0 | 80 |
@@ -143,3 +143,4 @@ Reference-only items: 1141
 | feats | Shield Master | feat | utility | no | no | no | no | no | source DEX save is not on an activity |
 | feats | Short Blade Master | feat | utility | yes | yes | no | no | no | source damage (1d4) is not on an activity |
 | feats | The Horned One | feat | utility | no | no | no | no | no | source damage (1d8) is not on an activity |
+| items | Shotgun | weapon | attack | no | no | yes | no | no | source damage (1d4) is not on an activity |
