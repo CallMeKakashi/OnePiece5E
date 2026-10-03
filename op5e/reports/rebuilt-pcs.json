@@ -1,0 +1,427 @@
+[
+ {
+  "name": "Matthew \"The Jack\" Burgess",
+  "id": "7Nh69OnXwEJLLY0a",
+  "race": "Human",
+  "background": "Gambler",
+  "classes": [
+   "Fighter 10"
+  ],
+  "subs": [
+   "Gunslinger"
+  ],
+  "level": 10,
+  "hp": 74,
+  "ac": 16,
+  "prof": 4,
+  "abilities": {
+   "str": 9,
+   "dex": 20,
+   "con": 12,
+   "int": 14,
+   "wis": 17,
+   "cha": 20
+  },
+  "features": 27,
+  "feats": [
+   "Alert",
+   "Lucky"
+  ],
+  "skillsProf": 11,
+  "gearAdded": 10,
+  "gearMissing": [
+   "Buzz blade",
+   "Serum 33 (With Ace)",
+   "The Prospector",
+   "Playing Cards",
+   "Cheaters’ Games",
+   "Serum 22 (With Ace)",
+   "Black goo",
+   "Plasma Cannon",
+   "Green vile (With Ace)",
+   "Common Clothes",
+   "Rations",
+   "Seastone-arm",
+   "Ornate Cane",
+   "Lemonte's black glasses",
+   "Costume",
+   "Hempen Rope (50 ft.)",
+   "Luck Charm (Coin of Easy Living)",
+   "Rations",
+   "Plasma Bolt",
+   "Sharkrazor Mantle",
+   "Pan Flute"
+  ],
+  "issues": [
+   "L0 skills: trait choice 1/2 pool={} avail=Object:choices,label sets=SelectChoices:skills pool=skills:dec|skills:ins|skills:prc|skills:per"
+  ],
+  "log": [
+   "feats matched: Alert; no op5e equivalent: Archery, Marksman's Luck, Haki, Close Combat Artillerist, Mobile Combatant, Blind Fighting, Prone Defense, Color of Observation Novice"
+  ],
+  "note": "old Gunslinger/High Roller -> Fighter (Gunslinger)"
+ },
+ {
+  "name": "Baptiste",
+  "id": "vYawJkCj4Ex0m2L8",
+  "race": "Lunarian",
+  "background": "Boxer",
+  "classes": [
+   "Brawler 10"
+  ],
+  "subs": [
+   "Open Hand"
+  ],
+  "level": 10,
+  "hp": 73,
+  "ac": 15,
+  "prof": 4,
+  "abilities": {
+   "str": 10,
+   "dex": 20,
+   "con": 14,
+   "int": 11,
+   "wis": 20,
+   "cha": 13
+  },
+  "features": 22,
+  "feats": [
+   "Unarmed Master"
+  ],
+  "skillsProf": 8,
+  "gearAdded": 8,
+  "gearMissing": [
+   "Unarmed Strike (Astral)",
+   "Hempen Rope (50 ft.)",
+   "Gold Coin (Mafia Brand)",
+   "Bell Fragment",
+   "Knuckles",
+   "A bent berry coin",
+   "Rations",
+   "Common Clothes",
+   "Blood Fury Tattoo",
+   "Common Clothes",
+   "Arms of the Astral Self"
+  ],
+  "issues": [],
+  "log": [
+   "feats matched: none; no op5e equivalent: Haki"
+  ],
+  "note": "old 'Way of the Astral Self' has no op5e subclass -> Open Hand (CONFIRM)"
+ },
+ {
+  "name": "Malphas",
+  "id": "hgiej1jKeGNwwo4u",
+  "race": "Lunarian",
+  "background": "Wanderer",
+  "classes": [
+   "Brawler 8"
+  ],
+  "subs": [
+   "Drunken Master"
+  ],
+  "level": 8,
+  "hp": 59,
+  "ac": 15,
+  "prof": 3,
+  "abilities": {
+   "str": 12,
+   "dex": 20,
+   "con": 14,
+   "int": 14,
+   "wis": 16,
+   "cha": 10
+  },
+  "features": 21,
+  "feats": [
+   "Mobile",
+   "Alert"
+  ],
+  "skillsProf": 10,
+  "gearAdded": 11,
+  "gearMissing": [
+   "Ink",
+   "Common Clothes",
+   "Hempen Rope (50 ft.)",
+   "Rations",
+   "Puzzle Box (19%)",
+   "Dice",
+   "Rations",
+   "Playing Cards",
+   "Map"
+  ],
+  "issues": [],
+  "log": [
+   "feats matched: Mobile, Alert, Charger; no op5e equivalent: Elemental Adept (Lightning)"
+  ]
+ },
+ {
+  "name": "Thunderbird (Form 1)",
+  "id": "oO21XvBlwL7fMZHL",
+  "race": "Lunarian",
+  "background": "Wanderer",
+  "classes": [
+   "Brawler 4"
+  ],
+  "subs": [
+   "Drunken Master"
+  ],
+  "level": 4,
+  "hp": 31,
+  "ac": 15,
+  "prof": 2,
+  "abilities": {
+   "str": 14,
+   "dex": 20,
+   "con": 14,
+   "int": 12,
+   "wis": 16,
+   "cha": 10
+  },
+  "features": 13,
+  "feats": [
+   "Mobile"
+  ],
+  "skillsProf": 9,
+  "gearAdded": 11,
+  "gearMissing": [
+   "Ink",
+   "Common Clothes",
+   "Hempen Rope (50 ft.)",
+   "Rations",
+   "Dice",
+   "Rations",
+   "Playing Cards",
+   "Map"
+  ],
+  "issues": [],
+  "log": [
+   "feats matched: Mobile, Alert, Charger; no op5e equivalent: -"
+  ]
+ },
+ {
+  "name": "Thunderbird (Form 2)",
+  "id": "P5qB52QRKtDwXncm",
+  "race": "Lunarian",
+  "background": "Wanderer",
+  "classes": [
+   "Brawler 8"
+  ],
+  "subs": [
+   "Drunken Master"
+  ],
+  "level": 8,
+  "hp": 59,
+  "ac": 15,
+  "prof": 3,
+  "abilities": {
+   "str": 14,
+   "dex": 20,
+   "con": 14,
+   "int": 12,
+   "wis": 16,
+   "cha": 10
+  },
+  "features": 21,
+  "feats": [
+   "Mobile",
+   "Alert"
+  ],
+  "skillsProf": 9,
+  "gearAdded": 11,
+  "gearMissing": [
+   "Ink",
+   "Common Clothes",
+   "Hempen Rope (50 ft.)",
+   "Rations",
+   "Dice",
+   "Rations",
+   "Playing Cards",
+   "Map"
+  ],
+  "issues": [],
+  "log": [
+   "feats matched: Mobile, Alert, Charger; no op5e equivalent: -"
+  ]
+ },
+ {
+  "name": "B.O.B",
+  "id": "3YmTMvmuofUYuwAV",
+  "race": "Augmented",
+  "background": "Scientist",
+  "classes": [
+   "Savant 10"
+  ],
+  "subs": [
+   "Necrotic Mania"
+  ],
+  "level": 10,
+  "hp": 84,
+  "ac": 10,
+  "prof": 4,
+  "abilities": {
+   "str": 16,
+   "dex": 9,
+   "con": 14,
+   "int": 12,
+   "wis": 8,
+   "cha": 18
+  },
+  "features": 28,
+  "feats": [
+   "Polearm Master",
+   "Great Weapon Master",
+   "Creativity Adept"
+  ],
+  "skillsProf": 7,
+  "gearAdded": 8,
+  "gearMissing": [
+   "Armor of Sorrow",
+   "Rations",
+   "Ray Of Twilight",
+   "Hempen Rope (50 ft.)",
+   "Twilight",
+   "Gold Coin (Mafia Brand)",
+   "Járnglófar"
+  ],
+  "issues": [],
+  "log": [
+   "feats matched: Polearm Master, Great Weapon Master; no op5e equivalent: Six Powers Adept (Iron Body), Color of Armament Novice, Six Powers Adept (Paper Art), Armament Haki: Hardening, Haki"
+  ],
+  "note": "old Paladin -> Savant (Necrotic Mania)"
+ },
+ {
+  "name": "Roma",
+  "id": "MWVIlYUlguUy7L2S",
+  "race": "Mink",
+  "background": "Cook",
+  "classes": [
+   "Fighter 3",
+   "Barbarian 7"
+  ],
+  "subs": [
+   "Brute",
+   "Path of the Berserker"
+  ],
+  "level": 10,
+  "hp": 101,
+  "ac": 13,
+  "prof": 4,
+  "abilities": {
+   "str": 17,
+   "dex": 16,
+   "con": 16,
+   "int": 11,
+   "wis": 10,
+   "cha": 10
+  },
+  "features": 24,
+  "feats": [
+   "Gourmand",
+   "Sentinel"
+  ],
+  "skillsProf": 12,
+  "gearAdded": 5,
+  "gearMissing": [
+   "Magical Drinking Horn",
+   "Health Snacks",
+   "Death Scales",
+   "Common Clothes",
+   "Hempen Rope (50 ft.)",
+   "Rolling Pin - Kura3™",
+   "Death Chalace",
+   "Rations"
+  ],
+  "issues": [],
+  "log": [
+   "feats matched: Sentinel; no op5e equivalent: Haki, Armament Haki: Hardening, Color of Armament Novice"
+  ]
+ },
+ {
+  "name": "Hybrid",
+  "id": "rtLa9xOYbUcpUXdY",
+  "race": "Mink",
+  "background": "Cook",
+  "classes": [
+   "Fighter 3",
+   "Barbarian 5"
+  ],
+  "subs": [
+   "Brute",
+   "Path of the Berserker"
+  ],
+  "level": 8,
+  "hp": 81,
+  "ac": 13,
+  "prof": 3,
+  "abilities": {
+   "str": 17,
+   "dex": 16,
+   "con": 16,
+   "int": 11,
+   "wis": 10,
+   "cha": 10
+  },
+  "features": 20,
+  "feats": [
+   "Gourmand",
+   "Sentinel"
+  ],
+  "skillsProf": 12,
+  "gearAdded": 5,
+  "gearMissing": [
+   "Rolling Pin - Kura3™ (Cold)",
+   "Health Snacks",
+   "Common Clothes",
+   "Hempen Rope (50 ft.)",
+   "Rations"
+  ],
+  "issues": [],
+  "log": [
+   "feats matched: Sentinel; no op5e equivalent: Haki, Color of Armament Novice"
+  ]
+ },
+ {
+  "name": "Sulong",
+  "id": "9UH6gKFn3vOPfFZ1",
+  "race": "Mink",
+  "background": "Cook",
+  "classes": [
+   "Fighter 3",
+   "Barbarian 5"
+  ],
+  "subs": [
+   "Brute",
+   "Path of the Berserker"
+  ],
+  "level": 8,
+  "hp": 81,
+  "ac": 13,
+  "prof": 3,
+  "abilities": {
+   "str": 17,
+   "dex": 16,
+   "con": 16,
+   "int": 11,
+   "wis": 10,
+   "cha": 10
+  },
+  "features": 20,
+  "feats": [
+   "Gourmand",
+   "Sentinel"
+  ],
+  "skillsProf": 12,
+  "gearAdded": 5,
+  "gearMissing": [
+   "Health Snacks",
+   "Common Clothes",
+   "Hempen Rope (50 ft.)",
+   "Rations",
+   "Rolling Pin - Kura3™ (Cold + Lightning)"
+  ],
+  "issues": [],
+  "log": [
+   "feats matched: Sentinel; no op5e equivalent: -"
+  ]
+ }
+]

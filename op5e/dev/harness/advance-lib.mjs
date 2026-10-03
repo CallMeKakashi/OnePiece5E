@@ -61,6 +61,8 @@ export const pageLib = (built) => {
           return { chosen: [...adv.configuration.grants, ...chosen] };
         }
         case "AbilityScoreImprovement": {
+          // character rebuilds: take the feats the old sheet had, one per class ASI level
+          if (ctx.featQueue?.length && adv.configuration.points === 2) { const f = ctx.featQueue.shift(); return { type: "feat", featUuid: f.uuid }; }
           const c = adv.configuration, a = {};
           if (c.points > 0) { const pick1 = Object.keys(CONFIG.DND5E.abilities).find((k) => !c.locked.has(k) && !(c.fixed?.[k] > 0)) ?? Object.keys(CONFIG.DND5E.abilities).find((k) => !c.locked.has(k)); if (pick1) a[pick1] = c.points; else note(`L${lvl} ${adv.title}: no ability available for ASI`); }
           else if (!adv.item.parent?.items && !adv.item) a.str = 0;
