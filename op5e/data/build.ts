@@ -72,6 +72,7 @@ const PACK_CONFIGS: PackConfig[] = [
   { name: "items", srcDir: "items", schema: foundryItemBase },
   { name: "creations", srcDir: "creations", schema: foundryItemBase },
   { name: "backgrounds", srcDir: "backgrounds", schema: foundryItemBase },
+  { name: "devil-fruits", srcDir: "devil-fruits", schema: foundryItemBase },
   { name: "monsters", srcDir: "actors", schema: foundryActorBase, collection: "actors" },
 ];
 

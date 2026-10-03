@@ -9,7 +9,9 @@ export type PackName =
   | "feats"
   | "items"
   | "creations"
-  | "backgrounds";
+  | "backgrounds"
+  | "devil-fruits"
+  | "monsters";
 
 /**
  * Build a Foundry compendium UUID for a document in this module.
