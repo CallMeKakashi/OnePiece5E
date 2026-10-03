@@ -45,7 +45,9 @@ const cases = [
   ["Short Blade Master", { weaponProf: ["dagger"] }, true, "dagger"],
   ["Short Blade Master", { weaponProf: ["shortsword"] }, true, "shortsword"],
   ["Short Blade Master", {}, false, "neither"],
-  ["Light Armor Master", {}, true, "requirement '3' is a source data error: not enforced"],
+  ["Light Armor Master", {}, false, "needs light armor proficiency and Dexterity 13"],
+  ["Light Armor Master", { dex: 13, armorProf: ["lgt"] }, true, "Dex 13 + light armor proficiency"],
+  ["Light Armor Master", { dex: 12, armorProf: ["lgt"] }, false, "Dex 12 fails"],
   ["Alert", {}, true, "no prerequisites"],
 ];
 
