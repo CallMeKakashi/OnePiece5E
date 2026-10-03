@@ -9,6 +9,7 @@ import { creationSpecs4 } from "./creations-4.js";
 import { creationSpecs5 } from "./creations-5.js";
 import { creationSpecs6 } from "./creations-6.js";
 import { creationSpecs7 } from "./creations-7.js";
+import { summonSpecs } from "./summons.js";
 
 /** "pack/Item Name" -> hand-written automation. See helpers/spec.ts. */
-export const AUTOMATION: Record<string, Spec> = { ...classFeatureSpecs, ...classFeatureSpecs2, ...featItemSpecs, ...creationSpecs1, ...creationSpecs2, ...creationSpecs3, ...creationSpecs4, ...creationSpecs5, ...creationSpecs6, ...creationSpecs7 };
+export const AUTOMATION: Record<string, Spec> = { ...classFeatureSpecs, ...classFeatureSpecs2, ...featItemSpecs, ...creationSpecs1, ...creationSpecs2, ...creationSpecs3, ...creationSpecs4, ...creationSpecs5, ...creationSpecs6, ...creationSpecs7, ...summonSpecs };

@@ -110,6 +110,13 @@
       "system": "dnd5e"
     },
     {
+      "name": "summons",
+      "label": "OP5e Summons",
+      "path": "packs/summons",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
       "name": "ships",
       "label": "OP5e Ships",
       "path": "packs/ships",
@@ -147,6 +154,7 @@
         "spell-lists",
         "devil-fruits",
         "monsters",
+        "summons",
         "ships",
         "ship-weapons"
       ]

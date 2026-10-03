@@ -79,6 +79,7 @@ const PACK_CONFIGS: PackConfig[] = [
   { name: "devil-fruits", srcDir: "devil-fruits", schema: foundryItemBase },
   { name: "spell-lists", srcDir: "spell-lists", schema: foundryJournalBase, collection: "journal" },
   { name: "monsters", srcDir: "actors", schema: foundryActorBase, collection: "actors" },
+  { name: "summons", srcDir: "summons", schema: foundryActorBase, collection: "actors" },
   { name: "ships", srcDir: "ships", schema: foundryActorBase, collection: "actors" },
   { name: "ship-weapons", srcDir: "ship-weapons", schema: foundryItemBase },
 ];
