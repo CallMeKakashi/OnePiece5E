@@ -14,7 +14,8 @@ const SETTING = "prerequisiteMode";
 const SKILL_ABBR = { acrobatics: "acr", "animal handling": "ani", arcana: "arc", athletics: "ath", deception: "dec", history: "his", insight: "ins", intimidation: "itm", investigation: "inv", medicine: "med", nature: "nat", perception: "prc", performance: "prf", persuasion: "per", religion: "rel", "sleight of hand": "slt", stealth: "ste", survival: "sur" };
 const ABILITY_LABEL = { str: "Strength", dex: "Dexterity", con: "Constitution", int: "Intelligence", wis: "Wisdom", cha: "Charisma" };
 
-const singular = (s) => String(s).toLowerCase().replace(/[’']/g, "'").trim().replace(/ies$/, "y").replace(/(ch|sh|x|ss)es$/, "$1").replace(/s$/, "");
+// weapon names in the book are plural ("handaxes", "glaives", "quarterstaffs"): strip one trailing "s", keep "cutlass"/"lance"
+const singular = (s) => String(s).toLowerCase().replace(/[’']/g, "'").trim().replace(/ies$/, "y").replace(/([^s])s$/, "$1");
 const slug = (s) => singular(s).replace(/[^a-z0-9]/g, "");
 
 let weaponTypes = null; // slug -> "sim" | "mar", read once from the op5e items pack index
@@ -117,10 +118,10 @@ export function registerPrerequisites() {
     choices: { enforce: "Enforce", warn: "Warn only", off: "Off" },
   });
 
-  Hooks.once("ready", async () => {
+  // wrap at "setup" (data models exist, before any actor is prepared) so nothing can validate unwrapped; the weapon table loads after
+  Hooks.once("setup", () => {
     const FeatData = CONFIG.Item.dataModels?.feat;
     if (!FeatData?.prototype?.validatePrerequisites || FeatData.prototype.validatePrerequisites.__op5e) return;
-    await loadWeaponTypes().catch(() => {});
     const original = FeatData.prototype.validatePrerequisites;
     const wrapped = function (actor, options = {}) {
       const base = original.call(this, actor, { ...options, showMessage: false, throwError: false });
@@ -141,4 +142,5 @@ export function registerPrerequisites() {
     wrapped.__op5e = true;
     FeatData.prototype.validatePrerequisites = wrapped;
   });
+  Hooks.once("ready", () => { loadWeaponTypes().catch(() => {}); });
 }

@@ -13,7 +13,14 @@ const SRC = { book: "OP5e", page: "", custom: "", license: "" };
 
 function role(id: string, name: string, desc: string, effects: unknown[] = []): FoundryItem {
   const { advancement: equipment, startingBeri, grantQuantities } = roleEquipmentAdvancement(id);
-  const advancement = [...equipment, ...backgroundOriginAdvancement(`role/${id}`, desc, (m) => console.warn(`  ⚠ ${m}`))];
+  // Roles are granted by the class level-1 ItemChoice, so their own advancement must fire at level 1 (not 0).
+  const advancement = [...equipment, ...backgroundOriginAdvancement(`role/${id}`, desc, (m) => console.warn(`  ⚠ ${m}`))].map((a) => {
+    const adv = a as unknown as { level: number; configuration?: { choices?: Record<string, unknown> } };
+    adv.level = 1;
+    const ch = adv.configuration?.choices;
+    if (a.type === "ItemChoice" && ch && !Array.isArray(ch) && "0" in ch) { ch["1"] = ch["0"]; delete ch["0"]; }
+    return a;
+  });
   return {
     _id: generateId(`role/${id}`),
     name: `Role: ${name}`,

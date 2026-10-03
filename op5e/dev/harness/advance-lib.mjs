@@ -29,7 +29,7 @@ export const pageLib = (built) => {
   globalThis.__op5eBuilt = (pack) => Object.values(built[pack]).map((d) => find(`Compendium.op5e.${pack}.${d._id}`));
   globalThis.__op5eFind = find;
 
-  /** Applies every step of an AdvancementManager. ctx: { level, sub, note(msg), granted[] } */
+  /** Applies every step of an AdvancementManager. ctx: { level, sub, note(msg), granted[], haki?, fruit? } */
   globalThis.__op5eRun = async (mgr, ctx) => {
     const AM = dnd5e.applications.advancement.AdvancementManager, clone = mgr.clone;
     const { level, sub, note, granted } = ctx;
@@ -39,9 +39,22 @@ export const pageLib = (built) => {
       switch (adv.constructor.typeName) {
         case "ItemChoice": {
           const have = chosenSet(adv), count = adv.configuration.choices[lvl]?.count ?? 0, out = {};
-          for (const p of adv.configuration.pool) {
+          const docs = [];
+          for (const p of adv.configuration.pool) { const doc = await fromUuid(p.uuid); if (doc) docs.push({ uuid: p.uuid, doc }); }
+          // Role: first role; Devil Fruit: "No Devil Fruit (yet)" (or ctx.fruit); Haki: ctx.haki[level] branch when given
+          const wantName = /devil fruit/i.test(String(adv.title)) ? (ctx.fruit ?? "No Devil Fruit") : null, branch = ctx.haki?.[lvl];
+          const rank = ({ doc }) => (wantName && doc.name.toLowerCase().includes(wantName.toLowerCase())) || (branch && doc.name.toLowerCase().includes(branch)) ? 0 : 1;
+          docs.sort((x, y) => rank(x) - rank(y));
+          const idOf = (d) => d.system?.identifier ?? d.identifier;
+          for (const { uuid, doc } of docs) {
             if (Object.keys(out).length >= count) break;
-            if (!have.has(p.uuid) && (await fromUuid(p.uuid))) out[p.uuid] = true;
+            if (have.has(uuid)) continue;
+            // what dnd5e's ItemChoice UI does: only offer pool entries whose native prerequisites pass
+            if (doc.system?.validatePrerequisites) {
+              const added = [...have, ...Object.keys(out)].map((u) => fromUuidSync(u)).filter(Boolean);   // dnd5e reads i.system.identifier itself: pass the item documents
+              if (doc.system.validatePrerequisites(clone, { added, level: clone.system.details?.level }) !== true) continue;
+            }
+            out[uuid] = true;
           }
           if (Object.keys(out).length < count) note(`L${lvl} ${adv.title}: only ${Object.keys(out).length}/${count} choices available`);
           return out;

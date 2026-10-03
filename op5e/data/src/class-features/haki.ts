@@ -2,6 +2,15 @@ import type { FeatureItem } from "../../schemas/feature.js";
 import { generateId } from "../../helpers/id.js";
 import { createDAEEffect, addBonus } from "../../helpers/effects.js";
 
+const TIER_ORDER = ["novice", "apprentice", "journeyman", "adept", "master"];
+const TIER_LEVELS = [8, 10, 12, 14, 16];
+/** Level per tier (book) and the previous tier of the same branch as required item. */
+function hakiPrereqs(slug: string) {
+  const [branch, tier] = slug.split("-") as [string, string];
+  const i = TIER_ORDER.indexOf(tier);
+  return { level: TIER_LEVELS[i]!, items: i > 0 ? [`${branch}-${TIER_ORDER[i - 1]}`] : [], repeatable: false };
+}
+
 function hakiAbility(
   slug: string,
   name: string,
@@ -24,6 +33,9 @@ function hakiAbility(
       source: { book: "OP5e", page: "", custom: "", license: "" },
       type: { value: "class", subtype: "" },
       requirements,
+      // native dnd5e prerequisites: ItemChoice filters the pool with these (items are identifiers)
+      identifier: slug,
+      prerequisites: hakiPrereqs(slug),
       activation: options.activation ?? { type: "", cost: null, condition: "" },
       duration: { value: null, units: "" },
       target: { value: null, width: null, units: "", type: "" },

@@ -2,7 +2,6 @@ import { initOp5eAnimations } from "./animations.mjs";
 import { applyOp5eCriticalDamage, looksLikeDamageRollConfig } from "./crit-damage.mjs";
 import { MODULE_ID, MODULE_VERSION } from "./constants.mjs";
 import { registerOp5eFeatureHooks } from "./feature-hooks.mjs";
-import { registerOp5eHakiAdvancementHooks } from "./haki-advancement.mjs";
 import { registerOp5eEquipmentGrantHooks } from "./equipment-grant-advancement.mjs";
 
 const DEFAULT_CURRENCY_PER_WEIGHT = { imperial: 50, metric: 110 };
@@ -64,7 +63,6 @@ Hooks.once("init", () => {
 
 Hooks.once("setup", () => {
   registerOp5eFeatureHooks();
-  registerOp5eHakiAdvancementHooks();
   registerOp5eEquipmentGrantHooks();
 });
 

@@ -101,6 +101,8 @@ const featureSystemSchema = z.object({
   source: sourceSchema.default({}),
   type: featureTypeSchema,
   requirements: z.string().default(""),
+  identifier: z.string().optional(),
+  prerequisites: z.object({ level: z.number().nullable().optional(), items: z.array(z.string()).optional(), repeatable: z.boolean().optional() }).optional(),
   activation: activationSchema,
   duration: durationSchema,
   target: targetSchema,

@@ -106,6 +106,7 @@ function hakiChoiceLabel(level: number): string {
 export function createHakiItemChoice(classId: string, level: number): AdvancementEntry {
   const entry = createItemChoiceRestricted(classId, level, allHakiUuids(), {
     label: hakiChoiceLabel(level),
+    restrictionType: "", // Haki feats are type "class"; a "feat" restriction would reject them
   });
 
   entry.configuration.op5eHakiChoice = true;

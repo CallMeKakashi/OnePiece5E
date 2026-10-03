@@ -14,6 +14,7 @@ import {
   createHakiTierScaleValue,
 } from "../../helpers/haki-advancement.js";
 import { classStartingEquipmentAdvancement } from "./class-equipment-grants.js";
+import { createOriginChoices } from "../../helpers/origin-choices.js";
 import type { ClassItem } from "../../schemas/class.js";
 import {
   rage,
@@ -155,6 +156,7 @@ export const barbarian: ClassItem = {
 
       // --- Haki feat choices (branching pool; filtered at runtime) ---
       ...createHakiAdvancementChoices(CLASS_ID),
+      ...createOriginChoices(CLASS_ID),
 
       // --- Scale Values ---
       createScaleValue(CLASS_ID, "rages", "number", {

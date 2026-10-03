@@ -15,6 +15,7 @@ import {
   createHakiTierScaleValue,
 } from "../../helpers/haki-advancement.js";
 import { classStartingEquipmentAdvancement } from "./class-equipment-grants.js";
+import { createOriginChoices } from "../../helpers/origin-choices.js";
 import {
   deftExplorer1,
   deftExplorer6,
@@ -164,6 +165,7 @@ export const marksman: ClassItem = {
 
       // --- Haki feat choices (branching pool; filtered at runtime) ---
       ...createHakiAdvancementChoices(CLS),
+      ...createOriginChoices(CLS),
 
       // --- Scale Values ---
       createScaleValue(CLS, "favored-mark", "dice", {

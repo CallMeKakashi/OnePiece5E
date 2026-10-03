@@ -15,6 +15,7 @@ import {
   createHakiTierScaleValue,
 } from "../../helpers/haki-advancement.js";
 import { classStartingEquipmentAdvancement } from "./class-equipment-grants.js";
+import { createOriginChoices } from "../../helpers/origin-choices.js";
 import {
   rallyingPresence,
   fightingStyleSavant,
@@ -109,6 +110,7 @@ export const savant: ClassItem = {
 
       // --- Haki feat choices (branching pool; filtered at runtime) ---
       ...createHakiAdvancementChoices(CLS),
+      ...createOriginChoices(CLS),
 
       // --- Level 5: Extra Attack ---
       createItemGrant(CLS, 5, [

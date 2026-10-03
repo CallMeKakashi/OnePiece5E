@@ -1,6 +1,6 @@
 import { registerSettings } from "./settings.mjs";
 import { registerPrerequisites, unmetPrerequisites } from "./prerequisites.mjs";
-import { buildProspectiveActor, createFromDraft } from "./wizard/create.mjs";
+import { createFromDraft } from "./wizard/create.mjs";
 import { OP5eCharacterCreatorWizard } from "./wizard/WizardApp.mjs";
 
 Hooks.once("init", () => {
@@ -19,7 +19,6 @@ Hooks.once("ready", () => {
     /** createFromDraft(draft, {auto, hpMode, notes}) — headless-capable; see wizard/create.mjs. */
     createFromDraft: (draft, opts) => createFromDraft(draft, opts),
     unmetPrerequisites,
-    buildProspectiveActor,
   };
 });
 

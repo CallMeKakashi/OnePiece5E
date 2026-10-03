@@ -1,5 +1,3 @@
-import { checkPrereq, unmetPrerequisites } from "../prerequisites.mjs";
-import { setHakiPreselection } from "../haki-advancement.mjs";
 import {
   applyStartingBeri,
   importFromPackWithAdvancements,
@@ -43,7 +41,6 @@ export function defaultData() {
     tokenImg: "",
     speciesId: "",
     backgroundId: "",
-    roleFeatId: "",
     classId: "",
     level: 1,
     subclassId: "",
@@ -52,20 +49,18 @@ export function defaultData() {
     subclassId2: "",
     hpMode: "avg", // avg | roll (roll, but never below the average)
     autoApply: false, // testing: auto-apply default advancement choices
-    haki: {}, // choice level -> armament|observation|conqueror
     abilities: defaultAbilities(),
     abilityMethod: "pointBuy", // roll|array|ursa|pointBuy
-    fork: { kind: "additionalPower", additionalPowerFeatId: "" },
   };
 }
 
-/** Draft data with every field present (older drafts predate the level/subclass/haki fields). */
+/** Draft data with every field present (older drafts predate the level/subclass fields). */
 export function withDefaults(data) {
   const base = defaultData();
   const out = { ...base, ...(data ?? {}) };
-  out.fork = { ...base.fork, ...(data?.fork ?? {}) };
   out.abilities = { ...base.abilities, ...(data?.abilities ?? {}) };
-  out.haki = { ...(data?.haki ?? {}) };
+  // drafts from before role/fruit/Haki became class advancement choices carry dead fields
+  for (const k of ["roleFeatId", "fork", "haki"]) delete out[k];
   return out;
 }
 
@@ -103,37 +98,6 @@ export async function classInfo(classId) {
   return { id: classId, name: doc.name, identifier, subclassLevel: subclassLevelOf(doc), subclasses: await subclassesForClass(identifier) };
 }
 
-/** Unsaved actor built from the draft (abilities, species, class) for checking prerequisites before anything is created. */
-export async function buildProspectiveActor(data) {
-  const items = [];
-  for (const [pack, id] of [[PACKS.species, data.speciesId], [PACKS.classes, data.classId]]) {
-    const doc = id ? await game.packs.get(pack)?.getDocument(id) : null;
-    if (doc) items.push(doc.toObject());
-  }
-  const abilities = Object.fromEntries(ABILITY_KEYS.map((k) => [k, { value: Number(data.abilities?.[k] ?? 8) }]));
-  return new Actor.implementation({ name: "Prospective", type: "character", system: { abilities }, items });
-}
-
-/**
- * Unmet prerequisites decidable before the character exists (ability scores, race, level). Proficiency and creation
- * requirements come from advancements that have not run yet, so they are checked on the real actor later.
- */
-export function prospectiveUnmet(root, prospective, level = 1) {
-  const prereq = root?.flags?.op5e?.prereq;
-  if (!prereq) return [];
-  const { abilities, races, notRaces } = prereq;
-  return checkPrereq({ abilities, races, notRaces, level: prereq.level }, prospective, { level }).unmet;
-}
-
-/** Additional Power roots with unmet-prerequisite reasons (empty `unmet` = selectable). */
-export async function additionalPowerRootsWithStatus(data, roots) {
-  const prospective = await buildProspectiveActor(data);
-  const total = totalLevels(data);
-  const idx = await indexPack(PACKS.classFeatures, ["type", "name", "flags.op5e"]);
-  const byId = new Map(idx.map((e) => [e._id, e]));
-  return roots.map((r) => ({ ...r, unmet: prospectiveUnmet(byId.get(r._id), prospective, total) }));
-}
-
 function clampLevel(v) {
   return Math.min(MAX_LEVEL, Math.max(1, Math.floor(Number(v)) || 1));
 }
@@ -142,28 +106,8 @@ export function totalLevels(data) {
   return clampLevel(data.level) + (data.classId2 ? clampLevel(data.level2) : 0);
 }
 
-async function importAdditionalPowerTree(actor, rootFeatId, opts) {
-  const pack = game.packs.get(PACKS.classFeatures);
-  if (!pack || !rootFeatId) return [];
-  const rootDoc = await pack.getDocument(rootFeatId);
-  if (!rootDoc) return [];
-
-  const imported = [];
-  await importFromPackWithAdvancements(actor, PACKS.classFeatures, rootFeatId, opts);
-  imported.push(rootDoc);
-
-  const index = await indexPack(PACKS.classFeatures, ["type", "name", "system.requirements", "flags.op5e"]);
-  for (const entry of index) {
-    if (entry._id === rootFeatId || entry.type !== "feat") continue;
-    if (String(entry.system?.requirements ?? "").trim() !== rootDoc.name) continue;
-    const subDoc = await importFromPackWithAdvancements(actor, PACKS.classFeatures, entry._id, opts);
-    if (subDoc) imported.push(subDoc);
-  }
-  return imported;
-}
-
 /**
- * Build a character from a draft: create at level 1, import species/background/role/class(es) through
+ * Build a character from a draft: create at level 1, import species/background/class(es) through
  * AdvancementManager, then level each class one level at a time with AdvancementManager.forLevelChange.
  *
  * @param {object} draft  {actorKind?, data:{...}} or the bare data object
@@ -196,14 +140,6 @@ export async function createFromDraft(draft, opts = {}) {
   const level2 = data.classId2 ? clampLevel(data.level2) : 0;
   if (level1 + level2 > MAX_LEVEL) fail(`Total level ${level1 + level2} exceeds ${MAX_LEVEL}.`);
 
-  // Refuse an Additional Power whose prerequisites the draft already fails, before anything is created.
-  const rootId = data.fork?.kind === "additionalPower" ? data.fork.additionalPowerFeatId : "";
-  if (rootId) {
-    const root = await game.packs.get(PACKS.classFeatures)?.getDocument(rootId);
-    const unmet = root ? prospectiveUnmet(root, await buildProspectiveActor(data), level1 + level2) : [];
-    if (unmet.length) fail(`Additional Power ${root.name} refused, requirements not met: ${unmet.join("; ")}.`);
-  }
-
   const classes = [];
   for (const [id, level, subId] of [[data.classId, level1, data.subclassId], [data.classId2, level2, data.subclassId2]]) {
     if (!id) continue;
@@ -228,14 +164,13 @@ export async function createFromDraft(draft, opts = {}) {
   );
   if (!actor) throw new Error("Actor creation failed.");
 
-  const run = { auto, hpMode, notes, haki: data.haki };
+  // opts.haki (choice level -> branch) and opts.fruit (template name) only steer the headless auto mode
+  const run = { auto, hpMode, notes, haki: opts.haki, fruit: opts.fruit };
   const imported = [];
-  setHakiPreselection(data.haki);
-  try {
+  {
     for (const [pack, id] of [
       [PACKS.species, data.speciesId],
       [PACKS.backgroundsAndRoles, data.backgroundId],
-      [PACKS.backgroundsAndRoles, data.roleFeatId],
     ]) {
       const doc = await importFromPackWithAdvancements(actor, pack, id, run);
       if (doc) imported.push(doc);
@@ -243,36 +178,22 @@ export async function createFromDraft(draft, opts = {}) {
 
     // Both classes enter at level 1 (class 1 first, so it is the starting class that grants starting equipment).
     for (const c of classes) {
-      const doc = await importFromPackWithAdvancements(actor, PACKS.classes, c.id, run);
+      // a class that picks its subclass at level 1 (Savant) shows the Subclass step during this very import
+      const doc = await importFromPackWithAdvancements(actor, PACKS.classes, c.id, { ...run, subUuid: c.sub?.uuid });
       if (doc) imported.push(doc);
       c.item = actor.items.find((i) => i.type === "class" && i.system.identifier === c.identifier);
     }
 
     if (!auto && classes.some((c) => c.level > 1)) {
       const hints = classes.filter((c) => c.sub).map((c) => `subclass ${c.sub.name} (${c.name})`);
-      const haki = Object.entries(data.haki).filter(([, b]) => b).map(([l, b]) => `L${l} ${b}`);
-      ui.notifications?.info(`Level-up will prompt in turn. Chosen: ${[...hints, ...(haki.length ? [`Haki ${haki.join(", ")}`] : [])].join("; ") || "no presets"}.`);
+      ui.notifications?.info(`Level-up will prompt in turn (role, devil fruit and Haki are class choices). ${hints.join("; ")}`.trim());
     }
     for (const c of classes) {
       if (!c.item) { notes.push(`${c.name}: class item missing after import.`); continue; }
       await levelClassTo(actor, c.item.id, c.level, { ...run, subUuid: c.sub?.uuid });
     }
 
-    if (rootId) {
-      const root = await game.packs.get(PACKS.classFeatures)?.getDocument(rootId);
-      const unmet = root ? unmetPrerequisites(root, actor) : [];
-      if (unmet.length) {
-        const msg = `Additional Power ${root.name} refused, requirements not met: ${unmet.join("; ")}.`;
-        notes.push(`REFUSED: ${msg}`);
-        ui.notifications?.error(msg);
-      } else {
-        imported.push(...(await importAdditionalPowerTree(actor, rootId, run)));
-      }
-    }
-
     await applyStartingBeri(actor, imported);
-  } finally {
-    setHakiPreselection({});
   }
   return actor;
 }

@@ -1,10 +1,10 @@
 // Headless test of the Create-OPC wizard back end: for every class (3 species/backgrounds rotated) builds a draft and calls
 // game.op5eCharacterCreator.createFromDraft(draft, {auto:true}) at levels 1, 5 and 12 (Haki), then asserts the character:
-//  - exists, has race / background / class items, class level and character level as requested,
+//  - exists, has race / background / class items, class level and character level as requested, exactly one role (flags.op5e.shipRole),
 //  - has the subclass when the level reached the class's Subclass advancement level, HP > 0,
 //  - point-buy abilities do not end below what was bought (species bonuses add on top),
-//  - no errors were thrown and no advancement note() was raised,
-// plus: an Additional Power whose ability prerequisite the draft fails is refused (nothing created).
+//  - no errors were thrown and no advancement note() was raised.
+// Role, devil fruit and Haki are class advancement choices (picked by the auto-advancer), not wizard steps.
 // Usage: node dev/harness/wizard.mjs [Class ...]    env LEVELS=1,5,12 to override.   Writes reports/execution-wizard.json (test world only).
 import { writeFileSync } from "node:fs";
 import { withFoundry } from "./drive.mjs";
@@ -39,12 +39,10 @@ const run = async (p) => {
       data: {
         name: `[WZ] ${p.cls} L${p.level}`, speciesId: species._id, backgroundId: bg._id, classId: cls._id, level: p.level,
         subclassId: wantSub?._id ?? "", abilities, abilityMethod: "pointBuy", hpMode: "avg",
-        haki: p.level >= 8 ? { 8: "armament", 10: "observation", 12: "conqueror" } : {},
-        fork: { kind: "devilFruitLater", additionalPowerFeatId: "" },
       },
     };
     const notes = [];
-    actor = await API.createFromDraft(draft, { auto: true, notes, noSheet: true });
+    actor = await API.createFromDraft(draft, { auto: true, notes, noSheet: true, haki: { 8: "armament", 10: "observation", 12: "conqueror" } });
     out.notes = notes;
     for (const n of notes) out.fails.push(`note: ${n}`);
     actor = game.actors.get(actor.id);
@@ -59,36 +57,18 @@ const run = async (p) => {
     const total = Object.values(actor.system.abilities).reduce((s, a) => s + a.value, 0);
     if (total < 69) out.fails.push(`ability total ${total} below the 69 bought`);
     for (const k of ["str", "dex", "con"]) if (actor.system.abilities[k].value < 15) out.fails.push(`${k} ${actor.system.abilities[k].value} below bought 15`);
-    const haki = actor.items.filter((i) => /armament|observation|conqueror/i.test(i.name) && /haki/i.test(`${i.name} ${i.system?.requirements ?? ""} ${i.system?.type?.subtype ?? ""}`)).length;
+    const roles = actor.items.filter((i) => i.flags?.op5e?.shipRole).length;
+    if (roles !== 1) out.fails.push(`${roles} role feat(s), expected 1`);
+    // Haki tiers are named "Color of Armament/Observation <Tier>" and "Conqueror's Haki <Tier>"; one is chosen at each of levels 8, 10, 12, 14, 16
+    const haki = actor.items.filter((i) => /^(color of (armament|observation)|conqueror's haki) (novice|apprentice|journeyman|adept|master)$/i.test(i.name)).length;
     out.haki = haki;
+    const wantHaki = [8, 10, 12, 14, 16].filter((l) => l <= p.level).length;
+    if (haki !== wantHaki) out.fails.push(`haki: ${haki} tier(s) granted, expected ${wantHaki} by level ${p.level}`);
     out.row = { hp: actor.system.attributes.hp.max, total, items: actor.items.size, subclass: actor.items.find((i) => i.type === "subclass")?.name ?? null };
   } catch (e) {
     out.fails.push(`threw: ${String(e.message).slice(0, 200)}`);
   }
   if (actor) await game.actors.get(actor.id)?.delete().catch(() => {});
-  return out;
-};
-
-const refusal = async () => {
-  const API = game.op5eCharacterCreator, out = { cls: "(Additional Power refusal)", level: 1, fails: [], notes: [] };
-  try {
-    const idx = await game.packs.get("op5e.class-features").getIndex({ fields: ["type", "name", "flags.op5e"] });
-    const roots = idx.filter((e) => e.type === "feat" && e.flags?.op5e?.additionalPowerRoot === true && e.flags?.op5e?.prereq?.abilities?.length);
-    const species = (await game.packs.get("op5e.races").getIndex({ fields: ["type"] })).find((e) => e.type === "race");
-    const cls = (await game.packs.get("op5e.classes").getIndex({ fields: ["type"] })).find((e) => e.type === "class");
-    const abilities = { str: 8, dex: 8, con: 8, int: 8, wis: 8, cha: 8 };
-    const bad = roots.find((r) => r.flags.op5e.prereq.abilities.every((a) => a.min > 8));
-    if (!bad) { out.notes.push("skipped: no Additional Power root with an ability prerequisite found"); return out; }
-    const before = game.actors.size;
-    let threw = null;
-    try {
-      const a = await API.createFromDraft({ data: { name: "[WZ] refusal", speciesId: species._id, classId: cls._id, abilities, abilityMethod: "roll", fork: { kind: "additionalPower", additionalPowerFeatId: bad._id } } }, { auto: true, noSheet: true });
-      await a?.delete();
-    } catch (e) { threw = String(e.message); }
-    out.notes.push(`root ${bad.name}: ${threw ?? "NOT refused"}`);
-    if (!threw || !/refused/i.test(threw)) out.fails.push(`unmet Additional Power ${bad.name} was not refused (${threw})`);
-    if (game.actors.size !== before) { out.fails.push("an actor was left behind after the refusal"); for (const a of game.actors.filter((x) => x.name === "[WZ] refusal")) await a.delete(); }
-  } catch (e) { out.fails.push(`threw: ${String(e.message).slice(0, 200)}`); }
   return out;
 };
 
@@ -101,9 +81,6 @@ try {
       results.push(r);
       console.log(`${r.fails.length ? "FAIL" : "ok  "} ${r.cls} L${r.level}${r.setup ? ` (${r.setup.species}/${r.setup.background}${r.setup.sub ? `/${r.setup.sub}` : ""})` : ""}${r.row ? ` hp ${r.row.hp} haki ${r.haki}` : ""}${r.fails.length ? `: ${r.fails.slice(0, 3).join(" | ")}` : ""}`);
     }
-    const r = await page.evaluate(`(${refusal.toString()})()`).catch((e) => ({ cls: "(Additional Power refusal)", level: 1, fails: [`harness: ${String(e.message).slice(0, 160)}`], notes: [] }));
-    results.push(r);
-    console.log(`${r.fails.length ? "FAIL" : "ok  "} ${r.cls}: ${r.notes.join(" ")}${r.fails.length ? ` ${r.fails.join(" | ")}` : ""}`);
   });
 } catch (e) { console.log(e.code ?? e.stack); process.exit(2); }
 writeFileSync("reports/execution-wizard.json", JSON.stringify(results, null, 1));

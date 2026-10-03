@@ -2,18 +2,8 @@
  * Headless ("auto-apply default choices") driver for dnd5e AdvancementManager, used by the wizard's testing option
  * and game.op5eCharacterCreator.createFromDraft(draft, {auto:true}). The player-facing path never uses this: it renders
  * the manager UI exactly like Foundry's own Level Up. Ported from dev/harness/advance-lib.mjs (__op5eRun) and extended with
- * subclass, Haki preselection, hit-point mode and prerequisite-aware feat picks.
+ * subclass, hit-point mode and native-prerequisite-aware ItemChoice picks.
  */
-import { unmetPrerequisites } from "../prerequisites.mjs";
-import {
-  collectOwnedHakiSlugs,
-  collectPriorHakiSlugsForChoiceLevel,
-  filterHakiPoolForAdvancementStep,
-  getAvailableHakiUuids,
-  hakiSlugFromUuid,
-  isHakiItemChoiceConfig,
-} from "../haki-advancement-lib.mjs";
-
 const ABILITIES = ["str", "dex", "con", "int", "wis", "cha"];
 
 function chosenSet(adv) {
@@ -28,23 +18,32 @@ async function pick(manager, flow, adv, ctx) {
     case "ItemChoice": {
       const count = adv.configuration.choices[lvl]?.count ?? 0;
       const have = chosenSet(adv);
-      let pool = adv.configuration.pool ?? [];
       const out = {};
-      if (isHakiItemChoiceConfig(adv.configuration)) {
-        const owned = new Set([...collectOwnedHakiSlugs(clone), ...collectPriorHakiSlugsForChoiceLevel(manager, lvl)]);
-        const valid = getAvailableHakiUuids(owned);
-        pool = filterHakiPoolForAdvancementStep(pool, manager, lvl).filter((e) => valid.has(e.uuid));
-        const want = ctx.haki?.[lvl];
-        const preferred = want ? pool.filter((e) => hakiSlugFromUuid(e.uuid)?.startsWith(`${want}-`)) : [];
-        pool = [...preferred, ...pool.filter((e) => !preferred.includes(e))];
-      }
-      for (const p of pool) {
-        if (Object.keys(out).length >= count) break;
-        if (have.has(p.uuid)) continue;
+      const docs = [];
+      for (const p of adv.configuration.pool ?? []) {
         const doc = await fromUuid(p.uuid);
-        if (!doc) continue;
-        if (doc.type === "feat" && unmetPrerequisites(doc, clone, { level: clone.system.details?.level }).length) continue;
-        out[p.uuid] = true;
+        if (doc) docs.push({ uuid: p.uuid, doc });
+      }
+      // Preferences: Role takes the first role, Devil Fruit "No Devil Fruit (yet)" (or ctx.fruit), Haki the preset branch.
+      const title = String(adv.title ?? "");
+      const wantName = /devil fruit/i.test(title) ? (ctx.fruit ?? "No Devil Fruit") : null;
+      const branch = ctx.haki?.[lvl];
+      const rank = ({ doc }) =>
+        wantName && doc.name.toLowerCase().includes(wantName.toLowerCase()) ? 0
+        : branch && doc.name.toLowerCase().includes(branch) ? 0 : 1;
+      docs.sort((x, y) => rank(x) - rank(y));
+      const picked = [...have];
+      const idOf = (doc) => doc.system?.identifier ?? doc.identifier;
+      for (const { uuid, doc } of docs) {
+        if (Object.keys(out).length >= count) break;
+        if (have.has(uuid)) continue;
+        // what dnd5e's ItemChoice UI does: only offer entries whose native prerequisites pass
+        if (doc.system?.validatePrerequisites) {
+          // dnd5e's validatePrerequisites reads i.system.identifier itself: pass the item documents, not identifiers
+          const added = [...picked.map((u) => fromUuidSync(u)).filter(Boolean), ...Object.keys(out).map((u) => docs.find((d) => d.uuid === u).doc)];
+          if (doc.system.validatePrerequisites(clone, { added, level: clone.system.details?.level }) !== true) continue;
+        }
+        out[uuid] = true;
       }
       if (Object.keys(out).length < count) ctx.note(`L${lvl} ${adv.title}: only ${Object.keys(out).length}/${count} choices available`);
       return out;

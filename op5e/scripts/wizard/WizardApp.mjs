@@ -1,11 +1,10 @@
 import { MODULE_ID, getAllDrafts, setAllDrafts } from "../settings.mjs";
-import { isBackgroundEntry, isRoleEntry } from "./background-role.mjs";
+import { isBackgroundEntry } from "./background-role.mjs";
 import {
   ABILITY_METHODS,
   PACKS,
   URSA_ARRAY,
   abilitiesValid,
-  additionalPowerRootsWithStatus,
   classInfo,
   createFromDraft,
   defaultAbilities,
@@ -15,29 +14,14 @@ import {
   withDefaults
 } from "./create.mjs";
 import { isValidPointBuy, totalCost } from "./pointBuy.mjs";
-import { HAKI_BRANCHES, HAKI_CHOICE_LEVELS } from "../haki-advancement-lib.mjs";
 
 const { HandlebarsApplicationMixin, ApplicationV2 } = foundry.applications.api;
 
-const STEPS = [
-  "name",
-  "images",
-  "species",
-  "background",
-  "role",
-  "class",
-  "haki",
-  "abilities",
-  "fork",
-  "finish"
-];
+const STEPS = ["name", "images", "species", "background", "class", "abilities", "finish"];
 
-/** The haki step only exists once a class reaches the first Haki choice level. */
-function stepsFor(draft) {
-  const data = draft?.data ?? {};
-  const top = Math.max(Number(data.level) || 1, data.classId2 ? Number(data.level2) || 1 : 0);
-  const showHaki = top >= Math.min(...HAKI_CHOICE_LEVELS);
-  return STEPS.filter((s) => s !== "haki" || showHaki);
+/** Role, devil fruit and Haki are class advancement choices now, so there are no extra steps. */
+function stepsFor() {
+  return STEPS;
 }
 
 function nowIso() {
@@ -60,12 +44,6 @@ function mapIndexEntry(e) {
 
 function filterIndexByType(index, type) {
   return index.filter((e) => e.type === type).map(mapIndexEntry);
-}
-
-function filterAdditionalPowerRoots(index) {
-  return index
-    .filter((e) => e.type === "feat" && e.flags?.op5e?.additionalPowerRoot === true)
-    .map(mapIndexEntry);
 }
 
 function compendiumIdFromUuid(uuid) {
@@ -214,19 +192,16 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
     const draft = await this.#getDraft();
 
     // Sources
-    const [speciesIndex, bgRoleIndex, classIndex, classFeatureIndex, racialFeatIndex] = await Promise.all([
+    const [speciesIndex, bgRoleIndex, classIndex, racialFeatIndex] = await Promise.all([
       indexPack(PACKS.species),
       indexPack(PACKS.backgroundsAndRoles),
       indexPack(PACKS.classes),
-      indexPack(PACKS.classFeatures, ["type", "name", "img", "flags.op5e"]),
       indexPack(PACKS.racialFeatures).catch(() => [])
     ]);
 
     const speciesChoices = filterIndexByType(speciesIndex, "race");
     const backgroundChoices = bgRoleIndex.filter(isBackgroundEntry).map(mapIndexEntry);
-    const roleChoices = bgRoleIndex.filter(isRoleEntry).map(mapIndexEntry);
     const classChoices = filterIndexByType(classIndex, "class");
-    const additionalPowerChoices = filterAdditionalPowerRoots(classFeatureIndex);
 
     const speciesRacialFeats =
       draft.step === "species" && draft.data.speciesId
@@ -257,22 +232,6 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       });
     }
 
-    const hakiLevels = HAKI_CHOICE_LEVELS.filter(
-      (l) => l <= Math.max(Number(draft.data.level) || 1, draft.data.classId2 ? Number(draft.data.level2) || 1 : 0)
-    ).map((l) => ({
-      level: l,
-      branches: HAKI_BRANCHES.map((b) => ({ id: b, selected: draft.data.haki?.[l] === b }))
-    }));
-
-    let additionalPowers = additionalPowerChoices;
-    if (step === "fork" && draft.data.fork.kind === "additionalPower") {
-      additionalPowers = (await additionalPowerRootsWithStatus(draft.data, additionalPowerChoices)).map((r) => ({
-        ...r,
-        disabled: r.unmet.length > 0,
-        reason: r.unmet.join("; ")
-      }));
-    }
-
     const abilities = draft.data.abilities ?? defaultAbilities();
     const pbSpent = totalCost(abilities);
     const pbValid = isValidPointBuy(abilities);
@@ -286,7 +245,6 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       stepIndex,
       steps: visible,
       classBlocks,
-      hakiLevels,
       totalLevel: totalLevels(draft.data),
       abilityMax: draft.data.abilityMethod === "pointBuy" ? 15 : 20,
       abilityMin: draft.data.abilityMethod === "pointBuy" ? 8 : 3,
@@ -295,9 +253,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       choices: {
         species: speciesChoices,
         backgrounds: backgroundChoices,
-        roles: roleChoices,
-        classes: classChoices,
-        additionalPowers
+        classes: classChoices
       },
       speciesRacialFeats,
       pointBuy: {
@@ -322,12 +278,10 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
     // Radios and the class/level/method selects change what the step shows, so re-render after saving.
     const selector = [
       'input[type="radio"][name="speciesId"]',
-      'input[type="radio"][name="roleFeatId"]',
       'select[name="classId"]',
       'select[name="classId2"]',
       'input[name="level"]',
       'input[name="level2"]',
-      'select[name="forkKind"]',
       'select[name="abilityMethod"]'
     ].join(",");
     for (const el of form.querySelectorAll(selector)) {
@@ -449,11 +403,6 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
         draft.touched["data.backgroundId"] = true;
       }
 
-      if (step === "role") {
-        draft.data.roleFeatId = String(data.roleFeatId ?? "").trim();
-        draft.touched["data.roleFeatId"] = true;
-      }
-
       if (step === "class") {
         const clamp = (v) => Math.min(20, Math.max(1, Math.floor(Number(v)) || 1));
         draft.data.classId = String(data.classId ?? "").trim();
@@ -468,16 +417,6 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
         draft.data.hpMode = data.hpMode === "roll" ? "roll" : "avg";
         draft.data.autoApply = data.autoApply === true || data.autoApply === "true" || data.autoApply === "on";
         draft.touched["data.classId"] = true;
-      }
-
-      if (step === "haki") {
-        const haki = {};
-        for (const [k, v] of Object.entries(data)) {
-          if (!k.startsWith("haki.") || !v) continue;
-          haki[Number(k.split(".")[1])] = String(v);
-        }
-        draft.data.haki = haki;
-        draft.touched["data.haki"] = true;
       }
 
       if (step === "abilities") {
@@ -496,16 +435,6 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
         }
         draft.data.abilities = next;
         draft.touched["data.abilities"] = true;
-      }
-
-      if (step === "fork") {
-        const kind = String(data.forkKind ?? "").trim();
-        if (["devilFruitLater", "additionalPower"].includes(kind)) {
-          draft.data.fork.kind = kind;
-          draft.touched["data.fork.kind"] = true;
-        }
-        draft.data.fork.additionalPowerFeatId = String(data.additionalPowerFeatId ?? "").trim();
-        draft.touched["data.fork.additionalPowerFeatId"] = true;
       }
     });
   }
@@ -559,7 +488,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
     await app.#commitStepForm();
     const draft = await app.#getDraft();
 
-    // Validation, creation, level-up and the Additional Power prerequisite refusal live in createFromDraft.
+    // Validation, creation, level-up live in createFromDraft.
     const notes = [];
     try {
       await createFromDraft(draft, { auto: draft.data.autoApply, hpMode: draft.data.hpMode, notes });
@@ -579,7 +508,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
     }
 
     ui.notifications?.info(
-      "Actor created with species, background, role, and class advancements applied (levelled to target)."
+      "Actor created with species, background and class advancements applied (levelled to target)."
     );
     app.close();
   }

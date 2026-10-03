@@ -37,7 +37,7 @@ function waitForAdvancementManagerComplete(manager) {
 /**
  * Run a prepared manager: UI + wait for the player, or headless when opts.auto.
  * @param {object} manager
- * @param {{auto?: boolean, level?: number, subUuid?: string, haki?: object, hpMode?: string, notes?: string[]}} opts
+ * @param {{auto?: boolean, level?: number, subUuid?: string, haki?: object, fruit?: string, hpMode?: string, notes?: string[]}} opts
  * @returns {Promise<boolean>} false when the manager had no steps
  */
 export async function runManager(manager, opts = {}) {
@@ -48,6 +48,7 @@ export async function runManager(manager, opts = {}) {
       level: opts.level ?? 1,
       subUuid: opts.subUuid,
       haki: opts.haki,
+      fruit: opts.fruit,
       hpMode: opts.hpMode,
       note: (m) => notes.push(m),
     });

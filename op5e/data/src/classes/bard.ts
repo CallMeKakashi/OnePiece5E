@@ -14,6 +14,7 @@ import {
   createHakiTierScaleValue,
 } from "../../helpers/haki-advancement.js";
 import { classStartingEquipmentAdvancement } from "./class-equipment-grants.js";
+import { createOriginChoices } from "../../helpers/origin-choices.js";
 import { MUSICAL_INSTRUMENT_TRAIT_POOL } from "./class-proficiency-pools.js";
 import type { ClassItem } from "../../schemas/class.js";
 import {
@@ -186,6 +187,7 @@ export const bard: ClassItem = {
 
       // --- Haki feat choices (branching pool; filtered at runtime) ---
       ...createHakiAdvancementChoices(CLASS_ID),
+      ...createOriginChoices(CLASS_ID),
 
       // --- Scale Values ---
       createScaleValue(CLASS_ID, "bardic-inspiration", "dice", {

@@ -17,6 +17,7 @@ import {
 } from "../../helpers/haki-advancement.js";
 import { modUuids } from "../class-features/class-content.js";
 import { classStartingEquipmentAdvancement } from "./class-equipment-grants.js";
+import { createOriginChoices } from "../../helpers/origin-choices.js";
 import { ARTISAN_TOOL_TRAIT_POOL } from "./class-proficiency-pools.js";
 import {
   tinkering,
@@ -135,6 +136,7 @@ export const gadgeteer: ClassItem = {
 
       // --- Haki feat choices (branching pool; filtered at runtime) ---
       ...createHakiAdvancementChoices(CLS),
+      ...createOriginChoices(CLS),
 
       // --- Level 6: Tool Expertise ---
       createItemGrant(CLS, 6, [

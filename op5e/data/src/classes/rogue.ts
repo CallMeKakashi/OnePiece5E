@@ -14,6 +14,7 @@ import {
   createHakiTierScaleValue,
 } from "../../helpers/haki-advancement.js";
 import { classStartingEquipmentAdvancement } from "./class-equipment-grants.js";
+import { createOriginChoices } from "../../helpers/origin-choices.js";
 import type { ClassItem } from "../../schemas/class.js";
 import {
   expertise1,
@@ -185,6 +186,7 @@ export const rogue: ClassItem = {
 
       // --- Haki feat choices (branching pool; filtered at runtime) ---
       ...createHakiAdvancementChoices(CLASS_ID),
+      ...createOriginChoices(CLASS_ID),
     ) as any,
     spellcasting: { progression: "none", ability: "" },
     wealth: "4d4 * 10",

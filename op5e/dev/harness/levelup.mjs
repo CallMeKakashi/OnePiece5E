@@ -30,6 +30,10 @@ const run = async (p) => {
     let mgr = AM.forNewItem(actor, data, { automaticApplication: true });
     const subLevel = Array.from(cls.system.advancement ?? []).find((a) => a.type === "Subclass")?.level;   // some classes (Savant) choose it at level 1
     await __op5eRun(mgr, { level: 1, sub: subLevel === 1 ? sub : null, note, granted: [] }); mgr.clone.reset(); await persist(mgr.clone);
+    // role, devil fruit and Haki are class advancement choices: exactly one role and one devil-fruit choice at level 1
+    const roles = actor.items.filter((i) => i.flags?.op5e?.shipRole).length, fruits = actor.items.filter((i) => /devil fruit/i.test(i.name)).length;
+    if (roles !== 1) out.fails.push(`L1: ${roles} role feat(s), expected 1`);
+    if (fruits !== 1) out.fails.push(`L1: ${fruits} devil-fruit choice item(s), expected 1`);
     let prevHp = actor.system.attributes.hp.max, prevFeats = new Set(actor.items.filter((i) => i.type === "feat").map((i) => i.name));
     for (let lvl = 2; lvl <= 20; lvl++) {
       const c = actor.items.find((i) => i.type === "class");
@@ -60,6 +64,10 @@ const run = async (p) => {
         if (um && !Number.isFinite(Number(i.system.uses?.max))) out.fails.push(`L${lvl}: ${i.name} uses.max "${um}" -> ${i.system.uses?.max}`);
         if (i.system.activities && i.system.activities.size === 0 && i.system._source?.activities && Object.keys(i.system._source.activities).length) out.fails.push(`L${lvl}: ${i.name} lost its activities`);
       }
+      // Haki: one tier chosen at each of levels 8, 10, 12, 14, 16
+      const hakiCount = actor.items.filter((i) => /^(color of (armament|observation)|conqueror's haki) (novice|apprentice|journeyman|adept|master)$/i.test(i.name)).length;
+      const hakiWant = [8, 10, 12, 14, 16].filter((l) => l <= lvl).length;
+      if (hakiCount !== hakiWant) out.fails.push(`L${lvl}: ${hakiCount} Haki tier(s), expected ${hakiWant}`);
       row.features = actor.items.filter((i) => i.type === "feat").length; row.new = [...actor.items.filter((i) => i.type === "feat").map((i) => i.name)].filter((n) => !prevFeats.has(n)); prevFeats = new Set(actor.items.filter((i) => i.type === "feat").map((i) => i.name));
       out.levels.push(row);
     }
