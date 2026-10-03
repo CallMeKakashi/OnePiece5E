@@ -1,0 +1,2768 @@
+[
+ {
+  "pack": "backgrounds",
+  "name": "Swordsman",
+  "steps": 2,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Memento",
+   "Whetstone"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 2,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Pirate",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Alert"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Urchin",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Disguise Kit",
+   "Thieves' Tools",
+   "Dagger",
+   "Skulker"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Folk Hero",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Shovel",
+   "Pot, Iron",
+   "Unmatched Strength"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Slave",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Tough"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Gambler",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Playing Card Set",
+   "Memento",
+   "Lucky"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Mason",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Potter's Tools",
+   "Hammer",
+   "Master Mason"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Role: Deckhand",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Clothes, Common",
+   "Hammer",
+   "Spyglass"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Navigator",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Rations (1 day)",
+   "Cartographer's Tools",
+   "Navigator's Tools",
+   "Observant"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Shipwright",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Carpenter's Tools",
+   "Vehicle Master"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 3,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Carpenter",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Carpenter's Tools",
+   "Woodcarver's Tools",
+   "Book",
+   "Memento",
+   "Wooden Trinket",
+   "Master Carpenter"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Archaeologist",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Cartographer's Tools",
+   "Navigator's Tools",
+   "Lantern",
+   "Pick, Miner's",
+   "Shovel",
+   "Tent, Two-person",
+   "Clothes, Common",
+   "Historian"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Glutton",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Cook's Utensils",
+   "Recipe Book",
+   "Voracity"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Fisherman",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Fishing Tackle",
+   "Net",
+   "Master Fisherman"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Role: Helmsman",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Clothes, Common",
+   "Blanket",
+   "Memento"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 3,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Marine/Soldier",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Navy Uniform",
+   "Light Armor Master"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Boxer",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Boxing Gloves",
+   "Trophy",
+   "Unarmed Master"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Role: Captain",
+  "steps": 2,
+  "issues": [],
+  "granted": [
+   "Clothes, Common",
+   "Pirate Flag",
+   "Spyglass"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 3,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Farmer",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Herbalism Kit",
+   "Shovel",
+   "Critter Friend"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Revolutionary",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Rations (1 day)",
+   "Thieves' Tools",
+   "Rope, Hempen (50 feet)",
+   "Inspiring Leader"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Lumberjack",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Handaxe",
+   "Axe Mastery"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Knight",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Heavy Armor Master"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Noble",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Playing Card Set",
+   "Book",
+   "Diplomat"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Entertainer",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Disguise Kit",
+   "Playing Card Set",
+   "Performer"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Role: Musician",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Clothes, Costume",
+   "Flute"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 3,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Wanderer",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Playing Card Set"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 2,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Role: Shipwright",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Clothes, Common",
+   "Book",
+   "Carpenter's Tools"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Miner",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Rations (1 day)",
+   "Mason's Tools",
+   "Pick, Miner's",
+   "Bandages",
+   "Perceptive"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Hermit",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Herbalism Kit",
+   "Book",
+   "Skill Expert"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Acrobat",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Disguise Kit",
+   "Clothes, Costume",
+   "Acrobat"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Drunkard",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Brewer's Supplies",
+   "Flask or Tankard",
+   "Bottle, Glass",
+   "Tavern Brawler"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Merchant",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Silver Tongue"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Jeweler",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Jeweler's Tools",
+   "Glassblower's Tools",
+   "Magnifying Glass",
+   "Master Glassblower"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Librarian",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Rations (1 day)",
+   "Forgery Kit",
+   "Calligrapher's Supplies",
+   "Book",
+   "Skilled"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 3,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Mercenary",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Playing Card Set",
+   "Martial Adept"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Role: Doctor",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Clothes, Common",
+   "Herbalism Kit",
+   "Alchemist's Supplies",
+   "Stethoscope",
+   "Book"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Sniper",
+  "steps": 2,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Spyglass",
+   "Memento"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 2,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Role: Scholar",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Clothes, Common",
+   "Book",
+   "Ink (1 ounce bottle)",
+   "Ink Pen",
+   "Disguise Kit",
+   "Forgery Kit"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Tailor",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Weaver's Tools",
+   "Cobbler's Tools",
+   "Clothes, Costume",
+   "Leather Boots",
+   "Master Weaver"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Role: Master at Arms",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Clothes, Common",
+   "Longsword"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 3,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Detective",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Rations (1 day)",
+   "Disguise Kit",
+   "Magnifying Glass",
+   "Investigator"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Faceless",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Disguise Kit",
+   "Clothes, Costume",
+   "Rogue Adept"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Role: Cook",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Clothes, Common",
+   "Cook's Utensils",
+   "Dagger"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Author",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Rations (1 day)",
+   "Calligrapher's Supplies",
+   "Book",
+   "Storyteller"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Cook",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Rations (1 day)",
+   "Cook's Utensils",
+   "Mess Kit",
+   "Recipe Book",
+   "Gourmand"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Sailor",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Rope, Hempen (50 feet)",
+   "Observant"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Role: Navigator",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Clothes, Common",
+   "Cartographer's Tools",
+   "Navigator's Tools",
+   "Sea Charts, Local",
+   "Ink (1 ounce bottle)",
+   "Ink Pen"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Gladiator",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Charger"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Artist",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Painter's Supplies",
+   "Master Painter"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Leatherworker",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Dagger",
+   "Master Leatherworker"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Blacksmith",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Smith's Tools"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 2,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Doctor",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Healer's Kit",
+   "First Aid"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Priest",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Book",
+   "Vestments",
+   "Incense (stick)",
+   "Religious"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Smuggler",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Leather Vest",
+   "Leather Boots",
+   "Quick Fingers"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Bounty Hunter",
+  "steps": 4,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Thieves' Tools",
+   "Knack Of The Hunter"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "backgrounds",
+  "name": "Scientist",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Small Medkit",
+   "Rations (1 day)",
+   "Book",
+   "Creativity Adept"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 2,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ }
+]

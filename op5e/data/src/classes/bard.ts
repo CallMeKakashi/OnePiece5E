@@ -127,7 +127,7 @@ export const bard: ClassItem = {
       createTrait(CLASS_ID, 3, {
         mode: "expertise",
         grants: [],
-        choices: [{ count: 2, pool: [] }],
+        choices: [{ count: 2, pool: ["skills:*"] }],
         hint: "Choose two skill proficiencies",
       }, "expertise-3"),
       createItemGrant(CLASS_ID, 3, [
@@ -148,7 +148,7 @@ export const bard: ClassItem = {
       createTrait(CLASS_ID, 10, {
         mode: "expertise",
         grants: [],
-        choices: [{ count: 2, pool: [] }],
+        choices: [{ count: 2, pool: ["skills:*"] }],
         hint: "Choose two more skill proficiencies",
       }, "expertise-10"),
       createItemGrant(CLASS_ID, 10, [

@@ -1,0 +1,489 @@
+[
+ {
+  "pack": "races",
+  "name": "Augmented",
+  "steps": 7,
+  "issues": [],
+  "granted": [
+   "Accelerated Healing",
+   "Natural Armor",
+   "Spark of War",
+   "Powerful Build",
+   "Beast Body",
+   "Darkvision",
+   "Natural Weapons",
+   "Mechanical Improvements",
+   "Integrated Armor",
+   "Integrated Toolbox",
+   "Darkvision",
+   "Deathless Nature",
+   "Grave Fortitude"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 15,
+   "size": "sm",
+   "walk": 30,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 60,
+   "abilities": {
+    "str": 11,
+    "dex": 10,
+    "con": 11,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "races",
+  "name": "Fishman",
+  "steps": 6,
+  "issues": [],
+  "granted": [
+   "Aquatic Adaption",
+   "Darkvision",
+   "Powerful Build",
+   "Speech of the Sea",
+   "Manual Agility",
+   "Ambidextrous",
+   "Frightening",
+   "Natural Weapons",
+   "Natural Athlete",
+   "Strong Body"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 11,
+   "saves": "",
+   "skills": 0,
+   "features": 12,
+   "size": "sm",
+   "walk": 30,
+   "swim": 30,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 60,
+   "abilities": {
+    "str": 11,
+    "dex": 10,
+    "con": 11,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "races",
+  "name": "Lunarian",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Darkvision",
+   "Omni-Adapted",
+   "Flaming Duality",
+   "Flame Investure",
+   "Fire Bolt"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 6,
+   "size": "sm",
+   "walk": 30,
+   "swim": 0,
+   "fly": 30,
+   "climb": 0,
+   "darkvision": 60,
+   "abilities": {
+    "str": 11,
+    "dex": 10,
+    "con": 11,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "races",
+  "name": "Human",
+  "steps": 9,
+  "issues": [],
+  "granted": [
+   "Human Determination",
+   "Amazonian Bond",
+   "Minor Haki",
+   "Long Limbs",
+   "Sudden Reach",
+   "Tall Stride",
+   "Sprint",
+   "Steady Mind",
+   "Towering Gaze",
+   "Resourcefulness",
+   "Strong Will",
+   "Keeper of Secrets",
+   "Third Eye",
+   "Secret Potential"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 16,
+   "size": "sm",
+   "walk": 35,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 11,
+    "dex": 10,
+    "con": 11,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "races",
+  "name": "Sky Islander",
+  "steps": 6,
+  "issues": [],
+  "granted": [
+   "Aircraft Expertise",
+   "Cloud Walker",
+   "Strong Faith",
+   "Ancient Dials",
+   "Bonus Proficiencies",
+   "Battle Dials",
+   "Bonus Proficiencies",
+   "Artisan Dials",
+   "Bonus Proficiencies"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 11,
+   "size": "sm",
+   "walk": 35,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 11,
+    "dex": 10,
+    "con": 11,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "races",
+  "name": "Giant",
+  "steps": 7,
+  "issues": [],
+  "granted": [
+   "Thick Skin",
+   "Fear Factor",
+   "Natural Weapons",
+   "Titanic Strength",
+   "Giant Slam",
+   "Dexterous",
+   "Frost Born",
+   "Darkvision",
+   "Natural Athlete",
+   "Warrior's Might",
+   "Giant's Endurance",
+   "Darkvision",
+   "Aquatic Adaptation",
+   "Speech of the Sea"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 16,
+   "size": "huge",
+   "walk": 40,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 60,
+   "abilities": {
+    "str": 11,
+    "dex": 10,
+    "con": 11,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "races",
+  "name": "Mink",
+  "steps": 5,
+  "issues": [],
+  "granted": [
+   "Darkvision",
+   "Natural Weapons",
+   "Inner Beast",
+   "Electro",
+   "Diurnal Nature",
+   "Nocturnal Nature"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 8,
+   "size": "sm",
+   "walk": 35,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 60,
+   "abilities": {
+    "str": 11,
+    "dex": 10,
+    "con": 11,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "races",
+  "name": "Dwarves",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Quick-Footed",
+   "Nimble",
+   "Elusive",
+   "Combat Ready",
+   "Gullible"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 7,
+   "size": "tiny",
+   "walk": 30,
+   "swim": 0,
+   "fly": 0,
+   "climb": 30,
+   "darkvision": 0,
+   "abilities": {
+    "str": 11,
+    "dex": 10,
+    "con": 11,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "races",
+  "name": "Merfolk",
+  "steps": 3,
+  "issues": [],
+  "granted": [
+   "Aquatic Adaption",
+   "Bubble Floater",
+   "Call for Aid",
+   "Darkvision",
+   "Friend of the Sea",
+   "Pure Soul"
+  ],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 8,
+   "size": "sm",
+   "walk": 10,
+   "swim": 40,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 60,
+   "abilities": {
+    "str": 11,
+    "dex": 10,
+    "con": 11,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ }
+]

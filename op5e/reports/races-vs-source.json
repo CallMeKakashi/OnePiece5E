@@ -1,0 +1,184 @@
+[
+ {
+  "race": "Augmented",
+  "source": "Augmented Traits.md",
+  "expected": {
+   "size": null,
+   "walk": 30,
+   "swim": 0,
+   "fly": 30,
+   "climb": 30
+  },
+  "got": {
+   "size": "sm",
+   "walk": 30,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0
+  },
+  "problems": [
+   "fly 0 != source 30",
+   "climb 0 != source 30"
+  ]
+ },
+ {
+  "race": "Fishman",
+  "source": "Fishman Traits.md",
+  "expected": {
+   "size": null,
+   "walk": 30,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0
+  },
+  "got": {
+   "size": "sm",
+   "walk": 30,
+   "swim": 30,
+   "fly": 0,
+   "climb": 0
+  },
+  "problems": [
+   "swim 30 != source 0"
+  ]
+ },
+ {
+  "race": "Lunarian",
+  "source": "Lunarian Traits.md",
+  "expected": {
+   "size": null,
+   "walk": 30,
+   "swim": 0,
+   "fly": 30,
+   "climb": 0
+  },
+  "got": {
+   "size": "sm",
+   "walk": 30,
+   "swim": 0,
+   "fly": 30,
+   "climb": 0
+  },
+  "problems": []
+ },
+ {
+  "race": "Human",
+  "source": "Human Traits.md",
+  "expected": {
+   "size": null,
+   "walk": 30,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0
+  },
+  "got": {
+   "size": "sm",
+   "walk": 35,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0
+  },
+  "problems": [
+   "walk 35 != source 30"
+  ]
+ },
+ {
+  "race": "Sky Islander",
+  "source": "Sky Islander Traits.md",
+  "expected": {
+   "size": null,
+   "walk": 35,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0
+  },
+  "got": {
+   "size": "sm",
+   "walk": 35,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0
+  },
+  "problems": []
+ },
+ {
+  "race": "Giant",
+  "source": "Giant Traits.md",
+  "expected": {
+   "size": null,
+   "walk": 40,
+   "swim": 35,
+   "fly": 0,
+   "climb": 0
+  },
+  "got": {
+   "size": "huge",
+   "walk": 40,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0
+  },
+  "problems": [
+   "swim 0 != source 35"
+  ]
+ },
+ {
+  "race": "Mink",
+  "source": "Mink Traits.md",
+  "expected": {
+   "size": null,
+   "walk": 35,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0
+  },
+  "got": {
+   "size": "sm",
+   "walk": 35,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0
+  },
+  "problems": []
+ },
+ {
+  "race": "Dwarves",
+  "source": "Dwarven Traits.md",
+  "expected": {
+   "size": "tiny",
+   "walk": 30,
+   "swim": 0,
+   "fly": 0,
+   "climb": 30
+  },
+  "got": {
+   "size": "tiny",
+   "walk": 30,
+   "swim": 0,
+   "fly": 0,
+   "climb": 30
+  },
+  "problems": []
+ },
+ {
+  "race": "Merfolk",
+  "source": "Merfolk Traits.md",
+  "expected": {
+   "size": null,
+   "walk": 10,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0
+  },
+  "got": {
+   "size": "sm",
+   "walk": 10,
+   "swim": 40,
+   "fly": 0,
+   "climb": 0
+  },
+  "problems": [
+   "swim 40 != source 0"
+  ]
+ }
+]

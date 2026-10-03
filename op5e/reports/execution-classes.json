@@ -1,5 +1,183 @@
 [
  {
+  "class": "Marksman",
+  "subclass": null,
+  "level": 20,
+  "issues": [],
+  "granted": 30,
+  "grantedList": [
+   {
+    "level": 1,
+    "name": "Deft Explorer",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Favored Mark",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Dagger",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Tinker's Tools",
+    "type": "tool"
+   },
+   {
+    "level": 1,
+    "name": "Gunsmith's Tools",
+    "type": "tool"
+   },
+   {
+    "level": 1,
+    "name": "Arrows (20)",
+    "type": "consumable"
+   },
+   {
+    "level": 1,
+    "name": "Crossbow Bolts (20)",
+    "type": "consumable"
+   },
+   {
+    "level": 1,
+    "name": "Firearms Bullets (20)",
+    "type": "consumable"
+   },
+   {
+    "level": 1,
+    "name": "Sling Bullets (20)",
+    "type": "consumable"
+   },
+   {
+    "level": 1,
+    "name": "Dungeoneer's Pack",
+    "type": "loot"
+   },
+   {
+    "level": 1,
+    "name": "Shortsword",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Shortbow",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Scale Mail",
+    "type": "equipment"
+   },
+   {
+    "level": 2,
+    "name": "Creativity",
+    "type": "feat"
+   },
+   {
+    "level": 2,
+    "name": "Fighting Style",
+    "type": "feat"
+   },
+   {
+    "level": 3,
+    "name": "Quick On The Draw",
+    "type": "feat"
+   },
+   {
+    "level": 5,
+    "name": "Extra Attack",
+    "type": "feat"
+   },
+   {
+    "level": 6,
+    "name": "Deft Explorer",
+    "type": "feat"
+   },
+   {
+    "level": 8,
+    "name": "Land's Stride",
+    "type": "feat"
+   },
+   {
+    "level": 8,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 9,
+    "name": "Volley",
+    "type": "feat"
+   },
+   {
+    "level": 10,
+    "name": "Deft Explorer",
+    "type": "feat"
+   },
+   {
+    "level": 10,
+    "name": "Eagle Eyes",
+    "type": "feat"
+   },
+   {
+    "level": 10,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 12,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 14,
+    "name": "Vigilant Gaze",
+    "type": "feat"
+   },
+   {
+    "level": 14,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 16,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 18,
+    "name": "Deadly Mark",
+    "type": "feat"
+   },
+   {
+    "level": 20,
+    "name": "Killshot",
+    "type": "feat"
+   }
+  ],
+  "classLevels": 20,
+  "hpMax": 204,
+  "saves": "str,dex",
+  "skills": 3,
+  "features": 19,
+  "size": "med",
+  "walk": 0,
+  "darkvision": 0,
+  "abilities": {
+   "str": 20,
+   "dex": 14,
+   "con": 19,
+   "int": 12,
+   "wis": 12,
+   "cha": 10
+  },
+  "languages": "",
+  "badFormulas": [],
+  "consoleErrors": []
+ },
+ {
   "class": "Medic",
   "subclass": null,
   "level": 20,
@@ -104,11 +282,21 @@
   ],
   "classLevels": 20,
   "hpMax": 183,
-  "hitDice": 20,
   "saves": "int,wis",
   "skills": 2,
   "features": 13,
-  "scale": 2,
+  "size": "med",
+  "walk": 0,
+  "darkvision": 0,
+  "abilities": {
+   "str": 20,
+   "dex": 14,
+   "con": 19,
+   "int": 12,
+   "wis": 12,
+   "cha": 10
+  },
+  "languages": "",
   "badFormulas": [],
   "consoleErrors": []
  },
@@ -232,11 +420,289 @@
   ],
   "classLevels": 20,
   "hpMax": 204,
-  "hitDice": 20,
   "saves": "wis,cha",
   "skills": 2,
   "features": 15,
-  "scale": 1,
+  "size": "med",
+  "walk": 0,
+  "darkvision": 0,
+  "abilities": {
+   "str": 20,
+   "dex": 14,
+   "con": 19,
+   "int": 12,
+   "wis": 12,
+   "cha": 10
+  },
+  "languages": "",
+  "badFormulas": [],
+  "consoleErrors": []
+ },
+ {
+  "class": "Fighter",
+  "subclass": null,
+  "level": 20,
+  "issues": [],
+  "granted": 18,
+  "grantedList": [
+   {
+    "level": 1,
+    "name": "Fighting Style",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Second Wind",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Arrows (20)",
+    "type": "consumable"
+   },
+   {
+    "level": 1,
+    "name": "Crossbow Bolts (20)",
+    "type": "consumable"
+   },
+   {
+    "level": 1,
+    "name": "Handaxe",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Dungeoneer's Pack",
+    "type": "loot"
+   },
+   {
+    "level": 1,
+    "name": "Longsword",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Longbow",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Shield",
+    "type": "equipment"
+   },
+   {
+    "level": 1,
+    "name": "Chain Mail",
+    "type": "equipment"
+   },
+   {
+    "level": 2,
+    "name": "Action Surge",
+    "type": "feat"
+   },
+   {
+    "level": 5,
+    "name": "Extra Attack",
+    "type": "feat"
+   },
+   {
+    "level": 8,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 9,
+    "name": "Indomitable",
+    "type": "feat"
+   },
+   {
+    "level": 10,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 12,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 14,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 16,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   }
+  ],
+  "classLevels": 20,
+  "hpMax": 224,
+  "saves": "str,con",
+  "skills": 2,
+  "features": 10,
+  "size": "med",
+  "walk": 0,
+  "darkvision": 0,
+  "abilities": {
+   "str": 20,
+   "dex": 14,
+   "con": 20,
+   "int": 12,
+   "wis": 12,
+   "cha": 10
+  },
+  "languages": "",
+  "badFormulas": [],
+  "consoleErrors": []
+ },
+ {
+  "class": "Bard",
+  "subclass": null,
+  "level": 20,
+  "issues": [
+   "L10 expertise-10: trait choice 1/2"
+  ],
+  "granted": 24,
+  "grantedList": [
+   {
+    "level": 1,
+    "name": "Creativity (Spellcasting)",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Bardic Inspiration",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Leather Armor",
+    "type": "equipment"
+   },
+   {
+    "level": 1,
+    "name": "Dagger",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Diplomat's Pack",
+    "type": "loot"
+   },
+   {
+    "level": 1,
+    "name": "Flute",
+    "type": "tool"
+   },
+   {
+    "level": 1,
+    "name": "Rapier",
+    "type": "weapon"
+   },
+   {
+    "level": 2,
+    "name": "Jack of All Trades",
+    "type": "feat"
+   },
+   {
+    "level": 2,
+    "name": "Harmonic Vitality",
+    "type": "feat"
+   },
+   {
+    "level": 3,
+    "name": "Expertise",
+    "type": "feat"
+   },
+   {
+    "level": 5,
+    "name": "Font of Inspiration",
+    "type": "feat"
+   },
+   {
+    "level": 6,
+    "name": "Countercharm",
+    "type": "feat"
+   },
+   {
+    "level": 8,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 10,
+    "name": "Expertise",
+    "type": "feat"
+   },
+   {
+    "level": 10,
+    "name": "Musical Secrets",
+    "type": "feat"
+   },
+   {
+    "level": 10,
+    "name": "Font of Vitality",
+    "type": "feat"
+   },
+   {
+    "level": 10,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 12,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 13,
+    "name": "Countercharm Improvement",
+    "type": "feat"
+   },
+   {
+    "level": 14,
+    "name": "Musical Secrets",
+    "type": "feat"
+   },
+   {
+    "level": 14,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 16,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 18,
+    "name": "Musical Secrets",
+    "type": "feat"
+   },
+   {
+    "level": 20,
+    "name": "Limitless Inspiration",
+    "type": "feat"
+   }
+  ],
+  "classLevels": 20,
+  "hpMax": 183,
+  "saves": "dex,cha",
+  "skills": 18,
+  "features": 19,
+  "size": "med",
+  "walk": 0,
+  "darkvision": 0,
+  "abilities": {
+   "str": 20,
+   "dex": 14,
+   "con": 19,
+   "int": 12,
+   "wis": 12,
+   "cha": 10
+  },
+  "languages": "",
   "badFormulas": [],
   "consoleErrors": []
  },
@@ -375,11 +841,500 @@
   ],
   "classLevels": 20,
   "hpMax": 183,
-  "hitDice": 20,
   "saves": "int,wis",
   "skills": 2,
   "features": 18,
-  "scale": 4,
+  "size": "med",
+  "walk": 0,
+  "darkvision": 0,
+  "abilities": {
+   "str": 20,
+   "dex": 14,
+   "con": 19,
+   "int": 12,
+   "wis": 12,
+   "cha": 10
+  },
+  "languages": "",
+  "badFormulas": [],
+  "consoleErrors": []
+ },
+ {
+  "class": "Brawler",
+  "subclass": null,
+  "level": 20,
+  "issues": [],
+  "granted": 28,
+  "grantedList": [
+   {
+    "level": 1,
+    "name": "Brawling",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Unarmored Defense",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Brawler Unarmed Strike",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Clothes, Common",
+    "type": "loot"
+   },
+   {
+    "level": 1,
+    "name": "Backpack",
+    "type": "loot"
+   },
+   {
+    "level": 1,
+    "name": "Quarterstaff",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Sling Bullets (20)",
+    "type": "consumable"
+   },
+   {
+    "level": 1,
+    "name": "Rations (1 day)",
+    "type": "consumable"
+   },
+   {
+    "level": 1,
+    "name": "Club",
+    "type": "weapon"
+   },
+   {
+    "level": 2,
+    "name": "Spirit",
+    "type": "feat"
+   },
+   {
+    "level": 2,
+    "name": "Unarmored Movement",
+    "type": "feat"
+   },
+   {
+    "level": 3,
+    "name": "Deflect Missiles",
+    "type": "feat"
+   },
+   {
+    "level": 4,
+    "name": "Brace for Impact",
+    "type": "feat"
+   },
+   {
+    "level": 5,
+    "name": "Extra Attack",
+    "type": "feat"
+   },
+   {
+    "level": 5,
+    "name": "Stunning Strike",
+    "type": "feat"
+   },
+   {
+    "level": 7,
+    "name": "Evasion",
+    "type": "feat"
+   },
+   {
+    "level": 7,
+    "name": "Shake it Off",
+    "type": "feat"
+   },
+   {
+    "level": 8,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 9,
+    "name": "Unarmored Movement Improvement",
+    "type": "feat"
+   },
+   {
+    "level": 10,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 12,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 13,
+    "name": "Animal Spirit",
+    "type": "feat"
+   },
+   {
+    "level": 14,
+    "name": "Diamond Soul",
+    "type": "feat"
+   },
+   {
+    "level": 14,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 15,
+    "name": "Timeless Body",
+    "type": "feat"
+   },
+   {
+    "level": 16,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 18,
+    "name": "Immortal Will",
+    "type": "feat"
+   },
+   {
+    "level": 20,
+    "name": "Endless Spirit",
+    "type": "feat"
+   }
+  ],
+  "classLevels": 20,
+  "hpMax": 203,
+  "saves": "str,dex,con,int,wis,cha",
+  "skills": 2,
+  "features": 21,
+  "size": "med",
+  "walk": 30,
+  "darkvision": 0,
+  "abilities": {
+   "str": 20,
+   "dex": 14,
+   "con": 20,
+   "int": 12,
+   "wis": 12,
+   "cha": 10
+  },
+  "languages": "",
+  "badFormulas": [],
+  "consoleErrors": []
+ },
+ {
+  "class": "Rogue",
+  "subclass": null,
+  "level": 20,
+  "issues": [],
+  "granted": 27,
+  "grantedList": [
+   {
+    "level": 1,
+    "name": "Expertise",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Sneak Attack",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Thieves' Cant",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Leather Armor",
+    "type": "equipment"
+   },
+   {
+    "level": 1,
+    "name": "Dagger",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Thieves' Tools",
+    "type": "tool"
+   },
+   {
+    "level": 1,
+    "name": "Arrows (20)",
+    "type": "consumable"
+   },
+   {
+    "level": 1,
+    "name": "Burglar's Pack",
+    "type": "loot"
+   },
+   {
+    "level": 1,
+    "name": "Rapier",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Shortbow",
+    "type": "weapon"
+   },
+   {
+    "level": 2,
+    "name": "Cunning Action",
+    "type": "feat"
+   },
+   {
+    "level": 3,
+    "name": "Steady Aim",
+    "type": "feat"
+   },
+   {
+    "level": 5,
+    "name": "Devious Strike",
+    "type": "feat"
+   },
+   {
+    "level": 5,
+    "name": "Uncanny Dodge",
+    "type": "feat"
+   },
+   {
+    "level": 6,
+    "name": "Expertise",
+    "type": "feat"
+   },
+   {
+    "level": 7,
+    "name": "Evasion",
+    "type": "feat"
+   },
+   {
+    "level": 8,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 10,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 11,
+    "name": "Reliable Talent",
+    "type": "feat"
+   },
+   {
+    "level": 12,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 14,
+    "name": "Duplicitious Strike",
+    "type": "feat"
+   },
+   {
+    "level": 14,
+    "name": "Blindsense",
+    "type": "feat"
+   },
+   {
+    "level": 14,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 15,
+    "name": "Slippery Mind",
+    "type": "feat"
+   },
+   {
+    "level": 16,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 18,
+    "name": "Elusive",
+    "type": "feat"
+   },
+   {
+    "level": 20,
+    "name": "Stroke of Luck",
+    "type": "feat"
+   }
+  ],
+  "classLevels": 20,
+  "hpMax": 203,
+  "saves": "dex,int,wis",
+  "skills": 4,
+  "features": 20,
+  "size": "med",
+  "walk": 0,
+  "darkvision": 0,
+  "abilities": {
+   "str": 20,
+   "dex": 14,
+   "con": 20,
+   "int": 12,
+   "wis": 12,
+   "cha": 10
+  },
+  "languages": "",
+  "badFormulas": [],
+  "consoleErrors": []
+ },
+ {
+  "class": "Barbarian",
+  "subclass": null,
+  "level": 20,
+  "issues": [],
+  "granted": 24,
+  "grantedList": [
+   {
+    "level": 1,
+    "name": "Rage",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Unarmored Defense",
+    "type": "feat"
+   },
+   {
+    "level": 1,
+    "name": "Explorer's Pack",
+    "type": "loot"
+   },
+   {
+    "level": 1,
+    "name": "Javelin",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Handaxe",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Greataxe",
+    "type": "weapon"
+   },
+   {
+    "level": 1,
+    "name": "Club",
+    "type": "weapon"
+   },
+   {
+    "level": 2,
+    "name": "Reckless Attack",
+    "type": "feat"
+   },
+   {
+    "level": 2,
+    "name": "Danger Sense",
+    "type": "feat"
+   },
+   {
+    "level": 3,
+    "name": "Primal Knowledge",
+    "type": "feat"
+   },
+   {
+    "level": 5,
+    "name": "Extra Attack",
+    "type": "feat"
+   },
+   {
+    "level": 5,
+    "name": "Fast Movement",
+    "type": "feat"
+   },
+   {
+    "level": 7,
+    "name": "Feral Instinct",
+    "type": "feat"
+   },
+   {
+    "level": 7,
+    "name": "Primal Knowledge",
+    "type": "feat"
+   },
+   {
+    "level": 8,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 9,
+    "name": "Brutal Critical",
+    "type": "feat"
+   },
+   {
+    "level": 10,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 11,
+    "name": "Relentless Rage",
+    "type": "feat"
+   },
+   {
+    "level": 12,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 14,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 15,
+    "name": "Persistent Rage",
+    "type": "feat"
+   },
+   {
+    "level": 16,
+    "name": "Color of Armament Novice",
+    "type": "feat"
+   },
+   {
+    "level": 18,
+    "name": "Indomitable Might",
+    "type": "feat"
+   },
+   {
+    "level": 20,
+    "name": "Primal Champion",
+    "type": "feat"
+   }
+  ],
+  "classLevels": 20,
+  "hpMax": 265,
+  "saves": "str,con",
+  "skills": 2,
+  "features": 19,
+  "size": "med",
+  "walk": 10,
+  "darkvision": 0,
+  "abilities": {
+   "str": 24,
+   "dex": 14,
+   "con": 23,
+   "int": 12,
+   "wis": 12,
+   "cha": 10
+  },
+  "languages": "",
   "badFormulas": [],
   "consoleErrors": []
  }

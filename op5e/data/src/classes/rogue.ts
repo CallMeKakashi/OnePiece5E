@@ -130,7 +130,7 @@ export const rogue: ClassItem = {
       createTrait(CLASS_ID, 1, {
         mode: "expertise",
         grants: [],
-        choices: [{ count: 2, pool: [] }],
+        choices: [{ count: 2, pool: ["skills:*", "tool:thief"] }],
         hint: "Choose two skill proficiencies, or one skill and thieves' tools",
       }, "expertise-1"),
       createItemGrant(CLASS_ID, 1, [
@@ -154,7 +154,7 @@ export const rogue: ClassItem = {
       createTrait(CLASS_ID, 6, {
         mode: "expertise",
         grants: [],
-        choices: [{ count: 2, pool: [] }],
+        choices: [{ count: 2, pool: ["skills:*", "tool:thief"] }],
         hint: "Choose two more skill proficiencies or thieves' tools",
       }, "expertise-6"),
       createItemGrant(CLASS_ID, 7, [

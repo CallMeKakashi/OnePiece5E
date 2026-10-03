@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import type { FoundryItem } from "../../schemas/common.js";
 import { roleEquipmentAdvancement } from "./equipment-grants.js";
+import { backgroundOriginAdvancement } from "./origin-advancement.js";
 
 const STATS = {
   compendiumSource: null, duplicateSource: null,
@@ -10,7 +11,8 @@ const STATS = {
 const SRC = { book: "OP5e", page: "", custom: "", license: "" };
 
 function role(id: string, name: string, desc: string): FoundryItem {
-  const { advancement, startingBeri, grantQuantities } = roleEquipmentAdvancement(id);
+  const { advancement: equipment, startingBeri, grantQuantities } = roleEquipmentAdvancement(id);
+  const advancement = [...equipment, ...backgroundOriginAdvancement(`role/${id}`, desc, (m) => console.warn(`  ⚠ ${m}`))];
   return {
     _id: generateId(`role/${id}`),
     name: `Role: ${name}`,

@@ -1,6 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import type { FoundryItem } from "../../schemas/common.js";
 import { backgroundEquipmentAdvancement } from "./equipment-grants.js";
+import { backgroundOriginAdvancement } from "./origin-advancement.js";
 
 const STATS = {
   compendiumSource: null, duplicateSource: null,
@@ -10,7 +11,8 @@ const STATS = {
 const SRC = { book: "OP5e", page: "", custom: "", license: "" };
 
 function bg(id: string, name: string, desc: string): FoundryItem {
-  const { advancement, startingBeri, grantQuantities } = backgroundEquipmentAdvancement(id, desc);
+  const { advancement: equipment, startingBeri, grantQuantities } = backgroundEquipmentAdvancement(id, desc);
+  const advancement = [...equipment, ...backgroundOriginAdvancement(id, desc, (m) => console.warn(`  ⚠ ${m}`))];
   return {
     _id: generateId(`background/${id}`),
     name,
