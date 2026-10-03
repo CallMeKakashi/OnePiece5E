@@ -182,12 +182,12 @@
   ]
  },
  {
-  "name": "midi-qol / chris-premades",
+  "name": "Midi-QOL coverage",
   "pack": "-",
-  "problem": "Installed versions require dnd5e >= 5.2 but the world runs 5.1.10, so Midi/CPR behaviour could not be tested",
-  "automation": "untested",
+  "problem": "Midi-QOL 13.0.28 and Chris Premades 1.3.151 run on dnd5e 5.1.10; 8 representative workflows pass (weapons, spell attack, save spell, heal, class feature). Not every document was run through Midi, and CPR needs four Midi options enabled (set in the test world only)",
+  "automation": "partially tested",
   "names": [
-   "midi-qol / chris-premades"
+   "Midi-QOL coverage"
   ]
  }
 ]

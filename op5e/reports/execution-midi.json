@@ -1,0 +1,126 @@
+[
+ {
+  "pack": "items",
+  "name": "Warhammer",
+  "kind": "attack",
+  "expectDamageRolls": 1,
+  "fails": [],
+  "rolls": [
+   "D20Roll:1d20 + 3 + 0=15",
+   "DamageRoll:1d8 + 3=6"
+  ],
+  "hp": [
+   200,
+   194
+  ],
+  "workflow": true
+ },
+ {
+  "pack": "items",
+  "name": "Battleaxe",
+  "kind": "attack",
+  "expectDamageRolls": 1,
+  "fails": [],
+  "rolls": [
+   "D20Roll:1d20 + 3 + 0=21",
+   "DamageRoll:1d8 + 3=11"
+  ],
+  "hp": [
+   200,
+   189
+  ],
+  "workflow": true
+ },
+ {
+  "pack": "items",
+  "name": "Rapier",
+  "kind": "attack",
+  "expectDamageRolls": 1,
+  "fails": [],
+  "rolls": [
+   "D20Roll:1d20 + 3 + 0=15",
+   "DamageRoll:1d8 + 3=4"
+  ],
+  "hp": [
+   200,
+   196
+  ],
+  "workflow": true
+ },
+ {
+  "pack": "items",
+  "name": "Longbow",
+  "kind": "attack",
+  "expectDamageRolls": 1,
+  "fails": [],
+  "rolls": [
+   "D20Roll:1d20 + 3 + 0=14",
+   "DamageRoll:1d8 + 3=5"
+  ],
+  "hp": [
+   200,
+   195
+  ],
+  "workflow": true
+ },
+ {
+  "pack": "creations",
+  "name": "Fire Bolt",
+  "kind": "spell-attack",
+  "fails": [],
+  "rolls": [
+   "D20Roll:1d20 + 0 + 1=19",
+   "DamageRoll:1d10=1"
+  ],
+  "hp": [
+   200,
+   199
+  ],
+  "workflow": true
+ },
+ {
+  "pack": "creations",
+  "name": "Fireball",
+  "kind": "spell-save",
+  "cls": "Medic",
+  "fails": [],
+  "rolls": [
+   "DamageRoll:8d6=30"
+  ],
+  "hp": [
+   200,
+   185
+  ],
+  "workflow": true
+ },
+ {
+  "pack": "class-features",
+  "name": "Second Wind",
+  "kind": "heal",
+  "cls": "Fighter",
+  "fails": [],
+  "rolls": [
+   "DamageRoll:1d10 + 10=14"
+  ],
+  "hp": [
+   200,
+   200
+  ],
+  "workflow": true
+ },
+ {
+  "pack": "class-features",
+  "name": "Sneak Attack",
+  "kind": "feature",
+  "cls": "Rogue",
+  "fails": [],
+  "rolls": [
+   "DamageRoll:6d6=22"
+  ],
+  "hp": [
+   200,
+   178
+  ],
+  "workflow": true
+ }
+]

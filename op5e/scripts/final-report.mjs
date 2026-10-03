@@ -13,7 +13,7 @@ const e2e = {
   classes: J("reports/execution-classes.json", []), subclasses: J("reports/execution-classes-subclasses.json", []),
   races: J("reports/execution-origins-races.json", []), backgrounds: J("reports/execution-origins-backgrounds.json", []),
   feats: J("reports/execution-feats.json", []), effects: J("reports/execution-effects.json", []), gear: J("reports/execution-gear.json", []),
-  everything: J("reports/execution-everything.json", {}),
+  everything: J("reports/execution-everything.json", {}), midi: J("reports/execution-midi.json", []),
 };
 // Bard L10 Expertise is a test-character limit (only 3 class skills, 2 already expert), not a content problem
 const benign = (i) => /expertise-\d+: trait choice/.test(i);
@@ -39,7 +39,7 @@ unresolved.push(
   { name: "Creations without single damage roll", pack: "creations", problem: "64 of 82 flagged creations are summons, buffs or multi-effect spells; only 18 have an unambiguous save or attack with one damage expression", automation: "partial" },
   { name: "Racial traits: choice-heavy wording", pack: "racial-features", problem: "Resourcefulness (one skill or weapon) and Aircraft Expertise (dial kits, expertise with sky vehicles) stay text; named skill proficiencies in the other traits are wired", automation: "partial" },
   { name: "Armor stats", pack: "items", problem: "Sourcebook gives no armor table; armor values follow 5e SRD and could not be checked against the book", automation: "unverified" },
-  { name: "midi-qol / chris-premades", pack: "-", problem: "Installed versions require dnd5e >= 5.2 but the world runs 5.1.10, so Midi/CPR behaviour could not be tested", automation: "untested" },
+  { name: "Midi-QOL coverage", pack: "-", problem: "Midi-QOL 13.0.28 and Chris Premades 1.3.151 run on dnd5e 5.1.10; 8 representative workflows pass (weapons, spell attack, save spell, heal, class feature). Not every document was run through Midi, and CPR needs four Midi options enabled (set in the test world only)", automation: "partially tested" },
 );
 // group identical problems (e.g. 28 devil fruits) into one line
 const grouped = [];
@@ -77,6 +77,9 @@ ${Object.entries(cov).map(([k, v]) => `- ${k}: ${v}`).join("\n")}
 - Feats with advancement/effects, value-asserted: ${e2e.feats.filter((r) => r.pass).length}/${e2e.feats.length}
 - Active Effects changing derived data: ${e2e.effects.filter((r) => r.pass).length}/${e2e.effects.length}
 - Weapons and armor (AC and damage dice asserted): ${e2e.gear.filter((r) => r.pass).length}/${e2e.gear.length}
+
+## Midi-QOL workflows (real attack, damage, save and heal flows with damage applied to a target token)
+${e2e.midi.map((r) => `- ${r.fails.length ? "FAIL" : "ok"} ${r.name}: ${r.fails.join("; ") || r.rolls.join(" | ") + (r.hp ? ` (target HP ${r.hp.join(" -> ")})` : "")}`).join("\n")}
 
 ## Every document added to an actor and used (built packs)
 ${Object.entries(e2e.everything).map(([p, rows]) => `- ${p}: ${rows.length - rows.filter((r) => r.fails.length).length}/${rows.length} work (${rows.reduce((n, r) => n + r.activities.length, 0)} activities used)`).join("\n")}

@@ -8,8 +8,8 @@
 - NEEDS_AUTOMATION: 13
 
 ## Foundry validation (static)
-- Documents: 2055, internal links checked: 2968
-- Errors: 0, warnings: 179 (mostly attack activities without an explicit attack block, and same-name features across classes)
+- Documents: 2056, internal links checked: 2986
+- Errors: 0, warnings: 180 (mostly attack activities without an explicit attack block, and same-name features across classes)
 
 ## Automation (executed in the Foundry test world, dnd5e 5.1.10)
 - Baseline activity-bearing items executed: 836 (870 activities); 13 first timed out on measured-template placement (harness limitation); all re-ran PASS once the harness skipped templates
@@ -25,11 +25,21 @@
 - Active Effects changing derived data: 57/58
 - Weapons and armor (AC and damage dice asserted): 87/87
 
+## Midi-QOL workflows (real attack, damage, save and heal flows with damage applied to a target token)
+- ok Warhammer: D20Roll:1d20 + 3 + 0=15 | DamageRoll:1d8 + 3=6 (target HP 200 -> 194)
+- ok Battleaxe: D20Roll:1d20 + 3 + 0=21 | DamageRoll:1d8 + 3=11 (target HP 200 -> 189)
+- ok Rapier: D20Roll:1d20 + 3 + 0=15 | DamageRoll:1d8 + 3=4 (target HP 200 -> 196)
+- ok Longbow: D20Roll:1d20 + 3 + 0=14 | DamageRoll:1d8 + 3=5 (target HP 200 -> 195)
+- ok Fire Bolt: D20Roll:1d20 + 0 + 1=19 | DamageRoll:1d10=1 (target HP 200 -> 199)
+- ok Fireball: DamageRoll:8d6=30 (target HP 200 -> 185)
+- ok Second Wind: DamageRoll:1d10 + 10=14 (target HP 200 -> 200)
+- ok Sneak Attack: DamageRoll:6d6=22 (target HP 200 -> 178)
+
 ## Every document added to an actor and used (built packs)
 - class-features: 749/749 work (231 activities used)
 - racial-features: 84/84 work (22 activities used)
 - feats: 201/201 work (87 activities used)
-- items: 363/363 work (152 activities used)
+- items: 364/364 work (153 activities used)
 - creations: 426/426 work (433 activities used)
 - backgrounds: 56/56 work (0 activities used)
 - devil-fruits: 28/28 work (0 activities used)
@@ -37,7 +47,7 @@
 - Class and subclass features were used on a persisted level-20 actor of their class so @scale values resolve; creations on a level-20 Medic with slots; ship weapons on a Galleon
 
 ## Regression vs baseline
-- Baseline documents: 1973; preserved identical: 1971; changed: 2 (Manipulate Earth, Flaming Duality); regressed: 0; added: 82
+- Baseline documents: 1973; preserved identical: 1971; changed: 2 (Manipulate Earth, Flaming Duality); regressed: 0; added: 83
 
 ## Remaining issues (17)
 - **28 items** (devil-fruits): source gives prose powers with no dice/DCs/durations; no mechanics invented [blocked]
@@ -56,4 +66,4 @@
 - **Creations without single damage roll** (creations): 64 of 82 flagged creations are summons, buffs or multi-effect spells; only 18 have an unambiguous save or attack with one damage expression [partial]
 - **Racial traits: choice-heavy wording** (racial-features): Resourcefulness (one skill or weapon) and Aircraft Expertise (dial kits, expertise with sky vehicles) stay text; named skill proficiencies in the other traits are wired [partial]
 - **Armor stats** (items): Sourcebook gives no armor table; armor values follow 5e SRD and could not be checked against the book [unverified]
-- **midi-qol / chris-premades** (-): Installed versions require dnd5e >= 5.2 but the world runs 5.1.10, so Midi/CPR behaviour could not be tested [untested]
+- **Midi-QOL coverage** (-): Midi-QOL 13.0.28 and Chris Premades 1.3.151 run on dnd5e 5.1.10; 8 representative workflows pass (weapons, spell attack, save spell, heal, class feature). Not every document was run through Midi, and CPR needs four Midi options enabled (set in the test world only) [partially tested]

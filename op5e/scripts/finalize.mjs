@@ -5,7 +5,7 @@ import { spawnSync } from "node:child_process";
 
 const need = ["validation-report.json", "regression-report.json", "execution-baseline.json", "execution-items.json", "execution-monsters.json", "execution-ships.json",
   "execution-ids.json", "execution-feats.json", "execution-effects.json", "execution-gear.json", "execution-classes.json", "execution-classes-subclasses.json",
-  "execution-origins-races.json", "execution-origins-backgrounds.json"];
+  "execution-origins-races.json", "execution-origins-backgrounds.json", "execution-midi.json"];
 const missing = need.filter((f) => !existsSync(`reports/${f}`));
 if (missing.length) { console.error(`missing reports: ${missing.join(", ")}`); process.exit(1); }
 
