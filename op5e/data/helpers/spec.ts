@@ -21,7 +21,7 @@ export interface ActSpec {
   area?: { type: "radius" | "sphere" | "cone" | "line" | "cube" | "cylinder"; size: number };
   targets?: { count?: number | string; type?: "creature" | "enemy" | "ally" | "self" | "object" };
   save?: { ability: string | string[]; dc?: string; onSave?: "half" | "none" | "full" };
-  attack?: { type: "melee" | "ranged"; bonus?: string };
+  attack?: { type: "melee" | "ranged"; bonus?: string; ability?: string };
   damage?: Dmg[];
   healing?: { formula: string; type?: "healing" | "temp" };
   duration?: { value: number; units: "round" | "minute" | "hour" | "day" | "inst" | "turn"; concentration?: boolean };
@@ -71,7 +71,7 @@ export function buildFromSpec(key: string, spec: Spec) {
       act.save = { ability: types(a.save!.ability), dc: { calculation: "", formula: a.save!.dc ?? DC_DEFAULT } };
       act.damage = { onSave: a.save!.onSave ?? "half", parts: (a.damage ?? []).map(part) };
     } else if (a.type === "attack") {
-      act.attack = { ability: "", bonus: a.attack?.bonus ?? "", critical: { threshold: null }, flat: false, type: { value: a.attack?.type ?? "melee", classification: "weapon" } };
+      act.attack = { ability: a.attack?.ability ?? "", bonus: a.attack?.bonus ?? "", critical: { threshold: null }, flat: false, type: { value: a.attack?.type ?? "melee", classification: "weapon" } };
       act.damage = { critical: { allow: true, bonus: "" }, parts: (a.damage ?? []).map(part) };
     } else if (a.type === "damage") {
       act.damage = { critical: { allow: false, bonus: "" }, parts: (a.damage ?? []).map(part) };
