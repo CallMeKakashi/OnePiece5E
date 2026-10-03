@@ -146,3 +146,18 @@ export const DAE_KEYS = {
   MIDI_ADVANTAGE_ABILITY_CHECK_ALL: "flags.midi-qol.advantage.ability.check.all",
   MIDI_ADVANTAGE_DEATH_SAVE: "flags.midi-qol.advantage.deathSave",
 } as const;
+
+// --- Base Foundry Actor document (embedded items validated as items) ---
+
+export const foundryActorBase = z
+  .object({
+    _id: foundryId,
+    name: z.string(),
+    type: z.enum(["npc", "character", "vehicle", "group"]),
+    img: z.string().default("icons/svg/mystery-man.svg"),
+    system: z.record(z.unknown()),
+    items: z.array(foundryItemBase.passthrough()).default([]),
+    effects: z.array(activeEffectSchema).default([]),
+    flags: z.record(z.unknown()).default({}),
+  })
+  .passthrough();

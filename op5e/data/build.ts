@@ -14,7 +14,7 @@ import { subclassItemSchema } from "./schemas/subclass.js";
 import { featureItemSchema } from "./schemas/feature.js";
 import type { FeatureItem } from "./schemas/feature.js";
 import { raceItemSchema } from "./schemas/race.js";
-import { foundryItemBase } from "./schemas/common.js";
+import { foundryItemBase, foundryActorBase } from "./schemas/common.js";
 import { ensureFeatureActivities, ensureItemActivities } from "./helpers/activities.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -24,6 +24,7 @@ const PACKS_SRC = join(ROOT, "packs-src");
 // foundryvtt-cli compilePack hierarchy: items have embedded effects.
 // LevelDB stores them as separate keys with dot-joined paths.
 const EMBEDDED_COLLECTIONS: Record<string, string[]> = {
+  actors: ["items", "effects"],
   items: ["effects"],
 };
 
@@ -57,6 +58,8 @@ interface PackConfig {
   name: string;
   srcDir: string;
   schema: ZodType;
+  /** Document collection; defaults to items. */
+  collection?: "items" | "actors";
 }
 
 const PACK_CONFIGS: PackConfig[] = [
@@ -69,6 +72,7 @@ const PACK_CONFIGS: PackConfig[] = [
   { name: "items", srcDir: "items", schema: foundryItemBase },
   { name: "creations", srcDir: "creations", schema: foundryItemBase },
   { name: "backgrounds", srcDir: "backgrounds", schema: foundryItemBase },
+  { name: "monsters", srcDir: "actors", schema: foundryActorBase, collection: "actors" },
 ];
 
 interface Stats {
@@ -114,7 +118,9 @@ async function buildPack(config: PackConfig): Promise<Stats> {
   }
 
   for (let raw of items) {
-    if (FEATURE_PACKS.has(config.name)) {
+    if (config.collection === "actors") {
+      // actors carry their own embedded items/activities (see helpers/actor.ts)
+    } else if (FEATURE_PACKS.has(config.name)) {
       raw = ensureFeatureActivities(raw as FeatureItem);
     } else {
       raw = ensureItemActivities(raw as never);
@@ -133,7 +139,7 @@ async function buildPack(config: PackConfig): Promise<Stats> {
 
     const doc = result.data as Record<string, unknown>;
     const id = doc._id as string;
-    addLevelDBKeys(doc, "items");
+    addLevelDBKeys(doc, config.collection ?? "items");
     const filename = `${id}.json`;
     writeFileSync(
       join(outDir, filename),

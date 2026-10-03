@@ -90,6 +90,13 @@
       "path": "packs/backgrounds",
       "type": "Item",
       "system": "dnd5e"
+    },
+    {
+      "name": "monsters",
+      "label": "OP5e Monsters",
+      "path": "packs/monsters",
+      "type": "Actor",
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
