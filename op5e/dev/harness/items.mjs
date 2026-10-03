@@ -31,6 +31,9 @@ const probe = async ({ id }) => {
       const parts = act.damage?.parts ?? [], p = parts[0];
       const rolls = await H.rollDamage(item, "attack");
       const f = rolls?.[0]?.formula ?? "";
+      // base damage must roll once: rolls = (includeBase ? 1 : 0) + extra parts
+      const wantRolls = src.system.damage?.parts?.length || parts.length;   // legacy parts the book/source declares
+      if ((rolls?.length ?? 0) !== wantRolls && !(game.modules.get("midi-qol")?.active)) out.fails.push(`damage rolled ${rolls?.length} times, expected ${wantRolls} (double-counted base damage?)`);
       out.detail = { formula: f, parts: parts.length };
       if (p?.number && !f.includes(`${p.number}d${p.denomination}`)) out.fails.push(`damage "${f}" missing ${p.number}d${p.denomination}`);
       if (p?.types?.length && rolls?.[0]?.options?.type && !p.types.includes(rolls[0].options.type)) out.fails.push(`type ${rolls[0].options.type}`);

@@ -23,7 +23,7 @@ const TOOL: Record<string, string> = {
 
 /** "Gaming set", "one musical instrument", "1 set of Artisan's tools of your choice" -> choice over the whole dnd5e tool category. */
 const genericTool = (p: string): { count: number; pool: string[] } | null => {
-  const t = p.toLowerCase(); const n = NUM[(t.match(/(one|two|1|2)/) ?? [])[1] ?? ""] ?? 1;
+  const t = p.toLowerCase(); const n = NUM[(t.match(/\b(one|two|1|2)\b/) ?? [])[1] ?? ""] ?? 1;
   if (/gaming set/.test(t) && !/ or /.test(t)) return { count: n, pool: ["tool:game:*"] };
   if (/musical instrument|^one instrument/.test(t)) return { count: n, pool: ["tool:music:*"] };
   if (/artisan/.test(t)) return { count: n, pool: ["tool:art:*"] };

@@ -412,11 +412,23 @@ export function ensureItemActivities<T extends FoundryItem>(item: T): T {
     system: system as FeatureSystem,
   };
 
+  const activities = buildActivities(source) as Record<string, { type?: string; damage?: { includeBase?: boolean; parts?: unknown[] } }>;
+  // dnd5e migrates legacy damage.parts[0] into the item's base damage and adds it to every attack roll
+  // (damage.includeBase), so a weapon's attack activity must list only the *extra* parts or the base dice roll twice.
+  if (item.type === "weapon") {
+    for (const a of Object.values(activities)) {
+      if (a.type === "attack" && a.damage?.parts?.length) {
+        a.damage.includeBase = true;
+        a.damage.parts = a.damage.parts.slice(1);
+      }
+    }
+  }
+
   return {
     ...item,
     system: {
       ...system,
-      activities: buildActivities(source),
+      activities,
     },
   };
 }
