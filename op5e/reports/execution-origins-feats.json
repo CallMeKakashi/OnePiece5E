@@ -1,0 +1,8846 @@
+[
+ {
+  "pack": "feats",
+  "name": "Caring",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Tavern Brawler",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Gourmand",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Insightful",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Mason",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Diminutive Dudgeon",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Critter Friend",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Synthetic Nature",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Engineer",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Tinkerer",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Brewer",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Underdog",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Naturalist",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Trap Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Iron-Willed",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Alchemist",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Heavily Armored",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Pragmatic Vanity",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Rapier Mastery",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Mammal of Action",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Skilled",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Skulker",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Keen Canine",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Slasher",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Leatherworker",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Voracity",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Vehicle Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Fleet-Footed",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Resilient Constitution",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Shotgun Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Dial Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Knack Of The Nurse",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Musician",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Cane Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Skypiean Craft",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Weaver",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Woodcarver",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Gliding Skin",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Holey Moley",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Alert",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Warpick Mastery",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Flying Strikes",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Investigator",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Fisherman",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Polearm Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Bulwark",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Charger",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Katana Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master of Disguise",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Enhanced Circuitry",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Rogue Adept",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Knack Of The Handler",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Unmatched Strength",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Sea Sovereignty",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Hulking Monolith",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Quick Fingers",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Fighting Initiate",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Cobbler",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Keen Mind",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Razor Claws",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Feral Threat",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Intuitive Primate",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Creativity Adept",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Observant",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Knack Of The Burglar",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Elemental Adept",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Axe Mastery",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Mobile",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Longsword Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Tough Outer Shell",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Strong Arms",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "The Horned One",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Knack Of The Hunter",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Cryptic Camouflage",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Cannon Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Lucky",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Routine User",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Crossbow Expert",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Knack Of The Pretender",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Diplomat",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Heightened Innovation",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Joyful",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Thrown Weapon Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Skill Expert",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Potter",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Unyielding Charisma",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Sharpshooter",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Lance Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Bow Mastery",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Enhanced Evolution",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Knack Of The Fool",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Silver Tongue",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Nimble Legs",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Trick Foiler",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Crusher",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Spear Mastery",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Smith",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Sightless Perspective",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Buck-Toothed",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Hammer Mastery",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Serpent’s Pact",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Water Wings",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Practiced Wisdom",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Martial Adept",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Dueling Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Inspiring Leader",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Graceful Dexterity",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Appraiser",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Heavy Armor Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Kuja Accuracy",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Glassblower",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Beary Blue",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Forger",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Ominous Toxin",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Historian",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Menacing",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "All-Consuming Maw",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Birkan Battle Tactics",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Inky Depths",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Sound Intelligence",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Short Blade Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Drunkard",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Adept Inspiration",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Religious",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Whip Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Painter",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Savage Attacker",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Dark Wing Hunter",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Steadfast Scales",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Carpenter",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Spirit Adept",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Jeweler",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Flail Mastery",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Adept Modifier",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Rifle Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Perceptive",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Cartographer",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Customized Creativity Adept",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Cutlass Mastery",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Shield Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Bioluminescence",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Grappler",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Poisoner",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Handgun Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Ursa Major",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Multipod Volley",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master of Games",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Eyes on the Prize",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Calligrapher",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Human Ferocity",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Chainsmoker",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Dart Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Contortionist",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Knack Of The Inventor",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Fuel Efficient",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Cruel",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Dead Man’s Grip",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Expressionist",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Undead Resolve",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Lengthy Heritage",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Unarmed Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Tough",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Brave",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Made For War",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Acrobat",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Eyes Open",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Dual Wielder",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Tandem Tactician",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Shandian Mobility",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Electro Expert",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Sentinel",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Knack Of The Analyst",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Light Armor Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Hooves Inbound",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Storyteller",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Weapon Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Battle Creator",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Blowgun Expert",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Free Diver",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Slithering Shocks",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Herbalist",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Survivalist",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Remarkable Recovery",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Sling Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "First Aid",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Renegade Rodent",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Burglar",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Brawny",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Diehard",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Medium Armor Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Piercer",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Master Navigator",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Barbarian Adept",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Great Weapon Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Durable",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Mounted Combatant",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Elemental Attack",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Knack Of The Warrior",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Scimitar Master",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Performer",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ },
+ {
+  "pack": "feats",
+  "name": "Gunner",
+  "steps": 0,
+  "issues": [],
+  "granted": [],
+  "base": {
+   "size": "med",
+   "walk": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "skills": 2
+  },
+  "after": {
+   "classLevels": 1,
+   "hpMax": 10,
+   "saves": "",
+   "skills": 0,
+   "features": 3,
+   "size": "med",
+   "walk": 0,
+   "swim": 0,
+   "fly": 0,
+   "climb": 0,
+   "darkvision": 0,
+   "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+   },
+   "languages": "",
+   "badFormulas": []
+  },
+  "consoleErrors": []
+ }
+]

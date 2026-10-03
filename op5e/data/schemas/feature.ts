@@ -117,6 +117,7 @@ const featureSystemSchema = z.object({
     })
     .default({}),
   activities: z.record(activitySchema).default({}),
+  advancement: z.array(z.record(z.unknown())).default([]),
 });
 
 export type FeatureSystem = z.infer<typeof featureSystemSchema>;

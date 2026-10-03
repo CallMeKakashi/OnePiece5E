@@ -1,0 +1,12478 @@
+[
+ {
+  "name": "Gourmand",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "cook": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Insightful",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 1,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Mason",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "mason": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Diminutive Dudgeon",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Critter Friend",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Synthetic Nature",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "alchemist": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Engineer",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 1,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Tinkerer",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "tinker": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Brewer",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "brewer": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Underdog",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Naturalist",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 1,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Iron-Willed",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Alchemist",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "alchemist": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Heavily Armored",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "hvy"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Pragmatic Vanity",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Mammal of Action",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Skilled",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 1,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Skulker",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 1,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Keen Canine",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 1,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 13,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Leatherworker",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "leatherworker": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Voracity",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Vehicle Master",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "land": 1,
+    "water": 1,
+    "air": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Fleet-Footed",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Resilient Constitution",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "con"
+   ],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Dial Master",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Skypiean Craft",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Weaver",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "weaver": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Woodcarver",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "woodcarver": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Gliding Skin",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Holey Moley",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Alert",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "5",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [
+   "Initiative Bonus"
+  ],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Investigator",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 1,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 13
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Fisherman",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Charger",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master of Disguise",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 13
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Enhanced Circuitry",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Rogue Adept",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 1,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Unmatched Strength",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str"
+   ],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Sea Sovereignty",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Hulking Monolith",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Quick Fingers",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 1,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Cobbler",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "cobbler": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Keen Mind",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 1,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Razor Claws",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Feral Threat",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Intuitive Primate",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Creativity Adept",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Observant",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 16,
+    "inv": 16
+   }
+  },
+  "applied": [
+   "Passive Bonus"
+  ],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Elemental Adept",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Tough Outer Shell",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Strong Arms",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "The Horned One",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 1,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Cryptic Camouflage",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 1,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Cannon Master",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Diplomat",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 13
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 1,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Thrown Weapon Master",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Skill Expert",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 1,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Potter",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "potter": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Unyielding Charisma",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 13
+   },
+   "saves": [
+    "cha"
+   ],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Enhanced Evolution",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Silver Tongue",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 13
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 1,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Nimble Legs",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Trick Foiler",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Smith",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "smith": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Sightless Perspective",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Buck-Toothed",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Serpent’s Pact",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Water Wings",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Practiced Wisdom",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+   },
+   "saves": [
+    "wis"
+   ],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Graceful Dexterity",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "dex"
+   ],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Appraiser",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Heavy Armor Master",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Kuja Accuracy",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Glassblower",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "glassblower": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Forger",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "forg": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Ominous Toxin",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Historian",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 1,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Menacing",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 13
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 1,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "All-Consuming Maw",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Birkan Battle Tactics",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Inky Depths",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Sound Intelligence",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "int"
+   ],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Drunkard",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Religious",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 1,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Painter",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "painter": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Dark Wing Hunter",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Steadfast Scales",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Carpenter",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "carpenter": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Jeweler",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "jeweler": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Perceptive",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 1,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 13,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Cartographer",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "cartographer": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Bioluminescence",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Grappler",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Ursa Major",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 1,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Multipod Volley",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Eyes on the Prize",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 1,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 13,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Calligrapher",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "calligrapher": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Human Ferocity",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Chainsmoker",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "herb": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Contortionist",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Fuel Efficient",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Dead Man’s Grip",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 1,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Expressionist",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 13
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Undead Resolve",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Lengthy Heritage",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Tough",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 13,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [
+   "Tough"
+  ],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Brave",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Made For War",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Acrobat",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 1,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Eyes Open",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Shandian Mobility",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Electro Expert",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Light Armor Master",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Hooves Inbound",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Storyteller",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 13
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Weapon Master",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Free Diver",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Slithering Shocks",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Herbalist",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "herb": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Survivalist",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 1
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Remarkable Recovery",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "First Aid",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 1,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Renegade Rodent",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Burglar",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Brawny",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 1,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Diehard",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Medium Armor Master",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Master Navigator",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {
+    "navg": 1
+   },
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Durable",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Elemental Attack",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Performer",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 13
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 1,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ },
+ {
+  "name": "Gunner",
+  "issues": [],
+  "before": {
+   "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [
+    "str",
+    "con"
+   ],
+   "skills": {
+    "acr": 1,
+    "ani": 1,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [
+    "lgt",
+    "med",
+    "hvy",
+    "shl"
+   ],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "after": {
+   "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+   },
+   "saves": [],
+   "skills": {
+    "acr": 0,
+    "ani": 0,
+    "arc": 0,
+    "ath": 0,
+    "dec": 0,
+    "his": 0,
+    "ins": 0,
+    "itm": 0,
+    "inv": 0,
+    "med": 0,
+    "nat": 0,
+    "prc": 0,
+    "prf": 0,
+    "per": 0,
+    "rel": 0,
+    "slt": 0,
+    "ste": 0,
+    "sur": 0
+   },
+   "tools": {},
+   "armor": [],
+   "init": "",
+   "hpMax": 11,
+   "passive": {
+    "prc": 11,
+    "inv": 11
+   }
+  },
+  "applied": [],
+  "consoleErrors": [],
+  "fails": [],
+  "pass": true
+ }
+]

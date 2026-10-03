@@ -60,7 +60,14 @@ export const pageLib = (built) => {
           }
           return { chosen: [...adv.configuration.grants, ...chosen] };
         }
-        case "AbilityScoreImprovement": return { type: "asi", assignments: { str: 1, con: 1 } };
+        case "AbilityScoreImprovement": {
+          const c = adv.configuration, a = {};
+          if (c.points > 0) { const pick1 = Object.keys(CONFIG.DND5E.abilities).find((k) => !c.locked.has(k) && !(c.fixed?.[k] > 0)) ?? Object.keys(CONFIG.DND5E.abilities).find((k) => !c.locked.has(k)); if (pick1) a[pick1] = c.points; else note(`L${lvl} ${adv.title}: no ability available for ASI`); }
+          else if (!adv.item.parent?.items && !adv.item) a.str = 0;
+          // class ASI (points 2, nothing locked) keeps the previous +1 STR/+1 CON behaviour
+          if (c.points === 2 && c.cap === 2 && !c.locked.size) { for (const k of Object.keys(a)) delete a[k]; a.str = 1; a.con = 1; }
+          return { type: "asi", assignments: a };
+        }
         case "Subclass": return sub ? { uuid: sub.uuid } : null;
         case "HitPoints": return { [lvl]: "avg" };
         default: return flow.getAutomaticApplicationValue();

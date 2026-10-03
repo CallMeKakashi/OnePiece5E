@@ -1,5 +1,6 @@
 import { generateId } from "../../helpers/id.js";
 import type { FeatureItem } from "../../schemas/feature.js";
+import { featAutomation } from "../../helpers/feat-advancement.js";
 
 export interface FeatDef {
   name: string;
@@ -15,6 +16,7 @@ export interface FeatDef {
 export function makeFeat(def: FeatDef): FeatureItem {
   const prefix = def.racial ? "feat/racial" : "feat";
   const id = generateId(`${prefix}/${def.slug}`);
+  const auto = featAutomation(def.slug, def.description, (m) => console.warn(`  ⚠ ${m}`));
   return {
     _id: id,
     name: def.name,
@@ -45,8 +47,9 @@ export function makeFeat(def: FeatDef): FeatureItem {
       save: { ability: "", dc: null, scaling: "spell" },
       chatFlavor: "",
       recharge: { value: null, charged: false },
+      advancement: auto.advancement,
     },
-    effects: [],
+    effects: auto.effects,
     flags: {},
     folder: null,
     sort: 0,
