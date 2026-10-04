@@ -23,7 +23,8 @@ const H = {
   async cleanup() {
     for (const a of game.actors.filter(isTest)) await a.delete();
     for (const i of game.items.filter(isTest)) await i.delete();
-    for (const m of game.messages.filter(isTest)) await m.delete();
+    await new Promise((r) => setTimeout(r, 3000));   // let Midi finish updating its cards: deleting one mid-update crashes the Foundry server
+    for (const m of game.messages.filter(isTest)) await m.delete().catch(() => {});
   },
   loadCompendium: async (id) => (await game.packs.get(id)?.getDocuments()) ?? [],
   packsLoaded: () => game.packs.filter((p) => p.collection.startsWith("op5e.")).map((p) => ({ id: p.collection, count: p.index.size })),

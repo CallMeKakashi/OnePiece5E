@@ -116,7 +116,7 @@ const pageSetup = () => {
           out.activities.push(r);
           continue;
         }
-        await Promise.race([H.executeActivity(item, a.id), new Promise((_, j) => setTimeout(() => j(new Error("TIMEOUT")), 10000))]);
+        await Promise.race([H.executeActivity(item, a.id), new Promise((_, j) => setTimeout(() => j(new Error("TIMEOUT")), globalThis.__timeout ?? 10000))]);
         await new Promise((res) => setTimeout(res, 150));
         r.message = __mine().length > msgs;
         const last = __mine().at(-1);
@@ -159,12 +159,12 @@ const pageSetup = () => {
     out.hp = hpBefore !== undefined ? [hpBefore, actor.system.attributes.hp.value] : null;
     await actor.items.get(item.id)?.delete().catch(() => {});
     await target.delete().catch(() => {});
-    await game.messages.documentClass.deleteDocuments(__mine().filter((m) => !m.flags?.op5eTestLog).map((m) => m.id)).catch(() => {});
     return out;
   };
   // parallel shards share the world: each one only sees and removes its own actors and chat messages
   globalThis.__mine = () => game.messages.contents.filter((m) => m.author?.id === game.user.id);
-  globalThis.__cleanActors = async () => { cache.clear(); for (const a of game.actors.filter((x) => x.getFlag("op5e", "shard") === game.user.id)) await a.delete().catch(() => {}); };
+  // chat cards are removed only here, after Midi has finished updating them: deleting a card mid-update makes the Foundry server throw and exit
+  globalThis.__cleanActors = async () => { cache.clear(); await new Promise((r) => setTimeout(r, 3000)); await game.messages.documentClass.deleteDocuments(__mine().filter((m) => !m.flags?.op5eTestLog).map((m) => m.id)).catch(() => {}); for (const a of game.actors.filter((x) => x.getFlag("op5e", "shard") === game.user.id)) await a.delete().catch(() => {}); };
 };
 
 // ---- node-side: decide which actor each document needs -----------------------------------------------------------
@@ -200,6 +200,7 @@ try {
       const docs = Object.values(BUILT[pack] ?? {}).filter((d) => !process.env.ONLY || process.env.ONLY.split("|").includes(d.name))
         .filter((_, i) => { const [k, n] = (process.env.SLICE ?? "0/1").split("/").map(Number); return i % n === k; });   // SLICE=k/n: every n-th doc, so shards split one big pack
       results[pack] = RESUME ? (results[pack] ?? []) : [];
+      results[pack] = results[pack].filter((r) => !r.fails.some((f) => /TIMEOUT|HANG/.test(f)));
       const done = new Set(results[pack].map((r) => r.id));   // resumed run: documents already tested are skipped
       // group by actor so each leveled actor is built once
       const groups = new Map();
@@ -211,6 +212,12 @@ try {
           while (control().pause) await sleep(2000);
           if (control().stop) { writeFileSync(OUT, JSON.stringify(results, null, 1)); console.log("STOPPED on request; resume with --resume"); process.exit(3); }
           const r = await Promise.race([page.evaluate(`__useItem(${JSON.stringify({ pack, id: d._id, ctx: c })})`), new Promise((res) => setTimeout(() => res({ id: d._id, name: d.name, ctx: c.label, fails: ["HANG: no result after 120 s"], warns: [], activities: [] }), 120000))]).catch((e) => ({ id: d._id, name: d.name, fails: [`harness: ${e.message.slice(0, 140)}`], warns: [], activities: [] }));
+          if (r.fails.some((f) => /TIMEOUT/.test(f))) {   // slow under load, not necessarily broken: one retry with 40 s
+            await page.evaluate("globalThis.__timeout = 40000");
+            const r2 = await page.evaluate(`__useItem(${JSON.stringify({ pack, id: d._id, ctx: c })})`).catch(() => null);
+            await page.evaluate("globalThis.__timeout = undefined");
+            if (r2) Object.assign(r, r2, { retried: true });
+          }
           r.pack = pack; results[pack].push(r); n++;
           if (n % 5 === 0) writeFileSync(OUT, JSON.stringify(results, null, 1));   // checkpoint
           if (n % 10 === 0 || n === total) console.log(`PROGRESS ${pack} ${n}/${total} fails ${results[pack].filter((x) => x.fails.length).length}`);

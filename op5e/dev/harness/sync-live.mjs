@@ -4,7 +4,7 @@
 // Only changed documents are sent (hash per document in reports/.sync-hashes.json). Needs a fresh `npm run build` (reads packs-src).
 // Usage: node dev/harness/sync-live.mjs [--files-only] [--force] [pack ...]
 // Touches: the test world's compendium lock setting (unlocked while syncing, locked again after) and the module folder. Never any other world.
-import { cpSync, existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { withFoundry } from "./drive.mjs";
 
@@ -16,8 +16,16 @@ const MOD = `${BASE}/foundrydata/Data/modules/op5e`;
 const HASHES = "reports/.sync-hashes.json";
 
 // 1. plain files (never packs/ or module.json: a new pack or manifest change needs one Foundry restart)
-for (const f of ["scripts", "templates", "styles", "lang", "assets", "data/generated"]) if (existsSync(f)) cpSync(f, `${MOD}/${f}`, { recursive: true });
-console.log("module files copied (refresh the browser tab to load them)");
+// only files whose content differs are written: Foundry hot-reloads every connected browser when a module file changes on disk,
+// which wipes the state of any running test session (and reloads your own tab)
+let copied = 0;
+const copyChanged = (from, to) => {
+  if (statSync(from).isDirectory()) { mkdirSync(to, { recursive: true }); for (const n of readdirSync(from)) copyChanged(`${from}/${n}`, `${to}/${n}`); return; }
+  if (existsSync(to) && statSync(to).size === statSync(from).size && readFileSync(to).equals(readFileSync(from))) return;
+  cpSync(from, to); copied++;
+};
+for (const f of ["scripts", "templates", "styles", "lang", "assets", "data/generated"]) if (existsSync(f)) copyChanged(f, `${MOD}/${f}`);
+console.log(`module files: ${copied} changed (refresh the browser tab to load them)`);
 if (filesOnly) process.exit(0);
 
 // 2. documents

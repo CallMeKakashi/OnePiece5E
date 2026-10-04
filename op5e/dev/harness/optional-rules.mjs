@@ -57,6 +57,7 @@ const run = async () => {
     await new Promise((r) => setTimeout(r, 800));
     const note = game.messages.size - n0;
     check(midi ? "Midi active: no duplicate chat note" : "Midi inactive: chat note posted", midi ? note === 0 : note === 1, note);
+    await new Promise((r) => setTimeout(r, 3000));   // see harness.mjs: never delete a card Midi may still update
     for (const m of game.messages.contents.slice(n0)) await m.delete().catch(() => {});
     await set("optCriticalSaves", false);
 
