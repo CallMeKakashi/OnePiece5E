@@ -7,7 +7,9 @@ import type { FeatureItem } from "../../schemas/feature.js";
 // ammo, Gadgeteer mods / mastercraft mods / servant specialisations. Text is the book's; `acts` become activities through
 // automation/class-content.ts (the same Def objects feed both, so text and mechanics cannot drift apart).
 
-export interface Def { group: string; name: string; req: string; html: string; acts: ActSpec[] }
+/** native dnd5e prerequisites (ItemChoice filters its pool with these); items are identifiers the actor must own */
+export interface DefPrereq { level: number; items: string[]; repeatable: boolean }
+export interface Def { group: string; name: string; req: string; html: string; acts: ActSpec[]; prereq?: DefPrereq }
 
 const slug = (n: string) => n.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const defId = (d: Def) => generateId(`${d.group}/${slug(d.name)}`);
@@ -20,6 +22,7 @@ export function toFeature(d: Def): FeatureItem {
     system: {
       description: { value: d.html, chat: "" }, source: { book: "OP5e", page: "", custom: "", license: "" },
       type: { value: "class", subtype: "" }, requirements: d.req,
+      ...(d.prereq ? { identifier: slug(d.name), prerequisites: d.prereq } : {}),
       activation: { type: "", cost: null, condition: "" }, duration: { value: null, units: "" },
       target: { value: null, width: null, units: "", type: "" }, range: { value: null, long: null, units: "" },
       uses: { value: null, max: "", per: null, recovery: "", prompt: true }, actionType: "",
@@ -187,9 +190,11 @@ const engineering: Def = { group: "feature/fighter/arms-dealer", name: "Engineer
 const GM = "feature/gadgeteer/mod";
 const INT_DC = "8 + @prof + @abilities.int.mod";
 const pre = (lvl?: number, sub?: string) => [lvl ? `${lvl}th-level gadgeteer` : "", sub ? `${sub} gadgeteer subclass` : ""].filter(Boolean).join(", ");
+const subSlug = (sub: string) => sub.toLowerCase().replace(/\s+/g, "-");
 const mod = (name: string, item: string, text: string, acts: ActSpec[], lvl?: number, sub?: string): Def => ({
   group: GM, name, req: lvl ? `Gadgeteer ${lvl}` : "Gadgeteer 2",
   html: `<p><em>${pre(lvl, sub) ? `Prerequisite: ${pre(lvl, sub)}. ` : ""}Item: ${item}</em></p>${text}`, acts,
+  prereq: { level: lvl ?? 2, items: sub ? [subSlug(sub)] : [], repeatable: name === "Replicate Mastercraft Item" },
 });
 /** one "apply" activity per bonus tier (+1 / +2 at 8th or 10th / +3 at 16th) so the effect carries a fixed number */
 const tiers = (label: string, lv2: number, changes: (n: number) => ReturnType<typeof chg>[], note: string): ActSpec[] =>
@@ -282,4 +287,15 @@ export const gunsmithDef = gunsmith, hemorrhagingDef = hemorrhaging, engineering
 export const maneuverUuids = maneuvers.map(uuidOf);
 export const shotUuids = shots.map(uuidOf);
 export const ammoUuids = ammos.map(uuidOf);
-export const modUuids = mods.map(uuidOf);
+// Book pools: "Mods.md" lists seven gadgeteer mods; "Actions.md" continues with 11 mastercraft mods and the 5 specialist-path
+// (servant/gear) specialisations, each gated by level and subclass via native prerequisites on the item.
+const CORE_MODS = ["Armor of Mechanical Strength", "Burst Boots", "Enhanced Creative Focus", "Enhanced Defenses", "Enhanced Weapon", "Propulsion Armor", "Awareness Visor"];
+const SPECIALISATIONS = ["Wrought Warden", "Omega Operative", "Chemistry Menagerie", "Versatile Elements", "Airborne Aegis"];
+export const coreMods = mods.filter((m) => CORE_MODS.includes(m.name));
+export const specialisations = mods.filter((m) => SPECIALISATIONS.includes(m.name));
+export const mastercraftMods = mods.filter((m) => !CORE_MODS.includes(m.name) && !SPECIALISATIONS.includes(m.name));
+export const coreModUuids = coreMods.map(uuidOf);
+export const mastercraftModUuids = mastercraftMods.map(uuidOf);
+export const specialisationUuids = specialisations.map(uuidOf);
+/** every learnable mod (Mods Known); the per-item prerequisites do the filtering */
+export const modUuids = [...coreModUuids, ...mastercraftModUuids, ...specialisationUuids];

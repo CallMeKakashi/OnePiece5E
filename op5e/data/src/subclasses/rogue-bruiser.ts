@@ -40,34 +40,33 @@ function feat(idPath: string, name: string, level: number, description: string, 
 
 export const hiredThug = feat(
   "feature/rogue/bruiser/hired-thug", "Hired Thug", 3,
-  `<p>When you choose this archetype at 3rd level, you gain proficiency in Intimidation and Athletics if you don't already have them.</p>`,
+  `<p>When you choose this archetype at 3rd level, you gain proficiency in Charisma (Intimidation) and Strength (Athletics) checks, or expertise if you were already proficient.</p>`,
 );
 
 export const armedAndDangerous = feat(
   "feature/rogue/bruiser/armed-and-dangerous", "Armed and Dangerous", 3,
-  `<p>At 3rd level, you gain proficiency with medium armor and martial weapons. You can use Strength instead of Dexterity for Sneak Attack when attacking a creature that is grappled or deafened.</p>`,
+  `<p>Starting at 3rd level, you gain proficiency with medium armor, martial weapons, and improvised weapons.</p><p>You also gain additional ways to use your Sneak Attack; you don't need advantage on the attack roll to use your Sneak Attack against a creature if they are grappled or deafened, you are using a melee weapon or unarmed strike that uses Strength, and you don't have disadvantage on the attack roll. All the other rules still apply to you.</p><p>In addition, you can use your Cunning action to make a grapple or shove check.</p>`,
 );
 
 export const streetRules = feat(
   "feature/rogue/bruiser/street-rules", "Street Rules", 6,
-  `<p>At 6th level, you gain the following additional Devious Strike options:</p><ul><li><strong>Pummel (Cost: 1d6).</strong> The target must succeed on a Strength saving throw or drop one item it's holding of your choice.</li><li><strong>Shove (Cost: 1d6).</strong> The target must succeed on a Strength saving throw or be pushed up to 15 feet away from you.</li></ul>`,
+  `<p>Starting at 6th level, you can decipher the precise weak points of your foes. The following effects are added to your Devious Strike options.</p><p><strong>Sap (Cost: 2d6).</strong> You rock your targets world with a haymaker straight to the temple. The target must succeed on an Constitution saving throw, or have their movement speed fall to 0 and they cannot use reactions until the end of their next turn.</p><p><strong>Daze (Cost: 2d6).</strong> You mercilessly beat your target black and blue. The target must succeed a Constitution saving throw, or be deafened for 1 minute, repeating the saving throw at the end of each of their turns, ending the effect on a success. While deafened in this way the target suffers disadvantage on saves made to maintain concentration.</p>`,
 );
 
 export const hardKnocks = feat(
   "feature/rogue/bruiser/hard-knocks", "Hard Knocks", 9,
-  `<p>At 9th level, you gain the Extra Attack feature—you can attack twice instead of once whenever you take the Attack action on your turn. Additionally, when you use Uncanny Dodge, you reduce the damage by an amount equal to your Rogue level instead of halving it if that reduction would be greater.</p>`,
+  `<p>At 9th level, when life kicked you while you were down, you got back up, ready to kick back even harder. You can attack twice, instead of once, whenever you take the Attack action on your turn.</p><p>If you ready your action to make an attack, you can attack the same number of times you would if you had taken the attack action on your turn.</p><p>In addition, you can now use your Uncanny Dodge feature against any damage source, and not just against attacks that you can see.</p>`,
   { chatFlavor: "Attack action attacks: 2" },
 );
 
 export const bullyBlitz = feat(
   "feature/rogue/bruiser/bully-blitz", "Bully Blitz", 13,
-  `<p>At 13th level, your Street Rules devious strikes improve:</p><ul><li><strong>Pummel:</strong> On a failure, the target also takes additional bludgeoning damage equal to your proficiency bonus.</li><li><strong>Shove:</strong> The distance increases to 25 feet, and if pushed into a wall or obstacle the target takes 2d6 bludgeoning damage.</li></ul>`,
+  `<p>Starting at 13th level, your tactics become exceptionally brutal. Your Devious Strikes gain the following benefits:</p><p><strong>Drain.</strong> If the target of Sap fails the save by 5 or more, they are instead stunned until the end of their next turn.</p><p><strong>Concuss.</strong> If the target of Daze fails the save by 5 or more, they suffer disadvantage on all ability checks in addition to disadvantage on saves to maintain concentration while deafened in this way.</p>`,
 );
 
 export const toughCustomer = feat(
   "feature/rogue/bruiser/tough-customer", "Tough Customer", 17,
-  `<p>At 17th level, when you use Uncanny Dodge, you can choose to negate all the damage from the triggering attack instead of reducing it. Once you use this feature, you can't do so again until you finish a short or long rest.</p>`,
-  { uses: { value: 1, max: "1", per: "sr", recovery: "", prompt: true } },
+  `<p>Starting at 17th level, when you use your Uncanny Dodge, you can choose to instead take no damage instead of halving it.</p>`,
 );
 
 export const features: FeatureItem[] = [
@@ -84,7 +83,7 @@ export const subclass: SubclassItem = {
   type: "subclass",
   img: "icons/svg/item-bag.svg",
   system: {
-    description: { value: `<p>Some rogues rely on brute strength and intimidation rather than subtlety. The Bruiser is a street-hardened enforcer who mixes dirty fighting with raw power.</p>`, chat: "" },
+    description: { value: `<p>Bruisers are rogues who go against the grain. Rather than utilizing finesse and stealth, bruisers take their destiny by the throat. Like a cornered predator, these rogues can and will use anything to get a leg up, no matter how dirty and dastardly. More often than not these scoundrels are enforces and thugs for large criminal organizations, working to get the job done, no matter the cost.</p>`, chat: "" },
     source: { book: "OP5e", page: "", custom: "", license: "" },
     identifier: "bruiser",
     classIdentifier: "rogue",

@@ -15,7 +15,7 @@ import { subclassItemSchema } from "./schemas/subclass.js";
 import { featureItemSchema } from "./schemas/feature.js";
 import type { FeatureItem } from "./schemas/feature.js";
 import { raceItemSchema } from "./schemas/race.js";
-import { foundryItemBase, foundryActorBase, foundryJournalBase } from "./schemas/common.js";
+import { foundryItemBase, foundryActorBase, foundryJournalBase, foundryRollTableBase } from "./schemas/common.js";
 import { ensureFeatureActivities, ensureItemActivities } from "./helpers/activities.js";
 import { applySpec } from "./helpers/spec.js";
 import { parsePrereq } from "./helpers/prereq.js";
@@ -30,6 +30,7 @@ const PACKS_SRC = join(ROOT, "packs-src");
 const EMBEDDED_COLLECTIONS: Record<string, string[]> = {
   actors: ["items", "effects"],
   journal: ["pages"],
+  tables: ["results"],
   items: ["effects"],
 };
 
@@ -64,7 +65,7 @@ interface PackConfig {
   srcDir: string;
   schema: ZodType;
   /** Document collection; defaults to items. */
-  collection?: "items" | "actors" | "journal";
+  collection?: "items" | "actors" | "journal" | "tables";
 }
 
 const PACK_CONFIGS: PackConfig[] = [
@@ -80,6 +81,7 @@ const PACK_CONFIGS: PackConfig[] = [
   { name: "devil-fruits", srcDir: "devil-fruits", schema: foundryItemBase },
   { name: "spell-lists", srcDir: "spell-lists", schema: foundryJournalBase, collection: "journal" },
   { name: "reference", srcDir: "reference", schema: foundryJournalBase, collection: "journal" },
+  { name: "roll-tables", srcDir: "roll-tables", schema: foundryRollTableBase, collection: "tables" },
   { name: "monsters", srcDir: "actors", schema: foundryActorBase, collection: "actors" },
   { name: "summons", srcDir: "summons", schema: foundryActorBase, collection: "actors" },
   { name: "ships", srcDir: "ships", schema: foundryActorBase, collection: "actors" },
@@ -129,7 +131,7 @@ async function buildPack(config: PackConfig): Promise<Stats> {
   }
 
   for (let raw of items) {
-    if (config.collection === "actors" || config.collection === "journal") {
+    if (config.collection === "actors" || config.collection === "journal" || config.collection === "tables") {
       // actors carry their own embedded items/activities (see helpers/actor.ts)
     } else if (FEATURE_PACKS.has(config.name)) {
       raw = ensureFeatureActivities(raw as FeatureItem);
@@ -139,7 +141,7 @@ async function buildPack(config: PackConfig): Promise<Stats> {
 
     // hand-written automation (data/src/automation) replaces generated activities for the items it names
     const specKey = `${config.name}/${(raw as { name: string }).name}`;
-    if (AUTOMATION[specKey] && config.collection !== "actors" && config.collection !== "journal") {
+    if (AUTOMATION[specKey] && config.collection !== "actors" && config.collection !== "journal" && config.collection !== "tables") {
       raw = applySpec(raw as never, AUTOMATION[specKey], specKey) as never;
     }
 

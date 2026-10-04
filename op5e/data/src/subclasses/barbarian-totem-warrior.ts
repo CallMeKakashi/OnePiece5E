@@ -46,9 +46,10 @@ export const beastSpeech = feat(
 export const primalTotem = feat(
   "feature/barbarian/totem-warrior/primal-totem", "Primal Totem", 3,
   `<p>At 3rd level, when you adopt this path, you choose a totem beast to symbolize your strength and spirit, gaining its features.</p>
+<p>Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle.</p>
 <ul>
-<li><strong>Bear.</strong> While raging, you have resistance to a number of damage types equal to your proficiency bonus, except force and psychic damage. You choose these types when you gain this feature, and each time your proficiency bonus increases.</li>
-<li><strong>Elk.</strong> While you're raging and aren't wearing heavy armor, your walking speed increases by 15 feet.</li>
+<li><strong>Bear.</strong> While raging, you have resistance to a number of damage types equal to your proficiency bonus, except force and psychic damage. You choose these types when you gain this feature, and each time your proficiency bonus increases. The spirit of the bear makes you tough enough to stand up to any punishment.</li>
+<li><strong>Elk.</strong> While you're raging and aren't wearing heavy armor, your walking speed increases by 15 feet. The spirit of the elk makes you extraordinarily swift.</li>
 <li><strong>Eagle.</strong> While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a bonus action on your turn. You can also Dash when you enter your rage.</li>
 <li><strong>Tiger.</strong> While you're raging, if you move at least 20 feet in a straight line towards a target that is no more than 1 size larger than you, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone. If the target is prone, you can make 1 melee attack against it as a bonus action.</li>
 <li><strong>Wolf.</strong> While you're raging, your allies have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you.</li>
@@ -60,18 +61,18 @@ export const ancientAspect = feat(
   "feature/barbarian/totem-warrior/ancient-aspect", "Ancient Aspect", 6,
   `<p>At 6th level, you gain another benefit based on the totem animal of your choice. You can choose the same animal you selected at 3rd level or a different one.</p>
 <ul>
-<li><strong>Bear.</strong> You count as one size larger when determining your carrying capacity and the weight you can push, drag, lift, and for grapple and shove attempts.</li>
-<li><strong>Elk.</strong> Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not incapacitated.</li>
-<li><strong>Eagle.</strong> You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks.</li>
-<li><strong>Tiger.</strong> You gain proficiency in two skills from the following list: Athletics, Acrobatics, Stealth, and Survival. If you were already proficient in these skills, you can instead gain expertise respectively.</li>
-<li><strong>Wolf.</strong> You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace.</li>
-<li><strong>Shark.</strong> You gain a swim speed equal to your current walking speed. Additionally, you gain the ability to hold your breath for 1 hour.</li>
+<li><strong>Bear.</strong> You gain the might of a bear. You count as one size larger when determining your carrying capacity and the weight you can push, drag, lift, and for grapple and shove attempts.</li>
+<li><strong>Elk.</strong> Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not incapacitated. The elk spirit helps you roam far and fast.</li>
+<li><strong>Eagle.</strong> You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks.</li>
+<li><strong>Tiger.</strong> You gain proficiency in two skills from the following list: Athletics, Acrobatics, Stealth, and Survival. The cat spirit hones your survival instincts. If you were already proficient in these skills, you can instead gain expertise respectively.</li>
+<li><strong>Wolf.</strong> You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace.</li>
+<li><strong>Shark.</strong> You gain the shark's ability to navigate through water. You gain a swim speed equal to your current walking speed. Additionally, you gain the ability to hold your breath for 1 hour.</li>
 </ul>`,
 );
 
 export const voraciousVelocity = feat(
   "feature/barbarian/totem-warrior/voracious-velocity", "Voracious Velocity", 10,
-  `<p>At 10th level, your beast-like prowess grants you the ability to maneuver past any obstacle. Your speed increases by 10 ft, you gain a climbing speed equal to your movement speed, and you can add 10 feet to your long jump distance and 3 feet to your high jump distance.</p>
+  `<p>At 10th level, your beast-like prowess grants you the ability to maneuver past any obstacle. Your speed increases by 10ft, you gain a climbing speed equal to your movement speed, and you can add 10 feet to your long jump distance and 3 feet to your high jump distance.</p>
 <p>Additionally, while raging, you ignore the effects of any and all difficult terrain.</p>`,
 );
 
@@ -102,7 +103,7 @@ export const subclass: SubclassItem = {
   type: "subclass",
   img: "icons/svg/item-bag.svg",
   system: {
-    description: { value: `<p>While some barbarian's strength makes them seem like a wild beast, most tend to remain human in spirit. Those who follow the totem warrior's path take inspiration from many beasts in their battles, having spent many years understanding their methods of the hunt, becoming essentially second nature.</p>`, chat: "" },
+    description: { value: `<p>While some barbarian's strength makes them seem like a wild beast, most tend to remain human in spirit. Those who follow the totem warrior's path take inspiration from many beasts in their battles, having spent many years understanding their methods of the hunt, becoming essentially second nature. These barbarians tend to be more spiritual, and more in tune with the nature of the world. Though, like any wild beast, willing to fight tooth and neck to survive.</p>`, chat: "" },
     source: { book: "OP5e", page: "", custom: "", license: "" },
     identifier: "totem-warrior",
     classIdentifier: "barbarian",

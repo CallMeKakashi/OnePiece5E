@@ -41,13 +41,13 @@ function feat(idPath: string, name: string, level: number, description: string, 
 
 export const enGarde = feat(
   "feature/rogue/fencer/en-garde", "En Garde", 3,
-  `<p>Starting at 3rd level, when a creature misses you with a melee attack, you can use your reaction to make an opportunity attack against that creature.</p>`,
-  { activation: { type: "reaction", cost: 1, condition: "A creature misses you with a melee attack" } },
+  `<p>When you choose this archetype at 3rd level, you have learned that an opponent is always off-guard when they miss. When an enemy within range of your weapon attack misses an attack or creation, regardless of their target, you can use your reaction to make an opportunity attack with a melee weapon against it.</p>`,
+  { activation: { type: "reaction", cost: 1, condition: "An enemy within range of your weapon attack misses an attack or creation, regardless of its target" } },
 );
 
 export const duelingDefense = feat(
   "feature/rogue/fencer/dueling-defense", "Dueling Defense", 3,
-  `<p>At 3rd level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Intelligence modifier + your Dexterity modifier. Additionally, you add your Intelligence modifier to your initiative rolls.</p>`,
+  `<p>At 3rd level, your practice of fencing gives you an elegant speed for avoiding most attacks. While not wearing armor or using a shield, your AC is equal to 10 + Intelligence modifier + Dexterity modifier.</p><p>In addition, you can add your Intelligence modifier to your initiative.</p>`,
   {},
   [
     createDAEEffect("rogue/fencer/dueling-defense", "Dueling Defense", [
@@ -58,22 +58,22 @@ export const duelingDefense = feat(
 
 export const masterBladework = feat(
   "feature/rogue/fencer/master-bladework", "Master Bladework", 6,
-  `<p>At 6th level, you gain the following additional Devious Strike options:</p><ul><li><strong>Disarm (Cost: 1d6).</strong> The target must succeed on a Strength saving throw or drop one weapon it's holding.</li><li><strong>Riposte (Cost: 2d6).</strong> You can immediately make one melee weapon attack against the target as part of dealing your Sneak Attack damage.</li></ul>`,
+  `<p>Starting at 6th level, with a mix of finesse and intuition, you can overwhelm your opponent. The following effects are added to your Devious Strike options.</p><p><strong>Disarm (Cost: 2d6).</strong> The target must make a Strength saving throw. On a failed save, it drops a held object of your choice. The object lands at its feet.</p><p><strong>Guard Break (Cost: 3d6).</strong> The target must make a Dexterity saving throw. On a failed save, you disrupt your opponent's defenses. Until the start of your next turn, their AC is reduced by 2.</p>`,
 );
 
 export const agileReflexes = feat(
   "feature/rogue/fencer/agile-reflexes", "Agile Reflexes", 9,
-  `<p>At 9th level, when a creature you can see attacks you, you can add your Wisdom modifier to your AC against that attack. You must be able to see the attacker to gain this benefit.</p>`,
+  `<p>Through your cunning and combat experience, at 9th level, you become able to read your foes' movements. When a creature hits you with an attack, you gain a bonus to AC equal to your Wisdom Modifier against all subsequent attacks made by that creature for the rest of the turn.</p>`,
 );
 
 export const martialMetre = feat(
   "feature/rogue/fencer/martial-metre", "Martial Metre", 13,
-  `<p>Starting at 13th level, you can take a second reaction each round. Additionally, when a creature hits you with a melee attack, you can use your reaction to force it to make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier) or be knocked prone or grappled (your choice).</p>`,
+  `<p>Starting at 13th level, you have trained yourself to match the timing and tempo of all things, granting you the ability to react faster than normal.</p><p>You gain a second reaction, this reaction can only be used for Uncanny Dodge. You regain this reaction at the start of each of your turns.</p><p>Additionally, whenever you are knocked prone or grappled, you can make a Dexterity saving throw, DC 15 to avoid being knocked prone or grappled on a success.</p>`,
 );
 
 export const weaponWeave = feat(
   "feature/rogue/fencer/weapon-weave", "Weapon Weave", 17,
-  `<p>At 17th level, you add double your proficiency bonus to melee weapon attack rolls instead of your normal proficiency bonus.</p>`,
+  `<p>At 17th level, your attacks are so precise that you can slip through even the toughest armor with ease, and pierce even the most lofty of foes. Your melee weapon attack rolls add double your proficiency bonus, rather than once.</p>`,
 );
 
 export const features: FeatureItem[] = [
@@ -90,7 +90,7 @@ export const subclass: SubclassItem = {
   type: "subclass",
   img: "icons/svg/item-bag.svg",
   system: {
-    description: { value: `<p>The Fencer is a master of elegant swordplay, relying on precision, agility, and intellect to outmaneuver opponents in melee combat.</p>`, chat: "" },
+    description: { value: `<p>Very few are faster and more precise in combat than the adept fencer. Your expertise in dodging, parrying, and lunging make you essentially a blur of metal to your opponent. Many fencers make the most of their dexterity to avoid any unfavorable attack, move with great acrobatic expertise, and are able to strike through even the toughest of armor.</p>`, chat: "" },
     source: { book: "OP5e", page: "", custom: "", license: "" },
     identifier: "fencer",
     classIdentifier: "rogue",

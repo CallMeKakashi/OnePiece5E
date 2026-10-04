@@ -101,10 +101,7 @@ export const deviousStrike = classFeature(
   "feature/rogue/devious-strike",
   "Devious Strike",
   5,
-  `<p>Beginning at 5th level, when you deal Sneak Attack damage, you can forgo some of your Sneak Attack dice to produce a special effect. The save DC equals 8 + your Dexterity modifier + your proficiency bonus.</p><ul><li><strong>Trip (Cost: 1d6).</strong> The target must succeed on a Dexterity saving throw or be knocked prone.</li><li><strong>Withdraw (Cost: 1d6).</strong> You can move up to half your speed without provoking opportunity attacks immediately after dealing the damage.</li></ul>`,
-  {
-    save: { ability: "dex", dc: null, scaling: "dex" },
-  },
+  `<p>Starting at 5th Level, you can outwit any foe while in combat with a combination of dexterity and deception. When you deal Sneak Attack damage, you can add one of the following Devious Strike options below. Each option has a die cost, which is the number of Sneak Attack dice you must forgo to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack's damage is dealt. An attack can only have one Devious Strike option at a time. If a Devious Strike requires a saving throw, the DC equals 8 plus your Dexterity modifier and Proficiency Bonus.</p><p><strong>Trip (Cost: 1d6).</strong> If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition.</p><p><strong>Withdraw (Cost: 1d6).</strong> Immediately after the attack, you move up to half your speed without provoking Opportunity Attacks.</p>`,
 );
 
 export const uncannyDodge = classFeature(
@@ -145,10 +142,7 @@ export const duplicitousStrike = classFeature(
   "feature/rogue/duplicitious-strike",
   "Duplicitious Strike",
   14,
-  `<p>At 14th level, you gain additional Devious Strike options:</p><ul><li><strong>Daze (Cost: 3d6).</strong> The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.</li><li><strong>Knock Out (Cost: 6d6).</strong> The target must succeed on a Constitution saving throw or fall unconscious for 1 minute. The target wakes early if it takes damage or another creature uses an action to shake it awake.</li><li><strong>Obscure (Cost: 3d6).</strong> The target must succeed on a Dexterity saving throw or be blinded until the end of your next turn.</li></ul>`,
-  {
-    save: { ability: "con", dc: null, scaling: "dex" },
-  },
+  `<p>Starting at 14th level, your machinations during duels run especially deep. The following effects are added to your Devious Strike options.</p><p><strong>Daze (Cost: 3d6).</strong> The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action.</p><p><strong>Knock Out (Cost: 6d6).</strong> The target must succeed on a Constitution saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of its turns, ending the effect on itself on a success.</p><p><strong>Obscure (Cost: 3d6).</strong> The target must succeed on a Dexterity saving throw, or it has the Blinded condition until the end of its next turn.</p>`,
 );
 
 export const blindsense = classFeature(

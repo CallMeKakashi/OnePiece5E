@@ -40,33 +40,33 @@ function feat(idPath: string, name: string, level: number, description: string, 
 
 export const skirmisher = feat(
   "feature/rogue/scout/skirmisher", "Skirmisher", 3,
-  `<p>Starting at 3rd level, you are difficult to pin down during a fight. You can move up to half your speed as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn't provoke opportunity attacks. Additionally, your walking speed increases by 10 feet.</p>`,
+  `<p>Starting at 3rd level, you are difficult to pin down during a fight. You can move up to half your speed as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn't provoke opportunity attacks.</p><p>In addition your movement speed increases by 10 feet. If you have a climbing or swimming speed, this increase applies to that speed as well.</p>`,
   { activation: { type: "reaction", cost: 1, condition: "Enemy ends turn within 5ft" } },
 );
 
 export const survivalist = feat(
   "feature/rogue/scout/survivalist", "Survivalist", 3,
-  `<p>When you choose this archetype at 3rd level, you gain proficiency in Nature and Survival if you don't already have them. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies.</p>`,
+  `<p>When you choose this archetype at 3rd level, you gain proficiency in the Nature and Survival skills if you don't already have them. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies.</p>`,
 );
 
 export const keenCombatant = feat(
   "feature/rogue/scout/keen-combatant", "Keen Combatant", 6,
-  `<p>At 6th level, you gain the following additional Devious Strike options:</p><ul><li><strong>Mark Prey (Cost: 1d6).</strong> The target is marked until the end of your next turn. Attack rolls against the marked target have advantage if the attacker is within 5 feet of it.</li><li><strong>Pin Down (Cost: 2d6).</strong> The target must succeed on a Strength saving throw or have its speed reduced to 0 until the end of its next turn.</li></ul>`,
+  `<p>Starting at 6th level, you can react and act fast in combat. The following effects are added to your Devious Strike options.</p><p><strong>Scheme (Cost: 2d6).</strong> As part of the Devious Strike, you take one of your Cunning Action options.</p><p><strong>Focus (Cost: 1d6).</strong> If this attack was made using your Steady Aim feature, you ignore the movement resistrictions.</p>`,
 );
 
 export const superiorHunter = feat(
   "feature/rogue/scout/superior-hunter", "Superior Hunter", 9,
-  `<p>At 9th level, when you move at no more than half your speed, you have advantage on Wisdom (Perception) and Wisdom (Survival) checks.</p>`,
+  `<p>At 9th level, you gain advantage on any Wisdom (Perception) or Wisdom (Survival) checks if you move no more than half your speed on the same turn.</p>`,
 );
 
 export const ambushMaster = feat(
   "feature/rogue/scout/ambush-master", "Ambush Master", 13,
-  `<p>Starting at 13th level, you have advantage on initiative rolls. In addition, the first creature you hit during the first round of combat becomes easier for you and others to strike. Attack rolls against that target have advantage until the start of your next turn.</p>`,
+  `<p>Starting at 13th level, you excel at leading ambushes and acting first in a fight.</p><p>You have advantage on initiative rolls. In addition, the first creature you hit during the first round of combat becomes easier for you and others to strike; attack rolls against that target have advantage until the start of your next turn.</p>`,
 );
 
 export const suddenStrike = feat(
   "feature/rogue/scout/sudden-strike", "Sudden Strike", 17,
-  `<p>At 17th level, if you take the Attack action on your turn, you can make one additional attack as a bonus action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but not against the same target.</p>`,
+  `<p>Starting at 17th level, you can strike with deadly speed. When you take the attack action, you can make another attack as a bonus action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target more than once in a turn.</p>`,
   { activation: { type: "bonus", cost: 1, condition: "" } },
 );
 
@@ -84,7 +84,7 @@ export const subclass: SubclassItem = {
   type: "subclass",
   img: "icons/svg/item-bag.svg",
   system: {
-    description: { value: `<p>You are skilled in stealth and surviving far from the streets of a city, allowing you to scout ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians and rangers.</p>`, chat: "" },
+    description: { value: `<p>Skilled in stealth and movement, allowing you to scout ahead of your companions during expeditions. Rogues who embrace this archetype are at home in nearly any environment. Typically these outlanders and lookouts who aid their crew with keen eyes and quick feet. Able to weave through the battlefield like greased lightning and cut an opening for the rest of the crew.</p>`, chat: "" },
     source: { book: "OP5e", page: "", custom: "", license: "" },
     identifier: "scout",
     classIdentifier: "rogue",

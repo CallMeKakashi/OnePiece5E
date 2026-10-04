@@ -103,7 +103,7 @@ export const subclass: SubclassItem = {
   type: "subclass",
   img: "icons/svg/item-bag.svg",
   system: {
-    description: { value: `<p>Forged in iron and scalding flames emerges the expert Forgemaster, proudly donning their creation to the world, their signature armor. Forgemasters imbue their rage into the very metal they sculpt, having it act as a second skin as they show what is truly possible when you take your fate in your own hands.</p>`, chat: "" },
+    description: { value: `<p>Forged in iron and scalding flames emerges the expert Forgemaster, proudly donning their creation to the world, their signature armor. Forgemasters imbue their rage into the very metal they sculpt, having it act as a second skin as they show what is truly possible when you take your fate in your own hands. A Forgemaster's armor is best described with one word. Impenetrable.</p>`, chat: "" },
     source: { book: "OP5e", page: "", custom: "", license: "" },
     identifier: "forgemaster",
     classIdentifier: "barbarian",

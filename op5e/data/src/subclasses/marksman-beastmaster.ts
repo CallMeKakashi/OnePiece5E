@@ -53,8 +53,10 @@ export const beastmasterCreations = feat(
 export const bestialCompanion = feat(
   "feature/marksman/beastmaster/bestial-companion", "Bestial Companion", 3,
   `<p>When you choose this archetype at 3rd level, you get access to an animal companion that will follow you on your adventures.</p>
-<p>Choose either the Beast of the Air, Beast of the Earth, or Beast of the Sea to be your companion. In combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Attack action.</p>
-<p>If your bestial companion is reduced to 0 hit points, it falls unconscious and makes death saving throws as normal. As an action, you can touch an unconscious or dead bestial companion and expend one creation slot of 1st level or higher to restore it.</p>`,
+<p>Choose either the Beast of the Air, Beast of the Earth, or Beast of the Sea to be your companion, all listed at the end of the subclass description. Your bestial companion takes a form appropriate to its type, for instance, a Beast of the Air might be a hawk, and Beast of the Land could be a bear.</p>
+<p>In combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Attack action. If you are incapacitated, the beast can take any action of its choice, not just Dodge.</p>
+<p>If your bestial companion is reduced to 0 hit points, it falls unconscious and makes death saving throws as normal instead of dying outright. As an action, you can touch an unconscious or dead bestial companion and expend one creation slot of 1st level or higher. If your bestial companion was unconscious, it regains 1d8 hit points per creation slot level instantly. If your bestial companion was dead, it regains consciousness after 1 minute with all its maximum hit points restored.</p>
+<p>While traveling alone with your bestial companion, you can move stealthily at a normal pace. Your bestial companion always knows the general direction of your position and will immediately seek you out to the best of its ability if the two of you are separated.</p>`,
 );
 
 export const naturalAttunement = feat(

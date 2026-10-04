@@ -87,7 +87,7 @@ export const graciousMercy = feat(
 
 export const ultimateMercy = feat(
   "feature/brawler/way-of-mercy/ultimate-mercy", "Ultimate Mercy", 17,
-  `<p>By 17th level, you have completely mastered the forces of life and death. You gain the following benefits:</p>
+  `<p>By 17th level, you have completely mastered the forces of life and death, able to heal almost any condition and leave your enemies in ruin. You gain the following benefits:</p>
 <ul>
 <li>When you use your Hand of Healing and your Hand of Harm features, you can roll two of your martial arts dice + your Wisdom modifier instead of one.</li>
 <li>When you use your Hand of Healing feature, you can also cure a level of exhaustion, the petrified condition, or remove a curse as if you had cast the Greater Restoration creation.</li>

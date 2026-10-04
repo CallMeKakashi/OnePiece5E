@@ -49,56 +49,78 @@ function feat(slug: string, name: string, desc: string, req: string): FeatureIte
 
 const engineeringProficiency = feat(
   "engineering-proficiency", "Engineering Proficiency",
-  `<p>When you choose this archetype at 3rd level, you gain proficiency with tinker's tools and smith's tools. If you already have proficiency with either, you gain expertise with it instead (add double your proficiency bonus).</p>`,
+  `<p>Upon choosing this archetype at 3rd level, you gain proficiency with the Engineering (Intelligence) skill, Tinker's Tools, firearms, and cannons. You may use them to craft ammunition at half the cost and even draft and create new ones (DM's discretion).</p>`,
   "Arms Dealer 3",
 );
 
 const advancedArsenal = feat(
   "advanced-arsenal", "Advanced Arsenal",
-  `<p>At 3rd level, you learn to craft special ammunition. During a short or long rest, you can create a number of special ammo types equal to your Intelligence modifier (minimum of 1). The ammunition lasts until your next rest. Choose from the following types:</p>
-<ul>
-<li><strong>Explosive Round.</strong> On hit, each creature within 5 feet of the target (including the target) must make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier) or take 1d8 fire damage.</li>
-<li><strong>Piercing Round.</strong> The attack ignores half cover and three-quarters cover. On hit, the target takes an additional 1d6 piercing damage.</li>
-<li><strong>Concussive Round.</strong> On hit, the target must succeed on a Constitution saving throw or be stunned until the end of its next turn.</li>
-<li><strong>Smoke Round.</strong> On hit, the round creates a 10-foot radius sphere of smoke centered on the target, heavily obscuring the area for 1 minute.</li>
-</ul>`,
+  `<p>At 3rd level, you learn to craft special effects with some of your shots. When you gain this feature, you learn two Advanced Arsenal options of your choice.</p>
+<p>Once per turn when you fire a piece of ammo from a ranged weapon as part of the Attack action, you can apply one of your Advanced Arsenal options to that piece of ammo. You decide to use the option when the ammo hits, unless the option doesn't involve an attack roll. If an option requires a saving throw, your Advanced Arsenal save DC equals 8 + your proficiency bonus + your Intelligence modifier.</p>
+<p>You have a number uses of this ability equal to 1 + your Intelligence Modifier, and you regain all expended uses of it when you finish a short or long rest.</p>
+<p>You gain an additional Advanced Arsenal option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level.</p>
+<h4>Stasis Ammo</h4>
+<p>The creature hit by the ammo must succeed on a Charisma saving throw or be banished. While banished in this way, its speed is 0, and it is incapacitated. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.</p>
+<p>At 18th level, this ammo deals an extra 2d8 force damage when it hits.</p>
+<h4>Hypnotic Ammo</h4>
+<p>The creature hit by the ammo takes an extra 2d6 psychic damage, and choose one of your allies within 30 feet of the target. The target must succeed on a Wisdom saving throw, or it is charmed by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the charmed target, deals damage to it, or forces it to make a saving throw.</p>
+<p>At 18th level, the extra damage of this ammo becomes 4d6 psychic damage instead.</p>
+<h4>Elemental Ammo</h4>
+<p>The creature hit by the ammo takes an extra 2d8 fire, poison, acid, cold, or lightning damage, and the weapon damage also becomes that damage type.</p>
+<p>At 18th level, this ammo deals 4d8 of the chosen type.</p>
+<h4>Exploding Ammo</h4>
+<p>The ammo detonates after your attack. Your attack with the ammo gains a damage spread of 10ft, DC equal to your Advanced Arsenal DC. The attack additionally deals an extra 2d6 fire, thunder, or force damage.</p>
+<p>At 18th level, the extra damage of this ammo becomes 4d6 of the chosen type instead.</p>
+<h4>Feeble Ammo</h4>
+<p>The creature hit by the ammo takes an extra 2d6 necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn.</p>
+<p>At 18th level, the extra damage of this ammo becomes 4d6 necrotic instead.</p>
+<h4>Grasping Ammo</h4>
+<p>The creature hit by the arrow ammo an extra 2d6 piercing damage, its speed is reduced by 10 feet, and it takes 2d6 slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Advanced Arsenal save DC. Otherwise, the effect lasts for 1 minute or until you use this option again.</p>
+<p>At 18th level, the extra damage of this ammo becomes 4d6 piercing instead.</p>
+<h4>Piercing Ammo</h4>
+<p>When you use this option, you don't make an attack roll for the attack. Instead, the ammo fires forward in a line, which is 1 foot wide and 30 feet long, before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the ammo, plus an extra 1d6 piercing damage. On a successful save, a target takes half as much damage.</p>
+<p>At 18th level, the extra damage of this ammo becomes 2d6 piercing instead.</p>
+<h4>Homing Ammo</h4>
+<p>When you use this option, you don't make an attack roll for the attack. Instead, choose one creature you have seen in the past minute.</p>
+<p>The ammo flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon's range and there is a path large enough for the ammo to travel to the target, the target must make a Dexterity saving throw.</p>
+<p>On a failed save, it takes damage as if it were hit by the ammo, plus an extra 1d6 force damage, and you learn the target's current location. On a successful save, the target takes half as much damage, and you don't learn its location.</p>
+<p>At 18th level, this instead deals 2d6 force damage.</p>
+<h4>Shadow Ammo</h4>
+<p>The creature hit by the arrow takes an extra 2d6 psychic damage, and it must succeed on a Wisdom saving throw or be blinded until the start of your next turn.</p>
+<p>At 18th level, this instead deals 4d6 psychic damage.</p>
+<h4>Warp Ammo (7th level)</h4>
+<p>In the place of an attack, you can expend a use of your Advanced Arsenal to teleport to a point you can see within the short range of the ranged weapon you are using to fire the ammo.</p>
+<p>At 18th level, you can choose to instead teleport to a space within the long range of your weapon.</p>`,
   "Arms Dealer 3",
 );
 
 const reboundingShots = feat(
   "rebounding-shots", "Rebounding Shots",
-  `<p>Starting at 7th level, when you miss with a ranged weapon attack using special ammunition, the ammunition is not expended. Additionally, when you hit a target with a ranged weapon attack, you can cause the projectile to ricochet to another target within 15 feet of the original target. Make a second attack roll against the new target. On a hit, it takes half the damage of the original attack.</p>
-<p>You can use the ricochet a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a short or long rest.</p>`,
+  `<p>At 7th level, you learn how to direct an errant ammo toward a new target. Once per turn, when you make an attack roll with a piece of ammunition and miss, you can reroll the attack roll against a different target within 60 feet of the original target.</p>`,
   "Arms Dealer 7",
 );
 
 const mastercraftedShots = feat(
   "mastercrafted-shots", "Mastercrafted Shots",
-  `<p>Also at 7th level, the damage of your special ammunition types increases. Explosive Rounds deal 2d8, Piercing Rounds deal 2d6, and Concussive Rounds impose disadvantage on the saving throw if the target is Large or smaller.</p>`,
+  `<p>At 7th level, you have learned to improve your Advanced Arsenal to deadly perfection. Each of your Advanced Arsenal ammo's gain a bonus to attack and damage rolls equal to half your proficiency bonus rounded down.</p>`,
   "Arms Dealer 7",
 );
 
 const advancedArmory = feat(
   "advanced-armory", "Advanced Armory",
-  `<p>At 10th level, your expertise in arms crafting extends to defensive gear. As a reaction when you are hit by an attack, you can roll a d6 and add it to your AC against that attack, potentially causing it to miss. You can use this reaction a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a short or long rest.</p>`,
+  `<p>At 10th level, you have enhanced your defensive capabilities. When a creature hits you with an attack roll, you can use your reaction to roll a d6. On a 4 or higher, the attack instead misses you, regardless of its roll.</p>`,
   "Arms Dealer 10",
 );
 
 const constantShots = feat(
   "constant-shots", "Constant Shots",
-  `<p>At 15th level, you have perfected your ammunition-crafting process. You can now create special ammunition as a bonus action during combat, in addition to during rests. You also gain one additional use of each special ammunition type per rest.</p>
-<p>Additionally, your ranged weapon attacks score a critical hit on a roll of 19 or 20 when using special ammunition.</p>`,
+  `<p>Starting at 15th level, if you roll Initiative and have no uses of Advanced Arsenal remaining, you regain two uses of it.</p>`,
   "Arms Dealer 15",
 );
 
 const improvedAdvancedArsenal = feat(
   "improved-advanced-arsenal", "Improved Advanced Arsenal",
-  `<p>At 18th level, your special ammunition reaches its ultimate form. You gain two additional ammunition types:</p>
-<ul>
-<li><strong>Railgun Round.</strong> The attack targets every creature in a 5-foot wide, 60-foot long line. Each creature must make a Dexterity saving throw. On a failure, a creature takes 4d10 force damage; on a success, half damage.</li>
-<li><strong>Gravity Round.</strong> On hit, the target and every creature within 15 feet must succeed on a Strength saving throw or be pulled to the center of the effect and knocked prone. Affected creatures take 3d8 force damage.</li>
-</ul>
-<p>Additionally, all your existing special ammunition damage dice increase by one die size.</p>`,
+  `<p>At 18th level, your Advanced Arsenal shots improve as listed in each option.</p>`,
   "Arms Dealer 18",
 );
 
@@ -109,7 +131,7 @@ export const armsDealer: SubclassItem = {
   img: "icons/svg/item-bag.svg",
   system: {
     description: {
-      value: "<p>The Arms Dealer is a fighter who specializes in engineering advanced weapons and ammunition. Through tinkering and craftsmanship, these fighters create devastating ranged options that turn the tide of battle.</p>",
+      value: "<p>The inventive Arms Dealer devotes their fighting style to crafting creative ammunition to create a well equipped arsenal. Arms Dealer are able to use a balance of not only craft their shots, but also their keen skills with ranged combat to defeat even the most powerful foes.</p>",
       chat: "",
     },
     source: { book: "OP5e", page: "", custom: "", license: "" },

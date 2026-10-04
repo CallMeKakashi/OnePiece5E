@@ -17,7 +17,23 @@ import { isValidPointBuy, totalCost } from "./pointBuy.mjs";
 
 const { HandlebarsApplicationMixin, ApplicationV2 } = foundry.applications.api;
 
-const STEPS = ["name", "images", "species", "background", "class", "abilities", "finish"];
+const STEPS = ["name", "images", "species", "background", "dream", "class", "abilities", "finish"];
+
+let dreamsCache = null;
+/** Suggested dreams per role, from data/generated/dreams.json (hand-verified from the Sourcebook role pages). */
+async function loadDreams() {
+  if (dreamsCache) return dreamsCache;
+  try {
+    const json = await foundry.utils.fetchJsonWithTimeout(`modules/${MODULE_ID}/data/generated/dreams.json`);
+    dreamsCache = Object.entries(json)
+      .filter(([k, v]) => !k.startsWith("_") && Array.isArray(v))
+      .map(([role, dreams]) => ({ role, dreams }));
+  } catch (e) {
+    console.warn("op5e | dreams.json unavailable", e);
+    dreamsCache = [];
+  }
+  return dreamsCache;
+}
 
 /** Role, devil fruit and Haki are class advancement choices now, so there are no extra steps. */
 function stepsFor() {
@@ -80,6 +96,20 @@ function getFilePickerClass() {
   return foundry.applications?.apps?.FilePicker ?? globalThis.FilePicker;
 }
 
+/** Party Diversity ruling: species and classes already used by characters that other (non-GM) users own. Non-blocking. */
+function partyUsage() {
+  const others = (game.users ?? []).filter((u) => !u.isGM && u.id !== game.user?.id);
+  const species = new Set(), classes = new Set();
+  for (const a of game.actors ?? []) {
+    if (a.type !== "character" || !others.some((u) => a.testUserPermission(u, "OWNER"))) continue;
+    for (const i of a.items) {
+      if (i.type === "race") species.add(i.name);
+      else if (i.type === "class") classes.add(i.name);
+    }
+  }
+  return { species: [...species].sort(), classes: [...classes].sort() };
+}
+
 function canActOnDraft(draft, user) {
   if (!draft) return false;
   if (user?.isGM) return true;
@@ -111,6 +141,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       back: OP5eCharacterCreatorWizard.#onBack,
       reset: OP5eCharacterCreatorWizard.#onReset,
       finish: OP5eCharacterCreatorWizard.#onFinish,
+      useDream: OP5eCharacterCreatorWizard.#onUseDream,
       useArray: OP5eCharacterCreatorWizard.#onUseArray,
       useUrsa: OP5eCharacterCreatorWizard.#onUseUrsa,
       rollScores: OP5eCharacterCreatorWizard.#onRollScores,
@@ -196,7 +227,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       indexPack(PACKS.species),
       indexPack(PACKS.backgroundsAndRoles),
       indexPack(PACKS.classes),
-      indexPack(PACKS.racialFeatures).catch(() => [])
+      indexPack(PACKS.racialFeatures, ["type", "name", "img", "system.requirements"]).catch(() => [])
     ]);
 
     const speciesChoices = filterIndexByType(speciesIndex, "race");
@@ -207,6 +238,19 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       draft.step === "species" && draft.data.speciesId
         ? await racialFeatsForSpecies(draft.data.speciesId, racialFeatIndex)
         : [];
+
+    // Hybrid races: features of the second species are racial-feature docs whose requirements name that race or a sub-race.
+    const hybridSpecies = speciesChoices.filter((s) => s._id !== draft.data.speciesId);
+    const second = hybridSpecies.find((s) => s._id === draft.data.hybridSpeciesId);
+    const picked = new Set(draft.data.hybridFeatIds);
+    const hybridFeats =
+      draft.step === "species" && draft.data.hybridMode === "traits" && second
+        ? racialFeatIndex
+            .filter((e) => String(e.system?.requirements ?? "").toLowerCase().startsWith(second.name.toLowerCase()))
+            .map((e) => ({ ...mapIndexEntry(e), requirements: e.system.requirements, checked: picked.has(e._id) }))
+            .sort((a, b) => a.requirements.localeCompare(b.requirements) || a.name.localeCompare(b.name))
+        : [];
+    const dreams = draft.step === "dream" ? await loadDreams() : [];
 
     const visible = stepsFor(draft);
     const stepIndex = Math.max(0, visible.indexOf(draft.step));
@@ -232,6 +276,17 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       });
     }
 
+    // Starting Rules: free starting feat (general feats only, requirements shown)
+    let feats = [];
+    if (step === "class") {
+      const idx = await indexPack(PACKS.feats, ["type", "name", "img", "system.type.value", "system.requirements"]).catch(() => []);
+      feats = idx
+        .filter((e) => e.type === "feat" && e.system?.type?.value === "feat")
+        .map((e) => ({ ...mapIndexEntry(e), requirements: e.system?.requirements ?? "", selected: e._id === draft.data.freeFeatId }))
+        .sort((a, b) => a.name.localeCompare(b.name));
+    }
+    const party = step === "class" || step === "species" ? partyUsage() : { species: [], classes: [] };
+
     const abilities = draft.data.abilities ?? defaultAbilities();
     const pbSpent = totalCost(abilities);
     const pbValid = isValidPointBuy(abilities);
@@ -245,6 +300,9 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       stepIndex,
       steps: visible,
       classBlocks,
+      freeFeats: feats,
+      partySpecies: party.species,
+      partyClasses: party.classes,
       totalLevel: totalLevels(draft.data),
       abilityMax: draft.data.abilityMethod === "pointBuy" ? 15 : 20,
       abilityMin: draft.data.abilityMethod === "pointBuy" ? 8 : 3,
@@ -256,6 +314,11 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
         classes: classChoices
       },
       speciesRacialFeats,
+      hybridSpecies: hybridSpecies.map((s) => ({ ...s, selected: s._id === draft.data.hybridSpeciesId })),
+      hybridFeats,
+      hybridIsTraits: draft.data.hybridMode === "traits",
+      hybridIsAppearance: draft.data.hybridMode === "appearance",
+      dreams,
       pointBuy: {
         spent: pbSpent,
         total: 27,
@@ -278,6 +341,8 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
     // Radios and the class/level/method selects change what the step shows, so re-render after saving.
     const selector = [
       'input[type="radio"][name="speciesId"]',
+      'select[name="hybridMode"]',
+      'select[name="hybridSpeciesId"]',
       'select[name="classId"]',
       'select[name="classId2"]',
       'input[name="level"]',
@@ -396,6 +461,24 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       if (step === "species") {
         draft.data.speciesId = String(data.speciesId ?? "").trim();
         draft.touched["data.speciesId"] = true;
+        const mode = String(data.hybridMode ?? "");
+        draft.data.hybridMode = mode === "appearance" || mode === "traits" ? mode : "";
+        draft.data.hybridNote = String(data.hybridNote ?? "").trim();
+        const second = String(data.hybridSpeciesId ?? "").trim();
+        const sameSecond = second === draft.data.hybridSpeciesId;
+        draft.data.hybridSpeciesId = second === draft.data.speciesId ? "" : second;
+        // ticked features survive only while the same second species stays selected
+        const ticked = Object.entries(data)
+          .filter(([k, v]) => k.startsWith("hybridFeat.") && (v === true || v === "on" || v === "true"))
+          .map(([k]) => k.slice("hybridFeat.".length));
+        draft.data.hybridFeatIds =
+          draft.data.hybridMode === "traits" && sameSecond && draft.data.hybridSpeciesId ? ticked : [];
+        if (draft.data.hybridMode !== "traits") draft.data.hybridSpeciesId = "";
+      }
+
+      if (step === "dream") {
+        draft.data.dream = String(data.dream ?? "").trim();
+        draft.touched["data.dream"] = true;
       }
 
       if (step === "background") {
@@ -414,6 +497,7 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
         // total level <= 20; the optional class gives way
         if (draft.data.classId2) draft.data.level2 = Math.min(draft.data.level2, Math.max(1, 20 - draft.data.level));
         if (draft.data.classId2 && draft.data.classId2 === draft.data.classId) draft.data.classId2 = "";
+        draft.data.freeFeatId = String(data.freeFeatId ?? "").trim();
         draft.data.hpMode = data.hpMode === "roll" ? "roll" : "avg";
         draft.data.autoApply = data.autoApply === true || data.autoApply === "true" || data.autoApply === "on";
         draft.touched["data.classId"] = true;
@@ -511,6 +595,16 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       "Actor created with species, background and class advancements applied (levelled to target)."
     );
     app.close();
+  }
+
+  static async #onUseDream(_event, target) {
+    const text = String(target?.dataset?.dream ?? "");
+    if (!text) return;
+    await this.#saveDraft((d) => {
+      d.data.dream = text;
+      d.touched["data.dream"] = true;
+    });
+    this.render(false);
   }
 
   static async #onUseUrsa(_event, _target) {

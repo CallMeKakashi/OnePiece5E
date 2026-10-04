@@ -56,7 +56,7 @@ export const swanDance = feat(
 
 export const aestheticWeaponry = feat(
   "feature/brawler/okama-kenpo/aesthetic-weaponry", "Aesthetic Weaponry", 6,
-  `<p>At 6th level, you learn how to make weapons sync up with your make-up, hair, and outfit, where they become a lot more potent. By taking 10 minutes, you can assign a number of weapons on your person equal to twice your proficiency bonus, incorporating them into your outfit or make-up as nails, earrings, hairpins, or other accessories. These weapons are now considered brawler weapons for you.</p>
+  `<p>At 6th level, you learn how to make weapons sync up with your make-up, hair, and outfit, where they become a lot more potent, as an outfit would when each part comes together, making the whole a greater sum than its many parts. By taking 10 minutes, you can assign a number of weapons on your person equal to twice your proficiency bonus, incorporating them into your outfit or make-up as nails, earrings, hairpins, or other accessories. Additionally, these weapons are now considered brawler weapons for you.</p>
 <p>If you successfully perform the Swan Dance ability, all of your aesthetic weapons deal extra damage equal to half of your proficiency bonus (rounded up) if you do hit.</p>`,
 );
 

@@ -33,7 +33,9 @@ const SHOT_TAIL = " Cone and line spreads start at the cannon's muzzle; sphere s
 const shotSpecs: Record<string, Spec> = {
   "items/Round Shot": shot("Bludgeoning damage, sphere spread (5 feet radius)." + SHOT_TAIL, { type: "sphere", size: 5 }),
   "items/Grapeshot": shot("Piercing damage, cone spread (30 feet)." + SHOT_TAIL, { type: "cone", size: 30 }),
-  "items/Chain Shot": shot("Bludgeoning damage, line spread (5 feet wide)." + SHOT_TAIL),
+  // line length = the firing cannon's normal range (120 ft swivel gun, 200 ft 8- and 12-pounders, 250 ft heavier guns): resize the template to the cannon
+  "items/Chain Shot": shot("Bludgeoning damage, line spread (5 feet wide)." + SHOT_TAIL, { type: "line", size: 200, width: 5 }),
+  "items/Flame Dial (Cannon Shot)": shot("Fire damage, line spread (10 feet wide)." + SHOT_TAIL, { type: "line", size: 200, width: 10 }),
   "items/Exploding Shell": shot("Fire damage, sphere spread (20 feet radius)." + SHOT_TAIL, { type: "sphere", size: 20 }),
 };
 

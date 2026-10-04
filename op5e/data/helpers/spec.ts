@@ -21,10 +21,13 @@ export interface ActSpec {
   reactionWhen?: string;
   range?: number; rangeUnits?: "ft" | "touch" | "self" | "";
   /** area template: shape + size in ft */
-  area?: { type: "radius" | "sphere" | "cone" | "line" | "cube" | "cylinder"; size: number };
+  area?: { type: "radius" | "sphere" | "cone" | "line" | "cube" | "cylinder"; size: number; /** line width in ft */ width?: number };
   targets?: { count?: number | string; type?: "creature" | "enemy" | "ally" | "self" | "object" };
   save?: { ability: string | string[]; dc?: string; onSave?: "half" | "none" | "full" };
-  attack?: { type: "melee" | "ranged"; bonus?: string; ability?: string };
+  /** flat: bonus is the whole attack bonus (no ability/proficiency added by dnd5e) */
+  attack?: { type: "melee" | "ranged"; bonus?: string; ability?: string; flat?: boolean };
+  /** utility: an optional roll button (formula + label) */
+  roll?: { formula: string; name?: string };
   damage?: Dmg[];
   /** weapon attacks: also roll the item's own base damage */
   includeBase?: boolean;
@@ -33,6 +36,8 @@ export interface ActSpec {
   effects?: EffectSpec[];
   /** consume one use of the item's own uses */
   consumeUse?: boolean;
+  /** amount of uses consumed when consumeUse is set (formula, default "1") */
+  consumeAmount?: string;
   /** extra resource consumed, e.g. a spell slot */
   note?: string;
   /** summon: names of premade actors in the summons pack; bonuses are item-roll-data formulas */
@@ -61,7 +66,7 @@ export function buildFromSpec(key: string, spec: Spec, defaults: SpecDefaults = 
     const act: Record<string, unknown> = {
       _id: id, type: a.type, name: a.name, sort: i,
       activation: { type: a.activation ?? defaults.activation ?? "action", value: 1, condition: a.reactionWhen ?? "", override: false },
-      consumption: { targets: a.consumeUse ? [{ type: "itemUses", target: "", value: "1", scaling: { mode: "", formula: "" } }] : [], scaling: { allowed: !!defaults.spell && (a.damage?.some((d) => d[2]) ?? false), max: "" }, spellSlot: !!defaults.spell && !a.consumeUse },
+      consumption: { targets: a.consumeUse ? [{ type: "itemUses", target: "", value: a.consumeAmount ?? "1", scaling: { mode: "", formula: "" } }] : [], scaling: { allowed: !!defaults.spell && (a.damage?.some((d) => d[2]) ?? false), max: "" }, spellSlot: !!defaults.spell && !a.consumeUse },
       description: { chatFlavor: a.note ?? "" },
       duration: a.duration
         ? { concentration: a.duration.concentration ?? defaults.concentration ?? false, value: a.duration.units !== "inst" ? String(a.duration.value) : "", units: a.duration.units, special: "", override: true }
@@ -69,7 +74,7 @@ export function buildFromSpec(key: string, spec: Spec, defaults: SpecDefaults = 
       effects: (a.effects ?? []).map((e) => ({ _id: effectId(e, i), onSave: false })),
       range: { value: a.range ?? defaults.range ?? null, units: a.rangeUnits ?? (a.range ? "ft" : (defaults.rangeUnits ?? "")), special: "", override: a.range !== undefined },
       target: {
-        template: a.area ? { count: "1", contiguous: false, type: a.area.type, size: String(a.area.size), width: "", height: "", units: "ft" } : { count: "", contiguous: false, type: "", size: "", width: "", height: "", units: "" },
+        template: a.area ? { count: "1", contiguous: false, type: a.area.type, size: String(a.area.size), width: a.area.width ? String(a.area.width) : "", height: "", units: "ft" } : { count: "", contiguous: false, type: "", size: "", width: "", height: "", units: "" },
         // a buff whose effects are all for the user targets "self"; otherwise effects land on whoever is targeted
         affects: (() => {
           const selfOnly = !a.targets && !a.area && !!a.effects?.length && a.effects.every((e) => !e.onTargets);
@@ -82,7 +87,7 @@ export function buildFromSpec(key: string, spec: Spec, defaults: SpecDefaults = 
       act.save = { ability: types(a.save!.ability), dc: { calculation: "", formula: a.save!.dc ?? DC_DEFAULT } };
       act.damage = { onSave: a.save!.onSave ?? "half", parts: (a.damage ?? []).map(part) };
     } else if (a.type === "attack") {
-      act.attack = { ability: a.attack?.ability ?? "", bonus: a.attack?.bonus ?? "", critical: { threshold: null }, flat: false, type: { value: a.attack?.type ?? "melee", classification: "weapon" } };
+      act.attack = { ability: a.attack?.ability ?? "", bonus: a.attack?.bonus ?? "", critical: { threshold: null }, flat: a.attack?.flat ?? false, type: { value: a.attack?.type ?? "melee", classification: "weapon" } };
       act.damage = { critical: { allow: true, bonus: "" }, includeBase: a.includeBase ?? false, parts: (a.damage ?? []).map(part) };
     } else if (a.type === "damage") {
       act.damage = { critical: { allow: false, bonus: "" }, parts: (a.damage ?? []).map(part) };
@@ -97,7 +102,7 @@ export function buildFromSpec(key: string, spec: Spec, defaults: SpecDefaults = 
       act.profiles = sm.profiles.map((n) => ({ _id: generateId(`profile/${key}/${n}`).slice(0, 16), count: "1", cr: "", level: { min: null, max: null }, name: n, types: [], uuid: `Compendium.op5e.summons.Actor.${generateId(`monster/${n}`)}` }));
       act.summon = { identifier: "", mode: "", prompt: true };
     } else {
-      act.roll = { formula: "", name: "", prompt: false, visible: false };
+      act.roll = { formula: a.roll?.formula ?? "", name: a.roll?.name ?? "", prompt: false, visible: !!a.roll };
     }
     activities[id] = act;
   });

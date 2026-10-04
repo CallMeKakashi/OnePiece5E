@@ -274,7 +274,7 @@ export const gear: FoundryItem[] = [
     "<p>Deals bludgeoning damage in a line (5 feet wide) extending from the muzzle to the cannon's normal range.</p>"),
   ammo("exploding-shell", "Exploding Shell", 20000, 0,
     "<p>Deals fire damage with a 20-foot radius sphere spread from the impact point.</p>"),
-  ammo("flame-dial-ammo", "Flame Dial", 100000, 0,
+  ammo("flame-dial-ammo", "Flame Dial (Cannon Shot)", 100000, 0,
     "<p>Deals fire damage in a line (10 feet wide) extending from the muzzle to the cannon's normal range.</p>"),
   loot("cannons", "Cannons", 0, 0,
     "<p>Cannons are the primary weapons of seafaring vessels. Their pound rating determines damage, range, clean/reload time, ship availability, and whether they count as siege weapons.</p>"),

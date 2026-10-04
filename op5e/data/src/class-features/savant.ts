@@ -77,7 +77,18 @@ export const ardentSmite = classFeature(
   "Ardent Smite",
   2,
   `<p>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one creation slot to deal damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level creation slot, plus 1d8 for each creation level higher than 1st, to a maximum of 6d8.</p>
-<p>The damage type of this extra damage depends on your choice of Ardent Soul.</p>`,
+<p>The damage type of this extra damage depends on your choice of Ardent Soul, as described in the Ardent Soul Element table below.</p>
+<table><thead><tr><th>Ardent Soul</th><th>Damage Type</th></tr></thead><tbody>
+<tr><td>Burning Passion</td><td>Fire</td></tr>
+<tr><td>Caustic Spite</td><td>Acid</td></tr>
+<tr><td>Cold Indifference</td><td>Cold</td></tr>
+<tr><td>Fulminating Glee</td><td>Lightning</td></tr>
+<tr><td>Mindful Insight</td><td>Psychic</td></tr>
+<tr><td>Necrotic Mania</td><td>Necrotic</td></tr>
+<tr><td>Radiant Superiority</td><td>Radiant</td></tr>
+<tr><td>Thundering Resolve</td><td>Thunder</td></tr>
+<tr><td>Venomous Duality</td><td>Poison</td></tr>
+</tbody></table>`,
 );
 
 export const extraAttackSavant = classFeature(

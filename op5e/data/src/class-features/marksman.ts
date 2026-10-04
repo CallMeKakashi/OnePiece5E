@@ -58,11 +58,6 @@ export const deftExplorer1 = classFeature(
 <p><strong>Canny.</strong> Choose two of your skill proficiencies. You gain expertise with the chosen skills. In addition, thanks to your extensive wandering, you can no longer get lost by natural means.</p>
 <p><strong>Roving.</strong> Your walking speed increases by 10, and you gain a climbing speed and a swimming speed equal to your walking speed.</p>
 <p><strong>Tireless.</strong> As a bonus action, you can give yourself a number of temporary hit points equal to 1d10 + your level. You can use this ability a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest. In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.</p>`,
-  {
-    activation: { type: "bonus", cost: 1, condition: "Tireless option" },
-    uses: { value: null, max: "@prof", per: "sr", recovery: "", prompt: true },
-    damage: { parts: [["1d10 + @classes.marksman.levels", "temphp"]], versatile: "" },
-  },
 );
 
 export const deftExplorer6 = classFeature(

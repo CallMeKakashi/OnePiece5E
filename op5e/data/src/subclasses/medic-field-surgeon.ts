@@ -83,14 +83,14 @@ export const fieldSurgeonExtraAttack = feat(
 
 export const monstrousTransformation = feat(
   "feature/medic/field-surgeon/monstrous-transformation", "Monstrous Transformation", 6,
-  `<p>Also at 6th level, you can cast aside common sense and use the full strength of your medicine to transform into a monster. As a bonus action on your turn, transform into a monstrous form of yourself. During this transformation, you gain the following benefits:</p>
+  `<p>Also at 6th level, you can cast aside common sense and use the full strength of your medicine to transform into a monster. As a bonus action on your turn, transform into a monstrous form of yourself. This transformation follows the same rules as your standard Experimental Medicine transformations. During this transformation, you gain the following benefits:</p>
 <ul>
 <li>Your size becomes large, and your creature type becomes monstrosity.</li>
 <li>The temporary hit points you gain are doubled.</li>
 <li>Your unarmed strikes gain a bonus to attack and damage rolls equal to half your proficiency bonus (rounded up).</li>
 <li>You gain the benefits of all three enhancements available to Experimental Medicine simultaneously.</li>
 </ul>
-<p>During this transformation, you cannot use creations. At the start of each of your turns, you must make an Intelligence saving throw, DC 15. On a failure, you lose control until the start of your next turn and must move towards and attack the closest creature.</p>
+<p>During this transformation, you cannot use creations. At the start of each of your turns, you must make an Intelligence saving throw, DC 15. On a success, you can act as normal. On a failure, you lose control until the start of your next turn. You must move towards the closest creature within range and take the Attack action against it. If no creature is within range, you can take the Dash action to move towards the nearest creature. If you are unable to move or take actions and this is caused by an effect that can be ended with an action, you can then take an action to attempt to end the effect on yourself.</p>
 <p>Once this transformation ends, you gain one level of exhaustion and cannot transform like this again until you finish a long rest.</p>`,
   {
     activation: { type: "bonus", cost: 1, condition: "" },

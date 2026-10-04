@@ -64,6 +64,22 @@ export function applySpecialGear(items: FoundryItem[]): FoundryItem[] {
   weapon(by("Seastone Weapon (Tipped)"), null, 2);
   weapon(by("Seastone Weapon (Full)"), null, 3);
 
+  // Black Blade / White Weapon: "any melee weapon" / "any weapon" in the book; a Longsword is the chassis (change the base type to suit).
+  // A Black Blade is explicitly not haki-imbued, so it must NOT count as magical (no bypassing resistances): the +2 damage is an activity part.
+  const blackBlade = by("Black Blade");
+  (blackBlade as { type: string }).type = "weapon";
+  weapon(blackBlade, "Longsword", 0);
+  (blackBlade.system.properties as Record<string, boolean>).mgc = false;
+  const whiteWeapon = by("White Weapon (Non-Canon)");
+  (whiteWeapon as { type: string }).type = "weapon";
+  weapon(whiteWeapon, "Longsword", 0); // the +2 is attack-only, so it is an attack bonus on the activity, not magicalBonus
+  // Dial weapons: the book gives the bonus and the base shape
+  weapon(by("Heat Javelin"), "Lance", 1);
+  const eisenWhip = by("Eisen Whip");
+  weapon(eisenWhip, "Whip", 1);
+  eisenWhip.system.range = { value: 60, long: null, reach: null, units: "ft" }; // "the range of attacks ... is 60ft"
+  weapon(by("Flash Gun"), "Pistol", 1);
+
   // Defiance of the Red World: the three tiers are separate docs (different dice and bonus)
   const defiance = by("Defiance of the Red World");
   weapon(defiance, "Rifle", 1, [["2d8", "piercing"]]);

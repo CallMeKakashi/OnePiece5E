@@ -48,8 +48,8 @@ export const channelConvictionNecrotic = feat(
   "feature/savant/necrotic-mania/channel-conviction", "Channel Conviction: Necrotic Mania", 3,
   `<p>At 3rd level, you gain the following two Channel Conviction options:</p>
 <ul>
-<li><strong>Consuming Gloom.</strong> As a bonus action, you can manifest the element of your soul around a weapon. For 1 minute, all bright light within 20 feet of the weapon becomes dim light, and dim light becomes darkness, and you can add your Charisma modifier to the attack rolls you make with the weapon. Additionally, you can see normally in all forms of darkness for the duration.</li>
-<li><strong>Feed on Despair.</strong> As an action, each creature of your choice within 20 feet of you must make a Charisma saving throw, taking 2d10 + your Savant level + your Charisma modifier necrotic damage on a failed save and half as much on a success. You then gain temporary hit points equal to the damage dealt to one of these creatures.</li>
+<li><strong>Consuming Gloom.</strong> As a bonus action, you can manifest the element of your soul around a weapon. A limb used for unarmed strikes is a viable option. For 1 minute, all bright light within 20 feet of the weapon becomes dim light, and dim light becomes darkness, and you can add your Charisma modifier (minimum of one) to the attack rolls you make with the weapon. Additionally, you can see normally in all forms of darkness for the duration. You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</li>
+<li><strong>Feed on Despair.</strong> As an action, you can gorge yourself on the suffering and pain of your enemies. Each creature of your choice within 20 feet of you must make a Charisma saving throw, taking 2d10 + your Savant level + your Charisma modifier necrotic damage on a failed save and half as much on a success. You then gain temporary hit points equal to the damage dealt to one of these creatures.</li>
 </ul>`,
   { uses: { value: null, max: "1", per: "sr", recovery: "", prompt: true } },
 );

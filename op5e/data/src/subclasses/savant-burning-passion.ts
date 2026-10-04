@@ -48,7 +48,7 @@ export const channelConvictionBurning = feat(
   "feature/savant/burning-passion/channel-conviction", "Channel Conviction: Burning Passion", 3,
   `<p>At 3rd level, you gain the following two Channel Conviction options:</p>
 <ul>
-<li><strong>Manifest Soul.</strong> As a bonus action, you can manifest the element of your soul around a weapon. For 1 minute, your weapon attacks and creations deal extra fire damage equal to your Charisma Modifier. You can end this effect on your turn as part of any other action.</li>
+<li><strong>Manifest Soul.</strong> As a bonus action, you can manifest the element of your soul around a weapon. A limb used for unarmed strikes is a viable option. For 1 minute, your weapon attacks and creations deal extra fire damage equal to your Charisma Modifier. You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</li>
 <li><strong>Soul Burn.</strong> As an action, your flames burn bright to banish despair. Each creature of your choice within 30 feet gains 2d6 + your Charisma modifier + your savant level in temporary hit points, and while a creature has these temporary hit points, it has advantage on saving throws against being frightened.</li>
 </ul>`,
   { uses: { value: null, max: "1", per: "sr", recovery: "", prompt: true } },

@@ -66,7 +66,7 @@ export const moveMountains = feat(
 
 export const titanMonger = feat(
   "feature/barbarian/channeler/titan-monger", "Titan Monger", 10,
-  `<p>At 10th level, your strikes can tear any foe asunder. The shockwave from your Gigantic Might feature now damages creatures of your choice within 10 ft, and halves their movement speed until the end of their next turn.</p>
+  `<p>At 10th level, your strikes can tear any foe asunder and throw even the largest beasts as if they were a tiny stone. The shockwave from your Gigantic Might feature now damages creatures of your choice within 10ft, and halves their movement speed until the end of their next turn.</p>
 <p>In addition, you can now use your Move Mountains to move creatures that are Large or smaller.</p>`,
 );
 
@@ -94,7 +94,7 @@ export const subclass: SubclassItem = {
   type: "subclass",
   img: "icons/svg/item-bag.svg",
   system: {
-    description: { value: `<p>Barbarians that tread the Path of the Channeler draw from within themselves the inner strength that lies with all of mankind, the power to destroy one's limits and defy kings, your very strikes causing shockwaves across the battlefield.</p>`, chat: "" },
+    description: { value: `<p>Barbarians that tread the Path of the Channeler draw from within themselves the inner strength that lies with all of mankind, the power to destroy one's limits and defy kings, your very strikes causing shockwaves across the battlefield. Through their rage, they can move mountains with their unbelievable physical power, and achieve might on par with that of a giant's.</p>`, chat: "" },
     source: { book: "OP5e", page: "", custom: "", license: "" },
     identifier: "channeler",
     classIdentifier: "barbarian",

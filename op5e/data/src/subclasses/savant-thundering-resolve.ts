@@ -48,8 +48,8 @@ export const channelConvictionThunder = feat(
   "feature/savant/thundering-resolve/channel-conviction", "Channel Conviction: Thundering Resolve", 3,
   `<p>At 3rd level, you gain the following two Channel Conviction options:</p>
 <ul>
-<li><strong>Echoing Rebuke.</strong> As a reaction when a creature hits you with a melee attack, you can use Channel Conviction to grant yourself resistance to all the damage dealt. The attacking creature must then succeed on a Constitution saving throw or suffer an equal amount of damage as thunder damage (not calculating for your resistance).</li>
-<li><strong>Reverberating Smite.</strong> When you hit with a melee attack and use your Ardent Smite, you can use your Channel Conviction to make the shockwave reverberate. Each creature of your choice within 15 feet of your target must make a Strength saving throw, suffering the damage of your Ardent Smite + your savant level on a failed save, and half as much on a success. On a failed save, a creature is additionally pulled up to 10 feet to an empty square within 5 feet of you.</li>
+<li><strong>Echoing Rebuke.</strong> As a reaction when a creature hits you with a melee attack, you can use Channel Conviction to grant yourself resistance to all the damage dealt. The attacking creature must then succeed on a Constitution saving throw or suffer an equal amount of damage they dealt as thunder damage (not calculating for your resistance).</li>
+<li><strong>Reverberating Smite.</strong> When you hit with a melee attack and use your Ardent Smite, you can use your Channel Conviction to make the shockwave reverberate across an area. Each creature of your choice within 15 feet of your target must make a Strength saving throw, suffering the damage of your Ardent Smite + your savant level on a failed save, and half as much on a success. On a failed save, a creature is additionally pulled up to 10 feet to an empty square within 5 feet of you.</li>
 </ul>`,
   { uses: { value: null, max: "1", per: "sr", recovery: "", prompt: true } },
 );

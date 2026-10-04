@@ -48,8 +48,8 @@ export const channelConvictionVenomous = feat(
   "feature/savant/venomous-duality/channel-conviction", "Channel Conviction: Venomous Duality", 3,
   `<p>At 3rd level, you gain the following two Channel Conviction options:</p>
 <ul>
-<li><strong>Manifest Soul.</strong> As a bonus action, you can manifest the element of your soul around a weapon. For 1 minute, your weapon attacks and creations force the target to make a Constitution saving throw. On a failure, the target is poisoned for 1 minute. Creatures can repeat the save at the end of each of their turns, ending the effect on a success.</li>
-<li><strong>Antivenom.</strong> As an action, you can touch a willing creature and absorb any poison or disease inflicting them from their body. Alternatively, you can inhale any airborne poison in a 20-foot sphere centered on you. The creature or air is cleared of any poison, and you gain temporary hit points equal to twice your level plus your Charisma modifier.</li>
+<li><strong>Manifest Soul.</strong> As a bonus action, you can manifest the element of your soul around a weapon. A limb used for unarmed strikes is a viable option. For 1 minute, your weapon attacks and creations force the target to make a Constitution saving throw. On a failure, the target is poisoned for 1 minute. Creatures can repeat the save at the end of each of their turns, ending the effect on a success. You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</li>
+<li><strong>Antivenom.</strong> As an action, you can touch a willing creature and use your Channel Conviction to absorb any poison or disease inflicting them from their body. Alternatively, you can use your Channel Conviction to inhale any airborne poison in a 20-foot sphere centered on you. The creature or air is cleared of any poison, and you gain temporary hit points equal to twice your level plus your Charisma modifier.</li>
 </ul>`,
   { uses: { value: null, max: "1", per: "sr", recovery: "", prompt: true } },
 );

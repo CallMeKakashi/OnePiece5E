@@ -52,12 +52,27 @@ const cannon: SummonVariant = {
 
 // ---- Experimental Ooze (Chemist feature; HP 7 + 5 x medic level + Wis mod, AC 12 + PB) ----
 const ALL_COND = ["blinded", "charmed", "deafened", "exhaustion", "frightened", "grappled", "incapacitated", "invisible", "paralyzed", "petrified", "poisoned", "prone", "restrained", "stunned", "unconscious"];
+// Per-type bonuses from the Experimental Ooze Type tables (Chemist, Experimental Ooze Actions): [base bonus, Enhanced Formula (10th level) bonus]
+const OOZE_TYPE: Record<string, [string, string]> = {
+  Acid: ["When the ooze deals damage to a creature with its Pseudopod attack, it regains a number of hit points equal to half the damage it deals.",
+    "The ooze has an additional amount of hit points equal to your level."],
+  Cold: ["When the ooze hits a creature with its Pseudopod attack, the target becomes grappled by it (escape DC equal to your creation save DC).",
+    "Creatures grappled by the ooze are now restrained. In addition, any creature grappled by the ooze takes 1d8 cold damage at the start of each of their turns."],
+  Fire: ["Any creature that hits the ooze with a melee attack within 5ft of it takes 1d8 fire damage.",
+    "When the ooze hits a creature with its Pseudopod attack, the target must succeed a Constitution saving throw or become ignited for 1 minute, repeating the saving throw at the end of each of their turns, ending the effect on a success. While ignited the creature takes 2d4 fire damage at the start of each of their turns."],
+  Poison: ["When the ooze hits a creature with either its Pseudopod or its Glob attack, the creature must make a Constitution saving throw against your creation save DC or become poisoned until the end of their next turn.",
+    "The ooze can use its action to touch a creature being affected by a poison, ending the effect of the poison as they absorb it."],
+  Lightning: ["The ooze's movement speed increases by 20ft and doesn't provoke opportunity attacks.",
+    "If the ooze moved 20ft before making a Pseudopod attack, the target must succeed a Strength saving throw or become knocked prone if it is one size larger than the ooze or smaller."],
+};
 const ooze = (t: string): SummonVariant => ({
-  name: `${t} Experimental Ooze`, size: "Medium", type: "ooze", ac: 12, hp: 7, speed: "walk 20, climb 20", stats: [11, 8, 15, 4, 11, 1],
+  name: `${t} Experimental Ooze`, size: "Medium", type: "ooze", ac: 12, hp: 7, speed: t === "Lightning" ? "walk 40, climb 20" : "walk 20, climb 20", stats: [11, 8, 15, 4, 11, 1],
   immune: t === "Poison" ? ["poison"] : [t.toLowerCase(), "poison"], condImmune: ALL_COND, senses: "blindsight 30 ft.", languages: "understands the languages you speak",
   traits: [e("Amorphous", "The ooze can move through a space as small as 1 inch in diameter without squeezing."),
     e("Chemical Bonds", "Whenever you, the ooze's creator, take damage and the Experimental Ooze is within 30 ft. of you, the ooze takes the damage instead. If this damage reduces it to 0 hit points, you take any remaining damage."),
-    e("Ooze Type", `Immune to ${t.toLowerCase()} damage (the type chosen on summoning). Small or Medium; Large from 10th level (Enhanced Formula: Pseudopod 4d4 and Glob 2d8 + PB).`)],
+    e("Ooze Type", `Immune to ${t.toLowerCase()} damage (the type chosen on summoning). Small or Medium; Large from 10th level (Enhanced Formula: Pseudopod 4d4 and Glob 2d8 + PB).`),
+    e(`${t} Bonus`, OOZE_TYPE[t][0]),
+    e(`${t} Bonus (Enhanced Formula, 10th level)`, OOZE_TYPE[t][1])],
   actions: [e("Pseudopod", `Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 2d4 ${t.toLowerCase()} damage (plus your proficiency bonus).`),
     e("Glob", `Ranged Weapon Attack: +0 to hit, range 30 ft., one target. Hit: 1d8 ${t.toLowerCase()} damage (plus your proficiency bonus).`)],
 });

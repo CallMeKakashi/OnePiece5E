@@ -48,8 +48,8 @@ export const channelConvictionMindful = feat(
   "feature/savant/mindful-insight/channel-conviction", "Channel Conviction: Mindful Insight", 3,
   `<p>At 3rd level, you gain the following two Channel Conviction options:</p>
 <ul>
-<li><strong>Future's Ward.</strong> As a reaction when an ally is the target of an attack or is forced to roll a saving throw, you can use your Channel Conviction to peer into the future. You can impose disadvantage on the attack roll, or grant the ally advantage on the saving throw. If you impose disadvantage, the target must additionally subtract your Charisma modifier from its roll. If you grant advantage, the ally may add your Charisma modifier to its roll.</li>
-<li><strong>Powerful Premonition.</strong> As a bonus action, you can empower your psychic prowess. For 1 minute, you can use your bonus action to use the Mind Slash trick.</li>
+<li><strong>Future's Ward.</strong> As a reaction when an ally is the target of an attack or is forced to roll a saving throw, you can use your Channel Conviction to peer into the future for the best course of action. You can impose disadvantage on the attack roll, or grant the ally advantage on the saving throw. If you impose disadvantage, the target must additionally subtract your Charisma modifier (minimum of one) from its roll. If you grant advantage, the ally may add your Charisma modifier (minimum of one) to its roll.</li>
+<li><strong>Powerful Premonition.</strong> As a bonus action, you can empower your psychic prowess. For 1 minute, you can use your bonus action, and the bonus action used to activate this feature, to use the Mind Slash trick.</li>
 </ul>`,
   { uses: { value: null, max: "1", per: "sr", recovery: "", prompt: true } },
 );

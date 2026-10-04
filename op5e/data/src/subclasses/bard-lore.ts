@@ -63,12 +63,12 @@ export const customizedCreativity = feat(
   `<p>Also at 6th level, you gain the ability to alter your creations thanks to your mastery of knowledge from all over the world. You gain two of the following Customized Creativity options of your choice. You gain another one at 10th and 14th level.</p>
 <p>You can use this feature a number of times equal to your proficiency bonus, and each option only takes a single use. You regain all uses of this ability at the end of a long rest.</p>
 <ul>
-<li><strong>Failsafe.</strong> When you use a creation that forces other creatures to make a saving throw, you can protect some of those creatures. Choose a number up to your creativity modifier (minimum of one). A chosen creature automatically succeeds on its saving throw, and takes no damage if it would normally take half on a success.</li>
-<li><strong>Extended Range.</strong> When you use a creation that has a range of 5 feet or greater, you can double the range. When the range is touch, you can make it 30 feet instead.</li>
-<li><strong>Quick Creation.</strong> When you use a creation with a creation time of 1 action, you can change it to 1 bonus action for this usage.</li>
+<li><strong>Failsafe.</strong> When you use a creation that forces other creatures to make a saving throw, you can protect some of those creatures from the creations' full effects. Choose a number of those creatures up to your creativity modifier (minimum of one). A chosen creature automatically succeeds on its saving throw against the creation, and they take no damage if they would normally take half damage on a successful save.</li>
+<li><strong>Extended Range.</strong> When you use a creation that has a range of 5 feet or greater, you can instead double the range of the creation. When you use a creation that has a range of touch, you can instead make the range of the creation 30 feet.</li>
+<li><strong>Quick Creation.</strong> When you use a creation that has a creation time of 1 action, you can change the casting time to 1 bonus action for this usage.</li>
 <li><strong>Silenced.</strong> When you use a creation, you can use it without any somatic or verbal components.</li>
-<li><strong>Alternative Effects.</strong> When you use a creation that deals acid, cold, fire, lightning, poison, or thunder damage, you can change that damage type to one of the other listed types.</li>
-<li><strong>Double Trouble.</strong> When you use a creation that targets only one creature and doesn't have a range of self, you can target a second creature in range with the same creation.</li>
+<li><strong>Alternative Effects.</strong> When you use a creation that deals acid, cold, fire, lightning, poison, or thunder damage, you can change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, or thunder.</li>
+<li><strong>Double Trouble.</strong> When you use a creation that targets only one creature and doesn't have a range of self, you can target a second creature in range with the same creation. To be eligible, a creation must be incapable of targeting more than one creature at the creation's current level. For example, the Missiles and Scorch creations aren't eligible, but Haste and Elemental Orb are.</li>
 </ul>`,
   {
     uses: { value: null, max: "@prof", per: "lr", recovery: "", prompt: true },

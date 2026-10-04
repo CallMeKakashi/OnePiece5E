@@ -19,7 +19,9 @@
   ],
   "esmodules": [
     "scripts/compendium.mjs",
-    "scripts/character-creator.mjs"
+    "scripts/character-creator.mjs",
+    "scripts/summon-clone.mjs",
+    "scripts/effect-groups.mjs"
   ],
   "styles": [
     "styles/module.css"
@@ -138,6 +140,13 @@
       "system": "dnd5e"
     },
     {
+      "name": "roll-tables",
+      "label": "OP5e Roll Tables",
+      "path": "packs/roll-tables",
+      "type": "RollTable",
+      "system": "dnd5e"
+    },
+    {
       "name": "ship-weapons",
       "label": "OP5e Ship Weapons",
       "path": "packs/ship-weapons",
@@ -160,6 +169,7 @@
         "creations",
         "spell-lists",
         "reference",
+        "roll-tables",
         "devil-fruits",
         "monsters",
         "summons",

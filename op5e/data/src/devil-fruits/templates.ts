@@ -6,7 +6,7 @@ const NAME_HINT = p("<strong>Player:</strong> rename this item to your fruit (e.
 const COMMON = ul("Fruit uses are spent on major abilities; you regain all uses on a long rest.", "Fruit-Fruit DC: 8 + highest ability modifier + proficiency bonus.", "Devil Fruit Attack and Ability Check: 1d20 + highest ability modifier + proficiency bonus.", "Ocean's Scorn: you cannot swim and sink in water; seastone and haki can counter your fruit.");
 
 const tpl = (slug: string, name: string, kind: string, html: string) => ({
-  _id: generateId(`devil-fruit/template/${slug}`), name, type: "loot", img: "icons/consumables/food/berries-ration-round-red.webp",
+  _id: generateId(`devil-fruit/template/${slug}`), name, type: "loot", img: `modules/op5e/assets/icons/devil-fruit${["paramecia", "zoan", "logia"].includes(kind) ? `-${kind}` : ""}.svg`,
   system: { description: { value: html, chat: "" }, type: { value: "treasure" }, rarity: "", activities: {} },
   effects: [], flags: { op5e: { devilFruitTemplate: kind, automation: "NEEDS_REVIEW" } },
 });

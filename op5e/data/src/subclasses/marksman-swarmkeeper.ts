@@ -40,7 +40,8 @@ function feat(idPath: string, name: string, level: number, description: string, 
 
 export const swarmkeeperCreations = feat(
   "feature/marksman/swarmkeeper/swarmkeeper-creations", "Swarmkeeper Creations", 3,
-  `<p>Starting at 3rd level, you gain the following bonus creations at specific marksman levels. They count as marksman creations for you.</p>
+  `<p>Starting at 3rd level, you gain the following bonus creations at specific marksman levels. They count as marksman creations for you, but doesn't count towards the number of marksman creations you know.</p>
+<p>One of these creations is the Mage Hand trick, however this takes the form of your swarm creatures lends a few thousand helping hands.</p>
 <ul>
 <li><strong>3rd:</strong> Mirrored Hand, Fairy Lights, Sleep</li>
 <li><strong>5th:</strong> Gather Swarm, Web</li>
@@ -52,7 +53,7 @@ export const swarmkeeperCreations = feat(
 
 export const swarmingCluster = feat(
   "feature/marksman/swarmkeeper/swarming-cluster", "Swarming Cluster", 3,
-  `<p>At 3rd level, a swarm of tiny beasts has bonded itself to you and can assist you in battle. Until you die, the swarm remains in your space. You determine its appearance.</p>
+  `<p>At 3rd level, a swarm of tiny beasts has bonded itself to you and can assist you in battle. Until you die, the swarm remains in your space, crawling on you or flying and skittering around you within your space. You determine its appearance, such as a swarm of bees, tiny birds, or other creatures.</p>
 <p>Once on each of your turns, you can cause the swarm to assist you in one of the following ways, immediately after you hit a creature with an attack:</p>
 <ul>
 <li>The attack's target takes 1d6 piercing damage from the swarm.</li>
@@ -67,10 +68,10 @@ export const swarmingCluster = feat(
 
 export const swarmingTides = feat(
   "feature/marksman/swarmkeeper/swarming-tides", "Swarming Tides", 7,
-  `<p>By 7th level, you and your swarm are perfectly coordinated. You gain the following benefits:</p>
+  `<p>By 7th level, you and your swarm are perfectly coordinated, able to act as one. You can have your swarm defend yourself, or move in tandem with your hands for the ultimate hive advantage. You gain the following benefits:</p>
 <ul>
-<li>When you take damage, you can use your reaction to give yourself resistance to that damage. You vanish into your swarm and then teleport to an unoccupied space that you can see within 30 feet of you. You can use this a number of times equal to your proficiency bonus per short or long rest.</li>
-<li>You learn the Giant's Hand creation (in swarm form). You can use it without expending a creation slot a number of times equal to 1 + your Wisdom modifier, regaining all uses at the end of a long rest.</li>
+<li>When you take damage, you can use your reaction to give yourself resistance to that damage. You vanish into your swarm and then teleport to an unoccupied space that you can see within 30 feet of you, where you reappear with the swarm. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest.</li>
+<li>You learn the Giant's Hand creation, however when you use it, it takes the form of your swarm working in tandem. This creation does not count towards the maximum number of creations you know. You can use this creation without expending a creation slot a number of times equal to your 1 + Wisdom Modifier, regaining all uses at the end of a long rest.</li>
 </ul>`,
   {
     activation: { type: "reaction", cost: 1, condition: "Taking damage" },

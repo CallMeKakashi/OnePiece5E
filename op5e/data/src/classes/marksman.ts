@@ -16,6 +16,8 @@ import {
 } from "../../helpers/haki-advancement.js";
 import { classStartingEquipmentAdvancement } from "./class-equipment-grants.js";
 import { createOriginChoices } from "../../helpers/origin-choices.js";
+import { deftExplorerOptions } from "../automation/options.js";
+import { createItemChoiceRestricted } from "../../helpers/advancement.js";
 import {
   deftExplorer1,
   deftExplorer6,
@@ -102,6 +104,8 @@ export const marksman: ClassItem = {
         { uuid: featureUuid(deftExplorer1._id) },
         { uuid: featureUuid(favoredMark._id) },
       ]),
+      ...[1, 6, 10].map((lvl) =>
+        createItemChoiceRestricted(CLS, lvl, deftExplorerOptions.map((o) => featureUuid(o._id)), { label: `deft-explorer-${lvl}` })),
 
       // --- Level 2: Creativity + Fighting Style ---
       createItemGrant(CLS, 2, [

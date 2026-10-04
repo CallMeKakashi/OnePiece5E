@@ -267,9 +267,26 @@
   },
   {
    "feat": "Light Armor Master",
-   "label": "requirement '3' is a source data error: not enforced",
+   "label": "needs light armor proficiency and Dexterity 13",
+   "pass": true,
+   "got": [
+    "Dexterity 13 or higher",
+    "armor proficiency: light"
+   ]
+  },
+  {
+   "feat": "Light Armor Master",
+   "label": "Dex 13 + light armor proficiency",
    "pass": true,
    "got": true
+  },
+  {
+   "feat": "Light Armor Master",
+   "label": "Dex 12 fails",
+   "pass": true,
+   "got": [
+    "Dexterity 13 or higher"
+   ]
   },
   {
    "feat": "Alert",
@@ -283,6 +300,7 @@
    "pass": true,
    "got": {
     "low": [
+     "must be at least level 8",
      "level 8"
     ],
     "high": true

@@ -1,5 +1,6 @@
 import type { FeatureItem } from "../../schemas/feature.js";
 import { assignIcons } from "../../helpers/icons.js";
+import { optionFeatures } from "../automation/options.js";
 
 // --- Additional Powers (Chapter 7) ---
 import { additionalPowerFeatures } from "./additional/index.js";
@@ -177,6 +178,7 @@ export const items: FeatureItem[] = assignIcons([
   ...bardEloquenceFeatures,
   // Brawler
   ...brawlerClassFeatures,
+  ...optionFeatures,
   ...brawlerOpenHandFeatures,
   ...brawlerDrunkenMasterFeatures,
   ...brawlerFishmanKarateFeatures,

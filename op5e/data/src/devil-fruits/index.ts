@@ -10,10 +10,16 @@ import fruitTemplates from "./templates.js";
 const file = join(dirname(fileURLToPath(import.meta.url)), "../../../extracted/entries.json");
 const entries = JSON.parse(readFileSync(file, "utf8")) as { name: string; kind: string; meta: Record<string, string>; body: string; source: object }[];
 
+// Original module art; the type icon applies only where the item data states a paramecia/zoan/logia type.
+const ICON = (kind?: string | null) => {
+  const t = /paramecia|zoan|logia/i.exec(kind ?? "")?.[0].toLowerCase();
+  return `modules/op5e/assets/icons/devil-fruit${t ? `-${t}` : ""}.svg`;
+};
+
 export default [...entries
   .filter((e) => e.kind === "devil-fruit" && e.meta.type === "devil-fruit")
   .map((e) => ({
-    _id: generateId(`devil-fruit/${e.name}`), name: e.name, type: "loot", img: "icons/consumables/food/berries-ration-round-red.webp",
+    _id: generateId(`devil-fruit/${e.name}`), name: e.name, type: "loot", img: ICON(e.meta.fruit_type),
     system: { description: { value: mdToHtml(e.body), chat: "" }, type: { value: "treasure" }, rarity: e.meta.rarity ?? "", activities: {} },
     effects: [], flags: { op5e: { devilFruit: { type: e.meta.fruit_type, owner: e.meta.owner ?? null, status: e.meta.status ?? null }, automation: "NEEDS_REVIEW", source: e.source } },
-  })), ...sourcebookFruits, ...fruitTemplates];
+  })), ...sourcebookFruits.map((f) => ({ ...f, img: ICON(f.flags.op5e.devilFruit.type) })), ...fruitTemplates];

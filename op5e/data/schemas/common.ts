@@ -172,3 +172,15 @@ export const foundryJournalBase = z
     flags: z.record(z.unknown()).default({}),
   })
   .passthrough();
+
+// --- Base Foundry RollTable document (results embedded) ---
+
+export const foundryRollTableBase = z
+  .object({
+    _id: foundryId,
+    name: z.string(),
+    formula: z.string().default(""),
+    results: z.array(z.object({ _id: foundryId, type: z.union([z.string(), z.number()]), range: z.tuple([z.number(), z.number()]), weight: z.number() }).passthrough()).default([]),
+    flags: z.record(z.unknown()).default({}),
+  })
+  .passthrough();

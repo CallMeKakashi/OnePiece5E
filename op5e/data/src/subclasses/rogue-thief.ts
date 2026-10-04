@@ -40,27 +40,27 @@ function feat(idPath: string, name: string, level: number, description: string, 
 
 export const fastHands = feat(
   "feature/rogue/thief/fast-hands", "Fast Hands", 3,
-  `<p>Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action.</p>`,
+  `<p>Starting at 3rd Level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools, take the Use an Object action, or to use an item that normally requires an action (such as a Small Medkit).</p>`,
 );
 
 export const secondStoryWork = feat(
   "feature/rogue/thief/second-story-work", "Second-story Work", 3,
-  `<p>When you choose this archetype at 3rd level, you gain a climbing speed equal to your walking speed. In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.</p>`,
+  `<p>When you choose this archetype at 3rd Level, you gain the ability to climb faster than normal; you gain a climbing that is equal to your movement speed.</p><p>In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.</p>`,
 );
 
 export const outOfSight = feat(
   "feature/rogue/thief/out-of-sight", "Out Of Sight", 6,
-  `<p>At 6th level, you gain the following additional Devious Strike options:</p><ul><li><strong>Vanish (Cost: 1d6).</strong> You immediately take the Hide action as part of this attack.</li><li><strong>Pilfer (Cost: 2d6).</strong> You can immediately make a Dexterity (Sleight of Hand) check to steal one item the target is carrying (not wielding).</li></ul>`,
+  `<p>Starting at 6th level, you are able to stay out of view, and cause diversions to help your allies in a fight. The following effects are added to your Devious Strike options.</p><p><strong>Under Cover (Cost: 2d6).</strong> If you are hidden, this attack doesn't reveal your position if you end the turn behind cover.</p><p><strong>Diversion (Cost: 1d6).</strong> Until the end of your next turn, then next attack roll against the target is made with advantage.</p>`,
 );
 
 export const supremeSneak = feat(
   "feature/rogue/thief/supreme-sneak", "Supreme Sneak", 9,
-  `<p>Starting at 9th level, when you move at no more than half your speed, you have advantage on Dexterity (Stealth) and Dexterity (Sleight of Hand) checks.</p>`,
+  `<p>Starting at 9th level, you have advantage on a Dexterity (Stealth) and Dexterity (Sleight of Hand) checks if you move no more than half your speed on the same turn.</p>`,
 );
 
 export const outfoxingAction = feat(
   "feature/rogue/thief/outfoxing-action", "Outfoxing Action", 13,
-  `<p>Starting at 13th level, you can use Cunning Action twice on each of your turns instead of once.</p>`,
+  `<p>By 13th level, your cunning skills and your ability to think on your feet have made you incredibly difficult to catch. When you use either the Cunning Action or Fast Hands features, you may choose to use an additional option as part of the same bonus action (both must be different options).</p><p>For example, you can take both the dash and disengage actions, the dash and hide actions, or the attempt a Sleight of Hand check from Fast Hands followed by the disengage action.</p>`,
 );
 
 export const thiefsReflexes = feat(
@@ -82,7 +82,7 @@ export const subclass: SubclassItem = {
   type: "subclass",
   img: "icons/svg/item-bag.svg",
   system: {
-    description: { value: `<p>You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers or dungeon delvers.</p>`, chat: "" },
+    description: { value: `<p>You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth , you learn skills useful for delving into ancient ruins, and evaluating rare treasures.</p>`, chat: "" },
     source: { book: "OP5e", page: "", custom: "", license: "" },
     identifier: "thief",
     classIdentifier: "rogue",

@@ -6,7 +6,7 @@
    {
     "level": 2,
     "hp": 20,
-    "features": 6,
+    "features": 7,
     "new": [
      "Creativity",
      "Fighting Style"
@@ -15,7 +15,7 @@
    {
     "level": 3,
     "hp": 28,
-    "features": 9,
+    "features": 10,
     "new": [
      "Quick On The Draw",
      "Swarmkeeper Creations",
@@ -25,13 +25,13 @@
    {
     "level": 4,
     "hp": 36,
-    "features": 9,
+    "features": 10,
     "new": []
    },
    {
     "level": 5,
     "hp": 44,
-    "features": 10,
+    "features": 11,
     "new": [
      "Extra Attack"
     ]
@@ -39,13 +39,15 @@
    {
     "level": 6,
     "hp": 52,
-    "features": 11,
-    "new": []
+    "features": 13,
+    "new": [
+     "Roving"
+    ]
    },
    {
     "level": 7,
     "hp": 60,
-    "features": 12,
+    "features": 14,
     "new": [
      "Swarming Tides"
     ]
@@ -53,7 +55,7 @@
    {
     "level": 8,
     "hp": 76,
-    "features": 14,
+    "features": 16,
     "new": [
      "Land's Stride",
      "Color of Armament Novice"
@@ -62,7 +64,7 @@
    {
     "level": 9,
     "hp": 85,
-    "features": 15,
+    "features": 17,
     "new": [
      "Volley"
     ]
@@ -70,16 +72,17 @@
    {
     "level": 10,
     "hp": 94,
-    "features": 18,
+    "features": 21,
     "new": [
      "Eagle Eyes",
+     "Tireless",
      "Color of Armament Apprentice"
     ]
    },
    {
     "level": 11,
     "hp": 103,
-    "features": 19,
+    "features": 22,
     "new": [
      "Overwhelming Cluster"
     ]
@@ -87,7 +90,7 @@
    {
     "level": 12,
     "hp": 112,
-    "features": 20,
+    "features": 23,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -95,13 +98,13 @@
    {
     "level": 13,
     "hp": 121,
-    "features": 20,
+    "features": 23,
     "new": []
    },
    {
     "level": 14,
     "hp": 130,
-    "features": 22,
+    "features": 25,
     "new": [
      "Vigilant Gaze",
      "Color of Armament Adept"
@@ -110,7 +113,7 @@
    {
     "level": 15,
     "hp": 139,
-    "features": 23,
+    "features": 26,
     "new": [
      "Reliable Hive"
     ]
@@ -118,7 +121,7 @@
    {
     "level": 16,
     "hp": 164,
-    "features": 24,
+    "features": 27,
     "new": [
      "Color of Armament Master"
     ]
@@ -126,13 +129,13 @@
    {
     "level": 17,
     "hp": 174,
-    "features": 24,
+    "features": 27,
     "new": []
    },
    {
     "level": 18,
     "hp": 184,
-    "features": 25,
+    "features": 28,
     "new": [
      "Deadly Mark"
     ]
@@ -140,13 +143,13 @@
    {
     "level": 19,
     "hp": 194,
-    "features": 25,
+    "features": 28,
     "new": []
    },
    {
     "level": 20,
     "hp": 204,
-    "features": 26,
+    "features": 29,
     "new": [
      "Killshot"
     ]
@@ -161,7 +164,7 @@
    {
     "level": 2,
     "hp": 20,
-    "features": 6,
+    "features": 7,
     "new": [
      "Creativity",
      "Fighting Style"
@@ -170,7 +173,7 @@
    {
     "level": 3,
     "hp": 28,
-    "features": 10,
+    "features": 11,
     "new": [
      "Quick On The Draw",
      "Bounty Hunter Creations",
@@ -181,13 +184,13 @@
    {
     "level": 4,
     "hp": 36,
-    "features": 10,
+    "features": 11,
     "new": []
    },
    {
     "level": 5,
     "hp": 44,
-    "features": 11,
+    "features": 12,
     "new": [
      "Extra Attack"
     ]
@@ -195,13 +198,15 @@
    {
     "level": 6,
     "hp": 52,
-    "features": 12,
-    "new": []
+    "features": 14,
+    "new": [
+     "Roving"
+    ]
    },
    {
     "level": 7,
     "hp": 60,
-    "features": 13,
+    "features": 15,
     "new": [
      "Defensive Champion"
     ]
@@ -209,7 +214,7 @@
    {
     "level": 8,
     "hp": 76,
-    "features": 15,
+    "features": 17,
     "new": [
      "Land's Stride",
      "Color of Armament Novice"
@@ -218,7 +223,7 @@
    {
     "level": 9,
     "hp": 85,
-    "features": 16,
+    "features": 18,
     "new": [
      "Volley"
     ]
@@ -226,22 +231,23 @@
    {
     "level": 10,
     "hp": 94,
-    "features": 19,
+    "features": 22,
     "new": [
      "Eagle Eyes",
+     "Tireless",
      "Color of Armament Apprentice"
     ]
    },
    {
     "level": 11,
     "hp": 103,
-    "features": 19,
+    "features": 22,
     "new": []
    },
    {
     "level": 12,
     "hp": 112,
-    "features": 20,
+    "features": 23,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -249,13 +255,13 @@
    {
     "level": 13,
     "hp": 121,
-    "features": 20,
+    "features": 23,
     "new": []
    },
    {
     "level": 14,
     "hp": 130,
-    "features": 22,
+    "features": 25,
     "new": [
      "Vigilant Gaze",
      "Color of Armament Adept"
@@ -264,7 +270,7 @@
    {
     "level": 15,
     "hp": 139,
-    "features": 23,
+    "features": 26,
     "new": [
      "Master-at-Arms"
     ]
@@ -272,7 +278,7 @@
    {
     "level": 16,
     "hp": 164,
-    "features": 24,
+    "features": 27,
     "new": [
      "Color of Armament Master"
     ]
@@ -280,13 +286,13 @@
    {
     "level": 17,
     "hp": 174,
-    "features": 24,
+    "features": 27,
     "new": []
    },
    {
     "level": 18,
     "hp": 184,
-    "features": 25,
+    "features": 28,
     "new": [
      "Deadly Mark"
     ]
@@ -294,13 +300,13 @@
    {
     "level": 19,
     "hp": 194,
-    "features": 25,
+    "features": 28,
     "new": []
    },
    {
     "level": 20,
     "hp": 204,
-    "features": 26,
+    "features": 29,
     "new": [
      "Killshot"
     ]
@@ -315,7 +321,7 @@
    {
     "level": 2,
     "hp": 20,
-    "features": 6,
+    "features": 7,
     "new": [
      "Creativity",
      "Fighting Style"
@@ -324,7 +330,7 @@
    {
     "level": 3,
     "hp": 28,
-    "features": 10,
+    "features": 11,
     "new": [
      "Quick On The Draw",
      "Olympian Creations",
@@ -335,13 +341,13 @@
    {
     "level": 4,
     "hp": 36,
-    "features": 10,
+    "features": 11,
     "new": []
    },
    {
     "level": 5,
     "hp": 44,
-    "features": 11,
+    "features": 12,
     "new": [
      "Extra Attack"
     ]
@@ -349,13 +355,15 @@
    {
     "level": 6,
     "hp": 52,
-    "features": 12,
-    "new": []
+    "features": 14,
+    "new": [
+     "Roving"
+    ]
    },
    {
     "level": 7,
     "hp": 60,
-    "features": 13,
+    "features": 15,
     "new": [
      "Walking Salvo"
     ]
@@ -363,7 +371,7 @@
    {
     "level": 8,
     "hp": 76,
-    "features": 15,
+    "features": 17,
     "new": [
      "Land's Stride",
      "Color of Armament Novice"
@@ -372,7 +380,7 @@
    {
     "level": 9,
     "hp": 85,
-    "features": 16,
+    "features": 18,
     "new": [
      "Volley"
     ]
@@ -380,16 +388,17 @@
    {
     "level": 10,
     "hp": 94,
-    "features": 19,
+    "features": 22,
     "new": [
      "Eagle Eyes",
+     "Tireless",
      "Color of Armament Apprentice"
     ]
    },
    {
     "level": 11,
     "hp": 103,
-    "features": 20,
+    "features": 23,
     "new": [
      "Masterful Technique"
     ]
@@ -397,7 +406,7 @@
    {
     "level": 12,
     "hp": 112,
-    "features": 21,
+    "features": 24,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -405,13 +414,13 @@
    {
     "level": 13,
     "hp": 121,
-    "features": 21,
+    "features": 24,
     "new": []
    },
    {
     "level": 14,
     "hp": 130,
-    "features": 23,
+    "features": 26,
     "new": [
      "Vigilant Gaze",
      "Color of Armament Adept"
@@ -420,7 +429,7 @@
    {
     "level": 15,
     "hp": 139,
-    "features": 24,
+    "features": 27,
     "new": [
      "Unlimited Strikes"
     ]
@@ -428,7 +437,7 @@
    {
     "level": 16,
     "hp": 164,
-    "features": 25,
+    "features": 28,
     "new": [
      "Color of Armament Master"
     ]
@@ -436,13 +445,13 @@
    {
     "level": 17,
     "hp": 174,
-    "features": 25,
+    "features": 28,
     "new": []
    },
    {
     "level": 18,
     "hp": 184,
-    "features": 26,
+    "features": 29,
     "new": [
      "Deadly Mark"
     ]
@@ -450,13 +459,13 @@
    {
     "level": 19,
     "hp": 194,
-    "features": 26,
+    "features": 29,
     "new": []
    },
    {
     "level": 20,
     "hp": 204,
-    "features": 27,
+    "features": 30,
     "new": [
      "Killshot"
     ]
@@ -471,7 +480,7 @@
    {
     "level": 2,
     "hp": 20,
-    "features": 6,
+    "features": 7,
     "new": [
      "Creativity",
      "Fighting Style"
@@ -480,7 +489,7 @@
    {
     "level": 3,
     "hp": 28,
-    "features": 10,
+    "features": 11,
     "new": [
      "Quick On The Draw",
      "Sniper Creations",
@@ -491,13 +500,13 @@
    {
     "level": 4,
     "hp": 36,
-    "features": 10,
+    "features": 11,
     "new": []
    },
    {
     "level": 5,
     "hp": 44,
-    "features": 11,
+    "features": 12,
     "new": [
      "Extra Attack"
     ]
@@ -505,13 +514,15 @@
    {
     "level": 6,
     "hp": 52,
-    "features": 12,
-    "new": []
+    "features": 14,
+    "new": [
+     "Roving"
+    ]
    },
    {
     "level": 7,
     "hp": 60,
-    "features": 13,
+    "features": 15,
     "new": [
      "Crackshot"
     ]
@@ -519,7 +530,7 @@
    {
     "level": 8,
     "hp": 76,
-    "features": 15,
+    "features": 17,
     "new": [
      "Land's Stride",
      "Color of Armament Novice"
@@ -528,7 +539,7 @@
    {
     "level": 9,
     "hp": 85,
-    "features": 16,
+    "features": 18,
     "new": [
      "Volley"
     ]
@@ -536,16 +547,17 @@
    {
     "level": 10,
     "hp": 94,
-    "features": 19,
+    "features": 22,
     "new": [
      "Eagle Eyes",
+     "Tireless",
      "Color of Armament Apprentice"
     ]
    },
    {
     "level": 11,
     "hp": 103,
-    "features": 20,
+    "features": 23,
     "new": [
      "Creative Arsenal"
     ]
@@ -553,7 +565,7 @@
    {
     "level": 12,
     "hp": 112,
-    "features": 21,
+    "features": 24,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -561,13 +573,13 @@
    {
     "level": 13,
     "hp": 121,
-    "features": 21,
+    "features": 24,
     "new": []
    },
    {
     "level": 14,
     "hp": 130,
-    "features": 23,
+    "features": 26,
     "new": [
      "Vigilant Gaze",
      "Color of Armament Adept"
@@ -576,7 +588,7 @@
    {
     "level": 15,
     "hp": 139,
-    "features": 24,
+    "features": 27,
     "new": [
      "Unerring Aim"
     ]
@@ -584,7 +596,7 @@
    {
     "level": 16,
     "hp": 164,
-    "features": 25,
+    "features": 28,
     "new": [
      "Color of Armament Master"
     ]
@@ -592,13 +604,13 @@
    {
     "level": 17,
     "hp": 174,
-    "features": 25,
+    "features": 28,
     "new": []
    },
    {
     "level": 18,
     "hp": 184,
-    "features": 26,
+    "features": 29,
     "new": [
      "Deadly Mark"
     ]
@@ -606,13 +618,13 @@
    {
     "level": 19,
     "hp": 194,
-    "features": 26,
+    "features": 29,
     "new": []
    },
    {
     "level": 20,
     "hp": 204,
-    "features": 27,
+    "features": 30,
     "new": [
      "Killshot"
     ]
@@ -627,7 +639,7 @@
    {
     "level": 2,
     "hp": 20,
-    "features": 6,
+    "features": 7,
     "new": [
      "Creativity",
      "Fighting Style"
@@ -636,7 +648,7 @@
    {
     "level": 3,
     "hp": 28,
-    "features": 10,
+    "features": 11,
     "new": [
      "Quick On The Draw",
      "Guru Creations",
@@ -647,13 +659,13 @@
    {
     "level": 4,
     "hp": 36,
-    "features": 10,
+    "features": 11,
     "new": []
    },
    {
     "level": 5,
     "hp": 44,
-    "features": 11,
+    "features": 12,
     "new": [
      "Extra Attack"
     ]
@@ -661,13 +673,15 @@
    {
     "level": 6,
     "hp": 52,
-    "features": 12,
-    "new": []
+    "features": 14,
+    "new": [
+     "Roving"
+    ]
    },
    {
     "level": 7,
     "hp": 60,
-    "features": 13,
+    "features": 15,
     "new": [
      "Practiced Knowledge"
     ]
@@ -675,7 +689,7 @@
    {
     "level": 8,
     "hp": 76,
-    "features": 15,
+    "features": 17,
     "new": [
      "Land's Stride",
      "Color of Armament Novice"
@@ -684,7 +698,7 @@
    {
     "level": 9,
     "hp": 85,
-    "features": 16,
+    "features": 18,
     "new": [
      "Volley"
     ]
@@ -692,16 +706,17 @@
    {
     "level": 10,
     "hp": 94,
-    "features": 19,
+    "features": 22,
     "new": [
      "Eagle Eyes",
+     "Tireless",
      "Color of Armament Apprentice"
     ]
    },
    {
     "level": 11,
     "hp": 103,
-    "features": 20,
+    "features": 23,
     "new": [
      "Restoring Volley"
     ]
@@ -709,7 +724,7 @@
    {
     "level": 12,
     "hp": 112,
-    "features": 21,
+    "features": 24,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -717,13 +732,13 @@
    {
     "level": 13,
     "hp": 121,
-    "features": 21,
+    "features": 24,
     "new": []
    },
    {
     "level": 14,
     "hp": 130,
-    "features": 23,
+    "features": 26,
     "new": [
      "Vigilant Gaze",
      "Color of Armament Adept"
@@ -732,7 +747,7 @@
    {
     "level": 15,
     "hp": 139,
-    "features": 24,
+    "features": 27,
     "new": [
      "True Mastery"
     ]
@@ -740,7 +755,7 @@
    {
     "level": 16,
     "hp": 164,
-    "features": 25,
+    "features": 28,
     "new": [
      "Color of Armament Master"
     ]
@@ -748,13 +763,13 @@
    {
     "level": 17,
     "hp": 174,
-    "features": 25,
+    "features": 28,
     "new": []
    },
    {
     "level": 18,
     "hp": 184,
-    "features": 26,
+    "features": 29,
     "new": [
      "Deadly Mark"
     ]
@@ -762,13 +777,13 @@
    {
     "level": 19,
     "hp": 194,
-    "features": 26,
+    "features": 29,
     "new": []
    },
    {
     "level": 20,
     "hp": 204,
-    "features": 27,
+    "features": 30,
     "new": [
      "Killshot"
     ]
@@ -783,7 +798,7 @@
    {
     "level": 2,
     "hp": 20,
-    "features": 6,
+    "features": 7,
     "new": [
      "Creativity",
      "Fighting Style"
@@ -792,7 +807,7 @@
    {
     "level": 3,
     "hp": 28,
-    "features": 10,
+    "features": 11,
     "new": [
      "Quick On The Draw",
      "Nighthawk Creations",
@@ -803,13 +818,13 @@
    {
     "level": 4,
     "hp": 36,
-    "features": 10,
+    "features": 11,
     "new": []
    },
    {
     "level": 5,
     "hp": 44,
-    "features": 11,
+    "features": 12,
     "new": [
      "Extra Attack"
     ]
@@ -817,13 +832,15 @@
    {
     "level": 6,
     "hp": 52,
-    "features": 12,
-    "new": []
+    "features": 14,
+    "new": [
+     "Roving"
+    ]
    },
    {
     "level": 7,
     "hp": 60,
-    "features": 13,
+    "features": 15,
     "new": [
      "Honed Senses"
     ]
@@ -831,7 +848,7 @@
    {
     "level": 8,
     "hp": 76,
-    "features": 15,
+    "features": 17,
     "new": [
      "Land's Stride",
      "Color of Armament Novice"
@@ -840,7 +857,7 @@
    {
     "level": 9,
     "hp": 85,
-    "features": 16,
+    "features": 18,
     "new": [
      "Volley"
     ]
@@ -848,16 +865,17 @@
    {
     "level": 10,
     "hp": 94,
-    "features": 19,
+    "features": 22,
     "new": [
      "Eagle Eyes",
+     "Tireless",
      "Color of Armament Apprentice"
     ]
    },
    {
     "level": 11,
     "hp": 103,
-    "features": 20,
+    "features": 23,
     "new": [
      "Sureshot"
     ]
@@ -865,7 +883,7 @@
    {
     "level": 12,
     "hp": 112,
-    "features": 21,
+    "features": 24,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -873,13 +891,13 @@
    {
     "level": 13,
     "hp": 121,
-    "features": 21,
+    "features": 24,
     "new": []
    },
    {
     "level": 14,
     "hp": 130,
-    "features": 23,
+    "features": 26,
     "new": [
      "Vigilant Gaze",
      "Color of Armament Adept"
@@ -888,7 +906,7 @@
    {
     "level": 15,
     "hp": 139,
-    "features": 24,
+    "features": 27,
     "new": [
      "Slippery Devil"
     ]
@@ -896,7 +914,7 @@
    {
     "level": 16,
     "hp": 164,
-    "features": 25,
+    "features": 28,
     "new": [
      "Color of Armament Master"
     ]
@@ -904,13 +922,13 @@
    {
     "level": 17,
     "hp": 174,
-    "features": 25,
+    "features": 28,
     "new": []
    },
    {
     "level": 18,
     "hp": 184,
-    "features": 26,
+    "features": 29,
     "new": [
      "Deadly Mark"
     ]
@@ -918,13 +936,13 @@
    {
     "level": 19,
     "hp": 194,
-    "features": 26,
+    "features": 29,
     "new": []
    },
    {
     "level": 20,
     "hp": 204,
-    "features": 27,
+    "features": 30,
     "new": [
      "Killshot"
     ]
@@ -939,7 +957,7 @@
    {
     "level": 2,
     "hp": 20,
-    "features": 6,
+    "features": 7,
     "new": [
      "Creativity",
      "Fighting Style"
@@ -948,7 +966,7 @@
    {
     "level": 3,
     "hp": 28,
-    "features": 10,
+    "features": 11,
     "new": [
      "Quick On The Draw",
      "Beastmaster Creations",
@@ -959,13 +977,13 @@
    {
     "level": 4,
     "hp": 36,
-    "features": 10,
+    "features": 11,
     "new": []
    },
    {
     "level": 5,
     "hp": 44,
-    "features": 11,
+    "features": 12,
     "new": [
      "Extra Attack"
     ]
@@ -973,13 +991,15 @@
    {
     "level": 6,
     "hp": 52,
-    "features": 12,
-    "new": []
+    "features": 14,
+    "new": [
+     "Roving"
+    ]
    },
    {
     "level": 7,
     "hp": 60,
-    "features": 13,
+    "features": 15,
     "new": [
      "Exceptional Training"
     ]
@@ -987,7 +1007,7 @@
    {
     "level": 8,
     "hp": 76,
-    "features": 15,
+    "features": 17,
     "new": [
      "Land's Stride",
      "Color of Armament Novice"
@@ -996,7 +1016,7 @@
    {
     "level": 9,
     "hp": 85,
-    "features": 16,
+    "features": 18,
     "new": [
      "Volley"
     ]
@@ -1004,16 +1024,17 @@
    {
     "level": 10,
     "hp": 94,
-    "features": 19,
+    "features": 22,
     "new": [
      "Eagle Eyes",
+     "Tireless",
      "Color of Armament Apprentice"
     ]
    },
    {
     "level": 11,
     "hp": 103,
-    "features": 20,
+    "features": 23,
     "new": [
      "Bestial Fury"
     ]
@@ -1021,7 +1042,7 @@
    {
     "level": 12,
     "hp": 112,
-    "features": 21,
+    "features": 24,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -1029,13 +1050,13 @@
    {
     "level": 13,
     "hp": 121,
-    "features": 21,
+    "features": 24,
     "new": []
    },
    {
     "level": 14,
     "hp": 130,
-    "features": 23,
+    "features": 26,
     "new": [
      "Vigilant Gaze",
      "Color of Armament Adept"
@@ -1044,7 +1065,7 @@
    {
     "level": 15,
     "hp": 139,
-    "features": 24,
+    "features": 27,
     "new": [
      "Enrage"
     ]
@@ -1052,7 +1073,7 @@
    {
     "level": 16,
     "hp": 164,
-    "features": 25,
+    "features": 28,
     "new": [
      "Color of Armament Master"
     ]
@@ -1060,13 +1081,13 @@
    {
     "level": 17,
     "hp": 174,
-    "features": 25,
+    "features": 28,
     "new": []
    },
    {
     "level": 18,
     "hp": 184,
-    "features": 26,
+    "features": 29,
     "new": [
      "Deadly Mark"
     ]
@@ -1074,13 +1095,13 @@
    {
     "level": 19,
     "hp": 194,
-    "features": 26,
+    "features": 29,
     "new": []
    },
    {
     "level": 20,
     "hp": 204,
-    "features": 27,
+    "features": 30,
     "new": [
      "Killshot"
     ]
@@ -5910,10 +5931,10 @@
     "features": 10,
     "new": [
      "Mods",
-     "Armor of Mechanical Strength",
      "Burst Boots",
      "Enhanced Creative Focus",
-     "Enhanced Defenses"
+     "Enhanced Defenses",
+     "Enhanced Weapon"
     ]
    },
    {
@@ -5946,7 +5967,7 @@
     "features": 17,
     "new": [
      "Tool Expertise",
-     "Enhanced Weapon",
+     "Armor of Mechanical Strength",
      "Propulsion Armor"
     ]
    },
@@ -6015,8 +6036,7 @@
     "new": [
      "Mastercraft Savant",
      "Color of Armament Adept",
-     "Focusing Suit",
-     "Repeating Magazine"
+     "Focusing Suit"
     ]
    },
    {
@@ -6047,8 +6067,7 @@
     "features": 36,
     "new": [
      "Mastercraft Master",
-     "Glowing Weapon",
-     "Repulsion Shield"
+     "Repeating Magazine"
     ]
    },
    {
@@ -6078,10 +6097,10 @@
     "features": 10,
     "new": [
      "Mods",
-     "Armor of Mechanical Strength",
      "Burst Boots",
      "Enhanced Creative Focus",
-     "Enhanced Defenses"
+     "Enhanced Defenses",
+     "Enhanced Weapon"
     ]
    },
    {
@@ -6114,7 +6133,7 @@
     "features": 17,
     "new": [
      "Tool Expertise",
-     "Enhanced Weapon",
+     "Armor of Mechanical Strength",
      "Propulsion Armor"
     ]
    },
@@ -6183,8 +6202,7 @@
     "new": [
      "Mastercraft Savant",
      "Color of Armament Adept",
-     "Focusing Suit",
-     "Repeating Magazine"
+     "Focusing Suit"
     ]
    },
    {
@@ -6215,8 +6233,7 @@
     "features": 36,
     "new": [
      "Mastercraft Master",
-     "Glowing Weapon",
-     "Repulsion Shield"
+     "Repeating Magazine"
     ]
    },
    {
@@ -6246,10 +6263,10 @@
     "features": 10,
     "new": [
      "Mods",
-     "Armor of Mechanical Strength",
      "Burst Boots",
      "Enhanced Creative Focus",
-     "Enhanced Defenses"
+     "Enhanced Defenses",
+     "Enhanced Weapon"
     ]
    },
    {
@@ -6282,7 +6299,7 @@
     "features": 17,
     "new": [
      "Tool Expertise",
-     "Enhanced Weapon",
+     "Armor of Mechanical Strength",
      "Propulsion Armor"
     ]
    },
@@ -6351,8 +6368,7 @@
     "new": [
      "Mastercraft Savant",
      "Color of Armament Adept",
-     "Focusing Suit",
-     "Repeating Magazine"
+     "Focusing Suit"
     ]
    },
    {
@@ -6383,8 +6399,7 @@
     "features": 36,
     "new": [
      "Mastercraft Master",
-     "Glowing Weapon",
-     "Repulsion Shield"
+     "Repeating Magazine"
     ]
    },
    {
@@ -6414,10 +6429,10 @@
     "features": 10,
     "new": [
      "Mods",
-     "Armor of Mechanical Strength",
      "Burst Boots",
      "Enhanced Creative Focus",
-     "Enhanced Defenses"
+     "Enhanced Defenses",
+     "Enhanced Weapon"
     ]
    },
    {
@@ -6450,7 +6465,7 @@
     "features": 17,
     "new": [
      "Tool Expertise",
-     "Enhanced Weapon",
+     "Armor of Mechanical Strength",
      "Propulsion Armor"
     ]
    },
@@ -6519,8 +6534,7 @@
     "new": [
      "Mastercraft Savant",
      "Color of Armament Adept",
-     "Focusing Suit",
-     "Repeating Magazine"
+     "Focusing Suit"
     ]
    },
    {
@@ -6551,8 +6565,7 @@
     "features": 36,
     "new": [
      "Mastercraft Master",
-     "Glowing Weapon",
-     "Repulsion Shield"
+     "Repeating Magazine"
     ]
    },
    {
@@ -6582,10 +6595,10 @@
     "features": 10,
     "new": [
      "Mods",
-     "Armor of Mechanical Strength",
      "Burst Boots",
      "Enhanced Creative Focus",
-     "Enhanced Defenses"
+     "Enhanced Defenses",
+     "Enhanced Weapon"
     ]
    },
    {
@@ -6619,7 +6632,7 @@
     "features": 18,
     "new": [
      "Tool Expertise",
-     "Enhanced Weapon",
+     "Armor of Mechanical Strength",
      "Propulsion Armor"
     ]
    },
@@ -6688,8 +6701,7 @@
     "new": [
      "Mastercraft Savant",
      "Color of Armament Adept",
-     "Focusing Suit",
-     "Repeating Magazine"
+     "Focusing Suit"
     ]
    },
    {
@@ -6720,8 +6732,7 @@
     "features": 37,
     "new": [
      "Mastercraft Master",
-     "Glowing Weapon",
-     "Repulsion Shield"
+     "Repeating Magazine"
     ]
    },
    {
@@ -6751,10 +6762,10 @@
     "features": 10,
     "new": [
      "Mods",
-     "Armor of Mechanical Strength",
      "Burst Boots",
      "Enhanced Creative Focus",
-     "Enhanced Defenses"
+     "Enhanced Defenses",
+     "Enhanced Weapon"
     ]
    },
    {
@@ -6788,7 +6799,7 @@
     "features": 18,
     "new": [
      "Tool Expertise",
-     "Enhanced Weapon",
+     "Armor of Mechanical Strength",
      "Propulsion Armor"
     ]
    },
@@ -6857,8 +6868,7 @@
     "new": [
      "Mastercraft Savant",
      "Color of Armament Adept",
-     "Focusing Suit",
-     "Repeating Magazine"
+     "Focusing Suit"
     ]
    },
    {
@@ -6889,8 +6899,7 @@
     "features": 37,
     "new": [
      "Mastercraft Master",
-     "Glowing Weapon",
-     "Repulsion Shield"
+     "Repeating Magazine"
     ]
    },
    {
@@ -6917,16 +6926,19 @@
    {
     "level": 2,
     "hp": 17,
-    "features": 6,
+    "features": 9,
     "new": [
      "Spirit",
+     "Flurry of Blows",
+     "Patient Defense",
+     "Deft Escape",
      "Unarmored Movement"
     ]
    },
    {
     "level": 3,
     "hp": 24,
-    "features": 9,
+    "features": 12,
     "new": [
      "Deflect Missiles",
      "Okama Way",
@@ -6936,7 +6948,7 @@
    {
     "level": 4,
     "hp": 31,
-    "features": 10,
+    "features": 13,
     "new": [
      "Brace for Impact"
     ]
@@ -6944,7 +6956,7 @@
    {
     "level": 5,
     "hp": 38,
-    "features": 12,
+    "features": 15,
     "new": [
      "Extra Attack",
      "Stunning Strike"
@@ -6953,7 +6965,7 @@
    {
     "level": 6,
     "hp": 45,
-    "features": 13,
+    "features": 16,
     "new": [
      "Aesthetic Weaponry"
     ]
@@ -6961,7 +6973,7 @@
    {
     "level": 7,
     "hp": 52,
-    "features": 15,
+    "features": 18,
     "new": [
      "Evasion",
      "Shake it Off"
@@ -6970,7 +6982,7 @@
    {
     "level": 8,
     "hp": 67,
-    "features": 16,
+    "features": 19,
     "new": [
      "Color of Armament Novice"
     ]
@@ -6978,7 +6990,7 @@
    {
     "level": 9,
     "hp": 75,
-    "features": 17,
+    "features": 20,
     "new": [
      "Unarmored Movement Improvement"
     ]
@@ -6986,7 +6998,7 @@
    {
     "level": 10,
     "hp": 83,
-    "features": 18,
+    "features": 21,
     "new": [
      "Color of Armament Apprentice"
     ]
@@ -6994,7 +7006,7 @@
    {
     "level": 11,
     "hp": 91,
-    "features": 19,
+    "features": 22,
     "new": [
      "Elegant Combination"
     ]
@@ -7002,7 +7014,7 @@
    {
     "level": 12,
     "hp": 111,
-    "features": 20,
+    "features": 23,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -7010,7 +7022,7 @@
    {
     "level": 13,
     "hp": 120,
-    "features": 21,
+    "features": 24,
     "new": [
      "Animal Spirit"
     ]
@@ -7018,7 +7030,7 @@
    {
     "level": 14,
     "hp": 129,
-    "features": 23,
+    "features": 26,
     "new": [
      "Diamond Soul",
      "Color of Armament Adept"
@@ -7027,7 +7039,7 @@
    {
     "level": 15,
     "hp": 138,
-    "features": 24,
+    "features": 27,
     "new": [
      "Timeless Body"
     ]
@@ -7035,7 +7047,7 @@
    {
     "level": 16,
     "hp": 147,
-    "features": 25,
+    "features": 28,
     "new": [
      "Color of Armament Master"
     ]
@@ -7043,7 +7055,7 @@
    {
     "level": 17,
     "hp": 156,
-    "features": 26,
+    "features": 29,
     "new": [
      "Grand Finale"
     ]
@@ -7051,7 +7063,7 @@
    {
     "level": 18,
     "hp": 165,
-    "features": 27,
+    "features": 30,
     "new": [
      "Immortal Will"
     ]
@@ -7059,13 +7071,13 @@
    {
     "level": 19,
     "hp": 193,
-    "features": 27,
+    "features": 30,
     "new": []
    },
    {
     "level": 20,
     "hp": 203,
-    "features": 28,
+    "features": 31,
     "new": [
      "Endless Spirit"
     ]
@@ -7080,16 +7092,19 @@
    {
     "level": 2,
     "hp": 17,
-    "features": 6,
+    "features": 9,
     "new": [
      "Spirit",
+     "Flurry of Blows",
+     "Patient Defense",
+     "Deft Escape",
      "Unarmored Movement"
     ]
    },
    {
     "level": 3,
     "hp": 24,
-    "features": 10,
+    "features": 13,
     "new": [
      "Deflect Missiles",
      "Aquatic Brawler",
@@ -7100,7 +7115,7 @@
    {
     "level": 4,
     "hp": 31,
-    "features": 11,
+    "features": 14,
     "new": [
      "Brace for Impact"
     ]
@@ -7108,7 +7123,7 @@
    {
     "level": 5,
     "hp": 38,
-    "features": 13,
+    "features": 16,
     "new": [
      "Extra Attack",
      "Stunning Strike"
@@ -7117,7 +7132,7 @@
    {
     "level": 6,
     "hp": 45,
-    "features": 14,
+    "features": 17,
     "new": [
      "Palm Block"
     ]
@@ -7125,7 +7140,7 @@
    {
     "level": 7,
     "hp": 52,
-    "features": 16,
+    "features": 19,
     "new": [
      "Evasion",
      "Shake it Off"
@@ -7134,7 +7149,7 @@
    {
     "level": 8,
     "hp": 67,
-    "features": 17,
+    "features": 20,
     "new": [
      "Color of Armament Novice"
     ]
@@ -7142,7 +7157,7 @@
    {
     "level": 9,
     "hp": 75,
-    "features": 18,
+    "features": 21,
     "new": [
      "Unarmored Movement Improvement"
     ]
@@ -7150,7 +7165,7 @@
    {
     "level": 10,
     "hp": 83,
-    "features": 19,
+    "features": 22,
     "new": [
      "Color of Armament Apprentice"
     ]
@@ -7158,7 +7173,7 @@
    {
     "level": 11,
     "hp": 91,
-    "features": 20,
+    "features": 23,
     "new": [
      "Water Heart"
     ]
@@ -7166,7 +7181,7 @@
    {
     "level": 12,
     "hp": 111,
-    "features": 21,
+    "features": 24,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -7174,7 +7189,7 @@
    {
     "level": 13,
     "hp": 120,
-    "features": 22,
+    "features": 25,
     "new": [
      "Animal Spirit"
     ]
@@ -7182,7 +7197,7 @@
    {
     "level": 14,
     "hp": 129,
-    "features": 24,
+    "features": 27,
     "new": [
      "Diamond Soul",
      "Color of Armament Adept"
@@ -7191,7 +7206,7 @@
    {
     "level": 15,
     "hp": 138,
-    "features": 25,
+    "features": 28,
     "new": [
      "Timeless Body"
     ]
@@ -7199,7 +7214,7 @@
    {
     "level": 16,
     "hp": 147,
-    "features": 26,
+    "features": 29,
     "new": [
      "Color of Armament Master"
     ]
@@ -7207,7 +7222,7 @@
    {
     "level": 17,
     "hp": 156,
-    "features": 27,
+    "features": 30,
     "new": [
      "Vagabond Drill"
     ]
@@ -7215,7 +7230,7 @@
    {
     "level": 18,
     "hp": 165,
-    "features": 28,
+    "features": 31,
     "new": [
      "Immortal Will"
     ]
@@ -7223,13 +7238,13 @@
    {
     "level": 19,
     "hp": 193,
-    "features": 28,
+    "features": 31,
     "new": []
    },
    {
     "level": 20,
     "hp": 203,
-    "features": 29,
+    "features": 32,
     "new": [
      "Endless Spirit"
     ]
@@ -7244,16 +7259,19 @@
    {
     "level": 2,
     "hp": 17,
-    "features": 6,
+    "features": 9,
     "new": [
      "Spirit",
+     "Flurry of Blows",
+     "Patient Defense",
+     "Deft Escape",
      "Unarmored Movement"
     ]
    },
    {
     "level": 3,
     "hp": 24,
-    "features": 8,
+    "features": 11,
     "new": [
      "Deflect Missiles",
      "Six Techniques"
@@ -7262,7 +7280,7 @@
    {
     "level": 4,
     "hp": 31,
-    "features": 9,
+    "features": 12,
     "new": [
      "Brace for Impact"
     ]
@@ -7270,7 +7288,7 @@
    {
     "level": 5,
     "hp": 38,
-    "features": 11,
+    "features": 14,
     "new": [
      "Extra Attack",
      "Stunning Strike"
@@ -7279,7 +7297,7 @@
    {
     "level": 6,
     "hp": 45,
-    "features": 12,
+    "features": 15,
     "new": [
      "Six Techniques (Remaining)"
     ]
@@ -7287,7 +7305,7 @@
    {
     "level": 7,
     "hp": 52,
-    "features": 14,
+    "features": 17,
     "new": [
      "Evasion",
      "Shake it Off"
@@ -7296,7 +7314,7 @@
    {
     "level": 8,
     "hp": 67,
-    "features": 15,
+    "features": 18,
     "new": [
      "Color of Armament Novice"
     ]
@@ -7304,7 +7322,7 @@
    {
     "level": 9,
     "hp": 75,
-    "features": 16,
+    "features": 19,
     "new": [
      "Unarmored Movement Improvement"
     ]
@@ -7312,7 +7330,7 @@
    {
     "level": 10,
     "hp": 83,
-    "features": 17,
+    "features": 20,
     "new": [
      "Color of Armament Apprentice"
     ]
@@ -7320,7 +7338,7 @@
    {
     "level": 11,
     "hp": 91,
-    "features": 18,
+    "features": 21,
     "new": [
      "Enhanced Technique"
     ]
@@ -7328,7 +7346,7 @@
    {
     "level": 12,
     "hp": 111,
-    "features": 19,
+    "features": 22,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -7336,7 +7354,7 @@
    {
     "level": 13,
     "hp": 120,
-    "features": 20,
+    "features": 23,
     "new": [
      "Animal Spirit"
     ]
@@ -7344,7 +7362,7 @@
    {
     "level": 14,
     "hp": 129,
-    "features": 22,
+    "features": 25,
     "new": [
      "Diamond Soul",
      "Color of Armament Adept"
@@ -7353,7 +7371,7 @@
    {
     "level": 15,
     "hp": 138,
-    "features": 23,
+    "features": 26,
     "new": [
      "Timeless Body"
     ]
@@ -7361,7 +7379,7 @@
    {
     "level": 16,
     "hp": 147,
-    "features": 24,
+    "features": 27,
     "new": [
      "Color of Armament Master"
     ]
@@ -7369,7 +7387,7 @@
    {
     "level": 17,
     "hp": 156,
-    "features": 25,
+    "features": 28,
     "new": [
      "Six King Gun"
     ]
@@ -7377,7 +7395,7 @@
    {
     "level": 18,
     "hp": 165,
-    "features": 26,
+    "features": 29,
     "new": [
      "Immortal Will"
     ]
@@ -7385,13 +7403,13 @@
    {
     "level": 19,
     "hp": 193,
-    "features": 26,
+    "features": 29,
     "new": []
    },
    {
     "level": 20,
     "hp": 203,
-    "features": 27,
+    "features": 30,
     "new": [
      "Endless Spirit"
     ]
@@ -7406,16 +7424,19 @@
    {
     "level": 2,
     "hp": 17,
-    "features": 6,
+    "features": 9,
     "new": [
      "Spirit",
+     "Flurry of Blows",
+     "Patient Defense",
+     "Deft Escape",
      "Unarmored Movement"
     ]
    },
    {
     "level": 3,
     "hp": 24,
-    "features": 9,
+    "features": 12,
     "new": [
      "Deflect Missiles",
      "Combat Mastery",
@@ -7425,7 +7446,7 @@
    {
     "level": 4,
     "hp": 31,
-    "features": 10,
+    "features": 13,
     "new": [
      "Brace for Impact"
     ]
@@ -7433,7 +7454,7 @@
    {
     "level": 5,
     "hp": 38,
-    "features": 12,
+    "features": 15,
     "new": [
      "Extra Attack",
      "Stunning Strike"
@@ -7442,7 +7463,7 @@
    {
     "level": 6,
     "hp": 45,
-    "features": 14,
+    "features": 17,
     "new": [
      "Sage Strikes",
      "Spirit Strike"
@@ -7451,7 +7472,7 @@
    {
     "level": 7,
     "hp": 52,
-    "features": 16,
+    "features": 19,
     "new": [
      "Evasion",
      "Shake it Off"
@@ -7460,7 +7481,7 @@
    {
     "level": 8,
     "hp": 67,
-    "features": 17,
+    "features": 20,
     "new": [
      "Color of Armament Novice"
     ]
@@ -7468,7 +7489,7 @@
    {
     "level": 9,
     "hp": 75,
-    "features": 18,
+    "features": 21,
     "new": [
      "Unarmored Movement Improvement"
     ]
@@ -7476,7 +7497,7 @@
    {
     "level": 10,
     "hp": 83,
-    "features": 19,
+    "features": 22,
     "new": [
      "Color of Armament Apprentice"
     ]
@@ -7484,7 +7505,7 @@
    {
     "level": 11,
     "hp": 91,
-    "features": 20,
+    "features": 23,
     "new": [
      "Perfected Form"
     ]
@@ -7492,7 +7513,7 @@
    {
     "level": 12,
     "hp": 111,
-    "features": 21,
+    "features": 24,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -7500,7 +7521,7 @@
    {
     "level": 13,
     "hp": 120,
-    "features": 22,
+    "features": 25,
     "new": [
      "Animal Spirit"
     ]
@@ -7508,7 +7529,7 @@
    {
     "level": 14,
     "hp": 129,
-    "features": 24,
+    "features": 27,
     "new": [
      "Diamond Soul",
      "Color of Armament Adept"
@@ -7517,7 +7538,7 @@
    {
     "level": 15,
     "hp": 138,
-    "features": 25,
+    "features": 28,
     "new": [
      "Timeless Body"
     ]
@@ -7525,7 +7546,7 @@
    {
     "level": 16,
     "hp": 147,
-    "features": 26,
+    "features": 29,
     "new": [
      "Color of Armament Master"
     ]
@@ -7533,7 +7554,7 @@
    {
     "level": 17,
     "hp": 156,
-    "features": 27,
+    "features": 30,
     "new": [
      "Spirit Warrior"
     ]
@@ -7541,7 +7562,7 @@
    {
     "level": 18,
     "hp": 165,
-    "features": 28,
+    "features": 31,
     "new": [
      "Immortal Will"
     ]
@@ -7549,13 +7570,13 @@
    {
     "level": 19,
     "hp": 193,
-    "features": 28,
+    "features": 31,
     "new": []
    },
    {
     "level": 20,
     "hp": 203,
-    "features": 29,
+    "features": 32,
     "new": [
      "Endless Spirit"
     ]
@@ -7570,16 +7591,19 @@
    {
     "level": 2,
     "hp": 17,
-    "features": 6,
+    "features": 9,
     "new": [
      "Spirit",
+     "Flurry of Blows",
+     "Patient Defense",
+     "Deft Escape",
      "Unarmored Movement"
     ]
    },
    {
     "level": 3,
     "hp": 24,
-    "features": 9,
+    "features": 12,
     "new": [
      "Deflect Missiles",
      "Bonus Proficiencies",
@@ -7589,7 +7613,7 @@
    {
     "level": 4,
     "hp": 31,
-    "features": 10,
+    "features": 13,
     "new": [
      "Brace for Impact"
     ]
@@ -7597,7 +7621,7 @@
    {
     "level": 5,
     "hp": 38,
-    "features": 12,
+    "features": 15,
     "new": [
      "Extra Attack",
      "Stunning Strike"
@@ -7606,7 +7630,7 @@
    {
     "level": 6,
     "hp": 45,
-    "features": 13,
+    "features": 16,
     "new": [
      "Vanishing Step"
     ]
@@ -7614,7 +7638,7 @@
    {
     "level": 7,
     "hp": 52,
-    "features": 15,
+    "features": 18,
     "new": [
      "Evasion",
      "Shake it Off"
@@ -7623,7 +7647,7 @@
    {
     "level": 8,
     "hp": 67,
-    "features": 16,
+    "features": 19,
     "new": [
      "Color of Armament Novice"
     ]
@@ -7631,7 +7655,7 @@
    {
     "level": 9,
     "hp": 75,
-    "features": 17,
+    "features": 20,
     "new": [
      "Unarmored Movement Improvement"
     ]
@@ -7639,7 +7663,7 @@
    {
     "level": 10,
     "hp": 83,
-    "features": 18,
+    "features": 21,
     "new": [
      "Color of Armament Apprentice"
     ]
@@ -7647,7 +7671,7 @@
    {
     "level": 11,
     "hp": 91,
-    "features": 19,
+    "features": 22,
     "new": [
      "Paralysis Jutsu"
     ]
@@ -7655,7 +7679,7 @@
    {
     "level": 12,
     "hp": 111,
-    "features": 20,
+    "features": 23,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -7663,7 +7687,7 @@
    {
     "level": 13,
     "hp": 120,
-    "features": 21,
+    "features": 24,
     "new": [
      "Animal Spirit"
     ]
@@ -7671,7 +7695,7 @@
    {
     "level": 14,
     "hp": 129,
-    "features": 23,
+    "features": 26,
     "new": [
      "Diamond Soul",
      "Color of Armament Adept"
@@ -7680,7 +7704,7 @@
    {
     "level": 15,
     "hp": 138,
-    "features": 24,
+    "features": 27,
     "new": [
      "Timeless Body"
     ]
@@ -7688,7 +7712,7 @@
    {
     "level": 16,
     "hp": 147,
-    "features": 25,
+    "features": 28,
     "new": [
      "Color of Armament Master"
     ]
@@ -7696,7 +7720,7 @@
    {
     "level": 17,
     "hp": 156,
-    "features": 26,
+    "features": 29,
     "new": [
      "Reclaimed Spirit"
     ]
@@ -7704,7 +7728,7 @@
    {
     "level": 18,
     "hp": 165,
-    "features": 27,
+    "features": 30,
     "new": [
      "Immortal Will"
     ]
@@ -7712,13 +7736,13 @@
    {
     "level": 19,
     "hp": 193,
-    "features": 27,
+    "features": 30,
     "new": []
    },
    {
     "level": 20,
     "hp": 203,
-    "features": 28,
+    "features": 31,
     "new": [
      "Endless Spirit"
     ]
@@ -7733,16 +7757,19 @@
    {
     "level": 2,
     "hp": 17,
-    "features": 6,
+    "features": 9,
     "new": [
      "Spirit",
+     "Flurry of Blows",
+     "Patient Defense",
+     "Deft Escape",
      "Unarmored Movement"
     ]
    },
    {
     "level": 3,
     "hp": 24,
-    "features": 9,
+    "features": 12,
     "new": [
      "Deflect Missiles",
      "Drunken Arts",
@@ -7752,7 +7779,7 @@
    {
     "level": 4,
     "hp": 31,
-    "features": 10,
+    "features": 13,
     "new": [
      "Brace for Impact"
     ]
@@ -7760,7 +7787,7 @@
    {
     "level": 5,
     "hp": 38,
-    "features": 12,
+    "features": 15,
     "new": [
      "Extra Attack",
      "Stunning Strike"
@@ -7769,7 +7796,7 @@
    {
     "level": 6,
     "hp": 45,
-    "features": 13,
+    "features": 16,
     "new": [
      "Tipsy Balance"
     ]
@@ -7777,7 +7804,7 @@
    {
     "level": 7,
     "hp": 52,
-    "features": 15,
+    "features": 18,
     "new": [
      "Evasion",
      "Shake it Off"
@@ -7786,7 +7813,7 @@
    {
     "level": 8,
     "hp": 67,
-    "features": 16,
+    "features": 19,
     "new": [
      "Color of Armament Novice"
     ]
@@ -7794,7 +7821,7 @@
    {
     "level": 9,
     "hp": 75,
-    "features": 17,
+    "features": 20,
     "new": [
      "Unarmored Movement Improvement"
     ]
@@ -7802,7 +7829,7 @@
    {
     "level": 10,
     "hp": 83,
-    "features": 18,
+    "features": 21,
     "new": [
      "Color of Armament Apprentice"
     ]
@@ -7810,7 +7837,7 @@
    {
     "level": 11,
     "hp": 91,
-    "features": 19,
+    "features": 22,
     "new": [
      "Hardy Resolution"
     ]
@@ -7818,7 +7845,7 @@
    {
     "level": 12,
     "hp": 111,
-    "features": 20,
+    "features": 23,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -7826,7 +7853,7 @@
    {
     "level": 13,
     "hp": 120,
-    "features": 21,
+    "features": 24,
     "new": [
      "Animal Spirit"
     ]
@@ -7834,7 +7861,7 @@
    {
     "level": 14,
     "hp": 129,
-    "features": 23,
+    "features": 26,
     "new": [
      "Diamond Soul",
      "Color of Armament Adept"
@@ -7843,7 +7870,7 @@
    {
     "level": 15,
     "hp": 138,
-    "features": 24,
+    "features": 27,
     "new": [
      "Timeless Body"
     ]
@@ -7851,7 +7878,7 @@
    {
     "level": 16,
     "hp": 147,
-    "features": 25,
+    "features": 28,
     "new": [
      "Color of Armament Master"
     ]
@@ -7859,7 +7886,7 @@
    {
     "level": 17,
     "hp": 156,
-    "features": 26,
+    "features": 29,
     "new": [
      "Liquor Lord"
     ]
@@ -7867,7 +7894,7 @@
    {
     "level": 18,
     "hp": 165,
-    "features": 27,
+    "features": 30,
     "new": [
      "Immortal Will"
     ]
@@ -7875,13 +7902,13 @@
    {
     "level": 19,
     "hp": 193,
-    "features": 27,
+    "features": 30,
     "new": []
    },
    {
     "level": 20,
     "hp": 203,
-    "features": 28,
+    "features": 31,
     "new": [
      "Endless Spirit"
     ]
@@ -7896,16 +7923,19 @@
    {
     "level": 2,
     "hp": 17,
-    "features": 6,
+    "features": 9,
     "new": [
      "Spirit",
+     "Flurry of Blows",
+     "Patient Defense",
+     "Deft Escape",
      "Unarmored Movement"
     ]
    },
    {
     "level": 3,
     "hp": 24,
-    "features": 10,
+    "features": 13,
     "new": [
      "Deflect Missiles",
      "Medical Mercy",
@@ -7916,7 +7946,7 @@
    {
     "level": 4,
     "hp": 31,
-    "features": 11,
+    "features": 14,
     "new": [
      "Brace for Impact"
     ]
@@ -7924,7 +7954,7 @@
    {
     "level": 5,
     "hp": 38,
-    "features": 13,
+    "features": 16,
     "new": [
      "Extra Attack",
      "Stunning Strike"
@@ -7933,7 +7963,7 @@
    {
     "level": 6,
     "hp": 45,
-    "features": 14,
+    "features": 17,
     "new": [
      "Physician's Mercy"
     ]
@@ -7941,7 +7971,7 @@
    {
     "level": 7,
     "hp": 52,
-    "features": 16,
+    "features": 19,
     "new": [
      "Evasion",
      "Shake it Off"
@@ -7950,7 +7980,7 @@
    {
     "level": 8,
     "hp": 67,
-    "features": 17,
+    "features": 20,
     "new": [
      "Color of Armament Novice"
     ]
@@ -7958,7 +7988,7 @@
    {
     "level": 9,
     "hp": 75,
-    "features": 18,
+    "features": 21,
     "new": [
      "Unarmored Movement Improvement"
     ]
@@ -7966,7 +7996,7 @@
    {
     "level": 10,
     "hp": 83,
-    "features": 19,
+    "features": 22,
     "new": [
      "Color of Armament Apprentice"
     ]
@@ -7974,7 +8004,7 @@
    {
     "level": 11,
     "hp": 91,
-    "features": 20,
+    "features": 23,
     "new": [
      "Gracious Mercy"
     ]
@@ -7982,7 +8012,7 @@
    {
     "level": 12,
     "hp": 111,
-    "features": 21,
+    "features": 24,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -7990,7 +8020,7 @@
    {
     "level": 13,
     "hp": 120,
-    "features": 22,
+    "features": 25,
     "new": [
      "Animal Spirit"
     ]
@@ -7998,7 +8028,7 @@
    {
     "level": 14,
     "hp": 129,
-    "features": 24,
+    "features": 27,
     "new": [
      "Diamond Soul",
      "Color of Armament Adept"
@@ -8007,7 +8037,7 @@
    {
     "level": 15,
     "hp": 138,
-    "features": 25,
+    "features": 28,
     "new": [
      "Timeless Body"
     ]
@@ -8015,7 +8045,7 @@
    {
     "level": 16,
     "hp": 147,
-    "features": 26,
+    "features": 29,
     "new": [
      "Color of Armament Master"
     ]
@@ -8023,7 +8053,7 @@
    {
     "level": 17,
     "hp": 156,
-    "features": 27,
+    "features": 30,
     "new": [
      "Ultimate Mercy"
     ]
@@ -8031,7 +8061,7 @@
    {
     "level": 18,
     "hp": 165,
-    "features": 28,
+    "features": 31,
     "new": [
      "Immortal Will"
     ]
@@ -8039,13 +8069,13 @@
    {
     "level": 19,
     "hp": 193,
-    "features": 28,
+    "features": 31,
     "new": []
    },
    {
     "level": 20,
     "hp": 203,
-    "features": 29,
+    "features": 32,
     "new": [
      "Endless Spirit"
     ]
@@ -8060,16 +8090,19 @@
    {
     "level": 2,
     "hp": 17,
-    "features": 6,
+    "features": 9,
     "new": [
      "Spirit",
+     "Flurry of Blows",
+     "Patient Defense",
+     "Deft Escape",
      "Unarmored Movement"
     ]
    },
    {
     "level": 3,
     "hp": 24,
-    "features": 9,
+    "features": 12,
     "new": [
      "Deflect Missiles",
      "Creativity",
@@ -8079,7 +8112,7 @@
    {
     "level": 4,
     "hp": 31,
-    "features": 10,
+    "features": 13,
     "new": [
      "Brace for Impact"
     ]
@@ -8087,7 +8120,7 @@
    {
     "level": 5,
     "hp": 38,
-    "features": 12,
+    "features": 15,
     "new": [
      "Extra Attack",
      "Stunning Strike"
@@ -8096,7 +8129,7 @@
    {
     "level": 6,
     "hp": 45,
-    "features": 13,
+    "features": 16,
     "new": [
      "Potent Expression"
     ]
@@ -8104,7 +8137,7 @@
    {
     "level": 7,
     "hp": 52,
-    "features": 15,
+    "features": 18,
     "new": [
      "Evasion",
      "Shake it Off"
@@ -8113,7 +8146,7 @@
    {
     "level": 8,
     "hp": 67,
-    "features": 16,
+    "features": 19,
     "new": [
      "Color of Armament Novice"
     ]
@@ -8121,7 +8154,7 @@
    {
     "level": 9,
     "hp": 75,
-    "features": 17,
+    "features": 20,
     "new": [
      "Unarmored Movement Improvement"
     ]
@@ -8129,7 +8162,7 @@
    {
     "level": 10,
     "hp": 83,
-    "features": 18,
+    "features": 21,
     "new": [
      "Color of Armament Apprentice"
     ]
@@ -8137,7 +8170,7 @@
    {
     "level": 11,
     "hp": 91,
-    "features": 19,
+    "features": 22,
     "new": [
      "Flexible Spirit"
     ]
@@ -8145,7 +8178,7 @@
    {
     "level": 12,
     "hp": 111,
-    "features": 20,
+    "features": 23,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -8153,7 +8186,7 @@
    {
     "level": 13,
     "hp": 120,
-    "features": 21,
+    "features": 24,
     "new": [
      "Animal Spirit"
     ]
@@ -8161,7 +8194,7 @@
    {
     "level": 14,
     "hp": 129,
-    "features": 23,
+    "features": 26,
     "new": [
      "Diamond Soul",
      "Color of Armament Adept"
@@ -8170,7 +8203,7 @@
    {
     "level": 15,
     "hp": 138,
-    "features": 24,
+    "features": 27,
     "new": [
      "Timeless Body"
     ]
@@ -8178,7 +8211,7 @@
    {
     "level": 16,
     "hp": 147,
-    "features": 25,
+    "features": 28,
     "new": [
      "Color of Armament Master"
     ]
@@ -8186,7 +8219,7 @@
    {
     "level": 17,
     "hp": 156,
-    "features": 26,
+    "features": 29,
     "new": [
      "Signature Creations"
     ]
@@ -8194,7 +8227,7 @@
    {
     "level": 18,
     "hp": 165,
-    "features": 27,
+    "features": 30,
     "new": [
      "Immortal Will"
     ]
@@ -8202,13 +8235,13 @@
    {
     "level": 19,
     "hp": 193,
-    "features": 27,
+    "features": 30,
     "new": []
    },
    {
     "level": 20,
     "hp": 203,
-    "features": 28,
+    "features": 31,
     "new": [
      "Endless Spirit"
     ]
@@ -8223,16 +8256,19 @@
    {
     "level": 2,
     "hp": 17,
-    "features": 6,
+    "features": 9,
     "new": [
      "Spirit",
+     "Flurry of Blows",
+     "Patient Defense",
+     "Deft Escape",
      "Unarmored Movement"
     ]
    },
    {
     "level": 3,
     "hp": 24,
-    "features": 8,
+    "features": 11,
     "new": [
      "Deflect Missiles",
      "Palm Strikes"
@@ -8241,7 +8277,7 @@
    {
     "level": 4,
     "hp": 31,
-    "features": 9,
+    "features": 12,
     "new": [
      "Brace for Impact"
     ]
@@ -8249,7 +8285,7 @@
    {
     "level": 5,
     "hp": 38,
-    "features": 11,
+    "features": 14,
     "new": [
      "Extra Attack",
      "Stunning Strike"
@@ -8258,7 +8294,7 @@
    {
     "level": 6,
     "hp": 45,
-    "features": 12,
+    "features": 15,
     "new": [
      "Purity of the Body"
     ]
@@ -8266,7 +8302,7 @@
    {
     "level": 7,
     "hp": 52,
-    "features": 14,
+    "features": 17,
     "new": [
      "Evasion",
      "Shake it Off"
@@ -8275,7 +8311,7 @@
    {
     "level": 8,
     "hp": 67,
-    "features": 15,
+    "features": 18,
     "new": [
      "Color of Armament Novice"
     ]
@@ -8283,7 +8319,7 @@
    {
     "level": 9,
     "hp": 75,
-    "features": 16,
+    "features": 19,
     "new": [
      "Unarmored Movement Improvement"
     ]
@@ -8291,7 +8327,7 @@
    {
     "level": 10,
     "hp": 83,
-    "features": 17,
+    "features": 20,
     "new": [
      "Color of Armament Apprentice"
     ]
@@ -8299,7 +8335,7 @@
    {
     "level": 11,
     "hp": 91,
-    "features": 18,
+    "features": 21,
     "new": [
      "Tranquility"
     ]
@@ -8307,7 +8343,7 @@
    {
     "level": 12,
     "hp": 111,
-    "features": 19,
+    "features": 22,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -8315,7 +8351,7 @@
    {
     "level": 13,
     "hp": 120,
-    "features": 20,
+    "features": 23,
     "new": [
      "Animal Spirit"
     ]
@@ -8323,7 +8359,7 @@
    {
     "level": 14,
     "hp": 129,
-    "features": 22,
+    "features": 25,
     "new": [
      "Diamond Soul",
      "Color of Armament Adept"
@@ -8332,7 +8368,7 @@
    {
     "level": 15,
     "hp": 138,
-    "features": 23,
+    "features": 26,
     "new": [
      "Timeless Body"
     ]
@@ -8340,7 +8376,7 @@
    {
     "level": 16,
     "hp": 147,
-    "features": 24,
+    "features": 27,
     "new": [
      "Color of Armament Master"
     ]
@@ -8348,7 +8384,7 @@
    {
     "level": 17,
     "hp": 156,
-    "features": 25,
+    "features": 28,
     "new": [
      "The Open Hand"
     ]
@@ -8356,7 +8392,7 @@
    {
     "level": 18,
     "hp": 165,
-    "features": 26,
+    "features": 29,
     "new": [
      "Immortal Will"
     ]
@@ -8364,13 +8400,13 @@
    {
     "level": 19,
     "hp": 193,
-    "features": 26,
+    "features": 29,
     "new": []
    },
    {
     "level": 20,
     "hp": 203,
-    "features": 27,
+    "features": 30,
     "new": [
      "Endless Spirit"
     ]
@@ -8385,16 +8421,19 @@
    {
     "level": 2,
     "hp": 17,
-    "features": 6,
+    "features": 9,
     "new": [
      "Spirit",
+     "Flurry of Blows",
+     "Patient Defense",
+     "Deft Escape",
      "Unarmored Movement"
     ]
    },
    {
     "level": 3,
     "hp": 24,
-    "features": 9,
+    "features": 12,
     "new": [
      "Deflect Missiles",
      "Well Versed Scholar",
@@ -8404,7 +8443,7 @@
    {
     "level": 4,
     "hp": 31,
-    "features": 10,
+    "features": 13,
     "new": [
      "Brace for Impact"
     ]
@@ -8412,7 +8451,7 @@
    {
     "level": 5,
     "hp": 38,
-    "features": 12,
+    "features": 15,
     "new": [
      "Extra Attack",
      "Stunning Strike"
@@ -8421,7 +8460,7 @@
    {
     "level": 6,
     "hp": 45,
-    "features": 13,
+    "features": 16,
     "new": [
      "Reactive Spirit"
     ]
@@ -8429,7 +8468,7 @@
    {
     "level": 7,
     "hp": 52,
-    "features": 15,
+    "features": 18,
     "new": [
      "Evasion",
      "Shake it Off"
@@ -8438,7 +8477,7 @@
    {
     "level": 8,
     "hp": 67,
-    "features": 16,
+    "features": 19,
     "new": [
      "Color of Armament Novice"
     ]
@@ -8446,7 +8485,7 @@
    {
     "level": 9,
     "hp": 75,
-    "features": 17,
+    "features": 20,
     "new": [
      "Unarmored Movement Improvement"
     ]
@@ -8454,7 +8493,7 @@
    {
     "level": 10,
     "hp": 83,
-    "features": 18,
+    "features": 21,
     "new": [
      "Color of Armament Apprentice"
     ]
@@ -8462,7 +8501,7 @@
    {
     "level": 11,
     "hp": 91,
-    "features": 19,
+    "features": 22,
     "new": [
      "Achilles Heel"
     ]
@@ -8470,7 +8509,7 @@
    {
     "level": 12,
     "hp": 111,
-    "features": 20,
+    "features": 23,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -8478,7 +8517,7 @@
    {
     "level": 13,
     "hp": 120,
-    "features": 21,
+    "features": 24,
     "new": [
      "Animal Spirit"
     ]
@@ -8486,7 +8525,7 @@
    {
     "level": 14,
     "hp": 129,
-    "features": 23,
+    "features": 26,
     "new": [
      "Diamond Soul",
      "Color of Armament Adept"
@@ -8495,7 +8534,7 @@
    {
     "level": 15,
     "hp": 138,
-    "features": 24,
+    "features": 27,
     "new": [
      "Timeless Body"
     ]
@@ -8503,7 +8542,7 @@
    {
     "level": 16,
     "hp": 147,
-    "features": 25,
+    "features": 28,
     "new": [
      "Color of Armament Master"
     ]
@@ -8511,7 +8550,7 @@
    {
     "level": 17,
     "hp": 156,
-    "features": 26,
+    "features": 29,
     "new": [
      "Prime Operative"
     ]
@@ -8519,7 +8558,7 @@
    {
     "level": 18,
     "hp": 165,
-    "features": 27,
+    "features": 30,
     "new": [
      "Immortal Will"
     ]
@@ -8527,13 +8566,13 @@
    {
     "level": 19,
     "hp": 193,
-    "features": 27,
+    "features": 30,
     "new": []
    },
    {
     "level": 20,
     "hp": 203,
-    "features": 28,
+    "features": 31,
     "new": [
      "Endless Spirit"
     ]
@@ -8548,16 +8587,19 @@
    {
     "level": 2,
     "hp": 17,
-    "features": 6,
+    "features": 9,
     "new": [
      "Spirit",
+     "Flurry of Blows",
+     "Patient Defense",
+     "Deft Escape",
      "Unarmored Movement"
     ]
    },
    {
     "level": 3,
     "hp": 24,
-    "features": 9,
+    "features": 12,
     "new": [
      "Deflect Missiles",
      "Sumo Stance",
@@ -8567,7 +8609,7 @@
    {
     "level": 4,
     "hp": 31,
-    "features": 10,
+    "features": 13,
     "new": [
      "Brace for Impact"
     ]
@@ -8575,7 +8617,7 @@
    {
     "level": 5,
     "hp": 38,
-    "features": 12,
+    "features": 15,
     "new": [
      "Extra Attack",
      "Stunning Strike"
@@ -8584,7 +8626,7 @@
    {
     "level": 6,
     "hp": 45,
-    "features": 13,
+    "features": 16,
     "new": [
      "Surface Pressure"
     ]
@@ -8592,7 +8634,7 @@
    {
     "level": 7,
     "hp": 52,
-    "features": 15,
+    "features": 18,
     "new": [
      "Evasion",
      "Shake it Off"
@@ -8601,7 +8643,7 @@
    {
     "level": 8,
     "hp": 67,
-    "features": 16,
+    "features": 19,
     "new": [
      "Color of Armament Novice"
     ]
@@ -8609,7 +8651,7 @@
    {
     "level": 9,
     "hp": 75,
-    "features": 17,
+    "features": 20,
     "new": [
      "Unarmored Movement Improvement"
     ]
@@ -8617,7 +8659,7 @@
    {
     "level": 10,
     "hp": 83,
-    "features": 18,
+    "features": 21,
     "new": [
      "Color of Armament Apprentice"
     ]
@@ -8625,7 +8667,7 @@
    {
     "level": 11,
     "hp": 91,
-    "features": 19,
+    "features": 22,
     "new": [
      "Savage Slam"
     ]
@@ -8633,7 +8675,7 @@
    {
     "level": 12,
     "hp": 111,
-    "features": 20,
+    "features": 23,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -8641,7 +8683,7 @@
    {
     "level": 13,
     "hp": 120,
-    "features": 21,
+    "features": 24,
     "new": [
      "Animal Spirit"
     ]
@@ -8649,7 +8691,7 @@
    {
     "level": 14,
     "hp": 129,
-    "features": 23,
+    "features": 26,
     "new": [
      "Diamond Soul",
      "Color of Armament Adept"
@@ -8658,7 +8700,7 @@
    {
     "level": 15,
     "hp": 138,
-    "features": 24,
+    "features": 27,
     "new": [
      "Timeless Body"
     ]
@@ -8666,7 +8708,7 @@
    {
     "level": 16,
     "hp": 147,
-    "features": 25,
+    "features": 28,
     "new": [
      "Color of Armament Master"
     ]
@@ -8674,7 +8716,7 @@
    {
     "level": 17,
     "hp": 156,
-    "features": 26,
+    "features": 29,
     "new": [
      "Unstoppable Titan"
     ]
@@ -8682,7 +8724,7 @@
    {
     "level": 18,
     "hp": 165,
-    "features": 27,
+    "features": 30,
     "new": [
      "Immortal Will"
     ]
@@ -8690,13 +8732,13 @@
    {
     "level": 19,
     "hp": 193,
-    "features": 27,
+    "features": 30,
     "new": []
    },
    {
     "level": 20,
     "hp": 203,
-    "features": 28,
+    "features": 31,
     "new": [
      "Endless Spirit"
     ]
@@ -8711,16 +8753,19 @@
    {
     "level": 2,
     "hp": 17,
-    "features": 6,
+    "features": 9,
     "new": [
      "Spirit",
+     "Flurry of Blows",
+     "Patient Defense",
+     "Deft Escape",
      "Unarmored Movement"
     ]
    },
    {
     "level": 3,
     "hp": 24,
-    "features": 9,
+    "features": 12,
     "new": [
      "Deflect Missiles",
      "Power Strike",
@@ -8730,7 +8775,7 @@
    {
     "level": 4,
     "hp": 31,
-    "features": 10,
+    "features": 13,
     "new": [
      "Brace for Impact"
     ]
@@ -8738,7 +8783,7 @@
    {
     "level": 5,
     "hp": 38,
-    "features": 12,
+    "features": 15,
     "new": [
      "Extra Attack",
      "Stunning Strike"
@@ -8747,7 +8792,7 @@
    {
     "level": 6,
     "hp": 45,
-    "features": 13,
+    "features": 16,
     "new": [
      "Tough As Nails"
     ]
@@ -8755,7 +8800,7 @@
    {
     "level": 7,
     "hp": 52,
-    "features": 15,
+    "features": 18,
     "new": [
      "Evasion",
      "Shake it Off"
@@ -8764,7 +8809,7 @@
    {
     "level": 8,
     "hp": 67,
-    "features": 16,
+    "features": 19,
     "new": [
      "Color of Armament Novice"
     ]
@@ -8772,7 +8817,7 @@
    {
     "level": 9,
     "hp": 75,
-    "features": 17,
+    "features": 20,
     "new": [
      "Unarmored Movement Improvement"
     ]
@@ -8780,7 +8825,7 @@
    {
     "level": 10,
     "hp": 83,
-    "features": 18,
+    "features": 21,
     "new": [
      "Color of Armament Apprentice"
     ]
@@ -8788,7 +8833,7 @@
    {
     "level": 11,
     "hp": 91,
-    "features": 19,
+    "features": 22,
     "new": [
      "Insurmountable Spirit"
     ]
@@ -8796,7 +8841,7 @@
    {
     "level": 12,
     "hp": 111,
-    "features": 20,
+    "features": 23,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -8804,7 +8849,7 @@
    {
     "level": 13,
     "hp": 120,
-    "features": 21,
+    "features": 24,
     "new": [
      "Animal Spirit"
     ]
@@ -8812,7 +8857,7 @@
    {
     "level": 14,
     "hp": 129,
-    "features": 23,
+    "features": 26,
     "new": [
      "Diamond Soul",
      "Color of Armament Adept"
@@ -8821,7 +8866,7 @@
    {
     "level": 15,
     "hp": 138,
-    "features": 24,
+    "features": 27,
     "new": [
      "Timeless Body"
     ]
@@ -8829,7 +8874,7 @@
    {
     "level": 16,
     "hp": 147,
-    "features": 25,
+    "features": 28,
     "new": [
      "Color of Armament Master"
     ]
@@ -8837,7 +8882,7 @@
    {
     "level": 17,
     "hp": 156,
-    "features": 26,
+    "features": 29,
     "new": [
      "Finishing Blow"
     ]
@@ -8845,7 +8890,7 @@
    {
     "level": 18,
     "hp": 165,
-    "features": 27,
+    "features": 30,
     "new": [
      "Immortal Will"
     ]
@@ -8853,13 +8898,13 @@
    {
     "level": 19,
     "hp": 193,
-    "features": 27,
+    "features": 30,
     "new": []
    },
    {
     "level": 20,
     "hp": 203,
-    "features": 28,
+    "features": 31,
     "new": [
      "Endless Spirit"
     ]
@@ -8874,16 +8919,19 @@
    {
     "level": 2,
     "hp": 17,
-    "features": 6,
+    "features": 9,
     "new": [
      "Spirit",
+     "Flurry of Blows",
+     "Patient Defense",
+     "Deft Escape",
      "Unarmored Movement"
     ]
    },
    {
     "level": 3,
     "hp": 24,
-    "features": 8,
+    "features": 11,
     "new": [
      "Deflect Missiles",
      "Spirit Fist"
@@ -8892,7 +8940,7 @@
    {
     "level": 4,
     "hp": 31,
-    "features": 9,
+    "features": 12,
     "new": [
      "Brace for Impact"
     ]
@@ -8900,7 +8948,7 @@
    {
     "level": 5,
     "hp": 38,
-    "features": 11,
+    "features": 14,
     "new": [
      "Extra Attack",
      "Stunning Strike"
@@ -8909,7 +8957,7 @@
    {
     "level": 6,
     "hp": 45,
-    "features": 12,
+    "features": 15,
     "new": [
      "Spirit Unleashed"
     ]
@@ -8917,7 +8965,7 @@
    {
     "level": 7,
     "hp": 52,
-    "features": 14,
+    "features": 17,
     "new": [
      "Evasion",
      "Shake it Off"
@@ -8926,7 +8974,7 @@
    {
     "level": 8,
     "hp": 67,
-    "features": 15,
+    "features": 18,
     "new": [
      "Color of Armament Novice"
     ]
@@ -8934,7 +8982,7 @@
    {
     "level": 9,
     "hp": 75,
-    "features": 16,
+    "features": 19,
     "new": [
      "Unarmored Movement Improvement"
     ]
@@ -8942,7 +8990,7 @@
    {
     "level": 10,
     "hp": 83,
-    "features": 17,
+    "features": 20,
     "new": [
      "Color of Armament Apprentice"
     ]
@@ -8950,7 +8998,7 @@
    {
     "level": 11,
     "hp": 91,
-    "features": 18,
+    "features": 21,
     "new": [
      "Chromatic Aura"
     ]
@@ -8958,7 +9006,7 @@
    {
     "level": 12,
     "hp": 111,
-    "features": 19,
+    "features": 22,
     "new": [
      "Color of Armament Journeyman"
     ]
@@ -8966,7 +9014,7 @@
    {
     "level": 13,
     "hp": 120,
-    "features": 20,
+    "features": 23,
     "new": [
      "Animal Spirit"
     ]
@@ -8974,7 +9022,7 @@
    {
     "level": 14,
     "hp": 129,
-    "features": 22,
+    "features": 25,
     "new": [
      "Diamond Soul",
      "Color of Armament Adept"
@@ -8983,7 +9031,7 @@
    {
     "level": 15,
     "hp": 138,
-    "features": 23,
+    "features": 26,
     "new": [
      "Timeless Body"
     ]
@@ -8991,7 +9039,7 @@
    {
     "level": 16,
     "hp": 147,
-    "features": 24,
+    "features": 27,
     "new": [
      "Color of Armament Master"
     ]
@@ -8999,7 +9047,7 @@
    {
     "level": 17,
     "hp": 156,
-    "features": 25,
+    "features": 28,
     "new": [
      "Ascendant Aspect"
     ]
@@ -9007,7 +9055,7 @@
    {
     "level": 18,
     "hp": 165,
-    "features": 26,
+    "features": 29,
     "new": [
      "Immortal Will"
     ]
@@ -9015,13 +9063,13 @@
    {
     "level": 19,
     "hp": 193,
-    "features": 26,
+    "features": 29,
     "new": []
    },
    {
     "level": 20,
     "hp": 203,
-    "features": 27,
+    "features": 30,
     "new": [
      "Endless Spirit"
     ]

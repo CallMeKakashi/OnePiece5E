@@ -40,7 +40,7 @@ function feat(idPath: string, name: string, level: number, description: string, 
 
 export const fightingStyle = feat(
   "feature/barbarian/blade-master/fighting-style", "Fighting Style", 3,
-  `<p>Starting when you choose this path at 3rd level, you learn how to properly wield your weapon of choice. Choose a fighting style from the Blademaster Barbarian Styles section. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>
+  `<p>Starting when you choose this path at 3rd level, you learn how to properly wield your weapon of choice. Choose a fighting style from the Chapter 5 in the Blademaster Barbarian Styles section. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>
 <p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to Blademaster Barbarians.</p>`,
 );
 
@@ -120,7 +120,7 @@ export const subclass: SubclassItem = {
   type: "subclass",
   img: "icons/svg/item-bag.svg",
   system: {
-    description: { value: `<p>The rage of a blade master is not the mad screams of a berserker or the primal howls of a totem warrior, but a silent, merciless and deadly intent that suffuses their blades like an aura. Blade masters draw on their rage like other barbarians, but they wield it like another blade rather than give in to it, unleashing the full power of their fury without losing sight of their goal.</p>`, chat: "" },
+    description: { value: `<p>The rage of a blade master is not the mad screams of a berserker or the primal howls of a totem warrior, but a silent, merciless and deadly intent that suffuses their blades like an aura. Blade masters draw on their rage like other barbarians, but they wield it like another blade rather than give in to it, unleashing the full power of their fury without losing sight of their goal. While swords are the most popular weapon for these barbarians, they are not restricted to such weapons alone. The philosophy behind their power can be applied to any melee weapon of their choice.</p>`, chat: "" },
     source: { book: "OP5e", page: "", custom: "", license: "" },
     identifier: "blade-master",
     classIdentifier: "barbarian",

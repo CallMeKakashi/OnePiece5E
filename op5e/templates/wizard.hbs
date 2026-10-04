@@ -66,6 +66,7 @@
         </label>
       {{/each}}
     </div>
+    <p class="op5e-cc__hint">Party Diversity (Appendix B, Suggested Rulings): a party should not double up on the same species, most of all rare ones such as minks. {{#if partySpecies.length}}Already used by other players: <strong>{{#each partySpecies}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}</strong>.{{else}}No other player's character uses a species yet.{{/if}} This is a suggestion only.</p>
     {{#if speciesRacialFeats.length}}
       <h4 class="op5e-cc__subhead">Racial features</h4>
       <ul class="op5e-cc__feat-list">
@@ -77,6 +78,65 @@
         {{/each}}
       </ul>
     {{/if}}
+
+    <fieldset class="op5e-cc__class">
+      <legend>Hybrid (DM approval) — optional</legend>
+      <div class="op5e-cc__row">
+        <label>Hybrid</label>
+        <select name="hybridMode">
+          <option value="" {{#unless draft.data.hybridMode}}selected{{/unless}}>None</option>
+          <option value="appearance" {{#if hybridIsAppearance}}selected{{/if}}>Appearance only</option>
+          <option value="traits" {{#if hybridIsTraits}}selected{{/if}}>Combine traits</option>
+        </select>
+      </div>
+      {{#if hybridIsAppearance}}
+        <div class="op5e-cc__row">
+          <label>Appearance note</label>
+          <textarea name="hybridNote" rows="2" placeholder="e.g. human-mink: you are a mink who also looks human">{{draft.data.hybridNote}}</textarea>
+        </div>
+      {{/if}}
+      {{#if hybridIsTraits}}
+        <div class="op5e-cc__row">
+          <label>Second species</label>
+          <select name="hybridSpeciesId">
+            <option value="">— Choose —</option>
+            {{#each hybridSpecies}}
+              <option value="{{_id}}" {{#if selected}}selected{{/if}}>{{name}}</option>
+            {{/each}}
+          </select>
+        </div>
+        {{#if hybridFeats.length}}
+          <ul class="op5e-cc__feat-list">
+            {{#each hybridFeats}}
+              <li class="op5e-cc__feat">
+                <label><input type="checkbox" name="hybridFeat.{{_id}}" {{#if checked}}checked{{/if}} /> {{name}} <em>({{requirements}})</em></label>
+              </li>
+            {{/each}}
+          </ul>
+        {{/if}}
+        <div class="op5e-cc__row">
+          <label>Note</label>
+          <textarea name="hybridNote" rows="2" placeholder="Optional note for the biography">{{draft.data.hybridNote}}</textarea>
+        </div>
+      {{/if}}
+      <p class="op5e-cc__hint">Sourcebook, Appendix B, Suggested Rulings, Hybrid Races: either be mechanically one species while appearing as a hybrid (no mechanics change), or combine some racial traits but not all, for balance (a Longlimb Human takes Long Limbs and Tall Stride, not Sudden Reach or Sprint). The book gives no count, so choose with your DM.</p>
+    </fieldset>
+  {{/if}}
+
+  {{#if (eq step "dream")}}
+    <div class="op5e-cc__row">
+      <label>Dream</label>
+      <textarea name="dream" rows="4" placeholder="Your ultimate goal, something you would risk your life for">{{draft.data.dream}}</textarea>
+    </div>
+    <p class="op5e-cc__hint">Everyone has a dream (Sourcebook, Character Origins, Dreams): a unique end goal that defines you. Pick a suggestion or write your own with your DM.</p>
+    {{#each dreams}}
+      <h4 class="op5e-cc__subhead">Suggestions: {{role}}</h4>
+      <ul class="op5e-cc__feat-list">
+        {{#each dreams}}
+          <li class="op5e-cc__feat"><button type="button" data-action="useDream" data-dream="{{this}}">Use</button> <span>{{this}}</span></li>
+        {{/each}}
+      </ul>
+    {{/each}}
   {{/if}}
 
   {{#if (eq step "background")}}
@@ -119,7 +179,18 @@
         </div>
       </fieldset>
     {{/each}}
-    <p class="op5e-cc__hint">Total level: <strong>{{totalLevel}}</strong> / 20. The book has no multiclass rules; a second class needs DM approval. The character is created at level 1, then levelled one level at a time.</p>
+    <p class="op5e-cc__hint">Party Diversity (Appendix B, Suggested Rulings): avoid doubling up on classes (Fighters are the exception, their subclasses and fighting styles vary widely). {{#if partyClasses.length}}Already used by other players: <strong>{{#each partyClasses}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}</strong>.{{else}}No other player's character uses a class yet.{{/if}} This is a suggestion only.</p>
+    <p class="op5e-cc__hint">Starting Rules (Appendix B, Suggested Rulings): start at 3rd level, with subclass features, and take one free starting feat in addition to role and background feats. Starting at level 1 is allowed if your DM wishes.</p>
+    <div class="op5e-cc__row">
+      <label>Free starting feat</label>
+      <select name="freeFeatId">
+        <option value="">— None —</option>
+        {{#each freeFeats}}
+          <option value="{{_id}}" {{#if selected}}selected{{/if}}>{{name}}{{#if requirements}} ({{requirements}}){{/if}}</option>
+        {{/each}}
+      </select>
+    </div>
+    <p class="op5e-cc__hint">Total level: <strong>{{totalLevel}}</strong> / 20. The book has no multiclass rules; it suggests Story-Classing instead (Appendix B, Suggested Rulings, Story-Classing): learn abilities through play, separate from your class, instead of multiclassing. A second class here is optional and needs DM approval. The character is created at level 1, then levelled one level at a time.</p>
     <div class="op5e-cc__row">
       <label>Hit points per level</label>
       <select name="hpMode">
@@ -131,7 +202,7 @@
       <label>Auto-apply default choices (testing)</label>
       <input type="checkbox" name="autoApply" {{#if draft.data.autoApply}}checked{{/if}} />
     </div>
-    <p class="op5e-cc__hint">Rolled hit points apply to automatic application only; the manual level-up dialog offers its own Roll button.</p>
+    <p class="op5e-cc__hint">Rolling Hit Points ruling (Sourcebook, Appendix B, Suggested Rulings): roll the hit die, but never take less than the average. Rolled hit points apply to automatic application only; the manual level-up dialog offers its own Roll button.</p>
   {{/if}}
 
   {{#if (eq step "abilities")}}
@@ -162,7 +233,7 @@
 
     <p class="op5e-cc__hint">
       {{#if (eq draft.data.abilityMethod "ursa")}}
-        Ursa Array: assign exactly 16, 16, 14, 12, 12, 8 {{#if abilitiesOk}}(valid){{else}}(not yet a permutation){{/if}}. Racial and feat bonuses come on top.
+        Ursa Array (Sourcebook, Appendix B, Suggested Rulings, Ursa Array): assign exactly 16, 16, 14, 12, 12, 8 {{#if abilitiesOk}}(valid){{else}}(not yet a permutation){{/if}}. Racial and feat bonuses come on top.
       {{else}}
         Point-buy: spent <strong>{{pointBuy.spent}}</strong> / {{pointBuy.total}}
         {{#if pointBuy.valid}}(valid){{else}}(must equal 27){{/if}}
@@ -177,8 +248,10 @@
         <li><strong>Name:</strong> {{draft.data.name}}</li>
         <li><strong>Species:</strong> {{draft.data.speciesId}}</li>
         <li><strong>Background:</strong> {{draft.data.backgroundId}}</li>
+        <li><strong>Dream:</strong> {{draft.data.dream}}</li>
         <li><strong>Class:</strong> {{draft.data.classId}} (level {{draft.data.level}})</li>
         {{#if draft.data.classId2}}<li><strong>Second class:</strong> {{draft.data.classId2}} (level {{draft.data.level2}})</li>{{/if}}
+        {{#if draft.data.freeFeatId}}<li><strong>Free starting feat:</strong> {{draft.data.freeFeatId}}</li>{{/if}}
         <li><strong>Total level:</strong> {{totalLevel}}</li>
       </ul>
       <p class="op5e-cc__hint">Click Finish to create the actor; advancements and starting equipment are applied automatically.</p>

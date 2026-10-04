@@ -20,7 +20,7 @@ const ROOT = join(__dirname, "..");
 const DIST = join(ROOT, "dist");
 const MODULE_ID = "op5e";
 
-const INCLUDE = ["module.json", "scripts", "data/generated", "lang", "packs", "templates", "styles"];
+const INCLUDE = ["module.json", "scripts", "data/generated", "lang", "packs", "templates", "styles", "assets"];
 
 function normalizeVersionFromTag(tag) {
   if (!tag) return undefined;
@@ -144,7 +144,7 @@ async function main() {
   }
   writeFileSync(join(DIST, "module.json"), manifestJson);
 
-  for (const dir of ["scripts", "lang", "packs", "templates", "styles"]) {
+  for (const dir of ["scripts", "lang", "packs", "templates", "styles", "assets"]) {
     const src = join(ROOT, dir);
     if (existsSync(src)) {
       cpSync(src, join(DIST, dir), { recursive: true });

@@ -48,8 +48,8 @@ export const channelConvictionCold = feat(
   "feature/savant/cold-indifference/channel-conviction", "Channel Conviction: Cold Indifference", 3,
   `<p>At 3rd level, you gain the following two Channel Conviction options:</p>
 <ul>
-<li><strong>Manifest Soul.</strong> As a bonus action, you can manifest the element of your soul around a weapon. For 1 minute, your weapon attacks that deal cold damage reduce the target's AC by 2 and halve their speed. This effect doesn't stack. The target can spend their action to end the effect.</li>
-<li><strong>Touch of Winter.</strong> As an action, you can instantly freeze the surrounding area. The area within 20 feet of you becomes difficult terrain for creatures other than you as jagged ice spreads across it. If you touch a body of water, you instantly freeze the surface and as deep as 10 feet. The ice remains for 1 minute.</li>
+<li><strong>Manifest Soul.</strong> As a bonus action, you can manifest the element of your soul around a weapon. A limb used for unarmed strikes is a viable option. For 1 minute, your weapon attacks that deal cold damage reduces the target's AC by 2, and halves their speed. This effect doesn't stack. The target can spend their action to end the effect, or if another creature spends their action to also end the effect. You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</li>
+<li><strong>Touch of Winter.</strong> As an action, you can use your Channel Conviction to instantly freeze the surrounding area. The area within 20 feet of you becomes difficult terrain for creatures other than you as jagged ice spreads across it. If you touch a body of water, you instantly freeze the surface and as deep as 10 feet of the water. Any creature occupying this space is pushed to the nearest unfrozen square. The ice remains for 1 minute until it thaws.</li>
 </ul>`,
   { uses: { value: null, max: "1", per: "sr", recovery: "", prompt: true } },
 );

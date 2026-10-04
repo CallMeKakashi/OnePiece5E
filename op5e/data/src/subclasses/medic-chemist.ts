@@ -41,16 +41,19 @@ function feat(idPath: string, name: string, level: number, description: string, 
 
 export const experimentalOoze = feat(
   "feature/medic/chemist/experimental-ooze", "Experimental Ooze", 2,
-  `<p>At 2nd level, you've redesigned the formula for your Experimental Medicine, allowing you to create a form of life from it instead of empowering yourself. As an action, you expend one use of Experimental Medicine to summon an Experimental Ooze instead of gaining any enhancements.</p>
-<p>When you summon the ooze, choose one damage type from the table below. Your ooze will gain abilities specific to that option:</p>
-<ul>
-<li><strong>Acid.</strong> When the ooze deals damage with its Pseudopod attack, it regains hit points equal to half the damage dealt.</li>
-<li><strong>Cold.</strong> When the ooze hits a creature with its Pseudopod attack, the target becomes grappled (escape DC equal to your creation save DC).</li>
-<li><strong>Fire.</strong> Any creature that hits the ooze with a melee attack within 5ft takes 1d8 fire damage.</li>
-<li><strong>Poison.</strong> When the ooze hits a creature, it must make a Constitution saving throw or become poisoned until the end of their next turn.</li>
-<li><strong>Lightning.</strong> The ooze's movement speed increases by 20ft and doesn't provoke opportunity attacks.</li>
-</ul>
-<p>The ooze manifests for 1 hour, until it is reduced to 0 hit points, until you use this feature again, until you die, or if you dismiss it.</p>`,
+  `<p>At 2nd level, you've redesigned the formula for your Experimental Medicine, allowing you to create a form of life from it instead of empowering yourself.</p>
+<p>As an action, you expend one use of Experimental Medicine to summon an Experimental Ooze instead of gaining any enhancements. When you summon the ooze, choose one of the damage types on the table below. Your ooze will gain abilities specific to that option so long as the ooze is active.</p>
+<table><thead><tr><th>Type</th><th>Bonuses</th></tr></thead><tbody>
+<tr><td>Acid</td><td>When the ooze deals damage to a creature with its Pseudopod attack, it regains a number of hit points equal to half the damage it deals.</td></tr>
+<tr><td>Cold</td><td>When the ooze hits a creature with its Pseudopod attack, the target becomes grappled by it (escape DC equal to your creation save DC).</td></tr>
+<tr><td>Fire</td><td>Any creature that hits the ooze with a melee attack within 5ft of it takes 1d8 fire damage.</td></tr>
+<tr><td>Poison</td><td>When the ooze hits a creature with either its Pseudopod or its Glob attack, the creature must make a Constitution saving throw against your creation save DC or become poisoned until the end of their next turn.</td></tr>
+<tr><td>Lightning</td><td>The ooze's movement speed increases by 20ft and doesn't provoke opportunity attacks.</td></tr>
+</tbody></table>
+<p>The ooze appears in an unoccupied space of your choice that you can see within 30 feet of you. Each creature within 10 feet of the ooze (other than you) when it appears must succeed on a Dexterity saving throw against your creation save DC or take a number of d6s of damage equal to your proficiency bonus. The type of damage it deals is the same as the type you chose when you summoned it.</p>
+<p>The ooze is friendly to you and your companions and obeys your commands. See this creature's game statistics in the Experimental Ooze stat block, which uses your proficiency bonus (PB) in several places. You determine the ooze's appearance. Some oozes look just like a featureless blob of colorful, viscous liquid, while others take on vaguely humanoid shapes.</p>
+<p>In combat, the ooze shares your initiative count. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the ooze can take any action of its choice, not just Dodge.</p>
+<p>The ooze manifests for 1 hour, until it is reduced to 0 hit points, until you use this feature to summon the ooze again, until you die, or if you dismiss it.</p>`,
   { activation: { type: "action", cost: 1, condition: "" } },
 );
 
@@ -62,14 +65,14 @@ export const chemicalReactions = feat(
 
 export const enhancedFormula = feat(
   "feature/medic/chemist/enhanced-formula", "Enhanced Formula", 10,
-  `<p>Beginning at 10th level, you have further improved the formulas used to create your ooze. When you summon your Experimental Ooze, you can choose to have it be Large in size, increasing its damage rolls.</p>
-<p>In addition, it gains additional benefits for each type of ooze:</p>
+  `<p>Beginning at 10th level, you have further improved the formulas used to create your ooze. When you summon your Experimental Ooze, you can choose to have it be Large in size, increasing the damage rolls for its Psuedopod and Glob attacks to 4d4 + proficiency bonus and 2d8 + proficiency bonus respectively.</p>
+<p>In addition, it gains additional benefits for each type of ooze as listed below:</p>
 <ul>
-<li><strong>Acid.</strong> The ooze has additional hit points equal to your level.</li>
-<li><strong>Cold.</strong> Creatures grappled by the ooze are now restrained and take 1d8 cold damage at the start of each of their turns.</li>
-<li><strong>Fire.</strong> When the ooze hits with its Pseudopod, the target must succeed a Constitution saving throw or become ignited for 1 minute (2d4 fire damage at start of each turn).</li>
-<li><strong>Poison.</strong> The ooze can use its action to touch a poisoned creature, ending the effect as it absorbs the poison.</li>
-<li><strong>Lightning.</strong> If the ooze moved 20ft before a Pseudopod attack, the target must succeed a Strength saving throw or become knocked prone.</li>
+<li><strong>Acid.</strong> The ooze has an additional amount of hit points equal to your level.</li>
+<li><strong>Cold.</strong> Creatures grappled by the ooze are now restrained. In addition, any creature grappled by the ooze takes 1d8 cold damage at the start of each of their turns.</li>
+<li><strong>Fire.</strong> When the ooze hits a creature with its Psuedopod attack, the target must succeed a Constitution saving throw or become ignited for 1 minute, repeating the saving throw at the end of each of their turns, ending the effect on a success. While ignited the creature takes 2d4 fire damage at the start of each of their turns.</li>
+<li><strong>Poison.</strong> The ooze can use its action to touch a creature being affected by a poison, ending the effect of the poison as they absorb it.</li>
+<li><strong>Lightning.</strong> If the ooze moved 20ft before making a Psuedopod attack, the target must succeed a Strength saving throw or become knocked prone if it is one size larger than the ooze or smaller.</li>
 </ul>`,
 );
 

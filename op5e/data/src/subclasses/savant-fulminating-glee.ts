@@ -48,8 +48,8 @@ export const channelConvictionGlee = feat(
   "feature/savant/fulminating-glee/channel-conviction", "Channel Conviction: Fulminating Glee", 3,
   `<p>At 3rd level, you gain the following two Channel Conviction options:</p>
 <ul>
-<li><strong>Manifest Soul.</strong> As a bonus action, you can manifest the element of your soul around a weapon. For 1 minute, your weapon attacks and creations that deal lightning damage can spread through enemies, as you have the choice to give them a damage spread of 5ft, DC spell save.</li>
-<li><strong>Schadenfreude.</strong> As a bonus action, you can use your Channel Conviction to begin a mocking tirade at a creature. The creature then has disadvantage on attack rolls against creatures other than you for 1 minute. You can use a bonus action on each turn to target a different creature.</li>
+<li><strong>Manifest Soul.</strong> As a bonus action, you can manifest the element of your soul around a weapon. A limb used for unarmed strikes is a viable option. For 1 minute, your weapon attacks and creations that deal lightning damage can spread through enemies, as you have the choice to give them a damage spread of 5ft, DC spell save. You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</li>
+<li><strong>Schadenfreude.</strong> As a bonus action, you can use your Channel Conviction to begin a mocking tirade at a creature. The creature then has disadvantage on attack rolls against creatures other than you for 1 minute. For 1 minute, you can use a bonus action on each of your turns to target a different creature with this feature, and when you do so this effect ends on the original creature.</li>
 </ul>`,
   { uses: { value: null, max: "1", per: "sr", recovery: "", prompt: true } },
 );

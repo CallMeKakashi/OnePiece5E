@@ -42,7 +42,8 @@ function feat(idPath: string, name: string, level: number, description: string, 
 export const periodicProficiency = feat(
   "feature/gadgeteer/alchemist/periodic-proficiency", "Periodic Proficiency", 3,
   `<p>When you adopt this specialization at 3rd level, you gain proficiency with alchemist's supplies. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice.</p>
-<p>In addition, you can choose to prepare creations and tricks from the Medic creation list. You must otherwise obey all the restrictions for selecting the creation, and it becomes a Gadgeteer creation for you.</p>`,
+<p>In addition, you can choose to prepare creations and tricks from the Medic creation list. You must otherwise obey all the restrictions for selecting the creation, and it becomes a Gadgeteer creation for you.</p>
+<p>When you gain the High Tech Development feature at 11th level and so on, you may also choose Medic creations for that ability.</p>`,
 );
 
 export const chemicalCocktail = feat(

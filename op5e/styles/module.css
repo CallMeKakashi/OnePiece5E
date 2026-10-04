@@ -212,3 +212,12 @@ button.danger {
   border-color: #8a2b2b;
 }
 
+
+.op5e-cc textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+.op5e-cc__feat button {
+  flex-shrink: 0;
+}

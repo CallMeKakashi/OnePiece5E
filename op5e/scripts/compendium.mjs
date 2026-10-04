@@ -3,6 +3,8 @@ import { applyOp5eCriticalDamage, looksLikeDamageRollConfig } from "./crit-damag
 import { MODULE_ID, MODULE_VERSION } from "./constants.mjs";
 import { registerOp5eFeatureHooks } from "./feature-hooks.mjs";
 import { registerOp5eEquipmentGrantHooks } from "./equipment-grant-advancement.mjs";
+import { initSkillsAndTools } from "./skills-and-tools.mjs";
+import { registerOptionalRules } from "./optional-rules.mjs";
 
 const DEFAULT_CURRENCY_PER_WEIGHT = { imperial: 50, metric: 110 };
 const WEIGHTLESS_CURRENCY_PER_WEIGHT = { imperial: 1_000_000, metric: 1_000_000 };
@@ -30,6 +32,8 @@ function applyBerriesEncumbrance(weightless) {
 
 Hooks.once("init", () => {
   applyBerriesCurrency();
+  initSkillsAndTools();
+  registerOptionalRules();
 
   game.settings.register(MODULE_ID, "berriesWeightless", {
     name: `${MODULE_ID}.settings.berriesWeightless.name`,

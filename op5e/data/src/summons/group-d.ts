@@ -4,7 +4,7 @@ import type { Spec } from "../../helpers/spec.js";
 // Class companions (Test Subject variants, Beastmaster beasts, Iron Defender) and Animate Objects. Sources: Sourcebook/Chapter 2 Classes/<name>/, Appendix A Creations.
 // Attack bonuses and DC come from the summoner ("your creation attack modifier"); HP/AC bonuses are set in the summon activity below.
 const e = (name: string, desc: string) => ({ name, desc });
-const SAME = [10, 10, 10, 10, 10, 10]; // Clone: "equal to yours" (set by hand after summoning)
+const SAME = [10, 10, 10, 10, 10, 10]; // Clone: "equal to yours" (placeholder: scripts/summon-clone.mjs copies the summoner's scores when summoned)
 const BOND = e("Primal Bond", "You can add your proficiency bonus to any ability check or saving throw that the beast makes.");
 const CATK = (name: string, reach: string, dmg: string, extra = "") => e(name, `Melee Weapon Attack: +0 to hit, ${reach}, one target. Hit: ${dmg}.${extra ? " " + extra : ""}`);
 const WIS_DMG = "1d8 + 0 bludgeoning, piercing, or slashing damage (your choice; add your Wisdom modifier)";

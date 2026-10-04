@@ -4,8 +4,11 @@ import {
   levelClassTo,
 } from "./apply-advancements.mjs";
 import { isValidPointBuy } from "./pointBuy.mjs";
+import { unmetPrerequisites } from "../prerequisites.mjs";
 
 const OP5E = "op5e";
+/** Appendix B, Suggested Rulings, Starting Rules: start at 3rd level (level 1 stays allowed). */
+export const DEFAULT_START_LEVEL = 3;
 
 export const PACKS = {
   species: `${OP5E}.races`,
@@ -41,9 +44,15 @@ export function defaultData() {
     tokenImg: "",
     speciesId: "",
     backgroundId: "",
+    dream: "", // Sourcebook, Dreams: every character has one; written to the biography and flags.op5e.dream
+    hybridMode: "", // "" | "appearance" | "traits" (Appendix B, Hybrid Races; DM approval)
+    hybridNote: "",
+    hybridSpeciesId: "",
+    hybridFeatIds: [],
     classId: "",
-    level: 1,
+    level: DEFAULT_START_LEVEL,
     subclassId: "",
+    freeFeatId: "", // Starting Rules: a free starting feat on top of role/background feats (op5e.feats, general feats)
     classId2: "",
     level2: 1,
     subclassId2: "",
@@ -59,6 +68,7 @@ export function withDefaults(data) {
   const base = defaultData();
   const out = { ...base, ...(data ?? {}) };
   out.abilities = { ...base.abilities, ...(data?.abilities ?? {}) };
+  if (!Array.isArray(out.hybridFeatIds)) out.hybridFeatIds = [];
   // drafts from before role/fruit/Haki became class advancement choices carry dead fields
   for (const k of ["roleFeatId", "fork", "haki"]) delete out[k];
   return out;
@@ -174,6 +184,7 @@ export async function createFromDraft(draft, opts = {}) {
     ]) {
       const doc = await importFromPackWithAdvancements(actor, pack, id, run);
       if (doc) imported.push(doc);
+      if (pack === PACKS.species) await importHybridFeatures(actor, data, run);
     }
 
     // Both classes enter at level 1 (class 1 first, so it is the starting class that grants starting equipment).
@@ -193,7 +204,51 @@ export async function createFromDraft(draft, opts = {}) {
       await levelClassTo(actor, c.item.id, c.level, { ...run, subUuid: c.sub?.uuid });
     }
 
+    if (data.freeFeatId) {
+      const feat = await game.packs.get(PACKS.feats)?.getDocument(data.freeFeatId);
+      const unmet = feat ? unmetPrerequisites(feat, actor) : [];
+      const mode = game.settings.get(OP5E, "prerequisiteMode");
+      if (!feat || feat.system?.type?.value !== "feat") {
+        await actor.delete().catch(() => {});
+        fail(`Free starting feat ${data.freeFeatId} is not a general feat from the op5e feats pack.`);
+      }
+      if (unmet.length && mode === "enforce") {
+        await actor.delete().catch(() => {}); // never leave a half-built character behind
+        fail(`${data.name} does not meet the requirements for the free starting feat ${feat.name}: ${unmet.join("; ")}. No character was created.`);
+      }
+      if (unmet.length) notes.push(`${feat.name}: unmet requirements (${unmet.join("; ")}) allowed by the prerequisite setting.`);
+      await importFromPackWithAdvancements(actor, PACKS.feats, data.freeFeatId, run);
+    }
+
     await applyStartingBeri(actor, imported);
+    await writeBiography(actor, data);
   }
   return actor;
+}
+
+/** Hybrid Races, "Combine traits": import the ticked racial features of the second species (never more than the player ticked). */
+async function importHybridFeatures(actor, data, run) {
+  if (data.hybridMode !== "traits" || !data.hybridSpeciesId || data.hybridSpeciesId === data.speciesId) return;
+  for (const id of data.hybridFeatIds) await importFromPackWithAdvancements(actor, PACKS.racialFeatures, id, run);
+}
+
+const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+/** Dream and hybrid notes go into the biography (as paragraphs); the dream is also stored in flags.op5e.dream. */
+async function writeBiography(actor, data) {
+  const paras = [];
+  const dream = String(data.dream ?? "").trim();
+  if (dream) paras.push(`<p><strong>Dream:</strong> ${esc(dream)}</p>`);
+  const note = String(data.hybridNote ?? "").trim();
+  if (data.hybridMode === "appearance" && note) paras.push(`<p><strong>Hybrid (appearance only):</strong> ${esc(note)}</p>`);
+  if (data.hybridMode === "traits" && data.hybridSpeciesId && data.hybridSpeciesId !== data.speciesId) {
+    const second = (await game.packs.get(PACKS.species)?.getDocument(data.hybridSpeciesId))?.name ?? "second species";
+    const idx = await game.packs.get(PACKS.racialFeatures)?.getIndex();
+    const names = data.hybridFeatIds.map((id) => idx?.get(id)?.name).filter(Boolean);
+    paras.push(`<p><strong>Hybrid (combined traits, ${esc(second)}):</strong> ${esc(names.join(", ") || "no features chosen")}${note ? `. ${esc(note)}` : ""}</p>`);
+  }
+  if (!paras.length) return;
+  const update = { "system.details.biography.value": `${actor.system.details?.biography?.value ?? ""}${paras.join("")}` };
+  if (dream) update["flags.op5e.dream"] = dream;
+  await actor.update(update);
 }

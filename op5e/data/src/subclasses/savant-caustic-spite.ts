@@ -48,8 +48,8 @@ export const channelConvictionCaustic = feat(
   "feature/savant/caustic-spite/channel-conviction", "Channel Conviction: Caustic Spite", 3,
   `<p>At 3rd level, you gain the following two Channel Conviction options:</p>
 <ul>
-<li><strong>Manifest Soul.</strong> As a bonus action, you can manifest the element of your soul around a weapon. For 1 minute, your weapon attacks and creations deal an extra 1d8 acid damage.</li>
-<li><strong>Spiteful Corrosion.</strong> When you deal acid damage to a creature, you can use Channel Conviction to create a sticky substance that lingers and corrodes their defenses. For 1 minute, the creature's armor class is reduced by -2. The creature can use an action to make a Strength check against your creation DC to scrape off the acid and end this effect.</li>
+<li><strong>Manifest Soul.</strong> As a bonus action, you can manifest the element of your soul around a weapon. A limb used for unarmed strikes is a viable option. For 1 minute, your weapon attacks and creations deal an extra 1d8 acid damage. You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</li>
+<li><strong>Spiteful Corrosion.</strong> When you deal acid damage to a creature, you can use Channel Conviction to create a sticky substance that lingers and corrodes their defenses. For 1 minute, the creature's armor class is reduced by -2. The creature can use an action on its turn to make a Strength check against your creation DC, and on a successful check, it manages to scrape off the acid and end this effect.</li>
 </ul>`,
   { uses: { value: null, max: "1", per: "sr", recovery: "", prompt: true } },
 );

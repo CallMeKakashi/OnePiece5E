@@ -40,9 +40,35 @@ function feat(idPath: string, name: string, level: number, description: string, 
 
 export const creativitySpellcasting = feat(
   "feature/barbarian/shattered-mind/creativity", "Creativity (Spellcasting)", 3,
-  `<p>At 3rd level, you augment your martial prowess with the ability to use creations. You have a notebook containing creations that show the first glimmerings of your true potential. See the medic creation list under "Gadgeteer Creations by Level".</p>
-<p>You know three tricks of your choice from the medic creations list. You learn additional medic tricks of your choice at higher levels.</p>
-<p>You prepare the list of medic creations that are available for you to cast. To do so, choose a number of medic creations from your notebook equal to your Intelligence modifier + half your Shattered Mind level rounded down (minimum of one creation).</p>
+  `<p>At 3rd level, you augment your martial prowess with the ability to use creations. You have a notebook containing creations that show the first glimmerings of your true potential. See the medic creation list under "Gadgeteer Creations by Level". (Creativity is synonymous with 5th edition Spellcasting. See "Casting a Spell" in the Player's Handbook for the general rules of Spellcasting in Dungeons and Dragons 5th edition).</p>
+<table>
+<thead><tr><th>Player Level</th><th>Tricks Known</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th></tr></thead>
+<tbody>
+<tr><td>3rd</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>4th</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>5th</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>6th</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>7th</td><td>3</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>8th</td><td>3</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>9th</td><td>3</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+<tr><td>10th</td><td>4</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+<tr><td>11th</td><td>4</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+<tr><td>12th</td><td>4</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+<tr><td>13th</td><td>4</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+<tr><td>14th</td><td>5</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+<tr><td>15th</td><td>5</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+<tr><td>16th</td><td>5</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+<tr><td>17th</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+<tr><td>18th</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+<tr><td>19th</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+<tr><td>20th</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+</tbody></table>
+<p><strong>Tricks (Cantrips).</strong> You know three tricks of your choice from the medic creations list. You learn additional medic tricks of your choice at higher levels, as shown in the Tricks Known column of the Shattered Mind table. At the end of a long rest, you can change one of the tricks you know for another from your creation list.</p>
+<p><strong>Preparing and Using Creations (Preparing and Casting Spells).</strong> The Shattered Mind table shows how many creation slots you have to use your medic creations of 1st Level and higher. You regain all expended creation slots when you finish a long rest.</p>
+<p>You prepare the list of medic creations that are available for you to cast. To do so, choose a number of medic creations from your notebook equal to your Intelligence modifier + half your Shattered Mind level rounded down (minimum of one creation). The creations must be of a level for which you have creation slots.</p>
+<p>For example, if you are a 5th-level Shattered Mind, you have four 1st-level and two 2nd-level creation slots. With a Intelligence of 14, your list of prepared creations can include four creations of 1st or 2nd level, in any combination. If you prepare the 1st-level creation Cure Wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the creation doesn't remove it from your list of prepared creations.</p>
+<p>You can change your list of prepared creations when you finish a long rest. Preparing a new list of medic creations requires time spent tinkering with your creation casting focuses: at least 1 minute per creation level for each creation on your list.</p>
+<p><strong>Creative Ability (Spellcasting Ability).</strong> Intelligence is your creative ability for your medic creations, as you learn through careful study and observation, trial and error. You use your Intelligence whenever a creation refers to your creative ability. In addition, you use your Intelligence modifier when setting the saving throw DC for the medic creations you cast and when making an attack roll with one.</p>
 <p><strong>Creation save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
 <p><strong>Creation Attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>`,
 );
@@ -62,7 +88,7 @@ export const shatteredDuality = feat(
 <li>Your size category increases by one size.</li>
 <li>You gain temporary hit points equal to your level + Constitution modifier.</li>
 <li>When you hit a creature with a melee weapon attack, you can overload your attack with a vile substance by expending a creation slot, dealing an extra 1d10 damage for each slot level. The damage type is your choice of acid, poison, or necrotic.</li>
-<li>If you start your turn with fewer hit points than half your hit point maximum (rounded down), you must succeed on a DC 8 Wisdom saving throw or move directly toward the nearest creature and use the Attack action against that creature.</li>
+<li>If you start your turn with fewer hit points than half your hit point maximum (rounded down), you must succeed on a DC 8 Wisdom saving throw or move directly toward the nearest creature and use the Attack action against that creature. If more than one creature is equally near to you, your target is randomly determined. After your attack either hits or misses, you regain control of yourself.</li>
 </ul>`,
 );
 
@@ -111,7 +137,7 @@ export const subclass: SubclassItem = {
   type: "subclass",
   img: "icons/svg/item-bag.svg",
   system: {
-    description: { value: `<p>They say some people can get lost in rage. That their very soul breaks, and their mind shatters like a piece of glass. Followers of the Shattered Mind are geniuses who have split their very essence, whether intentionally through experimentation, or through a series of unfortunate events.</p>`, chat: "" },
+    description: { value: `<p>They say some people can get lost in rage. That their very soul breaks, and their mind shatters like a piece of glass. Even the most brilliant of people find themselves broken, find themselves lost. Followers of the Shattered Mind are geniuses who have split their very essence, whether intentionally through experimentation, or through a series of unfortunate events.</p><p>When a mind splits, the two remaining identities split off and develop not just mentally, but even physically as well. These barbarians are often victims, victims of a cruel reality, or even victims of their own recklessness when it comes to playing god.</p>`, chat: "" },
     source: { book: "OP5e", page: "", custom: "", license: "" },
     identifier: "shattered-mind",
     classIdentifier: "barbarian",

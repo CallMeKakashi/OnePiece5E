@@ -13,5 +13,5 @@ if (process.argv.includes("--restore")) {
 }
 if (!existsSync(backup)) { mkdirSync(BAK, { recursive: true }); cpSync(installed, backup, { recursive: true }); console.log(`backed up ${ver} -> ${backup}`); }
 rmSync(installed, { recursive: true, force: true }); mkdirSync(installed);
-for (const f of ["module.json", "scripts", "data/generated", "lang", "packs", "templates", "styles"]) cpSync(join(ROOT, f), join(installed, f), { recursive: true });
+for (const f of ["module.json", "scripts", "data/generated", "lang", "packs", "templates", "styles", "assets"]) cpSync(join(ROOT, f), join(installed, f), { recursive: true });
 console.log("deployed op5e");

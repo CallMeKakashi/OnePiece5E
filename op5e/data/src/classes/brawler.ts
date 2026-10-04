@@ -1,4 +1,5 @@
 import type { ClassItem } from "../../schemas/class.js";
+import { spiritOptions } from "../automation/options.js";
 import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import {
@@ -103,6 +104,7 @@ export const brawler: ClassItem = {
       // --- Level 2: Spirit + Unarmored Movement ---
       createItemGrant(CLS, 2, [
         { uuid: featureUuid(spirit._id) },
+        ...spiritOptions.map((o) => ({ uuid: featureUuid(o._id) })),
         { uuid: featureUuid(unarmoredMovement._id) },
       ]),
 

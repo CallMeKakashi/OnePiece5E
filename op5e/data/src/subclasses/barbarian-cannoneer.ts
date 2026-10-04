@@ -40,7 +40,7 @@ function feat(idPath: string, name: string, level: number, description: string, 
 
 export const boomstick = feat(
   "feature/barbarian/cannoneer/boomstick", "Boomstick", 3,
-  `<p>At 3rd level, you've trained your body to withstand the recoil of smaller cannons. You gain proficiency with cannons and improvised weapons, and can now wield the swivel gun as a weapon, treating it as a ranged improvised weapon with the heavy and two-handed properties. While wielded in your hands, it has a range 60/240. While wielding a swivel gun in this way, you can choose to not have damage spread, as you assert firm control over your aim.</p>
+  `<p>At 3rd level, you've trained your body to withstand the recoil of smaller cannons. You gain proficiency with cannons and improvised weapons, and can now wield the swivel gun (Chapter 4) as a weapon, treating it as a ranged improvised weapon with the heavy and two-handed properties. While wielded in your hands, it has a range 60/240. While wielding a swivel gun in this way, you can choose to not have damage spread, as you assert firm control over your aim.</p>
 <p>You are proficient with all cannons and use your Strength modifier for the attack and damage rolls.</p>
 <p>Additionally, you benefit from Reckless Attack when making ranged attacks with swivel guns, and can add your bonus Rage damage to these attacks. Later when you gain your Brutal Critical feature, it applies to ranged attacks with swivel guns as well.</p>
 <p>You can also use the bulk of the cannon to strike at enemies in melee range. In this instance, the swivel gun acts as an improvised weapon that deals 2d6 bludgeoning damage on hit and has the heavy and two-handed properties.</p>

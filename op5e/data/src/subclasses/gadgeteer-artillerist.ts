@@ -46,12 +46,14 @@ export const artilleristToolProficiency = feat(
 
 export const mechanicalCannon = feat(
   "feature/gadgeteer/artillerist/mechanical-cannon", "Mechanical Cannon", 3,
-  `<p>Also at 3rd level, you've learned how to create a mechanical cannon. Using woodcarver's tools or smith's tools, you can take an action to create a Small or Tiny mechanical cannon in an unoccupied space on a horizontal surface within 5 feet of you. Once you create a cannon, you can't do so again until you finish a long rest or until you expend a creation slot to create one. You can have only one cannon at a time.</p>
-<p>The cannon has an AC of 18 and a number of hit points equal to five times your gadgeteer level. It is immune to poison damage and psychic damage. On each of your turns, you can take a bonus action to cause the cannon to activate if you are within 60 feet of it. As part of the same bonus action, you can direct the cannon to walk or climb up to 15 feet to an unoccupied space.</p>
+  `<p>Also at 3rd level, you've learned how to create a mechanical cannon. Using woodcarver's tools or smith's tools, you can take an action to create a Small or Tiny mechanical cannon in an unoccupied space on a horizontal surface within 5 feet of you. A Small mechanical cannon occupies its space, and a Tiny one can be held in one hand. Once you create a cannon, you can't do so again until you finish a long rest or until you expend a creation slot to create one. You can have only one cannon at a time and can't create one while your cannon is present.</p>
+<p>Regardless of size, the cannon has an AC of 18 and a number of hit points equal to five times your gadgeteer level. It is immune to poison damage and psychic damage. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). If the mending creation is cast on it, it regains 2d6 hit points. It disappears if it is reduced to 0 hit points or after 1 hour. You can dismiss it early as an action.</p>
+<p>When you create the cannon, you determine its appearance and whether it has legs. You also decide which type it is, choosing from the options on the Mechanical Cannons table.</p>
+<p>On each of your turns, you can take a bonus action to cause the cannon to activate if you are within 60 feet of it. As part of the same bonus action, you can direct the cannon to walk or climb up to 15 feet to an unoccupied space, provided it has legs.</p>
 <ul>
 <li><strong>Elemental Culverin.</strong> The cannon exhales energy in an adjacent 15-foot cone. Each creature in that area must make a Dexterity saving throw against your creation save DC, taking 3d8 damage of your choice (fire, cold, lightning, acid, thunder, or poison) on a failed save or half on a success.</li>
 <li><strong>Force Ballista.</strong> Make a ranged creation attack, originating from the cannon, at one creature or object within 120 feet. On a hit, the target takes 3d8 force damage and is pushed up to 5 feet away.</li>
-<li><strong>Protector.</strong> The cannon emits a burst of energy that grants itself and each creature of your choice within 20 feet of it temporary hit points equal to 1d8 + your Intelligence modifier.</li>
+<li><strong>Protector.</strong> The cannon emits a burst of energy that grants itself and each creature of your choice within 20 feet of it temporary hit points equal to 1d8 + your Intelligence modifier (minimum of +1).</li>
 </ul>`,
   { activation: { type: "action", cost: 1, condition: "" } },
 );

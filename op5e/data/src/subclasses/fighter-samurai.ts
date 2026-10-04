@@ -48,45 +48,50 @@ function feat(slug: string, name: string, desc: string, req: string): FeatureIte
 
 const fightingStances = feat(
   "fighting-stances", "Fighting Stances",
-  `<p>Starting at 3rd level, as a bonus action you can enter one of four fighting stances. Each stance lasts until you use a bonus action to switch stances, become incapacitated, or choose to end it (no action required). When you enter a stance, you gain temporary hit points equal to your fighter level.</p>
+  `<h4>Bonus Proficiency</h4>
+<p>When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: History, Insight, Performance, or Persuasion.</p>
+<h4>Fighting Stance</h4>
+<p>Starting at 3rd level, you learn a fighting stance, enhancing your combat abilities. As a bonus action on your turn, you adjust your posture and the way you hold your weapons, allowing you to anticipate your foe or strike true.</p>
 <ul>
-<li><strong>Earth Stance.</strong> You are rooted and immovable. You have advantage on saving throws against being knocked prone or moved against your will, and your melee weapon attacks deal an additional 1d4 damage.</li>
-<li><strong>Fire Stance.</strong> Your attacks burn with intensity. When you hit a creature with a weapon attack, the target takes an additional 1d6 fire damage.</li>
-<li><strong>Water Stance.</strong> You flow like water around your opponents. Your movement doesn't provoke opportunity attacks, and when a creature misses you with a melee attack, you can use your reaction to move 5 feet without provoking opportunity attacks.</li>
-<li><strong>Wind Stance.</strong> You move with the speed of the wind. Your walking speed increases by 10 feet, and you can take the Dash or Disengage action as a bonus action.</li>
-</ul>`,
+<li><strong>Earth.</strong> A defensive stance used to deflect blows. Holding your weapon low, you wait for your opponent to strike and leave an opening. Until the start of your next turn, your AC increases by 2. As a reaction, you can increase this bonus to 4. You may do this after the roll, but before your DM tells you whether the attack hits or misses.</li>
+<li><strong>Fire.</strong> This offensive posture raises the weapon high above the head, leaving the body exposed, but readying a powerful strike. You gain advantage on weapon attack rolls until the end of your turn.</li>
+<li><strong>Water.</strong> Traditionally the most basic, this middle-level stance is a balance between offense and defense and focuses on using your opponent's power against itself. Until the start of your next turn, when you are targeted by a melee weapon attack, you can use your reaction to make an attack against the creature.</li>
+<li><strong>Wind.</strong> By maneuvering your weapon sideways, you can move more quickly and parry blows more effectively. Your movement speed increases by 15 feet until the end of your turn. Additionally, you do not provoke opportunity attacks as part of this movement.</li>
+</ul>
+<p>Whenever you adopt a stance on your turn, you gain 5 temporary hit points. This increases to 10 and 15 temporary hit points at 10th and at 15th level.</p>
+<p>You can choose another one of these stances to learn at 7th, 10th, and 15th level. You can use this feature a number of times equal to 1 + your Wisdom modifier (minimum of 1), and you regain all expended uses of it when you finish a short or long rest.</p>`,
   "Samurai 3",
 );
 
 const elegantCourtier = feat(
   "elegant-courtier", "Elegant Courtier",
-  `<p>Starting at 7th level, your discipline and precision allow you to excel in social situations. You gain proficiency in one of the following skills of your choice: History, Insight, Performance, or Persuasion.</p>
-<p>Additionally, your Wisdom modifier is added to any Charisma check you make (minimum bonus of +1).</p>`,
+  `<p>Starting at 7th level, your discipline and attention to detail allow you to excel in social situations. Whenever you make a Charisma (Persuasion) check, you gain a bonus to the check equal to your Wisdom modifier (minimum of 1).</p>
+<p>Your self-control also causes you to gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).</p>`,
   "Samurai 7",
 );
 
 const tirelessSpirit = feat(
   "tireless-spirit", "Tireless Spirit",
-  `<p>Starting at 10th level, when you roll initiative and have no temporary hit points, you gain temporary hit points equal to your Wisdom modifier + your fighter level (minimum of 1).</p>`,
+  `<p>Starting at 10th level, when you roll initiative and have no uses of Second Wind remaining, you regain one use. Additionally, whenever you use Second Wind, you gain a bonus to the hit points restored equal to your Wisdom Modifier (minimum of 1).</p>`,
   "Samurai 10",
 );
 
 const stanceImprovements = feat(
   "stance-improvements", "Stance Improvements",
-  `<p>At 15th level, your fighting stances reach their perfected forms:</p>
+  `<p>Starting at 15th level, you learn how to combine stances, break out of them or simply use them more effectively.</p>
 <ul>
-<li><strong>Improved Earth Stance.</strong> Your melee attacks deal an additional 1d8 damage instead of 1d4, and you gain resistance to bludgeoning, piercing, and slashing damage while in this stance.</li>
-<li><strong>Improved Fire Stance.</strong> The additional fire damage increases to 2d6, and creatures you hit must succeed on a Constitution saving throw (DC = 8 + your proficiency bonus + your Strength or Dexterity modifier) or become ignited for 1 minute.</li>
-<li><strong>Improved Water Stance.</strong> You gain a swim speed equal to your walking speed, and when a creature misses you with a melee attack, you can make a melee weapon attack as a reaction.</li>
-<li><strong>Improved Wind Stance.</strong> Your walking speed increases by 20 feet instead of 10, and you can make one additional attack when you take the Attack action.</li>
-</ul>`,
+<li><strong>Earth.</strong> While in Earth Stance and subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to angle your weapon so you take no damage on a success and only half damage on a failed saving throw.</li>
+<li><strong>Fire.</strong> While in Fire stance, you can forgo the advantage on one of the attacks and make an extra weapon attack against that target instead, as part of the same action. You can do so no more than once per turn.</li>
+<li><strong>Water.</strong> When you make an attack as a reaction while in Water stance, you can make an additional attack with a melee weapon yourself as part of that reaction against that creature.</li>
+<li><strong>Wind.</strong> While in Wind Stance, you can take to the sky in short bursts. You have a flying speed equal to your current walking speed. You fall if you end your turn in the air and nothing else is holding you aloft.</li>
+</ul>
+<p>Additionally, while in a stance, you can suddenly change your posture again to surprise your foe. On your turn, you can expend another use of Fighting Stance to swap stances, no action required. When it's another creature's turn, this also uses your reaction. When you do so, you gain the temporary hit points as normal.</p>`,
   "Samurai 15",
 );
 
 const undyingDevotion = feat(
   "undying-devotion", "Undying Devotion",
-  `<p>At 18th level, your fighting spirit can delay death itself. If you take damage that reduces you to 0 hit points, you can use your reaction to delay falling unconscious, and you can immediately take an extra turn, interrupting the current turn. While you have 0 hit points during that extra turn, taking damage causes death saving throw failures as normal, and three death saving throw failures can still kill you. When the extra turn ends, you fall unconscious if you still have 0 hit points.</p>
-<p>Once you use this feature, you can't use it again until you finish a long rest.</p>`,
+  `<p>At 18th level, your devotion to your cause prevents you from dying outright, giving you the chance to continue fighting. When you're reduced to 0 hit points but not killed outright, you can choose to fall to 1 hit point instead. You can do this a number of times equal to your Constitution Modifier, or expend a use of your Fighting Stance. You regain all uses at the end of a long rest.</p>`,
   "Samurai 18",
 );
 
@@ -97,7 +102,7 @@ export const samurai: SubclassItem = {
   img: "icons/svg/item-bag.svg",
   system: {
     description: {
-      value: "<p>The Samurai is a fighter who draws on an implacable fighting spirit to overcome enemies. A Samurai's resolve is nearly unbreakable, and the enemies in a Samurai's path have two choices: yield or die fighting.</p>",
+      value: "<p>The Samurai can encompass any swordsman, but particularly the mythical samurai of Wano country. Becoming a disciplined master of the blade, able to adopt fighting stances that render them a difficult opponent to battle, allowing you can overcome the odds and strike down enemies.</p>",
       chat: "",
     },
     source: { book: "OP5e", page: "", custom: "", license: "" },

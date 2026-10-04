@@ -40,33 +40,37 @@ function feat(idPath: string, name: string, level: number, description: string, 
 
 export const decipherDeceit = feat(
   "feature/rogue/inquisitive/decipher-deceit", "Decipher Deceit", 3,
-  `<p>When you choose this archetype at 3rd level, you develop a talent for picking out lies. Whenever you make a Wisdom (Insight) or Intelligence (Investigation) check, you can treat a d20 roll of 11 or lower as a 12.</p>`,
+  `<p>Starting at 3rd level, you develop a keen ear for picking out lies. Whenever you make a Wisdom (Insight) or Intelligence (Investigation) check, treat a roll of 11 or lower on the d20 as a 12.</p><p>In addition, you can take the Search action as a bonus action.</p>`,
 );
 
 export const observeOpponent = feat(
   "feature/rogue/inquisitive/observe-opponent", "Observe Opponent", 3,
-  `<p>At 3rd level, as a bonus action, you can make a Wisdom (Insight) check against a creature you can see that isn't incapacitated, contested by the target's Charisma (Deception) check. If you succeed, you can use your Sneak Attack against that target even if you don't have advantage on the attack roll, but not if you have disadvantage on it. This benefit lasts for 1 minute or until you use this feature against a different target.</p>`,
+  `<p>At 3rd level, you gain the ability to decipher an opponent's tactics and develop a counter to them. As a bonus action, you make a Wisdom (Insight) check against a creature you can see that isn't incapacitated, contested by the target's Charisma (Deception) check. If you succeed, you can use your Sneak Attack against that target even if you don't have advantage on the attack roll, but not if you have disadvantage on it.</p><p>This benefit lasts for 1 minute or until you successfully use this feature against a different target.</p>`,
   { activation: { type: "bonus", cost: 1, condition: "" } },
 );
 
 export const interrogationTactics = feat(
   "feature/rogue/inquisitive/interrogation-tactics", "Interrogation Tactics", 6,
-  `<p>At 6th level, you gain the following additional Devious Strike options:</p><ul><li><strong>Expose (Cost: 2d6).</strong> Until the end of your next turn, the target can't benefit from half cover or three-quarters cover.</li><li><strong>Exploit Weakness (Cost: 2d6).</strong> The next attack roll against the target before the end of your next turn has advantage.</li></ul>`,
+  `<p>Starting at 6th level, you can decipher the precise weak points of your foes. The following effects are added to your Devious Strike options.</p><p><strong>Interrogate (Cost: 2d6).</strong> You know how to get any old wise guy talking. The target must succeed a Charisma saving throw, or be unable to speak a deliberate lie for 10 minutes. You know if it succeeded or failed on its saving throw.</p><p>If you wish to impose this effect on a creature without injuring it, you can attack the creature to simply touch it, dealing no damage on a hit.</p><p><strong>Terrorize (Cost: 3d6).</strong> You know how to rattle the target, leaving them shaking in their boots. The target must succeed a Wisdom saving throw, or become frightened by you until the end of its next turn.</p>`,
 );
 
 export const keenEyes = feat(
   "feature/rogue/inquisitive/keen-eyes", "Keen Eyes", 9,
-  `<p>At 9th level, if you spend at least 1 minute observing or interacting with a creature or if you move at no more than half your speed, you have advantage on Wisdom (Perception) and Intelligence (Investigation) checks.</p>`,
+  `<p>Starting at 9th level, you gain advantage on any Wisdom (Perception) or Intelligence (Investigation) check if you move no more than half your speed on the same turn.</p>`,
 );
 
 export const astuteEye = feat(
   "feature/rogue/inquisitive/astute-eye", "Astute Eye", 13,
-  `<p>Starting at 13th level, you can sense when something is an illusion. You have advantage on saving throws against illusions and you can use an action to automatically determine if something you can see within 30 feet is an illusion.</p>`,
+  `<p>Starting at 13th level, your senses are almost impossible to foil. As an action, you sense the presence of illusions, disguised creatures, and techniques designed to deceive the senses within 30 feet of you, provided you aren't blinded or deafened. You sense that an effect is attempting to trick you, but you gain no insight into what is hidden or into its true nature.</p><p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.</p>`,
+  {
+    activation: { type: "action", cost: 1, condition: "" },
+    uses: { value: null, max: "max(1, @abilities.wis.mod)", per: "lr", recovery: "", prompt: true },
+  },
 );
 
 export const eyeForWeakness = feat(
   "feature/rogue/inquisitive/eye-for-weakness", "Eye For Weakness", 17,
-  `<p>At 17th level, while your Observe Opponent feature applies to a creature, your Sneak Attack damage against that creature increases by 3d6.</p>`,
+  `<p>Starting at 17th level, you learn to exploit a creature's weaknesses by carefully studying its tactics and movement. While your Observe Opponent feature applies to a creature, your Sneak Attack damage against that creature increases by 3d6.</p>`,
 );
 
 export const features: FeatureItem[] = [
@@ -83,7 +87,7 @@ export const subclass: SubclassItem = {
   type: "subclass",
   img: "icons/svg/item-bag.svg",
   system: {
-    description: { value: `<p>As an Inquisitive, you excel at rooting out secrets and unraveling mysteries. You rely on your sharp eye for detail and your finely honed ability to read the words and deeds of other creatures.</p>`, chat: "" },
+    description: { value: `<p>Inquisitives are rogues that take a slower and more calculated approach to their job. You become an expert at rooting out the truth, whether through careful observation or interaction with other creatures, reading them like an open book.</p>`, chat: "" },
     source: { book: "OP5e", page: "", custom: "", license: "" },
     identifier: "inquisitive",
     classIdentifier: "rogue",

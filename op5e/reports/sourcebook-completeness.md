@@ -1,21 +1,21 @@
 # Sourcebook completeness
 
-Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 1047.
+Files 706, headings/titles 2636, matched to a compendium name 1692, unmatched 890.
 
 | section | titles | matched |
 |---|---:|---:|
 | Appendix A Creations | 487 | 430 |
-| Appendix B Running The Game | 106 | 0 |
+| Appendix B Running The Game | 106 | 25 |
 | Chapter 1 Races | 64 | 7 |
-| Chapter 2 Classes | 943 | 613 |
-| Chapter 3 Character Origins | 368 | 52 |
-| Chapter 4 Equipment and Items | 36 | 4 |
-| Chapter 5 Customization | 283 | 216 |
-| Chapter 6 Devil Fruits | 87 | 6 |
+| Chapter 2 Classes | 943 | 692 |
+| Chapter 3 Character Origins | 368 | 56 |
+| Chapter 4 Equipment and Items | 36 | 14 |
+| Chapter 5 Customization | 283 | 221 |
+| Chapter 6 Devil Fruits | 87 | 26 |
 | Chapter 7 Additional Powers | 144 | 142 |
-| Chapter 8 Special Items | 97 | 61 |
-| Credits | 14 | 0 |
-| General Sub Sections | 6 | 0 |
+| Chapter 8 Special Items | 97 | 62 |
+| Credits | 14 | 14 |
+| General Sub Sections | 6 | 3 |
 | Sourcebook.md | 1 | 0 |
 
 ## Appendix A Creations (46 unmatched)
@@ -66,18 +66,13 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Summoned Yokai  _(Appendix A Creations/Summoned Yokai/Summoned Yokai.md)_
 - 3rd Level  _(Appendix A Creations/Tiny Servant/3rd Level.md)_
 
-## Appendix B Running The Game (105 unmatched)
-- Appendix B Running The Game  _(Appendix B Running The Game/Appendix B Running The Game.md)_
-- Crafting  _(Appendix B Running The Game/Crafting/Crafting.md)_
+## Appendix B Running The Game (81 unmatched)
 - Experience  _(Appendix B Running The Game/Crafting/Experience.md)_
 - Crafting Classes  _(Appendix B Running The Game/Crafting/Experience.md)_
 - Crafting Roles and Backgrounds  _(Appendix B Running The Game/Crafting/Experience.md)_
-- Permanent Haki-Imbuement  _(Appendix B Running The Game/Crafting/Experience.md)_
 - Materials  _(Appendix B Running The Game/Crafting/Materials.md)_
 - Crafting Cost  _(Appendix B Running The Game/Crafting/Materials.md)_
 - Time  _(Appendix B Running The Game/Crafting/Time.md)_
-- Crafting Time  _(Appendix B Running The Game/Crafting/Time.md)_
-- Tools  _(Appendix B Running The Game/Crafting/Tools.md)_
 - Approaching Awakening  _(Appendix B Running The Game/Making Devil Fruits/Approaching Awakening.md)_
 - Awakening Attempt  _(Appendix B Running The Game/Making Devil Fruits/Approaching Awakening.md)_
 - Devil Fruit Vulnerabilities  _(Appendix B Running The Game/Making Devil Fruits/Devil Fruit Vulnerabilities.md)_
@@ -85,7 +80,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Devil Fruit Users in Liquids  _(Appendix B Running The Game/Making Devil Fruits/Devil Fruits and the Environment.md)_
 - Devil Fruit Users and Seastone  _(Appendix B Running The Game/Making Devil Fruits/Devil Fruits and the Environment.md)_
 - Reincarnation  _(Appendix B Running The Game/Making Devil Fruits/Devil Fruits and the Environment.md)_
-- Making Devil Fruits  _(Appendix B Running The Game/Making Devil Fruits/Making Devil Fruits.md)_
 - Multiple Devil Fruit Rules  _(Appendix B Running The Game/Making Devil Fruits/Multiple Devil Fruit Rules.md)_
 - Availability of Goods  _(Appendix B Running The Game/Purchasing Goods/Availability of Goods.md)_
 - Prices of Goods  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
@@ -93,7 +87,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Ranked Weapons  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
 - Special Ammo  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
 - Ranked Items and Size  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
-- Armor and Shields  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
 - Special Armor  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
 - Special Shields  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
 - Consumables  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
@@ -105,22 +98,8 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Misc  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
 - Beast Costs  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
 - Slave Costs  _(Appendix B Running The Game/Purchasing Goods/Prices of Goods.md)_
-- Purchasing Goods  _(Appendix B Running The Game/Purchasing Goods/Purchasing Goods.md)_
 - Awarding Haki  _(Appendix B Running The Game/Rewards/Awarding Haki.md)_
 - Boons  _(Appendix B Running The Game/Rewards/Boons.md)_
-- Boon of Super Sonic Speed  _(Appendix B Running The Game/Rewards/Boons.md)_
-- Boon of Enhanced Size  _(Appendix B Running The Game/Rewards/Boons.md)_
-- Boon of the Tale Weaver  _(Appendix B Running The Game/Rewards/Boons.md)_
-- Boon of One Thousand Blows  _(Appendix B Running The Game/Rewards/Boons.md)_
-- Boon of the Tactician  _(Appendix B Running The Game/Rewards/Boons.md)_
-- Boon of Ultimate Armor  _(Appendix B Running The Game/Rewards/Boons.md)_
-- Boon of the Expert Hunter  _(Appendix B Running The Game/Rewards/Boons.md)_
-- Boon of Advanced Chemistry  _(Appendix B Running The Game/Rewards/Boons.md)_
-- Boon of Deadly Duelist  _(Appendix B Running The Game/Rewards/Boons.md)_
-- Boon of Endless Conviction  _(Appendix B Running The Game/Rewards/Boons.md)_
-- Boon of the Restless Heart  _(Appendix B Running The Game/Rewards/Boons.md)_
-- Boon of Electro Mastery  _(Appendix B Running The Game/Rewards/Boons.md)_
-- Boon of the Barrage  _(Appendix B Running The Game/Rewards/Boons.md)_
 - Cursed Items  _(Appendix B Running The Game/Rewards/Cursed Items.md)_
 - Magic Items  _(Appendix B Running The Game/Rewards/Magic Items.md)_
 - "Magic" Items  _(Appendix B Running The Game/Rewards/Magic Items.md)_
@@ -131,7 +110,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Reward Guide  _(Appendix B Running The Game/Rewards/Reward Guide.md)_
 - Rewards Guide  _(Appendix B Running The Game/Rewards/Reward Guide.md)_
 - Tiers of Play  _(Appendix B Running The Game/Rewards/Reward Guide.md)_
-- Rewards  _(Appendix B Running The Game/Rewards/Rewards.md)_
 - Ability Crafting  _(Appendix B Running The Game/Suggested Rulings/Ability Crafting.md)_
 - Allied Space Occupancy  _(Appendix B Running The Game/Suggested Rulings/Allied Space Occupancy.md)_
 - Automatic Success in Skill Checks  _(Appendix B Running The Game/Suggested Rulings/Automatic Success in Skill Checks.md)_
@@ -159,7 +137,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Sta  _(Appendix B Running The Game/Suggested Rulings/Sta.md)_
 - Story-Classing  _(Appendix B Running The Game/Suggested Rulings/Story-Classing.md)_
 - Joyful's One Piece DMing Experience  _(Appendix B Running The Game/Suggested Rulings/Story-Classing.md)_
-- Suggested Rulings  _(Appendix B Running The Game/Suggested Rulings/Suggested Rulings.md)_
 - Unreasonable Strength  _(Appendix B Running The Game/Suggested Rulings/Unreasonable Strength.md)_
 - Ursa Array (Variant Standard Array)  _(Appendix B Running The Game/Suggested Rulings/Ursa Array (Variant Standard Array).md)_
 - Natural Obstacles  _(Appendix B Running The Game/The Environment/Natural Obstacles.md)_
@@ -169,7 +146,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Reverse Mountain  _(Appendix B Running The Game/The Environment/Natural Obstacles.md)_
 - Magma  _(Appendix B Running The Game/The Environment/Natural Obstacles.md)_
 - Downtime Sessions  _(Appendix B Running The Game/The Environment/Natural Obstacles.md)_
-- The Environment  _(Appendix B Running The Game/The Environment/The Environment.md)_
 - Travel Time  _(Appendix B Running The Game/The Environment/Travel Time.md)_
 - Travel By Sea  _(Appendix B Running The Game/The Environment/Travel Time.md)_
 
@@ -232,8 +208,7 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Shandian  _(Chapter 1 Races/Sky Islander/Sky Islander Traits.md)_
 - Skypiean  _(Chapter 1 Races/Sky Islander/Sky Islander Traits.md)_
 
-## Chapter 2 Classes (290 unmatched)
-- Amalgamation  _(Chapter 2 Classes/Amalgamation/Amalgamation.md)_
+## Chapter 2 Classes (211 unmatched)
 - Arcana = Engineering  _(Chapter 2 Classes/Arcana = Engineering.md)_
 - Ardent Soul  _(Chapter 2 Classes/Ardent Soul/Ardent Soul.md)_
 - Ardent Creations  _(Chapter 2 Classes/Ardent Soul/Burning Passion.md)_
@@ -258,9 +233,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - The Bard  _(Chapter 2 Classes/Bard/Bard.md)_
 - Bard College  _(Chapter 2 Classes/Bard College/Bard College.md)_
 - Legendary Floursih  _(Chapter 2 Classes/Bard College/College of Legends.md)_
-- Beast of the Air  _(Chapter 2 Classes/Beast of the Air/Beast of the Air.md)_
-- Beast of the Land  _(Chapter 2 Classes/Beast of the Land/Beast of the Land.md)_
-- Beast of the Sea  _(Chapter 2 Classes/Beast of the Sea/Beast of the Sea.md)_
 - The Brawler  _(Chapter 2 Classes/Brawler/Brawler.md)_
 - Brawling Style  _(Chapter 2 Classes/Brawling Style/Brawling Style.md)_
 - Tricks (Cantrips)  _(Chapter 2 Classes/Brawling Style/Expressionist.md)_
@@ -345,13 +317,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Mods Known  _(Chapter 2 Classes/Class Features/Mods.md)_
 - Modifiying an Item  _(Chapter 2 Classes/Class Features/Mods.md)_
 - List Of Mods  _(Chapter 2 Classes/Class Features/Mods.md)_
-- Armor Of Mechanical Strength  _(Chapter 2 Classes/Class Features/Mods.md)_
-- Burst Boots  _(Chapter 2 Classes/Class Features/Mods.md)_
-- Enhanced Creative Focus  _(Chapter 2 Classes/Class Features/Mods.md)_
-- Enhanced Defenses  _(Chapter 2 Classes/Class Features/Mods.md)_
-- Enhanced Weapon  _(Chapter 2 Classes/Class Features/Mods.md)_
-- Propulsion Armor  _(Chapter 2 Classes/Class Features/Mods.md)_
-- Awareness Visor  _(Chapter 2 Classes/Class Features/Mods.md)_
 - Primal Path  _(Chapter 2 Classes/Class Features/Primal Path.md)_
 - Roguish Archetype  _(Chapter 2 Classes/Class Features/Roguish Archetype.md)_
 - Flurry of Blows  _(Chapter 2 Classes/Class Features/Spirit.md)_
@@ -396,7 +361,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Test Subjects  _(Chapter 2 Classes/Experimental Ooze/Bio-Engineer.md)_
 - Plaguewright Creations  _(Chapter 2 Classes/Experimental Ooze/Plaguewright.md)_
 - The Fighter  _(Chapter 2 Classes/Fighter/Fighter.md)_
-- Flora  _(Chapter 2 Classes/Flora/Flora.md)_
 - The Gadgeteer  _(Chapter 2 Classes/Gadgeteer/Gadgeteer.md)_
 - Alchemist Creations  _(Chapter 2 Classes/Iron Defender/Alchemist.md)_
 - Chemical Cocktails  _(Chapter 2 Classes/Iron Defender/Alchemist.md)_
@@ -406,39 +370,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - The Marksman  _(Chapter 2 Classes/Marksman/Marksman.md)_
 - Bestial Companions  _(Chapter 2 Classes/Marksman Archetype/Beastmaster.md)_
 - Marksman Archetype  _(Chapter 2 Classes/Marksman Archetype/Marksman Archetype.md)_
-- Engineering  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
-- Stasis Ammo  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
-- Hypnotic Ammo  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
-- Elemental Ammo  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
-- Exploding Ammo  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
-- Feeble Ammo  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
-- Grasping Ammo  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
-- Piercing Ammo  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
-- Shadow Ammo  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
-- Warp Ammo (7th level)  _(Chapter 2 Classes/Martial Archetypes/Arms Dealer.md)_
-- Ambush  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Bait and Switch  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Brace  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Commander's Strike  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Commanding Presence  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Disarming Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Distracting Strike  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Evasive Footwork  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Feinting Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Goading Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Grappling Strike  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Lunging Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Maneuvering Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Pushing Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Parry  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Menacing Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Precision Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Quick Toss  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Rally  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Riposte  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Sweeping Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Tactical Assessment  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
-- Trip Attack  _(Chapter 2 Classes/Martial Archetypes/Battlemaster.md)_
 - Bonus Proficiency  _(Chapter 2 Classes/Martial Archetypes/Cavalier.md)_
 - Strength  _(Chapter 2 Classes/Martial Archetypes/Champion.md)_
 - Constitution  _(Chapter 2 Classes/Martial Archetypes/Champion.md)_
@@ -447,20 +378,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Preparing and Using Creations (Preparing  _(Chapter 2 Classes/Martial Archetypes/Gadget Knight.md)_
 - and Casting Spells)  _(Chapter 2 Classes/Martial Archetypes/Gadget Knight.md)_
 - Creative Ability (Spellcasting Ability)  _(Chapter 2 Classes/Martial Archetypes/Gadget Knight.md)_
-- Gunsmith  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
-- Covering Fire  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
-- Dazing Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
-- Deadeye Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
-- Deflecting Shot (7th level)  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
-- Disarming Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
-- Exhausting Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
-- Forceful Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
-- Piercing Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
-- Run and Gun  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
-- Violent Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
-- Warning Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
-- Wringing Shot  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
-- Hemorrhaging Critical  _(Chapter 2 Classes/Martial Archetypes/Gunslinger.md)_
 - Martial Archetypes  _(Chapter 2 Classes/Martial Archetypes/Martial Archetypes.md)_
 - Adapt and Overcome  _(Chapter 2 Classes/Martial Archetypes/Master of None.md)_
 - Improv Damage  _(Chapter 2 Classes/Martial Archetypes/Master of None.md)_
@@ -468,22 +385,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Fighting Stance  _(Chapter 2 Classes/Martial Archetypes/Samurai.md)_
 - Ability Score Improvement  _(Chapter 2 Classes/Mechanical Servant/Ability Score Improvement.md)_
 - Mechanical Servant  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
-- Focusing Suit  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
-- Repeating Magazine  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
-- Glowing Weapon  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
-- Repulsion Shield  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
-- Resistant Armor  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
-- Loyal Weapon  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
-- Creation Refueling Ring  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
-- Replicate Mastercraft Item  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
-- Reinforced Steel  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
-- Extended Barrel  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
-- Heavy Artillery  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
-- Wrought Warden  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
-- Omega Operative  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
-- Chemistry Menagerie  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
-- Versatile Elements  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
-- Airborne Aegis  _(Chapter 2 Classes/Mechanical Servant/Actions.md)_
 - Master Craft Adept  _(Chapter 2 Classes/Mechanical Servant/Master Craft Adept.md)_
 - Mechanical Servant  _(Chapter 2 Classes/Mechanical Servant/Mechanical Servant.md)_
 - Specialist Path  _(Chapter 2 Classes/Mechanical Servant/Specialist Path.md)_
@@ -492,10 +393,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Experimental Ooze Type  _(Chapter 2 Classes/Medical Specialization/Chemist.md)_
 - Medical Specialization  _(Chapter 2 Classes/Medical Specialization/Medical Specialization.md)_
 - Physician Creations  _(Chapter 2 Classes/Medical Specialization/Physician.md)_
-- Cleaving Hew  _(Chapter 2 Classes/Primal Paths/Path of the Blade Master.md)_
-- Crushing Hew  _(Chapter 2 Classes/Primal Paths/Path of the Blade Master.md)_
-- Savage Hew  _(Chapter 2 Classes/Primal Paths/Path of the Blade Master.md)_
-- Sprinting Hew  _(Chapter 2 Classes/Primal Paths/Path of the Blade Master.md)_
 - Shattered Mind  _(Chapter 2 Classes/Primal Paths/Path of the Shattered Mind.md)_
 - Tricks (Cantrips)  _(Chapter 2 Classes/Primal Paths/Path of the Shattered Mind.md)_
 - Preparing and Using Creations (Preparing  _(Chapter 2 Classes/Primal Paths/Path of the Shattered Mind.md)_
@@ -524,7 +421,7 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Spells = Creations  _(Chapter 2 Classes/Spells = Creations.md)_
 - Classes  _(Chapter 2 Classes/Spells = Creations.md)_
 
-## Chapter 3 Character Origins (316 unmatched)
+## Chapter 3 Character Origins (312 unmatched)
 - Feature: Entertaining Tumble  _(Chapter 3 Character Origins/Backgrounds/Acrobat.md)_
 - Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Acrobat.md)_
 - Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Acrobat.md)_
@@ -550,7 +447,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Ideals  _(Chapter 3 Character Origins/Backgrounds/Author.md)_
 - Bonds  _(Chapter 3 Character Origins/Backgrounds/Author.md)_
 - Flaws  _(Chapter 3 Character Origins/Backgrounds/Author.md)_
-- Backgrounds  _(Chapter 3 Character Origins/Backgrounds/Backgrounds.md)_
 - Feature: Mastercrafter  _(Chapter 3 Character Origins/Backgrounds/Blacksmith.md)_
 - Suggested Characteristics  _(Chapter 3 Character Origins/Backgrounds/Blacksmith.md)_
 - Personality Traits  _(Chapter 3 Character Origins/Backgrounds/Blacksmith.md)_
@@ -804,8 +700,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Ideals  _(Chapter 3 Character Origins/Backgrounds/Wanderer.md)_
 - Bonds  _(Chapter 3 Character Origins/Backgrounds/Wanderer.md)_
 - Flaws  _(Chapter 3 Character Origins/Backgrounds/Wanderer.md)_
-- Chapter 3 Character Origins  _(Chapter 3 Character Origins/Chapter 3 Character Origins.md)_
-- Dreams  _(Chapter 3 Character Origins/Dreams/Dreams.md)_
 - Captain  _(Chapter 3 Character Origins/Roles/Captain.md)_
 - Feature: Force of Personality  _(Chapter 3 Character Origins/Roles/Captain.md)_
 - Feature: Bonus Feat  _(Chapter 3 Character Origins/Roles/Captain.md)_
@@ -833,7 +727,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Feature: Weather Portent  _(Chapter 3 Character Origins/Roles/Navigator.md)_
 - Feature: Bonus Feat  _(Chapter 3 Character Origins/Roles/Navigator.md)_
 - Dream  _(Chapter 3 Character Origins/Roles/Navigator.md)_
-- Roles  _(Chapter 3 Character Origins/Roles/Roles.md)_
 - Scholar  _(Chapter 3 Character Origins/Roles/Scholar.md)_
 - Feature: Pursuer of Secrets  _(Chapter 3 Character Origins/Roles/Scholar.md)_
 - Feature: Bonus Feat  _(Chapter 3 Character Origins/Roles/Scholar.md)_
@@ -842,43 +735,31 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Feature: Bonus Feat  _(Chapter 3 Character Origins/Roles/Shipwright.md)_
 - Dream  _(Chapter 3 Character Origins/Roles/Shipwright.md)_
 
-## Chapter 4 Equipment and Items (32 unmatched)
-- Adventuring Gear  _(Chapter 4 Equipment and Items/Adventuring Gear/Adventuring Gear.md)_
-- Armor and Shields  _(Chapter 4 Equipment and Items/Armor and Shields/Armor and Shields.md)_
-- Chapter 4 Equipment and Items  _(Chapter 4 Equipment and Items/Chapter 4 Equipment and Items.md)_
-- Expenses  _(Chapter 4 Equipment and Items/Expenses/Expenses.md)_
+## Chapter 4 Equipment and Items (22 unmatched)
 - Lifestyle Expenses  _(Chapter 4 Equipment and Items/Expenses/Expenses.md)_
 - Food, Drink, and Lodging  _(Chapter 4 Equipment and Items/Expenses/Food, Drink, and Lodging.md)_
 - Cannon Shot  _(Chapter 4 Equipment and Items/Mounts and Vehicles/Cannons.md)_
 - Mounts and Animals  _(Chapter 4 Equipment and Items/Mounts and Vehicles/Cannons.md)_
 - Tack, Harness, and Drawn Vehicles  _(Chapter 4 Equipment and Items/Mounts and Vehicles/Cannons.md)_
 - Dial Vehicles (Sky)  _(Chapter 4 Equipment and Items/Mounts and Vehicles/Cannons.md)_
-- Mounts and Vehicles  _(Chapter 4 Equipment and Items/Mounts and Vehicles/Mounts and Vehicles.md)_
 - Waterborne Vehicles  _(Chapter 4 Equipment and Items/Mounts and Vehicles/Ships and Waterborne Vessels.md)_
 - Building a Ship  _(Chapter 4 Equipment and Items/Ship Building and Repair/Building a Ship.md)_
-- Crafting Time  _(Chapter 4 Equipment and Items/Ship Building and Repair/Building a Ship.md)_
 - Crafting Process  _(Chapter 4 Equipment and Items/Ship Building and Repair/Building a Ship.md)_
 - Damage and Repairs  _(Chapter 4 Equipment and Items/Ship Building and Repair/Damage and Repairs.md)_
-- Ship Building and Repair  _(Chapter 4 Equipment and Items/Ship Building and Repair/Ship Building and Repair.md)_
 - Ship Rooms  _(Chapter 4 Equipment and Items/Ship Building and Repair/Ship Rooms.md)_
 - Optional Rule: Custom Rooms  _(Chapter 4 Equipment and Items/Ship Building and Repair/Ship Rooms.md)_
 - Armor  _(Chapter 4 Equipment and Items/Ship Building and Repair/Ship Rooms.md)_
 - Upgrading your Ship  _(Chapter 4 Equipment and Items/Ship Building and Repair/Upgrading your Ship.md)_
 - Ship Upgrades  _(Chapter 4 Equipment and Items/Ship Building and Repair/Upgrading your Ship.md)_
 - Ship Rooms  _(Chapter 4 Equipment and Items/Ship Building and Repair/Upgrading your Ship.md)_
-- Tools  _(Chapter 4 Equipment and Items/Tools/Tools.md)_
 - Treasure and Loot  _(Chapter 4 Equipment and Items/Wealth/Treasure and Loot.md)_
-- Wealth  _(Chapter 4 Equipment and Items/Wealth/Wealth.md)_
 - Beri Exchange Rate  _(Chapter 4 Equipment and Items/Wealth/Wealth.md)_
 - Additional Melee Weapons  _(Chapter 4 Equipment and Items/Weapons/Additional Melee Weapons.md)_
 - Additional Ranged Weapons  _(Chapter 4 Equipment and Items/Weapons/Additional Ranged Weapons.md)_
-- Weapons  _(Chapter 4 Equipment and Items/Weapons/Weapons.md)_
 - Simple Weapons  _(Chapter 4 Equipment and Items/Weapons/Weapons.md)_
 - Martial Weapons  _(Chapter 4 Equipment and Items/Weapons/Weapons.md)_
 
-## Chapter 5 Customization (67 unmatched)
-- Chapter 5 Customization  _(Chapter 5 Customization/Chapter 5 Customization.md)_
-- Feats  _(Chapter 5 Customization/Feats/Feats.md)_
+## Chapter 5 Customization (62 unmatched)
 - Tale Archetypes  _(Chapter 5 Customization/Feats/Feats.md)_
 - Blademaster Barbarian Styles  _(Chapter 5 Customization/Fighting Styles/Blademaster Barbarian Styles.md)_
 - Dueling  _(Chapter 5 Customization/Fighting Styles/Blademaster Barbarian Styles.md)_
@@ -905,7 +786,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Melee Shooter  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
 - Versatile Fighting  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
 - Protection  _(Chapter 5 Customization/Fighting Styles/Fighter Styles.md)_
-- Fighting Styles  _(Chapter 5 Customization/Fighting Styles/Fighting Styles.md)_
 - Marksman Styles  _(Chapter 5 Customization/Fighting Styles/Marksman Styles.md)_
 - Archery  _(Chapter 5 Customization/Fighting Styles/Marksman Styles.md)_
 - Blindfighting  _(Chapter 5 Customization/Fighting Styles/Marksman Styles.md)_
@@ -938,27 +818,19 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Thrown Weapon Fighting  _(Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md)_
 - Melee Shooter  _(Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md)_
 - Versatile Fighting  _(Chapter 5 Customization/Fighting Styles/Sword Sage Brawler Styles.md)_
-- Haki  _(Chapter 5 Customization/Haki/Haki.md)_
 - Learning Haki  _(Chapter 5 Customization/Haki/Learning Haki.md)_
 - List of Haki Abilities  _(Chapter 5 Customization/Haki/List of Haki Abilities.md)_
 - Clarification: Rage VS Armament  _(Chapter 5 Customization/Haki/List of Haki Abilities.md)_
 - Haki Affinity  _(Chapter 5 Customization/Haki/List of Haki Abilities.md)_
-- Racial Feats  _(Chapter 5 Customization/Racial Feats/Racial Feats.md)_
 
-## Chapter 6 Devil Fruits (78 unmatched)
-- Chapter 6 Devil Fruits  _(Chapter 6 Devil Fruits/Chapter 6 Devil Fruits.md)_
-- Creating A Devil Fruit  _(Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit.md)_
-- Devil Fruit Uses  _(Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit.md)_
+## Chapter 6 Devil Fruits (58 unmatched)
 - Devil Fruit Ability Check, DC, and  _(Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit.md)_
 - Attack  _(Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit.md)_
-- Example Logias  _(Chapter 6 Devil Fruits/Example Logias/Example Logias.md)_
 - Logia Type Devil Fruit  _(Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit.md)_
 - Using this fruit  _(Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit.md)_
 - Elemental Domain  _(Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit.md)_
 - Improved Elemental Domain  _(Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit.md)_
 - Awakening  _(Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit.md)_
-- Example Paramecias  _(Chapter 6 Devil Fruits/Example Paramecias/Example Paramecias.md)_
-- Dice-Dice Fruit  _(Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md)_
 - Using this fruit  _(Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md)_
 - Extended Duration  _(Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md)_
 - Double Dice  _(Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md)_
@@ -966,7 +838,6 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Triple Threat  _(Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md)_
 - Awakening  _(Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md)_
 - DM's Note  _(Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md)_
-- Glug-Glug Fruit  _(Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md)_
 - Using this fruit  _(Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md)_
 - Lasting Buzz  _(Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md)_
 - Potent Alcohol  _(Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md)_
@@ -974,50 +845,37 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Hot Shot  _(Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md)_
 - Awakening  _(Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md)_
 - Devil Fruit Party Ratio  _(Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md)_
-- Swap-Swap Fruit  _(Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md)_
 - Using this fruit  _(Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md)_
 - Size Limit Increase  _(Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md)_
 - Size Limit Break  _(Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md)_
 - Awakening  _(Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md)_
-- Example Zoans  _(Chapter 6 Devil Fruits/Example Zoans/Example Zoans.md)_
-- Bat-Bat Fruit  _(Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md)_
 - Using This Fruit  _(Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md)_
 - Hybrid Form  _(Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md)_
 - Enhanced Form  _(Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md)_
 - Endless Forms  _(Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md)_
 - Awakening  _(Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md)_
-- Great Bat  _(Chapter 6 Devil Fruits/Great Bat/Great Bat.md)_
 - The Cat-Cat Fruit, Model Saber- Toothed Tiger  _(Chapter 6 Devil Fruits/Great Bat/The Cat-Cat Fruit, Model Saber- Toothed Tiger.md)_
-- Cat-Cat Fruit, Model: Saber-Toothed Tiger  _(Chapter 6 Devil Fruits/Great Bat/The Cat-Cat Fruit, Model Saber- Toothed Tiger.md)_
 - Using This Fruit  _(Chapter 6 Devil Fruits/Great Bat/The Cat-Cat Fruit, Model Saber- Toothed Tiger.md)_
-- Great Saber-Tooth  _(Chapter 6 Devil Fruits/Great Saber-Tooth/Great Saber-Tooth.md)_
 - Hybrid Form  _(Chapter 6 Devil Fruits/Great Saber-Tooth/Great Saber-Tooth.md)_
 - Enhanced Form  _(Chapter 6 Devil Fruits/Great Saber-Tooth/Great Saber-Tooth.md)_
 - Endless Forms  _(Chapter 6 Devil Fruits/Great Saber-Tooth/Great Saber-Tooth.md)_
 - Awakening  _(Chapter 6 Devil Fruits/Great Saber-Tooth/Great Saber-Tooth.md)_
 - The Dog-Dog Fruit, Model Werewolf  _(Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md)_
-- Dog-Dog Fruit, Model: Werewolf  _(Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md)_
 - Using This Fruit  _(Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md)_
 - Hybrid Form  _(Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md)_
 - Enhanced Form  _(Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md)_
 - Endless Forms  _(Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md)_
 - Awakening  _(Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md)_
-- Great Werewolf  _(Chapter 6 Devil Fruits/Great Werewolf/Great Werewolf.md)_
-- Logia Type  _(Chapter 6 Devil Fruits/Logia Type/Logia Type.md)_
 - Logia Type Devil Fruit  _(Chapter 6 Devil Fruits/Logia Type/Logia Type.md)_
 - Elemental Domain  _(Chapter 6 Devil Fruits/Logia Type/Logia Type.md)_
 - Improved Elemental Domain  _(Chapter 6 Devil Fruits/Logia Type/Logia Type.md)_
-- Paramecia Type  _(Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md)_
 - Paramecia Type Devil Fruit  _(Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md)_
 - Why So Empty?  _(Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md)_
 - Fruit Uses  _(Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md)_
 - Improved Usage  _(Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md)_
 - Special Paramecias  _(Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md)_
-- What Are Devil Fruits  _(Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits.md)_
-- What Are Devil Fruits?  _(Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits.md)_
 - Feature: Ocean's Scorn  _(Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits.md)_
 - Feature: Awakening  _(Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits.md)_
-- Zoan Type  _(Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md)_
 - Zoan Fruit  _(Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md)_
 - Ability Score Increase  _(Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md)_
 - Hybrid Form  _(Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md)_
@@ -1029,7 +887,7 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Chapter 7 Additional Powers  _(Chapter 7 Additional Powers/Chapter 7 Additional Powers.md)_
 - Inspired Innovation Creations  _(Chapter 7 Additional Powers/Inspired Innovation/Inspired Innovation.md)_
 
-## Chapter 8 Special Items (36 unmatched)
+## Chapter 8 Special Items (35 unmatched)
 - Armor  _(Chapter 8 Special Items/Armor/Armor.md)_
 - Black Blades  _(Chapter 8 Special Items/Black Blades.md)_
 - Chapter 8 Special Items  _(Chapter 8 Special Items/Chapter 8 Special Items.md)_
@@ -1063,29 +921,12 @@ Files 706, headings/titles 2636, matched to a compendium name 1531, unmatched 10
 - Stirring  _(Chapter 8 Special Items/The Silver Seer.md)_
 - Wakened  _(Chapter 8 Special Items/The Silver Seer.md)_
 - Ascendant  _(Chapter 8 Special Items/The Silver Seer.md)_
-- Weapons  _(Chapter 8 Special Items/Weapons/Weapons.md)_
 - White Weapons (Non-Canon)  _(Chapter 8 Special Items/White Weapons (Non-Canon).md)_
 - Wondrous Items  _(Chapter 8 Special Items/Wondrous Items/Wondrous Items.md)_
 
-## Credits (11 unmatched)
-- Appendix A  _(Credits/Appendix A/Appendix A.md)_
-- Chapter 2  _(Credits/Chapter/Chapter 2.md)_
-- Chapter  _(Credits/Chapter/Chapter 2.md)_
-- Chapter  _(Credits/Chapter/Chapter.md)_
-- Chapter 1  _(Credits/Chapter 1/Chapter 1.md)_
-- Chapter 2  _(Credits/Chapter 2/Chapter 2.md)_
-- Chapter 5  _(Credits/Chapter 5/Chapter 5.md)_
-- Chapter 6  _(Credits/Chapter 6/Chapter 6.md)_
-- Cover Page and Cipher Pol 9 - sutaneko  _(Credits/Cover Page and Cipher Pol 9 - sutaneko/Cover Page and Cipher Pol 9 - sutaneko.md)_
-- Hazard - Eiichiro Chapter 7  _(Credits/Hazard - Eiichiro Chapter 7/Hazard - Eiichiro Chapter 7.md)_
-- Preface Franky - Deyvidson  _(Credits/Preface Franky - Deyvidson/Preface Franky - Deyvidson.md)_
-
-## General Sub Sections (6 unmatched)
-- Disclaimer  _(General Sub Sections/Disclaimer.md)_
+## General Sub Sections (3 unmatched)
 - Eiichiro Oda's One Piece.  _(General Sub Sections/Disclaimer.md)_
-- General Sub Sections  _(General Sub Sections/General Sub Sections.md)_
 - An unofficial 5e supplement for  _(General Sub Sections/General Sub Sections.md)_
-- Using This Guide  _(General Sub Sections/Using This Guide.md)_
 - Recommendation: Higher Power Play  _(General Sub Sections/Using This Guide.md)_
 
 ## Sourcebook.md (1 unmatched)

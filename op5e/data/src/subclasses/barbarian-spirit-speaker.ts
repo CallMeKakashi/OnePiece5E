@@ -83,7 +83,7 @@ export const subclass: SubclassItem = {
   type: "subclass",
   img: "icons/svg/item-bag.svg",
   system: {
-    description: { value: `<p>Barbarians that walk this path are of a rare variety. Rather than using their rage as a means to tear down their foes, they instead embody the spiritual forces of the underworld, connecting them back to the wisdom of the past. As they connect to the past, swarms of lost souls flock to these oracles, either to guide the world on the right path, or to find their way back to the underworld.</p>`, chat: "" },
+    description: { value: `<p>Barbarians that walk this path are of a rare variety. Rather than using their rage as a means to tear down their foes, they instead embody the spiritual forces of the underworld, connecting them back to the wisdom of the past. As they connect to the past, swarms of lost souls flock to these oracles, either to guide the world on the right path, or to find their way back to the underworld. The aura these barbarians emanate can overwhelm any enemy, and foresee the paths of all living things.</p>`, chat: "" },
     source: { book: "OP5e", page: "", custom: "", license: "" },
     identifier: "spirit-speaker",
     classIdentifier: "barbarian",

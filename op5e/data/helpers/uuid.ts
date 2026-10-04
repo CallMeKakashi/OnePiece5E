@@ -15,7 +15,8 @@ export type PackName =
   | "ships"
   | "ship-weapons"
   | "spell-lists"
-  | "reference";
+  | "reference"
+  | "roll-tables";
 
 /**
  * Build a Foundry compendium UUID for a document in this module.

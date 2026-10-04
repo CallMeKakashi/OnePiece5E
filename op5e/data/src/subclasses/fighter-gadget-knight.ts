@@ -48,62 +48,75 @@ function feat(slug: string, name: string, desc: string, req: string): FeatureIte
 
 const gadgeteerSpellcasting = feat(
   "gadgeteer-spellcasting", "Gadgeteer Spellcasting",
-  `<p>When you reach 3rd level, you augment your martial prowess with the ability to cast spells using gadgets and mechanical inventions. Your spellcasting is Intelligence-based.</p>
-<p><strong>Spell Slots.</strong> You gain spell slots as a half-caster (same as Ranger or Paladin). You regain all expended spell slots when you finish a long rest.</p>
-<p><strong>Spells Known.</strong> You know two 1st-level spells of your choice from the gadgeteer spell list. You learn additional gadgeteer spells as you gain levels.</p>
-<p><strong>Spellcasting Ability.</strong> Intelligence is your spellcasting ability for your gadgeteer spells. You use your Intelligence whenever a spell refers to your spellcasting ability.</p>
-<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
-<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>`,
+  `<p>At 3rd level, when you choose this subclass, you augment your martial prowess with the ability to use creations. You have a notebook containing creations that show the first glimmerings of your true potential. See the gadgeteer creation list under "Gadgeteer Creations by Level". (Creativity is synonymous with 5th edition Spellcasting. See "Casting a Spell" in the Player's Handbook for the general rules of Spellcasting in Dungeons and Dragons 5th edition).</p>
+<table>
+<thead><tr><th>Player Level</th><th>Tricks Known</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th></tr></thead>
+<tbody>
+<tr><td>3rd</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>4th</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>5th</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>6th</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>7th</td><td>3</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>8th</td><td>3</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>9th</td><td>3</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+<tr><td>10th</td><td>4</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+<tr><td>11th</td><td>4</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+<tr><td>12th</td><td>4</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+<tr><td>13th</td><td>4</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+<tr><td>14th</td><td>5</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+<tr><td>15th</td><td>5</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+<tr><td>16th</td><td>5</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+<tr><td>17th</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+<tr><td>18th</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+<tr><td>19th</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+<tr><td>20th</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+</tbody></table>
+<p><strong>Tricks (Cantrips).</strong> You know three tricks, one of which is Mirrored Hand and the other two are of your choice from the gadgeteer creations list. You learn additional gadgeteer tricks of your choice at higher levels, as shown in the Tricks Known column of the Gadget Knight table. At the end of a long rest, you can change one of the tricks you know for another from your creation list.</p>
+<p><strong>Preparing and Using Creations (Preparing and Casting Spells).</strong> The Gadget Knight table shows how many creation slots you have to use your gadgeteer creations of 1st Level and higher. You regain all expended creation slots when you finish a long rest.</p>
+<p>You prepare the list of gadgeteer creations that are available for you to cast. To do so, choose a number of gadgeteer creations from your notebook equal to your Intelligence modifier + half your Gadget Trickster level rounded down (minimum of one creation). The creations must be of a level for which you have creation slots.</p>
+<p>For example, if you are a 5th-level Gadget Knight, you have four 1st-level and two 2nd-level creation slots. With an Intelligence of 14, your list of prepared creations can include four creations of 1st or 2nd level, in any combination. If you prepare the 1st-level creation Cure Wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the creation doesn't remove it from your list of prepared creations.</p>
+<p>You can change your list of prepared creations when you finish a long rest. Preparing a new list of gadgeteer creations requires time spent tinkering with your creation casting focuses: at least 1 minute per creation level for each creation on your list.</p>
+<p><strong>Creative Ability (Spellcasting Ability).</strong> Intelligence is your creative ability for your gadgeteer creations, as you learn through careful study and observation, trial and error. You use your Intelligence whenever a creation refers to your creative ability. In addition, you use your Intelligence modifier when setting the saving throw DC for the gadgeteer creations you cast and when making an attack roll with one.</p>
+<p>Creation save DC = 8 + your proficiency bonus + your Intelligence modifier</p>
+<p>Creation Attack modifier = your proficiency bonus + your Intelligence modifier</p>`,
   "Gadget Knight 3",
 );
 
 const warMechanic = feat(
   "war-mechanic", "War Mechanic",
-  `<p>At 3rd level, you learn to augment your weapons and armor with mechanical enhancements. During a long rest, you can augment one weapon or one suit of armor you are proficient with. You can have only one augmented item at a time; augmenting a new item ends the previous augmentation.</p>
+  `<p>At 3rd level, you gain proficiency with your choice of smith's tools, carpenter's tools, or tinkerer's tools, as well as the Engineering skill.</p>
+<p>In addition, you gain the ability to further enhance your weapons with your creations. You can complete the augmentation process over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach during the process. Choose one of the augments below:</p>
 <ul>
-<li><strong>Weapon Augment.</strong> The weapon gains a +1 bonus to attack and damage rolls, and you can use your Intelligence modifier instead of Strength or Dexterity for attack and damage rolls with it.</li>
-<li><strong>Armor Augment.</strong> The armor gains a +1 bonus to AC, and you can don or doff it as an action.</li>
-</ul>`,
+<li><strong>Kickback.</strong> When you hit a creature of large or smaller size with your augmented weapon, you can push them away 10ft in a straight line.</li>
+<li><strong>Breakdown.</strong> Once per turn, when you hit a creature with your augmented weapon, you can inflict disadvantage on their next attack roll until the start of your next turn.</li>
+<li><strong>Lockup.</strong> When you hit a creature with your augmented weapon, their movement speed is reduced by 10ft until the start of your next turn.</li>
+</ul>
+<p>You can have up to two augmented weapons. If you attempt to augment a third weapon, you must remove the augment from one of the other two.</p>`,
   "Gadget Knight 3",
 );
 
 const creativeCombatant = feat(
   "creative-combatant", "Creative Combatant",
-  `<p>At 7th level, you can replace one of your attacks when you take the Attack action with a trick from your gadgeteer repertoire. You can use one of the following tricks:</p>
-<ul>
-<li><strong>Flash Bomb.</strong> Each creature in a 10-foot radius must succeed on a Constitution saving throw against your spell save DC or be blinded until the end of your next turn.</li>
-<li><strong>Grapple Hook.</strong> You fire a grapple hook at a point you can see within 30 feet. You can pull yourself to that point, or pull a Large or smaller creature within range 15 feet toward you (Strength saving throw negates).</li>
-<li><strong>Smoke Screen.</strong> You create a 15-foot cube of smoke centered on a point within 30 feet. The area is heavily obscured until the start of your next turn.</li>
-</ul>
-<p>You can use tricks a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a short or long rest.</p>`,
+  `<p>Starting at 7th level, you begin to seemlessly mix your tricks with your attacks. When you take the Attack action on your turn, you can replace one of the attacks with a use one of your Gadget Knight tricks that has a casting time of an action.</p>`,
   "Gadget Knight 7",
 );
 
 const rechargingSurge = feat(
   "recharging-surge", "Recharging Surge",
-  `<p>At 10th level, when you use your Action Surge feature, you can also recover one expended spell slot of 3rd level or lower.</p>`,
+  `<p>At 10th level, your ingenuity and fight spirit fuels your creations. When you use your Action Surge feature, you regain one expended creation slot of up to 3rd level.</p>`,
   "Gadget Knight 10",
 );
 
 const improvedCreativeCombatant = feat(
   "improved-creative-combatant", "Improved Creative Combatant",
-  `<p>At 15th level, your tricks become more potent:</p>
-<ul>
-<li><strong>Improved Flash Bomb.</strong> The radius increases to 20 feet, and blinded creatures also take 3d6 radiant damage.</li>
-<li><strong>Improved Grapple Hook.</strong> Range increases to 60 feet. Pulled creatures take 2d6 bludgeoning damage and are knocked prone.</li>
-<li><strong>Improved Smoke Screen.</strong> The cube size increases to 30 feet, and allies in the smoke gain half cover.</li>
-</ul>`,
+  `<p>At 15th level, when you take the Attack action on your turn, you can replace two of the attacks with a use of one of your level 1 or level 2 creations that has a casting time of an action.</p>`,
   "Gadget Knight 15",
 );
 
 const masterOfWar = feat(
   "master-of-war", "Master of War",
-  `<p>At 18th level, your augmented equipment reaches its final form. Your War Mechanic augmentation improvements increase:</p>
-<ul>
-<li><strong>Weapon Augment.</strong> The bonus increases to +2, and the weapon deals an additional 1d6 force damage on a hit.</li>
-<li><strong>Armor Augment.</strong> The bonus increases to +2 AC, you gain resistance to one damage type of your choice (chosen during augmentation), and you can activate a shield generator as a reaction to gain +5 AC against one attack.</li>
-</ul>
-<p>Additionally, you can maintain two augmented items simultaneously instead of one.</p>`,
+  `<p>At 18th level, when you hit a creature with an attack using a weapon, that creature has Disadvantage on the next saving throw it makes against the next creation you use.</p>
+<p>In addition, the creation slot you recover with your Recharging Surge can be up to 5th level.</p>`,
   "Gadget Knight 18",
 );
 
@@ -114,7 +127,7 @@ export const gadgetKnight: SubclassItem = {
   img: "icons/svg/item-bag.svg",
   system: {
     description: {
-      value: "<p>The Gadget Knight blends martial mastery with mechanical ingenuity. These fighters tinker with gadgets and devices, augmenting their weapons and armor with mechanical enhancements and using clever tricks to gain the upper hand in combat.</p>",
+      value: "<p>Not all fighters are brutes who rely only on strength of arms to battle foes. Those known as gadget knights incorporate genius creativity and handy craftsmanship in their fighting style, creating useful gadgets that give them an upper hand in any fight.</p>",
       chat: "",
     },
     source: { book: "OP5e", page: "", custom: "", license: "" },

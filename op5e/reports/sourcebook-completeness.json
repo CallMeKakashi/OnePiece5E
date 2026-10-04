@@ -1,7 +1,7 @@
 {
   "files": 706,
   "titles": 2636,
-  "matched": 1531,
+  "matched": 1692,
   "perTop": {
     "Appendix A Creations": {
       "titles": 487,
@@ -9,7 +9,7 @@
     },
     "Appendix B Running The Game": {
       "titles": 106,
-      "matched": 0
+      "matched": 25
     },
     "Chapter 1 Races": {
       "titles": 64,
@@ -17,23 +17,23 @@
     },
     "Chapter 2 Classes": {
       "titles": 943,
-      "matched": 613
+      "matched": 692
     },
     "Chapter 3 Character Origins": {
       "titles": 368,
-      "matched": 52
+      "matched": 56
     },
     "Chapter 4 Equipment and Items": {
       "titles": 36,
-      "matched": 4
+      "matched": 14
     },
     "Chapter 5 Customization": {
       "titles": 283,
-      "matched": 216
+      "matched": 221
     },
     "Chapter 6 Devil Fruits": {
       "titles": 87,
-      "matched": 6
+      "matched": 26
     },
     "Chapter 7 Additional Powers": {
       "titles": 144,
@@ -41,15 +41,15 @@
     },
     "Chapter 8 Special Items": {
       "titles": 97,
-      "matched": 61
+      "matched": 62
     },
     "Credits": {
       "titles": 14,
-      "matched": 0
+      "matched": 14
     },
     "General Sub Sections": {
       "titles": 6,
-      "matched": 0
+      "matched": 3
     },
     "Sourcebook.md": {
       "titles": 1,
@@ -289,16 +289,6 @@
     },
     {
       "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Appendix B Running The Game.md",
-      "title": "Appendix B Running The Game"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Crafting/Crafting.md",
-      "title": "Crafting"
-    },
-    {
-      "top": "Appendix B Running The Game",
       "file": "Appendix B Running The Game/Crafting/Experience.md",
       "title": "Experience"
     },
@@ -314,11 +304,6 @@
     },
     {
       "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Crafting/Experience.md",
-      "title": "Permanent Haki-Imbuement"
-    },
-    {
-      "top": "Appendix B Running The Game",
       "file": "Appendix B Running The Game/Crafting/Materials.md",
       "title": "Materials"
     },
@@ -331,16 +316,6 @@
       "top": "Appendix B Running The Game",
       "file": "Appendix B Running The Game/Crafting/Time.md",
       "title": "Time"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Crafting/Time.md",
-      "title": "Crafting Time"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Crafting/Tools.md",
-      "title": "Tools"
     },
     {
       "top": "Appendix B Running The Game",
@@ -379,11 +354,6 @@
     },
     {
       "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Making Devil Fruits/Making Devil Fruits.md",
-      "title": "Making Devil Fruits"
-    },
-    {
-      "top": "Appendix B Running The Game",
       "file": "Appendix B Running The Game/Making Devil Fruits/Multiple Devil Fruit Rules.md",
       "title": "Multiple Devil Fruit Rules"
     },
@@ -416,11 +386,6 @@
       "top": "Appendix B Running The Game",
       "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
       "title": "Ranked Items and Size"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Purchasing Goods/Prices of Goods.md",
-      "title": "Armor and Shields"
     },
     {
       "top": "Appendix B Running The Game",
@@ -479,11 +444,6 @@
     },
     {
       "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Purchasing Goods/Purchasing Goods.md",
-      "title": "Purchasing Goods"
-    },
-    {
-      "top": "Appendix B Running The Game",
       "file": "Appendix B Running The Game/Rewards/Awarding Haki.md",
       "title": "Awarding Haki"
     },
@@ -491,71 +451,6 @@
       "top": "Appendix B Running The Game",
       "file": "Appendix B Running The Game/Rewards/Boons.md",
       "title": "Boons"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Rewards/Boons.md",
-      "title": "Boon of Super Sonic Speed"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Rewards/Boons.md",
-      "title": "Boon of Enhanced Size"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Rewards/Boons.md",
-      "title": "Boon of the Tale Weaver"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Rewards/Boons.md",
-      "title": "Boon of One Thousand Blows"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Rewards/Boons.md",
-      "title": "Boon of the Tactician"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Rewards/Boons.md",
-      "title": "Boon of Ultimate Armor"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Rewards/Boons.md",
-      "title": "Boon of the Expert Hunter"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Rewards/Boons.md",
-      "title": "Boon of Advanced Chemistry"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Rewards/Boons.md",
-      "title": "Boon of Deadly Duelist"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Rewards/Boons.md",
-      "title": "Boon of Endless Conviction"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Rewards/Boons.md",
-      "title": "Boon of the Restless Heart"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Rewards/Boons.md",
-      "title": "Boon of Electro Mastery"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Rewards/Boons.md",
-      "title": "Boon of the Barrage"
     },
     {
       "top": "Appendix B Running The Game",
@@ -606,11 +501,6 @@
       "top": "Appendix B Running The Game",
       "file": "Appendix B Running The Game/Rewards/Reward Guide.md",
       "title": "Tiers of Play"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Rewards/Rewards.md",
-      "title": "Rewards"
     },
     {
       "top": "Appendix B Running The Game",
@@ -749,11 +639,6 @@
     },
     {
       "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/Suggested Rulings/Suggested Rulings.md",
-      "title": "Suggested Rulings"
-    },
-    {
-      "top": "Appendix B Running The Game",
       "file": "Appendix B Running The Game/Suggested Rulings/Unreasonable Strength.md",
       "title": "Unreasonable Strength"
     },
@@ -796,11 +681,6 @@
       "top": "Appendix B Running The Game",
       "file": "Appendix B Running The Game/The Environment/Natural Obstacles.md",
       "title": "Downtime Sessions"
-    },
-    {
-      "top": "Appendix B Running The Game",
-      "file": "Appendix B Running The Game/The Environment/The Environment.md",
-      "title": "The Environment"
     },
     {
       "top": "Appendix B Running The Game",
@@ -1099,11 +979,6 @@
     },
     {
       "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Amalgamation/Amalgamation.md",
-      "title": "Amalgamation"
-    },
-    {
-      "top": "Chapter 2 Classes",
       "file": "Chapter 2 Classes/Arcana = Engineering.md",
       "title": "Arcana = Engineering"
     },
@@ -1221,21 +1096,6 @@
       "top": "Chapter 2 Classes",
       "file": "Chapter 2 Classes/Bard College/College of Legends.md",
       "title": "Legendary Floursih"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Beast of the Air/Beast of the Air.md",
-      "title": "Beast of the Air"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Beast of the Land/Beast of the Land.md",
-      "title": "Beast of the Land"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Beast of the Sea/Beast of the Sea.md",
-      "title": "Beast of the Sea"
     },
     {
       "top": "Chapter 2 Classes",
@@ -1659,41 +1519,6 @@
     },
     {
       "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Class Features/Mods.md",
-      "title": "Armor Of Mechanical Strength"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Class Features/Mods.md",
-      "title": "Burst Boots"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Class Features/Mods.md",
-      "title": "Enhanced Creative Focus"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Class Features/Mods.md",
-      "title": "Enhanced Defenses"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Class Features/Mods.md",
-      "title": "Enhanced Weapon"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Class Features/Mods.md",
-      "title": "Propulsion Armor"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Class Features/Mods.md",
-      "title": "Awareness Visor"
-    },
-    {
-      "top": "Chapter 2 Classes",
       "file": "Chapter 2 Classes/Class Features/Primal Path.md",
       "title": "Primal Path"
     },
@@ -1914,11 +1739,6 @@
     },
     {
       "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Flora/Flora.md",
-      "title": "Flora"
-    },
-    {
-      "top": "Chapter 2 Classes",
       "file": "Chapter 2 Classes/Gadgeteer/Gadgeteer.md",
       "title": "The Gadgeteer"
     },
@@ -1964,171 +1784,6 @@
     },
     {
       "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
-      "title": "Engineering"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
-      "title": "Stasis Ammo"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
-      "title": "Hypnotic Ammo"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
-      "title": "Elemental Ammo"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
-      "title": "Exploding Ammo"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
-      "title": "Feeble Ammo"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
-      "title": "Grasping Ammo"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
-      "title": "Piercing Ammo"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
-      "title": "Shadow Ammo"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Arms Dealer.md",
-      "title": "Warp Ammo (7th level)"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Ambush"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Bait and Switch"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Brace"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Commander's Strike"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Commanding Presence"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Disarming Attack"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Distracting Strike"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Evasive Footwork"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Feinting Attack"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Goading Attack"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Grappling Strike"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Lunging Attack"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Maneuvering Attack"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Pushing Attack"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Parry"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Menacing Attack"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Precision Attack"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Quick Toss"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Rally"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Riposte"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Sweeping Attack"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Tactical Assessment"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Battlemaster.md",
-      "title": "Trip Attack"
-    },
-    {
-      "top": "Chapter 2 Classes",
       "file": "Chapter 2 Classes/Martial Archetypes/Cavalier.md",
       "title": "Bonus Proficiency"
     },
@@ -2169,76 +1824,6 @@
     },
     {
       "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
-      "title": "Gunsmith"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
-      "title": "Covering Fire"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
-      "title": "Dazing Shot"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
-      "title": "Deadeye Shot"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
-      "title": "Deflecting Shot (7th level)"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
-      "title": "Disarming Shot"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
-      "title": "Exhausting Shot"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
-      "title": "Forceful Shot"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
-      "title": "Piercing Shot"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
-      "title": "Run and Gun"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
-      "title": "Violent Shot"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
-      "title": "Warning Shot"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
-      "title": "Wringing Shot"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Martial Archetypes/Gunslinger.md",
-      "title": "Hemorrhaging Critical"
-    },
-    {
-      "top": "Chapter 2 Classes",
       "file": "Chapter 2 Classes/Martial Archetypes/Martial Archetypes.md",
       "title": "Martial Archetypes"
     },
@@ -2271,86 +1856,6 @@
       "top": "Chapter 2 Classes",
       "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
       "title": "Mechanical Servant"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
-      "title": "Focusing Suit"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
-      "title": "Repeating Magazine"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
-      "title": "Glowing Weapon"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
-      "title": "Repulsion Shield"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
-      "title": "Resistant Armor"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
-      "title": "Loyal Weapon"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
-      "title": "Creation Refueling Ring"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
-      "title": "Replicate Mastercraft Item"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
-      "title": "Reinforced Steel"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
-      "title": "Extended Barrel"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
-      "title": "Heavy Artillery"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
-      "title": "Wrought Warden"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
-      "title": "Omega Operative"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
-      "title": "Chemistry Menagerie"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
-      "title": "Versatile Elements"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Mechanical Servant/Actions.md",
-      "title": "Airborne Aegis"
     },
     {
       "top": "Chapter 2 Classes",
@@ -2391,26 +1896,6 @@
       "top": "Chapter 2 Classes",
       "file": "Chapter 2 Classes/Medical Specialization/Physician.md",
       "title": "Physician Creations"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Primal Paths/Path of the Blade Master.md",
-      "title": "Cleaving Hew"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Primal Paths/Path of the Blade Master.md",
-      "title": "Crushing Hew"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Primal Paths/Path of the Blade Master.md",
-      "title": "Savage Hew"
-    },
-    {
-      "top": "Chapter 2 Classes",
-      "file": "Chapter 2 Classes/Primal Paths/Path of the Blade Master.md",
-      "title": "Sprinting Hew"
     },
     {
       "top": "Chapter 2 Classes",
@@ -2671,11 +2156,6 @@
       "top": "Chapter 3 Character Origins",
       "file": "Chapter 3 Character Origins/Backgrounds/Author.md",
       "title": "Flaws"
-    },
-    {
-      "top": "Chapter 3 Character Origins",
-      "file": "Chapter 3 Character Origins/Backgrounds/Backgrounds.md",
-      "title": "Backgrounds"
     },
     {
       "top": "Chapter 3 Character Origins",
@@ -3944,16 +3424,6 @@
     },
     {
       "top": "Chapter 3 Character Origins",
-      "file": "Chapter 3 Character Origins/Chapter 3 Character Origins.md",
-      "title": "Chapter 3 Character Origins"
-    },
-    {
-      "top": "Chapter 3 Character Origins",
-      "file": "Chapter 3 Character Origins/Dreams/Dreams.md",
-      "title": "Dreams"
-    },
-    {
-      "top": "Chapter 3 Character Origins",
       "file": "Chapter 3 Character Origins/Roles/Captain.md",
       "title": "Captain"
     },
@@ -4089,11 +3559,6 @@
     },
     {
       "top": "Chapter 3 Character Origins",
-      "file": "Chapter 3 Character Origins/Roles/Roles.md",
-      "title": "Roles"
-    },
-    {
-      "top": "Chapter 3 Character Origins",
       "file": "Chapter 3 Character Origins/Roles/Scholar.md",
       "title": "Scholar"
     },
@@ -4129,26 +3594,6 @@
     },
     {
       "top": "Chapter 4 Equipment and Items",
-      "file": "Chapter 4 Equipment and Items/Adventuring Gear/Adventuring Gear.md",
-      "title": "Adventuring Gear"
-    },
-    {
-      "top": "Chapter 4 Equipment and Items",
-      "file": "Chapter 4 Equipment and Items/Armor and Shields/Armor and Shields.md",
-      "title": "Armor and Shields"
-    },
-    {
-      "top": "Chapter 4 Equipment and Items",
-      "file": "Chapter 4 Equipment and Items/Chapter 4 Equipment and Items.md",
-      "title": "Chapter 4 Equipment and Items"
-    },
-    {
-      "top": "Chapter 4 Equipment and Items",
-      "file": "Chapter 4 Equipment and Items/Expenses/Expenses.md",
-      "title": "Expenses"
-    },
-    {
-      "top": "Chapter 4 Equipment and Items",
       "file": "Chapter 4 Equipment and Items/Expenses/Expenses.md",
       "title": "Lifestyle Expenses"
     },
@@ -4179,11 +3624,6 @@
     },
     {
       "top": "Chapter 4 Equipment and Items",
-      "file": "Chapter 4 Equipment and Items/Mounts and Vehicles/Mounts and Vehicles.md",
-      "title": "Mounts and Vehicles"
-    },
-    {
-      "top": "Chapter 4 Equipment and Items",
       "file": "Chapter 4 Equipment and Items/Mounts and Vehicles/Ships and Waterborne Vessels.md",
       "title": "Waterborne Vehicles"
     },
@@ -4195,22 +3635,12 @@
     {
       "top": "Chapter 4 Equipment and Items",
       "file": "Chapter 4 Equipment and Items/Ship Building and Repair/Building a Ship.md",
-      "title": "Crafting Time"
-    },
-    {
-      "top": "Chapter 4 Equipment and Items",
-      "file": "Chapter 4 Equipment and Items/Ship Building and Repair/Building a Ship.md",
       "title": "Crafting Process"
     },
     {
       "top": "Chapter 4 Equipment and Items",
       "file": "Chapter 4 Equipment and Items/Ship Building and Repair/Damage and Repairs.md",
       "title": "Damage and Repairs"
-    },
-    {
-      "top": "Chapter 4 Equipment and Items",
-      "file": "Chapter 4 Equipment and Items/Ship Building and Repair/Ship Building and Repair.md",
-      "title": "Ship Building and Repair"
     },
     {
       "top": "Chapter 4 Equipment and Items",
@@ -4244,18 +3674,8 @@
     },
     {
       "top": "Chapter 4 Equipment and Items",
-      "file": "Chapter 4 Equipment and Items/Tools/Tools.md",
-      "title": "Tools"
-    },
-    {
-      "top": "Chapter 4 Equipment and Items",
       "file": "Chapter 4 Equipment and Items/Wealth/Treasure and Loot.md",
       "title": "Treasure and Loot"
-    },
-    {
-      "top": "Chapter 4 Equipment and Items",
-      "file": "Chapter 4 Equipment and Items/Wealth/Wealth.md",
-      "title": "Wealth"
     },
     {
       "top": "Chapter 4 Equipment and Items",
@@ -4275,27 +3695,12 @@
     {
       "top": "Chapter 4 Equipment and Items",
       "file": "Chapter 4 Equipment and Items/Weapons/Weapons.md",
-      "title": "Weapons"
-    },
-    {
-      "top": "Chapter 4 Equipment and Items",
-      "file": "Chapter 4 Equipment and Items/Weapons/Weapons.md",
       "title": "Simple Weapons"
     },
     {
       "top": "Chapter 4 Equipment and Items",
       "file": "Chapter 4 Equipment and Items/Weapons/Weapons.md",
       "title": "Martial Weapons"
-    },
-    {
-      "top": "Chapter 5 Customization",
-      "file": "Chapter 5 Customization/Chapter 5 Customization.md",
-      "title": "Chapter 5 Customization"
-    },
-    {
-      "top": "Chapter 5 Customization",
-      "file": "Chapter 5 Customization/Feats/Feats.md",
-      "title": "Feats"
     },
     {
       "top": "Chapter 5 Customization",
@@ -4426,11 +3831,6 @@
       "top": "Chapter 5 Customization",
       "file": "Chapter 5 Customization/Fighting Styles/Fighter Styles.md",
       "title": "Protection"
-    },
-    {
-      "top": "Chapter 5 Customization",
-      "file": "Chapter 5 Customization/Fighting Styles/Fighting Styles.md",
-      "title": "Fighting Styles"
     },
     {
       "top": "Chapter 5 Customization",
@@ -4594,11 +3994,6 @@
     },
     {
       "top": "Chapter 5 Customization",
-      "file": "Chapter 5 Customization/Haki/Haki.md",
-      "title": "Haki"
-    },
-    {
-      "top": "Chapter 5 Customization",
       "file": "Chapter 5 Customization/Haki/Learning Haki.md",
       "title": "Learning Haki"
     },
@@ -4618,26 +4013,6 @@
       "title": "Haki Affinity"
     },
     {
-      "top": "Chapter 5 Customization",
-      "file": "Chapter 5 Customization/Racial Feats/Racial Feats.md",
-      "title": "Racial Feats"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Chapter 6 Devil Fruits.md",
-      "title": "Chapter 6 Devil Fruits"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit.md",
-      "title": "Creating A Devil Fruit"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit.md",
-      "title": "Devil Fruit Uses"
-    },
-    {
       "top": "Chapter 6 Devil Fruits",
       "file": "Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit.md",
       "title": "Devil Fruit Ability Check, DC, and"
@@ -4646,11 +4021,6 @@
       "top": "Chapter 6 Devil Fruits",
       "file": "Chapter 6 Devil Fruits/Creating A Devil Fruit/Creating A Devil Fruit.md",
       "title": "Attack"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Example Logias/Example Logias.md",
-      "title": "Example Logias"
     },
     {
       "top": "Chapter 6 Devil Fruits",
@@ -4676,16 +4046,6 @@
       "top": "Chapter 6 Devil Fruits",
       "file": "Chapter 6 Devil Fruits/Example Logias/The Cloud-Cloud Fruit.md",
       "title": "Awakening"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Example Paramecias/Example Paramecias.md",
-      "title": "Example Paramecias"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Dice-Dice Fruit.md",
-      "title": "Dice-Dice Fruit"
     },
     {
       "top": "Chapter 6 Devil Fruits",
@@ -4725,11 +4085,6 @@
     {
       "top": "Chapter 6 Devil Fruits",
       "file": "Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md",
-      "title": "Glug-Glug Fruit"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Glug-Glug Fruit.md",
       "title": "Using this fruit"
     },
     {
@@ -4765,11 +4120,6 @@
     {
       "top": "Chapter 6 Devil Fruits",
       "file": "Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md",
-      "title": "Swap-Swap Fruit"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md",
       "title": "Using this fruit"
     },
     {
@@ -4786,16 +4136,6 @@
       "top": "Chapter 6 Devil Fruits",
       "file": "Chapter 6 Devil Fruits/Example Paramecias/The Swap-Swap Fruit.md",
       "title": "Awakening"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Example Zoans/Example Zoans.md",
-      "title": "Example Zoans"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Example Zoans/The Bat-Bat Fruit.md",
-      "title": "Bat-Bat Fruit"
     },
     {
       "top": "Chapter 6 Devil Fruits",
@@ -4824,28 +4164,13 @@
     },
     {
       "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Great Bat/Great Bat.md",
-      "title": "Great Bat"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
       "file": "Chapter 6 Devil Fruits/Great Bat/The Cat-Cat Fruit, Model Saber- Toothed Tiger.md",
       "title": "The Cat-Cat Fruit, Model Saber- Toothed Tiger"
     },
     {
       "top": "Chapter 6 Devil Fruits",
       "file": "Chapter 6 Devil Fruits/Great Bat/The Cat-Cat Fruit, Model Saber- Toothed Tiger.md",
-      "title": "Cat-Cat Fruit, Model: Saber-Toothed Tiger"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Great Bat/The Cat-Cat Fruit, Model Saber- Toothed Tiger.md",
       "title": "Using This Fruit"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Great Saber-Tooth/Great Saber-Tooth.md",
-      "title": "Great Saber-Tooth"
     },
     {
       "top": "Chapter 6 Devil Fruits",
@@ -4875,11 +4200,6 @@
     {
       "top": "Chapter 6 Devil Fruits",
       "file": "Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md",
-      "title": "Dog-Dog Fruit, Model: Werewolf"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Great Saber-Tooth/The Dog-Dog Fruit, Model Werewolf.md",
       "title": "Using This Fruit"
     },
     {
@@ -4904,16 +4224,6 @@
     },
     {
       "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Great Werewolf/Great Werewolf.md",
-      "title": "Great Werewolf"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Logia Type/Logia Type.md",
-      "title": "Logia Type"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
       "file": "Chapter 6 Devil Fruits/Logia Type/Logia Type.md",
       "title": "Logia Type Devil Fruit"
     },
@@ -4926,11 +4236,6 @@
       "top": "Chapter 6 Devil Fruits",
       "file": "Chapter 6 Devil Fruits/Logia Type/Logia Type.md",
       "title": "Improved Elemental Domain"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Paramecia Type/Paramecia Type.md",
-      "title": "Paramecia Type"
     },
     {
       "top": "Chapter 6 Devil Fruits",
@@ -4960,27 +4265,12 @@
     {
       "top": "Chapter 6 Devil Fruits",
       "file": "Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits.md",
-      "title": "What Are Devil Fruits"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits.md",
-      "title": "What Are Devil Fruits?"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits.md",
       "title": "Feature: Ocean's Scorn"
     },
     {
       "top": "Chapter 6 Devil Fruits",
       "file": "Chapter 6 Devil Fruits/What Are Devil Fruits/What Are Devil Fruits.md",
       "title": "Feature: Awakening"
-    },
-    {
-      "top": "Chapter 6 Devil Fruits",
-      "file": "Chapter 6 Devil Fruits/Zoan Type/Zoan Type.md",
-      "title": "Zoan Type"
     },
     {
       "top": "Chapter 6 Devil Fruits",
@@ -5189,11 +4479,6 @@
     },
     {
       "top": "Chapter 8 Special Items",
-      "file": "Chapter 8 Special Items/Weapons/Weapons.md",
-      "title": "Weapons"
-    },
-    {
-      "top": "Chapter 8 Special Items",
       "file": "Chapter 8 Special Items/White Weapons (Non-Canon).md",
       "title": "White Weapons (Non-Canon)"
     },
@@ -5203,66 +4488,6 @@
       "title": "Wondrous Items"
     },
     {
-      "top": "Credits",
-      "file": "Credits/Appendix A/Appendix A.md",
-      "title": "Appendix A"
-    },
-    {
-      "top": "Credits",
-      "file": "Credits/Chapter/Chapter 2.md",
-      "title": "Chapter 2"
-    },
-    {
-      "top": "Credits",
-      "file": "Credits/Chapter/Chapter 2.md",
-      "title": "Chapter"
-    },
-    {
-      "top": "Credits",
-      "file": "Credits/Chapter/Chapter.md",
-      "title": "Chapter"
-    },
-    {
-      "top": "Credits",
-      "file": "Credits/Chapter 1/Chapter 1.md",
-      "title": "Chapter 1"
-    },
-    {
-      "top": "Credits",
-      "file": "Credits/Chapter 2/Chapter 2.md",
-      "title": "Chapter 2"
-    },
-    {
-      "top": "Credits",
-      "file": "Credits/Chapter 5/Chapter 5.md",
-      "title": "Chapter 5"
-    },
-    {
-      "top": "Credits",
-      "file": "Credits/Chapter 6/Chapter 6.md",
-      "title": "Chapter 6"
-    },
-    {
-      "top": "Credits",
-      "file": "Credits/Cover Page and Cipher Pol 9 - sutaneko/Cover Page and Cipher Pol 9 - sutaneko.md",
-      "title": "Cover Page and Cipher Pol 9 - sutaneko"
-    },
-    {
-      "top": "Credits",
-      "file": "Credits/Hazard - Eiichiro Chapter 7/Hazard - Eiichiro Chapter 7.md",
-      "title": "Hazard - Eiichiro Chapter 7"
-    },
-    {
-      "top": "Credits",
-      "file": "Credits/Preface Franky - Deyvidson/Preface Franky - Deyvidson.md",
-      "title": "Preface Franky - Deyvidson"
-    },
-    {
-      "top": "General Sub Sections",
-      "file": "General Sub Sections/Disclaimer.md",
-      "title": "Disclaimer"
-    },
-    {
       "top": "General Sub Sections",
       "file": "General Sub Sections/Disclaimer.md",
       "title": "Eiichiro Oda's One Piece."
@@ -5270,17 +4495,7 @@
     {
       "top": "General Sub Sections",
       "file": "General Sub Sections/General Sub Sections.md",
-      "title": "General Sub Sections"
-    },
-    {
-      "top": "General Sub Sections",
-      "file": "General Sub Sections/General Sub Sections.md",
       "title": "An unofficial 5e supplement for"
-    },
-    {
-      "top": "General Sub Sections",
-      "file": "General Sub Sections/Using This Guide.md",
-      "title": "Using This Guide"
     },
     {
       "top": "General Sub Sections",

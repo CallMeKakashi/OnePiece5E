@@ -641,21 +641,7 @@ export const magicItems: FoundryItem[] = [
 <li><strong>Supreme Grade:</strong> +3 to attack and damage rolls, with an additional ability; most black blades fall here</li>
 </ul>`),
 
-  // ─── Example Devil Fruits ───
-  devilFruitItem("bat-bat", "The Bat-Bat Fruit",
-    `A Zoan-type fruit that lets the user transform into a bat or bat-hybrid. Its sourcebook progression grants Fruit Uses, Bat-Bat DC, Devil Fruit Attack, ability checks, Hybrid Form, Full Beast Form, Enhanced Form, Endless Forms, and an awakened transformation.`),
-
-  devilFruitItem("cloud-cloud", "The Cloud-Cloud Fruit",
-    `A Logia-type fruit that lets the user conjure, manipulate, and become clouds. Its sourcebook progression focuses on weather control, cloud movement, lightning and cold affinity, elemental transformation, and awakened environmental transformation.`),
-
-  devilFruitItem("dice-dice", "The Dice-Dice Fruit",
-    `A special Paramecia-type fruit that creates dice which grant random Devil Fruit powers when rolled. Its sourcebook progression expands duration, allows multiple dice, unlocks higher-level borrowed fruit benefits, and can awaken to grant rolled powers to other creatures.`),
-
-  devilFruitItem("glug-glug", "The Glug-Glug Fruit",
-    `A Paramecia-type fruit that conjures and manipulates alcohol. Its sourcebook progression covers alcohol attacks, poison immunity, lasting effects, stronger alcohol control, concurrent effects, freeform minor uses, and an awakened alcohol environment.`),
-
-  devilFruitItem("swap-swap", "The Swap-Swap Fruit",
-    `A Paramecia-type fruit that assigns touched objects or creatures and swaps their positions. Its sourcebook progression increases size limits, supports combat and utility swaps, and awakens into assignment transfer through contact.`),
+  // Example devil fruits (Bat-Bat, Cloud-Cloud, Dice-Dice, Glug-Glug, Swap-Swap) live in the devil-fruits pack (devil-fruits/sourcebook-fruits.ts) with full level tables and Awakening.
 
   // ─── Crafting Materials ───
   lootItem("crafting-materials-guide", "Crafting Materials Guide", "common",

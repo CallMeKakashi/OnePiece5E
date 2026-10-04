@@ -48,8 +48,8 @@ export const channelConvictionRadiant = feat(
   "feature/savant/radiant-superiority/channel-conviction", "Channel Conviction: Radiant Superiority", 3,
   `<p>At 3rd level, you gain the following two Channel Conviction options:</p>
 <ul>
-<li><strong>Blazing Light.</strong> As a bonus action, you can manifest the element of your soul around a weapon. For 1 minute, your weapon sheds bright light in a 20 feet radius and dim light for another 20 feet, and you can add your Charisma modifier to the attack rolls you make with the weapon.</li>
-<li><strong>Commanding Presence.</strong> As an action, you force each creature of your choice that you can see within 30 feet to make a Wisdom saving throw. On a failed save, a creature becomes charmed or frightened of you for 1 minute (your choice). A creature can repeat this saving throw at the end of each of its turns, ending the effect on a success.</li>
+<li><strong>Blazing Light.</strong> As a bonus action, you can manifest the element of your soul around a weapon. A limb used for unarmed strikes is a viable option. For 1 minute, your weapon sheds bright light in a 20 feet radius and dim light for another 20 feet, and you can add your Charisma modifier (minimum of one) to the attack rolls you make with the weapon. You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</li>
+<li><strong>Commanding Presence.</strong> You can use your Channel Conviction to exude a presence of majesty. As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes charmed or frightened of you for 1 minute (your choice). You choose the same condition for each creature. A creature can repeat this saving throw at the end of each of its turns, ending the effect on a success.</li>
 </ul>`,
   { uses: { value: null, max: "1", per: "sr", recovery: "", prompt: true } },
 );

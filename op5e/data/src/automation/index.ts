@@ -15,3 +15,8 @@ import { shipGearSpecs } from "./ship-gear.js";
 
 /** "pack/Item Name" -> hand-written automation. See helpers/spec.ts. */
 export const AUTOMATION: Record<string, Spec> = { ...classFeatureSpecs, ...classFeatureSpecs2, ...featItemSpecs, ...creationSpecs1, ...creationSpecs2, ...creationSpecs3, ...creationSpecs4, ...creationSpecs5, ...creationSpecs6, ...creationSpecs7, ...summonSpecs, ...shipGearSpecs, ...classContentSpecs };
+import { sourcebookRuleSpecs } from "./sourcebook-rules.js"; Object.assign(AUTOMATION, sourcebookRuleSpecs);
+import { workASpecs } from "./work-a.js"; Object.assign(AUTOMATION, workASpecs);
+
+import { optionSpecs } from "./options.js"; Object.assign(AUTOMATION, optionSpecs);
+import { workGSpecs } from "./work-g.js"; Object.assign(AUTOMATION, workGSpecs);

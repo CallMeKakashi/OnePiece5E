@@ -48,14 +48,14 @@ function feat(slug: string, name: string, desc: string, req: string): FeatureIte
 
 const afterimage = feat(
   "afterimage", "Afterimage",
-  `<p>Starting at 3rd level, you can move so fast you leave behind an afterimage of yourself. As a bonus action, you can create an afterimage in your space. The afterimage is a translucent copy of you that lasts until the start of your next turn, until you dismiss it (no action required), or until you create a new one.</p>
-<p>While your afterimage exists, you gain the following benefits:</p>
+  `<p>Starting at 3rd level, you can move at blinding speeds to create an Afterimage as a bonus action in an unoccupied space you can see within 30 feet of yourself. This Afterimage is a blurred image of you that lasts until it is destroyed, until you dismiss it as a bonus action, until you make another Afterimage, or until you're incapacitated. Your Afterimage has the same AC as yourself, 1 hit point, and immunity to all conditions. If it has to make a saving throw, it uses your saving throw bonus for the roll. It is the same size as you, and it occupies its space.</p>
+<p>On your turn, you can mentally command the Afterimage to move up to your movement speed in any direction (no action required). If your Afterimage is ever more than 30 feet from you at the end of your turn, it is destroyed.</p>
+<p>Your Afterimage can do the following while its active:</p>
 <ul>
-<li>When you take the Attack action, you can make one of your attacks originate from the afterimage's space instead of your own.</li>
-<li>As part of your movement, you can swap positions with your afterimage, teleporting to its location while it appears in yours. This doesn't provoke opportunity attacks.</li>
-<li>When a creature targets you with an attack, you can use your reaction to swap with your afterimage. The attack targets the afterimage instead and automatically destroys it.</li>
-</ul>
-<p>You can create afterimages a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest.</p>`,
+<li>You can teleport, swapping places with your Afterimage at a cost of 15 feet of your movement, regardless of the distance between the two of you.</li>
+<li>When you take the Attack action on your turn, any attack you make with that action can originate from your space or the Afterimage's space. You make this choice for each attack.</li>
+<li>When a creature that you can see moves at least 5ft out of your Afterimage's range, you can use your reaction to make an opportunity attack against that creature.</li>
+</ul>`,
   "Blitzkrieg 3",
 );
 
@@ -86,14 +86,18 @@ const supersonic = feat(
 
 const flashpoint = feat(
   "flashpoint", "Flashpoint",
-  `<p>Also at 15th level, you can now maintain two afterimages simultaneously instead of one. When you create a new afterimage, you can place it in any unoccupied space within 30 feet of you. You can swap with either afterimage as part of your movement or reaction.</p>`,
+  `<p>Starting at 15th level, your unbelievable speed allows you to exist at more than just two places at once. When you summon your Afterimage, you can choose to summon two Afterimages instead of one, each co-existing. If you try to create a third one, one of the previous Afterimages is destroyed. Anything you can do from one Afterimage's position can be done from the others instead.</p>`,
   "Blitzkrieg 15",
 );
 
 const infinitesimalInstant = feat(
   "infinitesimal-instant", "Infinitesimal Instant",
-  `<p>At 18th level, you can compress your actions into a single imperceptible instant. Once per long rest, as an action, you can take three additional turns in a row. During these turns, time appears to stop for all other creatures — you can move and take actions as normal, but you cannot affect other creatures or objects that are being worn or carried by them. Spells and effects that are already active continue but don't progress.</p>
-<p>When the effect ends, everything you did during those turns happens simultaneously from the perspective of other creatures. Any attacks you positioned resolve at that moment, and affected creatures make saving throws as appropriate.</p>`,
+  `<p>At 18th level, you have mastered your burst of enhanced movement as you find yourself breaking past your previous limits. You gain the following benefits:</p>
+<ul>
+<li>Your Afterimages gain a bonus to their hit points equal to your level.</li>
+<li>Your Afterimage can now be summoned 60ft from you and is destroyed if it goes beyond 60ft from you instead of 45ft.</li>
+<li>When you roll initiative and have no uses of your Rapid Action feature left, you regain two uses of that feature.</li>
+</ul>`,
   "Blitzkrieg 18",
 );
 
@@ -104,7 +108,7 @@ export const blitzkrieg: SubclassItem = {
   img: "icons/svg/item-bag.svg",
   system: {
     description: {
-      value: "<p>The Blitzkrieg is a fighter who has honed their speed to supernatural levels. Through intense training, these fighters can create afterimages, teleport short distances, and eventually move so fast that time itself seems to stop around them.</p>",
+      value: "<p>Of all the foes one can face, none are quite as flighty and frustrating to face is the Blitzkrieg. The Blitzkrieg's main weapon is not a sword, gun, or any kind of physical object. The main weapon of these fighters are their extraordinary speed, enabling them to dash around the battlefield as they strike.</p>",
       chat: "",
     },
     source: { book: "OP5e", page: "", custom: "", license: "" },

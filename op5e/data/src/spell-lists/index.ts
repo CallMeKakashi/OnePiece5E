@@ -72,7 +72,7 @@ export default spellListData.map((l) => {
     flags: { op5e: { spellListPage: compendiumUuid("spell-lists" as never, entryId).replace(/^Compendium\.op5e\.spell-lists\./, `Compendium.op5e.spell-lists.JournalEntry.`) + `.JournalEntryPage.${pageId}`, source: l.file, automation: "NEEDS_REVIEW", note: "extracted from scrambled two-column PDF text by name matching;" } },
     pages: [{
       _id: pageId, name: l.name, type: "spells", sort: 0, flags: {},
-      system: { type: "class", identifier: l.identifier, grouping: "level", description: { value: "<p><em>Auto-extracted from the sourcebook's two-column PDF text; may be incomplete. Verify against the printed list.</em></p>" }, spells: l.creationIds.map((id) => compendiumUuid("creations", id)), unlinkedSpells: [] },
+      system: { type: "class", identifier: l.identifier, grouping: "level", description: { value: l.clean ? "<p><em>Class list as printed in the sourcebook (Appendix A, Creation Lists), transcribed by the DM and cross-checked against the book text.</em></p>" : "<p><em>Auto-extracted from the sourcebook's two-column PDF text; may be incomplete. Verify against the printed list.</em></p>" }, spells: l.creationIds.map((id) => compendiumUuid("creations", id)), unlinkedSpells: [] },
       title: { show: true, level: 1 }, text: {}, ownership: { default: -1 },
     }],
   };
