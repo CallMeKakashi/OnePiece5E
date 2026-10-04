@@ -42,6 +42,10 @@ Also in World Map (not in Old Notes list): [[Decibella Kingdom]]
 
 1. [[Virellis Kingdom]] (TBD)
 
+## South Blue
+
+1. [[Juniper Islands]] — [[Brooktown]], [[Yorktown]] and [[Westtown]]; home of the Giuseppe family and Mira's crew
+
 ## Sea not yet stated
 
 1. [[W.G.A.R.]] — World Government Animal Reserve; semicircle island under a white dome

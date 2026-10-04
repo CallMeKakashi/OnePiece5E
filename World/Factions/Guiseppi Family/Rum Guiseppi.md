@@ -18,6 +18,10 @@ During the Capone invasion he openly distrusted [[Zim]] ("Sato"), but set old gr
 
 - Head of the family, at the table's head in a fur coat and purple jacket. Introduces his siblings at the Risky Choice and offers the crew anything they need. Admits he has been dodging Bramble's collection calls too and sends Tequila to look for him ([[Session 026 — Daliance of Hearts|Episode 26]]).
 
+## Episode 27
+
+- Not present. [[Zim]] has taken a job as his secretary under the name "Sato" and fooled him ([[Session 027 — Testing Tempers|Episode 27]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

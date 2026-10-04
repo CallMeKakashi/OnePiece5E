@@ -6,18 +6,18 @@ publish: false
 
 # Kill Count
 
-Running count of kills by the party, updated after every session grill (from [[Session 023 — Choice for life|Session 23]] on). A kill is an NPC or creature that died because of a specific PC's action in play. Knock-outs, NPC-on-NPC deaths and nightmare-only deaths do not count. Jack joins the table when he arrives.
+Running count of kills by the party, updated after every session grill (from [[Session 023 — Choice for life|Session 23]] on). A kill is an NPC or creature that died because of a specific PC's action in play. Knock-outs, NPC-on-NPC deaths and nightmare-only deaths do not count. Malphas and Jack share one row because the same player moved from Malphas to Jack. This ledger is for the DM only: it is not published and the session notes do not link to it.
 
-Last updated: after the [[Session 026 — Daliance of Hearts|Session 26]] grill (2026-10-02). Sessions 27 onward have not been grilled yet.
+Last updated: after the [[Session 027 — Testing Tempers|Session 27]] grill (2026-10-02). Sessions 28 onward have not been grilled yet.
 
 ## Totals (confirmed)
 
 | PC | Kills | Notes |
 |----|-------|-------|
 | [[Baptiste]] | 5 | Woofer, Coda, the Sharkfin teleporter, 2 Marines; plus an unknown number of Echo spies in S14 |
-| [[Roma]] | 7 + 10 to 20 | The storm Sea King, Treble; in S24 two robbers and two Marines on his walk, plus 10 to 20 Marines in the full-moon rampage (floor of 10 counted; civilians in the red-light district not counted) |
-| [[Malphas]] | 1 | An Echo spy (S14); assisted on Woofer |
-| [[B.O.B]] | 1 | A Marine on the escort warship in S25 (halberd). His saber-tooth's kill is not counted |
+| [[Roma]] | 12 + 10 to 20 | The storm Sea King, Treble; in S24 two robbers and two Marines on his walk, plus 10 to 20 Marines in the full-moon rampage (floor of 10 counted; civilians in the red-light district not counted); a Marine in S25; 5 Westtown creatures in S27 |
+| [[Malphas]] / [[Matthew -The Jack- Burgess\|Jack]] | 10 | Malphas: an Echo spy (S14); assisted on Woofer. Jack: about 9 cave crawlers in S27 (approximate) |
+| [[B.O.B]] | 4 | A Marine on the escort warship in S25 (halberd); 3 Westtown creatures in S27. His saber-tooth's kill is not counted |
 
 ## Confirmed kills
 
@@ -37,6 +37,9 @@ Last updated: after the [[Session 026 — Daliance of Hearts|Session 26]] grill 
 | [[Session 024 — The Friendly Baron\|S24]] | 10 to 20 Marines in the Noosehold market | Roma (Sulong form) | S24 |
 | [[Session 025 — Fire Storm\|S25]] | Marine on the escort warship (two halberd hits, 52 damage) | Bob | S25 |
 | [[Session 025 — Fire Storm\|S25]] | Marine who told his captain to flee | Roma (skillet to the head) | S25 |
+| [[Session 027 — Testing Tempers\|S27]] | About 9 blind cave crawlers in the Brooktown cave (Thompson killed the rest) | Jack (approximate; 3 with one ricocheting crit) | S27 |
+| [[Session 027 — Testing Tempers\|S27]] | 3 regenerating creatures at Westtown (2 stalkers, the pig-bat brute) | Bob (Armament Haki halberd) | S27 |
+| [[Session 027 — Testing Tempers\|S27]] | 5 regenerating creatures at Westtown (3 stalkers, the burrower, the final amalgamation) | Roma (Armament Haki claws) | S27 |
 
 ## Needs DM confirmation
 
@@ -56,5 +59,5 @@ Last updated: after the [[Session 026 — Daliance of Hearts|Session 26]] grill 
 ## Not counted
 
 - **Nightmare only:** S10 (Roma on Daniel, Marines; Bob on Voss), S11 (Roma on nightmare Pasha).
-- **No PC kills:** S3, S4, S5, S6, S8, S9, S15, S17 (Aegir contained, not killed), S18, S19, S22 (Voss spared, the white armor wrecked), S26 (training fights only), S23 (no confirmed counts; see "Needs DM confirmation"), S24 for Baptiste, Malphas and Bob (two guards knocked out). Jack has not arrived at the table yet.
+- **No PC kills:** S3, S4, S5, S6, S8, S9, S15, S17 (Aegir contained, not killed), S18, S19, S22 (Voss spared, the white armor wrecked), S26 (training fights only), S23 (no confirmed counts; see "Needs DM confirmation"), S24 for Baptiste, Malphas and Bob (two guards knocked out). S27: Baptiste was absent.
 - **Credited to others:** Facade killed Rhythm (S16); Riff shot Synth (S15); Ben killed RyeNera (S6).

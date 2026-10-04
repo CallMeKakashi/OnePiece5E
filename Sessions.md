@@ -38,7 +38,7 @@ Sorted by `session_order`, then `date_played`.
 - **25** (2026-03-29) — [[Session 025 — Fire Storm]]
 - **26** (2026-04-19) — [[Session 026 — Daliance of Hearts]]
 - **25** (2026-05-24) — [[Session 025 — Juniper Islands]]
-- **27** (2026-05-24) — [[Session 027 — Ashes Before the Storm]]
+- **27** (2026-04-26) — [[Session 027 — Testing Tempers]]
 - **28** (2026-05-24) — [[Session 028 — The Light Beyond the Horizon]]
 - **10001** (2026-05-24) — [[Session 10001 — SIDEQUEST— FACADE — FULL THROTTLE]]
 - **10008** (2026-05-24) — [[Session 10008 — Blood and Lumafang]]

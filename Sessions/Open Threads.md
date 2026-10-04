@@ -8,7 +8,7 @@ publish: false
 
 A cross-session ledger of unresolved plot threads. Each session note keeps its own `## Open threads` section; this note rolls them up. Update it after every session grill.
 
-Last updated: after the [[Session 026 — Daliance of Hearts|Session 26]] grill (2026-10-02).
+Last updated: after the [[Session 027 — Testing Tempers|Session 27]] grill (2026-10-02).
 
 ## Live
 
@@ -118,6 +118,10 @@ Last updated: after the [[Session 026 — Daliance of Hearts|Session 26]] grill 
 | **Bramble the shipwright**: owes the crew repairs on a promissory note, scammed Mira out of millions; Rum has been dodging his collection calls and sends Tequila to find him | [[Session 026 — Daliance of Hearts\|S26]] | [[Session 026 — Daliance of Hearts\|S26]] | Ongoing — see [[Bramble & Brothers]] |
 | **Jack and the Royal Flush Gang**: Jack told Queen that Linus drank the money away and is on the island; Thompson distrusts Jack; Arno questions who called backup | [[Session 026 — Daliance of Hearts\|S26]] | [[Session 026 — Daliance of Hearts\|S26]] | Ongoing — see [[Royal Flush Gang]] |
 | **Julie's tamer touch**: a head-pat forces a Wisdom save and compels obedience (it took Roma); she also commands Crunch. Source (fruit or other) not named | [[Session 026 — Daliance of Hearts\|S26]] | [[Session 026 — Daliance of Hearts\|S26]] | Unrevealed — see [[Julie]] |
+| **Zim as "Sato"**: Zim is undercover as the secretary of Rum Guiseppi and tells Bob to tell the crew to ignore her. Aim: find out what is going on with the Giuseppes | [[Session 027 — Testing Tempers\|S27]] | [[Session 027 — Testing Tempers\|S27]] | Ongoing — see [[Zim]], [[Rum Guiseppi]] |
+| **The Westtown airship**: crashed on purpose after its creature cylinders were smashed; stitched, regenerating creatures with an amalgamation fed on human bodies. Same maker as the Callisto mutations. Only Armament Haki kills them | [[Session 027 — Testing Tempers\|S27]] | [[Session 027 — Testing Tempers\|S27]] | Unrevealed — who built them and who crashed the ship |
+| **The Brooktown cave**: blind sound-hunting crawlers and a palm-covered creature that took Thompson; someone had been mining the walls and left. Collapsed by Thompson | [[Session 027 — Testing Tempers\|S27]] | [[Session 027 — Testing Tempers\|S27]] | Loose — link to the airship not confirmed |
+| **Thompson's grief and Tray**: Thompson says Mira cannot protect everyone because "the old man" ([[Blackhand Cane]]) and [[Goro]] are gone; Tray thinks Mira will always protect him | [[Session 027 — Testing Tempers\|S27]] | [[Session 027 — Testing Tempers\|S27]] | Loose |
 
 ## Needs checking
 

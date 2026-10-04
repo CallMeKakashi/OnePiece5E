@@ -86,7 +86,6 @@ Played outside the recorded episode and posted by the DM.
 - **Saber-tooth dead;** Bob keeps the whistles.
 - **Roma:** wearing Cassian's chef's outfit (to be returned); he falls to 1 HP and takes Jack's critical bullet.
 - **Rest:** Roma, Bob and Baptiste take a long rest on the ship.
-- **Kill count:** Bob +1 and Roma +1 (see [[Kill Count]]).
 - **Lost:** Alice and Malphas leave the ship, and Voss is taken.
 
 ## Prep (before play)

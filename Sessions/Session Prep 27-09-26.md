@@ -1,0 +1,60 @@
+- The crew arrives on Meridian Island nightime.
+	- Before landing conversation not to forget
+		- Tray talks to Jack abt what happened in the fight
+		- Maybe JuLee and Luna Interaction (if prompted by players)
+		- Tigor asks Baptiste if they should ask bessy to stay behind cz these people might not be very good to seakings.
+		- Linus will stay back at the ship giving baptiste a list of supplies he needs to get from the  island
+			- Healer's Kit - 1 months supply 300K
+			- Marine Medkits - Superior - 20 - 1 Million
+			- Alcohol and Spirits - 1 month supply - 200k
+		- Zim would be communicating with a frriend using a clacker and a piece of paper to note down his message she reaads and turnst to baptiste to discuss how theyll arrive on the island.
+			- Once plan is figured out.
+				- Plan A - Special Escort - 600k berries
+				- Plan B - Distraction
+	- You will be flagged in by port authorities they will hand you a ticket - 100K berries for a day. They will hand you a docket ticket
+	- Security
+		- Once you are off the ship you will be put into a questioning area
+			- Deceive through this using one player the rest will be in carriages (approach a)
+			- Idk what here
+		- Questioning by the guard
+			- Were are you headed the open city or the domed city. 
+			- For pleasure or business?
+			- Whom are you going to meet?
+			- The Bounty cards drama
+		- If the guard gets suspicious - Cause a distraction using Kanto taking hostage and escaping.
+		- They will be rushed into their carriages or allowed to leave with paperwork saying they are good to stay for a week. 
+		- In the night the party will see bandits and thugs wandering around the Market nd they will see the flame that they saw at the docks go out and you see all the bandist and thugs start to retreat and run away... they will notice a figure crouching on one centry walls right between the domed city and the open city.
+		- As the party makes there way to the Seaking Tooth. At the tavern Tray, Tom and Julee will split with the party to go find a teaching school.
+			- They will see  polar bear mink standing in front. Zim will smooth things over. as they are sent in the bar at the top section they will be greeted by Kyle a journalist for the local news... the party will see a den den mushi news broadcast on a piece of cartography sheet along the other side of teh bar with local and global news.
+			- Tyrell
+			- ![[Tyrell.jpg|139]]
+			- Kyle
+			- ![[Kyle.jpg|138]]
+			- Kyle will let them know abt the brambles shop near center of the domed city.
+			- RP here
+		- Commotion erupts outside the part meets Andrew Crowe the owner of the Crow industries. His family is the one sponsoring Kyle's News Station and They are also the owner of the Seaprism Stone laminated dome that covers the domed city...
+		- Andrew Crowe
+		- ![[Andrew Crowe.jpg|95]]
+		- Mr Hawthorne
+		- ![[Mr. Hawthorne.jpg|127]]
+		- He will address the parties if they choose to go the expensive route or he will ask for a meeting with kyle about the appearance of nuisances around teh city and will offer anyone who can inform the authorities if the wearabouts of these criminals 10 million berries.
+		- route A - He will ask for them to meet him at his manor for lunch tomorrow. he wants to make sure they feel welcomed.
+		- The party can spend the night at the Seaking Tooth.
+	- The party will notice a bunch of guards dressed in floral outfits they look less like guards than they look like pirates.
+	- In the morning they will wake up witha  commotion outside the Seaking Tooth.
+	- Tray and Tom vs Jay and May interaction
+		- ![[Jay.jpg|129]]        ![[May.jpg|133]]
+		- You see a bunch of people surrounding someone at the center.. 
+			- You see two figures standing opposite to Tray and Tom
+			- "What happened big man cat got your tongue" The man walks around him and puts his arm on his shoulder "Come now shu, you now we forgive you and we know you probably ran away from the last person you had your leash.. where is that bitch anyway... she dead yet". You see Tray starting to get mad... as Tray grabs his hands. Tom seems very different from his usual self. He's slouching making himself look smaller for some reason he is terrified of these two people.
+			- "what the hell are you getting so pissy abt. Shouldnt you start to piss your pants yet." The woman walks upto to Tray as she pulls out the dagger puts it upto his face.. "Maybe i should really carve this pretty face of yours... that'll tell how to treat your older siblings"
+			- "Come now boys! We've got family here its time for a celebration escort them to the ship Father would definitely want to meet them again."
+			  
+			  Rp here
+		- Go off here
+	- Route A - A guard for mister Crowe will step in and tell them to back off.
+	- Otherwise
+	- If the players ttry to fight them you see guards dressed on flower run up and stop them 
+	- "Fcking barbarians think everything can be solved with violence can you beleive this sister... "
+	- "Lets show them that we too can be violent. She throws a dagger at one of the party members"
+- The guards and pirates pile on if they are defeated they will be captured if they beat everyone they can get info abt why they are here and other stuff

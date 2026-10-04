@@ -94,6 +94,10 @@ After several others failed, she infiltrated [[Capone Family]]-occupied territor
 
 - Leaves with Linus in the spare boat to scout the island, and says goodbye to Baptiste ("this is it, huh") ([[Session 026 — Daliance of Hearts|Episode 26]]).
 
+## Episode 27
+
+- Appears at the Risky Choice disguised as "Sato", the secretary of [[Rum Guiseppi]], and holds a blade to Bob's neck when he clocks her. Tells him to call her Sato and to tell the crew to ignore her ([[Session 027 — Testing Tempers|Episode 27]]).
+
 ## Open Questions
 
 - Who is her Marine correspondent in Loguetown, and where is the device?

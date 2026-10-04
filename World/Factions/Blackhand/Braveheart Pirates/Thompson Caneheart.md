@@ -34,6 +34,10 @@ Vice captain. Related: [[Tray]], [[Ju Lee Caneheart]], [[Blackhand Cane]] family
 
 - Greets Roma and Bob ("call me Tom"), warns them about Julie, and tells Jack he does not trust the Royal Flush Gang. He called the crew in and briefs them on the feud (Lorenzo Capone's coma). Stays on the ship with Julie when the party goes to train ([[Session 026 — Daliance of Hearts|Episode 26]]).
 
+## Episode 27
+
+- Hands out Mira's orders: Bob and Roma to the Westtown crash with Tray, and Jack to a Brooktown cave. In the cave he kills crawlers with his fists, is dragged off by a palm-covered creature and hung in slime, and collapses a wall to get out. Later hears Bob's report and says Tray thinks nothing can happen to him as long as Mira is around, but "the old man" and Goro are gone ([[Session 027 — Testing Tempers|Episode 27]]).
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

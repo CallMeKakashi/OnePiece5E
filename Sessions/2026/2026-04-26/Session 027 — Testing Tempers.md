@@ -1,22 +1,83 @@
 ---
 type: session
-date_played: 2026-05-24
+date_played: 2026-04-26
 session_order: 27
 sidestory: false
-episode: []
-sources: []
+episode: [
+   "[[Episode 27 - Testing Tempers]]"
+]
+sources: [
+   "[[Episode 27 - Testing Tempers]]",
+   "[[Session 026 — Daliance of Hearts]]"
+]
 aliases:
-  - 2026-05-24 — Ashes Before the Storm
+  - 2026-04-26 — Testing Tempers
 ---
-# Session 027 — Ashes Before the Storm
+# Session 027 — Testing Tempers
 
 ## TL;DR
 
+- The party splits on Mira's orders: [[Matthew -The Jack- Burgess|Jack]] goes with [[Thompson Caneheart]] to a cave off Brooktown and shoots his way through blind crawlers; [[Roma]], [[B.O.B]] and [[Tray]] go to a crash site in Westtown.
+- At Westtown a crashed airship has released regenerating, stitched-together creatures. Nothing kills them until Bob remembers Mira's lesson and imbues his halberd with Armament Haki; Roma copies him.
+- Back at the Risky Choice, [[Zim]] turns up in disguise as "Sato", secretary to [[Rum Guiseppi]]. Baptiste is absent: Mira took him away, and his scene is not in this recording.
+
 ## Cast
+
+- PCs: [[Roma]], [[B.O.B]], [[Matthew -The Jack- Burgess|Jack]]. [[Baptiste]] was dragged away by Mira before the session opens and does not appear.
+- Braveheart Pirates: [[Thompson Caneheart]], [[Tray]], [[Mira the Unbreakable|Mira]] (offscreen)
+- Giuseppe family: [[Whisky Guiseppi]] (innkeeper), [[Rum Guiseppi]] (named only)
+- Elsewhere: [[Zim]] (disguised as "Sato")
 
 ## Where/When
 
+The Juniper Islands (Brooktown, Yorktown and Westtown), straight after [[Session 026 — Daliance of Hearts|Session 26]]. The Risky Choice tavern is in Yorktown. Jack and Thompson row from the docks to a cave at the edge of Brooktown; Bob, Roma and Tray walk to a village at the edge of Westtown, and in the end it takes them hours. Played 2026-04-26.
+
 ## Actual play outcomes
+
+1. **Poker aftermath.** The session picks up after Mira yanked Baptiste out of the inn: tables flipped, chips and cards everywhere, nobody knows whose hand was whose. Roma gathers the chips; Whisky tallies them at 600,000 berries under his name and hands him the bag at the end of the night. No winner was named, so Roma keeps the pot by default.
+2. **Orders.** Thompson comes downstairs with job pages. He sends Bob and Roma to a crash at the edge of Westtown (the villagers are already evacuated), takes Tray along after slapping him awake from alcohol poisoning, and takes Jack to a newly found cave at the edge of Brooktown.
+3. **The cave (Jack and Thompson).** They row to a beach below a cave mouth with torches and mining tools but no one inside. In the dark the party fights blind cave crawlers that home in on sound. Jack shoots most of them dead (about 9 kills), including three in a line with a ricocheting crit. Thompson kills the rest, and a crit fail has him elbow Jack. A palm-covered creature with a hollow in its chest then drags Thompson off.
+4. **Thompson in the slime.** Jack follows the blood trail and finds Thompson hung in green slime, with an intelligent creature holding claws to his neck. Jack shoots a stalagmite down on it, shoots dead the rest, and frees Thompson. Thompson collapses part of the cave with his fists to open a way out. Jack ignores his offered hand.
+5. **The long walk (Bob, Roma, Tray).** Bob wakes Tray and gives him a hit from his bong, which does nothing. Tray picks the name "Moriarty" for the Holmes and Watson game. Tray leads them for hours instead of the ten-minute walk Thompson promised, and admits he was avoiding wherever Thompson wanted to send him. Roma slaps Bob for trusting him; Bob talks Tray round. Tray points at smoke.
+6. **Westtown.** An airship has crash-landed in the middle of the village. Creatures gnaw on the bodies of the crushed. A screech makes everyone roll a Wisdom save, and Bob's aura of protection adds to the rolls automatically. Tray is stunned.
+7. **Regenerating creatures.** Owl-like stalkers, a pig-bat brute and a burrower all regrow heads and limbs after every hit, even Roma's hailstorm spell (everyone in the area saves, and Roma, Bob and the creatures take about 6 to 13) and his 35-damage skillet hits. Bob's Intelligence check fails to place them.
+8. **Armament Haki.** Bob's Investigation roll (18) makes him recall Mira's Haki lesson. He imbues his halberd with Armament Haki (Color of Armament, Novice, Enhance) and a creature stops regenerating and dies. Roma copies him, and the DM rules Bob's blood on his halberd also stops regeneration. Bob has 7 Haki points left and uses them sparingly. It is the first time either of them used it on purpose. Bob kills 3 creatures, Roma 5.
+9. **The amalgamation.** A huge creature of fused bodies with a long tongue bursts out of the airship, and its dread aura frightens everyone but Bob. Bob feeds Roma his blood and casts protection from evil and good on him; Roma shakes off the fear, frees Bob from the creature's grip and tears it apart. Inside are human bodies, as if someone fed it people.
+10. **The wreck.** The airship was crashed on purpose: its creature cylinders were broken before the crash, burned notes litter the deck, and there are no humans aboard. The last creature broke out of a big tube because of the noise. Bob concludes the creatures share one maker and have the same make as the mutations from Callisto.
+11. **Tray's request.** Tray asks Bob to tell Thompson he helped. Bob negotiates, and Roma lectures Tray about not fighting. Tray says Mira will protect him, and Roma warns that someone stronger than Mira may come, such as Baptiste in his demon form.
+12. **Back at the inn.** Jack and Thompson, covered in blood, meet Bob's group at the docks. Whisky hands over the 600,000 berries, Jack downs a whiskey, and Roma cooks in Whisky's kitchen on credit (paid when he leaves, with an ingredient list). Thompson, upstairs, hears Bob's report. He says Tray has no clue, "even the old man is gone and Goro's gone", and waits for Mira and Baptiste to come back. Bob tells him Tray is useful as a healer.
+13. **Zim as "Sato".** On the stairs Bob bumps into a hunched woman with black braids and glasses and clocks her as Zim. She holds a blade to his neck, tells him to call her "Sato" and to tell the crew to ignore her. She says she dressed up and took the secretary job of Rum Guiseppi, head of the Giuseppe family, and "this fool believed me". Bob does not tell the others.
+
+## Open threads
+
+- **Zim as Sato**: she is undercover as Rum's secretary and wants the crew to ignore her.
+- **The Westtown airship**: crashed on purpose, with its creatures freed beforehand; the maker is unknown, and the creatures resemble Callisto's mutations.
+- **The Brooktown cave**: a palm-grafted creature took Thompson there; the cave has been collapsed.
+- **Mira and Baptiste**: Mira took him away and the scene is in [[Session 028 — The Light Beyond the Horizon|Session 28]].
+- **Thompson's grief**: "the old man" ([[Blackhand Cane]]) and [[Goro]] are gone.
+
+## Loot & changes
+
+- **Money:** Roma holds 600,000 berries from the poker pot.
+- **Haki:** Bob and Roma can imbue weapons with Armament Haki (Color of Armament, Novice, Enhance). Bob has 7 Haki points left. Haki bypasses the regeneration of these creatures.
+- **Rules:** a crit means roll normally and add the highest die roll once; a crit fail on melee hits an ally; an attack that matches AC misses; flanking is manual.
+
+## Links
+
+| Kind | Note |
+|------|------|
+| Transcript | [[Episode 27 - Testing Tempers]] |
+| Prior | [[Session 026 — Daliance of Hearts]] |
+| Raw | `Transcripts/2026-04-26/Episode 27 - Testing Tempers.txt` |
+| PCs | [[Roma]], [[B.O.B]], [[Matthew -The Jack- Burgess\|Jack]] |
+| Braveheart Pirates | [[Thompson Caneheart]], [[Tray]] |
+| Giuseppe family | [[Whisky Guiseppi]], [[Rum Guiseppi]] |
+| Elsewhere | [[Zim]], [[Blackhand Cane]], [[Goro]] |
+
+---
+
+## Prep (before play)
+
 _Prep outline imported._
 
 With Bob absent, the session becomes much tighter and character-focused around:
@@ -484,9 +545,3 @@ This setup honestly may flow better than the original because it keeps the narra
 |Horror|Hydra-Goose scream echoes before reveal|
 |Arena|Creatures released from cages/pits|
 |Corruption Zone|Mutated wildlife attacks intruders|
-
-## Open threads
-
-## Loot & changes
-
-## Prep (before play)

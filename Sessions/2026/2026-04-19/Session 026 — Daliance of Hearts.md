@@ -57,13 +57,12 @@ A waterfall cave off the Juniper Islands, then Mira's ship, then Yorktown (the R
 - **Gin's secret crew**: Whiskey exposed that Gin runs his own pirate crew.
 - **Bramble**: Tequila searches for him; Rum says the Giuseppes also have an unpaid claim.
 - **Jack and Thompson**: Thompson distrusts Jack and the Royal Flush Gang.
-- **Linus and Zim**: operating ashore without contact with Mira.
+- **Linus and Zim**: operating ashore without contact with Mira. In [[Session 027 — Testing Tempers|S27]] Zim turns up disguised as "Sato", Rum Guiseppi's secretary.
 - **Baptiste's Conqueror's Haki**: he alone resists Mira's burst; training begins.
 
 ## Loot & changes
 
 - **Rules:** the party is now in a training arc (DM, out-of-character): Haki is chosen on a level-up (observation, armament or Conqueror's), with Conqueror's on-and-off for now.
-- **Kill count:** no kills this session (see [[Kill Count]]).
 
 ## Links
 
