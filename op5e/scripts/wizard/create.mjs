@@ -222,6 +222,11 @@ export async function createFromDraft(draft, opts = {}) {
 
     await applyStartingBeri(actor, imported);
     await writeBiography(actor, data);
+    // dnd5e refills spell slots only on a rest, so a new caster would start with none: begin the game with full slots (and full hit points)
+    const fill = {};
+    for (const [key, slot] of Object.entries(actor.system.spells ?? {})) if (slot?.max) fill[`system.spells.${key}.value`] = slot.max;
+    if (actor.system.attributes?.hp?.max) fill["system.attributes.hp.value"] = actor.system.attributes.hp.max;
+    if (Object.keys(fill).length) await actor.update(fill);
   }
   return actor;
 }

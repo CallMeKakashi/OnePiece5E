@@ -1,4 +1,5 @@
 import { generateId } from "./id.js";
+import { actorArt } from "./actor-art.js";
 import { PRIMARY_ACTIVITY_ID, transformDamagePart } from "./activities.js";
 
 export interface StatblockEntry { name: string; desc: string }
@@ -65,7 +66,7 @@ export function statblockToActor(sb: Statblock, source: SourceRef) {
   const darkvision = Number(arr(sb.senses).join(" ").match(/darkvision\s+(\d+)/i)?.[1] ?? 0);
   const items = [...(sb.traits ?? []).map((t) => featItem(key, t, "passive")), ...(sb.actions ?? []).map((a) => featItem(key, a, "action"))];
   return {
-    _id: id, name: sb.name, type: "npc", img: "icons/svg/mystery-man.svg",
+    _id: id, name: sb.name, type: "npc", img: actorArt(sb.name, sb.type),
     system: {
       abilities: Object.fromEntries(ABIL.map((a, i) => [a, { value: sb.stats[i] ?? 10 }])),
       attributes: { ac: { calc: "flat", flat: sb.ac }, hp: { value: sb.hp, max: sb.hp, formula: "" }, movement: { ...movement, units: "ft" }, senses: { ranges: { darkvision }, units: "ft" } },
@@ -73,6 +74,6 @@ export function statblockToActor(sb: Statblock, source: SourceRef) {
       traits: { size: SIZE[sb.size.toLowerCase()] ?? "med", dr: { value: csv(sb.damage_resistances).filter((d) => DMG.has(d)), custom: "" }, ci: { value: csv(sb.condition_immunities), custom: "" } },
       skills,
     },
-    items, effects: [], prototypeToken: { name: sb.name, actorLink: false }, flags: { op5e: { source } }, folder: null, sort: 0, ownership: { default: 0 },
+    items, effects: [], prototypeToken: { name: sb.name, actorLink: false, texture: { src: actorArt(sb.name, sb.type) } }, flags: { op5e: { source } }, folder: null, sort: 0, ownership: { default: 0 },
   };
 }

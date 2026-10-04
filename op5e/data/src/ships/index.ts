@@ -1,4 +1,5 @@
 import { generateId } from "../../helpers/id.js";
+import { actorArt } from "../../helpers/actor-art.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { parseAvailability, parseCannons, parseShips } from "./parse.js";
 
@@ -12,7 +13,8 @@ export default ships.map((s) => ({
   _id: generateId(`ship/${s.name}`),
   name: s.name,
   type: "vehicle",
-  img: "icons/svg/anchor.svg",
+  img: actorArt(s.name, "vehicle"),
+  prototypeToken: { name: s.name, texture: { src: actorArt(s.name, "vehicle") } },
   system: {
     vehicleType: "water",
     attributes: {
