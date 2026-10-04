@@ -4,14 +4,27 @@ Heuristic read-only comparison of each item's activities against its description
 
 | pack | docs | with activities | flagged |
 |---|---|---|---|
-| class-features | 833 | 278 | 3 |
-| racial-features | 86 | 21 | 1 |
-| feats | 228 | 90 | 0 |
-| items | 426 | 124 | 14 |
-| creations | 427 | 427 | 19 |
+| class-features | 839 | 310 | 5 |
+| racial-features | 86 | 22 | 1 |
+| feats | 228 | 114 | 1 |
+| items | 421 | 129 | 14 |
+| creations | 426 | 426 | 19 |
 | backgrounds | 56 | 0 | 0 |
 
-By kind: save-missing 6, described-damage-missing 6, dice-not-in-text 14, healing-missing 5, text-save-not-automated 11
+By kind: described-damage-missing 21, save-missing 6, dice-not-in-text 15, healing-missing 5, text-save-not-automated 11
+
+## class-features/Advanced Arsenal
+- described-damage-missing: text: 2d8 force; no activity deals force
+- described-damage-missing: text: 2d6 psychic; no activity deals psychic
+- described-damage-missing: text: 4d6 psychic; no activity deals psychic
+- described-damage-missing: text: 2d6 necrotic; no activity deals necrotic
+- described-damage-missing: text: 2d6 piercing; no activity deals piercing
+- described-damage-missing: text: 2d6 slashing; no activity deals slashing
+- described-damage-missing: text: 1d6 piercing; no activity deals piercing
+- described-damage-missing: text: 1d6 force; no activity deals force
+- described-damage-missing: text: 2d6 force; no activity deals force
+- described-damage-missing: text: 2d6 psychic; no activity deals psychic
+- described-damage-missing: text: 4d6 psychic; no activity deals psychic
 
 ## class-features/Experimental Medicine
 - save-missing: text has con save; no save activity
@@ -22,7 +35,16 @@ By kind: save-missing 6, described-damage-missing 6, dice-not-in-text 14, healin
 ## class-features/Area Strike
 - described-damage-missing: text: 2d6 slashing; no activity deals slashing
 
+## class-features/Risky Gambit
+- described-damage-missing: text: 1d6 necrotic; no activity deals necrotic
+- described-damage-missing: text: 1d10 fire; no activity deals fire
+- described-damage-missing: text: 2d10 psychic; no activity deals psychic
+- described-damage-missing: text: 2d10 thunder; no activity deals thunder
+
 ## racial-features/Minor Haki
+- dice-not-in-text: activities roll 1d4; text has no dice
+
+## feats/Boon of One Thousand Blows
 - dice-not-in-text: activities roll 1d4; text has no dice
 
 ## items/12-pounder

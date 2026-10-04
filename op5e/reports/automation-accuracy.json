@@ -1,28 +1,28 @@
 {
   "stats": {
     "class-features": {
-      "docs": 833,
-      "withActivities": 278,
-      "flagged": 3
+      "docs": 839,
+      "withActivities": 310,
+      "flagged": 5
     },
     "racial-features": {
       "docs": 86,
-      "withActivities": 21,
+      "withActivities": 22,
       "flagged": 1
     },
     "feats": {
       "docs": 228,
-      "withActivities": 90,
-      "flagged": 0
+      "withActivities": 114,
+      "flagged": 1
     },
     "items": {
-      "docs": 426,
-      "withActivities": 124,
+      "docs": 421,
+      "withActivities": 129,
       "flagged": 14
     },
     "creations": {
-      "docs": 427,
-      "withActivities": 427,
+      "docs": 426,
+      "withActivities": 426,
       "flagged": 19
     },
     "backgrounds": {
@@ -32,13 +32,63 @@
     }
   },
   "byKind": {
+    "described-damage-missing": 21,
     "save-missing": 6,
-    "described-damage-missing": 6,
-    "dice-not-in-text": 14,
+    "dice-not-in-text": 15,
     "healing-missing": 5,
     "text-save-not-automated": 11
   },
   "findings": [
+    {
+      "pack": "class-features",
+      "name": "Advanced Arsenal",
+      "issues": [
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 2d8 force; no activity deals force"
+        },
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 2d6 psychic; no activity deals psychic"
+        },
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 4d6 psychic; no activity deals psychic"
+        },
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 2d6 necrotic; no activity deals necrotic"
+        },
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 2d6 piercing; no activity deals piercing"
+        },
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 2d6 slashing; no activity deals slashing"
+        },
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 1d6 piercing; no activity deals piercing"
+        },
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 1d6 force; no activity deals force"
+        },
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 2d6 force; no activity deals force"
+        },
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 2d6 psychic; no activity deals psychic"
+        },
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 4d6 psychic; no activity deals psychic"
+        }
+      ]
+    },
     {
       "pack": "class-features",
       "name": "Experimental Medicine",
@@ -70,8 +120,40 @@
       ]
     },
     {
+      "pack": "class-features",
+      "name": "Risky Gambit",
+      "issues": [
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 1d6 necrotic; no activity deals necrotic"
+        },
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 1d10 fire; no activity deals fire"
+        },
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 2d10 psychic; no activity deals psychic"
+        },
+        {
+          "kind": "described-damage-missing",
+          "detail": "text: 2d10 thunder; no activity deals thunder"
+        }
+      ]
+    },
+    {
       "pack": "racial-features",
       "name": "Minor Haki",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 1d4; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "feats",
+      "name": "Boon of One Thousand Blows",
       "issues": [
         {
           "kind": "dice-not-in-text",
