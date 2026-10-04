@@ -2,6 +2,7 @@
 // Needs the users "Automation", "Automation 2" ... "Automation 5" (GM role, no password) in the test world.
 // Usage: node dev/harness/sweep-parallel.mjs [--small] [shard index ...]
 //   --small  quick check: one shard, every 25th doc of every pack (about 90 docs)
+//   --resume continue a stopped or crashed sweep from each shard's checkpoint (control: node scripts/control.mjs pause|resume|stop)
 //   indexes  re-run only those shards; the others keep their last results
 // Prints a one-line progress report every 30 s; writes reports/execution-everything.json when done.
 import { spawn } from "node:child_process";
@@ -17,6 +18,7 @@ const SHARDS = process.argv.includes("--small")
     { user: "Automation 4", packs: ["feats", "racial-features", "ship-weapons", "devil-fruits"], slice: "0/1" },
     { user: "Automation 5", packs: ["items", "creations", "backgrounds"], slice: "0/1" },
   ];
+const resume = process.argv.includes("--resume");
 const only = process.argv.slice(2).filter((a) => /^\d+$/.test(a)).map(Number);
 const active = SHARDS.map((s, i) => i).filter((i) => !only.length || only.includes(i));
 
@@ -36,8 +38,8 @@ const timer = setInterval(report, 30000);
 
 const run = (i) => new Promise((res) => {
   const s = SHARDS[i], out = `reports/.sweep-shard-${i}.json`;
-  writeFileSync(out, "{}");
-  const p = spawn("node", ["dev/harness/everything.mjs", ...s.packs], { env: { ...process.env, FOUNDRY_USER: s.user, SLICE: s.slice, SWEEP_OUT: out }, stdio: ["ignore", "pipe", "pipe"] });
+  if (!resume) writeFileSync(out, "{}");   // --resume keeps each shard's checkpoint and skips the documents already tested
+  const p = spawn("node", ["dev/harness/everything.mjs", ...s.packs], { env: { ...process.env, FOUNDRY_USER: s.user, SLICE: s.slice, SWEEP_OUT: out, RESUME: resume ? "1" : "0" }, stdio: ["ignore", "pipe", "pipe"] });
   p.stdout.on("data", (d) => {
     for (const l of String(d).split("\n").filter(Boolean)) {
       const m = /^PROGRESS (\S+) (\d+)\/\d+ fails (\d+)/.exec(l);

@@ -9,6 +9,10 @@ import { writeFileSync, readFileSync, existsSync } from "node:fs";
 import { withFoundry, postToGM } from "./drive.mjs";
 import { BUILT, pageLib } from "./advance-lib.mjs";
 
+// pause / stop / resume: scripts/control.mjs writes reports/control.json; checked before every document
+const RESUME = process.env.RESUME === "1";
+const control = () => { try { return JSON.parse(readFileSync("reports/control.json", "utf8")); } catch { return {}; } };
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const only = process.argv.slice(2);
 const PACKS = ["class-features", "racial-features", "feats", "items", "creations", "backgrounds", "devil-fruits", "ship-weapons"].filter((p) => !only.length || only.includes(p));
 const OUT = process.env.SWEEP_OUT ?? "reports/execution-everything.json";
@@ -195,15 +199,20 @@ try {
     for (const pack of PACKS) {
       const docs = Object.values(BUILT[pack] ?? {}).filter((d) => !process.env.ONLY || process.env.ONLY.split("|").includes(d.name))
         .filter((_, i) => { const [k, n] = (process.env.SLICE ?? "0/1").split("/").map(Number); return i % n === k; });   // SLICE=k/n: every n-th doc, so shards split one big pack
-      results[pack] = [];
+      results[pack] = RESUME ? (results[pack] ?? []) : [];
+      const done = new Set(results[pack].map((r) => r.id));   // resumed run: documents already tested are skipped
       // group by actor so each leveled actor is built once
       const groups = new Map();
       for (const d of docs) { const c = ctxFor(pack, d); const k = JSON.stringify(c.actor); (groups.get(k) ?? groups.set(k, []).get(k)).push({ d, c }); }
-      let n = 0; const total = docs.length;
-      for (const [, list] of groups) {
+      let n = results[pack].length; const total = docs.length;
+      for (const [, all] of groups) {
+        const list = all.filter(({ d }) => !done.has(d._id));
         for (const { d, c } of list) {
+          while (control().pause) await sleep(2000);
+          if (control().stop) { writeFileSync(OUT, JSON.stringify(results, null, 1)); console.log("STOPPED on request; resume with --resume"); process.exit(3); }
           const r = await Promise.race([page.evaluate(`__useItem(${JSON.stringify({ pack, id: d._id, ctx: c })})`), new Promise((res) => setTimeout(() => res({ id: d._id, name: d.name, ctx: c.label, fails: ["HANG: no result after 120 s"], warns: [], activities: [] }), 120000))]).catch((e) => ({ id: d._id, name: d.name, fails: [`harness: ${e.message.slice(0, 140)}`], warns: [], activities: [] }));
           r.pack = pack; results[pack].push(r); n++;
+          if (n % 5 === 0) writeFileSync(OUT, JSON.stringify(results, null, 1));   // checkpoint
           if (n % 10 === 0 || n === total) console.log(`PROGRESS ${pack} ${n}/${total} fails ${results[pack].filter((x) => x.fails.length).length}`);
           if (r.fails.length) console.log(`FAIL ${pack}/${r.name} [${r.ctx}]: ${r.fails.join(" | ")}`.slice(0, 260));
         }
