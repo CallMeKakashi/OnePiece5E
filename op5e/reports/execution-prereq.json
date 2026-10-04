@@ -134,6 +134,28 @@
    ]
   },
   {
+   "feat": "Zoan Hybrid Form",
+   "label": "no devil fruit",
+   "pass": true,
+   "got": [
+    "a Zoan devil fruit"
+   ]
+  },
+  {
+   "feat": "Zoan Hybrid Form",
+   "label": "a Logia fruit is not Zoan",
+   "pass": true,
+   "got": [
+    "a Zoan devil fruit"
+   ]
+  },
+  {
+   "feat": "Zoan Hybrid Form",
+   "label": "a (renamed) Zoan fruit qualifies",
+   "pass": true,
+   "got": true
+  },
+  {
    "feat": "Sea Sovereignty",
    "label": "Merfolk only",
    "pass": true,

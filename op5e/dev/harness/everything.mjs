@@ -11,16 +11,17 @@ import { BUILT, pageLib } from "./advance-lib.mjs";
 
 const only = process.argv.slice(2);
 const PACKS = ["class-features", "racial-features", "feats", "items", "creations", "backgrounds", "devil-fruits", "ship-weapons"].filter((p) => !only.length || only.includes(p));
-const OUT = "reports/execution-everything.json";
+const OUT = process.env.SWEEP_OUT ?? "reports/execution-everything.json";
 const results = existsSync(OUT) ? JSON.parse(readFileSync(OUT, "utf8")) : {};
 
 // ---- page-side -------------------------------------------------------------------------------------------------
 const pageSetup = () => {
+  Hooks.on("renderApplicationV2", (app, el) => { if (/RollConfigurationDialog/.test(app.constructor.name)) { let tries = 0; const t = setInterval(() => { const b = el.querySelector("button[type=submit], button[data-action=roll]"); if (b) b.click(); if (b || ++tries > 40) clearInterval(t); }, 150); } });
   const H = game.op5eHarness, AM = dnd5e.applications.advancement.AdvancementManager;
   const cache = new Map();
   const persist = async (clone, name) => {
     const data = clone.toObject(); delete data._stats; delete data._id;
-    data.name = `[T] ${name}`; data.flags = { ...(data.flags ?? {}), op5e: { ...(data.flags?.op5e ?? {}), harnessTest: true } };
+    data.name = `[T] ${name}`; data.flags = { ...(data.flags ?? {}), op5e: { ...(data.flags?.op5e ?? {}), harnessTest: true, shard: game.user.id } };
     return Actor.create(data, { keepId: false });
   };
   globalThis.__actorFor = async (kind, a, b) => {
@@ -48,7 +49,7 @@ const pageSetup = () => {
       actor = await persist(mgr.clone, `${a}`); await temp.delete();
     } else if (kind === "ship") {
       const s = __op5eBuilt("ships").find((x) => x.name === "Galleon");
-      actor = await Actor.create({ ...s.toObject(), name: "[T] Galleon", flags: { op5e: { harnessTest: true } } }, { keepId: false });
+      actor = await Actor.create({ ...s.toObject(), name: "[T] Galleon", flags: { op5e: { harnessTest: true, shard: game.user.id } } }, { keepId: false });
     }
     cache.set(key, actor); return actor;
   };
@@ -73,6 +74,12 @@ const pageSetup = () => {
       [item] = await actor.createEmbeddedDocuments("Item", [data], { keepId: false });
     } catch (e) { out.fails.push(`add to actor: ${String(e.message).slice(0, 160)}`); await target.delete(); return out; }
     if (["weapon", "equipment"].includes(item.type) && "equipped" in item.system) await item.update({ "system.equipped": true });
+    // activities that spend another feature's uses (Zoan forms spend Devil Fruit Uses) need that feature on the actor
+    for (const a of item.system.activities ?? []) for (const t of a.consumption?.targets ?? []) {
+      if (t.type !== "itemUses" || !t.target || actor.items.some((i) => i.system.identifier === t.target)) continue;
+      const dep = ["feats", "class-features"].flatMap((pk) => __op5eBuilt(pk)).find((d) => (d.system.identifier || d.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")) === t.target);
+      if (dep) await actor.createEmbeddedDocuments("Item", [dep.toObject()], { keepId: false });
+    }
     const acts = [...(item.system.activities ?? [])];
     // derived-data checks
     const um = item.system._source?.uses?.max;
@@ -84,7 +91,7 @@ const pageSetup = () => {
       if (actor.system.spells) await actor.update({ "system.spells": Object.fromEntries(Object.entries(actor.system.spells).filter(([, v]) => v?.max).map(([k, v]) => [k, { value: v.max }])) });   // each option is its own cast
       const fxCount = () => actor.effects.size + (game.user.targets.first()?.actor?.effects.size ?? 0) + actor.items.reduce((n, i) => n + i.effects.size * 0, 0);
       const fx0 = fxCount();
-      const msgs = game.messages.size, qty = item.system.quantity, spent = item.system.uses?.spent;
+      const msgs = __mine().length, qty = item.system.quantity, spent = item.system.uses?.spent;
       try {
         if (a.type === "summon") {
           // placing a token needs a canvas: verify every profile resolves and that the activity's bonuses evaluate on the summoned actor
@@ -107,8 +114,8 @@ const pageSetup = () => {
         }
         await Promise.race([H.executeActivity(item, a.id), new Promise((_, j) => setTimeout(() => j(new Error("TIMEOUT")), 10000))]);
         await new Promise((res) => setTimeout(res, 150));
-        r.message = game.messages.size > msgs;
-        const last = game.messages.contents.at(-1);
+        r.message = __mine().length > msgs;
+        const last = __mine().at(-1);
         const rolls = r.message ? last.rolls : [];
         r.rolls = rolls.map((x) => `${x.formula}=${x.total}`).slice(0, 3);
         if (!r.message) r.problem = `no chat message / not usable${__notes.length ? " (" + __notes.slice(-2).join("; ").slice(0, 120) + ")" : ""}`;
@@ -148,10 +155,12 @@ const pageSetup = () => {
     out.hp = hpBefore !== undefined ? [hpBefore, actor.system.attributes.hp.value] : null;
     await actor.items.get(item.id)?.delete().catch(() => {});
     await target.delete().catch(() => {});
-    await game.messages.documentClass.deleteDocuments(game.messages.contents.filter((m) => !m.flags?.op5eTestLog).map((m) => m.id)).catch(() => {});
+    await game.messages.documentClass.deleteDocuments(__mine().filter((m) => !m.flags?.op5eTestLog).map((m) => m.id)).catch(() => {});
     return out;
   };
-  globalThis.__cleanActors = async () => { cache.clear(); await H.cleanup(); };
+  // parallel shards share the world: each one only sees and removes its own actors and chat messages
+  globalThis.__mine = () => game.messages.contents.filter((m) => m.author?.id === game.user.id);
+  globalThis.__cleanActors = async () => { cache.clear(); for (const a of game.actors.filter((x) => x.getFlag("op5e", "shard") === game.user.id)) await a.delete().catch(() => {}); };
 };
 
 // ---- node-side: decide which actor each document needs -----------------------------------------------------------
@@ -163,6 +172,10 @@ const ctxFor = (pack, d) => {
     const m = req.match(/^([A-Za-z ]+?)(?: \(([^)]+)\))?(?: (\d+))?$/);
     if (m && classNames.includes(m[1].trim())) return { label: req || m[1], actor: ["class", m[1].trim(), m[2] ?? null] };
     if (m && racesNames.includes(m[1].trim())) return { label: req, actor: ["race", m[1].trim()] };
+    // "Battlemaster 3": a subclass name, so the actor needs that subclass (its scale values feed the feature's uses)
+    const sc = m && Object.values(BUILT.subclasses).find((x) => x.name === m[1].trim());
+    const owner = sc && Object.values(BUILT.classes).find((c) => c.system.identifier === sc.system.classIdentifier);
+    if (owner) return { label: req, actor: ["class", owner.name, sc.name] };
     return { label: `generic (${req || "no requirement"})`, actor: ["class", "Fighter", null] };
   }
   if (pack === "racial-features") {
@@ -180,16 +193,18 @@ try {
     await page.evaluate(`(${pageLib.toString()})(${JSON.stringify(BUILT)})`);
     await page.evaluate(`(${pageSetup.toString()})()`);
     for (const pack of PACKS) {
-      const docs = Object.values(BUILT[pack] ?? {}).filter((d) => !process.env.ONLY || process.env.ONLY.split("|").includes(d.name));
+      const docs = Object.values(BUILT[pack] ?? {}).filter((d) => !process.env.ONLY || process.env.ONLY.split("|").includes(d.name))
+        .filter((_, i) => { const [k, n] = (process.env.SLICE ?? "0/1").split("/").map(Number); return i % n === k; });   // SLICE=k/n: every n-th doc, so shards split one big pack
       results[pack] = [];
       // group by actor so each leveled actor is built once
       const groups = new Map();
       for (const d of docs) { const c = ctxFor(pack, d); const k = JSON.stringify(c.actor); (groups.get(k) ?? groups.set(k, []).get(k)).push({ d, c }); }
-      let n = 0;
+      let n = 0; const total = docs.length;
       for (const [, list] of groups) {
         for (const { d, c } of list) {
-          const r = await page.evaluate(`__useItem(${JSON.stringify({ pack, id: d._id, ctx: c })})`).catch((e) => ({ id: d._id, name: d.name, fails: [`harness: ${e.message.slice(0, 140)}`], warns: [], activities: [] }));
+          const r = await Promise.race([page.evaluate(`__useItem(${JSON.stringify({ pack, id: d._id, ctx: c })})`), new Promise((res) => setTimeout(() => res({ id: d._id, name: d.name, ctx: c.label, fails: ["HANG: no result after 120 s"], warns: [], activities: [] }), 120000))]).catch((e) => ({ id: d._id, name: d.name, fails: [`harness: ${e.message.slice(0, 140)}`], warns: [], activities: [] }));
           r.pack = pack; results[pack].push(r); n++;
+          if (n % 10 === 0 || n === total) console.log(`PROGRESS ${pack} ${n}/${total} fails ${results[pack].filter((x) => x.fails.length).length}`);
           if (r.fails.length) console.log(`FAIL ${pack}/${r.name} [${r.ctx}]: ${r.fails.join(" | ")}`.slice(0, 260));
         }
         await page.evaluate("__cleanActors()").catch(() => {});

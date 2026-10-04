@@ -152,6 +152,13 @@
       "path": "packs/ship-weapons",
       "type": "Item",
       "system": "dnd5e"
+    },
+    {
+      "name": "campaign-items",
+      "label": "OP5e Campaign Items",
+      "path": "packs/campaign-items",
+      "type": "Item",
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
@@ -174,7 +181,8 @@
         "monsters",
         "summons",
         "ships",
-        "ship-weapons"
+        "ship-weapons",
+        "campaign-items"
       ]
     }
   ],

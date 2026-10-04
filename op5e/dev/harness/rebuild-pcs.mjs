@@ -5,6 +5,18 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { withFoundry } from "./drive.mjs";
 import { BUILT, pageLib } from "./advance-lib.mjs";
 
+// What the old sheets had that the class/race/background rebuild does not produce: art (existing files in the old one-piece-5e module folder,
+// copied into modules/op5e/assets/players), Haki tiers the player actually trained, the devil fruit kind, and size.
+const ART = "modules/op5e/assets/players/";
+const EXTRA = {
+  'Matthew "The Jack" Burgess': { art: ["the-jack.webp", "jack-token.png"], haki: ["Color of Observation Novice", "Color of Observation Apprentice"], extras: ["Six Powers Adept"] },
+  Baptiste: { art: ["IMG_2905.webp", "token_1.png"], haki: ["Conqueror's Haki Novice", "Conqueror's Haki Apprentice"], fruit: "logia" },
+  Malphas: { art: ["Malphas.png", "Malphas_Token.png"], haki: [], fruit: "zoan" },
+  "B.O.B": { art: ["bob.png", "bob_token.png"], haki: ["Color of Armament Novice"], extras: ["Six Powers Adept"] },
+  Roma: { art: ["Roma.png", "roma-token.png"], haki: ["Color of Armament Novice"], fruit: "zoan" },
+  Hybrid: { art: ["Roma-Hybrid.png", "roma-hybrid-token.png"], haki: ["Color of Armament Novice"], fruit: "zoan" },
+  Sulong: { art: ["roma-sulong-full.png", "sulong-roma-token.png"], haki: ["Color of Armament Novice"], fruit: "zoan", size: "huge" },
+};
 const OLD = JSON.parse(readFileSync("reports/campaign-pcs-raw.json", "utf8"));
 const SPECS = [
   { old: 'Matthew "The Jack" Burgess', name: "Matthew \"The Jack\" Burgess", race: "Human", background: "Gambler", classes: [{ name: "Fighter", levels: 10, sub: "Gunslinger" }], note: "old Gunslinger/High Roller -> Fighter (Gunslinger)" },
@@ -17,7 +29,8 @@ const SPECS = [
   { old: "Roma", name: "Roma", race: "Mink", background: "Cook", classes: [{ name: "Fighter", levels: 3, sub: "Brute" }, { name: "Barbarian", levels: 7, sub: "Path of the Berserker" }] },
   { old: "Hybrid", name: "Hybrid", race: "Mink", background: "Cook", classes: [{ name: "Fighter", levels: 3, sub: "Brute" }, { name: "Barbarian", levels: 5, sub: "Path of the Berserker" }] },
   { old: "Sulong", name: "Sulong", race: "Mink", background: "Cook", classes: [{ name: "Fighter", levels: 3, sub: "Brute" }, { name: "Barbarian", levels: 5, sub: "Path of the Berserker" }] },
-].filter((s) => !process.argv.slice(2).length || process.argv.slice(2).includes(s.name));
+].map((s) => ({ ...s, ...EXTRA[s.name === 'Matthew "The Jack" Burgess (Marksman)' ? 'Matthew "The Jack" Burgess' : s.name === "Thunderbird (Form 1)" || s.name === "Thunderbird (Form 2)" ? "Malphas" : s.name] })).filter((s) => !process.argv.slice(2).length || process.argv.slice(2).includes(s.name));
+
 
 const prefs = SPECS.map((s) => {
   const o = OLD.find((a) => a.name === s.old);
@@ -25,7 +38,9 @@ const prefs = SPECS.map((s) => {
   const skills = Object.fromEntries(Object.entries(o.system.skills ?? {}).filter(([, v]) => v.value).map(([k, v]) => [k, v.value]));
   const feats = o.items.filter((i) => i.type === "feat" && i.system?.type?.value === "feat").map((i) => i.name);
   const gear = o.items.filter((i) => ["weapon", "equipment", "consumable", "tool", "loot"].includes(i.type)).map((i) => ({ name: i.name, qty: i.system?.quantity ?? 1, equipped: !!i.system?.equipped, type: i.type }));
-  return { ...s, abilities, skills, oldFeats: feats, gear };
+  const pouches = o.items.filter((i) => /^pouch of berries/i.test(i.name)).reduce((n, i) => n + (/\((\d+)K\)/i.exec(i.name) ? Number(/\((\d+)K\)/i.exec(i.name)[1]) * 1000 : 0), 0);
+  const berries = (o.system.currency?.gp ?? 0) + pouches;
+  return { ...s, art: s.art?.map((f) => ART + f), abilities, skills, oldFeats: feats, gear, berries, oldFeatureNames: o.items.filter((i) => i.type === "feat").map((i) => i.name) };
 });
 
 const build = async (spec) => {
@@ -69,9 +84,11 @@ const build = async (spec) => {
   const upd = { "system.abilities": Object.fromEntries(Object.entries(spec.abilities).map(([k, v]) => [k, { value: v }])) };
   for (const [k, v] of Object.entries(spec.skills)) upd[`system.skills.${k}.value`] = v;
   await actor.update(upd);
+  const ALIAS = [[/^death chal[ai]ce/i, "Death Chalice"], [/^green vile/i, "Green Vial (With Ace)"], [/^rolling pin - kura3.?$/i, "Rolling Pin: Kura3 (Base)"]];
   const gearAdded = [], gearMissing = [], gearStd = [];
   for (const g of spec.gear) {
-    const it = by("items", g.name) ?? __op5eBuilt("items").find((d) => d.name.toLowerCase() === g.name.toLowerCase());
+    const gname = ALIAS.find(([re]) => re.test(g.name))?.[1] ?? g.name;
+    const it = by("campaign-items", gname) ?? __op5eBuilt("campaign-items").find((d) => d.name.toLowerCase().replace(/[^a-z0-9]/g, "") === gname.toLowerCase().replace(/[^a-z0-9]/g, "")) ?? by("items", g.name) ?? __op5eBuilt("items").find((d) => d.name.toLowerCase() === g.name.toLowerCase());
     let it2 = it;
     if (!it2) {   // standard DMG/PHB item from the dnd5e compendiums (exact name, or the name before a "(...)" qualifier)
       const norm = (n) => n.toLowerCase().replace(/[’']/g, "'").replace(/\s*\(.*\)\s*$/, "").trim();
@@ -87,6 +104,25 @@ const build = async (spec) => {
     const d = it2.toObject(); delete d._id; d.system.quantity = g.qty; if ("equipped" in d.system) d.system.equipped = g.equipped;
     await actor.createEmbeddedDocuments("Item", [d], { keepId: false }); gearAdded.push(it2.name);
   }
+  // ---- campaign fixes: Haki as trained, devil fruit + its forms, extras, size, Berries, art, notes
+  const gone = [];
+  if (spec.haki) {
+    for (const it of actor.items.filter((i) => /^(Color of (Armament|Observation)|Conqueror's Haki) /.test(i.name))) { gone.push(it.name); await it.delete(); }
+    for (const n of spec.haki) { const d = by("class-features", n); if (d) await actor.createEmbeddedDocuments("Item", [d.toObject()], { keepId: false }); else note(`haki ${n} missing`); }
+  }
+  const grant = async (pack, name) => { const d = by(pack, name); if (!d) return note(`${pack}/${name} missing`); if (!actor.items.some((i) => i.name === d.name)) await actor.createEmbeddedDocuments("Item", [d.toObject()], { keepId: false }); };
+  if (spec.fruit) {
+    for (const it of actor.items.filter((i) => i.name === "No Devil Fruit (yet)" || i.flags?.op5e?.devilFruitTemplate)) await it.delete();
+    await grant("devil-fruits", `${spec.fruit[0].toUpperCase()}${spec.fruit.slice(1)} Devil Fruit (Template)`);
+    await grant("feats", "Devil Fruit Uses");
+    if (spec.fruit === "zoan") { await grant("feats", "Zoan Hybrid Form"); await grant("feats", "Zoan Full Beast Form"); }
+  }
+  for (const n of spec.extras ?? []) await grant("class-features", n);
+  const notes = spec.oldFeatureNames.filter((n) => !actor.items.some((i) => i.name === n)).sort();
+  const upd2 = { "system.traits.size": spec.size ?? "med", "system.currency.gp": spec.berries, img: spec.art ? spec.art[0] : actor.img, "prototypeToken.texture.src": spec.art ? spec.art[1] : actor.prototypeToken.texture.src,
+    "system.details.biography.value": `${actor.system.details.biography.value ?? ""}<h3>Rebuilt from the old campaign sheet</h3><p>Old features without a direct equivalent (re-add by hand if still used): ${notes.join(", ")}.</p><p>Old items not found in any compendium: ${gearMissing.join(", ") || "none"}.</p>` };
+  await actor.update(upd2);
+  log.push(`haki replaced: ${gone.join(", ") || "-"}; berries ${spec.berries}`);
   actor.reset();
   const s = actor.system, classes = actor.items.filter((i) => i.type === "class").map((c) => `${c.name} ${c.system.levels}`), subs = actor.items.filter((i) => i.type === "subclass").map((c) => c.name);
   return {

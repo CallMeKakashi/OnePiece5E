@@ -14,6 +14,7 @@ export type PackName =
   | "monsters"
   | "ships"
   | "ship-weapons"
+  | "campaign-items"
   | "spell-lists"
   | "reference"
   | "roll-tables";

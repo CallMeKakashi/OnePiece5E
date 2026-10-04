@@ -93,6 +93,12 @@ export function checkPrereq(prereq, actor, { level, added = [] } = {}) {
       || added.some((i) => i.type === "spell");
     if (!can) unmet.push("the ability to use creations");
   }
+  if (prereq.devilFruit) {
+    // the template and the fruits made from it carry flags.op5e.devilFruitTemplate; a renamed fruit keeps it
+    const kind = prereq.devilFruit, fruits = [...actor.items, ...added];
+    const has = fruits.some((i) => i.flags?.op5e?.devilFruitTemplate === kind || new RegExp(`devil fruit:\\s*${kind}`, "i").test(i.name));
+    if (!has) unmet.push(`a ${kind[0].toUpperCase()}${kind.slice(1)} devil fruit`);
+  }
   if (prereq.level && (level ?? actor.system.details?.level ?? 0) < prereq.level) unmet.push(`level ${prereq.level}`);
   return { unmet, notes };
 }

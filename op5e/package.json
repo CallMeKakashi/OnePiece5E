@@ -16,7 +16,6 @@
     "audit:characters:full": "node node_modules/tsx/dist/cli.mjs dev/character-sheet-audit/run-audit.ts --full",
     "extract": "node scripts/extract-sourcebook.mjs",
     "coverage": "node scripts/coverage.mjs",
-    "sweep": "node dev/harness/sweep.mjs",
     "deploy:foundry": "node scripts/deploy-foundry.mjs",
     "validate": "node scripts/validate-packs.mjs",
     "gates": "npm run build && npm run validate && node scripts/regression.mjs && npm test",

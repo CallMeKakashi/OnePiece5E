@@ -125,7 +125,7 @@ export const workGSpecs: Record<string, Spec> = {
       note: "Expend one die from the pool to remove one disease or poison from a creature." },
   ] },
   "class-features/Miracle Worker": { activities: [
-    { name: "Life-Saving Surgery", type: "utility", activation: "minute", consumeUse: true, range: 5, rangeUnits: "touch", targets: { count: 1, type: "creature" },
+    { name: "Life-Saving Surgery", type: "utility", activation: "minute", range: 5, rangeUnits: "touch", targets: { count: 1, type: "creature" },
       note: "A creature that died within the last hour. Requires medicine and anesthetics worth at least 1 000 000 beri (100gp), or free if the death occurred within 10 minutes. Concentrate for 1 minute as on a creation. On success the creature returns to life with 1 hit point and is cured of poisons and diseases." },
   ] },
   "class-features/Elegant Maneuver": {

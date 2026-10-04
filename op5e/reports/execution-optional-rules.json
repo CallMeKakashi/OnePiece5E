@@ -1,0 +1,59 @@
+{
+ "results": [
+  {
+   "label": "optCriticalSaves registered, default off",
+   "pass": true,
+   "got": true
+  },
+  {
+   "label": "optSiegeConstructs registered, default off",
+   "pass": true,
+   "got": true
+  },
+  {
+   "label": "optUnreasonableStrength registered, default off",
+   "pass": true,
+   "got": true
+  },
+  {
+   "label": "capacity before = Str 18 x 15 = 270 (imperial)",
+   "pass": true,
+   "got": 270
+  },
+  {
+   "label": "capacity after = before x level 5 (1350 imperial)",
+   "pass": true,
+   "got": 1350
+  },
+  {
+   "label": "setting off restores capacity",
+   "pass": true,
+   "got": 270
+  },
+  {
+   "label": "off: postCheckSaves changes nothing",
+   "pass": true,
+   "got": null
+  },
+  {
+   "label": "natural 20: saves, not failed, takes no damage (super saver)",
+   "pass": true,
+   "got": null
+  },
+  {
+   "label": "natural 1: fails, no super save",
+   "pass": true,
+   "got": null
+  },
+  {
+   "label": "harness ran without throwing",
+   "pass": false,
+   "got": "TypeError: Cannot read properties of undefined (reading 'name')\n    at Object.LF [as fn] (http://localhost:30000/modules/chris-premades/dist/main.js:1:1848869)\n    at fire (eval at evaluate (:311:30), <anonymous>:6:93)\n    at async eval (eval at evaluate (:311:30), <anonymous>:40:5)\n    at async <an"
+  }
+ ],
+ "encumbrance": {
+  "before": 270,
+  "after": 1350
+ },
+ "allOff": true
+}

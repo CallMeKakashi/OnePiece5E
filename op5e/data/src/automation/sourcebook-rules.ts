@@ -7,18 +7,20 @@ const HIGHEST = "max(@abilities.str.mod, @abilities.dex.mod, @abilities.con.mod,
 const ATK_DMG = ["mwak", "rwak", "msak", "rsak"];
 const dmgBonus = (v: string) => ATK_DMG.map((k) => ({ key: `system.bonuses.${k}.damage`, mode: 2, value: v }));
 const rollMode = (path: string, v: string) => ({ key: `${path}.roll.mode`, mode: v === "-1" ? 3 : 4, value: v });
-const DURATION_NOTE = "Duration: 10 minutes (1 hour at 5th level, 8 hours at 10th, 24 hours at 15th, unlimited at 20th); the effect below is set to 10 minutes, extend it by hand at higher levels.";
+const DFU = "devil-fruit-uses";   // the Devil Fruit Uses feat: Zoan/Logia forms spend its uses, not their own
+const LEVEL_DURATION = { op5e: { levelDuration: true } };   // scripts/compendium.mjs sets the effect length from the actor level when applied
+const DURATION_NOTE = "Duration: 10 minutes (1 hour at 5th level, 8 hours at 10th, 24 hours at 15th, unlimited at 20th); the effect length follows your level automatically.";
 
 const hybrid = (mult: number, who: string): Spec["activities"][number] => ({
-  name: `Hybrid Form (${who})`, type: "heal", activation: "bonus", consumeUse: true, duration: { value: 10, units: "minute" },
+  name: `Hybrid Form (${who})`, type: "heal", activation: "bonus", consumeUse: true, consumeTarget: DFU, duration: { value: 10, units: "minute" },
   healing: { formula: `${mult} * @details.level`, type: "temp" },
-  effects: [{ name: "Zoan Hybrid Form", seconds: 600, changes: dmgBonus("+@prof") }],
+  effects: [{ name: "Zoan Hybrid Form", seconds: 600, flags: LEVEL_DURATION, changes: dmgBonus("+@prof") }],
   note: `${DURATION_NOTE} Temporary hit points equal to your level x${mult} (${who}). All your attacks deal extra damage equal to your proficiency bonus. Your choice of Strength, Dexterity or Constitution increases by 1 when you eat the fruit. Other beast features (natural weapons, senses, extra limbs, movement) are chosen by the player.`,
 });
 const fullBeast = (who: string, mult: number): Spec["activities"][number] => ({
-  name: `Full Beast Form (${who})`, type: "utility", activation: "bonus", consumeUse: true, duration: { value: 10, units: "minute" },
+  name: `Full Beast Form (${who})`, type: "utility", activation: "bonus", consumeUse: true, consumeTarget: DFU, duration: { value: 10, units: "minute" },
   roll: { formula: `${mult} * @details.level`, name: `Full Beast hit points: ${mult} x level + the beast's Constitution modifier` },
-  effects: [{ name: "Zoan Full Beast Form", seconds: 600 }],
+  effects: [{ name: "Zoan Full Beast Form", seconds: 600, flags: LEVEL_DURATION }],
   note: `${DURATION_NOTE} Your statistics are replaced by the Full Beast stat block (keep alignment, personality, Int, Wis and Cha; keep skill and saving throw proficiencies and gain the creature's). Hit points: (${mult} x your level) + Full Beast Constitution modifier (${who}); on reverting you return to your prior hit points and excess damage carries over.`,
 });
 
@@ -81,9 +83,20 @@ export const sourcebookRuleSpecs: Record<string, Spec> = {
   "feats/Zoan Full Beast Form": {
     activities: [fullBeast("regular or carnivorous zoan", 5), fullBeast("ancient zoan", 6), fullBeast("mythical zoan", 7)],
   },
+  "racial-features/Inner Beast": {
+    uses: { max: "1", per: "lr" },
+    activities: [
+      { name: "Inner Beast", type: "utility", activation: "bonus", consumeUse: true, duration: { value: 1, units: "minute" },
+        effects: [{ name: "Inner Beast", seconds: 60, changes: [rollMode("system.abilities.str.check", "1"), rollMode("system.abilities.dex.check", "1"), { key: "system.attributes.movement.walk", mode: 2, value: "10" }] }],
+        note: "Advantage on Strength and Dexterity ability checks and +10 speed for 1 minute; your Electro deals extra lightning damage equal to your level while it lasts. Use this one when the full moon is not visible." },
+      { name: "Inner Beast (Sulong, full moon)", type: "utility", activation: "bonus", consumeUse: true, duration: { value: 1, units: "minute" },
+        effects: [{ name: "Sulong", seconds: 60, changes: [rollMode("system.abilities.str.check", "1"), rollMode("system.abilities.dex.check", "1"), { key: "system.attributes.movement.walk", mode: 2, value: "10" }, { key: "system.abilities.str.value", mode: 2, value: "4" }, { key: "system.abilities.dex.value", mode: 2, value: "4" }] }],
+        note: "Only when the full moon is visible: as Inner Beast, and your Strength and Dexterity increase by 4 (this can exceed 20 but not 30). When Sulong ends you suffer one level of exhaustion; add it yourself when the effect expires." },
+    ],
+  },
   "feats/Zoan Enhanced Form": {
     uses: { max: "1", per: "lr" },
-    activities: [{ name: "Enhanced Form", type: "utility", activation: "bonus", consumeUse: true, duration: { value: 1, units: "hour" },
+    activities: [{ name: "Enhanced Form", type: "utility", activation: "bonus", consumeUse: true, consumeTarget: DFU, duration: { value: 1, units: "hour" },
       effects: [{ name: "Zoan Enhanced Form", seconds: 3600, changes: dmgBonus("+1d8") }],
       note: "Spend a devil fruit use to access an Enhanced Form of your Hybrid Form or Full Beast Form: increase your size by 1 category (dimensions double, weight x8), attack reach +5 ft, and your attacks deal an extra 1d8 damage. Lasts 1 hour; regained at the end of a long rest. Size and reach are applied by hand." }],
   },
@@ -94,7 +107,7 @@ export const sourcebookRuleSpecs: Record<string, Spec> = {
     uses: { max: "2", per: "lr" },
     activities: [
       { name: "Produce Element", type: "utility", activation: "action", note: "Produce a near-infinite amount of your element and manipulate it as part of the same action." },
-      { name: "Elemental Body", type: "utility", activation: "bonus", consumeUse: true, duration: { value: 1, units: "minute" },
+      { name: "Elemental Body", type: "utility", activation: "bonus", consumeUse: true, consumeTarget: DFU, duration: { value: 1, units: "minute" },
         effects: [{ name: "Elemental Body", seconds: 60, changes: BPS.map((t) => ({ key: "system.traits.dr.value", mode: 2, value: t })) }],
         note: "Transform your body into a limitless form of your element: resistance to unimbued bludgeoning, piercing and slashing damage plus element-specific benefits (overcome by your element's weakness). Twice per long rest. Example, Rumble-Rumble: immunity to lightning damage; cannot be grappled or restrained unless the source has armament haki or is an insulator; advantage on Dexterity checks and saving throws." },
       { name: "Elemental Attack (2d8)", type: "damage", activation: "action", damage: [["(2 + floor((@details.level + 1) / 6))d8", ""]], note: "2d8 or 2d10 at 1st level, +1 die at 5th, 11th and 17th level. Damage type is your element's." },

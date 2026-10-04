@@ -118,4 +118,5 @@ for (const [heading, h] of Object.entries(HAND)) {
 const spray = handDefs.get("Prismatic Spray")!;
 appxPages.push(page(APPX, "hand/Prismatic Spray", spray.name, appxPages.length, `<p>${esc(spray.description)}</p>${tableHtml(["d8", "Color", "Effect"], spray.rows.map((r) => [String(r.lo), r.label ?? "", r.text]))}`));
 
-export default [...sections, entry(APPX, SECTIONS.length, appxPages)];
+import shops from "./shops.js";
+export default [...sections, entry(APPX, SECTIONS.length, appxPages), shops];

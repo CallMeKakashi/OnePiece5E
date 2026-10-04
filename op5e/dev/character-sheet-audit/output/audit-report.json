@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T12:30:37.019Z",
+  "generatedAt": "2026-10-04T12:07:18.441Z",
   "mode": "static-data-audit",
   "note": "Phase 1 bar: ItemGrants, @scale, uses.max, granted weapons, attack activities. Phase 2 backlog: DAE passives (Unarmored Defense, Expertise, etc.). Phase 2b: tracked passive checklist (phase2bStatus). Does not execute Foundry AdvancementManager.",
   "builds": [
@@ -58,31 +58,125 @@
           "pass": true,
           "expectedItemCount": 25,
           "brokenUuids": [],
-          "issues": []
+          "issues": [
+            {
+              "code": "text-only",
+              "feature": "Devious Strike",
+              "level": 5,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            }
+          ]
         },
         "10": {
           "pass": true,
           "expectedItemCount": 29,
           "brokenUuids": [],
-          "issues": []
+          "issues": [
+            {
+              "code": "text-only",
+              "feature": "Devious Strike",
+              "level": 5,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            }
+          ]
         },
         "15": {
           "pass": true,
           "expectedItemCount": 34,
           "brokenUuids": [],
-          "issues": []
+          "issues": [
+            {
+              "code": "text-only",
+              "feature": "Devious Strike",
+              "level": 5,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "text-only",
+              "feature": "Duplicitious Strike",
+              "level": 14,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-activation",
+              "feature": "Duplicitious Strike",
+              "level": 14,
+              "message": "Description mentions bonus action but activation.type is empty.",
+              "fixHint": "Set system.activation.type to 'bonus'.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "text-only",
+              "feature": "Cloak-and-Dagger",
+              "level": 13,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            }
+          ]
         },
         "20": {
           "pass": true,
           "expectedItemCount": 37,
           "brokenUuids": [],
-          "issues": []
+          "issues": [
+            {
+              "code": "text-only",
+              "feature": "Devious Strike",
+              "level": 5,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "text-only",
+              "feature": "Duplicitious Strike",
+              "level": 14,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-activation",
+              "feature": "Duplicitious Strike",
+              "level": 14,
+              "message": "Description mentions bonus action but activation.type is empty.",
+              "fixHint": "Set system.activation.type to 'bonus'.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "text-only",
+              "feature": "Cloak-and-Dagger",
+              "level": 13,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            }
+          ]
         }
       },
       "summary": {
         "errors": 0,
-        "warnings": 0,
-        "textOnlyCount": 0
+        "warnings": 10,
+        "textOnlyCount": 8
       }
     },
     {
@@ -179,33 +273,217 @@
         },
         "5": {
           "pass": true,
-          "expectedItemCount": 18,
+          "expectedItemCount": 21,
           "brokenUuids": [],
-          "issues": []
+          "issues": [
+            {
+              "code": "text-only",
+              "feature": "Flurry of Blows",
+              "level": 2,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "text-only",
+              "feature": "Patient Defense",
+              "level": 2,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-activation",
+              "feature": "Patient Defense",
+              "level": 2,
+              "message": "Description mentions bonus action but activation.type is empty.",
+              "fixHint": "Set system.activation.type to 'bonus'.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "text-only",
+              "feature": "Deft Escape",
+              "level": 2,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-activation",
+              "feature": "Deft Escape",
+              "level": 2,
+              "message": "Description mentions bonus action but activation.type is empty.",
+              "fixHint": "Set system.activation.type to 'bonus'.",
+              "phase": "phase1",
+              "severity": "warn"
+            }
+          ]
         },
         "10": {
           "pass": true,
-          "expectedItemCount": 22,
+          "expectedItemCount": 25,
           "brokenUuids": [],
-          "issues": []
+          "issues": [
+            {
+              "code": "text-only",
+              "feature": "Flurry of Blows",
+              "level": 2,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "text-only",
+              "feature": "Patient Defense",
+              "level": 2,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-activation",
+              "feature": "Patient Defense",
+              "level": 2,
+              "message": "Description mentions bonus action but activation.type is empty.",
+              "fixHint": "Set system.activation.type to 'bonus'.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "text-only",
+              "feature": "Deft Escape",
+              "level": 2,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-activation",
+              "feature": "Deft Escape",
+              "level": 2,
+              "message": "Description mentions bonus action but activation.type is empty.",
+              "fixHint": "Set system.activation.type to 'bonus'.",
+              "phase": "phase1",
+              "severity": "warn"
+            }
+          ]
         },
         "15": {
           "pass": true,
-          "expectedItemCount": 26,
+          "expectedItemCount": 29,
           "brokenUuids": [],
-          "issues": []
+          "issues": [
+            {
+              "code": "text-only",
+              "feature": "Flurry of Blows",
+              "level": 2,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "text-only",
+              "feature": "Patient Defense",
+              "level": 2,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-activation",
+              "feature": "Patient Defense",
+              "level": 2,
+              "message": "Description mentions bonus action but activation.type is empty.",
+              "fixHint": "Set system.activation.type to 'bonus'.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "text-only",
+              "feature": "Deft Escape",
+              "level": 2,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-activation",
+              "feature": "Deft Escape",
+              "level": 2,
+              "message": "Description mentions bonus action but activation.type is empty.",
+              "fixHint": "Set system.activation.type to 'bonus'.",
+              "phase": "phase1",
+              "severity": "warn"
+            }
+          ]
         },
         "20": {
           "pass": true,
-          "expectedItemCount": 29,
+          "expectedItemCount": 32,
           "brokenUuids": [],
-          "issues": []
+          "issues": [
+            {
+              "code": "text-only",
+              "feature": "Flurry of Blows",
+              "level": 2,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "text-only",
+              "feature": "Patient Defense",
+              "level": 2,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-activation",
+              "feature": "Patient Defense",
+              "level": 2,
+              "message": "Description mentions bonus action but activation.type is empty.",
+              "fixHint": "Set system.activation.type to 'bonus'.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "text-only",
+              "feature": "Deft Escape",
+              "level": 2,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-activation",
+              "feature": "Deft Escape",
+              "level": 2,
+              "message": "Description mentions bonus action but activation.type is empty.",
+              "fixHint": "Set system.activation.type to 'bonus'.",
+              "phase": "phase1",
+              "severity": "warn"
+            }
+          ]
         }
       },
       "summary": {
         "errors": 0,
-        "warnings": 0,
-        "textOnlyCount": 0
+        "warnings": 20,
+        "textOnlyCount": 12
       }
     },
     {
@@ -216,37 +494,177 @@
           "pass": true,
           "expectedItemCount": 10,
           "brokenUuids": [],
-          "issues": []
+          "issues": [
+            {
+              "code": "text-only",
+              "feature": "Deft Explorer",
+              "level": 1,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-activation",
+              "feature": "Deft Explorer",
+              "level": 1,
+              "message": "Description mentions bonus action but activation.type is empty.",
+              "fixHint": "Set system.activation.type to 'bonus'.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-uses",
+              "feature": "Deft Explorer",
+              "level": 1,
+              "message": "Description implies limited uses but uses.max is empty.",
+              "fixHint": "Wire uses.max to @scale or formula (e.g. @prof, @abilities.cha.mod).",
+              "phase": "phase1",
+              "severity": "warn"
+            }
+          ]
         },
         "5": {
           "pass": true,
           "expectedItemCount": 17,
           "brokenUuids": [],
-          "issues": []
+          "issues": [
+            {
+              "code": "text-only",
+              "feature": "Deft Explorer",
+              "level": 1,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-activation",
+              "feature": "Deft Explorer",
+              "level": 1,
+              "message": "Description mentions bonus action but activation.type is empty.",
+              "fixHint": "Set system.activation.type to 'bonus'.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-uses",
+              "feature": "Deft Explorer",
+              "level": 1,
+              "message": "Description implies limited uses but uses.max is empty.",
+              "fixHint": "Wire uses.max to @scale or formula (e.g. @prof, @abilities.cha.mod).",
+              "phase": "phase1",
+              "severity": "warn"
+            }
+          ]
         },
         "10": {
           "pass": true,
           "expectedItemCount": 23,
           "brokenUuids": [],
-          "issues": []
+          "issues": [
+            {
+              "code": "text-only",
+              "feature": "Deft Explorer",
+              "level": 1,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-activation",
+              "feature": "Deft Explorer",
+              "level": 1,
+              "message": "Description mentions bonus action but activation.type is empty.",
+              "fixHint": "Set system.activation.type to 'bonus'.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-uses",
+              "feature": "Deft Explorer",
+              "level": 1,
+              "message": "Description implies limited uses but uses.max is empty.",
+              "fixHint": "Wire uses.max to @scale or formula (e.g. @prof, @abilities.cha.mod).",
+              "phase": "phase1",
+              "severity": "warn"
+            }
+          ]
         },
         "15": {
           "pass": true,
           "expectedItemCount": 26,
           "brokenUuids": [],
-          "issues": []
+          "issues": [
+            {
+              "code": "text-only",
+              "feature": "Deft Explorer",
+              "level": 1,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-activation",
+              "feature": "Deft Explorer",
+              "level": 1,
+              "message": "Description mentions bonus action but activation.type is empty.",
+              "fixHint": "Set system.activation.type to 'bonus'.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-uses",
+              "feature": "Deft Explorer",
+              "level": 1,
+              "message": "Description implies limited uses but uses.max is empty.",
+              "fixHint": "Wire uses.max to @scale or formula (e.g. @prof, @abilities.cha.mod).",
+              "phase": "phase1",
+              "severity": "warn"
+            }
+          ]
         },
         "20": {
           "pass": true,
           "expectedItemCount": 28,
           "brokenUuids": [],
-          "issues": []
+          "issues": [
+            {
+              "code": "text-only",
+              "feature": "Deft Explorer",
+              "level": 1,
+              "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+              "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-activation",
+              "feature": "Deft Explorer",
+              "level": 1,
+              "message": "Description mentions bonus action but activation.type is empty.",
+              "fixHint": "Set system.activation.type to 'bonus'.",
+              "phase": "phase1",
+              "severity": "warn"
+            },
+            {
+              "code": "needs-uses",
+              "feature": "Deft Explorer",
+              "level": 1,
+              "message": "Description implies limited uses but uses.max is empty.",
+              "fixHint": "Wire uses.max to @scale or formula (e.g. @prof, @abilities.cha.mod).",
+              "phase": "phase1",
+              "severity": "warn"
+            }
+          ]
         }
       },
       "summary": {
         "errors": 0,
-        "warnings": 0,
-        "textOnlyCount": 0
+        "warnings": 15,
+        "textOnlyCount": 5
       }
     },
     {
@@ -261,25 +679,25 @@
         },
         "5": {
           "pass": true,
-          "expectedItemCount": 18,
+          "expectedItemCount": 22,
           "brokenUuids": [],
           "issues": []
         },
         "10": {
           "pass": true,
-          "expectedItemCount": 22,
+          "expectedItemCount": 28,
           "brokenUuids": [],
           "issues": []
         },
         "15": {
           "pass": true,
-          "expectedItemCount": 26,
+          "expectedItemCount": 34,
           "brokenUuids": [],
           "issues": []
         },
         "20": {
           "pass": true,
-          "expectedItemCount": 28,
+          "expectedItemCount": 38,
           "brokenUuids": [],
           "issues": []
         }
@@ -343,25 +761,25 @@
         },
         "5": {
           "pass": true,
-          "expectedItemCount": 12,
+          "expectedItemCount": 16,
           "brokenUuids": [],
           "issues": []
         },
         "10": {
           "pass": true,
-          "expectedItemCount": 15,
+          "expectedItemCount": 21,
           "brokenUuids": [],
           "issues": []
         },
         "15": {
           "pass": true,
-          "expectedItemCount": 18,
+          "expectedItemCount": 26,
           "brokenUuids": [],
           "issues": []
         },
         "20": {
           "pass": true,
-          "expectedItemCount": 20,
+          "expectedItemCount": 30,
           "brokenUuids": [],
           "issues": []
         }
@@ -455,7 +873,458 @@
       }
     }
   ],
-  "masterGaps": [],
+  "masterGaps": [
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Deft Escape",
+      "level": 5,
+      "code": "needs-activation",
+      "message": "Description mentions bonus action but activation.type is empty.",
+      "fixHint": "Set system.activation.type to 'bonus'."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Deft Escape",
+      "level": 10,
+      "code": "needs-activation",
+      "message": "Description mentions bonus action but activation.type is empty.",
+      "fixHint": "Set system.activation.type to 'bonus'."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Deft Escape",
+      "level": 15,
+      "code": "needs-activation",
+      "message": "Description mentions bonus action but activation.type is empty.",
+      "fixHint": "Set system.activation.type to 'bonus'."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Deft Escape",
+      "level": 20,
+      "code": "needs-activation",
+      "message": "Description mentions bonus action but activation.type is empty.",
+      "fixHint": "Set system.activation.type to 'bonus'."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "marksman-sniper-master-at-arms",
+      "feature": "Deft Explorer",
+      "level": 1,
+      "code": "needs-activation",
+      "message": "Description mentions bonus action but activation.type is empty.",
+      "fixHint": "Set system.activation.type to 'bonus'."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "marksman-sniper-master-at-arms",
+      "feature": "Deft Explorer",
+      "level": 1,
+      "code": "needs-uses",
+      "message": "Description implies limited uses but uses.max is empty.",
+      "fixHint": "Wire uses.max to @scale or formula (e.g. @prof, @abilities.cha.mod)."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "marksman-sniper-master-at-arms",
+      "feature": "Deft Explorer",
+      "level": 5,
+      "code": "needs-activation",
+      "message": "Description mentions bonus action but activation.type is empty.",
+      "fixHint": "Set system.activation.type to 'bonus'."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "marksman-sniper-master-at-arms",
+      "feature": "Deft Explorer",
+      "level": 5,
+      "code": "needs-uses",
+      "message": "Description implies limited uses but uses.max is empty.",
+      "fixHint": "Wire uses.max to @scale or formula (e.g. @prof, @abilities.cha.mod)."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "marksman-sniper-master-at-arms",
+      "feature": "Deft Explorer",
+      "level": 10,
+      "code": "needs-activation",
+      "message": "Description mentions bonus action but activation.type is empty.",
+      "fixHint": "Set system.activation.type to 'bonus'."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "marksman-sniper-master-at-arms",
+      "feature": "Deft Explorer",
+      "level": 10,
+      "code": "needs-uses",
+      "message": "Description implies limited uses but uses.max is empty.",
+      "fixHint": "Wire uses.max to @scale or formula (e.g. @prof, @abilities.cha.mod)."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "marksman-sniper-master-at-arms",
+      "feature": "Deft Explorer",
+      "level": 15,
+      "code": "needs-activation",
+      "message": "Description mentions bonus action but activation.type is empty.",
+      "fixHint": "Set system.activation.type to 'bonus'."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "marksman-sniper-master-at-arms",
+      "feature": "Deft Explorer",
+      "level": 15,
+      "code": "needs-uses",
+      "message": "Description implies limited uses but uses.max is empty.",
+      "fixHint": "Wire uses.max to @scale or formula (e.g. @prof, @abilities.cha.mod)."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "marksman-sniper-master-at-arms",
+      "feature": "Deft Explorer",
+      "level": 20,
+      "code": "needs-activation",
+      "message": "Description mentions bonus action but activation.type is empty.",
+      "fixHint": "Set system.activation.type to 'bonus'."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "marksman-sniper-master-at-arms",
+      "feature": "Deft Explorer",
+      "level": 20,
+      "code": "needs-uses",
+      "message": "Description implies limited uses but uses.max is empty.",
+      "fixHint": "Wire uses.max to @scale or formula (e.g. @prof, @abilities.cha.mod)."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "rogue-assassin-archaeologist-navigator",
+      "feature": "Duplicitious Strike",
+      "level": 15,
+      "code": "needs-activation",
+      "message": "Description mentions bonus action but activation.type is empty.",
+      "fixHint": "Set system.activation.type to 'bonus'."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "rogue-assassin-archaeologist-navigator",
+      "feature": "Duplicitious Strike",
+      "level": 20,
+      "code": "needs-activation",
+      "message": "Description mentions bonus action but activation.type is empty.",
+      "fixHint": "Set system.activation.type to 'bonus'."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Patient Defense",
+      "level": 5,
+      "code": "needs-activation",
+      "message": "Description mentions bonus action but activation.type is empty.",
+      "fixHint": "Set system.activation.type to 'bonus'."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Patient Defense",
+      "level": 10,
+      "code": "needs-activation",
+      "message": "Description mentions bonus action but activation.type is empty.",
+      "fixHint": "Set system.activation.type to 'bonus'."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Patient Defense",
+      "level": 15,
+      "code": "needs-activation",
+      "message": "Description mentions bonus action but activation.type is empty.",
+      "fixHint": "Set system.activation.type to 'bonus'."
+    },
+    {
+      "priority": 2,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Patient Defense",
+      "level": 20,
+      "code": "needs-activation",
+      "message": "Description mentions bonus action but activation.type is empty.",
+      "fixHint": "Set system.activation.type to 'bonus'."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "rogue-assassin-archaeologist-navigator",
+      "feature": "Cloak-and-Dagger",
+      "level": 15,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "rogue-assassin-archaeologist-navigator",
+      "feature": "Cloak-and-Dagger",
+      "level": 20,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Deft Escape",
+      "level": 5,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Deft Escape",
+      "level": 10,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Deft Escape",
+      "level": 15,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Deft Escape",
+      "level": 20,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "marksman-sniper-master-at-arms",
+      "feature": "Deft Explorer",
+      "level": 1,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "marksman-sniper-master-at-arms",
+      "feature": "Deft Explorer",
+      "level": 5,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "marksman-sniper-master-at-arms",
+      "feature": "Deft Explorer",
+      "level": 10,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "marksman-sniper-master-at-arms",
+      "feature": "Deft Explorer",
+      "level": 15,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "marksman-sniper-master-at-arms",
+      "feature": "Deft Explorer",
+      "level": 20,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "rogue-assassin-archaeologist-navigator",
+      "feature": "Devious Strike",
+      "level": 5,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "rogue-assassin-archaeologist-navigator",
+      "feature": "Devious Strike",
+      "level": 10,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "rogue-assassin-archaeologist-navigator",
+      "feature": "Devious Strike",
+      "level": 15,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "rogue-assassin-archaeologist-navigator",
+      "feature": "Devious Strike",
+      "level": 20,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "rogue-assassin-archaeologist-navigator",
+      "feature": "Duplicitious Strike",
+      "level": 15,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "rogue-assassin-archaeologist-navigator",
+      "feature": "Duplicitious Strike",
+      "level": 20,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Flurry of Blows",
+      "level": 5,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Flurry of Blows",
+      "level": 10,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Flurry of Blows",
+      "level": 15,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Flurry of Blows",
+      "level": 20,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Patient Defense",
+      "level": 5,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Patient Defense",
+      "level": 10,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Patient Defense",
+      "level": 15,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    },
+    {
+      "priority": 3,
+      "phase": "phase1",
+      "buildId": "brawler-open-hand-acrobat",
+      "feature": "Patient Defense",
+      "level": 20,
+      "code": "text-only",
+      "message": "Feature has no activation, uses, effects, damage, save, or weapon attack wiring.",
+      "fixHint": "Add DAE effects, uses.max, activation, or damage.parts as appropriate."
+    }
+  ],
   "phase2Backlog": [],
   "phase2bStatus": {
     "Diamond Soul": {
@@ -513,7 +1382,9 @@
     },
     "bard": {
       "missing": [],
-      "unused": []
+      "unused": [
+        "tricks-known"
+      ]
     },
     "brawler": {
       "missing": [],
@@ -521,7 +1392,9 @@
     },
     "marksman": {
       "missing": [],
-      "unused": []
+      "unused": [
+        "tricks-known"
+      ]
     },
     "gadgeteer": {
       "missing": [],
@@ -546,9 +1419,9 @@
     "buildsPassed": 11,
     "buildsFailed": 0,
     "totalErrors": 0,
-    "totalWarnings": 0,
+    "totalWarnings": 45,
     "phase1Errors": 0,
-    "phase1Warnings": 0,
+    "phase1Warnings": 45,
     "phase2Count": 0,
     "phase2bWired": 4,
     "phase2bPartial": 3,

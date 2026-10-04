@@ -1,10 +1,46 @@
 {
  "baseline": 1973,
- "preserved": 1971,
+ "preserved": 1962,
  "changed": [
   {
    "name": "Manipulate Earth",
    "why": "activity ids manipearthblud001,manipearthpier001 not present (re-keyed)"
+  },
+  {
+   "name": "Vitrolic Sphere",
+   "why": "re-keyed or moved pack"
+  },
+  {
+   "name": "Black Blade",
+   "why": "type loot -> weapon"
+  },
+  {
+   "name": "The Swap-Swap Fruit",
+   "why": "re-keyed or moved pack"
+  },
+  {
+   "name": "Flame Dial",
+   "why": "renamed -> Flame Dial (Cannon Shot)"
+  },
+  {
+   "name": "The Bat-Bat Fruit",
+   "why": "re-keyed or moved pack"
+  },
+  {
+   "name": "The Dice-Dice Fruit",
+   "why": "re-keyed or moved pack"
+  },
+  {
+   "name": "The Cloud-Cloud Fruit",
+   "why": "re-keyed or moved pack"
+  },
+  {
+   "name": "The Glug-Glug Fruit",
+   "why": "re-keyed or moved pack"
+  },
+  {
+   "name": "White Weapon (Non-Canon)",
+   "why": "type loot -> weapon"
   },
   {
    "name": "Flaming Duality",
@@ -12,5 +48,5 @@
   }
  ],
  "regressed": [],
- "added": 83
+ "added": 566
 }

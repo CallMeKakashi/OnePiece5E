@@ -86,6 +86,7 @@ const PACK_CONFIGS: PackConfig[] = [
   { name: "summons", srcDir: "summons", schema: foundryActorBase, collection: "actors" },
   { name: "ships", srcDir: "ships", schema: foundryActorBase, collection: "actors" },
   { name: "ship-weapons", srcDir: "ship-weapons", schema: foundryItemBase },
+  { name: "campaign-items", srcDir: "campaign-items", schema: foundryItemBase },
 ];
 
 interface Stats {

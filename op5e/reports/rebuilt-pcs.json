@@ -1,7 +1,7 @@
 [
  {
   "name": "Matthew \"The Jack\" Burgess",
-  "id": "CV5VXQdjitBVpB85",
+  "id": "3Hw0EWn0IRkZYPQe",
   "race": "Human",
   "background": "Gambler",
   "classes": [
@@ -12,7 +12,7 @@
   ],
   "level": 10,
   "hp": 74,
-  "ac": 16,
+  "ac": 17,
   "prof": 4,
   "abilities": {
    "str": 9,
@@ -22,13 +22,15 @@
    "wis": 17,
    "cha": 20
   },
-  "features": 27,
+  "features": 35,
   "feats": [
+   "Role: Captain",
+   "Alert",
    "Alert",
    "Lucky"
   ],
-  "skillsProf": 11,
-  "gearAdded": 16,
+  "skillsProf": 14,
+  "gearAdded": 28,
   "gearStd": [
    "Playing Cards",
    "Common Clothes",
@@ -39,32 +41,20 @@
    "Pan Flute"
   ],
   "gearMissing": [
-   "Buzz blade",
-   "Serum 33 (With Ace)",
    "The Prospector",
    "Cheaters’ Games",
-   "Serum 22 (With Ace)",
-   "Black goo",
-   "Plasma Cannon",
-   "Green vile (With Ace)",
-   "Seastone-arm",
-   "Ornate Cane",
-   "Lemonte's black glasses",
-   "Luck Charm (Coin of Easy Living)",
-   "Plasma Bolt",
-   "Sharkrazor Mantle"
+   "Plasma Bolt"
   ],
-  "issues": [
-   "L0 skills: trait choice 1/2 pool={} avail=Object:choices,label sets=SelectChoices:skills pool=skills:dec|skills:ins|skills:prc|skills:per"
-  ],
+  "issues": [],
   "log": [
-   "feats matched: Alert; no op5e equivalent: Archery, Marksman's Luck, Haki, Close Combat Artillerist, Mobile Combatant, Blind Fighting, Prone Defense, Color of Observation Novice"
+   "feats matched: Alert; no op5e equivalent: Archery, Marksman's Luck, Haki, Close Combat Artillerist, Mobile Combatant, Blind Fighting, Prone Defense, Color of Observation Novice",
+   "haki replaced: Color of Armament Novice, Color of Armament Apprentice; berries 600000"
   ],
   "note": "old Gunslinger/High Roller -> Fighter (Gunslinger)"
  },
  {
   "name": "Matthew \"The Jack\" Burgess (Marksman)",
-  "id": "U0ra3IFHcB13Pgd2",
+  "id": "t7GeZDIwGKeJXKLP",
   "race": "Human",
   "background": "Gambler",
   "classes": [
@@ -75,7 +65,7 @@
   ],
   "level": 10,
   "hp": 74,
-  "ac": 16,
+  "ac": 17,
   "prof": 4,
   "abilities": {
    "str": 9,
@@ -85,13 +75,15 @@
    "wis": 17,
    "cha": 20
   },
-  "features": 33,
+  "features": 39,
   "feats": [
+   "Role: Captain",
+   "Alert",
    "Alert",
    "Lucky"
   ],
-  "skillsProf": 11,
-  "gearAdded": 16,
+  "skillsProf": 14,
+  "gearAdded": 28,
   "gearStd": [
    "Playing Cards",
    "Common Clothes",
@@ -102,32 +94,20 @@
    "Pan Flute"
   ],
   "gearMissing": [
-   "Buzz blade",
-   "Serum 33 (With Ace)",
    "The Prospector",
    "Cheaters’ Games",
-   "Serum 22 (With Ace)",
-   "Black goo",
-   "Plasma Cannon",
-   "Green vile (With Ace)",
-   "Seastone-arm",
-   "Ornate Cane",
-   "Lemonte's black glasses",
-   "Luck Charm (Coin of Easy Living)",
-   "Plasma Bolt",
-   "Sharkrazor Mantle"
+   "Plasma Bolt"
   ],
-  "issues": [
-   "L0 skills: trait choice 1/2 pool={} avail=Object:choices,label sets=SelectChoices:skills pool=skills:dec|skills:ins|skills:prc|skills:per"
-  ],
+  "issues": [],
   "log": [
-   "feats matched: Alert; no op5e equivalent: Archery, Marksman's Luck, Haki, Close Combat Artillerist, Mobile Combatant, Blind Fighting, Prone Defense, Color of Observation Novice"
+   "feats matched: Alert; no op5e equivalent: Archery, Marksman's Luck, Haki, Close Combat Artillerist, Mobile Combatant, Blind Fighting, Prone Defense, Color of Observation Novice",
+   "haki replaced: Color of Armament Novice, Color of Armament Apprentice; berries 600000"
   ],
   "note": "alternate build: Marksman (Sniper) instead of Fighter (Gunslinger)"
  },
  {
   "name": "Baptiste",
-  "id": "Ib5mSjDqfgmCApW0",
+  "id": "CVYKphC8UxI3q5ph",
   "race": "Lunarian",
   "background": "Boxer",
   "classes": [
@@ -148,11 +128,14 @@
    "wis": 20,
    "cha": 13
   },
-  "features": 22,
+  "features": 28,
   "feats": [
-   "Unarmed Master"
+   "Role: Captain",
+   "Alert",
+   "Unarmed Master",
+   "Devil Fruit Uses"
   ],
-  "skillsProf": 8,
+  "skillsProf": 9,
   "gearAdded": 11,
   "gearStd": [
    "Unarmed Strike",
@@ -163,21 +146,20 @@
   ],
   "gearMissing": [
    "Gold Coin (Mafia Brand)",
-   "Bell Fragment",
    "Knuckles",
    "A bent berry coin",
-   "Blood Fury Tattoo",
    "Arms of the Astral Self"
   ],
   "issues": [],
   "log": [
-   "feats matched: none; no op5e equivalent: Haki"
+   "feats matched: none; no op5e equivalent: Haki",
+   "haki replaced: Color of Armament Novice, Color of Armament Apprentice; berries 100000"
   ],
   "note": "old Way of the Astral Self -> Chromatic Commandment (DM confirmed)"
  },
  {
   "name": "Malphas",
-  "id": "wa4KberDnYHkbWF6",
+  "id": "3UiykCoChO8rC7iy",
   "race": "Lunarian",
   "background": "Wanderer",
   "classes": [
@@ -198,13 +180,19 @@
    "wis": 16,
    "cha": 10
   },
-  "features": 21,
+  "features": 29,
   "feats": [
+   "Role: Captain",
+   "Alert",
    "Mobile",
-   "Alert"
+   "Alert",
+   "Acrobat",
+   "Devil Fruit Uses",
+   "Zoan Hybrid Form",
+   "Zoan Full Beast Form"
   ],
-  "skillsProf": 10,
-  "gearAdded": 18,
+  "skillsProf": 11,
+  "gearAdded": 19,
   "gearStd": [
    "Ink",
    "Common Clothes",
@@ -215,17 +203,16 @@
    "Playing Cards",
    "Map"
   ],
-  "gearMissing": [
-   "Puzzle Box (19%)"
-  ],
+  "gearMissing": [],
   "issues": [],
   "log": [
-   "feats matched: Mobile, Alert, Charger; no op5e equivalent: Elemental Adept (Lightning)"
+   "feats matched: Mobile, Alert, Charger; no op5e equivalent: Elemental Adept (Lightning)",
+   "haki replaced: Color of Armament Novice; berries 170000"
   ]
  },
  {
   "name": "Thunderbird (Form 1)",
-  "id": "aKD4ltpSuuc9JUWt",
+  "id": "hPo7qJYxfpPr441B",
   "race": "Lunarian",
   "background": "Wanderer",
   "classes": [
@@ -246,11 +233,17 @@
    "wis": 16,
    "cha": 10
   },
-  "features": 13,
+  "features": 22,
   "feats": [
-   "Mobile"
+   "Role: Captain",
+   "Alert",
+   "Mobile",
+   "Acrobat",
+   "Devil Fruit Uses",
+   "Zoan Hybrid Form",
+   "Zoan Full Beast Form"
   ],
-  "skillsProf": 9,
+  "skillsProf": 10,
   "gearAdded": 18,
   "gearStd": [
    "Ink",
@@ -265,12 +258,13 @@
   "gearMissing": [],
   "issues": [],
   "log": [
-   "feats matched: Mobile, Alert, Charger; no op5e equivalent: -"
+   "feats matched: Mobile, Alert, Charger; no op5e equivalent: -",
+   "haki replaced: -; berries 100000"
   ]
  },
  {
   "name": "Thunderbird (Form 2)",
-  "id": "A3yZBZ2XF7gsh4fm",
+  "id": "XJj2kyghoAgsPkN7",
   "race": "Lunarian",
   "background": "Wanderer",
   "classes": [
@@ -291,12 +285,18 @@
    "wis": 16,
    "cha": 10
   },
-  "features": 21,
+  "features": 29,
   "feats": [
+   "Role: Captain",
+   "Alert",
    "Mobile",
-   "Alert"
+   "Alert",
+   "Acrobat",
+   "Devil Fruit Uses",
+   "Zoan Hybrid Form",
+   "Zoan Full Beast Form"
   ],
-  "skillsProf": 9,
+  "skillsProf": 10,
   "gearAdded": 18,
   "gearStd": [
    "Ink",
@@ -311,12 +311,13 @@
   "gearMissing": [],
   "issues": [],
   "log": [
-   "feats matched: Mobile, Alert, Charger; no op5e equivalent: -"
+   "feats matched: Mobile, Alert, Charger; no op5e equivalent: -",
+   "haki replaced: Color of Armament Novice; berries 100000"
   ]
  },
  {
   "name": "B.O.B",
-  "id": "0oMoijh4fs4foSuF",
+  "id": "cDwXP9TMedhjpgel",
   "race": "Augmented",
   "background": "Scientist",
   "classes": [
@@ -337,14 +338,16 @@
    "wis": 8,
    "cha": 18
   },
-  "features": 28,
+  "features": 30,
   "feats": [
+   "Role: Captain",
+   "Alert",
    "Polearm Master",
    "Great Weapon Master",
    "Creativity Adept"
   ],
-  "skillsProf": 7,
-  "gearAdded": 10,
+  "skillsProf": 9,
+  "gearAdded": 11,
   "gearStd": [
    "Rations",
    "Hempen Rope (50 ft.)"
@@ -353,18 +356,18 @@
    "Armor of Sorrow",
    "Ray Of Twilight",
    "Twilight",
-   "Gold Coin (Mafia Brand)",
-   "Járnglófar"
+   "Gold Coin (Mafia Brand)"
   ],
   "issues": [],
   "log": [
-   "feats matched: Polearm Master, Great Weapon Master; no op5e equivalent: Six Powers Adept (Iron Body), Color of Armament Novice, Six Powers Adept (Paper Art), Armament Haki: Hardening, Haki"
+   "feats matched: Polearm Master, Great Weapon Master; no op5e equivalent: Six Powers Adept (Iron Body), Color of Armament Novice, Six Powers Adept (Paper Art), Armament Haki: Hardening, Haki",
+   "haki replaced: Color of Armament Novice, Color of Armament Apprentice; berries 0"
   ],
   "note": "old Paladin -> Savant (Necrotic Mania)"
  },
  {
   "name": "Roma",
-  "id": "BkJJhei1QHjSS4hf",
+  "id": "kLNPdOOqOvwragVK",
   "race": "Mink",
   "background": "Cook",
   "classes": [
@@ -387,79 +390,37 @@
    "wis": 10,
    "cha": 10
   },
-  "features": 24,
+  "features": 32,
   "feats": [
+   "Role: Captain",
+   "Alert",
    "Gourmand",
-   "Sentinel"
+   "Role: Navigator",
+   "Creativity Adept",
+   "Sentinel",
+   "Devil Fruit Uses",
+   "Zoan Hybrid Form",
+   "Zoan Full Beast Form"
   ],
-  "skillsProf": 12,
-  "gearAdded": 8,
+  "skillsProf": 15,
+  "gearAdded": 12,
   "gearStd": [
    "Common Clothes",
    "Hempen Rope (50 ft.)",
    "Rations"
   ],
   "gearMissing": [
-   "Magical Drinking Horn",
-   "Health Snacks",
-   "Death Scales",
-   "Rolling Pin - Kura3™",
-   "Death Chalace"
-  ],
-  "issues": [],
-  "log": [
-   "feats matched: Sentinel; no op5e equivalent: Haki, Armament Haki: Hardening, Color of Armament Novice"
-  ]
- },
- {
-  "name": "Hybrid",
-  "id": "liLKmZVD5HdfY8E4",
-  "race": "Mink",
-  "background": "Cook",
-  "classes": [
-   "Fighter 3",
-   "Barbarian 5"
-  ],
-  "subs": [
-   "Brute",
-   "Path of the Berserker"
-  ],
-  "level": 8,
-  "hp": 81,
-  "ac": 13,
-  "prof": 3,
-  "abilities": {
-   "str": 17,
-   "dex": 16,
-   "con": 16,
-   "int": 11,
-   "wis": 10,
-   "cha": 10
-  },
-  "features": 20,
-  "feats": [
-   "Gourmand",
-   "Sentinel"
-  ],
-  "skillsProf": 12,
-  "gearAdded": 8,
-  "gearStd": [
-   "Common Clothes",
-   "Hempen Rope (50 ft.)",
-   "Rations"
-  ],
-  "gearMissing": [
-   "Rolling Pin - Kura3™ (Cold)",
    "Health Snacks"
   ],
   "issues": [],
   "log": [
-   "feats matched: Sentinel; no op5e equivalent: Haki, Color of Armament Novice"
+   "feats matched: Sentinel; no op5e equivalent: Haki, Armament Haki: Hardening, Color of Armament Novice",
+   "haki replaced: -; berries 0"
   ]
  },
  {
-  "name": "Sulong",
-  "id": "s9VceOxiMfLnXpRU",
+  "name": "Hybrid",
+  "id": "lntdtUq76gnFrI1s",
   "race": "Mink",
   "background": "Cook",
   "classes": [
@@ -482,25 +443,85 @@
    "wis": 10,
    "cha": 10
   },
-  "features": 20,
+  "features": 28,
   "feats": [
+   "Role: Captain",
+   "Alert",
    "Gourmand",
-   "Sentinel"
+   "Role: Navigator",
+   "Creativity Adept",
+   "Sentinel",
+   "Devil Fruit Uses",
+   "Zoan Hybrid Form",
+   "Zoan Full Beast Form"
   ],
-  "skillsProf": 12,
-  "gearAdded": 8,
+  "skillsProf": 15,
+  "gearAdded": 9,
   "gearStd": [
    "Common Clothes",
    "Hempen Rope (50 ft.)",
    "Rations"
   ],
   "gearMissing": [
-   "Health Snacks",
-   "Rolling Pin - Kura3™ (Cold + Lightning)"
+   "Health Snacks"
   ],
   "issues": [],
   "log": [
-   "feats matched: Sentinel; no op5e equivalent: -"
+   "feats matched: Sentinel; no op5e equivalent: Haki, Color of Armament Novice",
+   "haki replaced: -; berries 0"
+  ]
+ },
+ {
+  "name": "Sulong",
+  "id": "1sVVjTkWdgPYTefQ",
+  "race": "Mink",
+  "background": "Cook",
+  "classes": [
+   "Fighter 3",
+   "Barbarian 5"
+  ],
+  "subs": [
+   "Brute",
+   "Path of the Berserker"
+  ],
+  "level": 8,
+  "hp": 81,
+  "ac": 13,
+  "prof": 3,
+  "abilities": {
+   "str": 17,
+   "dex": 16,
+   "con": 16,
+   "int": 11,
+   "wis": 10,
+   "cha": 10
+  },
+  "features": 28,
+  "feats": [
+   "Role: Captain",
+   "Alert",
+   "Gourmand",
+   "Role: Navigator",
+   "Creativity Adept",
+   "Sentinel",
+   "Devil Fruit Uses",
+   "Zoan Hybrid Form",
+   "Zoan Full Beast Form"
+  ],
+  "skillsProf": 15,
+  "gearAdded": 9,
+  "gearStd": [
+   "Common Clothes",
+   "Hempen Rope (50 ft.)",
+   "Rations"
+  ],
+  "gearMissing": [
+   "Health Snacks"
+  ],
+  "issues": [],
+  "log": [
+   "feats matched: Sentinel; no op5e equivalent: -",
+   "haki replaced: -; berries 0"
   ]
  }
 ]

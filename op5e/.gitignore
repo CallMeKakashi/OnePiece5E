@@ -6,3 +6,11 @@ dist/
 *.tar.gz
 *.zip
 final/
+assets/players/
+reports/.sweep-shard-*.json
+reports/walkthrough*/
+reports/status.html
+reports/sweep-progress.json
+reports/ship.log
+reports/.retest.json
+reports/ship-check.json

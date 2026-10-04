@@ -36,6 +36,8 @@ export interface ActSpec {
   effects?: EffectSpec[];
   /** consume one use of the item's own uses */
   consumeUse?: boolean;
+  /** identifier of another item on the actor whose uses are spent instead of this item's own */
+  consumeTarget?: string;
   /** amount of uses consumed when consumeUse is set (formula, default "1") */
   consumeAmount?: string;
   /** extra resource consumed, e.g. a spell slot */
@@ -66,7 +68,7 @@ export function buildFromSpec(key: string, spec: Spec, defaults: SpecDefaults = 
     const act: Record<string, unknown> = {
       _id: id, type: a.type, name: a.name, sort: i,
       activation: { type: a.activation ?? defaults.activation ?? "action", value: 1, condition: a.reactionWhen ?? "", override: false },
-      consumption: { targets: a.consumeUse ? [{ type: "itemUses", target: "", value: a.consumeAmount ?? "1", scaling: { mode: "", formula: "" } }] : [], scaling: { allowed: !!defaults.spell && (a.damage?.some((d) => d[2]) ?? false), max: "" }, spellSlot: !!defaults.spell && !a.consumeUse },
+      consumption: { targets: a.consumeUse ? [{ type: "itemUses", target: a.consumeTarget ?? "", value: a.consumeAmount ?? "1", scaling: { mode: "", formula: "" } }] : [], scaling: { allowed: !!defaults.spell && (a.damage?.some((d) => d[2]) ?? false), max: "" }, spellSlot: !!defaults.spell && !a.consumeUse },
       description: { chatFlavor: a.note ?? "" },
       duration: a.duration
         ? { concentration: a.duration.concentration ?? defaults.concentration ?? false, value: a.duration.units !== "inst" ? String(a.duration.value) : "", units: a.duration.units, special: "", override: true }

@@ -91,3 +91,12 @@ Hooks.on("dnd5e.preRollDamageV2", (rollConfig, dialog, message) => {
   onPreRollDamage(rollConfig, dialog, message, "dnd5e.preRollDamageV2");
 });
 
+
+// Zoan Hybrid/Full Beast Form last 10 minutes, 1 hour at 5th level, 8 hours at 10th, 24 hours at 15th and unlimited at 20th.
+// The effect ships with 10 minutes; set the real length from the actor's level when it lands on the actor.
+Hooks.on("preCreateActiveEffect", (effect) => {
+  if (!effect.getFlag?.(MODULE_ID, "levelDuration") || !(effect.parent instanceof Actor)) return;
+  const level = effect.parent.system.details?.level ?? 1;
+  const hours = [[20, 8760], [15, 24], [10, 8], [5, 1]].find(([l]) => level >= l)?.[1] ?? 1 / 6;
+  effect.updateSource({ "duration.seconds": Math.round(hours * 3600) });
+});

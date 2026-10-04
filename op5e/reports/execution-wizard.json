@@ -14,7 +14,7 @@
   "row": {
    "hp": 12,
    "total": 73,
-   "items": 40,
+   "items": 41,
    "subclass": null
   }
  },
@@ -33,7 +33,7 @@
   "row": {
    "hp": 44,
    "total": 75,
-   "items": 47,
+   "items": 48,
    "subclass": "Swarmkeeper"
   }
  },
@@ -52,7 +52,7 @@
   "row": {
    "hp": 100,
    "total": 79,
-   "items": 57,
+   "items": 60,
    "subclass": "Swarmkeeper"
   }
  },
@@ -116,12 +116,8 @@
  {
   "cls": "Savant",
   "level": 1,
-  "fails": [
-   "note: L1 skills: trait choice 1/2"
-  ],
-  "notes": [
-   "L1 skills: trait choice 1/2"
-  ],
+  "fails": [],
+  "notes": [],
   "setup": {
    "species": "Lunarian",
    "background": "Urchin",
@@ -139,12 +135,8 @@
  {
   "cls": "Savant",
   "level": 5,
-  "fails": [
-   "note: L1 skills: trait choice 1/2"
-  ],
-  "notes": [
-   "L1 skills: trait choice 1/2"
-  ],
+  "fails": [],
+  "notes": [],
   "setup": {
    "species": "Lunarian",
    "background": "Urchin",
@@ -162,12 +154,8 @@
  {
   "cls": "Savant",
   "level": 12,
-  "fails": [
-   "note: L1 skills: trait choice 1/2"
-  ],
-  "notes": [
-   "L1 skills: trait choice 1/2"
-  ],
+  "fails": [],
+  "notes": [],
   "setup": {
    "species": "Lunarian",
    "background": "Urchin",
@@ -242,12 +230,8 @@
  {
   "cls": "Bard",
   "level": 1,
-  "fails": [
-   "note: L1 skills: trait choice 1/2"
-  ],
-  "notes": [
-   "L1 skills: trait choice 1/2"
-  ],
+  "fails": [],
+  "notes": [],
   "setup": {
    "species": "Fishman",
    "background": "Pirate",
@@ -265,12 +249,8 @@
  {
   "cls": "Bard",
   "level": 5,
-  "fails": [
-   "note: L1 skills: trait choice 1/2"
-  ],
-  "notes": [
-   "L1 skills: trait choice 1/2"
-  ],
+  "fails": [],
+  "notes": [],
   "setup": {
    "species": "Fishman",
    "background": "Pirate",
@@ -288,12 +268,8 @@
  {
   "cls": "Bard",
   "level": 12,
-  "fails": [
-   "note: L1 skills: trait choice 1/2"
-  ],
-  "notes": [
-   "L1 skills: trait choice 1/2"
-  ],
+  "fails": [],
+  "notes": [],
   "setup": {
    "species": "Fishman",
    "background": "Pirate",
@@ -368,12 +344,8 @@
  {
   "cls": "Brawler",
   "level": 1,
-  "fails": [
-   "note: L1 skills: trait choice 1/2"
-  ],
-  "notes": [
-   "L1 skills: trait choice 1/2"
-  ],
+  "fails": [],
+  "notes": [],
   "setup": {
    "species": "Augmented",
    "background": "Swordsman",
@@ -391,12 +363,8 @@
  {
   "cls": "Brawler",
   "level": 5,
-  "fails": [
-   "note: L1 skills: trait choice 1/2"
-  ],
-  "notes": [
-   "L1 skills: trait choice 1/2"
-  ],
+  "fails": [],
+  "notes": [],
   "setup": {
    "species": "Augmented",
    "background": "Swordsman",
@@ -407,19 +375,15 @@
   "row": {
    "hp": 38,
    "total": 75,
-   "items": 45,
+   "items": 48,
    "subclass": "Okama Kenpo"
   }
  },
  {
   "cls": "Brawler",
   "level": 12,
-  "fails": [
-   "note: L1 skills: trait choice 1/2"
-  ],
-  "notes": [
-   "L1 skills: trait choice 1/2"
-  ],
+  "fails": [],
+  "notes": [],
   "setup": {
    "species": "Augmented",
    "background": "Swordsman",
@@ -430,19 +394,15 @@
   "row": {
    "hp": 99,
    "total": 81,
-   "items": 53,
+   "items": 56,
    "subclass": "Okama Kenpo"
   }
  },
  {
   "cls": "Rogue",
   "level": 1,
-  "fails": [
-   "note: L1 skills: trait choice 1/2"
-  ],
-  "notes": [
-   "L1 skills: trait choice 1/2"
-  ],
+  "fails": [],
+  "notes": [],
   "setup": {
    "species": "Fishman",
    "background": "Pirate",
@@ -460,12 +420,8 @@
  {
   "cls": "Rogue",
   "level": 5,
-  "fails": [
-   "note: L1 skills: trait choice 1/2"
-  ],
-  "notes": [
-   "L1 skills: trait choice 1/2"
-  ],
+  "fails": [],
+  "notes": [],
   "setup": {
    "species": "Fishman",
    "background": "Pirate",
@@ -483,12 +439,8 @@
  {
   "cls": "Rogue",
   "level": 12,
-  "fails": [
-   "note: L1 skills: trait choice 1/2"
-  ],
-  "notes": [
-   "L1 skills: trait choice 1/2"
-  ],
+  "fails": [],
+  "notes": [],
   "setup": {
    "species": "Fishman",
    "background": "Pirate",
@@ -506,12 +458,8 @@
  {
   "cls": "Barbarian",
   "level": 1,
-  "fails": [
-   "note: L1 skills: trait choice 1/2"
-  ],
-  "notes": [
-   "L1 skills: trait choice 1/2"
-  ],
+  "fails": [],
+  "notes": [],
   "setup": {
    "species": "Lunarian",
    "background": "Urchin",
@@ -529,12 +477,8 @@
  {
   "cls": "Barbarian",
   "level": 5,
-  "fails": [
-   "note: L1 skills: trait choice 1/2"
-  ],
-  "notes": [
-   "L1 skills: trait choice 1/2"
-  ],
+  "fails": [],
+  "notes": [],
   "setup": {
    "species": "Lunarian",
    "background": "Urchin",
@@ -552,12 +496,8 @@
  {
   "cls": "Barbarian",
   "level": 12,
-  "fails": [
-   "note: L1 skills: trait choice 1/2"
-  ],
-  "notes": [
-   "L1 skills: trait choice 1/2"
-  ],
+  "fails": [],
+  "notes": [],
   "setup": {
    "species": "Lunarian",
    "background": "Urchin",
@@ -571,5 +511,94 @@
    "items": 48,
    "subclass": "Path of the Totem Warrior"
   }
+ },
+ {
+  "cls": "Marksman",
+  "level": 1,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Augmented",
+   "background": "Swordsman",
+   "subLevel": 3,
+   "sub": null
+  },
+  "haki": 0,
+  "row": {
+   "hp": 12,
+   "total": 73,
+   "items": 41,
+   "subclass": null
+  }
+ },
+ {
+  "cls": "Medic",
+  "level": 1,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Fishman",
+   "background": "Pirate",
+   "subLevel": 2,
+   "sub": null
+  },
+  "haki": 0,
+  "row": {
+   "hp": 11,
+   "total": 74,
+   "items": 32,
+   "subclass": null
+  }
+ },
+ {
+  "cls": "Marksman",
+  "level": 3,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Augmented",
+   "background": "Swordsman",
+   "subLevel": 3,
+   "sub": "Swarmkeeper"
+  },
+  "haki": 0,
+  "row": {
+   "hp": 28,
+   "total": 74,
+   "items": 48,
+   "subclass": "Swarmkeeper"
+  }
+ },
+ {
+  "cls": "Marksman",
+  "level": 3,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Augmented",
+   "background": "Swordsman",
+   "subLevel": 3,
+   "sub": "Swarmkeeper"
+  },
+  "haki": 0,
+  "row": {
+   "hp": 28,
+   "total": 74,
+   "items": 48,
+   "subclass": "Swarmkeeper"
+  }
+ },
+ {
+  "cls": "Marksman",
+  "level": 3,
+  "fails": [],
+  "notes": [],
+  "setup": {
+   "species": "Augmented",
+   "background": "Swordsman",
+   "subLevel": 3,
+   "sub": "Swarmkeeper"
+  },
+  "refused": "[WZ] Marksman L3 Skulker does not meet the requirements for the free starting feat Skulker: Dexterity 13 or higher. No character was created."
  }
 ]

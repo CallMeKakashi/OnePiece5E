@@ -26,6 +26,9 @@ const cases = [
   ["Axe Mastery", { weaponProf: ["handaxe"] }, true, "any one of the listed axes is enough"],
   ["Fighting Initiate", { weaponProf: ["mar"] }, true, "martial weapon proficiency"],
   ["Fighting Initiate", { weaponProf: ["sim"] }, false, "simple is not martial"],
+  ["Zoan Hybrid Form", {}, false, "no devil fruit"],
+  ["Zoan Hybrid Form", { fruit: "logia" }, false, "a Logia fruit is not Zoan"],
+  ["Zoan Hybrid Form", { fruit: "zoan" }, true, "a (renamed) Zoan fruit qualifies"],
   ["Sea Sovereignty", { race: "Human" }, false, "Merfolk only"],
   ["Sea Sovereignty", { race: "Merfolk" }, true, "Merfolk qualifies"],
   ["Ominous Toxin", { race: "Fishman" }, true, "Fishman or Merfolk"],
@@ -68,6 +71,7 @@ const run = async (spec) => {
     try {
       const items = [];
       if (setup.race) items.push({ name: setup.race, type: "race", system: { identifier: setup.race.toLowerCase() } });
+      if (setup.fruit) items.push({ name: "My Custom Fruit", type: "loot", flags: { op5e: { devilFruitTemplate: setup.fruit } } });
       if (setup.spell) items.push({ name: "Test Creation", type: "spell", system: { level: 1 } });
       if (items.length) await actor.createEmbeddedDocuments("Item", items);
       const upd = {};

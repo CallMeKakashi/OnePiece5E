@@ -27,7 +27,7 @@ export async function withFoundry(fn, { headless = true, extraModules = [] } = {
   const logs = []; page.on("console", (m) => m.type() === "error" && logs.push(m.text())); page.on("pageerror", (e) => logs.push(String(e)));
   const join = async () => {
     await page.goto(`${BASE}/join`);
-    await page.selectOption("select[name=userid]", { label: "Automation" });
+    await page.selectOption("select[name=userid]", { label: process.env.FOUNDRY_USER ?? "Automation" });
     await page.click("button[name=join]");
     await page.waitForFunction(() => globalThis.game?.ready, null, { timeout: 120000 });
   };

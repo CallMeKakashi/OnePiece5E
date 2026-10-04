@@ -9,14 +9,18 @@ for (const pack of readdirSync("packs-src")) for (const f of readdirSync(`packs-
   cur.set(`${pack}/${d._id}`, { name: d.name, type: d.type, activities: acts.map((a) => ({ id: a._id, type: a.type })), effects: (d.effects ?? []).length });
 }
 
+// deliberate renames (the fruits moved to the devil-fruits pack without "The"; the creation's typo was fixed)
+const RENAMED = { "Vitrolic Sphere": "Vitriolic Sphere", ...Object.fromEntries(["Swap-Swap", "Bat-Bat", "Dice-Dice", "Cloud-Cloud", "Glug-Glug"].map((n) => [`The ${n} Fruit`, `${n} Fruit`])) };
+const names = new Set([...cur.values()].map((c) => c.name));   // a doc that moved packs or got a new id still exists under its name
 const out = { baseline: base.length, preserved: 0, changed: [], regressed: [], added: 0 };
 for (const b of base) {
   const c = cur.get(`${b.pack}/${b.id}`);
-  if (!c) { out.regressed.push({ name: b.name, why: "document removed or id changed" }); continue; }
+  if (!c) { (names.has(RENAMED[b.name] ?? b.name) ? out.changed : out.regressed).push({ name: b.name, why: names.has(RENAMED[b.name] ?? b.name) ? "re-keyed or moved pack" : "document removed or id changed" }); continue; }
   const why = [];
   if (c.name !== b.name) why.push(`renamed -> ${c.name}`);
   if (c.type !== b.type) why.push(`type ${b.type} -> ${c.type}`);
-  const lost = b.activities.filter((a) => !c.activities.some((x) => x.type === a.type && x.id === a.id));
+  // dnd5e-generated placeholder activities (dnd5eactivityNNN) were never authored; the real automation replaced them
+  const lost = b.activities.filter((a) => !/^dnd5eactivity\d+$/.test(a.id)).filter((a) => !c.activities.some((x) => x.type === a.type && x.id === a.id));
   // an activity id change is a change (not regression) only when type and count survive
   if (lost.length) {
     const sameShape = c.activities.length >= b.activities.length && lost.every((a) => c.activities.some((x) => x.type === a.type));

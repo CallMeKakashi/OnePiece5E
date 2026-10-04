@@ -1,0 +1,2767 @@
+[
+ {
+  "name": "Bell Fragment",
+  "type": "tool",
+  "img": "modules/op5e/assets/campaign/Bell_Fragment.webp",
+  "system": {
+   "activities": {
+    "r0qnC47FY48Scgzv": {
+     "_id": "r0qnC47FY48Scgzv",
+     "type": "check",
+     "sort": 0,
+     "activation": {
+      "type": "reaction",
+      "override": false,
+      "condition": ""
+     },
+     "consumption": {
+      "scaling": {
+       "allowed": false
+      },
+      "spellSlot": true,
+      "targets": []
+     },
+     "description": {
+      "chatFlavor": ""
+     },
+     "duration": {
+      "units": "inst",
+      "concentration": false,
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "units": "self",
+      "override": false,
+      "special": ""
+     },
+     "target": {
+      "template": {
+       "contiguous": false,
+       "units": "ft",
+       "type": ""
+      },
+      "affects": {
+       "choice": false,
+       "type": ""
+      },
+      "override": false,
+      "prompt": true
+     },
+     "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+     },
+     "check": {
+      "associated": [],
+      "dc": {
+       "calculation": "",
+       "formula": ""
+      },
+      "ability": ""
+     },
+     "useConditionText": "",
+     "useConditionReason": "",
+     "effectConditionText": "",
+     "macroData": {
+      "name": "",
+      "command": ""
+     },
+     "ignoreTraits": {
+      "idi": false,
+      "idr": false,
+      "idv": false,
+      "ida": false,
+      "idm": false
+     },
+     "midiProperties": {
+      "ignoreTraits": [],
+      "triggeredActivityId": "none",
+      "triggeredActivityConditionText": "",
+      "triggeredActivityTargets": "targets",
+      "triggeredActivityRollAs": "self",
+      "autoConsume": false,
+      "forceConsumeDialog": "default",
+      "forceRollDialog": "default",
+      "forceDamageDialog": "default",
+      "confirmTargets": "default",
+      "autoTargetType": "any",
+      "autoTargetAction": "default",
+      "automationOnly": false,
+      "otherActivityCompatible": true,
+      "otherActivityAsParentType": true,
+      "identifier": "",
+      "displayActivityName": false,
+      "rollMode": "default",
+      "chooseEffects": false,
+      "toggleEffect": false,
+      "ignoreFullCover": false,
+      "removeChatButtons": "default",
+      "magicEffect": false,
+      "magicDamage": false,
+      "noConcentrationCheck": false,
+      "autoCEEffects": "default"
+     },
+     "isOverTimeFlag": false,
+     "overTimeProperties": {
+      "saveRemoves": true,
+      "preRemoveConditionText": "",
+      "postRemoveConditionText": ""
+     },
+     "otherActivityId": "none",
+     "otherActivityAsParentType": true,
+     "damage": {
+      "onSave": "half",
+      "parts": [],
+      "critical": {
+       "allow": false
+      }
+     },
+     "friendlySave": "default",
+     "name": "",
+     "img": "",
+     "appliedEffects": []
+    }
+   },
+   "uses": {
+    "spent": 0,
+    "recovery": [],
+    "max": ""
+   },
+   "description": {
+    "value": "",
+    "chat": ""
+   },
+   "identifier": "new-item",
+   "source": {
+    "revision": 1,
+    "rules": "2014"
+   },
+   "identified": true,
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "",
+   "attunement": "",
+   "attuned": false,
+   "equipped": false,
+   "type": {
+    "value": "",
+    "baseItem": ""
+   },
+   "ability": "",
+   "chatFlavor": "",
+   "proficient": null,
+   "properties": [],
+   "bonus": ""
+  },
+  "effects": []
+ },
+ {
+  "name": "Blood Fury Tattoo",
+  "type": "equipment",
+  "img": "icons/equipment/neck/amulet-round-engraved-gold.webp",
+  "system": {
+   "activities": {
+    "damageBlooFurTat": {
+     "type": "damage",
+     "_id": "damageBlooFurTat",
+     "sort": 0,
+     "activation": {
+      "type": "reaction",
+      "value": 1,
+      "condition": "",
+      "override": true
+     },
+     "consumption": {
+      "targets": [
+       {
+        "type": "itemUses",
+        "target": "",
+        "value": "1",
+        "scaling": {
+         "mode": "",
+         "formula": ""
+        }
+       }
+      ],
+      "scaling": {
+       "allowed": false,
+       "max": ""
+      },
+      "spellSlot": true
+     },
+     "description": {},
+     "duration": {
+      "value": "",
+      "units": "turn",
+      "special": "",
+      "override": true,
+      "concentration": false
+     },
+     "effects": [],
+     "range": {
+      "units": "self",
+      "special": "",
+      "override": true
+     },
+     "target": {
+      "prompt": true,
+      "affects": {
+       "count": "1",
+       "type": "creature",
+       "choice": false,
+       "special": ""
+      },
+      "template": {
+       "count": "",
+       "contiguous": false,
+       "type": "",
+       "size": "",
+       "width": "",
+       "height": "",
+       "units": "ft"
+      },
+      "override": true
+     },
+     "uses": {
+      "spent": null,
+      "recovery": []
+     },
+     "damage": {
+      "parts": [
+       {
+        "number": 4,
+        "denomination": 6,
+        "bonus": "",
+        "types": [
+         "necrotic"
+        ],
+        "custom": {
+         "enabled": false,
+         "formula": ""
+        },
+        "scaling": {
+         "mode": "",
+         "number": null,
+         "formula": ""
+        }
+       }
+      ],
+      "critical": {
+       "allow": false,
+       "bonus": ""
+      }
+     }
+    },
+    "addReactiStrike1": {
+     "name": "Reactive Strike",
+     "type": "utility",
+     "_id": "addReactiStrike1",
+     "sort": 0,
+     "activation": {
+      "type": "reaction",
+      "value": 1,
+      "condition": "",
+      "override": true
+     },
+     "consumption": {
+      "targets": [
+       {
+        "type": "itemUses",
+        "target": "",
+        "value": "1",
+        "scaling": {
+         "mode": "",
+         "formula": ""
+        }
+       }
+      ],
+      "scaling": {
+       "allowed": false,
+       "max": ""
+      },
+      "spellSlot": true
+     },
+     "description": {},
+     "duration": {
+      "value": "",
+      "units": "turn",
+      "special": "",
+      "override": true,
+      "concentration": false
+     },
+     "effects": [],
+     "range": {
+      "units": "self",
+      "override": false
+     },
+     "target": {
+      "template": {
+       "contiguous": false,
+       "units": "ft"
+      },
+      "affects": {
+       "choice": false
+      },
+      "override": false,
+      "prompt": true
+     },
+     "uses": {
+      "spent": null,
+      "recovery": []
+     },
+     "roll": {
+      "prompt": false,
+      "visible": false
+     }
+    }
+   },
+   "uses": {
+    "max": "10",
+    "spent": 0,
+    "recovery": [
+     {
+      "period": "dawn",
+      "type": "recoverAll",
+      "formula": ""
+     }
+    ]
+   },
+   "description": {
+    "value": "<div class=\"ddb\">\n<p>Produced by a special needle, this magic tattoo evokes fury in its form and colors.</p>\n<p><em><strong>Tattoo Attunement.</strong></em> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>\n<p>If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>\n<p><em><strong>Bloodthirsty Strikes.</strong></em> The tattoo has 10 charges, and it regains all expended charges daily at dawn. While this tattoo is on your skin, you gain the following benefits:</p>\n<ul>\n<li>When you hit a creature with a weapon attack, you can expend a charge to deal an extra  [[/damage 4d6 type=necrotic average=true]] damage to the target, and you regain a number of hit points equal to the necrotic damage dealt.</li>\n<li>When a creature you can see damages you, you can expend a charge and use your reaction to make a melee attack against that creature, with advantage on your attack roll.</li>\n</ul>\n</div>",
+    "chat": ""
+   },
+   "identifier": "blood-fury-tattoo",
+   "source": {
+    "book": "TCoE",
+    "page": "",
+    "license": "",
+    "custom": "",
+    "rules": "2014",
+    "revision": 1
+   },
+   "identified": true,
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "legendary",
+   "attunement": "required",
+   "crewed": false,
+   "armor": {
+    "value": null,
+    "dex": null
+   },
+   "proficient": null,
+   "properties": [
+    "mgc"
+   ],
+   "strength": 0,
+   "type": {
+    "value": "trinket",
+    "baseItem": ""
+   },
+   "attuned": true,
+   "equipped": true
+  },
+  "effects": []
+ },
+ {
+  "name": "Buzz blade",
+  "type": "weapon",
+  "img": "modules/op5e/assets/campaign/Buzz-blade.png",
+  "system": {
+   "activities": {
+    "RufPHnIOMyj6nRWj": {
+     "type": "attack",
+     "sort": 0,
+     "activation": {
+      "type": "action",
+      "override": false,
+      "condition": ""
+     },
+     "consumption": {
+      "scaling": {
+       "allowed": false
+      },
+      "spellSlot": true,
+      "targets": []
+     },
+     "description": {
+      "chatFlavor": "Buzz blade: Melee Weapon, 2d8 magical slashing damage; deals double damage to structures and objects. You also gain +2 to attack rolls against armored enemies."
+     },
+     "duration": {
+      "units": "inst",
+      "concentration": false,
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "units": "ft",
+      "override": true,
+      "value": "5",
+      "special": ""
+     },
+     "target": {
+      "template": {
+       "contiguous": false,
+       "units": "ft",
+       "type": ""
+      },
+      "affects": {
+       "choice": false,
+       "count": "",
+       "type": "creatureOrObject",
+       "special": ""
+      },
+      "override": false,
+      "prompt": true
+     },
+     "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+     },
+     "attack": {
+      "critical": {
+       "threshold": null
+      },
+      "flat": false,
+      "type": {
+       "value": "melee",
+       "classification": "weapon"
+      },
+      "ability": "",
+      "bonus": "2"
+     },
+     "damage": {
+      "critical": {
+       "bonus": ""
+      },
+      "includeBase": true,
+      "parts": []
+     },
+     "name": "Buzz blade",
+     "_id": "RufPHnIOMyj6nRWj"
+    }
+   },
+   "uses": {
+    "spent": 0,
+    "recovery": [],
+    "max": ""
+   },
+   "description": {
+    "value": "",
+    "chat": ""
+   },
+   "identifier": "new-item",
+   "source": {
+    "revision": 1,
+    "rules": "2014"
+   },
+   "identified": true,
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "",
+   "attunement": "",
+   "crewed": false,
+   "ammunition": {},
+   "armor": {},
+   "damage": {
+    "base": {
+     "types": [
+      "slashing"
+     ],
+     "custom": {
+      "enabled": false
+     },
+     "scaling": {
+      "number": 1
+     },
+     "number": 2,
+     "denomination": 8,
+     "bonus": "@prof"
+    },
+    "versatile": {
+     "types": [],
+     "custom": {
+      "enabled": false
+     },
+     "scaling": {
+      "number": 1
+     }
+    }
+   },
+   "properties": [
+    "fin",
+    "lgt",
+    "mgc",
+    "spc"
+   ],
+   "proficient": 1,
+   "range": {
+    "reach": null,
+    "units": ""
+   },
+   "type": {
+    "value": "martialM",
+    "baseItem": ""
+   },
+   "magicalBonus": null,
+   "mastery": "",
+   "attuned": false,
+   "equipped": false
+  },
+  "effects": []
+ },
+ {
+  "name": "Serum 33 (With Ace)",
+  "type": "loot",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+   "description": {
+    "value": "",
+    "chat": ""
+   },
+   "identifier": "new-item",
+   "source": {
+    "revision": 1,
+    "rules": "2014"
+   },
+   "identified": true,
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "",
+   "properties": [],
+   "type": {
+    "value": "",
+    "subtype": ""
+   }
+  },
+  "effects": []
+ },
+ {
+  "name": "Serum 22 (With Ace)",
+  "type": "loot",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+   "description": {
+    "value": "",
+    "chat": ""
+   },
+   "identifier": "new-item",
+   "source": {
+    "revision": 1,
+    "rules": "2014"
+   },
+   "identified": true,
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "",
+   "properties": [],
+   "type": {
+    "value": "",
+    "subtype": ""
+   }
+  },
+  "effects": []
+ },
+ {
+  "name": "Memento",
+  "type": "loot",
+  "img": "icons/skills/social/trading-justice-scale-gold.webp",
+  "system": {
+   "description": {
+    "value": "<p>A keepsake from your past. Savants can use a memento as an apparatus for creations.</p>",
+    "chat": ""
+   },
+   "source": {
+    "book": "OP5e",
+    "page": "",
+    "custom": "",
+    "license": "",
+    "revision": 1,
+    "rules": "2014"
+   },
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 1000,
+    "denomination": "gp"
+   },
+   "rarity": "common",
+   "identifier": "memento",
+   "identified": true,
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "properties": [],
+   "type": {
+    "value": "",
+    "subtype": ""
+   }
+  },
+  "effects": []
+ },
+ {
+  "name": "Black goo",
+  "type": "loot",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+   "description": {
+    "value": "",
+    "chat": ""
+   },
+   "identifier": "new-item",
+   "source": {
+    "revision": 1,
+    "rules": "2014"
+   },
+   "identified": true,
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "",
+   "properties": [],
+   "type": {
+    "value": "",
+    "subtype": ""
+   }
+  },
+  "effects": []
+ },
+ {
+  "name": "Plasma Cannon",
+  "type": "weapon",
+  "img": "modules/op5e/assets/campaign/Plasma-bolt.webp",
+  "system": {
+   "activities": {
+    "9xKEJphxYOwNX0sk": {
+     "_id": "9xKEJphxYOwNX0sk",
+     "type": "attack",
+     "sort": 0,
+     "activation": {
+      "type": "action",
+      "override": false,
+      "condition": ""
+     },
+     "consumption": {
+      "scaling": {
+       "allowed": false
+      },
+      "spellSlot": true,
+      "targets": []
+     },
+     "description": {
+      "chatFlavor": ""
+     },
+     "duration": {
+      "units": "inst",
+      "concentration": false,
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "units": "self",
+      "override": false
+     },
+     "target": {
+      "template": {
+       "contiguous": false,
+       "units": "ft",
+       "type": ""
+      },
+      "affects": {
+       "choice": false,
+       "type": ""
+      },
+      "override": false,
+      "prompt": true
+     },
+     "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+     },
+     "attack": {
+      "critical": {
+       "threshold": null
+      },
+      "flat": false,
+      "type": {
+       "value": "ranged",
+       "classification": ""
+      },
+      "ability": "dex",
+      "bonus": ""
+     },
+     "damage": {
+      "critical": {
+       "bonus": ""
+      },
+      "includeBase": true,
+      "parts": [
+       {
+        "custom": {
+         "enabled": false,
+         "formula": ""
+        },
+        "number": 6,
+        "denomination": 6,
+        "bonus": "",
+        "types": [
+         "radiant"
+        ]
+       }
+      ]
+     },
+     "name": "",
+     "img": "",
+     "appliedEffects": []
+    }
+   },
+   "uses": {
+    "spent": 0,
+    "recovery": [
+     {
+      "period": "sr",
+      "type": "recoverAll"
+     }
+    ],
+    "max": "1"
+   },
+   "description": {
+    "value": "",
+    "chat": ""
+   },
+   "identifier": "new-item",
+   "source": {
+    "revision": 1,
+    "rules": "2014"
+   },
+   "identified": true,
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "",
+   "attunement": "",
+   "crewed": false,
+   "ammunition": {},
+   "armor": {},
+   "damage": {
+    "base": {
+     "types": [
+      "radiant"
+     ],
+     "custom": {
+      "enabled": false
+     },
+     "scaling": {
+      "number": 1
+     },
+     "number": 2,
+     "denomination": 8,
+     "bonus": "@prof"
+    },
+    "versatile": {
+     "types": [],
+     "custom": {
+      "enabled": false
+     },
+     "scaling": {
+      "number": 1
+     }
+    }
+   },
+   "properties": [
+    "fir",
+    "spc"
+   ],
+   "proficient": null,
+   "range": {
+    "reach": null,
+    "units": ""
+   },
+   "type": {
+    "value": "simpleM",
+    "baseItem": ""
+   },
+   "mastery": "",
+   "attuned": false,
+   "equipped": false
+  },
+  "effects": []
+ },
+ {
+  "name": "Green vile (With Ace)",
+  "type": "loot",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+   "description": {
+    "value": "",
+    "chat": ""
+   },
+   "identifier": "new-item",
+   "source": {
+    "revision": 1,
+    "rules": "2014"
+   },
+   "identified": true,
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "",
+   "properties": [],
+   "type": {
+    "value": "",
+    "subtype": ""
+   }
+  },
+  "effects": []
+ },
+ {
+  "name": "Seastone-arm",
+  "type": "equipment",
+  "img": "modules/op5e/assets/campaign/Seastone-Arm.jpg",
+  "system": {
+   "activities": {
+    "knLHcdaFlWSMrxcH": {
+     "type": "attack",
+     "sort": 0,
+     "activation": {
+      "type": "action",
+      "override": false,
+      "condition": ""
+     },
+     "consumption": {
+      "scaling": {
+       "allowed": false
+      },
+      "spellSlot": true,
+      "targets": []
+     },
+     "description": {
+      "chatFlavor": "Buzz blade: Melee Weapon, 2d8 magical slashing damage; deals double damage to structures and objects. You also gain +2 to attack rolls against armored enemies."
+     },
+     "duration": {
+      "units": "inst",
+      "concentration": false,
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "units": "ft",
+      "override": true,
+      "value": "5",
+      "special": ""
+     },
+     "target": {
+      "template": {
+       "contiguous": false,
+       "units": "ft",
+       "type": ""
+      },
+      "affects": {
+       "choice": false,
+       "count": "",
+       "type": "creatureOrObject",
+       "special": ""
+      },
+      "override": false,
+      "prompt": true
+     },
+     "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+     },
+     "attack": {
+      "critical": {
+       "threshold": null
+      },
+      "flat": false,
+      "type": {
+       "value": "melee",
+       "classification": "weapon"
+      },
+      "ability": "dex",
+      "bonus": "2"
+     },
+     "damage": {
+      "critical": {
+       "bonus": ""
+      },
+      "includeBase": false,
+      "parts": [
+       {
+        "custom": {
+         "enabled": false,
+         "formula": ""
+        },
+        "number": 2,
+        "denomination": 8,
+        "bonus": "@prof",
+        "types": [
+         "slashing"
+        ],
+        "scaling": {
+         "number": 1
+        }
+       }
+      ]
+     },
+     "name": "Buzz blade",
+     "_id": "knLHcdaFlWSMrxcH"
+    },
+    "IEKYcXrgPvl3qVLJ": {
+     "type": "attack",
+     "sort": 0,
+     "activation": {
+      "type": "action",
+      "override": false,
+      "condition": ""
+     },
+     "consumption": {
+      "scaling": {
+       "allowed": false
+      },
+      "spellSlot": true,
+      "targets": []
+     },
+     "description": {
+      "chatFlavor": "Plasma bolt: Ranged Attack: You fire a bolt of plasma at a target, making a ranged attack roll. On a hit, the target takes 2d10 radiant damage."
+     },
+     "duration": {
+      "units": "inst",
+      "concentration": false,
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "units": "ft",
+      "override": false,
+      "value": "120",
+      "special": ""
+     },
+     "target": {
+      "template": {
+       "contiguous": false,
+       "units": "ft",
+       "type": ""
+      },
+      "affects": {
+       "choice": false,
+       "count": "",
+       "type": "any",
+       "special": ""
+      },
+      "override": false,
+      "prompt": true
+     },
+     "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+     },
+     "attack": {
+      "critical": {
+       "threshold": null
+      },
+      "flat": false,
+      "type": {
+       "value": "ranged",
+       "classification": "weapon"
+      },
+      "ability": "dex",
+      "bonus": ""
+     },
+     "damage": {
+      "critical": {
+       "bonus": ""
+      },
+      "includeBase": true,
+      "parts": [
+       {
+        "custom": {
+         "enabled": false,
+         "formula": ""
+        },
+        "number": 2,
+        "denomination": 10,
+        "bonus": "@prof",
+        "types": [
+         "radiant"
+        ],
+        "scaling": {
+         "number": 1
+        }
+       }
+      ]
+     },
+     "name": "Plasma bolt",
+     "_id": "IEKYcXrgPvl3qVLJ"
+    },
+    "mfficOB01Bj0R8Jq": {
+     "type": "attack",
+     "_id": "mfficOB01Bj0R8Jq",
+     "sort": 0,
+     "activation": {
+      "type": "action",
+      "override": false,
+      "condition": ""
+     },
+     "consumption": {
+      "scaling": {
+       "allowed": false
+      },
+      "spellSlot": true,
+      "targets": [
+       {
+        "type": "activityUses",
+        "value": "1",
+        "scaling": {}
+       }
+      ]
+     },
+     "description": {
+      "chatFlavor": "Plasma cannon: Ranged Attack: Range 120 feet. You fire a volatile plasma bolt at an enemy, making a ranged attack roll. On a hit, the target takes 2d6 radiant damage. Whether the attack hits or misses, the blast explodes on impact. Each creature within 10 feet of the explosion must make a DC 15 Dexterity saving throw. On a failure, a creature takes 6d6 radiant damage as searing flames engulf the area. On a success, they take half as much damage. This arm-mounted launcher overheats after firing and can only be used once per short rest."
+     },
+     "duration": {
+      "units": "inst",
+      "concentration": false,
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "units": "ft",
+      "override": false,
+      "value": "120",
+      "special": ""
+     },
+     "target": {
+      "template": {
+       "contiguous": false,
+       "units": "ft",
+       "count": "",
+       "type": "sphere",
+       "size": "10"
+      },
+      "affects": {
+       "choice": false,
+       "type": ""
+      },
+      "override": false,
+      "prompt": true
+     },
+     "uses": {
+      "spent": 0,
+      "recovery": [
+       {
+        "period": "sr",
+        "type": "recoverAll"
+       }
+      ],
+      "max": "1"
+     },
+     "attack": {
+      "critical": {
+       "threshold": 19
+      },
+      "flat": false,
+      "type": {
+       "value": "ranged",
+       "classification": "weapon"
+      },
+      "ability": "",
+      "bonus": ""
+     },
+     "damage": {
+      "critical": {
+       "bonus": ""
+      },
+      "includeBase": true,
+      "parts": [
+       {
+        "custom": {
+         "enabled": false,
+         "formula": ""
+        },
+        "number": 2,
+        "denomination": 6,
+        "bonus": "@prof",
+        "types": [
+         "radiant"
+        ],
+        "scaling": {
+         "number": 1
+        }
+       },
+       {
+        "custom": {
+         "enabled": false,
+         "formula": ""
+        },
+        "number": 6,
+        "denomination": 6,
+        "bonus": "",
+        "types": [
+         "radiant"
+        ],
+        "scaling": {
+         "number": 1
+        }
+       }
+      ]
+     },
+     "name": "Plasma cannon:"
+    }
+   },
+   "uses": {
+    "spent": 0,
+    "recovery": [],
+    "max": ""
+   },
+   "description": {
+    "value": "<p><span style=\"color:oklab(0.903979 0.00535645 -0.0371113);font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:break-spaces;background-color:oklab(0.233369 0.00266007 -0.0276733);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Seastone-arm: Attuning In order to attune to the Robo-Arm, it must replace one of your arms. Once attuned, you can control it as you would your natural arm. To unattune from the arm, you must surgically remove it from your body. Seastone-arm: While attuned to the Robo-Arm, you gain a +2 bonus to Strength checks made using that arm. Additionally, you gain a +2 bonus to all one-handed weapon and unarmed damage rolls that use the arm. The Seastone-arm counts as a magical weapon for the purposes of overcoming resistance and immunity to nonmagical attacks and damage. Concealed compartment: The seastone-arm contains a hidden compartment. As a bonus action, you can draw or stow an object within the arm 𝐀𝐫𝐦-𝐓𝐚𝐜𝐡𝐦𝐞𝐧𝐭𝐬 The Robo-Arm comes with 4 standard attachments, and you may switch between your hand and the arm-tachments as a bonus action. The attachments are as follows: Buzz blade: Melee Weapon, 2d8 magical slashing damage; deals double damage to structures and objects. You also gain +2 to attack rolls against armored enemies. Plasma bolt: Ranged Attack: You fire a bolt of plasma at a target, making a ranged attack roll. On a hit, the target takes 2d10 radiant damage. Grappling arm: Your Seastone-arm has been fitted with a launcher for a grappling hook, along with the reel of cable required to make it usable. As an action, you may launch your grappling hook up to 100 feet in any direction. If there is a suitable ledge or surface for the grappling hook to find purchase on, it becomes locked in place. It takes an bonus action to reel the hook back in, which resets the launching mechanism. Plasma cannon: Ranged Attack: Range 120 feet. You fire a volatile plasma bolt at an enemy, making a ranged attack roll. On a hit, the target takes 2d6 radiant damage. Whether the attack hits or misses, the blast explodes on impact. Each creature within 10 feet of the explosion must make a DC 15 Dexterity saving throw. On a failure, a creature takes 6d6 radiant damage as searing flames engulf the area. On a success, they take half as much damage. This arm-mounted launcher overheats after firing and can only be used once per short rest.</span></p>",
+    "chat": ""
+   },
+   "identifier": "new-item",
+   "source": {
+    "revision": 1,
+    "rules": "2014"
+   },
+   "identified": true,
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "",
+   "attunement": "",
+   "crewed": false,
+   "armor": {
+    "value": null,
+    "dex": null,
+    "magicalBonus": null
+   },
+   "proficient": 1,
+   "properties": [
+    "mgc"
+   ],
+   "strength": null,
+   "type": {
+    "value": "",
+    "baseItem": ""
+   },
+   "attuned": false,
+   "equipped": true
+  },
+  "effects": [
+   "JXW7pFLtgtz108Q0"
+  ]
+ },
+ {
+  "name": "Ornate Cane",
+  "type": "weapon",
+  "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+  "system": {
+   "description": {
+    "value": "<p>An elegant walking cane with an ornate, claw-like metallic handle — both an accessory and a concealed weapon.</p>",
+    "chat": ""
+   },
+   "source": {
+    "book": "OP5e",
+    "page": "",
+    "custom": "",
+    "license": "",
+    "revision": 1,
+    "rules": "2014"
+   },
+   "quantity": 1,
+   "weight": {
+    "value": 4,
+    "units": "lb"
+   },
+   "price": {
+    "value": 1000,
+    "denomination": "gp"
+   },
+   "rarity": "common",
+   "identified": true,
+   "range": {
+    "value": null,
+    "long": null,
+    "units": ""
+   },
+   "uses": {
+    "max": "",
+    "spent": 0,
+    "recovery": []
+   },
+   "damage": {
+    "versatile": {
+     "number": 1,
+     "denomination": 8,
+     "bonus": "",
+     "types": [],
+     "custom": {
+      "enabled": false,
+      "formula": ""
+     },
+     "scaling": {
+      "mode": "",
+      "number": null,
+      "formula": ""
+     }
+    },
+    "base": {
+     "number": null,
+     "denomination": null,
+     "bonus": "",
+     "types": [
+      "d"
+     ],
+     "custom": {
+      "enabled": true,
+      "formula": "1"
+     },
+     "scaling": {
+      "mode": "",
+      "number": null,
+      "formula": ""
+     }
+    }
+   },
+   "proficient": null,
+   "properties": [
+    "ver"
+   ],
+   "type": {
+    "value": "simpleM",
+    "baseItem": "quarterstaff"
+   },
+   "activities": {
+    "dnd5eactivity000": {
+     "_id": "dnd5eactivity000",
+     "type": "attack",
+     "name": "Ornate Cane",
+     "sort": 0,
+     "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": "",
+      "override": false
+     },
+     "consumption": {
+      "targets": [],
+      "scaling": {
+       "allowed": false,
+       "max": ""
+      },
+      "spellSlot": true
+     },
+     "description": {
+      "chatFlavor": ""
+     },
+     "duration": {
+      "concentration": false,
+      "units": "inst",
+      "special": "",
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "units": "self",
+      "special": "",
+      "override": false
+     },
+     "target": {
+      "template": {
+       "count": "",
+       "contiguous": false,
+       "type": "",
+       "size": "",
+       "width": "",
+       "height": "",
+       "units": "ft"
+      },
+      "affects": {
+       "count": "",
+       "type": "",
+       "choice": false,
+       "special": ""
+      },
+      "prompt": true,
+      "override": false
+     },
+     "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+     },
+     "damage": {
+      "critical": {
+       "bonus": ""
+      },
+      "parts": [
+       {
+        "number": 1,
+        "denomination": 6,
+        "bonus": "",
+        "types": [
+         "bludgeoning"
+        ],
+        "custom": {
+         "enabled": false,
+         "formula": ""
+        },
+        "scaling": {
+         "mode": "",
+         "number": null,
+         "formula": ""
+        }
+       }
+      ],
+      "includeBase": true
+     },
+     "attack": {
+      "critical": {},
+      "flat": false,
+      "type": {}
+     }
+    }
+   },
+   "identifier": "ornate-cane",
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "attunement": "",
+   "crewed": false,
+   "ammunition": {},
+   "armor": {},
+   "attuned": false,
+   "equipped": false
+  },
+  "effects": []
+ },
+ {
+  "name": "Lemonte's black glasses",
+  "type": "loot",
+  "img": "modules/op5e/assets/campaign/Lemontes-glasses.jpg",
+  "system": {
+   "description": {
+    "value": "",
+    "chat": ""
+   },
+   "identifier": "new-item",
+   "source": {
+    "revision": 1,
+    "rules": "2014"
+   },
+   "identified": true,
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "",
+   "properties": [],
+   "type": {
+    "value": "",
+    "subtype": ""
+   }
+  },
+  "effects": []
+ },
+ {
+  "name": "Luck Charm (Coin of Easy Living)",
+  "type": "loot",
+  "img": "modules/op5e/assets/campaign/Lucky-Coin.jpg",
+  "system": {
+   "description": {
+    "value": "<p>This Gold Coin appears mundane but, when flipped, always lands on the side you call while it is in the air. additionally you can summon it to your palm as a bonus action.<br /><br />The coin seems to be branded by Capone Family Sigil.</p>",
+    "chat": ""
+   },
+   "identifier": "luck-charm",
+   "source": {
+    "revision": 1,
+    "rules": "2014"
+   },
+   "identified": true,
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "rare",
+   "properties": [],
+   "type": {
+    "value": "",
+    "subtype": ""
+   }
+  },
+  "effects": []
+ },
+ {
+  "name": "Sharkrazor Mantle",
+  "type": "equipment",
+  "img": "modules/op5e/assets/campaign/Sharkrazor-Mantle.png",
+  "system": {
+   "activities": {
+    "BO3jMK8tT3L69Ixo": {
+     "type": "attack",
+     "_id": "BO3jMK8tT3L69Ixo",
+     "sort": 0,
+     "activation": {
+      "type": "action",
+      "override": false,
+      "condition": ""
+     },
+     "consumption": {
+      "scaling": {
+       "allowed": false
+      },
+      "spellSlot": true,
+      "targets": []
+     },
+     "description": {
+      "chatFlavor": ""
+     },
+     "duration": {
+      "units": "inst",
+      "concentration": false,
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "units": "self",
+      "override": false,
+      "special": ""
+     },
+     "target": {
+      "template": {
+       "contiguous": false,
+       "units": "ft",
+       "type": ""
+      },
+      "affects": {
+       "choice": false,
+       "type": ""
+      },
+      "override": false,
+      "prompt": true
+     },
+     "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+     },
+     "attack": {
+      "critical": {
+       "threshold": null
+      },
+      "flat": false,
+      "type": {
+       "value": "melee",
+       "classification": "weapon"
+      },
+      "ability": "dex",
+      "bonus": ""
+     },
+     "damage": {
+      "critical": {
+       "bonus": ""
+      },
+      "includeBase": true,
+      "parts": [
+       {
+        "custom": {
+         "enabled": true,
+         "formula": "2d6+@prof+@abilities.dex.mod"
+        },
+        "number": 2,
+        "denomination": 6,
+        "bonus": "@prof",
+        "types": [
+         "piercing"
+        ],
+        "scaling": {
+         "number": 1
+        }
+       }
+      ]
+     },
+     "name": "Sharkbite"
+    }
+   },
+   "uses": {
+    "spent": 0,
+    "recovery": [],
+    "max": ""
+   },
+   "description": {
+    "value": "<p>You have a swimming speed of 60 feet and can breathe underwater while you wear this shark-skinned cloak. If a creature successfully grapples or restrains you by touching you, that creature takes 3d4 piercing damage upon that success and again at the end of each of its subsequent turns while it continues to physically hold you.</p><p>The cloak magically sharpens your teeth. If you make a melee attack while underwater against a creature on your turn, you can use a bonus action to make a bite attack against that same creature if it's below it hit point maximum. This attack uses a damage die of 1d6, deals piercing damage, and uses your Strength or Dexterity modifier when rolling for attack and damage. The target can't be a construct, plant, or undead creature.</p><p>Additionally, While you are attuned to the cloak, it amplifies your ability to smell blood giving you advantage to track wounded creatures and you get advantage to hit creatures bellow their halve their hit points while underwater.</p>",
+    "chat": ""
+   },
+   "identifier": "new-item",
+   "source": {
+    "revision": 1,
+    "rules": "2014"
+   },
+   "identified": true,
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "",
+   "attunement": "required",
+   "crewed": false,
+   "armor": {
+    "value": null,
+    "dex": null,
+    "magicalBonus": null
+   },
+   "proficient": 1,
+   "properties": [
+    "mgc"
+   ],
+   "strength": null,
+   "type": {
+    "value": "",
+    "baseItem": ""
+   },
+   "attuned": true,
+   "equipped": true
+  },
+  "effects": [
+   "Pn9OmI8FCoIvJyBN"
+  ]
+ },
+ {
+  "name": "Hungering Blade",
+  "type": "spell",
+  "img": "icons/magic/death/weapon-sword-skull-purple.webp",
+  "system": {
+   "activities": {
+    "damageHungeBlade": {
+     "type": "damage",
+     "_id": "damageHungeBlade",
+     "sort": 0,
+     "activation": {
+      "type": "action",
+      "override": false
+     },
+     "consumption": {
+      "spellSlot": true,
+      "targets": [],
+      "scaling": {
+       "allowed": false,
+       "max": ""
+      }
+     },
+     "description": {
+      "chatFlavor": ""
+     },
+     "duration": {
+      "units": "inst",
+      "concentration": false,
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "units": "self",
+      "override": false
+     },
+     "target": {
+      "template": {
+       "contiguous": false,
+       "units": "ft"
+      },
+      "affects": {
+       "choice": false
+      },
+      "override": false,
+      "prompt": true
+     },
+     "uses": {
+      "spent": 0,
+      "recovery": []
+     },
+     "damage": {
+      "critical": {
+       "allow": false
+      },
+      "parts": []
+     },
+     "useConditionText": "",
+     "useConditionReason": "",
+     "effectConditionText": "",
+     "macroData": {
+      "name": "",
+      "command": ""
+     },
+     "ignoreTraits": {
+      "idi": false,
+      "idr": false,
+      "idv": false,
+      "ida": false,
+      "idm": false
+     },
+     "midiProperties": {
+      "ignoreTraits": [],
+      "triggeredActivityId": "none",
+      "triggeredActivityConditionText": "",
+      "triggeredActivityTargets": "targets",
+      "triggeredActivityRollAs": "self",
+      "confirmTargets": "default",
+      "automationOnly": false,
+      "identifier": "",
+      "autoConsume": false,
+      "forceConsumeDialog": "default",
+      "forceRollDialog": "default",
+      "forceDamageDialog": "default",
+      "autoTargetType": "any",
+      "autoTargetAction": "default",
+      "otherActivityCompatible": true,
+      "otherActivityAsParentType": true,
+      "displayActivityName": false,
+      "rollMode": "default",
+      "chooseEffects": false,
+      "toggleEffect": false,
+      "ignoreFullCover": false,
+      "removeChatButtons": "default",
+      "magicEffect": false,
+      "magicDamage": false,
+      "noConcentrationCheck": false,
+      "autoCEEffects": "default"
+     },
+     "isOverTimeFlag": false,
+     "overTimeProperties": {
+      "saveRemoves": true,
+      "preRemoveConditionText": "",
+      "postRemoveConditionText": ""
+     }
+    }
+   },
+   "uses": {
+    "spent": null,
+    "max": "",
+    "recovery": []
+   },
+   "description": {
+    "value": "<div class=\"ddb\">\n<p>You imbue a weapon you are holding, or your Unarmed Strikes, with ravenous negative energy. For the duration, when you hit a creature with an attack using the empowered weapon or Unarmed Strike for the first time on a turn, the target takes Necrotic damage equal to your spellcasting ability modifier, and you gain a number of Temporary Hit Points equal to the Necrotic damage dealt.</p>\n</div>",
+    "chat": ""
+   },
+   "identifier": "hungering-blade",
+   "source": {
+    "book": "TCMP1",
+    "page": "",
+    "license": "",
+    "custom": "",
+    "rules": "2024",
+    "revision": 1
+   },
+   "activation": {
+    "type": "bonus",
+    "value": 1,
+    "condition": ""
+   },
+   "duration": {
+    "value": "1",
+    "units": "minute"
+   },
+   "level": 1,
+   "materials": {
+    "value": "",
+    "consumed": false,
+    "cost": 0,
+    "supply": 0
+   },
+   "method": "spell",
+   "prepared": 0,
+   "properties": [
+    "vocal",
+    "somatic"
+   ],
+   "range": {
+    "units": "self"
+   },
+   "school": "nec",
+   "sourceClass": "paladin",
+   "target": {
+    "affects": {
+     "count": "",
+     "type": "creature",
+     "choice": false,
+     "special": ""
+    },
+    "template": {
+     "count": "",
+     "contiguous": false,
+     "type": "",
+     "size": "",
+     "width": "",
+     "height": "",
+     "units": "ft"
+    }
+   }
+  },
+  "effects": []
+ },
+ {
+  "name": "Járnglófar",
+  "type": "equipment",
+  "img": "modules/op5e/assets/campaign/Screenshot-2026-09-12-185510.png",
+  "system": {
+   "activities": {},
+   "uses": {
+    "spent": 0,
+    "recovery": [],
+    "max": ""
+   },
+   "description": {
+    "value": "",
+    "chat": "<p>A gauntlet of immense strength inspired by the iron gloves of the god of thunder to let him wield his mythical hammer, Mjolnir. </p><p>It lets the user wield a two handed weapon with one hand only.</p>"
+   },
+   "identifier": "new-item",
+   "source": {
+    "revision": 1,
+    "rules": "2014"
+   },
+   "identified": true,
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "uncommon",
+   "attunement": "",
+   "crewed": false,
+   "armor": {
+    "value": null,
+    "dex": null
+   },
+   "proficient": null,
+   "properties": [],
+   "strength": null,
+   "type": {
+    "value": "wondrous",
+    "baseItem": ""
+   },
+   "attuned": false,
+   "equipped": true
+  },
+  "effects": []
+ },
+ {
+  "name": "Rolling Pin - Kura3™ (Cold)",
+  "type": "weapon",
+  "img": "modules/op5e/assets/campaign/rolling-pin.png",
+  "system": {
+   "activities": {
+    "5VYUeh098abUOVD9": {
+     "type": "attack",
+     "sort": 0,
+     "activation": {
+      "type": "action",
+      "override": false,
+      "condition": ""
+     },
+     "consumption": {
+      "scaling": {
+       "allowed": false
+      },
+      "spellSlot": true,
+      "targets": []
+     },
+     "description": {
+      "chatFlavor": ""
+     },
+     "duration": {
+      "units": "inst",
+      "concentration": false,
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "units": "self",
+      "override": false
+     },
+     "target": {
+      "template": {
+       "contiguous": false,
+       "units": "ft",
+       "type": ""
+      },
+      "affects": {
+       "choice": false,
+       "type": ""
+      },
+      "override": false,
+      "prompt": true
+     },
+     "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+     },
+     "attack": {
+      "critical": {
+       "threshold": null
+      },
+      "flat": false,
+      "type": {
+       "value": "",
+       "classification": ""
+      },
+      "ability": "",
+      "bonus": ""
+     },
+     "damage": {
+      "critical": {
+       "bonus": ""
+      },
+      "includeBase": true,
+      "parts": [
+       {
+        "custom": {
+         "enabled": false,
+         "formula": ""
+        },
+        "number": 1,
+        "denomination": 6,
+        "bonus": "",
+        "types": [
+         "cold"
+        ],
+        "scaling": {
+         "number": 1
+        }
+       }
+      ]
+     },
+     "_id": "5VYUeh098abUOVD9",
+     "name": "Attack (Cold)"
+    }
+   },
+   "uses": {
+    "spent": 0,
+    "recovery": [],
+    "max": ""
+   },
+   "description": {
+    "value": "<p>A rolling pin</p>",
+    "chat": ""
+   },
+   "identifier": "new-item",
+   "source": {
+    "revision": 1,
+    "rules": "2014"
+   },
+   "identified": true,
+   "unidentified": {
+    "description": "<p>A rolling pin</p><p></p>",
+    "name": "Unidentified Weapon"
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "legendary",
+   "attunement": "",
+   "crewed": false,
+   "ammunition": {},
+   "armor": {},
+   "damage": {
+    "base": {
+     "types": [
+      "bludgeoning"
+     ],
+     "custom": {
+      "enabled": false
+     },
+     "scaling": {
+      "number": 1
+     },
+     "number": 2,
+     "denomination": 6,
+     "bonus": ""
+    },
+    "versatile": {
+     "types": [],
+     "custom": {
+      "enabled": false
+     },
+     "scaling": {
+      "number": 1
+     }
+    }
+   },
+   "properties": [
+    "hvy",
+    "two"
+   ],
+   "proficient": null,
+   "range": {
+    "reach": null,
+    "units": ""
+   },
+   "type": {
+    "value": "simpleM",
+    "baseItem": ""
+   },
+   "mastery": "",
+   "attuned": false,
+   "equipped": false
+  },
+  "effects": []
+ },
+ {
+  "name": "Magical Drinking Horn",
+  "type": "tool",
+  "img": "icons/tools/laboratory/bowl-mixing.webp",
+  "system": {
+   "description": {
+    "value": "<p>Magical drinking horn that fills with what ever liquid you can think of (healing potion, ale, cooking oil, etc…)</p>",
+    "chat": ""
+   },
+   "source": {
+    "custom": "",
+    "book": "SRD 5.1",
+    "page": "",
+    "license": "CC-BY-4.0",
+    "rules": "2014",
+    "revision": 1
+   },
+   "quantity": 1,
+   "weight": {
+    "value": 0.1,
+    "units": "lb"
+   },
+   "price": {
+    "value": 1,
+    "denomination": "gp"
+   },
+   "attunement": "",
+   "rarity": "uncommon",
+   "identified": true,
+   "ability": "wis",
+   "chatFlavor": "",
+   "proficient": null,
+   "bonus": "",
+   "type": {
+    "value": "art",
+    "baseItem": "cook"
+   },
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "properties": [],
+   "uses": {
+    "max": "",
+    "recovery": [],
+    "spent": 0
+   },
+   "activities": {
+    "dnd5eactivity000": {
+     "_id": "dnd5eactivity000",
+     "type": "check",
+     "activation": {
+      "type": "",
+      "value": null,
+      "condition": "",
+      "override": false
+     },
+     "consumption": {
+      "targets": [],
+      "scaling": {
+       "allowed": false,
+       "max": ""
+      },
+      "spellSlot": true
+     },
+     "description": {
+      "chatFlavor": ""
+     },
+     "duration": {
+      "concentration": false,
+      "value": "",
+      "units": "inst",
+      "special": "",
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "units": "self",
+      "special": "",
+      "override": false
+     },
+     "target": {
+      "template": {
+       "count": "",
+       "contiguous": false,
+       "type": "",
+       "size": "",
+       "width": "",
+       "height": "",
+       "units": "ft"
+      },
+      "affects": {
+       "count": "",
+       "type": "",
+       "choice": false,
+       "special": ""
+      },
+      "prompt": true,
+      "override": false
+     },
+     "check": {
+      "ability": "wis",
+      "dc": {},
+      "associated": []
+     },
+     "uses": {
+      "spent": 0,
+      "recovery": []
+     },
+     "sort": 0
+    }
+   },
+   "identifier": "cooks-utensils",
+   "attuned": false,
+   "equipped": false
+  },
+  "effects": []
+ },
+ {
+  "name": "Death Scales",
+  "type": "tool",
+  "img": "icons/tools/laboratory/bowl-mixing.webp",
+  "system": {
+   "description": {
+    "value": "<p>Dragon scales when ever you touch them you die</p>",
+    "chat": ""
+   },
+   "source": {
+    "custom": "",
+    "book": "SRD 5.1",
+    "page": "",
+    "license": "CC-BY-4.0",
+    "rules": "2014",
+    "revision": 1
+   },
+   "quantity": 1,
+   "weight": {
+    "value": 1,
+    "units": "lb"
+   },
+   "price": {
+    "value": 1,
+    "denomination": "gp"
+   },
+   "attunement": "",
+   "rarity": "",
+   "identified": true,
+   "ability": "wis",
+   "chatFlavor": "",
+   "proficient": null,
+   "bonus": "",
+   "type": {
+    "value": "art",
+    "baseItem": "cook"
+   },
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "properties": [],
+   "uses": {
+    "max": "",
+    "recovery": [],
+    "spent": 0
+   },
+   "activities": {
+    "dnd5eactivity000": {
+     "_id": "dnd5eactivity000",
+     "type": "check",
+     "activation": {
+      "type": "",
+      "value": null,
+      "condition": "",
+      "override": false
+     },
+     "consumption": {
+      "targets": [],
+      "scaling": {
+       "allowed": false,
+       "max": ""
+      },
+      "spellSlot": true
+     },
+     "description": {
+      "chatFlavor": ""
+     },
+     "duration": {
+      "concentration": false,
+      "value": "",
+      "units": "inst",
+      "special": "",
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "units": "self",
+      "special": "",
+      "override": false
+     },
+     "target": {
+      "template": {
+       "count": "",
+       "contiguous": false,
+       "type": "",
+       "size": "",
+       "width": "",
+       "height": "",
+       "units": "ft"
+      },
+      "affects": {
+       "count": "",
+       "type": "",
+       "choice": false,
+       "special": ""
+      },
+      "prompt": true,
+      "override": false
+     },
+     "check": {
+      "ability": "wis",
+      "dc": {},
+      "associated": []
+     },
+     "uses": {
+      "spent": 0,
+      "recovery": []
+     },
+     "sort": 0
+    }
+   },
+   "identifier": "cooks-utensils",
+   "attuned": false,
+   "equipped": false
+  },
+  "effects": []
+ },
+ {
+  "name": "Rolling Pin - Kura3™",
+  "type": "weapon",
+  "img": "modules/op5e/assets/campaign/rolling-pin.png",
+  "system": {
+   "activities": {
+    "H8P3Ph1yOV2clNlv": {
+     "_id": "H8P3Ph1yOV2clNlv",
+     "type": "attack",
+     "sort": 0,
+     "activation": {
+      "type": "action",
+      "override": false
+     },
+     "consumption": {
+      "scaling": {
+       "allowed": false
+      },
+      "spellSlot": true,
+      "targets": []
+     },
+     "description": {},
+     "duration": {
+      "units": "inst",
+      "concentration": false,
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "units": "self",
+      "override": false
+     },
+     "target": {
+      "template": {
+       "contiguous": false,
+       "units": "ft"
+      },
+      "affects": {
+       "choice": false
+      },
+      "override": false,
+      "prompt": true
+     },
+     "uses": {
+      "spent": 0,
+      "recovery": []
+     },
+     "attack": {
+      "critical": {},
+      "flat": false,
+      "type": {}
+     },
+     "damage": {
+      "critical": {},
+      "includeBase": true,
+      "parts": []
+     }
+    }
+   },
+   "uses": {
+    "spent": 0,
+    "recovery": [],
+    "max": ""
+   },
+   "description": {
+    "value": "<p>A rolling pin</p>",
+    "chat": ""
+   },
+   "identifier": "new-item",
+   "source": {
+    "revision": 1,
+    "rules": "2014"
+   },
+   "identified": true,
+   "unidentified": {
+    "description": "<p>A rolling pin</p><p></p>",
+    "name": "Unidentified Weapon"
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "legendary",
+   "attunement": "",
+   "crewed": false,
+   "ammunition": {},
+   "armor": {},
+   "damage": {
+    "base": {
+     "types": [
+      "bludgeoning"
+     ],
+     "custom": {
+      "enabled": false
+     },
+     "scaling": {
+      "number": 1
+     },
+     "number": 2,
+     "denomination": 6,
+     "bonus": ""
+    },
+    "versatile": {
+     "types": [],
+     "custom": {
+      "enabled": false
+     },
+     "scaling": {
+      "number": 1
+     }
+    }
+   },
+   "properties": [
+    "hvy",
+    "two"
+   ],
+   "proficient": null,
+   "range": {
+    "reach": null,
+    "units": ""
+   },
+   "type": {
+    "value": "simpleM",
+    "baseItem": ""
+   },
+   "mastery": "",
+   "attuned": false,
+   "equipped": false
+  },
+  "effects": []
+ },
+ {
+  "name": "Death Chalace",
+  "type": "tool",
+  "img": "icons/tools/laboratory/bowl-mixing.webp",
+  "system": {
+   "description": {
+    "value": "<p>When ever you drink from the chalace you die</p>",
+    "chat": ""
+   },
+   "source": {
+    "custom": "",
+    "book": "SRD 5.1",
+    "page": "",
+    "license": "CC-BY-4.0",
+    "rules": "2014",
+    "revision": 1
+   },
+   "quantity": 1,
+   "weight": {
+    "value": 1,
+    "units": "lb"
+   },
+   "price": {
+    "value": 1,
+    "denomination": "gp"
+   },
+   "attunement": "",
+   "rarity": "",
+   "identified": true,
+   "ability": "wis",
+   "chatFlavor": "",
+   "proficient": null,
+   "bonus": "",
+   "type": {
+    "value": "art",
+    "baseItem": "cook"
+   },
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "properties": [],
+   "uses": {
+    "max": "",
+    "recovery": [],
+    "spent": 0
+   },
+   "activities": {
+    "dnd5eactivity000": {
+     "_id": "dnd5eactivity000",
+     "type": "check",
+     "activation": {
+      "type": "",
+      "value": null,
+      "condition": "",
+      "override": false
+     },
+     "consumption": {
+      "targets": [],
+      "scaling": {
+       "allowed": false,
+       "max": ""
+      },
+      "spellSlot": true
+     },
+     "description": {
+      "chatFlavor": ""
+     },
+     "duration": {
+      "concentration": false,
+      "value": "",
+      "units": "inst",
+      "special": "",
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "units": "self",
+      "special": "",
+      "override": false
+     },
+     "target": {
+      "template": {
+       "count": "",
+       "contiguous": false,
+       "type": "",
+       "size": "",
+       "width": "",
+       "height": "",
+       "units": "ft"
+      },
+      "affects": {
+       "count": "",
+       "type": "",
+       "choice": false,
+       "special": ""
+      },
+      "prompt": true,
+      "override": false
+     },
+     "check": {
+      "ability": "wis",
+      "dc": {},
+      "associated": []
+     },
+     "uses": {
+      "spent": 0,
+      "recovery": []
+     },
+     "sort": 0
+    }
+   },
+   "identifier": "cooks-utensils",
+   "attuned": false,
+   "equipped": false
+  },
+  "effects": []
+ },
+ {
+  "name": "Rolling Pin - Kura3™ (Cold + Lightning)",
+  "type": "weapon",
+  "img": "modules/op5e/assets/campaign/rolling-pin.png",
+  "system": {
+   "activities": {
+    "5VYUeh098abUOVD9": {
+     "type": "attack",
+     "sort": 0,
+     "activation": {
+      "type": "action",
+      "override": false,
+      "condition": ""
+     },
+     "consumption": {
+      "scaling": {
+       "allowed": false
+      },
+      "spellSlot": true,
+      "targets": []
+     },
+     "description": {
+      "chatFlavor": ""
+     },
+     "duration": {
+      "units": "inst",
+      "concentration": false,
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "units": "self",
+      "override": false
+     },
+     "target": {
+      "template": {
+       "contiguous": false,
+       "units": "ft",
+       "type": ""
+      },
+      "affects": {
+       "choice": false,
+       "type": ""
+      },
+      "override": false,
+      "prompt": true
+     },
+     "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+     },
+     "attack": {
+      "critical": {
+       "threshold": null
+      },
+      "flat": false,
+      "type": {
+       "value": "",
+       "classification": ""
+      },
+      "ability": "",
+      "bonus": ""
+     },
+     "damage": {
+      "critical": {
+       "bonus": ""
+      },
+      "includeBase": true,
+      "parts": [
+       {
+        "custom": {
+         "enabled": false,
+         "formula": ""
+        },
+        "number": 1,
+        "denomination": 6,
+        "bonus": "",
+        "types": [
+         "cold"
+        ],
+        "scaling": {
+         "number": 1
+        }
+       },
+       {
+        "custom": {
+         "enabled": false,
+         "formula": ""
+        },
+        "number": 1,
+        "denomination": 6,
+        "bonus": "",
+        "types": [
+         "lightning"
+        ],
+        "scaling": {
+         "number": 1
+        }
+       }
+      ]
+     },
+     "_id": "5VYUeh098abUOVD9",
+     "name": "Attack (Cold + Lightning)"
+    }
+   },
+   "uses": {
+    "spent": 0,
+    "recovery": [],
+    "max": ""
+   },
+   "description": {
+    "value": "<p>A rolling pin</p>",
+    "chat": ""
+   },
+   "identifier": "new-item",
+   "source": {
+    "revision": 1,
+    "rules": "2014"
+   },
+   "identified": true,
+   "unidentified": {
+    "description": "<p>A rolling pin</p><p></p>",
+    "name": "Unidentified Weapon"
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "legendary",
+   "attunement": "",
+   "crewed": false,
+   "ammunition": {},
+   "armor": {},
+   "damage": {
+    "base": {
+     "types": [
+      "bludgeoning"
+     ],
+     "custom": {
+      "enabled": false
+     },
+     "scaling": {
+      "number": 1
+     },
+     "number": 2,
+     "denomination": 6,
+     "bonus": ""
+    },
+    "versatile": {
+     "types": [],
+     "custom": {
+      "enabled": false
+     },
+     "scaling": {
+      "number": 1
+     }
+    }
+   },
+   "properties": [
+    "hvy",
+    "two"
+   ],
+   "proficient": null,
+   "range": {
+    "reach": null,
+    "units": ""
+   },
+   "type": {
+    "value": "simpleM",
+    "baseItem": ""
+   },
+   "mastery": "",
+   "attuned": false,
+   "equipped": false
+  },
+  "effects": []
+ },
+ {
+  "name": "Puzzle Box (19%)",
+  "type": "loot",
+  "img": "systems/dnd5e/icons/svg/items/loot.svg",
+  "system": {
+   "description": {
+    "value": "",
+    "chat": ""
+   },
+   "identifier": "new-item",
+   "source": {
+    "revision": 1,
+    "rules": "2014"
+   },
+   "identified": true,
+   "unidentified": {
+    "description": ""
+   },
+   "container": null,
+   "quantity": 1,
+   "weight": {
+    "value": 0,
+    "units": "lb"
+   },
+   "price": {
+    "value": 0,
+    "denomination": "gp"
+   },
+   "rarity": "",
+   "properties": [],
+   "type": {
+    "value": "",
+    "subtype": ""
+   }
+  },
+  "effects": []
+ }
+]

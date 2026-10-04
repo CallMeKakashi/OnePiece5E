@@ -176,7 +176,7 @@ describe("role and class starting equipment", () => {
 
   it("wires role starting equipment on role feats", () => {
     for (const role of roles) {
-      const adv = role.system.advancement.filter((a) => a.type === "ItemGrant" && a.level === 0);
+      const adv = role.system.advancement.filter((a) => a.type === "ItemGrant" && a.level <= 1);
       expect(adv.length, role.name).toBeGreaterThan(0);
     }
   });

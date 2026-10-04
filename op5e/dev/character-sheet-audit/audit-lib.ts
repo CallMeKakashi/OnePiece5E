@@ -4,6 +4,9 @@ import classFeatures from "../../data/src/class-features/index.ts";
 import backgrounds from "../../data/src/backgrounds/index.ts";
 import items from "../../data/src/items/index.ts";
 import races from "../../data/src/races/index.ts";
+import creations from "../../data/src/creations/index.ts";
+import feats from "../../data/src/feats/index.ts";
+import devilFruits from "../../data/src/devil-fruits/index.ts";
 import { compendiumUuid } from "../../data/helpers/uuid.ts";
 import {
   type IssuePhase,
@@ -173,6 +176,9 @@ export function buildCompendiumIndex(): CompendiumIndex {
   register("backgrounds", backgrounds as AnyDoc[]);
   register("items", items as AnyDoc[]);
   register("races", races as AnyDoc[]);
+  register("creations", creations as AnyDoc[]);
+  register("feats", feats as AnyDoc[]);
+  register("devil-fruits", devilFruits as AnyDoc[]);
 
   return {
     byUuid,

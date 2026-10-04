@@ -13,6 +13,8 @@ export interface Prereq {
   notRaces?: string[];
   /** the character can use at least one creation / has creativity */
   creation?: boolean;
+  /** the character owns a devil fruit of this kind (Zoan, Logia or Paramecia) */
+  devilFruit?: "zoan" | "logia" | "paramecia";
   /** minimum character level */
   level?: number;
   /** requirement text we could not check automatically */
@@ -60,6 +62,9 @@ export function parsePrereq(text: string | null | undefined): Prereq | null {
   const cr = rest.match(/the ability to use (?:at least one )?creat(?:ion|ivity)/i);
   if (cr) { out.creation = true; rest = rest.replace(cr[0], " "); }
 
+  const df = rest.match(/(zoan|logia|paramecia)\s+devil\s+fruit/i);
+  if (df) { out.devilFruit = df[1].toLowerCase() as Prereq["devilFruit"]; rest = rest.replace(df[0], " "); }
+
   const lv = rest.match(/\b(\d{1,2})(?:st|nd|rd|th)[- ]level\b/i);
   if (lv) { out.level = Number(lv[1]); rest = rest.replace(lv[0], " "); }
 
@@ -84,7 +89,7 @@ export function parsePrereq(text: string | null | undefined): Prereq | null {
 
   rest = rest.replace(/[,.;]/g, " ").replace(/\s+/g, " ").trim();
   if (rest && !/^(and|or|that)$/i.test(rest)) {
-    const handled = !!(out.abilities || out.proficiencies || out.races || out.notRaces || out.creation || out.level);
+    const handled = !!(out.abilities || out.proficiencies || out.races || out.notRaces || out.creation || out.devilFruit || out.level);
     (out.manual ??= []).push(handled ? rest : t);
   }
   if (out.manual) out.manual = out.manual.map((m) => m.replace(/FishmanKarate/g, "Fishman Karate"));
