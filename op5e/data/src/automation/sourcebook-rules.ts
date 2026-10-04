@@ -18,10 +18,9 @@ const hybrid = (mult: number, who: string): Spec["activities"][number] => ({
   note: `${DURATION_NOTE} Temporary hit points equal to your level x${mult} (${who}). All your attacks deal extra damage equal to your proficiency bonus. Your choice of Strength, Dexterity or Constitution increases by 1 when you eat the fruit. Other beast features (natural weapons, senses, extra limbs, movement) are chosen by the player.`,
 });
 const fullBeast = (who: string, mult: number): Spec["activities"][number] => ({
-  name: `Full Beast Form (${who})`, type: "utility", activation: "bonus", consumeUse: true, consumeTarget: DFU, duration: { value: 10, units: "minute" },
-  roll: { formula: `${mult} * @details.level`, name: `Full Beast hit points: ${mult} x level + the beast's Constitution modifier` },
-  effects: [{ name: "Zoan Full Beast Form", seconds: 600, flags: LEVEL_DURATION }],
-  note: `${DURATION_NOTE} Your statistics are replaced by the Full Beast stat block (keep alignment, personality, Int, Wis and Cha; keep skill and saving throw proficiencies and gain the creature's). Hit points: (${mult} x your level) + Full Beast Constitution modifier (${who}); on reverting you return to your prior hit points and excess damage carries over.`,
+  name: `Full Beast Form (${who})`, type: "transform", activation: "bonus", consumeUse: true, consumeTarget: DFU, duration: { value: 10, units: "minute" },
+  transform: { hpMultiplier: mult },
+  note: `${DURATION_NOTE} Pick your beast actor when prompted, or drag it onto this activity's profiles in the item sheet. Your statistics become the beast's stat block (you keep alignment, personality, Int, Wis and Cha, your proficiency bonus, and you merge skill and saving throw proficiencies). Hit points: (${mult} x your level) + the beast's Constitution modifier (${who}), and you return to your prior hit points when it ends (use Revert Original Form on the sheet).`,
 });
 
 const knee: EffectSpec["changes"] = [
@@ -90,15 +89,15 @@ export const sourcebookRuleSpecs: Record<string, Spec> = {
         effects: [{ name: "Inner Beast", seconds: 60, changes: [rollMode("system.abilities.str.check", "1"), rollMode("system.abilities.dex.check", "1"), { key: "system.attributes.movement.walk", mode: 2, value: "10" }] }],
         note: "Advantage on Strength and Dexterity ability checks and +10 speed for 1 minute; your Electro deals extra lightning damage equal to your level while it lasts. Use this one when the full moon is not visible." },
       { name: "Inner Beast (Sulong, full moon)", type: "utility", activation: "bonus", consumeUse: true, duration: { value: 1, units: "minute" },
-        effects: [{ name: "Sulong", seconds: 60, changes: [rollMode("system.abilities.str.check", "1"), rollMode("system.abilities.dex.check", "1"), { key: "system.attributes.movement.walk", mode: 2, value: "10" }, { key: "system.abilities.str.value", mode: 2, value: "4" }, { key: "system.abilities.dex.value", mode: 2, value: "4" }] }],
-        note: "Only when the full moon is visible: as Inner Beast, and your Strength and Dexterity increase by 4 (this can exceed 20 but not 30). When Sulong ends you suffer one level of exhaustion; add it yourself when the effect expires." },
+        effects: [{ name: "Sulong", seconds: 60, flags: { op5e: { exhaustOnEnd: true } }, changes: [rollMode("system.abilities.str.check", "1"), rollMode("system.abilities.dex.check", "1"), { key: "system.attributes.movement.walk", mode: 2, value: "10" }, { key: "system.abilities.str.value", mode: 2, value: "4" }, { key: "system.abilities.dex.value", mode: 2, value: "4" }] }],
+        note: "Only when the full moon is visible: as Inner Beast, and your Strength and Dexterity increase by 4 (this can exceed 20 but not 30). When Sulong ends you suffer one level of exhaustion (added automatically when the effect ends)." },
     ],
   },
   "feats/Zoan Enhanced Form": {
     uses: { max: "1", per: "lr" },
     activities: [{ name: "Enhanced Form", type: "utility", activation: "bonus", consumeUse: true, consumeTarget: DFU, duration: { value: 1, units: "hour" },
-      effects: [{ name: "Zoan Enhanced Form", seconds: 3600, changes: dmgBonus("+1d8") }],
-      note: "Spend a devil fruit use to access an Enhanced Form of your Hybrid Form or Full Beast Form: increase your size by 1 category (dimensions double, weight x8), attack reach +5 ft, and your attacks deal an extra 1d8 damage. Lasts 1 hour; regained at the end of a long rest. Size and reach are applied by hand." }],
+      effects: [{ name: "Zoan Enhanced Form", seconds: 3600, flags: { op5e: { sizeUp: true } }, changes: dmgBonus("+1d8") }],
+      note: "Spend a devil fruit use to access an Enhanced Form of your Hybrid Form or Full Beast Form: increase your size by 1 category (dimensions double, weight x8), attack reach +5 ft, and your attacks deal an extra 1d8 damage. Lasts 1 hour; regained at the end of a long rest. Your size goes up one category automatically; add the +5 ft reach by hand." }],
   },
   "feats/Zoan Endless Forms": {
     activities: [{ name: "Partial Beast Form", type: "utility", activation: "special", note: "Alter your appearance to partially take your beast form (only an arm into a hoof, or only the nose to enhance perception checks). Base Zoan forms no longer cost a fruit use; Enhanced Form is unlimited per day but still costs a devil fruit use." }],

@@ -16,7 +16,7 @@ export interface EffectSpec {
 }
 export interface ActSpec {
   name: string;
-  type: "utility" | "save" | "attack" | "damage" | "heal" | "summon";
+  type: "utility" | "save" | "attack" | "damage" | "heal" | "summon" | "transform";
   activation?: "action" | "bonus" | "reaction" | "minute" | "special" | "";
   reactionWhen?: string;
   range?: number; rangeUnits?: "ft" | "touch" | "self" | "";
@@ -42,6 +42,8 @@ export interface ActSpec {
   consumeAmount?: string;
   /** extra resource consumed, e.g. a spell slot */
   note?: string;
+  /** transform: the form's hit points are hpMultiplier x level + the beast's Con modifier (scripts/compendium.mjs sets them on transform) */
+  transform?: { hpMultiplier: number };
   /** summon: names of premade actors in the summons pack; bonuses are item-roll-data formulas */
   summon?: { profiles: string[]; ac?: string; hp?: string; attackDamage?: string; saveDamage?: string; healing?: string; fixed?: boolean };
 }
@@ -103,6 +105,10 @@ export function buildFromSpec(key: string, spec: Spec, defaults: SpecDefaults = 
       act.match = { ability: "", attacks: !sm.fixed, proficiency: false, saves: !sm.fixed };
       act.profiles = sm.profiles.map((n) => ({ _id: generateId(`profile/${key}/${n}`).slice(0, 16), count: "1", cr: "", level: { min: null, max: null }, name: n, types: [], uuid: `Compendium.op5e.summons.Actor.${generateId(`monster/${n}`)}` }));
       act.summon = { identifier: "", mode: "", prompt: true };
+    } else if (a.type === "transform") {
+      // the player picks the beast actor when prompted (or the GM drags a beast onto this activity's profiles)
+      act.profiles = []; act.transform = { customize: true, identifier: "", mode: "cr", preset: "" };
+      act.settings = { keep: ["mental", "bio", "class", "feats"], merge: ["saves", "skills"], effects: [], other: [`op5e:hpmult:${a.transform?.hpMultiplier ?? 5}`], preset: null, spellLists: [], tempFormula: "", transformTokens: true, minimumAC: "" };
     } else {
       act.roll = { formula: a.roll?.formula ?? "", name: a.roll?.name ?? "", prompt: false, visible: !!a.roll };
     }

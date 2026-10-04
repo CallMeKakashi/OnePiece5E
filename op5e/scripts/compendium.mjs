@@ -94,9 +94,31 @@ Hooks.on("dnd5e.preRollDamageV2", (rollConfig, dialog, message) => {
 
 // Zoan Hybrid/Full Beast Form last 10 minutes, 1 hour at 5th level, 8 hours at 10th, 24 hours at 15th and unlimited at 20th.
 // The effect ships with 10 minutes; set the real length from the actor's level when it lands on the actor.
+const SIZES = ["tiny", "sm", "med", "lg", "huge", "grg"];
 Hooks.on("preCreateActiveEffect", (effect) => {
-  if (!effect.getFlag?.(MODULE_ID, "levelDuration") || !(effect.parent instanceof Actor)) return;
+  if (!(effect.parent instanceof Actor)) return;
+  // Zoan Enhanced Form: one size category bigger while it lasts
+  if (effect.getFlag?.(MODULE_ID, "sizeUp")) {
+    const next = SIZES[Math.min(SIZES.indexOf(effect.parent.system.traits?.size ?? "med") + 1, SIZES.length - 1)];
+    effect.updateSource({ changes: [...effect.changes, { key: "system.traits.size", mode: 5, value: next }] });
+  }
+  if (!effect.getFlag?.(MODULE_ID, "levelDuration")) return;
   const level = effect.parent.system.details?.level ?? 1;
   const hours = [[20, 8760], [15, 24], [10, 8], [5, 1]].find(([l]) => level >= l)?.[1] ?? 1 / 6;
   effect.updateSource({ "duration.seconds": Math.round(hours * 3600) });
+});
+
+// Sulong ends: one level of exhaustion (only the client that removed the effect applies it)
+Hooks.on("deleteActiveEffect", (effect, _options, userId) => {
+  if (userId !== game.user.id || !effect.getFlag?.(MODULE_ID, "exhaustOnEnd") || !(effect.parent instanceof Actor)) return;
+  const a = effect.parent;
+  a.update({ "system.attributes.exhaustion": Math.min((a.system.attributes.exhaustion ?? 0) + 1, 6) });
+});
+
+// Zoan Full Beast Form (a dnd5e transform activity tagged "op5e:hpmult:N"): hit points are N x level + the beast's Con modifier
+Hooks.on("dnd5e.transformActorV2", (actor, source, data, settings) => {
+  const mult = [...(settings.other ?? [])].map((x) => /^op5e:hpmult:(\d+)$/.exec(x)?.[1]).find(Boolean);
+  if (!mult) return;
+  const hp = Number(mult) * (actor.system.details?.level ?? 1) + (source.system.abilities?.con?.mod ?? 0);
+  data.system.attributes.hp = { ...data.system.attributes.hp, value: hp, max: hp, temp: 0, tempmax: 0 };
 });
