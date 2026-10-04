@@ -1,0 +1,36 @@
+name: CI (op5e)
+
+on:
+  push:
+    paths: ["op5e/**", ".github/workflows/ci.yml"]
+  pull_request:
+    paths: ["op5e/**", ".github/workflows/ci.yml"]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: op5e/package-lock.json
+
+      - name: Install
+        working-directory: op5e
+        run: npm ci
+
+      - name: Build
+        working-directory: op5e
+        run: npm run build
+
+      - name: Validate and regression
+        working-directory: op5e
+        run: node scripts/validate-packs.mjs && node scripts/regression.mjs
+
+      # the unit tests write fixtures into the vault's Foundry/actors-json (a junction locally); an empty folder is enough in CI
+      - name: Unit tests
+        working-directory: op5e
+        run: mkdir -p ../Foundry/actors-json && npm test

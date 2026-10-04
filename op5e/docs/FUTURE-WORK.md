@@ -1,0 +1,60 @@
+# Future work (agreed, not started)
+
+Order is rough priority. "Now" items are being done straight after the current ship-check passes.
+
+## Now (after the current test run)
+1. **Merge the five walkthrough scripts into one, and run the real-UI checks automatically** (`dev/harness/walkthrough*.mjs` + `ui-lib.mjs`
+   become one step-list script). Wire it into `scripts/ship-check.mjs` as a stage so Phase 3/4 UI checks run with every ship check.
+2. **CI on every push** (`.github/workflows/ci.yml`): build, validate, regression, unit tests. The release workflow already exists.
+   Open item: `module.json` manifest/download URLs point at `Blood-and-Brine/blood-brine` while the repo is `CallMeKakashi/OnePiece5E`.
+
+## 1. Refresh characters from the compendium
+Existing actors keep old copies of feats and items. A tool that updates an actor's items from the current compendium, keeping uses spent,
+equipped state, quantities and custom edits, so a fix reaches existing PCs without rebuilding them.
+
+## 2. Standalone shop and trade module (not tied to this homebrew)
+Goal: a separate Foundry module that works with any dnd5e world; default is stock dnd5e (gp/sp/cp), configurable to any item list and currency.
+
+Exact requirements:
+- **Currency:** default = dnd5e coins. Configurable currency set (name, abbreviation, conversion ratios, icon); a single-currency mode
+  (like Berries) must work. Reads `CONFIG.DND5E.currencies` rather than hard-coding.
+- **Shop definition:** a shop is an item list (any compendium or world items) with per-item price (default from the item, overridable),
+  stock (unlimited or a number), and optional markup/discount percent per shop.
+- **Customising the list:** GM edits a shop's list by drag and drop from any compendium; import/export a shop as JSON.
+- **Buying and selling:** a player buys from a shop with their own character; the module checks funds, deducts the price, adds the item
+  (quantity respected) and posts a chat receipt. Selling to a shop at a configurable sell ratio (default 50%).
+- **Player and NPC trades:** player-to-player and player-to-NPC trades with both sides confirming; item and currency changes applied atomically.
+  An NPC merchant sheet type or a flag on any actor, with its own gold.
+- **Permissions:** players see only open shops; only the GM edits shops, stock and prices; all changes made by the GM client or via socketlib
+  so players cannot write to other actors.
+- **Never writes to compendiums.** Shops live in the world (or a world compendium).
+- **Compatibility:** dnd5e 5.x, Foundry 13; no dependency on op5e. op5e would only supply a ready-made Berries currency set and item list.
+- **Tests:** harness stages for buy, sell, trade, insufficient funds, out of stock, permissions as a player user.
+
+## 3. Sync items created in a world into a compendium
+Any item, feat or actor created in a world can be pushed into a compendium folder named after the world (for example folder "blood-and-brine"
+inside an "OP5e World Items" pack), so it can be imported into another world.
+- One command or button: "Send to world compendium"; keeps the original `_id`s and flags so re-sending updates instead of duplicating.
+- Reverse direction: import a whole folder into another world.
+- Must never write into the shared op5e compendiums.
+
+## 4. Import an old character into Create OPC
+Take an existing actor (or exported actor JSON) and rebuild it through the Create OPC flow: map class, subclass, race, background, ability scores,
+skills, Haki and fruit; list what had no equivalent (like the biography note the PC rebuild writes now). Builds on `dev/harness/rebuild-pcs.mjs`.
+
+## 5. Sourcebook update pipeline
+When the One Piece D&D book changes: re-run extraction, then produce a diff of what moved (new, removed, changed docs and rules), re-run the
+ship check, and list the items needing a human decision. Builds on `scripts/extract-sourcebook.mjs` and the audit scripts.
+
+## 6. Verification
+- Side-by-side review sheet: sourcebook text next to what each automation does, sorted by risk, for human skimming.
+- Assertion tests for the highest-risk rules (Haki tiers, Devil Fruit uses, summons, ships and cannons), written like `dev/harness/transform.mjs`.
+- The 45 audit warnings (15 missing action types, 5 missing use counts, 25 text-only features).
+
+## 7. Known unfinished mechanics
+- Full Beast Form: rolls its hit points only; a real transform with a stat block per fruit would swap the sheet.
+- Sulong exhaustion on end, Enhanced Form size and reach, Approaching Awakening: manual notes.
+- Ship cannons through the legacy ship sheet in the real UI.
+- Items dnd5e cannot express (for example Multipod).
+- Compatibility with dnd5e 5.2+ (Midi-QOL and Chris Premades want it): try in a separate Foundry copy.
+- World copy script for rehearsals; official art from files the DM supplies.
