@@ -61,6 +61,8 @@ function raceName(actor) {
 }
 
 /** @returns {{unmet: string[], notes: string[]}} */
+const cap = (x) => x[0].toUpperCase() + x.slice(1);
+
 export function checkPrereq(prereq, actor, { level, added = [] } = {}) {
   const unmet = [], notes = [...(prereq?.manual ?? [])];
   if (!prereq) return { unmet, notes };
@@ -75,7 +77,7 @@ export function checkPrereq(prereq, actor, { level, added = [] } = {}) {
     else {   // tools: match a proficient tool by name; a category such as "musical instrument" matches any proficient tool of that category
       const have = Object.entries(actor.system.tools ?? {}).filter(([, t]) => (t?.value ?? 0) > 0).map(([k]) => k.toLowerCase());
       const trait = [...(actor.system.traits?.toolProf?.value ?? [])].map((x) => String(x).toLowerCase());
-      ok = p.names.some((n) => [...have, ...trait].some((h) => h.includes(slug(n)) || slug(n).includes(h) || (/instrument/.test(n) && /music|instrument|lute|flute|drum|lyre|horn|viol|shawm|pan|bagpipe|dulcimer|piano|guitar/.test(h))));
+      ok = p.names.some((n) => [...have, ...trait].some((h) => h.includes(slug(n)) || slug(n).includes(h) || (/instrument/.test(n) && /music|instrument|lute|flute|drum|lyre|horn|viol|shawm|\bpan\b|bagpipe|dulcimer|piano|guitar/.test(h))));
     }
     if (!ok) unmet.push(`${p.kind} proficiency: ${p.names.join(" or ")}`);
   }
@@ -86,7 +88,7 @@ export function checkPrereq(prereq, actor, { level, added = [] } = {}) {
   if (prereq.notRaces?.length) {
     const r = raceName(actor).toLowerCase();
     const bad = prereq.notRaces.find((x) => r.includes(x.toLowerCase()));
-    if (bad) unmet.push(`not a ${bad[0].toUpperCase()}${bad.slice(1)}`);
+    if (bad) unmet.push(`not a ${cap(bad)}`);
   }
   if (prereq.creation) {
     const can = actor.items.some((i) => i.type === "spell") || actor.items.some((i) => i.type === "class" && i.system.spellcasting?.progression && i.system.spellcasting.progression !== "none")
@@ -97,7 +99,7 @@ export function checkPrereq(prereq, actor, { level, added = [] } = {}) {
     // the template and the fruits made from it carry flags.op5e.devilFruitTemplate; a renamed fruit keeps it
     const kind = prereq.devilFruit, fruits = [...actor.items, ...added];
     const has = fruits.some((i) => i.flags?.op5e?.devilFruitTemplate === kind || new RegExp(`devil fruit:\\s*${kind}`, "i").test(i.name));
-    if (!has) unmet.push(`a ${kind[0].toUpperCase()}${kind.slice(1)} devil fruit`);
+    if (!has) unmet.push(`a ${cap(kind)} devil fruit`);
   }
   if (prereq.level && (level ?? actor.system.details?.level ?? 0) < prereq.level) unmet.push(`level ${prereq.level}`);
   return { unmet, notes };

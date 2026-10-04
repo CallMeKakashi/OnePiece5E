@@ -37,4 +37,4 @@ const run = async () => {
   }
   return out;
 };
-await withFoundry(async (page) => { for (const l of await page.evaluate(`(${run.toString()})()`)) console.log(l); });
+await withFoundry(async (page) => { for (const l of await page.evaluate(`(${run.toString()})()`)) { console.log(l); if (l.startsWith("FAIL")) process.exitCode = 1; } });

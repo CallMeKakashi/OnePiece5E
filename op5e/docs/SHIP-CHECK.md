@@ -14,6 +14,8 @@ Fix S1 and S2, re-run the matching automated stage, then re-check by hand.
 - [ ] A written rollback: restore the module backup and the world snapshot.
 
 ## Phase 1: Automated stages, `node scripts/ship-check.mjs`
+Pause, stop or resume the sweep at any time: `node scripts/control.mjs pause|resume|stop` (the sweep checkpoints every 5 documents; continue a stopped one with `node scripts/ship-check.mjs --from sweep --resume`). Live view: `node scripts/status-page.mjs`, then open `reports/status.html`.
+
 Runs in order and stops at the first failure (`--from "<stage>"` resumes; `--small` samples the sweep, but a real ship run uses the full sweep).
 
 | Stage | Pass means |

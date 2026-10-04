@@ -1,31 +1,30 @@
-// The ship-before-campaign test plan, automated part. Runs each stage in order, stops at the first failure, writes reports/ship-check.json.
-// Needs Foundry running on the TEST world. Stages marked manual are in docs/SHIP-CHECK.md.
-// Usage: node scripts/ship-check.mjs [--from <stage name>] [--small]   (--small: sampled sweep, ~10 min instead of ~1 h)
-import { spawnSync } from "node:child_process";
-import { writeFileSync } from "node:fs";
+// The ship-before-campaign test plan, automated part. Runs each stage in order, stops at the first failure, writes reports/ship-check.json
+// and appends all output to reports/ship.log (read by scripts/status-page.mjs). Needs Foundry running on the TEST world.
+// Usage: node scripts/ship-check.mjs [--from <stage name>] [--small] [--resume]   (--resume: continue a stopped sweep from its checkpoints)
+// Pause or stop the sweep any time: node scripts/control.mjs pause|resume|stop   (--small: sampled sweep, ~10 min instead of ~1 h)
+import { spawn } from "node:child_process";
+import { appendFileSync, readFileSync, writeFileSync } from "node:fs";
+import { STAGES } from "./ship-stages.mjs";
 
-const small = process.argv.includes("--small") ? ["--small"] : [];
-const STAGES = [
-  ["build", "npm run build"],
-  ["validate+regression+unit", "node scripts/validate-packs.mjs && node scripts/regression.mjs && npm test"],
-  ["images", "node scripts/check-images.mjs"],
-  ["source checks", "node scripts/check-armor.mjs && node scripts/check-class-tables.mjs && node scripts/check-items-vs-source.mjs && node scripts/check-races-vs-source.mjs && node scripts/check-automation-accuracy.mjs"],
-  ["sync to live world", "node dev/harness/sync-live.mjs --force"],
-  ["prerequisites", "node dev/harness/prereq.mjs"],
-  ["wizard", "node dev/harness/wizard.mjs"],
-  ["level-up", "node dev/harness/levelup.mjs"],
-  ["optional rules", "node dev/harness/optional-rules.mjs"],
-  ["sweep", `node dev/harness/sweep-parallel.mjs ${small.join(" ")}`],
-  ["rebuild PCs", "node dev/harness/rebuild-pcs.mjs"],
-  ["transformations", "node dev/harness/transform.mjs | tee reports/transform.log && ! grep -q FAIL reports/transform.log"],
-];
-const from = process.argv.indexOf("--from") > 0 ? process.argv[process.argv.indexOf("--from") + 1] : null;
-const todo = from ? STAGES.slice(Math.max(0, STAGES.findIndex(([n]) => n === from))) : STAGES;
-const results = [];
-for (const [name, cmd] of todo) {
+const small = process.argv.includes("--small"), resume = process.argv.includes("--resume");
+const from = process.argv.includes("--from") ? process.argv[process.argv.indexOf("--from") + 1] : null;
+const start = from ? Math.max(0, STAGES.findIndex(([n]) => n === from)) : 0;
+const prev = (() => { try { return JSON.parse(readFileSync("reports/ship-check.json", "utf8")).results; } catch { return []; } })();
+const results = prev.filter((r) => STAGES.findIndex(([n]) => n === r.name) < start);   // a resumed run keeps the stages that already passed
+if (!from) writeFileSync("reports/ship.log", "");
+
+const run = (cmd) => new Promise((res) => {
+  const p = spawn(cmd, { shell: true, stdio: ["ignore", "pipe", "pipe"] });
+  const out = (d) => { process.stdout.write(d); appendFileSync("reports/ship.log", d); };
+  p.stdout.on("data", out); p.stderr.on("data", out);
+  p.on("close", (code) => res(code === 0));
+});
+
+for (const [name, base] of STAGES.slice(start)) {
+  const cmd = name === "sweep" ? [base, small && "--small", resume && "--resume"].filter(Boolean).join(" ") : base;
   const t = Date.now();
-  console.log(`\n=== ${name}: ${cmd}`);
-  const ok = spawnSync(cmd, { shell: true, stdio: "inherit" }).status === 0;
+  appendFileSync("reports/ship.log", `\n=== ${name}: ${cmd}\n`);
+  const ok = await run(cmd);
   results.push({ name, ok, minutes: Math.round((Date.now() - t) / 600) / 100 });
   writeFileSync("reports/ship-check.json", JSON.stringify({ at: new Date().toISOString(), results }, null, 1));
   if (!ok) { console.log(`\nSTOPPED at "${name}". Fix it and re-run with --from "${name}".`); process.exit(1); }
