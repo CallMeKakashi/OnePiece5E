@@ -5,6 +5,7 @@ import { registerOp5eFeatureHooks } from "./feature-hooks.mjs";
 import { registerOp5eEquipmentGrantHooks } from "./equipment-grant-advancement.mjs";
 import { initSkillsAndTools } from "./skills-and-tools.mjs";
 import { registerOptionalRules } from "./optional-rules.mjs";
+import { registerImportJournals } from "./import-journals.mjs";
 
 const DEFAULT_CURRENCY_PER_WEIGHT = { imperial: 50, metric: 110 };
 const WEIGHTLESS_CURRENCY_PER_WEIGHT = { imperial: 1_000_000, metric: 1_000_000 };
@@ -34,6 +35,7 @@ Hooks.once("init", () => {
   applyBerriesCurrency();
   initSkillsAndTools();
   registerOptionalRules();
+  registerImportJournals();
 
   game.settings.register(MODULE_ID, "berriesWeightless", {
     name: `${MODULE_ID}.settings.berriesWeightless.name`,
