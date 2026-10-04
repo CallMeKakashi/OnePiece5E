@@ -1,0 +1,44 @@
+{
+  "log": [
+    "startup dialog: D&D5e Animations - Warning D&D5e Animations requires both the JB2A and PSFX modules to function, and strongly recommends using the Patreon versions. Make sure both are installed and enabled! JB2A PSFX The free versions of the above modules work but only offer limited functionality. If you just want ",
+    "reports/walkthrough/01-startup-dialog-1.png",
+    "world=test user=Automation",
+    "reports/walkthrough/02-actors-sidebar-create-opc-button.png",
+    "Create OPC button present: 1",
+    "reset confirmed: true",
+    "reports/walkthrough/03-wizard-0-after-choosing-pc.png",
+    "reports/walkthrough/04-wizard-1-name.png",
+    "reports/walkthrough/05-wizard-2-images.png",
+    "reports/walkthrough/06-wizard-3-species.png",
+    "reports/walkthrough/07-wizard-4-background.png",
+    "reports/walkthrough/08-wizard-5-dream.png",
+    "reports/walkthrough/09-wizard-6-class-level-subclass-free-feat.png",
+    "reports/walkthrough/10-wizard-7-abilities.png",
+    "reports/walkthrough/11-wizard-8-finish-summary.png",
+    "reports/walkthrough/12-after-finish-first-advancement-dialog.png"
+  ],
+  "dump": [
+    {
+      "id": "app-125",
+      "cls": "application dnd5e2 advancement manager themed theme-light",
+      "text": "Advancement Human • Step 1 of 9 Ability Score Increase 3 Points Remaining Max 2 points per score Strength Dexterity Constitution Intelligence Wisdom Charisma NEXT",
+      "buttons": [
+        "toggleControls||false",
+        "||false",
+        "close||false",
+        "next|NEXT|false"
+      ],
+      "inputs": [
+        "INPUT:number:abilities.str:false:false",
+        "INPUT:number:abilities.dex:false:false",
+        "INPUT:number:abilities.con:false:false",
+        "INPUT:number:abilities.int:false:false",
+        "INPUT:number:abilities.wis:false:false",
+        "INPUT:number:abilities.cha:false:false"
+      ]
+    }
+  ],
+  "errors": [
+    "Error: Localization keys must be provided for pre-localizing when target is an object.\n    at _localizeObject (http://localhost:30000/systems/dnd5e/dnd5e.mjs:1423:21)\n    at performPreLocalization (ht"
+  ]
+}

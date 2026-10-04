@@ -63,13 +63,16 @@ export const pageLib = (built) => {
         case "Trait": {
           const chosen = [];
           for (const grp of adv.configuration.choices) {
-            const avail = await adv.availableChoices(new Set(chosen));
-            const leaves = [];
-            const walk = (n) => { for (const [k, v] of Object.entries(n ?? {})) { if (v?.children) walk(v.children); else if (!v?.disabled) leaves.push(k); } };
-            const sets = avail?.choices ?? avail; walk(sets?.choices ?? sets);
-            const take = leaves.filter((k) => !chosen.includes(k) && !adv.configuration.grants.has?.(k) && ![...adv.configuration.grants].includes(k)).slice(0, grp.count);
-            if (take.length < grp.count) note(`L${lvl} ${adv.title}: trait choice ${take.length}/${grp.count} pool=${JSON.stringify(grp.pool)} avail=${avail?.constructor?.name}:${[...(avail?.keys?.() ?? Object.keys(avail ?? {}))].slice(0, 6).join(",")} sets=${sets?.constructor?.name}:${[...(sets?.keys?.() ?? Object.keys(sets ?? {}))].slice(0, 6).join(",")} pool=${[...(grp.pool ?? [])].join("|")}`);
-            chosen.push(...take);
+            // the real dialog picks one trait at a time and recomputes the options after each pick: that is when dnd5e offers replacements
+            for (let n = 0; n < grp.count; n++) {
+              const avail = await adv.availableChoices(new Set(chosen));
+              const leaves = [];
+              const walk = (m) => { for (const [k, v] of Object.entries(m ?? {})) { if (v?.children) walk(v.children); else if (!v?.disabled) leaves.push(k); } };
+              const sets = avail?.choices ?? avail; walk(sets?.choices ?? sets);
+              const one = leaves.find((k) => !chosen.includes(k) && ![...adv.configuration.grants].includes(k));
+              if (!one) { note(`L${lvl} ${adv.title}: trait choice ${n}/${grp.count} (no option left even with replacements)`); break; }
+              chosen.push(one);
+            }
           }
           return { chosen: [...adv.configuration.grants, ...chosen] };
         }

@@ -53,19 +53,22 @@ async function pick(manager, flow, adv, ctx) {
     case "Trait": {
       const chosen = [];
       for (const grp of adv.configuration.choices) {
-        const avail = await adv.availableChoices(new Set(chosen));
-        const leaves = [];
-        const walk = (n) => {
-          for (const [k, v] of Object.entries(n ?? {})) {
-            if (v?.children) walk(v.children);
-            else if (!v?.disabled) leaves.push(k);
-          }
-        };
-        const sets = avail?.choices ?? avail;
-        walk(sets?.choices ?? sets);
-        const take = leaves.filter((k) => !chosen.includes(k) && ![...adv.configuration.grants].includes(k)).slice(0, grp.count);
-        if (take.length < grp.count) ctx.note(`L${lvl} ${adv.title}: trait choice ${take.length}/${grp.count}`);
-        chosen.push(...take);
+        // like the real dialog: one trait at a time, options recomputed after each pick (that is when replacements are offered)
+        for (let n = 0; n < grp.count; n++) {
+          const avail = await adv.availableChoices(new Set(chosen));
+          const leaves = [];
+          const walk = (m) => {
+            for (const [k, v] of Object.entries(m ?? {})) {
+              if (v?.children) walk(v.children);
+              else if (!v?.disabled) leaves.push(k);
+            }
+          };
+          const sets = avail?.choices ?? avail;
+          walk(sets?.choices ?? sets);
+          const one = leaves.find((k) => !chosen.includes(k) && ![...adv.configuration.grants].includes(k));
+          if (!one) { ctx.note(`L${lvl} ${adv.title}: trait choice ${n}/${grp.count}`); break; }
+          chosen.push(one);
+        }
       }
       return { chosen: [...adv.configuration.grants, ...chosen] };
     }

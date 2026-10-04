@@ -59,10 +59,8 @@ Hooks.once("init", () => {
   });
 
   CONFIG.DND5E.sourceBooks ??= {};
-  CONFIG.DND5E.sourceBooks.OP5e = {
-    label: "One Piece 5e",
-    abbreviation: "OP5e",
-  };
+  // dnd5e's sourceBooks maps a key to a plain label string (an object here made its pre-localizer log an error on every load)
+  CONFIG.DND5E.sourceBooks.OP5e = "One Piece 5e";
 });
 
 Hooks.once("setup", () => {

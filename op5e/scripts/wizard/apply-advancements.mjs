@@ -55,6 +55,11 @@ export async function runManager(manager, opts = {}) {
     await commitManager(manager);
     return true;
   }
+  // the player already chose a subclass on the wizard's class step: show it pre-filled in dnd5e's own Subclass step (still changeable)
+  if (opts.subUuid) {
+    const sub = await fromUuid(opts.subUuid).catch(() => null);
+    if (sub) for (const step of manager.steps) if (step.flow?.advancement?.constructor?.typeName === "Subclass") step.flow.subclass = sub;
+  }
   const done = waitForAdvancementManagerComplete(manager);
   manager.render(true);
   await done;
