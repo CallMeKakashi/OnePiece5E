@@ -628,6 +628,7 @@ async function onDamageActorRelentlessRage(actor, changes) {
  * @param {object} changes
  */
 async function onDamageActor(actor, changes) {
+  if (actor?.pack) return;   // compendium actors are locked (and are not characters in play)
   const hpChange = changes?.hp ?? 0;
   if (hpChange < 0 && actor?.setFlag) {
     const damageTaken = Math.abs(hpChange);
