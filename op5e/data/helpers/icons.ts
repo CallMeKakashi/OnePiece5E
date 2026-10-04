@@ -132,7 +132,6 @@ const PERCEPTION = [
 const SYMBOLS = [
   "icons/magic/symbols/star-rising-purple.webp",
   "icons/magic/symbols/runes-star-blue.webp",
-  "icons/magic/symbols/question-stone-yellow.webp",
   "icons/magic/symbols/runes-star-pentagon-blue.webp",
 ] as const;
 
@@ -401,8 +400,12 @@ const KEYWORD_RULES: KWRule[] = [
   // Time
   { kw: ["time", "temporal", "chronos", "age", "timeless"], icon: TIME },
 
+  // Haki tiers are named "... Adept"/"... Master": keep them out of the generic expertise rule below
+  { kw: ["color of armament"], icon: "icons/skills/melee/weapons-crossed-swords-yellow.webp" },
+  { kw: ["color of observation"], icon: "icons/magic/perception/eye-ringed-green.webp" },
+
   // Expertise / proficiency
-  { kw: ["expertise", "proficien", "master", "adept", "expert"], icon: "icons/magic/symbols/question-stone-yellow.webp" },
+  { kw: ["expertise", "proficien", "master", "adept", "expert"], icon: "icons/skills/trades/academics-study-reading-book.webp" },
   { kw: ["reliable talent", "talent"], icon: "icons/magic/symbols/star-rising-purple.webp" },
 
   // Aura

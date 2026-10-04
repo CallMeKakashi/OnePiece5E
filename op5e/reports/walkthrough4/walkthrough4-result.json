@@ -1,0 +1,67 @@
+{
+  "checks": [
+    {
+      "name": "roll table \"Lingering Injury Check\" (213 tables in the pack, formula 1d20, 3 results)",
+      "pass": true,
+      "detail": "chat messages 1105 -> 1106"
+    },
+    {
+      "name": "reference journal opens (8 entries, 188 pages) with a real table page",
+      "pass": true,
+      "detail": "{\"entries\":8,\"pages\":188,\"tablePage\":\"Appendix A Creation Tables / Confusion Behavior Table\",\"tables\":1}"
+    },
+    {
+      "name": "Second Wind used from the sheet posts a chat card",
+      "pass": true,
+      "detail": "messages 1106 -> 1107"
+    },
+    {
+      "name": "Handaxe ATTACK button on the chat card rolls a d20",
+      "pass": true,
+      "detail": "[{\"text\":\"Handaxe \\n         Simple Melee \\n       \\n        \\n     \\n     \\n        \\n     \\n   \\n\\n   \\n    \\n\\n\\n\\n\\n\\n     \",\"rolls\":[\"1d20 + 2 + 5 = 9\",\"1d6 + 2 = 4\"]}]"
+    },
+    {
+      "name": "Handaxe damage rolls on the same chat card (1d6 + Strength)",
+      "pass": true,
+      "detail": "[[\"1d20 + 2 + 5 = 9\",\"1d6 + 2 = 4\"]]"
+    }
+  ],
+  "secondWindChat": [
+    {
+      "user": "Automation",
+      "alias": "Walkthrough Hero",
+      "text": "Handaxe Simple Melee Attack 1d20 + 2 + 5 6 6 13 Targets Damage 1d6 + 2 4 2 2 Action Instantaneous 20/60 ft Not Equipped Proficient",
+      "rolls": [
+        "1d20 + 2 + 5=13",
+        "1d6 + 2=4"
+      ]
+    },
+    {
+      "user": "Automation",
+      "alias": "Automation",
+      "text": "Roll when a creature takes a critical hit or damage of at least half its hit point maximum (Appendix B, Lingering Injuries). A creature that chooses non-lethal damage can choose not to inflict an injury; a creature that reduces a critical hit's damage to 0 doe",
+      "rolls": [
+        "1d20=2"
+      ]
+    },
+    {
+      "user": "Automation",
+      "alias": "Walkthrough Hero",
+      "text": "Second Wind Feature You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. You can use this feature a number of times equal to you",
+      "rolls": []
+    }
+  ],
+  "handaxeRolls": [
+    {
+      "text": "Handaxe \n         Simple Melee \n       \n        \n     \n     \n        \n     \n   \n\n   \n    \n\n\n\n\n\n     ",
+      "rolls": [
+        "1d20 + 2 + 5 = 9",
+        "1d6 + 2 = 4"
+      ]
+    }
+  ],
+  "errors": [
+    "midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'",
+    "TypeError: Cannot read properties of undefined (reading 'length')\n[Detected 2 packages: dice-stats(1.22.2), midi-qol(13.0.28)]\n    at Object.fn (http://localhost:30000/modules/dice-stats/scripts/asyncinteraction/dice-sta"
+  ]
+}
