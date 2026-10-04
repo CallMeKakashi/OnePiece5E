@@ -31,6 +31,7 @@ Runs in order and stops at the first failure (`--from "<stage>"` resumes; `--sma
 | optional rules | 9/10 or better; the one known failure is a Chris Premades error |
 | sweep | every doc used: 0 failures (parallel, 5 shards, about an hour) |
 | rebuild PCs | the 10 campaign PCs rebuild without errors |
+| real-UI walkthroughs | the six walkthrough scripts run in a real browser with no FAIL (screenshots in `reports/walkthrough*/`) |
 | transformations | Hybrid Form, Full Beast Form and Sulong checks pass on Roma, Hybrid, Sulong, Malphas (31 checks) |
 
 ## Phase 2: Character creation by hand (Create OPC and Foundry's native flow)
@@ -57,7 +58,7 @@ Runs in order and stops at the first failure (`--from "<stage>"` resumes; `--sma
    Zoan users: Hybrid Form spends a Devil Fruit use, temp HP = level x2 (x3 ancient, x4 mythical), +proficiency damage, duration by level;
    Full Beast Form spends a use and rolls its HP formula. Minks: Inner Beast and the Sulong variant (+4 Str/Dex).
 7. **Downtime:** crafting from the reference tables, shopping from Shop Catalogues in Berries, Campaign Items listed, a roll table rolls.
-8. **GM tools:** open the reference journals, roll a random table, grant an Additional Power by drag and drop.
+8. **GM tools:** the Journal tab's "Import OP5e journals" button copies Reference and Spell Lists into a world folder (shift-click replaces); open the reference journals, roll a random table, grant an Additional Power by drag and drop.
 9. **Multi-user:** players on separate browsers with their own characters. Can a player use Create OPC (defaults to PC)? Can they open
    GM characters, see GM whispers or edit the world (they must not)? Can they read the compendium (they must)? Shared combat and initiative,
    rolls in shared chat, GM whisper private, summon ownership correct, Midi and DAE effects across clients.

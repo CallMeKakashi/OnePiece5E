@@ -12,4 +12,5 @@ export const STAGES = [
   ["sweep", "node dev/harness/sweep-parallel.mjs", "Using every compendium document once"],
   ["rebuild PCs", "node dev/harness/rebuild-pcs.mjs", "Rebuilding the 10 campaign PCs"],
   ["transformations", "node dev/harness/transform.mjs", "Zoan Hybrid/Full Beast and Sulong on the PCs"],
+  ["real-UI walkthroughs", "node dev/harness/walkthrough-all.mjs", "Sheets, dialogs, summons, ships and item galleries in a real browser"],
 ];

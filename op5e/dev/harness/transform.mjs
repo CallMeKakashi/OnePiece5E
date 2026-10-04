@@ -35,6 +35,59 @@ const run = async () => {
     } else ok(`${name}: not a Mink, no Inner Beast expected`, !ib);
     await fu().update({ "system.uses.spent": 0 });
   }
+
+  // ---- Full Beast Form: dnd5e transform, hit points = N x level + the beast's Con mod, back to the old hit points on revert
+  {
+    const a = game.actors.find((x) => x.name === "Roma" && x.flags?.op5e?.rebuiltFromOldSheet);
+    const lvl = a.system.details.level, hp0 = a.system.attributes.hp.value, fb = a.items.getName("Zoan Full Beast Form");
+    const fa = [...fb.system.activities].find((x) => /ancient/.test(x.name)), mult = 6;
+    ok("Full Beast Form is a transform activity", fa.type === "transform" && [...fa.settings.other].includes(`op5e:hpmult:${mult}`));
+    const pk = game.packs.get("op5e.monsters"), e = (await pk.getIndex()).find((x) => /Titan Ape/.test(x.name)) ?? (await pk.getIndex()).contents[0];
+    const beastData = (await pk.getDocument(e._id)).toObject(); delete beastData._id; beastData.name = "[T] Beast"; beastData.flags = { op5e: { harnessTest: true } };
+    const beast = await Actor.create(beastData);
+    let form = null;
+    try {
+      await a.transformInto(beast, fa.settings, { renderSheet: false });
+      form = game.actors.find((x) => x.flags?.dnd5e?.isPolymorphed && x.flags?.dnd5e?.originalActor === a.id);
+      const want = mult * lvl + beast.system.abilities.con.mod;
+      ok("Full Beast: hit points = 6 x level + beast Con mod", form?.system.attributes.hp.max === want, `${form?.system.attributes.hp.max} vs ${want}`);
+      ok("Full Beast: uses the beast's Str", form?.system.abilities.str.value === beast.system.abilities.str.value, `${form?.system.abilities.str.value}`);
+      ok("Full Beast: keeps Int/Wis/Cha", ["int", "wis", "cha"].every((k) => form?.system.abilities[k].value === a.system.abilities[k].value));
+      await form?.revertOriginalForm({ renderSheet: false });
+      const back = game.actors.get(a.id);
+      ok("Full Beast: revert restores the original actor and hit points", !!back && back.system.attributes.hp.value === hp0, `${back?.system.attributes.hp.value} vs ${hp0}`);
+    } catch (err) { ok("Full Beast transform ran", false, String(err.message).slice(0, 120)); }
+    for (const x of game.actors.filter((x) => x.flags?.dnd5e?.isPolymorphed && x.flags?.dnd5e?.originalActor === a.id)) await x.delete().catch(() => {});
+    await beast.delete().catch(() => {});
+  }
+  // ---- Sulong ends: one level of exhaustion
+  {
+    const a = game.actors.find((x) => x.name === "Roma" && x.flags?.op5e?.rebuiltFromOldSheet), ib = a.items.getName("Inner Beast");
+    const ed = ib.effects.find((e) => e.name === "Sulong").toObject(); delete ed._id;
+    const ex0 = a.system.attributes.exhaustion ?? 0;
+    const [eff] = await a.createEmbeddedDocuments("ActiveEffect", [ed]); await eff.delete();
+    await new Promise((r) => setTimeout(r, 800));
+    ok("Sulong ending adds one level of exhaustion", (a.system.attributes.exhaustion ?? 0) === ex0 + 1, `${ex0} -> ${a.system.attributes.exhaustion}`);
+    await a.update({ "system.attributes.exhaustion": ex0 });
+  }
+  // ---- Zoan Enhanced Form: one size category bigger while it lasts
+  {
+    const a = game.actors.find((x) => x.name === "Malphas" && x.flags?.op5e?.rebuiltFromOldSheet), pk = game.packs.get("op5e.feats");
+    const f = await pk.getDocument((await pk.getIndex()).find((x) => x.name === "Zoan Enhanced Form")._id), size0 = a.system.traits.size;
+    const ed = f.effects.contents[0].toObject(); delete ed._id;
+    const [eff] = await a.createEmbeddedDocuments("ActiveEffect", [ed]);
+    const order = ["tiny", "sm", "med", "lg", "huge", "grg"];
+    ok("Enhanced Form raises size one category", a.system.traits.size === order[order.indexOf(size0) + 1], `${size0} -> ${a.system.traits.size}`);
+    await eff.delete(); ok("size returns when it ends", a.system.traits.size === size0);
+  }
+  // ---- Import OP5e journals button/macro
+  {
+    const r1 = await game.op5eImportJournals(), r2 = await game.op5eImportJournals();
+    ok("Import journals: copies the 14 journals", r1.made + r1.skipped === 14, JSON.stringify(r1));
+    ok("Import journals: a second run skips them", r2.made === 0 && r2.skipped === 14, JSON.stringify(r2));
+    for (const j of game.journal.filter((x) => x.getFlag("op5e", "importedFrom"))) await j.delete();
+    for (const f of game.folders.filter((x) => x.type === "JournalEntry" && /^OP5e (Reference|Spell Lists)$/.test(x.name))) await f.delete();
+  }
   return out;
 };
 await withFoundry(async (page) => { for (const l of await page.evaluate(`(${run.toString()})()`)) { console.log(l); if (l.startsWith("FAIL")) process.exitCode = 1; } });

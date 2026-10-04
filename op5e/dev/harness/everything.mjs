@@ -11,6 +11,8 @@ import { BUILT, pageLib } from "./advance-lib.mjs";
 
 // pause / stop / resume: scripts/control.mjs writes reports/control.json; checked before every document
 const RESUME = process.env.RESUME === "1";
+const RESTART_AFTER = Number(process.env.RESTART_AFTER ?? 150);
+let processed = 0;
 const control = () => { try { return JSON.parse(readFileSync("reports/control.json", "utf8")); } catch { return {}; } };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const only = process.argv.slice(2);
@@ -220,6 +222,8 @@ try {
           }
           r.pack = pack; results[pack].push(r); n++;
           if (n % 5 === 0) writeFileSync(OUT, JSON.stringify(results, null, 1));   // checkpoint
+          // the headless browser grows with every document (about 3.5 GB after ~300): save and exit so sweep-parallel starts a fresh one
+          if (++processed >= RESTART_AFTER) { writeFileSync(OUT, JSON.stringify(results, null, 1)); console.log("RESTART browser"); process.exit(4); }
           if (n % 10 === 0 || n === total) console.log(`PROGRESS ${pack} ${n}/${total} fails ${results[pack].filter((x) => x.fails.length).length}`);
           if (r.fails.length) console.log(`FAIL ${pack}/${r.name} [${r.ctx}]: ${r.fails.join(" | ")}`.slice(0, 260));
         }

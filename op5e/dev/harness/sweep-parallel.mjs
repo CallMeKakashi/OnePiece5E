@@ -18,7 +18,7 @@ const SHARDS = process.argv.includes("--small")
     { user: "Automation 4", packs: ["feats", "racial-features", "ship-weapons", "devil-fruits"], slice: "0/1" },
     { user: "Automation 5", packs: ["items", "creations", "backgrounds"], slice: "0/1" },
   ];
-const resume = process.argv.includes("--resume");
+let resume = process.argv.includes("--resume");
 const only = process.argv.slice(2).filter((a) => /^\d+$/.test(a)).map(Number);
 const active = SHARDS.map((s, i) => i).filter((i) => !only.length || only.includes(i));
 
@@ -50,7 +50,9 @@ const run = (i) => new Promise((res) => {
   p.stderr.on("data", (d) => process.stderr.write(`[${s.user}] ${d}`));
   p.on("close", (code) => res({ out, code }));
 });
-const done = await Promise.all(active.map(run));
+// exit code 4 = the shard saved its place and asked for a fresh browser: start it again, resuming
+const runShard = async (i) => { let r = await run(i); while (r.code === 4) { resume = true; r = await run(i); } return r; };
+const done = await Promise.all(active.map(runShard));
 clearInterval(timer);
 report();
 const merged = {};
