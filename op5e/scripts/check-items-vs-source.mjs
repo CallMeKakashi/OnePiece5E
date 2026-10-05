@@ -32,6 +32,8 @@ for (const [key, e] of expected) {
   if (e.price !== null && e.price !== undefined && s.price?.value !== e.price) findings.push({ name: it.name, problem: `price ${s.price?.value} != source ${e.price}` });
   if (e.kind === "weapon") {
     const part = s.damage?.parts?.[0] ?? [];
+    // weapon-family feats raise the die through a flag: d(min(12, 8 + 2 * @flags...)) is a d8 before any feat, which is what the book table lists
+    if (part[0]) part[0] = String(part[0]).replace(/d\(min\(12, ?(\d+) ?\+ ?2 ?\* ?@flags[^)]*\)\)/g, "d$1").replace(/\s+/g, "");
     const dmg = part[0]?.replace(/\s/g, "");
     if (e.damage !== "─" && dmg !== e.damage) findings.push({ name: it.name, problem: `damage ${dmg} != source ${e.damage}` });
     if (part[1] && part[1] !== e.type) findings.push({ name: it.name, problem: `damage type ${part[1]} != source ${e.type}` });

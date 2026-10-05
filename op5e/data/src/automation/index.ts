@@ -20,3 +20,6 @@ import { workASpecs } from "./work-a.js"; Object.assign(AUTOMATION, workASpecs);
 
 import { optionSpecs } from "./options.js"; Object.assign(AUTOMATION, optionSpecs);
 import { workGSpecs } from "./work-g.js"; Object.assign(AUTOMATION, workGSpecs);
+import { unarmedSpecs } from "./unarmed.js"; Object.assign(AUTOMATION, unarmedSpecs);
+import { weaponMasterSpecs } from "./weapon-masters.js"; Object.assign(AUTOMATION, weaponMasterSpecs);
+import { simpleBonusSpecs } from "./simple-bonuses.js"; Object.assign(AUTOMATION, simpleBonusSpecs);

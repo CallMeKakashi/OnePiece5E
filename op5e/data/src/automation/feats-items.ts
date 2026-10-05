@@ -57,8 +57,8 @@ export const featItemSpecs: Record<string, Spec> = {
 
   "items/Shotgun": {
     activities: [
-      { name: "Fire", type: "attack", activation: "action", attack: { type: "ranged", ability: "dex" }, includeBase: true, damage: [] },
-      { name: "Fire (short range)", type: "attack", activation: "action", attack: { type: "ranged", ability: "dex" }, includeBase: true, damage: [["1d4", "piercing"]],
+      { name: "Fire", type: "attack", activation: "action", attack: { type: "ranged", ability: "dex", bonus: "@flags.op5e.wAtk.shotgun" }, includeBase: true, damage: [] },
+      { name: "Fire (short range)", type: "attack", activation: "action", attack: { type: "ranged", ability: "dex", bonus: "@flags.op5e.wAtk.shotgun" }, includeBase: true, damage: [["1d(4 + 2 * @flags.op5e.wDie.shotgun)", "piercing"]],
         note: "Ranged attacks against creatures within short range deal an extra 1d4 piercing damage. No disadvantage within close range." },
     ],
   },

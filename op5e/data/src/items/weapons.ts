@@ -10,6 +10,16 @@ const SRC = { book: "OP5e", page: "", custom: "", license: "" };
 
 type WCat = "simpleM" | "simpleR" | "martialM" | "martialR";
 
+// Weapon-family feats (Longsword Master, Spear Mastery, Whip Master...) add to flags.op5e.wAtk.<family> / wDie.<family> with a transfer effect;
+// every weapon of the family reads them: +attack from the flag, and its damage die one size larger per wDie step (max d12). A missing flag counts as 0.
+const FAMILY: Record<string, string> = {
+  club: "hammer", greatclub: "hammer", mace: "hammer", warhammer: "hammer", "light-hammer": "hammer", maul: "hammer",
+  longsword: "sword", greatsword: "sword", musket: "rifle", rifle: "rifle",
+  spear: "spear", javelin: "spear", pike: "spear", trident: "spear", glaive: "spear",
+  lance: "lance", whip: "whip", blowgun: "blowgun", flail: "flail", flintlock: "handgun", pistol: "handgun", revolver: "handgun", shotgun: "shotgun", sling: "sling",
+};
+const dieUp = (formula: string, fam: string) => formula.replace(/^(\d+)d(\d+)$/, `$1d(min(12, $2 + 2 * @flags.op5e.wDie.${fam}))`);
+
 function wpn(
   id: string, name: string, cat: WCat, price: number,
   dmg: [string, string][], weight: number,
@@ -36,10 +46,10 @@ function wpn(
         : { value: null, long: null, units: "" },
       target: { value: null, width: null, units: "", type: "" },
       uses: { value: null, max: "", per: null, recovery: "" },
-      damage: { parts: dmg, versatile: opts.ver ?? "" },
+      damage: { parts: FAMILY[id] ? dmg.map(([f, t]) => [dieUp(f, FAMILY[id]), t]) : dmg, versatile: FAMILY[id] && opts.ver ? dieUp(opts.ver, FAMILY[id]) : (opts.ver ?? "") },
       actionType: cat.endsWith("R") ? "rwak" : "mwak",
       ability: "",
-      attackBonus: "",
+      attackBonus: FAMILY[id] ? `@flags.op5e.wAtk.${FAMILY[id]}` : "",
       chatFlavor: "",
       proficient: null,
       properties: props,
@@ -114,11 +124,11 @@ export const weapons: FoundryItem[] = [
     { desc: "<p>A curved farming blade, light and easy to wield in close quarters.</p>" }),
 
   wpn("unarmed-strike", "Unarmed Strike", "simpleM", 0,
-    [["1d4", "bludgeoning"]], 0,
+    [["1d(min(12, 4 + 2 * @flags.op5e.unarmedDieStep))", "bludgeoning"]], 0,   // Unarmed Master / Spirit Adept raise the die
     { lgt: true }),
 
   wpn("brawler-unarmed-strike", "Brawler Unarmed Strike", "simpleM", 0,
-    [["@scale.brawler.brawling-die + @mod", "bludgeoning"]], 0,
+    [["(@scale.brawler.brawling-die.number)d(min(12, @scale.brawler.brawling-die.faces + 2 * @flags.op5e.unarmedDieStep)) + @mod", "bludgeoning"]], 0,
     { lgt: true },
     { desc: `<p>Your Brawling training replaces the normal damage of your unarmed strikes. The damage die scales with your brawler level, as shown in the Brawling column of the Brawler table.</p>` }),
 
