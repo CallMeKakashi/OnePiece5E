@@ -9,15 +9,20 @@ import { spawn } from "node:child_process";
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 
 const ALL = ["class-features", "racial-features", "feats", "items", "creations", "backgrounds", "devil-fruits", "ship-weapons"];
-const SHARDS = process.argv.includes("--small")
-  ? [{ user: "Automation", packs: ALL, slice: "0/25" }]
-  : [
-    { user: "Automation", packs: ["class-features"], slice: "0/3" },
-    { user: "Automation 2", packs: ["class-features"], slice: "1/3" },
-    { user: "Automation 3", packs: ["class-features"], slice: "2/3" },
-    { user: "Automation 4", packs: ["feats", "racial-features", "ship-weapons", "devil-fruits"], slice: "0/1" },
-    { user: "Automation 5", packs: ["items", "creations", "backgrounds"], slice: "0/1" },
-  ];
+// 3 shards by default: every shard is a headless browser of about 3.5 GB. SWEEP_SHARDS=5 uses all five automation users.
+const FIVE = [
+  { user: "Automation", packs: ["class-features"], slice: "0/3" },
+  { user: "Automation 2", packs: ["class-features"], slice: "1/3" },
+  { user: "Automation 3", packs: ["class-features"], slice: "2/3" },
+  { user: "Automation 4", packs: ["feats", "racial-features", "ship-weapons", "devil-fruits"], slice: "0/1" },
+  { user: "Automation 5", packs: ["items", "creations", "backgrounds"], slice: "0/1" },
+];
+const THREE = [   // the two class-features shards take every other document of EVERY pack they list, so both list the same packs
+  { user: "Automation", packs: ["class-features", "racial-features", "feats", "backgrounds", "devil-fruits", "ship-weapons"], slice: "0/2" },
+  { user: "Automation 2", packs: ["class-features", "racial-features", "feats", "backgrounds", "devil-fruits", "ship-weapons"], slice: "1/2" },
+  { user: "Automation 3", packs: ["items", "creations"], slice: "0/1" },
+];
+const SHARDS = process.argv.includes("--small") ? [{ user: "Automation", packs: ALL, slice: "0/25" }] : process.env.SWEEP_SHARDS === "5" ? FIVE : THREE;
 let resume = process.argv.includes("--resume");
 const only = process.argv.slice(2).filter((a) => /^\d+$/.test(a)).map(Number);
 const active = SHARDS.map((s, i) => i).filter((i) => !only.length || only.includes(i));
@@ -56,8 +61,8 @@ const done = await Promise.all(active.map(runShard));
 clearInterval(timer);
 report();
 const merged = {};
-for (const i of SHARDS.keys()) {
-  try { for (const [pack, rows] of Object.entries(JSON.parse(readFileSync(`reports/.sweep-shard-${i}.json`, "utf8")))) (merged[pack] ??= []).push(...rows); } catch { /* shard never ran */ }
+for (const i of [0, 1, 2, 3, 4]) {
+  try { for (const [pack, rows] of Object.entries(JSON.parse(readFileSync(`reports/.sweep-shard-${i}.json`, "utf8")))) { const into = (merged[pack] ??= []); for (const r of rows) if (!into.some((x) => x.id === r.id)) into.push(r); } } catch { /* shard never ran */ }
 }
 if (!process.argv.includes("--small")) writeFileSync("reports/execution-everything.json", JSON.stringify(merged, null, 1));
 let docs = 0, fails = 0;

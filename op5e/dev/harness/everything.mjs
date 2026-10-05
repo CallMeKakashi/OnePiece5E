@@ -5,7 +5,7 @@
 //  - creations (spells)      -> a level-20 Medic (full caster, so slots exist)
 //  - ship weapons            -> a Galleon
 // Usage: node dev/harness/everything.mjs [pack ...]      -> reports/execution-everything.json
-import { writeFileSync, readFileSync, existsSync } from "node:fs";
+import { writeFileSync, readFileSync, existsSync, readdirSync } from "node:fs";
 import { withFoundry, postToGM } from "./drive.mjs";
 import { BUILT, pageLib } from "./advance-lib.mjs";
 
@@ -202,8 +202,12 @@ try {
       const docs = Object.values(BUILT[pack] ?? {}).filter((d) => !process.env.ONLY || process.env.ONLY.split("|").includes(d.name))
         .filter((_, i) => { const [k, n] = (process.env.SLICE ?? "0/1").split("/").map(Number); return i % n === k; });   // SLICE=k/n: every n-th doc, so shards split one big pack
       results[pack] = RESUME ? (results[pack] ?? []) : [];
-      results[pack] = results[pack].filter((r) => !r.fails.some((f) => /TIMEOUT|HANG/.test(f)));
-      const done = new Set(results[pack].map((r) => r.id));   // resumed run: documents already tested are skipped
+      results[pack] = results[pack].filter((r) => !r.fails.some((f) => /TIMEOUT|HANG|harness:/.test(f)));
+      // resume across shard layouts: a document already tested by ANY earlier shard file is skipped here
+      const done = new Set(results[pack].map((r) => r.id));
+      if (RESUME) for (const f of readdirSync("reports").filter((x) => /^\.sweep-shard-\d+\.json$/.test(x))) {
+        try { for (const r of JSON.parse(readFileSync(`reports/${f}`, "utf8"))[pack] ?? []) if (!r.fails.some((x) => /TIMEOUT|HANG|harness:/.test(x))) done.add(r.id); } catch { /* unreadable checkpoint */ }
+      }   // resumed run: documents already tested are skipped
       // group by actor so each leveled actor is built once
       const groups = new Map();
       for (const d of docs) { const c = ctxFor(pack, d); const k = JSON.stringify(c.actor); (groups.get(k) ?? groups.set(k, []).get(k)).push({ d, c }); }

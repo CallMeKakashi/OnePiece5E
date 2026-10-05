@@ -53,10 +53,11 @@ const m0 = await page.evaluate(() => game.messages.size);
 await page.getByText("Features", { exact: true }).first().click({ force: true }).catch(() => {});
 await page.waitForTimeout(900);
 await shot("ship-features-tab");
-const use = page.locator(".application [data-item-id]:has-text('12-pounder') .item-name, .application [data-item-id]:has-text('pounder') .item-name").first();
-const img = page.locator(".application [data-item-id]:has-text('pounder') .item-image, .application [data-item-id]:has-text('pounder') img").first();
+// the ship uses the older (V1) sheet: no .application class, and the chat card also carries data-item-id, so match the sheet's list row
+const use = page.locator("li.item[data-item-id]:has-text('pounder') .item-name").first();
+const img = page.locator("li.item[data-item-id]:has-text('pounder') .item-image").first();
 if (await img.count()) await img.click({ force: true }).catch(() => {}); else if (await use.count()) await use.click().catch(() => {});
-await page.waitForTimeout(2500);
+await page.waitForTimeout(4000);
 for (let i = 0; i < 3; i++) { const b = page.locator("button:has-text('Use Ability'), button:has-text('Normal')").first(); if (await b.count()) { await b.click({ force: true }).catch(() => {}); await page.waitForTimeout(2000); } }
 await shot("ship-cannon-used");
 const m1 = await page.evaluate(() => game.messages.size);
