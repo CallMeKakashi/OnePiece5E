@@ -1,0 +1,657 @@
+{
+ "Baptiste": {
+  "class:Brawler": [
+   [
+    "HitPoints",
+    null,
+    {
+     "1": "max",
+     "2": 10,
+     "3": 9,
+     "4": 10,
+     "5": "avg",
+     "6": 6,
+     "7": 9,
+     "8": 8,
+     "9": 7,
+     "10": 7
+    }
+   ],
+   [
+    "Subclass",
+    {
+     "document": "rMCR0JuVzyqb59ai",
+     "uuid": "Compendium.one-piece-5e.classes.Item.suU7AzM8CgEFZ9qF"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    4,
+    {
+     "type": "asi",
+     "assignments": {
+      "dex": 2
+     }
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    8,
+    {
+     "type": "asi",
+     "assignments": {}
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    16,
+    {
+     "type": "asi"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    19,
+    {
+     "type": "asi"
+    }
+   ],
+   [
+    "Trait",
+    "",
+    [
+     "saves:str",
+     "saves:dex"
+    ]
+   ],
+   [
+    "Trait",
+    "Skill Proficiencies",
+    [
+     "skills:ste",
+     "skills:sur"
+    ]
+   ],
+   [
+    "Trait",
+    "Proficiencies",
+    [
+     "tool:art:smith"
+    ]
+   ],
+   [
+    "Trait",
+    "Proficiencies",
+    [
+     "weapon:sim",
+     "weapon:mar:shortsword"
+    ]
+   ],
+   [
+    "AbilityScoreImprovement",
+    10,
+    {
+     "type": "asi",
+     "assignments": {
+      "wis": 2
+     }
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    12,
+    {
+     "type": "asi"
+    }
+   ]
+  ],
+  "race:Lunarians": [
+   [
+    "Size",
+    {
+     "size": "med"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    0,
+    {
+     "type": "asi",
+     "assignments": {
+      "dex": 2,
+      "wis": 1
+     }
+    }
+   ]
+  ],
+  "subclass:Way of the Astral Self": [],
+  "background:Boxer": [
+   [
+    "Trait",
+    "Background Proficiencies",
+    [
+     "skills:acr",
+     "skills:itm"
+    ]
+   ]
+  ]
+ },
+ "Matthew \"The Jack\" Burgess": {
+  "class:Gunslinger": [
+   [
+    "Subclass",
+    {
+     "document": "pLbOzMzuK75LVWYx",
+     "uuid": "Compendium.world.ddb-classes.Item.lmPsapyUKJzIVkdg"
+    }
+   ],
+   [
+    "HitPoints",
+    null,
+    {
+     "1": "max",
+     "2": "avg",
+     "3": 8,
+     "4": "avg",
+     "5": "avg",
+     "6": "avg",
+     "7": 6,
+     "8": 7,
+     "9": 5,
+     "10": 7
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    4,
+    {
+     "type": "asi",
+     "assignments": {}
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    8,
+    {
+     "type": "asi",
+     "assignments": {}
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    12,
+    {
+     "type": "asi"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    16,
+    {
+     "type": "asi"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    19,
+    {
+     "type": "asi"
+    }
+   ],
+   [
+    "ItemChoice",
+    null,
+    "Fighting Style",
+    {
+     "added": {
+      "1": {
+       "7M7hSPfI9x2mSJR3": "Compendium.world.ddb-feats.Item.G4vKo328Hp7vThRQ"
+      }
+     },
+     "replaced": {}
+    }
+   ]
+  ],
+  "background:Gambler": [
+   [
+    "Trait",
+    "Background Proficiencies",
+    [
+     "skills:prc",
+     "skills:per"
+    ]
+   ]
+  ],
+  "race:Three-eye Tribe": [
+   [
+    "AbilityScoreImprovement",
+    0,
+    {
+     "type": "asi",
+     "assignments": {
+      "dex": 1,
+      "cha": 2
+     }
+    }
+   ],
+   [
+    "Size",
+    {
+     "size": "med"
+    }
+   ],
+   [
+    "Trait",
+    "",
+    [
+     "languages:standard:common"
+    ]
+   ],
+   [
+    "Trait",
+    "",
+    [
+     "skills:ins"
+    ]
+   ]
+  ],
+  "subclass:High Roller": []
+ },
+ "B.O.B": {
+  "subclass:Necrotic Mania": [],
+  "background:Scientist": [
+   [
+    "Trait",
+    "Background Proficiencies",
+    [
+     "skills:arc",
+     "skills:inv"
+    ]
+   ],
+   [
+    "Trait",
+    "Choose Languages",
+    [
+     "languages:standard:common"
+    ]
+   ],
+   [
+    "Trait",
+    "",
+    [
+     "tool:art:tinker",
+     "tool:thief"
+    ]
+   ]
+  ],
+  "race:Augmented": [
+   [
+    "Size",
+    {
+     "size": "med"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    0,
+    {
+     "type": "asi",
+     "assignments": {
+      "str": 1,
+      "cha": 2
+     }
+    }
+   ]
+  ],
+  "class:Paladin": [
+   [
+    "Subclass",
+    {
+     "document": null,
+     "uuid": null
+    }
+   ],
+   [
+    "HitPoints",
+    null,
+    {
+     "1": "max",
+     "2": "avg",
+     "3": 8,
+     "4": 7,
+     "5": 10,
+     "6": 8,
+     "7": "avg",
+     "8": 6,
+     "9": "avg",
+     "10": "avg"
+    }
+   ],
+   [
+    "ItemChoice",
+    null,
+    "Fighting Style",
+    {
+     "added": {
+      "2": {
+       "FinnGOLFICp2ZyNb": "Compendium.one-piece-5e.classes.Item.UQTv5COAsjGjjEJf"
+      }
+     },
+     "replaced": {}
+    }
+   ],
+   [
+    "Trait",
+    "",
+    [
+     "saves:wis",
+     "saves:cha"
+    ]
+   ],
+   [
+    "Trait",
+    "Skill Proficiencies",
+    [
+     "skills:ath",
+     "skills:per"
+    ]
+   ],
+   [
+    "Trait",
+    "Proficiencies",
+    [
+     "armor:lgt",
+     "armor:med",
+     "armor:hvy",
+     "armor:shl"
+    ]
+   ],
+   [
+    "Trait",
+    "Proficiencies",
+    [
+     "weapon:sim",
+     "weapon:mar"
+    ]
+   ],
+   [
+    "Trait",
+    "Divine Health",
+    [
+     "ci:diseased"
+    ]
+   ],
+   [
+    "AbilityScoreImprovement",
+    4,
+    {
+     "type": "feat",
+     "feat": {
+      "1Xm9IUwavZbBcCZS": "Compendium.one-piece-5e.feats.Item.nbElDqRvApZT28QG"
+     }
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    8,
+    {
+     "type": "asi",
+     "assignments": {}
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    12,
+    {
+     "type": "asi"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    16,
+    {
+     "type": "asi"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    19,
+    {
+     "type": "asi"
+    }
+   ]
+  ]
+ },
+ "Roma": {
+  "class:Fighter": [
+   [
+    "Subclass",
+    {
+     "document": null,
+     "uuid": null
+    }
+   ],
+   [
+    "HitPoints",
+    null,
+    {
+     "1": "avg",
+     "2": "avg",
+     "3": "avg"
+    }
+   ],
+   [
+    "ItemChoice",
+    null,
+    "Fighting Style",
+    {
+     "added": {
+      "1": {
+       "nZuRxh70iIC7tr7K": "Compendium.world.ddb-classes.Item.pZJDc3zp2zKFji3b"
+      }
+     },
+     "replaced": {}
+    }
+   ],
+   [
+    "Trait",
+    "Proficiencies",
+    [
+     "armor:lgt",
+     "armor:med",
+     "armor:hvy",
+     "armor:shl"
+    ]
+   ],
+   [
+    "Trait",
+    "Proficiencies",
+    [
+     "weapon:sim",
+     "weapon:mar"
+    ]
+   ],
+   [
+    "AbilityScoreImprovement",
+    4,
+    {
+     "type": "asi"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    6,
+    {
+     "type": "asi"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    8,
+    {
+     "type": "asi"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    12,
+    {
+     "type": "asi"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    14,
+    {
+     "type": "asi"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    16,
+    {
+     "type": "asi"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    19,
+    {
+     "type": "asi"
+    }
+   ]
+  ],
+  "subclass:Brute": [],
+  "background:Cook": [
+   [
+    "Trait",
+    "Background Proficiencies",
+    [
+     "skills:prf"
+    ]
+   ]
+  ],
+  "subclass:Path of the Berserker": [],
+  "race:Mink": [
+   [
+    "Size",
+    {
+     "size": "med"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    0,
+    {
+     "type": "asi",
+     "assignments": {
+      "str": 1,
+      "con": 1,
+      "cha": 1
+     }
+    }
+   ],
+   [
+    "Trait",
+    "Diurnal Nature",
+    [
+     "skills:nat",
+     "skills:med"
+    ]
+   ]
+  ],
+  "class:Barbarian": [
+   [
+    "Subclass",
+    {
+     "document": "HrwCenvpqdx6DG04",
+     "uuid": "Compendium.one-piece-5e.classes.Item.fVfsL6GZcLo75Cht"
+    }
+   ],
+   [
+    "HitPoints",
+    null,
+    {
+     "1": "max",
+     "2": "avg",
+     "3": "avg",
+     "4": 7,
+     "5": "avg",
+     "6": "avg",
+     "7": 9
+    }
+   ],
+   [
+    "Trait",
+    "",
+    [
+     "saves:str",
+     "saves:con"
+    ]
+   ],
+   [
+    "Trait",
+    "Skill Proficiencies",
+    [
+     "skills:ani",
+     "skills:itm"
+    ]
+   ],
+   [
+    "Trait",
+    "Proficiencies",
+    [
+     "armor:lgt",
+     "armor:med",
+     "armor:shl"
+    ]
+   ],
+   [
+    "Trait",
+    "Proficiencies",
+    [
+     "weapon:sim",
+     "weapon:mar"
+    ]
+   ],
+   [
+    "AbilityScoreImprovement",
+    4,
+    {
+     "type": "asi",
+     "assignments": {
+      "wis": 2
+     }
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    8,
+    {
+     "type": "asi"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    12,
+    {
+     "type": "asi"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    16,
+    {
+     "type": "asi"
+    }
+   ],
+   [
+    "AbilityScoreImprovement",
+    19,
+    {
+     "type": "asi"
+    }
+   ]
+  ]
+ }
+}

@@ -12,6 +12,14 @@ Order is rough priority. "Now" items are being done straight after the current s
 Existing actors keep old copies of feats and items. A tool that updates an actor's items from the current compendium, keeping uses spent,
 equipped state, quantities and custom edits, so a fix reaches existing PCs without rebuilding them.
 
+## 1b. Devil Fruit casting (requirements from the DM, 2026-10-05)
+- Every Devil Fruit user is treated as a caster whose spell points are **Devil Fruit Uses**: a spell of level N costs N uses; cantrips are free.
+- Each fruit's spell list is whatever fits the fruit's description, so the list **cannot be filtered**: on each new spell level unlocked, Paramecia and Logia users pick spells freely from any creation or spell available.
+- Picks must not be limited to the OP5e compendium: the default dnd5e 2014 spell list (and feats and other items) must be selectable too, in every pick list the module offers.
+- Open questions for the DM: (a) how many spells are picked per unlocked level; (b) which character levels unlock which spell level (own table, or the Devil Fruit Uses table: 1 use at 1st, 2 at 3rd, 3 at 5th, 4 at 7th, 5 at 9th); (c) do picked spells need preparing, and does concentration apply as usual; (d) do Zoans cast too, or only use their forms; (e) can a spell above the fruit's current Uses be cast at all.
+- Zoans: same casting rules, plus the transform features, but their spell list can only be used while transformed (Hybrid or Full Beast form), not in the base form. From a certain level, when they can partially transform (the book's Zoan Endless Forms / Partial Beast Form is at 20th level: DM to confirm the level), they can cast in the base form too.
+- Implementation sketch: spells on the actor consume `itemUses` of the Devil Fruit Uses feat (amount = spell level, 0 for cantrips); ItemChoice advancement per unlocked level whose pool is the full spell compendia (op5e creations + dnd5e spells); a setting for which packs count.
+
 ## 2. Standalone shop and trade module (not tied to this homebrew)
 Goal: a separate Foundry module that works with any dnd5e world; default is stock dnd5e (gp/sp/cp), configurable to any item list and currency.
 

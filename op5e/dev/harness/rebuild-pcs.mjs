@@ -122,6 +122,7 @@ const build = async (spec) => {
   const upd2 = { "system.traits.size": spec.size ?? "med", "system.currency.gp": spec.berries, img: spec.art ? spec.art[0] : actor.img, "prototypeToken.texture.src": spec.art ? spec.art[1] : actor.prototypeToken.texture.src,
     "system.details.biography.value": `${actor.system.details.biography.value ?? ""}<h3>Rebuilt from the old campaign sheet</h3><p>Old features without a direct equivalent (re-add by hand if still used): ${notes.join(", ")}.</p><p>Old items not found in any compendium: ${gearMissing.join(", ") || "none"}.</p>` };
   await actor.update(upd2);
+  for (const type of ["race", "background"]) { const it = actor.items.find((i) => i.type === type); if (it && !actor._source.system.details?.[type]) await actor.update({ [`system.details.${type}`]: it.id }); }   // the sheet's Species/Background slots
   log.push(`haki replaced: ${gone.join(", ") || "-"}; berries ${spec.berries}`);
   actor.reset();
   const s = actor.system, classes = actor.items.filter((i) => i.type === "class").map((c) => `${c.name} ${c.system.levels}`), subs = actor.items.filter((i) => i.type === "subclass").map((c) => c.name);
