@@ -44,3 +44,4 @@ Updated as work finishes. `[x]` done, `[~]` in progress, `[ ]` not started.
 - [ ] Regenerate reports (`node scripts/finalize.mjs`)
 - [ ] Push (only when asked)
 - [ ] Install on the real campaign world (only with explicit approval)
+- Multi-player 15/15 (GM + Player + Trusted Player). Campaign needs Create Actor enabled for players.

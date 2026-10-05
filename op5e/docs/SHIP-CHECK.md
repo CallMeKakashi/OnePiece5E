@@ -31,6 +31,7 @@ Runs in order and stops at the first failure (`--from "<stage>"` resumes; `--sma
 | optional rules | 9/10 or better; the one known failure is a Chris Premades error |
 | sweep | every doc used: 0 failures (parallel, 5 shards, about an hour) |
 | rebuild PCs | the 10 campaign PCs rebuild without errors |
+| multi-player | GM plus a Player and a Trusted Player at once: ownership, GM whispers hidden, no scene/setting edits, compendium readable, shared initiative, weapon cards, effects (15 checks) |
 | real-UI walkthroughs | the six walkthrough scripts run in a real browser with no FAIL (screenshots in `reports/walkthrough*/`) |
 | transformations | Hybrid Form, Full Beast Form and Sulong checks pass on Roma, Hybrid, Sulong, Malphas (31 checks) |
 
@@ -62,6 +63,8 @@ Runs in order and stops at the first failure (`--from "<stage>"` resumes; `--sma
 9. **Multi-user:** players on separate browsers with their own characters. Can a player use Create OPC (defaults to PC)? Can they open
    GM characters, see GM whispers or edit the world (they must not)? Can they read the compendium (they must)? Shared combat and initiative,
    rolls in shared chat, GM whisper private, summon ownership correct, Midi and DAE effects across clients.
+
+- [ ] **Campaign setup:** in the campaign world, turn on *Create Actor* for the Player role (Game Settings, Configure Permissions), or players cannot finish Create OPC.
 
 ## Phase 5: Campaign characters
 - [ ] Open each of the 10 rebuilt PCs: sheet opens, no console errors, portrait and token show, Berries and size correct.
