@@ -57,6 +57,7 @@ export const combatMedicine = feat(
   },
   [
     createDAEEffect("medic/field-surgeon/combat-medicine", "Combat Medicine", [
+      overrideValue("system.attributes.ac.calc", "custom"),
       overrideValue(DAE_KEYS.AC_FORMULA, "10 + @abilities.wis.mod + @prof"),
     ]),
   ],

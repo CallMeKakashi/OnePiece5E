@@ -69,11 +69,11 @@ export const unarmoredDefense = classFeature(
   "feature/brawler/unarmored-defense",
   "Unarmored Defense",
   1,
-  `<p>Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</p>`,
+  `<p>Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier. (Switch this effect off while you wear armor or wield a shield.)</p>`,
   {},
   [
     createDAEEffect("brawler/unarmored-defense", "Unarmored Defense", [
-      overrideValue(DAE_KEYS.AC_FORMULA, "10 + @abilities.dex.mod + @abilities.wis.mod"),
+      overrideValue("system.attributes.ac.calc", "unarmoredMonk"),   // dnd5e native: 10 + Dex + Wis; it ignores worn armor, so switch the effect off in armor
     ]),
   ],
 );

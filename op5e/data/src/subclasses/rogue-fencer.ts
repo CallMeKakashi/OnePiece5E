@@ -51,6 +51,7 @@ export const duelingDefense = feat(
   {},
   [
     createDAEEffect("rogue/fencer/dueling-defense", "Dueling Defense", [
+      overrideValue("system.attributes.ac.calc", "custom"),
       overrideValue("system.attributes.ac.formula", "10 + @abilities.int.mod + @abilities.dex.mod"),
     ]),
   ],
