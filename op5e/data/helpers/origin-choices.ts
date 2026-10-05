@@ -18,11 +18,13 @@ export function createOriginChoices(classId: string): AdvancementEntry[] {
     classId, 1, ROLE_SLUGS.map((s) => compendiumUuid("backgrounds", generateId(`role/${s}`))),
     { count: 1, label: "Role" },
   );
+  role.classRestriction = "primary";   // a starting choice: a second class (story-classing) must not offer another role
   role.hint = "Choose your role on the ship. It grants skills, tools, equipment and a bonus feat.";
   const fruit = createItemChoiceRestricted(
     classId, 1, DEVIL_FRUIT_CHOICE_SLUGS.map((s) => compendiumUuid("devil-fruits", devilFruitChoiceId(s))),
     { count: 1, label: "Devil Fruit", itemType: "loot", restrictionType: "" },
   );
+  fruit.classRestriction = "primary";
   fruit.hint = "Pick a devil fruit type (rename the item and fill in its name and powers) or 'No Devil Fruit (yet)'.";
   return [role, fruit];
 }

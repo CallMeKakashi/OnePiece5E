@@ -186,6 +186,34 @@ export async function createFromDraft(draft, opts = {}) {
       if (doc) imported.push(doc);
       if (pack === PACKS.species) await importHybridFeatures(actor, data, run);
     }
+    // dnd5e fills the Species slot by itself, but the Background slot stays empty until system.details.background points at the item
+    for (const type of ["race", "background"]) {
+      const item = actor.items.find((i) => i.type === type);
+      if (item && !actor._source.system.details?.[type]) await actor.update({ [`system.details.${type}`]: item.id });
+    }
+
+    // The free starting feat goes in BEFORE the class when its requirements are already met, so the Role's bonus-feat choice (and any other feat choice)
+    // sees it as taken and cannot offer the same feat again. A feat that needs class levels or proficiencies waits until the end.
+    const importFreeFeat = async () => {
+      if (data.freeFeatId) {
+      const feat = await game.packs.get(PACKS.feats)?.getDocument(data.freeFeatId);
+      const unmet = feat ? unmetPrerequisites(feat, actor) : [];
+      const mode = game.settings.get(OP5E, "prerequisiteMode");
+      if (!feat || feat.system?.type?.value !== "feat") {
+        await actor.delete().catch(() => {});
+        fail(`Free starting feat ${data.freeFeatId} is not a general feat from the op5e feats pack.`);
+      }
+      if (unmet.length && mode === "enforce") {
+        await actor.delete().catch(() => {}); // never leave a half-built character behind
+        fail(`${data.name} does not meet the requirements for the free starting feat ${feat.name}: ${unmet.join("; ")}. No character was created.`);
+      }
+      if (unmet.length) notes.push(`${feat.name}: unmet requirements (${unmet.join("; ")}) allowed by the prerequisite setting.`);
+      await importFromPackWithAdvancements(actor, PACKS.feats, data.freeFeatId, run);
+    }
+    };
+    const freeFeatDoc = data.freeFeatId ? await game.packs.get(PACKS.feats)?.getDocument(data.freeFeatId) : null;
+    const freeFeatEarly = !!freeFeatDoc && unmetPrerequisites(freeFeatDoc, actor).length === 0;
+    if (freeFeatEarly) await importFreeFeat();
 
     // Both classes enter at level 1 (class 1 first, so it is the starting class that grants starting equipment).
     for (const c of classes) {
@@ -204,21 +232,7 @@ export async function createFromDraft(draft, opts = {}) {
       await levelClassTo(actor, c.item.id, c.level, { ...run, subUuid: c.sub?.uuid });
     }
 
-    if (data.freeFeatId) {
-      const feat = await game.packs.get(PACKS.feats)?.getDocument(data.freeFeatId);
-      const unmet = feat ? unmetPrerequisites(feat, actor) : [];
-      const mode = game.settings.get(OP5E, "prerequisiteMode");
-      if (!feat || feat.system?.type?.value !== "feat") {
-        await actor.delete().catch(() => {});
-        fail(`Free starting feat ${data.freeFeatId} is not a general feat from the op5e feats pack.`);
-      }
-      if (unmet.length && mode === "enforce") {
-        await actor.delete().catch(() => {}); // never leave a half-built character behind
-        fail(`${data.name} does not meet the requirements for the free starting feat ${feat.name}: ${unmet.join("; ")}. No character was created.`);
-      }
-      if (unmet.length) notes.push(`${feat.name}: unmet requirements (${unmet.join("; ")}) allowed by the prerequisite setting.`);
-      await importFromPackWithAdvancements(actor, PACKS.feats, data.freeFeatId, run);
-    }
+    if (freeFeatEarly) { /* already imported before the class */ } else await importFreeFeat();
 
     await applyStartingBeri(actor, imported);
     await writeBiography(actor, data);

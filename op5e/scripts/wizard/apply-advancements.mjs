@@ -102,7 +102,13 @@ export async function importFromPackWithAdvancements(actor, packCollection, docI
   if (!pack) return null;
   const doc = await pack.getDocument(docId);
   if (!doc) return null;
+  // remember where the item came from (stamped after the import): dnd5e finds "feats you already have" through _stats.compendiumSource, which toObject() leaves empty for built packs.
+  // Without it a feat taken here (the free feat) is invisible to the duplicate check and the same feat can be taken again later (Role bonus feat).
+  const before = new Set(actor.items.map((i) => i.id));
   await importItemWithAdvancements(actor, doc.toObject(), opts);
+  for (const it of actor.items.filter((i) => !before.has(i.id) && i.type === doc.type && i.name === doc.name && !i._stats?.compendiumSource)) {
+    await it.update({ "_stats.compendiumSource": doc.uuid });
+  }
   return doc;
 }
 
