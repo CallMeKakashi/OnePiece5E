@@ -25,3 +25,4 @@ import { weaponMasterSpecs } from "./weapon-masters.js"; Object.assign(AUTOMATIO
 import { simpleBonusSpecs, batch1Specs, batch2Specs, batch3Specs } from "./simple-bonuses.js"; Object.assign(AUTOMATION, simpleBonusSpecs, batch1Specs, batch2Specs, batch3Specs);
 import { batch4Specs } from "./text-batch4.js"; Object.assign(AUTOMATION, batch4Specs);
 import { batch5Specs } from "./text-batch5.js"; Object.assign(AUTOMATION, batch5Specs);
+import { batch6Specs } from "./text-batch6.js"; Object.assign(AUTOMATION, batch6Specs);
