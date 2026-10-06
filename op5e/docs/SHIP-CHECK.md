@@ -33,6 +33,7 @@ Runs in order and stops at the first failure (`--from "<stage>"` resumes; `--sma
 | rebuild PCs | the 10 campaign PCs rebuild without errors |
 | multi-player | GM plus a Player and a Trusted Player at once: ownership, GM whispers hidden, no scene/setting edits, compendium readable, shared initiative, weapon cards, effects (15 checks) |
 | real-UI walkthroughs | the six walkthrough scripts run in a real browser with no FAIL (screenshots in `reports/walkthrough*/`) |
+| rules | Devil Fruit Uses (1,2,3,4,5,6 at levels 1,3,5,7,9,11), Haki tiers and the Brawler die by level (11 checks) |
 | transformations | Hybrid Form, Full Beast Form and Sulong checks pass on Roma, Hybrid, Sulong, Malphas (31 checks) |
 
 ## Phase 2: Character creation by hand (Create OPC and Foundry's native flow)

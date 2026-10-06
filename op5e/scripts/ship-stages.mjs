@@ -12,6 +12,7 @@ export const STAGES = [
   ["sweep", "node dev/harness/sweep-parallel.mjs", "Using every compendium document once"],
   ["rebuild PCs", "node dev/harness/rebuild-pcs.mjs", "Rebuilding the 10 campaign PCs"],
   ["transformations", "node dev/harness/transform.mjs", "Zoan Hybrid/Full Beast and Sulong on the PCs"],
+  ["rules", "node dev/harness/rules.mjs", "Devil Fruit Uses, Haki tiers and the Brawler die by level"],
   ["multi-player", "node dev/harness/multiplayer.mjs", "GM plus two players at once: permissions, whispers, shared combat, effects"],
   ["real-UI walkthroughs", "node dev/harness/walkthrough-all.mjs", "Sheets, dialogs, summons, ships and item galleries in a real browser"],
 ];
