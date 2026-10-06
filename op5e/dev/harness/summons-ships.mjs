@@ -7,7 +7,7 @@ const run = async () => {
   let acts = 0; const broken = [];
   for (const id of ["creations", "class-features", "feats", "items", "spell-lists"].map((p) => `op5e.${p}`)) {
     const pack = game.packs.get(id); if (!pack) continue;
-    for (const doc of await pack.getDocuments()) for (const a of doc.system.activities ?? []) {
+    for (const doc of await pack.getDocuments()) for (const a of doc.system?.activities ?? []) {
       if (a.type !== "summon") continue; acts++;
       if (!a.profiles?.length) { broken.push(`${doc.name}: no profiles`); continue; }
       for (const p of a.profiles) if (p.uuid && !(await fromUuid(p.uuid))) broken.push(`${doc.name}: ${p.uuid}`);

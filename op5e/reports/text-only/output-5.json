@@ -1,0 +1,317 @@
+[
+ {
+  "id": "class-features/391f34e15e9d6176",
+  "name": "Powerful Passion",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Adds up to +1d8 (max 6d8) to Ardent Smite damage, a rider whose damage type depends on the chosen Ardent Soul.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "feats/13e1e99725be4b02",
+  "name": "Pragmatic Vanity",
+  "pack": "feats",
+  "verdict": "MANUAL",
+  "reason": "Mixes a choice ASI, advantage on saves vs 'creations' (homebrew, unspecified), a trick and Charm Person creation uses 'half proficiency' with unspecified rounding.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/97a125ca941496c1",
+  "name": "Psychic Soul",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Unconditional resistance to psychic damage; the Whisper and Mind Slash tricks are granted by advancement.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Psychic Soul\", transfer: true, changes: [{\"key\":\"system.traits.dr.value\",\"mode\":2,\"value\":\"psychic\"}] }] }",
+  "risk": "low"
+ },
+ {
+  "id": "racial-features/bb5549625f15846b",
+  "name": "Pure Soul",
+  "pack": "racial-features",
+  "verdict": "SIMPLE",
+  "reason": "Unconditional advantage on Intelligence, Wisdom, and Charisma saves.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Pure Soul\", transfer: true, changes: [{\"key\":\"system.abilities.int.save.roll.mode\",\"mode\":5,\"value\":\"1\"},{\"key\":\"system.abilities.wis.save.roll.mode\",\"mode\":5,\"value\":\"1\"},{\"key\":\"system.abilities.cha.save.roll.mode\",\"mode\":5,\"value\":\"1\"}] }] }",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/1e725cfe42ddcf6d",
+  "name": "Purity of the Body",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Immunity to all poisons and diseases and the poisoned condition is unconditional.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Purity of the Body\", transfer: true, changes: [{\"key\":\"system.traits.di.value\",\"mode\":2,\"value\":\"poison\"},{\"key\":\"system.traits.ci.value\",\"mode\":2,\"value\":\"disease\"},{\"key\":\"system.traits.ci.value\",\"mode\":2,\"value\":\"poisoned\"}] }] }",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/795fb0f14967174f",
+  "name": "Rampaging Vigor",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Temp HP equal to Wis mod + brawler level (min 1) triggers only when an unarmed strike drops a creature to 0 HP.",
+  "proposal": "Heal activity (type temp, no consumption) used manually on a kill: formula 'max(1, @abilities.wis.mod + @classes.brawler.levels)' (verify class identifier is brawler)",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/579814c6945fa8fd",
+  "name": "Rational Mind",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Advantage on History/Investigation checks only if you moved no more than half your speed that turn, which the system cannot track.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "feats/4829e86197e9017e",
+  "name": "Razor Claws",
+  "pack": "feats",
+  "verdict": "FALSE_ALERT",
+  "reason": "Climb speed equal to walk is already shipped in batch2 (effect exists); the rest is a choice ASI, natural weapon die and thieves' tools expertise tied to items.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/d05b6cbac7ef4e9b",
+  "name": "Ready to Rumble",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "d8 (or d10 with no weapon or shield) unarmed die plus a once-per-turn forgo-advantage extra attack depend on equipment and roll state; d8 step could ride flags.op5e.unarmedDieStep but the d10 case is conditional.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/bf71e74eb0cbc8d9",
+  "name": "Reckless Attack",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Choose-on-first-attack toggle giving advantage on Str melee weapon attacks while granting advantage to attackers until your next turn.",
+  "proposal": "Utility activity applying a self effect (expires start of next turn) with Midi flags flags.midi-qol.advantage.attack.mwak=1 (Str-only restriction not expressible) and flags.midi-qol.grants.advantage.attack.all=1; note-only if Midi absent",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/aa8f30bbcd2b513d",
+  "name": "Saddle-Born",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Skill choice, mount-fall advantage and mounting movement cost are choice/GM-driven.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/027196fc08589c6c",
+  "name": "Scornful Soul",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Unconditional resistance to necrotic damage; tricks come from advancement.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Scornful Soul\", transfer: true, changes: [{\"key\":\"system.traits.dr.value\",\"mode\":2,\"value\":\"necrotic\"}] }] }",
+  "risk": "low"
+ },
+ {
+  "id": "feats/40ea0ddac1cfee4b",
+  "name": "Sea Sovereignty",
+  "pack": "feats",
+  "verdict": "FALSE_ALERT",
+  "reason": "The +10 ft swim speed is already shipped in batch1; the ASI choice and at-will Animal Friend against swimming Beasts are choice/creation based.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "feats/6b9469f76e65aa7d",
+  "name": "Sharpshooter",
+  "pack": "feats",
+  "verdict": "CONDITIONAL",
+  "reason": "Ignoring long-range disadvantage and cover is situational, and the -5/+10 is an optional per-attack toggle.",
+  "proposal": "Utility toggle activity with effect: system.bonuses.rwak.attack '-5' and system.bonuses.rwak.damage '+10' (mode 2); long-range/cover parts stay text (no confirmed dnd5e 5.1 flag)",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/5e4ab87b37833998",
+  "name": "Shining Soul",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Unconditional resistance to radiant damage; tricks come from advancement.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Shining Soul\", transfer: true, changes: [{\"key\":\"system.traits.dr.value\",\"mode\":2,\"value\":\"radiant\"}] }] }",
+  "risk": "low"
+ },
+ {
+  "id": "feats/1dfcf670e02f0580",
+  "name": "Slasher",
+  "pack": "feats",
+  "verdict": "CONDITIONAL",
+  "reason": "Once-per-turn -10 ft speed on slashing hit and crit-triggered disadvantage on target are hit riders; ASI is a choice.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/3ab1388ae7b51c43",
+  "name": "Snipe and Strike",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Negating disadvantage from being prone or targeting prone creatures is situational and not a native dnd5e flag.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/8bbc0eceb67c2f3f",
+  "name": "Sparking Soul",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Unconditional resistance to lightning damage; tricks come from advancement.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Sparking Soul\", transfer: true, changes: [{\"key\":\"system.traits.dr.value\",\"mode\":2,\"value\":\"lightning\"}] }] }",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/7a751c50952abf45",
+  "name": "Star of the Show",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "10 ft aura giving temp HP equal to Cha mod (min 1) to chosen creatures starting their turn inside, ending when they leave; auras and per-target triggers are not native.",
+  "proposal": "Optional heal activity type temp, formula 'max(1,@abilities.cha.mod)', applied manually per creature",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/e6d86f5c94940beb",
+  "name": "Steel Rending",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Ignoring B/P/S resistance and Siege property while raging requires resistance-bypass logic dnd5e lacks.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "feats/e62c3894c8c629cc",
+  "name": "Storyteller",
+  "pack": "feats",
+  "verdict": "MANUAL",
+  "reason": "10-minute story with a d6 table of six different once-used effects distributed to up to six allies, plus a choice ASI.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "racial-features/58a5526f0be368c1",
+  "name": "Strong Faith",
+  "pack": "racial-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Advantage on saves only against being charmed or frightened; core dnd5e has no condition-specific save advantage key.",
+  "proposal": "Midi condition-save advantage flag if Midi is present, else MANUAL",
+  "risk": "medium"
+ },
+ {
+  "id": "racial-features/833772b262c8d693",
+  "name": "Sudden Reach",
+  "pack": "racial-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Advantage on opportunity attacks has no native trigger for identifying an opportunity attack.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/d695275adca5aefd",
+  "name": "Superior Hunter",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Advantage on Perception/Survival only if you moved no more than half your speed that turn, which cannot be tracked.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/ac692f6514fc86ae",
+  "name": "Supersonic",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "+10 ft speed, 45 ft Afterimage range and a reaction to negate Dex save damage all depend on the Afterimage being active.",
+  "proposal": "Put a +10 walk effect (mode 2) on the Afterimage activation effect rather than a transfer effect; reaction stays text",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/6a7737435183e672",
+  "name": "Supreme Sneak",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Advantage on Stealth/Sleight of Hand only if you moved no more than half your speed that turn, which cannot be tracked.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/025dbcb21b3719ad",
+  "name": "Thief's Reflexes",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Extra turn at initiative minus 10 in the first round requires combat tracker handling.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "racial-features/e6b6dc87b129e148",
+  "name": "Third Eye",
+  "pack": "racial-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Advantage on saves vs blinded or charmed plus checks to see through illusions are condition/situation-specific.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/086deb8e9fc1c257",
+  "name": "Third Wind",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Temp HP equal to the Second Wind roll is a rider on another feature's roll.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/eb35734015bf8642",
+  "name": "Tireless Spirit",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Regaining a Second Wind use on initiative and a Wis-mod healing bonus are riders on another feature and on initiative.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "feats/0db73a38f8d3fd28",
+  "name": "Underdog",
+  "pack": "feats",
+  "verdict": "CONDITIONAL",
+  "reason": "Advantage after being crit, drop-to-1 HP once and regain on initiative are reactive triggers; ASI is a choice.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/d93e24d841bf6bf7",
+  "name": "Voracious Velocity",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Unconditional +10 ft speed and climb speed equal to movement speed; jump bonuses and rage-only terrain stay text.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Voracious Velocity\", transfer: true, changes: [{\"key\":\"system.attributes.movement.walk\",\"mode\":2,\"value\":\"10\"},{\"key\":\"system.attributes.movement.climb\",\"mode\":4,\"value\":\"@attributes.movement.walk\"}] }] }",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/1305abd6c0c0d96f",
+  "name": "War Mechanic",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Tool/skill choice, 1-hour augment process and three attack-rider augments tied to chosen weapons.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "feats/7c1fc13455a252d4",
+  "name": "Water Wings",
+  "pack": "feats",
+  "verdict": "FALSE_ALERT",
+  "reason": "The +10 ft swim speed is already shipped in batch1; the remaining underwater opportunity-attack and drag rules are situational.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/aba7bf3b682079f6",
+  "name": "Wreck Resistance",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Ignoring resistance for improvised weapons and adding two properties to improvised weapons needs weapon-specific logic.",
+  "proposal": null,
+  "risk": "low"
+ }
+]

@@ -5,6 +5,7 @@ import {
 } from "./apply-advancements.mjs";
 import { isValidPointBuy } from "./pointBuy.mjs";
 import { unmetPrerequisites } from "../prerequisites.mjs";
+import { ensureFruitFeatures } from "../fruit-casting.mjs";
 
 const OP5E = "op5e";
 /** Appendix B, Suggested Rulings, Starting Rules: start at 3rd level (level 1 stays allowed). */
@@ -234,6 +235,7 @@ export async function createFromDraft(draft, opts = {}) {
 
     if (freeFeatEarly) { /* already imported before the class */ } else await importFreeFeat();
 
+    await ensureFruitFeatures(actor);   // Devil Fruit Uses and the Zoan forms come with the template
     await applyStartingBeri(actor, imported);
     await writeBiography(actor, data);
     // dnd5e refills spell slots only on a rest, so a new caster would start with none: begin the game with full slots (and full hit points)

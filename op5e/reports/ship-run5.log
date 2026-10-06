@@ -1,0 +1,48 @@
+PASS Logia Brawler (no spellcasting class): casting ability is the highest modifier str / str
+PASS Uses maximum at level 5 is 3 3
+PASS Learned a cantrip and a level 3 spell from the dnd5e pack 
+PASS A spell above the Uses maximum cannot be learned 
+PASS Learned spell uses that casting ability for its DC and attack str
+PASS Cantrip is free 3 left
+PASS A level 3 spell costs 3 uses 0 left
+PASS No spell slot is used 
+PASS Casting with too few uses is refused 
+PASS Zoan template grants the forms by itself 
+PASS Zoan is detected 
+PASS Zoan cannot cast in base form 
+PASS Zoan casts while in Hybrid Form 
+PASS A Medic's fruit spells use the class spellcasting ability (Wisdom) wis
+PASS Summons: every profile of 18 summon activities resolves to a stat block 
+PASS Cannons: all 8 have an attack activity with damage 
+PASS Cannons: all have a range 
+PASS Ships: all 8 have HP and AC 
+PASS Ships: every linked cannon exists 
+PASS GM and both players are connected at once 
+PASS Player sees the character they own 
+PASS Player cannot see a GM-only character 
+PASS The other player (not the owner) cannot open that character 
+PASS Player cannot see a GM whisper 
+PASS Player receives a public message 
+PASS Player cannot create a scene refused
+PASS Player cannot change a world setting refused
+PASS Player can read the OP5e compendium 
+PASS Player can read the Shop Catalogues journal 
+PASS Player rolls initiative for their own character; the GM sees it 
+PASS Player uses their weapon; a chat card reaches the GM used; 427 -> 428
+PASS An effect the GM adds shows up on the player's client 
+PASS Player: Create OPC is available can create actors in this world: false
+PASS Trusted Player: Create OPC is available can create actors in this world: false
+MULTIPLAYER: 15 pass, 0 fail
+PASS walkthrough: Create OPC wizard builds the character in the real UI ["Fighter 3"]
+walkthrough: 0 pass, 0 fail
+PASS walkthrough2: Level-up through the real UI reaches level 8 with Haki L8 haki 1
+walkthrough2: 0 pass, 0 fail
+PASS walkthrough3: Level-up to 14 grants the whole Haki chain L14 haki 4
+PASS walkthrough3: A feat whose prerequisite is not met is refused 1 refusal(s)
+walkthrough3: 0 pass, 0 fail
+walkthrough4: 5 pass, 0 fail
+walkthrough5: 1 pass, 0 fail
+walkthrough6: 10 pass, 0 fail
+WALKTHROUGHS: 20 pass, 0 fail
+
+Automated stages passed. Now do the manual stages in docs/SHIP-CHECK.md.

@@ -18,7 +18,7 @@ export const initShop = () => {
   game.settings.register(ID, "sellRatio", { name: "SHOPTRADE.SellRatio", scope: "world", config: true, type: Number, default: 50 });
 };
 
-const unitLabel = () => game.settings.get(ID, "currencyMode") === "single" ? game.settings.get(ID, "singleCurrency") : "gp";
+const unitLabel = () => { const k = game.settings.get(ID, "currencyMode") === "single" || Object.keys(CONFIG.DND5E.currencies).length < 2 ? game.settings.get(ID, "singleCurrency") : "gp"; return game.i18n.localize(CONFIG.DND5E.currencies[k]?.label ?? k); };   // "Berries" in a Berries world
 const owns = (userId, actor) => { const u = game.users.get(userId); return !!actor && !!u && (u.isGM || actor.testUserPermission(u, "OWNER")); };
 
 const handlers = {

@@ -72,9 +72,19 @@ async function syncAbilities(actor) {
 
 // What choosing a devil fruit template (Paramecia, Zoan or Logia; "No Devil Fruit" carries no kind) grants: the Devil Fruit Uses pool, and for a Zoan its forms.
 const TEMPLATE_GRANTS = { paramecia: [USES_NAME], logia: [USES_NAME], zoan: [USES_NAME, "Zoan Hybrid Form", "Zoan Full Beast Form"] };
-async function grantTemplateFeatures(item) {
+const granting = new Map();   // actor id -> running grant, so the hook and createFromDraft never create the same feature twice
+function grantTemplateFeatures(item) {
   const actor = item.parent, kind = item.flags?.[MODULE_ID]?.devilFruitTemplate;
-  if (actor?.documentName !== "Actor" || !TEMPLATE_GRANTS[kind]) return;
+  if (actor?.documentName !== "Actor" || !TEMPLATE_GRANTS[kind]) return Promise.resolve();
+  const run = (granting.get(actor.id) ?? Promise.resolve()).catch(() => {}).then(() => grantFor(actor, kind));
+  granting.set(actor.id, run);
+  return run;
+}
+/** Make sure a character with a devil fruit template has the features it grants (createFromDraft calls this before it returns). */
+export async function ensureFruitFeatures(actor) {
+  for (const item of actor.items.filter((i) => i.flags?.[MODULE_ID]?.devilFruitTemplate)) await grantTemplateFeatures(item);
+}
+async function grantFor(actor, kind) {
   const pack = game.packs.get(`${MODULE_ID}.feats`), index = await pack.getIndex(), made = [];
   for (const name of TEMPLATE_GRANTS[kind]) {
     if (actor.items.some((i) => i.name === name)) continue;

@@ -1,0 +1,344 @@
+[
+  {
+    "id": "class-features/35b1abd64227b1a9",
+    "name": "Physical Superiority",
+    "pack": "class-features",
+    "verdict": "MANUAL",
+    "reason": "Choice of Strength/Constitution/Dexterity at 3rd/10th/18th level with mixed riders (Athletics proficiency or expertise, fighter-level HP, extra Second Wind use, +5 ft speed, initiative die floor of 10); the chosen option is not recorded, so no single passive effect is correct.",
+    "proposal": null,
+    "risk": "medium"
+  },
+  {
+    "id": "class-features/dbbc7576777affde",
+    "name": "Chemical Cocktail",
+    "pack": "class-features",
+    "verdict": "ACTIVITY",
+    "reason": "Produces cocktails per long rest (one at 3rd, two at 6th, three at 15th) with six choice-driven drink effects of different durations; only Healing (4d4 + Intelligence modifier) is a clean activity, the rest are timed buffs.",
+    "proposal": "{ uses: { max: '1', per: 'lr' }, activities: [{ name: 'Healing Cocktail', activation: 'bonus', targets: { count: 1, type: 'creature' }, healing: { formula: '4d4 + @abilities.int.mod' } }] } // uses should scale to 2 at 6th and 3 at 15th; other five cocktails stay text; extra cocktails come from creation slots",
+    "risk": "medium"
+  },
+  {
+    "id": "class-features/4a8aa208fa895405",
+    "name": "Fighting Stances",
+    "pack": "class-features",
+    "verdict": "MANUAL",
+    "reason": "Stance picked as a bonus action with timed riders (Earth AC +2, or +4 as reaction; Fire advantage on weapon attacks until end of turn; Water reaction attack; Wind speed increase, text cut off); each stance is a separate temporary state with unspecified use counts.",
+    "proposal": null,
+    "risk": "medium"
+  },
+  {
+    "id": "class-features/27b06b45c222e938",
+    "name": "Fighting Style",
+    "pack": "class-features",
+    "verdict": "FALSE_ALERT",
+    "reason": "Pure choice gate: 'choose one fighting style from the Sword Sage Brawler Styles section'; benefits live in the style items.",
+    "proposal": null,
+    "risk": "low"
+  },
+  {
+    "id": "class-features/48e00c3315f03b93",
+    "name": "Fighting Style",
+    "pack": "class-features",
+    "verdict": "FALSE_ALERT",
+    "reason": "Pure choice gate: 'Choose one of the options from the Savant Styles section'; no mechanics of its own.",
+    "proposal": null,
+    "risk": "low"
+  },
+  {
+    "id": "class-features/4c8106eaf3ec994a",
+    "name": "Fighting Style",
+    "pack": "class-features",
+    "verdict": "FALSE_ALERT",
+    "reason": "Pure choice gate: 'Choose one of the options from the Marksman Styles section'; no mechanics of its own.",
+    "proposal": null,
+    "risk": "low"
+  },
+  {
+    "id": "class-features/6b3f0c4106aef017",
+    "name": "Fighting Style",
+    "pack": "class-features",
+    "verdict": "MANUAL",
+    "reason": "Single feature listing ten styles to choose from (Archery +2 ranged attack, Defense +1 AC in armor, Dueling +2 damage, Interception, Unarmed Fighting, etc.); the chosen style is not recorded, so a passive effect would grant all of them. Automate on the individual style items instead.",
+    "proposal": null,
+    "risk": "medium"
+  },
+  {
+    "id": "class-features/aed6aa7d66fdc401",
+    "name": "Fighting Style",
+    "pack": "class-features",
+    "verdict": "FALSE_ALERT",
+    "reason": "Pure choice gate: 'Choose one of the options in the College of Swords Bard Styles section'.",
+    "proposal": null,
+    "risk": "low"
+  },
+  {
+    "id": "class-features/aee160d383120d25",
+    "name": "Fighting Style",
+    "pack": "class-features",
+    "verdict": "FALSE_ALERT",
+    "reason": "Pure choice gate: 'Choose a fighting style from ... Blademaster Barbarian Styles section'.",
+    "proposal": null,
+    "risk": "low"
+  },
+  {
+    "id": "feats/e4d593c97ce19c61",
+    "name": "Light Armor Master",
+    "pack": "feats",
+    "verdict": "CONDITIONAL",
+    "reason": "Speed +5 ft only 'while wearing light or no armor' and +1 AC only after moving 20 ft from where the turn started; the +1 Dexterity is advancement, so nothing is unconditional.",
+    "proposal": "Nearest: disabled-by-default effect { key: 'system.attributes.movement.walk', mode: 2, value: '5' } toggled while in light/no armor; AC bonus stays text.",
+    "risk": "low"
+  },
+  {
+    "id": "class-features/a22a82d67504d9ae",
+    "name": "Shattered Duality",
+    "pack": "class-features",
+    "verdict": "MANUAL",
+    "reason": "Multi-part feature (Unarmored AC 10 + Int + Con, Master Brain while not raging, Monster Brain while raging with size increase, temp HP equal to level + Constitution modifier, extra 1d10 per creation slot) hinging on rage state and custom resources.",
+    "proposal": null,
+    "risk": "high"
+  },
+  {
+    "id": "class-features/e2e1f4e3efe01e09",
+    "name": "Signature Fighting Style",
+    "pack": "class-features",
+    "verdict": "MANUAL",
+    "reason": "Choice of improved styles (Improved Archery +3 ranged attack and ignore half/three-quarters cover, Improved Blind Fighting blindsight 30 ft, Improved Defense +1 AC and all saves in armor, Improved Dueling, etc.); the chosen style is not recorded and most are conditional.",
+    "proposal": null,
+    "risk": "medium"
+  },
+  {
+    "id": "class-features/d802b3a43ea5dc44",
+    "name": "Ancient Aspect",
+    "pack": "class-features",
+    "verdict": "MANUAL",
+    "reason": "Choice of totem animal (Bear, Elk, Eagle, Tiger, Wolf, Shark) with mostly narrative/exploration riders; only Shark (swim speed equal to current walking speed) is a passive effect, and only if picked.",
+    "proposal": null,
+    "risk": "medium"
+  },
+  {
+    "id": "class-features/fb2af56e24993285",
+    "name": "Armor Models",
+    "pack": "class-features",
+    "verdict": "MANUAL",
+    "reason": "Choice of Guardian or Infiltrator model with sub-features (Hydraulics: use Intelligence for Strength; Thunder Gauntlets 1d8 thunder weapon; Defensive Field temp HP equal to twice class level, proficiency-bonus uses per long rest); model choice and weapon cannot be one effect.",
+    "proposal": null,
+    "risk": "high"
+  },
+  {
+    "id": "class-features/08e41d51dc296c81",
+    "name": "Defensive Champion",
+    "pack": "class-features",
+    "verdict": "CONDITIONAL",
+    "reason": "Choice of defensive techniques (Multiattack Defense +4 AC vs subsequent attacks from one creature this turn, Uncanny Dodge reaction halves damage, Evasion); the chosen technique is not recorded and two of three are reactive riders.",
+    "proposal": "Evasion only (if split out): { key: 'flags.dnd5e.evasion', mode: 5, value: '1' }; the others as note-only reaction activities; otherwise MANUAL.",
+    "risk": "medium"
+  },
+  {
+    "id": "feats/d6d105a1935e45f6",
+    "name": "Dual Wielder",
+    "pack": "feats",
+    "verdict": "CONDITIONAL",
+    "reason": "+1 AC only 'while you are wielding a separate melee weapon in each hand', plus rules-only clauses (two-weapon fighting with non-light weapons, draw/stow two); AC depends on equipped-weapon state.",
+    "proposal": "Nearest: disabled-by-default effect { key: 'system.attributes.ac.bonus', mode: 2, value: '+1' } the player toggles; otherwise MANUAL.",
+    "risk": "low"
+  },
+  {
+    "id": "class-features/04f12efbb3f9532d",
+    "name": "Fighting Style: Versatile Fighting",
+    "pack": "class-features",
+    "verdict": "CONDITIONAL",
+    "reason": "The +1 attack (one hand) and +1 AC (two hands) both depend on how a versatile weapon is currently wielded; a passive effect would apply always or never.",
+    "proposal": "Nearest practical: two disabled-by-default effects the player toggles: { name: 'Versatile (1H)', disabled: true, changes: [{ key: 'system.bonuses.mwak.attack', mode: 2, value: '+1' }] } and { name: 'Versatile (2H)', disabled: true, changes: [{ key: 'system.attributes.ac.bonus', mode: 2, value: '+1' }] }; otherwise MANUAL.",
+    "risk": "low"
+  },
+  {
+    "id": "class-features/49fa5194af65a1a0",
+    "name": "Fighting Style: Versatile Fighting",
+    "pack": "class-features",
+    "verdict": "CONDITIONAL",
+    "reason": "The +1 attack (one hand) and +1 AC (two hands) both depend on how a versatile weapon is currently wielded; a passive effect would apply always or never.",
+    "proposal": "Nearest practical: two disabled-by-default effects the player toggles: { name: 'Versatile (1H)', disabled: true, changes: [{ key: 'system.bonuses.mwak.attack', mode: 2, value: '+1' }] } and { name: 'Versatile (2H)', disabled: true, changes: [{ key: 'system.attributes.ac.bonus', mode: 2, value: '+1' }] }; otherwise MANUAL.",
+    "risk": "low"
+  },
+  {
+    "id": "class-features/4e2a70bd5b869db2",
+    "name": "Fighting Style: Versatile Fighting",
+    "pack": "class-features",
+    "verdict": "CONDITIONAL",
+    "reason": "The +1 attack (one hand) and +1 AC (two hands) both depend on how a versatile weapon is currently wielded; a passive effect would apply always or never.",
+    "proposal": "Nearest practical: two disabled-by-default effects the player toggles: { name: 'Versatile (1H)', disabled: true, changes: [{ key: 'system.bonuses.mwak.attack', mode: 2, value: '+1' }] } and { name: 'Versatile (2H)', disabled: true, changes: [{ key: 'system.attributes.ac.bonus', mode: 2, value: '+1' }] }; otherwise MANUAL.",
+    "risk": "low"
+  },
+  {
+    "id": "class-features/ab64448d42de5b44",
+    "name": "Fighting Style: Versatile Fighting",
+    "pack": "class-features",
+    "verdict": "CONDITIONAL",
+    "reason": "The +1 attack (one hand) and +1 AC (two hands) both depend on how a versatile weapon is currently wielded; a passive effect would apply always or never.",
+    "proposal": "Nearest practical: two disabled-by-default effects the player toggles: { name: 'Versatile (1H)', disabled: true, changes: [{ key: 'system.bonuses.mwak.attack', mode: 2, value: '+1' }] } and { name: 'Versatile (2H)', disabled: true, changes: [{ key: 'system.attributes.ac.bonus', mode: 2, value: '+1' }] }; otherwise MANUAL.",
+    "risk": "low"
+  },
+  {
+    "id": "class-features/cedd76403866c3b8",
+    "name": "Fighting Style: Versatile Fighting",
+    "pack": "class-features",
+    "verdict": "CONDITIONAL",
+    "reason": "The +1 attack (one hand) and +1 AC (two hands) both depend on how a versatile weapon is currently wielded; a passive effect would apply always or never.",
+    "proposal": "Nearest practical: two disabled-by-default effects the player toggles: { name: 'Versatile (1H)', disabled: true, changes: [{ key: 'system.bonuses.mwak.attack', mode: 2, value: '+1' }] } and { name: 'Versatile (2H)', disabled: true, changes: [{ key: 'system.attributes.ac.bonus', mode: 2, value: '+1' }] }; otherwise MANUAL.",
+    "risk": "low"
+  },
+  {
+    "id": "class-features/a82688554d362831",
+    "name": "Forged in Fire",
+    "pack": "class-features",
+    "verdict": "CONDITIONAL",
+    "reason": "Raises Forgemaster's Armor AC bonus from +1 to +2 and grants immunity to the damage type chosen when making the armor; depends on another feature/item and a recorded damage-type choice.",
+    "proposal": "Nearest: disabled-by-default effect { key: 'system.attributes.ac.bonus', mode: 2, value: '+1' } (stacking on the existing +1) toggled while wearing the armor; immunity stays text.",
+    "risk": "medium"
+  },
+  {
+    "id": "class-features/85cfa9eb6c33635f",
+    "name": "Improved Defender",
+    "pack": "class-features",
+    "verdict": "MANUAL",
+    "reason": "Upgrades other features and a companion (Power Jolt extra damage and healing become 4d6, Iron Defender makes two attacks and gets +2 AC, Deflect Attack deals 1d4 + Intelligence force damage); belongs on those features' activities.",
+    "proposal": null,
+    "risk": "medium"
+  },
+  {
+    "id": "class-features/6dd51f6cb616cd13",
+    "name": "Improved Steel Defender",
+    "pack": "class-features",
+    "verdict": "MANUAL",
+    "reason": "Choice of one Iron Defender form (True Defender, Juggernaut: Medium to Large with resistance to bludgeoning/piercing/slashing, Android, Drone: Small with 50 ft fly speed) that modifies a companion, not the character.",
+    "proposal": null,
+    "risk": "medium"
+  },
+  {
+    "id": "feats/d4e6cf8cd5b48eef",
+    "name": "Made For War",
+    "pack": "feats",
+    "verdict": "FALSE_ALERT",
+    "reason": "Already shipped: the 'Made For War' effect grants the hit point maximum increase equal to level; ASI is advancement, and the Spark of War riders (Acid, Cold, Fire +3 damage, Lightning, Poison, Thunder, Necrotic) depend on another feature and a recorded damage-type choice.",
+    "proposal": null,
+    "risk": "low"
+  },
+  {
+    "id": "class-features/68e3fc8a7308fabf",
+    "name": "Primal Totem",
+    "pack": "class-features",
+    "verdict": "MANUAL",
+    "reason": "Choice of totem animal with rage-conditional riders (Bear resistance to a number of damage types equal to proficiency bonus except force and psychic, Elk +15 ft speed while raging and not in heavy armor, Eagle bonus-action Dash, Tiger prone on charge); chosen animal and rage state not recorded.",
+    "proposal": null,
+    "risk": "medium"
+  },
+  {
+    "id": "class-features/5eaeaaa2566d0e43",
+    "name": "Six Techniques",
+    "pack": "class-features",
+    "verdict": "MANUAL",
+    "reason": "Choose three of six Rokushiki techniques (Moon Walk 1 spirit point for flight, Iron Body reaction halve, Shave 15 ft teleport, Tempest Kick 60 ft ranged attack, etc.); choice not recorded and each is its own activity.",
+    "proposal": null,
+    "risk": "high"
+  },
+  {
+    "id": "class-features/5dc924b59f7dc9f9",
+    "name": "Stance Improvements",
+    "pack": "class-features",
+    "verdict": "MANUAL",
+    "reason": "Level 15 upgrades each conditional on the active stance (Earth reaction evasion, Fire trade advantage for extra attack once per turn, Water extra attack, Wind fly speed equal to walking speed, swap stances); stance state is not tracked.",
+    "proposal": null,
+    "risk": "high"
+  },
+  {
+    "id": "class-features/8da95615d80b9f30",
+    "name": "Totem Attuned",
+    "pack": "class-features",
+    "verdict": "MANUAL",
+    "reason": "Choice of totem animal with rage-conditional riders (Bear disadvantage for nearby hostiles, Elk pass-through with Str save and 1d12 + Str + Rage damage, Eagle fly speed while raging, Tiger hide, Wolf prone, Shark advantage vs damaged targets); chosen animal and rage state not recorded.",
+    "proposal": null,
+    "risk": "medium"
+  },
+  {
+    "id": "feats/bb0f919532760be5",
+    "name": "Ursa Major",
+    "pack": "feats",
+    "verdict": "SIMPLE",
+    "reason": "Unconditional benefits: swim and climb speed equal to movement speed and one size larger for carrying (powerful build); the ASI is advancement and Athletics proficiency/expertise plus smell-based Perception advantage stay text.",
+    "proposal": "eff('Ursa Major', { key: 'system.attributes.movement.climb', mode: 4, value: '@attributes.movement.walk' }, { key: 'system.attributes.movement.swim', mode: 4, value: '@attributes.movement.walk' }, { key: 'flags.dnd5e.powerfulBuild', mode: 5, value: '1' })  // same helpers as batch1/batch2 in simple-bonuses.ts",
+    "risk": "low"
+  },
+  {
+    "id": "class-features/2c20002b9b986086",
+    "name": "Ambush Master",
+    "pack": "class-features",
+    "verdict": "SIMPLE",
+    "reason": "'You have advantage on initiative rolls' is unconditional and expressible; the second sentence (first creature hit in round one gives attackers advantage until your next turn) is a once-per-combat rider that stays text.",
+    "proposal": "eff('Ambush Master', { key: 'flags.dnd5e.initiativeAdv', mode: 5, value: '1' })",
+    "risk": "low"
+  },
+  {
+    "id": "class-features/6b61d0a6094d142f",
+    "name": "Artful Mastery",
+    "pack": "class-features",
+    "verdict": "CONDITIONAL",
+    "reason": "+1 to Spirit save DCs and to attack and damage rolls only for unarmored strikes, monk weapons and special brawler attacks; no matching dnd5e bonus bucket (mwak bonus would also hit non-monk weapons) and Spirit DC is a custom field.",
+    "proposal": "Nearest: MANUAL, or an approximate mwak attack/damage +1 effect (system.bonuses.mwak.attack/damage, mode 2, '+1') that over-grants to non-monk weapons.",
+    "risk": "medium"
+  },
+  {
+    "id": "backgrounds/cc4c238d0144a76b",
+    "name": "Blacksmith",
+    "pack": "backgrounds",
+    "verdict": "MANUAL",
+    "reason": "Background feature: 'You gain your choice of one of the following abilities' (daily mastercraft touch on armor or weapon giving +1, or the Master Smith feat); item-targeting choice is not a passive effect.",
+    "proposal": null,
+    "risk": "low"
+  },
+  {
+    "id": "feats/f44abf5c756557d8",
+    "name": "Brawny",
+    "pack": "feats",
+    "verdict": "FALSE_ALERT",
+    "reason": "Already shipped: the 'Brawny' effect gives climb speed equal to walking speed; the rest (ASI, Athletics proficiency/expertise, carrying size, standing from prone, jump distances) is advancement or adjudicated.",
+    "proposal": null,
+    "risk": "low"
+  },
+  {
+    "id": "feats/38cccd1cbfe77b34",
+    "name": "Charger",
+    "pack": "feats",
+    "verdict": "FALSE_ALERT",
+    "reason": "Already shipped: the 'Charger' effect gives +10 ft walking speed; the once-per-turn rider after moving 10 ft (+1d8 damage or push 10 ft) is situational and stays text.",
+    "proposal": null,
+    "risk": "low"
+  },
+  {
+    "id": "class-features/08160491cec413a4",
+    "name": "Deft Explorer",
+    "pack": "class-features",
+    "verdict": "FALSE_ALERT",
+    "reason": "Pure choice gate: 'choose another benefit from the Deft Explorer options: Canny, Roving, or Tireless'; mechanics live in the base entry.",
+    "proposal": null,
+    "risk": "low"
+  },
+  {
+    "id": "class-features/6452d3231050fa72",
+    "name": "Deft Explorer",
+    "pack": "class-features",
+    "verdict": "FALSE_ALERT",
+    "reason": "Pure choice gate: 'choose your final benefit from the Deft Explorer options'; mechanics live in the base entry.",
+    "proposal": null,
+    "risk": "low"
+  },
+  {
+    "id": "class-features/ab9efafbbb3f24a0",
+    "name": "Deft Explorer",
+    "pack": "class-features",
+    "verdict": "MANUAL",
+    "reason": "Choice of Canny (expertise in two chosen skills), Roving (+10 walking speed, climb and swim equal to walking), or Tireless (bonus action 1d10 + level temp HP, proficiency-bonus uses per rest); chosen option not recorded.",
+    "proposal": null,
+    "risk": "medium"
+  }
+]

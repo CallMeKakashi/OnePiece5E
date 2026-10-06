@@ -17,7 +17,7 @@ export const batch1Specs: Record<string, Spec> = {
   "feats/Charger": eff("Charger", speed("walk", 10)),
   "feats/Fleet-Footed": eff("Fleet-Footed", speed("walk", 5), { key: "system.attributes.init.bonus", mode: 2, value: "+@prof" }),
   "feats/Hooves Inbound": eff("Hooves Inbound", speed("walk", 5), { key: "flags.dnd5e.powerfulBuild", mode: 5, value: "1" }),   // also "one size bigger" for carrying
-  "feats/Knack Of The Pretender": eff("Knack Of The Pretender", speed("walk", 5)),
+  "feats/Knack Of The Pretender": eff("Knack Of The Pretender", speed("walk", 5), { key: "system.skills.acr.bonuses.check", mode: 2, value: "+1d4" }, { key: "system.skills.dec.bonuses.check", mode: 2, value: "+1d4" }),
   "feats/Water Wings": eff("Water Wings", speed("swim", 10)),
   "feats/Sea Sovereignty": eff("Sea Sovereignty", speed("swim", 10)),
   "feats/Perceptive": eff("Perceptive", { key: "system.attributes.senses.darkvision", mode: 2, value: "30" }),
@@ -36,4 +36,30 @@ export const batch2Specs: Record<string, Spec> = {
   "feats/Buck-Toothed": eff("Buck-Toothed", { key: "system.attributes.movement.swim", mode: 4, value: "@attributes.movement.walk" }),
   "feats/Enhanced Circuitry": eff("Enhanced Circuitry", { key: "system.traits.dr.value", mode: 2, value: "lightning" }),
   "racial-features/Powerful Build": eff("Powerful Build", { key: "flags.dnd5e.powerfulBuild", mode: 5, value: "1" }),
+};
+
+// Batch 3 (issue #26): the unconditional parts found by the per-feature review (reports/text-only/output-*.json): damage resistances, condition immunities,
+// speed, initiative and save effects. Riders in the same texts (triggers, once per turn, choices) stay text. Expertise-if-proficient entries are left out until their keys are verified.
+const resist = (name: string, ...types: string[]): Spec => eff(name, ...types.map((t) => ({ key: "system.traits.dr.value", mode: 2, value: t })));
+export const batch3Specs: Record<string, Spec> = {
+  "class-features/Expanding Epiphany": resist("Expanding Epiphany", "psychic"),
+  "feats/Undead Resolve": resist("Undead Resolve", "necrotic"),
+  "class-features/Corrosive Soul": resist("Corrosive Soul", "acid"),
+  "class-features/Echoing Soul": resist("Echoing Soul", "thunder"),
+  "class-features/Fiery Soul": resist("Fiery Soul", "fire"),
+  "class-features/Frozen Soul": resist("Frozen Soul", "cold"),
+  "class-features/Psychic Soul": resist("Psychic Soul", "psychic"),
+  "class-features/Scornful Soul": resist("Scornful Soul", "necrotic"),
+  "class-features/Shining Soul": resist("Shining Soul", "radiant"),
+  "class-features/Sparking Soul": resist("Sparking Soul", "lightning"),
+  "class-features/Crazed Bravado": eff("Crazed Bravado", { key: "system.traits.dr.value", mode: 2, value: "fire" }, { key: "system.traits.dr.value", mode: 2, value: "thunder" }, { key: "system.traits.ci.value", mode: 2, value: "deafened" }),
+  "class-features/Miasmic Soul": eff("Miasmic Soul", { key: "system.traits.dr.value", mode: 2, value: "poison" }, { key: "system.traits.ci.value", mode: 2, value: "poisoned" }),
+  "class-features/Purity of the Body": eff("Purity of the Body", { key: "system.traits.di.value", mode: 2, value: "poison" }, { key: "system.traits.ci.value", mode: 2, value: "poisoned" }, { key: "system.traits.ci.value", mode: 2, value: "diseased" }),
+  "class-features/Physician's Mercy": eff("Physician's Mercy", { key: "system.abilities.con.proficient", mode: 4, value: "1" }, { key: "system.traits.dr.value", mode: 2, value: "necrotic" }),
+  "feats/Shandian Mobility": eff("Shandian Mobility", speed("walk", 5)),
+  "class-features/Voracious Velocity": eff("Voracious Velocity", speed("walk", 10), { key: "system.attributes.movement.climb", mode: 4, value: "@attributes.movement.walk" }),
+  "feats/Ursa Major": eff("Ursa Major", { key: "system.attributes.movement.climb", mode: 4, value: "@attributes.movement.walk" }, { key: "system.attributes.movement.swim", mode: 4, value: "@attributes.movement.walk" }, { key: "flags.dnd5e.powerfulBuild", mode: 5, value: "1" }),
+  "class-features/Advanced Combat Tactics": eff("Advanced Combat Tactics", { key: "system.attributes.init.bonus", mode: 2, value: "+max(@abilities.wis.mod, 1)" }),
+  "feats/Eyes Open": eff("Eyes Open", { key: "system.attributes.init.bonus", mode: 2, value: "+@prof" }, { key: "system.skills.prc.bonuses.passive", mode: 2, value: "+@prof" }),
+  "racial-features/Pure Soul": eff("Pure Soul", ...["int", "wis", "cha"].map((a) => ({ key: `system.abilities.${a}.save.roll.mode`, mode: 4, value: "1" }))),
 };

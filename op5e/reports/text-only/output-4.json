@@ -1,0 +1,344 @@
+[
+ {
+  "id": "class-features/956de33013f184f7",
+  "name": "Hardy Resolution",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Advantage on saves vs charmed, frightened, restrained, stunned, paralyzed applies only while Swinging Stance is active.",
+  "proposal": "Attach to the Swinging Stance effect (not passive) with Midi condition-scoped save-advantage flags; otherwise MANUAL.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/6a398dfa8f9092f5",
+  "name": "Herculean Strength",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Unconditional +10 ft speed and Athletics proficiency (expertise if already proficient, via ADD 1 capped at 2); thrown (30/90) on weapons is a per-item property and stays text.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Herculean Strength\", transfer: true, changes: [{ key: \"system.attributes.movement.walk\", mode: 2, value: \"10\" }, { key: \"system.skills.ath.value\", mode: 2, value: \"1\" }] }] }",
+  "risk": "medium"
+ },
+ {
+  "id": "feats/e52e88cc245a8961",
+  "name": "Hooves Inbound",
+  "pack": "feats",
+  "verdict": "FALSE_ALERT",
+  "reason": "Existing effect already adds +5 ft speed and the powerfulBuild flag; the ASI and the charge bonus-attack rider are choice/situational and stay text.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/6706a7b797fe054c",
+  "name": "Huntsmen's Tactics",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Player picks one of three riders (Persistent Strike 1d8 once per turn, Big Game Hunting reaction, Cluster Clasher extra attack); choice-driven and trigger-based.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/184dc185241c2dbf",
+  "name": "Immovable Object",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Extra attack only with the Aegis, readied-attack rule, and no-prone/forced-movement immunity while wielding it are all gear-conditional.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/5eab4317a4fbf310",
+  "name": "Improved Ardent Smite",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Extra 1d8 on melee weapon hits uses the damage type chosen for Ardent Soul, which varies per character and depends on a hit.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "racial-features/fc22ba1ba345c43c",
+  "name": "Improved Ignite",
+  "pack": "racial-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Resistance to all damage except psychic applies only while in Ignited form.",
+  "proposal": "Put on the Ignited-form effect (not passive): dr.value ADD for acid, bludgeoning, cold, fire, force, lightning, necrotic, piercing, poison, radiant, slashing, thunder.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/08372afdb3ad45bc",
+  "name": "Inexorable Prowess",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Never disadvantage on weapon attacks against seen creatures, only while raging.",
+  "proposal": "Midi flag on the Rage effect if Midi is used; otherwise MANUAL note.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/9fc6b19917bda16e",
+  "name": "Infinitesimal Instant",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Afterimage HP bonus (level), 60 ft range and regaining two Rapid Action uses on initiative depend on other custom features and a summon.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "feats/83ba322751ee4f40",
+  "name": "Inspiring Leader",
+  "pack": "feats",
+  "verdict": "ACTIVITY",
+  "reason": "10-minute activity granting up to six creatures temp HP equal to double level + Cha mod, once per creature per rest.",
+  "proposal": "{ activities: [{ type: \"heal\", name: \"Inspire\", activation: { type: \"minute\", value: 10 }, target: { affects: { type: \"creature\", count: \"6\" }, template: { type: \"radius\", size: \"30\", units: \"ft\" } }, healing: { custom: { enabled: true, formula: \"2 * @details.level + @abilities.cha.mod\" }, types: [\"temphp\"] } }] }",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/db3d8e3b87d92dcb",
+  "name": "Invulnerable",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Player chooses two of eleven damage types and can swap them after each rest.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/7a913523f5eb9e41",
+  "name": "Keen Eyes",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Advantage on Perception/Investigation only if you move no more than half your speed that turn; movement is not trackable by an effect.",
+  "proposal": "MANUAL (note).",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/03ee8722ce372bd2",
+  "name": "Keen Strikes",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Int for attack rolls with ranged/finesse/unarmed and sneak attack without advantage vs lower-Int creatures need situational rules dnd5e has no key for.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "feats/5acc594d39a91cc4",
+  "name": "Knack Of The Pretender",
+  "pack": "feats",
+  "verdict": "SIMPLE",
+  "reason": "A d4 on Acrobatics and Deception checks is unconditional; speed already handled; Vicious Mockery, Disguise creation and restraint escape stay text.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Knack Of The Pretender\", transfer: true, changes: [{ key: \"system.skills.acr.bonuses.check\", mode: 2, value: \"+1d4\" }, { key: \"system.skills.dec.bonuses.check\", mode: 2, value: \"+1d4\" }] }] } // append changes to existing effect",
+  "risk": "low"
+ },
+ {
+  "id": "feats/89c3c63a88b85a16",
+  "name": "Kuja Accuracy",
+  "pack": "feats",
+  "verdict": "MANUAL",
+  "reason": "Rerolling one die when attacking with advantage using DEX/INT/WIS/CHA is a roll-time rider; ASI is a choice.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/b1c03ffd40ba04a2",
+  "name": "Magma Blade",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Ignoring fire resistance and treating immunity as resistance on melee attacks has no dnd5e key; needs a damage-pipeline hook.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/d1f8d9fe84a86a2f",
+  "name": "Make Your Mark",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Mark on melee hit with disadvantage on attacks not targeting you plus a bonus-action punish attack (half fighter level extra damage) is a multi-trigger rider.",
+  "proposal": "Nearest: utility activity 'Mark' with a note; punish attack MANUAL.",
+  "risk": "medium"
+ },
+ {
+  "id": "feats/14f32ee299d25318",
+  "name": "Mammal of Action",
+  "pack": "feats",
+  "verdict": "ACTIVITY",
+  "reason": "Passive blindsight 10 ft and swim speed equal to walk, plus an on-hit envenom Con save (DC 8 + Con + prof) causing poisoned for 1 minute (once per turn).",
+  "proposal": "{ activities: [{ type: \"save\", name: \"Envenom\", activation: { type: \"special\" }, save: { ability: [\"con\"], dc: { calculation: \"\", formula: \"8 + @abilities.con.mod + @prof\" } }, target: { affects: { type: \"creature\", count: \"1\" } } }], extraEffects: [{ name: \"Mammal of Action\", transfer: true, changes: [{ key: \"system.attributes.senses.blindsight\", mode: 2, value: \"10\" }, { key: \"system.attributes.movement.swim\", mode: 4, value: \"@attributes.movement.walk\" }] }, { name: \"Envenomed\", transfer: false, statuses: [\"poisoned\"], duration: { seconds: 60 } }] }",
+  "risk": "medium"
+ },
+ {
+  "id": "feats/f5c4922bd5693b71",
+  "name": "Master Navigator",
+  "pack": "feats",
+  "verdict": "SIMPLE",
+  "reason": "Unconditional proficiency (expertise if already proficient) in Navigator's tools; weather save advantage and recall are narrative.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Master Navigator\", transfer: true, changes: [{ key: \"system.tools.navg.value\", mode: 2, value: \"1\" }] }] }",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/c064b16551d84279",
+  "name": "Master of War",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Disadvantage on the target's next save against your next creation and a higher Recharging Surge slot cap depend on custom creation mechanics.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "feats/2b4eb29a4380109c",
+  "name": "Master Weaver",
+  "pack": "feats",
+  "verdict": "SIMPLE",
+  "reason": "Weaver's tools proficiency/expertise is unconditional; the outfit enhancement and halved crafting are narrative.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Master Weaver\", transfer: true, changes: [{ key: \"system.tools.weaver.value\", mode: 2, value: \"1\" }] }] }",
+  "risk": "low"
+ },
+ {
+  "id": "feats/2b588a8d085a12f6",
+  "name": "Master Woodcarver",
+  "pack": "feats",
+  "verdict": "SIMPLE",
+  "reason": "Woodcarver's tools proficiency/expertise is unconditional; object resistance and halved crafting are narrative.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Master Woodcarver\", transfer: true, changes: [{ key: \"system.tools.woodcarver.value\", mode: 2, value: \"1\" }] }] }",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/d1013cb035a4594c",
+  "name": "Medical Expertise",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Expertise in Wisdom (Medicine) is unconditional; stabilize-with-1-HP, crafting halving and disease removal are situational.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Medical Expertise\", transfer: true, changes: [{ key: \"system.skills.med.value\", mode: 4, value: \"2\" }] }] }",
+  "risk": "low"
+ },
+ {
+  "id": "feats/f4e58d1d6e400e7a",
+  "name": "Medium Armor Master",
+  "pack": "feats",
+  "verdict": "SIMPLE",
+  "reason": "Stealth disadvantage removal and the +3 Dex cap for medium armor map to dnd5e's mediumArmorMaster flag; ASI stays a choice.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Medium Armor Master\", transfer: true, changes: [{ key: \"flags.dnd5e.mediumArmorMaster\", mode: 5, value: \"1\" }] }] }",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/41dbf826f816e5f0",
+  "name": "Miasmic Soul",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Immunity to poisoned and resistance to poison damage are unconditional; the Venom Bolt and Poisonous Puff tricks stay text.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Miasmic Soul\", transfer: true, changes: [{ key: \"system.traits.ci.value\", mode: 2, value: \"poisoned\" }, { key: \"system.traits.dr.value\", mode: 2, value: \"poison\" }] }] }",
+  "risk": "low"
+ },
+ {
+  "id": "feats/f9c748ae380b6b6c",
+  "name": "Mounted Combatant",
+  "pack": "feats",
+  "verdict": "MANUAL",
+  "reason": "Benefits depend on being mounted, mount size and redirecting attacks.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/1f0888dcedcc3fb7",
+  "name": "Mutant Method",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Two Test Subject attacks and BPS resistance apply to a companion actor, not the feature owner.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/5f4b5c190cb6bfd6",
+  "name": "Opportunist",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Optional initiative swap with another creature, with a contested Deception/Insight check for unwilling ones.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/389b8318ae93050a",
+  "name": "Ordnance Requiem",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Optional once-per-round extra damage on a weapon hit costing one Bardic Inspiration, scaling 2d6/3d6/5d6/8d6 at levels 3/5/10/15.",
+  "proposal": "Nearest: damage activity consuming one Bardic Inspiration use with a scale-value formula; damage type follows the wielded weapon so it stays a manual choice.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/cc205421270a27ee",
+  "name": "Pack Mule",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Doubled carrying capacity and advantage on Con saves are unconditional; push/lift/break advantage and rage-only prone immunity stay text.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Pack Mule\", transfer: true, changes: [{ key: \"system.attributes.encumbrance.multipliers.overall\", mode: 1, value: \"2\" }, { key: \"flags.midi-qol.advantage.ability.save.con\", mode: 5, value: \"1\" }] }] }",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/b794a9cd0336f6fe",
+  "name": "Peerless Understanding",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Target's next-save disadvantage is tied to Cutting Words use and persists until reapplied.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "feats/aef39db90ec0c796",
+  "name": "Perceptive",
+  "pack": "feats",
+  "verdict": "SIMPLE",
+  "reason": "Existing effect gives +30 ft darkvision; Perception proficiency/expertise is unconditional and can be appended.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Perceptive\", transfer: true, changes: [{ key: \"system.skills.prc.value\", mode: 2, value: \"1\" }] }] } // append to existing effect",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/d6033131e71cd891",
+  "name": "Perfected Mixture",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Ooze duration, dual damage-type choice and BPS resistance modify a summon created by another feature.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/1dea35e43740d09b",
+  "name": "Perfected Subject",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Removes command cost and raises Test Subject HP by owner level; companion-side changes.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/62f7fba37427c801",
+  "name": "Physician's Mercy",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Con save proficiency and necrotic resistance are unconditional; the Hand of Healing/Harm riders stay text.",
+  "proposal": "{ activities: [], extraEffects: [{ name: \"Physician's Mercy\", transfer: true, changes: [{ key: \"system.abilities.con.proficient\", mode: 4, value: \"1\" }, { key: \"system.traits.dr.value\", mode: 2, value: \"necrotic\" }] }] }",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/263fea74a6d6936a",
+  "name": "Pokerface",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Advantage on Deception/Sleight of Hand only if you move no more than half your speed that turn.",
+  "proposal": "MANUAL (note).",
+  "risk": "low"
+ },
+ {
+  "id": "racial-features/3a8c3178dd1e6e54",
+  "name": "Powerful Build",
+  "pack": "racial-features",
+  "verdict": "FALSE_ALERT",
+  "reason": "Already has an effect with flags.dnd5e.powerfulBuild (batch 2 spec); dnd5e handles the size-larger carry rule natively.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "racial-features/62fb2ada42836bb1",
+  "name": "Powerful Build",
+  "pack": "racial-features",
+  "verdict": "FALSE_ALERT",
+  "reason": "Already has an effect with flags.dnd5e.powerfulBuild (batch 2 spec); dnd5e handles the size-larger carry rule natively.",
+  "proposal": null,
+  "risk": "low"
+ }
+]

@@ -22,6 +22,16 @@ const run = async () => {
   const cl = a.system.attributes.movement.climb; ok("Brawny: climb is not zero", cl > 0, `${cl}`);
   await add("Enhanced Circuitry"); ok("Enhanced Circuitry: lightning resistance", a.system.traits.dr.value.has("lightning"));
   await game.op5eApi.addItem({ actor: a.name, name: "Powerful Build" }); ok("Powerful Build: dnd5e flag set", !!a.getFlag("dnd5e", "powerfulBuild"));
+  // batch 3: resistances, immunities, initiative, speed and save effects found by the per-feature review
+  const give = (n) => game.op5eApi.addItem({ actor: a.name, name: n });
+  for (const [feat, type] of [["Corrosive Soul", "acid"], ["Echoing Soul", "thunder"], ["Fiery Soul", "fire"], ["Frozen Soul", "cold"], ["Psychic Soul", "psychic"], ["Shining Soul", "radiant"], ["Sparking Soul", "lightning"], ["Expanding Epiphany", "psychic"], ["Undead Resolve", "necrotic"]]) {
+    await give(feat); ok(`${feat}: resistance to ${type}`, a.system.traits.dr.value.has(type));
+  }
+  await give("Purity of the Body"); ok("Purity of the Body: poison immunity and poisoned/diseased condition immunity", a.system.traits.di.value.has("poison") && a.system.traits.ci.value.has("poisoned"));
+  await give("Crazed Bravado"); ok("Crazed Bravado: fire and thunder resistance, deafened immunity", a.system.traits.dr.value.has("fire") && a.system.traits.ci.value.has("deafened"));
+  const w0 = a.system.attributes.movement.walk; await give("Shandian Mobility"); ok("Shandian Mobility: +5 walk", a.system.attributes.movement.walk === w0 + 5, `${w0} -> ${a.system.attributes.movement.walk}`);
+  const i0 = a.system.attributes.init.total; await give("Advanced Combat Tactics"); ok("Advanced Combat Tactics: initiative + max(Wis mod, 1)", a.system.attributes.init.total === i0 + Math.max(a.system.abilities.wis.mod, 1), `${i0} -> ${a.system.attributes.init.total}`);
+  await give("Pure Soul"); ok("Pure Soul: advantage on Int, Wis and Cha saves", ["int", "wis", "cha"].every((k) => a.system.abilities[k].save.roll?.mode === 1), "modes " + ["int", "wis", "cha"].map((k) => a.system.abilities[k].save.roll?.mode).join(","));
   await a.delete(); return out;
 };
 await withFoundry(async (page) => { for (const l of await page.evaluate(`(${run.toString()})()`)) { console.log(l); if (l.startsWith("FAIL")) process.exitCode = 1; } });

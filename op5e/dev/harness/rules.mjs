@@ -15,6 +15,7 @@ const run = async () => {
     const name = `[RULES] ${fruit}`;
     let c = await game.op5eApi.createCharacter({ name, species: "Human", background: "Boxer", cls: "Brawler", level: 1, fruit });
     const a = game.actors.getName(name); made.push(a);
+    await new Promise((r) => setTimeout(r, 2000));   // the template's grants arrive a moment after the build returns
     ok(`${fruit}: choosing the fruit template grants Devil Fruit Uses`, !!a.items.find((i) => i.name === "Devil Fruit Uses"));
     const got = [];
     for (const [lvl] of TABLE) {

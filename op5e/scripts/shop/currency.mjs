@@ -7,7 +7,7 @@ const mode = () => Object.keys(CONFIG.DND5E.currencies).length < 2 ? "single" : 
 export const coinValues = (c) => { const most = Math.max(...Object.values(c).map((x) => x.conversion)); return Object.fromEntries(Object.entries(c).map(([k, v]) => [k, Math.round(most / v.conversion)])); };
 const unitsPerCoin = () => coinValues(CONFIG.DND5E.currencies);
 /** price of a shop entry (in gp, or the single coin) with the shop's markup percent applied */
-export const price = (entry, shop) => (entry.price ?? 0) * (1 + (shop.markup ?? 0) / 100);
+export const price = (entry, shop) => Math.round((entry.price ?? 0) * (100 + (shop.markup ?? 0))) / 100;   // integer maths first: 800000 * 1.1 must not become 880000.0000000001
 const totalSmall = (actor) => { const u = unitsPerCoin(), c = actor.system.currency; return Object.entries(u).reduce((n, [k, v]) => n + (c[k] ?? 0) * v, 0); };
 export const wealthIn = (actor) => mode() === "single" ? (actor.system.currency[single()] ?? 0) : totalSmall(actor) / unitsPerCoin().gp;
 export const canAfford = (actor, amount) => wealthIn(actor) + 1e-9 >= amount;

@@ -1,4 +1,5 @@
 import { MODULE_ID } from "../constants.mjs";
+import { price } from "./currency.mjs";
 // Minimal shop window: lists the shop's items with Buy buttons; the GM can drop items from any compendium or sidebar onto it.
 const ID = MODULE_ID;
 export class ShopApp extends foundry.applications.api.HandlebarsApplicationMixin(foundry.applications.api.ApplicationV2) {
@@ -10,7 +11,7 @@ export class ShopApp extends foundry.applications.api.HandlebarsApplicationMixin
     const s = this.shop;
     return { shop: s, actor: this.actor?.name, wealth: this.actor ? game.shopTrade.wealth(this.actor) : null,
       mine: (this.actor?.items.filter((i) => i.system.price?.value > 0) ?? []).map((i) => ({ id: i.id, name: i.name, qty: i.system.quantity ?? 1, offer: Math.floor(i.system.price.value * game.settings.get(ID, "sellRatio") / 100) })),
-      items: s.items.map((i) => ({ ...i, shown: Math.ceil((i.price ?? 0) * (1 + (s.markup ?? 0) / 100)), unlimited: i.stock === null })) };
+      items: s.items.map((i) => ({ ...i, shown: Math.ceil(price(i, s)), unlimited: i.stock === null })) };
   }
   _onRender() {
     if (!game.user.isGM) return;

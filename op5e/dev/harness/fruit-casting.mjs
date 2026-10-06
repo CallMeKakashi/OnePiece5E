@@ -7,6 +7,7 @@ const run = async () => {
   const mkChar = async (name, fruit) => {
     await game.op5eApi.createCharacter({ name, species: "Human", background: "Boxer", cls: "Brawler", level: 5, fruit });
     const a = game.actors.getName(name); made.push(a);
+    await new Promise((r) => setTimeout(r, 2000));   // the template's grants arrive a moment after the build returns
     return a;   // the fruit template choice grants Devil Fruit Uses (and the Zoan forms) by itself
   };
   const spellUuid = async (name) => { const e = (await game.packs.get("dnd5e.spells").getIndex()).find((x) => x.name === name); return e?.uuid; };

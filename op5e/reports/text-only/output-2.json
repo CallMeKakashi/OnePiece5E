@@ -1,0 +1,344 @@
+[
+ {
+  "id": "class-features/91e3e40bae75dcf7",
+  "name": "Destroy Defense",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "+2 to melee attacks applies only against targets wearing armor or using a shield, a target-dependent condition dnd5e cannot test.",
+  "proposal": "Note-only utility activity, or MANUAL (an unconditional system.bonuses.mwak.attack +2 would be wrong).",
+  "risk": "low"
+ },
+ {
+  "id": "feats/a0c1e5bcfb328890",
+  "name": "Drunkard",
+  "pack": "feats",
+  "verdict": "ACTIVITY",
+  "reason": "Con +1 and poison resistance are static; the 2d6 + level heal on drinking has 2 uses per long rest.",
+  "proposal": "{ activities:[heal 2d6+@details.level 'Drink'], uses:{max:'2',recovery:[{period:'lr',type:'recoverAll'}]}, extraEffects:[eff('Drunkard',{key:'system.traits.dr.value',mode:2,value:'poison'},{key:'system.abilities.con.value',mode:2,value:'1'})] }  // poison-save advantage and the 20 cap stay text unless Midi",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/68b94447f872188e",
+  "name": "Enhanced Technique",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Six technique upgrades, two of which are player-chosen, with situational riders (disadvantage on opportunity attacks, 19-20 crit for unarmed only).",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/4edaf377bd4a7f07",
+  "name": "Expanding Epiphany",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Resistance to psychic damage is unconditional; the 30 ft radius change and rage-only charm/fright advantage for allies are riders left as text.",
+  "proposal": "eff('Expanding Epiphany',{key:'system.traits.dr.value',mode:2,value:'psychic'})",
+  "risk": "low"
+ },
+ {
+  "id": "feats/1f4ac626338cf43a",
+  "name": "Fleet-Footed",
+  "pack": "feats",
+  "verdict": "FALSE_ALERT",
+  "reason": "Already has an effect, and the shipped Fleet-Footed spec covers the +5 ft speed and +prof initiative; the Dex +1 and hop are choice/narrative.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/191303a0b7a9e007",
+  "name": "Greater Enhancements",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Greater Enhancements is keyed to which Experimental Medicine formula is active (Hulking, Nimble, Resilient), so effects depend on a runtime choice.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/80d11e0be88bf81c",
+  "name": "In and Out",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "+15 ft walk, no opportunity attacks and +2 to all saves apply only below half max HP, which a static effect cannot toggle.",
+  "proposal": "DAE/Midi condition on hp.pct < 50 for system.attributes.movement.walk +15 and system.bonuses.abilities.save +2; otherwise MANUAL.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/a1f8e5338ed5694d",
+  "name": "Inciting Inspiration",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Adds a second Bardic Inspiration recipient and +1 to Bard Creation attack/DC, both tied to other custom features rather than simple keys.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "feats/48d65a79abcb1c7b",
+  "name": "Intuitive Primate",
+  "pack": "feats",
+  "verdict": "FALSE_ALERT",
+  "reason": "Already has an effect (climb = walk in batch2); proficiency, tool choice and size-for-carrying are choices/narrative.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/644170cd8589b680",
+  "name": "Inventive Mind",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "+1 to Gadgeteer creation attacks/DCs and extra Flash of Genius uses equal to proficiency bonus depend on custom creation items.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/919ba88ea37a00cb",
+  "name": "Legendary Flourish",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Three Bardic Inspiration reaction/attack riders (damage reduction, +20 ft movement and damage, attack bonus) plus temp HP on use; reaction-driven.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/9b3b1c78cf42afbf",
+  "name": "Medical Dissertation",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Extra healing equal to proficiency bonus on any HP restoration needs a hook into every heal roll; the +1 creation attack/DC is custom.",
+  "proposal": "Add '+@prof' to heal activities of Medic creations only; otherwise note-only.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/7888ca1791a2f3e8",
+  "name": "Mountain Stance",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Movement-conditioned stance with a spirit point reaction reducing damage by 1d10 + Str mod, plus size-for-grapple and advantage on grapple/shove checks.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/d6d4ba159f396361",
+  "name": "Off the Ropes",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Climb speed equal to walk is unconditional, but the +1d6 per 10 ft height (max 10d6) and fall-damage negation depend on Savage Slam and situation.",
+  "proposal": "eff('Off the Ropes',{key:'system.attributes.movement.climb',mode:4,value:'@attributes.movement.walk'})  // rest stays text",
+  "risk": "low"
+ },
+ {
+  "id": "feats/91a0be6e1d93fd30",
+  "name": "Ominous Toxin",
+  "pack": "feats",
+  "verdict": "ACTIVITY",
+  "reason": "Con +1, advantage and poison resistance are static; the once-per-turn weapon poison is a Con save, DC 8+prof+Con mod, 2d4 poison, half on success.",
+  "proposal": "{ activities:[{type:'save',ability:'con',dc:'8+@prof+@abilities.con.mod',damage:'2d4 poison',onSave:'half'}], extraEffects:[eff('Ominous Toxin',{key:'system.traits.dr.value',mode:2,value:'poison'})] }  // skin-contact poisoned rider stays text",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/8c16cbb091da64a9",
+  "name": "Rakish Audacity",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Initiative bonus equal to Cha mod is optional ('you can give yourself') and the Sneak Attack condition (alone within 5 ft) is situational.",
+  "proposal": "MANUAL or note-only; ambiguous whether the init bonus should be always-on.",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/24d3b70b6cbddb1d",
+  "name": "Reckless Brilliance",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Mad Genius and Bound Hulk apply only while not raging / raging, and the resistance is chosen when entering rage.",
+  "proposal": "Rage-state toggles need DAE/Midi conditions; MANUAL.",
+  "risk": "medium"
+ },
+ {
+  "id": "feats/dac396f4dc8dfa3c",
+  "name": "Shandian Mobility",
+  "pack": "feats",
+  "verdict": "SIMPLE",
+  "reason": "Movement speed +5 ft is unconditional; the jump doubling is narrative, the ASI and skill proficiency are choices, grapple-escape advantage is conditional.",
+  "proposal": "eff('Shandian Mobility',{key:'system.attributes.movement.walk',mode:2,value:'5'})",
+  "risk": "low"
+ },
+ {
+  "id": "feats/5238c5b11d777c5d",
+  "name": "Strong Arms",
+  "pack": "feats",
+  "verdict": "CONDITIONAL",
+  "reason": "Extra 2d6 only on a hit in the first turn of combat, once per combat; situational and cannot be tracked natively.",
+  "proposal": "Note-only activity; for size-for-carrying add {key:'flags.dnd5e.powerfulBuild',mode:5,value:'1'}.",
+  "risk": "low"
+ },
+ {
+  "id": "feats/cf8559fc05b2db3c",
+  "name": "Undead Resolve",
+  "pack": "feats",
+  "verdict": "SIMPLE",
+  "reason": "Necrotic resistance is unconditional; temp HP on necrotic damage and the Con save to drop to 1 HP are reactive riders left as text.",
+  "proposal": "eff('Undead Resolve',{key:'system.traits.dr.value',mode:2,value:'necrotic'})",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/10fc12c0ea9c479b",
+  "name": "Unrelenting Fortress",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Temp HP equal to double proficiency bonus at the start of each turn applies only while raging in Forgemaster's Armor, and the resistance is a chosen type.",
+  "proposal": "MANUAL (turn-start temp HP needs Midi/DAE and the chosen damage type).",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/3ebabb751e7b6f7e",
+  "name": "Achilles Heel",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Spend 3 spirit points on an unarmed hit to impose a chosen-type vulnerability or suppress resistance for 1 minute, with a 24-hour lockout; choice-driven.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/c1aa1b5bf6ab3722",
+  "name": "Advanced Combat Tactics",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Initiative bonus equal to Wisdom modifier (minimum +1) is unconditional; the in-combat check bonus and superiority die floor of 3 are riders.",
+  "proposal": "eff('Advanced Combat Tactics',{key:'system.attributes.init.bonus',mode:2,value:'+max(@abilities.wis.mod, 1)'})",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/598b0f0a21a7cf2c",
+  "name": "Afterimage",
+  "pack": "class-features",
+  "verdict": "ACTIVITY",
+  "reason": "Bonus action creates an Afterimage within 30 ft (same AC, 1 HP, immune to conditions) with teleport swap and attack-origin options.",
+  "proposal": "{ activities:[{type:'summon',activation:'bonus',range:30,profiles:[Afterimage 1 HP]}] }  // swap, attack origin and reaction opportunity attack stay manual; input text was truncated at 1300 chars, so later details are unverified",
+  "risk": "high"
+ },
+ {
+  "id": "class-features/3769ae55052ce072",
+  "name": "Animal Spirit",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Speaking with beasts/monstrosities is narrative and the Intimidation advantage is target-type conditional.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "racial-features/e015e1b8e7c01706",
+  "name": "Aquatic Adaptation",
+  "pack": "racial-features",
+  "verdict": "MANUAL",
+  "reason": "Breathing air and water is narrative/trait-level, and Athletics advantage applies only while in water.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "class-features/1fd7b63895d3ce68",
+  "name": "Armed and Dangerous",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Medium armor and martial weapon proficiencies are static, but the Sneak Attack alternatives (grappled/deafened target, Str melee) and Cunning Action grapple are situational.",
+  "proposal": "Effect: {key:'system.traits.armorProf.value',mode:2,value:'med'},{key:'system.traits.weaponProf.value',mode:2,value:'mar'}; rest text.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/6f0efc6f137bd53b",
+  "name": "Aura of Freedom",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Aura gives allies within 10 ft (30 ft at 18th) advantage on saves vs paralyzed/restrained and ignoring difficult terrain, which native dnd5e cannot apply to other actors.",
+  "proposal": "Active Auras if installed; else MANUAL.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/43e2496aa5cc4f6c",
+  "name": "Aura of Spite",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Aura gives advantage on opportunity attacks and ignores Disengage; a reaction-rule override dnd5e cannot express.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/5bcf64498bdcdb27",
+  "name": "Aura of Tenacity",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Aura imposes disadvantage on enemy attacks against creatures other than you; needs target-relative checks no static effect provides.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/1b30625ad92dbce5",
+  "name": "Aura of Warding",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Aura gives resistance to the damage of creations within 10 ft (30 ft at 18th); creation damage is not a dnd5e damage trait.",
+  "proposal": "MANUAL, or Active Auras with a custom flag.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/ca8b6032ff654ab6",
+  "name": "Boomstick",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Proficiencies plus swivel gun property rewrites, Reckless Attack and Rage damage with ranged swivel gun attacks; weapon-level changes.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/2c685ef6dd633062",
+  "name": "Brawling",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Brawling changes weapon ability, die, damage type choice and bonus-action strike, all conditional on being unarmed/unarmored.",
+  "proposal": null,
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/57574e5dc5182fdd",
+  "name": "Bullet Time",
+  "pack": "class-features",
+  "verdict": "ACTIVITY",
+  "reason": "Bonus action Bullet Time for 1 minute, uses equal to proficiency bonus, long-rest recovery, plus unconditional +prof initiative.",
+  "proposal": "{ activities:[{type:'utility',activation:'bonus',duration:{value:'1',units:'minute'}}], uses:{max:'@prof',recovery:[{period:'lr',type:'recoverAll'}]}, extraEffects:[eff('Bullet Time Init',{key:'system.attributes.init.bonus',mode:2,value:'+@prof'})] }  // reaction attack and save-half-on-fail are text",
+  "risk": "medium"
+ },
+ {
+  "id": "feats/f4442a208c072800",
+  "name": "Burglar",
+  "pack": "feats",
+  "verdict": "MANUAL",
+  "reason": "Dex +1, thieves' tools proficiency/expertise, lock DC boost and situational advantage on detecting secret doors and traps.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "feats/00bbbfcdd2933a46",
+  "name": "Caring",
+  "pack": "feats",
+  "verdict": "ACTIVITY",
+  "reason": "Three d6 care dice recovered on short or long rest, spent to add to healing, grant temp HP equal to level, or add to Persuasion.",
+  "proposal": "{ activities:[utility 'Care Die' consuming 1 use], uses:{max:'3',recovery:[{period:'sr',type:'recoverAll'},{period:'lr',type:'recoverAll'}]} }  // regain on ally crit is manual",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/fbc38579154ed9bf",
+  "name": "Carving Inspiration",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Advantage on melee weapon attacks until end of turn, triggered by giving Bardic Inspiration as a bonus action.",
+  "proposal": "Utility activity with self effect (1 round) flags.midi-qol.advantage.attack.mwak=1 if Midi; else MANUAL.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/fd4062b1dd6625f7",
+  "name": "Color of Observation Master",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Unsurprisable and waking are narrative, while the 2 Observation Point buff at turn start needs an activity consuming a custom resource.",
+  "proposal": "Utility activity with self effect (adv on attacks/checks/saves, enemies disadvantage vs you) consuming 2 Observation Points; surprise part MANUAL.",
+  "risk": "medium"
+ }
+]

@@ -1,0 +1,344 @@
+[
+ {
+  "id": "class-features/d34ddf3343957cc9",
+  "name": "Colossal Channeler",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Rage-gated reach +10 ft, optional Large/Huge size, 2d4 thunder on melee/thrown attacks and a 5 ft (15 ft on crit) damage spread with DC 8+Str+prof cannot be one passive effect.",
+  "proposal": "Note-only utility activity describing the rage benefits; optionally rage-gated bonus '+2d4[thunder]' on system.bonuses.mwak.damage/rwak.damage. Spread stays manual.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/691d3f9d84866b56",
+  "name": "Conqueror's Haki Journeyman",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Doubles Overwhelming Presence range, adds 3/long-rest Domination on humanoids, +prof to the Crushing Will check and upgrades Subjugate Foe (120 ft, 2d6 force) by modifying other abilities.",
+  "proposal": "Optionally a utility activity 'Domination (humanoid)' with uses max 3 recover lr; upgrades to other features belong in those features' specs.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/a00776d5e41c1654",
+  "name": "Constant Shots",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Regains two uses of Advanced Arsenal when initiative is rolled with no uses left; needs an initiative trigger and a link to another feature's uses.",
+  "proposal": "MANUAL, or Midi/macro hook on initiative that adds 2 uses to Advanced Arsenal if value is 0.",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/5c86f3554e4a2dd6",
+  "name": "Corrosive Soul",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Unconditional resistance to acid damage (the two tricks are spell grants).",
+  "proposal": "changes: [{key:'system.traits.dr.value',mode:2,value:'acid'}]",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/d01ce757d5edaa5f",
+  "name": "Crazed Bravado",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Unconditional fire and thunder resistance and deafened immunity; the rage-only reload interaction is narrative.",
+  "proposal": "changes: [{key:'system.traits.dr.value',mode:2,value:'fire'},{key:'system.traits.dr.value',mode:2,value:'thunder'},{key:'system.traits.ci.value',mode:2,value:'deafened'}]",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/f28c6fcef74978e4",
+  "name": "Creative Ambush",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Disadvantage on the target's saves against your creation this turn only if you were hidden; depends on stealth state and the creation used.",
+  "proposal": "MANUAL, or note-only utility activity as a reminder.",
+  "risk": "low"
+ },
+ {
+  "id": "feats/74afcd9a5f789a51",
+  "name": "Crusher",
+  "pack": "feats",
+  "verdict": "CONDITIONAL",
+  "reason": "+1 Str or Con is a choice; the once-per-turn 5 ft push on a bludgeoning hit and crit-triggered advantage until start of next turn are hit riders.",
+  "proposal": "MANUAL (ASI via advancement); optional note-only activity for the push and crit rider.",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/f775c23a51411d96",
+  "name": "Cut Time",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Walk speed +10 ft is unconditional, but attacking twice on the Attack action (and when readying) is not a plain effect.",
+  "proposal": "Partial: changes [{key:'system.attributes.movement.walk',mode:2,value:'10'}]; extra attack stays text.",
+  "risk": "medium"
+ },
+ {
+  "id": "feats/a5b72100b5f14f5e",
+  "name": "Dark Wing Hunter",
+  "pack": "feats",
+  "verdict": "CONDITIONAL",
+  "reason": "Blindsight 10 ft (lost if deafened) and fly speed equal to walk speed (lost in heavy armor) have conditions; the ASI is a choice. Batch 2 already left it as text.",
+  "proposal": "Optional: changes [{key:'system.attributes.senses.blindsight',mode:4,value:'10'},{key:'system.attributes.movement.fly',mode:4,value:'@attributes.movement.walk'}] with a note on deafened/heavy armor; MANUAL is safer.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/7a1be48d1aff50f8",
+  "name": "Dragon Claw",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Unarmed die up one size matches the existing flags.op5e.unarmedDieStep mechanism, but double damage to objects and structures is GM-adjudicated.",
+  "proposal": "effects: [{name:'Dragon Claw',transfer:true,changes:[{key:'flags.op5e.unarmedDieStep',mode:2,value:'1'}]}]; object damage stays text.",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/83e489022e7e0263",
+  "name": "Dragon Talons",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Changes Dragon Grip's extra damage to 1d6 and upcasts Thunderwave in Dragon's Breath to 2nd level; both modify other features.",
+  "proposal": "Edit the Dragon Grip and Dragon's Breath specs (level scaling) instead of this feat.",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/4f429683e2a2eda7",
+  "name": "Drunken Arts",
+  "pack": "class-features",
+  "verdict": "ACTIVITY",
+  "reason": "Temp HP equal to Wisdom modifier at the start of each turn (doubled at 6th level) with at least 1 HP needs a usable turn-start heal.",
+  "proposal": "{ activities:[{type:'heal', name:'Drunken Arts Temp HP', activation:'special', healing:{custom:true, formula:'@abilities.wis.mod * (@details.level >= 6 ? 2 : 1)', types:['temp']}}] }",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/ef77daff07b7022e",
+  "name": "Eagle Eyes",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Mile-long vision, never disadvantage on ranged attacks, advantage on Perception while not incapacitated, and doubled ranged weapon range mix narrative and rider mechanics.",
+  "proposal": "Partial Midi-only: flags.midi-qol.advantage.skill.prc with incapacitated condition; range doubling via item edits; otherwise MANUAL.",
+  "risk": "high"
+ },
+ {
+  "id": "class-features/decc3d5537dab25a",
+  "name": "Echoing Soul",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Unconditional resistance to thunder damage (tricks are spell grants).",
+  "proposal": "changes: [{key:'system.traits.dr.value',mode:2,value:'thunder'}]",
+  "risk": "low"
+ },
+ {
+  "id": "feats/4b6ae9dea3c89332",
+  "name": "Elemental Adept",
+  "pack": "feats",
+  "verdict": "MANUAL",
+  "reason": "Chosen damage type and ASI are player choices; ignoring resistance and treating 1s as 2s depend on that choice.",
+  "proposal": "Leave as text; no dnd5e key for per-type resistance ignore.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/59d538f62867cced",
+  "name": "Endless Vigor",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Adds Con mod to Second Wind healing (another item) and raises HP max by 'twice your level, and by 2 every level thereafter', which is ambiguous.",
+  "proposal": "Ambiguous; if read as +2*level: changes [{key:'system.attributes.hp.bonuses.overall',mode:2,value:'+2*@details.level'}]; Second Wind rider stays text. Recommend MANUAL pending DM wording.",
+  "risk": "medium"
+ },
+ {
+  "id": "feats/3c0cd6ff5d60cb51",
+  "name": "Enhanced Circuitry",
+  "pack": "feats",
+  "verdict": "FALSE_ALERT",
+  "reason": "Lightning resistance is already shipped by the batch 2 effect; the Countershock grant is a creation, not something this item must express.",
+  "proposal": null,
+  "risk": "low"
+ },
+ {
+  "id": "feats/6e97b511a22103b1",
+  "name": "Enhanced Evolution",
+  "pack": "feats",
+  "verdict": "CONDITIONAL",
+  "reason": "Resistance depends on the damage type chosen for Spark of War; Absorption gets uses equal to proficiency bonus per long rest.",
+  "proposal": "Optional utility activity 'Absorption' with uses {max:'@prof', recovery:[{period:'lr',type:'recoverAll'}]}; resistance stays manual.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/efc61fbb10d00218",
+  "name": "Enhanced Forms",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "d10 damage die, disadvantage on opportunity attacks against you, and bludgeoning/piercing/slashing resistance all depend on the Experimental Medicine form chosen.",
+  "proposal": "MANUAL; if the form is fixed, add dr.value mode 2 for bludgeoning, piercing, slashing.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/220538d97748d2af",
+  "name": "Enhanced Formula",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "Modifies the summoned Experimental Ooze (Large, 4d4+prof / 2d8+prof, per-ooze-type riders incl. Con save and 2d4 fire ignite) depending on the chosen ooze type.",
+  "proposal": "Handle in the Experimental Ooze summon spec as a level-gated variant; leave this feat as text.",
+  "risk": "medium"
+ },
+ {
+  "id": "feats/d66aaaebc674579a",
+  "name": "Eyes Open",
+  "pack": "feats",
+  "verdict": "SIMPLE",
+  "reason": "Initiative and Passive Perception bonuses equal to proficiency bonus plus Expertise in Deception and Insight are unconditional; the ASI is a choice.",
+  "proposal": "changes: [{key:'system.attributes.init.bonus',mode:2,value:'+@prof'},{key:'system.skills.prc.bonuses.passive',mode:2,value:'+@prof'},{key:'system.skills.dec.value',mode:4,value:'2'},{key:'system.skills.ins.value',mode:4,value:'2'}] (expertise only if already proficient is not guaranteed; verify)",
+  "risk": "medium"
+ },
+ {
+  "id": "racial-features/411dfba6d862370a",
+  "name": "Fear Factor",
+  "pack": "racial-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Advantage on Intimidation only against creatures at least one size smaller; depends on target size.",
+  "proposal": "MANUAL; leave as text.",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/9ab90df2029dea1c",
+  "name": "Fearsome Fortitude",
+  "pack": "class-features",
+  "verdict": "MANUAL",
+  "reason": "One chosen saving throw proficiency, plus HP max increase of one hit die roll + Con mod and an extra hit die are choice/roll driven.",
+  "proposal": "Leave as text; one-time manual adjustment.",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/0feb53675c1bbedc",
+  "name": "Ferocious Charger",
+  "pack": "class-features",
+  "verdict": "ACTIVITY",
+  "reason": "On a hit after moving 10 ft straight, target makes a Strength save (DC 8 + prof + Str mod) or is knocked prone, once per turn; mounted adds extra damage equal to level.",
+  "proposal": "{ activities:[{type:'save', name:'Ferocious Charge', activation:'special', save:{ability:['str'], dc:{calculation:'', formula:'8 + @prof + @abilities.str.mod'}}, effects:[{status:'prone',onSave:false}]}] }; once-per-turn and mounted bonus stay text",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/d46a49d2964ab41c",
+  "name": "Fiery Soul",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Unconditional fire damage resistance (temperature tolerance is narrative; tricks are spell grants).",
+  "proposal": "changes: [{key:'system.traits.dr.value',mode:2,value:'fire'}]",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/35da5086b9906249",
+  "name": "Fighting Style: Thrown Weapon Fighting",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "+2 damage only on ranged hits with a thrown weapon; a plain rwak bonus would also hit non-thrown ranged weapons, and drawing as part of the attack is narrative.",
+  "proposal": "MANUAL, or Midi-only rwak damage +2 gated on the thrown property. Do not apply an unconditional bonus. Same text on 4 duplicate docs.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/82866af7aba7e473",
+  "name": "Fighting Style: Thrown Weapon Fighting",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "+2 damage only on ranged hits with a thrown weapon; a plain rwak bonus would also hit non-thrown ranged weapons, and drawing as part of the attack is narrative.",
+  "proposal": "MANUAL, or Midi-only rwak damage +2 gated on the thrown property. Do not apply an unconditional bonus. Same text on 4 duplicate docs.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/afe7ed41bd8997f6",
+  "name": "Fighting Style: Thrown Weapon Fighting",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "+2 damage only on ranged hits with a thrown weapon; a plain rwak bonus would also hit non-thrown ranged weapons, and drawing as part of the attack is narrative.",
+  "proposal": "MANUAL, or Midi-only rwak damage +2 gated on the thrown property. Do not apply an unconditional bonus. Same text on 4 duplicate docs.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/fdaea449c4e40389",
+  "name": "Fighting Style: Thrown Weapon Fighting",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "+2 damage only on ranged hits with a thrown weapon; a plain rwak bonus would also hit non-thrown ranged weapons, and drawing as part of the attack is narrative.",
+  "proposal": "MANUAL, or Midi-only rwak damage +2 gated on the thrown property. Do not apply an unconditional bonus. Same text on 4 duplicate docs.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/5d5592c5e36e48a1",
+  "name": "Fists of Fury",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Unarmed die d6 (d8 with no weapon or shield) is a die choice, and the rage-gated disadvantage on the target's attacks against others lasts until your next turn.",
+  "proposal": "Partial: flags.op5e.unarmedDieStep if consistent with unarmed.ts; rider stays text/note-only activity.",
+  "risk": "medium"
+ },
+ {
+  "id": "class-features/2ed6ff11b6cdd9dc",
+  "name": "Fortified Position",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "+2 AC and Dex saves for you and allies within 10 ft of the cannon is an aura tied to the cannon token; two cannons is table-dependent.",
+  "proposal": "MANUAL, or an aura effect on the cannon actor with system.attributes.ac.bonus +2 and system.abilities.dex.bonuses.save +2.",
+  "risk": "medium"
+ },
+ {
+  "id": "feats/e99406ae0cd57aaa",
+  "name": "Free Diver",
+  "pack": "feats",
+  "verdict": "CONDITIONAL",
+  "reason": "Swim speed equal to walk speed or +10 ft if you already have a swim speed branches on existing speed; breath hold is narrative; Con +1 is fixed ASI.",
+  "proposal": "Optional mode 4 swim = walk like Buck-Toothed, but the +10 branch is inexpressible; batch 2 left it as text.",
+  "risk": "low"
+ },
+ {
+  "id": "racial-features/c7be593652ff75e5",
+  "name": "Friend of the Sea",
+  "pack": "racial-features",
+  "verdict": "MANUAL",
+  "reason": "Speaking with swimming creatures is narrative and the Animal Handling advantage applies only to marine creatures.",
+  "proposal": "Leave as text.",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/a018ecfbcba3d858",
+  "name": "Frozen Soul",
+  "pack": "class-features",
+  "verdict": "SIMPLE",
+  "reason": "Unconditional cold damage resistance (temperature tolerance is narrative; tricks are spell grants).",
+  "proposal": "changes: [{key:'system.traits.dr.value',mode:2,value:'cold'}]",
+  "risk": "low"
+ },
+ {
+  "id": "class-features/d9b414f820820316",
+  "name": "Gigantic Might",
+  "pack": "class-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Rage-gated +5 ft reach, size to Large, +1d4 thunder on melee/thrown attacks and a crit shockwave dealing thunder damage equal to level within 5 ft.",
+  "proposal": "Optional rage-gated effect on the Rage activity: size 'lg' plus mwak/rwak damage '+1d4[thunder]'; shockwave stays text/note.",
+  "risk": "high"
+ },
+ {
+  "id": "feats/b5e3d3a04716fbdf",
+  "name": "Grappler",
+  "pack": "feats",
+  "verdict": "CONDITIONAL",
+  "reason": "Advantage on attacks against a creature you are grappling and bonus-action grapple depend on grapple state; Str +1 is an ASI.",
+  "proposal": "MANUAL, or a utility activity with bonus activation for the grapple; Midi advantage flag keyed to grappled target.",
+  "risk": "medium"
+ },
+ {
+  "id": "racial-features/49afab68fb7edde2",
+  "name": "Gullible",
+  "pack": "racial-features",
+  "verdict": "CONDITIONAL",
+  "reason": "Disadvantage on Insight only when detecting lies; a flat disadvantage on all Insight would overreach.",
+  "proposal": "MANUAL.",
+  "risk": "low"
+ },
+ {
+  "id": "feats/fff2df3b351fdd22",
+  "name": "Gunner",
+  "pack": "feats",
+  "verdict": "CONDITIONAL",
+  "reason": "Firearms proficiency, ignoring reload/loading and no disadvantage for adjacent hostiles on ranged attacks are weapon-specific riders; Dex +1 is an ASI.",
+  "proposal": "Optional weapon proficiency via system.traits.weaponProf.value mode 2 'fir' if the key exists; riders stay text.",
+  "risk": "medium"
+ }
+]
