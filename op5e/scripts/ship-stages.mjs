@@ -17,6 +17,7 @@ export const STAGES = [
   ["batch 4 features", "node dev/harness/text-batch4.mjs", "The 17 text-only features approved as usable: cocktails, drunkard, afterimage, passives"],
   ["batch 5 features", "node dev/harness/text-batch5.mjs", "Conditional features as toggles and buttons: toggles start off and change the right number"],
   ["batch 6 features", "node dev/harness/text-batch6.mjs", "Second group of conditional features: toggles, buttons, Ordnance Requiem dice, die steps"],
+  ["batch 7 features", "node dev/harness/text-batch7.mjs", "Last group: stances, totems, auras, Achilles Heel, Legendary Flourish, Signature Fighting Style"],
   ["animations", "node dev/harness/animations.mjs", "OP5e autorec entries merged into Automated Animations with valid ids; AA loads clean"],
   ["shop and trade", "node dev/harness/shop-trade.mjs", "Standalone shop module: buy, sell, trade, funds, stock, permissions"],
   ["shop approval", "node dev/harness/shop-approval.mjs", "GM and two players: show, presence, cart, approve, decline, cancel, permissions"],
