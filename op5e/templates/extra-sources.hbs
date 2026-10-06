@@ -1,0 +1,9 @@
+<p class="hint">Tick the item compendiums players may also choose from (for example a D&amp;D Beyond import). They are only referenced, never copied or shipped with op5e. Today they add to the free starting feat in Create OPC.</p>
+<div class="form-group stacked">
+  {{#each packs}}
+    <label class="checkbox"><input type="checkbox" name="{{field}}" {{#if checked}}checked{{/if}}> {{label}}</label>
+  {{else}}
+    <p class="notes">No other item compendiums are installed.</p>
+  {{/each}}
+</div>
+<footer class="form-footer"><button type="submit"><i class="fa-solid fa-save"></i> Save</button></footer>

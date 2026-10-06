@@ -7,6 +7,7 @@ import {
 import { isValidPointBuy } from "./pointBuy.mjs";
 import { unmetPrerequisites } from "../prerequisites.mjs";
 import { ensureFruitFeatures } from "../fruit-casting.mjs";
+import { parseSourceId } from "../extra-sources-lib.mjs";
 
 const OP5E = "op5e";
 /** Appendix B, Suggested Rulings, Starting Rules: start at 3rd level (level 1 stays allowed). */
@@ -198,22 +199,24 @@ export async function createFromDraft(draft, opts = {}) {
     // sees it as taken and cannot offer the same feat again. A feat that needs class levels or proficiencies waits until the end.
     const importFreeFeat = async () => {
       if (data.freeFeatId) {
-      const feat = await game.packs.get(PACKS.feats)?.getDocument(data.freeFeatId);
+      const ff = parseSourceId(data.freeFeatId, PACKS.feats);
+      const feat = await game.packs.get(ff.collection)?.getDocument(ff.id);
       const unmet = feat ? unmetPrerequisites(feat, actor) : [];
       const mode = game.settings.get(OP5E, "prerequisiteMode");
       if (!feat || feat.system?.type?.value !== "feat") {
         await actor.delete().catch(() => {});
-        fail(`Free starting feat ${data.freeFeatId} is not a general feat from the op5e feats pack.`);
+        fail(`Free starting feat ${data.freeFeatId} is not a general feat from the op5e feats pack or an extra source.`);
       }
       if (unmet.length && mode === "enforce") {
         await actor.delete().catch(() => {}); // never leave a half-built character behind
         fail(`${data.name} does not meet the requirements for the free starting feat ${feat.name}: ${unmet.join("; ")}. No character was created.`);
       }
       if (unmet.length) notes.push(`${feat.name}: unmet requirements (${unmet.join("; ")}) allowed by the prerequisite setting.`);
-      await importFromPackWithAdvancements(actor, PACKS.feats, data.freeFeatId, run);
+      await importFromPackWithAdvancements(actor, ff.collection, ff.id, run);
     }
     };
-    const freeFeatDoc = data.freeFeatId ? await game.packs.get(PACKS.feats)?.getDocument(data.freeFeatId) : null;
+    const ffEarly = parseSourceId(data.freeFeatId, PACKS.feats);
+    const freeFeatDoc = data.freeFeatId ? await game.packs.get(ffEarly.collection)?.getDocument(ffEarly.id) : null;
     const freeFeatEarly = !!freeFeatDoc && unmetPrerequisites(freeFeatDoc, actor).length === 0;
     if (freeFeatEarly) await importFreeFeat();
 

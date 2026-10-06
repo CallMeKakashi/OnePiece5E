@@ -42,5 +42,8 @@
   "op5e.settings.bigHitThreshold.name": "Big-hit damage threshold",
   "op5e.settings.bigHitThreshold.hint": "Total damage of one roll that counts as a big hit.",
   "op5e.settings.bigHitShake.name": "Screen shake on big hits",
-  "op5e.settings.bigHitShake.hint": "Turn this off if the screen shake bothers you. It only affects your own screen."
+  "op5e.settings.bigHitShake.hint": "Turn this off if the screen shake bothers you. It only affects your own screen.",
+  "op5e.settings.extraSources.name": "Extra compendium sources",
+  "op5e.settings.extraSources.label": "Choose sources",
+  "op5e.settings.extraSources.hint": "Item compendiums (for example a D&D Beyond import) that players may also pick from in Create OPC, next to the op5e content. Only referenced, never copied."
 }

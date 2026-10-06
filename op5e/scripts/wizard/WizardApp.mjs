@@ -1,6 +1,7 @@
 import { advancementList } from "../advancement-list.mjs";
 import { MODULE_ID, getAllDrafts, setAllDrafts } from "../settings.mjs";
 import { isBackgroundEntry } from "./background-role.mjs";
+import { extraEntries } from "../extra-sources.mjs";
 import {
   ABILITY_METHODS,
   PACKS,
@@ -285,6 +286,9 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
         .filter((e) => e.type === "feat" && e.system?.type?.value === "feat")
         .map((e) => ({ ...mapIndexEntry(e), requirements: e.system?.requirements ?? "", selected: e._id === draft.data.freeFeatId }))
         .sort((a, b) => a.name.localeCompare(b.name));
+      // feats from the GM's extra compendium sources (for example a D&D Beyond import), labelled with their source
+      const extra = await extraEntries(["type", "name", "img", "system.type.value", "system.requirements"], (e) => e.type === "feat" && e.system?.type?.value === "feat").catch(() => []);
+      feats.push(...extra.map((e) => ({ ...mapIndexEntry(e), name: `${e.name} — ${e.source}`, requirements: e.system?.requirements ?? "", selected: e._id === draft.data.freeFeatId })).sort((a, b) => a.name.localeCompare(b.name)));
     }
     const party = step === "class" || step === "species" ? partyUsage() : { species: [], classes: [] };
 

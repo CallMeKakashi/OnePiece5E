@@ -11,6 +11,7 @@ import { registerFruitCasting } from "./fruit-casting.mjs";
 import { registerFalling } from "./falling.mjs";
 import { registerAuras } from "./auras.mjs";
 import { registerCanvasFx } from "./canvas-fx.mjs";
+import { registerExtraSources } from "./extra-sources.mjs";
 import { initShop, readyShop } from "./shop/shop.mjs";
 import { registerSelfUpdate } from "./self-update.mjs";
 import { registerMcpApi } from "./mcp-api.mjs";
@@ -53,6 +54,7 @@ Hooks.once("init", () => {
   registerFalling();
   registerAuras();
   registerCanvasFx();
+  registerExtraSources();
   initShop();
   registerSelfUpdate();
   registerWorldPackSync();

@@ -29,6 +29,7 @@ export const STAGES = [
   ["token-effect items", "node dev/harness/atl-items.mjs", "Torch, candle, lantern, night-vision goggles switch the token light and sight through ATL"],
   ["effects pack", "node dev/harness/effects-pack.mjs", "Premade effects: Dodge, Help, Half and Three-Quarters Cover"],
   ["canvas effects", "node dev/harness/canvas-fx.mjs", "Big-hit screen shake and burst: triggers, threshold, per-player opt-out"],
+  ["extra sources", "node dev/harness/extra-sources.mjs", "An extra item compendium adds its feats (with source) to the free feat; the character gets it"],
   ["falling", "node dev/harness/falling.mjs", "Falling damage: 3d6 for 35 ft, applied with prone; 5 ft does nothing"],
   ["summons and ships", "node dev/harness/summons-ships.mjs", "Summon profiles resolve; cannons attack and have range; ships have HP, AC and linked cannons"],
   ["ship cannon", "node dev/harness/ships-fire.mjs", "A ship actor opens in the real UI and its cannon fires"],
