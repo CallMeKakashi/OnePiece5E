@@ -11,7 +11,8 @@ const PACK_IDS = ["classes", "subclasses", "class-features", "races", "racial-fe
 
 async function byName(pack, name) {
   const ix = await game.packs.get(pack).getIndex();
-  const e = ix.find((x) => norm(x.name) === norm(name)) ?? ix.find((x) => norm(x.name).includes(norm(name)));
+  const e = ix.find((x) => norm(x.name) === norm(name)) ?? ix.find((x) => norm(x.name).includes(norm(name)))
+    ?? ix.find((x) => norm(x.name).length >= 4 && norm(name).includes(norm(x.name)));   // "Lunarians" finds "Lunarian"
   if (!e) throw new Error(`"${name}" not found in ${pack}`);
   return e;
 }
@@ -61,8 +62,15 @@ export const api = {
     gm(); const old = actorByName(source);
     const classes = old.items.filter((i) => i.type === "class").map((c) => ({ name: map[c.name] ?? c.name, level: c.system.levels, sub: old.items.find((s) => s.type === "subclass" && s.system.classIdentifier === c.system.identifier)?.name })).sort((a, b) => b.level - a.level);
     if (!classes.length) throw new Error(`${old.name} has no class items`);
-    const race = species ?? old.items.find((i) => i.type === "race")?.name, bg = background ?? old.items.find((i) => i.type === "background")?.name;
+    // old species names that op5e files under another name (the Three-eye Tribe is a Human people with the Third Eye feature)
+    const SPECIES_ALIAS = { "three-eye tribe": "Human", "three-eye": "Human" };
+    const oldRace = old.items.find((i) => i.type === "race")?.name;
+    const race = species ?? SPECIES_ALIAS[String(oldRace ?? "").toLowerCase()] ?? oldRace, bg = background ?? old.items.find((i) => i.type === "background")?.name;
     const base = Object.fromEntries(Object.entries(old.system.abilities).map(([k, v]) => [k, v.value]));
+    // the old sheet's fighting style and Haki picks steer the automatic choices (a style or Haki tier the sheet already had is preferred over the first one offered)
+    const esc = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const picked = old.items.filter((i) => i.type === "feat" && /^(Fighting Style:|Color of |Conqueror.s Haki |Armament Haki|Observation Haki)/i.test(i.name)).map((i) => `^${esc(i.name)}$`);
+    prefer = [...(prefer ?? []), ...picked];
     const trySub = async (n) => { try { return n && (await byName(PACKS.subclasses, n), n); } catch { return undefined; } };
     const made = await api.createCharacter({ name: name ?? `${old.name} (OPC)`, species: race, background: bg, cls: classes[0].name, level: classes[0].level, subclass: await trySub(classes[0].sub),
       cls2: classes[1]?.name, level2: classes[1]?.level, subclass2: await trySub(classes[1]?.sub), abilities: base, fruit, prefer, haki });

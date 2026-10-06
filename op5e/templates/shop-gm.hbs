@@ -10,8 +10,8 @@
   {{#if hasPending}}
   <section class="status pending-box"><h3>Waiting for your approval</h3>
     {{#each pending}}<div class="req pending">
-      <div class="text"><strong>{{actorName}}</strong> ({{userName}}) wants to {{#if buy}}buy{{else}}sell{{/if}} {{text}} at {{shopName}}<br>
-        <span class="sub">List {{totalText}} {{../cur}}{{#if buy}}; purse {{purseText}} {{../cur}}{{/if}}</span>
+      <div class="text"><strong>{{actorName}}</strong> ({{userName}}) wants to {{#if trade}}trade{{else if buy}}buy{{else}}sell{{/if}} {{text}}{{#if trade}} with {{partnerName}}{{else}} at {{shopName}}{{/if}}<br>
+        <span class="sub">{{#if trade}}Both sides have agreed.{{else}}List {{totalText}} {{../cur}}{{#if buy}}; purse {{purseText}} {{../cur}}{{/if}}{{/if}}</span>
         {{#if offered}}<div class="history">{{#each history}}<div>{{who}}: <strong>{{amountText}}</strong> {{../../cur}}{{#if note}} <em>"{{note}}"</em>{{/if}}</div>{{/each}}</div>{{/if}}</div>
       <button type="button" data-action="decline" data-id="{{id}}">Decline</button>
       <button type="button" data-action="counter" data-id="{{id}}">Counter</button>

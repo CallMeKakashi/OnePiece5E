@@ -154,6 +154,36 @@ try {
   ok("Shares of an agreed amount add up exactly", await gm.evaluate(() => { const a = game.shopTrade.allocate; return [[100, [30, 30, 40]], [101, [1, 1, 1]], [7, [3, 5]], [1, [2, 2]]].every(([n, w]) => a(n, w).reduce((x, y) => x + y, 0) === n); }));
   await p1.evaluate(() => { for (const w of Object.values(ui.windows)) w.close({ force: true }); for (const a of foundry.applications.instances.values()) if (a.id === "op5e-shop") a.close(); });
 
+  // ---- trades between characters: the other owner accepts, then the GM approves
+  const tid = await gm.evaluate(async (S) => { const it = await Item.create({ name: "[SA] Trade Gem", type: "loot", system: { price: { value: 10, denomination: "gp" }, quantity: 1 } }, { parent: game.actors.get(S.buyer) }); await game.actors.get(S.buyer).update({ "system.currency.gp": 300 }); await game.actors.get(S.buyer2).update({ "system.currency.gp": 300 }); return it.id; }, S);
+  const sideOf = (actorId, itemId, money) => ({ actorId, items: itemId ? [{ itemId, qty: 1 }] : [], money });
+  const t1 = await p1.evaluate(async ({ S, tid }) => game.shopTrade.proposeTrade({ actorId: S.buyer, items: [{ itemId: tid, qty: 1 }], money: 0 }, { actorId: S.buyer2, items: [], money: 120 }), { S, tid });
+  ok("A trade offer waits for the other character's owner first", t1.waitingForPartner === true && await status(t1.id) === "partner");
+  ok("Nothing moves while the offer waits", await gm.evaluate(({ S, tid }) => !!game.actors.get(S.buyer).items.get(tid) && game.actors.get(S.buyer).system.currency.gp === 300, { S, tid }));
+  await p2.waitForFunction(() => [...document.querySelectorAll("dialog, .application")].some((e) => /Trade offer/.test(e.innerText)), null, { timeout: 15000 });
+  ok("The other owner is shown the offer to accept or decline", true);
+  const wrongOwner = await p1.evaluate((id) => game.shopTrade.respondTrade(id, true).then(() => "allowed", (e) => e.message), t1.id);
+  ok("The proposer cannot answer for the other side", /not your trade/.test(wrongOwner), wrongOwner);
+  await p2.locator("button", { hasText: "Accept" }).first().click(); await wait(900);
+  ok("Accepting sends the trade to the GM", await status(t1.id) === "pending");
+  ok("Still nothing moved before the GM approves", await gm.evaluate(({ S, tid }) => !!game.actors.get(S.buyer).items.get(tid), { S, tid }));
+  await gm.evaluate((id) => game.shopTrade.decide(id, true), t1.id); await wait(1200);
+  const after1 = await gm.evaluate(({ S }) => ({ gem1: game.actors.get(S.buyer).items.some((i) => i.name === "[SA] Trade Gem"), gem2: game.actors.get(S.buyer2).items.some((i) => i.name === "[SA] Trade Gem"), gp1: game.actors.get(S.buyer).system.currency.gp, gp2: game.actors.get(S.buyer2).system.currency.gp }), { S });
+  ok("The approved trade moves the item and the money both ways", !after1.gem1 && after1.gem2 && after1.gp1 === 420 && after1.gp2 === 180, JSON.stringify(after1));
+  const t2 = await p1.evaluate(async ({ S }) => game.shopTrade.proposeTrade({ actorId: S.buyer, items: [], money: 50 }, { actorId: S.buyer2, items: [], money: 0 }), { S });
+  await p2.waitForFunction(() => [...document.querySelectorAll("dialog, .application")].some((e) => /Trade offer/.test(e.innerText)), null, { timeout: 15000 });
+  await p2.locator("button", { hasText: "Decline" }).first().click(); await wait(900);
+  ok("Declining ends the trade and moves nothing", await status(t2.id) === "declined" && await gm.evaluate((S) => game.actors.get(S.buyer).system.currency.gp === 420, S));
+  const t3 = await p1.evaluate(async ({ S }) => game.shopTrade.proposeTrade({ actorId: S.buyer, items: [], money: 10 }, { actorId: S.keeper, items: [], money: 0 }), { S });
+  ok("A trade with an NPC skips the partner step and goes straight to the GM", t3.waitingForPartner === false && await status(t3.id) === "pending");
+  await gm.evaluate((id) => game.shopTrade.decide(id, false, "No"), t3.id);
+  const t4 = await p1.evaluate(async ({ S }) => game.shopTrade.proposeTrade({ actorId: S.buyer, items: [], money: 5 }, { actorId: S.buyer2, items: [], money: 0 }), { S });
+  await p1.evaluate((id) => game.shopTrade.cancelRequest(id), t4.id); await wait(500);
+  ok("The proposer can withdraw an offer while it waits for the other owner", await status(t4.id) === "cancelled");
+  await p2.evaluate(() => { for (const a of foundry.applications.instances.values()) if (/dialog/i.test(a.constructor.name)) a.close(); });
+  const tooMuch = await p1.evaluate(async ({ S }) => game.shopTrade.proposeTrade({ actorId: S.buyer, items: [], money: 999999 }, { actorId: S.buyer2, items: [], money: 0 }).then(() => "sent", (e) => e.message), { S });
+  ok("A trade a character cannot afford is refused up front", /cannot afford/.test(tooMuch), tooMuch);
+
   // ---- shop types from the sourcebook catalogues
   const T = await gm.evaluate(async () => {
     const t = game.shopTrade, r = {};

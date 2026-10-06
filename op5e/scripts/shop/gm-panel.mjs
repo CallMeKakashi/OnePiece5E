@@ -25,7 +25,7 @@ export class ShopGMApp extends HandlebarsApplicationMixin(ApplicationV2) {
       return { id: u.id, name: u.name, color: u.color?.css ?? "#888", active: u.active, shown, looking: viewers.has(u.id), state: viewers.has(u.id) ? "looking now" : shown ? "shown" : u.active ? "not shown" : "offline" };
     });
     const all = Object.values(game.settings.get(ID, "shopRequests"));
-    const decorate = (r) => ({ ...r, offered: (r.offers ?? []).length > 0, offerText: fmt(r.offers?.at(-1)?.amount ?? 0), byPlayer: r.offers?.at(-1)?.by === "player", agreedText: fmt(r.agreed ?? r.total),
+    const decorate = (r) => ({ ...r, trade: r.kind === "trade", offered: (r.offers ?? []).length > 0, offerText: fmt(r.offers?.at(-1)?.amount ?? 0), byPlayer: r.offers?.at(-1)?.by === "player", agreedText: fmt(r.agreed ?? r.total),
       history: (r.offers ?? []).map((o) => ({ who: o.by === "gm" ? "You" : r.actorName, amountText: fmt(o.amount), note: o.note })), countered: r.status === "countered", text: r.lines.map((l) => `${l.qty}x ${l.name}`).join(", "), totalText: fmt(r.total), buy: r.kind === "buy", purseText: fmt(wealthIn(game.actors.get(r.actorId) ?? { system: { currency: {} } })), approved: r.status === "approved", declined: r.status === "declined", cancelled: r.status === "cancelled" });
     return {
       cur, shops: Object.values(shops).map((s) => ({ id: s.id, name: s.name, on: s.id === this.shopId, pending: all.filter((r) => r.shopId === s.id && r.status === "pending").length })), hasShops: Object.keys(shops).length > 0,

@@ -101,3 +101,29 @@ export class ShopApp extends HandlebarsApplicationMixin(ApplicationV2) {
   }
   static async #cancel(ev, el) { try { await T().cancelRequest(el.dataset.id); } catch (e) { ui.notifications.warn(e.message); } this.render(); }
 }
+
+/** Trade window: pick a partner, what each side gives (an item and some money); the partner's owner must accept, then the GM approves. A GM trades at once. */
+export async function openTradeDialog(actor) {
+  const others = game.actors.filter((a) => a.id !== actor.id && a.type !== "vehicle" && (a.hasPlayerOwner || a.type === "npc")).sort((x, y) => x.name.localeCompare(y.name));
+  if (!others.length) { ui.notifications.warn("There is nobody to trade with."); return null; }
+  const opts = (list) => [...list].filter((i) => i.system.quantity !== undefined).map((i) => `<option value="${i.id}">${i.name} x${i.system.quantity ?? 1}</option>`).join("");
+  const seeItems = (a) => (a.testUserPermission(game.user, "OBSERVER") ? a.items : []);
+  const content = `<form style="display:grid;gap:8px"><label>Trade with <select name="partner">${others.map((a) => `<option value="${a.id}">${a.name}</option>`).join("")}</select></label>
+    <fieldset><legend>You give</legend><select name="giveItem"><option value="">(no item)</option>${opts(actor.items)}</select> <input type="number" name="giveMoney" value="0" min="0"></fieldset>
+    <fieldset><legend>You get</legend><select name="getItem"><option value="">(no item)</option></select> <input type="number" name="getMoney" value="0" min="0"></fieldset></form>`;
+  const data = await foundry.applications.api.DialogV2.prompt({
+    window: { title: `Trade: ${actor.name}` }, content, ok: { label: "Offer trade", callback: (ev, btn) => new foundry.applications.ux.FormDataExtended(btn.form).object },
+    render: (ev, dlg) => {
+      const f = (dlg.element ?? ev.target.element).querySelector("form");
+      const fill = () => { const p = game.actors.get(f.elements.partner.value); f.elements.getItem.innerHTML = `<option value="">(no item)</option>${opts(seeItems(p))}`; };
+      f.elements.partner.addEventListener("change", fill); fill();
+    },
+  });
+  if (!data) return null;
+  const partner = game.actors.get(data.partner);
+  const side = (a, item, money) => ({ actorId: a.id, items: item ? [{ itemId: item, qty: 1 }] : [], money: Number(money) || 0 });
+  const mine = side(actor, data.giveItem, data.giveMoney), theirs = side(partner, data.getItem, data.getMoney);
+  if (game.user.isGM) return game.shopTrade.trade(mine, theirs, [game.user.id]);
+  try { const r = await game.shopTrade.proposeTrade(mine, theirs); ui.notifications.info(r.waitingForPartner ? `Offer sent to ${partner.name}'s owner.` : "Offer sent to the GM."); return r; }
+  catch (e) { ui.notifications.warn(e.message); return null; }
+}
