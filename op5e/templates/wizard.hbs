@@ -246,12 +246,12 @@
       <h3>Review</h3>
       <ul>
         <li><strong>Name:</strong> {{draft.data.name}}</li>
-        <li><strong>Species:</strong> {{draft.data.speciesId}}</li>
-        <li><strong>Background:</strong> {{draft.data.backgroundId}}</li>
+        <li><strong>Species:</strong> {{review.species}}</li>
+        <li><strong>Background:</strong> {{review.background}}</li>
         <li><strong>Dream:</strong> {{draft.data.dream}}</li>
-        <li><strong>Class:</strong> {{draft.data.classId}} (level {{draft.data.level}})</li>
-        {{#if draft.data.classId2}}<li><strong>Second class:</strong> {{draft.data.classId2}} (level {{draft.data.level2}})</li>{{/if}}
-        {{#if draft.data.freeFeatId}}<li><strong>Free starting feat:</strong> {{draft.data.freeFeatId}}</li>{{/if}}
+        <li><strong>Class:</strong> {{review.class}} (level {{draft.data.level}})</li>
+        {{#if draft.data.classId2}}<li><strong>Second class:</strong> {{review.class2}} (level {{draft.data.level2}})</li>{{/if}}
+        {{#if draft.data.freeFeatId}}<li><strong>Free starting feat:</strong> {{review.feat}}</li>{{/if}}
         <li><strong>Total level:</strong> {{totalLevel}}</li>
       </ul>
       <p class="op5e-cc__hint">Click Finish to create the actor; advancements and starting equipment are applied automatically.</p>

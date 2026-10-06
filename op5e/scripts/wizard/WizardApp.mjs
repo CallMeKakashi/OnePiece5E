@@ -1,7 +1,7 @@
 import { advancementList } from "../advancement-list.mjs";
 import { MODULE_ID, getAllDrafts, setAllDrafts } from "../settings.mjs";
 import { isBackgroundEntry } from "./background-role.mjs";
-import { extraEntries, labelled } from "../extra-sources-lib.mjs";
+import { extraEntries, labelled, parseSourceId } from "../extra-sources-lib.mjs";
 import {
   ABILITY_METHODS,
   PACKS,
@@ -62,6 +62,16 @@ function mapIndexEntry(e) {
 
 function filterIndexByType(index, type) {
   return index.filter((e) => e.type === type).map(mapIndexEntry);
+}
+
+/** A readable name for a picked id (plain op5e id, or "<pack>|<id>" from an extra source, shown with its source). */
+async function nameOf(id, fallbackPack) {
+  if (!id) return "";
+  const { collection, id: docId } = parseSourceId(id, fallbackPack);
+  const pack = game.packs.get(collection);
+  const entry = pack && (await pack.getIndex()).get(docId);
+  if (!entry) return String(id);
+  return collection === fallbackPack ? entry.name : `${entry.name} — ${pack.metadata.label}`;
 }
 
 function compendiumIdFromUuid(uuid) {
@@ -307,7 +317,13 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
     const isOwner = draft.ownerUserId === game.user?.id;
     const canReset = isOwner && Object.keys(draft.touched ?? {}).length > 0;
 
+    const review = step === "finish" ? {
+      species: await nameOf(draft.data.speciesId, PACKS.species), background: await nameOf(draft.data.backgroundId, PACKS.backgroundsAndRoles),
+      class: await nameOf(draft.data.classId, PACKS.classes), class2: await nameOf(draft.data.classId2, PACKS.classes), feat: await nameOf(draft.data.freeFeatId, PACKS.feats),
+    } : null;
+
     return {
+      review,
       draft,
       step,
       stepIndex,

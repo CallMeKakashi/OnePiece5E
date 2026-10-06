@@ -1,5 +1,7 @@
-<p class="hint">Tick the item compendiums players may also choose from (for example a D&amp;D Beyond import). They are only referenced, never copied or shipped with op5e. Today they add to the free starting feat in Create OPC.</p>
-<div class="form-group stacked">
+<section class="op5e-extra-sources">
+<p class="hint">Tick the item compendiums players may also choose from (for example a D&amp;D Beyond import). They are only referenced, never copied or shipped with op5e. They add species, backgrounds, classes, subclasses and feats to Create OPC, items to the shop's Find item search, and (through dnd5e's compendium browser) choices at level-up.</p>
+<div class="form-group"><input type="search" name="filter" placeholder="Filter the list"></div>
+<div class="form-group stacked" style="max-height:50vh;overflow:auto">
   {{#each packs}}
     <label class="checkbox"><input type="checkbox" name="{{field}}" {{#if checked}}checked{{/if}}> {{label}}</label>
   {{else}}
@@ -7,3 +9,4 @@
   {{/each}}
 </div>
 <footer class="form-footer"><button type="submit"><i class="fa-solid fa-save"></i> Save</button></footer>
+</section>

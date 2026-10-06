@@ -10,7 +10,7 @@ const SETTING = EXTRA_SETTING;
 export function candidatePacks() {
   return game.packs.filter((p) => p.documentName === "Item" && p.metadata.packageName !== MODULE_ID && p.metadata.packageName !== "dnd5e")
     .map((p) => ({ collection: p.collection, label: `${p.metadata.label}${p.metadata.packageType === "world" ? " (world)" : ` (${p.metadata.packageName})`}` }))
-    .sort((a, b) => a.label.localeCompare(b.label));
+    .sort((a, b) => Number(b.label.endsWith("(world)")) - Number(a.label.endsWith("(world)")) || a.label.localeCompare(b.label));   // the world's own imports (a D&D Beyond import) first
 }
 
 const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
@@ -21,6 +21,10 @@ class ExtraSourcesApp extends HandlebarsApplicationMixin(ApplicationV2) {
     form: { handler: ExtraSourcesApp.#save, closeOnSubmit: true },
   };
   static PARTS = { form: { template: `modules/${MODULE_ID}/templates/extra-sources.hbs` } };
+  _onRender() {   // a filter box: the list can be long
+    const q = this.element.querySelector("input[name=filter]");
+    q?.addEventListener("input", () => { const t = q.value.trim().toLowerCase(); for (const l of this.element.querySelectorAll("label.checkbox")) l.hidden = !!t && !l.textContent.toLowerCase().includes(t); });
+  }
   async _prepareContext() {
     const on = new Set(game.settings.get(MODULE_ID, SETTING) ?? []);
     return { packs: candidatePacks().map((p) => ({ ...p, field: p.collection.replace(/\./g, "__"), checked: on.has(p.collection) })) };
