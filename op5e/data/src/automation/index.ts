@@ -22,4 +22,4 @@ import { optionSpecs } from "./options.js"; Object.assign(AUTOMATION, optionSpec
 import { workGSpecs } from "./work-g.js"; Object.assign(AUTOMATION, workGSpecs);
 import { unarmedSpecs } from "./unarmed.js"; Object.assign(AUTOMATION, unarmedSpecs);
 import { weaponMasterSpecs } from "./weapon-masters.js"; Object.assign(AUTOMATION, weaponMasterSpecs);
-import { simpleBonusSpecs, batch1Specs } from "./simple-bonuses.js"; Object.assign(AUTOMATION, simpleBonusSpecs, batch1Specs);
+import { simpleBonusSpecs, batch1Specs, batch2Specs } from "./simple-bonuses.js"; Object.assign(AUTOMATION, simpleBonusSpecs, batch1Specs, batch2Specs);

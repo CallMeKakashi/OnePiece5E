@@ -17,6 +17,11 @@ const run = async () => {
   await step("Perceptive", (x, y) => y.dv === x.dv + 30, "+30 ft darkvision");
   await step("Knack Of The Hunter", (x, y) => y.dv === x.dv + 60, "+60 ft darkvision");
   const hp1 = a.system.attributes.hp.max; await add("Made For War"); ok("Made For War: HP maximum +level", a.system.attributes.hp.max === hp1 + a.system.details.level, `${hp1} -> ${a.system.attributes.hp.max}`);
+  // batch 2
+  await step("Brawny", (x, y) => a.system.attributes.movement.climb === a.system.attributes.movement.walk, "climb speed equals walking speed");
+  const cl = a.system.attributes.movement.climb; ok("Brawny: climb is not zero", cl > 0, `${cl}`);
+  await add("Enhanced Circuitry"); ok("Enhanced Circuitry: lightning resistance", a.system.traits.dr.value.has("lightning"));
+  await game.op5eApi.addItem({ actor: a.name, name: "Powerful Build" }); ok("Powerful Build: dnd5e flag set", !!a.getFlag("dnd5e", "powerfulBuild"));
   await a.delete(); return out;
 };
 await withFoundry(async (page) => { for (const l of await page.evaluate(`(${run.toString()})()`)) { console.log(l); if (l.startsWith("FAIL")) process.exitCode = 1; } });
