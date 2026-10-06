@@ -34,7 +34,18 @@ const run = async (cases) => {
       const missing = gear.filter((i) => !have.has(nm(i.name)) && ![...have].some((h) => h.length > 3 && (h.startsWith(nm(i.name)) || nm(i.name).startsWith(h))) && !/^unarmedstrike/i.test(i.name.replace(/[^a-z]/gi, "")));
       ok(`${c.old}: gear carried over (containers and Unarmed Strike aside)`, missing.filter((i) => i.type !== "container").length <= 3, `${gear.length - missing.length}/${gear.length}; missing: ${missing.map((i) => i.name).slice(0, 6).join(", ")}`);
       ok(`${c.old}: nothing failed while carrying`, !r.failed.length, r.failed.slice(0, 3).join("; "));
+      // the old sheet's fighting style and Haki picks steer the automatic choices: each one the sheet had is on the rebuild, unless op5e has no feature of that name
+      const PICK = /^(Fighting Style:|Color of |Conqueror.s Haki |Armament Haki|Observation Haki)/i, known = new Set();
+      for (const pk of ["feats", "class-features"]) for (const e of await game.packs.get(`op5e.${pk}`).getIndex()) known.add(e.name.toLowerCase());
+      const wanted = src.items.filter((i) => i.type === "feat" && PICK.test(i.name) && known.has(i.name.toLowerCase())), lacking = wanted.filter((i) => !t.items.some((x) => x.name.toLowerCase() === i.name.toLowerCase()));
+      ok(`${c.old}: the fighting styles and Haki tiers the sheet had are kept (${wanted.length} with an op5e equivalent)`, lacking.length === 0, lacking.map((i) => i.name).join(", "));
     }
+    // matchHp: with the option on, the rebuild's maximum hit points equal the old sheet's
+    const c0 = cases[0], d0 = foundry.utils.deepClone(c0.data); delete d0._id; delete d0.folder; delete d0.ownership; d0.name = `[OLD] ${c0.old} hp`; d0.type = "character";
+    for (const i of d0.items) { delete i.folder; i.effects = (i.effects ?? []).filter((e) => typeof e === "object"); if (i.flags) { delete i.flags.ddbimporter; delete i.flags["ddb-importer"]; } }
+    const hsrc = await Actor.create(d0, { keepId: false }); made.push(hsrc);
+    const hr = await game.op5eApi.importOldCharacter({ source: hsrc.name, name: `${c0.old} hp (import)`, map: c0.map, matchHp: true }); const ht = game.actors.get(hr.id); made.push(ht);
+    ok(`${c0.old}: matchHp makes the maximum hit points equal the old sheet's`, ht?.system.attributes.hp.max === hsrc.system.attributes.hp.max, `${ht?.system.attributes.hp.max} vs ${hsrc.system.attributes.hp.max}`);
   } catch (e) { ok("the test itself stopped", false, e.message); }
   for (const a of made.filter(Boolean)) await a.delete().catch(() => {});
   await game.settings.set("op5e", "prerequisiteMode", prior);
