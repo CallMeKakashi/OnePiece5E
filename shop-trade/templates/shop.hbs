@@ -1,0 +1,5 @@
+<section class="shop-trade">
+  <h2>{{shop.name}}</h2>
+  {{#if actor}}<p>{{actor}} has {{wealth}}</p>{{/if}}
+  <ul>{{#each items}}<li><img src="{{img}}" width="24" height="24"> {{name}}: {{shown}} {{#unless unlimited}}({{stock}} left){{/unless}} <button type="button" data-action="buy" data-key="{{key}}">Buy</button></li>{{/each}}</ul>
+</section>

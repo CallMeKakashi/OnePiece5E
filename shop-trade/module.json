@@ -1,0 +1,11 @@
+{
+  "id": "dnd5e-shop-trade",
+  "title": "Shop and Trade (dnd5e)",
+  "description": "Shops, buying, selling and player/NPC trades for any dnd5e world. Default currency is dnd5e coins; a single custom currency works too. No dependency on op5e.",
+  "version": "0.1.0",
+  "compatibility": { "minimum": "13", "verified": "13" },
+  "system": ["dnd5e"],
+  "authors": [{ "name": "Blood & Brine" }],
+  "esmodules": ["scripts/main.mjs"],
+  "languages": [{ "lang": "en", "name": "English", "path": "lang/en.json" }]
+}
