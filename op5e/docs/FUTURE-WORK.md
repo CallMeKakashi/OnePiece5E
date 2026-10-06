@@ -8,7 +8,7 @@ Order is rough priority. "Now" items are being done straight after the current s
 2. **CI on every push** (`.github/workflows/ci.yml`): build, validate, regression, unit tests. The release workflow already exists.
    Open item: `module.json` manifest/download URLs point at `Blood-and-Brine/blood-brine` while the repo is `CallMeKakashi/OnePiece5E`.
 
-## 1. Refresh characters from the compendium
+## 1. Refresh characters from the compendium (DONE: `game.op5eRefreshActor(actor, {apply})`, issue #19)
 Existing actors keep old copies of feats and items. A tool that updates an actor's items from the current compendium, keeping uses spent,
 equipped state, quantities and custom edits, so a fix reaches existing PCs without rebuilding them.
 
@@ -39,7 +39,7 @@ Exact requirements:
 - **Compatibility:** dnd5e 5.x, Foundry 13; no dependency on op5e. op5e would only supply a ready-made Berries currency set and item list.
 - **Tests:** harness stages for buy, sell, trade, insufficient funds, out of stock, permissions as a player user.
 
-## 3. Sync items created in a world into a compendium
+## 3. Sync items created in a world into a compendium (DONE: `game.op5eSendToWorldPack(docs)` / `game.op5eImportFromWorldPack(world)`, issue #22)
 Any item, feat or actor created in a world can be pushed into a compendium folder named after the world (for example folder "blood-and-brine"
 inside an "OP5e World Items" pack), so it can be imported into another world.
 - One command or button: "Send to world compendium"; keeps the original `_id`s and flags so re-sending updates instead of duplicating.

@@ -6,6 +6,8 @@ import { registerOp5eEquipmentGrantHooks } from "./equipment-grant-advancement.m
 import { initSkillsAndTools } from "./skills-and-tools.mjs";
 import { registerOptionalRules } from "./optional-rules.mjs";
 import { registerImportJournals } from "./import-journals.mjs";
+import { registerRefreshActor } from "./refresh-actor.mjs";
+import { registerWorldPackSync } from "./world-pack-sync.mjs";
 
 const DEFAULT_CURRENCY_PER_WEIGHT = { imperial: 50, metric: 110 };
 const WEIGHTLESS_CURRENCY_PER_WEIGHT = { imperial: 1_000_000, metric: 1_000_000 };
@@ -36,6 +38,8 @@ Hooks.once("init", () => {
   initSkillsAndTools();
   registerOptionalRules();
   registerImportJournals();
+  registerRefreshActor();
+  registerWorldPackSync();
 
   game.settings.register(MODULE_ID, "berriesWeightless", {
     name: `${MODULE_ID}.settings.berriesWeightless.name`,
