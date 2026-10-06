@@ -160,6 +160,13 @@
       "path": "packs/campaign-items",
       "type": "Item",
       "system": "dnd5e"
+    },
+    {
+      "name": "effects",
+      "label": "OP5e Premade Effects",
+      "path": "packs/effects",
+      "type": "Item",
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
@@ -183,7 +190,8 @@
         "summons",
         "ships",
         "ship-weapons",
-        "campaign-items"
+        "campaign-items",
+        "effects"
       ]
     }
   ],

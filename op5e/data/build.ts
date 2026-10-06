@@ -87,6 +87,7 @@ const PACK_CONFIGS: PackConfig[] = [
   { name: "ships", srcDir: "ships", schema: foundryActorBase, collection: "actors" },
   { name: "ship-weapons", srcDir: "ship-weapons", schema: foundryItemBase },
   { name: "campaign-items", srcDir: "campaign-items", schema: foundryItemBase },
+  { name: "effects", srcDir: "effects", schema: featureItemSchema },
 ];
 
 interface Stats {
@@ -96,7 +97,7 @@ interface Stats {
   activitiesGenerated?: number;
 }
 
-const FEATURE_PACKS = new Set(["class-features", "feats", "racial-features"]);
+const FEATURE_PACKS = new Set(["class-features", "feats", "racial-features", "effects"]);
 
 async function loadSourceItems(srcDir: string): Promise<unknown[]> {
   const fullDir = join(__dirname, "src", srcDir);

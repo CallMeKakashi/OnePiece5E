@@ -7,7 +7,7 @@ import { carryOldCharacter } from "./import-old-character.mjs";
 
 const gm = () => { if (!game.user?.isGM) throw new Error("GM only"); };
 const norm = (s) => String(s ?? "").toLowerCase().replace(/[^a-z0-9]/g, "");
-const PACK_IDS = ["classes", "subclasses", "class-features", "races", "racial-features", "backgrounds", "feats", "items", "creations", "campaign-items", "devil-fruits", "monsters"].map((p) => `op5e.${p}`);
+const PACK_IDS = ["classes", "subclasses", "class-features", "races", "racial-features", "backgrounds", "feats", "items", "creations", "effects", "campaign-items", "devil-fruits", "monsters"].map((p) => `op5e.${p}`);
 
 async function byName(pack, name) {
   const ix = await game.packs.get(pack).getIndex();

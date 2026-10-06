@@ -27,6 +27,7 @@ export const STAGES = [
   ["token auras", "node dev/harness/auras.mjs", "Aura of Freedom/Courage/Devotion/Tenacity become Aura Effects auras on a character"],
   ["turn expiry", "node dev/harness/turn-expiry.mjs", "An effect with a turn-start special duration ends exactly at the source's next turn"],
   ["token-effect items", "node dev/harness/atl-items.mjs", "Torch, candle, lantern, night-vision goggles switch the token light and sight through ATL"],
+  ["effects pack", "node dev/harness/effects-pack.mjs", "Premade effects: Dodge, Help, Half and Three-Quarters Cover"],
   ["falling", "node dev/harness/falling.mjs", "Falling damage: 3d6 for 35 ft, applied with prone; 5 ft does nothing"],
   ["summons and ships", "node dev/harness/summons-ships.mjs", "Summon profiles resolve; cannons attack and have range; ships have HP, AC and linked cannons"],
   ["ship cannon", "node dev/harness/ships-fire.mjs", "A ship actor opens in the real UI and its cannon fires"],
