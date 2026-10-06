@@ -28,7 +28,11 @@ describe("character sheet audit (static compendium data)", () => {
 
     const jsonPath = join(ROOT, "dev/character-sheet-audit/output/audit-report.json");
     expect(existsSync(jsonPath)).toBe(true);
-    const onDisk = JSON.parse(readFileSync(jsonPath, "utf8"));
+    // another audit run (the build-factory tests) may be rewriting the same file at this moment: retry a half-written read
+    let onDisk;
+    for (let i = 0; i < 10 && !onDisk; i++) {
+      try { onDisk = JSON.parse(readFileSync(jsonPath, "utf8")); } catch { spawnSync(process.execPath, ["-e", "setTimeout(()=>{},300)"]); }
+    }
     expect(onDisk.stats).toEqual(report.stats);
   });
 
@@ -64,10 +68,10 @@ describe("character sheet audit (static compendium data)", () => {
 
   // 0 errors is the gate. The 45 warnings are the known backlog (15 features whose text names an action type but whose activation is empty,
   // 5 that imply limited uses without a use count, 25 passive text-only features); the count may only go down.
-  it("Phase 1 audit has no errors and no new warnings (ratchet at 45)", () => {
+  it("Phase 1 audit has no errors and no new warnings (ratchet at 0)", () => {
     const report = runAuditJson();
     expect(report.stats.phase1Errors).toBe(0);
-    expect(report.stats.phase1Warnings).toBeLessThanOrEqual(45);
+    expect(report.stats.phase1Warnings).toBeLessThanOrEqual(0);
   });
 
   it("tracks Phase 2 passive backlog separately", () => {

@@ -109,7 +109,13 @@ export function main() {
 
   mkdirSync(OUT_DIR, { recursive: true });
   const jsonPath = join(OUT_DIR, "audit-report.json");
-  writeFileSync(jsonPath, JSON.stringify(report, null, 2));
+  // Windows locks a file another audit run is writing at this moment (the test files run audits side by side): retry briefly, and let the other run's copy stand
+  for (let attempt = 0; attempt < 8; attempt++) {
+    try { writeFileSync(jsonPath, JSON.stringify(report, null, 2)); break; } catch (e) {
+      if (attempt === 7) console.error(`audit: could not write ${jsonPath}: ${(e as Error).message}`);
+      else Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 150);
+    }
+  }
 
   const text = formatConsoleReport(report, builds, fullMode);
   if (jsonOut) {

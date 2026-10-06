@@ -18,6 +18,7 @@ const achilles: ActSpec[] = DAMAGE.map((t) => ({
 }));
 
 export const batch7Specs: Record<string, Spec> = {
+  "class-features/Cloak-and-Dagger": { activities: [{ name: "Hide in plain sight", type: "utility", activation: "action", note: "When you attempt to hide you can hide in plain sight. Moving more than half your movement speed while hidden this way reveals your position." }] },
   "class-features/Rational Mind": { activities: [], extraEffects: [toggle("Rational Mind: moved at most half your speed (advantage on History and Investigation)", ...skillAdv("his", "inv"))] },
   "class-features/Superior Hunter": { activities: [], extraEffects: [toggle("Superior Hunter: moved at most half your speed (advantage on Perception and Survival)", ...skillAdv("prc", "sur"))] },
   "class-features/Supreme Sneak": { activities: [], extraEffects: [toggle("Supreme Sneak: moved at most half your speed (advantage on Stealth and Sleight of Hand)", ...skillAdv("ste", "slt"))] },

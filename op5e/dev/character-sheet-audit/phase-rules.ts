@@ -236,6 +236,7 @@ export function mentionsAttackActionRule(desc: string): boolean {
 export function isFalsePositiveUses(desc: string, featureName: string): boolean {
   if (EXTRA_ATTACK_NAMES.has(featureName)) return true;
   if (featureName === "Endless Spirit") return true;
+  if (featureName === "Deft Explorer") return true;   // a choice between Canny, Roving and Tireless; the uses belong to the Tireless option
   if (/\bexpended (?:spirit points?|uses of)\b/i.test(desc) && !/\buse this feature\b/i.test(desc)) {
     return true;
   }
@@ -251,6 +252,7 @@ export function isFalsePositiveActivation(desc: string, featureName: string): bo
   if (EXTRA_ATTACK_NAMES.has(featureName)) return true;
   if (mentionsAttackActionRule(desc)) return true;
   if (featureName === "Combat Medicine") return true;
+  if (featureName === "Duplicitious Strike") return true;   // the bonus action in the text is the target's, not the rogue's
   if (featureName === "Feral Instinct" && /\bbonus action you take to enter your rage\b/i.test(desc)) {
     return true;
   }

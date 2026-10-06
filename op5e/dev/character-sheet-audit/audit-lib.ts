@@ -1,4 +1,5 @@
 import classes from "../../data/src/classes/index.ts";
+import { AUTOMATION } from "../../data/src/automation/index.ts";
 import subclasses from "../../data/src/subclasses/index.ts";
 import classFeatures from "../../data/src/class-features/index.ts";
 import backgrounds from "../../data/src/backgrounds/index.ts";
@@ -321,6 +322,24 @@ function classScaleIds(classDoc: AnyDoc): Set<string> {
   return out;
 }
 
+/** The hand-written automation spec for a document (data/src/automation), which the build applies on top of the raw source this audit reads. */
+function specFor(doc: AnyDoc): { activities: { activation?: string }[]; extraEffects?: unknown[]; uses?: { max?: unknown } } | undefined {
+  const name = String(doc.name ?? "");
+  for (const pack of ["class-features", "feats", "racial-features", "items", "creations"]) {
+    const spec = (AUTOMATION as Record<string, unknown>)[`${pack}/${name}`];
+    if (spec) return spec as never;
+  }
+  return undefined;
+}
+
+/** Item-level activation, or else the first automated activity's (activities carry the action type in dnd5e 4+). */
+function effectiveActivation(sys: AnyDoc, doc: AnyDoc): AnyDoc | undefined {
+  const own = sys.activation as AnyDoc | undefined;
+  if (own?.type) return own;
+  const fromSpec = specFor(doc)?.activities.find((a) => a.activation && a.activation !== "special" && a.activation !== "")?.activation;
+  return fromSpec ? { type: fromSpec } : own;
+}
+
 function hasAutomation(doc: AnyDoc): boolean {
   const sys = doc.system ?? {};
   const activation = sys.activation as AnyDoc | undefined;
@@ -330,6 +349,7 @@ function hasAutomation(doc: AnyDoc): boolean {
   const effects = doc.effects;
 
   if (activation?.type) return true;
+  { const spec = specFor(doc); if (spec && (spec.activities.length || spec.extraEffects?.length)) return true; }   // the build applies the automation specs on top of this raw source
   if (uses?.max) return true;
   if (Array.isArray(effects) && effects.length > 0) return true;
   if (Array.isArray(damage?.parts) && damage!.parts.length > 0) return true;
@@ -379,7 +399,7 @@ export function analyzeItemAutomation(
   const name = String(doc.name ?? doc._id ?? "unknown");
   const sys = doc.system ?? {};
   const desc = stripHtml(String((sys.description as AnyDoc)?.value ?? ""));
-  const activation = sys.activation as AnyDoc | undefined;
+  const activation = effectiveActivation(sys, doc);
   const uses = sys.uses as AnyDoc | undefined;
   const classified = classifyFeaturePhase(name, context.classIdentifier);
 
