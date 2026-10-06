@@ -1,4 +1,4 @@
-import { initOp5eAnimations } from "./animations.mjs";
+import { initOp5eAnimations, registerOp5eAnimationsAutorec } from "./animations.mjs";
 import { MODULE_ID, MODULE_VERSION } from "./constants.mjs";
 import { registerOp5eFeatureHooks } from "./feature-hooks.mjs";
 import { registerOp5eHakiAdvancementHooks } from "./haki-advancement.mjs";
@@ -39,6 +39,8 @@ Hooks.once("init", () => {
     type: Boolean,
     default: true,
   });
+
+  registerOp5eAnimationsAutorec();
 
   try {
     applyBerriesEncumbrance(game.settings.get(MODULE_ID, "berriesWeightless"));

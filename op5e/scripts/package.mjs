@@ -20,7 +20,7 @@ const ROOT = join(__dirname, "..");
 const DIST = join(ROOT, "dist");
 const MODULE_ID = "op5e";
 
-const INCLUDE = ["module.json", "scripts", "lang", "packs", "templates", "styles"];
+const INCLUDE = ["module.json", "scripts", "lang", "packs", "templates", "styles", "assets/autorec-op5e.json"];
 
 function normalizeVersionFromTag(tag) {
   if (!tag) return undefined;

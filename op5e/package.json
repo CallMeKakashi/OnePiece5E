@@ -16,6 +16,8 @@
     "audit:characters:full": "node node_modules/tsx/dist/cli.mjs dev/character-sheet-audit/run-audit.ts --full",
     "audit:sourcebook": "node node_modules/tsx/dist/cli.mjs scripts/audit-compendium-sourcebook.ts",
     "audit:automation": "node node_modules/tsx/dist/cli.mjs scripts/audit-compendium-automation.ts",
+    "animations:generate": "node scripts/generate-animations.mjs",
+    "audit:animations": "node scripts/audit-animations.mjs",
     "actor:catalog": "node node_modules/tsx/dist/cli.mjs dev/generate-foundry-actor/list-catalog.ts",
     "actor:choices": "node node_modules/tsx/dist/cli.mjs dev/generate-foundry-actor/list-choices.ts",
     "actor:build": "node node_modules/tsx/dist/cli.mjs dev/generate-foundry-actor/build-from-spec.ts",
