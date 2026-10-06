@@ -1,0 +1,686 @@
+
+> op5e@0.2.7 build
+> npm run build:json && npm run build:db
+
+
+> op5e@0.2.7 build:json
+> node node_modules/tsx/dist/cli.mjs data/build.ts
+
+=== OP5e Compendium — JSON Build ===
+
+  classes …
+  subclasses …
+  class-features …
+  races …
+  racial-features …
+  feats …
+  ⚠ adept-inspiration: proficiency left as text: "one musical instrument of your choice"
+  ⚠ adept-modifier: proficiency left as text: "thieves' tools or one type of artisan's tool of your choice"
+  ⚠ burglar: proficiency left as text: "thieves' tools"
+  ⚠ flying-strikes: proficiency left as text: "it, and add the modifier of the ability score you increased with this feat to the attack and damage roll (You must use the same ability for both rolls)"
+  ⚠ gunner: proficiency left as text: "firearms"
+  ⚠ master-of-disguise: proficiency left as text: "the disguise kit"
+  ⚠ master-of-games: proficiency left as text: "three gaming sets of your choice and expertise for one of those sets of your choice"
+  ⚠ master-of-games: proficiency left as text: "it after 8 hours total spent playing"
+  ⚠ poisoner: proficiency left as text: "the poisoner's kit if you don't already have it"
+  ⚠ tavern-brawler: proficiency left as text: "improvised weapons"
+  ⚠ voracity: proficiency left as text: "for 1 hour"
+  ⚠ weapon-master: proficiency left as text: "all simple weapons, martial weapons, and cannons"
+  ⚠ feral-threat: proficiency left as text: "Strength (Athletics) or Charisma (Intimidation) checks"
+  ⚠ intuitive-primate: proficiency left as text: "Dexterity (Acrobatics) checks, and one set of tools of your choice"
+  ⚠ lengthy-heritage: proficiency left as text: "Strength (Athletics) or Dexterity (Acrobatics) checks"
+  ⚠ renegade-rodent: proficiency left as text: "your choice of Dexterity (Acrobatics) or Dexterity (Stealth) checks"
+  ⚠ shandian-mobility: proficiency left as text: "either Acrobatics or Athletics"
+  items …
+  creations …
+  backgrounds …
+  devil-fruits …
+  spell-lists …
+  reference …
+  roll-tables …
+  monsters …
+  summons …
+  ships …
+  ship-weapons …
+  campaign-items …
+
+=== Summary ===
+  ✓ classes: 9 items, 0 errors
+  ✓ subclasses: 80 items, 0 errors
+  ✓ class-features: 839 items, 0 errors, 310 with activities
+  ✓ races: 9 items, 0 errors
+  ✓ racial-features: 86 items, 0 errors, 22 with activities
+  ✓ feats: 228 items, 0 errors, 114 with activities
+  ✓ items: 421 items, 0 errors
+  ✓ creations: 426 items, 0 errors
+  ✓ backgrounds: 56 items, 0 errors
+  ✓ devil-fruits: 39 items, 0 errors
+  ✓ spell-lists: 5 items, 0 errors
+  ✓ reference: 9 items, 0 errors
+  ✓ roll-tables: 213 items, 0 errors
+  ✓ monsters: 32 items, 0 errors
+  ✓ summons: 48 items, 0 errors
+  ✓ ships: 8 items, 0 errors
+  ✓ ship-weapons: 8 items, 0 errors
+  ✓ campaign-items: 23 items, 0 errors
+
+Total: 2539 items, 0 errors, 446 with activities
+
+> op5e@0.2.7 build:db
+> node node_modules/tsx/dist/cli.mjs data/compile.ts
+
+=== OP5e Compendium — LevelDB Compilation ===
+
+  Compiling backgrounds (56 documents) …
+  ✓ backgrounds
+  Compiling campaign-items (23 documents) …
+  ✓ campaign-items
+  Compiling class-features (839 documents) …
+  ✓ class-features
+  Compiling classes (9 documents) …
+  ✓ classes
+  Compiling creations (426 documents) …
+  ✓ creations
+  Compiling devil-fruits (39 documents) …
+  ✓ devil-fruits
+  Compiling feats (228 documents) …
+  ✓ feats
+  Compiling items (421 documents) …
+  ✓ items
+  Compiling monsters (32 documents) …
+  ✓ monsters
+  Compiling races (9 documents) …
+  ✓ races
+  Compiling racial-features (86 documents) …
+  ✓ racial-features
+  Compiling reference (9 documents) …
+  ✓ reference
+  Compiling roll-tables (213 documents) …
+  ✓ roll-tables
+  Compiling ship-weapons (8 documents) …
+  ✓ ship-weapons
+  Compiling ships (8 documents) …
+  ✓ ships
+  Compiling spell-lists (5 documents) …
+  ✓ spell-lists
+  Compiling subclasses (80 documents) …
+  ✓ subclasses
+  Compiling summons (48 documents) …
+  ✓ summons
+
+Done — 18 LevelDB packs written to packs/
+{
+ "documents": 2539,
+ "links": 4666,
+ "errors": 0,
+ "warnings": 116,
+ "byMessage": {
+  "warn: attack activity has no attack block (dnd5e defaults apply)": 79,
+  "warn: 3 docs share this name": 11,
+  "warn: 4 docs share this name": 4,
+  "warn: 5 docs share this name": 3,
+  "warn: 7 docs share this name": 1,
+  "warn: 2 docs share this name": 15,
+  "warn: 6 docs share this name": 2,
+  "warn: 8 docs share this name": 1
+ }
+}
+{"baseline":1973,"preserved":1962,"changed":11,"regressed":0,"added":566}
+
+> op5e@0.2.7 test
+> node node_modules/vitest/vitest.mjs run
+
+
+[1m[46m RUN [49m[22m [36mv3.2.4 [39m[90mC:/bb/op5e[39m
+
+ [32m✓[39m test/manifest.test.mjs [2m([22m[2m2 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m test/crit-damage.test.mjs [2m([22m[2m9 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m test/apply-advancements.test.mjs [2m([22m[2m2 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m test/haki-advancement-data.test.mjs [2m([22m[2m4 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m test/feature-hooks.test.mjs [2m([22m[2m18 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m test/actor.test.mjs [2m([22m[2m3 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m test/ships.test.mjs [2m([22m[2m4 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32m✓[39m test/lunarian-automation.test.mjs [2m([22m[2m16 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+[90mstderr[2m | test/feat-advancement.test.mjs
+[22m[39m  ⚠ adept-inspiration: proficiency left as text: "one musical instrument of your choice"
+  ⚠ adept-modifier: proficiency left as text: "thieves' tools or one type of artisan's tool of your choice"
+  ⚠ burglar: proficiency left as text: "thieves' tools"
+
+ [32m✓[39m test/activities.test.mjs [2m([22m[2m11 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+[90mstderr[2m | test/equipment-grants.test.mjs
+[22m[39m  ⚠ adept-inspiration: proficiency left as text: "one musical instrument of your choice"
+  ⚠ adept-modifier: proficiency left as text: "thieves' tools or one type of artisan's tool of your choice"
+  ⚠ burglar: proficiency left as text: "thieves' tools"
+
+[90mstderr[2m | test/equipment-grants.test.mjs
+[22m[39m  ⚠ flying-strikes: proficiency left as text: "it, and add the modifier of the ability score you increased with this feat to the attack and damage roll (You must use the same ability for both rolls)"
+
+[90mstderr[2m | test/feat-advancement.test.mjs
+[22m[39m  ⚠ flying-strikes: proficiency left as text: "it, and add the modifier of the ability score you increased with this feat to the attack and damage roll (You must use the same ability for both rolls)"
+
+ [32m✓[39m test/equipment-grant-advancement.test.mjs [2m([22m[2m7 tests[22m[2m)[22m[32m 3[2mms[22m[39m
+[90mstderr[2m | test/equipment-grants.test.mjs
+[22m[39m  ⚠ gunner: proficiency left as text: "firearms"
+
+[90mstderr[2m | test/feat-advancement.test.mjs
+[22m[39m  ⚠ gunner: proficiency left as text: "firearms"
+
+ [32m✓[39m test/pointBuy.test.mjs [2m([22m[2m4 tests[22m[2m)[22m[32m 3[2mms[22m[39m
+ [32m✓[39m test/wizard-role.test.mjs [2m([22m[2m4 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+[90mstderr[2m | test/feat-advancement.test.mjs
+[22m[39m  ⚠ master-of-disguise: proficiency left as text: "the disguise kit"
+  ⚠ master-of-games: proficiency left as text: "three gaming sets of your choice and expertise for one of those sets of your choice"
+  ⚠ master-of-games: proficiency left as text: "it after 8 hours total spent playing"
+
+[90mstderr[2m | test/equipment-grants.test.mjs
+[22m[39m  ⚠ master-of-disguise: proficiency left as text: "the disguise kit"
+  ⚠ master-of-games: proficiency left as text: "three gaming sets of your choice and expertise for one of those sets of your choice"
+  ⚠ master-of-games: proficiency left as text: "it after 8 hours total spent playing"
+
+[90mstderr[2m | test/feat-advancement.test.mjs
+[22m[39m  ⚠ poisoner: proficiency left as text: "the poisoner's kit if you don't already have it"
+
+[90mstderr[2m | test/equipment-grants.test.mjs
+[22m[39m  ⚠ poisoner: proficiency left as text: "the poisoner's kit if you don't already have it"
+
+[90mstderr[2m | test/feat-advancement.test.mjs
+[22m[39m  ⚠ tavern-brawler: proficiency left as text: "improvised weapons"
+  ⚠ voracity: proficiency left as text: "for 1 hour"
+  ⚠ weapon-master: proficiency left as text: "all simple weapons, martial weapons, and cannons"
+
+[90mstderr[2m | test/equipment-grants.test.mjs
+[22m[39m  ⚠ tavern-brawler: proficiency left as text: "improvised weapons"
+  ⚠ voracity: proficiency left as text: "for 1 hour"
+  ⚠ weapon-master: proficiency left as text: "all simple weapons, martial weapons, and cannons"
+
+[90mstderr[2m | test/equipment-grants.test.mjs
+[22m[39m  ⚠ feral-threat: proficiency left as text: "Strength (Athletics) or Charisma (Intimidation) checks"
+  ⚠ intuitive-primate: proficiency left as text: "Dexterity (Acrobatics) checks, and one set of tools of your choice"
+  ⚠ lengthy-heritage: proficiency left as text: "Strength (Athletics) or Dexterity (Acrobatics) checks"
+  ⚠ renegade-rodent: proficiency left as text: "your choice of Dexterity (Acrobatics) or Dexterity (Stealth) checks"
+  ⚠ shandian-mobility: proficiency left as text: "either Acrobatics or Athletics"
+
+[90mstderr[2m | test/feat-advancement.test.mjs
+[22m[39m  ⚠ feral-threat: proficiency left as text: "Strength (Athletics) or Charisma (Intimidation) checks"
+  ⚠ intuitive-primate: proficiency left as text: "Dexterity (Acrobatics) checks, and one set of tools of your choice"
+  ⚠ lengthy-heritage: proficiency left as text: "Strength (Athletics) or Dexterity (Acrobatics) checks"
+  ⚠ renegade-rodent: proficiency left as text: "your choice of Dexterity (Acrobatics) or Dexterity (Stealth) checks"
+  ⚠ shandian-mobility: proficiency left as text: "either Acrobatics or Athletics"
+
+ [32m✓[39m test/feat-advancement.test.mjs [2m([22m[2m11 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m test/class-proficiencies.test.mjs [2m([22m[2m7 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m test/equipment-grants.test.mjs [2m([22m[2m14 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m test/validate-packs.test.mjs [2m([22m[2m1 test[22m[2m)[22m[33m 1584[2mms[22m[39m
+   [33m[2m✓[22m[39m static pack validation[2m > [22mhas no errors (ids, activity blocks, effect refs, internal links) [33m 1583[2mms[22m[39m
+[90mstderr[2m | test/generate-foundry-actor.test.mjs
+[22m[39m  ⚠ adept-inspiration: proficiency left as text: "one musical instrument of your choice"
+  ⚠ adept-modifier: proficiency left as text: "thieves' tools or one type of artisan's tool of your choice"
+  ⚠ burglar: proficiency left as text: "thieves' tools"
+
+[90mstderr[2m | test/generate-foundry-actor.test.mjs
+[22m[39m  ⚠ flying-strikes: proficiency left as text: "it, and add the modifier of the ability score you increased with this feat to the attack and damage roll (You must use the same ability for both rolls)"
+
+[90mstderr[2m | test/generate-foundry-actor.test.mjs
+[22m[39m  ⚠ gunner: proficiency left as text: "firearms"
+
+[90mstderr[2m | test/generate-foundry-actor.test.mjs
+[22m[39m  ⚠ master-of-disguise: proficiency left as text: "the disguise kit"
+  ⚠ master-of-games: proficiency left as text: "three gaming sets of your choice and expertise for one of those sets of your choice"
+  ⚠ master-of-games: proficiency left as text: "it after 8 hours total spent playing"
+
+[90mstderr[2m | test/generate-foundry-actor.test.mjs
+[22m[39m  ⚠ poisoner: proficiency left as text: "the poisoner's kit if you don't already have it"
+
+[90mstderr[2m | test/generate-foundry-actor.test.mjs
+[22m[39m  ⚠ tavern-brawler: proficiency left as text: "improvised weapons"
+  ⚠ voracity: proficiency left as text: "for 1 hour"
+  ⚠ weapon-master: proficiency left as text: "all simple weapons, martial weapons, and cannons"
+
+[90mstderr[2m | test/generate-foundry-actor.test.mjs
+[22m[39m  ⚠ feral-threat: proficiency left as text: "Strength (Athletics) or Charisma (Intimidation) checks"
+  ⚠ intuitive-primate: proficiency left as text: "Dexterity (Acrobatics) checks, and one set of tools of your choice"
+  ⚠ lengthy-heritage: proficiency left as text: "Strength (Athletics) or Dexterity (Acrobatics) checks"
+  ⚠ renegade-rodent: proficiency left as text: "your choice of Dexterity (Acrobatics) or Dexterity (Stealth) checks"
+  ⚠ shandian-mobility: proficiency left as text: "either Acrobatics or Athletics"
+
+ [32m✓[39m test/generate-foundry-actor.test.mjs [2m([22m[2m5 tests[22m[2m)[22m[33m 1154[2mms[22m[39m
+   [33m[2m✓[22m[39m generate-foundry-actor workshop export[2m > [22mvalidate-actor CLI passes on rebuilt ace.json [33m 1136[2mms[22m[39m
+[90mstderr[2m | test/character-sheet-audit.test.mjs[2m > [22m[2mcharacter sheet audit build factory[2m > [22m[2mfull audit mode runs expanded matrix
+[22m[39m  ⚠ adept-inspiration: proficiency left as text: "one musical instrument of your choice"
+  ⚠ adept-modifier: proficiency left as text: "thieves' tools or one type of artisan's tool of your choice"
+  ⚠ burglar: proficiency left as text: "thieves' tools"
+
+[90mstderr[2m | test/character-sheet-audit.test.mjs[2m > [22m[2mcharacter sheet audit build factory[2m > [22m[2mfull audit mode runs expanded matrix
+[22m[39m  ⚠ flying-strikes: proficiency left as text: "it, and add the modifier of the ability score you increased with this feat to the attack and damage roll (You must use the same ability for both rolls)"
+
+[90mstderr[2m | test/character-sheet-audit.test.mjs[2m > [22m[2mcharacter sheet audit build factory[2m > [22m[2mfull audit mode runs expanded matrix
+[22m[39m  ⚠ gunner: proficiency left as text: "firearms"
+
+[90mstderr[2m | test/character-sheet-audit.test.mjs[2m > [22m[2mcharacter sheet audit build factory[2m > [22m[2mfull audit mode runs expanded matrix
+[22m[39m  ⚠ master-of-disguise: proficiency left as text: "the disguise kit"
+  ⚠ master-of-games: proficiency left as text: "three gaming sets of your choice and expertise for one of those sets of your choice"
+  ⚠ master-of-games: proficiency left as text: "it after 8 hours total spent playing"
+
+[90mstderr[2m | test/character-sheet-audit.test.mjs[2m > [22m[2mcharacter sheet audit build factory[2m > [22m[2mfull audit mode runs expanded matrix
+[22m[39m  ⚠ poisoner: proficiency left as text: "the poisoner's kit if you don't already have it"
+
+[90mstderr[2m | test/character-sheet-audit.test.mjs[2m > [22m[2mcharacter sheet audit build factory[2m > [22m[2mfull audit mode runs expanded matrix
+[22m[39m  ⚠ tavern-brawler: proficiency left as text: "improvised weapons"
+  ⚠ voracity: proficiency left as text: "for 1 hour"
+  ⚠ weapon-master: proficiency left as text: "all simple weapons, martial weapons, and cannons"
+
+[90mstderr[2m | test/character-sheet-audit.test.mjs[2m > [22m[2mcharacter sheet audit build factory[2m > [22m[2mfull audit mode runs expanded matrix
+[22m[39m  ⚠ feral-threat: proficiency left as text: "Strength (Athletics) or Charisma (Intimidation) checks"
+  ⚠ intuitive-primate: proficiency left as text: "Dexterity (Acrobatics) checks, and one set of tools of your choice"
+  ⚠ lengthy-heritage: proficiency left as text: "Strength (Athletics) or Dexterity (Acrobatics) checks"
+  ⚠ renegade-rodent: proficiency left as text: "your choice of Dexterity (Acrobatics) or Dexterity (Stealth) checks"
+  ⚠ shandian-mobility: proficiency left as text: "either Acrobatics or Athletics"
+
+ [32m✓[39m test/character-sheet-audit.test.mjs [2m([22m[2m12 tests[22m[2m)[22m[33m 7721[2mms[22m[39m
+   [33m[2m✓[22m[39m character sheet audit (static compendium data)[2m > [22mruns audit harness and writes JSON report [33m 1184[2mms[22m[39m
+   [33m[2m✓[22m[39m character sheet audit (static compendium data)[2m > [22mcovers all nine classes in test matrix [33m 931[2mms[22m[39m
+   [33m[2m✓[22m[39m character sheet audit (static compendium data)[2m > [22mhas no broken compendium UUIDs in class ItemGrants at level 20 [33m 907[2mms[22m[39m
+   [33m[2m✓[22m[39m character sheet audit (static compendium data)[2m > [22mhas no missing scale definitions for referenced @scale values [33m 899[2mms[22m[39m
+   [33m[2m✓[22m[39m character sheet audit (static compendium data)[2m > [22mPhase 1 audit has no errors and no new warnings (ratchet at 45) [33m 884[2mms[22m[39m
+   [33m[2m✓[22m[39m character sheet audit (static compendium data)[2m > [22mtracks Phase 2 passive backlog separately [33m 877[2mms[22m[39m
+   [33m[2m✓[22m[39m character sheet audit (static compendium data)[2m > [22mtracks Phase 2b checklist status [33m 856[2mms[22m[39m
+   [33m[2m✓[22m[39m character sheet audit (static compendium data)[2m > [22madditional power root feats are flagged for wizard indexing [33m 483[2mms[22m[39m
+   [33m[2m✓[22m[39m character sheet audit build factory[2m > [22mfull audit mode runs expanded matrix [33m 445[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m18 passed[39m[22m[90m (18)[39m
+[2m      Tests [22m [1m[32m134 passed[39m[22m[90m (134)[39m
+[2m   Start at [22m 10:23:16
+[2m   Duration [22m 9.04s[2m (transform 4.25s, setup 0ms, collect 8.90s, tests 10.56s, environment 4ms, prepare 12.10s)[22m
+
+2952 images checked, 0 problems
+armor rows 13, findings 0
+Marksman rows 20 ok
+Medic rows 20 ok
+Savant rows 20 ok
+Fighter rows 20 ok
+Bard rows 20 MISSING: L20 Font of 4 4 3 2 — — — — — — 4 4 3 3 — — — — — — 4 4 3 3 1 — — — — — 4 4 3 3 2 — — — — — 4 4 3 3 3 1 — — — — (d10) | L20 5 4 3 3 3 2 — — — — 5 4 3 3 3 2 1 — — — 5 4 3 3 3 2 1 — — — 5 4 3 3 3 2 1 1 — — 5 4 3 3 3 2 1 1 — — (d12) 5 4 3 3 3 2 1 1 1 — 5 4 3 3 3 2 1 1 1 — 5 4 3 3 3 2 1 1 1 1 5 4 3 3 3 3 1 1 1 1 5 4 3 3 3 3 2 1 1 1 5 4 3 3 3 3 2 2 1 1
+Gadgeteer rows 20 ok
+Brawler rows 20 MISSING: L2 +10 | L3 +10 | L4 +10 | L5 +10 | L6 +15 | L7 +15 | L8 +15 | L9 +15 | L10 +20 | L11 +20 | L12 +20 | L13 +20 | L14 +25 | L15 +25 | L16 +25 | L17 +25 | L18 +30 | L19 +30
+Rogue rows 20 MISSING: L14 Blind Sense
+Barbarian rows 20 MISSING: L2 Danger 2 Sense | L3 Primal 3 Knowledge | L5 Fast 3 Movement | L7 Primal 4 Knowledge
+source rows 41, matched 41, findings 0
+Augmented MISMATCH: fly 0 != source 30; climb 0 != source 30 {"size":null,"walk":30,"swim":0,"fly":30,"climb":30}
+Fishman MISMATCH: swim 30 != source 0 {"size":null,"walk":30,"swim":0,"fly":0,"climb":0}
+Lunarian ok {"size":null,"walk":30,"swim":0,"fly":30,"climb":0}
+Human MISMATCH: walk 35 != source 30 {"size":null,"walk":30,"swim":0,"fly":0,"climb":0}
+Sky Islander ok {"size":null,"walk":35,"swim":0,"fly":0,"climb":0}
+Giant MISMATCH: swim 0 != source 35 {"size":null,"walk":40,"swim":35,"fly":0,"climb":0}
+Mink ok {"size":null,"walk":35,"swim":0,"fly":0,"climb":0}
+Dwarves ok {"size":"tiny","walk":30,"swim":0,"fly":0,"climb":30}
+Merfolk MISMATCH: swim 40 != source 0 {"size":null,"walk":10,"swim":0,"fly":0,"climb":0}
+{
+ "stats": {
+  "class-features": {
+   "docs": 839,
+   "withActivities": 310,
+   "flagged": 5
+  },
+  "racial-features": {
+   "docs": 86,
+   "withActivities": 22,
+   "flagged": 1
+  },
+  "feats": {
+   "docs": 228,
+   "withActivities": 114,
+   "flagged": 1
+  },
+  "items": {
+   "docs": 421,
+   "withActivities": 129,
+   "flagged": 14
+  },
+  "creations": {
+   "docs": 426,
+   "withActivities": 426,
+   "flagged": 19
+  },
+  "backgrounds": {
+   "docs": 56,
+   "withActivities": 0,
+   "flagged": 0
+  }
+ },
+ "byKind": {
+  "described-damage-missing": 21,
+  "save-missing": 6,
+  "dice-not-in-text": 15,
+  "healing-missing": 5,
+  "text-save-not-automated": 11
+ }
+}
+module files: 27 changed (refresh the browser tab to load them)
+backgrounds: 56 changed, 0 removed
+campaign-items: 23 changed, 0 removed
+class-features: 839 changed, 0 removed
+classes: 9 changed, 0 removed
+creations: 426 changed, 0 removed
+devil-fruits: 39 changed, 0 removed
+feats: 228 changed, 0 removed
+items: 421 changed, 0 removed
+monsters: 32 changed, 0 removed
+races: 9 changed, 0 removed
+racial-features: 86 changed, 0 removed
+reference: 9 changed, 0 removed
+roll-tables: 213 changed, 0 removed
+ship-weapons: 8 changed, 0 removed
+ships: 8 changed, 0 removed
+spell-lists: 5 changed, 0 removed
+subclasses: 80 changed, 0 removed
+summons: 48 changed, 0 removed
+backgrounds: 0 created, 56 replaced, 0 removed
+campaign-items: 0 created, 23 replaced, 0 removed
+class-features: 0 created, 839 replaced, 0 removed
+classes: 0 created, 9 replaced, 0 removed
+creations: 0 created, 426 replaced, 0 removed
+devil-fruits: 0 created, 39 replaced, 0 removed
+feats: 0 created, 228 replaced, 0 removed
+items: 0 created, 421 replaced, 0 removed
+monsters: 0 created, 32 replaced, 0 removed
+races: 0 created, 9 replaced, 0 removed
+racial-features: 0 created, 86 replaced, 0 removed
+reference: 0 created, 9 replaced, 0 removed
+roll-tables: 0 created, 213 replaced, 0 removed
+ship-weapons: 0 created, 8 replaced, 0 removed
+ships: 0 created, 8 replaced, 0 removed
+spell-lists: 0 created, 5 replaced, 0 removed
+subclasses: 0 created, 80 replaced, 0 removed
+summons: 0 created, 48 replaced, 0 removed
+synced
+wrapper installed: true, setting registered: true
+== prerequisites: 47/47 pass
+ok   Marksman L1 (Augmented/Swordsman) hp 12 haki 0
+ok   Marksman L5 (Augmented/Swordsman/Swarmkeeper) hp 44 haki 0
+ok   Marksman L12 (Augmented/Swordsman/Swarmkeeper) hp 100 haki 3
+ok   Medic L1 (Fishman/Pirate) hp 11 haki 0
+ok   Medic L5 (Fishman/Pirate/Chemist) hp 43 haki 0
+ok   Medic L12 (Fishman/Pirate/Chemist) hp 99 haki 3
+ok   Savant L1 (Lunarian/Urchin/Necrotic Mania) hp 12 haki 0
+ok   Savant L5 (Lunarian/Urchin/Necrotic Mania) hp 44 haki 0
+ok   Savant L12 (Lunarian/Urchin/Necrotic Mania) hp 112 haki 3
+ok   Fighter L1 (Augmented/Swordsman) hp 12 haki 0
+ok   Fighter L5 (Augmented/Swordsman/Brute) hp 44 haki 0
+ok   Fighter L12 (Augmented/Swordsman/Brute) hp 112 haki 3
+ok   Bard L1 (Fishman/Pirate) hp 11 haki 0
+ok   Bard L5 (Fishman/Pirate/College of Lore) hp 43 haki 0
+ok   Bard L12 (Fishman/Pirate/College of Lore) hp 99 haki 3
+ok   Gadgeteer L1 (Lunarian/Urchin) hp 10 haki 0
+ok   Gadgeteer L5 (Lunarian/Urchin/Safeguard) hp 38 haki 0
+ok   Gadgeteer L12 (Lunarian/Urchin/Safeguard) hp 99 haki 3
+ok   Brawler L1 (Augmented/Swordsman) hp 10 haki 0
+ok   Brawler L5 (Augmented/Swordsman/Okama Kenpo) hp 38 haki 0
+ok   Brawler L12 (Augmented/Swordsman/Okama Kenpo) hp 99 haki 3
+ok   Rogue L1 (Fishman/Pirate) hp 11 haki 0
+ok   Rogue L5 (Fishman/Pirate/Thief) hp 43 haki 0
+ok   Rogue L12 (Fishman/Pirate/Thief) hp 111 haki 3
+ok   Barbarian L1 (Lunarian/Urchin) hp 14 haki 0
+ok   Barbarian L5 (Lunarian/Urchin/Path of the Totem Warrior) hp 50 haki 0
+ok   Barbarian L12 (Lunarian/Urchin/Path of the Totem Warrior) hp 125 haki 3
+ok   Marksman L1 (Augmented/Swordsman) hp 12 haki 0
+ok   Medic L1 (Fishman/Pirate) hp 11 haki 0
+ok   Marksman L3 (Augmented/Swordsman/Swarmkeeper) hp 28 haki 0
+ok   Marksman L3 (Augmented/Swordsman/Swarmkeeper) hp 28 haki 0
+ok   Marksman L3 (Augmented/Swordsman/Swarmkeeper)
+== wizard: 32 cases, 0 with issues
+ok   Marksman / Swarmkeeper: 19 levels
+ok   Marksman / Bounty Hunter: 19 levels
+ok   Marksman / Olympian: 19 levels
+ok   Marksman / Sniper: 19 levels
+ok   Marksman / Guru: 19 levels
+ok   Marksman / Nighthawk: 19 levels
+ok   Marksman / Beastmaster: 19 levels
+ok   Medic / Chemist: 19 levels
+ok   Medic / Bio-Engineer: 19 levels
+ok   Medic / Amputator: 19 levels
+ok   Medic / Field Surgeon: 19 levels
+ok   Medic / Physician: 19 levels
+ok   Medic / Plaguewright: 19 levels
+ok   Savant / Necrotic Mania: 19 levels
+ok   Savant / Thundering Resolve: 19 levels
+ok   Savant / Caustic Spite: 19 levels
+ok   Savant / Cold Indifference: 19 levels
+ok   Savant / Radiant Superiority: 19 levels
+ok   Savant / Venomous Duality: 19 levels
+ok   Savant / Burning Passion: 19 levels
+ok   Savant / Fulminating Glee: 19 levels
+ok   Savant / Mindful Insight: 19 levels
+ok   Fighter / Brute: 19 levels
+ok   Fighter / Master of None: 19 levels
+ok   Fighter / Samurai: 19 levels
+ok   Fighter / Champion: 19 levels
+ok   Fighter / Blitzkrieg: 19 levels
+ok   Fighter / Gunslinger: 19 levels
+ok   Fighter / Cavalier: 19 levels
+ok   Fighter / Banneret: 19 levels
+ok   Fighter / Arms Dealer: 19 levels
+ok   Fighter / Battlemaster: 19 levels
+ok   Fighter / Gadget Knight: 19 levels
+ok   Bard / College of Lore: 19 levels
+ok   Bard / College of Legends: 19 levels
+ok   Bard / College of Bewitchment: 19 levels
+ok   Bard / College of The Idol: 19 levels
+ok   Bard / College of Eloquence: 19 levels
+ok   Bard / College of Swords: 19 levels
+ok   Gadgeteer / Safeguard: 19 levels
+ok   Gadgeteer / Alchemist: 19 levels
+ok   Gadgeteer / Elementalist: 19 levels
+ok   Gadgeteer / Artillerist: 19 levels
+ok   Gadgeteer / Battle Smith: 19 levels
+ok   Gadgeteer / Armorer: 19 levels
+ok   Brawler / Okama Kenpo: 19 levels
+ok   Brawler / Fishman Karate: 19 levels
+ok   Brawler / Six Powers Master: 19 levels
+ok   Brawler / Sword Sage: 19 levels
+ok   Brawler / Ninja: 19 levels
+ok   Brawler / Drunken Master: 19 levels
+ok   Brawler / Way of Mercy: 19 levels
+ok   Brawler / Expressionist: 19 levels
+ok   Brawler / Open Hand: 19 levels
+ok   Brawler / Private Eye: 19 levels
+ok   Brawler / Sumo Wrestler: 19 levels
+ok   Brawler / Daredevil: 19 levels
+ok   Brawler / Chromatic Commandment: 19 levels
+ok   Rogue / Thief: 19 levels
+ok   Rogue / Seeker: 19 levels
+ok   Rogue / Scout: 19 levels
+ok   Rogue / Swashbuckler: 19 levels
+ok   Rogue / Bruiser: 19 levels
+ok   Rogue / Sawbones: 19 levels
+ok   Rogue / Ringmaster: 19 levels
+ok   Rogue / Wildcard: 19 levels
+ok   Rogue / Gadget Trickster: 19 levels
+ok   Rogue / Inquisitive: 19 levels
+ok   Rogue / Assassin: 19 levels
+ok   Rogue / Fencer: 19 levels
+ok   Barbarian / Path of the Totem Warrior: 19 levels
+ok   Barbarian / Path of the Blade Master: 19 levels
+ok   Barbarian / Path of the Pugilist: 19 levels
+ok   Barbarian / Path of the Cannoneer: 19 levels
+ok   Barbarian / Path of the Channeler: 19 levels
+ok   Barbarian / Path of the Berserker: 19 levels
+ok   Barbarian / Path of the Storm Herald: 19 levels
+ok   Barbarian / Path of the Spirit Speaker: 19 levels
+ok   Barbarian / Path of the Shattered Mind: 19 levels
+ok   Barbarian / Path of the Forgemaster: 19 levels
+== level-up: 80 class/subclass runs, 0 with issues
+FAIL harness ran without throwing -> "TypeError: Cannot read properties of undefined (reading 'name')\n    at Object.LF [as fn] (http://localhost:30000/modules/chris-premades/dist/main.js:1:1848869)\n    at fire (eval at evaluate (:311:30), <anonymous>:6:93)\n    at async eval (eval at evaluate (:311:30), <anonymous>:40:5)\n    at async <an"
+== optional rulings: 9/10 pass; encumbrance {"before":270,"after":1350}; all settings off: true
+PROGRESS 70/2105 docs (3%), 0 failed, 1 min elapsed, about 15 min left
+PROGRESS 180/2105 docs (9%), 0 failed, 1 min elapsed, about 11 min left
+[Automation 3] RESTART browser
+PROGRESS 280/2105 docs (13%), 0 failed, 2 min elapsed, about 10 min left
+[Automation 3] == items: 150 docs, 0 fail, 50 warn
+PROGRESS 360/2105 docs (17%), 0 failed, 2 min elapsed, about 10 min left
+PROGRESS 440/2105 docs (21%), 0 failed, 3 min elapsed, about 9 min left
+PROGRESS 500/2105 docs (24%), 0 failed, 3 min elapsed, about 10 min left
+[Automation] RESTART browser
+[Automation 2] RESTART browser
+PROGRESS 540/2105 docs (26%), 0 failed, 4 min elapsed, about 10 min left
+[Automation 3] RESTART browser
+[Automation 3] == items: 150 docs, 0 fail, 50 warn
+PROGRESS 560/2105 docs (27%), 0 failed, 4 min elapsed, about 11 min left
+PROGRESS 590/2105 docs (28%), 0 failed, 5 min elapsed, about 12 min left
+PROGRESS 670/2105 docs (32%), 0 failed, 5 min elapsed, about 11 min left
+PROGRESS 720/2105 docs (34%), 0 failed, 6 min elapsed, about 11 min left
+PROGRESS 790/2105 docs (38%), 0 failed, 6 min elapsed, about 10 min left
+PROGRESS 840/2105 docs (40%), 0 failed, 7 min elapsed, about 10 min left
+[Automation 3] RESTART browser
+[Automation 3] == items: 150 docs, 0 fail, 50 warn
+PROGRESS 880/2105 docs (42%), 0 failed, 7 min elapsed, about 10 min left
+PROGRESS 940/2105 docs (45%), 0 failed, 8 min elapsed, about 9 min left
+PROGRESS 1000/2105 docs (48%), 0 failed, 8 min elapsed, about 9 min left
+PROGRESS 1040/2105 docs (49%), 0 failed, 9 min elapsed, about 9 min left
+[Automation 3] == creations: 413 docs, 0 fail, 191 warn
+PROGRESS 1060/2105 docs (50%), 0 failed, 9 min elapsed, about 9 min left
+PROGRESS 1090/2105 docs (52%), 0 failed, 10 min elapsed, about 9 min left
+PROGRESS 1110/2105 docs (53%), 0 failed, 10 min elapsed, about 9 min left
+[Automation 2] RESTART browser
+PROGRESS 1130/2105 docs (54%), 0 failed, 11 min elapsed, about 9 min left
+[Automation] RESTART browser
+PROGRESS 1130/2105 docs (54%), 0 failed, 11 min elapsed, about 9 min left
+PROGRESS 1130/2105 docs (54%), 0 failed, 12 min elapsed, about 10 min left
+PROGRESS 1130/2105 docs (54%), 0 failed, 12 min elapsed, about 10 min left
+PROGRESS 1130/2105 docs (54%), 0 failed, 13 min elapsed, about 11 min left
+PROGRESS 1130/2105 docs (54%), 0 failed, 13 min elapsed, about 11 min left
+PROGRESS 1170/2105 docs (56%), 0 failed, 14 min elapsed, about 11 min left
+PROGRESS 1190/2105 docs (57%), 0 failed, 14 min elapsed, about 11 min left
+PROGRESS 1220/2105 docs (58%), 0 failed, 15 min elapsed, about 11 min left
+PROGRESS 1260/2105 docs (60%), 0 failed, 15 min elapsed, about 10 min left
+PROGRESS 1270/2105 docs (60%), 0 failed, 16 min elapsed, about 10 min left
+PROGRESS 1290/2105 docs (61%), 0 failed, 16 min elapsed, about 10 min left
+PROGRESS 1310/2105 docs (62%), 0 failed, 17 min elapsed, about 10 min left
+PROGRESS 1330/2105 docs (63%), 0 failed, 17 min elapsed, about 10 min left
+PROGRESS 1350/2105 docs (64%), 0 failed, 18 min elapsed, about 10 min left
+PROGRESS 1370/2105 docs (65%), 0 failed, 18 min elapsed, about 10 min left
+[Automation 2] == class-features: 419 docs, 0 fail, 48 warn
+PROGRESS 1379/2105 docs (66%), 0 failed, 19 min elapsed, about 10 min left
+[Automation] == class-features: 420 docs, 0 fail, 70 warn
+[Automation 2] == racial-features: 0 docs, 0 fail, 0 warn
+PROGRESS 1389/2105 docs (66%), 0 failed, 19 min elapsed, about 10 min left
+[Automation] == racial-features: 0 docs, 0 fail, 0 warn
+[Automation 2] RESTART browser
+PROGRESS 1439/2105 docs (68%), 0 failed, 20 min elapsed, about 9 min left
+[Automation] RESTART browser
+PROGRESS 1439/2105 docs (68%), 0 failed, 20 min elapsed, about 9 min left
+PROGRESS 1439/2105 docs (68%), 0 failed, 21 min elapsed, about 9 min left
+PROGRESS 1439/2105 docs (68%), 0 failed, 21 min elapsed, about 10 min left
+PROGRESS 1439/2105 docs (68%), 0 failed, 22 min elapsed, about 10 min left
+PROGRESS 1439/2105 docs (68%), 0 failed, 22 min elapsed, about 10 min left
+PROGRESS 1439/2105 docs (68%), 0 failed, 23 min elapsed, about 10 min left
+PROGRESS 1439/2105 docs (68%), 0 failed, 23 min elapsed, about 11 min left
+PROGRESS 1439/2105 docs (68%), 0 failed, 24 min elapsed, about 11 min left
+PROGRESS 1439/2105 docs (68%), 0 failed, 24 min elapsed, about 11 min left
+[Automation 2] == class-features: 419 docs, 0 fail, 48 warn
+[Automation] == class-features: 420 docs, 0 fail, 70 warn
+PROGRESS 1439/2105 docs (68%), 0 failed, 25 min elapsed, about 11 min left
+[Automation] == racial-features: 0 docs, 0 fail, 0 warn
+[Automation 2] == racial-features: 0 docs, 0 fail, 0 warn
+[Automation] == feats: 44 docs, 0 fail, 3 warn
+[Automation 2] == feats: 44 docs, 0 fail, 2 warn
+[Automation] == backgrounds: 28 docs, 0 fail, 1 warn
+PROGRESS 1517/2105 docs (72%), 0 failed, 25 min elapsed, about 10 min left
+[Automation 2] == backgrounds: 28 docs, 0 fail, 0 warn
+[Automation] == devil-fruits: 16 docs, 0 fail, 0 warn
+[Automation 2] == devil-fruits: 15 docs, 0 fail, 0 warn
+[Automation] == ship-weapons: 4 docs, 0 fail, 4 warn
+[Automation 2] == ship-weapons: 4 docs, 0 fail, 4 warn
+PROGRESS 1553/2105 docs (74%), 0 failed, 26 min elapsed, about 9 min left
+PROGRESS 1553/2105 docs (74%), 0 failed, 26 min elapsed, about 9 min left
+PROGRESS 1553/2105 docs (74%), 0 failed, 27 min elapsed, about 9 min left
+PROGRESS 1553/2105 docs (74%), 0 failed, 27 min elapsed, about 10 min left
+PROGRESS 1553/2105 docs (74%), 0 failed, 27 min elapsed, about 10 min left
+== class-features: 839 docs, 0 fail
+== racial-features: 86 docs, 0 fail
+== feats: 228 docs, 0 fail
+== backgrounds: 56 docs, 0 fail
+== devil-fruits: 39 docs, 0 fail
+== ship-weapons: 8 docs, 0 fail
+== items: 421 docs, 0 fail
+== creations: 426 docs, 0 fail
+SWEEP TOTAL: 2103 docs, 0 fail; shard exit codes 0,0,0
+Matthew "The Jack" Burgess: Human / Gambler / Fighter 10 (Gunslinger) L10 hp 74 ac 17, 35 features, feats [Role: Captain, Alert, Alert, Lucky], gear +28, issues 0
+Matthew "The Jack" Burgess (Marksman): Human / Gambler / Marksman 10 (Sniper) L10 hp 74 ac 17, 39 features, feats [Role: Captain, Alert, Alert, Lucky], gear +28, issues 0
+Baptiste: Lunarian / Boxer / Brawler 10 (Chromatic Commandment) L10 hp 73 ac 20, 28 features, feats [Role: Captain, Alert, Unarmed Master, Devil Fruit Uses], gear +11, issues 0
+Malphas: Lunarian / Wanderer / Brawler 8 (Drunken Master) L8 hp 59 ac 18, 29 features, feats [Role: Captain, Alert, Mobile, Alert, Acrobat, Devil Fruit Uses, Zoan Hybrid Form, Zoan Full Beast Form], gear +19, issues 0
+Thunderbird (Form 1): Lunarian / Wanderer / Brawler 4 (Drunken Master) L4 hp 31 ac 18, 22 features, feats [Role: Captain, Alert, Mobile, Acrobat, Devil Fruit Uses, Zoan Hybrid Form, Zoan Full Beast Form], gear +18, issues 0
+Thunderbird (Form 2): Lunarian / Wanderer / Brawler 8 (Drunken Master) L8 hp 59 ac 18, 29 features, feats [Role: Captain, Alert, Mobile, Alert, Acrobat, Devil Fruit Uses, Zoan Hybrid Form, Zoan Full Beast Form], gear +18, issues 0
+B.O.B: Augmented / Scientist / Savant 10 (Necrotic Mania) L10 hp 84 ac 10, 30 features, feats [Role: Captain, Alert, Polearm Master, Great Weapon Master, Creativity Adept], gear +11, issues 0
+Roma: Mink / Cook / Fighter 3 + Barbarian 7 (Brute, Path of the Berserker) L10 hp 101 ac 16, 30 features, feats [Role: Captain, Alert, Gourmand, Sentinel, Devil Fruit Uses, Zoan Hybrid Form, Zoan Full Beast Form], gear +12, issues 0
+Hybrid: Mink / Cook / Fighter 3 + Barbarian 5 (Brute, Path of the Berserker) L8 hp 81 ac 16, 26 features, feats [Role: Captain, Alert, Gourmand, Sentinel, Devil Fruit Uses, Zoan Hybrid Form, Zoan Full Beast Form], gear +9, issues 0
+Sulong: Mink / Cook / Fighter 3 + Barbarian 5 (Brute, Path of the Berserker) L8 hp 81 ac 16, 26 features, feats [Role: Captain, Alert, Gourmand, Sentinel, Devil Fruit Uses, Zoan Hybrid Form, Zoan Full Beast Form], gear +9, issues 0
+PASS Roma: Hybrid Form spends Devil Fruit Uses 
+PASS Roma: uses 5 -> 4 
+PASS Roma: temp HP = level x2 20 (L10)
+PASS Roma: duration by level 28800s at L10
+PASS Roma: +proficiency weapon damage prof 4
+PASS Roma: Full Beast spends Devil Fruit Uses 
+PASS Roma: Inner Beast has Sulong activity 
+PASS Roma: Sulong +4 Str/Dex 17->21, 16->20
+PASS Hybrid: Hybrid Form spends Devil Fruit Uses 
+PASS Hybrid: uses 4 -> 3 
+PASS Hybrid: temp HP = level x2 16 (L8)
+PASS Hybrid: duration by level 3600s at L8
+PASS Hybrid: +proficiency weapon damage prof 3
+PASS Hybrid: Full Beast spends Devil Fruit Uses 
+PASS Hybrid: Inner Beast has Sulong activity 
+PASS Hybrid: Sulong +4 Str/Dex 17->21, 16->20
+PASS Sulong: Hybrid Form spends Devil Fruit Uses 
+PASS Sulong: uses 4 -> 3 
+PASS Sulong: temp HP = level x2 16 (L8)
+PASS Sulong: duration by level 3600s at L8
+PASS Sulong: +proficiency weapon damage prof 3
+PASS Sulong: Full Beast spends Devil Fruit Uses 
+PASS Sulong: Inner Beast has Sulong activity 
+PASS Sulong: Sulong +4 Str/Dex 17->21, 16->20
+PASS Malphas: Hybrid Form spends Devil Fruit Uses 
+PASS Malphas: uses 4 -> 3 
+PASS Malphas: temp HP = level x2 16 (L8)
+PASS Malphas: duration by level 3600s at L8
+PASS Malphas: +proficiency weapon damage prof 3
+PASS Malphas: Full Beast spends Devil Fruit Uses 
+PASS Malphas: not a Mink, no Inner Beast expected 
+PASS Full Beast Form is a transform activity 
+PASS Full Beast: hit points = 6 x level + beast Con mod 67 vs 67
+PASS Full Beast: uses the beast's Str 26
+PASS Full Beast: keeps Int/Wis/Cha 
+PASS Full Beast: revert restores the original actor and hit points 71 vs 71
+PASS Sulong ending adds one level of exhaustion 0 -> 1
+PASS Enhanced Form raises size one category med -> lg
+PASS size returns when it ends 
+PASS Import journals: copies the 14 journals {"made":14,"replaced":0,"skipped":0}
+PASS Import journals: a second run skips them {"made":0,"replaced":0,"skipped":14}
+PASS GM and both players are connected at once 
+PASS Player sees the character they own 
+PASS Player cannot see a GM-only character 
+PASS The other player (not the owner) cannot open that character 
+PASS Player cannot see a GM whisper 
+PASS Player receives a public message 
+PASS Player cannot create a scene refused
+PASS Player cannot change a world setting refused
+PASS Player can read the OP5e compendium 
+PASS Player can read the Shop Catalogues journal 
+PASS Player rolls initiative for their own character; the GM sees it 
+PASS Player uses their weapon; a chat card reaches the GM used; 147 -> 148
+PASS An effect the GM adds shows up on the player's client 
+PASS Player: Create OPC is available can create actors in this world: false
+PASS Trusted Player: Create OPC is available can create actors in this world: false
+MULTIPLAYER: 15 pass, 0 fail
+PASS walkthrough: Create OPC wizard builds the character in the real UI ["Fighter 3"]
+walkthrough: 0 pass, 0 fail
+PASS walkthrough2: Level-up through the real UI reaches level 8 with Haki L8 haki 1
+walkthrough2: 0 pass, 0 fail
+PASS walkthrough3: Level-up to 14 grants the whole Haki chain L14 haki 4
+PASS walkthrough3: A feat whose prerequisite is not met is refused 1 refusal(s)
+walkthrough3: 0 pass, 0 fail
+walkthrough4: 5 pass, 0 fail
+walkthrough5: 1 pass, 0 fail
+walkthrough6: 10 pass, 0 fail
+WALKTHROUGHS: 20 pass, 0 fail
+
+Automated stages passed. Now do the manual stages in docs/SHIP-CHECK.md.
+exit 0

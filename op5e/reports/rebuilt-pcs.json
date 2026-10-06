@@ -1,7 +1,7 @@
 [
  {
   "name": "Matthew \"The Jack\" Burgess",
-  "id": "LbfNHhcs6JATo9so",
+  "id": "WFSAIFNpG4Mh1ytT",
   "race": "Human",
   "background": "Gambler",
   "classes": [
@@ -54,7 +54,7 @@
  },
  {
   "name": "Matthew \"The Jack\" Burgess (Marksman)",
-  "id": "Y2LXLkVW9k4v0SbI",
+  "id": "6wRJ75j5sdl6tDpN",
   "race": "Human",
   "background": "Gambler",
   "classes": [
@@ -107,7 +107,7 @@
  },
  {
   "name": "Baptiste",
-  "id": "RUFd3w1AheirXOHF",
+  "id": "FsBzmdRNNVevTrGZ",
   "race": "Lunarian",
   "background": "Boxer",
   "classes": [
@@ -118,7 +118,7 @@
   ],
   "level": 10,
   "hp": 73,
-  "ac": 15,
+  "ac": 20,
   "prof": 4,
   "abilities": {
    "str": 10,
@@ -159,7 +159,7 @@
  },
  {
   "name": "Malphas",
-  "id": "bhEAA42wmIm5ZXve",
+  "id": "zQuxySXVu3Xl6H1e",
   "race": "Lunarian",
   "background": "Wanderer",
   "classes": [
@@ -170,7 +170,7 @@
   ],
   "level": 8,
   "hp": 59,
-  "ac": 15,
+  "ac": 18,
   "prof": 3,
   "abilities": {
    "str": 12,
@@ -212,7 +212,7 @@
  },
  {
   "name": "Thunderbird (Form 1)",
-  "id": "JIkI8OiKDgebda0k",
+  "id": "2X8L70V8zI8nqnq7",
   "race": "Lunarian",
   "background": "Wanderer",
   "classes": [
@@ -223,7 +223,7 @@
   ],
   "level": 4,
   "hp": 31,
-  "ac": 15,
+  "ac": 18,
   "prof": 2,
   "abilities": {
    "str": 14,
@@ -264,7 +264,7 @@
  },
  {
   "name": "Thunderbird (Form 2)",
-  "id": "xupX51OFsKTpn4sV",
+  "id": "pFDebLijmAvqudSX",
   "race": "Lunarian",
   "background": "Wanderer",
   "classes": [
@@ -275,7 +275,7 @@
   ],
   "level": 8,
   "hp": 59,
-  "ac": 15,
+  "ac": 18,
   "prof": 3,
   "abilities": {
    "str": 14,
@@ -317,7 +317,7 @@
  },
  {
   "name": "B.O.B",
-  "id": "NnbntVnVuekqEYQ7",
+  "id": "BPF1eMw5FzvgHmMP",
   "race": "Augmented",
   "background": "Scientist",
   "classes": [
@@ -367,7 +367,7 @@
  },
  {
   "name": "Roma",
-  "id": "HYL5zf2ObT3qv20R",
+  "id": "JXAOFcFTxBHzwzB1",
   "race": "Mink",
   "background": "Cook",
   "classes": [
@@ -380,7 +380,7 @@
   ],
   "level": 10,
   "hp": 101,
-  "ac": 13,
+  "ac": 16,
   "prof": 4,
   "abilities": {
    "str": 17,
@@ -390,19 +390,17 @@
    "wis": 10,
    "cha": 10
   },
-  "features": 32,
+  "features": 30,
   "feats": [
    "Role: Captain",
    "Alert",
    "Gourmand",
-   "Role: Navigator",
-   "Creativity Adept",
    "Sentinel",
    "Devil Fruit Uses",
    "Zoan Hybrid Form",
    "Zoan Full Beast Form"
   ],
-  "skillsProf": 15,
+  "skillsProf": 14,
   "gearAdded": 12,
   "gearStd": [
    "Common Clothes",
@@ -420,7 +418,7 @@
  },
  {
   "name": "Hybrid",
-  "id": "aeOEkHWPKAqkdxlI",
+  "id": "yhdE4HuUyklH2dkU",
   "race": "Mink",
   "background": "Cook",
   "classes": [
@@ -433,7 +431,7 @@
   ],
   "level": 8,
   "hp": 81,
-  "ac": 13,
+  "ac": 16,
   "prof": 3,
   "abilities": {
    "str": 17,
@@ -443,19 +441,17 @@
    "wis": 10,
    "cha": 10
   },
-  "features": 28,
+  "features": 26,
   "feats": [
    "Role: Captain",
    "Alert",
    "Gourmand",
-   "Role: Navigator",
-   "Creativity Adept",
    "Sentinel",
    "Devil Fruit Uses",
    "Zoan Hybrid Form",
    "Zoan Full Beast Form"
   ],
-  "skillsProf": 15,
+  "skillsProf": 14,
   "gearAdded": 9,
   "gearStd": [
    "Common Clothes",
@@ -473,7 +469,7 @@
  },
  {
   "name": "Sulong",
-  "id": "nrVtN6RNgB8AL5Bt",
+  "id": "kXpmRYzonRrv5qjv",
   "race": "Mink",
   "background": "Cook",
   "classes": [
@@ -486,7 +482,7 @@
   ],
   "level": 8,
   "hp": 81,
-  "ac": 13,
+  "ac": 16,
   "prof": 3,
   "abilities": {
    "str": 17,
@@ -496,19 +492,17 @@
    "wis": 10,
    "cha": 10
   },
-  "features": 28,
+  "features": 26,
   "feats": [
    "Role: Captain",
    "Alert",
    "Gourmand",
-   "Role: Navigator",
-   "Creativity Adept",
    "Sentinel",
    "Devil Fruit Uses",
    "Zoan Hybrid Form",
    "Zoan Full Beast Form"
   ],
-  "skillsProf": 15,
+  "skillsProf": 14,
   "gearAdded": 9,
   "gearStd": [
    "Common Clothes",
