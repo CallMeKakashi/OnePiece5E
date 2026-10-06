@@ -299,3 +299,15 @@ button.danger {
 .op5e-shop .stockctl button { width: auto; min-width: 26px; height: 26px; padding: 0 6px; line-height: 24px; font-size: 12px; }
 .op5e-shop .guides { display: flex; gap: 6px; flex-wrap: wrap; }
 .op5e-shop .guides button { width: auto; font-size: 12px; }
+
+
+/* Compact chat cards (client setting "Compact chat cards") */
+body.op5e-compact-chat #chat .chat-message { padding: 4px 6px; margin: 0 0 3px; }
+body.op5e-compact-chat #chat .chat-message .message-header { margin-bottom: 2px; font-size: var(--font-size-12); }
+body.op5e-compact-chat #chat .chat-message .message-content { font-size: var(--font-size-12); line-height: 1.25; }
+body.op5e-compact-chat #chat .chat-message .dnd5e2.chat-card .card-header { padding: 2px 4px; gap: 4px; }
+body.op5e-compact-chat #chat .chat-message .dnd5e2.chat-card .card-header img { width: 28px; height: 28px; }
+body.op5e-compact-chat #chat .chat-message .dnd5e2.chat-card .description,
+body.op5e-compact-chat #chat .chat-message .dnd5e2.chat-card .card-caption { margin: 2px 0; padding: 0; }
+body.op5e-compact-chat #chat .chat-message .dice-roll { margin: 2px 0; }
+body.op5e-compact-chat #chat .chat-message .dice-formula, body.op5e-compact-chat #chat .chat-message .dice-tooltip { padding: 1px 4px; }

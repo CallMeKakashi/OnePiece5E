@@ -31,6 +31,7 @@ export const STAGES = [
   ["canvas effects", "node dev/harness/canvas-fx.mjs", "Big-hit screen shake and burst: triggers, threshold, per-player opt-out"],
   ["extra sources", "node dev/harness/extra-sources.mjs", "An extra item compendium adds its feats (with source) to the free feat; the character gets it"],
   ["performance", "node dev/harness/perf.mjs", "op5e cost budget: script load, item creation, actor updates, startup sweeps"],
+  ["dnd5e 6 features", "node dev/harness/dnd5e6-features.mjs", "Best armor class, conditional effects, compact chat cards"],
   ["falling", "node dev/harness/falling.mjs", "Falling damage: 3d6 for 35 ft, applied with prone; 5 ft does nothing"],
   ["summons and ships", "node dev/harness/summons-ships.mjs", "Summon profiles resolve; cannons attack and have range; ships have HP, AC and linked cannons"],
   ["ship cannon", "node dev/harness/ships-fire.mjs", "A ship actor opens in the real UI and its cannon fires"],
