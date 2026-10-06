@@ -284,3 +284,18 @@ button.danger {
 .op5e-shop .gm-rows .field { display: flex; flex-direction: column; font-size: 11px; width: 90px; }
 .op5e-shop .gm-rows .field input { height: 24px; }
 .op5e-shop-button { width: auto; }
+
+.op5e-shop .bargain { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.op5e-shop .bargain .or { font-size: 12px; opacity: .7; }
+.op5e-shop .bargain input { width: 130px; }
+.op5e-shop .history { width: 100%; font-size: 12px; opacity: .85; margin: 2px 0 4px; display: grid; gap: 1px; }
+.op5e-shop .answer { width: 100%; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-top: 4px; }
+.op5e-shop .answer input[type=number] { width: 100px; }
+.op5e-shop .answer input[type=text] { flex: 1; min-width: 120px; }
+.op5e-shop .req.countered .badge { background: rgba(120,160,255,.4); }
+
+.op5e-shop .stockctl { display: flex; align-items: center; gap: 3px; }
+.op5e-shop .stockctl input { width: 54px; height: 26px; text-align: center; }
+.op5e-shop .stockctl button { width: auto; min-width: 26px; height: 26px; padding: 0 6px; line-height: 24px; font-size: 12px; }
+.op5e-shop .guides { display: flex; gap: 6px; flex-wrap: wrap; }
+.op5e-shop .guides button { width: auto; font-size: 12px; }

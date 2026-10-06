@@ -10,7 +10,7 @@ export class ShopGMApp extends HandlebarsApplicationMixin(ApplicationV2) {
   static DEFAULT_OPTIONS = {
     id: "op5e-shop-gm", classes: ["op5e-shop", "op5e-shop-gm"], window: { title: "Shop control", resizable: true }, position: { width: 640, height: 720 },
     actions: { select: ShopGMApp.#select, newShop: ShopGMApp.#newShop, deleteShop: ShopGMApp.#deleteShop, showAll: ShopGMApp.#showAll, hideAll: ShopGMApp.#hideAll, toggleUser: ShopGMApp.#toggleUser,
-      approve: ShopGMApp.#approve, decline: ShopGMApp.#decline, removeItem: ShopGMApp.#removeItem },
+      stockUp: ShopGMApp.#stockUp, stockDown: ShopGMApp.#stockDown, stockOut: ShopGMApp.#stockOut, stockInf: ShopGMApp.#stockInf, restock: ShopGMApp.#restock, approve: ShopGMApp.#approve, decline: ShopGMApp.#decline, counter: ShopGMApp.#counter, removeItem: ShopGMApp.#removeItem },
   };
   static PARTS = { body: { template: `modules/${ID}/templates/shop-gm.hbs` } };
 
@@ -25,13 +25,15 @@ export class ShopGMApp extends HandlebarsApplicationMixin(ApplicationV2) {
       return { id: u.id, name: u.name, color: u.color?.css ?? "#888", active: u.active, shown, looking: viewers.has(u.id), state: viewers.has(u.id) ? "looking now" : shown ? "shown" : u.active ? "not shown" : "offline" };
     });
     const all = Object.values(game.settings.get(ID, "shopRequests"));
-    const decorate = (r) => ({ ...r, text: r.lines.map((l) => `${l.qty}x ${l.name}`).join(", "), totalText: fmt(r.total), buy: r.kind === "buy", purseText: fmt(wealthIn(game.actors.get(r.actorId) ?? { system: { currency: {} } })), approved: r.status === "approved", declined: r.status === "declined", cancelled: r.status === "cancelled" });
+    const decorate = (r) => ({ ...r, offered: (r.offers ?? []).length > 0, offerText: fmt(r.offers?.at(-1)?.amount ?? 0), byPlayer: r.offers?.at(-1)?.by === "player", agreedText: fmt(r.agreed ?? r.total),
+      history: (r.offers ?? []).map((o) => ({ who: o.by === "gm" ? "You" : r.actorName, amountText: fmt(o.amount), note: o.note })), countered: r.status === "countered", text: r.lines.map((l) => `${l.qty}x ${l.name}`).join(", "), totalText: fmt(r.total), buy: r.kind === "buy", purseText: fmt(wealthIn(game.actors.get(r.actorId) ?? { system: { currency: {} } })), approved: r.status === "approved", declined: r.status === "declined", cancelled: r.status === "cancelled" });
     return {
       cur, shops: Object.values(shops).map((s) => ({ id: s.id, name: s.name, on: s.id === this.shopId, pending: all.filter((r) => r.shopId === s.id && r.status === "pending").length })), hasShops: Object.keys(shops).length > 0,
-      shop: shop && { ...shop, keeperName: shop.keeper?.name ?? "Shopkeeper", keeperImg: shop.keeper?.img ?? "icons/svg/mystery-man.svg", wallet: shop.merchantId ? fmt(wealthIn(game.actors.get(shop.merchantId) ?? { system: { currency: {} } })) : null,
-        items: shop.items.map((i) => ({ ...i, stockValue: i.stock ?? "", lineText: fmt(i.price) })), empty: !shop.items.length, anyShown: shop.openAll || (shop.visibleTo ?? []).length > 0, allShown: !!shop.openAll },
+      shop: shop && { ...shop, typeLabel: shop.type ? T().types[shop.type]?.label : null, keeperName: shop.keeper?.name ?? "Shopkeeper", keeperImg: shop.keeper?.img ?? "icons/svg/mystery-man.svg", wallet: shop.merchantId ? fmt(wealthIn(game.actors.get(shop.merchantId) ?? { system: { currency: {} } })) : null,
+        items: shop.items.map((i) => ({ ...i, stockValue: i.stock ?? "", lineText: fmt(i.price), out: i.stock === 0, unlimited: i.stock === null })), empty: !shop.items.length, anyShown: shop.openAll || (shop.visibleTo ?? []).length > 0, allShown: !!shop.openAll },
       users, pending: all.filter((r) => r.status === "pending").reverse().map(decorate), hasPending: all.some((r) => r.status === "pending"),
-      recent: all.filter((r) => r.status !== "pending").slice(-10).reverse().map(decorate),
+      waiting: all.filter((r) => r.status === "countered").reverse().map(decorate), hasWaiting: all.some((r) => r.status === "countered"),
+      recent: all.filter((r) => r.status !== "pending" && r.status !== "countered").slice(-10).reverse().map(decorate),
     };
   }
 
@@ -74,5 +76,20 @@ export class ShopGMApp extends HandlebarsApplicationMixin(ApplicationV2) {
     if (note === null || note === undefined) return;
     try { await T().decide(el.dataset.id, false, note); } catch (e) { ui.notifications.warn(e.message); } this.render();
   }
+  static async #counter(ev, el) {
+    const req = Object.values(game.settings.get(ID, "shopRequests")).find((r) => r.id === el.dataset.id); if (!req) return;
+    const start = req.offers?.at(-1)?.amount ?? req.total;
+    const d = await foundry.applications.api.DialogV2.prompt({ window: { title: "Counter-offer" }, content: `<p>${req.actorName} (${req.kind === "buy" ? "buying" : "selling"}) &middot; list ${fmt(req.total)} ${currencyLabel()}${req.offers?.length ? `, they offered ${fmt(start)}` : ""}</p>
+      <label>Your price (${currencyLabel()}) <input type="number" name="amount" min="1" value="${req.kind === "buy" ? Math.max(start, req.total) : Math.min(start, req.total)}"></label><label>Say something <input type="text" name="note" placeholder="optional"></label>`,
+      ok: { label: "Send counter-offer", callback: (e, b) => new foundry.applications.ux.FormDataExtended(b.form).object } });
+    if (!d) return;
+    try { await T().counter(el.dataset.id, d.amount, d.note); } catch (e) { ui.notifications.warn(e.message); }
+    this.render();
+  }
+  static async #stockUp(ev, el) { const e = shopsNow()[this.shopId].items.find((i) => i.key === el.dataset.key); await T().updateItem(this.shopId, e.key, { stock: (e.stock ?? 0) + 1 }); this.render(); }
+  static async #stockDown(ev, el) { const e = shopsNow()[this.shopId].items.find((i) => i.key === el.dataset.key); if (e.stock !== null) await T().updateItem(this.shopId, e.key, { stock: Math.max(0, e.stock - 1) }); this.render(); }
+  static async #stockOut(ev, el) { await T().updateItem(this.shopId, el.dataset.key, { stock: 0 }); this.render(); }
+  static async #stockInf(ev, el) { await T().updateItem(this.shopId, el.dataset.key, { stock: null }); this.render(); }
+  static async #restock() { const n = await T().restock(this.shopId); ui.notifications.info(`Reset the quantities of ${n} items to the ${shopsNow()[this.shopId].type} template.`); this.render(); }
   static async #removeItem(ev, el) { await T().removeItem(this.shopId, el.dataset.key); this.render(); }
 }

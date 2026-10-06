@@ -13,7 +13,7 @@ const shopsNow = () => game.settings.get(ID, "shops");
 export class ShopApp extends HandlebarsApplicationMixin(ApplicationV2) {
   static DEFAULT_OPTIONS = {
     id: "op5e-shop", classes: ["op5e-shop"], window: { title: "Shop", resizable: true }, position: { width: 560, height: 680 },
-    actions: { tab: ShopApp.#tab, cat: ShopApp.#cat, add: ShopApp.#add, sub: ShopApp.#sub, send: ShopApp.#send, cancel: ShopApp.#cancel },
+    actions: { view: ShopApp.#view, cat: ShopApp.#cat, add: ShopApp.#add, sub: ShopApp.#sub, send: ShopApp.#send, sendOffer: ShopApp.#sendOffer, cancel: ShopApp.#cancel, accept: ShopApp.#accept, counter: ShopApp.#counter, withdraw: ShopApp.#withdraw, guide: ShopApp.#guide },
   };
   static PARTS = { body: { template: `modules/${ID}/templates/shop.hbs` } };
 
@@ -39,7 +39,7 @@ export class ShopApp extends HandlebarsApplicationMixin(ApplicationV2) {
       rows = shop.items.map((e) => {
         const unit = Math.ceil(price(e, shop)), qty = cart[e.key] ?? 0, soldOut = e.stock !== null && e.stock <= 0;
         return { id: e.key, img: e.img, name: e.name, cat: catOf(e.type), unit, unitText: fmt(unit), qty, stockText: e.stock === null ? "" : soldOut ? "Sold out" : `${e.stock} left`, soldOut,
-          maxed: soldOut || (e.stock !== null && qty >= e.stock), can: purse >= unit, short: Math.max(0, unit - purse) };
+          maxed: soldOut || unit <= 0 || (e.stock !== null && qty >= e.stock), onRequest: unit <= 0, can: purse >= unit, short: Math.max(0, unit - purse) };
       });
     } else {
       const ratio = game.settings.get(ID, "sellRatio") / 100;
@@ -54,13 +54,15 @@ export class ShopApp extends HandlebarsApplicationMixin(ApplicationV2) {
     const lines = rows.filter((r) => r.qty > 0).map((r) => ({ ...r, lineText: fmt(r.unit * r.qty) }));
     const total = lines.reduce((n, l) => n + l.unit * l.qty, 0);
     const mine = Object.values(game.settings.get(ID, "shopRequests")).filter((r) => r.shopId === this.shopId && r.userId === game.user.id).slice(-3).reverse().map((r) => ({
-      ...r, text: r.lines.map((l) => `${l.qty}x ${l.name}`).join(", "), totalText: fmt(r.total), pending: r.status === "pending", approved: r.status === "approved", declined: r.status === "declined",
+      ...r, text: r.lines.map((l) => `${l.qty}x ${l.name}`).join(", "), totalText: fmt(r.total), pending: r.status === "pending", countered: r.status === "countered", approved: r.status === "approved", declined: r.status === "declined",
+      agreedText: fmt(r.agreed ?? r.total), haggled: (r.offers ?? []).length > 0, askText: fmt(r.offers?.at(-1)?.amount ?? 0), open: ["pending", "countered"].includes(r.status),
+      history: (r.offers ?? []).map((o) => ({ who: o.by === "gm" ? "The GM" : "You", amountText: fmt(o.amount), note: o.note })),
     }));
     const owned = game.actors.filter((a) => a.type === "character" && a.testUserPermission(game.user, "OWNER"));
     return {
-      shop, cur, keeper: shop.keeper ?? { name: "Shopkeeper", img: "icons/svg/mystery-man.svg" }, actorName: actor?.name, purseText: fmt(purse), buying, selling: !buying,
+      shop, guides: shop.guides ?? [], cur, keeper: shop.keeper ?? { name: "Shopkeeper", img: "icons/svg/mystery-man.svg" }, actorName: actor?.name, purseText: fmt(purse), buying, selling: !buying,
       categories, rows: shown, empty: !shown.length, lines, hasCart: lines.length > 0, totalText: fmt(total), after: fmt(buying ? purse - total : purse + total), overBudget: buying && total > purse,
-      requests: mine, hasPending: mine.some((r) => r.pending), owned: owned.length > 1 ? owned.map((a) => ({ id: a.id, name: a.name, on: a.id === this.actorId })) : null,
+      requests: mine, hasPending: mine.some((r) => r.open), owned: owned.length > 1 ? owned.map((a) => ({ id: a.id, name: a.name, on: a.id === this.actorId })) : null,
     };
   }
 
@@ -68,7 +70,7 @@ export class ShopApp extends HandlebarsApplicationMixin(ApplicationV2) {
     this.element.querySelector("select[name=actor]")?.addEventListener("change", (ev) => { this.actorId = ev.target.value; this.cart = { buy: {}, sell: {} }; this.render(); });
   }
 
-  static #tab(ev, el) { this.view = el.dataset.view; this.category = "all"; this.render(); }
+  static #view(ev, el) { this.view = el.dataset.view; this.category = "all"; this.render(); }
   static #cat(ev, el) { this.category = el.dataset.cat; this.render(); }
   static #add(ev, el) { const c = this.cart[this.view]; c[el.dataset.id] = (c[el.dataset.id] ?? 0) + 1; this.render(); }
   static #sub(ev, el) { const c = this.cart[this.view]; c[el.dataset.id] = Math.max(0, (c[el.dataset.id] ?? 0) - 1); if (!c[el.dataset.id]) delete c[el.dataset.id]; this.render(); }
@@ -77,6 +79,23 @@ export class ShopApp extends HandlebarsApplicationMixin(ApplicationV2) {
     const lines = Object.entries(cart).map(([id, qty]) => kind === "buy" ? { key: id, qty } : { itemId: id, qty });
     try { await T().sendRequest(this.shopId, this.actorId, kind, lines); this.cart[kind] = {}; ui.notifications.info("Sent to the GM. You will be told when they answer."); }
     catch (e) { ui.notifications.warn(e.message); }
+    this.render();
+  }
+  static async #sendOffer(ev, el) {
+    const kind = this.view, cart = this.cart[kind], amount = this.element.querySelector("input[name=offer]")?.value;
+    if (!amount) { ui.notifications.warn("Type the amount you want to offer."); return; }
+    const lines = Object.entries(cart).map(([id, qty]) => kind === "buy" ? { key: id, qty } : { itemId: id, qty });
+    try { await T().sendRequest(this.shopId, this.actorId, kind, lines, amount); this.cart[kind] = {}; ui.notifications.info("Your offer is with the GM."); }
+    catch (e) { ui.notifications.warn(e.message); }
+    this.render();
+  }
+  static async #guide(ev, el) { const page = await fromUuid(el.dataset.uuid); if (page) page.parent.sheet.render(true, { pageId: page.id }); else ui.notifications.warn("That guide is not available."); }
+  static async #accept(ev, el) { try { await T().respond(el.dataset.id, "accept"); } catch (e) { ui.notifications.warn(e.message); } this.render(); }
+  static async #withdraw(ev, el) { try { await T().respond(el.dataset.id, "withdraw"); } catch (e) { ui.notifications.warn(e.message); } this.render(); }
+  static async #counter(ev, el) {
+    const row = el.closest(".req"), amount = row.querySelector("input[name=counter]")?.value, note = row.querySelector("input[name=note]")?.value ?? "";
+    if (!amount) { ui.notifications.warn("Type your counter-offer."); return; }
+    try { await T().respond(el.dataset.id, "counter", amount, note); } catch (e) { ui.notifications.warn(e.message); }
     this.render();
   }
   static async #cancel(ev, el) { try { await T().cancelRequest(el.dataset.id); } catch (e) { ui.notifications.warn(e.message); } this.render(); }

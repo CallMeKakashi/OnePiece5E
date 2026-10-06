@@ -11,16 +11,26 @@
   <section class="status pending-box"><h3>Waiting for your approval</h3>
     {{#each pending}}<div class="req pending">
       <div class="text"><strong>{{actorName}}</strong> ({{userName}}) wants to {{#if buy}}buy{{else}}sell{{/if}} {{text}} at {{shopName}}<br>
-        <span class="sub">{{totalText}} {{../cur}}{{#if buy}}; purse {{purseText}} {{../cur}}{{/if}}</span></div>
+        <span class="sub">List {{totalText}} {{../cur}}{{#if buy}}; purse {{purseText}} {{../cur}}{{/if}}</span>
+        {{#if offered}}<div class="history">{{#each history}}<div>{{who}}: <strong>{{amountText}}</strong> {{../../cur}}{{#if note}} <em>"{{note}}"</em>{{/if}}</div>{{/each}}</div>{{/if}}</div>
       <button type="button" data-action="decline" data-id="{{id}}">Decline</button>
-      <button type="button" class="ok" data-action="approve" data-id="{{id}}">Approve</button>
+      <button type="button" data-action="counter" data-id="{{id}}">Counter</button>
+      <button type="button" class="ok" data-action="approve" data-id="{{id}}">Approve{{#if offered}} {{offerText}}{{/if}}</button>
     </div>{{/each}}
+  </section>
+  {{/if}}
+
+  {{#if hasWaiting}}
+  <section class="status"><h3>Waiting for the player's answer</h3>
+    {{#each waiting}}<div class="req countered"><div class="text"><strong>{{actorName}}</strong>: {{text}} at {{shopName}}
+      <div class="history">{{#each history}}<div>{{who}}: <strong>{{amountText}}</strong> {{../../cur}}{{#if note}} <em>"{{note}}"</em>{{/if}}</div>{{/each}}</div></div></div>{{/each}}
   </section>
   {{/if}}
 
   {{#if shop}}
   <section class="status"><h3>{{shop.name}}</h3>
-    <div class="keeper-line"><img class="keeper" src="{{shop.keeperImg}}" alt=""> Run by {{shop.keeperName}}{{#if shop.wallet}} (holds {{shop.wallet}} {{cur}}){{/if}} · markup {{shop.markup}}%
+    <div class="keeper-line"><img class="keeper" src="{{shop.keeperImg}}" alt=""> Run by {{shop.keeperName}}{{#if shop.wallet}} (holds {{shop.wallet}} {{cur}}){{/if}} · markup {{shop.markup}}%{{#if shop.typeLabel}} · {{shop.typeLabel}}{{/if}}
+      {{#if shop.type}}<button type="button" data-action="restock" class="quiet" title="Put the quantities back to the type's starting stock">Reset stock</button>{{/if}}
       <button type="button" data-action="deleteShop" class="quiet">Delete shop</button></div>
     <div class="showbar">
       <button type="button" class="ok" data-action="showAll">Show to everyone</button>
@@ -35,10 +45,16 @@
 
   <section class="status"><h3>Stock ({{cur}})</h3>
     <ul class="rows gm-rows">
-      {{#each shop.items}}<li class="row">
-        <img src="{{img}}" alt=""><div class="what"><div class="name">{{name}}</div></div>
+      {{#each shop.items}}<li class="row {{#if out}}soldout{{/if}}">
+        <img src="{{img}}" alt=""><div class="what"><div class="name">{{name}}</div><div class="note">{{#if out}}Out of stock{{else if unlimited}}Unlimited{{else}}{{stock}} in stock{{/if}}</div></div>
         <label class="field">Price <input type="number" min="0" data-field="price" data-key="{{key}}" value="{{price}}"></label>
-        <label class="field">Stock <input type="number" min="0" data-field="stock" data-key="{{key}}" value="{{stockValue}}" placeholder="any"></label>
+        <div class="stockctl">
+          <button type="button" data-action="stockDown" data-key="{{key}}" aria-label="One fewer" {{#if unlimited}}disabled{{/if}}>-</button>
+          <input type="number" min="0" data-field="stock" data-key="{{key}}" value="{{stockValue}}" placeholder="any" aria-label="Stock">
+          <button type="button" data-action="stockUp" data-key="{{key}}" aria-label="One more">+</button>
+          <button type="button" data-action="stockOut" data-key="{{key}}" title="Mark out of stock">Out</button>
+          <button type="button" data-action="stockInf" data-key="{{key}}" title="Unlimited">&infin;</button>
+        </div>
         <button type="button" data-action="removeItem" data-key="{{key}}" aria-label="Remove {{name}}">x</button>
       </li>{{/each}}
       {{#if shop.empty}}<li class="shop-empty">Drag items here from a compendium or the sidebar to stock this shop.</li>{{/if}}

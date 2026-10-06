@@ -50,3 +50,21 @@ Replaces the bare v0.1 window. Part of op5e (`scripts/shop/`), uses only dnd5e, 
 - Player cart to request; nothing changes until approve; approve applies; decline leaves everything; request that became unaffordable is declined with a reason; cancel works.
 - Prices show with the currency name; sold-out and short-of-funds states render.
 - A player cannot approve, cannot see or request from a shop not shown to them.
+
+## Bargaining (added)
+Accept or reject is not enough: either side can counter.
+- A player sends a cart at list price or with their own offer (an amount for the whole cart; for a sale, the amount they want).
+- The GM can approve at the asked amount, decline, or counter with an amount and a note. A GM counter is the GM's approval of that price.
+- The player then sees "The GM wants N Berries" and can accept (the deal executes at once), counter again, or withdraw. A player counter goes back to the GM, who answers the same way. There is no limit on rounds; every offer is kept in the request's history (who, amount, note) and shown to both sides.
+- Statuses: pending (the GM's turn), countered (the player's turn), approved, declined, cancelled.
+- The agreed amount replaces the computed total: it is split across the lines in proportion to their list prices (largest remainder, so the parts add up exactly), stock and funds are re-checked at execution, the merchant wallet receives or pays the agreed amount, and the chat receipt shows both the list price and the agreed price.
+- A player can only answer their own requests, and only when it is their turn.
+Acceptance: shop-approval.mjs covers player offer -> GM counter -> player accept (price applied), GM counter -> player counter -> GM approve, withdraw, and wrong-turn and wrong-player refusals.
+
+## Shop types (templates, added)
+Starting a shop offers a type that stocks it from the sourcebook's Shop Catalogues journal (op5e.reference), so the GM only adjusts quantities.
+- Types: Armory (Weapons without ship cannons, Armor and Shields), Shipwright company (Ship Weapons, Ship Rooms, Ship Upgrades, plus a "Shipwright's guide" button that opens the Ship Building and Repair / Upgrading your Ship journal pages for the player), General store (Adventuring Gear), Provisions and tavern (Provisions, Food and Potions), Tool merchant (Tools and Instruments), Apothecary (medical gear and potions from Adventuring Gear and Provisions), Curio and black market (Magic and Special Items with a price), Blank.
+- Each type has a default shopkeeper name, markup and stock rule (gear and food unlimited, weapons and armor 2, tools 2, ship parts 1, curios 1). Items without a price in the catalogue are left out (the GM can drag them in and price them).
+- The GM panel keeps a one-click "Reset stock to the template", and every stock row has quick controls: minus, plus, Out of stock, and Unlimited, besides the typed number.
+- A type can list guide journals (uuid and label); the storefront shows them as buttons above the items.
+Acceptance: each type produces a shop with items, the Armory has no cannons, the Shipwright has cannons, rooms and upgrades and a guide that resolves, Out of stock sets stock 0 and shows "Sold out" to the player, restock restores template quantities.

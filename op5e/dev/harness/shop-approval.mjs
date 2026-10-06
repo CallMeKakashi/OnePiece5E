@@ -30,7 +30,9 @@ try {
   p1 = await open("Test Player 1"); p2 = await open("Test Player 2");
 
   const S = await gm.evaluate(async ({ ids }) => {
-    for (const a of game.actors.filter((x) => x.name.startsWith("[SA]"))) await a.delete();
+    for (const a of game.actors.filter((x) => x.name.startsWith("[SA]") || x.name.startsWith("[DEMO]") || ["Baptiste", "Old Man Gen"].includes(x.name))) await a.delete();
+    for (const sh of game.shopTrade.list()) await game.shopTrade.deleteShop(sh.id);   // a clean slate: leftovers of a demo or an interrupted run
+    await game.settings.set("op5e", "shopRequests", []);
     const tag = { flags: { op5e: { harnessTest: true } } };
     const buyer = await Actor.create({ name: "[SA] Buyer", type: "character", ownership: { default: 0, [ids.p1]: 3 }, system: { currency: { gp: 1000 } }, ...tag });
     const buyer2 = await Actor.create({ name: "[SA] Buyer Two", type: "character", ownership: { default: 0, [ids.p2]: 3 }, system: { currency: { gp: 1000 } }, ...tag });
@@ -118,6 +120,71 @@ try {
   const other = await p2.evaluate(async (S) => { try { await game.shopTrade.sendRequest(S.generic, S.buyer, "buy", [{ key: S.potionKey, qty: 1 }]); return "sent"; } catch (e) { return e.message; } }, S);
   ok("A player cannot shop with someone else's character or an unshown shop", /not opened|not own/.test(other), other);
 
+  // ---- bargaining
+  await gm.evaluate((S) => { game.shopTrade.show(S.generic, "all"); return game.actors.get(S.buyer).update({ "system.currency.gp": 500 }); }, S); await wait(800);
+  const gp = () => gm.evaluate((S) => game.actors.get(S.buyer).system.currency.gp, S);
+  const status = (id) => gm.evaluate((id) => game.shopTrade.requests().find((r) => r.id === id)?.status, id);
+  const lastGp = await gp();
+  const b1 = await p1.evaluate((S) => game.shopTrade.sendRequest(S.generic, S.buyer, "buy", [{ key: S.potionKey, qty: 1 }], 30), S);
+  ok("A player can open with their own offer", b1.offered === 30 && await status(b1.id) === "pending");
+  const wrongTurn = await p1.evaluate((id) => game.shopTrade.respond(id, "accept").then(() => "allowed", (e) => e.message), b1.id);
+  ok("The player cannot answer before the GM has", /not your turn/.test(wrongTurn), wrongTurn);
+  await gm.evaluate((id) => game.shopTrade.counter(id, 45, "Closer to what it is worth"), b1.id); await wait(600);
+  ok("The GM can counter: the request waits for the player", await status(b1.id) === "countered");
+  ok("The player sees the GM's price and the Accept and Counter controls", await p1.evaluate(async () => { game.shopTrade.open(game.shopTrade.list()[0].id); await new Promise((r) => setTimeout(r, 1200)); const t = document.querySelector("#op5e-shop")?.innerText ?? ""; return /Accept 45/.test(t) && !!document.querySelector("#op5e-shop input[name=counter]"); }));
+  const stranger = await p2.evaluate((id) => game.shopTrade.respond(id, "accept").then(() => "allowed", (e) => e.message), b1.id);
+  ok("Another player cannot answer someone else's negotiation", /not your request/.test(stranger), stranger);
+  await p1.evaluate((id) => game.shopTrade.respond(id, "counter", 40, "Last offer"), b1.id); await wait(600);
+  ok("The player can counter again and it returns to the GM", await status(b1.id) === "pending");
+  await gm.evaluate((id) => game.shopTrade.decide(id, true), b1.id); await wait(900);
+  ok("Approving a haggled request charges the agreed price, not the list price", await gp() === lastGp - 40, `${lastGp} -> ${await gp()}`);
+  const hist = (await gm.evaluate(() => game.shopTrade.requests())).find((r) => r.id === b1.id);
+  ok("Every offer is kept in the history", hist.offers.map((o) => `${o.by}:${o.amount}`).join(",") === "player:30,gm:45,player:40", hist.offers.map((o) => `${o.by}:${o.amount}`).join(","));
+  ok("The receipt shows both prices", await gm.evaluate(() => game.messages.contents.some((m) => /for 40 .*\(list price 50\)/.test(m.content.replace(/<[^>]+>/g, "")))));
+  const b2 = await p1.evaluate((S) => game.shopTrade.sendRequest(S.generic, S.buyer, "buy", [{ key: S.potionKey, qty: 1 }], 20), S);
+  await gm.evaluate((id) => game.shopTrade.counter(id, 48), b2.id); await wait(500);
+  const before2 = await gp();
+  await p1.evaluate((id) => game.shopTrade.respond(id, "accept"), b2.id); await wait(900);
+  ok("Accepting the GM's counter closes the deal at that price", await status(b2.id) === "approved" && await gp() === before2 - 48);
+  const b3 = await p1.evaluate((S) => game.shopTrade.sendRequest(S.generic, S.buyer, "buy", [{ key: S.potionKey, qty: 1 }], 10), S);
+  await p1.evaluate((id) => game.shopTrade.respond(id, "withdraw"), b3.id); await wait(400);
+  ok("A player can withdraw while waiting", await status(b3.id) === "cancelled");
+  const bad = await p1.evaluate((S) => game.shopTrade.sendRequest(S.generic, S.buyer, "buy", [{ key: S.potionKey, qty: 1 }], 0).then(() => "allowed", (e) => e.message), S);
+  ok("An offer must be above zero", /above zero/.test(bad), bad);
+  ok("Shares of an agreed amount add up exactly", await gm.evaluate(() => { const a = game.shopTrade.allocate; return [[100, [30, 30, 40]], [101, [1, 1, 1]], [7, [3, 5]], [1, [2, 2]]].every(([n, w]) => a(n, w).reduce((x, y) => x + y, 0) === n); }));
+  await p1.evaluate(() => { for (const w of Object.values(ui.windows)) w.close({ force: true }); for (const a of foundry.applications.instances.values()) if (a.id === "op5e-shop") a.close(); });
+
+  // ---- shop types from the sourcebook catalogues
+  const T = await gm.evaluate(async () => {
+    const t = game.shopTrade, r = {};
+    for (const type of ["armory", "shipwright", "general", "provisions", "tools", "apothecary", "curios"]) {
+      const id = await t.createShop(`[SA] ${type}`, { type }); const shop = t.list().find((s) => s.id === id);
+      r[type] = { n: shop.items.length, names: shop.items.map((i) => i.name), priced: type === "curios" ? shop.items.some((i) => !(i.price > 0)) : shop.items.every((i) => i.price > 0), guides: shop.guides.length, stocks: [...new Set(shop.items.map((i) => i.stock))], id };
+    }
+    const g = t.list().find((s) => s.id === r.shipwright.id).guides; r.guideOk = (await Promise.all(g.map((x) => fromUuid(x.uuid)))).every(Boolean);
+    return r;
+  });
+  ok("Every shop type stocks items (curios are unpriced: price on request)", Object.entries(T).filter(([k]) => k !== "guideOk").every(([, v]) => v.n > 0 && v.priced), Object.entries(T).filter(([k]) => k !== "guideOk").map(([k, v]) => `${k} ${v.n}`).join(", "));
+  ok("The armory sells weapons and armor but no ship cannons", T.armory.names.some((n) => /Breastplate/.test(n)) && T.armory.names.some((n) => /Longsword/.test(n)) && !T.armory.names.some((n) => /pounder/i.test(n)), `${T.armory.n} items`);
+  ok("The shipwright sells cannons, rooms and upgrades and has its guides", T.shipwright.names.some((n) => /pounder/.test(n)) && T.shipwright.names.some((n) => /Kitchen/.test(n)) && T.shipwright.names.some((n) => /Adam Wood/.test(n)) && T.shipwright.guides === 2 && T.guideOk, `${T.shipwright.n} items`);
+  ok("Stock rules: armory 2, shipwright 1, general store unlimited", T.armory.stocks.join() === "2" && T.shipwright.stocks.join() === "1" && T.general.stocks.join() === "");
+  const unpriced = await gm.evaluate((id) => game.shopTrade.list().find((s) => s.id === id).items.find((i) => !(i.price > 0))?.key, T.curios.id);
+  await gm.evaluate((id) => game.shopTrade.show(id, "all"), T.curios.id); await wait(800);
+  const onReq = await p1.evaluate(async ({ id, key, S }) => { try { await game.shopTrade.sendRequest(id, S.buyer, "buy", [{ key, qty: 1 }]); return "sent"; } catch (e) { return e.message; } }, { id: T.curios.id, key: unpriced, S });
+  ok("An unpriced curio cannot be requested until the GM prices it", /no price yet/.test(onReq), onReq);
+  await gm.evaluate((id) => game.shopTrade.hide(id), T.curios.id);
+  // out of stock on the fly, seen by the player, then restock
+  await gm.evaluate((id) => game.shopTrade.show(id, "all"), T.armory.id);
+  await p1.waitForSelector("#op5e-shop .shop-head", { timeout: 15000 });
+  const key = await gm.evaluate((id) => game.shopTrade.list().find((s) => s.id === id).items[0].key, T.armory.id);
+  await gm.evaluate(({ id, key }) => game.shopTrade.updateItem(id, key, { stock: 0 }), { id: T.armory.id, key }); await wait(1000);
+  ok("Out of stock shows as Sold out on the player's screen", /Sold out/.test(await p1.locator("#op5e-shop").innerText()));
+  await gm.evaluate((id) => game.shopTrade.restock(id), T.armory.id);
+  ok("Reset stock puts the template quantity back", await gm.evaluate(({ id, key }) => game.shopTrade.list().find((s) => s.id === id).items.find((i) => i.key === key).stock === 2, { id: T.armory.id, key }));
+  await gm.evaluate(async () => { for (const s of game.shopTrade.list().filter((x) => /^\[SA\] (armory|shipwright|general|provisions|tools|apothecary|curios)$/.test(x.name))) { await game.shopTrade.hide(s.id); await game.shopTrade.deleteShop(s.id); } });
+
+  await p1.evaluate(() => { for (const a of foundry.applications.instances.values()) if (a.id === "op5e-shop") a.close(); }); await wait(500);
+  await gm.evaluate((S) => game.shopTrade.show(S.generic, "all"), S); await p1.waitForSelector("#op5e-shop .shop-head", { timeout: 15000 });
   // hide and show to all
   await gm.evaluate((S) => game.shopTrade.hide(S.generic, "all"), S); await wait(1200);
   ok("Hide closes the storefront", !(await p1.locator("#op5e-shop").count()));

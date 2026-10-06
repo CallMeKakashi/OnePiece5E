@@ -8,9 +8,10 @@
     <div class="purse"><div class="sub">{{actorName}}'s purse</div><div class="amount">{{purseText}} <span class="cur">{{cur}}</span></div></div>
   </header>
   {{#if owned}}<div class="picker"><label>Shopping as <select name="actor">{{#each owned}}<option value="{{id}}" {{#if on}}selected{{/if}}>{{name}}</option>{{/each}}</select></label></div>{{/if}}
+  {{#if guides.length}}<div class="guides">{{#each guides}}<button type="button" data-action="guide" data-uuid="{{uuid}}"><i class="fa-solid fa-book-open"></i> {{label}}</button>{{/each}}</div>{{/if}}
   <nav class="tabs">
-    <button type="button" data-action="tab" data-view="buy" class="{{#if buying}}on{{/if}}">Buy</button>
-    <button type="button" data-action="tab" data-view="sell" class="{{#if selling}}on{{/if}}">Sell</button>
+    <button type="button" data-action="view" data-view="buy" class="{{#if buying}}on{{/if}}">Buy</button>
+    <button type="button" data-action="view" data-view="sell" class="{{#if selling}}on{{/if}}">Sell</button>
   </nav>
   <nav class="cats">{{#each categories}}<button type="button" data-action="cat" data-cat="{{key}}" class="chip {{#if on}}on{{/if}}">{{label}} <span class="n">{{n}}</span></button>{{/each}}</nav>
   <ul class="rows">
@@ -18,8 +19,8 @@
     <li class="row {{#if soldOut}}soldout{{/if}}">
       <img src="{{img}}" alt="">
       <div class="what"><div class="name">{{name}}</div><div class="note">{{cat}}{{#if stockText}} · {{stockText}}{{/if}}</div></div>
-      <div class="cost"><div class="price">{{unitText}} <span class="cur">{{../cur}}</span></div>
-        {{#if ../buying}}{{#if soldOut}}<div class="state bad">Sold out</div>{{else if can}}<div class="state good">You can afford it</div>{{else}}<div class="state bad">{{short}} short</div>{{/if}}{{/if}}</div>
+      <div class="cost"><div class="price">{{#if onRequest}}Ask the GM{{else}}{{unitText}} <span class="cur">{{../cur}}</span>{{/if}}</div>
+        {{#if ../buying}}{{#if soldOut}}<div class="state bad">Sold out</div>{{else if onRequest}}<div class="state">Price on request</div>{{else if can}}<div class="state good">You can afford it</div>{{else}}<div class="state bad">{{short}} short</div>{{/if}}{{/if}}</div>
       <div class="qty">
         {{#if qty}}<button type="button" data-action="sub" data-id="{{id}}" aria-label="Remove one">-</button><span class="q">{{qty}}</span>{{/if}}
         <button type="button" data-action="add" data-id="{{id}}" {{#if maxed}}disabled{{/if}} aria-label="Add one">+</button>
@@ -33,15 +34,28 @@
     <div class="lines">{{#each lines}}<div>{{qty}}x {{name}} <span class="amt">{{lineText}}</span></div>{{/each}}</div>
     <div class="totals"><div>{{#if buying}}Total{{else}}You receive{{/if}}: <strong>{{totalText}} {{cur}}</strong></div><div class="sub">Purse after: {{after}} {{cur}}</div>
       {{#if overBudget}}<div class="state bad">This is more than your purse holds.</div>{{/if}}</div>
-    <button type="button" class="send" data-action="send" {{#if overBudget}}disabled{{/if}}>Send to the GM</button>
+    <div class="bargain">
+      <button type="button" class="send" data-action="send" {{#if overBudget}}disabled{{/if}}>Send at {{#if buying}}this price{{else}}this offer{{/if}}</button>
+      <span class="or">or haggle:</span>
+      <input type="number" name="offer" min="1" placeholder="Your price in {{cur}}">
+      <button type="button" data-action="sendOffer">Make an offer</button>
+    </div>
   </footer>
   {{/if}}
   {{#if requests.length}}
   <section class="status"><h3>Your requests</h3>
     {{#each requests}}<div class="req {{status}}">
-      <span class="badge">{{#if pending}}Waiting for the GM{{else if approved}}Approved{{else if declined}}Declined{{else}}Cancelled{{/if}}</span>
-      <span class="text">{{text}} ({{totalText}} {{../cur}})</span>{{#if note}}<span class="note">{{note}}</span>{{/if}}
-      {{#if pending}}<button type="button" data-action="cancel" data-id="{{id}}">Cancel</button>{{/if}}
+      <span class="badge">{{#if pending}}Waiting for the GM{{else if countered}}The GM answered{{else if approved}}Approved{{else if declined}}Declined{{else}}Withdrawn{{/if}}</span>
+      <span class="text">{{text}} (list {{totalText}} {{../cur}}{{#if approved}}, agreed {{agreedText}}{{/if}})</span>
+      {{#if haggled}}<div class="history">{{#each history}}<div>{{who}}: <strong>{{amountText}}</strong> {{../../cur}}{{#if note}} <em>"{{note}}"</em>{{/if}}</div>{{/each}}</div>{{/if}}
+      {{#if note}}<span class="note">{{note}}</span>{{/if}}
+      {{#if countered}}<div class="answer">
+        <button type="button" class="ok" data-action="accept" data-id="{{id}}">Accept {{askText}} {{../cur}}</button>
+        <input type="number" name="counter" min="1" placeholder="Counter">
+        <input type="text" name="note" placeholder="Say something (optional)">
+        <button type="button" data-action="counter" data-id="{{id}}">Counter</button>
+        <button type="button" data-action="withdraw" data-id="{{id}}">Withdraw</button></div>{{/if}}
+      {{#if pending}}<button type="button" data-action="withdraw" data-id="{{id}}">Withdraw</button>{{/if}}
     </div>{{/each}}
   </section>
   {{/if}}
