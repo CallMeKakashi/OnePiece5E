@@ -17,6 +17,7 @@
       "name": "Blood & Brine"
     }
   ],
+  "socket": true,
   "esmodules": [
     "scripts/compendium.mjs",
     "scripts/character-creator.mjs",

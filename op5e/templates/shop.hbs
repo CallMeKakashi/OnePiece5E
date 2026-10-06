@@ -1,6 +1,49 @@
-<section class="shop-trade">
-  <h2>{{shop.name}}</h2>
-  {{#if actor}}<p>{{actor}} has {{wealth}}</p>{{/if}}
-  <ul>{{#each items}}<li><img src="{{img}}" width="24" height="24"> {{name}}: {{shown}} {{#unless unlimited}}({{stock}} left){{/unless}} <button type="button" data-action="buy" data-key="{{key}}">Buy</button></li>{{/each}}</ul>
-  {{#if mine.length}}<h3>Sell</h3><ul>{{#each mine}}<li>{{name}} x{{qty}}: offer {{offer}} <button type="button" data-action="sell" data-id="{{id}}">Sell 1</button></li>{{/each}}</ul>{{/if}}
+<section class="shop-body">
+{{#if gone}}
+  <p class="shop-empty">This shop is gone.</p>
+{{else}}
+  <header class="shop-head">
+    <img class="keeper" src="{{keeper.img}}" alt="">
+    <div class="who"><h2>{{shop.name}}</h2><div class="sub">run by {{keeper.name}}</div></div>
+    <div class="purse"><div class="sub">{{actorName}}'s purse</div><div class="amount">{{purseText}} <span class="cur">{{cur}}</span></div></div>
+  </header>
+  {{#if owned}}<div class="picker"><label>Shopping as <select name="actor">{{#each owned}}<option value="{{id}}" {{#if on}}selected{{/if}}>{{name}}</option>{{/each}}</select></label></div>{{/if}}
+  <nav class="tabs">
+    <button type="button" data-action="tab" data-view="buy" class="{{#if buying}}on{{/if}}">Buy</button>
+    <button type="button" data-action="tab" data-view="sell" class="{{#if selling}}on{{/if}}">Sell</button>
+  </nav>
+  <nav class="cats">{{#each categories}}<button type="button" data-action="cat" data-cat="{{key}}" class="chip {{#if on}}on{{/if}}">{{label}} <span class="n">{{n}}</span></button>{{/each}}</nav>
+  <ul class="rows">
+    {{#each rows}}
+    <li class="row {{#if soldOut}}soldout{{/if}}">
+      <img src="{{img}}" alt="">
+      <div class="what"><div class="name">{{name}}</div><div class="note">{{cat}}{{#if stockText}} · {{stockText}}{{/if}}</div></div>
+      <div class="cost"><div class="price">{{unitText}} <span class="cur">{{../cur}}</span></div>
+        {{#if ../buying}}{{#if soldOut}}<div class="state bad">Sold out</div>{{else if can}}<div class="state good">You can afford it</div>{{else}}<div class="state bad">{{short}} short</div>{{/if}}{{/if}}</div>
+      <div class="qty">
+        {{#if qty}}<button type="button" data-action="sub" data-id="{{id}}" aria-label="Remove one">-</button><span class="q">{{qty}}</span>{{/if}}
+        <button type="button" data-action="add" data-id="{{id}}" {{#if maxed}}disabled{{/if}} aria-label="Add one">+</button>
+      </div>
+    </li>
+    {{/each}}
+    {{#if empty}}<li class="shop-empty">{{#if buying}}Nothing for sale here right now.{{else}}You have nothing this shop will buy.{{/if}}</li>{{/if}}
+  </ul>
+  {{#if hasCart}}
+  <footer class="cart">
+    <div class="lines">{{#each lines}}<div>{{qty}}x {{name}} <span class="amt">{{lineText}}</span></div>{{/each}}</div>
+    <div class="totals"><div>{{#if buying}}Total{{else}}You receive{{/if}}: <strong>{{totalText}} {{cur}}</strong></div><div class="sub">Purse after: {{after}} {{cur}}</div>
+      {{#if overBudget}}<div class="state bad">This is more than your purse holds.</div>{{/if}}</div>
+    <button type="button" class="send" data-action="send" {{#if overBudget}}disabled{{/if}}>Send to the GM</button>
+  </footer>
+  {{/if}}
+  {{#if requests.length}}
+  <section class="status"><h3>Your requests</h3>
+    {{#each requests}}<div class="req {{status}}">
+      <span class="badge">{{#if pending}}Waiting for the GM{{else if approved}}Approved{{else if declined}}Declined{{else}}Cancelled{{/if}}</span>
+      <span class="text">{{text}} ({{totalText}} {{../cur}})</span>{{#if note}}<span class="note">{{note}}</span>{{/if}}
+      {{#if pending}}<button type="button" data-action="cancel" data-id="{{id}}">Cancel</button>{{/if}}
+    </div>{{/each}}
+  </section>
+  {{/if}}
+{{/if}}
 </section>

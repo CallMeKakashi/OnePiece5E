@@ -15,6 +15,7 @@ export const STAGES = [
   ["rules", "node dev/harness/rules.mjs", "Devil Fruit Uses, Haki tiers and the Brawler die by level"],
   ["batch 1 features", "node dev/harness/batch1.mjs", "Batch 1 text-only features change the numbers their text promises"],
   ["shop and trade", "node dev/harness/shop-trade.mjs", "Standalone shop module: buy, sell, trade, funds, stock, permissions"],
+  ["shop approval", "node dev/harness/shop-approval.mjs", "GM and two players: show, presence, cart, approve, decline, cancel, permissions"],
   ["fruit casting", "node dev/harness/fruit-casting.mjs", "Devil Fruit Uses as spell points; Zoans cast only in a form"],
   ["summons and ships", "node dev/harness/summons-ships.mjs", "Summon profiles resolve; cannons attack and have range; ships have HP, AC and linked cannons"],
   ["multi-player", "node dev/harness/multiplayer.mjs", "GM plus two players at once: permissions, whispers, shared combat, effects"],

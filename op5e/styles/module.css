@@ -221,3 +221,66 @@ button.danger {
 .op5e-cc__feat button {
   flex-shrink: 0;
 }
+
+/* Shop (storefront and GM panel) */
+.op5e-shop .window-content { padding: 0; }
+.op5e-shop .shop-body { display: flex; flex-direction: column; gap: 10px; padding: 12px; overflow-y: auto; height: 100%; font-size: 14px; }
+.op5e-shop h2 { margin: 0; font-size: 20px; border: 0; }
+.op5e-shop h3 { margin: 0 0 6px; font-size: 14px; border: 0; opacity: .85; }
+.op5e-shop .sub { font-size: 12px; opacity: .7; }
+.op5e-shop .cur { opacity: .75; font-weight: 400; }
+.op5e-shop .shop-head { display: flex; align-items: center; gap: 12px; padding-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,.12); }
+.op5e-shop .shop-head .who { flex: 1; min-width: 0; }
+.op5e-shop .keeper { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; border: 1px solid rgba(255,255,255,.25); flex: none; }
+.op5e-shop .purse { text-align: right; }
+.op5e-shop .purse .amount { font-size: 16px; font-weight: 700; }
+.op5e-shop .tabs { display: flex; gap: 6px; }
+.op5e-shop .tabs button { flex: 1; }
+.op5e-shop .tabs button.on, .op5e-shop .chip.on { background: rgba(120,160,255,.28); border-color: rgba(120,160,255,.7); }
+.op5e-shop .cats { display: flex; gap: 6px; flex-wrap: wrap; }
+.op5e-shop .chip { width: auto; padding: 2px 10px; line-height: 22px; font-size: 12px; border-radius: 12px; }
+.op5e-shop .chip .n { opacity: .6; margin-left: 4px; }
+.op5e-shop .chip .n.alert { background: #c0392b; color: #fff; border-radius: 8px; padding: 0 6px; opacity: 1; }
+.op5e-shop .rows { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.op5e-shop .row { display: flex; align-items: center; gap: 10px; padding: 6px 8px; border: 1px solid rgba(255,255,255,.12); border-radius: 8px; }
+.op5e-shop .row.soldout { opacity: .5; }
+.op5e-shop .row img { width: 36px; height: 36px; border: 0; border-radius: 6px; flex: none; }
+.op5e-shop .row .what { flex: 1; min-width: 0; }
+.op5e-shop .row .name { font-weight: 600; }
+.op5e-shop .row .note { font-size: 12px; opacity: .7; }
+.op5e-shop .row .cost { text-align: right; min-width: 120px; }
+.op5e-shop .row .price { font-weight: 700; }
+.op5e-shop .state { font-size: 12px; }
+.op5e-shop .state.good { color: #5fcf80; }
+.op5e-shop .state.bad { color: #ff7a6b; }
+.op5e-shop .qty { display: flex; align-items: center; gap: 4px; }
+.op5e-shop .qty button { width: 28px; height: 28px; padding: 0; line-height: 26px; }
+.op5e-shop .qty .q { min-width: 18px; text-align: center; font-weight: 700; }
+.op5e-shop .cart { display: grid; gap: 6px; padding: 10px; border: 1px solid rgba(120,160,255,.5); border-radius: 8px; background: rgba(120,160,255,.08); }
+.op5e-shop .cart .amt { float: right; opacity: .8; }
+.op5e-shop .cart .send, .op5e-shop button.ok { background: rgba(80,180,110,.35); border-color: rgba(80,180,110,.8); }
+.op5e-shop .status { padding: 8px 10px; border: 1px solid rgba(255,255,255,.12); border-radius: 8px; }
+.op5e-shop .pending-box { border-color: rgba(240,180,60,.7); background: rgba(240,180,60,.08); }
+.op5e-shop .req { display: flex; align-items: center; gap: 8px; padding: 4px 0; flex-wrap: wrap; }
+.op5e-shop .req .text { flex: 1; min-width: 160px; }
+.op5e-shop .req .badge { font-size: 11px; padding: 1px 8px; border-radius: 10px; background: rgba(255,255,255,.12); }
+.op5e-shop .req.pending .badge { background: rgba(240,180,60,.35); }
+.op5e-shop .req.approved .badge { background: rgba(80,180,110,.4); }
+.op5e-shop .req.declined .badge { background: rgba(220,90,80,.4); }
+.op5e-shop .req .note { font-size: 12px; opacity: .75; width: 100%; }
+.op5e-shop .shop-empty { opacity: .7; padding: 10px; text-align: center; list-style: none; }
+.op5e-shop .picker select { width: auto; }
+.op5e-shop .keeper-line { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.op5e-shop .keeper-line .quiet { margin-left: auto; width: auto; }
+.op5e-shop .showbar { display: flex; gap: 8px; margin-bottom: 8px; }
+.op5e-shop .people { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.op5e-shop .person { display: flex; align-items: center; gap: 8px; padding: 4px 8px; border-radius: 6px; border: 1px solid rgba(255,255,255,.1); }
+.op5e-shop .person .dot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.op5e-shop .person .pname { flex: 1; font-weight: 600; }
+.op5e-shop .person .pstate { font-size: 12px; opacity: .75; }
+.op5e-shop .person.looking { background: rgba(80,180,110,.18); border-color: rgba(80,180,110,.6); }
+.op5e-shop .person.looking .pstate { color: #5fcf80; opacity: 1; font-weight: 700; }
+.op5e-shop .person.shown { background: rgba(120,160,255,.12); }
+.op5e-shop .gm-rows .field { display: flex; flex-direction: column; font-size: 11px; width: 90px; }
+.op5e-shop .gm-rows .field input { height: 24px; }
+.op5e-shop-button { width: auto; }

@@ -14,11 +14,11 @@ const run = async () => {
   ok("Buy: stock decreases", T.list().find((s) => s.id === shop).items[0].stock === 1);
   await buyer.update({ "system.currency.gp": 0 });
   let err = ""; try { await T.buy(shop, buyer.id, key, 1); } catch (e) { err = e.message; }
-  ok("Insufficient funds refused", /Not enough/.test(err), err);
+  ok("Insufficient funds refused", /cannot afford/.test(err), err);
   await buyer.update({ "system.currency.gp": 100 });
   await T.buy(shop, buyer.id, key, 1);
   err = ""; try { await T.buy(shop, buyer.id, key, 1); } catch (e) { err = e.message; }
-  ok("Out of stock refused", /Out of stock/.test(err), err);
+  ok("Out of stock refused", /out of stock/i.test(err), err);
   await buyer.update({ "system.currency.gp": 10 });
   await T.addItem(shop, sword, { price: 3, stock: null }); const cheap = T.list().find((s) => s.id === shop).items[1].key;
   await T.buy(shop, buyer.id, cheap, 1);

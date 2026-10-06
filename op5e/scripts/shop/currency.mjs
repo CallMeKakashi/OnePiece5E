@@ -6,6 +6,9 @@ const mode = () => Object.keys(CONFIG.DND5E.currencies).length < 2 ? "single" : 
 // value of each coin in the smallest coin; conversion is "coins per gp" (cp 100, sp 10, ep 2, gp 1, pp 0.1)
 export const coinValues = (c) => { const most = Math.max(...Object.values(c).map((x) => x.conversion)); return Object.fromEntries(Object.entries(c).map(([k, v]) => [k, Math.round(most / v.conversion)])); };
 const unitsPerCoin = () => coinValues(CONFIG.DND5E.currencies);
+/** "Berries" in a Berries world, otherwise the coin name (the single currency, or Gold Pieces) */
+export const currencyLabel = () => { const k = mode() === "single" ? single() : "gp"; return game.i18n.localize(CONFIG.DND5E.currencies[k]?.label ?? k); };
+export const fmt = (n) => Number(n).toLocaleString();
 /** price of a shop entry (in gp, or the single coin) with the shop's markup percent applied */
 export const price = (entry, shop) => Math.round((entry.price ?? 0) * (100 + (shop.markup ?? 0))) / 100;   // integer maths first: 800000 * 1.1 must not become 880000.0000000001
 const totalSmall = (actor) => { const u = unitsPerCoin(), c = actor.system.currency; return Object.entries(u).reduce((n, [k, v]) => n + (c[k] ?? 0) * v, 0); };

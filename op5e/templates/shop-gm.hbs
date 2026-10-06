@@ -1,0 +1,56 @@
+<section class="shop-body">
+  <header class="shop-head">
+    <div class="who"><h2>Shop control</h2><div class="sub">Show a shop, watch who is browsing, approve what they ask for</div></div>
+    <button type="button" data-action="newShop">Start a shop</button>
+  </header>
+  {{#if hasShops}}
+  <nav class="cats">{{#each shops}}<button type="button" data-action="select" data-id="{{id}}" class="chip {{#if on}}on{{/if}}">{{name}}{{#if pending}} <span class="n alert">{{pending}}</span>{{/if}}</button>{{/each}}</nav>
+  {{/if}}
+
+  {{#if hasPending}}
+  <section class="status pending-box"><h3>Waiting for your approval</h3>
+    {{#each pending}}<div class="req pending">
+      <div class="text"><strong>{{actorName}}</strong> ({{userName}}) wants to {{#if buy}}buy{{else}}sell{{/if}} {{text}} at {{shopName}}<br>
+        <span class="sub">{{totalText}} {{../cur}}{{#if buy}}; purse {{purseText}} {{../cur}}{{/if}}</span></div>
+      <button type="button" data-action="decline" data-id="{{id}}">Decline</button>
+      <button type="button" class="ok" data-action="approve" data-id="{{id}}">Approve</button>
+    </div>{{/each}}
+  </section>
+  {{/if}}
+
+  {{#if shop}}
+  <section class="status"><h3>{{shop.name}}</h3>
+    <div class="keeper-line"><img class="keeper" src="{{shop.keeperImg}}" alt=""> Run by {{shop.keeperName}}{{#if shop.wallet}} (holds {{shop.wallet}} {{cur}}){{/if}} · markup {{shop.markup}}%
+      <button type="button" data-action="deleteShop" class="quiet">Delete shop</button></div>
+    <div class="showbar">
+      <button type="button" class="ok" data-action="showAll">Show to everyone</button>
+      <button type="button" data-action="hideAll" {{#unless shop.anyShown}}disabled{{/unless}}>Hide from everyone</button>
+    </div>
+    <ul class="people">
+      {{#each users}}<li class="person {{state}}"><span class="dot" style="background:{{color}}"></span><span class="pname">{{name}}</span><span class="pstate">{{state}}</span>
+        <button type="button" data-action="toggleUser" data-id="{{id}}">{{#if shown}}Hide{{else}}Show{{/if}}</button></li>{{/each}}
+      {{#unless users.length}}<li class="shop-empty">No players have joined this world yet.</li>{{/unless}}
+    </ul>
+  </section>
+
+  <section class="status"><h3>Stock ({{cur}})</h3>
+    <ul class="rows gm-rows">
+      {{#each shop.items}}<li class="row">
+        <img src="{{img}}" alt=""><div class="what"><div class="name">{{name}}</div></div>
+        <label class="field">Price <input type="number" min="0" data-field="price" data-key="{{key}}" value="{{price}}"></label>
+        <label class="field">Stock <input type="number" min="0" data-field="stock" data-key="{{key}}" value="{{stockValue}}" placeholder="any"></label>
+        <button type="button" data-action="removeItem" data-key="{{key}}" aria-label="Remove {{name}}">x</button>
+      </li>{{/each}}
+      {{#if shop.empty}}<li class="shop-empty">Drag items here from a compendium or the sidebar to stock this shop.</li>{{/if}}
+    </ul>
+  </section>
+  {{else}}
+  <p class="shop-empty">No shops yet. Start one to begin.</p>
+  {{/if}}
+
+  {{#if recent.length}}
+  <section class="status"><h3>Recent</h3>
+    {{#each recent}}<div class="req {{status}}"><span class="badge">{{#if approved}}Approved{{else if declined}}Declined{{else}}Cancelled{{/if}}</span><span class="text">{{actorName}}: {{text}} ({{totalText}} {{../cur}})</span>{{#if note}}<span class="note">{{note}}</span>{{/if}}</div>{{/each}}
+  </section>
+  {{/if}}
+</section>

@@ -1,0 +1,78 @@
+import { MODULE_ID } from "../constants.mjs";
+import { currencyLabel, fmt, wealthIn } from "./currency.mjs";
+// The GM's shop control panel: start a shop, stock it, show it to everyone or chosen players, see who is looking, approve requests.
+const ID = MODULE_ID;
+const { HandlebarsApplicationMixin, ApplicationV2 } = foundry.applications.api;
+const T = () => game.shopTrade;
+const shopsNow = () => game.settings.get(ID, "shops");
+
+export class ShopGMApp extends HandlebarsApplicationMixin(ApplicationV2) {
+  static DEFAULT_OPTIONS = {
+    id: "op5e-shop-gm", classes: ["op5e-shop", "op5e-shop-gm"], window: { title: "Shop control", resizable: true }, position: { width: 640, height: 720 },
+    actions: { select: ShopGMApp.#select, newShop: ShopGMApp.#newShop, deleteShop: ShopGMApp.#deleteShop, showAll: ShopGMApp.#showAll, hideAll: ShopGMApp.#hideAll, toggleUser: ShopGMApp.#toggleUser,
+      approve: ShopGMApp.#approve, decline: ShopGMApp.#decline, removeItem: ShopGMApp.#removeItem },
+  };
+  static PARTS = { body: { template: `modules/${ID}/templates/shop-gm.hbs` } };
+
+  constructor(o = {}) { super(o); this.shopId = o.shopId ?? Object.keys(shopsNow())[0]; }
+  get title() { return "Shop control"; }
+
+  async _prepareContext() {
+    const shops = shopsNow(), shop = shops[this.shopId], cur = currencyLabel();
+    const viewers = new Set(shop ? T().viewers(this.shopId) : []);
+    const users = game.users.filter((u) => !u.isGM).map((u) => {
+      const shown = !!shop && (shop.openAll || (shop.visibleTo ?? []).includes(u.id));
+      return { id: u.id, name: u.name, color: u.color?.css ?? "#888", active: u.active, shown, looking: viewers.has(u.id), state: viewers.has(u.id) ? "looking now" : shown ? "shown" : u.active ? "not shown" : "offline" };
+    });
+    const all = Object.values(game.settings.get(ID, "shopRequests"));
+    const decorate = (r) => ({ ...r, text: r.lines.map((l) => `${l.qty}x ${l.name}`).join(", "), totalText: fmt(r.total), buy: r.kind === "buy", purseText: fmt(wealthIn(game.actors.get(r.actorId) ?? { system: { currency: {} } })), approved: r.status === "approved", declined: r.status === "declined", cancelled: r.status === "cancelled" });
+    return {
+      cur, shops: Object.values(shops).map((s) => ({ id: s.id, name: s.name, on: s.id === this.shopId, pending: all.filter((r) => r.shopId === s.id && r.status === "pending").length })), hasShops: Object.keys(shops).length > 0,
+      shop: shop && { ...shop, keeperName: shop.keeper?.name ?? "Shopkeeper", keeperImg: shop.keeper?.img ?? "icons/svg/mystery-man.svg", wallet: shop.merchantId ? fmt(wealthIn(game.actors.get(shop.merchantId) ?? { system: { currency: {} } })) : null,
+        items: shop.items.map((i) => ({ ...i, stockValue: i.stock ?? "", lineText: fmt(i.price) })), empty: !shop.items.length, anyShown: shop.openAll || (shop.visibleTo ?? []).length > 0, allShown: !!shop.openAll },
+      users, pending: all.filter((r) => r.status === "pending").reverse().map(decorate), hasPending: all.some((r) => r.status === "pending"),
+      recent: all.filter((r) => r.status !== "pending").slice(-10).reverse().map(decorate),
+    };
+  }
+
+  async _onFirstRender() { /* the GM client tracks viewers itself */ }
+
+  _onRender() {
+    const root = this.element;
+    // inline price and stock editing
+    for (const input of root.querySelectorAll("input[data-field]")) input.addEventListener("change", async (ev) => {
+      const v = ev.target.value.trim(), field = ev.target.dataset.field;
+      const value = field === "stock" ? (v === "" ? null : Math.max(0, Math.floor(Number(v)))) : Math.max(0, Number(v) || 0);
+      await T().updateItem(this.shopId, ev.target.dataset.key, { [field]: value });
+    });
+    // drop items from anywhere to stock the shop
+    root.addEventListener("drop", async (ev) => {
+      if (!this.shopId) return;
+      const d = foundry.applications.ux.TextEditor.implementation.getDragEventData(ev);
+      if (d?.uuid && d.type === "Item") { ev.preventDefault(); await T().addItem(this.shopId, d.uuid); }
+    });
+  }
+
+  static #select(ev, el) { this.shopId = el.dataset.id; this.render(); }
+  static async #newShop() { const id = await T().startShopPrompt(); if (id) { this.shopId = id; this.render(); } }
+  static async #deleteShop() {
+    const shop = shopsNow()[this.shopId]; if (!shop) return;
+    if (!(await foundry.applications.api.DialogV2.confirm({ window: { title: "Delete shop" }, content: `<p>Delete ${shop.name} and its stock list?</p>` }))) return;
+    await T().hide(this.shopId); await T().deleteShop(this.shopId); this.shopId = Object.keys(shopsNow())[0]; this.render();
+  }
+  static async #showAll() { await T().show(this.shopId, "all"); this.render(); }
+  static async #hideAll() { await T().hide(this.shopId, "all"); this.render(); }
+  static async #toggleUser(ev, el) {
+    const shop = shopsNow()[this.shopId], id = el.dataset.id, shown = shop.openAll || (shop.visibleTo ?? []).includes(id);
+    if (shown && shop.openAll) { await T().hide(this.shopId, "all"); const others = game.users.filter((u) => !u.isGM && u.id !== id).map((u) => u.id); if (others.length) await T().show(this.shopId, others); }
+    else shown ? await T().hide(this.shopId, [id]) : await T().show(this.shopId, [id]);
+    this.render();
+  }
+  static async #approve(ev, el) { try { const r = await T().decide(el.dataset.id, true); if (r.status === "declined") ui.notifications.warn(r.note); } catch (e) { ui.notifications.warn(e.message); } this.render(); }
+  static async #decline(ev, el) {
+    const note = await foundry.applications.api.DialogV2.prompt({ window: { title: "Decline request" }, content: `<label>Reason (optional) <input type="text" name="note"></label>`, ok: { label: "Decline", callback: (e, b) => new foundry.applications.ux.FormDataExtended(b.form).object.note } });
+    if (note === null || note === undefined) return;
+    try { await T().decide(el.dataset.id, false, note); } catch (e) { ui.notifications.warn(e.message); } this.render();
+  }
+  static async #removeItem(ev, el) { await T().removeItem(this.shopId, el.dataset.key); this.render(); }
+}
