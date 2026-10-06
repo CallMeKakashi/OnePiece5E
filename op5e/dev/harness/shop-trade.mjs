@@ -44,6 +44,15 @@ const run = async () => {
   // permissions: a player cannot edit shops
   const asPlayer = await (async () => { const real = Object.getOwnPropertyDescriptor(User.prototype, "isGM"); Object.defineProperty(game.user, "isGM", { get: () => false, configurable: true }); try { await T.createShop("x"); return "allowed"; } catch (e) { return "refused"; } finally { delete game.user.isGM; } })();
   ok("Permissions: only the GM edits shops", asPlayer === "refused", asPlayer);
+  // NPC merchant: its own wealth moves with each sale
+  const npc = await mk("[SH] Merchant", 10); const ms = await T.createShop("[SH] Stall", { merchantId: npc.id });
+  await T.addItem(ms, sword, { price: 4, stock: null }); const mkey = T.list().find((x) => x.id === ms).items[0].key;
+  await buyer.update({ "system.currency.gp": 10 }); await T.buy(ms, buyer.id, mkey, 1);
+  ok("NPC merchant: receives the payment", T.wealth(npc) === 14 && T.wealth(buyer) === 6, `${T.wealth(npc)} / ${T.wealth(buyer)}`);
+  const sw2 = buyer.items.find((i) => i.name === "[SH] Sword"); await npc.update({ "system.currency.gp": 1 });
+  let e2 = ""; try { await T.sell(ms, buyer.id, sw2.id, 1); } catch (e) { e2 = e.message; }
+  ok("NPC merchant: cannot buy what it cannot afford", /cannot afford/.test(e2), e2);
+  await npc.delete();
   // export / import
   const copy = await T.importShop(T.exportShop(shop)); ok("Export and import a shop", T.list().find((s) => s.id === copy)?.items.length === 2);
   for (const a of [buyer, other]) await a.delete(); await sword.delete();

@@ -20,5 +20,7 @@ Default: dnd5e coins, read from `CONFIG.DND5E.currencies`, with change making. S
 ## Tests
 `node --test shop-trade/test/currency.test.mjs` (coin math) and `node dev/harness/shop-trade.mjs` from `op5e/` (live: buy, sell, trade, funds, stock, permissions, export/import).
 
-## Not yet
-Trade window UI, sell UI, an NPC merchant sheet type, coin-mode live test in a vanilla-currency world, a player-session socket test.
+`createShop(name, { merchantId })` makes an NPC merchant: its own wealth pays for items it buys and receives what it sells for. `game.shopTrade.openTrade(actor)` opens the trade window.
+
+## Not yet verified
+The windows (Sell list, trade dialog), coin mode in a vanilla-currency world, and a player-session socket round trip are written but untested.

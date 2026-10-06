@@ -2,4 +2,5 @@
   <h2>{{shop.name}}</h2>
   {{#if actor}}<p>{{actor}} has {{wealth}}</p>{{/if}}
   <ul>{{#each items}}<li><img src="{{img}}" width="24" height="24"> {{name}}: {{shown}} {{#unless unlimited}}({{stock}} left){{/unless}} <button type="button" data-action="buy" data-key="{{key}}">Buy</button></li>{{/each}}</ul>
+  {{#if mine.length}}<h3>Sell</h3><ul>{{#each mine}}<li>{{name}} x{{qty}}: offer {{offer}} <button type="button" data-action="sell" data-id="{{id}}">Sell 1</button></li>{{/each}}</ul>{{/if}}
 </section>

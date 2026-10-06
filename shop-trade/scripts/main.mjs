@@ -1,7 +1,7 @@
 // Shop and Trade for dnd5e: shops live in a world setting (never in compendiums); money and items move only on the GM's client.
 // API: game.shopTrade.{createShop, addItem, buy, sell, trade, open, exportShop, importShop}.
 // Players call the same functions; mutations are relayed to the active GM over the module socket, which checks ownership.
-import { ShopApp } from "./shop-app.mjs";
+import { ShopApp, openTradeDialog } from "./shop-app.mjs";
 import { price, canAfford, pay, receive, wealthIn } from "./currency.mjs";
 
 const ID = "dnd5e-shop-trade", SOCKET = `module.${ID}`;
@@ -32,6 +32,7 @@ const handlers = {
     const src = await fromUuid(entry.uuid); if (!src) fail("The item no longer exists.");
     const data = src.toObject(); delete data._id; if ("quantity" in (data.system ?? {})) data.system.quantity = qty;
     await pay(actor, total);
+    const merchant = shop.merchantId && game.actors.get(shop.merchantId); if (merchant) await receive(merchant, total);
     const [made] = await actor.createEmbeddedDocuments("Item", [data]);
     if (entry.stock !== null) { entry.stock -= qty; await saveShops(s); }
     await ChatMessage.create({ speaker: ChatMessage.getSpeaker({ actor }), content: `<p><strong>${actor.name}</strong> buys ${qty}x ${entry.name} from <em>${shop.name}</em> for ${total} ${unitLabel()}.</p>` });
@@ -42,6 +43,9 @@ const handlers = {
     if (!owns(userId, actor)) fail("You do not own that character.");
     const item = actor.items.get(itemId) ?? fail("No such item."), have = item.system.quantity ?? 1; qty = Math.min(Math.max(1, Math.floor(qty)), have);
     const total = Math.floor(Number(item.system.price?.value ?? 0) * qty * (game.settings.get(ID, "sellRatio") / 100));
+    const merchant = shop.merchantId && game.actors.get(shop.merchantId);
+    if (merchant && !canAfford(merchant, total)) fail(`${merchant.name} cannot afford that.`);
+    if (merchant) await pay(merchant, total);
     if (have > qty) await item.update({ "system.quantity": have - qty }); else await item.delete();
     await receive(actor, total);
     await ChatMessage.create({ speaker: ChatMessage.getSpeaker({ actor }), content: `<p><strong>${actor.name}</strong> sells ${qty}x ${item.name} to <em>${shop.name}</em> for ${total} ${unitLabel()}.</p>` });
@@ -89,7 +93,7 @@ const ready = () => {
   });
   const gmOnly = () => { if (!game.user.isGM) fail("GM only"); };
   game.shopTrade = {
-    async createShop(name, { markup = 0, open = true } = {}) { gmOnly(); const s = shops(), id = foundry.utils.randomID(); s[id] = { id, name, markup, open, items: [] }; await saveShops(s); return id; },
+    async createShop(name, { markup = 0, open = true, merchantId = null } = {}) { gmOnly(); const s = shops(), id = foundry.utils.randomID(); s[id] = { id, name, markup, open, merchantId, items: [] }; await saveShops(s); return id; },
     async addItem(shopId, uuidOrItem, { price: p = null, stock = null } = {}) {
       gmOnly(); const doc = typeof uuidOrItem === "string" ? await fromUuid(uuidOrItem) : uuidOrItem; if (!doc) fail("Item not found.");
       const s = shops(), shop = s[shopId] ?? fail("No such shop."); shop.items.push({ key: foundry.utils.randomID(), uuid: doc.uuid, name: doc.name, img: doc.img, price: p ?? Number(doc.system?.price?.value ?? 0), stock }); await saveShops(s);
@@ -103,6 +107,7 @@ const ready = () => {
     trade: (a, b, confirmedBy) => asGM("trade", { a, b, confirmedBy }),
     wealth: (actor) => wealthIn(actor),
     open: (shopId, actor) => new ShopApp({ shopId, actor }).render(true),
+    openTrade: (actor) => openTradeDialog(actor),
   };
 };
 // loaded late (the test harness imports it into a running world): run both steps at once
