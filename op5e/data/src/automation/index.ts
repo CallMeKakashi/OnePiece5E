@@ -28,3 +28,4 @@ import { batch5Specs } from "./text-batch5.js"; Object.assign(AUTOMATION, batch5
 import { batch6Specs } from "./text-batch6.js"; Object.assign(AUTOMATION, batch6Specs);
 import { batch7Specs } from "./text-batch7.js"; Object.assign(AUTOMATION, batch7Specs);
 import { auraSpecs } from "./auras.js"; Object.assign(AUTOMATION, auraSpecs);   // token-attached auras replace the earlier buttons
+import { atlItemSpecs } from "./atl-items.js"; Object.assign(AUTOMATION, atlItemSpecs);   // light, night vision and disguise through ATL
