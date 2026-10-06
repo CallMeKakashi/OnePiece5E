@@ -52,6 +52,7 @@ export const api = {
     const d = hit.toObject(); delete d._id; d._stats = { ...d._stats, compendiumSource: hit.uuid }; if (d.system && "quantity" in d.system) d.system.quantity = quantity;
     const [made] = await a.createEmbeddedDocuments("Item", [d]); return { added: made.name, type: made.type, from: hit.pack };
   },
+  async learnFruitSpell({ actor, spell }) { gm(); const hit = (await api.search({ query: spell, type: "spell", limit: 1 }))[0] ?? (await (async () => { for (const id of ["dnd5e.spells", "dnd5e.spells24"]) { const e = (await game.packs.get(id)?.getIndex())?.find((x) => norm(x.name) === norm(spell)); if (e) return { uuid: e.uuid }; } })()); if (!hit) throw new Error(`spell "${spell}" not found`); const made = await game.op5eFruitCasting.learn(actorByName(actor), hit.uuid); return { learned: made.name, level: made.system.level }; },
   async setActor({ actor, set }) { gm(); const a = actorByName(actor); await a.update(set); return summary(a); },
   async listActors({ type } = {}) { gm(); return game.actors.filter((a) => !type || a.type === type).map(summary); },
   async getActor({ actor }) { gm(); const a = actorByName(actor); return { ...summary(a), abilities: Object.fromEntries(Object.entries(a.system.abilities).map(([k, v]) => [k, v.value])), items: a.items.map((i) => `${i.type}: ${i.name}`) }; },

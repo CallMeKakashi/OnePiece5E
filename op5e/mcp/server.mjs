@@ -49,6 +49,7 @@ tool(server, "create_character", "Create a PC or NPC through Create OPC with all
     kind: z.enum(["pc", "npc"]).optional(), dream: z.string().optional() }, "createCharacter");
 tool(server, "level_up", "Raise one class of an existing actor to a level (advancement auto-applied).", { actor: z.string(), cls: z.string(), to: z.number() }, "levelUp");
 tool(server, "add_item", "Add an item, creation or spell by name from the OP5e/dnd5e packs to an actor.", { actor: z.string(), name: z.string(), pack: z.string().optional(), quantity: z.number().optional() }, "addItem");
+tool(server, "learn_fruit_spell", "Teach a Devil Fruit user a spell or creation from any pack (op5e or dnd5e). Costs Devil Fruit Uses when cast.", { actor: z.string(), spell: z.string() }, "learnFruitSpell");
 tool(server, "set_actor", "Update actor data with a Foundry update object, e.g. {\"system.attributes.hp.value\": 10}.", { actor: z.string(), set: z.record(z.any()) }, "setActor");
 tool(server, "list_actors", "List world actors.", { type: z.string().optional() }, "listActors");
 tool(server, "get_actor", "Summary of one actor: classes, abilities, items.", { actor: z.string() }, "getActor");

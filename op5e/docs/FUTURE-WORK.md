@@ -12,7 +12,9 @@ Order is rough priority. "Now" items are being done straight after the current s
 Existing actors keep old copies of feats and items. A tool that updates an actor's items from the current compendium, keeping uses spent,
 equipped state, quantities and custom edits, so a fix reaches existing PCs without rebuilding them.
 
-## 1b. Devil Fruit casting (requirements from the DM, 2026-10-05)
+## 1b. Devil Fruit casting (BUILT with assumptions, issue #20: scripts/fruit-casting.mjs; confirm or change the constants at its top)
+Assumed answers: (a) 3 cantrips plus one leveled spell per character level; (b) highest spell level = Uses maximum; (c) no preparing, normal concentration; (d) Zoans cast only in Hybrid/Full Beast Form until level 20; (e) a spell costing more than the Uses left cannot be cast.
+
 - Every Devil Fruit user is treated as a caster whose spell points are **Devil Fruit Uses**: a spell of level N costs N uses; cantrips are free.
 - Each fruit's spell list is whatever fits the fruit's description, so the list **cannot be filtered**: on each new spell level unlocked, Paramecia and Logia users pick spells freely from any creation or spell available.
 - Picks must not be limited to the OP5e compendium: the default dnd5e 2014 spell list (and feats and other items) must be selectable too, in every pick list the module offers.
