@@ -22,6 +22,8 @@
     "test:foundry": "node dev/harness/ids.mjs && node dev/harness/monsters.mjs && node dev/harness/ships.mjs && node dev/harness/feats.mjs && node dev/harness/effects.mjs && node dev/harness/items.mjs && node dev/harness/spell-lists.mjs && node dev/harness/origins.mjs && node dev/harness/classes.mjs --level=20 && node dev/harness/classes.mjs --subclasses --level=20",
     "audit:sourcebook": "node node_modules/tsx/dist/cli.mjs scripts/audit-compendium-sourcebook.ts",
     "audit:automation": "node node_modules/tsx/dist/cli.mjs scripts/audit-compendium-automation.ts",
+    "animations:generate": "node scripts/generate-animations.mjs",
+    "audit:animations": "node scripts/audit-animations.mjs",
     "actor:catalog": "node node_modules/tsx/dist/cli.mjs dev/generate-foundry-actor/list-catalog.ts",
     "actor:choices": "node node_modules/tsx/dist/cli.mjs dev/generate-foundry-actor/list-choices.ts",
     "actor:build": "node node_modules/tsx/dist/cli.mjs dev/generate-foundry-actor/build-from-spec.ts",

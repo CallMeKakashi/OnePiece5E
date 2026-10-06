@@ -1,4 +1,5 @@
-import { MODULE_ID } from "./constants.mjs";
+import { MODULE_ID, MODULE_VERSION } from "./constants.mjs";
+import { AA_MENUS, mergeAutorec } from "./animations-lib.mjs";
 
 function hasSequencer() {
   return !!globalThis.Sequencer?.Database && !!globalThis.Sequence;
@@ -190,4 +191,49 @@ export function initOp5eAnimations() {
     return;
   }
   registerMidiQolHook();
+}
+
+// Automated Animations autorec merge (issue #29). Pure logic lives in animations-lib.mjs.
+const AUTOREC_ENABLED = "animationsAutorec";
+const AUTOREC_VERSION = "animationsAutorecVersion";
+
+const modActive = (id) => !!game.modules.get(id)?.active;
+
+/** Merge assets/autorec-op5e.json into Automated Animations' menus (GM only, once per op5e version). */
+export async function mergeOp5eAutorec({ force = false } = {}) {
+  if (!game.user.isGM) return null;
+  if (!force && !game.settings.get(MODULE_ID, AUTOREC_ENABLED)) return null;
+  if (!modActive("autoanimations") || !modActive("dnd5e-animations")) return null;
+  if (!force && game.settings.get(MODULE_ID, AUTOREC_VERSION) === MODULE_VERSION) return null;
+
+  try {
+    const res = await fetch(`modules/${MODULE_ID}/assets/autorec-op5e.json`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const incoming = await res.json();
+    const current = Object.fromEntries(AA_MENUS.map((m) => [m, game.settings.get("autoanimations", `aaAutorec-${m}`) ?? []]));
+    const { menus, added, changed } = mergeAutorec(current, incoming);
+    for (const m of changed) await game.settings.set("autoanimations", `aaAutorec-${m}`, menus[m]);
+    await game.settings.set(MODULE_ID, AUTOREC_VERSION, MODULE_VERSION);
+    const msg = `${MODULE_ID} | Automated Animations: added ${added} OP5e autorec entries (${changed.join(", ") || "none"}).`;
+    console.log(msg);
+    if (added) ui.notifications.info(msg);
+    return { added, changed };
+  } catch (err) {
+    console.warn(`${MODULE_ID} | autorec merge failed`, err);
+    return null;
+  }
+}
+
+/** Call from the `init` hook: registers settings and schedules the merge on `ready`. */
+export function registerOp5eAnimationsAutorec() {
+  game.settings.register(MODULE_ID, AUTOREC_ENABLED, {
+    name: `${MODULE_ID}.settings.animationsAutorec.name`,
+    hint: `${MODULE_ID}.settings.animationsAutorec.hint`,
+    scope: "world",
+    config: true,
+    type: Boolean,
+    default: true,
+  });
+  game.settings.register(MODULE_ID, AUTOREC_VERSION, { scope: "world", config: false, type: String, default: "" });
+  Hooks.once("ready", () => mergeOp5eAutorec());
 }

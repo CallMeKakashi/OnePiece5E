@@ -1,6 +1,8 @@
 {
   "op5e.settings.berriesWeightless.name": "Weightless Berries",
   "op5e.settings.berriesWeightless.hint": "When enabled, Berries do not count toward encumbrance (even if the GM has currency weight enabled).",
+  "op5e.settings.animationsAutorec.name": "Add OP5e animations to Automated Animations",
+  "op5e.settings.animationsAutorec.hint": "GM only. Needs Automated Animations and dnd5e-animations. Adds OP5e item names to Automated Animations' autorecognition menus once per OP5e version; never overwrites existing entries.",
   "op5e.diamondSoul.dialogTitle": "Diamond Soul — Reroll Save?",
   "op5e.diamondSoul.dialogContent": "This save failed. Spend 1 spirit point to reroll? ({remaining} spirit remaining)",
   "op5e.combatMedicine.redirectNotice": "Field Surgeon: using Combat Medicine instead of base Experimental Medicine.",
