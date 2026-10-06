@@ -6,6 +6,7 @@ import { registerOp5eEquipmentGrantHooks } from "./equipment-grant-advancement.m
 import { initSkillsAndTools } from "./skills-and-tools.mjs";
 import { registerOptionalRules } from "./optional-rules.mjs";
 import { registerImportJournals } from "./import-journals.mjs";
+import { registerImportOldCharacter } from "./import-old-character.mjs";
 import { registerRefreshActor } from "./refresh-actor.mjs";
 import { registerWorldPackSync } from "./world-pack-sync.mjs";
 
@@ -39,6 +40,7 @@ Hooks.once("init", () => {
   registerOptionalRules();
   registerImportJournals();
   registerRefreshActor();
+  registerImportOldCharacter();
   registerWorldPackSync();
 
   game.settings.register(MODULE_ID, "berriesWeightless", {

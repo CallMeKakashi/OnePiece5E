@@ -46,7 +46,7 @@ inside an "OP5e World Items" pack), so it can be imported into another world.
 - Reverse direction: import a whole folder into another world.
 - Must never write into the shared op5e compendiums.
 
-## 4. Import an old character into Create OPC
+## 4. Import an old character into Create OPC (PARTLY DONE: `game.op5eCarryOldCharacter(source, target, {apply})` carries gear, spells, loose feats, berries and exact proficiencies onto a Create OPC actor; issue #23. Still open: driving Create OPC itself from the old sheet, early Haki, fighting styles)
 Take an existing actor (or exported actor JSON) and rebuild it through the Create OPC flow: map class, subclass, race, background, ability scores,
 skills, Haki and fruit; list what had no equivalent (like the biography note the PC rebuild writes now). Builds on `dev/harness/rebuild-pcs.mjs`.
 
