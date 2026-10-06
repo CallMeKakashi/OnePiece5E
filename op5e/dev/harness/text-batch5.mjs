@@ -45,7 +45,7 @@ const run = async () => {
     await give("Unrelenting Fortress"); ok("Unrelenting Fortress: temporary hit points button", acts("Unrelenting Fortress")[0]?.type === "heal");
     // buttons and uses
     await give("Strong Arms"); ok("Strong Arms: one use and a 2d6 button", a.items.getName("Strong Arms").system.uses.max === 1 && acts("Strong Arms")[0]?.type === "utility");
-    await give("Aura of Freedom"); await give("Aura of Warding"); ok("The two auras are buttons that apply an effect to allies", acts("Aura of Freedom")[0]?.effects.length === 1 && acts("Aura of Warding")[0]?.effects.length === 1);
+    await give("Aura of Freedom"); await give("Aura of Warding"); ok("Aura of Warding stays a button that applies an effect to allies; Aura of Freedom is a real token aura now (no button)", acts("Aura of Warding")[0]?.effects.length === 1 && acts("Aura of Freedom").length === 0);
     await give("Carving Inspiration"); ok("Carving Inspiration: a button with a one-round advantage effect", acts("Carving Inspiration")[0]?.effects.length === 1);
     await give("Color of Observation Master"); ok("Sense Future: a button with advantage and disadvantage effects", acts("Color of Observation Master")[0]?.effects.length === 1);
     await give("Crusher", "op5e.feats"); ok("Crusher: push button and critical-hit effect on the target", acts("Crusher").length === 2);
