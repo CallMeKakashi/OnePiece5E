@@ -16,6 +16,7 @@ export const STAGES = [
   ["batch 1 features", "node dev/harness/batch1.mjs", "Batch 1 text-only features change the numbers their text promises"],
   ["shop and trade", "node dev/harness/shop-trade.mjs", "Standalone shop module: buy, sell, trade, funds, stock, permissions"],
   ["fruit casting", "node dev/harness/fruit-casting.mjs", "Devil Fruit Uses as spell points; Zoans cast only in a form"],
+  ["summons and ships", "node dev/harness/summons-ships.mjs", "Summon profiles resolve; cannons attack and have range; ships have HP, AC and linked cannons"],
   ["multi-player", "node dev/harness/multiplayer.mjs", "GM plus two players at once: permissions, whispers, shared combat, effects"],
   ["real-UI walkthroughs", "node dev/harness/walkthrough-all.mjs", "Sheets, dialogs, summons, ships and item galleries in a real browser"],
 ];

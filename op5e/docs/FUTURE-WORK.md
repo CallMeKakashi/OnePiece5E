@@ -61,7 +61,13 @@ ship check, and list the items needing a human decision. Builds on `scripts/extr
 - Assertion tests for the highest-risk rules (Haki tiers, Devil Fruit uses, summons, ships and cannons), written like `dev/harness/transform.mjs`.
 - The 45 audit warnings (15 missing action types, 5 missing use counts, 25 text-only features).
 
-## 7. Known unfinished mechanics
+## 7. Known unfinished mechanics (status, issue #27)
+- DONE: world copy script `node scripts/copy-world.mjs <src> <new>` (refuses the campaign world as a target or, without a flag, as a source).
+- DONE: summons, ships and cannons assertions (`dev/harness/summons-ships.mjs`).
+- OPEN, needs a separate Foundry install: dnd5e 5.2+ compatibility (Midi-QOL, Chris Premades).
+- OPEN, manual: `vision-5e.defaultHearingRange` is rejected by game.settings.set (its validator wants a different formula syntax); set it in the settings window.
+- OPEN: ship cannons driven through the legacy ship sheet in the real UI; items dnd5e cannot express (for example Multipod) stay as text notes.
+
 - Full Beast Form: rolls its hit points only; a real transform with a stat block per fruit would swap the sheet.
 - Sulong exhaustion on end, Enhanced Form size and reach, Approaching Awakening: manual notes.
 - Ship cannons through the legacy ship sheet in the real UI.
