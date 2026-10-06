@@ -7,10 +7,28 @@ import { transformDamagePart } from "./activities.js";
 
 /** [formula, damage type(s), optional per-slot-level increase such as "1d8"] */
 export type Dmg = [formula: string, types: string | string[], upcast?: string];
+/**
+ * Turn-based expiry (#42). A one-round effect whose rule text says when it ends gets the matching DAE special duration, so it ends exactly there instead of after a
+ * round count: "until the start of your next turn" ends at the start of the source's next turn, "until the end of your next turn" at its end.
+ * Effects on the target "until the end of its next turn" use the target's own turn.
+ */
+export function turnExpiry(e: { rounds?: number; seconds?: number; onTargets?: boolean }, note: string): string[] | undefined {
+  if (e.rounds !== 1 && !(e.seconds && e.seconds <= 6)) return undefined;
+  if (/until the start of your next turn/i.test(note)) return ["turnStartSource"];
+  if (/until the end of your (next )?turn/i.test(note)) return ["turnEndSource"];
+  if (/until the end of its next turn/i.test(note)) return ["turnEnd"];
+  if (/until the start of its next turn/i.test(note)) return ["turnStart"];
+  return undefined;
+}
+
 export interface EffectSpec {
   name: string; changes?: EffectChangeInput[]; statuses?: string[]; seconds?: number; rounds?: number; transfer?: boolean;
   /** true: applies to the targets of the activity (failed save / hit); false: to the user */
   onTargets?: boolean; flags?: Record<string, unknown>;
+  /** custom effect type (e.g. an Aura Effects aura) with its data model */
+  type?: string; system?: Record<string, unknown>;
+  /** DAE special durations such as "turnStartSource" / "turnEnd" */
+  specialDuration?: string[];
   /** passive effect that starts switched off: for rules dnd5e cannot evaluate itself (e.g. "while wearing no armor") the player toggles it */
   disabled?: boolean;
 }
@@ -58,10 +76,10 @@ export interface SpecDefaults { activation?: string; range?: number | null; rang
 
 export function buildFromSpec(key: string, spec: Spec, defaults: SpecDefaults = {}) {
   const effects: ReturnType<typeof createDAEEffect>[] = [];
-  const effectId = (e: EffectSpec, ai: number) => {
+  const effectId = (e: EffectSpec, ai: number, note = "") => {
     const ex = effects.find((x) => x.name === e.name);
     if (ex) return ex._id;
-    const fx = createDAEEffect(`${key}/${e.name}`, e.name, e.changes ?? [], { transfer: e.transfer ?? false, statuses: e.statuses, durationSeconds: e.seconds, durationRounds: e.rounds, flags: e.flags, disabled: e.disabled });
+    const fx = createDAEEffect(`${key}/${e.name}`, e.name, e.changes ?? [], { transfer: e.transfer ?? false, statuses: e.statuses, durationSeconds: e.seconds, durationRounds: e.rounds, flags: e.flags, disabled: e.disabled, type: e.type, system: e.system, specialDuration: e.specialDuration ?? turnExpiry(e, note) });
     effects.push(fx); return fx._id; void ai;
   };
   const activities: Record<string, unknown> = {};
@@ -75,7 +93,7 @@ export function buildFromSpec(key: string, spec: Spec, defaults: SpecDefaults = 
       duration: a.duration
         ? { concentration: a.duration.concentration ?? defaults.concentration ?? false, value: a.duration.units !== "inst" ? String(a.duration.value) : "", units: a.duration.units, special: "", override: true }
         : { concentration: defaults.concentration ?? false, value: defaults.durationValue ?? "", units: defaults.durationUnits ?? "inst", special: "", override: false },
-      effects: (a.effects ?? []).map((e) => ({ _id: effectId(e, i), onSave: false })),
+      effects: (a.effects ?? []).map((e) => ({ _id: effectId(e, i, a.note ?? ""), onSave: false })),
       range: { value: a.range ?? defaults.range ?? null, units: a.rangeUnits ?? (a.range ? "ft" : (defaults.rangeUnits ?? "")), special: "", override: a.range !== undefined },
       target: {
         template: a.area ? { count: "1", contiguous: false, type: a.area.type, size: String(a.area.size), width: a.area.width ? String(a.area.width) : "", height: "", units: "ft" } : { count: "", contiguous: false, type: "", size: "", width: "", height: "", units: "" },

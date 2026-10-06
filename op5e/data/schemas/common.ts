@@ -37,6 +37,9 @@ export const activeEffectSchema = z.object({
   flags: z.record(z.unknown()).default({}),
   statuses: z.array(z.string()).default([]),
   tint: z.string().nullable().default(null),
+  /** a custom effect type (e.g. "auraeffects.aura") and its data model */
+  type: z.string().optional(),
+  system: z.record(z.unknown()).optional(),
 });
 
 export type ActiveEffect = z.infer<typeof activeEffectSchema>;

@@ -20,6 +20,11 @@ export interface CreateEffectOptions {
   flags?: Record<string, unknown>;
   statuses?: string[];
   img?: string;
+  /** custom effect type, e.g. "auraeffects.aura", with its data */
+  type?: string;
+  system?: Record<string, unknown>;
+  /** DAE special durations, e.g. ["turnStartSource"] = ends at the start of the source's next turn */
+  specialDuration?: string[];
 }
 
 // --- DAE Active Effect builder ---
@@ -73,11 +78,13 @@ export function createDAEEffect(
       dae: {
         transfer: options.transfer ?? true,
         stackable: "noneName",
+        ...(options.specialDuration ? { specialDuration: options.specialDuration } : {}),
       },
       ...(options.flags ?? {}),
     },
     statuses: options.statuses ?? [],
     tint: null,
+    ...(options.type ? { type: options.type, system: options.system ?? {} } : {}),
   };
 }
 

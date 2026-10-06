@@ -27,3 +27,4 @@ import { batch4Specs } from "./text-batch4.js"; Object.assign(AUTOMATION, batch4
 import { batch5Specs } from "./text-batch5.js"; Object.assign(AUTOMATION, batch5Specs);
 import { batch6Specs } from "./text-batch6.js"; Object.assign(AUTOMATION, batch6Specs);
 import { batch7Specs } from "./text-batch7.js"; Object.assign(AUTOMATION, batch7Specs);
+import { auraSpecs } from "./auras.js"; Object.assign(AUTOMATION, auraSpecs);   // token-attached auras replace the earlier buttons

@@ -24,6 +24,8 @@ export const STAGES = [
   ["shop approval", "node dev/harness/shop-approval.mjs", "GM and two players: show, presence, cart, approve, decline, cancel, permissions"],
   ["shop coins", "node dev/harness/shop-coins.mjs", "Shop money with stock dnd5e coins and change making (stand-in actor)"],
   ["fruit casting", "node dev/harness/fruit-casting.mjs", "Devil Fruit Uses as spell points; Zoans cast only in a form"],
+  ["token auras", "node dev/harness/auras.mjs", "Aura of Freedom/Courage/Devotion/Tenacity become Aura Effects auras on a character"],
+  ["turn expiry", "node dev/harness/turn-expiry.mjs", "An effect with a turn-start special duration ends exactly at the source's next turn"],
   ["falling", "node dev/harness/falling.mjs", "Falling damage: 3d6 for 35 ft, applied with prone; 5 ft does nothing"],
   ["summons and ships", "node dev/harness/summons-ships.mjs", "Summon profiles resolve; cannons attack and have range; ships have HP, AC and linked cannons"],
   ["ship cannon", "node dev/harness/ships-fire.mjs", "A ship actor opens in the real UI and its cannon fires"],
