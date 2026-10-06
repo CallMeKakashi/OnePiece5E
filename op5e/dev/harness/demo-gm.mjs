@@ -13,14 +13,10 @@ await withFoundry(async (page) => {
       if (action === "reset") return "reset";
       const user = p1 ?? await User.create({ name: "Test Player 1", role: CONST.USER_ROLES.PLAYER });
       if (!p2) await User.create({ name: "Test Player 2", role: CONST.USER_ROLES.PLAYER });
-      const baptiste = await Actor.create({ name: "Baptiste", type: "character", ownership: { default: 0, [game.users.getName("Test Player 1").id]: 3 }, system: { currency: { gp: 300000 } } });
+      const baptiste = await Actor.create({ name: "Baptiste", type: "character", ownership: { default: 0, [game.users.getName("Test Player 1").id]: 3 }, system: { currency: { gp: 5000000 } } });
       await Item.create({ name: "Old Compass", type: "loot", system: { price: { value: 800, denomination: "gp" }, quantity: 1 } }, { parent: baptiste });
       const gen = await Actor.create({ name: "Old Man Gen", type: "npc", img: "icons/svg/mystery-man.svg", system: { currency: { gp: 500000 } } });
-      const id = await T.createShop("Orange Town Armory", { markup: 10, keeper: { actorId: gen.id } });
-      const pick = async (pack, name, price, stock = null) => { const ix = await game.packs.get(pack).getIndex(); const e = ix.find((x) => x.name === name); if (e) await T.addItem(id, e.uuid, { price, stock }); };
-      await pick("op5e.items", "Longsword", 150000, 3); await pick("op5e.items", "Rapier", 250000, 1); await pick("op5e.items", "Shotgun", 800000);
-      await pick("op5e.items", "Small Medkit", 5000); await pick("op5e.items", "Rations (1 day)", 500);
-      await pick("op5e.campaign-items", "Sharkrazor Mantle", 400000, 1);
+      const id = await T.createShop("Orange Town Armory", { markup: 10, type: "armory", keeper: { actorId: gen.id } });
       return `ready: ${T.list().length} shop, ${shop().items.length} items`;
     }
     if (action === "show") { await T.show(shop().id, [p1.id]); return "shown to Test Player 1"; }

@@ -67,6 +67,7 @@ export class ShopApp extends HandlebarsApplicationMixin(ApplicationV2) {
   }
 
   _onRender() {
+    if (this.window?.title) this.window.title.textContent = this.title;   // the same window can switch shops
     this.element.querySelector("select[name=actor]")?.addEventListener("change", (ev) => { this.actorId = ev.target.value; this.cart = { buy: {}, sell: {} }; this.render(); });
   }
 
