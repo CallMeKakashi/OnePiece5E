@@ -14,6 +14,7 @@ export const STAGES = [
   ["transformations", "node dev/harness/transform.mjs", "Zoan Hybrid/Full Beast and Sulong on the PCs"],
   ["rules", "node dev/harness/rules.mjs", "Devil Fruit Uses, Haki tiers and the Brawler die by level"],
   ["batch 1 features", "node dev/harness/batch1.mjs", "Batch 1 text-only features change the numbers their text promises"],
+  ["batch 4 features", "node dev/harness/text-batch4.mjs", "The 17 text-only features approved as usable: cocktails, drunkard, afterimage, passives"],
   ["shop and trade", "node dev/harness/shop-trade.mjs", "Standalone shop module: buy, sell, trade, funds, stock, permissions"],
   ["shop approval", "node dev/harness/shop-approval.mjs", "GM and two players: show, presence, cart, approve, decline, cancel, permissions"],
   ["fruit casting", "node dev/harness/fruit-casting.mjs", "Devil Fruit Uses as spell points; Zoans cast only in a form"],

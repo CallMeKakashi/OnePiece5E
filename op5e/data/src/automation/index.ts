@@ -23,3 +23,4 @@ import { workGSpecs } from "./work-g.js"; Object.assign(AUTOMATION, workGSpecs);
 import { unarmedSpecs } from "./unarmed.js"; Object.assign(AUTOMATION, unarmedSpecs);
 import { weaponMasterSpecs } from "./weapon-masters.js"; Object.assign(AUTOMATION, weaponMasterSpecs);
 import { simpleBonusSpecs, batch1Specs, batch2Specs, batch3Specs } from "./simple-bonuses.js"; Object.assign(AUTOMATION, simpleBonusSpecs, batch1Specs, batch2Specs, batch3Specs);
+import { batch4Specs } from "./text-batch4.js"; Object.assign(AUTOMATION, batch4Specs);

@@ -78,8 +78,14 @@ const ooze = (t: string): SummonVariant => ({
 });
 const oozes = ["Acid", "Cold", "Fire", "Poison", "Lightning"].map(ooze);
 
+// ---- Afterimage (Blitzkrieg feature; same AC as the user, 1 hit point, immune to all conditions) ----
+const afterimage: SummonVariant = {
+  name: "Afterimage", size: "Medium", type: "humanoid", ac: 10, hp: 1, speed: "walk 30", stats: [10, 10, 10, 10, 10, 10], condImmune: ALL_COND, senses: "",
+  traits: [e("Blurred image", "A blurred image of you. It has your AC, 1 hit point and immunity to all conditions, and it uses your saving throw bonuses. You mentally command it to move up to your speed (no action). If it is more than 30 feet from you at the end of your turn, it is destroyed.")],
+};
+
 export const families: [string, SummonVariant[]][] = [
-  ["Spawned Plant", plants], ["Summoned Yokai", yokais], ["Mechanical Cannon", [cannon]], ["Experimental Ooze", oozes],
+  ["Spawned Plant", plants], ["Summoned Yokai", yokais], ["Mechanical Cannon", [cannon]], ["Afterimage", [afterimage]], ["Experimental Ooze", oozes],
 ];
 
 const sum = (name: string, v: SummonVariant[], base: number, hpPer: number, ac?: string): ActSpec => ({

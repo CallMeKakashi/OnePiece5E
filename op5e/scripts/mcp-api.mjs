@@ -51,7 +51,9 @@ export const api = {
     for (const id of pack ? [pack] : [...PACK_IDS, "dnd5e.items", "dnd5e.spells"]) { const p = game.packs.get(id); const ix = p && await p.getIndex(); const e = ix?.find((x) => norm(x.name) === norm(name)); if (e) { hit = await p.getDocument(e._id); break; } }
     if (!hit) throw new Error(`"${name}" not found`);
     const d = hit.toObject(); delete d._id; d._stats = { ...d._stats, compendiumSource: hit.uuid }; if (d.system && "quantity" in d.system) d.system.quantity = quantity;
-    const [made] = await a.createEmbeddedDocuments("Item", [d]); return { added: made.name, type: made.type, from: hit.pack };
+    const [made] = await a.createEmbeddedDocuments("Item", [d]);
+    if (!made) throw new Error(`Foundry did not add ${hit.name} (a prerequisite or another rule refused it)`);
+    return { added: made.name, type: made.type, from: hit.pack };
   },
   async learnFruitSpell({ actor, spell }) { gm(); const hit = (await api.search({ query: spell, type: "spell", limit: 1 }))[0] ?? (await (async () => { for (const id of ["dnd5e.spells", "dnd5e.spells24"]) { const e = (await game.packs.get(id)?.getIndex())?.find((x) => norm(x.name) === norm(spell)); if (e) return { uuid: e.uuid }; } })()); if (!hit) throw new Error(`spell "${spell}" not found`); const made = await game.op5eFruitCasting.learn(actorByName(actor), hit.uuid); return { learned: made.name, level: made.system.level }; },
   /** Rebuild an old-campaign actor through Create OPC. map: {"Gunslinger": "Marksman"} for classes that no longer exist; species/background/fruit override what is read from the old sheet. */
