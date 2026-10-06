@@ -1,0 +1,717 @@
+[
+ {
+  "id": "class-features/391f34e15e9d6176",
+  "pack": "class-features",
+  "name": "Powerful Passion",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "When you use your Ardent Smite feature, it deals an extra 1d8 damage, to a maximum of 6d8 of the same type of your Ardent Soul.",
+  "hits": [
+   "extra damage"
+  ]
+ },
+ {
+  "id": "feats/13e1e99725be4b02",
+  "pack": "feats",
+  "name": "Pragmatic Vanity",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Your pragmatic nature and your towering height has given a powerful sense of superiority. You gain the following benefits: Increase your Charisma or Intelligence score by 1, up to a maximum of 20. You have advantage on saving throws against creations. You know the Allure trick. You can use the Charm Person creation a number of times equal to half your proficiency bonus, regaining all uses on a long rest. Charisma or Intelligence is your creativity modifier for this ability.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/97a125ca941496c1",
+  "pack": "class-features",
+  "name": "Psychic Soul",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning when you unlock this ardent soul at 1st level, you gain resistance to psychic damage. You also learn the Whisper and Mind Slash tricks if you don't already know them.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "racial-features/bb5549625f15846b",
+  "pack": "racial-features",
+  "name": "Pure Soul",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You have advantage on Intelligence, Wisdom, and Charisma saving throws.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/1e725cfe42ddcf6d",
+  "pack": "class-features",
+  "name": "Purity of the Body",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 6th level, your training has granted you the ability to resist any debilitating ailment. You become immune to all poisons and diseases, and the poisoned condition.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/795fb0f14967174f",
+  "pack": "class-features",
+  "name": "Rampaging Vigor",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Also at 3rd level, your daring march into the battlefield fuels you with each enemy you take down. When you reduce a creature to 0 hit points using an unarmed strike, you gain temporary hit points equal to your Wisdom modifier + your brawler level (minimum of 1).",
+  "hits": [
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/579814c6945fa8fd",
+  "pack": "class-features",
+  "name": "Rational Mind",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 9th level, you gain advantage on any Intelligence (History) or Intelligence (Investigation) check if you move no more than half your speed on the same turn.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "feats/4829e86197e9017e",
+  "pack": "feats",
+  "name": "Razor Claws",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [
+   {
+    "name": "Razor Claws",
+    "changes": 1
+   }
+  ],
+  "text": "Born with a retractable set of razor sharp claws, you have the perfect set of tools always at your disposal. You can cut, hack, and slash nearly all enemies in your wake. You gain the following benefits: Increase your Strength or Dexterity score by 1, up to a maximum of 20. Your natural weapons become 1d8 piercing or slashing thanks to your razor sharp claws. You gain a climbing speed equal to your walking speed thanks to your claws. Your natural weapons count as Thieves’ Tools, of which you are now proficient. If you are already proficient, you gain expertise instead.",
+  "hits": [
+   "speed"
+  ]
+ },
+ {
+  "id": "class-features/d05b6cbac7ef4e9b",
+  "pack": "class-features",
+  "name": "Ready to Rumble",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 10th level, your potent swings allow you to hit your foes hard and fast. You can roll a d8 in place of the normal damage of your unarmed strikes. If you aren't wielding a weapon or a shield, you can roll a d10 instead. Once per turn, if you take the Attack action on your turn and have advantage on an attack roll, you can forgo the advantage for that roll to make an additional unarmed strike as part of the same action.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/bf71e74eb0cbc8d9",
+  "pack": "class-features",
+  "name": "Reckless Attack",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/aa8f30bbcd2b513d",
+  "pack": "class-features",
+  "name": "Saddle-Born",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Bonus Proficiency When you choose this subclass at 3rd level, you gain proficiency in one of the following skills of your choice: Animal Handling, History, Insight, Performance, or Persuasion. Saddle-Born Starting at 3rd level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you're not incapacitated. Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/027196fc08589c6c",
+  "pack": "class-features",
+  "name": "Scornful Soul",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning when you unlock this ardent soul at 1st level, you gain resistance to necrotic damage. You also learn the Necrotic Bolt and Chilling Necrosis tricks if you don't already know them.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "feats/40ea0ddac1cfee4b",
+  "pack": "feats",
+  "name": "Sea Sovereignty",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [
+   {
+    "name": "Sea Sovereignty",
+    "changes": 1
+   }
+  ],
+  "text": "Merfolk are the monarchs of the sea, able to swim faster than any other fish, as well as communicate with various sea creatures. You, however, have mastered both of the advantages of your race. You gain the following benefits: Increase your Intelligence, Wisdom, or Charisma score by 1, up to a maximum of 20. Your swimming speed increases by 10ft. You can use the Animal Friend creation, using whichever ability score you increased with this feat, at will, but only against Beasts that have a natural swimming speed.",
+  "hits": [
+   "speed"
+  ]
+ },
+ {
+  "id": "feats/6b9469f76e65aa7d",
+  "pack": "feats",
+  "name": "Sharpshooter",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You have mastered ranged weapons and can make shots that others find impossible. You gain the following benefits: Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls. Your ranged weapon attacks ignore half and three-quarters cover. Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If that attack hits, you add +10 to the attack's damage.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/5e4ab87b37833998",
+  "pack": "class-features",
+  "name": "Shining Soul",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning when you unlock this ardent soul at 1st level, you gain resistance to radiant damage. You also learn the Light and Radiant Bolt tricks if you don't already know them.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "feats/1dfcf670e02f0580",
+  "pack": "feats",
+  "name": "Slasher",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You’ve learned where to cut to have the greatest results, granting you the following benefits: Increase your Strength or Dexterity by 1, to a maximum of 20. Once per turn when you hit a creature with an attack that deals slashing damage, you can reduce the speed of the target by 10 feet until the start of your next turn. When you score a critical hit that deals slashing damage to a creature, you grievously wound it. Until the start of your next turn, the target has disadvantage on all attack rolls.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/3ab1388ae7b51c43",
+  "pack": "class-features",
+  "name": "Snipe and Strike",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You do not gain disadvantage on attack rolls due to being prone, or making attacks against prone targets.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/8bbc0eceb67c2f3f",
+  "pack": "class-features",
+  "name": "Sparking Soul",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning when you unlock this ardent soul at 1st level, you gain resistance to lightning damage. You also learn the Shocking Grasp and Spark Bolt tricks if you don't already know them.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/7a751c50952abf45",
+  "pack": "class-features",
+  "name": "Star of the Show",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 3rd level, you become an idol that inspires all who bask in your presence. You exude a 10 ft aura centered on yourself. Each creature of your choice within the radius (can include yourself) that starts their turn in your aura gains a number of temporary hit points equal to your Charisma modifier (minimum of 1) while you are conscious. These temporary hit points last until the creature leaves your aura.",
+  "hits": [
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/e6d86f5c94940beb",
+  "pack": "class-features",
+  "name": "Steel Rending",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 6th level, your focused fury is honed like an edge, allowing you to pierce through any defenses. While raging, your weapon attacks ignore any resistance to bludgeoning, piercing, or slashing damage, and your weapon attacks gain the Siege property, dealing double damage to structures and buildings.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "feats/e62c3894c8c629cc",
+  "pack": "feats",
+  "name": "Storyteller",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Your experiences in life have rendered you skilled at spinning tales, both real and fictional. You gain the following benefits: Increase your Charisma score by 1, to a maximum of 20. You can spend 10 minutes recalling a fantastic tale and relaying it to your companions. When you do so, roll on the Tale Archetypes table to determine the recalled tale. You can tell the tale to up to six friendly creatures of your choice (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. A chosen creature gains the tale’s effect and can use it once before it finishes a long rest. A creature can’t gain an effect from this feat again until it has finished a long rest. Tale Archetypes d6 Recalled Tale 1 Overcoming the Monster. The creature can add your Charisma modifier to an attack roll or a damage roll. 2 Rags to Riches. When the creature regains hit points, it can regain an additional amount equal to your Charisma modifier. 3 The Quest. The creature gains temporary hit points equal to your level + double your Charisma modifier. 4 Voyage and Return. When the creature moves, it can increase its speed by a number of feet equal to your Charisma modifier times 5 for one turn. 5 Comedy or Tragedy. When the creature fails an ability check or attack roll, it can add your Charisma modifier to the roll, potentially changing the result. 6 Rebirth. The creature can add your Charisma modifier to a saving throw.",
+  "hits": [
+   "hit points"
+  ]
+ },
+ {
+  "id": "racial-features/58a5526f0be368c1",
+  "pack": "racial-features",
+  "name": "Strong Faith",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You have advantage on saving throws against being charmed or frightened.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "racial-features/833772b262c8d693",
+  "pack": "racial-features",
+  "name": "Sudden Reach",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You have advantage on opportunity attacks.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/d695275adca5aefd",
+  "pack": "class-features",
+  "name": "Superior Hunter",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 9th level, you gain advantage on any Wisdom (Perception) or Wisdom (Survival) checks if you move no more than half your speed on the same turn.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/ac692f6514fc86ae",
+  "pack": "class-features",
+  "name": "Supersonic",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 10th level, your enhanced speed improves, causing you to move regardless of the obstacles. You gain the following benefits while your Afterimage is active: Your movement speed increases by 10 feet. Your Afterimage can now be summoned 45 feet from you and is destroyed if it goes beyond 45 feet from you instead of 30 feet. When you make a Dexterity saving throw, you can use your reaction to have your Afterimage take the brunt by destroying it. You take no damage from the effect on a successful save, or half as much on a failed save.",
+  "hits": [
+   "speed"
+  ]
+ },
+ {
+  "id": "class-features/6a7737435183e672",
+  "pack": "class-features",
+  "name": "Supreme Sneak",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 9th level, you have advantage on a Dexterity (Stealth) and Dexterity (Sleight of Hand) checks if you move no more than half your speed on the same turn.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/025dbcb21b3719ad",
+  "pack": "class-features",
+  "name": "Thief's Reflexes",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.",
+  "hits": [
+   "initiative"
+  ]
+ },
+ {
+  "id": "racial-features/e6b6dc87b129e148",
+  "pack": "racial-features",
+  "name": "Third Eye",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You have advantage on saving throws against being blinded or charmed, and on all ability checks you make to see through illusions and mirages.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/086deb8e9fc1c257",
+  "pack": "class-features",
+  "name": "Third Wind",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 10th level, you won't give up the fight. When you use your Second Wind feature, you additionally gain a number of temporary hit points equal to the amount you rolled.",
+  "hits": [
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/eb35734015bf8642",
+  "pack": "class-features",
+  "name": "Tireless Spirit",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 10th level, when you roll initiative and have no uses of Second Wind remaining, you regain one use. Additionally, whenever you use Second Wind, you gain a bonus to the hit points restored equal to your Wisdom Modifier (minimum of 1).",
+  "hits": [
+   "initiative"
+  ]
+ },
+ {
+  "id": "feats/0db73a38f8d3fd28",
+  "pack": "feats",
+  "name": "Underdog",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "When the going gets tough, that's when you get going. You gain the following benefits: Increase your Constitution score by 1, to a maximum of 20. When a creature scores a critical hit against you, you have advantage all attack rolls you make against that creature, until the end of your next turn. If a critical hit against you drops you to 0 hit points, you drop instead to 1 hit point. You regain this ability when you roll initiative.",
+  "hits": [
+   "initiative"
+  ]
+ },
+ {
+  "id": "class-features/d93e24d841bf6bf7",
+  "pack": "class-features",
+  "name": "Voracious Velocity",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 10th level, your beast-like prowess grants you the ability to maneuver past any obstacle. Your speed increases by 10ft, you gain a climbing speed equal to your movement speed, and you can add 10 feet to your long jump distance and 3 feet to your high jump distance. Additionally, while raging, you ignore the effects of any and all difficult terrain.",
+  "hits": [
+   "speed"
+  ]
+ },
+ {
+  "id": "class-features/1305abd6c0c0d96f",
+  "pack": "class-features",
+  "name": "War Mechanic",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 3rd level, you gain proficiency with your choice of smith's tools, carpenter's tools, or tinkerer's tools, as well as the Engineering skill. In addition, you gain the ability to further enhance your weapons with your creations. You can complete the augmentation process over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach during the process. Choose one of the augments below: Kickback. When you hit a creature of large or smaller size with your augmented weapon, you can push them away 10ft in a straight line. Breakdown. Once per turn, when you hit a creature with your augmented weapon, you can inflict disadvantage on their next attack roll until the start of your next turn. Lockup. When you hit a creature with your augmented weapon, their movement speed is reduced by 10ft until the start of your next turn. You can have up to two augmented weapons. If you attempt to augment a third weapon, you must remove the augment from one of the other two.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "feats/7c1fc13455a252d4",
+  "pack": "feats",
+  "name": "Water Wings",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [
+   {
+    "name": "Water Wings",
+    "changes": 1
+   }
+  ],
+  "text": "Your wide fins enable you to fly through the water with ease. You gain the following benefits: Increase your Dexterity or Constitution score by 1, up to a maximum of 20. Your swimming speed increases by 10ft. While in water, you do not provoke attacks of opportunity. While grappling a target underwater that doesn’t have a natural swim speed, you may drag them your full movement speed. If you drag them downwards, they take 1d6 bludgeoning for every 10ft descended.",
+  "hits": [
+   "speed"
+  ]
+ },
+ {
+  "id": "class-features/aba7bf3b682079f6",
+  "pack": "class-features",
+  "name": "Wreck Resistance",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 7th level, when you make an attack with an improvised weapon, you can ignore any resistance to bludgeoning, piercing, or slashing. In addition, when you obtain an improvised weapon, instead of adding one weapon property to it, you can add two weapon properties.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ }
+]

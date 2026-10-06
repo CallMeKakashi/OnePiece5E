@@ -1,5 +1,6 @@
+import { MODULE_ID } from "../constants.mjs";
 // Minimal shop window: lists the shop's items with Buy buttons; the GM can drop items from any compendium or sidebar onto it.
-const ID = "dnd5e-shop-trade";
+const ID = MODULE_ID;
 export class ShopApp extends foundry.applications.api.HandlebarsApplicationMixin(foundry.applications.api.ApplicationV2) {
   static DEFAULT_OPTIONS = { id: "shop-trade", classes: ["shop-trade"], window: { title: "Shop", resizable: true }, position: { width: 460, height: 520 }, actions: { buy: ShopApp.#buy, sell: ShopApp.#sell } };
   static PARTS = { body: { template: `modules/${ID}/templates/shop.hbs` } };

@@ -30,7 +30,8 @@
     "test:watch": "node node_modules/vitest/vitest.mjs",
     "test:ci": "node node_modules/vitest/vitest.mjs run --reporter=default",
     "clean": "node ./node_modules/rimraf/dist/esm/bin.mjs packs packs-src dist",
-    "mcp": "node mcp/server.mjs"
+    "mcp": "node mcp/server.mjs",
+    "update-helper": "node scripts/update-helper.mjs"
   },
   "dependencies": {
     "@foundryvtt/foundryvtt-cli": "^3.0.0"

@@ -30,5 +30,9 @@
   "op5e.bubbleFloater.applied": "Bubble Floater active (8 hours, +20 ft walk).",
   "op5e.giantsEndurance.noUses": "No Giant's Endurance uses remaining.",
   "op5e.giantsEndurance.noRecentDamage": "Use Giant's Endurance after you take damage (reaction).",
-  "op5e.giantsEndurance.reduced": "Giant's Endurance reduced damage by {amount}."
+  "op5e.giantsEndurance.reduced": "Giant's Endurance reduced damage by {amount}.",
+  "SHOPTRADE.CurrencyMode": "Shop currency mode",
+  "SHOPTRADE.CurrencyModeHint": "Coins: all dnd5e coins with change making. Single: one coin type only. A world whose config has one currency (like Berries) is always single.",
+  "SHOPTRADE.SingleCurrency": "Shop single currency coin",
+  "SHOPTRADE.SellRatio": "Shop sell ratio (percent of the price a shop pays)"
 }

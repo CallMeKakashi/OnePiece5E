@@ -1,13 +1,7 @@
-// Shop and Trade module checks (shop-trade/ in the repo root): buy, sell, trade, insufficient funds, out of stock, permissions, both currency modes.
-// The module is copied under op5e/assets/dev/shop-trade (git-ignored) so the running test world can import it without a restart. Test world, Automation user.
-import { cpSync, rmSync, mkdirSync } from "node:fs";
+// Shop and trade checks (scripts/shop/, part of op5e): buy, sell, trade, insufficient funds, out of stock, NPC merchant, permissions, export/import. Test world, Automation user.
 import { withFoundry } from "./drive.mjs";
-const DEST = "D:/foundry-pi/Foundry/foundrydata/Data/modules/op5e/assets/dev/shop-trade";
-mkdirSync(DEST, { recursive: true }); cpSync("../shop-trade/scripts", DEST, { recursive: true });
 const run = async () => {
   const out = [], ok = (n, p, d = "") => out.push(`${p ? "PASS" : "FAIL"} ${n} ${d}`);
-  await import("/modules/op5e/assets/dev/shop-trade/main.mjs");
-  await new Promise((r) => setTimeout(r, 500));
   const T = game.shopTrade, mk = (n, gp) => Actor.create({ name: n, type: "character", system: { currency: { gp } } });
   const buyer = await mk("[SH] Buyer", 50), other = await mk("[SH] Other", 5);
   const sword = await Item.create({ name: "[SH] Sword", type: "weapon", system: { price: { value: 15, denomination: "gp" }, quantity: 1 } });
@@ -56,9 +50,8 @@ const run = async () => {
   // export / import
   const copy = await T.importShop(T.exportShop(shop)); ok("Export and import a shop", T.list().find((s) => s.id === copy)?.items.length === 2);
   for (const a of [buyer, other]) await a.delete(); await sword.delete();
-  await game.settings.set("dnd5e-shop-trade", "shops", {});
+  await game.settings.set("op5e", "shops", {});
   for (const m of game.messages.filter((x) => /\[SH\]|Trade completed/.test(x.content))) await m.delete().catch(() => {});
   return out;
 };
-try { await withFoundry(async (page) => { for (const l of await page.evaluate(`(${run.toString()})()`)) { console.log(l); if (l.startsWith("FAIL")) process.exitCode = 1; } }); }
-finally { rmSync(DEST, { recursive: true, force: true }); }
+await withFoundry(async (page) => { for (const l of await page.evaluate(`(${run.toString()})()`)) { console.log(l); if (l.startsWith("FAIL")) process.exitCode = 1; } });

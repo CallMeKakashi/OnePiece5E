@@ -1,0 +1,26 @@
+PASS Uses maximum at level 5 is 3 3
+PASS Learned a cantrip and a level 3 spell from the dnd5e pack 
+PASS A spell above the Uses maximum cannot be learned 
+PASS Cantrip is free 3 left
+PASS A level 3 spell costs 3 uses 0 left
+PASS No spell slot is used 
+PASS Casting with too few uses is refused 
+PASS Zoan is detected 
+PASS Zoan cannot cast in base form 
+PASS Zoan casts while in Hybrid Form 
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.evaluate: TypeError: Cannot read properties of undefined (reading 'activities')
+    at eval (eval at evaluate (:311:30), <anonymous>:7:77)
+    at async <anonymous>:337:30
+    at F:\Documents\GitHub\blood&brine\op5e\dev\harness\summons-ships.mjs:35:64
+    at withFoundry (F:\Documents\GitHub\blood&brine\op5e\dev\harness\drive.mjs:45:18)
+    at async file:///F:/Documents/GitHub/blood&brine/op5e/dev/harness/summons-ships.mjs:35:1 {
+  log: []
+}
+
+Node.js v26.7.0
+
+STOPPED at "summons and ships". Fix it and re-run with --from "summons and ships".

@@ -1,0 +1,850 @@
+[
+ {
+  "id": "class-features/35b1abd64227b1a9",
+  "pack": "class-features",
+  "name": "Physical Superiority",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 3rd level, you choose either the Strength, Constitution, or Dexterity ability score. This feature gives you bonuses depending on your choice. At 10th and 18th level, you can select one of the other ones that you have not selected. Strength Your gain proficiency in the Athletics skill and if you were already proficient, you instead gain Expertise. You count as one size larger when determining your carrying capacity, the weight you can push, drag, or lift, and when grappling or shoving. Additionally, when you make a running long jump, the distance you can cover increases by a number equal to your Strength Modifier. Constitution Your hit point maximum increases by a number equal to your fighter level when you gain this feature, and continues to increase by an additional 1 every time you gain a level in this class. The amount of time you can hold your breath is doubled, and you have resistance to fall damage. Additionally, you can use your Second Wind feature one additional time per short or long rest. Dexterity You gain proficiency in the Acrobatics skill and if you were already proficient, you instead gain Expertise. Your movement speed increases by 5 feet. This bonus applies also to any native climbing, swimming, or flying speed you may have. Additionally, whenever you roll Initiative you may treat a roll of 9 or lower on the die as a 10.",
+  "hits": [
+   "die size",
+   "resistance/immunity",
+   "speed",
+   "hit points",
+   "initiative"
+  ]
+ },
+ {
+  "id": "class-features/dbbc7576777affde",
+  "pack": "class-features",
+  "name": "Chemical Cocktail",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning at 3rd level, whenever you finish a long rest, you can quickly produce a chemical cocktail in an empty flask you touch. Choose from the Chemical Cocktail table for the cocktail's effect, which is triggered when someone drinks it. As a bonus action, a creature can drink it or administer it to an incapacitated creature. You can create additional chemical cocktails by expending a creation slot of 1st level or higher for each one. Creating a Chemical Cocktail requires you to have alchemist supplies on your person, and any cocktail you create with this feature lasts until it is drunk or until the end of your next long rest. When you reach certain levels in this class, you can make more cocktails at the end of a long rest: two at 6th level and three at 15th level. Healing. The drinker regains hit points equal to 4d4 + your Intelligence modifier. Swiftness. The drinker's walking speed increases by 10 feet for 1 hour. Resilience. The drinker gains a +1 bonus to AC for 10 minutes. Boldness. The drinker can roll a d4 and add the number rolled to every attack roll and saving throw they make for the next minute. Strength. The drinker, for 1 minute, deals extra damage with melee attacks equal to your Intelligence modifier. Transformation. The drinker's body is transformed as if by the Alter Self creation. The effects last for 10 minutes.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "speed",
+   "AC"
+  ]
+ },
+ {
+  "id": "class-features/4a8aa208fa895405",
+  "pack": "class-features",
+  "name": "Fighting Stances",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Bonus Proficiency When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: History, Insight, Performance, or Persuasion. Fighting Stance Starting at 3rd level, you learn a fighting stance, enhancing your combat abilities. As a bonus action on your turn, you adjust your posture and the way you hold your weapons, allowing you to anticipate your foe or strike true. Earth. A defensive stance used to deflect blows. Holding your weapon low, you wait for your opponent to strike and leave an opening. Until the start of your next turn, your AC increases by 2. As a reaction, you can increase this bonus to 4. You may do this after the roll, but before your DM tells you whether the attack hits or misses. Fire. This offensive posture raises the weapon high above the head, leaving the body exposed, but readying a powerful strike. You gain advantage on weapon attack rolls until the end of your turn. Water. Traditionally the most basic, this middle-level stance is a balance between offense and defense and focuses on using your opponent's power against itself. Until the start of your next turn, when you are targeted by a melee weapon attack, you can use your reaction to make an attack against the creature. Wind. By maneuvering your weapon sideways, you can move more quickly and parry blows more effectively. Your movement speed increases by 15 feet until the end of your turn. Additionally, you do not provoke opportunity attacks as part of this movement. Whenever you adopt a stance on your turn, you gain 5 temporary hit points. This increases to 10 and 15 temporary hit points at 10th and at 15th level. You can choose another one of these stances to learn at 7th, 10th, and 15th level. You can use this feature a number of times equal to 1 + your Wisdom modifier (minimum of 1), and you regain all expended uses of it when you finish a short or long rest.",
+  "hits": [
+   "advantage/disadvantage",
+   "speed",
+   "AC",
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/27b06b45c222e938",
+  "pack": "class-features",
+  "name": "Fighting Style",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 3rd level, your training gives you experience in a range of fighting styles and enables you to refocus yourself through meditation. You may choose one fighting style from the Sword Sage Brawler Styles section, and may change your fighting style whenever you complete a long rest.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "advantage/disadvantage",
+   "AC"
+  ]
+ },
+ {
+  "id": "class-features/48e00c3315f03b93",
+  "pack": "class-features",
+  "name": "Fighting Style",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 2nd Level, you adopt a particular style of fighting as your specialty. Choose one of the options from the Savant Styles section. Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to savants.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "advantage/disadvantage",
+   "AC"
+  ]
+ },
+ {
+  "id": "class-features/4c8106eaf3ec994a",
+  "pack": "class-features",
+  "name": "Fighting Style",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the options from the Marksman Styles section. Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to marksmen.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "advantage/disadvantage",
+   "AC"
+  ]
+ },
+ {
+  "id": "class-features/6b3f0c4106aef017",
+  "pack": "class-features",
+  "name": "Fighting Style",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again. Archery. You gain a +2 bonus to attack rolls you make with ranged weapons. Blindfighting. You have blindsight with a range of 10 feet. Defense. While you are wearing armor, you gain a +1 bonus to AC. Dueling. When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon. Superior Technique. You learn one maneuver of your choice and gain one superiority die (d6). Great Weapon Fighting. When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property. Two-Weapon Fighting. When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack. You can also make opportunity attacks with your off-hand weapon. Interception. When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus. Unarmed Fighting. Your unarmed strikes deal 1d6 bludgeoning damage (1d8 if both hands are free). At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature grappled by you. Thrown Weapon Fighting. You can draw a weapon that has the thrown property as part of the attack you make with the weapon. You gain a +2 bonus to damage rolls with thrown weapons. Melee Shooter. You gain a +1 bonus to attack and damage rolls with ranged weapons. Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls. Versatile Fighting. While wielding a versatile weapon in one hand, you gain a +1 bonus to attack rolls. While wielding it in two hands, you gain a +1 bonus to AC. Protection. When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to force the attacker to reroll the attack roll, using the lower result. You must be wielding a shield.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "advantage/disadvantage",
+   "AC"
+  ]
+ },
+ {
+  "id": "class-features/aed6aa7d66fdc401",
+  "pack": "class-features",
+  "name": "Fighting Style",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 3rd level, you adopt a particular style of fighting as your specialty. Choose one of the options in the College of Swords Bard Styles section. You can't take a Fighting Style option more than once, even if you later get to choose again. Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to College of Swords bards.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "advantage/disadvantage",
+   "AC"
+  ]
+ },
+ {
+  "id": "class-features/aee160d383120d25",
+  "pack": "class-features",
+  "name": "Fighting Style",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting when you choose this path at 3rd level, you learn how to properly wield your weapon of choice. Choose a fighting style from the Chapter 5 in the Blademaster Barbarian Styles section. You can't take a Fighting Style option more than once, even if you later get to choose again. Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to Blademaster Barbarians.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "advantage/disadvantage",
+   "AC"
+  ]
+ },
+ {
+  "id": "feats/e4d593c97ce19c61",
+  "pack": "feats",
+  "name": "Light Armor Master",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You know how best to use the thin armor that protects you. Increase your Dexterity score by 1, to a maximum of 20. Your speed increases by 5 feet while wearing light or no armor. While wearing light armor, you gain a +1 bonus to your armor class whenever you are at least 20 feet from where you started your turn. This bonus lasts until the start of your next turn.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "speed",
+   "AC"
+  ]
+ },
+ {
+  "id": "class-features/a22a82d67504d9ae",
+  "pack": "class-features",
+  "name": "Shattered Duality",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Also at 3rd level, your body is home to two creatures, one who specializes in creativity, while the other specializes in destructive force. You gain proficiency in Wisdom (Medicine) checks and Alchemist Tools, or expertise if you were already proficient in each respectively. Your Unarmored AC becomes 10 + your Intelligence modifier + your Constitution modifier. Master Brain. While you are not raging, you gain the following benefits: When you deal damage or restore hit points with a creation, you add your rage damage modifier to the result. You have advantage on maintaining Concentration on creations. Your proficiency in Strength saving throws becomes proficiency in Intelligence (unless you were already proficient in Intelligence saves, in which case choose Charisma or Wisdom). Monster Brain. While you are raging, you gain the following benefits: Your size category increases by one size. You gain temporary hit points equal to your level + Constitution modifier. When you hit a creature with a melee weapon attack, you can overload your attack with a vile substance by expending a creation slot, dealing an extra 1d10 damage for each slot level. The damage type is your choice of acid, poison, or necrotic. If you start your turn with fewer hit points than half your hit point maximum (rounded down), you must succeed on a DC 8 Wisdom saving throw or move directly toward the nearest creature and use the Attack action against that creature. If more than one creature is equally near to you, your target is randomly determined. After your attack either hits or misses, you regain control of yourself.",
+  "hits": [
+   "advantage/disadvantage",
+   "AC",
+   "extra damage",
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/e2e1f4e3efe01e09",
+  "pack": "class-features",
+  "name": "Signature Fighting Style",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 7th level, you improve upon your chosen Fighting Style, performing martial feats few warriors can match. You gain an improvement to the Fighting Style you gained from the 1st level in this class: Improved Archery. You gain a +3 to attack and rolls you make with ranged weapons, and ignore half and three-quarters cover. Improved Blind Fighting. You have blindsight with a range of 30 feet. Within that range, you can effectively see anything that isn't behind total cover, even if blinded or in darkness. Moreover, you can see an invisible creature within range, unless the creature successfully hides. Additionally, you can take the Search Action as a bonus action. Improved Defense. While wearing armor, you gain +1 to AC and all Saving Throws. Additionally, as a reaction to an attack missing you, you can attempt to grapple or shove the attacker. Improved Dueling. When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon. Under the same conditions, if you're fighting against an enemy and there's no other creature within 5ft of you and that enemy, you gain advantage in all melee attacks against that enemy. Improved Superior Technique. You learn three maneuvers of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice.) You gain three superiority die, which is a d8 (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest. Improved Interception. When a creature you can see hits a target, including you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 2d10 + your level (to a minimum of 0 damage). You must be wielding a simple or martial weapon to use this reaction. Improved Unarmed Fighting. Your unarmed strikes increase to 1d8 + your Strength modifier on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d8 becomes a d10. Your grappling damage also becomes a 1d6. Improved Thrown Weapon Fighting. You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll. Whenever you roll a critical hit using a thrown weapon, you roll an additional damage dice. Also, you do not have disadvantage when using a thrown weapon against a target within 5ft. Improved Melee Shooter. While you're wielding a ranged weapon, you gain a +1 bonus to attack rolls and a 1d4 bonus to the damage roll and you do not have disadvantage on ranged attacks while a creature is within 5 feet of you. Your ranged attacks also ignore half cover and three-quarters cover against targets within 30 feet of you. Improved Great Weapon Fighting. When you roll damage for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the dice and must use the higher of the two rolls. The weapon must have the two-handed or versatile property for you to gain this benefit. Additionally, when you roll the maximum damage on the weapon dice, you can knock the target prone. Improved Protection. While you're wielding a shield and an enemy attacks a creature within 5ft of you, including yourself, you can use your reaction to reroll all attack rolls against that creature until the start of their next turn. Improved Two-Weapon Fighting. When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack. When you make an opportunity attack, you can attack with both of your weapons. Moreover, you can make your attack with an off-hand weapon as a part of the attack action instead of a bonus action. You can still only attack with an off-hand weapon once per turn. Improved Versatile Fighting. When wielding a weapon with the versatile property with one hand, you gain a +1 bonus to attack and damage rolls. While wielding a weapon with the versatile property with two hands, you gain a +1 bonus to your AC, and opportunity attacks against you are made with disadvantage.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "advantage/disadvantage",
+   "AC"
+  ]
+ },
+ {
+  "id": "class-features/d802b3a43ea5dc44",
+  "pack": "class-features",
+  "name": "Ancient Aspect",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 6th level, you gain another benefit based on the totem animal of your choice. You can choose the same animal you selected at 3rd level or a different one. Bear. You gain the might of a bear. You count as one size larger when determining your carrying capacity and the weight you can push, drag, lift, and for grapple and shove attempts. Elk. Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not incapacitated. The elk spirit helps you roam far and fast. Eagle. You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks. Tiger. You gain proficiency in two skills from the following list: Athletics, Acrobatics, Stealth, and Survival. The cat spirit hones your survival instincts. If you were already proficient in these skills, you can instead gain expertise respectively. Wolf. You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace. Shark. You gain the shark's ability to navigate through water. You gain a swim speed equal to your current walking speed. Additionally, you gain the ability to hold your breath for 1 hour.",
+  "hits": [
+   "die size",
+   "advantage/disadvantage",
+   "speed"
+  ]
+ },
+ {
+  "id": "class-features/fb2af56e24993285",
+  "pack": "class-features",
+  "name": "Armor Models",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning at 3rd level, you can customize your Mechanical Armor. When you do so, choose one of the following armor models: Guardian or Infiltrator. The model you choose gives you special benefits while you wear it. You can change the armor's model whenever you finish a short or long rest, provided you have smith's tools in hand. Guardian. You design your armor to be on the front line of conflict: Hydraulics. When you make an ability check, saving throw, or weapon attack that uses Strength modifier, you can instead use your Intelligence modifier. Your Thunder Gauntlets use Intelligence as well. Thunder Gauntlets. Each of the armor's gauntlets counts as a simple melee weapon while you aren't holding anything in it, and it deals 1d8 thunder damage on a hit. As a bonus action, you can make an off-hand attack with the gauntlets, adding your modifier to the damage roll. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn. Defensive Field. As a bonus action, you can gain temporary hit points equal to twice your level in this class, replacing any temporary hit points you already have. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Infiltrator. You customize your armor for subtle undertakings: Zero Torque. When you make an ability check, saving throw, or weapon attack that uses Dexterity modifier, you can instead use your Intelligence modifier. Your Lightning Launcher and the Dexterity bonus to your AC uses Intelligence as well. Lightning Launcher. An electric node appears on one of your armored fists or on the chest. It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals 2d6 lightning damage on a hit. Once per turn, when you deal lightning damage with this weapon, the target cannot take reactions until the start of your next turn. Powered Steps. Your walking speed increases by 10 feet. Dampening Field. You have advantage on Dexterity (Stealth) checks. If the armor normally imposes disadvantage on such checks, the advantage and disadvantage cancel each other.",
+  "hits": [
+   "advantage/disadvantage",
+   "speed",
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/08e41d51dc296c81",
+  "pack": "class-features",
+  "name": "Defensive Champion",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 7th level, you excel at defending yourself from danger when hunting down various games. You gain the ability to choose one of the defensive techniques listed below. At 15th level, you can choose an additional defensive technique. Multiattack Defense. When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn. Uncanny Dodge. When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you. Evasion. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed, and only half damage if you fail.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "AC"
+  ]
+ },
+ {
+  "id": "feats/d6d105a1935e45f6",
+  "pack": "feats",
+  "name": "Dual Wielder",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You are a master at fighting with two weapons, granting you the following benefits: You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand. You can use two-weapon fighting even when the one-handed weapons you are wielding aren’t light. You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "AC"
+  ]
+ },
+ {
+  "id": "class-features/04f12efbb3f9532d",
+  "pack": "class-features",
+  "name": "Fighting Style: Versatile Fighting",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "While wielding a versatile weapon in one hand, you gain a +1 bonus to attack rolls with that weapon. While wielding it in two hands, you gain a +1 bonus to AC.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "AC"
+  ]
+ },
+ {
+  "id": "class-features/49fa5194af65a1a0",
+  "pack": "class-features",
+  "name": "Fighting Style: Versatile Fighting",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "When wielding a weapon with the versatile property with one hand, you gain a +1 bonus to attack rolls. While wielding a weapon with the versatile property with two hands, you gain a +1 bonus to your AC.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "AC"
+  ]
+ },
+ {
+  "id": "class-features/4e2a70bd5b869db2",
+  "pack": "class-features",
+  "name": "Fighting Style: Versatile Fighting",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "When wielding a weapon with the versatile property with one hand, you gain a +1 bonus to attack rolls. While wielding a weapon with the versatile property with two hands, you gain a +1 bonus to your AC.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "AC"
+  ]
+ },
+ {
+  "id": "class-features/ab64448d42de5b44",
+  "pack": "class-features",
+  "name": "Fighting Style: Versatile Fighting",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "When wielding a weapon with the versatile property with one hand, you gain a +1 bonus to attack rolls. While wielding a weapon with the versatile property with two hands, you gain a +1 bonus to your AC.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "AC"
+  ]
+ },
+ {
+  "id": "class-features/cedd76403866c3b8",
+  "pack": "class-features",
+  "name": "Fighting Style: Versatile Fighting",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "When wielding a weapon with the versatile property with one hand, you gain a +1 bonus to attack rolls. While wielding a weapon with the versatile property with two hands, you gain a +1 bonus to your AC.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "AC"
+  ]
+ },
+ {
+  "id": "class-features/a82688554d362831",
+  "pack": "class-features",
+  "name": "Forged in Fire",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 14th level, your armor is impenetrable, able to resist any onslaught. You gain the following benefits while wearing your Forgemaster's Armor: Your +1 bonus to your AC becomes a +2 bonus. You gain immunity to the damage type you chose when you made your Forgemaster's Armor.",
+  "hits": [
+   "bonus to rolls",
+   "resistance/immunity",
+   "AC"
+  ]
+ },
+ {
+  "id": "class-features/85cfa9eb6c33635f",
+  "pack": "class-features",
+  "name": "Improved Defender",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 15th level, your Power Jolt and Iron Defender become more powerful: The extra damage and the healing of your Power Jolt both increase to 4d6. When your Iron Defender takes the attack action, it makes two attacks instead of one. Your Iron Defender gains a +2 bonus to Armor Class. Whenever your Iron Defender uses its Deflect Attack, the attacker takes force damage equal to 1d4 + your Intelligence modifier.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N",
+   "AC"
+  ]
+ },
+ {
+  "id": "class-features/6dd51f6cb616cd13",
+  "pack": "class-features",
+  "name": "Improved Steel Defender",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "During a long rest, choose a single form your Iron Defender will take until it is destroyed, or you change it. True Defender. When your Iron Defender uses its reaction to Deflect Attack, the Iron Defender instead enforces disadvantage on all attack rolls against that creature until the start of the Iron Defender's next turn. This ends early if the defended creature moves to a space more than 5ft from the Iron Defender. Juggernaut. Your Iron Defender increases from Medium to Large, gains resistance to bludgeoning, piercing, and slashing damage, and has advantage on Strength and Constitution Saving Throws. Android. Your Iron Defender's Intelligence score becomes equal to your own, shares all of your skill and weapon proficiencies, can speak Common, and can act of its own accord if you grant it permission to do so, no longer needing to command it as a bonus action. Drone. Your Iron Defender shrinks from Medium to Small, and gains a flying speed of 50ft. As a bonus action, you can see and hear through your Iron Defender. As an action, while looking through your Iron Defender, you can take precise control of your Iron Defender for the next hour.",
+  "hits": [
+   "advantage/disadvantage",
+   "resistance/immunity",
+   "speed"
+  ]
+ },
+ {
+  "id": "feats/d4e6cf8cd5b48eef",
+  "pack": "feats",
+  "name": "Made For War",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [
+   {
+    "name": "Made For War",
+    "changes": 1
+   }
+  ],
+  "text": "Genetically enhanced purely for the purpose of battle, you find yourself physically tougher and better able to unleash even more powerful strikes. You gain the following benefits: Increase your Strength, Dexterity, or Constitution score by 1, up to a maximum of 20. Your hit point maximum increases by an amount equal to your level, and it increases by 1 every time you gain a level. When you use your Spark of War feature, you gain an additional effect based on the damage type you had chosen when you created the character. If the effect forces the target to make a saving throw, the DC equals 8 + your Proficiency Bonus + Constitution modifier. Acid. All of the damage from the initial source becomes acid, and the damage ignores resistance to acid damage. Cold. The target’s movement speed is reduced by 10 feet until the end of their next turn. Fire. The target takes an additional 3 fire damage. Lightning. The target has a penalty on the next attack roll they make equal to your proficiency bonus. Poison. The target must make a Constitution saving throw, becoming poisoned until the end of their next turn on a failure. Thunder. The target must make a Strength saving throw, becoming pushed backwards 10ft or knocked prone on a failure. Necrotic. The target must make a Constitution saving throw, becoming weakened on a failure. While weakened, all the target's damage rolls are reduced by a number equal to your proficiency bonus, until the end of their next turn. Radiant. The target must make a Dexterity saving throw, becoming highlighted on a failure. While highlighted, all attack rolls against them are made at advantage until the end of their next turn.",
+  "hits": [
+   "resistance/immunity",
+   "extra damage",
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/68e3fc8a7308fabf",
+  "pack": "class-features",
+  "name": "Primal Totem",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 3rd level, when you adopt this path, you choose a totem beast to symbolize your strength and spirit, gaining its features. Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle. Bear. While raging, you have resistance to a number of damage types equal to your proficiency bonus, except force and psychic damage. You choose these types when you gain this feature, and each time your proficiency bonus increases. The spirit of the bear makes you tough enough to stand up to any punishment. Elk. While you're raging and aren't wearing heavy armor, your walking speed increases by 15 feet. The spirit of the elk makes you extraordinarily swift. Eagle. While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a bonus action on your turn. You can also Dash when you enter your rage. Tiger. While you're raging, if you move at least 20 feet in a straight line towards a target that is no more than 1 size larger than you, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone. If the target is prone, you can make 1 melee attack against it as a bonus action. Wolf. While you're raging, your allies have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. Shark. While raging, when you make a melee weapon attack using Strength against a creature that is below its hit point maximum, you gain a bonus to the damage roll equal to your rage damage bonus.",
+  "hits": [
+   "advantage/disadvantage",
+   "resistance/immunity",
+   "speed"
+  ]
+ },
+ {
+  "id": "class-features/5eaeaaa2566d0e43",
+  "pack": "class-features",
+  "name": "Six Techniques",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning at 3rd level, you've mastered a few of the signature techniques of Rokushiki. Choose three of the following techniques. You gain the benefits of the chosen techniques immediately. Moon Walk. As a bonus action, you can spend 1 spirit point to grant yourself a flight speed equal to half walking speed for one minute. Iron Body. As a reaction to taking damage, you can halve it. Afterwards, your movement speed becomes 0 until the end of your next turn. Finger Pistol. As part of making an unarmed strike, you can make the attack deal piercing damage, and you increase the size of the damage dice roll (e.g. 1d6 becomes 1d8, 1d10 becomes 1d12). Tempest Kick. In place of an unarmed strike, you can instead make a ranged attack with a range of 60 feet. You are proficient with it, and you add your Dexterity to its attack and damage rolls. Its damage is slashing, and its damage die matches the Brawling column of the Brawler table. Shave. As a bonus action on your turn you can teleport 15 ft. Alternatively, you can use a reaction when a creature targets you with an attack to spend 1 spirit point to impose disadvantage on the attack and then teleport 15 ft. You cannot use this feature if your movement speed is 0. Paper Art. As a reaction when a creature hits you with an attack, you can add your proficiency bonus to your AC against the triggering attack, potentially causing the attack to miss. When you reach 6th level in this class, you gain the remaining 3 techniques you didn't choose at 3rd level.",
+  "hits": [
+   "die size",
+   "advantage/disadvantage",
+   "speed"
+  ]
+ },
+ {
+  "id": "class-features/5dc924b59f7dc9f9",
+  "pack": "class-features",
+  "name": "Stance Improvements",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 15th level, you learn how to combine stances, break out of them or simply use them more effectively. Earth. While in Earth Stance and subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to angle your weapon so you take no damage on a success and only half damage on a failed saving throw. Fire. While in Fire stance, you can forgo the advantage on one of the attacks and make an extra weapon attack against that target instead, as part of the same action. You can do so no more than once per turn. Water. When you make an attack as a reaction while in Water stance, you can make an additional attack with a melee weapon yourself as part of that reaction against that creature. Wind. While in Wind Stance, you can take to the sky in short bursts. You have a flying speed equal to your current walking speed. You fall if you end your turn in the air and nothing else is holding you aloft. Additionally, while in a stance, you can suddenly change your posture again to surprise your foe. On your turn, you can expend another use of Fighting Stance to swap stances, no action required. When it's another creature's turn, this also uses your reaction. When you do so, you gain the temporary hit points as normal.",
+  "hits": [
+   "advantage/disadvantage",
+   "speed",
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/8da95615d80b9f30",
+  "pack": "class-features",
+  "name": "Totem Attuned",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 14th level, you gain another benefit based on a totem animal of your choice. You can choose the same animal you selected previously or a different one. Bear. While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be frightened. Elk. While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw (DC 8 + your Strength bonus + your proficiency bonus) or be knocked prone and take bludgeoning damage equal to 1d12 + your Strength modifier + your Rage damage. Eagle. While raging, you have a flying speed equal to your current walking speed. Tiger. While raging, at the end of each of your turns, you can make a stealth check to attempt to hide as a free action. When hiding in this way, you can hide in dim light, behind a creature that is of equal size, essentially anytime you are lightly obscured. Wolf. While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature prone when you hit it with a melee weapon attack. Shark. While raging, you have advantage on melee attack rolls against any creature that doesn't have all its Hit Points.",
+  "hits": [
+   "advantage/disadvantage",
+   "resistance/immunity",
+   "speed"
+  ]
+ },
+ {
+  "id": "feats/bb0f919532760be5",
+  "pack": "feats",
+  "name": "Ursa Major",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You are a powerful, unstoppable machine of nature. With a powerful build and the ability to climb and swim, none can hope to escape you. You gain the following benefits: Increase your Strength or Constitution score by 1, up to a maximum of 20. You have advantage on Wisdom (Perception) checks that rely on smell. You gain proficiency in Strength (Athletics) checks. If you are already proficient, you instead gain expertise. You gain a swim and climb speed equal to your movement speed. You count as one size larger when determining your carrying capacity and the weight you can push, drag, lift, and for grapple and shove attempts.",
+  "hits": [
+   "die size",
+   "advantage/disadvantage",
+   "speed"
+  ]
+ },
+ {
+  "id": "class-features/2c20002b9b986086",
+  "pack": "class-features",
+  "name": "Ambush Master",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 13th level, you excel at leading ambushes and acting first in a fight. You have advantage on initiative rolls. In addition, the first creature you hit during the first round of combat becomes easier for you and others to strike; attack rolls against that target have advantage until the start of your next turn.",
+  "hits": [
+   "advantage/disadvantage",
+   "initiative"
+  ]
+ },
+ {
+  "id": "class-features/6b61d0a6094d142f",
+  "pack": "class-features",
+  "name": "Artful Mastery",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You gain a +1 bonus to your Spirit Save DCs, as well as attack and damage rolls made with your unarmored strikes, monk weapons, and special brawler attacks (such as Water Shot and Tempest Kick) if you have any.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N"
+  ]
+ },
+ {
+  "id": "backgrounds/cc4c238d0144a76b",
+  "pack": "backgrounds",
+  "name": "Blacksmith",
+  "type": "background",
+  "activities": [],
+  "effects": [],
+  "text": "As long as there are battles to be fought, you will no doubt find a blacksmith not too far. An expert at shaping steel, or any material into a refined, deadly weapon. Blacksmiths have dedicated most of their lives to their craft. Skill Proficiencies: 2 from Sleight of Hand, History, Athletics, and Insight Tool Proficiencies: Smith's Tools Equipment: 150,000 Berries; 1 Small Medkit; 5 Rations; Smith's Tools Feature: Mastercrafter You gain the ability to improve any one weapon or armor using your advanced blacksmithing knowledge. You gain your choice of one of the following abilities: At the end of a long rest, you can touch one object which is a suit of armor or a simple or martial weapon. Until the end of your next long rest or until you use this feature on another object, the object becomes a mastercraft item, granting a +1 bonus to AC if it's armor or a +1 bonus to attack and damage rolls if it's a weapon. If the item has a +1-3 bonus already on it, you add your +1 bonus on top of it (to a maximum of +3). Once you use this feature, you can't use it again until you finish a long rest. You gain the Master Smith Feat.",
+  "hits": [
+   "bonus to rolls",
+   "AC"
+  ]
+ },
+ {
+  "id": "feats/f44abf5c756557d8",
+  "pack": "feats",
+  "name": "Brawny",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [
+   {
+    "name": "Brawny",
+    "changes": 1
+   }
+  ],
+  "text": "You become stronger, gaining the following benefits: Increase your Strength score by 1, to a maximum of 20. You gain proficiency in the Athletics skill. If you are already proficient in the skill, you gain Expertise in it. You count as one size larger when determining your carrying capacity and the weight you can push, drag, lift, and for grapple and shove attempts. When you are prone, standing up uses only 5 feet of your movement. You gain a climbing speed equal to your movement speed. You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.",
+  "hits": [
+   "die size",
+   "speed"
+  ]
+ },
+ {
+  "id": "feats/38cccd1cbfe77b34",
+  "pack": "feats",
+  "name": "Charger",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [
+   {
+    "name": "Charger",
+    "changes": 1
+   }
+  ],
+  "text": "You can run down the enemy. You gain the following benefits: Increase your Strength or Constitution score by 1, to a maximum of 20. Your movement speed increases by 10 feet. If you move at least 10 feet in a straight line towards your target immediately before hitting with an attack as part of the Attack Action on your turn, choose one of the following effects: Your attack gains a 1d8 bonus to the damage roll, or your attack can push the target up to 10 feet, provided the target you want to push is no more than one size larger than you. You can use this benefit only once on each of your turns.",
+  "hits": [
+   "die size",
+   "speed"
+  ]
+ },
+ {
+  "id": "class-features/08160491cec413a4",
+  "pack": "class-features",
+  "name": "Deft Explorer",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 6th level, choose another benefit from the Deft Explorer options: Canny, Roving, or Tireless.",
+  "hits": [
+   "speed",
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/6452d3231050fa72",
+  "pack": "class-features",
+  "name": "Deft Explorer",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 10th level, choose your final benefit from the Deft Explorer options: Canny, Roving, or Tireless.",
+  "hits": [
+   "speed",
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/ab9efafbbb3f24a0",
+  "pack": "class-features",
+  "name": "Deft Explorer",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You are an unsurpassed explorer and survivor. Choose one of the following benefits, and then choose another one at 6th and 10th level. Canny. Choose two of your skill proficiencies. You gain expertise with the chosen skills. In addition, thanks to your extensive wandering, you can no longer get lost by natural means. Roving. Your walking speed increases by 10, and you gain a climbing speed and a swimming speed equal to your walking speed. Tireless. As a bonus action, you can give yourself a number of temporary hit points equal to 1d10 + your level. You can use this ability a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest. In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.",
+  "hits": [
+   "speed",
+   "hit points"
+  ]
+ }
+]

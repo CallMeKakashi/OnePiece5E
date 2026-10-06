@@ -1,16 +1,17 @@
-// Shop and Trade for dnd5e: shops live in a world setting (never in compendiums); money and items move only on the GM's client.
+import { MODULE_ID } from "../constants.mjs";
+// Shop and trade (part of op5e; kept in scripts/shop/ so it could be split out later): shops live in a world setting (never in compendiums); money and items move only on the GM's client.
 // API: game.shopTrade.{createShop, addItem, buy, sell, trade, open, exportShop, importShop}.
 // Players call the same functions; mutations are relayed to the active GM over the module socket, which checks ownership.
 import { ShopApp, openTradeDialog } from "./shop-app.mjs";
 import { price, canAfford, pay, receive, wealthIn } from "./currency.mjs";
 
-const ID = "dnd5e-shop-trade", SOCKET = `module.${ID}`;
+const ID = MODULE_ID, SOCKET = `module.${ID}`;
 const shops = () => foundry.utils.deepClone(game.settings.get(ID, "shops"));
 const saveShops = (s) => game.settings.set(ID, "shops", s);
 const fail = (m) => { throw new Error(m); };
 const pending = new Map();
 
-const init = () => {
+export const initShop = () => {
   game.settings.register(ID, "shops", { scope: "world", config: false, type: Object, default: {} });
   game.settings.register(ID, "currencyMode", { name: "SHOPTRADE.CurrencyMode", hint: "SHOPTRADE.CurrencyModeHint", scope: "world", config: true, type: String, default: "coins", choices: { coins: "Coins (dnd5e)", single: "Single currency" } });
   game.settings.register(ID, "singleCurrency", { name: "SHOPTRADE.SingleCurrency", scope: "world", config: true, type: String, default: "gp" });
@@ -84,7 +85,7 @@ const asGM = (op, args) => game.user.isGM ? handlers[op]({ ...args, userId: game
   game.socket.emit(SOCKET, { id, op, args, userId: game.user.id });
 });
 
-const ready = () => {
+export const readyShop = () => {
   game.socket.on(SOCKET, async (msg) => {
     if (msg.reply) { const p = pending.get(msg.id); if (p) { clearTimeout(p.timer); pending.delete(msg.id); msg.error ? p.reject(new Error(msg.error)) : p.resolve(msg.result); } return; }
     if (game.users.activeGM?.id !== game.user.id || !handlers[msg.op]) return;   // only the active GM executes
@@ -110,5 +111,3 @@ const ready = () => {
     openTrade: (actor) => openTradeDialog(actor),
   };
 };
-// loaded late (the test harness imports it into a running world): run both steps at once
-if (game.ready) { init(); ready(); } else { Hooks.once("init", init); Hooks.once("ready", ready); }

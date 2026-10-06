@@ -1,0 +1,771 @@
+[
+ {
+  "id": "class-features/d34ddf3343957cc9",
+  "pack": "class-features",
+  "name": "Colossal Channeler",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "When you reach 14th level, you shatter your limits once more. You gain the following benefits while raging: Your reach increases by 10 feet, your size can increase to Large or Huge (your choice). Your melee weapon attacks and thrown weapon attacks deal an additional 2d4 thunder damage instead of 1d4. Your weapon attacks gain a damage spread of 5 ft, the DC being calculated as 8 + your Strength modifier + your proficiency bonus. If the attack was a critical hit, the damage spread increases to 15 ft.",
+  "hits": [
+   "extra damage"
+  ]
+ },
+ {
+  "id": "class-features/691d3f9d84866b56",
+  "pack": "class-features",
+  "name": "Conqueror's Haki Journeyman",
+  "type": "feat",
+  "identifier": "conqueror-journeyman",
+  "prerequisites": [
+   "conqueror-apprentice"
+  ],
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Your training has strengthened your will, allowing your Conqueror's Haki to reach out farther beyond, increasing the power of your dominion, and increasing your influence over your foes. Profound Presence. Your sense of presence washes over the battlefield like crashing waves, sure to swallow anyone foolish enough to stand against your tides. The range of your Overwhelming Presence doubles. In addition, when you use your Domination feature from your Conqueror's Haki Apprentice haki ability, you can instead target a humanoid you can see within range. You can use this feature 3 times, regaining all uses at the end of a long rest. Nullifying Will. The strength of your will improves, able to nullify the powers of your foes. When you make the ability check for your Crushing Will ability, you can add your proficiency bonus to the ability check. Vanquish Foe. Your will reaches far, striking fear into even the most ironclad of hearts. When you use your Subjugate Foe ability, the range increases to 120ft, it deals 2d6 force damage as opposed to 1d6, and if the target fails, they suffer disadvantage on the next attack roll, ability check, or saving throw they make, until the end of their next turn.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/a00776d5e41c1654",
+  "pack": "class-features",
+  "name": "Constant Shots",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 15th level, if you roll Initiative and have no uses of Advanced Arsenal remaining, you regain two uses of it.",
+  "hits": [
+   "initiative"
+  ]
+ },
+ {
+  "id": "class-features/5c86f3554e4a2dd6",
+  "pack": "class-features",
+  "name": "Corrosive Soul",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning when you unlock this ardent soul at 1st level, you gain resistance to acid damage. You also learn the Acid Bolt and Acid Spray tricks if you don't already know them.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/d01ce757d5edaa5f",
+  "pack": "class-features",
+  "name": "Crazed Bravado",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning at 6th level, you've grown used to the burning of hot iron and thunderous boom of cannons. You gain resistance to fire damage and thunder damage, and immunity to the deafened condition. In addition, while raging, you can use your object interaction to clean and reload your swivel gun.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/f28c6fcef74978e4",
+  "pack": "class-features",
+  "name": "Creative Ambush",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 9th level, if you are hidden from a creature when you use a creation or trick on it, the creature has disadvantage on any saving throw it makes against the creation this turn.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "feats/74afcd9a5f789a51",
+  "pack": "feats",
+  "name": "Crusher",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You are practiced in the art of crushing your enemies, granting you the following benefits: Increase your Strength or Constitution by 1, to a maximum of 20. Once per turn, when you hit a creature with an attack that deals bludgeoning damage, you can move it 5 feet to an unoccupied space, provided the target is no more than one size larger than you. When you score a critical hit that deals bludgeoning damage to a creature, attack rolls against that creature are made with advantage until the start of your next turn.",
+  "hits": [
+   "die size"
+  ]
+ },
+ {
+  "id": "class-features/f775c23a51411d96",
+  "pack": "class-features",
+  "name": "Cut Time",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 6th level, as you continue executing the exact notes, you find the ability to fight to the beat twice as fast. Your movement speed is increased by 10 ft, and you can attack twice, instead of once, whenever you take the Attack action on your turn. If you ready your action to make an attack, you can attack the same number of times you would if you had taken the attack action on your turn.",
+  "hits": [
+   "speed"
+  ]
+ },
+ {
+  "id": "feats/a5b72100b5f14f5e",
+  "pack": "feats",
+  "name": "Dark Wing Hunter",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You are the terror of the night, able to take flight and sense all sounds hidden under the cover of dark. You gain the following benefits: Increase your Wisdom or Dexterity score by 1, up to a maximum of 20. You gain blindsight of 10ft. This blindsight ceases to function if you are deafened. You gain a flying speed equal to your movement speed. You cannot benefit from this speed if you are wearing heavy armor.",
+  "hits": [
+   "speed"
+  ]
+ },
+ {
+  "id": "class-features/7a1be48d1aff50f8",
+  "pack": "class-features",
+  "name": "Dragon Claw",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "When you gain this ability, you gain the ability to crush anything with your bare hands. Your unarmed strike damage dice increases by one size and deal double damage to objects and structures.",
+  "hits": [
+   "die size"
+  ]
+ },
+ {
+  "id": "class-features/83e489022e7e0263",
+  "pack": "class-features",
+  "name": "Dragon Talons",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 15th level, when you use your Dragon Grip feature, the extra 1d4 damage becomes 1d6. When you use Dragon's Breath, the Thunderwave creation is used at 2nd level.",
+  "hits": [
+   "extra damage"
+  ]
+ },
+ {
+  "id": "class-features/4f429683e2a2eda7",
+  "pack": "class-features",
+  "name": "Drunken Arts",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "When you choose this tradition at 3rd level, your drunken state allows you to always be ready to avoid the full brunt, either by dulling your pain, or to move with chaotic ebb and flow. At the start of each of your turns, and if you have at least 1 hit point, you gain a number of temporary hit points equal to your Wisdom modifier. This amount of temporary hit points doubles when you reach 6th level.",
+  "hits": [
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/ef77daff07b7022e",
+  "pack": "class-features",
+  "name": "Eagle Eyes",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 10th level, your eyes have become that of an apex predator and there is nothing that escapes them. You gain the following benefits: You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. You never have disadvantage on ranged weapon attacks. You have advantage on Wisdom (Perception) checks while you are not incapacitated. The normal and max range of all ranged weapons and cannons you are proficient with doubles.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/decc3d5537dab25a",
+  "pack": "class-features",
+  "name": "Echoing Soul",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning when you unlock this ardent soul at 1st level, you gain resistance to thunder damage. You also learn the Thunder Bolt and Sonic Boom tricks if you don't already know them.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "feats/4b6ae9dea3c89332",
+  "pack": "feats",
+  "name": "Elemental Adept",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You are adept in utilizing a particular element in combat. You gain the following benefits: Increase your Constitution, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20. When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder. You use ignore resistance to damage of the chosen type. In addition, when you roll damage for that type, you can treat any 1 on a damage die as a 2. You can select this feat multiple times. Each time you do so, you must choose a different damage type.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/59d538f62867cced",
+  "pack": "class-features",
+  "name": "Endless Vigor",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "When you use your Second Wind feature, you add your Constitution modifier to the amount of hit points you regain. In addition, your hit point maximum increases by a number equal to twice your level, and by 2 every level thereafter.",
+  "hits": [
+   "hit points"
+  ]
+ },
+ {
+  "id": "feats/3c0cd6ff5d60cb51",
+  "pack": "feats",
+  "name": "Enhanced Circuitry",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [
+   {
+    "name": "Enhanced Circuitry",
+    "changes": 1
+   }
+  ],
+  "text": "Your augmentations enable you to harness the energy within, enabling you to take in and release vast amounts of electricity. You gain the following benefits: Increase your Intelligence or Constitution score by 1, up to a maximum of 20. You gain resistance to lightning damage. You learn the Countershock creation, using the ability score you increased as the creativity ability modifier. If you have the Creativity feature, this creation is added to your creation lists. You can use this creation without expending a creation slot a number of times equal to your proficiency bonus. You regain all uses of this ability at the end of a long rest.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "feats/6e97b511a22103b1",
+  "pack": "feats",
+  "name": "Enhanced Evolution",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Your biological and physical attributes have been augmented to have you adapt to any situation. You gain the following benefits: Increase your Constitution, Intelligence, Wisdom, or Charisma score by 1, up to a maximum of 20. You learn the Absorption creation. Constitution is your Creativity modifier for this creation. If you have the Creativity feature, it is added to that list, allowing you to use that creativity modifier instead. You can use this creation without expending a creation slot a number of times equal to your proficiency bonus. You regain all these uses at the end of a long rest. You gain resistance to the damage type that you chose for your Spark of War feature.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/efc61fbb10d00218",
+  "pack": "class-features",
+  "name": "Enhanced Forms",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Also at 2nd level, the enhancements provided by Experimental Medicine become stronger for you: Hulking Strength. The damage die of your unarmed strikes and melee weapon attacks increases to 1d10. Nimble Dexterity. Opportunity attacks against you now have disadvantage. Resilient Constitution. You gain resistance to bludgeoning, piercing, and slashing damage.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/220538d97748d2af",
+  "pack": "class-features",
+  "name": "Enhanced Formula",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning at 10th level, you have further improved the formulas used to create your ooze. When you summon your Experimental Ooze, you can choose to have it be Large in size, increasing the damage rolls for its Psuedopod and Glob attacks to 4d4 + proficiency bonus and 2d8 + proficiency bonus respectively. In addition, it gains additional benefits for each type of ooze as listed below: Acid. The ooze has an additional amount of hit points equal to your level. Cold. Creatures grappled by the ooze are now restrained. In addition, any creature grappled by the ooze takes 1d8 cold damage at the start of each of their turns. Fire. When the ooze hits a creature with its Psuedopod attack, the target must succeed a Constitution saving throw or become ignited for 1 minute, repeating the saving throw at the end of each of their turns, ending the effect on a success. While ignited the creature takes 2d4 fire damage at the start of each of their turns. Poison. The ooze can use its action to touch a creature being affected by a poison, ending the effect of the poison as they absorb it. Lightning. If the ooze moved 20ft before making a Psuedopod attack, the target must succeed a Strength saving throw or become knocked prone if it is one size larger than the ooze or smaller.",
+  "hits": [
+   "die size"
+  ]
+ },
+ {
+  "id": "feats/d66aaaebc674579a",
+  "pack": "feats",
+  "name": "Eyes Open",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Your three eyes grant you the ability to be both alert and observant. You gain the following benefits: Increase your Wisdom or Charisma score by 1, up to a maximum of 20. You gain Expertise in Charisma (Deception) and Wisdom (Insight) checks. You gain a bonus to both your Passive Perception score and your initiative rolls equal to your proficiency bonus.",
+  "hits": [
+   "initiative"
+  ]
+ },
+ {
+  "id": "racial-features/411dfba6d862370a",
+  "pack": "racial-features",
+  "name": "Fear Factor",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Your size and the horns and teeth that adorn your visage send chills down the spines of most men. You have advantage on Intimidation checks against any creature that is at least one size smaller than you.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/9ab90df2029dea1c",
+  "pack": "class-features",
+  "name": "Fearsome Fortitude",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Time and time again, you have trained to be able to withstand certain potent effects that have been thrown your way, enabling your own form of saving grace. You gain proficiency in one saving throw. Additionally, your hit point maximum increases by a number equal to one roll of your hit dice + your Constitution Modifier, and you gain an extra hit die.",
+  "hits": [
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/0feb53675c1bbedc",
+  "pack": "class-features",
+  "name": "Ferocious Charger",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 15th level, you can run down your foes. If you move at least 10 feet in a straight line right before attacking a creature and you hit it with the attack, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone. You can use this feature only once on each of your turns. Additionally, if you are mounted, and use this ability, you deal an extra amount of damage equal to your level.",
+  "hits": [
+   "extra damage"
+  ]
+ },
+ {
+  "id": "class-features/d46a49d2964ab41c",
+  "pack": "class-features",
+  "name": "Fiery Soul",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning when you unlock this ardent soul at 1st level, you gain resistance to fire damage and can tolerate temperatures as high as 200 degrees without additional protection. Additionally, you gain the Fire Bolt and Guidance tricks if you don't already have them.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/35da5086b9906249",
+  "pack": "class-features",
+  "name": "Fighting Style: Thrown Weapon Fighting",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.",
+  "hits": [
+   "gain a +N"
+  ]
+ },
+ {
+  "id": "class-features/82866af7aba7e473",
+  "pack": "class-features",
+  "name": "Fighting Style: Thrown Weapon Fighting",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.",
+  "hits": [
+   "gain a +N"
+  ]
+ },
+ {
+  "id": "class-features/afe7ed41bd8997f6",
+  "pack": "class-features",
+  "name": "Fighting Style: Thrown Weapon Fighting",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.",
+  "hits": [
+   "gain a +N"
+  ]
+ },
+ {
+  "id": "class-features/fdaea449c4e40389",
+  "pack": "class-features",
+  "name": "Fighting Style: Thrown Weapon Fighting",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.",
+  "hits": [
+   "gain a +N"
+  ]
+ },
+ {
+  "id": "class-features/5d5592c5e36e48a1",
+  "pack": "class-features",
+  "name": "Fists of Fury",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 3rd level, the strike of your fists grow more potent, and each punch resounds a challenge to the creature you strike. You can roll a d6 in place of the normal damage of your unarmed strikes. If you aren't wielding a weapon or a shield, you can roll a d8 instead. Additionally, when you hit a creature with an unarmed strike while raging, that creature has disadvantage on attack rolls against creatures other than you until the start of your next turn.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/2ed6ff11b6cdd9dc",
+  "pack": "class-features",
+  "name": "Fortified Position",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "By 15th level, you're a master at forming well-defended emplacements using your Mechanical Cannon: You and your allies gain a +2 bonus to their AC and Dex Saves while within 10 feet of the cannon you create with Mechanical Cannon. You can now have two cannons at the same time. You can create two with the same action (but not the same creation slot), and you can activate both of them with the same bonus action. You determine whether the cannons are identical to each other or different. You can't create a third cannon while you have two.",
+  "hits": [
+   "gain a +N"
+  ]
+ },
+ {
+  "id": "feats/e99406ae0cd57aaa",
+  "pack": "feats",
+  "name": "Free Diver",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You are skilled at swimming and diving without the assistance of equipment. You gain the following benefits: Increase your Constitution score by 1, to a maximum of 20. You gain a swimming speed equal to your movement speed. If you already have a swim speed, increase it by 10 feet. Your ability to hold your breath is increased by 10 minutes.",
+  "hits": [
+   "speed"
+  ]
+ },
+ {
+  "id": "racial-features/c7be593652ff75e5",
+  "pack": "racial-features",
+  "name": "Friend of the Sea",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You can speak with creatures with a natural swimming speed that are of Huge size or smaller. Though simple-minded, sea creatures can understand the words you speak. Additionally, you have advantage on Wisdom (Animal Handling) ability checks made towards marine creatures.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/a018ecfbcba3d858",
+  "pack": "class-features",
+  "name": "Frozen Soul",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning when you unlock this ardent soul at 1st level, you gain resistance to cold damage and can tolerate temperatures as cold as negative 50 degrees without additional protection. Lastly, you gain the Ice Bolt and Piercing Frost tricks.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/d9b414f820820316",
+  "pack": "class-features",
+  "name": "Gigantic Might",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 3rd level, you learn how to channel your inner might to grow both in size and power to become a force of destruction. While raging, you gain the following benefits: Your reach increases by 5 feet, and if you are smaller than Large, you become Large, along with anything you are wearing. If there isn't enough room for you to increase your size, your size doesn't change. Your melee weapon attacks and thrown weapon attacks deal an additional 1d4 thunder damage. When you score a critical hit with a weapon attack, you unleash a powerful shockwave on impact. All creatures of your choice within 5 ft of the target take thunder damage equal to your level.",
+  "hits": [
+   "extra damage"
+  ]
+ },
+ {
+  "id": "feats/b5e3d3a04716fbdf",
+  "pack": "feats",
+  "name": "Grappler",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits: Increase your Strength score by 1, to a maximum of 20. You have advantage on attack rolls against a creature you are grappling. You can use your bonus action to attempt a grapple.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "racial-features/49afab68fb7edde2",
+  "pack": "racial-features",
+  "name": "Gullible",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Dwarves have disadvantage on Insight checks to see if someone is lying.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "feats/fff2df3b351fdd22",
+  "pack": "feats",
+  "name": "Gunner",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You have a quick hand and keen eye when employing firearms, granting you the following benefits: Increase your Dexterity score by 1, to a maximum of 20. You gain proficiency with firearms. You ignore the reload and loading property of firearms. Being within 5 feet of a hostile creature doesn’t impose disadvantage on your ranged attack rolls.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ }
+]

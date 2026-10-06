@@ -6,7 +6,7 @@ Heuristic read-only comparison of each item's activities against its description
 |---|---|---|---|
 | class-features | 839 | 310 | 5 |
 | racial-features | 86 | 22 | 1 |
-| feats | 228 | 114 | 1 |
+| feats | 228 | 111 | 1 |
 | items | 421 | 129 | 14 |
 | creations | 426 | 426 | 19 |
 | backgrounds | 56 | 0 | 0 |

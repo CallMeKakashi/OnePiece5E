@@ -1,5 +1,6 @@
+import { MODULE_ID } from "../constants.mjs";
 // Currency helpers. "coins" mode uses CONFIG.DND5E.currencies (cp/sp/ep/gp/pp conversion ratios, with change making); "single" mode uses one coin only.
-const ID = "dnd5e-shop-trade";
+const ID = MODULE_ID;
 // a world with one currency (for example op5e Berries) always behaves as single-currency
 const mode = () => Object.keys(CONFIG.DND5E.currencies).length < 2 ? "single" : game.settings.get(ID, "currencyMode"), single = () => game.settings.get(ID, "singleCurrency");
 // value of each coin in the smallest coin; conversion is "coins per gp" (cp 100, sp 10, ep 2, gp 1, pp 0.1)

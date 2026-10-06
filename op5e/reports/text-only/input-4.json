@@ -1,0 +1,787 @@
+[
+ {
+  "id": "class-features/956de33013f184f7",
+  "pack": "class-features",
+  "name": "Hardy Resolution",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 11th level, your drunken stupor is your safe haven, and unbreakable state of mind. While you are under the effects of your Swinging Stance feature, you have advantage on all saving throws against charmed, fear, restrained, stunned, and paralyzed.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/6a398dfa8f9092f5",
+  "pack": "class-features",
+  "name": "Herculean Strength",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 3rd level, your physical prowess is not to be underestimated. You gain the following benefits: You gain proficiency in Strength (Athletics) checks, or expertise if you were already proficient. Your movement speed increases by 10 feet. Any simple or martial weapon you wield gains the thrown property (30/90). If it already had the thrown property, both ranges are increased by 30 feet.",
+  "hits": [
+   "speed"
+  ]
+ },
+ {
+  "id": "feats/e52e88cc245a8961",
+  "pack": "feats",
+  "name": "Hooves Inbound",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [
+   {
+    "name": "Hooves Inbound",
+    "changes": 2
+   }
+  ],
+  "text": "Hoofed beings have powerful legs, enabling them to move at high speeds with ease, able to charge down any enemy that comes your way. You gain the following benefits: Increase your Strength or Wisdom score by 1, up to a maximum of 20. Your movement speed increases by 5 feet. You count as one size bigger when determining your carrying capacity, and the weight you can push, drag, or lift. If you move at least 20 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your natural weapon.",
+  "hits": [
+   "speed"
+  ]
+ },
+ {
+  "id": "class-features/6706a7b797fe054c",
+  "pack": "class-features",
+  "name": "Huntsmen's Tactics",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Additionally, at 3rd level, you adopt a unique style of hunting down your prey. You gain one of the following features of your choice. At 11th level, you can choose to gain an additional feature from the list below. Persistent Strike. Your undying tenacity in a fight enables you to take down any enemy. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn. Big Game Hunting. When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack. Cluster Clasher. Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.",
+  "hits": [
+   "extra damage"
+  ]
+ },
+ {
+  "id": "class-features/184dc185241c2dbf",
+  "pack": "class-features",
+  "name": "Immovable Object",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning at 5th level, you can attack twice, instead of once, when you take the Attack action on your turn and attack with your Aegis. If you ready your action to make an attack, you can attack the same number of times you would if you had taken the attack action on your turn. In addition, while wielding your Aegis, you cannot be knocked prone or moved against your will, and you count as one size larger when it comes to shoving.",
+  "hits": [
+   "die size"
+  ]
+ },
+ {
+  "id": "class-features/5eab4317a4fbf310",
+  "pack": "class-features",
+  "name": "Improved Ardent Smite",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 11th level, your power suffuses your entire being, causing every attack you make to carry elemental powers behind them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 damage of the type you chose for your Ardent Soul.",
+  "hits": [
+   "extra damage"
+  ]
+ },
+ {
+  "id": "racial-features/fc22ba1ba345c43c",
+  "pack": "racial-features",
+  "name": "Improved Ignite",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 10th level, your Ignited form becomes more powerful. While you are in your Ignited form, you gain resistance to all damage except psychic.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/08372afdb3ad45bc",
+  "pack": "class-features",
+  "name": "Inexorable Prowess",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning at 14th level, you never have disadvantage on weapon attacks against creatures you can see while you are raging.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/9fc6b19917bda16e",
+  "pack": "class-features",
+  "name": "Infinitesimal Instant",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 18th level, you have mastered your burst of enhanced movement as you find yourself breaking past your previous limits. You gain the following benefits: Your Afterimages gain a bonus to their hit points equal to your level. Your Afterimage can now be summoned 60ft from you and is destroyed if it goes beyond 60ft from you instead of 45ft. When you roll initiative and have no uses of your Rapid Action feature left, you regain two uses of that feature.",
+  "hits": [
+   "initiative"
+  ]
+ },
+ {
+  "id": "feats/83ba322751ee4f40",
+  "pack": "feats",
+  "name": "Inspiring Leader",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to double your level + your Charisma modifier. A creature can't gain temporary hit points from this feat again until it has finished a short or long rest.",
+  "hits": [
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/db3d8e3b87d92dcb",
+  "pack": "class-features",
+  "name": "Invulnerable",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 18th level, you gain resistance to two damage types of your choice, choosing from acid, bludgeoning, cold, fire, lightning, necrotic, piercing, poison, radiant, slashing, or thunder. Whenever you finish a short or long rest, you can change the damage types you chose.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/7a913523f5eb9e41",
+  "pack": "class-features",
+  "name": "Keen Eyes",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 9th level, you gain advantage on any Wisdom (Perception) or Intelligence (Investigation) check if you move no more than half your speed on the same turn.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/03ee8722ce372bd2",
+  "pack": "class-features",
+  "name": "Keen Strikes",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning at 3rd level, you can make calculated strikes with a precise weapon, relying on your keen intellect over brute force or manual dexterity. You can use your Intelligence modifier, rather than Dexterity when attacking with a ranged weapon, a melee weapon that has the finesse property, or an unarmed strike. Additionally, you do not require advantage on the attack roll to gain your sneak attack damage against creatures with a lesser Intelligence ability score. You do not gain this benefit if you have disadvantage on the attack roll.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "feats/5acc594d39a91cc4",
+  "pack": "feats",
+  "name": "Knack Of The Pretender",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [
+   {
+    "name": "Knack Of The Pretender",
+    "changes": 1
+   }
+  ],
+  "text": "You have a real knack for deception and escaping, granting you the following benefits: Whenever you make a Dexterity (Acrobatics) or a Charisma (Deception) check, you can roll a d4 and add the number rolled to the total ability check. Your walking speed increases by 5ft, and you can use a Dexterity (Acrobatics) check to escape any restraints instead of a Strength (Athletics) check. You know the Vicious Mockery trick. You can use the Disguise creation without expending a creation slot once per long rest. You can also use these creations with any creation slots you have, and are added to any creation list you have. Your creative ability for these creations is your choice of Intelligence, Wisdom, or Charisma (choose which when you gain this feat).",
+  "hits": [
+   "speed"
+  ]
+ },
+ {
+  "id": "feats/89c3c63a88b85a16",
+  "pack": "feats",
+  "name": "Kuja Accuracy",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "The accuracy of Kuja is legendary, especially that of archers. You have uncanny aim with attacks that rely on precision rather than brute force. You gain the following benefits: Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20 Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/b1c03ffd40ba04a2",
+  "pack": "class-features",
+  "name": "Magma Blade",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You have mastered the Foxfire style completely, able to produce flames that rival the deepest sources of magma. Your melee weapon attacks ignore resistance to fire damage, and treat immunities to fire damage as resistances.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/d1f8d9fe84a86a2f",
+  "pack": "class-features",
+  "name": "Make Your Mark",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 3rd level, you can menace your foes. When you hit a creature with a melee weapon attack, you can mark the creature until the end of your next turn. This effect ends early if you are incapacitated or you die. While it is within your reach, a creature marked by you has disadvantage on any attack roll that doesn't target you. In addition, if a creature marked by you deals damage to anyone other than you, you can make a special melee weapon attack against the marked creature as a bonus action on your next turn. You have advantage on the attack roll, and if it hits, the attack's weapon deals extra damage to the target equal to half your fighter level.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "feats/14f32ee299d25318",
+  "pack": "feats",
+  "name": "Mammal of Action",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You are a semiaquatic, egg-laying mammal of action. You’ve got more than just mad skills, you got a beaver tail and a bill. You gain the following benefits: Increase your Wisdom or Constitution score by 1, up to a maximum of 20. You gain blindsight of 10ft. You gain a swim speed equal to your movement speed. Once per turn, when you hit a creature with your natural weapon, you can choose to envenom it. The target creature must make a Constitution Saving Throw, DC 8 + Your Constitution modifier + Your Proficiency Bonus. On a failed save, the creature becomes poisoned for one minute, repeating the saving throw at the end of each of their turns, ending the effect on a success.",
+  "hits": [
+   "speed"
+  ]
+ },
+ {
+  "id": "feats/f5c4922bd5693b71",
+  "pack": "feats",
+  "name": "Master Navigator",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You have been trained to use Navigator’s tools, gaining the following benefits: Increase your Wisdom or Intelligence score by 1, to a maximum of 20. You gain proficiency in Navigator’s tools, or expertise if you were already proficient. You can recall the exact directions from one location you have been in relation to another location you have been, as long as you have been consistently conscious for the journey. You have advantage on saving throws related to weather based phenomenon.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/c064b16551d84279",
+  "pack": "class-features",
+  "name": "Master of War",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 18th level, when you hit a creature with an attack using a weapon, that creature has Disadvantage on the next saving throw it makes against the next creation you use. In addition, the creation slot you recover with your Recharging Surge can be up to 5th level.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "feats/2b4eb29a4380109c",
+  "pack": "feats",
+  "name": "Master Weaver",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You have been trained to use Weaver’s tools, gaining the following benefits: Increase your Wisdom or Intelligence score by 1, to a maximum of 20. You gain proficiency in Weavers tools, or expertise if you were already proficient. You can temporarily enhance an outfit, making the wearing have more of a presence. You touch an outfit over the course of a short or long rest. Until the creature’s next rest, or until you use this feature on another set of clothes, the wearer has advantage on your choice of Charisma (Persuasion), Charisma (Intimidation), Charisma (Performance), or Charisma (Deception) checks. The amount of time and cost it takes to make and mend clothes is halved.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "feats/2b588a8d085a12f6",
+  "pack": "feats",
+  "name": "Master Woodcarver",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You have been trained to use Woodcarver’s tools, gaining the following benefits: Increase your Wisdom or Intelligence score by 1, to a maximum of 20. You gain proficiency in Woodcarver’s tools, or expertise if you were already proficient. Wooden objects you create have resistance to bludgeoning, piercing, and slashing damage. The amount of time and cost it takes to make and repair wooden objects is halved.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/d1013cb035a4594c",
+  "pack": "class-features",
+  "name": "Medical Expertise",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You are particularly adept at healing the wounded. You have advantage on all Wisdom (Medicine) checks made to stabilize dying creatures, and if you roll a 20 on the ability check, the creature regains consciousness with 1 hit point. A creature can only benefit from this effect once and must finish a long rest before it can do so again. You also gain Expertise in Wisdom (Medicine) checks, and whenever you craft medicines or poisons, it takes you half of the time and cost it normally would. Additionally, when you stabilize a creature, you can remove one poison or disease from it.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "feats/f4e58d1d6e400e7a",
+  "pack": "feats",
+  "name": "Medium Armor Master",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You have practiced moving in medium armor to gain the following benefits: Increase your Dexterity or Constitution score by 1, to a maximum of 20. Wearing medium armor doesn't impose disadvantage on your Dexterity (Stealth) checks. When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/41dbf826f816e5f0",
+  "pack": "class-features",
+  "name": "Miasmic Soul",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning when you unlock this ardent soul at 1st level, you gain immunity to the poisoned condition and resistance to poison damage. Additionally, you learn the Venom Bolt and Poisonous Puff tricks if you don't already know them.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "feats/f9c748ae380b6b6c",
+  "pack": "feats",
+  "name": "Mounted Combatant",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You are a dangerous foe to face while mounted. While you are mounted and aren't incapacitated, you gain the following benefits: You have advantage on melee attack rolls against unmounted creatures that are smaller than your mount. You can force an attack targeted at your mount to target you instead. If your mount is subjected to an effect that allows it to make a Dexterity save to take only half damage, it takes no damage if it succeeds and half damage if it fails.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/1f0888dcedcc3fb7",
+  "pack": "class-features",
+  "name": "Mutant Method",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 10th level, your experiments with your Test Subject has rendered them resilient to all punishment. When you command your Test Subject to take the Attack action, your Test Subject can make two attacks instead of one. In addition, your Test Subject gains resistance to bludgeoning, piercing, and slashing damage.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/5f4b5c190cb6bfd6",
+  "pack": "class-features",
+  "name": "Opportunist",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 9th level, you are able to take full advantage of the battlefield, taking the opportunity for the first strike. When you roll initiative, you can choose to swap initiative rolls with a willing creature that you can see a within 60ft. Alternatively, you can attempt to swap initiative rolls with an unwilling creature that you can see within 60ft. You must succeed on a Charisma (Deception) check contested against the creature's Wisdom (Insight) in order to do so.",
+  "hits": [
+   "initiative"
+  ]
+ },
+ {
+  "id": "class-features/389b8318ae93050a",
+  "pack": "class-features",
+  "name": "Ordnance Requiem",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "When you join the College of Swords at 3rd level, your timing of your attacks is not only excellent, but also extremely deadly, resulting in a profound performance of steel. When you hit a creature with a weapon attack, you can expend one use of your Bardic Inspiration to deal an additional 2d6 damage to that target, the same type as the weapon you are wielding. You can do so only once per round on your turn. This extra damage increases when you reach certain levels in this class, increasing to 3d6 at 5th level, 5d6 at 10th level, and 8d6 at 15th level.",
+  "hits": [
+   "extra damage"
+  ]
+ },
+ {
+  "id": "class-features/cc205421270a27ee",
+  "pack": "class-features",
+  "name": "Pack Mule",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 10th level, lugging a massive cannon around has granted you immense physical strength. You gain the following benefits: Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength (Athletics) checks made to push, pull, lift, or break objects. While raging, you cannot be knocked prone or moved against your will. You have advantage on Constitution saving throws.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/b794a9cd0336f6fe",
+  "pack": "class-features",
+  "name": "Peerless Understanding",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 14th level, your understanding of the gravity of your words allow you to leave all that hear them utterly befuddled. When you use your Cutting Words feature on an enemy, that enemy has disadvantage on their next saving throw, or until you use this feature on another creature.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "feats/aef39db90ec0c796",
+  "pack": "feats",
+  "name": "Perceptive",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [
+   {
+    "name": "Perceptive",
+    "changes": 1
+   }
+  ],
+  "text": "You hone your senses until they become razor-sharp. You gain the following benefits: Increase your Wisdom score by 1, to a maximum of 20. You gain proficiency in the Perception skill. If you are already proficient in the skill, you gain Expertise in it. You gain darkvision of 30ft. If you already had darkvision, it is extended by 30ft. Being in a lightly obscured area doesn't impose disadvantage on your Wisdom (Perception) checks if you can both see and hear.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/d6033131e71cd891",
+  "pack": "class-features",
+  "name": "Perfected Mixture",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning at 14th level, you have mastered the art of creating your vision. You gain the following benefits: Your ooze now lasts until it is reduced to 0 hit points, or until you dismiss it, instead of only 1 hour. When you summon your Experimental Ooze, you may choose two damage types instead of one, gaining the benefits of both. Your ooze gains resistance to bludgeoning, piercing, and slashing damage.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/1dea35e43740d09b",
+  "pack": "class-features",
+  "name": "Perfected Subject",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 14th level, you have perfected the art of engineering living organisms. You gain the following benefits: You no longer need to use a bonus action to command your Test Subject, and it can take actions other than Dodge when not commanded. It still remains subservient to you. Your Test Subject's hit point maximum increases by your level, and by 1 each level thereafter.",
+  "hits": [
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/62f7fba37427c801",
+  "pack": "class-features",
+  "name": "Physician's Mercy",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 6th level, you can cause even greater cures with just a single touch, and if necessary, cause devastating harm. When you use Hand of Healing on a creature, you can also end one disease or one of the following conditions: blinded, deafened, paralyzed, poisoned, or stunned. When you use Hand of Harm on a creature, you can subject that creature to one of the following conditions: blinded, deafened, or poisoned until the end of your next turn. In addition, you gain proficiency in Constitution saving throws, and gain resistance to necrotic damage.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/263fea74a6d6936a",
+  "pack": "class-features",
+  "name": "Pokerface",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 9th level, you can keep calm even while under pressure. You gain advantage on any Charisma (Deception) or Dexterity (Sleight of Hand) checks if you move no more than half your speed on the same turn.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "racial-features/3a8c3178dd1e6e54",
+  "pack": "racial-features",
+  "name": "Powerful Build",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [
+   {
+    "name": "Powerful Build",
+    "changes": 1
+   }
+  ],
+  "text": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, lift, and for grapple and shove attempts.",
+  "hits": [
+   "die size"
+  ]
+ },
+ {
+  "id": "racial-features/62fb2ada42836bb1",
+  "pack": "racial-features",
+  "name": "Powerful Build",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [
+   {
+    "name": "Powerful Build",
+    "changes": 1
+   }
+  ],
+  "text": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, lift, and for grapple and shove attempts.",
+  "hits": [
+   "die size"
+  ]
+ }
+]

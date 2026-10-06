@@ -8,6 +8,8 @@ import { registerOptionalRules } from "./optional-rules.mjs";
 import { registerImportJournals } from "./import-journals.mjs";
 import { registerImportOldCharacter } from "./import-old-character.mjs";
 import { registerFruitCasting } from "./fruit-casting.mjs";
+import { initShop, readyShop } from "./shop/shop.mjs";
+import { registerSelfUpdate } from "./self-update.mjs";
 import { registerMcpApi } from "./mcp-api.mjs";
 import { registerRefreshActor } from "./refresh-actor.mjs";
 import { registerWorldPackSync } from "./world-pack-sync.mjs";
@@ -45,6 +47,8 @@ Hooks.once("init", () => {
   registerImportOldCharacter();
   registerMcpApi();
   registerFruitCasting();
+  initShop();
+  registerSelfUpdate();
   registerWorldPackSync();
 
   game.settings.register(MODULE_ID, "berriesWeightless", {
@@ -81,6 +85,7 @@ Hooks.once("setup", () => {
 });
 
 Hooks.once("ready", async () => {
+  readyShop();
   applyBerriesEncumbrance(game.settings.get(MODULE_ID, "berriesWeightless"));
   initOp5eAnimations();
 });

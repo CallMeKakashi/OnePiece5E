@@ -1,6 +1,6 @@
-# Shop and Trade (dnd5e)
+# Shop and trade (part of op5e)
 
-Standalone module for any dnd5e world (Foundry 13, dnd5e 5.x). No dependency on op5e. Shops are stored in a world setting, never in compendiums.
+Shops are stored in an op5e world setting, never in compendiums. The code lives in `scripts/shop/` and uses only dnd5e, so it could be split out later.
 
 ## Use (macro or console)
 ```js
@@ -18,7 +18,7 @@ Players call the same functions; the active GM's client does the work and re-che
 Default: dnd5e coins, read from `CONFIG.DND5E.currencies`, with change making. Setting "Single currency": one coin only (for example a Berries world). A world whose config has one currency is always single.
 
 ## Tests
-`node --test shop-trade/test/currency.test.mjs` (coin math) and `node dev/harness/shop-trade.mjs` from `op5e/` (live: buy, sell, trade, funds, stock, permissions, export/import).
+`npm test` (test/shop-currency.test.mjs, coin math) and `node dev/harness/shop-trade.mjs` (live: buy, sell, trade, funds, stock, permissions, export/import).
 
 `createShop(name, { merchantId })` makes an NPC merchant: its own wealth pays for items it buys and receives what it sells for. `game.shopTrade.openTrade(actor)` opens the trade window.
 

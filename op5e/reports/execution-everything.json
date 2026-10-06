@@ -139,7 +139,7 @@
      "name": "Second Wind",
      "message": true,
      "rolls": [],
-     "damage": 29,
+     "damage": 25,
      "consumed": true
     }
    ],
@@ -261,7 +261,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
+   ],
    "hp": [
     206,
     206
@@ -307,7 +309,7 @@
      "name": "Subjugate Foe: Knock Prone",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 5,
      "consumed": false
     },
     {
@@ -321,7 +323,7 @@
    ],
    "fails": [],
    "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
+    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
    ],
    "hp": [
     206,
@@ -426,7 +428,7 @@
      "name": "Rope Combatant",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 3,
      "consumed": false
     }
    ],
@@ -479,7 +481,7 @@
      "name": "Obliterate",
      "message": true,
      "rolls": [],
-     "damage": 21,
+     "damage": 22,
      "consumed": false
     }
    ],
@@ -600,7 +602,7 @@
      "name": "Eternal Flames",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 8,
      "consumed": false
     }
    ],
@@ -742,9 +744,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -797,7 +797,7 @@
    ],
    "fails": [],
    "warns": [
-    "console: midi-qol |  performState | Workflow Formal Noodle Suit KzKlb5V1EoVKaKyh Workflow ChatMessage.Uc67G9dLGqKDPgiu exceeded 2"
+    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
    ],
    "hp": [
     206,
@@ -967,7 +967,7 @@
      "name": "Noodle Strikes",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 2,
      "consumed": false
     }
    ],
@@ -992,7 +992,7 @@
      "name": "Thunderous Blows",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 3,
      "consumed": true
     }
    ],
@@ -1100,9 +1100,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -1183,7 +1181,7 @@
      "name": "Burning Damage",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 6,
      "consumed": false
     },
     {
@@ -1222,7 +1220,7 @@
      "name": "Burning Pain",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 10,
      "consumed": false
     }
    ],
@@ -1654,7 +1652,7 @@
      "name": "Crushing Grip",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 1,
      "consumed": false
     }
    ],
@@ -1899,7 +1897,7 @@
      "name": "Tireless",
      "message": true,
      "rolls": [],
-     "damage": 21,
+     "damage": 27,
      "consumed": true
     }
    ],
@@ -2341,7 +2339,7 @@
      "name": "Bardic Inspiration",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 2,
      "consumed": true
     }
    ],
@@ -2497,9 +2495,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -3047,7 +3043,7 @@
      "name": "Elemental Culverin",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 18,
      "consumed": false
     },
     {
@@ -3055,7 +3051,7 @@
      "name": "Force Ballista",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 15,
      "consumed": false
     },
     {
@@ -3063,7 +3059,7 @@
      "name": "Protector",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 11,
      "consumed": false
     }
    ],
@@ -3156,7 +3152,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  performState | Workflow Mechanical Cannon bMpBywiI6epy2BJr Workflow ChatMessage.16TRYukT6mS81RUl TypeError: "
+   ],
    "hp": [
     179,
     179
@@ -3188,7 +3186,7 @@
      "name": "Extra Elemental Damage",
      "message": true,
      "rolls": [],
-     "damage": 22,
+     "damage": 18,
      "consumed": false
     }
    ],
@@ -3446,9 +3444,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -3466,7 +3462,7 @@
      "name": "Water Shot",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 10,
      "consumed": false
     }
    ],
@@ -3555,7 +3551,7 @@
      "name": "Armor Strike",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 19,
      "consumed": false
     },
     {
@@ -3563,7 +3559,7 @@
      "name": "Armor Grapple Damage",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 8,
      "consumed": false
     }
    ],
@@ -3846,7 +3842,7 @@
      "name": "The Open Hand",
      "message": true,
      "rolls": [],
-     "damage": 62,
+     "damage": 77,
      "consumed": false
     },
     {
@@ -3854,13 +3850,13 @@
      "name": "The Open Hand",
      "message": true,
      "rolls": [],
-     "damage": 50,
+     "damage": 44,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
+    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
    ],
    "hp": [
     183,
@@ -3911,9 +3907,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -4163,7 +4157,9 @@
    "ctx": "Rogue (Scout) 9",
    "activities": [],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: Error: Error thrown in hooked function '' for hook 'dnd5e.preRollDamage'. Cannot read properties of undefined (reading '"
+   ],
    "hp": [
     183,
     183
@@ -4483,7 +4479,7 @@
      "name": "Dreaded Ambush",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 1,
      "consumed": false
     }
    ],
@@ -4554,7 +4550,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
+   ],
    "hp": [
     183,
     183
@@ -4616,7 +4614,7 @@
      "name": "Hand of Healing",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 9,
      "consumed": true
     }
    ],
@@ -4748,7 +4746,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
+   ],
    "hp": [
     200,
     200
@@ -4819,7 +4819,7 @@
      "name": "Snowstorm Aura",
      "message": true,
      "rolls": [],
-     "damage": 14,
+     "damage": 12,
      "consumed": false
     }
    ],
@@ -4916,7 +4916,7 @@
      "name": "Thunderstorm Aura",
      "message": true,
      "rolls": [],
-     "damage": 23,
+     "damage": 33,
      "consumed": false
     }
    ],
@@ -4948,7 +4948,7 @@
      "name": "Firestorm Aura",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 15,
      "consumed": false
     }
    ],
@@ -4970,7 +4970,7 @@
    "activities": [],
    "fails": [],
    "warns": [
-    "console: midi-qol |  performState | Workflow Raging Storm: Thunderstorm osr4yRmP5BCrWHRB Workflow ChatMessage.PiQ6LdsfsUYOwCU5 Ty"
+    "console: midi-qol |  performState | Workflow Raging Storm: Thunderstorm BaxQj8sh4gAKaXoX Workflow ChatMessage.hgonMXL6x5axXtmW Ty"
    ],
    "hp": [
     183,
@@ -5265,7 +5265,9 @@
    "ctx": "Cavalier 3",
    "activities": [],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
+   ],
    "hp": [
     206,
     206
@@ -5311,7 +5313,7 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 9,
      "consumed": false
     }
    ],
@@ -5336,7 +5338,7 @@
      "name": "Add Die to Check",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 7,
      "consumed": false
     }
    ],
@@ -5361,7 +5363,7 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 10,
      "consumed": false
     },
     {
@@ -5393,7 +5395,7 @@
      "name": "Riposte Attack",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 3,
      "consumed": false
     }
    ],
@@ -5418,7 +5420,7 @@
      "name": "Expend Superiority Die",
      "message": true,
      "rolls": [
-      "1d12=5"
+      "1d12=7"
      ],
      "consumed": true
     }
@@ -5429,6 +5431,7 @@
     206,
     206
    ],
+   "retried": true,
    "pack": "class-features"
   },
   {
@@ -5442,7 +5445,7 @@
      "name": "Add Die to Attack Roll",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 10,
      "consumed": false
     }
    ],
@@ -5467,7 +5470,7 @@
      "name": "Roll AC Bonus",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 1,
      "consumed": false
     }
    ],
@@ -5492,7 +5495,7 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 5,
      "consumed": false
     },
     {
@@ -5524,7 +5527,7 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 3,
      "consumed": false
     }
    ],
@@ -5549,7 +5552,7 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 4,
      "consumed": false
     },
     {
@@ -5595,7 +5598,7 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 3,
      "consumed": false
     },
     {
@@ -5627,7 +5630,7 @@
      "name": "Roll AC Bonus",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 5,
      "consumed": false
     }
    ],
@@ -5680,7 +5683,7 @@
      "name": "Add Die to Companion's Damage",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 3,
      "consumed": false
     }
    ],
@@ -5705,7 +5708,7 @@
      "name": "Add Die to Charisma Check",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 11,
      "consumed": false
     }
    ],
@@ -5730,7 +5733,7 @@
      "name": "Brace Attack",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 8,
      "consumed": false
     }
    ],
@@ -5755,7 +5758,7 @@
      "name": "Heal",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 10,
      "consumed": true
     },
     {
@@ -5768,7 +5771,7 @@
    ],
    "fails": [],
    "warns": [
-    "console: midi-qol |  performState | Workflow Trip Attack DQhyhnOxv8MqJJzp Workflow ChatMessage.DimyOgOlm2zBKDN6 TypeError: Cannot"
+    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
    ],
    "hp": [
     183,
@@ -5830,7 +5833,7 @@
      "name": "Bleeding: Damage",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 9,
      "consumed": false
     },
     {
@@ -6976,7 +6979,7 @@
      "name": "Swarming Cluster",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 3,
      "consumed": false
     },
     {
@@ -6984,7 +6987,7 @@
      "name": "Swarming Cluster",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 4,
      "consumed": false
     }
    ],
@@ -7019,7 +7022,9 @@
    "ctx": "Samurai 10",
    "activities": [],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
+   ],
    "hp": [
     206,
     206
@@ -7124,7 +7129,7 @@
      "name": "Six King Gun (2 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 23,
      "consumed": false
     },
     {
@@ -7132,7 +7137,7 @@
      "name": "Six King Gun (3 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 31,
+     "damage": 48,
      "consumed": false
     },
     {
@@ -7140,7 +7145,7 @@
      "name": "Six King Gun (4 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 50,
+     "damage": 42,
      "consumed": false
     },
     {
@@ -7148,7 +7153,7 @@
      "name": "Six King Gun (5 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 57,
+     "damage": 59,
      "consumed": false
     },
     {
@@ -7156,7 +7161,7 @@
      "name": "Six King Gun (6 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 70,
+     "damage": 57,
      "consumed": false
     },
     {
@@ -7164,7 +7169,7 @@
      "name": "Six King Gun (7 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 82,
+     "damage": 91,
      "consumed": false
     },
     {
@@ -7172,7 +7177,7 @@
      "name": "Six King Gun (8 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 91,
+     "damage": 95,
      "consumed": false
     },
     {
@@ -7180,7 +7185,7 @@
      "name": "Six King Gun (9 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 78,
+     "damage": 105,
      "consumed": false
     },
     {
@@ -7188,7 +7193,7 @@
      "name": "Six King Gun (10 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 101,
+     "damage": 108,
      "consumed": false
     }
    ],
@@ -7410,7 +7415,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  performState | Workflow Six King Gun opUIfEhiYVY0BtHg Workflow ChatMessage.gDMHOSe6WFSzR29Q TypeError: Canno"
+   ],
    "hp": [
     183,
     183
@@ -7889,7 +7896,7 @@
      "name": "Spiteful Spike (Corrosive Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 5,
      "consumed": false
     },
     {
@@ -7897,7 +7904,7 @@
      "name": "Bitter Bite (Corrosive Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 8,
      "consumed": false
     },
     {
@@ -7905,7 +7912,7 @@
      "name": "Flame Ray (Flaming Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 4,
      "consumed": false
     },
     {
@@ -7913,7 +7920,7 @@
      "name": "Fire Clash (Flaming Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 7,
      "consumed": false
     },
     {
@@ -7921,7 +7928,7 @@
      "name": "Icicle Inbound (Frozen Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 9,
      "consumed": false
     },
     {
@@ -7929,7 +7936,7 @@
      "name": "Cold Cut (Frozen Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 6,
      "consumed": false
     },
     {
@@ -7937,7 +7944,7 @@
      "name": "Lightning Bolt (Sparking Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 6,
      "consumed": false
     },
     {
@@ -7945,7 +7952,7 @@
      "name": "Spark Strike (Sparking Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 9,
      "consumed": false
     },
     {
@@ -7969,7 +7976,7 @@
      "name": "Toxic Missile (Venomous Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 15,
      "consumed": false
     },
     {
@@ -7977,7 +7984,7 @@
      "name": "Venomous Fang (Venomous Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 5,
      "consumed": false
     },
     {
@@ -8000,7 +8007,7 @@
      "name": "Spiny Thorns Damage (Spiny Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 3,
      "consumed": false
     },
     {
@@ -8036,7 +8043,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
+   ],
    "hp": [
     221,
     221
@@ -8122,9 +8131,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: rejection: TypeError: undefined. Cannot read properties of null (reading 'addChild')\n[No packages detected]\n    at Token"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -8243,7 +8250,7 @@
      "name": "Phase Step: Damage",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 8,
      "consumed": false
     },
     {
@@ -8251,7 +8258,7 @@
      "name": "Phase Step: Shunt Damage",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 2,
      "consumed": false
     }
    ],
@@ -8490,9 +8497,7 @@
    "ctx": "Gadgeteer 18",
    "activities": [],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -8568,7 +8573,7 @@
      "name": "Guardian Pulse",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 8,
      "consumed": true
     },
     {
@@ -8610,7 +8615,9 @@
    "ctx": "Savant (Necrotic Mania) 1",
    "activities": [],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
+   ],
    "hp": [
     200,
     200
@@ -8635,7 +8642,7 @@
      "name": "Feed on Despair",
      "message": true,
      "rolls": [],
-     "damage": 26,
+     "damage": 37,
      "consumed": true
     }
    ],
@@ -8706,7 +8713,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  performState | Workflow Channel Conviction: Necrotic Mania ekcKSC1QJZX7iDop Workflow ChatMessage.7oAFPq5yLz8"
+   ],
    "hp": [
     206,
     206
@@ -8738,7 +8747,7 @@
      "name": "Blade Hands",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 1,
      "consumed": false
     }
    ],
@@ -8763,7 +8772,7 @@
      "name": "Hellfire Halitosis",
      "message": true,
      "rolls": [],
-     "damage": 14,
+     "damage": 18,
      "consumed": true
     }
    ],
@@ -8788,7 +8797,7 @@
      "name": "Raging Charge",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 9,
      "consumed": true
     },
     {
@@ -8796,7 +8805,7 @@
      "name": "Raging Charge",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 9,
      "consumed": true
     }
    ],
@@ -9314,7 +9323,7 @@
      "name": "Ignite",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 7,
      "consumed": false
     }
    ],
@@ -9563,9 +9572,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -10255,7 +10262,7 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 6,
      "consumed": false
     },
     {
@@ -10287,7 +10294,7 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 4,
      "consumed": false
     },
     {
@@ -10344,7 +10351,7 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 2,
      "consumed": false
     }
    ],
@@ -10369,7 +10376,7 @@
      "name": "Add Die to Stealth / Initiative",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 10,
      "consumed": false
     }
    ],
@@ -10416,7 +10423,7 @@
      "name": "Add Die to Athletics Check",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 5,
      "consumed": false
     }
    ],
@@ -10441,7 +10448,7 @@
      "name": "Thrown Attack",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 2,
      "consumed": false
     }
    ],
@@ -10480,7 +10487,7 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 10,
      "consumed": false
     }
    ],
@@ -10501,9 +10508,7 @@
    "ctx": "Brawler (Okama Kenpo) 3",
    "activities": [],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -10539,7 +10544,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
+   ],
    "hp": [
     183,
     183
@@ -10596,7 +10603,9 @@
    "ctx": "Blitzkrieg 3",
    "activities": [],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
+   ],
    "hp": [
     206,
     206
@@ -11424,7 +11433,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
+   ],
    "hp": [
     183,
     183
@@ -11642,7 +11653,7 @@
      "name": "Sneak Attack",
      "message": true,
      "rolls": [],
-     "damage": 38,
+     "damage": 50,
      "consumed": false
     }
    ],
@@ -12229,9 +12240,7 @@
    "ctx": "Barbarian (Spirit Speaker) 3",
    "activities": [],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  performState | Workflow Fury of the Storm: Firestorm IswGtXLile8CZLDX Workflow ChatMessage.EGcn2925ONLEqrEN "
-   ],
+   "warns": [],
    "hp": [
     221,
     221
@@ -12318,7 +12327,7 @@
    ],
    "fails": [],
    "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
+    "console: midi-qol |  performState | Workflow Fury of the Storm: Snowstorm 8LtTtt79evCcMqr7 Workflow ChatMessage.DmEqR3IRQ7rCN1dL "
    ],
    "hp": [
     200,
@@ -12446,7 +12455,9 @@
    "ctx": "Brawler (Open Hand) 6",
    "activities": [],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  performState | Workflow Channel Conviction: Thundering Resolve C62nr6YMeqKFcJFg Workflow ChatMessage.LLt9h8g"
+   ],
    "hp": [
     183,
     183
@@ -12853,7 +12864,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: window: Uncaught Decoding error."
+   ],
    "hp": [
     221,
     221
@@ -13071,7 +13084,7 @@
      "name": "Harmonic Vitality",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 3,
      "consumed": true
     }
    ],
@@ -13463,7 +13476,7 @@
      "name": "Extra Necrotic Damage",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 18,
      "consumed": false
     },
     {
@@ -13495,7 +13508,7 @@
      "name": "Extra Psychic Damage",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 17,
      "consumed": false
     },
     {
@@ -13587,7 +13600,7 @@
      "name": "18th Level: Extra Force Damage",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 5,
      "consumed": false
     }
    ],
@@ -13612,7 +13625,7 @@
      "name": "Damage Spread (Dexterity Save)",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 17,
      "consumed": false
     }
    ],
@@ -13637,7 +13650,7 @@
      "name": "Extra Piercing Damage",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 13,
      "consumed": false
     },
     {
@@ -13652,7 +13665,7 @@
      "name": "Brambles: Movement Damage",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 20,
      "consumed": false
     }
    ],
@@ -13705,7 +13718,7 @@
      "name": "Piercing Line (Dexterity Save)",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 9,
      "consumed": false
     }
    ],
@@ -13726,9 +13739,7 @@
    "ctx": "Rogue (Assassin) 13",
    "activities": [],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  performState | Workflow Exploding Ammo Pu7KlLE4sj1ZIDNb Workflow ChatMessage.H713gIJJEHTWdGBl TypeError: Can"
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -14121,7 +14132,7 @@
      "name": "Spirit Strike",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 6,
      "consumed": false
     }
    ],
@@ -14625,7 +14636,7 @@
      "name": "Force Jolt",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 8,
      "consumed": true
     },
     {
@@ -14633,7 +14644,7 @@
      "name": "Healing Jolt",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 9,
      "consumed": true
     }
    ],
@@ -14704,7 +14715,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
+   ],
    "hp": [
     183,
     183
@@ -14744,7 +14757,7 @@
      "name": "Volatile (Cost: 1d6)",
      "message": true,
      "rolls": [
-      "1d6=5"
+      "1d6=4"
      ],
      "consumed": false
     },
@@ -14853,7 +14866,7 @@
      "name": "Hand of Harm",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 1,
      "consumed": true
     }
    ],
@@ -14892,7 +14905,7 @@
      "name": "Exploding Shot",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 4,
      "consumed": false
     },
     {
@@ -14900,7 +14913,7 @@
      "name": "Exploding Shot",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 1,
      "consumed": false
     }
    ],
@@ -14979,9 +14992,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     200,
     200
@@ -15055,7 +15066,7 @@
      "name": "Water Heart",
      "message": true,
      "rolls": [],
-     "damage": 19,
+     "damage": 9,
      "consumed": false
     }
    ],
@@ -15080,7 +15091,7 @@
      "name": "Brick Fist",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 8,
      "consumed": false
     }
    ],
@@ -15668,7 +15679,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
+   ],
    "hp": [
     183,
     183
@@ -17372,7 +17385,7 @@
      "name": "Elemental Attack (2d10)",
      "message": true,
      "rolls": [],
-     "damage": 20,
+     "damage": 16,
      "consumed": false
     },
     {
@@ -17977,7 +17990,7 @@
      "name": "Poison Strike",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 4,
      "consumed": false
     },
     {
@@ -18275,34 +18288,9 @@
    "name": "Buck-Toothed",
    "type": "feat",
    "ctx": "Fighter L20",
-   "activities": [
-    {
-     "type": "damage",
-     "name": "Tail Slam: Bludgeon",
-     "message": true,
-     "rolls": [],
-     "damage": 6,
-     "consumed": true
-    },
-    {
-     "type": "utility",
-     "name": "Tail Slam: Shove Further",
-     "message": true,
-     "rolls": [],
-     "consumed": true
-    },
-    {
-     "type": "utility",
-     "name": "Tail Slam: Slow",
-     "message": true,
-     "rolls": [],
-     "consumed": true
-    }
-   ],
+   "activities": [],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -18450,7 +18438,7 @@
      "name": "Superiority Die",
      "message": true,
      "rolls": [
-      "1d8=8"
+      "1d8=5"
      ],
      "consumed": true
     }
@@ -18517,7 +18505,7 @@
      "name": "Devil Fruit Ability Check",
      "message": true,
      "rolls": [
-      "1d20 + max(5,3,5,3,3,3) + 6=18"
+      "1d20 + max(5,3,5,3,3,3) + 6=21"
      ],
      "consumed": false
     },
@@ -18764,7 +18752,7 @@
      "name": "Strong Will Die",
      "message": true,
      "rolls": [
-      "1d8=4"
+      "1d8=2"
      ],
      "consumed": false
     }
@@ -22264,9 +22252,7 @@
    "ctx": "Fighter L20",
    "activities": [],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  performState | Workflow Poisoner RgTZbBAgcOLTttJY Workflow ChatMessage.aBLcM75CxoYBd3JP TypeError: Cannot re"
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -22818,7 +22804,7 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 49,
+     "damage": 55,
      "consumed": false
     },
     {
@@ -22826,7 +22812,7 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 55,
+     "damage": 61,
      "consumed": false
     }
    ],
@@ -22851,7 +22837,7 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 41,
+     "damage": 35,
      "consumed": false
     },
     {
@@ -22859,7 +22845,7 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 54,
+     "damage": 29,
      "consumed": false
     }
    ],
@@ -22884,7 +22870,7 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 30,
+     "damage": 20,
      "consumed": false
     },
     {
@@ -22892,7 +22878,7 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 9,
      "consumed": false
     }
    ],
@@ -22917,7 +22903,7 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 29,
+     "damage": 48,
      "consumed": false
     },
     {
@@ -22925,7 +22911,7 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 31,
+     "damage": 33,
      "consumed": false
     }
    ],
@@ -22950,7 +22936,7 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 10,
      "consumed": false
     },
     {
@@ -22958,7 +22944,7 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 14,
      "consumed": false
     }
    ],
@@ -22983,7 +22969,7 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 14,
+     "damage": 15,
      "consumed": false
     },
     {
@@ -22991,7 +22977,7 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 14,
+     "damage": 22,
      "consumed": false
     }
    ],
@@ -23016,7 +23002,7 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 10,
      "consumed": false
     },
     {
@@ -23024,7 +23010,7 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 11,
      "consumed": false
     }
    ],
@@ -23049,7 +23035,7 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 79,
+     "damage": 84,
      "consumed": false
     },
     {
@@ -23057,7 +23043,7 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 83,
+     "damage": 88,
      "consumed": false
     }
    ],
@@ -23089,8 +23075,7 @@
    ],
    "fails": [],
    "warns": [
-    "empty description",
-    "console: rejection: TypeError: undefined. Cannot read properties of null (reading 'addChild')\n[No packages detected]\n    at Token"
+    "empty description"
    ],
    "hp": [
     206,
@@ -23293,7 +23278,7 @@
      "name": "Burn Blade",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 9,
      "consumed": true
     }
    ],
@@ -23318,7 +23303,7 @@
      "name": "Lance",
      "message": true,
      "rolls": [],
-     "damage": 17,
+     "damage": 13,
      "consumed": false
     }
    ],
@@ -23765,7 +23750,7 @@
      "name": "Attack",
      "message": true,
      "rolls": [],
-     "damage": 14,
+     "damage": 15,
      "consumed": false
     }
    ],
@@ -23906,7 +23891,7 @@
      "name": "Fire Cannon",
      "message": true,
      "rolls": [],
-     "damage": 26,
+     "damage": 23,
      "consumed": false
     },
     {
@@ -23914,7 +23899,7 @@
      "name": "Splash Damage",
      "message": true,
      "rolls": [],
-     "damage": 20,
+     "damage": 13,
      "consumed": false
     },
     {
@@ -24066,7 +24051,9 @@
    "ctx": "Fighter L20",
    "activities": [],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
+   ],
    "hp": [
     206,
     206
@@ -24262,7 +24249,7 @@
      "name": "Medkit (Uncommon)",
      "message": true,
      "rolls": [],
-     "damage": 17,
+     "damage": 15,
      "consumed": true
     }
    ],
@@ -24449,7 +24436,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
+   ],
    "hp": [
     206,
     206
@@ -24540,7 +24529,7 @@
      "name": "Attack",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 6,
      "consumed": false
     },
     {
@@ -24608,7 +24597,7 @@
      "name": "Attack",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 9,
      "consumed": false
     },
     {
@@ -24661,7 +24650,7 @@
      "name": "Fire Cannon",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 10,
      "consumed": false
     },
     {
@@ -24669,7 +24658,7 @@
      "name": "Splash Damage",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 15,
      "consumed": false
     },
     {
@@ -24716,7 +24705,7 @@
      "name": "Acid Ammo",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 9,
      "consumed": true
     }
    ],
@@ -24741,7 +24730,7 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 9,
      "consumed": false
     }
    ],
@@ -24794,7 +24783,7 @@
      "name": "Fire Cannon",
      "message": true,
      "rolls": [],
-     "damage": 34,
+     "damage": 17,
      "consumed": false
     },
     {
@@ -24802,7 +24791,7 @@
      "name": "Splash Damage",
      "message": true,
      "rolls": [],
-     "damage": 19,
+     "damage": 23,
      "consumed": false
     },
     {
@@ -24849,7 +24838,7 @@
      "name": "Shrapnel Ammo",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 9,
      "consumed": true
     }
    ],
@@ -24874,7 +24863,7 @@
      "name": "Attack",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 11,
      "consumed": false
     },
     {
@@ -24882,7 +24871,7 @@
      "name": "Curse Damage",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 6,
      "consumed": false
     },
     {
@@ -24890,7 +24879,7 @@
      "name": "Curse Overcome Bonus",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 13,
      "consumed": false
     }
    ],
@@ -24951,7 +24940,7 @@
      "name": "Incendiary Ammo",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 5,
      "consumed": true
     }
    ],
@@ -25099,7 +25088,8 @@
    ],
    "fails": [],
    "warns": [
-    "empty description"
+    "empty description",
+    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
    ],
    "hp": [
     206,
@@ -25156,7 +25146,7 @@
      "name": "Rapier",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 7,
      "consumed": false
     }
    ],
@@ -25327,7 +25317,7 @@
      "name": "Shock Ammo",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 5,
      "consumed": true
     }
    ],
@@ -25366,7 +25356,7 @@
      "name": "Unarmed Strike",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 9,
      "consumed": false
     },
     {
@@ -25374,7 +25364,7 @@
      "name": "Power Strike (-5 to hit, +10 damage)",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 8,
      "consumed": false
     }
    ],
@@ -25665,7 +25655,7 @@
      "name": "Flash Ammo",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 6,
      "consumed": true
     }
    ],
@@ -25770,7 +25760,7 @@
      "name": "Dart",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 6,
      "consumed": false
     }
    ],
@@ -25796,14 +25786,14 @@
      "name": "Pike",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 12,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
     "empty description",
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
+    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
    ],
    "hp": [
     206,
@@ -25836,7 +25826,7 @@
      "name": "Odachi",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 14,
      "consumed": false
     }
    ],
@@ -31085,7 +31075,7 @@
      "name": "Mind Spike",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 13,
      "consumed": false
     }
    ],
@@ -31132,7 +31122,7 @@
      "name": "Venom Wall Contact",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 17,
      "consumed": false
     },
     {
@@ -31140,7 +31130,7 @@
      "name": "Poison Repeat",
      "message": true,
      "rolls": [],
-     "damage": 27,
+     "damage": 25,
      "consumed": false
     }
    ],
@@ -31267,7 +31257,7 @@
      "name": "Storm Appears",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 6,
      "consumed": false
     },
     {
@@ -31283,7 +31273,7 @@
      "name": "Round 3: Lightning Bolts",
      "message": true,
      "rolls": [],
-     "damage": 35,
+     "damage": 34,
      "consumed": false
     },
     {
@@ -31291,7 +31281,7 @@
      "name": "Round 4: Hail",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 7,
      "consumed": false
     },
     {
@@ -31299,7 +31289,7 @@
      "name": "Rounds 5-10: Freezing Rain",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 1,
      "consumed": false
     }
    ],
@@ -31327,7 +31317,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
+   ],
    "hp": [
     179,
     179
@@ -31447,7 +31439,7 @@
      "name": "Tendril Damage",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 5,
      "consumed": false
     },
     {
@@ -31501,7 +31493,7 @@
      "name": "Harm",
      "message": true,
      "rolls": [],
-     "damage": 74,
+     "damage": 53,
      "consumed": false
     }
    ],
@@ -31609,7 +31601,7 @@
      "name": "Deadly Burst",
      "message": true,
      "rolls": [],
-     "damage": 23,
+     "damage": 38,
      "consumed": false
     }
    ],
@@ -31634,7 +31626,7 @@
      "name": "Maddening Darkness",
      "message": true,
      "rolls": [],
-     "damage": 36,
+     "damage": 52,
      "consumed": false
     }
    ],
@@ -31659,7 +31651,7 @@
      "name": "Shocking Grasp",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 3,
      "consumed": false
     }
    ],
@@ -31818,7 +31810,7 @@
      "name": "Staggering Smite",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 18,
      "consumed": false
     },
     {
@@ -31850,7 +31842,7 @@
      "name": "Ice Dagger",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 7,
      "consumed": false
     },
     {
@@ -31858,7 +31850,7 @@
      "name": "Ice Shard Explosion",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 6,
      "consumed": false
     }
    ],
@@ -31905,7 +31897,7 @@
      "name": "Cone of Cold",
      "message": true,
      "rolls": [],
-     "damage": 30,
+     "damage": 34,
      "consumed": false
     }
    ],
@@ -31930,7 +31922,7 @@
      "name": "Inflict Wounds",
      "message": true,
      "rolls": [],
-     "damage": 20,
+     "damage": 19,
      "consumed": false
     }
    ],
@@ -31981,9 +31973,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32023,7 +32013,7 @@
      "name": "Thunderwave",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 7,
      "consumed": false
     }
    ],
@@ -32092,7 +32082,7 @@
      "name": "Disintegrate",
      "message": true,
      "rolls": [],
-     "damage": 80,
+     "damage": 81,
      "consumed": false
     }
    ],
@@ -32292,7 +32282,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
+   ],
    "hp": [
     179,
     179
@@ -32368,7 +32360,7 @@
      "name": "Lightning Leap",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 19,
      "consumed": false
     }
    ],
@@ -32437,7 +32429,7 @@
      "name": "Lightning Arrow (hit)",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 8,
      "consumed": false
     },
     {
@@ -32445,7 +32437,7 @@
      "name": "Lightning Arrow (miss)",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 5,
      "consumed": false
     },
     {
@@ -32453,7 +32445,7 @@
      "name": "Lightning Burst",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 7,
      "consumed": false
     }
    ],
@@ -32492,7 +32484,7 @@
      "name": "Monster Breath",
      "message": true,
      "rolls": [],
-     "damage": 20,
+     "damage": 18,
      "consumed": false
     }
    ],
@@ -32542,7 +32534,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
+   ],
    "hp": [
     179,
     179
@@ -32560,7 +32554,7 @@
      "name": "Dry Bones",
      "message": true,
      "rolls": [],
-     "damage": 60,
+     "damage": 76,
      "consumed": false
     }
    ],
@@ -32641,13 +32635,13 @@
      "name": "Elemental Retaliation",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 11,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
+    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
    ],
    "hp": [
     179,
@@ -32688,7 +32682,7 @@
      "name": "Wall of Ice",
      "message": true,
      "rolls": [],
-     "damage": 31,
+     "damage": 41,
      "consumed": false
     },
     {
@@ -32696,7 +32690,7 @@
      "name": "Frigid Air",
      "message": true,
      "rolls": [],
-     "damage": 22,
+     "damage": 16,
      "consumed": false
     }
    ],
@@ -32743,13 +32737,13 @@
      "name": "Gravity Collapse",
      "message": true,
      "rolls": [],
-     "damage": 37,
+     "damage": 34,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
+    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
    ],
    "hp": [
     179,
@@ -32768,7 +32762,7 @@
      "name": "Sunburn",
      "message": true,
      "rolls": [],
-     "damage": 23,
+     "damage": 18,
      "consumed": false
     }
    ],
@@ -32880,7 +32874,7 @@
      "name": "Scorch",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 6,
      "consumed": false
     }
    ],
@@ -32905,7 +32899,7 @@
      "name": "Galvanic Blade",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 3,
      "consumed": false
     }
    ],
@@ -32952,7 +32946,7 @@
      "name": "Chain Lightning",
      "message": true,
      "rolls": [],
-     "damage": 48,
+     "damage": 51,
      "consumed": false
     }
    ],
@@ -32999,7 +32993,7 @@
      "name": "Wall of Thunder",
      "message": true,
      "rolls": [],
-     "damage": 14,
+     "damage": 23,
      "consumed": false
     }
    ],
@@ -33024,13 +33018,13 @@
      "name": "Frost Ray",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 1,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
+    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
    ],
    "hp": [
     179,
@@ -33071,7 +33065,7 @@
      "name": "Vitriolic Sphere",
      "message": true,
      "rolls": [],
-     "damage": 24,
+     "damage": 25,
      "consumed": false
     }
    ],
@@ -33118,7 +33112,7 @@
      "name": "Zapping Arc",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 3,
      "consumed": false
     }
    ],
@@ -33165,7 +33159,7 @@
      "name": "Plant Transformation",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 3,
      "consumed": false
     }
    ],
@@ -33190,7 +33184,7 @@
      "name": "Banishing Smite",
      "message": true,
      "rolls": [],
-     "damage": 40,
+     "damage": 28,
      "consumed": false
     }
    ],
@@ -33222,7 +33216,7 @@
      "name": "Explosive Trigger",
      "message": true,
      "rolls": [],
-     "damage": 28,
+     "damage": 30,
      "consumed": false
     },
     {
@@ -33276,7 +33270,7 @@
      "name": "Dark Tendrils",
      "message": true,
      "rolls": [],
-     "damage": 14,
+     "damage": 17,
      "consumed": false
     }
    ],
@@ -33414,7 +33408,7 @@
      "name": "Blaring Blade",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 3,
      "consumed": false
     }
    ],
@@ -33490,7 +33484,7 @@
      "name": "Ardent Blade Strike",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 12,
      "consumed": false
     },
     {
@@ -33498,7 +33492,7 @@
      "name": "Ardent Blade Throw",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 13,
      "consumed": false
     }
    ],
@@ -33545,7 +33539,7 @@
      "name": "Shooting Stars",
      "message": true,
      "rolls": [],
-     "damage": 33,
+     "damage": 25,
      "consumed": false
     }
    ],
@@ -33628,7 +33622,7 @@
      "name": "Falling Mud",
      "message": true,
      "rolls": [],
-     "damage": 20,
+     "damage": 22,
      "consumed": false
     },
     {
@@ -33689,7 +33683,7 @@
      "name": "Flashbang",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 11,
      "consumed": false
     }
    ],
@@ -33758,7 +33752,7 @@
      "name": "Bestow Curse",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 8,
      "consumed": false
     }
    ],
@@ -33783,7 +33777,7 @@
      "name": "Vicious Mockery",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 1,
      "consumed": false
     }
    ],
@@ -33808,7 +33802,7 @@
      "name": "Erupting Earth",
      "message": true,
      "rolls": [],
-     "damage": 34,
+     "damage": 25,
      "consumed": false
     }
    ],
@@ -33833,7 +33827,7 @@
      "name": "Acid Bolt",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 7,
      "consumed": false
     }
    ],
@@ -33858,7 +33852,7 @@
      "name": "Time Ravage",
      "message": true,
      "rolls": [],
-     "damage": 64,
+     "damage": 81,
      "consumed": false
     }
    ],
@@ -33905,7 +33899,7 @@
      "name": "Synaptic Static",
      "message": true,
      "rolls": [],
-     "damage": 23,
+     "damage": 29,
      "consumed": false
     }
    ],
@@ -33987,7 +33981,7 @@
      "name": "Insect Plague",
      "message": true,
      "rolls": [],
-     "damage": 25,
+     "damage": 19,
      "consumed": false
     }
    ],
@@ -34064,7 +34058,7 @@
      "name": "Burning Save",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 4,
      "consumed": false
     }
    ],
@@ -34089,7 +34083,7 @@
      "name": "Feeble Body: Strength",
      "message": true,
      "rolls": [],
-     "damage": 27,
+     "damage": 26,
      "consumed": false
     },
     {
@@ -34097,7 +34091,7 @@
      "name": "Feeble Body: Dexterity",
      "message": true,
      "rolls": [],
-     "damage": 31,
+     "damage": 37,
      "consumed": false
     },
     {
@@ -34105,7 +34099,7 @@
      "name": "Feeble Body: Constitution",
      "message": true,
      "rolls": [],
-     "damage": 34,
+     "damage": 28,
      "consumed": false
     }
    ],
@@ -34130,7 +34124,7 @@
      "name": "Polar Blade Extra Damage",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 15,
      "consumed": false
     },
     {
@@ -34138,7 +34132,7 @@
      "name": "Frost Damage Reduction",
      "message": true,
      "rolls": [],
-     "damage": 24,
+     "damage": 6,
      "consumed": false
     }
    ],
@@ -34163,7 +34157,7 @@
      "name": "Discordant Tune",
      "message": true,
      "rolls": [],
-     "damage": 17,
+     "damage": 16,
      "consumed": false
     }
    ],
@@ -34195,7 +34189,7 @@
      "name": "Hunter's Mark Damage",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 6,
      "consumed": false
     }
    ],
@@ -34264,7 +34258,7 @@
      "name": "Wall of Light",
      "message": true,
      "rolls": [],
-     "damage": 32,
+     "damage": 34,
      "consumed": false
     },
     {
@@ -34272,7 +34266,7 @@
      "name": "Wall Burn",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 22,
      "consumed": false
     },
     {
@@ -34305,7 +34299,7 @@
      "name": "Cause Death",
      "message": true,
      "rolls": [],
-     "damage": 75,
+     "damage": 76,
      "consumed": false
     }
    ],
@@ -34352,7 +34346,7 @@
      "name": "Volley",
      "message": true,
      "rolls": [],
-     "damage": 47,
+     "damage": 42,
      "consumed": false
     }
    ],
@@ -34383,7 +34377,7 @@
    ],
    "fails": [],
    "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
+    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
    ],
    "hp": [
     179,
@@ -34402,7 +34396,7 @@
      "name": "Thunderous Smite",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 3,
      "consumed": false
     },
     {
@@ -34477,7 +34471,7 @@
      "name": "Fire Bolt",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 10,
      "consumed": false
     }
    ],
@@ -34546,7 +34540,7 @@
      "name": "Acid Spray",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 8,
      "consumed": false
     }
    ],
@@ -34619,7 +34613,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
+   ],
    "hp": [
     179,
     179
@@ -34637,7 +34633,7 @@
      "name": "Radical Beam",
      "message": true,
      "rolls": [],
-     "damage": 40,
+     "damage": 28,
      "consumed": false
     }
    ],
@@ -34706,7 +34702,7 @@
      "name": "Sword Circle",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 7,
      "consumed": false
     }
    ],
@@ -34735,9 +34731,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34755,7 +34749,7 @@
      "name": "Antagonize",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 12,
      "consumed": false
     }
    ],
@@ -34806,7 +34800,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
+   ],
    "hp": [
     179,
     179
@@ -34917,7 +34913,7 @@
      "name": "Electric Surge",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 6,
      "consumed": false
     }
    ],
@@ -35139,7 +35135,7 @@
      "name": "Embody Frost",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 13,
      "consumed": false
     }
    ],
@@ -35164,7 +35160,7 @@
      "name": "Blade Barrier",
      "message": true,
      "rolls": [],
-     "damage": 38,
+     "damage": 23,
      "consumed": false
     }
    ],
@@ -35282,7 +35278,7 @@
      "name": "Bane Extra Damage",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 7,
      "consumed": false
     }
    ],
@@ -35399,7 +35395,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
+   ],
    "hp": [
     179,
     179
@@ -35461,7 +35459,7 @@
      "name": "Cloud of Daggers",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 12,
      "consumed": false
     }
    ],
@@ -35486,7 +35484,7 @@
      "name": "Karma",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 18,
      "consumed": false
     }
    ],
@@ -35703,7 +35701,7 @@
      "name": "Whipping Branches",
      "message": true,
      "rolls": [],
-     "damage": 14,
+     "damage": 18,
      "consumed": false
     },
     {
@@ -35718,7 +35716,7 @@
      "name": "Hurl Rock",
      "message": true,
      "rolls": [],
-     "damage": 22,
+     "damage": 24,
      "consumed": false
     }
    ],
@@ -35765,7 +35763,7 @@
      "name": "Shadow Blade",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 14,
      "consumed": false
     }
    ],
@@ -35790,7 +35788,7 @@
      "name": "Ice Lock",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 19,
      "consumed": false
     }
    ],
@@ -35837,7 +35835,7 @@
      "name": "Blight",
      "message": true,
      "rolls": [],
-     "damage": 34,
+     "damage": 32,
      "consumed": false
     }
    ],
@@ -35884,7 +35882,7 @@
      "name": "Shrapnel Shot",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 10,
      "consumed": false
     }
    ],
@@ -35934,7 +35932,7 @@
      "name": "Embody Stone",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 17,
      "consumed": false
     }
    ],
@@ -35959,7 +35957,7 @@
      "name": "Dark Star",
      "message": true,
      "rolls": [],
-     "damage": 55,
+     "damage": 56,
      "consumed": false
     }
    ],
@@ -36038,7 +36036,7 @@
      "name": "Poisonous Puff",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 4,
      "consumed": false
     }
    ],
@@ -36063,7 +36061,7 @@
      "name": "Kill Radius",
      "message": true,
      "rolls": [],
-     "damage": 29,
+     "damage": 38,
      "consumed": false
     }
    ],
@@ -36088,7 +36086,7 @@
      "name": "Thunder Step",
      "message": true,
      "rolls": [],
-     "damage": 28,
+     "damage": 16,
      "consumed": false
     }
    ],
@@ -36135,7 +36133,7 @@
      "name": "Mind Slash",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 6,
      "consumed": false
     }
    ],
@@ -36226,7 +36224,7 @@
      "name": "Branding Smite",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 13,
      "consumed": false
     }
    ],
@@ -36251,7 +36249,7 @@
      "name": "Psychic Lance",
      "message": true,
      "rolls": [],
-     "damage": 19,
+     "damage": 20,
      "consumed": false
     }
    ],
@@ -36276,7 +36274,7 @@
      "name": "Chilling Necrosis",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 1,
      "consumed": false
     }
    ],
@@ -36345,7 +36343,7 @@
      "name": "Missiles",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 3,
      "consumed": false
     }
    ],
@@ -36370,7 +36368,7 @@
      "name": "Sickening Radiance",
      "message": true,
      "rolls": [],
-     "damage": 20,
+     "damage": 17,
      "consumed": false
     }
    ],
@@ -36417,7 +36415,7 @@
      "name": "Air Shock",
      "message": true,
      "rolls": [],
-     "damage": 30,
+     "damage": 21,
      "consumed": false
     }
    ],
@@ -36442,7 +36440,7 @@
      "name": "Phantasmal Killer",
      "message": true,
      "rolls": [],
-     "damage": 20,
+     "damage": 19,
      "consumed": false
     }
    ],
@@ -36467,7 +36465,7 @@
      "name": "Mental Prison",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 20,
      "consumed": false
     },
     {
@@ -36475,7 +36473,7 @@
      "name": "Break the Illusion",
      "message": true,
      "rolls": [],
-     "damage": 42,
+     "damage": 48,
      "consumed": false
     }
    ],
@@ -36522,7 +36520,7 @@
      "name": "Caustic Brew",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 6,
      "consumed": false
     }
    ],
@@ -36590,7 +36588,7 @@
      "name": "Reverb",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 18,
      "consumed": false
     }
    ],
@@ -36615,7 +36613,7 @@
      "name": "Vengeful Flames",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 18,
      "consumed": false
     }
    ],
@@ -36640,13 +36638,13 @@
      "name": "Tidal Wave",
      "message": true,
      "rolls": [],
-     "damage": 28,
+     "damage": 27,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
+    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
    ],
    "hp": [
     179,
@@ -36687,13 +36685,13 @@
      "name": "Beastial Transformation",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 12,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
+    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
    ],
    "hp": [
     179,
@@ -36712,7 +36710,7 @@
      "name": "Wall of Lightning",
      "message": true,
      "rolls": [],
-     "damage": 41,
+     "damage": 24,
      "consumed": false
     }
    ],
@@ -36806,7 +36804,7 @@
      "name": "Cloudkill",
      "message": true,
      "rolls": [],
-     "damage": 31,
+     "damage": 20,
      "consumed": false
     }
    ],
@@ -36875,7 +36873,7 @@
      "name": "Sinister Shot",
      "message": true,
      "rolls": [],
-     "damage": 21,
+     "damage": 13,
      "consumed": false
     },
     {
@@ -36999,9 +36997,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37019,7 +37015,7 @@
      "name": "Kinetic Jaunt",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 4,
      "consumed": false
     }
    ],
@@ -37069,7 +37065,7 @@
      "name": "Tornado",
      "message": true,
      "rolls": [],
-     "damage": 36,
+     "damage": 25,
      "consumed": false
     },
     {
@@ -37313,7 +37309,7 @@
      "name": "Ice Bolt",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 3,
      "consumed": false
     }
    ],
@@ -37345,7 +37341,7 @@
      "name": "Stored Strike",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 8,
      "consumed": false
     }
    ],
@@ -37436,7 +37432,7 @@
      "name": "Infectious Ray",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 8,
      "consumed": false
     },
     {
@@ -37512,7 +37508,7 @@
      "name": "Elemental Orb",
      "message": true,
      "rolls": [],
-     "damage": 19,
+     "damage": 8,
      "consumed": false
     }
    ],
@@ -37581,7 +37577,7 @@
      "name": "Call Lightning",
      "message": true,
      "rolls": [],
-     "damage": 23,
+     "damage": 16,
      "consumed": false
     }
    ],
@@ -37606,7 +37602,7 @@
      "name": "Prismatic Spray 1: Red",
      "message": true,
      "rolls": [],
-     "damage": 45,
+     "damage": 49,
      "consumed": false
     },
     {
@@ -37614,7 +37610,7 @@
      "name": "Prismatic Spray 2: Orange",
      "message": true,
      "rolls": [],
-     "damage": 41,
+     "damage": 39,
      "consumed": false
     },
     {
@@ -37622,7 +37618,7 @@
      "name": "Prismatic Spray 3: Yellow",
      "message": true,
      "rolls": [],
-     "damage": 35,
+     "damage": 46,
      "consumed": false
     },
     {
@@ -37630,7 +37626,7 @@
      "name": "Prismatic Spray 4: Green",
      "message": true,
      "rolls": [],
-     "damage": 46,
+     "damage": 42,
      "consumed": false
     },
     {
@@ -37638,7 +37634,7 @@
      "name": "Prismatic Spray 5: Blue",
      "message": true,
      "rolls": [],
-     "damage": 54,
+     "damage": 38,
      "consumed": false
     },
     {
@@ -37706,7 +37702,7 @@
      "name": "Wall of Water",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 9,
      "consumed": false
     }
    ],
@@ -37731,7 +37727,7 @@
      "name": "Firestorm",
      "message": true,
      "rolls": [],
-     "damage": 55,
+     "damage": 59,
      "consumed": false
     }
    ],
@@ -37847,7 +37843,7 @@
      "name": "Shatter",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 12,
      "consumed": false
     }
    ],
@@ -37872,7 +37868,7 @@
      "name": "Manipulate Earth (Bludgeoning)",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 4,
      "consumed": false
     },
     {
@@ -37880,7 +37876,7 @@
      "name": "Manipulate Earth (Piercing)",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 7,
      "consumed": false
     },
     {
@@ -37888,7 +37884,7 @@
      "name": "Manipulate Earth (Slashing)",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 4,
      "consumed": false
     }
    ],
@@ -37957,7 +37953,7 @@
      "name": "Radiant Blast",
      "message": true,
      "rolls": [],
-     "damage": 20,
+     "damage": 10,
      "consumed": false
     }
    ],
@@ -38007,7 +38003,7 @@
      "name": "Radiant Bolt",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 6,
      "consumed": false
     }
    ],
@@ -38046,7 +38042,7 @@
      "name": "Prismatic Wall: Red Layer",
      "message": true,
      "rolls": [],
-     "damage": 60,
+     "damage": 37,
      "consumed": false
     },
     {
@@ -38054,7 +38050,7 @@
      "name": "Prismatic Wall: Orange Layer",
      "message": true,
      "rolls": [],
-     "damage": 46,
+     "damage": 47,
      "consumed": false
     },
     {
@@ -38062,7 +38058,7 @@
      "name": "Prismatic Wall: Yellow Layer",
      "message": true,
      "rolls": [],
-     "damage": 45,
+     "damage": 50,
      "consumed": false
     },
     {
@@ -38070,7 +38066,7 @@
      "name": "Prismatic Wall: Green Layer",
      "message": true,
      "rolls": [],
-     "damage": 62,
+     "damage": 56,
      "consumed": false
     },
     {
@@ -38078,7 +38074,7 @@
      "name": "Prismatic Wall: Blue Layer",
      "message": true,
      "rolls": [],
-     "damage": 52,
+     "damage": 64,
      "consumed": false
     },
     {
@@ -38161,7 +38157,7 @@
      "name": "Wall of Fire",
      "message": true,
      "rolls": [],
-     "damage": 24,
+     "damage": 22,
      "consumed": false
     }
    ],
@@ -38276,7 +38272,7 @@
      "name": "Psychic Crush",
      "message": true,
      "rolls": [],
-     "damage": 46,
+     "damage": 38,
      "consumed": false
     }
    ],
@@ -38323,7 +38319,7 @@
      "name": "Water Flow (Bludgeoning)",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 7,
      "consumed": false
     },
     {
@@ -38331,7 +38327,7 @@
      "name": "Water Flow (Piercing)",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 4,
      "consumed": false
     },
     {
@@ -38339,7 +38335,7 @@
      "name": "Water Flow (Slashing)",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 1,
      "consumed": false
     }
    ],
@@ -38364,7 +38360,7 @@
      "name": "Vile Verdict",
      "message": true,
      "rolls": [],
-     "damage": 17,
+     "damage": 11,
      "consumed": false
     }
    ],
@@ -38411,7 +38407,7 @@
      "name": "Venom Bolt",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 8,
      "consumed": false
     }
    ],
@@ -38436,7 +38432,7 @@
      "name": "Acid Arrow",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 10,
      "consumed": false
     }
    ],
@@ -38461,7 +38457,7 @@
      "name": "Dimension Door",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 18,
      "consumed": false
     }
    ],
@@ -38534,7 +38530,9 @@
     }
    ],
    "fails": [],
-   "warns": [],
+   "warns": [
+    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
+   ],
    "hp": [
     179,
     179
@@ -38600,7 +38598,7 @@
      "name": "Dragon's Breath",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 37,
      "consumed": false
     }
    ],
@@ -38676,13 +38674,13 @@
      "name": "Propel Attack",
      "message": true,
      "rolls": [],
-     "damage": 19,
+     "damage": 17,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
+    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
    ],
    "hp": [
     179,
@@ -38789,7 +38787,7 @@
      "name": "Gravity Fissure",
      "message": true,
      "rolls": [],
-     "damage": 44,
+     "damage": 40,
      "consumed": false
     }
    ],
@@ -38858,7 +38856,7 @@
      "name": "Slimy Transformation",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 5,
      "consumed": false
     }
    ],
@@ -38908,9 +38906,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38928,7 +38924,7 @@
      "name": "Forced Empathy",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 11,
      "consumed": false
     }
    ],
@@ -38953,7 +38949,7 @@
      "name": "Control Water",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 7,
      "consumed": false
     }
    ],
@@ -39044,7 +39040,7 @@
      "name": "Meteor Swarm",
      "message": true,
      "rolls": [],
-     "damage": 65,
+     "damage": 72,
      "consumed": false
     }
    ],
@@ -39135,7 +39131,7 @@
      "name": "Windblast (Bludgeoning)",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 6,
      "consumed": false
     },
     {
@@ -39151,7 +39147,7 @@
      "name": "Windblast (Slashing)",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 7,
      "consumed": false
     },
     {
@@ -39183,7 +39179,7 @@
      "name": "Thunder Beat",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 5,
      "consumed": false
     },
     {
@@ -39262,7 +39258,7 @@
      "name": "Searing Smite",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 6,
      "consumed": false
     },
     {
@@ -39270,7 +39266,7 @@
      "name": "Burning Save",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 4,
      "consumed": false
     },
     {
@@ -39390,7 +39386,7 @@
      "name": "Sandstorm",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 13,
      "consumed": false
     }
    ],
@@ -39415,7 +39411,7 @@
      "name": "Sunburst",
      "message": true,
      "rolls": [],
-     "damage": 38,
+     "damage": 54,
      "consumed": false
     }
    ],
@@ -39440,7 +39436,7 @@
      "name": "Purifying Flames",
      "message": true,
      "rolls": [],
-     "damage": 19,
+     "damage": 24,
      "consumed": false
     }
    ],
@@ -39487,7 +39483,7 @@
      "name": "Flaming Sphere",
      "message": true,
      "rolls": [],
-     "damage": 14,
+     "damage": 6,
      "consumed": false
     }
    ],
@@ -39512,7 +39508,7 @@
      "name": "Necrotic Bolt",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 3,
      "consumed": false
     }
    ],
@@ -39537,7 +39533,7 @@
      "name": "Gadget Armor",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 16,
      "consumed": false
     }
    ],
@@ -39584,7 +39580,7 @@
      "name": "Incendiary Cloud",
      "message": true,
      "rolls": [],
-     "damage": 55,
+     "damage": 44,
      "consumed": false
     }
    ],
@@ -39740,7 +39736,7 @@
      "name": "Tsunami",
      "message": true,
      "rolls": [],
-     "damage": 62,
+     "damage": 51,
      "consumed": false
     }
    ],
@@ -39809,7 +39805,7 @@
      "name": "Flashpoint",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 1,
      "consumed": false
     }
    ],
@@ -39834,7 +39830,7 @@
      "name": "Lightning Bolt",
      "message": true,
      "rolls": [],
-     "damage": 17,
+     "damage": 30,
      "consumed": false
     }
    ],
@@ -39903,7 +39899,7 @@
      "name": "Spike Growth",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 4,
      "consumed": false
     }
    ],
@@ -39950,7 +39946,7 @@
      "name": "Piercing Frost",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 3,
      "consumed": false
     }
    ],
@@ -39975,7 +39971,7 @@
      "name": "Rotting Shot",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 11,
      "consumed": false
     },
     {
@@ -40131,7 +40127,7 @@
      "name": "Wind Cube",
      "message": true,
      "rolls": [],
-     "damage": 22,
+     "damage": 14,
      "consumed": false
     }
    ],
@@ -40200,7 +40196,7 @@
      "name": "Blazing Stride",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 6,
      "consumed": false
     }
    ],
@@ -40250,7 +40246,7 @@
      "name": "Necrosis Surge",
      "message": true,
      "rolls": [],
-     "damage": 36,
+     "damage": 44,
      "consumed": false
     }
    ],
@@ -40275,7 +40271,7 @@
      "name": "Spirit Dance",
      "message": true,
      "rolls": [],
-     "damage": 22,
+     "damage": 20,
      "consumed": false
     }
    ],
@@ -40369,7 +40365,7 @@
      "name": "Wrathful Smite",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 7,
      "consumed": false
     },
     {
@@ -40423,7 +40419,7 @@
      "name": "Sonic Boom",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 7,
      "consumed": false
     }
    ],
@@ -40477,7 +40473,7 @@
      "name": "Instrument Attack",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 4,
      "consumed": false
     },
     {
@@ -40538,7 +40534,7 @@
      "name": "Spiritual Blast",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 1,
      "consumed": false
     }
    ],
@@ -40617,13 +40613,13 @@
      "name": "Frozen Over",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
+    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
    ],
    "hp": [
     179,
@@ -40686,13 +40682,13 @@
      "name": "Giant's Hand",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
+    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
    ],
    "hp": [
     179,
@@ -40718,7 +40714,7 @@
      "name": "Cutting Cards",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 18,
      "consumed": false
     }
    ],
@@ -40765,7 +40761,7 @@
      "name": "Steel Wind Strike",
      "message": true,
      "rolls": [],
-     "damage": 26,
+     "damage": 31,
      "consumed": false
     }
    ],
@@ -40790,7 +40786,7 @@
      "name": "Energy Surge",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 20,
      "consumed": false
     }
    ],
@@ -40815,13 +40811,13 @@
      "name": "Psychic Scream",
      "message": true,
      "rolls": [],
-     "damage": 51,
+     "damage": 71,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
+    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
    ],
    "hp": [
     179,
@@ -40840,7 +40836,7 @@
      "name": "Countershock",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 17,
      "consumed": false
     }
    ],
@@ -40887,7 +40883,7 @@
      "name": "Earth Grasp",
      "message": true,
      "rolls": [],
-     "damage": 14,
+     "damage": 12,
      "consumed": false
     }
    ],
@@ -40912,13 +40908,13 @@
      "name": "Toxic Trigger",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
+    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
    ],
    "hp": [
     179,
@@ -41030,7 +41026,7 @@
      "name": "Death Wish",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 8,
      "consumed": false
     }
    ],
@@ -41055,7 +41051,7 @@
      "name": "Blade of Disaster",
      "message": true,
      "rolls": [],
-     "damage": 37,
+     "damage": 24,
      "consumed": false
     }
    ],
@@ -41080,7 +41076,7 @@
      "name": "Frigid Bullet",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 3,
      "consumed": false
     }
    ],
@@ -41105,7 +41101,7 @@
      "name": "Tremor",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 10,
      "consumed": false
     }
    ],
@@ -41130,7 +41126,7 @@
      "name": "Sapping Stinger",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 2,
      "consumed": false
     }
    ],
@@ -41177,7 +41173,7 @@
      "name": "Heat Metal",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 4,
      "consumed": false
     }
    ],
@@ -41290,7 +41286,7 @@
      "name": "Mind Thrust",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 10,
      "consumed": false
     }
    ],
@@ -41315,7 +41311,7 @@
      "name": "Feeblemind",
      "message": true,
      "rolls": [],
-     "damage": 14,
+     "damage": 12,
      "consumed": false
     }
    ],
@@ -41340,7 +41336,7 @@
      "name": "Pulse Wave",
      "message": true,
      "rolls": [],
-     "damage": 21,
+     "damage": 23,
      "consumed": false
     }
    ],
@@ -41365,7 +41361,7 @@
      "name": "Embody Flames",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 10,
      "consumed": false
     }
    ],
@@ -41390,7 +41386,7 @@
      "name": "Wall of Thorns",
      "message": true,
      "rolls": [],
-     "damage": 24,
+     "damage": 40,
      "consumed": false
     }
    ],
@@ -41415,7 +41411,7 @@
      "name": "Burning Blade Extra Damage",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 10,
      "consumed": false
     },
     {
@@ -41423,13 +41419,13 @@
      "name": "Burning Blade Blast",
      "message": true,
      "rolls": [],
-     "damage": 24,
+     "damage": 13,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
+    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
    ],
    "hp": [
     179,
@@ -41470,7 +41466,7 @@
      "name": "Fireball",
      "message": true,
      "rolls": [],
-     "damage": 25,
+     "damage": 19,
      "consumed": false
     }
    ],
@@ -41495,7 +41491,7 @@
      "name": "Life Steal",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 10,
      "consumed": false
     }
    ],
@@ -41564,7 +41560,7 @@
      "name": "Elemental Trap: Acid",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 12,
      "consumed": false
     },
     {
@@ -41572,7 +41568,7 @@
      "name": "Elemental Trap: Cold",
      "message": true,
      "rolls": [],
-     "damage": 17,
+     "damage": 13,
      "consumed": false
     },
     {
@@ -41580,7 +41576,7 @@
      "name": "Elemental Trap: Fire",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 16,
      "consumed": false
     },
     {
@@ -41596,7 +41592,7 @@
      "name": "Elemental Trap: Poison",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 12,
      "consumed": false
     },
     {
@@ -41604,7 +41600,7 @@
      "name": "Elemental Trap: Thunder",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 15,
      "consumed": false
     },
     {
@@ -41680,7 +41676,7 @@
      "name": "Rending Sword",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 16,
      "consumed": false
     }
    ],
@@ -41727,7 +41723,7 @@
      "name": "Wall of Acid",
      "message": true,
      "rolls": [],
-     "damage": 24,
+     "damage": 20,
      "consumed": false
     }
    ],

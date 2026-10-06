@@ -1,0 +1,797 @@
+[
+ {
+  "id": "class-features/91e3e40bae75dcf7",
+  "pack": "class-features",
+  "name": "Destroy Defense",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 10th level, your momentum allows you to break through nearly any armor. You gain a +2 bonus to your melee attack rolls against creatures wearing armor, or using a shield.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N"
+  ]
+ },
+ {
+  "id": "feats/a0c1e5bcfb328890",
+  "pack": "feats",
+  "name": "Drunkard",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Your dependence on alcohol is not a weakness, your constitution allows you to keep on fighting so long the booze keeps flowing. You gain the following benefits: Increase your Constitution score by 1, to a maximum of 20. You gain resistance to poison damage and have advantage on all Constitution saving throws against poisons. When you consume an alcoholic drink, you can regain a number of hit points equal to 2d6 + your level. You can use this ability twice, regaining all uses on a long rest.",
+  "hits": [
+   "advantage/disadvantage",
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/68b94447f872188e",
+  "pack": "class-features",
+  "name": "Enhanced Technique",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 11th level, you choose two of the six techniques you've mastered to make your specialties. The chosen technique grows stronger as shown below: Moon Walk. You can now use your full movement speed when flying. While flying this way, opportunity attacks against you are made at disadvantage. Iron Body. You can now use any of your movement and still retain the benefits. Your unarmed strikes also harden, allowing you to add half your proficiency bonus (rounded down) to your attack and damage rolls. Finger Pistol. You now score a critical hit on a roll of 19 or 20 with unarmed strikes, and Finger Pistol can now work with any weapon that you wield and are proficient in. Tempest Kick. The range increases to 120 and ignores any resistance to slashing damage. The attack now deals double damage to objects and structures. Shave. The teleport distance increases to 30 feet, and you have advantage on the first attack roll you make after teleporting. Paper Art. You can spend a spirit point to make the AC bonus persist until the start of your next turn, not only against the triggering attack. When you reach 17th level, you gain the remaining four enhanced techniques you didn't choose at 11th level.",
+  "hits": [
+   "advantage/disadvantage",
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/4edaf377bd4a7f07",
+  "pack": "class-features",
+  "name": "Expanding Epiphany",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning at 6th level, you have grown a stronger connection to your spirits, the radius of your Archaic Oracle and Guardian Avatar are now 30 ft. Additionally, you gain resistance to psychic damage and all creatures of your choice within a 30 ft radius of yourself (including yourself), while you are raging, have advantage on saving throws against being charmed or frightened.",
+  "hits": [
+   "advantage/disadvantage",
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "feats/1f4ac626338cf43a",
+  "pack": "feats",
+  "name": "Fleet-Footed",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [
+   {
+    "name": "Fleet-Footed",
+    "changes": 2
+   }
+  ],
+  "text": "Quick with your feet and able to leap great distances, you exhibit the traits of reflexive rabbits. You gain the following benefits: Increase your Dexterity score by 1, up to a maximum of 20. Your movement speed increases by 5 feet. You add your proficiency bonus to your initiative rolls. Once during each of your turns when you walk at least 5 feet, you can hop a distance equal to half your total walking speed in feet in a direction of your choice. This extra distance doesn’t cost movement, but you can hop only if your speed isn’t 0.",
+  "hits": [
+   "speed",
+   "initiative"
+  ]
+ },
+ {
+  "id": "class-features/191303a0b7a9e007",
+  "pack": "class-features",
+  "name": "Greater Enhancements",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 14th level, you've mastered the formula for your Experimental Medicine, enhancing the effects of it even further: Hulking Strength. The damage die of your unarmed strikes and melee weapon attacks increases to 1d12, and you now have advantage on all Strength checks and saving throws. Nimble Dexterity. Your speed doubles and creatures cannot make opportunity attacks against you. Resilient Constitution. You gain immunity to the paralyzed, stunned, and poisoned conditions, and resistance to poison and necrotic damage. Additionally, you can now use creations in your Monstrous Transformation as you have mastered the transformation completely.",
+  "hits": [
+   "advantage/disadvantage",
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/80d11e0be88bf81c",
+  "pack": "class-features",
+  "name": "In and Out",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 10th level, when you have less than half of your maximum hit points, your walking speed increases by 15 feet, you don't provoke opportunity attacks, and you gain a +2 bonus to all Saving throws.",
+  "hits": [
+   "gain a +N",
+   "speed"
+  ]
+ },
+ {
+  "id": "class-features/a1f8e5338ed5694d",
+  "pack": "class-features",
+  "name": "Inciting Inspiration",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "When you use your Bardic Inspiration feature, you can choose two creatures to gain a bardic inspiration die as part of the same usage. In addition, you gain a +1 bonus to your creation attack rolls and save DCs for your Bard Creations.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N"
+  ]
+ },
+ {
+  "id": "feats/48d65a79abcb1c7b",
+  "pack": "feats",
+  "name": "Intuitive Primate",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [
+   {
+    "name": "Intuitive Primate",
+    "changes": 1
+   }
+  ],
+  "text": "Powerful and intelligent, apes make full use of both their might and their hands to accomplish even the most complex task. You gain the following benefits: Increase your Strength, Dexterity, or Intelligence score by 1, up to a maximum of 20. You gain proficiency in Dexterity (Acrobatics) checks, and one set of tools of your choice. If you were already proficient in them, you instead gain expertise You count as one size larger when determining your carrying capacity and the weight you can push, drag, lift, and for grapple and shove attempts. You gain a climbing speed equal to your walking speed.",
+  "hits": [
+   "die size",
+   "speed"
+  ]
+ },
+ {
+  "id": "class-features/644170cd8589b680",
+  "pack": "class-features",
+  "name": "Inventive Mind",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You gain a +1 to your Gadgeteer creation attack rolls and save DCs. In addition, you gain an additional number of uses for your Flash of Genius feature equal to your proficiency bonus.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N"
+  ]
+ },
+ {
+  "id": "class-features/919ba88ea37a00cb",
+  "pack": "class-features",
+  "name": "Legendary Flourish",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Also at 3rd level, you learn how to weave music into melodic battle cries, unleashing an orchestral flourish mixed with clashing blades. While you are wielding a simple or martial weapon, you can use any of the following Legendary Flourishes: Shielding Hymn. As a reaction to a creature within 5 ft of you being hit by an attack (can include yourself), you can expend a use of your Bardic Inspiration to block the attack. The damage is reduced by a roll of your Bardic Inspiration die + your Charisma modifier + your bard level. Stampeding Anthem. As part of making an attack with a simple or martial weapon, you can expend a use of your Bardic Inspiration to charge the target. Your movement speed increases by 20 ft until the end of your turn, and your attack deals additional damage equal to a roll of your Bardic Inspiration die + your Charisma modifier. Piercing Ballad. As part of making an attack with a simple or martial weapon, you can expend a use of your Bardic Inspiration to add a roll of your Bardic Inspiration to the attack roll. When you use one of these flourishes, you gain a number of temporary hit points equal to one roll of your Bardic Inspiration die + your Charisma modifier.",
+  "hits": [
+   "speed",
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/9b3b1c78cf42afbf",
+  "pack": "class-features",
+  "name": "Medical Dissertation",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You gain a +1 bonus to your Medic creation attack rolls and save DCs. In addition, anytime you restore hit points to a creature, they regain an additional amount of hit points equal to your proficiency bonus.",
+  "hits": [
+   "bonus to rolls",
+   "gain a +N"
+  ]
+ },
+ {
+  "id": "class-features/7888ca1791a2f3e8",
+  "pack": "class-features",
+  "name": "Mountain Stance",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 3rd level, if you move half your movement speed or less on your turn, you can anchor your heels into the ground. Until the beginning of your next turn, you can't be moved against your will. Additionally, until the start of your next turn, you can spend a spirit point whenever you take damage to reduce the damage taken by 1d10 + your Strength modifier. Additionally, you are considered one size larger for the purposes of shoving or grappling and have advantage on Strength checks to grapple and shove.",
+  "hits": [
+   "die size",
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/d6d4ba159f396361",
+  "pack": "class-features",
+  "name": "Off the Ropes",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You gain a climbing speed equal to your walking speed. In addition, when you use your Savage Slam feature while at least 10 feet off the ground, you deal an additional 1d6 damage of the same type as the attack for every 10 feet you are off the ground, up to a maximum of 10d6. If you hit with the attack, you also take no fall damage if you otherwise would.",
+  "hits": [
+   "speed",
+   "extra damage"
+  ]
+ },
+ {
+  "id": "feats/91a0be6e1d93fd30",
+  "pack": "feats",
+  "name": "Ominous Toxin",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Born as a particular type of poisonous fishman, you have been granted the ability to secrete a deadly toxin. You gain the following benefits: Increase your Constitution score by 1, up to a maximum of 20. You have advantage on saving throws against poisons and effects that would leave you poisoned. You have resistance against poison damage. Once per turn, you can apply poison to any bludgeoning, piercing, or slashing weapon as part of an attack. The target must succeed on a Constitution saving throw, DC 8 + Proficiency Bonus + Your Constitution Modifier, or take 2d4 poison damage, taking half damage on a success. Any creature that that starts its turn in direct contact with your skin, via grappling or otherwise, must succeed on a Constitution saving throw against the same DC as your poison, or become poisoned for 1 minute, repeating the saving throw at the end of each of their turns, ending the effect on a success. A creature that succeeds this saving throw is immune to this effect for the next hour.",
+  "hits": [
+   "advantage/disadvantage",
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/8c16cbb091da64a9",
+  "pack": "class-features",
+  "name": "Rakish Audacity",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Also at 3rd level, your confidence propels you into battle. You can give yourself a bonus to your initiative rolls equal to your Charisma modifier. You also gain an additional way to use your Sneak Attack; you don't need advantage on the attack roll to use your Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don't have disadvantage on the attack roll. All the other rules still apply to you.",
+  "hits": [
+   "advantage/disadvantage",
+   "initiative"
+  ]
+ },
+ {
+  "id": "class-features/24d3b70b6cbddb1d",
+  "pack": "class-features",
+  "name": "Reckless Brilliance",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 6th level, your intelligence and strength shine through your respective forms. Mad Genius. While you are not raging: Your Reckless Attack feature now works on attack rolls made with creations. You have advantage on all Intelligence saving throws. Bound Hulk. While you are raging: You gain resistance to acid, poison, or necrotic damage (choose when you enter your rage).",
+  "hits": [
+   "advantage/disadvantage",
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "feats/dac396f4dc8dfa3c",
+  "pack": "feats",
+  "name": "Shandian Mobility",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Being a Shandian has allowed you to make the most of your environment, maneuvering and escaping any unfavorable situation. You gain the following benefits: Increase your Strength, Dexterity, or Constitution score by 1, up to a maximum of 20. Your movement speed is increased by 5ft, and your jump height is doubled. You gain proficiency in either Acrobatics or Athletics. If you are already proficient, you gain expertise. You have advantage on any Athletics or Acrobatics skill check to escape a grapple.",
+  "hits": [
+   "advantage/disadvantage",
+   "speed"
+  ]
+ },
+ {
+  "id": "feats/5238c5b11d777c5d",
+  "pack": "feats",
+  "name": "Strong Arms",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "The power of your extra arm joints grants you extra leverage and strength in and out of combat. You gain the following benefits: Increase your Strength or Dexterity score by 1, up to a maximum of 20. When you hit with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this ability only once per combat. You count as one size larger when determining your carrying capacity and the weight you can push, drag, lift, and for grapple and shove attempts.",
+  "hits": [
+   "die size",
+   "extra damage"
+  ]
+ },
+ {
+  "id": "feats/cf8559fc05b2db3c",
+  "pack": "feats",
+  "name": "Undead Resolve",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Given that you were already revived once, it is considerably easier to revive you again. You gain the following benefits: Increase your Wisdom or Constitution score by 1, up to a maximum of 20. When any creation or feature that will restore you to life is used on you, and it costs material components, that cost is ignored. You gain resistance to necrotic damage, and when you take necrotic damage, you gain 5 temporary hit points. If damage reduces you to 0 hit points, you can make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is from a critical hit. On a success, you drop to 1 hit point instead.",
+  "hits": [
+   "resistance/immunity",
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/10fc12c0ea9c479b",
+  "pack": "class-features",
+  "name": "Unrelenting Fortress",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning at 6th level, developing your armor has granted you the ability to shrug off any punishment. You gain the following benefits while wearing your Forgemaster's Armor: At the start of each of your turns, while you are raging, you gain temporary hit points equal to double your proficiency bonus. They vanish if any of them are left when your rage ends. You gain resistance to the chosen damage type when you made your Forgemaster's Armor.",
+  "hits": [
+   "resistance/immunity",
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/3ebabb751e7b6f7e",
+  "pack": "class-features",
+  "name": "Achilles Heel",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Upon reaching 11th level, you can gain further insight to a creature's defenses, making them suffer for their shortcomings. When you hit a creature with an unarmed strike, you can spend 3 spirit points to cause the creature to gain vulnerability to one damage type of your choice. After that creature takes that damage, they no longer are vulnerable. If a creature has resistance to the damage type you choose, this resistance is suppressed for 1 minute, rather than gaining vulnerability. A creature that is immune to the damage type you choose is unaffected. A creature who is affected by this feature cannot be affected by it again for 24 hours.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/c1aa1b5bf6ab3722",
+  "pack": "class-features",
+  "name": "Advanced Combat Tactics",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 7th level, you can add your Wisdom modifier (minimum of +1) to your Initiative rolls and to all ability checks made while in combat. Additionally, whenever you roll a superiority die and the result is 1 or 2, you can treat that roll as a 3.",
+  "hits": [
+   "initiative"
+  ]
+ },
+ {
+  "id": "class-features/598b0f0a21a7cf2c",
+  "pack": "class-features",
+  "name": "Afterimage",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 3rd level, you can move at blinding speeds to create an Afterimage as a bonus action in an unoccupied space you can see within 30 feet of yourself. This Afterimage is a blurred image of you that lasts until it is destroyed, until you dismiss it as a bonus action, until you make another Afterimage, or until you're incapacitated. Your Afterimage has the same AC as yourself, 1 hit point, and immunity to all conditions. If it has to make a saving throw, it uses your saving throw bonus for the roll. It is the same size as you, and it occupies its space. On your turn, you can mentally command the Afterimage to move up to your movement speed in any direction (no action required). If your Afterimage is ever more than 30 feet from you at the end of your turn, it is destroyed. Your Afterimage can do the following while its active: You can teleport, swapping places with your Afterimage at a cost of 15 feet of your movement, regardless of the distance between the two of you. When you take the Attack action on your turn, any attack you make with that action can originate from your space or the Afterimage's space. You make this choice for each attack. When a creature that you can see moves at least 5ft out of your Afterimage's range, you can use your reaction to make an opportunity attack against that creature.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/3769ae55052ce072",
+  "pack": "class-features",
+  "name": "Animal Spirit",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 13th level, your inner spirit burns with a passion that even wild animals can understand. You can speak with all beasts and monstrosities, and understand what they say as well. Additionally, you have advantage on Charisma (Intimidation) ability checks you make towards beasts and monstrosities.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "racial-features/e015e1b8e7c01706",
+  "pack": "racial-features",
+  "name": "Aquatic Adaptation",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You can breathe air and water. You have advantage on all Strength (Athletics) ability checks made while in water.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/1fd7b63895d3ce68",
+  "pack": "class-features",
+  "name": "Armed and Dangerous",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 3rd level, you gain proficiency with medium armor, martial weapons, and improvised weapons. You also gain additional ways to use your Sneak Attack; you don't need advantage on the attack roll to use your Sneak Attack against a creature if they are grappled or deafened, you are using a melee weapon or unarmed strike that uses Strength, and you don't have disadvantage on the attack roll. All the other rules still apply to you. In addition, you can use your Cunning action to make a grapple or shove check.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/6f0efc6f137bd53b",
+  "pack": "class-features",
+  "name": "Aura of Freedom",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 7th level, you and friendly creatures within 10 feet of you have advantage on saving throws against being paralyzed or restrained, and ignore difficult terrain, while you are conscious. At 18th level, the range of this aura increases to 30 feet.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/43e2496aa5cc4f6c",
+  "pack": "class-features",
+  "name": "Aura of Spite",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 7th level, you and friendly creatures within 10 feet of you have advantage on opportunity attacks and can make opportunity attacks when a creature moves out of your reach even if the creature has taken the Disengage action, while you are conscious. At 18th level, the range of this aura increases to 30 feet.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/5bcf64498bdcdb27",
+  "pack": "class-features",
+  "name": "Aura of Tenacity",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Beginning at 7th level, you emit an aura of imposing strength. Creatures of your choice within 10 feet of you have disadvantage on attack rolls against creatures other than you while you are conscious. At 18th level, the range of this aura increases to 30 feet.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/1b30625ad92dbce5",
+  "pack": "class-features",
+  "name": "Aura of Warding",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Starting at 7th level, you and friendly creatures within 10 feet of you have resistance to the damage of creations while you are conscious. At 18th level, the range of this aura increases to 30 feet.",
+  "hits": [
+   "resistance/immunity"
+  ]
+ },
+ {
+  "id": "class-features/ca8b6032ff654ab6",
+  "pack": "class-features",
+  "name": "Boomstick",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 3rd level, you've trained your body to withstand the recoil of smaller cannons. You gain proficiency with cannons and improvised weapons, and can now wield the swivel gun (Chapter 4) as a weapon, treating it as a ranged improvised weapon with the heavy and two-handed properties. While wielded in your hands, it has a range 60/240. While wielding a swivel gun in this way, you can choose to not have damage spread, as you assert firm control over your aim. You are proficient with all cannons and use your Strength modifier for the attack and damage rolls. Additionally, you benefit from Reckless Attack when making ranged attacks with swivel guns, and can add your bonus Rage damage to these attacks. Later when you gain your Brutal Critical feature, it applies to ranged attacks with swivel guns as well. You can also use the bulk of the cannon to strike at enemies in melee range. In this instance, the swivel gun acts as an improvised weapon that deals 2d6 bludgeoning damage on hit and has the heavy and two-handed properties. The massive bulk of the cannon makes it unwieldy to use. You have disadvantage on all ranged attack rolls with the swivel gun while you're not raging and wielding it as a ranged improvised weapon.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/2c685ef6dd633062",
+  "pack": "class-features",
+  "name": "Brawling",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "At 1st level, your experience in street fighting gives you mastery of combat styles that use unarmed strikes and brawler weapons, which are improvised weapons and any simple melee weapons that lack the two-handed or heavy property. You gain the following benefits while you are unarmed or wielding only brawler weapons and you aren't wearing armor or wielding a shield: You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and brawler weapons. You can roll a d6 in place of the normal damage of your unarmed strike or brawler weapon. This die changes as you gain brawler levels, as shown in the Brawling column of the Brawler table. When you hit with an unarmed strike, improvised weapon, or brawler weapon, you can choose to make the damage type of the attack bludgeoning, piercing, or slashing. When you use the Attack action with an unarmed strike or a brawler weapon on your turn, you can make one unarmed strike as a bonus action.",
+  "hits": [
+   "die size"
+  ]
+ },
+ {
+  "id": "class-features/57574e5dc5182fdd",
+  "pack": "class-features",
+  "name": "Bullet Time",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "When you reach 7th level, your reflexes and instincts allow for quick action in combat, as time appears to slow down around you. You add your proficiency bonus to your initiative. You can also draw and stow a firearm, then draw another firearm as a single object interaction on your turn. In addition, as a bonus action on your turn, you can enter Bullet Time for 1 minute, or until you are incapacitated. While in Bullet Time, you gain the following benefits: You gain a 30ft Focus radius around you. As a reaction to a hostile creature within the radius moving at least 10 ft away from an allied creature within the radius (can include yourself), you can make one firearm attack with one firearm you are wielding against that creature. Attack rolls made against you from creatures within your Focus radius do not benefit from advantage. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail. You can enter Bullet Time a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.",
+  "hits": [
+   "initiative"
+  ]
+ },
+ {
+  "id": "feats/f4442a208c072800",
+  "pack": "feats",
+  "name": "Burglar",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "You pride yourself on your quickness and your close study of robbery and infiltrating trapped rooms. You gain the following benefits: Increase your Dexterity score by 1, to a maximum of 20. You gain proficiency with thieves' tools. If you are already proficient with them, you gain Expertise in them. You can use thieves' tools to improve a lock's DC by a number equal to your proficiency bonus with a successful tool check. You have advantage on Wisdom (Perception) and Intelligence (Investigation) checks made to detect the presence of secret doors, containers, and traps; and on saving throws made to avoid or resist traps.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "feats/00bbbfcdd2933a46",
+  "pack": "feats",
+  "name": "Caring",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "It is your duty and pleasure to help those in need. You gain 3 care dice and you regain all spent care dice when you finish a short or long rest. If you see one of your allies get hit by a critical hit, you regain 1 care die. Your care dice are d6s. You can roll only one care die per turn, and a care die is spent when you roll it. You can use care dice in any of the following ways: When you restore hit points to a creature, you can roll a care die and add the result to the total hit points regained. When you restore hit points to a creature, you can give the creature an amount of temporary hit points equal to your level. When you make a Charisma (Persuasion) check, spend one care die and add the roll to your check.",
+  "hits": [
+   "hit points"
+  ]
+ },
+ {
+  "id": "class-features/fbc38579154ed9bf",
+  "pack": "class-features",
+  "name": "Carving Inspiration",
+  "type": "feat",
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Also at 6th level, you can use your words in combat to out maneuver your opponents. When you use your bonus action to give a creature one of your Bardic Inspiration dice, you gain advantage on all your melee weapon attacks until the end of your turn.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ },
+ {
+  "id": "class-features/fd4062b1dd6625f7",
+  "pack": "class-features",
+  "name": "Color of Observation Master",
+  "type": "feat",
+  "identifier": "observation-master",
+  "prerequisites": [
+   "observation-adept"
+  ],
+  "activation": "",
+  "uses": {
+   "value": null,
+   "max": "",
+   "per": null,
+   "recovery": "",
+   "prompt": true
+  },
+  "activities": [],
+  "effects": [],
+  "text": "Your training in Observation Haki has reached complete mastery, allowing you to see a few seconds into the future through a moment of concentration. Sense Future. You cannot be surprised, except when incapacitated by something other than being asleep. If you are asleep when combat begins, you immediately wake up. Additionally, at the start of your turn, you can choose to peer a few seconds into the future, expending two Observation Points. Until the start of the next turn, you have advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.",
+  "hits": [
+   "advantage/disadvantage"
+  ]
+ }
+]

@@ -15,7 +15,7 @@ const run = async () => {
     const name = `[RULES] ${fruit}`;
     let c = await game.op5eApi.createCharacter({ name, species: "Human", background: "Boxer", cls: "Brawler", level: 1, fruit });
     const a = game.actors.getName(name); made.push(a);
-    await game.op5eApi.addItem({ actor: name, name: "Devil Fruit Uses", pack: "op5e.feats" });   // the uses pool is a feat the player adds once the fruit is filled in
+    ok(`${fruit}: choosing the fruit template grants Devil Fruit Uses`, !!a.items.find((i) => i.name === "Devil Fruit Uses"));
     const got = [];
     for (const [lvl] of TABLE) {
       if (lvl > 1) await game.op5eApi.levelUp({ actor: name, cls: "Brawler", to: lvl });
