@@ -1,3 +1,4 @@
+import { advancementList } from "../advancement-list.mjs";
 import { MODULE_ID, getAllDrafts, setAllDrafts } from "../settings.mjs";
 import { isBackgroundEntry } from "./background-role.mjs";
 import {
@@ -78,7 +79,7 @@ async function racialFeatsForSpecies(speciesId, racialFeatIndex) {
   const seen = new Set();
   const feats = [];
 
-  for (const adv of doc.system?.advancement ?? []) {
+  for (const adv of advancementList(doc.system?.advancement)) {
     if (adv.type !== "ItemGrant") continue;
     for (const item of adv.configuration?.items ?? []) {
       const id = compendiumIdFromUuid(item.uuid);

@@ -1,3 +1,4 @@
+import { advancementList } from "../advancement-list.mjs";
 import {
   applyStartingBeri,
   importFromPackWithAdvancements,
@@ -87,7 +88,7 @@ export function abilitiesValid(method, abilities) {
 /** Character level at which the class asks for a subclass, read from the class's own Subclass advancement. */
 export function subclassLevelOf(classSource) {
   const src = classSource?.toObject ? classSource.toObject() : classSource;
-  const adv = (src?.system?.advancement ?? []).find((a) => a.type === "Subclass");
+  const adv = advancementList(src?.system?.advancement).find((a) => a.type === "Subclass");
   return adv?.level ?? null;
 }
 

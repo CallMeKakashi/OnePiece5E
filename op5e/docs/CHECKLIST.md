@@ -49,3 +49,6 @@ Branch: `future-work` (not merged to `planning`, not released). Released so far:
 - Foundry stays on 13.350 (the DM declined 13.351 for now; it closes two remote-code-execution holes)
 - `blood-and-brine` is read-only for Claude: list files and `world.json` only
 - The release must be tested on the same Foundry and dnd5e the DM runs
+
+## F. Later (after all work is finished)
+- Migrate every character in the bb-rehearsal copy to the new sourcebook, as a real-campaign test. Copy only; the original world stays read-only.

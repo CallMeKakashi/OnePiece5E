@@ -12,8 +12,10 @@ const run = async () => {
     const cannons = (await game.packs.get("op5e.ship-weapons").getDocuments()).filter((d) => /pounder/.test(d.name));
     const big = cannons.find((d) => d.name === "12-pounder");
     await ship.createEmbeddedDocuments("Item", [big.toObject()]);
-    await ship.sheet.render({ force: true }); for (let i = 0; i < 20 && !ship.sheet.element?.innerText; i++) await new Promise((r) => setTimeout(r, 500));
-    const text = ship.sheet.element?.innerText ?? document.querySelector(`[data-actor-id="${ship.id}"], .application.actor`)?.innerText ?? "";
+    await ship.sheet.render({ force: true }); const elOf = () => ship.sheet.element?.[0] ?? ship.sheet.element;   // the 5.1 vehicle sheet is an older-style sheet: element is a jQuery wrapper
+    for (let i = 0; i < 20 && !elOf()?.innerText; i++) await new Promise((r) => setTimeout(r, 500));
+    ship.sheet.activateTab?.("features"); await new Promise((r) => setTimeout(r, 600));   // weapons are listed on the Features tab
+    const text = elOf()?.innerText ?? "";
     ok("The ship's sheet opens (" + ship.sheet.constructor.name + ") and lists the cannon", ship.sheet.rendered && /12-pounder/.test(text), `${text.length} characters of sheet`);
     const cannon = ship.items.getName("12-pounder"), atk = [...cannon.system.activities].find((a) => a.type === "attack");
     ok("The cannon has an attack activity with damage", !!atk && (atk.damage?.parts?.length > 0 || cannon.system.damage?.base?.number > 0), JSON.stringify(cannon.system.damage?.base ?? {}).slice(0, 100));

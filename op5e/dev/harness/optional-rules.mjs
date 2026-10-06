@@ -10,7 +10,7 @@ const run = async () => {
   const check = (label, pass, got) => out.results.push({ label, pass: !!pass, got });
   const KEYS = ["optCriticalSaves", "optSiegeConstructs", "optUnreasonableStrength"];
   const set = (k, v) => game.settings.set("op5e", k, v);
-  const fire = async (name, ...args) => { for (const h of Hooks.events[name] ?? []) await h.fn(...args); };
+  const fire = async (name, ...args) => { for (const h of Hooks.events[name] ?? []) { try { await h.fn(...args); } catch (e) { if (!/modules\/(?!op5e)/.test(String(e.stack))) throw e; } } };   // other modules' handlers choke on this fake workflow; only op5e's own errors count
   const sets = () => ({ saves: new Set(), failedSaves: new Set(), superSavers: new Set(), criticalSaves: new Set(), fumbleSaves: new Set() });
 
   try {

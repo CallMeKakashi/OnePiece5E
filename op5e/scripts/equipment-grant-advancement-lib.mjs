@@ -1,3 +1,4 @@
+import { advancementList } from "./advancement-list.mjs";
 /**
  * Foundry ItemGrant dedupes by compendium UUID (one actor item per UUID).
  * dnd5e 5.1 ItemGrant configuration schema has no quantity field — stack sizes live in
@@ -70,8 +71,8 @@ export function mergeQuantitiesFromItemFlags(item, quantities) {
  * @param {Map<string, number>} quantities
  */
 export function mergeQuantitiesFromItemAdvancements(item, quantities) {
-  if (item?.advancement?.length) {
-    for (const adv of item.advancement) {
+  if (advancementList(item?.advancement).length) {
+    for (const adv of advancementList(item.advancement)) {
       if (adv?.type !== "ItemGrant") continue;
       const config = adv.configuration?.toObject?.() ?? adv.configuration;
       mergeQuantitiesFromItemGrantConfig(config, quantities);
@@ -80,7 +81,7 @@ export function mergeQuantitiesFromItemAdvancements(item, quantities) {
   }
 
   const data = itemDocumentData(item);
-  for (const adv of data?.system?.advancement ?? []) {
+  for (const adv of advancementList(data?.system?.advancement)) {
     if (adv?.type !== "ItemGrant") continue;
     mergeQuantitiesFromItemGrantConfig(adv.configuration, quantities);
   }
