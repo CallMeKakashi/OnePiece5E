@@ -61,6 +61,9 @@ ship check, and list the items needing a human decision. Builds on `scripts/extr
 - Assertion tests for the highest-risk rules (Haki tiers, Devil Fruit uses, summons, ships and cannons), written like `dev/harness/transform.mjs`.
 - The 45 audit warnings (15 missing action types, 5 missing use counts, 25 text-only features).
 
+## 6b. Text-only features (DONE, issue #26)
+All 187 features the audit flagged were reviewed one by one with the DM (reports/text-only/output-*.json): 19 were false alerts, and every one the DM approved is now a passive effect, a toggle (starts off, switched on while its condition holds) or a button. About 55 stay text on purpose (choices made at the table, riders on other features or companions, rules Foundry cannot test). Checked live by dev/harness/text-batch4 to text-batch7.mjs. The audit (`node scripts/audit-text-only.mjs`) now lists what is left.
+
 ## 7. Known unfinished mechanics (status, issue #27)
 - DONE: world copy script `node scripts/copy-world.mjs <src> <new>` (refuses the campaign world as a target or, without a flag, as a source).
 - DONE: summons, ships and cannons assertions (`dev/harness/summons-ships.mjs`).
