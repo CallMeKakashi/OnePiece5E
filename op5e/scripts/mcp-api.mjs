@@ -3,6 +3,7 @@
 import { createFromDraft, PACKS, defaultData } from "./wizard/create.mjs";
 import { levelClassTo } from "./wizard/apply-advancements.mjs";
 import { refreshActorFromCompendium } from "./refresh-actor.mjs";
+import { carryOldCharacter } from "./import-old-character.mjs";
 
 const gm = () => { if (!game.user?.isGM) throw new Error("GM only"); };
 const norm = (s) => String(s ?? "").toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -28,7 +29,7 @@ export const api = {
     return out.slice(0, limit);
   },
   /** species/background/cls/subclass by name. abilities default to the standard array in str..cha order. kind "npc" makes an npc actor. */
-  async createCharacter({ name, species, background, cls, level = 3, subclass, cls2, level2 = 1, subclass2, feat, fruit, abilities, kind = "pc", dream = "" }) {
+  async createCharacter({ name, species, background, cls, level = 3, subclass, cls2, level2 = 1, subclass2, feat, fruit, abilities, kind = "pc", dream = "", prefer, haki }) {
     gm(); const notes = [];
     const d = defaultData();
     Object.assign(d, { name, level, level2, dream, abilityMethod: "roll", hpMode: "avg", autoApply: true });
@@ -37,7 +38,7 @@ export const api = {
     d.classId = (await byName(PACKS.classes, cls))._id; if (subclass) d.subclassId = (await byName(PACKS.subclasses, subclass))._id;
     if (cls2) { d.classId2 = (await byName(PACKS.classes, cls2))._id; if (subclass2) d.subclassId2 = (await byName(PACKS.subclasses, subclass2))._id; }
     if (feat) d.freeFeatId = (await byName(PACKS.feats, feat))._id;
-    const actor = await createFromDraft({ actorKind: kind, data: d }, { auto: true, hpMode: "avg", notes, noSheet: true, fruit });
+    const actor = await createFromDraft({ actorKind: kind, data: d }, { auto: true, hpMode: "avg", notes, noSheet: true, fruit, prefer, haki });
     return { ...summary(actor), notes };
   },
   async levelUp({ actor, cls, to }) {
@@ -53,6 +54,19 @@ export const api = {
     const [made] = await a.createEmbeddedDocuments("Item", [d]); return { added: made.name, type: made.type, from: hit.pack };
   },
   async learnFruitSpell({ actor, spell }) { gm(); const hit = (await api.search({ query: spell, type: "spell", limit: 1 }))[0] ?? (await (async () => { for (const id of ["dnd5e.spells", "dnd5e.spells24"]) { const e = (await game.packs.get(id)?.getIndex())?.find((x) => norm(x.name) === norm(spell)); if (e) return { uuid: e.uuid }; } })()); if (!hit) throw new Error(`spell "${spell}" not found`); const made = await game.op5eFruitCasting.learn(actorByName(actor), hit.uuid); return { learned: made.name, level: made.system.level }; },
+  /** Rebuild an old-campaign actor through Create OPC. map: {"Gunslinger": "Marksman"} for classes that no longer exist; species/background/fruit override what is read from the old sheet. */
+  async importOldCharacter({ source, name, map = {}, species, background, fruit, prefer, haki, matchHp = false, apply = true }) {
+    gm(); const old = actorByName(source);
+    const classes = old.items.filter((i) => i.type === "class").map((c) => ({ name: map[c.name] ?? c.name, level: c.system.levels, sub: old.items.find((s) => s.type === "subclass" && s.system.classIdentifier === c.system.identifier)?.name })).sort((a, b) => b.level - a.level);
+    if (!classes.length) throw new Error(`${old.name} has no class items`);
+    const race = species ?? old.items.find((i) => i.type === "race")?.name, bg = background ?? old.items.find((i) => i.type === "background")?.name;
+    const base = Object.fromEntries(Object.entries(old.system.abilities).map(([k, v]) => [k, v.value]));
+    const trySub = async (n) => { try { return n && (await byName(PACKS.subclasses, n), n); } catch { return undefined; } };
+    const made = await api.createCharacter({ name: name ?? `${old.name} (OPC)`, species: race, background: bg, cls: classes[0].name, level: classes[0].level, subclass: await trySub(classes[0].sub),
+      cls2: classes[1]?.name, level2: classes[1]?.level, subclass2: await trySub(classes[1]?.sub), abilities: base, fruit, prefer, haki });
+    const target = game.actors.get(made.id), report = await carryOldCharacter(old, target, { apply, matchHp });
+    return { ...summary(target), notes: made.notes, carry: report.counts, noEquivalent: report.noEquivalent, failed: report.failed, hpDifference: report.hpDifference };
+  },
   async setActor({ actor, set }) { gm(); const a = actorByName(actor); await a.update(set); return summary(a); },
   async listActors({ type } = {}) { gm(); return game.actors.filter((a) => !type || a.type === type).map(summary); },
   async getActor({ actor }) { gm(); const a = actorByName(actor); return { ...summary(a), abilities: Object.fromEntries(Object.entries(a.system.abilities).map(([k, v]) => [k, v.value])), items: a.items.map((i) => `${i.type}: ${i.name}`) }; },

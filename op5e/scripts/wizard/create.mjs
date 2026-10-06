@@ -175,7 +175,7 @@ export async function createFromDraft(draft, opts = {}) {
   if (!actor) throw new Error("Actor creation failed.");
 
   // opts.haki (choice level -> branch) and opts.fruit (template name) only steer the headless auto mode
-  const run = { auto, hpMode, notes, haki: opts.haki, fruit: opts.fruit };
+  const run = { auto, hpMode, notes, haki: opts.haki, fruit: opts.fruit, prefer: opts.prefer };
   const imported = [];
   {
     for (const [pack, id] of [

@@ -22,7 +22,7 @@ async function findInPacks(packIds, name, cache) {
   return null;
 }
 
-export async function carryOldCharacter(source, target, { apply = false } = {}) {
+export async function carryOldCharacter(source, target, { apply = false, matchHp = false } = {}) {
   const have = new Set(target.items.map((i) => norm(i.name)));
   const cache = {}, rep = { fromOp5e: [], fromDnd5e: [], copiedFromOld: [], keptOldVersion: [], skipped: [], feats: [], noEquivalent: [], failed: [] };
   const hasBrawler = target.items.some((i) => i.name === "Brawler Unarmed Strike");
@@ -44,8 +44,9 @@ export async function carryOldCharacter(source, target, { apply = false } = {}) 
   }
   for (const f of source.items.filter((i) => i.type === "feat")) {   // loose feats with a general-feat equivalent; class/race features stay behind
     if (have.has(norm(f.name))) continue;
-    const hit = await findInPacks([`${MODULE_ID}.feats`], f.name, cache);
-    if (hit?.doc.type === "feat") { rep.feats.push(f.name); if (apply) { const d = hit.doc.toObject(); delete d._id; await target.createEmbeddedDocuments("Item", [d]); have.add(norm(f.name)); } }
+    const isFeature = /Haki|^Color of|Fighting Style/i.test(f.name);   // Haki tiers and fighting styles live in class-features
+    const hit = await findInPacks(isFeature ? [`${MODULE_ID}.class-features`, `${MODULE_ID}.feats`] : [`${MODULE_ID}.feats`], f.name, cache);
+    if (hit?.doc.type === "feat" && !(isFeature && /^Haki$/i.test(f.name))) { rep.feats.push(f.name); if (apply) { const d = hit.doc.toObject(); delete d._id; await target.createEmbeddedDocuments("Item", [d]); have.add(norm(f.name)); } }
     else rep.noEquivalent.push(f.name);
   }
   const s = source.system, upd = { "system.currency.gp": (s.currency?.gp ?? 0) + source.items.filter((i) => /^pouch of berries/i.test(i.name)).reduce((n, i) => n + (Number(/\((\d+)K\)/i.exec(i.name)?.[1] ?? 0) * 1000), 0) };
@@ -54,6 +55,7 @@ export async function carryOldCharacter(source, target, { apply = false } = {}) 
   for (const [k, v] of Object.entries(s.tools ?? {})) if (v.value) upd[`system.tools.${k}.value`] = v.value;
   upd["system.traits.size"] = s.traits?.size ?? "med";
   upd["system.details.biography.value"] = `${target.system.details.biography.value ?? ""}<h3>Carried over from the old campaign sheet</h3><p>No equivalent in the rebuilt class, species or background: ${[...new Set(rep.noEquivalent)].sort().join(", ") || "none"}.</p>`;
+  if (matchHp) { const diff = (source.system.attributes?.hp?.max ?? 0) - (target.system.attributes?.hp?.max ?? 0) + (target.system.attributes?.hp?.bonuses?.overall ? 0 : 0); if (diff) upd["system.attributes.hp.bonuses.overall"] = String(diff); rep.hpDifference = diff; }   // old sheets rolled or used another hit die; this makes the maximum match
   if (apply) await target.update(upd);
   return { applied: apply, counts: Object.fromEntries(Object.entries(rep).map(([k, v]) => [k, v.length])), ...rep };
 }

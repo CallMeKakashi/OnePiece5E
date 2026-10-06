@@ -17,7 +17,7 @@ Foundry must be running with the world launched and op5e enabled; the user must 
 To allow another world, add it: `"OP5E_MCP_WORLDS": "test,my-world"`. Never list `blood-and-brine` unless you mean it.
 
 ## Tools
-`search_compendium`, `create_character` (kind `pc` or `npc`, species/background/class/subclass/second class/free feat/fruit/abilities by name), `level_up`, `add_item`, `set_actor`, `list_actors`, `get_actor`, `refresh_actor`, `delete_actor`.
+`search_compendium`, `create_character` (kind `pc` or `npc`, species/background/class/subclass/second class/free feat/fruit/abilities by name), `level_up`, `import_old_character`, `learn_fruit_spell`, `add_item`, `set_actor`, `list_actors`, `get_actor`, `refresh_actor`, `delete_actor`.
 
 ## Test
 `node dev/harness/mcp-smoke.mjs` (test world): search, create an NPC, level up, add item, refuse then confirm delete.

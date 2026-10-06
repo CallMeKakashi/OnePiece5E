@@ -28,7 +28,9 @@ async function pick(manager, flow, adv, ctx) {
       const title = String(adv.title ?? "");
       const wantName = /devil fruit/i.test(title) ? (ctx.fruit ?? "No Devil Fruit") : null;
       const branch = ctx.haki?.[lvl];
+      const prefer = (ctx.prefer ?? []).map((r) => (r instanceof RegExp ? r : new RegExp(r, "i")));
       const rank = ({ doc }) =>
+        prefer.some((r) => r.test(doc.name)) ? 0 :
         wantName && doc.name.toLowerCase().includes(wantName.toLowerCase()) ? 0
         : branch && doc.name.toLowerCase().includes(branch) ? 0 : 1;
       docs.sort((x, y) => rank(x) - rank(y));
