@@ -12,7 +12,7 @@ Select the token(s) that fell and run `game.op5eFalling.prompt()` (make it a mac
 Aura of Freedom, Aura of Courage, Aura of Devotion and Aura of Tenacity follow the token and apply their changes to every creature in range (10 ft, 30 ft from level 18), and remove them when a creature leaves. Needs the Aura Effects module. Without it the features are plain text, nothing breaks.
 
 ## Token-effect items (#40)
-Torch, Candle, Lantern, Lamp, Night Vision Goggles and the Disguise Kit carry switched-off effects. Switch the effect on (the character's effect list) when the torch is lit, the goggles are on or the disguise is worn, and the token's light, vision or image changes. Needs Active Token Effects (ATL).
+Torch, Candle, Lantern, Lamp, Night Vision Goggles and the Disguise Kit carry switched-off effects. Torch, Candle and the Goggles start equipped (dnd5e only applies an item's effects while it is equipped). Switch the effect on (the character's effect list) when the torch is lit, the goggles are on or the disguise is worn: the token's light or image changes, and the goggles give a 60 ft darkvision sense. Needs Active Token Effects (ATL).
 
 ## Premade effects (#39)
 New compendium **OP5e Premade Effects**: Dodge, Help, Half Cover and Three-Quarters Cover. Drag one to a character and use its activity.

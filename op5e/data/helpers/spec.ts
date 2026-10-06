@@ -65,7 +65,7 @@ export interface ActSpec {
   /** summon: names of premade actors in the summons pack; bonuses are item-roll-data formulas */
   summon?: { profiles: string[]; ac?: string; hp?: string; attackDamage?: string; saveDamage?: string; healing?: string; fixed?: boolean };
 }
-export interface Spec { /** replaces the description with clearer per-option HTML */ descriptionHtml?: string; activities: ActSpec[]; uses?: { max: string; per?: "sr" | "lr" | "day" | "round" | null }; extraEffects?: EffectSpec[] }
+export interface Spec { /** start the item equipped: dnd5e only applies an item's effects while it is equipped (torches, goggles) */ equipped?: boolean; /** replaces the description with clearer per-option HTML */ descriptionHtml?: string; activities: ActSpec[]; uses?: { max: string; per?: "sr" | "lr" | "day" | "round" | null }; extraEffects?: EffectSpec[] }
 
 const id16 = (path: string) => generateId(`act/${path}`);
 const types = (t: string | string[]) => (Array.isArray(t) ? t : [t]);
@@ -146,6 +146,7 @@ export function applySpec<T extends { name: string; type?: string; system: Recor
   });
   const system = { ...doc.system, activities: built.activities } as Record<string, unknown>;
   if (spec.descriptionHtml) system.description = { ...(system.description as object), value: spec.descriptionHtml };
+  if (spec.equipped !== undefined) system.equipped = spec.equipped;
   if (spec.uses) system.uses = { ...(system.uses as object), max: spec.uses.max, per: spec.uses.per ?? null, value: null, recovery: "", prompt: true };
   return { ...doc, system, effects: [...(doc.effects ?? []), ...built.effects] };
 }

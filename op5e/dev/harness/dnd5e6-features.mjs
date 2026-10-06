@@ -22,12 +22,12 @@ const run = async () => {
     ok("a flat AC the player set is left alone", (await game.op5eBestAc.applyBestAc(a)) === null && a.system.attributes.ac.calc === "flat");
 
     // --- conditional effects
-    const [fx] = await a.createEmbeddedDocuments("ActiveEffect", [{ name: "[D6] Bloodied", disabled: true, changes: [{ key: "system.bonuses.mwak.damage", mode: 2, value: "2" }], flags: { op5e: { condition: "@attributes.hp.value < @attributes.hp.max / 2" } } }]);
-    await a.update({ "system.attributes.hp.max": 20, "system.attributes.hp.value": 20 }); await wait(900);
+    const [fx] = await a.createEmbeddedDocuments("ActiveEffect", [{ name: "[D6] Bloodied", disabled: true, changes: [{ key: "system.bonuses.mwak.damage", mode: 2, value: "2" }], flags: { op5e: { condition: "@abilities.str.value < 10" } } }]);
+    await a.update({ "system.abilities.str.value": 16 }); await wait(900);
     ok("a conditional effect is off while its condition is false", game.actors.get(a.id).effects.get(fx.id).disabled === true);
-    await a.update({ "system.attributes.hp.value": 4 }); await wait(900);
+    await a.update({ "system.abilities.str.value": 8 }); await wait(900);
     ok("it switches on when the condition becomes true", game.actors.get(a.id).effects.get(fx.id).disabled === false);
-    await a.update({ "system.attributes.hp.value": 20 }); await wait(900);
+    await a.update({ "system.abilities.str.value": 16 }); await wait(900);
     ok("it switches off again when the condition is false", game.actors.get(a.id).effects.get(fx.id).disabled === true);
     ok("evaluateCondition treats a broken formula as false", game.op5eConditions.evaluateCondition("@@ nonsense", {}) === false);
 

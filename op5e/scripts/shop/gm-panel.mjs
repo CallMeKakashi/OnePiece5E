@@ -1,5 +1,6 @@
 import { MODULE_ID } from "../constants.mjs";
 import { currencyLabel, fmt, wealthIn } from "./currency.mjs";
+import { extraEntries } from "../extra-sources-lib.mjs";
 // The GM's shop control panel: start a shop, stock it, show it to everyone or chosen players, see who is looking, approve requests.
 const ID = MODULE_ID;
 const { HandlebarsApplicationMixin, ApplicationV2 } = foundry.applications.api;
@@ -10,7 +11,7 @@ export class ShopGMApp extends HandlebarsApplicationMixin(ApplicationV2) {
   static DEFAULT_OPTIONS = {
     id: "op5e-shop-gm", classes: ["op5e-shop", "op5e-shop-gm"], window: { title: "Shop control", resizable: true }, position: { width: 640, height: 720 },
     actions: { select: ShopGMApp.#select, newShop: ShopGMApp.#newShop, deleteShop: ShopGMApp.#deleteShop, showAll: ShopGMApp.#showAll, hideAll: ShopGMApp.#hideAll, toggleUser: ShopGMApp.#toggleUser,
-      stockUp: ShopGMApp.#stockUp, stockDown: ShopGMApp.#stockDown, stockOut: ShopGMApp.#stockOut, stockInf: ShopGMApp.#stockInf, restock: ShopGMApp.#restock, approve: ShopGMApp.#approve, decline: ShopGMApp.#decline, counter: ShopGMApp.#counter, removeItem: ShopGMApp.#removeItem },
+      stockUp: ShopGMApp.#stockUp, stockDown: ShopGMApp.#stockDown, stockOut: ShopGMApp.#stockOut, stockInf: ShopGMApp.#stockInf, restock: ShopGMApp.#restock, findItem: ShopGMApp.#findItem, approve: ShopGMApp.#approve, decline: ShopGMApp.#decline, counter: ShopGMApp.#counter, removeItem: ShopGMApp.#removeItem },
   };
   static PARTS = { body: { template: `modules/${ID}/templates/shop-gm.hbs` } };
 
@@ -91,5 +92,28 @@ export class ShopGMApp extends HandlebarsApplicationMixin(ApplicationV2) {
   static async #stockOut(ev, el) { await T().updateItem(this.shopId, el.dataset.key, { stock: 0 }); this.render(); }
   static async #stockInf(ev, el) { await T().updateItem(this.shopId, el.dataset.key, { stock: null }); this.render(); }
   static async #restock() { const n = await T().restock(this.shopId); ui.notifications.info(`Reset the quantities of ${n} items to the ${shopsNow()[this.shopId].type} template.`); this.render(); }
+  /** Search the extra compendium sources (for example a D&D Beyond import) for gear and add the pick to this shop's stock. */
+  static async #findItem() {
+    const gear = new Set(["weapon", "equipment", "consumable", "tool", "loot", "container"]);
+    const entries = await extraEntries(["type", "name", "img"], (e) => gear.has(e.type));
+    if (!entries.length) return ui.notifications.info("No extra compendium sources with gear are enabled (Game Settings, OP5e, Extra compendium sources).");
+    const content = `<div class="form-group"><input type="search" name="q" placeholder="Part of an item's name" autofocus></div><ul class="op5e-find" style="list-style:none;margin:6px 0 0;padding:0;max-height:300px;overflow:auto"></ul>`;
+    const dlg = new foundry.applications.api.DialogV2({ window: { title: "Find an item to stock" }, content, buttons: [{ action: "close", label: "Close", default: true }], position: { width: 420 } });
+    dlg.addEventListener("render", () => {
+      const q = dlg.element.querySelector("input[name=q]"), list = dlg.element.querySelector(".op5e-find");
+      const draw = () => {
+        const t = q.value.trim().toLowerCase(); list.innerHTML = "";
+        if (t.length < 2) return;
+        for (const e of entries.filter((x) => x.name.toLowerCase().includes(t)).slice(0, 40)) {
+          const li = document.createElement("li"); li.style.cssText = "display:flex;gap:6px;align-items:center;padding:2px 0";
+          li.innerHTML = `<img src="${e.img}" width="24" height="24" alt=""><span style="flex:1">${foundry.utils.escapeHTML(e.name)} <small>${foundry.utils.escapeHTML(e.source)}</small></span><button type="button">Add</button>`;
+          li.querySelector("button").addEventListener("click", async () => { const [coll, id] = [e._id.split("|")[0], e._id.split("|")[1]]; await T().addItem(this.shopId, `Compendium.${coll}.Item.${id}`); ui.notifications.info(`Added ${e.name}.`); this.render(); });
+          list.append(li);
+        }
+      };
+      q.addEventListener("input", draw);
+    });
+    dlg.render({ force: true });
+  }
   static async #removeItem(ev, el) { await T().removeItem(this.shopId, el.dataset.key); this.render(); }
 }

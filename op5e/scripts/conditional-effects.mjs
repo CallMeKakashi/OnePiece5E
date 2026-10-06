@@ -8,7 +8,7 @@ export function evaluateCondition(formula, rollData, safeEval = (f) => Roll.safe
   try { return !!safeEval(replace(String(formula), rollData)); } catch { return false; }
 }
 
-const flagged = (actor) => [...actor.effects, ...actor.items.flatMap((i) => [...i.effects])].filter((e) => e.getFlag(MODULE_ID, "condition"));
+const flagged = (actor) => [...actor.effects, ...[...actor.items].flatMap((i) => [...i.effects])].filter((e) => e.getFlag(MODULE_ID, "condition"));
 
 /** Switches every conditional effect on the actor to match its formula. Returns how many changed. */
 export async function refresh(actor) {

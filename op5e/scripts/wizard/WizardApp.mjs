@@ -1,7 +1,7 @@
 import { advancementList } from "../advancement-list.mjs";
 import { MODULE_ID, getAllDrafts, setAllDrafts } from "../settings.mjs";
 import { isBackgroundEntry } from "./background-role.mjs";
-import { extraEntries } from "../extra-sources.mjs";
+import { extraEntries, labelled } from "../extra-sources-lib.mjs";
 import {
   ABILITY_METHODS,
   PACKS,
@@ -71,6 +71,7 @@ function compendiumIdFromUuid(uuid) {
 
 async function racialFeatsForSpecies(speciesId, racialFeatIndex) {
   if (!speciesId) return [];
+  if (String(speciesId).includes("|")) return [];   // a species from an extra source brings its traits itself, there are no op5e racial features to list
   const pack = game.packs.get(PACKS.species);
   if (!pack) return [];
   const doc = await pack.getDocument(speciesId);
@@ -232,9 +233,16 @@ export class OP5eCharacterCreatorWizard extends HandlebarsApplicationMixin(Appli
       indexPack(PACKS.racialFeatures, ["type", "name", "img", "system.requirements"]).catch(() => [])
     ]);
 
-    const speciesChoices = filterIndexByType(speciesIndex, "race");
-    const backgroundChoices = bgRoleIndex.filter(isBackgroundEntry).map(mapIndexEntry);
-    const classChoices = filterIndexByType(classIndex, "class");
+    // species, backgrounds and classes from the GM's extra compendium sources (for example a D&D Beyond import), labelled with their source
+    const [extraSpecies, extraBackgrounds, extraClasses] = await Promise.all([
+      extraEntries(["type", "name", "img"], (e) => e.type === "race").catch(() => []),
+      extraEntries(["type", "name", "img"], (e) => e.type === "background").catch(() => []),
+      extraEntries(["type", "name", "img", "system.identifier"], (e) => e.type === "class").catch(() => []),
+    ]);
+    const withSource = (list) => list.map((e) => ({ ...mapIndexEntry(e), name: labelled(e) }));
+    const speciesChoices = [...filterIndexByType(speciesIndex, "race"), ...withSource(extraSpecies)];
+    const backgroundChoices = [...bgRoleIndex.filter(isBackgroundEntry).map(mapIndexEntry), ...withSource(extraBackgrounds)];
+    const classChoices = [...filterIndexByType(classIndex, "class"), ...withSource(extraClasses)];
 
     const speciesRacialFeats =
       draft.step === "species" && draft.data.speciesId

@@ -7,7 +7,7 @@ import {
 import { isValidPointBuy } from "./pointBuy.mjs";
 import { unmetPrerequisites } from "../prerequisites.mjs";
 import { ensureFruitFeatures } from "../fruit-casting.mjs";
-import { parseSourceId } from "../extra-sources-lib.mjs";
+import { parseSourceId, extraEntries, docFromSourceId } from "../extra-sources-lib.mjs";
 
 const OP5E = "op5e";
 /** Appendix B, Suggested Rulings, Starting Rules: start at 3rd level (level 1 stays allowed). */
@@ -97,15 +97,16 @@ export function subclassLevelOf(classSource) {
 export async function subclassesForClass(classIdentifier) {
   if (!classIdentifier) return [];
   const idx = await indexPack(PACKS.subclasses, ["type", "name", "img", "system.classIdentifier"]);
-  return idx
-    .filter((e) => e.type === "subclass" && e.system?.classIdentifier === classIdentifier)
-    .map((e) => ({ _id: e._id, name: e.name, img: e.img }));
+  const own = idx.filter((e) => e.type === "subclass" && e.system?.classIdentifier === classIdentifier).map((e) => ({ _id: e._id, name: e.name, img: e.img }));
+  // subclasses of the same class from the GM's extra compendium sources, labelled with their source
+  const extra = await extraEntries(["type", "name", "img", "system.classIdentifier"], (e) => e.type === "subclass" && e.system?.classIdentifier === classIdentifier).catch(() => []);
+  return [...own, ...extra.map((e) => ({ _id: e._id, name: `${e.name} — ${e.source}`, img: e.img }))];
 }
 
 /** Class summary for the wizard: identifier, subclass level, subclass choices. */
 export async function classInfo(classId) {
   if (!classId) return null;
-  const doc = await game.packs.get(PACKS.classes)?.getDocument(classId);
+  const doc = await docFromSourceId(classId, PACKS.classes);
   if (!doc) return null;
   const identifier = doc.system.identifier;
   return { id: classId, name: doc.name, identifier, subclassLevel: subclassLevelOf(doc), subclasses: await subclassesForClass(identifier) };
@@ -156,11 +157,11 @@ export async function createFromDraft(draft, opts = {}) {
   const classes = [];
   for (const [id, level, subId] of [[data.classId, level1, data.subclassId], [data.classId2, level2, data.subclassId2]]) {
     if (!id) continue;
-    const doc = await game.packs.get(PACKS.classes)?.getDocument(id);
+    const doc = await docFromSourceId(id, PACKS.classes);
     if (!doc) fail(`Class ${id} not found.`);
     const subLevel = subclassLevelOf(doc);
     let sub = null;
-    if (subId && subLevel && level >= subLevel) sub = await game.packs.get(PACKS.subclasses)?.getDocument(subId);
+    if (subId && subLevel && level >= subLevel) sub = await docFromSourceId(subId, PACKS.subclasses);
     else if (subId) notes.push(`${doc.name}: subclass ignored, it is chosen at level ${subLevel ?? "?"} and the target is ${level}.`);
     classes.push({ id, name: doc.name, identifier: doc.system.identifier, level, sub });
   }
@@ -185,7 +186,8 @@ export async function createFromDraft(draft, opts = {}) {
       [PACKS.species, data.speciesId],
       [PACKS.backgroundsAndRoles, data.backgroundId],
     ]) {
-      const doc = await importFromPackWithAdvancements(actor, pack, id, run);
+      const from = parseSourceId(id, pack);
+      const doc = await importFromPackWithAdvancements(actor, from.collection, from.id, run);
       if (doc) imported.push(doc);
       if (pack === PACKS.species) await importHybridFeatures(actor, data, run);
     }
@@ -223,7 +225,8 @@ export async function createFromDraft(draft, opts = {}) {
     // Both classes enter at level 1 (class 1 first, so it is the starting class that grants starting equipment).
     for (const c of classes) {
       // a class that picks its subclass at level 1 (Savant) shows the Subclass step during this very import
-      const doc = await importFromPackWithAdvancements(actor, PACKS.classes, c.id, { ...run, subUuid: c.sub?.uuid });
+      const from = parseSourceId(c.id, PACKS.classes);
+      const doc = await importFromPackWithAdvancements(actor, from.collection, from.id, { ...run, subUuid: c.sub?.uuid });
       if (doc) imported.push(doc);
       c.item = actor.items.find((i) => i.type === "class" && i.system.identifier === c.identifier);
     }

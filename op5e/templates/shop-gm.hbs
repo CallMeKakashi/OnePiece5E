@@ -31,6 +31,7 @@
   <section class="status"><h3>{{shop.name}}</h3>
     <div class="keeper-line"><img class="keeper" src="{{shop.keeperImg}}" alt=""> Run by {{shop.keeperName}}{{#if shop.wallet}} (holds {{shop.wallet}} {{cur}}){{/if}} · markup {{shop.markup}}%{{#if shop.typeLabel}} · {{shop.typeLabel}}{{/if}}
       {{#if shop.type}}<button type="button" data-action="restock" class="quiet" title="Put the quantities back to the type's starting stock">Reset stock</button>{{/if}}
+      <button type="button" data-action="findItem" class="quiet" title="Search the extra compendium sources for an item to add">Find item</button>
       <button type="button" data-action="deleteShop" class="quiet">Delete shop</button></div>
     <div class="showbar">
       <button type="button" class="ok" data-action="showAll">Show to everyone</button>

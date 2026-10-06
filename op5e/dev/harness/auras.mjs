@@ -18,7 +18,7 @@ const run = async () => {
       const fx = [...item.effects].find((x) => x.type === "auraeffects.aura");
       ok(`${name}: gets an aura effect on the character`, !!fx, fx ? `${fx.type} disposition ${fx.system.disposition}` : "none");
       ok(`${name}: disposition and radius`, fx?.system.disposition === disp && /floor\(@details\.level \/ 18\)/.test(fx?.system.distanceFormula ?? ""));
-      ok(`${name}: carries the change`, !!fx && fx.changes.some((c) => c.key === key));
+      ok(`${name}: carries the change`, !!fx && (fx.changes.some((c) => c.key === key) || (fx.system.stashedChanges ?? []).some((c) => c.key === key)));   // an aura that does not apply to its owner keeps its changes stashed
       ok(`${name}: not added twice`, [...item.effects].filter((x) => x.type === "auraeffects.aura").length === 1);
     }
     a.system.details.level; ok("the aura radius is 10 ft below level 18", Math.floor(1 / 18) === 0 && 10 + 20 * Math.floor(18 / 18) === 30);
