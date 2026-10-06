@@ -110,3 +110,25 @@ describe("mergeAutorec", () => {
     expect(second.menus).toEqual(first.menus);
   });
 });
+
+describe("ids Automated Animations can read", async () => {
+  const { isUuid4, uuidFor, dropInvalidOp5e } = await import("../scripts/animations-lib.mjs");
+  it("every generated entry has a unique UUIDv4 id (AA throws on anything else and stops loading its menus)", () => {
+    const ids = Object.values(generated).filter(Array.isArray).flat().map((e) => e.id);
+    expect(ids.length).toBeGreaterThan(250);
+    expect(ids.every(isUuid4)).toBe(true);
+    expect(new Set(ids).size).toBe(ids.length);
+  });
+  it("uuidFor is stable and well formed", () => {
+    expect(uuidFor("op5e:melee:sharkrazormantle")).toBe(uuidFor("op5e:melee:sharkrazormantle"));
+    expect(isUuid4(uuidFor("x"))).toBe(true);
+    expect(isUuid4("op5e-melee-rollingpinkura3base")).toBe(false);
+  });
+  it("dropInvalidOp5e removes only OP5e entries with bad ids", () => {
+    const good = { id: uuidFor("a"), label: "A", metaData: { name: "OP5e Animations" } };
+    const bad = { id: "op5e-melee-x", label: "X", metaData: { name: "OP5e Animations" } };
+    const theirs = { id: "not-a-uuid-but-not-ours", label: "T", metaData: { name: "5e Animations" } };
+    const r = dropInvalidOp5e({ melee: [good, bad, theirs], range: [good] });
+    expect(r.menus.melee).toEqual([good, theirs]); expect(r.removed).toBe(1); expect(r.changed).toEqual(["melee"]);
+  });
+});

@@ -1,5 +1,5 @@
 import { MODULE_ID, MODULE_VERSION } from "./constants.mjs";
-import { AA_MENUS, mergeAutorec } from "./animations-lib.mjs";
+import { AA_MENUS, mergeAutorec, dropInvalidOp5e, isUuid4 } from "./animations-lib.mjs";
 
 function hasSequencer() {
   return !!globalThis.Sequencer?.Database && !!globalThis.Sequence;
@@ -206,11 +206,21 @@ export async function mergeOp5eAutorec({ force = false } = {}) {
   if (!modActive("autoanimations") || !modActive("dnd5e-animations")) return null;
   if (!force && game.settings.get(MODULE_ID, AUTOREC_VERSION) === MODULE_VERSION) return null;
 
+  const isRegistered = (m) => game.settings.settings.has(`autoanimations.aaAutorec-${m}`);
+  // repair first: an earlier build wrote entries with ids Automated Animations rejects, which makes it stop loading its menus (only "melee" registers)
+  const present = AA_MENUS.filter(isRegistered);
+  const fixed = dropInvalidOp5e(Object.fromEntries(present.map((m) => [m, game.settings.get("autoanimations", `aaAutorec-${m}`) ?? []])));
+  for (const m of fixed.changed) await game.settings.set("autoanimations", `aaAutorec-${m}`, fixed.menus[m]);
+  if (fixed.removed) { ui.notifications.warn(`OP5e removed ${fixed.removed} animation entries that Automated Animations could not read. Reload the world (F5) to finish repairing it.`); return null; }
+  if (present.length < AA_MENUS.length) { console.warn(`${MODULE_ID} | Automated Animations has only registered ${present.join(", ") || "no"} autorec menus; autorec merge skipped`); return null; }
+
   try {
     const res = await fetch(`modules/${MODULE_ID}/assets/autorec-op5e.json`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const incoming = await res.json();
     const current = Object.fromEntries(AA_MENUS.map((m) => [m, game.settings.get("autoanimations", `aaAutorec-${m}`) ?? []]));
+    const bad = Object.values(incoming).filter(Array.isArray).flat().filter((e) => !isUuid4(e.id));
+    if (bad.length) throw new Error(`${bad.length} OP5e entries have ids Automated Animations cannot read; regenerate assets/autorec-op5e.json`);
     const { menus, added, changed } = mergeAutorec(current, incoming);
     for (const m of changed) await game.settings.set("autoanimations", `aaAutorec-${m}`, menus[m]);
     await game.settings.set(MODULE_ID, AUTOREC_VERSION, MODULE_VERSION);

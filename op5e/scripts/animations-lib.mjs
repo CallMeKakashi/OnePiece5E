@@ -119,10 +119,28 @@ export function findSource(autorec, ref) {
 
 const slug = (s) => rinse(s).replace(/[^a-z0-9]/g, "") || "x";
 
+/** Automated Animations rejects any entry whose id is not a UUIDv4 and then stops loading its menus, so every id we write must be one. */
+export const isUuid4 = (s) => /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(String(s));
+const h32 = (str, seed) => { let h = (0x811c9dc5 ^ seed) >>> 0; for (let i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; } return h >>> 0; };
+/** A stable UUIDv4-shaped id derived from a seed string (the same entry always gets the same id). */
+export function uuidFor(seed) {
+  const hex = [1, 2, 3, 4].map((i) => h32(seed, Math.imul(i, 0x9e3779b1)).toString(16).padStart(8, "0")).join("");
+  return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-4${hex.slice(13, 16)}-${"89ab"[parseInt(hex[16], 16) % 4]}${hex.slice(17, 20)}-${hex.slice(20, 32)}`;
+}
+/** Remove OP5e entries that carry an invalid id (written by an earlier build); returns {menus, removed, changed}. */
+export function dropInvalidOp5e(menus) {
+  const out = {}, changed = []; let removed = 0;
+  for (const [m, list] of Object.entries(menus)) {
+    const keep = (list ?? []).filter((e) => !(e?.metaData?.name === "OP5e Animations" && !isUuid4(e.id)));
+    out[m] = keep; if (keep.length !== (list ?? []).length) { removed += (list ?? []).length - keep.length; changed.push(m); }
+  }
+  return { menus: out, removed, changed };
+}
+
 /** Build one autorec entry cloned from a module entry, matched by exact item name. */
 export function buildEntry(source, name, { version = 1, moduleVersion = "0" } = {}) {
   const e = structuredClone(source);
-  e.id = `op5e-${source.menu}-${slug(name)}`;
+  e.id = uuidFor(`op5e:${source.menu}:${slug(name)}`);
   e.label = name;
   e.advanced = { ...(e.advanced ?? {}), exactMatch: true, excludedTerms: [] };
   e.metaData = { label: name, menu: source.menu, name: "OP5e Animations", moduleVersion, version, op5e: true, source: `${source.menu}:${source.label}` };
