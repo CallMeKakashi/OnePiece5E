@@ -29,13 +29,14 @@
     "test": "node node_modules/vitest/vitest.mjs run",
     "test:watch": "node node_modules/vitest/vitest.mjs",
     "test:ci": "node node_modules/vitest/vitest.mjs run --reporter=default",
-    "clean": "node ./node_modules/rimraf/dist/esm/bin.mjs packs packs-src dist"
+    "clean": "node ./node_modules/rimraf/dist/esm/bin.mjs packs packs-src dist",
+    "mcp": "node mcp/server.mjs"
   },
   "dependencies": {
-    "@foundryvtt/foundryvtt-cli": "^3.0.0",
-    "zod": "^3.23.0"
+    "@foundryvtt/foundryvtt-cli": "^3.0.0"
   },
   "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
     "@types/node": "^25.9.1",
     "playwright-core": "^1.63.0",
     "rimraf": "^6.0.0",
@@ -43,6 +44,7 @@
     "typescript": "^5.5.0",
     "vitest": "^3.2.4",
     "yaml": "^2.9.1",
-    "yazl": "^3.3.1"
+    "yazl": "^3.3.1",
+    "zod": "^4.6.5"
   }
 }

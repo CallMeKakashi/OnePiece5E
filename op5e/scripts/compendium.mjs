@@ -7,6 +7,7 @@ import { initSkillsAndTools } from "./skills-and-tools.mjs";
 import { registerOptionalRules } from "./optional-rules.mjs";
 import { registerImportJournals } from "./import-journals.mjs";
 import { registerImportOldCharacter } from "./import-old-character.mjs";
+import { registerMcpApi } from "./mcp-api.mjs";
 import { registerRefreshActor } from "./refresh-actor.mjs";
 import { registerWorldPackSync } from "./world-pack-sync.mjs";
 
@@ -41,6 +42,7 @@ Hooks.once("init", () => {
   registerImportJournals();
   registerRefreshActor();
   registerImportOldCharacter();
+  registerMcpApi();
   registerWorldPackSync();
 
   game.settings.register(MODULE_ID, "berriesWeightless", {
