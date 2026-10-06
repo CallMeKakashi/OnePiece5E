@@ -40,7 +40,7 @@ const run = async () => {
     // passives
     await give("Inciting Inspiration"); await give("Inventive Mind"); ok("Inciting Inspiration and Inventive Mind: +1 creation attack and DC", /\+1/.test(a.system.bonuses.msak.attack) && /\+1/.test(a.system.bonuses.spell.dc));
     // buttons
-    await give("Aura of Spite"); await give("Aura of Tenacity"); ok("The two auras apply an effect to creatures in range", acts("Aura of Spite")[0]?.effects.length === 1 && acts("Aura of Tenacity")[0]?.effects.length === 1);
+    await give("Aura of Spite"); await give("Aura of Tenacity"); ok("Aura of Spite stays a button that applies an effect in range; Aura of Tenacity is a real token aura now (no button)", acts("Aura of Spite")[0]?.effects.length === 1 && acts("Aura of Tenacity").length === 0);
     await give("Improved Ardent Smite"); ok("Improved Ardent Smite: a 1d8 button", /1d8/.test(act("Improved Ardent Smite", "Improved Ardent Smite").roll.formula));
     await give("Mountain Stance"); ok("Mountain Stance: anchor and brace buttons, brace is 1d10 + Str mod", !!act("Mountain Stance", "Anchor") && (await roll(act("Mountain Stance", "Brace for damage").roll.formula)) >= 1 + a.system.abilities.str.mod);
     await give("Achilles Heel"); ok("Achilles Heel: a button per damage type that gives the target that vulnerability", acts("Achilles Heel").length === 13 && acts("Achilles Heel").every((x) => x.effects.length === 1));
