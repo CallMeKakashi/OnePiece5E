@@ -1,6 +1,6 @@
 // The ship-before-campaign test plan, automated part. Runs each stage in order, stops at the first failure, writes reports/ship-check.json
-// and appends all output to reports/ship.log (read by scripts/status-page.mjs). Needs Foundry running on the TEST world.
-// Usage: node scripts/ship-check.mjs [--from <stage name>] [--small] [--resume]   (--resume: continue a stopped sweep from its checkpoints)
+// and appends all output to reports/ship.log (read by scripts/status-page.mjs). Needs Foundry running on the test world or the bb-rehearsal campaign copy.
+// Usage: node scripts/ship-check.mjs [--from <stage name>] [--small] [--resume] [--skip "stage,stage"]   (--resume: continue a stopped sweep from its checkpoints)
 // Pause or stop the sweep any time: node scripts/control.mjs pause|resume|stop   (--small: sampled sweep, ~10 min instead of ~1 h)
 import { spawn } from "node:child_process";
 import { appendFileSync, readFileSync, writeFileSync } from "node:fs";
@@ -20,7 +20,8 @@ const run = (cmd) => new Promise((res) => {
   p.on("close", (code) => res(code === 0));
 });
 
-for (const [name, base] of STAGES.slice(start)) {
+const skip = process.argv.includes("--skip") ? process.argv[process.argv.indexOf("--skip") + 1].split(",") : [];   // e.g. --skip "rebuild PCs,old characters"
+for (const [name, base] of STAGES.slice(start).filter(([n]) => !skip.includes(n))) {
   const cmd = name === "sweep" ? [base, small && "--small", resume && "--resume"].filter(Boolean).join(" ") : base;
   const t = Date.now();
   appendFileSync("reports/ship.log", `\n=== ${name}: ${cmd}\n`);

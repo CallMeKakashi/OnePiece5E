@@ -6,7 +6,7 @@ import { foundryStatus } from "./drive.mjs";
 
 const BASE = process.env.FOUNDRY_URL ?? "http://localhost:30000";
 const st = await foundryStatus();
-if (st?.world !== "test") throw new Error(`refusing: active world is "${st?.world}", not "test"`);
+if (!["test", "bb-rehearsal"].includes(st?.world)) throw new Error(`refusing: active world is "${st?.world}", not test or bb-rehearsal`);
 
 const browser = await chromium.launch({ channel: "msedge", headless: true });
 const open = async (user) => {

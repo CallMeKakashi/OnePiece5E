@@ -99,7 +99,7 @@ export const pageLib = (built) => {
       try {
         if (step.flow && step.type === "forward") {
           const adv = step.flow.advancement, t = adv.constructor.typeName;
-          let d = step.flow.getAutomaticApplicationValue();
+          let d = await step.flow.getAutomaticApplicationValue();
           if (d === false) d = await pick(step.flow, adv);
           if (d === null) { /* e.g. no subclass requested */ }
           else if (d === false || d === undefined) note(`L${step.flow.level} ${adv.title} (${t}): nothing to apply`);

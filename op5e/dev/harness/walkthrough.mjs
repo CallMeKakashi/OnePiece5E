@@ -8,7 +8,7 @@ const BASE = process.env.FOUNDRY_URL ?? "http://localhost:30000";
 const CLS = process.argv[2] ?? "Fighter", LEVEL = process.argv[3] ?? "3";
 const OUT = "reports/walkthrough"; mkdirSync(OUT, { recursive: true });
 const st = await (await fetch(`${BASE}/api/status`)).json();
-if (st.world !== "test") throw new Error(`refusing: active world is "${st.world}", not "test"`);
+if (!["test", "bb-rehearsal"].includes(st.world)) throw new Error(`refusing: active world is "${st.world}", not test or bb-rehearsal`);
 
 const browser = await chromium.launch({ channel: "msedge", headless: true });
 const page = await (await browser.newContext({ viewport: { width: 1600, height: 1000 } })).newPage();

@@ -1,5 +1,5 @@
 // Node driver: joins the *test* world in headless Edge, ensures required modules, runs fn(page, H).
-// Refuses to run unless world id is "test". Returns FOUNDRY_UNAVAILABLE if the server is down.
+// Refuses to run unless the world is "test" or "bb-rehearsal" (the campaign copy; never blood-and-brine). Returns FOUNDRY_UNAVAILABLE if the server is down.
 import { chromium } from "playwright-core";
 import { readFileSync } from "node:fs";
 const BASE = process.env.FOUNDRY_URL ?? "http://localhost:30000";
@@ -21,7 +21,7 @@ export async function postToGM(page, html) {
 export async function withFoundry(fn, { headless = true, extraModules = [] } = {}) {
   const st = await foundryStatus();
   if (!st?.active) { const e = new Error("FOUNDRY_UNAVAILABLE"); e.code = "FOUNDRY_UNAVAILABLE"; throw e; }
-  if (st.world !== "test") throw new Error(`refusing: active world is "${st.world}", not "test"`);
+  if (!["test", "bb-rehearsal"].includes(st.world)) throw new Error(`refusing: active world is "${st.world}", not test or bb-rehearsal`);
   const browser = await chromium.launch({ channel: "msedge", headless });
   const page = await (await browser.newContext({ viewport: { width: 1600, height: 1000 } })).newPage();
   const logs = []; page.on("console", (m) => m.type() === "error" && logs.push(m.text())); page.on("pageerror", (e) => logs.push(String(e)));

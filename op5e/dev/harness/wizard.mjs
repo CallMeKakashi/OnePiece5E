@@ -26,6 +26,7 @@ if (firstCls) {
 }
 
 const run = async (p) => {
+  const advList = (a) => (!a ? [] : Array.isArray(a) ? a : Array.from(a.values?.() ?? Object.values(a)));   // dnd5e 5.1 array or 5.3 object/collection
   const API = game.op5eCharacterCreator;
   const out = { cls: p.cls, level: p.level, fails: [], notes: [] };
   const byName = async (pack, name, type) => {
@@ -38,7 +39,7 @@ const run = async (p) => {
     const species = (await firstOf("races", "race"))[p.pick], bg = (await firstOf("backgrounds", "background"))[p.pick];
     const cls = await byName("classes", p.cls, "class");
     const clsDoc = await game.packs.get("op5e.classes").getDocument(cls._id);
-    const subLevel = clsDoc.toObject().system.advancement.find((a) => a.type === "Subclass")?.level ?? null;
+    const subLevel = advList(clsDoc.toObject().system.advancement).find((a) => a.type === "Subclass")?.level ?? null;
     const subIdx = (await game.packs.get("op5e.subclasses").getIndex({ fields: ["type", "system.classIdentifier"] })).filter((e) => e.system?.classIdentifier === cls.system.identifier);
     const wantSub = subLevel && p.level >= subLevel && subIdx.length ? subIdx[0] : null;
     out.setup = { species: species.name, background: bg.name, subLevel, sub: wantSub?.name ?? null };

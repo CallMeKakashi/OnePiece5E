@@ -115,7 +115,8 @@ export async function applyAllSteps(manager, ctx) {
     try {
       if (step.flow && step.type === "forward") {
         const adv = step.flow.advancement;
-        let d = step.flow.getAutomaticApplicationValue();
+        // a subclass always comes from the wizard's own pick (an empty value would insert a nameless item)
+        let d = adv.type === "Subclass" ? false : await step.flow.getAutomaticApplicationValue();   // async since dnd5e 5.3
         if (d === false) d = await pick(manager, step.flow, adv, ctx);
         if (d === null) { /* nothing requested (e.g. subclass not due) */ }
         else if (d === false || d === undefined) ctx.note(`L${step.flow.level} ${adv.title}: nothing to apply`);

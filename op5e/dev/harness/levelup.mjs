@@ -16,6 +16,7 @@ for (const s of Object.values(BUILT.subclasses)) (subsByClass[s.system.classIden
 const plan = classes.flatMap((c) => (subsByClass[c.system.identifier] ?? [null]).map((s) => ({ cls: c.name, clsId: c._id, sub: s?.name ?? null, subId: s?._id ?? null, heavy: process.env.HEAVY === "1" })));
 
 const run = async (p) => {
+  const advList = (a) => (!a ? [] : Array.isArray(a) ? a : Array.from(a.values?.() ?? Object.values(a)));   // dnd5e 5.1 array or 5.3 object/collection
   const AM = dnd5e.applications.advancement.AdvancementManager;
   const by = (pack, id) => __op5eBuilt(pack).find((d) => d.id === id || d._id === id || d.uuid?.endsWith(id));
   const out = { cls: p.cls, sub: p.sub, levels: [], fails: [] };
@@ -28,7 +29,7 @@ const run = async (p) => {
     // level 1
     const data = cls.toObject(); data.system.levels = 1;
     let mgr = AM.forNewItem(actor, data, { automaticApplication: true });
-    const subLevel = Array.from(cls.system.advancement ?? []).find((a) => a.type === "Subclass")?.level;   // some classes (Savant) choose it at level 1
+    const subLevel = advList(cls.system.advancement).find((a) => a.type === "Subclass")?.level;   // some classes (Savant) choose it at level 1
     await __op5eRun(mgr, { level: 1, sub: subLevel === 1 ? sub : null, note, granted: [] }); mgr.clone.reset(); await persist(mgr.clone);
     // role, devil fruit and Haki are class advancement choices: exactly one role and one devil-fruit choice at level 1
     const roles = actor.items.filter((i) => i.flags?.op5e?.shipRole).length, fruits = actor.items.filter((i) => /devil fruit/i.test(i.name)).length;
@@ -49,7 +50,7 @@ const run = async (p) => {
       // subclass chosen at its level?
       if (sub && !actor.items.some((i) => i.type === "subclass") && lvl >= (cls.system.advancement ? 3 : 3) + 0) { /* checked after the loop: some classes pick later */ }
       // every class/subclass ItemGrant advancement at this level must be on the actor
-      const advs = [...Object.values(cc.system.advancement?.byId ?? {}), ...(actor.items.find((i) => i.type === "subclass")?.system.advancement?.byId ? Object.values(actor.items.find((i) => i.type === "subclass").system.advancement.byId) : [])];
+      const advs = [...advList(cc.system.advancement), ...advList(actor.items.find((i) => i.type === "subclass")?.system.advancement)];
       const have = new Set(actor.items.map((i) => i.name));
       for (const a of advs) {
         if (a.type !== "ItemGrant" || a.level !== lvl) continue;
