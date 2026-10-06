@@ -36,5 +36,11 @@
   "SHOPTRADE.CurrencyMode": "Shop currency mode",
   "SHOPTRADE.CurrencyModeHint": "Coins: all dnd5e coins with change making. Single: one coin type only. A world whose config has one currency (like Berries) is always single.",
   "SHOPTRADE.SingleCurrency": "Shop single currency coin",
-  "SHOPTRADE.SellRatio": "Shop sell ratio (percent of the price a shop pays)"
+  "SHOPTRADE.SellRatio": "Shop sell ratio (percent of the price a shop pays)",
+  "op5e.settings.bigHitFx.name": "Big-hit effects",
+  "op5e.settings.bigHitFx.hint": "A damage roll at or above the threshold below (or a critical hit) shakes every player's screen and plays an explosion on the target (needs Sequencer and JB2A for the explosion).",
+  "op5e.settings.bigHitThreshold.name": "Big-hit damage threshold",
+  "op5e.settings.bigHitThreshold.hint": "Total damage of one roll that counts as a big hit.",
+  "op5e.settings.bigHitShake.name": "Screen shake on big hits",
+  "op5e.settings.bigHitShake.hint": "Turn this off if the screen shake bothers you. It only affects your own screen."
 }
