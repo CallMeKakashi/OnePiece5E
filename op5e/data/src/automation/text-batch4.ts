@@ -71,9 +71,6 @@ export const batch4Specs: Record<string, Spec> = {
   },
   // passive features
   "class-features/Herculean Strength": { activities: [], extraEffects: [passive("Herculean Strength", ch("system.attributes.movement.walk", "10"), ch("system.skills.ath.value", "1"))] },
-  "feats/Master Navigator": { activities: [], extraEffects: [passive("Master Navigator", ch("system.tools.navg.value", "1"))] },
-  "feats/Master Weaver": { activities: [], extraEffects: [passive("Master Weaver", ch("system.tools.weaver.value", "1"))] },
-  "feats/Master Woodcarver": { activities: [], extraEffects: [passive("Master Woodcarver", ch("system.tools.woodcarver.value", "1"))] },
   "class-features/Medical Expertise": { activities: [], extraEffects: [passive("Medical Expertise", ch("system.skills.med.value", "2", 4))] },
   "feats/Medium Armor Master": { activities: [], extraEffects: [passive("Medium Armor Master", ch("flags.dnd5e.mediumArmorMaster", "1", 5))] },
   "class-features/Pack Mule": { activities: [], extraEffects: [passive("Pack Mule", ch("system.attributes.encumbrance.multipliers.overall", "2", 1), ch("system.abilities.con.save.roll.mode", "1", 4))] },

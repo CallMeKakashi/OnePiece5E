@@ -56,8 +56,9 @@ const run = async () => {
   await give(p, "Herculean Strength");
   ok("Herculean Strength: +10 ft speed and Athletics one step up", p.system.attributes.movement.walk === walk + 10 && p.system.skills.ath.value === Math.min(2, ath + 1) || p.system.skills.ath.value === ath + 1, `walk ${walk} -> ${p.system.attributes.movement.walk}; Athletics ${ath} -> ${p.system.skills.ath.value}`);
   await give(p, "Master Navigator"); await give(p, "Master Weaver"); await give(p, "Master Woodcarver");
-  const tools = ["navg", "weaver", "woodcarver"].map((t) => p.system.tools[t]?.value);
-  ok("Master Navigator, Weaver, Woodcarver: tool proficiency", tools.every((v) => v >= 1), JSON.stringify(tools));
+  // the tool proficiency comes from the feat's Trait advancement (an effect on system.tools would leave a half-built entry that breaks encumbrance on dnd5e 5.3)
+  const grants = [["Master Navigator", "navg"], ["Master Weaver", "weaver"], ["Master Woodcarver", "woodcarver"]].map(([n, t]) => [...p.items.getName(n).system.advancement].some((x) => x.type === "Trait" && x.configuration.grants.has(`tool:${t}`)));
+  ok("Master Navigator, Weaver, Woodcarver: grant their tool proficiency through advancement", grants.every(Boolean), JSON.stringify(grants));
   await give(p, "Medical Expertise"); ok("Medical Expertise: expertise in Medicine", p.system.skills.med.value === 2, `${p.system.skills.med.value}`);
   await give(p, "Medium Armor Master"); ok("Medium Armor Master: the dnd5e flag is set", !!p.getFlag("dnd5e", "mediumArmorMaster"));
   await give(p, "Pack Mule"); ok("Pack Mule: carrying capacity doubles", p.system.attributes.encumbrance.max === enc * 2, `${enc} -> ${p.system.attributes.encumbrance.max}`);
