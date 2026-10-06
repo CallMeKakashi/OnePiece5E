@@ -83,7 +83,7 @@ await shot("handaxe-attack-chat");
 await page.locator("#sidebar-tabs [data-tab=chat]").click({ force: true }).catch(() => {});
 await page.waitForTimeout(900);
 const m4 = await page.evaluate(() => game.messages.size);
-const settle = async () => { for (let i = 0; i < 3; i++) { const d = page.locator("button:has-text('Normal')").first(); if (await d.count()) { await d.click({ force: true }).catch(() => {}); await page.waitForTimeout(2200); } } };
+const settle = async () => { for (let i = 0; i < 3; i++) { const d = page.locator(".application button:has-text('Normal'):visible").last(); if (await d.count()) { await d.click({ force: true }).catch(() => {}); await page.waitForTimeout(2200); } } };
 const card = () => page.locator(".chat-message").filter({ hasText: "Handaxe" }).last();
 await page.locator(".application.dnd5e2 [data-item-id]:has-text('Handaxe') .item-name[data-action=use]").first().click().catch(() => {});
 await page.waitForTimeout(3000); await settle();
@@ -94,7 +94,7 @@ const afterAtk = await page.evaluate(() => game.messages.size);
 // dnd5e/Midi may open a Damage Roll dialog (Critical Hit / Normal): answer it; if none appeared, press the card's Damage button
 for (let i = 0; i < 4; i++) { await settle(); await page.waitForTimeout(800); }
 let dmgSeen = await page.evaluate((from) => game.messages.contents.slice(from).some((m) => m.rolls.some((r) => /d6/.test(r.formula))), m4);
-if (!dmgSeen) { await page.locator(".chat-message button[data-action=rollDamage]").last().click({ force: true }).catch(() => {}); await page.waitForTimeout(2500); for (let i = 0; i < 4; i++) { await settle(); await page.waitForTimeout(800); } }
+if (!dmgSeen) { await page.locator(".chat-message button[data-action=rollDamage]").last().click({ force: true }).catch(() => {}); await page.waitForTimeout(4000); for (let i = 0; i < 6; i++) { await settle(); await page.waitForTimeout(1200); } }
 await shot("handaxe-damage-rolled");
 const afterDmg = await page.evaluate(() => game.messages.size);
 const rollsMsgs = await page.evaluate((from) => game.messages.contents.slice(from).map((m) => ({ text: m.content.replace(/<[^>]+>/g, " ").replace(/s+/g, " ").trim().slice(0, 100), rolls: m.rolls.map((r) => r.formula + " = " + r.total + (r.isCritical ? " CRIT" : "")) })), m4);

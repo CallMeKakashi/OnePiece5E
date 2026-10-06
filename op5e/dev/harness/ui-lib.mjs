@@ -1,3 +1,4 @@
+import { writeFileSync } from "node:fs";
 // Shared helpers for the visual walk-throughs: join the test world as a user, dismiss other modules' startup dialogs,
 // and click through dnd5e's own advancement dialogs one step at a time like a player (screenshotting each step).
 import { chromium } from "playwright-core";
@@ -47,7 +48,7 @@ export async function driveAdvancement(page, shot, { maxSteps = 120, pick = () =
     stuck = text === lastText ? stuck + 1 : 0; lastText = text;
     steps.push(head);
     await shot(`${tag}-${String(k + 1).padStart(2, "0")}-${head}`);
-    if (stuck >= 3) { steps.push("STUCK: same step 3 times"); break; }
+    if (stuck >= 3) { steps.push("STUCK: same step 3 times"); writeFileSync("reports/stuck-adv.html", await mgr.locator(".window-content").innerHTML().catch(() => "")); break; }
     const ch = text.match(/Cho[a-z ]*?n:\s*(\d+)\s*of\s*(\d+)/i);
     const need = ch ? Number(ch[2]) - Number(ch[1]) : Number((text.match(/(?:Select|Choose)\s+(\d+)/i) ?? [])[1] ?? 0);
     const pts = Number((text.match(/(\d+)\s+Points?\s+Remaining/i) ?? [])[1] ?? 0);
@@ -63,8 +64,9 @@ export async function driveAdvancement(page, shot, { maxSteps = 120, pick = () =
         for (let c = 0; c < Math.min(n, need); c++) await boxes.nth(c).click({ force: true }).catch(() => {});
       }
     }
-    const avg = mgr.getByText(/Take Average/i).or(mgr.locator("[data-action=takeAverage], [data-action=average]")).first();
-    if (await avg.count()) { await avg.click().catch(() => {}); steps.push("  (took average hit points)"); }
+    const avgBox = mgr.locator("dnd5e-checkbox[name=useAverage]").first();   // 5.3 renders it ticked but the flow only records the choice on a change event: untick and tick again
+    if (await avgBox.count()) { if (await avgBox.evaluate((e) => e.checked)) await avgBox.click().catch(() => {}); await avgBox.click().catch(() => {}); steps.push("  (took average hit points)"); }
+    else { const avg = mgr.getByText(/Take Average/i).or(mgr.locator("[data-action=takeAverage], [data-action=average]")).first(); if (await avg.count()) { await avg.click().catch(() => {}); steps.push("  (took average hit points)"); } }
     await page.waitForTimeout(500);
     const go = mgr.locator("button[data-action=next], button[data-action=complete], button[data-action=finish]").first();
     if (!(await go.count())) { steps.push("no next/complete button"); break; }

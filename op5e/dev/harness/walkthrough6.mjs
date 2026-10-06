@@ -54,11 +54,11 @@ await page.getByText("Features", { exact: true }).first().click({ force: true })
 await page.waitForTimeout(900);
 await shot("ship-features-tab");
 // the ship uses the older (V1) sheet: no .application class, and the chat card also carries data-item-id, so match the sheet's list row
-const use = page.locator("li.item[data-item-id]:has-text('pounder') .item-name").first();
+const use = page.locator("li.item[data-item-id]:has-text('pounder') .item-name, .application [data-item-id]:has-text('pounder') [data-action=useItem], .application.dnd5e2 [data-item-id]:has-text('pounder') .item-name[data-action=use]").first();   // 5.1 older sheet or the 5.3 sheet
 const img = page.locator("li.item[data-item-id]:has-text('pounder') .item-image").first();
 if (await img.count()) await img.click({ force: true }).catch(() => {}); else if (await use.count()) await use.click().catch(() => {});
 await page.waitForTimeout(4000);
-for (let i = 0; i < 3; i++) { const b = page.locator("button:has-text('Use Ability'), button:has-text('Normal')").first(); if (await b.count()) { await b.click({ force: true }).catch(() => {}); await page.waitForTimeout(2000); } }
+for (let i = 0; i < 3; i++) { const b = page.locator(".application button:has-text('Use Ability'):visible, .application button:has-text('Normal'):visible").last(); if (await b.count()) { await b.click({ force: true }).catch(() => {}); await page.waitForTimeout(2000); } }
 await shot("ship-cannon-used");
 const m1 = await page.evaluate(() => game.messages.size);
 ok(`cannon (${cannon.name}: ${cannon.activities.join(", ")}) used from the ship sheet posts a card`, m1 > m0, `messages ${m0} -> ${m1}`);
