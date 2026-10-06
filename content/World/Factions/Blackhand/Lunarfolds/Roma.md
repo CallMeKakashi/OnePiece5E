@@ -438,6 +438,10 @@ About a year before the present, travelling alone through Wano, Roma meets the L
 
 - Cooks for Crunch, gets a toy kaiju from Julie, and is compelled by her head-pat after failing the Wisdom save. Stunned and floored by Mira in the training fight, and brought back by Tray ([[Session 026 — Daliance of Hearts|Episode 26]]).
 
+## Episode 27
+
+- Gathers the poker chips and is credited with 600,000 berries. Goes to Westtown with Bob and Tray, slaps Bob for trusting Tray's directions, and fights the regenerating creatures: his skillet and hailstorm spell do nothing lasting until he copies Bob and imbues his claws with Armament Haki. Kills 5 and rips the amalgamation apart to free Bob. Tells Tray he must fight, and cooks in Whisky's kitchen on credit ([[Session 027 — Testing Tempers|Episode 27]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

@@ -117,6 +117,10 @@ foundry_live_slug: "b-o-b-old"
 
 - Holds out longest against Mira (1 HP after a throw) and breathes toxic fumes on her as a hex. Goes unconscious to Mira, is healed by Tray, and avoids Julie ([[Session 026 — Daliance of Hearts|Episode 26]]).
 
+## Episode 27
+
+- Takes Thompson's orders to Westtown with Roma and Tray (his bong does nothing to Tray). Remembers Mira's lesson and uses Armament Haki on his halberd on purpose for the first time, which stops the creatures regenerating (7 Haki points left). Kills 3, feeds Roma his blood and casts protection from evil and good on him to break the fear, and is saved by Roma from the amalgamation. Meets Zim disguised as "Sato" and reports to Thompson ([[Session 027 — Testing Tempers|Episode 27]]).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

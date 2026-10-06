@@ -32,4 +32,5 @@ Broadcast/recording units. Session numbers may not match episode numbers — ali
 - [[Episode 24 - The Friendly Baron]]
 - [[Episode 25 - Fire Storm]]
 - [[Episode 26 - Daliance of Hearts]]
+- [[Episode 27 - Testing Tempers]]
 - [[Transcripts]]

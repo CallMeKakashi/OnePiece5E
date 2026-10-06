@@ -54,6 +54,10 @@ Player character of the [[Royal Flush Gang]]. Grounded, observant, and suspiciou
 
 - Meets [[King]] and [[Queen]] on Mira's ship and tells Queen that Linus drank the money away and is on the island. Arno asks who called backup. Thompson warns him and he answers that he keeps his deals. Follows Baptiste and Mira to the Giuseppes, bows to Rum. At training he lands the first hits on Mira (9 each from two shots) and is knocked out ([[Session 026 — Daliance of Hearts|Episode 26]]).
 
+## Episode 27
+
+- Rows to a cave off Brooktown with Thompson, who gives him the cold shoulder, and fights blind cave crawlers in the dark. Kills about 9 (three with one ricocheting crit). Finds Thompson hung in slime, drops a stalagmite on the creature holding him and shoots the rest. Ignores Thompson's offered hand ([[Session 027 — Testing Tempers|Episode 27]]).
+
 ## Related
 
 - [[Royal Flush Gang]]

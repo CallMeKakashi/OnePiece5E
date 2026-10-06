@@ -47,6 +47,10 @@ As a boy, Tray was freed from a raider ship by Mira along with his cousin Shu an
 
 - Inside Crunch's mouth, covered in slime, when the crew sails into the waterfall cave; Baptiste's old friend. Hides behind Jack when Mira arrives. His fruit (the heal-anything fist) heals the party between Mira's beatings. Pulls Julie's hand off Roma and is kicked across the room for it ([[Session 026 — Daliance of Hearts|Episode 26]]).
 
+## Episode 27
+
+- Wakes from alcohol poisoning and goes with Bob and Roma to Westtown, picks "Moriarty" for the Holmes and Watson game, and leads them in circles for hours because he did not want to go where Thompson sent him. Stunned by the creatures' screech, then hides behind Roma. Asks Bob to tell Thompson he helped; Roma tells him to fight ([[Session 027 — Testing Tempers|Episode 27]]).
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.
