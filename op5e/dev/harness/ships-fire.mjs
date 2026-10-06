@@ -12,7 +12,7 @@ const run = async () => {
     const cannons = (await game.packs.get("op5e.ship-weapons").getDocuments()).filter((d) => /pounder/.test(d.name));
     const big = cannons.find((d) => d.name === "12-pounder");
     await ship.createEmbeddedDocuments("Item", [big.toObject()]);
-    await ship.sheet.render({ force: true }); const elOf = () => ship.sheet.element?.[0] ?? ship.sheet.element;   // the 5.1 vehicle sheet is an older-style sheet: element is a jQuery wrapper
+    await ship.sheet.render({ force: true }); const elOf = () => { const e = ship.sheet.element; return e instanceof HTMLElement ? e : e?.[0]; };   // 5.3 sheet: element is an HTMLElement; 5.1: a jQuery wrapper
     for (let i = 0; i < 20 && !elOf()?.innerText; i++) await new Promise((r) => setTimeout(r, 500));
     ship.sheet.activateTab?.("features"); await new Promise((r) => setTimeout(r, 600));   // weapons are listed on the Features tab
     const text = elOf()?.innerText ?? "";
