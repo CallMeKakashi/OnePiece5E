@@ -7,7 +7,7 @@ export const STAGES = [
   ["sync to live world", "node dev/harness/sync-live.mjs --force", "Pushing the build into the running test world"],
   ["prerequisites", "node dev/harness/prereq.mjs", "Feat prerequisite cases"],
   ["wizard", "node dev/harness/wizard.mjs", "Create OPC wizard cases"],
-  ["level-up", "node dev/harness/levelup.mjs", "Every class and subclass, level 1 to 20"],
+  ["level-up", "node dev/harness/levelup-parallel.mjs", "Every class and subclass, level 1 to 20"],
   ["optional rules", "node dev/harness/optional-rules.mjs", "Optional rule toggles"],
   ["sweep", "node dev/harness/sweep-parallel.mjs", "Using every compendium document once"],
   ["rebuild PCs", "node dev/harness/rebuild-pcs.mjs", "Rebuilding the 10 campaign PCs"],
@@ -38,3 +38,7 @@ export const STAGES = [
   ["multi-player", "node dev/harness/multiplayer.mjs", "GM plus two players at once: permissions, whispers, shared combat, effects"],
   ["real-UI walkthroughs", "node dev/harness/walkthrough-all.mjs", "Sheets, dialogs, summons, ships and item galleries in a real browser"],
 ];
+
+// Independent single-user stages: ship-check runs these side by side (one automation user and one browser each, gated by free memory).
+// Left out on purpose: stages that fix their own users (multi-player, shop approval, walkthroughs), that change the shared campaign PCs (rebuild PCs, transformations, rules, old characters), and performance (timing needs a quiet machine).
+export const POOL = new Set(["optional rules", "batch 1 features", "batch 4 features", "batch 5 features", "batch 6 features", "batch 7 features", "animations", "shop and trade", "shop coins", "fruit casting", "token auras", "turn expiry", "token-effect items", "effects pack", "canvas effects", "extra sources", "dnd5e 6 features", "falling", "summons and ships", "ship cannon"]);

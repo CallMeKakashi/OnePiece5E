@@ -13,7 +13,8 @@ const only = process.argv.slice(2);
 const classes = Object.values(BUILT.classes).filter((c) => !only.length || only.includes(c.name));
 const subsByClass = {};
 for (const s of Object.values(BUILT.subclasses)) (subsByClass[s.system.classIdentifier] ??= []).push(s);
-const plan = classes.flatMap((c) => (subsByClass[c.system.identifier] ?? [null]).map((s) => ({ cls: c.name, clsId: c._id, sub: s?.name ?? null, subId: s?._id ?? null, heavy: process.env.HEAVY === "1" })));
+const [sliceI, sliceN] = (process.env.SLICE ?? "0/1").split("/").map(Number);   // levelup-parallel.mjs: shard i of n takes every n-th class/subclass run
+const plan = classes.flatMap((c) => (subsByClass[c.system.identifier] ?? [null]).map((s) => ({ cls: c.name, clsId: c._id, sub: s?.name ?? null, subId: s?._id ?? null, heavy: process.env.HEAVY === "1" }))).filter((_, i) => i % sliceN === sliceI);
 
 const run = async (p) => {
   const advList = (a) => (!a ? [] : Array.isArray(a) ? a : Array.from(a.values?.() ?? Object.values(a)));   // dnd5e 5.1 array or 5.3 object/collection
@@ -91,5 +92,5 @@ try {
     }
   });
 } catch (e) { console.log(e.code ?? e.stack); process.exit(2); }
-writeFileSync("reports/execution-levelup.json", JSON.stringify(results, null, 1));
+writeFileSync(process.env.LEVELUP_OUT ?? "reports/execution-levelup.json", JSON.stringify(results, null, 1));
 console.log(`== level-up: ${results.length} class/subclass runs, ${results.filter((r) => r.fails.length).length} with issues`);
