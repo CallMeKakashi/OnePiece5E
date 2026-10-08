@@ -1,4 +1,4 @@
-# What is new (v0.2.9)
+# What is new (v0.2.10, on top of v0.2.9)
 
 Works on Foundry 13 with dnd5e 5.1.10 or 5.3.3 (5.3.3 is what the campaign copy runs). Midi-QOL, DAE, Chris Premades and Aura Effects are optional but unlock more.
 
@@ -34,8 +34,8 @@ Settings, **Extra compendium sources**, **Choose sources**: tick installed item 
 ## Fixes for dnd5e 5.3
 Create OPC and level-up now work on dnd5e 5.3 (advancement data changed shape, and the advancement manager's automatic values became asynchronous).
 
-## Updating from inside the world (new)
+## New in v0.2.10: updating from inside the world
 **Update OP5e** (Game Settings, GM) now opens a progress window: the steps (check, download, compendiums, warn the players, replace the files, done), a real progress bar of documents, and a clear error with what to do. Progress is saved after every compendium, so an interrupted update resumes when you press Update again, and a compendium is never left unlocked. Players get a warning a few seconds before the page reloads. It works for a remote GM too: put the helper behind your tunnel at `/op5e-update` (see `docs/UPDATING.md`).
 
-## Health check (new)
+## New in v0.2.10: GM health check
 **OP5e health check** (Game Settings, GM) runs **Quick checks** (read-only: versions, needed modules, compendiums, invalid documents, the tools, the latest release, the update helper) or **Deep checks** (a level 3 Fighter built and levelled, a sample of the compendium on an actor, falling damage, conditional effects, token auras: all on temporary documents that are deleted). A **Ship check** tab shows the developer's full ship check (stages, minutes, live log, Run and Stop) when the helper runs from the repository.
