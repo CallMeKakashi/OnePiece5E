@@ -1,0 +1,125 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "name": "The Gallows (Boss, rogue part)",
+  "raceIdentifier": "human",
+  "classIdentifier": "rogue",
+  "subclassIdentifier": "bruiser",
+  "level": 5,
+  "cr": 12,
+  "backgroundSlug": "Marine/Soldier",
+  "roleSlug": "captain",
+  "devilFruit": null,
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "abilityMethod": "manual",
+  "choices": [
+    {
+      "stepId": "2c3ab682784a8f5a",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:ath",
+        "skills:acr"
+      ]
+    },
+    {
+      "stepId": "f011d5f4f165c011",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.f4e58d1d6e400e7a"
+      ]
+    },
+    {
+      "stepId": "fbeb73bc78d6767e",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.42c76b2a6b6bc431"
+      ]
+    },
+    {
+      "stepId": "75cd78494e511e6d",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.49490f8652cfc663"
+      ]
+    },
+    {
+      "stepId": "0f87656404bdc6cf",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.c3394ea8a586da09"
+      ]
+    },
+    {
+      "stepId": "3a45815647a71bd3",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:ins",
+        "skills:ath",
+        "skills:acr",
+        "skills:prc"
+      ]
+    },
+    {
+      "stepId": "616fe9df8c9a6381",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:ins",
+        "skills:ath"
+      ]
+    },
+    {
+      "stepId": "e7954ef78f428c47",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.4f0c7ad1d4a81581"
+      ]
+    },
+    {
+      "stepId": "332f37d5177186c6",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.097494380fd03456"
+      ]
+    },
+    {
+      "stepId": "d4d782599e9472c9",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "skills:ins"
+      ]
+    },
+    {
+      "stepId": "3b0164f02703622a",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "tool:thief"
+      ]
+    },
+    {
+      "stepId": "e1094045b2ccf0cc",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.d3b0f87fdd9249be"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "name": "The Gallows",
+  "raceIdentifier": "human",
+  "classIdentifier": "fighter",
+  "subclassIdentifier": "blitzkrieg",
+  "level": 7,
+  "cr": 8,
+  "backgroundSlug": "Marine/Soldier",
+  "roleSlug": "captain",
+  "devilFruit": null,
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "abilityMethod": "manual",
+  "choices": [
+    {
+      "stepId": "2c3ab682784a8f5a",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:ath",
+        "skills:acr"
+      ]
+    },
+    {
+      "stepId": "f011d5f4f165c011",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.f4e58d1d6e400e7a"
+      ]
+    },
+    {
+      "stepId": "eb306fec5586f736",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.9c5132ad9c9d881f"
+      ]
+    },
+    {
+      "stepId": "f544e265c28b18a4",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.ca6876472e160551"
+      ]
+    },
+    {
+      "stepId": "9e222e3fcad6d5fc",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.ca6876472e160551"
+      ]
+    },
+    {
+      "stepId": "9b9a22d4a2455ce0",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.bf6bcc1cf0c30ebf"
+      ]
+    },
+    {
+      "stepId": "c9e9e11ed7760d01",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.7842a68fdf0a1f76"
+      ]
+    },
+    {
+      "stepId": "372486d10f05d82d",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:itm",
+        "skills:acr"
+      ]
+    },
+    {
+      "stepId": "69b2e09d550be6d3",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.4f0c7ad1d4a81581"
+      ]
+    },
+    {
+      "stepId": "ceec48436400f9c9",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.097494380fd03456"
+      ]
+    },
+    {
+      "stepId": "d4d782599e9472c9",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "skills:ins"
+      ]
+    },
+    {
+      "stepId": "3b0164f02703622a",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "tool:thief"
+      ]
+    },
+    {
+      "stepId": "e1094045b2ccf0cc",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.d3b0f87fdd9249be"
+      ]
+    }
+  ],
+  "powerFork": "neither",
+  "additionalPowerSlug": "multiple-weapon-style"
+}

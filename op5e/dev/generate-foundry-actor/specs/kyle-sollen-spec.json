@@ -1,0 +1,157 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "name": "Kyle Sollen",
+  "raceIdentifier": "human",
+  "classIdentifier": "bard",
+  "subclassIdentifier": "lore",
+  "level": 11,
+  "cr": 13,
+  "backgroundSlug": "Slave",
+  "roleSlug": "scholar",
+  "devilFruit": null,
+  "abilities": {
+    "str": 8,
+    "dex": 16,
+    "con": 14,
+    "int": 14,
+    "wis": 12,
+    "cha": 20
+  },
+  "abilityMethod": "manual",
+  "choices": [
+    {
+      "stepId": "9c7f2760b78a52d4",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:ins",
+        "skills:prf"
+      ]
+    },
+    {
+      "stepId": "525e2d9955687424",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "tool:thief"
+      ]
+    },
+    {
+      "stepId": "6fad3986868cfdf6",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.d2a5a6f8fc8a2040"
+      ]
+    },
+    {
+      "stepId": "6fc38321ac414016",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.e5e7d26cd0404bee"
+      ]
+    },
+    {
+      "stepId": "cbd4d3b83cecce77",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.a75542fadc62fade"
+      ]
+    },
+    {
+      "stepId": "e9dd9f2702545efe",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.6fb97a33491e4599"
+      ]
+    },
+    {
+      "stepId": "4ca705c8e547b258",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "tool:music:*"
+      ]
+    },
+    {
+      "stepId": "ff2ebaf0181a9977",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:per",
+        "skills:dec",
+        "skills:prc"
+      ]
+    },
+    {
+      "stepId": "db80c77005df03c8",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.9b60f5ba90468926"
+      ]
+    },
+    {
+      "stepId": "3bb69f63ba2a36f5",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.a5335269578ab54a"
+      ]
+    },
+    {
+      "stepId": "dbb060832f73c5c5",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "skills:inv"
+      ]
+    },
+    {
+      "stepId": "8dd1bf43765f6253",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.65f44debd328b49e"
+      ]
+    },
+    {
+      "stepId": "31a6ab2b9fbd0d55",
+      "level": 3,
+      "source": "class",
+      "uuids": [
+        "skills:per",
+        "skills:prf"
+      ]
+    },
+    {
+      "stepId": "91c7b7ede4cac83a",
+      "level": 8,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.96dcda2a40ae256f"
+      ]
+    },
+    {
+      "stepId": "a9d27ecfdf9693d4",
+      "level": 10,
+      "source": "class",
+      "uuids": [
+        "skills:dec",
+        "skills:prc"
+      ]
+    },
+    {
+      "stepId": "6b7c611ef0a01f1d",
+      "level": 10,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.96dcda2a40ae256f"
+      ]
+    }
+  ]
+}

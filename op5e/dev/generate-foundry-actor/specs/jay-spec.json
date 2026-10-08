@@ -1,0 +1,158 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "raceIdentifier": "human",
+  "devilFruit": null,
+  "abilityMethod": "manual",
+  "powerFork": "neither",
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "choices": [
+    {
+      "stepId": "8a93453e8a16f61a",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:prf",
+        "skills:acr"
+      ]
+    },
+    {
+      "stepId": "0723851a739aa82a",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "tool:disg"
+      ]
+    },
+    {
+      "stepId": "6b1ec5eb5e02d0f3",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.fe29d5c96d1698de"
+      ]
+    },
+    {
+      "stepId": "6fc38321ac414016",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.42c76b2a6b6bc431"
+      ]
+    },
+    {
+      "stepId": "cbd4d3b83cecce77",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.a75542fadc62fade"
+      ]
+    },
+    {
+      "stepId": "e9dd9f2702545efe",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.0b22081a5cc10ead"
+      ]
+    },
+    {
+      "stepId": "4ca705c8e547b258",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "tool:music:*"
+      ]
+    },
+    {
+      "stepId": "ff2ebaf0181a9977",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:prf",
+        "skills:per",
+        "skills:dec"
+      ]
+    },
+    {
+      "stepId": "db80c77005df03c8",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.709c949b4f0d5983"
+      ]
+    },
+    {
+      "stepId": "3bb69f63ba2a36f5",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.097494380fd03456"
+      ]
+    },
+    {
+      "stepId": "77c2d151717378f8",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.items.41eb319da91c2dc5"
+      ]
+    },
+    {
+      "stepId": "0d30e29855c14fda",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "skills:per"
+      ]
+    },
+    {
+      "stepId": "d8407812d7735f64",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "tool:music:*"
+      ]
+    },
+    {
+      "stepId": "c7b531491a73a9b5",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.72311746a839f4c3"
+      ]
+    },
+    {
+      "stepId": "31a6ab2b9fbd0d55",
+      "level": 3,
+      "source": "class",
+      "uuids": [
+        "skills:prf",
+        "skills:per"
+      ]
+    },
+    {
+      "stepId": "91c7b7ede4cac83a",
+      "level": 8,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.96dcda2a40ae256f"
+      ]
+    }
+  ],
+  "name": "Jay",
+  "classIdentifier": "bard",
+  "subclassIdentifier": "swords",
+  "level": 9,
+  "cr": 6,
+  "backgroundSlug": "Entertainer",
+  "roleSlug": "musician",
+  "additionalPowerSlug": "heart-strings"
+}

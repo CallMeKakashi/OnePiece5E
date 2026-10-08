@@ -1,0 +1,124 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "name": "Kyle Sollen (rogue part)",
+  "raceIdentifier": "human",
+  "classIdentifier": "rogue",
+  "subclassIdentifier": "inquisitive",
+  "level": 4,
+  "cr": 13,
+  "backgroundSlug": "Slave",
+  "roleSlug": "scholar",
+  "devilFruit": null,
+  "abilities": {
+    "str": 8,
+    "dex": 16,
+    "con": 14,
+    "int": 14,
+    "wis": 12,
+    "cha": 20
+  },
+  "abilityMethod": "manual",
+  "choices": [
+    {
+      "stepId": "9c7f2760b78a52d4",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:prf",
+        "skills:sur"
+      ]
+    },
+    {
+      "stepId": "525e2d9955687424",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "tool:dial"
+      ]
+    },
+    {
+      "stepId": "6fad3986868cfdf6",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.d2a5a6f8fc8a2040"
+      ]
+    },
+    {
+      "stepId": "fbeb73bc78d6767e",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.42c76b2a6b6bc431"
+      ]
+    },
+    {
+      "stepId": "75cd78494e511e6d",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.a586e9bf60053f77"
+      ]
+    },
+    {
+      "stepId": "0f87656404bdc6cf",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.c3394ea8a586da09"
+      ]
+    },
+    {
+      "stepId": "3a45815647a71bd3",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:acr",
+        "skills:ath",
+        "skills:dec",
+        "skills:ins"
+      ]
+    },
+    {
+      "stepId": "616fe9df8c9a6381",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "tool:thief"
+      ]
+    },
+    {
+      "stepId": "e7954ef78f428c47",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.9b60f5ba90468926"
+      ]
+    },
+    {
+      "stepId": "332f37d5177186c6",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.13898c4fc05267be"
+      ]
+    },
+    {
+      "stepId": "dbb060832f73c5c5",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "skills:ins"
+      ]
+    },
+    {
+      "stepId": "8dd1bf43765f6253",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.930cc1ba57fab445"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "name": "Tyrell (brawler part)",
+  "raceIdentifier": "mink",
+  "classIdentifier": "brawler",
+  "subclassIdentifier": "sumo-wrestler",
+  "level": 7,
+  "cr": 12,
+  "backgroundSlug": "Slave",
+  "roleSlug": "master-at-arms",
+  "devilFruit": null,
+  "abilities": {
+    "str": 20,
+    "dex": 12,
+    "con": 18,
+    "int": 8,
+    "wis": 12,
+    "cha": 10
+  },
+  "abilityMethod": "manual",
+  "choices": [
+    {
+      "stepId": "9c7f2760b78a52d4",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:sur",
+        "skills:ins"
+      ]
+    },
+    {
+      "stepId": "525e2d9955687424",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "tool:thief"
+      ]
+    },
+    {
+      "stepId": "6fad3986868cfdf6",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.d2a5a6f8fc8a2040"
+      ]
+    },
+    {
+      "stepId": "072b095fdf6d6261",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.61ed60d4cd4e0cc1"
+      ]
+    },
+    {
+      "stepId": "0aaed0da7a5b68a6",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:ath",
+        "skills:itm"
+      ]
+    },
+    {
+      "stepId": "083500b7e8a198d3",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.a63313e2bf3870d2"
+      ]
+    },
+    {
+      "stepId": "67cc20a23845a043",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.097494380fd03456"
+      ]
+    },
+    {
+      "stepId": "bdbeb7672f52cde8",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.items.61ed60d4cd4e0cc1"
+      ]
+    },
+    {
+      "stepId": "d0c6a9815d2fb190",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "skills:sur"
+      ]
+    },
+    {
+      "stepId": "43fb10fe3c621bdc",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.df9923859fb8fc09"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "raceIdentifier": "human",
+  "devilFruit": null,
+  "abilityMethod": "manual",
+  "powerFork": "neither",
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "choices": [
+    {
+      "stepId": "63fb47282811c672",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:dec",
+        "skills:ath"
+      ]
+    },
+    {
+      "stepId": "e6e2a0c72bca060a",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.2ee3316f53e6323d"
+      ]
+    },
+    {
+      "stepId": "fbeb73bc78d6767e",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.42c76b2a6b6bc431"
+      ]
+    },
+    {
+      "stepId": "75cd78494e511e6d",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.49490f8652cfc663"
+      ]
+    },
+    {
+      "stepId": "0f87656404bdc6cf",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.c3394ea8a586da09"
+      ]
+    },
+    {
+      "stepId": "3a45815647a71bd3",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:acr",
+        "skills:ste",
+        "skills:dec",
+        "skills:per"
+      ]
+    },
+    {
+      "stepId": "616fe9df8c9a6381",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:acr",
+        "skills:ste"
+      ]
+    },
+    {
+      "stepId": "e7954ef78f428c47",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.154d303ba140a9d5"
+      ]
+    },
+    {
+      "stepId": "332f37d5177186c6",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.097494380fd03456"
+      ]
+    },
+    {
+      "stepId": "d71198f5eb15c49f",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "skills:dec"
+      ]
+    },
+    {
+      "stepId": "610584414caa260e",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "tool:art:*"
+      ]
+    },
+    {
+      "stepId": "657c622838004e81",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.4e7abe5deef318b7"
+      ]
+    },
+    {
+      "stepId": "5012b0b012ca9554",
+      "level": 6,
+      "source": "class",
+      "uuids": [
+        "skills:dec",
+        "skills:slt"
+      ]
+    }
+  ],
+  "name": "Pirate Guard",
+  "classIdentifier": "rogue",
+  "subclassIdentifier": "swashbuckler",
+  "level": 6,
+  "cr": 3,
+  "backgroundSlug": "Pirate",
+  "roleSlug": "deckhand",
+  "additionalPowerSlug": ""
+}

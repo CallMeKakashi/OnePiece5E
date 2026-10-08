@@ -1,0 +1,136 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "raceIdentifier": "human",
+  "devilFruit": null,
+  "abilityMethod": "manual",
+  "powerFork": "neither",
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "choices": [
+    {
+      "stepId": "63fb47282811c672",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:dec",
+        "skills:ath"
+      ]
+    },
+    {
+      "stepId": "e6e2a0c72bca060a",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.2ee3316f53e6323d"
+      ]
+    },
+    {
+      "stepId": "fbeb73bc78d6767e",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.42c76b2a6b6bc431"
+      ]
+    },
+    {
+      "stepId": "75cd78494e511e6d",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.49490f8652cfc663"
+      ]
+    },
+    {
+      "stepId": "0f87656404bdc6cf",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.c3394ea8a586da09"
+      ]
+    },
+    {
+      "stepId": "3a45815647a71bd3",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:acr",
+        "skills:ste",
+        "skills:dec",
+        "skills:per"
+      ]
+    },
+    {
+      "stepId": "616fe9df8c9a6381",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:acr",
+        "skills:ste"
+      ]
+    },
+    {
+      "stepId": "e7954ef78f428c47",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.c1888ef70e5461bd"
+      ]
+    },
+    {
+      "stepId": "332f37d5177186c6",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.097494380fd03456"
+      ]
+    },
+    {
+      "stepId": "6d0654c88f4cf57e",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "skills:ath"
+      ]
+    },
+    {
+      "stepId": "e9ed18c83de20730",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.3c1e40a011a9910d"
+      ]
+    },
+    {
+      "stepId": "5012b0b012ca9554",
+      "level": 6,
+      "source": "class",
+      "uuids": [
+        "skills:dec",
+        "skills:slt"
+      ]
+    },
+    {
+      "stepId": "3fcae5622854d423",
+      "level": 8,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.96dcda2a40ae256f"
+      ]
+    }
+  ],
+  "name": "May",
+  "classIdentifier": "rogue",
+  "subclassIdentifier": "assassin",
+  "level": 9,
+  "cr": 6,
+  "backgroundSlug": "Pirate",
+  "roleSlug": "navigator",
+  "additionalPowerSlug": "dodge-roll"
+}

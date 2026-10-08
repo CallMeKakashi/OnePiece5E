@@ -1,7 +1,7 @@
 # OP5e checklist (one thing at a time)
 
 Legend: DONE = built and checked by an automated test or a live run. PENDING = still to do.
-Branch: `future-work` (pushed, not merged to `planning`). Released so far: v0.2.8. Next: v0.2.9.
+Branch: `future-work` (pushed, not merged to `planning`). Released so far: v0.2.8. v0.2.9 is cut from this branch.
 Target: Foundry 13.350, dnd5e 5.3.3 (5.1.10 still works). The campaign copy `bb-rehearsal` is where op5e is tested against the real campaign data.
 
 ## Order of work
@@ -17,12 +17,13 @@ Target: Foundry 13.350, dnd5e 5.3.3 (5.1.10 still works). The campaign copy `bb-
 - Falling damage (#43), token auras (#41, tested on a real canvas), turn-based expiry (#42), ATL token-effect items (#40), canvas shake and burst (#44), best AC / conditional effects / compact chat (#46), performance budget (#47)
 - Extra compendium sources (#48): GM menu, Create OPC (feats, species, backgrounds, classes, subclasses), shop Find item, dnd5e compendium browser sync (level-up choices), tested through the UI
 - Audit warnings 45 to 0 (#25), import preference assertions (#23)
+- Premade effects pack (#39): registered after a Foundry restart, checked live
+- Full ship check on Foundry 13.350 and dnd5e 5.3.3, every stage together: sweep 2,105 documents, level-up 80/80, all small stages, multi-player, real-UI walkthroughs 20/20 (the level-up and small stages now run in parallel, gated by free memory)
 
 ## B. PENDING
-- Premade effects pack (#39): built, needs one Foundry restart so the new pack registers, then its live check
-- Full ship check on 5.3.3 with every new stage together (an early run found and fixed bugs already)
-- Release v0.2.9 and the in-world updater test (never run); the first update to a version with `"socket": true` needs a Foundry restart
+- The in-world updater test against v0.2.9 (never run); the first update to a version with `"socket": true` needs a Foundry restart
 - Verify by eye: MCP tools added after the smoke test, Midi flags in a real combat, how the animations look
+- Close the tickets whose checks pass (#21, #23, #25, #27, #39-#48, then #38)
 - Migrate every character in the campaign copy to the new sourcebook, as a real-campaign test (copy only; the original world stays read-only)
 
 ## C. Decisions and facts
