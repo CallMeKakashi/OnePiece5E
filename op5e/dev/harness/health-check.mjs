@@ -1,16 +1,11 @@
 // GM health-check window (scripts/health-check.mjs): quick checks, deep checks (temporary documents are cleaned up) and the ship-check tab through the update helper.
-// The helper here is a THROWAWAY one (port 30113, random token, temp Data folder). The ship check itself is NOT started: only its status and stage list are read.
+// The helper here is a THROWAWAY one (port 30113, random token). The ship check itself is NOT started: only its status and stage list are read.
 import { spawn } from "node:child_process";
 import { randomBytes } from "node:crypto";
-import { mkdtempSync, mkdirSync, rmSync, writeFileSync, readFileSync } from "node:fs";
-import { tmpdir } from "node:os";
-import { join } from "node:path";
 import { withFoundry } from "./drive.mjs";
 
 const PORT = 30113, token = `test-${randomBytes(8).toString("hex")}`;
-const data = mkdtempSync(join(tmpdir(), "op5e-fake-data-")), mod = join(data, "modules", "op5e");
-mkdirSync(mod, { recursive: true }); writeFileSync(join(mod, "module.json"), readFileSync("module.json"));
-const helper = spawn("node", ["scripts/update-helper.mjs"], { env: { ...process.env, FOUNDRY_DATA: data, OP5E_UPDATE_PORT: String(PORT), OP5E_UPDATE_TOKEN: token, OP5E_UPDATE_ORIGINS: "http://localhost:30000" }, stdio: "ignore" });
+const helper = spawn("node", ["scripts/ship-helper.mjs"], { env: { ...process.env, OP5E_HELPER_PORT: String(PORT), OP5E_HELPER_TOKEN: token, OP5E_HELPER_ORIGINS: "http://localhost:30000" }, stdio: "ignore" });
 await new Promise((r) => setTimeout(r, 1500));
 
 const run = async (page) => page.evaluate(async ({ token, PORT }) => {
@@ -29,7 +24,6 @@ const run = async (page) => page.evaluate(async ({ token, PORT }) => {
     ok("quick checks finish", await until(() => !app.running && app.rows.length && app.rows.every((r) => !["wait", "run"].includes(r.status)), 60000));
     const bad = app.rows.filter((r) => r.status === "fail"); ok("quick checks: nothing failed", !bad.length, bad.map((r) => `${r.title}: ${r.detail}`).join(" | "));
     ok("quick checks: the bar and summary are shown", app.element.querySelector("progress")?.value === 100 && /passed/.test(app.element.querySelector(".op5e-hc-msg")?.textContent ?? ""), app.element.querySelector(".op5e-hc-msg")?.textContent);
-    ok("quick checks: the update helper is found", app.rows.find((r) => r.title === "Update helper")?.status === "pass", app.rows.find((r) => r.title === "Update helper")?.detail);
 
     // deep
     const before = { actors: game.actors.size, scenes: game.scenes.size };
@@ -51,5 +45,5 @@ const run = async (page) => page.evaluate(async ({ token, PORT }) => {
 
 let failed = false;
 try { await withFoundry(async (page) => { for (const l of await run(page)) { console.log(l); if (l.startsWith("FAIL")) failed = true; } }); }
-finally { helper.kill(); rmSync(data, { recursive: true, force: true }); }
+finally { helper.kill(); }
 process.exit(failed ? 1 : 0);

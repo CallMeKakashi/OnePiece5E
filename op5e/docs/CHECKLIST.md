@@ -18,7 +18,7 @@ Target: Foundry 13.350, dnd5e 5.3.3 (5.1.10 still works). The campaign copy `bb-
 - Extra compendium sources (#48): GM menu, Create OPC (feats, species, backgrounds, classes, subclasses), shop Find item, dnd5e compendium browser sync (level-up choices), tested through the UI
 - Audit warnings 45 to 0 (#25), import preference assertions (#23)
 - Premade effects pack (#39): registered after a Foundry restart, checked live
-- The in-world updater: 0.2.8 to 0.2.9 over the production tunnel (the helper is routed at /op5e-update, see UPDATING.md); the progress window and the GM health check are built and tested, shipping in the next release
+- Updating: the in-world updater was tried (0.2.8 to 0.2.9 to 0.2.10, with a progress window) and then removed, because Foundry only re-reads a module manifest on a Setup install or a server restart; players and the GM now update from the Setup page and get a notice. The GM health check (quick checks, deep checks, ship-check tab) stays
 - All tickets #21-#48 closed
 - Full ship check on Foundry 13.350 and dnd5e 5.3.3, every stage together: sweep 2,105 documents, level-up 80/80, all small stages, multi-player, real-UI walkthroughs 20/20 (the level-up and small stages now run in parallel, gated by free memory)
 

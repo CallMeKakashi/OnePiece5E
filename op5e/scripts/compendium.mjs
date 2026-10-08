@@ -16,7 +16,7 @@ import { registerBestAc } from "./best-ac.mjs";
 import { registerConditionalEffects } from "./conditional-effects.mjs";
 import { registerCompactChat } from "./compact-chat.mjs";
 import { initShop, readyShop } from "./shop/shop.mjs";
-import { registerSelfUpdate } from "./self-update.mjs";
+import { registerUpdateNotice } from "./update-notice.mjs";
 import { registerHealthCheck } from "./health-check.mjs";
 import { registerMcpApi } from "./mcp-api.mjs";
 import { registerRefreshActor } from "./refresh-actor.mjs";
@@ -63,7 +63,7 @@ Hooks.once("init", () => {
   registerConditionalEffects();
   registerCompactChat();
   initShop();
-  registerSelfUpdate();
+  registerUpdateNotice();
   registerHealthCheck();
   registerWorldPackSync();
 

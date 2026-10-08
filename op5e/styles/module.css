@@ -312,17 +312,6 @@ body.op5e-compact-chat #chat .chat-message .dnd5e2.chat-card .card-caption { mar
 body.op5e-compact-chat #chat .chat-message .dice-roll { margin: 2px 0; }
 body.op5e-compact-chat #chat .chat-message .dice-formula, body.op5e-compact-chat #chat .chat-message .dice-tooltip { padding: 1px 4px; }
 
-/* in-world updater (scripts/self-update.mjs) */
-.op5e-update-progress .op5e-update-body { display: flex; flex-direction: column; gap: 0.6rem; padding: 0.4rem 0.2rem; }
-.op5e-update-progress ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.2rem; }
-.op5e-update-progress li { opacity: 0.55; }
-.op5e-update-progress li.now, .op5e-update-progress li.done, .op5e-update-progress li.fail { opacity: 1; }
-.op5e-update-progress li.done i { color: #4a9d5b; }
-.op5e-update-progress li.fail i { color: #c0392b; }
-.op5e-update-progress progress { width: 100%; height: 1rem; }
-.op5e-update-progress .op5e-update-label { margin: 0; }
-.op5e-update-progress .op5e-update-note, .op5e-update-progress .op5e-update-hint { margin: 0; font-size: 0.85em; opacity: 0.8; }
-
 /* OP5e health check window (scripts/health-check.mjs) */
 .op5e-health .op5e-hc { display: flex; flex-direction: column; gap: 0.5rem; height: 100%; }
 .op5e-health .op5e-hc-tabs { display: flex; gap: 0.25rem; border-bottom: 1px solid var(--color-border-light-tertiary, #8884); }

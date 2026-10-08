@@ -1,21 +1,10 @@
-# Updating OP5e from inside the world
+# Updating OP5e
 
-1. On the Foundry host run `node <Foundry Data>/modules/op5e/scripts/update-helper.mjs`. It prints a token and listens on `127.0.0.1:30111` only.
-2. In the world's OP5e settings set **Update helper token** (the printed token) and **Update helper URL**.
-3. Game Settings > **Update OP5e** opens the progress window.
+Update from Foundry's **Setup** page: leave the world, open **Add-on Modules**, press **Update** next to OP5e (or **Update All**), then launch the world again. Foundry reads this module's manifest (`releases/latest/download/module.json`) and installs the newest GitHub release, including the version number, new compendiums and settings.
 
-## When the GM is not on the Foundry PC (hosting for other players)
-The helper only listens on the host, so route it through your tunnel on the same site. For a Cloudflare tunnel, add this rule above the Foundry rule in `config.yml` and restart `cloudflared`:
+The GM gets a notice when a world opens and a newer release exists, with these steps.
 
-```yaml
-ingress:
-  - hostname: your-site.example
-    path: ^/op5e-update(/.*)?$
-    service: http://localhost:30111
-  - hostname: your-site.example
-    service: http://localhost:30000
-```
+There used to be an in-world "Update OP5e" button with a helper program (0.2.9 and 0.2.10). It was removed: Foundry only re-reads a module's manifest (version, new compendiums, sockets) through the Setup installer or a server restart, so an in-world update could not finish the job, and the helper meant a file-writing program on the host. Nothing needs to be run on the host to update, and the Cloudflare tunnel needs no extra route.
 
-Start the helper with `OP5E_UPDATE_ORIGINS=https://your-site.example,http://localhost:30000`, and set **Update helper URL** to `https://your-site.example/op5e-update`. The token protects it: do not share it.
-
-If an update is interrupted, press Update OP5e again: it resumes where it stopped.
+## Developer helper (optional)
+`node scripts/ship-helper.mjs` (from the OP5e repository on the Foundry host) feeds the **Ship check** tab of the OP5e health check: stage list, minutes, live log, and Run / Stop for the full ship check. It listens on 127.0.0.1 only and needs its token (printed on start) in the "Developer helper token" setting. It cannot change the module.

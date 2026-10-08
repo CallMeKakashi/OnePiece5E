@@ -2,13 +2,13 @@
 //   Quick checks - read-only, a few seconds: versions, needed modules, compendiums, invalid documents, the API, GitHub's latest release, the update helper
 //   Deep checks  - the in-world rule tests, on temporary documents (names start with "[OP5e check]") that are deleted afterwards: a character built and levelled by the
 //                  Create OPC engine, a sample of the compendium dropped on an actor, falling damage, conditional effects, token auras
-//   Ship check   - the developer's full ship check (stage list, minutes, live log) through the update helper; it runs on the Foundry host and only when the helper runs from a repo checkout.
+//   Ship check   - the developer's full ship check (stage list, minutes, live log) through scripts/ship-helper.mjs; it runs on the Foundry host and only when the helper runs from a repo checkout.
 import { MODULE_ID } from "./constants.mjs";
 
 const TEMP = "[OP5e check] ";
 const NEEDED = ["lib-wrapper", "socketlib", "dae"];
 const OPTIONAL = { "midi-qol": "automatic rolls and effects", "chris-premades": "extra class and monster automation", ATL: "light and token-image effects (torch, goggles, disguise)", auraeffects: "token auras", "times-up": "turn-based effect expiry", sequencer: "big-hit burst", JB2A_DnD5e: "animation art", autoanimations: "automatic animations", "vision-5e": "senses and vision" };
-const API = ["op5eFalling", "op5eAuras", "op5eFx", "op5eBestAc", "op5eConditions", "op5eSources", "op5eFruitCasting", "op5eApi", "op5eCharacterCreator", "op5eUpdate"];
+const API = ["op5eFalling", "op5eAuras", "op5eFx", "op5eBestAc", "op5eConditions", "op5eSources", "op5eFruitCasting", "op5eApi", "op5eCharacterCreator"];
 const pass = (detail = "") => ({ status: "pass", detail }), fail = (detail) => ({ status: "fail", detail }), warn = (detail) => ({ status: "warn", detail }), info = (detail) => ({ status: "info", detail }), skip = (detail) => ({ status: "skip", detail });
 const helper = async (path, opts = {}) => {
   const base = game.settings.get(MODULE_ID, "updateHelperUrl").replace(/\/$/, "");
@@ -46,7 +46,6 @@ export const QUICK = [
     try { const r = await fetch("https://api.github.com/repos/CallMeKakashi/OnePiece5E/releases/latest"); if (!r.ok) return skip("GitHub did not answer"); const tag = (await r.json()).tag_name; return tag.replace(/^v/, "") === own().version ? pass(`you have the latest (${tag})`) : info(`${tag} is available, you have ${own().version}. Use Update OP5e.`); }
     catch { return skip("no internet from this browser"); }
   } },
-  { id: "helper", title: "Update helper", run: async () => { try { const s = await helper("/status"); return pass(`reachable, installed ${s.installed}, latest ${s.latest}`); } catch { return info("not reachable: only needed when you press Update OP5e (run scripts/update-helper.mjs on the Foundry host)"); } } },
 ];
 
 /** Deep checks create temporary documents named "[OP5e check] ..." and delete them in the end. */
@@ -120,7 +119,7 @@ class HealthCheckApp extends foundry.applications.api.ApplicationV2 {
   shipHtml() {
     if (this.shipError) return `<p class="op5e-hc-msg">${esc(this.shipError)}</p><div class="op5e-hc-bar"><button data-act="ship-refresh">Try again</button></div>`;
     const s = this.ship; if (!s) return `<p class="op5e-hc-msg">Loading...</p>`;
-    if (!s.available) return `<p class="op5e-hc-msg">The full ship check is a developer tool. It is available here when the update helper runs from the OP5e repository on the Foundry host (node scripts/update-helper.mjs).</p>`;
+    if (!s.available) return `<p class="op5e-hc-msg">The full ship check is a developer tool. It is available here when the developer helper runs from the OP5e repository on the Foundry host (node scripts/ship-helper.mjs).</p>`;
     const done = s.stages.filter((x) => x.status === "pass" || x.status === "fail").length, pct = Math.round((100 * done) / s.stages.length);
     const rows = s.stages.map((x) => `<li class="${x.status}"><i class="fa-solid ${x.status === "pass" ? ICON.pass : x.status === "fail" ? ICON.fail : x.status === "run" ? ICON.run : ICON.wait}"></i><div><b>${esc(x.name)}</b><small>${esc(x.what)}${x.minutes != null ? ` · ${x.minutes} min` : ""}</small></div></li>`).join("");
     const state = s.running ? "Running..." : s.stopped ? `Stopped at "${esc(s.stopped)}".` : done === s.stages.length ? "All automated stages passed." : s.at ? `Last run ${new Date(s.at).toLocaleString()}.` : "Never run on this machine.";
@@ -129,7 +128,7 @@ class HealthCheckApp extends foundry.applications.api.ApplicationV2 {
       <ul class="op5e-hc-rows">${rows}</ul>${s.log?.length ? `<pre class="op5e-hc-log">${esc(s.log.join("\n"))}</pre>` : ""}`;
   }
   async switch(tab) { this.tab = tab; if (tab === "ship") await this.loadShip(); this.render(); if (tab !== "ship") this.stopPoll(); }
-  async loadShip() { try { this.ship = await helper("/ship"); this.shipError = null; } catch (e) { this.shipError = `The update helper is not reachable (${e.message}). Start it with: node scripts/update-helper.mjs on the Foundry host, and set its URL and token in the OP5e settings.`; } this.poll(); }
+  async loadShip() { try { this.ship = await helper("/ship"); this.shipError = null; } catch (e) { this.shipError = `The developer helper is not reachable (${e.message}). Start it with: node scripts/ship-helper.mjs from the OP5e repository on the Foundry host, and set its URL and token in the OP5e settings.`; } this.poll(); }
   poll() { this.stopPoll(); if (this.tab === "ship" && this.ship?.running) this.timer = setInterval(async () => { await this.loadShip(); this.render(); if (!this.ship?.running) this.stopPoll(); }, 4000); }
   stopPoll() { if (this.timer) clearInterval(this.timer); this.timer = null; }
   async close(o) { this.stopPoll(); return super.close(o); }
@@ -156,6 +155,8 @@ class HealthCheckApp extends foundry.applications.api.ApplicationV2 {
 }
 
 export function registerHealthCheck() {
+  game.settings.register(MODULE_ID, "updateHelperUrl", { name: "Developer helper URL", hint: "Only for the ship-check tab of the health check: where scripts/ship-helper.mjs listens (on the Foundry host, from the OP5e repository). Not needed to update the module: use Foundry's Setup page for that.", scope: "world", config: true, type: String, default: "http://localhost:30111", restricted: true });
+  game.settings.register(MODULE_ID, "updateToken", { name: "Developer helper token", hint: "The token that node scripts/ship-helper.mjs prints.", scope: "world", config: true, type: String, default: "", restricted: true });
   game.op5eHealth = { open: () => new HealthCheckApp().render({ force: true }), QUICK, DEEP, HealthCheckApp, cleanup };
   Hooks.on("renderSettings", (_app, html) => {
     if (!game.user.isGM) return;
