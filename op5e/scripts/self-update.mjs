@@ -109,7 +109,7 @@ export async function runUpdate({ tag, dryRun = false, ui: win } = {}) {
     view.set({ step: 4, label: "Replacing the module files. The page reloads in a moment." });
     report.files = await helper("/commit", { method: "POST" });
     await startedFlag(null);
-    view.set({ step: 5, finished: true, label: `OP5e ${info.version} is installed.`, notes: [`${Object.keys(report.packs).length} compendiums synced, ${report.files.copied} files copied.`, ...(report.newPacks.length ? [`New compendiums need one Foundry restart: ${report.newPacks.join(", ")}`] : [])] });
+    view.set({ step: 5, finished: true, label: `OP5e ${info.version} is installed.`, notes: [`${Object.keys(report.packs).length} compendiums synced, ${report.files.copied} files copied.`, `Foundry only re-reads a module's manifest when the server starts, so it keeps showing the old version number, and any new compendium or socket setting stays off, until you stop and start the Foundry server once.`, ...(report.newPacks.length ? [`New compendiums waiting for that restart: ${report.newPacks.join(", ")}`] : [])] });
     return report;
   } catch (e) {
     view.set({ error: e.message });
