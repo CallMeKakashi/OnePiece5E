@@ -18,12 +18,12 @@ Target: Foundry 13.350, dnd5e 5.3.3 (5.1.10 still works). The campaign copy `bb-
 - Extra compendium sources (#48): GM menu, Create OPC (feats, species, backgrounds, classes, subclasses), shop Find item, dnd5e compendium browser sync (level-up choices), tested through the UI
 - Audit warnings 45 to 0 (#25), import preference assertions (#23)
 - Premade effects pack (#39): registered after a Foundry restart, checked live
+- The in-world updater: 0.2.8 to 0.2.9 over the production tunnel (the helper is routed at /op5e-update, see UPDATING.md); the progress window and the GM health check are built and tested, shipping in the next release
+- All tickets #21-#48 closed
 - Full ship check on Foundry 13.350 and dnd5e 5.3.3, every stage together: sweep 2,105 documents, level-up 80/80, all small stages, multi-player, real-UI walkthroughs 20/20 (the level-up and small stages now run in parallel, gated by free memory)
 
 ## B. PENDING
-- The in-world updater test against v0.2.9 (never run); the first update to a version with `"socket": true` needs a Foundry restart
 - Verify by eye: MCP tools added after the smoke test, Midi flags in a real combat, how the animations look
-- Close the tickets whose checks pass (#21, #23, #25, #27, #39-#48, then #38)
 - Migrate every character in the campaign copy to the new sourcebook, as a real-campaign test (copy only; the original world stays read-only)
 
 ## C. Decisions and facts
