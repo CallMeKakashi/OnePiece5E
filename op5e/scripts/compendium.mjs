@@ -17,6 +17,7 @@ import { registerConditionalEffects } from "./conditional-effects.mjs";
 import { registerCompactChat } from "./compact-chat.mjs";
 import { initShop, readyShop } from "./shop/shop.mjs";
 import { registerSelfUpdate } from "./self-update.mjs";
+import { registerHealthCheck } from "./health-check.mjs";
 import { registerMcpApi } from "./mcp-api.mjs";
 import { registerRefreshActor } from "./refresh-actor.mjs";
 import { registerWorldPackSync } from "./world-pack-sync.mjs";
@@ -63,6 +64,7 @@ Hooks.once("init", () => {
   registerCompactChat();
   initShop();
   registerSelfUpdate();
+  registerHealthCheck();
   registerWorldPackSync();
 
   game.settings.register(MODULE_ID, "berriesWeightless", {
