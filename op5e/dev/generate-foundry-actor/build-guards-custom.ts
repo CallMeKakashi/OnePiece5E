@@ -19,20 +19,20 @@ const SKILL_ABILITY: Record<string, string> = { acr: "dex", ani: "wis", arc: "in
 const SAVES: Record<string, string[]> = { fighter: ["str", "con"], rogue: ["dex", "int"], bard: ["dex", "cha"] };
 
 type Cfg = { name: string; cls: "fighter" | "rogue" | "bard"; level: number; cr: number; abil: Record<string, number>; hp: number; hpFormula: string; bonus: string; weapons: string[];
-  powers: [string, string][]; haki?: string; extraSaves?: string[]; note: string; spells?: { tricks: string[]; spells: string[]; slots: number[] }; rogueHalf?: boolean };
+  powers: [string, string][]; noShield?: boolean; coat?: { name: string; base?: number }; haki?: string; extraSaves?: string[]; note: string; spells?: { tricks: string[]; spells: string[]; slots: number[] }; rogueHalf?: boolean };
 const CFGS: Record<string, Cfg> = {
-  "coast-guard": { name: "Coast Guard", cls: "fighter", level: 3, cr: 0.5, abil: { str: 16, dex: 12, con: 14, int: 8, wis: 12, cha: 10 }, hp: 36, hpFormula: "3d10 + 9", bonus: "1d8", weapons: ["Cutlass", "Flintlock", "Shield"], powers: [],
+  "coast-guard": { name: "Coast Guard", cls: "fighter", level: 3, cr: 0.5, noShield: true, coat: { name: "White Coast Guard Longcoat", base: 12 }, abil: { str: 16, dex: 12, con: 14, int: 8, wis: 12, cha: 10 }, hp: 36, hpFormula: "3d10 + 9", bonus: "1d8", weapons: ["Cutlass", "Flintlock", "Shield"], powers: [],
     note: "A rank-and-file guard of Meridian Island's coast. Built as Fighter 3 (Champion), CR 1/2: hit points are raised to the CR 1/2 band and Veteran's Edge adds +1d8 weapon damage." },
-  "pirate-guard": { name: "Pirate Guard", cls: "rogue", level: 6, cr: 3, abil: { str: 10, dex: 16, con: 12, int: 10, wis: 12, cha: 12 }, hp: 100, hpFormula: "6d8 + 18", bonus: "1d8", weapons: ["Cutlass", "Flintlock"], powers: [],
+  "pirate-guard": { name: "Pirate Guard", cls: "rogue", level: 6, cr: 3, coat: { name: "White Floral Vest" }, abil: { str: 10, dex: 16, con: 12, int: 10, wis: 12, cha: 12 }, hp: 105, hpFormula: "6d8 + 18", bonus: "1d8", weapons: ["Cutlass", "Flintlock"], powers: [],
     note: "A pirate hired to guard the island's boss, in white clothes with a floral pattern. Built as Rogue 6 (Swashbuckler), CR 3: hit points are raised to the CR 3 band and Veteran's Edge adds +1d8 weapon damage." },
   judith: { name: "Judith", cls: "fighter", level: 8, cr: 5, abil: { str: 18, dex: 12, con: 16, int: 10, wis: 12, cha: 10 }, hp: 133, hpFormula: "8d10 + 32", bonus: "2d6", weapons: ["Katana", "Flintlock", "Shield"], haki: "Color of Armament Novice", extraSaves: ["wis"],
-    powers: [["class-features", "Fearsome Fortitude"]], note: "Judith, the Coast Guard's veteran sergeant. Fighter 8 (Champion), CR 5: hit points raised to the CR 5 band, Veteran's Edge adds +2d6 weapon damage." },
-  may: { name: "May", cls: "rogue", level: 9, cr: 6, abil: { str: 8, dex: 20, con: 14, int: 12, wis: 12, cha: 12 }, hp: 148, hpFormula: "9d8 + 27", bonus: "3d6", weapons: ["Rapier", "Shortsword", "Flintlock"], haki: "Color of Observation Novice",
+    powers: [["class-features", "Fearsome Fortitude"]], noShield: true, coat: { name: "White Coast Guard Longcoat" }, note: "Judith, the Coast Guard's veteran sergeant. Fighter 8 (Champion), CR 5: hit points raised to the CR 5 band, Veteran's Edge adds +2d6 weapon damage." },
+  may: { name: "May", cls: "rogue", level: 9, cr: 6, coat: { name: "Floral Silk Coat" }, abil: { str: 8, dex: 20, con: 14, int: 12, wis: 12, cha: 12 }, hp: 148, hpFormula: "9d8 + 27", bonus: "3d6", weapons: ["Rapier", "Shortsword", "Flintlock"], haki: "Color of Observation Novice",
     powers: [["class-features", "Dodge Roll"], ["class-features", "Defense Roll"]], note: "May, a pirate lieutenant in floral clothing. Rogue 9 (Assassin), CR 6: hit points raised to the CR 6 band, Veteran's Edge adds +3d6 weapon damage." },
-  jay: { name: "Jay", cls: "bard", level: 9, cr: 6, abil: { str: 8, dex: 14, con: 14, int: 10, wis: 12, cha: 20 }, hp: 148, hpFormula: "9d8 + 27", bonus: "3d6", weapons: ["Rapier", "Flintlock"], haki: "Color of Observation Novice",
+  jay: { name: "Jay", cls: "bard", level: 9, cr: 6, coat: { name: "Floral Silk Coat", base: 13 }, abil: { str: 8, dex: 14, con: 14, int: 10, wis: 12, cha: 20 }, hp: 148, hpFormula: "9d8 + 27", bonus: "3d6", weapons: ["Rapier", "Flintlock"], haki: "Color of Observation Novice",
     powers: [["class-features", "Heart Strings"], ["class-features", "Song of Life and Death"]], spells: { tricks: ["Vicious Mockery", "Guidance", "Prestidigitation"], spells: ["Healing Word", "Cure Wounds", "Heroism", "Hold Person", "Mirror Image", "Fear", "Bestow Curse", "Greater Invisibility", "Hold Monster"], slots: [4, 3, 3, 3, 1] },
     note: "Jay, a pirate lieutenant in floral clothing. Bard 9 (College of Swords), CR 6: hit points raised to the CR 6 band, Veteran's Edge adds +3d6 weapon damage." },
-  shin: { name: "Shin", cls: "fighter", level: 12, cr: 8, abil: { str: 16, dex: 18, con: 16, int: 10, wis: 10, cha: 14 }, hp: 180, hpFormula: "8d10 + 4d8 + 48", bonus: "3d8", weapons: ["Cutlass", "Flintlock"], haki: "Color of Armament Novice", rogueHalf: true,
+  shin: { name: "Shin", cls: "fighter", level: 12, cr: 8, coat: { name: "Captain's Floral Coat" }, abil: { str: 16, dex: 18, con: 16, int: 10, wis: 10, cha: 14 }, hp: 180, hpFormula: "8d10 + 4d8 + 48", bonus: "3d8", weapons: ["Cutlass", "Flintlock"], haki: "Color of Armament Novice", rogueHalf: true,
     powers: [["class-features", "Machiavellian Misfit"], ["class-features", "Pinpoint Precision"], ["class-features", "Evasive Maneuvers"]], note: "Shin, the pirate captain, the scum of the earth in floral clothing. Fighter 8 (Brute) / Rogue 4 (Thief), level 12, CR 8: hit points raised to the CR 8 band, Veteran's Edge adds +3d8 weapon damage." },
 };
 
@@ -71,7 +71,9 @@ function build(slug: string) {
   const bodies = items.filter((i) => i.type === "equipment" && ["light", "medium", "heavy"].includes(i.system?.type?.value));
   const real = bodies.filter((i) => i.name !== "Navy Uniform"), best = [...(real.length ? real : bodies)].sort((x, y) => (y.system.armor?.value ?? 0) - (x.system.armor?.value ?? 0))[0];
   for (const b of bodies) b.system.equipped = b === best;
-  for (const i of items) if (i.type === "equipment" && i.system?.type?.value === "shield") i.system.equipped = true;
+  for (const i of items) if (i.type === "equipment" && i.system?.type?.value === "shield") i.system.equipped = !c.noShield;   // a CR 1/2 or CR 5 guard does not also carry a shield: it would put his AC two over the band
+  // the island's uniforms: white coats for the Coast Guard, white-and-floral for the pirate guards, floral for the lieutenants and the captain
+  if (c.coat && best) { best.name = c.coat.name; if (c.coat.base) best.system.armor = { ...(best.system.armor ?? {}), value: c.coat.base }; best.system.description = { value: `<p>${c.coat.name}: the island's uniform. Base armour class ${best.system.armor?.value}.</p>`, chat: "" }; }
 
   // ---- Haki bonus (levels below the class's level 8 choice) and Chapter 7 powers
   if (c.haki && !items.some((i) => /^Color of|^Conqueror/.test(i.name ?? ""))) items.push(embedOwnedItem(pack("class-features", c.haki) as never) as Doc);

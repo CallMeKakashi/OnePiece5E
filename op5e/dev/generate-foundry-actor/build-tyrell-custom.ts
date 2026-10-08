@@ -71,7 +71,7 @@ const legStrike = feat("homebrew/tyrell/legendary-strike", "Strike (Legendary Ac
   { actionType: "mwak", activation: { type: "legendary", cost: 1 }, damage: [["2d8 + 5", "bludgeoning"]] });
 const shoulder = feat("homebrew/tyrell/shoulder-check", "Shoulder Check (Legendary Action)", "icons/magic/earth/barrier-stone-brown-green.webp", "<p>Costs 2 legendary actions. Tyrell moves up to half his speed without provoking opportunity attacks and shoves one creature he passes.</p>",
   { actionType: "util", activation: { type: "legendary", cost: 2 } });
-// CR balance pass: a straight Barbarian 8 / Brawler 7 lands near CR 7 (173 hp, AC 16, about 50 damage a round); HP is overridden to 226 and a bespoke feature
+// CR balance pass: a straight Barbarian 8 / Brawler 7 lands near CR 7 (173 hp, AC 16, about 50 damage a round); HP is overridden to 240 and a bespoke feature
 // adds +2d8 unarmed damage (Armorless Guardian supplies the AC) so he reaches the CR 12 band (hp 221-235, AC 17, about 75 damage a round). Labelled on the sheet.
 const bruiser = feat("homebrew/tyrell/bruisers-build", "Bodyguard's Build", "icons/commodities/bones/horn-antler-brown.webp",
   "<p>Years of hauling and fighting for Kyle have made Tyrell a wall. <em>Balance note: bespoke boss feature, not a class feature.</em> His melee attacks deal an extra 2d8 damage.</p>",
@@ -94,11 +94,11 @@ sys.skills = Object.fromEntries(Object.entries(SKILL_ABILITY).map(([k, ab]) => [
 sys.traits.armorProf = { value: ["lgt", "med", "shl"], custom: "" };
 sys.traits.weaponProf = { value: ["sim", "mar"], custom: "" };
 sys.attributes.ac = { flat: null, calc: "unarmoredBarb", formula: "" };   // 10 + Dex + Con while unarmored
-sys.attributes.hp = { value: 226, max: 226, temp: 0, tempmax: 0, formula: "8d12 + 7d8 + 90" };   // real formula gives about 173; overridden to 226 for CR 12
+sys.attributes.hp = { value: 240, max: 240, temp: 0, tempmax: 0, formula: "8d12 + 7d8 + 90" };   // real formula gives about 173; overridden to 240 for CR 12 (DMG hp 236-250)
 sys.attributes.senses.darkvision = 60;
 sys.resources = { legact: { value: 2, max: 2 }, legres: { value: 2, max: 2 }, lair: { value: true, initiative: 20 } };
 sys.details.cr = 12; sys.details.level = 15;
-sys.details.biography.value = "<p>Tyrell, a moose Mink, bodyguard and oldest friend of Kyle Sollen. The two grew up as slaves together, and Tyrell has never stopped standing between Kyle and the world. He fights bare-handed: antlers, shoulders and fists.</p><p><strong>Balance note (CR 12):</strong> a straight Barbarian 8 / Brawler 7 is near CR 7, so hit points are overridden to 226 and Bodyguard's Build adds +2d8 unarmed damage.</p>";
+sys.details.biography.value = "<p>Tyrell, a moose Mink, bodyguard and oldest friend of Kyle Sollen. The two grew up as slaves together, and Tyrell has never stopped standing between Kyle and the world. He fights bare-handed: antlers, shoulders and fists.</p><p><strong>Balance note (CR 12):</strong> a straight Barbarian 8 / Brawler 7 is near CR 7, so hit points are overridden to 240 and Bodyguard's Build adds +2d8 unarmed damage.</p>";
 
 const auto = refreshFromPacks(items);
 console.log(`automation copied from the built packs onto ${auto.refreshed.length} features; no pack match for: ${auto.unmatched.join(", ") || "none"}`);

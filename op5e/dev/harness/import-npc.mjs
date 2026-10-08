@@ -1,13 +1,15 @@
 // Imports a standalone actor JSON (Foundry/actors-json/<slug>.json) into the test or bb-rehearsal world and prints the numbers Foundry computes for it.
-// Replaces an existing actor of the same name. Usage: node dev/harness/import-npc.mjs <path-to-json> [--keep]   (--keep leaves it in the world; default keeps it)
+// Never deletes anything unless you pass --replace (then an actor of the same name is replaced). Usage: node dev/harness/import-npc.mjs <path-to-json> [--folder name] [--keep-id] [--replace]   (--keep leaves it in the world; default keeps it)
 import { readFileSync } from "node:fs";
 import { withFoundry } from "./drive.mjs";
 const path = process.argv[2]; if (!path) throw new Error("usage: node dev/harness/import-npc.mjs <json>");
 const data = JSON.parse(readFileSync(path, "utf8"));
 const folderName = process.argv.includes("--folder") ? process.argv[process.argv.indexOf("--folder") + 1] : null;
-const keepId = process.argv.includes("--keep-id");
-const run = async (data, folderName, keepId) => {
-  for (const x of game.actors.filter((a) => a.name === data.name)) await x.delete();
+const keepId = process.argv.includes("--keep-id"), replace = process.argv.includes("--replace");
+const run = async (data, folderName, keepId, replace) => {
+  const same = game.actors.filter((a) => a.name === data.name);
+  if (same.length && !replace) return { error: `an actor named "${data.name}" already exists; nothing was deleted. Run with --replace to replace it.` };
+  for (const x of same) await x.delete();
   if (!keepId) delete data._id;
   if (folderName) { const f = game.folders.find((x) => x.type === "Actor" && x.name === folderName) ?? await Folder.create({ name: folderName, type: "Actor" }); data.folder = f.id; }
   let a; try { a = await Actor.create(data, { keepId }); } catch (e) { return { error: String(e.message).slice(0, 1500) }; }
@@ -31,4 +33,4 @@ const run = async (data, folderName, keepId) => {
     weapons: a.items.filter((i) => i.type === "weapon").map((i) => ({ name: i.name, acts: [...i.system.activities].map((x) => `${x.type}:${x.name}`), atk: [...i.system.activities].find((x) => x.type === "attack")?.getAttackToHit?.()?.formula })),
   };
 };
-await withFoundry(async (page) => { console.log(JSON.stringify(await page.evaluate(`(${run.toString()})(${JSON.stringify(data)}, ${JSON.stringify(folderName)}, ${keepId})`), null, 1)); });
+await withFoundry(async (page) => { console.log(JSON.stringify(await page.evaluate(`(${run.toString()})(${JSON.stringify(data)}, ${JSON.stringify(folderName)}, ${keepId}, ${replace})`), null, 1)); });

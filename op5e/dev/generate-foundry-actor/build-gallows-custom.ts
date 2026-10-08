@@ -19,7 +19,7 @@ const pack = (p: string, name: string): Doc => {
   throw new Error(`${p}/${name} not found`);
 };
 const CFG = VARIANT === "boss"
-  ? { name: "The Gallows (Boss)", level: 15, cr: 12, prof: 5, hp: 232, dex: 20, baton: "3d6", takeDownDc: 18, bonusAtk: 0 }
+  ? { name: "The Gallows (Boss)", level: 15, cr: 12, prof: 5, hp: 240, dex: 20, baton: "3d6", takeDownDc: 18, bonusAtk: 0 }
   : { name: "The Gallows", level: 10, cr: 8, prof: 4, hp: 182, dex: 18, baton: "2d6", takeDownDc: 15, bonusAtk: 0 };
 
 // ---- 1. Merge the Rogue half; drop the pipeline's starting weapons (his weapons are the two batons)
@@ -115,7 +115,7 @@ sys.details.cr = CFG.cr; sys.details.level = CFG.level;
 if (VARIANT === "boss") sys.resources = { legact: { value: 3, max: 3 }, legres: { value: 3, max: 3 }, lair: { value: true, initiative: 20 } };
 chassis.name = CFG.name;
 sys.details.biography.value = VARIANT === "boss"
-  ? "<p>The Gallows, as an enemy: a former marine turned vigilante, driven by the death of his family, who believes the party has betrayed the only cause he has left. Two weighted steel batons, no mercy, no more warnings.</p><p><strong>Balance note (CR 12):</strong> built as Fighter 10 / Rogue 5, level 15, with HP overridden to 232 and a boss kit (legendary resistance, legendary actions, lair actions).</p>"
+  ? "<p>The Gallows, as an enemy: a former marine turned vigilante, driven by the death of his family, who believes the party has betrayed the only cause he has left. Two weighted steel batons, no mercy, no more warnings.</p><p><strong>Balance note (CR 12):</strong> built as Fighter 10 / Rogue 5, level 15, with HP overridden to 240 and a boss kit (legendary resistance, legendary actions, lair actions).</p>"
   : "<p>The Gallows: a former marine turned vigilante hunting the people behind the deaths of his family. He fights crime with two weighted steel batons and a marine's discipline. An ally of the party.</p><p><strong>Balance note (CR 8):</strong> built as Fighter 7 (Blitzkrieg) / Rogue 3 (Bruiser), level 10, with HP overridden to 182 so he reaches the CR 8 band.</p>";
 
 // ---- 4. Clean-up: no DAE flags, no legacy damage.parts holding @scale

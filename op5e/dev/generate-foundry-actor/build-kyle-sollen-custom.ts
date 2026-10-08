@@ -216,13 +216,13 @@ sys.traits.armorProf = { value: ["lgt"], custom: "" };
 sys.traits.weaponProf = { value: ["sim"], custom: "hand crossbows, longswords, rapiers, shortswords, firearms" };
 sys.attributes.spellcasting = "cha";
 sys.spells = Object.fromEntries([4, 3, 3, 3, 2, 1, 0, 0, 0].map((max, i) => [`spell${i + 1}`, { value: max, max }]));
-// CR balance pass: a real Bard 11 / Rogue 4 (15d8 + 2 CON per level + Tough = 127 hp, AC 15) lands near CR 5; HP is overridden to 245 for the CR 13 band (DMG hp 236-250)
+// CR balance pass: a real Bard 11 / Rogue 4 (15d8 + 2 CON per level + Tough = 127 hp, AC 15) lands near CR 5; HP is overridden to 255 for the CR 13 band (DMG hp 251-265)
 // (the formula cannot get there at level 15 even with 20 CON). Documented on the sheet.
-sys.attributes.hp = { value: 245, max: 245, temp: 0, tempmax: 0, formula: "15d8 + 60" };
+sys.attributes.hp = { value: 255, max: 255, temp: 0, tempmax: 0, formula: "15d8 + 60" };
 sys.attributes.movement.swim = 0;   // devil fruit user: cannot swim
 sys.resources = { legact: { value: 3, max: 3 }, legres: { value: 3, max: 3 }, lair: { value: true, initiative: 20 } };
 sys.details.cr = 13; sys.details.level = 15;
-sys.details.biography.value = "<p>Kyle Sollen, a flamboyant Alabastan businessman, once a slave and now a Scholar of the seas. He eats the Sphinx-Sphinx Fruit, a mythical zoan, and quietly serves the island's boss for his own ends. He fights from the backline with the Eye of the Sphinx, spells and the Sunbrand Khopesh.</p><p><strong>Balance note (CR 13):</strong> built as Bard 11 / Rogue 4, level 15. A straight class build lands near CR 5, so hit points are overridden to 245, armour is a magic vest (AC 18), the Khopesh deals 4d8 + 4d6 psychic Verdict, and Kyle has a bespoke Multiattack. Fruit powers and save DCs (19) are as written.</p>";
+sys.details.biography.value = "<p>Kyle Sollen, a flamboyant Alabastan businessman, once a slave and now a Scholar of the seas. He eats the Sphinx-Sphinx Fruit, a mythical zoan, and quietly serves the island's boss for his own ends. He fights from the backline with the Eye of the Sphinx, spells and the Sunbrand Khopesh.</p><p><strong>Balance note (CR 13):</strong> built as Bard 11 / Rogue 4, level 15. A straight class build lands near CR 5, so hit points are overridden to 255, armour is a magic vest (AC 18), the Khopesh deals 4d8 + 4d6 psychic Verdict, and Kyle has a bespoke Multiattack. Fruit powers and save DCs (19) are as written.</p>";
 // ---- 10. Clean-up: one Role item, no DAE flags (target world may not run DAE), and no legacy damage.parts holding @scale formulas
 // (the real formula lives in the activity; a leftover legacy part with @scale makes Foundry throw "Unresolved StringTerm" when the actor imports)
 const roleIdx = items.map((i, k) => (i.name === "Role: Scholar" ? k : -1)).filter((k) => k >= 0);
@@ -232,6 +232,9 @@ for (const i of items) {
   const parts = i.system?.damage?.parts;
   if (Array.isArray(parts) && JSON.stringify(parts).includes("@scale") && Object.keys(i.system.activities ?? {}).length) i.system.damage.parts = [];
 }
+// Strength 8 only carries 40 lb before dnd5e marks the actor encumbered (and creates its status effect, which two GM sessions then fight over). Kit weights are trimmed to what a flamboyant businessman actually carries.
+const LIGHTER: Record<string, number> = { "Diplomat's Pack": 5, Book: 1, "Forgery Kit": 1, "Clothes, Common": 1 };
+for (const i of items) if (LIGHTER[i.name ?? ""] != null) i.system.weight = { ...(i.system.weight ?? {}), value: LIGHTER[i.name ?? ""] };
 chassis.items = items;
 
 writeFileSync(`${ACTORS}/kyle-sollen.json`, JSON.stringify(chassis, null, 2), "utf-8");

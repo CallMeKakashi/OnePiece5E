@@ -7,15 +7,15 @@ await withFoundry(async (page) => {
     const T = game.shopTrade, p1 = game.users.getName("Test Player 1"), p2 = game.users.getName("Test Player 2");
     const shop = () => T.list().find((s) => s.name === "Orange Town Armory");
     if (action === "reset" || action === "setup") {
-      for (const a of game.actors.filter((x) => x.name.startsWith("[DEMO]") || ["Baptiste", "Old Man Gen"].includes(x.name))) await a.delete();
+      for (const a of game.actors.filter((x) => x.name.startsWith("[DEMO]"))) await a.delete();
       for (const s of T.list()) await T.deleteShop(s.id);
       await game.settings.set("op5e", "shopRequests", []);
       if (action === "reset") return "reset";
       const user = p1 ?? await User.create({ name: "Test Player 1", role: CONST.USER_ROLES.PLAYER });
       if (!p2) await User.create({ name: "Test Player 2", role: CONST.USER_ROLES.PLAYER });
-      const baptiste = await Actor.create({ name: "Baptiste", type: "character", ownership: { default: 0, [game.users.getName("Test Player 1").id]: 3 }, system: { currency: { gp: 5000000 } } });
+      const baptiste = await Actor.create({ name: "[DEMO] Baptiste", type: "character", ownership: { default: 0, [game.users.getName("Test Player 1").id]: 3 }, system: { currency: { gp: 5000000 } } });
       await Item.create({ name: "Old Compass", type: "loot", system: { price: { value: 800, denomination: "gp" }, quantity: 1 } }, { parent: baptiste });
-      const gen = await Actor.create({ name: "Old Man Gen", type: "npc", img: "icons/svg/mystery-man.svg", system: { currency: { gp: 500000 } } });
+      const gen = await Actor.create({ name: "[DEMO] Old Man Gen", type: "npc", img: "icons/svg/mystery-man.svg", system: { currency: { gp: 500000 } } });
       const id = await T.createShop("Orange Town Armory", { markup: 10, type: "armory", keeper: { actorId: gen.id } });
       return `ready: ${T.list().length} shop, ${shop().items.length} items`;
     }

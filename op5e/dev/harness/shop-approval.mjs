@@ -30,7 +30,7 @@ try {
   p1 = await open("Test Player 1"); p2 = await open("Test Player 2");
 
   const S = await gm.evaluate(async ({ ids }) => {
-    for (const a of game.actors.filter((x) => x.name.startsWith("[SA]") || x.name.startsWith("[DEMO]") || ["Baptiste", "Old Man Gen"].includes(x.name))) await a.delete();
+    for (const a of game.actors.filter((x) => x.name.startsWith("[SA]") || x.name.startsWith("[DEMO]"))) await a.delete();
     for (const sh of game.shopTrade.list()) await game.shopTrade.deleteShop(sh.id);   // a clean slate: leftovers of a demo or an interrupted run
     await game.settings.set("op5e", "shopRequests", []);
     const tag = { flags: { op5e: { harnessTest: true } } };
