@@ -1,0 +1,370 @@
+# Compendium automation audit (2026-10-10)
+
+Every text-bearing item in `op5e/packs-src` (1,938 records: class-features, feats, racial-features, subclasses, creations, items, devil-fruits, campaign-items, backgrounds) was compared by read-only agents against its activities, uses and effects. Findings are **candidates**, not confirmed bugs: agents judged each item from truncated text (700 to 1,400 characters), so verify against the Sourcebook before changing data. 107 "recovery missing" flags were discarded because the audit extractor read `uses.recovery`, while the pack stores recovery as `uses.per` plus an activity-level recovery.
+
+Totals: 355 findings (23 high, 179 medium, 153 low). Items in `packs-src/<pack>/<file>`.
+
+## High
+
+- **Advanced Armory** (`class-features/e96da85292b2c9c6.json`): Reaction (d6, 4+ turns hit into a miss) has no activity Fix: Add reaction utility activity rolling 1d6
+- **Carving Inspiration** (`class-features/fbc38579154ed9bf.json`): Effect movement.walk=0 is permanent on the owner; Sap should set target speed to 0 until end of its next turn. Save activities have no damage/Devious Strike cost and Daze lacks deafened effect. Fix: Remove self effect; put speed 0 / no reactions and deafened (1 min, repeat save) as target effects on the save activities.
+- **Color of Observation Master** (`class-features/fd4062b1dd6625f7.json`): Effect grants permanent advantage on attacks/checks/saves; text says only when spending 2 Observation Points at start of turn until next turn. No activity or cost. Fix: Remove always-on effect; add utility activity (special/turn start) consuming 2 Observation Points that applies a temporary advantage effect to self; add disadvantage-against-you effect.
+- **Creature of Scorn** (`class-features/ea3b7ae3f5493fac.json`): Bonus action 1-minute buff (crit 19-20, advantage vs wounded) has no effect; alt 5th-level slot recharge not modeled Fix: Add 1-minute effect crit threshold 19
+- **Cutthroat Tactics** (`class-features/0643296bdbad176a.json`): Active effect movement.walk=-15 applies permanently to the owner; the speed reduction is only for the Lock Down target. Poison option damage type swap not automated Fix: Remove self effect; make Lock Down a target-applied effect.
+- **Diamond Dust** (`class-features/2cecb89a4bca926a.json`): Effect movement.walk=0 applies to the owner permanently; speed 0 is for creatures failing the save. Cold immunity not time-limited to 1 minute form Fix: Remove movement effect; apply di cold via bonus-action activity effect.
+- **Finishing Blow** (`class-features/e621f27163d53ca2.json`): Expend spirit points (up to level) for extra brawler dice; no activity or consumption Fix: Add damage activity scaling with spirit points
+- **Fire Fiend** (`class-features/d15ed58daa5d7ff5.json`): Brute Force: +1d4 damage scaling 1d6/1d8/1d10 with no effect Fix: Add weapon/unarmed damage effect using scale value
+- **Full Body Armor** (`class-features/c2ffcbe4f62a7adc.json`): Spend Armament Points = level; 1 minute damage reduction/save reroll; no consumption, effect or duration Fix: Add armament-point consumption, 1-minute active effect
+- **Fury of the Storm: Snowstorm** (`class-features/a9890055e9f2e653.json`): Effect movement.walk=0 applied permanently to the Barbarian; speed 0 is a debuff on the target on a failed save Fix: Remove self effect; apply speed 0 to target via the save activity
+- **Icon of Strength** (`class-features/de0c0f82a40c2994.json`): Bonus action 1-minute buff (B/P/S resistance, thunder immunity, condition immunities) has no effects; activity has no duration Fix: Add active effect dr/di/ci with 1 minute duration
+- **Legendary Flourish** (`class-features/919ba88ea37a00cb.json`): Effect movement.walk=20 is a permanent self speed bonus but Stampeding Anthem is temporary; itemUses cost has no matching uses (Bardic Inspiration); no damage activity for stampede Fix: Make speed effect activity-applied; link cost to Bardic Inspiration; add bardic-die damage
+- **Master Bladework** (`class-features/8b0214196c833a20.json`): Effect ac.bonus=-2 lowers the rogue's own AC; Guard Break lowers the target's AC Fix: Remove self effect; apply to target on failed Dex save
+- **Reckless Attack** (`class-features/bf71e74eb0cbc8d9.json`): Reckless Attack effect gives +1 to attack.mwak and attack.all permanently; text is advantage on Str melee attacks until next turn (and attackers get advantage). No activity Fix: Replace with activity-applied advantage effect, drop flat +1
+- **Six King Gun** (`class-features/e00e60728142ba7e.json`): Spend up to 10 spirit points for 2d10 per point; 10 save activities exist but none consume spirit points; DC uses wis, text says Spirit DC Fix: Add spirit point consumption equal to dice; verify DC
+- **Stance Improvements** (`class-features/5dc924b59f7dc9f9.json`): Stance Improvements grants movement.fly = walk speed, which the text does not describe (likely copy-paste from Perfected Armor Infiltrator). Fix: Remove the fly effect.
+- **Battle Transformation** (`creations/26f17029db738faf.json`): Heal activity has no formula for the 50 temp HP; extra attack from Savage Strikes and advantage on Str/Con saves not modeled (only +1d12 and attack adv). Fix: Add temp HP formula 50 to heal activity; add Str/Con save advantage (exists) and note extra attack.
+- **Beastial Transformation** (`creations/827add10cdff9685.json`): Text grants 20 temp HP, +1 AC/saves, swim etc.; only activity is a bonus-action Con save dealing 1d12 poison (wrong activity, looks copied from another spell); no effects. Fix: Replace with utility activity (bonus) + temp HP 20; add AC/save +1 effect; remove poison save.
+- **Charged Fireball** (`creations/3769f426eeb5649f.json`): Dex save activity has no damage; base 14d6 fire (+1d6 per turn). Fix: Add 14d6 fire damage, half on save.
+- **Faithful Conviction** (`creations/43f0041465dddedb.json`): Con save activity has no damage; text deals 20 radiant on fail, half on success, with 60 total pool. Fix: Add 20 radiant damage to save activity (half on save).
+- **Gadget Armor** (`creations/c683302dba130c97.json`): Activity is a damage 3d10 action; text is a touch buff setting base AC 13+Dex, no damage, no AC effect. Fix: Replace with utility activity; add AC effect (base 13+dex mod, ends on armor).
+- **Gamma Knife** (`creations/13e9670c8de29d07.json`): Effects add +2d8 radiant AND +2d8 necrotic to every weapon hit; text says one type of your choice (double damage). Fix: Use a single effect with a choice or two toggleable effects; not both active.
+- **Slasher** (`feats/1dfcf670e02f0580.json`): Effects are permanent: movement.walk=-10 and attack.all=1 on self. Text imposes -10 speed (until next turn) and disadvantage on attack rolls on the TARGET. Fix: Remove self effects; apply as target effects via activities (slash hit; crit) with correct duration.
+
+## Medium
+
+- **Sharkrazor Mantle** (`campaign-items/257701c726dacd90.json`): Sharkrazor Mantle: 60 ft swim speed has no effect; bite attack text 1d6 but activity damage 2d6+prof+dex; 3d4 grapple damage not modeled Fix: Add swim speed effect; fix bite to 1d6 + mod
+- **Achilles Heel** (`class-features/3ebabb751e7b6f7e.json`): Costs 3 spirit points but no consumption; 13 identical empty utility activities; effects grant vulnerability to ALL 13 damage types instead of one chosen type. Fix: Single activity consuming 3 spirit; make vulnerability effects separate/disabled per type (one chosen).
+- **Ardent Smite** (`class-features/1713b35300c6cb87.json`): Expend creation slot for 2d8 +1d8/level (max 6d8): no activity Fix: Add damage activity with slot consumption.
+- **Ascendant Aspect** (`class-features/1c394e3fa96cb4e1.json`): Bonus action costs 4 spirit points, 10 minutes, +1 AC: no consumption, no AC effect Fix: Add spirit cost and AC effect.
+- **Awareness Visor** (`class-features/36fa7b8f034610dc.json`): Effect key ranges.darkvision=120 looks wrong (should be senses.darkvision) Fix: Fix key.
+- **Blastback** (`class-features/0a79712d2f5b8028.json`): Strength save activity has no DC (8+prof+Str mod); no damage (half Barbarian level) Fix: Set DC and damage floor(@classes.barbarian.levels/2).
+- **Blinding Flare** (`class-features/eed435c570abfb9b.json`): Con save DC blank (creation save DC); both activities consume a use (double spend) Fix: Set DC, single consumption
+- **Brick Fist** (`class-features/8170f63c794a6bd7.json`): Brick Fist: Con save has no DC; no spirit point cost or scaling Fix: Add DC and spirit consumption
+- **Careful Aim** (`class-features/c7bcecf905ebf109.json`): Expend 1 spirit point to stay at 1 HP; no activity/consumption Fix: Add reaction utility
+- **Channel Conviction: Caustic Spite** (`class-features/e65013ad64788539.json`): Acid +1d8 and ac.bonus -2 permanent on self; AC reduction applies to target Fix: Gate to activity; drop self AC penalty
+- **Channel Conviction: Venomous Duality** (`class-features/b20c168e20a8ee89.json`): Antivenom heals temp HP 2*level+Cha mod but heal activity has no formula; Manifest Soul 1-minute duration absent Fix: Add temp HP formula and durations
+- **Cloak of Miasma** (`class-features/c74dda82b2afc2af.json`): Poison immunity effect is permanent rather than 1-minute from activity; Con save not consuming Fix: Gate effect via activity with 1-minute duration
+- **Color of Armament Apprentice** (`class-features/c04321ae3bf3215f.json`): Pool of 3x level Armor points and 5-point rerolls not modeled; uses formula set to pool size but text says 3 uses Fix: Split into 3 uses and a points pool
+- **Color of Observation Adept** (`class-features/f615a9813a58ebab.json`): Strength save has no DC; no prone/push/disengage outcome beyond text. Flurry of Blows additional attack not modeled. Fix: Set save DC (Spirit/Str based per class) and use 5 x prof movement note.
+- **Commander in Chief** (`class-features/3442868c41beb389.json`): Bonus action with 1+Cha uses, short/long rest: no uses, recovery or activity Fix: Add uses, rec, activity.
+- **Commander's Strike** (`class-features/de78940773043ba4.json`): Commander Strike expends superiority die; no consumption Fix: Add superiority-die consumption
+- **Crazed Bravado** (`class-features/d01ce757d5edaa5f.json`): Reaction to reduce damage by 1d10+level has no activity Fix: Add reaction activity 1d10+@details.level
+- **Crushing Hew** (`class-features/15b60128d19777c2.json`): Damage formula "@prof" but text says rage damage modifier Fix: Replace with rage damage bonus.
+- **Cutting Words** (`class-features/a051c624548d1f5b.json`): Cutting Words: reaction expends Bardic Inspiration but no consumption Fix: Add consumption of Bardic Inspiration
+- **Dazing Shot** (`class-features/23f0ab0c379a53f6.json`): Wis save after spending a grit point, no consumption Fix: Add resource consumption.
+- **Deadeye Shot** (`class-features/b6d779cab1cfc3b2.json`): Expend one grit point; no consumption Fix: Add grit consumption
+- **Deft Escape** (`class-features/6c53fad42cf8beed.json`): Costs 1 spirit point bonus action; no consumption. Fix: Add 1 spirit consumption.
+- **Deft Explorer** (`class-features/6452d3231050fa72.json`): Text only chooses an option, but has an unrelated bonus-action heal activity with @prof uses; speed effects apply unconditionally. Fix: Remove spurious activity; make effects option-specific.
+- **Diamond Soul** (`class-features/11b29113d9cda2f4.json`): Effect grants proficiency only in con/int/wis/cha; text says all saves (str, dex missing); spirit reroll has no activity Fix: Add str and dex proficiency; add 1 spirit activity.
+- **Disarming Attack** (`class-features/3d0e1517acbf8153.json`): Expends a superiority die but no consumption target and no uses/recovery Fix: Add superiority die consumption.
+- **Doctor Death** (`class-features/f978fc2f334aebf5.json`): Wisdom save has no DC (creation save DC); frightened immunity has no effect. Fix: Set DC formula; add ci=frightened effect and frightened-on-fail effect until end of next turn.
+- **Elemental Ammo** (`class-features/0e0fd875b168e29b.json`): Damage formula "(2 + 2*floor(@classes.fighter.levels/18))d8 fire/..." is invalid and uses fighter levels for Arms Dealer Fix: Use arms dealer class levels, valid formula, choosable type.
+- **Endemic Surge** (`class-features/4ec65a1ccc3f5168.json`): Action expends a use of Experimental Medicine and grants 5 temp HP per level; no consumption, heal has no formula. Fix: Add consumption and temp HP formula 5*@classes.medic.levels.
+- **Enhanced Creative Focus** (`class-features/bcc94954093e50ac.json`): Three effects +1/+2/+3 all active -> stack to +6 Fix: Level-gate
+- **Enhanced Defenses** (`class-features/939fe42d788962a3.json`): Enhanced Defenses: three AC effects +1/+2/+3 may stack Fix: Single effect scaled by level
+- **Enhanced Weapon** (`class-features/a1f472bf913b7f8a.json`): Enhanced Weapon: three attack/damage effects +1/+2/+3 may stack Fix: Single effect scaled by level
+- **Evasive Footwork** (`class-features/615ea249a92e5155.json`): Expends a superiority die; damage activity has no consumption. Fix: Add die consumption.
+- **Experimental Augmentations** (`class-features/b4516f39ffcd265e.json`): uses=@prof but 16 activities without consumption; duplicate attack activities Fix: Dedupe, wire consumption
+- **Experimental Medicine** (`class-features/3d281070bdefb1a3.json`): Heal activities lack temp HP formula (4 x medic level); rec missing (short/long rest) Fix: Add formula and rec.
+- **Explosive Cannon** (`class-features/32d99aa85953b7ce.json`): Action to detonate: Dex save 3d8 force within 20 ft not automated Fix: Add save activity with 3d8 force.
+- **Feinting Attack** (`class-features/054e8f31f4c9a915.json`): Expends a superiority die but activity has no consumption target Fix: Add consumption of superiority die uses.
+- **Ferocious Aura** (`class-features/339f555d58f6b56e.json`): Wis save activity has no DC (8+Con+prof) Fix: Set DC.
+- **Fighting Stances** (`class-features/4a8aa208fa895405.json`): Bonus-action stances (AC bonuses, attack bonus) have effects but no bonus-action activity to enable them; effects always on. Fix: Add bonus-action activities toggling per-stance effects, duration until start of next turn.
+- **Fighting Style: Archery** (`class-features/fb8c1914fc99fb4d.json`): Defensive Field (bonus action, temp HP = 2 x level, uses = prof per long rest) and Thunder Gauntlets (1d8 thunder bonus attack) have no activities, uses or recovery. Fix: Add uses @prof lr, heal(temp) activity bonus, attack activity 1d8 thunder.
+- **Fighting Style: Dueling** (`class-features/c810312f0e3b4b1d.json`): Reaction to reduce damage by 2d8 scaling to 5d8; activity has no formula Fix: Add scaling formula
+- **Fighting Style: Dueling** (`class-features/d1f43e6a6ad0417d.json`): Effect +1d4 thunder but text says 2d4; not gated to rage Fix: Change to 2d4 and gate
+- **Fighting Style: Protection** (`class-features/814f337956485dc6.json`): Fighting Style: Protection: reaction with no activity Fix: Add reaction utility activity
+- **Flurry of Blows** (`class-features/5a39cd94b6ff4706.json`): Spend 1 spirit point for two unarmed strikes as bonus action; no consumption. Fix: Add 1 spirit consumption.
+- **Gigantic Might** (`class-features/d9b414f820820316.json`): Expend grit point; no consumption Fix: Add grit consumption
+- **Goading Attack** (`class-features/3e7bcd9669d8abb5.json`): Expends a superiority die but damage/save activities have no consumption target; superiority die not tracked. Fix: Add consumption of the superiority-dice item uses (or class resource) to the activities.
+- **Gracious Mercy** (`class-features/7dc9a6c8786c3bbb.json`): Gracious Mercy: short/long rest recovery missing; 5 spirit point cost not modelled Fix: Add recovery period (lr/sr per text) and listed immunities/effects
+- **Grasping Ammo** (`class-features/bfccf92bc372a57b.json`): movement.walk -10 on self instead of target; Str (Athletics) check not modeled Fix: Remove self effect
+- **Hand of Healing** (`class-features/1d3752d235681738.json`): Heal activity has no formula (brawler die + Wis); rec missing (short/long rest) Fix: Add formula and rec.
+- **Hellfire Halitosis** (`class-features/1442440c2f3ea9c0.json`): Save DC empty; damage fixed 5d6 but text scales to 8d6/11d6; rec missing (long rest) Fix: Set DC, scaling, rec lr.
+- **Hostile Charge** (`class-features/b126ce5a9d225c0a.json`): Extra damage equal to level once per turn; no damage activity Fix: Add damage
+- **Immortal Will** (`class-features/40ff4d72c830ba20.json`): Costs 4 spirit points as an action and grants resistance to all but force plus advantage on attacks for 1 minute; no cost, no effect. Fix: Add 4 spirit consumption and an Active Effect (dr all except force, attack advantage, 1 minute).
+- **Infection Radius** (`class-features/12e26195b7527bf4.json`): Con save activity has no DC and no necrotic damage (1d6/1d8/1d10/1d12 by level) Fix: Set DC and scaled damage.
+- **Intimidating Glare** (`class-features/a617d07cf611c96e.json`): Intimidating Glare: Wis save has no DC (8+prof+Str) Fix: Add DC
+- **Keen Combatant** (`class-features/c7d858fd5bd94c7b.json`): Extra Favored Mark uses = prof not modeled Fix: Adjust uses
+- **Killshot** (`class-features/bd58238b0b86884a.json`): Instant kill at 25/50 HP has no activity Fix: Add special utility
+- **Liquor Lord** (`class-features/5f9726375eb305f3.json`): Costs 6 spirit points as bonus action; no consumption. Fix: Add 6 spirit consumption.
+- **Make Your Mark** (`class-features/d1f8d9fe84a86a2f.json`): Cold Indifference: AC -2/half speed effect and Touch of Winter not modeled; single utility only Fix: Add activities/effects
+- **Mechanical Cannon** (`class-features/87630688c2a4a3ef.json`): Mechanical Cannon: once per long rest but no uses/recovery or activity cost Fix: Add uses 1, rec lr, itemUses:1
+- **Medical Expertise** (`class-features/d1013cb035a4594c.json`): Bonus-action special attack extra damage half fighter level has no formula Fix: Add damage formula
+- **Menacing Attack** (`class-features/ae49e1ec49c1e5a7.json`): Expends a superiority die but activity has no consumption Fix: Add superiority-die consumption
+- **Mesmerizing Words** (`class-features/e94a76f7dee61f88.json`): Expend Bardic Inspiration for extra die; no consumption Fix: Add consumption
+- **Moot Words** (`class-features/8d21f3fcba9ddbe4.json`): Moot Words: expends Bardic Inspiration but no consumption Fix: Add itemUses cost targeting Bardic Inspiration
+- **Obliterate** (`class-features/51293dcfec461b71.json`): Dex save activity has no DC (creation save DC). Fix: Set DC from creation save DC formula.
+- **Observation Obliteration** (`class-features/f05a63012211fce8.json`): Save activity has no DC (should be Conqueror DC) and no 1 minute loss-of-haki effect with repeat save. Fix: Set dc formula for Conqueror DC; add duration effect.
+- **Oh Come My Way** (`class-features/4a3343c5880edcd1.json`): Action costing 6 spirit points; activity has no consumption and no save/DC info. Fix: Add 6 spirit consumption.
+- **Opening Act** (`class-features/e9c5b34b7194325b.json`): Bonus action Opening Act has no activity Fix: Add bonus utility
+- **Palm Strikes** (`class-features/e16ac244ad85f8c2.json`): Dex/Str save options not modeled Fix: Add save activities
+- **Paralysis Jutsu** (`class-features/b92857c208606e52.json`): Spend 3 spirit points; Con save vs Spirit DC; save activity has no DC, blank activation, no consumption Fix: Set DC 8+prof+wis, activation special, consume 3 spirit points
+- **Parry** (`class-features/b0094732be866d93.json`): Parry expends superiority die and reaction; AC bonus (die + Dex) modeled as damage activity, no consumption Fix: Add consumption; model as AC bonus activity
+- **Patient Defense** (`class-features/5129621868d2b6a2.json`): Costs 1 spirit point for Dodge as bonus action; no consumption. Fix: Add 1 spirit consumption.
+- **Perfected Form** (`class-features/d921de3edcfb66a8.json`): Thunder 1d4 effect permanent not only while raging; crit shockwave level thunder damage not modeled Fix: Gate to rage, add damage activity
+- **Piercing Shot** (`class-features/b833316a1f4d1880.json`): Expend grit point; save activity has no damage and no consumption Fix: Add grit consumption and damage
+- **Pushing Attack** (`class-features/30f07673b409746e.json`): Expends a superiority die but no consumption target and no uses/recovery Fix: Add superiority die consumption.
+- **Raging Charge** (`class-features/1880c3abfbe86f3c.json`): Strength save activity has no DC; rec missing (long rest) Fix: Set DC and rec lr.
+- **Rally** (`class-features/4af204d43539d272.json`): Bonus action, expends superiority die, grants temp HP (die + Fighter level + Cha); heal activity has no consumption or formula. Fix: Add die consumption and temp HP formula.
+- **Rallying Presence** (`class-features/fe17f945511f1476.json`): Pool equals 5 x savant level HP but each use consumes only 1; heal activity has no formula; long-rest recovery missing. Fix: Set consumption to variable/user-chosen amount; add heal formula and lr recovery.
+- **Rapid Action** (`class-features/178238e619d7ee55.json`): Uses 1+Con mod (min 1) long rest and a reaction teleport: no uses, no recovery, no activities Fix: Add uses, rec lr, reaction activity.
+- **Reinforced Steel** (`class-features/c1fcad2d9e832c14.json`): AC +1/+2/+3 effects stack to +6; HP bonus absent; applies to defender not actor Fix: Level-gate
+- **Relentless Rage** (`class-features/ce2c8bda72dc97b9.json`): Heal 5x medic level not in heal activity; no consumption of Experimental Medicine use Fix: Add formula and consumption
+- **Riposte** (`class-features/6342f8a33eb11b7c.json`): Expends a superiority die; attack activity has no consumption. Fix: Add die consumption.
+- **Savage Hew** (`class-features/3b31ac4e34688755.json`): Damage "@prof" does not match text (double rage damage bonus) Fix: Replace with rage bonus formula.
+- **Savage Slam** (`class-features/09c0851faaf3217e.json`): Save activity (str) has no DC; no doubled damage dice or prone on fail Fix: Set DC and prone status.
+- **Second Wind** (`class-features/23f216bacce86bea.json`): Heal activity has no formula (1d10 + fighter level); rec missing (short/long rest) Fix: Add formula and rec.
+- **Second-story Work** (`class-features/caaa9961ea401108.json`): multipliers.overall=2 and roll.mode=1 apply broadly; text only carry capacity, Athletics push/pull, Con saves Fix: Restrict effects
+- **Signature Fighting Style** (`class-features/e2e1f4e3efe01e09.json`): All four fighting style effects enabled simultaneously Fix: Make conditional on chosen style
+- **Six Techniques** (`class-features/5eaeaaa2566d0e43.json`): Spirit point costs (Moon Walk 1 spirit etc.), no activities or consumption for techniques. Fix: Add activities with spirit consumption.
+- **Slippery Devil** (`class-features/1a034aa225d5f767.json`): Text only grants Dodge as bonus action but item has a wis save activity and permanent ac.bonus=2 effect (copy of Swashbuckler feature) Fix: Remove save activity and AC effect.
+- **Spirit Fist** (`class-features/7559a48a3d1ceb9f.json`): Spirit Fist: bonus action spending 1 spirit point has no cost Fix: Add spirit point consumption
+- **Spirit Unleashed** (`class-features/eb923ad326e16f65.json`): Dex save activity has blank DC and no damage (3/4 martial arts dice); spirit-point fallback and flight not modeled Fix: Set DC, damage
+- **Spirit Warrior** (`class-features/1174936f42da0552.json`): Spend 5 spirit points and 1-minute duration not automated Fix: Add spirit consumption and duration.
+- **Strongarm** (`class-features/db153acbbdcebdc9.json`): Cocktail effects permanent on self rather than per cocktail activity; heal activity no formula Fix: Attach effects to activities
+- **Stunning Strike** (`class-features/a6eae39f0993908a.json`): Stunning Strike: 1 spirit point not a cost; Con save has no DC Fix: Add spirit consumption and DC
+- **Surface Pressure** (`class-features/ba551512c4585fa0.json`): Martial Arts die bludgeoning on shove/grapple has no activity Fix: Add damage
+- **Surgical Precision** (`class-features/58d9186d4749ccfd.json`): Expends a use of Experimental Medicine; action has no consumption. Fix: Add consumption of Experimental Medicine uses.
+- **Survivor** (`class-features/bab9a82700d24a9e.json`): Regain 5+Con each turn when bloodied; no activity Fix: Add heal
+- **Swarming Cluster** (`class-features/f986e3174f271acf.json`): Strength save has no DC (creation save DC); damage 1d6+ piercing activity formula malformed trailing +. Fix: Set DC; fix dmg to 1d6 piercing.
+- **Swarmkeeper Creations** (`class-features/cd6c50df8d8e4e50.json`): Relentless Rage DC 10 escalating +5 with reset on rest not modeled; blank activation Fix: Model DC escalation
+- **Sweeping Attack** (`class-features/31457cac4789aeed.json`): Expends a superiority die but no consumption target and no uses/recovery Fix: Add superiority die consumption.
+- **Swinging Stance** (`class-features/4e9de9f2f4145ebf.json`): Expends a spirit point for Swinging Stance (1 min concentration) but no consumption; d8 benefits unautomated. Fix: Add 1 spirit consumption and duration.
+- **Tactical Assessment** (`class-features/3e24dd2e9c728580.json`): Expends a superiority die but no consumption target and no uses/recovery Fix: Add superiority die consumption.
+- **The Open Hand** (`class-features/13c1e037fec8d8c1.json`): Con save/10d10 necrotic present but DC empty; 3 spirit point cost not consumed Fix: Set DC, add spirit consumption.
+- **Twisted Surgery** (`class-features/fbff637df7970c93.json`): Effect attack.mwak=1 gives permanent advantage on melee attacks; text only until end of turn after giving Bardic Inspiration. Activity has no duration/cost. Fix: Remove permanent effect; activity applies temporary advantage effect.
+- **Undying Devotion** (`class-features/c466ac93bd02a3a6.json`): Uses = Con mod per long rest absent; no activity Fix: Add uses and activity
+- **Vagabond Drill** (`class-features/10344be287d831a3.json`): Con save activity has no DC, no 30-ft cone; 4+ spirit condition not automated Fix: Set DC and cone target.
+- **Warding Master** (`class-features/12e0b60cd1cc6dec.json`): Reaction (1d8 AC bonus) described but no activity Fix: Add reaction activity.
+- **Water Heart** (`class-features/7c568c5011be5fa7.json`): Water Heart: save activity has no DC; no spirit point cost or 2d6/point scaling Fix: Add DC and spirit consumption
+- **Water Shot** (`class-features/bd9679dfe3a035dd.json`): Attack activation blank; damage uses @mod, undefined; range 60 ft not set Fix: Set @abilities.dex/wis.mod, range
+- **Wringing Shot** (`class-features/6031c8176a7ec6a7.json`): Expends a grit point on firearm attack; save activity has no consumption. Fix: Add grit consumption.
+- **Aura of Vitality** (`creations/ce4741c94df02b14.json`): Bonus action heal 2d6 but only an action utility with no healing. Fix: Add bonus-action heal activity 2d6.
+- **Banishing Smite** (`creations/3aa7283e10d480b2.json`): Only extra 5d10 force; the Wisdom save to banish is missing. Fix: Add Wis save activity (spell DC) applying banish/incapacitated for 1 minute.
+- **Beacon of Hope** (`creations/ee6ed2c305f1f5b8.json`): Activity is Wisdom save; text is a buff without save. Fix: Utility activity with save advantage effect.
+- **Blazing Stride** (`creations/d46c15bab9abe681.json`): Speed +20 has no effect; damage activity is bonus action but trail damage is passive on movement. Fix: Add speed +20 effect; make damage a utility/special activity.
+- **Bless** (`creations/ccb9dfbc7ed63dd4.json`): Buff d4 to attacks/saves but activity is a Strength save and no effect. Fix: Change to utility; add bonus effect 1d4.
+- **Circle of Power** (`creations/a3b81803df3cde34.json`): Circle of Power grants advantage on saves, but activity is a Str save with no matching target logic and no effect. Fix: Replace with utility activity and save-advantage effect.
+- **Cure Wounds** (`creations/22c6f718cbfa9a76.json`): Heal activity has no healing formula (2d10 + creativity mod, +2d10 per slot). Fix: Add heal formula 2d10 + @mod.
+- **Elemental Trap** (`creations/f7223f8e50caa15b.json`): Effects ac.bonus=-2 and movement.walk=0 apply unconditionally rather than per damage type on failed save. Fix: Make effects conditional/applied per save activity (acid AC-2, cold speed 0, end of next turn).
+- **Floating Shield** (`creations/7be58b7c8feaa947.json`): +2 AC bonus has no active effect. Fix: Add effect system.attributes.ac.bonus +2.
+- **Foresight** (`creations/e8bdbb5db452a94a.json`): Activity is a Strength save; text is a buff (advantage, cannot be surprised). Fix: Utility activity with advantage effects.
+- **Frigid Bullet** (`creations/ed21d3e954e23387.json`): Activity is an attack; text has Con save for restrained; save missing. Fix: Add Con save activity.
+- **Giant's Hand** (`creations/e4855980dc7590ff.json`): Clenched Fist damage is 4d8 + mod; activity has 2d8; bonus action to move/attack not modeled. Fix: Fix damage 4d8+@mod; bonus-action activity.
+- **Guidance** (`creations/cb2d0e22dcce9cdd.json`): Buff d4 to checks/saves but activity is a Strength save. Fix: Change to utility with d4 bonus effect.
+- **Haste** (`creations/649d3310e351d44e.json`): Haste: +2 AC, double speed, adv on Dex saves, but the only activity is a Dex save and no effects exist. Fix: Replace save with utility; add effects ac.bonus +2, movement x2, Dex save advantage.
+- **Heal** (`creations/53e63c27e476d3fd.json`): Heals 70 HP but activity is utility, not heal. Fix: Change to heal activity with 70 healing; scaling +15 per slot above 6th.
+- **Hymn of Healing** (`creations/a1843dbf9ab667de.json`): Heals 2d10 + creativity mod for 6 targets but activity is utility (minute). Fix: Heal activity 2d10+@mod; activation per text.
+- **Intellect Fortress** (`creations/c93589cdde7500c1.json`): Resistance to psychic and advantage on INT/WIS/CHA saves, activity is a Cha save; no effect. Fix: Utility activity plus resistance and save advantage effects.
+- **Irresistible Dance** (`creations/e525530475f32c85.json`): Activity is Dex save; the only save in text is Wisdom to end the effect. Fix: Change save to wis (end-of-effect action).
+- **Mass Healing Word** (`creations/a9b8cab431f8e50e.json`): Mass Healing Word heals 2d6 + mod but activity is utility. Fix: Heal activity 2d6 + creativity mod, scaling 1d6.
+- **Prime Ward** (`creations/6df0b8fb62a232ab.json`): Reaction to gain immunity has no reaction activity; resistance to five damage types has no effect. Fix: Add reaction utility activity and dr effect.
+- **Protection from Poison** (`creations/d35ee8b9563d9adb.json`): Activity is Strength save; text is touch buff (advantage vs poison, poison resistance); no effect. Fix: Utility activity plus resistance/advantage effect.
+- **Regenerate** (`creations/f81c6ddd960e508d.json`): Heal activity has no formula (4d8+15) and is minute activation, and 1 HP/turn not modeled. Fix: Set heal 4d8+15, action activation.
+- **Shield** (`creations/2a4f8f44648da00a.json`): +5 AC until next turn not modeled by an effect. Fix: Add effect system.attributes.ac.bonus +5 with 1-round duration.
+- **Stoneskin** (`creations/2d85288f324815a7.json`): Resistance to bludgeoning/piercing/slashing has no effect. Fix: Add dr effects for bludgeoning, piercing, slashing.
+- **Tough Skin** (`creations/0d71630543b4c844.json`): AC can't be less than 16 (scaling 17-19) has no active effect. Fix: Add AC effect (override/min 16).
+- **Toxic Trigger** (`creations/eaf9858d78f2a00f.json`): Extra 1d10 poison is a bonus action; activity is attack type; missing Con save. Fix: Change to damage; add Con save activity.
+- **Twist Fate** (`creations/20c88990c23db106.json`): Reaction activity is a Strength save, but text has no save (forced reroll; advantage to another). Fix: Change to utility activity (reaction).
+- **Bat-Bat Fruit** (`devil-fruits/64ed45e774d28af6.json`): Bat-Bat: Fruit uses, hybrid form with fly 45 ft, temp HP; no uses/activity/effects Fix: Add uses, form activity, fly effect
+- **Cat-Cat Fruit, Model: Saber-Toothed Tiger** (`devil-fruits/4bd85526ae03ce0e.json`): Saber-Tooth fruit: forms and Fruit Uses not automated; no activities/uses Fix: Add uses and transform activities
+- **Cloud-Cloud Fruit** (`devil-fruits/58239d9496cec208.json`): Cloud-Cloud: bonus action Elemental Domain for 1 min, Fruit uses, 60 ft fly speed; no activity/uses/effect Fix: Add uses, bonus activity, fly effect
+- **Dice-Dice Fruit** (`devil-fruits/644d076004454419.json`): Dice-Dice: bonus action spending a use for 1 min effect; no uses/activity Fix: Add uses and bonus activity
+- **Dog-Dog Fruit, Model: Werewolf** (`devil-fruits/09134a40e4549d1b.json`): Werewolf fruit: Hybrid/Full Beast form, Fruit Uses (table) have no uses/activities Fix: Add uses scaled by level, form activities
+- **Fura Fura no Mi** (`devil-fruits/cf17a127ac22da0b.json`): Fura Fura: 20 ft aura DC 16 CON save for slow and reaction impose disadvantage; no activities Fix: Add save activity DC16 and reaction activity
+- **Peto Peto no Mi** (`devil-fruits/834cf36a42abfbc7.json`): Peto Peto: Wis save tame and once per day summon 1d4 beasts; no activities/uses Fix: Add save activity and 1/day summon use
+- **Phezu Phezu no Mi** (`devil-fruits/e800d6fc071bcec3.json`): Phezu: Flight of the Bumblebee Recharge 5-6, DC 15 CON save 4d8 force, heal 2d8; Clair de Lune 4d8+4 heal; no activities Fix: Add save/heal activities with recharge
+- **Swap-Swap Fruit** (`devil-fruits/689058e08c898c3c.json`): Swap-Swap: spend fruit use as action/bonus/reaction, Wis save vs DC; no uses or activities Fix: Add uses and save activity
+- **Adept Inspiration** (`feats/a0e95f1739bd1142.json`): Grants 2 Bardic Inspiration uses (long rest) with no uses/recovery/activity. Fix: Add uses 2, lr recovery, utility bonus activity.
+- **Beary Blue** (`feats/8d61e82c1671e24c.json`): 3 negativity dice (d6) short/long rest; no uses or activity. Fix: Add uses 3 sr/lr and activity.
+- **Bioluminescence** (`feats/b44886425906f9a4.json`): Once per short or long rest Constitution save to blind for 1 minute: no uses/recovery and no save activity. Fix: Add uses 1 sr/lr and a save activity (con, creation save DC).
+- **Cruel** (`feats/cd779b44eafae6c5.json`): Haste: speed x2, +2 AC, Dex save advantage have no effect; a bogus save activity exists. Fix: Add effects (ac bonus +2, dex save adv); remove save activity.
+- **Crusher** (`feats/74afcd9a5f789a51.json`): Effect attack.all=1 is permanent on owner; text gives attackers advantage vs the target for a round after a bludgeoning crit. Fix: Remove self effect; move to a target-applied effect on the crit activity.
+- **Expressionist** (`feats/ced2a173b0f5705c.json`): Immune cold, resist fire, difficult terrain, bonus-action 20ft cone Con save 4d6 cold; effects missing, cone activity is action not bonus. Fix: Add dr/di effects and bonus cone save activity.
+- **First Aid** (`feats/f07d66686e7b69f0.json`): Action: restore 1d6+4 + max Hit Dice HP; activity is utility, not heal. Fix: Change to heal activity 1d6+4+@details.level.
+- **Inky Depths** (`feats/9d269c82cd0d08ce.json`): Text: once per short or long rest, but no uses/recovery; activity has no consumption. Fix: Set uses max 1 with sr/lr recovery and itemUses:1 consumption.
+- **Joyful** (`feats/628f8d5280efb971.json`): 3 positivity dice (d6) short/long rest; no uses, reaction/bonus activities have no cost. Fix: Add uses 3 sr/lr and consume on activities.
+- **Katana Master** (`feats/39b3aeef347aab36.json`): Ken Dice (prof number, d4, short/long rest) have no uses or consumption; reaction activity has no cost/AC bonus. Fix: Add uses @prof sr/lr, consumption on activities, damage d4+@prof.
+- **Knack Of The Pretender** (`feats/5acc594d39a91cc4.json`): Effect bonuses.check +1d4 applies to every check; text limits d4 to Acrobatics/Deception and it is optional. Fix: Restrict to skills acr/dec.
+- **Logia Improved Elemental Domain** (`feats/93518b9b1f012198.json`): Immunity to B/P/S is permanent but text grants it only at 10th level; 5th and 15th/20th features not leveled; reactions have no cost. Fix: Gate effect by level (advancement) and add fruit use consumption on reaction.
+- **Lucky** (`feats/579b7da190b364cd.json`): 3 luck points with long rest recovery; no uses or activity. Fix: Add uses 3 recovery lr and utility activity consuming 1.
+- **Master Carpenter** (`feats/a6e623ccb1e277ea.json`): Construct Hut/Boat once per long rest with no uses/recovery; activity has no consumption. Fix: Add uses 1, lr recovery, itemUses:1 consumption.
+- **Naturalist** (`feats/0ea9ed9b67d21860.json`): Unarmored AC 13 + Dex not automated; Detect Poison and Disease once per long rest has no uses/activity. Fix: Add AC calc effect (ac.calc natural/override 13 + dex); add uses 1 lr.
+- **Nimble Legs** (`feats/73b9abccc036bcd7.json`): Shove Strength save (DC 8+prof+Str/Dex) not modeled; bonus activity has no save. Fix: Add save activity str with DC formula.
+- **Religious** (`feats/a1201d2ce3a3fb6e.json`): Free Twist Fate a number of times = proficiency bonus (regain on rest) but no uses/recovery/activity. Fix: Add uses @prof, recovery, and a utility activity consuming 1.
+- **Sentinel** (`feats/df9923859fb8fc09.json`): Resistance to acid/cold/fire/lightning/thunder has no effect; reaction for immunity has no activity. Fix: Add dr effects and reaction activity.
+- **Sharpshooter** (`feats/6b9469f76e65aa7d.json`): Effect rwak.attack=-5 and damage +10 is permanently applied; text makes it an optional choice per attack. Fix: Make the effect disabled by default / toggle activity.
+- **Shotgun Master** (`feats/20f49cacc653c6f9.json`): In-place-of-attack 5ft cube Dex save (DC 8+Dex+prof) has no save activity. Fix: Add save activity dex with that DC and weapon damage.
+- **Spear Mastery** (`feats/75376f6ada5fc0ff.json`): Wide stance Strength save (DC 8+prof+Str/Dex) has no save activity; stances have no activity. Fix: Add save activity and stance activities.
+- **Zoan Enhanced Form** (`feats/108138953659e79b.json`): Effect +1d8 damage is always on; text says only while Enhanced Form (1 hour) active, costing a devil fruit use. Recovery lr not set. Fix: Make effect conditional/disabled by default enabled by activity; add lr recovery and duration.
+- **Zoan Hybrid Form** (`feats/ee936ad7643afd82.json`): Resistance to B/P/S has no effect; bonus-action earthquake save activity is typed action. Fix: Add dr effect, set bonus activation.
+- **Boots of Speed** (`items/4c334489ae90eeaa.json`): Bonus action to double speed, 10 min/long-rest limit; no activity, uses, recovery or speed effect. Fix: Add bonus-action utility, uses 10 (minutes) lr, and walk x2 effect.
+- **Charcoal Burner Coffee** (`items/6a88ae3ed2fc71e7.json`): Grants temp HP (10+Chef mod+prof) and Bless for 1 hour but no activity or effect. Fix: Add activity granting temp HP and bless-like effect.
+- **Defender Field (Staff of Defense)** (`items/a3ea55fbeccdea62.json`): 10 charges, no dawn recovery (1d6+4); +1 AC while held has no effect; Gadget Armor 1 / Shield 2 charge costs not modeled Fix: Add recovery, +1 AC effect, second activity cost 2
+- **Defiance of the Red World** (`items/34cd477d25ea08bd.json`): Wakened bonus-action mark (uses = prof bonus, long rest) has no activity, uses or recovery; only necrotic damage activity. Fix: Add bonus-action utility with uses @prof, lr recovery.
+- **Energy Steroids** (`items/2323c71a4d334861.json`): +2 to physical ability scores for 10 minutes, no effect; activity lacks duration/effect. Fix: Add active effect +2 str/dex/con, 10 min duration.
+- **Force Gun (Wand of Magic Missiles)** (`items/8b5c7f6aa64f9719.json`): 7 charges but no recovery (1d6+1 at dawn); activity cost fixed at 1 so extra charges/slot scaling not modeled Fix: Add dawn recovery formula 1d6+1; add consumption scaling
+- **Jet Dial** (`items/2d006d677eeb3c36.json`): 3 charges long rest but no recovery; first utility activity has no consumption. Fix: Add lr recovery; consume itemUses on the Gust of Wind activity, remove/merge duplicate.
+- **King Crab Casserole** (`items/52f07ce68a91688f.json`): Resistance to B/P/S for 1 hour but no activity, uses or effect. Fix: Add consume activity and resistance effect with 1 hour duration.
+- **Pocket Hospital** (`items/45ad3cf4238bb47e.json`): 10 charges dawn recovery missing; single activity costs 1 but Cure Wounds is 1/level, Lesser Restoration 2, Mass Cure Wounds 5. Fix: Add recovery dawn 10; separate activities with correct costs.
+- **Raid Suit** (`items/760551e6fd740f1b.json`): Text grants +2 AC and no stealth disadvantage; only movement.walk effect exists, no AC bonus effect Fix: Add ac.bonus +2 effect
+- **The Raging Drum** (`items/3945d63dd7806abf.json`): 7 charges regain at dawn but no recovery; Command costs 1 charge and Fear costs 3, only one generic activity costing 1. Fix: Add recovery dawn 7; split into Command (1) and Fear (3) activities with correct consumption; +2 attack/DC effect.
+- **Bubble Floater** (`racial-features/c62a73958b4a0158.json`): Bubble Floater grants +20 walking speed for 8 hours with no effect. Fix: Add movement.walk +20 effect on the activity.
+
+## Low
+
+- **Agile Reflexes** (`class-features/bb29484bfc111107.json`): ac.bonus effect permanent; text conditional per attacker Fix: Gate
+- **Alchemical Savant** (`class-features/e24e885697686c93.json`): Int mod bonus to creation rolls: no effect Fix: Add effect
+- **Ambush** (`class-features/73ad7ebec4b75e11.json`): Superiority die expended but not consumed Fix: Add superiority die consumption
+- **Analytical Strike** (`class-features/96fec4cb06ca4916.json`): Analytical Strike: Cha save activity has no DC Fix: Add DC
+- **Ancient Aspect** (`class-features/d802b3a43ea5dc44.json`): No Advanced Arsenal consumption; activation action vs in place of attack Fix: Add consumption
+- **Aura of Protection** (`class-features/91a9d87c82ec490c.json`): Aura of Protection: save bonus equal to Cha mod has no effect Fix: Add aura effect
+- **Awaken the Maiden** (`class-features/f26805ce301cd4fb.json`): Costs 2 Spirit Points; no consumption. Fix: Add resource consumption of 2 spirit points.
+- **Bait and Switch** (`class-features/861731b9e8e48da3.json`): Superiority die expended but not consumed Fix: Add superiority die consumption
+- **Brace** (`class-features/f1a4261e395b2424.json`): Reaction expends a superiority die; no consumption. Damage uses scale value. Fix: Add consumption of superiority die resource.
+- **Bully Blitz** (`class-features/c23875d6a24991a1.json`): Six roll.mode=-1 effects apply to self permanently; text affects targets Fix: Remove
+- **Chemistry Menagerie** (`class-features/38b85d5c394ce9a3.json`): Effect movement.fly=30 always-on though it is one of several optional options (10 min) Fix: Remove permanent effect.
+- **Combat Medicine** (`class-features/d9e312f5d9d46fb1.json`): DC and 1d100 table not rollable Fix: Add
+- **Commanding Presence** (`class-features/e6d46541154b4689.json`): Commanding Presence expends superiority die; no consumption Fix: Add superiority-die consumption
+- **Covering Fire** (`class-features/e577e504b7887d0d.json`): Expend grit point; no consumption Fix: Add grit consumption
+- **Customized Creativity** (`class-features/da0b94b1e7cfc3f8.json`): Strongarm: action attack activity has no attack/damage Fix: Add
+- **Cut Time** (`class-features/f775c23a51411d96.json`): Heal formula missing. Fix: Add formula.
+- **Dark One** (`class-features/29241ffb818f33a2.json`): Darkvision 60 in text but no senses.darkvision effect Fix: Add effect.
+- **Defense Roll** (`class-features/c734d7514c415215.json`): Attack/damage +1/+2/+3 effects all enabled together Fix: Level-gate
+- **Deflect Missiles** (`class-features/629764f8f823a475.json`): Reaction reduction 1d10+Dex+level and 1 spirit point for catch-throw not modelled. Fix: Add heal/formula and spirit consumption.
+- **Deflecting Shot** (`class-features/f4fa99c868e3e698.json`): Expends a grit point; no consumption. Fix: Add consumption of grit point.
+- **Deft Explorer** (`class-features/08160491cec413a4.json`): Movement effect +10 walk/climb/swim always-on although text is a choose-one-of-three option; stray heal activity with item use Fix: Move effect to Roving option only; drop heal activity; add rec.
+- **Disarming Shot** (`class-features/9c80cc1a5fa6ad77.json`): Disarming Shot: expends grit point, no cost Fix: Add grit consumption
+- **Distracting Strike** (`class-features/96d9794bf37e198a.json`): Superiority die expended but not consumed Fix: Add superiority die consumption
+- **Duplicitious Strike** (`class-features/e18abca5cca3f4e1.json`): Cost dice not modeled Fix: Note
+- **Exhausting Shot** (`class-features/747d104975b78bb1.json`): Exhausting Shot: expends grit point, no cost Fix: Add grit consumption
+- **Experimental Application** (`class-features/cef4d60303c2ee2c.json`): Both op5e.unarmedDieStep=2 and =3 present; extra unarmed strike no activity Fix: Make step conditional
+- **Experimental Ooze** (`class-features/9010b05fe5c283bb.json`): Experimental Ooze: expends Experimental Medicine use, no cost Fix: Add consumption
+- **Exploding Shot** (`class-features/64087df841443a87.json`): Dex save activity has no DC (Creation Save DC). Fix: Add DC formula.
+- **Fighting Style: Thrown Weapon Fighting** (`class-features/35da5086b9906249.json`): +2 thrown damage not modeled Fix: Add rwak.damage +2 effect.
+- **Fighting Style: Thrown Weapon Fighting** (`class-features/afe7ed41bd8997f6.json`): +2 thrown damage not an effect Fix: Add effect
+- **Fighting Style: Thrown Weapon Fighting** (`class-features/fdaea449c4e40389.json`): +2 thrown ranged damage not an effect. Fix: Add rwak damage +2 conditional.
+- **Flame Render** (`class-features/ad74ae83ec904fef.json`): Flame Render: reaction spends Foxfire point, no cost Fix: Add consumption
+- **Flexible Spirit** (`class-features/50fef9479d6af283.json`): Converts spirit points to slots (2/3/5/6/7) with no consumption. Fix: Add variable spirit consumption.
+- **Fortified Position** (`class-features/2ed6ff11b6cdd9dc.json`): +2 AC and Dex save for allies within 10 ft not modeled Fix: Add aura effect.
+- **Fury of the Storm: Thunderstorm** (`class-features/fada73c6f14780b4.json`): Expends a grit point; no consumption. Fix: Add consumption.
+- **Grappling Strike** (`class-features/9e8721e6052fef2f.json`): Superiority die expended but not consumed Fix: Add superiority die consumption
+- **Guidance of the World** (`class-features/106238bbd4fc120f.json`): Usage limits (7 days / long rest / short rest by level) not modeled Fix: Add uses scaling and recovery.
+- **Hand of Harm** (`class-features/c17e45e154d64b81.json`): Damage uses @mod and spirit-point fallback not modeled Fix: Use wis mod
+- **Honed Senses** (`class-features/e62c425db42f411f.json`): Blindsight 10 not modeled Fix: Add senses.blindsight=10
+- **Hunter's Eye** (`class-features/c8da955c30125a48.json`): Third activity uses @prof instead of rage damage bonus Fix: Use rage scale
+- **Ignite** (`class-features/87747bfd5353a8ff.json`): Ignite: expends Foxfire point, no cost Fix: Add Foxfire consumption
+- **Lunging Attack** (`class-features/f37b7db4d081a1ba.json`): Expends a superiority die; no consumption. Fix: Add consumption.
+- **Maneuvering Attack** (`class-features/9c6a6d3689db8c47.json`): Superiority die expended but not consumed Fix: Add superiority die consumption
+- **Mending Mark** (`class-features/9f773ba37cb3af7b.json`): Mending Mark: expends a Favored Mark use, no cost Fix: Add consumption
+- **Mountain Stance** (`class-features/7888ca1791a2f3e8.json`): Mountain Stance: reaction spends spirit point, no cost Fix: Add spirit cost
+- **Move Mountains** (`class-features/3f55000de4383cac.json`): Strength save activity has no DC (text: 8 + prof + Str mod). Fix: Set DC formula 8 + @prof + @abilities.str.mod.
+- **Ninja Arts** (`class-features/f98a7a762a7779ab.json`): Costs 2 Spirit Points; no consumption; bonus action Hide/Search absent. Fix: Add consumption and bonus activity.
+- **Omega Operative** (`class-features/2871a8d1be570efe.json`): Phase Step bonus action has no effect; +1/+2/+3 effects should be level-gated Fix: Level-gate effects.
+- **Ordnance Requiem** (`class-features/389b8318ae93050a.json`): Expends Bardic Inspiration but no 2d6 (scaling) damage in activity Fix: Add scaled damage.
+- **Pandemic Amplification** (`class-features/b0d828fd66c38870.json`): Reduce healing by Wis mod in aura; no activity Fix: Add utility
+- **Patchwork** (`class-features/31fd486eacb3c80d.json`): Heal activity has no formula (dice + Wis); rec missing (short/long rest) Fix: Add formula and rec.
+- **Peerless Understanding** (`class-features/b794a9cd0336f6fe.json`): Disadvantage on next save no activity Fix: Add
+- **Potent Expression** (`class-features/b3f25462cca9143e.json`): Wis mod to creation damage: no effect Fix: Add effect
+- **Precision Attack** (`class-features/738fc9bcfbd1b11b.json`): Superiority die expended but not consumed Fix: Add superiority die consumption
+- **Primal Totem** (`class-features/68e3fc8a7308fabf.json`): Totem effects grant resistance to 5 specific damage types unconditionally, text says chosen types while raging. Fix: Make conditional on rage / chosen types.
+- **Quick Toss** (`class-features/a147f7ce1dcdd016.json`): Superiority die expended but not consumed Fix: Add superiority die consumption
+- **Raging Storm: Snowstorm** (`class-features/1f2e7e3a5cb138a3.json`): Temp HP bonus activity has no formula (1d6 scaling to 4d6) Fix: Add scaled formula.
+- **Reactive Spirit** (`class-features/2ee4c3a31f05210b.json`): Spend 1 spirit point for extra reaction: no activity Fix: Add activity with cost.
+- **Ready to Rumble** (`class-features/d05b6cbac7ef4e9b.json`): Fire Fiend: +1d6 attack and Hellfire charge not modeled Fix: Add
+- **Rebound Bound** (`class-features/039d194b4e2194e6.json`): uses set but recovery periods are empty (long rest) Fix: Add rec lr.
+- **Reckless Brilliance** (`class-features/24d3b70b6cbddb1d.json`): Three damage resistances active simultaneously; text: one chosen type, only while raging Fix: Reduce to single resistance gated on rage.
+- **Set the Stage** (`class-features/dfd0feb95268fb2b.json`): Cha mod save bonus to allies: no effect Fix: Add aura effect
+- **Skirmisher** (`class-features/b3ff6f9195f23864.json`): Speed +10 (and climb/swim) has no effect Fix: Add movement effect
+- **Slippery Devil** (`class-features/3e5f536ffd2853ae.json`): +2 AC effect always-on; text says until start of next turn Fix: Make duration-limited.
+- **Soul of Artifice** (`class-features/00fa92082949c74e.json`): Reaction activity has no consumption; +1 to saves per active mod not modeled Fix: Optional effect.
+- **Spirit** (`class-features/153f3ee365062a72.json`): Spirit points: no recovery (short or long rest) Fix: Add rec sr/lr.
+- **Spirit Strike** (`class-features/a6a79c13becbf768.json`): Spirit Strike: spends 1 spirit point, no cost Fix: Add spirit consumption
+- **Swarming Tides** (`class-features/f5116a3791fcb29b.json`): Giants Hand free uses (1 + Wis, long rest) not modeled. Fix: Add second uses/activity.
+- **Tinkering** (`class-features/0ae05979537a0251.json`): Three +1/+2/+3 effects present; confirm they are level-gated (otherwise stack to +6) Fix: Gate by level.
+- **Tireless Spirit** (`class-features/eb35734015bf8642.json`): Second Wind bonus Wis mod not modeled Fix: Add effect
+- **Trip Attack** (`class-features/9ddcf5b14699a0a0.json`): Superiority die expended but not consumed Fix: Add superiority die consumption
+- **True Mind** (`class-features/dc49128caaf73736.json`): Blindsight 10 ft not modeled Fix: Add senses.blindsight=10
+- **Unarmored Movement** (`class-features/e96b50b5ddd1e52d.json`): Bonus action Dash/Disengage not modeled Fix: Add activity
+- **Unrelenting Fortress** (`class-features/10fc12c0ea9c479b.json`): Temp HP (2x proficiency bonus each turn while raging) has no formula Fix: Add 2*@prof formula.
+- **Violent Shot** (`class-features/9ae8f392408981eb.json`): Violent Shot: grit points not consumed Fix: Add grit consumption
+- **Voracious Velocity** (`class-features/d93e24d841bf6bf7.json`): uses=2 not in text; temp HP Wis not modeled Fix: Verify
+- **Warning Shot** (`class-features/a9d255c8192ca6af.json`): Warning Shot: expends grit point, no cost Fix: Add grit consumption
+- **Acid Reflex** (`creations/c0c553d885ae4e7a.json`): Second 3d4 end-of-turn damage not present. Fix: Add second damage part.
+- **Aid** (`creations/7e0adbf913f7450e.json`): Aid: +5 max and current HP has no automation. Fix: Add effect attributes.hp.bonuses.overall +5.
+- **Alacrity** (`creations/1eb3919edcf45764.json`): +1d8 to initiative has no effect. Fix: Add initiative bonus effect 1d8.
+- **Allure** (`creations/92d959b709d34824.json`): Allure: 1d6 bonus to persuasion has no effect. Fix: Add skill persuasion 1d6 bonus.
+- **Boost** (`creations/97817bf5f659fe6d.json`): Boost: +10 ft speed has no effect. Fix: Add movement.walk +10 effect.
+- **Compulsion** (`creations/32cdf3f808763d74.json`): Direction designation is a bonus action each turn; only an action-cost save exists. Fix: Add bonus-action utility activity.
+- **Defending Ward** (`creations/59cf46db7e96029f.json`): Resistance to B/P/S until end of next turn has no effect. Fix: Add dr effect bludgeoning/piercing/slashing.
+- **Disguise** (`creations/76d38e56279d9c22.json`): Disguise has a Str save activity but text has no save (Investigation check vs spell DC). Fix: Make utility activity; remove Str save.
+- **Elemental Armor** (`creations/193d738602cc863d.json`): 10 temp HP (scaling) has no activity or effect. Fix: Add temp HP formula to a heal/utility activity.
+- **Embody Flames** (`creations/f0e0967867dab07b.json`): Bonus action fire line is under action; fire immunity/cold resistance effect missing. Fix: Split bonus-action activity; add resistance effects.
+- **Embody Frost** (`creations/65b04a28ef516acc.json`): Embody Frost: cold immunity, fire resistance have no effect; cone is bonus action but activity is action. Fix: Add di/dr effects; set activity to bonus.
+- **Embody Stone** (`creations/71ed540361d97b29.json`): Embody Stone: B/P/S resistance has no effect; quake is a bonus action but activity is action. Fix: Add dr effect; set activity bonus.
+- **Enduring Spirit** (`creations/5f86ebca29ed80e1.json`): 10 temp HP (scaling 20-50) has no temp HP automation. Fix: Add heal/temp activity with 10 temp HP.
+- **Energy Surge** (`creations/e6711a195ea36c24.json`): Second 5d6 radiant/necrotic damage missing. Fix: Add second damage part.
+- **Fly** (`creations/edaa267452775bbc.json`): 60 ft fly speed granted with no effect. Fix: Add movement.fly=60 effect.
+- **Freedom of Movement** (`creations/3b56945c6313a802.json`): +10 ft movement has no effect. Fix: Add movement effect +10.
+- **Hero's Feast** (`creations/0b62b0da4014f2e9.json`): Activity is a Wis save, but text has no save; HP max increase (2d10 + mod) and temp HP not modeled. Fix: Change to utility; add HP max bonus effect.
+- **Illusionary Monster** (`creations/2d9668c53f9598ae.json`): Breath weapon bonus-action activity uses an Intelligence save; exhale blast likely Dexterity. Fix: Verify and set save ability to dex.
+- **Incidental Chorus** (`creations/28883bf7bcb36c33.json`): Text: bonus action each turn to beguile (Cha save); activity is an action. Fix: Set activation to bonus.
+- **Invulnerability** (`creations/cf2bdf5ecde5cd15.json`): Immunity to all damage, no effect. Fix: Add damage immunity effect.
+- **Kinetic Jaunt** (`creations/8cf4b73c55a48cc7.json`): Kinetic Jaunt: +10 walk speed has no effect. Fix: Add movement.walk +10 effect.
+- **Pass Without a Trace** (`creations/74b186a3a2fd9574.json`): +10 Stealth bonus has no effect. Fix: Add skill stealth bonus effect.
+- **Raise Dead** (`creations/89a3c636a1e96090.json`): Raise Dead has a Str save activity (1 hour) but text has no save. Fix: Make utility activity.
+- **Repair Vessel** (`creations/ff6fcf5bcc0a13ff.json`): Restores 60 HP, activity has no heal formula. Fix: Add heal 60.
+- **Shapechange** (`creations/b5fc6ad3a527a3a3.json`): Shapechange has a Str save activity but text has no save. Fix: Utility activity.
+- **Time Stop** (`creations/bc923f2a980de129.json`): Time Stop has a Str save activity but text has no save. Fix: Utility activity.
+- **Warding Wind** (`creations/302e2405ff915afd.json`): Has an attack activity but spell makes no attack; should be utility. Fix: Change to utility.
+- **Hai Hai no Mi** (`devil-fruits/7ddf2749f7e87d11.json`): Hai Hai: Phoenix Ashe healing dice pool, bonus action touch heal, no uses/activity Fix: Add pool uses and heal activity
+- **Mera Mera no Mi** (`devil-fruits/4870547c072fb4f9.json`): Mera Mera: fire burst 20 ft radius DEX save for half, no save activity Fix: Add save activity
+- **All-Consuming Maw** (`feats/9ac90cd7cd90a4d6.json`): Bonus action grapple and 1d4 piercing damage at start of each turn while grappling: no activity. Fix: Add bonus utility activity and a damage activity 1d4 piercing.
+- **Barbarian Adept** (`feats/f6258381e010c404.json`): Frenzy gives +2 damage and +2 Str checks/saves (bonus action) but no effect. Fix: Add activity-linked active effect.
+- **Boon of Endless Conviction** (`feats/0aeb6cc9bb27059c.json`): Heal activity lacks formula (Savant level); uses 2 recovery missing. Fix: Add heal formula @classes.savant.levels and lr recovery.
+- **Buck-Toothed** (`feats/771f3b8d5a78cd5b.json`): Uses prof sr/lr but no activity consumes it (tail slam 1d6 bludgeoning). Fix: Add damage activity with itemUses:1.
+- **Charger** (`feats/38cccd1cbfe77b34.json`): 1d8 bonus damage option has no activity. Fix: Add damage activity 1d8.
+- **Dark Wing Hunter** (`feats/a5b72100b5f14f5e.json`): Blindsight 10ft and flying speed equal to walk speed have no effects. Fix: Add senses.blindsight=10 and movement.fly effect.
+- **Dart Master** (`feats/c031a17a81679227.json`): Enduring Spirit gives 10 temp HP (scaling) but activity is utility with no heal/temp HP formula. Fix: Make heal activity type temp, 10 HP.
+- **Dueling Master** (`feats/82032088634841d4.json`): -5/+10 option and AC reaction not modeled. Fix: Add effects/activity.
+- **Elemental Attack** (`feats/fa1719bd69f3ed95.json`): Bonus action grants +1d8+prof elemental damage to next attack; no damage formula. Fix: Add damage 1d8+@prof on the activity.
+- **Enhanced Circuitry** (`feats/3c0cd6ff5d60cb51.json`): Countershock free uses prof/lr not modeled. Fix: Add uses @prof lr.
+- **Gliding Skin** (`feats/2c60e050b33ffeb7.json`): Reaction glide has no activity. Fix: Add utility reaction activity.
+- **Gourmand** (`feats/01a35d768c3e2412.json`): Treats equal to prof/long rest, temp HP level+Wis not modeled; no uses or temp HP formula. Fix: Add uses @prof and heal(temp) formula @details.level + @abilities.wis.mod.
+- **Heavy Armor Master** (`feats/8802be835e61ffcd.json`): Damage reduction 3 from B/P/S in heavy armor not an effect. Fix: Add dr.mod effect -3 conditional on heavy armor.
+- **Holey Moley** (`feats/2e7ca641f017cf31.json`): No effects for tremorsense 20ft or burrow speed. Fix: Add senses.tremorsense=20 and movement.burrow.
+- **Inspiring Leader** (`feats/83ba322751ee4f40.json`): Heal activity has no temp HP formula (2 x level + Cha). Fix: Add formula.
+- **Knack Of The Nurse** (`feats/22eb8e04d42629f0.json`): Uses prof per short or long rest not set; d4 healing not modeled. Fix: Add uses @prof and recovery.
+- **Knack Of The Warrior** (`feats/fb2dda7ffbd32701.json`): Shield creation free once per long rest: no uses/recovery. Fix: Add uses 1 lr recovery.
+- **Ocean's Scorn** (`feats/6e9d7ec2ca209e1e.json`): Many stacked effects (disadvantage, speed halved) may apply permanently; verify disabled by default. Fix: Ensure effects are toggled per water depth.
+- **Pragmatic Vanity** (`feats/13e1e99725be4b02.json`): Charm Person half-prof uses per long rest not modeled. Fix: Add uses floor(@prof/2) lr.
+- **Rapier Mastery** (`feats/146b198b34dbaa12.json`): Bonus action parry stance +1 AC has no effect. Fix: Add AC bonus effect on activity.
+- **Renegade Rodent** (`feats/f2a6d0e608c423a6.json`): Disengage/Hide as bonus action has no activity. Fix: Add bonus utility activity.
+- **Scimitar Master** (`feats/fd72cbbb04d52bf2.json`): Flourish spread DC 8+prof+Str/Dex not modelled as save. Fix: Add save activity.
+- **Sling Master** (`feats/f0326856a4d7a3fd.json`): Crit: Con save DC 8+prof+Dex or stunned: no save activity. Fix: Add save activity (con, DC 8+@prof+@abilities.dex.mod).
+- **Spirit Adept** (`feats/a84d841a14d51a3e.json`): Grants 2 Spirit points regained on short rest; no uses/recovery. Fix: Add uses 2 with sr recovery.
+- **Steadfast Scales** (`feats/a6b39db06054ab58.json`): Spend a Hit Die on Dodge to heal: no activity. Fix: Add heal activity consuming hit die.
+- **Strong Arms** (`feats/5238c5b11d777c5d.json`): Extra 2d6 damage once per combat has no damage dice. Fix: Add damage 2d6.
+- **Survivalist** (`feats/ef6646179d44344b.json`): Unarmored AC 10+Wis+Dex has no effect. Fix: Add ac.calc custom formula effect.
+- **Vehicle Master** (`feats/1e97a96e099036e6.json`): Repair 10 x prof HP once per long rest: no uses and no heal formula. Fix: Add uses 1 lr and heal formula.
+- **Voracity** (`feats/1e62a188eae535b6.json`): Food benefits (+10 speed, d4 bonuses, 1d12+level heal) not modeled. Fix: Add heal formula/effects.
+- **Boxing Ammo** (`items/9ec2234cefb7cc7a.json`): Save activity has no DC (8 + mental mod + prof) and no damage/prone note Fix: Set DC formula 8+@prof+mental mod
+- **Chain Shot** (`items/2bee39de4f50becb.json`): Utility activity, no damage specified. Fix: Add damage.
+- **Cold Ammo** (`items/ee2a414c5e697817.json`): CON save has no DC (8+mental+prof); speed/disadvantage 1 minute not modeled Fix: Set DC and effect
+- **Defiance of the Red World (Exalted)** (`items/6f3e6f11cef10b57.json`): Exalted lifesteal (heal equal to necrotic dealt) not automated; utility has no heal. Fix: Add heal activity or note as manual.
+- **Ensnarement Ammo** (`items/e50070883e2c3aa4.json`): STR save activity has no DC; restrained effect/repeat save not modeled Fix: Set DC and restrained effect
+- **Exploding Shell** (`items/69f617f5dbcbd149.json`): Utility activity with no fire damage. Fix: Add damage.
+- **Incendiary Ammo** (`items/3a2f3c0a71c01e24.json`): Ignite 1d6 per turn damage not separate. Fix: Add burning damage activity.
+- **Lucky Day** (`items/2d64bffc0b385920.json`): Bonus action Lucky clovers limited by Devil Fruit uses; no uses/consumption. Fix: Add uses/consumption.
+- **Mechanical Shield (Animated Shield)** (`items/8d26c43180f2dcec.json`): Text: bonus action animate for 1 min with end-early; two bonus utilities but no duration/effect Fix: Add 1 minute duration and animate/end activities
+- **Milky Dial** (`items/354b1c8504b3da32.json`): Action to create sea clouds, no activity. Fix: Add utility action.
+- **Rocket Ring (Ring of Jumping)** (`items/5c95034fb6f5827a.json`): Bonus action Jump at will, no activity. Fix: Add bonus-action utility.
+- **Round Shot** (`items/5872b0514bf58774.json`): Utility activity with no damage. Fix: Add damage.
+- **Seastone Handcuffs** (`items/934f989367a7dbf1.json`): CON save DC 20 end of turns to escape has no activity Fix: Add save activity CON DC 20
+- **Silver Tongue Sarsaparilla** (`items/bdacf9625ea5106a.json`): Silver Tongue Sarsaparilla: 1 hour Cha-skill bonus equal to Chef Tools mod has no activity/effect Fix: Add consume activity with 1h effect
+- **White Weapon (Non-Canon)** (`items/f98d08250482cf07.json`): White Weapon permanent +2 attack has no bonus/effect Fix: Set magical bonus or attack effect
+- **Electro** (`racial-features/c4df5568b1f3e69b.json`): Once per turn lightning damage rider and reaction lockout: no activity. Fix: Add utility/damage activity.
+- **Flaming Duality** (`racial-features/f51d0f14bf62d7ea.json`): Ignited/Godspeed forms (resistance, +10 speed) have no effects; forms not distinguished. Fix: Add effects per form.
+- **Sprint** (`racial-features/939c191a60d9e456.json`): Sprint doubles speed once per move; no activity. Fix: Add utility activity.
+
