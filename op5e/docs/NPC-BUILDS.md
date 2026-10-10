@@ -153,3 +153,15 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 - The suit is an equippable Plate Armor item (heavy, magical +1 from Propulsion Armor). Cyborg traits embedded by hand. Propulsion Gauntlets (1d8 force, thrown 20/60, Int) and the Palm Laser (a reflavored Flintlock).
 - CR pass: bespoke Suit Overcharge feature adds 2d6 weapon damage. Legacy flight, the four legendary actions and Overcharge Beam were dropped (user's choice; the compendium Propulsion Armor gives no flight).
 - Live in `OP5E/Marines`. Art is the user's pin (`Marines/marine-ensign-new.jpg`, logged in `docs/art-credits.md`), hand-painted concept, amber glow instead of cyan. Not played in a real fight.
+
+## Commander Leon (2026-10-10)
+
+`build-leon-custom.ts`, specs `leon-spec.json` (Fighter half) and `leon-brawler-spec.json`. Human Fighter 6 (Samurai) / Brawler 6 (Six Powers Master), Marine/Soldier, Role: Captain, fruit Mera Mera no Mi (Logia), no additional power. Scores 11/20/14/11/16/13 (Dex and Wis +2 from the level 4 ASIs, Flying Strikes +1 Dex, Human +1 all). Feats: Medium Armor Master (background), Tough (Captain), Flying Strikes, Permanent Haki-Imbuement. Fighting Style Dueling. Haki: Armament Novice, Observation Novice, Armament Apprentice. Skills: Athletics, Perception, Acrobatics, Survival, Intimidation, Persuasion, Insight, Stealth. Gear: Rapier, Shortsword, Light Crossbow, Heavy Longcoat and Navy Uniform (not worn).
+
+| NPC | CR | HP | AC |
+|---|---|---|---|
+| Commander Leon | 10 | 210 (override, real about 130, DMG CR 10 band 206-220) | 18 (Brawler Unarmored Defense 10 + Dex + Wis) |
+
+- Fruit: the compendium Mera Mera no Mi item, Logia Elemental Domain, Logia Improved Elemental Domain, Devil Fruit Uses (6, Logia table at level 11), Fruit-Fruit DC 17 (highest modifier is Dex), Ocean's Scorn. Powers are reflavoured creations, one use each: Flame body = Embody Flames, Flame slash = Burning Blade, Fire burst = Fireball, Flame command = Fire Bolt and Wall of Fire.
+- All six Rokushiki techniques (level 6). The longcoat gives AC 16, so Leon fights unarmoured; the coat is carried. Phase 2 ignition is the Logia transformation, not a separate form.
+- Live in `OP5E/Marines`. Art pending. Not played in a real fight.

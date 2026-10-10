@@ -1,0 +1,59 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "raceIdentifier": "human",
+  "powerFork": "neither",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "cr": 11,
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "name": "Commander Leon",
+  "classIdentifier": "brawler",
+  "subclassIdentifier": "six-powers-master",
+  "level": 6,
+  "choices": [
+    {
+      "stepId": "072b095fdf6d6261",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.626f152717a27ccf"
+      ]
+    },
+    {
+      "stepId": "0aaed0da7a5b68a6",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:ins",
+        "skills:ste"
+      ]
+    },
+    {
+      "stepId": "083500b7e8a198d3",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.4f0c7ad1d4a81581"
+      ]
+    },
+    {
+      "stepId": "67cc20a23845a043",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.097494380fd03456"
+      ]
+    }
+  ]
+}

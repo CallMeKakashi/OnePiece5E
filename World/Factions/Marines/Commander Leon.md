@@ -106,3 +106,7 @@ traits:
 - name: Fire Burst
   desc: Creatures in 20 ft radius take fire damage, half on success.
 ```
+
+## Foundry build
+
+Rebuilt 2026-10-10 in `bb-rehearsal` (`OP5E/Marines`): Human Fighter 6 (Samurai) / Brawler 6 (Six Powers Master), CR 10, AC 18, HP 210. Rapier duelist with all six Rokushiki techniques, Armament and Observation Haki, and the Mera Mera no Mi as a Logia with six Devil Fruit Uses. Flame body, slash, burst and command are reflavoured compendium creations. See `op5e/docs/NPC-BUILDS.md`.
