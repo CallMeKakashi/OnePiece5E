@@ -16,7 +16,7 @@ const FORGE_FACES = `(6 + 2 * ${T(6)} + 2 * ${T(10)} + 2 * ${T(14)})`;
 
 const sixKing: ActSpec[] = Array.from({ length: 10 }, (_, i) => ({
   name: `Six King Gun (${i + 1} spirit point${i ? "s" : ""})`, type: "save" as const, activation: "action" as const,
-  area: { type: "line" as const, size: 30 }, targets: { type: "creature" as const },
+  area: { type: "line" as const, size: 30 }, targets: { type: "creature" as const }, consumeUse: true, consumeTarget: "spirit", consumeAmount: String(i + 1),
   save: { ability: "con", dc: WIS_DC, onSave: "half" as const }, damage: [[`${(i + 1) * 2}d10`, "force"]] as [string, string][],
   note: i === 0 ? "A blast 5 ft wide and 30 ft long. A creature reduced to 0 hit points by this damage dies immediately. Spend the spirit points on the Spirit feature." : undefined,
 }));

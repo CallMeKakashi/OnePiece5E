@@ -30,3 +30,4 @@ import { batch7Specs } from "./text-batch7.js"; Object.assign(AUTOMATION, batch7
 import { auraSpecs } from "./auras.js"; Object.assign(AUTOMATION, auraSpecs);   // token-attached auras replace the earlier buttons
 import { effectsPackSpecs } from "./effects-pack.js"; Object.assign(AUTOMATION, effectsPackSpecs);
 import { atlItemSpecs } from "./atl-items.js"; Object.assign(AUTOMATION, atlItemSpecs);   // light, night vision and disguise through ATL
+import { auditFixSpecs } from "./audit-fixes.js"; Object.assign(AUTOMATION, auditFixSpecs);   // audit fixes replace earlier specs
