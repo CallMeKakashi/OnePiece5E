@@ -109,3 +109,5 @@ Not mentioned yet, still in place: Drez Crown, Petty Officer Marine (OpenSea), A
 - Khael Dhamar is built and imported (`OP5E/Sand Rats`, L8 / CR 5, HP 138, AC 14). Still to do: art (placeholder portrait; Pinterest search in progress).
 - Added to the rebuild queue: **Drez Crown** and **Petty Officer Marine** (OpenSea), **Alice**, **Cassian Valehart**, **Dravos**, **Malphas** (as an NPC), **Thunderbird Form 2** (a Malphas hybrid form, rebuilt with him).
 - Full remaining queue: Vex; Cecilia Moore, Tariq Solen, Irik Fen, Saeva Virell; Kaen Solaris, Vesper; Veyl and Serica Corven; Chuckles; Calder Voss, Goru Yamashita, Marine Ensign Mk III, Mikey, Morrow; Commander Leon, Drez Crown, Petty Officer Marine; SeaBeast Hermit Crab; Marine Warship (ship actor); Alice, Cassian Valehart, Dravos, Malphas plus Thunderbird Form 2.
+
+- **Vex: done.** No official monkey exists in the sourcebook (only the Mink racial feat Intuitive Primate and the Titan Ape), so he is the 2014 SRD Baboon from the dnd5e compendium (`dnd5e.monsters`), renamed, unchanged stats (CR 0, 3 HP, Pack Tactics, Bite), filed in `OP5E/Blackhand` with his existing portrait. Art for him is pending.

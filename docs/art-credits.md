@@ -24,3 +24,8 @@ Art pulled from Pinterest for Foundry portraits and tokens. Permission has **not
 - Original files are never overwritten; new art is saved as `<name>-new.jpg` next to the existing file.
 - Tokens are made locally (circular crop plus ring), not through third-party sites.
 - Update the Permission column when an artist is contacted, and swap or remove the art if they decline.
+
+## Pending art (no acceptable image found yet)
+
+- **Vex:** wants a small, fluffy grey monkey with a pale face, large blue eyes, a navy scarf, a brown leather harness and a golden sun medallion. Two filtered Pinterest searches found only realistic or AI-looking monkeys. Uses `Gentle Giant Pirates/vex.png` (the old portrait) for now.
+- **Khael Dhamar:** current art does not match his description (see his row).
