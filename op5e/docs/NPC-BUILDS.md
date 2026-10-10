@@ -133,4 +133,4 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 `build-goru-custom.ts`, spec `goru-spec.json`. Human Fighter 10 (Samurai), Noble, Master at Arms, no fruit, additional power Tough Customer. Live in `OP5E/Driftroot`. The custom class The Fang, MistFrame, the air-elemental summon and the five Forms are dropped (compendium only, user's choice). Scores are the live-sheet 14/18/14/12/14/13 (no ASIs; all feats). Gear: Odachi, two Katanas (one spare), Light Crossbow, Heavy Longcoat. Feats: Diplomat (Noble), Observant (Master at Arms), Katana Master, Great Weapon Master, Permanent Haki-Imbuement. Fighting Style Great Weapon Fighting. Haki: Armament Novice, Observation Novice. Skills: Persuasion, Insight, Acrobatics, Athletics, History, Intimidation.
 
 - HP 138 (override, real about 75) for the CR 5 band 131-145; AC 16, prof +4, initiative +4. Not played in a real fight; no CR damage bump added.
-- Art not done: the brief found only AI-looking Pinterest results (see `docs/art-credits.md`).
+- Art is the user's pin (`Driftroot Isle/goru-new.jpg`, logged in `docs/art-credits.md`); it only loosely matches the brief.

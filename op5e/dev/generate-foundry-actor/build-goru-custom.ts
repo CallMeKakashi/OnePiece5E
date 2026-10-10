@@ -46,6 +46,8 @@ sys.attributes.hp = { value: 138, max: 138, temp: 0, tempmax: 0, formula: "10d10
 sys.details.cr = 5; sys.details.level = 10;
 chassis.items = items;
 chassis.name = "Goru Yamashita";
+chassis.img = "one-piece-5e/npcs/Driftroot Isle/goru-new.jpg";
+chassis.prototypeToken = { ...(chassis.prototypeToken ?? {}), texture: { ...(chassis.prototypeToken?.texture ?? {}), src: "one-piece-5e/npcs/Driftroot Isle/goru-new-token.png" } };
 sys.details.biography.value = "<p>Goru Yamashita (born Lazarus Valencruz), exiled noble swordsman of Driftroot.</p><p><strong>Build note:</strong> Fighter 10 (Samurai), compendium only. The custom class The Fang, MistFrame, the air-elemental summon and the five Forms are dropped. HP overridden to 138 (real 75) for the CR 5 band.</p>";
 for (const f of toughCustomerFeatures) chassis.items.push(embedOwnedItem(ensureFeatureActivities(f as never) as never) as Doc);
 writeFileSync(`${ACTORS}/goru.json`, JSON.stringify(chassis, null, 2), "utf-8");

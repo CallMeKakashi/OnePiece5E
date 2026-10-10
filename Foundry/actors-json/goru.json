@@ -1,7 +1,7 @@
 {
   "name": "Goru Yamashita",
   "type": "npc",
-  "img": "",
+  "img": "one-piece-5e/npcs/Driftroot Isle/goru-new.jpg",
   "effects": [],
   "flags": {
     "op5e": {
@@ -4879,7 +4879,7 @@
       }
     },
     {
-      "_id": "28b13868e1ac0981",
+      "_id": "4e8f846557f25fe9",
       "name": "Fighting Style: Great Weapon Fighting",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -4964,7 +4964,7 @@
       "_key": "!items!72769d4989cf62a8"
     },
     {
-      "_id": "fa6d377e314432a7",
+      "_id": "5e5949cd6daba3cd",
       "name": "Katana Master",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -5223,7 +5223,7 @@
       "_key": "!items!39b3aeef347aab36"
     },
     {
-      "_id": "3d36fabd6a661e4f",
+      "_id": "5173911754793ed1",
       "name": "Great Weapon Master",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -5539,7 +5539,7 @@
       "_key": "!items!f701a351c863bf46"
     },
     {
-      "_id": "75f80fd75df6e393",
+      "_id": "7030310d481009a5",
       "name": "Permanent Haki-Imbuement",
       "type": "feat",
       "img": "icons/magic/symbols/star-rising-purple.webp",
@@ -5875,7 +5875,7 @@
       }
     },
     {
-      "_id": "13bd411e5c132bbb",
+      "_id": "e9605a7292a1aa26",
       "name": "Tough Customer",
       "type": "feat",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -5957,7 +5957,7 @@
       }
     },
     {
-      "_id": "6e0380c824c51527",
+      "_id": "e74d3a1da03c1e45",
       "name": "Active Combatant",
       "type": "feat",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
@@ -6039,7 +6039,7 @@
       }
     },
     {
-      "_id": "217d16fdcc53b7d6",
+      "_id": "d01edb9ad7f1fabd",
       "name": "Endless Vigor",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -6121,5 +6121,10 @@
       }
     }
   ],
-  "_id": "d8a5326f9c3eebf8"
+  "_id": "d8a5326f9c3eebf8",
+  "prototypeToken": {
+    "texture": {
+      "src": "one-piece-5e/npcs/Driftroot Isle/goru-new-token.png"
+    }
+  }
 }
