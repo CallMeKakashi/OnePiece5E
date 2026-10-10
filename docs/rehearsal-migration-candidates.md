@@ -122,4 +122,4 @@ Not mentioned yet, still in place: Drez Crown, Petty Officer Marine (OpenSea), A
 
 - **Marine Ensign (Armor Mk IV): done** (`OP5E/Marines`, Augmented Cyborg Gadgeteer 9 Armorer, CR 7, HP 150, AC 20). Next: Commander Leon.
 
-- **Commander Leon: done** (`OP5E/Marines`, Human Fighter 6 Samurai / Brawler 6 Six Powers Master, CR 10, HP 210, AC 18). Art pending. Next: Drez Crown.
+- **Commander Leon: done** (`OP5E/Marines`, Human Fighter 6 Samurai / Brawler 6 Six Powers Master, CR 10, HP 210, AC 18). Art done. Next: Drez Crown.

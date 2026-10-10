@@ -1,7 +1,7 @@
 {
   "name": "Commander Leon",
   "type": "npc",
-  "img": "",
+  "img": "one-piece-5e/npcs/Marines/leon-new.jpg",
   "effects": [],
   "flags": {
     "op5e": {
@@ -7045,7 +7045,7 @@
       }
     },
     {
-      "_id": "6ac59fa379e122bb",
+      "_id": "8ed63522ed551e5a",
       "name": "Fighting Style: Dueling",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -7163,7 +7163,7 @@
       "_key": "!items!e9178a9c2b55cc91"
     },
     {
-      "_id": "978ca719bccc20fe",
+      "_id": "117e0870306c643e",
       "name": "Color of Armament Novice",
       "type": "feat",
       "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
@@ -7348,7 +7348,7 @@
       "_key": "!items!16bc2636849312ce"
     },
     {
-      "_id": "327f220730eded7f",
+      "_id": "bd926aa6b73b30ea",
       "name": "Color of Observation Novice",
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-white.webp",
@@ -7561,7 +7561,7 @@
       "_key": "!items!96dcda2a40ae256f"
     },
     {
-      "_id": "53c9abe908974e1a",
+      "_id": "d4f6db9bb8f22d77",
       "name": "Color of Armament Apprentice",
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-white.webp",
@@ -7751,7 +7751,7 @@
       "_key": "!items!c04321ae3bf3215f"
     },
     {
-      "_id": "394e6a0a13c28d29",
+      "_id": "865bbca90a7bd5dc",
       "name": "Flying Strikes",
       "type": "feat",
       "img": "icons/magic/air/wind-tornado-funnel-green.webp",
@@ -7850,7 +7850,7 @@
       "_key": "!items!2f6cd976e5725c37"
     },
     {
-      "_id": "ee4ffdc5fea0dedd",
+      "_id": "859c7dc20be78fb6",
       "name": "Permanent Haki-Imbuement",
       "type": "feat",
       "img": "icons/magic/symbols/star-rising-purple.webp",
@@ -8011,7 +8011,7 @@
       "_key": "!items!857f50c5626aa3b4"
     },
     {
-      "_id": "2b58490088652aa0",
+      "_id": "5419d793a10f16e8",
       "name": "Mera Mera no Mi",
       "type": "loot",
       "img": "modules/op5e/assets/icons/devil-fruit-logia.svg",
@@ -8059,7 +8059,7 @@
       "_key": "!items!4870547c072fb4f9"
     },
     {
-      "_id": "99baaa0c2b5d00b4",
+      "_id": "aec09fc8cff003d4",
       "name": "Devil Fruit Uses",
       "type": "feat",
       "img": "icons/skills/melee/strike-blade-blood-red.webp",
@@ -8227,7 +8227,7 @@
       "_key": "!items!f1b6a1ceb52e6d43"
     },
     {
-      "_id": "0917dcc8a0c10ceb",
+      "_id": "0f0674b81a7dd0b8",
       "name": "Devil Fruit Ability Check, Fruit-Fruit DC and Attack",
       "type": "feat",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
@@ -8621,7 +8621,7 @@
       "_key": "!items!990dca216575f1bd"
     },
     {
-      "_id": "3927be70e6b6699b",
+      "_id": "cf0215f43a90328f",
       "name": "Ocean's Scorn",
       "type": "feat",
       "img": "icons/magic/water/projectile-ice-faceted-blue.webp",
@@ -9438,7 +9438,7 @@
       "_key": "!items!6e9d7ec2ca209e1e"
     },
     {
-      "_id": "e3ac5bd75c074912",
+      "_id": "29e56c010ce02419",
       "name": "Logia Elemental Domain",
       "type": "feat",
       "img": "icons/magic/perception/third-eye-blue-red.webp",
@@ -9973,7 +9973,7 @@
       "_key": "!items!6ef43c0ff1726bd3"
     },
     {
-      "_id": "8d24754b4740b6b2",
+      "_id": "746a55b33da31ed1",
       "name": "Logia Improved Elemental Domain",
       "type": "feat",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -10210,7 +10210,7 @@
       "_key": "!items!93518b9b1f012198"
     },
     {
-      "_id": "0488c451ca8e1435",
+      "_id": "a90e109cbb3d4026",
       "name": "Embody Flames",
       "type": "spell",
       "img": "icons/magic/fire/projectile-meteor-salvo-heavy-red.webp",
@@ -10315,7 +10315,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "99baaa0c2b5d00b4",
+                  "target": "aec09fc8cff003d4",
                   "value": "1",
                   "scaling": {}
                 }
@@ -10437,7 +10437,7 @@
       }
     },
     {
-      "_id": "d9358c67d7f8ef66",
+      "_id": "43c86c70e69754e7",
       "name": "Burning Blade",
       "type": "spell",
       "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
@@ -10538,7 +10538,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "99baaa0c2b5d00b4",
+                  "target": "aec09fc8cff003d4",
                   "value": "1",
                   "scaling": {}
                 }
@@ -10637,7 +10637,7 @@
       }
     },
     {
-      "_id": "aa730b305dc9183e",
+      "_id": "253cb88959d85d3b",
       "name": "Fireball",
       "type": "spell",
       "img": "icons/magic/fire/projectile-fireball-orange.webp",
@@ -10738,7 +10738,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "99baaa0c2b5d00b4",
+                  "target": "aec09fc8cff003d4",
                   "value": "1",
                   "scaling": {}
                 }
@@ -10843,7 +10843,7 @@
       }
     },
     {
-      "_id": "31b141587f610966",
+      "_id": "6b84585982a3172d",
       "name": "Fire Bolt",
       "type": "spell",
       "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
@@ -10944,7 +10944,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "99baaa0c2b5d00b4",
+                  "target": "aec09fc8cff003d4",
                   "value": "1",
                   "scaling": {}
                 }
@@ -11043,7 +11043,7 @@
       }
     },
     {
-      "_id": "610316cc3cf4e198",
+      "_id": "4663ef8174ed0d3d",
       "name": "Wall of Fire",
       "type": "spell",
       "img": "icons/magic/fire/projectile-fireball-orange.webp",
@@ -11144,7 +11144,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "99baaa0c2b5d00b4",
+                  "target": "aec09fc8cff003d4",
                   "value": "1",
                   "scaling": {}
                 }
@@ -11249,5 +11249,10 @@
       }
     }
   ],
-  "_id": "4eb3253c60d52672"
+  "_id": "4eb3253c60d52672",
+  "prototypeToken": {
+    "texture": {
+      "src": "one-piece-5e/npcs/Marines/leon-new-token.png"
+    }
+  }
 }

@@ -164,4 +164,4 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 
 - Fruit: the compendium Mera Mera no Mi item, Logia Elemental Domain, Logia Improved Elemental Domain, Devil Fruit Uses (6, Logia table at level 11), Fruit-Fruit DC 17 (highest modifier is Dex), Ocean's Scorn. Powers are reflavoured creations, one use each: Flame body = Embody Flames, Flame slash = Burning Blade, Fire burst = Fireball, Flame command = Fire Bolt and Wall of Fire.
 - All six Rokushiki techniques (level 6). The longcoat gives AC 16, so Leon fights unarmoured; the coat is carried. Phase 2 ignition is the Logia transformation, not a separate form.
-- Live in `OP5E/Marines`. Art pending. Not played in a real fight.
+- Live in `OP5E/Marines`. Art is the user's pin (`Marines/leon-new.jpg`, logged in `docs/art-credits.md`); it only loosely matches the brief. Not played in a real fight.

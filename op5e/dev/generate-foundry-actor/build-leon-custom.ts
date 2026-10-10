@@ -90,5 +90,7 @@ sys.attributes.hp = { value: 210, max: 210, temp: 0, tempmax: 0, formula: "6d10 
 sys.details.cr = 10;
 sys.details.biography.value = "<p>Commander Leon of Marine G-9: a rapier duelist with a burn-scarred face, Rokushiki and the Mera Mera no Mi (Logia).</p><p><strong>Balance note (CR 10):</strong> a straight Fighter 6 / Brawler 6 is far below a CR 10 band on hit points, so HP is overridden to 210 for a duelist boss.</p>";
 ch.items = items; ch.name = "Commander Leon";
+ch.img = "one-piece-5e/npcs/Marines/leon-new.jpg";
+ch.prototypeToken = { ...(ch.prototypeToken ?? {}), texture: { ...(ch.prototypeToken?.texture ?? {}), src: "one-piece-5e/npcs/Marines/leon-new-token.png" } };
 writeFileSync(`${ACTORS}/leon.json`, JSON.stringify(ch, null, 2), "utf-8");
 console.log(`Wrote ${ACTORS}/leon.json (${items.length} items)`);
