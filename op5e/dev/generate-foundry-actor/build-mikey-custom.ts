@@ -59,7 +59,7 @@ const mikey = {
     traits: { size: "med", languages: { value: [], custom: "" } },
     skills: { prc: { value: 1, ability: "wis" } },
   },
-  prototypeToken: { name: "Mikey", texture: { src: TOKEN }, width: 1, height: 1, actorLink: false, disposition: 0 },
+  prototypeToken: { name: "Mikey", texture: { src: TOKEN }, width: 1, height: 1, actorLink: true, disposition: 0 },
   items: mikeyItems, effects: [], flags: {}, folder: null, sort: 0, ownership: { default: 0 },
 };
 writeFileSync("../Foundry/actors-json/mikey.json", JSON.stringify(mikey, null, 2), "utf-8");
