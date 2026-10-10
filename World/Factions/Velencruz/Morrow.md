@@ -94,3 +94,7 @@ traits:
 - name: Spiked Hide
   desc: Creatures that hit Morrow with melee attacks take 1d4 piercing damage.
 ```
+
+## Foundry build
+
+Mikey and Morrow are one actor ("Mikey", `OP5E/Driftroot` in `bb-rehearsal`): a Medium CR 1 beast, AC 13, HP 32. The Transformation: Morrow item (bonus action, 1 minute) unlocks Feral Frenzy, Morrow Claw and Bite, Rend and Spiked Hide. Build notes in `op5e/docs/NPC-BUILDS.md`.

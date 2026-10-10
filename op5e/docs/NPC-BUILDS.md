@@ -134,3 +134,10 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 
 - HP 138 (override, real about 75) for the CR 5 band 131-145; AC 16, prof +4, initiative +4. Not played in a real fight; no CR damage bump added.
 - Art is the user's pin (`Driftroot Isle/goru-new.jpg`, logged in `docs/art-credits.md`); it only loosely matches the brief.
+
+## Mikey / Morrow (2026-10-10)
+
+`build-mikey-custom.ts` (monster-style, no class build, same pattern as Kanto). One actor, one token: Medium beast, CR 1, AC 13, HP 32, speed 40, darkvision 60, scores 14/16/14/6/12/10 (live-sheet values). Mikey form: Keen Hearing and Smell, Loyal Companion, Bite (2d6 + 2). Transformation: Morrow (bonus action, 1 minute, once per short rest, tracked by hand) unlocks Feral Frenzy, Morrow Claw (1d8 + 2), Morrow Bite (2d6 + 2), Rend (extra 2d6) and Spiked Hide (1d4). Live in `OP5E/Driftroot`.
+
+- The monsters pack has no dog, and the user chose the Panther-base option, but the build is hand-authored homebrew feats like Kanto (no Panther copy). HP 32 is below the CR 1 band on purpose (a pet). Not played in a real fight.
+- Art: Mikey pin for portrait and token, Morrow pin as the icon of the Transformation item (logged in `docs/art-credits.md`).

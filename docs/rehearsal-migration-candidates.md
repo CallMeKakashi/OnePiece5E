@@ -47,7 +47,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 - [ ] Aegir (Control, Dominian) and Shadow Malphas (Warlocks, Great Old One and Fiend) [migrate if still in the story]
 
 **NPC folders**
-- [ ] Calder Voss (CR 10), Goru Yamashita (CR 5, built), Morrow (CR 7), Marine Ensign Mk III (CR 7), Mikey (CR 1) [migrate]
+- [ ] Calder Voss (CR 10), Goru Yamashita (CR 5, built), Morrow (CR 7), Marine Ensign Mk III (CR 7), Mikey/Morrow (CR 1, built) [migrate]
 - [ ] Kaen Solaris (Fighter 20, Eldritch Knight, plus an empty unfiled Kaen Solaris duplicate) [migrate once]
 - [ ] Kael (Barbarian 5, Fishman) and Vesper (Rogue 5) in Shadows/Scorpio [migrate]
 - [x] Serica Corven and Veyl Corven (Sixfolds) [migrate]
@@ -96,7 +96,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 4. [ ] Kaen Solaris (Omen Guardians), Vesper (Shadows/Scorpio)
 5. [x] Veyl Corven and Serica Corven (Sixfolds)
 6. [x] Chuckles (Circle of Clowns)
-7. [ ] Calder Voss (built), Goru Yamashita (built), Marine Ensign (Armor Mk III), Mikey, Morrow
+7. [ ] Calder Voss (built), Goru Yamashita (built), Marine Ensign (Armor Mk III), Mikey/Morrow (built)
 8. [ ] Commander Leon (OpenSea)
 9. [ ] SeaBeast - Hermit Crab (NPC/Monsters)
 10. [ ] Marine Warship, rebuilt as a ship actor, not an NPC
@@ -108,7 +108,7 @@ Not mentioned yet, still in place: Drez Crown, Petty Officer Marine (OpenSea), A
 - Moved to `Dead/Archived`: B.O.B. (WIZ), Bandit, Berserker, Guard, Jazmine, Merlin, Midori, Panther, Pegasus, Saber-Toothed Tiger, Thunderbird Form 1.
 - Khael Dhamar is built and imported (`OP5E/Sand Rats`, L8 / CR 5, HP 138, AC 14). Still to do: art (placeholder portrait; Pinterest search in progress).
 - Added to the rebuild queue: **Drez Crown** and **Petty Officer Marine** (OpenSea), **Alice**, **Cassian Valehart**, **Dravos**, **Malphas** (as an NPC), **Thunderbird Form 2** (a Malphas hybrid form, rebuilt with him).
-- Full remaining queue: Vex; Cecilia Moore, Tariq Solen, Irik Fen, Saeva Virell; Kaen Solaris, Vesper; Veyl and Serica Corven; Chuckles; Calder Voss, Goru Yamashita, Marine Ensign Mk III, Mikey, Morrow; Commander Leon, Drez Crown, Petty Officer Marine; SeaBeast Hermit Crab; Marine Warship (ship actor); Alice, Cassian Valehart, Dravos, Malphas plus Thunderbird Form 2.
+- Full remaining queue: Vex; Cecilia Moore, Tariq Solen, Irik Fen, Saeva Virell; Kaen Solaris, Vesper; Veyl and Serica Corven; Chuckles; Calder Voss, Goru Yamashita, Marine Ensign Mk III; Commander Leon, Drez Crown, Petty Officer Marine; SeaBeast Hermit Crab; Marine Warship (ship actor); Alice, Cassian Valehart, Dravos, Malphas plus Thunderbird Form 2.
 
 - **Vex: done.** No official monkey exists in the sourcebook (only the Mink racial feat Intuitive Primate and the Titan Ape), so he is the 2014 SRD Baboon from the dnd5e compendium (`dnd5e.monsters`), renamed, unchanged stats (CR 0, 3 HP, Pack Tactics, Bite), filed in `OP5E/Blackhand` with his existing portrait. Art for him is pending.
 - **Cecilia Moore: done** (`OP5E/Sand Rats`, L8 / CR 4, Marksman 5 Bounty Hunter / Rogue 3 Thief, HP 123, AC 15, DC 13). Art pending. Next: Tariq Solen, Irik Fen, Saeva Virell.
