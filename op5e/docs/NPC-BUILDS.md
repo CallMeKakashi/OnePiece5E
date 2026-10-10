@@ -120,4 +120,4 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 - CR pass: attack +10 and about 46 damage a round (Extra Attack plus Flurry of Blows) are CR 10; defenses were about CR 6 to 7, so HP is overridden to the CR 10 band as a solo boss. Spirit DC 16 matches CR 10.
 - The Sourcebook has no legendary-action rules, so he has none (the old CR 10 sheet's legendary actions were dropped on the user's say-so).
 - Lunarian traits are embedded by hand (the pipeline does not grant them): Flaming Duality and its upgrades, Flame Investure with Fire Bolt, Elemental Armor and Fireball (Con creative ability). Ultimate Duality is level 15.
-- Live in `OP5E/Marines`. **Art pending**: still the old `Marines/Vorro.png`; the user wants a new Lunarian-based token. Not played in a real fight.
+- Live in `OP5E/Marines`. Art is the user's pin (`Marines/calder-new.jpg`, logged in `docs/art-credits.md`). Not played in a real fight.

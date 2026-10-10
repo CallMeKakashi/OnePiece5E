@@ -8,6 +8,7 @@ Art pulled from Pinterest for Foundry portraits and tokens. Permission has **not
 
 | Character | Files | Source pin | Artist / credit | Notes | Permission |
 |---|---|---|---|---|---|
+| Calder Voss | `Marines/calder-new.jpg`, `Marines/calder-new-token.png` (token cropped locally) | [Aerio](https://in.pinterest.com/pin/1083819466596484193/) | Pinned by Kabessa (board "Concept art characters"); original artist unknown. | The user supplied this pin. Shows a white-haired, red-eyed man in a fur-collared coat (Skyfire Army huntsman), so it matches the mood, not his Lunarian wings or G-45 armour. No "AI modified" label. | Not asked |
 | Cadence | `Decibella/cadence-new.jpg`, `Decibella/cadence-new-token.png` (token cropped locally) | [Fantasy oc: Rogue Morin](https://in.pinterest.com/pin/101471797848269987/) | Pinned by KiaraTheOtaku (board "Concept art characters"). Original artist unknown. | Pin text is the pinner's own ("I've switched it, so the animal mask is gonna be as a modern au"). Style may be AI-generated, so ask the pinner where it came from first. | Not asked |
 | Facade | `Gentle Giant Pirates/facade-new.jpg`, `Gentle Giant Pirates/facade-new-token.png` (token cropped locally) | [Pin on Artificer](https://in.pinterest.com/pin/16747829860824526/) | Unknown. The art is signed in the bottom-right corner (an "M" over "2018"). | Find the artist with a reverse image search (Google Lens or TinEye). | Not asked |
 | Cline D. Davis | `Sixfolds/cline-new.jpg` (saved only; no token, no sheet uses it yet) | [Mortal Kombat Creepypasta: Absolute Sub-Zero](https://in.pinterest.com/pin/24980972930674661/) | Unknown. | The art has text baked in ("Absolute Sub-Zero", name tag "Kennedy, Michael"), and it is fan art of another franchise's character. | Not asked |
@@ -35,7 +36,6 @@ Art pulled from Pinterest for Foundry portraits and tokens. Permission has **not
 
 ## Pending art (no acceptable image found yet)
 
-- **Calder Voss (old art in use):** a new token is wanted, a Lunarian (black wings, hidden visage) Marine officer in white G-45 armour. Not searched yet; uses `Marines/Vorro.png` for now.
 
 - **Vex (placeholder art in use, see his row):** wants a small, fluffy grey monkey with a pale face, large blue eyes, a navy scarf, a brown leather harness and a golden sun medallion. Two filtered Pinterest searches found only realistic or AI-looking monkeys. Uses `Gentle Giant Pirates/vex.png` (the old portrait) for now.
 - **Khael Dhamar:** current art does not match his description (see his row).

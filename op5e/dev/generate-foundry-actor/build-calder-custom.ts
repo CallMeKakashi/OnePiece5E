@@ -54,7 +54,7 @@ sys.attributes.hp = { value: 175, max: 175, temp: 0, tempmax: 0, formula: "12d8 
 sys.details.cr = 10;
 sys.details.biography.value = "<p>Calder Voss, born Vorro of the Motley Crew: a Marine captain and later commodore at Spirit Cliff (G-45), a Lunarian who fights with the Six Powers.</p><p><strong>Balance note (CR 10):</strong> a straight Brawler 12 is about CR 8 to 9 on defenses, so HP is overridden to 175 for a solo boss.</p>";
 chassis.name = "Calder Voss";
-chassis.img = "one-piece-5e/npcs/Marines/Vorro.png";
-chassis.prototypeToken = { ...(chassis.prototypeToken ?? {}), texture: { ...(chassis.prototypeToken?.texture ?? {}), src: "one-piece-5e/npcs/Marines/Vorro.png" } };
+chassis.img = "one-piece-5e/npcs/Marines/calder-new.jpg";
+chassis.prototypeToken = { ...(chassis.prototypeToken ?? {}), texture: { ...(chassis.prototypeToken?.texture ?? {}), src: "one-piece-5e/npcs/Marines/calder-new-token.png" } };
 writeFileSync(`${ACTORS}/calder.json`, JSON.stringify(chassis, null, 2), "utf-8");
 console.log(`Wrote ${ACTORS}/calder.json (${out.length} items)`);
