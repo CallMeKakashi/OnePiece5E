@@ -5,12 +5,13 @@ import { chromium } from "playwright-core";
 import { shardsFor } from "../../scripts/memory-gate.mjs";
 
 const BASE = process.env.FOUNDRY_URL ?? "https://bloodandbrine.online";
-const PLAYERS = [{ user: "B.O.B.", plan: ["Ray Of Twilight", "Ray Of Twilight"] }, { user: "Jack", plan: ["The Prospector", "The Prospector"] }, { user: "Roma", plan: ["Unarmed Strike", "Unarmed Strike"] }, { user: "Baptiste", plan: ["Brawler Unarmed Strike", "Unarmed Strike", "Unarmed Strike"] }];
+const PLAYERS = [{ user: "B.O.B.", plan: ["Ray Of Twilight", "Ray Of Twilight"] }, { user: "Jack", plan: ["The Prospector", "The Prospector"] }, { user: "Roma", plan: ["Rolling Pin - Kura3™", "Rolling Pin - Kura3™"] }, { user: "Baptiste", plan: ["Brawler Unarmed Strike", "Unarmed Strike", "Unarmed Strike"] }];
 const room = shardsFor(PLAYERS.length);
 if (room < PLAYERS.length) console.log(`only ${room} browsers fit in free memory (6 GB stays free): running those players first`);
 const browser = await chromium.launch({ channel: "msedge", headless: true });
 const pages = [];
-for (const p of PLAYERS.slice(0, Math.max(room, 1))) {
+// every player has its own browser context (one login per user, one session cookie per context); the logins run at the same time
+await Promise.all(PLAYERS.slice(0, Math.max(room, 1)).map(async (p) => {
   const page = await (await browser.newContext({ viewport: { width: 1280, height: 800 } })).newPage();
   page.on("pageerror", () => {});
   await page.goto(`${BASE}/join`); await page.selectOption("select[name=userid]", { label: p.user }); await page.click("button[name=join], button[type=submit]");
@@ -25,8 +26,9 @@ for (const p of PLAYERS.slice(0, Math.max(room, 1))) {
       const t = cb.token; if (!t || cb.actor.system.attributes.hp.value <= 0) { await cb.setFlag("world", "done", true); return; }
       busy = true;
       try {
-        const foes = c.combatants.filter((x) => x.token?.disposition === -1 && x.actor?.system.attributes.hp.value > 0).sort((a, b) => a.actor.system.attributes.hp.value - b.actor.system.attributes.hp.value);
-        const tgt = foes[0]?.token; if (!tgt) return;
+        const foes = c.combatants.filter((x) => x.token?.disposition === -1 && x.actor?.system.attributes.hp.value > 0);
+        const tgt = foes[Math.floor(Math.random() * foes.length)]?.token;   // a random living boss, so both bosses take hits
+        if (!tgt) return;
         for (const name of plan) {
           if (!(tgt.actor.system.attributes.hp.value > 0)) break;
           const act = cb.actor.items.getName(name)?.system.activities.find((a) => a.type === "attack"); if (!act) { window.__playerLog.push(`${cb.name}: no ${name}`); continue; }
@@ -39,7 +41,8 @@ for (const p of PLAYERS.slice(0, Math.max(room, 1))) {
   }, p.plan);
   pages.push({ ...p, page });
   console.log(`${p.user} is in the game`);
-}
+}));
 console.log("players ready; waiting for the GM to start the fight");
-await new Promise((resolve) => { const t = setInterval(async () => { try { const over = await pages[0].page.evaluate(() => !!window.__fightOver || !game.combat); if (over && Date.now() > 0 && globalThis.__armed) { clearInterval(t); resolve(); } } catch { /* page busy */ } }, 5000); setTimeout(() => { globalThis.__armed = true; }, 60000); setTimeout(resolve, 45 * 60 * 1000); });
+// stays connected until it is stopped (kill the process) or 60 minutes pass: a reset between fights must not make the players leave
+await new Promise((resolve) => setTimeout(resolve, 60 * 60 * 1000));
 await browser.close();
