@@ -43,6 +43,16 @@ Crew member (**[[Malak Samum]]** secured the unit as "Operation: Facade"). Statu
 
 - Talks to Bob afterwards but cannot remember the name of the person who mended him after the blowup. They part as "brothers from different mothers" ([[Session 019 — The Walking Dead|Episode 19]]).
 
+## Foundry build (bb-rehearsal, 2026-10-10)
+
+Rebuilt from scratch through the op5e pipeline; the legacy sheet is not a rules source.
+
+- **Artificial Human (Augmented) Gadgeteer 10 (Artillerist)**, Smuggler background, Scholar role, **CR 8**. Int 20, Con 17, Dex 14. HP 183, AC 16 (18 with the Enhanced Defenses mod applied), spell save DC 17.
+- Mods: Extended Barrel, Heavy Artillery, Enhanced Defenses. Additional Power: Ricochet Rounds (no Devil Fruit). Haki: Armament Novice and Apprentice.
+- Balance: HP overridden to the CR 8 band, a bespoke Reinforced Cyborg Shell for AC, and OHM Targeting Suite (+2d6 on ranged weapon damage).
+- **No homunculus on the sheet.** The Homunculus Servant came from the old D&D artificer infusion; the Gadgeteer has no equivalent, so the drone stays narrative.
+- Details and rebuild steps: [op5e/docs/NPC-BUILDS.md](../../../../../op5e/docs/NPC-BUILDS.md). Portrait credit status: `docs/art-credits.md`.
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

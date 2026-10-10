@@ -32,3 +32,17 @@ Rules used for every build: every creation choice comes from the user (or an app
 - `dev/harness/fix-images.mjs` repaired 954 broken or default image references in the rehearsal world (old Windows-sync and one-piece-5e paths matched to files that exist, the D&D Beyond importer icons replaced by the system's school icons and stock icons, stock creature icons for monsters whose art is gone, stock icons for items on the grey default). Every change is listed in `reports/image-fixes.json`.
 - A harness bug deleted the real Baptiste from the rehearsal copy on Oct 7 (a name-based cleanup in `shop-approval.mjs`). He was restored from the blood-and-brine database files (copied first, not opened in place). The cleanups now delete only their own `[SA]`/`[DEMO]` scratch actors, and `import-npc.mjs` never deletes without `--replace`.
 - Emulated fight: `dev/harness/fight-players.mjs` (one headless browser per player user, through the public site) plus the GM session in the Browser pane.
+
+## Decibella and Braveheart NPCs (2026-10-10)
+
+Cadence and Facade were rebuilt from scratch (every choice asked, none carried from the retired Oct 10 Codex builds) and live in the rehearsal world folders `OP5E/Silenced` and `OP5E/Blackhand`. Same method as above: `npm run actor:build -- --spec @dev/generate-foundry-actor/specs/<slug>-spec.json --out ../Foundry/actors-json/<slug>-chassis.json`, then `node node_modules/tsx/dist/cli.mjs dev/generate-foundry-actor/build-<slug>-custom.ts`, then `dev/harness/import-npc.mjs ../Foundry/actors-json/<slug>.json --replace` and `ensure-<slug>-folder.mjs`.
+
+| NPC | Build | CR | Script | Specs |
+|---|---|---|---|---|
+| Cadence | Human Savant 12 (Thundering Resolve), Revolutionary, Captain, Shire Shire no Mi | 10 | `build-cadence-custom.ts` | `cadence-spec.json` |
+| Facade | Artificial Human (Augmented) Gadgeteer 10 (Artillerist), Smuggler, Scholar, Ricochet Rounds | 8 | `build-facade-custom.ts` | `facade-spec.json` |
+
+- **Cadence:** the four fruit powers come from `Devil Fruits/Shire Shire no Mi.md` (Fiat bonus action 3/long rest; Absolute Imperative action, DC 17 Wisdom, 3d8 psychic and frightened, 3/long rest; Crushing Mandate and Lingering Order passive). Feats Inspiring Leader, Tough, Unarmed Master, Iron-Willed (War Caster and Resilient do not exist in this sourcebook). HP 210, AC 18, DC 17. Balance feature Voice of the Silenced (+2d8 thunder on melee). Conqueror's Haki is present but uncontrolled (flavour).
+- **Facade:** mods Extended Barrel, Heavy Artillery, Enhanced Defenses (applied by its Apply activity to a targeted token: AC 16, or 18 once applied). HP 183, DC 17. Balance features: Reinforced Cyborg Shell (light armour, base AC 14) and OHM Targeting Suite (+2d6 ranged). The Mechanical Cannon summon is exported as `facade-summon-mechanical-cannon.json` and must be imported first with `--keep-id`. No homunculus: the Gadgeteer has none (it was a D&D artificer infusion).
+- **Validation (live, bb-rehearsal):** folders nested, images load, no duplicate role or Haki, Haki tiers present (Cadence Observation, Armament, Conqueror's Novice; Facade Armament Novice and Apprentice), class and fruit activities present. Passive class features and Ricochet Rounds are text-only, per `automation-status.md`.
+- **Not played in a real fight.** Art credit status is in `docs/art-credits.md`.

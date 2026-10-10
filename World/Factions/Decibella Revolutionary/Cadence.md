@@ -48,6 +48,16 @@ Ran wild with [[Riff Sin]] in the slums of [[Decibella Kingdom]], making music i
 - Speaks aloud for the first time ("thank you") to Malphas, then writes that Riff has not stopped smiling since the crew came ([[Session 017 — Agony of Choas|Episode 17]]).
 
 ![[Cadence - CharacterSheetComplete.pdf]]
+## Foundry build (bb-rehearsal, 2026-10-10)
+
+Rebuilt from scratch through the op5e pipeline; the Oct 10 Codex build (L15, Mindful Insight, invented "Power Word" abilities) is retired.
+
+- **Human Savant 12 (Thundering Resolve)**, Revolutionary background, Captain role, **CR 10**. Cha 20, Con 16, Dex 14. HP 210, AC 18, spell save DC 17.
+- **[[Shire Shire no Mi]]** built as homebrew from the fruit page: Fiat (bonus action, 3/long rest), Absolute Imperative (action, DC 17 Wisdom, 3d8 psychic and frightened, 3/long rest), Crushing Mandate and Lingering Order (passives).
+- Feats: Inspiring Leader, Tough, Unarmed Master, Iron-Willed. Haki: Observation, Armament and Conqueror's Novice (she cannot control the Conqueror's Haki).
+- Balance: HP overridden to the CR 10 band, plus Voice of the Silenced (+2d8 thunder on melee).
+- Details and rebuild steps: [op5e/docs/NPC-BUILDS.md](../../../../op5e/docs/NPC-BUILDS.md). Portrait credit status: `docs/art-credits.md`.
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.
