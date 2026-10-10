@@ -111,3 +111,4 @@ Not mentioned yet, still in place: Drez Crown, Petty Officer Marine (OpenSea), A
 - Full remaining queue: Vex; Cecilia Moore, Tariq Solen, Irik Fen, Saeva Virell; Kaen Solaris, Vesper; Veyl and Serica Corven; Chuckles; Calder Voss, Goru Yamashita, Marine Ensign Mk III, Mikey, Morrow; Commander Leon, Drez Crown, Petty Officer Marine; SeaBeast Hermit Crab; Marine Warship (ship actor); Alice, Cassian Valehart, Dravos, Malphas plus Thunderbird Form 2.
 
 - **Vex: done.** No official monkey exists in the sourcebook (only the Mink racial feat Intuitive Primate and the Titan Ape), so he is the 2014 SRD Baboon from the dnd5e compendium (`dnd5e.monsters`), renamed, unchanged stats (CR 0, 3 HP, Pack Tactics, Bite), filed in `OP5E/Blackhand` with his existing portrait. Art for him is pending.
+- **Cecilia Moore: done** (`OP5E/Sand Rats`, L8 / CR 4, Marksman 5 Bounty Hunter / Rogue 3 Thief, HP 123, AC 15, DC 13). Art pending. Next: Tariq Solen, Irik Fen, Saeva Virell.
