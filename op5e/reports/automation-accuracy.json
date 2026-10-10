@@ -2,8 +2,8 @@
   "stats": {
     "class-features": {
       "docs": 839,
-      "withActivities": 310,
-      "flagged": 5
+      "withActivities": 346,
+      "flagged": 8
     },
     "racial-features": {
       "docs": 86,
@@ -12,8 +12,8 @@
     },
     "feats": {
       "docs": 228,
-      "withActivities": 111,
-      "flagged": 1
+      "withActivities": 121,
+      "flagged": 2
     },
     "items": {
       "docs": 421,
@@ -32,13 +32,33 @@
     }
   },
   "byKind": {
+    "dice-not-in-text": 18,
     "described-damage-missing": 21,
-    "save-missing": 6,
-    "dice-not-in-text": 15,
+    "save-missing": 7,
     "healing-missing": 5,
     "text-save-not-automated": 11
   },
   "findings": [
+    {
+      "pack": "class-features",
+      "name": "Deft Explorer",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 1d10; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "class-features",
+      "name": "Third Wind",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 1d10; text has no dice"
+        }
+      ]
+    },
     {
       "pack": "class-features",
       "name": "Advanced Arsenal",
@@ -101,6 +121,16 @@
     },
     {
       "pack": "class-features",
+      "name": "Deft Explorer",
+      "issues": [
+        {
+          "kind": "dice-not-in-text",
+          "detail": "activities roll 1d10; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "class-features",
       "name": "Experimental Ooze",
       "issues": [
         {
@@ -148,6 +178,16 @@
         {
           "kind": "dice-not-in-text",
           "detail": "activities roll 1d4; text has no dice"
+        }
+      ]
+    },
+    {
+      "pack": "feats",
+      "name": "Drunkard",
+      "issues": [
+        {
+          "kind": "save-missing",
+          "detail": "text has con save; no save activity"
         }
       ]
     },

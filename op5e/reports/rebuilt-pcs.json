@@ -1,7 +1,7 @@
 [
  {
   "name": "Matthew \"The Jack\" Burgess",
-  "id": "awXeux5I2aZjS6Ph",
+  "id": "lOIR03LjCYcTVtZd",
   "race": "Human",
   "background": "Gambler",
   "classes": [
@@ -22,10 +22,9 @@
    "wis": 17,
    "cha": 20
   },
-  "features": 35,
+  "features": 34,
   "feats": [
    "Role: Captain",
-   "Alert",
    "Alert",
    "Lucky"
   ],
@@ -54,7 +53,7 @@
  },
  {
   "name": "Matthew \"The Jack\" Burgess (Marksman)",
-  "id": "ZdXp3jTw3BuBT2kH",
+  "id": "HZsF6X1ggfNqtYUq",
   "race": "Human",
   "background": "Gambler",
   "classes": [
@@ -75,10 +74,9 @@
    "wis": 17,
    "cha": 20
   },
-  "features": 39,
+  "features": 38,
   "feats": [
    "Role: Captain",
-   "Alert",
    "Alert",
    "Lucky"
   ],
@@ -107,7 +105,7 @@
  },
  {
   "name": "Baptiste",
-  "id": "nqwzGtQXya9yeyCV",
+  "id": "JabDDhfGuhakZsDJ",
   "race": "Lunarian",
   "background": "Boxer",
   "classes": [
@@ -128,14 +126,15 @@
    "wis": 20,
    "cha": 13
   },
-  "features": 28,
+  "features": 29,
   "feats": [
    "Role: Captain",
    "Alert",
    "Unarmed Master",
+   "Devil Fruit Uses",
    "Devil Fruit Uses"
   ],
-  "skillsProf": 9,
+  "skillsProf": 8,
   "gearAdded": 11,
   "gearStd": [
    "Unarmed Strike",
@@ -159,7 +158,7 @@
  },
  {
   "name": "Malphas",
-  "id": "OjrNoDLxa6p9vEwe",
+  "id": "PGJiA7fcgzAK4ym6",
   "race": "Lunarian",
   "background": "Wanderer",
   "classes": [
@@ -180,13 +179,14 @@
    "wis": 16,
    "cha": 10
   },
-  "features": 29,
+  "features": 30,
   "feats": [
    "Role: Captain",
    "Alert",
-   "Mobile",
-   "Alert",
    "Acrobat",
+   "Devil Fruit Uses",
+   "Zoan Hybrid Form",
+   "Zoan Full Beast Form",
    "Devil Fruit Uses",
    "Zoan Hybrid Form",
    "Zoan Full Beast Form"
@@ -212,7 +212,7 @@
  },
  {
   "name": "Thunderbird (Form 1)",
-  "id": "08mUVTXqsdUzHmMV",
+  "id": "kVB7jIHAsWEWFhFR",
   "race": "Lunarian",
   "background": "Wanderer",
   "classes": [
@@ -233,15 +233,16 @@
    "wis": 16,
    "cha": 10
   },
-  "features": 22,
+  "features": 23,
   "feats": [
    "Role: Captain",
    "Alert",
-   "Mobile",
    "Acrobat",
    "Devil Fruit Uses",
    "Zoan Hybrid Form",
-   "Zoan Full Beast Form"
+   "Zoan Full Beast Form",
+   "Devil Fruit Uses",
+   "Zoan Hybrid Form"
   ],
   "skillsProf": 10,
   "gearAdded": 18,
@@ -264,7 +265,7 @@
  },
  {
   "name": "Thunderbird (Form 2)",
-  "id": "jUFrFtebZIqrjKEf",
+  "id": "lKBYUXr4UKwnzBvl",
   "race": "Lunarian",
   "background": "Wanderer",
   "classes": [
@@ -289,12 +290,12 @@
   "feats": [
    "Role: Captain",
    "Alert",
-   "Mobile",
-   "Alert",
    "Acrobat",
    "Devil Fruit Uses",
    "Zoan Hybrid Form",
-   "Zoan Full Beast Form"
+   "Zoan Full Beast Form",
+   "Devil Fruit Uses",
+   "Zoan Hybrid Form"
   ],
   "skillsProf": 10,
   "gearAdded": 18,
@@ -317,7 +318,7 @@
  },
  {
   "name": "B.O.B",
-  "id": "MUTcnLBu28BJ4Oi0",
+  "id": "8FHc52Knk1Y6KRhD",
   "race": "Augmented",
   "background": "Scientist",
   "classes": [
@@ -338,12 +339,10 @@
    "wis": 8,
    "cha": 18
   },
-  "features": 30,
+  "features": 28,
   "feats": [
    "Role: Captain",
    "Alert",
-   "Polearm Master",
-   "Great Weapon Master",
    "Creativity Adept"
   ],
   "skillsProf": 9,
@@ -367,7 +366,7 @@
  },
  {
   "name": "Roma",
-  "id": "3vLcNHCIiCRzMiDT",
+  "id": "woWbWufGF8keuDKz",
   "race": "Mink",
   "background": "Cook",
   "classes": [
@@ -390,15 +389,16 @@
    "wis": 10,
    "cha": 10
   },
-  "features": 30,
+  "features": 31,
   "feats": [
    "Role: Captain",
    "Alert",
    "Gourmand",
-   "Sentinel",
+   "Devil Fruit Uses",
    "Devil Fruit Uses",
    "Zoan Hybrid Form",
-   "Zoan Full Beast Form"
+   "Zoan Full Beast Form",
+   "Zoan Hybrid Form"
   ],
   "skillsProf": 14,
   "gearAdded": 12,
@@ -418,7 +418,7 @@
  },
  {
   "name": "Hybrid",
-  "id": "M5WxzSo98b19lw5g",
+  "id": "UCZUM3m3exPei75V",
   "race": "Mink",
   "background": "Cook",
   "classes": [
@@ -441,15 +441,16 @@
    "wis": 10,
    "cha": 10
   },
-  "features": 26,
+  "features": 27,
   "feats": [
    "Role: Captain",
    "Alert",
    "Gourmand",
-   "Sentinel",
    "Devil Fruit Uses",
    "Zoan Hybrid Form",
-   "Zoan Full Beast Form"
+   "Zoan Full Beast Form",
+   "Devil Fruit Uses",
+   "Zoan Hybrid Form"
   ],
   "skillsProf": 14,
   "gearAdded": 9,
@@ -469,7 +470,7 @@
  },
  {
   "name": "Sulong",
-  "id": "ePywD6qfBRbnyZxL",
+  "id": "JP0oOIoxyIfkDRhf",
   "race": "Mink",
   "background": "Cook",
   "classes": [
@@ -492,15 +493,16 @@
    "wis": 10,
    "cha": 10
   },
-  "features": 26,
+  "features": 27,
   "feats": [
    "Role: Captain",
    "Alert",
    "Gourmand",
-   "Sentinel",
+   "Devil Fruit Uses",
    "Devil Fruit Uses",
    "Zoan Hybrid Form",
-   "Zoan Full Beast Form"
+   "Zoan Full Beast Form",
+   "Zoan Hybrid Form"
   ],
   "skillsProf": 14,
   "gearAdded": 9,

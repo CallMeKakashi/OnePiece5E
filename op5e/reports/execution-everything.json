@@ -139,14 +139,12 @@
      "name": "Second Wind",
      "message": true,
      "rolls": [],
-     "damage": 25,
+     "damage": 29,
      "consumed": true
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -237,7 +235,15 @@
    "name": "Powerful Passion",
    "type": "feat",
    "ctx": "generic (Ardent Zeal)",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Powerful Passion",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -261,9 +267,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -309,7 +313,7 @@
      "name": "Subjugate Foe: Knock Prone",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 6,
      "consumed": false
     },
     {
@@ -317,14 +321,12 @@
      "name": "Subjugate Foe: Shove Back",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 6,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -428,14 +430,12 @@
      "name": "Rope Combatant",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 1,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -481,14 +481,12 @@
      "name": "Obliterate",
      "message": true,
      "rolls": [],
-     "damage": 22,
+     "damage": 19,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -518,9 +516,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -602,14 +598,12 @@
      "name": "Eternal Flames",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 3,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -796,9 +790,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -914,14 +906,12 @@
      "name": "Thunderstruck",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 8,
      "consumed": true
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -967,14 +957,12 @@
      "name": "Noodle Strikes",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 4,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -997,9 +985,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -1154,7 +1140,15 @@
    "name": "Medical Dissertation",
    "type": "feat",
    "ctx": "generic (PhD)",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Extra healing",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -1181,7 +1175,7 @@
      "name": "Burning Damage",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 4,
      "consumed": false
     },
     {
@@ -1193,9 +1187,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -1220,14 +1212,12 @@
      "name": "Burning Pain",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 8,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -1625,7 +1615,15 @@
    "name": "Color of Observation Master",
    "type": "feat",
    "ctx": "generic (16th level, Color of Observation Adept)",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Sense Future",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -1652,14 +1650,12 @@
      "name": "Crushing Grip",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 2,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -1877,7 +1873,16 @@
    "name": "Deft Explorer",
    "type": "feat",
    "ctx": "Marksman 6",
-   "activities": [],
+   "activities": [
+    {
+     "type": "heal",
+     "name": "Tireless",
+     "message": true,
+     "rolls": [],
+     "damage": 26,
+     "consumed": true
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -1897,14 +1902,12 @@
      "name": "Tireless",
      "message": true,
      "rolls": [],
-     "damage": 27,
+     "damage": 26,
      "consumed": true
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     200,
     200
@@ -1916,7 +1919,15 @@
    "name": "Fighting Style: Thrown Weapon Fighting",
    "type": "feat",
    "ctx": "Marksman 2",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Thrown weapon hit",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -1930,7 +1941,16 @@
    "name": "Deft Explorer",
    "type": "feat",
    "ctx": "Marksman 10",
-   "activities": [],
+   "activities": [
+    {
+     "type": "heal",
+     "name": "Tireless",
+     "message": true,
+     "rolls": [],
+     "damage": 27,
+     "consumed": true
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -2339,14 +2359,12 @@
      "name": "Bardic Inspiration",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 5,
      "consumed": true
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -2443,7 +2461,22 @@
    "name": "Mountain Stance",
    "type": "feat",
    "ctx": "Brawler (Sumo Wrestler) 3",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Anchor",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Brace for damage",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -2686,14 +2719,12 @@
      "name": "Gauntlet",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 10,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -3043,7 +3074,7 @@
      "name": "Elemental Culverin",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 11,
      "consumed": false
     },
     {
@@ -3051,7 +3082,7 @@
      "name": "Force Ballista",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 21,
      "consumed": false
     },
     {
@@ -3059,14 +3090,12 @@
      "name": "Protector",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 10,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -3152,9 +3181,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  performState | Workflow Mechanical Cannon bMpBywiI6epy2BJr Workflow ChatMessage.16TRYukT6mS81RUl TypeError: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -3186,14 +3213,12 @@
      "name": "Extra Elemental Damage",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 25,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -3225,7 +3250,7 @@
      "name": "Extra Psychic Damage",
      "message": true,
      "rolls": [],
-     "damage": 14,
+     "damage": 10,
      "consumed": false
     },
     {
@@ -3237,9 +3262,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -3251,7 +3274,15 @@
    "name": "Constant Shots",
    "type": "feat",
    "ctx": "Arms Dealer 15",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Regain Advanced Arsenal",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -3462,14 +3493,12 @@
      "name": "Water Shot",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 12,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -3503,7 +3532,16 @@
    "name": "Unrelenting Fortress",
    "type": "feat",
    "ctx": "Barbarian (Forgemaster) 6",
-   "activities": [],
+   "activities": [
+    {
+     "type": "heal",
+     "name": "Fortress temporary hit points",
+     "message": true,
+     "rolls": [],
+     "damage": 12,
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -3551,7 +3589,7 @@
      "name": "Armor Strike",
      "message": true,
      "rolls": [],
-     "damage": 19,
+     "damage": 12,
      "consumed": false
     },
     {
@@ -3559,14 +3597,12 @@
      "name": "Armor Grapple Damage",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 3,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     221,
     221
@@ -3724,9 +3760,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -3842,7 +3876,7 @@
      "name": "The Open Hand",
      "message": true,
      "rolls": [],
-     "damage": 77,
+     "damage": 57,
      "consumed": false
     },
     {
@@ -3850,14 +3884,12 @@
      "name": "The Open Hand",
      "message": true,
      "rolls": [],
-     "damage": 44,
+     "damage": 48,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -4157,9 +4189,7 @@
    "ctx": "Rogue (Scout) 9",
    "activities": [],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'dnd5e.preRollDamage'. Cannot read properties of undefined (reading '"
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -4189,9 +4219,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     221,
     221
@@ -4272,9 +4300,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     221,
     221
@@ -4318,9 +4344,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -4343,9 +4367,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -4385,7 +4407,99 @@
    "name": "Achilles Heel",
    "type": "feat",
    "ctx": "Brawler (Private Eye) 11",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Achilles Heel: acid",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Achilles Heel: bludgeoning",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Achilles Heel: cold",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Achilles Heel: fire",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Achilles Heel: force",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Achilles Heel: lightning",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Achilles Heel: necrotic",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Achilles Heel: piercing",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Achilles Heel: poison",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Achilles Heel: radiant",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Achilles Heel: slashing",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Achilles Heel: thunder",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Achilles Heel: psychic",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -4445,9 +4559,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     200,
     200
@@ -4479,14 +4591,12 @@
      "name": "Dreaded Ambush",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 5,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     200,
     200
@@ -4550,9 +4660,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -4614,14 +4722,12 @@
      "name": "Hand of Healing",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 7,
      "consumed": true
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -4715,9 +4821,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     200,
     200
@@ -4746,9 +4850,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     200,
     200
@@ -4792,9 +4894,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     200,
     200
@@ -4819,14 +4919,12 @@
      "name": "Snowstorm Aura",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 18,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     221,
     221
@@ -4916,14 +5014,12 @@
      "name": "Thunderstorm Aura",
      "message": true,
      "rolls": [],
-     "damage": 33,
+     "damage": 15,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     221,
     221
@@ -4948,14 +5044,12 @@
      "name": "Firestorm Aura",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 12,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     221,
     221
@@ -4969,9 +5063,7 @@
    "ctx": "Rogue (Bruiser) 3",
    "activities": [],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  performState | Workflow Raging Storm: Thunderstorm BaxQj8sh4gAKaXoX Workflow ChatMessage.hgonMXL6x5axXtmW Ty"
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -5179,9 +5271,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -5265,9 +5355,7 @@
    "ctx": "Cavalier 3",
    "activities": [],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -5279,7 +5367,22 @@
    "name": "Make Your Mark",
    "type": "feat",
    "ctx": "Cavalier 3",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Mark",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Punish the marked creature",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -5313,14 +5416,12 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 8,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -5338,14 +5439,12 @@
      "name": "Add Die to Check",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 2,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -5363,7 +5462,7 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 1,
      "consumed": false
     },
     {
@@ -5375,9 +5474,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -5395,14 +5492,12 @@
      "name": "Riposte Attack",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 8,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -5419,9 +5514,7 @@
      "type": "utility",
      "name": "Expend Superiority Die",
      "message": true,
-     "rolls": [
-      "1d12=7"
-     ],
+     "rolls": [],
      "consumed": true
     }
    ],
@@ -5431,7 +5524,6 @@
     206,
     206
    ],
-   "retried": true,
    "pack": "class-features"
   },
   {
@@ -5445,14 +5537,12 @@
      "name": "Add Die to Attack Roll",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 2,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -5470,14 +5560,12 @@
      "name": "Roll AC Bonus",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 11,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -5495,7 +5583,7 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 12,
      "consumed": false
     },
     {
@@ -5507,9 +5595,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -5527,14 +5613,12 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 11,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -5552,7 +5636,7 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 12,
      "consumed": false
     },
     {
@@ -5564,9 +5648,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -5598,7 +5680,7 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 11,
      "consumed": false
     },
     {
@@ -5610,9 +5692,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -5630,14 +5710,12 @@
      "name": "Roll AC Bonus",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 11,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -5683,14 +5761,12 @@
      "name": "Add Die to Companion's Damage",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 8,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -5708,14 +5784,12 @@
      "name": "Add Die to Charisma Check",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 10,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -5733,14 +5807,12 @@
      "name": "Brace Attack",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 4,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -5758,7 +5830,7 @@
      "name": "Heal",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 21,
      "consumed": true
     },
     {
@@ -5770,9 +5842,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -5833,7 +5903,7 @@
      "name": "Bleeding: Damage",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 7,
      "consumed": false
     },
     {
@@ -5845,9 +5915,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -5951,7 +6019,15 @@
    "name": "Ordnance Requiem",
    "type": "feat",
    "ctx": "Bard (Swords) 3",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Ordnance Requiem",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -6168,9 +6244,7 @@
      "type": "utility",
      "name": "Add Charisma to Check",
      "message": true,
-     "rolls": [
-      "3=3"
-     ],
+     "rolls": [],
      "consumed": true
     }
    ],
@@ -6245,7 +6319,15 @@
    "name": "Aura of Spite",
    "type": "feat",
    "ctx": "Savant (Caustic Spite) 7",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Aura of Spite",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -6536,7 +6618,15 @@
    "name": "Bullet Time",
    "type": "feat",
    "ctx": "Gunslinger 7",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Enter Bullet Time",
+     "message": true,
+     "rolls": [],
+     "consumed": true
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -6818,14 +6908,12 @@
      "name": "Free Throw",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 7,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     200,
     200
@@ -6851,7 +6939,16 @@
    "name": "Drunken Arts",
    "type": "feat",
    "ctx": "Brawler (Drunken Master) 3",
-   "activities": [],
+   "activities": [
+    {
+     "type": "heal",
+     "name": "Drunken Arts",
+     "message": true,
+     "rolls": [],
+     "damage": 6,
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -6987,14 +7084,12 @@
      "name": "Swarming Cluster",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 5,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     200,
     200
@@ -7020,11 +7115,24 @@
    "name": "Tireless Spirit",
    "type": "feat",
    "ctx": "Samurai 10",
-   "activities": [],
-   "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Regain Second Wind",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Second Wind bonus",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
    ],
+   "fails": [],
+   "warns": [],
    "hp": [
     206,
     206
@@ -7121,7 +7229,7 @@
      "name": "Six King Gun (1 spirit point)",
      "message": true,
      "rolls": [],
-     "damage": 14,
+     "damage": 11,
      "consumed": false
     },
     {
@@ -7129,7 +7237,7 @@
      "name": "Six King Gun (2 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 23,
+     "damage": 21,
      "consumed": false
     },
     {
@@ -7137,7 +7245,7 @@
      "name": "Six King Gun (3 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 48,
+     "damage": 38,
      "consumed": false
     },
     {
@@ -7145,7 +7253,7 @@
      "name": "Six King Gun (4 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 42,
+     "damage": 33,
      "consumed": false
     },
     {
@@ -7153,7 +7261,7 @@
      "name": "Six King Gun (5 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 59,
+     "damage": 60,
      "consumed": false
     },
     {
@@ -7161,7 +7269,7 @@
      "name": "Six King Gun (6 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 57,
+     "damage": 84,
      "consumed": false
     },
     {
@@ -7169,7 +7277,7 @@
      "name": "Six King Gun (7 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 91,
+     "damage": 75,
      "consumed": false
     },
     {
@@ -7177,7 +7285,7 @@
      "name": "Six King Gun (8 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 95,
+     "damage": 81,
      "consumed": false
     },
     {
@@ -7185,7 +7293,7 @@
      "name": "Six King Gun (9 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 105,
+     "damage": 106,
      "consumed": false
     },
     {
@@ -7193,14 +7301,12 @@
      "name": "Six King Gun (10 spirit points)",
      "message": true,
      "rolls": [],
-     "damage": 108,
+     "damage": 86,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -7268,7 +7374,16 @@
    "name": "Totem Attuned",
    "type": "feat",
    "ctx": "Barbarian (Totem Warrior) 14",
-   "activities": [],
+   "activities": [
+    {
+     "type": "save",
+     "name": "Elk: charge through",
+     "message": true,
+     "rolls": [],
+     "damage": 16,
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -7415,9 +7530,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  performState | Workflow Six King Gun opUIfEhiYVY0BtHg Workflow ChatMessage.gDMHOSe6WFSzR29Q TypeError: Canno"
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -7443,7 +7556,16 @@
    "name": "Rampaging Vigor",
    "type": "feat",
    "ctx": "Brawler (Daredevil) 3",
-   "activities": [],
+   "activities": [
+    {
+     "type": "heal",
+     "name": "Rampaging Vigor",
+     "message": true,
+     "rolls": [],
+     "damage": 23,
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -7471,7 +7593,16 @@
    "name": "Star of the Show",
    "type": "feat",
    "ctx": "Bard (Idol) 3",
-   "activities": [],
+   "activities": [
+    {
+     "type": "heal",
+     "name": "Star of the Show",
+     "message": true,
+     "rolls": [],
+     "damage": 3,
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -7655,7 +7786,37 @@
    "name": "Legendary Flourish",
    "type": "feat",
    "ctx": "Bard (Legends) 3",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Shielding Hymn",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Stampeding Anthem",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Piercing Ballad",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "heal",
+     "name": "Flourish temporary hit points",
+     "message": true,
+     "rolls": [],
+     "damage": 4,
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -7896,7 +8057,7 @@
      "name": "Spiteful Spike (Corrosive Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 9,
      "consumed": false
     },
     {
@@ -7904,7 +8065,7 @@
      "name": "Bitter Bite (Corrosive Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 6,
      "consumed": false
     },
     {
@@ -7912,7 +8073,7 @@
      "name": "Flame Ray (Flaming Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 11,
      "consumed": false
     },
     {
@@ -7920,7 +8081,7 @@
      "name": "Fire Clash (Flaming Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 9,
      "consumed": false
     },
     {
@@ -7928,7 +8089,7 @@
      "name": "Icicle Inbound (Frozen Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 4,
      "consumed": false
     },
     {
@@ -7936,7 +8097,7 @@
      "name": "Cold Cut (Frozen Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 9,
      "consumed": false
     },
     {
@@ -7944,7 +8105,7 @@
      "name": "Lightning Bolt (Sparking Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 8,
      "consumed": false
     },
     {
@@ -7952,7 +8113,7 @@
      "name": "Spark Strike (Sparking Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 4,
      "consumed": false
     },
     {
@@ -7960,7 +8121,7 @@
      "name": "Thunderclap (Thunderous Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 7,
      "consumed": false
     },
     {
@@ -7976,7 +8137,7 @@
      "name": "Toxic Missile (Venomous Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 12,
      "consumed": false
     },
     {
@@ -7984,7 +8145,7 @@
      "name": "Venomous Fang (Venomous Lineage)",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 12,
      "consumed": false
     },
     {
@@ -8019,9 +8180,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -8043,9 +8202,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     221,
     221
@@ -8250,7 +8407,7 @@
      "name": "Phase Step: Damage",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 9,
      "consumed": false
     },
     {
@@ -8258,14 +8415,12 @@
      "name": "Phase Step: Shunt Damage",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 10,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -8573,7 +8728,7 @@
      "name": "Guardian Pulse",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 12,
      "consumed": true
     },
     {
@@ -8585,9 +8740,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -8615,9 +8768,7 @@
    "ctx": "Savant (Necrotic Mania) 1",
    "activities": [],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     200,
     200
@@ -8642,14 +8793,12 @@
      "name": "Feed on Despair",
      "message": true,
      "rolls": [],
-     "damage": 37,
+     "damage": 33,
      "consumed": true
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     200,
     200
@@ -8713,9 +8862,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  performState | Workflow Channel Conviction: Necrotic Mania ekcKSC1QJZX7iDop Workflow ChatMessage.7oAFPq5yLz8"
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -8747,14 +8894,12 @@
      "name": "Blade Hands",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 6,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -8772,14 +8917,12 @@
      "name": "Hellfire Halitosis",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 17,
      "consumed": true
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -8797,7 +8940,7 @@
      "name": "Raging Charge",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 11,
      "consumed": true
     },
     {
@@ -8805,14 +8948,12 @@
      "name": "Raging Charge",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 8,
      "consumed": true
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -8877,9 +9018,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -9323,14 +9462,12 @@
      "name": "Ignite",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 5,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -9428,7 +9565,15 @@
    "name": "Fearsome Fortitude",
    "type": "feat",
    "ctx": "generic (no requirement)",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Fearsome Fortitude",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -9903,7 +10048,15 @@
    "name": "Fighting Style: Thrown Weapon Fighting",
    "type": "feat",
    "ctx": "Fighter 1",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Thrown weapon hit",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -10142,14 +10295,12 @@
      "name": "Favored Mark Damage",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 7,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     200,
     200
@@ -10161,7 +10312,16 @@
    "name": "Deft Explorer",
    "type": "feat",
    "ctx": "Marksman 1",
-   "activities": [],
+   "activities": [
+    {
+     "type": "heal",
+     "name": "Tireless",
+     "message": true,
+     "rolls": [],
+     "damage": 27,
+     "consumed": true
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -10237,14 +10397,12 @@
      "name": "Feint: Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 5,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -10262,7 +10420,7 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 10,
      "consumed": false
     },
     {
@@ -10274,9 +10432,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -10294,7 +10450,7 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 12,
      "consumed": false
     },
     {
@@ -10306,9 +10462,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -10326,14 +10480,12 @@
      "name": "Rally",
      "message": true,
      "rolls": [],
-     "damage": 26,
+     "damage": 30,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -10351,14 +10503,12 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 7,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -10376,14 +10526,12 @@
      "name": "Add Die to Stealth / Initiative",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 11,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -10423,14 +10571,12 @@
      "name": "Add Die to Athletics Check",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 11,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -10448,14 +10594,12 @@
      "name": "Thrown Attack",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 5,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -10487,14 +10631,12 @@
      "name": "Add Die to Damage",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 1,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -10544,9 +10686,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -10603,9 +10743,7 @@
    "ctx": "Blitzkrieg 3",
    "activities": [],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -10617,7 +10755,17 @@
    "name": "Afterimage",
    "type": "feat",
    "ctx": "Blitzkrieg 3",
-   "activities": [],
+   "activities": [
+    {
+     "type": "summon",
+     "name": "Create Afterimage",
+     "warns": [
+      "Afterimage: no usable actions"
+     ],
+     "message": true,
+     "summon": 1
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -10713,9 +10861,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     221,
     221
@@ -10848,7 +10994,16 @@
    "name": "Third Wind",
    "type": "feat",
    "ctx": "Brute 10",
-   "activities": [],
+   "activities": [
+    {
+     "type": "heal",
+     "name": "Third Wind",
+     "message": true,
+     "rolls": [],
+     "damage": 25,
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -11212,7 +11367,22 @@
    "name": "Ferocious Charger",
    "type": "feat",
    "ctx": "Cavalier 15",
-   "activities": [],
+   "activities": [
+    {
+     "type": "save",
+     "name": "Ferocious Charge",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Mounted Charge Damage",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -11409,9 +11579,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -11433,9 +11601,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -11653,14 +11819,12 @@
      "name": "Sneak Attack",
      "message": true,
      "rolls": [],
-     "damage": 50,
+     "damage": 51,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -11894,7 +12058,15 @@
    "name": "Improved Ardent Smite",
    "type": "feat",
    "ctx": "Savant 11",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Improved Ardent Smite",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -12075,9 +12247,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     221,
     221
@@ -12150,9 +12320,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     221,
     221
@@ -12182,9 +12350,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     221,
     221
@@ -12196,7 +12362,15 @@
    "name": "Aura of Warding",
    "type": "feat",
    "ctx": "Savant (Mindful Insight) 7",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Aura of Warding",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -12326,9 +12500,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  performState | Workflow Fury of the Storm: Snowstorm 8LtTtt79evCcMqr7 Workflow ChatMessage.DmEqR3IRQ7rCN1dL "
-   ],
+   "warns": [],
    "hp": [
     200,
     200
@@ -12455,9 +12627,7 @@
    "ctx": "Brawler (Open Hand) 6",
    "activities": [],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  performState | Workflow Channel Conviction: Thundering Resolve C62nr6YMeqKFcJFg Workflow ChatMessage.LLt9h8g"
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -12798,7 +12968,15 @@
    "name": "Fists of Fury",
    "type": "feat",
    "ctx": "Barbarian (Pugilist) 3",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Fists of Fury: punish",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -12864,9 +13042,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: window: Uncaught Decoding error."
-   ],
+   "warns": [],
    "hp": [
     221,
     221
@@ -13084,14 +13260,12 @@
      "name": "Harmonic Vitality",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 8,
      "consumed": true
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -13488,9 +13662,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -13508,7 +13680,7 @@
      "name": "Extra Psychic Damage",
      "message": true,
      "rolls": [],
-     "damage": 17,
+     "damage": 9,
      "consumed": false
     },
     {
@@ -13520,9 +13692,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -13554,14 +13724,12 @@
      "name": "Homing Shot (Dexterity Save)",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 7,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -13605,9 +13773,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -13625,14 +13791,12 @@
      "name": "Damage Spread (Dexterity Save)",
      "message": true,
      "rolls": [],
-     "damage": 17,
+     "damage": 13,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -13650,7 +13814,7 @@
      "name": "Extra Piercing Damage",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 17,
      "consumed": false
     },
     {
@@ -13665,14 +13829,12 @@
      "name": "Brambles: Movement Damage",
      "message": true,
      "rolls": [],
-     "damage": 20,
+     "damage": 13,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -13718,14 +13880,12 @@
      "name": "Piercing Line (Dexterity Save)",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 7,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -13737,7 +13897,15 @@
    "name": "Cloak-and-Dagger",
    "type": "feat",
    "ctx": "Rogue (Assassin) 13",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Hide in plain sight",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -13916,7 +14084,29 @@
    "name": "Huntsmen's Tactics",
    "type": "feat",
    "ctx": "Marksman (Bounty Hunter) 3",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Persistent Strike",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Big Game Hunting",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Cluster Clasher",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -13972,7 +14162,15 @@
    "name": "Fighting Style: Thrown Weapon Fighting",
    "type": "feat",
    "ctx": "Bard (College of Swords) 3",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Thrown weapon hit",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -14112,7 +14310,15 @@
    "name": "Fighting Style: Thrown Weapon Fighting",
    "type": "feat",
    "ctx": "Brawler (Sword Sage) 3",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Thrown weapon hit",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -14132,14 +14338,12 @@
      "name": "Spirit Strike",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 8,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -14636,7 +14840,7 @@
      "name": "Force Jolt",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 7,
      "consumed": true
     },
     {
@@ -14644,14 +14848,12 @@
      "name": "Healing Jolt",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 7,
      "consumed": true
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -14715,9 +14917,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -14756,9 +14956,7 @@
      "type": "utility",
      "name": "Volatile (Cost: 1d6)",
      "message": true,
-     "rolls": [
-      "1d6=4"
-     ],
+     "rolls": [],
      "consumed": false
     },
     {
@@ -14866,14 +15064,12 @@
      "name": "Hand of Harm",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 9,
      "consumed": true
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -14913,14 +15109,12 @@
      "name": "Exploding Shot",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 2,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     200,
     200
@@ -15066,14 +15260,12 @@
      "name": "Water Heart",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 10,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -15091,14 +15283,12 @@
      "name": "Brick Fist",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 13,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -15124,7 +15314,15 @@
    "name": "Carving Inspiration",
    "type": "feat",
    "ctx": "Bard (Swords) 6",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Carving Inspiration",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -15402,7 +15600,15 @@
    "name": "Gigantic Might",
    "type": "feat",
    "ctx": "Barbarian (Channeler) 3",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Gigantic Might: shockwave",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -15544,7 +15750,51 @@
    "name": "Chemical Cocktail",
    "type": "feat",
    "ctx": "Gadgeteer (Alchemist) 3",
-   "activities": [],
+   "activities": [
+    {
+     "type": "heal",
+     "name": "Healing Cocktail",
+     "message": true,
+     "rolls": [],
+     "damage": 11,
+     "consumed": true
+    },
+    {
+     "type": "utility",
+     "name": "Swiftness Cocktail",
+     "message": true,
+     "rolls": [],
+     "consumed": true
+    },
+    {
+     "type": "utility",
+     "name": "Resilience Cocktail",
+     "message": true,
+     "rolls": [],
+     "consumed": true
+    },
+    {
+     "type": "utility",
+     "name": "Boldness Cocktail",
+     "message": true,
+     "rolls": [],
+     "consumed": true
+    },
+    {
+     "type": "utility",
+     "name": "Strength Cocktail",
+     "message": true,
+     "rolls": [],
+     "consumed": true
+    },
+    {
+     "type": "utility",
+     "name": "Transformation Cocktail",
+     "message": true,
+     "rolls": [],
+     "consumed": true
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -15648,9 +15898,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -15679,9 +15927,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     183,
     183
@@ -17385,7 +17631,7 @@
      "name": "Elemental Attack (2d10)",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 36,
      "consumed": false
     },
     {
@@ -17397,9 +17643,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -17438,9 +17682,7 @@
      "type": "utility",
      "name": "Reduce Damage",
      "message": true,
-     "rolls": [
-      "1d12 + 5 + 20=30"
-     ],
+     "rolls": [],
      "consumed": false
     }
    ],
@@ -17527,7 +17769,16 @@
    "name": "Inspiring Leader",
    "type": "feat",
    "ctx": "Fighter L20",
-   "activities": [],
+   "activities": [
+    {
+     "type": "heal",
+     "name": "Inspire",
+     "message": true,
+     "rolls": [],
+     "damage": 43,
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -17736,14 +17987,12 @@
      "name": "Advantage Bonus Damage",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 1,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -18002,9 +18251,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -18172,7 +18419,15 @@
    "name": "Enhanced Evolution",
    "type": "feat",
    "ctx": "Fighter L20",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Absorption (free cast)",
+     "message": true,
+     "rolls": [],
+     "consumed": true
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -18252,7 +18507,22 @@
    "name": "Crusher",
    "type": "feat",
    "ctx": "Fighter L20",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Crusher: push",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    },
+    {
+     "type": "utility",
+     "name": "Crusher: critical hit",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -18437,9 +18707,7 @@
      "type": "utility",
      "name": "Superiority Die",
      "message": true,
-     "rolls": [
-      "1d8=5"
-     ],
+     "rolls": [],
      "consumed": true
     }
    ],
@@ -18456,7 +18724,23 @@
    "name": "Ominous Toxin",
    "type": "feat",
    "ctx": "Fighter L20",
-   "activities": [],
+   "activities": [
+    {
+     "type": "save",
+     "name": "Poisoned Strike",
+     "message": true,
+     "rolls": [],
+     "damage": 5,
+     "consumed": false
+    },
+    {
+     "type": "save",
+     "name": "Toxic Skin",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -18504,9 +18788,7 @@
      "type": "utility",
      "name": "Devil Fruit Ability Check",
      "message": true,
-     "rolls": [
-      "1d20 + max(5,3,5,3,3,3) + 6=21"
-     ],
+     "rolls": [],
      "consumed": false
     },
     {
@@ -18588,7 +18870,16 @@
    "name": "Drunkard",
    "type": "feat",
    "ctx": "Fighter L20",
-   "activities": [],
+   "activities": [
+    {
+     "type": "heal",
+     "name": "Drink",
+     "message": true,
+     "rolls": [],
+     "damage": 26,
+     "consumed": true
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -18751,9 +19042,7 @@
      "type": "utility",
      "name": "Strong Will Die",
      "message": true,
-     "rolls": [
-      "1d8=2"
-     ],
+     "rolls": [],
      "consumed": false
     }
    ],
@@ -18806,7 +19095,15 @@
    "name": "Grappler",
    "type": "feat",
    "ctx": "Fighter L20",
-   "activities": [],
+   "activities": [
+    {
+     "type": "utility",
+     "name": "Grappler: advantage on the grappled creature",
+     "message": true,
+     "rolls": [],
+     "consumed": false
+    }
+   ],
    "fails": [],
    "warns": [],
    "hp": [
@@ -22804,7 +23101,7 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 55,
+     "damage": 50,
      "consumed": false
     },
     {
@@ -22812,14 +23109,12 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 61,
+     "damage": 58,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     1200,
     1200
@@ -22837,7 +23132,7 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 35,
+     "damage": 46,
      "consumed": false
     },
     {
@@ -22845,14 +23140,12 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 29,
+     "damage": 44,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     1200,
     1200
@@ -22870,7 +23163,7 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 20,
+     "damage": 22,
      "consumed": false
     },
     {
@@ -22878,14 +23171,12 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 17,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     1200,
     1200
@@ -22903,7 +23194,7 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 48,
+     "damage": 35,
      "consumed": false
     },
     {
@@ -22911,14 +23202,12 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 33,
+     "damage": 36,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     1200,
     1200
@@ -22936,7 +23225,7 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 11,
      "consumed": false
     },
     {
@@ -22944,14 +23233,12 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 14,
+     "damage": 17,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     1200,
     1200
@@ -22969,7 +23256,7 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 22,
      "consumed": false
     },
     {
@@ -22977,14 +23264,12 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 22,
+     "damage": 21,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     1200,
     1200
@@ -23002,7 +23287,7 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 11,
      "consumed": false
     },
     {
@@ -23010,14 +23295,12 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 7,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     1200,
     1200
@@ -23043,14 +23326,12 @@
      "name": "Damage Spread",
      "message": true,
      "rolls": [],
-     "damage": 88,
+     "damage": 79,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     1200,
     1200
@@ -23283,9 +23564,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -23303,14 +23582,12 @@
      "name": "Lance",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 7,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -23540,14 +23817,13 @@
      "name": "Whip",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 8,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "empty description",
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
+    "empty description"
    ],
    "hp": [
     206,
@@ -23630,14 +23906,12 @@
      "name": "Axe Dial",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 10,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -23750,14 +24024,12 @@
      "name": "Attack",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 10,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -23891,7 +24163,7 @@
      "name": "Fire Cannon",
      "message": true,
      "rolls": [],
-     "damage": 23,
+     "damage": 19,
      "consumed": false
     },
     {
@@ -23899,7 +24171,7 @@
      "name": "Splash Damage",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 21,
      "consumed": false
     },
     {
@@ -23912,9 +24184,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -24006,14 +24276,12 @@
      "name": "Glaive",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -24051,9 +24319,7 @@
    "ctx": "Fighter L20",
    "activities": [],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -24105,8 +24371,7 @@
    ],
    "fails": [],
    "warns": [
-    "empty description",
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
+    "empty description"
    ],
    "hp": [
     206,
@@ -24181,14 +24446,13 @@
      "name": "Maul",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 11,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "empty description",
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
+    "empty description"
    ],
    "hp": [
     206,
@@ -24254,9 +24518,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -24324,8 +24586,7 @@
    ],
    "fails": [],
    "warns": [
-    "empty description",
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
+    "empty description"
    ],
    "hp": [
     206,
@@ -24436,9 +24697,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -24529,7 +24788,7 @@
      "name": "Attack",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 9,
      "consumed": false
     },
     {
@@ -24541,9 +24800,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -24616,9 +24873,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -24650,7 +24905,7 @@
      "name": "Fire Cannon",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 11,
      "consumed": false
     },
     {
@@ -24658,7 +24913,7 @@
      "name": "Splash Damage",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 7,
      "consumed": false
     },
     {
@@ -24671,9 +24926,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -24705,14 +24958,12 @@
      "name": "Acid Ammo",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 2,
      "consumed": true
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -24730,14 +24981,12 @@
      "name": "Fire",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 16,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -24783,7 +25032,7 @@
      "name": "Fire Cannon",
      "message": true,
      "rolls": [],
-     "damage": 17,
+     "damage": 29,
      "consumed": false
     },
     {
@@ -24791,7 +25040,7 @@
      "name": "Splash Damage",
      "message": true,
      "rolls": [],
-     "damage": 23,
+     "damage": 21,
      "consumed": false
     },
     {
@@ -24804,9 +25053,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -24838,14 +25085,12 @@
      "name": "Shrapnel Ammo",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 6,
      "consumed": true
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -24863,7 +25108,7 @@
      "name": "Attack",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 14,
      "consumed": false
     },
     {
@@ -24871,7 +25116,7 @@
      "name": "Curse Damage",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 5,
      "consumed": false
     },
     {
@@ -24879,14 +25124,12 @@
      "name": "Curse Overcome Bonus",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 12,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -24945,9 +25188,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -25088,8 +25329,7 @@
    ],
    "fails": [],
    "warns": [
-    "empty description",
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
+    "empty description"
    ],
    "hp": [
     206,
@@ -25146,14 +25386,12 @@
      "name": "Rapier",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -25317,14 +25555,12 @@
      "name": "Shock Ammo",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 1,
      "consumed": true
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -25356,7 +25592,7 @@
      "name": "Unarmed Strike",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 8,
      "consumed": false
     },
     {
@@ -25364,14 +25600,13 @@
      "name": "Power Strike (-5 to hit, +10 damage)",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 6,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "empty description",
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
+    "empty description"
    ],
    "hp": [
     206,
@@ -25404,14 +25639,12 @@
      "name": "Shortsword",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 8,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -25660,9 +25893,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -25760,14 +25991,13 @@
      "name": "Dart",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 8,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "empty description",
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
+    "empty description"
    ],
    "hp": [
     206,
@@ -25786,14 +26016,13 @@
      "name": "Pike",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 14,
      "consumed": false
     }
    ],
    "fails": [],
    "warns": [
-    "empty description",
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
+    "empty description"
    ],
    "hp": [
     206,
@@ -25826,14 +26055,12 @@
      "name": "Odachi",
      "message": true,
      "rolls": [],
-     "damage": 14,
+     "damage": 11,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     206,
     206
@@ -31075,14 +31302,12 @@
      "name": "Mind Spike",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 12,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -31122,7 +31347,7 @@
      "name": "Venom Wall Contact",
      "message": true,
      "rolls": [],
-     "damage": 17,
+     "damage": 16,
      "consumed": false
     },
     {
@@ -31130,14 +31355,12 @@
      "name": "Poison Repeat",
      "message": true,
      "rolls": [],
-     "damage": 25,
+     "damage": 13,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -31257,7 +31480,7 @@
      "name": "Storm Appears",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 4,
      "consumed": false
     },
     {
@@ -31273,7 +31496,7 @@
      "name": "Round 3: Lightning Bolts",
      "message": true,
      "rolls": [],
-     "damage": 34,
+     "damage": 35,
      "consumed": false
     },
     {
@@ -31281,7 +31504,7 @@
      "name": "Round 4: Hail",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 6,
      "consumed": false
     },
     {
@@ -31294,9 +31517,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -31317,9 +31538,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -31439,7 +31658,7 @@
      "name": "Tendril Damage",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 6,
      "consumed": false
     },
     {
@@ -31451,9 +31670,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -31493,14 +31710,12 @@
      "name": "Harm",
      "message": true,
      "rolls": [],
-     "damage": 53,
+     "damage": 74,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -31540,14 +31755,12 @@
      "name": "Wind Wall",
      "message": true,
      "rolls": [],
-     "damage": 17,
+     "damage": 14,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -31601,14 +31814,12 @@
      "name": "Deadly Burst",
      "message": true,
      "rolls": [],
-     "damage": 38,
+     "damage": 22,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -31626,14 +31837,12 @@
      "name": "Maddening Darkness",
      "message": true,
      "rolls": [],
-     "damage": 52,
+     "damage": 36,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -31651,14 +31860,12 @@
      "name": "Shocking Grasp",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 7,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -31698,14 +31905,12 @@
      "name": "Elemental Blast",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 22,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -31810,7 +32015,7 @@
      "name": "Staggering Smite",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 14,
      "consumed": false
     },
     {
@@ -31822,9 +32027,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -31842,7 +32045,7 @@
      "name": "Ice Dagger",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 8,
      "consumed": false
     },
     {
@@ -31850,14 +32053,12 @@
      "name": "Ice Shard Explosion",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -31897,14 +32098,12 @@
      "name": "Cone of Cold",
      "message": true,
      "rolls": [],
-     "damage": 34,
+     "damage": 41,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -31922,14 +32121,12 @@
      "name": "Inflict Wounds",
      "message": true,
      "rolls": [],
-     "damage": 19,
+     "damage": 22,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32013,14 +32210,12 @@
      "name": "Thunderwave",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 11,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32082,14 +32277,12 @@
      "name": "Disintegrate",
      "message": true,
      "rolls": [],
-     "damage": 81,
+     "damage": 67,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32236,9 +32429,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32282,9 +32473,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32352,7 +32541,7 @@
      "name": "Whirling Air",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 5,
      "consumed": false
     },
     {
@@ -32360,14 +32549,12 @@
      "name": "Lightning Leap",
      "message": true,
      "rolls": [],
-     "damage": 19,
+     "damage": 20,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32437,7 +32624,7 @@
      "name": "Lightning Arrow (miss)",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 2,
      "consumed": false
     },
     {
@@ -32445,14 +32632,12 @@
      "name": "Lightning Burst",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 12,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32484,14 +32669,12 @@
      "name": "Monster Breath",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 16,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32534,9 +32717,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32554,14 +32735,12 @@
      "name": "Dry Bones",
      "message": true,
      "rolls": [],
-     "damage": 76,
+     "damage": 60,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32635,14 +32814,12 @@
      "name": "Elemental Retaliation",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32682,7 +32859,7 @@
      "name": "Wall of Ice",
      "message": true,
      "rolls": [],
-     "damage": 41,
+     "damage": 28,
      "consumed": false
     },
     {
@@ -32690,14 +32867,12 @@
      "name": "Frigid Air",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 19,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32737,14 +32912,12 @@
      "name": "Gravity Collapse",
      "message": true,
      "rolls": [],
-     "damage": 34,
+     "damage": 28,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32762,14 +32935,12 @@
      "name": "Sunburn",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 16,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32874,14 +33045,12 @@
      "name": "Scorch",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 7,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32899,14 +33068,12 @@
      "name": "Galvanic Blade",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 8,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32946,14 +33113,12 @@
      "name": "Chain Lightning",
      "message": true,
      "rolls": [],
-     "damage": 51,
+     "damage": 45,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -32993,14 +33158,12 @@
      "name": "Wall of Thunder",
      "message": true,
      "rolls": [],
-     "damage": 23,
+     "damage": 21,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33018,14 +33181,12 @@
      "name": "Frost Ray",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 8,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33065,14 +33226,12 @@
      "name": "Vitriolic Sphere",
      "message": true,
      "rolls": [],
-     "damage": 25,
+     "damage": 21,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33112,14 +33271,12 @@
      "name": "Zapping Arc",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33159,14 +33316,12 @@
      "name": "Plant Transformation",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 7,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33189,9 +33344,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33216,7 +33369,7 @@
      "name": "Explosive Trigger",
      "message": true,
      "rolls": [],
-     "damage": 30,
+     "damage": 21,
      "consumed": false
     },
     {
@@ -33228,9 +33381,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33270,14 +33421,12 @@
      "name": "Dark Tendrils",
      "message": true,
      "rolls": [],
-     "damage": 17,
+     "damage": 16,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33295,14 +33444,12 @@
      "name": "Spark Bolt",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 7,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33408,14 +33555,12 @@
      "name": "Blaring Blade",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 4,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33484,7 +33629,7 @@
      "name": "Ardent Blade Strike",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 15,
      "consumed": false
     },
     {
@@ -33492,14 +33637,12 @@
      "name": "Ardent Blade Throw",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 15,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33539,14 +33682,12 @@
      "name": "Shooting Stars",
      "message": true,
      "rolls": [],
-     "damage": 25,
+     "damage": 28,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33622,7 +33763,7 @@
      "name": "Falling Mud",
      "message": true,
      "rolls": [],
-     "damage": 22,
+     "damage": 15,
      "consumed": false
     },
     {
@@ -33641,9 +33782,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33683,14 +33822,12 @@
      "name": "Flashbang",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 15,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33752,14 +33889,12 @@
      "name": "Bestow Curse",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 3,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33777,14 +33912,12 @@
      "name": "Vicious Mockery",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 3,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33802,14 +33935,12 @@
      "name": "Erupting Earth",
      "message": true,
      "rolls": [],
-     "damage": 25,
+     "damage": 28,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33827,14 +33958,12 @@
      "name": "Acid Bolt",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 5,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33852,14 +33981,12 @@
      "name": "Time Ravage",
      "message": true,
      "rolls": [],
-     "damage": 81,
+     "damage": 64,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33899,14 +34026,12 @@
      "name": "Synaptic Static",
      "message": true,
      "rolls": [],
-     "damage": 29,
+     "damage": 40,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -33981,14 +34106,12 @@
      "name": "Insect Plague",
      "message": true,
      "rolls": [],
-     "damage": 19,
+     "damage": 17,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34050,7 +34173,7 @@
      "name": "Blazing Bullet",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 2,
      "consumed": false
     },
     {
@@ -34063,9 +34186,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34083,7 +34204,7 @@
      "name": "Feeble Body: Strength",
      "message": true,
      "rolls": [],
-     "damage": 26,
+     "damage": 18,
      "consumed": false
     },
     {
@@ -34091,7 +34212,7 @@
      "name": "Feeble Body: Dexterity",
      "message": true,
      "rolls": [],
-     "damage": 37,
+     "damage": 23,
      "consumed": false
     },
     {
@@ -34099,14 +34220,12 @@
      "name": "Feeble Body: Constitution",
      "message": true,
      "rolls": [],
-     "damage": 28,
+     "damage": 16,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34124,7 +34243,7 @@
      "name": "Polar Blade Extra Damage",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 17,
      "consumed": false
     },
     {
@@ -34132,14 +34251,12 @@
      "name": "Frost Damage Reduction",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 19,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34157,14 +34274,12 @@
      "name": "Discordant Tune",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 13,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34194,9 +34309,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34258,7 +34371,7 @@
      "name": "Wall of Light",
      "message": true,
      "rolls": [],
-     "damage": 34,
+     "damage": 32,
      "consumed": false
     },
     {
@@ -34266,7 +34379,7 @@
      "name": "Wall Burn",
      "message": true,
      "rolls": [],
-     "damage": 22,
+     "damage": 21,
      "consumed": false
     },
     {
@@ -34279,9 +34392,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34299,14 +34410,12 @@
      "name": "Cause Death",
      "message": true,
      "rolls": [],
-     "damage": 76,
+     "damage": 75,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34346,14 +34455,12 @@
      "name": "Volley",
      "message": true,
      "rolls": [],
-     "damage": 42,
+     "damage": 22,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34371,14 +34478,12 @@
      "name": "Combustion",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 3,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34408,9 +34513,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34471,14 +34574,12 @@
      "name": "Fire Bolt",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 5,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34540,14 +34641,12 @@
      "name": "Acid Spray",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 1,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34613,9 +34712,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34633,14 +34730,12 @@
      "name": "Radical Beam",
      "message": true,
      "rolls": [],
-     "damage": 28,
+     "damage": 40,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34702,14 +34797,12 @@
      "name": "Sword Circle",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 6,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34749,14 +34842,12 @@
      "name": "Antagonize",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 10,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34800,9 +34891,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -34913,14 +35002,12 @@
      "name": "Electric Surge",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 3,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -35135,14 +35222,12 @@
      "name": "Embody Frost",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 14,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -35160,14 +35245,12 @@
      "name": "Blade Barrier",
      "message": true,
      "rolls": [],
-     "damage": 23,
+     "damage": 30,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -35283,9 +35366,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -35395,9 +35476,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -35459,14 +35538,12 @@
      "name": "Cloud of Daggers",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 11,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -35484,14 +35561,12 @@
      "name": "Karma",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 12,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -35701,7 +35776,7 @@
      "name": "Whipping Branches",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 16,
      "consumed": false
     },
     {
@@ -35716,14 +35791,12 @@
      "name": "Hurl Rock",
      "message": true,
      "rolls": [],
-     "damage": 24,
+     "damage": 17,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -35763,14 +35836,12 @@
      "name": "Shadow Blade",
      "message": true,
      "rolls": [],
-     "damage": 14,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -35788,14 +35859,12 @@
      "name": "Ice Lock",
      "message": true,
      "rolls": [],
-     "damage": 19,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -35835,14 +35904,12 @@
      "name": "Blight",
      "message": true,
      "rolls": [],
-     "damage": 32,
+     "damage": 44,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -35882,14 +35949,12 @@
      "name": "Shrapnel Shot",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 11,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -35907,14 +35972,12 @@
      "name": "Miniature Meteors",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 8,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -35932,14 +35995,12 @@
      "name": "Embody Stone",
      "message": true,
      "rolls": [],
-     "damage": 17,
+     "damage": 12,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -35957,14 +36018,12 @@
      "name": "Dark Star",
      "message": true,
      "rolls": [],
-     "damage": 56,
+     "damage": 57,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -35989,14 +36048,12 @@
      "name": "Exhale",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 14,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36036,14 +36093,12 @@
      "name": "Poisonous Puff",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36061,14 +36116,12 @@
      "name": "Kill Radius",
      "message": true,
      "rolls": [],
-     "damage": 38,
+     "damage": 32,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36086,14 +36139,12 @@
      "name": "Thunder Step",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 24,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36133,14 +36184,12 @@
      "name": "Mind Slash",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 2,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36224,14 +36273,12 @@
      "name": "Branding Smite",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 6,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36249,14 +36296,12 @@
      "name": "Psychic Lance",
      "message": true,
      "rolls": [],
-     "damage": 20,
+     "damage": 25,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36274,14 +36319,12 @@
      "name": "Chilling Necrosis",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 5,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36343,14 +36386,12 @@
      "name": "Missiles",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 6,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36368,14 +36409,12 @@
      "name": "Sickening Radiance",
      "message": true,
      "rolls": [],
-     "damage": 17,
+     "damage": 23,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36415,14 +36454,12 @@
      "name": "Air Shock",
      "message": true,
      "rolls": [],
-     "damage": 21,
+     "damage": 22,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36440,14 +36477,12 @@
      "name": "Phantasmal Killer",
      "message": true,
      "rolls": [],
-     "damage": 19,
+     "damage": 25,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36465,7 +36500,7 @@
      "name": "Mental Prison",
      "message": true,
      "rolls": [],
-     "damage": 20,
+     "damage": 27,
      "consumed": false
     },
     {
@@ -36473,14 +36508,12 @@
      "name": "Break the Illusion",
      "message": true,
      "rolls": [],
-     "damage": 48,
+     "damage": 57,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36520,14 +36553,12 @@
      "name": "Caustic Brew",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 5,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36588,14 +36619,12 @@
      "name": "Reverb",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 8,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36613,14 +36642,12 @@
      "name": "Vengeful Flames",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 4,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36638,14 +36665,12 @@
      "name": "Tidal Wave",
      "message": true,
      "rolls": [],
-     "damage": 27,
+     "damage": 28,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36685,14 +36710,12 @@
      "name": "Beastial Transformation",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 8,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36710,14 +36733,12 @@
      "name": "Wall of Lightning",
      "message": true,
      "rolls": [],
-     "damage": 24,
+     "damage": 26,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36757,14 +36778,12 @@
      "name": "Thunder Bolt",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 5,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36804,14 +36823,12 @@
      "name": "Cloudkill",
      "message": true,
      "rolls": [],
-     "damage": 20,
+     "damage": 21,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -36873,7 +36890,7 @@
      "name": "Sinister Shot",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 30,
      "consumed": false
     },
     {
@@ -36885,9 +36902,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37020,9 +37035,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37040,14 +37053,12 @@
      "name": "Phantasmal Force",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 4,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37065,7 +37076,7 @@
      "name": "Tornado",
      "message": true,
      "rolls": [],
-     "damage": 25,
+     "damage": 30,
      "consumed": false
     },
     {
@@ -37084,9 +37095,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37104,14 +37113,12 @@
      "name": "Bitter Blade",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 8,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37309,14 +37316,12 @@
      "name": "Ice Bolt",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 8,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37346,9 +37351,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37432,7 +37435,7 @@
      "name": "Infectious Ray",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 14,
      "consumed": false
     },
     {
@@ -37444,9 +37447,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37508,14 +37509,12 @@
      "name": "Elemental Orb",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 15,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37577,14 +37576,12 @@
      "name": "Call Lightning",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 25,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37602,7 +37599,7 @@
      "name": "Prismatic Spray 1: Red",
      "message": true,
      "rolls": [],
-     "damage": 49,
+     "damage": 45,
      "consumed": false
     },
     {
@@ -37610,7 +37607,7 @@
      "name": "Prismatic Spray 2: Orange",
      "message": true,
      "rolls": [],
-     "damage": 39,
+     "damage": 44,
      "consumed": false
     },
     {
@@ -37618,7 +37615,7 @@
      "name": "Prismatic Spray 3: Yellow",
      "message": true,
      "rolls": [],
-     "damage": 46,
+     "damage": 44,
      "consumed": false
     },
     {
@@ -37626,7 +37623,7 @@
      "name": "Prismatic Spray 4: Green",
      "message": true,
      "rolls": [],
-     "damage": 42,
+     "damage": 32,
      "consumed": false
     },
     {
@@ -37634,7 +37631,7 @@
      "name": "Prismatic Spray 5: Blue",
      "message": true,
      "rolls": [],
-     "damage": 38,
+     "damage": 37,
      "consumed": false
     },
     {
@@ -37660,9 +37657,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37702,14 +37697,12 @@
      "name": "Wall of Water",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 16,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37727,14 +37720,12 @@
      "name": "Firestorm",
      "message": true,
      "rolls": [],
-     "damage": 59,
+     "damage": 44,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37752,14 +37743,12 @@
      "name": "Zephyr Strike",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 7,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37843,14 +37832,12 @@
      "name": "Shatter",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 13,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37868,7 +37855,7 @@
      "name": "Manipulate Earth (Bludgeoning)",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 3,
      "consumed": false
     },
     {
@@ -37876,7 +37863,7 @@
      "name": "Manipulate Earth (Piercing)",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 8,
      "consumed": false
     },
     {
@@ -37884,14 +37871,12 @@
      "name": "Manipulate Earth (Slashing)",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 1,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37953,14 +37938,12 @@
      "name": "Radiant Blast",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 12,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -37978,14 +37961,12 @@
      "name": "Web",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 3,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38003,14 +37984,12 @@
      "name": "Radiant Bolt",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 7,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38042,7 +38021,7 @@
      "name": "Prismatic Wall: Red Layer",
      "message": true,
      "rolls": [],
-     "damage": 37,
+     "damage": 62,
      "consumed": false
     },
     {
@@ -38050,7 +38029,7 @@
      "name": "Prismatic Wall: Orange Layer",
      "message": true,
      "rolls": [],
-     "damage": 47,
+     "damage": 63,
      "consumed": false
     },
     {
@@ -38058,7 +38037,7 @@
      "name": "Prismatic Wall: Yellow Layer",
      "message": true,
      "rolls": [],
-     "damage": 50,
+     "damage": 44,
      "consumed": false
     },
     {
@@ -38066,7 +38045,7 @@
      "name": "Prismatic Wall: Green Layer",
      "message": true,
      "rolls": [],
-     "damage": 56,
+     "damage": 48,
      "consumed": false
     },
     {
@@ -38074,7 +38053,7 @@
      "name": "Prismatic Wall: Blue Layer",
      "message": true,
      "rolls": [],
-     "damage": 64,
+     "damage": 47,
      "consumed": false
     },
     {
@@ -38093,9 +38072,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38157,14 +38134,12 @@
      "name": "Wall of Fire",
      "message": true,
      "rolls": [],
-     "damage": 22,
+     "damage": 18,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38230,9 +38205,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38272,14 +38245,12 @@
      "name": "Psychic Crush",
      "message": true,
      "rolls": [],
-     "damage": 38,
+     "damage": 48,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38319,7 +38290,7 @@
      "name": "Water Flow (Bludgeoning)",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 6,
      "consumed": false
     },
     {
@@ -38335,14 +38306,12 @@
      "name": "Water Flow (Slashing)",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 3,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38360,14 +38329,12 @@
      "name": "Vile Verdict",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 2,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38407,14 +38374,12 @@
      "name": "Venom Bolt",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 4,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38432,14 +38397,12 @@
      "name": "Acid Arrow",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 17,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38457,14 +38420,12 @@
      "name": "Dimension Door",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 12,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38530,9 +38491,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38598,14 +38557,12 @@
      "name": "Dragon's Breath",
      "message": true,
      "rolls": [],
-     "damage": 37,
+     "damage": 23,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38674,14 +38631,12 @@
      "name": "Propel Attack",
      "message": true,
      "rolls": [],
-     "damage": 17,
+     "damage": 14,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi | Error thrown in hooked function '' for hook 'midi-qol.RollComplete'"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38787,14 +38742,12 @@
      "name": "Gravity Fissure",
      "message": true,
      "rolls": [],
-     "damage": 40,
+     "damage": 46,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38856,14 +38809,12 @@
      "name": "Slimy Transformation",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 3,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38924,14 +38875,12 @@
      "name": "Forced Empathy",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 14,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -38949,14 +38898,12 @@
      "name": "Control Water",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39040,14 +38987,12 @@
      "name": "Meteor Swarm",
      "message": true,
      "rolls": [],
-     "damage": 72,
+     "damage": 61,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39131,7 +39076,7 @@
      "name": "Windblast (Bludgeoning)",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 7,
      "consumed": false
     },
     {
@@ -39147,7 +39092,7 @@
      "name": "Windblast (Slashing)",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 5,
      "consumed": false
     },
     {
@@ -39159,9 +39104,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39179,7 +39122,7 @@
      "name": "Thunder Beat",
      "message": true,
      "rolls": [],
-     "damage": 5,
+     "damage": 4,
      "consumed": false
     },
     {
@@ -39191,9 +39134,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39211,14 +39152,12 @@
      "name": "Acid Reflex",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 10,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39258,7 +39197,7 @@
      "name": "Searing Smite",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 3,
      "consumed": false
     },
     {
@@ -39266,7 +39205,7 @@
      "name": "Burning Save",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 6,
      "consumed": false
     },
     {
@@ -39278,9 +39217,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39386,14 +39323,12 @@
      "name": "Sandstorm",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39411,14 +39346,12 @@
      "name": "Sunburst",
      "message": true,
      "rolls": [],
-     "damage": 54,
+     "damage": 52,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39436,14 +39369,12 @@
      "name": "Purifying Flames",
      "message": true,
      "rolls": [],
-     "damage": 24,
+     "damage": 21,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39483,14 +39414,12 @@
      "name": "Flaming Sphere",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39508,14 +39437,12 @@
      "name": "Necrotic Bolt",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 2,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39533,14 +39460,12 @@
      "name": "Gadget Armor",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 24,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39580,14 +39505,12 @@
      "name": "Incendiary Cloud",
      "message": true,
      "rolls": [],
-     "damage": 44,
+     "damage": 53,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39736,14 +39659,12 @@
      "name": "Tsunami",
      "message": true,
      "rolls": [],
-     "damage": 51,
+     "damage": 67,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39805,14 +39726,12 @@
      "name": "Flashpoint",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 5,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39830,14 +39749,12 @@
      "name": "Lightning Bolt",
      "message": true,
      "rolls": [],
-     "damage": 30,
+     "damage": 25,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39904,9 +39821,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39946,14 +39861,12 @@
      "name": "Piercing Frost",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 6,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -39971,7 +39884,7 @@
      "name": "Rotting Shot",
      "message": true,
      "rolls": [],
-     "damage": 11,
+     "damage": 8,
      "consumed": false
     },
     {
@@ -39990,9 +39903,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40132,9 +40043,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40196,14 +40105,12 @@
      "name": "Blazing Stride",
      "message": true,
      "rolls": [],
-     "damage": 6,
+     "damage": 2,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40221,14 +40128,12 @@
      "name": "Immolate",
      "message": true,
      "rolls": [],
-     "damage": 35,
+     "damage": 30,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40246,14 +40151,12 @@
      "name": "Necrosis Surge",
      "message": true,
      "rolls": [],
-     "damage": 44,
+     "damage": 32,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40271,14 +40174,12 @@
      "name": "Spirit Dance",
      "message": true,
      "rolls": [],
-     "damage": 20,
+     "damage": 10,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40318,14 +40219,12 @@
      "name": "Hex",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 1,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40365,7 +40264,7 @@
      "name": "Wrathful Smite",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 4,
      "consumed": false
     },
     {
@@ -40377,9 +40276,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40419,14 +40316,12 @@
      "name": "Sonic Boom",
      "message": true,
      "rolls": [],
-     "damage": 7,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40473,7 +40368,7 @@
      "name": "Instrument Attack",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 5,
      "consumed": false
     },
     {
@@ -40492,9 +40387,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40534,14 +40427,12 @@
      "name": "Spiritual Blast",
      "message": true,
      "rolls": [],
-     "damage": 1,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40559,7 +40450,7 @@
      "name": "Blinding Smite",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 12,
      "consumed": false
     },
     {
@@ -40571,9 +40462,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40613,14 +40502,12 @@
      "name": "Frozen Over",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 8,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40682,14 +40569,12 @@
      "name": "Giant's Hand",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 6,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40714,14 +40599,12 @@
      "name": "Cutting Cards",
      "message": true,
      "rolls": [],
-     "damage": 18,
+     "damage": 17,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40766,9 +40649,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40786,14 +40667,12 @@
      "name": "Energy Surge",
      "message": true,
      "rolls": [],
-     "damage": 20,
+     "damage": 15,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40811,14 +40690,12 @@
      "name": "Psychic Scream",
      "message": true,
      "rolls": [],
-     "damage": 71,
+     "damage": 52,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40836,14 +40713,12 @@
      "name": "Countershock",
      "message": true,
      "rolls": [],
-     "damage": 17,
+     "damage": 11,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40883,14 +40758,12 @@
      "name": "Earth Grasp",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 15,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -40908,14 +40781,12 @@
      "name": "Toxic Trigger",
      "message": true,
      "rolls": [],
-     "damage": 9,
+     "damage": 10,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41026,14 +40897,12 @@
      "name": "Death Wish",
      "message": true,
      "rolls": [],
-     "damage": 8,
+     "damage": 9,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41051,14 +40920,12 @@
      "name": "Blade of Disaster",
      "message": true,
      "rolls": [],
-     "damage": 24,
+     "damage": 19,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41076,14 +40943,12 @@
      "name": "Frigid Bullet",
      "message": true,
      "rolls": [],
-     "damage": 3,
+     "damage": 6,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41101,14 +40966,12 @@
      "name": "Tremor",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 6,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41126,14 +40989,12 @@
      "name": "Sapping Stinger",
      "message": true,
      "rolls": [],
-     "damage": 2,
+     "damage": 1,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41173,14 +41034,12 @@
      "name": "Heat Metal",
      "message": true,
      "rolls": [],
-     "damage": 4,
+     "damage": 16,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41286,14 +41145,12 @@
      "name": "Mind Thrust",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 12,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41311,14 +41168,12 @@
      "name": "Feeblemind",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 13,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41336,14 +41191,12 @@
      "name": "Pulse Wave",
      "message": true,
      "rolls": [],
-     "damage": 23,
+     "damage": 27,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41361,14 +41214,12 @@
      "name": "Embody Flames",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 12,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41386,14 +41237,12 @@
      "name": "Wall of Thorns",
      "message": true,
      "rolls": [],
-     "damage": 40,
+     "damage": 32,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41411,7 +41260,7 @@
      "name": "Burning Blade Extra Damage",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 13,
      "consumed": false
     },
     {
@@ -41419,14 +41268,12 @@
      "name": "Burning Blade Blast",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 15,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: midi-qol |  midi-qol | hooked function for hook midi-qol.premades.postRollFinished error TypeError: Cannot read properti"
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41466,14 +41313,12 @@
      "name": "Fireball",
      "message": true,
      "rolls": [],
-     "damage": 19,
+     "damage": 33,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41491,14 +41336,12 @@
      "name": "Life Steal",
      "message": true,
      "rolls": [],
-     "damage": 10,
+     "damage": 14,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41560,7 +41403,7 @@
      "name": "Elemental Trap: Acid",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 9,
      "consumed": false
     },
     {
@@ -41568,7 +41411,7 @@
      "name": "Elemental Trap: Cold",
      "message": true,
      "rolls": [],
-     "damage": 13,
+     "damage": 11,
      "consumed": false
     },
     {
@@ -41576,7 +41419,7 @@
      "name": "Elemental Trap: Fire",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 7,
      "consumed": false
     },
     {
@@ -41592,7 +41435,7 @@
      "name": "Elemental Trap: Poison",
      "message": true,
      "rolls": [],
-     "damage": 12,
+     "damage": 17,
      "consumed": false
     },
     {
@@ -41600,7 +41443,7 @@
      "name": "Elemental Trap: Thunder",
      "message": true,
      "rolls": [],
-     "damage": 15,
+     "damage": 17,
      "consumed": false
     },
     {
@@ -41612,9 +41455,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41676,14 +41517,12 @@
      "name": "Rending Sword",
      "message": true,
      "rolls": [],
-     "damage": 16,
+     "damage": 30,
      "consumed": false
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179
@@ -41728,9 +41567,7 @@
     }
    ],
    "fails": [],
-   "warns": [
-    "console: Error: Error thrown in hooked function '' for hook 'preCreateChatMessage'. d.dice is not iterable\n[Detected 2 packages: "
-   ],
+   "warns": [],
    "hp": [
     179,
     179

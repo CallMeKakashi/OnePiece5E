@@ -46,9 +46,44 @@
    "got": null
   },
   {
-   "label": "harness ran without throwing",
-   "pass": false,
-   "got": "TypeError: Cannot read properties of undefined (reading 'name')\n    at Object.LF [as fn] (http://localhost:30000/modules/chris-premades/dist/main.js:1:1848869)\n    at fire (eval at evaluate (:311:30), <anonymous>:6:93)\n    at async eval (eval at evaluate (:311:30), <anonymous>:40:5)\n    at async <an"
+   "label": "natural 1 on a damaging effect adds one extra damage die (d6)",
+   "pass": true,
+   "got": 14
+  },
+  {
+   "label": "no extra die without a fumble",
+   "pass": true,
+   "got": 10
+  },
+  {
+   "label": "Midi active: no duplicate chat note",
+   "pass": true,
+   "got": 0
+  },
+  {
+   "label": "off: no extra siege damage",
+   "pass": true,
+   "got": 10
+  },
+  {
+   "label": "siege type vs Construct: +1d8",
+   "pass": true,
+   "got": 13
+  },
+  {
+   "label": "'Siege weapon' text vs Construct: +1d8",
+   "pass": true,
+   "got": 15
+  },
+  {
+   "label": "siege vs non-Construct: unchanged",
+   "pass": true,
+   "got": 10
+  },
+  {
+   "label": "non-siege weapon vs Construct: unchanged",
+   "pass": true,
+   "got": 10
   }
  ],
  "encumbrance": {
