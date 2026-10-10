@@ -21,6 +21,7 @@ Live sheet: CR 5, 95 HP, AC 16, odachi swordsman with MistFrame, an air-elementa
 - `packs-src` is gitignored build output; `npm run build:json` regenerates it from `data/src` (automation specs in `data/src/automation`, later `Object.assign` wins; audit-fixes.ts is imported last).
 - Foundry harness shares one "Automation" login: run `sync-npc.mjs` loops in the background (they exceed 2 minutes) and do not run two Foundry scripts at once. Agents should review from an offline snapshot (`live-dump.json` pattern) instead.
 - `git stash` slipped in by mistake once and was popped; do not use it with the dirty tree.
+- `build-guards-custom.ts` reads untracked `op5e/reports/.meta-<slug>.json` (written by `prep-guards.mjs`); a fresh checkout must rerun that first.
 - Use the DMG band table in `dev/harness/npc-validate.mjs` for HP bands instead of memory.
 
 ## Open items
