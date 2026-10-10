@@ -1,41 +1,56 @@
-- Baptiste as you are talking to the crew and coming up with the ways you can somehow rig the match in your favor your eyes wander as you see a man lock eyes with you in the crowded street splitting off from the shipwright docks. back into the main city... you remeber this shit stain from spirit cliff its Director Delroth Halward... you see as the panic sets in his eyes. He seems to be walking around on his own no guards of any kind as he starts to a bunch of people and scurries off in a hurry.
-- See where this thread goes
+- The crew goes to meet Mr. Hawthorne.
+- Hawthorne tells them about his past
+	- Some quotes
+		- "I moved here with my wife after we had to leave our home island because of a pirate raid."
+		- "I joined the coast guards. We had two beautiful children. We needed more money my senior put a good word for me in the Marines."
+		- "I had to spend a lot of time on the sea but i was able to go home once in a while."
+		- "One day i got a call when i was posted near Water 7. A Seaking attacked the SeaShore Town where my family lived."
+		- "All i heard from my friends and the people i knew how sorry they were. But it sit well with me once. I was obsessed with finding what happened. We were close to seashore yes but there was no way. A seaking just came on land and wasnt stopped in the water by the coast guards. The more i looked the more i realized what was happening. This cycle of fear that Crowe had feeding as soon as he took over the company..."
+		- "I reported this to the marines... They called me crazy and courtmarshalled me."
+		- "The so called friends i ahd in the guards all started dodging me."
+		- "I had but one way to handle this i got a whole new identity. But before that i needed a reason for Crowe to look for more security. He wasnt threatened by anyone But the Gallow would be a threat he couldn't ignore."
+		- "Over the years Gallow gave me a purpose i found meaning in what i was doing. I convinced myself i was doing thsi for my family."
+		- "I realized all i was finding an avenue to take all this rage i have built up inside me out."
+		- "Once gallow became a big enough threat my new identity Mr. Lionel Hawthorne would just show up in the underground fight and it reached Crowe he held a private match against a Fishman. I had to kill the poor man ... dont think he cared much for living anyway... i wouldn't."
+		- "I've been raiding the transports and doing anything in my power so that Crowe would reveal himself."
+		- "Kyle that bastard knew that the dome wasnt real and he let me believe that it was. I don't quite remember why i thought it was real to begin with."
+- Video News announcement
+	- Kyle
+		- "Ughhm, I know that this is tough times but I know aswell as all of you that the People of Meridian Island have never bowed down to such Ruthless and Barbaric attack on our city or people. And so we have put every able bodied person into repairing the domed city. Now I know you must all be confused as to what happened to the Dome. A Dome that has been a symbol of a Safe Haven to anyone who arrives on Meridian Island. I am gut wrenched to inform you that our kindness as a people has itself led to our downfall. What I expected to an Ambassador from the land of Alabasta turned out to be pirates in disguise. Here are these individuals and there last known disguises.. If anyone has any information of there were abouts you can deliver that information to the Seaking Tooth. I will also read out the latest bounties as we show their Marine issued bounty posters."
+		 - Tempest Thompson with a bounty of 250 Million Bellies. The right arm of the ruthless Pirate Captain Mira. Known to be ruthless swordsman and very well adept in hand to hand combat.
+		 - Blackdawn Baptiste with a bounty of 199 Million Bellies The captain of the lunarfold pirates... According to government sources he has a flying type zoan devil fruit power. A ruthless pirate captain who caused the death of 100's of people on Juniper islands.
+		 - Death Knight B.O.B with a bounty of 101 Million Bellies considered to a be undead creature who feasts on human flesh. 
+		 - Iron Beast R.O.M.A with a bounty of 100 Million Bellies a terrifying beast void of any thought other than blood.
+		 - Diamond Jack with a bounty of 94 Million Bellies a gangster skilled with firearms.
+		 - Tray the Viper another crew member of the The braveheart pirates witha  bounty of 74 Million Bellies a short tempered maniac capable of immense destruction.
+		"This is all we have as of now. We will keep you all updated. We have also requested for Marine backup from G-8. The nearest Marine base in the south blue. Unfortunately due to an incident that occurred there about a month and half ago. The most recent they can get here is 3 days. To assure you everything is under control we have our best people working day and night on keeping the citizens of this island safe at all times Here are a few words from our very Own Andrew Crowe."
+	- Andrew Crowe
+		- "In this moment of turmoil, utter pandemonium. I have but one thing to say. I have failed each and every one of you. My family ... my ancestors would be ashamed of the carelessness i showed in securing our home. 80 years ago my family came to this island to establish themselves and the kindness that people showed us helped us become who we are. We owe everything to the people of this place we now call home. Take this with you if anything with you today. I will fix this and Meridian Island will once again be the most prosperous island in all the blues."
+- Hawthorne throws a baton to the wall cracking the wall behind
+	- "I have to say he's  charming bastard. Don't be fooled by his words. If there is a man i would truly call Evil it would be him."
+	- There is nothing he will do to make sure he and his company are in a position of absolute power.
 
-- You see a bunch of the coast guards wearing the same uniform as the ones you saw on the docks when you guys landed.. rush in as crowd behind them start murmuring as you hear one of them talking "Another seaking attack, its been a while since we got attacked almost felt like this dome was unnecessary to begin with." "Do you have any idea which type it is." "I overheard one of the guards tell another one that they were gonna have a lobster buffey at the Seaking Tooth if you know what i mean."
-- Play out this thread.
 
-- Kyle gives Baptiste a call telling him that the odds are changed someone came in last second and put in a lot of money its 100:1 now... so if you win theres a big payday waiting for you. This new participant would also like for this be held above grounds if possible because he doesnt ant to involved in an illegal underground match... so we are setting up a match in the dojo near Seaking Tooth. I've already informed then to clear it for the tomorrow morning.. We have moved up the match to be the main event... We are looking for some more fillers if you or your people want to participate let me know. 
+Hawthorne's plan
 
-- Zim calls you in a panic. She tell you something seem to be going on in the dojo Tray, Tom and Julee went. she's getting there as soon as she can asks you to get there aswell.
-  If mentioned Kyle.. She will say he was the one who informed her.
+- Thanks to you all.. His personal security is spread way more thinner than it would be he has called me in for day after tomorrow so he can blow off some steam by holding a match of Beasts as he put it.. He doesn't really care abt the money i think he is finally going to just going to get rid of Kyle. "He has outlived his use." according to him.
+- Before meeting you all my plan was to just confront him where he had the least security around him ... try to get him to admit to everything he has been doing and hand him over to the marines. 
+- But i doubt thats gonna work... the marines are very aware of the dome as they have been very supportive of Crowe industries. The dome as we know is a fake so the MArines are in on it too.
 
-- As you all get to the Dojo you see Julee being in a chokehold by a woman behind tray and tom... and you see tray unconsious beaten to a bloody pulp .... as a pair of cuffs on his hands.. and you see Tom getting punched by a guy bothe the woman and the guy wearing floral clothing... 
-- Wait for players reaction
+Party's plan
 
-See how this plays out
+FOR GM only
 
-- Kyle will interrupt asking everyone to stop before this goes any further..
-- He will take the party with him to their hotel rooms.
+inside the security is there but thin
 
-- He warns the party that they are in big trouble sooner or later they will figure out your identities they probably already have by the looks of what happened there now the only thing they can do is either run... or he can setup a meeting tonight with someone who might be able to help you.
+they an easily go to the battle grounds
 
-- Kyle sends them a location in the open city market and gives them a time.
-	- As the pary gets there will see that the light of the statue is already gone..
-	- All they hear is sounds of impact sounds of bones breaking and flesh being pummeled into..
-	- As they walk deeper and deeper in the alley. They see th man dressed in black and a white mask splattered with blood. still beating his victim ruthlessly and he lets go...
-	- you see a bunch of other guys scurry up and grab the man as they run away...
+they will be stopped by Kyle and Tyrell if they do get spotted there
 
-- So I guess you were part of the scum that Crowe recruited to stop me. How did you find me did that man finally betrayed me. like i thought he would eventaully. You see him getting into a fighting stance with both his batons out.
-- Party can talk to him .
-- I they onvince him that they arent with Crowe he will ask them to follow him they cant talk here.
-- He will lead you all into an abandoned ad burned out house...
-	- You see abunch of photos of a women and two children with a man standing next to them but the face is either scratched off, burned off or ripped out of the picture..
-	- He lifts a trap door in the house as he allows you in.
-	- AS the party makes there way in they see an arsenal of weapons in his room a pinboard leading from one perso to another noen of this makes sense to you... you just See Crowe's Name being mentioned in a lot of places... You see he has written down marine involvement with a ? and a bunch fo news paper cutting of your guys news but they seem to be recent..
-	- He tells the party why he does what he does
-		- I was a marine. A Lieutenant commander i was a native of this island i served in the coast guard but eventually i left to be a marine. I thought i can do more and protect my family while i was at it so no threat to could ever harm them... But little did i know the threat was much closer than i imagined... 
-		  
-		  - You notice a newspaper cut out of a Seaking incident attack on the facility mentioned a bunch of open city people were killed in the attack as a fire spread through a art of the settlement near the shores.
-		  - They all died in that fire and no one gave a flying fuck about them everyone in domed city were patting them selves on a job well done... when i asked my superior to start an investigation to maybe find any sense how the seaking got island without ever triggering an alarm on the border. they told me to leave it and stay out of the islands business..
-		  - I decided to leave the marines and started looking into this on my own. The more i dug the more i realized what was happening on this island... in the beginning i blamed fate but this was not done by fate. This happened because of one man or i should say one Dynasty... The crows i needed to dig deeper so i joined the security detail for the company... soon enough he hired me to be his personal guards all these years ive been poking and prodding to gather enough evidence to bury this man for good. and i finally ajve iot ad i wouldnt let anyone get in my way when he is going to attend tomorrow's match... I will break into his office and send all the evidence of him planning th seaking attacks him lying killing the people for publicty everything will come to light and then the marines will stop this im sure..
-		- If the poarty convinceshim that thats not going to happen.. he in all his fury will threaten to kill andrew crowe himself 
+If they mess up they will be encountered by Tom's cousins. tom and tray will handle this
+
+They will run into halward on the way if they roll good he will maybe lead them to somewhere they can find more documented proof of Crowe that they can reveal to the public
+
+Crowe will as a last effort will release Kanto who is a multi chromatic dragon now fully possessed by fenrir
+
+in the aftermath if they survive they will find crowe dead under a statue of his father.
