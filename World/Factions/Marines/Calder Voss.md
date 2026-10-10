@@ -30,6 +30,8 @@ foundry_live_slug: "calder-voss"
 
 ## Description
 
+**Appearance:** A young man with pale skin, sharp angular features, and thick, tousled white hair styled in voluminous, unruly spikes, with long bangs falling across his forehead. He has striking crimson-pink eyes beneath dark, slightly furrowed eyebrows, giving him an intense, cold stare. Small scars and faint marks are visible beneath one eye and along his face and neck. He wears a black, high-collared coat over a partially unbuttoned white shirt, with the collar loosely open to reveal his upper chest. His expression is stern and composed, with a defined jawline and a serious, intimidating presence.
+
 Marine officer who began as a founding member of the [[Motley Crew]] under the name **Vorro**.
 
 ## Role
