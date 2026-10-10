@@ -49,3 +49,19 @@ export function standaloneSummons(items: Doc[], outDir: string, slug: string): s
   }
   return written;
 }
+
+/** Brawler features whose text says "spend N spirit point(s)" ship with no cost. Points each one's main activity at the actor's Spirit item (itemUses),
+ *  so using it spends the points. Features that bundle several effects (Six Techniques, Deflect Missiles' optional throw) stay text-only. */
+const SPIRIT_COST: Record<string, number> = { "Flurry of Blows": 1, "Patient Defense": 1, "Deft Escape": 1, "Stunning Strike": 1, "Back In The Fight": 3 };
+export function wireSpirit(items: Doc[]): string[] {
+  const spirit = items.find((i) => i.name === "Spirit"); if (!spirit) return [];
+  const done: string[] = [];
+  for (const it of items) {
+    const cost = SPIRIT_COST[it.name]; if (!cost) continue;
+    const acts = Object.values(it.system?.activities ?? {}) as Doc[]; if (!acts.length) continue;
+    const act = acts.find((a) => a.type === "save") ?? acts[0];
+    act.consumption = { ...act.consumption, targets: [{ type: "itemUses", target: spirit._id, value: String(cost), scaling: { mode: "", formula: "" } }] };
+    done.push(it.name);
+  }
+  return done;
+}

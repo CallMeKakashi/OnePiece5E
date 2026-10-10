@@ -2626,7 +2626,8 @@
         "recharge": {
           "value": null,
           "charged": false
-        }
+        },
+        "activities": {}
       },
       "effects": [
         {
@@ -2658,7 +2659,8 @@
             }
           },
           "statuses": [],
-          "tint": null
+          "tint": null,
+          "_key": "!items.effects!6769090a1d392a14.96023a04bd3314b6"
         }
       ],
       "flags": {},
@@ -2893,7 +2895,7 @@
         },
         "uses": {
           "value": null,
-          "max": "@scale.brawler.spirit-points",
+          "max": "@scale.brawler.spirit-points + @abilities.wis.mod",
           "per": null,
           "recovery": [
             {
@@ -3083,6 +3085,85 @@
         "recharge": {
           "value": null,
           "charged": false
+        },
+        "activities": {
+          "7b85b4c75faae37c": {
+            "_id": "7b85b4c75faae37c",
+            "type": "utility",
+            "name": "Flurry of Blows",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "6790ee2a17bad332",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Immediately after you take the Attack action: make two unarmed strikes. Costs 1 spirit point: reduce the Spirit feature's uses by 1 (the cost is not linked automatically)."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
         }
       },
       "effects": [],
@@ -3165,9 +3246,121 @@
         "recharge": {
           "value": null,
           "charged": false
+        },
+        "activities": {
+          "465948001b166a0e": {
+            "_id": "465948001b166a0e",
+            "type": "utility",
+            "name": "Patient Defense",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "6790ee2a17bad332",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Costs 1 spirit point: reduce the Spirit feature's uses by 1 (the cost is not linked automatically)."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "round",
+              "special": "",
+              "override": true
+            },
+            "effects": [
+              {
+                "_id": "8fe60b9d123d058c",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "1",
+                "type": "self",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
         }
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "8fe60b9d123d058c",
+          "name": "Dodging",
+          "img": "icons/svg/aura.svg",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": 1,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dae": {
+              "transfer": false,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [
+            "dodging"
+          ],
+          "tint": null,
+          "_key": "!items.effects!5129621868d2b6a2.8fe60b9d123d058c"
+        }
+      ],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -3247,6 +3440,85 @@
         "recharge": {
           "value": null,
           "charged": false
+        },
+        "activities": {
+          "d1c120e451b5054c": {
+            "_id": "d1c120e451b5054c",
+            "type": "utility",
+            "name": "Deft Escape",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "6790ee2a17bad332",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "While grappled: attempt to escape a grapple or restraints. Costs 1 spirit point: reduce the Spirit feature's uses by 1 (the cost is not linked automatically)."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
         }
       },
       "effects": [],
@@ -3329,7 +3601,8 @@
         "recharge": {
           "value": null,
           "charged": false
-        }
+        },
+        "activities": {}
       },
       "effects": [
         {
@@ -3361,7 +3634,8 @@
             }
           },
           "statuses": [],
-          "tint": null
+          "tint": null,
+          "_key": "!items.effects!e96b50b5ddd1e52d.b2ea101c3d8c4fa2"
         }
       ],
       "flags": {},
@@ -3908,7 +4182,17 @@
               "override": false
             },
             "consumption": {
-              "targets": [],
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "6790ee2a17bad332",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
               "scaling": {
                 "allowed": false,
                 "max": ""
@@ -4052,7 +4336,8 @@
         "recharge": {
           "value": null,
           "charged": false
-        }
+        },
+        "activities": {}
       },
       "effects": [
         {
@@ -4084,7 +4369,8 @@
             }
           },
           "statuses": [],
-          "tint": null
+          "tint": null,
+          "_key": "!items.effects!aa15f79c5f31534f.3e93d64a0369f8f4"
         }
       ],
       "flags": {},
@@ -4160,8 +4446,10 @@
         "actionType": "heal",
         "damage": {
           "parts": [
-            "3 * @classes.brawler.levels",
-            "healing"
+            [
+              "3 * @classes.brawler.levels",
+              "healing"
+            ]
           ],
           "versatile": ""
         },
@@ -4571,9 +4859,43 @@
             "classRestriction": "",
             "hint": "Increase your Dexterity or Constitution score by 1"
           }
-        ]
+        ],
+        "activities": {}
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "69a0e2d4f2b7e813",
+          "name": "Medium Armor Master",
+          "img": "icons/svg/aura.svg",
+          "changes": [
+            {
+              "key": "flags.dnd5e.mediumArmorMaster",
+              "mode": 5,
+              "value": "1",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!f4e58d1d6e400e7a.69a0e2d4f2b7e813"
+        }
+      ],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -4830,7 +5152,8 @@
           "value": null,
           "charged": false
         },
-        "advancement": []
+        "advancement": [],
+        "activities": {}
       },
       "effects": [
         {
@@ -4862,7 +5185,8 @@
             }
           },
           "statuses": [],
-          "tint": null
+          "tint": null,
+          "_key": "!items.effects!d2a5a6f8fc8a2040.efac58958746896a"
         }
       ],
       "flags": {},
@@ -5638,7 +5962,7 @@
       }
     },
     {
-      "_id": "27166aa1213a2021",
+      "_id": "49299926cab7cb73",
       "name": "Darkvision",
       "type": "feat",
       "img": "icons/magic/unholy/beam-ringed-impact-purple.webp",
@@ -5699,7 +6023,8 @@
         "recharge": {
           "value": null,
           "charged": false
-        }
+        },
+        "activities": {}
       },
       "effects": [
         {
@@ -5731,7 +6056,8 @@
             }
           },
           "statuses": [],
-          "tint": null
+          "tint": null,
+          "_key": "!items.effects!894c7a5849116011.70aacf4f1088098f"
         }
       ],
       "flags": {},
@@ -5752,7 +6078,7 @@
       }
     },
     {
-      "_id": "4f0b0f64fac4ea45",
+      "_id": "f6d9e6c8ca742536",
       "name": "Omni-Adapted",
       "type": "feat",
       "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
@@ -5813,7 +6139,8 @@
         "recharge": {
           "value": null,
           "charged": false
-        }
+        },
+        "activities": {}
       },
       "effects": [
         {
@@ -5845,7 +6172,8 @@
             }
           },
           "statuses": [],
-          "tint": null
+          "tint": null,
+          "_key": "!items.effects!81df5d5694fecfdc.7d14fd0195fa3ca2"
         }
       ],
       "flags": {},
@@ -5866,7 +6194,7 @@
       }
     },
     {
-      "_id": "6520620548d91e5c",
+      "_id": "11111d80b46fcd10",
       "name": "Flaming Duality",
       "type": "feat",
       "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
@@ -6119,7 +6447,7 @@
       }
     },
     {
-      "_id": "9720f797cc1136ef",
+      "_id": "f391a08e02559cdc",
       "name": "Empowered Godspeed",
       "type": "feat",
       "img": "icons/magic/time/arrows-circling-green.webp",
@@ -6201,7 +6529,7 @@
       }
     },
     {
-      "_id": "c16332b06f36137c",
+      "_id": "c16b5551ef7b402e",
       "name": "Improved Ignite",
       "type": "feat",
       "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
@@ -6262,9 +6590,109 @@
         "recharge": {
           "value": null,
           "charged": false
-        }
+        },
+        "activities": {}
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "fdbff9333790f024",
+          "name": "Improved Ignite (Ignited form): resistance to all damage except psychic",
+          "img": "icons/svg/upgrade.svg",
+          "changes": [
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "acid",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "bludgeoning",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "cold",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "fire",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "force",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "lightning",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "necrotic",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "piercing",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "poison",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "radiant",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "slashing",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "thunder",
+              "priority": 20
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!fc22ba1ba345c43c.fdbff9333790f024"
+        }
+      ],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -6283,7 +6711,7 @@
       }
     },
     {
-      "_id": "2050bda5686d333b",
+      "_id": "9ec36f6bd228c60d",
       "name": "Flame Investure",
       "type": "feat",
       "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
@@ -6454,7 +6882,7 @@
       }
     },
     {
-      "_id": "171e17d221a94b87",
+      "_id": "b823575b01408060",
       "name": "Fire Bolt",
       "type": "spell",
       "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
@@ -6649,7 +7077,7 @@
       }
     },
     {
-      "_id": "a34ae4bfe69f8b06",
+      "_id": "9fa1516e021f190c",
       "name": "Elemental Armor",
       "type": "spell",
       "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
@@ -6820,7 +7248,7 @@
       }
     },
     {
-      "_id": "f6c809404937a443",
+      "_id": "f27c45543198c45e",
       "name": "Fireball",
       "type": "spell",
       "img": "icons/magic/fire/projectile-fireball-orange.webp",
@@ -7021,7 +7449,7 @@
       }
     },
     {
-      "_id": "e8de26be21a81e84",
+      "_id": "1e6da352d4688ceb",
       "name": "Flying Strikes",
       "type": "feat",
       "img": "icons/magic/air/wind-tornado-funnel-green.webp",
@@ -7120,7 +7548,7 @@
       "_key": "!items!2f6cd976e5725c37"
     },
     {
-      "_id": "beeadcac165d363d",
+      "_id": "9c3f1e285c2c511a",
       "name": "Flowing Mind",
       "type": "feat",
       "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
@@ -7202,7 +7630,7 @@
       }
     },
     {
-      "_id": "de20ba8b8176dc48",
+      "_id": "d453d1d937b819eb",
       "name": "Artful Mastery",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -7263,9 +7691,49 @@
         "recharge": {
           "value": null,
           "charged": false
-        }
+        },
+        "activities": {}
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "a6a90a2e9eefb684",
+          "name": "Artful Mastery (unarmored strikes, monk weapons, special brawler attacks)",
+          "img": "icons/svg/upgrade.svg",
+          "changes": [
+            {
+              "key": "system.bonuses.mwak.attack",
+              "mode": 2,
+              "value": "+1",
+              "priority": 20
+            },
+            {
+              "key": "system.bonuses.mwak.damage",
+              "mode": 2,
+              "value": "+1",
+              "priority": 20
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!6b61d0a6094d142f.a6a90a2e9eefb684"
+        }
+      ],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -7284,7 +7752,7 @@
       }
     },
     {
-      "_id": "71773b8b1f3ccb99",
+      "_id": "24f6f83b44446cb9",
       "name": "Free Spirit",
       "type": "feat",
       "img": "icons/skills/melee/strike-sword-gray.webp",
@@ -7366,7 +7834,7 @@
       }
     },
     {
-      "_id": "819e78a3406e73d0",
+      "_id": "564dbc8ce97de70c",
       "name": "Back In The Fight",
       "type": "feat",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",

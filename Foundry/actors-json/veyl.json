@@ -6897,7 +6897,17 @@
               "override": false
             },
             "consumption": {
-              "targets": [],
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "be0d860341662bf7",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
               "scaling": {
                 "allowed": false,
                 "max": ""
@@ -7048,7 +7058,17 @@
               "override": false
             },
             "consumption": {
-              "targets": [],
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "be0d860341662bf7",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
               "scaling": {
                 "allowed": false,
                 "max": ""
@@ -7232,7 +7252,17 @@
               "override": false
             },
             "consumption": {
-              "targets": [],
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "be0d860341662bf7",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
               "scaling": {
                 "allowed": false,
                 "max": ""
@@ -7726,7 +7756,7 @@
       }
     },
     {
-      "_id": "caf46b7d04987a40",
+      "_id": "ed2b59b07e53eb08",
       "name": "Soku Soku no Mi",
       "type": "loot",
       "img": "modules/op5e/assets/icons/devil-fruit-paramecia.svg",
@@ -7774,7 +7804,7 @@
       "_key": "!items!0be63bfbf040bb43"
     },
     {
-      "_id": "327620486e3d8436",
+      "_id": "cb8642ff7693f002",
       "name": "Devil Fruit Uses",
       "type": "feat",
       "img": "icons/skills/melee/strike-blade-blood-red.webp",
@@ -7937,7 +7967,7 @@
       "_key": "!items!f1b6a1ceb52e6d43"
     },
     {
-      "_id": "d9ad12d1ce4bb89a",
+      "_id": "16fe8d3090857813",
       "name": "Devil Fruit Ability Check, Fruit-Fruit DC and Attack",
       "type": "feat",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
@@ -8331,7 +8361,7 @@
       "_key": "!items!990dca216575f1bd"
     },
     {
-      "_id": "0ae28241507c430e",
+      "_id": "f950b818e3627ac7",
       "name": "Ocean's Scorn",
       "type": "feat",
       "img": "icons/magic/water/projectile-ice-faceted-blue.webp",
@@ -9148,7 +9178,7 @@
       "_key": "!items!6e9d7ec2ca209e1e"
     },
     {
-      "_id": "919ad68f2313e65e",
+      "_id": "b3945811da5b00e7",
       "name": "Paramecia Improved Usage",
       "type": "feat",
       "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
@@ -9317,7 +9347,7 @@
       "_key": "!items!8a789a80f060076b"
     },
     {
-      "_id": "d9554c378810fd0d",
+      "_id": "151024385a9aec2b",
       "name": "Mobile",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -9435,7 +9465,7 @@
       "_key": "!items!4e7abe5deef318b7"
     },
     {
-      "_id": "6ff56d5dea00d1a6",
+      "_id": "49618830db9ba4fa",
       "name": "Alert",
       "type": "feat",
       "img": "icons/skills/melee/strike-blade-blood-red.webp",
@@ -9576,7 +9606,7 @@
       "_key": "!items!2ee3316f53e6323d"
     },
     {
-      "_id": "a729c3fc0d941055",
+      "_id": "cb1b27a0d785d8e7",
       "name": "Color of Armament Novice",
       "type": "feat",
       "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
@@ -9756,7 +9786,7 @@
       "_key": "!items!16bc2636849312ce"
     },
     {
-      "_id": "116dbfd837ada3df",
+      "_id": "991a809cf8713c14",
       "name": "Color of Armament Apprentice",
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-white.webp",
@@ -9941,7 +9971,7 @@
       "_key": "!items!c04321ae3bf3215f"
     },
     {
-      "_id": "b916e3255777c791",
+      "_id": "cdac140f883c8232",
       "name": "Water Walk (R)",
       "type": "spell",
       "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
@@ -10037,7 +10067,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "327620486e3d8436",
+                  "target": "cb8642ff7693f002",
                   "value": "1",
                   "scaling": {}
                 }
@@ -10117,7 +10147,7 @@
       }
     },
     {
-      "_id": "291ed2dd50113959",
+      "_id": "075c9278ed1c56c5",
       "name": "Fly",
       "type": "spell",
       "img": "icons/magic/air/wind-tornado-funnel-green.webp",
@@ -10213,7 +10243,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "327620486e3d8436",
+                  "target": "cb8642ff7693f002",
                   "value": "1",
                   "scaling": {}
                 }
@@ -10293,7 +10323,7 @@
       }
     },
     {
-      "_id": "6d78e9e6ff3b2e45",
+      "_id": "ce5232f5c7b6650e",
       "name": "Haste",
       "type": "spell",
       "img": "icons/magic/time/arrows-circling-green.webp",
@@ -10389,7 +10419,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "327620486e3d8436",
+                  "target": "cb8642ff7693f002",
                   "value": "1",
                   "scaling": {}
                 }
@@ -10476,7 +10506,7 @@
       }
     },
     {
-      "_id": "6530a4ae8ee7ed3f",
+      "_id": "177318b2c74d0402",
       "name": "Thunderwave",
       "type": "spell",
       "img": "icons/magic/lightning/bolt-blue.webp",
@@ -10577,7 +10607,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "327620486e3d8436",
+                  "target": "cb8642ff7693f002",
                   "value": "1",
                   "scaling": {}
                 }
@@ -10682,7 +10712,7 @@
       }
     },
     {
-      "_id": "3d36789718a37f81",
+      "_id": "0df1037f3ddfae24",
       "name": "Afterimage",
       "type": "feat",
       "img": "icons/magic/time/arrows-circling-green.webp",
@@ -10864,7 +10894,7 @@
       "_key": "!items!598b0f0a21a7cf2c"
     },
     {
-      "_id": "ba4cb507338a105b",
+      "_id": "b78591e7f1108c43",
       "name": "Speed-Speed (Soku Soku no Mi)",
       "type": "feat",
       "img": "icons/skills/movement/feet-winged-boots-brown.webp",
@@ -11042,7 +11072,7 @@
       }
     },
     {
-      "_id": "6cafa4115872297d",
+      "_id": "3c56e945a0def9aa",
       "name": "Jazz Style: Freight Train (Soku Soku no Mi)",
       "type": "feat",
       "img": "icons/skills/movement/arrow-upward-yellow.webp",
@@ -11125,7 +11155,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "327620486e3d8436",
+                  "target": "cb8642ff7693f002",
                   "value": "1",
                   "scaling": {}
                 }
@@ -11230,7 +11260,7 @@
       }
     },
     {
-      "_id": "ec2e0d5ad86332de",
+      "_id": "abaa43e55b8c9974",
       "name": "Jazz Style: Call and Response (Soku Soku no Mi)",
       "type": "feat",
       "img": "icons/magic/time/hourglass-tilted-glowing-gold.webp",

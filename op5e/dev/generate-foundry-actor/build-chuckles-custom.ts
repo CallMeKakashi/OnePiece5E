@@ -2,6 +2,7 @@
 // Chassis from the real pipeline: specs/chuckles-spec.json -> ../Foundry/actors-json/chuckles-chassis.json.
 import { readFileSync, writeFileSync } from "node:fs";
 import { embedOwnedItem } from "./compendium-resolver.js";
+import { refreshFromPacks, wireSpirit } from "./refresh-from-packs.js";
 import { ensureFeatureActivities } from "../../data/helpers/activities.js";
 import { armorlessGuardianFeatures } from "../../data/src/class-features/additional/armorless-guardian.js";
 
@@ -20,6 +21,8 @@ out.push(embedOwnedItem(pack("items", "a9d155147acc4b8a") as never) as Doc); // 
 
 for (const f of armorlessGuardianFeatures) out.push(embedOwnedItem(ensureFeatureActivities(f as never) as never) as Doc); // Chapter 7 additional power, user pick
 
+const auto = refreshFromPacks(out); console.log(`automation copied onto ${auto.refreshed.length} features; no pack match for: ${auto.unmatched.join(", ") || "none"}`);
+console.log(`spirit cost wired on: ${wireSpirit(out).join(", ")}`);
 for (const i of out) {
   if (["Greatclub", "Brawler Unarmed Strike"].includes(i.name ?? "") && i.system) i.system.equipped = true;
   if (i.type === "tool") i.system.proficient = 1;

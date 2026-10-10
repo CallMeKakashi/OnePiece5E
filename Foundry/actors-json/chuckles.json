@@ -2322,9 +2322,179 @@
         "recharge": {
           "value": null,
           "charged": false
+        },
+        "activities": {
+          "399a66cb5d83bc9a": {
+            "_id": "399a66cb5d83bc9a",
+            "type": "utility",
+            "name": "Anchor",
+            "sort": 0,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "If you moved half your speed or less this turn: until the start of your next turn you can't be moved against your will, and you count as one size larger for shoving and grappling with advantage on Strength checks to grapple and shove."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "round",
+              "special": "",
+              "override": true
+            },
+            "effects": [
+              {
+                "_id": "4c2c3b294bcbb68c",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "1",
+                "type": "self",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          },
+          "1d55528c49658a8b": {
+            "_id": "1d55528c49658a8b",
+            "type": "utility",
+            "name": "Brace for damage",
+            "sort": 1,
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Spend a spirit point whenever you take damage while anchored."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "1d10 + @abilities.str.mod",
+              "name": "Damage reduced",
+              "prompt": false,
+              "visible": true
+            }
+          }
         }
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "4c2c3b294bcbb68c",
+          "name": "Mountain Stance",
+          "img": "icons/svg/aura.svg",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": 1,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dae": {
+              "transfer": false,
+              "stackable": "noneName",
+              "specialDuration": [
+                "turnStartSource"
+              ]
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!7888ca1791a2f3e8.4c2c3b294bcbb68c"
+        }
+      ],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -2754,7 +2924,8 @@
         "recharge": {
           "value": null,
           "charged": false
-        }
+        },
+        "activities": {}
       },
       "effects": [
         {
@@ -2792,7 +2963,8 @@
             }
           },
           "statuses": [],
-          "tint": null
+          "tint": null,
+          "_key": "!items.effects!6769090a1d392a14.96023a04bd3314b6"
         }
       ],
       "flags": {},
@@ -3212,6 +3384,85 @@
         "recharge": {
           "value": null,
           "charged": false
+        },
+        "activities": {
+          "7b85b4c75faae37c": {
+            "_id": "7b85b4c75faae37c",
+            "type": "utility",
+            "name": "Flurry of Blows",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "af4494205227a276",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Immediately after you take the Attack action: make two unarmed strikes. Costs 1 spirit point: reduce the Spirit feature's uses by 1 (the cost is not linked automatically)."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
         }
       },
       "effects": [],
@@ -3294,9 +3545,121 @@
         "recharge": {
           "value": null,
           "charged": false
+        },
+        "activities": {
+          "465948001b166a0e": {
+            "_id": "465948001b166a0e",
+            "type": "utility",
+            "name": "Patient Defense",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "af4494205227a276",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Costs 1 spirit point: reduce the Spirit feature's uses by 1 (the cost is not linked automatically)."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "round",
+              "special": "",
+              "override": true
+            },
+            "effects": [
+              {
+                "_id": "8fe60b9d123d058c",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "1",
+                "type": "self",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
         }
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "8fe60b9d123d058c",
+          "name": "Dodging",
+          "img": "icons/svg/aura.svg",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": 1,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dae": {
+              "transfer": false,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [
+            "dodging"
+          ],
+          "tint": null,
+          "_key": "!items.effects!5129621868d2b6a2.8fe60b9d123d058c"
+        }
+      ],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -3376,6 +3739,85 @@
         "recharge": {
           "value": null,
           "charged": false
+        },
+        "activities": {
+          "d1c120e451b5054c": {
+            "_id": "d1c120e451b5054c",
+            "type": "utility",
+            "name": "Deft Escape",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "af4494205227a276",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "While grappled: attempt to escape a grapple or restraints. Costs 1 spirit point: reduce the Spirit feature's uses by 1 (the cost is not linked automatically)."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
         }
       },
       "effects": [],
@@ -3458,7 +3900,8 @@
         "recharge": {
           "value": null,
           "charged": false
-        }
+        },
+        "activities": {}
       },
       "effects": [
         {
@@ -3490,7 +3933,8 @@
             }
           },
           "statuses": [],
-          "tint": null
+          "tint": null,
+          "_key": "!items.effects!e96b50b5ddd1e52d.b2ea101c3d8c4fa2"
         }
       ],
       "flags": {},
@@ -4037,7 +4481,17 @@
               "override": false
             },
             "consumption": {
-              "targets": [],
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "af4494205227a276",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
               "scaling": {
                 "allowed": false,
                 "max": ""
@@ -4710,7 +5164,7 @@
       }
     },
     {
-      "_id": "5883ab2f7468c9cd",
+      "_id": "00119b10fe7f396f",
       "name": "Painter's Supplies",
       "type": "tool",
       "img": "icons/tools/smithing/anvil.webp",
@@ -4763,7 +5217,7 @@
       "_key": "!items!a9d155147acc4b8a"
     },
     {
-      "_id": "0b22121a8d963119",
+      "_id": "2a6f1b3448c388da",
       "name": "Armorless Guardian",
       "type": "feat",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
@@ -4845,7 +5299,7 @@
       }
     },
     {
-      "_id": "8582ae8b2fde49b7",
+      "_id": "6b3da3334b10508a",
       "name": "Duck and Dodge",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -4906,7 +5360,8 @@
         "recharge": {
           "value": null,
           "charged": false
-        }
+        },
+        "activities": {}
       },
       "effects": [
         {
@@ -4938,7 +5393,8 @@
             }
           },
           "statuses": [],
-          "tint": null
+          "tint": null,
+          "_key": "!items.effects!dcc96772529b4dfa.5afdc25878c9177e"
         }
       ],
       "flags": {},

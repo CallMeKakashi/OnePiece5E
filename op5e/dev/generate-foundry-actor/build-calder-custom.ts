@@ -2,6 +2,7 @@
 // Chassis from the real pipeline: specs/calder-spec.json -> ../Foundry/actors-json/calder-chassis.json.
 import { readFileSync, writeFileSync } from "node:fs";
 import { embedOwnedItem } from "./compendium-resolver.js";
+import { refreshFromPacks, wireSpirit } from "./refresh-from-packs.js";
 import { ensureFeatureActivities, ensureItemActivities } from "../../data/helpers/activities.js";
 import { lunarianFeatures } from "../../data/src/racial-features/lunarian.js";
 import { flowingMindFeatures } from "../../data/src/class-features/additional/flowing-mind.js";
@@ -29,6 +30,8 @@ for (const n of ["Fire Bolt", "Elemental Armor", "Fireball"]) out.push(creation(
 out.push(embedOwnedItem(pack("feats", "2f6cd976e5725c37") as never) as Doc); // Flying Strikes (level 12 feat)
 for (const f of flowingMindFeatures) out.push(embedOwnedItem(ensureFeatureActivities(f as never) as never) as Doc); // Chapter 7 additional power, user pick
 
+const auto = refreshFromPacks(out); console.log(`automation copied onto ${auto.refreshed.length} features; no pack match for: ${auto.unmatched.join(", ") || "none"}`);
+console.log(`spirit cost wired on: ${wireSpirit(out).join(", ")}`);
 for (const i of out) {
   if (["Brawler Unarmed Strike", "Flintlock"].includes(i.name ?? "") && i.system) i.system.equipped = true;
   if (i.type === "tool") i.system.proficient = 1;
@@ -53,6 +56,7 @@ sys.details.level = 12;
 sys.attributes.hp = { value: 175, max: 175, temp: 0, tempmax: 0, formula: "12d8 + 24" };
 sys.details.cr = 10;
 sys.details.biography.value = "<p>Calder Voss, born Vorro of the Motley Crew: a Marine captain and later commodore at Spirit Cliff (G-45), a Lunarian who fights with the Six Powers.</p><p><strong>Balance note (CR 10):</strong> a straight Brawler 12 is about CR 8 to 9 on defenses, so HP is overridden to 175 for a solo boss.</p>";
+const sp = out.find((i) => i.name === "Spirit"); if (sp) sp.system.uses.max = `${sp.system.uses.max} + @abilities.wis.mod`; // Flowing Mind: Free Spirit
 chassis.name = "Calder Voss";
 chassis.img = "one-piece-5e/npcs/Marines/calder-new.jpg";
 chassis.prototypeToken = { ...(chassis.prototypeToken ?? {}), texture: { ...(chassis.prototypeToken?.texture ?? {}), src: "one-piece-5e/npcs/Marines/calder-new-token.png" } };
