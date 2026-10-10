@@ -284,7 +284,7 @@
   },
   "items": [
     {
-      "_id": "60a579096a0949f2",
+      "_id": "48afcc8f85c1d11d",
       "name": "Human",
       "type": "race",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -507,7 +507,7 @@
       }
     },
     {
-      "_id": "4ada990369a186c5",
+      "_id": "f20b2bf5b893170a",
       "name": "Knight",
       "type": "background",
       "img": "icons/equipment/shield/heater-steel-grey.webp",
@@ -529,19 +529,19 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.91c3bdee2ffeeb05",
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.68295d4636436cca",
                   "optional": false,
                   "quantity": 3
                 },
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.954f7d953068093d",
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.2480fe541b28180d",
                   "optional": false,
                   "quantity": 5
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.f43905681fb0c592.Item.91c3bdee2ffeeb05": 3,
-                "Actor.f43905681fb0c592.Item.954f7d953068093d": 5
+                "Actor.610c33bb3dfb8f52.Item.68295d4636436cca": 3,
+                "Actor.610c33bb3dfb8f52.Item.2480fe541b28180d": 5
               }
             },
             "value": {},
@@ -615,7 +615,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.8999f4a3a17e4a56"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.96297219700fe617"
                 },
                 {}
               ],
@@ -646,8 +646,8 @@
         "op5e": {
           "startingBeri": 200000,
           "grantQuantities": {
-            "Actor.f43905681fb0c592.Item.91c3bdee2ffeeb05": 3,
-            "Actor.f43905681fb0c592.Item.954f7d953068093d": 5
+            "Actor.610c33bb3dfb8f52.Item.68295d4636436cca": 3,
+            "Actor.610c33bb3dfb8f52.Item.2480fe541b28180d": 5
           }
         }
       },
@@ -668,7 +668,7 @@
       }
     },
     {
-      "_id": "d12da67133b7d379",
+      "_id": "c7683362ed978c82",
       "name": "Role: Master at Arms",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -737,7 +737,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.c20af75cff2f4969",
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.d4bec88f4ce61bcf",
                   "optional": false
                 }
               ]
@@ -765,7 +765,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.ac5ffefea178893c"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.e1a0a67e45142009"
                 },
                 {},
                 {},
@@ -775,7 +775,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.3cefe657c2a9ee22"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.7a0a2e5edeff64f0"
                 },
                 {},
                 {},
@@ -791,7 +791,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.fe7ae49d8f6ce727"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.513a6ba5ceb58859"
                 },
                 {},
                 {},
@@ -802,7 +802,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.d55e85281fe9821e"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.b858e88e0e9bbe02"
                 },
                 {},
                 {},
@@ -881,7 +881,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.7c641252a9258d0a"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.a2fb19edd2c91328"
                 },
                 {}
               ],
@@ -932,7 +932,7 @@
       }
     },
     {
-      "_id": "c20af75cff2f4969",
+      "_id": "d4bec88f4ce61bcf",
       "name": "Clothes, Common",
       "type": "loot",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -977,7 +977,7 @@
       }
     },
     {
-      "_id": "2452fb46f1845cc1",
+      "_id": "8ec04a27035889d2",
       "name": "Fighter",
       "type": "class",
       "img": "icons/skills/melee/hand-grip-sword-red.webp",
@@ -1014,21 +1014,21 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.c82d714a1092fd47",
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.1294d215e0a1c792",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.b13ead8304e2e67f",
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.72b411912a3bb6ff",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.ac5ffefea178893c",
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.e1a0a67e45142009",
                   "optional": false,
                   "quantity": 2
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.f43905681fb0c592.Item.ac5ffefea178893c": 2
+                "Actor.610c33bb3dfb8f52.Item.e1a0a67e45142009": 2
               }
             },
             "value": {},
@@ -1051,7 +1051,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.26ae4a68809c2acc"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.de4ac0551c51fc9d"
                 },
                 {},
                 {}
@@ -1089,7 +1089,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.fe7ae49d8f6ce727"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.513a6ba5ceb58859"
                 },
                 {},
                 {},
@@ -1101,7 +1101,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.d55e85281fe9821e"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.b858e88e0e9bbe02"
                 },
                 {}
               ],
@@ -1138,10 +1138,10 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.d70f6eff8f90f97b"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.0a1cf4132fb3665f"
                 },
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.fe7ae49d8f6ce727"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.513a6ba5ceb58859"
                 },
                 {},
                 {},
@@ -1153,7 +1153,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.d55e85281fe9821e"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.b858e88e0e9bbe02"
                 },
                 {}
               ],
@@ -1191,7 +1191,7 @@
               "pool": [
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.3cefe657c2a9ee22"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.7a0a2e5edeff64f0"
                 }
               ],
               "restriction": {
@@ -1228,7 +1228,7 @@
               "pool": [
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.6dd32128f1f62665"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.e0a01758eed55532"
                 }
               ],
               "restriction": {
@@ -1384,11 +1384,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.7727c88190f68ae8",
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.6edc6a85b5fd02a7",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.ffad54ad1f9d9a93",
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.4e171079ed7f8de2",
                   "optional": false
                 }
               ]
@@ -1406,7 +1406,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.5a6b444eaa7539ea",
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.ee8f173be2ac359f",
                   "optional": false
                 }
               ]
@@ -1547,21 +1547,21 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.3cb62440635202b3"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.09f84e1dd2d1118d"
                 },
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.db8ac0956c0dcfe2"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.f8a3059f55b923ce"
                 },
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.d8ad1c364814209e"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.4f274ee4fed47b31"
                 },
                 {},
                 {},
@@ -1602,21 +1602,21 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.3cb62440635202b3"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.09f84e1dd2d1118d"
                 },
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.db8ac0956c0dcfe2"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.f8a3059f55b923ce"
                 },
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.d8ad1c364814209e"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.4f274ee4fed47b31"
                 },
                 {},
                 {},
@@ -1657,21 +1657,21 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.3cb62440635202b3"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.09f84e1dd2d1118d"
                 },
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.db8ac0956c0dcfe2"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.f8a3059f55b923ce"
                 },
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.d8ad1c364814209e"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.4f274ee4fed47b31"
                 },
                 {},
                 {},
@@ -1712,21 +1712,21 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.3cb62440635202b3"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.09f84e1dd2d1118d"
                 },
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.db8ac0956c0dcfe2"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.f8a3059f55b923ce"
                 },
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.d8ad1c364814209e"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.4f274ee4fed47b31"
                 },
                 {},
                 {},
@@ -1767,21 +1767,21 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.3cb62440635202b3"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.09f84e1dd2d1118d"
                 },
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.db8ac0956c0dcfe2"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.f8a3059f55b923ce"
                 },
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.d8ad1c364814209e"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.4f274ee4fed47b31"
                 },
                 {},
                 {},
@@ -1830,7 +1830,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.275338facd4d01f6"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.428d276503391667"
                 },
                 {}
               ],
@@ -1870,7 +1870,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.76eca11338d4f973"
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.044001046bf497dc"
                 }
               ],
               "restriction": {
@@ -1899,7 +1899,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.1c81ce01b01cab43",
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.db774c4cbc18318e",
                   "optional": false
                 }
               ]
@@ -1917,7 +1917,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.77d16834aad2aceb",
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.8da6c3077d646c90",
                   "optional": false
                 }
               ]
@@ -2012,7 +2012,7 @@
       "flags": {
         "op5e": {
           "grantQuantities": {
-            "Actor.f43905681fb0c592.Item.ac5ffefea178893c": 2
+            "Actor.610c33bb3dfb8f52.Item.e1a0a67e45142009": 2
           }
         }
       },
@@ -2033,7 +2033,7 @@
       }
     },
     {
-      "_id": "63a6dd4b70ae4a68",
+      "_id": "05b80bd76847a75b",
       "name": "Samurai",
       "type": "subclass",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -2084,7 +2084,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.5bf0705c2ac82afb",
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.6a066f92e43a9b82",
                   "optional": false
                 }
               ]
@@ -2102,7 +2102,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.ceb900ef2171b136",
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.5d722a2347a86fb7",
                   "optional": false
                 }
               ]
@@ -2120,7 +2120,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.701a14856813196a",
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.0f29bc0b8fb22222",
                   "optional": false
                 }
               ]
@@ -2138,7 +2138,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.6f27e4511a855be2",
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.9ce234fb4b27e820",
                   "optional": false
                 }
               ]
@@ -2156,7 +2156,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.f43905681fb0c592.Item.64d80e9398f0c04a",
+                  "uuid": "Actor.610c33bb3dfb8f52.Item.5d9430db656b38d6",
                   "optional": false
                 }
               ]
@@ -2193,7 +2193,7 @@
       }
     },
     {
-      "_id": "5bf0705c2ac82afb",
+      "_id": "6a066f92e43a9b82",
       "name": "Fighting Stances",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -2379,7 +2379,7 @@
       }
     },
     {
-      "_id": "ceb900ef2171b136",
+      "_id": "5d722a2347a86fb7",
       "name": "Elegant Courtier",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -2461,7 +2461,7 @@
       }
     },
     {
-      "_id": "701a14856813196a",
+      "_id": "0f29bc0b8fb22222",
       "name": "Tireless Spirit",
       "type": "feat",
       "img": "icons/skills/melee/hand-grip-sword-red.webp",
@@ -2554,7 +2554,7 @@
               "spellSlot": false
             },
             "description": {
-              "chatFlavor": "When you roll initiative with no uses of Second Wind remaining."
+              "chatFlavor": "When you roll initiative with no uses of Second Wind remaining, regain one use."
             },
             "duration": {
               "concentration": false,
@@ -2603,7 +2603,7 @@
           },
           "61d21b01a547f7c5": {
             "_id": "61d21b01a547f7c5",
-            "type": "utility",
+            "type": "heal",
             "name": "Second Wind bonus",
             "sort": 1,
             "activation": {
@@ -2621,7 +2621,7 @@
               "spellSlot": false
             },
             "description": {
-              "chatFlavor": "Whenever you use Second Wind, add this to the hit points restored."
+              "chatFlavor": "Add this to the hit points restored whenever you use Second Wind."
             },
             "duration": {
               "concentration": false,
@@ -2661,11 +2661,22 @@
               "max": "",
               "recovery": []
             },
-            "roll": {
-              "formula": "max(1, @abilities.wis.mod)",
-              "name": "Extra hit points restored",
-              "prompt": false,
-              "visible": true
+            "healing": {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "healing"
+              ],
+              "custom": {
+                "enabled": true,
+                "formula": "max(1, @abilities.wis.mod)"
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
             }
           }
         }
@@ -2689,7 +2700,7 @@
       }
     },
     {
-      "_id": "6f27e4511a855be2",
+      "_id": "9ce234fb4b27e820",
       "name": "Stance Improvements",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -2805,7 +2816,7 @@
       }
     },
     {
-      "_id": "64d80e9398f0c04a",
+      "_id": "5d9430db656b38d6",
       "name": "Undying Devotion",
       "type": "feat",
       "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
@@ -2873,15 +2884,15 @@
           "charged": false
         },
         "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
+          "2fcd8e490885dd33": {
+            "_id": "2fcd8e490885dd33",
             "type": "utility",
             "name": "Undying Devotion",
             "sort": 0,
             "activation": {
               "type": "special",
               "value": 1,
-              "condition": "reduced to 0 hit points but not killed outright",
+              "condition": "You are reduced to 0 hit points but not killed outright",
               "override": false
             },
             "consumption": {
@@ -2900,14 +2911,14 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
-              "chatFlavor": ""
+              "chatFlavor": "Fall to 1 hit point instead. Uses equal your Constitution modifier per long rest, or expend a use of your Fighting Stance."
             },
             "duration": {
               "concentration": false,
-              "value": null,
+              "value": "",
               "units": "inst",
               "special": "",
               "override": false
@@ -2941,12 +2952,7 @@
             "uses": {
               "spent": 0,
               "max": "",
-              "recovery": [
-                {
-                  "period": "longRest",
-                  "type": "recoverAll"
-                }
-              ]
+              "recovery": []
             },
             "roll": {
               "formula": "",
@@ -2976,7 +2982,7 @@
       }
     },
     {
-      "_id": "ffad54ad1f9d9a93",
+      "_id": "4e171079ed7f8de2",
       "name": "Second Wind",
       "type": "feat",
       "img": "icons/magic/life/heart-cross-green.webp",
@@ -3158,7 +3164,7 @@
       }
     },
     {
-      "_id": "5a6b444eaa7539ea",
+      "_id": "ee8f173be2ac359f",
       "name": "Action Surge",
       "type": "feat",
       "img": "icons/magic/time/arrows-circling-green.webp",
@@ -3324,7 +3330,7 @@
       }
     },
     {
-      "_id": "1c81ce01b01cab43",
+      "_id": "db774c4cbc18318e",
       "name": "Extra Attack",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -3406,7 +3412,7 @@
       }
     },
     {
-      "_id": "77d16834aad2aceb",
+      "_id": "8da6c3077d646c90",
       "name": "Indomitable",
       "type": "feat",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
@@ -3572,7 +3578,7 @@
       }
     },
     {
-      "_id": "91c3bdee2ffeeb05",
+      "_id": "68295d4636436cca",
       "name": "Small Medkit",
       "type": "consumable",
       "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
@@ -3629,7 +3635,7 @@
       }
     },
     {
-      "_id": "954f7d953068093d",
+      "_id": "2480fe541b28180d",
       "name": "Rations (1 day)",
       "type": "consumable",
       "img": "icons/consumables/potions/bottle-round-corked-red.webp",
@@ -3677,7 +3683,7 @@
       }
     },
     {
-      "_id": "8999f4a3a17e4a56",
+      "_id": "96297219700fe617",
       "name": "Heavy Armor Master",
       "type": "feat",
       "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
@@ -3764,15 +3770,15 @@
           }
         ],
         "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
+          "4aaffc74f67eb5dc": {
+            "_id": "4aaffc74f67eb5dc",
             "type": "utility",
             "name": "Heavy Armor Master",
             "sort": 0,
             "activation": {
               "type": "reaction",
               "value": 1,
-              "condition": "",
+              "condition": "you are knocked prone or moved against your will",
               "override": false
             },
             "consumption": {
@@ -3781,14 +3787,14 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
-              "chatFlavor": ""
+              "chatFlavor": "Choose to not be knocked prone or moved."
             },
             "duration": {
               "concentration": false,
-              "value": null,
+              "value": "",
               "units": "inst",
               "special": "",
               "override": false
@@ -3833,7 +3839,52 @@
           }
         }
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "3588362b35ab209b",
+          "name": "Heavy Armor Master: -3 B/P/S from attacks (heavy armor)",
+          "img": "icons/svg/aura.svg",
+          "changes": [
+            {
+              "key": "system.traits.dm.amount.bludgeoning",
+              "mode": 2,
+              "value": "-3",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dm.amount.piercing",
+              "mode": 2,
+              "value": "-3",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dm.amount.slashing",
+              "mode": 2,
+              "value": "-3",
+              "priority": 20
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!8802be835e61ffcd.3588362b35ab209b"
+        }
+      ],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -3852,7 +3903,7 @@
       }
     },
     {
-      "_id": "26ae4a68809c2acc",
+      "_id": "de4ac0551c51fc9d",
       "name": "Aegis of Sol",
       "type": "equipment",
       "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
@@ -3936,7 +3987,7 @@
       }
     },
     {
-      "_id": "fe7ae49d8f6ce727",
+      "_id": "513a6ba5ceb58859",
       "name": "Icarus",
       "type": "weapon",
       "img": "icons/weapons/swords/sword-guard.webp",
@@ -4210,7 +4261,7 @@
       }
     },
     {
-      "_id": "d70f6eff8f90f97b",
+      "_id": "0a1cf4132fb3665f",
       "name": "Bulwark of Sol",
       "type": "equipment",
       "img": "icons/equipment/shield/heater-steel-grey.webp",
@@ -4336,7 +4387,7 @@
       }
     },
     {
-      "_id": "3cefe657c2a9ee22",
+      "_id": "7a0a2e5edeff64f0",
       "name": "Crossbow, Light",
       "type": "weapon",
       "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
@@ -4513,7 +4564,7 @@
       }
     },
     {
-      "_id": "6dd32128f1f62665",
+      "_id": "e0a01758eed55532",
       "name": "Explorer's Pack",
       "type": "loot",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -4558,7 +4609,7 @@
       }
     },
     {
-      "_id": "d55e85281fe9821e",
+      "_id": "b858e88e0e9bbe02",
       "name": "Warhammer",
       "type": "weapon",
       "img": "icons/weapons/hammers/hammer-war-spiked.webp",
@@ -4733,7 +4784,7 @@
       }
     },
     {
-      "_id": "7c641252a9258d0a",
+      "_id": "a2fb19edd2c91328",
       "name": "Sentinel",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -4885,7 +4936,7 @@
       }
     },
     {
-      "_id": "5fb519ba2009d1f2",
+      "_id": "fa18ecfa06300fdd",
       "name": "Fighting Style: Defense",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -5003,7 +5054,7 @@
       "_key": "!items!1137c1d216636fb9"
     },
     {
-      "_id": "a8ab760ee5d935b9",
+      "_id": "43cc28ab7a35113a",
       "name": "Conqueror's Haki Novice",
       "type": "feat",
       "img": "icons/magic/water/projectile-ice-faceted-blue.webp",
@@ -5546,7 +5597,7 @@
       "_key": "!items!409ca29b4a12db94"
     },
     {
-      "_id": "4fb1ce88a12504e5",
+      "_id": "a2faf81e2b2d3ed5",
       "name": "Conqueror's Haki Apprentice",
       "type": "feat",
       "img": "icons/magic/water/wave-water-blue.webp",
@@ -5823,7 +5874,7 @@
       "_key": "!items!882fa5d6cef02212"
     },
     {
-      "_id": "b18873123cff930a",
+      "_id": "76dcaaff4475d08e",
       "name": "Conqueror's Haki Journeyman",
       "type": "feat",
       "img": "icons/magic/symbols/star-rising-purple.webp",
@@ -5925,7 +5976,7 @@
       "_key": "!items!691d3f9d84866b56"
     },
     {
-      "_id": "e7e1b4fe4174fb41",
+      "_id": "15199c49d2ca0fc2",
       "name": "Color of Armament Novice",
       "type": "feat",
       "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
@@ -6105,7 +6156,7 @@
       "_key": "!items!16bc2636849312ce"
     },
     {
-      "_id": "452790f92d1f9d3a",
+      "_id": "9e15265d20e8bfa8",
       "name": "Color of Observation Novice",
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-white.webp",
@@ -6174,14 +6225,14 @@
           "charged": false
         },
         "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
+          "d16f605f3a77f13b": {
+            "_id": "d16f605f3a77f13b",
             "type": "utility",
             "name": "Color of Observation Novice",
             "sort": 0,
             "activation": {
-              "type": "",
-              "value": null,
+              "type": "special",
+              "value": 1,
               "condition": "",
               "override": false
             },
@@ -6201,14 +6252,14 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
-              "chatFlavor": ""
+              "chatFlavor": "Spend an Observation Point to add half your proficiency bonus (rounded down; full with Observation affinity) to an attack roll or save DC. Sense Presence: in place of the Search action, sense living creatures within 60 feet."
             },
             "duration": {
               "concentration": false,
-              "value": null,
+              "value": "",
               "units": "inst",
               "special": "",
               "override": false
@@ -6242,12 +6293,7 @@
             "uses": {
               "spent": 0,
               "max": "",
-              "recovery": [
-                {
-                  "period": "shortRest",
-                  "type": "recoverAll"
-                }
-              ]
+              "recovery": []
             },
             "roll": {
               "formula": "",
@@ -6259,7 +6305,40 @@
         },
         "advancement": []
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "73e74cc3bfaabcaa",
+          "name": "Sense Presence: +5 passive Perception",
+          "img": "icons/svg/upgrade.svg",
+          "changes": [
+            {
+              "key": "system.skills.prc.bonuses.passive",
+              "mode": 2,
+              "value": "5",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!96dcda2a40ae256f.73e74cc3bfaabcaa"
+        }
+      ],
       "flags": {
         "op5e": {
           "prereq": {
@@ -6285,7 +6364,7 @@
       "_key": "!items!96dcda2a40ae256f"
     },
     {
-      "_id": "22ffc4815c8b51ed",
+      "_id": "09bc0a397b7ee057",
       "name": "Longsword Master",
       "type": "feat",
       "img": "icons/weapons/swords/sword-guard.webp",
@@ -6403,7 +6482,7 @@
       "_key": "!items!4eea1b8aa9ac99ab"
     },
     {
-      "_id": "a45f2293a9084870",
+      "_id": "d1ccc164dcf9675b",
       "name": "Inspiring Leader",
       "type": "feat",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -6580,7 +6659,7 @@
       "_key": "!items!83ba322751ee4f40"
     },
     {
-      "_id": "7396a80219ba8aee",
+      "_id": "f42b93d4618fd996",
       "name": "Resilient Constitution",
       "type": "feat",
       "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
@@ -6793,7 +6872,7 @@
       "_key": "!items!2003c84be4cdc61f"
     },
     {
-      "_id": "233c6dd3951f312c",
+      "_id": "d778882336ff861b",
       "name": "Durable",
       "type": "feat",
       "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
@@ -6972,7 +7051,7 @@
       "_key": "!items!f7de2d5787ab5e64"
     },
     {
-      "_id": "8f76a18b1d1a8826",
+      "_id": "4e280cc752d03bd6",
       "name": "Shield Master",
       "type": "feat",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
@@ -7192,7 +7271,7 @@
       "_key": "!items!b3025a4edc8d1c58"
     },
     {
-      "_id": "9c0615218117cb06",
+      "_id": "48a9e3e3d8022645",
       "name": "Unmatched Strength",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -7405,7 +7484,7 @@
       "_key": "!items!3fbf1369c90665d7"
     },
     {
-      "_id": "ae8b75ff1885b3d6",
+      "_id": "3bd6b225e0787a80",
       "name": "Unyielding Charisma",
       "type": "feat",
       "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
@@ -7618,7 +7697,7 @@
       "_key": "!items!6986ef01137f143d"
     },
     {
-      "_id": "29e172eedf0fbeb3",
+      "_id": "61b07e5a340f824a",
       "name": "Calligrapher's Supplies",
       "type": "tool",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -7671,7 +7750,7 @@
       "_key": "!items!6f4b655fdf8c31e0"
     },
     {
-      "_id": "d1207277212c63e9",
+      "_id": "81756bab67034176",
       "name": "Tough Customer",
       "type": "feat",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -7753,7 +7832,7 @@
       }
     },
     {
-      "_id": "586bca5c1cb7feb9",
+      "_id": "f07c10de80b85c07",
       "name": "Active Combatant",
       "type": "feat",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
@@ -7835,7 +7914,7 @@
       }
     },
     {
-      "_id": "c05b468adf39fd30",
+      "_id": "435727398cfa536d",
       "name": "Endless Vigor",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -7917,7 +7996,7 @@
       }
     }
   ],
-  "_id": "f43905681fb0c592",
+  "_id": "610c33bb3dfb8f52",
   "prototypeToken": {
     "texture": {
       "src": "one-piece-5e/npcs/Guardians of Sol/kaen-new-token.png"

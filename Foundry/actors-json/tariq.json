@@ -1,0 +1,6510 @@
+{
+  "name": "Tariq Solen",
+  "type": "npc",
+  "img": "one-piece-5e/npcs/Sand Rats/tariq.jpg",
+  "effects": [],
+  "flags": {
+    "op5e": {
+      "workshop": true,
+      "buildTool": "generate-foundry-actor"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 8,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 19,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 13,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 15,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": null,
+        "calc": "default",
+        "formula": ""
+      },
+      "hp": {
+        "value": 72,
+        "max": 72,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "5d10 + 5"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": 0,
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 30,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "wis",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "death": {
+        "success": 0,
+        "failure": 0,
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "inspiration": false,
+      "prof": 4
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Tariq Solen, a 15-year-old scout of the Sand Rats: a lean wanderer with a longbow, quick eyes and a guarded calm.</p><p><strong>Balance note (CR 3):</strong> a straight Marksman 5 is under CR 3 on hit points, so HP is overridden to 72.</p>",
+        "public": ""
+      },
+      "alignment": "neutral",
+      "ideal": "",
+      "bond": "",
+      "flaw": "",
+      "race": "Human",
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "custom": "",
+        "swarm": "",
+        "swarmSize": ""
+      },
+      "cr": 3,
+      "level": 5,
+      "spellLevel": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str"
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "his": {
+        "value": 0,
+        "ability": "int"
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int"
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis"
+      },
+      "nat": {
+        "value": 1,
+        "ability": "int"
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis"
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha"
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int"
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex"
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex"
+      },
+      "sur": {
+        "value": 1,
+        "ability": "wis"
+      }
+    },
+    "tools": {},
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "custom": ""
+      },
+      "weaponProf": {
+        "value": [],
+        "custom": ""
+      },
+      "armorProf": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 50000,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "spells": {
+      "spell1": {
+        "value": 4,
+        "max": 4
+      },
+      "spell2": {
+        "value": 2,
+        "max": 2
+      },
+      "spell3": {
+        "value": 0,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "max": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "656b69ad4beaddca",
+      "name": "Human",
+      "type": "race",
+      "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>Humans are the most common and widespread race, varying greatly in appearance and culture. They are adaptable, ambitious, and remarkably diverse, forming the majority of the world's population.</p>\n<p><strong>Subraces:</strong> Standard Human, Kuja, Long-arm, Long-leg, Snakeneck, Three-eye.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "identifier": "human",
+        "advancement": [
+          {
+            "_id": "0e2b63ebdde9d6bb",
+            "type": "Size",
+            "configuration": {
+              "sizes": [
+                "sm",
+                "med"
+              ]
+            },
+            "value": {},
+            "level": 0,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "56a80f3bb491978f",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 3,
+              "fixed": {},
+              "cap": 2
+            },
+            "value": {},
+            "level": 0,
+            "title": "Ability Score Increase",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "63ec1fef84842702",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 0,
+            "title": "base-traits",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "5629f9dd3f398b67",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": true
+                },
+                {
+                  "optional": true
+                }
+              ]
+            },
+            "value": {},
+            "level": 0,
+            "title": "standard-human",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "46c273fe133d3744",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": true
+                },
+                {
+                  "optional": true
+                }
+              ]
+            },
+            "value": {},
+            "level": 0,
+            "title": "kuja",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "0334159e71c53289",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": true
+                },
+                {
+                  "optional": true
+                }
+              ]
+            },
+            "value": {},
+            "level": 0,
+            "title": "long-arm",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "d70d1dae351f1425",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": true
+                },
+                {
+                  "optional": true
+                }
+              ]
+            },
+            "value": {},
+            "level": 0,
+            "title": "snakeneck",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "a4a69f047037ead3",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": true
+                },
+                {
+                  "optional": true
+                }
+              ]
+            },
+            "value": {},
+            "level": 0,
+            "title": "long-leg",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "c1c4f95b6115cdc0",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": true
+                },
+                {
+                  "optional": true
+                },
+                {
+                  "optional": true
+                }
+              ]
+            },
+            "value": {},
+            "level": 0,
+            "title": "three-eye",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          }
+        ],
+        "movement": {
+          "walk": 30,
+          "swim": 0,
+          "fly": 0,
+          "climb": 0,
+          "burrow": 0,
+          "hover": false,
+          "units": "ft"
+        },
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "custom": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "c70ae52a2d79eb0b",
+      "name": "Wanderer",
+      "type": "background",
+      "img": "icons/magic/air/wind-tornado-funnel-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>You are from a distant place, one so remote that few realize it exists. You have come to this part of the world for your own reasons.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Intimidation, Perception, Insight, and Survival</p>\n<p><strong>Tool Proficiencies:</strong> Gaming Set</p>\n<p><strong>Equipment:</strong> 50,000 Berries; Small Medkits &times;3; Rations &times;5; Gaming Set</p>\n<h4>Feature: Acquired Trait</h4>\n<p>Having wandered from the far corners of the world, you have picked up a unique skill. You gain a feat of your choice.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "advancement": [
+          {
+            "_id": "73f0af21a8970966",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.826ee011caf5e14c",
+                  "optional": false,
+                  "quantity": 3
+                },
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.37525f67cfb7abef",
+                  "optional": false,
+                  "quantity": 5
+                },
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.277c27a017dc2b37",
+                  "optional": false
+                }
+              ],
+              "op5eGrantQuantities": {
+                "Actor.e0c7c2d585fa84cd.Item.826ee011caf5e14c": 3,
+                "Actor.e0c7c2d585fa84cd.Item.37525f67cfb7abef": 5
+              }
+            },
+            "value": {},
+            "level": 0,
+            "title": "starting-equipment",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "68982ca9e2279ae9",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "grants": [],
+              "choices": [
+                {
+                  "count": 2,
+                  "pool": [
+                    "skills:itm",
+                    "skills:prc",
+                    "skills:ins",
+                    "skills:sur"
+                  ]
+                }
+              ],
+              "allowReplacements": true,
+              "hint": "2 from Intimidation, Perception, Insight, and Survival"
+            },
+            "value": {},
+            "level": 0,
+            "title": "skills",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "26a348293e700dea",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:game:*"
+                  ]
+                }
+              ],
+              "allowReplacements": true,
+              "hint": "Gaming Set"
+            },
+            "value": {},
+            "level": 0,
+            "title": "tools",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "93abbf57c6c3a189",
+            "type": "ItemChoice",
+            "configuration": {
+              "allowDrops": true,
+              "choices": {
+                "0": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "pool": [
+                {},
+                {},
+                {},
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.406cbed20ddfcc72"
+                },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+              "restriction": {
+                "type": "feat",
+                "subtype": "",
+                "level": "",
+                "list": []
+              },
+              "spell": null,
+              "type": "feat"
+            },
+            "value": {
+              "ability": "",
+              "added": {},
+              "replaced": {}
+            },
+            "level": 0,
+            "title": "feat",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          }
+        ]
+      },
+      "effects": [],
+      "flags": {
+        "op5e": {
+          "startingBeri": 50000,
+          "grantQuantities": {
+            "Actor.e0c7c2d585fa84cd.Item.826ee011caf5e14c": 3,
+            "Actor.e0c7c2d585fa84cd.Item.37525f67cfb7abef": 5
+          }
+        }
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "d5a2760e2db7f276",
+      "name": "Marksman",
+      "type": "class",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "system": {
+        "description": {
+          "value": "<p>A peerless hunter and sharpshooter, the Marksman combines deadly precision with survival instincts honed through years of tracking prey across every terrain. Whether wielding a rifle, bow, or sling, Marksmen mark their targets and never miss.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "identifier": "marksman",
+        "levels": 5,
+        "hitDice": "d10",
+        "hitDiceUsed": 0,
+        "advancement": [
+          {
+            "_id": "1f60d0ffbc43f89b",
+            "type": "HitPoints",
+            "configuration": {},
+            "value": {},
+            "level": 0,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "7ca1eb3d256d2d82",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.7ddd698473f244dc",
+                  "optional": false
+                },
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.ff8088c21fddcbe7",
+                  "optional": false
+                },
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.ed93f8ae4def36a5",
+                  "optional": false
+                },
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.5035552a8e528dc2",
+                  "optional": false
+                },
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.1702a9b056747293",
+                  "optional": false
+                },
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.e046f7bc4dd98817",
+                  "optional": false
+                },
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.7a228ba6103f3d42",
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 1,
+            "title": "starting-equipment",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "bc03aaf1b8afd5c0",
+            "type": "ItemChoice",
+            "configuration": {
+              "allowDrops": false,
+              "choices": {
+                "1": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "pool": [
+                {},
+                {},
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.7ddd698473f244dc"
+                },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+              "restriction": {
+                "type": "weapon",
+                "subtype": "",
+                "level": "",
+                "list": []
+              },
+              "spell": null,
+              "type": "weapon"
+            },
+            "value": {
+              "ability": "",
+              "added": {},
+              "replaced": {}
+            },
+            "level": 1,
+            "title": "Melee Weapon",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "a893e6768294bd5c",
+            "type": "ItemChoice",
+            "configuration": {
+              "allowDrops": false,
+              "choices": {
+                "1": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "pool": [
+                {},
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.12c051730570724a"
+                },
+                {}
+              ],
+              "restriction": {
+                "type": "equipment",
+                "subtype": "",
+                "level": "",
+                "list": []
+              },
+              "spell": null,
+              "type": "equipment"
+            },
+            "value": {
+              "ability": "",
+              "added": {},
+              "replaced": {}
+            },
+            "level": 1,
+            "title": "Starting Armor",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "bdb4984473ad6c5a",
+            "type": "ItemChoice",
+            "configuration": {
+              "allowDrops": false,
+              "choices": {
+                "1": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "pool": [
+                {},
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.102139a726fce043"
+                }
+              ],
+              "restriction": {
+                "type": "loot",
+                "subtype": "",
+                "level": "",
+                "list": []
+              },
+              "spell": null,
+              "type": "loot"
+            },
+            "value": {
+              "ability": "",
+              "added": {},
+              "replaced": {}
+            },
+            "level": 1,
+            "title": "Adventuring Pack",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "465ccc3ad4943b3d",
+            "type": "ItemChoice",
+            "configuration": {
+              "allowDrops": false,
+              "choices": {
+                "1": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "pool": [
+                {},
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.0fec323608883f3b"
+                },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+              "restriction": {
+                "type": "weapon",
+                "subtype": "",
+                "level": "",
+                "list": []
+              },
+              "spell": null,
+              "type": "weapon"
+            },
+            "value": {
+              "ability": "",
+              "added": {},
+              "replaced": {}
+            },
+            "level": 1,
+            "title": "Ranged Weapon",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "b424f501b8e43073",
+            "type": "ScaleValue",
+            "configuration": {
+              "identifier": "haki-tier",
+              "type": "number",
+              "scale": {
+                "1": {
+                  "value": 0
+                },
+                "8": {
+                  "value": 1
+                },
+                "10": {
+                  "value": 2
+                },
+                "12": {
+                  "value": 3
+                },
+                "14": {
+                  "value": 4
+                },
+                "16": {
+                  "value": 5
+                }
+              }
+            },
+            "value": {},
+            "level": 0,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "4a4eb4c96a8b9126",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "grants": [
+                "armor:lgt",
+                "armor:med",
+                "armor:shl"
+              ],
+              "choices": [],
+              "allowReplacements": true,
+              "hint": "Light armor, medium armor, shields"
+            },
+            "value": {},
+            "level": 1,
+            "title": "armor",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "a0cff878aa010ca6",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "grants": [
+                "weapon:sim",
+                "weapon:mar"
+              ],
+              "choices": [],
+              "allowReplacements": true,
+              "hint": "Simple weapons, martial weapons, cannons"
+            },
+            "value": {},
+            "level": 1,
+            "title": "weapons",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "93611869cfbf0772",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "grants": [
+                "tool:tinker",
+                "tool:smith"
+              ],
+              "choices": [],
+              "allowReplacements": true,
+              "hint": "Gunsmith's tools, tinker's tools"
+            },
+            "value": {},
+            "level": 1,
+            "title": "tools",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "2c95db5d892746cd",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "grants": [
+                "saves:str",
+                "saves:dex"
+              ],
+              "choices": [],
+              "allowReplacements": true,
+              "hint": "Strength, Dexterity"
+            },
+            "value": {},
+            "level": 1,
+            "title": "saves",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "e89c136d8823dbe9",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "grants": [],
+              "choices": [
+                {
+                  "count": 3,
+                  "pool": [
+                    "skills:acr",
+                    "skills:ath",
+                    "skills:ins",
+                    "skills:inv",
+                    "skills:med",
+                    "skills:nat",
+                    "skills:prc",
+                    "skills:ste",
+                    "skills:sur"
+                  ]
+                }
+              ],
+              "allowReplacements": true,
+              "hint": "Choose 3 from Acrobatics, Athletics, Insight, Investigation, Medicine, Nature, Perception, Stealth, Survival"
+            },
+            "value": {},
+            "level": 1,
+            "title": "skills",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "2172f3c1e97c3023",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.14789fa83d8d62f3",
+                  "optional": false
+                },
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.c8206f4ecd2ea465",
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 1,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "f07e89916a26550e",
+            "type": "ItemChoice",
+            "configuration": {
+              "allowDrops": false,
+              "choices": {
+                "1": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "pool": [
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.2ce461a54bffa242"
+                },
+                {},
+                {}
+              ],
+              "restriction": {
+                "type": "feat",
+                "subtype": "",
+                "level": "",
+                "list": []
+              },
+              "spell": null,
+              "type": "feat"
+            },
+            "value": {
+              "ability": "",
+              "added": {},
+              "replaced": {}
+            },
+            "level": 1,
+            "title": "deft-explorer-1",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "83af0005b20c4ed9",
+            "type": "ItemChoice",
+            "configuration": {
+              "allowDrops": false,
+              "choices": {
+                "6": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "pool": [
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.2ce461a54bffa242"
+                },
+                {},
+                {}
+              ],
+              "restriction": {
+                "type": "feat",
+                "subtype": "",
+                "level": "",
+                "list": []
+              },
+              "spell": null,
+              "type": "feat"
+            },
+            "value": {
+              "ability": "",
+              "added": {},
+              "replaced": {}
+            },
+            "level": 6,
+            "title": "deft-explorer-6",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "103a4380f10929dd",
+            "type": "ItemChoice",
+            "configuration": {
+              "allowDrops": false,
+              "choices": {
+                "10": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "pool": [
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.2ce461a54bffa242"
+                },
+                {},
+                {}
+              ],
+              "restriction": {
+                "type": "feat",
+                "subtype": "",
+                "level": "",
+                "list": []
+              },
+              "spell": null,
+              "type": "feat"
+            },
+            "value": {
+              "ability": "",
+              "added": {},
+              "replaced": {}
+            },
+            "level": 10,
+            "title": "deft-explorer-10",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "2695f24e372bedbe",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.5631550d2c99bb9f",
+                  "optional": false
+                },
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.4b4d5cda179b0741",
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 2,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "e68de6e8ec59fca5",
+            "type": "Subclass",
+            "configuration": {},
+            "value": {},
+            "level": 3,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "99dba90382d4320d",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.65c1cb9b99cdeb20",
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 3,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "81252d503c3cb7f4",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.cfdeea3d69f24d5a",
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 5,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "38e055a035e50845",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 6,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "66886575ce701aa0",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 8,
+            "title": "level-8-features",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "7b13c28f4c565c6d",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 9,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "c9916b90bbdc23e4",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": false
+                },
+                {
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 10,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "c625169d176dd24b",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 14,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "ecbd55ac86593595",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 18,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "e5f4fcb4089fca59",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 20,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "62b2dcc39ba095e6",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 2,
+              "fixed": {},
+              "cap": 2
+            },
+            "value": {},
+            "level": 4,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "e76f508b90f12178",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 2,
+              "fixed": {},
+              "cap": 2
+            },
+            "value": {},
+            "level": 8,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "82265cc03d4da25e",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 2,
+              "fixed": {},
+              "cap": 2
+            },
+            "value": {},
+            "level": 12,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "0ee94119f7b26d8a",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 2,
+              "fixed": {},
+              "cap": 2
+            },
+            "value": {},
+            "level": 16,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "0bba36079f154c17",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 2,
+              "fixed": {},
+              "cap": 2
+            },
+            "value": {},
+            "level": 19,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "88aa245a9b5cd988",
+            "type": "ItemChoice",
+            "configuration": {
+              "allowDrops": false,
+              "choices": {
+                "8": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "pool": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": "",
+                "list": []
+              },
+              "spell": null,
+              "type": "feat",
+              "op5eHakiChoice": true
+            },
+            "value": {
+              "ability": "",
+              "added": {},
+              "replaced": {}
+            },
+            "level": 8,
+            "title": "Haki (Novice)",
+            "icon": "",
+            "classRestriction": "",
+            "hint": "Choose one Haki feat. Upgrade a branch you have started, or begin a new branch at Novice."
+          },
+          {
+            "_id": "b0da9eb94ff1eed0",
+            "type": "ItemChoice",
+            "configuration": {
+              "allowDrops": false,
+              "choices": {
+                "10": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "pool": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": "",
+                "list": []
+              },
+              "spell": null,
+              "type": "feat",
+              "op5eHakiChoice": true
+            },
+            "value": {
+              "ability": "",
+              "added": {},
+              "replaced": {}
+            },
+            "level": 10,
+            "title": "Haki (Apprentice)",
+            "icon": "",
+            "classRestriction": "",
+            "hint": "Choose one Haki feat. Upgrade a branch you have started, or begin a new branch at Novice."
+          },
+          {
+            "_id": "baa48c1a86644208",
+            "type": "ItemChoice",
+            "configuration": {
+              "allowDrops": false,
+              "choices": {
+                "12": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "pool": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": "",
+                "list": []
+              },
+              "spell": null,
+              "type": "feat",
+              "op5eHakiChoice": true
+            },
+            "value": {
+              "ability": "",
+              "added": {},
+              "replaced": {}
+            },
+            "level": 12,
+            "title": "Haki (Journeyman)",
+            "icon": "",
+            "classRestriction": "",
+            "hint": "Choose one Haki feat. Upgrade a branch you have started, or begin a new branch at Novice."
+          },
+          {
+            "_id": "6ba4e82512a81035",
+            "type": "ItemChoice",
+            "configuration": {
+              "allowDrops": false,
+              "choices": {
+                "14": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "pool": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": "",
+                "list": []
+              },
+              "spell": null,
+              "type": "feat",
+              "op5eHakiChoice": true
+            },
+            "value": {
+              "ability": "",
+              "added": {},
+              "replaced": {}
+            },
+            "level": 14,
+            "title": "Haki (Adept)",
+            "icon": "",
+            "classRestriction": "",
+            "hint": "Choose one Haki feat. Upgrade a branch you have started, or begin a new branch at Novice."
+          },
+          {
+            "_id": "4e75d5a0a46c5daa",
+            "type": "ItemChoice",
+            "configuration": {
+              "allowDrops": false,
+              "choices": {
+                "16": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "pool": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": "",
+                "list": []
+              },
+              "spell": null,
+              "type": "feat",
+              "op5eHakiChoice": true
+            },
+            "value": {
+              "ability": "",
+              "added": {},
+              "replaced": {}
+            },
+            "level": 16,
+            "title": "Haki (Master)",
+            "icon": "",
+            "classRestriction": "",
+            "hint": "Choose one Haki feat. Upgrade a branch you have started, or begin a new branch at Novice."
+          },
+          {
+            "_id": "a8ab14fd14d40d68",
+            "type": "ItemChoice",
+            "configuration": {
+              "allowDrops": false,
+              "choices": {
+                "1": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "pool": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+              "restriction": {
+                "type": "feat",
+                "subtype": "",
+                "level": "",
+                "list": []
+              },
+              "spell": null,
+              "type": "feat"
+            },
+            "value": {
+              "ability": "",
+              "added": {},
+              "replaced": {}
+            },
+            "level": 1,
+            "title": "Role",
+            "icon": "",
+            "classRestriction": "primary",
+            "hint": "Choose your role on the ship. It grants skills, tools, equipment and a bonus feat."
+          },
+          {
+            "_id": "4b7e083ffafa7956",
+            "type": "ItemChoice",
+            "configuration": {
+              "allowDrops": false,
+              "choices": {
+                "1": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "pool": [
+                {},
+                {},
+                {},
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.787c01c83957324d"
+                }
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": "",
+                "list": []
+              },
+              "spell": null,
+              "type": "loot"
+            },
+            "value": {
+              "ability": "",
+              "added": {},
+              "replaced": {}
+            },
+            "level": 1,
+            "title": "Devil Fruit",
+            "icon": "",
+            "classRestriction": "primary",
+            "hint": "Pick a devil fruit type (rename the item and fill in its name and powers) or 'No Devil Fruit (yet)'."
+          },
+          {
+            "_id": "18c36cec35908e4b",
+            "type": "ScaleValue",
+            "configuration": {
+              "identifier": "favored-mark",
+              "type": "dice",
+              "scale": {
+                "1": {
+                  "number": 1,
+                  "faces": 6
+                },
+                "5": {
+                  "number": 1,
+                  "faces": 8
+                },
+                "14": {
+                  "number": 1,
+                  "faces": 10
+                },
+                "20": {
+                  "number": 1,
+                  "faces": 12
+                }
+              }
+            },
+            "value": {},
+            "level": 0,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "3b6daf0f63c97d37",
+            "type": "ScaleValue",
+            "configuration": {
+              "identifier": "tricks-known",
+              "type": "number",
+              "scale": {
+                "2": {
+                  "value": 3
+                },
+                "10": {
+                  "value": 4
+                },
+                "14": {
+                  "value": 5
+                }
+              }
+            },
+            "value": {},
+            "level": 0,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          }
+        ],
+        "spellcasting": {
+          "progression": "half",
+          "ability": "wis"
+        },
+        "wealth": ""
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "43f7f42619e70cba",
+      "name": "Sniper",
+      "type": "subclass",
+      "img": "icons/skills/ranged/target-bullseye-arrow-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>The quintessential marksman is the sniper, a skilled fighter that excels at fighting at long ranges utilizing the massive reach of their weapons. A sniper is remarkable for their skill more so than their weapon of choice, as even a humble slingshot can be deadly in the hands of a skilled sniper.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "identifier": "sniper",
+        "classIdentifier": "marksman",
+        "advancement": [
+          {
+            "_id": "4eea81eba8429688",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.248bc717f5c7979a",
+                  "optional": false
+                },
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.1abb3e66c0220828",
+                  "optional": false
+                },
+                {
+                  "uuid": "Actor.e0c7c2d585fa84cd.Item.00ff5a1bbca77ec2",
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 3,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "cc83efe6c2e589d0",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 7,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "8f00ef446d5700aa",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 11,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "f5ebcd6fc3a2454d",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": false
+                }
+              ]
+            },
+            "value": {},
+            "level": 15,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          }
+        ],
+        "spellcasting": {
+          "progression": "none",
+          "ability": ""
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "248bc717f5c7979a",
+      "name": "Sniper Creations",
+      "type": "feat",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>Starting at 3rd level, you gain the following bonus creations at specific marksman levels. They count as marksman creations for you, but don't count towards the number of marksman creations you can prepare.</p>\n<ul>\n<li><strong>3rd:</strong> Advanced Weapon, Retreat</li>\n<li><strong>5th:</strong> Grounding, Cloud of Daggers</li>\n<li><strong>9th:</strong> Barrage, Clairvoyance</li>\n<li><strong>13th:</strong> Locate Creature, Freedom of Movement</li>\n<li><strong>17th:</strong> Cloudkill, Swift Shots</li>\n</ul>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Marksman (Sniper) 3",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "1abb3e66c0220828",
+      "name": "Careful Aim",
+      "type": "feat",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>Starting at 3rd level, you can use a bonus action to take careful aim until the start of your next turn.</p>\n<p>If you do so, the ranges of any ranged weapon you're wielding becomes (50 &times; your Proficiency Bonus)/(200 &times; your Proficiency Bonus) feet unless it's already more than that. Additionally, you ignore any disadvantage on ranged attacks imposed by weather-related effects, such as fog or strong winds.</p>\n<p>At 11th level, all ranged weapon attacks you make benefit from Careful Aim.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Marksman (Sniper) 3",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "name": "Careful Aim",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": null,
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "00ff5a1bbca77ec2",
+      "name": "Exploding Shot",
+      "type": "feat",
+      "img": "icons/magic/fire/explosion-fireball-large-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>Also at 3rd level, when you hit with a ranged weapon attack, you can choose to make it explosive. It deals an extra 1d6 damage of your choice of the weapon you are using, fire, or thunder. You can deal this damage once per turn.</p>\n<p>In addition, you can choose to make it so all creatures within 5 ft of the attack must make a Dexterity saving throw against your Creation Save DC. On a failure, they also take the damage from the attack, half on a success.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Marksman (Sniper) 3",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [
+            [
+              "1d6",
+              ""
+            ]
+          ],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "dex",
+          "dc": null,
+          "scaling": "wis"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "activities": {
+          "784769fd4b91f375": {
+            "_id": "784769fd4b91f375",
+            "type": "damage",
+            "name": "Exploding Shot",
+            "sort": 0,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Once per turn when you hit with a ranged weapon attack: extra 1d6 of the weapon's type, fire or thunder."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "critical": {
+                "allow": false,
+                "bonus": ""
+              },
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    ""
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          },
+          "e2ee99b98a47e39b": {
+            "_id": "e2ee99b98a47e39b",
+            "type": "save",
+            "name": "Exploding Shot: blast",
+            "sort": 1,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "All creatures within 5 feet of the attack take the damage from the attack on a failure, or half on a success."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "1",
+                "contiguous": false,
+                "type": "radius",
+                "size": "5",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "8 + @prof + max(@abilities.str.mod, @abilities.dex.mod, @abilities.con.mod, @abilities.int.mod, @abilities.wis.mod, @abilities.cha.mod)"
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "dcb83e88544cb240",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-glowing-white.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Adaptable (P, S).</strong> The wielder can choose to deal piercing or slashing damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 2,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 20000,
+          "denomination": "gp"
+        },
+        "rarity": "common",
+        "equipped": true,
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "range": {
+          "value": 20,
+          "long": 60,
+          "units": "ft"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "damage": {
+          "parts": [
+            "1d4",
+            "piercing"
+          ],
+          "versatile": ""
+        },
+        "actionType": "mwak",
+        "ability": "",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "proficient": null,
+        "properties": {
+          "fin": true,
+          "lgt": true,
+          "thr": true
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": "dagger"
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "name": "Dagger",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": null,
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 20,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "critical": {
+                "allow": true,
+                "bonus": ""
+              },
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 4,
+                  "bonus": "",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "ff8088c21fddcbe7",
+      "name": "Tinker's Tools",
+      "type": "tool",
+      "img": "icons/tools/smithing/anvil.webp",
+      "system": {
+        "description": {
+          "value": "",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 10,
+          "units": "lb"
+        },
+        "price": {
+          "value": 500000,
+          "denomination": "gp"
+        },
+        "rarity": "common",
+        "ability": "int",
+        "chatFlavor": "",
+        "proficient": 0,
+        "type": {
+          "value": "art",
+          "baseItem": "tinker"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "ed93f8ae4def36a5",
+      "name": "Gunsmith's Tools",
+      "type": "tool",
+      "img": "icons/tools/smithing/anvil.webp",
+      "system": {
+        "description": {
+          "value": "<p>Tools for maintaining and repairing firearms, flintlocks, and other ranged weapons.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 6,
+          "units": "lb"
+        },
+        "price": {
+          "value": 250000,
+          "denomination": "gp"
+        },
+        "rarity": "common",
+        "ability": "int",
+        "chatFlavor": "",
+        "proficient": 0,
+        "type": {
+          "value": "art",
+          "baseItem": "smith"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "14789fa83d8d62f3",
+      "name": "Deft Explorer",
+      "type": "feat",
+      "img": "icons/sundries/books/book-tooled-gold-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p>You are an unsurpassed explorer and survivor. Choose one of the following benefits, and then choose another one at 6th and 10th level.</p>\n<p><strong>Canny.</strong> Choose two of your skill proficiencies. You gain expertise with the chosen skills. In addition, thanks to your extensive wandering, you can no longer get lost by natural means.</p>\n<p><strong>Roving.</strong> Your walking speed increases by 10, and you gain a climbing speed and a swimming speed equal to your walking speed.</p>\n<p><strong>Tireless.</strong> As a bonus action, you can give yourself a number of temporary hit points equal to 1d10 + your level. You can use this ability a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest. In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Marksman 1",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "@prof",
+          "per": null,
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "recoverAll"
+            }
+          ],
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "activities": {
+          "ad02b38acb24da2a": {
+            "_id": "ad02b38acb24da2a",
+            "type": "heal",
+            "name": "Tireless",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "If you chose Tireless. Finishing a short rest also lowers your exhaustion by 1."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "healing": {
+              "number": 1,
+              "denomination": 10,
+              "bonus": "@details.level",
+              "types": [
+                "temp"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            }
+          }
+        }
+      },
+      "effects": [
+        {
+          "_id": "948f6dbe90f290aa",
+          "name": "Roving: +10 ft walking speed, climb and swim equal to walking",
+          "img": "icons/svg/aura.svg",
+          "changes": [
+            {
+              "key": "system.attributes.movement.walk",
+              "mode": 2,
+              "value": "10",
+              "priority": 20
+            },
+            {
+              "key": "system.attributes.movement.climb",
+              "mode": 4,
+              "value": "@attributes.movement.walk",
+              "priority": 20
+            },
+            {
+              "key": "system.attributes.movement.swim",
+              "mode": 4,
+              "value": "@attributes.movement.walk",
+              "priority": 20
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!ab9efafbbb3f24a0.948f6dbe90f290aa"
+        }
+      ],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "c8206f4ecd2ea465",
+      "name": "Favored Mark",
+      "type": "feat",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "system": {
+        "description": {
+          "value": "<p>You can use your uncanny precision to mark a target for termination. As a bonus action, you can mark a creature that you can see as your favored mark for 1 hour or until you mark another creature.</p>\n<p>You don't have disadvantage on ranged weapon attacks at long range against the marked target, and once per turn when you hit a marked target with a weapon attack you can choose to deal an additional 1d6 damage to it. If the target of your mark is reduced to 0 hit points, you can immediately use your reaction to mark another creature without expending a use of this feature.</p>\n<p>Additionally, you have advantage on Intelligence (Investigation) and Wisdom (Perception) checks made to spot the mark.</p>\n<p>You can use this feature a number of times equal to 1 + your Wisdom modifier (minimum of once) and regain all uses when you finish a short or long rest. The damage increases as you gain levels: d8 at 5th level, d10 at 14th level, and d12 at 20th level.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Marksman 1",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "hour"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "1 + @abilities.wis.mod",
+          "per": null,
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "recoverAll"
+            }
+          ],
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [
+            [
+              "@scale.marksman.favored-mark",
+              ""
+            ]
+          ],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "activities": {
+          "b683ec8f9030d9bb": {
+            "_id": "b683ec8f9030d9bb",
+            "type": "utility",
+            "name": "Mark a Target",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Mark a creature you can see for 1 hour or until you mark another. No disadvantage on long-range ranged attacks against it, and advantage on Investigation and Perception checks to spot it. If it drops to 0 hit points, use your reaction to mark another without spending a use."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "hour",
+              "special": "",
+              "override": true
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          },
+          "13d57db86d6d555f": {
+            "_id": "13d57db86d6d555f",
+            "type": "damage",
+            "name": "Favored Mark Damage",
+            "sort": 1,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Once per turn when you hit the marked target with a weapon attack."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "hour",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "critical": {
+                "allow": false,
+                "bonus": ""
+              },
+              "parts": [
+                {
+                  "number": null,
+                  "denomination": null,
+                  "bonus": "",
+                  "types": [
+                    ""
+                  ],
+                  "custom": {
+                    "enabled": true,
+                    "formula": "@scale.marksman.favored-mark"
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "5631550d2c99bb9f",
+      "name": "Creativity",
+      "type": "feat",
+      "img": "icons/skills/ranged/arrow-strike-glowing-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p>At 2nd level, your passionate soul finally stirs enough to awaken the power slumbering within. You learn to prepare and use creations (spells) from the marksman creation list using Wisdom as your creative ability.</p>\n<p><strong>Creation save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>\n<p><strong>Creation Attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>\n<p>You prepare a number of creations equal to your Wisdom modifier + half your marksman level (rounded down, minimum 1). You regain all expended creation slots when you finish a long rest.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Marksman 2",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "4b4d5cda179b0741",
+      "name": "Fighting Style",
+      "type": "feat",
+      "img": "icons/skills/melee/swords-parry-block-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the options from the Marksman Styles section. Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to marksmen.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Marksman 2",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "65c1cb9b99cdeb20",
+      "name": "Quick On The Draw",
+      "type": "feat",
+      "img": "icons/magic/time/arrows-circling-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>Also at 3rd level, your speed and trigger finger is almost unmatched in combat. You have advantage on initiative rolls, and you can draw a weapon when you roll initiative.</p>\n<p>Additionally, you ignore the reload and loading properties of ranged weapons.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Marksman 3",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "activities": {}
+      },
+      "effects": [
+        {
+          "_id": "8420bf9aebeffbf3",
+          "name": "Quick On The Draw",
+          "img": "icons/svg/aura.svg",
+          "changes": [
+            {
+              "key": "system.attributes.init.roll.mode",
+              "mode": 5,
+              "value": "1",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!15b16e656054014a.8420bf9aebeffbf3"
+        }
+      ],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "cfdeea3d69f24d5a",
+      "name": "Extra Attack",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>\n<p>If you ready your action to make an attack, you can attack the same number of times you would if you had taken the attack action on your turn.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Marksman 5",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "Attack action attacks: 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "826ee011caf5e14c",
+      "name": "Small Medkit",
+      "type": "consumable",
+      "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>A very useful tool for combat and treating wounds. When you use a medkit, the target regains 2d4 + 2 hit points.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "rarity": "common",
+        "type": {
+          "value": "potion"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "heal",
+        "damage": {
+          "parts": [
+            "2d4 + 2",
+            "healing"
+          ]
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "37525f67cfb7abef",
+      "name": "Rations (1 day)",
+      "type": "consumable",
+      "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+      "system": {
+        "description": {
+          "value": "",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 500,
+          "denomination": "gp"
+        },
+        "rarity": "common",
+        "type": {
+          "value": "food"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "406cbed20ddfcc72",
+      "name": "Alert",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-blade-blood-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>You are always on the lookout for danger, you gain the following benefits:</p><ul><li>Increase your Dexterity or Wisdom score by 1, to a maximum of 20.</li><li>You can’t be surprised while you are conscious.</li><li>You gain a +5 bonus to initiative.</li><li>Other creatures don’t gain advantage on attack rolls against you as a result of being unseen by you.</li></ul>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "advancement": [
+          {
+            "_id": "65f6eb515620b5df",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "cap": 1,
+              "max": 20,
+              "fixed": {},
+              "locked": [
+                "str",
+                "con",
+                "int",
+                "cha"
+              ],
+              "points": 1
+            },
+            "value": {},
+            "level": 0,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": "Increase your Dexterity or Wisdom score by 1"
+          }
+        ],
+        "activities": {}
+      },
+      "effects": [
+        {
+          "_id": "4e3128483041b994",
+          "name": "Initiative Bonus",
+          "img": "icons/svg/aura.svg",
+          "changes": [
+            {
+              "key": "system.attributes.init.bonus",
+              "mode": 2,
+              "value": "5",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!2ee3316f53e6323d.4e3128483041b994"
+        }
+      ],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "12c051730570724a",
+      "name": "Leather Armor",
+      "type": "equipment",
+      "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
+      "system": {
+        "description": {
+          "value": "",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 10,
+          "units": "lb"
+        },
+        "price": {
+          "value": 100000,
+          "denomination": "gp"
+        },
+        "rarity": "common",
+        "equipped": true,
+        "identified": true,
+        "armor": {
+          "value": 11
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": null,
+        "type": {
+          "value": "light",
+          "baseItem": "leather"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "102139a726fce043",
+      "name": "Explorer's Pack",
+      "type": "loot",
+      "img": "icons/sundries/books/book-tooled-gold-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p>Includes a backpack, bedroll, mess kit, tinderbox, 10 torches, 10 days of rations, waterskin, and 50 feet of hempen rope.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 10,
+          "units": "lb"
+        },
+        "price": {
+          "value": 100000,
+          "denomination": "gp"
+        },
+        "rarity": "common"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "0fec323608883f3b",
+      "name": "Longbow",
+      "type": "weapon",
+      "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Strong.</strong> Use your choice of Strength or Dexterity modifier for attack and damage rolls. You must use the same modifier for both rolls.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 500000,
+          "denomination": "gp"
+        },
+        "rarity": "common",
+        "equipped": true,
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "range": {
+          "value": 150,
+          "long": 600,
+          "units": "ft"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "damage": {
+          "parts": [
+            "1d8",
+            "piercing"
+          ],
+          "versatile": ""
+        },
+        "actionType": "rwak",
+        "ability": "",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "proficient": null,
+        "properties": {
+          "amm": true,
+          "hvy": true,
+          "two": true
+        },
+        "type": {
+          "value": "martialR",
+          "baseItem": "longbow"
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "name": "Longbow",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": null,
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 150,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "critical": {
+                "allow": true,
+                "bonus": ""
+              },
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "2ce461a54bffa242",
+      "name": "Canny",
+      "type": "feat",
+      "img": "icons/skills/ranged/arrows-flying-triple-gray.webp",
+      "system": {
+        "description": {
+          "value": "<p>Choose two of your skill proficiencies. You gain expertise with the chosen skills.</p><p>In addition, thanks to your extensive wandering, you can no longer get lost by natural means.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Marksman 1",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "8d47cff13f635609",
+      "name": "Dice Set",
+      "type": "tool",
+      "img": "icons/skills/social/trading-justice-scale-gold.webp",
+      "system": {
+        "description": {
+          "value": "",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 500,
+          "denomination": "gp"
+        },
+        "rarity": "common",
+        "ability": "int",
+        "chatFlavor": "",
+        "proficient": 1,
+        "type": {
+          "value": "game",
+          "baseItem": "dice"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items!eccee0becc9e6792"
+    },
+    {
+      "_id": "c7cb2fa349d434e5",
+      "name": "Fighting Style: Archery",
+      "type": "feat",
+      "img": "icons/skills/melee/swords-parry-block-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Marksman 2",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "activities": {},
+        "advancement": []
+      },
+      "effects": [
+        {
+          "_id": "1a62e9a3a6118eb8",
+          "name": "Archery",
+          "img": "icons/svg/upgrade.svg",
+          "changes": [
+            {
+              "key": "system.bonuses.rwak.attack",
+              "mode": 2,
+              "value": "2",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!046b6f1dffc9244a.1a62e9a3a6118eb8"
+        }
+      ],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items!046b6f1dffc9244a"
+    },
+    {
+      "_id": "6f03dce6a8d99364",
+      "name": "Guidance",
+      "type": "spell",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>You touch one willing creature. Once before the creation ends, the target can roll a d4 and add the number rolled to one ability check or saving throw, of its choice. It can roll the die before or after making the ability check. The trick then ends.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "level": 0,
+        "school": "div",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "save",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "formula": "",
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "name": "Guidance",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "minute",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "touch",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "b0fc5401290a332a",
+      "name": "Draw",
+      "type": "spell",
+      "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>You harmlessly place a small picture, the appearance of which is to your discretion, as long as it fits, on a 1 square foot surface on the targeted creature or object. The picture can be scrubbed or scraped off with 5 minutes of work on an object, otherwise it doesn’t fade. If it's on a creature, it fades naturally over the course of a week.</p><p><strong>At Higher Levels.</strong> The trick’s coverage increases to a 5 square foot surface at 5th level, 10 square feet at 11th level, and 15 square feet at 17th level.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "level": 0,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": false,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "a bit of ink",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "perm"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "formula": "",
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "name": "Draw",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": null,
+              "units": "perm",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "touch",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "5d5c98a4bcc8780f",
+      "name": "Spark Bolt",
+      "type": "spell",
+      "img": "icons/magic/lightning/bolt-forked-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>You hurl a blast of purely destructive electricity at a creature or object within range. Make a ranged creation attack against the target. On a hit, the target takes 1d10 lightning damage. A flammable object hit by this trick ignites if it isn’t being worn or carried.\nAdditionally, you can manipulate electricity to create tiny sensory effects as an action. You cause simple shapes—such as the vague form of a creature, an inanimate object, or a location—to appear and animate as you like. The shapes last for 1 hour, and you can have up to three of them active at a time, and you can dismiss some or all as an action.</p><p><strong>At Higher Levels.</strong> At higher levels you can choose to either make one big blast, or multiple smaller blasts. For the single blast, this trick's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10). For the multiple blasts, two blasts at 5th level, three blasts at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "level": 0,
+        "school": "evo",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "cantrip",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 120,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "rsak",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d10",
+              "lightning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "formula": "",
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "name": "Spark Bolt",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": null,
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 120,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "critical": {
+                "allow": true,
+                "bonus": ""
+              },
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 10,
+                  "bonus": "",
+                  "types": [
+                    "lightning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "d2a76f63e383a6ed",
+      "name": "Alacrity",
+      "type": "spell",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>You touch a willing creature. For the duration, the target can add 1d8 to its initiative rolls.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "level": 1,
+        "school": "div",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "activation": {
+          "type": "minute",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "8",
+          "units": "hour"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "formula": "",
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "name": "Alacrity",
+            "sort": 0,
+            "activation": {
+              "type": "minute",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "8",
+              "units": "hour",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "touch",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "9c1c6977ef0085ea",
+      "name": "Zephyr Strike",
+      "type": "spell",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>You move like the wind. For the duration, your movement doesn’t provoke opportunity attacks.\nOnce before the creation ends, you can give yourself advantage on one weapon attack roll on your turn. That attack deals an extra 1d8 force damage on a hit. Whether you hit or miss, your walking speed increases by 30 feet until the end of that turn.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 2nd level or higher, the damage each increases by 1d8 for each slot level above 1st.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "level": 1,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8",
+              "force"
+            ]
+          ],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "formula": "",
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "damage",
+            "name": "Zephyr Strike",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "minute",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "self",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "self",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "critical": {
+                "allow": false,
+                "bonus": ""
+              },
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "force"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "f473bfc2fdd41bbd",
+      "name": "Misty Step",
+      "type": "spell",
+      "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>You teleport up to 30 feet to an unoccupied space that you can see.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 3rd level or higher, the teleportation range increases by 10 feet for each level above 2nd.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "level": 2,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": "inst"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "formula": "",
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "name": "Misty Step",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": null,
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "self",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "self",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "1c41deaf116c5e38",
+      "name": "Advanced Weapon",
+      "type": "spell",
+      "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>You channel energy into one simple or martial weapon you’re holding, and choose one damage type: acid, cold, fire, lightning, poison, or thunder. Until the creation ends, you deal an extra 1d6 damage of the chosen type to any target you hit with the weapon.\nAs a bonus action, you can change the damage type, choosing from the options above.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 3rd level or higher, you can maintain your concentration on the creation for up to 8 hours. When you use this creation with a creation slot of 5th level or higher, you no longer need to maintain your concentration, and the creation lasts for 24 hours.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "level": 1,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "formula": "",
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "name": "Advanced Weapon",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "hour",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "self",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "self",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "39b922c2d95a3f45",
+      "name": "Retreat",
+      "type": "spell",
+      "img": "icons/magic/fire/projectile-meteor-salvo-heavy-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>This creation allows you to move at an incredible pace. When you use this creation, and then as a bonus action on each of your turns until the creation ends, you can take the Dash action.</p><p><strong>At Higher Levels.</strong> When you use this creation with. a creation slot of 2nd level, you increase the duration to 1 hour with concentration. When you use this creation with. a creation slot of 3rd level, you increase the duration to 8 hours with concentration. When you use this creation with a creation slot of 4th level, you increase the duration to 24 hours with concentration. When you use this creation with a creation slot of 5th level, you increase the duration to 24 hours.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "level": 1,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "formula": "",
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "name": "Retreat",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "10",
+              "units": "minute",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "self",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "self",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "6e5fd869b811c487",
+      "name": "Grounding",
+      "type": "spell",
+      "img": "icons/magic/nature/root-vines-grow-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p>You can prevent creatures from taking off the ground. Choose one creature you can see within range. The target must succeed on a Constitution saving throw or its flying speed (if any) is reduced to 0 feet for the duration. An airborne creature affected by this creation descends at 60 feet per round until it reaches the ground or the creation ends.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 3rd or higher, you can target an additional creature within range for each slot above 2nd. Each creature must be within 30ft of eachother.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "level": 2,
+        "school": "trs",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": false,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 300,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "save",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "con",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "formula": "",
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "save",
+            "name": "Grounding",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "minute",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 300,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "con"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "f0cd7e473ea965ef",
+      "name": "Cloud of Daggers",
+      "type": "spell",
+      "img": "icons/weapons/daggers/dagger-glowing-white.webp",
+      "system": {
+        "description": {
+          "value": "<p>You fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range. A creature takes 4d4 slashing damage when it enters the creation’s area for the first time on a turn or starts its turn there.</p><p><strong>At Higher Levels.</strong> When you use this creation using a creation slot of 3rd level or higher, the damage increases by 2d4 for each slot level above 2nd.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "level": 2,
+        "school": "con",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "a glass shard",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "damage": {
+          "parts": [
+            [
+              "4d4",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "formula": "",
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "damage",
+            "name": "Cloud of Daggers",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "minute",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 60,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "critical": {
+                "allow": false,
+                "bonus": ""
+              },
+              "parts": [
+                {
+                  "number": 4,
+                  "denomination": 4,
+                  "bonus": "",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "8e34b043e24d6302",
+      "name": "Fearsome Fortitude",
+      "type": "feat",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>Time and time again, you have trained to be able to withstand certain potent effects that have been thrown your way, enabling your own form of saving grace.</p>\n<p>You gain proficiency in one saving throw. Additionally, your hit point maximum increases by a number equal to one roll of your hit dice + your Constitution Modifier, and you gain an extra hit die.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "_id": "e0c7c2d585fa84cd",
+  "prototypeToken": {
+    "texture": {
+      "src": "one-piece-5e/npcs/Sand Rats/tariq-token.png"
+    }
+  }
+}

@@ -2344,14 +2344,14 @@
               "spellSlot": false
             },
             "description": {
-              "chatFlavor": "If you moved half your speed or less this turn: until the start of your next turn you can't be moved against your will, and you count as one size larger for shoving and grappling with advantage on Strength checks to grapple and shove."
+              "chatFlavor": "If you moved half your speed or less this turn, you can't be moved against your will until the start of your next turn."
             },
             "duration": {
               "concentration": false,
-              "value": "1",
-              "units": "round",
+              "value": "",
+              "units": "inst",
               "special": "",
-              "override": true
+              "override": false
             },
             "effects": [
               {
@@ -2404,11 +2404,21 @@
             "activation": {
               "type": "reaction",
               "value": 1,
-              "condition": "",
+              "condition": "you take damage",
               "override": false
             },
             "consumption": {
-              "targets": [],
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "spirit",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
               "scaling": {
                 "allowed": false,
                 "max": ""
@@ -2416,7 +2426,7 @@
               "spellSlot": false
             },
             "description": {
-              "chatFlavor": "Spend a spirit point whenever you take damage while anchored."
+              "chatFlavor": "Until the start of your next turn, spend a spirit point whenever you take damage to reduce it by 1d10 + your Strength modifier."
             },
             "duration": {
               "concentration": false,
@@ -2458,7 +2468,7 @@
             },
             "roll": {
               "formula": "1d10 + @abilities.str.mod",
-              "name": "Damage reduced",
+              "name": "Damage reduction",
               "prompt": false,
               "visible": true
             }
@@ -4018,15 +4028,15 @@
           "charged": false
         },
         "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
+          "61f9351aebf6f75b": {
+            "_id": "61f9351aebf6f75b",
             "type": "utility",
             "name": "Deflect Missiles",
             "sort": 0,
             "activation": {
               "type": "reaction",
               "value": 1,
-              "condition": "Hit by a ranged attack",
+              "condition": "you are hit by a ranged attack",
               "override": false
             },
             "consumption": {
@@ -4035,14 +4045,91 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
-              "chatFlavor": "Damage reduced by 1d10 + DEX mod + @classes.brawler.levels"
+              "chatFlavor": "If you reduce the damage to 0 and have a free hand you can catch the missile."
             },
             "duration": {
               "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
               "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "1d10 + @abilities.dex.mod + @classes.brawler.levels",
+              "name": "Damage reduced by",
+              "prompt": false,
+              "visible": true
+            }
+          },
+          "17ca147d5a03ea8c": {
+            "_id": "17ca147d5a03ea8c",
+            "type": "utility",
+            "name": "Deflect Missiles: catch and throw",
+            "sort": 1,
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "spirit",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Spend 1 spirit point to make a ranged attack with the caught weapon or ammunition (proficient, normal range 20 ft, long range 60 ft, no close range disadvantage)."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
               "units": "inst",
               "special": "",
               "override": false
@@ -5164,7 +5251,7 @@
       }
     },
     {
-      "_id": "00119b10fe7f396f",
+      "_id": "12286b651a1d2a1c",
       "name": "Painter's Supplies",
       "type": "tool",
       "img": "icons/tools/smithing/anvil.webp",
@@ -5217,7 +5304,7 @@
       "_key": "!items!a9d155147acc4b8a"
     },
     {
-      "_id": "2a6f1b3448c388da",
+      "_id": "27104e71c6b1ad1f",
       "name": "Armorless Guardian",
       "type": "feat",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
@@ -5299,7 +5386,7 @@
       }
     },
     {
-      "_id": "6b3da3334b10508a",
+      "_id": "871f33e623362225",
       "name": "Duck and Dodge",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",

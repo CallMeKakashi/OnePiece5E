@@ -3719,15 +3719,15 @@
           "charged": false
         },
         "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
+          "61f9351aebf6f75b": {
+            "_id": "61f9351aebf6f75b",
             "type": "utility",
             "name": "Deflect Missiles",
             "sort": 0,
             "activation": {
               "type": "reaction",
               "value": 1,
-              "condition": "Hit by a ranged attack",
+              "condition": "you are hit by a ranged attack",
               "override": false
             },
             "consumption": {
@@ -3736,14 +3736,91 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
-              "chatFlavor": "Damage reduced by 1d10 + DEX mod + @classes.brawler.levels"
+              "chatFlavor": "If you reduce the damage to 0 and have a free hand you can catch the missile."
             },
             "duration": {
               "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
               "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "1d10 + @abilities.dex.mod + @classes.brawler.levels",
+              "name": "Damage reduced by",
+              "prompt": false,
+              "visible": true
+            }
+          },
+          "17ca147d5a03ea8c": {
+            "_id": "17ca147d5a03ea8c",
+            "type": "utility",
+            "name": "Deflect Missiles: catch and throw",
+            "sort": 1,
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "spirit",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Spend 1 spirit point to make a ranged attack with the caught weapon or ammunition (proficient, normal range 20 ft, long range 60 ft, no close range disadvantage)."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
               "units": "inst",
               "special": "",
               "override": false
@@ -5637,14 +5714,14 @@
           "charged": false
         },
         "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
+          "d16f605f3a77f13b": {
+            "_id": "d16f605f3a77f13b",
             "type": "utility",
             "name": "Color of Observation Novice",
             "sort": 0,
             "activation": {
-              "type": "",
-              "value": null,
+              "type": "special",
+              "value": 1,
               "condition": "",
               "override": false
             },
@@ -5664,14 +5741,14 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
-              "chatFlavor": ""
+              "chatFlavor": "Spend an Observation Point to add half your proficiency bonus (rounded down; full with Observation affinity) to an attack roll or save DC. Sense Presence: in place of the Search action, sense living creatures within 60 feet."
             },
             "duration": {
               "concentration": false,
-              "value": null,
+              "value": "",
               "units": "inst",
               "special": "",
               "override": false
@@ -5705,12 +5782,7 @@
             "uses": {
               "spent": 0,
               "max": "",
-              "recovery": [
-                {
-                  "period": "shortRest",
-                  "type": "recoverAll"
-                }
-              ]
+              "recovery": []
             },
             "roll": {
               "formula": "",
@@ -5721,7 +5793,40 @@
           }
         }
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "73e74cc3bfaabcaa",
+          "name": "Sense Presence: +5 passive Perception",
+          "img": "icons/svg/upgrade.svg",
+          "changes": [
+            {
+              "key": "system.skills.prc.bonuses.passive",
+              "mode": 2,
+              "value": "5",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!96dcda2a40ae256f.73e74cc3bfaabcaa"
+        }
+      ],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -5962,7 +6067,7 @@
       }
     },
     {
-      "_id": "49299926cab7cb73",
+      "_id": "ddc1e9292f2211f5",
       "name": "Darkvision",
       "type": "feat",
       "img": "icons/magic/unholy/beam-ringed-impact-purple.webp",
@@ -6078,7 +6183,7 @@
       }
     },
     {
-      "_id": "f6d9e6c8ca742536",
+      "_id": "1a0271a54dd558ef",
       "name": "Omni-Adapted",
       "type": "feat",
       "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
@@ -6194,7 +6299,7 @@
       }
     },
     {
-      "_id": "11111d80b46fcd10",
+      "_id": "f3702c7d99a146ed",
       "name": "Flaming Duality",
       "type": "feat",
       "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
@@ -6262,8 +6367,8 @@
           "charged": false
         },
         "activities": {
-          "op5efdualityign0": {
-            "_id": "op5efdualityign0",
+          "cf83b6cfe6bdbb8a": {
+            "_id": "cf83b6cfe6bdbb8a",
             "type": "utility",
             "name": "Ignited Form",
             "sort": 0,
@@ -6289,19 +6394,24 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
-              "chatFlavor": ""
+              "chatFlavor": "Flames erupt from your back and you gain resistance to bludgeoning, piercing, and slashing damage."
             },
             "duration": {
               "concentration": false,
-              "value": 1,
+              "value": "1",
               "units": "minute",
               "special": "",
-              "override": false
+              "override": true
             },
-            "effects": [],
+            "effects": [
+              {
+                "_id": "88ffb16c80f26d26",
+                "onSave": false
+              }
+            ],
             "range": {
               "value": null,
               "units": "self",
@@ -6319,23 +6429,18 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
+                "count": "1",
                 "type": "self",
                 "choice": false,
                 "special": ""
               },
               "prompt": true,
-              "override": false
+              "override": true
             },
             "uses": {
               "spent": 0,
               "max": "",
-              "recovery": [
-                {
-                  "period": "longRest",
-                  "type": "recoverAll"
-                }
-              ]
+              "recovery": []
             },
             "roll": {
               "formula": "",
@@ -6344,11 +6449,11 @@
               "visible": false
             }
           },
-          "op5efdualitygod0": {
-            "_id": "op5efdualitygod0",
+          "14d20ec17eebb5f7": {
+            "_id": "14d20ec17eebb5f7",
             "type": "utility",
             "name": "Godspeed Form",
-            "sort": 0,
+            "sort": 1,
             "activation": {
               "type": "bonus",
               "value": 1,
@@ -6371,19 +6476,24 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
-              "chatFlavor": ""
+              "chatFlavor": "Your movement speed increases by 10."
             },
             "duration": {
               "concentration": false,
-              "value": 1,
+              "value": "1",
               "units": "minute",
               "special": "",
-              "override": false
+              "override": true
             },
-            "effects": [],
+            "effects": [
+              {
+                "_id": "8b90e8a0fa7d6b0d",
+                "onSave": false
+              }
+            ],
             "range": {
               "value": null,
               "units": "self",
@@ -6401,23 +6511,18 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
+                "count": "1",
                 "type": "self",
                 "choice": false,
                 "special": ""
               },
               "prompt": true,
-              "override": false
+              "override": true
             },
             "uses": {
               "spent": 0,
               "max": "",
-              "recovery": [
-                {
-                  "period": "longRest",
-                  "type": "recoverAll"
-                }
-              ]
+              "recovery": []
             },
             "roll": {
               "formula": "",
@@ -6428,7 +6533,84 @@
           }
         }
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "88ffb16c80f26d26",
+          "name": "Flaming Duality: Ignited",
+          "img": "icons/svg/upgrade.svg",
+          "changes": [
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "bludgeoning",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "piercing",
+              "priority": 20
+            },
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "slashing",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": 60,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dae": {
+              "transfer": false,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!f51d0f14bf62d7ea.88ffb16c80f26d26"
+        },
+        {
+          "_id": "8b90e8a0fa7d6b0d",
+          "name": "Flaming Duality: Godspeed",
+          "img": "icons/svg/aura.svg",
+          "changes": [
+            {
+              "key": "system.attributes.movement.walk",
+              "mode": 2,
+              "value": "10",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": 60,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dae": {
+              "transfer": false,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!f51d0f14bf62d7ea.8b90e8a0fa7d6b0d"
+        }
+      ],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -6447,7 +6629,7 @@
       }
     },
     {
-      "_id": "f391a08e02559cdc",
+      "_id": "f2827a234fe32e3a",
       "name": "Empowered Godspeed",
       "type": "feat",
       "img": "icons/magic/time/arrows-circling-green.webp",
@@ -6529,7 +6711,7 @@
       }
     },
     {
-      "_id": "c16b5551ef7b402e",
+      "_id": "b8ace223ff8ee810",
       "name": "Improved Ignite",
       "type": "feat",
       "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
@@ -6711,7 +6893,7 @@
       }
     },
     {
-      "_id": "9ec36f6bd228c60d",
+      "_id": "b7336a672a464812",
       "name": "Flame Investure",
       "type": "feat",
       "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
@@ -6882,7 +7064,7 @@
       }
     },
     {
-      "_id": "b823575b01408060",
+      "_id": "5dbbefceee9e8aa7",
       "name": "Fire Bolt",
       "type": "spell",
       "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
@@ -7077,7 +7259,7 @@
       }
     },
     {
-      "_id": "9fa1516e021f190c",
+      "_id": "5ea2f174d2a68ac6",
       "name": "Elemental Armor",
       "type": "spell",
       "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
@@ -7248,7 +7430,7 @@
       }
     },
     {
-      "_id": "f27c45543198c45e",
+      "_id": "b71a31ae45d9bd48",
       "name": "Fireball",
       "type": "spell",
       "img": "icons/magic/fire/projectile-fireball-orange.webp",
@@ -7449,7 +7631,7 @@
       }
     },
     {
-      "_id": "1e6da352d4688ceb",
+      "_id": "65e4e711c72be105",
       "name": "Flying Strikes",
       "type": "feat",
       "img": "icons/magic/air/wind-tornado-funnel-green.webp",
@@ -7548,7 +7730,7 @@
       "_key": "!items!2f6cd976e5725c37"
     },
     {
-      "_id": "9c3f1e285c2c511a",
+      "_id": "a0d1da3bc6d0f448",
       "name": "Flowing Mind",
       "type": "feat",
       "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
@@ -7630,7 +7812,7 @@
       }
     },
     {
-      "_id": "d453d1d937b819eb",
+      "_id": "2c994ec3e5b37575",
       "name": "Artful Mastery",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -7752,7 +7934,7 @@
       }
     },
     {
-      "_id": "24f6f83b44446cb9",
+      "_id": "109cfc211d5fd599",
       "name": "Free Spirit",
       "type": "feat",
       "img": "icons/skills/melee/strike-sword-gray.webp",
@@ -7834,7 +8016,7 @@
       }
     },
     {
-      "_id": "564dbc8ce97de70c",
+      "_id": "c02fefbda01e6f56",
       "name": "Back In The Fight",
       "type": "feat",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",

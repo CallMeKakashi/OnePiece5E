@@ -4938,14 +4938,14 @@
           "charged": false
         },
         "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
+          "d16f605f3a77f13b": {
+            "_id": "d16f605f3a77f13b",
             "type": "utility",
             "name": "Color of Observation Novice",
             "sort": 0,
             "activation": {
-              "type": "",
-              "value": null,
+              "type": "special",
+              "value": 1,
               "condition": "",
               "override": false
             },
@@ -4965,14 +4965,14 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
-              "chatFlavor": ""
+              "chatFlavor": "Spend an Observation Point to add half your proficiency bonus (rounded down; full with Observation affinity) to an attack roll or save DC. Sense Presence: in place of the Search action, sense living creatures within 60 feet."
             },
             "duration": {
               "concentration": false,
-              "value": null,
+              "value": "",
               "units": "inst",
               "special": "",
               "override": false
@@ -5006,12 +5006,7 @@
             "uses": {
               "spent": 0,
               "max": "",
-              "recovery": [
-                {
-                  "period": "shortRest",
-                  "type": "recoverAll"
-                }
-              ]
+              "recovery": []
             },
             "roll": {
               "formula": "",
@@ -5022,7 +5017,40 @@
           }
         }
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "73e74cc3bfaabcaa",
+          "name": "Sense Presence: +5 passive Perception",
+          "img": "icons/svg/upgrade.svg",
+          "changes": [
+            {
+              "key": "system.skills.prc.bonuses.passive",
+              "mode": 2,
+              "value": "5",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!96dcda2a40ae256f.73e74cc3bfaabcaa"
+        }
+      ],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -7517,15 +7545,15 @@
           "charged": false
         },
         "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
+          "61f9351aebf6f75b": {
+            "_id": "61f9351aebf6f75b",
             "type": "utility",
             "name": "Deflect Missiles",
             "sort": 0,
             "activation": {
               "type": "reaction",
               "value": 1,
-              "condition": "Hit by a ranged attack",
+              "condition": "you are hit by a ranged attack",
               "override": false
             },
             "consumption": {
@@ -7534,14 +7562,91 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
-              "chatFlavor": "Damage reduced by 1d10 + DEX mod + @classes.brawler.levels"
+              "chatFlavor": "If you reduce the damage to 0 and have a free hand you can catch the missile."
             },
             "duration": {
               "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
               "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "1d10 + @abilities.dex.mod + @classes.brawler.levels",
+              "name": "Damage reduced by",
+              "prompt": false,
+              "visible": true
+            }
+          },
+          "17ca147d5a03ea8c": {
+            "_id": "17ca147d5a03ea8c",
+            "type": "utility",
+            "name": "Deflect Missiles: catch and throw",
+            "sort": 1,
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "spirit",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Spend 1 spirit point to make a ranged attack with the caught weapon or ammunition (proficient, normal range 20 ft, long range 60 ft, no close range disadvantage)."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
               "units": "inst",
               "special": "",
               "override": false
@@ -7756,7 +7861,7 @@
       }
     },
     {
-      "_id": "ed2b59b07e53eb08",
+      "_id": "24acb9ff17005f10",
       "name": "Soku Soku no Mi",
       "type": "loot",
       "img": "modules/op5e/assets/icons/devil-fruit-paramecia.svg",
@@ -7804,7 +7909,7 @@
       "_key": "!items!0be63bfbf040bb43"
     },
     {
-      "_id": "cb8642ff7693f002",
+      "_id": "e6243576a55737ef",
       "name": "Devil Fruit Uses",
       "type": "feat",
       "img": "icons/skills/melee/strike-blade-blood-red.webp",
@@ -7967,7 +8072,7 @@
       "_key": "!items!f1b6a1ceb52e6d43"
     },
     {
-      "_id": "16fe8d3090857813",
+      "_id": "23629910eb8a77d1",
       "name": "Devil Fruit Ability Check, Fruit-Fruit DC and Attack",
       "type": "feat",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
@@ -8361,7 +8466,7 @@
       "_key": "!items!990dca216575f1bd"
     },
     {
-      "_id": "f950b818e3627ac7",
+      "_id": "8766b65b4273fbf1",
       "name": "Ocean's Scorn",
       "type": "feat",
       "img": "icons/magic/water/projectile-ice-faceted-blue.webp",
@@ -9178,7 +9283,7 @@
       "_key": "!items!6e9d7ec2ca209e1e"
     },
     {
-      "_id": "b3945811da5b00e7",
+      "_id": "9a70c24ece2f54e6",
       "name": "Paramecia Improved Usage",
       "type": "feat",
       "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
@@ -9347,7 +9452,7 @@
       "_key": "!items!8a789a80f060076b"
     },
     {
-      "_id": "151024385a9aec2b",
+      "_id": "43f620df1cdeca6e",
       "name": "Mobile",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -9465,7 +9570,7 @@
       "_key": "!items!4e7abe5deef318b7"
     },
     {
-      "_id": "49618830db9ba4fa",
+      "_id": "493b38a7899b16d3",
       "name": "Alert",
       "type": "feat",
       "img": "icons/skills/melee/strike-blade-blood-red.webp",
@@ -9606,7 +9711,7 @@
       "_key": "!items!2ee3316f53e6323d"
     },
     {
-      "_id": "cb1b27a0d785d8e7",
+      "_id": "9b626e7535ef1ee4",
       "name": "Color of Armament Novice",
       "type": "feat",
       "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
@@ -9786,7 +9891,7 @@
       "_key": "!items!16bc2636849312ce"
     },
     {
-      "_id": "991a809cf8713c14",
+      "_id": "05ceed5c2348a4cb",
       "name": "Color of Armament Apprentice",
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-white.webp",
@@ -9971,7 +10076,7 @@
       "_key": "!items!c04321ae3bf3215f"
     },
     {
-      "_id": "cdac140f883c8232",
+      "_id": "df76d0841f3cc8bb",
       "name": "Water Walk (R)",
       "type": "spell",
       "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
@@ -10067,7 +10172,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "cb8642ff7693f002",
+                  "target": "e6243576a55737ef",
                   "value": "1",
                   "scaling": {}
                 }
@@ -10147,7 +10252,7 @@
       }
     },
     {
-      "_id": "075c9278ed1c56c5",
+      "_id": "d3dea663b2496aa2",
       "name": "Fly",
       "type": "spell",
       "img": "icons/magic/air/wind-tornado-funnel-green.webp",
@@ -10243,7 +10348,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "cb8642ff7693f002",
+                  "target": "e6243576a55737ef",
                   "value": "1",
                   "scaling": {}
                 }
@@ -10323,7 +10428,7 @@
       }
     },
     {
-      "_id": "ce5232f5c7b6650e",
+      "_id": "3c225cabd6cd236c",
       "name": "Haste",
       "type": "spell",
       "img": "icons/magic/time/arrows-circling-green.webp",
@@ -10419,7 +10524,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "cb8642ff7693f002",
+                  "target": "e6243576a55737ef",
                   "value": "1",
                   "scaling": {}
                 }
@@ -10506,7 +10611,7 @@
       }
     },
     {
-      "_id": "177318b2c74d0402",
+      "_id": "6c4a3e0086e0c479",
       "name": "Thunderwave",
       "type": "spell",
       "img": "icons/magic/lightning/bolt-blue.webp",
@@ -10607,7 +10712,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "cb8642ff7693f002",
+                  "target": "e6243576a55737ef",
                   "value": "1",
                   "scaling": {}
                 }
@@ -10712,7 +10817,7 @@
       }
     },
     {
-      "_id": "0df1037f3ddfae24",
+      "_id": "83a29f54129d57fa",
       "name": "Afterimage",
       "type": "feat",
       "img": "icons/magic/time/arrows-circling-green.webp",
@@ -10894,7 +10999,7 @@
       "_key": "!items!598b0f0a21a7cf2c"
     },
     {
-      "_id": "b78591e7f1108c43",
+      "_id": "7cf040e0283acce5",
       "name": "Speed-Speed (Soku Soku no Mi)",
       "type": "feat",
       "img": "icons/skills/movement/feet-winged-boots-brown.webp",
@@ -11072,7 +11177,7 @@
       }
     },
     {
-      "_id": "3c56e945a0def9aa",
+      "_id": "ad2d22a96029577b",
       "name": "Jazz Style: Freight Train (Soku Soku no Mi)",
       "type": "feat",
       "img": "icons/skills/movement/arrow-upward-yellow.webp",
@@ -11155,7 +11260,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "cb8642ff7693f002",
+                  "target": "e6243576a55737ef",
                   "value": "1",
                   "scaling": {}
                 }
@@ -11260,7 +11365,7 @@
       }
     },
     {
-      "_id": "abaa43e55b8c9974",
+      "_id": "e4fc1d11d92bcbdf",
       "name": "Jazz Style: Call and Response (Soku Soku no Mi)",
       "type": "feat",
       "img": "icons/magic/time/hourglass-tilted-glowing-gold.webp",
