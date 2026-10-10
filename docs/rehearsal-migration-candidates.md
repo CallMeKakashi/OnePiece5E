@@ -50,7 +50,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 - [ ] Calder Voss (CR 10), Goru Yamashita (CR 5), Morrow (CR 7), Marine Ensign Mk III (CR 7), Mikey (CR 1) [migrate]
 - [ ] Kaen Solaris (Fighter 20, Eldritch Knight, plus an empty unfiled Kaen Solaris duplicate) [migrate once]
 - [ ] Kael (Barbarian 5, Fishman) and Vesper (Rogue 5) in Shadows/Scorpio [migrate]
-- [ ] Serica Corven and Veyl Corven (Sixfolds) [migrate]
+- [x] Serica Corven and Veyl Corven (Sixfolds) [migrate]
 - [ ] Chuckles, Giggles, Snickers, Wheeze (Circle of Clowns, empty stubs) [low priority]
 - [ ] Marine Warship (vehicle) and SeaBeast - Hermit Crab [low priority]
 - [ ] Commander Leon (CR 11), Drez Crown (CR 10), Petty Officer Marine (CR 2) in OpenSea [migrate if used]
@@ -94,7 +94,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 2. [ ] Vex (Gentle Giant Pirates)
 3. [ ] Cecilia Moore (Rogue 3 Thief, pistol skirmisher, CR about 2), Tariq Solen (15-year-old scout), Irik "Two-Tide" Fen, Saeva "Longcast" Virell (Freefield)
 4. [ ] Kaen Solaris (Omen Guardians), Vesper (Shadows/Scorpio)
-5. [ ] Veyl Corven and Serica Corven (Sixfolds)
+5. [x] Veyl Corven and Serica Corven (Sixfolds)
 6. [ ] Chuckles (Circle of Clowns)
 7. [ ] Calder Voss, Goru Yamashita, Marine Ensign (Armor Mk III), Mikey, Morrow
 8. [ ] Commander Leon (OpenSea)
@@ -118,3 +118,4 @@ Not mentioned yet, still in place: Drez Crown, Petty Officer Marine (OpenSea), A
 - **Kaen Solaris: done** (`OP5E/Guardians of Sol`, L20 / CR 20, Human Fighter 20 Samurai, HP 318, AC 19, Tough Customer, relics Icarus / Aegis of Sol / Bulwark of Sol). Art picked by the user. Next: Veyl and Serica Corven.
 - **Vesper Grimrose: done** (`OP5E/Shadows/Scorpio`, L8 / CR 5, Human Rogue 8 Assassin, HP 138, AC 15, Cheater Cheater, no Haki). Art picked by the user.
 - **Additional powers backfilled:** Tariq and Saeva got Fearsome Fortitude; see `op5e/docs/NPC-BUILDS.md`.
+- **Serica and Veyl Corven: done** (`OP5E/Sixfold`, Human L12, Serica CR 7 Barbarian 8 Cannoneer / Rogue 4 Swashbuckler, Veyl CR 6 Rogue 8 Swashbuckler / Brawler 4 Six Powers Master; HP overrides 161 and 146). Art picked by the user; Veyl's pin does not match his brief. See `op5e/docs/NPC-BUILDS.md`.

@@ -81,6 +81,14 @@ Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative a
 - [[Sixfold]]
 - [[Motley Crew]]
 - [[Veyl Corven]]
+## Foundry build (bb-rehearsal)
+
+Rebuilt from scratch on 2026-10-10 through the op5e pipeline (`op5e/dev/generate-foundry-actor/build-corven-custom.ts`, specs `serica-spec.json` and `serica-rogue-spec.json`). Live actor in `OP5E/Sixfold`.
+
+- Human, level 12, **CR 7**: Barbarian 8 (Cannoneer) / Rogue 4 (Swashbuckler), Mercenary, Role: Master at Arms. HP 161 (override; the real formula gives 117), AC 16, speed 40, scores 19/16/16/8/12/10 (Human +1/+1/+1, ASI +2 Str, Cannon Master +1 Dex).
+- Feats: Martial Adept (Mercenary), Dual Wielder (role), Cannon Master and Savage Attacker (ASI levels). Haki: Armament Novice and Apprentice, Observation Novice.
+- She carries no weapons: two Glaives and a Pistol are formed by the **Buki Buki no Mi** (7 Fruit Uses). Bang Bang = Barrage, Cannonball = Construct Cannon (each spends a use), Play with Fire = Burning Blade and Pon Pon Pon = the Pistol (at will), Snatch = homebrew (Action, 30 ft, Str save DC 16, pull and grapple, one use).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

@@ -88,6 +88,14 @@ Founding member of the [[Motley Crew]], now serving as a [[Sixfold]] operative. 
 - [[Motley Crew]]
 - [[Serica Corven]]
 - [[Linus Marrow]]
+## Foundry build (bb-rehearsal)
+
+Rebuilt from scratch on 2026-10-10 through the op5e pipeline (`op5e/dev/generate-foundry-actor/build-corven-custom.ts`, specs `veyl-spec.json` and `veyl-brawler-spec.json`). Live actor in `OP5E/Sixfold`.
+
+- Human, level 12, **CR 6**: Rogue 8 (Swashbuckler) / Brawler 4 (Six Powers Master), Acrobat, Role: Helmsman. HP 146 (override; the real formula gives 87), AC 18 (Unarmored Defense), walking speed 140 ft, scores 10/20/14/10/16/12.
+- Feats: Graceful Dexterity (Acrobat), Sentinel (role), Mobile and Alert (ASI levels). Haki: Observation Novice, Armament Novice and Apprentice. His Dagger stands in for his thumb daggers.
+- **Soku Soku no Mi** (7 Fruit Uses): Speed-Speed (homebrew effect, base walk 120 ft, plus Mobile and Unarmored Movement). Jazz Styles: Skimming the Surface = Water Walk, Upper Air = Fly, Double Time = Haste, Shadow Play = Afterimage, Rim Shot = Thunderwave (each spends a use); Freight Train (Action, 4d8 bludgeoning, Str save DC 17) and Call and Response (once per long rest) are homebrew.
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

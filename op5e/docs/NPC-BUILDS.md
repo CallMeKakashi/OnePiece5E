@@ -83,3 +83,17 @@ Same method (`actor:build` spec, `build-<slug>-custom.ts`, `import-npc.mjs --rep
 - **Vesper:** HP 138 (override, real 52), AC 15, rapier bumped to 3d8 + 4. Feats Poisoner (level 4) and Mobile (level 8), Skill Expert from Scholar (+1 Dex, Investigation, Perception expertise). Expertise Stealth, Sleight of Hand, Acrobatics, Investigation. The Scholar role's Stealth pick duplicated a Rogue skill. Her spec leaves the Haki step unresolved on purpose.
 - **Additional powers added the same day** (every non-fruit NPC needs one): Tariq and Saeva got Fearsome Fortitude, Kaen Tough Customer, Vesper Cheater Cheater. Chosen options must meet the prerequisites in `data/src/class-features/additional/*.ts` (Iron Fury needs Barbarian 10, Sharp Focus Marksman 10, Plan B Gadgeteer, Full Body Armament level 14 and Armament Adept).
 - **Campaign items:** the relics plus Facade's Reinforced Cyborg Shell and Soefra's Stained-Glass Gown are in `data/src/campaign-items/npc-items.json`.
+
+## Serica and Veyl Corven (2026-10-10)
+
+Same method; one script builds both (`build-corven-custom.ts`), specs `serica-spec.json`, `serica-rogue-spec.json`, `veyl-spec.json`, `veyl-brawler-spec.json`. Both are level 12 Humans with a Paramecia fruit, so no additional power. The builder empties legacy `damage.parts` that hold `@scale` (Brawler Unarmed Strike was refused on import until it did).
+
+| NPC | Build | CR | HP | AC |
+|---|---|---|---|---|
+| Serica Corven | Barbarian 8 Cannoneer / Rogue 4 Swashbuckler, Mercenary, Master at Arms, Buki Buki no Mi | 7 | 161 (override, real 117) | 16 |
+| Veyl Corven | Rogue 8 Swashbuckler / Brawler 4 Six Powers Master, Acrobat, Helmsman, Soku Soku no Mi | 6 | 146 (override, real 87) | 18 |
+
+- **Fruit powers** map to compendium creations and features (Barrage, Construct Cannon, Burning Blade, Pistol; Water Walk, Fly, Haste, Thunderwave, Afterimage) spending one Devil Fruit Use of 7; Pon Pon Pon and Play with Fire are at will. Homebrew: Snatch, Freight Train, Call and Response, Speed-Speed (effect adds 90 ft, so live walk speed is 140 with Mobile and Unarmored Movement).
+- No Dual Wielder +1 AC is applied automatically (Serica shows 16, 17 while holding two weapons).
+- Veyl's Insight (Helmsman) duplicated his Brawler pick, so Brawler took Intimidation. Not played in a real fight.
+

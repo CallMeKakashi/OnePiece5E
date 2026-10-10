@@ -1,0 +1,95 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "raceIdentifier": "human",
+  "backgroundSlug": "Acrobat",
+  "roleSlug": "helmsman",
+  "powerFork": "neither",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "cr": 8,
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "choices": [
+    {
+      "stepId": "528e06bbb8b58a19",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:acr",
+        "skills:ath"
+      ]
+    },
+    {
+      "stepId": "8e1ef16ee79734e0",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.85c7e20adf206126"
+      ]
+    },
+    {
+      "stepId": "072b095fdf6d6261",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.626f152717a27ccf"
+      ]
+    },
+    {
+      "stepId": "0aaed0da7a5b68a6",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:itm",
+        "skills:sur"
+      ]
+    },
+    {
+      "stepId": "083500b7e8a198d3",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.41ff5b4ee1c267bf"
+      ]
+    },
+    {
+      "stepId": "67cc20a23845a043",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.097494380fd03456"
+      ]
+    },
+    {
+      "stepId": "0c1b0b019befb7c8",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "skills:slt",
+        "skills:ins"
+      ]
+    },
+    {
+      "stepId": "a8f4fb4505e383eb",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.df9923859fb8fc09"
+      ]
+    }
+  ],
+  "name": "Veyl Corven (brawler part)",
+  "classIdentifier": "brawler",
+  "subclassIdentifier": "six-powers-master",
+  "level": 4
+}
