@@ -11,8 +11,8 @@ import type { FeatureItem } from "../../data/schemas/feature.js";
 
 type Doc = { _id: string; name?: string; type?: string; system: Record<string, any> } & Record<string, any>;
 const ACTORS = "../Foundry/actors-json";
-const PORTRAIT = "one-piece-5e/npcs/Sand Rats/cecillia-moore.png"; // existing campaign art (filename spelling as on disk)
-const TOKEN = "one-piece-5e/npcs/Sand Rats/cicilia-moore-token.png";
+const PORTRAIT = "one-piece-5e/npcs/Sand Rats/cecilia-new.jpg";
+const TOKEN = "one-piece-5e/npcs/Sand Rats/cecilia-new-token.png";
 const chassis = JSON.parse(readFileSync(`${ACTORS}/cecilia-chassis.json`, "utf-8"));
 const rogue = JSON.parse(readFileSync(`${ACTORS}/cecilia-rogue-part.json`, "utf-8"));
 const pack = (p: string, name: string): Doc => {
