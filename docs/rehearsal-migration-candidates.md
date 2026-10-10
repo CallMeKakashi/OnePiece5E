@@ -83,3 +83,22 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 - Fenris exists three times, Kaen Solaris twice, Riding Horse three times, Guard twice.
 - Two stray folders with a slash in the name: "Mounts/Summons" and "Summons/Mounts" (not mine).
 - Four "[Fight]" actors left from the Oct 8 fight test.
+
+## Decisions so far (2026-10-10) and rebuild queue
+
+**Moved already (bb-rehearsal):** `Dead/Aegir` (3), `System/DDB Imports` (4), `System/Imported` (7), `Dead/Decibella` (Riff Sin, Sephra Anthem and the 14 others), `Dead/Freefield` (Joe Mitchblade, Maro, Rashid, Rolan, Sharkfin Pirate), `Dead/Gentle Giant Pirates` (Fenris x3 with the Transformation folder, Homunculus Servant, Kalla, Malak Samum, Shako), `Dead/NPC` (Kael of Scorpio, Giggles, Snickers, Wheeze, three Riding Horses).
+
+**Rebuild queue (every choice asked, one at a time):**
+
+1. [ ] Khael Dhamar: L8 / CR 5, Fighter 5 (Champion) / Rogue 3 (Thief). Spec choices done, custom builder in progress. Dual Wielder at the level 4 ASI, Multiple Weapon Style, Armament Novice.
+2. [ ] Vex (Gentle Giant Pirates)
+3. [ ] Cecilia Moore (Rogue 3 Thief, pistol skirmisher, CR about 2), Tariq Solen (15-year-old scout), Irik "Two-Tide" Fen, Saeva "Longcast" Virell (Freefield)
+4. [ ] Kaen Solaris (Omen Guardians), Vesper (Shadows/Scorpio)
+5. [ ] Veyl Corven and Serica Corven (Sixfolds)
+6. [ ] Chuckles (Circle of Clowns)
+7. [ ] Calder Voss, Goru Yamashita, Marine Ensign (Armor Mk III), Mikey, Morrow
+8. [ ] Commander Leon (OpenSea)
+9. [ ] SeaBeast - Hermit Crab (NPC/Monsters)
+10. [ ] Marine Warship, rebuilt as a ship actor, not an NPC
+
+Not mentioned yet, still in place: Drez Crown, Petty Officer Marine (OpenSea), Alice, Jazmine, Cassian Valehart, Merlin, Pegasus (Archived root), the old Façade (Archived/Gentle Giant Pirates), Beiro and the rest.
