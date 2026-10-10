@@ -1,7 +1,7 @@
 // Lady Soefra Anthem: Human Bard 11 (College of Bewitchment), Entertainer, Musician, Heart Strings (no Devil Fruit), CR 9. Built 2026-10-10.
 // Chassis comes from the real pipeline (specs/soefra-spec.json). Custom: creations, Heart Strings, Lucky, gown AC, and a CR balance feature.
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
-import { refreshFromPacks, standaloneSummons } from "./refresh-from-packs.js";
+import { refreshFromPacks, standaloneSummons, limitedUse } from "./refresh-from-packs.js";
 import { embedOwnedItem } from "./compendium-resolver.js";
 import { ensureFeatureActivities, ensureItemActivities } from "../../data/helpers/activities.js";
 import { generateId } from "../../data/helpers/id.js";
@@ -115,6 +115,7 @@ actor.img = PORTRAIT;
 actor.prototypeToken = { ...(actor.prototypeToken ?? {}), texture: { ...(actor.prototypeToken?.texture ?? {}), src: TOKEN } };
 
 const refreshed = refreshFromPacks(actor.items);
+{ const l = actor.items.find((i: any) => i.name === "Lucky"); if (l) limitedUse(l, { max: "3", per: "lr", condition: "when you make an attack roll, ability check or saving throw, or an attack is made against you" }); } // 3 luck points
 console.log(`Refreshed ${refreshed.refreshed.length} Soefra items; unmatched: ${refreshed.unmatched.join(", ") || "none"}`);
 // ---- 8. Activity fixes (after refresh so they stick): healing formulas, utility types
 const acts = (n: string) => Object.values(actor.items.find((i) => i.name === n)!.system.activities ?? {}) as Doc[];

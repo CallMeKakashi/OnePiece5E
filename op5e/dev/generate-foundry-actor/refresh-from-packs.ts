@@ -1,6 +1,7 @@
 // The actor pipeline embeds the raw data/src features, which have no automation. The built packs (packs-src/*, after data/src/automation) do:
 // activities, effects, uses. This copies that automation onto the actor's own copy of every feature that matches a pack entry by name AND description
 // (names alone collide: Unarmored Defense exists for two classes). _ids on the actor item stay as they are.
+import { ensureFeatureActivities } from "../../data/helpers/activities.js";
 import { readFileSync, readdirSync, writeFileSync, existsSync } from "node:fs";
 type Doc = Record<string, any>;
 const PACKS = ["class-features", "feats", "racial-features", "subclasses"];
@@ -64,4 +65,15 @@ export function wireSpirit(items: Doc[]): string[] {
     done.push(it.name);
   }
   return done;
+}
+
+/** A text-only feature with a limited-use resource ("3 luck points", "Con modifier times, long rest"): gives it item uses, long/short-rest recovery and a
+ *  utility activity that spends one use. Built through ensureFeatureActivities so the schema is the real one. */
+export function limitedUse(it: Doc, o: { max: string; per: "sr" | "lr"; type?: string; condition?: string }): void {
+  it.system.activation = { type: o.type ?? "special", cost: 1, condition: o.condition ?? "" };
+  it.system.uses = { value: null, max: o.max, per: o.per, recovery: "", prompt: true };
+  it.system.actionType = "util";
+  const built: Doc = ensureFeatureActivities(structuredClone(it) as never) as never;
+  it.system.activities = built.system.activities;
+  it.system.uses = { value: null, max: o.max, per: null, recovery: [{ period: o.per, type: "recoverAll" }], prompt: true };
 }

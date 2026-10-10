@@ -3,7 +3,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { embedOwnedItem } from "./compendium-resolver.js";
 import { generateId } from "../../data/helpers/id.js";
-import { refreshFromPacks } from "./refresh-from-packs.js";
+import { refreshFromPacks, limitedUse } from "./refresh-from-packs.js";
 
 type Doc = { _id: string; name?: string; type?: string; system: Record<string, any> } & Record<string, any>;
 import { ensureFeatureActivities } from "../../data/helpers/activities.js";
@@ -29,6 +29,7 @@ for (const id of ["4eea1b8aa9ac99ab", "83ba322751ee4f40", "2003c84be4cdc61f", "f
 const cal = embed("items", "6f4b655fdf8c31e0"); cal.system.proficient = 1; items.push(cal);
 
 const auto = refreshFromPacks(items);
+{ const u = items.find((i) => i.name === "Undying Devotion"); if (u) limitedUse(u, { max: "@abilities.con.mod", per: "lr", type: "special", condition: "reduced to 0 hit points but not killed outright" }); } // Con modifier uses, long rest
 console.log(`automation copied onto ${auto.refreshed.length} features; no pack match for: ${auto.unmatched.join(", ") || "none"}`);
 
 for (const i of items) if (["Chain Mail", "Shield", "Longsword"].includes(i.name ?? "") && i.system) i.system.equipped = true;
