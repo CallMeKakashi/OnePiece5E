@@ -97,4 +97,4 @@ traits:
 
 ## Foundry build
 
-Mikey and Morrow are one actor ("Mikey", `OP5E/Driftroot` in `bb-rehearsal`): a Medium CR 1 beast, AC 13, HP 32. The Transformation: Morrow item (bonus action, 1 minute) unlocks Feral Frenzy, Morrow Claw and Bite, Rend and Spiked Hide. Build notes in `op5e/docs/NPC-BUILDS.md`.
+Two actors in `OP5E/Driftroot` of `bb-rehearsal`: **Mikey** (Medium CR 1 beast, AC 13, HP 32) and **Morrow (Mikey transformed)** (Large CR 3, AC 14, HP 60, Feral Frenzy, Rend, Spiked Hide). Mikey's Transformation: Morrow (bonus action, 1 minute) swaps sheet and token. Build notes in `op5e/docs/NPC-BUILDS.md`.

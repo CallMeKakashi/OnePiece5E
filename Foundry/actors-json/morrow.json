@@ -1,11 +1,12 @@
 {
-  "name": "Mikey",
+  "_id": "2c7ddf7f0cf7ced4",
+  "name": "Morrow (Mikey transformed)",
   "type": "npc",
-  "img": "one-piece-5e/npcs/Driftroot Isle/mikey-new.jpg",
+  "img": "one-piece-5e/npcs/Driftroot Isle/morrow-new.jpg",
   "system": {
     "abilities": {
       "str": {
-        "value": 14,
+        "value": 18,
         "proficient": 0
       },
       "dex": {
@@ -13,7 +14,7 @@
         "proficient": 0
       },
       "con": {
-        "value": 14,
+        "value": 16,
         "proficient": 0
       },
       "int": {
@@ -25,7 +26,7 @@
         "proficient": 0
       },
       "cha": {
-        "value": 10,
+        "value": 6,
         "proficient": 0
       }
     },
@@ -33,14 +34,14 @@
       "prof": 2,
       "ac": {
         "calc": "flat",
-        "flat": 13
+        "flat": 14
       },
       "hp": {
-        "value": 32,
-        "max": 32,
+        "value": 60,
+        "max": 60,
         "temp": 0,
         "tempmax": 0,
-        "formula": "5d10 + 5"
+        "formula": "8d10 + 16"
       },
       "movement": {
         "walk": 40,
@@ -54,23 +55,23 @@
       }
     },
     "details": {
-      "cr": 1,
+      "cr": 3,
       "type": {
         "value": "beast",
-        "subtype": "dog"
+        "subtype": "dog, transformed"
       },
       "alignment": "unaligned",
       "source": {
         "book": "Blood & Brine homebrew",
-        "custom": "Mikey"
+        "custom": "Morrow"
       },
       "biography": {
-        "value": "<p>Mikey was the Valencruz boys' dog. When he fell gravely ill, their father had him 'fixed' in the Silk Court (Laziel's experiments) and he came back emotionless and obedient. Nyx renamed him <strong>Morrow</strong>. Mikey is the dog; Transformation: Morrow turns him into the Morrow actor (Large, CR 3, spiked). Hired escort Jack keeps him on a spiked leash.</p><p><strong>Balance note (CR 1):</strong> HP 32, AC 13 as on the live sheet (below the DMG CR 1 HP band 71-85 on purpose: a pet, not a boss).</p>",
+        "value": "<p>Transform target for Mikey (Transformation: Morrow). Larger, stronger and spiked; emotionless and obedient.</p>",
         "public": ""
       }
     },
     "traits": {
-      "size": "med",
+      "size": "lg",
       "languages": {
         "value": [],
         "custom": ""
@@ -84,24 +85,24 @@
     }
   },
   "prototypeToken": {
-    "name": "Mikey",
+    "name": "Morrow",
     "texture": {
-      "src": "one-piece-5e/npcs/Driftroot Isle/mikey-new-token.png"
+      "src": "one-piece-5e/npcs/Driftroot Isle/morrow-new-token.png"
     },
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "actorLink": false,
     "disposition": 0
   },
   "items": [
     {
-      "_id": "156a19f103e95eef",
-      "name": "Keen Hearing and Smell",
+      "_id": "f1a74c7c778ff12f",
+      "name": "Feral Frenzy",
       "type": "feat",
-      "img": "icons/creatures/mammals/wolf-howl-moon-gray.webp",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
       "system": {
         "description": {
-          "value": "<p>Mikey has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>",
+          "value": "<p>Multiattack. Morrow makes two claw attacks and one bite attack each turn.</p>",
           "chat": ""
         },
         "source": {
@@ -116,9 +117,9 @@
         },
         "requirements": "",
         "activation": {
-          "type": "special",
-          "cost": null,
-          "condition": "Passive"
+          "type": "action",
+          "cost": 1,
+          "condition": ""
         },
         "duration": {
           "value": null,
@@ -161,12 +162,12 @@
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "utility",
-            "name": "Keen Hearing and Smell",
+            "name": "Feral Frenzy",
             "sort": 0,
             "activation": {
-              "type": "special",
-              "value": null,
-              "condition": "Passive",
+              "type": "action",
+              "value": 1,
+              "condition": "",
               "override": false
             },
             "consumption": {
@@ -246,164 +247,13 @@
       }
     },
     {
-      "_id": "af95c3d0a9e19429",
-      "name": "Loyal Companion",
+      "_id": "8a121e41ca6cb436",
+      "name": "Morrow Claw",
       "type": "feat",
-      "img": "icons/magic/life/heart-cross-strong-flame-green.webp",
+      "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
       "system": {
         "description": {
-          "value": "<p>Mikey has advantage on saving throws while within 30 feet of a bonded ally (Goru or Nyx).</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "Blood & Brine homebrew",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "activation": {
-          "type": "special",
-          "cost": null,
-          "condition": "Passive"
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": null,
-          "units": "ft"
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "per": null,
-          "recovery": "",
-          "prompt": true
-        },
-        "actionType": "",
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "chatFlavor": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "utility",
-            "name": "Loyal Companion",
-            "sort": 0,
-            "activation": {
-              "type": "special",
-              "value": null,
-              "condition": "Passive",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": null,
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": 5,
-              "units": "ft",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "roll": {
-              "formula": "",
-              "name": "",
-              "prompt": false,
-              "visible": false
-            }
-          }
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "b18811e0fdb32f9e",
-      "name": "Bite",
-      "type": "feat",
-      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
-      "system": {
-        "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 2d6 + 2 piercing damage. This is Mikey's only attack; in Morrow form use Morrow Bite and Morrow Claw instead.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 1d8 + 4 slashing damage.</p>",
           "chat": ""
         },
         "source": {
@@ -448,7 +298,182 @@
         "damage": {
           "parts": [
             [
-              "2d6 + 2",
+              "1d8 + 4",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "name": "Morrow Claw",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": null,
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 5,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "critical": {
+                "allow": true,
+                "bonus": ""
+              },
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "4",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "e5c8f8fa635af33d",
+      "name": "Morrow Bite",
+      "type": "feat",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 2d6 + 4 piercing damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Blood & Brine homebrew",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "mwak",
+        "damage": {
+          "parts": [
+            [
+              "2d6 + 4",
               "piercing"
             ]
           ],
@@ -468,7 +493,7 @@
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "name": "Bite",
+            "name": "Morrow Bite",
             "sort": 0,
             "activation": {
               "type": "action",
@@ -534,7 +559,7 @@
                 {
                   "number": 2,
                   "denomination": 6,
-                  "bonus": "2",
+                  "bonus": "4",
                   "types": [
                     "piercing"
                   ],
@@ -572,13 +597,13 @@
       }
     },
     {
-      "_id": "26752d5a9504338e",
-      "name": "Transformation: Morrow",
+      "_id": "b841c57ecc058e31",
+      "name": "Rend",
       "type": "feat",
-      "img": "one-piece-5e/npcs/Driftroot Isle/morrow-new.jpg",
+      "img": "icons/skills/wounds/blood-cells-vessel-red.webp",
       "system": {
         "description": {
-          "value": "<p>Bonus action. Mikey becomes <strong>Morrow</strong> for 1 minute (once per short or long rest): larger, stronger, emotionless, obedient, spiked. His sheet and token change to the Morrow actor (Large, AC 14, HP 60). Use Revert Original Form on the sheet to end it early; at 0 hit points he drops back to Mikey.</p>",
+          "value": "<p>If both Morrow Claw attacks hit the same target in one turn, that target takes an extra 2d6 slashing damage.</p>",
           "chat": ""
         },
         "source": {
@@ -593,13 +618,13 @@
         },
         "requirements": "",
         "activation": {
-          "type": "bonus",
-          "cost": 1,
-          "condition": ""
+          "type": "special",
+          "cost": null,
+          "condition": "Both claws hit the same target"
         },
         "duration": {
-          "value": 1,
-          "units": "minute"
+          "value": null,
+          "units": ""
         },
         "target": {
           "value": null,
@@ -608,19 +633,25 @@
           "type": ""
         },
         "range": {
-          "value": null,
-          "units": "self"
+          "value": 5,
+          "long": null,
+          "units": "ft"
         },
         "uses": {
-          "value": 1,
-          "max": "1",
-          "per": "sr",
+          "value": null,
+          "max": "",
+          "per": null,
           "recovery": "",
           "prompt": true
         },
-        "actionType": "util",
+        "actionType": "other",
         "damage": {
-          "parts": [],
+          "parts": [
+            [
+              "2d6",
+              "slashing"
+            ]
+          ],
           "versatile": ""
         },
         "save": {
@@ -634,49 +665,39 @@
           "charged": false
         },
         "activities": {
-          "49b1dff54cd34244": {
-            "_id": "49b1dff54cd34244",
-            "type": "transform",
-            "name": "Transform into Morrow",
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "damage",
+            "name": "Rend",
             "sort": 0,
             "activation": {
-              "type": "bonus",
-              "value": 1,
-              "condition": "",
+              "type": "special",
+              "value": null,
+              "condition": "Both claws hit the same target",
               "override": false
             },
             "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "target": "",
-                  "value": "1",
-                  "scaling": {
-                    "mode": "",
-                    "formula": ""
-                  }
-                }
-              ],
+              "targets": [],
               "scaling": {
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": false
+              "spellSlot": true
             },
             "description": {
               "chatFlavor": ""
             },
             "duration": {
               "concentration": false,
-              "value": "1",
-              "units": "minute",
+              "value": null,
+              "units": "inst",
               "special": "",
-              "override": true
+              "override": false
             },
             "effects": [],
             "range": {
-              "value": null,
-              "units": "self",
+              "value": 5,
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -702,53 +723,207 @@
             "uses": {
               "spent": 0,
               "max": "",
-              "recovery": [
+              "recovery": []
+            },
+            "damage": {
+              "critical": {
+                "allow": false,
+                "bonus": ""
+              },
+              "parts": [
                 {
-                  "period": "shortRest",
-                  "type": "recoverAll"
+                  "number": 2,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
                 }
               ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "62feb52f8e1612a6",
+      "name": "Spiked Hide",
+      "type": "feat",
+      "img": "icons/commodities/biological/spikes-white.webp",
+      "system": {
+        "description": {
+          "value": "<p>A creature that hits Morrow with a melee attack takes 1d4 piercing damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Blood & Brine homebrew",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activation": {
+          "type": "special",
+          "cost": null,
+          "condition": "Hit by a melee attack"
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "other",
+        "damage": {
+          "parts": [
+            [
+              "1d4",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "damage",
+            "name": "Spiked Hide",
+            "sort": 0,
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": "Hit by a melee attack",
+              "override": false
             },
-            "roll": {
-              "formula": "",
-              "name": "",
-              "prompt": false,
-              "visible": false
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
             },
-            "profiles": [
-              {
-                "_id": "6f825910fe67797e",
-                "name": "Morrow",
-                "uuid": "Actor.2c7ddf7f0cf7ced4",
-                "cr": "",
-                "level": {
-                  "min": null,
-                  "max": null
-                },
-                "movement": [],
-                "sizes": [],
-                "types": [],
-                "count": null
-              }
-            ],
-            "transform": {
-              "customize": true,
-              "identifier": "",
-              "mode": "cr",
-              "preset": ""
+            "description": {
+              "chatFlavor": ""
             },
-            "settings": {
-              "keep": [
-                "bio"
-              ],
-              "merge": [],
-              "effects": [],
-              "other": [],
-              "preset": null,
-              "spellLists": [],
-              "tempFormula": "",
-              "transformTokens": true,
-              "minimumAC": ""
+            "duration": {
+              "concentration": false,
+              "value": null,
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 5,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "critical": {
+                "allow": false,
+                "bonus": ""
+              },
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 4,
+                  "bonus": "",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
             }
           }
         }

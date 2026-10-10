@@ -137,7 +137,7 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 
 ## Mikey / Morrow (2026-10-10)
 
-`build-mikey-custom.ts` (monster-style, no class build, same pattern as Kanto). One actor, one token: Medium beast, CR 1, AC 13, HP 32, speed 40, darkvision 60, scores 14/16/14/6/12/10 (live-sheet values). Mikey form: Keen Hearing and Smell, Loyal Companion, Bite (2d6 + 2). Transformation: Morrow (bonus action, 1 minute, once per short rest, tracked by hand) unlocks Feral Frenzy, Morrow Claw (1d8 + 2), Morrow Bite (2d6 + 2), Rend (extra 2d6) and Spiked Hide (1d4). Live in `OP5E/Driftroot`.
+`build-mikey-custom.ts` (monster-style, no class build, same pattern as Kanto) writes two actors, imported with `--keep-id` into `OP5E/Driftroot`. **Mikey**: Medium beast, CR 1, AC 13, HP 32, speed 40, scores 14/16/14/6/12/10 (live sheet); Keen Hearing and Smell, Loyal Companion, Bite (2d6 + 2). **Transformation: Morrow** (bonus action, 1 minute, once per short rest) is a real dnd5e transform activity pointing at **Morrow (Mikey transformed)**: Large, CR 3, AC 14, HP 60, STR 18, with Feral Frenzy, Morrow Claw (1d8 + 4), Morrow Bite (2d6 + 4), Rend (extra 2d6) and Spiked Hide (1d4). Verified headless: the polymorph form has Morrow's sheet, Large size, 2x2 Morrow token and 60 HP, and revert restores Mikey.
 
-- The monsters pack has no dog, and the user chose the Panther-base option, but the build is hand-authored homebrew feats like Kanto (no Panther copy). HP 32 is below the CR 1 band on purpose (a pet). Not played in a real fight.
-- Art: Mikey pin for portrait and token, Morrow pin as the icon of the Transformation item (logged in `docs/art-credits.md`).
+- The monsters pack has no dog; the traits are hand-authored homebrew feats (no Panther copy). Mikey's HP is below the CR 1 band on purpose (a pet). Not played in a real fight.
+- Art: Mikey pin for portrait and token; Morrow pin for his portrait and a head crop as his token (logged in `docs/art-credits.md`).
