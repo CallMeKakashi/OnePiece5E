@@ -112,3 +112,5 @@ Not mentioned yet, still in place: Drez Crown, Petty Officer Marine (OpenSea), A
 
 - **Vex: done.** No official monkey exists in the sourcebook (only the Mink racial feat Intuitive Primate and the Titan Ape), so he is the 2014 SRD Baboon from the dnd5e compendium (`dnd5e.monsters`), renamed, unchanged stats (CR 0, 3 HP, Pack Tactics, Bite), filed in `OP5E/Blackhand` with his existing portrait. Art for him is pending.
 - **Cecilia Moore: done** (`OP5E/Sand Rats`, L8 / CR 4, Marksman 5 Bounty Hunter / Rogue 3 Thief, HP 123, AC 15, DC 13). Art pending. Next: Tariq Solen, Irik Fen, Saeva Virell.
+- **Tariq Solen: done** (`OP5E/Sand Rats`, L5 / CR 3, Human Marksman 5 Sniper, Wanderer, HP 72, longbow). No art found, default image in use. Next: Irik Fen, Saeva Virell.
+- **Irik Fen: done** (`OP5E/Sharkfin Pirates`, L8 / CR 5, Human Rogue 8 Fencer, Navigator, HP 123, AC 16, Dex 20). Dabu Dabu no Mi from the compendium fruit item, with Test Subject (Clone summon, his Double), Mirror Image, Misty Step and Bait and Switch. Art done (pin picked by the user). Next: Saeva Virell.

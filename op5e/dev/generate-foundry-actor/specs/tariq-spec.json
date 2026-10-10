@@ -1,0 +1,110 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "raceIdentifier": "human",
+  "backgroundSlug": "Wanderer",
+  "powerFork": "neither",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "cr": 3,
+  "abilities": {
+    "str": 8,
+    "dex": 18,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "name": "Tariq Solen",
+  "classIdentifier": "marksman",
+  "subclassIdentifier": "sniper",
+  "level": 5,
+  "choices": [
+    {
+      "stepId": "68982ca9e2279ae9",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:prc",
+        "skills:sur"
+      ]
+    },
+    {
+      "stepId": "26a348293e700dea",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "tool:game:*"
+      ]
+    },
+    {
+      "stepId": "93abbf57c6c3a189",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.2ee3316f53e6323d"
+      ]
+    },
+    {
+      "stepId": "bc03aaf1b8afd5c0",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.626f152717a27ccf"
+      ]
+    },
+    {
+      "stepId": "a893e6768294bd5c",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.722fba4bbad273b7"
+      ]
+    },
+    {
+      "stepId": "bdb4984473ad6c5a",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.7842a68fdf0a1f76"
+      ]
+    },
+    {
+      "stepId": "465ccc3ad4943b3d",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.d4ab115668d21de8"
+      ]
+    },
+    {
+      "stepId": "e89c136d8823dbe9",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:ste",
+        "skills:nat"
+      ]
+    },
+    {
+      "stepId": "f07e89916a26550e",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.dd49b871d5f625a6"
+      ]
+    },
+    {
+      "stepId": "4b7e083ffafa7956",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.097494380fd03456"
+      ]
+    }
+  ],
+  "biography": "<p>Tariq Solen, a 15-year-old scout of the Sand Rats: a lean wanderer with a longbow, quick eyes and a guarded calm.</p>"
+}

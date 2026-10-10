@@ -1,0 +1,155 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "raceIdentifier": "human",
+  "backgroundSlug": "Navigator",
+  "roleSlug": "navigator",
+  "powerFork": "neither",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "cr": 5,
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 14,
+    "int": 12,
+    "wis": 12,
+    "cha": 10
+  },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "name": "Irik Fen",
+  "classIdentifier": "rogue",
+  "subclassIdentifier": "fencer",
+  "level": 8,
+  "choices": [
+    {
+      "stepId": "97436fc852825891",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.items.b492ec2db1276f34"
+      ]
+    },
+    {
+      "stepId": "d438f6e53bace53b",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:inv",
+        "skills:sur"
+      ]
+    },
+    {
+      "stepId": "3ecbcc7983678335",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "tool:navg"
+      ]
+    },
+    {
+      "stepId": "47eabcf111b3b2d1",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.f5c4922bd5693b71"
+      ]
+    },
+    {
+      "stepId": "fbeb73bc78d6767e",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.42c76b2a6b6bc431"
+      ]
+    },
+    {
+      "stepId": "75cd78494e511e6d",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.a586e9bf60053f77"
+      ]
+    },
+    {
+      "stepId": "0f87656404bdc6cf",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.7842a68fdf0a1f76"
+      ]
+    },
+    {
+      "stepId": "3a45815647a71bd3",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:ste",
+        "skills:acr",
+        "skills:prc",
+        "skills:dec"
+      ]
+    },
+    {
+      "stepId": "616fe9df8c9a6381",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:ste",
+        "skills:acr"
+      ]
+    },
+    {
+      "stepId": "e7954ef78f428c47",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.c1888ef70e5461bd"
+      ]
+    },
+    {
+      "stepId": "332f37d5177186c6",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.097494380fd03456"
+      ]
+    },
+    {
+      "stepId": "6d0654c88f4cf57e",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "skills:nat"
+      ]
+    },
+    {
+      "stepId": "e9ed18c83de20730",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.477449be3105115c"
+      ]
+    },
+    {
+      "stepId": "5012b0b012ca9554",
+      "level": 6,
+      "source": "class",
+      "uuids": [
+        "skills:prc",
+        "skills:dec"
+      ]
+    },
+    {
+      "stepId": "3fcae5622854d423",
+      "level": 8,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.96dcda2a40ae256f"
+      ]
+    }
+  ],
+  "biography": "<p>Irik \"Two-Tide\" Fen, former navigator of the Sharkfin Pirates, now in the service of another pirate after the party killed his captain. Eater of the Dabu Dabu no Mi.</p>"
+}
