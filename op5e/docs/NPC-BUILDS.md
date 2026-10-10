@@ -97,3 +97,14 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 - No Dual Wielder +1 AC is applied automatically (Serica shows 16, 17 while holding two weapons).
 - Veyl's Insight (Helmsman) duplicated his Brawler pick, so Brawler took Intimidation. Not played in a real fight.
 
+
+## Chuckles (2026-10-10)
+
+`build-chuckles-custom.ts`, spec `chuckles-spec.json`. Human Brawler 5 (Sumo Wrestler), Entertainer, Deckhand, no fruit, additional power Armorless Guardian. Scores 19/10/16/8/12/14 (16/10/15/8/12/13 base, Human +1 Str/Con/Cha, level 4 +2 Str). Skills: Acrobatics, Performance, Athletics (expertise from Sumo Stance), Survival, Animal Handling, Perception. Greatclub, Painter's Supplies, Disguise Kit; Performer and Underdog feats.
+
+| NPC | CR | HP | AC |
+|---|---|---|---|
+| Chuckles | 3 | 78 (override, real 43) | 16 (Sumo Stance: 10 + Str + Wis, +1 Duck and Dodge) |
+
+- Live in `OP5E/Circle of Clowns` with the existing `Circus Ring/Chuckles-d-clown.png` token; the old CR 1 stub was replaced. The pipeline embedded the Deckhand role twice; the builder dedupes it.
+- The Unarmored Defense effect is rewritten to a custom AC formula so Strength replaces Dexterity. Not played in a real fight.

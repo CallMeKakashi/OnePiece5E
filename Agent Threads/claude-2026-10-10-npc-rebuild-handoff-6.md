@@ -33,6 +33,6 @@ Continues [handoff 5](claude-2026-10-10-npc-rebuild-handoff-5.md); read handoffs
 
 ## Suggested skills
 
-- `level-up-npc` and `generate-foundry-actor` for the next NPC, but follow the handoff workflow (op5e pipeline, AskUserQuestion for every choice, Sourcebook strict)
+- `generate-foundry-actor` for the next NPC (NOT `level-up-npc`, removed), and follow the handoff workflow (op5e pipeline, AskUserQuestion for every choice, Sourcebook strict)
 - `ponytail` for minimal builder scripts, `diagnosing-bugs` if an import silently drops an item
 - `handoff` for the next handoff (save in `Agent Threads/`, commit with `git add -f`)

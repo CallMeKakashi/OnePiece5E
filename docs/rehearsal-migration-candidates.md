@@ -95,7 +95,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 3. [ ] Cecilia Moore (Rogue 3 Thief, pistol skirmisher, CR about 2), Tariq Solen (15-year-old scout), Irik "Two-Tide" Fen, Saeva "Longcast" Virell (Freefield)
 4. [ ] Kaen Solaris (Omen Guardians), Vesper (Shadows/Scorpio)
 5. [x] Veyl Corven and Serica Corven (Sixfolds)
-6. [ ] Chuckles (Circle of Clowns)
+6. [x] Chuckles (Circle of Clowns)
 7. [ ] Calder Voss, Goru Yamashita, Marine Ensign (Armor Mk III), Mikey, Morrow
 8. [ ] Commander Leon (OpenSea)
 9. [ ] SeaBeast - Hermit Crab (NPC/Monsters)

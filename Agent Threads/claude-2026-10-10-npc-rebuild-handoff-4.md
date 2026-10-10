@@ -24,6 +24,6 @@ Activity details (dice, DCs) were checked from JSON, not by rolling in Foundry. 
 
 ## Suggested skills
 
-- `level-up-npc` and `generate-foundry-actor` for each queued NPC
+- `generate-foundry-actor` (level-up-npc was deleted as obsolete) for each queued NPC
 - `ponytail` (minimal builder scripts)
 - `handoff` (next handoff), `diagnosing-bugs` if an import silently drops an item

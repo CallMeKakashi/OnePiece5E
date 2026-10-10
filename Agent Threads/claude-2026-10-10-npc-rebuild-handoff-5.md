@@ -20,6 +20,6 @@ Continues [handoff 4](claude-2026-10-10-npc-rebuild-handoff-4.md). Next NPC: **V
 - `package-lock.json` still says 0.2.11 (harmless for `npm ci`).
 
 ## Suggested skills
-- `level-up-npc` and `generate-foundry-actor` for each queued NPC; ask every choice with AskUserQuestion and check options against the Sourcebook first
+- `generate-foundry-actor` (level-up-npc was deleted as obsolete) for each queued NPC; ask every choice with AskUserQuestion and check options against the Sourcebook first
 - `ponytail` for minimal builder scripts, `diagnosing-bugs` if an import silently drops an item
 - `handoff` for the next handoff (the user wants it in `Agent Threads/`, committed, with `git add -f`)
