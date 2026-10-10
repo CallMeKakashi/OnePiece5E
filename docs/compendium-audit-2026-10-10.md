@@ -1,5 +1,80 @@
 # Compendium automation audit (2026-10-10)
 
+## Outcome
+
+The first pass (10 agents, 1,938 items, 462 flags) had two extractor blind spots: it did not show that an effect applies to a target (`transfer: false`) or is a manual toggle (`disabled: true`), and it read recovery from the wrong field. A second pass re-checked all 449 flagged items against corrected data and wrote fixes for the real ones.
+
+- Verdicts on 449 items: 197 false-positive, 195 fixed, 33 skipped, 24 needs-code.
+- High-severity fixes: `op5e/data/src/automation/audit-fixes.ts`. Other fixes: `audit-fixes-0.ts` to `audit-fixes-4.ts`. Build-time wiring of spirit, superiority-die, grit and Bardic Inspiration costs and seven empty save DCs: `op5e/data/helpers/audit-wiring.ts`.
+- Guesses to check in play: effect keys copied from existing patterns (`flags.midi-qol.*`, `system.attributes.ac.min`, `@attributes.hd.largestFace`), Relentless Rage uses an invented maximum of 20 so its DC can escalate, Rallying Presence is split into 5-hit-point chunks, Palm Strikes, Swarming Cluster and Doctor Death use the Wisdom-based creation or Spirit DC.
+
+## Needs code (not fixed)
+
+- **Slippery Devil** (`class-features/1a034aa225d5f767.json`): Two items share the name (Rogue 6th Swashbuckler and Marksman 15th Nighthawk) so a pack/name spec cannot target one; 15th-level text is only Dodge as a bonus action but gets Swashbuckler activities; 6th-level Refuge/Taunted effects need until-start-of-next-turn expiry.
+- **Slippery Devil** (`class-features/3e5f536ffd2853ae.json`): Two items share the name (Rogue 6th Swashbuckler and Marksman 15th Nighthawk) so a pack/name spec cannot target one; 15th-level text is only Dodge as a bonus action but gets Swashbuckler activities; 6th-level Refuge/Taunted effects need until-start-of-next-turn expiry.
+- **Mechanical Cannon** (`class-features/87630688c2a4a3ef.json`): summon profiles unknown; needs uses 1/lr plus restated summon
+- **Gracious Mercy** (`class-features/7dc9a6c8786c3bbb.json`): needs both item use and 5 spirit points consumed (two consumption targets)
+- **Dragon Breath** (`class-features/a8402a1951f7dd79.json`): needs a Thunderwave-based save activity
+- **Experimental Ooze** (`class-features/9010b05fe5c283bb.json`): summon activity must consume an Experimental Medicine use; needs summon profiles
+- **Aura of Protection** (`class-features/91a9d87c82ec490c.json`): needs an Aura Effects ally aura (+Cha mod to saves, 10/30 ft)
+- **Enhanced Creative Focus** (`class-features/bcc94954093e50ac.json`): +1/+2/+3 depends on gadgeteer level of the giver, not holder; effects only stack if user clicks all
+- **Reinforced Steel** (`class-features/c1fcad2d9e832c14.json`): bonuses apply to the Iron Defender and scale with the gadgeteer's level (not available on the target); HP bonus absent
+- **Hunter's Eye** (`class-features/c8da955c30125a48.json`): adds prof extra uses to Favored Mark; requires cross-item uses bonus
+- **Potent Expression** (`class-features/b3f25462cca9143e.json`): Wis to creation damage: no known bonus key
+- **Alchemical Savant** (`class-features/e24e885697686c93.json`): conditional Int bonus to one creation roll
+- **Mesmerizing Words** (`class-features/e94a76f7dee61f88.json`): extra bardic die on creation damage/healing; needs hook on creations
+- **Set the Stage** (`class-features/dfd0feb95268fb2b.json`): aura save bonus (Cha) to allies; aura system
+- **Shotgun Master** (`feats/20f49cacc653c6f9.json`): 5ft cube save should roll the shotgun's own damage; spec cannot include weapon base damage on a save
+- **Swarming Tides** (`class-features/f5116a3791fcb29b.json`): Giant's Hand free uses (1+Wis, lr) need a second uses pool on one item
+- **Enhanced Evolution** (`feats/6e97b511a22103b1.json`): recovery claim false (per is set); resistance to the Spark of War type needs code to read another feature's choice
+- **Electro Expert** (`feats/dcd68ef54a304288.json`): uses should equal the modifier of whichever ability was chosen; item has no way to read the choice
+- **Adept Inspiration** (`feats/a0e95f1739bd1142.json`): grants 2 extra bardic inspiration uses; resource pool handled in code, not spec
+- **Spirit Adept** (`feats/a84d841a14d51a3e.json`): grants 2 extra spirit points to the brawler pool; needs code
+- **Defiance of the Red World (Exalted)** (`items/6f3e6f11cef10b57.json`): Heal equal to necrotic dealt needs a roll-result hook.
+- **Lucky Day** (`items/2d64bffc0b385920.json`): Needs Devil Fruit Uses resource identifier.
+- **Force Gun (Wand of Magic Missiles)** (`items/8b5c7f6aa64f9719.json`): Variable charge/slot-level cost needs code (recovery already set).
+- **Reject Dial** (`items/ac18744618a6a54a.json`): Doubled damage and 2 exhaustion levels need code (recovery set).
+
+## Skipped
+
+- **Elemental Ammo**: Owning class unknown (formula uses fighter levels); not safe to restate.
+- **Guidance of the World**: Level/time-based uses not expressible.
+- **Hellfire Halitosis**: Owning class level for 5d6/8d6/11d6 unknown.
+- **Vagabond Drill**: Cone plus 4+ spirit conditional; not expressible.
+- **Fortified Position**: Needs aura effect.
+- **Soul of Artifice**: Per-active-mod save bonus not expressible.
+- **Flexible Spirit**: Creating creation slots from spirit points needs code.
+- **Six Techniques**: Choose-three options, no faithful spec without per-option choice.
+- **Color of Armament Apprentice**: text conflicts (3 uses vs pool of 3x level); not modelable faithfully
+- **Spirit Unleashed**: martial arts die scale identifier uncertain; double use spend remains
+- **Experimental Augmentations**: uses=prof is upgrades count; activities are option attacks, no cost exists per text
+- **Strongarm**: stats of cannon attack unknown to spec
+- **Killshot**: instant-kill threshold, no numeric roll to automate
+- **Pandemic Amplification**: reduce healing in aura, reactive
+- **Peerless Understanding**: conditional disadvantage, no numbers
+- **Scimitar Master**: flourish spread damage/DC wording ambiguous; no faithful save expression
+- **Charcoal Burner Coffee**: Chef's Tools modifier has no known roll-data path.
+- **Chain Shot**: Damage dice not stated in text.
+- **Round Shot**: Damage dice not stated.
+- **Exploding Shell**: Damage dice not stated.
+- **Mechanical Shield (Animated Shield)**: Bonus-action animate activities exist; no numeric effect to add.
+- **Seastone Handcuffs**: Low value; condition-based escape, no automatable numbers.
+- **Silver Tongue Sarsaparilla**: Chef's Tools modifier has no known roll-data path.
+- **White Weapon (Non-Canon)**: Weapon-only +2 attack would need magicalBonus, not an actor effect.
+- **Dog-Dog Fruit, Model: Werewolf**: Fruit uses table/forms need code.
+- **Cat-Cat Fruit, Model: Saber-Toothed Tiger**: Fruit uses table/forms need code.
+- **Cloud-Cloud Fruit**: Fruit uses table/forms need code.
+- **Dice-Dice Fruit**: Fruit uses table/forms need code.
+- **Bat-Bat Fruit**: Fruit uses table/forms need code.
+- **Swap-Swap Fruit**: Fruit uses table/forms need code.
+- **Peto Peto no Mi**: Tame has no DC/stat; summon dice only.
+- **Hai Hai no Mi**: Healing dice pool size not given.
+- **Mera Mera no Mi**: Fire burst damage dice not given.
+
+---
+
+The first-pass findings follow, kept for reference. Treat them as unverified; the outcome above supersedes them.
+
 Every text-bearing item in `op5e/packs-src` (1,938 records: class-features, feats, racial-features, subclasses, creations, items, devil-fruits, campaign-items, backgrounds) was compared by read-only agents against its activities, uses and effects. Findings are **candidates**, not confirmed bugs: agents judged each item from truncated text (700 to 1,400 characters), so verify against the Sourcebook before changing data. 107 "recovery missing" flags were discarded because the audit extractor read `uses.recovery`, while the pack stores recovery as `uses.per` plus an activity-level recovery.
 
 Totals: 355 findings (23 high, 179 medium, 153 low). Items in `packs-src/<pack>/<file>`.
