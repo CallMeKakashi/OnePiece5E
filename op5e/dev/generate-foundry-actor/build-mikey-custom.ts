@@ -42,7 +42,7 @@ const morrow = feat("transformation-morrow", "Transformation: Morrow", MORROW_IM
     consumption: { targets: [{ type: "itemUses", target: "", value: "1", scaling: { mode: "", formula: "" } }], scaling: { allowed: false, max: "" }, spellSlot: false },
     duration: { concentration: false, value: "1", units: "minute", special: "", override: true },
     profiles: [{ _id: generateId("homebrew/mikey/morrow-profile"), name: "Morrow", uuid: `Actor.${MORROW_ID}`, cr: "", level: { min: null, max: null }, movement: [], sizes: [], types: [], count: null }],
-    transform: { customize: true, identifier: "", mode: "cr", preset: "" },
+    transform: { customize: false, identifier: "", mode: "", preset: "" },
     settings: { keep: ["bio"], merge: [], effects: [], other: [], preset: null, spellLists: [], tempFormula: "", transformTokens: true, minimumAC: "" },
   } };
 }
