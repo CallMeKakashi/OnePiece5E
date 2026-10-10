@@ -9,8 +9,8 @@ import type { FeatureItem } from "../../data/schemas/feature.js";
 
 type Doc = { _id: string; name?: string; type?: string; system: Record<string, any> } & Record<string, any>;
 const ACTORS = "../Foundry/actors-json";
-const PORTRAIT = "icons/svg/mystery-man.svg"; // placeholder until art is chosen (old stub token: Sand Rats/kael-dhamar-token.png)
-const TOKEN = "one-piece-5e/npcs/Sand Rats/kael-dhamar-token.png";
+const PORTRAIT = "one-piece-5e/npcs/Sand Rats/khael-new.jpg";
+const TOKEN = "one-piece-5e/npcs/Sand Rats/khael-new-token.png";
 const chassis = JSON.parse(readFileSync(`${ACTORS}/khael-chassis.json`, "utf-8"));
 const rogue = JSON.parse(readFileSync(`${ACTORS}/khael-rogue-part.json`, "utf-8"));
 const pack = (p: string, name: string): Doc => {
