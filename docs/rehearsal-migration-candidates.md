@@ -47,7 +47,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 - [ ] Aegir (Control, Dominian) and Shadow Malphas (Warlocks, Great Old One and Fiend) [migrate if still in the story]
 
 **NPC folders**
-- [ ] Calder Voss (CR 10), Goru Yamashita (CR 5), Morrow (CR 7), Marine Ensign Mk III (CR 7), Mikey (CR 1) [migrate]
+- [ ] Calder Voss (CR 10), Goru Yamashita (CR 5, built), Morrow (CR 7), Marine Ensign Mk III (CR 7), Mikey (CR 1) [migrate]
 - [ ] Kaen Solaris (Fighter 20, Eldritch Knight, plus an empty unfiled Kaen Solaris duplicate) [migrate once]
 - [ ] Kael (Barbarian 5, Fishman) and Vesper (Rogue 5) in Shadows/Scorpio [migrate]
 - [x] Serica Corven and Veyl Corven (Sixfolds) [migrate]
@@ -96,7 +96,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 4. [ ] Kaen Solaris (Omen Guardians), Vesper (Shadows/Scorpio)
 5. [x] Veyl Corven and Serica Corven (Sixfolds)
 6. [x] Chuckles (Circle of Clowns)
-7. [ ] Calder Voss (built), Goru Yamashita, Marine Ensign (Armor Mk III), Mikey, Morrow
+7. [ ] Calder Voss (built), Goru Yamashita (built), Marine Ensign (Armor Mk III), Mikey, Morrow
 8. [ ] Commander Leon (OpenSea)
 9. [ ] SeaBeast - Hermit Crab (NPC/Monsters)
 10. [ ] Marine Warship, rebuilt as a ship actor, not an NPC

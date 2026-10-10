@@ -213,6 +213,10 @@ Workshop JSON (import/build): `[[Foundry/actors-json/goru.json]]`.
 ## Disguises
 
 - **DevilMask** — bounty-poster identity used by [[Morrow]] (House Velencruz). Former standalone note merged here; see [[Velencruz/Morrow]].
+## Foundry build
+
+Fighter 10 (Samurai), CR 5, AC 16, HP 138, Noble and Master at Arms, additional power Tough Customer. Odachi, two katanas, light crossbow, Heavy Longcoat. Feats Diplomat, Observant, Katana Master, Great Weapon Master, Permanent Haki-Imbuement; Haki Armament and Observation Novice. The custom class The Fang, MistFrame, air-elemental summon and the five Forms were dropped (Sourcebook only). Details in `op5e/docs/NPC-BUILDS.md`.
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

@@ -127,3 +127,10 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 - **HP bands corrected.** Earlier overrides used wrong DMG bands. The right ones: CR 3 is 101-115, CR 4 is 116-130, CR 5 is 131-145, CR 10 is 206-220. Chuckles 105, Tariq 105, Cecilia 135, Calder 210 (Chuckles was approved at 78 on the wrong band; change it back in `build-chuckles-custom.ts` if wanted).
 - **Kaen:** Active Combatant gives Action Surge and Indomitable one extra use each. **Khael:** Physical Superiority is Strength (Athletics expertise). **Tariq:** third Marksman skill Acrobatics. **Serica:** Martial Adept has 2 d8 superiority dice (short rest) and the maneuvers Precision Attack and Menacing Attack (both spend those dice). **Irik:** art folder case `SharkFin Pirates`, Leather Armor unequipped. **Shin:** the Rogue half's skills and expertise are now merged (Athletics, Deception and Intimidation expertise, Persuasion). **Bards (Jay, Kyle, Soefra):** Bardic Inspiration and Harmonic Vitality regain on a short rest once Font of Inspiration and Font of Vitality apply.
 - Judith's Wisdom save is legitimate: Fearsome Fortitude grants proficiency in one saving throw.
+
+## Goru Yamashita (2026-10-10)
+
+`build-goru-custom.ts`, spec `goru-spec.json`. Human Fighter 10 (Samurai), Noble, Master at Arms, no fruit, additional power Tough Customer. Live in `OP5E/Driftroot`. The custom class The Fang, MistFrame, the air-elemental summon and the five Forms are dropped (compendium only, user's choice). Scores are the live-sheet 14/18/14/12/14/13 (no ASIs; all feats). Gear: Odachi, two Katanas (one spare), Light Crossbow, Heavy Longcoat. Feats: Diplomat (Noble), Observant (Master at Arms), Katana Master, Great Weapon Master, Permanent Haki-Imbuement. Fighting Style Great Weapon Fighting. Haki: Armament Novice, Observation Novice. Skills: Persuasion, Insight, Acrobatics, Athletics, History, Intimidation.
+
+- HP 138 (override, real about 75) for the CR 5 band 131-145; AC 16, prof +4, initiative +4. Not played in a real fight; no CR damage bump added.
+- Art not done: the brief found only AI-looking Pinterest results (see `docs/art-credits.md`).
