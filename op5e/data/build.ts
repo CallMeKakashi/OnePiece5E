@@ -18,6 +18,7 @@ import { raceItemSchema } from "./schemas/race.js";
 import { foundryItemBase, foundryActorBase, foundryJournalBase, foundryRollTableBase } from "./schemas/common.js";
 import { ensureFeatureActivities, ensureItemActivities } from "./helpers/activities.js";
 import { applySpec } from "./helpers/spec.js";
+import { wireAudit } from "./helpers/audit-wiring.js";
 import { parsePrereq } from "./helpers/prereq.js";
 import { AUTOMATION } from "./src/automation/index.js";
 
@@ -146,6 +147,7 @@ async function buildPack(config: PackConfig): Promise<Stats> {
     if (AUTOMATION[specKey] && config.collection !== "actors" && config.collection !== "journal" && config.collection !== "tables") {
       raw = applySpec(raw as never, AUTOMATION[specKey], specKey) as never;
     }
+    if (["class-features", "feats", "subclasses", "racial-features"].includes(config.name)) raw = wireAudit(raw as never) as never;
 
     // book prerequisites (ability scores, proficiencies, race...) as data for scripts/prerequisites.mjs
     if (config.name === "feats" || config.name === "class-features") {
