@@ -141,3 +141,15 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 
 - The monsters pack has no dog; the traits are hand-authored homebrew feats (no Panther copy). Mikey's HP is below the CR 1 band on purpose (a pet). Not played in a real fight.
 - Art: Mikey pin for portrait and token; Morrow pin for his portrait and a head crop as his token (logged in `docs/art-credits.md`).
+
+## Marine Ensign (Armor Mk IV) (2026-10-10)
+
+`build-ensign-custom.ts`, spec `marine-ensign-spec.json`. Augmented (Cyborg) Gadgeteer 9 (Armorer, Guardian model), Marine/Soldier, Role: Deckhand, no fruit, no Haki. Renamed Mk III to Mk IV on the user's say-so. Scores 10/15/18/20/12/8 (Int 20 Con 16 Dex 14 Str 10 Wis 12 Cha 8, Augmented +2 Con +1 Dex). Mods: Propulsion Armor (level 2, applied to the suit), Armor of Mechanical Strength (level 6, swap in on a long rest). Feats: Heavy Armor Master (level 4), Shield Master (level 8), Mobile (Deckhand). Skills: Athletics, Acrobatics, Arcana, Medicine (Deckhand skills left unchosen: the suit pilots can't take them). Tools: Smith's, Tinker's. No background feat.
+
+| NPC | CR | HP | AC |
+|---|---|---|---|
+| Marine Ensign (Armor Mk IV) | 7 | 150 (override, real about 81, DMG CR 7 band 146-160) | 20 (Plate 18 + suit +1 + Cyborg +1) |
+
+- The suit is an equippable Plate Armor item (heavy, magical +1 from Propulsion Armor). Cyborg traits embedded by hand. Propulsion Gauntlets (1d8 force, thrown 20/60, Int) and the Palm Laser (a reflavored Flintlock).
+- CR pass: bespoke Suit Overcharge feature adds 2d6 weapon damage. Legacy flight, the four legendary actions and Overcharge Beam were dropped (user's choice; the compendium Propulsion Armor gives no flight).
+- Live in `OP5E/Marines`. Art is the user's pin (`Marines/marine-ensign-new.jpg`, logged in `docs/art-credits.md`), hand-painted concept, amber glow instead of cyan. Not played in a real fight.

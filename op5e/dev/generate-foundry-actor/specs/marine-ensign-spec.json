@@ -1,0 +1,102 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "name": "Marine Ensign (Armor Mk IV)",
+  "raceIdentifier": "augmented",
+  "classIdentifier": "gadgeteer",
+  "subclassIdentifier": "armorer",
+  "level": 9,
+  "cr": 7,
+  "backgroundSlug": "Marine/Soldier",
+  "roleSlug": "deckhand",
+  "powerFork": "neither",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 16,
+    "int": 20,
+    "wis": 12,
+    "cha": 8
+  },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "choices": [
+    {
+      "stepId": "2c3ab682784a8f5a",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:ath",
+        "skills:acr"
+      ]
+    },
+    {
+      "stepId": "33f4b0ef25b02279",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.e5e7d26cd0404bee"
+      ]
+    },
+    {
+      "stepId": "0028ca6afa3bf1d3",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.7842a68fdf0a1f76"
+      ]
+    },
+    {
+      "stepId": "c2d28adca72e1314",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:arc",
+        "skills:med"
+      ]
+    },
+    {
+      "stepId": "daec48c30cbf4924",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.154d303ba140a9d5"
+      ]
+    },
+    {
+      "stepId": "6da6feb2c9b10ebf",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.097494380fd03456"
+      ]
+    },
+    {
+      "stepId": "657c622838004e81",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.4e7abe5deef318b7"
+      ]
+    },
+    {
+      "stepId": "3fc8b2cabd863a15",
+      "level": 2,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.8241b219a230a641"
+      ]
+    },
+    {
+      "stepId": "1f5ed3c75ed84a68",
+      "level": 6,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.0e8ce06c72ea9b2e"
+      ]
+    }
+  ]
+}

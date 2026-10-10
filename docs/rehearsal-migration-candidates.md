@@ -47,7 +47,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 - [ ] Aegir (Control, Dominian) and Shadow Malphas (Warlocks, Great Old One and Fiend) [migrate if still in the story]
 
 **NPC folders**
-- [ ] Calder Voss (CR 10), Goru Yamashita (CR 5, built), Morrow (CR 7), Marine Ensign Mk III (CR 7), Mikey/Morrow (CR 1, built) [migrate]
+- [x] Calder Voss (CR 10), Goru Yamashita (CR 5, built), Morrow (CR 7), Marine Ensign Mk IV (CR 7, built), Mikey/Morrow (CR 1, built) [migrate]
 - [ ] Kaen Solaris (Fighter 20, Eldritch Knight, plus an empty unfiled Kaen Solaris duplicate) [migrate once]
 - [ ] Kael (Barbarian 5, Fishman) and Vesper (Rogue 5) in Shadows/Scorpio [migrate]
 - [x] Serica Corven and Veyl Corven (Sixfolds) [migrate]
@@ -119,3 +119,5 @@ Not mentioned yet, still in place: Drez Crown, Petty Officer Marine (OpenSea), A
 - **Vesper Grimrose: done** (`OP5E/Shadows/Scorpio`, L8 / CR 5, Human Rogue 8 Assassin, HP 138, AC 15, Cheater Cheater, no Haki). Art picked by the user.
 - **Additional powers backfilled:** Tariq and Saeva got Fearsome Fortitude; see `op5e/docs/NPC-BUILDS.md`.
 - **Serica and Veyl Corven: done** (`OP5E/Sixfold`, Human L12, Serica CR 7 Barbarian 8 Cannoneer / Rogue 4 Swashbuckler, Veyl CR 6 Rogue 8 Swashbuckler / Brawler 4 Six Powers Master; HP overrides 161 and 146). Art picked by the user; Veyl's pin does not match his brief. See `op5e/docs/NPC-BUILDS.md`.
+
+- **Marine Ensign (Armor Mk IV): done** (`OP5E/Marines`, Augmented Cyborg Gadgeteer 9 Armorer, CR 7, HP 150, AC 20). Next: Commander Leon.

@@ -108,3 +108,7 @@ actions:
 - name: Overcharge Beam
   desc: "Recharge 5–6. The Enforcer releases a powerful beam in a 150 ft line. Creatures in the line must make a DC 15 Dexterity save, taking 6d10 radiant damage on a failed save or half as much on a success. Damage: 6d10 radiant"
 ```
+
+## Foundry build
+
+Rebuilt 2026-10-10 as **Marine Ensign (Armor Mk IV)**: Augmented (Cyborg) Gadgeteer 9 (Armorer), CR 7, AC 20, HP 150, in `OP5E/Marines` of `bb-rehearsal`. The Mk IV suit is an equippable Plate Armor with Propulsion Armor applied. The old flight, legendary actions and Overcharge Beam were dropped. Details in `op5e/docs/NPC-BUILDS.md`.
