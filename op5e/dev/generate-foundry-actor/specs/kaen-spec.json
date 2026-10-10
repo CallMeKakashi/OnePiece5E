@@ -1,0 +1,190 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "raceIdentifier": "human",
+  "backgroundSlug": "Knight",
+  "roleSlug": "master-at-arms",
+  "powerFork": "neither",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "cr": 20,
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 20,
+    "int": 12,
+    "wis": 14,
+    "cha": 16
+  },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "name": "Kaen Solaris",
+  "classIdentifier": "fighter",
+  "subclassIdentifier": "samurai",
+  "level": 20,
+  "choices": [
+    {
+      "stepId": "20a16c658de3816b",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:rel",
+        "skills:his"
+      ]
+    },
+    {
+      "stepId": "c6cd55bd2c848a2f",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "tool:art:*"
+      ]
+    },
+    {
+      "stepId": "f72b13bc8e083e36",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.8802be835e61ffcd"
+      ]
+    },
+    {
+      "stepId": "eb306fec5586f736",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.c45cecd9577b5d02"
+      ]
+    },
+    {
+      "stepId": "f544e265c28b18a4",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.cfe63f1f15529820"
+      ]
+    },
+    {
+      "stepId": "9e222e3fcad6d5fc",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.0ddafe26a36d8c1f"
+      ]
+    },
+    {
+      "stepId": "9b9a22d4a2455ce0",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.bf6bcc1cf0c30ebf"
+      ]
+    },
+    {
+      "stepId": "c9e9e11ed7760d01",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.7842a68fdf0a1f76"
+      ]
+    },
+    {
+      "stepId": "372486d10f05d82d",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:ins",
+        "skills:prc"
+      ]
+    },
+    {
+      "stepId": "69b2e09d550be6d3",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.a63313e2bf3870d2"
+      ]
+    },
+    {
+      "stepId": "ceec48436400f9c9",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.097494380fd03456"
+      ]
+    },
+    {
+      "stepId": "bdbeb7672f52cde8",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.items.f440c4c4f919a241"
+      ]
+    },
+    {
+      "stepId": "d0c6a9815d2fb190",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "skills:itm"
+      ]
+    },
+    {
+      "stepId": "43fb10fe3c621bdc",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.df9923859fb8fc09"
+      ]
+    },
+    {
+      "stepId": "6c4a4fd3f252d3d0",
+      "level": 3,
+      "source": "subclass",
+      "uuids": [
+        "skills:per"
+      ]
+    },
+    {
+      "stepId": "fe5e0d06c9698941",
+      "level": 8,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.409ca29b4a12db94"
+      ]
+    },
+    {
+      "stepId": "0594b1876fbe72db",
+      "level": 10,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.409ca29b4a12db94"
+      ]
+    },
+    {
+      "stepId": "06cc944251342d49",
+      "level": 12,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.409ca29b4a12db94"
+      ]
+    },
+    {
+      "stepId": "35219ab255b7c85b",
+      "level": 14,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.16bc2636849312ce"
+      ]
+    },
+    {
+      "stepId": "3b745db39f8f3555",
+      "level": 16,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.96dcda2a40ae256f"
+      ]
+    }
+  ]
+}

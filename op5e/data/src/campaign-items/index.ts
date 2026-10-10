@@ -6,7 +6,10 @@ import { generateId } from "../../helpers/id.js";
 // Custom weapons and items the DM has handed out in the campaign. Taken from the old campaign world's actor sheets (old-items.json,
 // images copied to assets/campaign/); add new ones to that file or as entries below.
 const RENAME: Record<string, string> = { "Death Chalace": "Death Chalice", "Rolling Pin - Kura3™": "Rolling Pin: Kura3 (Base)", "Lemonte's black glasses": "Lemonte's Black Glasses", "Green vile (With Ace)": "Green Vial (With Ace)", "Buzz blade": "Buzz Blade" };
-const raw = JSON.parse(readFileSync(join(dirname(fileURLToPath(import.meta.url)), "old-items.json"), "utf8")) as { name: string; type: string; img: string; system: Record<string, unknown>; effects?: Record<string, unknown>[] }[];
+const dir = dirname(fileURLToPath(import.meta.url));
+// npc-items.json: relics and kit built for rebuilt NPCs (Kaen Solaris, Facade, Soefra); extend it when a new NPC gets a custom item.
+const load = (f: string) => JSON.parse(readFileSync(join(dir, f), "utf8"));
+const raw = [...load("old-items.json"), ...load("npc-items.json")] as { name: string; type: string; img: string; system: Record<string, unknown>; effects?: Record<string, unknown>[] }[];
 
 export default raw.map((r) => {
   const name = RENAME[r.name] ?? r.name.replace(/™/g, "").replace(/\s+/g, " ").trim();

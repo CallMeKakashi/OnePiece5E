@@ -69,3 +69,17 @@ Issues 52 and 53. Built with the same method as above (`actor:build` spec, then 
 - **Saeva Virell:** male. Str 17, Dex 15, Con 17, Int 8, Wis 12, Cha 10. HP 138 (`5d10 + 3d12 + 32`). Styles Dueling, Versatile Fighting and Defense (Fighting Initiate); Scimitar Master. Rage damage bonus equals proficiency bonus, Strength-only by name (the mwak bonus cannot filter by ability). The Javelin stands in for the harpoon. Deckhand tool: Cook's Utensils.
 - **Vex:** 2014 SRD Baboon copy, CR 0, unchanged; placeholder art only.
 - **Sourcebook-strict rules used:** proficiency bonus from the table (not a fixed value), Marksman saves Dex/Wis, and the Devil Fruit Uses rule (+1 use every odd level, Paramecia +1). Art status in `docs/art-credits.md`. None played in a real fight.
+
+## Kaen Solaris and Vesper Grimrose (2026-10-10)
+
+Same method (`actor:build` spec, `build-<slug>-custom.ts`, `import-npc.mjs --replace`, `ensure-npc-folder.mjs`). Ability scores include the Human +1/+1/+1.
+
+| NPC | Build | CR | Script | Specs |
+|---|---|---|---|---|
+| Kaen Solaris | Human Fighter 20 (Samurai), Knight, Master at Arms, Tough Customer. Sourcebook has no Paladin, so no homebrew powers. Relics Icarus, Aegis of Sol, Bulwark of Sol | 20 | `build-kaen-custom.ts` | `kaen-spec.json` |
+| Vesper Grimrose | Human Rogue 8 (Assassin), Bounty Hunter, Scholar, Cheater Cheater, no Haki | 5 | `build-vesper-custom.ts` | `vesper-spec.json` |
+
+- **Kaen:** HP 318 (override, real 224), AC 19. Icarus is a +3 longsword (3d8 + 8 slashing + 2d8 radiant, about 126 a round, +15 to hit against a +10 band) with a Shed Light bonus action; Aegis of Sol is chain mail with radiant resistance; Bulwark of Sol is a +2 shield with a Guardian's Interposition reaction (1d10 + proficiency). Conqueror's Haki DC 17 against 19 (not raised). Haki: Conqueror's Novice, Apprentice, Journeyman, Armament Novice, Observation Novice. All seven ASIs were feats.
+- **Vesper:** HP 138 (override, real 52), AC 15, rapier bumped to 3d8 + 4. Feats Poisoner (level 4) and Mobile (level 8), Skill Expert from Scholar (+1 Dex, Investigation, Perception expertise). Expertise Stealth, Sleight of Hand, Acrobatics, Investigation. The Scholar role's Stealth pick duplicated a Rogue skill. Her spec leaves the Haki step unresolved on purpose.
+- **Additional powers added the same day** (every non-fruit NPC needs one): Tariq and Saeva got Fearsome Fortitude, Kaen Tough Customer, Vesper Cheater Cheater. Chosen options must meet the prerequisites in `data/src/class-features/additional/*.ts` (Iron Fury needs Barbarian 10, Sharp Focus Marksman 10, Plan B Gadgeteer, Full Body Armament level 14 and Armament Adept).
+- **Campaign items:** the relics plus Facade's Reinforced Cyborg Shell and Soefra's Stained-Glass Gown are in `data/src/campaign-items/npc-items.json`.

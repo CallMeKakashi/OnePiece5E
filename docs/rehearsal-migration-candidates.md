@@ -115,3 +115,6 @@ Not mentioned yet, still in place: Drez Crown, Petty Officer Marine (OpenSea), A
 - **Tariq Solen: done** (`OP5E/Sand Rats`, L5 / CR 3, Human Marksman 5 Sniper, Wanderer, HP 72, longbow). No art found, default image in use. Next: Irik Fen, Saeva Virell.
 - **Irik Fen: done** (`OP5E/Sharkfin Pirates`, L8 / CR 4, Human Rogue 8 Fencer, Navigator, HP 123 (override), AC 17, Dex 20). Dabu Dabu no Mi from the compendium fruit item, with Test Subject (Clone summon, his Double), Mirror Image, Misty Step and Bait and Switch, all spending Devil Fruit Uses (5). Art done (pin picked by the user). Next: Saeva Virell.
 - **Saeva Virell: done** (`OP5E/Sharkfin Pirates`, male, L8 / CR 5, Human Fighter 5 Champion / Barbarian 3 Blade Master, Sailor, Deckhand, HP 138, compendium only: Scimitar, Shield, Javelin as harpoon stand-in). Art picked by the user. Next: Kaen Solaris.
+- **Kaen Solaris: done** (`OP5E/Guardians of Sol`, L20 / CR 20, Human Fighter 20 Samurai, HP 318, AC 19, Tough Customer, relics Icarus / Aegis of Sol / Bulwark of Sol). Art picked by the user. Next: Veyl and Serica Corven.
+- **Vesper Grimrose: done** (`OP5E/Shadows/Scorpio`, L8 / CR 5, Human Rogue 8 Assassin, HP 138, AC 15, Cheater Cheater, no Haki). Art picked by the user.
+- **Additional powers backfilled:** Tariq and Saeva got Fearsome Fortitude; see `op5e/docs/NPC-BUILDS.md`.

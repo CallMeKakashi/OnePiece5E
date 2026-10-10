@@ -5,6 +5,8 @@ import { embedOwnedItem } from "./compendium-resolver.js";
 import { refreshFromPacks, standaloneSummons } from "./refresh-from-packs.js";
 
 type Doc = { _id: string; name?: string; type?: string; system: Record<string, any> } & Record<string, any>;
+import { ensureFeatureActivities } from "../../data/helpers/activities.js";
+import { fearsomeFortitudeFeatures } from "../../data/src/class-features/additional/fearsome-fortitude.js";
 const ACTORS = "../Foundry/actors-json";
 const PORTRAIT = "one-piece-5e/npcs/SharkFin Pirates/saeva-new.jpg";
 const TOKEN = "one-piece-5e/npcs/SharkFin Pirates/saeva-new-token.png";
@@ -80,5 +82,7 @@ chassis.img = PORTRAIT;
 chassis.prototypeToken = { ...(chassis.prototypeToken ?? {}), texture: { ...(chassis.prototypeToken?.texture ?? {}), src: TOKEN } };
 sys.details.biography.value = "<p>Saeva \"Longcast\" Virell, harpooner of the Sharkfin Pirates: a sailor with a scimitar, a shield and a javelin thrown like a harpoon.</p><p><strong>Balance note (CR 5):</strong> a straight Fighter 5 / Barbarian 3 is under CR 5 on hit points, so HP is overridden to 138.</p>";
 
+// Chapter 7 additional power (no Devil Fruit): Fearsome Fortitude, chosen by the user 2026-10-10
+for (const f of fearsomeFortitudeFeatures) chassis.items.push(embedOwnedItem(ensureFeatureActivities(f as never) as never) as Doc);
 writeFileSync(`${ACTORS}/saeva.json`, JSON.stringify(chassis, null, 2), "utf-8");
 console.log(`Wrote ${ACTORS}/saeva.json (${items.length} items)`);

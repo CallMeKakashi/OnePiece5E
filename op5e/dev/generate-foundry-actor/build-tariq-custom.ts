@@ -7,6 +7,8 @@ import { ensureItemActivities } from "../../data/helpers/activities.js";
 import creations from "../../data/src/creations/index.js";
 
 type Doc = { _id: string; name?: string; type?: string; system: Record<string, any> } & Record<string, any>;
+import { ensureFeatureActivities } from "../../data/helpers/activities.js";
+import { fearsomeFortitudeFeatures } from "../../data/src/class-features/additional/fearsome-fortitude.js";
 const ACTORS = "../Foundry/actors-json";
 const chassis = JSON.parse(readFileSync(`${ACTORS}/tariq-chassis.json`, "utf-8"));
 const pack = (p: string, id: string): Doc => JSON.parse(readFileSync(`packs-src/${p}/${id}.json`, "utf-8"));
@@ -56,5 +58,7 @@ chassis.img = "one-piece-5e/npcs/Sand Rats/tariq.jpg";
 chassis.prototypeToken = { ...(chassis.prototypeToken ?? {}), texture: { ...(chassis.prototypeToken?.texture ?? {}), src: "one-piece-5e/npcs/Sand Rats/tariq-token.png" } };
 sys.details.biography.value = "<p>Tariq Solen, a 15-year-old scout of the Sand Rats: a lean wanderer with a longbow, quick eyes and a guarded calm.</p><p><strong>Balance note (CR 3):</strong> a straight Marksman 5 is under CR 3 on hit points, so HP is overridden to 72.</p>";
 
+// Chapter 7 additional power (no Devil Fruit): Fearsome Fortitude, chosen by the user 2026-10-10
+for (const f of fearsomeFortitudeFeatures) chassis.items.push(embedOwnedItem(ensureFeatureActivities(f as never) as never) as Doc);
 writeFileSync(`${ACTORS}/tariq.json`, JSON.stringify(chassis, null, 2), "utf-8");
 console.log(`Wrote ${ACTORS}/tariq.json (${items.length} items)`);

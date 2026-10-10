@@ -1,0 +1,515 @@
+[
+ {
+  "name": "Reinforced Cyborg Shell",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
+  "system": {
+   "description": {
+    "value": "<p>Plated necrotech over a leather-lined frame. Light armour, base AC 14. <em>Balance note: bespoke AC so Facade reaches the CR 8 band.</em></p>",
+    "chat": ""
+   },
+   "source": {
+    "book": "OP5e",
+    "page": "",
+    "custom": "",
+    "license": ""
+   },
+   "quantity": 1,
+   "weight": {
+    "value": 10,
+    "units": "lb"
+   },
+   "price": {
+    "value": 100000,
+    "denomination": "gp"
+   },
+   "rarity": "common",
+   "equipped": false,
+   "identified": true,
+   "armor": {
+    "value": 14
+   },
+   "strength": 0,
+   "stealth": false,
+   "proficient": null,
+   "type": {
+    "value": "light",
+    "baseItem": "leather"
+   }
+  },
+  "effects": []
+ },
+ {
+  "name": "Stained-Glass Gown",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
+  "system": {
+   "description": {
+    "value": "<p>A gown of stained glass that rings when struck. Light armour, base AC 14. <em>Balance note: bespoke AC so Soefra reaches the CR 9 band.</em></p>",
+    "chat": ""
+   },
+   "source": {
+    "book": "OP5e",
+    "page": "",
+    "custom": "",
+    "license": ""
+   },
+   "quantity": 1,
+   "weight": {
+    "value": 10,
+    "units": "lb"
+   },
+   "price": {
+    "value": 100000,
+    "denomination": "gp"
+   },
+   "rarity": "common",
+   "equipped": false,
+   "identified": true,
+   "armor": {
+    "value": 14
+   },
+   "strength": 0,
+   "stealth": false,
+   "proficient": null,
+   "type": {
+    "value": "light",
+    "baseItem": "leather"
+   }
+  },
+  "effects": []
+ },
+ {
+  "name": "Aegis of Sol",
+  "type": "equipment",
+  "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
+  "system": {
+   "description": {
+    "value": "<p><strong>Relic of the ancient times.</strong> Chain mail (AC 16, heavy). You have resistance to radiant damage while wearing it.</p>",
+    "chat": ""
+   },
+   "source": {
+    "book": "OP5e",
+    "page": "",
+    "custom": "",
+    "license": ""
+   },
+   "quantity": 1,
+   "weight": {
+    "value": 55,
+    "units": "lb"
+   },
+   "price": {
+    "value": 750000,
+    "denomination": "gp"
+   },
+   "rarity": "legendary",
+   "equipped": false,
+   "identified": true,
+   "armor": {
+    "value": 16
+   },
+   "strength": 13,
+   "stealth": true,
+   "proficient": null,
+   "type": {
+    "value": "heavy",
+    "baseItem": "chainmail"
+   }
+  },
+  "effects": [
+   {
+    "_id": "22f3939aefce39e7",
+    "name": "Aegis of Sol: radiant resistance",
+    "img": "icons/svg/upgrade.svg",
+    "changes": [
+     {
+      "key": "system.traits.dr.value",
+      "mode": 2,
+      "value": "radiant",
+      "priority": 20
+     }
+    ],
+    "disabled": false,
+    "duration": {
+     "startTime": null,
+     "seconds": null,
+     "rounds": null,
+     "turns": null,
+     "combat": null
+    },
+    "origin": null,
+    "transfer": true,
+    "flags": {},
+    "statuses": [],
+    "tint": null
+   }
+  ]
+ },
+ {
+  "name": "Icarus",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-guard.webp",
+  "system": {
+   "description": {
+    "value": "<p><strong>Relic of the ancient times.</strong> A +3 longsword. Hits deal an extra 2d8 radiant damage. As a bonus action you can make it shed bright light in a 30-foot radius (dim 30 ft beyond), or douse it. Bespoke damage bump (3d8 + 8 slashing) to reach CR 20; the real longsword is 1d8 + 5.</p>",
+    "chat": ""
+   },
+   "source": {
+    "book": "OP5e",
+    "page": "",
+    "custom": "",
+    "license": ""
+   },
+   "quantity": 1,
+   "weight": {
+    "value": 3,
+    "units": "lb"
+   },
+   "price": {
+    "value": 150000,
+    "denomination": "gp"
+   },
+   "rarity": "legendary",
+   "equipped": false,
+   "identified": true,
+   "activation": {
+    "type": "action",
+    "cost": 1
+   },
+   "range": {
+    "value": null,
+    "long": null,
+    "units": ""
+   },
+   "target": {
+    "value": null,
+    "width": null,
+    "units": "",
+    "type": ""
+   },
+   "uses": {
+    "value": null,
+    "max": "",
+    "per": null,
+    "recovery": ""
+   },
+   "damage": {
+    "base": {
+     "number": 3,
+     "denomination": 8,
+     "bonus": "8",
+     "types": [
+      "slashing"
+     ],
+     "custom": {
+      "enabled": false,
+      "formula": ""
+     },
+     "scaling": {
+      "mode": "",
+      "number": 1
+     }
+    }
+   },
+   "actionType": "mwak",
+   "ability": "",
+   "attackBonus": "@flags.op5e.wAtk.sword",
+   "chatFlavor": "",
+   "proficient": null,
+   "properties": {
+    "ver": true,
+    "mgc": true
+   },
+   "type": {
+    "value": "martialM",
+    "baseItem": "longsword"
+   },
+   "activities": {
+    "dnd5eactivity000": {
+     "_id": "dnd5eactivity000",
+     "type": "attack",
+     "name": "Icarus",
+     "sort": 0,
+     "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": "",
+      "override": false
+     },
+     "consumption": {
+      "targets": [],
+      "scaling": {
+       "allowed": false,
+       "max": ""
+      },
+      "spellSlot": true
+     },
+     "description": {
+      "chatFlavor": ""
+     },
+     "duration": {
+      "concentration": false,
+      "value": null,
+      "units": "inst",
+      "special": "",
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "value": null,
+      "units": "",
+      "special": "",
+      "override": false
+     },
+     "target": {
+      "template": {
+       "count": "",
+       "contiguous": false,
+       "type": "",
+       "size": "",
+       "width": "",
+       "height": "",
+       "units": ""
+      },
+      "affects": {
+       "count": "",
+       "type": "",
+       "choice": false,
+       "special": ""
+      },
+      "prompt": true,
+      "override": false
+     },
+     "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+     },
+     "damage": {
+      "critical": {
+       "allow": true,
+       "bonus": ""
+      },
+      "parts": [
+       {
+        "number": 3,
+        "denomination": 8,
+        "bonus": "8",
+        "types": [
+         "slashing"
+        ],
+        "custom": {
+         "enabled": false,
+         "formula": ""
+        },
+        "scaling": {
+         "mode": "",
+         "number": null,
+         "formula": ""
+        }
+       },
+       {
+        "number": 2,
+        "denomination": 8,
+        "bonus": "",
+        "types": [
+         "radiant"
+        ],
+        "custom": {
+         "enabled": false,
+         "formula": ""
+        },
+        "scaling": {
+         "mode": "",
+         "number": null,
+         "formula": ""
+        }
+       }
+      ]
+     },
+     "attack": {
+      "bonus": "3"
+     }
+    },
+    "b52ff40a370358ed": {
+     "_id": "b52ff40a370358ed",
+     "type": "utility",
+     "name": "Icarus: Shed Light",
+     "sort": 0,
+     "activation": {
+      "type": "bonus",
+      "value": 1,
+      "condition": "",
+      "override": false
+     },
+     "consumption": {
+      "targets": [],
+      "scaling": {
+       "allowed": false,
+       "max": ""
+      },
+      "spellSlot": true
+     },
+     "description": {
+      "chatFlavor": ""
+     },
+     "duration": {
+      "concentration": false,
+      "value": null,
+      "units": "inst",
+      "special": "",
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "value": null,
+      "units": "",
+      "special": "",
+      "override": false
+     },
+     "target": {
+      "template": {
+       "count": "",
+       "contiguous": false,
+       "type": "",
+       "size": "",
+       "width": "",
+       "height": "",
+       "units": ""
+      },
+      "affects": {
+       "count": "",
+       "type": "",
+       "choice": false,
+       "special": ""
+      },
+      "prompt": true,
+      "override": false
+     },
+     "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+     },
+     "roll": {
+      "formula": "",
+      "name": "",
+      "prompt": false,
+      "visible": false
+     }
+    }
+   }
+  },
+  "effects": []
+ },
+ {
+  "name": "Bulwark of Sol",
+  "type": "equipment",
+  "img": "icons/equipment/shield/heater-steel-grey.webp",
+  "system": {
+   "description": {
+    "value": "<p><strong>Relic of the ancient times.</strong> A shield (+2 AC). <em>Guardian's Interposition (reaction):</em> when a creature you can see within 5 feet of you is hit by an attack, you can take the damage instead, reduced by 1d10 + your proficiency bonus (minimum 0).</p>",
+    "chat": ""
+   },
+   "source": {
+    "book": "OP5e",
+    "page": "",
+    "custom": "",
+    "license": ""
+   },
+   "quantity": 1,
+   "weight": {
+    "value": 6,
+    "units": "lb"
+   },
+   "price": {
+    "value": 100000,
+    "denomination": "gp"
+   },
+   "rarity": "legendary",
+   "equipped": false,
+   "identified": true,
+   "armor": {
+    "value": 2
+   },
+   "strength": 0,
+   "stealth": false,
+   "proficient": null,
+   "type": {
+    "value": "shield",
+    "baseItem": "shield"
+   },
+   "activities": {
+    "d1291b19cd5b39af": {
+     "_id": "d1291b19cd5b39af",
+     "type": "utility",
+     "name": "Guardian's Interposition",
+     "sort": 0,
+     "activation": {
+      "type": "reaction",
+      "value": 1,
+      "condition": "",
+      "override": false
+     },
+     "consumption": {
+      "targets": [],
+      "scaling": {
+       "allowed": false,
+       "max": ""
+      },
+      "spellSlot": true
+     },
+     "description": {
+      "chatFlavor": ""
+     },
+     "duration": {
+      "concentration": false,
+      "value": null,
+      "units": "inst",
+      "special": "",
+      "override": false
+     },
+     "effects": [],
+     "range": {
+      "value": null,
+      "units": "",
+      "special": "",
+      "override": false
+     },
+     "target": {
+      "template": {
+       "count": "",
+       "contiguous": false,
+       "type": "",
+       "size": "",
+       "width": "",
+       "height": "",
+       "units": ""
+      },
+      "affects": {
+       "count": "",
+       "type": "",
+       "choice": false,
+       "special": ""
+      },
+      "prompt": true,
+      "override": false
+     },
+     "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+     },
+     "roll": {
+      "formula": "1d10 + @prof",
+      "name": "",
+      "prompt": false,
+      "visible": false
+     }
+    }
+   }
+  },
+  "effects": []
+ }
+]
