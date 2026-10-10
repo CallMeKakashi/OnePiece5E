@@ -74,3 +74,10 @@ traits:
 - name: Mantle of Inspiration
   desc: You can weave fey magic into a song or dance to fill others with vigor. As a Bonus Action, you can expend a use of Bardic Inspiration, rolling a Bardic Inspiration die. When you do so, choose a number of other creatures within 60 feet of yourself, up to a number equal to your Charisma modifier (minimum of one creature). Each of those creatures gains a number of Temporary Hit Points equal to two times the number rolled on the Bardic Inspiration die, and then each can use it...
 ```
+
+## Foundry build (bb-rehearsal, 2026-10-10)
+
+- **Human Bard 11 (Bewitchment)**, Entertainer, Musician, **CR 9**. Str 8, Dex 15, Con 15, Int 10, Wis 13, Cha 20. HP 198 (CR band override), gown AC base 14, DC 17.
+- Heart Strings (no Devil Fruit), Bard creations, Potent Creativity (+5 trick damage), Soundless Crescendo (6d8 thunder, DC 17).
+- Live folder: OP5E/Soundless 5.
+- Art status: placeholder portrait and token, does not match her description. Credit details in `docs/art-credits.md`. Rebuild steps: [op5e/docs/NPC-BUILDS.md](../../../../op5e/docs/NPC-BUILDS.md).

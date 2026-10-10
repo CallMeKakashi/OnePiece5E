@@ -41,3 +41,10 @@ traits:
 - name: Voidwalker Armor
   desc: "This black studded leather armor bears a red sheen. While wearing this armor, you can use a bonus action to summon a projection of yourself in an unoccupied space within 30 feet of yourself. The projection is a translucent copy of you that has immunity to all damage and conditions, and you can make attacks and cast spells with a range other than self as if standing in the projection's space. The projection disappears at the end of your turn. Once you use this bonus action,..."
 ```
+
+## Foundry build (bb-rehearsal, 2026-10-10)
+
+- **Human Rogue 8 (Fencer)**, Navigator, **CR 4**. Str 10, Dex 18, Con 15, Int 13, Wis 13, Cha 10. HP 123 (kept override).
+- **Dabu Dabu no Mi** (compendium) with the Test Subject Clone summon as his Double. Mirror Image, Misty Step and Bait and Switch each spend a Devil Fruit Use (max 5, long rest).
+- Live folder: OP5E/Sharkfin Pirates.
+- Art status: new art (irik-new), picked by the user. Credit details in `docs/art-credits.md`. Rebuild steps: [op5e/docs/NPC-BUILDS.md](../../../../op5e/docs/NPC-BUILDS.md).

@@ -46,3 +46,26 @@ Cadence and Facade were rebuilt from scratch (every choice asked, none carried f
 - **Facade:** mods Extended Barrel, Heavy Artillery, Enhanced Defenses (applied by its Apply activity to a targeted token: AC 16, or 18 once applied). HP 183, DC 17. Balance features: Reinforced Cyborg Shell (light armour, base AC 14) and OHM Targeting Suite (+2d6 ranged). The Mechanical Cannon summon is exported as `facade-summon-mechanical-cannon.json` and must be imported first with `--keep-id`. No homunculus: the Gadgeteer has none (it was a D&D artificer infusion).
 - **Validation (live, bb-rehearsal):** folders nested, images load, no duplicate role or Haki, Haki tiers present (Cadence Observation, Armament, Conqueror's Novice; Facade Armament Novice and Apprentice), class and fruit activities present. Passive class features and Ricochet Rounds are text-only, per `automation-status.md`.
 - **Not played in a real fight.** Art credit status is in `docs/art-credits.md`.
+
+## Sand Rats, Sharkfin Pirates and Soundless 5 NPCs (2026-10-10)
+
+Issues 52 and 53. Built with the same method as above (`actor:build` spec, then `build-<slug>-custom.ts`, then `import-npc.mjs --replace`). Ability scores below include the Human +1/+1/+1.
+
+| NPC | Build | CR | Script | Specs |
+|---|---|---|---|---|
+| Lady Soefra Anthem | Human Bard 11 (Bewitchment), Entertainer, Musician, Heart Strings | 9 | `build-soefra-custom.ts` | `soefra-spec.json` |
+| Khael Dhamar | Human Fighter 5 (Champion) / Rogue 3 (Thief), L8 | 5 | `build-khael-custom.ts` | `khael-spec.json`, `khael-rogue-spec.json` |
+| Cecilia Moore | Human Marksman 5 (Bounty Hunter) / Rogue 3 (Thief), L8 | 5 | `build-cecilia-custom.ts` | `cecilia-spec.json`, `cecilia-rogue-spec.json` |
+| Tariq Solen | Human Marksman 5 (Sniper) | 3 | `build-tariq-custom.ts` | `tariq-spec.json` |
+| Irik Fen | Human Rogue 8 (Fencer), Navigator, Dabu Dabu no Mi | 4 | `build-irik-custom.ts` | `irik-spec.json` |
+| Saeva Virell | Human Fighter 5 (Champion) / Barbarian 3 (Blade Master), Sailor, Deckhand | 5 | `build-saeva-custom.ts` | `saeva-spec.json`, `saeva-barbarian-spec.json` |
+| Vex | 2014 SRD Baboon copy | 0 | none | unchanged |
+
+- **Lady Soefra Anthem:** scores Str 8, Dex 15, Con 15, Int 10, Wis 13, Cha 20 (Con, Dex, Wis +1 being applied). HP 198 (override to the CR 9 band), DC 17, gown base AC 14. Balance features: Potent Creativity (+5 trick damage) and Soundless Crescendo (6d8 thunder, DC 17). Bard saves Dex/Cha. Placeholder art.
+- **Khael Dhamar:** Str 15, Dex 17, Con 15, Int 10, Wis 12, Cha 10. HP 138 (`5d10 + 3d8 + 16`). Dual Wielder, Two-Weapon Fighting, Multiple Weapon Style, Additional Strike, Armament Novice. Fighter saves Str/Con. Placeholder art.
+- **Cecilia Moore:** Str 8, Dex 19, Con 15, Int 10, Wis 15, Cha 10. HP 123 (balance override over real dice), Marksman saves Dex/Wis. Ricochet Rounds, Bounty Hunter creations, pistol, cutlass and dagger. Placeholder art.
+- **Tariq Solen:** Str 8, Dex 19, Con 13, Int 10, Wis 15, Cha 10. HP 72 (`5d10 + 5`), Marksman saves Dex/Wis, Archery style, Sniper creations (Advanced Weapon, Retreat, Grounding, Cloud of Daggers). No new art; default sheet image.
+- **Irik Fen:** Str 10, Dex 18, Con 15, Int 13, Wis 13, Cha 10. HP 123 (kept override, CR 4 band 100-115). Compendium Dabu Dabu no Mi with the Test Subject Clone summon (his Double), plus Bait and Switch. Mirror Image, Misty Step and Bait and Switch each spend a Devil Fruit Use. Uses = floor((8+1)/2) = 4, Paramecia +1 = 5 max, long rest.
+- **Saeva Virell:** male. Str 17, Dex 15, Con 17, Int 8, Wis 12, Cha 10. HP 138 (`5d10 + 3d12 + 32`). Styles Dueling, Versatile Fighting and Defense (Fighting Initiate); Scimitar Master. Rage damage bonus equals proficiency bonus, Strength-only by name (the mwak bonus cannot filter by ability). The Javelin stands in for the harpoon. Deckhand tool: Cook's Utensils.
+- **Vex:** 2014 SRD Baboon copy, CR 0, unchanged; placeholder art only.
+- **Sourcebook-strict rules used:** proficiency bonus from the table (not a fixed value), Marksman saves Dex/Wis, and the Devil Fruit Uses rule (+1 use every odd level, Paramecia +1). Art status in `docs/art-credits.md`. None played in a real fight.

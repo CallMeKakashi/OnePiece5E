@@ -29,3 +29,10 @@ Khael guarded Alabasta's royal caravans, then smuggled slaves to foreign merchan
 
 - [[Sand Rats]]
 - [[Freefield]]
+
+## Foundry build (bb-rehearsal, 2026-10-10)
+
+- **Human Fighter 5 (Champion) / Rogue 3 (Thief)**, level 8, **CR 5**. Str 15, Dex 17, Con 15, Int 10, Wis 12, Cha 10. HP 138.
+- Dual Wielder, Two-Weapon Fighting, Multiple Weapon Style, Additional Strike, Armament Novice, Sneak Attack, Cunning Action. No Devil Fruit.
+- Live folder: OP5E/Sand Rats.
+- Art status: placeholder (khael-new), does not match his description. Credit details in `docs/art-credits.md`. Rebuild steps: [op5e/docs/NPC-BUILDS.md](../../../../op5e/docs/NPC-BUILDS.md).

@@ -68,7 +68,7 @@ const creation = (name: string) => {
 };
 const have = new Set(actor.items.map((i) => i.name));
 const TRICKS = ["Vicious Mockery", "Mind Slash", "Whisper", "Guidance", "Thunder Bolt"];
-const SPELLS = ["Thunderwave", "Shatter", "Charm Person", "Healing Word", "Mass Healing Word", "Compulsion", "Confusion", "Greater Invisibility", "Charm Monster", "Freedom of Movement"]; // 4th level: 4 known, 3 slots
+const SPELLS = ["Thunderwave", "Shatter", "Charm Person", "Healing Word", "Mass Healing Word", "Compulsion"];
 for (const n of [...TRICKS, ...SPELLS]) if (!have.has(n)) actor.items.push(creation(n));
 
 // ---- 4. Gown: the chassis only carries Leather Armor, reflavoured as the stained-glass dress, light armour with base AC 14
@@ -98,6 +98,8 @@ actor.items.push(crescendo);
 
 // ---- 7. Numbers
 const sys = actor.system;
+// Human +1/+1/+1 (issue 54): Con, Dex, Wis +1 over the chassis 8/14/14/10/12/20
+for (const [k, v] of [["con", 15], ["dex", 15], ["wis", 13]] as const) { if (sys.abilities[k].value !== v - 1) throw new Error(`${k} not ${v - 1}`); sys.abilities[k].value = v; }
 sys.abilities.dex.proficient = 1; sys.abilities.cha.proficient = 1; // Bard saves
 const SKILL_ABILITY: Record<string, string> = { acr: "dex", ani: "wis", arc: "int", ath: "str", dec: "cha", his: "int", ins: "wis", itm: "cha", inv: "int", med: "wis", nat: "int", prc: "wis", prf: "cha", per: "cha", rel: "int", slt: "dex", ste: "dex", sur: "wis" };
 const PROF = new Set(["acr", "prf", "per", "dec", "ins", "his", "ani"]); // Entertainer, Bard, Musician
@@ -105,9 +107,9 @@ const EXPERT = new Set(["prf", "per", "dec", "ins"]); // Bard expertise at 3 and
 sys.skills = Object.fromEntries(Object.entries(SKILL_ABILITY).map(([k, ab]) => [k, { value: EXPERT.has(k) ? 2 : PROF.has(k) ? 1 : 0, ability: ab }]));
 sys.attributes.spellcasting = "cha";
 sys.spells = Object.fromEntries([4, 3, 3, 3, 2, 1, 0, 0, 0].map((max, i) => [`spell${i + 1}`, { value: max, max }]));
-sys.attributes.hp = { value: 198, max: 198, temp: 0, tempmax: 0, formula: "11d8 + 22" }; // real formula gives about 80; overridden to 198 for CR 9 (DMG hp 191-205)
+sys.attributes.hp = { value: 198, max: 198, temp: 0, tempmax: 0, formula: "11d8 + 22" }; // Con 15 = +2 x 11 levels = +22; real formula gives about 80; overridden to 198 for CR 9 (DMG hp 191-205)
 sys.details.cr = 9; sys.details.level = 11;
-sys.details.biography.value = "<p>Lady Soefra Anthem, one of the Soundless 5 and enforcer of silence in Decibella Kingdom. Twin sister of Sephra, and the jealous diva who had Cadence masked early. Tall and slender in a stained-glass gown, she conducts with a baton-blade and a loud, opera-trained voice.</p><p><strong>Balance note (CR 9):</strong> a straight Bard 11 is well under CR 9, so hit points are overridden to 198, the gown sets her AC, and Potent Creativity adds +5 to trick damage and Soundless Crescendo (6d8 thunder cone, DC 17) is a bespoke attack.</p>";
+sys.details.biography.value = "<p>Lady Soefra Anthem, one of the Soundless 5 and enforcer of silence in Decibella Kingdom. Twin sister of Sephra, and the jealous diva who had Cadence masked early. Human (+1 Constitution, Dexterity, Wisdom). Tall and slender in a stained-glass gown, she conducts with a baton-blade and a loud, opera-trained voice.</p><p><strong>Balance note (CR 9):</strong> a straight Bard 11 is well under CR 9, so hit points are overridden to 198, the gown sets her AC, and Potent Creativity adds +5 to trick damage and Soundless Crescendo (6d8 thunder cone, DC 17) is a bespoke attack.</p>";
 actor.name = "Lady Soefra Anthem";
 actor.img = PORTRAIT;
 actor.prototypeToken = { ...(actor.prototypeToken ?? {}), texture: { ...(actor.prototypeToken?.texture ?? {}), src: TOKEN } };
@@ -129,6 +131,15 @@ for (const [n, dice] of [["Vicious Mockery", 3], ["Mind Slash", 3], ["Thunder Bo
   it.system.damage.parts = it.system.damage.parts.map(([f, t]: [string, string]) => [f.replace(/^\d+/, String(dice)), t]);
   for (const a of acts(n)) for (const p of a.damage?.parts ?? []) { p.number = dice; p.bonus = "@abilities.cha.mod"; }
 }
+// Mesmerizing Words (Bewitchment 3): expend a Bardic Inspiration use to add one extra die (same size as the Bardic Inspiration die) to a damaging or healing bard creation roll
+const bi = actor.items.find((i) => i.name === "Bardic Inspiration")!;
+const mw = actor.items.find((i) => i.name === "Mesmerizing Words")!;
+mw.system.activities = { mesmerizingWord0: { _id: "mesmerizingWord0", type: "utility", name: "Expend Bardic Inspiration", sort: 0,
+  activation: { type: "special", value: null, condition: "When you use a bard creation that deals damage or restores hit points", override: false },
+  consumption: { targets: [{ type: "itemUses", target: bi._id, value: "1", scaling: {} }], scaling: { allowed: false, max: "" }, spellSlot: false },
+  description: { chatFlavor: "Extra die added to the creation's damage or healing roll" }, duration: { units: "inst", concentration: false, override: false }, effects: [],
+  range: { override: false }, target: { template: { contiguous: false, units: "" }, affects: { choice: false }, prompt: true, override: false },
+  uses: { spent: 0, max: "", recovery: [] }, roll: { formula: "@scale.bard.bardic-inspiration", name: "Extra die", prompt: false, visible: true } } };
 const summons = standaloneSummons(actor.items, ACTORS, "soefra");
 console.log(`Summon files: ${summons.join(", ") || "none"}`);
 writeFileSync(`${ACTORS}/soefra.json`, JSON.stringify(actor, null, 2), "utf-8");

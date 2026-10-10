@@ -45,3 +45,10 @@ traits:
 - name: Compulsion (Legacy)
   desc: "Creatures of your choice that you can see within range and that can hear you must make a . A target automatically succeeds on this saving throw if it can't be charmed. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take its action..."
 ```
+
+## Foundry build (bb-rehearsal, 2026-10-10)
+
+- Male **Human Fighter 5 (Champion) / Barbarian 3 (Blade Master)**, Sailor, Deckhand, **CR 5**. Str 17, Dex 15, Con 17, Int 8, Wis 12, Cha 10. HP 138.
+- Dueling, Versatile Fighting, Defense, Scimitar Master, Rage (damage bonus = proficiency, Strength attacks only), Reckless Attack. Javelin stands in for the harpoon. No Devil Fruit.
+- Live folder: OP5E/Sharkfin Pirates.
+- Art status: new art (saeva-new), picked by the user. Credit details in `docs/art-credits.md`. Rebuild steps: [op5e/docs/NPC-BUILDS.md](../../../../op5e/docs/NPC-BUILDS.md).
