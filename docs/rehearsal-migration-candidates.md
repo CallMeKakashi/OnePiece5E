@@ -53,7 +53,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 - [x] Serica Corven and Veyl Corven (Sixfolds) [migrate]
 - [ ] Chuckles, Giggles, Snickers, Wheeze (Circle of Clowns, empty stubs) [low priority]
 - [ ] Marine Warship (vehicle) and SeaBeast - Hermit Crab [low priority]
-- [x] Commander Leon (built), [ ] Drez Crown (CR 10), Petty Officer Marine (CR 2) in OpenSea [migrate if used]
+- [x] Commander Leon (built), [x] Drez Crown (built), Petty Officer Marine (CR 2) in OpenSea [migrate if used]
 - [ ] Alice (CR 10), Jazmine (CR 5), Cassian Valehart, Merlin, Pegasus [unclear, tell me which matter]
 
 **Freefield (10 pirates and locals)**
@@ -122,4 +122,5 @@ Not mentioned yet, still in place: Drez Crown, Petty Officer Marine (OpenSea), A
 
 - **Marine Ensign (Armor Mk IV): done** (`OP5E/Marines`, Augmented Cyborg Gadgeteer 9 Armorer, CR 7, HP 150, AC 20). Next: Commander Leon.
 
-- **Commander Leon: done** (`OP5E/Marines`, Human Fighter 6 Samurai / Brawler 6 Six Powers Master, CR 10, HP 210, AC 18). Art done. Next: Drez Crown.
+- **Commander Leon: done** (`OP5E/Marines`, Human Fighter 6 Samurai / Brawler 6 Six Powers Master, CR 10, HP 210, AC 18). Art done. Next: Petty Officer Marine.
+- **Drez Crown: done** (`OP5E/Marines`, Human Marksman 10 Sniper, CR 10, HP 165, AC 17). Art done. Next: Petty Officer Marine.

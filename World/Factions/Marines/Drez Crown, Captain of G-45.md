@@ -24,6 +24,10 @@ foundry_live_slug: "drez-crown-captain-of-g-45"
 
 - [[Marines]]
 - [[Commodore Briggs]]
+## Foundry build
+
+Rebuilt 2026-10-10 in `bb-rehearsal` (`OP5E/Marines`): Human Marksman 10 (Sniper), Marine/Soldier, Role: Captain, CR 10, HP 165 (override), AC 17. Fights with a Musket and Dagger; Observation Haki (Novice, Apprentice); the old Copy-Copy Clone became the **Holo-Decoy** gadget (2 per short rest). Details in `op5e/docs/NPC-BUILDS.md`. The statblock below is the legacy sheet.
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

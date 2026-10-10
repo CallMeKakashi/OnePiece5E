@@ -165,3 +165,14 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 - Fruit: the compendium Mera Mera no Mi item, Logia Elemental Domain, Logia Improved Elemental Domain, Devil Fruit Uses (6, Logia table at level 11), Fruit-Fruit DC 17 (highest modifier is Dex), Ocean's Scorn. Powers are reflavoured creations, one use each: Flame body = Embody Flames, Flame slash = Burning Blade, Fire burst = Fireball, Flame command = Fire Bolt and Wall of Fire.
 - All six Rokushiki techniques (level 6). The longcoat gives AC 16, so Leon fights unarmoured; the coat is carried. Phase 2 ignition is the Logia transformation, not a separate form.
 - Live in `OP5E/Marines`. Art is the user's pin (`Marines/leon-new.jpg`, logged in `docs/art-credits.md`); it only loosely matches the brief. Not played in a real fight.
+
+## Drez Crown (2026-10-10)
+
+`build-drez-custom.ts`, spec `drez-spec.json`. Human Marksman 10 (Sniper), Marine/Soldier, Role: Captain, no fruit, no additional power. Scores 9/20/15/13/15/11 (point-buy 15/14/13/12/10/8 on Dex/Con/Wis/Int/Cha/Str, Human +1 all, Light Armor Master Dex +1, level 4 ASI Dex +2, level 8 ASI Dex +1 and Wis +1). Feats: Light Armor Master (background), Alert (Captain). Fighting Style Archery. Deft Explorer: Canny (expertise Perception and Stealth), Roving, Tireless. Haki: Observation Novice, Observation Apprentice. Skills: Perception, Acrobatics, Stealth, Investigation, Insight, Intimidation. Gear: Musket, Dagger, Heavy Longcoat, Explorer's Pack, Firearms Bullets.
+
+| NPC | CR | HP | AC |
+|---|---|---|---|
+| Drez Crown, Captain of G-45 | 10 | 165 (override, the legacy value; real about 95; the DMG CR 10 band is 206-220, so he is under-tanked) | 17 (Heavy Longcoat) |
+
+- The legacy Copy-Copy Clone is the **Holo-Decoy** gadget feature (bonus action, 60 ft, 2 per short rest, DC 16 Investigation to pick the real one), a bespoke feat with a utility activity; the attack-disadvantage effect is text only. Legacy Marked Target, Displacement Shot, Camouflage Position and Sniper's Patience were dropped for the compendium Sniper kit.
+- Live in `OP5E/Marines`, replacing the old stub. Art is the user's pick (`Marines/drez-new.jpg`, token cropped locally), logged in `docs/art-credits.md`. Not played in a real fight.
