@@ -6353,7 +6353,7 @@
       }
     },
     {
-      "_id": "c4cf62e83ca27a3f",
+      "_id": "2d62f786e98a24cb",
       "name": "Buki Buki no Mi",
       "type": "loot",
       "img": "modules/op5e/assets/icons/devil-fruit-paramecia.svg",
@@ -6401,7 +6401,7 @@
       "_key": "!items!6280dd1ec0742cba"
     },
     {
-      "_id": "fc70f0254ee577c0",
+      "_id": "73b2ccba8c3e633e",
       "name": "Devil Fruit Uses",
       "type": "feat",
       "img": "icons/skills/melee/strike-blade-blood-red.webp",
@@ -6564,7 +6564,7 @@
       "_key": "!items!f1b6a1ceb52e6d43"
     },
     {
-      "_id": "b608e7225381a135",
+      "_id": "6736c68388e0c1ae",
       "name": "Devil Fruit Ability Check, Fruit-Fruit DC and Attack",
       "type": "feat",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
@@ -6958,7 +6958,7 @@
       "_key": "!items!990dca216575f1bd"
     },
     {
-      "_id": "bc19da1c5e5af134",
+      "_id": "d914809d67fbc9a3",
       "name": "Ocean's Scorn",
       "type": "feat",
       "img": "icons/magic/water/projectile-ice-faceted-blue.webp",
@@ -7775,7 +7775,7 @@
       "_key": "!items!6e9d7ec2ca209e1e"
     },
     {
-      "_id": "8734d51f159312f7",
+      "_id": "8e0cfecb88472b73",
       "name": "Paramecia Improved Usage",
       "type": "feat",
       "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
@@ -8121,7 +8121,7 @@
       }
     },
     {
-      "_id": "ab5667589e0f006d",
+      "_id": "fe2ade60f5c2220b",
       "name": "Cannon Master",
       "type": "feat",
       "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
@@ -8321,7 +8321,7 @@
       "_key": "!items!57528d5375006d33"
     },
     {
-      "_id": "47728093e939a1d6",
+      "_id": "09675cfd9a36c85c",
       "name": "Savage Attacker",
       "type": "feat",
       "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
@@ -8445,7 +8445,7 @@
       "_key": "!items!a512f3c7195ed5ae"
     },
     {
-      "_id": "cfd44d30a87c1981",
+      "_id": "9b009b27596fd51c",
       "name": "Color of Armament Apprentice",
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-white.webp",
@@ -8630,7 +8630,7 @@
       "_key": "!items!c04321ae3bf3215f"
     },
     {
-      "_id": "952165b15246b874",
+      "_id": "cfd6912d3b9ad4f3",
       "name": "Color of Observation Novice",
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-white.webp",
@@ -8838,7 +8838,7 @@
       "_key": "!items!96dcda2a40ae256f"
     },
     {
-      "_id": "d01b6d0f6493ed0c",
+      "_id": "012e095ffc181901",
       "name": "Pon Pon Pon (formed Pistol)",
       "type": "weapon",
       "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
@@ -9012,7 +9012,7 @@
       "_key": "!items!d9c7acb32b8b5670"
     },
     {
-      "_id": "e45f514fc86c7c22",
+      "_id": "07149a4c061a6428",
       "name": "Barrage",
       "type": "spell",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
@@ -9108,7 +9108,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "fc70f0254ee577c0",
+                  "target": "73b2ccba8c3e633e",
                   "value": "1",
                   "scaling": {}
                 }
@@ -9195,7 +9195,7 @@
       }
     },
     {
-      "_id": "7614542a20ea78e6",
+      "_id": "85319447c6f34d10",
       "name": "Construct Cannon",
       "type": "spell",
       "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
@@ -9291,7 +9291,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "fc70f0254ee577c0",
+                  "target": "73b2ccba8c3e633e",
                   "value": "1",
                   "scaling": {}
                 }
@@ -9371,7 +9371,7 @@
       }
     },
     {
-      "_id": "10609a8a73507a2d",
+      "_id": "5f4e1960cea67f7c",
       "name": "Burning Blade",
       "type": "spell",
       "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
@@ -9566,7 +9566,7 @@
       }
     },
     {
-      "_id": "9c700a27f03934fd",
+      "_id": "10aa9c0b567a34af",
       "name": "Snatch (Buki Buki no Mi)",
       "type": "feat",
       "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
@@ -9644,7 +9644,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "fc70f0254ee577c0",
+                  "target": "73b2ccba8c3e633e",
                   "value": "1",
                   "scaling": {}
                 }
@@ -9731,7 +9731,7 @@
       }
     },
     {
-      "_id": "9a1b5aa4c001df21",
+      "_id": "f7d6aea8aed9f4f3",
       "name": "Precision Attack",
       "type": "feat",
       "img": "icons/skills/melee/strike-blade-blood-red.webp",
@@ -9909,6 +9909,293 @@
         "lastModifiedBy": null
       },
       "_key": "!items!738fc9bcfbd1b11b"
+    },
+    {
+      "_id": "c526f5f878c81e73",
+      "name": "Menacing Attack",
+      "type": "feat",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Battlemaster 3",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "activities": {
+          "f677a42aec205278": {
+            "_id": "f677a42aec205278",
+            "type": "damage",
+            "name": "Add Die to Damage",
+            "sort": 0,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Expend one superiority die (Superior Combatant > Expend Superiority Die). "
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "critical": {
+                "allow": false,
+                "bonus": ""
+              },
+              "parts": [
+                {
+                  "number": null,
+                  "denomination": null,
+                  "bonus": "",
+                  "types": [],
+                  "custom": {
+                    "enabled": true,
+                    "formula": "@scale.battlemaster.superiority-die"
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          },
+          "71749d4b7d1d3118": {
+            "_id": "71749d4b7d1d3118",
+            "type": "save",
+            "name": "Frighten (Wisdom Save)",
+            "sort": 1,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "martial-adept",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "On a failed save the target is frightened of you until the end of your next turn."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "82d763696d700b53",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "8 + @prof + max(@abilities.str.mod, @abilities.dex.mod)"
+              }
+            }
+          }
+        },
+        "advancement": []
+      },
+      "effects": [
+        {
+          "_id": "82d763696d700b53",
+          "name": "Frightened by Menacing Attack",
+          "img": "icons/svg/terror.svg",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": 2,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dae": {
+              "transfer": false,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [
+            "frightened"
+          ],
+          "tint": null,
+          "_key": "!items.effects!ae49e1ec49c1e5a7.82d763696d700b53"
+        }
+      ],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items!ae49e1ec49c1e5a7"
     }
   ],
   "_id": "7c464993bd558ec5",
