@@ -1,7 +1,7 @@
 {
-  "name": "Irik Fen",
+  "name": "May",
   "type": "npc",
-  "img": "one-piece-5e/npcs/SharkFin Pirates/irik-new.jpg",
+  "img": "",
   "effects": [],
   "flags": {
     "op5e": {
@@ -22,7 +22,7 @@
   "system": {
     "abilities": {
       "str": {
-        "value": 10,
+        "value": 8,
         "proficient": 0,
         "bonuses": {
           "check": "",
@@ -38,7 +38,7 @@
         }
       },
       "con": {
-        "value": 15,
+        "value": 14,
         "proficient": 0,
         "bonuses": {
           "check": "",
@@ -46,7 +46,7 @@
         }
       },
       "int": {
-        "value": 14,
+        "value": 12,
         "proficient": 1,
         "bonuses": {
           "check": "",
@@ -54,7 +54,7 @@
         }
       },
       "wis": {
-        "value": 13,
+        "value": 12,
         "proficient": 0,
         "bonuses": {
           "check": "",
@@ -62,7 +62,7 @@
         }
       },
       "cha": {
-        "value": 8,
+        "value": 12,
         "proficient": 0,
         "bonuses": {
           "check": "",
@@ -77,11 +77,11 @@
         "formula": ""
       },
       "hp": {
-        "value": 123,
-        "max": 123,
+        "value": 148,
+        "max": 148,
         "temp": 0,
         "tempmax": 0,
-        "formula": "8d8 + 16"
+        "formula": "9d8 + 27"
       },
       "init": {
         "ability": "dex",
@@ -112,7 +112,7 @@
         "units": "ft",
         "special": ""
       },
-      "spellcasting": "int",
+      "spellcasting": "",
       "exhaustion": 0,
       "concentration": {
         "ability": "",
@@ -132,11 +132,11 @@
         }
       },
       "inspiration": false,
-      "prof": 4
+      "prof": 5
     },
     "details": {
       "biography": {
-        "value": "<p>Irik \"Two-Tide\" Fen, former navigator of the Sharkfin Pirates, now in the service of another pirate after the party killed his captain. Eater of the Dabu Dabu no Mi: his Double fights beside him and he swaps places with it at will.</p><p><strong>Balance note (CR 4):</strong> his damage is below CR 5, so he is rated CR 4; hit points are kept at the 123 override (the real formula is 8d8 + 16, Con 15).</p><p>Human trait: +1 Con, Int, Wis (Con 15, Int 14, Wis 13).</p>",
+        "value": "<p>May, a pirate lieutenant in floral clothing. Rogue 9 (Assassin), CR 6: hit points raised to the CR 6 band, Veteran's Edge adds +3d6 weapon damage.</p>",
         "public": ""
       },
       "alignment": "neutral",
@@ -151,8 +151,8 @@
         "swarm": "",
         "swarmSize": ""
       },
-      "cr": 4,
-      "level": 8,
+      "cr": 6,
+      "level": 9,
       "spellLevel": 0
     },
     "skills": {
@@ -169,7 +169,7 @@
         "ability": "int"
       },
       "ath": {
-        "value": 0,
+        "value": 1,
         "ability": "str"
       },
       "dec": {
@@ -189,7 +189,7 @@
         "ability": "cha"
       },
       "inv": {
-        "value": 1,
+        "value": 0,
         "ability": "int"
       },
       "med": {
@@ -197,11 +197,11 @@
         "ability": "wis"
       },
       "nat": {
-        "value": 1,
+        "value": 0,
         "ability": "int"
       },
       "prc": {
-        "value": 2,
+        "value": 0,
         "ability": "wis"
       },
       "prf": {
@@ -209,7 +209,7 @@
         "ability": "cha"
       },
       "per": {
-        "value": 0,
+        "value": 1,
         "ability": "cha"
       },
       "rel": {
@@ -217,7 +217,7 @@
         "ability": "int"
       },
       "slt": {
-        "value": 0,
+        "value": 2,
         "ability": "dex"
       },
       "ste": {
@@ -225,7 +225,7 @@
         "ability": "dex"
       },
       "sur": {
-        "value": 1,
+        "value": 0,
         "ability": "wis"
       }
     },
@@ -258,17 +258,21 @@
         "custom": ""
       },
       "weaponProf": {
-        "value": [],
-        "custom": ""
+        "value": [
+          "sim"
+        ],
+        "custom": "hand crossbows, longswords, rapiers, shortswords, firearms"
       },
       "armorProf": {
-        "value": [],
+        "value": [
+          "lgt"
+        ],
         "custom": ""
       }
     },
     "currency": {
       "pp": 0,
-      "gp": 50000,
+      "gp": 150000,
       "ep": 0,
       "sp": 0,
       "cp": 0
@@ -276,7 +280,7 @@
   },
   "items": [
     {
-      "_id": "3214049b1c0d18e3",
+      "_id": "4bfaeb73dfd73602",
       "name": "Human",
       "type": "race",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -499,13 +503,13 @@
       }
     },
     {
-      "_id": "5d789cf2ceb83b55",
-      "name": "Navigator",
+      "_id": "8f563cf4edc54a30",
+      "name": "Pirate",
       "type": "background",
-      "img": "icons/sundries/documents/document-sealed-brown-red.webp",
+      "img": "icons/weapons/swords/scimitar-guard-gold.webp",
       "system": {
         "description": {
-          "value": "<p>You guided sea vessels for many years, studying the way of weather and waves. Your keen senses have granted you one of the most sought skills in the world.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Perception, Investigation, Survival, and Nature</p>\n<p><strong>Tool Proficiencies:</strong> Cartographer's Tools or Navigator's Tools, Water Vehicles</p>\n<p><strong>Equipment:</strong> A map of the surrounding area within 100 nautical miles; Rations &times;10; Cartographer's or Navigator's tools</p>\n<h4>Feature: Keen Eye</h4>\n<p>Your training has given you a keen eye for even the slightest of changes. You gain your choice of the Observant Feat or the Master Navigator Feat.</p>",
+          "value": "<p>You spent your youth under the sway of a dread pirate, a ruthless cutthroat who taught you how to survive in a world of sharks and savages. You've indulged in larceny on the high seas and sent more than one deserving soul to a briny grave.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Athletics, Intimidation, Perception, and Deception</p>\n<p><strong>Tool Proficiencies:</strong> Water Vehicles</p>\n<p><strong>Equipment:</strong> 100,000 Berries; 2 Small Medkits; Rations &times;10</p>\n<h4>Feature: Never Ending Battles</h4>\n<p>Your life has been on dangerous waters, making you always prepared for the worst. You gain your choice of the Alert Feat or the Free Diver Feat.</p>",
           "chat": ""
         },
         "source": {
@@ -516,22 +520,24 @@
         },
         "advancement": [
           {
-            "_id": "6280ae5db90c075e",
+            "_id": "c57fb5582abe58d7",
             "type": "ItemGrant",
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.430fcfa33a4d79a0",
+                  "uuid": "Actor.a537b65a94644023.Item.a2170fdd0873b5ce",
                   "optional": false,
-                  "quantity": 10
+                  "quantity": 2
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.5c56a616f722a392",
-                  "optional": false
+                  "uuid": "Actor.a537b65a94644023.Item.84f121164d9f21e4",
+                  "optional": false,
+                  "quantity": 10
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.1f287e373b571490.Item.430fcfa33a4d79a0": 10
+                "Actor.a537b65a94644023.Item.a2170fdd0873b5ce": 2,
+                "Actor.a537b65a94644023.Item.84f121164d9f21e4": 10
               }
             },
             "value": {},
@@ -542,46 +548,7 @@
             "hint": ""
           },
           {
-            "_id": "97436fc852825891",
-            "type": "ItemChoice",
-            "configuration": {
-              "allowDrops": false,
-              "choices": {
-                "0": {
-                  "count": 1,
-                  "replacement": false
-                }
-              },
-              "pool": [
-                {
-                  "uuid": "Actor.1f287e373b571490.Item.c84d47488e05411a"
-                },
-                {
-                  "uuid": "Actor.1f287e373b571490.Item.4edc358b43c7cbeb"
-                }
-              ],
-              "restriction": {
-                "type": "tool",
-                "subtype": "",
-                "level": "",
-                "list": []
-              },
-              "spell": null,
-              "type": "tool"
-            },
-            "value": {
-              "ability": "",
-              "added": {},
-              "replaced": {}
-            },
-            "level": 0,
-            "title": "Tools",
-            "icon": "",
-            "classRestriction": "",
-            "hint": ""
-          },
-          {
-            "_id": "d438f6e53bace53b",
+            "_id": "63fb47282811c672",
             "type": "Trait",
             "configuration": {
               "mode": "default",
@@ -590,15 +557,15 @@
                 {
                   "count": 2,
                   "pool": [
+                    "skills:ath",
+                    "skills:itm",
                     "skills:prc",
-                    "skills:inv",
-                    "skills:sur",
-                    "skills:nat"
+                    "skills:dec"
                   ]
                 }
               ],
               "allowReplacements": true,
-              "hint": "2 from Perception, Investigation, Survival, and Nature"
+              "hint": "2 from Athletics, Intimidation, Perception, and Deception"
             },
             "value": {},
             "level": 0,
@@ -608,24 +575,16 @@
             "hint": ""
           },
           {
-            "_id": "3ecbcc7983678335",
+            "_id": "ad4c36d8cd321780",
             "type": "Trait",
             "configuration": {
               "mode": "default",
               "grants": [
                 "tool:water"
               ],
-              "choices": [
-                {
-                  "count": 1,
-                  "pool": [
-                    "tool:cartographer",
-                    "tool:navg"
-                  ]
-                }
-              ],
+              "choices": [],
               "allowReplacements": true,
-              "hint": "Cartographer's Tools or Navigator's Tools, Water Vehicles"
+              "hint": "Water Vehicles"
             },
             "value": {},
             "level": 0,
@@ -635,7 +594,7 @@
             "hint": ""
           },
           {
-            "_id": "47eabcf111b3b2d1",
+            "_id": "e6e2a0c72bca060a",
             "type": "ItemChoice",
             "configuration": {
               "allowDrops": false,
@@ -646,10 +605,10 @@
                 }
               },
               "pool": [
-                {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.61fe83f9884ce5a9"
-                }
+                  "uuid": "Actor.a537b65a94644023.Item.1863908b3aee2261"
+                },
+                {}
               ],
               "restriction": {
                 "type": "feat",
@@ -676,9 +635,10 @@
       "effects": [],
       "flags": {
         "op5e": {
-          "startingBeri": 0,
+          "startingBeri": 100000,
           "grantQuantities": {
-            "Actor.1f287e373b571490.Item.430fcfa33a4d79a0": 10
+            "Actor.a537b65a94644023.Item.a2170fdd0873b5ce": 2,
+            "Actor.a537b65a94644023.Item.84f121164d9f21e4": 10
           }
         }
       },
@@ -699,7 +659,7 @@
       }
     },
     {
-      "_id": "e4d27e2da02d22f5",
+      "_id": "377cb7cfb6227bc6",
       "name": "Role: Navigator",
       "type": "feat",
       "img": "icons/skills/melee/blade-tip-orange.webp",
@@ -768,33 +728,33 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.8d5f5658833d93be",
+                  "uuid": "Actor.a537b65a94644023.Item.df26cdb6221a0b47",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.c84d47488e05411a",
+                  "uuid": "Actor.a537b65a94644023.Item.36240cd1ac362e6c",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.4edc358b43c7cbeb",
+                  "uuid": "Actor.a537b65a94644023.Item.45251b2b92383151",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.9e7fd2c7122db5a9",
+                  "uuid": "Actor.a537b65a94644023.Item.110ad373fd010953",
                   "optional": false,
                   "quantity": 5
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.58f3078e8187d4b4",
+                  "uuid": "Actor.a537b65a94644023.Item.3fcd50a51de8414d",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.3788b1311a9d7a76",
+                  "uuid": "Actor.a537b65a94644023.Item.032066ad1bd065c9",
                   "optional": false
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.1f287e373b571490.Item.9e7fd2c7122db5a9": 5
+                "Actor.a537b65a94644023.Item.110ad373fd010953": 5
               }
             },
             "value": {},
@@ -869,10 +829,10 @@
                 {},
                 {},
                 {},
-                {
-                  "uuid": "Actor.1f287e373b571490.Item.6ad0946ad3737958"
-                },
                 {},
+                {
+                  "uuid": "Actor.a537b65a94644023.Item.1ffced6128b48a08"
+                },
                 {}
               ],
               "restriction": {
@@ -903,7 +863,7 @@
           "shipRole": true,
           "startingBeri": 50000,
           "grantQuantities": {
-            "Actor.1f287e373b571490.Item.9e7fd2c7122db5a9": 5
+            "Actor.a537b65a94644023.Item.110ad373fd010953": 5
           }
         }
       },
@@ -924,7 +884,7 @@
       }
     },
     {
-      "_id": "8d5f5658833d93be",
+      "_id": "df26cdb6221a0b47",
       "name": "Clothes, Common",
       "type": "loot",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -969,7 +929,59 @@
       }
     },
     {
-      "_id": "d19c087541580166",
+      "_id": "36240cd1ac362e6c",
+      "name": "Cartographer's Tools",
+      "type": "tool",
+      "img": "icons/sundries/documents/document-sealed-brown-red.webp",
+      "system": {
+        "description": {
+          "value": "",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 6,
+          "units": "lb"
+        },
+        "price": {
+          "value": 150000,
+          "denomination": "gp"
+        },
+        "rarity": "common",
+        "ability": "int",
+        "chatFlavor": "",
+        "proficient": 0,
+        "type": {
+          "value": "art",
+          "baseItem": "cartographer"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "45251b2b92383151",
       "name": "Navigator's Tools",
       "type": "tool",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -984,7 +996,7 @@
           "custom": "",
           "license": ""
         },
-        "quantity": 2,
+        "quantity": 1,
         "weight": {
           "value": 2,
           "units": "lb"
@@ -996,7 +1008,7 @@
         "rarity": "common",
         "ability": "wis",
         "chatFlavor": "",
-        "proficient": 1,
+        "proficient": 0,
         "type": {
           "value": "art",
           "baseItem": "navg"
@@ -1021,7 +1033,7 @@
       }
     },
     {
-      "_id": "9e7fd2c7122db5a9",
+      "_id": "110ad373fd010953",
       "name": "Sea Charts, Local",
       "type": "loot",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -1066,7 +1078,7 @@
       }
     },
     {
-      "_id": "58f3078e8187d4b4",
+      "_id": "3fcd50a51de8414d",
       "name": "Ink (1 ounce bottle)",
       "type": "loot",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -1111,7 +1123,7 @@
       }
     },
     {
-      "_id": "3788b1311a9d7a76",
+      "_id": "032066ad1bd065c9",
       "name": "Ink Pen",
       "type": "loot",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -1156,7 +1168,7 @@
       }
     },
     {
-      "_id": "68c5b41ec1b10f46",
+      "_id": "3fec6238cd3d2a61",
       "name": "Rogue",
       "type": "class",
       "img": "icons/weapons/daggers/dagger-serrated-black.webp",
@@ -1172,7 +1184,7 @@
           "license": ""
         },
         "identifier": "rogue",
-        "levels": 8,
+        "levels": 9,
         "hitDice": "d8",
         "hitDiceUsed": 0,
         "advancement": [
@@ -1193,25 +1205,25 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.2356be805dbadfab",
+                  "uuid": "Actor.a537b65a94644023.Item.2f1df7cf0e3c6609",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.79a6ec3223e32709",
+                  "uuid": "Actor.a537b65a94644023.Item.ad310440f97962fa",
                   "optional": false,
                   "quantity": 2
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.e8c45e2a2a7a7ef5",
+                  "uuid": "Actor.a537b65a94644023.Item.e18f7719fb0f6c3a",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.96e01cee5afb023c",
+                  "uuid": "Actor.a537b65a94644023.Item.bec28c754849e073",
                   "optional": false
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.1f287e373b571490.Item.79a6ec3223e32709": 2
+                "Actor.a537b65a94644023.Item.ad310440f97962fa": 2
               }
             },
             "value": {},
@@ -1234,9 +1246,11 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.8c9362997556a401"
+                  "uuid": "Actor.a537b65a94644023.Item.d0a86beb56890973"
                 },
-                {}
+                {
+                  "uuid": "Actor.a537b65a94644023.Item.3a208c19ddebb83e"
+                }
               ],
               "restriction": {
                 "type": "weapon",
@@ -1270,10 +1284,10 @@
                 }
               },
               "pool": [
+                {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.7038f6b0a6ed9816"
-                },
-                {}
+                  "uuid": "Actor.a537b65a94644023.Item.3a208c19ddebb83e"
+                }
               ],
               "restriction": {
                 "type": "weapon",
@@ -1307,11 +1321,11 @@
                 }
               },
               "pool": [
-                {},
-                {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.5f2a6086714e1348"
-                }
+                  "uuid": "Actor.a537b65a94644023.Item.a8cac11f580c0630"
+                },
+                {},
+                {}
               ],
               "restriction": {
                 "type": "loot",
@@ -1584,15 +1598,15 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.3c4368887da7bdf1",
+                  "uuid": "Actor.a537b65a94644023.Item.3e63474f69ff9b84",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.75f65543464fd404",
+                  "uuid": "Actor.a537b65a94644023.Item.1c74e7cee0d19c79",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.6e94ed20e3be84f9",
+                  "uuid": "Actor.a537b65a94644023.Item.94819e4e20b668ba",
                   "optional": false
                 }
               ]
@@ -1610,7 +1624,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.58b3b58e2e2b944e",
+                  "uuid": "Actor.a537b65a94644023.Item.9f30bfee8f8e1de0",
                   "optional": false
                 }
               ]
@@ -1628,7 +1642,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.55bd90f75de52d44",
+                  "uuid": "Actor.a537b65a94644023.Item.844a94e98a2e7479",
                   "optional": false
                 }
               ]
@@ -1646,11 +1660,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.f976625660f875fd",
+                  "uuid": "Actor.a537b65a94644023.Item.3bdb6f0f0ffc92cd",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.bb90fba8cbc20d71",
+                  "uuid": "Actor.a537b65a94644023.Item.44e19f9b8dda95b3",
                   "optional": false
                 }
               ]
@@ -1668,7 +1682,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.cda7432ee32e3460",
+                  "uuid": "Actor.a537b65a94644023.Item.5c35dc0f4fad773c",
                   "optional": false
                 }
               ]
@@ -1711,7 +1725,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.2e8f28611f2f729b",
+                  "uuid": "Actor.a537b65a94644023.Item.a5ae320706082d73",
                   "optional": false
                 }
               ]
@@ -1919,7 +1933,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.17a1da8e3cfb7460"
+                  "uuid": "Actor.a537b65a94644023.Item.7c643cf612f7a2e7"
                 },
                 {},
                 {},
@@ -1970,7 +1984,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.17a1da8e3cfb7460"
+                  "uuid": "Actor.a537b65a94644023.Item.7c643cf612f7a2e7"
                 },
                 {},
                 {},
@@ -2021,7 +2035,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.17a1da8e3cfb7460"
+                  "uuid": "Actor.a537b65a94644023.Item.7c643cf612f7a2e7"
                 },
                 {},
                 {},
@@ -2072,7 +2086,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.17a1da8e3cfb7460"
+                  "uuid": "Actor.a537b65a94644023.Item.7c643cf612f7a2e7"
                 },
                 {},
                 {},
@@ -2123,7 +2137,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.17a1da8e3cfb7460"
+                  "uuid": "Actor.a537b65a94644023.Item.7c643cf612f7a2e7"
                 },
                 {},
                 {},
@@ -2170,7 +2184,7 @@
               "pool": [
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.735cf45506a4cced"
+                  "uuid": "Actor.a537b65a94644023.Item.0e39521bdb254a86"
                 },
                 {},
                 {},
@@ -2217,7 +2231,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.3c72795129312ddf"
+                  "uuid": "Actor.a537b65a94644023.Item.1c48b421394c1a04"
                 }
               ],
               "restriction": {
@@ -2251,7 +2265,7 @@
       "flags": {
         "op5e": {
           "grantQuantities": {
-            "Actor.1f287e373b571490.Item.79a6ec3223e32709": 2
+            "Actor.a537b65a94644023.Item.ad310440f97962fa": 2
           }
         }
       },
@@ -2272,13 +2286,13 @@
       }
     },
     {
-      "_id": "39475d92f478826b",
-      "name": "Fencer",
+      "_id": "bb2c12df2ac08996",
+      "name": "Assassin",
       "type": "subclass",
-      "img": "icons/weapons/daggers/dagger-curved-blue.webp",
+      "img": "icons/skills/melee/strike-blade-blood-red.webp",
       "system": {
         "description": {
-          "value": "<p>Very few are faster and more precise in combat than the adept fencer. Your expertise in dodging, parrying, and lunging make you essentially a blur of metal to your opponent. Many fencers make the most of their dexterity to avoid any unfavorable attack, move with great acrobatic expertise, and are able to strike through even the toughest of armor.</p>",
+          "value": "<p>Assassins are rogues who are stealthy killers, working from the shadows, pirates that rely on subterfuge. You become a silent killer who can disappear in a crowd and strike down enemies before they even know what hit them, wielding deadly abilities that slip them in and out of any situation.</p>",
           "chat": ""
         },
         "source": {
@@ -2287,20 +2301,20 @@
           "custom": "",
           "license": ""
         },
-        "identifier": "fencer",
+        "identifier": "assassin",
         "classIdentifier": "rogue",
         "advancement": [
           {
-            "_id": "746d575b374c87d8",
+            "_id": "fcf532b2d3e5c29a",
             "type": "ItemGrant",
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.3dd1e36571eb1caf",
+                  "uuid": "Actor.a537b65a94644023.Item.e8492dd85e0a981b",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.28efa26572e6abd3",
+                  "uuid": "Actor.a537b65a94644023.Item.d0a84a11259fe769",
                   "optional": false
                 }
               ]
@@ -2313,12 +2327,12 @@
             "hint": ""
           },
           {
-            "_id": "4642f274320b4966",
+            "_id": "72917f7a61fe41f9",
             "type": "ItemGrant",
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.bd4b12c68f2768f5",
+                  "uuid": "Actor.a537b65a94644023.Item.8fbf143cf4bc8414",
                   "optional": false
                 }
               ]
@@ -2331,11 +2345,12 @@
             "hint": ""
           },
           {
-            "_id": "3f314003c3bfc336",
+            "_id": "a7229fff1a292183",
             "type": "ItemGrant",
             "configuration": {
               "items": [
                 {
+                  "uuid": "Actor.a537b65a94644023.Item.fc483878792fab08",
                   "optional": false
                 }
               ]
@@ -2348,7 +2363,7 @@
             "hint": ""
           },
           {
-            "_id": "38c424a6e6739d6b",
+            "_id": "6429fa74ea2a2573",
             "type": "ItemGrant",
             "configuration": {
               "items": [
@@ -2365,7 +2380,7 @@
             "hint": ""
           },
           {
-            "_id": "9efbca394191bd70",
+            "_id": "21c6489a39d96f96",
             "type": "ItemGrant",
             "configuration": {
               "items": [
@@ -2406,13 +2421,13 @@
       }
     },
     {
-      "_id": "3dd1e36571eb1caf",
-      "name": "En Garde",
+      "_id": "e8492dd85e0a981b",
+      "name": "Killer's Toolkit",
       "type": "feat",
-      "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
+      "img": "icons/skills/melee/strike-blade-blood-red.webp",
       "system": {
         "description": {
-          "value": "<p>When you choose this archetype at 3rd level, you have learned that an opponent is always off-guard when they miss. When an enemy within range of your weapon attack misses an attack or creation, regardless of their target, you can use your reaction to make an opportunity attack with a melee weapon against it.</p>",
+          "value": "<p>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit and the poisoner's kit. The time and cost to craft disguises or poisons for you is halved.</p>",
           "chat": ""
         },
         "source": {
@@ -2425,11 +2440,11 @@
           "value": "class",
           "subtype": ""
         },
-        "requirements": "Rogue (Fencer) 3",
+        "requirements": "Rogue (Assassin) 3",
         "activation": {
-          "type": "reaction",
-          "cost": 1,
-          "condition": "An enemy within range of your weapon attack misses an attack or creation, regardless of its target"
+          "type": "",
+          "cost": null,
+          "condition": ""
         },
         "duration": {
           "value": null,
@@ -2467,21 +2482,113 @@
         "recharge": {
           "value": null,
           "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "d0a84a11259fe769",
+      "name": "Assassinate",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-blade-blood-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet.</p><p>In addition, when you have advantage on an attack roll against a creature and make a successful hit with, you can choose to make that hit a critical hit. You can use this ability a number of times equal to your proficiency bonus, regaining all uses at the end of a long rest.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Rogue (Assassin) 3",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "@prof",
+          "per": "lr",
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
         },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "utility",
-            "name": "En Garde",
+            "name": "Assassinate",
             "sort": 0,
             "activation": {
-              "type": "reaction",
-              "value": 1,
-              "condition": "An enemy within range of your weapon attack misses an attack or creation, regardless of its target",
+              "type": "",
+              "value": null,
+              "condition": "",
               "override": false
             },
             "consumption": {
-              "targets": [],
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
               "scaling": {
                 "allowed": false,
                 "max": ""
@@ -2527,7 +2634,12 @@
             "uses": {
               "spent": 0,
               "max": "",
-              "recovery": []
+              "recovery": [
+                {
+                  "period": "longRest",
+                  "type": "recoverAll"
+                }
+              ]
             },
             "roll": {
               "formula": "",
@@ -2557,13 +2669,13 @@
       }
     },
     {
-      "_id": "28efa26572e6abd3",
-      "name": "Dueling Defense",
+      "_id": "8fbf143cf4bc8414",
+      "name": "Cutthroat Tactics",
       "type": "feat",
-      "img": "icons/weapons/daggers/dagger-glowing-white.webp",
+      "img": "icons/skills/melee/strike-blade-blood-red.webp",
       "system": {
         "description": {
-          "value": "<p>At 3rd level, your practice of fencing gives you an elegant speed for avoiding most attacks. While not wearing armor or using a shield, your AC is equal to 10 + Intelligence modifier + Dexterity modifier.</p><p>In addition, you can add your Intelligence modifier to your initiative.</p>",
+          "value": "<p>Starting at 6th level, you have a number of tools at you disposal to eliminate your targets. The following effects are added to your Devious Strike options.</p><p><strong>Poison (Cost: 2d6).</strong> You add a poison to your strike, the damage type of your Sneak attack damage dice becomes poison, and the target to make a Constitution saving throw. On a failed save, the target has the poisoned condition for 1 minute. At the end of each of its turns, the poisoned target repeats the save, ending the effect on a success.</p><p>To use this option, you must have a poisoner's kit on your person.</p><p><strong>Lock Down (Cost: 1d6).</strong> You strike the target in legs, reducing their movement speed by 15ft until the of their next turn.</p>",
           "chat": ""
         },
         "source": {
@@ -2576,129 +2688,7 @@
           "value": "class",
           "subtype": ""
         },
-        "requirements": "Rogue (Fencer) 3",
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "per": null,
-          "recovery": "",
-          "prompt": true
-        },
-        "actionType": "",
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "chatFlavor": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "activities": {}
-      },
-      "effects": [
-        {
-          "_id": "8342458cc68821c6",
-          "name": "Dueling Defense",
-          "img": "icons/svg/aura.svg",
-          "changes": [
-            {
-              "key": "system.attributes.ac.calc",
-              "mode": 5,
-              "value": "custom",
-              "priority": 20
-            },
-            {
-              "key": "system.attributes.ac.formula",
-              "mode": 5,
-              "value": "10 + @abilities.int.mod + @abilities.dex.mod",
-              "priority": 20
-            }
-          ],
-          "disabled": false,
-          "duration": {
-            "startTime": null,
-            "seconds": null,
-            "rounds": null,
-            "turns": null,
-            "combat": null
-          },
-          "origin": null,
-          "transfer": true,
-          "flags": {
-            "dae": {
-              "transfer": true,
-              "stackable": "noneName"
-            }
-          },
-          "statuses": [],
-          "tint": null,
-          "_key": "!items.effects!46807cf343243147.8342458cc68821c6"
-        }
-      ],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "bd4b12c68f2768f5",
-      "name": "Master Bladework",
-      "type": "feat",
-      "img": "icons/skills/trades/academics-study-reading-book.webp",
-      "system": {
-        "description": {
-          "value": "<p>Starting at 6th level, with a mix of finesse and intuition, you can overwhelm your opponent. The following effects are added to your Devious Strike options.</p><p><strong>Disarm (Cost: 2d6).</strong> The target must make a Strength saving throw. On a failed save, it drops a held object of your choice. The object lands at its feet.</p><p><strong>Guard Break (Cost: 3d6).</strong> The target must make a Dexterity saving throw. On a failed save, you disrupt your opponent's defenses. Until the start of your next turn, their AC is reduced by 2.</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "type": {
-          "value": "class",
-          "subtype": ""
-        },
-        "requirements": "Rogue (Fencer) 6",
+        "requirements": "Rogue (Assassin) 6",
         "activation": {
           "type": "",
           "cost": null,
@@ -2742,10 +2732,10 @@
           "charged": false
         },
         "activities": {
-          "48b088e93bdea606": {
-            "_id": "48b088e93bdea606",
+          "f7271d6b59fc2035": {
+            "_id": "f7271d6b59fc2035",
             "type": "save",
-            "name": "Disarm (Cost: 2d6)",
+            "name": "Poison (Cost: 2d6)",
             "sort": 0,
             "activation": {
               "type": "special",
@@ -2762,92 +2752,18 @@
               "spellSlot": false
             },
             "description": {
-              "chatFlavor": "Devious Strike option (forgo 2d6 of your Sneak Attack dice before rolling; the effect occurs immediately after the attack's damage is dealt). On a failed save the target drops a held object of your choice. The object lands at its feet."
+              "chatFlavor": "Devious Strike option (forgo 2d6 of your Sneak Attack dice before rolling; the effect occurs immediately after the attack's damage is dealt). The damage type of your Sneak Attack damage dice becomes poison. On a failure the target is poisoned for 1 minute and repeats the save at the end of each of its turns, ending the effect on a success. You must have a poisoner's kit on your person."
             },
             "duration": {
               "concentration": false,
-              "value": "",
-              "units": "inst",
+              "value": "1",
+              "units": "minute",
               "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": null,
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "1",
-                "type": "creature",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
               "override": true
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "damage": {
-              "onSave": "none",
-              "parts": []
-            },
-            "save": {
-              "ability": [
-                "str"
-              ],
-              "dc": {
-                "calculation": "",
-                "formula": "8 + @abilities.dex.mod + @prof"
-              }
-            }
-          },
-          "274b0edd8acd1a00": {
-            "_id": "274b0edd8acd1a00",
-            "type": "save",
-            "name": "Guard Break (Cost: 3d6)",
-            "sort": 1,
-            "activation": {
-              "type": "special",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": false
-            },
-            "description": {
-              "chatFlavor": "Devious Strike option (forgo 3d6 of your Sneak Attack dice before rolling; the effect occurs immediately after the attack's damage is dealt). On a failed save you disrupt the target's defenses: until the start of your next turn its AC is reduced by 2."
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
             },
             "effects": [
               {
-                "_id": "f03b9f96f7dfe449",
+                "_id": "11981cab25c405e3",
                 "onSave": false
               }
             ],
@@ -2887,26 +2803,120 @@
             },
             "save": {
               "ability": [
-                "dex"
+                "con"
               ],
               "dc": {
                 "calculation": "",
                 "formula": "8 + @abilities.dex.mod + @prof"
               }
             }
+          },
+          "46ebea60b79bf09c": {
+            "_id": "46ebea60b79bf09c",
+            "type": "utility",
+            "name": "Lock Down (Cost: 1d6)",
+            "sort": 1,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Devious Strike option (forgo 1d6 of your Sneak Attack dice before rolling; the effect occurs immediately after the attack's damage is dealt). You strike the target in the legs, reducing its movement speed by 15 ft until the end of its next turn."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "f28d5ebbbac47b36",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
           }
         }
       },
       "effects": [
         {
-          "_id": "f03b9f96f7dfe449",
-          "name": "Guard Broken",
+          "_id": "11981cab25c405e3",
+          "name": "Poisoned (Poison Strike)",
+          "img": "icons/svg/poison.svg",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": 60,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {},
+          "statuses": [
+            "poisoned"
+          ],
+          "tint": null,
+          "_key": "!items.effects!0643296bdbad176a.11981cab25c405e3"
+        },
+        {
+          "_id": "f28d5ebbbac47b36",
+          "name": "Locked Down",
           "img": "icons/svg/aura.svg",
           "changes": [
             {
-              "key": "system.attributes.ac.bonus",
+              "key": "system.attributes.movement.walk",
               "mode": 2,
-              "value": "-2",
+              "value": "-15",
               "priority": 20
             }
           ],
@@ -2914,24 +2924,16 @@
           "duration": {
             "startTime": null,
             "seconds": null,
-            "rounds": 1,
+            "rounds": 2,
             "turns": null,
             "combat": null
           },
           "origin": null,
           "transfer": false,
-          "flags": {
-            "dae": {
-              "transfer": false,
-              "stackable": "noneName",
-              "specialDuration": [
-                "turnStartSource"
-              ]
-            }
-          },
+          "flags": {},
           "statuses": [],
           "tint": null,
-          "_key": "!items.effects!8b0214196c833a20.f03b9f96f7dfe449"
+          "_key": "!items.effects!0643296bdbad176a.f28d5ebbbac47b36"
         }
       ],
       "flags": {},
@@ -2952,13 +2954,95 @@
       }
     },
     {
-      "_id": "2356be805dbadfab",
-      "name": "Leather Armor",
+      "_id": "fc483878792fab08",
+      "name": "Opportunist",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-blade-blood-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>Starting at 9th level, you are able to take full advantage of the battlefield, taking the opportunity for the first strike. When you roll initiative, you can choose to swap initiative rolls with a willing creature that you can see a within 60ft.</p><p>Alternatively, you can attempt to swap initiative rolls with an unwilling creature that you can see within 60ft. You must succeed on a Charisma (Deception) check contested against the creature's Wisdom (Insight) in order to do so.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Rogue (Assassin) 9",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "2f1df7cf0e3c6609",
+      "name": "Floral Silk Coat",
       "type": "equipment",
       "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
       "system": {
         "description": {
-          "value": "",
+          "value": "<p>Floral Silk Coat: the island's uniform. Base armour class 11.</p>",
           "chat": ""
         },
         "source": {
@@ -2977,7 +3061,7 @@
           "denomination": "gp"
         },
         "rarity": "common",
-        "equipped": false,
+        "equipped": true,
         "identified": true,
         "armor": {
           "value": 11
@@ -3009,184 +3093,7 @@
       }
     },
     {
-      "_id": "79a6ec3223e32709",
-      "name": "Dagger",
-      "type": "weapon",
-      "img": "icons/weapons/daggers/dagger-glowing-white.webp",
-      "system": {
-        "description": {
-          "value": "<p><strong>Adaptable (P, S).</strong> The wielder can choose to deal piercing or slashing damage.</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 1,
-          "units": "lb"
-        },
-        "price": {
-          "value": 20000,
-          "denomination": "gp"
-        },
-        "rarity": "common",
-        "equipped": false,
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1
-        },
-        "range": {
-          "value": 20,
-          "long": 60,
-          "units": "ft"
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "per": null,
-          "recovery": ""
-        },
-        "damage": {
-          "parts": [
-            "1d4",
-            "piercing"
-          ],
-          "versatile": ""
-        },
-        "actionType": "mwak",
-        "ability": "",
-        "attackBonus": "",
-        "chatFlavor": "",
-        "proficient": null,
-        "properties": {
-          "fin": true,
-          "lgt": true,
-          "thr": true
-        },
-        "type": {
-          "value": "simpleM",
-          "baseItem": "dagger"
-        },
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "attack",
-            "name": "Dagger",
-            "sort": 0,
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": null,
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": 20,
-              "units": "ft",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "damage": {
-              "critical": {
-                "allow": true,
-                "bonus": ""
-              },
-              "parts": [
-                {
-                  "number": 1,
-                  "denomination": 4,
-                  "bonus": "",
-                  "types": [
-                    "piercing"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": null,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          }
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "e8c45e2a2a7a7ef5",
+      "_id": "e18f7719fb0f6c3a",
       "name": "Thieves' Tools",
       "type": "tool",
       "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
@@ -3213,7 +3120,7 @@
         "rarity": "common",
         "ability": "dex",
         "chatFlavor": "",
-        "proficient": 1,
+        "proficient": 0,
         "type": {
           "value": "art",
           "baseItem": "thief"
@@ -3238,55 +3145,7 @@
       }
     },
     {
-      "_id": "96e01cee5afb023c",
-      "name": "Arrows (20)",
-      "type": "consumable",
-      "img": "icons/skills/ranged/arrows-flying-triple-gray.webp",
-      "system": {
-        "description": {
-          "value": "",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 1,
-          "units": "lb"
-        },
-        "price": {
-          "value": 10000,
-          "denomination": "gp"
-        },
-        "rarity": "common",
-        "type": {
-          "value": "ammo"
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "3c4368887da7bdf1",
+      "_id": "3e63474f69ff9b84",
       "name": "Expertise",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -3368,7 +3227,7 @@
       }
     },
     {
-      "_id": "75f65543464fd404",
+      "_id": "1c74e7cee0d19c79",
       "name": "Sneak Attack",
       "type": "feat",
       "img": "icons/weapons/daggers/dagger-curved-blue.webp",
@@ -3417,12 +3276,7 @@
         },
         "actionType": "",
         "damage": {
-          "parts": [
-            [
-              "@scale.rogue.sneak-attack",
-              ""
-            ]
-          ],
+          "parts": [],
           "versatile": ""
         },
         "save": {
@@ -3541,7 +3395,7 @@
       }
     },
     {
-      "_id": "6e94ed20e3be84f9",
+      "_id": "94819e4e20b668ba",
       "name": "Thieves' Cant",
       "type": "feat",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -3623,7 +3477,7 @@
       }
     },
     {
-      "_id": "58b3b58e2e2b944e",
+      "_id": "9f30bfee8f8e1de0",
       "name": "Cunning Action",
       "type": "feat",
       "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
@@ -3774,7 +3628,7 @@
       }
     },
     {
-      "_id": "55bd90f75de52d44",
+      "_id": "844a94e98a2e7479",
       "name": "Steady Aim",
       "type": "feat",
       "img": "icons/weapons/daggers/dagger-curved-blue.webp",
@@ -3925,7 +3779,7 @@
       }
     },
     {
-      "_id": "f976625660f875fd",
+      "_id": "3bdb6f0f0ffc92cd",
       "name": "Devious Strike",
       "type": "feat",
       "img": "icons/weapons/daggers/dagger-curved-blue.webp",
@@ -4152,12 +4006,7 @@
           },
           "origin": null,
           "transfer": false,
-          "flags": {
-            "dae": {
-              "transfer": false,
-              "stackable": "noneName"
-            }
-          },
+          "flags": {},
           "statuses": [
             "prone"
           ],
@@ -4183,7 +4032,7 @@
       }
     },
     {
-      "_id": "bb90fba8cbc20d71",
+      "_id": "44e19f9b8dda95b3",
       "name": "Uncanny Dodge",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -4334,7 +4183,7 @@
       }
     },
     {
-      "_id": "cda7432ee32e3460",
+      "_id": "5c35dc0f4fad773c",
       "name": "Expertise",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -4416,7 +4265,7 @@
       }
     },
     {
-      "_id": "2e8f28611f2f729b",
+      "_id": "a5ae320706082d73",
       "name": "Evasion",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -4503,12 +4352,7 @@
           },
           "origin": null,
           "transfer": true,
-          "flags": {
-            "dae": {
-              "transfer": true,
-              "stackable": "noneName"
-            }
-          },
+          "flags": {},
           "statuses": [],
           "tint": null,
           "_key": "!items.effects!57914f25654503c7.387a72b7a687b007"
@@ -4532,7 +4376,64 @@
       }
     },
     {
-      "_id": "430fcfa33a4d79a0",
+      "_id": "a2170fdd0873b5ce",
+      "name": "Small Medkit",
+      "type": "consumable",
+      "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>A very useful tool for combat and treating wounds. When you use a medkit, the target regains 2d4 + 2 hit points.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "rarity": "common",
+        "type": {
+          "value": "potion"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "uses": {
+          "value": 1,
+          "max": "1",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "heal",
+        "damage": {
+          "parts": [
+            "2d4 + 2",
+            "healing"
+          ]
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "84f121164d9f21e4",
       "name": "Rations (1 day)",
       "type": "consumable",
       "img": "icons/consumables/potions/bottle-round-corked-red.webp",
@@ -4580,58 +4481,13 @@
       }
     },
     {
-      "_id": "5c56a616f722a392",
-      "name": "Map of the Surrounding Area",
-      "type": "loot",
-      "img": "icons/sundries/documents/document-sealed-brown-red.webp",
-      "system": {
-        "description": {
-          "value": "<p>A map of the surrounding area within 100 nautical miles.</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 0,
-          "units": "lb"
-        },
-        "price": {
-          "value": 0,
-          "denomination": "gp"
-        },
-        "rarity": "common"
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "61fe83f9884ce5a9",
-      "name": "Master Navigator",
+      "_id": "1863908b3aee2261",
+      "name": "Alert",
       "type": "feat",
-      "img": "icons/skills/trades/academics-study-reading-book.webp",
+      "img": "icons/skills/melee/strike-blade-blood-red.webp",
       "system": {
         "description": {
-          "value": "<p>You have been trained to use Navigator’s tools, gaining the following benefits:</p><ul><li>Increase your Wisdom or Intelligence score by 1, to a maximum of 20.</li><li>You gain proficiency in Navigator’s tools, or expertise if you were already proficient.</li><li>You can recall the exact directions from one location you have been in relation to another location you have been, as long as you have been consistently conscious for the journey.</li><li>You have advantage on saving throws related to weather based phenomenon.</li></ul>",
+          "value": "<p>You are always on the lookout for danger, you gain the following benefits:</p><ul><li>Increase your Dexterity or Wisdom score by 1, to a maximum of 20.</li><li>You can’t be surprised while you are conscious.</li><li>You gain a +5 bonus to initiative.</li><li>Other creatures don’t gain advantage on attack rolls against you as a result of being unseen by you.</li></ul>",
           "chat": ""
         },
         "source": {
@@ -4689,7 +4545,7 @@
         },
         "advancement": [
           {
-            "_id": "21eca9d23bded521",
+            "_id": "65f6eb515620b5df",
             "type": "AbilityScoreImprovement",
             "configuration": {
               "cap": 1,
@@ -4697,8 +4553,8 @@
               "fixed": {},
               "locked": [
                 "str",
-                "dex",
                 "con",
+                "int",
                 "cha"
               ],
               "points": 1
@@ -4708,30 +4564,40 @@
             "title": "",
             "icon": "",
             "classRestriction": "",
-            "hint": "Increase your Wisdom or Intelligence score by 1"
-          },
-          {
-            "_id": "e65a88879e9f655d",
-            "type": "Trait",
-            "configuration": {
-              "mode": "default",
-              "grants": [
-                "tool:navg"
-              ],
-              "choices": [],
-              "allowReplacements": true,
-              "hint": ""
-            },
-            "value": {},
-            "level": 0,
-            "title": "proficiencies",
-            "icon": "",
-            "classRestriction": "",
-            "hint": ""
+            "hint": "Increase your Dexterity or Wisdom score by 1"
           }
-        ]
+        ],
+        "activities": {}
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "4e3128483041b994",
+          "name": "Initiative Bonus",
+          "img": "icons/svg/aura.svg",
+          "changes": [
+            {
+              "key": "system.attributes.init.bonus",
+              "mode": 2,
+              "value": "5",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {},
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!2ee3316f53e6323d.4e3128483041b994"
+        }
+      ],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -4750,7 +4616,7 @@
       }
     },
     {
-      "_id": "8c9362997556a401",
+      "_id": "d0a86beb56890973",
       "name": "Rapier",
       "type": "weapon",
       "img": "icons/weapons/swords/scimitar-guard-gold.webp",
@@ -4925,13 +4791,13 @@
       }
     },
     {
-      "_id": "7038f6b0a6ed9816",
-      "name": "Shortbow",
+      "_id": "3a208c19ddebb83e",
+      "name": "Shortsword",
       "type": "weapon",
-      "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
+      "img": "icons/weapons/polearms/spear-flared-blue.webp",
       "system": {
         "description": {
-          "value": "<p><strong>Strong.</strong> Use your choice of Strength or Dexterity modifier for attack and damage rolls. You must use the same modifier for both rolls.</p>",
+          "value": "<p><strong>Adaptable (P, S).</strong> The wielder can choose to deal piercing or slashing damage.</p>",
           "chat": ""
         },
         "source": {
@@ -4946,7 +4812,7 @@
           "units": "lb"
         },
         "price": {
-          "value": 250000,
+          "value": 100000,
           "denomination": "gp"
         },
         "rarity": "common",
@@ -4957,9 +4823,9 @@
           "cost": 1
         },
         "range": {
-          "value": 80,
-          "long": 320,
-          "units": "ft"
+          "value": null,
+          "long": null,
+          "units": ""
         },
         "target": {
           "value": null,
@@ -4980,24 +4846,24 @@
           ],
           "versatile": ""
         },
-        "actionType": "rwak",
+        "actionType": "mwak",
         "ability": "",
         "attackBonus": "",
         "chatFlavor": "",
         "proficient": null,
         "properties": {
-          "amm": true,
-          "two": true
+          "fin": true,
+          "lgt": true
         },
         "type": {
-          "value": "simpleR",
-          "baseItem": "shortbow"
+          "value": "martialM",
+          "baseItem": "shortsword"
         },
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "attack",
-            "name": "Shortbow",
+            "name": "Shortsword",
             "sort": 0,
             "activation": {
               "type": "action",
@@ -5025,8 +4891,8 @@
             },
             "effects": [],
             "range": {
-              "value": 80,
-              "units": "ft",
+              "value": null,
+              "units": "",
               "special": "",
               "override": false
             },
@@ -5101,13 +4967,13 @@
       }
     },
     {
-      "_id": "5f2a6086714e1348",
-      "name": "Explorer's Pack",
+      "_id": "a8cac11f580c0630",
+      "name": "Burglar's Pack",
       "type": "loot",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
       "system": {
         "description": {
-          "value": "<p>Includes a backpack, bedroll, mess kit, tinderbox, 10 torches, 10 days of rations, waterskin, and 50 feet of hempen rope.</p>",
+          "value": "<p>Includes a backpack, a bag of 1,000 ball bearings, 10 feet of string, a bell, 5 candles, a crowbar, a hammer, 10 pitons, a hooded lantern, 2 flasks of oil, 5 days of rations, a tinderbox, and a waterskin.</p>",
           "chat": ""
         },
         "source": {
@@ -5118,11 +4984,11 @@
         },
         "quantity": 1,
         "weight": {
-          "value": 10,
+          "value": 15,
           "units": "lb"
         },
         "price": {
-          "value": 100000,
+          "value": 120000,
           "denomination": "gp"
         },
         "rarity": "common"
@@ -5146,13 +5012,47 @@
       }
     },
     {
-      "_id": "6ad0946ad3737958",
-      "name": "Keen Mind",
-      "type": "feat",
-      "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+      "_id": "1c48b421394c1a04",
+      "name": "No Devil Fruit (yet)",
+      "type": "loot",
+      "img": "modules/op5e/assets/icons/devil-fruit.svg",
       "system": {
         "description": {
-          "value": "<p>You have a mind with an uncanny knack for learning and keeping track of precise details. You gain the following benefits.</p><ul><li>Increase your Intelligence score by 1, to a maximum of 20.</li><li>You always know which way is north.</li><li>You always know the number of hours left before the next sunrise or sunset.</li><li>You can accurately recall anything you have seen or heard within a number of past months equal to your intelligence modifier (max 3 months).</li><li>You gain proficiency in one skill of your choice.</li></ul>",
+          "value": "<p>You have no devil fruit at creation. Your DM can give you one later in the campaign; delete this item when that happens.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "treasure"
+        },
+        "rarity": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {
+        "op5e": {
+          "devilFruitTemplate": "none",
+          "automation": "NEEDS_REVIEW"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "1ffced6128b48a08",
+      "name": "Rogue Adept",
+      "type": "feat",
+      "img": "icons/skills/trades/academics-study-reading-book.webp",
+      "system": {
+        "description": {
+          "value": "<p>You have deft talent and cunning tactics that render you the most slippery of foes. You gain the following benefits:</p><ul><li>Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li><li>You gain proficiency in one skill of your choice. In addition, choose one of your skills that you are proficient in. You gain expertise in that skill.</li><li>As a bonus action, you can take the dash, disengage, or hide action.</li></ul>",
           "chat": ""
         },
         "source": {
@@ -5167,8 +5067,8 @@
         },
         "requirements": "",
         "activation": {
-          "type": "",
-          "cost": null,
+          "type": "bonus",
+          "cost": 1,
           "condition": ""
         },
         "duration": {
@@ -5210,32 +5110,27 @@
         },
         "advancement": [
           {
-            "_id": "ca816b068bd455ad",
+            "_id": "2fb7f1ecca311376",
             "type": "AbilityScoreImprovement",
             "configuration": {
               "cap": 1,
               "max": 20,
-              "fixed": {
-                "int": 1
-              },
+              "fixed": {},
               "locked": [
                 "str",
-                "dex",
-                "con",
-                "wis",
-                "cha"
+                "con"
               ],
-              "points": 0
+              "points": 1
             },
             "value": {},
             "level": 0,
             "title": "",
             "icon": "",
             "classRestriction": "",
-            "hint": "Increase your Intelligence score by 1"
+            "hint": "Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1"
           },
           {
-            "_id": "e0280786d7695f61",
+            "_id": "5c16c4b7cd2a5035",
             "type": "Trait",
             "configuration": {
               "mode": "default",
@@ -5258,7 +5153,76 @@
             "classRestriction": "",
             "hint": ""
           }
-        ]
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "name": "Rogue Adept",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": null,
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
+        }
       },
       "effects": [],
       "flags": {},
@@ -5279,7 +5243,7 @@
       }
     },
     {
-      "_id": "17a1da8e3cfb7460",
+      "_id": "7c643cf612f7a2e7",
       "name": "Color of Observation Novice",
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-white.webp",
@@ -5450,12 +5414,7 @@
           },
           "origin": null,
           "transfer": true,
-          "flags": {
-            "dae": {
-              "transfer": true,
-              "stackable": "noneName"
-            }
-          },
+          "flags": {},
           "statuses": [],
           "tint": null,
           "_key": "!items.effects!96dcda2a40ae256f.73e74cc3bfaabcaa"
@@ -5479,41 +5438,167 @@
       }
     },
     {
-      "_id": "b9b920ec49f6f4cb",
-      "name": "Dabu Dabu no Mi",
-      "type": "loot",
-      "img": "modules/op5e/assets/icons/devil-fruit-paramecia.svg",
+      "_id": "44f31d5380f29167",
+      "name": "Flintlock",
+      "type": "weapon",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
       "system": {
         "description": {
-          "value": "<p><em>Paramecia, unique (consumed — replaces attunement)</em></p>\n<p><em>Double-Double Fruit</em></p>\n<p></p>\n<h2>Description</h2>\n<p>Campaign-registered <strong>Paramecia</strong> devil fruit (<strong>Double-Double</strong>). Current eater: Irik Fen (Sharkfin Pirates navigator). Statblock: Irik -Two-Tide- Fen.</p>\n<h2>Powers</h2>\n<ul>\n<li><strong>Double Up</strong> — Conjure a duplicate of himself out of thin air.</li>\n<li><strong>Flip</strong> — Instantly swap places with the double at any time.</li>\n<li><strong>Tandem</strong> — On his turn, the double can take one move as a bonus action.</li>\n<li><strong>Crosswire</strong> — Swap the double’s position with any creature he can see; Irik stays put unless he uses Flip.</li>\n</ul>\n<h2>Drawbacks</h2>\n<ul>\n<li><strong>Ocean's Scorn</strong> — the eater cannot swim; running water and seastone apply as in What Are Devil Fruits.</li>\n<li><strong>Haki</strong> — armament haki can bypass many paramecia defenses where noted in session.</li>\n</ul>\n<h2>See also</h2>\n<ul>\n<li>Chapter 6 Devil Fruits</li>\n<li>Owner: Irik Fen</li>\n<li>Irik -Two-Tide- Fen</li>\n</ul>",
+          "value": "<p>The most common gun found on the seas. A single shot pistol with short effective range. Rain and weather severely affect reliability.</p><p><strong>Reload 1.</strong> Can fire 1 time before requiring reloading. Reloading takes an action or one of your attack actions with multiattack.</p>",
           "chat": ""
         },
-        "type": {
-          "value": "treasure"
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
         },
-        "rarity": "unique",
-        "activities": {}
-      },
-      "effects": [],
-      "flags": {
-        "op5e": {
-          "devilFruit": {
-            "type": "Paramecia",
-            "owner": "[[Irik Fen]]",
-            "status": "canon"
-          },
-          "automation": "NEEDS_REVIEW",
-          "source": {
-            "book": "SOURCEBOOK",
-            "file": "Devil Fruits/Dabu Dabu no Mi.md",
-            "heading": "Dabu Dabu no Mi",
-            "pageMarkers": []
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 500000,
+          "denomination": "gp"
+        },
+        "rarity": "common",
+        "equipped": true,
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "range": {
+          "value": 30,
+          "long": 120,
+          "units": "ft"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d(min(12, 6 + 2 * @flags.op5e.wDie.handgun))",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "actionType": "rwak",
+        "ability": "",
+        "attackBonus": "@flags.op5e.wAtk.handgun",
+        "chatFlavor": "",
+        "proficient": null,
+        "properties": {
+          "amm": true,
+          "lgt": true
+        },
+        "type": {
+          "value": "simpleR",
+          "baseItem": ""
+        },
+        "activities": {
+          "29dc035b8e362d05": {
+            "_id": "29dc035b8e362d05",
+            "type": "attack",
+            "name": "Flintlock",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 30,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "@flags.op5e.wAtk.handgun",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "allow": true,
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            }
           }
         }
       },
+      "effects": [],
+      "flags": {},
       "folder": null,
       "sort": 0,
-      "ownership": {},
+      "ownership": {
+        "default": 0
+      },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
@@ -5524,16 +5609,16 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!items!acad70ae42193a24"
+      "_key": "!items!e5e7d26cd0404bee"
     },
     {
-      "_id": "0416cc667ee9b7d7",
-      "name": "Test Subject",
+      "_id": "8dc570319f2c7768",
+      "name": "Dodge Roll",
       "type": "feat",
-      "img": "icons/magic/light/explosion-star-glow-yellow.webp",
+      "img": "icons/skills/melee/swords-parry-block-yellow.webp",
       "system": {
         "description": {
-          "value": "<p>When you choose this archetype at 2nd level, you create a test subject that will follow your every whim. Choose either the Amalgamation, Flora, or Clone to be your test subject, all listed at the end of the subclass description. Your test takes a form appropriate to its type, for instance, an Amalgamation might be made up of several animals, and a Clone could be a genetically modified human.</p>\n<p>In combat, the test subjects acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. If you are incapacitated, the beast can take any action of its choice, not just Dodge. That action can be one in its stat block or some other action.</p>\n<p>If your test subject is reduced to 0 hit points, it falls unconscious and makes death saving throws as normal instead of dying outright. As an action, you can touch an unconscious or dead test subject and expend one creation slot of 1st level or higher. If your test subject was unconscious, it regains 1d8 hit points per creation slot level instantly. If your test subject was dead, it regains consciousness after 1 minute with all its maximum hit points restored.</p>\n<p>Your test subject always knows the general direction of your position and will immediately seek you out to the best of its ability if the two of you are separated.</p>",
+          "value": "<p><em>Prerequisites: Dexterity 16 or higher, and proficiency in Acrobatics</em></p>\n<p>When in combat, never underestimate the power of a well timed dodge. Sometimes you need to tuck and roll like the mighty snail.</p>",
           "chat": ""
         },
         "source": {
@@ -5546,7 +5631,7 @@
           "value": "class",
           "subtype": ""
         },
-        "requirements": "Medic (Bio-Engineer) 2",
+        "requirements": "Dexterity 16, Proficiency in Acrobatics",
         "activation": {
           "type": "",
           "cost": null,
@@ -5589,132 +5674,34 @@
           "value": null,
           "charged": false
         },
-        "activities": {
-          "308b8f3e4f94dbc5": {
-            "_id": "308b8f3e4f94dbc5",
-            "type": "summon",
-            "name": "Summon Test Subject",
-            "sort": 0,
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": false
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": null,
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "bonuses": {
-              "ac": "@prof",
-              "hd": "",
-              "hp": "@classes.medic.levels * 6",
-              "attackDamage": "@abilities.wis.mod",
-              "saveDamage": "",
-              "healing": ""
-            },
-            "creatureSizes": [],
-            "creatureTypes": [],
-            "match": {
-              "ability": "",
-              "attacks": true,
-              "proficiency": false,
-              "saves": true
-            },
-            "profiles": [
-              {
-                "_id": "e0368cbbefc2330d",
-                "count": "1",
-                "cr": "",
-                "level": {
-                  "min": null,
-                  "max": null
-                },
-                "name": "Clone",
-                "types": [],
-                "uuid": "Actor.b1650dc9e48a05f7"
-              },
-              {
-                "_id": "48df51c7d36658b2",
-                "count": "1",
-                "cr": "",
-                "level": {
-                  "min": null,
-                  "max": null
-                },
-                "name": "Amalgamation",
-                "types": [],
-                "uuid": "Actor.096a1a0ac574893e"
-              },
-              {
-                "_id": "f39fca329d93784f",
-                "count": "1",
-                "cr": "",
-                "level": {
-                  "min": null,
-                  "max": null
-                },
-                "name": "Flora",
-                "types": [],
-                "uuid": "Actor.511f658b4604e267"
-              }
-            ],
-            "summon": {
-              "identifier": "",
-              "mode": "",
-              "prompt": true
-            }
-          }
-        },
+        "activities": {},
         "advancement": []
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "op5e": {
+          "additionalPower": true,
+          "additionalPowerRoot": true,
+          "prereq": {
+            "abilities": [
+              {
+                "any": [
+                  "dex"
+                ],
+                "min": 16
+              }
+            ],
+            "proficiencies": [
+              {
+                "kind": "skill",
+                "names": [
+                  "acrobatics"
+                ]
+              }
+            ]
+          }
+        }
+      },
       "folder": null,
       "sort": 0,
       "ownership": {
@@ -5730,16 +5717,16 @@
         "modifiedTime": null,
         "lastModifiedBy": null
       },
-      "_key": "!items!861b442b9a358587"
+      "_key": "!items!73485f0f7e86bfed"
     },
     {
-      "_id": "9ab6f6bb376f480c",
-      "name": "Bait and Switch",
+      "_id": "3c314abb5749da06",
+      "name": "Defense Roll",
       "type": "feat",
       "img": "icons/skills/melee/strike-sword-gray.webp",
       "system": {
         "description": {
-          "value": "<p><strong>Crosswire (Dabu Dabu no Mi).</strong> Swap the double's position with any creature he can see; Irik stays put unless he uses Flip. Spends one Devil Fruit use.</p><p>When you're within 5 feet of a creature on your turn, you can expend one superiority die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and isn't incapacitated. This movement doesn't provoke opportunity attacks.</p><p>Roll the superiority die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled.</p>",
+          "value": "<p>As a reaction to being hit by an attack, you can attempt to roll out of the way, adding your proficiency bonus to your AC for that attack and moving half your movement in a direction you can see.</p>",
           "chat": ""
         },
         "source": {
@@ -5752,11 +5739,11 @@
           "value": "class",
           "subtype": ""
         },
-        "requirements": "Battlemaster 3",
+        "requirements": "Dodge Roll",
         "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
+          "type": "reaction",
+          "cost": 1,
+          "condition": "Hit by an attack"
         },
         "duration": {
           "value": null,
@@ -5766,7 +5753,7 @@
           "value": null,
           "width": null,
           "units": "",
-          "type": ""
+          "type": "self"
         },
         "range": {
           "value": null,
@@ -5774,9 +5761,11 @@
           "units": ""
         },
         "uses": {
-          "spent": 0,
+          "value": null,
           "max": "",
-          "recovery": []
+          "per": null,
+          "recovery": "",
+          "prompt": true
         },
         "actionType": "",
         "damage": {
@@ -5794,26 +5783,19 @@
           "charged": false
         },
         "activities": {
-          "f4b5c00836794563": {
-            "_id": "f4b5c00836794563",
-            "type": "damage",
-            "name": "Roll AC Bonus",
+          "d2bb8085c0cab7f0": {
+            "_id": "d2bb8085c0cab7f0",
+            "type": "utility",
+            "name": "Defense Roll",
             "sort": 0,
             "activation": {
-              "type": "special",
+              "type": "reaction",
               "value": 1,
-              "condition": "",
+              "condition": "Hit by an attack",
               "override": false
             },
             "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "target": "ad27b69dd336517f",
-                  "value": "1",
-                  "scaling": {}
-                }
-              ],
+              "targets": [],
               "scaling": {
                 "allowed": false,
                 "max": ""
@@ -5821,7 +5803,7 @@
               "spellSlot": false
             },
             "description": {
-              "chatFlavor": "Swap the double's position with a creature you can see."
+              "chatFlavor": "Add your proficiency bonus to your AC for that attack and move half your movement in a direction you can see."
             },
             "duration": {
               "concentration": false,
@@ -5830,7 +5812,12 @@
               "special": "",
               "override": false
             },
-            "effects": [],
+            "effects": [
+              {
+                "_id": "491f88a41e13d99d",
+                "onSave": false
+              }
+            ],
             "range": {
               "value": null,
               "units": "",
@@ -5849,208 +5836,62 @@
               },
               "affects": {
                 "count": "",
-                "type": "",
+                "type": "self",
                 "choice": false,
                 "special": ""
               },
               "prompt": true,
-              "override": false
+              "override": true
             },
             "uses": {
               "spent": 0,
               "max": "",
               "recovery": []
             },
-            "damage": {
-              "critical": {
-                "allow": false,
-                "bonus": ""
-              },
-              "parts": []
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
             }
           }
         },
         "advancement": []
       },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
-      "_key": "!items!861731b9e8e48da3"
-    },
-    {
-      "_id": "7b75131fc4e6ec51",
-      "name": "Mirror Image",
-      "type": "spell",
-      "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
-      "system": {
-        "description": {
-          "value": "<p><strong>Double Up (Dabu Dabu no Mi).</strong> Conjure a duplicate of himself out of thin air. Spends one Devil Fruit use.</p><p>Three illusory duplicates of yourself appear in your space. Until the creation ends, the duplicates move with you and mimic your actions, shifting position so it’s impossible to track which image is real. You can dismiss the illusory duplicates as a free action.\nEach time a creature targets you with an attack during the creation’s duration, roll a d20 to determine whether the attack instead targets one of your duplicates.\nIf you have three duplicates, you must roll a 6 or higher to change the attack’s target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.\nA duplicate’s AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The creation ends when all three duplicates are destroyed.\nA creature is unaffected by this creation if it can’t see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "level": 2,
-        "school": "ill",
-        "components": {
-          "value": "",
-          "vocal": true,
-          "somatic": true,
-          "material": false,
-          "ritual": false,
-          "concentration": false
-        },
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "always",
-          "prepared": true
-        },
-        "scaling": {
-          "mode": "none",
-          "formula": ""
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": "1",
-          "units": "minute"
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": "self"
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "self"
-        },
-        "uses": {
-          "spent": 0,
-          "max": "",
-          "recovery": []
-        },
-        "actionType": "",
-        "attack": {
-          "bonus": "",
-          "flat": false
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "chatFlavor": "",
-        "formula": "",
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "utility",
-            "name": "Mirror Image",
-            "sort": 0,
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "target": "ad27b69dd336517f",
-                  "value": "1",
-                  "scaling": {}
-                }
-              ],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "1",
-              "units": "minute",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": null,
-              "units": "self",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "self",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "roll": {
-              "formula": "",
-              "name": "",
-              "prompt": false,
-              "visible": false
+      "effects": [
+        {
+          "_id": "491f88a41e13d99d",
+          "name": "Defense Roll",
+          "img": "icons/svg/aura.svg",
+          "changes": [
+            {
+              "key": "system.attributes.ac.bonus",
+              "mode": 2,
+              "value": "@prof",
+              "priority": 20
             }
-          }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": 1,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {},
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!c734d7514c415215.491f88a41e13d99d"
+        }
+      ],
+      "flags": {
+        "op5e": {
+          "additionalPower": true
         }
       },
-      "effects": [],
-      "flags": {},
       "folder": null,
       "sort": 0,
       "ownership": {
@@ -6065,209 +5906,34 @@
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
-      }
+      },
+      "_key": "!items!c734d7514c415215"
     },
     {
-      "_id": "03769f7bb3f3454a",
-      "name": "Misty Step",
-      "type": "spell",
-      "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
-      "system": {
-        "description": {
-          "value": "<p><strong>Flip (Dabu Dabu no Mi).</strong> Instantly swap places with the double at any time. Spends one Devil Fruit use.</p><p>You teleport up to 30 feet to an unoccupied space that you can see.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 3rd level or higher, the teleportation range increases by 10 feet for each level above 2nd.</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "level": 2,
-        "school": "con",
-        "components": {
-          "value": "",
-          "vocal": true,
-          "somatic": false,
-          "material": false,
-          "ritual": false,
-          "concentration": false
-        },
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "always",
-          "prepared": true
-        },
-        "scaling": {
-          "mode": "level",
-          "formula": ""
-        },
-        "activation": {
-          "type": "bonus",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": "inst"
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": "self"
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "self"
-        },
-        "uses": {
-          "spent": 0,
-          "max": "",
-          "recovery": []
-        },
-        "actionType": "",
-        "attack": {
-          "bonus": "",
-          "flat": false
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "chatFlavor": "",
-        "formula": "",
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "utility",
-            "name": "Misty Step",
-            "sort": 0,
-            "activation": {
-              "type": "bonus",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "target": "ad27b69dd336517f",
-                  "value": "1",
-                  "scaling": {}
-                }
-              ],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": null,
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": null,
-              "units": "self",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "self",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "roll": {
-              "formula": "",
-              "name": "",
-              "prompt": false,
-              "visible": false
-            }
-          }
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "ad27b69dd336517f",
-      "name": "Devil Fruit Uses",
+      "_id": "7431ff0d6c28b58a",
+      "name": "Veteran's Edge",
       "type": "feat",
-      "img": "icons/skills/melee/strike-blade-blood-red.webp",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
       "system": {
         "description": {
-          "value": "<p>Devil fruits have a set number of uses, but only for major abilities (Luffy using Second Gear costs a use; passive immunities and basic fruit-boosted punches do not). A player gains an additional use at every odd level; Paramecia types get an additional usage. For NPCs the DM decides.</p><p>Activating a devil fruit ability typically takes a bonus action or an action, or a reaction depending on the fruit (Zoans use a bonus action for hybrid form; untrained Logias can use their reaction to become intangible). When you complete a long rest you regain all your devil fruit uses.</p><h3>Zoan</h3><table><thead><tr><th>Level</th><th>Uses</th><th>Features</th></tr></thead><tbody><tr><td>1st</td><td>1</td><td>Fruit Uses, Fruit-Fruit DC, Devil Fruit Attack, Devil Fruit Ability Check, Ability Score Increase, Hybrid Form, Full Beast Form</td></tr><tr><td>3rd</td><td>2</td><td>—</td></tr><tr><td>5th</td><td>3</td><td>Increased Duration</td></tr><tr><td>7th</td><td>4</td><td>—</td></tr><tr><td>9th</td><td>5</td><td>—</td></tr><tr><td>10th</td><td>5</td><td>Enhanced Form, Increased Duration</td></tr><tr><td>11th</td><td>6</td><td>—</td></tr><tr><td>13th</td><td>7</td><td>—</td></tr><tr><td>15th</td><td>8</td><td>Increased Duration</td></tr><tr><td>17th</td><td>9</td><td>—</td></tr><tr><td>19th</td><td>10</td><td>—</td></tr><tr><td>20th</td><td>10</td><td>Endless Forms, Increased Duration</td></tr></tbody></table><h3>Logia</h3><table><thead><tr><th>Level</th><th>Uses</th><th>Features</th></tr></thead><tbody><tr><td>1st</td><td>1</td><td>Fruit Uses, Fruit-Fruit DC, Devil Fruit Attack, Devil Fruit Ability Check, Elemental Domain</td></tr><tr><td>3rd</td><td>2</td><td>—</td></tr><tr><td>5th</td><td>3</td><td>Improved Elemental Domain</td></tr><tr><td>7th</td><td>4</td><td>—</td></tr><tr><td>9th</td><td>5</td><td>—</td></tr><tr><td>10th</td><td>5</td><td>Improved Elemental Domain</td></tr><tr><td>11th</td><td>6</td><td>—</td></tr><tr><td>13th</td><td>7</td><td>—</td></tr><tr><td>15th</td><td>8</td><td>Improved Elemental Domain</td></tr><tr><td>17th</td><td>9</td><td>—</td></tr><tr><td>19th</td><td>10</td><td>—</td></tr><tr><td>20th</td><td>10</td><td>Improved Elemental Domain</td></tr></tbody></table><h3>Paramecia</h3><table><thead><tr><th>Level</th><th>Uses</th><th>Features</th></tr></thead><tbody><tr><td>1st</td><td>2</td><td>Fruit Uses, Fruit-Fruit DC, Devil Fruit Attack, Devil Fruit Ability Check</td></tr><tr><td>3rd</td><td>3</td><td>—</td></tr><tr><td>5th</td><td>4</td><td>Improved Usage</td></tr><tr><td>7th</td><td>5</td><td>—</td></tr><tr><td>9th</td><td>6</td><td>—</td></tr><tr><td>10th</td><td>6</td><td>Improved Usage</td></tr><tr><td>11th</td><td>7</td><td>—</td></tr><tr><td>13th</td><td>8</td><td>—</td></tr><tr><td>15th</td><td>9</td><td>Improved Usage</td></tr><tr><td>17th</td><td>10</td><td>—</td></tr><tr><td>19th</td><td>11</td><td>—</td></tr><tr><td>20th</td><td>11</td><td>Improved Usage</td></tr></tbody></table><p>Irik (level 8): 4 uses from level + 1 for Paramecia = 5. Test Subject (Devil Fruit Lineage): his Double spends these same uses, and Irik gains an extra use while his Test Subject is not incapacitated. Regain all on a long rest.</p>",
+          "value": "<p>Weapon attacks deal an extra 3d6 damage. <em>Balance note: a bespoke feature, not a class feature, so May reaches the CR 6 damage band.</em></p>",
           "chat": ""
         },
         "source": {
-          "book": "OP5e",
+          "book": "Blood & Brine homebrew",
           "page": "",
           "custom": "",
           "license": ""
         },
         "type": {
-          "value": "feat",
+          "value": "class",
           "subtype": ""
         },
         "requirements": "",
         "activation": {
-          "type": "",
+          "type": "special",
           "cost": null,
-          "condition": ""
+          "condition": "Passive"
         },
         "duration": {
           "value": null,
@@ -6280,19 +5946,16 @@
           "type": ""
         },
         "range": {
-          "value": null,
+          "value": 5,
           "long": null,
-          "units": ""
+          "units": "ft"
         },
         "uses": {
-          "spent": 0,
-          "max": "5",
-          "recovery": [
-            {
-              "period": "lr",
-              "type": "recoverAll"
-            }
-          ]
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
         },
         "actionType": "",
         "damage": {
@@ -6310,49 +5973,39 @@
           "charged": false
         },
         "activities": {
-          "4d9756eac6e27d98": {
-            "_id": "4d9756eac6e27d98",
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
             "type": "utility",
-            "name": "Use Devil Fruit Ability",
+            "name": "Veteran's Edge",
             "sort": 0,
             "activation": {
               "type": "special",
-              "value": 1,
-              "condition": "",
+              "value": null,
+              "condition": "Passive",
               "override": false
             },
             "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "target": "",
-                  "value": "1",
-                  "scaling": {
-                    "mode": "",
-                    "formula": ""
-                  }
-                }
-              ],
+              "targets": [],
               "scaling": {
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": false
+              "spellSlot": true
             },
             "description": {
-              "chatFlavor": "Spend a use for a major devil fruit ability (passive immunities and basic fruit-boosted punches cost nothing). Zoans use a bonus action for hybrid form; untrained Logias can use a reaction to become intangible. Regain all uses on a long rest. Paramecia have one additional use (Paramecia Improved Usage)."
+              "chatFlavor": ""
             },
             "duration": {
               "concentration": false,
-              "value": "",
+              "value": null,
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
             "range": {
-              "value": null,
-              "units": "",
+              "value": 5,
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -6387,10 +6040,42 @@
               "visible": false
             }
           }
-        },
-        "advancement": []
+        }
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "b74177c6a7169451",
+          "name": "Veteran's Edge",
+          "img": "icons/skills/melee/strike-slashes-orange.webp",
+          "disabled": false,
+          "transfer": true,
+          "changes": [
+            {
+              "key": "system.bonuses.mwak.damage",
+              "mode": 2,
+              "value": "+3d6",
+              "priority": 20
+            },
+            {
+              "key": "system.bonuses.rwak.damage",
+              "mode": 2,
+              "value": "+3d6",
+              "priority": 20
+            }
+          ],
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "flags": {},
+          "statuses": [],
+          "tint": null
+        }
+      ],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -6406,14 +6091,8 @@
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
-      },
-      "_key": "!items!f1b6a1ceb52e6d43"
+      }
     }
   ],
-  "_id": "1f287e373b571490",
-  "prototypeToken": {
-    "texture": {
-      "src": "one-piece-5e/npcs/SharkFin Pirates/irik-new-token.png"
-    }
-  }
+  "_id": "a537b65a94644023"
 }

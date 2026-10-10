@@ -105,7 +105,7 @@ sys.traits.weaponProf = { value: ["sim", "mar"], custom: "firearms" };
 sys.attributes.spellcasting = "wis";
 sys.spells = Object.fromEntries([4, 2, 0, 0, 0, 0, 0, 0, 0].map((max, i) => [`spell${i + 1}`, { value: max, max }]));
 // CR balance pass: a straight Marksman 5 / Rogue 3 sits under the CR 5 hit point band (131-145), so HP is overridden.
-sys.attributes.hp = { value: 123, max: 123, temp: 0, tempmax: 0, formula: "5d10 + 3d8 + 16" }; // real dice; max 123 is the CR balance override
+sys.attributes.hp = { value: 135, max: 135, temp: 0, tempmax: 0, formula: "5d10 + 3d8 + 16" }; // real dice; max 135 is the CR balance override
 sys.details.cr = 5; sys.details.level = 8;
 chassis.items = items;
 chassis.name = "Cecilia Moore";

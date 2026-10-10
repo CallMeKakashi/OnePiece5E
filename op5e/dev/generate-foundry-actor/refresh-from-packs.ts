@@ -33,6 +33,11 @@ export function refreshFromPacks(items: Doc[]): { refreshed: string[]; unmatched
     if (pick.system.activation) it.system.activation = structuredClone(pick.system.activation);
     refreshed.push(it.name);
   }
+  // Font of Inspiration (Bard 5) and Font of Vitality (Bard 10): the pools come back on a short rest as well as a long rest
+  const has = (n: string) => items.some((i) => i.name === n);
+  const shortRest = (n: string) => { const it = items.find((i) => i.name === n); if (it?.system?.uses?.per === "lr") it.system.uses.per = "sr"; };
+  if (has("Font of Inspiration")) shortRest("Bardic Inspiration");
+  if (has("Font of Vitality")) shortRest("Harmonic Vitality");
   return { refreshed, unmatched };
 }
 

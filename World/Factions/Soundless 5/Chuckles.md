@@ -37,4 +37,4 @@ cr: 1
 
 ## Foundry build
 
-Human Brawler 5 (Sumo Wrestler), Entertainer, Deckhand, CR 3. AC 16, HP 78 (override, real 43), Str 19. Greatclub and unarmed strikes; Armorless Guardian additional power; Performer and Underdog feats. Live in `bb-rehearsal` under `OP5E/Circle of Clowns`. Details: `op5e/docs/NPC-BUILDS.md`.
+Human Brawler 5 (Sumo Wrestler), Entertainer, Deckhand, CR 3. AC 16, HP 105 (override, real 43), Str 19. Greatclub and unarmed strikes; Armorless Guardian additional power; Performer and Underdog feats. Live in `bb-rehearsal` under `OP5E/Circle of Clowns`. Details: `op5e/docs/NPC-BUILDS.md`.

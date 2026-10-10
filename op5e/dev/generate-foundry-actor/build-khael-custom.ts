@@ -81,7 +81,7 @@ const abil = { str: 15, dex: 17, con: 15, int: 10, wis: 12, cha: 10 }; // Human 
 for (const [k, v] of Object.entries(abil)) sys.abilities[k].value = v;
 sys.abilities.str.proficient = 1; sys.abilities.con.proficient = 1; // Fighter saves
 const SKILL_ABILITY: Record<string, string> = { acr: "dex", ani: "wis", arc: "int", ath: "str", dec: "cha", his: "int", ins: "wis", itm: "cha", inv: "int", med: "wis", nat: "int", prc: "wis", prf: "cha", per: "cha", rel: "int", slt: "dex", ste: "dex", sur: "wis" };
-const VALUES: Record<string, number> = { acr: 1, slt: 2, prc: 1, sur: 1, per: 1, ins: 1, itm: 1, ste: 2, dec: 1, inv: 1, ath: 1 }; // Smuggler, Fighter, Captain, Rogue; Rogue expertise in Stealth (and thieves' tools), Quick Fingers expertise in Sleight of Hand
+const VALUES: Record<string, number> = { acr: 1, slt: 2, prc: 1, sur: 1, per: 1, ins: 1, itm: 1, ste: 2, dec: 1, inv: 1, ath: 2 }; // Smuggler, Fighter, Captain, Rogue; Rogue expertise in Stealth (and thieves' tools), Quick Fingers expertise in Sleight of Hand // Physical Superiority (Champion 3): Strength, so Athletics proficiency becomes expertise
 sys.skills = Object.fromEntries(Object.entries(SKILL_ABILITY).map(([k, ab]) => [k, { value: VALUES[k] ?? 0, ability: ab }]));
 sys.traits.armorProf = { value: ["lgt", "med", "hvy", "shl"], custom: "" };
 sys.traits.weaponProf = { value: ["sim", "mar"], custom: "" };

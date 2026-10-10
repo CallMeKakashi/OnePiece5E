@@ -54,7 +54,7 @@ const bs = spend("Bait and Switch", "<strong>Crosswire (Dabu Dabu no Mi).</stron
 for (const a of Object.values(bs.system.activities ?? {}) as any[]) { a.damage = { ...(a.damage ?? {}), parts: [] }; a.description = { ...(a.description ?? {}), chatFlavor: "Swap the double's position with a creature you can see." }; }
 
 for (const i of items) {
-  if (["Leather Armor", "Rapier", "Shortbow"].includes(i.name ?? "") && i.system) i.system.equipped = true;
+  if (["Rapier", "Shortbow"].includes(i.name ?? "") && i.system) i.system.equipped = true;
   if (i.type === "tool") i.system.proficient = ["Thieves' Tools", "Navigator's Tools"].includes(i.name ?? "") ? 1 : 0;
 }
 
@@ -66,13 +66,13 @@ const SKILL_ABILITY: Record<string, string> = { acr: "dex", ani: "wis", arc: "in
 const VALUES: Record<string, number> = { ste: 2, acr: 2, prc: 2, dec: 2, inv: 1, sur: 1, nat: 1 }; // Rogue skills with expertise (Stealth, Acrobatics, then Perception, Deception), Navigator background and role
 sys.skills = Object.fromEntries(Object.entries(SKILL_ABILITY).map(([k, ab]) => [k, { value: VALUES[k] ?? 0, ability: ab }]));
 sys.attributes.spellcasting = "int"; // Mirror Image and Misty Step are item-granted
-// CR 4 (damage output is below CR 5). Straight Rogue 8 (Con 15, +2 x 8 = +16) gives 8d8+16 = 52 avg; HP 123 is a kept override (CR 4 DMG band is 100-115).
+// CR 4 (damage output is below CR 5). Straight Rogue 8 (Con 15, +2 x 8 = +16) gives 8d8+16 = 52 avg; HP 123 is a kept override (CR 4 DMG band is 116-130).
 sys.attributes.hp = { value: 123, max: 123, temp: 0, tempmax: 0, formula: "8d8 + 16" };
 sys.details.cr = 4; sys.details.level = 8;
 chassis.items = items;
 chassis.name = "Irik Fen";
-chassis.img = "one-piece-5e/npcs/Sharkfin Pirates/irik-new.jpg";
-chassis.prototypeToken = { ...(chassis.prototypeToken ?? {}), texture: { ...(chassis.prototypeToken?.texture ?? {}), src: "one-piece-5e/npcs/Sharkfin Pirates/irik-new-token.png" } };
+chassis.img = "one-piece-5e/npcs/SharkFin Pirates/irik-new.jpg";
+chassis.prototypeToken = { ...(chassis.prototypeToken ?? {}), texture: { ...(chassis.prototypeToken?.texture ?? {}), src: "one-piece-5e/npcs/SharkFin Pirates/irik-new-token.png" } };
 sys.details.biography.value = "<p>Irik \"Two-Tide\" Fen, former navigator of the Sharkfin Pirates, now in the service of another pirate after the party killed his captain. Eater of the Dabu Dabu no Mi: his Double fights beside him and he swaps places with it at will.</p><p><strong>Balance note (CR 4):</strong> his damage is below CR 5, so he is rated CR 4; hit points are kept at the 123 override (the real formula is 8d8 + 16, Con 15).</p><p>Human trait: +1 Con, Int, Wis (Con 15, Int 14, Wis 13).</p>";
 
 writeFileSync(`${ACTORS}/irik.json`, JSON.stringify(chassis, null, 2), "utf-8");

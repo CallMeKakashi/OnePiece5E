@@ -60,7 +60,7 @@ actions:
 
 ## Foundry build (bb-rehearsal, 2026-10-10)
 
-- **Human Marksman 5 (Bounty Hunter) / Rogue 3 (Thief)**, level 8, **CR 5**. Str 8, Dex 19, Con 15, Int 10, Wis 15, Cha 10. HP 123 (balance override). Saves Dex/Wis.
+- **Human Marksman 5 (Bounty Hunter) / Rogue 3 (Thief)**, level 8, **CR 5**. Str 8, Dex 19, Con 15, Int 10, Wis 15, Cha 10. HP 135 (balance override). Saves Dex/Wis.
 - Ricochet Rounds (no Devil Fruit), Marksman creations, Sneak Attack, Cunning Action; pistol, cutlass, dagger.
 - Live folder: OP5E/Sand Rats.
 - Art status: placeholder (cecilia-new), AI-modified label, does not match her description. Credit details in `docs/art-credits.md`. Rebuild steps: [op5e/docs/NPC-BUILDS.md](../../../../op5e/docs/NPC-BUILDS.md).

@@ -1,0 +1,490 @@
+{
+  "_id": "4b523871f905efa3",
+  "name": "Sphinx (Kyle Sollen Hybrid Form)",
+  "type": "npc",
+  "img": "one-piece-5e/npcs/kyle-hybrid.jpg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 8
+      },
+      "dex": {
+        "value": 18
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 14
+      },
+      "wis": {
+        "value": 13
+      },
+      "cha": {
+        "value": 22
+      }
+    },
+    "attributes": {
+      "prof": 5,
+      "ac": {
+        "calc": "flat",
+        "flat": 18
+      },
+      "hp": {
+        "value": 245,
+        "max": 245,
+        "formula": ""
+      },
+      "movement": {
+        "walk": 30,
+        "fly": 40,
+        "hover": true,
+        "units": "ft"
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": 60
+        },
+        "units": "ft"
+      }
+    },
+    "details": {
+      "cr": 0,
+      "type": {
+        "value": "humanoid"
+      },
+      "alignment": "",
+      "source": {
+        "book": "Blood & Brine homebrew",
+        "custom": "Kyle Sollen"
+      },
+      "biography": {
+        "value": "<p>The Hybrid Form of Kyle Sollen's Sphinx-Sphinx Fruit: a winged man-lion. Ability scores, hit points, class features, spells and gear come from Kyle (the transform keeps them); the sheet here supplies the wings, claws, flying speed and token.</p>",
+        "public": ""
+      }
+    },
+    "traits": {
+      "size": "med",
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "skills": {}
+  },
+  "prototypeToken": {
+    "name": "Sphinx (Hybrid)",
+    "texture": {
+      "src": "one-piece-5e/npcs/kyle-hybrid-token.png"
+    },
+    "width": 1,
+    "height": 1,
+    "actorLink": false,
+    "disposition": -1
+  },
+  "items": [
+    {
+      "_id": "703dca5ea1a186a8",
+      "name": "Claw",
+      "type": "feat",
+      "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +(Dexterity modifier + your proficiency bonus) to hit, reach 5 ft., one target. <em>Hit:</em> 1d8 + Dexterity modifier slashing damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Blood & Brine homebrew",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "mwak",
+        "damage": {
+          "parts": [
+            [
+              "1d8",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "name": "Claw",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": null,
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 5,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "critical": {
+                "allow": true,
+                "bonus": ""
+              },
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "@abilities.dex.mod",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ],
+              "includeBase": false
+            },
+            "attack": {
+              "ability": "dex",
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "f44b6536822a0387",
+      "name": "Hybrid Strikes",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>All of your attacks deal extra damage equal to your proficiency bonus while in Hybrid Form (Zoan Hybrid Form).</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Blood & Brine homebrew",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [
+        {
+          "_id": "14d5bbf1a355deba",
+          "name": "Hybrid Strikes",
+          "img": "icons/skills/melee/strike-slashes-orange.webp",
+          "disabled": false,
+          "transfer": true,
+          "changes": [
+            {
+              "key": "system.bonuses.mwak.damage",
+              "mode": 2,
+              "value": "+@prof",
+              "priority": 20
+            },
+            {
+              "key": "system.bonuses.rwak.damage",
+              "mode": 2,
+              "value": "+@prof",
+              "priority": 20
+            },
+            {
+              "key": "system.bonuses.msak.damage",
+              "mode": 2,
+              "value": "+@prof",
+              "priority": 20
+            },
+            {
+              "key": "system.bonuses.rsak.damage",
+              "mode": 2,
+              "value": "+@prof",
+              "priority": 20
+            }
+          ],
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "flags": {},
+          "statuses": [],
+          "tint": null
+        }
+      ],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "7faf2a5dbb5757ab",
+      "name": "Wings of the Sphinx",
+      "type": "feat",
+      "img": "icons/commodities/biological/wing-bird-white.webp",
+      "system": {
+        "description": {
+          "value": "<p>You have a flying speed of 40 feet and can hover, and you have advantage on saving throws against being charmed, frightened or compelled while in this form.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Blood & Brine homebrew",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

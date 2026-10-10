@@ -45,11 +45,11 @@ const VALUES: Record<string, number> = { acr: 1, prf: 1, ath: 2, sur: 1, ani: 1,
 sys.skills = Object.fromEntries(Object.entries(SKILL_ABILITY).map(([k, ab]) => [k, { value: VALUES[k] ?? 0, ability: ab }]));
 sys.attributes.ac = { flat: null, calc: "custom", formula: "10 + @abilities.str.mod + @abilities.wis.mod" };
 // CR balance pass: Brawler 5 d8 HP sits at 43, under the CR 3 band (70-85), so HP is overridden.
-sys.attributes.hp = { value: 78, max: 78, temp: 0, tempmax: 0, formula: "5d8 + 15" };
+sys.attributes.hp = { value: 105, max: 105, temp: 0, tempmax: 0, formula: "5d8 + 15" };
 sys.details.cr = 3; sys.details.level = 5;
 chassis.name = "Chuckles";
 chassis.img = "one-piece-5e/npcs/Circus Ring/Chuckles-d-clown.png";
 chassis.prototypeToken = { ...(chassis.prototypeToken ?? {}), texture: { ...(chassis.prototypeToken?.texture ?? {}), src: "one-piece-5e/npcs/Circus Ring/Chuckles-d-clown.png" } };
-sys.details.biography.value = "<p>Chuckles D. Clown, the strongman of the Circle of Clowns: a huge, grinning brute in striped suspenders and chains.</p><p><strong>Balance note (CR 3):</strong> a straight Brawler 5 is under CR 3 on hit points, so HP is overridden to 78.</p>";
+sys.details.biography.value = "<p>Chuckles D. Clown, the strongman of the Circle of Clowns: a huge, grinning brute in striped suspenders and chains.</p><p><strong>Balance note (CR 3):</strong> a straight Brawler 5 is under CR 3 on hit points, so HP is overridden to 105 (DMG CR 3 band 101-115).</p>";
 writeFileSync(`${ACTORS}/chuckles.json`, JSON.stringify(chassis, null, 2), "utf-8");
 console.log(`Wrote ${ACTORS}/chuckles.json (${out.length} items)`);

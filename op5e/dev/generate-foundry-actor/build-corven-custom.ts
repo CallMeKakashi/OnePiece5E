@@ -5,7 +5,7 @@
 // Fruit powers map to compendium items where one exists; Snatch, Freight Train, Call and Response and the Speed-Speed passive are homebrew.
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { embedOwnedItem } from "./compendium-resolver.js";
-import { refreshFromPacks, standaloneSummons, wireSpirit } from "./refresh-from-packs.js";
+import { refreshFromPacks, standaloneSummons, wireSpirit, limitedUse } from "./refresh-from-packs.js";
 import { ensureFeatureActivities, ensureItemActivities } from "../../data/helpers/activities.js";
 import { generateId } from "../../data/helpers/id.js";
 import creations from "../../data/src/creations/index.js";
@@ -98,6 +98,11 @@ function build(c: Cfg) {
   c.extra(items, spend, dfu);
   recover(items);
   const auto = refreshFromPacks(items);
+  if (c.slug === "serica") { // Martial Adept: two superiority dice (d8, short rest) and the maneuver Precision Attack, spending those dice
+    const ma = items.find((i) => i.name === "Martial Adept"); if (ma) limitedUse(ma, { max: "2", per: "sr", condition: "a superiority die, used by a maneuver" });
+    const pf = readdirSync("packs-src/class-features").find((f) => JSON.parse(readFileSync(`packs-src/class-features/${f}`, "utf-8")).name === "Precision Attack");
+    if (pf) { const pa = embedOwnedItem(JSON.parse(readFileSync(`packs-src/class-features/${pf}`, "utf-8")) as never) as Doc; for (const a of Object.values(pa.system.activities ?? {}) as Doc[]) for (const t of a.consumption?.targets ?? []) t.target = "martial-adept"; items.push(pa); }
+  }
   const spiritWired = wireSpirit(items); if (spiritWired.length) console.log(`${c.name}: spirit cost wired on ${spiritWired.join(", ")}`);
   console.log(`${c.name}: automation copied onto ${auto.refreshed.length} features; no pack match for: ${auto.unmatched.join(", ") || "none"}`);
   const summons = standaloneSummons(items, ACTORS, c.slug);

@@ -52,10 +52,10 @@ sys.attributes.movement = { ...sys.attributes.movement, fly: 30 }; // Lunarian w
 sys.attributes.spellcasting = "con"; // Flame Investure creative ability is Constitution
 sys.details.level = 12;
 // CR balance pass (DMG): real HP is 87 (111 with Tough) = defensive CR 6 and AC 18 = +1; attack +10 and about 46 damage across Extra Attack plus Flurry of Blows = offensive CR 10; Spirit DC 16 matches CR 10.
-// HP is overridden to 175 (CR 10 band 161-175) because he is a solo boss without legendary actions (the Sourcebook has none).
-sys.attributes.hp = { value: 175, max: 175, temp: 0, tempmax: 0, formula: "12d8 + 24" };
+// HP is overridden to 210 (DMG CR 10 band 206-220) because he is a solo boss without legendary actions (the Sourcebook has none). Real HP is 111 with Tough.
+sys.attributes.hp = { value: 210, max: 210, temp: 0, tempmax: 0, formula: "12d8 + 24" };
 sys.details.cr = 10;
-sys.details.biography.value = "<p>Calder Voss, born Vorro of the Motley Crew: a Marine captain and later commodore at Spirit Cliff (G-45), a Lunarian who fights with the Six Powers.</p><p><strong>Balance note (CR 10):</strong> a straight Brawler 12 is about CR 8 to 9 on defenses, so HP is overridden to 175 for a solo boss.</p>";
+sys.details.biography.value = "<p>Calder Voss, born Vorro of the Motley Crew: a Marine captain and later commodore at Spirit Cliff (G-45), a Lunarian who fights with the Six Powers.</p><p><strong>Balance note (CR 10):</strong> a straight Brawler 12 is about CR 8 to 9 on defenses, so HP is overridden to 210 for a solo boss.</p>";
 const sp = out.find((i) => i.name === "Spirit"); if (sp) sp.system.uses.max = `${sp.system.uses.max} + @abilities.wis.mod`; // Flowing Mind: Free Spirit
 chassis.name = "Calder Voss";
 chassis.img = "one-piece-5e/npcs/Marines/calder-new.jpg";

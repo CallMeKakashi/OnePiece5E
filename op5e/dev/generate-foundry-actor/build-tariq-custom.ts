@@ -45,18 +45,18 @@ const abil = { str: 8, dex: 19, con: 13, int: 10, wis: 15, cha: 10 }; // previou
 for (const [k, v] of Object.entries(abil)) sys.abilities[k].value = v;
 sys.abilities.dex.proficient = 1; sys.abilities.wis.proficient = 1; // Marksman saves: Dexterity, Wisdom
 const SKILL_ABILITY: Record<string, string> = { acr: "dex", ani: "wis", arc: "int", ath: "str", dec: "cha", his: "int", ins: "wis", itm: "cha", inv: "int", med: "wis", nat: "int", prc: "wis", prf: "cha", per: "cha", rel: "int", slt: "dex", ste: "dex", sur: "wis" };
-const VALUES: Record<string, number> = { prc: 1, sur: 1, ste: 1, nat: 1 }; // Wanderer: Perception, Survival; Marksman: Stealth, Nature
+const VALUES: Record<string, number> = { prc: 1, sur: 1, ste: 1, nat: 1, acr: 1 }; // Wanderer: Perception, Survival; Marksman: Stealth, Nature
 sys.skills = Object.fromEntries(Object.entries(SKILL_ABILITY).map(([k, ab]) => [k, { value: VALUES[k] ?? 0, ability: ab }]));
 sys.attributes.spellcasting = "wis";
 sys.spells = Object.fromEntries([4, 2, 0, 0, 0, 0, 0, 0, 0].map((max, i) => [`spell${i + 1}`, { value: max, max }]));
 // CR balance pass: Marksman 5 d10 HP sits at 39, far under the CR 3 band (70-85), so HP is overridden.
-sys.attributes.hp = { value: 72, max: 72, temp: 0, tempmax: 0, formula: "5d10 + 5" };
+sys.attributes.hp = { value: 105, max: 105, temp: 0, tempmax: 0, formula: "5d10 + 5" };
 sys.details.cr = 3; sys.details.level = 5;
 chassis.items = items;
 chassis.name = "Tariq Solen";
 chassis.img = "one-piece-5e/npcs/Sand Rats/tariq.jpg";
 chassis.prototypeToken = { ...(chassis.prototypeToken ?? {}), texture: { ...(chassis.prototypeToken?.texture ?? {}), src: "one-piece-5e/npcs/Sand Rats/tariq-token.png" } };
-sys.details.biography.value = "<p>Tariq Solen, a 15-year-old scout of the Sand Rats: a lean wanderer with a longbow, quick eyes and a guarded calm.</p><p><strong>Balance note (CR 3):</strong> a straight Marksman 5 is under CR 3 on hit points, so HP is overridden to 72.</p>";
+sys.details.biography.value = "<p>Tariq Solen, a 15-year-old scout of the Sand Rats: a lean wanderer with a longbow, quick eyes and a guarded calm.</p><p><strong>Balance note (CR 3):</strong> a straight Marksman 5 is under CR 3 on hit points, so HP is overridden to 105 (DMG CR 3 band 101-115).</p>";
 
 // Chapter 7 additional power (no Devil Fruit): Fearsome Fortitude, chosen by the user 2026-10-10
 for (const f of fearsomeFortitudeFeatures) chassis.items.push(embedOwnedItem(ensureFeatureActivities(f as never) as never) as Doc);

@@ -1,7 +1,7 @@
 {
-  "name": "Khael Dhamar",
+  "name": "The Gallows",
   "type": "npc",
-  "img": "one-piece-5e/npcs/Sand Rats/khael-new.jpg",
+  "img": "",
   "effects": [],
   "flags": {
     "op5e": {
@@ -22,7 +22,7 @@
   "system": {
     "abilities": {
       "str": {
-        "value": 15,
+        "value": 12,
         "proficient": 1,
         "bonuses": {
           "check": "",
@@ -30,7 +30,7 @@
         }
       },
       "dex": {
-        "value": 17,
+        "value": 18,
         "proficient": 0,
         "bonuses": {
           "check": "",
@@ -38,7 +38,7 @@
         }
       },
       "con": {
-        "value": 15,
+        "value": 14,
         "proficient": 1,
         "bonuses": {
           "check": "",
@@ -54,7 +54,7 @@
         }
       },
       "wis": {
-        "value": 12,
+        "value": 14,
         "proficient": 0,
         "bonuses": {
           "check": "",
@@ -62,7 +62,7 @@
         }
       },
       "cha": {
-        "value": 10,
+        "value": 8,
         "proficient": 0,
         "bonuses": {
           "check": "",
@@ -77,11 +77,11 @@
         "formula": ""
       },
       "hp": {
-        "value": 138,
-        "max": 138,
+        "value": 182,
+        "max": 182,
         "temp": 0,
         "tempmax": 0,
-        "formula": "5d10 + 3d8 + 16"
+        "formula": "7d10 + 3d8 + 60"
       },
       "init": {
         "ability": "dex",
@@ -136,7 +136,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Khael Dhamar, a tall, lean Alabastan with sun-scarred skin and dark-red eyes, leader of the Sand Rats. He once guarded royal caravans, then smuggled slaves for coin until a fellow guard sold his wife Layla and daughter Samira into bondage and left him for dead. Now he frees the slaves he once sold. Twin talwars (statted as scimitars), tattered desert robes and scavenged naval gear.</p><p><strong>Balance note (CR 5):</strong> a straight Fighter 5 / Rogue 3 is under CR 5, so hit points are overridden to 138 and Liberator's Edge adds 1d8 to melee weapon damage.</p>",
+        "value": "<p>The Gallows: a former marine turned vigilante hunting the people behind the deaths of his family. He fights crime with two weighted steel batons and a marine's discipline. An ally of the party.</p><p><strong>Balance note (CR 8):</strong> built as Fighter 7 (Blitzkrieg) / Rogue 3 (Bruiser), level 10, with HP overridden to 182 so he reaches the CR 8 band.</p>",
         "public": ""
       },
       "alignment": "neutral",
@@ -151,8 +151,8 @@
         "swarm": "",
         "swarmSize": ""
       },
-      "cr": 5,
-      "level": 8,
+      "cr": 8,
+      "level": 10,
       "spellLevel": 0
     },
     "skills": {
@@ -173,7 +173,7 @@
         "ability": "str"
       },
       "dec": {
-        "value": 1,
+        "value": 0,
         "ability": "cha"
       },
       "his": {
@@ -181,7 +181,7 @@
         "ability": "int"
       },
       "ins": {
-        "value": 1,
+        "value": 2,
         "ability": "wis"
       },
       "itm": {
@@ -189,7 +189,7 @@
         "ability": "cha"
       },
       "inv": {
-        "value": 1,
+        "value": 0,
         "ability": "int"
       },
       "med": {
@@ -209,7 +209,7 @@
         "ability": "cha"
       },
       "per": {
-        "value": 1,
+        "value": 0,
         "ability": "cha"
       },
       "rel": {
@@ -217,15 +217,15 @@
         "ability": "int"
       },
       "slt": {
-        "value": 2,
+        "value": 0,
         "ability": "dex"
       },
       "ste": {
-        "value": 2,
+        "value": 0,
         "ability": "dex"
       },
       "sur": {
-        "value": 1,
+        "value": 0,
         "ability": "wis"
       }
     },
@@ -276,7 +276,7 @@
     },
     "currency": {
       "pp": 0,
-      "gp": 250000,
+      "gp": 200000,
       "ep": 0,
       "sp": 0,
       "cp": 0
@@ -284,7 +284,7 @@
   },
   "items": [
     {
-      "_id": "1bfbf5e4ecd76258",
+      "_id": "29a15e70ae799fc4",
       "name": "Human",
       "type": "race",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -507,13 +507,13 @@
       }
     },
     {
-      "_id": "0f0ae38a78e15d77",
-      "name": "Smuggler",
+      "_id": "3e7d21ca78f81e09",
+      "name": "Marine/Soldier",
       "type": "background",
-      "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
+      "img": "icons/equipment/shield/heater-steel-grey.webp",
       "system": {
         "description": {
-          "value": "<p>On a rickety barge, you carried a hundred longswords in fish barrels right past the dock master's oblivious lackeys. In your more charitable times, you have transported innocents out of war zones.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Athletics, Acrobatics, Deception, Sleight of Hand</p>\n<p><strong>Tool Proficiencies:</strong> Vehicles (water)</p>\n<p><strong>Equipment:</strong> 150,000 Berries; Small Medkits &times;3; Rations &times;5, a fancy leather vest, leather boots</p>\n<h4>Feature: Adept Theft</h4>\n<p>Your experience in smuggling illicit goods has made you a master of sleight of hand. You gain your choice of the Quick Fingers Feat or the Master Appraiser Feat.</p>",
+          "value": "<p>War has been your life for as long as you care to remember. You might have been part of a standing national army, a mercenary company, or perhaps a member of the Navy under the World Government, sailing the seas to combat pirates.</p>\n<p><strong>Skill Proficiencies:</strong> 2 from Athletics, Persuasion, Perception, Engineering, Acrobatics</p>\n<p><strong>Tool Proficiencies:</strong> Water Vehicles</p>\n<p><strong>Equipment:</strong> 100,000 Berries; 2 Medkits; Rations &times;5; Leather Armor/Navy Uniform</p>\n<h4>Feature: Military Training</h4>\n<p>You gain your choice of the Light Armor Master or Medium Armor Master feat.</p>",
           "chat": ""
         },
         "source": {
@@ -524,32 +524,28 @@
         },
         "advancement": [
           {
-            "_id": "3f3753682ee49cea",
+            "_id": "f1fb9b3da8922475",
             "type": "ItemGrant",
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.5f72335090d740c5",
+                  "uuid": "Actor.fc55141d6780723c.Item.d43709e36e11ca18",
                   "optional": false,
-                  "quantity": 3
+                  "quantity": 2
                 },
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.8954118846abe987",
+                  "uuid": "Actor.fc55141d6780723c.Item.a7b918388d163111",
                   "optional": false,
                   "quantity": 5
                 },
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.19c3f24389eaa801",
-                  "optional": false
-                },
-                {
-                  "uuid": "Actor.7c31107163df44f6.Item.e8a7516f384703dc",
+                  "uuid": "Actor.fc55141d6780723c.Item.84fc9699f1865281",
                   "optional": false
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.7c31107163df44f6.Item.5f72335090d740c5": 3,
-                "Actor.7c31107163df44f6.Item.8954118846abe987": 5
+                "Actor.fc55141d6780723c.Item.d43709e36e11ca18": 2,
+                "Actor.fc55141d6780723c.Item.a7b918388d163111": 5
               }
             },
             "value": {},
@@ -560,7 +556,7 @@
             "hint": ""
           },
           {
-            "_id": "4f65e46b41146d20",
+            "_id": "2c3ab682784a8f5a",
             "type": "Trait",
             "configuration": {
               "mode": "default",
@@ -570,14 +566,15 @@
                   "count": 2,
                   "pool": [
                     "skills:ath",
-                    "skills:acr",
-                    "skills:dec",
-                    "skills:slt"
+                    "skills:per",
+                    "skills:prc",
+                    "skills:arc",
+                    "skills:acr"
                   ]
                 }
               ],
               "allowReplacements": true,
-              "hint": "2 from Athletics, Acrobatics, Deception, Sleight of Hand"
+              "hint": "2 from Athletics, Persuasion, Perception, Engineering, Acrobatics"
             },
             "value": {},
             "level": 0,
@@ -587,7 +584,7 @@
             "hint": ""
           },
           {
-            "_id": "3cb87dc83a538df1",
+            "_id": "00a542a7281cf7e3",
             "type": "Trait",
             "configuration": {
               "mode": "default",
@@ -596,7 +593,7 @@
               ],
               "choices": [],
               "allowReplacements": true,
-              "hint": "Vehicles (water)"
+              "hint": "Water Vehicles"
             },
             "value": {},
             "level": 0,
@@ -606,7 +603,7 @@
             "hint": ""
           },
           {
-            "_id": "d28121ef73bef79e",
+            "_id": "f011d5f4f165c011",
             "type": "ItemChoice",
             "configuration": {
               "allowDrops": false,
@@ -617,10 +614,10 @@
                 }
               },
               "pool": [
+                {},
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.b340bb7bbace5427"
-                },
-                {}
+                  "uuid": "Actor.fc55141d6780723c.Item.92f3b269f87ad425"
+                }
               ],
               "restriction": {
                 "type": "feat",
@@ -647,10 +644,10 @@
       "effects": [],
       "flags": {
         "op5e": {
-          "startingBeri": 150000,
+          "startingBeri": 100000,
           "grantQuantities": {
-            "Actor.7c31107163df44f6.Item.5f72335090d740c5": 3,
-            "Actor.7c31107163df44f6.Item.8954118846abe987": 5
+            "Actor.fc55141d6780723c.Item.d43709e36e11ca18": 2,
+            "Actor.fc55141d6780723c.Item.a7b918388d163111": 5
           }
         }
       },
@@ -671,7 +668,7 @@
       }
     },
     {
-      "_id": "d6cf6e30fc169fd8",
+      "_id": "6f098b5d167a07d5",
       "name": "Role: Captain",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -740,15 +737,15 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.c234a05e0a6d06be",
+                  "uuid": "Actor.fc55141d6780723c.Item.81236a689e4bdb8b",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.5621a41ab1d73963",
+                  "uuid": "Actor.fc55141d6780723c.Item.f9def8b8eb574cb0",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.73f69936053326b3",
+                  "uuid": "Actor.fc55141d6780723c.Item.deafbbf05f3b75e0",
                   "optional": false
                 }
               ]
@@ -839,7 +836,7 @@
               "pool": [
                 {},
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.9aaa81636de5f474"
+                  "uuid": "Actor.fc55141d6780723c.Item.8aa824112379e827"
                 },
                 {},
                 {},
@@ -893,7 +890,7 @@
       }
     },
     {
-      "_id": "c234a05e0a6d06be",
+      "_id": "81236a689e4bdb8b",
       "name": "Clothes, Common",
       "type": "loot",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -938,7 +935,7 @@
       }
     },
     {
-      "_id": "5621a41ab1d73963",
+      "_id": "f9def8b8eb574cb0",
       "name": "Pirate Flag",
       "type": "loot",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -983,7 +980,7 @@
       }
     },
     {
-      "_id": "73f69936053326b3",
+      "_id": "deafbbf05f3b75e0",
       "name": "Spyglass",
       "type": "loot",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -1028,7 +1025,7 @@
       }
     },
     {
-      "_id": "e4c846c4f90c980f",
+      "_id": "e88597f657634604",
       "name": "Fighter",
       "type": "class",
       "img": "icons/skills/melee/hand-grip-sword-red.webp",
@@ -1044,7 +1041,7 @@
           "license": ""
         },
         "identifier": "fighter",
-        "levels": 5,
+        "levels": 7,
         "hitDice": "d10",
         "hitDiceUsed": 0,
         "advancement": [
@@ -1065,21 +1062,21 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.6e2ccecfa0f892fa",
+                  "uuid": "Actor.fc55141d6780723c.Item.2d3d9b554055aca2",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.f91420856ae6b5e5",
+                  "uuid": "Actor.fc55141d6780723c.Item.a96ba5e6066f8885",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.be523319bfc4c8b0",
+                  "uuid": "Actor.fc55141d6780723c.Item.2668db6d6bfce782",
                   "optional": false,
                   "quantity": 2
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.7c31107163df44f6.Item.be523319bfc4c8b0": 2
+                "Actor.fc55141d6780723c.Item.2668db6d6bfce782": 2
               }
             },
             "value": {},
@@ -1102,10 +1099,10 @@
               },
               "pool": [
                 {},
-                {},
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.fb15e22b3ad52b2f"
-                }
+                  "uuid": "Actor.fc55141d6780723c.Item.ce53f315f57e49cd"
+                },
+                {}
               ],
               "restriction": {
                 "type": "equipment",
@@ -1144,13 +1141,13 @@
                 {},
                 {},
                 {},
-                {},
-                {},
-                {},
-                {},
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.d6a15f0472ead7e3"
+                  "uuid": "Actor.fc55141d6780723c.Item.bde2e3034da90567"
                 },
+                {},
+                {},
+                {},
+                {},
                 {},
                 {}
               ],
@@ -1192,13 +1189,13 @@
                 {},
                 {},
                 {},
-                {},
-                {},
-                {},
-                {},
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.d6a15f0472ead7e3"
+                  "uuid": "Actor.fc55141d6780723c.Item.bde2e3034da90567"
                 },
+                {},
+                {},
+                {},
+                {},
                 {},
                 {}
               ],
@@ -1234,10 +1231,10 @@
                 }
               },
               "pool": [
+                {},
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.c8a78e3bffc1d21e"
-                },
-                {}
+                  "uuid": "Actor.fc55141d6780723c.Item.2c30c96ca0874c6a"
+                }
               ],
               "restriction": {
                 "type": "weapon",
@@ -1273,7 +1270,7 @@
               "pool": [
                 {},
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.34778130dc360b64"
+                  "uuid": "Actor.fc55141d6780723c.Item.548031aac73284a4"
                 }
               ],
               "restriction": {
@@ -1429,11 +1426,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.34f69fd593e651fa",
+                  "uuid": "Actor.fc55141d6780723c.Item.ceef4d0aaf821f47",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.e71a31dceb61122a",
+                  "uuid": "Actor.fc55141d6780723c.Item.4ce9993cd5ced882",
                   "optional": false
                 }
               ]
@@ -1451,7 +1448,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.efa88c00d433ea59",
+                  "uuid": "Actor.fc55141d6780723c.Item.7d86d0fe579af4e2",
                   "optional": false
                 }
               ]
@@ -1837,7 +1834,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.24eb2eb903820d00"
+                  "uuid": "Actor.fc55141d6780723c.Item.1db94ade7aea7f01"
                 },
                 {},
                 {},
@@ -1885,7 +1882,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.b7950408fa1ebf0b"
+                  "uuid": "Actor.fc55141d6780723c.Item.175bc82c51b967e9"
                 }
               ],
               "restriction": {
@@ -1914,7 +1911,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.ae4e42070ce0d529",
+                  "uuid": "Actor.fc55141d6780723c.Item.fa187c3f169014e7",
                   "optional": false
                 }
               ]
@@ -2026,7 +2023,7 @@
       "flags": {
         "op5e": {
           "grantQuantities": {
-            "Actor.7c31107163df44f6.Item.be523319bfc4c8b0": 2
+            "Actor.fc55141d6780723c.Item.2668db6d6bfce782": 2
           }
         }
       },
@@ -2047,13 +2044,13 @@
       }
     },
     {
-      "_id": "3505b5e30ad6229b",
-      "name": "Champion",
+      "_id": "1d03c97610e899d2",
+      "name": "Blitzkrieg",
       "type": "subclass",
-      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "img": "icons/weapons/swords/greatsword-blue.webp",
       "system": {
         "description": {
-          "value": "<p>Those who follow the combative ways of the champion focus on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype are committed to their combat arts, becoming unparalleled masters of their fighting style, sharpening their proficiency beyond any other martial master.</p>",
+          "value": "<p>Of all the foes one can face, none are quite as flighty and frustrating to face is the Blitzkrieg. The Blitzkrieg's main weapon is not a sword, gun, or any kind of physical object. The main weapon of these fighters are their extraordinary speed, enabling them to dash around the battlefield as they strike.</p>",
           "chat": ""
         },
         "source": {
@@ -2062,20 +2059,20 @@
           "custom": "",
           "license": ""
         },
-        "identifier": "champion",
+        "identifier": "blitzkrieg",
         "classIdentifier": "fighter",
         "advancement": [
           {
-            "_id": "e217222966793c77",
+            "_id": "de09810cc72108e1",
             "type": "ItemGrant",
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.f541d0156eba0471",
+                  "uuid": "Actor.fc55141d6780723c.Item.bf6904243be7c775",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7c31107163df44f6.Item.371df3f355dfb153",
+                  "uuid": "Actor.fc55141d6780723c.Item.d245778c3cbda4da",
                   "optional": false
                 }
               ]
@@ -2088,11 +2085,12 @@
             "hint": ""
           },
           {
-            "_id": "a4d9586b0021a8bf",
+            "_id": "64c98229cc93655a",
             "type": "ItemGrant",
             "configuration": {
               "items": [
                 {
+                  "uuid": "Actor.fc55141d6780723c.Item.bf4e90108314f86e",
                   "optional": false
                 }
               ]
@@ -2105,7 +2103,7 @@
             "hint": ""
           },
           {
-            "_id": "aa271ba0608c8e48",
+            "_id": "d1a42144527aa3af",
             "type": "ItemGrant",
             "configuration": {
               "items": [
@@ -2122,7 +2120,7 @@
             "hint": ""
           },
           {
-            "_id": "245787ea96609f6a",
+            "_id": "03f67702e10a72ae",
             "type": "ItemGrant",
             "configuration": {
               "items": [
@@ -2139,7 +2137,7 @@
             "hint": ""
           },
           {
-            "_id": "7d8f959223af5c1a",
+            "_id": "d46a243ec13c4906",
             "type": "ItemGrant",
             "configuration": {
               "items": [
@@ -2180,13 +2178,13 @@
       }
     },
     {
-      "_id": "f541d0156eba0471",
-      "name": "Combat Expert",
+      "_id": "bf6904243be7c775",
+      "name": "Afterimage",
       "type": "feat",
-      "img": "icons/skills/trades/academics-study-reading-book.webp",
+      "img": "icons/magic/time/arrows-circling-green.webp",
       "system": {
         "description": {
-          "value": "<p>Your intense training has shown you how to pierce the stoutest defenses and exploit the slightest of missteps. When you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.</p>",
+          "value": "<p>Starting at 3rd level, you can move at blinding speeds to create an Afterimage as a bonus action in an unoccupied space you can see within 30 feet of yourself. This Afterimage is a blurred image of you that lasts until it is destroyed, until you dismiss it as a bonus action, until you make another Afterimage, or until you're incapacitated. Your Afterimage has the same AC as yourself, 1 hit point, and immunity to all conditions. If it has to make a saving throw, it uses your saving throw bonus for the roll. It is the same size as you, and it occupies its space.</p>\n<p>On your turn, you can mentally command the Afterimage to move up to your movement speed in any direction (no action required). If your Afterimage is ever more than 30 feet from you at the end of your turn, it is destroyed.</p>\n<p>Your Afterimage can do the following while its active:</p>\n<ul>\n<li>You can teleport, swapping places with your Afterimage at a cost of 15 feet of your movement, regardless of the distance between the two of you.</li>\n<li>When you take the Attack action on your turn, any attack you make with that action can originate from your space or the Afterimage's space. You make this choice for each attack.</li>\n<li>When a creature that you can see moves at least 5ft out of your Afterimage's range, you can use your reaction to make an opportunity attack against that creature.</li>\n</ul>",
           "chat": ""
         },
         "source": {
@@ -2199,7 +2197,415 @@
           "value": "class",
           "subtype": ""
         },
-        "requirements": "Champion 3",
+        "requirements": "Blitzkrieg 3",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "activities": {
+          "79ed9c0c1395b11c": {
+            "_id": "79ed9c0c1395b11c",
+            "type": "summon",
+            "name": "Create Afterimage",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Lasts until destroyed, dismissed, replaced or you are incapacitated. Swap places for 15 feet of movement; attacks can come from its space; opportunity attack as a reaction."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 30,
+              "units": "ft",
+              "special": "",
+              "override": true
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "bonuses": {
+              "ac": "@attributes.ac.value",
+              "hd": "",
+              "hp": "1",
+              "attackDamage": "",
+              "saveDamage": "",
+              "healing": ""
+            },
+            "creatureSizes": [],
+            "creatureTypes": [],
+            "match": {
+              "ability": "",
+              "attacks": true,
+              "proficiency": false,
+              "saves": true
+            },
+            "profiles": [
+              {
+                "_id": "6397337d4232a124",
+                "count": "1",
+                "cr": "",
+                "level": {
+                  "min": null,
+                  "max": null
+                },
+                "name": "Afterimage",
+                "types": [],
+                "uuid": "Actor.674ba837530fac1b"
+              }
+            ],
+            "summon": {
+              "identifier": "",
+              "mode": "",
+              "prompt": true
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "d245778c3cbda4da",
+      "name": "Rapid Action",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-blade-blood-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>Also at 3rd level, you can utilize your Afterimage's speed to enhance your combative potential.</p>\n<p>Whenever you take the Attack action, you can make one additional melee attack from the Afterimage's position. You can use this feature a number of times equal to 1 + your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>\n<p>In addition, you can make your Afterimage throw itself in front of an attack directed at another creature that you can see. Before the attack roll is made, you can use your reaction to teleport the Afterimage to an unoccupied space within 5 feet of the targeted creature. The attack roll that triggered the reaction is instead made against your Afterimage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Blitzkrieg 3",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "max(1, 1 + @abilities.con.mod)",
+          "per": "lr",
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "activities": {
+          "f74044921c368d30": {
+            "_id": "f74044921c368d30",
+            "type": "utility",
+            "name": "Rapid Action: extra attack",
+            "sort": 0,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Whenever you take the Attack action, make one additional melee attack from the Afterimage's position."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          },
+          "e883eb8a777e02b6": {
+            "_id": "e883eb8a777e02b6",
+            "type": "utility",
+            "name": "Rapid Action: Afterimage intercepts",
+            "sort": 1,
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "condition": "a creature attacks another creature you can see",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Before the attack roll, teleport the Afterimage to an unoccupied space within 5 feet of the target; the attack is made against the Afterimage."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "bf4e90108314f86e",
+      "name": "Blink of an Eye",
+      "type": "feat",
+      "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Beginning at 7th level, you strike in a blink of an eye. When you use the Attack action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Blitzkrieg 7",
         "activation": {
           "type": "",
           "cost": null,
@@ -2262,137 +2668,7 @@
       }
     },
     {
-      "_id": "371df3f355dfb153",
-      "name": "Physical Superiority",
-      "type": "feat",
-      "img": "icons/skills/melee/swords-parry-block-yellow.webp",
-      "system": {
-        "description": {
-          "value": "<p>Starting at 3rd level, you choose either the Strength, Constitution, or Dexterity ability score. This feature gives you bonuses depending on your choice.</p>\n<p>At 10th and 18th level, you can select one of the other ones that you have not selected.</p>\n<h4>Strength</h4>\n<p>Your gain proficiency in the Athletics skill and if you were already proficient, you instead gain Expertise.</p>\n<p>You count as one size larger when determining your carrying capacity, the weight you can push, drag, or lift, and when grappling or shoving.</p>\n<p>Additionally, when you make a running long jump, the distance you can cover increases by a number equal to your Strength Modifier.</p>\n<h4>Constitution</h4>\n<p>Your hit point maximum increases by a number equal to your fighter level when you gain this feature, and continues to increase by an additional 1 every time you gain a level in this class.</p>\n<p>The amount of time you can hold your breath is doubled, and you have resistance to fall damage.</p>\n<p>Additionally, you can use your Second Wind feature one additional time per short or long rest.</p>\n<h4>Dexterity</h4>\n<p>You gain proficiency in the Acrobatics skill and if you were already proficient, you instead gain Expertise.</p>\n<p>Your movement speed increases by 5 feet. This bonus applies also to any native climbing, swimming, or flying speed you may have.</p>\n<p>Additionally, whenever you roll Initiative you may treat a roll of 9 or lower on the die as a 10.</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "type": {
-          "value": "class",
-          "subtype": ""
-        },
-        "requirements": "Champion 3",
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "per": null,
-          "recovery": "",
-          "prompt": true
-        },
-        "actionType": "",
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "chatFlavor": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "6e2ccecfa0f892fa",
-      "name": "Arrows (20)",
-      "type": "consumable",
-      "img": "icons/skills/ranged/arrows-flying-triple-gray.webp",
-      "system": {
-        "description": {
-          "value": "",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 1,
-          "units": "lb"
-        },
-        "price": {
-          "value": 10000,
-          "denomination": "gp"
-        },
-        "rarity": "common",
-        "type": {
-          "value": "ammo"
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "baa3b477a2c9a4d1",
+      "_id": "b33c2c3c4c171e69",
       "name": "Fighting Style: Two-Weapon Fighting",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -2477,7 +2753,7 @@
       "_key": "!items!4097549a678411ba"
     },
     {
-      "_id": "e71a31dceb61122a",
+      "_id": "4ce9993cd5ced882",
       "name": "Second Wind",
       "type": "feat",
       "img": "icons/magic/life/heart-cross-green.webp",
@@ -2520,13 +2796,8 @@
         "uses": {
           "value": null,
           "max": "@prof",
-          "per": null,
-          "recovery": [
-            {
-              "period": "sr",
-              "type": "recoverAll"
-            }
-          ],
+          "per": "sr",
+          "recovery": "",
           "prompt": true
         },
         "actionType": "heal",
@@ -2664,7 +2935,7 @@
       }
     },
     {
-      "_id": "efa88c00d433ea59",
+      "_id": "7d86d0fe579af4e2",
       "name": "Action Surge",
       "type": "feat",
       "img": "icons/magic/time/arrows-circling-green.webp",
@@ -2707,13 +2978,8 @@
         "uses": {
           "value": null,
           "max": "@scale.fighter.action-surge-uses",
-          "per": null,
-          "recovery": [
-            {
-              "period": "sr",
-              "type": "recoverAll"
-            }
-          ],
+          "per": "sr",
+          "recovery": "",
           "prompt": true
         },
         "actionType": "",
@@ -2835,7 +3101,7 @@
       }
     },
     {
-      "_id": "ae4e42070ce0d529",
+      "_id": "fa187c3f169014e7",
       "name": "Extra Attack",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -2917,7 +3183,7 @@
       }
     },
     {
-      "_id": "5f72335090d740c5",
+      "_id": "d43709e36e11ca18",
       "name": "Small Medkit",
       "type": "consumable",
       "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
@@ -2974,7 +3240,7 @@
       }
     },
     {
-      "_id": "8954118846abe987",
+      "_id": "a7b918388d163111",
       "name": "Rations (1 day)",
       "type": "consumable",
       "img": "icons/consumables/potions/bottle-round-corked-red.webp",
@@ -3022,13 +3288,13 @@
       }
     },
     {
-      "_id": "19c3f24389eaa801",
-      "name": "Leather Vest",
-      "type": "loot",
-      "img": "icons/sundries/documents/document-sealed-brown-red.webp",
+      "_id": "84fc9699f1865281",
+      "name": "Navy Uniform",
+      "type": "equipment",
+      "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
       "system": {
         "description": {
-          "value": "",
+          "value": "<p>The navy standard uniform is made from durable cloth capable of surviving the harsh seas, though not directly designed for close-quarters combat.</p>",
           "chat": ""
         },
         "source": {
@@ -3039,14 +3305,26 @@
         },
         "quantity": 1,
         "weight": {
-          "value": 2,
+          "value": 4,
           "units": "lb"
         },
         "price": {
           "value": 100000,
           "denomination": "gp"
         },
-        "rarity": "common"
+        "rarity": "common",
+        "equipped": false,
+        "identified": true,
+        "armor": {
+          "value": 11
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": null,
+        "type": {
+          "value": "light",
+          "baseItem": ""
+        }
       },
       "effects": [],
       "flags": {},
@@ -3067,58 +3345,13 @@
       }
     },
     {
-      "_id": "e8a7516f384703dc",
-      "name": "Leather Boots",
-      "type": "loot",
-      "img": "icons/sundries/documents/document-sealed-brown-red.webp",
-      "system": {
-        "description": {
-          "value": "",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 2,
-          "units": "lb"
-        },
-        "price": {
-          "value": 50000,
-          "denomination": "gp"
-        },
-        "rarity": "common"
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "b340bb7bbace5427",
-      "name": "Quick Fingers",
+      "_id": "92f3b269f87ad425",
+      "name": "Medium Armor Master",
       "type": "feat",
-      "img": "icons/magic/time/arrows-circling-green.webp",
+      "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
       "system": {
         "description": {
-          "value": "<p>Your nimble fingers and agility let you perform sleight of hand. You gain the following benefits:</p><ul><li>Increase your Dexterity score by 1, to a maximum of 20.</li><li>You gain proficiency in the Sleight of Hand skill. If you are already proficient in the skill, you gain Expertise in it.</li><li>As a bonus action, you can make a Dexterity (Sleight of Hand) check, use your thieves’ tools, take the Use an Object action, pickpocket, plant something on someone else, conceal an object, or you can attempt to disarm a creature of an object they are holding within touch range by making a Dexterity (Sleight of Hand) check against a creature's Strength (Athletics) or Dexterity (Acrobatics) check.</li></ul>",
+          "value": "<p>You have practiced moving in medium armor to gain the following benefits:</p><ul><li>Increase your Dexterity or Constitution score by 1, to a maximum of 20.</li><li>Wearing medium armor doesn't impose disadvantage on your Dexterity (Stealth) checks.</li><li>When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher.</li></ul>",
           "chat": ""
         },
         "source": {
@@ -3131,10 +3364,10 @@
           "value": "feat",
           "subtype": ""
         },
-        "requirements": "",
+        "requirements": "Proficiency with medium armor",
         "activation": {
-          "type": "bonus",
-          "cost": 1,
+          "type": "",
+          "cost": null,
           "condition": ""
         },
         "duration": {
@@ -3176,121 +3409,59 @@
         },
         "advancement": [
           {
-            "_id": "2d6bc52ae49325ca",
+            "_id": "a6f2d201d35e5149",
             "type": "AbilityScoreImprovement",
             "configuration": {
               "cap": 1,
               "max": 20,
-              "fixed": {
-                "dex": 1
-              },
+              "fixed": {},
               "locked": [
                 "str",
-                "con",
                 "int",
                 "wis",
                 "cha"
               ],
-              "points": 0
+              "points": 1
             },
             "value": {},
             "level": 0,
             "title": "",
             "icon": "",
             "classRestriction": "",
-            "hint": "Increase your Dexterity score by 1"
-          },
-          {
-            "_id": "bd10c879d6e189bc",
-            "type": "Trait",
-            "configuration": {
-              "mode": "default",
-              "grants": [
-                "skills:slt"
-              ],
-              "choices": [],
-              "allowReplacements": true,
-              "hint": ""
-            },
-            "value": {},
-            "level": 0,
-            "title": "proficiencies",
-            "icon": "",
-            "classRestriction": "",
-            "hint": ""
+            "hint": "Increase your Dexterity or Constitution score by 1"
           }
         ],
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "utility",
-            "name": "Quick Fingers",
-            "sort": 0,
-            "activation": {
-              "type": "bonus",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": null,
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": null,
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "roll": {
-              "formula": "",
-              "name": "",
-              "prompt": false,
-              "visible": false
-            }
-          }
-        }
+        "activities": {}
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "69a0e2d4f2b7e813",
+          "name": "Medium Armor Master",
+          "img": "icons/svg/aura.svg",
+          "changes": [
+            {
+              "key": "flags.dnd5e.mediumArmorMaster",
+              "mode": 5,
+              "value": "1",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {},
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!f4e58d1d6e400e7a.69a0e2d4f2b7e813"
+        }
+      ],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -3309,13 +3480,13 @@
       }
     },
     {
-      "_id": "fb15e22b3ad52b2f",
-      "name": "Leather Armor",
+      "_id": "ce53f315f57e49cd",
+      "name": "Heavy Longcoat",
       "type": "equipment",
       "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
       "system": {
         "description": {
-          "value": "",
+          "value": "<p>Made of thick hides or leather interlocked with pieces of metal or boiled leather for extra protection, often accompanied by ammunition belts and knife straps. Popular among pirates for the balance between protection and versatility.</p>",
           "chat": ""
         },
         "source": {
@@ -3326,25 +3497,26 @@
         },
         "quantity": 1,
         "weight": {
-          "value": 10,
+          "value": 35,
           "units": "lb"
         },
         "price": {
-          "value": 100000,
+          "value": 650000,
           "denomination": "gp"
         },
         "rarity": "common",
         "equipped": true,
         "identified": true,
         "armor": {
-          "value": 11
+          "value": 14,
+          "dex": 2
         },
         "strength": 0,
         "stealth": false,
         "proficient": null,
         "type": {
-          "value": "light",
-          "baseItem": "leather"
+          "value": "medium",
+          "baseItem": ""
         }
       },
       "effects": [],
@@ -3366,391 +3538,27 @@
       }
     },
     {
-      "_id": "60c0f03bd5f13eeb",
-      "name": "Scimitar",
-      "type": "weapon",
-      "img": "icons/weapons/swords/scimitar-guard-gold.webp",
-      "system": {
-        "description": {
-          "value": "<p><strong>Adaptable (P, S).</strong> The wielder can choose to deal piercing or slashing damage.</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "quantity": 2,
-        "weight": {
-          "value": 3,
-          "units": "lb"
-        },
-        "price": {
-          "value": 250000,
-          "denomination": "gp"
-        },
-        "rarity": "common",
-        "equipped": true,
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "per": null,
-          "recovery": ""
-        },
-        "damage": {
-          "parts": [
-            "1d6",
-            "slashing"
-          ],
-          "versatile": ""
-        },
-        "actionType": "mwak",
-        "ability": "",
-        "attackBonus": "",
-        "chatFlavor": "",
-        "proficient": null,
-        "properties": {
-          "fin": true,
-          "lgt": true
-        },
-        "type": {
-          "value": "martialM",
-          "baseItem": "scimitar"
-        },
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "attack",
-            "name": "Scimitar",
-            "sort": 0,
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": null,
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": null,
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "damage": {
-              "critical": {
-                "allow": true,
-                "bonus": ""
-              },
-              "parts": [
-                {
-                  "number": 1,
-                  "denomination": 6,
-                  "bonus": "",
-                  "types": [
-                    "slashing"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": null,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          }
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "c8a78e3bffc1d21e",
-      "name": "Longbow",
-      "type": "weapon",
-      "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
-      "system": {
-        "description": {
-          "value": "<p><strong>Strong.</strong> Use your choice of Strength or Dexterity modifier for attack and damage rolls. You must use the same modifier for both rolls.</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 2,
-          "units": "lb"
-        },
-        "price": {
-          "value": 500000,
-          "denomination": "gp"
-        },
-        "rarity": "common",
-        "equipped": true,
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1
-        },
-        "range": {
-          "value": 150,
-          "long": 600,
-          "units": "ft"
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "per": null,
-          "recovery": ""
-        },
-        "damage": {
-          "parts": [
-            "1d8",
-            "piercing"
-          ],
-          "versatile": ""
-        },
-        "actionType": "rwak",
-        "ability": "",
-        "attackBonus": "",
-        "chatFlavor": "",
-        "proficient": null,
-        "properties": {
-          "amm": true,
-          "hvy": true,
-          "two": true
-        },
-        "type": {
-          "value": "martialR",
-          "baseItem": "longbow"
-        },
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "attack",
-            "name": "Longbow",
-            "sort": 0,
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": null,
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": 150,
-              "units": "ft",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "damage": {
-              "critical": {
-                "allow": true,
-                "bonus": ""
-              },
-              "parts": [
-                {
-                  "number": 1,
-                  "denomination": 8,
-                  "bonus": "",
-                  "types": [
-                    "piercing"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": null,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          }
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "34778130dc360b64",
-      "name": "Explorer's Pack",
+      "_id": "175bc82c51b967e9",
+      "name": "No Devil Fruit (yet)",
       "type": "loot",
-      "img": "icons/sundries/books/book-tooled-gold-brown.webp",
+      "img": "modules/op5e/assets/icons/devil-fruit.svg",
       "system": {
         "description": {
-          "value": "<p>Includes a backpack, bedroll, mess kit, tinderbox, 10 torches, 10 days of rations, waterskin, and 50 feet of hempen rope.</p>",
+          "value": "<p>You have no devil fruit at creation. Your DM can give you one later in the campaign; delete this item when that happens.</p>",
           "chat": ""
         },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
+        "type": {
+          "value": "treasure"
         },
-        "quantity": 1,
-        "weight": {
-          "value": 10,
-          "units": "lb"
-        },
-        "price": {
-          "value": 100000,
-          "denomination": "gp"
-        },
-        "rarity": "common"
+        "rarity": "",
+        "activities": {}
       },
       "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
+      "flags": {
+        "op5e": {
+          "devilFruitTemplate": "none",
+          "automation": "NEEDS_REVIEW"
+        }
       },
       "_stats": {
         "compendiumSource": null,
@@ -3764,7 +3572,7 @@
       }
     },
     {
-      "_id": "9aaa81636de5f474",
+      "_id": "8aa824112379e827",
       "name": "Brave",
       "type": "feat",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -3939,7 +3747,7 @@
       }
     },
     {
-      "_id": "3f249ae858deae0f",
+      "_id": "1ea8e30b6a482b81",
       "name": "Rogue",
       "type": "class",
       "img": "icons/weapons/daggers/dagger-serrated-black.webp",
@@ -3976,25 +3784,25 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.06ab6049a1b6bf26",
+                  "uuid": "Actor.7e32f81a586efbc8.Item.63196d0e6767ed6b",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.8469fa92d40c84b0",
+                  "uuid": "Actor.7e32f81a586efbc8.Item.55894ae9cc525109",
                   "optional": false,
                   "quantity": 2
                 },
                 {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.e0439a2af47d61f6",
+                  "uuid": "Actor.7e32f81a586efbc8.Item.ec24e32e232f8f88",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.d0e0c42719000045",
+                  "uuid": "Actor.7e32f81a586efbc8.Item.fa1fad45fd4d6199",
                   "optional": false
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.baf0dccd707ef9d2.Item.8469fa92d40c84b0": 2
+                "Actor.7e32f81a586efbc8.Item.55894ae9cc525109": 2
               }
             },
             "value": {},
@@ -4016,9 +3824,11 @@
                 }
               },
               "pool": [
-                {},
                 {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.499bdbbe11445d79"
+                  "uuid": "Actor.7e32f81a586efbc8.Item.df334baf294a8924"
+                },
+                {
+                  "uuid": "Actor.7e32f81a586efbc8.Item.5f1b4f564e4047c9"
                 }
               ],
               "restriction": {
@@ -4053,11 +3863,9 @@
                 }
               },
               "pool": [
+                {},
                 {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.31e90476183c4fa6"
-                },
-                {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.499bdbbe11445d79"
+                  "uuid": "Actor.7e32f81a586efbc8.Item.5f1b4f564e4047c9"
                 }
               ],
               "restriction": {
@@ -4093,7 +3901,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.c81d02c33a1fa03e"
+                  "uuid": "Actor.7e32f81a586efbc8.Item.627bc968c4d293eb"
                 },
                 {},
                 {}
@@ -4369,15 +4177,15 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.0aa9b54aa9a154a2",
+                  "uuid": "Actor.7e32f81a586efbc8.Item.d8d77e21139a6ea9",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.4917f0994211f490",
+                  "uuid": "Actor.7e32f81a586efbc8.Item.6ac69365da21a2c5",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.9c9a543c2693851e",
+                  "uuid": "Actor.7e32f81a586efbc8.Item.3ec7a62db56c83d3",
                   "optional": false
                 }
               ]
@@ -4395,7 +4203,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.febf67c9ef8d8a24",
+                  "uuid": "Actor.7e32f81a586efbc8.Item.72cc51a8207842ce",
                   "optional": false
                 }
               ]
@@ -4413,7 +4221,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.241c6734162ed999",
+                  "uuid": "Actor.7e32f81a586efbc8.Item.71d1f649c939249d",
                   "optional": false
                 }
               ]
@@ -4940,7 +4748,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.0e7775caefb89b6d"
+                  "uuid": "Actor.7e32f81a586efbc8.Item.cebcb91c5576b386"
                 },
                 {},
                 {},
@@ -4988,7 +4796,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.dab8892130d1d97f"
+                  "uuid": "Actor.7e32f81a586efbc8.Item.c6c012e869d68967"
                 }
               ],
               "restriction": {
@@ -5022,7 +4830,7 @@
       "flags": {
         "op5e": {
           "grantQuantities": {
-            "Actor.baf0dccd707ef9d2.Item.8469fa92d40c84b0": 2
+            "Actor.7e32f81a586efbc8.Item.55894ae9cc525109": 2
           }
         }
       },
@@ -5043,13 +4851,13 @@
       }
     },
     {
-      "_id": "83c393f011e1ae96",
-      "name": "Thief",
+      "_id": "653228782e0f3bad",
+      "name": "Bruiser",
       "type": "subclass",
-      "img": "icons/weapons/daggers/dagger-glowing-white.webp",
+      "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
       "system": {
         "description": {
-          "value": "<p>You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth , you learn skills useful for delving into ancient ruins, and evaluating rare treasures.</p>",
+          "value": "<p>Bruisers are rogues who go against the grain. Rather than utilizing finesse and stealth, bruisers take their destiny by the throat. Like a cornered predator, these rogues can and will use anything to get a leg up, no matter how dirty and dastardly. More often than not these scoundrels are enforces and thugs for large criminal organizations, working to get the job done, no matter the cost.</p>",
           "chat": ""
         },
         "source": {
@@ -5058,20 +4866,20 @@
           "custom": "",
           "license": ""
         },
-        "identifier": "thief",
+        "identifier": "bruiser",
         "classIdentifier": "rogue",
         "advancement": [
           {
-            "_id": "0f313d352b7d9d9c",
+            "_id": "9afdaafb78ff7d48",
             "type": "ItemGrant",
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.8a8c7bd9165f7b73",
+                  "uuid": "Actor.7e32f81a586efbc8.Item.87567f64cd7331d9",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.baf0dccd707ef9d2.Item.a76cab2ceac80c40",
+                  "uuid": "Actor.7e32f81a586efbc8.Item.e9b41c209ca12948",
                   "optional": false
                 }
               ]
@@ -5084,7 +4892,7 @@
             "hint": ""
           },
           {
-            "_id": "354d97aea2def38a",
+            "_id": "55c04da97b377666",
             "type": "ItemGrant",
             "configuration": {
               "items": [
@@ -5101,7 +4909,7 @@
             "hint": ""
           },
           {
-            "_id": "fda9268da115112d",
+            "_id": "4dfbf0fb07d15940",
             "type": "ItemGrant",
             "configuration": {
               "items": [
@@ -5118,7 +4926,7 @@
             "hint": ""
           },
           {
-            "_id": "ae2d391be3f0db7a",
+            "_id": "b0ec0dd2815d1af5",
             "type": "ItemGrant",
             "configuration": {
               "items": [
@@ -5135,7 +4943,7 @@
             "hint": ""
           },
           {
-            "_id": "7076eb05850700a1",
+            "_id": "0ce48feed025e02b",
             "type": "ItemGrant",
             "configuration": {
               "items": [
@@ -5176,13 +4984,13 @@
       }
     },
     {
-      "_id": "8a8c7bd9165f7b73",
-      "name": "Fast Hands",
+      "_id": "87567f64cd7331d9",
+      "name": "Hired Thug",
       "type": "feat",
-      "img": "icons/magic/time/arrows-circling-green.webp",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
       "system": {
         "description": {
-          "value": "<p>Starting at 3rd Level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools, take the Use an Object action, or to use an item that normally requires an action (such as a Small Medkit).</p>",
+          "value": "<p>When you choose this archetype at 3rd level, you gain proficiency in Charisma (Intimidation) and Strength (Athletics) checks, or expertise if you were already proficient.</p>",
           "chat": ""
         },
         "source": {
@@ -5195,7 +5003,7 @@
           "value": "class",
           "subtype": ""
         },
-        "requirements": "Rogue (Thief) 3",
+        "requirements": "Rogue (Bruiser) 3",
         "activation": {
           "type": "",
           "cost": null,
@@ -5258,13 +5066,13 @@
       }
     },
     {
-      "_id": "a76cab2ceac80c40",
-      "name": "Second-story Work",
+      "_id": "e9b41c209ca12948",
+      "name": "Armed and Dangerous",
       "type": "feat",
-      "img": "icons/weapons/daggers/dagger-curved-blue.webp",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
       "system": {
         "description": {
-          "value": "<p>When you choose this archetype at 3rd Level, you gain the ability to climb faster than normal; you gain a climbing that is equal to your movement speed.</p><p>In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.</p>",
+          "value": "<p>Starting at 3rd level, you gain proficiency with medium armor, martial weapons, and improvised weapons.</p><p>You also gain additional ways to use your Sneak Attack; you don't need advantage on the attack roll to use your Sneak Attack against a creature if they are grappled or deafened, you are using a melee weapon or unarmed strike that uses Strength, and you don't have disadvantage on the attack roll. All the other rules still apply to you.</p><p>In addition, you can use your Cunning action to make a grapple or shove check.</p>",
           "chat": ""
         },
         "source": {
@@ -5277,7 +5085,7 @@
           "value": "class",
           "subtype": ""
         },
-        "requirements": "Rogue (Thief) 3",
+        "requirements": "Rogue (Bruiser) 3",
         "activation": {
           "type": "",
           "cost": null,
@@ -5319,43 +5127,9 @@
         "recharge": {
           "value": null,
           "charged": false
-        },
-        "activities": {}
-      },
-      "effects": [
-        {
-          "_id": "114a02be44737603",
-          "name": "Second-story Work: climb speed",
-          "img": "icons/svg/aura.svg",
-          "changes": [
-            {
-              "key": "system.attributes.movement.climb",
-              "mode": 4,
-              "value": "@attributes.movement.walk",
-              "priority": 20
-            }
-          ],
-          "disabled": false,
-          "duration": {
-            "startTime": null,
-            "seconds": null,
-            "rounds": null,
-            "turns": null,
-            "combat": null
-          },
-          "origin": null,
-          "transfer": true,
-          "flags": {
-            "dae": {
-              "transfer": true,
-              "stackable": "noneName"
-            }
-          },
-          "statuses": [],
-          "tint": null,
-          "_key": "!items.effects!caaa9961ea401108.114a02be44737603"
         }
-      ],
+      },
+      "effects": [],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -5374,7 +5148,7 @@
       }
     },
     {
-      "_id": "e0439a2af47d61f6",
+      "_id": "ec24e32e232f8f88",
       "name": "Thieves' Tools",
       "type": "tool",
       "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
@@ -5401,7 +5175,7 @@
         "rarity": "common",
         "ability": "dex",
         "chatFlavor": "",
-        "proficient": 2,
+        "proficient": 0,
         "type": {
           "value": "art",
           "baseItem": "thief"
@@ -5426,7 +5200,7 @@
       }
     },
     {
-      "_id": "0aa9b54aa9a154a2",
+      "_id": "d8d77e21139a6ea9",
       "name": "Expertise (Rogue)",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -5508,7 +5282,7 @@
       }
     },
     {
-      "_id": "4917f0994211f490",
+      "_id": "6ac69365da21a2c5",
       "name": "Sneak Attack",
       "type": "feat",
       "img": "icons/weapons/daggers/dagger-curved-blue.webp",
@@ -5557,12 +5331,7 @@
         },
         "actionType": "",
         "damage": {
-          "parts": [
-            [
-              "@scale.rogue.sneak-attack",
-              ""
-            ]
-          ],
+          "parts": [],
           "versatile": ""
         },
         "save": {
@@ -5681,7 +5450,7 @@
       }
     },
     {
-      "_id": "9c9a543c2693851e",
+      "_id": "3ec7a62db56c83d3",
       "name": "Thieves' Cant",
       "type": "feat",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -5763,7 +5532,7 @@
       }
     },
     {
-      "_id": "febf67c9ef8d8a24",
+      "_id": "72cc51a8207842ce",
       "name": "Cunning Action",
       "type": "feat",
       "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
@@ -5914,7 +5683,7 @@
       }
     },
     {
-      "_id": "241c6734162ed999",
+      "_id": "71d1f649c939249d",
       "name": "Steady Aim",
       "type": "feat",
       "img": "icons/weapons/daggers/dagger-curved-blue.webp",
@@ -6065,7 +5834,7 @@
       }
     },
     {
-      "_id": "0912f0895f2e2e20",
+      "_id": "931d198aa0478621",
       "name": "Dual Wielder",
       "type": "feat",
       "img": "icons/skills/melee/hand-grip-sword-red.webp",
@@ -6153,12 +5922,7 @@
           },
           "origin": null,
           "transfer": true,
-          "flags": {
-            "dae": {
-              "transfer": true,
-              "stackable": "noneName"
-            }
-          },
+          "flags": {},
           "statuses": [],
           "tint": null,
           "_key": "!items.effects!d6d105a1935e45f6.a8d32fa535328436"
@@ -6183,7 +5947,7 @@
       "_key": "!items!d6d105a1935e45f6"
     },
     {
-      "_id": "b55254b186bb4ee7",
+      "_id": "8fd81656bca4af51",
       "name": "Multiple Weapon Style",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -6273,7 +6037,7 @@
       "_key": "!items!7117d0bebb2b393f"
     },
     {
-      "_id": "c8c5956b51ca4eb6",
+      "_id": "a1fe94275a64927c",
       "name": "Additional Strike",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -6316,13 +6080,8 @@
         "uses": {
           "value": null,
           "max": "@prof",
-          "per": null,
-          "recovery": [
-            {
-              "period": "sr",
-              "type": "recoverAll"
-            }
-          ],
+          "per": "sr",
+          "recovery": "",
           "prompt": true
         },
         "actionType": "",
@@ -6450,7 +6209,7 @@
       "_key": "!items!a0842b3d38d7771e"
     },
     {
-      "_id": "b65685513e3e7936",
+      "_id": "7b99ef2cdff7fb98",
       "name": "Color of Armament Novice",
       "type": "feat",
       "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
@@ -6499,13 +6258,8 @@
         "uses": {
           "value": null,
           "max": "@details.level",
-          "per": null,
-          "recovery": [
-            {
-              "period": "sr",
-              "type": "recoverAll"
-            }
-          ],
+          "per": "sr",
+          "recovery": "",
           "prompt": true
         },
         "actionType": "",
@@ -6635,13 +6389,13 @@
       "_key": "!items!16bc2636849312ce"
     },
     {
-      "_id": "9e6194270e4d6e53",
-      "name": "Liberator's Edge",
+      "_id": "0b201e9b82a269be",
+      "name": "Take-Down",
       "type": "feat",
-      "img": "icons/skills/melee/blade-tips-double-blue.webp",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
       "system": {
         "description": {
-          "value": "<p>Years of guarding caravans and years of atonement have given Khael a killer's economy of motion. <em>Balance note: bespoke CR 5 feature, not a class feature.</em> His melee weapon attacks deal an extra 1d8 damage.</p>",
+          "value": "<p>Once per turn, when the Gallows hits a creature with a Gallows Baton, it must make a DC 15 Strength saving throw or be knocked prone.</p>",
           "chat": ""
         },
         "source": {
@@ -6658,7 +6412,7 @@
         "activation": {
           "type": "special",
           "cost": null,
-          "condition": "Passive"
+          "condition": "Once per turn, on a baton hit"
         },
         "duration": {
           "value": null,
@@ -6671,9 +6425,8 @@
           "type": ""
         },
         "range": {
-          "value": null,
-          "long": null,
-          "units": ""
+          "value": 5,
+          "units": "ft"
         },
         "uses": {
           "value": null,
@@ -6682,15 +6435,15 @@
           "recovery": "",
           "prompt": true
         },
-        "actionType": "",
+        "actionType": "save",
         "damage": {
           "parts": [],
           "versatile": ""
         },
         "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
+          "ability": "str",
+          "dc": 15,
+          "scaling": "flat"
         },
         "chatFlavor": "",
         "recharge": {
@@ -6700,13 +6453,13 @@
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
-            "type": "utility",
-            "name": "Liberator's Edge",
+            "type": "save",
+            "name": "Take-Down",
             "sort": 0,
             "activation": {
               "type": "special",
               "value": null,
-              "condition": "Passive",
+              "condition": "Once per turn, on a baton hit",
               "override": false
             },
             "consumption": {
@@ -6723,6 +6476,173 @@
             "duration": {
               "concentration": false,
               "value": null,
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 5,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "str"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "15"
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "44eff8e1b1f448cf",
+      "name": "Gallows Baton (Left)",
+      "type": "weapon",
+      "img": "icons/weapons/clubs/club-baton-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>One of a pair of weighted steel batons the Gallows carries; worn like a marine's truncheon, used like a duelist's blades. <strong>+1 weapon</strong> (finesse, light). See <em>Take-Down</em> for the rider.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "uncommon",
+        "equipped": true,
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d6",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "actionType": "mwak",
+        "ability": "",
+        "attackBonus": "1",
+        "chatFlavor": "",
+        "proficient": null,
+        "properties": {
+          "fin": true,
+          "lgt": true,
+          "mgc": true
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "activities": {
+          "0015adc5a31577f1": {
+            "_id": "0015adc5a31577f1",
+            "type": "attack",
+            "name": "Gallows Baton (Left)",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
               "units": "inst",
               "special": "",
               "override": false
@@ -6758,43 +6678,31 @@
               "max": "",
               "recovery": []
             },
-            "roll": {
-              "formula": "",
-              "name": "",
-              "prompt": false,
-              "visible": false
+            "attack": {
+              "ability": "",
+              "bonus": "@flags.op5e.wAtk.hammer",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "allow": true,
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
             }
           }
-        }
+        },
+        "magicalBonus": 1
       },
-      "effects": [
-        {
-          "_id": "0f851ce324c56a93",
-          "name": "Liberator's Edge",
-          "img": "icons/skills/melee/blade-tips-double-blue.webp",
-          "disabled": false,
-          "transfer": true,
-          "changes": [
-            {
-              "key": "system.bonuses.mwak.damage",
-              "mode": 2,
-              "value": "+1d8",
-              "priority": 20
-            }
-          ],
-          "duration": {
-            "startTime": null,
-            "seconds": null,
-            "rounds": null,
-            "turns": null,
-            "combat": null
-          },
-          "origin": null,
-          "flags": {},
-          "statuses": [],
-          "tint": null
-        }
-      ],
+      "effects": [],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -6810,13 +6718,185 @@
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
-      }
+      },
+      "_key": "!items!61ed60d4cd4e0cc1"
+    },
+    {
+      "_id": "850b1128350e808c",
+      "name": "Gallows Baton (Right)",
+      "type": "weapon",
+      "img": "icons/weapons/clubs/club-baton-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>One of a pair of weighted steel batons the Gallows carries; worn like a marine's truncheon, used like a duelist's blades. <strong>+1 weapon</strong> (finesse, light). See <em>Take-Down</em> for the rider.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "uncommon",
+        "equipped": true,
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d6",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "actionType": "mwak",
+        "ability": "",
+        "attackBonus": "1",
+        "chatFlavor": "",
+        "proficient": null,
+        "properties": {
+          "fin": true,
+          "lgt": true,
+          "mgc": true
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "activities": {
+          "0015adc5a31577f1": {
+            "_id": "0015adc5a31577f1",
+            "type": "attack",
+            "name": "Gallows Baton (Right)",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "@flags.op5e.wAtk.hammer",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "allow": true,
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            }
+          }
+        },
+        "magicalBonus": 1
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items!61ed60d4cd4e0cc1"
     }
   ],
-  "_id": "7c31107163df44f6",
-  "prototypeToken": {
-    "texture": {
-      "src": "one-piece-5e/npcs/Sand Rats/khael-new-token.png"
-    }
-  }
+  "_id": "fc55141d6780723c"
 }

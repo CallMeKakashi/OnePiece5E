@@ -48,7 +48,7 @@ traits:
 
 ## Foundry build (bb-rehearsal, 2026-10-10)
 
-- **Human Marksman 5 (Sniper)**, **CR 3**. Str 8, Dex 19, Con 13, Int 10, Wis 15, Cha 10. HP 72. Saves Dex/Wis.
+- **Human Marksman 5 (Sniper)**, **CR 3**. Str 8, Dex 19, Con 13, Int 10, Wis 15, Cha 10. HP 105 (override). Saves Dex/Wis.
 - Archery style, Sniper creations (Advanced Weapon, Retreat, Grounding, Cloud of Daggers), Guidance, Misty Step. No Devil Fruit.
 - Live folder: OP5E/Sand Rats.
 - Art status: none yet, default sheet image in use. Credit details in `docs/art-credits.md`. Rebuild steps: [op5e/docs/NPC-BUILDS.md](../../../../op5e/docs/NPC-BUILDS.md).

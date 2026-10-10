@@ -139,4 +139,4 @@ traits:
 
 ## Foundry build
 
-Lunarian Brawler 12 (Six Powers Master), Marine/Soldier, Captain, CR 10 solo boss. AC 18, HP 175 (override, real 87), Dex 20. Haki: Armament Apprentice and Observation Novice; Flowing Mind additional power. No legendary actions (none in the Sourcebook). Live in `bb-rehearsal` under `OP5E/Marines`. Details: `op5e/docs/NPC-BUILDS.md`.
+Lunarian Brawler 12 (Six Powers Master), Marine/Soldier, Captain, CR 10 solo boss. AC 18, HP 210 (override, real 87), Dex 20. Haki: Armament Apprentice and Observation Novice; Flowing Mind additional power. No legendary actions (none in the Sourcebook). Live in `bb-rehearsal` under `OP5E/Marines`. Details: `op5e/docs/NPC-BUILDS.md`.

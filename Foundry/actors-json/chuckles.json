@@ -77,8 +77,8 @@
         "formula": "10 + @abilities.str.mod + @abilities.wis.mod"
       },
       "hp": {
-        "value": 78,
-        "max": 78,
+        "value": 105,
+        "max": 105,
         "temp": 0,
         "tempmax": 0,
         "formula": "5d8 + 15"
@@ -136,7 +136,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Chuckles D. Clown, the strongman of the Circle of Clowns: a huge, grinning brute in striped suspenders and chains.</p><p><strong>Balance note (CR 3):</strong> a straight Brawler 5 is under CR 3 on hit points, so HP is overridden to 78.</p>",
+        "value": "<p>Chuckles D. Clown, the strongman of the Circle of Clowns: a huge, grinning brute in striped suspenders and chains.</p><p><strong>Balance note (CR 3):</strong> a straight Brawler 5 is under CR 3 on hit points, so HP is overridden to 105 (DMG CR 3 band 101-115).</p>",
         "public": ""
       },
       "alignment": "neutral",
@@ -5251,7 +5251,7 @@
       }
     },
     {
-      "_id": "12286b651a1d2a1c",
+      "_id": "dd8dcaa1575e8846",
       "name": "Painter's Supplies",
       "type": "tool",
       "img": "icons/tools/smithing/anvil.webp",
@@ -5304,7 +5304,7 @@
       "_key": "!items!a9d155147acc4b8a"
     },
     {
-      "_id": "27104e71c6b1ad1f",
+      "_id": "ee4803b819a31cea",
       "name": "Armorless Guardian",
       "type": "feat",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
@@ -5386,7 +5386,7 @@
       }
     },
     {
-      "_id": "871f33e623362225",
+      "_id": "1f7272182ce6a50c",
       "name": "Duck and Dodge",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",

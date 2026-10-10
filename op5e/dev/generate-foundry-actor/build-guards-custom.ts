@@ -52,6 +52,10 @@ function build(slug: string) {
   const c = CFGS[slug]; if (!c) throw new Error(`unknown npc ${slug}`);
   const chassis = JSON.parse(readFileSync(`${ACTORS}/${slug}-chassis.json`, "utf-8"));
   const meta = JSON.parse(readFileSync(`reports/.meta-${slug}.json`, "utf-8")) as { skills: string[]; expertise: string[]; tools: string[] };
+  if (c.rogueHalf) { // Shin: the Fighter half only got duplicate picks; the Rogue half holds the real skills, expertise and tools
+    const rm = JSON.parse(readFileSync(`reports/.meta-${slug}-rogue.json`, "utf-8")) as { skills: string[]; expertise: string[]; tools: string[] };
+    meta.skills = [...new Set([...meta.skills, ...rm.skills])]; meta.expertise = rm.expertise; meta.tools = [...new Set([...meta.tools, ...rm.tools])];
+  }
   let items: Doc[] = chassis.items as Doc[];
 
   // ---- Shin: merge the Rogue 4 half (its class, subclass and features; names already on the Fighter half are skipped)

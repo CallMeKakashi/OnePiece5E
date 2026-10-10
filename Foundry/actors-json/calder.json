@@ -77,8 +77,8 @@
         "formula": ""
       },
       "hp": {
-        "value": 175,
-        "max": 175,
+        "value": 210,
+        "max": 210,
         "temp": 0,
         "tempmax": 0,
         "formula": "12d8 + 24"
@@ -136,7 +136,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Calder Voss, born Vorro of the Motley Crew: a Marine captain and later commodore at Spirit Cliff (G-45), a Lunarian who fights with the Six Powers.</p><p><strong>Balance note (CR 10):</strong> a straight Brawler 12 is about CR 8 to 9 on defenses, so HP is overridden to 175 for a solo boss.</p>",
+        "value": "<p>Calder Voss, born Vorro of the Motley Crew: a Marine captain and later commodore at Spirit Cliff (G-45), a Lunarian who fights with the Six Powers.</p><p><strong>Balance note (CR 10):</strong> a straight Brawler 12 is about CR 8 to 9 on defenses, so HP is overridden to 210 for a solo boss.</p>",
         "public": ""
       },
       "alignment": "neutral",
@@ -6067,7 +6067,7 @@
       }
     },
     {
-      "_id": "ddc1e9292f2211f5",
+      "_id": "4e61058be34e9cf1",
       "name": "Darkvision",
       "type": "feat",
       "img": "icons/magic/unholy/beam-ringed-impact-purple.webp",
@@ -6183,7 +6183,7 @@
       }
     },
     {
-      "_id": "1a0271a54dd558ef",
+      "_id": "e7ef0c67f032cb99",
       "name": "Omni-Adapted",
       "type": "feat",
       "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
@@ -6299,7 +6299,7 @@
       }
     },
     {
-      "_id": "f3702c7d99a146ed",
+      "_id": "b5f074361e07d728",
       "name": "Flaming Duality",
       "type": "feat",
       "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
@@ -6629,7 +6629,7 @@
       }
     },
     {
-      "_id": "f2827a234fe32e3a",
+      "_id": "342f3d4fb4b1a5ba",
       "name": "Empowered Godspeed",
       "type": "feat",
       "img": "icons/magic/time/arrows-circling-green.webp",
@@ -6711,7 +6711,7 @@
       }
     },
     {
-      "_id": "b8ace223ff8ee810",
+      "_id": "25fd0a3ecaae0f24",
       "name": "Improved Ignite",
       "type": "feat",
       "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
@@ -6893,7 +6893,7 @@
       }
     },
     {
-      "_id": "b7336a672a464812",
+      "_id": "63f371f666a1b072",
       "name": "Flame Investure",
       "type": "feat",
       "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
@@ -7064,7 +7064,7 @@
       }
     },
     {
-      "_id": "5dbbefceee9e8aa7",
+      "_id": "db66349e81484c30",
       "name": "Fire Bolt",
       "type": "spell",
       "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
@@ -7259,7 +7259,7 @@
       }
     },
     {
-      "_id": "5ea2f174d2a68ac6",
+      "_id": "13105ddb62c46078",
       "name": "Elemental Armor",
       "type": "spell",
       "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
@@ -7430,7 +7430,7 @@
       }
     },
     {
-      "_id": "b71a31ae45d9bd48",
+      "_id": "a8e6b2a165896fd0",
       "name": "Fireball",
       "type": "spell",
       "img": "icons/magic/fire/projectile-fireball-orange.webp",
@@ -7631,7 +7631,7 @@
       }
     },
     {
-      "_id": "65e4e711c72be105",
+      "_id": "0719f2152953eb3f",
       "name": "Flying Strikes",
       "type": "feat",
       "img": "icons/magic/air/wind-tornado-funnel-green.webp",
@@ -7730,7 +7730,7 @@
       "_key": "!items!2f6cd976e5725c37"
     },
     {
-      "_id": "a0d1da3bc6d0f448",
+      "_id": "00b39bca799d0041",
       "name": "Flowing Mind",
       "type": "feat",
       "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
@@ -7812,7 +7812,7 @@
       }
     },
     {
-      "_id": "2c994ec3e5b37575",
+      "_id": "3a7b1e499de74aea",
       "name": "Artful Mastery",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -7934,7 +7934,7 @@
       }
     },
     {
-      "_id": "109cfc211d5fd599",
+      "_id": "51311edd9b0a399e",
       "name": "Free Spirit",
       "type": "feat",
       "img": "icons/skills/melee/strike-sword-gray.webp",
@@ -8016,7 +8016,7 @@
       }
     },
     {
-      "_id": "c02fefbda01e6f56",
+      "_id": "a2a53e7d62f4709a",
       "name": "Back In The Fight",
       "type": "feat",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",

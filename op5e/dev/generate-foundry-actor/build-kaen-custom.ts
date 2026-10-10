@@ -29,6 +29,7 @@ for (const id of ["4eea1b8aa9ac99ab", "83ba322751ee4f40", "2003c84be4cdc61f", "f
 const cal = embed("items", "6f4b655fdf8c31e0"); cal.system.proficient = 1; items.push(cal);
 
 const auto = refreshFromPacks(items);
+for (const n of ["Action Surge", "Indomitable"]) { const it = items.find((i) => i.name === n); if (it?.system?.uses?.max) it.system.uses.max = `${it.system.uses.max} + 1`; } // Active Combatant: one additional use of each
 { const u = items.find((i) => i.name === "Undying Devotion"); if (u) limitedUse(u, { max: "@abilities.con.mod", per: "lr", type: "special", condition: "reduced to 0 hit points but not killed outright" }); } // Con modifier uses, long rest
 console.log(`automation copied onto ${auto.refreshed.length} features; no pack match for: ${auto.unmatched.join(", ") || "none"}`);
 

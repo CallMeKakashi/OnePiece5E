@@ -1,12 +1,7 @@
 {
-  "name": "Lady Soefra Anthem",
+  "name": "Jay",
   "type": "npc",
-  "img": "one-piece-5e/npcs/Decibella/soefra-new.jpg",
-  "prototypeToken": {
-    "texture": {
-      "src": "one-piece-5e/npcs/Decibella/soefra-new-token.png"
-    }
-  },
+  "img": "",
   "effects": [],
   "flags": {
     "op5e": {
@@ -35,7 +30,7 @@
         }
       },
       "dex": {
-        "value": 15,
+        "value": 14,
         "proficient": 1,
         "bonuses": {
           "check": "",
@@ -43,7 +38,7 @@
         }
       },
       "con": {
-        "value": 15,
+        "value": 14,
         "proficient": 0,
         "bonuses": {
           "check": "",
@@ -59,7 +54,7 @@
         }
       },
       "wis": {
-        "value": 13,
+        "value": 12,
         "proficient": 0,
         "bonuses": {
           "check": "",
@@ -82,11 +77,11 @@
         "formula": ""
       },
       "hp": {
-        "value": 198,
-        "max": 198,
+        "value": 148,
+        "max": 148,
         "temp": 0,
         "tempmax": 0,
-        "formula": "11d8 + 22"
+        "formula": "9d8 + 27"
       },
       "init": {
         "ability": "dex",
@@ -141,7 +136,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Lady Soefra Anthem, one of the Soundless 5 and enforcer of silence in Decibella Kingdom. Twin sister of Sephra, and the jealous diva who had Cadence masked early. Human (+1 Constitution, Dexterity, Wisdom). Tall and slender in a stained-glass gown, she conducts with a baton-blade and a loud, opera-trained voice.</p><p><strong>Balance note (CR 9):</strong> a straight Bard 11 is well under CR 9, so hit points are overridden to 198, the gown sets her AC, and Potent Creativity adds +5 to trick damage and Soundless Crescendo (6d8 thunder cone, DC 17) is a bespoke attack.</p>",
+        "value": "<p>Jay, a pirate lieutenant in floral clothing. Bard 9 (College of Swords), CR 6: hit points raised to the CR 6 band, Veteran's Edge adds +3d6 weapon damage.</p>",
         "public": ""
       },
       "alignment": "neutral",
@@ -156,8 +151,8 @@
         "swarm": "",
         "swarmSize": ""
       },
-      "cr": 9,
-      "level": 11,
+      "cr": 6,
+      "level": 9,
       "spellLevel": 0
     },
     "skills": {
@@ -166,47 +161,47 @@
         "ability": "dex"
       },
       "ani": {
-        "value": 1,
+        "value": 0.5,
         "ability": "wis"
       },
       "arc": {
-        "value": 0,
+        "value": 0.5,
         "ability": "int"
       },
       "ath": {
-        "value": 0,
+        "value": 0.5,
         "ability": "str"
       },
       "dec": {
-        "value": 2,
+        "value": 1,
         "ability": "cha"
       },
       "his": {
-        "value": 1,
+        "value": 0.5,
         "ability": "int"
       },
       "ins": {
-        "value": 2,
+        "value": 0.5,
         "ability": "wis"
       },
       "itm": {
-        "value": 0,
+        "value": 0.5,
         "ability": "cha"
       },
       "inv": {
-        "value": 0,
+        "value": 0.5,
         "ability": "int"
       },
       "med": {
-        "value": 0,
+        "value": 0.5,
         "ability": "wis"
       },
       "nat": {
-        "value": 0,
+        "value": 0.5,
         "ability": "int"
       },
       "prc": {
-        "value": 0,
+        "value": 0.5,
         "ability": "wis"
       },
       "prf": {
@@ -218,19 +213,19 @@
         "ability": "cha"
       },
       "rel": {
-        "value": 0,
+        "value": 0.5,
         "ability": "int"
       },
       "slt": {
-        "value": 0,
+        "value": 0.5,
         "ability": "dex"
       },
       "ste": {
-        "value": 0,
+        "value": 0.5,
         "ability": "dex"
       },
       "sur": {
-        "value": 0,
+        "value": 0.5,
         "ability": "wis"
       }
     },
@@ -263,11 +258,15 @@
         "custom": ""
       },
       "weaponProf": {
-        "value": [],
-        "custom": ""
+        "value": [
+          "sim"
+        ],
+        "custom": "hand crossbows, longswords, rapiers, shortswords, firearms"
       },
       "armorProf": {
-        "value": [],
+        "value": [
+          "lgt"
+        ],
         "custom": ""
       }
     },
@@ -296,12 +295,12 @@
         "max": 3
       },
       "spell5": {
-        "value": 2,
-        "max": 2
-      },
-      "spell6": {
         "value": 1,
         "max": 1
+      },
+      "spell6": {
+        "value": 0,
+        "max": 0
       },
       "spell7": {
         "value": 0,
@@ -319,7 +318,7 @@
   },
   "items": [
     {
-      "_id": "99444eb6d162fbca",
+      "_id": "69c6aec3ecfce60e",
       "name": "Human",
       "type": "race",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -542,7 +541,7 @@
       }
     },
     {
-      "_id": "c57d1e02a572401f",
+      "_id": "68fb8ca550517131",
       "name": "Entertainer",
       "type": "background",
       "img": "icons/skills/trades/music-notes-sound-blue.webp",
@@ -564,25 +563,25 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.a5001aea381d97a5",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.67f521c90f9515c8",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.7770728c9dc0efc0",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.1c24d13d2ae80eb3",
                   "optional": false,
                   "quantity": 5
                 },
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.78af302eb989a3c1",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.f2a7dad41457e0ae",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.6164e2f8ee1064da",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.89697fba66360224",
                   "optional": false
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.c11a439e8739e8e6.Item.7770728c9dc0efc0": 5
+                "Actor.44a7604bcae1ab0c.Item.1c24d13d2ae80eb3": 5
               }
             },
             "value": {},
@@ -656,7 +655,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.69ae58df775f9def"
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.18bd8347968044c7"
                 },
                 {}
               ],
@@ -687,7 +686,7 @@
         "op5e": {
           "startingBeri": 150000,
           "grantQuantities": {
-            "Actor.c11a439e8739e8e6.Item.7770728c9dc0efc0": 5
+            "Actor.44a7604bcae1ab0c.Item.1c24d13d2ae80eb3": 5
           }
         }
       },
@@ -708,7 +707,7 @@
       }
     },
     {
-      "_id": "e6b6501c4d9651fd",
+      "_id": "eb96b94f703c2e38",
       "name": "Role: Musician",
       "type": "feat",
       "img": "icons/skills/trades/music-notes-sound-blue.webp",
@@ -777,7 +776,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.33cbbb41f2395bc2",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.51352e760273842c",
                   "optional": false
                 }
               ]
@@ -801,14 +800,12 @@
                 }
               },
               "pool": [
+                {},
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.7f18625b514aa3cf"
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.8fe8d8ccb13b15d3"
                 },
                 {},
                 {},
-                {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.3a4b88a0eae74bca"
-                },
                 {},
                 {}
               ],
@@ -902,12 +899,12 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.69ae58df775f9def"
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.18bd8347968044c7"
                 },
+                {},
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.a3e217c32de194f2"
-                },
-                {}
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.d39f8aecb066ffdd"
+                }
               ],
               "restriction": {
                 "type": "feat",
@@ -956,7 +953,7 @@
       }
     },
     {
-      "_id": "33cbbb41f2395bc2",
+      "_id": "51352e760273842c",
       "name": "Clothes, Costume",
       "type": "loot",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -1001,7 +998,7 @@
       }
     },
     {
-      "_id": "164b5ab78c972d78",
+      "_id": "07db3496a0782c34",
       "name": "Bard",
       "type": "class",
       "img": "icons/skills/trades/music-notes-sound-blue.webp",
@@ -1017,7 +1014,7 @@
           "license": ""
         },
         "identifier": "bard",
-        "levels": 11,
+        "levels": 9,
         "hitDice": "d8",
         "hitDiceUsed": 0,
         "advancement": [
@@ -1038,11 +1035,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.c5979a7ba6151fd5",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.f8b428e0a7d6ea52",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.fccdbf5fcf527061",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.1c682bb34679d2d1",
                   "optional": false
                 }
               ]
@@ -1067,12 +1064,12 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.51b1fe21ccbf9e80"
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.96d5fa499a188150"
                 },
                 {},
                 {},
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.fccdbf5fcf527061"
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.1c682bb34679d2d1"
                 },
                 {},
                 {},
@@ -1122,7 +1119,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.a30a776cd0cb10b2"
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.d827f3610baf4c75"
                 },
                 {}
               ],
@@ -1158,17 +1155,17 @@
                 }
               },
               "pool": [
+                {},
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.7f18625b514aa3cf"
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.9d6592bc540aeba2"
                 },
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.3a4b88a0eae74bca"
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.8fe8d8ccb13b15d3"
                 },
-                {},
                 {},
                 {},
                 {},
@@ -1362,11 +1359,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.b456378929e0eee5",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.be5a3d85f609186a",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.ea6476237227eea8",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.1cd4a7b9246d3136",
                   "optional": false
                 }
               ]
@@ -1384,11 +1381,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.25129113f9131524",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.c49b5639e062a318",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.9a1d22c64cfef005",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.a640987c6de5a342",
                   "optional": false
                 }
               ]
@@ -1441,7 +1438,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.191d342833b93212",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.13b63d82332c3f3c",
                   "optional": false
                 }
               ]
@@ -1459,7 +1456,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.486609b2d25e6089",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.144d4ca2e14de660",
                   "optional": false
                 }
               ]
@@ -1477,7 +1474,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.f1fac4c3917c166d",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.f01d176281677c4f",
                   "optional": false
                 }
               ]
@@ -1519,15 +1516,12 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.49b019ff9603d49b",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.dde3792e808feb76",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.250aad00ce388b8b",
                   "optional": false
                 }
               ]
@@ -1694,15 +1688,13 @@
                 }
               },
               "pool": [
-                {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.ba2f1901922c5564"
-                },
+                {},
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.cc3b6b7051ba6185"
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.5bda46b1c2223cbd"
                 },
                 {},
                 {},
@@ -1747,15 +1739,13 @@
                 }
               },
               "pool": [
-                {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.ba2f1901922c5564"
-                },
+                {},
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.cc3b6b7051ba6185"
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.5bda46b1c2223cbd"
                 },
                 {},
                 {},
@@ -1800,15 +1790,13 @@
                 }
               },
               "pool": [
-                {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.ba2f1901922c5564"
-                },
+                {},
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.cc3b6b7051ba6185"
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.5bda46b1c2223cbd"
                 },
                 {},
                 {},
@@ -1853,15 +1841,13 @@
                 }
               },
               "pool": [
-                {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.ba2f1901922c5564"
-                },
+                {},
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.cc3b6b7051ba6185"
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.5bda46b1c2223cbd"
                 },
                 {},
                 {},
@@ -1906,15 +1892,13 @@
                 }
               },
               "pool": [
-                {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.ba2f1901922c5564"
-                },
+                {},
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.cc3b6b7051ba6185"
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.5bda46b1c2223cbd"
                 },
                 {},
                 {},
@@ -1965,7 +1949,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.9b752ff6dcb0f4db"
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.782f20d5f2abe686"
                 },
                 {},
                 {},
@@ -2008,7 +1992,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.9b451ba220022f3b"
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.105e303ed9f6dfd4"
                 }
               ],
               "restriction": {
@@ -2146,13 +2130,13 @@
       }
     },
     {
-      "_id": "de03289b43f0f224",
-      "name": "College of Bewitchment",
+      "_id": "a649a78a2a58fc0e",
+      "name": "College of Swords",
       "type": "subclass",
-      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "img": "icons/skills/social/wave-halt-stop.webp",
       "system": {
         "description": {
-          "value": "<p>Bards of the college of bewitchment are often labeled as practitioners of witchcraft, voo-doo, or some other supernatural gift. However, this is far from the case. Instead, their art influences the minds of all who experience it, causing them to believe the impossible to be possible.</p>",
+          "value": "<p>Bards of the college of swords are often swashbucklers and masters of the blade and of song, able to not only assist their companions, but to stand their ground against the enemy. Practitioners become skilled swordsmen that can rival any fighter in a fight.</p>",
           "chat": ""
         },
         "source": {
@@ -2161,20 +2145,24 @@
           "custom": "",
           "license": ""
         },
-        "identifier": "bewitchment",
+        "identifier": "swords",
         "classIdentifier": "bard",
         "advancement": [
           {
-            "_id": "b458e01f33d687ac",
+            "_id": "40a4111ea87ef1ac",
             "type": "ItemGrant",
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.be2373de054009be",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.2065985a39bc7965",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.2808c8abaff37fad",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.d598c144a9af65ba",
+                  "optional": false
+                },
+                {
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.746d6c425bde4906",
                   "optional": false
                 }
               ]
@@ -2187,16 +2175,16 @@
             "hint": ""
           },
           {
-            "_id": "e9019a82ca32901f",
+            "_id": "5b6746c7621ea76f",
             "type": "ItemGrant",
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.efa0fcb9d42f6072",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.55a3ff0cb2ea1381",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.c11a439e8739e8e6.Item.b126a011d09a9008",
+                  "uuid": "Actor.44a7604bcae1ab0c.Item.e17e860b846b6916",
                   "optional": false
                 }
               ]
@@ -2209,7 +2197,7 @@
             "hint": ""
           },
           {
-            "_id": "26652995230055dd",
+            "_id": "8d63e4cf17d6fac6",
             "type": "ItemGrant",
             "configuration": {
               "items": [
@@ -2220,6 +2208,38 @@
             },
             "value": {},
             "level": 14,
+            "title": "",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
+          },
+          {
+            "_id": "097cf6f15f4277a0",
+            "type": "ScaleValue",
+            "configuration": {
+              "identifier": "ordnance-requiem",
+              "type": "dice",
+              "scale": {
+                "3": {
+                  "number": 2,
+                  "faces": 6
+                },
+                "5": {
+                  "number": 3,
+                  "faces": 6
+                },
+                "10": {
+                  "number": 5,
+                  "faces": 6
+                },
+                "15": {
+                  "number": 8,
+                  "faces": 6
+                }
+              }
+            },
+            "value": {},
+            "level": 0,
             "title": "",
             "icon": "",
             "classRestriction": "",
@@ -2250,13 +2270,13 @@
       }
     },
     {
-      "_id": "be2373de054009be",
-      "name": "Hypnotic Focus",
+      "_id": "2065985a39bc7965",
+      "name": "Bonus Proficiencies",
       "type": "feat",
-      "img": "icons/skills/social/wave-halt-stop.webp",
+      "img": "icons/skills/trades/academics-study-reading-book.webp",
       "system": {
         "description": {
-          "value": "<p>At 3rd level, instead of using an instrument as a focus for enrapturing your audience, you can instead utilize a particular object that you have had practice with, be it a set of painter's tools, or a special chakram on a string.</p>\n<p>As part of a long rest, you can spend an hour practicing with an object of small or lesser size, transforming it into your hypnotic focus. This object remains as your hypnotic focus until you practice with another object for 1 hour over the course of a long rest.</p>\n<p>While holding your Hypnotic Focus, whenever one of your Bardic Inspiration dice are rolled, you may roll twice and choose which one takes effect.</p>",
+          "value": "<p>When you join the College of Swords at 3rd level, you gain proficiency with medium armor, shields, and simple and martial weapons. You can use any weapon you are proficient in as a creation focus for your bard creations.</p>",
           "chat": ""
         },
         "source": {
@@ -2269,7 +2289,7 @@
           "value": "class",
           "subtype": ""
         },
-        "requirements": "Bard (Bewitchment) 3",
+        "requirements": "Bard (Swords) 3",
         "activation": {
           "type": "",
           "cost": null,
@@ -2332,13 +2352,13 @@
       }
     },
     {
-      "_id": "2808c8abaff37fad",
-      "name": "Mesmerizing Words",
+      "_id": "d598c144a9af65ba",
+      "name": "Fighting Style",
       "type": "feat",
-      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "img": "icons/skills/melee/swords-parry-block-yellow.webp",
       "system": {
         "description": {
-          "value": "<p>At 3rd level, through focus and mystique you find your words sharpen, moving all that hear it. When you use a bard creation that deals damage or restores hit points you can expend a use of your Bardic Inspiration feature to add an extra die to the roll. The die is the same size as your Bardic Inspiration die.</p>",
+          "value": "<p>At 3rd level, you adopt a particular style of fighting as your specialty. Choose one of the options in the College of Swords Bard Styles section. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>\n<p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to College of Swords bards.</p>",
           "chat": ""
         },
         "source": {
@@ -2351,7 +2371,89 @@
           "value": "class",
           "subtype": ""
         },
-        "requirements": "Bard (Bewitchment) 3",
+        "requirements": "Bard (Swords) 3",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "746d6c425bde4906",
+      "name": "Ordnance Requiem",
+      "type": "feat",
+      "img": "icons/skills/trades/music-notes-sound-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>When you join the College of Swords at 3rd level, your timing of your attacks is not only excellent, but also extremely deadly, resulting in a profound performance of steel.</p>\n<p>When you hit a creature with a weapon attack, you can expend one use of your Bardic Inspiration to deal an additional 2d6 damage to that target, the same type as the weapon you are wielding. You can do so only once per round on your turn.</p>\n<p>This extra damage increases when you reach certain levels in this class, increasing to 3d6 at 5th level, 5d6 at 10th level, and 8d6 at 15th level.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Bard (Swords) 3",
         "activation": {
           "type": "",
           "cost": null,
@@ -2395,24 +2497,27 @@
           "charged": false
         },
         "activities": {
-          "mesmerizingWord0": {
-            "_id": "mesmerizingWord0",
+          "cd285bd87f1c9405": {
+            "_id": "cd285bd87f1c9405",
             "type": "utility",
-            "name": "Expend Bardic Inspiration",
+            "name": "Ordnance Requiem",
             "sort": 0,
             "activation": {
               "type": "special",
-              "value": null,
-              "condition": "When you use a bard creation that deals damage or restores hit points",
+              "value": 1,
+              "condition": "",
               "override": false
             },
             "consumption": {
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "ea6476237227eea8",
+                  "target": "bardic-inspiration",
                   "value": "1",
-                  "scaling": {}
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
                 }
               ],
               "scaling": {
@@ -2422,24 +2527,37 @@
               "spellSlot": false
             },
             "description": {
-              "chatFlavor": "Extra die added to the creation's damage or healing roll"
+              "chatFlavor": "When you hit with a weapon attack, once per round on your turn, expend one Bardic Inspiration use."
             },
             "duration": {
-              "units": "inst",
               "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
               "override": false
             },
             "effects": [],
             "range": {
+              "value": null,
+              "units": "",
+              "special": "",
               "override": false
             },
             "target": {
               "template": {
+                "count": "",
                 "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
                 "units": ""
               },
               "affects": {
-                "choice": false
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
               },
               "prompt": true,
               "override": false
@@ -2450,8 +2568,8 @@
               "recovery": []
             },
             "roll": {
-              "formula": "@scale.bard.bardic-inspiration",
-              "name": "Extra die",
+              "formula": "(2 + min(1, floor(@classes.bard.levels / 5)) + 2 * min(1, floor(@classes.bard.levels / 10)) + 3 * min(1, floor(@classes.bard.levels / 15)))d6",
+              "name": "Extra damage (weapon's damage type)",
               "prompt": false,
               "visible": true
             }
@@ -2477,13 +2595,13 @@
       }
     },
     {
-      "_id": "efa0fcb9d42f6072",
-      "name": "Wide Enchantment",
+      "_id": "55a3ff0cb2ea1381",
+      "name": "Cut Time",
       "type": "feat",
-      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "img": "icons/magic/time/arrows-circling-green.webp",
       "system": {
         "description": {
-          "value": "<p>At 6th level, your creations to enchant others can have far reaching effects. When you use an enchantment creation of 1st level or higher that targets only one creature, you can have it target a second creature within range.</p>",
+          "value": "<p>Starting at 6th level, as you continue executing the exact notes, you find the ability to fight to the beat twice as fast.</p>\n<p>Your movement speed is increased by 10 ft, and you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>\n<p>If you ready your action to make an attack, you can attack the same number of times you would if you had taken the attack action on your turn.</p>",
           "chat": ""
         },
         "source": {
@@ -2496,7 +2614,7 @@
           "value": "class",
           "subtype": ""
         },
-        "requirements": "Bard (Bewitchment) 6",
+        "requirements": "Bard (Swords) 6",
         "activation": {
           "type": "",
           "cost": null,
@@ -2538,9 +2656,38 @@
         "recharge": {
           "value": null,
           "charged": false
-        }
+        },
+        "activities": {}
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "4b5d100574b86293",
+          "name": "Cut Time",
+          "img": "icons/svg/aura.svg",
+          "changes": [
+            {
+              "key": "system.attributes.movement.walk",
+              "mode": 2,
+              "value": "10",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {},
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!f775c23a51411d96.4b5d100574b86293"
+        }
+      ],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -2559,13 +2706,13 @@
       }
     },
     {
-      "_id": "b126a011d09a9008",
-      "name": "Potent Creativity",
+      "_id": "e17e860b846b6916",
+      "name": "Carving Inspiration",
       "type": "feat",
-      "img": "icons/magic/symbols/star-rising-purple.webp",
+      "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
       "system": {
         "description": {
-          "value": "<p>Also at 6th level, you can add your Charisma modifier to the damage you deal with any Bard trick.</p>",
+          "value": "<p>Also at 6th level, you can use your words in combat to out maneuver your opponents. When you use your bonus action to give a creature one of your Bardic Inspiration dice, you gain advantage on all your melee weapon attacks until the end of your turn.</p>",
           "chat": ""
         },
         "source": {
@@ -2578,7 +2725,7 @@
           "value": "class",
           "subtype": ""
         },
-        "requirements": "Bard (Bewitchment) 6",
+        "requirements": "Bard (Swords) 6",
         "activation": {
           "type": "",
           "cost": null,
@@ -2620,9 +2767,111 @@
         "recharge": {
           "value": null,
           "charged": false
+        },
+        "activities": {
+          "b377d8f67df93098": {
+            "_id": "b377d8f67df93098",
+            "type": "utility",
+            "name": "Carving Inspiration",
+            "sort": 0,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "When you use your bonus action to give a creature a Bardic Inspiration die, you have advantage on melee weapon attacks until the end of your turn."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "round",
+              "special": "",
+              "override": true
+            },
+            "effects": [
+              {
+                "_id": "2b1487203bb91ec0",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "self",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
         }
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "2b1487203bb91ec0",
+          "name": "Carving Inspiration",
+          "img": "icons/svg/upgrade.svg",
+          "changes": [
+            {
+              "key": "flags.midi-qol.advantage.attack.mwak",
+              "mode": 5,
+              "value": "1",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": 1,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {},
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!fbc38579154ed9bf.2b1487203bb91ec0"
+        }
+      ],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -2641,13 +2890,13 @@
       }
     },
     {
-      "_id": "c5979a7ba6151fd5",
-      "name": "Stained-Glass Gown",
+      "_id": "f8b428e0a7d6ea52",
+      "name": "Floral Silk Coat",
       "type": "equipment",
       "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
       "system": {
         "description": {
-          "value": "<p>A gown of stained glass that rings when struck. Light armour, base AC 14. <em>Balance note: bespoke AC so Soefra reaches the CR 9 band.</em></p>",
+          "value": "<p>Floral Silk Coat: the island's uniform. Base armour class 13.</p>",
           "chat": ""
         },
         "source": {
@@ -2669,7 +2918,7 @@
         "equipped": true,
         "identified": true,
         "armor": {
-          "value": 14
+          "value": 13
         },
         "strength": 0,
         "stealth": false,
@@ -2698,184 +2947,7 @@
       }
     },
     {
-      "_id": "fccdbf5fcf527061",
-      "name": "Dagger",
-      "type": "weapon",
-      "img": "icons/weapons/daggers/dagger-glowing-white.webp",
-      "system": {
-        "description": {
-          "value": "<p><strong>Adaptable (P, S).</strong> The wielder can choose to deal piercing or slashing damage.</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "quantity": 1,
-        "weight": {
-          "value": 1,
-          "units": "lb"
-        },
-        "price": {
-          "value": 20000,
-          "denomination": "gp"
-        },
-        "rarity": "common",
-        "equipped": false,
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1
-        },
-        "range": {
-          "value": 20,
-          "long": 60,
-          "units": "ft"
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "per": null,
-          "recovery": ""
-        },
-        "damage": {
-          "parts": [
-            "1d4",
-            "piercing"
-          ],
-          "versatile": ""
-        },
-        "actionType": "mwak",
-        "ability": "",
-        "attackBonus": "",
-        "chatFlavor": "",
-        "proficient": null,
-        "properties": {
-          "fin": true,
-          "lgt": true,
-          "thr": true
-        },
-        "type": {
-          "value": "simpleM",
-          "baseItem": "dagger"
-        },
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "attack",
-            "name": "Dagger",
-            "sort": 0,
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": null,
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": 20,
-              "units": "ft",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "damage": {
-              "critical": {
-                "allow": true,
-                "bonus": ""
-              },
-              "parts": [
-                {
-                  "number": 1,
-                  "denomination": 4,
-                  "bonus": "",
-                  "types": [
-                    "piercing"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": null,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          }
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "b456378929e0eee5",
+      "_id": "be5a3d85f609186a",
       "name": "Creativity (Spellcasting)",
       "type": "feat",
       "img": "icons/magic/symbols/star-rising-purple.webp",
@@ -2957,7 +3029,7 @@
       }
     },
     {
-      "_id": "ea6476237227eea8",
+      "_id": "1cd4a7b9246d3136",
       "name": "Bardic Inspiration",
       "type": "feat",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -3006,12 +3078,7 @@
         },
         "actionType": "",
         "damage": {
-          "parts": [
-            [
-              "@scale.bard.bardic-inspiration",
-              ""
-            ]
-          ],
+          "parts": [],
           "versatile": ""
         },
         "save": {
@@ -3027,7 +3094,7 @@
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
-            "type": "utility",
+            "type": "damage",
             "name": "Bardic Inspiration",
             "sort": 0,
             "activation": {
@@ -3100,11 +3167,28 @@
                 }
               ]
             },
-            "roll": {
-              "formula": "@scale.bard.bardic-inspiration",
-              "name": "",
-              "prompt": false,
-              "visible": false
+            "damage": {
+              "critical": {
+                "allow": false,
+                "bonus": ""
+              },
+              "parts": [
+                {
+                  "number": null,
+                  "denomination": null,
+                  "bonus": "",
+                  "types": [],
+                  "custom": {
+                    "enabled": true,
+                    "formula": "@scale.bard.bardic-inspiration"
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
             }
           }
         }
@@ -3128,7 +3212,7 @@
       }
     },
     {
-      "_id": "25129113f9131524",
+      "_id": "c49b5639e062a318",
       "name": "Jack of All Trades",
       "type": "feat",
       "img": "icons/magic/symbols/star-rising-purple.webp",
@@ -3215,12 +3299,7 @@
           },
           "origin": null,
           "transfer": true,
-          "flags": {
-            "dae": {
-              "transfer": true,
-              "stackable": "noneName"
-            }
-          },
+          "flags": {},
           "statuses": [],
           "tint": null,
           "_key": "!items.effects!3e8ae0d3e1ad6ac0.ea668efa2cdf8079"
@@ -3244,7 +3323,7 @@
       }
     },
     {
-      "_id": "9a1d22c64cfef005",
+      "_id": "a640987c6de5a342",
       "name": "Harmonic Vitality",
       "type": "feat",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -3287,18 +3366,13 @@
         "uses": {
           "value": null,
           "max": "1 + @abilities.cha.mod",
-          "per": "sr",
+          "per": "lr",
           "recovery": "",
           "prompt": true
         },
         "actionType": "",
         "damage": {
-          "parts": [
-            [
-              "@scale.bard.harmonic-vitality",
-              "healing"
-            ]
-          ],
+          "parts": [],
           "versatile": ""
         },
         "save": {
@@ -3314,7 +3388,7 @@
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
-            "type": "heal",
+            "type": "damage",
             "name": "Harmonic Vitality",
             "sort": 0,
             "activation": {
@@ -3387,22 +3461,30 @@
                 }
               ]
             },
-            "healing": {
-              "number": null,
-              "denomination": null,
-              "bonus": "",
-              "types": [
-                "healing"
-              ],
-              "custom": {
-                "enabled": true,
-                "formula": "@scale.bard.harmonic-vitality"
+            "damage": {
+              "critical": {
+                "allow": false,
+                "bonus": ""
               },
-              "scaling": {
-                "mode": "",
-                "number": null,
-                "formula": ""
-              }
+              "parts": [
+                {
+                  "number": null,
+                  "denomination": null,
+                  "bonus": "",
+                  "types": [
+                    "healing"
+                  ],
+                  "custom": {
+                    "enabled": true,
+                    "formula": "@scale.bard.harmonic-vitality"
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
             }
           }
         }
@@ -3426,7 +3508,7 @@
       }
     },
     {
-      "_id": "191d342833b93212",
+      "_id": "13b63d82332c3f3c",
       "name": "Expertise",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -3508,7 +3590,7 @@
       }
     },
     {
-      "_id": "486609b2d25e6089",
+      "_id": "144d4ca2e14de660",
       "name": "Font of Inspiration",
       "type": "feat",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -3590,7 +3672,7 @@
       }
     },
     {
-      "_id": "f1fac4c3917c166d",
+      "_id": "f01d176281677c4f",
       "name": "Countercharm",
       "type": "feat",
       "img": "icons/magic/control/silhouette-hold-change-blue.webp",
@@ -3741,253 +3823,7 @@
       }
     },
     {
-      "_id": "49b019ff9603d49b",
-      "name": "Expertise",
-      "type": "feat",
-      "img": "icons/skills/trades/academics-study-reading-book.webp",
-      "system": {
-        "description": {
-          "value": "<p>At 10th level, choose two more of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "type": {
-          "value": "class",
-          "subtype": ""
-        },
-        "requirements": "Bard 10",
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "per": null,
-          "recovery": "",
-          "prompt": true
-        },
-        "actionType": "",
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "chatFlavor": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "dde3792e808feb76",
-      "name": "Musical Secrets",
-      "type": "feat",
-      "img": "icons/skills/trades/music-notes-sound-blue.webp",
-      "system": {
-        "description": {
-          "value": "<p>At 10th level, you've gathered inspiration from creations of a wide spectrum of disciplines. Choose two creations from any class creation list found in this document, including this one. The creation must be of a level you can use, as shown on the Bard table, or a trick.</p>\n<p>The chosen creations count as bard creations for you and are included in the Creations Known column on the Bard table.</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "type": {
-          "value": "class",
-          "subtype": ""
-        },
-        "requirements": "Bard 10",
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "per": null,
-          "recovery": "",
-          "prompt": true
-        },
-        "actionType": "",
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "chatFlavor": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "250aad00ce388b8b",
-      "name": "Font of Vitality",
-      "type": "feat",
-      "img": "icons/skills/trades/music-notes-sound-blue.webp",
-      "system": {
-        "description": {
-          "value": "<p>At 10th level, you regain all of your expended uses of Harmonic Vitality when you finish a short or long rest.</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "type": {
-          "value": "class",
-          "subtype": ""
-        },
-        "requirements": "Bard 10",
-        "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "per": null,
-          "recovery": "",
-          "prompt": true
-        },
-        "actionType": "",
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "chatFlavor": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "a5001aea381d97a5",
+      "_id": "67f521c90f9515c8",
       "name": "Small Medkit",
       "type": "consumable",
       "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
@@ -4044,7 +3880,7 @@
       }
     },
     {
-      "_id": "7770728c9dc0efc0",
+      "_id": "1c24d13d2ae80eb3",
       "name": "Rations (1 day)",
       "type": "consumable",
       "img": "icons/consumables/potions/bottle-round-corked-red.webp",
@@ -4092,7 +3928,7 @@
       }
     },
     {
-      "_id": "78af302eb989a3c1",
+      "_id": "f2a7dad41457e0ae",
       "name": "Disguise Kit",
       "type": "tool",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -4119,7 +3955,7 @@
         "rarity": "common",
         "ability": "cha",
         "chatFlavor": "",
-        "proficient": 1,
+        "proficient": 0,
         "type": {
           "value": "art",
           "baseItem": "disg"
@@ -4144,7 +3980,7 @@
       }
     },
     {
-      "_id": "6164e2f8ee1064da",
+      "_id": "89697fba66360224",
       "name": "Playing Card Set",
       "type": "tool",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -4171,7 +4007,7 @@
         "rarity": "common",
         "ability": "int",
         "chatFlavor": "",
-        "proficient": 1,
+        "proficient": 0,
         "type": {
           "value": "game",
           "baseItem": "card"
@@ -4196,7 +4032,7 @@
       }
     },
     {
-      "_id": "69ae58df775f9def",
+      "_id": "18bd8347968044c7",
       "name": "Performer",
       "type": "feat",
       "img": "icons/skills/trades/music-notes-sound-blue.webp",
@@ -4393,7 +4229,7 @@
       }
     },
     {
-      "_id": "51b1fe21ccbf9e80",
+      "_id": "96d5fa499a188150",
       "name": "Rapier",
       "type": "weapon",
       "img": "icons/weapons/swords/scimitar-guard-gold.webp",
@@ -4568,7 +4404,7 @@
       }
     },
     {
-      "_id": "a30a776cd0cb10b2",
+      "_id": "d827f3610baf4c75",
       "name": "Diplomat's Pack",
       "type": "loot",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -4613,13 +4449,13 @@
       }
     },
     {
-      "_id": "3a4b88a0eae74bca",
-      "name": "Viol",
+      "_id": "9d6592bc540aeba2",
+      "name": "Lute",
       "type": "tool",
       "img": "icons/skills/trades/music-notes-sound-blue.webp",
       "system": {
         "description": {
-          "value": "",
+          "value": "<p>Price and weight follow the 5e SRD; the sourcebook names the lute in Bard starting equipment but lists no price.</p>",
           "chat": ""
         },
         "source": {
@@ -4630,20 +4466,20 @@
         },
         "quantity": 1,
         "weight": {
-          "value": 1,
+          "value": 2,
           "units": "lb"
         },
         "price": {
-          "value": 300000,
+          "value": 350000,
           "denomination": "gp"
         },
         "rarity": "common",
         "ability": "cha",
         "chatFlavor": "",
-        "proficient": 1,
+        "proficient": 0,
         "type": {
           "value": "music",
-          "baseItem": "viol"
+          "baseItem": "lute"
         }
       },
       "effects": [],
@@ -4665,10 +4501,44 @@
       }
     },
     {
-      "_id": "7f18625b514aa3cf",
-      "name": "Flute",
+      "_id": "105e303ed9f6dfd4",
+      "name": "No Devil Fruit (yet)",
+      "type": "loot",
+      "img": "modules/op5e/assets/icons/devil-fruit.svg",
+      "system": {
+        "description": {
+          "value": "<p>You have no devil fruit at creation. Your DM can give you one later in the campaign; delete this item when that happens.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "treasure"
+        },
+        "rarity": "",
+        "activities": {}
+      },
+      "effects": [],
+      "flags": {
+        "op5e": {
+          "devilFruitTemplate": "none",
+          "automation": "NEEDS_REVIEW"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "8fe8d8ccb13b15d3",
+      "name": "Guitar",
       "type": "tool",
-      "img": "icons/skills/trades/music-notes-sound-blue.webp",
+      "img": "icons/tools/smithing/anvil.webp",
       "system": {
         "description": {
           "value": "",
@@ -4682,20 +4552,20 @@
         },
         "quantity": 1,
         "weight": {
-          "value": 1,
+          "value": 3,
           "units": "lb"
         },
         "price": {
-          "value": 20000,
+          "value": 350000,
           "denomination": "gp"
         },
         "rarity": "common",
         "ability": "cha",
         "chatFlavor": "",
-        "proficient": 1,
+        "proficient": 0,
         "type": {
           "value": "music",
-          "baseItem": "flute"
+          "baseItem": ""
         }
       },
       "effects": [],
@@ -4717,13 +4587,13 @@
       }
     },
     {
-      "_id": "a3e217c32de194f2",
-      "name": "Remarkable Recovery",
+      "_id": "d39f8aecb066ffdd",
+      "name": "Silver Tongue",
       "type": "feat",
-      "img": "icons/skills/social/wave-halt-stop.webp",
+      "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
       "system": {
         "description": {
-          "value": "<p>You have an unnaturally quick recovery. You gain the following benefits:</p><ul><li>Increase your Constitution score by 1, to a maximum of 20.</li><li>When you are successfully stabilized while dying, you regain hit points equal to your Constitution modifier (minimum of 1).</li><li>Whenever you regain hit points as a result of a creation, item, or class feature (but not this feat), you regain additional hit points equal to your Constitution modifier (minimum of 1).</li></ul>",
+          "value": "<p>You develop your conversational skill to better deceive others. You gain the following benefits.</p><ul><li>Increase your Charisma score by 1, to a maximum of 20.</li><li>You gain proficiency in the Deception skill. If you are already proficient in the skill, you gain Expertise in it.</li><li>You learn the Vicious Mockery trick, your Charisma is the creation ability modifier for this creation. You can use this trick as a bonus action a number of times equal to your proficiency bonus, regaining all uses at the end of a long rest.</li><li>You can replace one attack with an attempt to deceive one creature you can see within 30 feet of you that can see and hear you. Make a Charisma (Deception) check contested by the target's Wisdom (Insight) check. If your check succeeds, your movement doesn't provoke opportunity attacks from the target and your attack rolls against it have advantage; both benefits last until the end of your next turn or until you use this ability on a different target. If your check fails, the target can't be deceived by you in this way for 1 hour.</li></ul>",
           "chat": ""
         },
         "source": {
@@ -4738,8 +4608,8 @@
         },
         "requirements": "",
         "activation": {
-          "type": "",
-          "cost": null,
+          "type": "bonus",
+          "cost": 1,
           "condition": ""
         },
         "duration": {
@@ -4759,8 +4629,8 @@
         },
         "uses": {
           "value": null,
-          "max": "",
-          "per": null,
+          "max": "@prof",
+          "per": "lr",
           "recovery": "",
           "prompt": true
         },
@@ -4781,20 +4651,20 @@
         },
         "advancement": [
           {
-            "_id": "de9ac2f27f0ca7d8",
+            "_id": "ea9f0d363f3af043",
             "type": "AbilityScoreImprovement",
             "configuration": {
               "cap": 1,
               "max": 20,
               "fixed": {
-                "con": 1
+                "cha": 1
               },
               "locked": [
                 "str",
                 "dex",
+                "con",
                 "int",
-                "wis",
-                "cha"
+                "wis"
               ],
               "points": 0
             },
@@ -4803,9 +4673,112 @@
             "title": "",
             "icon": "",
             "classRestriction": "",
-            "hint": "Increase your Constitution score by 1"
+            "hint": "Increase your Charisma score by 1"
+          },
+          {
+            "_id": "d1f15e1986daf615",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "grants": [
+                "skills:dec"
+              ],
+              "choices": [],
+              "allowReplacements": true,
+              "hint": ""
+            },
+            "value": {},
+            "level": 0,
+            "title": "proficiencies",
+            "icon": "",
+            "classRestriction": "",
+            "hint": ""
           }
-        ]
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "name": "Silver Tongue",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": null,
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": [
+                {
+                  "period": "longRest",
+                  "type": "recoverAll"
+                }
+              ]
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
+        }
       },
       "effects": [],
       "flags": {},
@@ -4826,7 +4799,7 @@
       }
     },
     {
-      "_id": "cc3b6b7051ba6185",
+      "_id": "5bda46b1c2223cbd",
       "name": "Color of Observation Novice",
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-white.webp",
@@ -4997,12 +4970,7 @@
           },
           "origin": null,
           "transfer": true,
-          "flags": {
-            "dae": {
-              "transfer": true,
-              "stackable": "noneName"
-            }
-          },
+          "flags": {},
           "statuses": [],
           "tint": null,
           "_key": "!items.effects!96dcda2a40ae256f.73e74cc3bfaabcaa"
@@ -5026,13 +4994,13 @@
       }
     },
     {
-      "_id": "ba2f1901922c5564",
-      "name": "Color of Armament Novice",
-      "type": "feat",
-      "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
+      "_id": "be8fa42bb8c42540",
+      "name": "Flintlock",
+      "type": "weapon",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
       "system": {
         "description": {
-          "value": "<p>Through grueling challenges and training, you've unlocked the hidden potential sleeping deep within you, transforming your will into tangible force. You have access to the basic form of Armament Haki.</p>\n<p><strong>Armor of Resolve.</strong> Your will suffuses your body, rendering weak threats completely inconsequential. When you take damage from any source that is less than or equal to 5, you ignore that damage. This damage threshold is calculated before any damage reduction and resistance.</p>\n<p>In addition, if you have the Ocean's Scorn feature, and you are affected by the knee deep weakness, you can ignore those effects, except being unable to activate your devil fruit.</p>\n<p><strong>Enhancement.</strong> Your will enhances your strikes, making your fists, bullets, blades, and other weapons much more dense, allowing you to smash through all that comes your way. Your attacks and creations can now overcome resistances and immunities to unimbued damage types as they are now haki imbued.</p>\n<p>Additionally, you have a pool of Attack Points equal to your level that replenishes when you take a short or long rest. When you deal damage with an attack, creation, or other damaging ability, you can expend an Attack Point to add half your proficiency bonus (rounded down) to the damage roll. You can expend up to a number of Attack Points on a single damage roll to a maximum equal to your proficiency bonus.</p>\n<p>If you have Affinity towards Armament Haki, you may add your full proficiency bonus rather than half.</p>\n<p><strong>Fortified Defense.</strong> Your tenacious spirit empowers you when you take a defensive stance. When you use the Dodge action, you additionally gain advantage on a saving throw of your choice (in addition to Dexterity) until the start of your next turn.</p>",
+          "value": "<p>The most common gun found on the seas. A single shot pistol with short effective range. Rain and weather severely affect reliability.</p><p><strong>Reload 1.</strong> Can fire 1 time before requiring reloading. Reloading takes an action or one of your attack actions with multiattack.</p>",
           "chat": ""
         },
         "source": {
@@ -5041,25 +5009,26 @@
           "custom": "",
           "license": ""
         },
-        "type": {
-          "value": "class",
-          "subtype": ""
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
         },
-        "requirements": "8th level",
-        "identifier": "armament-novice",
-        "prerequisites": {
-          "level": 8,
-          "items": [],
-          "repeatable": false
+        "price": {
+          "value": 500000,
+          "denomination": "gp"
         },
+        "rarity": "common",
+        "equipped": true,
+        "identified": true,
         "activation": {
-          "type": "",
-          "cost": null,
-          "condition": ""
+          "type": "action",
+          "cost": 1
         },
-        "duration": {
-          "value": null,
-          "units": ""
+        "range": {
+          "value": 30,
+          "long": 120,
+          "units": "ft"
         },
         "target": {
           "value": null,
@@ -5067,77 +5036,68 @@
           "units": "",
           "type": ""
         },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
         "uses": {
           "value": null,
-          "max": "@details.level",
-          "per": "sr",
-          "recovery": "",
-          "prompt": true
+          "max": "",
+          "per": null,
+          "recovery": ""
         },
-        "actionType": "",
         "damage": {
-          "parts": [],
+          "parts": [
+            [
+              "1d(min(12, 6 + 2 * @flags.op5e.wDie.handgun))",
+              "piercing"
+            ]
+          ],
           "versatile": ""
         },
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
+        "actionType": "rwak",
+        "ability": "",
+        "attackBonus": "@flags.op5e.wAtk.handgun",
         "chatFlavor": "",
-        "recharge": {
-          "value": null,
-          "charged": false
+        "proficient": null,
+        "properties": {
+          "amm": true,
+          "lgt": true
+        },
+        "type": {
+          "value": "simpleR",
+          "baseItem": ""
         },
         "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "utility",
-            "name": "Color of Armament Novice",
+          "29dc035b8e362d05": {
+            "_id": "29dc035b8e362d05",
+            "type": "attack",
+            "name": "Flintlock",
             "sort": 0,
             "activation": {
-              "type": "",
-              "value": null,
+              "type": "action",
+              "value": 1,
               "condition": "",
               "override": false
             },
             "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "target": "",
-                  "value": "1",
-                  "scaling": {
-                    "mode": "",
-                    "formula": ""
-                  }
-                }
-              ],
+              "targets": [],
               "scaling": {
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
               "chatFlavor": ""
             },
             "duration": {
               "concentration": false,
-              "value": null,
+              "value": "",
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
             "range": {
-              "value": null,
-              "units": "",
+              "value": 30,
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -5163,18 +5123,27 @@
             "uses": {
               "spent": 0,
               "max": "",
-              "recovery": [
-                {
-                  "period": "shortRest",
-                  "type": "recoverAll"
-                }
-              ]
+              "recovery": []
             },
-            "roll": {
-              "formula": "",
-              "name": "",
-              "prompt": false,
-              "visible": false
+            "attack": {
+              "ability": "",
+              "bonus": "@flags.op5e.wAtk.handgun",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "allow": true,
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
             }
           }
         }
@@ -5195,10 +5164,11 @@
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
-      }
+      },
+      "_key": "!items!e5e7d26cd0404bee"
     },
     {
-      "_id": "f53d925329d4620f",
+      "_id": "b3597c40c3c4aad8",
       "name": "Heart Strings",
       "type": "feat",
       "img": "icons/skills/social/wave-halt-stop.webp",
@@ -5259,10 +5229,17 @@
         "recharge": {
           "value": null,
           "charged": false
-        }
+        },
+        "activities": {},
+        "advancement": []
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "op5e": {
+          "additionalPower": true,
+          "additionalPowerRoot": true
+        }
+      },
       "folder": null,
       "sort": 0,
       "ownership": {
@@ -5277,10 +5254,11 @@
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
-      }
+      },
+      "_key": "!items!e465550eefaae59f"
     },
     {
-      "_id": "889fb3f12ddde28a",
+      "_id": "204dfa43a2ed82d3",
       "name": "Song of Life and Death",
       "type": "feat",
       "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
@@ -5410,10 +5388,15 @@
               "visible": false
             }
           }
-        }
+        },
+        "advancement": []
       },
       "effects": [],
-      "flags": {},
+      "flags": {
+        "op5e": {
+          "additionalPower": true
+        }
+      },
       "folder": null,
       "sort": 0,
       "ownership": {
@@ -5428,33 +5411,34 @@
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
-      }
+      },
+      "_key": "!items!5a59ef2c64658612"
     },
     {
-      "_id": "38e7da53e60514ce",
-      "name": "Lucky",
+      "_id": "b947c069074b86c3",
+      "name": "Veteran's Edge",
       "type": "feat",
-      "img": "icons/skills/social/trading-justice-scale-gold.webp",
+      "img": "icons/skills/melee/strike-slashes-orange.webp",
       "system": {
         "description": {
-          "value": "<p>You have inexplicable luck that seems to kick in at just the right moment.</p><p>You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one luck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.</p><p>You can also spend one luck point when an attack roll is made against you. Roll a d20 and then choose whether the attack uses the attacker's roll or yours.</p><p>If more than one creature spends a luck point to influence the outcome of a roll, the points cancel each other out; no additional dice are rolled.</p><p>You regain your expended luck points when you finish a long rest.</p>",
+          "value": "<p>Weapon attacks deal an extra 3d6 damage. <em>Balance note: a bespoke feature, not a class feature, so Jay reaches the CR 6 damage band.</em></p>",
           "chat": ""
         },
         "source": {
-          "book": "OP5e",
+          "book": "Blood & Brine homebrew",
           "page": "",
           "custom": "",
           "license": ""
         },
         "type": {
-          "value": "feat",
+          "value": "class",
           "subtype": ""
         },
         "requirements": "",
         "activation": {
           "type": "special",
-          "cost": 1,
-          "condition": "when you make an attack roll, ability check or saving throw, or an attack is made against you"
+          "cost": null,
+          "condition": "Passive"
         },
         "duration": {
           "value": null,
@@ -5467,23 +5451,18 @@
           "type": ""
         },
         "range": {
-          "value": null,
+          "value": 5,
           "long": null,
-          "units": ""
+          "units": "ft"
         },
         "uses": {
           "value": null,
-          "max": "3",
+          "max": "",
           "per": null,
-          "recovery": [
-            {
-              "period": "lr",
-              "type": "recoverAll"
-            }
-          ],
+          "recovery": "",
           "prompt": true
         },
-        "actionType": "util",
+        "actionType": "",
         "damage": {
           "parts": [],
           "versatile": ""
@@ -5499,49 +5478,39 @@
           "charged": false
         },
         "activities": {
-          "7337deee0192e559": {
-            "_id": "7337deee0192e559",
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
             "type": "utility",
-            "name": "Spend a luck point",
+            "name": "Veteran's Edge",
             "sort": 0,
             "activation": {
               "type": "special",
-              "value": 1,
-              "condition": "",
+              "value": null,
+              "condition": "Passive",
               "override": false
             },
             "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "target": "",
-                  "value": "1",
-                  "scaling": {
-                    "mode": "",
-                    "formula": ""
-                  }
-                }
-              ],
+              "targets": [],
               "scaling": {
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": false
+              "spellSlot": true
             },
             "description": {
-              "chatFlavor": "Roll an additional d20 on an attack roll, ability check or saving throw, or when an attack is made against you, and choose which d20 is used."
+              "chatFlavor": ""
             },
             "duration": {
               "concentration": false,
-              "value": "",
+              "value": null,
               "units": "inst",
               "special": "",
               "override": false
             },
             "effects": [],
             "range": {
-              "value": null,
-              "units": "",
+              "value": 5,
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -5576,10 +5545,42 @@
               "visible": false
             }
           }
-        },
-        "advancement": []
+        }
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "6ec5f1b17a46af2e",
+          "name": "Veteran's Edge",
+          "img": "icons/skills/melee/strike-slashes-orange.webp",
+          "disabled": false,
+          "transfer": true,
+          "changes": [
+            {
+              "key": "system.bonuses.mwak.damage",
+              "mode": 2,
+              "value": "+3d6",
+              "priority": 20
+            },
+            {
+              "key": "system.bonuses.rwak.damage",
+              "mode": 2,
+              "value": "+3d6",
+              "priority": 20
+            }
+          ],
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "flags": {},
+          "statuses": [],
+          "tint": null
+        }
+      ],
       "flags": {},
       "folder": null,
       "sort": 0,
@@ -5595,11 +5596,10 @@
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null
-      },
-      "_key": "!items!579b7da190b364cd"
+      }
     },
     {
-      "_id": "a26827d2c6af81e3",
+      "_id": "392af686bb84d58d",
       "name": "Vicious Mockery",
       "type": "spell",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -5673,7 +5673,7 @@
         "damage": {
           "parts": [
             [
-              "3d6",
+              "1d6",
               "psychic"
             ]
           ],
@@ -5751,9 +5751,9 @@
               "onSave": "half",
               "parts": [
                 {
-                  "number": 3,
+                  "number": 1,
                   "denomination": 6,
-                  "bonus": "@abilities.cha.mod",
+                  "bonus": "",
                   "types": [
                     "psychic"
                   ],
@@ -5800,379 +5800,7 @@
       }
     },
     {
-      "_id": "657f3959e8ea8279",
-      "name": "Mind Slash",
-      "type": "spell",
-      "img": "icons/magic/perception/third-eye-blue-red.webp",
-      "system": {
-        "description": {
-          "value": "<p>You metaphorically stab a knife into the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take 1d6 psychic damage and subtract 1d4 from the next saving throw it makes before the end of your next turn.</p><p><strong>At Higher Levels.</strong> This trick’s damage increases by 1d6 when you reach certain levels: 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "level": 0,
-        "school": "enc",
-        "components": {
-          "value": "",
-          "vocal": true,
-          "somatic": false,
-          "material": false,
-          "ritual": false,
-          "concentration": false
-        },
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "prepared",
-          "prepared": true
-        },
-        "scaling": {
-          "mode": "cantrip",
-          "formula": ""
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": "1",
-          "units": "round"
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 60,
-          "long": null,
-          "units": "ft"
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "per": null,
-          "recovery": "",
-          "prompt": true
-        },
-        "actionType": "save",
-        "attack": {
-          "bonus": "",
-          "flat": false
-        },
-        "damage": {
-          "parts": [
-            [
-              "3d6",
-              "psychic"
-            ]
-          ],
-          "versatile": ""
-        },
-        "save": {
-          "ability": "int",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "chatFlavor": "",
-        "formula": "",
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "save",
-            "name": "Mind Slash",
-            "sort": 0,
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "1",
-              "units": "round",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": 60,
-              "units": "ft",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": [
-                {
-                  "number": 3,
-                  "denomination": 6,
-                  "bonus": "@abilities.cha.mod",
-                  "types": [
-                    "psychic"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": null,
-                    "formula": ""
-                  }
-                }
-              ]
-            },
-            "save": {
-              "ability": [
-                "int"
-              ],
-              "dc": {
-                "calculation": "spellcasting",
-                "formula": ""
-              }
-            }
-          }
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "0ed7031cbe6c79c9",
-      "name": "Whisper",
-      "type": "spell",
-      "img": "icons/magic/nature/leaf-glow-green.webp",
-      "system": {
-        "description": {
-          "value": "<p>You whisper a message towards a creature within range. The target (and only the target) hears the message and can reply in a whisper that only you can hear.\nYou can use this trick through solid objects if you are familiar with the target and know it is beyond the barrier. Creative silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the trick. The trick doesn’t have to follow a straight line and can travel freely around corners or through openings.</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "level": 0,
-        "school": "trs",
-        "components": {
-          "value": "",
-          "vocal": true,
-          "somatic": true,
-          "material": true,
-          "ritual": false,
-          "concentration": false
-        },
-        "materials": {
-          "value": "a piece of wire",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "prepared",
-          "prepared": true
-        },
-        "scaling": {
-          "mode": "cantrip",
-          "formula": ""
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": "inst"
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 120,
-          "long": null,
-          "units": "ft"
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "per": null,
-          "recovery": "",
-          "prompt": true
-        },
-        "actionType": "",
-        "attack": {
-          "bonus": "",
-          "flat": false
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "chatFlavor": "",
-        "formula": "",
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "utility",
-            "name": "Whisper",
-            "sort": 0,
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": null,
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": 120,
-              "units": "ft",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "roll": {
-              "formula": "",
-              "name": "",
-              "prompt": false,
-              "visible": false
-            }
-          }
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "2f628a1090f52f43",
+      "_id": "8a3d0950740f833e",
       "name": "Guidance",
       "type": "spell",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -6257,7 +5885,7 @@
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
-            "type": "utility",
+            "type": "save",
             "name": "Guidance",
             "sort": 0,
             "activation": {
@@ -6315,11 +5943,18 @@
               "max": "",
               "recovery": []
             },
-            "roll": {
-              "formula": "1d4",
-              "name": "",
-              "prompt": false,
-              "visible": false
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "str"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
             }
           }
         }
@@ -6343,13 +5978,13 @@
       }
     },
     {
-      "_id": "6e5fba69e996e5ec",
-      "name": "Thunder Bolt",
+      "_id": "e713b97afe471262",
+      "name": "Prestidigitation",
       "type": "spell",
-      "img": "icons/magic/lightning/bolt-blue.webp",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
       "system": {
         "description": {
-          "value": "<p>You hurl a blast of purely destructive sound at a creature or object within range. Make a ranged creation attack against the target. On a hit, the target takes 1d10 thunder damage. A loud noise that can be heard within 100 ft is accompanied by the attack.\nAdditionally, you can manipulate sound to create tiny sensory effects as an action.</p><p><strong>At Higher Levels.</strong> At higher levels you can choose to either make one big blast, or multiple smaller blasts. For the single blast, this trick's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10). For the multiple blasts, two blasts at 5th level, three blasts at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</p>",
+          "value": "<p>You make a minor trick that novice tricksters use for practice. You create one of the following creative effects within range:\n<em> You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.\n</em> You instantaneously light or snuff out a candle, a torch, or a small campfire.\n<em> You instantaneously clean or soil an object no larger than 1 cubic foot.\n</em> You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.\n<em> You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.\n</em> You create a trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.\nIf you use this trick multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect, no action required.</p>",
           "chat": ""
         },
         "source": {
@@ -6359,7 +5994,7 @@
           "license": ""
         },
         "level": 0,
-        "school": "evo",
+        "school": "trs",
         "components": {
           "value": "",
           "vocal": true,
@@ -6388,17 +6023,17 @@
           "condition": ""
         },
         "duration": {
-          "value": null,
-          "units": "inst"
+          "value": "1",
+          "units": "hour"
         },
         "target": {
           "value": null,
           "width": null,
           "units": "",
-          "type": "creature"
+          "type": ""
         },
         "range": {
-          "value": 120,
+          "value": 10,
           "long": null,
           "units": "ft"
         },
@@ -6409,18 +6044,13 @@
           "recovery": "",
           "prompt": true
         },
-        "actionType": "rsak",
+        "actionType": "",
         "attack": {
           "bonus": "",
           "flat": false
         },
         "damage": {
-          "parts": [
-            [
-              "3d10",
-              "thunder"
-            ]
-          ],
+          "parts": [],
           "versatile": ""
         },
         "save": {
@@ -6433,600 +6063,8 @@
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
-            "type": "attack",
-            "name": "Thunder Bolt",
-            "sort": 0,
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": null,
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": 120,
-              "units": "ft",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "creature",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "damage": {
-              "critical": {
-                "allow": true,
-                "bonus": ""
-              },
-              "parts": [
-                {
-                  "number": 3,
-                  "denomination": 10,
-                  "bonus": "@abilities.cha.mod",
-                  "types": [
-                    "thunder"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": null,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          }
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "79fade9ac36fe86f",
-      "name": "Thunderwave",
-      "type": "spell",
-      "img": "icons/magic/lightning/bolt-blue.webp",
-      "system": {
-        "description": {
-          "value": "<p>You unleash a wave of thunderous force. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 3d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn’t pushed. In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the creation’s effect, and the spell emits a thunderous boom audible out to 300 feet.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "level": 1,
-        "school": "evo",
-        "components": {
-          "value": "",
-          "vocal": true,
-          "somatic": true,
-          "material": false,
-          "ritual": false,
-          "concentration": false
-        },
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "prepared",
-          "prepared": true
-        },
-        "scaling": {
-          "mode": "level",
-          "formula": ""
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": "inst"
-        },
-        "target": {
-          "value": 15,
-          "width": null,
-          "units": "ft",
-          "type": "cube"
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "self"
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "per": null,
-          "recovery": "",
-          "prompt": true
-        },
-        "actionType": "save",
-        "attack": {
-          "bonus": "",
-          "flat": false
-        },
-        "damage": {
-          "parts": [
-            [
-              "3d8",
-              "thunder"
-            ]
-          ],
-          "versatile": ""
-        },
-        "save": {
-          "ability": "con",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "chatFlavor": "",
-        "formula": "",
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "save",
-            "name": "Thunderwave",
-            "sort": 0,
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": null,
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": null,
-              "units": "self",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "cube",
-                "size": "15",
-                "width": "",
-                "height": "",
-                "units": "ft"
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": [
-                {
-                  "number": 3,
-                  "denomination": 8,
-                  "bonus": "",
-                  "types": [
-                    "thunder"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": null,
-                    "formula": ""
-                  }
-                }
-              ]
-            },
-            "save": {
-              "ability": [
-                "con"
-              ],
-              "dc": {
-                "calculation": "spellcasting",
-                "formula": ""
-              }
-            }
-          }
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "5a6e7721588d3ceb",
-      "name": "Shatter",
-      "type": "spell",
-      "img": "icons/magic/fire/explosion-fireball-large-orange.webp",
-      "system": {
-        "description": {
-          "value": "<p>A sudden loud ringing noise, painfully intense, erupts from a point of your choice within range. Each creature in a 10-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes 3d10 thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw.\nAn unimbued or mastercraft object that isn’t being worn or carried also takes the damage if it’s in the creation’s area.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "level": 2,
-        "school": "evo",
-        "components": {
-          "value": "",
-          "vocal": true,
-          "somatic": true,
-          "material": false,
-          "ritual": false,
-          "concentration": false
-        },
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "prepared",
-          "prepared": true
-        },
-        "scaling": {
-          "mode": "level",
-          "formula": ""
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": "inst"
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 60,
-          "long": null,
-          "units": "ft"
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "per": null,
-          "recovery": "",
-          "prompt": true
-        },
-        "actionType": "save",
-        "attack": {
-          "bonus": "",
-          "flat": false
-        },
-        "damage": {
-          "parts": [
-            [
-              "3d10",
-              "thunder"
-            ]
-          ],
-          "versatile": ""
-        },
-        "save": {
-          "ability": "con",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "chatFlavor": "",
-        "formula": "",
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "save",
-            "name": "Shatter",
-            "sort": 0,
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": null,
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": 60,
-              "units": "ft",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": [
-                {
-                  "number": 3,
-                  "denomination": 10,
-                  "bonus": "",
-                  "types": [
-                    "thunder"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": null,
-                    "formula": ""
-                  }
-                }
-              ]
-            },
-            "save": {
-              "ability": [
-                "con"
-              ],
-              "dc": {
-                "calculation": "spellcasting",
-                "formula": ""
-              }
-            }
-          }
-        }
-      },
-      "effects": [],
-      "flags": {},
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "772c645f8ac7c1f0",
-      "name": "Charm Person",
-      "type": "spell",
-      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
-      "system": {
-        "description": {
-          "value": "<p>You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the creation ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the creation ends, the creature knows it was charmed by you.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "OP5e",
-          "page": "",
-          "custom": "",
-          "license": ""
-        },
-        "level": 1,
-        "school": "enc",
-        "components": {
-          "value": "",
-          "vocal": true,
-          "somatic": true,
-          "material": false,
-          "ritual": false,
-          "concentration": false
-        },
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "prepared",
-          "prepared": true
-        },
-        "scaling": {
-          "mode": "level",
-          "formula": ""
-        },
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": "1",
-          "units": "hour"
-        },
-        "target": {
-          "value": null,
-          "width": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 30,
-          "long": null,
-          "units": "ft"
-        },
-        "uses": {
-          "value": null,
-          "max": "",
-          "per": null,
-          "recovery": "",
-          "prompt": true
-        },
-        "actionType": "save",
-        "attack": {
-          "bonus": "",
-          "flat": false
-        },
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "save": {
-          "ability": "wis",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "chatFlavor": "",
-        "formula": "",
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "save",
-            "name": "Charm Person",
+            "type": "utility",
+            "name": "Prestidigitation",
             "sort": 0,
             "activation": {
               "type": "action",
@@ -7054,7 +6092,7 @@
             },
             "effects": [],
             "range": {
-              "value": 30,
+              "value": 10,
               "units": "ft",
               "special": "",
               "override": false
@@ -7083,18 +6121,11 @@
               "max": "",
               "recovery": []
             },
-            "damage": {
-              "onSave": "half",
-              "parts": []
-            },
-            "save": {
-              "ability": [
-                "wis"
-              ],
-              "dc": {
-                "calculation": "spellcasting",
-                "formula": ""
-              }
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
             }
           }
         }
@@ -7118,7 +6149,7 @@
       }
     },
     {
-      "_id": "251ea353c091844a",
+      "_id": "bae2de5164a758ba",
       "name": "Healing Word",
       "type": "spell",
       "img": "icons/magic/life/heart-cross-green.webp",
@@ -7265,12 +6296,10 @@
               "number": null,
               "denomination": null,
               "bonus": "",
-              "types": [
-                "healing"
-              ],
+              "types": [],
               "custom": {
-                "enabled": true,
-                "formula": "2d6 + @mod"
+                "enabled": false,
+                "formula": ""
               },
               "scaling": {
                 "mode": "",
@@ -7300,13 +6329,13 @@
       }
     },
     {
-      "_id": "d72410661824141e",
-      "name": "Mass Healing Word",
+      "_id": "acdf62c006223538",
+      "name": "Cure Wounds",
       "type": "spell",
-      "img": "icons/magic/life/heart-cross-green.webp",
+      "img": "icons/magic/holy/chalice-glowing-gold.webp",
       "system": {
         "description": {
-          "value": "<p>As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 2d6 + your creative ability modifier. This creation has no effect on undead or constructs.</p><p><strong>At Higher Levels.</strong> When you use this creation with. a creation slot of 4th level or higher, the healing increases by 1d6 for each slot level above 3rd.</p>",
+          "value": "<p>A creature you touch regains a number of hit points equal to 2d10 + your creativity ability modifier. This creation has no effect on undead or constructs.</p><p><strong>At Higher Levels.</strong> When you use this creation using a creation slot of 2nd level or higher, the healing increases by 2d10 for each slot level above 1st.</p>",
           "chat": ""
         },
         "source": {
@@ -7315,12 +6344,12 @@
           "custom": "",
           "license": ""
         },
-        "level": 3,
+        "level": 1,
         "school": "evo",
         "components": {
           "value": "",
           "vocal": true,
-          "somatic": false,
+          "somatic": true,
           "material": false,
           "ritual": false,
           "concentration": false
@@ -7340,7 +6369,7 @@
           "formula": ""
         },
         "activation": {
-          "type": "bonus",
+          "type": "action",
           "cost": 1,
           "condition": ""
         },
@@ -7352,12 +6381,192 @@
           "value": null,
           "width": null,
           "units": "",
-          "type": ""
+          "type": "creature"
         },
         "range": {
-          "value": 60,
+          "value": null,
           "long": null,
-          "units": "ft"
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "heal",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "formula": "",
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "heal",
+            "name": "Cure Wounds",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": null,
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "touch",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "healing": {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "237a21aa6354497e",
+      "name": "Heroism",
+      "type": "spell",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>You instill bravery into a willing creature you touch. Until the creation ends, the creature is immune to being frightened and gains 5 temporary hit points at the start of each of its turns. When the creation ends, the target loses any remaining temporary hit points from this creation.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. Additionally, when you use this creation at 3rd, 5th, 7th, and 9th level, you increase the temporary hit points by 5.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "level": 1,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
         },
         "uses": {
           "value": null,
@@ -7385,11 +6594,11 @@
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
-            "type": "heal",
-            "name": "Mass Healing Word",
+            "type": "utility",
+            "name": "Heroism",
             "sort": 0,
             "activation": {
-              "type": "bonus",
+              "type": "action",
               "value": 1,
               "condition": "",
               "override": false
@@ -7407,8 +6616,179 @@
             },
             "duration": {
               "concentration": false,
+              "value": "1",
+              "units": "minute",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
               "value": null,
-              "units": "inst",
+              "units": "touch",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "f0c5d597949a2550",
+      "name": "Hold Person",
+      "type": "spell",
+      "img": "icons/magic/control/debuff-chains-ropes-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the creation ends on the target.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "level": 2,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "a small, straight piece of iron",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 60,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "save",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "formula": "",
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "save",
+            "name": "Hold Person",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "minute",
               "special": "",
               "override": false
             },
@@ -7430,9 +6810,9 @@
                 "units": ""
               },
               "affects": {
-                "count": "6",
-                "type": "creature",
-                "choice": true,
+                "count": "",
+                "type": "",
+                "choice": false,
                 "special": ""
               },
               "prompt": true,
@@ -7443,20 +6823,16 @@
               "max": "",
               "recovery": []
             },
-            "healing": {
-              "number": null,
-              "denomination": null,
-              "bonus": "",
-              "types": [
-                "healing"
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "wis"
               ],
-              "custom": {
-                "enabled": true,
-                "formula": "2d6 + @mod"
-              },
-              "scaling": {
-                "mode": "",
-                "number": null,
+              "dc": {
+                "calculation": "spellcasting",
                 "formula": ""
               }
             }
@@ -7482,13 +6858,184 @@
       }
     },
     {
-      "_id": "5408312333361e5a",
-      "name": "Compulsion",
+      "_id": "29155dfb99494f8c",
+      "name": "Mirror Image",
       "type": "spell",
-      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
       "system": {
         "description": {
-          "value": "<p>Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. A target automatically succeeds on this saving throw if it can't be charmed. On a failed save, a target is affected by this creation. Until the creation ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take its action before it moves. After moving in this way, it can make another Wisdom saving to try to end the effect. A target isn't compelled to move into an obviously deadly hazard, such as a fire or pit, but it will provoke opportunity attacks to move in the designated direction.</p>",
+          "value": "<p>Three illusory duplicates of yourself appear in your space. Until the creation ends, the duplicates move with you and mimic your actions, shifting position so it’s impossible to track which image is real. You can dismiss the illusory duplicates as a free action.\nEach time a creature targets you with an attack during the creation’s duration, roll a d20 to determine whether the attack instead targets one of your duplicates.\nIf you have three duplicates, you must roll a 6 or higher to change the attack’s target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.\nA duplicate’s AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The creation ends when all three duplicates are destroyed.\nA creature is unaffected by this creation if it can’t see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "level": 2,
+        "school": "ill",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": false
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "none",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "formula": "",
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "name": "Mirror Image",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "minute",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "self",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "self",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "9c8b847eca0122d6",
+      "name": "Fear",
+      "type": "spell",
+      "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>You project a phantasmal image of a creature’s worst fears. Each creature of your choice, within a 30 foot radius sphere must succeed on a Wisdom saving throw or drop whatever it is holding and become frightened for the duration.\nWhile frightened by this creation, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn’t have line of sight to you, the creature can make a Wisdom saving throw. On a successful save, the creation ends for that creature.</p>",
           "chat": ""
         },
         "source": {
@@ -7498,7 +7045,7 @@
           "license": ""
         },
         "level": 3,
-        "school": "enc",
+        "school": "ill",
         "components": {
           "value": "",
           "vocal": true,
@@ -7568,7 +7115,7 @@
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "save",
-            "name": "Compulsion",
+            "name": "Fear",
             "sort": 0,
             "activation": {
               "type": "action",
@@ -7660,40 +7207,59 @@
       }
     },
     {
-      "_id": "2e9fa15a84efc571",
-      "name": "Soundless Crescendo",
-      "type": "feat",
-      "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
+      "_id": "de32033d11ed2a08",
+      "name": "Bestow Curse",
+      "type": "spell",
+      "img": "icons/magic/unholy/orb-smoking-green.webp",
       "system": {
         "description": {
-          "value": "<p>Action. Soefra releases a stored note in a 30-foot cone. Each creature in it makes a DC 17 Constitution saving throw, taking 6d8 thunder damage on a failure, or half as much on a success. Recharge 5-6. <em>Balance note: bespoke CR 9 feature, not a class feature.</em></p>",
+          "value": "<p>You choose a creature within range, and that creature must succeed on a Wisdom saving throw or become cursed for the duration of the Creation. When you use this creation, choose the nature of the curse from the following options:\n<em> Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.\n</em> While cursed, the target has disadvantage on attack rolls against you.\n<em> While cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.\n</em> While the target is cursed, your attacks and creations deal an extra 1d8 necrotic damage to the target.\nThe Remove Curse creation ends this effect. At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect.</p><p><strong>At Higher Levels.</strong> If you use this creation with a creation slot of 4th level or higher, the duration is concentration, up to 1 hour. If you use a creation slot of 5th level or higher, the duration is 8 hours. If you use a creation slot of 7th level or higher, the duration is 24 hours. If you use a 9th level creation slot, the creation lasts until it is deactivated. Using a creation slot of 5th level or higher grants a duration that doesn't require concentration, and you can select two of the curse options instead of just one.</p>",
           "chat": ""
         },
         "source": {
-          "book": "Blood & Brine homebrew",
+          "book": "OP5e",
           "page": "",
           "custom": "",
           "license": ""
         },
-        "type": {
-          "value": "class",
-          "subtype": ""
+        "level": 3,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": true
         },
-        "requirements": "",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        },
         "activation": {
-          "type": "action",
+          "type": "bonus",
           "cost": 1,
           "condition": ""
         },
         "duration": {
-          "value": null,
-          "units": ""
+          "value": "1",
+          "units": "minute"
         },
         "target": {
-          "value": 30,
+          "value": null,
           "width": null,
-          "units": "ft",
-          "type": "cone"
+          "units": "",
+          "type": ""
         },
         "range": {
           "value": 30,
@@ -7701,57 +7267,47 @@
           "units": "ft"
         },
         "uses": {
-          "spent": 0,
-          "max": "1",
-          "recovery": [
-            {
-              "period": "recharge",
-              "type": "recoverAll",
-              "formula": "5"
-            }
-          ]
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
         },
         "actionType": "save",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
         "damage": {
           "parts": [
             [
-              "6d8",
-              "thunder"
+              "1d8",
+              "necrotic"
             ]
           ],
           "versatile": ""
         },
         "save": {
-          "ability": "con",
-          "dc": 17,
-          "scaling": "flat"
+          "ability": "wis",
+          "dc": null,
+          "scaling": "spell"
         },
         "chatFlavor": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
+        "formula": "",
         "activities": {
           "dnd5eactivity000": {
             "_id": "dnd5eactivity000",
             "type": "save",
-            "name": "Soundless Crescendo",
+            "name": "Bestow Curse",
             "sort": 0,
             "activation": {
-              "type": "action",
+              "type": "bonus",
               "value": 1,
               "condition": "",
               "override": false
             },
             "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "target": "",
-                  "value": "1",
-                  "scaling": {}
-                }
-              ],
+              "targets": [],
               "scaling": {
                 "allowed": false,
                 "max": ""
@@ -7763,8 +7319,8 @@
             },
             "duration": {
               "concentration": false,
-              "value": null,
-              "units": "inst",
+              "value": "1",
+              "units": "minute",
               "special": "",
               "override": false
             },
@@ -7779,11 +7335,11 @@
               "template": {
                 "count": "",
                 "contiguous": false,
-                "type": "cone",
-                "size": "30",
+                "type": "",
+                "size": "",
                 "width": "",
                 "height": "",
-                "units": "ft"
+                "units": ""
               },
               "affects": {
                 "count": "",
@@ -7803,11 +7359,11 @@
               "onSave": "half",
               "parts": [
                 {
-                  "number": 6,
+                  "number": 1,
                   "denomination": 8,
                   "bonus": "",
                   "types": [
-                    "thunder"
+                    "necrotic"
                   ],
                   "custom": {
                     "enabled": false,
@@ -7823,11 +7379,360 @@
             },
             "save": {
               "ability": [
-                "con"
+                "wis"
               ],
               "dc": {
-                "calculation": "",
-                "formula": "17"
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "deaa6b4e7c784551",
+      "name": "Greater Invisibility",
+      "type": "spell",
+      "img": "icons/weapons/daggers/dagger-glowing-white.webp",
+      "system": {
+        "description": {
+          "value": "<p>You or a creature you touch becomes invisible until the creation ends. Anything the target is wearing or carrying is invisible as long as it is on the target’s person.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 6th level or higher, the duration increases to 10 minutes. When you use this creation with a creation slot of 8th level or higher, the duration increases to 1 hour.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "level": 4,
+        "school": "ill",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": false,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "touch"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "formula": "",
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "name": "Greater Invisibility",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "minute",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "touch",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "38eaa124abdb7497",
+      "name": "Hold Monster",
+      "type": "spell",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. This creation has no effect on undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the creation ends on the target.</p><p><strong>At Higher Levels.</strong> When you use this creation with a creation slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "level": 4,
+        "school": "enc",
+        "components": {
+          "value": "",
+          "vocal": true,
+          "somatic": true,
+          "material": true,
+          "ritual": false,
+          "concentration": true
+        },
+        "materials": {
+          "value": "a small piece of iron",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "scaling": {
+          "mode": "level",
+          "formula": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 90,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "save",
+        "attack": {
+          "bonus": "",
+          "flat": false
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "wis",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "formula": "",
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "save",
+            "name": "Hold Monster",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "1",
+              "units": "minute",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 90,
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
               }
             }
           }
@@ -7852,5 +7757,5 @@
       }
     }
   ],
-  "_id": "c11a439e8739e8e6"
+  "_id": "44a7604bcae1ab0c"
 }

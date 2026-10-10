@@ -63,9 +63,9 @@ Issues 52 and 53. Built with the same method as above (`actor:build` spec, then 
 
 - **Lady Soefra Anthem:** scores Str 8, Dex 15, Con 15, Int 10, Wis 13, Cha 20 (Con, Dex, Wis +1 being applied). HP 198 (override to the CR 9 band), DC 17, gown base AC 14. Balance features: Potent Creativity (+5 trick damage) and Soundless Crescendo (6d8 thunder, DC 17). Bard saves Dex/Cha. Placeholder art.
 - **Khael Dhamar:** Str 15, Dex 17, Con 15, Int 10, Wis 12, Cha 10. HP 138 (`5d10 + 3d8 + 16`). Dual Wielder, Two-Weapon Fighting, Multiple Weapon Style, Additional Strike, Armament Novice. Fighter saves Str/Con. Placeholder art.
-- **Cecilia Moore:** Str 8, Dex 19, Con 15, Int 10, Wis 15, Cha 10. HP 123 (balance override over real dice), Marksman saves Dex/Wis. Ricochet Rounds, Bounty Hunter creations, pistol, cutlass and dagger. Placeholder art.
-- **Tariq Solen:** Str 8, Dex 19, Con 13, Int 10, Wis 15, Cha 10. HP 72 (`5d10 + 5`), Marksman saves Dex/Wis, Archery style, Sniper creations (Advanced Weapon, Retreat, Grounding, Cloud of Daggers). No new art; default sheet image.
-- **Irik Fen:** Str 10, Dex 18, Con 15, Int 13, Wis 13, Cha 10. HP 123 (kept override, CR 4 band 100-115). Compendium Dabu Dabu no Mi with the Test Subject Clone summon (his Double), plus Bait and Switch. Mirror Image, Misty Step and Bait and Switch each spend a Devil Fruit Use. Uses = floor((8+1)/2) = 4, Paramecia +1 = 5 max, long rest.
+- **Cecilia Moore:** Str 8, Dex 19, Con 15, Int 10, Wis 15, Cha 10. HP 135 (balance override over real dice, DMG CR 5 band 131-145), Marksman saves Dex/Wis. Ricochet Rounds, Bounty Hunter creations, pistol, cutlass and dagger. Placeholder art.
+- **Tariq Solen:** Str 8, Dex 19, Con 13, Int 10, Wis 15, Cha 10. HP 105 (override, DMG CR 3 band 101-115; skills include Acrobatics), Marksman saves Dex/Wis, Archery style, Sniper creations (Advanced Weapon, Retreat, Grounding, Cloud of Daggers). No new art; default sheet image.
+- **Irik Fen:** Str 10, Dex 18, Con 15, Int 13, Wis 13, Cha 10. HP 123 (kept override, CR 4 band 116-130; Leather Armor unequipped because Dueling Defense applies only unarmored; art path SharkFin Pirates). Compendium Dabu Dabu no Mi with the Test Subject Clone summon (his Double), plus Bait and Switch. Mirror Image, Misty Step and Bait and Switch each spend a Devil Fruit Use. Uses = floor((8+1)/2) = 4, Paramecia +1 = 5 max, long rest.
 - **Saeva Virell:** male. Str 17, Dex 15, Con 17, Int 8, Wis 12, Cha 10. HP 138 (`5d10 + 3d12 + 32`). Styles Dueling, Versatile Fighting and Defense (Fighting Initiate); Scimitar Master. Rage damage bonus equals proficiency bonus, Strength-only by name (the mwak bonus cannot filter by ability). The Javelin stands in for the harpoon. Deckhand tool: Cook's Utensils.
 - **Vex:** 2014 SRD Baboon copy, CR 0, unchanged; placeholder art only.
 - **Sourcebook-strict rules used:** proficiency bonus from the table (not a fixed value), Marksman saves Dex/Wis, and the Devil Fruit Uses rule (+1 use every odd level, Paramecia +1). Art status in `docs/art-credits.md`. None played in a real fight.
@@ -104,7 +104,7 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 
 | NPC | CR | HP | AC |
 |---|---|---|---|
-| Chuckles | 3 | 78 (override, real 43) | 16 (Sumo Stance: 10 + Str + Wis, +1 Duck and Dodge) |
+| Chuckles | 3 | 105 (override, real 43, DMG CR 3 band 101-115) | 16 (Sumo Stance: 10 + Str + Wis, +1 Duck and Dodge) |
 
 - Live in `OP5E/Circle of Clowns` with the existing `Circus Ring/Chuckles-d-clown.png` token; the old CR 1 stub was replaced. The pipeline embedded the Deckhand role twice; the builder dedupes it.
 - The Unarmored Defense effect is rewritten to a custom AC formula so Strength replaces Dexterity. Not played in a real fight.
@@ -115,9 +115,15 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 
 | NPC | CR | HP | AC |
 |---|---|---|---|
-| Calder Voss | 10 | 175 (override, real 87, 111 with Tough) | 18 (10 + Dex + Wis) |
+| Calder Voss | 10 | 210 (override, real 87, 111 with Tough, DMG CR 10 band 206-220) | 18 (10 + Dex + Wis) |
 
 - CR pass: attack +10 and about 46 damage a round (Extra Attack plus Flurry of Blows) are CR 10; defenses were about CR 6 to 7, so HP is overridden to the CR 10 band as a solo boss. Spirit DC 16 matches CR 10.
 - The Sourcebook has no legendary-action rules, so he has none (the old CR 10 sheet's legendary actions were dropped on the user's say-so).
 - Lunarian traits are embedded by hand (the pipeline does not grant them): Flaming Duality and its upgrades, Flame Investure with Fire Bolt, Elemental Armor and Fireball (Con creative ability). Ultimate Duality is level 15.
 - Live in `OP5E/Marines`. Art is the user's pin (`Marines/calder-new.jpg`, logged in `docs/art-credits.md`). Not played in a real fight.
+
+## Review fixes (2026-10-10, before release 0.2.13)
+
+- **HP bands corrected.** Earlier overrides used wrong DMG bands. The right ones: CR 3 is 101-115, CR 4 is 116-130, CR 5 is 131-145, CR 10 is 206-220. Chuckles 105, Tariq 105, Cecilia 135, Calder 210 (Chuckles was approved at 78 on the wrong band; change it back in `build-chuckles-custom.ts` if wanted).
+- **Kaen:** Active Combatant gives Action Surge and Indomitable one extra use each. **Khael:** Physical Superiority is Strength (Athletics expertise). **Tariq:** third Marksman skill Acrobatics. **Serica:** Martial Adept has 2 d8 superiority dice (short rest) and the maneuver Precision Attack (the user picked one maneuver; a second is still open). **Irik:** art folder case `SharkFin Pirates`, Leather Armor unequipped. **Shin:** the Rogue half's skills and expertise are now merged (Athletics, Deception and Intimidation expertise, Persuasion). **Bards (Jay, Kyle, Soefra):** Bardic Inspiration and Harmonic Vitality regain on a short rest once Font of Inspiration and Font of Vitality apply.
+- Judith's Wisdom save is legitimate: Fearsome Fortitude grants proficiency in one saving throw.

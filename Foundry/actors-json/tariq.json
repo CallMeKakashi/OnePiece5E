@@ -77,8 +77,8 @@
         "formula": ""
       },
       "hp": {
-        "value": 72,
-        "max": 72,
+        "value": 105,
+        "max": 105,
         "temp": 0,
         "tempmax": 0,
         "formula": "5d10 + 5"
@@ -136,7 +136,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Tariq Solen, a 15-year-old scout of the Sand Rats: a lean wanderer with a longbow, quick eyes and a guarded calm.</p><p><strong>Balance note (CR 3):</strong> a straight Marksman 5 is under CR 3 on hit points, so HP is overridden to 72.</p>",
+        "value": "<p>Tariq Solen, a 15-year-old scout of the Sand Rats: a lean wanderer with a longbow, quick eyes and a guarded calm.</p><p><strong>Balance note (CR 3):</strong> a straight Marksman 5 is under CR 3 on hit points, so HP is overridden to 105 (DMG CR 3 band 101-115).</p>",
         "public": ""
       },
       "alignment": "neutral",
@@ -157,7 +157,7 @@
     },
     "skills": {
       "acr": {
-        "value": 0,
+        "value": 1,
         "ability": "dex"
       },
       "ani": {
@@ -4465,7 +4465,7 @@
       }
     },
     {
-      "_id": "8d47cff13f635609",
+      "_id": "190b05c038a36833",
       "name": "Dice Set",
       "type": "tool",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -4518,7 +4518,7 @@
       "_key": "!items!eccee0becc9e6792"
     },
     {
-      "_id": "c7cb2fa349d434e5",
+      "_id": "7200eaa8b14879b1",
       "name": "Fighting Style: Archery",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -4636,7 +4636,7 @@
       "_key": "!items!046b6f1dffc9244a"
     },
     {
-      "_id": "6f03dce6a8d99364",
+      "_id": "540a3d94e3b68591",
       "name": "Guidance",
       "type": "spell",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -4801,7 +4801,7 @@
       }
     },
     {
-      "_id": "b0fc5401290a332a",
+      "_id": "220d2d8e128dd829",
       "name": "Draw",
       "type": "spell",
       "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
@@ -4972,7 +4972,7 @@
       }
     },
     {
-      "_id": "5d5c98a4bcc8780f",
+      "_id": "9c3e6855a0afe0df",
       "name": "Spark Bolt",
       "type": "spell",
       "img": "icons/magic/lightning/bolt-forked-blue.webp",
@@ -5167,7 +5167,7 @@
       }
     },
     {
-      "_id": "d2a76f63e383a6ed",
+      "_id": "a132e1bccde40762",
       "name": "Alacrity",
       "type": "spell",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
@@ -5338,7 +5338,7 @@
       }
     },
     {
-      "_id": "9c1c6977ef0085ea",
+      "_id": "090ee3610e33850b",
       "name": "Zephyr Strike",
       "type": "spell",
       "img": "icons/magic/symbols/runes-star-blue.webp",
@@ -5533,7 +5533,7 @@
       }
     },
     {
-      "_id": "f473bfc2fdd41bbd",
+      "_id": "21bb958cb3c20110",
       "name": "Misty Step",
       "type": "spell",
       "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
@@ -5704,7 +5704,7 @@
       }
     },
     {
-      "_id": "1c41deaf116c5e38",
+      "_id": "146cfcfa44828e01",
       "name": "Advanced Weapon",
       "type": "spell",
       "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
@@ -5875,7 +5875,7 @@
       }
     },
     {
-      "_id": "39b922c2d95a3f45",
+      "_id": "a1d8653df7bbe7d4",
       "name": "Retreat",
       "type": "spell",
       "img": "icons/magic/fire/projectile-meteor-salvo-heavy-red.webp",
@@ -6046,7 +6046,7 @@
       }
     },
     {
-      "_id": "6e5fd869b811c487",
+      "_id": "97af1dc08406f0d7",
       "name": "Grounding",
       "type": "spell",
       "img": "icons/magic/nature/root-vines-grow-brown.webp",
@@ -6224,7 +6224,7 @@
       }
     },
     {
-      "_id": "f0cd7e473ea965ef",
+      "_id": "26bd235f30390a4d",
       "name": "Cloud of Daggers",
       "type": "spell",
       "img": "icons/weapons/daggers/dagger-glowing-white.webp",
@@ -6419,7 +6419,7 @@
       }
     },
     {
-      "_id": "8e34b043e24d6302",
+      "_id": "d5c290d987aba5cb",
       "name": "Fearsome Fortitude",
       "type": "feat",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
