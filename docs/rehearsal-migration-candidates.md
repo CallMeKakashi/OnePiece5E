@@ -102,3 +102,10 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 10. [ ] Marine Warship, rebuilt as a ship actor, not an NPC
 
 Not mentioned yet, still in place: Drez Crown, Petty Officer Marine (OpenSea), Alice, Jazmine, Cassian Valehart, Merlin, Pegasus (Archived root), the old Façade (Archived/Gentle Giant Pirates), Beiro and the rest.
+
+### Update (same day, later)
+
+- Moved to `Dead/Archived`: B.O.B. (WIZ), Bandit, Berserker, Guard, Jazmine, Merlin, Midori, Panther, Pegasus, Saber-Toothed Tiger, Thunderbird Form 1.
+- Khael Dhamar is built and imported (`OP5E/Sand Rats`, L8 / CR 5, HP 138, AC 14). Still to do: art (placeholder portrait; Pinterest search in progress).
+- Added to the rebuild queue: **Drez Crown** and **Petty Officer Marine** (OpenSea), **Alice**, **Cassian Valehart**, **Dravos**, **Malphas** (as an NPC), **Thunderbird Form 2** (a Malphas hybrid form, rebuilt with him).
+- Full remaining queue: Vex; Cecilia Moore, Tariq Solen, Irik Fen, Saeva Virell; Kaen Solaris, Vesper; Veyl and Serica Corven; Chuckles; Calder Voss, Goru Yamashita, Marine Ensign Mk III, Mikey, Morrow; Commander Leon, Drez Crown, Petty Officer Marine; SeaBeast Hermit Crab; Marine Warship (ship actor); Alice, Cassian Valehart, Dravos, Malphas plus Thunderbird Form 2.

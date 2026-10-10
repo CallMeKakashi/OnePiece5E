@@ -1,0 +1,137 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "raceIdentifier": "human",
+  "backgroundSlug": "Smuggler",
+  "roleSlug": "captain",
+  "powerFork": "neither",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "cr": 5,
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "name": "Khael Dhamar",
+  "classIdentifier": "fighter",
+  "subclassIdentifier": "champion",
+  "level": 5,
+  "additionalPowerSlug": "multiple-weapon-style",
+  "biography": "<p>Khael Dhamar leads the Sand Rats, who free slaves smuggled out of Alabasta.</p>",
+  "choices": [
+    {
+      "stepId": "4f65e46b41146d20",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:acr",
+        "skills:slt"
+      ]
+    },
+    {
+      "stepId": "d28121ef73bef79e",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.45ba38b4d3bf81f0"
+      ]
+    },
+    {
+      "stepId": "eb306fec5586f736",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.722fba4bbad273b7"
+      ]
+    },
+    {
+      "stepId": "f544e265c28b18a4",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.ce715368a9f9538a"
+      ]
+    },
+    {
+      "stepId": "9e222e3fcad6d5fc",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.ce715368a9f9538a"
+      ]
+    },
+    {
+      "stepId": "9b9a22d4a2455ce0",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.d4ab115668d21de8"
+      ]
+    },
+    {
+      "stepId": "c9e9e11ed7760d01",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.7842a68fdf0a1f76"
+      ]
+    },
+    {
+      "stepId": "372486d10f05d82d",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:prc",
+        "skills:sur"
+      ]
+    },
+    {
+      "stepId": "69b2e09d550be6d3",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.4f0c7ad1d4a81581"
+      ]
+    },
+    {
+      "stepId": "ceec48436400f9c9",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.097494380fd03456"
+      ]
+    },
+    {
+      "stepId": "d4d782599e9472c9",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "skills:ins",
+        "skills:itm"
+      ]
+    },
+    {
+      "stepId": "3b0164f02703622a",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "tool:navg"
+      ]
+    },
+    {
+      "stepId": "e1094045b2ccf0cc",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.d3b0f87fdd9249be"
+      ]
+    }
+  ]
+}
