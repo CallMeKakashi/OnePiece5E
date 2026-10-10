@@ -1,0 +1,180 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "name": "Lady Soefra Anthem",
+  "raceIdentifier": "human",
+  "classIdentifier": "bard",
+  "subclassIdentifier": "bewitchment",
+  "level": 11,
+  "cr": 9,
+  "backgroundSlug": "Entertainer",
+  "roleSlug": "musician",
+  "powerFork": "neither",
+  "additionalPowerSlug": "heart-strings",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 20
+  },
+  "abilityMethod": "manual",
+  "portraitImg": "one-piece-5e/npcs/Decibella/Soefra.png",
+  "tokenImg": "one-piece-5e/npcs/Decibella/soefra-token.png",
+  "biography": "<p>Lady Soefra Anthem is one of the Soundless 5, the enforcers of silence in Decibella Kingdom.</p>",
+  "choices": [
+    {
+      "stepId": "8a93453e8a16f61a",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:acr",
+        "skills:prf"
+      ]
+    },
+    {
+      "stepId": "0723851a739aa82a",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "tool:disg"
+      ]
+    },
+    {
+      "stepId": "6b1ec5eb5e02d0f3",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.fe29d5c96d1698de"
+      ]
+    },
+    {
+      "stepId": "6fc38321ac414016",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.42c76b2a6b6bc431"
+      ]
+    },
+    {
+      "stepId": "cbd4d3b83cecce77",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.a75542fadc62fade"
+      ]
+    },
+    {
+      "stepId": "e9dd9f2702545efe",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.9ac9dc3c79fccdb6"
+      ]
+    },
+    {
+      "stepId": "4ca705c8e547b258",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "tool:music:*"
+      ]
+    },
+    {
+      "stepId": "ff2ebaf0181a9977",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:per",
+        "skills:dec",
+        "skills:ins"
+      ]
+    },
+    {
+      "stepId": "db80c77005df03c8",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.709c949b4f0d5983"
+      ]
+    },
+    {
+      "stepId": "3bb69f63ba2a36f5",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.097494380fd03456"
+      ]
+    },
+    {
+      "stepId": "77c2d151717378f8",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.items.872da87be9c89b49"
+      ]
+    },
+    {
+      "stepId": "0d30e29855c14fda",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "skills:his",
+        "skills:ani"
+      ]
+    },
+    {
+      "stepId": "d8407812d7735f64",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "tool:music:*"
+      ]
+    },
+    {
+      "stepId": "c7b531491a73a9b5",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.ef8c851b91223203"
+      ]
+    },
+    {
+      "stepId": "31a6ab2b9fbd0d55",
+      "level": 3,
+      "source": "class",
+      "uuids": [
+        "skills:prf",
+        "skills:per"
+      ]
+    },
+    {
+      "stepId": "91c7b7ede4cac83a",
+      "level": 8,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.96dcda2a40ae256f"
+      ]
+    },
+    {
+      "stepId": "a9d27ecfdf9693d4",
+      "level": 10,
+      "source": "class",
+      "uuids": [
+        "skills:dec",
+        "skills:ins"
+      ]
+    },
+    {
+      "stepId": "6b7c611ef0a01f1d",
+      "level": 10,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.16bc2636849312ce"
+      ]
+    }
+  ]
+}
