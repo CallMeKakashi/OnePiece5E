@@ -11,8 +11,8 @@ import type { FeatureItem } from "../../data/schemas/feature.js";
 
 type Doc = { _id: string; name?: string; type?: string; system: Record<string, any> } & Record<string, any>;
 const ACTORS = "../Foundry/actors-json";
-const PORTRAIT = "one-piece-5e/npcs/Decibella/Soefra.png";
-const TOKEN = "one-piece-5e/npcs/Decibella/soefra-token.png";
+const PORTRAIT = "one-piece-5e/npcs/Decibella/soefra-new.jpg";
+const TOKEN = "one-piece-5e/npcs/Decibella/soefra-new-token.png";
 const DC = 17; // 8 + proficiency (+4) + Charisma (+5)
 const actor = JSON.parse(readFileSync(`${ACTORS}/soefra-chassis.json`, "utf-8")) as Doc;
 const pack = (p: string, name: string): Doc => {
