@@ -20,6 +20,7 @@ items.push(embed("feats", "4e7abe5deef318b7")); // Mobile (level 8)
 for (const f of cheaterCheaterFeatures) items.push(embedOwnedItem(ensureFeatureActivities(f as never) as never) as Doc); // Chapter 7 additional power (user pick)
 const kit = embed("items", "dcb059006db4975a"); kit.system.proficient = 1; items.push(kit); // Poisoner feat grants kit proficiency
 for (const i of items) if (["Leather Armor", "Rapier", "Shortsword"].includes(i.name ?? "") && i.system) i.system.equipped = true;
+for (const i of items) { const p = i.system?.damage?.parts; if (Array.isArray(p) && JSON.stringify(p).includes("@scale") && Object.keys(i.system.activities ?? {}).length) i.system.damage.parts = []; } // Foundry migrates legacy @scale parts; the real formula is in the activity
 
 // ---- Numbers. Array 10/16/14/12/12/10 + Human +1 Dex/Con/Int + Skill Expert +1 Dex; both ASIs were feats.
 const sys = chassis.system;

@@ -182,7 +182,7 @@ build({
   slug: "veyl", name: "Veyl Corven", chassis: "veyl-chassis", part: "veyl-brawler-part", ability: "dex", dc: 17,
   partKeep: ["Six Techniques", "Brawling", "Unarmored Defense", "Brawler Unarmed Strike", "Spirit", "Flurry of Blows", "Patient Defense", "Deft Escape", "Unarmored Movement", "Deflect Missiles", "Brace for Impact"],
   drop: ["Leather Armor", "Rapier", "Shortsword", "Arrows (20)"],
-  equip: ["Dagger"],
+  equip: ["Thumb Daggers (Dagger)"],
   fruitId: "0be63bfbf040bb43", fruitName: "Soku Soku no Mi",
   fruitText: "<p><strong>Speed-Speed Fruit (Paramecia).</strong> Veyl's base walking speed is 120 feet (Speed-Speed passive). Jazz Styles Skimming the Surface, Upper Air, Double Time, Freight Train and Shadow Play, and Rim Shot each spend one Fruit Use; Call and Response is once per long rest. Tempo Fuerte (trained): baseline speed and reach across all Jazz Style techniques; Caravan: carry more allies at once at full speed.</p>",
   dfuMax: 7, dfuNote: "Veyl (level 12): 6 uses from level (one per odd level) + 1 for Paramecia = 7.",
