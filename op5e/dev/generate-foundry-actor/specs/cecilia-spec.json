@@ -1,0 +1,137 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "raceIdentifier": "human",
+  "backgroundSlug": "Urchin",
+  "roleSlug": "master-at-arms",
+  "powerFork": "neither",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "cr": 4,
+  "abilities": {
+    "str": 8,
+    "dex": 18,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "name": "Cecilia Moore",
+  "classIdentifier": "marksman",
+  "subclassIdentifier": "bounty-hunter",
+  "level": 5,
+  "additionalPowerSlug": "ricochet-rounds",
+  "biography": "<p>Cecilia Moore is Khael Dhamar's right hand in the Sand Rats: an agile, pistol-wielding skirmisher, loyal but pragmatic.</p>",
+  "choices": [
+    {
+      "stepId": "90a1434d6e761760",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:ste",
+        "skills:slt"
+      ]
+    },
+    {
+      "stepId": "df3d87759af02331",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.1b883f002cf7250e"
+      ]
+    },
+    {
+      "stepId": "bc03aaf1b8afd5c0",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.626f152717a27ccf"
+      ]
+    },
+    {
+      "stepId": "a893e6768294bd5c",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.722fba4bbad273b7"
+      ]
+    },
+    {
+      "stepId": "bdb4984473ad6c5a",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.7842a68fdf0a1f76"
+      ]
+    },
+    {
+      "stepId": "465ccc3ad4943b3d",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.d9c7acb32b8b5670"
+      ]
+    },
+    {
+      "stepId": "e89c136d8823dbe9",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:prc",
+        "skills:sur"
+      ]
+    },
+    {
+      "stepId": "f07e89916a26550e",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.12fda8603b576715"
+      ]
+    },
+    {
+      "stepId": "a8ab14fd14d40d68",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.a63313e2bf3870d2"
+      ]
+    },
+    {
+      "stepId": "4b7e083ffafa7956",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.097494380fd03456"
+      ]
+    },
+    {
+      "stepId": "bdbeb7672f52cde8",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.items.b38dba05ae0dcaec"
+      ]
+    },
+    {
+      "stepId": "d0c6a9815d2fb190",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "skills:ins",
+        "skills:itm"
+      ]
+    },
+    {
+      "stepId": "43fb10fe3c621bdc",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.d6d105a1935e45f6"
+      ]
+    }
+  ]
+}
