@@ -10,8 +10,8 @@ import type { FeatureItem } from "../../data/schemas/feature.js";
 
 type Doc = { _id: string; name?: string; type?: string; system: Record<string, any> } & Record<string, any>;
 const ACTORS = "../Foundry/actors-json";
-const PORTRAIT = "one-piece-5e/npcs/Gentle Giant Pirates/facade.png"; // placeholder until new art is approved
-const TOKEN = "one-piece-5e/npcs/Gentle Giant Pirates/facade-token.png";
+const PORTRAIT = "one-piece-5e/npcs/Gentle Giant Pirates/facade-new.jpg";
+const TOKEN = "one-piece-5e/npcs/Gentle Giant Pirates/facade-new-token.png";
 const actor = JSON.parse(readFileSync(`${ACTORS}/facade-chassis.json`, "utf-8")) as Doc;
 const pack = (p: string, name: string): Doc => {
   const dir = `packs-src/${p}`;
