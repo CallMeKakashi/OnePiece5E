@@ -96,7 +96,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 4. [ ] Kaen Solaris (Omen Guardians), Vesper (Shadows/Scorpio)
 5. [x] Veyl Corven and Serica Corven (Sixfolds)
 6. [x] Chuckles (Circle of Clowns)
-7. [ ] Calder Voss, Goru Yamashita, Marine Ensign (Armor Mk III), Mikey, Morrow
+7. [ ] Calder Voss (built), Goru Yamashita, Marine Ensign (Armor Mk III), Mikey, Morrow
 8. [ ] Commander Leon (OpenSea)
 9. [ ] SeaBeast - Hermit Crab (NPC/Monsters)
 10. [ ] Marine Warship, rebuilt as a ship actor, not an NPC

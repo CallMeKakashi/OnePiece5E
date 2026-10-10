@@ -35,6 +35,8 @@ Art pulled from Pinterest for Foundry portraits and tokens. Permission has **not
 
 ## Pending art (no acceptable image found yet)
 
+- **Calder Voss (old art in use):** a new token is wanted, a Lunarian (black wings, hidden visage) Marine officer in white G-45 armour. Not searched yet; uses `Marines/Vorro.png` for now.
+
 - **Vex (placeholder art in use, see his row):** wants a small, fluffy grey monkey with a pale face, large blue eyes, a navy scarf, a brown leather harness and a golden sun medallion. Two filtered Pinterest searches found only realistic or AI-looking monkeys. Uses `Gentle Giant Pirates/vex.png` (the old portrait) for now.
 - **Khael Dhamar:** current art does not match his description (see his row).
 - **Cecilia Moore (placeholder art in use, see her row):** wants a confident woman with warm medium-brown skin, long black hair under a dark charcoal headwrap, large silver hoop earrings, a dark olive-brown leather jacket with gold trim and a single armoured shoulder guard, leather cuffs, belts and pouches, a faded blue-grey sash, a tattered cloak and a curved blade (note: the build gives her a pistol and a cutlass). One filtered search found only AI-modified pins. Uses her existing campaign art (`Sand Rats/cecillia-moore.png`) for now.
