@@ -48,6 +48,9 @@ console.log(`automation copied onto ${auto.refreshed.length} features; no pack m
 const summons = standaloneSummons(items, ACTORS, "khael");
 if (summons.length) console.log(`summon actors written: ${summons.join(", ")}`);
 
+// limited-use features: legacy uses.per -> item uses.recovery (all of these regain on a short rest, which a long rest also covers)
+for (const i of items) { const u = i.system?.uses; if (u?.max && ["sr", "lr"].includes(u.per)) { u.recovery = [{ period: u.per === "lr" ? "lr" : "sr", type: "recoverAll" }]; u.per = null; } }
+
 // ---- 3. CR 5 balance feature: a labelled +1d8 to weapon damage
 const edge = embedOwnedItem(ensureFeatureActivities({
   _id: generateId("homebrew/khael/liberators-edge"), name: "Liberator's Edge", type: "feat", img: "icons/skills/melee/blade-tips-double-blue.webp",
@@ -74,16 +77,16 @@ for (const i of items) if (i.type === "tool") i.system.proficient = i.name === "
 
 // ---- 4. Numbers and proficiencies
 const sys = chassis.system;
-const abil = { str: 14, dex: 16, con: 14, int: 10, wis: 12, cha: 10 }; // Dual Wielder took the level 4 ASI, so no ability bump
+const abil = { str: 15, dex: 17, con: 15, int: 10, wis: 12, cha: 10 }; // Human trait +1 Str/Dex/Con; Dual Wielder took the level 4 ASI, so no ability bump
 for (const [k, v] of Object.entries(abil)) sys.abilities[k].value = v;
 sys.abilities.str.proficient = 1; sys.abilities.con.proficient = 1; // Fighter saves
 const SKILL_ABILITY: Record<string, string> = { acr: "dex", ani: "wis", arc: "int", ath: "str", dec: "cha", his: "int", ins: "wis", itm: "cha", inv: "int", med: "wis", nat: "int", prc: "wis", prf: "cha", per: "cha", rel: "int", slt: "dex", ste: "dex", sur: "wis" };
-const VALUES: Record<string, number> = { acr: 1, slt: 1, prc: 1, sur: 1, per: 1, ins: 1, itm: 1, ste: 2, dec: 1, inv: 1, ath: 1 }; // Smuggler, Fighter, Captain, Rogue; Rogue expertise in Stealth
+const VALUES: Record<string, number> = { acr: 1, slt: 2, prc: 1, sur: 1, per: 1, ins: 1, itm: 1, ste: 2, dec: 1, inv: 1, ath: 1 }; // Smuggler, Fighter, Captain, Rogue; Rogue expertise in Stealth (and thieves' tools), Quick Fingers expertise in Sleight of Hand
 sys.skills = Object.fromEntries(Object.entries(SKILL_ABILITY).map(([k, ab]) => [k, { value: VALUES[k] ?? 0, ability: ab }]));
 sys.traits.armorProf = { value: ["lgt", "med", "hvy", "shl"], custom: "" };
 sys.traits.weaponProf = { value: ["sim", "mar"], custom: "" };
 // CR balance pass: a straight Fighter 5 / Rogue 3 sits well under the CR 5 hit point band (131-145), so HP is overridden.
-sys.attributes.hp = { value: 138, max: 138, temp: 0, tempmax: 0, formula: "5d10 + 3d8 + 24" };
+sys.attributes.hp = { value: 138, max: 138, temp: 0, tempmax: 0, formula: "5d10 + 3d8 + 16" };
 sys.details.cr = 5; sys.details.level = 8;
 chassis.items = items;
 chassis.name = "Khael Dhamar";

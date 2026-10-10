@@ -1,0 +1,110 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "raceIdentifier": "human",
+  "backgroundSlug": "Sailor",
+  "roleSlug": "deckhand",
+  "powerFork": "neither",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "cr": 5,
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 16,
+    "int": 8,
+    "wis": 12,
+    "cha": 10
+  },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "name": "Saeva Virell (barbarian part)",
+  "classIdentifier": "barbarian",
+  "subclassIdentifier": "blade-master",
+  "level": 3,
+  "choices": [
+    {
+      "stepId": "015aca6456c04084",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:ath",
+        "skills:nat"
+      ]
+    },
+    {
+      "stepId": "b72dbeaf5c24a634",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.e99406ae0cd57aaa"
+      ]
+    },
+    {
+      "stepId": "d71198f5eb15c49f",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "skills:prc"
+      ]
+    },
+    {
+      "stepId": "610584414caa260e",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "tool:art:*"
+      ]
+    },
+    {
+      "stepId": "657c622838004e81",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.472cd7748d6f6ba0"
+      ]
+    },
+    {
+      "stepId": "a10b11f78c2504d0",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.ce715368a9f9538a"
+      ]
+    },
+    {
+      "stepId": "4e443458167f34c0",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.80e9eff013f66f5f"
+      ]
+    },
+    {
+      "stepId": "071322648ac2ecda",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:itm",
+        "skills:prc"
+      ]
+    },
+    {
+      "stepId": "39efd1b45433fdc3",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.154d303ba140a9d5"
+      ]
+    },
+    {
+      "stepId": "c0b2e1b1ff04550f",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.097494380fd03456"
+      ]
+    }
+  ]
+}

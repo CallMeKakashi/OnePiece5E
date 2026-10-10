@@ -87,6 +87,24 @@ actor.prototypeToken = { ...(actor.prototypeToken ?? {}), texture: { ...(actor.p
 const refreshed = refreshFromPacks(actor.items);
 console.log(`Refreshed ${refreshed.refreshed.length} Facade items; unmatched: ${refreshed.unmatched.join(", ") || "none"}`);
 const summons = standaloneSummons(actor.items, ACTORS, "facade"); // Mechanical Cannon summon becomes a standalone actor, import it first with --keep-id
+// The profile keeps the standalone "Actor.<id>" (same id as the pack actor, so a --keep-id import of the summon file resolves it); fill the filters from that actor.
+const item = (n: string) => actor.items.find((i) => i.name === n)!;
+const summon = JSON.parse(readFileSync(`${ACTORS}/facade-summon-mechanical-cannon.json`, "utf-8"));
+const prof = Object.values(item("Mechanical Cannon").system.activities as Record<string, any>).find((a) => a.type === "summon")!;
+Object.assign(prof, { creatureSizes: ["tiny", "sm"], creatureTypes: [summon.system.details.type.value] }); // Small or Tiny cannon, construct
+prof.profiles[0].cr = String(summon.system.details.cr); prof.profiles[0].types = [summon.system.details.type.value];
+// dnd5e 5.x item uses with recovery periods, per each description
+const uses = (n: string, max: string, period: "lr" | "sr") => { item(n).system.uses = { spent: 0, max, recovery: [{ period, type: "recoverAll" }] }; };
+uses("Mechanical Cannon", "1", "lr"); // "can't do so again until you finish a long rest"
+uses("Mods", "@scale.gadgeteer.mods-active", "lr"); // objects modified after a long rest, Mods Active column (4 at level 10)
+uses("Flash of Genius", "1 + @abilities.int.mod", "lr");
+uses("Color of Armament Novice", "@details.level", "sr");
+uses("Color of Armament Apprentice", "@details.level * 3", "lr");
+// Enhanced Defenses: +1 base, +2 at 8th, +3 at 16th; Facade is level 10, so only +2 applies
+const ed = item("Enhanced Defenses");
+const drop = new Set(ed.effects.filter((e: Doc) => !e.name.includes("+2")).map((e: Doc) => e._id));
+ed.effects = ed.effects.filter((e: Doc) => !drop.has(e._id));
+for (const [k, a] of Object.entries(ed.system.activities as Record<string, any>)) if (a.effects?.some((e: Doc) => drop.has(e._id))) delete ed.system.activities[k];
 console.log(`Summon files: ${summons.join(", ") || "none"}`);
 writeFileSync(`${ACTORS}/facade.json`, JSON.stringify(actor, null, 2), "utf-8");
 console.log(`Wrote ${ACTORS}/facade.json (${actor.items.length} items)`);

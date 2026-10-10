@@ -1,0 +1,135 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "raceIdentifier": "human",
+  "backgroundSlug": "Sailor",
+  "roleSlug": "deckhand",
+  "powerFork": "neither",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "cr": 5,
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 16,
+    "int": 8,
+    "wis": 12,
+    "cha": 10
+  },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "name": "Saeva Virell",
+  "classIdentifier": "fighter",
+  "subclassIdentifier": "champion",
+  "level": 5,
+  "choices": [
+    {
+      "stepId": "015aca6456c04084",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "skills:ath",
+        "skills:nat"
+      ]
+    },
+    {
+      "stepId": "b72dbeaf5c24a634",
+      "level": 0,
+      "source": "background",
+      "uuids": [
+        "Compendium.op5e.feats.e99406ae0cd57aaa"
+      ]
+    },
+    {
+      "stepId": "d71198f5eb15c49f",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "skills:prc"
+      ]
+    },
+    {
+      "stepId": "610584414caa260e",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "tool:art:*"
+      ]
+    },
+    {
+      "stepId": "657c622838004e81",
+      "level": 1,
+      "source": "role",
+      "uuids": [
+        "Compendium.op5e.feats.472cd7748d6f6ba0"
+      ]
+    },
+    {
+      "stepId": "eb306fec5586f736",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.722fba4bbad273b7"
+      ]
+    },
+    {
+      "stepId": "f544e265c28b18a4",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.ce715368a9f9538a"
+      ]
+    },
+    {
+      "stepId": "9e222e3fcad6d5fc",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.0ddafe26a36d8c1f"
+      ]
+    },
+    {
+      "stepId": "9b9a22d4a2455ce0",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.d4ab115668d21de8"
+      ]
+    },
+    {
+      "stepId": "c9e9e11ed7760d01",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.7842a68fdf0a1f76"
+      ]
+    },
+    {
+      "stepId": "372486d10f05d82d",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:acr",
+        "skills:sur"
+      ]
+    },
+    {
+      "stepId": "69b2e09d550be6d3",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.154d303ba140a9d5"
+      ]
+    },
+    {
+      "stepId": "ceec48436400f9c9",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.097494380fd03456"
+      ]
+    }
+  ],
+  "biography": "<p>Saeva \"Longcast\" Virell, harpooner of the Sharkfin Pirates.</p>"
+}

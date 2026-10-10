@@ -67,8 +67,8 @@ const creation = (name: string) => {
   return embedOwnedItem(doc as never) as Doc;
 };
 const have = new Set(actor.items.map((i) => i.name));
-const TRICKS = ["Vicious Mockery", "Mind Slash", "Whisper", "Guidance"];
-const SPELLS = ["Thunderwave", "Shatter", "Charm Person", "Healing Word", "Mass Healing Word", "Compulsion"];
+const TRICKS = ["Vicious Mockery", "Mind Slash", "Whisper", "Guidance", "Thunder Bolt"];
+const SPELLS = ["Thunderwave", "Shatter", "Charm Person", "Healing Word", "Mass Healing Word", "Compulsion", "Confusion", "Greater Invisibility", "Charm Monster", "Freedom of Movement"]; // 4th level: 4 known, 3 slots
 for (const n of [...TRICKS, ...SPELLS]) if (!have.has(n)) actor.items.push(creation(n));
 
 // ---- 4. Gown: the chassis only carries Leather Armor, reflavoured as the stained-glass dress, light armour with base AC 14
@@ -107,13 +107,28 @@ sys.attributes.spellcasting = "cha";
 sys.spells = Object.fromEntries([4, 3, 3, 3, 2, 1, 0, 0, 0].map((max, i) => [`spell${i + 1}`, { value: max, max }]));
 sys.attributes.hp = { value: 198, max: 198, temp: 0, tempmax: 0, formula: "11d8 + 22" }; // real formula gives about 80; overridden to 198 for CR 9 (DMG hp 191-205)
 sys.details.cr = 9; sys.details.level = 11;
-sys.details.biography.value = "<p>Lady Soefra Anthem, one of the Soundless 5 and enforcer of silence in Decibella Kingdom. Twin sister of Sephra, and the jealous diva who had Cadence masked early. Tall and slender in a stained-glass gown, she conducts with a baton-blade and a loud, opera-trained voice.</p><p><strong>Balance note (CR 9):</strong> a straight Bard 11 is well under CR 9, so hit points are overridden to 198, the gown sets her AC, and Soundless Crescendo (6d8 thunder cone, DC 17) is a bespoke attack.</p>";
+sys.details.biography.value = "<p>Lady Soefra Anthem, one of the Soundless 5 and enforcer of silence in Decibella Kingdom. Twin sister of Sephra, and the jealous diva who had Cadence masked early. Tall and slender in a stained-glass gown, she conducts with a baton-blade and a loud, opera-trained voice.</p><p><strong>Balance note (CR 9):</strong> a straight Bard 11 is well under CR 9, so hit points are overridden to 198, the gown sets her AC, and Potent Creativity adds +5 to trick damage and Soundless Crescendo (6d8 thunder cone, DC 17) is a bespoke attack.</p>";
 actor.name = "Lady Soefra Anthem";
 actor.img = PORTRAIT;
 actor.prototypeToken = { ...(actor.prototypeToken ?? {}), texture: { ...(actor.prototypeToken?.texture ?? {}), src: TOKEN } };
 
 const refreshed = refreshFromPacks(actor.items);
 console.log(`Refreshed ${refreshed.refreshed.length} Soefra items; unmatched: ${refreshed.unmatched.join(", ") || "none"}`);
+// ---- 8. Activity fixes (after refresh so they stick): healing formulas, utility types
+const acts = (n: string) => Object.values(actor.items.find((i) => i.name === n)!.system.activities ?? {}) as Doc[];
+const heal = (a: Doc, formula: string) => { a.type = "heal"; delete a.damage; delete a.roll; a.healing = { number: null, denomination: null, bonus: "", types: ["healing"], custom: { enabled: true, formula }, scaling: { mode: "", number: null, formula: "" } }; };
+const util = (a: Doc, formula: string) => { a.type = "utility"; delete a.damage; delete a.save; a.roll = { formula, name: "", prompt: false, visible: false }; };
+for (const a of acts("Healing Word")) heal(a, "2d6 + @mod"); // description: 2d6 + creativity modifier (not 1d4)
+for (const a of acts("Mass Healing Word")) { heal(a, "2d6 + @mod"); a.target.affects = { count: "6", type: "creature", choice: true, special: "" }; }
+for (const a of acts("Harmonic Vitality")) heal(a, "@scale.bard.harmonic-vitality");
+for (const a of acts("Bardic Inspiration")) util(a, "@scale.bard.bardic-inspiration");
+for (const a of acts("Guidance")) util(a, "1d4");
+// Trick scaling at level 11 (stored cantrip scaling is not trusted: set dice explicitly) and Potent Creativity (Bewitchment 6: + Cha mod to Bard trick damage)
+for (const [n, dice] of [["Vicious Mockery", 3], ["Mind Slash", 3], ["Thunder Bolt", 3]] as [string, number][]) {
+  const it = actor.items.find((i) => i.name === n)!;
+  it.system.damage.parts = it.system.damage.parts.map(([f, t]: [string, string]) => [f.replace(/^\d+/, String(dice)), t]);
+  for (const a of acts(n)) for (const p of a.damage?.parts ?? []) { p.number = dice; p.bonus = "@abilities.cha.mod"; }
+}
 const summons = standaloneSummons(actor.items, ACTORS, "soefra");
 console.log(`Summon files: ${summons.join(", ") || "none"}`);
 writeFileSync(`${ACTORS}/soefra.json`, JSON.stringify(actor, null, 2), "utf-8");

@@ -117,7 +117,7 @@ export async function buildActor(spec: BuildSpec): Promise<Record<string, unknow
   const index = getCompendiumIndex();
   const level = spec.level;
   const abilities = spec.abilities ?? cr5AbilityScores(spec.cr);
-  const prof = 2 + Math.ceil(level / 4);
+  const prof = 2 + Math.floor((level - 1) / 4);
 
   const race = findRace(spec.raceIdentifier, index);
   const cls = findClass(spec.classIdentifier, index);

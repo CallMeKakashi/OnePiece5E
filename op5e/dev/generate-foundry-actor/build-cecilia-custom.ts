@@ -1,4 +1,4 @@
-// Cecilia Moore: Human Marksman 5 (Bounty Hunter) / Rogue 3 (Thief), level 8, CR 4, Khael Dhamar's right hand in the Sand Rats. Built 2026-10-10.
+// Cecilia Moore: Human Marksman 5 (Bounty Hunter) / Rogue 3 (Thief), level 8, CR 5, Khael Dhamar's right hand in the Sand Rats. Built 2026-10-10.
 // Chassis from the real pipeline: specs/cecilia-spec.json (Marksman) + specs/cecilia-rogue-spec.json (the Rogue half, merged here).
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { embedOwnedItem } from "./compendium-resolver.js";
@@ -38,6 +38,7 @@ const creation = (name: string, mode: "prepared" | "always") => {
   let doc = structuredClone(c) as Doc;
   doc.system.preparation = { mode, prepared: true };
   doc = ensureItemActivities(doc as never) as Doc;
+  for (const a of Object.values(doc.system.activities ?? {}) as any[]) if (name === "Guidance" && a.type === "save") { a.type = "utility"; delete a.save; delete a.damage; }
   return embedOwnedItem(doc as never) as Doc;
 };
 for (const n of ["Spark Bolt", "Guidance", "Draw", "Blazing Bullet", "Shrapnel Shot", "Misty Step", "Pass Without a Trace"]) items.push(creation(n, "prepared"));
@@ -55,14 +56,23 @@ items.length = 0; items.push(...clean);
 
 const auto = refreshFromPacks(items);
 console.log(`automation copied onto ${auto.refreshed.length} features; no pack match for: ${auto.unmatched.join(", ") || "none"}`);
+// Rider creations: Sourcebook text, creation save DC = 8 + proficiency + Wisdom
+const dc = { calculation: "spellcasting", formula: "" };
+const act = (n: string) => Object.values(items.find((i) => i.name === n)!.system.activities as Record<string, any>)[0];
+{ const a = act("Shrapnel Shot"); a.type = "save"; a.save = { ability: ["dex"], dc }; a.damage = { onSave: "half", parts: a.damage.parts }; a.target.affects = { count: "", type: "creature", choice: false, special: "target and each creature within 5 ft of it" }; delete a.attack; } // bonus action after a ranged hit, Dex save, 2d6 piercing, half on success
+{ const a = act("Branding Smite"); a.type = "damage"; a.damage.critical.allow = false; delete a.attack; } // bonus-action rider on a melee hit: +2d8 radiant, no attack roll of its own
+{ const it = items.find((i) => i.name === "Blazing Bullet")!; const b = structuredClone(act("Blazing Bullet")); b.type = "save"; b.name = "Burning (start of target's turn)"; b.activation = { type: "special", value: null, condition: "Start of the ignited target's turn", override: false }; b.consumption = { targets: [], scaling: { allowed: false, max: "" }, spellSlot: false }; b.save = { ability: ["con"], dc }; b.damage.onSave = "none"; b.target.affects = { count: "1", type: "creature", choice: false, special: "" }; b._id = "dnd5eactivity001"; b.sort = 1; it.system.activities[b._id] = b; } // fail: 1d6 fire; success ends the burning
 const summons = standaloneSummons(items, ACTORS, "cecilia");
 if (summons.length) console.log(`summon actors written: ${summons.join(", ")}`);
 
-// ---- 4. CR 4 balance feature: a labelled +1d8 to ranged weapon damage
+// limited-use features: legacy uses.per -> item uses.recovery (all of these regain on a short rest, which a long rest also covers)
+for (const i of items) { const u = i.system?.uses; if (u?.max && ["sr", "lr"].includes(u.per)) { u.recovery = [{ period: u.per === "lr" ? "lr" : "sr", type: "recoverAll" }]; u.per = null; } }
+
+// ---- 4. CR 5 balance feature: a labelled +1d8 to ranged weapon damage
 const aim = embedOwnedItem(ensureFeatureActivities({
   _id: generateId("homebrew/cecilia/skirmishers-aim"), name: "Skirmisher's Aim", type: "feat", img: "icons/skills/targeting/crosshair-pointed-orange.webp",
   system: {
-    description: { value: "<p>Cecilia fires on the move and rarely wastes a shot. <em>Balance note: bespoke CR 4 feature, not a class feature.</em> Her ranged weapon attacks deal an extra 1d8 damage.</p>", chat: "" },
+    description: { value: "<p>Cecilia fires on the move and rarely wastes a shot. <em>Balance note: bespoke CR 5 feature, not a class feature.</em> Her ranged weapon attacks deal an extra 1d8 damage.</p>", chat: "" },
     source: { book: "Blood & Brine homebrew", page: "", custom: "", license: "" }, type: { value: "class", subtype: "" }, requirements: "",
     activation: { type: "special", cost: null, condition: "Passive" }, duration: { value: null, units: "" }, target: { value: null, width: null, units: "", type: "" },
     range: { value: null, long: null, units: "" }, uses: { value: null, max: "", per: null, recovery: "", prompt: true },
@@ -84,9 +94,9 @@ for (const i of items) if (i.type === "tool") i.system.proficient = i.name === "
 
 // ---- 5. Numbers and proficiencies
 const sys = chassis.system;
-const abil = { str: 8, dex: 18, con: 14, int: 10, wis: 14, cha: 10 }; // +2 Dex at Marksman 4
+const abil = { str: 8, dex: 19, con: 15, int: 10, wis: 15, cha: 10 }; // previous scores (incl. +2 Dex at Marksman 4) + Human +1 Dex/Con/Wis (Sourcebook Human trait)
 for (const [k, v] of Object.entries(abil)) sys.abilities[k].value = v;
-sys.abilities.str.proficient = 1; sys.abilities.dex.proficient = 1; // Marksman saves
+sys.abilities.dex.proficient = 1; sys.abilities.wis.proficient = 1; // Marksman saves: Dexterity, Wisdom
 const SKILL_ABILITY: Record<string, string> = { acr: "dex", ani: "wis", arc: "int", ath: "str", dec: "cha", his: "int", ins: "wis", itm: "cha", inv: "int", med: "wis", nat: "int", prc: "wis", prf: "cha", per: "cha", rel: "int", slt: "dex", ste: "dex", sur: "wis" };
 const VALUES: Record<string, number> = { ste: 2, slt: 2, prc: 1, sur: 1, ins: 1, itm: 1, acr: 1, dec: 1, inv: 1, ath: 1 }; // Urchin, Marksman, Master at Arms, Rogue; expertise in Stealth and Sleight of Hand
 sys.skills = Object.fromEntries(Object.entries(SKILL_ABILITY).map(([k, ab]) => [k, { value: VALUES[k] ?? 0, ability: ab }]));
@@ -94,14 +104,14 @@ sys.traits.armorProf = { value: ["lgt", "med", "shl"], custom: "" };
 sys.traits.weaponProf = { value: ["sim", "mar"], custom: "firearms" };
 sys.attributes.spellcasting = "wis";
 sys.spells = Object.fromEntries([4, 2, 0, 0, 0, 0, 0, 0, 0].map((max, i) => [`spell${i + 1}`, { value: max, max }]));
-// CR balance pass: a straight Marksman 5 / Rogue 3 sits under the CR 4 hit point band (116-130), so HP is overridden.
-sys.attributes.hp = { value: 123, max: 123, temp: 0, tempmax: 0, formula: "5d10 + 3d8 + 24" };
-sys.details.cr = 4; sys.details.level = 8;
+// CR balance pass: a straight Marksman 5 / Rogue 3 sits under the CR 5 hit point band (131-145), so HP is overridden.
+sys.attributes.hp = { value: 123, max: 123, temp: 0, tempmax: 0, formula: "5d10 + 3d8 + 16" }; // real dice; max 123 is the CR balance override
+sys.details.cr = 5; sys.details.level = 8;
 chassis.items = items;
 chassis.name = "Cecilia Moore";
 chassis.img = PORTRAIT;
 chassis.prototypeToken = { ...(chassis.prototypeToken ?? {}), texture: { ...(chassis.prototypeToken?.texture ?? {}), src: TOKEN } };
-sys.details.biography.value = "<p>Cecilia Moore, a street-raised Urchin and Khael Dhamar's right hand in the Sand Rats. An agile, pistol-wielding skirmisher who trades her pistol for a cutlass when a fight closes in. Loyal to Khael, but pragmatic.</p><p><strong>Balance note (CR 4):</strong> a straight Marksman 5 / Rogue 3 is under CR 4, so hit points are overridden to 123 and Skirmisher's Aim adds 1d8 to ranged weapon damage.</p>";
+sys.details.biography.value = "<p>Cecilia Moore, a street-raised Urchin and Khael Dhamar's right hand in the Sand Rats. An agile, pistol-wielding skirmisher who trades her pistol for a cutlass when a fight closes in. Loyal to Khael, but pragmatic.</p><p><strong>Balance note (CR 5):</strong> a straight Marksman 5 / Rogue 3 is under CR 5, so hit points are overridden to 123 and Skirmisher's Aim adds 1d8 to ranged weapon damage.</p>";
 
 writeFileSync(`${ACTORS}/cecilia.json`, JSON.stringify(chassis, null, 2), "utf-8");
 console.log(`Wrote ${ACTORS}/cecilia.json (${items.length} items)`);

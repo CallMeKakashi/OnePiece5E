@@ -20,6 +20,7 @@ const creation = (name: string, mode: "prepared" | "always") => {
   const c = (creations as Doc[]).find((x) => x.name === name);
   if (!c) throw new Error(`Creation not found: ${name}`);
   const doc = ensureItemActivities({ ...structuredClone(c), system: { ...structuredClone(c.system), preparation: { mode, prepared: true } } } as never) as Doc;
+  for (const a of Object.values(doc.system.activities ?? {}) as any[]) if (name === "Guidance" && a.type === "save") { a.type = "utility"; delete a.save; delete a.damage; } // Sourcebook: touch, willing creature, no save
   return embedOwnedItem(doc as never) as Doc;
 };
 for (const n of ["Guidance", "Draw", "Spark Bolt", "Alacrity", "Zephyr Strike", "Misty Step"]) items.push(creation(n, "prepared"));
@@ -29,15 +30,18 @@ const auto = refreshFromPacks(items);
 console.log(`automation copied onto ${auto.refreshed.length} features; no pack match for: ${auto.unmatched.join(", ") || "none"}`);
 standaloneSummons(items, ACTORS, "tariq");
 
+// limited-use features: legacy uses.per -> item uses.recovery (all of these regain on a short rest, which a long rest also covers)
+for (const i of items) { const u = i.system?.uses; if (u?.max && ["sr", "lr"].includes(u.per)) { u.recovery = [{ period: u.per === "lr" ? "lr" : "sr", type: "recoverAll" }]; u.per = null; } }
+
 for (const i of items) {
   if (["Leather Armor", "Longbow", "Dagger"].includes(i.name ?? "") && i.system) i.system.equipped = true;
   if (i.type === "tool") i.system.proficient = i.name === "Dice Set" ? 1 : 0;
 }
 
 const sys = chassis.system;
-const abil = { str: 8, dex: 18, con: 12, int: 10, wis: 14, cha: 10 }; // +2 Dex at Marksman 4
+const abil = { str: 8, dex: 19, con: 13, int: 10, wis: 15, cha: 10 }; // previous scores (incl. +2 Dex at Marksman 4) + Human +1 Dex/Con/Wis (Sourcebook Human trait)
 for (const [k, v] of Object.entries(abil)) sys.abilities[k].value = v;
-sys.abilities.str.proficient = 1; sys.abilities.dex.proficient = 1; // Marksman saves
+sys.abilities.dex.proficient = 1; sys.abilities.wis.proficient = 1; // Marksman saves: Dexterity, Wisdom
 const SKILL_ABILITY: Record<string, string> = { acr: "dex", ani: "wis", arc: "int", ath: "str", dec: "cha", his: "int", ins: "wis", itm: "cha", inv: "int", med: "wis", nat: "int", prc: "wis", prf: "cha", per: "cha", rel: "int", slt: "dex", ste: "dex", sur: "wis" };
 const VALUES: Record<string, number> = { prc: 1, sur: 1, ste: 1, nat: 1 }; // Wanderer: Perception, Survival; Marksman: Stealth, Nature
 sys.skills = Object.fromEntries(Object.entries(SKILL_ABILITY).map(([k, ab]) => [k, { value: VALUES[k] ?? 0, ability: ab }]));
@@ -48,6 +52,8 @@ sys.attributes.hp = { value: 72, max: 72, temp: 0, tempmax: 0, formula: "5d10 + 
 sys.details.cr = 3; sys.details.level = 5;
 chassis.items = items;
 chassis.name = "Tariq Solen";
+chassis.img = "one-piece-5e/npcs/Sand Rats/tariq.jpg";
+chassis.prototypeToken = { ...(chassis.prototypeToken ?? {}), texture: { ...(chassis.prototypeToken?.texture ?? {}), src: "one-piece-5e/npcs/Sand Rats/tariq-token.png" } };
 sys.details.biography.value = "<p>Tariq Solen, a 15-year-old scout of the Sand Rats: a lean wanderer with a longbow, quick eyes and a guarded calm.</p><p><strong>Balance note (CR 3):</strong> a straight Marksman 5 is under CR 3 on hit points, so HP is overridden to 72.</p>";
 
 writeFileSync(`${ACTORS}/tariq.json`, JSON.stringify(chassis, null, 2), "utf-8");

@@ -112,6 +112,23 @@ actor.img = PORTRAIT;
 actor.prototypeToken = { ...(actor.prototypeToken ?? {}), texture: { ...(actor.prototypeToken?.texture ?? {}), src: TOKEN } };
 
 const refreshed = refreshFromPacks(actor.items);
+// ---- 6. dnd5e 5.x item uses: recovery period per each feature's description (sr = short/long rest pool, lr = long rest)
+const RECOVERY: Record<string, "sr" | "lr"> = {
+  "Channel Conviction: Thundering Resolve": "sr", "Rallying Presence": "lr", "Color of Observation Novice": "sr", "Color of Armament Novice": "sr",
+  "Conqueror's Haki Novice": "lr", "Command-Command: Fiat": "lr", "Command-Command: Absolute Imperative": "lr", "Devil Fruit Uses": "lr",
+};
+for (const i of actor.items) {
+  const period = RECOVERY[i.name ?? ""]; if (!period) continue;
+  i.system.uses = { spent: 0, max: String(i.system.uses.max), recovery: [{ period, type: "recoverAll" }] };
+}
+const act = (item: string, name: string) => Object.values(actor.items.find((i) => i.name === item)!.system.activities as Record<string, any>).find((a) => a.name === name)!;
+act("Command-Command: Absolute Imperative", "Command-Command: Absolute Imperative").save.dc.formula = "8 + @prof + @abilities.cha.mod"; // = 17 at prof +4, Cha +5
+const rev = act("Channel Conviction: Thundering Resolve", "Reverberating Smite"); // Ardent Smite damage (2d8, +1d8 per slot above 1st, max 6d8) + savant level
+rev.damage.parts[0].custom.formula = "2d8 + @classes.savant.levels"; rev.description.chatFlavor = "Ardent Smite damage (2d8, +1d8 per creation slot level above 1st, max 6d8) + savant level. Failure: also pulled up to 10 ft to an empty square within 5 ft of you.";
+act("Channel Conviction: Thundering Resolve", "Echoing Rebuke").description.chatFlavor = "Resistance to the triggering damage. On a failed save the attacker takes thunder damage equal to the damage it dealt (before your resistance); roll that amount manually.";
+const mace = actor.items.find((i) => i.name === "Mace")!;
+mace.system.range = { value: 5, long: null, units: "ft" };
+Object.assign(act("Mace", "Mace").range, { value: 5, units: "ft" });
 console.log(`Refreshed ${refreshed.refreshed.length} Cadence items; unmatched: ${refreshed.unmatched.join(", ") || "none"}`);
 writeFileSync(`${ACTORS}/cadence.json`, JSON.stringify(actor, null, 2), "utf-8");
 console.log(`Wrote ${ACTORS}/cadence.json (${actor.items.length} items)`);
