@@ -71,6 +71,10 @@ Navigator. Devil Fruit: [[Toneru Toneru no Mi]].
 
 - Opens the pipe to the middle warship (the edge of his range) and, off-session, drills into the flooding lower deck and frees his brother [[Droven Calligos|Droven]], calling himself "Ser Dravos the Mole, the great knight of Driftroot". Brings Linus and Droven out through another pipe and later calms Droven when he punches Baptiste ([[Session 025 — Fire Storm|Episode 25]]).
 
+## Foundry build
+
+Rebuilt 2026-10-11 in `bb-rehearsal` (`OP5E/Blackhand`): Human Gadgeteer 13 (Alchemist), Sailor, Role: Navigator, CR 8, HP 170 (override), AC 12. Toneru Toneru no Mi from the compendium with the pipe techniques as reflavoured creations (Misty Step, Dimension Door, Wall of Force, Web and more) spending 8 Devil Fruit Uses. Details in `op5e/docs/NPC-BUILDS.md`. The statblock below is the legacy sheet.
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 05:10 UTC*

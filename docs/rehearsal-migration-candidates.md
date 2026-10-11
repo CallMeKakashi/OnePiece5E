@@ -43,7 +43,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 **Lunarfolds, old versions**
 - [ ] Malphas (Brawler 8, Drunken Master) plus Thunderbird Form 1 and 2 [migrate]
 - [ ] Midori (Brawler 8, Fishman Karate) [migrate]
-- [ ] Dravos (Wizard 13, Conjuration) [migrate]
+- [x] Dravos (built)
 - [ ] B.O.B. (WIZ) (Wizard 5) and B.O.B (old) (Wizard 4) [skip: B.O.B is already a current Paladin 10]
 - [ ] Aegir (Control, Dominian) and Shadow Malphas (Warlocks, Great Old One and Fiend) [migrate if still in the story]
 
@@ -133,3 +133,4 @@ Not mentioned yet, still in place: Jazmine, Merlin, Pegasus (Archived root), the
 - **Alice: done** (`OP5E/Blackhand`, Lunarian Fighter 6 Banneret / Savant 6 Radiant Superiority, level 12, CR 10, HP 210 (override), AC 15). Art is a stand-in (local `players/Lunarfold/alice.jpg`). Next: Cassian Valehart, Dravos, Malphas with Thunderbird Form 2.
 - **Folder moves (2026-10-11, `bb-rehearsal`):** Clone (Irik's Test Subject summon) to `OP5E/Sharkfin Pirates`; Mechanical Cannon (Facade's summon) to `OP5E/Blackhand`; Hulking and Skeletal Animated Undead (test-harness leftovers) to `System`; Rustwing (Keelboat) to `Dead`. Still outside `OP5E` although remade: Five Families (Cedro, Nerolo, Capones, Queen), Guisseppi (Gin, Rhum), Commodore (Greyhound, Obsidian), Horus (Heathcliff), Afterimage, SSR; undecided.
 - **Cassian Valehart: done** (`OP5E/Velencruz`, Human Bard 8 College of Eloquence, Noble, Role: Scholar, CR 6, HP 140 (override), AC 13; sound powers as compendium creations). Art is the user's Pinterest pick. Next: Dravos, then Malphas with Thunderbird Form 2.
+- **Dravos: done** (`OP5E/Blackhand`, Human Gadgeteer 13 Alchemist, Navigator, CR 8, HP 170 (override), AC 12; Toneru Toneru no Mi with the pipe techniques as creations spending 8 Devil Fruit Uses). Art pending. Next: Malphas with Thunderbird Form 2.

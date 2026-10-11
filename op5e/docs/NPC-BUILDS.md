@@ -235,3 +235,15 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 
 - Legacy sound powers use compendium creations only (the user's choice): Dissonant Verdict = Shatter, Cease and Desist = Hold Person, Cross-Examiner = Truth Zone, Closing Argument = Bardic Inspiration. Tricks: Vicious Mockery (Silver Tongue), Thunder Bolt, Sonic Boom, Guidance. Creations: Thunderwave, Command, Healing Word, Bane, Shatter, Hold Person, Suggestion, Truth Zone, Counter Creation, Fear, Confusion, Hold Monster. Spell DC 15, attack +7. Objection!, Legal Immunity and the legacy Shift Form were dropped (no compendium match).
 - Live in `OP5E/Velencruz`, replacing the old stub. Art is the user's Pinterest pick (`Lex Imperia/cassian-new.jpg`, token cropped locally), found with the Less AI filter and logged in `docs/art-credits.md`. Not played in a real fight.
+
+## Dravos (2026-10-11)
+
+`build-dravos-custom.ts`, spec `dravos-spec.json`. Human Gadgeteer 13 (Alchemist), Sailor, Role: Navigator, eater of the Toneru Toneru no Mi (Tunnel-Tunnel, Paramecia), no Haki, no additional power. Level 13, CR 8. Scores 9/14/14/18/13/10 (point-buy base Int 13, Dex 12, Con 11, Wis 11, Cha 9, Str 8, cost 16; Human +1 all; Keen Mind Int +1; Observant Wis +1; ASIs at 4, 8, 12: Int +3, Con +2, Dex +1). Feats: Observant (background), Keen Mind (role). Mods: Burst Boots (level 2), Awareness Visor (6), Repulsion Shield (10). Skills: Perception, Nature, Arcana, Investigation, Athletics, History. Gear: Flintlock, Maul (the pipe wrench), Explorer's Pack, Carpenter's Tools.
+
+| NPC | CR | HP | AC |
+|---|---|---|---|
+| Dravos | 8 | 170 (override; legacy value, real about 90; DMG CR 8 band 156-170) | 12 (no armor, Dex 14) |
+
+- Gadgeteer is not a caster (mods plus the Alchemist's Creativity spells); his teleport powers come from the fruit. The compendium fruit item has no activities, so the legacy techniques are reflavoured creations, each spending one of 8 Devil Fruit Uses (level 13 gives 7, Paramecia +1): Get Me Out = Misty Step, Thousand-Mile Tunnel = Dimension Door (500 ft and one passenger, weaker than the legacy party transport), Linked Portals = Vortex Warp (closest match), Wall of Pipes = Wall of Force, Pipe Network = Web, Keep Me High = Levitate, Run Away = Haste, Catch Me = Feather Fall, Blast = Thunderwave. Free tricks: Pipe Vines = Thorn Lash, Wind Pipe = Windblast, Tunnel = Manipulate Earth, Water Hose = Water Flow. Dropped (no compendium match): Redirect, Catch Me If You Can, Pipes Protect Me. Ocean's Scorn and the Fruit-Fruit DC/Attack feat are on the sheet (DC 17).
+- The mapping of techniques to creations was my call; the user chose the approach only.
+- Live in `OP5E/Blackhand`, replacing the old Archived stub. Art is **still the default image** (pending). Not played in a real fight. The audit's hit-dice finding (Gadgeteer d8 in the pack vs d10 in the Sourcebook) applies here; HP is overridden anyway.
