@@ -12,6 +12,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 
 - Meridian Island (14): Kyle Sollen, Tyrell, The Gallows (ally and boss), Coast Guard, Pirate Guard, Judith, May, Jay, Shin, Kanto, Afterimage, both Sphinx forms
 - Cadence, Facade, Lady Soefra Anthem (in `OP5E/...` folders)
+- Marines: Calder Voss, Commander Leon, Drez Crown, Marine Ensign Mk IV, Petty Officer Marine (`OP5E/Marines`); Alice and Vex (`OP5E/Blackhand`); SeaBeast Hermit Crab (`OP5E/Sea Beasts`); Marine Warship (`OP5E/Ships`)
 - Mechanical Cannon (summon for Facade)
 
 ## Archived: named campaign characters (suggest migrating)
@@ -96,12 +97,12 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 4. [ ] Kaen Solaris (Omen Guardians), Vesper (Shadows/Scorpio)
 5. [x] Veyl Corven and Serica Corven (Sixfolds)
 6. [x] Chuckles (Circle of Clowns)
-7. [ ] Calder Voss (built), Goru Yamashita (built), Marine Ensign (Armor Mk III), Mikey/Morrow (built)
-8. [ ] Commander Leon (OpenSea)
-9. [ ] SeaBeast - Hermit Crab (NPC/Monsters)
+7. [x] Calder Voss (built), Goru Yamashita (built), Marine Ensign (Armor Mk IV, built), Mikey/Morrow (built)
+8. [x] Commander Leon (built)
+9. [x] SeaBeast - Hermit Crab (built)
 10. [x] Marine Warship, rebuilt as a ship actor, not an NPC
 
-Not mentioned yet, still in place: Drez Crown, Petty Officer Marine (OpenSea), Alice, Jazmine, Cassian Valehart, Merlin, Pegasus (Archived root), the old Façade (Archived/Gentle Giant Pirates), Beiro and the rest.
+Not mentioned yet, still in place: Jazmine, Cassian Valehart, Merlin, Pegasus (Archived root), the old Façade (Archived/Gentle Giant Pirates), Beiro and the rest.
 
 ### Update (same day, later)
 
@@ -124,3 +125,10 @@ Not mentioned yet, still in place: Drez Crown, Petty Officer Marine (OpenSea), A
 
 - **Commander Leon: done** (`OP5E/Marines`, Human Fighter 6 Samurai / Brawler 6 Six Powers Master, CR 10, HP 210, AC 18). Art done. Next: Petty Officer Marine.
 - **Drez Crown: done** (`OP5E/Marines`, Human Marksman 10 Sniper, CR 10, HP 165, AC 17). Art done. Next: Petty Officer Marine.
+
+- **Drez Crown: done** (`OP5E/Marines`, Human Marksman 10 Sniper, CR 10, HP 165 (override), AC 17, Holo-Decoy gadget). Art picked by the user.
+- **Petty Officer Marine: done** (`OP5E/Marines`, Human Marksman 4 Sniper, Master at Arms, CR 2, HP 36, AC 16). Art is the user's local `marine-elite.jpg`.
+- **SeaBeast Hermit Crab: done** (`OP5E/Sea Beasts`, fully custom Gargantuan CR 5, HP 160, AC 17; no sea king stat block exists). Art is the user's Pinterest pick.
+- **Marine Warship: done** (`OP5E/Ships`, Galleon hull with 4 Swivel Guns, 4 18-pounders, 2 36-pounders). Art is the user's pin (a four-view sheet).
+- **Alice: done** (`OP5E/Blackhand`, Lunarian Fighter 6 Banneret / Savant 6 Radiant Superiority, level 12, CR 10, HP 210 (override), AC 15). Art is a stand-in (local `players/Lunarfold/alice.jpg`). Next: Cassian Valehart, Dravos, Malphas with Thunderbird Form 2.
+- **Folder moves (2026-10-11, `bb-rehearsal`):** Clone (Irik's Test Subject summon) to `OP5E/Sharkfin Pirates`; Mechanical Cannon (Facade's summon) to `OP5E/Blackhand`; Hulking and Skeletal Animated Undead (test-harness leftovers) to `System`; Rustwing (Keelboat) to `Dead`. Still outside `OP5E` although remade: Five Families (Cedro, Nerolo, Capones, Queen), Guisseppi (Gin, Rhum), Commodore (Greyhound, Obsidian), Horus (Heathcliff), Afterimage, SSR; undecided.

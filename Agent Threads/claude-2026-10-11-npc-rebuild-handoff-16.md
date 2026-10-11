@@ -1,6 +1,6 @@
-# Handoff: Petty Officer, Hermit Crab, Marine Warship, Alice built (2026-10-11)
+# Handoff 16: Petty Officer, Hermit Crab, Marine Warship, Alice built (2026-10-11)
 
-Continues [handoff 14](claude-2026-10-11-music-config-handoff-14.md) and the NPC handoffs 1 to 13 (workflow and gotchas live there). **Next: Cassian Valehart**, then Dravos, then Malphas + Thunderbird Form 2 (`docs/rehearsal-migration-candidates.md`). Ask every choice with AskUserQuestion, check each option exists in the packs first; after each NPC add the `op5e/docs/NPC-BUILDS.md` entry and the vault "Foundry build" section, tick the migration list, commit, then go to the next one.
+Continues [handoff 14](claude-2026-10-11-music-config-handoff-14.md) and the NPC handoffs 1 to 13 (the music release note is [handoff 15](claude-2026-10-11-music-release-handoff-15.md), a different thread) (workflow and gotchas live there). **Next: Cassian Valehart**, then Dravos, then Malphas + Thunderbird Form 2 (`docs/rehearsal-migration-candidates.md`). Ask every choice with AskUserQuestion, check each option exists in the packs first; after each NPC add the `op5e/docs/NPC-BUILDS.md` entry and the vault "Foundry build" section, tick the migration list, commit, then go to the next one.
 
 ## Done this session (details are in `op5e/docs/NPC-BUILDS.md`, the build scripts and `docs/art-credits.md`; not repeated here)
 
