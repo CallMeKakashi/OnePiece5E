@@ -41,7 +41,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 - [ ] Façade (Artificer 5) [skip: replaced by the new Facade]
 
 **Lunarfolds, old versions**
-- [ ] Malphas (Brawler 8, Drunken Master) plus Thunderbird Form 1 and 2 [migrate]
+- [x] Malphas (built, with one Hybrid Form and one Full Beast; Thunderbird Form 1 and 2 retired)
 - [ ] Midori (Brawler 8, Fishman Karate) [migrate]
 - [x] Dravos (built)
 - [ ] B.O.B. (WIZ) (Wizard 5) and B.O.B (old) (Wizard 4) [skip: B.O.B is already a current Paladin 10]
@@ -135,3 +135,4 @@ Not mentioned yet, still in place: Jazmine, Merlin, Pegasus (Archived root), the
 - **Cassian Valehart: done** (`OP5E/Velencruz`, Human Bard 8 College of Eloquence, Noble, Role: Scholar, CR 6, HP 140 (override), AC 13; sound powers as compendium creations). Art is the user's Pinterest pick. Next: Dravos, then Malphas with Thunderbird Form 2.
 - **Dravos: done** (`OP5E/Blackhand`, Human Gadgeteer 13 Alchemist, Navigator, CR 8, HP 170 (override), AC 12; Toneru Toneru no Mi with the pipe techniques as creations spending 8 Devil Fruit Uses). Art is the user's Pinterest pick. Next: Malphas with Thunderbird Form 2.
 - **Audit fixes (2026-10-11):** systematic class-data, pipeline, additional-power and ability-score corrections after the sourcebook validation; see the "Audit fixes" section of `op5e/docs/NPC-BUILDS.md`. Remade actors outside `OP5E` and the Meridian folder (Five Families, Guisseppi, Commodore, Horus) were not rebuilt and still carry the old class data.
+- **Malphas: done** (`OP5E/Lunarfolds`, Lunarian Brawler 12 Drunken Master, Wanderer, Role: Navigator, Tori Tori no Mi Model: Raicho, CR 11, HP 215 (override), AC 19, 6 Devil Fruit Uses). One Hybrid Form and one Full Beast Form (two transform actors); the old Thunderbird Form 1 and 2 are retired. The legacy actor is kept as `Malphas (legacy)` in Archived. This was the last queued NPC.

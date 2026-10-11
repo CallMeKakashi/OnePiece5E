@@ -480,6 +480,10 @@ And fate shifted.
 
 - Finds [[Dravos]] in the forest with Baptiste. Does not join the twin hunt. Touches the ship's helm and tells its spirit they will let it go eventually, but for now it should stay ([[Session 019 — The Walking Dead|Episode 19]]).
 
+## Foundry build
+
+Rebuilt 2026-10-11 as an NPC in the rehearsal world (`OP5E/Lunarfolds`): Lunarian Brawler 12 (Drunken Master), Wanderer, Navigator, CR 11, HP 215, AC 19. Devil fruit: [[Tori Tori no Mi — Model Raicho]] with one Hybrid Form and one Full Beast Form (the old Thunderbird Form 1 and 2 are retired). Details: `op5e/docs/NPC-BUILDS.md` (Malphas).
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

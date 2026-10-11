@@ -262,3 +262,17 @@ Source: `op5e/reports/sourcebook-validation-meridian-op5e.md` (41 actors, 15 S1 
 - **Petty Officer levelled to Marksman 8** (user's choice) so Armament Novice is legal: CR 4, HP computed (68), Canny (Perception and Stealth expertise), Dex 19, Armament Novice from the pipeline step at level 8.
 - **Calder:** the audit's "four ASI uses" finding was a misreading (Dex +2 once, Wis +2 once, Flying Strikes in the level 12 slot). No change.
 - **Still open (S2/S3 from the audit):** unprepared Savant/Gadgeteer creations (Alice, Cadence, Facade, Ensign), missing tricks and creations on Drez, Petty Officer, Facade, Ensign, Jay and Kyle; Medium Armor Master Dex cap on the Gallows and Petty Officer; Gallows Boss Devious Strike; Permanent Haki-Imbuement as a feat; Ensign's missing background feat; Drez AC; Calder's armour feat; Alice's second Fighting Style; Shin's Machiavellian Misfit.
+
+## Malphas (2026-10-11)
+
+`build-malphas-custom.ts`, `build-malphas-forms.ts`, spec `malphas-spec.json`. Lunarian Brawler 12 (Drunken Master), Wanderer, Role: Navigator, eater of the Tori Tori no Mi, Model: Raicho (mythical zoan), level 12, no additional power (he has a fruit). Scores 10/20/15/12/18/10 (Dex 20 and Wis 18, Charger Con +1, Keen Mind Int +1). Feats: Mobile (background), Keen Mind (role), Charger and Alert. Haki: Armament Novice (8), Observation Novice (10), Armament Apprentice (12). Skills: Insight, Survival, Acrobatics, Stealth, Nature; game set: Dice. Lunarian traits and Flame Investure creations added by hand as for Alice.
+
+| NPC | CR | HP | AC |
+|---|---|---|---|
+| Malphas | 11 | 215 (override; straight Brawler 12 is about 110; DMG CR 11 band 221-235 at AC 17, AC 19 offsets) | 19 (Unarmored Defense) |
+
+- **Forms (user's decision):** one Hybrid Form and one Full Beast Form only; the legacy Thunderbird Form 1 and Form 2 are retired. Both are standalone transform actors with fixed ids (Hybrid `2bc60ae6457ad287`, Full Beast `c69afdcbedefab3f`), imported with ids kept, in `OP5E/Lunarfolds`. Hybrid: Medium, fly 80, Dex talons 1d8, Hybrid Strikes +prof, temp HP 4 x level. Full Beast: Huge, walk 40, fly 120, Talon 2d8+1d8 lightning, Beak 2d10, Thunder Gust (6d8, DC 17, recharge 5-6), HP 7 x level + Con.
+- **Fruit techniques:** only Hybrid and Full Beast (user's choice). The lightning creations that existed (Call Lightning, Lightning Bolt, Thunder Step, Thunderwave, Shatter, Gust of Wind) ride on Malphas, labelled Hybrid Form only, one use each per long rest. Storm Sphere, Storm Door and Ride the Lightning have no pack match and are dropped. 6 Devil Fruit Uses at level 12.
+- **CR 11** is my calculation (defence HP 215 at AC 19; offence about 70 damage a round at +10). Not played in a real fight.
+- **Legacy:** the old Malphas was renamed `Malphas (legacy)` and stays in Archived; Thunderbird Form 1 and 2 stay archived untouched.
+- Art: base is the user's local `Malphas-2.png`; the hybrid and beast are the user's Pinterest pins (see `docs/art-credits.md`). The hybrid pin is not the golden-beaked brief.
