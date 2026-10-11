@@ -21,6 +21,6 @@ Decided with the user on 2026-10-11 after listening. Songs live in `Data/music/C
 |---|---|
 | King | Full-Force Kamehameha; Pacific Rim (feat. Tom Morello); The Very Very Very Strongest; The Final Flash |
 
-## Not yet confirmed (matched by folder name only)
+## Everything else: unassigned (user's call, 2026-10-11)
 
-Ace, Briggs, Dravos, Fenris, Joker, JuLee, Linus, Malak, Obsidian, Ribes, Salvatore, Serica, Simon, Tray, Veyl, Vireth, and the faction folders Capones, Lunarfolds, Sixfolds, SpiderNest.
+Ace, Briggs, Dravos, Fenris, Joker, JuLee, Linus, Malak, Obsidian, Ribes, Salvatore, Serica, Simon, Tray, Veyl, Vireth and the faction folders Capones, Lunarfolds, Sixfolds, SpiderNest. Their songs get no actor or faction theme; they are still sorted by mood.
