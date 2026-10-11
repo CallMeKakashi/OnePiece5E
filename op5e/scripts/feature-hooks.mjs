@@ -101,7 +101,7 @@ function onPreRollAttack(config, _dialog, _message) {
  */
 async function onRollSavingThrow(rolls, data) {
   const actor = data?.subject;
-  if (!actor || !game.user?.isActorOwner(actor)) return;
+  if (!actor || !actor.isOwner) return;
   if (diamondSoulRerollInFlight.has(actor)) return;
   if (!actorHasDiamondSoul(actor)) return;
 
@@ -260,7 +260,7 @@ async function applyFlamingDualityForm(actor, item, form) {
 async function handleFlamingDuality(activity, usageConfig) {
   const item = activity?.item;
   const actor = item?.actor;
-  if (!actor || !game.user?.isActorOwner(actor)) return false;
+  if (!actor || !actor.isOwner) return false;
 
   const existing = findFlamingDualityEffect(actor);
   const switching = Boolean(existing);
@@ -296,7 +296,7 @@ async function handleFlamingDuality(activity, usageConfig) {
 async function handleFlameInvesture(activity, usageConfig) {
   const item = activity?.item;
   const actor = item?.actor;
-  if (!actor || !game.user?.isActorOwner(actor)) return false;
+  if (!actor || !actor.isOwner) return false;
 
   const choice = await promptFlameInvestureCast(actor, item);
   if (!choice) return false;
@@ -355,7 +355,7 @@ async function handleFlameInvesture(activity, usageConfig) {
 async function handleRage(activity, usageConfig) {
   const item = activity?.item;
   const actor = item?.actor;
-  if (!actor || !game.user?.isActorOwner(actor)) return false;
+  if (!actor || !actor.isOwner) return false;
 
   const remaining = getItemUsesRemaining(item);
   if (remaining !== null && remaining <= 0) {
@@ -396,7 +396,7 @@ async function handleRage(activity, usageConfig) {
 async function handleInnerBeast(activity, usageConfig) {
   const item = activity?.item;
   const actor = item?.actor;
-  if (!actor || !game.user?.isActorOwner(actor)) return false;
+  if (!actor || !actor.isOwner) return false;
 
   const remaining = getItemUsesRemaining(item);
   if (remaining !== null && remaining <= 0) {
@@ -432,7 +432,7 @@ async function handleInnerBeast(activity, usageConfig) {
 async function handleBubbleFloater(activity, usageConfig) {
   const item = activity?.item;
   const actor = item?.actor;
-  if (!actor || !game.user?.isActorOwner(actor)) return false;
+  if (!actor || !actor.isOwner) return false;
 
   const existing = actor.effects?.filter(e => !e.disabled && e.flags?.[MODULE_ID]?.bubbleFloater);
   for (const effect of existing ?? []) {
@@ -541,7 +541,7 @@ function onPreUseActivity(activity, usageConfig) {
 async function handleGiantsEndurance(activity, usageConfig) {
   const item = activity?.item;
   const actor = item?.actor;
-  if (!actor || !game.user?.isActorOwner(actor)) return false;
+  if (!actor || !actor.isOwner) return false;
 
   const remaining = getItemUsesRemaining(item);
   if (remaining !== null && remaining <= 0) {
@@ -586,7 +586,7 @@ async function onDamageActorRelentlessRage(actor, changes) {
 
   const hpAfter = actor.system?.attributes?.hp?.value ?? 0;
   if (!shouldOfferRelentlessRage(actor, hpChange, hpAfter)) return;
-  if (!game.user?.isActorOwner(actor)) return;
+  if (!actor.isOwner) return;
   if (relentlessRageInFlight.has(actor)) return;
 
   const dc = getRelentlessRageDcFromActor(actor);
