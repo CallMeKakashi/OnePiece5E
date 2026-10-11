@@ -44,6 +44,10 @@ foundry_live_slug: "alice"
 - [[Malphas]]
 - [[Commodore Briggs]]
 - [[Droven Calligos]]
+## Foundry build
+
+Rebuilt 2026-10-11 in `bb-rehearsal` (`OP5E/Blackhand`): Lunarian Fighter 6 (Banneret) / Savant 6 (Radiant Superiority), Noble, Role: Master at Arms, level 12, CR 10, HP 210 (override), AC 15. Longsword and Light Crossbow; Conqueror's Haki (Novice, Apprentice); Lunarian Flame Investure (Fire Bolt, Elemental Armor, Fireball). Details in `op5e/docs/NPC-BUILDS.md`. The statblock below is the legacy sheet.
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

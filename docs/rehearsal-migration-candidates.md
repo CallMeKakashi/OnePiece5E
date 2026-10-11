@@ -54,7 +54,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 - [ ] Chuckles, Giggles, Snickers, Wheeze (Circle of Clowns, empty stubs) [low priority]
 - [x] Marine Warship (built), [x] SeaBeast - Hermit Crab (built)
 - [x] Commander Leon (built), [x] Drez Crown (built), [x] Petty Officer Marine (built)
-- [ ] Alice (CR 10), Jazmine (CR 5), Cassian Valehart, Merlin, Pegasus [unclear, tell me which matter]
+- [x] Alice (built), [ ] Jazmine (CR 5), Cassian Valehart, Merlin, Pegasus [unclear, tell me which matter]
 
 **Freefield (10 pirates and locals)**
 - [ ] Joe "Mitchblade" Mitch (CR 6), Kael Dhamar (CR 5) [migrate]

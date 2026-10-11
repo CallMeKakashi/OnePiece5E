@@ -211,3 +211,16 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 - Guns: 4 Swivel Guns, 4 18-pounders, 2 36-pounders (one item each with a quantity). The legacy sheet was a Galleon copy with swim speed 0, non-pack cannons (12 and 64-pounder) and three Explosive Cannon feats; all dropped.
 - Live in `Ships`. There is no vault page for this ship, so no "Foundry build" section. Art is the user's pin (`Ships/marine-warship-new.jpg`, logged in `docs/art-credits.md`). Not tested in a ship fight.
 - `dev/harness/import-npc.mjs` creates the vehicle fine but crashes printing its summary (it reads spellcasting numbers a vehicle lacks); the actor itself is correct.
+
+## Alice (2026-10-11)
+
+`build-alice-custom.ts`, specs `alice-spec.json` (Fighter half) and `alice-savant-spec.json`. Lunarian Fighter 6 (Banneret) / Savant 6 (Radiant Superiority), Noble, Role: Master at Arms, no fruit, no additional power, level 12. Scores 8/18/14/10/13/18 (point-buy 15/14/12/13/10/8 on Dex/Cha/Con/Wis/Int/Str; Lunarian Cha +2 and Dex +1; ASIs Fighter 4 and 6 and Savant 4: Dex +2, Cha +2, Con +2). Feats: Diplomat (background), Menacing (role); no ASI feats. Fighting Style Dueling. Haki: Conqueror's Novice and Apprentice (added by hand). Skills: Persuasion, Insight, Athletics, Acrobatics, Intimidation, History; game set: playing cards. Gear: Longsword, Light Crossbow, Dagger, Leather Armor, Explorer's Pack.
+
+| NPC | CR | HP | AC |
+|---|---|---|---|
+| Alice | 10 | 210 (override, real about 90; legacy 170; DMG CR 10 band 206-220) | 15 (Leather Armor + Dex) |
+
+- The Savant is a paladin-style class (Ardent Soul, smite, Aura of Protection), not a fire caster. Her legacy Fire Bolt and Fireball come from the Lunarian Flame Investure (Fire Bolt, Elemental Armor, Fireball, creative ability Constitution by the race text); the sheet's spellcasting ability is Charisma for the Savant.
+- Lunarian traits (Flaming Duality, Omni-Adapted, flight 30) are added by hand as for Calder. The legacy "Unstable Conqueror's Haki" is the Conqueror's Haki chain.
+- Second Weapon pick was a Shortsword that the build drops; the user did not choose one.
+- Live in `OP5E/Blackhand`. Art is **still the default image** (pending; the vault `Attachments/Alice.png` is the nightmare Wonderland construct, not her). Not played in a real fight.

@@ -1,0 +1,83 @@
+{
+  "buildPath": "class-based",
+  "actorKind": "npc",
+  "raceIdentifier": "lunarian",
+  "powerFork": "neither",
+  "devilFruit": null,
+  "startingHakiNotes": "",
+  "cr": 10,
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "abilityMethod": "manual",
+  "portraitImg": "",
+  "tokenImg": "",
+  "name": "Alice",
+  "classIdentifier": "savant",
+  "subclassIdentifier": "radiant-superiority",
+  "level": 6,
+  "choices": [
+    {
+      "stepId": "fbdf0c9c247c5a84",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.9c5132ad9c9d881f"
+      ]
+    },
+    {
+      "stepId": "16d7e65ad4c47e6b",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.7842a68fdf0a1f76"
+      ]
+    },
+    {
+      "stepId": "7135d7bfa8bdfaba",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.cfe63f1f15529820"
+      ]
+    },
+    {
+      "stepId": "fae1623618546457",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.items.49490f8652cfc663"
+      ]
+    },
+    {
+      "stepId": "c5ab7e98a81a70cd",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "skills:ath",
+        "skills:itm"
+      ]
+    },
+    {
+      "stepId": "6a7b19bd62e67d61",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.backgrounds.a63313e2bf3870d2"
+      ]
+    },
+    {
+      "stepId": "805306fa87b37ceb",
+      "level": 1,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.devil-fruits.097494380fd03456"
+      ]
+    }
+  ]
+}
