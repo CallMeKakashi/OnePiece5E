@@ -149,6 +149,13 @@
       "system": "dnd5e"
     },
     {
+      "name": "playlists",
+      "label": "OP5e Music Playlists",
+      "path": "packs/playlists",
+      "type": "Playlist",
+      "system": "dnd5e"
+    },
+    {
       "name": "ship-weapons",
       "label": "OP5e Ship Weapons",
       "path": "packs/ship-weapons",
@@ -186,6 +193,7 @@
         "spell-lists",
         "reference",
         "roll-tables",
+        "playlists",
         "devil-fruits",
         "monsters",
         "summons",

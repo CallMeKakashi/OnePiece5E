@@ -1,0 +1,1102 @@
+[
+ {
+  "name": "Mood: Combat",
+  "mode": 1,
+  "description": "Combat music, instrumental, shuffled.",
+  "sounds": [
+   {
+    "name": "Ain't Gettin' Away With It",
+    "path": "music/Ain't Gettin' Away With It_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Astral Dreadnought (suspense, combat)",
+    "path": "music/Astral Dreadnought (suspense, combat)_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Attacking Varsanspear",
+    "path": "music/Attacking Varsanspear_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Avoid Raisk's Gaze - Frenzy",
+    "path": "music/Avoid Raisk's Gaze - Frenzy_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Caldera",
+    "path": "music/Caldera_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Chains Won't Stop Us",
+    "path": "music/Chains Won't Stop Us_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Chorago Rainforest",
+    "path": "music/Chorago Rainforest_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Crel-Vohr the Blight (Strike)",
+    "path": "music/Crel-Vohr the Blight (Strike)_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Dark Souls 3 OST #18 - Abyss Watchers (Boss Fight Theme)",
+    "path": "music/Dark Souls 3 OST #18 - Abyss Watchers (Boss Fight Theme).webm",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Dark Souls 3 OST #5 - Iudex Gundyr (1st Boss Fight Theme )",
+    "path": "music/Dark Souls 3 OST #5 - Iudex Gundyr (1st Boss Fight Theme ).webm",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Dark Souls 3 OST #6 - Vordt Of The Boreal Valley (Boss Fight Theme)",
+    "path": "music/Dark Souls 3 OST #6 - Vordt Of The Boreal Valley (Boss Fight Theme).webm",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Dravos",
+    "path": "music/Characters/Dravos/Dravos.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Dude's Cover - Unohana Bankai Theme (From 'Bleach- Thousand Year Blood War')",
+    "path": "music/Characters/Simon/Dude's Cover - Unohana Bankai Theme (From 'Bleach- Thousand Year Blood War').mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Dude's Cover - Unohana Bankai Theme (From 'Bleach- Thousand Year Blood War')",
+    "path": "music/Dude's Cover - Unohana Bankai Theme (From 'Bleach- Thousand Year Blood War').mp3",
+    "volume": 0.16,
+    "repeat": false
+   },
+   {
+    "name": "Ergun Bicer of Moody Music - Kenpachi's Bankai Theme",
+    "path": "music/Characters/SpiderNest/Ergun Bicer of Moody Music - Kenpachi's Bankai Theme.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Executioner",
+    "path": "music/Executioner_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Frieren the Slayer",
+    "path": "music/Frieren the Slayer_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Haikyuu!! To The Top OST - Miya Atsumu",
+    "path": "music/Characters/Veyl/Haikyuu!! To The Top OST - Miya Atsumu.webm",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Ichigo vs Sternritter (From  Bleach  Thousand Year Blood War )",
+    "path": "music/Ichigo vs Sternritter (From _Bleach_ Thousand Year Blood War_)_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Igni",
+    "path": "music/Igni_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Jett Black - Heavenly Blooming Madness (TYBW Shunsui vs Lille Battle Theme Imagined)",
+    "path": "music/Characters/Ribes/Jett Black - Heavenly Blooming Madness (TYBW Shunsui vs Lille Battle Theme Imagined).mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Kenpachi's Bankai Theme",
+    "path": "music/Kenpachi's Bankai Theme_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Mosshome - Valor",
+    "path": "music/Mosshome - Valor_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "PianoPrinceOfAnime - Qifrey vs Dragon - Witch Hat Atelier EP 5 - Epic Version",
+    "path": "music/PianoPrinceOfAnime - Qifrey vs Dragon - Witch Hat Atelier EP 5 - Epic Version.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Pierce the Perimeter",
+    "path": "music/Pierce the Perimeter_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Pyroclast Blitz - Frenzy",
+    "path": "music/Pyroclast Blitz - Frenzy_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "RoomTone - The Cyborg Fights",
+    "path": "music/Characters/Vorro/RoomTone - The Cyborg Fights.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Scorchcleft",
+    "path": "music/Scorchcleft_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Strueres - Shoot to Thrill (Instrumental Version)",
+    "path": "music/Characters/Vireth/Strueres - Shoot to Thrill (Instrumental Version).mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "The Army of Minotaur   Epic Orchestral Battle Music (CC-BY)",
+    "path": "music/The Army of Minotaur _ Epic Orchestral Battle Music (CC-BY).webm",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "The Cogs",
+    "path": "music/The Cogs_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Unohana Bankai Theme (From  Bleach  Thousand Year Blood War )",
+    "path": "music/Characters/Simon/Unohana Bankai Theme (From _Bleach_ Thousand Year Blood War_)_spotdown.org.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Valhalla Awaits (combat, exploration)",
+    "path": "music/Valhalla Awaits (combat, exploration)_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "taurus-demon-battle-dark-souls",
+    "path": "music/taurus-demon-battle-dark-souls.mp3",
+    "volume": 0.35,
+    "repeat": false
+   }
+  ]
+ },
+ {
+  "name": "Mood: Epic",
+  "mode": 1,
+  "description": "Epic music, instrumental, shuffled.",
+  "sounds": [
+   {
+    "name": "A Rude Awakening",
+    "path": "music/A Rude Awakening_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "AVIAND - Escanor Theme 'Nanatsu no Taizai'",
+    "path": "music/AVIAND - Escanor Theme 'Nanatsu no Taizai'.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Akira Senju - To Be King",
+    "path": "music/Characters/Briggs/Akira Senju - To Be King.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Arrival of the Undead King",
+    "path": "music/Arrival of the Undead King_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "BURN IT ALL DOWN (INSTRUMENTAL) ｜ Worlds 2021 - League of Legends",
+    "path": "music/Characters/Lunarfolds/BURN IT ALL DOWN (INSTRUMENTAL) ｜ Worlds 2021 - League of Legends.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Blood On The Cobblestones",
+    "path": "music/Blood On The Cobblestones_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Broly Evolves (From  Dragon Ball Super  Broly )",
+    "path": "music/Broly Evolves (From _Dragon Ball Super_ Broly_)_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Dio's Theme - Epic Version",
+    "path": "music/Characters/Obsidian/Dio's Theme - Epic Version_spotdown.org.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Don Toliver - TORE UP (Official Instrumental)",
+    "path": "music/Characters/Sixfolds/Don Toliver - TORE UP (Official Instrumental).mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Forever Adrift - Intense",
+    "path": "music/Forever Adrift - Intense_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Friedrich Habetler - Perfect Cell Theme",
+    "path": "music/Characters/Salvatore/Friedrich Habetler - Perfect Cell Theme.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Hordebreaker - Jit'Jit",
+    "path": "music/Hordebreaker - Jit'Jit_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Ichibei Theme (From  Bleach  Thousand Year Blood War )",
+    "path": "music/Ichibei Theme (From _Bleach_ Thousand Year Blood War_)_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Instrumental King - Welcome To The Jungle",
+    "path": "music/Characters/Vireth/Instrumental King - Welcome To The Jungle.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Itadori Black Flash Theme - Remastered & Re-recorded",
+    "path": "music/Itadori Black Flash Theme - Remastered & Re-recorded_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Linkin Park - One Step Closer (Instrumental)",
+    "path": "music/Characters/Vireth/Linkin Park - One Step Closer (Instrumental).mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "One Piece - Katakuri's Theme",
+    "path": "music/One Piece - Katakuri's Theme_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Paul Drew - Aoi Todo Theme (from Jujutsu Kaisen) - Epic Rock Version",
+    "path": "music/Characters/Admiral-Lee/Paul Drew - Aoi Todo Theme (from Jujutsu Kaisen) - Epic Rock Version.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "PokéMixr92 - Broly Evolves (From 'Dragon Ball Super- Broly')",
+    "path": "music/Characters/Obsidian/PokéMixr92 - Broly Evolves (From 'Dragon Ball Super- Broly').mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Ramin Djawadi, Tom Morello - Pacific Rim (feat. Tom Morello)",
+    "path": "music/Characters/King/Ramin Djawadi, Tom Morello - Pacific Rim (feat. Tom Morello).mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Samuel Kim - Yoriichi Theme",
+    "path": "music/Samuel Kim - Yoriichi Theme.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Strueres - Highway to Hell (Instrumental Version)",
+    "path": "music/Characters/Vireth/Strueres - Highway to Hell (Instrumental Version).mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "The Boars - Sneaking",
+    "path": "music/The Boars - Sneaking_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "The Hit Crew - Back In Black - Instrumental",
+    "path": "music/Characters/Vireth/The Hit Crew - Back In Black - Instrumental.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "To Be King",
+    "path": "music/To Be King_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Trackpounder",
+    "path": "music/Trackpounder_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "control-aegir",
+    "path": "music/Characters/Vireth/control-aegir.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "drums-of-oppression-imu-s-theme-x-drums-of-liberation-one-piece-epic-version",
+    "path": "music/Characters/Aegir/drums-of-oppression-imu-s-theme-x-drums-of-liberation-one-piece-epic-version.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "the-four-kings-dark-souls-ost-metal-cover",
+    "path": "music/the-four-kings-dark-souls-ost-metal-cover.mp3",
+    "volume": 0.35,
+    "repeat": false
+   }
+  ]
+ },
+ {
+  "name": "Mood: Tension",
+  "mode": 1,
+  "description": "Tension music, instrumental, shuffled.",
+  "sounds": [
+   {
+    "name": "Archmage",
+    "path": "music/Archmage_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Belly of the Beast - Shadow",
+    "path": "music/Belly of the Beast - Shadow_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Bloodborne Soundtrack OST - Lady Maria (The Old Hunters)",
+    "path": "music/Bloodborne Soundtrack OST - Lady Maria (The Old Hunters).webm",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Bloodborne Soundtrack OST - Living Failures (The Old Hunters)",
+    "path": "music/Bloodborne Soundtrack OST - Living Failures (The Old Hunters).webm",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Broken Vessel",
+    "path": "music/Broken Vessel_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Dread Design",
+    "path": "music/Dread Design_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Evan Call - Zoltraak",
+    "path": "music/Characters/JuLee/Evan Call - Zoltraak.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Fiaclan",
+    "path": "music/Fiaclan_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Get Jinxed (Instrumental)",
+    "path": "music/Characters/Serica/Get Jinxed (Instrumental).webm",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Great Grey Wolf Sif - Dark Souls OST",
+    "path": "music/Great Grey Wolf Sif - Dark Souls OST.webm",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Ornstein and Smough - Dark Souls Soundtrack 15",
+    "path": "music/Ornstein and Smough - Dark Souls Soundtrack 15.webm",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Peaks Pass (From  God of War  Soundtrack)",
+    "path": "music/Peaks Pass (From _God of War_ Soundtrack)_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Pure Vessel",
+    "path": "music/Pure Vessel_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Saga of Stone",
+    "path": "music/Saga of Stone_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Shadowed Canopy",
+    "path": "music/Shadowed Canopy_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Shiro SAGISU - Invasion",
+    "path": "music/Characters/Ace/Shiro SAGISU - Invasion.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Shiro SAGISU - Treachery",
+    "path": "music/Characters/Capones/Shiro SAGISU - Treachery.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Subterranean Meltdown",
+    "path": "music/Subterranean Meltdown_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "The Dark Crystal  Age of Resistance",
+    "path": "music/The Dark Crystal_ Age of Resistance_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "The Hunt",
+    "path": "music/The Hunt_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Yoshimi Kudo - God-Devouring Serpent",
+    "path": "music/Yoshimi Kudo - God-Devouring Serpent.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "artorias-the-abysswalker-dark-souls-ost-metal-cover",
+    "path": "music/artorias-the-abysswalker-dark-souls-ost-metal-cover.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "firelink-shrine-dark-souls",
+    "path": "music/firelink-shrine-dark-souls.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "iron-golem-dark-souls-ost-metal-cover",
+    "path": "music/iron-golem-dark-souls-ost-metal-cover.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "iudex-gundyr-dark-souls-iii-ost-metal-cover",
+    "path": "music/iudex-gundyr-dark-souls-iii-ost-metal-cover.mp3",
+    "volume": 0.35,
+    "repeat": false
+   }
+  ]
+ },
+ {
+  "name": "Mood: Travel",
+  "mode": 1,
+  "description": "Travel music, instrumental, shuffled.",
+  "sounds": [
+   {
+    "name": "241 Pirates",
+    "path": "music/241_Pirates.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Agni Kai",
+    "path": "music/Agni Kai_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Call of The Trail",
+    "path": "music/Call of The Trail_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Druid's Path",
+    "path": "music/Druid's Path_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Fort Exogenous",
+    "path": "music/Fort Exogenous_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Helgisiður",
+    "path": "music/Helgisiður_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Journey to Paris",
+    "path": "music/Journey to Paris_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Needle",
+    "path": "music/Needle_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "No Shunpikers",
+    "path": "music/No Shunpikers_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Out For A Sailing Adventure",
+    "path": "music/Out For A Sailing Adventure_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Runes",
+    "path": "music/Runes_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Samuel Kim - The Very Very Very Strongest - Epic Version (from 'One Piece')",
+    "path": "music/Characters/King/Samuel Kim - The Very Very Very Strongest - Epic Version (from 'One Piece').mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "The First Voyage (atmosphere)",
+    "path": "music/The First Voyage (atmosphere)_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "The Journey",
+    "path": "music/The Journey_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "The Northerner",
+    "path": "music/The Northerner_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "The Road of Trials",
+    "path": "music/The Road of Trials_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "The Roads of Shiring",
+    "path": "music/The Roads of Shiring_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Tussle in the Shipyard",
+    "path": "music/Tussle in the Shipyard_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Yoshimi Kudo - Lichdragon Fortissax",
+    "path": "music/Yoshimi Kudo - Lichdragon Fortissax.mp3",
+    "volume": 0.35,
+    "repeat": false
+   }
+  ]
+ },
+ {
+  "name": "Mood: Calm",
+  "mode": 1,
+  "description": "Calm music, instrumental, shuffled.",
+  "sounds": [
+   {
+    "name": "Adulthood",
+    "path": "music/Adulthood_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Aquarius",
+    "path": "music/Aquarius_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Bloodborne Soundtrack OST - Bloodborne",
+    "path": "music/Bloodborne Soundtrack OST - Bloodborne.webm",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Dark Souls 3 OST #2 - Menu Theme (Dark Souls 3)",
+    "path": "music/Dark Souls 3 OST #2 - Menu Theme (Dark Souls 3).webm",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Do You Actually Have What It Takes",
+    "path": "music/Do You Actually Have What It Takes_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Dragon Smasher",
+    "path": "music/Characters/Tray/Dragon Smasher_spotdown.org.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Evan Call - Dragon Smasher",
+    "path": "music/Characters/Tray/Evan Call - Dragon Smasher.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "In Their Clutches",
+    "path": "music/In Their Clutches_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "In This Birch Grove",
+    "path": "music/In This Birch Grove_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Infected",
+    "path": "music/Infected_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Malak",
+    "path": "music/Characters/Malak/Malak.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Point Me to Temeria",
+    "path": "music/Point Me to Temeria_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Quarantined",
+    "path": "music/Quarantined_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Scholastic Sanctuary",
+    "path": "music/Scholastic Sanctuary_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Shiro SAGISU - 'Cometh the hour' Pt. A Opus1",
+    "path": "music/Shiro SAGISU - 'Cometh the hour' Pt. A_Opus1.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Sophia",
+    "path": "music/Sophia_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "The Marriage Contract",
+    "path": "music/The Marriage Contract_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Theme from Journey to the North",
+    "path": "music/Theme from Journey to the North_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Tsukasa Saitoh - The Final Battle",
+    "path": "music/Tsukasa Saitoh - The Final Battle.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "dominion-aegir",
+    "path": "music/Characters/Aegir/dominion-aegir.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "linus-theme",
+    "path": "music/Characters/Linus/linus-theme.mp3",
+    "volume": 0.5,
+    "repeat": false
+   }
+  ]
+ },
+ {
+  "name": "Mood: Sad",
+  "mode": 1,
+  "description": "Sad music, instrumental, shuffled.",
+  "sounds": [
+   {
+    "name": "Awakening",
+    "path": "music/Awakening_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Battle Brothers",
+    "path": "music/Battle Brothers_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Dude's Cover - Zanka no Tachi Theme (From 'Bleach- Thousand Year Blood War')",
+    "path": "music/Characters/SpiderNest/Dude's Cover - Zanka no Tachi Theme (From 'Bleach- Thousand Year Blood War').mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Forever to Run",
+    "path": "music/Forever to Run_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "How Far and How Wide",
+    "path": "music/How Far and How Wide_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "On The Edge Of Survival",
+    "path": "music/On The Edge Of Survival_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Permafrost Wasteland",
+    "path": "music/Permafrost Wasteland_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Reitunterricht",
+    "path": "music/Reitunterricht_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Samuel Kim - Lacrimosa - Epic Version (Mozart)",
+    "path": "music/Characters/Aegir/Samuel Kim - Lacrimosa - Epic Version (Mozart).mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "String Quartet No. 4, Sz. 91  IV. Allegretto pizzicato",
+    "path": "music/String Quartet No. 4, Sz. 91_ IV. Allegretto pizzicato_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Trial Of The Grasses",
+    "path": "music/Trial Of The Grasses_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Yuka Kitamura - Soul of Cinder",
+    "path": "music/Yuka Kitamura - Soul of Cinder.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Zanka no Tachi Theme (From  Bleach  Thousand Year Blood War )",
+    "path": "music/Zanka no Tachi Theme (From _Bleach_ Thousand Year Blood War_)_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Zenith",
+    "path": "music/Zenith_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "cecil",
+    "path": "music/Characters/Aegir/cecil.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "オール･フォー･ワン",
+    "path": "music/オール･フォー･ワン_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   }
+  ]
+ },
+ {
+  "name": "Vocal: songs with lyrics",
+  "mode": 0,
+  "description": "Songs with sung lyrics, kept out of the session moods.",
+  "sounds": [
+   {
+    "name": "An Toll Dubh (Arr. Marcus Warner)",
+    "path": "music/An Toll Dubh (Arr. Marcus Warner)_spotdown.org.mp3",
+    "volume": 0.25,
+    "repeat": false
+   },
+   {
+    "name": "Blood Rose",
+    "path": "music/Blood Rose_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Colm R. McGuinness - Hoist the Colours",
+    "path": "music/Characters/Joker/Colm R. McGuinness - Hoist the Colours.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Dude's Cover - Wandenreich War Declaration Theme (From 'Bleach- Thousand Year Blood War')",
+    "path": "music/Dude's Cover - Wandenreich War Declaration Theme (From 'Bleach- Thousand Year Blood War').mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Fenris Wolfblood",
+    "path": "music/Characters/Fenris/Fenris Wolfblood.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Full-Force Kamehameha (From  Dragon Ball Super  Broly )",
+    "path": "music/Full-Force Kamehameha (From _Dragon Ball Super_ Broly_)_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Kevin Grim - Elden Ring Main Theme",
+    "path": "music/Kevin Grim - Elden Ring Main Theme.mp3",
+    "volume": 0.35,
+    "repeat": false
+   },
+   {
+    "name": "Motörhead - Ace of Spades (40th Anniversary Master) (Instrumental)",
+    "path": "music/Characters/Vireth/Motörhead - Ace of Spades (40th Anniversary Master) (Instrumental).mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "O Fortuna from Carmina Burana - Vocal",
+    "path": "music/Characters/Vorro/O Fortuna from Carmina Burana - Vocal_spotdown.org.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Pergolesi  Stabat Mater  V. Quis est homo",
+    "path": "music/Characters/Vorro/Pergolesi_ Stabat Mater_ V. Quis est homo_spotdown.org.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "PokéMixr92 - Full-Force Kamehameha (From 'Dragon Ball Super- Broly')",
+    "path": "music/Characters/King/PokéMixr92 - Full-Force Kamehameha (From 'Dragon Ball Super- Broly').mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Soap&Skin - Me and the Devil",
+    "path": "music/Characters/Joker/Soap&Skin - Me and the Devil.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "Strueres - Hells Bells (Instrumental Version)",
+    "path": "music/Characters/Vireth/Strueres - Hells Bells (Instrumental Version).mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "TeamFourStar - The Final Flash",
+    "path": "music/Characters/King/TeamFourStar - The Final Flash.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "The Phantom Of The Opera",
+    "path": "music/Characters/Vorro/The Phantom Of The Opera_spotdown.org.mp3",
+    "volume": 0.5,
+    "repeat": false
+   },
+   {
+    "name": "medieval-chant-of-the-templars-antiphona-salve-regina",
+    "path": "music/medieval-chant-of-the-templars-antiphona-salve-regina.mp3",
+    "volume": 0.35,
+    "repeat": false
+   }
+  ]
+ },
+ {
+  "name": "Theme: B.O.B",
+  "mode": 0,
+  "description": "Theme for B.O.B.",
+  "sounds": [
+   {
+    "name": "bob",
+    "path": "music/bob.mp3",
+    "volume": 0.35,
+    "repeat": true
+   }
+  ]
+ },
+ {
+  "name": "Theme: Baptiste",
+  "mode": 0,
+  "description": "Theme for Baptiste.",
+  "sounds": [
+   {
+    "name": "Gohan Angers (Father-Son Kamehameha)",
+    "path": "music/Gohan Angers (Father-Son Kamehameha)_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": true
+   }
+  ]
+ },
+ {
+  "name": "Theme: Jack",
+  "mode": 0,
+  "description": "Theme for Jack.",
+  "sounds": [
+   {
+    "name": "House Of The Rising Sun - Instrumental",
+    "path": "music/House Of The Rising Sun - Instrumental_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": true
+   }
+  ]
+ },
+ {
+  "name": "Theme: Kanto",
+  "mode": 0,
+  "description": "Theme for Kanto.",
+  "sounds": [
+   {
+    "name": "PokéMixr92 - One Piece - Katakuri's Theme",
+    "path": "music/Characters/Armano/PokéMixr92 - One Piece - Katakuri's Theme.mp3",
+    "volume": 0.5,
+    "repeat": true
+   }
+  ]
+ },
+ {
+  "name": "Theme: Roma",
+  "mode": 0,
+  "description": "Theme for Roma.",
+  "sounds": [
+   {
+    "name": "roma",
+    "path": "music/roma.mp3",
+    "volume": 0.35,
+    "repeat": true
+   }
+  ]
+ },
+ {
+  "name": "Theme: The Gallows",
+  "mode": 0,
+  "description": "Theme for The Gallows.",
+  "sounds": [
+   {
+    "name": "Kill Every Venue - Vegeta's Theme (Hells Bells) Metal Cover",
+    "path": "music/Characters/Arancio/Kill Every Venue - Vegeta's Theme (Hells Bells) Metal Cover.mp3",
+    "volume": 0.5,
+    "repeat": true
+   }
+  ]
+ },
+ {
+  "name": "Theme: Tigor",
+  "mode": 0,
+  "description": "Theme for Tigor.",
+  "sounds": [
+   {
+    "name": "He's a Pirate - From  Pirates of the Caribbean  The Curse Of the Black Pearl  Score",
+    "path": "music/He's a Pirate - From _Pirates of the Caribbean_ The Curse Of the Black Pearl__Score_spotdown.org.mp3",
+    "volume": 0.35,
+    "repeat": true
+   }
+  ]
+ }
+]

@@ -187,3 +187,15 @@ export const foundryRollTableBase = z
     flags: z.record(z.unknown()).default({}),
   })
   .passthrough();
+
+// --- Base Foundry Playlist document (sounds embedded) ---
+
+export const foundryPlaylistBase = z
+  .object({
+    _id: foundryId,
+    name: z.string(),
+    mode: z.number().default(0),
+    sounds: z.array(z.object({ _id: foundryId, name: z.string(), path: z.string() }).passthrough()).default([]),
+    flags: z.record(z.unknown()).default({}),
+  })
+  .passthrough();
