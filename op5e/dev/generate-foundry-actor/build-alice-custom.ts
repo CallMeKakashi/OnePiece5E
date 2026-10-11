@@ -61,5 +61,7 @@ sys.details.level = 12; sys.details.cr = 10;
 sys.attributes.hp = { value: 210, max: 210, temp: 0, tempmax: 0, formula: "12d10 + 24" }; // override: DMG CR 10 band 206-220 (real about 90, legacy 170)
 sys.details.biography.value = "<p>Alice, Malphas's sister: a Lunarian flyer rescued from a Marine enclosure, now at Droven Calligos's side. Her Conqueror's Haki can knock out a whole ship.</p><p><strong>Balance note (CR 10):</strong> a straight Fighter 6 / Savant 6 is about 90 HP, so HP is overridden to 210 (DMG CR 10 band 206-220).</p>";
 ch.items = items; ch.name = "Alice";
+ch.img = "one-piece-5e/npcs/Blackhand/alice-new.jpg";
+ch.prototypeToken = { ...(ch.prototypeToken ?? {}), texture: { ...(ch.prototypeToken?.texture ?? {}), src: "one-piece-5e/npcs/Blackhand/alice-new-token.png" } };
 writeFileSync(`${ACTORS}/alice.json`, JSON.stringify(ch, null, 2), "utf-8");
 console.log(`Wrote ${ACTORS}/alice.json (${items.length} items)`);

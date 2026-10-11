@@ -223,4 +223,4 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 - The Savant is a paladin-style class (Ardent Soul, smite, Aura of Protection), not a fire caster. Her legacy Fire Bolt and Fireball come from the Lunarian Flame Investure (Fire Bolt, Elemental Armor, Fireball, creative ability Constitution by the race text); the sheet's spellcasting ability is Charisma for the Savant.
 - Lunarian traits (Flaming Duality, Omni-Adapted, flight 30) are added by hand as for Calder. The legacy "Unstable Conqueror's Haki" is the Conqueror's Haki chain.
 - Second Weapon pick was a Shortsword that the build drops; the user did not choose one.
-- Live in `OP5E/Blackhand`. Art is **still the default image** (pending; the vault `Attachments/Alice.png` is the nightmare Wonderland construct, not her). Not played in a real fight.
+- Live in `OP5E/Blackhand`. Art is the user's local file (`Blackhand/alice-new.jpg`, from `players/Lunarfold/alice.jpg`, token cropped locally), logged in `docs/art-credits.md`. Not played in a real fight.
