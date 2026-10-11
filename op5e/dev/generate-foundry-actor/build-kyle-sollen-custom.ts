@@ -237,5 +237,6 @@ const LIGHTER: Record<string, number> = { "Diplomat's Pack": 5, Book: 1, "Forger
 for (const i of items) if (LIGHTER[i.name ?? ""] != null) i.system.weight = { ...(i.system.weight ?? {}), value: LIGHTER[i.name ?? ""] };
 chassis.items = items;
 
+for (const i of (chassis.items as Doc[])) for (const a of Object.values(i.system?.activities ?? {}) as any[]) if (a.type === "transform" && a.profiles?.length === 1) a.transform = { ...a.transform, mode: "" }; // fixed form: use the profile actor, do not open the compendium browser on every use
 writeFileSync(`${ACTORS}/kyle-sollen.json`, JSON.stringify(chassis, null, 2), "utf-8");
 console.log(`Wrote ${ACTORS}/kyle-sollen.json (${items.length} items)`);

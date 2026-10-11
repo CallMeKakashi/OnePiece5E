@@ -16,7 +16,8 @@ const creation = (name: string) => {
 };
 
 const DROP = ["Clothes, Common", "Dagger", "No Devil Fruit (yet)"];
-const power = (() => { for (const f of readdirSync("packs-src/class-features")) { const d = JSON.parse(readFileSync(`packs-src/class-features/${f}`, "utf-8")); if (d.name === "Heart Strings") return d; } throw new Error("Heart Strings not found"); })();
+const classFeature = (name: string) => { for (const f of readdirSync("packs-src/class-features")) { const d = JSON.parse(readFileSync(`packs-src/class-features/${f}`, "utf-8")); if (d.name === name) return d; } throw new Error(`${name} not found`); };
+const power = classFeature("Heart Strings"), song = classFeature("Song of Life and Death"); // the power grants Song of Life and Death (Sourcebook Ch. 7)
 const seen = new Set<string>(); // the pipeline embeds the role, Silver Tongue and Investigator more than once
 actor.items = actor.items.filter((i) => {
   if (DROP.includes(i.name ?? "")) return false;
@@ -24,6 +25,7 @@ actor.items = actor.items.filter((i) => {
   if (seen.has(i.name!)) return false; seen.add(i.name!); return true;
 });
 actor.items.push(embedOwnedItem(power as never) as Doc); // additional power (Bard), user's pick
+actor.items.push(embedOwnedItem(song as never) as Doc);
 // Tricks and creations (user's courtroom set): Vicious Mockery comes from Silver Tongue
 for (const n of ["Vicious Mockery", "Thunder Bolt", "Sonic Boom", "Guidance", // tricks
   "Thunderwave", "Command", "Healing Word", "Bane", // 1st

@@ -91,5 +91,6 @@ sys.details.biography.value = "<p>Malphas \"The Waning Fist\": a Lunarian naviga
 ch.items = items; ch.name = "Malphas";
 ch.img = "one-piece-5e/npcs/Lunarfolds/malphas-new.png";
 ch.prototypeToken = { ...(ch.prototypeToken ?? {}), texture: { ...(ch.prototypeToken?.texture ?? {}), src: "one-piece-5e/npcs/Lunarfolds/malphas-new-token.png" } };
+for (const i of (ch.items as Doc[])) for (const a of Object.values(i.system?.activities ?? {}) as any[]) if (a.type === "transform" && a.profiles?.length === 1) a.transform = { ...a.transform, mode: "" }; // fixed form: use the profile actor, do not open the compendium browser on every use
 writeFileSync(`${ACTORS}/malphas.json`, JSON.stringify(ch, null, 2), "utf-8");
 console.log(`Wrote ${ACTORS}/malphas.json (${items.length} items)`);

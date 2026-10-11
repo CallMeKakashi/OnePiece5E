@@ -28,6 +28,11 @@ const feat = (slug: string, name: string, img: string, description: string, o: O
 const multiattack = feat("multiattack", "Multiattack", "icons/skills/melee/strike-slashes-orange.webp", "<p>The hermit crab makes two attacks: one with its pincer and one with its claw.</p>", { activation: { type: "action", cost: 1 } });
 const pincer = feat("pincer", "Pincer", "icons/creatures/claws/pincer-crab-brown.webp", `<p><em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one target. <em>Hit:</em> 3d10 + 5 bludgeoning damage. The target is grappled (escape DC ${DC}). Until this grapple ends, the target is restrained and the crab can't use its pincer on another target.</p>`,
   { actionType: "mwak", activation: { type: "action", cost: 1 }, damage: [["3d10 + 5", "bludgeoning"]], range: { value: 10, units: "ft" } });
+{ // a hit grapples (and restrains) the target: the effect is applied by the attack activity on a hit
+  const gid = generateId("homebrew/hermit-crab/pincer-grapple");
+  (pincer as any).effects = [{ _id: gid, name: "Grappled by Pincer", img: "icons/svg/net.svg", statuses: ["grappled", "restrained"], changes: [], disabled: false, transfer: false, duration: { startTime: null, seconds: null, rounds: null, turns: null, combat: null }, flags: {}, origin: null, tint: null }];
+  for (const a of Object.values((pincer as any).system.activities ?? {}) as any[]) if (a.type === "attack") a.effects = [{ _id: gid, level: { min: null, max: null } }];
+}
 const claw = feat("claw", "Claw", "icons/creatures/claws/claw-talons-glowing-orange.webp", `<p><em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one target. <em>Hit:</em> 2d8 + 5 bludgeoning damage. If the target is a creature, it makes a DC ${DC} Strength saving throw or is knocked prone.</p>`,
   { actionType: "mwak", activation: { type: "action", cost: 1 }, damage: [["2d8 + 5", "bludgeoning"]], range: { value: 10, units: "ft" } });
 const crush = feat("crush", "Crush", "icons/magic/control/silhouette-grow-shrink-tan.webp", `<p>Against a creature it has grappled, the crab crushes: the target makes a DC ${DC} Strength saving throw, taking 4d8 + 5 bludgeoning damage on a failed save, or half as much on a success. A Medium or smaller creature that fails is pulled against the crab's body and has disadvantage on checks to escape the grapple until the start of its next turn.</p>`,
