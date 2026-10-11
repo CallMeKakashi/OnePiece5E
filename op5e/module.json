@@ -23,7 +23,8 @@
     "scripts/character-creator.mjs",
     "scripts/summon-clone.mjs",
     "scripts/effect-groups.mjs",
-    "scripts/music-sync.mjs"
+    "scripts/music-sync.mjs",
+    "scripts/actor-themes.mjs"
   ],
   "styles": [
     "styles/module.css"
