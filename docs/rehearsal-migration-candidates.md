@@ -52,7 +52,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 - [ ] Kael (Barbarian 5, Fishman) and Vesper (Rogue 5) in Shadows/Scorpio [migrate]
 - [x] Serica Corven and Veyl Corven (Sixfolds) [migrate]
 - [ ] Chuckles, Giggles, Snickers, Wheeze (Circle of Clowns, empty stubs) [low priority]
-- [ ] Marine Warship (vehicle) and SeaBeast - Hermit Crab [low priority]
+- [ ] Marine Warship (vehicle) [low priority], [x] SeaBeast - Hermit Crab (built)
 - [x] Commander Leon (built), [x] Drez Crown (built), [x] Petty Officer Marine (built)
 - [ ] Alice (CR 10), Jazmine (CR 5), Cassian Valehart, Merlin, Pegasus [unclear, tell me which matter]
 

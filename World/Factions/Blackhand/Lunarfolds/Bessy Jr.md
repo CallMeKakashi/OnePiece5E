@@ -44,6 +44,10 @@ foundry_live_slug: "seabeast-hermit-crab"
 - [[Soundless 5]] — **Circle of Clowns** ([[Chuckles]] · [[Giggles]] · [[Snickers]] · [[Wheeze]])
 - [[Episode 11 - Welcome to the Jungle]] · [[Episode 12 - Clown Tricks]] · [[Episode 13 - The Reaper (No DM Audio)]]
 - [[Discord/exports/character-art]] — Bessy Sr. / Bessy portraits
+## Foundry build
+
+Rebuilt 2026-10-11 in `bb-rehearsal` (`OP5E/Sea Beasts`): custom Gargantuan sea beast, CR 5, HP 160, AC 17, pincer grapple, claw knockdown, Crush, Shell Retreat. Details in `op5e/docs/NPC-BUILDS.md`. The statblock below is the legacy sheet (a Giant Crocodile copy).
+
 ## Live sheet (Foundry)
 
 *Last synced: 2026-05-31 06:39 UTC*

@@ -187,3 +187,15 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 
 - Legacy Formation Fighting, Basic Haki Training and Steady Aim are replaced by the class kit (Archery, Careful Aim, Exploding Shot, Armament Novice).
 - Live in `OP5E/Marines`. Art is **still the default image**: no art was supplied and the legacy sheet's image could not be recovered (the rehearsal copy was overwritten on import). Logged as pending in `docs/art-credits.md`.
+
+## SeaBeast Hermit Crab / Bessy Jr. (2026-10-11)
+
+`build-hermit-crab.ts` (fully custom, same helper pattern as `build-kanto.ts`). Neither the compendium (32 monsters) nor the sourcebook has a sea king stat block (it only says Tier 1 foes include "a few small seakings"), so the user chose a fully custom Gargantuan CR 5 beast. The legacy sheet was a Giant Crocodile copy.
+
+| NPC | CR | HP | AC |
+|---|---|---|---|
+| SeaBeast - Hermit Crab | 5 | 160 (legacy; DMG CR 5 band is 131-145) | 17 |
+
+- Str 21 Dex 9 Con 17 Int 2 Wis 10 Cha 7, walk 30 / swim 50, token 4x4. Multiattack: Pincer (3d10+5 bludgeoning, grapple DC 16, restrains) and Claw (2d8+5, Str DC 16 or prone). Bonus-action Crush on a grappled target (4d8+5, Str DC 16), Shell Retreat (AC 19, speed 0), Salvaged Shell (nonmagical resistance, shelter for Medium or smaller), Amphibious.
+- No "living vessel" feature: passengers are covered only by the shell's total-cover line. Features and numbers were chosen by me when the user had no preference.
+- Live in `OP5E/Sea Beasts`, art is the existing vault image (`Attachments/monsters/seabeast-hermit-crab.png`, copied to `npcs/Sea Beasts/hermit-crab.png`). Not played in a real fight.
