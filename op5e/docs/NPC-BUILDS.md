@@ -224,3 +224,14 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 - Lunarian traits (Flaming Duality, Omni-Adapted, flight 30) are added by hand as for Calder. The legacy "Unstable Conqueror's Haki" is the Conqueror's Haki chain.
 - Second Weapon pick was a Shortsword that the build drops; the user did not choose one.
 - Live in `OP5E/Blackhand`. Art is the user's local file (`Blackhand/alice-new.jpg`, from `players/Lunarfold/alice.jpg`, token cropped locally), logged in `docs/art-credits.md`. Not played in a real fight.
+
+## Cassian Valehart (2026-10-11)
+
+`build-cassian-custom.ts`, spec `cassian-spec.json`. Human Bard 8 (College of Eloquence), Noble, Role: Scholar, no fruit, no additional power. Scores 9/14/14/12/13/18 (point-buy 12/13/13/10/12/8 on Cha/Dex/Con/Int/Wis/Str, cost 20; Human +1 all, Silver Tongue Cha +1, Investigator Int +1, level 4 and 8 ASIs Cha +2 each). Feats: Silver Tongue (background), Investigator (role). Haki: Observation Novice (Bard Haki step at level 8). Skills: Persuasion and Insight (expertise), Deception (doubled by Silver Tongue), Investigation (doubled by Investigator), History, Intimidation, Performance; game set: playing cards. Gear: Quarterstaff (Requiem of Clause, baton form), Flute, Leather Armor (the suit, equipped), Diplomat's Pack.
+
+| NPC | CR | HP | AC |
+|---|---|---|---|
+| Cassian Valehart | 6 | 140 (override, real about 43; legacy 91; DMG CR 6 band 131-145) | 13 (Leather Armor + Dex) |
+
+- Legacy sound powers use compendium creations only (the user's choice): Dissonant Verdict = Shatter, Cease and Desist = Hold Person, Cross-Examiner = Truth Zone, Closing Argument = Bardic Inspiration. Tricks: Vicious Mockery (Silver Tongue), Thunder Bolt, Sonic Boom, Guidance. Creations: Thunderwave, Command, Healing Word, Bane, Shatter, Hold Person, Suggestion, Truth Zone, Counter Creation, Fear, Confusion, Hold Monster. Spell DC 15, attack +7. Objection!, Legal Immunity and the legacy Shift Form were dropped (no compendium match).
+- Live in `OP5E/Velencruz`, replacing the old stub. Art is **still the default image** (pending). Not played in a real fight.

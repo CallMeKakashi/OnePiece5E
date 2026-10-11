@@ -30,6 +30,10 @@ Lawyer at the high court on [[Lex Imperia]], son of [[Judge Valehart]], and a fi
 
 - Hears the distress call with Goru, tells Jefferson to prepare a ship at once and says he wants the crew out of his mansion as soon as possible ([[Session 025 — Fire Storm|Episode 25]]).
 
+## Foundry build
+
+Rebuilt 2026-10-11 in `bb-rehearsal` (`OP5E/Velencruz`): Human Bard 8 (College of Eloquence), Noble, Role: Scholar, CR 6, HP 140 (override), AC 13. Requiem of Clause is a Quarterstaff; Observation Haki (Novice); sound powers are compendium creations (Shatter, Hold Person, Truth Zone). Details in `op5e/docs/NPC-BUILDS.md`. The statblocks below are the legacy sheet.
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

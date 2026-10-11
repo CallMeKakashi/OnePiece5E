@@ -55,7 +55,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 - [ ] Chuckles, Giggles, Snickers, Wheeze (Circle of Clowns, empty stubs) [low priority]
 - [x] Marine Warship (built), [x] SeaBeast - Hermit Crab (built)
 - [x] Commander Leon (built), [x] Drez Crown (built), [x] Petty Officer Marine (built)
-- [x] Alice (built), [ ] Jazmine (CR 5), Cassian Valehart, Merlin, Pegasus [unclear, tell me which matter]
+- [x] Alice (built), [ ] Jazmine (CR 5), [x] Cassian Valehart (built), Merlin, Pegasus [unclear, tell me which matter]
 
 **Freefield (10 pirates and locals)**
 - [ ] Joe "Mitchblade" Mitch (CR 6), Kael Dhamar (CR 5) [migrate]
@@ -102,7 +102,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 9. [x] SeaBeast - Hermit Crab (built)
 10. [x] Marine Warship, rebuilt as a ship actor, not an NPC
 
-Not mentioned yet, still in place: Jazmine, Cassian Valehart, Merlin, Pegasus (Archived root), the old Façade (Archived/Gentle Giant Pirates), Beiro and the rest.
+Not mentioned yet, still in place: Jazmine, Merlin, Pegasus (Archived root), the old Façade (Archived/Gentle Giant Pirates), Beiro and the rest.
 
 ### Update (same day, later)
 
@@ -132,3 +132,4 @@ Not mentioned yet, still in place: Jazmine, Cassian Valehart, Merlin, Pegasus (A
 - **Marine Warship: done** (`OP5E/Ships`, Galleon hull with 4 Swivel Guns, 4 18-pounders, 2 36-pounders). Art is the user's pin (a four-view sheet).
 - **Alice: done** (`OP5E/Blackhand`, Lunarian Fighter 6 Banneret / Savant 6 Radiant Superiority, level 12, CR 10, HP 210 (override), AC 15). Art is a stand-in (local `players/Lunarfold/alice.jpg`). Next: Cassian Valehart, Dravos, Malphas with Thunderbird Form 2.
 - **Folder moves (2026-10-11, `bb-rehearsal`):** Clone (Irik's Test Subject summon) to `OP5E/Sharkfin Pirates`; Mechanical Cannon (Facade's summon) to `OP5E/Blackhand`; Hulking and Skeletal Animated Undead (test-harness leftovers) to `System`; Rustwing (Keelboat) to `Dead`. Still outside `OP5E` although remade: Five Families (Cedro, Nerolo, Capones, Queen), Guisseppi (Gin, Rhum), Commodore (Greyhound, Obsidian), Horus (Heathcliff), Afterimage, SSR; undecided.
+- **Cassian Valehart: done** (`OP5E/Velencruz`, Human Bard 8 College of Eloquence, Noble, Role: Scholar, CR 6, HP 140 (override), AC 13; sound powers as compendium creations). Art pending. Next: Dravos, then Malphas with Thunderbird Form 2.
