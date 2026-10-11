@@ -4879,7 +4879,7 @@
       }
     },
     {
-      "_id": "4e8f846557f25fe9",
+      "_id": "dff16f907f77120e",
       "name": "Fighting Style: Great Weapon Fighting",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -4964,7 +4964,7 @@
       "_key": "!items!72769d4989cf62a8"
     },
     {
-      "_id": "5e5949cd6daba3cd",
+      "_id": "4781a23d4d09b96c",
       "name": "Katana Master",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -5108,7 +5108,7 @@
                   "denomination": 4,
                   "bonus": "@prof",
                   "types": [
-                    ""
+                    "slashing"
                   ],
                   "custom": {
                     "enabled": false,
@@ -5223,7 +5223,7 @@
       "_key": "!items!39b3aeef347aab36"
     },
     {
-      "_id": "5173911754793ed1",
+      "_id": "5edd4773a8058713",
       "name": "Great Weapon Master",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -5539,7 +5539,7 @@
       "_key": "!items!f701a351c863bf46"
     },
     {
-      "_id": "7030310d481009a5",
+      "_id": "a814d5bf6ce34a3b",
       "name": "Permanent Haki-Imbuement",
       "type": "feat",
       "img": "icons/magic/symbols/star-rising-purple.webp",
@@ -5875,7 +5875,7 @@
       }
     },
     {
-      "_id": "e9605a7292a1aa26",
+      "_id": "175ec02d9e304e29",
       "name": "Tough Customer",
       "type": "feat",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -5957,7 +5957,7 @@
       }
     },
     {
-      "_id": "e74d3a1da03c1e45",
+      "_id": "87da399609a7fe13",
       "name": "Active Combatant",
       "type": "feat",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
@@ -6039,7 +6039,7 @@
       }
     },
     {
-      "_id": "d01edb9ad7f1fabd",
+      "_id": "06221efc4429ce42",
       "name": "Endless Vigor",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",

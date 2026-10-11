@@ -2627,7 +2627,11 @@
                   "denomination": 6,
                   "bonus": "",
                   "types": [
-                    ""
+                    "piercing",
+                    "bludgeoning",
+                    "slashing",
+                    "fire",
+                    "thunder"
                   ],
                   "custom": {
                     "enabled": false,
@@ -4465,7 +4469,7 @@
       }
     },
     {
-      "_id": "190b05c038a36833",
+      "_id": "f816a3859e479213",
       "name": "Dice Set",
       "type": "tool",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -4518,7 +4522,7 @@
       "_key": "!items!eccee0becc9e6792"
     },
     {
-      "_id": "7200eaa8b14879b1",
+      "_id": "11f95cd30445837d",
       "name": "Fighting Style: Archery",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -4636,7 +4640,7 @@
       "_key": "!items!046b6f1dffc9244a"
     },
     {
-      "_id": "540a3d94e3b68591",
+      "_id": "f54e34c763159908",
       "name": "Guidance",
       "type": "spell",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -4801,7 +4805,7 @@
       }
     },
     {
-      "_id": "220d2d8e128dd829",
+      "_id": "2b98ea94feca8f5b",
       "name": "Draw",
       "type": "spell",
       "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
@@ -4972,7 +4976,7 @@
       }
     },
     {
-      "_id": "9c3e6855a0afe0df",
+      "_id": "7c48803d3980f67a",
       "name": "Spark Bolt",
       "type": "spell",
       "img": "icons/magic/lightning/bolt-forked-blue.webp",
@@ -5167,7 +5171,7 @@
       }
     },
     {
-      "_id": "a132e1bccde40762",
+      "_id": "1523e4641d97044d",
       "name": "Alacrity",
       "type": "spell",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
@@ -5338,7 +5342,7 @@
       }
     },
     {
-      "_id": "090ee3610e33850b",
+      "_id": "1948cbd28cea7d8d",
       "name": "Zephyr Strike",
       "type": "spell",
       "img": "icons/magic/symbols/runes-star-blue.webp",
@@ -5533,7 +5537,7 @@
       }
     },
     {
-      "_id": "21bb958cb3c20110",
+      "_id": "3b2d1ea811cfdda9",
       "name": "Misty Step",
       "type": "spell",
       "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
@@ -5704,7 +5708,7 @@
       }
     },
     {
-      "_id": "146cfcfa44828e01",
+      "_id": "171429c74f1c300f",
       "name": "Advanced Weapon",
       "type": "spell",
       "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
@@ -5875,7 +5879,7 @@
       }
     },
     {
-      "_id": "a1d8653df7bbe7d4",
+      "_id": "b05af35e9dec40ce",
       "name": "Retreat",
       "type": "spell",
       "img": "icons/magic/fire/projectile-meteor-salvo-heavy-red.webp",
@@ -6046,7 +6050,7 @@
       }
     },
     {
-      "_id": "97af1dc08406f0d7",
+      "_id": "346709e181f16763",
       "name": "Grounding",
       "type": "spell",
       "img": "icons/magic/nature/root-vines-grow-brown.webp",
@@ -6224,7 +6228,7 @@
       }
     },
     {
-      "_id": "26bd235f30390a4d",
+      "_id": "64fe094a208590fe",
       "name": "Cloud of Daggers",
       "type": "spell",
       "img": "icons/weapons/daggers/dagger-glowing-white.webp",
@@ -6419,7 +6423,7 @@
       }
     },
     {
-      "_id": "d5c290d987aba5cb",
+      "_id": "c743a13691a00e8d",
       "name": "Fearsome Fortitude",
       "type": "feat",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",

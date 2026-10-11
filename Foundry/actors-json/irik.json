@@ -5479,7 +5479,7 @@
       }
     },
     {
-      "_id": "99617eda2d79d5b3",
+      "_id": "ea74fc7d9fca321e",
       "name": "Dabu Dabu no Mi",
       "type": "loot",
       "img": "modules/op5e/assets/icons/devil-fruit-paramecia.svg",
@@ -5527,7 +5527,7 @@
       "_key": "!items!acad70ae42193a24"
     },
     {
-      "_id": "5e94b136cff41fda",
+      "_id": "faf4bd3a5b1410df",
       "name": "Test Subject",
       "type": "feat",
       "img": "icons/magic/light/explosion-star-glow-yellow.webp",
@@ -5733,7 +5733,7 @@
       "_key": "!items!861b442b9a358587"
     },
     {
-      "_id": "9efd60ccbb8a74e5",
+      "_id": "e47428d32de0d20a",
       "name": "Bait and Switch",
       "type": "feat",
       "img": "icons/skills/melee/strike-sword-gray.webp",
@@ -5809,7 +5809,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "34175655426dcd42",
+                  "target": "devil-fruit-uses",
                   "value": "1",
                   "scaling": {}
                 }
@@ -5892,7 +5892,7 @@
       "_key": "!items!861731b9e8e48da3"
     },
     {
-      "_id": "3512c06547fcd93e",
+      "_id": "5762f42bec0c9058",
       "name": "Mirror Image",
       "type": "spell",
       "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
@@ -5988,7 +5988,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "34175655426dcd42",
+                  "target": "devil-fruit-uses",
                   "value": "1",
                   "scaling": {}
                 }
@@ -5997,7 +5997,7 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
               "chatFlavor": ""
@@ -6068,7 +6068,7 @@
       }
     },
     {
-      "_id": "ca91747cb966a2b7",
+      "_id": "bbe46d7f86d071ba",
       "name": "Misty Step",
       "type": "spell",
       "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
@@ -6164,7 +6164,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "34175655426dcd42",
+                  "target": "devil-fruit-uses",
                   "value": "1",
                   "scaling": {}
                 }
@@ -6173,7 +6173,7 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
               "chatFlavor": ""
@@ -6244,7 +6244,7 @@
       }
     },
     {
-      "_id": "34175655426dcd42",
+      "_id": "e3ed7e1d0da2655b",
       "name": "Devil Fruit Uses",
       "type": "feat",
       "img": "icons/skills/melee/strike-blade-blood-red.webp",
@@ -6410,7 +6410,7 @@
       "_key": "!items!f1b6a1ceb52e6d43"
     },
     {
-      "_id": "bb322bc064cbf316",
+      "_id": "b1a6d19520a7de99",
       "name": "Devil Fruit Ability Check, Fruit-Fruit DC and Attack",
       "type": "feat",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
@@ -6804,7 +6804,7 @@
       "_key": "!items!990dca216575f1bd"
     },
     {
-      "_id": "ed55aedb200c14fc",
+      "_id": "8620ad4cdd8469a6",
       "name": "Ocean's Scorn",
       "type": "feat",
       "img": "icons/magic/water/projectile-ice-faceted-blue.webp",

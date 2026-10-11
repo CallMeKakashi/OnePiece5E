@@ -2426,8 +2426,8 @@
         },
         "uses": {
           "value": null,
-          "max": "",
-          "per": null,
+          "max": "max(1, 1 + @abilities.con.mod)",
+          "per": "lr",
           "recovery": "",
           "prompt": true
         },
@@ -2445,6 +2445,152 @@
         "recharge": {
           "value": null,
           "charged": false
+        },
+        "activities": {
+          "f74044921c368d30": {
+            "_id": "f74044921c368d30",
+            "type": "utility",
+            "name": "Rapid Action: extra attack",
+            "sort": 0,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Whenever you take the Attack action, make one additional melee attack from the Afterimage's position."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          },
+          "e883eb8a777e02b6": {
+            "_id": "e883eb8a777e02b6",
+            "type": "utility",
+            "name": "Rapid Action: Afterimage intercepts",
+            "sort": 1,
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "condition": "a creature attacks another creature you can see",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Before the attack roll, teleport the Afterimage to an unoccupied space within 5 feet of the target; the attack is made against the Afterimage."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
         }
       },
       "effects": [],
@@ -2659,7 +2805,7 @@
       }
     },
     {
-      "_id": "4d56f070d2481093",
+      "_id": "ea4718cb6614a862",
       "name": "Fighting Style: Two-Weapon Fighting",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -3666,7 +3812,7 @@
         "identified": true,
         "armor": {
           "value": 14,
-          "dex": 2
+          "dex": 3
         },
         "strength": 0,
         "stealth": false,
@@ -4076,7 +4222,7 @@
       }
     },
     {
-      "_id": "16eb66e4585bbc91",
+      "_id": "d8843ebd239d1d93",
       "name": "Color of Armament Apprentice",
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-white.webp",
@@ -6350,6 +6496,259 @@
       }
     },
     {
+      "_id": "59225ccf656bba60",
+      "name": "Devious Strike",
+      "type": "feat",
+      "img": "icons/weapons/daggers/dagger-curved-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Starting at 5th Level, you can outwit any foe while in combat with a combination of dexterity and deception. When you deal Sneak Attack damage, you can add one of the following Devious Strike options below. Each option has a die cost, which is the number of Sneak Attack dice you must forgo to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack's damage is dealt. An attack can only have one Devious Strike option at a time. If a Devious Strike requires a saving throw, the DC equals 8 plus your Dexterity modifier and Proficiency Bonus.</p><p><strong>Trip (Cost: 1d6).</strong> If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition.</p><p><strong>Withdraw (Cost: 1d6).</strong> Immediately after the attack, you move up to half your speed without provoking Opportunity Attacks.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Rogue 5",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "activities": {
+          "6771a56a76e0ed10": {
+            "_id": "6771a56a76e0ed10",
+            "type": "save",
+            "name": "Trip (Cost: 1d6)",
+            "sort": 0,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Devious Strike option (forgo 1d6 of your Sneak Attack dice before rolling; the effect occurs immediately after the attack's damage is dealt). If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "4295314a42ed43fc",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "8 + @abilities.dex.mod + @prof"
+              }
+            }
+          },
+          "86d8249eadcacd37": {
+            "_id": "86d8249eadcacd37",
+            "type": "utility",
+            "name": "Withdraw (Cost: 1d6)",
+            "sort": 1,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Devious Strike option (forgo 1d6 of your Sneak Attack dice before rolling; the effect occurs immediately after the attack's damage is dealt). Immediately after the attack, you move up to half your speed without provoking Opportunity Attacks."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
+        }
+      },
+      "effects": [
+        {
+          "_id": "4295314a42ed43fc",
+          "name": "Prone (Trip)",
+          "img": "icons/svg/falling.svg",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {},
+          "statuses": [
+            "prone"
+          ],
+          "tint": null,
+          "_key": "!items.effects!8c283d39c178658d.4295314a42ed43fc"
+        }
+      ],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
       "_id": "0fbf2001582da99b",
       "name": "Uncanny Dodge",
       "type": "feat",
@@ -6501,7 +6900,7 @@
       }
     },
     {
-      "_id": "70b9373004e0382b",
+      "_id": "2923b6b060a06f2c",
       "name": "Dual Wielder",
       "type": "feat",
       "img": "icons/skills/melee/hand-grip-sword-red.webp",
@@ -6614,7 +7013,7 @@
       "_key": "!items!d6d105a1935e45f6"
     },
     {
-      "_id": "661d6aa5ce106ff4",
+      "_id": "4a4953ff0c89a08a",
       "name": "Multiple Weapon Style",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -6704,7 +7103,7 @@
       "_key": "!items!7117d0bebb2b393f"
     },
     {
-      "_id": "1f4c372f41ac006c",
+      "_id": "73eb7366ce38b1e6",
       "name": "Additional Strike",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -6876,7 +7275,7 @@
       "_key": "!items!a0842b3d38d7771e"
     },
     {
-      "_id": "a67ca52d0cdcf4a6",
+      "_id": "ba72ea107b816a8c",
       "name": "Take-Down",
       "type": "feat",
       "img": "icons/skills/melee/unarmed-punch-fist.webp",
@@ -7033,7 +7432,7 @@
       }
     },
     {
-      "_id": "043ae996bfd01187",
+      "_id": "3b88394e58039881",
       "name": "Gallows Baton (Left)",
       "type": "weapon",
       "img": "icons/weapons/clubs/club-baton-blue.webp",
@@ -7209,7 +7608,7 @@
       "_key": "!items!61ed60d4cd4e0cc1"
     },
     {
-      "_id": "c575624c4b6264d2",
+      "_id": "5e466705f53864d1",
       "name": "Gallows Baton (Right)",
       "type": "weapon",
       "img": "icons/weapons/clubs/club-baton-blue.webp",
@@ -7385,7 +7784,7 @@
       "_key": "!items!61ed60d4cd4e0cc1"
     },
     {
-      "_id": "ef4cdad09fa1b8c7",
+      "_id": "b74cc36a3aa87a54",
       "name": "Legendary Resistance (3/Day)",
       "type": "feat",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp",
@@ -7551,7 +7950,7 @@
       }
     },
     {
-      "_id": "d443d04aac851b92",
+      "_id": "6785f2080ff0252a",
       "name": "Legendary Actions",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -7702,7 +8101,7 @@
       }
     },
     {
-      "_id": "09dd75f55a77d461",
+      "_id": "82a7866bfa3b6a89",
       "name": "Baton Strike (Legendary Action)",
       "type": "feat",
       "img": "icons/weapons/clubs/club-baton-blue.webp",
@@ -7877,7 +8276,7 @@
       }
     },
     {
-      "_id": "e66b37a083ec25a0",
+      "_id": "84d39377463b9283",
       "name": "Lair Actions",
       "type": "feat",
       "img": "icons/environment/settlement/castle-gatehouse.webp",

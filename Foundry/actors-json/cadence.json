@@ -2396,7 +2396,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "level",
@@ -2501,7 +2501,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "level",
@@ -2606,7 +2606,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "level",
@@ -2711,7 +2711,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "none",
@@ -2816,7 +2816,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "level",
@@ -2921,7 +2921,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "level",
@@ -4411,7 +4411,14 @@
                   "denomination": 8,
                   "bonus": "",
                   "types": [
-                    ""
+                    "acid",
+                    "radiant",
+                    "cold",
+                    "fire",
+                    "lightning",
+                    "necrotic",
+                    "poison",
+                    "thunder"
                   ],
                   "custom": {
                     "enabled": false,
@@ -6517,7 +6524,7 @@
       }
     },
     {
-      "_id": "c49f09ee8e45e638",
+      "_id": "9bcfd100a5de2836",
       "name": "Shire Shire no Mi (Command-Command Fruit)",
       "type": "feat",
       "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
@@ -6668,7 +6675,7 @@
       }
     },
     {
-      "_id": "2ad871e601abf6b1",
+      "_id": "aff216ce6b960d76",
       "name": "Command-Command: Fiat",
       "type": "feat",
       "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
@@ -6837,7 +6844,7 @@
       }
     },
     {
-      "_id": "75fab615903fe23b",
+      "_id": "172831e6e5525ff8",
       "name": "Command-Command: Absolute Imperative",
       "type": "feat",
       "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
@@ -7036,7 +7043,7 @@
       }
     },
     {
-      "_id": "167943eb1914574a",
+      "_id": "7a6617db637f2a84",
       "name": "Command-Command: Crushing Mandate",
       "type": "feat",
       "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
@@ -7187,7 +7194,7 @@
       }
     },
     {
-      "_id": "8d01077972c5e61b",
+      "_id": "e060edb59a93442c",
       "name": "Command-Command: Lingering Order",
       "type": "feat",
       "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
@@ -7338,7 +7345,7 @@
       }
     },
     {
-      "_id": "d9f733e56fd8ee16",
+      "_id": "e464fdc1b7371263",
       "name": "Devil Fruit Uses",
       "type": "feat",
       "img": "icons/skills/melee/strike-blade-blood-red.webp",
@@ -7504,7 +7511,7 @@
       "_key": "!items!f1b6a1ceb52e6d43"
     },
     {
-      "_id": "46ed47988b3a4f60",
+      "_id": "d76109e2cb864c88",
       "name": "Devil Fruit Ability Check, Fruit-Fruit DC and Attack",
       "type": "feat",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
@@ -7898,7 +7905,7 @@
       "_key": "!items!990dca216575f1bd"
     },
     {
-      "_id": "451aac52316db716",
+      "_id": "4fdd923b7d97080f",
       "name": "Ocean's Scorn",
       "type": "feat",
       "img": "icons/magic/water/projectile-ice-faceted-blue.webp",
@@ -8715,7 +8722,7 @@
       "_key": "!items!6e9d7ec2ca209e1e"
     },
     {
-      "_id": "3bec67aeaaf66580",
+      "_id": "01d6bc53259286e9",
       "name": "Unarmed Master",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -8839,7 +8846,7 @@
       "_key": "!items!d07ec4cd7a94bc2a"
     },
     {
-      "_id": "233fd7780c16f976",
+      "_id": "c9fd427b018d2d97",
       "name": "Iron-Willed",
       "type": "feat",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -8955,7 +8962,7 @@
       "_key": "!items!11865eae85be9d43"
     },
     {
-      "_id": "ed19df669b85ad61",
+      "_id": "cf0031e56a5380d5",
       "name": "Voice of the Silenced",
       "type": "feat",
       "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",

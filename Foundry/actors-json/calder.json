@@ -6067,7 +6067,7 @@
       }
     },
     {
-      "_id": "0bbe97158e8c2a50",
+      "_id": "79e07f46b936a273",
       "name": "Darkvision",
       "type": "feat",
       "img": "icons/magic/unholy/beam-ringed-impact-purple.webp",
@@ -6183,7 +6183,7 @@
       }
     },
     {
-      "_id": "6619addb25ceb549",
+      "_id": "f53a21fc9d4f70a4",
       "name": "Omni-Adapted",
       "type": "feat",
       "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
@@ -6255,7 +6255,7 @@
           "changes": [
             {
               "key": "system.traits.dr.value",
-              "mode": 0,
+              "mode": 2,
               "value": "fire",
               "priority": 20
             }
@@ -6299,7 +6299,7 @@
       }
     },
     {
-      "_id": "40ebaca212355795",
+      "_id": "b6a0edafea73f0e9",
       "name": "Flaming Duality",
       "type": "feat",
       "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
@@ -6629,7 +6629,7 @@
       }
     },
     {
-      "_id": "979107d10ad0d0ad",
+      "_id": "96d744b1ab15cdea",
       "name": "Empowered Godspeed",
       "type": "feat",
       "img": "icons/magic/time/arrows-circling-green.webp",
@@ -6711,7 +6711,7 @@
       }
     },
     {
-      "_id": "54c7e69d4d91d828",
+      "_id": "0fc362474b319056",
       "name": "Improved Ignite",
       "type": "feat",
       "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
@@ -6893,7 +6893,7 @@
       }
     },
     {
-      "_id": "ecae2599a1609107",
+      "_id": "d4706b88284f81f4",
       "name": "Flame Investure",
       "type": "feat",
       "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
@@ -7064,7 +7064,7 @@
       }
     },
     {
-      "_id": "008458608fa35089",
+      "_id": "7f5dd7e2559d8671",
       "name": "Fire Bolt",
       "type": "spell",
       "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
@@ -7169,7 +7169,7 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
               "chatFlavor": ""
@@ -7259,7 +7259,7 @@
       }
     },
     {
-      "_id": "82185bf6fc7711e6",
+      "_id": "f05bfad75f947896",
       "name": "Elemental Armor",
       "type": "spell",
       "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
@@ -7359,7 +7359,7 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
               "chatFlavor": ""
@@ -7430,7 +7430,7 @@
       }
     },
     {
-      "_id": "3e30a98d48da3af6",
+      "_id": "4472a400873a57f0",
       "name": "Fireball",
       "type": "spell",
       "img": "icons/magic/fire/projectile-fireball-orange.webp",
@@ -7535,7 +7535,7 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
               "chatFlavor": ""
@@ -7631,7 +7631,7 @@
       }
     },
     {
-      "_id": "5b95e39f2400fd33",
+      "_id": "9c1013f03b0bb19d",
       "name": "Flying Strikes",
       "type": "feat",
       "img": "icons/magic/air/wind-tornado-funnel-green.webp",
@@ -7730,7 +7730,7 @@
       "_key": "!items!2f6cd976e5725c37"
     },
     {
-      "_id": "3b3675240e5e8546",
+      "_id": "e3d9a409fd167391",
       "name": "Flowing Mind",
       "type": "feat",
       "img": "icons/magic/perception/orb-crystal-ball-scrying.webp",
@@ -7812,7 +7812,7 @@
       }
     },
     {
-      "_id": "524f4e9bf1c73f38",
+      "_id": "320d169fae285550",
       "name": "Artful Mastery",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -7934,7 +7934,7 @@
       }
     },
     {
-      "_id": "026e7696e225bac7",
+      "_id": "4e4207e86a9fc7b6",
       "name": "Free Spirit",
       "type": "feat",
       "img": "icons/skills/melee/strike-sword-gray.webp",
@@ -8016,7 +8016,7 @@
       }
     },
     {
-      "_id": "4f172fd435b2cfee",
+      "_id": "341d945ecba2a560",
       "name": "Back In The Fight",
       "type": "feat",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",

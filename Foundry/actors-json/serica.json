@@ -6353,7 +6353,7 @@
       }
     },
     {
-      "_id": "0495a2d744991722",
+      "_id": "b0e1a38966834528",
       "name": "Buki Buki no Mi",
       "type": "loot",
       "img": "modules/op5e/assets/icons/devil-fruit-paramecia.svg",
@@ -6401,7 +6401,7 @@
       "_key": "!items!6280dd1ec0742cba"
     },
     {
-      "_id": "470cf4f1a51c8060",
+      "_id": "ec8dcd26375557b3",
       "name": "Devil Fruit Uses",
       "type": "feat",
       "img": "icons/skills/melee/strike-blade-blood-red.webp",
@@ -6567,7 +6567,7 @@
       "_key": "!items!f1b6a1ceb52e6d43"
     },
     {
-      "_id": "a003f8f01f8b1a7e",
+      "_id": "9314594b6313dd5a",
       "name": "Devil Fruit Ability Check, Fruit-Fruit DC and Attack",
       "type": "feat",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
@@ -6961,7 +6961,7 @@
       "_key": "!items!990dca216575f1bd"
     },
     {
-      "_id": "bc5a8c1eaa9620fd",
+      "_id": "eb917716d4e33496",
       "name": "Ocean's Scorn",
       "type": "feat",
       "img": "icons/magic/water/projectile-ice-faceted-blue.webp",
@@ -7778,7 +7778,7 @@
       "_key": "!items!6e9d7ec2ca209e1e"
     },
     {
-      "_id": "9be25e41c42ad77f",
+      "_id": "cd43417128dda28f",
       "name": "Paramecia Improved Usage",
       "type": "feat",
       "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
@@ -8124,7 +8124,7 @@
       }
     },
     {
-      "_id": "03077268afd5ca10",
+      "_id": "118d3ed7ae504399",
       "name": "Cannon Master",
       "type": "feat",
       "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
@@ -8324,7 +8324,7 @@
       "_key": "!items!57528d5375006d33"
     },
     {
-      "_id": "928d7fbaab03a42a",
+      "_id": "033d4b442f7ed7dd",
       "name": "Savage Attacker",
       "type": "feat",
       "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
@@ -8448,7 +8448,7 @@
       "_key": "!items!a512f3c7195ed5ae"
     },
     {
-      "_id": "89c4af1ae96d06bb",
+      "_id": "d8f1f4112999fbc3",
       "name": "Color of Armament Apprentice",
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-white.webp",
@@ -8633,7 +8633,7 @@
       "_key": "!items!c04321ae3bf3215f"
     },
     {
-      "_id": "52b9825096449de3",
+      "_id": "c34b491db4ba8df1",
       "name": "Color of Observation Novice",
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-white.webp",
@@ -8841,7 +8841,7 @@
       "_key": "!items!96dcda2a40ae256f"
     },
     {
-      "_id": "d9b2ebb20fbeeb6e",
+      "_id": "abd5e088577b52d0",
       "name": "Pon Pon Pon (formed Pistol)",
       "type": "weapon",
       "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
@@ -9015,7 +9015,7 @@
       "_key": "!items!d9c7acb32b8b5670"
     },
     {
-      "_id": "d4d998c4f351cfba",
+      "_id": "f388f432e3a0a504",
       "name": "Barrage",
       "type": "spell",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
@@ -9111,7 +9111,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "470cf4f1a51c8060",
+                  "target": "devil-fruit-uses",
                   "value": "1",
                   "scaling": {}
                 }
@@ -9120,7 +9120,7 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
               "chatFlavor": ""
@@ -9198,7 +9198,7 @@
       }
     },
     {
-      "_id": "c8fab5142b4001f0",
+      "_id": "6c45ef765932d8cf",
       "name": "Construct Cannon",
       "type": "spell",
       "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
@@ -9294,7 +9294,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "470cf4f1a51c8060",
+                  "target": "devil-fruit-uses",
                   "value": "1",
                   "scaling": {}
                 }
@@ -9303,7 +9303,7 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
               "chatFlavor": ""
@@ -9374,7 +9374,7 @@
       }
     },
     {
-      "_id": "51ce224177f84c59",
+      "_id": "f3ce0c02c7c08024",
       "name": "Burning Blade",
       "type": "spell",
       "img": "icons/magic/fire/barrier-wall-flame-ring-yellow.webp",
@@ -9569,7 +9569,7 @@
       }
     },
     {
-      "_id": "2c72c8e1a3bc2112",
+      "_id": "ce2e1b4f0e9da226",
       "name": "Snatch (Buki Buki no Mi)",
       "type": "feat",
       "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
@@ -9647,7 +9647,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "470cf4f1a51c8060",
+                  "target": "devil-fruit-uses",
                   "value": "1",
                   "scaling": {}
                 }
@@ -9656,7 +9656,7 @@
                 "allowed": false,
                 "max": ""
               },
-              "spellSlot": true
+              "spellSlot": false
             },
             "description": {
               "chatFlavor": ""
@@ -9734,7 +9734,7 @@
       }
     },
     {
-      "_id": "cb775c039cee209e",
+      "_id": "8a38635ede598644",
       "name": "Precision Attack",
       "type": "feat",
       "img": "icons/skills/melee/strike-blade-blood-red.webp",
@@ -9914,7 +9914,7 @@
       "_key": "!items!738fc9bcfbd1b11b"
     },
     {
-      "_id": "535aeebaa713c806",
+      "_id": "d84230045092acac",
       "name": "Menacing Attack",
       "type": "feat",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",

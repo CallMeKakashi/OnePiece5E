@@ -2756,7 +2756,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "none",
@@ -2858,7 +2858,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "level",
@@ -2963,7 +2963,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "level",
@@ -3068,7 +3068,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "level",
@@ -3173,7 +3173,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "none",
@@ -3278,7 +3278,7 @@
         },
         "preparation": {
           "mode": "prepared",
-          "prepared": false
+          "prepared": true
         },
         "scaling": {
           "mode": "none",
@@ -6725,7 +6725,7 @@
       }
     },
     {
-      "_id": "5635292b3e87212b",
+      "_id": "43cfea851d1b6b15",
       "name": "Color of Armament Apprentice",
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-white.webp",
@@ -6913,7 +6913,7 @@
       "_key": "!items!c04321ae3bf3215f"
     },
     {
-      "_id": "ff5e836adefef90f",
+      "_id": "fd0c8394f79f7e69",
       "name": "Ricochet Rounds",
       "type": "feat",
       "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
@@ -6995,7 +6995,7 @@
       }
     },
     {
-      "_id": "d258d4bba7394137",
+      "_id": "120788c5b2e2f8ea",
       "name": "Rebound Bound",
       "type": "feat",
       "img": "icons/skills/melee/blade-tip-orange.webp",
@@ -7077,7 +7077,7 @@
       }
     },
     {
-      "_id": "29f9d53a73cf3feb",
+      "_id": "c56382eac525b2af",
       "name": "Alchemist's Supplies",
       "type": "tool",
       "img": "icons/skills/trades/construction-mason-bricklayer-red.webp",
@@ -7130,7 +7130,7 @@
       "_key": "!items!0ea5adada6166183"
     },
     {
-      "_id": "1e42c3568f7fafda",
+      "_id": "9670589ad3adced7",
       "name": "OHM Targeting Suite",
       "type": "feat",
       "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
@@ -7308,7 +7308,7 @@
       }
     },
     {
-      "_id": "29c72ec1735c4f6f",
+      "_id": "bf69a5d73d0fcc6c",
       "name": "Reinforced Cyborg Shell",
       "type": "equipment",
       "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
