@@ -209,5 +209,5 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 | Marine Warship | 17 | 1200 | 30 | 4.5 mph | 60 crew, 90 passengers, 300 tn cargo |
 
 - Guns: 4 Swivel Guns, 4 18-pounders, 2 36-pounders (one item each with a quantity). The legacy sheet was a Galleon copy with swim speed 0, non-pack cannons (12 and 64-pounder) and three Explosive Cannon feats; all dropped.
-- Live in `Ships`. There is no vault page for this ship, so no "Foundry build" section. Art is **still the default image** (pending). Not tested in a ship fight.
+- Live in `Ships`. There is no vault page for this ship, so no "Foundry build" section. Art is the user's pin (`Ships/marine-warship-new.jpg`, logged in `docs/art-credits.md`). Not tested in a ship fight.
 - `dev/harness/import-npc.mjs` creates the vehicle fine but crashes printing its summary (it reads spellcasting numbers a vehicle lacks); the actor itself is correct.

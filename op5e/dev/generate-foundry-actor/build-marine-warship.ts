@@ -17,6 +17,7 @@ const guns = [gun("Swivel Gun", 4), gun("18-pounder", 4), gun("36-pounder", 2)];
 const actor = { ...structuredClone(ship), name: "Marine Warship", items: guns, effects: [], flags: {}, folder: null, sort: 0, ownership: { default: 0 } } as Doc;
 delete (actor as any)._id;
 actor.system.details.biography.value = "<p>A Marine ship of the line: Galleon hull (AC 17, 1200 HP, damage threshold 30, 4.5 mph, 60 crew and 90 passengers) with a mixed broadside of four Swivel Guns, four 18-pounders and two 36-pounders.</p><p><strong>Build note:</strong> rebuilt from the Galleon in the ships pack; the legacy 12- and 64-pounders and Explosive Cannon feats were dropped.</p>";
-actor.prototypeToken = { name: "Marine Warship", width: 6, height: 6, actorLink: false, disposition: -1 } as never;
+actor.img = "one-piece-5e/npcs/Ships/marine-warship-new.jpg";
+actor.prototypeToken = { name: "Marine Warship", texture: { src: "one-piece-5e/npcs/Ships/marine-warship-new-token.png" }, width: 6, height: 6, actorLink: false, disposition: -1 } as never;
 writeFileSync("../Foundry/actors-json/marine-warship.json", JSON.stringify(actor, null, 2), "utf-8");
 console.log(`Wrote marine-warship.json (${guns.length} weapons)`);
