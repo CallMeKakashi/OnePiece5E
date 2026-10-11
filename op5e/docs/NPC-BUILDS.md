@@ -199,3 +199,15 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 - Str 21 Dex 9 Con 17 Int 2 Wis 10 Cha 7, walk 30 / swim 50, token 4x4. Multiattack: Pincer (3d10+5 bludgeoning, grapple DC 16, restrains) and Claw (2d8+5, Str DC 16 or prone). Bonus-action Crush on a grappled target (4d8+5, Str DC 16), Shell Retreat (AC 19, speed 0), Salvaged Shell (nonmagical resistance, shelter for Medium or smaller), Amphibious.
 - No "living vessel" feature: passengers are covered only by the shell's total-cover line. Features and numbers were chosen by me when the user had no preference.
 - Live in `OP5E/Sea Beasts`, art is the user's Pinterest pick (`Sea Beasts/hermit-crab-new.jpg`, token cropped locally), logged in `docs/art-credits.md`. Not played in a real fight.
+
+## Marine Warship (2026-10-11)
+
+`build-marine-warship.ts`. A vehicle, so no class build: the Galleon from the ships pack plus a mixed broadside from the ship-weapons pack (user's picks: Galleon hull, mixed broadside, generic name).
+
+| Ship | AC | HP | Damage threshold | Speed | Crew |
+|---|---|---|---|---|---|
+| Marine Warship | 17 | 1200 | 30 | 4.5 mph | 60 crew, 90 passengers, 300 tn cargo |
+
+- Guns: 4 Swivel Guns, 4 18-pounders, 2 36-pounders (one item each with a quantity). The legacy sheet was a Galleon copy with swim speed 0, non-pack cannons (12 and 64-pounder) and three Explosive Cannon feats; all dropped.
+- Live in `Ships`. There is no vault page for this ship, so no "Foundry build" section. Art is **still the default image** (pending). Not tested in a ship fight.
+- `dev/harness/import-npc.mjs` creates the vehicle fine but crashes printing its summary (it reads spellcasting numbers a vehicle lacks); the actor itself is correct.

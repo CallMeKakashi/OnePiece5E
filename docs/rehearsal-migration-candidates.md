@@ -52,7 +52,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 - [ ] Kael (Barbarian 5, Fishman) and Vesper (Rogue 5) in Shadows/Scorpio [migrate]
 - [x] Serica Corven and Veyl Corven (Sixfolds) [migrate]
 - [ ] Chuckles, Giggles, Snickers, Wheeze (Circle of Clowns, empty stubs) [low priority]
-- [ ] Marine Warship (vehicle) [low priority], [x] SeaBeast - Hermit Crab (built)
+- [x] Marine Warship (built), [x] SeaBeast - Hermit Crab (built)
 - [x] Commander Leon (built), [x] Drez Crown (built), [x] Petty Officer Marine (built)
 - [ ] Alice (CR 10), Jazmine (CR 5), Cassian Valehart, Merlin, Pegasus [unclear, tell me which matter]
 
@@ -99,7 +99,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 7. [ ] Calder Voss (built), Goru Yamashita (built), Marine Ensign (Armor Mk III), Mikey/Morrow (built)
 8. [ ] Commander Leon (OpenSea)
 9. [ ] SeaBeast - Hermit Crab (NPC/Monsters)
-10. [ ] Marine Warship, rebuilt as a ship actor, not an NPC
+10. [x] Marine Warship, rebuilt as a ship actor, not an NPC
 
 Not mentioned yet, still in place: Drez Crown, Petty Officer Marine (OpenSea), Alice, Jazmine, Cassian Valehart, Merlin, Pegasus (Archived root), the old Façade (Archived/Gentle Giant Pirates), Beiro and the rest.
 
