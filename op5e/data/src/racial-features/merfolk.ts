@@ -1,7 +1,7 @@
 import { generateId } from "../../helpers/id.js";
 import { createItemGrant } from "../../helpers/advancement.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
-import { createDAEEffect, customChange, upgradeValue } from "../../helpers/effects.js";
+import { createDAEEffect, upgradeValue } from "../../helpers/effects.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
 function rf(
@@ -54,7 +54,7 @@ export const merfolkAquaticAdaption = rf(
   "Merfolk",
   {},
   [createDAEEffect("race/merfolk/aquatic-adaption", "Aquatic Adaption", [
-    customChange("system.traits.dr.value", "cold"),
+    { key: "system.traits.dr.value", mode: 2, value: "cold" },
   ])],
 );
 

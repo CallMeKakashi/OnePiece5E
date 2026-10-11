@@ -1,6 +1,6 @@
 import { generateId } from "../../helpers/id.js";
 import { buildFlamingDualityActivities } from "../../helpers/activities.js";
-import { createDAEEffect, customChange, upgradeValue } from "../../helpers/effects.js";
+import { createDAEEffect, upgradeValue } from "../../helpers/effects.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
 function rf(
@@ -64,7 +64,7 @@ export const omniAdapted = rf(
   "Lunarian",
   {},
   [createDAEEffect("race/lunarian/omni-adapted", "Omni-Adapted", [
-    customChange("system.traits.dr.value", "fire"),
+    { key: "system.traits.dr.value", mode: 2, value: "fire" },
   ])],
 );
 

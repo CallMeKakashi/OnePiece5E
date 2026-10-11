@@ -46,7 +46,7 @@ export const auditFixSpecs0: Record<string, Spec> = {
   ] },
 
   "class-features/Ardent Smite": { activities: [
-    { name: "Ardent Smite", type: "damage", activation: "special", damage: [["2d8", ""]],
+    { name: "Ardent Smite", type: "damage", activation: "special", damage: [["2d8", ["acid", "radiant", "cold", "fire", "lightning", "necrotic", "poison", "thunder"]]],
       note: "When you hit with a melee weapon attack, expend a creation slot: 2d8 for a 1st-level slot, plus 1d8 for each level higher than 1st (maximum 6d8). Damage type depends on your Ardent Soul. Add the extra dice by hand." },
   ] },
 
@@ -158,7 +158,7 @@ export const auditFixSpecs0: Record<string, Spec> = {
   ] },
 
   "class-features/Exploding Shot": { activities: [
-    { name: "Exploding Shot", type: "damage", activation: "special", damage: [["1d6", ""]], note: "Once per turn when you hit with a ranged weapon attack: extra 1d6 of the weapon's type, fire or thunder." },
+    { name: "Exploding Shot", type: "damage", activation: "special", damage: [["1d6", ["piercing", "bludgeoning", "slashing", "fire", "thunder"]]], note: "Once per turn when you hit with a ranged weapon attack: extra 1d6 of the weapon's type, fire or thunder." },
     { name: "Exploding Shot: blast", type: "save", activation: "special", area: { type: "radius", size: 5 }, targets: { type: "creature" }, save: { ability: "dex", dc: CDC, onSave: "half" },
       note: "All creatures within 5 feet of the attack take the damage from the attack on a failure, or half on a success." },
   ] },

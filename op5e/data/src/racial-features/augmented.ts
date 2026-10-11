@@ -1,5 +1,5 @@
 import { generateId } from "../../helpers/id.js";
-import { createDAEEffect, addBonus, customChange, upgradeValue, overrideValue } from "../../helpers/effects.js";
+import { createDAEEffect, addBonus, upgradeValue, overrideValue } from "../../helpers/effects.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
 function rf(
@@ -69,7 +69,7 @@ export const mechanicalImprovements = rf(
   "Augmented (Cyborg)",
   {},
   [createDAEEffect("race/augmented/cyborg/mechanical-improvements", "Mechanical Improvements", [
-    customChange("system.traits.dr.value", "poison"),
+    { key: "system.traits.dr.value", mode: 2, value: "poison" },
     upgradeValue("system.attributes.senses.darkvision", 60),
   ])],
 );
@@ -189,7 +189,7 @@ export const graveFortitude = rf(
   "Augmented (Revived)",
   {},
   [createDAEEffect("race/augmented/revived/grave-fortitude", "Grave Fortitude", [
-    customChange("system.traits.dr.value", "poison"),
+    { key: "system.traits.dr.value", mode: 2, value: "poison" },
   ])],
 );
 

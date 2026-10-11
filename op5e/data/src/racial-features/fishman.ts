@@ -1,5 +1,5 @@
 import { generateId } from "../../helpers/id.js";
-import { createDAEEffect, addBonus, customChange, upgradeValue } from "../../helpers/effects.js";
+import { createDAEEffect, addBonus, upgradeValue } from "../../helpers/effects.js";
 import type { FeatureItem } from "../../schemas/feature.js";
 
 function rf(
@@ -54,7 +54,7 @@ export const aquaticAdaption = rf(
   "Fishman",
   {},
   [createDAEEffect("race/fishman/aquatic-adaption", "Aquatic Adaption", [
-    customChange("system.traits.dr.value", "cold"),
+    { key: "system.traits.dr.value", mode: 2, value: "cold" },
   ])],
 );
 

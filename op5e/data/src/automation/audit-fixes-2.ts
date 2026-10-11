@@ -191,7 +191,7 @@ export const auditFixSpecs2: Record<string, Spec> = {
   "feats/Katana Master": {
     uses: { max: "@prof", per: "sr" },
     activities: [
-      { name: "Ken Die: extra damage", type: "damage", activation: "special", consumeUse: true, damage: [["1d4 + @prof", ""]], note: "When you hit with a Katana or Odachi, expend a Ken Die for extra damage." },
+      { name: "Ken Die: extra damage", type: "damage", activation: "special", consumeUse: true, damage: [["1d4 + @prof", "slashing"]], note: "When you hit with a Katana or Odachi, expend a Ken Die for extra damage." },
       { name: "Ken Die: AC bonus", type: "utility", activation: "reaction", reactionWhen: "A creature hits you", consumeUse: true, roll: { formula: "1d4 + @prof", name: "AC bonus" }, note: "Increase your AC by the result against that attack." },
     ],
   },
@@ -225,7 +225,7 @@ export const auditFixSpecs2: Record<string, Spec> = {
       note: "On your turn, expend half your movement. The next creature you hit with a melee spear, javelin, pike, trident or glaive must save; on a failure it is knocked prone or disarmed of an object it holds (your choice)." },
   ] },
 
-  "feats/Logia Elemental Domain": { activities: [
+  "feats/Logia Elemental Domain": { uses: { max: "2", per: "lr" }, activities: [
     { name: "Produce Element", type: "utility", activation: "action", note: "Produce a near-infinite amount of your element and manipulate it as part of the same action." },
     { name: "Elemental Body", type: "utility", activation: "bonus", consumeUse: true, duration: MIN(), targets: { type: "self" },
       effects: [{ name: "Elemental Body", seconds: 60, changes: BPS.map((v) => ({ key: "system.traits.dr.value", mode: 2, value: v })) }],
