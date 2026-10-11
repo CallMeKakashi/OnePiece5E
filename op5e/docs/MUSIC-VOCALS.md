@@ -4,14 +4,14 @@ Demucs (htdemucs vocals stem) scored 167 songs: **score** = share of 1-second wi
 
 | Tier | Score | Song | Playlist(s) | LRCLIB | Lyrics? (you) |
 |---|---|---|---|---|---|
-| HIGH | 1.00 | medieval-chant-of-the-templars-antiphona-salve-regina.mp3 | General combat | unknown | |
-| HIGH | 0.97 | Characters/Joker/Colm R. McGuinness - Hoist the Colours.mp3 | (Characters) | vocal | |
+| HIGH | 1.00 | medieval-chant-of-the-templars-antiphona-salve-regina.mp3 | General combat | unknown | yes (sure) |
+| HIGH | 0.97 | Characters/Joker/Colm R. McGuinness - Hoist the Colours.mp3 | (Characters) | vocal | yes (sure) |
 | HIGH | 0.93 | Dark Souls 3 OST #18 - Abyss Watchers (Boss Fight Theme).webm | General combat | unknown | |
-| HIGH | 0.86 | Characters/Vorro/Pergolesi_ Stabat Mater_ V. Quis est homo_spotdown.org.mp3 | (Characters) | vocal | |
+| HIGH | 0.86 | Characters/Vorro/Pergolesi_ Stabat Mater_ V. Quis est homo_spotdown.org.mp3 | (Characters) | vocal | yes (sure) |
 | HIGH | 0.78 | Characters/Aegir/cecil.mp3 | (Characters) | unknown | |
 | HIGH | 0.74 | Dark Souls 3 OST #2 - Menu Theme (Dark Souls 3).webm | General combat | unknown | |
-| HIGH | 0.72 | Characters/Vorro/O Fortuna from Carmina Burana - Vocal_spotdown.org.mp3 | (Characters) | vocal | |
-| HIGH | 0.71 | Characters/Vorro/The Phantom Of The Opera_spotdown.org.mp3 | (Characters) | vocal | |
+| HIGH | 0.72 | Characters/Vorro/O Fortuna from Carmina Burana - Vocal_spotdown.org.mp3 | (Characters) | vocal | yes (sure) |
+| HIGH | 0.71 | Characters/Vorro/The Phantom Of The Opera_spotdown.org.mp3 | (Characters) | vocal | yes (sure) |
 | HIGH | 0.70 | Shiro SAGISU - 'Cometh the hour' Pt. A_Opus1.mp3 | General combat | vocal | |
 | HIGH | 0.67 | The Army of Minotaur _ Epic Orchestral Battle Music (CC-BY).webm | Obsidian Combat | unknown | |
 | HIGH | 0.65 | Bloodborne Soundtrack OST - Lady Maria (The Old Hunters).webm | General combat | unknown | |
@@ -26,30 +26,30 @@ Demucs (htdemucs vocals stem) scored 167 songs: **score** = share of 1-second wi
 | HIGH | 0.55 | Kenpachi's Bankai Theme_spotdown.org.mp3 | Obsidian Combat | unknown | |
 | HIGH | 0.55 | Characters/SpiderNest/Ergun Bicer of Moody Music - Kenpachi's Bankai Theme.mp3 | (Characters) | unknown | |
 | HIGH | 0.54 | Ornstein and Smough - Dark Souls Soundtrack 15.webm | General combat | unknown | |
-| HIGH | 0.53 | Blood Rose_spotdown.org.mp3 | Intense | unknown | |
+| HIGH | 0.53 | Blood Rose_spotdown.org.mp3 | Intense | unknown | check |
 | HIGH | 0.53 | Great Grey Wolf Sif - Dark Souls OST.webm | General combat | unknown | |
-| HIGH | 0.49 | Characters/Joker/Soap&Skin - Me and the Devil.mp3 | (Characters) | vocal | |
-| HIGH | 0.49 | Dude's Cover - Wandenreich War Declaration Theme (From 'Bleach- Thousand Year Blood War').mp3 | Obsidian Combat | unknown | |
+| HIGH | 0.49 | Characters/Joker/Soap&Skin - Me and the Devil.mp3 | (Characters) | vocal | yes (sure) |
+| HIGH | 0.49 | Dude's Cover - Wandenreich War Declaration Theme (From 'Bleach- Thousand Year Blood War').mp3 | Obsidian Combat | unknown | check |
 | HIGH | 0.48 | Dark Souls 3 OST #5 - Iudex Gundyr (1st Boss Fight Theme ).webm | General combat | unknown | |
 | HIGH | 0.47 | Pure Vessel_spotdown.org.mp3 | Obsidian Combat | instrumental | |
 | HIGH | 0.45 | taurus-demon-battle-dark-souls.mp3 | General combat | unknown | |
 | HIGH | 0.43 | Ichibei Theme (From _Bleach_ Thousand Year Blood War_)_spotdown.org.mp3 | Obsidian Combat | unknown | |
 | HIGH | 0.40 | Point Me to Temeria_spotdown.org.mp3 | Intense | instrumental | |
 | HIGH | 0.40 | Druid's Path_spotdown.org.mp3 | travel | unknown | |
-| HIGH | 0.40 | Characters/Fenris/Fenris Wolfblood.mp3 | (Characters) | vocal | |
+| HIGH | 0.40 | Characters/Fenris/Fenris Wolfblood.mp3 | (Characters) | vocal | yes (sure) |
 | HIGH | 0.39 | Characters/Aegir/Samuel Kim - Lacrimosa - Epic Version (Mozart).mp3 | (Characters) | instrumental | |
 | HIGH | 0.37 | Frieren the Slayer_spotdown.org.mp3 | Obsidian Combat | instrumental | |
 | HIGH | 0.36 | Out For A Sailing Adventure_spotdown.org.mp3 | travel | unknown | |
-| HIGH | 0.35 | Characters/King/TeamFourStar - The Final Flash.mp3 | (Characters) | unknown | |
-| HIGH | 0.35 | Kevin Grim - Elden Ring Main Theme.mp3 | Obsidian Combat | unknown | |
+| HIGH | 0.35 | Characters/King/TeamFourStar - The Final Flash.mp3 | (Characters) | unknown | check |
+| HIGH | 0.35 | Kevin Grim - Elden Ring Main Theme.mp3 | Obsidian Combat | unknown | check |
 | HIGH | 0.33 | Characters/Capones/Shiro SAGISU - Treachery.mp3 | (Characters) | vocal | |
 | HIGH | 0.33 | Arrival of the Undead King_spotdown.org.mp3 | Obsidian | unknown | |
 | HIGH | 0.33 | Itadori Black Flash Theme - Remastered & Re-recorded_spotdown.org.mp3 | Obsidian Combat | unknown | |
-| HIGH | 0.32 | Characters/King/PokéMixr92 - Full-Force Kamehameha (From 'Dragon Ball Super- Broly').mp3 | (Characters) | unknown | |
+| HIGH | 0.32 | Characters/King/PokéMixr92 - Full-Force Kamehameha (From 'Dragon Ball Super- Broly').mp3 | (Characters) | unknown | check |
 | HIGH | 0.31 | To Be King_spotdown.org.mp3 | Obsidian Combat | instrumental | |
 | HIGH | 0.31 | Characters/Simon/Dude's Cover - Unohana Bankai Theme (From 'Bleach- Thousand Year Blood War').mp3 | (Characters) | unknown | |
 | HIGH | 0.31 | Samuel Kim - Yoriichi Theme.mp3 | General combat | instrumental | |
-| HIGH | 0.31 | Full-Force Kamehameha (From _Dragon Ball Super_ Broly_)_spotdown.org.mp3 | Obsidian Combat | unknown | |
+| HIGH | 0.31 | Full-Force Kamehameha (From _Dragon Ball Super_ Broly_)_spotdown.org.mp3 | Obsidian Combat | unknown | check |
 | HIGH | 0.31 | Characters/Briggs/Akira Senju - To Be King.mp3 | (Characters) | instrumental | |
 | MID | 0.28 | Dude's Cover - Unohana Bankai Theme (From 'Bleach- Thousand Year Blood War').mp3 | Dropped_Audios | unknown | |
 | MID | 0.26 | Bloodborne Soundtrack OST - Bloodborne.webm | General combat | unknown | |
@@ -75,7 +75,7 @@ Demucs (htdemucs vocals stem) scored 167 songs: **score** = share of 1-second wi
 | LOW | 0.11 | Sophia_spotdown.org.mp3 | travel | unknown | |
 | LOW | 0.11 | Scholastic Sanctuary_spotdown.org.mp3 | travel | unknown | |
 | LOW | 0.10 | Yoshimi Kudo - Lichdragon Fortissax.mp3 | General combat | instrumental | |
-| LOW | 0.10 | An Toll Dubh (Arr. Marcus Warner)_spotdown.org.mp3 | travel | vocal | |
+| LOW | 0.10 | An Toll Dubh (Arr. Marcus Warner)_spotdown.org.mp3 | travel | vocal | yes (sure) |
 | LOW | 0.10 | Scorchcleft_spotdown.org.mp3 | Intense | unknown | |
 | LOW | 0.09 | Shadowed Canopy_spotdown.org.mp3 | Intense | unknown | |
 | LOW | 0.09 | Characters/Vireth/control-aegir.mp3 | (Characters) | unknown | |
@@ -147,7 +147,7 @@ Demucs (htdemucs vocals stem) scored 167 songs: **score** = share of 1-second wi
 | LOW | 0.00 | Saga of Stone_spotdown.org.mp3 | travel | unknown | |
 | LOW | 0.00 | The Roads of Shiring_spotdown.org.mp3 | travel | instrumental | |
 | LOW | 0.00 | A Rude Awakening_spotdown.org.mp3 | Intense | instrumental | |
-| LOW | 0.00 | Characters/Arancio/Kill Every Venue - Vegeta's Theme (Hells Bells) Metal Cover.mp3 | (Characters) | unknown | |
+| LOW | 0.00 | Characters/Arancio/Kill Every Venue - Vegeta's Theme (Hells Bells) Metal Cover.mp3 | (Characters) | unknown | check |
 | LOW | 0.00 | He's a Pirate - From _Pirates of the Caribbean_ The Curse Of the Black Pearl__Score_spotdown.org.mp3 | Tigor | instrumental | |
 | LOW | 0.00 | Needle_spotdown.org.mp3 | Intense | instrumental | |
 | LOW | 0.00 | iron-golem-dark-souls-ost-metal-cover.mp3 | General combat | unknown | |
@@ -164,8 +164,8 @@ Demucs (htdemucs vocals stem) scored 167 songs: **score** = share of 1-second wi
 | LOW | 0.00 | Characters/Tray/Evan Call - Dragon Smasher.mp3 | (Characters) | instrumental | |
 | LOW | 0.00 | Characters/Tray/Dragon Smasher_spotdown.org.mp3 | (Characters) | instrumental | |
 | LOW | 0.00 | The Hunt_spotdown.org.mp3 | Intense | unknown | |
-| LOW | 0.00 | Characters/Vireth/Motörhead - Ace of Spades (40th Anniversary Master) (Instrumental).mp3 | (Characters) | vocal | |
-| LOW | 0.00 | Characters/Vireth/Strueres - Hells Bells (Instrumental Version).mp3 | (Characters) | unknown | |
+| LOW | 0.00 | Characters/Vireth/Motörhead - Ace of Spades (40th Anniversary Master) (Instrumental).mp3 | (Characters) | vocal | yes (sure) |
+| LOW | 0.00 | Characters/Vireth/Strueres - Hells Bells (Instrumental Version).mp3 | (Characters) | unknown | check |
 | LOW | 0.00 | House Of The Rising Sun - Instrumental_spotdown.org.mp3 | Jack | unknown | |
 | LOW | 0.00 | Forever to Run_spotdown.org.mp3 | travel | instrumental | |
 | LOW | 0.00 | Quarantined_spotdown.org.mp3 | Intense | unknown | |
