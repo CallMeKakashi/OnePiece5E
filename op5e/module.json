@@ -22,7 +22,8 @@
     "scripts/compendium.mjs",
     "scripts/character-creator.mjs",
     "scripts/summon-clone.mjs",
-    "scripts/effect-groups.mjs"
+    "scripts/effect-groups.mjs",
+    "scripts/music-sync.mjs"
   ],
   "styles": [
     "styles/module.css"
