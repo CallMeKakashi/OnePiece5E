@@ -37,7 +37,7 @@ for (const i of items) if (["Chain Mail", "Shield", "Longsword"].includes(i.name
 
 // ---- Numbers. Standard array maxed (20/14/20/12/14/16) + Human trait +1 Str/Con/Cha; every ASI was a feat, so the +1 feat bumps (cap 20) add nothing.
 const sys = chassis.system;
-const abil = { str: 21, dex: 14, con: 21, int: 12, wis: 14, cha: 17 };
+const abil = { str: 20, dex: 14, con: 20, int: 12, wis: 14, cha: 17 }; // capped at 20 (audit fix 2026-10-11; no relic raises them)
 for (const [k, v] of Object.entries(abil)) sys.abilities[k].value = v;
 for (const k of ["str", "con", "wis", "cha"]) sys.abilities[k].proficient = 1; // Fighter Str/Con, Elegant Courtier Wis, Unyielding Charisma Cha
 const SKILL_ABILITY: Record<string, string> = { acr: "dex", ani: "wis", arc: "int", ath: "str", dec: "cha", his: "int", ins: "wis", itm: "cha", inv: "int", med: "wis", nat: "int", prc: "wis", prf: "cha", per: "cha", rel: "int", slt: "dex", ste: "dex", sur: "wis" };

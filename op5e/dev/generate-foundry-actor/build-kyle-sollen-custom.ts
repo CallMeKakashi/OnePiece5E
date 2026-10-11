@@ -97,7 +97,7 @@ const ICON = {
   sand: "icons/magic/air/wind-tornado-wall-blue.webp",
   curse: "icons/magic/unholy/hand-marked-pink.webp",
 };
-const DC = 19;   // 8 + proficiency (+5) + Charisma (+6)
+const DC = 18;   // 8 + proficiency (+5) + Charisma (+5); Cha capped at 20 (audit fix 2026-10-11)
 
 const eyeOfTheSphinx = feat("homebrew/kyle-sollen/eye-of-the-sphinx", "Eye of the Sphinx", ICON.eye,
   "<p><strong>Mark (action):</strong> Kyle looks at a creature he can see in person and sets his gaze on it. The creature becomes <em>Marked</em>. Kyle can track any creature he has Marked, no matter how far away, as long as it is on the same plane: he always knows its direction, distance and general condition (unharmed, bloodied, near death, dead). He cannot Mark anyone he has not seen in person, and a Mark ends when the creature dies or Kyle ends it as a free action. There is no limit to the number of Marks.</p>"
@@ -206,7 +206,7 @@ vest.system.description = { value: "<p>A gold-threaded, flamboyant vest of reinf
 for (const i of items) if (["Gilded Merchant's Vest", "Flintlock"].includes(i.name ?? "") && i.system) i.system.equipped = true;
 for (const i of items) if (["Thieves' Tools", "Tambourine"].includes(i.name ?? "") && i.system) i.system.proficient = 1;
 const sys = chassis.system;
-sys.abilities.str.value = 8; sys.abilities.dex.value = 18; sys.abilities.con.value = 14; sys.abilities.int.value = 14; sys.abilities.wis.value = 13; sys.abilities.cha.value = 22;   // 20 CHA +2 (Bard 4), 16 DEX +2 (Bard 8), +1 WIS (Skill Expert)
+sys.abilities.str.value = 8; sys.abilities.dex.value = 18; sys.abilities.con.value = 14; sys.abilities.int.value = 14; sys.abilities.wis.value = 13; sys.abilities.cha.value = 20;   // 20 CHA +2 (Bard 4), 16 DEX +2 (Bard 8), +1 WIS (Skill Expert)
 sys.abilities.dex.proficient = 1; sys.abilities.cha.proficient = 1;   // Bard saves
 const SKILLS: Record<string, number> = { ins: 2, inv: 2, prf: 2, per: 2, dec: 2, prc: 2, his: 2, slt: 1, arc: 1, ste: 1, itm: 1 };
 const SKILL_ABILITY: Record<string, string> = { acr: "dex", ani: "wis", arc: "int", ath: "str", dec: "cha", his: "int", ins: "wis", itm: "cha", inv: "int", med: "wis", nat: "int", prc: "wis", prf: "cha", per: "cha", rel: "int", slt: "dex", ste: "dex", sur: "wis" };

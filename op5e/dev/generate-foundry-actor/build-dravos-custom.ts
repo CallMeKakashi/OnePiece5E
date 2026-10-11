@@ -67,7 +67,7 @@ for (const i of items) {
 
 const sys = actor.system;
 // point-buy base Int 13, Dex 12, Con 11, Wis 11, Cha 9, Str 8 (cost 16); Human +1 all; Keen Mind Int +1; Observant Wis +1; ASIs 4, 8, 12: Int +3, Con +2, Dex +1
-const abil = { str: 9, dex: 14, con: 14, int: 18, wis: 13, cha: 10 };
+const abil = { str: 8, dex: 14, con: 14, int: 18, wis: 12, cha: 9 }; // Human +1 only on Int, Dex and Con (the trait gives +3 in total, corrected 2026-10-11)
 for (const [k, v] of Object.entries(abil)) sys.abilities[k].value = v;
 for (const k of Object.keys(abil)) sys.abilities[k].proficient = ["con", "int"].includes(k) ? 1 : 0; // Gadgeteer saves
 sys.attributes.spellcasting = "int"; // Creativity and the Fruit-Fruit DC (highest modifier is Int)

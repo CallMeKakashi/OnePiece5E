@@ -132,7 +132,7 @@
         }
       },
       "inspiration": false,
-      "prof": 4
+      "prof": 3
     },
     "details": {
       "biography": {
@@ -276,7 +276,7 @@
   },
   "items": [
     {
-      "_id": "3214049b1c0d18e3",
+      "_id": "01267d66b701be25",
       "name": "Human",
       "type": "race",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -499,7 +499,7 @@
       }
     },
     {
-      "_id": "5d789cf2ceb83b55",
+      "_id": "b760980e1e954574",
       "name": "Navigator",
       "type": "background",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -521,17 +521,17 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.430fcfa33a4d79a0",
+                  "uuid": "Actor.a1cf13f324431a00.Item.beb0928e938bf3c9",
                   "optional": false,
                   "quantity": 10
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.5c56a616f722a392",
+                  "uuid": "Actor.a1cf13f324431a00.Item.dce0c18ed01915d5",
                   "optional": false
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.1f287e373b571490.Item.430fcfa33a4d79a0": 10
+                "Actor.a1cf13f324431a00.Item.beb0928e938bf3c9": 10
               }
             },
             "value": {},
@@ -554,10 +554,10 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.c84d47488e05411a"
+                  "uuid": "Actor.a1cf13f324431a00.Item.868101522907ce76"
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.4edc358b43c7cbeb"
+                  "uuid": "Actor.a1cf13f324431a00.Item.18c38e7210c5d593"
                 }
               ],
               "restriction": {
@@ -648,7 +648,7 @@
               "pool": [
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.61fe83f9884ce5a9"
+                  "uuid": "Actor.a1cf13f324431a00.Item.9e9af6a44f023d50"
                 }
               ],
               "restriction": {
@@ -678,7 +678,7 @@
         "op5e": {
           "startingBeri": 0,
           "grantQuantities": {
-            "Actor.1f287e373b571490.Item.430fcfa33a4d79a0": 10
+            "Actor.a1cf13f324431a00.Item.beb0928e938bf3c9": 10
           }
         }
       },
@@ -699,7 +699,7 @@
       }
     },
     {
-      "_id": "e4d27e2da02d22f5",
+      "_id": "d23388de15c5e063",
       "name": "Role: Navigator",
       "type": "feat",
       "img": "icons/skills/melee/blade-tip-orange.webp",
@@ -768,33 +768,33 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.8d5f5658833d93be",
+                  "uuid": "Actor.a1cf13f324431a00.Item.58260db5bc8b128e",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.c84d47488e05411a",
+                  "uuid": "Actor.a1cf13f324431a00.Item.868101522907ce76",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.4edc358b43c7cbeb",
+                  "uuid": "Actor.a1cf13f324431a00.Item.18c38e7210c5d593",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.9e7fd2c7122db5a9",
+                  "uuid": "Actor.a1cf13f324431a00.Item.1c89b7f493033d63",
                   "optional": false,
                   "quantity": 5
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.58f3078e8187d4b4",
+                  "uuid": "Actor.a1cf13f324431a00.Item.120f6dbbf261b142",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.3788b1311a9d7a76",
+                  "uuid": "Actor.a1cf13f324431a00.Item.7d4c424a46329084",
                   "optional": false
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.1f287e373b571490.Item.9e7fd2c7122db5a9": 5
+                "Actor.a1cf13f324431a00.Item.1c89b7f493033d63": 5
               }
             },
             "value": {},
@@ -870,7 +870,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.6ad0946ad3737958"
+                  "uuid": "Actor.a1cf13f324431a00.Item.05b242ad5dd9e46f"
                 },
                 {},
                 {}
@@ -903,7 +903,7 @@
           "shipRole": true,
           "startingBeri": 50000,
           "grantQuantities": {
-            "Actor.1f287e373b571490.Item.9e7fd2c7122db5a9": 5
+            "Actor.a1cf13f324431a00.Item.1c89b7f493033d63": 5
           }
         }
       },
@@ -924,7 +924,7 @@
       }
     },
     {
-      "_id": "8d5f5658833d93be",
+      "_id": "58260db5bc8b128e",
       "name": "Clothes, Common",
       "type": "loot",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -969,7 +969,7 @@
       }
     },
     {
-      "_id": "d19c087541580166",
+      "_id": "fe910d9c1d53569d",
       "name": "Navigator's Tools",
       "type": "tool",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -1021,7 +1021,7 @@
       }
     },
     {
-      "_id": "9e7fd2c7122db5a9",
+      "_id": "1c89b7f493033d63",
       "name": "Sea Charts, Local",
       "type": "loot",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -1066,7 +1066,7 @@
       }
     },
     {
-      "_id": "58f3078e8187d4b4",
+      "_id": "120f6dbbf261b142",
       "name": "Ink (1 ounce bottle)",
       "type": "loot",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -1111,7 +1111,7 @@
       }
     },
     {
-      "_id": "3788b1311a9d7a76",
+      "_id": "7d4c424a46329084",
       "name": "Ink Pen",
       "type": "loot",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -1156,7 +1156,7 @@
       }
     },
     {
-      "_id": "68c5b41ec1b10f46",
+      "_id": "53a4044f9859ac17",
       "name": "Rogue",
       "type": "class",
       "img": "icons/weapons/daggers/dagger-serrated-black.webp",
@@ -1193,25 +1193,25 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.2356be805dbadfab",
+                  "uuid": "Actor.a1cf13f324431a00.Item.2d833b93e415404b",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.79a6ec3223e32709",
+                  "uuid": "Actor.a1cf13f324431a00.Item.a69d1e86fe0fc7b4",
                   "optional": false,
                   "quantity": 2
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.e8c45e2a2a7a7ef5",
+                  "uuid": "Actor.a1cf13f324431a00.Item.aa44cadc08322a13",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.96e01cee5afb023c",
+                  "uuid": "Actor.a1cf13f324431a00.Item.bc44dbfba87dbaed",
                   "optional": false
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.1f287e373b571490.Item.79a6ec3223e32709": 2
+                "Actor.a1cf13f324431a00.Item.a69d1e86fe0fc7b4": 2
               }
             },
             "value": {},
@@ -1234,7 +1234,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.8c9362997556a401"
+                  "uuid": "Actor.a1cf13f324431a00.Item.ba9f6876606f2a22"
                 },
                 {}
               ],
@@ -1271,7 +1271,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.7038f6b0a6ed9816"
+                  "uuid": "Actor.a1cf13f324431a00.Item.7ad5dafb79ed65af"
                 },
                 {}
               ],
@@ -1310,7 +1310,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.5f2a6086714e1348"
+                  "uuid": "Actor.a1cf13f324431a00.Item.9022cca866100260"
                 }
               ],
               "restriction": {
@@ -1584,15 +1584,15 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.3c4368887da7bdf1",
+                  "uuid": "Actor.a1cf13f324431a00.Item.ae1778e4507ec67a",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.75f65543464fd404",
+                  "uuid": "Actor.a1cf13f324431a00.Item.2bea83fc42865fbe",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.6e94ed20e3be84f9",
+                  "uuid": "Actor.a1cf13f324431a00.Item.2c16ecbd2a8cb27b",
                   "optional": false
                 }
               ]
@@ -1610,7 +1610,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.58b3b58e2e2b944e",
+                  "uuid": "Actor.a1cf13f324431a00.Item.64a7f6fae54fcf3e",
                   "optional": false
                 }
               ]
@@ -1628,7 +1628,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.55bd90f75de52d44",
+                  "uuid": "Actor.a1cf13f324431a00.Item.96eb3ccd54424c0a",
                   "optional": false
                 }
               ]
@@ -1646,11 +1646,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.f976625660f875fd",
+                  "uuid": "Actor.a1cf13f324431a00.Item.0987a1db02b593e7",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.bb90fba8cbc20d71",
+                  "uuid": "Actor.a1cf13f324431a00.Item.96339cf90ce5776d",
                   "optional": false
                 }
               ]
@@ -1668,7 +1668,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.cda7432ee32e3460",
+                  "uuid": "Actor.a1cf13f324431a00.Item.7cfdfe6aa4ca36b3",
                   "optional": false
                 }
               ]
@@ -1711,7 +1711,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.2e8f28611f2f729b",
+                  "uuid": "Actor.a1cf13f324431a00.Item.248fee3c75ff59cf",
                   "optional": false
                 }
               ]
@@ -1919,7 +1919,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.17a1da8e3cfb7460"
+                  "uuid": "Actor.a1cf13f324431a00.Item.a9dc259c0dd619b7"
                 },
                 {},
                 {},
@@ -1970,7 +1970,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.17a1da8e3cfb7460"
+                  "uuid": "Actor.a1cf13f324431a00.Item.a9dc259c0dd619b7"
                 },
                 {},
                 {},
@@ -2021,7 +2021,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.17a1da8e3cfb7460"
+                  "uuid": "Actor.a1cf13f324431a00.Item.a9dc259c0dd619b7"
                 },
                 {},
                 {},
@@ -2072,7 +2072,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.17a1da8e3cfb7460"
+                  "uuid": "Actor.a1cf13f324431a00.Item.a9dc259c0dd619b7"
                 },
                 {},
                 {},
@@ -2123,7 +2123,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.17a1da8e3cfb7460"
+                  "uuid": "Actor.a1cf13f324431a00.Item.a9dc259c0dd619b7"
                 },
                 {},
                 {},
@@ -2170,7 +2170,7 @@
               "pool": [
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.735cf45506a4cced"
+                  "uuid": "Actor.a1cf13f324431a00.Item.9097c52f880272c7"
                 },
                 {},
                 {},
@@ -2217,7 +2217,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.3c72795129312ddf"
+                  "uuid": "Actor.a1cf13f324431a00.Item.ebdcd1445ec8e78d"
                 }
               ],
               "restriction": {
@@ -2251,7 +2251,7 @@
       "flags": {
         "op5e": {
           "grantQuantities": {
-            "Actor.1f287e373b571490.Item.79a6ec3223e32709": 2
+            "Actor.a1cf13f324431a00.Item.a69d1e86fe0fc7b4": 2
           }
         }
       },
@@ -2272,7 +2272,7 @@
       }
     },
     {
-      "_id": "39475d92f478826b",
+      "_id": "e0ac62ce0c3a5d41",
       "name": "Fencer",
       "type": "subclass",
       "img": "icons/weapons/daggers/dagger-curved-blue.webp",
@@ -2296,11 +2296,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.3dd1e36571eb1caf",
+                  "uuid": "Actor.a1cf13f324431a00.Item.2af208e0634ee31c",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.28efa26572e6abd3",
+                  "uuid": "Actor.a1cf13f324431a00.Item.3f305c5109fc5519",
                   "optional": false
                 }
               ]
@@ -2318,7 +2318,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.1f287e373b571490.Item.bd4b12c68f2768f5",
+                  "uuid": "Actor.a1cf13f324431a00.Item.efd716d59befb2c1",
                   "optional": false
                 }
               ]
@@ -2406,7 +2406,7 @@
       }
     },
     {
-      "_id": "3dd1e36571eb1caf",
+      "_id": "2af208e0634ee31c",
       "name": "En Garde",
       "type": "feat",
       "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
@@ -2557,7 +2557,7 @@
       }
     },
     {
-      "_id": "28efa26572e6abd3",
+      "_id": "3f305c5109fc5519",
       "name": "Dueling Defense",
       "type": "feat",
       "img": "icons/weapons/daggers/dagger-glowing-white.webp",
@@ -2679,7 +2679,7 @@
       }
     },
     {
-      "_id": "bd4b12c68f2768f5",
+      "_id": "efd716d59befb2c1",
       "name": "Master Bladework",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -2952,7 +2952,7 @@
       }
     },
     {
-      "_id": "2356be805dbadfab",
+      "_id": "2d833b93e415404b",
       "name": "Leather Armor",
       "type": "equipment",
       "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
@@ -3009,7 +3009,7 @@
       }
     },
     {
-      "_id": "79a6ec3223e32709",
+      "_id": "a69d1e86fe0fc7b4",
       "name": "Dagger",
       "type": "weapon",
       "img": "icons/weapons/daggers/dagger-glowing-white.webp",
@@ -3186,7 +3186,7 @@
       }
     },
     {
-      "_id": "e8c45e2a2a7a7ef5",
+      "_id": "aa44cadc08322a13",
       "name": "Thieves' Tools",
       "type": "tool",
       "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
@@ -3238,7 +3238,7 @@
       }
     },
     {
-      "_id": "96e01cee5afb023c",
+      "_id": "bc44dbfba87dbaed",
       "name": "Arrows (20)",
       "type": "consumable",
       "img": "icons/skills/ranged/arrows-flying-triple-gray.webp",
@@ -3286,7 +3286,7 @@
       }
     },
     {
-      "_id": "3c4368887da7bdf1",
+      "_id": "ae1778e4507ec67a",
       "name": "Expertise",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -3368,7 +3368,7 @@
       }
     },
     {
-      "_id": "75f65543464fd404",
+      "_id": "2bea83fc42865fbe",
       "name": "Sneak Attack",
       "type": "feat",
       "img": "icons/weapons/daggers/dagger-curved-blue.webp",
@@ -3541,7 +3541,7 @@
       }
     },
     {
-      "_id": "6e94ed20e3be84f9",
+      "_id": "2c16ecbd2a8cb27b",
       "name": "Thieves' Cant",
       "type": "feat",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -3623,7 +3623,7 @@
       }
     },
     {
-      "_id": "58b3b58e2e2b944e",
+      "_id": "64a7f6fae54fcf3e",
       "name": "Cunning Action",
       "type": "feat",
       "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
@@ -3774,7 +3774,7 @@
       }
     },
     {
-      "_id": "55bd90f75de52d44",
+      "_id": "96eb3ccd54424c0a",
       "name": "Steady Aim",
       "type": "feat",
       "img": "icons/weapons/daggers/dagger-curved-blue.webp",
@@ -3925,7 +3925,7 @@
       }
     },
     {
-      "_id": "f976625660f875fd",
+      "_id": "0987a1db02b593e7",
       "name": "Devious Strike",
       "type": "feat",
       "img": "icons/weapons/daggers/dagger-curved-blue.webp",
@@ -4183,7 +4183,7 @@
       }
     },
     {
-      "_id": "bb90fba8cbc20d71",
+      "_id": "96339cf90ce5776d",
       "name": "Uncanny Dodge",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -4334,7 +4334,7 @@
       }
     },
     {
-      "_id": "cda7432ee32e3460",
+      "_id": "7cfdfe6aa4ca36b3",
       "name": "Expertise",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -4416,7 +4416,7 @@
       }
     },
     {
-      "_id": "2e8f28611f2f729b",
+      "_id": "248fee3c75ff59cf",
       "name": "Evasion",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -4532,7 +4532,7 @@
       }
     },
     {
-      "_id": "430fcfa33a4d79a0",
+      "_id": "beb0928e938bf3c9",
       "name": "Rations (1 day)",
       "type": "consumable",
       "img": "icons/consumables/potions/bottle-round-corked-red.webp",
@@ -4580,7 +4580,7 @@
       }
     },
     {
-      "_id": "5c56a616f722a392",
+      "_id": "dce0c18ed01915d5",
       "name": "Map of the Surrounding Area",
       "type": "loot",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -4625,7 +4625,7 @@
       }
     },
     {
-      "_id": "61fe83f9884ce5a9",
+      "_id": "9e9af6a44f023d50",
       "name": "Master Navigator",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -4750,7 +4750,7 @@
       }
     },
     {
-      "_id": "8c9362997556a401",
+      "_id": "ba9f6876606f2a22",
       "name": "Rapier",
       "type": "weapon",
       "img": "icons/weapons/swords/scimitar-guard-gold.webp",
@@ -4925,7 +4925,7 @@
       }
     },
     {
-      "_id": "7038f6b0a6ed9816",
+      "_id": "7ad5dafb79ed65af",
       "name": "Shortbow",
       "type": "weapon",
       "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
@@ -5101,7 +5101,7 @@
       }
     },
     {
-      "_id": "5f2a6086714e1348",
+      "_id": "9022cca866100260",
       "name": "Explorer's Pack",
       "type": "loot",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -5146,7 +5146,7 @@
       }
     },
     {
-      "_id": "6ad0946ad3737958",
+      "_id": "05b242ad5dd9e46f",
       "name": "Keen Mind",
       "type": "feat",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -5279,7 +5279,7 @@
       }
     },
     {
-      "_id": "17a1da8e3cfb7460",
+      "_id": "a9dc259c0dd619b7",
       "name": "Color of Observation Novice",
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-white.webp",
@@ -5479,7 +5479,7 @@
       }
     },
     {
-      "_id": "b9b920ec49f6f4cb",
+      "_id": "99617eda2d79d5b3",
       "name": "Dabu Dabu no Mi",
       "type": "loot",
       "img": "modules/op5e/assets/icons/devil-fruit-paramecia.svg",
@@ -5527,7 +5527,7 @@
       "_key": "!items!acad70ae42193a24"
     },
     {
-      "_id": "0416cc667ee9b7d7",
+      "_id": "5e94b136cff41fda",
       "name": "Test Subject",
       "type": "feat",
       "img": "icons/magic/light/explosion-star-glow-yellow.webp",
@@ -5733,7 +5733,7 @@
       "_key": "!items!861b442b9a358587"
     },
     {
-      "_id": "9ab6f6bb376f480c",
+      "_id": "9efd60ccbb8a74e5",
       "name": "Bait and Switch",
       "type": "feat",
       "img": "icons/skills/melee/strike-sword-gray.webp",
@@ -5809,7 +5809,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "ad27b69dd336517f",
+                  "target": "34175655426dcd42",
                   "value": "1",
                   "scaling": {}
                 }
@@ -5892,7 +5892,7 @@
       "_key": "!items!861731b9e8e48da3"
     },
     {
-      "_id": "7b75131fc4e6ec51",
+      "_id": "3512c06547fcd93e",
       "name": "Mirror Image",
       "type": "spell",
       "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
@@ -5988,7 +5988,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "ad27b69dd336517f",
+                  "target": "34175655426dcd42",
                   "value": "1",
                   "scaling": {}
                 }
@@ -6068,7 +6068,7 @@
       }
     },
     {
-      "_id": "03769f7bb3f3454a",
+      "_id": "ca91747cb966a2b7",
       "name": "Misty Step",
       "type": "spell",
       "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
@@ -6164,7 +6164,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "ad27b69dd336517f",
+                  "target": "34175655426dcd42",
                   "value": "1",
                   "scaling": {}
                 }
@@ -6244,7 +6244,7 @@
       }
     },
     {
-      "_id": "ad27b69dd336517f",
+      "_id": "34175655426dcd42",
       "name": "Devil Fruit Uses",
       "type": "feat",
       "img": "icons/skills/melee/strike-blade-blood-red.webp",
@@ -6408,9 +6408,1220 @@
         "lastModifiedBy": null
       },
       "_key": "!items!f1b6a1ceb52e6d43"
+    },
+    {
+      "_id": "bb322bc064cbf316",
+      "name": "Devil Fruit Ability Check, Fruit-Fruit DC and Attack",
+      "type": "feat",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>Use these when you attempt to use your devil fruit (mainly Paramecia and Logia, some Zoans). You can use your fruit instead of a skill (for example instead of Athletics to lift a boulder) at no use cost, and may add expertise to your devil fruit skill.</p><ul><li>Ability Check: 1d20 + highest ability modifier + proficiency bonus</li><li>Fruit-Fruit DC: 8 + highest ability modifier + proficiency bonus</li><li>Devil Fruit Attack: 1d20 + highest ability modifier + proficiency bonus</li></ul>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "activities": {
+          "baa8b84c596b1070": {
+            "_id": "baa8b84c596b1070",
+            "type": "utility",
+            "name": "Devil Fruit Ability Check",
+            "sort": 0,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Use instead of a skill (for example instead of Athletics to lift a boulder) at no use cost; you may add expertise to your devil fruit skill."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "1d20 + max(@abilities.str.mod, @abilities.dex.mod, @abilities.con.mod, @abilities.int.mod, @abilities.wis.mod, @abilities.cha.mod) + @prof",
+              "name": "Devil Fruit Ability Check",
+              "prompt": false,
+              "visible": true
+            }
+          },
+          "9e9afb3aa3ebfed9": {
+            "_id": "9e9afb3aa3ebfed9",
+            "type": "save",
+            "name": "Fruit-Fruit DC",
+            "sort": 1,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "DC = 8 + highest ability modifier + proficiency bonus. Pick the save the fruit ability calls for."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "str",
+                "dex",
+                "con",
+                "int",
+                "wis",
+                "cha"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "8 + max(@abilities.str.mod, @abilities.dex.mod, @abilities.con.mod, @abilities.int.mod, @abilities.wis.mod, @abilities.cha.mod) + @prof"
+              }
+            }
+          },
+          "901a3276c7b87fc4": {
+            "_id": "901a3276c7b87fc4",
+            "type": "attack",
+            "name": "Devil Fruit Attack (melee)",
+            "sort": 2,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "1d20 + highest ability modifier + proficiency bonus."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": 5,
+              "units": "ft",
+              "special": "",
+              "override": true
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "critical": {
+                "allow": true,
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "max(@abilities.str.mod, @abilities.dex.mod, @abilities.con.mod, @abilities.int.mod, @abilities.wis.mod, @abilities.cha.mod) + @prof",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            }
+          },
+          "28a3e9731b981a28": {
+            "_id": "28a3e9731b981a28",
+            "type": "attack",
+            "name": "Devil Fruit Attack (ranged)",
+            "sort": 3,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "1d20 + highest ability modifier + proficiency bonus."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "critical": {
+                "allow": true,
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "max(@abilities.str.mod, @abilities.dex.mod, @abilities.con.mod, @abilities.int.mod, @abilities.wis.mod, @abilities.cha.mod) + @prof",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            }
+          }
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items!990dca216575f1bd"
+    },
+    {
+      "_id": "ed55aedb200c14fc",
+      "name": "Ocean's Scorn",
+      "type": "feat",
+      "img": "icons/magic/water/projectile-ice-faceted-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Consuming a devil fruit instantly grants this feature. You permanently lose any swimming speed and cannot benefit from any creation or effect that grants a swimming speed.</p><ul><li>Partially submerged in running water above your knees: disadvantage on all Strength and Dexterity ability checks, and you cannot activate any devil fruit abilities until contact is broken.</li><li>If the water also reaches your waist: speed reduced by half, and disadvantage on all attack rolls, ability checks and saving throws until contact is broken.</li><li>Submerged beyond your waist: paralyzed until moved onto dry land, and you sink at 30 feet per turn until you reach the bottom.</li><li>Means to breathe underwater (respiration device, being a fishman) still apply, but you remain subject to all the debuffs while directly submerged.</li><li>Seastone: weapons tipped with seastone inflict the knee-deep weaknesses on a failed Constitution DC 20 save until the end of the target's next turn (or until contact is broken if the source is stuck to the target, such as a bullet or a grapple). Large quantities of seastone, such as solid seastone handcuffs, grant the waist-deep weakness.</li></ul><p><strong>Appendix B variant (Devil Fruits and the Environment), not implemented:</strong> knee-deep gives disadvantage on all attack rolls, ability checks and saving throws; waist-deep halves speed and loses the ability to activate the fruit. Seastone weapon damage: Constitution DC 20 save or lose all devil fruit abilities, repeated at the end of each of your turns (continuous if embedded); armament haki that reduces the damage or grants advantage on the save makes it an automatic success; seastone handcuffs can only be broken by Color of Armament Master and impose the waist-deep weakness, with a save at the end of your turns in combat.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "OP5e",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "actionType": "",
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "chatFlavor": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "activities": {
+          "a1d1a95e4bd00fc5": {
+            "_id": "a1d1a95e4bd00fc5",
+            "type": "save",
+            "name": "Seastone Weapon Hit (knee-deep)",
+            "sort": 0,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Seastone-tipped weapon hit. On a failure the target suffers the knee-deep weaknesses (it cannot activate devil fruit abilities) until the end of its next turn, or until contact is broken if the source is stuck to it."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "7682405c08eac983",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "con"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "20"
+              }
+            }
+          },
+          "d5e2417b3bd0263b": {
+            "_id": "d5e2417b3bd0263b",
+            "type": "save",
+            "name": "Large Seastone (waist-deep)",
+            "sort": 1,
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {
+              "chatFlavor": "Large quantities of seastone, such as solid seastone handcuffs, grant the waist-deep weakness."
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "d06cdbe7ad8b7a30",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "value": null,
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "con"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "20"
+              }
+            }
+          }
+        },
+        "advancement": []
+      },
+      "effects": [
+        {
+          "_id": "7682405c08eac983",
+          "name": "Seastone: Knee-Deep Weakness",
+          "img": "icons/svg/downgrade.svg",
+          "changes": [
+            {
+              "key": "flags.midi-qol.disadvantage.ability.check.str",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "flags.midi-qol.disadvantage.ability.check.dex",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.str.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.dex.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": 2,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dae": {
+              "transfer": false,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!6e9d7ec2ca209e1e.7682405c08eac983"
+        },
+        {
+          "_id": "d06cdbe7ad8b7a30",
+          "name": "Seastone: Waist-Deep Weakness",
+          "img": "icons/svg/downgrade.svg",
+          "changes": [
+            {
+              "key": "flags.midi-qol.disadvantage.ability.check.str",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "flags.midi-qol.disadvantage.ability.check.dex",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.str.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.dex.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.attributes.movement.walk",
+              "mode": 1,
+              "value": "0.5",
+              "priority": 20
+            },
+            {
+              "key": "flags.midi-qol.disadvantage.attack.all",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "flags.midi-qol.disadvantage.ability.check.all",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "flags.midi-qol.disadvantage.ability.save.all",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.str.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.str.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.dex.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.dex.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.con.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.con.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.int.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.int.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.wis.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.wis.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.cha.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.cha.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": 2,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "dae": {
+              "transfer": false,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!6e9d7ec2ca209e1e.d06cdbe7ad8b7a30"
+        },
+        {
+          "_id": "9835f992b33de16a",
+          "name": "Ocean's Scorn: No Swimming",
+          "img": "icons/svg/aura.svg",
+          "changes": [
+            {
+              "key": "system.attributes.movement.swim",
+              "mode": 5,
+              "value": "0",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!6e9d7ec2ca209e1e.9835f992b33de16a"
+        },
+        {
+          "_id": "ada65dd2135989dd",
+          "name": "Ocean's Scorn: Knee-Deep in Water",
+          "img": "icons/svg/downgrade.svg",
+          "changes": [
+            {
+              "key": "flags.midi-qol.disadvantage.ability.check.str",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "flags.midi-qol.disadvantage.ability.check.dex",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.str.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.dex.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!6e9d7ec2ca209e1e.ada65dd2135989dd"
+        },
+        {
+          "_id": "ce61b2d3c51677f2",
+          "name": "Ocean's Scorn: Waist-Deep in Water",
+          "img": "icons/svg/downgrade.svg",
+          "changes": [
+            {
+              "key": "flags.midi-qol.disadvantage.ability.check.str",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "flags.midi-qol.disadvantage.ability.check.dex",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.str.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.dex.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.attributes.movement.walk",
+              "mode": 1,
+              "value": "0.5",
+              "priority": 20
+            },
+            {
+              "key": "flags.midi-qol.disadvantage.attack.all",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "flags.midi-qol.disadvantage.ability.check.all",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "flags.midi-qol.disadvantage.ability.save.all",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.str.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.str.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.dex.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.dex.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.con.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.con.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.int.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.int.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.wis.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.wis.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.cha.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.cha.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [],
+          "tint": null,
+          "_key": "!items.effects!6e9d7ec2ca209e1e.ce61b2d3c51677f2"
+        },
+        {
+          "_id": "37f28b19da4498f5",
+          "name": "Ocean's Scorn: Submerged",
+          "img": "icons/svg/paralysis.svg",
+          "changes": [
+            {
+              "key": "flags.midi-qol.disadvantage.ability.check.str",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "flags.midi-qol.disadvantage.ability.check.dex",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.str.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.dex.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.attributes.movement.walk",
+              "mode": 1,
+              "value": "0.5",
+              "priority": 20
+            },
+            {
+              "key": "flags.midi-qol.disadvantage.attack.all",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "flags.midi-qol.disadvantage.ability.check.all",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "flags.midi-qol.disadvantage.ability.save.all",
+              "mode": 0,
+              "value": "1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.str.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.str.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.dex.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.dex.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.con.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.con.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.int.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.int.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.wis.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.wis.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.cha.check.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            },
+            {
+              "key": "system.abilities.cha.save.roll.mode",
+              "mode": 3,
+              "value": "-1",
+              "priority": 20
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": true,
+          "flags": {
+            "dae": {
+              "transfer": true,
+              "stackable": "noneName"
+            }
+          },
+          "statuses": [
+            "paralyzed"
+          ],
+          "tint": null,
+          "_key": "!items.effects!6e9d7ec2ca209e1e.37f28b19da4498f5"
+        }
+      ],
+      "flags": {},
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!items!6e9d7ec2ca209e1e"
     }
   ],
-  "_id": "1f287e373b571490",
+  "_id": "a1cf13f324431a00",
   "prototypeToken": {
     "texture": {
       "src": "one-piece-5e/npcs/SharkFin Pirates/irik-new-token.png"

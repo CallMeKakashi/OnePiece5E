@@ -12,7 +12,7 @@ foundry_live_slug: "petty-officer-marine"
 Foundry actor export — no campaign biography note yet. Link from [[Rules/Stat blocks]] or faction hub when placed in-world.
 ## Foundry build
 
-Rebuilt 2026-10-11 in `bb-rehearsal` (`OP5E/Marines`): Human Marksman 4 (Sniper), Marine/Soldier, Role: Master at Arms, CR 2, HP 36, AC 16. Fights with a Rifle and Cutlass; Armament Haki (Novice). Details in `op5e/docs/NPC-BUILDS.md`. The statblocks below are the legacy sheet.
+Rebuilt 2026-10-11 in `bb-rehearsal` (`OP5E/Marines`): Human Marksman 8 (Sniper), Marine/Soldier, Role: Master at Arms, CR 4, HP 68, AC 16 (levelled from 4 to 8 on 2026-10-11 so his Armament Novice Haki is legal). Fights with a Rifle and Cutlass; Armament Haki (Novice). Details in `op5e/docs/NPC-BUILDS.md`. The statblocks below are the legacy sheet.
 
 ## Build template (Foundry)
 

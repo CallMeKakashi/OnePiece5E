@@ -1,6 +1,6 @@
 // Cassian Valehart: Human Bard 8 (College of Eloquence), Noble, Role: Scholar, no fruit, level 8, CR 6. Lawyer at the Lex Imperia high court. Built 2026-10-11.
 // Chassis from specs/cassian-spec.json. Custom: courtroom creation set (compendium only), Observation Novice, scores, HP override.
-import { readFileSync, writeFileSync } from "node:fs";
+import { readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { embedOwnedItem } from "./compendium-resolver.js";
 import { refreshFromPacks } from "./refresh-from-packs.js";
 import { ensureItemActivities } from "../../data/helpers/activities.js";
@@ -16,12 +16,14 @@ const creation = (name: string) => {
 };
 
 const DROP = ["Clothes, Common", "Dagger", "No Devil Fruit (yet)"];
+const power = (() => { for (const f of readdirSync("packs-src/class-features")) { const d = JSON.parse(readFileSync(`packs-src/class-features/${f}`, "utf-8")); if (d.name === "Heart Strings") return d; } throw new Error("Heart Strings not found"); })();
 const seen = new Set<string>(); // the pipeline embeds the role, Silver Tongue and Investigator more than once
 actor.items = actor.items.filter((i) => {
   if (DROP.includes(i.name ?? "")) return false;
   if (!(i.name?.startsWith("Role: ") || ["Silver Tongue", "Investigator"].includes(i.name ?? ""))) return true;
   if (seen.has(i.name!)) return false; seen.add(i.name!); return true;
 });
+actor.items.push(embedOwnedItem(power as never) as Doc); // additional power (Bard), user's pick
 // Tricks and creations (user's courtroom set): Vicious Mockery comes from Silver Tongue
 for (const n of ["Vicious Mockery", "Thunder Bolt", "Sonic Boom", "Guidance", // tricks
   "Thunderwave", "Command", "Healing Word", "Bane", // 1st
@@ -35,7 +37,7 @@ for (const i of actor.items) {
 
 // point-buy 12/13/13/10/12/8 on Cha/Dex/Con/Int/Wis/Str (cost 20); Human +1 all; Silver Tongue Cha +1; Investigator Int +1; ASIs 4 and 8: Cha +2 each
 const sys = actor.system;
-const abil = { str: 9, dex: 14, con: 14, int: 12, wis: 13, cha: 18 };
+const abil = { str: 8, dex: 14, con: 14, int: 11, wis: 12, cha: 18 }; // Human +1 only on Cha, Dex and Con (the trait gives +3 in total, corrected 2026-10-11)
 for (const [k, v] of Object.entries(abil)) sys.abilities[k].value = v;
 for (const k of Object.keys(abil)) sys.abilities[k].proficient = ["dex", "cha"].includes(k) ? 1 : 0; // Bard saves
 sys.attributes.spellcasting = "cha";

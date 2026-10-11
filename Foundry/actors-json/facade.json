@@ -132,7 +132,7 @@
         }
       },
       "inspiration": false,
-      "prof": 5
+      "prof": 4
     },
     "details": {
       "biography": {
@@ -276,7 +276,7 @@
   },
   "items": [
     {
-      "_id": "ad29acca927ec25f",
+      "_id": "877d6673154762b7",
       "name": "Augmented",
       "type": "race",
       "img": "icons/skills/trades/construction-mason-bricklayer-red.webp",
@@ -468,7 +468,7 @@
       }
     },
     {
-      "_id": "6c362dfafe6687f8",
+      "_id": "59fbee4d2c3bb4a3",
       "name": "Smuggler",
       "type": "background",
       "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
@@ -490,27 +490,27 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.d59407767d565873",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.7ff971db511e4294",
                   "optional": false,
                   "quantity": 3
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.3461f255c616bdaa",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.1feddef49338b0bd",
                   "optional": false,
                   "quantity": 5
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.58ca7bc6cc5d461d",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.63d921c8b382041a",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.6d5f91a68e73aaa6",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.c1607f54c4698856",
                   "optional": false
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.b542294be01d4693.Item.d59407767d565873": 3,
-                "Actor.b542294be01d4693.Item.3461f255c616bdaa": 5
+                "Actor.eec6821f6b90dc66.Item.7ff971db511e4294": 3,
+                "Actor.eec6821f6b90dc66.Item.1feddef49338b0bd": 5
               }
             },
             "value": {},
@@ -579,7 +579,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.b48d411db8dfe958"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.7f6573a98477d6ed"
                 },
                 {}
               ],
@@ -610,8 +610,8 @@
         "op5e": {
           "startingBeri": 150000,
           "grantQuantities": {
-            "Actor.b542294be01d4693.Item.d59407767d565873": 3,
-            "Actor.b542294be01d4693.Item.3461f255c616bdaa": 5
+            "Actor.eec6821f6b90dc66.Item.7ff971db511e4294": 3,
+            "Actor.eec6821f6b90dc66.Item.1feddef49338b0bd": 5
           }
         }
       },
@@ -632,7 +632,7 @@
       }
     },
     {
-      "_id": "fa24d05efec72b55",
+      "_id": "fac26ae80ca8b39e",
       "name": "Role: Scholar",
       "type": "feat",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -701,27 +701,27 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.f80ae586012b4b16",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.cd3e1e61836b8df4",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.3efd1fe096f6e443",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.2076bbb501e5e264",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.a2ce8c62eb08d939",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.9ec0565bd9c39c3f",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.27beba459e61871b",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.5de3dea40674a0ee",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.cacf1d1c61527f86",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.5f788991355de0fb",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.83791746355ea055",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.af45b81e2b4bb564",
                   "optional": false
                 }
               ]
@@ -798,7 +798,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.c0696909535ec994"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.2253f9b3282f55fa"
                 },
                 {},
                 {},
@@ -851,7 +851,7 @@
       }
     },
     {
-      "_id": "f80ae586012b4b16",
+      "_id": "cd3e1e61836b8df4",
       "name": "Clothes, Common",
       "type": "loot",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -896,7 +896,7 @@
       }
     },
     {
-      "_id": "cfee6ce16bbe2fea",
+      "_id": "eec5daabd0578aa6",
       "name": "Book",
       "type": "loot",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -941,7 +941,7 @@
       }
     },
     {
-      "_id": "a2ce8c62eb08d939",
+      "_id": "9ec0565bd9c39c3f",
       "name": "Ink (1 ounce bottle)",
       "type": "loot",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -986,7 +986,7 @@
       }
     },
     {
-      "_id": "27beba459e61871b",
+      "_id": "5de3dea40674a0ee",
       "name": "Ink Pen",
       "type": "loot",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -1031,7 +1031,7 @@
       }
     },
     {
-      "_id": "cacf1d1c61527f86",
+      "_id": "5f788991355de0fb",
       "name": "Disguise Kit",
       "type": "tool",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -1083,7 +1083,7 @@
       }
     },
     {
-      "_id": "83791746355ea055",
+      "_id": "af45b81e2b4bb564",
       "name": "Forgery Kit",
       "type": "tool",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -1135,7 +1135,7 @@
       }
     },
     {
-      "_id": "895f1af878e7fcf8",
+      "_id": "406d735392d3400e",
       "name": "Gadgeteer",
       "type": "class",
       "img": "icons/tools/smithing/anvil.webp",
@@ -1152,7 +1152,7 @@
         },
         "identifier": "gadgeteer",
         "levels": 10,
-        "hitDice": "d8",
+        "hitDice": "d10",
         "hitDiceUsed": 0,
         "advancement": [
           {
@@ -1172,23 +1172,23 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.0c72efc564ee16ca",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.b77a6abae7e0ebab",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.3efd1fe096f6e443",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.2076bbb501e5e264",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.25f3afd3f94dab5e",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.a9ec6c382e7fc1f0",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.2536aa8168b6d20b",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.b7130ccb04d91fb4",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.9b399e35b4b23819",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.f588568aebe8a843",
                   "optional": false
                 }
               ]
@@ -1213,7 +1213,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.fa70b5a58409033e"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.a48c613f734e015c"
                 },
                 {}
               ],
@@ -1250,7 +1250,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.0f636721934fb560"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.2fae255c795b6553"
                 },
                 {}
               ],
@@ -1376,12 +1376,12 @@
             "configuration": {
               "mode": "default",
               "grants": [
-                "saves:int",
-                "saves:wis"
+                "saves:con",
+                "saves:int"
               ],
               "choices": [],
               "allowReplacements": true,
-              "hint": "Intelligence, Wisdom"
+              "hint": "Constitution, Intelligence"
             },
             "value": {},
             "level": 1,
@@ -1425,15 +1425,15 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.62f0d69e42aae159",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.44ac9097236562fe",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.fa8bd838d4719a2e",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.9b1081bc6902fe8b",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.ddc6aea69596bf71",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.7b71157b43d89c58",
                   "optional": false
                 }
               ]
@@ -1451,7 +1451,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.105cd2b97af04202",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.b65f80500f2acbe3",
                   "optional": false
                 }
               ]
@@ -1479,7 +1479,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.570a6c07e8bfec28"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.b343059b991d0e57"
                 },
                 {},
                 {},
@@ -1494,10 +1494,10 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.f6641fbfd7c704db"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.cb5417d650c65b31"
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.7540a72ab782bbd3"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.571797d3f5c08016"
                 },
                 {},
                 {},
@@ -1541,7 +1541,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.570a6c07e8bfec28"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.b343059b991d0e57"
                 },
                 {},
                 {},
@@ -1556,10 +1556,10 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.f6641fbfd7c704db"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.cb5417d650c65b31"
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.7540a72ab782bbd3"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.571797d3f5c08016"
                 },
                 {},
                 {},
@@ -1603,7 +1603,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.570a6c07e8bfec28"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.b343059b991d0e57"
                 },
                 {},
                 {},
@@ -1618,10 +1618,10 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.f6641fbfd7c704db"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.cb5417d650c65b31"
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.7540a72ab782bbd3"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.571797d3f5c08016"
                 },
                 {},
                 {},
@@ -1665,7 +1665,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.570a6c07e8bfec28"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.b343059b991d0e57"
                 },
                 {},
                 {},
@@ -1680,10 +1680,10 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.f6641fbfd7c704db"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.cb5417d650c65b31"
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.7540a72ab782bbd3"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.571797d3f5c08016"
                 },
                 {},
                 {},
@@ -1727,7 +1727,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.570a6c07e8bfec28"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.b343059b991d0e57"
                 },
                 {},
                 {},
@@ -1742,10 +1742,10 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.f6641fbfd7c704db"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.cb5417d650c65b31"
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.7540a72ab782bbd3"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.571797d3f5c08016"
                 },
                 {},
                 {},
@@ -1790,7 +1790,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.682b3316223bed88",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.ea4e1d57b23ff142",
                   "optional": false
                 }
               ]
@@ -1890,7 +1890,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.ab67c0d90fba651a"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.3da258df3c2a7a40"
                 },
                 {},
                 {},
@@ -1941,7 +1941,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.ab67c0d90fba651a"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.3da258df3c2a7a40"
                 },
                 {},
                 {},
@@ -1992,7 +1992,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.ab67c0d90fba651a"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.3da258df3c2a7a40"
                 },
                 {},
                 {},
@@ -2043,7 +2043,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.ab67c0d90fba651a"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.3da258df3c2a7a40"
                 },
                 {},
                 {},
@@ -2094,7 +2094,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.ab67c0d90fba651a"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.3da258df3c2a7a40"
                 },
                 {},
                 {},
@@ -2151,7 +2151,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.f04ddd3c089b7ee5"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.a1e2184b942b0eed"
                 },
                 {},
                 {},
@@ -2193,7 +2193,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.3b4e9e9ffa840018"
+                  "uuid": "Actor.eec6821f6b90dc66.Item.067c0d732a7b5ce6"
                 }
               ],
               "restriction": {
@@ -2222,7 +2222,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.5f839a5967a53d4d",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.f5cb80e1aea8b83f",
                   "optional": false
                 }
               ]
@@ -2240,7 +2240,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.ced253c3722b6216",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.9aad913931a53091",
                   "optional": false
                 }
               ]
@@ -2258,7 +2258,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.8daf92fddefcd763",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.2059059a64e7837a",
                   "optional": false
                 }
               ]
@@ -2454,7 +2454,7 @@
       }
     },
     {
-      "_id": "eb502f2fdcffc4bf",
+      "_id": "5546a35f7f7c5455",
       "name": "Artillerist",
       "type": "subclass",
       "img": "icons/magic/lightning/bolt-blue.webp",
@@ -2478,11 +2478,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.d07224a834b1990f",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.a98ce993446b19ec",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.0cad91e75faeff11",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.8e116337391d654c",
                   "optional": false
                 }
               ],
@@ -2509,11 +2509,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.3408f6a2cdfcaefe",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.64046f0de9e8f442",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.806378bac8900d54",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.b43afe222adaba04",
                   "optional": false
                 }
               ],
@@ -2540,11 +2540,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.d24c628b6b1a0441",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.135cbcec6f1650d4",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.18ae514bf65c0a64",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.1c379ffe0dabb1e0",
                   "optional": false
                 }
               ],
@@ -2629,11 +2629,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.8cac8fcceefd35da",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.1a87af01e956d97b",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.be4f71f413afe58d",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.0b84e773c43c93e7",
                   "optional": false
                 }
               ]
@@ -2651,7 +2651,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.7c4b981980227827",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.d1ddf8371506b227",
                   "optional": false
                 }
               ]
@@ -2669,7 +2669,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.b542294be01d4693.Item.8de63acf34fb656d",
+                  "uuid": "Actor.eec6821f6b90dc66.Item.ac8cf8a50482e56e",
                   "optional": false
                 }
               ]
@@ -2723,7 +2723,7 @@
       }
     },
     {
-      "_id": "d07224a834b1990f",
+      "_id": "a98ce993446b19ec",
       "name": "Shield",
       "type": "spell",
       "img": "icons/equipment/shield/heater-steel-grey.webp",
@@ -2825,7 +2825,7 @@
       }
     },
     {
-      "_id": "0cad91e75faeff11",
+      "_id": "8e116337391d654c",
       "name": "Thunderwave",
       "type": "spell",
       "img": "icons/magic/lightning/bolt-blue.webp",
@@ -2930,7 +2930,7 @@
       }
     },
     {
-      "_id": "3408f6a2cdfcaefe",
+      "_id": "64046f0de9e8f442",
       "name": "Scorch",
       "type": "spell",
       "img": "icons/magic/fire/explosion-fireball-large-orange.webp",
@@ -3035,7 +3035,7 @@
       }
     },
     {
-      "_id": "806378bac8900d54",
+      "_id": "b43afe222adaba04",
       "name": "Shatter",
       "type": "spell",
       "img": "icons/magic/fire/explosion-fireball-large-orange.webp",
@@ -3140,7 +3140,7 @@
       }
     },
     {
-      "_id": "d24c628b6b1a0441",
+      "_id": "135cbcec6f1650d4",
       "name": "Fireball",
       "type": "spell",
       "img": "icons/magic/fire/projectile-fireball-orange.webp",
@@ -3245,7 +3245,7 @@
       }
     },
     {
-      "_id": "18ae514bf65c0a64",
+      "_id": "1c379ffe0dabb1e0",
       "name": "Wind Wall",
       "type": "spell",
       "img": "icons/magic/air/wind-tornado-funnel-green.webp",
@@ -3350,7 +3350,7 @@
       }
     },
     {
-      "_id": "8cac8fcceefd35da",
+      "_id": "1a87af01e956d97b",
       "name": "Tool Proficiencies",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -3432,7 +3432,7 @@
       }
     },
     {
-      "_id": "be4f71f413afe58d",
+      "_id": "0b84e773c43c93e7",
       "name": "Mechanical Cannon",
       "type": "feat",
       "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
@@ -3963,7 +3963,7 @@
       }
     },
     {
-      "_id": "7c4b981980227827",
+      "_id": "d1ddf8371506b227",
       "name": "Mechanical Firearm",
       "type": "feat",
       "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
@@ -4045,7 +4045,7 @@
       }
     },
     {
-      "_id": "8de63acf34fb656d",
+      "_id": "ac8cf8a50482e56e",
       "name": "Explosive Cannon",
       "type": "feat",
       "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
@@ -4221,7 +4221,7 @@
       }
     },
     {
-      "_id": "0c72efc564ee16ca",
+      "_id": "b77a6abae7e0ebab",
       "name": "Dagger",
       "type": "weapon",
       "img": "icons/weapons/daggers/dagger-glowing-white.webp",
@@ -4398,7 +4398,7 @@
       }
     },
     {
-      "_id": "25f3afd3f94dab5e",
+      "_id": "a9ec6c382e7fc1f0",
       "name": "Backpack",
       "type": "loot",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -4443,7 +4443,7 @@
       }
     },
     {
-      "_id": "2536aa8168b6d20b",
+      "_id": "b7130ccb04d91fb4",
       "name": "Tinker's Tools",
       "type": "tool",
       "img": "icons/tools/smithing/anvil.webp",
@@ -4495,7 +4495,7 @@
       }
     },
     {
-      "_id": "9b399e35b4b23819",
+      "_id": "f588568aebe8a843",
       "name": "Firearms Bullets (20)",
       "type": "consumable",
       "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
@@ -4543,7 +4543,7 @@
       }
     },
     {
-      "_id": "62f0d69e42aae159",
+      "_id": "44ac9097236562fe",
       "name": "Tinkering",
       "type": "feat",
       "img": "icons/skills/trades/construction-mason-bricklayer-red.webp",
@@ -4694,7 +4694,7 @@
       }
     },
     {
-      "_id": "fa8bd838d4719a2e",
+      "_id": "9b1081bc6902fe8b",
       "name": "Creativity (Spellcasting)",
       "type": "feat",
       "img": "icons/magic/fire/explosion-fireball-large-orange.webp",
@@ -4776,7 +4776,7 @@
       }
     },
     {
-      "_id": "ddc6aea69596bf71",
+      "_id": "7b71157b43d89c58",
       "name": "Mastercraft Novice",
       "type": "feat",
       "img": "icons/magic/water/wave-water-blue.webp",
@@ -4858,7 +4858,7 @@
       }
     },
     {
-      "_id": "105cd2b97af04202",
+      "_id": "b65f80500f2acbe3",
       "name": "Mods",
       "type": "feat",
       "img": "icons/magic/lightning/bolt-blue.webp",
@@ -4943,7 +4943,7 @@
       }
     },
     {
-      "_id": "682b3316223bed88",
+      "_id": "ea4e1d57b23ff142",
       "name": "The Right Tool",
       "type": "feat",
       "img": "icons/skills/trades/construction-mason-bricklayer-red.webp",
@@ -5025,7 +5025,7 @@
       }
     },
     {
-      "_id": "5f839a5967a53d4d",
+      "_id": "f5cb80e1aea8b83f",
       "name": "Tool Expertise",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -5107,7 +5107,7 @@
       }
     },
     {
-      "_id": "ced253c3722b6216",
+      "_id": "9aad913931a53091",
       "name": "Flash of Genius",
       "type": "feat",
       "img": "icons/tools/smithing/anvil.webp",
@@ -5276,7 +5276,7 @@
       }
     },
     {
-      "_id": "8daf92fddefcd763",
+      "_id": "2059059a64e7837a",
       "name": "Mastercraft Adept",
       "type": "feat",
       "img": "icons/tools/smithing/anvil.webp",
@@ -5358,7 +5358,7 @@
       }
     },
     {
-      "_id": "d59407767d565873",
+      "_id": "7ff971db511e4294",
       "name": "Small Medkit",
       "type": "consumable",
       "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
@@ -5415,7 +5415,7 @@
       }
     },
     {
-      "_id": "3461f255c616bdaa",
+      "_id": "1feddef49338b0bd",
       "name": "Rations (1 day)",
       "type": "consumable",
       "img": "icons/consumables/potions/bottle-round-corked-red.webp",
@@ -5463,7 +5463,7 @@
       }
     },
     {
-      "_id": "58ca7bc6cc5d461d",
+      "_id": "63d921c8b382041a",
       "name": "Leather Vest",
       "type": "loot",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -5508,7 +5508,7 @@
       }
     },
     {
-      "_id": "6d5f91a68e73aaa6",
+      "_id": "c1607f54c4698856",
       "name": "Leather Boots",
       "type": "loot",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -5553,7 +5553,7 @@
       }
     },
     {
-      "_id": "b48d411db8dfe958",
+      "_id": "7f6573a98477d6ed",
       "name": "Quick Fingers",
       "type": "feat",
       "img": "icons/magic/time/arrows-circling-green.webp",
@@ -5750,7 +5750,7 @@
       }
     },
     {
-      "_id": "fa70b5a58409033e",
+      "_id": "a48c613f734e015c",
       "name": "Shotgun",
       "type": "weapon",
       "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
@@ -5928,7 +5928,7 @@
       }
     },
     {
-      "_id": "0f636721934fb560",
+      "_id": "2fae255c795b6553",
       "name": "Scholar's Pack",
       "type": "loot",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -5973,7 +5973,7 @@
       }
     },
     {
-      "_id": "c0696909535ec994",
+      "_id": "2253f9b3282f55fa",
       "name": "Keen Mind",
       "type": "feat",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -6106,7 +6106,7 @@
       }
     },
     {
-      "_id": "f6641fbfd7c704db",
+      "_id": "cb5417d650c65b31",
       "name": "Extended Barrel",
       "type": "feat",
       "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
@@ -6196,7 +6196,7 @@
       }
     },
     {
-      "_id": "7540a72ab782bbd3",
+      "_id": "571797d3f5c08016",
       "name": "Heavy Artillery",
       "type": "feat",
       "img": "icons/skills/trades/construction-mason-bricklayer-red.webp",
@@ -6355,7 +6355,7 @@
       }
     },
     {
-      "_id": "36460b77a675d052",
+      "_id": "a8cd895ffee9ce0a",
       "name": "Color of Armament Novice",
       "type": "feat",
       "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
@@ -6530,7 +6530,7 @@
       }
     },
     {
-      "_id": "570a6c07e8bfec28",
+      "_id": "b343059b991d0e57",
       "name": "Enhanced Defenses",
       "type": "feat",
       "img": "icons/skills/trades/construction-mason-bricklayer-red.webp",
@@ -6725,7 +6725,7 @@
       }
     },
     {
-      "_id": "6f0ad56770cadded",
+      "_id": "5635292b3e87212b",
       "name": "Color of Armament Apprentice",
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-white.webp",
@@ -6913,7 +6913,7 @@
       "_key": "!items!c04321ae3bf3215f"
     },
     {
-      "_id": "bfa95c278ee00ad8",
+      "_id": "ff5e836adefef90f",
       "name": "Ricochet Rounds",
       "type": "feat",
       "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
@@ -6995,7 +6995,7 @@
       }
     },
     {
-      "_id": "78b4e0f7ce80e67c",
+      "_id": "d258d4bba7394137",
       "name": "Rebound Bound",
       "type": "feat",
       "img": "icons/skills/melee/blade-tip-orange.webp",
@@ -7077,7 +7077,7 @@
       }
     },
     {
-      "_id": "7c7edc30502dd7f4",
+      "_id": "29f9d53a73cf3feb",
       "name": "Alchemist's Supplies",
       "type": "tool",
       "img": "icons/skills/trades/construction-mason-bricklayer-red.webp",
@@ -7130,7 +7130,7 @@
       "_key": "!items!0ea5adada6166183"
     },
     {
-      "_id": "e1e826de6e19090b",
+      "_id": "1e42c3568f7fafda",
       "name": "OHM Targeting Suite",
       "type": "feat",
       "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
@@ -7308,7 +7308,7 @@
       }
     },
     {
-      "_id": "92fda94c67d5c720",
+      "_id": "29c72ec1735c4f6f",
       "name": "Reinforced Cyborg Shell",
       "type": "equipment",
       "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
@@ -7366,7 +7366,7 @@
       "_key": "!items!722fba4bbad273b7"
     }
   ],
-  "_id": "b542294be01d4693",
+  "_id": "eec6821f6b90dc66",
   "prototypeToken": {
     "texture": {
       "src": "one-piece-5e/npcs/Gentle Giant Pirates/facade-new-token.png"

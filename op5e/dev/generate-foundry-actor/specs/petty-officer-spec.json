@@ -7,7 +7,7 @@
   "powerFork": "neither",
   "devilFruit": null,
   "startingHakiNotes": "",
-  "cr": 2,
+  "cr": 4,
   "abilities": {
     "str": 9,
     "dex": 17,
@@ -22,7 +22,7 @@
   "name": "Petty Officer Marine",
   "classIdentifier": "marksman",
   "subclassIdentifier": "sniper",
-  "level": 4,
+  "level": 8,
   "choices": [
     {
       "stepId": "f011d5f4f165c011",
@@ -129,6 +129,22 @@
       "source": "role",
       "uuids": [
         "Compendium.op5e.feats.579b7da190b364cd"
+      ]
+    },
+    {
+      "stepId": "83af0005b20c4ed9",
+      "level": 6,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.dd49b871d5f625a6"
+      ]
+    },
+    {
+      "stepId": "88aa245a9b5cd988",
+      "level": 8,
+      "source": "class",
+      "uuids": [
+        "Compendium.op5e.class-features.16bc2636849312ce"
       ]
     }
   ]

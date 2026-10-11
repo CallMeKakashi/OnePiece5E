@@ -69,6 +69,11 @@ const lingering = feat("homebrew/cadence/lingering-order", "Command-Command: Lin
   { activation: { type: "special", cost: null, condition: "Passive" } });
 actor.items.push(fruit, fiat, imperative, crushing, lingering);
 for (const n of ["Devil Fruit Uses", "Devil Fruit Ability Check, Fruit-Fruit DC and Attack", "Ocean's Scorn"]) actor.items.push(embedOwnedItem(pack("feats", n) as never) as Doc);
+{ // Devil Fruit Uses (Sourcebook Ch. 6): one per odd level (6 at level 12) + 1 for Paramecia = 7, long rest
+  const dfu = actor.items.find((i) => i.name === "Devil Fruit Uses")!;
+  dfu.system.uses = { spent: 0, max: "7", recovery: [{ period: "lr", type: "recoverAll" }] };
+  dfu.system.description.value += "<p>Cadence (level 12, Paramecia): 6 uses from level + 1 for Paramecia = 7. Regain all on a long rest.</p>";
+}
 
 // ---- 2. ASI feats (level 8 and 12; Cha already 20 from level 4)
 for (const n of ["Unarmed Master", "Iron-Willed"]) actor.items.push(embedOwnedItem(pack("feats", n) as never) as Doc);

@@ -62,7 +62,7 @@
         }
       },
       "cha": {
-        "value": 22,
+        "value": 20,
         "proficient": 1,
         "bonuses": {
           "check": "",
@@ -132,7 +132,7 @@
         }
       },
       "inspiration": false,
-      "prof": 5
+      "prof": 4
     },
     "details": {
       "biography": {
@@ -332,7 +332,7 @@
   },
   "items": [
     {
-      "_id": "aad7715a390fa002",
+      "_id": "72e0e25b2ae9fde6",
       "name": "Human",
       "type": "race",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -555,7 +555,7 @@
       }
     },
     {
-      "_id": "bb9d229a2dabe28d",
+      "_id": "0f91d719abcd50e5",
       "name": "Slave",
       "type": "background",
       "img": "icons/magic/control/debuff-chains-ropes-blue.webp",
@@ -577,17 +577,17 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.ee2b7bce6c199510",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.3cb2254f008a020b",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.e1d24d8ce88f231c",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.faa1f869f5d6276f",
                   "optional": false,
                   "quantity": 2
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.09af86f7e3a7bb93.Item.e1d24d8ce88f231c": 2
+                "Actor.34a4885b0d4a79d0.Item.faa1f869f5d6276f": 2
               }
             },
             "value": {},
@@ -672,7 +672,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.ec8fecfffbbd04d5"
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.9ea2bc30ef6021dd"
                 },
                 {}
               ],
@@ -703,7 +703,7 @@
         "op5e": {
           "startingBeri": 1000,
           "grantQuantities": {
-            "Actor.09af86f7e3a7bb93.Item.e1d24d8ce88f231c": 2
+            "Actor.34a4885b0d4a79d0.Item.faa1f869f5d6276f": 2
           }
         }
       },
@@ -724,7 +724,7 @@
       }
     },
     {
-      "_id": "c774e9c0638a53a4",
+      "_id": "fe04723c94ece608",
       "name": "Role: Scholar",
       "type": "feat",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -793,27 +793,27 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.496d23a9e2eb1dd2",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.a728991e121becf8",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.88fda1f34292c378",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.d5081e203223510c",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.e7acb9f48f1b4de3",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.13ea3e470fb2cc21",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.aede5daf294c5712",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.cead7e2ae01d08cd",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.6b78a3eb1dbee3e3",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.eb81c54755082261",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.3c163d5ff98dcd3f",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.c1027aa15c7b205f",
                   "optional": false
                 }
               ]
@@ -893,7 +893,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.ac191571115e34cf"
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.7b41ada37271d876"
                 }
               ],
               "restriction": {
@@ -943,7 +943,7 @@
       }
     },
     {
-      "_id": "496d23a9e2eb1dd2",
+      "_id": "a728991e121becf8",
       "name": "Clothes, Common",
       "type": "loot",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -988,7 +988,7 @@
       }
     },
     {
-      "_id": "88fda1f34292c378",
+      "_id": "d5081e203223510c",
       "name": "Book",
       "type": "loot",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -1033,7 +1033,7 @@
       }
     },
     {
-      "_id": "e7acb9f48f1b4de3",
+      "_id": "13ea3e470fb2cc21",
       "name": "Ink (1 ounce bottle)",
       "type": "loot",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -1078,7 +1078,7 @@
       }
     },
     {
-      "_id": "aede5daf294c5712",
+      "_id": "cead7e2ae01d08cd",
       "name": "Ink Pen",
       "type": "loot",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -1123,7 +1123,7 @@
       }
     },
     {
-      "_id": "6b78a3eb1dbee3e3",
+      "_id": "eb81c54755082261",
       "name": "Disguise Kit",
       "type": "tool",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -1175,7 +1175,7 @@
       }
     },
     {
-      "_id": "3c163d5ff98dcd3f",
+      "_id": "c1027aa15c7b205f",
       "name": "Forgery Kit",
       "type": "tool",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -1227,7 +1227,7 @@
       }
     },
     {
-      "_id": "b520605a1df8f644",
+      "_id": "9715384338236810",
       "name": "Bard",
       "type": "class",
       "img": "icons/skills/trades/music-notes-sound-blue.webp",
@@ -1264,11 +1264,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.026552d5266c85c2",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.44907417e9ac01b7",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.eb5b12e90e786273",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.13170814c9e479aa",
                   "optional": false
                 }
               ]
@@ -1296,7 +1296,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.eb5b12e90e786273"
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.13170814c9e479aa"
                 },
                 {},
                 {},
@@ -1311,7 +1311,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.b502535595cd8861"
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.85de7afff4bc9b8a"
                 },
                 {}
               ],
@@ -1348,7 +1348,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.ee360132b3346e4a"
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.d72989e723306a14"
                 },
                 {}
               ],
@@ -1396,7 +1396,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.08633a2806f845d9"
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.09698183f991ff04"
                 }
               ],
               "restriction": {
@@ -1586,11 +1586,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.cf58be8817f91703",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.013efc4165b47546",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.2e616ce8e50e363e",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.ab9ecfffbbec5c41",
                   "optional": false
                 }
               ]
@@ -1608,11 +1608,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.550d4de89468fc7f",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.d2d8c211e6317fe6",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.6344a2d2e2374c2f",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.772eab199c227ad2",
                   "optional": false
                 }
               ]
@@ -1665,7 +1665,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.ef02662de4c5eb27",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.08b3ae388e8847d3",
                   "optional": false
                 }
               ]
@@ -1683,7 +1683,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.21101f908d284768",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.1d9528f6364cc47c",
                   "optional": false
                 }
               ]
@@ -1701,7 +1701,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.7065c672ad1e9b9e",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.0d534468885ce817",
                   "optional": false
                 }
               ]
@@ -1743,15 +1743,15 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.5cb4b00be51c0d0a",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.2abbac0527dec2f4",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.780a5240e2862b6f",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.8132b8ecfa7cb374",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.fdc9f40ca1027658",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.e3c41b5c70637071",
                   "optional": false
                 }
               ]
@@ -1924,7 +1924,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.cd50bf2b4acd9267"
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.220270ae77c9ab4e"
                 },
                 {},
                 {},
@@ -1975,7 +1975,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.cd50bf2b4acd9267"
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.220270ae77c9ab4e"
                 },
                 {},
                 {},
@@ -2026,7 +2026,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.cd50bf2b4acd9267"
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.220270ae77c9ab4e"
                 },
                 {},
                 {},
@@ -2077,7 +2077,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.cd50bf2b4acd9267"
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.220270ae77c9ab4e"
                 },
                 {},
                 {},
@@ -2128,7 +2128,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.cd50bf2b4acd9267"
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.220270ae77c9ab4e"
                 },
                 {},
                 {},
@@ -2180,7 +2180,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.6bb253fbc9a9d184"
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.3080eeacd6935a39"
                 },
                 {},
                 {},
@@ -2220,7 +2220,7 @@
               "pool": [
                 {},
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.e3679b29b146de04"
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.862d5269689d01db"
                 },
                 {},
                 {}
@@ -2360,7 +2360,7 @@
       }
     },
     {
-      "_id": "bf815f767eeaf833",
+      "_id": "48b26de7f6ce0d0b",
       "name": "College of Lore",
       "type": "subclass",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -2384,11 +2384,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.daa510964a79a0da",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.c00cabb51bb070aa",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.7dacbc1e318d8cd5",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.d4d59f4af46cd42b",
                   "optional": false
                 }
               ]
@@ -2406,11 +2406,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.9062cb480a453398",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.bcf218cc5b68b080",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.09af86f7e3a7bb93.Item.4d95b8293f4d907b",
+                  "uuid": "Actor.34a4885b0d4a79d0.Item.eeaeeeb6a6674c5b",
                   "optional": false
                 }
               ]
@@ -2464,7 +2464,7 @@
       }
     },
     {
-      "_id": "daa510964a79a0da",
+      "_id": "c00cabb51bb070aa",
       "name": "Bonus Proficiencies",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -2546,7 +2546,7 @@
       }
     },
     {
-      "_id": "7dacbc1e318d8cd5",
+      "_id": "d4d59f4af46cd42b",
       "name": "Cutting Words",
       "type": "feat",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -2707,7 +2707,7 @@
       }
     },
     {
-      "_id": "9062cb480a453398",
+      "_id": "bcf218cc5b68b080",
       "name": "Additional Musical Secrets",
       "type": "feat",
       "img": "icons/skills/trades/music-notes-sound-blue.webp",
@@ -2789,7 +2789,7 @@
       }
     },
     {
-      "_id": "4d95b8293f4d907b",
+      "_id": "eeaeeeb6a6674c5b",
       "name": "Customized Creativity",
       "type": "feat",
       "img": "icons/magic/control/silhouette-hold-change-blue.webp",
@@ -2955,7 +2955,7 @@
       }
     },
     {
-      "_id": "026552d5266c85c2",
+      "_id": "44907417e9ac01b7",
       "name": "Gilded Merchant's Vest",
       "type": "equipment",
       "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
@@ -3012,7 +3012,7 @@
       }
     },
     {
-      "_id": "eb5b12e90e786273",
+      "_id": "13170814c9e479aa",
       "name": "Dagger",
       "type": "weapon",
       "img": "icons/weapons/daggers/dagger-glowing-white.webp",
@@ -3189,7 +3189,7 @@
       }
     },
     {
-      "_id": "cf58be8817f91703",
+      "_id": "013efc4165b47546",
       "name": "Creativity (Spellcasting)",
       "type": "feat",
       "img": "icons/magic/symbols/star-rising-purple.webp",
@@ -3271,7 +3271,7 @@
       }
     },
     {
-      "_id": "2e616ce8e50e363e",
+      "_id": "ab9ecfffbbec5c41",
       "name": "Bardic Inspiration",
       "type": "feat",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -3454,7 +3454,7 @@
       }
     },
     {
-      "_id": "550d4de89468fc7f",
+      "_id": "d2d8c211e6317fe6",
       "name": "Jack of All Trades",
       "type": "feat",
       "img": "icons/magic/symbols/star-rising-purple.webp",
@@ -3565,7 +3565,7 @@
       }
     },
     {
-      "_id": "6344a2d2e2374c2f",
+      "_id": "772eab199c227ad2",
       "name": "Harmonic Vitality",
       "type": "feat",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -3750,7 +3750,7 @@
       }
     },
     {
-      "_id": "ef02662de4c5eb27",
+      "_id": "08b3ae388e8847d3",
       "name": "Expertise",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -3832,7 +3832,7 @@
       }
     },
     {
-      "_id": "21101f908d284768",
+      "_id": "1d9528f6364cc47c",
       "name": "Font of Inspiration",
       "type": "feat",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -3914,7 +3914,7 @@
       }
     },
     {
-      "_id": "7065c672ad1e9b9e",
+      "_id": "0d534468885ce817",
       "name": "Countercharm",
       "type": "feat",
       "img": "icons/magic/control/silhouette-hold-change-blue.webp",
@@ -4065,7 +4065,7 @@
       }
     },
     {
-      "_id": "5cb4b00be51c0d0a",
+      "_id": "2abbac0527dec2f4",
       "name": "Expertise",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -4147,7 +4147,7 @@
       }
     },
     {
-      "_id": "780a5240e2862b6f",
+      "_id": "8132b8ecfa7cb374",
       "name": "Musical Secrets",
       "type": "feat",
       "img": "icons/skills/trades/music-notes-sound-blue.webp",
@@ -4229,7 +4229,7 @@
       }
     },
     {
-      "_id": "fdc9f40ca1027658",
+      "_id": "e3c41b5c70637071",
       "name": "Font of Vitality",
       "type": "feat",
       "img": "icons/skills/trades/music-notes-sound-blue.webp",
@@ -4311,7 +4311,7 @@
       }
     },
     {
-      "_id": "ee2b7bce6c199510",
+      "_id": "3cb2254f008a020b",
       "name": "Small Medkit",
       "type": "consumable",
       "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
@@ -4368,7 +4368,7 @@
       }
     },
     {
-      "_id": "e1d24d8ce88f231c",
+      "_id": "faa1f869f5d6276f",
       "name": "Rations (1 day)",
       "type": "consumable",
       "img": "icons/consumables/potions/bottle-round-corked-red.webp",
@@ -4416,7 +4416,7 @@
       }
     },
     {
-      "_id": "ec8fecfffbbd04d5",
+      "_id": "9ea2bc30ef6021dd",
       "name": "Tough",
       "type": "feat",
       "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
@@ -4528,7 +4528,7 @@
       }
     },
     {
-      "_id": "b502535595cd8861",
+      "_id": "85de7afff4bc9b8a",
       "name": "Flintlock",
       "type": "weapon",
       "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
@@ -4704,7 +4704,7 @@
       }
     },
     {
-      "_id": "ee360132b3346e4a",
+      "_id": "d72989e723306a14",
       "name": "Diplomat's Pack",
       "type": "loot",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -4749,7 +4749,7 @@
       }
     },
     {
-      "_id": "08633a2806f845d9",
+      "_id": "09698183f991ff04",
       "name": "Tambourine",
       "type": "tool",
       "img": "icons/tools/smithing/anvil.webp",
@@ -4801,7 +4801,7 @@
       }
     },
     {
-      "_id": "e3679b29b146de04",
+      "_id": "862d5269689d01db",
       "name": "Sphinx-Sphinx Fruit (Mythical Zoan)",
       "type": "loot",
       "img": "modules/op5e/assets/icons/devil-fruit-zoan.svg",
@@ -4835,7 +4835,7 @@
       }
     },
     {
-      "_id": "ac191571115e34cf",
+      "_id": "7b41ada37271d876",
       "name": "Skill Expert",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -4960,7 +4960,7 @@
       }
     },
     {
-      "_id": "61cef370b662ed5c",
+      "_id": "41970c554b42e28c",
       "name": "Color of Observation Novice",
       "type": "feat",
       "img": "icons/magic/water/ice-crystal-white.webp",
@@ -5155,7 +5155,7 @@
       }
     },
     {
-      "_id": "8e21bd713694089d",
+      "_id": "44e2b6c3ef135578",
       "name": "Color of Observation Apprentice",
       "type": "feat",
       "img": "icons/magic/water/projectile-ice-faceted-blue.webp",
@@ -5291,7 +5291,7 @@
       "_key": "!items!7395019d993a1891"
     },
     {
-      "_id": "4e4435d867e2ea37",
+      "_id": "81b77eea3a7ed4cd",
       "name": "Rogue",
       "type": "class",
       "img": "icons/weapons/daggers/dagger-serrated-black.webp",
@@ -5328,25 +5328,25 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.997ff9ce767c8c91.Item.0f2e8a9b54d1cb47",
+                  "uuid": "Actor.f96b098d5304d165.Item.6012eaed0f277dc9",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.997ff9ce767c8c91.Item.968d4ffc3c758117",
+                  "uuid": "Actor.f96b098d5304d165.Item.30fab7c3df76c74d",
                   "optional": false,
                   "quantity": 2
                 },
                 {
-                  "uuid": "Actor.997ff9ce767c8c91.Item.37dae13a427598ff",
+                  "uuid": "Actor.f96b098d5304d165.Item.1974928ae408c033",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.997ff9ce767c8c91.Item.c2e36580799c763f",
+                  "uuid": "Actor.f96b098d5304d165.Item.4718e2b94fa08348",
                   "optional": false
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.997ff9ce767c8c91.Item.968d4ffc3c758117": 2
+                "Actor.f96b098d5304d165.Item.30fab7c3df76c74d": 2
               }
             },
             "value": {},
@@ -5369,7 +5369,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.997ff9ce767c8c91.Item.5f8495324e17877c"
+                  "uuid": "Actor.f96b098d5304d165.Item.9e654400ec671a70"
                 },
                 {}
               ],
@@ -5406,7 +5406,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.997ff9ce767c8c91.Item.489d017e2a329edb"
+                  "uuid": "Actor.f96b098d5304d165.Item.a2e451bdc450cc37"
                 },
                 {}
               ],
@@ -5443,7 +5443,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.997ff9ce767c8c91.Item.aefe740373f9c723"
+                  "uuid": "Actor.f96b098d5304d165.Item.afba78d971a37cd0"
                 },
                 {},
                 {}
@@ -5719,15 +5719,15 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.997ff9ce767c8c91.Item.667f5a9c6c5bec71",
+                  "uuid": "Actor.f96b098d5304d165.Item.4ad91987441052d6",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.997ff9ce767c8c91.Item.ff66fc0e13a33508",
+                  "uuid": "Actor.f96b098d5304d165.Item.b52c0c03079c78e9",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.997ff9ce767c8c91.Item.812db4d1a77608db",
+                  "uuid": "Actor.f96b098d5304d165.Item.03a954a47a5a4bcf",
                   "optional": false
                 }
               ]
@@ -5745,7 +5745,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.997ff9ce767c8c91.Item.8fd83aa184c4691a",
+                  "uuid": "Actor.f96b098d5304d165.Item.d3209f0768683a1a",
                   "optional": false
                 }
               ]
@@ -5763,7 +5763,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.997ff9ce767c8c91.Item.43bf3028f02c95eb",
+                  "uuid": "Actor.f96b098d5304d165.Item.7db6fcb26d8a88c6",
                   "optional": false
                 }
               ]
@@ -6296,7 +6296,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.997ff9ce767c8c91.Item.4a32d5050504fd8c"
+                  "uuid": "Actor.f96b098d5304d165.Item.2f11767234838580"
                 },
                 {},
                 {},
@@ -6335,7 +6335,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.997ff9ce767c8c91.Item.8b3be735616bfd14"
+                  "uuid": "Actor.f96b098d5304d165.Item.091aef09451bc7af"
                 },
                 {},
                 {},
@@ -6372,7 +6372,7 @@
       "flags": {
         "op5e": {
           "grantQuantities": {
-            "Actor.997ff9ce767c8c91.Item.968d4ffc3c758117": 2
+            "Actor.f96b098d5304d165.Item.30fab7c3df76c74d": 2
           }
         }
       },
@@ -6393,7 +6393,7 @@
       }
     },
     {
-      "_id": "dfb1cbdaa4a39dc6",
+      "_id": "25bfe90a8e772cfe",
       "name": "Inquisitive",
       "type": "subclass",
       "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
@@ -6417,11 +6417,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.997ff9ce767c8c91.Item.f14977a8113c9ef1",
+                  "uuid": "Actor.f96b098d5304d165.Item.d5bba9e241b8b477",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.997ff9ce767c8c91.Item.9276791256ce991c",
+                  "uuid": "Actor.f96b098d5304d165.Item.eb9d054b9bcac7b3",
                   "optional": false
                 }
               ]
@@ -6526,7 +6526,7 @@
       }
     },
     {
-      "_id": "f14977a8113c9ef1",
+      "_id": "d5bba9e241b8b477",
       "name": "Decipher Deceit",
       "type": "feat",
       "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
@@ -6608,7 +6608,7 @@
       }
     },
     {
-      "_id": "9276791256ce991c",
+      "_id": "eb9d054b9bcac7b3",
       "name": "Observe Opponent",
       "type": "feat",
       "img": "icons/magic/perception/third-eye-blue-red.webp",
@@ -6759,7 +6759,7 @@
       }
     },
     {
-      "_id": "37dae13a427598ff",
+      "_id": "1974928ae408c033",
       "name": "Thieves' Tools",
       "type": "tool",
       "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
@@ -6811,7 +6811,7 @@
       }
     },
     {
-      "_id": "667f5a9c6c5bec71",
+      "_id": "4ad91987441052d6",
       "name": "Expertise (Rogue)",
       "type": "feat",
       "img": "icons/skills/trades/academics-study-reading-book.webp",
@@ -6893,7 +6893,7 @@
       }
     },
     {
-      "_id": "ff66fc0e13a33508",
+      "_id": "b52c0c03079c78e9",
       "name": "Sneak Attack",
       "type": "feat",
       "img": "icons/weapons/daggers/dagger-curved-blue.webp",
@@ -7061,7 +7061,7 @@
       }
     },
     {
-      "_id": "812db4d1a77608db",
+      "_id": "03a954a47a5a4bcf",
       "name": "Thieves' Cant",
       "type": "feat",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -7143,7 +7143,7 @@
       }
     },
     {
-      "_id": "8fd83aa184c4691a",
+      "_id": "d3209f0768683a1a",
       "name": "Cunning Action",
       "type": "feat",
       "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
@@ -7294,7 +7294,7 @@
       }
     },
     {
-      "_id": "43bf3028f02c95eb",
+      "_id": "7db6fcb26d8a88c6",
       "name": "Steady Aim",
       "type": "feat",
       "img": "icons/weapons/daggers/dagger-curved-blue.webp",
@@ -7445,7 +7445,7 @@
       }
     },
     {
-      "_id": "5f86d6af5c46f046",
+      "_id": "1fac2f4b02229e54",
       "name": "Lucky",
       "type": "feat",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -7608,7 +7608,7 @@
       "_key": "!items!579b7da190b364cd"
     },
     {
-      "_id": "74a7a6e1bc272eaa",
+      "_id": "f75bca7f316d779f",
       "name": "Devil Fruit Uses",
       "type": "feat",
       "img": "icons/skills/melee/strike-blade-blood-red.webp",
@@ -7771,7 +7771,7 @@
       "_key": "!items!f1b6a1ceb52e6d43"
     },
     {
-      "_id": "60762c25b5151362",
+      "_id": "64becd061015c6ab",
       "name": "Devil Fruit Ability Check, Fruit-Fruit DC and Attack",
       "type": "feat",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
@@ -8165,7 +8165,7 @@
       "_key": "!items!990dca216575f1bd"
     },
     {
-      "_id": "4931f048307569f1",
+      "_id": "707203c33ad8d930",
       "name": "Zoan Hybrid Form",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -8374,7 +8374,7 @@
       "_key": "!items!ee936ad7643afd82"
     },
     {
-      "_id": "5e3204f5440d03a3",
+      "_id": "e233966be69ee710",
       "name": "Zoan Full Beast Form",
       "type": "feat",
       "img": "icons/creatures/mammals/wolf-howl-moon-gray.webp",
@@ -8580,7 +8580,7 @@
       "_key": "!items!a86f694abcd56b79"
     },
     {
-      "_id": "c979e64f2b9116e3",
+      "_id": "70722ddf146277fa",
       "name": "Zoan Enhanced Form",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -8805,7 +8805,7 @@
       "_key": "!items!108138953659e79b"
     },
     {
-      "_id": "e7498eb89992d518",
+      "_id": "9d8fd6ddfe80fd27",
       "name": "Ocean's Scorn",
       "type": "feat",
       "img": "icons/magic/water/projectile-ice-faceted-blue.webp",
@@ -9592,7 +9592,7 @@
       "_key": "!items!6e9d7ec2ca209e1e"
     },
     {
-      "_id": "e0e8554952ce8b9a",
+      "_id": "1279499aa0ff8d63",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -9743,7 +9743,7 @@
       }
     },
     {
-      "_id": "d21999f68c7d3747",
+      "_id": "37dd9bf81184e756",
       "name": "Sunbrand Verdict",
       "type": "feat",
       "img": "icons/weapons/swords/scimitar-guard-gold.webp",
@@ -9918,7 +9918,7 @@
       }
     },
     {
-      "_id": "62340158272dfdf1",
+      "_id": "56f60e1f2903673f",
       "name": "Eye of the Sphinx",
       "type": "feat",
       "img": "icons/magic/perception/eye-ringed-glow-angry-large-red.webp",
@@ -10134,13 +10134,13 @@
       }
     },
     {
-      "_id": "e7cee002f7869156",
+      "_id": "ba980d05e75a1c18",
       "name": "Riddle of the Sphinx",
       "type": "feat",
       "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
       "system": {
         "description": {
-          "value": "<p>Action. Kyle poses an unanswerable riddle to one creature within 60 feet that can hear him. It must make a DC 19 Wisdom saving throw. On a failed save it takes 12d8 psychic damage and is stunned until the end of its next turn. On a success it takes half damage and is not stunned. Kyle can use this three times per long rest.</p>",
+          "value": "<p>Action. Kyle poses an unanswerable riddle to one creature within 60 feet that can hear him. It must make a DC 18 Wisdom saving throw. On a failed save it takes 12d8 psychic damage and is stunned until the end of its next turn. On a success it takes half damage and is not stunned. Kyle can use this three times per long rest.</p>",
           "chat": ""
         },
         "source": {
@@ -10192,7 +10192,7 @@
         },
         "save": {
           "ability": "wis",
-          "dc": 19,
+          "dc": 18,
           "scaling": "flat"
         },
         "chatFlavor": "",
@@ -10304,7 +10304,7 @@
               ],
               "dc": {
                 "calculation": "",
-                "formula": "19"
+                "formula": "18"
               }
             }
           }
@@ -10329,7 +10329,7 @@
       }
     },
     {
-      "_id": "ac64f046835c55ee",
+      "_id": "81887e38f265ced1",
       "name": "Judgment of the Sphinx",
       "type": "feat",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp",
@@ -10494,7 +10494,7 @@
       }
     },
     {
-      "_id": "82265193551a9290",
+      "_id": "91ee08999c7d53b9",
       "name": "Wings of the Sphinx",
       "type": "feat",
       "img": "icons/commodities/biological/wing-bird-white.webp",
@@ -10645,7 +10645,7 @@
       }
     },
     {
-      "_id": "ccc08318d6a51621",
+      "_id": "9e2277cc92d0852d",
       "name": "Sphinx's Veil",
       "type": "feat",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp",
@@ -10796,13 +10796,13 @@
       }
     },
     {
-      "_id": "0e73a1bb8f699c44",
+      "_id": "ea6f2c943f3cdc22",
       "name": "Sandstorm Roar",
       "type": "feat",
       "img": "icons/magic/air/wind-tornado-wall-blue.webp",
       "system": {
         "description": {
-          "value": "<p>Action, Hybrid Form only. Kyle roars and a 30-foot cone of sand and wind erupts. Each creature in the cone makes a DC 19 Dexterity saving throw, taking 10d8 bludgeoning damage and becoming blinded until the end of its next turn on a failed save, or half damage and no blindness on a success. Recharge 5-6.</p>",
+          "value": "<p>Action, Hybrid Form only. Kyle roars and a 30-foot cone of sand and wind erupts. Each creature in the cone makes a DC 18 Dexterity saving throw, taking 10d8 bludgeoning damage and becoming blinded until the end of its next turn on a failed save, or half damage and no blindness on a success. Recharge 5-6.</p>",
           "chat": ""
         },
         "source": {
@@ -10854,7 +10854,7 @@
         },
         "save": {
           "ability": "dex",
-          "dc": 19,
+          "dc": 18,
           "scaling": "flat"
         },
         "chatFlavor": "",
@@ -10951,7 +10951,7 @@
               ],
               "dc": {
                 "calculation": "",
-                "formula": "19"
+                "formula": "18"
               }
             }
           }
@@ -10976,13 +10976,13 @@
       }
     },
     {
-      "_id": "55963a7629470a0a",
+      "_id": "b69d399ca0d40177",
       "name": "Pharaoh's Curse",
       "type": "feat",
       "img": "icons/magic/unholy/hand-marked-pink.webp",
       "system": {
         "description": {
-          "value": "<p>Bonus action, once per round. Kyle curses a Marked creature he can see within 60 feet. It must make a DC 19 Wisdom saving throw or have disadvantage on its next attack roll or saving throw before the end of its next turn.</p>",
+          "value": "<p>Bonus action, once per round. Kyle curses a Marked creature he can see within 60 feet. It must make a DC 18 Wisdom saving throw or have disadvantage on its next attack roll or saving throw before the end of its next turn.</p>",
           "chat": ""
         },
         "source": {
@@ -11029,7 +11029,7 @@
         },
         "save": {
           "ability": "wis",
-          "dc": 19,
+          "dc": 18,
           "scaling": "flat"
         },
         "chatFlavor": "",
@@ -11108,7 +11108,7 @@
               ],
               "dc": {
                 "calculation": "",
-                "formula": "19"
+                "formula": "18"
               }
             }
           }
@@ -11133,7 +11133,7 @@
       }
     },
     {
-      "_id": "7d4a2199089a2fba",
+      "_id": "5ca5232f58417efa",
       "name": "Eye Sees All",
       "type": "feat",
       "img": "icons/magic/perception/eye-ringed-glow-angry-large-red.webp",
@@ -11298,7 +11298,7 @@
       }
     },
     {
-      "_id": "cc930170cfc9ad22",
+      "_id": "c8268e66f0724fce",
       "name": "Legendary Resistance (3/Day)",
       "type": "feat",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp",
@@ -11464,7 +11464,7 @@
       }
     },
     {
-      "_id": "625fe96700618a0e",
+      "_id": "b2582cb110fa6dea",
       "name": "Legendary Actions",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -11615,7 +11615,7 @@
       }
     },
     {
-      "_id": "71bbce23379bf384",
+      "_id": "0f592012100e464f",
       "name": "Sunbrand Strike (Legendary Action)",
       "type": "feat",
       "img": "icons/weapons/swords/scimitar-guard-gold.webp",
@@ -11790,7 +11790,7 @@
       }
     },
     {
-      "_id": "2473c1bcfc82310a",
+      "_id": "05b9c5a4a4ab20c3",
       "name": "Lair Actions (shared with the duo)",
       "type": "feat",
       "img": "icons/environment/settlement/market-stall.webp",
@@ -11941,7 +11941,7 @@
       }
     },
     {
-      "_id": "bdb338dd02829591",
+      "_id": "07907fbc35d67b63",
       "name": "Sunbrand Khopesh",
       "type": "weapon",
       "img": "icons/weapons/swords/scimitar-guard-gold.webp",
@@ -12105,7 +12105,7 @@
       "_key": "!items!ce715368a9f9538a"
     },
     {
-      "_id": "dd8c444422f2c80b",
+      "_id": "93b4063efce58755",
       "name": "Vicious Mockery",
       "type": "spell",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -12306,7 +12306,7 @@
       }
     },
     {
-      "_id": "c39dcb253026238b",
+      "_id": "707aef70f4b530b4",
       "name": "Guidance",
       "type": "spell",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -12484,7 +12484,7 @@
       }
     },
     {
-      "_id": "b12b175f1cc563c9",
+      "_id": "6348b6cb2fe7c97f",
       "name": "Prestidigitation",
       "type": "spell",
       "img": "icons/magic/symbols/runes-star-blue.webp",
@@ -12655,7 +12655,7 @@
       }
     },
     {
-      "_id": "f0b026d78674a425",
+      "_id": "ba927320c1ee82c6",
       "name": "Healing Word",
       "type": "spell",
       "img": "icons/magic/life/heart-cross-green.webp",
@@ -12835,7 +12835,7 @@
       }
     },
     {
-      "_id": "d7199de755372dd8",
+      "_id": "fe3a005c57a9d771",
       "name": "Cure Wounds",
       "type": "spell",
       "img": "icons/magic/holy/chalice-glowing-gold.webp",
@@ -13015,7 +13015,7 @@
       }
     },
     {
-      "_id": "4b5c0fb519217564",
+      "_id": "f1583c3acea423f0",
       "name": "Heroism",
       "type": "spell",
       "img": "icons/magic/control/silhouette-hold-change-blue.webp",
@@ -13186,7 +13186,7 @@
       }
     },
     {
-      "_id": "fe082314bdbc3ca4",
+      "_id": "ba53cc63d97decac",
       "name": "Sanctuary",
       "type": "spell",
       "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
@@ -13364,7 +13364,7 @@
       }
     },
     {
-      "_id": "32976573cd04d490",
+      "_id": "5797ae8262c7a114",
       "name": "Hold Person",
       "type": "spell",
       "img": "icons/magic/control/debuff-chains-ropes-blue.webp",
@@ -13542,7 +13542,7 @@
       }
     },
     {
-      "_id": "2734af36c2da79e3",
+      "_id": "7262cf4dd7050603",
       "name": "Invisibility",
       "type": "spell",
       "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
@@ -13713,7 +13713,7 @@
       }
     },
     {
-      "_id": "411b4da4c109b3b3",
+      "_id": "ae460f282c8838b4",
       "name": "Mirror Image",
       "type": "spell",
       "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
@@ -13884,7 +13884,7 @@
       }
     },
     {
-      "_id": "9f740f247a855c88",
+      "_id": "ca87f57d9927bf59",
       "name": "Clairvoyance",
       "type": "spell",
       "img": "icons/magic/air/wind-tornado-funnel-green.webp",
@@ -14055,7 +14055,7 @@
       }
     },
     {
-      "_id": "69074e2121cb6d32",
+      "_id": "4e30752b82f69292",
       "name": "Fear",
       "type": "spell",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -14233,7 +14233,7 @@
       }
     },
     {
-      "_id": "c50bc81a7642a7ce",
+      "_id": "4834b211ab667273",
       "name": "Bestow Curse",
       "type": "spell",
       "img": "icons/magic/unholy/orb-smoking-green.webp",
@@ -14434,7 +14434,7 @@
       }
     },
     {
-      "_id": "99a33654c10cb4c8",
+      "_id": "3b7508df73c42a37",
       "name": "Greater Invisibility",
       "type": "spell",
       "img": "icons/weapons/daggers/dagger-glowing-white.webp",
@@ -14605,7 +14605,7 @@
       }
     },
     {
-      "_id": "28250bdcb9947c27",
+      "_id": "1115a1ace1d5de32",
       "name": "Dimension Door",
       "type": "spell",
       "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
@@ -14800,7 +14800,7 @@
       }
     },
     {
-      "_id": "6e4e1d2c021d0d15",
+      "_id": "e2bf248a9885af4b",
       "name": "Hold Monster",
       "type": "spell",
       "img": "icons/magic/control/silhouette-hold-change-blue.webp",
@@ -14978,7 +14978,7 @@
       }
     },
     {
-      "_id": "b2776cc785ae6647",
+      "_id": "500da0a597725ba3",
       "name": "Mass Cure Wounds",
       "type": "spell",
       "img": "icons/consumables/potions/bottle-round-corked-red.webp",
@@ -15158,5 +15158,5 @@
       }
     }
   ],
-  "_id": "09af86f7e3a7bb93"
+  "_id": "34a4885b0d4a79d0"
 }

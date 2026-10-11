@@ -73,7 +73,7 @@ for (const i of items) {
 
 const sys = ch.system;
 // base 10/16/13/10/13/12; Human +1 all; Fighter 4 and Brawler 4 ASIs: Dex +2, Wis +2; Flying Strikes +1 Dex. Con 14 base for the Tough build.
-const abil = { str: 11, dex: 20, con: 14, int: 11, wis: 16, cha: 13 };
+const abil = { str: 10, dex: 20, con: 14, int: 10, wis: 16, cha: 12 }; // Human +1 only on Dex, Con and Wis (the trait gives +3 in total, corrected 2026-10-11)
 for (const [k, v] of Object.entries(abil)) sys.abilities[k].value = v;
 for (const k of Object.keys(abil)) sys.abilities[k].proficient = ["str", "con"].includes(k) ? 1 : 0;
 const SKILL_ABILITY: Record<string, string> = { acr: "dex", ani: "wis", arc: "int", ath: "str", dec: "cha", his: "int", ins: "wis", itm: "cha", inv: "int", med: "wis", nat: "int", prc: "wis", prf: "cha", per: "cha", rel: "int", slt: "dex", ste: "dex", sur: "wis" };

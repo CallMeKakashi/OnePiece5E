@@ -276,7 +276,7 @@
   },
   "items": [
     {
-      "_id": "fc799fe569fd2926",
+      "_id": "e866252a5d2035d3",
       "name": "Human",
       "type": "race",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -499,7 +499,7 @@
       }
     },
     {
-      "_id": "0b3a9b682656f7e0",
+      "_id": "d4dea513a03dfb7a",
       "name": "Entertainer",
       "type": "background",
       "img": "icons/skills/trades/music-notes-sound-blue.webp",
@@ -521,25 +521,25 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.ff7f558956b32923",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.148503ee4eb24ebe",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.ba877c66d2ea6406",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.9ad9a4cdee5ebfb2",
                   "optional": false,
                   "quantity": 5
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.8ba3ac4b0cca8b5d",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.eb03e13cfafa5c99",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.9251c7516754c7cb",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.bab39d5a7d9c1a3e",
                   "optional": false
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.7036809a9b0b9d12.Item.ba877c66d2ea6406": 5
+                "Actor.20bbf385c3c84bb1.Item.9ad9a4cdee5ebfb2": 5
               }
             },
             "value": {},
@@ -613,7 +613,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.bf6ad3c1cfc6bac8"
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.2a99e3f1123ebbdf"
                 },
                 {}
               ],
@@ -644,7 +644,7 @@
         "op5e": {
           "startingBeri": 150000,
           "grantQuantities": {
-            "Actor.7036809a9b0b9d12.Item.ba877c66d2ea6406": 5
+            "Actor.20bbf385c3c84bb1.Item.9ad9a4cdee5ebfb2": 5
           }
         }
       },
@@ -665,7 +665,7 @@
       }
     },
     {
-      "_id": "0928862bbca492ae",
+      "_id": "93536b66911dc370",
       "name": "Role: Deckhand",
       "type": "feat",
       "img": "icons/magic/symbols/runes-star-blue.webp",
@@ -734,15 +734,15 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.d7494b68419e52c1",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.f1cd3767d472deda",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.3415337428cafcce",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.75f830a2d57e3b66",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.89bfd3c9b166c3ac",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.8ad9002c7e7757d9",
                   "optional": false
                 }
               ]
@@ -825,7 +825,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.915b040aaec7463c"
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.14bbe97c5446cf1b"
                 }
               ],
               "restriction": {
@@ -875,7 +875,7 @@
       }
     },
     {
-      "_id": "ca6af2f857192e14",
+      "_id": "94b726705a041d58",
       "name": "Clothes, Common",
       "type": "loot",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -920,7 +920,7 @@
       }
     },
     {
-      "_id": "3415337428cafcce",
+      "_id": "75f830a2d57e3b66",
       "name": "Hammer",
       "type": "loot",
       "img": "icons/weapons/hammers/hammer-war-spiked.webp",
@@ -965,7 +965,7 @@
       }
     },
     {
-      "_id": "89bfd3c9b166c3ac",
+      "_id": "8ad9002c7e7757d9",
       "name": "Spyglass",
       "type": "loot",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -1010,7 +1010,7 @@
       }
     },
     {
-      "_id": "c88507bd008d0a27",
+      "_id": "0e9fe444474475c3",
       "name": "Brawler",
       "type": "class",
       "img": "icons/skills/melee/unarmed-punch-fist.webp",
@@ -1027,7 +1027,7 @@
         },
         "identifier": "brawler",
         "levels": 5,
-        "hitDice": "d8",
+        "hitDice": "d10",
         "hitDiceUsed": 0,
         "advancement": [
           {
@@ -1047,23 +1047,23 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.d7494b68419e52c1",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.f1cd3767d472deda",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.fd0a71289315f137",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.98bf684684b9cc53",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.ae3680e4c1871154",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.b46eefcdc1d0d708",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.e94052d247b27cf3",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.28924dc8d1580e12",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.ba877c66d2ea6406",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.9ad9a4cdee5ebfb2",
                   "optional": false
                 }
               ]
@@ -1090,14 +1090,14 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.fad634896673fe19"
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.a8569d271aa34b51"
                 },
                 {},
                 {},
                 {},
                 {},
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.ae3680e4c1871154"
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.b46eefcdc1d0d708"
                 },
                 {},
                 {},
@@ -1237,15 +1237,15 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.c9317116982fca8a",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.5503ff72ecd5db87",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.eb306b6ac3e35895",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.774f512e2a76b469",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.b0c934a8452495fd",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.f3145c0c8a3f5554",
                   "optional": false
                 }
               ]
@@ -1263,23 +1263,23 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.af4494205227a276",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.c5c328bd57b4b3a5",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.f73db16639933f31",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.ee53e06a307c6e58",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.0e3f61c3a224eceb",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.e33ba61932cbd492",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.37102c601d4cf583",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.7e82573e1ae7c8c9",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.fdb9fc51d0036429",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.b37aa1beb9b36c84",
                   "optional": false
                 }
               ]
@@ -1308,7 +1308,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.f63ff494a9a730c0",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.a2c83bf3e3579df6",
                   "optional": false
                 }
               ]
@@ -1326,7 +1326,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.b94124be10cdbdec",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.86544d9bf0ce088d",
                   "optional": false
                 }
               ]
@@ -1344,11 +1344,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.1c3b7a9a5710dd66",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.ac4307144fda07f0",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.bc4e0bd3f4d9eb62",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.0627ee7b69fa7b9f",
                   "optional": false
                 }
               ]
@@ -1839,7 +1839,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.c4303b7d83362238"
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.5a96a469ec544c56"
                 }
               ],
               "restriction": {
@@ -1878,7 +1878,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.3ae82b2b062dd853"
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.fdbf24035ec8946e"
                 }
               ],
               "restriction": {
@@ -2063,7 +2063,7 @@
       }
     },
     {
-      "_id": "a8d7937bab63b86d",
+      "_id": "60f4c957828f0b9f",
       "name": "Sumo Wrestler",
       "type": "subclass",
       "img": "icons/skills/melee/unarmed-punch-fist.webp",
@@ -2087,11 +2087,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.b8792a0bc02ed535",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.8952078222f774fe",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.7036809a9b0b9d12.Item.7f0c99e344e0bb1c",
+                  "uuid": "Actor.20bbf385c3c84bb1.Item.a153043a3747f61d",
                   "optional": false
                 }
               ]
@@ -2179,7 +2179,7 @@
       }
     },
     {
-      "_id": "b8792a0bc02ed535",
+      "_id": "8952078222f774fe",
       "name": "Sumo Stance",
       "type": "feat",
       "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
@@ -2261,7 +2261,7 @@
       }
     },
     {
-      "_id": "7f0c99e344e0bb1c",
+      "_id": "a153043a3747f61d",
       "name": "Mountain Stance",
       "type": "feat",
       "img": "icons/magic/control/silhouette-hold-change-blue.webp",
@@ -2523,7 +2523,7 @@
       }
     },
     {
-      "_id": "fd0a71289315f137",
+      "_id": "98bf684684b9cc53",
       "name": "Backpack",
       "type": "loot",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -2568,7 +2568,7 @@
       }
     },
     {
-      "_id": "ae3680e4c1871154",
+      "_id": "b46eefcdc1d0d708",
       "name": "Quarterstaff",
       "type": "weapon",
       "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
@@ -2743,7 +2743,7 @@
       }
     },
     {
-      "_id": "190460398cf9b6a9",
+      "_id": "eac76574b03e71d0",
       "name": "Rations (1 day)",
       "type": "consumable",
       "img": "icons/consumables/potions/bottle-round-corked-red.webp",
@@ -2791,7 +2791,7 @@
       }
     },
     {
-      "_id": "c9317116982fca8a",
+      "_id": "5503ff72ecd5db87",
       "name": "Brawling",
       "type": "feat",
       "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
@@ -2873,7 +2873,7 @@
       }
     },
     {
-      "_id": "eb306b6ac3e35895",
+      "_id": "774f512e2a76b469",
       "name": "Unarmored Defense",
       "type": "feat",
       "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
@@ -2995,7 +2995,7 @@
       }
     },
     {
-      "_id": "b0c934a8452495fd",
+      "_id": "f3145c0c8a3f5554",
       "name": "Brawler Unarmed Strike",
       "type": "weapon",
       "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
@@ -3167,7 +3167,7 @@
       }
     },
     {
-      "_id": "af4494205227a276",
+      "_id": "c5c328bd57b4b3a5",
       "name": "Spirit",
       "type": "feat",
       "img": "icons/skills/melee/blood-slash-foam-red.webp",
@@ -3333,7 +3333,7 @@
       }
     },
     {
-      "_id": "f73db16639933f31",
+      "_id": "ee53e06a307c6e58",
       "name": "Flurry of Blows",
       "type": "feat",
       "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
@@ -3411,7 +3411,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "af4494205227a276",
+                  "target": "c5c328bd57b4b3a5",
                   "value": "1",
                   "scaling": {
                     "mode": "",
@@ -3494,7 +3494,7 @@
       }
     },
     {
-      "_id": "0e3f61c3a224eceb",
+      "_id": "e33ba61932cbd492",
       "name": "Patient Defense",
       "type": "feat",
       "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
@@ -3572,7 +3572,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "af4494205227a276",
+                  "target": "c5c328bd57b4b3a5",
                   "value": "1",
                   "scaling": {
                     "mode": "",
@@ -3688,7 +3688,7 @@
       }
     },
     {
-      "_id": "37102c601d4cf583",
+      "_id": "7e82573e1ae7c8c9",
       "name": "Deft Escape",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -3766,7 +3766,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "af4494205227a276",
+                  "target": "c5c328bd57b4b3a5",
                   "value": "1",
                   "scaling": {
                     "mode": "",
@@ -3849,7 +3849,7 @@
       }
     },
     {
-      "_id": "fdb9fc51d0036429",
+      "_id": "b37aa1beb9b36c84",
       "name": "Unarmored Movement",
       "type": "feat",
       "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
@@ -3965,7 +3965,7 @@
       }
     },
     {
-      "_id": "f63ff494a9a730c0",
+      "_id": "a2c83bf3e3579df6",
       "name": "Deflect Missiles",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -4193,7 +4193,7 @@
       }
     },
     {
-      "_id": "b94124be10cdbdec",
+      "_id": "86544d9bf0ce088d",
       "name": "Brace for Impact",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -4344,7 +4344,7 @@
       }
     },
     {
-      "_id": "1c3b7a9a5710dd66",
+      "_id": "ac4307144fda07f0",
       "name": "Extra Attack",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -4426,7 +4426,7 @@
       }
     },
     {
-      "_id": "bc4e0bd3f4d9eb62",
+      "_id": "0627ee7b69fa7b9f",
       "name": "Stunning Strike",
       "type": "feat",
       "img": "icons/magic/control/silhouette-hold-change-blue.webp",
@@ -4571,7 +4571,7 @@
               "targets": [
                 {
                   "type": "itemUses",
-                  "target": "af4494205227a276",
+                  "target": "c5c328bd57b4b3a5",
                   "value": "1",
                   "scaling": {
                     "mode": "",
@@ -4661,7 +4661,7 @@
       }
     },
     {
-      "_id": "ff7f558956b32923",
+      "_id": "148503ee4eb24ebe",
       "name": "Small Medkit",
       "type": "consumable",
       "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
@@ -4718,7 +4718,7 @@
       }
     },
     {
-      "_id": "8ba3ac4b0cca8b5d",
+      "_id": "eb03e13cfafa5c99",
       "name": "Disguise Kit",
       "type": "tool",
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
@@ -4770,7 +4770,7 @@
       }
     },
     {
-      "_id": "bf6ad3c1cfc6bac8",
+      "_id": "2a99e3f1123ebbdf",
       "name": "Performer",
       "type": "feat",
       "img": "icons/skills/trades/music-notes-sound-blue.webp",
@@ -4967,7 +4967,7 @@
       }
     },
     {
-      "_id": "fad634896673fe19",
+      "_id": "a8569d271aa34b51",
       "name": "Greatclub",
       "type": "weapon",
       "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
@@ -5142,7 +5142,7 @@
       }
     },
     {
-      "_id": "915b040aaec7463c",
+      "_id": "14bbe97c5446cf1b",
       "name": "Underdog",
       "type": "feat",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -5251,7 +5251,7 @@
       }
     },
     {
-      "_id": "dd8dcaa1575e8846",
+      "_id": "dff61db62d3c7c9b",
       "name": "Painter's Supplies",
       "type": "tool",
       "img": "icons/tools/smithing/anvil.webp",
@@ -5304,7 +5304,7 @@
       "_key": "!items!a9d155147acc4b8a"
     },
     {
-      "_id": "ee4803b819a31cea",
+      "_id": "ac56a51f35567685",
       "name": "Armorless Guardian",
       "type": "feat",
       "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
@@ -5386,7 +5386,7 @@
       }
     },
     {
-      "_id": "1f7272182ce6a50c",
+      "_id": "041305f6c9bccf8c",
       "name": "Duck and Dodge",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -5502,7 +5502,7 @@
       }
     }
   ],
-  "_id": "7036809a9b0b9d12",
+  "_id": "20bbf385c3c84bb1",
   "prototypeToken": {
     "texture": {
       "src": "one-piece-5e/npcs/Circus Ring/Chuckles-d-clown.png"

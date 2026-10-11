@@ -33,6 +33,7 @@ const items: Doc[] = [...(ch.items as Doc[]).filter((i) => !DROP.includes(i.name
 });
 
 items.push(embId("class-features", "e9178a9c2b55cc91")); // Fighting Style: Dueling
+items.push(emb("class-features", "Burn Baby, Burn")); // additional power (needs fire damage), user's pick
 for (const n of ["Conqueror's Haki Novice", "Conqueror's Haki Apprentice"]) items.push(emb("class-features", n));
 for (const f of lunarianFeatures) if (f.name !== "Ultimate Duality") items.push(embedOwnedItem(ensureFeatureActivities(f as never) as never) as Doc); // Flaming Duality, Flame Investure, Omni-Adapted, wings, Godspeed
 for (const n of ["Fire Bolt", "Elemental Armor", "Fireball"]) items.push(creation(n)); // Flame Investure

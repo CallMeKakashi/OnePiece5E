@@ -25,7 +25,8 @@ actor.items = actor.items.filter((i) => !DROP.includes(i.name ?? ""));
 const seen = new Set<string>(); // chassis carries Role: Deckhand twice
 actor.items = actor.items.filter((i) => { if (!i.name?.startsWith("Role: ")) return true; if (seen.has(i.name)) return false; seen.add(i.name); return true; });
 for (const n of ["Mechanical Improvements", "Integrated Armor", "Integrated Toolbox"]) actor.items.push(embed("racial-features", n));
-for (const n of ["Heavy Armor Master", "Shield Master"]) actor.items.push(embed("feats", n)); // level 4 and 8 feats (both taken instead of ASIs)
+actor.items.push(embed("feats", "Heavy Armor Master")); // level 4 feat; the level 8 slot is now an Int ASI (+2), Shield Master dropped (audit fix 2026-10-11)
+actor.items.push(embed("class-features", "Plan B")); // additional power (Gadgeteer), user's pick
 const smith = embed("items", "Smith's Tools"); smith.system.proficient = 1; actor.items.push(smith);
 for (const i of actor.items) if (i.type === "tool") i.system.proficient = 1;
 
@@ -69,7 +70,7 @@ actor.items.push(calib);
 
 // ---- 4. Numbers: Int 20 Con 16 Dex 14 Str 10 Wis 12 Cha 8, Augmented +2 Con +1 Dex
 const sys = actor.system;
-const abil = { str: 10, dex: 15, con: 18, int: 20, wis: 12, cha: 8 };
+const abil = { str: 8, dex: 15, con: 16, int: 17, wis: 12, cha: 8 }; // point-buy 14/14/15/12/8/8 on Dex/Con/Int/Wis/Str/Cha (cost 27), Augmented +2 Con +1 Dex, level 8 ASI Int +2 (audit fix 2026-10-11)
 for (const [k, v] of Object.entries(abil)) sys.abilities[k].value = v;
 sys.abilities.con.proficient = 1; sys.abilities.int.proficient = 1; // Gadgeteer saves
 sys.attributes.spellcasting = "int";

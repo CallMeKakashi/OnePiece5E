@@ -203,7 +203,7 @@
   },
   "items": [
     {
-      "_id": "f748681792770c23",
+      "_id": "15aa87b62e394319",
       "name": "Human",
       "type": "race",
       "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
@@ -426,7 +426,7 @@
       }
     },
     {
-      "_id": "a34926dfafcd6831",
+      "_id": "3d2d818e123933f9",
       "name": "Marine/Soldier",
       "type": "background",
       "img": "icons/equipment/shield/heater-steel-grey.webp",
@@ -448,23 +448,23 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.5467f94444ff3ffa",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.32f64cf5ec2c0588",
                   "optional": false,
                   "quantity": 2
                 },
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.d9a9fde134a2865c",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.39f5de7f5a9f7812",
                   "optional": false,
                   "quantity": 5
                 },
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.e3b8118162a28c7c",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.e910d968a4ce6905",
                   "optional": false
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.4eb3253c60d52672.Item.5467f94444ff3ffa": 2,
-                "Actor.4eb3253c60d52672.Item.d9a9fde134a2865c": 5
+                "Actor.c7d0f001a088ba33.Item.32f64cf5ec2c0588": 2,
+                "Actor.c7d0f001a088ba33.Item.39f5de7f5a9f7812": 5
               }
             },
             "value": {},
@@ -535,7 +535,7 @@
               "pool": [
                 {},
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.da2fae26609987b0"
+                  "uuid": "Actor.c7d0f001a088ba33.Item.a3962473e5a792e7"
                 }
               ],
               "restriction": {
@@ -565,8 +565,8 @@
         "op5e": {
           "startingBeri": 100000,
           "grantQuantities": {
-            "Actor.4eb3253c60d52672.Item.5467f94444ff3ffa": 2,
-            "Actor.4eb3253c60d52672.Item.d9a9fde134a2865c": 5
+            "Actor.c7d0f001a088ba33.Item.32f64cf5ec2c0588": 2,
+            "Actor.c7d0f001a088ba33.Item.39f5de7f5a9f7812": 5
           }
         }
       },
@@ -587,7 +587,7 @@
       }
     },
     {
-      "_id": "e1ad94825bd22eb8",
+      "_id": "d9729eaca3c8966c",
       "name": "Role: Captain",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -656,15 +656,15 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.e920e8c223ef7d3e",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.7aa35966b63d67a0",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.44946b9f5416cdd6",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.3516ce2096e714d0",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.ea1c9432d26d8e3a",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.6c56d0cd52d1f9b5",
                   "optional": false
                 }
               ]
@@ -759,7 +759,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.01b22f852cc964db"
+                  "uuid": "Actor.c7d0f001a088ba33.Item.bd8c24c8b2500762"
                 }
               ],
               "restriction": {
@@ -809,7 +809,7 @@
       }
     },
     {
-      "_id": "e920e8c223ef7d3e",
+      "_id": "7aa35966b63d67a0",
       "name": "Clothes, Common",
       "type": "loot",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -854,7 +854,7 @@
       }
     },
     {
-      "_id": "44946b9f5416cdd6",
+      "_id": "3516ce2096e714d0",
       "name": "Pirate Flag",
       "type": "loot",
       "img": "icons/skills/social/trading-justice-scale-gold.webp",
@@ -899,7 +899,7 @@
       }
     },
     {
-      "_id": "ea1c9432d26d8e3a",
+      "_id": "6c56d0cd52d1f9b5",
       "name": "Spyglass",
       "type": "loot",
       "img": "icons/sundries/documents/document-sealed-brown-red.webp",
@@ -944,7 +944,7 @@
       }
     },
     {
-      "_id": "613eeb028495528a",
+      "_id": "81eff68a6650180f",
       "name": "Fighter",
       "type": "class",
       "img": "icons/skills/melee/hand-grip-sword-red.webp",
@@ -981,21 +981,21 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.5211455d78b8acd1",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.4e4a11221a7f694b",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.4eb3d5d6a63b390d",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.7d2b04be91415db5",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.64190a7be3107ebe",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.a982a4367cdb2b7e",
                   "optional": false,
                   "quantity": 2
                 }
               ],
               "op5eGrantQuantities": {
-                "Actor.4eb3253c60d52672.Item.64190a7be3107ebe": 2
+                "Actor.c7d0f001a088ba33.Item.a982a4367cdb2b7e": 2
               }
             },
             "value": {},
@@ -1019,7 +1019,7 @@
               "pool": [
                 {},
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.edfe6774c04b96c3"
+                  "uuid": "Actor.c7d0f001a088ba33.Item.26e68a018d610356"
                 },
                 {}
               ],
@@ -1063,10 +1063,10 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.bdd70fea7febca0c"
+                  "uuid": "Actor.c7d0f001a088ba33.Item.cabea40f3c94e39d"
                 },
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.5b83d3918ef4b0ea"
+                  "uuid": "Actor.c7d0f001a088ba33.Item.a30e72ee3c57afa1"
                 },
                 {},
                 {},
@@ -1113,10 +1113,10 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.bdd70fea7febca0c"
+                  "uuid": "Actor.c7d0f001a088ba33.Item.cabea40f3c94e39d"
                 },
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.5b83d3918ef4b0ea"
+                  "uuid": "Actor.c7d0f001a088ba33.Item.a30e72ee3c57afa1"
                 },
                 {},
                 {},
@@ -1156,7 +1156,7 @@
               "pool": [
                 {},
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.dc05fc84df81e328"
+                  "uuid": "Actor.c7d0f001a088ba33.Item.860d68505fc27f34"
                 }
               ],
               "restriction": {
@@ -1193,7 +1193,7 @@
               "pool": [
                 {},
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.9523eafd8b1c7bfc"
+                  "uuid": "Actor.c7d0f001a088ba33.Item.a00a5bb5c339b689"
                 }
               ],
               "restriction": {
@@ -1349,11 +1349,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.63058f2e5ab6111a",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.c09c2967e4e3e3e4",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.5e4033e58f09801d",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.32572ef7189d2685",
                   "optional": false
                 }
               ]
@@ -1371,7 +1371,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.0de82ff330340335",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.4882456b135cf807",
                   "optional": false
                 }
               ]
@@ -1757,7 +1757,7 @@
               },
               "pool": [
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.9d113ccc09bd600f"
+                  "uuid": "Actor.c7d0f001a088ba33.Item.9fb793dff7340ec9"
                 },
                 {},
                 {},
@@ -1805,7 +1805,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.39b10eb9207b7684"
+                  "uuid": "Actor.c7d0f001a088ba33.Item.a66b6a5fcacb9d2d"
                 }
               ],
               "restriction": {
@@ -1834,7 +1834,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.0741527c266aaaf3",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.ced987d05e32ef82",
                   "optional": false
                 }
               ]
@@ -1946,7 +1946,7 @@
       "flags": {
         "op5e": {
           "grantQuantities": {
-            "Actor.4eb3253c60d52672.Item.64190a7be3107ebe": 2
+            "Actor.c7d0f001a088ba33.Item.a982a4367cdb2b7e": 2
           }
         }
       },
@@ -1967,7 +1967,7 @@
       }
     },
     {
-      "_id": "2ba4b81eb4fb326b",
+      "_id": "90221843d986e7c0",
       "name": "Samurai",
       "type": "subclass",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -2018,7 +2018,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.826c95b4b366b450",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.070fba5e74077e01",
                   "optional": false
                 }
               ]
@@ -2123,7 +2123,7 @@
       }
     },
     {
-      "_id": "826c95b4b366b450",
+      "_id": "070fba5e74077e01",
       "name": "Fighting Stances",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -2205,7 +2205,7 @@
       }
     },
     {
-      "_id": "5211455d78b8acd1",
+      "_id": "4e4a11221a7f694b",
       "name": "Arrows (20)",
       "type": "consumable",
       "img": "icons/skills/ranged/arrows-flying-triple-gray.webp",
@@ -2253,7 +2253,7 @@
       }
     },
     {
-      "_id": "4eb3d5d6a63b390d",
+      "_id": "7d2b04be91415db5",
       "name": "Crossbow Bolts (20)",
       "type": "consumable",
       "img": "icons/skills/ranged/arrows-flying-triple-gray.webp",
@@ -2301,7 +2301,7 @@
       }
     },
     {
-      "_id": "64190a7be3107ebe",
+      "_id": "a982a4367cdb2b7e",
       "name": "Handaxe",
       "type": "weapon",
       "img": "icons/weapons/axes/axe-broad-grey.webp",
@@ -2477,7 +2477,7 @@
       }
     },
     {
-      "_id": "63058f2e5ab6111a",
+      "_id": "c09c2967e4e3e3e4",
       "name": "Fighting Style",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -2559,7 +2559,7 @@
       }
     },
     {
-      "_id": "5e4033e58f09801d",
+      "_id": "32572ef7189d2685",
       "name": "Second Wind",
       "type": "feat",
       "img": "icons/magic/life/heart-cross-green.webp",
@@ -2739,7 +2739,7 @@
       }
     },
     {
-      "_id": "0de82ff330340335",
+      "_id": "4882456b135cf807",
       "name": "Action Surge",
       "type": "feat",
       "img": "icons/magic/time/arrows-circling-green.webp",
@@ -2905,7 +2905,7 @@
       }
     },
     {
-      "_id": "0741527c266aaaf3",
+      "_id": "ced987d05e32ef82",
       "name": "Extra Attack",
       "type": "feat",
       "img": "icons/skills/melee/strike-slashes-orange.webp",
@@ -2987,7 +2987,7 @@
       }
     },
     {
-      "_id": "5467f94444ff3ffa",
+      "_id": "32f64cf5ec2c0588",
       "name": "Small Medkit",
       "type": "consumable",
       "img": "icons/consumables/potions/potion-bottle-corked-fancy-blue.webp",
@@ -3044,7 +3044,7 @@
       }
     },
     {
-      "_id": "d9a9fde134a2865c",
+      "_id": "39f5de7f5a9f7812",
       "name": "Rations (1 day)",
       "type": "consumable",
       "img": "icons/consumables/potions/bottle-round-corked-red.webp",
@@ -3092,7 +3092,7 @@
       }
     },
     {
-      "_id": "e3b8118162a28c7c",
+      "_id": "e910d968a4ce6905",
       "name": "Navy Uniform",
       "type": "equipment",
       "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
@@ -3149,7 +3149,7 @@
       }
     },
     {
-      "_id": "da2fae26609987b0",
+      "_id": "a3962473e5a792e7",
       "name": "Medium Armor Master",
       "type": "feat",
       "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
@@ -3255,7 +3255,7 @@
       }
     },
     {
-      "_id": "edfe6774c04b96c3",
+      "_id": "26e68a018d610356",
       "name": "Heavy Longcoat",
       "type": "equipment",
       "img": "icons/equipment/chest/breastplate-banded-steel-grey.webp",
@@ -3313,7 +3313,7 @@
       }
     },
     {
-      "_id": "5b83d3918ef4b0ea",
+      "_id": "a30e72ee3c57afa1",
       "name": "Rapier",
       "type": "weapon",
       "img": "icons/weapons/swords/scimitar-guard-gold.webp",
@@ -3488,7 +3488,7 @@
       }
     },
     {
-      "_id": "bdd70fea7febca0c",
+      "_id": "cabea40f3c94e39d",
       "name": "Shortsword",
       "type": "weapon",
       "img": "icons/weapons/polearms/spear-flared-blue.webp",
@@ -3664,7 +3664,7 @@
       }
     },
     {
-      "_id": "dc05fc84df81e328",
+      "_id": "860d68505fc27f34",
       "name": "Crossbow, Light",
       "type": "weapon",
       "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
@@ -3841,7 +3841,7 @@
       }
     },
     {
-      "_id": "9523eafd8b1c7bfc",
+      "_id": "a00a5bb5c339b689",
       "name": "Explorer's Pack",
       "type": "loot",
       "img": "icons/sundries/books/book-tooled-gold-brown.webp",
@@ -3886,7 +3886,7 @@
       }
     },
     {
-      "_id": "9d113ccc09bd600f",
+      "_id": "9fb793dff7340ec9",
       "name": "Role: Captain",
       "type": "feat",
       "img": "icons/skills/melee/swords-parry-block-yellow.webp",
@@ -3955,15 +3955,15 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.e920e8c223ef7d3e",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.7aa35966b63d67a0",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.44946b9f5416cdd6",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.3516ce2096e714d0",
                   "optional": false
                 },
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.ea1c9432d26d8e3a",
+                  "uuid": "Actor.c7d0f001a088ba33.Item.6c56d0cd52d1f9b5",
                   "optional": false
                 }
               ]
@@ -4058,7 +4058,7 @@
                 {},
                 {},
                 {
-                  "uuid": "Actor.4eb3253c60d52672.Item.01b22f852cc964db"
+                  "uuid": "Actor.c7d0f001a088ba33.Item.bd8c24c8b2500762"
                 }
               ],
               "restriction": {
@@ -4108,41 +4108,7 @@
       }
     },
     {
-      "_id": "39b10eb9207b7684",
-      "name": "No Devil Fruit (yet)",
-      "type": "loot",
-      "img": "modules/op5e/assets/icons/devil-fruit.svg",
-      "system": {
-        "description": {
-          "value": "<p>You have no devil fruit at creation. Your DM can give you one later in the campaign; delete this item when that happens.</p>",
-          "chat": ""
-        },
-        "type": {
-          "value": "treasure"
-        },
-        "rarity": "",
-        "activities": {}
-      },
-      "effects": [],
-      "flags": {
-        "op5e": {
-          "devilFruitTemplate": "none",
-          "automation": "NEEDS_REVIEW"
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13",
-        "systemId": "dnd5e",
-        "systemVersion": "5.1.10",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "01b22f852cc964db",
+      "_id": "bd8c24c8b2500762",
       "name": "Tough",
       "type": "feat",
       "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
@@ -4257,5 +4223,5 @@
       }
     }
   ],
-  "_id": "4eb3253c60d52672"
+  "_id": "c7d0f001a088ba33"
 }

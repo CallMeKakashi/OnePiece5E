@@ -41,6 +41,7 @@ const dfu = embedOwnedItem(pack("feats", "f1b6a1ceb52e6d43") as never) as Doc;
 dfu.system.uses = { spent: 0, max: "5", recovery: [{ period: "lr", type: "recoverAll" }] };
 dfu.system.description.value += "<p>Irik (level 8): 4 uses from level + 1 for Paramecia = 5. Test Subject (Devil Fruit Lineage): his Double spends these same uses, and Irik gains an extra use while his Test Subject is not incapacitated. Regain all on a long rest.</p>";
 items.push(dfu);
+for (const id of ["990dca216575f1bd", "6e9d7ec2ca209e1e"]) items.push(embedOwnedItem(pack("feats", id) as never) as Doc); // Fruit-Fruit DC and Attack, Ocean's Scorn (audit fix)
 const spend = (n: string, text: string) => {
   const it = items.find((i) => i.name === n)!;
   it.system.uses = { spent: 0, max: "", recovery: [] };

@@ -144,7 +144,7 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 
 ## Marine Ensign (Armor Mk IV) (2026-10-10)
 
-`build-ensign-custom.ts`, spec `marine-ensign-spec.json`. Augmented (Cyborg) Gadgeteer 9 (Armorer, Guardian model), Marine/Soldier, Role: Deckhand, no fruit, no Haki. Renamed Mk III to Mk IV on the user's say-so. Scores 10/15/18/20/12/8 (Int 20 Con 16 Dex 14 Str 10 Wis 12 Cha 8, Augmented +2 Con +1 Dex). Mods: Propulsion Armor (level 2, applied to the suit), Armor of Mechanical Strength (level 6, swap in on a long rest). Feats: Heavy Armor Master (level 4), Shield Master (level 8), Mobile (Deckhand). Skills: Athletics, Acrobatics, Arcana, Medicine (Deckhand skills left unchosen: the suit pilots can't take them). Tools: Smith's, Tinker's. No background feat.
+`build-ensign-custom.ts`, spec `marine-ensign-spec.json`. Augmented (Cyborg) Gadgeteer 9 (Armorer, Guardian model), Marine/Soldier, Role: Deckhand, no fruit, no Haki, additional power Plan B (added 2026-10-11; scores revised the same day, see the audit section). Renamed Mk III to Mk IV on the user's say-so. Scores 10/15/18/20/12/8 (Int 20 Con 16 Dex 14 Str 10 Wis 12 Cha 8, Augmented +2 Con +1 Dex). Mods: Propulsion Armor (level 2, applied to the suit), Armor of Mechanical Strength (level 6, swap in on a long rest). Feats: Heavy Armor Master (level 4), Shield Master (level 8), Mobile (Deckhand). Skills: Athletics, Acrobatics, Arcana, Medicine (Deckhand skills left unchosen: the suit pilots can't take them). Tools: Smith's, Tinker's. No background feat.
 
 | NPC | CR | HP | AC |
 |---|---|---|---|
@@ -168,7 +168,7 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 
 ## Drez Crown (2026-10-10)
 
-`build-drez-custom.ts`, spec `drez-spec.json`. Human Marksman 10 (Sniper), Marine/Soldier, Role: Captain, no fruit, no additional power. Scores 9/20/15/13/15/11 (point-buy 15/14/13/12/10/8 on Dex/Con/Wis/Int/Cha/Str, Human +1 all, Light Armor Master Dex +1, level 4 ASI Dex +2, level 8 ASI Dex +1 and Wis +1). Feats: Light Armor Master (background), Alert (Captain). Fighting Style Archery. Deft Explorer: Canny (expertise Perception and Stealth), Roving, Tireless. Haki: Observation Novice, Observation Apprentice. Skills: Perception, Acrobatics, Stealth, Investigation, Insight, Intimidation. Gear: Musket, Dagger, Heavy Longcoat, Explorer's Pack, Firearms Bullets.
+`build-drez-custom.ts`, spec `drez-spec.json`. Human Marksman 10 (Sniper), Marine/Soldier, Role: Captain, no fruit, additional power Sharp Focus (added 2026-10-11). Scores 8/20/15/12/15/10 (corrected 2026-10-11: Human +1 only on Dex, Con and Wis; point-buy 15/14/13/12/10/8 on Dex/Con/Wis/Int/Cha/Str, Light Armor Master Dex +1, level 4 ASI Dex +2, level 8 ASI Dex +1 and Wis +1). Feats: Light Armor Master (background), Alert (Captain). Fighting Style Archery. Deft Explorer: Canny (expertise Perception and Stealth), Roving, Tireless. Haki: Observation Novice, Observation Apprentice. Skills: Perception, Acrobatics, Stealth, Investigation, Insight, Intimidation. Gear: Musket, Dagger, Heavy Longcoat, Explorer's Pack, Firearms Bullets.
 
 | NPC | CR | HP | AC |
 |---|---|---|---|
@@ -179,11 +179,11 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 
 ## Petty Officer Marine (2026-10-11)
 
-`build-petty-officer-custom.ts`, spec `petty-officer-spec.json`. Human Marksman 4 (Sniper), Marine/Soldier, Role: Master at Arms, no fruit, no additional power. Scores 9/17/14/11/14/11 (point-buy 14/13/13/10/10/8 on Dex/Con/Wis/Int/Cha/Str, Human +1 all, level 4 ASI Dex +2). Feats: Medium Armor Master (background), Lucky (role). Fighting Style Archery. Deft Explorer: Roving. Haki: Armament Novice (added by hand; the pipeline only grants Haki from level 8). Skills: Perception, Athletics, Acrobatics, Stealth, Intimidation, Insight. Gear: Rifle, Cutlass (Master at Arms starting weapon), Dagger, Heavy Longcoat, Explorer's Pack.
+`build-petty-officer-custom.ts`, spec `petty-officer-spec.json`. Human Marksman 8 (Sniper; levelled from 4 on 2026-10-11 so Armament Novice is legal), Marine/Soldier, Role: Master at Arms, no fruit, additional power Ricochet Rounds (added 2026-10-11). Scores 8/19/14/10/14/10 (corrected 2026-10-11: Human +1 only on Dex, Con and Wis; point-buy 14/13/13/10/10/8 on Dex/Con/Wis/Int/Cha/Str, ASIs at 4 and 8 Dex +2 each). Feats: Medium Armor Master (background), Lucky (role). Fighting Style Archery. Deft Explorer: Roving. Haki: Armament Novice (added by hand; the pipeline only grants Haki from level 8). Skills: Perception, Athletics, Acrobatics, Stealth, Intimidation, Insight. Gear: Rifle, Cutlass (Master at Arms starting weapon), Dagger, Heavy Longcoat, Explorer's Pack.
 
 | NPC | CR | HP | AC |
 |---|---|---|---|
-| Petty Officer Marine | 2 | 36 (computed; the legacy sheet said 45) | 16 (Heavy Longcoat) |
+| Petty Officer Marine | 4 | 68 (computed at Marksman 8; the legacy sheet said 45 at CR 2) | 16 (Heavy Longcoat) |
 
 - Legacy Formation Fighting, Basic Haki Training and Steady Aim are replaced by the class kit (Archery, Careful Aim, Exploding Shot, Armament Novice).
 - Live in `OP5E/Marines`. Art is the user's local file (`Marines/petty-officer-new.jpg`, a copy of `marine-elite.jpg`, token cropped locally), logged in `docs/art-credits.md`.
@@ -214,7 +214,7 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 
 ## Alice (2026-10-11)
 
-`build-alice-custom.ts`, specs `alice-spec.json` (Fighter half) and `alice-savant-spec.json`. Lunarian Fighter 6 (Banneret) / Savant 6 (Radiant Superiority), Noble, Role: Master at Arms, no fruit, no additional power, level 12. Scores 8/18/14/10/13/18 (point-buy 15/14/12/13/10/8 on Dex/Cha/Con/Wis/Int/Str; Lunarian Cha +2 and Dex +1; ASIs Fighter 4 and 6 and Savant 4: Dex +2, Cha +2, Con +2). Feats: Diplomat (background), Menacing (role); no ASI feats. Fighting Style Dueling. Haki: Conqueror's Novice and Apprentice (added by hand). Skills: Persuasion, Insight, Athletics, Acrobatics, Intimidation, History; game set: playing cards. Gear: Longsword, Light Crossbow, Dagger, Leather Armor, Explorer's Pack.
+`build-alice-custom.ts`, specs `alice-spec.json` (Fighter half) and `alice-savant-spec.json`. Lunarian Fighter 6 (Banneret) / Savant 6 (Radiant Superiority), Noble, Role: Master at Arms, no fruit, additional power Burn Baby, Burn (added 2026-10-11), level 12. Scores 8/18/14/10/13/18 (point-buy 15/14/12/13/10/8 on Dex/Cha/Con/Wis/Int/Str; Lunarian Cha +2 and Dex +1; ASIs Fighter 4 and 6 and Savant 4: Dex +2, Cha +2, Con +2). Feats: Diplomat (background), Menacing (role); no ASI feats. Fighting Style Dueling. Haki: Conqueror's Novice and Apprentice (added by hand). Skills: Persuasion, Insight, Athletics, Acrobatics, Intimidation, History; game set: playing cards. Gear: Longsword, Light Crossbow, Dagger, Leather Armor, Explorer's Pack.
 
 | NPC | CR | HP | AC |
 |---|---|---|---|
@@ -227,7 +227,7 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 
 ## Cassian Valehart (2026-10-11)
 
-`build-cassian-custom.ts`, spec `cassian-spec.json`. Human Bard 8 (College of Eloquence), Noble, Role: Scholar, no fruit, no additional power. Scores 9/14/14/12/13/18 (point-buy 12/13/13/10/12/8 on Cha/Dex/Con/Int/Wis/Str, cost 20; Human +1 all, Silver Tongue Cha +1, Investigator Int +1, level 4 and 8 ASIs Cha +2 each). Feats: Silver Tongue (background), Investigator (role). Haki: Observation Novice (Bard Haki step at level 8). Skills: Persuasion and Insight (expertise), Deception (doubled by Silver Tongue), Investigation (doubled by Investigator), History, Intimidation, Performance; game set: playing cards. Gear: Quarterstaff (Requiem of Clause, baton form), Flute, Leather Armor (the suit, equipped), Diplomat's Pack.
+`build-cassian-custom.ts`, spec `cassian-spec.json`. Human Bard 8 (College of Eloquence), Noble, Role: Scholar, no fruit, additional power Heart Strings (added 2026-10-11). Scores 8/14/14/11/12/18 (corrected 2026-10-11: Human +1 only on Cha, Dex and Con; point-buy 12/13/13/10/12/8 on Cha/Dex/Con/Int/Wis/Str, cost 20; Silver Tongue Cha +1, Investigator Int +1, level 4 and 8 ASIs Cha +2 each). Feats: Silver Tongue (background), Investigator (role). Haki: Observation Novice (Bard Haki step at level 8). Skills: Persuasion and Insight (expertise), Deception (doubled by Silver Tongue), Investigation (doubled by Investigator), History, Intimidation, Performance; game set: playing cards. Gear: Quarterstaff (Requiem of Clause, baton form), Flute, Leather Armor (the suit, equipped), Diplomat's Pack.
 
 | NPC | CR | HP | AC |
 |---|---|---|---|
@@ -238,7 +238,7 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 
 ## Dravos (2026-10-11)
 
-`build-dravos-custom.ts`, spec `dravos-spec.json`. Human Gadgeteer 13 (Alchemist), Sailor, Role: Navigator, eater of the Toneru Toneru no Mi (Tunnel-Tunnel, Paramecia), no Haki, no additional power. Level 13, CR 8. Scores 9/14/14/18/13/10 (point-buy base Int 13, Dex 12, Con 11, Wis 11, Cha 9, Str 8, cost 16; Human +1 all; Keen Mind Int +1; Observant Wis +1; ASIs at 4, 8, 12: Int +3, Con +2, Dex +1). Feats: Observant (background), Keen Mind (role). Mods: Burst Boots (level 2), Awareness Visor (6), Repulsion Shield (10). Skills: Perception, Nature, Arcana, Investigation, Athletics, History. Gear: Flintlock, Maul (the pipe wrench), Explorer's Pack, Carpenter's Tools.
+`build-dravos-custom.ts`, spec `dravos-spec.json`. Human Gadgeteer 13 (Alchemist), Sailor, Role: Navigator, eater of the Toneru Toneru no Mi (Tunnel-Tunnel, Paramecia), no Haki, no additional power. Level 13, CR 8. Scores 8/14/14/18/12/9 (corrected 2026-10-11: Human +1 only on Int, Dex and Con; point-buy base Int 13, Dex 12, Con 11, Wis 11, Cha 9, Str 8, cost 16; Keen Mind Int +1; Observant Wis +1; ASIs at 4, 8, 12: Int +3, Con +2, Dex +1). Feats: Observant (background), Keen Mind (role). Mods: Burst Boots (level 2), Awareness Visor (6), Repulsion Shield (10). Skills: Perception, Nature, Arcana, Investigation, Athletics, History. Gear: Flintlock, Maul (the pipe wrench), Explorer's Pack, Carpenter's Tools.
 
 | NPC | CR | HP | AC |
 |---|---|---|---|
@@ -247,3 +247,18 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 - Gadgeteer is not a caster (mods plus the Alchemist's Creativity spells); his teleport powers come from the fruit. The compendium fruit item has no activities, so the legacy techniques are reflavoured creations, each spending one of 8 Devil Fruit Uses (level 13 gives 7, Paramecia +1): Get Me Out = Misty Step, Thousand-Mile Tunnel = Dimension Door (500 ft and one passenger, weaker than the legacy party transport), Linked Portals = Vortex Warp (closest match), Wall of Pipes = Wall of Force, Pipe Network = Web, Keep Me High = Levitate, Run Away = Haste, Catch Me = Feather Fall, Blast = Thunderwave. Free tricks: Pipe Vines = Thorn Lash, Wind Pipe = Windblast, Tunnel = Manipulate Earth, Water Hose = Water Flow. Dropped (no compendium match): Redirect, Catch Me If You Can, Pipes Protect Me. Ocean's Scorn and the Fruit-Fruit DC/Attack feat are on the sheet (DC 17).
 - The mapping of techniques to creations was my call; the user chose the approach only.
 - Live in `OP5E/Blackhand`, replacing the old Archived stub. Art is the user's Pinterest pick (`Blackhand/dravos-new.jpg`, token cropped locally), logged in `docs/art-credits.md`. Not played in a real fight. The audit's hit-dice finding (Gadgeteer d8 in the pack vs d10 in the Sourcebook) applies here; HP is overridden anyway.
+
+## Audit fixes (2026-10-11)
+
+Source: `op5e/reports/sourcebook-validation-meridian-op5e.md` (41 actors, 15 S1 / 37 S2 / 39 S3). Systematic fixes were preferred over per-actor patches.
+
+- **Class data** (`data/src/classes`, verified against `Sourcebook/Chapter 2 Classes/Class Features*.md`): Brawler hit die d8 to d10; Gadgeteer hit die d8 to d10 and saves Con/Int (were Int/Wis); Marksman saves Dex/Wis (were Str/Dex). `test/class-proficiencies.test.mjs` updated; all 171 tests pass. Rebuilt and re-imported from their specs: Calder, Chuckles, Leon, Tyrell, Veyl, Facade, Ensign, Dravos, Drez, Petty Officer. **Not rebuilt** (outside the audited folders, same class data): Amareno, Bosco, Greyhound, Queen, Salvatore (Brawler) and Limonte (Marksman).
+- **Pipeline** (`build-from-spec.ts`): the "No Devil Fruit (yet)" placeholder is no longer embedded.
+- **Additional powers** (the rule says every non-fruit class build gets one Chapter 7 power; five had none): Alice Burn Baby, Burn; Drez Sharp Focus; Marine Ensign Plan B; Petty Officer Ricochet Rounds; Cassian Heart Strings. The Coast Guard and Pirate Guard (approved default list) stay without one by the user's choice.
+- **Human ability score increase is +3 in total** (+2/+1 or +1 on three), not +1 on all six. Corrected on Drez, Leon, Petty Officer, Cassian and Dravos by keeping the +1 on their three key abilities (see their entries). DCs, AC and attacks are unchanged.
+- **Devil Fruit Uses:** Cadence 7 (level 12 Paramecia); Serica and Veyl 7 (the script already said 7; re-imported). Irik now has the Fruit-Fruit DC/Attack feat and Ocean's Scorn.
+- **Ability score caps (20):** Kaen Str and Con 21 to 20 (no relic raises them); Kyle Cha 22 to 20 and his fruit DC 19 to 18. Kyle's other numbers were not re-derived.
+- **Marine Ensign:** Shield Master dropped for a level 8 Int ASI; scores 8/15/16/17/12/8 (was Int 20, not reachable). Heavy Armor Master stays.
+- **Petty Officer levelled to Marksman 8** (user's choice) so Armament Novice is legal: CR 4, HP computed (68), Canny (Perception and Stealth expertise), Dex 19, Armament Novice from the pipeline step at level 8.
+- **Calder:** the audit's "four ASI uses" finding was a misreading (Dex +2 once, Wis +2 once, Flying Strikes in the level 12 slot). No change.
+- **Still open (S2/S3 from the audit):** unprepared Savant/Gadgeteer creations (Alice, Cadence, Facade, Ensign), missing tricks and creations on Drez, Petty Officer, Facade, Ensign, Jay and Kyle; Medium Armor Master Dex cap on the Gallows and Petty Officer; Gallows Boss Devious Strike; Permanent Haki-Imbuement as a feat; Ensign's missing background feat; Drez AC; Calder's armour feat; Alice's second Fighting Style; Shin's Machiavellian Misfit.

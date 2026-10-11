@@ -25,6 +25,7 @@ actor.items = actor.items.filter((i) => !DROP.includes(i.name ?? ""));
 const seen = new Set<string>(); // the pipeline embeds the role twice
 actor.items = actor.items.filter((i) => { if (!i.name?.startsWith("Role: ")) return true; if (seen.has(i.name)) return false; seen.add(i.name); return true; });
 actor.items.push(embed("class-features", "Fighting Style: Archery"));
+actor.items.push(embed("class-features", "Sharp Focus")); // additional power (Marksman 10), user's pick
 for (const i of actor.items) {
   if (["Musket", "Dagger", "Heavy Longcoat"].includes(i.name ?? "")) i.system.equipped = true; // Heavy Longcoat: medium, 14 + Dex (max 2) = AC 16
   if (i.type === "tool") i.system.proficient = 1;
@@ -47,9 +48,9 @@ actor.items.push(decoy);
 
 // ---- 3. Numbers: 15/14/13/12/10/8 point-buy on Dex/Con/Wis/Int/Cha/Str, Human +1 all, Light Armor Master Dex +1, L4 ASI Dex +2, L8 ASI Dex +1 and Wis +1
 const sys = actor.system;
-const abil = { str: 9, dex: 20, con: 15, int: 13, wis: 15, cha: 11 };
+const abil = { str: 8, dex: 20, con: 15, int: 12, wis: 15, cha: 10 }; // Human +1 only on Dex, Con and Wis (the trait gives +3 in total, corrected 2026-10-11)
 for (const [k, v] of Object.entries(abil)) sys.abilities[k].value = v;
-sys.abilities.str.proficient = 1; sys.abilities.dex.proficient = 1; // Marksman saves
+sys.abilities.dex.proficient = 1; sys.abilities.wis.proficient = 1; // Marksman saves: Dexterity, Wisdom (Sourcebook)
 sys.attributes.spellcasting = "dex"; // Sniper Creations creative ability left on the class default
 const SKILL_ABILITY: Record<string, string> = { acr: "dex", ani: "wis", arc: "int", ath: "str", dec: "cha", his: "int", ins: "wis", itm: "cha", inv: "int", med: "wis", nat: "int", prc: "wis", prf: "cha", per: "cha", rel: "int", slt: "dex", ste: "dex", sur: "wis" };
 const VALUES: Record<string, number> = { prc: 2, ste: 2, acr: 1, inv: 1, ins: 1, itm: 1 }; // 2 = expertise (Canny: Perception, Stealth)
