@@ -60,7 +60,7 @@ export const brawler: ClassItem = {
     source: { book: "OP5e", page: "", custom: "", license: "" },
     identifier: "brawler",
     levels: 1,
-    hitDice: "d8",
+    hitDice: "d10",
     hitDiceUsed: 0,
     advancement: mergeAdvancements(
       createHitPoints(CLS),

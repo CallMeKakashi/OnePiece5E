@@ -25,6 +25,7 @@ function parseArgs(): { spec: unknown; out?: string } {
 const { spec: rawSpec, out } = parseArgs();
 const spec = parseBuildSpec(rawSpec);
 const actor = await buildActor(spec);
+actor.items = actor.items.filter((i) => i.name !== "No Devil Fruit (yet)"); // placeholder pick for non-fruit builds; it does nothing on the sheet
 const json = JSON.stringify(actor, null, 2);
 
 if (out) {

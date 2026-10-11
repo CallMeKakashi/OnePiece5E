@@ -48,7 +48,7 @@ describe("class proficiencies vs source", () => {
     const tools = traitAdvancement(gadgeteer, "tools");
     expect(tools.configuration.choices[0].count).toBe(1);
     const saves = traitAdvancement(gadgeteer, "saves");
-    expect(saves.configuration.grants).toEqual(["saves:int", "saves:wis"]);
+    expect(saves.configuration.grants).toEqual(["saves:con", "saves:int"]);
   });
 
   it("medic has medium armor and expanded skill list", () => {

@@ -83,8 +83,8 @@ export const marksman: ClassItem = {
       }, "tools"),
       createTrait(CLS, 1, {
         mode: "default",
-        grants: ["saves:str", "saves:dex"],
-        hint: "Strength, Dexterity",
+        grants: ["saves:dex", "saves:wis"],
+        hint: "Dexterity, Wisdom",
       }, "saves"),
       createTrait(CLS, 1, {
         mode: "default",

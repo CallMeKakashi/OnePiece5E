@@ -55,7 +55,7 @@ export const gadgeteer: ClassItem = {
     source: { book: "OP5e", page: "", custom: "", license: "" },
     identifier: "gadgeteer",
     levels: 1,
-    hitDice: "d8",
+    hitDice: "d10",
     hitDiceUsed: 0,
     advancement: mergeAdvancements(
       createHitPoints(CLS),
@@ -87,8 +87,8 @@ export const gadgeteer: ClassItem = {
       }, "tools"),
       createTrait(CLS, 1, {
         mode: "default",
-        grants: ["saves:int", "saves:wis"],
-        hint: "Intelligence, Wisdom",
+        grants: ["saves:con", "saves:int"],
+        hint: "Constitution, Intelligence",
       }, "saves"),
       createTrait(CLS, 1, {
         mode: "default",

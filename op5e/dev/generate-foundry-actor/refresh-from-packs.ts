@@ -28,7 +28,8 @@ export function refreshFromPacks(items: Doc[]): { refreshed: string[]; unmatched
     if (!hasAuto) continue;
     it.system.activities = structuredClone(pick.system.activities ?? {});
     it.effects = structuredClone(pick.effects ?? []);
-    if (pick.system.uses) it.system.uses = structuredClone(pick.system.uses);
+    const customDfu = it.name === "Devil Fruit Uses" && /^\d+$/.test(String(it.system.uses?.max ?? "")); // a build script's fixed use count (Paramecia +1 etc.) must survive the refresh
+    if (pick.system.uses && !customDfu) it.system.uses = structuredClone(pick.system.uses);
     if (pick.system.damage) it.system.damage = structuredClone(pick.system.damage);
     if (pick.system.activation) it.system.activation = structuredClone(pick.system.activation);
     refreshed.push(it.name);
