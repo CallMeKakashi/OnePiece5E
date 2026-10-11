@@ -199,3 +199,15 @@ export const foundryPlaylistBase = z
     flags: z.record(z.unknown()).default({}),
   })
   .passthrough();
+
+// --- Base Foundry Macro document ---
+
+export const foundryMacroBase = z
+  .object({
+    _id: foundryId,
+    name: z.string(),
+    type: z.string().default("script"),
+    command: z.string().min(1),
+    flags: z.record(z.unknown()).default({}),
+  })
+  .passthrough();

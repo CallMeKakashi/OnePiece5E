@@ -156,6 +156,13 @@
       "system": "dnd5e"
     },
     {
+      "name": "macros",
+      "label": "OP5e Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "system": "dnd5e"
+    },
+    {
       "name": "ship-weapons",
       "label": "OP5e Ship Weapons",
       "path": "packs/ship-weapons",
@@ -194,6 +201,7 @@
         "reference",
         "roll-tables",
         "playlists",
+        "macros",
         "devil-fruits",
         "monsters",
         "summons",

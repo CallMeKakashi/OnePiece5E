@@ -15,7 +15,7 @@ import { subclassItemSchema } from "./schemas/subclass.js";
 import { featureItemSchema } from "./schemas/feature.js";
 import type { FeatureItem } from "./schemas/feature.js";
 import { raceItemSchema } from "./schemas/race.js";
-import { foundryItemBase, foundryActorBase, foundryJournalBase, foundryRollTableBase, foundryPlaylistBase } from "./schemas/common.js";
+import { foundryItemBase, foundryActorBase, foundryJournalBase, foundryRollTableBase, foundryPlaylistBase, foundryMacroBase } from "./schemas/common.js";
 import { ensureFeatureActivities, ensureItemActivities } from "./helpers/activities.js";
 import { applySpec } from "./helpers/spec.js";
 import { wireAudit } from "./helpers/audit-wiring.js";
@@ -67,7 +67,7 @@ interface PackConfig {
   srcDir: string;
   schema: ZodType;
   /** Document collection; defaults to items. */
-  collection?: "items" | "actors" | "journal" | "tables" | "playlists";
+  collection?: "items" | "actors" | "journal" | "tables" | "playlists" | "macros";
 }
 
 const PACK_CONFIGS: PackConfig[] = [
@@ -85,6 +85,7 @@ const PACK_CONFIGS: PackConfig[] = [
   { name: "reference", srcDir: "reference", schema: foundryJournalBase, collection: "journal" },
   { name: "roll-tables", srcDir: "roll-tables", schema: foundryRollTableBase, collection: "tables" },
   { name: "playlists", srcDir: "playlists", schema: foundryPlaylistBase, collection: "playlists" },
+  { name: "macros", srcDir: "macros", schema: foundryMacroBase, collection: "macros" },
   { name: "monsters", srcDir: "actors", schema: foundryActorBase, collection: "actors" },
   { name: "summons", srcDir: "summons", schema: foundryActorBase, collection: "actors" },
   { name: "ships", srcDir: "ships", schema: foundryActorBase, collection: "actors" },
@@ -136,7 +137,7 @@ async function buildPack(config: PackConfig): Promise<Stats> {
   }
 
   for (let raw of items) {
-    if (config.collection === "actors" || config.collection === "journal" || config.collection === "tables" || config.collection === "playlists") {
+    if (config.collection === "actors" || config.collection === "journal" || config.collection === "tables" || config.collection === "playlists" || config.collection === "macros") {
       // actors carry their own embedded items/activities (see helpers/actor.ts)
     } else if (FEATURE_PACKS.has(config.name)) {
       raw = ensureFeatureActivities(raw as FeatureItem);
@@ -146,7 +147,7 @@ async function buildPack(config: PackConfig): Promise<Stats> {
 
     // hand-written automation (data/src/automation) replaces generated activities for the items it names
     const specKey = `${config.name}/${(raw as { name: string }).name}`;
-    if (AUTOMATION[specKey] && config.collection !== "actors" && config.collection !== "journal" && config.collection !== "tables" && config.collection !== "playlists") {
+    if (AUTOMATION[specKey] && config.collection !== "actors" && config.collection !== "journal" && config.collection !== "tables" && config.collection !== "playlists" && config.collection !== "macros") {
       raw = applySpec(raw as never, AUTOMATION[specKey], specKey) as never;
     }
     if (["class-features", "feats", "subclasses", "racial-features"].includes(config.name)) raw = wireAudit(raw as never) as never;
