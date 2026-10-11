@@ -198,4 +198,4 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 
 - Str 21 Dex 9 Con 17 Int 2 Wis 10 Cha 7, walk 30 / swim 50, token 4x4. Multiattack: Pincer (3d10+5 bludgeoning, grapple DC 16, restrains) and Claw (2d8+5, Str DC 16 or prone). Bonus-action Crush on a grappled target (4d8+5, Str DC 16), Shell Retreat (AC 19, speed 0), Salvaged Shell (nonmagical resistance, shelter for Medium or smaller), Amphibious.
 - No "living vessel" feature: passengers are covered only by the shell's total-cover line. Features and numbers were chosen by me when the user had no preference.
-- Live in `OP5E/Sea Beasts`, art is the existing vault image (`Attachments/monsters/seabeast-hermit-crab.png`, copied to `npcs/Sea Beasts/hermit-crab.png`). Not played in a real fight.
+- Live in `OP5E/Sea Beasts`, art is the user's Pinterest pick (`Sea Beasts/hermit-crab-new.jpg`, token cropped locally), logged in `docs/art-credits.md`. Not played in a real fight.

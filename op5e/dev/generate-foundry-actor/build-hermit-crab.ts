@@ -8,7 +8,8 @@ import { generateId } from "../../data/helpers/id.js";
 import type { FeatureItem } from "../../data/schemas/feature.js";
 
 const DC = 16;
-const IMG = "one-piece-5e/npcs/Sea Beasts/hermit-crab.png"; // the existing vault art (Attachments/monsters/seabeast-hermit-crab.png)
+const IMG = "one-piece-5e/npcs/Sea Beasts/hermit-crab-new.jpg";
+const TOKEN = "one-piece-5e/npcs/Sea Beasts/hermit-crab-new-token.png";
 type O = { actionType?: string; activation: { type: string; cost: number | null; condition?: string }; damage?: [string, string][]; save?: { ability: string; dc: number };
   range?: { value: number | null; units: string }; target?: { value: number | null; width?: number | null; units: string; type: string }; uses?: { value: number | null; max: string; per: string | null; recovery: string; prompt: boolean }; recharge?: number };
 const feat = (slug: string, name: string, img: string, description: string, o: O): FeatureItem => ensureFeatureActivities({
@@ -48,7 +49,7 @@ const actor = {
     traits: { size: "grg", dr: { value: [], custom: "" }, languages: { value: [], custom: "" } },
     skills: { ste: { value: 0, ability: "dex" } },
   },
-  prototypeToken: { name: "SeaBeast - Hermit Crab", texture: { src: IMG }, width: 4, height: 4, actorLink: false, disposition: 0 },
+  prototypeToken: { name: "SeaBeast - Hermit Crab", texture: { src: TOKEN }, width: 4, height: 4, actorLink: false, disposition: 0 },
   items, effects: [], flags: {}, folder: null, sort: 0, ownership: { default: 0 },
 };
 writeFileSync("../Foundry/actors-json/hermit-crab.json", JSON.stringify(actor, null, 2), "utf-8");
