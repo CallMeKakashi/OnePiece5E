@@ -79,6 +79,8 @@ sys.details.level = 13; sys.details.cr = 8;
 sys.attributes.hp = { value: 170, max: 170, temp: 0, tempmax: 0, formula: "13d8 + 26" }; // override: legacy value (real about 90; DMG CR 8 band 156-170)
 sys.details.biography.value = "<p>Dravos \"The Mole\": navigator for the Gentle Giant Pirates, brother of Droven Calligos, eater of the Toneru Toneru no Mi (Tunnel-Tunnel). He moves people and walls through PVC pipe tunnels.</p><p><strong>Balance note (CR 8):</strong> a straight Gadgeteer 13 is about 90 HP, so HP is the legacy 170 (DMG CR 8 band 156-170). The legacy pipe techniques are reflavoured compendium creations that spend Devil Fruit Uses; Redirect, Catch Me If You Can and Pipes Protect Me were dropped.</p>";
 actor.items = items; actor.name = "Dravos";
+actor.img = "one-piece-5e/npcs/Blackhand/dravos-new.jpg";
+actor.prototypeToken = { ...(actor.prototypeToken ?? {}), texture: { ...(actor.prototypeToken?.texture ?? {}), src: "one-piece-5e/npcs/Blackhand/dravos-new-token.png" } };
 
 writeFileSync(`${ACTORS}/dravos.json`, JSON.stringify(actor, null, 2), "utf-8");
 console.log(`Wrote ${ACTORS}/dravos.json (${items.length} items)`);
