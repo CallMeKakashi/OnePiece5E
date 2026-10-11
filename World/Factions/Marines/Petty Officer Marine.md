@@ -10,6 +10,10 @@ foundry_live_slug: "petty-officer-marine"
 # Petty Officer Marine
 
 Foundry actor export — no campaign biography note yet. Link from [[Rules/Stat blocks]] or faction hub when placed in-world.
+## Foundry build
+
+Rebuilt 2026-10-11 in `bb-rehearsal` (`OP5E/Marines`): Human Marksman 4 (Sniper), Marine/Soldier, Role: Master at Arms, CR 2, HP 36, AC 16. Fights with a Rifle and Cutlass; Armament Haki (Novice). Details in `op5e/docs/NPC-BUILDS.md`. The statblocks below are the legacy sheet.
+
 ## Build template (Foundry)
 
 > **Build template only** — not the live Foundry sheet. Running stats live in the Pi world `blood-and-brine` → `data/actors/`.

@@ -176,3 +176,14 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 
 - The legacy Copy-Copy Clone is the **Holo-Decoy** gadget feature (bonus action, 60 ft, 2 per short rest, DC 16 Investigation to pick the real one), a bespoke feat with a utility activity; the attack-disadvantage effect is text only. Legacy Marked Target, Displacement Shot, Camouflage Position and Sniper's Patience were dropped for the compendium Sniper kit.
 - Live in `OP5E/Marines`, replacing the old stub. Art is the user's pick (`Marines/drez-new.jpg`, token cropped locally), logged in `docs/art-credits.md`. Not played in a real fight.
+
+## Petty Officer Marine (2026-10-11)
+
+`build-petty-officer-custom.ts`, spec `petty-officer-spec.json`. Human Marksman 4 (Sniper), Marine/Soldier, Role: Master at Arms, no fruit, no additional power. Scores 9/17/14/11/14/11 (point-buy 14/13/13/10/10/8 on Dex/Con/Wis/Int/Cha/Str, Human +1 all, level 4 ASI Dex +2). Feats: Medium Armor Master (background), Lucky (role). Fighting Style Archery. Deft Explorer: Roving. Haki: Armament Novice (added by hand; the pipeline only grants Haki from level 8). Skills: Perception, Athletics, Acrobatics, Stealth, Intimidation, Insight. Gear: Rifle, Cutlass (Master at Arms starting weapon), Dagger, Heavy Longcoat, Explorer's Pack.
+
+| NPC | CR | HP | AC |
+|---|---|---|---|
+| Petty Officer Marine | 2 | 36 (computed; the legacy sheet said 45) | 16 (Heavy Longcoat) |
+
+- Legacy Formation Fighting, Basic Haki Training and Steady Aim are replaced by the class kit (Archery, Careful Aim, Exploding Shot, Armament Novice).
+- Live in `OP5E/Marines`. Art is **still the default image**: no art was supplied and the legacy sheet's image could not be recovered (the rehearsal copy was overwritten on import). Logged as pending in `docs/art-credits.md`.

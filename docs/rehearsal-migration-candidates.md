@@ -53,7 +53,7 @@ Read-only survey of the `bb-rehearsal` copy world on 2026-10-10 (186 actors). Ti
 - [x] Serica Corven and Veyl Corven (Sixfolds) [migrate]
 - [ ] Chuckles, Giggles, Snickers, Wheeze (Circle of Clowns, empty stubs) [low priority]
 - [ ] Marine Warship (vehicle) and SeaBeast - Hermit Crab [low priority]
-- [x] Commander Leon (built), [x] Drez Crown (built), Petty Officer Marine (CR 2) in OpenSea [migrate if used]
+- [x] Commander Leon (built), [x] Drez Crown (built), [x] Petty Officer Marine (built)
 - [ ] Alice (CR 10), Jazmine (CR 5), Cassian Valehart, Merlin, Pegasus [unclear, tell me which matter]
 
 **Freefield (10 pirates and locals)**
