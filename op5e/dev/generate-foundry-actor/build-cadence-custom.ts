@@ -135,5 +135,6 @@ const mace = actor.items.find((i) => i.name === "Mace")!;
 mace.system.range = { value: 5, long: null, units: "ft" };
 Object.assign(act("Mace", "Mace").range, { value: 5, units: "ft" });
 console.log(`Refreshed ${refreshed.refreshed.length} Cadence items; unmatched: ${refreshed.unmatched.join(", ") || "none"}`);
+for (const i of (actor.items as Doc[])) if (i.type === "spell" && i.system?.preparation?.mode === "prepared") i.system.preparation.prepared = true; // NPC: every creation is ready (audit S2)
 writeFileSync(`${ACTORS}/cadence.json`, JSON.stringify(actor, null, 2), "utf-8");
 console.log(`Wrote ${ACTORS}/cadence.json (${actor.items.length} items)`);

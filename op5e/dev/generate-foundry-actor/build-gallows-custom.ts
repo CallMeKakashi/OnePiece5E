@@ -23,7 +23,7 @@ const CFG = VARIANT === "boss"
   : { name: "The Gallows", level: 10, cr: 8, prof: 4, hp: 182, dex: 18, baton: "2d6", takeDownDc: 15, bonusAtk: 0 };
 
 // ---- 1. Merge the Rogue half; drop the pipeline's starting weapons (his weapons are the two batons)
-const ROGUE_FEATS = ["Hired Thug", "Armed and Dangerous", "Expertise", "Sneak Attack", "Thieves' Cant", "Cunning Action", "Steady Aim", "Uncanny Dodge", "Evasion", "Reliable Talent"];
+const ROGUE_FEATS = ["Hired Thug", "Armed and Dangerous", "Expertise", "Sneak Attack", "Devious Strike", "Thieves' Cant", "Cunning Action", "Steady Aim", "Uncanny Dodge", "Evasion", "Reliable Talent"];
 const fromRogue = (rogue.items as Doc[]).filter((i) => i.type === "class" || i.type === "subclass" || ROGUE_FEATS.includes(i.name ?? "") || i.name === "Thieves' Tools");
 for (const i of fromRogue) if (i.type === "feat" && i.name === "Expertise") i.name = "Expertise (Rogue)";
 const DROP = ["Mace", "Crossbow, Light", "Handaxe", "Arrows (20)", "Crossbow Bolts (20)", "Explorer's Pack"];
@@ -97,7 +97,7 @@ if (VARIANT === "boss") {
 }
 
 // the pipeline embeds starting armour unequipped
-for (const i of items) if (["Heavy Longcoat"].includes(i.name ?? "") && i.system) i.system.equipped = true;
+for (const i of items) if (["Heavy Longcoat"].includes(i.name ?? "") && i.system) { i.system.equipped = true; i.system.armor = { ...i.system.armor, dex: 3 }; } // Medium Armor Master raises the medium armor Dex cap from 2 to 3
 
 // ---- 3. Numbers and proficiencies
 const sys = chassis.system;

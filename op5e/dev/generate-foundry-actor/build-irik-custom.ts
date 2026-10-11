@@ -46,7 +46,7 @@ const spend = (n: string, text: string) => {
   const it = items.find((i) => i.name === n)!;
   it.system.uses = { spent: 0, max: "", recovery: [] };
   it.system.description.value = `<p>${text}</p>` + it.system.description.value;
-  for (const a of Object.values(it.system.activities ?? {}) as any[]) a.consumption = { ...(a.consumption ?? {}), targets: [{ type: "itemUses", target: dfu._id, value: "1", scaling: {} }] };
+  for (const a of Object.values(it.system.activities ?? {}) as any[]) a.consumption = { ...(a.consumption ?? {}), spellSlot: false, targets: [{ type: "itemUses", target: dfu._id, value: "1", scaling: {} }] };
   return it;
 };
 spend("Mirror Image", "<strong>Double Up (Dabu Dabu no Mi).</strong> Conjure a duplicate of himself out of thin air. Spends one Devil Fruit use.");

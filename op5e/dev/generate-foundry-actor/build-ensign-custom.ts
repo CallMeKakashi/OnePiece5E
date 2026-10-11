@@ -37,7 +37,7 @@ suit.system.description = { value: "<p>The Marines' Mk IV powered suit: blue and
 actor.items.push(suit);
 // Propulsion Gauntlets (Armor Mod): melee 1d8 force, thrown 20/60, Int for attack and damage
 const g = embed("items", "Club", { equipped: true });
-g.name = "Propulsion Gauntlets"; g.img = "icons/weapons/fists/gauntlet-armored-steel.webp";
+g.name = "Propulsion Gauntlets"; g.img = "icons/equipment/hand/gauntlet-armored-heavy-steel.webp";
 g.system.description = { value: "<p>Gauntlets of the Propulsion Armor mod. Melee, 1d8 force, thrown (20/60 ft; they detach, strike and return). You use Intelligence for attack and damage rolls.</p>", chat: "" };
 g.system.damage = { base: { number: 1, denomination: 8, bonus: "", types: ["force"], custom: { enabled: false, formula: "" }, scaling: { mode: "", number: 1 } } };
 g.system.properties = { thr: true }; g.system.range = { value: 5, long: null, units: "ft", reach: 5 }; g.system.attackBonus = ""; g.system.actionType = "mwak"; g.system.proficient = 1;
@@ -89,5 +89,6 @@ console.log(`Refreshed ${r.refreshed.length} items; unmatched: ${r.unmatched.joi
 const item = (n: string) => actor.items.find((i) => i.name === n)!;
 item("Mods").system.uses = { spent: 0, max: "@scale.gadgeteer.mods-active", recovery: [{ period: "lr", type: "recoverAll" }] };
 item("Flash of Genius").system.uses = { spent: 0, max: "1 + @abilities.int.mod", recovery: [{ period: "lr", type: "recoverAll" }] };
+for (const i of (actor.items as Doc[])) if (i.type === "spell" && i.system?.preparation?.mode === "prepared") i.system.preparation.prepared = true; // NPC: every creation is ready (audit S2)
 writeFileSync(`${ACTORS}/marine-ensign.json`, JSON.stringify(actor, null, 2), "utf-8");
 console.log(`Wrote ${ACTORS}/marine-ensign.json (${actor.items.length} items)`);

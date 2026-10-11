@@ -106,5 +106,6 @@ const drop = new Set(ed.effects.filter((e: Doc) => !e.name.includes("+2")).map((
 ed.effects = ed.effects.filter((e: Doc) => !drop.has(e._id));
 for (const [k, a] of Object.entries(ed.system.activities as Record<string, any>)) if (a.effects?.some((e: Doc) => drop.has(e._id))) delete ed.system.activities[k];
 console.log(`Summon files: ${summons.join(", ") || "none"}`);
+for (const i of (actor.items as Doc[])) if (i.type === "spell" && i.system?.preparation?.mode === "prepared") i.system.preparation.prepared = true; // NPC: every creation is ready (audit S2)
 writeFileSync(`${ACTORS}/facade.json`, JSON.stringify(actor, null, 2), "utf-8");
 console.log(`Wrote ${ACTORS}/facade.json (${actor.items.length} items)`);

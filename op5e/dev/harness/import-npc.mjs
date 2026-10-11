@@ -23,6 +23,8 @@ const run = async (data, folderName, keepId, replace) => {
   }
   if (!a) return { error: "Actor.create returned nothing (a hook or validation refused it); check the browser console" };
   await new Promise((r) => setTimeout(r, 1500));
+  const fill = Object.fromEntries(Object.entries(a.system.spells ?? {}).filter(([, v]) => v.max && v.value < v.max).map(([k, v]) => [`system.spells.${k}.value`, v.max]));
+  if (Object.keys(fill).length) await a.update(fill); // slots are derived max but stored value starts at 0: fill them so a fresh actor is usable
   const s = a.system, spells = Object.fromEntries(Object.entries(s.spells ?? {}).filter(([, v]) => v.max).map(([k, v]) => [k, v.max]));
   return {
     id: a.id, name: a.name, level: s.details.level, cr: s.details.cr, prof: s.attributes.prof, ac: s.attributes.ac.value, hp: s.attributes.hp.max,

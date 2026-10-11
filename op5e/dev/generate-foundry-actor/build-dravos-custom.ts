@@ -42,7 +42,7 @@ const spend = (name: string, label: string) => {
   const it = creation(name); items.push(it);
   it.system.uses = { spent: 0, max: "", recovery: [] };
   it.system.description.value = `<p><strong>${label} (Toneru Toneru no Mi).</strong> Spends one Devil Fruit Use.</p>` + it.system.description.value;
-  for (const a of Object.values(it.system.activities ?? {}) as any[]) a.consumption = { ...(a.consumption ?? {}), targets: [{ type: "itemUses", target: dfu._id, value: "1", scaling: {} }] };
+  for (const a of Object.values(it.system.activities ?? {}) as any[]) a.consumption = { ...(a.consumption ?? {}), spellSlot: false, targets: [{ type: "itemUses", target: dfu._id, value: "1", scaling: {} }] };
 };
 spend("Misty Step", "Get Me Out");
 spend("Dimension Door", "Thousand-Mile Tunnel (the closest creation: 500 ft and one passenger, not the legacy long-range party transport)");

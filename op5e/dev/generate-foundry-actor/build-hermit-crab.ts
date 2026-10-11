@@ -26,7 +26,7 @@ const feat = (slug: string, name: string, img: string, description: string, o: O
 } as unknown as FeatureItem);
 
 const multiattack = feat("multiattack", "Multiattack", "icons/skills/melee/strike-slashes-orange.webp", "<p>The hermit crab makes two attacks: one with its pincer and one with its claw.</p>", { activation: { type: "action", cost: 1 } });
-const pincer = feat("pincer", "Pincer", "icons/creatures/claws/claw-pincer-crab.webp", `<p><em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one target. <em>Hit:</em> 3d10 + 5 bludgeoning damage. The target is grappled (escape DC ${DC}). Until this grapple ends, the target is restrained and the crab can't use its pincer on another target.</p>`,
+const pincer = feat("pincer", "Pincer", "icons/creatures/claws/pincer-crab-brown.webp", `<p><em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one target. <em>Hit:</em> 3d10 + 5 bludgeoning damage. The target is grappled (escape DC ${DC}). Until this grapple ends, the target is restrained and the crab can't use its pincer on another target.</p>`,
   { actionType: "mwak", activation: { type: "action", cost: 1 }, damage: [["3d10 + 5", "bludgeoning"]], range: { value: 10, units: "ft" } });
 const claw = feat("claw", "Claw", "icons/creatures/claws/claw-talons-glowing-orange.webp", `<p><em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one target. <em>Hit:</em> 2d8 + 5 bludgeoning damage. If the target is a creature, it makes a DC ${DC} Strength saving throw or is knocked prone.</p>`,
   { actionType: "mwak", activation: { type: "action", cost: 1 }, damage: [["2d8 + 5", "bludgeoning"]], range: { value: 10, units: "ft" } });

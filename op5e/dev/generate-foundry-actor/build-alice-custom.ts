@@ -36,7 +36,7 @@ items.push(embId("class-features", "e9178a9c2b55cc91")); // Fighting Style: Duel
 items.push(emb("class-features", "Burn Baby, Burn")); // additional power (needs fire damage), user's pick
 for (const n of ["Conqueror's Haki Novice", "Conqueror's Haki Apprentice"]) items.push(emb("class-features", n));
 for (const f of lunarianFeatures) if (f.name !== "Ultimate Duality") items.push(embedOwnedItem(ensureFeatureActivities(f as never) as never) as Doc); // Flaming Duality, Flame Investure, Omni-Adapted, wings, Godspeed
-for (const n of ["Fire Bolt", "Elemental Armor", "Fireball"]) items.push(creation(n)); // Flame Investure
+for (const n of ["Fire Bolt", "Elemental Armor", "Fireball"]) { const c = creation(n); for (const a of Object.values(c.system.activities ?? {}) as any[]) a.consumption = { ...(a.consumption ?? {}), spellSlot: false }; items.push(c); } // Flame Investure is a racial trait: no creation slot // Flame Investure
 
 const auto = refreshFromPacks(items); console.log(`automation copied onto ${auto.refreshed.length} features; no pack match for: ${auto.unmatched.join(", ") || "none"}`);
 for (const i of items) {
@@ -64,5 +64,6 @@ sys.details.biography.value = "<p>Alice, Malphas's sister: a Lunarian flyer resc
 ch.items = items; ch.name = "Alice";
 ch.img = "one-piece-5e/npcs/Blackhand/alice-new.jpg";
 ch.prototypeToken = { ...(ch.prototypeToken ?? {}), texture: { ...(ch.prototypeToken?.texture ?? {}), src: "one-piece-5e/npcs/Blackhand/alice-new-token.png" } };
+for (const i of (ch.items as Doc[])) if (i.type === "spell" && i.system?.preparation?.mode === "prepared") i.system.preparation.prepared = true; // NPC: every creation is ready (audit S2)
 writeFileSync(`${ACTORS}/alice.json`, JSON.stringify(ch, null, 2), "utf-8");
 console.log(`Wrote ${ACTORS}/alice.json (${items.length} items)`);

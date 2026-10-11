@@ -24,6 +24,7 @@ actor.items.push(embed("class-features", "Fighting Style: Archery")); // Armamen
 actor.items.push(embed("class-features", "Ricochet Rounds")); // additional power, user's pick
 for (const i of actor.items) {
   if (["Rifle", "Cutlass", "Heavy Longcoat"].includes(i.name ?? "")) i.system.equipped = true;
+  if (i.name === "Heavy Longcoat") i.system.armor = { ...i.system.armor, dex: 3 }; // Medium Armor Master: Dex cap 3 instead of 2
   if (i.type === "tool") i.system.proficient = 1;
 }
 

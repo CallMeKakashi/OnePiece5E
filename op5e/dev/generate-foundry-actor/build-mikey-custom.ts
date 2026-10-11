@@ -69,7 +69,7 @@ const mClaw = feat("morrow-claw", "Morrow Claw", "icons/creatures/claws/claw-tal
 const mBite = feat("morrow-bite", "Morrow Bite", "icons/creatures/abilities/mouth-teeth-long-red.webp", "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 2d6 + 4 piercing damage.</p>", { actionType: "mwak", activation: { type: "action", cost: 1 }, damage: [["2d6 + 4", "piercing"]] });
 const rend = feat("rend", "Rend", "icons/skills/wounds/blood-cells-vessel-red.webp", "<p>If both Morrow Claw attacks hit the same target in one turn, that target takes an extra 2d6 slashing damage.</p>", { actionType: "other", activation: { type: "special", cost: null, condition: "Both claws hit the same target" }, damage: [["2d6", "slashing"]] });
 const frenzy = feat("feral-frenzy", "Feral Frenzy", "icons/skills/melee/strike-slashes-orange.webp", "<p>Multiattack. Morrow makes two claw attacks and one bite attack each turn.</p>", { activation: { type: "action", cost: 1 } });
-const hide = feat("spiked-hide", "Spiked Hide", "icons/commodities/biological/spikes-white.webp", "<p>A creature that hits Morrow with a melee attack takes 1d4 piercing damage.</p>", { actionType: "other", activation: { type: "special", cost: null, condition: "Hit by a melee attack" }, damage: [["1d4", "piercing"]] });
+const hide = feat("spiked-hide", "Spiked Hide", "icons/commodities/bones/tooth-spiked-brown.webp", "<p>A creature that hits Morrow with a melee attack takes 1d4 piercing damage.</p>", { actionType: "other", activation: { type: "special", cost: null, condition: "Hit by a melee attack" }, damage: [["1d4", "piercing"]] });
 const morrowActor = {
   _id: MORROW_ID, name: "Morrow (Mikey transformed)", type: "npc", img: MORROW_IMG,
   system: {
