@@ -92,7 +92,7 @@ function build(c: Cfg) {
     if (!it) throw new Error(`spend: ${n} missing`);
     it.system.uses = { spent: 0, max: "", recovery: [] };
     it.system.description.value = `<p>${text}</p>` + it.system.description.value;
-    for (const a of Object.values(it.system.activities ?? {}) as any[]) a.consumption = { ...(a.consumption ?? {}), spellSlot: false, targets: [{ type: "itemUses", target: dfu._id, value: "1", scaling: {} }] };
+    for (const a of Object.values(it.system.activities ?? {}) as any[]) a.consumption = { ...(a.consumption ?? {}), spellSlot: false, targets: [{ type: "itemUses", target: "devil-fruit-uses", value: "1", scaling: {} }] };
     return it;
   };
   c.extra(items, spend, dfu);
@@ -184,7 +184,7 @@ build({
       "<p><strong>Pop-Off Style: Snatch.</strong> Action. A limb becomes a grappling arm that lashes out at one creature within 30 feet. It makes a Strength saving throw against the Fruit-Fruit DC (16). On a failure it is pulled up to 30 feet to an unoccupied space adjacent to Serica and is grappled by her. Spends one Devil Fruit Use. <em>Homebrew: the Sourcebook gives fruit abilities no stats.</em></p>",
       "Buki Buki no Mi", { activation: { type: "action", cost: 1 }, actionType: "save", save: { ability: "str", dc: 16 }, range: { value: 30, long: null, units: "ft" }, target: one });
     items.push(snatch);
-    for (const a of Object.values(snatch.system.activities ?? {}) as any[]) a.consumption = { ...(a.consumption ?? {}), spellSlot: false, targets: [{ type: "itemUses", target: dfu._id, value: "1", scaling: {} }] };
+    for (const a of Object.values(snatch.system.activities ?? {}) as any[]) a.consumption = { ...(a.consumption ?? {}), spellSlot: false, targets: [{ type: "itemUses", target: "devil-fruit-uses", value: "1", scaling: {} }] };
   },
 });
 
@@ -215,7 +215,7 @@ build({
     spend("Thunderwave", "<strong>Jazz Style: Rim Shot (Soku Soku no Mi).</strong> When he snaps past the sound barrier, the passage detonates a concussive sonic boom along his line of movement. Spends one Devil Fruit Use.");
     spend("Afterimage", "<strong>Jazz Style: Shadow Play (Soku Soku no Mi).</strong> At full tempo he leaves speed-blurred afterimages in his wake that confuse pursuit and targeting. Spends one Devil Fruit Use.");
     const dfu = items.find((i) => i.name === "Devil Fruit Uses")!;
-    const spendOn = (it: Doc) => { for (const a of Object.values(it.system.activities ?? {}) as any[]) a.consumption = { ...(a.consumption ?? {}), spellSlot: false, targets: [{ type: "itemUses", target: dfu._id, value: "1", scaling: {} }] }; };
+    const spendOn = (it: Doc) => { for (const a of Object.values(it.system.activities ?? {}) as any[]) a.consumption = { ...(a.consumption ?? {}), spellSlot: false, targets: [{ type: "itemUses", target: "devil-fruit-uses", value: "1", scaling: {} }] }; };
     // homebrew: Speed-Speed passive (base walk 120 ft)
     items.push(feat("homebrew/veyl/speed-speed", "Speed-Speed (Soku Soku no Mi)", "icons/skills/movement/feet-winged-boots-brown.webp",
       "<p>Passive. Veyl's walking speed is 120 feet (the fruit's table value), before Mobile and Unarmored Movement. <em>Homebrew: set by an effect adding 90 feet to the base 30.</em></p>", "Soku Soku no Mi",

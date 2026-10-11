@@ -9,6 +9,8 @@ const run = async (data) => {
   await a.deleteEmbeddedDocuments("Item", a.items.map((i) => i.id));
   await a.createEmbeddedDocuments("Item", data.items, { keepId: true });
   await new Promise((r) => setTimeout(r, 1200));
+  const fill = Object.fromEntries(Object.entries(a.system.spells ?? {}).filter(([, v]) => v.max && v.value < v.max).map(([k, v]) => [`system.spells.${k}.value`, v.max]));
+  if (Object.keys(fill).length) await a.update(fill); // stored slot value starts at 0: fill it
   const s = a.system;
   return JSON.stringify({ name: a.name, img: a.img, token: a.prototypeToken.texture.src, folder: a.folder?.name, ac: s.attributes.ac.value, hp: s.attributes.hp.max, dc: s.attributes.spell.dc, items: a.items.size }, null, 1);
 };

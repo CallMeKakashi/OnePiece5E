@@ -2,7 +2,9 @@ import { MODULE_ID } from "./constants.mjs";
 import { OP5E_FEATURE_IDS } from "./feature-ids.mjs";
 import {
   actorHasDiamondSoul,
+  actorHasFeatureById,
   actorHasUltimateDuality,
+  canonicalFeatureId,
   applyAttackDisadvantage,
   applyDexSaveAdvantage,
   BUBBLE_FLOATER_DURATION_SECONDS,
@@ -44,6 +46,7 @@ import {
   shouldOfferRelentlessRage,
   shouldRedirectExperimentalMedicineToCombat,
   spendItemUse,
+  usesPatch,
 } from "./feature-hooks-lib.mjs";
 
 /** Actors currently resolving a Diamond Soul reroll (avoid prompt loops). */
@@ -125,7 +128,7 @@ async function onRollSavingThrow(rolls, data) {
   if (!confirmed) return;
 
   const newValue = Math.max(0, (remaining ?? 1) - 1);
-  await spirit.update({ "system.uses.value": newValue });
+  await spirit.update(usesPatch(spirit, newValue));
 
   diamondSoulRerollInFlight.add(actor);
   try {
@@ -412,11 +415,14 @@ async function handleInnerBeast(activity, usageConfig) {
     await effect.delete();
   }
 
+  // the Sulong activity links its own effect (+4 Str and Dex on top of the base changes): use the linked one when present
+  const linked = item.effects?.get(activity?.effects?.[0]?._id);
+  const sulong = linked && /sulong/i.test(linked.name);
   await applyTimedActorEffect(
     actor,
     item,
-    item.name,
-    buildInnerBeastChanges(),
+    sulong ? `${item.name} (${linked.name})` : item.name,
+    sulong ? linked.changes.map(c => ({ key: c.key, mode: c.mode, value: c.value, priority: c.priority ?? 20 })) : buildInnerBeastChanges(),
     INNER_BEAST_DURATION_SECONDS,
     { innerBeast: true },
   );
@@ -460,7 +466,7 @@ async function handleBubbleFloater(activity, usageConfig) {
  */
 function handleCombatMedicineRedirect(activity, usageConfig) {
   const item = activity?.item;
-  if (!item || !isExperimentalMedicineItem(item.id)) return;
+  if (!item || !isExperimentalMedicineItem(canonicalFeatureId(item))) return;
 
   const actor = item.actor;
   if (!shouldRedirectExperimentalMedicineToCombat(actor)) return;
@@ -486,7 +492,7 @@ function handleCombatMedicineRedirect(activity, usageConfig) {
  * @returns {boolean|Promise<boolean>|void}
  */
 function onPreUseActivity(activity, usageConfig) {
-  const itemId = activity?.item?.id;
+  const itemId = canonicalFeatureId(activity?.item) ?? activity?.item?.id;
   if (!itemId) return;
 
   if (isFlamingDualityItem(itemId)) {
@@ -645,9 +651,7 @@ async function onDamageActor(actor, changes) {
  */
 async function onRestCompleted(actor) {
   if (!actor?.setFlag) return;
-  const hasRelentless = actor.items?.some(
-    i => i.id === OP5E_FEATURE_IDS.relentlessRage || i._id === OP5E_FEATURE_IDS.relentlessRage,
-  );
+  const hasRelentless = actorHasFeatureById(actor, OP5E_FEATURE_IDS.relentlessRage);
   if (!hasRelentless) return;
 
   const current = actor.getFlag?.(MODULE_ID, "relentlessRageDc");
@@ -666,23 +670,26 @@ async function onRestCompleted(actor) {
 async function onUpdateItemUses(item, changes, options) {
   if (options?.[`${MODULE_ID}SyncUses`]) return;
 
-  const usesChange = foundry.utils.getProperty(changes, "system.uses.value");
+  const spentChange = foundry.utils.getProperty(changes, "system.uses.spent");
+  const usesChange = spentChange !== undefined ? spentChange : foundry.utils.getProperty(changes, "system.uses.value");
   if (usesChange === undefined) return;
+  const patchKey = spentChange !== undefined ? "system.uses.spent" : "system.uses.value";
 
   const actor = item.actor;
   if (!actor) return;
 
-  if (!isExperimentalMedicinePoolItem(item.id)) return;
+  const poolId = canonicalFeatureId(item);
+  if (!isExperimentalMedicinePoolItem(poolId)) return;
 
   const { experimental, combat } = findExperimentalMedicinePair(actor);
   if (!experimental || !combat) return;
 
-  const partner = item.id === OP5E_FEATURE_IDS.combatMedicine ? experimental : combat;
-  const partnerValue = partner.system?.uses?.value;
+  const partner = poolId === OP5E_FEATURE_IDS.combatMedicine ? experimental : combat;
+  const partnerValue = foundry.utils.getProperty(partner, patchKey);
   if (partnerValue === usesChange) return;
 
   await partner.update(
-    { "system.uses.value": usesChange },
+    { [patchKey]: usesChange },
     { [`${MODULE_ID}SyncUses`]: true },
   );
 }

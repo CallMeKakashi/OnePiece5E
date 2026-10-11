@@ -66,6 +66,44 @@ export function actorHasBlockingConditionForDangerSense(actor) {
   return false;
 }
 
+const FEATURE_ID_BY_SLUG = Object.freeze({
+  "diamond-soul": OP5E_FEATURE_IDS.diamondSoul,
+  "danger-sense": OP5E_FEATURE_IDS.dangerSense,
+  "rage": OP5E_FEATURE_IDS.rage,
+  "relentless-rage": OP5E_FEATURE_IDS.relentlessRage,
+  "experimental-medicine": OP5E_FEATURE_IDS.experimentalMedicine,
+  "combat-medicine": OP5E_FEATURE_IDS.combatMedicine,
+  "spirit": OP5E_FEATURE_IDS.spirit,
+  "flaming-duality": OP5E_FEATURE_IDS.flamingDuality,
+  "flame-investure": OP5E_FEATURE_IDS.flameInvesture,
+  "empowered-godspeed": OP5E_FEATURE_IDS.empoweredGodspeed,
+  "improved-ignite": OP5E_FEATURE_IDS.improvedIgnite,
+  "ultimate-duality": OP5E_FEATURE_IDS.ultimateDuality,
+  "inner-beast": OP5E_FEATURE_IDS.innerBeast,
+  "bubble-floater": OP5E_FEATURE_IDS.bubbleFloater,
+  "giants-endurance": OP5E_FEATURE_IDS.giantsEndurance,
+});
+const KNOWN_FEATURE_IDS = new Set(Object.values(FEATURE_ID_BY_SLUG));
+const slugOf = name => String(name ?? "").toLowerCase().replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+/**
+ * The compendium id of an op5e feature, however the item got onto the actor. An embedded copy has its own random id,
+ * so the id alone only matches a world item created with keepId. Falls back to the compendium source, then to the
+ * feature's name (identifier) for feats built by the actor pipeline, which have no source.
+ *
+ * @param {object|null|undefined} item
+ * @returns {string|null}
+ */
+export function canonicalFeatureId(item) {
+  if (!item) return null;
+  const own = item.id ?? item._id;
+  if (KNOWN_FEATURE_IDS.has(own)) return own;
+  const src = String(item._stats?.compendiumSource ?? item.flags?.core?.sourceId ?? "");
+  for (const id of KNOWN_FEATURE_IDS) if (src && src.endsWith(id)) return id;
+  if (item.type !== "feat") return null;
+  return FEATURE_ID_BY_SLUG[item.system?.identifier || slugOf(item.name)] ?? null;
+}
+
 /**
  * @param {object|null|undefined} actor
  * @param {string} featureId
@@ -73,7 +111,7 @@ export function actorHasBlockingConditionForDangerSense(actor) {
  */
 export function actorHasFeatureById(actor, featureId) {
   if (!actor?.items) return false;
-  return actor.items.some(item => item.id === featureId || item._id === featureId);
+  return actor.items.some(item => item.id === featureId || item._id === featureId || canonicalFeatureId(item) === featureId);
 }
 
 /**
@@ -154,7 +192,7 @@ export function getSpiritUsesRemaining(item) {
  */
 export function findSpiritItem(actor) {
   if (!actor?.items) return null;
-  return actor.items.find(i => i.id === OP5E_FEATURE_IDS.spirit || i._id === OP5E_FEATURE_IDS.spirit) ?? null;
+  return actor.items.find(i => canonicalFeatureId(i) === OP5E_FEATURE_IDS.spirit) ?? null;
 }
 
 /**
@@ -174,9 +212,9 @@ export function canSpendSpiritPoint(actor) {
 export function findExperimentalMedicinePair(actor) {
   if (!actor?.items) return { experimental: null, combat: null };
   const experimental =
-    actor.items.find(i => i.id === OP5E_FEATURE_IDS.experimentalMedicine) ?? null;
+    actor.items.find(i => canonicalFeatureId(i) === OP5E_FEATURE_IDS.experimentalMedicine) ?? null;
   const combat =
-    actor.items.find(i => i.id === OP5E_FEATURE_IDS.combatMedicine) ?? null;
+    actor.items.find(i => canonicalFeatureId(i) === OP5E_FEATURE_IDS.combatMedicine) ?? null;
   return { experimental, combat };
 }
 
@@ -332,6 +370,10 @@ export function getFlamingDualityFormFromActivity(activity) {
   if (id === OP5E_FLAMING_DUALITY_ACTIVITY_IDS.godspeed) {
     return FLAMING_DUALITY_FORM.GODSPEED;
   }
+  // actors built by the pipeline give the activities fresh ids: fall back to the activity name
+  const name = String(activity?.name ?? "");
+  if (/ignited/i.test(name)) return FLAMING_DUALITY_FORM.IGNITED;
+  if (/godspeed/i.test(name)) return FLAMING_DUALITY_FORM.GODSPEED;
   return null;
 }
 
@@ -447,7 +489,7 @@ export function buildFlamingDualityChanges(actor, form) {
       ? IMPROVED_IGNITE_DAMAGE_TYPES
       : IGNITED_BASE_DAMAGE_TYPES;
     for (const type of types) {
-      changes.push({ key: "system.traits.dr.value", mode: 0, value: type, priority: 20 });
+      changes.push({ key: "system.traits.dr.value", mode: 2, value: type, priority: 20 });
     }
     return changes;
   }
@@ -585,9 +627,30 @@ export async function spendItemUse(item) {
   const remaining = getItemUsesRemaining(item);
   if (remaining === null) return true;
   if (remaining <= 0) return false;
-  await item.update({ "system.uses.value": remaining - 1 });
+  await item.update(usesPatch(item, remaining - 1));
   return true;
 }
+
+/**
+ * Update data that leaves `newValue` uses remaining. dnd5e 5.x stores `uses.spent` and derives `uses.value`, so writing
+ * `value` is silently ignored there; fall back to `value` only for items without `spent`.
+ *
+ * @param {object} item
+ * @param {number} newValue
+ * @returns {object}
+ */
+export function usesPatch(item, newValue) {
+  const uses = item?.system?.uses;
+  const max = Number(uses?.max);
+  if (uses?.spent !== undefined && Number.isFinite(max)) return { "system.uses.spent": Math.max(0, max - newValue) };
+  return { "system.uses.value": newValue };
+}
+
+const CREATION_SLUG_BY_ID = Object.freeze({
+  [OP5E_CREATION_IDS.fireBolt]: "fire-bolt",
+  [OP5E_CREATION_IDS.elementalArmor]: "elemental-armor",
+  [OP5E_CREATION_IDS.fireball]: "fireball",
+});
 
 /**
  * @param {string} creationId
@@ -611,7 +674,8 @@ export function findActorCreationById(actor, creationId) {
         item.id === creationId
         || item._id === creationId
         || item._stats?.compendiumSource === source
-        || String(item._stats?.compendiumSource ?? "").includes(creationId),
+        || String(item._stats?.compendiumSource ?? "").includes(creationId)
+        || (item.type === "spell" && !item._stats?.compendiumSource && slugOf(item.name) === CREATION_SLUG_BY_ID[creationId]),
     ) ?? null
   );
 }
@@ -656,11 +720,11 @@ export function isValidFlamingDualityForm(form) {
  */
 export function buildRageChanges() {
   return [
-    { key: "system.traits.dr.value", mode: 0, value: "bludgeoning", priority: 20 },
-    { key: "system.traits.dr.value", mode: 0, value: "piercing", priority: 20 },
-    { key: "system.traits.dr.value", mode: 0, value: "slashing", priority: 20 },
-    { key: "flags.dnd5e.grants.advantage.ability.check.str", mode: 5, value: "1", priority: 20 },
-    { key: "flags.dnd5e.grants.advantage.ability.save.str", mode: 5, value: "1", priority: 20 },
+    { key: "system.traits.dr.value", mode: 2, value: "bludgeoning", priority: 20 },
+    { key: "system.traits.dr.value", mode: 2, value: "piercing", priority: 20 },
+    { key: "system.traits.dr.value", mode: 2, value: "slashing", priority: 20 },
+    { key: "system.abilities.str.check.roll.mode", mode: 4, value: "1", priority: 20 },
+    { key: "system.abilities.str.save.roll.mode", mode: 4, value: "1", priority: 20 },
     { key: "system.bonuses.mwak.damage", mode: 2, value: "@prof", priority: 20 },
   ];
 }
@@ -671,8 +735,8 @@ export function buildRageChanges() {
  */
 export function buildInnerBeastChanges() {
   return [
-    { key: "flags.dnd5e.grants.advantage.ability.check.str", mode: 5, value: "1", priority: 20 },
-    { key: "flags.dnd5e.grants.advantage.ability.check.dex", mode: 5, value: "1", priority: 20 },
+    { key: "system.abilities.str.check.roll.mode", mode: 4, value: "1", priority: 20 },
+    { key: "system.abilities.dex.check.roll.mode", mode: 4, value: "1", priority: 20 },
     { key: "system.attributes.movement.walk", mode: 2, value: "10", priority: 20 },
   ];
 }

@@ -134,7 +134,7 @@ describe("Rage automation helpers", () => {
   it("builds rage active effect changes", () => {
     const changes = buildRageChanges();
     expect(changes.some(c => c.value === "bludgeoning")).toBe(true);
-    expect(changes.some(c => c.key.includes("advantage.ability.check.str"))).toBe(true);
+    expect(changes.some(c => c.key.includes("abilities.str.check.roll.mode"))).toBe(true);
     expect(changes.some(c => c.value === "@prof")).toBe(true);
   });
 });

@@ -50,7 +50,7 @@ const spend = (n: string, text: string) => {
   const it = items.find((i) => i.name === n); if (!it) throw new Error(`spend: ${n} missing`);
   it.system.uses = { spent: 0, max: "", recovery: [] };
   it.system.description.value = `<p>${text}</p>` + it.system.description.value;
-  for (const a of Object.values(it.system.activities ?? {}) as any[]) a.consumption = { ...(a.consumption ?? {}), spellSlot: false, targets: [{ type: "itemUses", target: dfu._id, value: "1", scaling: {} }] };
+  for (const a of Object.values(it.system.activities ?? {}) as any[]) a.consumption = { ...(a.consumption ?? {}), spellSlot: false, targets: [{ type: "itemUses", target: "devil-fruit-uses", value: "1", scaling: {} }] };
 };
 for (const n of ["Embody Flames", "Burning Blade", "Fireball", "Fire Bolt", "Wall of Fire"]) items.push(creation(n));
 spend("Embody Flames", "<strong>Flame-Flame: Flame body (Mera Mera no Mi).</strong> Leon becomes living fire. Spends one Devil Fruit Use.");
