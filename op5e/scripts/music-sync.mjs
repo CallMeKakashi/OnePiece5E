@@ -37,13 +37,43 @@ async function correct({ sounds, at }) {
   }
 }
 
-/** GM helper: jump every client to `seconds` in a playing sound, e.g. game.op5eMusic.seek(game.playlists.getName("Battle").sounds.contents[0], 30). */
+/** GM helper: jump every client to `seconds` in a sound, e.g. game.op5eMusic.seek(game.playlists.getName("Battle").sounds.contents[0], 30). A paused sound resumes from there. */
 async function seek(ps, seconds) {
-  if (!game.user.isGM || !ps?.sound?.playing) return;
+  if (!game.user.isGM || !ps?.sound) return;
+  const dur = ps.sound.duration || Infinity, t = Math.max(0, Math.min(seconds, dur - 0.5));
+  if (!ps.sound.playing) return ps.pausedTime != null ? ps.update({ pausedTime: t }) : undefined; // paused: the document carries the position to every client
   await ps.sound.stop({ fade: 0, volume: 0 });
-  await ps.sound.play({ offset: seconds, loop: !!ps.repeat, volume: ps.volume, fade: 0 });
+  await ps.sound.play({ offset: t, loop: !!ps.repeat, volume: ps.volume, fade: 0 });
   broadcast();
 }
+const seekBy = (ps, delta) => seek(ps, (ps.sound?.playing ? ps.sound.currentTime : ps.pausedTime ?? 0) + delta);
+const pos = (ps) => ps.sound?.playing ? ps.sound.currentTime : ps.pausedTime ?? 0;
+
+/** GM seek row in the "Currently playing" widget: back 10 s, a slider, forward 10 s. Re-added on every render; the slider follows playback while not being dragged. */
+function addSeekRows(html) {
+  for (const li of html.querySelectorAll(".currently-playing li.sound")) {
+    const ps = game.playlists.get(li.dataset.playlistId)?.sounds.get(li.dataset.soundId);
+    const row = li.querySelector(".sound-playback");
+    if (!ps || !row || li.querySelector(".op5e-seek")) continue;
+    const div = document.createElement("div"); div.className = "op5e-seek flexrow";
+    div.innerHTML = `<button type="button" class="inline-control icon fa-solid fa-backward" data-op5e="back" data-tooltip="Back 10 s" aria-label="Back 10 seconds"></button>
+      <input type="range" min="0" max="${Math.floor(ps.sound?.duration || 0)}" step="1" value="${Math.floor(pos(ps))}" aria-label="Seek">
+      <button type="button" class="inline-control icon fa-solid fa-forward" data-op5e="fwd" data-tooltip="Forward 10 s" aria-label="Forward 10 seconds"></button>`;
+    const range = div.querySelector("input");
+    div.addEventListener("click", (ev) => { const b = ev.target.closest("button[data-op5e]"); if (b) seekBy(ps, b.dataset.op5e === "back" ? -10 : 10); });
+    range.addEventListener("change", () => seek(ps, Number(range.value)));
+    row.after(div);
+  }
+}
+const follow = () => {
+  for (const range of document.querySelectorAll(".op5e-seek input[type=range]")) {
+    if (range.matches(":active")) continue;
+    const li = range.closest("li.sound"), ps = game.playlists.get(li?.dataset.playlistId)?.sounds.get(li.dataset.soundId);
+    if (!ps?.sound) continue;
+    if (ps.sound.duration && Number(range.max) !== Math.floor(ps.sound.duration)) range.max = Math.floor(ps.sound.duration);
+    range.value = Math.floor(pos(ps));
+  }
+};
 
 Hooks.once("init", () => {
   game.settings.register(MODULE, "musicSync", {
@@ -59,5 +89,7 @@ Hooks.once("ready", () => {
     setInterval(broadcast, TICK_MS);
     Hooks.on("updatePlaylistSound", (_ps, change) => { if ("playing" in change || "pausedTime" in change) burst(); });
     Hooks.on("updatePlaylist", burst);
+    Hooks.on("renderPlaylistDirectory", (_app, html) => addSeekRows(html instanceof HTMLElement ? html : html[0]));
+    setInterval(follow, 1000);
   }
 });

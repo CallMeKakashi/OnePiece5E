@@ -327,3 +327,7 @@ body.op5e-compact-chat #chat .chat-message .dice-formula, body.op5e-compact-chat
 .op5e-health li.pass i { color: #4a9d5b; } .op5e-health li.warn i { color: #d49a1a; } .op5e-health li.fail i { color: #c0392b; }
 .op5e-health li.info i { color: #3a7ec4; } .op5e-health li.skip i, .op5e-health li.wait i { opacity: 0.5; } .op5e-health li.run i { color: #3a7ec4; }
 .op5e-health .op5e-hc-log { margin: 0; max-height: 9rem; overflow: auto; font-size: 0.75em; white-space: pre-wrap; background: #0003; padding: 0.4rem; border-radius: 4px; }
+
+/* GM seek row under a playing sound (scripts/music-sync.mjs) */
+.op5e-seek { align-items: center; gap: 4px; margin-top: 2px; }
+.op5e-seek input[type=range] { flex: 1; min-width: 0; }
