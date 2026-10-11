@@ -47,6 +47,8 @@ sys.details.level = 8; sys.details.cr = 6;
 sys.attributes.hp = { value: 140, max: 140, temp: 0, tempmax: 0, formula: "8d8 + 16" }; // override: DMG CR 6 band 131-145 (real about 43, legacy 91)
 sys.details.biography.value = "<p>Cassian Valehart: lawyer at the Lex Imperia high court, son of Judge Valehart, Goru's cousin, and a fighter whose flute extends into the long baton Requiem of Clause (here a Quarterstaff).</p><p><strong>Balance note (CR 6):</strong> a straight Bard 8 is about 43 HP, so HP is overridden to 140 (DMG CR 6 band 131-145; the legacy sheet said 91). The legacy sound powers map to compendium creations: Dissonant Verdict = Shatter, Cease and Desist = Hold Person, Cross-Examiner = Truth Zone, Closing Argument = Bardic Inspiration.</p>";
 actor.name = "Cassian Valehart";
+actor.img = "one-piece-5e/npcs/Lex Imperia/cassian-new.jpg";
+actor.prototypeToken = { ...(actor.prototypeToken ?? {}), texture: { ...(actor.prototypeToken?.texture ?? {}), src: "one-piece-5e/npcs/Lex Imperia/cassian-new-token.png" } };
 
 const r = refreshFromPacks(actor.items);
 console.log(`Refreshed ${r.refreshed.length} items; unmatched: ${r.unmatched.join(", ") || "none"}`);

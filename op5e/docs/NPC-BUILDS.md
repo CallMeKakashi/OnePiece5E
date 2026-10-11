@@ -234,4 +234,4 @@ Same method; one script builds both (`build-corven-custom.ts`), specs `serica-sp
 | Cassian Valehart | 6 | 140 (override, real about 43; legacy 91; DMG CR 6 band 131-145) | 13 (Leather Armor + Dex) |
 
 - Legacy sound powers use compendium creations only (the user's choice): Dissonant Verdict = Shatter, Cease and Desist = Hold Person, Cross-Examiner = Truth Zone, Closing Argument = Bardic Inspiration. Tricks: Vicious Mockery (Silver Tongue), Thunder Bolt, Sonic Boom, Guidance. Creations: Thunderwave, Command, Healing Word, Bane, Shatter, Hold Person, Suggestion, Truth Zone, Counter Creation, Fear, Confusion, Hold Monster. Spell DC 15, attack +7. Objection!, Legal Immunity and the legacy Shift Form were dropped (no compendium match).
-- Live in `OP5E/Velencruz`, replacing the old stub. Art is **still the default image** (pending). Not played in a real fight.
+- Live in `OP5E/Velencruz`, replacing the old stub. Art is the user's Pinterest pick (`Lex Imperia/cassian-new.jpg`, token cropped locally), found with the Less AI filter and logged in `docs/art-credits.md`. Not played in a real fight.
