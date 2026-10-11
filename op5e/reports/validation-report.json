@@ -1,11 +1,11 @@
 {
  "summary": {
-  "documents": 2544,
-  "links": 4667,
+  "documents": 2566,
+  "links": 4672,
   "errors": 0,
-  "warnings": 116,
+  "warnings": 110,
   "byMessage": {
-   "warn: attack activity has no attack block (dnd5e defaults apply)": 79,
+   "warn: attack activity has no attack block (dnd5e defaults apply)": 73,
    "warn: 3 docs share this name": 11,
    "warn: 4 docs share this name": 4,
    "warn: 5 docs share this name": 3,
@@ -16,12 +16,6 @@
   }
  },
  "issues": [
-  {
-   "level": "warn",
-   "pack": "class-features",
-   "name": "Water Shot [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
   {
    "level": "warn",
    "pack": "creations",
@@ -38,12 +32,6 @@
    "level": "warn",
    "pack": "creations",
    "name": "Inflict Wounds [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Warding Wind [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
@@ -74,12 +62,6 @@
    "level": "warn",
    "pack": "creations",
    "name": "Plant Transformation [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Banishing Smite [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
@@ -247,31 +229,13 @@
   {
    "level": "warn",
    "pack": "creations",
-   "name": "Giant's Hand [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
    "name": "Steel Wind Strike [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
    "level": "warn",
    "pack": "creations",
-   "name": "Toxic Trigger [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
    "name": "Blade of Disaster [dnd5eactivity000]",
-   "msg": "attack activity has no attack block (dnd5e defaults apply)"
-  },
-  {
-   "level": "warn",
-   "pack": "creations",
-   "name": "Frigid Bullet [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
