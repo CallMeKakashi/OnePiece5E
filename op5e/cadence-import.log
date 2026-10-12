@@ -1,0 +1,49 @@
+{
+ "id": "tGdoZO5EEJpgnnH5",
+ "name": "Cadence",
+ "level": 15,
+ "cr": 12,
+ "prof": 5,
+ "ac": 19,
+ "hp": 255,
+ "abilities": {
+  "str": "8 (-1) save 0",
+  "dex": "15 (+2) save 3",
+  "con": "18 (+4) save 5",
+  "int": "12 (+1) save 2",
+  "wis": "15 (+2) save 3",
+  "cha": "20 (+5) save 6"
+ },
+ "spellDC": 13,
+ "spellAtk": 5,
+ "spellcastingLevel": 8,
+ "slots": {
+  "spell1": 4,
+  "spell2": 3,
+  "spell3": 3,
+  "spell4": 2
+ },
+ "skills": {},
+ "initiative": 2,
+ "items": 50,
+ "weapons": [
+  {
+   "name": "Javelin",
+   "acts": [
+    "attack:Javelin"
+   ]
+  },
+  {
+   "name": "Dagger",
+   "acts": [
+    "attack:Dagger"
+   ]
+  },
+  {
+   "name": "Quarterstaff",
+   "acts": [
+    "attack:Quarterstaff"
+   ]
+  }
+ ]
+}

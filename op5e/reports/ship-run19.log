@@ -1,0 +1,207 @@
+PASS Automated Animations and dnd5e-animations are active 
+PASS OP5e entries were merged into the Automated Animations menus 324 entries
+PASS The merge was recorded for this module version version marker "0.2.7"
+PASS No label is duplicated by the merge 
+PASS Entries that were already there are untouched (none removed) 1290 existing entries
+PASS An animation entry exists for "Sharkrazor Mantle" 
+PASS An animation entry exists for "Rolling Pin: Kura3 (Base)" 
+PASS An animation entry exists for "12-pounder" 
+PASS An animation entry exists for "Zoan Hybrid Form" 
+PASS Using a weapon with the merged entries runs cleanly (card posted, no error) 0 animation hook calls
+PASS Automated Animations loaded without errors
+PASS Wealth reads the currency (this world has one: gp) 50 gp
+PASS Buy: item added, price deducted 35 gp left
+PASS Buy: stock decreases 
+PASS Insufficient funds refused [SH] Buyer cannot afford [SH] Sword.
+PASS Out of stock refused [SH] Sword: out of stock.
+PASS Unlimited stock item: price deducted 7
+PASS Sell: pays the sell ratio of the item price got 7
+PASS Trade: refused without both confirmations or with too little money [SH] Buyer cannot afford 30.
+PASS Trade: refusal left everything untouched (atomic) 
+PASS Trade: items and money swap 12 / 13
+PASS Permissions: only the GM edits shops refused
+PASS NPC merchant: receives the payment 14 / 6
+PASS NPC merchant: cannot buy what it cannot afford [SH] Merchant cannot afford [SH] Sword.
+PASS Export and import a shop 
+PASS Generic shopkeeper: name only, no wallet {"actorId":null,"name":"Old Sal","img":"icons/svg/mystery-man.svg"}
+PASS NPC shopkeeper: actor, portrait and wallet used [SA] Keeper
+PASS A shop that has not been shown refuses requests The GM has not opened this shop to you.
+PASS No storefront open yet 
+PASS Show to one player: storefront opens on that player's client 
+PASS The other player's screen stays closed 
+PASS Storefront shows the shop, the keeper and the purse in the currency name [SA] Sal's Stall [SA] Sal's Stall run by Old Sal [SA] Buyer's purse 1,000 Berries Buy Sell All 2 Weapons 1 Supplies 1 [SA] Sword Weapons · 2 left 100 Berries Yo
+PASS Prices carry the currency name currency "Berries"
+PASS Affordability is stated 
+PASS GM sees the player looking 
+PASS Cart shows the total and the purse afterwards 
+PASS Sending creates a pending request and moves nothing [{"key":"BV0VlxLtEtejJeXs","name":"[SA] Sword","img":"systems/dnd5e/icons/svg/items/weapon.svg","qty":2,"amount":200}]
+PASS The player sees it waiting 
+PASS The GM panel lists it with the purse 
+PASS Approve applies it: items, money, stock {"gp":800,"items":["[SA] Sword x2"],"stock":0}
+PASS The player is told it was approved 
+PASS Sold-out items say so 
+PASS A cart above the purse is refused up front Not enough Berries for this cart.
+PASS Approval re-checks funds: declined with a reason, nothing applied Could not complete: [SA] Buyer cannot afford [SA] Potion.
+PASS Decline keeps everything and carries the reason 
+PASS A waiting request can be cancelled by its player 
+PASS A sale request is approved the same way 
+PASS A player cannot approve, show shops or edit them {"approve":"refused","show":"refused","edit":"refused"}
+PASS A player cannot shop with someone else's character or an unshown shop The GM has not opened this shop to you.
+PASS A player can open with their own offer 
+PASS The player cannot answer before the GM has It is not your turn to answer.
+PASS The GM can counter: the request waits for the player 
+PASS The player sees the GM's price and the Accept and Counter controls 
+PASS Another player cannot answer someone else's negotiation That is not your request.
+PASS The player can counter again and it returns to the GM 
+PASS Approving a haggled request charges the agreed price, not the list price 500 -> 460
+PASS Every offer is kept in the history player:30,gm:45,player:40
+PASS The receipt shows both prices 
+PASS Accepting the GM's counter closes the deal at that price 
+PASS A player can withdraw while waiting 
+PASS An offer must be above zero Enter an amount above zero.
+PASS Shares of an agreed amount add up exactly 
+PASS A trade offer waits for the other character's owner first 
+PASS Nothing moves while the offer waits 
+PASS The other owner is shown the offer to accept or decline 
+PASS The proposer cannot answer for the other side That is not your trade to answer.
+PASS Accepting sends the trade to the GM 
+PASS Still nothing moved before the GM approves 
+PASS The approved trade moves the item and the money both ways {"gem1":false,"gem2":true,"gp1":420,"gp2":180}
+PASS Declining ends the trade and moves nothing 
+PASS A trade with an NPC skips the partner step and goes straight to the GM 
+PASS The proposer can withdraw an offer while it waits for the other owner 
+PASS A trade a character cannot afford is refused up front [SA] Buyer cannot afford 999,999 Berries.
+PASS Every shop type stocks items (curios are unpriced: price on request) armory 60, shipwright 40, general 146, provisions 20, tools 42, apothecary 6, curios 95
+PASS The armory sells weapons and armor but no ship cannons 60 items
+PASS The shipwright sells cannons, rooms and upgrades and has its guides 40 items
+PASS Stock rules: armory 2, shipwright 1, general store unlimited 
+PASS An unpriced curio cannot be requested until the GM prices it Acid Ammo has no price yet: ask the GM.
+PASS Out of stock shows as Sold out on the player's screen 
+PASS Reset stock puts the template quantity back 
+PASS Hide closes the storefront 
+PASS Presence clears when the window closes 
+PASS Show to everyone opens it for every player at once 
+PASS An NPC keeper's name is on the storefront 
+PASS GM sees both players looking 
+SHOP APPROVAL: 60 pass, 0 fail
+PASS Currency label in coin mode is Gold Gold
+PASS Wealth counts every coin in gold (10 gp + 5 sp + 50 cp = 11 gp) 11
+PASS Can afford 11 gp, not 11.1 gp 
+PASS Paying 3 gp from 1000 cp leaves 7 gp in change-made coins {"pp":0,"gp":7,"ep":0,"sp":0,"cp":0}
+PASS Receiving 12.5 gp adds up to 13.5 gp {"pp":1,"gp":3,"ep":0,"sp":5,"cp":0}
+PASS Paying 4 gp from 1 platinum breaks the platinum {"pp":0,"gp":6,"ep":0,"sp":0,"cp":0}
+PASS Prices use whole-number maths (800000 with 10% markup) 
+PASS A one-coin world is single-currency (Berries) 
+PASS Single currency pays from that coin only {"pp":0,"gp":380,"ep":0,"sp":0,"cp":0}
+PASS Logia Brawler (no spellcasting class): casting ability is the highest modifier str / str
+PASS Uses maximum at level 5 is 3 3
+PASS Learned a cantrip and a level 3 spell from the dnd5e pack 
+PASS A spell above the Uses maximum cannot be learned 
+PASS Learned spell uses that casting ability for its DC and attack str
+PASS Cantrip is free 3 left
+PASS A level 3 spell costs 3 uses 0 left
+PASS No spell slot is used 
+PASS Casting with too few uses is refused 
+PASS Zoan template grants the forms by itself 
+PASS Zoan is detected 
+PASS Zoan cannot cast in base form 
+PASS Zoan casts while in Hybrid Form 
+PASS A Medic's fruit spells use the class spellcasting ability (Wisdom) wis
+PASS Aura Effects is active 
+PASS Aura of Courage: the pack item has no aura-type effect (stays valid without Aura Effects) 
+PASS Aura of Courage: gets an aura effect on the character auraeffects.aura disposition 1
+PASS Aura of Courage: disposition and radius 
+PASS Aura of Courage: carries the change 
+PASS Aura of Courage: not added twice 
+PASS Aura of Devotion: the pack item has no aura-type effect (stays valid without Aura Effects) 
+PASS Aura of Devotion: gets an aura effect on the character auraeffects.aura disposition 1
+PASS Aura of Devotion: disposition and radius 
+PASS Aura of Devotion: carries the change 
+PASS Aura of Devotion: not added twice 
+PASS Aura of Freedom: the pack item has no aura-type effect (stays valid without Aura Effects) 
+PASS Aura of Freedom: the old button is gone 
+PASS Aura of Freedom: gets an aura effect on the character auraeffects.aura disposition 1
+PASS Aura of Freedom: disposition and radius 
+PASS Aura of Freedom: carries the change 
+PASS Aura of Freedom: not added twice 
+PASS Aura of Tenacity: the pack item has no aura-type effect (stays valid without Aura Effects) 
+PASS Aura of Tenacity: the old button is gone 
+PASS Aura of Tenacity: gets an aura effect on the character auraeffects.aura disposition -1
+PASS Aura of Tenacity: disposition and radius 
+PASS Aura of Tenacity: carries the change 
+PASS Aura of Tenacity: not added twice 
+PASS an ally next to the carrier gets the aura ally: frightened
+PASS the carrier has it too 
+PASS a creature far away does not 
+PASS it is removed when the ally walks out of range ally: 
+PASS and returns when the ally walks back in ally: frightened
+PASS the aura radius is 10 ft below level 18 
+PASS the Taunted effect carries the special duration ["turnStartSource"]
+PASS combat starts on the source 
+PASS it is still there during the target's turn 
+PASS it is gone at the start of the source's next turn round 2 turn 0
+PASS ATL is active 
+PASS Torch: starts switched off 
+PASS Torch: switched on gives the token bright 20, dim 40 light 20/40, darkvision 0
+PASS Torch: switched off puts the token back 
+PASS Candle: starts switched off 
+PASS Candle: switched on gives the token bright 5, dim 10 light 5/10, darkvision 0
+PASS Candle: switched off puts the token back 
+PASS Lantern: starts switched off 
+PASS Lantern: switched on gives the token bright 30, dim 60 light 30/60, darkvision 0
+PASS Lantern: switched off puts the token back 
+PASS Night Vision Goggles (Goggles of Night): starts switched off 
+PASS Night Vision Goggles (Goggles of Night): switched on gives the token a darkvision sense of 60 ft light 0/0, darkvision 60
+PASS Night Vision Goggles (Goggles of Night): switched off puts the token back 
+PASS the API is registered 
+PASS the settings exist 
+PASS shaking animates the board 1 animation(s)
+PASS a small hit does not shake 
+PASS a big hit shakes 
+PASS a player can switch the shake off 
+PASS the burst path runs without errors (no token: skipped) 
+PASS op5e's own packs are not offered as extra sources 52 candidate pack(s)
+PASS the extra sources are switched on in dnd5e's compendium browser world.ddb-feats=true world.ddb-backgrounds=true world.ddb-classes=true world.ddb-items=true
+PASS the extra source's feats are listed with their source label 381 feats, e.g. Nimble Physique (DDB Feats)
+PASS the shop search builds a uuid that resolves to the item Deathwalker's Ward (Exalted)
+PASS a character with the extra-source feat (Alert) 
+PASS a character with the extra-source background (Charlatan) 
+PASS a class from an extra source resolves with its identifier classInfo not exported
+PASS a character with the extra-source class (Fighter) 
+PASS removing the sources switches them off in dnd5e's browser again world.ddb-feats=false world.ddb-backgrounds=false world.ddb-classes=false world.ddb-items=false
+PASS op5e's scripts load in under 3 s 38 files, 157 KB, 310 ms wall
+PASS the hot events have few listeners overall {"createItem":11,"updateItem":12,"updateActor":12,"dnd5e.preUseActivity":3,"dnd5e.postUseActivity":2,"dnd5e.rollDamageV2":2,"dnd5e.rollAttackV2":1}
+PASS creating a class feature costs under 150 ms each 3.8 ms each over 60
+PASS an actor update costs under 80 ms 50.7 ms each
+PASS preparing an actor's data costs under 60 ms 23.6 ms each with 60 items
+PASS the startup aura sweep over every actor costs under 150 ms 1.0 ms over 175 actors (5 aura features)
+PASS the best-AC setting exists and is off by default 
+PASS the calculations differ, so there is something to choose {"default":13,"mage":16,"draconic":16,"unarmoredMonk":13,"unarmoredBarb":13,"unarmoredBard":13}
+PASS it switches to the highest calculation mage -> AC 16 (max 16)
+PASS a second run changes nothing 
+PASS a flat AC the player set is left alone 
+PASS a conditional effect is off while its condition is false 
+PASS it switches on when the condition becomes true 
+PASS it switches off again when the condition is false 
+PASS evaluateCondition treats a broken formula as false 
+PASS compact chat adds the body class 
+PASS and removes it again 
+PASS the falling API is registered 
+PASS a 35 ft fall rolls 3d6 [{"name":"[FALL] Test","dice":3,"damage":15}]
+PASS the damage is applied to hit points lost 15
+PASS the faller lands prone 
+PASS a 5 ft fall does nothing 
+PASS Summons: every profile of 19 summon activities resolves to a stat block 
+PASS Cannons: all 8 have an attack activity with damage 
+PASS Cannons: all have a range 
+PASS Ships: all 8 have HP and AC 
+PASS Ships: every linked cannon exists 
+PASS The Galleon imports as an actor with hit points and armor class HP 1200, type vehicle
+FAIL The ship's sheet opens (VehicleActorSheet) and lists the cannon 0 characters of sheet
+PASS The cannon has an attack activity with damage {"types":[],"custom":{"enabled":false},"scaling":{"number":1}}
+PASS Firing the cannon posts a chat card from the ship 1 new messages
+PASS The damage roll uses the 12-pounder's dice from the book 3d10
+PASS no ship-related console errors
+
+STOPPED at "ship cannon". Fix it and re-run with --from "ship cannon".
+exit 1

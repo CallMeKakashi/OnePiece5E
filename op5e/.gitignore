@@ -24,3 +24,7 @@ assets/dev/shop-trade/
 
 # GM password file (never commit)
 .pass
+
+# campaign backups and third-party art shortlists stay local (public repo)
+reports/backups/
+reports/imgs/

@@ -1,0 +1,65 @@
+PASS Chemical Cocktail: 2 uses at level 6 2
+PASS Chemical Cocktail: six cocktails, each spends a use 
+PASS Healing Cocktail: 4d4 + Int mod {"number":4,"denomination":4,"bonus":"@abilities.int.mod","types":["healing"],"c
+PASS Swiftness Cocktail: +10 ft walking speed 35 -> 45
+PASS Resilience Cocktail: +1 AC 13 -> 14
+PASS Chemical Cocktail: 3 uses at level 15 
+PASS Drunken Arts: temp HP is Wisdom modifier doubled at level 6 10 (Wis mod 5)
+PASS Drunkard: 2 uses, poison resistance, 2d6 + level heal {"number":2,"denomination":6,"bonus":"@details.level","types":["healing"],"custom":{"enabled":false,"formula":""},"scali
+PASS Bullet Time: uses equal to proficiency, +prof initiative 3
+PASS Caring: 3 care dice, three ways to use one 
+PASS Inspiring Leader: a 10-minute heal for up to six {"number":null,"denomination":null,"bonus":"","types":["temp"],"custom":{"enabled":true,"formula":"2
+PASS Ferocious Charger: Strength save, DC 8 + prof + Str {"ability":{},"dc":{"calculation":"","formula":"8 + @prof + @abilities.str.mod","bonus":"","value":1
+PASS Ominous Toxin: two save activities and poison resistance 
+PASS Mammal of Action: blindsight 10 and swim equal to walk, envenom save swim 50 walk 50
+PASS Afterimage: the stat block exists in the summons pack 
+PASS Afterimage: a bonus-action summon that points at it Compendium.op5e.summons.Actor.674ba837530fac1b
+PASS Herculean Strength: +10 ft speed and Athletics one step up walk 25 -> 35; Athletics 1 -> 2
+PASS Master Navigator, Weaver, Woodcarver: grant their tool proficiency through advancement [true,true,true]
+PASS Medical Expertise: expertise in Medicine 2
+PASS Medium Armor Master: the dnd5e flag is set 
+PASS Pack Mule: carrying capacity doubles 150 -> 300
+PASS Pack Mule: advantage on Constitution saves mode 1
+PASS Light Armor Master (speed): starts switched off 
+PASS Light Armor Master (speed): switched on {"walk":25,"ac":12,"hp":68,"init":7} -> {"walk":30,"ac":12,"hp":68,"init":7}
+PASS Light Armor Master (speed): switched off again restores it 
+PASS Light Armor Master (moved 20 ft): starts switched off 
+PASS Light Armor Master (moved 20 ft): switched on {"walk":25,"ac":12,"hp":68,"init":7} -> {"walk":25,"ac":13,"hp":68,"init":7}
+PASS Light Armor Master (moved 20 ft): switched off again restores it 
+PASS Dual Wielder: starts switched off 
+PASS Dual Wielder: switched on {"walk":25,"ac":12,"hp":68,"init":7} -> {"walk":25,"ac":13,"hp":68,"init":7}
+PASS Dual Wielder: switched off again restores it 
+PASS Versatile Fighting (two hands): starts switched off 
+PASS Versatile Fighting (two hands): switched on {"walk":25,"ac":12,"hp":68,"init":7} -> {"walk":25,"ac":13,"hp":68,"init":7}
+PASS Versatile Fighting (two hands): switched off again restores it 
+PASS In and Out: starts switched off 
+PASS In and Out: switched on {"walk":25,"ac":12,"hp":68,"init":7} -> {"walk":40,"ac":12,"hp":68,"init":7}
+PASS In and Out: switched off again restores it 
+PASS In and Out: +2 to all saving throws +2
+PASS Destroy Defense: starts switched off 
+PASS Destroy Defense: switched on {"walk":25,"ac":12,"hp":68,"init":7} -> {"walk":25,"ac":12,"hp":68,"init":7}
+PASS Destroy Defense: switched off again restores it 
+PASS Rakish Audacity: starts switched off 
+PASS Rakish Audacity: switched on {"walk":25,"ac":12,"hp":68,"init":7} -> {"walk":25,"ac":12,"hp":68,"init":12}
+PASS Rakish Audacity: switched off again restores it 
+PASS Cut Time: +10 ft walking speed without switching anything 25 -> 35
+PASS Endless Vigor: hit point maximum up by twice the level 68 -> 84 at level 8
+PASS Dragon Claw: unarmed die goes up one size 
+PASS Medical Dissertation: +1 to creation attack and save DC 
+PASS Medical Dissertation: the extra healing button rolls proficiency 
+PASS Reckless Brilliance: Bound Hulk resistance when its toggle is on 
+PASS Reckless Brilliance: Mad Genius advantage on Intelligence saves mode 1
+PASS Enhanced Forms: bludgeoning, piercing and slashing resistance when on 
+PASS Artful Mastery: toggle starts off with attack and damage +1 
+PASS Colossal Channeler: toggle with thunder damage riders 
+PASS Unrelenting Fortress: temporary hit points button 
+PASS Strong Arms: one use and a 2d6 button 
+FAIL The two auras are buttons that apply an effect to allies 
+PASS Carving Inspiration: a button with a one-round advantage effect 
+PASS Sense Future: a button with advantage and disadvantage effects 
+PASS Crusher: push button and critical-hit effect on the target 
+PASS Enhanced Evolution: uses equal to proficiency 
+PASS Constant Shots: restores two Advanced Arsenal uses 2 left of 2
+
+STOPPED at "batch 5 features". Fix it and re-run with --from "batch 5 features".
+exit 1

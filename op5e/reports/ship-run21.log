@@ -1,0 +1,15 @@
+PASS walkthrough: Create OPC wizard builds the character in the real UI ["Fighter 2"]
+walkthrough: 0 pass, 0 fail
+PASS walkthrough2: Level-up through the real UI reaches level 8 with Haki L8 haki 1
+walkthrough2: 0 pass, 0 fail
+PASS walkthrough3: Level-up to 14 grants the whole Haki chain L14 haki 4
+PASS walkthrough3: A feat whose prerequisite is not met is refused 1 refusal(s)
+walkthrough3: 0 pass, 0 fail
+walkthrough4: 4 pass, 1 fail
+  FAIL Handaxe damage rolls on the same chat card (1d6 + Strength) [["1d20 + 5 + 5 = 22"]]
+walkthrough5: 1 pass, 0 fail
+walkthrough6: 9 pass, 1 fail
+  FAIL cannon (12-pounder: attack:Fire, save:Damage Spread) used from the ship sheet posts a card messages 921 -> 921
+WALKTHROUGHS: 18 pass, 2 fail
+
+STOPPED at "real-UI walkthroughs". Fix it and re-run with --from "real-UI walkthroughs".

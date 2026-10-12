@@ -1,0 +1,50 @@
+[Automation 3] == items: 150 docs, 0 fail, 29 warn
+PROGRESS 0/2105 docs (0%), 0 failed, 1 min elapsed, about ? min left
+[Automation 3] == creations: 413 docs, 0 fail, 0 warn
+PROGRESS 0/2105 docs (0%), 0 failed, 1 min elapsed, about ? min left
+PROGRESS 0/2105 docs (0%), 0 failed, 2 min elapsed, about ? min left
+PROGRESS 0/2105 docs (0%), 0 failed, 2 min elapsed, about ? min left
+PROGRESS 0/2105 docs (0%), 0 failed, 3 min elapsed, about ? min left
+PROGRESS 0/2105 docs (0%), 0 failed, 3 min elapsed, about ? min left
+PROGRESS 0/2105 docs (0%), 0 failed, 4 min elapsed, about ? min left
+PROGRESS 0/2105 docs (0%), 0 failed, 4 min elapsed, about ? min left
+PROGRESS 0/2105 docs (0%), 0 failed, 5 min elapsed, about ? min left
+[Automation] == class-features: 420 docs, 0 fail, 1 warn
+PROGRESS 0/2105 docs (0%), 0 failed, 5 min elapsed, about ? min left
+[Automation] == racial-features: 0 docs, 0 fail, 0 warn
+PROGRESS 0/2105 docs (0%), 0 failed, 6 min elapsed, about ? min left
+[Automation 2] == class-features: 419 docs, 0 fail, 3 warn
+PROGRESS 419/2105 docs (20%), 0 failed, 6 min elapsed, about 24 min left
+[Automation 2] == racial-features: 0 docs, 0 fail, 0 warn
+PROGRESS 429/2105 docs (20%), 0 failed, 7 min elapsed, about 25 min left
+PROGRESS 469/2105 docs (22%), 0 failed, 7 min elapsed, about 24 min left
+[Automation] == feats: 44 docs, 0 fail, 3 warn
+[Automation] == backgrounds: 28 docs, 0 fail, 0 warn
+PROGRESS 507/2105 docs (24%), 0 failed, 8 min elapsed, about 24 min left
+[Automation] == devil-fruits: 16 docs, 0 fail, 0 warn
+[Automation] == ship-weapons: 4 docs, 0 fail, 3 warn
+PROGRESS 521/2105 docs (25%), 0 failed, 8 min elapsed, about 24 min left
+[Automation 2] FAIL feats/Devil Fruit Ability Check, Fruit-Fruit DC and Attack [Fighter L20]: save "Fruit-Fruit DC": TIMEOUT
+PROGRESS 541/2105 docs (26%), 1 failed, 9 min elapsed, about 25 min left
+[Automation 2] == feats: 44 docs, 1 fail, 4 warn
+[Automation 2] == backgrounds: 28 docs, 0 fail, 0 warn
+[Automation 2] == devil-fruits: 15 docs, 0 fail, 0 warn
+PROGRESS 579/2105 docs (28%), 1 failed, 9 min elapsed, about 24 min left
+[Automation 2] == ship-weapons: 4 docs, 0 fail, 3 warn
+PROGRESS 583/2105 docs (28%), 1 failed, 10 min elapsed, about 25 min left
+PROGRESS 583/2105 docs (28%), 1 failed, 10 min elapsed, about 26 min left
+PROGRESS 583/2105 docs (28%), 1 failed, 11 min elapsed, about 27 min left
+PROGRESS 583/2105 docs (28%), 1 failed, 11 min elapsed, about 29 min left
+PROGRESS 583/2105 docs (28%), 1 failed, 11 min elapsed, about 29 min left
+== class-features: 839 docs, 0 fail
+== racial-features: 86 docs, 0 fail
+== feats: 228 docs, 1 fail
+== backgrounds: 56 docs, 0 fail
+== devil-fruits: 39 docs, 0 fail
+== ship-weapons: 8 docs, 0 fail
+== items: 421 docs, 0 fail
+== creations: 426 docs, 0 fail
+SWEEP TOTAL: 2103 docs, 1 fail; shard exit codes 0,0,0
+
+STOPPED at "sweep". Fix it and re-run with --from "sweep".
+exit 1

@@ -1,0 +1,31 @@
+PASS GM and both players are connected at once 
+PASS Player sees the character they own 
+PASS Player cannot see a GM-only character 
+PASS The other player (not the owner) cannot open that character 
+PASS Player cannot see a GM whisper 
+PASS Player receives a public message 
+PASS Player cannot create a scene refused
+PASS Player cannot change a world setting refused
+PASS Player can read the OP5e compendium 
+PASS Player can read the Shop Catalogues journal 
+PASS Player rolls initiative for their own character; the GM sees it 
+PASS Player uses their weapon; a chat card reaches the GM used; 858 -> 859
+PASS An effect the GM adds shows up on the player's client 
+PASS Player: Create OPC is available can create actors in this world: true
+PASS Trusted Player: Create OPC is available can create actors in this world: true
+MULTIPLAYER: 15 pass, 0 fail
+PASS walkthrough: Create OPC wizard builds the character in the real UI ["Fighter 2"]
+walkthrough: 0 pass, 0 fail
+FAIL walkthrough2: Level-up through the real UI reaches level 8 with Haki L2 haki 0
+walkthrough2: 0 pass, 0 fail
+FAIL walkthrough3: Level-up to 14 grants the whole Haki chain L2 haki 0
+FAIL walkthrough3: A feat whose prerequisite is not met is refused undefined refusal(s)
+walkthrough3: 0 pass, 0 fail
+walkthrough4: 4 pass, 1 fail
+  FAIL Handaxe damage rolls on the same chat card (1d6 + Strength) [["1d20 + 3 + 2 = 15"]]
+walkthrough5: 1 pass, 0 fail
+walkthrough6: 9 pass, 1 fail
+  FAIL cannon (12-pounder: attack:Fire, save:Damage Spread) used from the ship sheet posts a card messages 875 -> 875
+WALKTHROUGHS: 15 pass, 5 fail
+
+STOPPED at "real-UI walkthroughs". Fix it and re-run with --from "real-UI walkthroughs".

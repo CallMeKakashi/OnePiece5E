@@ -1,0 +1,117 @@
+Matthew "The Jack" Burgess: Human / Gambler / Fighter 10 (Gunslinger) L10 hp 74 ac 17, 34 features, feats [Role: Captain, Alert, Lucky], gear +28, issues 0
+Matthew "The Jack" Burgess (Marksman): Human / Gambler / Marksman 10 (Sniper) L10 hp 74 ac 17, 38 features, feats [Role: Captain, Alert, Lucky], gear +28, issues 0
+Baptiste: Lunarian / Boxer / Brawler 10 (Chromatic Commandment) L10 hp 73 ac 20, 29 features, feats [Role: Captain, Alert, Unarmed Master, Devil Fruit Uses, Devil Fruit Uses], gear +11, issues 0
+Malphas: Lunarian / Wanderer / Brawler 8 (Drunken Master) L8 hp 59 ac 18, 30 features, feats [Role: Captain, Alert, Acrobat, Devil Fruit Uses, Zoan Hybrid Form, Devil Fruit Uses, Zoan Full Beast Form, Zoan Hybrid Form, Zoan Full Beast Form], gear +19, issues 0
+Thunderbird (Form 1): Lunarian / Wanderer / Brawler 4 (Drunken Master) L4 hp 31 ac 18, 23 features, feats [Role: Captain, Alert, Acrobat, Devil Fruit Uses, Devil Fruit Uses, Zoan Hybrid Form, Zoan Full Beast Form, Zoan Hybrid Form], gear +18, issues 0
+Thunderbird (Form 2): Lunarian / Wanderer / Brawler 8 (Drunken Master) L8 hp 59 ac 18, 29 features, feats [Role: Captain, Alert, Acrobat, Devil Fruit Uses, Devil Fruit Uses, Zoan Full Beast Form, Zoan Hybrid Form, Zoan Hybrid Form], gear +18, issues 0
+B.O.B: Augmented / Scientist / Savant 10 (Necrotic Mania) L10 hp 84 ac 10, 28 features, feats [Role: Captain, Alert, Creativity Adept], gear +11, issues 0
+Roma: Mink / Cook / Fighter 3 + Barbarian 7 (Brute, Path of the Berserker) L10 hp 101 ac 16, 31 features, feats [Role: Captain, Alert, Gourmand, Devil Fruit Uses, Zoan Hybrid Form, Devil Fruit Uses, Zoan Full Beast Form, Zoan Hybrid Form], gear +12, issues 0
+Hybrid: Mink / Cook / Fighter 3 + Barbarian 5 (Brute, Path of the Berserker) L8 hp 81 ac 16, 27 features, feats [Role: Captain, Alert, Gourmand, Devil Fruit Uses, Devil Fruit Uses, Zoan Hybrid Form, Zoan Full Beast Form, Zoan Hybrid Form], gear +9, issues 0
+Sulong: Mink / Cook / Fighter 3 + Barbarian 5 (Brute, Path of the Berserker) L8 hp 81 ac 16, 27 features, feats [Role: Captain, Alert, Gourmand, Devil Fruit Uses, Zoan Hybrid Form, Zoan Full Beast Form, Devil Fruit Uses, Zoan Hybrid Form], gear +9, issues 0
+PASS Roma: Hybrid Form spends Devil Fruit Uses 
+PASS Roma: uses 5 -> 4 
+PASS Roma: temp HP = level x2 20 (L10)
+PASS Roma: duration by level 28800s at L10
+PASS Roma: +proficiency weapon damage prof 4
+PASS Roma: Full Beast spends Devil Fruit Uses 
+PASS Roma: Inner Beast has Sulong activity 
+PASS Roma: Sulong +4 Str/Dex 17->21, 16->20
+PASS Hybrid: Hybrid Form spends Devil Fruit Uses 
+PASS Hybrid: uses 4 -> 3 
+PASS Hybrid: temp HP = level x2 16 (L8)
+PASS Hybrid: duration by level 3600s at L8
+PASS Hybrid: +proficiency weapon damage prof 3
+PASS Hybrid: Full Beast spends Devil Fruit Uses 
+PASS Hybrid: Inner Beast has Sulong activity 
+PASS Hybrid: Sulong +4 Str/Dex 17->21, 16->20
+PASS Sulong: Hybrid Form spends Devil Fruit Uses 
+PASS Sulong: uses 4 -> 3 
+PASS Sulong: temp HP = level x2 16 (L8)
+PASS Sulong: duration by level 3600s at L8
+PASS Sulong: +proficiency weapon damage prof 3
+PASS Sulong: Full Beast spends Devil Fruit Uses 
+PASS Sulong: Inner Beast has Sulong activity 
+PASS Sulong: Sulong +4 Str/Dex 17->21, 16->20
+PASS Malphas: Hybrid Form spends Devil Fruit Uses 
+PASS Malphas: uses 4 -> 3 
+PASS Malphas: temp HP = level x2 16 (L8)
+PASS Malphas: duration by level 3600s at L8
+PASS Malphas: +proficiency weapon damage prof 3
+PASS Malphas: Full Beast spends Devil Fruit Uses 
+PASS Malphas: not a Mink, no Inner Beast expected 
+PASS Full Beast Form is a transform activity 
+PASS Full Beast: hit points = 6 x level + beast Con mod 67 vs 67
+PASS Full Beast: uses the beast's Str 26
+PASS Full Beast: keeps Int/Wis/Cha 
+PASS Full Beast: revert restores the original actor and hit points 71 vs 71
+PASS Sulong ending adds one level of exhaustion 0 -> 1
+PASS Enhanced Form raises size one category med -> lg
+PASS size returns when it ends 
+PASS Import journals: copies the 14 journals {"made":14,"replaced":0,"skipped":0}
+PASS Import journals: a second run skips them {"made":0,"replaced":0,"skipped":14}
+PASS Zoan: choosing the fruit template grants Devil Fruit Uses 
+PASS Zoan: Devil Fruit Uses by level levels 1,3,5,7,9,11 -> 1,2,3,4,5,6 (want 1,2,3,4,5,6)
+PASS Zoan: Brawler die at 11 is d10 (levels 11 to 15) faces 10
+PASS Zoan: Boxer background grants a die step step 1
+PASS Logia: choosing the fruit template grants Devil Fruit Uses 
+PASS Logia: Devil Fruit Uses by level levels 1,3,5,7,9,11 -> 1,2,3,4,5,6 (want 1,2,3,4,5,6)
+PASS Logia: Brawler die at 11 is d10 (levels 11 to 15) faces 10
+PASS Logia: Boxer background grants a die step step 1
+PASS Paramecia: choosing the fruit template grants Devil Fruit Uses 
+PASS Paramecia: Devil Fruit Uses by level levels 1,3,5,7,9,11 -> 1,2,3,4,5,6
+PASS Paramecia: Brawler die at 11 is d10 (levels 11 to 15) faces 10
+PASS Paramecia: Boxer background grants a die step step 1
+PASS Haki: none before level 8 {"1":0,"3":0,"5":0,"7":0,"9":1,"11":2}
+PASS Haki: appears by level 9 {"1":0,"3":0,"5":0,"7":0,"9":1,"11":2}
+PASS Charger: +10 speed {"walk":45,"swim":0,"init":8,"pp":12,"pi":11,"dv":0,"hp":21} -> {"walk":55,"swim":0,"init":8,"pp":12,"pi":11,"dv":0,"hp":21}
+PASS Fleet-Footed: +5 speed, +prof initiative {"walk":55,"swim":0,"init":8,"pp":12,"pi":11,"dv":0,"hp":21} -> {"walk":60,"swim":0,"init":10,"pp":12,"pi":11,"dv":0,"hp":21}
+PASS Hooves Inbound: +5 speed {"walk":60,"swim":0,"init":10,"pp":12,"pi":11,"dv":0,"hp":21} -> {"walk":65,"swim":0,"init":10,"pp":12,"pi":11,"dv":0,"hp":21}
+PASS Knack Of The Pretender: +5 speed {"walk":65,"swim":0,"init":10,"pp":12,"pi":11,"dv":0,"hp":21} -> {"walk":70,"swim":0,"init":10,"pp":12,"pi":11,"dv":0,"hp":21}
+PASS Water Wings: +10 swim {"walk":70,"swim":0,"init":10,"pp":12,"pi":11,"dv":0,"hp":21} -> {"walk":70,"swim":10,"init":10,"pp":12,"pi":11,"dv":0,"hp":21}
+PASS Sea Sovereignty: +10 swim {"walk":70,"swim":10,"init":10,"pp":12,"pi":11,"dv":0,"hp":21} -> {"walk":70,"swim":20,"init":10,"pp":12,"pi":11,"dv":0,"hp":21}
+PASS Perceptive: +30 ft darkvision {"walk":70,"swim":20,"init":10,"pp":12,"pi":11,"dv":0,"hp":21} -> {"walk":70,"swim":20,"init":10,"pp":12,"pi":11,"dv":30,"hp":21}
+PASS Knack Of The Hunter: +60 ft darkvision {"walk":70,"swim":20,"init":10,"pp":12,"pi":11,"dv":30,"hp":21} -> {"walk":70,"swim":20,"init":10,"pp":12,"pi":11,"dv":90,"hp":21}
+PASS Made For War: HP maximum +level 21 -> 24
+PASS Brawny: climb speed equals walking speed {"walk":70,"swim":20,"init":10,"pp":12,"pi":11,"dv":90,"hp":21} -> {"walk":70,"swim":20,"init":10,"pp":12,"pi":11,"dv":90,"hp":24}
+PASS Brawny: climb is not zero 70
+PASS Enhanced Circuitry: lightning resistance 
+PASS Powerful Build: dnd5e flag set 
+PASS Corrosive Soul: resistance to acid 
+PASS Echoing Soul: resistance to thunder 
+PASS Fiery Soul: resistance to fire 
+PASS Frozen Soul: resistance to cold 
+PASS Psychic Soul: resistance to psychic 
+PASS Shining Soul: resistance to radiant 
+PASS Sparking Soul: resistance to lightning 
+PASS Expanding Epiphany: resistance to psychic 
+PASS Undead Resolve: resistance to necrotic 
+PASS Purity of the Body: poison immunity and poisoned/diseased condition immunity 
+PASS Crazed Bravado: fire and thunder resistance, deafened immunity 
+PASS Shandian Mobility: +5 walk 70 -> 75
+PASS Advanced Combat Tactics: initiative + max(Wis mod, 1) 10 -> 11
+PASS Pure Soul: advantage on Int, Wis and Cha saves modes 1,1,1
+PASS Chemical Cocktail: 2 uses at level 6 2
+PASS Chemical Cocktail: six cocktails, each spends a use 
+PASS Healing Cocktail: 4d4 + Int mod {"number":4,"denomination":4,"bonus":"@abilities.int.mod","types":["healing"],"c
+PASS Swiftness Cocktail: +10 ft walking speed 35 -> 45
+PASS Resilience Cocktail: +1 AC 13 -> 14
+PASS Chemical Cocktail: 3 uses at level 15 
+PASS Drunken Arts: temp HP is Wisdom modifier doubled at level 6 10 (Wis mod 5)
+PASS Drunkard: 2 uses, poison resistance, 2d6 + level heal {"number":2,"denomination":6,"bonus":"@details.level","types":["healing"],"custom":{"enabled":false,"formula":""},"scali
+PASS Bullet Time: uses equal to proficiency, +prof initiative 3
+PASS Caring: 3 care dice, three ways to use one 
+PASS Inspiring Leader: a 10-minute heal for up to six {"number":null,"denomination":null,"bonus":"","types":["temp"],"custom":{"enabled":true,"formula":"2
+PASS Ferocious Charger: Strength save, DC 8 + prof + Str {"ability":{},"dc":{"calculation":"","formula":"8 + @prof + @abilities.str.mod","bonus":"","value":1
+PASS Ominous Toxin: two save activities and poison resistance 
+PASS Mammal of Action: blindsight 10 and swim equal to walk, envenom save swim 50 walk 50
+PASS Afterimage: the stat block exists in the summons pack 
+PASS Afterimage: a bonus-action summon that points at it Compendium.op5e.summons.Actor.674ba837530fac1b
+PASS Herculean Strength: +10 ft speed and Athletics one step up walk 25 -> 35; Athletics 1 -> 2
+FAIL Master Navigator, Weaver, Woodcarver: tool proficiency [null,null,null]
+PASS Medical Expertise: expertise in Medicine 2
+PASS Medium Armor Master: the dnd5e flag is set 
+FAIL Pack Mule: carrying capacity doubles 150 -> undefined
+PASS Pack Mule: advantage on Constitution saves mode 1
+
+STOPPED at "batch 4 features". Fix it and re-run with --from "batch 4 features".
+exit 1

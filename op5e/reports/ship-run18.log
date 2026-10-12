@@ -1,0 +1,76 @@
+PASS Fear Factor: starts switched off 
+PASS Fear Factor: switched on 
+PASS Hardy Resolution: starts switched off 
+PASS Hardy Resolution: switched on 
+PASS Strong Faith: starts switched off 
+PASS Strong Faith: switched on 
+PASS Third Eye: starts switched off 
+PASS Third Eye: switched on 
+PASS Improved Ignite: starts switched off 
+PASS Improved Ignite: switched on 
+PASS Keen Eyes: starts switched off 
+PASS Keen Eyes: switched on 
+PASS Pokerface: starts switched off 
+PASS Pokerface: switched on 
+PASS Sharpshooter: starts switched off 
+PASS Sharpshooter: switched on 
+PASS Supersonic: starts switched off 
+PASS Supersonic: switched on 
+PASS Gigantic Might: starts switched off 
+PASS Gigantic Might: switched on 
+PASS Reckless Attack: toggle starts off and holds both effects 
+PASS Inexorable Prowess: toggle starts off 
+PASS Fists of Fury: d6 unarmed (step 1) always on step 1
+PASS Fists of Fury: toggle for no weapon or shield gives d8 (step 2) step 2
+PASS Ready to Rumble with Fists of Fury on: still d8 (they do not stack) step 2
+PASS Ready to Rumble toggle: d10 (step 3) step 3
+PASS Thrown Weapon Fighting: a +2 damage button 
+PASS Fists of Fury: a punish button that applies an effect to the target 
+PASS Gigantic Might: shockwave button rolls the character level 
+PASS Grappler: a button with an advantage effect 
+PASS Make Your Mark: a mark effect and a punish roll of half the Fighter level 4
+PASS Ordnance Requiem: 2d6, 3d6, 5d6, 8d6 at Bard levels 3, 5, 10, 15 2,3,5,8
+PASS Ordnance Requiem: spends a Bardic Inspiration use 
+PASS Powerful Passion: a 1d8 button 
+PASS Slasher: slow effect (-10 ft) and critical-wound effect on the target 
+PASS Star of the Show: temp HP button, minimum 1 
+PASS Third Wind: a temporary hit points button 
+PASS Rampaging Vigor: temp HP is Wisdom modifier plus Brawler level (minimum 1) 
+PASS Tireless Spirit: regains one Second Wind use 1 of 3
+PASS Tireless Spirit: the Wisdom bonus rolls at least 1 
+PASS Rational Mind: starts switched off 
+PASS Rational Mind: switched on 
+PASS Superior Hunter: starts switched off 
+PASS Superior Hunter: switched on 
+PASS Supreme Sneak: starts switched off 
+PASS Supreme Sneak: switched on 
+PASS Earth Stance: starts switched off 
+PASS Earth Stance: switched on 
+PASS Earth Stance: +2 AC 12 -> 14
+PASS Stance Improvements (Wind): starts switched off 
+PASS Stance Improvements (Wind): switched on 
+PASS Ancient Aspect (Shark): starts switched off 
+PASS Ancient Aspect (Shark): switched on 
+PASS Primal Totem (Elk): starts switched off 
+PASS Primal Totem (Elk): switched on 
+PASS Primal Totem: Bear resistance toggles, one per damage type 
+PASS Totem Attuned (Eagle): starts switched off 
+PASS Totem Attuned (Eagle): switched on 
+PASS Deft Explorer (Roving): starts switched off 
+PASS Deft Explorer (Roving): switched on 
+PASS Signature Fighting Style: four toggles, all switched off 
+PASS Improved Blind Fighting: blindsight 30 ft 
+PASS Improved Archery: +3 ranged attack 
+PASS Inciting Inspiration and Inventive Mind: +1 creation attack and DC 
+FAIL The two auras apply an effect to creatures in range 
+PASS Improved Ardent Smite: a 1d8 button 
+PASS Mountain Stance: anchor and brace buttons, brace is 1d10 + Str mod 
+PASS Achilles Heel: a button per damage type that gives the target that vulnerability 
+PASS Totem Attuned (Elk): a Strength save button for prone 
+PASS Huntsmen's Tactics: three buttons 3
+PASS Fearsome Fortitude: rolls a hit die plus Con 9
+PASS Legendary Flourish: four buttons, the three flourishes spend a Bardic Inspiration use 
+PASS Deft Explorer: Tireless button with proficiency-bonus uses 
+
+STOPPED at "batch 7 features". Fix it and re-run with --from "batch 7 features".
+exit 1

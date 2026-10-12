@@ -1,0 +1,56 @@
+wrapper installed: true, setting registered: true
+== prerequisites: 47/47 pass
+ok   Marksman L1 (Augmented/Swordsman) hp 12 haki 0
+ok   Marksman L5 (Augmented/Swordsman/Swarmkeeper) hp 44 haki 0
+ok   Marksman L12 (Augmented/Swordsman/Swarmkeeper) hp 100 haki 3
+ok   Medic L1 (Fishman/Pirate) hp 11 haki 0
+ok   Medic L5 (Fishman/Pirate/Chemist) hp 43 haki 0
+ok   Medic L12 (Fishman/Pirate/Chemist) hp 99 haki 3
+ok   Savant L1 (Lunarian/Urchin/Necrotic Mania) hp 12 haki 0
+ok   Savant L5 (Lunarian/Urchin/Necrotic Mania) hp 44 haki 0
+ok   Savant L12 (Lunarian/Urchin/Necrotic Mania) hp 100 haki 3
+ok   Fighter L1 (Augmented/Swordsman) hp 12 haki 0
+ok   Fighter L5 (Augmented/Swordsman/Brute) hp 44 haki 0
+ok   Fighter L12 (Augmented/Swordsman/Brute) hp 112 haki 3
+ok   Bard L1 (Fishman/Pirate) hp 11 haki 0
+ok   Bard L5 (Fishman/Pirate/College of Lore) hp 43 haki 0
+ok   Bard L12 (Fishman/Pirate/College of Lore) hp 99 haki 3
+ok   Gadgeteer L1 (Lunarian/Urchin) hp 10 haki 0
+ok   Gadgeteer L5 (Lunarian/Urchin/Safeguard) hp 38 haki 0
+ok   Gadgeteer L12 (Lunarian/Urchin/Safeguard) hp 87 haki 3
+ok   Brawler L1 (Augmented/Swordsman) hp 10 haki 0
+ok   Brawler L5 (Augmented/Swordsman/Okama Kenpo) hp 38 haki 0
+ok   Brawler L12 (Augmented/Swordsman/Okama Kenpo) hp 99 haki 3
+ok   Rogue L1 (Fishman/Pirate) hp 11 haki 0
+ok   Rogue L5 (Fishman/Pirate/Thief) hp 43 haki 0
+ok   Rogue L12 (Fishman/Pirate/Thief) hp 111 haki 3
+ok   Barbarian L1 (Lunarian/Urchin) hp 14 haki 0
+ok   Barbarian L5 (Lunarian/Urchin/Path of the Totem Warrior) hp 50 haki 0
+ok   Barbarian L12 (Lunarian/Urchin/Path of the Totem Warrior) hp 113 haki 3
+ok   Marksman L1 (Augmented/Swordsman) hp 12 haki 0
+ok   Medic L1 (Fishman/Pirate) hp 11 haki 0
+ok   Marksman L3 (Augmented/Swordsman/Swarmkeeper) hp 28 haki 0
+ok   Marksman L3 (Augmented/Swordsman/Swarmkeeper) hp 28 haki 0
+ok   Marksman L3 (Augmented/Swordsman/Swarmkeeper)
+== wizard: 32 cases, 0 with issues
+== optional rulings: 17/17 pass; encumbrance {"before":270,"after":1350}; all settings off: true
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.evaluate: TypeError: Cannot read properties of undefined (reading 'system')
+    at eval (eval at evaluate (:311:30), <anonymous>:38:19)
+    at eval (eval at evaluate (:311:30), <anonymous>:88:3)
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:311:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+    at F:\Documents\GitHub\blood&brine\op5e\dev\harness\transform.mjs:93:64
+    at withFoundry (F:\Documents\GitHub\blood&brine\op5e\dev\harness\drive.mjs:45:18)
+    at async file:///F:/Documents/GitHub/blood&brine/op5e/dev/harness/transform.mjs:93:1 {
+  log: []
+}
+
+Node.js v26.7.0
+
+STOPPED at "transformations". Fix it and re-run with --from "transformations".
+exit 1

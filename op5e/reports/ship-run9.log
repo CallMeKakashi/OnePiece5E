@@ -1,0 +1,140 @@
+wrapper installed: true, setting registered: true
+== prerequisites: 47/47 pass
+FAIL Marksman L1 (Augmented/Swordsman) hp 0 haki 0: hp max 0 | 0 role feat(s), expected 1
+FAIL Marksman L5 (Augmented/Swordsman/Swarmkeeper) hp 0 haki 0: note: step 2 Subclass:  [eXLSUfx9MbpD0rhc] validation errors:
+  items: 
+    8SJm4RrI4T0en6Q6: 
+      name: may not be undefined
+      type: may not be undefined | subclass Swarmkeeper missing at level 5 | hp max 0
+FAIL Marksman L12 (Augmented/Swordsman/Swarmkeeper) hp 0 haki 0: note: step 2 Subclass:  [3XWOhoswdQ6hu7QA] validation errors:
+  items: 
+    hLZbZTXQ6VvrTtQh: 
+      name: may not be undefined
+      type: may not be undefined | subclass Swarmkeeper missing at level 12 | hp max 0
+FAIL Medic L1 (Fishman/Pirate) hp 0 haki 0: hp max 0 | 0 role feat(s), expected 1
+FAIL Medic L5 (Fishman/Pirate/Chemist) hp 0 haki 0: note: step 2 Subclass:  [NXtZAB7En7NbgZH8] validation errors:
+  items: 
+    fyRsXrdyjlkWCpFQ: 
+      name: may not be undefined
+      type: may not be undefined | subclass Chemist missing at level 5 | hp max 0
+FAIL Medic L12 (Fishman/Pirate/Chemist) hp 0 haki 0: note: step 2 Subclass:  [Po0WyyrxlCum2ogD] validation errors:
+  items: 
+    0WehCrpp0oNgevs5: 
+      name: may not be undefined
+      type: may not be undefined | subclass Chemist missing at level 12 | hp max 0
+FAIL Savant L1 (Lunarian/Urchin/Necrotic Mania) hp 0 haki 0: note: step 14 Subclass:  [tmiI6j1sG5oihDbH] validation errors:
+  items: 
+    LDMCG9f3AgcnBuOI: 
+      name: may not be undefined
+      type: may not be undefined | subclass Necrotic Mania missing at level 1 | hp max 0
+FAIL Savant L5 (Lunarian/Urchin/Necrotic Mania) hp 0 haki 0: note: step 14 Subclass:  [a2kMJPCXd4SmgVk6] validation errors:
+  items: 
+    6mhWpYgwanOZAfjP: 
+      name: may not be undefined
+      type: may not be undefined | subclass Necrotic Mania missing at level 5 | hp max 0
+FAIL Savant L12 (Lunarian/Urchin/Necrotic Mania) hp 0 haki 0: note: step 14 Subclass:  [gkPPIQDybBCaNuCD] validation errors:
+  items: 
+    0I1u3kz2PfcP3Jjv: 
+      name: may not be undefined
+      type: may not be undefined | subclass Necrotic Mania missing at level 12 | hp max 0
+FAIL Fighter L1 (Augmented/Swordsman) hp 0 haki 0: hp max 0 | 0 role feat(s), expected 1
+FAIL Fighter L5 (Augmented/Swordsman/Brute) hp 0 haki 0: note: step 1 Subclass:  [viRgNepiDQOGFBkn] validation errors:
+  items: 
+    lFkYp57iP2d1E2SJ: 
+      name: may not be undefined
+      type: may not be undefined | subclass Brute missing at level 5 | hp max 0
+FAIL Fighter L12 (Augmented/Swordsman/Brute) hp 0 haki 0: note: step 1 Subclass:  [BDBFz9fwpsbHnbsx] validation errors:
+  items: 
+    n939beFKoBr4xzix: 
+      name: may not be undefined
+      type: may not be undefined | subclass Brute missing at level 12 | hp max 0
+FAIL Bard L1 (Fishman/Pirate) hp 0 haki 0: hp max 0 | 0 role feat(s), expected 1
+FAIL Bard L5 (Fishman/Pirate/College of Lore) hp 0 haki 0: note: step 3 Subclass:  [2FspDXlJEHajOqQl] validation errors:
+  items: 
+    KrXeMJ9htSX6leTg: 
+      name: may not be undefined
+      type: may not be undefined | subclass College of Lore missing at level 5 | hp max 0
+FAIL Bard L12 (Fishman/Pirate/College of Lore) hp 0 haki 0: note: step 3 Subclass:  [yuJAp5dK9d6VRdz5] validation errors:
+  items: 
+    bRwxhfSBnWfFi0KI: 
+      name: may not be undefined
+      type: may not be undefined | subclass College of Lore missing at level 12 | hp max 0
+FAIL Gadgeteer L1 (Lunarian/Urchin) hp 0 haki 0: hp max 0 | 0 role feat(s), expected 1
+FAIL Gadgeteer L5 (Lunarian/Urchin/Safeguard) hp 0 haki 0: note: step 3 Subclass:  [5AvSkqfmWToMncTI] validation errors:
+  items: 
+    dy3VAvzobxuCiyQX: 
+      name: may not be undefined
+      type: may not be undefined | subclass Safeguard missing at level 5 | hp max 0
+FAIL Gadgeteer L12 (Lunarian/Urchin/Safeguard) hp 0 haki 0: note: step 3 Subclass:  [quXAv53vaBy9TUI5] validation errors:
+  items: 
+    jVoWbVGuAP6lwatc: 
+      name: may not be undefined
+      type: may not be undefined | subclass Safeguard missing at level 12 | hp max 0
+FAIL Brawler L1 (Augmented/Swordsman) hp 0 haki 0: hp max 0 | 0 role feat(s), expected 1
+FAIL Brawler L5 (Augmented/Swordsman/Okama Kenpo) hp 0 haki 0: note: step 3 Subclass:  [iffUMYMQm0w1VsfD] validation errors:
+  items: 
+    P8puhN7YFgTOiYQ2: 
+      name: may not be undefined
+      type: may not be undefined | subclass Okama Kenpo missing at level 5 | hp max 0
+FAIL Brawler L12 (Augmented/Swordsman/Okama Kenpo) hp 0 haki 0: note: step 3 Subclass:  [7olPIcteSxVeEuWc] validation errors:
+  items: 
+    yjoDPjNYktJ9wTjV: 
+      name: may not be undefined
+      type: may not be undefined | subclass Okama Kenpo missing at level 12 | hp max 0
+FAIL Rogue L1 (Fishman/Pirate) hp 0 haki 0: hp max 0 | 0 role feat(s), expected 1
+FAIL Rogue L5 (Fishman/Pirate/Thief) hp 0 haki 0: note: step 3 Subclass:  [K5lUbr0XZkGtEOI0] validation errors:
+  items: 
+    QMqXDVejwjavmu4K: 
+      name: may not be undefined
+      type: may not be undefined | subclass Thief missing at level 5 | hp max 0
+FAIL Rogue L12 (Fishman/Pirate/Thief) hp 0 haki 0: note: step 3 Subclass:  [MaZGrcybVdNxMGFz] validation errors:
+  items: 
+    Y51oLNtb80HvH3zd: 
+      name: may not be undefined
+      type: may not be undefined | subclass Thief missing at level 12 | hp max 0
+FAIL Barbarian L1 (Lunarian/Urchin) hp 0 haki 0: hp max 0 | 0 role feat(s), expected 1
+FAIL Barbarian L5 (Lunarian/Urchin/Path of the Totem Warrior) hp 0 haki 0: note: step 4 Subclass:  [OVCPZG102SvXwLsR] validation errors:
+  items: 
+    oHWvbdpPoaxwCfx1: 
+      name: may not be undefined
+      type: may not be undefined | subclass Path of the Totem Warrior missing at level 5 | hp max 0
+FAIL Barbarian L12 (Lunarian/Urchin/Path of the Totem Warrior) hp 0 haki 0: note: step 4 Subclass:  [duCUFulU7tYL03Ax] validation errors:
+  items: 
+    LKNXWJfOYpYy2WrV: 
+      name: may not be undefined
+      type: may not be undefined | subclass Path of the Totem Warrior missing at level 12 | hp max 0
+FAIL Marksman L1 (Augmented/Swordsman) hp 0 haki 0: hp max 0 | 0 role feat(s), expected 1
+FAIL Medic L1 (Fishman/Pirate) hp 0 haki 0: hp max 0 | 0 role feat(s), expected 1
+FAIL Marksman L3 (Augmented/Swordsman/Swarmkeeper) hp 0 haki 0: note: step 2 Subclass:  [CDRyp3vCZOOaNMjZ] validation errors:
+  items: 
+    c0u8OoMWTi4AjhSH: 
+      name: may not be undefined
+      type: may not be undefined | subclass Swarmkeeper missing at level 3 | hp max 0
+FAIL Marksman L3 (Augmented/Swordsman/Swarmkeeper) hp 0 haki 0: note: step 2 Subclass:  [ELfEKRSTZ8sotf33] validation errors:
+  items: 
+    eZBbOlI99S7PiKPG: 
+      name: may not be undefined
+      type: may not be undefined | subclass Swarmkeeper missing at level 3 | hp max 0
+ok   Marksman L3 (Augmented/Swordsman/Swarmkeeper)
+== wizard: 32 cases, 31 with issues
+== optional rulings: 17/17 pass; encumbrance {"before":270,"after":1350}; all settings off: true
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.evaluate: TypeError: Cannot read properties of undefined (reading 'system')
+    at eval (eval at evaluate (:311:30), <anonymous>:38:19)
+    at eval (eval at evaluate (:311:30), <anonymous>:88:3)
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:311:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+    at F:\Documents\GitHub\blood&brine\op5e\dev\harness\transform.mjs:93:64
+    at withFoundry (F:\Documents\GitHub\blood&brine\op5e\dev\harness\drive.mjs:45:18)
+    at async file:///F:/Documents/GitHub/blood&brine/op5e/dev/harness/transform.mjs:93:1 {
+  log: []
+}
+
+Node.js v26.7.0
+
+STOPPED at "transformations". Fix it and re-run with --from "transformations".
+exit 1

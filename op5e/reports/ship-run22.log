@@ -1,0 +1,13 @@
+PASS walkthrough: Create OPC wizard builds the character in the real UI ["Fighter 2"]
+walkthrough: 0 pass, 0 fail
+PASS walkthrough2: Level-up through the real UI reaches level 8 with Haki L8 haki 1
+walkthrough2: 0 pass, 0 fail
+PASS walkthrough3: Level-up to 14 grants the whole Haki chain L14 haki 4
+PASS walkthrough3: A feat whose prerequisite is not met is refused 1 refusal(s)
+walkthrough3: 0 pass, 0 fail
+walkthrough4: 5 pass, 0 fail
+walkthrough5: 1 pass, 0 fail
+walkthrough6: 10 pass, 0 fail
+WALKTHROUGHS: 20 pass, 0 fail
+
+Automated stages passed. Now do the manual stages in docs/SHIP-CHECK.md.

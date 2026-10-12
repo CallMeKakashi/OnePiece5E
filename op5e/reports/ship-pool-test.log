@@ -1,0 +1,71 @@
+PASS the Taunted effect carries the special duration ["turnStartSource"]
+PASS combat starts on the source 
+PASS it is still there during the target's turn 
+PASS it is gone at the start of the source's next turn round 2 turn 0
+PASS ATL is active 
+PASS Torch: starts switched off 
+PASS Torch: switched on gives the token bright 20, dim 40 light 20/40, darkvision 0
+PASS Torch: switched off puts the token back 
+PASS Candle: starts switched off 
+PASS Candle: switched on gives the token bright 5, dim 10 light 5/10, darkvision 0
+PASS Candle: switched off puts the token back 
+PASS Lantern: starts switched off 
+PASS Lantern: switched on gives the token bright 30, dim 60 light 30/60, darkvision 0
+PASS Lantern: switched off puts the token back 
+PASS Night Vision Goggles (Goggles of Night): starts switched off 
+PASS Night Vision Goggles (Goggles of Night): switched on gives the token a darkvision sense of 60 ft light 0/0, darkvision 60
+PASS Night Vision Goggles (Goggles of Night): switched off puts the token back 
+PASS the effects pack is registered 
+PASS Dodge: has an activity and an effect 
+PASS Help: has an activity and an effect 
+PASS Half Cover: has an activity and an effect 
+PASS Three-Quarters Cover: has an activity and an effect 
+PASS Dodge ends at the start of the source's next turn 
+PASS Help ends with the next attack or check 
+PASS the Half Cover activity hands out its effect 1 activity effect(s)
+PASS the effect adds +2 to AC 
+PASS the API is registered 
+PASS the settings exist 
+PASS shaking animates the board 1 animation(s)
+PASS a small hit does not shake 
+PASS a big hit shakes 
+PASS a player can switch the shake off 
+PASS the burst path runs without errors (no token: skipped) 
+PASS op5e's own packs are not offered as extra sources 53 candidate pack(s)
+PASS the extra sources are switched on in dnd5e's compendium browser world.ddb-feats=true world.ddb-backgrounds=true world.ddb-classes=true world.ddb-items=true
+PASS the extra source's feats are listed with their source label 381 feats, e.g. Nimble Physique (DDB Feats)
+PASS the shop search builds a uuid that resolves to the item Deathwalker's Ward (Exalted)
+PASS a character with the extra-source feat (Alert) 
+PASS a character with the extra-source background (Charlatan) 
+PASS a class from an extra source resolves with its identifier classInfo not exported
+PASS a character with the extra-source class (Fighter) 
+PASS removing the sources switches them off in dnd5e's browser again world.ddb-feats=false world.ddb-backgrounds=false world.ddb-classes=false world.ddb-items=false
+PASS the best-AC setting exists and is off by default 
+PASS the calculations differ, so there is something to choose {"default":13,"mage":16,"draconic":16,"unarmoredMonk":13,"unarmoredBarb":13,"unarmoredBard":13}
+PASS it switches to the highest calculation mage -> AC 16 (max 16)
+PASS a second run changes nothing 
+PASS a flat AC the player set is left alone 
+PASS a conditional effect is off while its condition is false 
+PASS it switches on when the condition becomes true 
+PASS it switches off again when the condition is false 
+PASS evaluateCondition treats a broken formula as false 
+PASS compact chat adds the body class 
+PASS and removes it again 
+PASS the falling API is registered 
+PASS a 35 ft fall rolls 3d6 [{"name":"[FALL] Test","dice":3,"damage":15}]
+PASS the damage is applied to hit points lost 15
+PASS the faller lands prone 
+PASS a 5 ft fall does nothing 
+PASS Summons: every profile of 19 summon activities resolves to a stat block 
+PASS Cannons: all 8 have an attack activity with damage 
+PASS Cannons: all have a range 
+PASS Ships: all 8 have HP and AC 
+PASS Ships: every linked cannon exists 
+PASS The Galleon imports as an actor with hit points and armor class HP 1200, type vehicle
+PASS The ship's sheet opens (VehicleActorSheet) and lists the cannon 307 characters of sheet
+PASS The cannon has an attack activity with damage {"types":[],"custom":{"enabled":false},"scaling":{"number":1}}
+PASS Firing the cannon posts a chat card from the ship 1 new messages
+PASS The damage roll uses the 12-pounder's dice from the book 3d10
+PASS no ship-related console errors
+
+Automated stages passed. Now do the manual stages in docs/SHIP-CHECK.md.

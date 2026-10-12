@@ -1,11 +1,11 @@
 {
  "summary": {
-  "documents": 2566,
-  "links": 4672,
+  "documents": 2569,
+  "links": 4674,
   "errors": 0,
-  "warnings": 110,
+  "warnings": 111,
   "byMessage": {
-   "warn: attack activity has no attack block (dnd5e defaults apply)": 73,
+   "warn: attack activity has no attack block (dnd5e defaults apply)": 74,
    "warn: 3 docs share this name": 11,
    "warn: 4 docs share this name": 4,
    "warn: 5 docs share this name": 3,
@@ -104,6 +104,12 @@
    "level": "warn",
    "pack": "creations",
    "name": "Chilling Necrosis [dnd5eactivity000]",
+   "msg": "attack activity has no attack block (dnd5e defaults apply)"
+  },
+  {
+   "level": "warn",
+   "pack": "creations",
+   "name": "Fire Bolt (Flame Investure) [dnd5eactivity000]",
    "msg": "attack activity has no attack block (dnd5e defaults apply)"
   },
   {
