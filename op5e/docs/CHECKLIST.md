@@ -28,7 +28,7 @@ Target: Foundry 13.350, dnd5e 5.3.3 (5.1.10 still works). The campaign copy `bb-
 
 ## C. Decisions and facts
 - Foundry stays on 13.350 (13.351 declined for now)
-- `blood-and-brine` is read-only for Claude. `bb-rehearsal` is a copy and may be tested freely; Midi-QOL's settings are restored after a test run
+- `bb-rehearsal` is a copy of the campaign world and may be tested freely; Midi-QOL's settings are restored after a test run. `blood-and-brine` may be worked in directly when the DM asks (the old read-only rule was removed 2026-10-12)
 - The release must be tested on the same Foundry and dnd5e the DM runs
 - The test harnesses run in `test` or `bb-rehearsal`, never in `blood-and-brine`
 - Manual items kept as documented (#27): Multipod stays text, vision-5e's default hearing-range formula, Approaching Awakening

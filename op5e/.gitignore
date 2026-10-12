@@ -21,3 +21,6 @@ assets/dev/plans.json
 extracted/previous/
 assets/dev/shop-trade/
 .update-token
+
+# GM password file (never commit)
+.pass

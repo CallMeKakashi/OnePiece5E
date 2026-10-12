@@ -1,5 +1,5 @@
 // Node driver: joins the *test* world in headless Edge, ensures required modules, runs fn(page, H).
-// Refuses to run unless the world is "test" or "bb-rehearsal" (the campaign copy; never blood-and-brine). Returns FOUNDRY_UNAVAILABLE if the server is down.
+// Runs in "test", "bb-rehearsal" (the campaign copy) and, since 2026-10-12 at the DM's request, the live "blood-and-brine" (joins as a passwordless "Automation" user; never types a password). Returns FOUNDRY_UNAVAILABLE if the server is down.
 import { chromium } from "playwright-core";
 import { readFileSync } from "node:fs";
 const BASE = process.env.FOUNDRY_URL ?? "http://localhost:30000";
@@ -21,7 +21,8 @@ export async function postToGM(page, html) {
 export async function withFoundry(fn, { headless = true, extraModules = [] } = {}) {
   const st = await foundryStatus();
   if (!st?.active) { const e = new Error("FOUNDRY_UNAVAILABLE"); e.code = "FOUNDRY_UNAVAILABLE"; throw e; }
-  if (!["test", "bb-rehearsal"].includes(st.world)) throw new Error(`refusing: active world is "${st.world}", not test or bb-rehearsal`);
+  const LIVE = st.world === "blood-and-brine"; // live campaign: no automatic module (de)activation below
+  if (!["test", "bb-rehearsal", "blood-and-brine"].includes(st.world)) throw new Error(`refusing: active world is "${st.world}", not test, bb-rehearsal or blood-and-brine`);
   const browser = await chromium.launch({ channel: "msedge", headless });
   const page = await (await browser.newContext({ viewport: { width: 1600, height: 1000 } })).newPage();
   const logs = []; page.on("console", (m) => m.type() === "error" && logs.push(m.text())); page.on("pageerror", (e) => logs.push(String(e)));
@@ -34,7 +35,7 @@ export async function withFoundry(fn, { headless = true, extraModules = [] } = {
   try {
     await join();
     const need = [...REQUIRED, ...extraModules];
-    const changed = await page.evaluate(async (need) => {
+    const changed = LIVE ? false : await page.evaluate(async (need) => {
       const cfg = foundry.utils.deepClone(game.settings.get("core", "moduleConfiguration"));
       let ch = false; for (const id of need) if (game.modules.get(id) && !cfg[id]) { cfg[id] = true; ch = true; }
       if (ch) await game.settings.set("core", "moduleConfiguration", cfg);
