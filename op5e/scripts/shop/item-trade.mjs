@@ -8,11 +8,11 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "
 export const blocker = (item) => tradeBlocker({ type: item?.type, contentsSize: item?.system?.contents?.size });
 
 /** Players who are online now (not me, not a GM) with the characters they own that I do not. */
-export function onlineRecipients() {
+export function onlineRecipients(from) {
   const out = [];
   for (const u of game.users) {
-    if (u.isGM || u.id === game.user.id || !u.active) continue;
-    const chars = game.actors.filter((a) => a.type === "character" && a.testUserPermission(u, "OWNER") && !a.testUserPermission(game.user, "OWNER"));
+    if (u.isGM || u.id === game.user.id || !u.active) continue;   // the GM may trade from any actor (NPCs too); players only from their own characters
+    const chars = game.actors.filter((a) => a.type === "character" && a !== from && a.testUserPermission(u, "OWNER") && (game.user.isGM || !a.testUserPermission(game.user, "OWNER")));
     chars.sort((a, b) => (u.character?.id === b.id) - (u.character?.id === a.id) || a.name.localeCompare(b.name));
     for (const actor of chars) out.push({ user: u, actor });
   }
@@ -21,9 +21,9 @@ export function onlineRecipients() {
 
 export async function openItemTrade(item) {
   const actor = item?.actor;
-  if (!actor || actor.type !== "character" || !actor.isOwner) return null;
+  if (!actor || !actor.isOwner || (!game.user.isGM && actor.type !== "character")) return null;
   const why = blocker(item); if (why) { ui.notifications.warn(why); return null; }
-  const recipients = onlineRecipients();
+  const recipients = onlineRecipients(actor);
   if (!recipients.length) { ui.notifications.warn("No other player is online to trade with."); return null; }
   const items = actor.items.filter((i) => !blocker(i)).sort((a, b) => a.name.localeCompare(b.name));
   const rows = items.map((i) => { const q = i.system.quantity ?? 1;
@@ -49,7 +49,7 @@ export async function openItemTrade(item) {
 /** Adds "Trade" to an item's three-dots (context) menu on a player's own character. */
 export function registerItemTrade() {
   Hooks.on("dnd5e.getItemContextOptions", (item, options) => {
-    if (game.user.isGM || !item?.actor || item.actor.type !== "character" || !item.actor.isOwner) return;
+    const actor = item?.actor; if (!actor || !actor.isOwner || (!game.user.isGM && actor.type !== "character")) return;
     options.push({ name: "Trade", icon: '<i class="fa-solid fa-handshake fa-fw"></i>', condition: () => !blocker(item), callback: () => openItemTrade(item) });
   });
 }
