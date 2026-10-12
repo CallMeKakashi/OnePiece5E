@@ -12,6 +12,7 @@ import { level7 } from "./level-7.js";
 import { level8 } from "./level-8.js";
 import { level9 } from "./level-9.js";
 import { additions } from "./additions.js";
+import { lunarianCreations } from "./lunarian.js";
 
 export const items: FoundryItem[] = assignIcons([
   ...tricks,
@@ -25,6 +26,7 @@ export const items: FoundryItem[] = assignIcons([
   ...level8,
   ...level9,
   ...additions,
+  ...lunarianCreations,
 ]);
 
 export default items;

@@ -647,9 +647,9 @@ export function usesPatch(item, newValue) {
 }
 
 const CREATION_SLUG_BY_ID = Object.freeze({
-  [OP5E_CREATION_IDS.fireBolt]: "fire-bolt",
-  [OP5E_CREATION_IDS.elementalArmor]: "elemental-armor",
-  [OP5E_CREATION_IDS.fireball]: "fireball",
+  [OP5E_CREATION_IDS.fireBolt]: "fire-bolt-flame-investure",
+  [OP5E_CREATION_IDS.elementalArmor]: "elemental-armor-flame-investure",
+  [OP5E_CREATION_IDS.fireball]: "fireball-flame-investure",
 });
 
 /**

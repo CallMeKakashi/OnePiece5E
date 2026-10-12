@@ -2,6 +2,7 @@ import { generateId } from "../../helpers/id.js";
 import { compendiumUuid } from "../../helpers/uuid.js";
 import { createItemGrant, mergeAdvancements } from "../../helpers/advancement.js";
 import type { RaceItem } from "../../schemas/race.js";
+import { lunarianCreations } from "../creations/lunarian.js";
 import {
   lunarianDarkvision, omniAdapted,
   flamingDuality, empoweredGodspeed, improvedIgnite, ultimateDuality,
@@ -10,10 +11,8 @@ import {
 
 const RACE_ID = "race/lunarian";
 
-/** Creations compendium IDs (stable across rebuilds). */
-const CREATION_FIRE_BOLT = "551fecdcb6675995";
-const CREATION_ELEMENTAL_ARMOR = "193d738602cc863d";
-const CREATION_FIREBALL = "f3290c49655cc7b6";
+/** The race grants its own Flame Investure versions (always prepared, no slot, once per long rest), see creations/lunarian.ts. */
+const [CREATION_FIRE_BOLT, CREATION_ELEMENTAL_ARMOR, CREATION_FIREBALL] = lunarianCreations.map((c) => c._id as string);
 
 function feat(id: string) { return compendiumUuid("racial-features", id); }
 function creation(id: string) { return compendiumUuid("creations", id); }

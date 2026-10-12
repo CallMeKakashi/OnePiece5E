@@ -23,9 +23,9 @@ export const OP5E_FLAMING_DUALITY_ACTIVITY_IDS = Object.freeze({
   godspeed: "op5efdualitygod0",
 });
 
-/** Stable creation item IDs in the creations compendium. */
+/** Stable creation item IDs in the creations compendium: the Lunarian Flame Investure versions (data/src/creations/lunarian.ts). */
 export const OP5E_CREATION_IDS = Object.freeze({
-  fireBolt: "551fecdcb6675995",
-  elementalArmor: "193d738602cc863d",
-  fireball: "f3290c49655cc7b6",
+  fireBolt: "793b7cd144e0c297",
+  elementalArmor: "819850e8b0908d26",
+  fireball: "db77c79a235f86b5",
 });
