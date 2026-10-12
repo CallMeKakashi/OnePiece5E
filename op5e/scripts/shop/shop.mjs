@@ -7,6 +7,8 @@ import { ShopApp, openTradeDialog } from "./shop-app.mjs";
 import { ShopGMApp } from "./gm-panel.mjs";
 import { SHOP_TYPES, templateStock } from "./templates.mjs";
 import { price, canAfford, pay, receive, wealthIn, currencyLabel, fmt } from "./currency.mjs";
+import { registerItemTrade } from "./item-trade.mjs";
+import { cleanOffer, cleanPrice, tradeMessage, offerSummary } from "./item-trade-lib.mjs";
 
 const ID = MODULE_ID, SOCKET = `module.${ID}`;
 export const shops = () => foundry.utils.deepClone(game.settings.get(ID, "shops"));
@@ -23,6 +25,7 @@ export const untrack = (app) => apps.delete(app);
 const refresh = () => { apps.forEach((a) => a.render()); ui.actors?.render?.(); };
 
 export const initShop = () => {
+  registerItemTrade();
   Hooks.on("renderActorDirectory", (_app, html) => {
     const root = html instanceof HTMLElement ? html : html[0]; if (!root || root.querySelector(".op5e-shop-button")) return;
     const bar = root.querySelector(".directory-header .header-actions") ?? root.querySelector(".header-actions") ?? root.querySelector(".directory-header"); if (!bar) return;
@@ -68,7 +71,7 @@ const lastOffer = (req) => req.offers?.at(-1);
 const pushOffer = (req, by, amount, note) => { (req.offers ??= []).push({ by, amount, note: note ?? "", at: Date.now() }); };
 const validAmount = (n) => Number.isFinite(Number(n)) && Number(n) > 0 ? Math.round(Number(n)) : fail("Enter an amount above zero.");
 
-async function handlers_trade_body({ a, b, confirmedBy = [], userId }) {
+async function handlers_trade_body({ a, b, confirmedBy = [], userId, silent = false }) {
     const A = game.actors.get(a.actorId), B = game.actors.get(b.actorId);
     if (!A || !B || A === B) fail("Pick two different actors.");
     const isGM = game.users.get(userId)?.isGM;
@@ -81,18 +84,19 @@ async function handlers_trade_body({ a, b, confirmedBy = [], userId }) {
       for (const it of side.items ?? []) {
         const doc = from.items.get(it.itemId), have = doc.system.quantity ?? 1, q = it.qty ?? 1;
         const data = doc.toObject(); delete data._id; if ("quantity" in data.system) data.system.quantity = q;
+        if ("equipped" in data.system) data.system.equipped = false; if ("attuned" in data.system) data.system.attuned = false; if ("container" in data.system) data.system.container = null;   // the new owner starts with it unequipped and loose
         await to.createEmbeddedDocuments("Item", [data]);
         if (have > q) await doc.update({ "system.quantity": have - q }); else await doc.delete();
       }
       if ((side.money ?? 0) > 0) { await pay(from, side.money); await receive(to, side.money); }
     };
     await move(A, B, a); await move(B, A, b);
-    await ChatMessage.create({ content: `<p>Trade completed between <strong>${A.name}</strong> and <strong>${B.name}</strong>.</p>` });
+    if (!silent) await ChatMessage.create({ content: `<p>Trade completed between <strong>${A.name}</strong> and <strong>${B.name}</strong>.</p>` });
     return { ok: true };
 }
 
 /** Atomic trade between two characters. Both owners must have confirmed (the GM may act for both). */
-const doTrade = async ({ a, b, confirmedBy = [], userId }) => handlers_trade_body({ a, b, confirmedBy, userId });
+const doTrade = async ({ a, b, confirmedBy = [], userId, silent = false }) => handlers_trade_body({ a, b, confirmedBy, userId, silent });
 
 /** The two operations that move things. Only ever run on the GM's client, after approval (or by the GM directly). */
 const doBuy = async ({ shopId, actorId, key, qty = 1, override = null }) => {
@@ -122,6 +126,7 @@ const doSell = async ({ shopId, actorId, itemId, qty = 1, override = null }) => 
   return { sold: item.name, qty, total };
 };
 
+const OFFER_TTL = 10 * 60 * 1000;
 const emit = (data) => game.socket.emit(SOCKET, data);
 const event = (name, extra = {}) => { emit({ event: name, ...extra }); handleEvent({ event: name, ...extra }); };   // also run it here: the socket does not echo to the sender
 
@@ -222,11 +227,45 @@ const handlers = {
     else { ChatMessage.create({ whisper: game.users.filter((u) => u.isGM).map((u) => u.id), content: `<p><strong>${A.name}</strong> proposes a trade with <strong>${B.name}</strong>. Open the shop panel to approve.</p>` }); event("newRequest", { requestId: req.id }); }
     return { pending: true, id: req.id, waitingForPartner: partners.length > 0 };
   },
+  /** Items from the item menu: the receiver (online now) approves, no GM step. Moves on accept and posts a public chat line. */
+  async itemTrade({ actorId, partnerActorId, items, price, userId }) {
+    const A = game.actors.get(actorId), B = game.actors.get(partnerActorId);
+    if (!A || !B || A === B) fail("Pick two different characters.");
+    if (!owns(userId, A)) fail("You do not own that character.");
+    const partners = game.users.filter((u) => u.active && !u.isGM && u.id !== userId && B.testUserPermission(u, "OWNER")).map((u) => u.id);
+    if (!partners.length) fail(`${B.name}'s player is not online.`);
+    const held = new Map(A.items.map((i) => [i.id, { name: i.name, type: i.type, quantity: i.system.quantity, contentsSize: i.system.contents?.size }]));
+    let clean; try { clean = cleanOffer(items, held); } catch (e) { fail(e.message); }
+    price = cleanPrice(price);
+    if (price > 0 && !canAfford(B, price)) fail(`${B.name} cannot afford ${fmt(price)} ${currencyLabel()}.`);
+    const all = requests().filter((r) => !(r.auto && r.status === "partner" && r.actorId === A.id && r.partnerId === B.id));   // a newer offer replaces an open one
+    const req = { id: foundry.utils.randomID(), kind: "trade", auto: true, actorId: A.id, actorName: A.name, partnerId: B.id, partnerName: B.name, userId, userName: game.users.get(userId).name,
+      a: { actorId: A.id, items: clean.map(({ itemId, qty }) => ({ itemId, qty })), money: 0 }, b: { actorId: B.id, items: [], money: price }, items: clean, price,
+      lines: clean.map((i) => ({ name: i.name, qty: i.qty, amount: 0 })), total: price, partners, partnerConfirmedBy: [], status: "partner", at: Date.now() };
+    all.push(req); await saveRequests(all);
+    event("tradeOffer", { requestId: req.id, userIds: partners });
+    return { pending: true, id: req.id };
+  },
   /** The other character's owner answers a trade offer. */
   async tradeRespond({ id, accept, userId }) {
     const all = requests(), req = all.find((r) => r.id === id);
     if (!req || req.kind !== "trade" || req.status !== "partner") fail("That trade is not waiting for you.");
     if (!req.partners.includes(userId)) fail("That is not your trade to answer.");
+    if (req.auto) {
+      if (!accept) { req.status = "declined"; req.note = `${req.partnerName}'s player declined.`; }
+      else if (Date.now() - req.at > OFFER_TTL) { req.status = "declined"; req.note = "The offer expired."; }
+      else {
+        try {
+          await doTrade({ a: req.a, b: req.b, confirmedBy: [req.userId, userId], userId: game.user.id, silent: true });
+          req.status = "approved"; req.note = "";
+          await ChatMessage.create({ content: tradeMessage({ from: req.actorName, to: req.partnerName, items: req.items, price: req.price, currency: currencyLabel(), fmt }) });
+        } catch (e) { req.status = "declined"; req.note = e.message; }
+      }
+      await saveRequests(all);
+      event("decided", { requestId: id, userId: req.userId, status: req.status, note: req.note, auto: true });
+      if (req.note) fail(req.note);
+      return { status: req.status };
+    }
     if (accept) { req.status = "pending"; req.partnerConfirmedBy.push(userId); } else { req.status = "declined"; req.note = `${req.partnerName}'s owner declined.`; }
     await saveRequests(all);
     if (accept) { ChatMessage.create({ whisper: game.users.filter((u) => u.isGM).map((u) => u.id), content: `<p><strong>${req.actorName}</strong> and <strong>${req.partnerName}</strong> agree to a trade. Open the shop panel to approve.</p>` }); event("newRequest", { requestId: id }); }
@@ -252,7 +291,7 @@ export const openStorefront = (shopId, actorId) => { if (storefront?.rendered) {
 /** The other character's owner is asked whether to accept a proposed trade. */
 async function offerTrade(requestId) {
   const req = requests().find((r) => r.id === requestId); if (!req || req.status !== "partner") return;
-  const accept = await foundry.applications.api.DialogV2.confirm({ window: { title: "Trade offer" }, content: `<p><strong>${req.actorName}</strong> offers a trade to <strong>${req.partnerName}</strong>:</p><ul>${req.lines.map((l) => `<li>${l.qty > 1 ? l.qty + "x " : ""}${l.name}</li>`).join("")}</ul><p>The GM still has to approve it.</p>`, yes: { label: "Accept" }, no: { label: "Decline" } });
+  const accept = await foundry.applications.api.DialogV2.confirm({ window: { title: "Trade offer" }, content: req.auto ? (({ intro, lines, cost }) => `<p>${intro}</p><ul>${lines.map((l) => `<li>${l}</li>`).join("")}</ul><p>${cost}</p>`)(offerSummary({ from: req.actorName, to: req.partnerName, items: req.items, price: req.price, currency: currencyLabel(), fmt })) : `<p><strong>${req.actorName}</strong> offers a trade to <strong>${req.partnerName}</strong>:</p><ul>${req.lines.map((l) => `<li>${l.qty > 1 ? l.qty + "x " : ""}${l.name}</li>`).join("")}</ul><p>The GM still has to approve it.</p>`, yes: { label: "Accept" }, no: { label: "Decline" } });
   try { await game.shopTrade.respondTrade(requestId, !!accept); } catch (e) { ui.notifications.warn(e.message); }
 }
 
@@ -260,7 +299,7 @@ function handleEvent(msg) {
   const forMe = (ids) => ids === "all" || (Array.isArray(ids) && ids.includes(game.user.id));
   if (msg.event === "open" && !game.user.isGM && forMe(msg.userIds)) openStorefront(msg.shopId);
   else if (msg.event === "close" && !game.user.isGM && forMe(msg.userIds) && storefront?.shopId === msg.shopId) storefront.close();
-  else if (msg.event === "decided" && msg.userId === game.user.id && !msg.gmView) ui.notifications[msg.status === "declined" ? "warn" : "info"](msg.status === "approved" ? "The GM approved your request." : msg.status === "countered" ? `The GM wants ${fmt(msg.amount)} ${currencyLabel()}${msg.note ? ` (${msg.note})` : ""}. Open the shop to answer.` : `The GM declined your request${msg.note ? `: ${msg.note}` : "."}`);
+  else if (msg.event === "decided" && msg.userId === game.user.id && !msg.gmView) ui.notifications[msg.status === "declined" ? "warn" : "info"](msg.status === "approved" ? (msg.auto ? "Your trade went through." : "The GM approved your request.") : msg.status === "countered" ? `The GM wants ${fmt(msg.amount)} ${currencyLabel()}${msg.note ? ` (${msg.note})` : ""}. Open the shop to answer.` : `The GM declined your request${msg.note ? `: ${msg.note}` : "."}`);
   else if (msg.event === "decided" && msg.gmView && game.user.isGM) ui.notifications.info(`A player ${msg.status === "approved" ? "accepted your price" : "withdrew their request"}.`);
   else if (msg.event === "tradeOffer" && forMe(msg.userIds)) offerTrade(msg.requestId);
   else if (msg.event === "newRequest" && game.user.isGM) ui.notifications.info("A shop request is waiting for your approval.");
@@ -354,6 +393,7 @@ export const readyShop = () => {
     cancelRequest: (id) => asGM("cancel", { id }),
     reportViewing: (shopId, on) => game.user.isGM ? Promise.resolve() : asGM("viewing", { shopId, on }).catch(() => {}),
     trade: (a, b, confirmedBy) => asGM("trade", { a, b, confirmedBy }),
+    offerItems: ({ actorId, partnerActorId, items, price }) => asGM("itemTrade", { actorId, partnerActorId, items, price }),
     proposeTrade: (a, b) => asGM("tradeRequest", { a, b }),
     respondTrade: (id, accept) => asGM("tradeRespond", { id, accept }),
     wealth: (actor) => wealthIn(actor),
