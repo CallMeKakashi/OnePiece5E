@@ -26,7 +26,7 @@ const creation = (name: string) => { // Flame Investure: Fire Bolt, Elemental Ar
   if (!c) throw new Error(`Creation not found: ${name}`);
   return embedOwnedItem(ensureItemActivities({ ...structuredClone(c), system: { ...structuredClone(c.system), preparation: { mode: "always", prepared: true } } } as never) as never) as Doc;
 };
-for (const n of ["Fire Bolt", "Elemental Armor", "Fireball"]) { const c = creation(n); for (const a of Object.values(c.system.activities ?? {}) as any[]) a.consumption = { ...(a.consumption ?? {}), spellSlot: false }; out.push(c); } // Flame Investure is a racial trait: no creation slot
+for (const n of ["Fire Bolt (Flame Investure)", "Elemental Armor (Flame Investure)", "Fireball (Flame Investure)"]) out.push(creation(n)); // the Lunarian species versions: no slot, Elemental Armor and Fireball once per long rest
 out.push(embedOwnedItem(pack("feats", "2f6cd976e5725c37") as never) as Doc); // Flying Strikes (level 12 feat)
 for (const f of flowingMindFeatures) out.push(embedOwnedItem(ensureFeatureActivities(f as never) as never) as Doc); // Chapter 7 additional power, user pick
 

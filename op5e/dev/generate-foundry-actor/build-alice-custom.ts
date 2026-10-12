@@ -36,7 +36,7 @@ items.push(embId("class-features", "e9178a9c2b55cc91")); // Fighting Style: Duel
 items.push(emb("class-features", "Burn Baby, Burn")); // additional power (needs fire damage), user's pick
 for (const n of ["Conqueror's Haki Novice", "Conqueror's Haki Apprentice"]) items.push(emb("class-features", n));
 for (const f of lunarianFeatures) if (f.name !== "Ultimate Duality") items.push(embedOwnedItem(ensureFeatureActivities(f as never) as never) as Doc); // Flaming Duality, Flame Investure, Omni-Adapted, wings, Godspeed
-for (const n of ["Fire Bolt", "Elemental Armor", "Fireball"]) { const c = creation(n); for (const a of Object.values(c.system.activities ?? {}) as any[]) a.consumption = { ...(a.consumption ?? {}), spellSlot: false }; items.push(c); } // Flame Investure is a racial trait: no creation slot // Flame Investure
+for (const n of ["Fire Bolt (Flame Investure)", "Elemental Armor (Flame Investure)", "Fireball (Flame Investure)"]) items.push(creation(n)); // the Lunarian species versions: no slot, Elemental Armor and Fireball once per long rest
 
 const auto = refreshFromPacks(items); console.log(`automation copied onto ${auto.refreshed.length} features; no pack match for: ${auto.unmatched.join(", ") || "none"}`);
 for (const i of items) {
