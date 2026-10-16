@@ -1,5 +1,7 @@
 import type { FeatureItem } from "../../../schemas/feature.js";
 import { generateId } from "../../../helpers/id.js";
+import { createItemGrant } from "../../../helpers/advancement.js";
+import { compendiumUuid } from "../../../helpers/uuid.js";
 
 function feat(
   idPath: string,
@@ -93,3 +95,9 @@ export const eightImpactsFistFeatures: FeatureItem[] = [
     { requirements: "Eight Impacts Fist 20" },
   ),
 ];
+
+// Dragging Eight Impacts Fist grants each impact up to the character's level and the next ones on level-up (dnd5e applies feat advancement by character level).
+const [power, ...impacts] = eightImpactsFistFeatures;
+(power.system as { advancement: unknown[] }).advancement = [1, 5, 10, 15, 20].map((level, i) =>
+  createItemGrant("additional-power/eight-impacts-fist", level, [{ uuid: compendiumUuid("class-features", impacts[i]._id!) }], impacts[i].name),
+);
