@@ -8,7 +8,9 @@ Spec (units are grid squares, 1 square = 5 ft):
            rect: x,y,w,h   ellipse: cx,cy,rx,ry   poly: pts [[x,y],...]
   walls:   [{pts: [[x,y],...], closed: bool, type: wall|window|invisible}]   extra wall lines
   doors:   [{a:[x,y], b:[x,y], secret: bool, kind: door|bars}]   a/b must be an edge of a region (add the vertices)
-  decals:  [{kind: stain|ring|hole, x,y,r}]                      painted on the floor, under props
+  decals:  [{kind: stain|ring|hole|seats, x,y,r,(a0,a1)}]
+  overlays:[{kind: glass, x,y,r, color:[r,g,b,a], struts, rings}]   seaprism glass roof tint
+  doors may add "seaprism": true for a blue-green gate/bars                      painted on the floor, under props
   props:   [{kind: pillar|statue|barrel|crate|brazier|rubble|circle|rect|bars, x,y,w,h,r,n}]
   lights:  [{x,y, dim, bright, color, flicker: bool}]
 """
@@ -120,7 +122,7 @@ def draw_prop(d, p, px):
         n = int(w / (.2 * px)) if w >= h else int(h / (.2 * px))
         for i in range(n + 1):
             a = (x + i * w / n, y, x + i * w / n, y + h) if w >= h else (x, y + i * h / n, x + w, y + i * h / n)
-            d.line(a, fill=(24, 24, 28), width=8); d.line(a, fill=(120, 124, 132), width=3)
+            d.line(a, fill=(24, 24, 28), width=8); d.line(a, fill=(150, 214, 222) if p.get("sea") else (120, 124, 132), width=3)
     elif k == "rect":
         d.rectangle([x, y, x + w, y + h], fill=(130, 96, 56), outline=INK, width=4)
     else:
@@ -134,6 +136,9 @@ def draw_decal(layer, dc, px):
         for _ in range(7): a, b, s = x + rnd.uniform(-r, r) * .6, y + rnd.uniform(-r, r) * .6, rnd.uniform(.25, .7) * r; d.ellipse([a - s, b - s, a + s, b + s], fill=(80, 22, 20, 90))
     elif k == "ring":
         d.ellipse([x - r, y - r, x + r, y + r], outline=(120, 92, 56, 150), width=14); d.ellipse([x - r + 14, y - r + 14, x + r - 14, y + r - 14], outline=(236, 210, 160, 90), width=4)
+    elif k == "seats":  # concentric arc benches: x,y centre, r radius, a0..a1 degrees clockwise from north
+        pts = [((dc["x"] + dc["r"] * math.sin(math.radians(a))) * px, (dc["y"] - dc["r"] * math.cos(math.radians(a))) * px) for a in [dc["a0"] + i * (dc["a1"] - dc["a0"]) / 40 for i in range(41)]]
+        d.line(pts, fill=(30, 20, 12, 200), width=20, joint="curve"); d.line(pts, fill=(112, 82, 50, 255), width=14, joint="curve"); d.line(pts, fill=(170, 130, 86, 200), width=3, joint="curve")
     elif k == "hole":
         for i in range(12): t = i / 11; rr = r * (1 - t * .8); d.ellipse([x - rr, y - rr, x + rr, y + rr], fill=(int(70 * (1 - t) + 6), int(52 * (1 - t) + 4), int(36 * (1 - t) + 6), 255))
 
@@ -193,12 +198,19 @@ def main(spec_path, out_dir):
                     "light": 20 if t == "wall" else 0, "sound": 20, "door": 0, "ds": 0} for a, b, t in lines]
     for dr in doors:
         (ax, ay), (bx, by) = dr["a"], dr["b"]; bars = dr.get("kind") == "bars"
-        if bars: draw_prop(d, {"kind": "bars", "x": min(ax, bx) - .05, "y": min(ay, by) - .05, "w": abs(bx - ax) + .1, "h": abs(by - ay) + .1}, px)
+        if bars: draw_prop(d, {"kind": "bars", "x": min(ax, bx) - .05, "y": min(ay, by) - .05, "w": abs(bx - ax) + .1, "h": abs(by - ay) + .1, "sea": dr.get("seaprism")}, px)
         else:
-            d.line(P([(ax, ay), (bx, by)]), fill=INK, width=24); col = INK if dr.get("secret") else (128, 86, 40)
+            d.line(P([(ax, ay), (bx, by)]), fill=INK, width=24); col = INK if dr.get("secret") else (96, 168, 178) if dr.get("seaprism") else (128, 86, 40)
             d.line(P([(ax, ay), (bx, by)]), fill=col, width=16); d.line(P([(ax, ay), (bx, by)]), fill=tuple(min(255, c + 40) for c in col), width=3)
         scene_walls.append({"c": [round(ax * px), round(ay * px), round(bx * px), round(by * px)], "move": 20, "sense": 0 if bars else 20, "light": 0 if bars else 20, "sound": 20,
                             "door": 0 if bars else (2 if dr.get("secret") else 1), "ds": 0})
+    for ov in spec.get("overlays", []):  # seaprism glass roof: tint + struts + rings
+        ol = Image.new("RGBA", (W, H), (0, 0, 0, 0)); od = ImageDraw.Draw(ol); x, y, r = ov["x"] * px, ov["y"] * px, ov["r"] * px
+        od.ellipse([x - r, y - r, x + r, y + r], fill=tuple(ov["color"]))
+        for i in range(ov.get("struts", 24)):
+            a = 2 * math.pi * i / ov.get("struts", 24); od.line([(x + r * .55 * math.sin(a), y - r * .55 * math.cos(a)), (x + r * math.sin(a), y - r * math.cos(a))], fill=(190, 240, 245, 70), width=4)
+        for rr in ov.get("rings", []): od.ellipse([x - rr * px, y - rr * px, x + rr * px, y + rr * px], outline=(190, 240, 245, 80), width=4)
+        img = Image.alpha_composite(img, ol)
     lights = []
     gl = Image.new("RGBA", (W, H), (0, 0, 0, 0)); gd = ImageDraw.Draw(gl)
     for l in spec.get("lights", []):
