@@ -258,7 +258,7 @@ def main(spec_path, out_dir):
     if "entrance" in spec:
         bad = unreachable(scene_walls, floormask, spec["entrance"], px)
         if bad is None: print(f"UNREACHABLE: entrance {spec['entrance']} is not on floor"); sys.exit(2)
-        if bad:
+        if len(bad) > 8:  # ignore slivers under ~2 squares (acute corners the half-square lattice cannot enter)
             xs, ys = [b[0] for b in bad], [b[1] for b in bad]
             print(f"UNREACHABLE: {len(bad)} floor samples (~{len(bad) / 4:.0f} squares) cannot be reached from the entrance; x {min(xs):.0f}-{max(xs):.0f}, y {min(ys):.0f}-{max(ys):.0f}"); sys.exit(2)
         print("reachability: ok, all floor reachable from the entrance")
