@@ -3,15 +3,15 @@
 Usage: python scripts/mapgen.py specs/arena.json <out-dir>
 
 Spec (units are grid squares, 1 square = 5 ft):
-  name, cols, rows, px (pixels per square, default 100), entrance [x,y] (floor point; enables the reachability check, see MAP-GUIDELINES.md)
+  name, cols, rows, px (pixels per square, default 100), sealed: true (skip the reachability check when exits are blocked on purpose), entrance [x,y] (floor point; enables the reachability check, see MAP-GUIDELINES.md)
   regions: [{shape: rect|ellipse|poly, ...coords, floor: stone|wood|dirt|sand|water|metal, wall: bool}]
            rect: x,y,w,h   ellipse: cx,cy,rx,ry   poly: pts [[x,y],...]
   walls:   [{pts: [[x,y],...], closed: bool, type: wall|window|invisible}]   extra wall lines
   doors:   [{a:[x,y], b:[x,y], secret: bool, kind: door|bars}]   a/b must be an edge of a region (add the vertices)
-  decals:  [{kind: stain|ring|hole|seats|stairs|ghost|label, x,y,r,(a0,a1)|w,h,dir|pts|text,size}]
+  decals:  [{kind: stain|ring|hole|seats|stairs|ghost|label|shards, x,y,r,(a0,a1)|w,h,dir|pts|text,size}]
   overlays:[{kind: glass, x,y,r, color:[r,g,b,a], struts, rings}]   seaprism glass roof tint
   doors may add "seaprism": true for a blue-green gate/bars; kind low = parapet (blocks movement, not sight), kind open = no wall between two spaces                      painted on the floor, under props
-  props:   [{kind: pillar|statue|barrel|crate|brazier|rubble|circle|rect|bars, x,y,w,h,r,n}]
+  props:   [{kind: pillar|statue|barrel|crate|brazier|rubble|boulder|circle|rect|bars, x,y,w,h,r,n | pts}]   boulder: pair with a closed walls entry of type "block" to make cover
   lights:  [{x,y, dim, bright, color, flicker: bool}]
 """
 import json, math, random, sys
@@ -91,6 +91,7 @@ def silhouette(d, p, px):  # white shape for the cast shadow
     elif k == "rubble":
         rnd = random.Random(int(x * 7 + y))
         for _ in range(int(p.get("n", 9))): a, b, s = x + rnd.uniform(-r, r), y + rnd.uniform(-r, r), rnd.uniform(.12, .32) * px; d.ellipse([a - s, b - s, a + s, b + s], fill=255)
+    elif k == "boulder": d.polygon([(a * px, b * px) for a, b in p["pts"]], fill=255)
     elif k != "bars": d.ellipse([x - r, y - r, x + r, y + r], fill=255)
 
 
@@ -118,6 +119,11 @@ def draw_prop(d, p, px):
             a, b, s = x + rnd.uniform(-r, r), y + rnd.uniform(-r, r), rnd.uniform(.1, .3) * px; g = rnd.randint(86, 132)
             pts = [(a + s * math.cos(t) * rnd.uniform(.6, 1.1), b + s * math.sin(t) * rnd.uniform(.6, 1.1)) for t in [i * 2 * math.pi / 6 + rnd.uniform(-.3, .3) for i in range(6)]]
             d.polygon(pts, fill=(g, g - 4, g - 8), outline=(30, 28, 28)); d.line([pts[0], pts[1], pts[2]], fill=(min(255, g + 50),) * 3, width=2)
+    elif k == "boulder":  # irregular solid chunk: pts in squares; the same polygon goes in "walls" with type block so it also blocks sight
+        pts = [(a * px, b * px) for a, b in p["pts"]]; cx, cy = sum(a for a, _ in pts) / len(pts), sum(b for _, b in pts) / len(pts)
+        d.polygon(pts, fill=(88, 84, 80), outline=INK); d.line(pts + [pts[0]], fill=INK, width=6, joint="curve")
+        d.polygon([(cx + (a - cx) * .72 - 5, cy + (b - cy) * .72 - 6) for a, b in pts], fill=(118, 114, 108)); d.polygon([(cx + (a - cx) * .4 - 8, cy + (b - cy) * .4 - 9) for a, b in pts], fill=(136, 132, 126))
+        d.line([pts[0], pts[1], pts[2]], fill=(168, 164, 158), width=3)
     elif k == "bars":
         n = int(w / (.2 * px)) if w >= h else int(h / (.2 * px))
         for i in range(n + 1):
@@ -152,6 +158,11 @@ def draw_decal(layer, dc, px):
             L = math.hypot(b[0] - a[0], b[1] - a[1]); n = max(1, int(L / 30))
             for i in range(n):
                 t0, t1 = i / n, (i + .55) / n; d.line([(a[0] + (b[0] - a[0]) * t0, a[1] + (b[1] - a[1]) * t0), (a[0] + (b[0] - a[0]) * t1, a[1] + (b[1] - a[1]) * t1)], fill=(235, 240, 255, 230), width=4)
+    elif k == "shards":  # broken seaprism glass: x,y centre, r spread, n pieces
+        rnd = random.Random(int(x + y * 3))
+        for _ in range(dc.get("n", 30)):
+            a, b, s = x + rnd.uniform(-r, r), y + rnd.uniform(-r, r), rnd.uniform(.12, .4) * px; t = rnd.uniform(0, 6.28)
+            d.polygon([(a + s * math.cos(t + k2), b + s * math.sin(t + k2)) for k2 in (0, 2.3, 4.1)], fill=(160, 228, 236, 110), outline=(226, 250, 252, 200))
     elif k == "label":
         d.text((x, y), dc["text"], fill=(255, 255, 255, 255), font=ImageFont.load_default(size=dc.get("size", 30)), anchor="mm", stroke_width=3, stroke_fill=(0, 0, 0, 255))
     elif k == "hole":
@@ -246,8 +257,8 @@ def main(spec_path, out_dir):
     img = Image.composite(Image.new("RGBA", (W, H), (0, 0, 0, 255)), img, ImageChops.offset(pm, 9, 12).filter(ImageFilter.GaussianBlur(px * .08)).point(lambda v: int(v * .6)))
     d = ImageDraw.Draw(img)
     for p in spec.get("props", []): draw_prop(d, p, px)
-    scene_walls = [{"c": [round(a[0] * px), round(a[1] * px), round(b[0] * px), round(b[1] * px)], "move": 0 if t == "invisible" else 20, "sense": 20 if t == "wall" else 0,
-                    "light": 20 if t == "wall" else 0, "sound": 20, "door": 0, "ds": 0} for a, b, t in lines]
+    scene_walls = [{"c": [round(a[0] * px), round(a[1] * px), round(b[0] * px), round(b[1] * px)], "move": 0 if t == "invisible" else 20, "sense": 20 if t in ("wall", "block") else 0,
+                    "light": 20 if t in ("wall", "block") else 0, "sound": 20, "door": 0, "ds": 0} for a, b, t in lines]
     for dr in doors:
         (ax, ay), (bx, by) = dr["a"], dr["b"]; kind = dr.get("kind", "door"); bars = kind == "bars"
         if kind == "open": continue  # shared edge between two spaces that are really one: no wall, no door
@@ -280,7 +291,9 @@ def main(spec_path, out_dir):
     img.save(out / f"{slug}.png")
     (out / f"{slug}.scene.json").write_text(json.dumps({"name": spec["name"], "width": W, "height": H, "grid": {"size": px, "distance": 5, "units": "ft"}, "walls": scene_walls, "lights": lights}, indent=1))
     print(f"{slug}: {W}x{H}px, {len(scene_walls)} walls, {len(lights)} lights -> {out}")
-    if "entrance" in spec:
+    if spec.get("sealed"):
+        print("reachability: skipped, spec is sealed by design (exits blocked)")
+    elif "entrance" in spec:
         bad = unreachable(scene_walls, floormask, spec["entrance"], px)
         if bad is None: print(f"UNREACHABLE: entrance {spec['entrance']} is not on floor"); sys.exit(2)
         if bad:
