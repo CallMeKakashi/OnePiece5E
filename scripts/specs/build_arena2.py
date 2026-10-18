@@ -43,18 +43,23 @@ doors += [door(25.5, 172.5, 25.5, 180), door(25.5, 180, 25.5, 187.5), {"a": [28.
 decals = []
 for lo, hi in ((65, 168), (192, 295), (305, 333), (387, 415)):
     for r in (14.4, 15.6, 16.8, 20.2, 21.2): decals.append({"kind": "seats", "x": C[0], "y": C[1], "r": r, "a0": lo, "a1": hi})
-decals += [{"kind": "ring", "x": C[0], "y": C[1], "r": 8}, {"kind": "stain", "x": 26, "y": 27, "r": 1.6}, {"kind": "stain", "x": 34, "y": 32, "r": 1.2}, {"kind": "hole", "x": 30, "y": 36, "r": 1.9}]
+decals += [{"kind": "ring", "x": C[0], "y": C[1], "r": 8}, {"kind": "stain", "x": 26, "y": 27, "r": 1.6}, {"kind": "stain", "x": 34, "y": 32, "r": 1.2}]
 decals += [{"kind": "stairs", "x": 43.1, "y": 27.5, "w": 1.8, "h": 3, "dir": "x"}, {"kind": "stairs", "x": 15.1, "y": 27.5, "w": 1.8, "h": 3, "dir": "x"},
            {"kind": "label", "x": 48, "y": 29, "text": "To holding", "size": int(26 * 2.4)}, {"kind": "label", "x": 12, "y": 29, "text": "To holding", "size": int(26 * 2.4)},
            {"kind": "label", "x": 30, "y": 58, "text": "ENTRANCE", "size": int(34 * 2.4)}, {"kind": "label", "x": 30, "y": 46, "text": "Main tunnel", "size": int(22 * 2.4)},
            {"kind": "ghost", "pts": arc(14.4, -15, 15) + arc(19, 15, -15), "label": ""}, {"kind": "label", "x": P(15.8, 0)[0], "y": P(15.8, 0)[1], "text": "Crawlspace (above)", "size": int(22 * 2.4)},
            {"kind": "label", "x": P(21, 0)[0], "y": P(21, 0)[1] + 0.2, "text": "VIP private", "size": int(18 * 2.4)}]
-props = [{"kind": "statue", "x": P(17, 0)[0], "y": P(17, 0)[1] + 1.3, "r": 0.9}, {"kind": "brazier", "x": P(15, -12)[0], "y": P(15, -12)[1], "r": 0.45}, {"kind": "brazier", "x": P(15, 12)[0], "y": P(15, 12)[1], "r": 0.45},
-         {"kind": "rubble", "x": 30, "y": 36, "r": 2.4, "n": 18}]
+props = [{"kind": "statue", "x": P(17, 0)[0], "y": P(17, 0)[1] + 1.3, "r": 0.9}, {"kind": "brazier", "x": P(15, -12)[0], "y": P(15, -12)[1], "r": 0.45}, {"kind": "brazier", "x": P(15, 12)[0], "y": P(15, 12)[1], "r": 0.45}]
 lights = [{"x": P(21.4, a)[0], "y": P(21.4, a)[1], "dim": 30, "bright": 12, "flicker": True} for a in range(30, 360, 60)]
 lights += [{"x": P(15, -12)[0], "y": P(15, -12)[1], "dim": 18, "bright": 8, "flicker": True}, {"x": P(15, 12)[0], "y": P(15, 12)[1], "dim": 18, "bright": 8, "flicker": True},
            {"x": 30, "y": 58, "dim": 25, "bright": 10, "color": "#ffd080"}, {"x": 30, "y": 29, "dim": 60, "bright": 30, "color": "#cfeaf0"}]
-spec = {"name": "Crowe's Arena (Seaprism)", "cols": 60, "rows": 62, "px": 70, "entrance": [30, 58], "regions": reg, "doors": doors, "decals": decals, "props": props, "lights": lights,
+base = {"cols": 60, "rows": 62, "px": 70, "entrance": [30, 58], "regions": reg, "doors": doors, "lights": lights,
         "overlays": [{"kind": "glass", "x": C[0], "y": C[1], "r": 22, "color": [120, 205, 210, 34], "struts": 24, "rings": [13, 17.5, 22]}]}
-Path(__file__).with_name("crowe-arena.json").write_text(json.dumps(spec))
-print(len(reg), "regions", len(doors), "doors")
+HOLE = (30, 35, 5.2)  # Kanto's breakout: radius 5.2 squares (~52 ft across) for a Gargantuan dragon
+after_props = [{"kind": "rubble", "x": HOLE[0], "y": HOLE[1], "r": HOLE[2] + 2, "n": 60}, {"kind": "rubble", "x": 21, "y": 24, "r": 2, "n": 14}, {"kind": "rubble", "x": 39, "y": 27, "r": 2, "n": 14},
+               {"kind": "rubble", "x": 24, "y": 40, "r": 1.6, "n": 10}, {"kind": "rubble", "x": 18.5, "y": 18, "r": 1.6, "n": 8}, {"kind": "rubble", "x": 41, "y": 36, "r": 1.6, "n": 8}]
+variants = {"Before": (decals, props), "After": (decals + [{"kind": "hole", "x": HOLE[0], "y": HOLE[1], "r": HOLE[2]}], props + after_props)}
+for tag, (dc, pr) in variants.items():
+    spec = {"name": f"Crowe's Arena (Seaprism) - {tag}", **base, "decals": dc, "props": pr}
+    Path(__file__).with_name(f"crowe-arena-{tag.lower()}.json").write_text(json.dumps(spec))
+print(len(reg), "regions", len(doors), "doors; wrote before and after")
