@@ -8,15 +8,15 @@ Spec (units are grid squares, 1 square = 5 ft):
            rect: x,y,w,h   ellipse: cx,cy,rx,ry   poly: pts [[x,y],...]
   walls:   [{pts: [[x,y],...], closed: bool, type: wall|window|invisible}]   extra wall lines
   doors:   [{a:[x,y], b:[x,y], secret: bool, kind: door|bars}]   a/b must be an edge of a region (add the vertices)
-  decals:  [{kind: stain|ring|hole|seats, x,y,r,(a0,a1)}]
+  decals:  [{kind: stain|ring|hole|seats|stairs|ghost|label, x,y,r,(a0,a1)|w,h,dir|pts|text,size}]
   overlays:[{kind: glass, x,y,r, color:[r,g,b,a], struts, rings}]   seaprism glass roof tint
-  doors may add "seaprism": true for a blue-green gate/bars                      painted on the floor, under props
+  doors may add "seaprism": true for a blue-green gate/bars; kind low = parapet (blocks movement, not sight), kind open = no wall between two spaces                      painted on the floor, under props
   props:   [{kind: pillar|statue|barrel|crate|brazier|rubble|circle|rect|bars, x,y,w,h,r,n}]
   lights:  [{x,y, dim, bright, color, flicker: bool}]
 """
 import json, math, random, sys
 from pathlib import Path
-from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageOps
+from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 FLOORS = {"stone": (104, 98, 92), "wood": (118, 82, 50), "dirt": (112, 86, 60), "sand": (200, 172, 122), "water": (46, 92, 124), "metal": (88, 96, 104)}
 INK = (14, 12, 14)
@@ -130,7 +130,7 @@ def draw_prop(d, p, px):
 
 
 def draw_decal(layer, dc, px):
-    d = ImageDraw.Draw(layer); x, y, r = dc["x"] * px, dc["y"] * px, dc.get("r", 1) * px; k = dc["kind"]
+    d = ImageDraw.Draw(layer); x, y, r = dc.get("x", 0) * px, dc.get("y", 0) * px, dc.get("r", 1) * px; k = dc["kind"]
     if k == "stain":
         rnd = random.Random(int(x + y))
         for _ in range(7): a, b, s = x + rnd.uniform(-r, r) * .6, y + rnd.uniform(-r, r) * .6, rnd.uniform(.25, .7) * r; d.ellipse([a - s, b - s, a + s, b + s], fill=(80, 22, 20, 90))
@@ -139,6 +139,21 @@ def draw_decal(layer, dc, px):
     elif k == "seats":  # concentric arc benches: x,y centre, r radius, a0..a1 degrees clockwise from north
         pts = [((dc["x"] + dc["r"] * math.sin(math.radians(a))) * px, (dc["y"] - dc["r"] * math.cos(math.radians(a))) * px) for a in [dc["a0"] + i * (dc["a1"] - dc["a0"]) / 40 for i in range(41)]]
         d.line(pts, fill=(30, 20, 12, 200), width=20, joint="curve"); d.line(pts, fill=(112, 82, 50, 255), width=14, joint="curve"); d.line(pts, fill=(170, 130, 86, 200), width=3, joint="curve")
+    elif k == "stairs":  # x,y,w,h in squares; dir "x" = steps are vertical lines (travel east-west), "y" = horizontal lines
+        x0, y0, x1, y1 = dc["x"] * px, dc["y"] * px, (dc["x"] + dc["w"]) * px, (dc["y"] + dc["h"]) * px
+        d.rectangle([x0, y0, x1, y1], fill=(92, 88, 84, 255), outline=(20, 18, 18, 255), width=4)
+        n = int(((x1 - x0) if dc.get("dir", "x") == "x" else (y1 - y0)) / (.3 * px))
+        for i in range(1, n):
+            t = i / n; a = (x0 + (x1 - x0) * t, y0, x0 + (x1 - x0) * t, y1) if dc.get("dir", "x") == "x" else (x0, y0 + (y1 - y0) * t, x1, y0 + (y1 - y0) * t)
+            d.line(a, fill=(30, 28, 28, 255), width=3); d.line([a[0] + 3, a[1] + 3, a[2] + 3, a[3] + 3], fill=(150, 146, 140, 200), width=2)
+    elif k == "ghost":  # another level (crawlspace above): dashed outline, faint fill, label
+        pts = [(x * px, y * px) for x, y in dc["pts"]]; d.polygon(pts, fill=(255, 255, 255, 26))
+        for a, b in zip(pts, pts[1:] + pts[:1]):
+            L = math.hypot(b[0] - a[0], b[1] - a[1]); n = max(1, int(L / 30))
+            for i in range(n):
+                t0, t1 = i / n, (i + .55) / n; d.line([(a[0] + (b[0] - a[0]) * t0, a[1] + (b[1] - a[1]) * t0), (a[0] + (b[0] - a[0]) * t1, a[1] + (b[1] - a[1]) * t1)], fill=(235, 240, 255, 230), width=4)
+    elif k == "label":
+        d.text((x, y), dc["text"], fill=(255, 255, 255, 255), font=ImageFont.load_default(size=dc.get("size", 30)), anchor="mm", stroke_width=3, stroke_fill=(0, 0, 0, 255))
     elif k == "hole":
         for i in range(12): t = i / 11; rr = r * (1 - t * .8); d.ellipse([x - rr, y - rr, x + rr, y + rr], fill=(int(70 * (1 - t) + 6), int(52 * (1 - t) + 4), int(36 * (1 - t) + 6), 255))
 
@@ -169,7 +184,15 @@ def unreachable(walls, floormask, start, px):
         c = todo.pop()
         for n in ((c[0] + 1, c[1]), (c[0] - 1, c[1]), (c[0], c[1] + 1), (c[0], c[1] - 1)):
             if n in floor and n not in seen and not blocked(c, n): seen.add(n); todo.append(n)
-    return sorted(((i * st + st // 2) / px, (j * st + st // 2) / px) for i, j in floor - seen)
+    left, keep = floor - seen, []
+    while left:  # keep only connected clumps of 6+ samples; lone cells beside a curved wall are lattice noise
+        grp, todo = [], [left.pop()]
+        while todo:
+            c = todo.pop(); grp.append(c)
+            for n in [(c[0] + dx, c[1] + dy) for dx in (-1, 0, 1) for dy in (-1, 0, 1)]:
+                if n in left: left.discard(n); todo.append(n)
+        if len(grp) >= 6: keep += grp
+    return sorted(((i * st + st // 2) / px, (j * st + st // 2) / px) for i, j in keep)
 
 
 def main(spec_path, out_dir):
@@ -226,13 +249,15 @@ def main(spec_path, out_dir):
     scene_walls = [{"c": [round(a[0] * px), round(a[1] * px), round(b[0] * px), round(b[1] * px)], "move": 0 if t == "invisible" else 20, "sense": 20 if t == "wall" else 0,
                     "light": 20 if t == "wall" else 0, "sound": 20, "door": 0, "ds": 0} for a, b, t in lines]
     for dr in doors:
-        (ax, ay), (bx, by) = dr["a"], dr["b"]; bars = dr.get("kind") == "bars"
-        if bars: draw_prop(d, {"kind": "bars", "x": min(ax, bx) - .05, "y": min(ay, by) - .05, "w": abs(bx - ax) + .1, "h": abs(by - ay) + .1, "sea": dr.get("seaprism")}, px)
+        (ax, ay), (bx, by) = dr["a"], dr["b"]; kind = dr.get("kind", "door"); bars = kind == "bars"
+        if kind == "open": continue  # shared edge between two spaces that are really one: no wall, no door
+        if kind == "low": d.line(P([(ax, ay), (bx, by)]), fill=INK, width=18); d.line(P([(ax, ay), (bx, by)]), fill=(112, 108, 102), width=11)  # parapet: blocks movement, not sight
+        elif bars: draw_prop(d, {"kind": "bars", "x": min(ax, bx) - .05, "y": min(ay, by) - .05, "w": abs(bx - ax) + .1, "h": abs(by - ay) + .1, "sea": dr.get("seaprism")}, px)
         else:
             d.line(P([(ax, ay), (bx, by)]), fill=INK, width=24); col = INK if dr.get("secret") else (96, 168, 178) if dr.get("seaprism") else (128, 86, 40)
             d.line(P([(ax, ay), (bx, by)]), fill=col, width=16); d.line(P([(ax, ay), (bx, by)]), fill=tuple(min(255, c + 40) for c in col), width=3)
-        scene_walls.append({"c": [round(ax * px), round(ay * px), round(bx * px), round(by * px)], "move": 20, "sense": 0 if bars else 20, "light": 0 if bars else 20, "sound": 20,
-                            "door": 0 if bars else (2 if dr.get("secret") else 1), "ds": 0})
+        scene_walls.append({"c": [round(ax * px), round(ay * px), round(bx * px), round(by * px)], "move": 20, "sense": 0 if bars or kind == "low" else 20, "light": 0 if bars or kind == "low" else 20, "sound": 20,
+                            "door": 0 if bars or kind == "low" else (2 if dr.get("secret") else 1), "ds": 0})
     for ov in spec.get("overlays", []):  # seaprism glass roof: tint + struts + rings
         ol = Image.new("RGBA", (W, H), (0, 0, 0, 0)); od = ImageDraw.Draw(ol); x, y, r = ov["x"] * px, ov["y"] * px, ov["r"] * px
         od.ellipse([x - r, y - r, x + r, y + r], fill=tuple(ov["color"]))
@@ -258,9 +283,9 @@ def main(spec_path, out_dir):
     if "entrance" in spec:
         bad = unreachable(scene_walls, floormask, spec["entrance"], px)
         if bad is None: print(f"UNREACHABLE: entrance {spec['entrance']} is not on floor"); sys.exit(2)
-        if len(bad) > 8:  # ignore slivers under ~2 squares (acute corners the half-square lattice cannot enter)
+        if bad:
             xs, ys = [b[0] for b in bad], [b[1] for b in bad]
-            print(f"UNREACHABLE: {len(bad)} floor samples (~{len(bad) / 4:.0f} squares) cannot be reached from the entrance; x {min(xs):.0f}-{max(xs):.0f}, y {min(ys):.0f}-{max(ys):.0f}"); sys.exit(2)
+            print("  at (squares):", ", ".join(f"({x:.1f},{y:.1f})" for x, y in bad[:12])); print(f"UNREACHABLE: {len(bad)} floor samples (~{len(bad) / 4:.0f} squares) cannot be reached from the entrance; x {min(xs):.0f}-{max(xs):.0f}, y {min(ys):.0f}-{max(ys):.0f}"); sys.exit(2)
         print("reachability: ok, all floor reachable from the entrance")
     else: print("warning: no \"entrance\" in spec, reachability not checked")
 
