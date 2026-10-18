@@ -3,7 +3,7 @@
 Usage: python scripts/mapgen.py specs/arena.json <out-dir>
 
 Spec (units are grid squares, 1 square = 5 ft):
-  name, cols, rows, px (pixels per square, default 100)
+  name, cols, rows, px (pixels per square, default 100), entrance [x,y] (floor point; enables the reachability check, see MAP-GUIDELINES.md)
   regions: [{shape: rect|ellipse|poly, ...coords, floor: stone|wood|dirt|sand|water|metal, wall: bool}]
            rect: x,y,w,h   ellipse: cx,cy,rx,ry   poly: pts [[x,y],...]
   walls:   [{pts: [[x,y],...], closed: bool, type: wall|window|invisible}]   extra wall lines
@@ -143,6 +143,35 @@ def draw_decal(layer, dc, px):
         for i in range(12): t = i / 11; rr = r * (1 - t * .8); d.ellipse([x - rr, y - rr, x + rr, y + rr], fill=(int(70 * (1 - t) + 6), int(52 * (1 - t) + 4), int(36 * (1 - t) + 6), 255))
 
 
+def unreachable(walls, floormask, start, px):
+    """Flood-fill floor from `start` (squares) on a half-square lattice. Doors (door==1) are open; walls, bars and secret doors are closed. Returns unreachable sample points in squares."""
+    def hit(p, q, a, b):  # segment intersection, half-open (>= 0) so a line through a shared wall vertex is counted exactly once
+        o = lambda u, v, w: (v[0] - u[0]) * (w[1] - u[1]) - (v[1] - u[1]) * (w[0] - u[0])
+        return (o(a, b, p) >= 0) != (o(a, b, q) >= 0) and (o(p, q, a) >= 0) != (o(p, q, b) >= 0)
+    st = px // 2; W, H = floormask.size
+    closed = [w for w in walls if w["door"] != 1 and w["move"]]
+    idx = {}
+    for w in closed:
+        x1, y1, x2, y2 = w["c"]; n = max(1, int(math.hypot(x2 - x1, y2 - y1) / (st / 8)))
+        for i in range(n + 1): idx.setdefault((int((x1 + (x2 - x1) * i / n) // st), int((y1 + (y2 - y1) * i / n) // st)), set()).add(id(w))
+    byid = {id(w): w["c"] for w in closed}
+    floor = {(i, j) for i in range(W // st) for j in range(H // st) if floormask.getpixel((i * st + st // 2, j * st + st // 2))}
+    def blocked(a, b):
+        pa, pb = (a[0] * st + st // 2, a[1] * st + st // 2), (b[0] * st + st // 2, b[1] * st + st // 2)
+        for wid in idx.get(a, set()) | idx.get(b, set()) | idx.get((min(a[0], b[0]), min(a[1], b[1])), set()):
+            c = byid[wid]
+            if hit(pa, pb, (c[0], c[1]), (c[2], c[3])): return True
+        return False
+    s0 = (int(start[0] * px) // st, int(start[1] * px) // st)
+    if s0 not in floor: return None
+    seen, todo = {s0}, [s0]
+    while todo:
+        c = todo.pop()
+        for n in ((c[0] + 1, c[1]), (c[0] - 1, c[1]), (c[0], c[1] + 1), (c[0], c[1] - 1)):
+            if n in floor and n not in seen and not blocked(c, n): seen.add(n); todo.append(n)
+    return sorted(((i * st + st // 2) / px, (j * st + st // 2) / px) for i, j in floor - seen)
+
+
 def main(spec_path, out_dir):
     spec = json.loads(Path(spec_path).read_text(encoding="utf-8"))
     px, cols, rows = spec.get("px", 100), spec["cols"], spec["rows"]
@@ -226,6 +255,14 @@ def main(spec_path, out_dir):
     img.save(out / f"{slug}.png")
     (out / f"{slug}.scene.json").write_text(json.dumps({"name": spec["name"], "width": W, "height": H, "grid": {"size": px, "distance": 5, "units": "ft"}, "walls": scene_walls, "lights": lights}, indent=1))
     print(f"{slug}: {W}x{H}px, {len(scene_walls)} walls, {len(lights)} lights -> {out}")
+    if "entrance" in spec:
+        bad = unreachable(scene_walls, floormask, spec["entrance"], px)
+        if bad is None: print(f"UNREACHABLE: entrance {spec['entrance']} is not on floor"); sys.exit(2)
+        if bad:
+            xs, ys = [b[0] for b in bad], [b[1] for b in bad]
+            print(f"UNREACHABLE: {len(bad)} floor samples (~{len(bad) / 4:.0f} squares) cannot be reached from the entrance; x {min(xs):.0f}-{max(xs):.0f}, y {min(ys):.0f}-{max(ys):.0f}"); sys.exit(2)
+        print("reachability: ok, all floor reachable from the entrance")
+    else: print("warning: no \"entrance\" in spec, reachability not checked")
 
 
 if __name__ == "__main__":

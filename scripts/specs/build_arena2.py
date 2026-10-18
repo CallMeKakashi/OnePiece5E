@@ -32,7 +32,7 @@ props = [{"kind": "statue", "x": P(17, 0)[0], "y": P(17, 0)[1], "r": 0.9}, {"kin
 lights = [{"x": P(21.4, a)[0], "y": P(21.4, a)[1], "dim": 30, "bright": 12, "flicker": True} for a in range(30, 360, 60)]
 lights += [{"x": P(15, -12)[0], "y": P(15, -12)[1], "dim": 18, "bright": 8, "flicker": True}, {"x": P(15, 12)[0], "y": P(15, 12)[1], "dim": 18, "bright": 8, "flicker": True},
            {"x": 30, "y": 58, "dim": 25, "bright": 10, "color": "#ffd080"}, {"x": 30, "y": 29, "dim": 60, "bright": 30, "color": "#cfeaf0"}]
-spec = {"name": "Crowe's Arena (Seaprism)", "cols": 60, "rows": 62, "px": 70, "regions": reg, "doors": doors, "decals": decals, "props": props, "lights": lights,
+spec = {"name": "Crowe's Arena (Seaprism)", "cols": 60, "rows": 62, "px": 70, "entrance": [30, 58], "regions": reg, "doors": doors, "decals": decals, "props": props, "lights": lights,
         "overlays": [{"kind": "glass", "x": C[0], "y": C[1], "r": 22, "color": [120, 205, 210, 34], "struts": 24, "rings": [13, 17.5, 22]}]}
 Path(__file__).with_name("crowe-arena.json").write_text(json.dumps(spec))
 print(len(reg), "regions", len(doors), "doors")
