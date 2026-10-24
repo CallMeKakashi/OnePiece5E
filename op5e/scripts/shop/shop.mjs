@@ -8,6 +8,7 @@ import { ShopGMApp } from "./gm-panel.mjs";
 import { shopTypes, findType, templateStock, TEMPLATE_SETS, defaultSet, setOfType, isBlank } from "./templates.mjs";
 import { price, canAfford, pay, receive, wealthIn, currencyLabel, fmt, roundUp, roundDown, goldValue } from "./currency.mjs";
 import { registerItemTrade } from "./item-trade.mjs";
+import { randomShopName, randomOwner } from "./names-lib.mjs";
 import { cleanOffer, cleanPrice, tradeMessage, offerSummary } from "./item-trade-lib.mjs";
 
 const ID = MODULE_ID, SOCKET = `module.${ID}`;
@@ -48,6 +49,7 @@ export const initShop = () => {
   game.settings.register(ID, "singleCurrency", { name: "SHOPTRADE.SingleCurrency", scope: "world", config: true, type: String, default: "gp" });
   game.settings.register(ID, "sellRatio", { name: "SHOPTRADE.SellRatio", scope: "world", config: true, type: Number, default: 50 });
   game.settings.register(ID, "shopTemplateSet", { name: "SHOPTRADE.TemplateSet", hint: "SHOPTRADE.TemplateSetHint", scope: "world", config: true, type: String, default: "onepiece", choices: { onepiece: "One Piece (Berries, Shop Catalogues)", fantasy: "Fantasy (gold, stocked from a compendium)" } });
+  game.settings.register(ID, "usedShopNames", { scope: "world", config: false, type: Array, default: [] });   // every random shop and owner name handed out, so none repeats
   game.settings.register(ID, "shopCompendium", { name: "SHOPTRADE.Compendium", hint: "SHOPTRADE.CompendiumHint", scope: "world", config: true, type: String, default: "world.drathmir-compendium" });
 };
 
@@ -324,7 +326,7 @@ export const readyShop = () => {
     /** keeper: {actorId} for an existing actor (its portrait and name are shown, and its wealth pays for what it buys), or {name, img} for a generic shopkeeper. */
     async createShop(name, { markup = 0, merchantId = null, keeper = null, type = null } = {}) {
       gmOnly(); const s = shops(), id = foundry.utils.randomID(); const actor = keeper?.actorId ? game.actors.get(keeper.actorId) : null;
-      const k = actor ? { actorId: actor.id, name: actor.name, img: actor.img } : { actorId: null, name: keeper?.name || "Shopkeeper", img: keeper?.img || "icons/svg/mystery-man.svg" };
+      const k = actor ? { actorId: actor.id, name: actor.name, img: actor.img } : { actorId: null, name: keeper?.name || "Shopkeeper", species: keeper?.species || null, img: keeper?.img || "icons/svg/mystery-man.svg" };
       s[id] = { id, name, markup, merchantId: actor ? actor.id : merchantId, keeper: k, type, guides: [], visibleTo: [], openAll: false, items: [] }; await saveShops(s); if (type) await game.shopTrade.applyTemplate(id, type); return id;
     },
     /** The "start a shop" prompt: shop name and who runs it (an existing NPC or a generic shopkeeper). Returns the new shop id, or null if cancelled. */
@@ -336,19 +338,28 @@ export const readyShop = () => {
       const content = `<form style="display:grid;gap:8px">
         <label>Template set <select name="set">${Object.entries(TEMPLATE_SETS).map(([k, s]) => `<option value="${k}"${k === set0 ? " selected" : ""}>${s.label}</option>`).join("")}</select></label>
         <label>Shop type <select name="type">${typeOptions(set0)}</select></label>
-        <label>Shop name <input type="text" name="name" placeholder="Orange Town Armory" autofocus></label>
+        <label>Shop name <span style="display:flex;gap:4px"><input type="text" name="name" placeholder="Orange Town Armory" autofocus style="flex:1"><button type="button" data-roll="shop" title="Random shop name">&#127922;</button></span></label>
         <label>Who runs it <select name="actorId"><option value="">Generic shopkeeper (no actor)</option>${npcs.map((a) => `<option value="${a.id}">${a.name}</option>`).join("")}</select></label>
-        <label>Generic shopkeeper name <input type="text" name="keeperName" placeholder="Shopkeeper"></label>
+        <label>Generic shopkeeper name <span style="display:flex;gap:4px"><input type="text" name="keeperName" placeholder="Shopkeeper" style="flex:1"><button type="button" data-roll="owner" title="Random owner name and species">&#127922;</button></span></label>
+        <label>Shopkeeper species <input type="text" name="species" placeholder="Rolled with the owner name"></label>
         <label>Markup percent <input type="number" name="markup" value="0" step="5"></label></form>`;
       const d = await foundry.applications.api.DialogV2.prompt({ window: { title: "Start a shop" }, content, render: (ev, dlg) => {
         const root = dlg.element ?? ev.target.element, form = root.querySelector("form"), sync = () => { const t = findType(form.elements.type.value); form.elements.markup.value = t.markup; form.elements.keeperName.placeholder = t.keeper; };
         form.elements.set.addEventListener("change", () => { form.elements.type.innerHTML = typeOptions(form.elements.set.value); sync(); });
         form.elements.type.addEventListener("change", sync); sync();
+        // rolled names count as used at once, so two rolls in a row (or a re-roll) never give the same name
+        const rolled = new Set(), usedNow = () => [...game.settings.get(ID, "usedShopNames"), ...Object.values(shops()).flatMap((s) => [s.name, s.keeper?.name]).filter(Boolean), ...rolled];
+        form.querySelector("[data-roll=shop]").addEventListener("click", () => { const n = randomShopName(form.elements.type.value, usedNow()); rolled.add(n); form.elements.name.value = n; });
+        form.querySelector("[data-roll=owner]").addEventListener("click", () => { const o = randomOwner(usedNow()); rolled.add(o.name); form.elements.keeperName.value = o.name; form.elements.species.value = o.species; });
       }, ok: { label: "Create shop", callback: (ev, btn) => new foundry.applications.ux.FormDataExtended(btn.form).object } });
       if (!d) return null;
       if (!d.name?.trim()) { ui.notifications.warn("Give the shop a name."); return null; }
       const t = findType(d.type);
-      return game.shopTrade.createShop(d.name.trim(), { markup: Number(d.markup) || 0, type: isBlank(d.type) ? null : d.type, keeper: d.actorId ? { actorId: d.actorId } : { name: d.keeperName?.trim() || t.keeper } });
+      const keeperName = d.keeperName?.trim();
+      // remember the names so a later random roll never repeats them
+      const usedNames = game.settings.get(ID, "usedShopNames"), add = [d.name.trim(), keeperName].filter((n) => n && !usedNames.includes(n));
+      if (add.length) await game.settings.set(ID, "usedShopNames", [...usedNames, ...add]);
+      return game.shopTrade.createShop(d.name.trim(), { markup: Number(d.markup) || 0, type: isBlank(d.type) ? null : d.type, keeper: d.actorId ? { actorId: d.actorId } : { name: keeperName || t.keeper, species: d.species?.trim() } });
     },
     async addItem(shopId, uuidOrItem, { price: p = null, stock = null } = {}) {
       gmOnly(); const doc = typeof uuidOrItem === "string" ? await fromUuid(uuidOrItem) : uuidOrItem; if (!doc) fail("Item not found.");

@@ -34,7 +34,7 @@ const FANTASY_BASE = {
   },
   general: {
     label: "General store", keeper: "Storekeeper", markup: 0,
-    sources: [{ types: ["loot", "container"], rarity: MUNDANE, maxPrice: 100, stock: null }, { types: ["consumable"], subtypes: ["ammo"], rarity: MUNDANE, stock: null }],
+    sources: [{ types: ["loot"], subtypes: ["gear"], rarity: MUNDANE, maxPrice: 100, stock: null }, { types: ["container"], rarity: MUNDANE, maxPrice: 100, stock: null }, { types: ["consumable"], subtypes: ["ammo"], rarity: MUNDANE, stock: null }],   // gear only: gems and art objects belong to the jeweler
   },
   outfitter: {
     label: "Adventurers' outfitter", keeper: "Outfitter", markup: 5,
@@ -42,7 +42,7 @@ const FANTASY_BASE = {
   },
   inn: {
     label: "Inn and tavern", keeper: "Innkeeper", markup: 0,
-    sources: [{ types: ["consumable", "loot"], include: /\bale\b|ration|wine|bread|cheese|meal|lodging|brandy|mead|stew|cider|food|drink|spirits|feed/i, rarity: MUNDANE, maxPrice: 50, stock: null }],
+    sources: [{ types: ["consumable", "loot"], include: /\bale\b|ration|wine|\bmeat\b|bread|cheese|meal|lodging|brandy|mead|stew|cider|food|drink|spirits|feed/i, rarity: MUNDANE, maxPrice: 50, stock: null }],
   },
   apothecary: {
     label: "Apothecary", keeper: "Apothecary", markup: 10,
@@ -58,15 +58,15 @@ const FANTASY_BASE = {
   },
   stables: {
     label: "Stables and carriages", keeper: "Stablehand", markup: 0,
-    sources: [{ types: ["loot", "equipment", "container", "tool"], include: /saddle|bridle|harness|horse|pony|mule|camel|donkey|feed|barding|cart|wagon|carriage|sled|stabling|yoke|fodder/i, rarity: MUNDANE, maxPrice: 1000, stock: 2 }],
+    sources: [{ types: ["loot", "equipment", "container", "tool"], include: /saddle|bridle|harness|\bhorses?\b|\bpon(y|ies)\b|\bmules?\b|\bcamels?\b|\bdonkeys?\b|feed|barding|cart|wagon|carriage|sled|stabling|yoke|fodder/i, rarity: MUNDANE, maxPrice: 1000, stock: 2 }],
   },
   jeweler: {
     label: "Jeweler and gem dealer", keeper: "Jeweler", markup: 20,
-    sources: [{ types: ["loot", "equipment"], include: /gem|pearl|jewel|ring|amulet|brooch|necklace|circlet|opal|ruby|diamond|emerald|sapphire|agate|jasper|topaz|garnet|moonstone|onyx|jet|coral|quartz|amber|crystal|signet|jewelry|perfume/i, rarity: MUNDANE, maxPrice: 5000, stock: 3 }],
+    sources: [{ types: ["loot", "equipment"], include: /\bgems?\b|pearl|jewel|\brings?\b|amulet|brooch|necklace|circlet|\bopal|\bruby|diamond|emerald|sapphire|agate|jasper|topaz|garnet|moonstone|onyx|\bjet\b|coral|quartz|amber|crystal|signet|perfume/i, rarity: MUNDANE, maxPrice: 5000, stock: 3 }],
   },
   arcane: {
     label: "Arcane emporium", keeper: "Mage", markup: 25,
-    sources: [{ types: ["weapon", "equipment", "consumable", "tool", "loot"], rarity: ["uncommon", "rare"], allowUnpriced: true, stock: 1 }],   // many magic items carry no price: they show "price on request" until the GM sets one
+    sources: [{ types: ["equipment", "consumable"], rarity: ["uncommon", "rare"], maxPrice: 5000, stock: 1 }],   // priced items only: unpriced magic items would swamp the shop, add those by hand from the compendium
   },
 };
 
