@@ -66,7 +66,7 @@ const FANTASY_BASE = {
   },
   arcane: {
     label: "Arcane emporium", keeper: "Mage", markup: 25,
-    sources: [{ types: ["equipment", "consumable"], exclude: /adamantine|mithral|silvered/i, rarity: ["uncommon", "rare"], maxPrice: 5000, stock: 1 }],   // priced items only: unpriced magic items would swamp the shop, add those by hand from the compendium
+    sources: [{ types: ["equipment"], subtypes: ["ring", "wand", "rod", "wondrous", "clothing"], exclude: /\bgem\b/i, rarity: ["uncommon", "rare"], maxPrice: 5000, stock: 1 }, { types: ["consumable"], subtypes: ["potion", "scroll"], rarity: ["uncommon", "rare"], maxPrice: 5000, stock: 1 }],   // priced items only: unpriced magic items would swamp the shop, add those by hand from the compendium
   },
 };
 
