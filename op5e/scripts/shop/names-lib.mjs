@@ -35,7 +35,7 @@ const NOUNS = {
   arcane: ["Star", "Rune", "Owl", "Orb", "Sigil", "Moon", "Spellbook"],
   _: ["Lantern", "Anchor", "Crown", "Crow", "Door", "Wheel", "Key"],
 };
-const NOUN_KINDS = { blacksmith: "Smithy", general: "Goods", outfitter: "Outfitters", inn: "Inn", apothecary: "Apothecary", alchemist: "Alchemy", bookseller: "Books", stables: "Stables", jeweler: "Jewels", arcane: "Emporium", _: "Shop" };
+const NOUN_KINDS = { blacksmith: "Smithy", general: "Goods", outfitter: "Outfitters", inn: "Inn", apothecary: "Apothecary", alchemist: "Alchemy", bookseller: "Books", stables: "Stables", jeweler: "Jewels", arcane: "Emporium", _: "Wares" };
 
 const pick = (list, rng) => list[Math.min(list.length - 1, Math.floor(rng() * list.length))];
 const kindOf = (typeKey) => { const k = String(typeKey ?? "").replace(/^fantasy_/, ""); return NOUNS[k] ? k : "_"; };

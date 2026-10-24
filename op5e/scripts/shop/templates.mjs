@@ -38,7 +38,7 @@ const FANTASY_BASE = {
   },
   outfitter: {
     label: "Adventurers' outfitter", keeper: "Outfitter", markup: 5,
-    sources: [{ types: ["loot", "container", "tool", "equipment"], include: /pack|rope|torch|lantern|lamp|bedroll|tent|ration|crowbar|grappling|piton|hammer|waterskin|climber|healer's kit|backpack|oil|tinderbox|mess kit|blanket|chain|ladder|pole|shovel|sack|manacles|signal|whistle/i, rarity: MUNDANE, maxPrice: 100, stock: null }],
+    sources: [{ types: ["loot", "container", "tool", "equipment"], exclude: /mail|shirt|breastplate|plate/i, include: /pack|rope|torch|lantern|lamp|bedroll|tent|ration|crowbar|grappling|piton|hammer|waterskin|climber|healer's kit|backpack|oil|tinderbox|mess kit|blanket|chain|ladder|pole|shovel|sack|manacles|signal|whistle/i, rarity: MUNDANE, maxPrice: 100, stock: null }],
   },
   inn: {
     label: "Inn and tavern", keeper: "Innkeeper", markup: 0,
@@ -58,7 +58,7 @@ const FANTASY_BASE = {
   },
   stables: {
     label: "Stables and carriages", keeper: "Stablehand", markup: 0,
-    sources: [{ types: ["loot", "equipment", "container", "tool"], include: /saddle|bridle|harness|\bhorses?\b|\bpon(y|ies)\b|\bmules?\b|\bcamels?\b|\bdonkeys?\b|feed|barding|cart|wagon|carriage|sled|stabling|yoke|fodder/i, rarity: MUNDANE, maxPrice: 1000, stock: 2 }],
+    sources: [{ types: ["loot", "equipment", "container", "tool"], include: /saddle|bridle|harness|\bhorses?\b|\bpon(y|ies)\b|\bmules?\b|\bcamels?\b|\bdonkeys?\b|feed|barding|\bcarts?\b|wagon|carriage|sled|stabling|yoke|fodder/i, rarity: MUNDANE, maxPrice: 1000, stock: 2 }],
   },
   jeweler: {
     label: "Jeweler and gem dealer", keeper: "Jeweler", markup: 20,
@@ -66,7 +66,7 @@ const FANTASY_BASE = {
   },
   arcane: {
     label: "Arcane emporium", keeper: "Mage", markup: 25,
-    sources: [{ types: ["equipment", "consumable"], rarity: ["uncommon", "rare"], maxPrice: 5000, stock: 1 }],   // priced items only: unpriced magic items would swamp the shop, add those by hand from the compendium
+    sources: [{ types: ["equipment", "consumable"], exclude: /adamantine|mithral|silvered/i, rarity: ["uncommon", "rare"], maxPrice: 5000, stock: 1 }],   // priced items only: unpriced magic items would swamp the shop, add those by hand from the compendium
   },
 };
 
