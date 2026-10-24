@@ -1,4 +1,6 @@
 {
+  "op5e.settings.berriesCurrency.name": "Use Berries as the only currency",
+  "op5e.settings.berriesCurrency.hint": "On (the One Piece default): the single coin is shown as Berries and weighs nothing. Off: dnd5e's normal coins (cp, sp, ep, gp, pp) with normal coin weight, as in a standard fantasy game. Needs a reload.",
   "op5e.settings.berriesWeightless.name": "Weightless Berries",
   "op5e.settings.berriesWeightless.hint": "When enabled, Berries do not count toward encumbrance (even if the GM has currency weight enabled).",
   "op5e.settings.animationsAutorec.name": "Add OP5e animations to Automated Animations",

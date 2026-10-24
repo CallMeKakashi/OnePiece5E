@@ -46,8 +46,20 @@ function applyBerriesEncumbrance(weightless) {
   perWeight.metric = values.metric;
 }
 
+/** Berries are One Piece's only currency. A world that is not a One Piece game (for example Drathmir) turns this off and keeps dnd5e's normal coins. */
+const useBerries = () => { try { return game.settings.get(MODULE_ID, "berriesCurrency"); } catch { return true; } };
+
 Hooks.once("init", () => {
-  applyBerriesCurrency();
+  game.settings.register(MODULE_ID, "berriesCurrency", {
+    name: `${MODULE_ID}.settings.berriesCurrency.name`,
+    hint: `${MODULE_ID}.settings.berriesCurrency.hint`,
+    scope: "world",
+    config: true,
+    type: Boolean,
+    default: true,
+    requiresReload: true,
+  });
+  if (useBerries()) applyBerriesCurrency();
   initSkillsAndTools();
   registerOptionalRules();
   registerImportJournals();
@@ -78,10 +90,12 @@ Hooks.once("init", () => {
 
   registerOp5eAnimationsAutorec();
 
-  try {
-    applyBerriesEncumbrance(game.settings.get(MODULE_ID, "berriesWeightless"));
-  } catch {
-    applyBerriesEncumbrance(true);
+  if (useBerries()) {
+    try {
+      applyBerriesEncumbrance(game.settings.get(MODULE_ID, "berriesWeightless"));
+    } catch {
+      applyBerriesEncumbrance(true);
+    }
   }
 
   // Homebrew tools: register as dnd5e tool ids so "tool:dial" etc. are valid proficiency keys.
@@ -104,12 +118,12 @@ Hooks.once("setup", () => {
 
 Hooks.once("ready", async () => {
   readyShop();
-  applyBerriesEncumbrance(game.settings.get(MODULE_ID, "berriesWeightless"));
+  if (useBerries()) applyBerriesEncumbrance(game.settings.get(MODULE_ID, "berriesWeightless"));
   initOp5eAnimations();
 });
 
 Hooks.on("settingChange", (moduleId, key, value) => {
-  if (moduleId === MODULE_ID && key === "berriesWeightless") {
+  if (moduleId === MODULE_ID && key === "berriesWeightless" && useBerries()) {
     applyBerriesEncumbrance(value);
   }
 });
