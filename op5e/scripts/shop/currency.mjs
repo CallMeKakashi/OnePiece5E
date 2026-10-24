@@ -1,4 +1,5 @@
 import { MODULE_ID } from "../constants.mjs";
+import { toGold, ceilCents, floorCents } from "./templates-lib.mjs";
 // Currency helpers. "coins" mode uses CONFIG.DND5E.currencies (cp/sp/ep/gp/pp conversion ratios, with change making); "single" mode uses one coin only.
 const ID = MODULE_ID;
 // a world with one currency (for example op5e Berries) always behaves as single-currency
@@ -9,6 +10,11 @@ const unitsPerCoin = () => coinValues(CONFIG.DND5E.currencies);
 /** "Berries" in a Berries world, otherwise the coin name (the single currency, or Gold Pieces) */
 export const currencyLabel = () => { const k = mode() === "single" ? single() : "gp"; return game.i18n.localize(CONFIG.DND5E.currencies[k]?.label ?? k); };
 export const fmt = (n) => Number(n).toLocaleString();
+/** Round a charge up / down to the smallest coin: whole units in a one-coin world (as always), a copper piece in a coins world so 1 sp does not cost 1 gp. */
+export const roundUp = (n) => mode() === "single" ? Math.ceil(n) : ceilCents(n);
+export const roundDown = (n) => mode() === "single" ? Math.floor(n) : floorCents(n);
+/** An item's price ({value, denomination}) in the shop's unit: its plain value in a one-coin world, gold pieces in a coins world. */
+export const goldValue = (p) => mode() === "single" ? Number(p?.value ?? 0) : toGold(p);
 /** price of a shop entry (in gp, or the single coin) with the shop's markup percent applied */
 export const price = (entry, shop) => Math.round((entry.price ?? 0) * (100 + (shop.markup ?? 0))) / 100;   // integer maths first: 800000 * 1.1 must not become 880000.0000000001
 const totalSmall = (actor) => { const u = unitsPerCoin(), c = actor.system.currency; return Object.entries(u).reduce((n, [k, v]) => n + (c[k] ?? 0) * v, 0); };

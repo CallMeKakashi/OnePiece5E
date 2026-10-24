@@ -5,8 +5,8 @@ import { MODULE_ID } from "../constants.mjs";
 // API: game.shopTrade.{createShop, addItem, show, hide, openGM, open, sendRequest, decide, buy, sell, trade, exportShop, importShop, list}.
 import { ShopApp, openTradeDialog } from "./shop-app.mjs";
 import { ShopGMApp } from "./gm-panel.mjs";
-import { SHOP_TYPES, templateStock } from "./templates.mjs";
-import { price, canAfford, pay, receive, wealthIn, currencyLabel, fmt } from "./currency.mjs";
+import { shopTypes, findType, templateStock, TEMPLATE_SETS, defaultSet, setOfType, isBlank } from "./templates.mjs";
+import { price, canAfford, pay, receive, wealthIn, currencyLabel, fmt, roundUp, roundDown, goldValue } from "./currency.mjs";
 import { registerItemTrade } from "./item-trade.mjs";
 import { cleanOffer, cleanPrice, tradeMessage, offerSummary } from "./item-trade-lib.mjs";
 
@@ -47,12 +47,14 @@ export const initShop = () => {
   game.settings.register(ID, "currencyMode", { name: "SHOPTRADE.CurrencyMode", hint: "SHOPTRADE.CurrencyModeHint", scope: "world", config: true, type: String, default: "coins", choices: { coins: "Coins (dnd5e)", single: "Single currency" } });
   game.settings.register(ID, "singleCurrency", { name: "SHOPTRADE.SingleCurrency", scope: "world", config: true, type: String, default: "gp" });
   game.settings.register(ID, "sellRatio", { name: "SHOPTRADE.SellRatio", scope: "world", config: true, type: Number, default: 50 });
+  game.settings.register(ID, "shopTemplateSet", { name: "SHOPTRADE.TemplateSet", hint: "SHOPTRADE.TemplateSetHint", scope: "world", config: true, type: String, default: "onepiece", choices: { onepiece: "One Piece (Berries, Shop Catalogues)", fantasy: "Fantasy (gold, stocked from a compendium)" } });
+  game.settings.register(ID, "shopCompendium", { name: "SHOPTRADE.Compendium", hint: "SHOPTRADE.CompendiumHint", scope: "world", config: true, type: String, default: "world.drathmir-compendium" });
 };
 
 const owns = (userId, actor) => { const u = game.users.get(userId); return !!actor && !!u && (u.isGM || actor.testUserPermission(u, "OWNER")); };
 export const visibleTo = (shop, user) => user.isGM || shop.openAll || (shop.visibleTo ?? []).includes(user.id);
-const shopTotal = (shop, entry, qty) => Math.ceil(price(entry, shop) * qty);
-const sellOffer = (item, qty) => Math.floor(Number(item.system.price?.value ?? 0) * qty * (game.settings.get(ID, "sellRatio") / 100));
+const shopTotal = (shop, entry, qty) => roundUp(price(entry, shop) * qty);
+const sellOffer = (item, qty) => roundDown(goldValue(item.system.price) * qty * (game.settings.get(ID, "sellRatio") / 100));
 const receipt = (actor, text) => ChatMessage.create({ speaker: ChatMessage.getSpeaker({ actor }), content: `<p>${text}</p>` });
 
 /** Split an agreed amount across lines in proportion to their list amounts; the parts always add up to the amount. */
@@ -329,24 +331,28 @@ export const readyShop = () => {
     async startShopPrompt() {
       gmOnly();
       const npcs = game.actors.filter((a) => a.type === "npc").sort((a, b) => a.name.localeCompare(b.name));
+      // the template set filter keeps One Piece and Fantasy shops apart, so the wrong kind cannot be picked by accident
+      const set0 = defaultSet(), typeOptions = (set) => Object.entries(TEMPLATE_SETS[set].types).map(([k, t]) => `<option value="${k}">${t.label}</option>`).join("");
       const content = `<form style="display:grid;gap:8px">
-        <label>Shop type <select name="type">${Object.entries(SHOP_TYPES).map(([k, t]) => `<option value="${k}">${t.label}</option>`).join("")}</select></label>
+        <label>Template set <select name="set">${Object.entries(TEMPLATE_SETS).map(([k, s]) => `<option value="${k}"${k === set0 ? " selected" : ""}>${s.label}</option>`).join("")}</select></label>
+        <label>Shop type <select name="type">${typeOptions(set0)}</select></label>
         <label>Shop name <input type="text" name="name" placeholder="Orange Town Armory" autofocus></label>
         <label>Who runs it <select name="actorId"><option value="">Generic shopkeeper (no actor)</option>${npcs.map((a) => `<option value="${a.id}">${a.name}</option>`).join("")}</select></label>
         <label>Generic shopkeeper name <input type="text" name="keeperName" placeholder="Shopkeeper"></label>
         <label>Markup percent <input type="number" name="markup" value="0" step="5"></label></form>`;
       const d = await foundry.applications.api.DialogV2.prompt({ window: { title: "Start a shop" }, content, render: (ev, dlg) => {
-        const root = dlg.element ?? ev.target.element, form = root.querySelector("form"), sync = () => { const t = SHOP_TYPES[form.elements.type.value]; form.elements.markup.value = t.markup; form.elements.keeperName.placeholder = t.keeper; };
+        const root = dlg.element ?? ev.target.element, form = root.querySelector("form"), sync = () => { const t = findType(form.elements.type.value); form.elements.markup.value = t.markup; form.elements.keeperName.placeholder = t.keeper; };
+        form.elements.set.addEventListener("change", () => { form.elements.type.innerHTML = typeOptions(form.elements.set.value); sync(); });
         form.elements.type.addEventListener("change", sync); sync();
       }, ok: { label: "Create shop", callback: (ev, btn) => new foundry.applications.ux.FormDataExtended(btn.form).object } });
       if (!d) return null;
       if (!d.name?.trim()) { ui.notifications.warn("Give the shop a name."); return null; }
-      const t = SHOP_TYPES[d.type] ?? SHOP_TYPES.blank;
-      return game.shopTrade.createShop(d.name.trim(), { markup: Number(d.markup) || 0, type: d.type === "blank" ? null : d.type, keeper: d.actorId ? { actorId: d.actorId } : { name: d.keeperName?.trim() || t.keeper } });
+      const t = findType(d.type);
+      return game.shopTrade.createShop(d.name.trim(), { markup: Number(d.markup) || 0, type: isBlank(d.type) ? null : d.type, keeper: d.actorId ? { actorId: d.actorId } : { name: d.keeperName?.trim() || t.keeper } });
     },
     async addItem(shopId, uuidOrItem, { price: p = null, stock = null } = {}) {
       gmOnly(); const doc = typeof uuidOrItem === "string" ? await fromUuid(uuidOrItem) : uuidOrItem; if (!doc) fail("Item not found.");
-      const s = shops(), shop = s[shopId] ?? fail("No such shop."); shop.items.push({ key: foundry.utils.randomID(), uuid: doc.uuid, name: doc.name, img: doc.img, type: doc.type, price: p ?? Number(doc.system?.price?.value ?? 0), stock }); await saveShops(s);
+      const s = shops(), shop = s[shopId] ?? fail("No such shop."); shop.items.push({ key: foundry.utils.randomID(), uuid: doc.uuid, name: doc.name, img: doc.img, type: doc.type, price: p ?? goldValue(doc.system?.price), stock }); await saveShops(s);
     },
     async updateItem(shopId, key, changes) { gmOnly(); const s = shops(), e = s[shopId]?.items.find((i) => i.key === key); if (!e) fail("No such item."); Object.assign(e, changes); await saveShops(s); },
     async removeItem(shopId, key) { gmOnly(); const s = shops(); s[shopId].items = s[shopId].items.filter((i) => i.key !== key); await saveShops(s); },
@@ -378,7 +384,8 @@ export const readyShop = () => {
       let n = 0; for (const e of shop.items) if (start.has(e.uuid)) { e.stock = start.get(e.uuid); n++; }
       await saveShops(s); return n;
     },
-    types: SHOP_TYPES,
+    get types() { return shopTypes(); },          // this world's default set (the "shopTemplateSet" setting)
+    typeSets: TEMPLATE_SETS, findType, setOfType,   // both sets, a type by key from either set, and which set a saved type belongs to
     allocate,
     async deleteShop(shopId) { gmOnly(); const s = shops(); delete s[shopId]; await saveShops(s); viewers.delete(shopId); },
     viewers: viewersOf,

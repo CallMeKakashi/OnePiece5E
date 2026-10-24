@@ -1,5 +1,5 @@
 import { MODULE_ID } from "../constants.mjs";
-import { price, currencyLabel, fmt, wealthIn } from "./currency.mjs";
+import { price, currencyLabel, fmt, wealthIn, roundUp, roundDown, goldValue } from "./currency.mjs";
 // The player's storefront: browse by category, build a cart, send it to the GM. Nothing moves until the GM approves.
 const ID = MODULE_ID;
 const { HandlebarsApplicationMixin, ApplicationV2 } = foundry.applications.api;
@@ -37,14 +37,14 @@ export class ShopApp extends HandlebarsApplicationMixin(ApplicationV2) {
     let rows;
     if (buying) {
       rows = shop.items.map((e) => {
-        const unit = Math.ceil(price(e, shop)), qty = cart[e.key] ?? 0, soldOut = e.stock !== null && e.stock <= 0;
+        const unit = roundUp(price(e, shop)), qty = cart[e.key] ?? 0, soldOut = e.stock !== null && e.stock <= 0;
         return { id: e.key, img: e.img, name: e.name, cat: catOf(e.type), unit, unitText: fmt(unit), qty, stockText: e.stock === null ? "" : soldOut ? "Sold out" : `${e.stock} left`, soldOut,
           maxed: soldOut || unit <= 0 || (e.stock !== null && qty >= e.stock), onRequest: unit <= 0, can: purse >= unit, short: Math.max(0, unit - purse) };
       });
     } else {
       const ratio = game.settings.get(ID, "sellRatio") / 100;
-      rows = (actor?.items ?? []).filter((i) => Number(i.system.price?.value) > 0 && !i.system.equipped).map((i) => {
-        const have = i.system.quantity ?? 1, unit = Math.floor(Number(i.system.price.value) * ratio), qty = cart[i.id] ?? 0;
+      rows = (actor?.items ?? []).filter((i) => goldValue(i.system.price) > 0 && !i.system.equipped).map((i) => {
+        const have = i.system.quantity ?? 1, unit = roundDown(goldValue(i.system.price) * ratio), qty = cart[i.id] ?? 0;
         return { id: i.id, img: i.img, name: i.name, cat: catOf(i.type), unit, unitText: fmt(unit), qty, stockText: have > 1 ? `you have ${have}` : "", maxed: qty >= have, can: true, short: 0 };
       });
     }

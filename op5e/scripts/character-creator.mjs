@@ -1,4 +1,4 @@
-import { registerSettings } from "./settings.mjs";
+import { registerSettings, SETTINGS, MODULE_ID } from "./settings.mjs";
 import { registerPrerequisites, unmetPrerequisites } from "./prerequisites.mjs";
 import { createFromDraft } from "./wizard/create.mjs";
 import { OP5eCharacterCreatorWizard } from "./wizard/WizardApp.mjs";
@@ -26,6 +26,7 @@ Hooks.on("renderActorDirectory", (_app, html) => {
   // Simple launch point: a header button in the Actors sidebar.
   const canCreate = game.user?.isGM || game.user?.role >= CONST.USER_ROLES.PLAYER;
   if (!canCreate) return;
+  if (!game.settings.get(MODULE_ID, SETTINGS.SHOW_CREATOR)) return;   // the "Show the Create OPC button" world setting
 
   const root = html instanceof HTMLElement ? html : html?.[0];
   if (!root) return;
