@@ -13,3 +13,7 @@ test("two classes map by level, subclass by class", () => {
   expect([draft.speciesId, draft.backgroundId, draft.abilities.str, draft.abilities.con]).toEqual(["m1", "c1", 18, 10]);
   expect(unmapped).toEqual(["subclass: Path of the Berserker"]);
 });
+test("classMap renames an old class before lookup", () => {
+  const { draft, unmapped } = draftFromOldSheet({ ...old, items: [{ type: "class", name: "Paladin", system: { levels: 5 } }] }, find, { Paladin: "Fighter" });
+  expect([draft.classId, draft.level, unmapped]).toEqual(["f1", 5, []]);
+});

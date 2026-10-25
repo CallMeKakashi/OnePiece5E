@@ -5,8 +5,9 @@ import { withDefaults, ABILITY_KEYS, MAX_LEVEL } from "./wizard/create.mjs";
 
 const byType = (items, type) => items.filter((i) => i.type === type);
 
-/** {draft, unmapped}: `unmapped` lists old parts with no op5e equivalent so the report can say what was left behind. */
-export function draftFromOldSheet(old, find) {
+/** {draft, unmapped}: `unmapped` lists old parts with no op5e equivalent so the report can say what was left behind.
+ *  `classMap` renames old classes per run (for example { Paladin: "Savant" }); there is no default table, so the DM picks every mapping. */
+export function draftFromOldSheet(old, find, classMap = {}) {
   const unmapped = [], items = old.items ?? [];
   const classes = byType(items, "class").sort((a, b) => (b.system?.levels ?? 0) - (a.system?.levels ?? 0)).slice(0, 2);
   const subs = byType(items, "subclass");
@@ -17,7 +18,7 @@ export function draftFromOldSheet(old, find) {
     const level = Math.min(left, Math.max(1, c.system?.levels ?? 1)); left -= level;
     const sub = subs.find((s) => s.system?.classIdentifier === c.system?.identifier);
     const suffix = n ? "2" : "";
-    draft[`classId${suffix}`] = pick("classes", c.name, "class");
+    draft[`classId${suffix}`] = pick("classes", classMap[c.name] ?? c.name, "class");
     draft[n ? "level2" : "level"] = level;
     if (sub) draft[`subclassId${suffix}`] = pick("subclasses", sub.name, "subclass");
   });
@@ -33,12 +34,12 @@ const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]/g, "");
 
 /** GM only: build a new actor through Create OPC from an old sheet, then carry gear, spells, feats and berries over. Dry run unless apply is true. */
 export function registerRebuildOldCharacter() {
-  game.op5eRebuildOldCharacter = async (source, { apply = false } = {}) => {
+  game.op5eRebuildOldCharacter = async (source, { apply = false, classMap = {} } = {}) => {
     if (!game.user.isGM) throw new Error("GM only");
     const idx = {};
     for (const [kind, pack] of Object.entries(PACK_OF)) idx[kind] = [...(await game.packs.get(`${MODULE_ID}.${pack}`).getIndex())];
     const find = (kind, name) => idx[kind].find((e) => norm(e.name) === norm(name))?._id ?? null;
-    const { draft, unmapped } = draftFromOldSheet(source.toObject(), find);
+    const { draft, unmapped } = draftFromOldSheet(source.toObject(), find, classMap);
     if (!apply) return { applied: false, draft, unmapped };
     const actor = await game.op5eCharacterCreator.createFromDraft(draft, { auto: true });
     const carried = await game.op5eCarryOldCharacter(source, actor, { apply: true });
