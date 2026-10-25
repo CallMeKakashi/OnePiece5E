@@ -6,7 +6,7 @@
 //   indexes  re-run only those shards; the others keep their last results
 // Prints a one-line progress report every 30 s; writes reports/execution-everything.json when done.
 import { spawn } from "node:child_process";
-import { readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { readFileSync, readdirSync, writeFileSync, statSync } from "node:fs";
 
 const ALL = ["class-features", "racial-features", "feats", "items", "creations", "backgrounds", "devil-fruits", "ship-weapons"];
 // 3 shards by default: every shard is a headless browser of about 3.5 GB. SWEEP_SHARDS=5 uses all five automation users.
@@ -57,12 +57,14 @@ const run = (i) => new Promise((res) => {
 });
 // exit code 4 = the shard saved its place and asked for a fresh browser: start it again, resuming
 const runShard = async (i) => { let r = await run(i); while (r.code === 4) { resume = true; r = await run(i); } return r; };
+const startedAt = Date.now();
 const done = await Promise.all(active.map(runShard));
 clearInterval(timer);
 report();
 const merged = {};
 for (const i of [0, 1, 2, 3, 4]) {
-  try { for (const [pack, rows] of Object.entries(JSON.parse(readFileSync(`reports/.sweep-shard-${i}.json`, "utf8")))) { const into = (merged[pack] ??= []); for (const r of rows) if (!into.some((x) => x.id === r.id)) into.push(r); } } catch { /* shard never ran */ }
+  try { if (!resume && statSync(`reports/.sweep-shard-${i}.json`).mtimeMs < startedAt) continue;   // a shard file from an earlier run is stale: leave its rows out
+    for (const [pack, rows] of Object.entries(JSON.parse(readFileSync(`reports/.sweep-shard-${i}.json`, "utf8")))) { const into = (merged[pack] ??= []); for (const r of rows) if (!into.some((x) => x.id === r.id)) into.push(r); } } catch { /* shard never ran */ }
 }
 if (!process.argv.includes("--small")) writeFileSync("reports/execution-everything.json", JSON.stringify(merged, null, 1));
 let docs = 0, fails = 0;
