@@ -38,3 +38,4 @@ export const STAGES = [
 
 // Independent single-user stages: ship-check runs these side by side (one automation user and one browser each, gated by free memory).
 // Left out on purpose: stages that fix their own users (multi-player, shop approval, walkthroughs), that change the shared campaign PCs (rebuild PCs, transformations, rules, old characters), and performance (timing needs a quiet machine).
+export const POOL = new Set(["optional rules", "batch 1 features", "batch 4 features", "batch 5 features", "batch 6 features", "batch 7 features", "animations", "fruit casting", "token auras", "turn expiry", "token-effect items", "effects pack", "canvas effects", "extra sources", "dnd5e 6 features", "falling", "summons and ships", "ship cannon"]);
