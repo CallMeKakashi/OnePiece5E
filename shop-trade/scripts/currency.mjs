@@ -1,4 +1,4 @@
-import { MODULE_ID } from "../constants.mjs";
+import { MODULE_ID } from "./constants.mjs";
 import { toGold, ceilCents, floorCents } from "./templates-lib.mjs";
 // Currency helpers. "coins" mode uses CONFIG.DND5E.currencies (cp/sp/ep/gp/pp conversion ratios, with change making); "single" mode uses one coin only.
 const ID = MODULE_ID;

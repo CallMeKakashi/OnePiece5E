@@ -1,5 +1,5 @@
 import { test, expect } from "vitest";
-import { randomShopName, randomOwner, shopNameCount, SPECIES } from "../scripts/shop/names-lib.mjs";
+import { randomShopName, randomOwner, shopNameCount, SPECIES } from "../scripts/names-lib.mjs";
 
 // deterministic rng so the tests do not flake
 const seeded = (s = 1) => () => ((s = (s * 16807) % 2147483647) - 1) / 2147483646;

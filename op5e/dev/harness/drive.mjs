@@ -3,7 +3,7 @@
 import { chromium } from "playwright-core";
 import { readFileSync } from "node:fs";
 const BASE = process.env.FOUNDRY_URL ?? "http://localhost:30000";
-const REQUIRED = ["lib-wrapper", "socketlib", "dae", "op5e"]; // midi-qol/CPR need dnd5e>=5.2, world is 5.1.10
+const REQUIRED = ["lib-wrapper", "socketlib", "dae", "op5e", "shop-trade"]; // midi-qol/CPR need dnd5e>=5.2, world is 5.1.10
 const HARNESS = readFileSync(new URL("./scripts/harness.mjs", import.meta.url), "utf8");
 
 export async function foundryStatus() {

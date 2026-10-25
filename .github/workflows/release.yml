@@ -9,6 +9,7 @@ permissions:
 
 jobs:
   build-and-upload:
+    if: ${{ !startsWith(github.event.release.tag_name, 'shop-trade-') }}   # shop-trade has its own release workflow
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

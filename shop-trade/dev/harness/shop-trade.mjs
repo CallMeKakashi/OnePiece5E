@@ -1,5 +1,5 @@
-// Shop and trade checks (scripts/shop/, part of op5e): buy, sell, trade, insufficient funds, out of stock, NPC merchant, permissions, export/import. Test world, Automation user.
-import { withFoundry } from "./drive.mjs";
+// Shop and trade checks (the shop-trade module): buy, sell, trade, insufficient funds, out of stock, NPC merchant, permissions, export/import. Test world, Automation user.
+import { withFoundry } from "../../../op5e/dev/harness/drive.mjs";
 const run = async () => {
   const out = [], ok = (n, p, d = "") => out.push(`${p ? "PASS" : "FAIL"} ${n} ${d}`);
   const T = game.shopTrade, mk = (n, gp) => Actor.create({ name: n, type: "character", system: { currency: { gp } } });
@@ -50,7 +50,7 @@ const run = async () => {
   // export / import
   const copy = await T.importShop(T.exportShop(shop)); ok("Export and import a shop", T.list().find((s) => s.id === copy)?.items.length === 2);
   for (const a of [buyer, other]) await a.delete(); await sword.delete();
-  await game.settings.set("op5e", "shops", {});
+  await game.settings.set("shop-trade", "shops", {});
   for (const m of game.messages.filter((x) => /\[SH\]|Trade completed/.test(x.content))) await m.delete().catch(() => {});
   return out;
 };

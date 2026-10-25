@@ -1,6 +1,6 @@
 // Drives the GM side of the shop demo from a headless GM (Automation) so the browser pane can be a player's screen.
 // Usage: node dev/harness/demo-gm.mjs <setup|show|showall|approve|decline|hide|reset>   (test world only)
-import { withFoundry } from "./drive.mjs";
+import { withFoundry } from "../../../op5e/dev/harness/drive.mjs";
 const action = process.argv[2] ?? "setup";
 await withFoundry(async (page) => {
   const r = await page.evaluate(async (action) => {
@@ -9,7 +9,7 @@ await withFoundry(async (page) => {
     if (action === "reset" || action === "setup") {
       for (const a of game.actors.filter((x) => x.name.startsWith("[DEMO]"))) await a.delete();
       for (const s of T.list()) await T.deleteShop(s.id);
-      await game.settings.set("op5e", "shopRequests", []);
+      await game.settings.set("shop-trade", "shopRequests", []);
       if (action === "reset") return "reset";
       const user = p1 ?? await User.create({ name: "Test Player 1", role: CONST.USER_ROLES.PLAYER });
       if (!p2) await User.create({ name: "Test Player 2", role: CONST.USER_ROLES.PLAYER });

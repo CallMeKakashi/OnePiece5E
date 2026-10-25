@@ -2,9 +2,9 @@ name: CI (op5e)
 
 on:
   push:
-    paths: ["op5e/**", ".github/workflows/ci.yml"]
+    paths: ["op5e/**", "shop-trade/**", ".github/workflows/ci.yml"]
   pull_request:
-    paths: ["op5e/**", ".github/workflows/ci.yml"]
+    paths: ["op5e/**", "shop-trade/**", ".github/workflows/ci.yml"]
 
 jobs:
   build-and-test:
@@ -34,3 +34,22 @@ jobs:
       - name: Unit tests
         working-directory: op5e
         run: mkdir -p ../Foundry/actors-json && npm test
+
+  shop-trade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: shop-trade/package-lock.json
+
+      - name: Install
+        working-directory: shop-trade
+        run: npm ci
+
+      - name: Unit tests
+        working-directory: shop-trade
+        run: npm test

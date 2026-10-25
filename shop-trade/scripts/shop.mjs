@@ -1,13 +1,14 @@
-import { MODULE_ID } from "../constants.mjs";
-// Shop and trade (part of op5e; kept in scripts/shop/ so it could be split out later).
+import { MODULE_ID } from "./constants.mjs";
+// Shop and trade: a standalone Foundry module for dnd5e worlds (coins or a single currency).
 // Flow: the GM shows a shop to chosen players (or all); their client opens the storefront; every purchase or sale is a REQUEST the GM approves;
 // money and items move only on the GM's client. The GM panel shows who is looking at a shop right now.
 // API: game.shopTrade.{createShop, addItem, show, hide, openGM, open, sendRequest, decide, buy, sell, trade, exportShop, importShop, list}.
 import { ShopApp, openTradeDialog } from "./shop-app.mjs";
 import { ShopGMApp } from "./gm-panel.mjs";
-import { shopTypes, findType, templateStock, TEMPLATE_SETS, defaultSet, setOfType, isBlank } from "./templates.mjs";
+import { shopTypes, findType, templateStock, TEMPLATE_SETS, defaultSet, setOfType, isBlank, setChoices, registerTemplateSet } from "./templates.mjs";
 import { price, canAfford, pay, receive, wealthIn, currencyLabel, fmt, roundUp, roundDown, goldValue } from "./currency.mjs";
 import { registerItemTrade } from "./item-trade.mjs";
+import { migrateFromOp5e } from "./migrate.mjs";
 import { randomShopName, randomOwner } from "./names-lib.mjs";
 import { cleanOffer, cleanPrice, tradeMessage, offerSummary } from "./item-trade-lib.mjs";
 
@@ -26,31 +27,33 @@ export const untrack = (app) => apps.delete(app);
 const refresh = () => { apps.forEach((a) => a.render()); ui.actors?.render?.(); };
 
 export const initShop = () => {
+  game.modules.get(ID).api = { registerTemplateSet };   // other modules add template sets from their "ready" hook
   registerItemTrade();
   Hooks.on("renderActorDirectory", (_app, html) => {
-    const root = html instanceof HTMLElement ? html : html[0]; if (!root || root.querySelector(".op5e-shop-button")) return;
+    const root = html instanceof HTMLElement ? html : html[0]; if (!root || root.querySelector(".shop-trade-button")) return;
     const bar = root.querySelector(".directory-header .header-actions") ?? root.querySelector(".header-actions") ?? root.querySelector(".directory-header"); if (!bar) return;
     const mine = Object.values(shops()).filter((s) => visibleTo(s, game.user));
     if (game.user.isGM || mine.length) {
-      const b = document.createElement("button"); b.type = "button"; b.className = "op5e-shop-button";
+      const b = document.createElement("button"); b.type = "button"; b.className = "shop-trade-button";
       b.innerHTML = game.user.isGM ? '<i class="fa-solid fa-store"></i> Shops' : '<i class="fa-solid fa-store"></i> Shop';
       b.addEventListener("click", () => game.user.isGM ? game.shopTrade.openGM() : openStorefront(mine[0].id));
       bar.prepend(b);
     }
     if (!game.user.isGM && myActor()) {
-      const t = document.createElement("button"); t.type = "button"; t.className = "op5e-shop-button op5e-trade-button";
+      const t = document.createElement("button"); t.type = "button"; t.className = "shop-trade-button shop-trade-trade";
       t.innerHTML = '<i class="fa-solid fa-handshake"></i> Trade'; t.addEventListener("click", () => openTradeDialog(myActor())); bar.prepend(t);
     }
   });
 
+  game.settings.register(ID, "migratedFromOp5e", { scope: "world", config: false, type: Boolean, default: false });
   game.settings.register(ID, "shops", { scope: "world", config: false, type: Object, default: {} });
   game.settings.register(ID, "shopRequests", { scope: "world", config: false, type: Array, default: [] });
   game.settings.register(ID, "currencyMode", { name: "SHOPTRADE.CurrencyMode", hint: "SHOPTRADE.CurrencyModeHint", scope: "world", config: true, type: String, default: "coins", choices: { coins: "Coins (dnd5e)", single: "Single currency" } });
   game.settings.register(ID, "singleCurrency", { name: "SHOPTRADE.SingleCurrency", scope: "world", config: true, type: String, default: "gp" });
   game.settings.register(ID, "sellRatio", { name: "SHOPTRADE.SellRatio", scope: "world", config: true, type: Number, default: 50 });
-  game.settings.register(ID, "shopTemplateSet", { name: "SHOPTRADE.TemplateSet", hint: "SHOPTRADE.TemplateSetHint", scope: "world", config: true, type: String, default: "onepiece", choices: { onepiece: "One Piece (Berries, Shop Catalogues)", fantasy: "Fantasy (gold, stocked from a compendium)" } });
+  game.settings.register(ID, "shopTemplateSet", { name: "SHOPTRADE.TemplateSet", hint: "SHOPTRADE.TemplateSetHint", scope: "world", config: true, type: String, default: "fantasy", choices: setChoices() });
   game.settings.register(ID, "usedShopNames", { scope: "world", config: false, type: Array, default: [] });   // every random shop and owner name handed out, so none repeats
-  game.settings.register(ID, "shopCompendium", { name: "SHOPTRADE.Compendium", hint: "SHOPTRADE.CompendiumHint", scope: "world", config: true, type: String, default: "world.drathmir-compendium" });
+  game.settings.register(ID, "shopCompendium", { name: "SHOPTRADE.Compendium", hint: "SHOPTRADE.CompendiumHint", scope: "world", config: true, type: String, default: "dnd5e.items" });
 };
 
 const owns = (userId, actor) => { const u = game.users.get(userId); return !!actor && !!u && (u.isGM || actor.testUserPermission(u, "OWNER")); };
@@ -311,6 +314,7 @@ function handleEvent(msg) {
 }
 
 export const readyShop = () => {
+  migrateFromOp5e();
   game.socket.on(SOCKET, async (msg) => {
     if (msg.event) return handleEvent(msg);
     if (msg.reply) { const p = pending.get(msg.id); if (p) { clearTimeout(p.timer); pending.delete(msg.id); msg.error ? p.reject(new Error(msg.error)) : p.resolve(msg.result); } return; }
@@ -396,7 +400,7 @@ export const readyShop = () => {
       await saveShops(s); return n;
     },
     get types() { return shopTypes(); },          // this world's default set (the "shopTemplateSet" setting)
-    typeSets: TEMPLATE_SETS, findType, setOfType,   // both sets, a type by key from either set, and which set a saved type belongs to
+    typeSets: TEMPLATE_SETS, findType, setOfType, registerTemplateSet,   // every set, a type by key from any set, which set a saved type belongs to, and adding a set
     allocate,
     async deleteShop(shopId) { gmOnly(); const s = shops(); delete s[shopId]; await saveShops(s); viewers.delete(shopId); },
     viewers: viewersOf,

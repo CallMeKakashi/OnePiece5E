@@ -1,0 +1,79 @@
+/* Shop (storefront and GM panel) */
+.shop-trade .window-content { padding: 0; }
+.shop-trade .shop-body { display: flex; flex-direction: column; gap: 10px; padding: 12px; overflow-y: auto; height: 100%; font-size: 14px; }
+.shop-trade h2 { margin: 0; font-size: 20px; border: 0; }
+.shop-trade h3 { margin: 0 0 6px; font-size: 14px; border: 0; opacity: .85; }
+.shop-trade .sub { font-size: 12px; opacity: .7; }
+.shop-trade .cur { opacity: .75; font-weight: 400; }
+.shop-trade .shop-head { display: flex; align-items: center; gap: 12px; padding-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,.12); }
+.shop-trade .shop-head .who { flex: 1; min-width: 0; }
+.shop-trade .keeper { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; border: 1px solid rgba(255,255,255,.25); flex: none; }
+.shop-trade .purse { text-align: right; }
+.shop-trade .purse .amount { font-size: 16px; font-weight: 700; }
+.shop-trade .tabs { display: flex; gap: 6px; }
+.shop-trade .tabs button { flex: 1; }
+.shop-trade .tabs button.on, .shop-trade .chip.on { background: rgba(120,160,255,.28); border-color: rgba(120,160,255,.7); }
+.shop-trade .cats { display: flex; gap: 6px; flex-wrap: wrap; }
+.shop-trade .chip { width: auto; padding: 2px 10px; line-height: 22px; font-size: 12px; border-radius: 12px; }
+.shop-trade .chip .n { opacity: .6; margin-left: 4px; }
+.shop-trade .chip .n.alert { background: #c0392b; color: #fff; border-radius: 8px; padding: 0 6px; opacity: 1; }
+.shop-trade .rows { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.shop-trade .row { display: flex; align-items: center; gap: 10px; padding: 6px 8px; border: 1px solid rgba(255,255,255,.12); border-radius: 8px; }
+.shop-trade .row.soldout { opacity: .5; }
+.shop-trade .row img { width: 36px; height: 36px; border: 0; border-radius: 6px; flex: none; }
+.shop-trade .row .what { flex: 1; min-width: 0; }
+.shop-trade .row .name { font-weight: 600; }
+.shop-trade .row .note { font-size: 12px; opacity: .7; }
+.shop-trade .row .cost { text-align: right; min-width: 120px; }
+.shop-trade .row .price { font-weight: 700; }
+.shop-trade .state { font-size: 12px; }
+.shop-trade .state.good { color: #5fcf80; }
+.shop-trade .state.bad { color: #ff7a6b; }
+.shop-trade .qty { display: flex; align-items: center; gap: 4px; }
+.shop-trade .qty button { width: 28px; height: 28px; padding: 0; line-height: 26px; }
+.shop-trade .qty .q { min-width: 18px; text-align: center; font-weight: 700; }
+.shop-trade .cart { display: grid; gap: 6px; padding: 10px; border: 1px solid rgba(120,160,255,.5); border-radius: 8px; background: rgba(120,160,255,.08); }
+.shop-trade .cart .amt { float: right; opacity: .8; }
+.shop-trade .cart .send, .shop-trade button.ok { background: rgba(80,180,110,.35); border-color: rgba(80,180,110,.8); }
+.shop-trade .status { padding: 8px 10px; border: 1px solid rgba(255,255,255,.12); border-radius: 8px; }
+.shop-trade .pending-box { border-color: rgba(240,180,60,.7); background: rgba(240,180,60,.08); }
+.shop-trade .req { display: flex; align-items: center; gap: 8px; padding: 4px 0; flex-wrap: wrap; }
+.shop-trade .req .text { flex: 1; min-width: 160px; }
+.shop-trade .req .badge { font-size: 11px; padding: 1px 8px; border-radius: 10px; background: rgba(255,255,255,.12); }
+.shop-trade .req.pending .badge { background: rgba(240,180,60,.35); }
+.shop-trade .req.approved .badge { background: rgba(80,180,110,.4); }
+.shop-trade .req.declined .badge { background: rgba(220,90,80,.4); }
+.shop-trade .req .note { font-size: 12px; opacity: .75; width: 100%; }
+.shop-trade .shop-empty { opacity: .7; padding: 10px; text-align: center; list-style: none; }
+.shop-trade .picker select { width: auto; }
+.shop-trade .keeper-line { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.shop-trade .keeper-line .quiet { margin-left: auto; width: auto; }
+.shop-trade .showbar { display: flex; gap: 8px; margin-bottom: 8px; }
+.shop-trade .people { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.shop-trade .person { display: flex; align-items: center; gap: 8px; padding: 4px 8px; border-radius: 6px; border: 1px solid rgba(255,255,255,.1); }
+.shop-trade .person .dot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.shop-trade .person .pname { flex: 1; font-weight: 600; }
+.shop-trade .person .pstate { font-size: 12px; opacity: .75; }
+.shop-trade .person.looking { background: rgba(80,180,110,.18); border-color: rgba(80,180,110,.6); }
+.shop-trade .person.looking .pstate { color: #5fcf80; opacity: 1; font-weight: 700; }
+.shop-trade .person.shown { background: rgba(120,160,255,.12); }
+.shop-trade .gm-rows .field { display: flex; flex-direction: column; font-size: 11px; width: 90px; }
+.shop-trade .gm-rows .field input { height: 24px; }
+.shop-trade-button { width: auto; }
+
+.shop-trade .bargain { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.shop-trade .bargain .or { font-size: 12px; opacity: .7; }
+.shop-trade .bargain input { width: 130px; }
+.shop-trade .history { width: 100%; font-size: 12px; opacity: .85; margin: 2px 0 4px; display: grid; gap: 1px; }
+.shop-trade .answer { width: 100%; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-top: 4px; }
+.shop-trade .answer input[type=number] { width: 100px; }
+.shop-trade .answer input[type=text] { flex: 1; min-width: 120px; }
+.shop-trade .req.countered .badge { background: rgba(120,160,255,.4); }
+
+.shop-trade .stockctl { display: flex; align-items: center; gap: 3px; }
+.shop-trade .stockctl input { width: 54px; height: 26px; text-align: center; }
+.shop-trade .stockctl button { width: auto; min-width: 26px; height: 26px; padding: 0 6px; line-height: 24px; font-size: 12px; }
+.shop-trade .guides { display: flex; gap: 6px; flex-wrap: wrap; }
+.shop-trade .guides button { width: auto; font-size: 12px; }
+
+

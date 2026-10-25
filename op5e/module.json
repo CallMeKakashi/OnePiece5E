@@ -215,6 +215,7 @@
   ],
   "relationships": {
     "recommends": [
+      { "id": "shop-trade", "type": "module", "reason": "Shops and player trades (the One Piece shop types register with it)" },
       {
         "id": "lib-wrapper",
         "type": "module",

@@ -20,9 +20,6 @@ export const STAGES = [
   ["batch 7 features", "node dev/harness/text-batch7.mjs", "Last group: stances, totems, auras, Achilles Heel, Legendary Flourish, Signature Fighting Style"],
   ["old characters", "node dev/harness/import-old.mjs", "The nine old campaign sheets rebuild through Create OPC and carry their gear, proficiencies and berries"],
   ["animations", "node dev/harness/animations.mjs", "OP5e autorec entries merged into Automated Animations with valid ids; AA loads clean"],
-  ["shop and trade", "node dev/harness/shop-trade.mjs", "Standalone shop module: buy, sell, trade, funds, stock, permissions"],
-  ["shop approval", "node dev/harness/shop-approval.mjs", "GM and two players: show, presence, cart, approve, decline, cancel, permissions"],
-  ["shop coins", "node dev/harness/shop-coins.mjs", "Shop money with stock dnd5e coins and change making (stand-in actor)"],
   ["fruit casting", "node dev/harness/fruit-casting.mjs", "Devil Fruit Uses as spell points; Zoans cast only in a form"],
   ["token auras", "node dev/harness/auras.mjs", "Aura of Freedom/Courage/Devotion/Tenacity become Aura Effects auras on a character"],
   ["turn expiry", "node dev/harness/turn-expiry.mjs", "An effect with a turn-start special duration ends exactly at the source's next turn"],
@@ -41,4 +38,3 @@ export const STAGES = [
 
 // Independent single-user stages: ship-check runs these side by side (one automation user and one browser each, gated by free memory).
 // Left out on purpose: stages that fix their own users (multi-player, shop approval, walkthroughs), that change the shared campaign PCs (rebuild PCs, transformations, rules, old characters), and performance (timing needs a quiet machine).
-export const POOL = new Set(["optional rules", "batch 1 features", "batch 4 features", "batch 5 features", "batch 6 features", "batch 7 features", "animations", "shop and trade", "shop coins", "fruit casting", "token auras", "turn expiry", "token-effect items", "effects pack", "canvas effects", "extra sources", "dnd5e 6 features", "falling", "summons and ships", "ship cannon"]);

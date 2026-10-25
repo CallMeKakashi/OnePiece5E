@@ -1,4 +1,4 @@
-import { MODULE_ID } from "../constants.mjs";
+import { MODULE_ID } from "./constants.mjs";
 import { price, currencyLabel, fmt, wealthIn, roundUp, roundDown, goldValue } from "./currency.mjs";
 // The player's storefront: browse by category, build a cart, send it to the GM. Nothing moves until the GM approves.
 const ID = MODULE_ID;
@@ -12,7 +12,7 @@ const shopsNow = () => game.settings.get(ID, "shops");
 
 export class ShopApp extends HandlebarsApplicationMixin(ApplicationV2) {
   static DEFAULT_OPTIONS = {
-    id: "op5e-shop", classes: ["op5e-shop"], window: { title: "Shop", resizable: true }, position: { width: 560, height: 680 },
+    id: "shop-trade", classes: ["shop-trade"], window: { title: "Shop", resizable: true }, position: { width: 560, height: 680 },
     actions: { view: ShopApp.#view, cat: ShopApp.#cat, add: ShopApp.#add, sub: ShopApp.#sub, send: ShopApp.#send, sendOffer: ShopApp.#sendOffer, cancel: ShopApp.#cancel, accept: ShopApp.#accept, counter: ShopApp.#counter, withdraw: ShopApp.#withdraw, guide: ShopApp.#guide },
   };
   static PARTS = { body: { template: `modules/${ID}/templates/shop.hbs` } };

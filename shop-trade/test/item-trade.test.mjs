@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { tradeBlocker, cleanOffer, cleanPrice, tradeMessage, offerSummary, itemLine } from "../scripts/shop/item-trade-lib.mjs";
+import { tradeBlocker, cleanOffer, cleanPrice, tradeMessage, offerSummary, itemLine } from "../scripts/item-trade-lib.mjs";
 
 const held = new Map([
   ["a", { name: "Flintlock", type: "weapon", quantity: 1 }],

@@ -1,6 +1,6 @@
 // Pure shop-template maths (no Foundry): the fantasy shop set stocks from a compendium by filtering entries.
 import { test, expect } from "vitest";
-import { toGold, ceilCents, floorCents, matchesSpec, selectStock } from "../scripts/shop/templates-lib.mjs";
+import { toGold, ceilCents, floorCents, matchesSpec, selectStock } from "../scripts/templates-lib.mjs";
 
 test("prices convert to gold by denomination", () => {
   expect(toGold({ value: 5, denomination: "sp" })).toBe(0.5);
@@ -19,19 +19,24 @@ test("rounding is to the copper piece with no float noise", () => {
 });
 
 // templates.mjs imports Foundry-only constants at call time, not import time, so the type tables can be checked here
-import { FANTASY_SHOP_TYPES, ONE_PIECE_SHOP_TYPES, findType, setOfType, isBlank, TEMPLATE_SETS } from "../scripts/shop/templates.mjs";
+import { FANTASY_SHOP_TYPES, findType, setOfType, isBlank, TEMPLATE_SETS, registerTemplateSet, setChoices } from "../scripts/templates.mjs";
 
-test("fantasy keys never collide with One Piece keys", () => {
-  const fantasy = Object.keys(FANTASY_SHOP_TYPES), onePiece = Object.keys(ONE_PIECE_SHOP_TYPES);
-  expect(fantasy.every((k) => k.startsWith("fantasy_"))).toBe(true);
-  expect(fantasy.filter((k) => onePiece.includes(k))).toEqual([]);
+test("fantasy keys are prefixed and found", () => {
+  expect(Object.keys(FANTASY_SHOP_TYPES).every((k) => k.startsWith("fantasy_"))).toBe(true);
   expect(setOfType("fantasy_general")).toBe("fantasy");
-  expect(setOfType("general")).toBe("onepiece");
   expect(findType("fantasy_apothecary").label).toBe("Apothecary");
-  expect(findType("apothecary").markup).toBe(10);
   expect(findType("nope").label).toBe("Blank shop");
   expect(isBlank("blank") && isBlank("fantasy_blank") && !isBlank("armory")).toBe(true);
-  expect(Object.keys(TEMPLATE_SETS)).toEqual(["onepiece", "fantasy"]);
+});
+
+test("another module can register a template set", () => {
+  registerTemplateSet("onepiece", { label: "One Piece", types: { armory: { label: "Armory", keeper: "Armorer", markup: 10, pages: [] }, blank: { label: "Blank shop", keeper: "Shopkeeper", markup: 0 } } });
+  expect(setOfType("armory")).toBe("onepiece");
+  expect(findType("armory").markup).toBe(10);
+  expect(isBlank("blank")).toBe(true);
+  expect(Object.keys(TEMPLATE_SETS)).toEqual(["fantasy", "onepiece"]);
+  expect(setChoices().onepiece).toBe("One Piece");
+  expect(() => registerTemplateSet("bad", { label: "x" })).toThrow();
 });
 
 const sword = { uuid: "a", name: "Longsword", type: "weapon", rarity: "", subtype: "martialM", gp: 15 };

@@ -17,7 +17,7 @@ import { registerBestAc } from "./best-ac.mjs";
 import { berriesToCoin } from "./berries-to-coin.mjs";
 import { registerConditionalEffects } from "./conditional-effects.mjs";
 import { registerCompactChat } from "./compact-chat.mjs";
-import { initShop, readyShop } from "./shop/shop.mjs";
+import { registerOnePieceShop } from "./shop-onepiece.mjs";
 import { registerUpdateNotice } from "./update-notice.mjs";
 import { registerHealthCheck } from "./health-check.mjs";
 import { registerMcpApi } from "./mcp-api.mjs";
@@ -77,7 +77,6 @@ Hooks.once("init", () => {
   registerBestAc();
   registerConditionalEffects();
   registerCompactChat();
-  initShop();
   registerUpdateNotice();
   registerHealthCheck();
   registerWorldPackSync();
@@ -120,7 +119,7 @@ Hooks.once("setup", () => {
 });
 
 Hooks.once("ready", async () => {
-  readyShop();
+  registerOnePieceShop();
   if (useBerries()) applyBerriesEncumbrance(game.settings.get(MODULE_ID, "berriesWeightless"));
   initOp5eAnimations();
 });

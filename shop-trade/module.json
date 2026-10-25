@@ -1,0 +1,15 @@
+{
+  "id": "shop-trade",
+  "title": "Shop & Trade",
+  "description": "Shops and player trades for dnd5e worlds. The GM shows a shop to chosen players; every purchase or sale is a request the GM approves. Works with dnd5e coins or a single currency.",
+  "version": "1.0.0",
+  "compatibility": { "minimum": "13", "verified": "13.350" },
+  "authors": [{ "name": "Blood & Brine" }],
+  "esmodules": ["scripts/main.mjs"],
+  "styles": ["styles/shop-trade.css"],
+  "languages": [{ "lang": "en", "name": "English", "path": "lang/en.json" }],
+  "relationships": { "systems": [{ "id": "dnd5e", "type": "system", "compatibility": { "minimum": "5.0.0" } }] },
+  "url": "https://github.com/CallMeKakashi/OnePiece5E",
+  "manifest": "https://raw.githubusercontent.com/CallMeKakashi/OnePiece5E/main/shop-trade/module.json",
+  "download": "https://github.com/CallMeKakashi/OnePiece5E/releases/download/shop-trade-v1.0.0/shop-trade.zip"
+}
