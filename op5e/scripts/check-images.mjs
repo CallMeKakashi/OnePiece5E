@@ -18,7 +18,7 @@ const bad = [];
 let checked = 0;
 for (const pack of readdirSync("packs-src")) for (const f of readdirSync(`packs-src/${pack}`)) {
   const d = JSON.parse(readFileSync(`packs-src/${pack}/${f}`, "utf8"));
-  const isJournalOnly = pack === "reference" || pack === "roll-tables" || pack === "spell-lists";
+  const isJournalOnly = pack === "reference" || pack === "roll-tables" || pack === "spell-lists" || pack === "playlists";
   const imgs = [["doc", d.img], ["token", d.prototypeToken?.texture?.src], ...(d.effects ?? []).map((e) => ["effect " + e.name, e.img ?? e.icon])];
   for (const [what, u] of imgs) {
     if (u === undefined && (isJournalOnly || what === "token")) continue;

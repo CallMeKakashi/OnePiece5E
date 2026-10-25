@@ -8,8 +8,8 @@ import { generateId } from "../../helpers/id.js";
 const SCRIPTS = join(dirname(fileURLToPath(import.meta.url)), "../../../dev/harness/scripts");
 const defs = [
   { name: "OP5e: Import Playlists", file: "import-playlists-macro.js", img: "icons/svg/sound.svg" },
-  { name: "OP5e: Import Actor Bundle", file: "import-bundle-macro.js", img: "icons/svg/mystery-man.svg" },
-  { name: "OP5e: Apply Config Bundle", file: "apply-config-macro.js", img: "icons/svg/cog.svg" },
+  { name: "OP5e: Import Actor Bundle", file: "import-bundle-macro.js", img: "icons/svg/chest.svg" },
+  { name: "OP5e: Apply Config Bundle", file: "apply-config-macro.js", img: "icons/svg/clockwork.svg" },
 ];
 const stats = { coreVersion: "13", systemId: "dnd5e", systemVersion: "5.1.10" };
 
