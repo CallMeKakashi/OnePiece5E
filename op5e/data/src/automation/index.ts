@@ -34,7 +34,16 @@ import { atlItemSpecs } from "./atl-items.js"; Object.assign(AUTOMATION, atlItem
 import { auditFixSpecs0 } from "./audit-fixes-0.js"; Object.assign(AUTOMATION, auditFixSpecs0);
 import { auditFixSpecs1 } from "./audit-fixes-1.js"; Object.assign(AUTOMATION, auditFixSpecs1);
 import { auditFixSpecs2 } from "./audit-fixes-2.js"; Object.assign(AUTOMATION, auditFixSpecs2);
-import { auditFixSpecs3 } from "./audit-fixes-3.js"; Object.assign(AUTOMATION, auditFixSpecs3);
+import { auditFixSpecs3 } from "./audit-fixes-3.js"; Object.assign(AUTOMATION, keepSimpleEffects(auditFixSpecs3));
 import { auditFixSpecs4 } from "./audit-fixes-4.js"; Object.assign(AUTOMATION, auditFixSpecs4);
 
-import { auditFixSpecs } from "./audit-fixes.js"; Object.assign(AUTOMATION, auditFixSpecs);   // audit fixes replace earlier specs
+import { auditFixSpecs } from "./audit-fixes.js"; Object.assign(AUTOMATION, auditFixSpecs);   // audit fixes replace earlier specs
+
+/** An audit fix replaces the whole earlier spec. For a feat whose earlier simple-bonus spec carried effects and whose fix brings none (it only adds activities), keep the effects; otherwise the bonus silently disappears. */
+function keepSimpleEffects(fixes: typeof auditFixSpecs3): typeof auditFixSpecs3 {
+  const early: Record<string, { extraEffects?: unknown[] }> = { ...simpleBonusSpecs, ...batch1Specs, ...batch2Specs, ...batch3Specs };
+  return Object.fromEntries(Object.entries(fixes).map(([k, v]) => {
+    const keep = early[k]?.extraEffects;
+    return [k, keep?.length && !v.extraEffects?.length ? { ...v, extraEffects: keep as typeof v.extraEffects } : v];
+  }));
+}
