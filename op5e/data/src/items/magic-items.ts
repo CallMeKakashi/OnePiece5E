@@ -1,5 +1,6 @@
 import { generateId } from "../../helpers/id.js";
 import type { FoundryItem } from "../../schemas/common.js";
+import { priceMagicItems } from "./magic-prices.js";
 
 const STATS = {
   compendiumSource: null, duplicateSource: null,
@@ -154,7 +155,7 @@ function healingUse(formula: string): ItemActionOptions {
   });
 }
 
-export const magicItems: FoundryItem[] = [
+export const magicItems: FoundryItem[] = priceMagicItems([
   // ═══════════════════════════════════
   // ARMOR
   // ═══════════════════════════════════
@@ -659,4 +660,4 @@ export const magicItems: FoundryItem[] = [
   // ─── Scrolls ───
   lootItem("scrolls-guide", "Scrolls (Creation Scrolls)", "common",
     `<p>Scrolls take the form of gadgets created by characters that can use creativity and cast creations. For gadgeteers, they may be seen as single-charge gadgets, or medicine brewed by a medic.</p>`),
-];
+]);
