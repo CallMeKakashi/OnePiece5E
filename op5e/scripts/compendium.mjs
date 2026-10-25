@@ -13,6 +13,7 @@ import { registerAuras } from "./auras.mjs";
 import { registerCanvasFx } from "./canvas-fx.mjs";
 import { registerExtraSources } from "./extra-sources.mjs";
 import { registerBestAc } from "./best-ac.mjs";
+import { berriesToCoin } from "./berries-to-coin.mjs";
 import { registerConditionalEffects } from "./conditional-effects.mjs";
 import { registerCompactChat } from "./compact-chat.mjs";
 import { initShop, readyShop } from "./shop/shop.mjs";
@@ -144,6 +145,12 @@ Hooks.on("dnd5e.preRollDamageV2", (rollConfig, dialog, message) => {
 // Zoan Hybrid/Full Beast Form last 10 minutes, 1 hour at 5th level, 8 hours at 10th, 24 hours at 15th and unlimited at 20th.
 // The effect ships with 10 minutes; set the real length from the actor's level when it lands on the actor.
 const SIZES = ["tiny", "sm", "med", "lg", "huge", "grg"];
+// op5e prices are Berries; a coins world gets them as real coins when the item is created from an op5e compendium entry
+Hooks.on("preCreateItem", (item) => {
+  const price = item.system?.price;
+  if (useBerries() || !item._stats?.compendiumSource?.startsWith(`Compendium.${MODULE_ID}.`) || !(price?.value > 0) || price.denomination !== "gp") return;
+  item.updateSource({ "system.price": berriesToCoin(price.value) });
+});
 Hooks.on("preCreateActiveEffect", (effect) => {
   if (!(effect.parent instanceof Actor)) return;
   // Zoan Enhanced Form: one size category bigger while it lasts

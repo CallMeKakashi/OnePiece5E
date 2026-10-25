@@ -12,6 +12,9 @@ _Avoid_: Source (op5e is compiled software; Sourcebook is imported reference tex
 The module's item/feature/actor packs, authored in `packs-src/` and built into `packs/`; imported by the character creator.
 _Avoid_: Calling the whole module "the compendium"
 
+**Berries world / coins world**:
+A world with `berriesCurrency` on uses Berries as its only coin (the `gp` slot relabelled); a world with it off keeps dnd5e's coins. Compendium prices are written in Berries; the book's rate is 1 GP = 10,000 Berries. Each world is a separate game with its own items, so a world's setting is chosen once.
+
 **Workshop vs live**:
 See [../CONTEXT-MAP.md](../CONTEXT-MAP.md): op5e tests produce workshop JSON, not live world state.
 

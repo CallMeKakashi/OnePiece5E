@@ -3,10 +3,9 @@
 Order is rough priority. "Now" items are being done straight after the current ship-check passes.
 
 ## Now (after the current test run)
-1. **Merge the five walkthrough scripts into one, and run the real-UI checks automatically** (`dev/harness/walkthrough*.mjs` + `ui-lib.mjs`
-   become one step-list script). Wire it into `scripts/ship-check.mjs` as a stage so Phase 3/4 UI checks run with every ship check.
-2. **CI on every push** (`.github/workflows/ci.yml`): build, validate, regression, unit tests. The release workflow already exists.
-   Open item: `module.json` manifest/download URLs point at `Blood-and-Brine/blood-brine` while the repo is `CallMeKakashi/OnePiece5E`.
+1. **DONE: real-UI walkthroughs run in `scripts/ship-check.mjs`** (stage "real-UI walkthroughs" runs `dev/harness/walkthrough-all.mjs`). Merging the five scripts into one was dropped: no behaviour gain.
+2. **DONE: CI on every push** (`.github/workflows/ci.yml`: build, validate, regression, unit tests) and the `module.json` URLs point at `CallMeKakashi/OnePiece5E`.
+3. **Coins-world prices** (issues #57, #58, spec `docs/specs/coins-world-prices.md`): op5e prices convert from Berries to coins when `berriesCurrency` is off.
 
 ## 1. Refresh characters from the compendium (DONE: `game.op5eRefreshActor(actor, {apply})`, issue #19)
 Existing actors keep old copies of feats and items. A tool that updates an actor's items from the current compendium, keeping uses spent,
