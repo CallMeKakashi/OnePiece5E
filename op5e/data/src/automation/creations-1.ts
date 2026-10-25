@@ -51,8 +51,11 @@ export const creationSpecs1: Record<string, Spec> = {
   ] },
 
   "creations/Blazing Bullet": { activities: [
-    { name: "Blazing Bullet", type: "damage", activation: "bonus", damage: [["1d6", "fire", "1d6"]], note: "When you hit with a ranged weapon attack: extra fire damage, and the target ignites." },
-    { name: "Burning Save", type: "save", activation: "special", targets: { count: 1, type: "creature" }, save: { ability: "con", onSave: "none" }, damage: [["1d6", "fire"]], note: "At the start of each of its turns the ignited target makes this save. On a failure it takes the damage; on a success the creation ends. It also ends if the flames are put out." },
+    { name: "Blazing Bullet", type: "damage", activation: "bonus", damage: [["1d6", "fire", "1d6"]],
+      // midi-qol OverTime rolls the save at the start of the target's turn and removes Burning on a success; DAE fills @attributes.spelldc from the caster when the effect is applied
+      effects: [{ name: "Burning", onTargets: true, changes: [{ key: "flags.midi-qol.OverTime", mode: 5, value: "turn=start,label=Burning,damageRoll=1d6,damageType=fire,saveAbility=con,saveDC=@attributes.spelldc,saveRemove=true" }] }],
+      note: "When you hit with a ranged weapon attack: extra fire damage, and the target ignites." },
+    { name: "Burning Save", type: "save", activation: "special", targets: { count: 1, type: "creature" }, save: { ability: "con", onSave: "none" }, damage: [["1d6", "fire"]], note: "Manual fallback without midi-qol (midi rolls this automatically through the Burning effect). At the start of each of its turns the ignited target makes this save. On a failure it takes the damage; on a success the creation ends. It also ends if the flames are put out." },
   ] },
 
   "creations/Blinding Smite": { activities: [
