@@ -7,6 +7,7 @@ import { initSkillsAndTools } from "./skills-and-tools.mjs";
 import { registerOptionalRules } from "./optional-rules.mjs";
 import { registerImportJournals } from "./import-journals.mjs";
 import { registerImportOldCharacter } from "./import-old-character.mjs";
+import { registerRebuildOldCharacter } from "./old-sheet-draft.mjs";
 import { registerFruitCasting } from "./fruit-casting.mjs";
 import { registerFalling } from "./falling.mjs";
 import { registerAuras } from "./auras.mjs";
@@ -66,6 +67,7 @@ Hooks.once("init", () => {
   registerImportJournals();
   registerRefreshActor();
   registerImportOldCharacter();
+  registerRebuildOldCharacter();
   registerMcpApi();
   registerFruitCasting();
   registerFalling();

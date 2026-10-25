@@ -11,8 +11,8 @@ Order is rough priority. "Now" items are being done straight after the current s
 Existing actors keep old copies of feats and items. A tool that updates an actor's items from the current compendium, keeping uses spent,
 equipped state, quantities and custom edits, so a fix reaches existing PCs without rebuilding them.
 
-## 1b. Devil Fruit casting (BUILT with assumptions, issue #20: scripts/fruit-casting.mjs; confirm or change the constants at its top)
-Assumed answers: (a) 3 cantrips plus one leveled spell per character level; (b) highest spell level = Uses maximum; (c) no preparing, normal concentration; (d) Zoans cast only in Hybrid/Full Beast Form until level 20; (e) a spell costing more than the Uses left cannot be cast.
+## 1b. Devil Fruit casting (DONE, DM confirmed the assumed constants 2026-10-25, issue #20: scripts/fruit-casting.mjs)
+Confirmed answers: (a) 3 cantrips plus one leveled spell per character level; (b) highest spell level = Uses maximum; (c) no preparing, normal concentration; (d) Zoans cast only in Hybrid/Full Beast Form until level 20; (e) a spell costing more than the Uses left cannot be cast.
 
 - Every Devil Fruit user is treated as a caster whose spell points are **Devil Fruit Uses**: a spell of level N costs N uses; cantrips are free.
 - Each fruit's spell list is whatever fits the fruit's description, so the list **cannot be filtered**: on each new spell level unlocked, Paramecia and Logia users pick spells freely from any creation or spell available.
@@ -47,7 +47,7 @@ inside an "OP5e World Items" pack), so it can be imported into another world.
 - Reverse direction: import a whole folder into another world.
 - Must never write into the shared op5e compendiums.
 
-## 4. Import an old character into Create OPC (PARTLY DONE: `game.op5eCarryOldCharacter(source, target, {apply})` carries gear, spells, loose feats, berries and exact proficiencies onto a Create OPC actor; issue #23. Still open: driving Create OPC itself from the old sheet, early Haki, fighting styles)
+## 4. Import an old character into Create OPC (PARTLY DONE: `game.op5eCarryOldCharacter(source, target, {apply})` carries gear, spells, loose feats, berries and exact proficiencies onto a Create OPC actor; issue #23. `game.op5eRebuildOldCharacter(source, {apply})` now drives Create OPC from the old sheet (class, levels, subclass, species, background, abilities; spec-free, unit-tested, not yet run live). Still open: early Haki)
 Take an existing actor (or exported actor JSON) and rebuild it through the Create OPC flow: map class, subclass, race, background, ability scores,
 skills, Haki and fruit; list what had no equivalent (like the biography note the PC rebuild writes now). Builds on `dev/harness/rebuild-pcs.mjs`.
 

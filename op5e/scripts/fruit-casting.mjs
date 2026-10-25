@@ -1,7 +1,7 @@
 // Devil Fruit casting (issue #20). A Devil Fruit user casts spells and creations with Devil Fruit Uses as spell points.
 // DM rules: a spell of level N costs N uses, cantrips are free, spells are learned freely from any pack (not limited to op5e),
 // Zoans can cast only while transformed (Hybrid Form / Full Beast Form) until they reach ZOAN_FREE_LEVEL.
-// Assumptions where the DM has not answered yet (docs/FUTURE-WORK.md 1b), kept as constants so they are one-line changes:
+// Confirmed by the DM 2026-10-25 (spells known follow character level); kept as constants so they are one-line changes:
 //   a) a user knows CANTRIPS_KNOWN cantrips plus (character level) leveled spells   b) the highest spell level they can learn or cast is their Uses maximum
 //   c) learned spells need no preparing; concentration works as usual              d) Zoans cast too, but only in a form until level 20
 //   e) a spell costing more than the Uses left cannot be cast
